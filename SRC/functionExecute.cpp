@@ -4620,7 +4620,7 @@ static FunctionResult ClearMatchCode(char* buffer)
 
 static FunctionResult BurstCode(char* buffer) //   take value and break into facts of burst-items as subjects
 {//   ^burst(^cause : )   1: data source 2: burst character  optional 0th argument is WORDCOUNT
-
+	// burst(^ITEM letterdigit)
 	//   prepare spot to store pieces
 	MEANING verb;
 	MEANING object;
@@ -4657,7 +4657,7 @@ static FunctionResult BurstCode(char* buffer) //   take value and break into fac
 
 	unsigned int counter = 0;
 	if (count && *ptr) counter = 1; // there is at least one.
-	
+	char* arg1 = ARGUMENT(1);
 	bool tracing = false;
 	if (trace)
 	{
@@ -4668,6 +4668,8 @@ static FunctionResult BurstCode(char* buffer) //   take value and break into fac
 	//   get string to search for. If quoted, remove the quotes
 	char* scan = ARGUMENT(2);	//   how to burst
 	char* scan1 = scan;
+	bool digitsplit = false;
+	if (!stricmp(scan, "digitsplit")) digitsplit = true;
 
 	if (!*scan || !*scan1) // scan1 test just to suppress compiler warning
 	{
@@ -4680,6 +4682,46 @@ static FunctionResult BurstCode(char* buffer) //   take value and break into fac
 		++ptr;
 		size_t len = strlen(ptr);
 		if (ptr[len-1] == '"') ptr[len-1] = 0;
+	}
+
+	if (digitsplit)
+	{
+		char digits[MAX_WORD_SIZE];
+		char* atdigit = digits;
+		char letters[MAX_WORD_SIZE];
+		if (IsDigit(*arg1))
+		{
+			while (IsDigit(*arg1) || *arg1 == '.') *atdigit++ = *arg1++;
+			*atdigit = 0;
+			strcpy(letters, arg1);
+		}
+		else
+		{
+			size_t len = strlen(arg1);
+			while (IsDigit(arg1[--len]) || arg1[len] == '.');
+			strcpy(digits, arg1 + len + 1);
+			arg1[len + 1] = 0;
+			strcpy(letters, arg1);
+		}
+		if (impliedWild != ALREADY_HANDLED)
+		{
+			SetWildCard(letters, letters, 0, 0);
+			SetWildCard(digits, digits, 0, 0);
+			impliedWild = ALREADY_HANDLED;
+		}
+		else if (impliedSet != ALREADY_HANDLED)
+		{
+			MEANING T = MakeMeaning(StoreWord(letters, AS_IS));
+			FACT* F = CreateFact(T, verb, object, FACTTRANSIENT | FACTDUPLICATE);
+			AddFact(impliedSet, F);
+			T = MakeMeaning(StoreWord(digits, AS_IS));
+			F = CreateFact(T, verb, object, FACTTRANSIENT | FACTDUPLICATE);
+			AddFact(impliedSet, F);
+			currentFact = NULL;
+			impliedSet = ALREADY_HANDLED;
+		}
+		else sprintf(buffer, "%s %s", letters, digits);
+		return NOPROBLEM_BIT;
 	}
 
 	if (*scan == '"' ) // if a quoted string as burst char, remove the quotes

@@ -235,6 +235,34 @@ static void HandleBoot(WORDP boot, bool reboot)
 	rebooting = false;
 }
 
+int CountWordsInBuckets(int& unused, unsigned int* depthcount,int limit)
+{
+	memset(depthcount, 0, sizeof(int)*1000);
+	unused = 0;
+	int words = 0;
+	for (int i = 0; i <= maxHashBuckets; ++i)
+	{
+		unsigned int n = 0;
+		if (!hashbuckets[i]) ++unused;
+		else
+		{
+			WORDP D = Index2Word(hashbuckets[i]);
+			while (D != dictionaryBase)
+			{
+				++n;
+				D = Index2Word(GETNEXTNODE(D));
+			}
+		}
+		words += n;
+		if (n < limit) depthcount[n]++;
+		else
+		{
+			int xx = 0;
+		}
+	}
+	return words;
+}
+
 void CreateSystem()
 {
 	overrideAuthorization = false;	// always start safe
@@ -361,44 +389,34 @@ void CreateSystem()
 	char buf[MAX_WORD_SIZE];
 	strcpy(buf,StdIntOutput(factFree-factBase));
 	strcpy(buf2,StdIntOutput(textFreeMemKB));
-	unsigned int hole = 0;
-	unsigned int maxdepth = 0;
-	unsigned int count = 0;
-	for (WORDP D = dictionaryBase+1; D < dictionaryFree; ++D) 
+	unsigned int depthcount[1000];
+	int unused;
+	int words = CountWordsInBuckets(unused, depthcount,1000);
+
+	char depthmsg[1000];
+	int x = 1000;
+	while (!depthcount[--x]); // find first used slot
+	char* at = depthmsg;
+	*at = 0;
+	for (int i = 0; i <= x; ++i)
 	{
-		if (!D->word) ++hole; 
-		else
-		{
-			unsigned int n = 1;
-			WORDP X = D; 
-			while (X != dictionaryBase)
-			{
-				++n;
-				X = dictionaryBase + GETNEXTNODE(X);
-			}  
-			if (n > maxdepth) 
-			{
-				maxdepth = n;
-				count = 1;
-			}
-			else if (n == maxdepth) ++count;
-		}
+		sprintf(at, "%d.", depthcount[i]);
+		at += strlen(at);
 	}
-	sprintf(data,(char*)"Used %dMB: dict %s (%dkb) hashdepth %d/%d fact %s (%dkb) heap %dkb\r\n",
-		used/1000,
-		StdIntOutput(dictionaryFree-dictionaryBase), 
-		dictUsedMemKB,maxdepth,count,
+
+	sprintf(data, (char*)"Used %dMB: dict %s (%dkb) hashdepths %s words %d unusedbuckets %d fact %s (%dkb) heap %dkb\r\n",
+		used / 1000,
+		StdIntOutput(dictionaryFree - dictionaryBase - 1),
+		dictUsedMemKB, depthmsg,words,unused,
 		buf,
 		factUsedMemKB,
 		textUsedMemKB);
 	if (server) Log(SERVERLOG,(char*)"%s",data);
 	else printf((char*)"%s",data);
 
-	sprintf(data,(char*)"           buffer (%dkb) cache (%dkb) POS: %d (%dkb)\r\n",
+	sprintf(data,(char*)"           buffer (%dkb) cache (%dkb)\r\n",
 		bufferMemKB,
-		(userTopicStoreSize + userTableSize)/1000,
-		tagRuleCount,
-		bytes);
+		(userTopicStoreSize + userTableSize)/1000);
 	if(server) Log(SERVERLOG,(char*)"%s",data);
 	else printf((char*)"%s",data);
 
@@ -406,7 +424,8 @@ void CreateSystem()
 	strcpy(buf1,StdIntOutput(textFreeMemKB)); // unused text
 	strcpy(buf2,StdIntOutput(free/1000));
 
-	sprintf(data,(char*)"Free %sMB: dict %s hash %d fact %s stack/heap %sKB \r\n\r\n",buf2,StdIntOutput(((unsigned int)maxDictEntries)-(dictionaryFree-dictionaryBase)),hole,buf,buf1);
+	sprintf(data,(char*)"Free %sMB: dict %s fact %s stack/heap %sKB \r\n\r\n",
+		buf2,StdIntOutput(((unsigned int)maxDictEntries)-(dictionaryFree-dictionaryBase)),buf,buf1);
 	if (server) Log(SERVERLOG,(char*)"%s",data);
 	else printf((char*)"%s",data);
 
@@ -453,10 +472,10 @@ void CreateSystem()
 
 void ReloadSystem()
 {//   reset the basic system through wordnet but before topics
-	InitFacts(); 
-	InitDictionary();
-	InitStackHeap();
-	InitCache();
+	InitFacts(); // malloc space
+	InitStackHeap(); // malloc space
+	InitDictionary(); // malloc space
+	InitCache(); // malloc space
 	// make sets for the part of speech data
 	LoadDictionary();
 	InitFunctionSystem();

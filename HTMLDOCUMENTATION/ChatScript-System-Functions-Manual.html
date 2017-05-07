@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1 id="chatscript-system-functions-manual">ChatScript System Functions Manual</h1>
-<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 4/30/2017 cs7.41</p>
+<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 5/7/2017 cs7.42</p>
 <ul>
 <li><a href="ChatScript-System-Functions-Manual.html#topic-functions">Topic Functions</a></li>
 <li><a href="ChatScript-System-Functions-Manual.html#marking-functions">Marking Functions</a></li>
@@ -814,6 +814,7 @@ u: (%document)
 <p>If burst_character is the null string &quot;&quot;, it means burst into characters.</p>
 <p><code>^burst</code> takes an optional first parameter <code>count</code>, which tells it to return how many items it would return if you burst, but not to do the burst.<br />
 <code>^burst</code> takes an optional first parameter <code>once</code> which says split only into the first burst and then the leftover rest.</p>
+<p><code>^burst</code> has a special burst value <code>digitsplit</code> which will split a number-text thing or a text-number thing into two pieces (text thing and number thing). This is good for splitting a currency thing lik USD25 or 25$.</p>
 <h3 id="words-someword"><code>^words ( someword )</code></h3>
 <p>Looks up the given word and returns all words matching it. Matching includes the lower case form of it and any number of uppercase forms of it. E.g, you might say <code>^words(ted)</code> and get back facts for <em>ted</em>, <em>Ted</em>, <em>TED</em>.</p>
 <p>The answers are a series of facts of the form (someword words words). In addition to case switching, the system will automatically switch words with underscores or blanks into words with changes in them to the other (since CS stores phrases with underscores). So <code>^words(&quot;I love you&quot;)</code> can match phrases already in the dictionary of: <br><em>I_love you</em> <br><em>I_love_you</em> <br><em>I love you</em> <br><em>I LOVE You</em></p>

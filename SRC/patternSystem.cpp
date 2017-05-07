@@ -290,6 +290,39 @@ static bool FindPhrase(char* word, int start,bool reverse, int & actualStart, in
 	return matched;
 }
 
+char* PushMatch()
+{
+	char* limit;
+	char* base = InfiniteStack64(limit,"PushMatch");
+	int* vals = (int*)base;
+	for (int i = 0; i < MAX_WILDCARDS; ++i) *vals++ = wildcardPosition[i];
+	char* rest = (char*) vals;
+	for (int i = 0; i < MAX_WILDCARDS; ++i)
+	{
+		strcpy(rest, wildcardOriginalText[i]);
+		rest += strlen(rest) + 1;
+		strcpy(rest, wildcardCanonicalText[i]);
+		rest += strlen(rest) + 1;
+	}
+	CompleteBindStack64(rest - base, base);
+	return base;
+}
+
+void PopMatch(char* base)
+{
+	int* vals = (int*)base;
+	for (int i = 0; i < MAX_WILDCARDS; ++i) wildcardPosition[i] = *vals++;
+	char* rest = (char*)vals;
+	for (int i = 0; i < MAX_WILDCARDS; ++i)
+	{
+		strcpy(wildcardOriginalText[i],rest);
+		rest += strlen(rest) + 1;
+		strcpy(wildcardCanonicalText[i],rest);
+		rest += strlen(rest) + 1;
+	}
+	ReleaseStack(base);
+}
+
 // NOTE: in reverse mode, positionStart is still earlier in the sentence than PositionEnd. We do not flip viewpoint.
 // rebindable refers to ability to relocate firstmatched on failure (1 means we can shift from here, 3 means we enforce spacing and cannot rebind)
 // returnStart and returnEnd are the range of the match that happened
@@ -310,10 +343,13 @@ bool Match(char* buffer,char* ptr, unsigned int depth, int startposition, char* 
 	int wildcardBase = wildcardIndex;
 	unsigned int result;
 	int bidirectional = 0;
-    WORDP D;
+	int bidirectionalSelector = 0;
+	int bidirectionalWildcardIndex = 0;
+	WORDP D;
 	unsigned int oldtrace = trace;
 	int beginmatch = -1; // for ( ) where did we actually start matching
 	bool success = false;
+	char* priorPiece = NULL;
 	int at;
 	int slidingStart = startposition;
     firstMatched = -1; //   ()  should return spot it started (firstMatched) so caller has ability to bind any wild card before it
@@ -398,7 +434,7 @@ bool Match(char* buffer,char* ptr, unsigned int depth, int startposition, char* 
 					wildcardSelector |=  (WILDMEMORIZEGAP + (wildcardIndex << GAP_SHIFT)); // variable gap
 				}
 				SetWildCardNull(); // dummy match to reserve place
-				if (trace & TRACE_PATTERN  && CheckTopicTrace()) Log(STDTRACELOG,(char*)"_");
+				if (trace & TRACE_PATTERN  && CheckTopicTrace() && bidirectional != 2) Log(STDTRACELOG,(char*)"_");
 				continue;
 			case '@': // factset ref
 				if (word[1] == '_') // set positional reference  @_20+ or @_0-   or anchor @_20
@@ -639,6 +675,14 @@ bool Match(char* buffer,char* ptr, unsigned int depth, int startposition, char* 
 					if (word[1] == '~') 
 					{
 						wildcardSelector |= (word[2]-'0') << GAPLIMITSHIFT; // *~3 - limit is 9 back
+						if (word[strlen(word) - 1] == 'b')
+						{
+							bidirectional = 1; // now aiming backwards
+							priorPiece = ptr;
+							reverse = !reverse; // run inverted first
+							bidirectionalSelector = wildcardSelector;
+							bidirectionalWildcardIndex = wildcardIndex;
+						}
 					}
                     else // I * meat
 					{
@@ -671,14 +715,16 @@ bool Match(char* buffer,char* ptr, unsigned int depth, int startposition, char* 
                 
 				D = FindWord(word,0); // find the function
 				if (!D || !(D->internalBits & FUNCTION_NAME)) matched = false; // shouldnt fail
-				else if (D->x.codeIndex) // system function - execute it
+				else if (D->x.codeIndex || D->internalBits & IS_OUTPUT_MACRO) // system function or output macro- execute it
                 {
+					char* base = PushMatch();
 					AllocateOutputBuffer();
 					FunctionResult result;
 					if (!stricmp(D->word,"^match") || !stricmp(D->word, "^mark") || !stricmp(D->word, "^unmark")) matching = true;
 					ptr = DoFunction(word,ptr,currentOutputBase,result);
 					matching = false;
-					matched = !(result & ENDCODES); 
+					PopMatch(base);
+					matched = !(result & ENDCODES);
 
 					// allowed to do comparisons on answers from system functions but cannot have space before them, but not from user macros
 					if (*ptr == '!' && ptr[1] == ' ' )// simple not operator or no operator
@@ -1068,6 +1114,7 @@ DOUBLELEFT:  case '(': case '[':  case '{': // nested condition (required or opt
 					if (beginmatch == -1) beginmatch = positionStart; // first match in this level
 				}
          } 
+
 		statusBits &= -1 ^ QUOTE_BIT; // turn off any pending quote
         if (statusBits & NOT_BIT) // flip success to failure maybe
         {
@@ -1206,6 +1253,26 @@ DOUBLELEFT:  case '(': case '[':  case '{': // nested condition (required or opt
             positionEnd = oldEnd;
   			if (*kind == '(' || *kind == '<') wildcardSelector = 0; /// should NOT clear this inside a [] or a {} on failure since they must try again
         }
+
+		// manage bidirectional failure or success
+		if (bidirectional)
+		{
+			if (matched)
+			{
+				if (bidirectional == 1) reverse = !reverse;
+				bidirectional = 0;
+			}
+			else if (bidirectional == 1)
+			{
+				reverse = !reverse;
+				bidirectional = 2;
+				ptr = priorPiece;
+				wildcardSelector = bidirectionalSelector;
+				wildcardIndex = bidirectionalWildcardIndex;
+				continue;
+			}
+			else bidirectional = 0; // give up fully
+		}
 
         //   end sequence/choice/optional/random
         if (*word == ')' || *word ==  ']' || *word == '}' || (*word == '>' && word[1] == '>')) 

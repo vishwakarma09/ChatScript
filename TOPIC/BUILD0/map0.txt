@@ -1603,15 +1603,11 @@ file: C:/ChatScript/RAWDATA/ONTOLOGY/PARSER/timewords.top 0
     concept: ~timewords 2
 file: C:/ChatScript/RAWDATA/WORLDDATA/animals.tbl 0
           line: 2 0
-          line: 3 28
-          line: 4 67
-          line: 36 0
-          line: 37 25
-    concept: ~animal_homes 102
-          line: 105 0
-          line: 106 40
-          line: 107 70
-          line: 108 109
+          line: 34 0
+          line: 35 25
+    concept: ~animal_homes 100
+          line: 103 0
+          line: 104 40
 file: C:/ChatScript/RAWDATA/WORLDDATA/basicbooks.tbl 0
           line: 3 0
           line: 4 29
@@ -1636,51 +1632,45 @@ file: C:/ChatScript/RAWDATA/WORLDDATA/basicbooks.tbl 0
           line: 54 216
           line: 55 274
 file: C:/ChatScript/RAWDATA/WORLDDATA/basicgeography.tbl 0
-          line: 4 0
-          line: 5 46
-          line: 7 92
-          line: 8 129
-          line: 17 0
-          line: 18 37
-          line: 19 68
-          line: 20 103
-          line: 21 149
-          line: 150 0
-          line: 151 35
-          line: 152 76
-          line: 153 110
-          line: 163 0
-          line: 164 34
-          line: 165 75
-          line: 166 109
-    concept: ~countryadjective 172
-          line: 175 0
-          line: 176 44
-          line: 177 91
-          line: 178 137
-          line: 179 169
-    concept: ~capital 201
-          line: 205 0
-          line: 206 59
-          line: 207 86
-          line: 208 121
-          line: 209 153
-    concept: ~state_region 471
-          line: 474 0
-          line: 475 71
-          line: 476 100
-          line: 477 122
-          line: 478 208
-          line: 479 233
-    concept: ~currency 1005
-          line: 1009 0
-          line: 1010 36
-          line: 1011 67
-          line: 1012 98
-          line: 1013 134
-          line: 1226 0
-          line: 1227 84
-          line: 1228 168
+          line: 5 0
+          line: 6 37
+          line: 15 0
+          line: 16 37
+          line: 17 68
+          line: 146 0
+          line: 147 35
+          line: 148 76
+          line: 158 0
+          line: 159 34
+          line: 160 75
+    concept: ~countryadjective 166
+          line: 169 0
+          line: 170 44
+          line: 171 91
+          line: 172 137
+          line: 173 169
+    concept: ~capital 195
+          line: 199 0
+          line: 200 59
+          line: 201 86
+          line: 202 121
+          line: 203 153
+    concept: ~state_region 465
+          line: 468 0
+          line: 469 71
+          line: 470 100
+          line: 471 122
+          line: 472 208
+          line: 473 233
+    concept: ~currency 999
+          line: 1003 0
+          line: 1004 36
+          line: 1005 67
+          line: 1006 98
+          line: 1007 134
+          line: 1220 0
+          line: 1221 84
+          line: 1222 168
 file: C:/ChatScript/RAWDATA/WORLDDATA/basicmovies_tv.tbl 0
           line: 2 0
           line: 3 35
@@ -1724,7 +1714,6 @@ file: C:/ChatScript/RAWDATA/WORLDDATA/geography.tbl 0
           line: 6 25
 file: C:/ChatScript/RAWDATA/WORLDDATA/lifespan.tbl 0
           line: 4 0
-          line: 5 31
 file: C:/ChatScript/RAWDATA/WORLDDATA/literature.tbl 0
           line: 2 0
           line: 3 33
@@ -1846,7 +1835,6 @@ file: C:/ChatScript/RAWDATA/WORLDDATA/peoplegroups.tbl 0
           line: 37 171
 file: C:/ChatScript/RAWDATA/WORLDDATA/speed.tbl 0
           line: 3 0
-          line: 4 28
 file: C:/ChatScript/RAWDATA/WORLDDATA/things.tbl 0
     concept: ~electronics_store 1
     concept: ~grocery 2

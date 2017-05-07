@@ -1,7 +1,6 @@
 
 table: ~XSPEED (^what  ^mph )
 ^createfact(^mph speed ^what)
-^addproperty(^what NOUN NOUN_SINGULAR)
 
 DATA:
 ~bird 30  

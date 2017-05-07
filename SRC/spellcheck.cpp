@@ -512,12 +512,12 @@ bool SpellCheckSentence()
 			WORDP D = FindWord(join,0,(tokenControl & ONLY_LOWERCASE) ?  PRIMARY_CASE_ALLOWED : STANDARD_LOOKUP);
 
 			strcpy(join,word);
-			if (!D || !(D->properties & PART_OF_SPEECH) ) // merge these two, except "going to" or wordnet composites of normal words  // merge as a compound word
-			{
-				strcat(join,(char*)"_");
-				strcat(join,wordStarts[i+1]);
-				D = FindWord(join,0,(tokenControl & ONLY_LOWERCASE) ?  PRIMARY_CASE_ALLOWED : STANDARD_LOOKUP);
-			}
+//			if (!D || !(D->properties & PART_OF_SPEECH) ) // merge these two, except "going to" or wordnet composites of normal words  // merge as a compound word
+//			{
+//				strcat(join,(char*)"_");
+//				strcat(join,wordStarts[i+1]);
+//				D = FindWord(join,0,(tokenControl & ONLY_LOWERCASE) ?  PRIMARY_CASE_ALLOWED : STANDARD_LOOKUP);
+//			}    DONT CREATE _ words, let sequence handle it
 
 			if (D && D->properties & PART_OF_SPEECH && !(D->properties & AUX_VERB)) // merge these two, except "going to" or wordnet composites of normal words
 			{
@@ -803,6 +803,11 @@ static int EditDistance(WORDINFO& dictWordData, WORDINFO& realWordData,int min)
             realinfo = resumeReal;
             continue;
         }
+
+		// punctuation in a word is bad tokenization, dont spell check it away
+		if (*currentCharReal == '?' || *currentCharReal == '!' || *currentCharReal == '('
+			|| *currentCharReal == ')' ||  *currentCharReal == '[' || *currentCharReal == ']'
+			|| *currentCharReal == '{' || *currentCharReal == '}') return 200; // dont mess with this
 
         resumeReal1 = IsUTF8((char*)resumeReal, nextCharReal);
         resumeDict1 = IsUTF8((char*)resumeDict, nextCharDict);

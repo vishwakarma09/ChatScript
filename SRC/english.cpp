@@ -470,6 +470,7 @@ static int64 ProcessNumber(int at, char* original, WORDP& revise, WORDP &entry, 
 #endif
 			}
 			properties = NOUN | NOUN_NUMBER;
+			AddProperty(entry, CURRENCY);
 		}
 		else if (kind == FRACTION_NUMBER)
 		{

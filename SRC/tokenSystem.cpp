@@ -488,6 +488,8 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 		}
 	}
 
+	if (*ptr == '?') return ptr + 1; // we dont have anything that should join after ?    but  ) might start emoticon
+
 	// single letter abbreviaion period like H.
 	if (IsAlphaUTF8(*ptr) && ptr[1] == '.' && ptr[2] == ' ' && IsUpperCase(*ptr)) return ptr + 2;
 	if (*ptr == '.' && ptr[1] == '.' && ptr[2] == '.' && ptr[3] != '.') return ptr + 3;
@@ -520,7 +522,7 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 	{
 		char* at = token;
 		while (*++at && (IsDigit(*at) || *at == '.' || *at == 'e' || *at == 'E' || *at == '-' || *at == '+')) { ; }
-		if (IsFloat(token, at))
+		if (IsFloat(token, at)) // $50. is not a float, its end of sentene
 		{
 			if (*at == '%') ++at;
 			if (*at == 'k' || *at == 'K' || *at == 'm' || *at == 'M' || *at == 'B' || *at == 'b')
@@ -529,18 +531,6 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 			}
 			return ptr + (at - token);
 		}
-	}
-
-	// check for currency number tailing
-	if (IsDigit(*token))
-	{
-		char* at = token;
-		while (*++at && (IsDigit(*at) || *at == ',')) { ; }
-		if (IsSymbolCurrency(at)) return ptr + (at - token);
-	}
-	if (IsTextCurrency(token)) //leading currency as TEXT, not symbol
-	{
-		if (IsDigitWord(token + 3)) return ptr + 3;
 	}
 
 	// check for negative number
@@ -2069,8 +2059,12 @@ static WORDP ViableIdiom(char* text,int i,unsigned int n)
 { // n is words merged into "word"
 
 	WORDP word = FindWord(text,0, STANDARD_LOOKUP);
-    if (!word) return 0;
-
+	if (!word)
+	{
+		size_t len = strlen(text);
+		if (text[len-1] == 's') word = FindWord(text, len-1, STANDARD_LOOKUP);
+		if (!word) return 0;
+	}
     bool again = primaryLookupSucceeded;
     WORDP X = Viability(word, i, n);
     if (X || !again) return X;
@@ -2176,7 +2170,7 @@ static bool ProcessMyIdiom(int i,unsigned int max,char* buffer,char* ptr)
 		result = Substitute(found,D ? D->word : NULL,i,idiomMatch);//   do substitution
 		if (result) tokenFlags |= found->internalBits & (DO_SUBSTITUTE_SYSTEM|DO_PRIVATE); // we did this kind of substitution
 	}
-	else // must be a composite word, not a substitute
+	else if (found->systemFlags & CONDITIONAL_IDIOM)  // must be a composite word, not a substitute
 	{
 
 		if (trace & TRACE_SUBSTITUTE && CheckTopicTrace()) 
@@ -2189,7 +2183,7 @@ static bool ProcessMyIdiom(int i,unsigned int max,char* buffer,char* ptr)
 		tokens[1] = found->word;
 		ReplaceWords("Idiom",i,idiomMatch + 1,1,tokens);
 		result =  true;
-		if (found->systemFlags & CONDITIONAL_IDIOM)  tokenFlags |= NO_CONDITIONAL_IDIOM;
+		tokenFlags |= NO_CONDITIONAL_IDIOM;
 	}
 
 	return result;
@@ -2217,6 +2211,11 @@ void ProcessSubstitutes() // revise contiguous words based on LIVEDATA files
         unsigned int count = 0;
 		WORDP D = FindWord(buffer+1,0,PRIMARY_CASE_ALLOWED); // main word a header?
   		if (D) count = GETMULTIWORDHEADER(D);
+		else if (wordStarts[i][len-1] == 's') // consider singular?
+		{
+			D = FindWord(wordStarts[i], len-1, PRIMARY_CASE_ALLOWED);
+			if (D) count = GETMULTIWORDHEADER(D);
+		}
         
 		//   does secondary form longer phrases?
         WORDP E  = FindWord(buffer+1,0,SECONDARY_CASE_ALLOWED);

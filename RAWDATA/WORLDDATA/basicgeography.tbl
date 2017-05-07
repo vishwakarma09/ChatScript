@@ -1,8 +1,6 @@
 
 
 table: ~languages (^languagename ^language ) 
-^addproperty(^languagename NOUN NOUN_PROPER_SINGULAR)
-^addproperty(^language NOUN NOUN_PROPER_SINGULAR)
 
 ^createfact(^language member ~languages)
 ^createfact(^languagename languagename ^languagename)
@@ -17,8 +15,6 @@ table: ~geofact  (^country ^language )
 ^createfact(^language member ~languages)
 ^createfact(^language language ^country)
 ^createfact(^country member ~country)
-^addproperty(^language NOUN NOUN_PROPER_SINGULAR)
-^addproperty(^country  NOUN_PROPER_SINGULAR NOUN LOCATIONWORD ALWAYS_PROPER_NAME_MERGE)
 
 DATA:
 Albania Albanian
@@ -150,7 +146,6 @@ table: ~country (^nationality ^nation ) # also concept: ~Nationalities
 ^createfact(^nation member ~country)
 ^createfact(^nationality member ~nationalities)
 ^createfact(^nationality nationality ^nation)
-^addproperty(^nation  NOUN_PROPER_SINGULAR NOUN LOCATIONWORD ALWAYS_PROPER_NAME_MERGE)
 
 DATA:
 Frenchy France \n Samoan Samoa \n French France \n German Germany \n Spanish Spain \n Hungarian Hungary \n Finnish Finland \n
@@ -163,7 +158,6 @@ table: ~planet (^citizen ^planet ) # also concept: ~Nationalities
 ^createfact(^planet member ~planet)
 ^createfact(^citizen member ~nationalities)
 ^createfact(^citizen nationality ^planet)
-^addproperty(^planet   NOUN_PROPER_SINGULAR NOUN)
 
 DATA:
 Romulan Romulus \n Klingon Klingon \n Martian Mars \n Venusian Venus \n Earthling Earth \n Vulcan Vulcan \n

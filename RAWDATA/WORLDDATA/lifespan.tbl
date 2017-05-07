@@ -2,7 +2,6 @@
  
 table: ~xlifespan (^what  ^years )
 ^createfact(^years lifespan ^what)
-^addproperty(^what NOUN NOUN_SINGULAR)
 
 DATA:
 [worker_ant ant]  0.5 

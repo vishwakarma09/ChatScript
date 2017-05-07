@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1 id="chatscript-advanced-users-manual">ChatScript Advanced User's Manual</h1>
-<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com<br> <br>Revision 4/30/2017 cs7.41</p>
+<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com<br> <br>Revision 5/7/2017 cs7.42</p>
 <ul>
 <li><a href="ChatScript-Advanced-User-Manual.html#review-overview-of-how-cs-works">Review</a></li>
 <li><a href="ChatScript-Advanced-User-Manual.html#advanced-concepts">Advanced Concepts</a></li>
@@ -65,8 +65,8 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th>Variable scope</th>
-<th>syntax example</th>
+<th>variable scope</th>
+<th>syntax<br>example</th>
 <th>description</th>
 </tr>
 </thead>
@@ -187,92 +187,92 @@ u: ( dog ) I hate dogs</code></pre>
 <p>The first are topic flags, that control a topic's overall behavior. These are placed between the topic name and the (keywords list). You may have multiple flags. E.g.</p>
 <pre><code>topic: ~rust keep random [rust iron oxide]</code></pre>
 <p>The flags and their meanings are:</p>
-<table style="width:47%;">
+<table style="width:42%;">
 <colgroup>
-<col width="26%" />
+<col width="20%" />
 <col width="20%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="center">flag</th>
+<th>flag</th>
 <th>description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="center"><strong><code>random</code></strong></td>
+<td><code>random</code></td>
 <td>search rules randomly instead of linearly</td>
 </tr>
 <tr class="even">
-<td align="center"><strong><code>norandom</code></strong></td>
+<td><code>norandom</code></td>
 <td>(default) search rules linearly</td>
 </tr>
 <tr class="odd">
-<td align="center"><strong><code>keep</code></strong></td>
+<td><code>keep</code></td>
 <td>do not erase responders ever. Gambits (and rejoinders) are not affected by this</td>
 </tr>
 <tr class="even">
-<td align="center"><strong><code>erase</code></strong></td>
+<td><code>erase</code></td>
 <td>(default) erase responders that successfully generate output.<br>Gambits automatically erase unless you suppress them specifically.</td>
 </tr>
 <tr class="odd">
-<td align="center"><strong><code>nostay</code></strong></td>
+<td><code>nostay</code></td>
 <td>do not consider this a topic to remain in, leave it (except for rejoinders)</td>
 </tr>
 <tr class="even">
-<td align="center"><strong><code>stay</code></strong></td>
+<td><code>stay</code></td>
 <td>(default) make this a pending topic when it generates output</td>
 </tr>
 <tr class="odd">
-<td align="center"><strong><code>repeat</code></strong></td>
+<td><code>repeat</code></td>
 <td>allow rules to generate output which has been output recently</td>
 </tr>
 <tr class="even">
-<td align="center"><strong><code>norepeat</code></strong></td>
+<td><code>norepeat</code></td>
 <td>(default) do not generate output if it matches output made recently</td>
 </tr>
 <tr class="odd">
-<td align="center"><strong><code>priority</code></strong></td>
+<td><code>priority</code></td>
 <td>raise the priority of this topic when matching keywords</td>
 </tr>
 <tr class="even">
-<td align="center"><strong><code>normal</code></strong></td>
+<td><code>normal</code></td>
 <td>(default) give this topic normal priority when matching keywords</td>
 </tr>
 <tr class="odd">
-<td align="center"><strong><code>deprioritize</code></strong></td>
+<td><code>deprioritize</code></td>
 <td>lower the priority of this topic when matching keywords</td>
 </tr>
 <tr class="even">
-<td align="center"><strong><code>system</code></strong></td>
+<td><code>system</code></td>
 <td>this is a system topic. It is automatically <code>nostay</code>, <code>keep</code>.<br><code>keep</code> automatically applies to gambits as well. The system never looks to these topics for gambits. System topics can never be considered pending (defined shortly). They can not have themselves or their rules be enabled or disabled. Their status/data is never saved to user files.</td>
 </tr>
 <tr class="odd">
-<td align="center"><strong><code>user</code></strong></td>
+<td><code>user</code></td>
 <td>(default) this is a normal topic</td>
 </tr>
 <tr class="even">
-<td align="center"><strong><code>noblocking</code></strong></td>
+<td><code>noblocking</code></td>
 <td>should not perform any blocking tests on this topic in <code>:verify</code></td>
 </tr>
 <tr class="odd">
-<td align="center"><strong><code>nopatterns</code></strong></td>
+<td><code>nopatterns</code></td>
 <td>should not perform any pattern tests on this topic in <code>:verify</code></td>
 </tr>
 <tr class="even">
-<td align="center"><strong><code>nosamples</code></strong></td>
+<td><code>nosamples</code></td>
 <td>should not perform any sample tests on this topic in <code>:verify</code></td>
 </tr>
 <tr class="odd">
-<td align="center"><strong><code>nokeys</code></strong></td>
+<td><code>nokeys</code></td>
 <td>should not perform any keyword tests on this topic in <code>:verify</code></td>
 </tr>
 <tr class="even">
-<td align="center"><strong><code>more</code></strong></td>
+<td><code>more</code></td>
 <td>normally if you try to redeclare a concept, you get an error. <code>more</code> tells CS you intend to extend the concept and allows additional keywords.</td>
 </tr>
 <tr class="odd">
-<td align="center"><strong><code>bot=name</code></strong></td>
+<td><code>bot=name</code></td>
 <td>if this is given, only named bots are allowed to use this topic. See <a href="ChatScript-Multiple-Bots.html">ChatScript Multiple Bots</a> manual.</td>
 </tr>
 </tbody>
@@ -400,7 +400,7 @@ t: I&#39;ve seen pictures of some really grand sand castles.</code></pre>
 ^mymacro(@0subject)</code></pre>
 <p>Do not write code in a pattern macro as though it is an output code. You can't do</p>
 <pre><code>if (...) {}</code></pre>
-<p>Use patterns, not output script.</p>
+<p>If you want to do that, use an outputmacro and call that from your pattern.</p>
 <h2 id="literal-next">Literal Next <code>\</code></h2>
 <p>If you need to test a character that is normally reserved, like <code>(</code> or <code>[</code>, you can put a backslash in front of it.</p>
 <pre><code>s: ( \( * \) ) Why are you saying that aside?</code></pre>
@@ -695,7 +695,7 @@ if ($var == 5 and foo(3)) {} # if $var is 5 and foo(3) doesn&#39;t fail or retur
 <pre><code>Outputmacro: name (^arg1 ^arg2 ...)</code></pre>
 <p>and then your code. Only now you use output script instead of pattern stuff. Again, when calling the macro, arguments are separated with spaces and not commas.</p>
 <p>Whereas most programming language separate their arguments with commas because they are reserved tokens in their language, in ChatScript a comma is a normal word. So you separate arguments to functions just with spaces.</p>
-<p>?: ( hi) ^FiveArgFunction( 1 3 my , word)</p>
+<pre><code>?: ( hi) ^FiveArgFunction( 1 3 my , word)</code></pre>
 <p>Outputmacros can return a value, just like a normal function. You just dump the text as you would a message to the user.</p>
 <pre><code>outputmacro: ^mymac()
 tested here
@@ -910,8 +910,10 @@ u: () ^&quot;[oob data] Here is user message</code></pre>
 <h2 id="csshutdown"><code>^CSSHUTDOWN()</code></h2>
 <pre><code>outputmacro: ^CSSHUTDOWN()</code></pre>
 <p>This function, if defined by you, will be executed on shutdown or restart of the ChatScript system.</p>
+<h2 id="cs_topic_enter"><code>^cs_topic_enter()</code></h2>
 <pre><code>outputmacro: ^cs_topic_enter(^topic ^mode)</code></pre>
 <p>When the system begins a topic and this function is defined by you, it will be invoked before the topic is processed. You will be given the name of the topic and a character representing the way it is being invoked. Values of <code>^mode</code> are: <code>s</code>, <code>?</code>, <code>u</code>, <code>t</code>, which represent statements, questions, both, or gambits. While your function is executing, neither <code>^cs_topic_enter</code> or <code>^cs_topic_exit</code> will be invoked.</p>
+<h2 id="cs_topic_exit"><code>^cs_topic_exit()</code></h2>
 <pre><code>outputmacro: ^cs_topic_exit(^topic ^result)</code></pre>
 <p>When the system exits a topic and this function is defined by you, it will be invoked after the topic is processed. You will be given the name of the topic and the text value representing what it returned. E.g., NOPROBLEM. The range of names of these are defined in mainsystem.h (minus _BIT) but are your basic FAILTOPIC, etc.</p>
 <h2 id="autoinitfile">AutoInitFile</h2>

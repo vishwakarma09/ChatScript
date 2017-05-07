@@ -5661,8 +5661,10 @@ static void C_Word(char* input)
 
 static void WordDump(WORDP D,uint64 flags)
 {
-	if (!strstr(D->word,(char*)"_music")) return;
-	Log(STDTRACELOG,(char*)"%s %d\r\n",D->word,GetMeaningCount(D));
+	if (D->properties & NOUN &&
+		D->properties & VERB &&
+		D->systemFlags & NOUN)
+		Log(STDTRACELOG,(char*)"%s %d\r\n",D->word,GetMeaningCount(D));
 }
 
 static void C_VerifySentence(char* input)

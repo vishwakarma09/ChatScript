@@ -1,5 +1,5 @@
 concept: ~internal_concepts(
-~moneynumber ~usd ~yen ~cny ~cent ~eur ~inr ~gbp ~rup ~currency
+~moneynumber  ~currency
 ~number ~model_number ~float ~positiveinteger ~negativeinteger ~placenumber ~daynumber 
 ~shout ~yearnumber
 ~adjective_noun ~pronoun ~adjective ~aux_verb

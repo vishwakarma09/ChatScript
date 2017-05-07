@@ -356,7 +356,7 @@ void MarkFacts(bool ucase,MEANING M,int start, int end,bool canonical,bool seque
     if (!M) return;
 	WORDP D = Meaning2Word(M);
 	if (D->properties & NOUN_TITLE_OF_WORK && canonical) return; // accidental canonical match of a title. not intended
-	if (IsMarked(D, start, end)) return; // already stored
+//	if (IsMarked(D, start, end)) return; // already stored -- but may have stored by turtle~n and now we want just turtle!
 	if (!sequence || D->properties & (PART_OF_SPEECH|NOUN_TITLE_OF_WORK|NOUN_HUMAN) || D->systemFlags & PATTERN_WORD || D->internalBits &  CONCEPT) MarkWordHit(ucase,D,start,end); // if we want the synset marked, RiseUp will do it.
 
 	int result = MarkSetPath(ucase,M,start,end,0,canonical); // generic membership of this word all the way to top
@@ -694,6 +694,8 @@ void MarkAllImpliedWords()
 		if (flags & ADJECTIVE_BITS) flags |= ADJECTIVE  | (allOriginalWordBits[i] & (MORE_FORM|MOST_FORM));
 		if (flags & NOUN_ADJECTIVE) flags |=  (allOriginalWordBits[i] & (MORE_FORM|MOST_FORM)) | ADJECTIVE_NORMAL | ADJECTIVE; // what actress is the *prettiest  -- be NOUN OR ADJECTIVE
 		if (flags & ADVERB) flags |= ADVERB |  (allOriginalWordBits[i] & (MORE_FORM|MOST_FORM));
+		if (D->properties & CURRENCY) 
+			flags |= CURRENCY;
 		if (D->systemFlags & ORDINAL) 
 		{
 			flags |= PLACE_NUMBER;
@@ -747,7 +749,7 @@ void MarkAllImpliedWords()
 		{
 			if (IsDigit(*wordStarts[i]) && IsDigit(wordStarts[i][1])  && IsDigit(wordStarts[i][2]) && IsDigit(wordStarts[i][3])  && !wordStarts[i][4]) MarkFacts(ucase,MakeMeaning(FindWord((char*)"~yearnumber")),i,i);
 		}
-		bool number = IsNumber(wordStarts[i]);
+		int number = IsNumber(wordStarts[i]);
 		if (number)
 		{
 			if (!wordCanonical[i][1] || !wordCanonical[i][2]) // 2 digit or 1 digit
@@ -797,17 +799,13 @@ void MarkAllImpliedWords()
 			unsigned char* currency = GetCurrency((unsigned char*) wordStarts[i],number); 
 			if (currency) 
 			{
-				char tmp[MAX_WORD_SIZE];
-				strcpy(tmp,(char*) currency);
 				MarkFacts(ucase,Mmoney,i,i); 
-				if (*currency == '$' || !strnicmp((char*)currency,(char*)"usd",3)) MarkFacts(ucase,Musd,i,i);
-				else if ((*currency == 0xe2 && currency[1] == 0x82 && currency[2] == 0xb9) || !strnicmp((char*)currency,(char*)"inr",3)) MarkFacts(ucase,Minr,i,i);
-				else if ((*currency == 0xe2 && currency[1] == 0x82 && currency[2] == 0xac) || !strnicmp((char*)currency,(char*)"eur",3)) MarkFacts(ucase,Meur,i,i);
-				else if ((*currency == 0xc2 && currency[1] == 0xa5) || !strnicmp((char*)currency,(char*)"yen",3)) MarkFacts(ucase,Myen,i,i);
-				else if ((*currency == 0xc2 && currency[1] == 0xa3 ) || !strnicmp((char*)currency,(char*)"gbp",3)) MarkFacts(ucase,Mgbp,i,i);
-				else if ((*currency == 0xc2 && currency[1] == 0xA2)) MarkFacts(ucase, Mcent, i, i);
-				else if (!strnicmp((char*)currency,(char*)"cny",3) ) MarkFacts(ucase,Mcny,i,i);
-				else if (!strnicmp((char*)currency, (char*)"cad", 3)) MarkFacts(ucase, Mcad, i, i);
+				char* set = IsTextCurrency((char*)currency,NULL);
+				if (set) // should not fail
+				{
+					MEANING M = MakeMeaning(FindWord(set));
+					MarkFacts(false, M, i, i);
+				}
 			}
 		}
 		else if (IsNumber(wordStarts[i]) == WORD_NUMBER)

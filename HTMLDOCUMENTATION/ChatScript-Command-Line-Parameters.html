@@ -9,10 +9,7 @@
 </head>
 <body>
 <h1 id="chatscript-command-line-parameters">ChatScript Command Line Parameters</h1>
-<blockquote>
-<p>Copyright Bruce Wilcox, gowilcox@gmail.com brilligunderstanding.com</p>
-</blockquote>
-<p><br>Revision 4/24/2017 cs7.4</p>
+<p>Copyright Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com<br> Revision 4/24/2017 cs7.4</p>
 <h1 id="command-line-parameters">Command Line Parameters</h1>
 <p>You can give parameters on the run command or in a config file. The default config file is <code>cs_init.txt</code> at the top level of CS (if the file exists). Or you can name where the file is on a command line parameter <code>config=xxx</code>. Config file data are command line parameters, 1 per line, like below:</p>
 <pre><code>noboot 
@@ -106,8 +103,7 @@ port=20</code></pre>
 </tr>
 </tbody>
 </table>
-<p>Actually the value is somewhat less, because routines generating partial data for later incorporation into the output also use the buffer and need some usually small amount of clearance. You can find out how close you have approached the max in a session by typing <code>:memstats</code>. If you need to ship a lot of data around, you can raise this into the megabyte range and expect CS will continue to function. 80K is the default.</p>
-<p>For normal operation, when you change <code>outputsize</code> you should also change <code>logsize</code> to be at least as much, so that the system can do complete logs. You are welcome to set log size lots smaller if you don't care about the log.</p>
+<p>Actually the <code>outputsize</code> value is somewhat less, because routines generating partial data for later incorporation into the output also use the buffer and need some usually small amount of clearance. You can find out how close you have approached the max in a session by typing <code>:memstats</code>. If you need to ship a lot of data around, you can raise this into the megabyte range and expect CS will continue to function. 80K is the default. For normal operation, when you change <code>outputsize</code> you should also change <code>logsize</code> to be at least as much, so that the system can do complete logs. You are welcome to set log size lots smaller if you don't care about the log.</p>
 <h2 id="file-options">File options</h2>
 <table>
 <colgroup>

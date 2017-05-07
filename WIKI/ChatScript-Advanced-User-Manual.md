@@ -1,6 +1,6 @@
 # ChatScript Advanced User's Manual
 © Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com<br>
-<br>Revision 4/30/2017 cs7.41
+<br>Revision 5/7/2017 cs7.42
 
 * [Review](ChatScript-Advanced-User-Manual.md#review-overview-of-how-cs-works)
 * [Advanced Concepts](ChatScript-Advanced-User-Manual.md#advanced-concepts)
@@ -708,7 +708,7 @@ Do not write code in a pattern macro as though it is an output code. You can't d
 
     if (...) {}
 
-Use patterns, not output script.
+If you want to do that, use an outputmacro and call that from your pattern.
 
 
 ## Literal Next `\`

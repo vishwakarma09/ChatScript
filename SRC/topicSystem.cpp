@@ -2872,7 +2872,7 @@ void LoadTopicSystem() // reload all topic data
 	currentTopicID = 0;
 	ClearBotVariables();
 
-	printf((char*)"WordNet: dict=%ld  fact=%ld  heap=%ld %s\r\n", (long int)(dictionaryFree - dictionaryBase), (long int)(factFree - factBase), (long int)(heapBase - heapFree), dictionaryTimeStamp);
+	printf((char*)"WordNet: dict=%ld  fact=%ld  heap=%ld %s\r\n", (long int)(dictionaryFree - dictionaryBase - 1), (long int)(factFree - factBase), (long int)(heapBase - heapFree), dictionaryTimeStamp);
 
 	if (!build0Requested) LoadLayer(LAYER_0, (char*)"0", BUILD0); // we will rebuild so dont bother loading
 

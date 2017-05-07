@@ -459,8 +459,8 @@ FunctionResult HandleRelation(char* word1,char* op, char* word2,bool output,int&
 		else if ((strchr(val1,'.') && val1[1]) || (strchr(val2,'.') && val2[1])) // at least one arg is float
 		{
 			char* comma = 0; 
-			while ((comma = strchr(val1,',')))  memmove(comma,comma+1,strlen(comma+1)); // remove embedded commas
-			while ((comma = strchr(val2,',')))  memmove(comma,comma+1,strlen(comma+1)); // remove embedded commas
+			while ((comma = strchr(val1,',')))  memmove(comma,comma+1,strlen(comma)); // remove embedded commas
+			while ((comma = strchr(val2,',')))  memmove(comma,comma+1,strlen(comma)); // remove embedded commas
 			double v1f = Convert2Float(val1);
 			double v2f = Convert2Float(val2);
 			if (*op == '=') result = (v1f == v2f) ? NOPROBLEM_BIT : FAILRULE_BIT;
@@ -480,8 +480,8 @@ FunctionResult HandleRelation(char* word1,char* op, char* word2,bool output,int&
 		else //   int compare
 		{
 			char* comma =  0; // pretty number?
-			while ((comma = strchr(val1,',')))  memmove(comma,comma+1,strlen(comma+1));
-			while ((comma = strchr(val2,',')))  memmove(comma,comma+1,strlen(comma+1));
+			while ((comma = strchr(val1,',')))  memmove(comma,comma+1,strlen(comma));
+			while ((comma = strchr(val2,',')))  memmove(comma,comma+1,strlen(comma));
 			ReadInt64(val1,v1);
 			ReadInt64(val2,v2);
 			if (strchr(val1,',') && strchr(val2,',')) // comma numbers

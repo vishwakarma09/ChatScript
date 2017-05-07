@@ -1,3 +1,15 @@
+# Version 7.42
+1.  *~8b  for bidirectional search
+2. ^burst($val digitsplit)  splits into two pieces a word part and a digit part (dd12 => dd  12) and
+	(12dd => dd 12) - if it starts with digit, gets all consecutive digits as second value and all the
+	rest as first. Otherwise if ends with digit, gets all consecutive rear digits as second value and
+ 	rest of word before as first value.
+3. may now call outputmacros from patterns, it protects match variables across the call
+
+
+# Version 7.411 5/1/2017
+1. fixing numeric bugs
+
 # Version 7.41 4/30/2017
 1. ^setposition now allows a wildcard id as the second and last argument
 2. the ? operator can now check for value in json array.

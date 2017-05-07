@@ -291,7 +291,8 @@ void FreeStackHeap()
 
 char* AllocateStack(char* word, size_t len,bool localvar,bool align4) // call with (0,len) to get a buffer
 {
-	if (infiniteStack) ReportBug("Allocating stack while InfiniteStack in progress from %s\r\n",infiniteCaller);
+	if (infiniteStack) 
+		ReportBug("Allocating stack while InfiniteStack in progress from %s\r\n",infiniteCaller);
 	if (len == 0)
 	{
 		if (!word ) return NULL;
@@ -1424,18 +1425,23 @@ uint64 X64_Table[256] = //   hash table randomizer
 uint64 Hashit(unsigned char * data, int len,bool & hasUpperCharacters, bool & hasUTF8Characters)
 {
 	hasUpperCharacters = hasUTF8Characters = false;
-	uint64 crc = 0;
+	uint64 crc = 5381;
 	while (len-- > 0)
 	{ 
 		unsigned char c = *data++;
-		if (!c) break;
-		if (c & 0x80)
+		if (c >= 0x41 && c <= 0x5a) // ordinary ascii upper case
+		{
+			c += 32;
+			hasUpperCharacters = true;
+		}
+		else if (c & 0x80) // some kind of utf8 extended char
 		{
 			hasUTF8Characters = true;
 			if (c == 0xc3 && *data >= 0x80 && *data <= 0x9e && *data != 0x97)
 			{
 				hasUpperCharacters = true;
-				crc = X64_Table[(crc >> 56) ^ c] ^ (crc << 8);
+				crc = ((crc << 5) + crc) + c;
+				//crc = X64_Table[(crc >> 56) ^ c] ^ (crc << 8);
 				c = *data++; // get the cap form
 				c -= 0x80;
 				c += 0x9f; // get lower case form
@@ -1444,7 +1450,8 @@ uint64 Hashit(unsigned char * data, int len,bool & hasUpperCharacters, bool & ha
 			else if (c >= 0xc4 && c <= 0xc9 && !(c & 1))
 			{
 				hasUpperCharacters = true;
-				crc = X64_Table[(crc >> 56) ^ c] ^ (crc << 8);
+				crc = ((crc << 5) + crc) + c;
+				//crc = X64_Table[(crc >> 56) ^ c] ^ (crc << 8);
 				c = *data++; // get the cap form
 				c |= 1;  // get lower case form
 				--len;
@@ -1454,18 +1461,16 @@ uint64 Hashit(unsigned char * data, int len,bool & hasUpperCharacters, bool & ha
 				int size = UTFCharSize((char*)data - 1);
 				while (--size)
 				{
-					crc = X64_Table[(crc >> 56) ^ c] ^ (crc << 8);
+					crc = ((crc << 5) + crc) + c;
+					//crc = X64_Table[(crc >> 56) ^ c] ^ (crc << 8);
 					c = *data++;
+					--len;
 				}
 			}
 		}
-		else if (c >= 0x41 && c <= 0x5a) // ordinary ascii
-		{
-			c += 32;
-			hasUpperCharacters = true;
-		}
 		if (c == ' ') c = '_';	// force common hash on space vs _
-		crc = X64_Table[(crc >> 56) ^ c ] ^ (crc << 8 );
+	//better but slower	crc = X64_Table[(crc >> 56) ^ c ] ^ (crc << 8 );
+		crc = ((crc << 5) + crc) + c;
 	}
 	return crc;
 } 

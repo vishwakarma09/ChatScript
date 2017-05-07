@@ -26,8 +26,31 @@
 <p>So, more broadly, <strong>ChatScript is a system for manipulating natural language, not just for building a chatbot</strong>.</p>
 <p>This document is about how to write script. There is a more general discussion about how to think about authoring a bot in the paper <a href="PAPERS/Writing-a-Chatbot.html">Writing a Chatbot</a> in the documentation.</p>
 <h2 id="input-and-output-sentences">Input and output sentences</h2>
-<p>ChatScript take one or more <em>input sentences</em> from the user. A <em>sentence</em> in CS nominally means the sequence of words up until some sentence <em>terminal token</em> chars. Default charcters: <code>.</code>, <code>?</code>, <code>!</code>, <code>;</code> and <code>-</code> end sentences. E.g. the following user phrase is split in three sentences:</p>
-<pre><code>What&#39;s your name? My is Alfred ; I&#39;m from London. </code></pre>
+<p>ChatScript take one or more <em>input sentences</em> from the user. A <em>sentence</em> in CS nominally means the sequence of words up until some sentence <em>terminal token</em> chars. By default these characters end sentences:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center">dot</th>
+<th align="center">question<br>mark</th>
+<th align="center">exclamation<br>point</th>
+<th align="center">semi<br>colon</th>
+<th align="center">colon</th>
+<th align="center">hyphen</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><code>.</code></td>
+<td align="center"><code>?</code></td>
+<td align="center"><code>!</code></td>
+<td align="center"><code>;</code></td>
+<td align="center"><code>:</code></td>
+<td align="center"><code>-</code></td>
+</tr>
+</tbody>
+</table>
+<p>E.g. the following user phrase is split in three sentences:</p>
+<pre><code>What&#39;s your name? My is Alfred; I&#39;m from London. </code></pre>
 <p>One can also disable sentence ending.</p>
 <p>ChatScript outputs one or more sentences back to user.</p>
 <pre><code>My name is Harry!

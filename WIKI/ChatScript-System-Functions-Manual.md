@@ -1,6 +1,6 @@
 # ChatScript System Functions Manual
 © Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 4/30/2017 cs7.41
+<br>Revision 5/7/2017 cs7.42
 
 * [Topic Functions](ChatScript-System-Functions-Manual.md#topic-functions)
 * [Marking Functions](ChatScript-System-Functions-Manual.md#marking-functions)
@@ -1540,6 +1540,8 @@ would return if you burst, but not to do the burst.
 `^burst` takes an optional first parameter `once` 
 which says split only into the first burst and then the leftover rest.
 
+`^burst` has a special burst value `digitsplit` which will split a number-text thing or a text-number thing
+into two pieces (text thing and number thing). This is good for splitting a currency thing lik USD25  or 25$.
 
 ### `^words ( someword )` 
 

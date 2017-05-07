@@ -1633,7 +1633,8 @@ static char* ReadCall(char* name, char* ptr, FILE* in, char* &data,bool call, bo
 		if (!stricmp(name,"^jsonarraysize")) WARNSCRIPT((char*)"^jsonarraysize deprecated in favor of ^length\r\n")
 		if (!stricmp(name,"^jsondelete")) WARNSCRIPT((char*)"^jsondelete deprecated in favor of ^delete\r\n")
 	}
-	else if (patternContext && D && !(D->internalBits & IS_PATTERN_MACRO)) BADSCRIPT((char*)"CALL-2 Can only call patternmacro or dual macro from pattern area - %s",name)
+	else if (patternContext && D && (D->internalBits & IS_PLAN_MACRO) == IS_PLAN_MACRO) BADSCRIPT((char*)"CALL-2 cannot invoke plan from pattern area - %s", name)
+	else if (patternContext && D && !(D->internalBits & (IS_PATTERN_MACRO | IS_OUTPUT_MACRO))) BADSCRIPT((char*)"CALL-2 Can only call patternmacro or dual macro from pattern area - %s",name)
 	else if (!patternContext && D && !(D->internalBits &  (IS_OUTPUT_MACRO | IS_TABLE_MACRO))) BADSCRIPT((char*)"CALL-3 Cannot call pattern or table macro from output area - %s",name)
 	
 	memset(argset,0,sizeof(argset)); //   default EVERYTHING before we test it later
@@ -2293,7 +2294,7 @@ name of topic  or concept
 					int n = word[2] - '0';
 					if (!word[2]) BADSCRIPT((char*)"PATTERN-52 *~ is not legal, you need a digit after it")
 					else if (n == 0) BADSCRIPT((char*)"PATTERN-53 *~1 is the smallest close-range gap - %s",word)
-					else if (word[3]) BADSCRIPT((char*)"PATTERN-54 *~9 is the largest close-range gap or bad stuff is stuck to your token- %s",word)
+					else if (word[3] && word[3] != 'b') BADSCRIPT((char*)"PATTERN-54 *~9 is the largest close-range gap or bad stuff is stuck to your token- %s",word)
 				}
 				else if (word[1]) BADSCRIPT((char*)"PATTERN-55 * jammed against some other token- %s",word)
 				else 
@@ -4912,17 +4913,12 @@ static void WriteConcepts(WORDP D, uint64 build)
 	char* name = D->word;
 	if (*name != '~' || !(D->internalBits & build)) return; // not a topic or concept or not defined this build
 	RemoveInternalFlag(D,(BUILD0|BUILD1));
-	if (!stricmp(name, "~unit-name-length"))
-	{
-		int xx = 0;
-	}
 	// write out keywords 
 	FILE* out = NULL;
 	char filename[SMALL_WORD_SIZE];
 	sprintf(filename,(char*)"%s/BUILD%s/keywords%s.txt",topic,baseName,baseName);
 	out = FopenUTF8WriteAppend(filename);
 	fprintf(out,(D->internalBits & TOPIC) ? (char*)"T%s " : (char*)"%s ", D->word);
-	
 	uint64 properties = D->properties;	
 	uint64 bit = START_BIT;
 	while (properties && bit)

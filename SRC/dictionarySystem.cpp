@@ -62,7 +62,6 @@ but is needed when seeing the dictionary definitions (:word) and if one wants to
 
 #endif
 
-#define HASH_EXTRA		2					// +1 for being 1-based and +1 for having uppercase bump
 bool dictionaryBitsChanged = false;
 unsigned int propertyRedefines = 0;	// property changes on locked dictionary entries
 unsigned int flagsRedefines = 0;		// systemflags changes on locked dictionary entries
@@ -70,7 +69,7 @@ static int freeTriedList = 0;
 bool buildDictionary = false;				// indicate when building a dictionary
 char dictionaryTimeStamp[20];		// indicate when dictionary was built
 char* mini = "";
-
+unsigned int* hashbuckets = 0;
 static unsigned int rawWords = 0;	
 
 static unsigned char* writePtr;				// used for binary dictionary writes
@@ -381,7 +380,7 @@ MEANING Mburst;
 MEANING Mpending;
 MEANING Mkeywordtopics;
 MEANING Mconceptlist;
-MEANING Mmoney,Musd,Meur,Mgbp,Myen,Mcny,Minr,Mrup,Mcad,Mcent;
+MEANING Mmoney;
 MEANING Mintersect;
 MEANING MgambitTopics;
 MEANING MadjectiveNoun;
@@ -570,9 +569,9 @@ void BuildDictionary(char* label)
     }
 	UseDictionaryFile(NULL); 
 
-	InitFacts(); 
-	InitDictionary();
 	InitStackHeap();
+	InitDictionary();
+	InitFacts();
 	InitCache();
 
 	LoadRawDictionary(miniDict); 
@@ -640,12 +639,13 @@ void InitDictionary()
 	cacheBase
 #endif
 	memset(dictionaryBase,0,size);
-	dictionaryFree =  dictionaryBase + maxHashBuckets + HASH_EXTRA ;		//   prededicate hash space within the dictionary itself
-	//   The bucket list is threaded thru WORDP nodes, and consists of indexes, not addresses.
-
+	dictionaryFree =  dictionaryBase + 1;	// dont write on 0
 	dictionaryPreBuild[LAYER_0] = dictionaryPreBuild[LAYER_1] = dictionaryPreBuild[LAYER_BOOT] = 0;	// in initial dictionary
 	factsPreBuild[LAYER_0] = factsPreBuild[LAYER_1] = factsPreBuild[LAYER_BOOT] = factFree;	// last fact in dictionary 
 	propertyRedefines = flagsRedefines = 0;
+
+	hashbuckets = (unsigned int*)AllocateHeap(0, (maxHashBuckets+1), sizeof(int)); // +1 for the upper case hash
+	memset(hashbuckets, 0, (maxHashBuckets+1) * sizeof(int));
 }
 
 void AddInternalFlag(WORDP D, unsigned int flag)
@@ -715,7 +715,7 @@ void AddProperty(WORDP D, uint64 flag)
 	if (flag && flag != (D->properties & flag))
 	{
 		if (D < dictionaryLocked) PreserveProperty(D);
-		if (!(D->properties & PART_OF_SPEECH) && flag & PART_OF_SPEECH && *D->word != '~'  && *D->word != '^' && *D->word != USERVAR_PREFIX)  // not topic,concept,function
+		if (!(D->properties & (PART_OF_SPEECH)) && flag & PART_OF_SPEECH && *D->word != '~'  && *D->word != '^' && *D->word != USERVAR_PREFIX && flag != CURRENCY)  // not topic,concept,function
 		{
 			//   internal use, do not allow idioms on words from #defines or user variables or  sets.. but allow substitutes to do it?
 			unsigned int n = BurstWord(D->word);
@@ -751,10 +751,10 @@ int GetWords(char* word, WORDP* set,bool strictcase)
 	bool hasUpperCharacters;
 	bool hasUTF8Characters;
 	uint64 fullhash = Hashit((unsigned char*) word,len,hasUpperCharacters,hasUTF8Characters); //   sets hasUpperCharacters and hasUTF8Characters 
-	unsigned int hash  = (fullhash % maxHashBuckets) + 1; // mod by the size of the table
+	unsigned int hash  = (fullhash % maxHashBuckets) ; // mod by the size of the table
 
 	//   lowercase bucket
-	WORDP D = dictionaryBase + hash;
+	WORDP D = dictionaryBase + hashbuckets[hash];
 	char word1 [MAX_WORD_SIZE];
 	if (strictcase && hasUpperCharacters) D = dictionaryBase; // lower case not allowed to match uppercase input
 	while (D != dictionaryBase)
@@ -770,7 +770,7 @@ int GetWords(char* word, WORDP* set,bool strictcase)
 	}
 
 	// upper case bucket
-	D = dictionaryBase + hash + 1; 
+	D = dictionaryBase + hashbuckets[hash + 1]; 
 	if (strictcase && !hasUpperCharacters) D = dictionaryBase; // upper case not allowed to match lowercase input
 	while (D != dictionaryBase)
 	{
@@ -851,16 +851,11 @@ static bool StricmpUTF(char* w1, char* w2,int len)
 WORDP FindWord(const char* word, int len,uint64 caseAllowed) 
 {
 	if (word == NULL || *word == 0) return NULL;
-	if (len >= PRIMARY_CASE_ALLOWED) // in case argument omitted accidently
-	{
-		caseAllowed = len;
-		len = 0;
-	}
 	if (len == 0) len = strlen(word);
 	bool hasUpperCharacters;
 	bool hasUTF8Characters;
 	uint64 fullhash = Hashit((unsigned char*) word,len,hasUpperCharacters,hasUTF8Characters); //   sets hasUpperCharacters and hasUTF8Characters 
-	unsigned int hash  = (fullhash % maxHashBuckets) + 1; // mod by the size of the table
+	unsigned int hash  = (fullhash % maxHashBuckets); // mod by the size of the table
 	if (caseAllowed & LOWERCASE_LOOKUP){;} // stay in lower bucket regardless
 	else if (*word == SYSVAR_PREFIX || *word == USERVAR_PREFIX || *word == '~'  || *word == '^') 
 	{
@@ -878,7 +873,7 @@ WORDP FindWord(const char* word, int len,uint64 caseAllowed)
 	if (caseAllowed & (PRIMARY_CASE_ALLOWED|LOWERCASE_LOOKUP|UPPERCASE_LOOKUP))
 	{
 		almost = NULL;
-		D = dictionaryBase + hash;
+		D = Index2Word(hashbuckets[hash]);
 		while (D != dictionaryBase)
 		{
 			if (fullhash == D->hash && D->length == len && !StricmpUTF(D->word,(char*)word,len)) // they match independent of case- 
@@ -904,7 +899,7 @@ WORDP FindWord(const char* word, int len,uint64 caseAllowed)
     if (caseAllowed & SECONDARY_CASE_ALLOWED)
 	{
 		almost = NULL;
-		D = dictionaryBase + hash + ((hasUpperCharacters) ? -1 : 1);
+		D = dictionaryBase + hashbuckets[hash + ((hasUpperCharacters) ? -1 : 1)];
 		while (D != dictionaryBase)
 		{
 			if (fullhash == D->hash && D->length == len && !strnicmp(D->word,word,len)) return D; // they appear to match from opposite buckets
@@ -970,16 +965,15 @@ WORDP StoreWord(char* word, uint64 properties)
 	bool hasUpperCharacters;
 	bool hasUTF8Characters;
 	uint64 fullhash = Hashit((unsigned char*) word,len,hasUpperCharacters,hasUTF8Characters); //   sets hasUpperCharacters and hasUTF8Characters 
-	unsigned int hash = (fullhash % maxHashBuckets) + 1; //   mod the size of the table (saving 0 to mean no pointer and reserving an end upper case bucket)
+	unsigned int hash = (fullhash % maxHashBuckets); //   mod the size of the table (saving 0 to mean no pointer and reserving an end upper case bucket)
 	if (hasUpperCharacters)
 	{
 		if (lowercase) hasUpperCharacters = false;
-		else if (!lowercase)  ++hash;
+		else ++hash;
 	}
-	WORDP base = dictionaryBase + hash;
 
 	//   locate spot existing entry goes - we use different buckets for lower case and upper case forms
-    WORDP D = base; 
+	WORDP D = dictionaryBase + hashbuckets[hash];
 	while (D != dictionaryBase)
     {
  		if (fullhash == D->hash && D->length == len && !strcmp(D->word,word)) // find EXACT match
@@ -993,14 +987,11 @@ WORDP StoreWord(char* word, uint64 properties)
     //   not found, add entry 
 	char* wordx = AllocateHeap(word,len); // storeword
     if (!wordx) return StoreWord((char*)"x.x",properties|AS_IS); // fake it
-	if (base->word == 0 && !dictionaryPreBuild[LAYER_0]) D = base; // add into hash zone initial dictionary entries (nothing allocated here yet) if and only if loading the base system
-	else  
-	{
-		D = AllocateEntry();
-		D->nextNode = GETNEXTNODE(base);
-		base->nextNode &= MULTIHEADERBITS;
-		base->nextNode |= D - dictionaryBase;
-	}
+	
+	D = AllocateEntry();
+	D->nextNode = hashbuckets[hash];
+	hashbuckets[hash] = Word2Index(D);
+
 	// fill in data on word
     D->word = wordx; 
 	if (hasUTF8Characters) AddInternalFlag(D,UTF8);
@@ -1074,25 +1065,10 @@ void WalkDictionary(DICTIONARY_FUNCTION func,uint64 data)
 void DeleteDictionaryEntry(WORDP D)
 {
 	// Newly added dictionary entries will be after some marker (provided we are not loading the base dictionary).
-	unsigned int hash = (D->hash % maxHashBuckets) + 1; 
+	unsigned int hash = (D->hash % maxHashBuckets); 
 	if (D->internalBits & UPPERCASE_HASH) ++hash;
-	WORDP base = dictionaryBase + hash;  // the bucket at the base
-	if (D == base) base->word = 0; // the base is free// is the bucket itself, was assigned into it first and all the rest come after -- should never happen because only basic words go as base, and are never released
-	else
-	{
-		WORDP X = dictionaryBase + GETNEXTNODE(base);
-		if (X != D) // this SHOULD have been pointing to here
-		{
-			ReportBug((char*)"Bad dictionary delete %s\r\n",D->word);
-			return;
-		}
-	}
-
-	base->nextNode &= MULTIHEADERBITS;
-	base->nextNode |= GETNEXTNODE(D); //   move entry over to next in list
-
-	D->nextNode = 0;
-	D->hash = 0;
+	if (Index2Word(hashbuckets[hash] != D)) myexit("Dictionary delete is wrong");// should never happen
+	hashbuckets[hash] = GETNEXTNODE(D);
 }
 
 void ShowStats(bool reset)
@@ -1396,17 +1372,6 @@ static void WriteBinaryEntry(WORDP D, FILE* out)
 	unsigned char c;
 	writePtr = (unsigned char*)(readBuffer+2); // reserve size space
 
-	if (!D->word) // empty entry
-	{
-		c = 0;
-		WriteString((char*)&c,0);
-		unsigned int len = writePtr-(unsigned char*)readBuffer;
-		*readBuffer = (unsigned char)(len >> 8);
-		readBuffer[1] = (unsigned char)(len & 0x00ff);
-		fwrite(readBuffer,1,len,out);
-		return;
-	}
-
 	WriteString(D->word,0);
 	unsigned int bits = 0;
 	if (GETMULTIWORDHEADER(D)) bits |= 1 << 0;
@@ -1471,8 +1436,10 @@ void WriteBinaryDictionary()
 	FILE* out = FopenBinaryWrite(UseDictionaryFile((char*)"dict.bin")); // binary file, no BOM
 	if (!out) return;
 	Write32(maxHashBuckets,out); // bucket size used
+	for (int i = 0; i <= maxHashBuckets; ++i) Write32(hashbuckets[i],out);
+
 	WORDP D = dictionaryBase;
-	while (++D < dictionaryFree) WriteBinaryEntry(D,out);
+	while (++D < dictionaryFree) WriteBinaryEntry(D, out);
 	char x[2];
 	x[0] = x[1] = 0;
 	fwrite(x,1,2,out); //   end marker for synchronization
@@ -1480,7 +1447,10 @@ void WriteBinaryDictionary()
 	strcpy(dictionaryTimeStamp, GetMyTime(time(0)));
 	fwrite(dictionaryTimeStamp,1,20,out);
 	FClose(out);
-	printf((char*)"binary dictionary %ld written\r\n",(long int)(dictionaryFree - dictionaryBase));
+
+	int unused = 0;
+	for (int i = 1; i <= maxHashBuckets; ++i) if (!hashbuckets[i]) ++unused;
+	printf((char*)"binary dictionary %d buckets %ld dict written %d unused buckets\r\n", maxHashBuckets, (long int)(dictionaryFree - dictionaryBase - 1),unused);
 }
 
 static unsigned char Read8(FILE* in) 
@@ -1633,7 +1603,8 @@ static WORDP ReadBinaryEntry(FILE* in)
 	unsigned int nameLen = *writePtr | (writePtr[1] << 8); // peek ahead
 	WORDP D = AllocateEntry();
 	char* name = ReadString(0);
-	if (!name)  return D;
+	if (!name)  
+		return D;
 	D->word = name;
 	D->length = (unsigned short)nameLen;
 	echo = true;
@@ -1709,6 +1680,10 @@ bool ReadBinaryDictionary()
 	{
 		ReportBug((char*)"Binary dictionary uses hash=%d but system is using %d -- rebuilding binary dictionary\r\n",size,maxHashBuckets)
 		return false;
+	}
+	for (int i = 0; i <= maxHashBuckets; ++i)
+	{
+		hashbuckets[i] = Read32(in);
 	}
 
 	dictionaryFree = dictionaryBase + 1;
@@ -3300,15 +3275,6 @@ void ExtendDictionary()
 	Mkeywordtopics = MakeMeaning(StoreWord((char*)"^keywordtopics"));
 	Mconceptlist = MakeMeaning(StoreWord((char*)"^conceptlist"));
  	Mmoney = MakeMeaning(BUILDCONCEPT((char*)"~moneynumber"));
-	Musd = MakeMeaning(BUILDCONCEPT((char*)"~usd"));
-	Myen = MakeMeaning(BUILDCONCEPT((char*)"~yen"));
-	Mcny = MakeMeaning(BUILDCONCEPT((char*)"~cny"));
-	Mcad = MakeMeaning(BUILDCONCEPT((char*)"~cad"));
-	Mcent = MakeMeaning(BUILDCONCEPT((char*)"~cent"));
-	Meur = MakeMeaning(BUILDCONCEPT((char*)"~eur"));
-	Minr = MakeMeaning(BUILDCONCEPT((char*)"~inr"));
-	Mgbp = MakeMeaning(BUILDCONCEPT((char*)"~gbp"));
-	Mrup = MakeMeaning(BUILDCONCEPT((char*)"~rup"));
 	Mnumber = MakeMeaning(BUILDCONCEPT((char*)"~number"));
 	MakeMeaning(BUILDCONCEPT((char*)"~float"));
 	MakeMeaning(BUILDCONCEPT((char*)"~positiveinteger"));
@@ -7528,7 +7494,7 @@ static void DefineShortCanonicals(WORDP D, uint64 junk)
 static void ReadWordFrequency(char* name, unsigned int count, bool until)
 {
 	if (count == 0) return;
-	unsigned int used = (dictionaryFree - dictionaryBase);
+	unsigned int used = (dictionaryFree - dictionaryBase - 1);
 	if (until)
 	{
 		if (used >= count) return;

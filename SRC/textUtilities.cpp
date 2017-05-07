@@ -38,6 +38,14 @@ typedef struct NUMBERDECODE
 
 static NUMBERDECODE* numberValues;
 
+typedef struct CURRENCYDECODE
+{
+	int word; // word index of currency abbrev
+	int concept;	// word index of concept to mark it
+} CURRENCYDECODE;
+
+static CURRENCYDECODE* currencies;
+
 char toHex[16] = {
 	'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
 
@@ -270,6 +278,7 @@ void InitTextUtilities()
 void ClearNumbers()
 {
 	numberValues = 0; // heap is discarded, need to discard this
+	currencies = 0;
 }
 
 void InitTextUtilities1()
@@ -313,6 +322,35 @@ void InitTextUtilities1()
 	size /= 8;	 // 64bit chunks
 	numberValues = (NUMBERDECODE*)AllocateHeap(stack, size+1,8);
 	ReleaseInfiniteStack();
+	fclose(in);
+
+	sprintf(file, (char*)"%s/%s/currencies.txt", livedata, language);
+	in = FopenStaticReadOnly(file); // LIVEDATA substitutes or from script TOPIC world
+	if (!in) return;
+	stack = InfiniteStack64(limit, "initcurrency");
+	data = (int*)stack;
+
+	while (ReadALine(readBuffer, in) >= 0) // $ ~dollar
+	{
+		if (*readBuffer == '#' || *readBuffer == 0) continue;
+		char* ptr = ReadCompiledWord(readBuffer, word);
+		MakeLowerCase(word);
+		ptr = ReadCompiledWord(ptr, kind);
+		MakeLowerCase(kind);
+		if (*kind != '~') myexit("Bad currency table");
+		char* w = StoreWord(word, AS_IS | CURRENCY)->word; // currency name
+		int index = Heap2Index(w);
+		*data++ = index;
+		w = StoreWord(kind, AS_IS)->word; // currency name
+		index = Heap2Index(w);
+		*data++ = index;
+	}
+	*data++ = 0;	 // terminal value for end detection
+	size = (char*)data - stack;
+	size /= 8;	 // 64bit chunks
+	currencies = (CURRENCYDECODE*)AllocateHeap(stack, size + 1, 8);
+	ReleaseInfiniteStack();
+	fclose(in);
 }
 
 void CloseTextUtilities()
@@ -908,33 +946,51 @@ char GetTemperatureLetter(char* ptr)
 	return 0;
 }
 
-bool IsTextCurrency(char* ptr)
+char* IsTextCurrency(char* ptr,char* end)
 {
-	if (!strnicmp((char*)ptr, (char*)"yen", 3) || !strnicmp((char*)ptr, (char*)"eur", 3) || !strnicmp((char*)ptr, (char*)"inr", 3)) return true;
-	if (!strnicmp((char*)ptr, (char*)"usd", 3) || !strnicmp((char*)ptr, (char*)"gbp", 3) || !strnicmp((char*)ptr, (char*)"cny", 3)) return true;
-	if (!strnicmp((char*)ptr, (char*)"INR", 3) || !strnicmp((char*)ptr, (char*)"cad", 3)) return true;
-	return false;
+	if (!end)
+	{
+		end = ptr;
+		while (*++end && !IsDigit(*end)); // locate nominal end of text
+	}
+
+	// look up direct word numbers
+	WORDP D = FindWord(ptr, (end - ptr), LOWERCASE_LOOKUP);
+	if ( D && D->properties & CURRENCY && currencies) for (unsigned int i = 0; i < 10000; ++i)
+	{
+		size_t len = end - ptr;
+		int index = currencies[i].word;
+		if (!index) break;
+		char* w = Index2Heap(index);
+		if (!strnicmp(ptr, Index2Heap(index), len))
+		{
+			if (ptr[len] == 0 || IsDigit(ptr[len])) return Index2Heap(currencies[i].concept);  // a match 
+		}
+	}
+	return NULL;
 }
 
 char* IsSymbolCurrency(char* ptr)
 {
-	if (*ptr == '$') return ptr + 1;// dollar is prefix
-	else if (*ptr == 0xe2 && ptr[1] == 0x82 && ptr[2] == 0xac) return ptr + 3;// euro is prefix
-	else if (*ptr == 0xC2 && ptr[1] == 0xA2) return ptr + 2; // cent sign
+	char* end = ptr;
+	while (*++end && !IsDigit(*end)); // locate nominal end of text
+
+	if (*ptr == 0xe2 && ptr[1] == 0x82 && ptr[2] == 0xac) return end;// euro is prefix
+	else if (*ptr == 0xC2 && ptr[1] == 0xA2) return end; // cent sign
 	else if (*ptr == 0xc2) // yen is prefix
 	{
 		char c = ptr[1];
-		if (c == 0xa2 || c == 0xa3 || c == 0xa4 || c == 0xa5) return ptr + 2;
+		if (c == 0xa2 || c == 0xa3 || c == 0xa4 || c == 0xa5) return end;
 	}
-	else if (*ptr == 0xc3 && ptr[1] == 0xb1) return ptr + 2; // british pound
-	else if (*ptr == 0xe2 && ptr[1] == 0x82 && ptr[2] == 0xb9) return ptr + 3; // rupee
-	else if (IsTextCurrency((char*)ptr)) return ptr + 3;
+	else if (*ptr == 0xc3 && ptr[1] == 0xb1) return end; // british pound
+	else if (*ptr == 0xe2 && ptr[1] == 0x82 && ptr[2] == 0xb9) return end; // rupee
+	else if (IsTextCurrency(ptr,end) != NULL) return end;
 	return NULL;
 }
    
 unsigned char* GetCurrency(unsigned char* ptr,char* &number) // does this point to a currency token, return currency and point to number (NOT PROVEN its a number)
 {
-	char* prefixEnd = IsSymbolCurrency((char*)ptr);
+	char* prefixEnd = IsSymbolCurrency((char*)ptr); // is it at start
 	if (prefixEnd)
 	{
 		number = prefixEnd;
@@ -999,7 +1055,8 @@ bool IsInteger(char* ptr, bool comma)
 
 bool IsDigitWord(char* ptr,bool comma) // digitized number
 {
-	if (IsFloat(ptr, ptr + strlen(ptr))) return true;
+	char* end = ptr + strlen(ptr);
+	if (IsFloat(ptr, end)) return true; // sentence end if . at end, not a float
     //   signing, # marker or currency markers are still numbers
     if (IsNonDigitNumberStarter(*ptr)) ++ptr; //   skip numeric nondigit header (+ - # )
 	char* number = 0;
@@ -1008,14 +1065,10 @@ bool IsDigitWord(char* ptr,bool comma) // digitized number
     if (!*ptr) return false;
 
     bool foundDigit = false;
-    int periods = 0;
     while (*ptr) 
     {
 		if (IsDigit(*ptr)) foundDigit = true; // we found SOME part of a number
-		else if (*ptr == '.') 
-		{
-			if (++periods > 1) return false; // too many periods
-		}
+		else if (*ptr == '.') return false; // float will find that
 		else if (*ptr == '%' && !ptr[1]) break; // percentage
 		else if (*ptr == ':');	//   TIME delimiter
 		else if (*ptr == ',' && comma); // allow comma
@@ -1270,6 +1323,7 @@ char* WriteFloat(char* buffer, double value, int useNumberStyle)
 
 bool IsFloat(char* word, char* end)
 {
+	if (*(end - 1) == '.') return false;	 // float does not end with ., that is sentence end
 	if (*word == '-' || *word == '+') ++word; // ignore sign
 	if (!IsDigit(*word)) return false;
     int period = 0;

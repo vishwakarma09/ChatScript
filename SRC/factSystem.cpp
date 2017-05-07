@@ -283,9 +283,9 @@ void InitFacts()
 void InitFactWords()
 {
 	//   special internal fact markers
-	Mmember = MakeMeaning(StoreWord((char*)"member"));
-	Mexclude = MakeMeaning(StoreWord((char*)"exclude"));
-	Mis = MakeMeaning(StoreWord((char*)"is"));
+	Mmember = MakeMeaning(StoreWord((char*)"member",AS_IS));
+	Mexclude = MakeMeaning(StoreWord((char*)"exclude", AS_IS));
+	Mis = MakeMeaning(StoreWord((char*)"is", AS_IS));
 }
 
 void CloseFacts()
@@ -599,7 +599,8 @@ FACT* CreateFact(FACTOID_OR_MEANING subject, FACTOID_OR_MEANING verb, FACTOID_OR
 	{
 		if (!subject) 
 			ReportBug((char*)"Missing subject field in fact create at line %d of %s",currentFileLine,currentFilename)
-		if (!verb) ReportBug((char*)"Missing verb field in fact create at line %d of %s",currentFileLine,currentFilename)
+		if (!verb) 
+			ReportBug((char*)"Missing verb field in fact create at line %d of %s",currentFileLine,currentFilename)
 		if (!object) 
 			ReportBug((char*)"Missing object field in fact create at line %d of %s",currentFileLine,currentFilename)
 		return NULL;

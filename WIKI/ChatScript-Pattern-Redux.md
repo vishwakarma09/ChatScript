@@ -1,6 +1,6 @@
 # ChatScript Pattern Redux
 © Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 4/30/2017 cs7.41
+<br>Revision 5/7/2017 cs7.42
 
 Pattern matching information was introduced in the Beginner manual and expanded in the 
 [Advanced User Manual](ChatScript-Advanced-User-Manual.md).
@@ -213,7 +213,7 @@ and input _photos I really like_ then it would match because it found _I * like_
 really and then reset the position freely back to start and found photos anywhere in the sentence.
 
 
-### Wildcards `*` `*~2` `*3` `*-2`
+### Wildcards `*` `*~2` `*3` `*-2`  `*~2b`
 
 Wildcards allow you to relax the positional requirements for matching. The classic wildcard “*” allows
 you to have zero or more words between other tokens in a pattern.
@@ -231,6 +231,9 @@ for example, but not allow a pattern to match weirdly.
     u: ( I like *~2 cat )
  
 matches _I like my cats_ or _I like a yellow cat_. 
+
+`*~2b` is similar to `*~2` except it tries to match bidirectionally. First it tries to match
+behind it, and if that fails, it tries forward (like *~2).
 
 You can also request a match of a specific number of words in succession using `*n`. `*1` means get the next word. 
 If you are already positionally on the end of the sentence, this match fails. 

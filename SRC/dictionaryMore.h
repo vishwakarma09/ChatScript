@@ -1,7 +1,7 @@
 
 #define MAX_SYNLOOP	60
 
-#define MAX_HASH_BUCKETS 100000 
+#define MAX_HASH_BUCKETS 215127 
 
 #define ALLOCATESTRING_SIZE_PREFIX 3
 #define ALLOCATESTRING_SIZE_SAFEMARKER 2
@@ -144,7 +144,7 @@ MEANING GetMeaning(WORDP D, int index);
 #define Meaning2Index(x) ((int)((x & INDEX_BITS) >> (int)INDEX_OFFSET)) //   which dict entry meaning
 
 unsigned char* GetWhereInSentence(WORDP D); // always skips the linking field at front
-
+extern unsigned int* hashbuckets;
 #define OOB_START '['
 #define OOB_END ']'
 void LockLevel();
@@ -211,11 +211,6 @@ extern WORDP Dauxverb;
 extern WORDP Dchild,Dadult;
 extern WORDP Dtopic;
 extern MEANING Mmoney;
-extern MEANING Musd;
-extern MEANING Meur,Minr;
-extern MEANING Mgbp;
-extern MEANING Myen;
-extern MEANING Mcny,Mcad,Mcent;
 extern MEANING Mchatoutput;
 extern MEANING Mburst;
 extern MEANING Mpending;
