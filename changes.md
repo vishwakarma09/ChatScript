@@ -18,7 +18,16 @@
 5. ^wordatindex() now support ranges, allows optional 3 argument end. Or second argument can be "_0"
 6. $cs_numbers =  french, indian, american or other
 
-# Version 7.31 4/8/2017 
+# Version 7.4 4/24/2017
+1. $x.y[] = 1  autogenerates a json array
+2. $cs_fullfloat & 64bit float & e-notation means the system gives you full precision, not 2 digit
+3. JSONOPen now performs urlencoding automatically
+4. servertrace command line param - forces all users to trace
+5. erasename command parameter - full user reset if found in input
+6. compile outputmacros in any order (but must already be defined if used by a table)
+7. ^pos(IsModelNumber x) and ^isInteger and ^isFloat
+
+# Version 7.31 4/8/2017
 **--- NEED TO RECOMPILE YOUR BOT! format has changed in TOPIC folder**
 1. ^wordAtIndex({original, canonical} n) retrieves word at index either original or canonical
 2. ^cs_reboot and ^reboot
@@ -41,7 +50,7 @@ in a factset permanent (or such facts created after a given fact)
 9.  `:redo FILE filename xxxxx` -- to name file to open instead of std backup of last turn
 10. `loglimit=n` -- where n is number of MB  log rolling
 11. `^removeproperty` supports `HAS_SUBSTITUTE` to turn off a substitution from `LIVEDATA/`
-12. Italian dictionary support 
+12. Italian dictionary support
 
 # version 7.2  2-9-2017
 1. `^jsonreadcvs` takes optional 3rd argument - function to invoke with the fields instead of returning json
@@ -70,7 +79,7 @@ in a factset permanent (or such facts created after a given fact)
 2. bot: 1  harry    -- sets bot fact owner at same time (see $cs_factowner)
 3. allow bot: command as a line in the filesxxx.txt build file to change bot restrictions from there
 
-# version 7.1 
+# version 7.1
 1. command line parameter apikey for `:translateconcept`
 2. `:translateconcept` to use google translate on concepts from english
 3. conditional block comments now supported:  
@@ -159,7 +168,7 @@ BUT you cannot do assignment into an array for a new index, only on an existing 
 
 # version 6.84 9/25/2016
 1. supports json path argument with string for key so you can do ^jsonpath(."st. helens".data $$x)
-2. dotted notation supports $x.y.z and $x.y.z = 
+2. dotted notation supports $x.y.z and $x.y.z =
 3. findtext now also returns $$findtext_word which is what word it was found at
 4. ^actualinputrange(start end) from ^original data, naming a range of words, what actual words are covered
 	returns range (begin<<16) | end
@@ -193,7 +202,7 @@ BUT you cannot do assignment into an array for a new index, only on an existing 
 1. :trace full   renamed  :trace always,  merely allows you to pass thru ^notrace but you can still choose bits you are tracing
 2. mongo support for filesystem changed...
 3. ^authorized() allows a script to test for authorization of current id just as debug commands do
-4. Giorgio Robino has transcribed 1st half of the CS documentation into wiki format in directory WIKI. 
+4. Giorgio Robino has transcribed 1st half of the CS documentation into wiki format in directory WIKI.
 In the future I will update it and remaining documents as I ongoingly revise documents. So currently wiki matches 6.8
 Renamed DOCUMENTATION to PDFDOCUMENTATION
 
@@ -335,8 +344,8 @@ provide a string like "word insensitive" to pass 2 arguments.
    Revise Cron jobs and shortcuts to the exe appropriately.
 
 # version 6.2a  2/20/2016
-1. ^norejoinder()  makes this rule unable to set its rejoinder. 
-2. CS now allows multiple forms of uppercase words, e.g.,  ID and Id 
+1. ^norejoinder()  makes this rule unable to set its rejoinder.
+2. CS now allows multiple forms of uppercase words, e.g.,  ID and Id
 3. Recently a major security hole in glibc, open source c library was announced and patched. CS uses glibc.
    This build uses the new version. If you are running older versions of CS, there is some security risk and
    you are advised to upgrade to this executable linux version, or apply sudo yum update to glibc (or equivalent
@@ -433,16 +442,16 @@ tie goes to the the first in the table).
 
 # version 5.9 12-14-2015
 1. renamed ~verbs to ~verblist, ~prepositions to ~prepositionlist, ~adverbs to ~adverblist and
-~adjectives to ~adjectivelist - these lists are not from the pos-tagger and should not be used 
+~adjectives to ~adjectivelist - these lists are not from the pos-tagger and should not be used
 in scripts. They are aggregation data about what is in the corresponding files in ONTOLOGY.
 2. :show newline forces newlines to remain in the log file for respond: and start: lines.
 3. renamed ^jsonprint to ^jsontree so you can remember it vs ^jsonwrite
 4 ^jsonformat( textstring) takes a json string and writes it so that all keys have double
-quotes around them. So you can build a json string from a CS format string w/o having to 
+quotes around them. So you can build a json string from a CS format string w/o having to
 have (and escape) quotes around the field names
 5. new system variable %http_response returns most recent response code from libcurl (for ^jsonopen)
 6. optional 1st argument to ^jsonopen, ^jsonparse, ^jsoncreate,
-^jsonobjectinsert, ^jsonarrayinsert  is word "permanent" to tell the facts to 
+^jsonobjectinsert, ^jsonarrayinsert  is word "permanent" to tell the facts to
 not be transient and "unique" to make the facts unique across volleys.
 7. ^decodeinputtoken(number) given %token or $cs_token will give english values for the enabled bits.
 8. Added writeup just after OutputMacros in advanced manual, comparing them and ^reuse().
@@ -479,7 +488,7 @@ them in the factset set.
 to be unique based on volleyCount
 3. $cs_looplimit, if defined, will replace the default 1000 value limit on how many iterations of a
 loop the system will stop at to protect against runaway loops
-4. Findtext will now substitute _ to space in source and target before matching, to provide 
+4. Findtext will now substitute _ to space in source and target before matching, to provide
 matching either notation.
 5. ^canon(word canonical) is analogous to :canon word canonical, and only works during :build. Used
 for table control over setting canonicals.
@@ -521,9 +530,9 @@ fact is an array fact, will renumber all later array value facts down 1.
 
 # version 5.61B 9/16/2015
 1. added optional argument ("trace") to build to trace the rules it compiles so you can see where it last succeeded before dying...
-   :build harry trace 
+   :build harry trace
 2. ^cs_topic_enter(^topic ^mode) and ^cs_topic_exit(^topic ^result) allow you to intercept calls to do a topic.
-   
+
 
 # version 5.6 8/28/2015
 1. changed LIVEDATA path to be the unchanged path for initsystem embedded CS users.
@@ -533,7 +542,7 @@ fact is an array fact, will renumber all later array value facts down 1.
 1. new tokencontrol value UNTOUCHED_INPUT. if set to exactly that, the system will tokenize based on spaces only.
 2 :tracedfunctions  List all user defined macros currently being traced
 3. :tracedtopics List all topics currently being traced
-	
+
 
 
 # version 5.53a 8/6/2015
@@ -546,7 +555,7 @@ fact is an array fact, will renumber all later array value facts down 1.
 # version 5.52
 1.  filesxxx.txt files hunt order now includes RAWDATA folder.
 2. Gambit now takes a series of things to try in order (up to 15) with FAIL as a final legal choice.
-WARNING: Back at the beginning of CS 5.xxx ^gambit(PENDING) changed meaning to no longer include the 
+WARNING: Back at the beginning of CS 5.xxx ^gambit(PENDING) changed meaning to no longer include the
 current topic. But this can be "recreated" by doing ^GAMBIT(~ PENDING)
 ^gambit(~ PENDING ~mygeneral)
 will do current topic, if no gambit then PENDING topics, if no gambit then ~mygeneral topic.
@@ -561,14 +570,14 @@ will do current topic, if no gambit then PENDING topics, if no gambit then ~myge
 
 
 # version 5.5
-1. new script marker - 
+1. new script marker -
 describe: $myvar "used to store data"  _10 "tracks pos tag"
 takes a $var or an _var or an @set or a ^macro or ~topic  and a text string and saves that as documentation. See :list
 2. :list {$ ^ ~ _ @} will list documented items (and undocumented variables). See Finalizing a bot
 3: ^sort now takes optional first argument alpha or alphabetic meaning sort by name instead of value. Also takes instead  "age" meaning put oldest facts first.
 4. loop (@2) now uses count of set as loop control. Previously you could also use @2 to represent a count in patterns and IF tests.
 5. :prepare now takes optional first argument, a user variable to set the tokencontrol to.
-6. You can now control what tracing is done within a topic.  :trace ~topicname takes the current trace flags, uses them for that topic, and sets trace to 0. 
+6. You can now control what tracing is done within a topic.  :trace ~topicname takes the current trace flags, uses them for that topic, and sets trace to 0.
 Therefore:  :trace basic match  ~topicname all  will set ~topicname to do those 2 kinds of traces and turn off regular trace, then turn on regular trace for everything else
 7. :trace input  adds current input to the trace
 7: removed the comment in a concept definition (use describe: instead).
@@ -584,7 +593,7 @@ any propogate thru it
 
 # version 5.33
 1. loebner.exe updated to current system
-2. WriteFact(factindex) will dump the fact to text. eg 
+2. WriteFact(factindex) will dump the fact to text. eg
 $$f = first(@1fact)
 $$tmp = WriteFact($$f)
 and
@@ -655,7 +664,7 @@ seconds, minutes, hours, date in month, month (name), year, day of week (name)
 2. outputmacro: ^mymacro variable (^a ^b ^c) allows you to supply fewer args on the call, rest default to null
 3. ^argument(2) and ^argument(2 ^mycall) allow you to access arguments of macros (including table generation) by index and even name a calling scope above you
 4. order of arguments to ^phrase has been flipped
-5 
+5
 6. ^phrase() now takes optional 3rd argument "canonical" to request the canonical forms of words
 7. new command line param   "serverretry"  allows :retry to be used from a server
 8. ^respond(PENDING) analogous to ^gambit(PENDING) and also
@@ -685,9 +694,9 @@ seconds, minutes, hours, date in month, month (name), year, day of week (name)
 5. ^setrejoinder now takes optional 1st argument of input or output
 6. ^rejoinder takes optional argument which is the rule above the rejoinder block to use
 
-# version 4.83 
+# version 4.83
 1. :context to display current valid context
-2. removed  .<_0 and .>_0 
+2. removed  .<_0 and .>_0
 3. :testpattern can now name ~topic.label instead of a pattern, to test an existing rule.
 4. new manual- ChatScript Pattern Redux
 
@@ -808,7 +817,7 @@ to define private queries analogous to LIVEDATA/SYSTEM/queries.txt
 3. indirect function calls are now supported...
 	e.g outputmacro: ^x(^arg1 ^arg2) ^arg1(^arg2) or
 	$$tmp(argument) or _9(argument)
-4. format strings are safe to use directly as arguments to functions. 
+4. format strings are safe to use directly as arguments to functions.
 5. Advanced users manual split into that + ChatScript System Functions Manual
 6. Use of ^mark with a regular word (not concept) will force that word to reflect in ^conceptlist even though it is not a concept.
 7. :trace label reports as it passes thru labelled rules
@@ -817,7 +826,7 @@ to define private queries analogous to LIVEDATA/SYSTEM/queries.txt
 
 
 
-# version 4.33d 
+# version 4.33d
 1. format strings ^"xxx" are allowed to continue onto successive lines. Will have only a single space at each line break, regardless of how many were before or after
 2.  rename: can now declare user defined number constants:  ##myconstant 244
 (check for hex also)
@@ -842,7 +851,7 @@ to define private queries analogous to LIVEDATA/SYSTEM/queries.txt
 # version 4.33b (extra stable version)
 1. when running CS as client=, if you enter a :restart command to the server it will do that, but also restart the client= asking you for a new login.
 2. ^decodepos(pos index) gives text value of POS bits at that word location or
-   ^decodepos(role index) gives text value of ROLE bits 
+   ^decodepos(role index) gives text value of ROLE bits
 3. ~uppercase and ~utf8 concepts added to system
 4. conceptlist takes any number of additional set arguments to exclude including
 	~pos, ~sys, ~role  to exclude those underlying sets
@@ -869,19 +878,19 @@ to define private queries analogous to LIVEDATA/SYSTEM/queries.txt
 
 # version 4.32
 0. removed :debug (debugger system)
-1. bug fixes to :testtopic, script compiler, possible termination of engine on certain input sequences 
+1. bug fixes to :testtopic, script compiler, possible termination of engine on certain input sequences
 2 substitutes.txt file split to noise.txt which covers all noise words that erase themselfs. DO_NOISE is now included in DO_SUBSTITUTE_SYSTEM so it is compatible, but
 if you turned off some files and used DO_SUBSTITUTE, you may want to add in DO_NOISE
 3. ~topic added to detect words that are names of topic (with or without ~)
 4. ^conceptlist() given a wildcard reference or absolute index in a sentence, generates facts of the concepts referenced by that location.
-5. for composite proper names, mark will now mark also the last word, and if the name is a human name, the first word as well. 
+5. for composite proper names, mark will now mark also the last word, and if the name is a human name, the first word as well.
 6. %bot added, parallels $bot (and is better to use system variable)
 7. systemflags for pos-tag tie values now exposed via names:
 PROBABLE_PREPOSITION, PROBABLE_ADVERB, PROBABLE_ADJECTIVE,PROBABLE_VERB,PROBABLE_NOUN usable with ^GetProperty
 8. ^"xxx" strings (both format and functional) are now allowed to use [][] choices and make function calls.
 
 
-# version 4.31  --- fixes FUNDAMENTAL bug in dictionary code... 
+# version 4.31  --- fixes FUNDAMENTAL bug in dictionary code...
 0. fixed script in :document writeup, enhanced :wikitext
 1. added ^uniquefact to intersect two sets and returns items in 1 not in 2
 2. allowing ^analyze within main control and not just postprocessing
@@ -894,7 +903,7 @@ PROBABLE_PREPOSITION, PROBABLE_ADVERB, PROBABLE_ADJECTIVE,PROBABLE_VERB,PROBABLE
 9.  :quit can be placed in a file you :source or a top file you :build and it skips the rest of the file.
 10. emergency allocation scheme added for if user topic file gets bigger than your cache allocation value
 
-# version 4.3 
+# version 4.3
 0. :wikitext to extract plain text from mediawiki format (wikipedia, simplepedia)
 1. :document revised and expanded document of its own (in esoterica) along with :wikitext
 2. ^postprocessprint changed to append its output to the existing output, rather than putting it before the existing output.
@@ -912,7 +921,7 @@ PROBABLE_PREPOSITION, PROBABLE_ADVERB, PROBABLE_ADJECTIVE,PROBABLE_VERB,PROBABLE
 # version 4.23
 1. %os tells what os you are: windows, mac, linux, ios, android (if you #define ANDROID)
 2. talk.vbs script added to chatscript root and harry now speaks by default on windows. See ~Xpostprocess in simplecontrol.top
-3. tcpopen and popen accept null for function argument 
+3. tcpopen and popen accept null for function argument
 4. paramater serverprelog tells server to log input before working on it, helps see crashes
 5. fixed crash in tcpopen
 6. parameter serverctrlz tells server to complete output with ascii 0 then 0xfe 0xff
@@ -933,9 +942,9 @@ PROBABLE_PREPOSITION, PROBABLE_ADVERB, PROBABLE_ADJECTIVE,PROBABLE_VERB,PROBABLE
 5. ChatScript now directly supports PostgresSQL database access and a new manual ChatScript PostgreSQL (in esoterica folder) describes how to use it and added bot postgres
 
 # version 4.1
-1. DEFAULT Burst character is now " " instead of "_" 
+1. DEFAULT Burst character is now " " instead of "_"
    Several versions ago the storing on variables of multiple words captured on input
-   was changed from _ separation to " " separation, but I neglected to change burst 
+   was changed from _ separation to " " separation, but I neglected to change burst
    default. Now rectified. BUT... if you had ^burst(_3 _) code you've written, it is
    probably wrong and should have been changed to ^burst(_3 " ").
 2.  :diff now writes the differences list also to LOGS/diff.txt
@@ -947,7 +956,7 @@ PROBABLE_PREPOSITION, PROBABLE_ADVERB, PROBABLE_ADJECTIVE,PROBABLE_VERB,PROBABLE
 8. LIVEDATA subfolder SYSTEM created and canonical.txt, queries.txt, systemessentials.txt moved into it, less likely you will change them.
 9. Gambit() and GambitTopics() fixed so it doesnt do topics with the NOGAMBITS flag on unless explicitly asked for.
 10. :autoreply generalized to repeat whatever input you tell it to repeat
-11. :abstract improved to show reuse() gambit()  refine() respond() instead of just labelling them { code } 
+11. :abstract improved to show reuse() gambit()  refine() respond() instead of just labelling them { code }
 
 # version 4.03
 1. new manual ChatScript App Client Manual and new folder subsections in documentation
@@ -999,7 +1008,7 @@ substitution to add which is enabled with the DO_PRIVATE $token flag.
 4. #DO_CONDITIONAL_POSTAG removed
 
 # version 3.72
-Most of the work has been to increase the accuracy of english pos-tagging. 
+Most of the work has been to increase the accuracy of english pos-tagging.
 extensive changes in engine and dictionary entries properties and systemflags and concepts related to pos-tagging and parsing
 1. parserdata.top split off from verbhierachy.top in ONTOLOGY and put in own folder
 2.  warning removed - now allows creation of topics with no rules.
@@ -1010,14 +1019,14 @@ extensive changes in engine and dictionary entries properties and systemflags an
 1. severe bug in pattern matcher fixed
 
 # version 3.7
-0. :document now takes file or directory 
+0. :document now takes file or directory
 1 %document now exists to tell you you are in document mode
 2  %command (sentence type) and %impliedyou (you as implied subject)
 3. added ^RETRY(TOPRULE) to return from a ^refine() to the outermost rule to retry
 4. pattern matching can now change direction using @_n++ and @_n--
 5. added documentation old paper "Speaker for the Dead"
 6: added documentation paper "Writing a Chatbot"
-7: added :concepts to tell you quickly how to generalize a word 
+7: added :concepts to tell you quickly how to generalize a word
 
 # version 3.64
 0. ^iterator allowed in any rule not just in planning rule and planning example now also uses iterators.
@@ -1026,16 +1035,16 @@ extensive changes in engine and dictionary entries properties and systemflags an
 
 # version 3.63
 0. dualmacro:   allows you to use same code as an output macro and as a pattern macro
-1. new command line parameter  livedata=   allows you to name your own directory to load livedata from. 
+1. new command line parameter  livedata=   allows you to name your own directory to load livedata from.
 2. :trace now accepts - xxx to turn off stuff, so :trace all - infer - pattern can be used
-3. bugfixes and revisions to how Planning system works - read revised doc 
+3. bugfixes and revisions to how Planning system works - read revised doc
 4. :build stockpile and stockpile planner demo now exists
 5. :build 1  is now :build Harry
 
 # version 3.62
 0. authorizedIP.txt file now also takes L_loginnames that can be authorized.
 1. new manual - finalizing a bot
-2. you can name a range of topics to :verify by ending with * , eg,  :verify ~f* 
+2. you can name a range of topics to :verify by ending with * , eg,  :verify ~f*
 3. :verify sampletopic to restrict warnings to only samples resulting in wrong topics.
 4. ^Log(file filename new)  use of new to clear out any existing content in file
 5.  out-of-band sentences (ones leading with [...]) no long spell check inside the [ ] area nor do they postag/parse.
@@ -1133,7 +1142,7 @@ extensive changes in engine and dictionary entries properties and systemflags an
 6. new manuals on pos-tagging (for foreign language developers) and control scripts
 
 # version 3.1
-1. bug fixes - loebner entry # version 
+1. bug fixes - loebner entry # version
 
 # version 3.06
 1. fixed :trace ~topicname and various other bugs
@@ -1180,7 +1189,7 @@ extensive changes in engine and dictionary entries properties and systemflags an
 # version 1.99	--- last # version of 2011
 1. fixed SYSTEM command
 2. fixed token errors related to questions
-3. added |=  &=  ^=  to assignment 
+3. added |=  &=  ^=  to assignment
 4. made responders allow more data
 
 # version 1.28
@@ -1223,7 +1232,7 @@ extensive changes in engine and dictionary entries properties and systemflags an
 2. Pos tagging improved, migrating toward full parsing but not there yet
 3. linux server no longer busy-waits - Linux build now requires -lrt as well
 
-# version 1.21 
+# version 1.21
 bug fixes, more pos tagging  and doc added for ^match()
 
 # version 1.20
@@ -1276,7 +1285,7 @@ bug fixes, more pos tagging  and doc added for ^match()
 # version 1.12
 1. added POS(noun,word,proper) to uppercase to proper name
 2. allowed to have global user variables from a :build commands
-3. added autogeneration of responders 
+3. added autogeneration of responders
 
 # version 1.11
 1. fixed serious bug in script compiler
@@ -1319,7 +1328,7 @@ bug fixes, more pos tagging  and doc added for ^match()
 5. enhanced output of things like :testtopic and :testoutput to show variables changed as well.
 6. changed file format of user save data... any files in USERS folder you have should be removed.
 7. moved %token over to $token
-8. allowing #define constants as ordinary items in output 
+8. allowing #define constants as ordinary items in output
 9. added %question
 10 moves ~qwords from script to engine
 
@@ -1371,7 +1380,7 @@ bug fixes, more pos tagging  and doc added for ^match()
 2. added %server (server mode vs standalone mode)
 3. added ~unknownword (unrecognized input words)
 4. added $var? (can var content be found in sentence) and _9? (can match var be found in sentence)
-5. added :stats 
+5. added :stats
 6. added ^save(@setref true/false)
 7. added support for Windows server
 8. added overlay to run Loebner protocol (different project) under vs2010
