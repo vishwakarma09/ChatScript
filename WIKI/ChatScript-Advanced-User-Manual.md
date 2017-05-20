@@ -1119,7 +1119,7 @@ the system finds it already had such a response sent to the user in some recentl
 the output is also discarded and the rule "fails".
 
 Actually, it's a bit more complicated than that. Let's imagine a stream is being built up.
-And then suddenly the rule calls another rule (`^reuse`, `^gambit`, `^repond`). What happens?
+And then suddenly the rule calls another rule (`^reuse`, `^gambit`, `^respond`). What happens?
 E.g.
 
     u: ( some test ) I like fruit and vegetables. ^reuse(COMMON) And so do you.
