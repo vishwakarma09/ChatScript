@@ -1,4 +1,5 @@
-ï»¿##<<ENGLISH concept: ~cartoon_character ( ) ##>>
+
+##<<ENGLISH concept: ~cartoon_character ( ) ##>>
 ##<<ENGLISH concept: ~architect ( ) ##>>
 ##<<ENGLISH concept: ~athlete UPPERCASE_MATCH() ##>>
 ##<<ENGLISH concept: ~author UPPERCASE_MATCH() ##>>
@@ -250,9 +251,9 @@
 ##<<ENGLISH concept: ~chatbotlist (AI AIML Alicebot artificial artificial_intelligence automaton bot chat-program chat_bot chat_box chatbot chatbox chatterbot chatterbox nonhuman NPC program robot 
           Smarterchild talk_bot unhuman Verbot ) ##>>
 ##<<ENGLISH concept: ~cheeses   (blue_cheese Boursin Brie Cambozola Camembert cheddar Colby cream_cheese Danish_blue feta Gorgonzola Gouda Gruyere havarti Limburger Monterey_Jack 
-          mozzarella Muenster munster Parmesan pepper_jack provolone quark ricotta Rochefort Roquefort Stilton Swiss_cheese Tilsit blue_cheese Boursin Brie Brie_de_Meaux Cambozola Camembert cheddar Chevre ChÃ¨vre Colby cream_cheese Danish_blue Epoisses feta fromage Gorgonzola Gouda Gruyere 
-          havarti Limburger Monterey_Jack mozzarella muenster munster Parmesan pepper_jack Pont_l'Eveque Pont_l'Ã‰vÃªque provolone quark Reblochon ricotta Rochefort Roquefort Stilton 
-          Swiss_cheese Tilsit Tomme_de_Savoie yogurt Ã‰poisses) ##>>
+          mozzarella Muenster munster Parmesan pepper_jack provolone quark ricotta Rochefort Roquefort Stilton Swiss_cheese Tilsit blue_cheese Boursin Brie Brie_de_Meaux Cambozola Camembert cheddar Chevre Chèvre Colby cream_cheese Danish_blue Epoisses feta fromage Gorgonzola Gouda Gruyere 
+          havarti Limburger Monterey_Jack mozzarella muenster munster Parmesan pepper_jack Pont_l'Eveque Pont_l'Évêque provolone quark Reblochon ricotta Rochefort Roquefort Stilton 
+          Swiss_cheese Tilsit Tomme_de_Savoie yogurt Époisses) ##>>
 ##<<ENGLISH concept: ~chemicals (chemical compound~3 organic_compound~1 ) ##>>
 ##<<ENGLISH concept: ~chinese_cooking_styles (Cantonese Chinese Hunan Mongolian Sichuan Szechuan ) ##>>
 ##<<ENGLISH concept: ~christmas_words (Christmas Christmas_Day Christmas_Eve Xmas ) ##>>
@@ -1999,7 +2000,7 @@
 ##<<ENGLISH concept: ~videogame_genre (action-adventure action~7 adventure casual dance educational fantasy fight first-person_shooter god management maze pinball platform puzzle real-time_strategy 
           role-playing RPG RTS shooter side_scroller simulation simulator sports strategy ) ##>>
 ##<<ENGLISH concept: ~videogame_hardware_companies NOUN NOUN_PROPER_SINGULAR (Coleco Microsoft Nintendo Sony ) ##>>
-##<<ENGLISH concept: ~videogame_machines   (arcade_machine DreamCast DS Gamecube N64 Nintendo_DS Playstation Playstation_2 Playstation_3 PS2 PS3 PSP SNES Wii Xbox Xbox_360 ) ##>>
+##<<ENGLISH concept: ~videogame_machines   (arcade_machine DreamCast DS Gamecube N64 Nintendo_DS PlayStation PlayStation_2 Playstation_3 PS2 PS3 PSP SNES Wii Xbox Xbox_360 ) ##>>
 ##<<ENGLISH concept: ~videogame_software_companies NOUN NOUN_PROPER_SINGULAR (2K_Games 3DO Acclaim_Entertainment Accolade Activision Atari Bandai Blizzard Blizzard_Entertainment Broderbund Bungie 
           Capcom Coleco Crystal_Dynamics Disney_Interactive Eidos Electronic_Arts Enix GT_Interactive Hudson_Soft LucasArts Nintendo Radical Sega Telltale_Games Vivendi ) ##>>
 ##<<ENGLISH concept: ~virtual_pets (Furby Hatchi Pou tamagochi virtual_pet ) ##>>

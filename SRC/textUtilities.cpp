@@ -12,8 +12,11 @@ bool newline = false;
 int docSampleRate = 0;
 int docSample = 0;
 int docVolleyStartTime = 0;
+bool hasHighChar = false;
 char conditionalCompile[MAX_CONDITIONALS+1][50];
 int conditionalCompiledIndex = 0;
+char numberComma = ',';
+char numberPeriod = '.';
 
 char tmpWord[MAX_WORD_SIZE];					// globally visible scratch word
 char* userRecordSourceBuffer = 0;				// input source for reading is this text stream of user file
@@ -515,7 +518,9 @@ double Convert2Float(char* original)
 	char num[MAX_WORD_SIZE];
 	strcpy(num, original);
 	char* comma;
-	while ((comma = strchr(num, ','))) memmove(comma, comma + 1, strlen(comma));
+	while ((comma = strchr(num, numberComma))) memmove(comma, comma + 1, strlen(comma));
+	char* period = strchr(num, numberPeriod);
+	if (period) *period = '.'; // force us period
 	double val = atof(num);
 	if (IsDigitWithNumberSuffix(num)) // 10K  10M 10B
 	{
@@ -1255,7 +1260,7 @@ bool IsPlaceNumber(char* word) // place number and fraction numbers
     if (len < 4 && !IsDigit(*word)) return false; // want a number
 	char num[MAX_WORD_SIZE];
 	strcpy(num,word);
-	return IsNumber(num,false) ? true : false; // show it is correctly a number - pass false to avoid recursion from IsNumber
+	return (IsNumber(num,false) == PLACETYPE_NUMBER) ? true : false; // show it is correctly a number - pass false to avoid recursion from IsNumber
 }
 
 void WriteInteger(char* word, char* buffer, int useNumberStyle)
@@ -1331,13 +1336,14 @@ bool IsFloat(char* word, char* end)
 	bool exponent = false;
 	while (++word < end) // count periods
 	{
-	    if (*word == '.' && !exponent) ++period;
-		else if (!IsDigit(*word))
+	    if (*word == numberPeriod && !exponent) ++period;
+		else if (!IsDigit(*word) && *word != numberComma)
 		{
 			if ((*word == 'e' || *word == 'E') && !exponent)
 			{
 				exponent = true;
 				if (word[1] == '-' || word[1] == '+') ++word; // ignore exponent sign
+				if (!IsDigit(word[1])) return false; // need a number after the exponent, 10euros is not a float
 			}
 			else return false; // non digit is fatal
 		}
@@ -1474,7 +1480,7 @@ unsigned int IsMadeOfInitials(char * word,char* end)
 /// READING ROUTINES
 ////////////////////////////////////////////////////////////////////
 
-char* ReadFlags(char* ptr,uint64& flags,bool &bad, bool &response)
+char* ReadFlags(char* ptr,uint64& flags,bool &bad, bool &response,bool factcall)
 {
 	flags = 0;
 	response = false;
@@ -1493,6 +1499,7 @@ char* ReadFlags(char* ptr,uint64& flags,bool &bad, bool &response)
 			if (!flags) flags = FindMiscValueByName(word);
 			if (!flags) bad = true;
 		}
+		if (factcall) return ptr;
 		return  (!flags && !IsDigit(*word) && *word != 'x' && !response) ? start : ptr;	// if found nothing return start, else return end
 	}
 
@@ -1528,6 +1535,7 @@ char* ReadFlags(char* ptr,uint64& flags,bool &bad, bool &response)
 		*close = ')';
 		ptr = SkipWhitespace(close + 1);
 	}
+	if (factcall) return ptr;
 	return  (!flags) ? start : ptr; 
 }
 
@@ -1710,6 +1718,7 @@ bool AdjustUTF8(char* start,char* buffer)
 					*buffer = '\'';
 					memmove(buffer + 1, x, strlen(x) + 1);
 					x = buffer + 1;
+					if (compiling) WARNSCRIPT("UTF8 B4 ' revised to Ascii %s | %s",start,buffer);
 				}
 				else if (buffer[0] == 0xe2 && buffer[1] == 0x80 && buffer[2] == 0x98)  // open single quote
 				{
@@ -1717,6 +1726,7 @@ bool AdjustUTF8(char* start,char* buffer)
 					*buffer = ' ';
 					buffer[1] = '\'';
 					buffer[2] = ' ';
+					if (compiling) WARNSCRIPT("UTF8 opening single quote revised to Ascii %s | %s", start, buffer);
 				}
 				else if (buffer[0] == 0xe2 && buffer[1] == 0x80 && buffer[2] == 0x99)  // closing single quote (may be embedded or acting as a quoted expression
 				{
@@ -1725,6 +1735,7 @@ bool AdjustUTF8(char* start,char* buffer)
 						*buffer = '\'';
 						memmove(buffer + 1, x, strlen(x) + 1);
 						x = buffer + 1;
+						if (compiling) WARNSCRIPT("UTF8 closing single quote revised to Ascii  %s | %s", start, buffer);
 					}
 					else if (prior == 's' && !IsAlphaUTF8(*x)) // ending possessive
 					{
@@ -1749,20 +1760,27 @@ bool AdjustUTF8(char* start,char* buffer)
 				{
 					*buffer = '\'';
 					memmove(buffer + 1, x, strlen(x) + 1);
+					if (compiling) WARNSCRIPT("UTF8 opening double quote revised to Ascii %s | %s", start, buffer);
 				}
 				else if (buffer[0] == 0xe2 && buffer[1] == 0x80 && buffer[2] == 0x9d)  // closing double quote
 				{
 					*buffer = '"';
 					memmove(buffer + 1, x, strlen(x) + 1);
+					if (compiling) WARNSCRIPT("UTF8 closing double quote revised to Ascii %s | %s", start, buffer)
 				}
-				else if (buffer[0] == 0xe2 && buffer[1] == 0x80 && buffer[2] == 0x94 && !(tokenControl & NO_FIX_UTF) && !compiling)  // mdash
+				else if (buffer[0] == 0xe2 && buffer[1] == 0x80 && buffer[2] == 0x94 && !(tokenControl & NO_FIX_UTF) )  // mdash
 				{
-					*buffer = '-';
+					if (!compiling) *buffer = '-';
+					if (compiling) WARNSCRIPT("UTF8 mdash seen  %s | %s", start, buffer);
 				}
-				else if (buffer[0] == 0xe2 && buffer[1] == 0x80 && (buffer[2] == 0x94 || buffer[2] == 0x93) && !(tokenControl & NO_FIX_UTF) && !compiling)  // mdash
+				else if (buffer[0] == 0xe2 && buffer[1] == 0x80 && (buffer[2] == 0x94 || buffer[2] == 0x93) && !(tokenControl & NO_FIX_UTF) )  // mdash
 				{
-					*buffer = '-';
-					memmove(buffer + 1, x, strlen(x) + 1);
+					if (!compiling)
+					{
+						*buffer = '-';
+						memmove(buffer + 1, x, strlen(x) + 1);
+					}
+					if (compiling) WARNSCRIPT("UTF8 mdash seen  %s | %s", start, buffer);
 				}
 				buffer = x - 1; // valid utf8
 			}
@@ -1779,7 +1797,11 @@ bool AdjustUTF8(char* start,char* buffer)
 int ReadALine(char* buffer,FILE* in,unsigned int limit,bool returnEmptyLines,bool convertTabs) 
 { //  reads text line stripping of cr/nl
 	currentFileLine = maxFileLine; // revert to best seen
-	if (currentFileLine == 0) BOM = (BOM == BOMSET) ? BOMUTF8 : NOBOM; // start of file, set BOM to null
+	if (currentFileLine == 0)
+	{
+		BOM = (BOM == BOMSET) ? BOMUTF8 : NOBOM; // start of file, set BOM to null
+		hasHighChar = false; // for outside verify
+	}
 	*buffer = 0;
 	buffer[1] = 0;
 	buffer[2] = 1;
@@ -1826,10 +1848,11 @@ RESUME:
 				break;	// end of buffer
 		}
 		if (c == '\t' && convertTabs) c = ' ';
-		if (c & 0x80) // high order utf?
+		if (c & 0x80 ) // high order utf?
 		{
+			hasHighChar = true;
 			unsigned char convert = 0;
-			if (!BOM && !hasutf && !server) // local mode might get extended ansi so transcribe to utf8
+			if (!BOM && !hasutf && !server) // local mode might get extended ansi so transcribe to utf8 (but dont touch BOM)
 			{
 				unsigned char x = (unsigned char) c;
 				if (x == 147 || x == 148) convert = c = '"';
@@ -2060,7 +2083,7 @@ RESUME:
 	buffer[1] = 0;
 	buffer[2] = 1; //   clear ahead to make it obvious we are at end when debugging
 
-	if (hasutf && BOM)  hasbadutf = AdjustUTF8(start, start - 1);
+	if (hasutf && BOM)  hasbadutf = AdjustUTF8(start, start - 1); // DO NOT ADJUST BINARY FILES
 	if (hasbadutf && showBadUTF && !server)  
 		Log(STDTRACELOG,(char*)"Bad UTF-8 %s at %d in %s\r\n",start,currentFileLine,currentFilename);
     return (buffer - start);
@@ -2249,11 +2272,8 @@ char* ReadCompiledWord(char* ptr, char* word,bool noquote,bool var,bool nolimit)
 		char priorchar = 0;
 		while ((c = *ptr++) && c != ENDUNIT) 
 		{
-			if (quote) {}
-			else if (c == ' ') break;
-			if (c == '"' && (ptr-start) > 1  && *(ptr-2) != '\\'  ) // not an internal escaped quote
-				quote = !quote;
-
+			if (c == ' ') break;
+			// PAY NO SPECIAL ATTENTION TO NON-STARTING QUOTEMARKS, ESP 69"
 			if (special) // try to end a variable if not utf8 char or such
 			{
 				if (special == '$' && (c == '.' || c == '[') && (LegalVarChar(*ptr) || *ptr == '$' )) {;} // legal data following . or [
@@ -2826,65 +2846,82 @@ int64 Convert2Integer(char* number)  //  non numbers return NOT_A_NUMBER
 	return value + ((int64)billion * 1000000000) + ((int64)million * 1000000) + ((int64)thousand * 1000) + ((int64)hundred * 100);
 }
 
+
 void MakeLowerCase(char* ptr)
 {
-    --ptr;
+	--ptr;
 	while (*++ptr)
 	{
-		if (*ptr == 0xc3 && (unsigned char)ptr[1] >= 0x80 && (unsigned char)ptr[1] <= 0x9e)
+		char utfcharacter[10];
+		char* x = IsUTF8(ptr, utfcharacter); // return after this character if it is valid.
+		if (utfcharacter[1] && *ptr == 0xc3 && (unsigned char)ptr[1] >= 0x80 && (unsigned char)ptr[1] <= 0x9e)
 		{
 			unsigned char c = (unsigned char)*++ptr; // get the cap form
 			c -= 0x80;
 			c += 0x9f; // get lower case form
 			*ptr = (char)c;
 		}
-		else if (*ptr >= 0xc4 && *ptr <= 0xc9)
+		else if (utfcharacter[1] && *ptr >= 0xc4 && *ptr <= 0xc9)
 		{
 			unsigned char c = (unsigned char)*++ptr;
 			*ptr = (char)c | 1;
 		}
+		else if (utfcharacter[1]) ptr = x - 1;
 		else *ptr = GetLowercaseData(*ptr);
 	}
 }
 
 void MakeUpperCase(char* ptr)
 {
-    --ptr;
+	--ptr;
 	while (*++ptr)
 	{
-		if (*ptr == 0xc3 && ptr[1] >= 0x9f && ptr[1] <= 0xbf)
+		char utfcharacter[10];
+		char* x = IsUTF8(ptr, utfcharacter); // return after this character if it is valid.
+		if (utfcharacter[1] && *ptr == 0xc3 && ptr[1] >= 0x9f && ptr[1] <= 0xbf)
 		{
 			unsigned char c = (unsigned char)*++ptr; // get the cap form
 			c -= 0x9f;
 			c += 0x80; // get upper case form
 			*ptr = (char)c;
 		}
-		else if (*ptr >= 0xc4 && *ptr <= 0xc9)
+		else if (utfcharacter[1] && *ptr >= 0xc4 && *ptr <= 0xc9)
 		{
 			unsigned char c = (unsigned char)*++ptr; // get the cap form
 			*ptr = (char)c & 0xfe;
 		}
+		else if (utfcharacter[1]) ptr = x - 1;
 		else *ptr = GetUppercaseData(*ptr);
 	}
 }
 
-char*  MakeLowerCopy(char* to,char* from)
+char*  MakeLowerCopy(char* to, char* from)
 {
 	char* start = to;
 	while (*from)
 	{
-		if (*from == 0xc3 && from[1] >= 0x80 && from[1] <= 0x9e)
+		char utfcharacter[10];
+		char* x = IsUTF8(from, utfcharacter); // return after this character if it is valid.
+		if (utfcharacter[1] && *from == 0xc3 && from[1] >= 0x80 && from[1] <= 0x9e)
 		{
-			*to++ = *from++;
-			unsigned char c = *from++; // get the cap form
+			*to++ = *from;
+			unsigned char c = from[1]; // get the cap form
 			c -= 0x80;
 			c += 0x9f; // get lower case form
 			*to++ = c;
+			from = x;
 		}
-		else if (*from >= 0xc4 && *from <=  0xc9)
+		else if (utfcharacter[1] && *from >= 0xc4 && *from <= 0xc9)
 		{
-			*to++ = *from++;
-			*to++ = *from++ | 1; // lowercase from cap
+			*to++ = *from;
+			*to++ = from[1] | 1; // lowercase from cap
+			from = x;
+		}
+		else if (utfcharacter[1])
+		{
+			strcpy(to, utfcharacter);
+			to += strlen(to);
+			from = x;
 		}
 		else *to++ = GetLowercaseData(*from++);
 	}
@@ -2892,23 +2929,33 @@ char*  MakeLowerCopy(char* to,char* from)
 	return start;
 }
 
-char* MakeUpperCopy(char* to,char* from)
+char* MakeUpperCopy(char* to, char* from)
 {
 	char* start = to;
 	while (*from)
 	{
-		if (*from == 0xc3 && from[1] >= 0x9f && from[1] <= 0xbf)
+		char utfcharacter[10];
+		char* x = IsUTF8(from, utfcharacter); // return after this character if it is valid.
+		if (utfcharacter[1] && *from == 0xc3 && from[1] >= 0x9f && from[1] <= 0xbf)
 		{
-			*to++ = *from++;
-			unsigned char c = *from++; // get the cap form
+			*to++ = *from;
+			unsigned char c = from[1]; // get the cap form
 			c -= 0x9f;
 			c += 0x80; // get upper case form
 			*to++ = c;
+			from = x;
 		}
-		else if ((*from >= 0xc4 && *from <= 0xc9))
+		else if (utfcharacter[1] && (*from >= 0xc4 && *from <= 0xc9))
 		{
-			*to++ = *from++;
-			*to++ = *from++ & 0xfe; // uppercase from small
+			*to++ = *from;
+			*to++ = from[1] & 0xfe; // uppercase from small
+			from = x;
+		}
+		else if (utfcharacter[1])
+		{
+			strcpy(to, utfcharacter);
+			to += strlen(to);
+			from = x;
 		}
 		else *to++ = GetUppercaseData(*from++);
 	}

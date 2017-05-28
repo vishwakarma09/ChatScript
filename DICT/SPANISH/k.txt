@@ -1,4 +1,4 @@
-﻿ K ( ) 
+﻿ K ( ) lemma=QKS 
  K-1 ( ) 
  K.21 ( ) 
  KDD ( ) 
@@ -72,46 +72,58 @@
  karatazo ( ) 
  kb ( ) 
  kbit ( ) 
- kcal ( ) lemma=kilocaloría 
- kilocaloría ( ) 
+ kcal ( ) 
  kernel ( ) 
  ketoconasole ( ) 
  ketoconazol ( ) 
  ketotifeno ( ) 
  keyboard ( ) 
  keying ( ) 
- keynesianas ( ) lemma=keynesiano 
+ keynesianas ( ) 
  keynesiano ( ) 
- kg ( ) lemma=kilogramo 
- kilogramo ( ) 
+ kg ( ) 
  kilo ( ) 
- kilobases ( ) lemma=kilobase 
- kilobase ( ) 
+ kilobases ( ) 
+ kilocaloría ( ) 
+ kilogramo ( ) 
  kilogramo-metro ( ) 
- kilogramos ( ) lemma=kilogramo 
+ kilogramos ( ) 
  kilométrico ( ) 
- kilométricos ( ) lemma=kilométrico 
- kilooctectos ( ) lemma=kiloocteto 
- kiloocteto ( ) 
- kilooctetos ( ) lemma=kiloocteto 
- kilos ( ) lemma=kilo 
- kilovatios ( ) lemma=kilovatio 
- kilovatio ( ) 
+ kilométricos ( ) 
+ kilooctectos ( ) 
+ kilooctetos ( ) 
+ kilos ( ) 
+ kilovatios ( ) 
  kilómetro ( ) 
- kilómetros ( ) lemma=kilómetro 
+ kilómetros ( ) 
  kinesioterapia ( ) 
  kinesiólogo ( ) 
  kinésico ( ) 
  kiosco ( ) 
- kioscos ( ) lemma=kiosco 
- kits ( ) lemma=kit 
- kit ( ) 
- km ( ) lemma=kilómetro 
+ kioscos ( ) 
+ kits ( ) 
+ km ( ) 
  knockout ( ) 
  kraissl ( ) 
- kurdos ( ) lemma=kurdo 
- kurdo ( ) 
+ kurdos ( ) 
  kw ( ) 
  kwashiorkor ( ) 
  kárate ( ) 
  kásra ( ) 
+ kz ( ) lemma=Akzo 
+ katerinburg ( ) lemma=Ekaterinburgo 
+ KK ( ) lemma=KKKK 
+ K0 ( ) lemma=LK02 
+ K4 ( ) lemma=LK42 
+ K6 ( ) lemma=LK61 
+ kazak ( ) lemma=Okazaki 
+ klahom ( ) lemma=Oklahoma 
+ kellefte ( ) lemma=Skelleftea 
+ kinne ( ) lemma=Skinner 
+ KW ( ) lemma=ZKWZ 
+ kilobase ( ) 
+ kiloocteto ( ) 
+ kilovatio ( ) 
+ kit ( ) 
+ kurdo ( ) 
+ ke ( ) lemma=okey 

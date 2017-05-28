@@ -2,7 +2,9 @@
  20ème ( ) 
  2e ( ) 
  2nd ( ) 
- 2nde ( ) lemma=2nd 
- 2ndes ( ) lemma=2nd 
- 2nds ( ) lemma=2nd 
+ 2nde ( ) 
+ 2ndes ( ) 
+ 2nds ( ) 
  2ème ( ) 
+ 2 ( ) lemma=12e 
+ 2èm ( ) lemma=12ème 

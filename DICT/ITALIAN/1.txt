@@ -13,3 +13,5 @@
  160mila ( ) 
  180mila ( ) 
  18mila ( ) 
+ 10mil ( ) lemma=110mila 
+ 1mil ( ) lemma=21mila 

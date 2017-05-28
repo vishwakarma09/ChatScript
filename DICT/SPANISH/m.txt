@@ -1,4 +1,4 @@
-﻿ M ( ) 
+﻿ M ( ) lemma=TML 
  M-L7 ( ) 
  M.140 ( ) 
  M.160 ( ) 
@@ -20,7 +20,7 @@
  MDP ( ) 
  MDT ( ) 
  MEET ( ) 
- MENOR ( ) lemma=pequeño 
+ MENOR ( ) 
  MEP ( ) 
  MF ( ) 
  MFC ( ) 
@@ -33,24 +33,24 @@
  MIP ( ) 
  MK ( ) 
  MLR ( ) 
- MM ( ) 
+ MM ( ) lemma=MMMM 
  MM.1 ( ) 
  MMMM ( ) 
  MNC ( ) 
  MNS ( ) 
  MOM ( ) 
  MP.1 ( ) 
- MR ( ) 
+ MR ( ) lemma=NMRE 
  MRF ( ) 
  MRP ( ) 
  MRT ( ) 
- MS ( ) 
+ MS ( ) lemma=TMSI 
  MSA ( ) 
  MSC ( ) 
  MSD ( ) 
  MSG ( ) 
  MSIN ( ) 
- MTP ( ) 
+ MTP ( ) lemma=RMTPV 
  MTSD ( ) 
  MULTIPLEXACION ( ) 
  Ma ( ) 
@@ -80,7 +80,7 @@
  Mafalda ( ) 
  Magalí ( ) 
  Magdalena ( ) 
- Magdalenas ( ) lemma=Magdalena 
+ Magdalenas ( ) 
  Magistrado ( ) 
  Magistrados ( ) 
  Magollán ( ) 
@@ -114,22 +114,20 @@
  Manizales ( ) 
  Mann-Whitney ( ) 
  Mannington ( ) 
- Manolito ( ) lemma=Manolo 
- Manolo ( ) lemma=Manuel 
- Manuel ( ) 
- Manolos ( ) lemma=Manuel 
+ Manolito ( ) 
+ Manolo ( ) 
+ Manolos ( ) 
  Manos ( ) 
  Manrique ( ) 
  Manu ( ) 
- Manuela ( ) lemma=Manuel 
- Manuelita ( ) lemma=Manuela 
+ Manuel ( ) 
+ Manuela ( ) 
+ Manuelita ( ) 
  Manville ( ) 
  Manzanillo ( ) 
  Mapi ( ) 
  Maquela ( ) 
  Mar ( ) 
- Mar_del_Plata ( ) lemma=Mar~del~Plata 
- Mar~del~Plata ( ) 
  Mara ( ) 
  Maracaibo ( ) 
  Maradona ( ) 
@@ -145,11 +143,11 @@
  Margarita ( ) 
  Mari ( ) 
  Maria ( ) 
- Mariana ( ) lemma=Mariano 
- Mariano ( ) 
+ Mariana ( ) 
  Marianao ( ) 
  Marianas ( ) 
  Marianela ( ) 
+ Mariano ( ) 
  Maribel ( ) 
  Maribí ( ) 
  Maribín ( ) 
@@ -165,8 +163,7 @@
  Marito ( ) 
  Mariza ( ) 
  Mark ( ) 
- Marlencita ( ) lemma=Marlena 
- Marlena ( ) 
+ Marlencita ( ) 
  Marlene ( ) 
  Marlon ( ) 
  Marque ( ) 
@@ -183,14 +180,14 @@
  Martinica ( ) 
  Martín ( ) 
  Martínez ( ) 
- Maruja ( ) lemma=María 
- María ( ) 
- Marujas ( ) lemma=María 
+ Maruja ( ) 
+ Marujas ( ) 
  Marx ( ) 
  Mary ( ) 
  Maryland ( ) 
  Marylyn ( ) 
- Marías ( ) lemma=María 
+ María ( ) 
+ Marías ( ) 
  Marín ( ) 
  Mass ( ) 
  Massachusetts ( ) 
@@ -244,7 +241,7 @@
  Mendel ( ) 
  Mendoza ( ) 
  Menghini ( ) 
- Menor ( ) lemma=pequeño 
+ Menor ( ) 
  Menotti ( ) 
  Menéndez ( ) 
  Mequinenza ( ) 
@@ -280,10 +277,7 @@
  Microsporum ( ) 
  Midas ( ) 
  Midwest ( ) 
- Mientras_que ( ) lemma=mientras~que 
- mientras~que ( ) 
- Mientras_tanto ( ) lemma=mientras~tanto 
- mientras~tanto ( ) 
+ Mientras ( ) 
  Miguel ( ) 
  Mijail ( ) 
  Mijas ( ) 
@@ -301,7 +295,7 @@
  Milán ( ) 
  Mindanao ( ) 
  Ming ( ) 
- Mingo ( ) lemma=Domingo 
+ Mingo ( ) 
  Minimización ( ) 
  Ministerio ( ) 
  Ministerios ( ) 
@@ -400,7 +394,7 @@
  Mycoplasmataceae ( ) 
  Myriad ( ) 
  Myriam ( ) 
- MÍNIMAS ( ) lemma=pequeño 
+ MÍNIMAS ( ) 
  Málaga ( ) 
  Márquez ( ) 
  Méjico ( ) 
@@ -409,203 +403,191 @@
  Mérida ( ) 
  México ( ) 
  Mónaco ( ) 
- Mónica ( ) lemma=Mónico 
- Mónico ( ) 
- m ( ) 
+ Mónica ( ) 
+ m ( ) lemma=omc 
  m-ario ( ) 
  mA ( ) 
  mW ( ) 
- ma ( ) 
+ ma ( ) lemma=ama 
  macabeo ( ) 
- macabra ( ) lemma=macabro 
+ macabra ( ) 
+ macabras ( ) 
  macabro ( ) 
- macabras ( ) lemma=macabro 
- macabros ( ) lemma=macabro 
- macacos ( ) lemma=macaco 
- macaco ( ) 
+ macabros ( ) 
+ macacos ( ) 
  macana ( ) 
- macanas ( ) lemma=macana 
- macarrones ( ) lemma=macarrón 
- macarrón ( ) 
- macerada ( ) lemma=macerar 
- macerar ( ) 
- macerando ( ) lemma=macerar 
+ macanas ( ) 
+ macarrones ( ) 
+ macerada ( ) 
+ macerando ( ) 
  maceta ( ) 
- macetas ( ) lemma=maceta 
- machaban ( ) lemma=machar 
- machar ( ) 
- machaca ( ) lemma=machacar 
+ macetas ( ) 
+ machaban ( ) 
+ machaca ( ) 
+ machacaban ( ) 
+ machacadas ( ) 
+ machacado ( ) 
+ machacados ( ) 
+ machacan ( ) 
+ machacando ( ) 
  machacar ( ) 
- machacaban ( ) lemma=machacar 
- machacadas ( ) lemma=machacar 
- machacado ( ) lemma=machacar 
- machacados ( ) lemma=machacar 
- machacan ( ) lemma=machacar 
- machacando ( ) lemma=machacar 
- machacarles ( ) lemma=machacar 
- machaco ( ) lemma=machacar 
- machacó ( ) lemma=machacar 
- machada ( ) lemma=machar 
- macharlo ( ) lemma=machar 
- machas ( ) lemma=machar 
- machen ( ) lemma=machar 
+ machacarles ( ) 
+ machaco ( ) 
+ machacó ( ) 
+ machada ( ) 
+ macharlo ( ) 
+ machas ( ) 
+ machen ( ) 
  machete ( ) 
- machetes ( ) lemma=machete 
+ machetes ( ) 
  machismo ( ) 
  machista ( ) 
- machistas ( ) lemma=machista 
- machitos ( ) lemma=macho 
+ machistas ( ) 
+ machitos ( ) 
  macho ( ) 
- machos ( ) lemma=macho 
- machuca ( ) lemma=machucar 
- machucar ( ) 
- maché ( ) lemma=machar 
- macilla ( ) lemma=maza 
- maza ( ) 
- maciza ( ) lemma=macizo 
+ machos ( ) 
+ machuca ( ) 
+ maché ( ) 
+ macilla ( ) 
+ maciza ( ) lemma=amacizar 
  macizo ( ) 
- macizos ( ) lemma=macizo 
- maco ( ) lemma=macar 
- macar ( ) 
+ macizos ( ) 
+ maco ( ) 
  macro ( ) 
  macroagregado ( ) 
  macroangiopatía ( ) 
  macrobento ( ) 
  macrocitosis ( ) 
  macroeconomía ( ) 
- macroeconómica ( ) lemma=macroeconómico 
+ macroeconómica ( ) 
  macroeconómico ( ) 
- macroeconómicos ( ) lemma=macroeconómico 
+ macroeconómicos ( ) 
  macrofita ( ) 
  macromolecular ( ) 
- macromoleculares ( ) lemma=macromolecular 
+ macromoleculares ( ) 
  macromolécula ( ) 
- macromoléculas ( ) lemma=macromolécula 
+ macromoléculas ( ) 
  macron ( ) 
- macros ( ) lemma=macro 
- macroscópica ( ) lemma=macroscópico 
+ macros ( ) 
+ macroscópica ( ) 
+ macroscópicas ( ) 
  macroscópico ( ) 
- macroscópicas ( ) lemma=macroscópico 
  macrosoma ( ) 
  macrosomía ( ) 
  macrotexto ( ) 
  macrófago ( ) 
- macrófagos ( ) lemma=macrófago 
+ macrófagos ( ) 
  macrófito ( ) 
  macular ( ) 
  maculopapuloso ( ) 
- macumbas ( ) lemma=macumba 
- macumba ( ) 
+ macumbas ( ) 
  madeja ( ) 
  madera ( ) 
- maderas ( ) lemma=madera 
+ maderas ( ) 
  madero ( ) 
- maderos ( ) lemma=madero 
+ maderos ( ) 
  madrastra ( ) 
  madre ( ) 
- madres ( ) lemma=madre 
- madridista ( ) lemma=madridisto 
- madridisto ( ) 
- madridistas ( ) lemma=madridisto 
+ madres ( ) 
+ madridista ( ) 
+ madridistas ( ) 
  madriguera ( ) 
- madrigueras ( ) lemma=madriguera 
- madrileña ( ) lemma=madrileño 
+ madrigueras ( ) 
+ madrileña ( ) 
+ madrileñas ( ) 
  madrileño ( ) 
- madrileñas ( ) lemma=madrileño 
- madrileños ( ) lemma=madrileño 
+ madrileños ( ) 
  madrina ( ) 
- madrinas ( ) lemma=madrina 
- madruga ( ) lemma=madrugar 
- madrugar ( ) 
+ madrinas ( ) 
+ madruga ( ) 
  madrugada ( ) 
- madrugado ( ) lemma=madrugar 
- madrugamos ( ) lemma=madrugar 
- madrugo ( ) lemma=madrugar 
- madura ( ) lemma=maduro 
- maduro ( ) 
- maduraba ( ) lemma=madurar 
- madurar ( ) 
+ madrugado ( ) 
+ madrugamos ( ) 
+ madrugar ( ) 
+ madrugo ( ) 
+ madura ( ) 
+ maduraba ( ) 
  maduración ( ) 
- madurada ( ) lemma=madurar 
- maduradas ( ) lemma=madurar 
- madurado ( ) lemma=madurar 
- maduran ( ) lemma=madurar 
- madurando ( ) lemma=madurar 
- madurara ( ) lemma=madurar 
- maduras ( ) lemma=maduro 
- madurase ( ) lemma=madurar 
+ madurada ( ) 
+ maduradas ( ) 
+ madurado ( ) 
+ maduran ( ) 
+ madurando ( ) 
+ madurar ( ) 
+ madurara ( ) 
+ maduras ( ) 
+ madurase ( ) 
  madurativo ( ) 
- madure ( ) lemma=madurar 
- maduren ( ) lemma=madurar 
+ madure ( ) 
+ maduren ( ) 
  madurez ( ) 
- maduros ( ) lemma=maduro 
- maduró ( ) lemma=madurar 
- maestra ( ) lemma=maestro 
+ maduro ( ) 
+ maduros ( ) 
+ maduró ( ) 
+ maestra ( ) 
+ maestras ( ) 
+ maestrillo ( ) 
  maestro ( ) 
- maestras ( ) lemma=maestro 
- maestrillo ( ) lemma=maestro 
- maestros ( ) lemma=maestro 
+ maestros ( ) 
  maestría ( ) 
- maestrías ( ) lemma=maestría 
+ maestrías ( ) 
  mafia ( ) 
- mafias ( ) lemma=mafia 
- mafiosa ( ) lemma=mafioso 
+ mafias ( ) 
+ mafiosa ( ) 
+ mafiosas ( ) 
  mafioso ( ) 
- mafiosas ( ) lemma=mafioso 
- mafiosos ( ) lemma=mafioso 
+ mafiosos ( ) 
  magazine ( ) 
  magdalena ( ) 
  magenta ( ) 
  magia ( ) 
  magisterial ( ) 
- magisteriales ( ) lemma=magisterial 
+ magisteriales ( ) 
  magisterio ( ) 
- magistrada ( ) lemma=magistrado 
+ magistrada ( ) 
  magistrado ( ) 
  magistrado-presidente ( ) 
- magistrados ( ) lemma=magistrado 
+ magistrados ( ) 
  magistral ( ) 
- magistrales ( ) lemma=magistral 
- magistralmente ( ) lemma=magistral 
+ magistrales ( ) 
+ magistralmente ( ) 
  magistratura ( ) 
- magistraturas ( ) lemma=magistratura 
+ magistraturas ( ) 
  magma ( ) 
  magnate ( ) 
- magnates ( ) lemma=magnate 
+ magnates ( ) 
  magnesio ( ) 
  magnetismo ( ) 
  magneto ( ) 
  magnetoscopio ( ) 
- magnetoscopios ( ) lemma=magnetoscopio 
+ magnetoscopios ( ) 
  magnetófono ( ) 
- magnifica ( ) lemma=magnificar 
- magnificar ( ) 
- magnificada ( ) lemma=magnificar 
- magnificado ( ) lemma=magnificar 
+ magnifica ( ) 
+ magnificada ( ) 
+ magnificado ( ) 
  magnificencia ( ) 
  magnitud ( ) 
- magnitudes ( ) lemma=magnitud 
+ magnitudes ( ) 
  magnocelular ( ) 
  magnolia ( ) 
- magnolias ( ) lemma=magnolia 
+ magnolias ( ) 
  magnánimo ( ) 
- magnética ( ) lemma=magnético 
+ magnética ( ) 
+ magnéticas ( ) 
  magnético ( ) 
- magnéticas ( ) lemma=magnético 
- magnéticos ( ) lemma=magnético 
- magnífica ( ) lemma=magnífico 
+ magnéticos ( ) 
+ magnífica ( ) 
+ magníficamente ( ) 
+ magníficas ( ) 
  magnífico ( ) 
- magníficamente ( ) lemma=magnífico 
- magníficas ( ) lemma=magnífico 
- magníficos ( ) lemma=magnífico 
+ magníficos ( ) 
  mago ( ) 
- magos ( ) lemma=mago 
- magra ( ) lemma=magro 
- magro ( ) 
+ magos ( ) 
+ magra ( ) 
  magrebí ( ) 
- magros ( ) lemma=magro 
- magulladuras ( ) lemma=magulladura 
- magulladura ( ) 
+ magro ( ) 
+ magros ( ) 
+ magulladuras ( ) 
  mahonesa ( ) 
  mai ( ) 
  maices ( ) 
@@ -613,1073 +595,1015 @@
  maillon ( ) 
  mains ( ) 
  maintenance ( ) 
- mais ( ) lemma=mai 
- maizales ( ) lemma=maizal 
- maizal ( ) 
+ mais ( ) 
+ maizales ( ) 
  maja ( ) 
- majada ( ) lemma=majar 
- majar ( ) 
+ majada ( ) 
  majestad ( ) 
- majestuosa ( ) lemma=majestuoso 
- majestuoso ( ) 
+ majestuosa ( ) 
  majestuosidad ( ) 
- majo ( ) lemma=majar 
+ majo ( ) 
  majuelo ( ) 
- majuelos ( ) lemma=majuelo 
+ majuelos ( ) 
  mal ( ) 
- mala ( ) lemma=malo 
- malo ( ) 
+ mala ( ) 
  malabarista ( ) 
- malabaristas ( ) lemma=malabarista 
+ malabaristas ( ) 
  malabsorción ( ) 
- malamente ( ) lemma=malo 
+ malamente ( ) 
  malaria ( ) 
- malas ( ) lemma=malo 
+ malas ( ) 
  malato ( ) 
  malayo ( ) 
- malayos ( ) lemma=malayo 
- malazo ( ) lemma=malo 
+ malayos ( ) 
+ malazo ( ) 
  maldad ( ) 
- maldiciones ( ) lemma=maldición 
+ maldiciones ( ) 
  maldición ( ) 
- maldita ( ) lemma=maldito 
+ maldita ( ) 
  maldito ( ) 
- malditos ( ) lemma=maldito 
- malea ( ) lemma=malear 
- malear ( ) 
+ malditos ( ) 
+ malea ( ) 
  maleabilidad ( ) 
- maleantes ( ) lemma=maleante 
- maleante ( ) 
- malentendido ( ) lemma=malentender 
- malentender ( ) 
- malentendidos ( ) lemma=malentender 
+ maleantes ( ) 
+ malentendido ( ) 
+ malentendidos ( ) 
  maleolo ( ) 
- males ( ) lemma=mal 
+ males ( ) 
  malestar ( ) 
- malestares ( ) lemma=malestar 
+ malestares ( ) 
  maleta ( ) 
- maletas ( ) lemma=maleta 
- maletines ( ) lemma=maletín 
+ maletas ( ) 
+ maletines ( ) 
  maletín ( ) 
  maleza ( ) 
- malezas ( ) lemma=maleza 
- malformaciones ( ) lemma=malformación 
+ malezas ( ) 
+ malformaciones ( ) 
  malformación ( ) 
  malicia ( ) 
- maliciosa ( ) lemma=malicioso 
+ maliciosa ( ) 
+ maliciosamente ( ) 
+ maliciosas ( ) 
  malicioso ( ) 
- maliciosamente ( ) lemma=malicioso 
- maliciosas ( ) lemma=malicioso 
- maligna ( ) lemma=maligno 
- maligno ( ) 
- malignas ( ) lemma=maligno 
+ maligna ( ) 
+ malignas ( ) 
  malignidad ( ) 
- malignos ( ) lemma=maligno 
- malillo ( ) lemma=malo 
- malintencionado ( ) lemma=malintencionar 
- malintencionar ( ) 
- malita ( ) lemma=malo 
+ maligno ( ) 
+ malignos ( ) 
+ malillo ( ) 
+ malintencionado ( ) 
+ malita ( ) 
  malla ( ) 
- mallas ( ) lemma=malla 
+ mallas ( ) 
  mallo ( ) 
- mallorquina ( ) lemma=mallorquín 
+ mallorquina ( ) 
  mallorquín ( ) 
- malmente ( ) lemma=mal 
+ malmente ( ) 
  malnutrición ( ) 
- malnutridos ( ) lemma=malnutrido 
- malnutrido ( ) 
+ malnutridos ( ) 
+ malo ( ) 
  maloclusión ( ) 
- malograban ( ) lemma=malograr 
+ malograban ( ) 
+ malogradas ( ) 
+ malogrado ( ) 
+ malogran ( ) 
  malograr ( ) 
- malogradas ( ) lemma=malograr 
- malogrado ( ) lemma=malograr 
- malogran ( ) lemma=malograr 
- malograron ( ) lemma=malograr 
- malograrse ( ) lemma=malograr 
- malogrará ( ) lemma=malograr 
- malogre ( ) lemma=malograr 
- malogremos ( ) lemma=malograr 
- malogren ( ) lemma=malograr 
- malogró ( ) lemma=malograr 
+ malograron ( ) 
+ malograrse ( ) 
+ malogrará ( ) 
+ malogre ( ) 
+ malogremos ( ) 
+ malogren ( ) 
+ malogró ( ) 
  maloliente ( ) 
  malonil ( ) 
- malos ( ) lemma=malo 
- malsana ( ) lemma=malsano 
+ malos ( ) 
+ malsana ( ) 
+ malsanas ( ) 
  malsano ( ) 
- malsanas ( ) lemma=malsano 
  malta ( ) 
  maltasa ( ) 
- maltesa ( ) lemma=maltés 
- maltés ( ) 
+ maltesa ( ) 
  maltosa ( ) 
  maltraer ( ) 
- maltrata ( ) lemma=maltratar 
+ maltrata ( ) 
+ maltratada ( ) 
+ maltratadas ( ) 
+ maltratado ( ) 
+ maltratados ( ) 
+ maltratando ( ) 
  maltratar ( ) 
- maltratada ( ) lemma=maltratar 
- maltratadas ( ) lemma=maltratar 
- maltratado ( ) lemma=maltratar 
- maltratados ( ) lemma=maltratar 
- maltratando ( ) lemma=maltratar 
- maltrataron ( ) lemma=maltratar 
- maltrate ( ) lemma=maltratar 
+ maltrataron ( ) 
+ maltrate ( ) 
  maltrato ( ) 
- maltratos ( ) lemma=maltrato 
+ maltratos ( ) 
  maltusiano ( ) 
- maluca ( ) lemma=maluco 
+ maluca ( ) 
  maluco ( ) 
- malvada ( ) lemma=malvar 
- malvar ( ) 
- malvado ( ) lemma=malvar 
- malvados ( ) lemma=malvar 
- malvas ( ) lemma=malva 
- malva ( ) 
- malversaciones ( ) lemma=malversación 
+ malvada ( ) 
+ malvado ( ) 
+ malvados ( ) 
+ malvas ( ) 
+ malversaciones ( ) 
  malversación ( ) 
- malversado ( ) lemma=malversar 
+ malversado ( ) 
+ malversan ( ) 
  malversar ( ) 
- malversan ( ) lemma=malversar 
  malárico ( ) 
- malísima ( ) lemma=malo 
- malísimamente ( ) lemma=malo 
- malísimas ( ) lemma=malo 
- malísimo ( ) lemma=malo 
- malísimos ( ) lemma=malo 
+ malísima ( ) 
+ malísimamente ( ) 
+ malísimas ( ) 
+ malísimo ( ) 
+ malísimos ( ) 
  mama ( ) 
- mamacita ( ) lemma=mamá 
- mamá ( ) 
- mamada ( ) lemma=mamar 
- mamar ( ) 
+ mamacita ( ) 
+ mamada ( ) 
  mamadera ( ) 
- mamado ( ) lemma=mamar 
- mamaria ( ) lemma=mamario 
+ mamado ( ) 
+ mamar ( ) 
+ mamaria ( ) 
+ mamarias ( ) 
  mamario ( ) 
- mamarias ( ) lemma=mamario 
- mamas ( ) lemma=mamar 
- mamaíta ( ) lemma=mamá 
+ mamas ( ) 
+ mamaíta ( ) 
  mambo ( ) 
- mamelones ( ) lemma=mamelón 
+ mamelones ( ) 
  mamelón ( ) 
  mami ( ) 
- mamita ( ) lemma=mamá 
- mamito ( ) lemma=mamá 
+ mamita ( ) 
+ mamito ( ) 
  mamografía ( ) 
  mampostería ( ) 
- mamás ( ) lemma=mamá 
+ mamá ( ) 
+ mamás ( ) 
  mamía ( ) 
  mamífero ( ) 
- mamíferos ( ) lemma=mamífero 
- man ( ) 
- manaba ( ) lemma=manar 
- manar ( ) 
- manada ( ) 
- manadas ( ) lemma=manada 
- manado ( ) lemma=manar 
+ mamíferos ( ) 
+ man ( ) lemma=emanar 
+ manaba ( ) 
+ manada ( ) lemma=emanar 
+ manadas ( ) 
+ manado ( ) lemma=emanar 
  management ( ) 
- manan ( ) lemma=manar|manir 
- manar|manir ( ) 
- manando ( ) lemma=manar 
+ manan ( ) 
+ manando ( ) 
  manano ( ) 
  manantial ( ) 
- manantiales ( ) lemma=manantial 
+ manantiales ( ) 
+ manar ( ) lemma=emanar 
  mancera ( ) 
  mancha ( ) 
- manchada ( ) lemma=manchar 
+ manchada ( ) 
+ manchadas ( ) 
+ manchado ( ) 
+ manchados ( ) 
+ manchando ( ) 
  manchar ( ) 
- manchadas ( ) lemma=manchar 
- manchado ( ) lemma=manchar 
- manchados ( ) lemma=manchar 
- manchando ( ) lemma=manchar 
- manchara ( ) lemma=manchar 
- manchará ( ) lemma=manchar 
- mancharía ( ) lemma=manchar 
- manchas ( ) lemma=mancha 
- manche ( ) lemma=manchar 
- manchega ( ) lemma=manchego 
- manchego ( ) 
- manchegos ( ) lemma=manchego 
- manchitas ( ) lemma=mancha 
- manchásemos ( ) lemma=manchar 
+ manchara ( ) 
+ manchará ( ) 
+ mancharía ( ) 
+ manchas ( ) 
+ manche ( ) 
+ manchega ( ) 
+ manchegos ( ) 
+ manchitas ( ) 
+ manchásemos ( ) 
  manchón ( ) 
- mancilla ( ) lemma=mancillar 
- mancillar ( ) 
- mancillan ( ) lemma=mancillar 
- mancillemos ( ) lemma=mancillar 
- manco ( ) lemma=mancar 
- mancar ( ) 
- mancomuna ( ) lemma=mancomunar 
+ mancilla ( ) 
+ mancillan ( ) 
+ mancillemos ( ) 
+ manco ( ) 
+ mancomuna ( ) 
+ mancomunada ( ) 
+ mancomunado ( ) 
+ mancomunados ( ) 
+ mancomunan ( ) 
  mancomunar ( ) 
- mancomunada ( ) lemma=mancomunar 
- mancomunado ( ) lemma=mancomunar 
- mancomunados ( ) lemma=mancomunar 
- mancomunan ( ) lemma=mancomunar 
- mancomune ( ) lemma=mancomunar 
+ mancomune ( ) 
  mancomunidad ( ) 
- mancomunidades ( ) lemma=mancomunidad 
- mancuerna ( ) lemma=mancornar 
- mancornar ( ) 
- manda ( ) lemma=mandar 
- mandar ( ) 
- mandaba ( ) lemma=mandar 
- mandabais ( ) lemma=mandar 
- mandaban ( ) lemma=mandar 
- mandad ( ) lemma=mandar 
- mandada ( ) lemma=mandar 
+ mancomunidades ( ) 
+ mancuerna ( ) 
+ manda ( ) 
+ mandaba ( ) 
+ mandabais ( ) 
+ mandaban ( ) 
+ mandad ( ) 
+ mandada ( ) 
  mandadero ( ) 
- mandado ( ) lemma=mandar 
- mandados ( ) lemma=mandar 
- mandale ( ) lemma=mandar 
+ mandado ( ) 
+ mandados ( ) 
+ mandale ( ) 
  mandamiento ( ) 
- mandamientos ( ) lemma=mandamiento 
- mandamos ( ) lemma=mandar 
- mandan ( ) lemma=mandar 
- mandando ( ) lemma=mandar 
- mandara ( ) lemma=mandar 
- mandaran ( ) lemma=mandar 
- mandaras ( ) lemma=mandar 
- mandaremos ( ) lemma=mandar 
- mandarla ( ) lemma=mandar 
- mandarle ( ) lemma=mandar 
- mandarles ( ) lemma=mandar 
- mandarlo ( ) lemma=mandar 
- mandarlos ( ) lemma=mandar 
- mandarme ( ) lemma=mandar 
- mandaron ( ) lemma=mandar 
+ mandamientos ( ) 
+ mandamos ( ) 
+ mandan ( ) 
+ mandando ( ) 
+ mandar ( ) 
+ mandara ( ) 
+ mandaran ( ) 
+ mandaras ( ) 
+ mandaremos ( ) 
+ mandarla ( ) 
+ mandarle ( ) 
+ mandarles ( ) 
+ mandarlo ( ) 
+ mandarlos ( ) 
+ mandarme ( ) 
+ mandaron ( ) 
  mandarse ( ) 
- mandarte ( ) lemma=mandar 
- mandará ( ) lemma=mandar 
- mandaré ( ) lemma=mandar 
- mandaría ( ) lemma=mandar 
- mandarían ( ) lemma=mandar 
- mandas ( ) lemma=mandar 
- mandasen ( ) lemma=mandar 
- mandaste ( ) lemma=mandar 
- mandasteis ( ) lemma=mandar 
+ mandarte ( ) 
+ mandará ( ) 
+ mandaré ( ) 
+ mandaría ( ) 
+ mandarían ( ) 
+ mandas ( ) 
+ mandasen ( ) 
+ mandaste ( ) 
+ mandasteis ( ) 
  mandatario ( ) 
- mandatarios ( ) lemma=mandatario 
+ mandatarios ( ) 
  mandato ( ) 
  mandatory ( ) 
- mandatos ( ) lemma=mandato 
- mande ( ) lemma=mandar 
- mandemos ( ) lemma=mandar 
- manden ( ) lemma=mandar 
- mandes ( ) lemma=mandar 
+ mandatos ( ) 
+ mande ( ) 
+ mandemos ( ) 
+ manden ( ) 
+ mandes ( ) 
  mandibir ( ) 
  mandibular ( ) 
- mandiles ( ) lemma=mandilar 
- mandilar ( ) 
+ mandiles ( ) 
  mando ( ) 
  mandolina ( ) 
- mandos ( ) lemma=mando 
- mandriles ( ) lemma=mandril 
- mandril ( ) 
- mandábamos ( ) lemma=mandar 
- mandáis ( ) lemma=mandar 
- mandándolos ( ) lemma=mandar 
- mandársela ( ) lemma=mandar 
- mandárselo ( ) lemma=mandar 
- mandártelo ( ) lemma=mandar 
- mandé ( ) lemma=mandar 
- mandéis ( ) lemma=mandar 
+ mandos ( ) 
+ mandriles ( ) 
+ mandábamos ( ) 
+ mandáis ( ) 
+ mandándolos ( ) 
+ mandársela ( ) 
+ mandárselo ( ) 
+ mandártelo ( ) 
+ mandé ( ) 
+ mandéis ( ) 
  mandíbula ( ) 
- mandíbulas ( ) lemma=mandíbula 
- mandó ( ) lemma=mandar 
- mane ( ) lemma=manar 
- manecillas ( ) lemma=manecilla 
- manecilla ( ) 
- maneja ( ) lemma=manejar 
+ mandíbulas ( ) 
+ mandó ( ) 
+ mane ( ) lemma=imán 
+ manecillas ( ) 
+ maneja ( ) 
+ manejaba ( ) 
+ manejaban ( ) 
+ manejada ( ) 
+ manejadas ( ) 
+ manejado ( ) 
+ manejados ( ) 
+ manejamos ( ) 
+ manejan ( ) 
+ manejando ( ) 
  manejar ( ) 
- manejaba ( ) lemma=manejar 
- manejaban ( ) lemma=manejar 
- manejada ( ) lemma=manejar 
- manejadas ( ) lemma=manejar 
- manejado ( ) lemma=manejar 
- manejados ( ) lemma=manejar 
- manejamos ( ) lemma=manejar 
- manejan ( ) lemma=manejar 
- manejando ( ) lemma=manejar 
- manejarla ( ) lemma=manejar 
- manejarlas ( ) lemma=manejar 
- manejarlo ( ) lemma=manejar 
- manejarnos ( ) lemma=manejar 
- manejaron ( ) lemma=manejar 
+ manejarla ( ) 
+ manejarlas ( ) 
+ manejarlo ( ) 
+ manejarnos ( ) 
+ manejaron ( ) 
  manejarse ( ) 
- manejará ( ) lemma=manejar 
- manejarán ( ) lemma=manejar 
- manejas ( ) lemma=manejar 
- maneje ( ) lemma=manejar 
- manejen ( ) lemma=manejar 
- manejes ( ) lemma=manejar 
- manejita ( ) lemma=mano 
- mano ( ) 
+ manejará ( ) 
+ manejarán ( ) 
+ manejas ( ) 
+ maneje ( ) 
+ manejen ( ) 
+ manejes ( ) 
+ manejita ( ) 
  manejo ( ) 
- manejos ( ) lemma=manejo 
- manejó ( ) lemma=manejar 
+ manejos ( ) 
+ manejó ( ) 
  manera ( ) 
- maneras ( ) lemma=manera 
+ maneras ( ) 
  manga ( ) 
- mangado ( ) lemma=mangar 
- mangar ( ) 
- mangan ( ) lemma=mangar 
+ mangado ( ) 
+ mangan ( ) 
  manganeso ( ) 
  manganeso-superóxido ( ) 
- mangas ( ) lemma=manga 
- mangazones ( ) lemma=mangazón 
- mangazón ( ) 
+ mangar ( ) 
+ mangas ( ) 
+ mangazones ( ) 
  mango ( ) 
- mangos ( ) lemma=mango 
+ mangos ( ) 
  manguera ( ) 
- mangueras ( ) lemma=manguera 
- manguerita ( ) lemma=manguera 
- manguito ( ) lemma=mango 
- manguitos ( ) lemma=manguito 
- mangué ( ) lemma=mangar 
- maniatada ( ) lemma=maniatar 
+ mangueras ( ) 
+ manguerita ( ) 
+ manguito ( ) 
+ manguitos ( ) 
+ mangué ( ) 
+ maniatada ( ) 
+ maniatadas ( ) 
+ maniatado ( ) 
+ maniatados ( ) 
+ maniatando ( ) 
  maniatar ( ) 
- maniatadas ( ) lemma=maniatar 
- maniatado ( ) lemma=maniatar 
- maniatados ( ) lemma=maniatar 
- maniatando ( ) lemma=maniatar 
- maniataron ( ) lemma=maniatar 
- maniató ( ) lemma=maniatar 
+ maniataron ( ) 
+ maniató ( ) 
  manicomio ( ) 
- manicuras ( ) lemma=manicura 
- manicura ( ) 
- manido ( ) lemma=manir 
- manir ( ) 
- manidos ( ) lemma=manir 
- manifestaba ( ) lemma=manifestar 
- manifestar ( ) 
- manifestaban ( ) lemma=manifestar 
- manifestaciones ( ) lemma=manifestación 
+ manicuras ( ) 
+ manido ( ) 
+ manidos ( ) 
+ manifestaba ( ) 
+ manifestaban ( ) 
+ manifestaciones ( ) 
  manifestación ( ) 
- manifestada ( ) lemma=manifestar 
- manifestadas ( ) lemma=manifestar 
- manifestado ( ) lemma=manifestar 
- manifestados ( ) lemma=manifestar 
- manifestamos ( ) lemma=manifestar 
- manifestando ( ) lemma=manifestar 
+ manifestada ( ) 
+ manifestadas ( ) 
+ manifestado ( ) 
+ manifestados ( ) 
+ manifestamos ( ) 
+ manifestando ( ) 
  manifestante ( ) 
- manifestantes ( ) lemma=manifestante 
- manifestara ( ) lemma=manifestar 
- manifestaran ( ) lemma=manifestar 
- manifestaremos ( ) lemma=manifestar 
- manifestarla ( ) lemma=manifestar 
- manifestarle ( ) lemma=manifestar 
- manifestarles ( ) lemma=manifestar 
- manifestarlo ( ) lemma=manifestar 
- manifestarlos ( ) lemma=manifestar 
- manifestarme ( ) lemma=manifestar 
- manifestarnos ( ) lemma=manifestar 
- manifestaron ( ) lemma=manifestar 
+ manifestantes ( ) 
+ manifestar ( ) 
+ manifestara ( ) 
+ manifestaran ( ) 
+ manifestaremos ( ) 
+ manifestarla ( ) 
+ manifestarle ( ) 
+ manifestarles ( ) 
+ manifestarlo ( ) 
+ manifestarlos ( ) 
+ manifestarme ( ) 
+ manifestarnos ( ) 
+ manifestaron ( ) 
  manifestarse ( ) 
- manifestará ( ) lemma=manifestar 
- manifestarán ( ) lemma=manifestar 
- manifestaré ( ) lemma=manifestar 
- manifestaría ( ) lemma=manifestar 
- manifestase ( ) lemma=manifestar 
- manifestasen ( ) lemma=manifestar 
- manifestemos ( ) lemma=manifestar 
- manifestábamos ( ) lemma=manifestar 
- manifestándole ( ) lemma=manifestar 
- manifestándose ( ) lemma=manifestarse 
- manifestáramos ( ) lemma=manifestar 
- manifestárselo ( ) lemma=manifestarse 
- manifesté ( ) lemma=manifestar 
- manifestó ( ) lemma=manifestar 
- manifiesta ( ) lemma=manifestar 
- manifiestamente ( ) lemma=manifiesto 
+ manifestará ( ) 
+ manifestarán ( ) 
+ manifestaré ( ) 
+ manifestaría ( ) 
+ manifestase ( ) 
+ manifestasen ( ) 
+ manifestemos ( ) 
+ manifestábamos ( ) 
+ manifestándole ( ) 
+ manifestándose ( ) 
+ manifestáramos ( ) 
+ manifestárselo ( ) 
+ manifesté ( ) 
+ manifestó ( ) 
+ manifiesta ( ) 
+ manifiestamente ( ) 
+ manifiestan ( ) 
+ manifiestas ( ) 
+ manifieste ( ) 
+ manifiesten ( ) 
  manifiesto ( ) 
- manifiestan ( ) lemma=manifestar 
- manifiestas ( ) lemma=manifiesto 
- manifieste ( ) lemma=manifestar 
- manifiesten ( ) lemma=manifestar 
- manifiestos ( ) lemma=manifiesto 
+ manifiestos ( ) 
  maniobra ( ) 
- maniobrado ( ) lemma=maniobrar 
+ maniobrado ( ) 
+ maniobran ( ) 
  maniobrar ( ) 
- maniobran ( ) lemma=maniobrar 
- maniobras ( ) lemma=maniobra 
- maniobró ( ) lemma=maniobrar 
- manipula ( ) lemma=manipular 
- manipular ( ) 
- manipulaciones ( ) lemma=manipulación 
+ maniobras ( ) 
+ maniobró ( ) 
+ manipula ( ) 
+ manipulaciones ( ) 
  manipulación ( ) 
- manipulada ( ) lemma=manipular 
- manipuladas ( ) lemma=manipular 
- manipulado ( ) lemma=manipular 
- manipulados ( ) lemma=manipular 
- manipulamos ( ) lemma=manipular 
- manipulan ( ) lemma=manipular 
- manipulando ( ) lemma=manipular 
- manipularon ( ) lemma=manipular 
- manipularse ( ) lemma=manipular 
- manipularán ( ) lemma=manipular 
- manipularía ( ) lemma=manipular 
- manipule ( ) lemma=manipular 
- manipulen ( ) lemma=manipular 
- manipuló ( ) lemma=manipular 
+ manipulada ( ) 
+ manipuladas ( ) 
+ manipulado ( ) 
+ manipulados ( ) 
+ manipulamos ( ) 
+ manipulan ( ) 
+ manipulando ( ) 
+ manipular ( ) 
+ manipularon ( ) 
+ manipularse ( ) 
+ manipularán ( ) 
+ manipularía ( ) 
+ manipule ( ) 
+ manipulen ( ) 
+ manipuló ( ) 
  maniqueísmo ( ) 
  maniquí ( ) 
- manita ( ) lemma=mano 
- manitas ( ) lemma=mano 
+ manita ( ) 
+ manitas ( ) 
  manito ( ) 
  manitol ( ) 
- manitos ( ) lemma=manito 
- maniáticos ( ) lemma=maniático 
- maniático ( ) 
+ manitos ( ) 
+ maniáticos ( ) 
  manjar ( ) 
- manjares ( ) lemma=manjar 
+ manjares ( ) 
+ mano ( ) 
  manojo ( ) 
- manojos ( ) lemma=manojo 
- manométrica ( ) lemma=manométrico 
- manométrico ( ) 
- manos ( ) lemma=mano 
+ manojos ( ) 
+ manométrica ( ) 
+ manos ( ) 
  manosa ( ) 
- manosas ( ) lemma=manosa 
+ manosas ( ) 
  manotazo ( ) 
- mansa ( ) lemma=manso 
- manso ( ) 
- mansamente ( ) lemma=manso 
+ mansa ( ) 
+ mansamente ( ) 
  mansedumbre ( ) 
  mansión ( ) 
- mansos ( ) lemma=manso 
+ manso ( ) 
+ mansos ( ) 
  manta ( ) 
- mantas ( ) lemma=manta 
+ mantas ( ) 
  manteca ( ) 
- mantecas ( ) lemma=manteca 
+ mantecas ( ) 
  mantel ( ) 
  mantelería ( ) 
- manteles ( ) lemma=mantel 
+ manteles ( ) 
  mantemiento ( ) 
- mantendremos ( ) lemma=mantener 
+ mantendremos ( ) 
+ mantendrá ( ) 
+ mantendrán ( ) 
+ mantendré ( ) 
+ mantendría ( ) 
+ mantendrían ( ) 
+ mantenemos ( ) 
  mantener ( ) 
- mantendrá ( ) lemma=mantener 
- mantendrán ( ) lemma=mantener 
- mantendré ( ) lemma=mantener 
- mantendría ( ) lemma=mantener 
- mantendrían ( ) lemma=mantener 
- mantenemos ( ) lemma=mantener 
- mantenerla ( ) lemma=mantener 
- mantenerlo ( ) lemma=mantener 
- mantenerme ( ) lemma=mantener 
- mantenernos ( ) lemma=mantener 
+ mantenerla ( ) 
+ mantenerlo ( ) 
+ mantenerme ( ) 
+ mantenernos ( ) 
  mantenerse ( ) 
- mantenga ( ) lemma=mantener 
- mantengamos ( ) lemma=mantener 
- mantengan ( ) lemma=mantener 
- mantengas ( ) lemma=mantener 
- mantengo ( ) lemma=mantener 
- mantenida ( ) lemma=mantener 
- mantenidas ( ) lemma=mantener 
- mantenido ( ) lemma=mantener 
- mantenidos ( ) lemma=mantener 
- manteniendo ( ) lemma=mantener 
+ mantenga ( ) 
+ mantengamos ( ) 
+ mantengan ( ) 
+ mantengas ( ) 
+ mantengo ( ) 
+ mantenida ( ) 
+ mantenidas ( ) 
+ mantenido ( ) 
+ mantenidos ( ) 
+ manteniendo ( ) 
  mantenimiento ( ) 
- manteniéndola ( ) lemma=mantener 
- manteniéndolas ( ) lemma=mantener 
- manteniéndoles ( ) lemma=mantener 
- manteniéndolo ( ) lemma=mantener 
- manteniéndonos ( ) lemma=mantener 
+ manteniéndola ( ) 
+ manteniéndolas ( ) 
+ manteniéndoles ( ) 
+ manteniéndolo ( ) 
+ manteniéndonos ( ) 
  manteniéndose ( ) 
- mantenía ( ) lemma=mantener 
- manteníamos ( ) lemma=mantener 
- mantenían ( ) lemma=mantener 
+ mantenía ( ) 
+ manteníamos ( ) 
+ mantenían ( ) 
  mantequilla ( ) 
- mantiene ( ) lemma=mantener 
- mantienen ( ) lemma=mantener 
- mantienes ( ) lemma=mantener 
- mantillas ( ) lemma=mantilla 
- mantilla ( ) 
+ mantiene ( ) 
+ mantienen ( ) 
+ mantienes ( ) 
+ mantillas ( ) 
  manto ( ) 
- mantos ( ) lemma=manto 
- mantuve ( ) lemma=mantener 
- mantuviera ( ) lemma=mantener 
- mantuvieran ( ) lemma=mantener 
- mantuvieron ( ) lemma=mantener 
- mantuviese ( ) lemma=mantener 
- mantuvimos ( ) lemma=mantener 
- mantuviéramos ( ) lemma=mantener 
- mantuvo ( ) lemma=mantener 
- manténgase ( ) lemma=mantenerse 
- manténlo ( ) lemma=mantener 
+ mantos ( ) 
+ mantuve ( ) 
+ mantuviera ( ) 
+ mantuvieran ( ) 
+ mantuvieron ( ) 
+ mantuviese ( ) 
+ mantuvimos ( ) 
+ mantuviéramos ( ) 
+ mantuvo ( ) 
+ manténgase ( ) 
+ manténlo ( ) 
  manual ( ) 
- manuales ( ) lemma=manual 
- manualmente ( ) lemma=manual 
+ manuales ( ) 
+ manualmente ( ) 
  manubrio ( ) 
  manubrioesternal ( ) 
  manufactura ( ) 
- manufacturadas ( ) lemma=manufacturar 
- manufacturar ( ) 
- manufacturado ( ) lemma=manufacturar 
- manufacturados ( ) lemma=manufacturar 
- manufacturas ( ) lemma=manufactura 
- manufacturera ( ) lemma=manufacturero 
+ manufacturadas ( ) 
+ manufacturado ( ) 
+ manufacturados ( ) 
+ manufacturas ( ) 
+ manufacturera ( ) 
+ manufactureras ( ) 
  manufacturero ( ) 
- manufactureras ( ) lemma=manufacturero 
- manufactureros ( ) lemma=manufacturero 
- manuscrita ( ) lemma=manuscrito 
+ manufactureros ( ) 
+ manuscrita ( ) 
  manuscrito ( ) 
- manuscritos ( ) lemma=manuscrito 
+ manuscritos ( ) 
  manzana ( ) 
- manzanas ( ) lemma=manzana 
+ manzanas ( ) 
  manzanilla ( ) 
  manzano ( ) 
- manzanos ( ) lemma=manzano 
+ manzanos ( ) 
  maná ( ) 
  maní ( ) 
- manía ( ) lemma=manir 
- maníacas ( ) lemma=maníaco 
- maníaco ( ) 
- manías ( ) lemma=manir 
+ manía ( ) 
+ maníacas ( ) 
+ manías ( ) 
  manómetro ( ) 
  maoísta ( ) 
- maoístas ( ) lemma=maoísta 
+ maoístas ( ) 
  mapa ( ) 
  mapar ( ) 
- mapas ( ) lemma=mapa 
+ mapas ( ) 
  mapeado ( ) 
- mapeados ( ) lemma=mapeado 
+ mapeados ( ) 
  mapear ( ) 
  mapeo ( ) 
- mapeos ( ) lemma=mapeo 
+ mapeos ( ) 
  maqueta ( ) 
- maquetas ( ) lemma=maqueta 
- maquiavélica ( ) lemma=maquiavélico 
- maquiavélico ( ) 
- maquila ( ) lemma=maquilar 
- maquilar ( ) 
+ maquetas ( ) 
+ maquiavélica ( ) 
+ maquila ( ) 
  maquiladora ( ) 
- maquiladoras ( ) lemma=maquiladora 
- maquilla ( ) lemma=maquillar 
- maquillar ( ) 
- maquillada ( ) lemma=maquillar 
- maquilladas ( ) lemma=maquillar 
- maquilladora ( ) lemma=maquillador 
- maquillador ( ) 
- maquilladoras ( ) lemma=maquillador 
+ maquiladoras ( ) 
+ maquilla ( ) 
+ maquillada ( ) 
+ maquilladas ( ) 
+ maquilladora ( ) 
+ maquilladoras ( ) 
  maquillaje ( ) 
- maquina ( ) lemma=maquinar 
- maquinar ( ) 
- maquinaciones ( ) lemma=maquinación 
+ maquillar ( ) 
+ maquina ( ) 
+ maquinaciones ( ) 
  maquinación ( ) 
- maquinara ( ) lemma=maquinar 
+ maquinara ( ) 
  maquinaria ( ) 
- maquinarias ( ) lemma=maquinaria 
- maquinaría ( ) lemma=maquinar 
- maquinas ( ) lemma=maquinar 
+ maquinarias ( ) 
+ maquinaría ( ) 
+ maquinas ( ) 
  maquinilla ( ) 
  maquinismo ( ) 
  maquinista ( ) 
- maquinistas ( ) lemma=maquinista 
- maquinita ( ) lemma=máquina 
- máquina ( ) 
- maquinitas ( ) lemma=máquina 
- mar ( ) 
- mar. ( ) lemma=marzo 
- marzo ( ) 
+ maquinistas ( ) 
+ maquinita ( ) 
+ maquinitas ( ) 
+ mar ( ) lemma=amar 
+ mar. ( ) 
  mara ( ) 
  marasmo ( ) 
- maratones ( ) lemma=maratón 
+ maratones ( ) 
  maratón ( ) 
  maravilla ( ) 
- maravillados ( ) lemma=maravillar 
+ maravillados ( ) 
+ maravillamos ( ) 
  maravillar ( ) 
- maravillamos ( ) lemma=maravillar 
- maravillaran ( ) lemma=maravillar 
- maravillas ( ) lemma=maravilla 
- maravillo ( ) lemma=maravillar 
- maravillosa ( ) lemma=maravilloso 
+ maravillaran ( ) 
+ maravillas ( ) 
+ maravillo ( ) 
+ maravillosa ( ) 
+ maravillosamente ( ) 
+ maravillosas ( ) 
  maravilloso ( ) 
- maravillosamente ( ) lemma=maravilloso 
- maravillosas ( ) lemma=maravilloso 
- maravillosos ( ) lemma=maravilloso 
+ maravillosos ( ) 
  maraña ( ) 
- marañón ( ) lemma=maraña 
+ marañón ( ) 
  marbellí ( ) 
  marca ( ) 
- marcaba ( ) lemma=marcar 
- marcar ( ) 
- marcaban ( ) lemma=marcar 
+ marcaba ( ) 
+ marcaban ( ) 
  marcación ( ) 
- marcada ( ) lemma=marcar 
- marcadamente ( ) lemma=marcado 
+ marcada ( ) 
+ marcadamente ( ) 
+ marcadas ( ) 
+ marcadito ( ) 
  marcado ( ) 
- marcadas ( ) lemma=marcar 
- marcadito ( ) lemma=marcado 
  marcador ( ) 
- marcadoras ( ) lemma=marcador 
- marcadores ( ) lemma=marcador 
- marcados ( ) lemma=marcar 
+ marcadoras ( ) 
+ marcadores ( ) 
+ marcados ( ) 
  marcadísimo ( ) 
  marcaje ( ) 
- marcamos ( ) lemma=marcar 
- marcan ( ) lemma=marcar 
- marcando ( ) lemma=marcar 
+ marcamos ( ) 
+ marcan ( ) 
+ marcando ( ) 
  marcapaso ( ) 
  marcapasos ( ) 
- marcara ( ) lemma=marcar 
- marcarlo ( ) lemma=marcar 
- marcarlos ( ) lemma=marcar 
- marcarnos ( ) lemma=marcar 
- marcaron ( ) lemma=marcar 
+ marcar ( ) 
+ marcara ( ) 
+ marcarlo ( ) 
+ marcarlos ( ) 
+ marcarnos ( ) 
+ marcaron ( ) 
  marcarse ( ) 
- marcará ( ) lemma=marcar 
- marcarán ( ) lemma=marcar 
- marcaré ( ) lemma=marcar 
- marcaría ( ) lemma=marcar 
- marcarían ( ) lemma=marcar 
- marcas ( ) lemma=marca 
- marcase ( ) lemma=marcar 
+ marcará ( ) 
+ marcarán ( ) 
+ marcaré ( ) 
+ marcaría ( ) 
+ marcarían ( ) 
+ marcas ( ) 
+ marcase ( ) 
  marcha ( ) 
- marchaba ( ) lemma=marchar 
+ marchaba ( ) 
+ marchaban ( ) 
+ marchado ( ) 
+ marchamo ( ) 
+ marchamos ( ) 
+ marchan ( ) 
+ marchando ( ) 
  marchar ( ) 
- marchaban ( ) lemma=marchar 
- marchado ( ) lemma=marchar 
- marchamo ( ) lemma=marchamar 
- marchamar ( ) 
- marchamos ( ) lemma=marchar 
- marchan ( ) lemma=marchar 
- marchando ( ) lemma=marchar 
- marchara ( ) lemma=marchar 
- marcharan ( ) lemma=marchar 
- marcharme ( ) lemma=marchar 
- marcharnos ( ) lemma=marchar 
- marcharon ( ) lemma=marchar 
- marcharos ( ) lemma=marchar 
+ marchara ( ) 
+ marcharan ( ) 
+ marcharme ( ) 
+ marcharnos ( ) 
+ marcharon ( ) 
+ marcharos ( ) 
  marcharse ( ) 
- marcharte ( ) lemma=marchar 
- marchará ( ) lemma=marchar 
- marcharán ( ) lemma=marchar 
- marcharé ( ) lemma=marchar 
- marcharía ( ) lemma=marchar 
- marchas ( ) lemma=marcha 
- marchaste ( ) lemma=marchar 
+ marcharte ( ) 
+ marchará ( ) 
+ marcharán ( ) 
+ marcharé ( ) 
+ marcharía ( ) 
+ marchas ( ) 
+ marchaste ( ) 
  marche ( ) 
- marchemos ( ) lemma=marchar 
- marchen ( ) lemma=marchar 
- marchitan ( ) lemma=marchitar 
- marchitar ( ) 
- marchitaran ( ) lemma=marchitar 
- marchitará ( ) lemma=marchitar 
- marchitarán ( ) lemma=marchitar 
+ marchemos ( ) 
+ marchen ( ) 
+ marchitan ( ) 
+ marchitaran ( ) 
+ marchitará ( ) 
+ marchitarán ( ) 
  marchito ( ) 
- marcho ( ) lemma=marchar 
- marchándose ( ) lemma=marcharse 
- marcháramos ( ) lemma=marchar 
- marchásemos ( ) lemma=marchar 
- marché ( ) lemma=marchar 
- marchó ( ) lemma=marchar 
+ marcho ( ) 
+ marchándose ( ) 
+ marcháramos ( ) 
+ marchásemos ( ) 
+ marché ( ) 
+ marchó ( ) 
  marcial ( ) 
- marciales ( ) lemma=marcial 
+ marciales ( ) 
  marco ( ) 
- marcos ( ) lemma=marco 
- marcándoles ( ) lemma=marcar 
- marcó ( ) lemma=marcar 
+ marcos ( ) 
+ marcándoles ( ) 
+ marcó ( ) 
  marea ( ) 
- mareaba ( ) lemma=marear 
+ mareaba ( ) 
+ mareado ( ) 
+ marean ( ) 
+ mareando ( ) 
  marear ( ) 
- mareado ( ) lemma=marear 
- marean ( ) lemma=marear 
- mareando ( ) lemma=marear 
- mareas ( ) lemma=marea 
- maree ( ) lemma=marear 
- mareemos ( ) lemma=marear 
+ mareas ( ) 
+ maree ( ) 
+ mareemos ( ) 
  marejada ( ) 
- marejadas ( ) lemma=marejada 
+ marejadas ( ) 
  maremoto ( ) 
- maremotos ( ) lemma=maremoto 
+ maremotos ( ) 
  mareo ( ) 
- mareos ( ) lemma=mareo 
- mares ( ) lemma=mar 
+ mareos ( ) 
+ mares ( ) 
  marfil ( ) 
- marfiles ( ) lemma=marfil 
- marga ( ) lemma=margar 
- margar ( ) 
+ marfiles ( ) 
+ marga ( ) lemma=amargo 
  margarina ( ) 
- margarinas ( ) lemma=margarina 
+ margarinas ( ) 
  margarita ( ) 
- margaritas ( ) lemma=margarita 
+ margaritas ( ) 
  marge ( ) 
  margen ( ) 
- margenes ( ) lemma=margenar 
- margenar ( ) 
+ margenes ( ) 
  margin ( ) 
- margina ( ) lemma=marginar 
- marginar ( ) 
- marginaciones ( ) lemma=marginación 
+ margina ( ) 
+ marginaciones ( ) 
  marginación ( ) 
- marginada ( ) lemma=marginar 
- marginadas ( ) lemma=marginar 
- marginado ( ) lemma=marginar 
- marginados ( ) lemma=marginar 
+ marginada ( ) 
+ marginadas ( ) 
+ marginado ( ) 
+ marginados ( ) 
  marginal ( ) 
- marginales ( ) lemma=marginal 
+ marginales ( ) 
  marginalidad ( ) 
- marginalmente ( ) lemma=marginal 
- marginamos ( ) lemma=marginar 
- marginan ( ) lemma=marginar 
- marginando ( ) lemma=marginar 
+ marginalmente ( ) 
+ marginamos ( ) 
+ marginan ( ) 
+ marginando ( ) 
+ marginar ( ) 
  marginarse ( ) 
- marginaría ( ) lemma=marginar 
- margine ( ) lemma=marginar 
- marginen ( ) lemma=marginar 
- marginó ( ) lemma=marginar 
+ marginaría ( ) 
+ margine ( ) 
+ marginen ( ) 
+ marginó ( ) 
  mariachi ( ) 
- maricas ( ) lemma=marica 
- marica ( ) 
- maricones ( ) lemma=maricón 
+ maricas ( ) 
+ maricones ( ) 
  maricón ( ) 
  marido ( ) 
- maridos ( ) lemma=marido 
+ maridos ( ) 
  mariguana ( ) 
  marimacho ( ) 
- marina ( ) lemma=marinar 
- marinar ( ) 
- marinas ( ) lemma=marinar 
- marinera ( ) lemma=marinero 
+ marina ( ) 
+ marinas ( ) 
+ marinera ( ) 
+ marineras ( ) 
+ marinerito ( ) 
  marinero ( ) 
- marineras ( ) lemma=marinero 
- marinerito ( ) lemma=marinero 
- marineros ( ) lemma=marinero 
- marines ( ) lemma=marinar 
+ marineros ( ) 
+ marines ( ) 
  marino ( ) 
- marinos ( ) lemma=marino 
+ marinos ( ) 
  marioneta ( ) 
- marionetas ( ) lemma=marioneta 
+ marionetas ( ) 
  mariposa ( ) 
- mariposas ( ) lemma=mariposa 
- mariquiste ( ) lemma=mariquerer 
- mariquerer ( ) 
- mariquitas ( ) lemma=marica 
- mariscadas ( ) lemma=mariscar 
- mariscar ( ) 
+ mariposas ( ) 
+ mariquiste ( ) 
+ mariquitas ( ) 
+ mariscadas ( ) 
  mariscal ( ) 
- mariscales ( ) lemma=mariscal 
+ mariscales ( ) 
  marisco ( ) 
- mariscos ( ) lemma=marisco 
+ mariscos ( ) 
  marismeño ( ) 
  maritime ( ) 
  mark ( ) 
  marketing ( ) 
  marking ( ) 
  marmita ( ) 
- marmórea ( ) lemma=marmóreo 
- marmóreo ( ) 
- marque ( ) lemma=marcar 
- marquemos ( ) lemma=marcar 
- marquen ( ) lemma=marcar 
- marques ( ) lemma=marcar 
+ marmórea ( ) 
+ marque ( ) 
+ marquemos ( ) 
+ marquen ( ) 
+ marques ( ) 
  marquesa ( ) 
- marqueses ( ) lemma=marqués 
+ marqueses ( ) 
+ marquito ( ) 
+ marqué ( ) 
  marqués ( ) 
- marquito ( ) lemma=marco 
- marqué ( ) lemma=marcar 
  marrano ( ) 
- marranos ( ) lemma=marrano 
+ marranos ( ) 
  marrar ( ) 
- marron ( ) lemma=marrón 
- marrón ( ) 
- marrones ( ) lemma=marrón 
+ marron ( ) 
+ marrones ( ) 
  marroquí ( ) 
- marroquíes ( ) lemma=marroquí 
- marsellesa ( ) lemma=marsellés 
+ marroquíes ( ) 
+ marrón ( ) 
+ marsellesa ( ) 
+ marsellesas ( ) 
  marsellés ( ) 
- marsellesas ( ) lemma=marsellés 
  martes ( ) 
- martillazos ( ) lemma=martillazo 
- martillazo ( ) 
+ martillazos ( ) 
  martillo ( ) 
  martirio ( ) 
  marxismo ( ) 
  marxista ( ) 
- marxistas ( ) lemma=marxista 
- marítima ( ) lemma=marítimo 
+ marxistas ( ) 
+ marzo ( ) 
+ marítima ( ) 
+ marítimas ( ) 
  marítimo ( ) 
- marítimas ( ) lemma=marítimo 
- marítimos ( ) lemma=marítimo 
- mas ( ) lemma=más 
- más ( ) 
- masa ( ) 
+ marítimos ( ) 
+ mas ( ) 
+ masa ( ) lemma=amasar 
  masa-energía ( ) 
  masacre ( ) 
- masacres ( ) lemma=masacre 
+ masacres ( ) 
  masaje ( ) 
- masajes ( ) lemma=masaje 
+ masajes ( ) 
  masajista ( ) 
- masas ( ) lemma=masa 
+ masas ( ) 
  mascar ( ) 
- mascarilla ( ) lemma=máscara 
- máscara ( ) 
- mascarillas ( ) lemma=máscara 
- mascotas ( ) lemma=mascota 
- mascota ( ) 
- masculina ( ) lemma=masculino 
- masculino ( ) 
- masculinas ( ) lemma=masculino 
+ mascarilla ( ) 
+ mascarillas ( ) 
+ mascotas ( ) 
+ masculina ( ) 
+ masculinas ( ) 
  masculinidad ( ) 
  masculinización ( ) 
- masculinos ( ) lemma=masculino 
- masculló ( ) lemma=mascullar 
- mascullar ( ) 
+ masculino ( ) 
+ masculinos ( ) 
+ masculló ( ) 
  masetero ( ) 
  masificación ( ) 
  masilla ( ) 
- masiva ( ) lemma=masivo 
+ masiva ( ) 
+ masivamente ( ) 
+ masivas ( ) 
  masivo ( ) 
- masivamente ( ) lemma=masivo 
- masivas ( ) lemma=masivo 
- masivos ( ) lemma=masivo 
+ masivos ( ) 
  masking ( ) 
- masones ( ) lemma=masón 
- masón ( ) 
+ masones ( ) 
  masquage ( ) 
  master ( ) 
- masticables ( ) lemma=masticable 
- masticable ( ) 
- masticada ( ) lemma=masticar 
- masticar ( ) 
- masticado ( ) lemma=masticar 
- masticando ( ) lemma=masticar 
- masticatoria ( ) lemma=masticatorio 
- masticatorio ( ) 
- masticatorios ( ) lemma=masticatorio 
- mastocitos ( ) lemma=mastocito 
- mastocito ( ) 
+ masticables ( ) 
+ masticada ( ) 
+ masticado ( ) 
+ masticando ( ) 
+ masticatoria ( ) 
+ masticatorios ( ) 
+ mastocitos ( ) 
  mastoid ( ) 
- mastoidea ( ) lemma=mastoideo 
- mastoideo ( ) 
- masturbaciones ( ) lemma=masturbación 
+ mastoidea ( ) 
+ masturbaciones ( ) 
  masturbación ( ) 
- masías ( ) lemma=masía 
- masía ( ) 
+ masías ( ) 
+ masón ( ) 
  mata ( ) 
- mataba ( ) lemma=matar 
- matar ( ) 
- mataban ( ) lemma=matar 
- matada ( ) lemma=matar 
+ mataba ( ) 
+ mataban ( ) 
+ matada ( ) 
  matadero ( ) 
- mataderos ( ) lemma=matadero 
- matado ( ) lemma=matar 
+ mataderos ( ) 
+ matado ( ) 
  matador ( ) 
- matadores ( ) lemma=matador 
- matados ( ) lemma=matar 
- matamos ( ) lemma=matar 
- matan ( ) lemma=matar 
- matando ( ) lemma=matar 
+ matadores ( ) 
+ matados ( ) 
+ matamos ( ) 
+ matan ( ) 
+ matando ( ) 
  matanza ( ) 
- matanzas ( ) lemma=matanza 
- matara ( ) lemma=matar 
- mataran ( ) lemma=matar 
- mataras ( ) lemma=matar 
- matarla ( ) lemma=matar 
- matarlas ( ) lemma=matar 
- matarle ( ) lemma=matar 
- matarlo ( ) lemma=matar 
- matarme ( ) lemma=matar 
- mataron ( ) lemma=matar 
- mataros ( ) lemma=matar 
+ matanzas ( ) 
+ matar ( ) 
+ matara ( ) 
+ mataran ( ) 
+ mataras ( ) 
+ matarla ( ) 
+ matarlas ( ) 
+ matarle ( ) 
+ matarlo ( ) 
+ matarme ( ) 
+ mataron ( ) 
+ mataros ( ) 
  matarse ( ) 
- matará ( ) lemma=matar 
- matarán ( ) lemma=matar 
- matarás ( ) lemma=matar 
- mataría ( ) lemma=matar 
- matarían ( ) lemma=matar 
- matas ( ) lemma=mata 
- matase ( ) lemma=matar 
+ matará ( ) 
+ matarán ( ) 
+ matarás ( ) 
+ mataría ( ) 
+ matarían ( ) 
+ matas ( ) 
+ matase ( ) 
  match ( ) 
  matching ( ) 
  mate ( ) 
- matemos ( ) lemma=matar 
- matemática ( ) lemma=matemático 
+ matemos ( ) 
+ matemática ( ) 
+ matemáticamente ( ) 
+ matemáticas ( ) 
  matemático ( ) 
- matemáticamente ( ) lemma=matemático 
- matemáticas ( ) lemma=matemático 
- matemáticos ( ) lemma=matemático 
- maten ( ) lemma=matar 
+ matemáticos ( ) 
+ maten ( ) 
  materia ( ) 
  material ( ) 
- materiales ( ) lemma=material 
- materialice ( ) lemma=materializar 
- materializar ( ) 
- materialicemos ( ) lemma=materializar 
- materialicen ( ) lemma=materializar 
+ materiales ( ) 
+ materialice ( ) 
+ materialicemos ( ) 
+ materialicen ( ) 
  materialismo ( ) 
- materialismos ( ) lemma=materialismo 
+ materialismos ( ) 
  materialista ( ) 
- materialistas ( ) lemma=materialista 
- materializa ( ) lemma=materializar 
- materializaba ( ) lemma=materializar 
+ materialistas ( ) 
+ materializa ( ) 
+ materializaba ( ) 
  materialización ( ) 
- materializada ( ) lemma=materializar 
- materializadas ( ) lemma=materializar 
- materializado ( ) lemma=materializar 
- materializamos ( ) lemma=materializar 
- materializara ( ) lemma=materializar 
- materializaran ( ) lemma=materializar 
+ materializada ( ) 
+ materializadas ( ) 
+ materializado ( ) 
+ materializamos ( ) 
+ materializar ( ) 
+ materializara ( ) 
+ materializaran ( ) 
  materializarse ( ) 
- materializará ( ) lemma=materializar 
- materializarán ( ) lemma=materializar 
- materializó ( ) lemma=materializar 
- materialmente ( ) lemma=material 
- materias ( ) lemma=materia 
- materna ( ) lemma=materno 
- materno ( ) 
+ materializará ( ) 
+ materializarán ( ) 
+ materializó ( ) 
+ materialmente ( ) 
+ materias ( ) 
+ materna ( ) 
  maternal ( ) 
- maternas ( ) lemma=materno 
+ maternas ( ) 
  maternidad ( ) 
- maternidades ( ) lemma=maternidad 
+ maternidades ( ) 
+ materno ( ) 
  maternofetal ( ) 
- maternos ( ) lemma=materno 
- mates ( ) lemma=mate 
- matice ( ) lemma=matizar 
- matizar ( ) 
- maticen ( ) lemma=matizar 
- matices ( ) lemma=matiz 
- matiz ( ) 
+ maternos ( ) 
+ mates ( ) 
+ matice ( ) 
+ maticen ( ) 
+ matices ( ) 
  matidez ( ) 
  matinal ( ) 
- matinales ( ) lemma=matinal 
- matita ( ) lemma=mata 
- matitas ( ) lemma=mata 
- matiza ( ) lemma=matizar 
- matizada ( ) lemma=matizar 
- matizadas ( ) lemma=matizar 
- matizado ( ) lemma=matizar 
- matizados ( ) lemma=matizar 
- matizan ( ) lemma=matizar 
- matizando ( ) lemma=matizar 
- matizarlo ( ) lemma=matizar 
- matizaron ( ) lemma=matizar 
+ matinales ( ) 
+ matita ( ) 
+ matitas ( ) 
+ matiz ( ) 
+ matiza ( ) 
+ matizada ( ) 
+ matizadas ( ) 
+ matizado ( ) 
+ matizados ( ) 
+ matizan ( ) 
+ matizando ( ) 
+ matizar ( ) 
+ matizarlo ( ) 
+ matizaron ( ) 
  matizarse ( ) 
- matizará ( ) lemma=matizar 
- matizándolas ( ) lemma=matizar 
- matizándose ( ) lemma=matizar 
- matizó ( ) lemma=matizar 
- mato ( ) lemma=matar 
- matones ( ) lemma=matón 
- matón ( ) 
+ matizará ( ) 
+ matizándolas ( ) 
+ matizándose ( ) 
+ matizó ( ) 
+ mato ( ) 
+ matones ( ) 
  matorral ( ) 
- matorrales ( ) lemma=matorral 
+ matorrales ( ) 
  matrice ( ) 
- matrices ( ) lemma=matriz 
- matriz ( ) 
+ matrices ( ) 
  matricial ( ) 
- matriciales ( ) lemma=matricial 
- matricula ( ) lemma=matricular 
- matricular ( ) 
- matriculaciones ( ) lemma=matriculación 
+ matriciales ( ) 
+ matricula ( ) 
+ matriculaciones ( ) 
  matriculación ( ) 
- matriculadas ( ) lemma=matricular 
- matriculado ( ) lemma=matricular 
- matriculados ( ) lemma=matricular 
- matriculan ( ) lemma=matricular 
- matricularme ( ) lemma=matricular 
+ matriculadas ( ) 
+ matriculado ( ) 
+ matriculados ( ) 
+ matriculan ( ) 
+ matricularme ( ) 
  matricularse ( ) 
- matriculará ( ) lemma=matricular 
- matriculó ( ) lemma=matricular 
+ matriculará ( ) 
+ matriculó ( ) 
  matrimonial ( ) 
- matrimoniales ( ) lemma=matrimonial 
+ matrimoniales ( ) 
  matrimonio ( ) 
- matrimonios ( ) lemma=matrimonio 
+ matrimonios ( ) 
  matrix ( ) 
- matronas ( ) lemma=matrona 
- matrona ( ) 
+ matriz ( ) 
+ matronas ( ) 
  matrícula ( ) 
- matrículas ( ) lemma=matrícula 
- matutina ( ) lemma=matutino 
+ matrículas ( ) 
+ matutina ( ) 
+ matutinas ( ) 
  matutino ( ) 
- matutinas ( ) lemma=matutino 
- matutinos ( ) lemma=matutino 
- matándose ( ) lemma=matarse 
- matásemos ( ) lemma=matar 
- maté ( ) lemma=matar 
- mató ( ) lemma=matar 
+ matutinos ( ) 
+ matándose ( ) 
+ matásemos ( ) 
+ maté ( ) 
+ mató ( ) 
  mauriac ( ) 
  mausoleo ( ) 
  max ( ) 
  maxicírculo ( ) 
  maxilar ( ) 
- maxilares ( ) lemma=maxilar 
- maximice ( ) lemma=maximizar 
- maximizar ( ) 
- maximiza ( ) lemma=maximizar 
+ maxilares ( ) 
+ maximice ( ) 
+ maximiza ( ) 
  maximización ( ) 
  maximizadoro ( ) 
- maximizan ( ) lemma=maximizar 
+ maximizan ( ) 
+ maximizar ( ) 
  maximum ( ) 
  maya ( ) 
- mayas ( ) lemma=maya 
+ mayas ( ) 
  mayo ( ) 
  mayonesa ( ) 
- mayor ( ) lemma=grande 
+ mayor ( ) 
  mayoración ( ) 
- mayorcita ( ) lemma=mayor 
- mayorcitas ( ) lemma=mayor 
- mayorcitos ( ) lemma=mayor 
+ mayorcita ( ) 
+ mayorcitas ( ) 
+ mayorcitos ( ) 
  mayordomo ( ) 
  mayoreo ( ) 
- mayores ( ) lemma=grande 
- mayoria ( ) lemma=mayoría 
- mayoría ( ) 
+ mayores ( ) 
+ mayoria ( ) 
  mayorista ( ) 
- mayoristas ( ) lemma=mayorista 
- mayoritaria ( ) lemma=mayoritario 
+ mayoristas ( ) 
+ mayoritaria ( ) 
+ mayoritariamente ( ) 
+ mayoritarias ( ) 
  mayoritario ( ) 
- mayoritariamente ( ) lemma=mayoritario 
- mayoritarias ( ) lemma=mayoritario 
- mayoritarios ( ) lemma=mayoritario 
- mayormente ( ) lemma=mayor 
- mayorías ( ) lemma=mayoría 
- mayos ( ) lemma=mayo 
- mayusculas ( ) lemma=mayúsculo 
+ mayoritarios ( ) 
+ mayormente ( ) 
+ mayoría ( ) 
+ mayorías ( ) 
+ mayos ( ) 
+ mayusculas ( ) 
+ mayúscula ( ) 
+ mayúsculas ( ) 
  mayúsculo ( ) 
- mayúscula ( ) lemma=mayúsculo 
- mayúsculas ( ) lemma=mayúsculo 
- mayúsculos ( ) lemma=mayúsculo 
+ mayúsculos ( ) 
+ maza ( ) 
  mazo ( ) 
  mazorca ( ) 
- mazorcas ( ) lemma=mazorca 
- mazos ( ) lemma=mazo 
- maíces ( ) lemma=maíz 
+ mazorcas ( ) 
+ mazos ( ) 
+ maíces ( ) 
  maíz ( ) 
  maña ( ) 
  mañana ( ) 
- mañanas ( ) lemma=mañana 
+ mañanas ( ) 
  mañanero ( ) 
- mañanita ( ) lemma=mañana 
- mañanitas ( ) lemma=mañana 
- mañas ( ) lemma=maña 
- mañosa ( ) lemma=mañoso 
- mañoso ( ) 
+ mañanita ( ) 
+ mañanitas ( ) 
+ mañas ( ) 
+ mañosa ( ) 
  mañosería ( ) 
- mañosos ( ) lemma=mañoso 
+ mañosos ( ) 
  mcontrol ( ) 
- me ( ) lemma=yo 
- mea ( ) lemma=mear 
- mear ( ) 
+ me ( ) lemma=amar 
+ mea ( ) 
  mean ( ) 
- meando ( ) lemma=mear 
- meas ( ) lemma=mear 
+ meando ( ) 
+ mear ( ) 
+ meas ( ) 
  measurement ( ) 
  measurements ( ) 
  meato ( ) 
  meca ( ) 
  mecanicisto ( ) 
- mecaniqueando ( ) lemma=mecaniquear 
- mecaniquear ( ) 
+ mecaniqueando ( ) 
  mecanismo ( ) 
- mecanismos ( ) lemma=mecanismo 
+ mecanismos ( ) 
  mecanización ( ) 
- mecanizada ( ) lemma=mecanizar 
+ mecanizada ( ) 
+ mecanizado ( ) 
+ mecanizados ( ) 
  mecanizar ( ) 
- mecanizado ( ) lemma=mecanizar 
- mecanizados ( ) lemma=mecanizar 
- mecanografiada ( ) lemma=mecanografiar 
- mecanografiar ( ) 
- mecanografiadas ( ) lemma=mecanografiar 
- mecanografiados ( ) lemma=mecanografiar 
- mecanográfica ( ) lemma=mecanográfico 
- mecanográfico ( ) 
+ mecanografiada ( ) 
+ mecanografiadas ( ) 
+ mecanografiados ( ) 
+ mecanográfica ( ) 
  mecanoquímica ( ) 
  mecanoquímico ( ) 
  mecedora ( ) 
@@ -1687,836 +1611,789 @@
  mecer ( ) 
  mecha ( ) 
  mechanism ( ) 
- mechas ( ) lemma=mecha 
+ mechas ( ) 
  mechero ( ) 
- mecheros ( ) lemma=mechero 
+ mecheros ( ) 
  mechón ( ) 
- meciéndose ( ) lemma=mecer 
+ meciéndose ( ) 
  meco ( ) 
- mecánica ( ) lemma=mecánico 
+ mecánica ( ) 
+ mecánicamente ( ) 
+ mecánicas ( ) 
  mecánico ( ) 
- mecánicamente ( ) lemma=mecánico 
- mecánicas ( ) lemma=mecánico 
- mecánicos ( ) lemma=mecánico 
+ mecánicos ( ) 
  medalla ( ) 
- medallas ( ) lemma=medalla 
- medallones ( ) lemma=medallón 
- medallón ( ) 
- media ( ) lemma=medio 
- medio ( ) 
- mediaba ( ) lemma=mediar 
- mediar ( ) 
- mediaciones ( ) lemma=mediación 
+ medallas ( ) 
+ medallones ( ) 
+ media ( ) 
+ mediaba ( ) 
+ mediaciones ( ) 
  mediación ( ) 
- mediada ( ) lemma=mediar 
- mediado ( ) lemma=mediar 
+ mediada ( ) 
+ mediado ( ) 
  mediador ( ) 
- mediadora ( ) lemma=mediador 
- mediadoras ( ) lemma=mediador 
- mediadores ( ) lemma=mediador 
- mediados ( ) lemma=mediar 
+ mediadora ( ) 
+ mediadoras ( ) 
+ mediadores ( ) 
+ mediados ( ) 
  medial ( ) 
- mediales ( ) lemma=medial 
+ mediales ( ) 
  medialmente ( ) 
  medialuna ( ) 
- median ( ) lemma=mediar 
+ median ( ) 
  mediana ( ) 
- medianamente ( ) lemma=mediano 
+ medianamente ( ) 
+ medianas ( ) 
+ mediando ( ) 
  mediano ( ) 
- medianas ( ) lemma=mediano 
- mediando ( ) lemma=mediar 
  medianoche ( ) 
- medianos ( ) lemma=mediano 
+ medianos ( ) 
  mediante ( ) 
- mediara ( ) lemma=mediar 
- mediaran ( ) lemma=mediar 
- mediará ( ) lemma=mediar 
- medias ( ) lemma=medio 
+ mediar ( ) 
+ mediara ( ) 
+ mediaran ( ) 
+ mediará ( ) 
+ medias ( ) 
  mediastino ( ) 
- mediastínica ( ) lemma=mediastínico 
+ mediastínica ( ) 
+ mediastínicas ( ) 
  mediastínico ( ) 
- mediastínicas ( ) lemma=mediastínico 
  mediatamente ( ) 
  mediation ( ) 
- mediatizada ( ) lemma=mediatizar 
- mediatizar ( ) 
- mediatizadas ( ) lemma=mediatizar 
- mediatizado ( ) lemma=mediatizar 
- mediatizados ( ) lemma=mediatizar 
- mediatizando ( ) lemma=mediatizar 
- medibles ( ) lemma=medible 
- medible ( ) 
- medica ( ) lemma=medicar 
- medicar ( ) 
- medicacion ( ) lemma=medicación 
+ mediatizada ( ) 
+ mediatizadas ( ) 
+ mediatizado ( ) 
+ mediatizados ( ) 
+ mediatizando ( ) 
+ medibles ( ) 
+ medica ( ) 
+ medicacion ( ) 
+ medicaciones ( ) 
  medicación ( ) 
- medicaciones ( ) lemma=medicación 
  medicamento ( ) 
- medicamentos ( ) lemma=medicamento 
- medicamentosa ( ) lemma=medicamentoso 
- medicamentoso ( ) 
- medicamentosas ( ) lemma=medicamentoso 
- medicamentosos ( ) lemma=medicamentoso 
- medicarlo ( ) lemma=medicar 
+ medicamentos ( ) 
+ medicamentosa ( ) 
+ medicamentosas ( ) 
+ medicamentosos ( ) 
+ medicarlo ( ) 
  medicina ( ) 
  medicinal ( ) 
- medicinales ( ) lemma=medicinal 
- medicinas ( ) lemma=medicina 
- medicine ( ) lemma=medicinar 
- medicinar ( ) 
- mediciones ( ) lemma=medición 
+ medicinales ( ) 
+ medicinas ( ) 
+ medicine ( ) 
+ mediciones ( ) 
  medición ( ) 
- medico ( ) lemma=médico 
- médico ( ) 
+ medico ( ) 
  medicoquirúrgico ( ) 
  medida ( ) 
- medidas ( ) lemma=medida 
- medido ( ) lemma=medir 
- medir ( ) 
+ medidas ( ) 
+ medido ( ) 
  medidor ( ) 
- medidores ( ) lemma=medidor 
- medidos ( ) lemma=medir 
- medie ( ) lemma=mediar 
- medien ( ) lemma=mediar 
+ medidores ( ) 
+ medidos ( ) 
+ medie ( ) 
+ medien ( ) 
  medieval ( ) 
- medievales ( ) lemma=medieval 
- medimos ( ) lemma=medir 
+ medievales ( ) 
+ medimos ( ) 
+ medio ( ) 
  medioambiental ( ) 
- medioambientales ( ) lemma=medioambiental 
+ medioambientales ( ) 
  medioambiente ( ) 
  medioclavicular ( ) 
  mediocre ( ) 
- mediocremente ( ) lemma=mediocre 
- mediocres ( ) lemma=mediocre 
+ mediocremente ( ) 
+ mediocres ( ) 
  mediocridad ( ) 
  mediodía ( ) 
- medios ( ) lemma=medio 
+ medios ( ) 
  mediotarsal ( ) 
- mediremos ( ) lemma=medir 
- medirla ( ) lemma=medir 
- medirle ( ) lemma=medir 
- medirlo ( ) lemma=medir 
- medirnos ( ) lemma=medir 
+ medir ( ) 
+ mediremos ( ) 
+ medirla ( ) 
+ medirle ( ) 
+ medirlo ( ) 
+ medirnos ( ) 
  medirse ( ) 
- medirá ( ) lemma=medir 
- medirán ( ) lemma=medir 
- mediría ( ) lemma=medir 
- meditaba ( ) lemma=meditar 
- meditar ( ) 
+ medirá ( ) 
+ medirán ( ) 
+ mediría ( ) 
+ meditaba ( ) 
  meditación ( ) 
- meditada ( ) lemma=meditar 
- meditadas ( ) lemma=meditar 
- meditado ( ) lemma=meditar 
- meditados ( ) lemma=meditar 
- meditan ( ) lemma=meditar 
- meditara ( ) lemma=meditar 
- meditará ( ) lemma=meditar 
- meditase ( ) lemma=meditar 
- medite ( ) lemma=meditar 
- meditemos ( ) lemma=meditar 
- mediten ( ) lemma=meditar 
- mediterránea ( ) lemma=mediterráneo 
+ meditada ( ) 
+ meditadas ( ) 
+ meditado ( ) 
+ meditados ( ) 
+ meditan ( ) 
+ meditar ( ) 
+ meditara ( ) 
+ meditará ( ) 
+ meditase ( ) 
+ medite ( ) 
+ meditemos ( ) 
+ mediten ( ) 
+ mediterránea ( ) 
+ mediterráneas ( ) 
  mediterráneo ( ) 
- mediterráneas ( ) lemma=mediterráneo 
- mediterráneos ( ) lemma=mediterráneo 
- medió ( ) lemma=mediar 
+ mediterráneos ( ) 
+ medió ( ) 
  medula ( ) 
  medular ( ) 
- medulares ( ) lemma=medular 
+ medulares ( ) 
  medusa ( ) 
- medía ( ) lemma=medir 
- medían ( ) lemma=medir 
+ medía ( ) 
+ medían ( ) 
  meff ( ) 
  mefloquina ( ) 
- megabytes ( ) lemma=megabyte 
- megabyte ( ) 
+ megabytes ( ) 
  megacolon ( ) 
  megafonía ( ) 
- megahercios ( ) lemma=megahercio 
- megahercio ( ) 
- megaloblásticas ( ) lemma=megaloblástico 
- megaloblástico ( ) 
- megaroms ( ) lemma=megarom 
- megarom ( ) 
- megavatios ( ) lemma=megavatio 
- megavatio ( ) 
+ megahercios ( ) 
+ megaloblásticas ( ) 
+ megaroms ( ) 
+ megavatios ( ) 
  meiosis ( ) 
- meiótica ( ) lemma=meiótico 
- meiótico ( ) 
- meióticos ( ) lemma=meiótico 
- mejicana ( ) lemma=mejicano 
+ meiótica ( ) 
+ meióticos ( ) 
+ mejicana ( ) 
  mejicano ( ) 
- mejicanos ( ) lemma=mejicano 
+ mejicanos ( ) 
  mejilla ( ) 
- mejillas ( ) lemma=mejilla 
- mejilloncito ( ) lemma=mejillón 
+ mejillas ( ) 
+ mejilloncito ( ) 
+ mejillones ( ) 
  mejillón ( ) 
- mejillones ( ) lemma=mejillón 
- mejor ( ) lemma=bueno|mejor 
+ mejor ( ) 
  mejora ( ) 
- mejoraba ( ) lemma=mejorar 
- mejorar ( ) 
- mejoraban ( ) lemma=mejorar 
+ mejoraba ( ) 
+ mejoraban ( ) 
  mejoración ( ) 
- mejorada ( ) lemma=mejorar 
- mejoradas ( ) lemma=mejorar 
- mejorado ( ) lemma=mejorar 
- mejoradora ( ) lemma=mejorador 
- mejorador ( ) 
- mejorados ( ) lemma=mejorar 
+ mejorada ( ) 
+ mejoradas ( ) 
+ mejorado ( ) 
+ mejoradora ( ) 
+ mejorados ( ) 
  mejoramiento ( ) 
- mejoramos ( ) lemma=mejorar 
- mejoran ( ) lemma=mejorar 
- mejorando ( ) lemma=mejorar 
- mejorara ( ) lemma=mejorar 
- mejoraran ( ) lemma=mejorar 
- mejoraremos ( ) lemma=mejorar 
- mejorarla ( ) lemma=mejorar 
- mejorarlas ( ) lemma=mejorar 
- mejorarle ( ) lemma=mejorar 
- mejorarlo ( ) lemma=mejorar 
- mejorarlos ( ) lemma=mejorar 
- mejoraron ( ) lemma=mejorar 
+ mejoramos ( ) 
+ mejoran ( ) 
+ mejorando ( ) 
+ mejorar ( ) 
+ mejorara ( ) 
+ mejoraran ( ) 
+ mejoraremos ( ) 
+ mejorarla ( ) 
+ mejorarlas ( ) 
+ mejorarle ( ) 
+ mejorarlo ( ) 
+ mejorarlos ( ) 
+ mejoraron ( ) 
  mejorarse ( ) 
- mejorará ( ) lemma=mejorar 
- mejorarán ( ) lemma=mejorar 
- mejoraría ( ) lemma=mejorar 
- mejorarían ( ) lemma=mejorar 
- mejoras ( ) lemma=mejora 
- mejorase ( ) lemma=mejorar 
- mejorasen ( ) lemma=mejorar 
- mejorcito ( ) lemma=mejor 
- mejore ( ) lemma=mejorar 
- mejoremos ( ) lemma=mejorar 
- mejoren ( ) lemma=mejorar 
- mejores ( ) lemma=bueno 
- mejoro ( ) lemma=mejorar 
- mejorándola ( ) lemma=mejorar 
- mejorándolo ( ) lemma=mejorar 
- mejorándolos ( ) lemma=mejorar 
+ mejorará ( ) 
+ mejorarán ( ) 
+ mejoraría ( ) 
+ mejorarían ( ) 
+ mejoras ( ) 
+ mejorase ( ) 
+ mejorasen ( ) 
+ mejorcito ( ) 
+ mejore ( ) 
+ mejoremos ( ) 
+ mejoren ( ) 
+ mejores ( ) 
+ mejoro ( ) 
+ mejorándola ( ) 
+ mejorándolo ( ) 
+ mejorándolos ( ) 
  mejoría ( ) 
- mejorías ( ) lemma=mejoría 
- mejoró ( ) lemma=mejorar 
+ mejorías ( ) 
+ mejoró ( ) 
  melagenina ( ) 
  melancolía ( ) 
- melancolías ( ) lemma=melancolía 
- melancólica ( ) lemma=melancólico 
+ melancolías ( ) 
+ melancólica ( ) 
  melancólico ( ) 
- melancólicos ( ) lemma=melancólico 
+ melancólicos ( ) 
  melanina ( ) 
  melaninogenicus ( ) 
- melanocitos ( ) lemma=melanocito 
- melanocito ( ) 
+ melanocitos ( ) 
  melanogaster ( ) 
  melarsoprol ( ) 
  melatonina ( ) 
  melatonino ( ) 
  melena ( ) 
- melenas ( ) lemma=melena 
- melgas ( ) lemma=melgar 
- melgar ( ) 
- mella ( ) lemma=mellar 
- mellar ( ) 
- mellado ( ) lemma=mellar 
+ melenas ( ) 
+ melgas ( ) 
+ mella ( ) 
+ mellado ( ) 
  mellitus ( ) 
- mellizos ( ) lemma=mellizo 
- mellizo ( ) 
- melocotones ( ) lemma=melocotón 
+ mellizos ( ) 
+ melocotones ( ) 
  melocotón ( ) 
  melodramático ( ) 
  melodía ( ) 
- melodías ( ) lemma=melodía 
- melones ( ) lemma=melón 
+ melodías ( ) 
+ melones ( ) 
  melón ( ) 
  membrana ( ) 
- membranas ( ) lemma=membrana 
- membranosa ( ) lemma=membranoso 
+ membranas ( ) 
+ membranosa ( ) 
+ membranosas ( ) 
  membranoso ( ) 
- membranosas ( ) lemma=membranoso 
- membranosos ( ) lemma=membranoso 
+ membranosos ( ) 
  membrete ( ) 
- membretes ( ) lemma=membrete 
+ membretes ( ) 
  membrillo ( ) 
- membrillos ( ) lemma=membrillo 
- memorabilísima ( ) lemma=memorable 
+ membrillos ( ) 
+ memorabilísima ( ) 
  memorable ( ) 
- memorablemente ( ) lemma=memorable 
- memorables ( ) lemma=memorable 
- memoran ( ) lemma=memorar 
- memorar ( ) 
- memorando ( ) lemma=memorar 
- memorandos ( ) lemma=memorar 
+ memorablemente ( ) 
+ memorables ( ) 
+ memoran ( ) 
+ memorando ( ) 
+ memorandos ( ) 
  memoria ( ) 
  memorial ( ) 
- memorias ( ) lemma=memoria 
- memoristas ( ) lemma=memorista 
- memorista ( ) 
- memorizadas ( ) lemma=memorizar 
+ memorias ( ) 
+ memoristas ( ) 
+ memorizadas ( ) 
+ memorizado ( ) 
+ memorizando ( ) 
  memorizar ( ) 
- memorizado ( ) lemma=memorizar 
- memorizando ( ) lemma=memorizar 
  memética ( ) 
  memético ( ) 
- mena ( ) lemma=menar 
- menar ( ) 
- menciona ( ) lemma=mencionar 
- mencionar ( ) 
- mencionaba ( ) lemma=mencionar 
- mencionaban ( ) lemma=mencionar 
- mencionada ( ) lemma=mencionado 
+ mena ( ) lemma=ameno 
+ menciona ( ) 
+ mencionaba ( ) 
+ mencionaban ( ) 
+ mencionada ( ) 
+ mencionadas ( ) 
  mencionado ( ) 
- mencionadas ( ) lemma=mencionado 
- mencionados ( ) lemma=mencionado 
- mencionamos ( ) lemma=mencionar 
- mencionan ( ) lemma=mencionar 
- mencionando ( ) lemma=mencionar 
- mencionara ( ) lemma=mencionar 
- mencionaran ( ) lemma=mencionar 
- mencionaremos ( ) lemma=mencionar 
- mencionaron ( ) lemma=mencionar 
+ mencionados ( ) 
+ mencionamos ( ) 
+ mencionan ( ) 
+ mencionando ( ) 
+ mencionar ( ) 
+ mencionara ( ) 
+ mencionaran ( ) 
+ mencionaremos ( ) 
+ mencionaron ( ) 
  mencionarse ( ) 
- mencionará ( ) lemma=mencionar 
- mencionarán ( ) lemma=mencionar 
- mencionaré ( ) lemma=mencionar 
- mencionaría ( ) lemma=mencionar 
- mencionase ( ) lemma=mencionar 
- mencionasen ( ) lemma=mencionar 
- mencione ( ) lemma=mencionar 
- mencionemos ( ) lemma=mencionar 
- mencionen ( ) lemma=mencionar 
- menciones ( ) lemma=mención 
+ mencionará ( ) 
+ mencionarán ( ) 
+ mencionaré ( ) 
+ mencionaría ( ) 
+ mencionase ( ) 
+ mencionasen ( ) 
+ mencione ( ) 
+ mencionemos ( ) 
+ mencionen ( ) 
+ menciones ( ) 
+ menciono ( ) 
+ mencionábamos ( ) 
+ mencionándose ( ) 
+ mencionáramos ( ) 
+ mencionásemos ( ) 
+ mencioné ( ) 
+ mencionés ( ) 
+ mencionó ( ) 
  mención ( ) 
- menciono ( ) lemma=mencionar 
- mencionábamos ( ) lemma=mencionar 
- mencionándose ( ) lemma=mencionarse 
- mencionáramos ( ) lemma=mencionar 
- mencionásemos ( ) lemma=mencionar 
- mencioné ( ) lemma=mencionar 
- mencionés ( ) lemma=mencionar 
- mencionó ( ) lemma=mencionar 
- mendeliana ( ) lemma=mendeliano 
+ mendeliana ( ) 
+ mendelianas ( ) 
  mendeliano ( ) 
- mendelianas ( ) lemma=mendeliano 
- mendelianos ( ) lemma=mendeliano 
+ mendelianos ( ) 
  mendelismo ( ) 
  mendigo ( ) 
- mendigos ( ) lemma=mendigo 
- meneaba ( ) lemma=menear 
+ mendigos ( ) 
+ meneaba ( ) 
+ meneadas ( ) 
  menear ( ) 
- meneadas ( ) lemma=menear 
- menearon ( ) lemma=menear 
- meneo ( ) lemma=menear 
+ menearon ( ) 
+ meneo ( ) 
  menester ( ) 
- menesteres ( ) lemma=menester 
- meneó ( ) lemma=menear 
+ menesteres ( ) 
+ meneó ( ) 
  mengano ( ) 
- mengua ( ) lemma=menguar 
+ mengua ( ) 
+ menguada ( ) 
+ menguado ( ) 
+ menguados ( ) 
+ menguan ( ) 
+ menguando ( ) 
  menguar ( ) 
- menguada ( ) lemma=menguar 
- menguado ( ) lemma=menguar 
- menguados ( ) lemma=menguar 
- menguan ( ) lemma=menguar 
- menguando ( ) lemma=menguar 
- menguara ( ) lemma=menguar 
- menguará ( ) lemma=menguar 
- meninges ( ) lemma=meninge 
- meninge ( ) 
+ menguara ( ) 
+ menguará ( ) 
+ meninges ( ) 
  meningitis ( ) 
  meningoencefalitis ( ) 
  meningomielitis ( ) 
  menopausia ( ) 
- menopáusicos ( ) lemma=menopáusico 
- menopáusico ( ) 
- menor ( ) lemma=pequeño 
- menores ( ) lemma=menor|pequeño 
- menor|pequeño ( ) 
+ menopáusicos ( ) 
+ menor ( ) 
+ menores ( ) 
  menos ( ) 
- menoscaba ( ) lemma=menoscabar 
+ menoscaba ( ) 
+ menoscabada ( ) 
+ menoscabado ( ) 
+ menoscabados ( ) 
+ menoscabamos ( ) 
+ menoscaban ( ) 
+ menoscabando ( ) 
  menoscabar ( ) 
- menoscabada ( ) lemma=menoscabar 
- menoscabado ( ) lemma=menoscabar 
- menoscabados ( ) lemma=menoscabar 
- menoscabamos ( ) lemma=menoscabar 
- menoscaban ( ) lemma=menoscabar 
- menoscabando ( ) lemma=menoscabar 
- menoscabara ( ) lemma=menoscabar 
- menoscabaran ( ) lemma=menoscabar 
- menoscabará ( ) lemma=menoscabar 
- menoscabaría ( ) lemma=menoscabar 
- menoscabarían ( ) lemma=menoscabar 
- menoscabe ( ) lemma=menoscabar 
- menoscaben ( ) lemma=menoscabar 
- menoscabo ( ) lemma=menoscabar 
- menosprecia ( ) lemma=menospreciar 
+ menoscabara ( ) 
+ menoscabaran ( ) 
+ menoscabará ( ) 
+ menoscabaría ( ) 
+ menoscabarían ( ) 
+ menoscabe ( ) 
+ menoscaben ( ) 
+ menoscabo ( ) 
+ menosprecia ( ) 
+ menospreciada ( ) 
+ menospreciado ( ) 
+ menospreciados ( ) 
+ menosprecian ( ) 
+ menospreciando ( ) 
  menospreciar ( ) 
- menospreciada ( ) lemma=menospreciar 
- menospreciado ( ) lemma=menospreciar 
- menospreciados ( ) lemma=menospreciar 
- menosprecian ( ) lemma=menospreciar 
- menospreciando ( ) lemma=menospreciar 
- menosprecie ( ) lemma=menospreciar 
+ menosprecie ( ) 
  menosprecio ( ) 
  mensaje ( ) 
- mensajera ( ) lemma=mensajero 
+ mensajera ( ) 
+ mensajeras ( ) 
  mensajero ( ) 
- mensajeras ( ) lemma=mensajero 
- mensajeros ( ) lemma=mensajero 
+ mensajeros ( ) 
  mensajería ( ) 
- mensajerías ( ) lemma=mensajería 
- mensajes ( ) lemma=mensaje 
- mensajillo ( ) lemma=mensaje 
+ mensajerías ( ) 
+ mensajes ( ) 
+ mensajillo ( ) 
  menstruación ( ) 
  menstrual ( ) 
- menstruales ( ) lemma=menstrual 
+ menstruales ( ) 
  mensual ( ) 
- mensuales ( ) lemma=mensual 
+ mensuales ( ) 
  mensualidad ( ) 
- mensualidades ( ) lemma=mensualidad 
- mensualmente ( ) lemma=mensual 
- mensurables ( ) lemma=mensurable 
- mensurable ( ) 
+ mensualidades ( ) 
+ mensualmente ( ) 
+ mensurables ( ) 
  menta ( ) 
- mentaban ( ) lemma=mentar 
- mentar ( ) 
- mentados ( ) lemma=mentar 
+ mentaban ( ) 
+ mentados ( ) 
  mental ( ) 
- mentales ( ) lemma=mental 
+ mentales ( ) 
  mentalidad ( ) 
- mentalidades ( ) lemma=mentalidad 
- mentalmente ( ) lemma=mental 
- mentando ( ) lemma=mentar 
+ mentalidades ( ) 
+ mentalmente ( ) 
+ mentando ( ) 
+ mentar ( ) 
  mente ( ) 
- mentes ( ) lemma=mente 
- mentido ( ) lemma=mentir 
+ mentes ( ) 
+ mentido ( ) 
  mentir ( ) 
  mentira ( ) 
- mentiras ( ) lemma=mentira 
- mentirosa ( ) lemma=mentiroso 
+ mentiras ( ) 
+ mentirosa ( ) 
+ mentirosas ( ) 
  mentiroso ( ) 
- mentirosas ( ) lemma=mentiroso 
- mentirosos ( ) lemma=mentiroso 
- mentiría ( ) lemma=mentir 
- menton ( ) lemma=mentón 
- mentón ( ) 
+ mentirosos ( ) 
+ mentiría ( ) 
+ menton ( ) 
  mentoría ( ) 
- mentían ( ) lemma=mentir 
- mentís ( ) lemma=mentir 
- menuda ( ) lemma=menudo 
+ mentían ( ) 
+ mentís ( ) 
+ mentón ( ) 
+ menuda ( ) 
+ menudas ( ) 
+ menudean ( ) 
+ menudeo ( ) 
  menudo ( ) 
- menudas ( ) lemma=menudo 
- menudean ( ) lemma=menudear 
- menudear ( ) 
- menudeo ( ) lemma=menudear 
- menudos ( ) lemma=menudo 
- meníngea ( ) lemma=meníngeo 
+ menudos ( ) 
+ meníngea ( ) 
  meníngeo ( ) 
- meníngeos ( ) lemma=meníngeo 
+ meníngeos ( ) 
  menú ( ) 
- menúes ( ) lemma=menú 
- menús ( ) lemma=menú 
- meo ( ) lemma=mear 
+ menúes ( ) 
+ menús ( ) 
+ meo ( ) 
  meollo ( ) 
  meperidina ( ) 
- mera ( ) lemma=mero 
- mero ( ) 
- meramente ( ) lemma=mero 
- meras ( ) lemma=mero 
- mercad ( ) lemma=mercar 
- mercar ( ) 
+ mera ( ) 
+ meramente ( ) 
+ meras ( ) 
+ mercad ( ) 
  mercadeo ( ) 
- mercadeos ( ) lemma=mercadeo 
+ mercadeos ( ) 
  mercader ( ) 
- mercaderes ( ) lemma=mercader 
+ mercaderes ( ) 
  mercadería ( ) 
- mercaderías ( ) lemma=mercadería 
- mercadillo ( ) lemma=mercado 
+ mercaderías ( ) 
+ mercadillo ( ) 
+ mercadillos ( ) 
  mercado ( ) 
- mercadillos ( ) lemma=mercado 
- mercados ( ) lemma=mercado 
+ mercados ( ) 
  mercadotecnia ( ) 
  mercancía ( ) 
- mercancías ( ) lemma=mercancía 
+ mercancías ( ) 
  mercante ( ) 
- mercantes ( ) lemma=mercante 
+ mercantes ( ) 
  mercantil ( ) 
- mercantiles ( ) lemma=mercantil 
+ mercantiles ( ) 
  mercantilismo ( ) 
  mercantilista ( ) 
- mercantilistas ( ) lemma=mercantilista 
+ mercantilistas ( ) 
  merced ( ) 
- mercedes ( ) lemma=merced 
+ mercedes ( ) 
  mercenario ( ) 
- mercenarios ( ) lemma=mercenario 
+ mercenarios ( ) 
  mercurial ( ) 
- mercuriales ( ) lemma=mercurial 
+ mercuriales ( ) 
  mercurimétrico ( ) 
  mercurio ( ) 
- mere ( ) lemma=merar 
- merar ( ) 
- merece ( ) lemma=merecer 
- merecer ( ) 
+ mere ( ) 
+ merece ( ) 
  merecedor ( ) 
- merecedora ( ) lemma=merecedor 
- merecedoras ( ) lemma=merecedor 
- merecedores ( ) lemma=merecedor 
- merecemos ( ) lemma=merecer 
- merecen ( ) lemma=merecer 
- mereceremos ( ) lemma=merecer 
- merecerá ( ) lemma=merecer 
- merecerán ( ) lemma=merecer 
- merecería ( ) lemma=merecer 
- merecerían ( ) lemma=merecer 
- mereces ( ) lemma=merecer 
- merecida ( ) lemma=merecer 
- merecidas ( ) lemma=merecer 
- merecido ( ) lemma=merecer 
- merecidos ( ) lemma=merecer 
- mereciendo ( ) lemma=merecer 
- mereciera ( ) lemma=merecer 
- merecieran ( ) lemma=merecer 
- merecieron ( ) lemma=merecer 
- mereciese ( ) lemma=merecer 
- mereció ( ) lemma=merecer 
- merecía ( ) lemma=merecer 
- merecíamos ( ) lemma=merecer 
- merecían ( ) lemma=merecer 
- merecías ( ) lemma=merecer 
- merendaban ( ) lemma=merendar 
+ merecedora ( ) 
+ merecedoras ( ) 
+ merecedores ( ) 
+ merecemos ( ) 
+ merecen ( ) 
+ merecer ( ) 
+ mereceremos ( ) 
+ merecerá ( ) 
+ merecerán ( ) 
+ merecería ( ) 
+ merecerían ( ) 
+ mereces ( ) 
+ merecida ( ) 
+ merecidas ( ) 
+ merecido ( ) 
+ merecidos ( ) 
+ mereciendo ( ) 
+ mereciera ( ) 
+ merecieran ( ) 
+ merecieron ( ) 
+ mereciese ( ) 
+ mereció ( ) 
+ merecía ( ) 
+ merecíamos ( ) 
+ merecían ( ) 
+ merecías ( ) 
+ merendaban ( ) 
+ merendado ( ) 
  merendar ( ) 
- merendado ( ) lemma=merendar 
  merengue ( ) 
- merengues ( ) lemma=merengue 
- merenguito ( ) lemma=merengue 
- merezca ( ) lemma=merecer 
- merezcamos ( ) lemma=merecer 
- merezcan ( ) lemma=merecer 
- merezco ( ) lemma=merecer 
+ merengues ( ) 
+ merenguito ( ) 
+ merezca ( ) 
+ merezcamos ( ) 
+ merezcan ( ) 
+ merezco ( ) 
  mergesort ( ) 
  meridianamente ( ) 
  meridiano ( ) 
- meridianos ( ) lemma=meridiano 
+ meridianos ( ) 
  meridional ( ) 
- meridionales ( ) lemma=meridional 
+ meridionales ( ) 
  merienda ( ) 
- meriendas ( ) lemma=merienda 
+ meriendas ( ) 
  merino ( ) 
  meristilación ( ) 
- meritoria ( ) lemma=meritorio 
+ meritoria ( ) 
+ meritorias ( ) 
  meritorio ( ) 
- meritorias ( ) lemma=meritorio 
- meritorios ( ) lemma=meritorio 
+ meritorios ( ) 
  merluza ( ) 
- merma ( ) lemma=mermar 
+ merma ( ) 
+ mermada ( ) 
+ mermadas ( ) 
+ mermado ( ) 
+ mermados ( ) 
+ merman ( ) 
+ mermando ( ) 
  mermar ( ) 
- mermada ( ) lemma=mermar 
- mermadas ( ) lemma=mermar 
- mermado ( ) lemma=mermar 
- mermados ( ) lemma=mermar 
- merman ( ) lemma=mermar 
- mermando ( ) lemma=mermar 
- mermaron ( ) lemma=mermar 
- mermará ( ) lemma=mermar 
- mermas ( ) lemma=mermar 
+ mermaron ( ) 
+ mermará ( ) 
+ mermas ( ) 
  mermelada ( ) 
- mermeladas ( ) lemma=mermelada 
- mermó ( ) lemma=mermar 
- merodea ( ) lemma=merodear 
+ mermeladas ( ) 
+ mermó ( ) 
+ mero ( ) 
+ merodea ( ) 
+ merodean ( ) 
+ merodeando ( ) 
  merodear ( ) 
- merodean ( ) lemma=merodear 
- merodeando ( ) lemma=merodear 
- meros ( ) lemma=mero 
+ meros ( ) 
  merozoíto ( ) 
  mes ( ) 
  mesa ( ) 
- mesas ( ) lemma=mesa 
- mese ( ) lemma=mesar 
- mesar ( ) 
- mesemos ( ) lemma=mesar 
+ mesas ( ) 
+ mese ( ) 
+ mesemos ( ) 
  mesencéfalo ( ) 
- mesenquimatosa ( ) lemma=mesenquimatoso 
- mesenquimatoso ( ) 
- mesenquimatosas ( ) lemma=mesenquimatoso 
+ mesenquimatosa ( ) 
+ mesenquimatosas ( ) 
  mesenterio ( ) 
- mesentéricas ( ) lemma=mesentérico 
+ mesentéricas ( ) 
  mesentérico ( ) 
- mesentéricos ( ) lemma=mesentérico 
- meses ( ) lemma=mes 
- mesesitos ( ) lemma=mes 
+ mesentéricos ( ) 
+ meses ( ) 
+ mesesitos ( ) 
  meseta ( ) 
- mesetas ( ) lemma=meseta 
- mesilla ( ) lemma=mesa 
- mesita ( ) lemma=mesa 
- mesitas ( ) lemma=mesa 
+ mesetas ( ) 
+ mesilla ( ) 
+ mesita ( ) 
+ mesitas ( ) 
  meso ( ) 
  mesoblasto ( ) 
  mesodermo ( ) 
- mesodérmicas ( ) lemma=mesodérmico 
- mesodérmico ( ) 
- mesodérmicos ( ) lemma=mesodérmico 
+ mesodérmicas ( ) 
+ mesodérmicos ( ) 
  mesoespiratorio ( ) 
  mesogastrio ( ) 
  mesometrio ( ) 
- mesones ( ) lemma=mesón 
- mesón ( ) 
- mesonéfricos ( ) lemma=mesonéfrico 
- mesonéfrico ( ) 
+ mesones ( ) 
+ mesonéfricos ( ) 
  mesosalpinx ( ) 
- mesosomas ( ) lemma=mesosoma 
- mesosoma ( ) 
+ mesosomas ( ) 
  mesotelioma ( ) 
- mesozoicos ( ) lemma=mesozoico 
- mesozoico ( ) 
+ mesozoicos ( ) 
  message ( ) 
  messagerie ( ) 
  messages ( ) 
- mestiza ( ) lemma=mestizar 
- mestizar ( ) 
+ mestiza ( ) 
  mestizo ( ) 
- mestizos ( ) lemma=mestizo 
- mesura ( ) lemma=mesurar 
+ mestizos ( ) 
+ mesura ( ) 
+ mesurada ( ) 
+ mesuradas ( ) 
+ mesurado ( ) 
+ mesurados ( ) 
  mesurar ( ) 
- mesurada ( ) lemma=mesurar 
- mesuradas ( ) lemma=mesurar 
- mesurado ( ) lemma=mesurar 
- mesurados ( ) lemma=mesurar 
- mesuras ( ) lemma=mesurar 
- mesures ( ) lemma=mesurar 
+ mesuras ( ) 
+ mesures ( ) 
  mesénquima ( ) 
- mesócronas ( ) lemma=mesócrono 
- mesócrono ( ) 
- mesócronos ( ) lemma=mesócrono 
+ mesócronas ( ) 
+ mesócronos ( ) 
+ mesón ( ) 
  meta ( ) 
  meta-información ( ) 
- metabisulfitos ( ) lemma=metabisulfito 
- metabisulfito ( ) 
- metabolice ( ) lemma=metabolizar 
- metabolizar ( ) 
- metabolicen ( ) lemma=metabolizar 
+ metabisulfitos ( ) 
+ metabolice ( ) 
+ metabolicen ( ) 
  metabolismo ( ) 
- metabolismos ( ) lemma=metabolismo 
+ metabolismos ( ) 
  metabolito ( ) 
- metabolitos ( ) lemma=metabolito 
- metaboliza ( ) lemma=metabolizar 
+ metabolitos ( ) 
+ metaboliza ( ) 
  metabolizable ( ) 
  metabolización ( ) 
- metabolizada ( ) lemma=metabolizar 
- metabolizadas ( ) lemma=metabolizar 
- metabolizado ( ) lemma=metabolizar 
- metabolizados ( ) lemma=metabolizar 
+ metabolizada ( ) 
+ metabolizadas ( ) 
+ metabolizado ( ) 
+ metabolizados ( ) 
+ metabolizar ( ) 
  metabolizarla ( ) 
- metabólica ( ) lemma=metabólico 
+ metabólica ( ) 
+ metabólicamente ( ) 
+ metabólicas ( ) 
  metabólico ( ) 
- metabólicamente ( ) lemma=metabólico 
- metabólicas ( ) lemma=metabólico 
- metabólicos ( ) lemma=metabólico 
- metacarpianos ( ) lemma=metacarpiano 
- metacarpiano ( ) 
- metacarpofalángica ( ) lemma=metacarpofalángico 
- metacarpofalángico ( ) 
- metacarpofalángicas ( ) lemma=metacarpofalángico 
+ metabólicos ( ) 
+ metacarpianos ( ) 
+ metacarpofalángica ( ) 
+ metacarpofalángicas ( ) 
  metacolina ( ) 
  metacéntrico ( ) 
  metafase ( ) 
- metafásicos ( ) lemma=metafásico 
- metafásico ( ) 
- metafísica ( ) lemma=metafísico 
+ metafásicos ( ) 
+ metafísica ( ) 
+ metafísicas ( ) 
  metafísico ( ) 
- metafísicas ( ) lemma=metafísico 
- metafórica ( ) lemma=metafórico 
+ metafórica ( ) 
+ metafóricamente ( ) 
  metafórico ( ) 
- metafóricamente ( ) lemma=metafórico 
  metal ( ) 
  metal-níquel ( ) 
- metales ( ) lemma=metal 
+ metales ( ) 
  metalurgia ( ) 
- metalúrgica ( ) lemma=metalúrgico 
+ metalúrgica ( ) 
+ metalúrgicas ( ) 
  metalúrgico ( ) 
- metalúrgicas ( ) lemma=metalúrgico 
- metalúrgicos ( ) lemma=metalúrgico 
+ metalúrgicos ( ) 
  metamerizar ( ) 
  metamorfosis ( ) 
- metamos ( ) lemma=meter 
- meter ( ) 
- metan ( ) lemma=meter 
+ metamos ( ) 
+ metan ( ) 
  metanefrina ( ) 
  metano ( ) 
  metanol ( ) 
- metanse ( ) lemma=meter 
+ metanse ( ) 
  metanígena ( ) 
  metaregla ( ) 
- metas ( ) lemma=meta 
- metastásica ( ) lemma=metastásico 
+ metas ( ) 
+ metastásica ( ) 
+ metastásicas ( ) 
  metastásico ( ) 
- metastásicas ( ) lemma=metastásico 
  metastático ( ) 
  metazoo ( ) 
- mete ( ) lemma=meter 
+ mete ( ) 
  metemalbúmina ( ) 
- metemos ( ) lemma=meter 
- meten ( ) lemma=meter 
+ metemos ( ) 
+ meten ( ) 
  meteorismo ( ) 
- meteorito ( ) lemma=meteoro 
- meteoro ( ) 
- meteoritos ( ) lemma=meteoro 
+ meteorito ( ) 
+ meteoritos ( ) 
  meteorología ( ) 
- meteorológica ( ) lemma=meteorológico 
+ meteorológica ( ) 
+ meteorológicas ( ) 
  meteorológico ( ) 
- meteorológicas ( ) lemma=meteorológico 
- meteorológicos ( ) lemma=meteorológico 
+ meteorológicos ( ) 
  meteorólogo ( ) 
- meteorólogos ( ) lemma=meteorólogo 
- meteremos ( ) lemma=meter 
- meterla ( ) lemma=meter 
- meterle ( ) lemma=meter 
- meterles ( ) lemma=meter 
- meterlo ( ) lemma=meter 
- meterme ( ) lemma=meter 
- meternos ( ) lemma=meter 
- meteros ( ) lemma=meter 
+ meteorólogos ( ) 
+ meter ( ) 
+ meteremos ( ) 
+ meterla ( ) 
+ meterle ( ) 
+ meterles ( ) 
+ meterlo ( ) 
+ meterme ( ) 
+ meternos ( ) 
+ meteros ( ) 
  meterse ( ) 
- meterte ( ) lemma=meter 
- meteré ( ) lemma=meter 
- metería ( ) lemma=meter 
- meteríamos ( ) lemma=meter 
- metes ( ) lemma=meter 
+ meterte ( ) 
+ meteré ( ) 
+ metería ( ) 
+ meteríamos ( ) 
+ metes ( ) 
  metformin ( ) 
  method ( ) 
  methods ( ) 
- meticulosa ( ) lemma=meticuloso 
+ meticulosa ( ) 
+ meticulosamente ( ) 
+ meticulosas ( ) 
  meticuloso ( ) 
- meticulosamente ( ) lemma=meticuloso 
- meticulosas ( ) lemma=meticuloso 
- meticulosos ( ) lemma=meticuloso 
- meticulosísimo ( ) lemma=meticuloso 
- metida ( ) lemma=meter 
- metidas ( ) lemma=meter 
+ meticulosos ( ) 
+ meticulosísimo ( ) 
+ metida ( ) 
+ metidas ( ) 
  metido ( ) 
- metidos ( ) lemma=meter 
- metiendo ( ) lemma=meter 
- metiera ( ) lemma=meter 
- metieran ( ) lemma=meter 
- metieron ( ) lemma=meter 
- metiesen ( ) lemma=meter 
+ metidos ( ) 
+ metiendo ( ) 
+ metiera ( ) 
+ metieran ( ) 
+ metieron ( ) 
+ metiesen ( ) 
  metilación ( ) 
  metilar ( ) 
  metilmercurio ( ) 
  metilo ( ) 
- metilos ( ) lemma=metilo 
+ metilos ( ) 
  metilotrofo ( ) 
  metilprednisolona ( ) 
- metimos ( ) lemma=meter 
+ metimos ( ) 
  metionina ( ) 
- metiste ( ) lemma=meter 
- metiéndolos ( ) lemma=meter 
- metiéndome ( ) lemma=meter 
- metiéndonos ( ) lemma=meter 
- metió ( ) lemma=meter 
- meto ( ) lemma=meter 
+ metiste ( ) 
+ metiéndolos ( ) 
+ metiéndome ( ) 
+ metiéndonos ( ) 
+ metió ( ) 
+ meto ( ) 
  metodista ( ) 
  metodología ( ) 
- metodologías ( ) lemma=metodología 
- metodológica ( ) lemma=metodológico 
+ metodologías ( ) 
+ metodológica ( ) 
+ metodológicas ( ) 
  metodológico ( ) 
- metodológicas ( ) lemma=metodológico 
- metodológicos ( ) lemma=metodológico 
+ metodológicos ( ) 
  metotrexato ( ) 
  metralla ( ) 
  metralleta ( ) 
- metralletas ( ) lemma=metralleta 
+ metralletas ( ) 
  metre ( ) 
  metro ( ) 
  metronidazol ( ) 
- metropolitana ( ) lemma=metropolitano 
+ metropolitana ( ) 
+ metropolitanas ( ) 
  metropolitano ( ) 
- metropolitanas ( ) lemma=metropolitano 
- metropolitanos ( ) lemma=metropolitano 
- metros ( ) lemma=metro 
+ metropolitanos ( ) 
+ metros ( ) 
  metrópoli ( ) 
- metrópolis ( ) lemma=metrópoli 
+ metrópolis ( ) 
  metáfora ( ) 
- metáforas ( ) lemma=metáfora 
- metálica ( ) lemma=metálico 
+ metáforas ( ) 
+ metálica ( ) 
+ metálicas ( ) 
  metálico ( ) 
- metálicas ( ) lemma=metálico 
- metálicos ( ) lemma=metálico 
+ metálicos ( ) 
  metástasis ( ) 
- metí ( ) lemma=meter 
- metía ( ) lemma=meter 
- metíamos ( ) lemma=meter 
- metían ( ) lemma=meter 
- metías ( ) lemma=meter 
+ metí ( ) 
+ metía ( ) 
+ metíamos ( ) 
+ metían ( ) 
+ metías ( ) 
  metílico ( ) 
- metís ( ) lemma=meter 
- metódica ( ) lemma=metódico 
+ metís ( ) 
+ metódica ( ) 
+ metódicamente ( ) 
+ metódicas ( ) 
  metódico ( ) 
- metódicamente ( ) lemma=metódico 
- metódicas ( ) lemma=metódico 
- metódicos ( ) lemma=metódico 
- mexicana ( ) lemma=mexicano 
+ metódicos ( ) 
+ mexicana ( ) 
+ mexicanas ( ) 
  mexicano ( ) 
- mexicanas ( ) lemma=mexicano 
- mexicanos ( ) lemma=mexicano 
+ mexicanos ( ) 
  mexiquense ( ) 
- mexiquenses ( ) lemma=mexiquense 
+ mexiquenses ( ) 
  mezcla ( ) 
- mezclaban ( ) lemma=mezclar 
- mezclar ( ) 
- mezclada ( ) lemma=mezclado 
- mezclado ( ) lemma=mezclar 
- mezcladas ( ) lemma=mezclar 
+ mezclaban ( ) 
+ mezclada ( ) 
+ mezcladas ( ) 
+ mezclado ( ) 
  mezclador ( ) 
- mezclados ( ) lemma=mezclar 
- mezclamos ( ) lemma=mezclar 
- mezclan ( ) lemma=mezclar 
- mezclando ( ) lemma=mezclar 
- mezclaran ( ) lemma=mezclar 
- mezclaras ( ) lemma=mezclar 
- mezclaron ( ) lemma=mezclar 
+ mezclados ( ) 
+ mezclamos ( ) 
+ mezclan ( ) 
+ mezclando ( ) 
+ mezclar ( ) 
+ mezclaran ( ) 
+ mezclaras ( ) 
+ mezclaron ( ) 
  mezclarse ( ) 
- mezclarían ( ) lemma=mezclar 
- mezclas ( ) lemma=mezcla 
- mezclasen ( ) lemma=mezclar 
- mezcle ( ) lemma=mezclar 
- mezclemos ( ) lemma=mezclar 
- mezclen ( ) lemma=mezclar 
- mezclilla ( ) lemma=mezcla 
- mezclo ( ) lemma=mezclar 
- mezclábamos ( ) lemma=mezclar 
- mezclándose ( ) lemma=mezclar 
- mezcló ( ) lemma=mezclar 
- mezcolanzas ( ) lemma=mezcolanza 
- mezcolanza ( ) 
- mezquina ( ) lemma=mezquino 
+ mezclarían ( ) 
+ mezclas ( ) 
+ mezclasen ( ) 
+ mezcle ( ) 
+ mezclemos ( ) 
+ mezclen ( ) 
+ mezclilla ( ) 
+ mezclo ( ) 
+ mezclábamos ( ) 
+ mezclándose ( ) 
+ mezcló ( ) 
+ mezcolanzas ( ) 
+ mezquina ( ) 
+ mezquinas ( ) 
  mezquino ( ) 
- mezquinas ( ) lemma=mezquino 
- mezquinos ( ) lemma=mezquino 
+ mezquinos ( ) 
  mezquita ( ) 
- mezquitas ( ) lemma=mezquita 
+ mezquitas ( ) 
  meñique ( ) 
- meñiques ( ) lemma=meñique 
- mg ( ) lemma=miligramo 
- miligramo ( ) 
- mi ( ) lemma=mi|mío 
- mi|mío ( ) 
+ meñiques ( ) 
+ mg ( ) 
+ mi ( ) 
  mialgia ( ) 
  miastenia ( ) 
  mica ( ) 
  miccional ( ) 
  micción ( ) 
  micelar ( ) 
- micelas ( ) lemma=micela 
- micela ( ) 
+ micelas ( ) 
  micelio ( ) 
- micelios ( ) lemma=micelio 
- michoacana ( ) lemma=michoacano 
+ micelios ( ) 
+ michoacana ( ) 
+ michoacanas ( ) 
  michoacano ( ) 
- michoacanas ( ) lemma=michoacano 
- michoacanos ( ) lemma=michoacano 
+ michoacanos ( ) 
  miconazol ( ) 
- micoplasmas ( ) lemma=micoplasma 
- micoplasma ( ) 
- micorrizas ( ) lemma=micorriza 
- micorriza ( ) 
+ micoplasmas ( ) 
+ micorrizas ( ) 
  micosis ( ) 
  micro ( ) 
  microabsceso ( ) 
@@ -2528,48 +2405,46 @@
  microaneurisma ( ) 
  microangiopático ( ) 
  microaplicación ( ) 
- microbiana ( ) lemma=microbiano 
+ microbiana ( ) 
+ microbianas ( ) 
  microbiano ( ) 
- microbianas ( ) lemma=microbiano 
- microbianos ( ) lemma=microbiano 
+ microbianos ( ) 
  microbicido ( ) 
  microbio ( ) 
  microbiología ( ) 
- microbiológica ( ) lemma=microbiológico 
+ microbiológica ( ) 
+ microbiológicas ( ) 
  microbiológico ( ) 
- microbiológicas ( ) lemma=microbiológico 
- microbiológicos ( ) lemma=microbiológico 
- microbios ( ) lemma=microbio 
+ microbiológicos ( ) 
+ microbios ( ) 
  microbiólogo ( ) 
  microchip ( ) 
- microcircuitos ( ) lemma=microcircuito 
- microcircuito ( ) 
+ microcircuitos ( ) 
  microcirugía ( ) 
  microcomputador ( ) 
- microcomputadora ( ) lemma=microcomputador 
- microcomputadoras ( ) lemma=microcomputador 
- microcomputadores ( ) lemma=microcomputador 
+ microcomputadora ( ) 
+ microcomputadoras ( ) 
+ microcomputadores ( ) 
  microeconomía ( ) 
  microelectrodo ( ) 
  microeliso ( ) 
  microembolismo ( ) 
  microempresa ( ) 
- microempresas ( ) lemma=microempresa 
+ microempresas ( ) 
  microencapsulación ( ) 
  microenzimainmunoensayo ( ) 
  microesfera ( ) 
  microfalo ( ) 
  microfilamento ( ) 
- microfilamentos ( ) lemma=microfilamento 
+ microfilamentos ( ) 
  microfotografía ( ) 
  microfundamento ( ) 
  microfónico ( ) 
- microfónicos ( ) lemma=microfónico 
- microfósiles ( ) lemma=microfósil 
- microfósil ( ) 
+ microfónicos ( ) 
+ microfósiles ( ) 
  microglobulina ( ) 
  micrografía ( ) 
- micrografías ( ) lemma=micrografía 
+ micrografías ( ) 
  microhaz ( ) 
  microhematuria ( ) 
  microheterogeneidad ( ) 
@@ -2580,73 +2455,68 @@
  micromamífero ( ) 
  micromolécula ( ) 
  micrométodo ( ) 
- micrones ( ) lemma=micrón 
- micrón ( ) 
- microondas ( ) lemma=microonda 
- microonda ( ) 
+ micrones ( ) 
+ microondas ( ) 
  microordenador ( ) 
- microordenadores ( ) lemma=microordenador 
+ microordenadores ( ) 
  microorganismo ( ) 
- microorganismos ( ) lemma=microorganismo 
+ microorganismos ( ) 
  micropilo ( ) 
  micropipeta ( ) 
  microplasma ( ) 
  microprocesador ( ) 
- microprocesadores ( ) lemma=microprocesador 
+ microprocesadores ( ) 
  microrganismo ( ) 
  microrradiografía ( ) 
- micros ( ) lemma=micro 
+ micros ( ) 
  microsatélite ( ) 
  microscopia ( ) 
  microscopio ( ) 
- microscopios ( ) lemma=microscopio 
+ microscopios ( ) 
  microscopía ( ) 
- microscópica ( ) lemma=microscópico 
+ microscópica ( ) 
+ microscópicamente ( ) 
+ microscópicas ( ) 
  microscópico ( ) 
- microscópicamente ( ) lemma=microscópico 
- microscópicas ( ) lemma=microscópico 
- microscópicos ( ) lemma=microscópico 
+ microscópicos ( ) 
  microsegundo ( ) 
- microsegundos ( ) lemma=microsegundo 
+ microsegundos ( ) 
  microspórico ( ) 
- microsómicas ( ) lemma=microsómico 
- microsómico ( ) 
+ microsómicas ( ) 
  microteléfono ( ) 
- microteléfonos ( ) lemma=microteléfono 
+ microteléfonos ( ) 
  microtexto ( ) 
  microti ( ) 
  microtiter ( ) 
  microtúbulo ( ) 
- microtúbulos ( ) lemma=microtúbulo 
+ microtúbulos ( ) 
  microvascular ( ) 
  microvascularización ( ) 
  microvasculatura ( ) 
- microvatios ( ) lemma=microvatio 
- microvatio ( ) 
+ microvatios ( ) 
  microvellosidad ( ) 
  microvesicular ( ) 
  micrófono ( ) 
- micrófonos ( ) lemma=micrófono 
+ micrófonos ( ) 
  micrómetro ( ) 
  micólico ( ) 
- micóticas ( ) lemma=micótico 
- micótico ( ) 
- mida ( ) lemma=medir 
- midan ( ) lemma=medir 
- mide ( ) lemma=medir 
- miden ( ) lemma=medir 
- mides ( ) lemma=medir 
- midiendo ( ) lemma=medir 
- midieran ( ) lemma=medir 
- midieron ( ) lemma=medir 
- midiese ( ) lemma=medir 
- midió ( ) lemma=medir 
- mido ( ) lemma=medir 
+ micóticas ( ) 
+ mida ( ) 
+ midan ( ) 
+ mide ( ) 
+ miden ( ) 
+ mides ( ) 
+ midiendo ( ) 
+ midieran ( ) 
+ midieron ( ) 
+ midiese ( ) 
+ midió ( ) 
+ mido ( ) 
  midriático ( ) 
  miedo ( ) 
- miedos ( ) lemma=miedo 
+ miedos ( ) 
  miel ( ) 
- mieles ( ) lemma=miel 
+ mieles ( ) 
  mielina ( ) 
  mielinizar ( ) 
  mielitis ( ) 
@@ -2654,238 +2524,223 @@
  mielográfico ( ) 
  mieloide ( ) 
  mieloma ( ) 
- mielomas ( ) lemma=mieloma 
- mielínicos ( ) lemma=mielínico 
- mielínico ( ) 
+ mielomas ( ) 
+ mielínicos ( ) 
  mielógeno ( ) 
  miembro ( ) 
- miembros ( ) lemma=miembro 
- mienta ( ) lemma=mentar|mentir 
- mentar|mentir ( ) 
- miente ( ) lemma=mentar|mentir 
- mienten ( ) lemma=mentar|mentir 
- mientes ( ) lemma=mentar|mentir 
+ miembros ( ) 
+ mienta ( ) 
+ miente ( ) 
+ mienten ( ) 
+ mientes ( ) 
  miento ( ) 
- mientos ( ) lemma=miento 
+ mientos ( ) 
  mientras ( ) 
- mientras_que ( ) lemma=mientras~que 
  mierda ( ) 
- mierdas ( ) lemma=mierda 
- miga ( ) 
+ mierdas ( ) 
+ miga ( ) lemma=amigo 
  migaja ( ) 
- migajas ( ) lemma=migaja 
- migas ( ) lemma=miga 
- migra ( ) lemma=migrar 
- migrar ( ) 
- migraciones ( ) lemma=migración 
+ migajas ( ) 
+ migas ( ) 
+ migra ( ) lemma=emigrar 
+ migraciones ( ) 
  migración ( ) 
- migrado ( ) lemma=migrar 
- migran ( ) lemma=migrar 
- migrando ( ) lemma=migrar 
- migrante ( ) 
- migraron ( ) lemma=migrar 
- migratoria ( ) lemma=migratorio 
+ migrado ( ) lemma=emigrar 
+ migran ( ) 
+ migrando ( ) 
+ migrante ( ) lemma=emigrante 
+ migraron ( ) 
+ migratoria ( ) 
+ migratorias ( ) 
  migratorio ( ) 
- migratorias ( ) lemma=migratorio 
- migratorios ( ) lemma=migratorio 
- miguitas ( ) lemma=miga 
- mija ( ) lemma=mi_hija 
- mi_hija ( ) 
- mijita ( ) lemma=mi_hija 
- mijito ( ) lemma=mi_hijo 
- mi_hijo ( ) 
- mijo ( ) lemma=mi_hijo 
+ migratorios ( ) 
+ miguitas ( ) 
+ mija ( ) 
+ mijita ( ) 
+ mijito ( ) 
+ mijo ( ) 
  mil ( ) 
  milagro ( ) 
- milagros ( ) lemma=milagro 
- milagrosa ( ) lemma=milagroso 
+ milagros ( ) 
+ milagrosa ( ) 
+ milagrosamente ( ) 
+ milagrosas ( ) 
  milagroso ( ) 
- milagrosamente ( ) lemma=milagroso 
- milagrosas ( ) lemma=milagroso 
- milagrosos ( ) lemma=milagroso 
+ milagrosos ( ) 
  milanesa ( ) 
- milaneses ( ) lemma=milanés 
- milanés ( ) 
+ milaneses ( ) 
  milenio ( ) 
- milenios ( ) lemma=milenio 
- miles ( ) lemma=mil 
+ milenios ( ) 
+ miles ( ) 
  milibar ( ) 
  milicia ( ) 
  miliciano ( ) 
- milicianos ( ) lemma=miliciano 
- milicias ( ) lemma=milicia 
- miligramos ( ) lemma=miligramo 
- mililitros ( ) lemma=mililitro 
- mililitro ( ) 
- milimétrica ( ) lemma=milimétrico 
- milimétrico ( ) 
- milimétricamente ( ) lemma=milimétrico 
+ milicianos ( ) 
+ milicias ( ) 
+ miligramo ( ) 
+ miligramos ( ) 
+ mililitros ( ) 
+ milimétrica ( ) 
+ milimétricamente ( ) 
  milisegundo ( ) 
- milisegundos ( ) lemma=milisegundo 
- milita ( ) lemma=militar 
- militar ( ) 
- militaba ( ) lemma=militar 
- militaban ( ) lemma=militar 
- militado ( ) lemma=militar 
- militamos ( ) lemma=militar 
- militan ( ) lemma=militar 
+ milisegundos ( ) 
+ milita ( ) 
+ militaba ( ) 
+ militaban ( ) 
+ militado ( ) 
+ militamos ( ) 
+ militan ( ) 
  militancia ( ) 
- militancias ( ) lemma=militancia 
- militando ( ) lemma=militar 
+ militancias ( ) 
+ militando ( ) 
  militante ( ) 
- militantes ( ) lemma=militante 
- militares ( ) lemma=militar 
+ militantes ( ) 
+ militar ( ) 
+ militares ( ) 
  militarismo ( ) 
  militarista ( ) 
- militaristas ( ) lemma=militarista 
+ militaristas ( ) 
  militarización ( ) 
- militarizada ( ) lemma=militarizar 
- militarizar ( ) 
- militarizadas ( ) lemma=militarizar 
- militarmente ( ) lemma=militar 
- militaron ( ) lemma=militar 
- milite ( ) lemma=militar 
- milité ( ) lemma=militar 
- militó ( ) lemma=militar 
+ militarizada ( ) 
+ militarizadas ( ) 
+ militarmente ( ) 
+ militaron ( ) 
+ milite ( ) 
+ milité ( ) 
+ militó ( ) 
  milivatio ( ) 
- milivoltios ( ) lemma=milivoltio 
- milivoltio ( ) 
+ milivoltios ( ) 
  milla ( ) 
  millar ( ) 
- millares ( ) lemma=millar 
- millas ( ) lemma=milla 
+ millares ( ) 
+ millas ( ) 
  millo ( ) 
- millonaria ( ) lemma=millonario 
+ millonaria ( ) 
+ millonarias ( ) 
  millonario ( ) 
- millonarias ( ) lemma=millonario 
- millonarios ( ) lemma=millonario 
+ millonarios ( ) 
  millones ( ) 
- millonésima ( ) lemma=millonésimo 
- millonésimo ( ) 
+ millonésima ( ) 
  millón ( ) 
- milésima ( ) lemma=milésimo 
+ milésima ( ) 
+ milésimas ( ) 
  milésimo ( ) 
- milésimas ( ) lemma=milésimo 
  milímetro ( ) 
- milímetros ( ) lemma=milímetro 
- mima ( ) lemma=mimar 
+ milímetros ( ) 
+ mima ( ) 
+ mimaba ( ) 
+ mimada ( ) 
+ mimado ( ) 
+ mimados ( ) 
+ mimando ( ) 
  mimar ( ) 
- mimaba ( ) lemma=mimar 
- mimada ( ) lemma=mimar 
- mimado ( ) lemma=mimar 
- mimados ( ) lemma=mimar 
- mimando ( ) lemma=mimar 
- mimas ( ) lemma=mimar 
+ mimas ( ) 
  mimbre ( ) 
- mimbres ( ) lemma=mimbre 
+ mimbres ( ) 
  mimetismo ( ) 
- mimo ( ) lemma=mimar 
- min ( ) lemma=minuto 
- minuto ( ) 
- mina ( ) 
- minaba ( ) lemma=minar 
+ mimo ( ) 
+ min ( ) lemma=amina 
+ mina ( ) lemma=amina 
+ minaba ( ) 
+ minada ( ) 
+ minadas ( ) 
+ minado ( ) 
+ minados ( ) 
+ minan ( ) 
+ minando ( ) 
  minar ( ) 
- minada ( ) lemma=minar 
- minadas ( ) lemma=minar 
- minado ( ) lemma=minar 
- minados ( ) lemma=minar 
- minan ( ) lemma=minar 
- minando ( ) lemma=minar 
- minaremos ( ) lemma=minar 
- minaron ( ) lemma=minar 
- minará ( ) lemma=minar 
- minarían ( ) lemma=minar 
- minas ( ) lemma=mina 
- mine ( ) lemma=minar 
- minera ( ) lemma=minero 
- minero ( ) 
+ minaremos ( ) 
+ minaron ( ) 
+ minará ( ) 
+ minarían ( ) 
+ minas ( ) 
+ mine ( ) 
+ minera ( ) 
  mineral ( ) 
- minerales ( ) lemma=mineral 
- mineraliza ( ) lemma=mineralizar 
- mineralizar ( ) 
+ minerales ( ) 
+ mineraliza ( ) 
  mineralización ( ) 
- mineralizada ( ) lemma=mineralizar 
- mineralizado ( ) lemma=mineralizar 
- mineras ( ) lemma=minero 
+ mineralizada ( ) 
+ mineralizado ( ) 
+ mineralizar ( ) 
+ mineras ( ) 
+ minero ( ) 
  mineromedicinale ( ) 
- mineros ( ) lemma=minero 
+ mineros ( ) 
  minería ( ) 
  miniatura ( ) 
  miniaturización ( ) 
  miniaturizar ( ) 
  minicomputador ( ) 
- minicomputadoras ( ) lemma=minicomputador 
+ minicomputadoras ( ) 
  minicromosoma ( ) 
  minimalización ( ) 
- minimice ( ) lemma=minimizar 
- minimizar ( ) 
- minimicen ( ) lemma=minimizar 
- minimiosinas ( ) lemma=minimiosina 
- minimiosina ( ) 
- minimiza ( ) lemma=minimizar 
+ minimice ( ) 
+ minimicen ( ) 
+ minimiosinas ( ) 
+ minimiza ( ) 
  minimización ( ) 
- minimizada ( ) lemma=minimizar 
- minimizadas ( ) lemma=minimizar 
- minimizado ( ) lemma=minimizar 
- minimizados ( ) lemma=minimizar 
- minimizan ( ) lemma=minimizar 
- minimizando ( ) lemma=minimizar 
- minimizara ( ) lemma=minimizar 
- minimizarlo ( ) lemma=minimizar 
- minimizarse ( ) lemma=minimizar 
- minimizó ( ) lemma=minimizar 
+ minimizada ( ) 
+ minimizadas ( ) 
+ minimizado ( ) 
+ minimizados ( ) 
+ minimizan ( ) 
+ minimizando ( ) 
+ minimizar ( ) 
+ minimizara ( ) 
+ minimizarlo ( ) 
+ minimizarse ( ) 
+ minimizó ( ) 
  miniordenador ( ) 
- miniordenadores ( ) lemma=miniordenador 
+ miniordenadores ( ) 
  minisatélite ( ) 
  miniseries ( ) 
  ministerial ( ) 
- ministeriales ( ) lemma=ministerial 
+ ministeriales ( ) 
  ministerio ( ) 
- ministerios ( ) lemma=ministerio 
- ministra ( ) lemma=ministro 
+ ministerios ( ) 
+ ministra ( ) 
+ ministras ( ) 
  ministro ( ) 
- ministras ( ) lemma=ministro 
- ministros ( ) lemma=ministro 
- minor ( ) 
- minoraciones ( ) lemma=minoración 
- minoración ( ) 
+ ministros ( ) 
+ minor ( ) lemma=aminorar 
+ minoraciones ( ) 
  minorista ( ) 
- minoristas ( ) lemma=minorista 
- minoritaria ( ) lemma=minoritario 
+ minoristas ( ) 
+ minoritaria ( ) 
+ minoritariamente ( ) 
+ minoritarias ( ) 
  minoritario ( ) 
- minoritariamente ( ) lemma=minoritario 
- minoritarias ( ) lemma=minoritario 
- minoritarios ( ) lemma=minoritario 
+ minoritarios ( ) 
  minoría ( ) 
- minorías ( ) lemma=minoría 
- mintiendo ( ) lemma=mentir 
- mintieron ( ) lemma=mentir 
- mintió ( ) lemma=mentir 
- minuciosa ( ) lemma=minucioso 
+ minorías ( ) 
+ mintiendo ( ) 
+ mintieron ( ) 
+ mintió ( ) 
+ minuciosa ( ) 
+ minuciosamente ( ) 
+ minuciosas ( ) 
  minucioso ( ) 
- minuciosamente ( ) lemma=minucioso 
- minuciosas ( ) lemma=minucioso 
- minuciosos ( ) lemma=minucioso 
- minusvalorarse ( ) lemma=minusvalorar 
- minusvalorar ( ) 
+ minuciosos ( ) 
+ minusvalorarse ( ) 
  minusvalía ( ) 
  minusválido ( ) 
- minusválidos ( ) lemma=minusválido 
- minuta ( ) lemma=minutar 
- minutar ( ) 
+ minusválidos ( ) 
+ minuta ( ) 
  minutaje ( ) 
- minute ( ) lemma=minutar 
- minutitos ( ) lemma=minuto 
- minutos ( ) lemma=minuto 
- minúscula ( ) lemma=minúsculo 
+ minutar ( ) 
+ minute ( ) 
+ minutitos ( ) 
+ minuto ( ) 
+ minutos ( ) 
+ minúscula ( ) 
+ minúsculas ( ) 
  minúsculo ( ) 
- minúsculas ( ) lemma=minúsculo 
- minúsculos ( ) lemma=minúsculo 
- mio ( ) lemma=mío 
- mío ( ) 
+ minúsculos ( ) 
+ mio ( ) 
  miocardio ( ) 
  miocardiopatía ( ) 
- miocardiopatías ( ) lemma=miocardiopatía 
+ miocardiopatías ( ) 
  miocardiopático ( ) 
  miocarditis ( ) 
  miocardítico ( ) 
@@ -2895,10 +2750,8 @@
  mioeléctrico ( ) 
  mioentérico ( ) 
  miofibra ( ) 
- miofibrillas ( ) lemma=miofibrilla 
- miofibrilla ( ) 
- miofilamentos ( ) lemma=miofilamento 
- miofilamento ( ) 
+ miofibrillas ( ) 
+ miofilamentos ( ) 
  miofosforilasa ( ) 
  mioglobina ( ) 
  mioglobinuria ( ) 
@@ -2912,483 +2765,465 @@
  miosina ( ) 
  miotoma ( ) 
  miotónico ( ) 
- mira ( ) lemma=mirar 
- mirar ( ) 
- miraba ( ) lemma=mirar 
- miraban ( ) lemma=mirar 
- mirabas ( ) lemma=mirar 
- mirad ( ) lemma=mirar 
+ mira ( ) 
+ miraba ( ) 
+ miraban ( ) 
+ mirabas ( ) 
+ mirad ( ) 
  mirada ( ) 
- miradas ( ) lemma=mirada 
- miradita ( ) lemma=mirada 
- miradle ( ) lemma=mirar 
- miradme ( ) lemma=mirar 
- mirado ( ) lemma=mirar 
+ miradas ( ) 
+ miradita ( ) 
+ miradle ( ) 
+ miradme ( ) 
+ mirado ( ) 
  mirador ( ) 
- mirados ( ) lemma=mirar 
+ mirados ( ) 
  miradómetro ( ) 
- miramos ( ) lemma=mirar 
- miran ( ) lemma=mirar 
- mirando ( ) lemma=mirar 
- mirara ( ) lemma=mirar 
- miraran ( ) lemma=mirar 
- miraremos ( ) lemma=mirar 
- mirarla ( ) lemma=mirar 
- mirarle ( ) lemma=mirar 
- mirarlo ( ) lemma=mirar 
- mirarme ( ) lemma=mirar 
- mirarnos ( ) lemma=mirar 
- miraron ( ) lemma=mirar 
+ miramos ( ) 
+ miran ( ) 
+ mirando ( ) 
+ mirar ( ) 
+ mirara ( ) 
+ miraran ( ) 
+ miraremos ( ) 
+ mirarla ( ) 
+ mirarle ( ) 
+ mirarlo ( ) 
+ mirarme ( ) 
+ mirarnos ( ) 
+ miraron ( ) 
  mirarse ( ) 
- mirarte ( ) lemma=mirar 
- mirará ( ) lemma=mirar 
- mirarán ( ) lemma=mirar 
- miraría ( ) lemma=mirar 
- mirarían ( ) lemma=mirar 
- miras ( ) lemma=mira 
- mirase ( ) lemma=mirar 
+ mirarte ( ) 
+ mirará ( ) 
+ mirarán ( ) 
+ miraría ( ) 
+ mirarían ( ) 
+ miras ( ) 
+ mirase ( ) 
  mirasol ( ) 
  mire ( ) 
- miremos ( ) lemma=mirar 
- miren ( ) lemma=mirar 
- mires ( ) lemma=mirar 
+ miremos ( ) 
+ miren ( ) 
+ mires ( ) 
  miringitis ( ) 
  mirlo ( ) 
- miro ( ) lemma=mirar 
- mirá ( ) lemma=mirar 
- mirábamos ( ) lemma=mirar 
- miráis ( ) lemma=mirar 
- mirándola ( ) lemma=mirar 
- mirándolas ( ) lemma=mirar 
- mirándole ( ) lemma=mirar 
- mirándome ( ) lemma=mirar 
- mirándonos ( ) lemma=mirar 
- mirándose ( ) lemma=mirar 
- mirás ( ) lemma=mirar 
- mirásemos ( ) lemma=mirar 
- miré ( ) lemma=mirar 
- miréis ( ) lemma=mirar 
- mirémonos ( ) lemma=mirar 
- miró ( ) lemma=mirar 
- mis ( ) lemma=mi 
+ miro ( ) 
+ mirá ( ) 
+ mirábamos ( ) 
+ miráis ( ) 
+ mirándola ( ) 
+ mirándolas ( ) 
+ mirándole ( ) 
+ mirándome ( ) 
+ mirándonos ( ) 
+ mirándose ( ) 
+ mirás ( ) 
+ mirásemos ( ) 
+ miré ( ) 
+ miréis ( ) 
+ mirémonos ( ) 
+ miró ( ) 
+ mis ( ) lemma=omiso 
  misa ( ) 
- misas ( ) lemma=misa 
+ misas ( ) 
  misc ( ) 
  mise ( ) 
  miserable ( ) 
- miserablemente ( ) lemma=miserable 
- miserables ( ) lemma=miserable 
+ miserablemente ( ) 
+ miserables ( ) 
  miseria ( ) 
- miserias ( ) lemma=miseria 
+ miserias ( ) 
  misil ( ) 
- misiles ( ) lemma=misil 
+ misiles ( ) 
  misilístico ( ) 
- misionera ( ) lemma=misionero 
+ misionera ( ) 
  misionero ( ) 
- misioneros ( ) lemma=misionero 
- misiones ( ) lemma=misión 
+ misioneros ( ) 
+ misiones ( ) 
+ misiva ( ) 
+ misivas ( ) 
  misión ( ) 
- misiva ( ) lemma=misivo 
- misivo ( ) 
- misivas ( ) lemma=misivo 
- misma ( ) lemma=mismo 
- mismo ( ) 
- mismamente ( ) lemma=mismo 
- mismas ( ) lemma=mismo 
+ misma ( ) 
+ mismamente ( ) 
+ mismas ( ) 
  mismatching ( ) 
  mismisimo ( ) 
- mismito ( ) lemma=mismo 
- mismos ( ) lemma=mismo 
- mismísima ( ) lemma=mismo 
- mismísimas ( ) lemma=mismo 
- mismísimo ( ) lemma=mismo 
- mismísimos ( ) lemma=mismo 
+ mismito ( ) 
+ mismo ( ) 
+ mismos ( ) 
+ mismísima ( ) 
+ mismísimas ( ) 
+ mismísimo ( ) 
+ mismísimos ( ) 
  miss ( ) 
- misses ( ) lemma=miss 
+ misses ( ) 
  mister ( ) 
  misterio ( ) 
- misterios ( ) lemma=misterio 
- misteriosa ( ) lemma=misterioso 
+ misterios ( ) 
+ misteriosa ( ) 
+ misteriosamente ( ) 
+ misteriosas ( ) 
  misterioso ( ) 
- misteriosamente ( ) lemma=misterioso 
- misteriosas ( ) lemma=misterioso 
- misteriosos ( ) lemma=misterioso 
- mitad ( ) 
- mitades ( ) lemma=mitad 
- mitiga ( ) lemma=mitigar 
+ misteriosos ( ) 
+ mitad ( ) lemma=imitar 
+ mitades ( ) 
+ mitiga ( ) 
+ mitigaba ( ) 
+ mitigada ( ) 
+ mitigadas ( ) 
+ mitigado ( ) 
+ mitigan ( ) 
  mitigar ( ) 
- mitigaba ( ) lemma=mitigar 
- mitigada ( ) lemma=mitigar 
- mitigadas ( ) lemma=mitigar 
- mitigado ( ) lemma=mitigar 
- mitigan ( ) lemma=mitigar 
- mitigará ( ) lemma=mitigar 
- mitigarían ( ) lemma=mitigar 
- mitigue ( ) lemma=mitigar 
- mitiguen ( ) lemma=mitigar 
+ mitigará ( ) 
+ mitigarían ( ) 
+ mitigue ( ) 
+ mitiguen ( ) 
  mitin ( ) 
  mito ( ) 
  mitocondria ( ) 
  mitocondrial ( ) 
- mitocondriales ( ) lemma=mitocondrial 
- mitocondrias ( ) lemma=mitocondria 
+ mitocondriales ( ) 
+ mitocondrias ( ) 
  mitogénico ( ) 
- mitologica ( ) lemma=mitológica 
- mitológica ( ) 
+ mitologica ( ) 
  mitología ( ) 
- mitologías ( ) lemma=mitología 
- mitos ( ) lemma=mito 
+ mitologías ( ) 
+ mitos ( ) 
  mitosis ( ) 
  mitral ( ) 
- mitrales ( ) lemma=mitral 
- mitras ( ) lemma=mitra 
- mitra ( ) 
- mitótica ( ) lemma=mitótico 
+ mitrales ( ) 
+ mitras ( ) 
+ mitótica ( ) 
  mitótico ( ) 
- mitóticos ( ) lemma=mitótico 
+ mitóticos ( ) 
  mixedematoso ( ) 
- mixta ( ) lemma=mixto 
- mixto ( ) 
- mixtas ( ) lemma=mixto 
+ mixta ( ) 
+ mixtas ( ) 
  mixte ( ) 
- mixtos ( ) lemma=mixto 
+ mixto ( ) 
+ mixtos ( ) 
  miércoles ( ) 
- miñona ( ) lemma=miñón 
- miñón ( ) 
+ miñona ( ) 
  miógeno ( ) 
  miógrafo ( ) 
- ml ( ) lemma=mililitro 
+ ml ( ) 
  mm ( ) 
  mmm ( ) 
- mobiliaria ( ) lemma=mobiliario 
+ mobiliaria ( ) 
  mobiliario ( ) 
- mobiliarios ( ) lemma=mobiliario 
- mocha ( ) lemma=mochar 
- mochar ( ) 
- mochaste ( ) lemma=mochar 
+ mobiliarios ( ) 
+ mocha ( ) 
+ mochaste ( ) 
  mochila ( ) 
- mochilas ( ) lemma=mochila 
- mochita ( ) lemma=mocha 
+ mochilas ( ) 
+ mochita ( ) 
  mochuelo ( ) 
- mociones ( ) lemma=moción 
+ mociones ( ) 
  moción ( ) 
  moco ( ) 
- mocosa ( ) lemma=mocoso 
+ mocosa ( ) 
  mocoso ( ) 
  mod ( ) 
  moda ( ) 
  modal ( ) 
  modale ( ) 
- modales ( ) lemma=modal 
+ modales ( ) 
  modalidad ( ) 
- modalidades ( ) lemma=modalidad 
+ modalidades ( ) 
  modalizar ( ) 
- modas ( ) lemma=moda 
- mode ( ) 
- modela ( ) lemma=modelar 
- modelar ( ) 
+ modas ( ) 
+ mode ( ) lemma=xmodem 
+ modela ( ) 
  modelación ( ) 
- modelada ( ) lemma=modelar 
- modelado ( ) lemma=modelar 
- modelados ( ) lemma=modelar 
- modelan ( ) lemma=modelar 
- modelaron ( ) lemma=modelar 
- modelarse ( ) lemma=modelar 
- modele ( ) lemma=modelar 
- modeliza ( ) lemma=modelizar 
- modelizar ( ) 
+ modelada ( ) 
+ modelado ( ) 
+ modelados ( ) 
+ modelan ( ) 
+ modelar ( ) 
+ modelaron ( ) 
+ modelarse ( ) 
+ modele ( ) 
+ modeliza ( ) 
  modelización ( ) 
- modelizando ( ) lemma=modelizar 
+ modelizando ( ) 
+ modelizar ( ) 
  modelo ( ) 
  modelo-tipo ( ) 
- modelos ( ) lemma=modelo 
+ modelos ( ) 
  modem ( ) 
- modems ( ) lemma=modem 
- modera ( ) lemma=moderar 
- moderar ( ) 
+ modems ( ) 
+ modera ( ) 
  moderación ( ) 
- moderada ( ) lemma=moderar 
+ moderada ( ) 
  moderada-severar ( ) 
- moderadamente ( ) lemma=moderado 
- moderado ( ) lemma=moderar 
- moderadas ( ) lemma=moderar 
+ moderadamente ( ) 
+ moderadas ( ) 
+ moderado ( ) 
  moderador ( ) 
- moderadores ( ) lemma=moderador 
- moderados ( ) lemma=moderar 
- moderan ( ) lemma=moderar 
- moderando ( ) lemma=moderar 
- moderaron ( ) lemma=moderar 
+ moderadores ( ) 
+ moderados ( ) 
+ moderan ( ) 
+ moderando ( ) 
+ moderar ( ) 
+ moderaron ( ) 
  moderarse ( ) 
- moderasen ( ) lemma=moderar 
- modere ( ) lemma=moderar 
- moderen ( ) lemma=moderar 
- moderna ( ) lemma=moderno 
- moderno ( ) 
- modernas ( ) lemma=moderno 
- modernice ( ) lemma=modernizar 
- modernizar ( ) 
- modernicen ( ) lemma=modernizar 
+ moderasen ( ) 
+ modere ( ) 
+ moderen ( ) 
+ moderna ( ) 
+ modernas ( ) 
+ modernice ( ) 
+ modernicen ( ) 
  modernidad ( ) 
- modernitas ( ) lemma=moderno 
- moderniza ( ) lemma=modernizar 
- modernizaciones ( ) lemma=modernización 
+ modernitas ( ) 
+ moderniza ( ) 
+ modernizaciones ( ) 
  modernización ( ) 
- modernizada ( ) lemma=modernizar 
- modernizadas ( ) lemma=modernizar 
- modernizado ( ) lemma=modernizar 
- modernizados ( ) lemma=modernizar 
- modernizan ( ) lemma=modernizar 
- modernizando ( ) lemma=modernizar 
- modernizaran ( ) lemma=modernizar 
+ modernizada ( ) 
+ modernizadas ( ) 
+ modernizado ( ) 
+ modernizados ( ) 
+ modernizan ( ) 
+ modernizando ( ) 
+ modernizar ( ) 
+ modernizaran ( ) 
  modernizarse ( ) 
- modernizándose ( ) lemma=modernizarse 
- modernizáramos ( ) lemma=modernizar 
- modernizó ( ) lemma=modernizar 
- modernos ( ) lemma=moderno 
- modernísimas ( ) lemma=moderno 
- modernísimo ( ) lemma=moderno 
- modernísimos ( ) lemma=moderno 
- moderó ( ) lemma=moderar 
- modesta ( ) lemma=modesto 
- modesto ( ) 
- modestamente ( ) lemma=modesto 
- modestas ( ) lemma=modesto 
+ modernizándose ( ) 
+ modernizáramos ( ) 
+ modernizó ( ) 
+ moderno ( ) 
+ modernos ( ) 
+ modernísimas ( ) 
+ modernísimo ( ) 
+ modernísimos ( ) 
+ moderó ( ) 
+ modesta ( ) 
+ modestamente ( ) 
+ modestas ( ) 
  modestia ( ) 
- modestos ( ) lemma=modesto 
- modestísima ( ) lemma=modesto 
- modestísimas ( ) lemma=modesto 
- modestísimo ( ) lemma=modesto 
- modifica ( ) lemma=modificar 
- modificar ( ) 
- modificaba ( ) lemma=modificar 
- modificaban ( ) lemma=modificar 
- modificaciones ( ) lemma=modificación 
+ modesto ( ) 
+ modestos ( ) 
+ modestísima ( ) 
+ modestísimas ( ) 
+ modestísimo ( ) 
+ modifica ( ) 
+ modificaba ( ) 
+ modificaban ( ) 
+ modificaciones ( ) 
  modificación ( ) 
- modificada ( ) lemma=modificar 
- modificadas ( ) lemma=modificar 
- modificado ( ) lemma=modificar 
+ modificada ( ) 
+ modificadas ( ) 
+ modificado ( ) 
  modificador ( ) 
- modificados ( ) lemma=modificar 
- modificamos ( ) lemma=modificar 
- modifican ( ) lemma=modificar 
- modificando ( ) lemma=modificar 
- modificara ( ) lemma=modificar 
- modificaran ( ) lemma=modificar 
- modificaremos ( ) lemma=modificar 
- modificarla ( ) lemma=modificar 
- modificarlas ( ) lemma=modificar 
- modificarlo ( ) lemma=modificar 
- modificarlos ( ) lemma=modificar 
- modificaron ( ) lemma=modificar 
+ modificados ( ) 
+ modificamos ( ) 
+ modifican ( ) 
+ modificando ( ) 
+ modificar ( ) 
+ modificara ( ) 
+ modificaran ( ) 
+ modificaremos ( ) 
+ modificarla ( ) 
+ modificarlas ( ) 
+ modificarlo ( ) 
+ modificarlos ( ) 
+ modificaron ( ) 
  modificarse ( ) 
- modificará ( ) lemma=modificar 
- modificarán ( ) lemma=modificar 
- modificaré ( ) lemma=modificar 
- modificaría ( ) lemma=modificar 
- modificarían ( ) lemma=modificar 
- modificase ( ) lemma=modificar 
+ modificará ( ) 
+ modificarán ( ) 
+ modificaré ( ) 
+ modificaría ( ) 
+ modificarían ( ) 
+ modificase ( ) 
  modification ( ) 
- modifico ( ) lemma=modificar 
- modificándola ( ) lemma=modificar 
- modificándolas ( ) lemma=modificar 
- modificándolo ( ) lemma=modificar 
- modificándolos ( ) lemma=modificar 
- modificándose ( ) lemma=modificarse 
- modificáramos ( ) lemma=modificar 
- modificásemos ( ) lemma=modificar 
- modificó ( ) lemma=modificar 
- modifique ( ) lemma=modificar 
- modifiquemos ( ) lemma=modificar 
- modifiquen ( ) lemma=modificar 
- modifiquéis ( ) lemma=modificar 
- modifíquese ( ) lemma=modificar 
+ modifico ( ) 
+ modificándola ( ) 
+ modificándolas ( ) 
+ modificándolo ( ) 
+ modificándolos ( ) 
+ modificándose ( ) 
+ modificáramos ( ) 
+ modificásemos ( ) 
+ modificó ( ) 
+ modifique ( ) 
+ modifiquemos ( ) 
+ modifiquen ( ) 
+ modifiquéis ( ) 
+ modifíquese ( ) 
  modo ( ) 
- modorra ( ) lemma=modorrar 
- modorrar ( ) 
- modorras ( ) lemma=modorrar 
- modorro ( ) lemma=modorrar 
- modos ( ) lemma=modo 
- modosita ( ) lemma=modoso 
+ modorra ( ) 
+ modorras ( ) 
+ modorro ( ) 
+ modos ( ) 
+ modosita ( ) 
  modoso ( ) 
- modula ( ) lemma=modular 
- modular ( ) 
- modulaciones ( ) lemma=modulación 
+ modula ( ) 
+ modulaciones ( ) 
  modulación ( ) 
- modulada ( ) lemma=modulado 
- modulado ( ) lemma=modular 
- moduladas ( ) lemma=modular 
+ modulada ( ) 
+ moduladas ( ) 
+ modulado ( ) 
  modulador ( ) 
- moduladora ( ) lemma=modulador 
- moduladores ( ) lemma=modulador 
- modulados ( ) lemma=modulado 
- modulan ( ) lemma=modular 
- modulando ( ) lemma=modular 
- modulares ( ) lemma=modular 
+ moduladora ( ) 
+ moduladores ( ) 
+ modulados ( ) 
+ modulan ( ) 
+ modulando ( ) 
+ modular ( ) 
+ modulares ( ) 
  modularidad ( ) 
  modularmente ( ) 
- modulará ( ) lemma=modular 
- modularían ( ) lemma=modular 
+ modulará ( ) 
+ modularían ( ) 
  modulated ( ) 
  modulateur ( ) 
  modulation ( ) 
  modulator ( ) 
- module ( ) lemma=modular 
- modulen ( ) lemma=modular 
- moduló ( ) lemma=modular 
+ module ( ) 
+ modulen ( ) 
+ moduló ( ) 
  mofa ( ) 
  mogollón ( ) 
- moja ( ) lemma=mojar 
+ moja ( ) 
+ mojaban ( ) 
+ mojada ( ) 
+ mojadas ( ) 
+ mojado ( ) 
+ mojados ( ) 
+ mojando ( ) 
  mojar ( ) 
- mojaban ( ) lemma=mojar 
- mojada ( ) lemma=mojar 
- mojadas ( ) lemma=mojado 
- mojado ( ) lemma=mojar 
- mojados ( ) lemma=mojar 
- mojando ( ) lemma=mojar 
- mojarnos ( ) lemma=mojar 
+ mojarnos ( ) 
  mojarse ( ) 
- moje ( ) lemma=mojar 
- mojen ( ) lemma=mojar 
- mojones ( ) lemma=mojón 
- mojón ( ) 
- mojé ( ) lemma=mojar 
+ moje ( ) 
+ mojen ( ) 
+ mojones ( ) 
+ mojé ( ) 
  mol ( ) 
  mol-gramo ( ) 
  molar ( ) 
  molde ( ) 
- moldeables ( ) lemma=moldeable 
- moldeable ( ) 
- moldes ( ) lemma=moldar 
- moldar ( ) 
- molduras ( ) lemma=moldura 
- moldura ( ) 
+ moldeables ( ) 
+ moldes ( ) 
+ molduras ( ) 
  mole ( ) 
  molecular ( ) 
- moleculares ( ) lemma=molecular 
+ moleculares ( ) 
  molecularmente ( ) 
- moles ( ) lemma=mole 
- molesta ( ) lemma=molesto 
- molesto ( ) 
- molestaba ( ) lemma=molestar 
+ moles ( ) 
+ molesta ( ) 
+ molestaba ( ) 
+ molestado ( ) 
+ molestados ( ) 
+ molestamos ( ) 
+ molestan ( ) 
+ molestando ( ) 
  molestar ( ) 
- molestado ( ) lemma=molestar 
- molestados ( ) lemma=molestar 
- molestamos ( ) lemma=molestar 
- molestan ( ) lemma=molestar 
- molestando ( ) lemma=molestar 
- molestarle ( ) lemma=molestar 
- molestarles ( ) lemma=molestar 
- molestarlo ( ) lemma=molestar 
- molestarnos ( ) lemma=molestar 
- molestaron ( ) lemma=molestar 
- molestará ( ) lemma=molestar 
- molestaría ( ) lemma=molestar 
- molestas ( ) lemma=molesto 
- molestase ( ) lemma=molestar 
- moleste ( ) lemma=molestar 
- molesten ( ) lemma=molestar 
- molestes ( ) lemma=molestar 
+ molestarle ( ) 
+ molestarles ( ) 
+ molestarlo ( ) 
+ molestarnos ( ) 
+ molestaron ( ) 
+ molestará ( ) 
+ molestaría ( ) 
+ molestas ( ) 
+ molestase ( ) 
+ moleste ( ) 
+ molesten ( ) 
+ molestes ( ) 
  molestia ( ) 
- molestias ( ) lemma=molestia 
- molestos ( ) lemma=molesto 
- molesté ( ) lemma=molestar 
- molestó ( ) lemma=molestar 
+ molestias ( ) 
+ molesto ( ) 
+ molestos ( ) 
+ molesté ( ) 
+ molestó ( ) 
  molibdato ( ) 
  molibdofosfórico ( ) 
- molida ( ) lemma=moler 
- moler ( ) 
- molido ( ) lemma=moler 
- molienda ( ) lemma=moler 
- moliendo ( ) lemma=moler 
- molinillo ( ) lemma=molino 
+ molida ( ) 
+ molido ( ) 
+ molienda ( ) 
+ moliendo ( ) 
+ molinillo ( ) 
  molino ( ) 
- molinos ( ) lemma=molino 
+ molinos ( ) 
  molusco ( ) 
- moluscos ( ) lemma=molusco 
+ moluscos ( ) 
  molécula ( ) 
- moléculas ( ) lemma=molécula 
+ moléculas ( ) 
  moment ( ) 
- momentico ( ) lemma=momento 
+ momentico ( ) 
+ momentito ( ) 
  momento ( ) 
- momentito ( ) lemma=momento 
- momentos ( ) lemma=momento 
+ momentos ( ) 
  moments ( ) 
- momentánea ( ) lemma=momentáneo 
+ momentánea ( ) 
+ momentáneamente ( ) 
+ momentáneas ( ) 
  momentáneo ( ) 
- momentáneamente ( ) lemma=momentáneo 
- momentáneas ( ) lemma=momentáneo 
- momentáneos ( ) lemma=momentáneo 
+ momentáneos ( ) 
  momia ( ) 
- momias ( ) lemma=momia 
- momificada ( ) lemma=momificar 
- momificar ( ) 
- momificado ( ) lemma=momificar 
- mona ( ) lemma=mono 
- mono ( ) 
+ momias ( ) 
+ momificada ( ) 
+ momificado ( ) 
+ mona ( ) 
  monarca ( ) 
- monarcas ( ) lemma=monarca 
+ monarcas ( ) 
  monarquía ( ) 
- monarquías ( ) lemma=monarquía 
- monas ( ) lemma=mono 
+ monarquías ( ) 
+ monas ( ) 
  monasterio ( ) 
- monasterios ( ) lemma=monasterio 
- monda ( ) lemma=mondar 
- mondar ( ) 
- monde ( ) lemma=mondar 
- mondes ( ) lemma=mondar 
- mondo ( ) lemma=mondar 
+ monasterios ( ) 
+ monda ( ) 
+ monde ( ) 
+ mondes ( ) 
+ mondo ( ) 
  moneda ( ) 
- monedas ( ) lemma=moneda 
+ monedas ( ) 
  monedero ( ) 
- monederos ( ) lemma=monedero 
- monedita ( ) lemma=moneda 
- moneditas ( ) lemma=moneda 
- monetaria ( ) lemma=monetario 
+ monederos ( ) 
+ monedita ( ) 
+ moneditas ( ) 
+ monetaria ( ) 
+ monetariamente ( ) 
+ monetarias ( ) 
  monetario ( ) 
- monetariamente ( ) lemma=monetario 
- monetarias ( ) lemma=monetario 
- monetarios ( ) lemma=monetario 
- mongoles ( ) lemma=mongol 
- mongol ( ) 
+ monetarios ( ) 
+ mongoles ( ) 
  mongolismo ( ) 
  mongólico ( ) 
- mongólicos ( ) lemma=mongólico 
+ mongólicos ( ) 
  monitor ( ) 
- monitoreo ( ) lemma=monitorear 
- monitorear ( ) 
- monitores ( ) lemma=monitor 
- monitorice ( ) lemma=monitorizar 
- monitorizar ( ) 
- monitoriza ( ) lemma=monitorizar 
+ monitoreo ( ) 
+ monitores ( ) 
+ monitorice ( ) 
+ monitoriza ( ) 
  monitorización ( ) 
- monitorizada ( ) lemma=monitorizar 
- monitorizadas ( ) lemma=monitorizar 
- monitorizado ( ) lemma=monitorizar 
- monitorizando ( ) lemma=monitorizar 
- monja ( ) lemma=monje 
+ monitorizada ( ) 
+ monitorizadas ( ) 
+ monitorizado ( ) 
+ monitorizando ( ) 
+ monitorizar ( ) 
+ monja ( ) 
+ monjas ( ) 
  monje ( ) 
- monjas ( ) lemma=monje 
- monjes ( ) lemma=monje 
+ monjes ( ) 
+ mono ( ) 
  monoartritis ( ) 
  monocanal ( ) 
  monocapa ( ) 
  monocarbonado ( ) 
  monocarboxílico ( ) 
- monocigóticos ( ) lemma=monocigótico 
- monocigótico ( ) 
+ monocigóticos ( ) 
  monocito ( ) 
- monocitos ( ) lemma=monocito 
+ monocitos ( ) 
  monoclonal ( ) 
- monoclonales ( ) lemma=monoclonal 
+ monoclonales ( ) 
  monocolor ( ) 
  monocomponente ( ) 
- monocroma ( ) lemma=monocromo 
- monocromo ( ) 
+ monocroma ( ) 
  monocromador ( ) 
- monocromas ( ) lemma=monocromo 
+ monocromas ( ) 
  monocromosómico ( ) 
- monocromática ( ) lemma=monocromático 
- monocromático ( ) 
+ monocromática ( ) 
  monodocumento ( ) 
  monoenlace ( ) 
  monofosfato ( ) 
@@ -3398,30 +3233,26 @@
  monohíbrido ( ) 
  monoico ( ) 
  monolito ( ) 
- monolítica ( ) lemma=monolítico 
- monolítico ( ) 
+ monolítica ( ) 
  monomérico ( ) 
  mononeuritis ( ) 
  mononeuropatía ( ) 
- mononucleadas ( ) lemma=mononucleado 
- mononucleado ( ) 
+ mononucleadas ( ) 
  mononuclear ( ) 
- mononucleares ( ) lemma=mononuclear 
+ mononucleares ( ) 
  mononucleosis ( ) 
  monoocular ( ) 
  monopolio ( ) 
- monopolios ( ) lemma=monopolio 
+ monopolios ( ) 
  monopolista ( ) 
- monopolizado ( ) lemma=monopolizar 
+ monopolizado ( ) 
+ monopolizados ( ) 
+ monopolizan ( ) 
  monopolizar ( ) 
- monopolizados ( ) lemma=monopolizar 
- monopolizan ( ) lemma=monopolizar 
- monopolizaron ( ) lemma=monopolizar 
- monos ( ) lemma=mono 
- monosacáridos ( ) lemma=monosacárido 
- monosacárido ( ) 
- monosilabicas ( ) lemma=monosilábico 
- monosilábico ( ) 
+ monopolizaron ( ) 
+ monos ( ) 
+ monosacáridos ( ) 
+ monosilabicas ( ) 
  monosináptico ( ) 
  monosomía ( ) 
  monospermia ( ) 
@@ -3429,525 +3260,503 @@
  monosómico ( ) 
  monotonicidad ( ) 
  monotonía ( ) 
- monotónicas ( ) lemma=monotónico 
- monotónico ( ) 
+ monotónicas ( ) 
  monseñor ( ) 
  monstruo ( ) 
- monstruos ( ) lemma=monstruo 
- monstruosa ( ) lemma=monstruoso 
+ monstruos ( ) 
+ monstruosa ( ) 
+ monstruosamente ( ) 
+ monstruosas ( ) 
  monstruoso ( ) 
- monstruosamente ( ) lemma=monstruoso 
- monstruosas ( ) lemma=monstruoso 
- monstruosos ( ) lemma=monstruoso 
- monta ( ) lemma=montar 
- montar ( ) 
- montaba ( ) lemma=montar 
- montaban ( ) lemma=montar 
- montada ( ) lemma=montar 
- montadas ( ) lemma=montar 
- montado ( ) lemma=montar 
- montadores ( ) lemma=montador 
- montador ( ) 
- montados ( ) lemma=montar 
+ monstruosos ( ) 
+ monta ( ) 
+ montaba ( ) 
+ montaban ( ) 
+ montada ( ) 
+ montadas ( ) 
+ montado ( ) 
+ montadores ( ) 
+ montados ( ) 
  montage ( ) 
  montaje ( ) 
- montajes ( ) lemma=montaje 
- montamos ( ) lemma=montar 
- montan ( ) lemma=montar 
- montando ( ) lemma=montar 
+ montajes ( ) 
+ montamos ( ) 
+ montan ( ) 
+ montando ( ) 
  montante ( ) 
- montarlo ( ) lemma=montar 
- montarme ( ) lemma=montar 
- montaron ( ) lemma=montar 
+ montar ( ) 
+ montarlo ( ) 
+ montarme ( ) 
+ montaron ( ) 
  montarse ( ) 
- montará ( ) lemma=montar 
- montarán ( ) lemma=montar 
- montarían ( ) lemma=montar 
- montas ( ) lemma=montar 
+ montará ( ) 
+ montarán ( ) 
+ montarían ( ) 
+ montas ( ) 
  montaña ( ) 
- montañas ( ) lemma=montaña 
- montañita ( ) lemma=montaña 
- montañosa ( ) lemma=montañoso 
+ montañas ( ) 
+ montañita ( ) 
+ montañosa ( ) 
+ montañosas ( ) 
  montañoso ( ) 
- montañosas ( ) lemma=montañoso 
- montañosos ( ) lemma=montañoso 
+ montañosos ( ) 
  monte ( ) 
- monten ( ) lemma=montar 
- montes ( ) lemma=monte 
- monteses ( ) lemma=montés 
- montés ( ) 
+ monten ( ) 
+ montes ( ) 
+ monteses ( ) 
  monto ( ) 
- montonal ( ) lemma=montón 
- montón ( ) 
- montones ( ) lemma=montón 
- montos ( ) lemma=monto 
+ montonal ( ) 
+ montones ( ) 
+ montos ( ) 
  montículo ( ) 
- montó ( ) lemma=montar 
+ montó ( ) 
+ montón ( ) 
  monumental ( ) 
- monumentales ( ) lemma=monumental 
+ monumentales ( ) 
  monumento ( ) 
- monumentos ( ) lemma=monumento 
+ monumentos ( ) 
  monzón ( ) 
- monárquica ( ) lemma=monárquico 
+ monárquica ( ) 
  monárquico ( ) 
- monárquicos ( ) lemma=monárquico 
- monísima ( ) lemma=mono 
- monísimas ( ) lemma=mono 
- monísimo ( ) lemma=mono 
+ monárquicos ( ) 
+ monísima ( ) 
+ monísimas ( ) 
+ monísimo ( ) 
  monómero ( ) 
  monómero-monómero ( ) 
- monómeros ( ) lemma=monómero 
- monótona ( ) lemma=monótono 
+ monómeros ( ) 
+ monótona ( ) 
+ monótonas ( ) 
  monótono ( ) 
- monótonas ( ) lemma=monótono 
  monóxido ( ) 
  mopu ( ) 
  mora ( ) 
  morada ( ) 
- moradas ( ) lemma=morada 
- morado ( ) lemma=morar 
- morar ( ) 
- morados ( ) lemma=morar 
+ moradas ( ) 
+ morado ( ) 
+ morados ( ) 
  moral ( ) 
  moraleja ( ) 
- morales ( ) lemma=moral 
+ morales ( ) 
  moralidad ( ) 
  moralista ( ) 
- moralistas ( ) lemma=moralista 
- moralizadores ( ) lemma=moralizador 
- moralizador ( ) 
- moralmente ( ) lemma=moral 
- moran ( ) lemma=morar 
- moras ( ) lemma=mora 
+ moralistas ( ) 
+ moralizadores ( ) 
+ moralmente ( ) 
+ moran ( ) 
+ moras ( ) 
  moratoria ( ) 
- moratorias ( ) lemma=moratoria 
+ moratorias ( ) 
  moravo ( ) 
  morbidiforme ( ) 
  morbilidad ( ) 
  morbimortalidad ( ) 
  mordaz ( ) 
- mordaza ( ) lemma=mordaz 
- mordazas ( ) lemma=mordaz 
+ mordaza ( ) 
+ mordazas ( ) 
  mordedura ( ) 
- mordeduras ( ) lemma=mordedura 
+ mordeduras ( ) 
  morder ( ) 
- morderá ( ) lemma=morder 
- mordida ( ) lemma=morder 
- mordidas ( ) lemma=morder 
- mordido ( ) lemma=morder 
+ morderá ( ) 
+ mordida ( ) 
+ mordidas ( ) 
+ mordido ( ) 
  mordisco ( ) 
- mordiscos ( ) lemma=mordisco 
- mordisqueada ( ) lemma=mordisquear 
- mordisquear ( ) 
- mordisqueando ( ) lemma=mordisquear 
- mordió ( ) lemma=morder 
- more ( ) lemma=morar 
+ mordiscos ( ) 
+ mordisqueada ( ) 
+ mordisqueando ( ) 
+ mordió ( ) 
+ more ( ) lemma=amor 
  morelense ( ) 
- morena ( ) lemma=moreno 
+ morena ( ) 
+ morenas ( ) 
+ morenita ( ) 
+ morenito ( ) 
  moreno ( ) 
- morenas ( ) lemma=moreno 
- morenita ( ) lemma=moreno 
- morenito ( ) lemma=moreno 
- morenos ( ) lemma=moreno 
- morenísima ( ) lemma=moreno 
- morenísimo ( ) lemma=moreno 
- moreras ( ) lemma=morera 
- morera ( ) 
- mores ( ) lemma=morar 
- morfemas ( ) lemma=morfema 
- morfema ( ) 
+ morenos ( ) 
+ morenísima ( ) 
+ morenísimo ( ) 
+ moreras ( ) 
+ mores ( ) 
+ morfemas ( ) 
  morfina ( ) 
  morfogenético ( ) 
- morfogenéticos ( ) lemma=morfogenético 
+ morfogenéticos ( ) 
  morfogénesis ( ) 
  morfología ( ) 
- morfologías ( ) lemma=morfología 
- morfológica ( ) lemma=morfológico 
- morfológico ( ) 
+ morfologías ( ) 
+ morfológica ( ) 
  morfológicamente ( ) 
- morfológicas ( ) lemma=morfológico 
- morfológicos ( ) lemma=morfológico 
- morfométrica ( ) lemma=morfométrico 
- morfométrico ( ) 
- morfométricas ( ) lemma=morfométrico 
- morfométricos ( ) lemma=morfométrico 
- morfos ( ) lemma=morfo 
- morfo ( ) 
+ morfológicas ( ) 
+ morfológico ( ) 
+ morfológicos ( ) 
+ morfométrica ( ) 
+ morfométricas ( ) 
+ morfométricos ( ) 
+ morfos ( ) 
  morgue ( ) 
- moribunda ( ) lemma=moribundo 
+ moribunda ( ) 
  moribundo ( ) 
- morimos ( ) lemma=morir 
+ morimos ( ) 
  morir ( ) 
- moriremos ( ) lemma=morir 
- morirnos ( ) lemma=morir 
+ moriremos ( ) 
+ morirnos ( ) 
  morirse ( ) 
- morirá ( ) lemma=morir 
- morirán ( ) lemma=morir 
- moriré ( ) lemma=morir 
- moriría ( ) lemma=morir 
- moriríamos ( ) lemma=morir 
- morirían ( ) lemma=morir 
- moriste ( ) lemma=morir 
- mormones ( ) lemma=mormón 
+ morirá ( ) 
+ morirán ( ) 
+ moriré ( ) 
+ moriría ( ) 
+ moriríamos ( ) 
+ morirían ( ) 
+ moriste ( ) 
+ mormones ( ) 
  mormón ( ) 
- moro ( ) lemma=morar 
+ moro ( ) 
  morocho ( ) 
- morosa ( ) lemma=moroso 
- moroso ( ) 
- morosos ( ) lemma=moroso 
- morros ( ) lemma=morro 
- morro ( ) 
+ morosa ( ) lemma=amoroso 
+ moroso ( ) lemma=amoroso 
+ morosos ( ) 
+ morros ( ) 
  morruato ( ) 
- morsas ( ) lemma=morsa 
- morsa ( ) 
+ morsas ( ) 
  mortal ( ) 
- mortales ( ) lemma=mortal 
+ mortales ( ) 
  mortalidad ( ) 
- mortalidades ( ) lemma=mortalidad 
- mortalmente ( ) lemma=mortal 
+ mortalidades ( ) 
+ mortalmente ( ) 
  mortandad ( ) 
  mortero ( ) 
- morteros ( ) lemma=mortero 
- mortifica ( ) lemma=mortificar 
+ morteros ( ) 
+ mortifica ( ) 
  mortificar ( ) 
- mortuoria ( ) lemma=mortuorio 
- mortuorio ( ) 
- mortífera ( ) lemma=mortífero 
+ mortuoria ( ) 
+ mortífera ( ) 
+ mortíferas ( ) 
  mortífero ( ) 
- mortíferas ( ) lemma=mortífero 
- mortíferos ( ) lemma=mortífero 
+ mortíferos ( ) 
  moruliforme ( ) 
- morí ( ) lemma=morir 
- moría ( ) lemma=morir 
- morían ( ) lemma=morir 
- morís ( ) lemma=morir 
+ morí ( ) 
+ moría ( ) 
+ morían ( ) 
+ morís ( ) 
  mosaic ( ) 
  mosaicismo ( ) 
  mosaico ( ) 
- mosaicos ( ) lemma=mosaico 
+ mosaicos ( ) 
  mosca ( ) 
- moscas ( ) lemma=mosca 
+ moscas ( ) 
  moscovita ( ) 
- moscovitas ( ) lemma=moscovita 
- mosquea ( ) lemma=mosquear 
- mosquear ( ) 
- mosqueado ( ) lemma=mosquear 
- mosqueados ( ) lemma=mosquear 
+ moscovitas ( ) 
+ mosquea ( ) 
+ mosqueado ( ) 
+ mosqueados ( ) 
  mosquearse ( ) 
- mosqueo ( ) lemma=mosquear 
+ mosqueo ( ) 
  mosqueta ( ) 
  mosquetero ( ) 
- mosqueteros ( ) lemma=mosquetero 
+ mosqueteros ( ) 
  mosquito ( ) 
- mosquitos ( ) lemma=mosquito 
+ mosquitos ( ) 
  mostaza ( ) 
- mostraba ( ) lemma=mostrar 
- mostrar ( ) 
- mostraban ( ) lemma=mostrar 
- mostrada ( ) lemma=mostrar 
- mostradas ( ) lemma=mostrar 
- mostrado ( ) lemma=mostrar 
+ mostraba ( ) 
+ mostraban ( ) 
+ mostrada ( ) 
+ mostradas ( ) 
+ mostrado ( ) 
  mostrador ( ) 
- mostradores ( ) lemma=mostrador 
- mostrados ( ) lemma=mostrar 
- mostramos ( ) lemma=mostrar 
- mostrando ( ) lemma=mostrar 
- mostrara ( ) lemma=mostrar 
- mostraran ( ) lemma=mostrar 
- mostraras ( ) lemma=mostrar 
- mostraremos ( ) lemma=mostrar 
- mostrarla ( ) lemma=mostrar 
- mostrarle ( ) lemma=mostrar 
- mostrarles ( ) lemma=mostrar 
- mostrarlo ( ) lemma=mostrar 
- mostrarme ( ) lemma=mostrar 
- mostrarnos ( ) lemma=mostrar 
- mostraron ( ) lemma=mostrar 
+ mostradores ( ) 
+ mostrados ( ) 
+ mostramos ( ) 
+ mostrando ( ) 
+ mostrar ( ) 
+ mostrara ( ) 
+ mostraran ( ) 
+ mostraras ( ) 
+ mostraremos ( ) 
+ mostrarla ( ) 
+ mostrarle ( ) 
+ mostrarles ( ) 
+ mostrarlo ( ) 
+ mostrarme ( ) 
+ mostrarnos ( ) 
+ mostraron ( ) 
  mostrarse ( ) 
- mostrarte ( ) lemma=mostrar 
- mostrará ( ) lemma=mostrar 
- mostrarán ( ) lemma=mostrar 
- mostraré ( ) lemma=mostrar 
- mostraría ( ) lemma=mostrar 
- mostraríamos ( ) lemma=mostrar 
- mostrarían ( ) lemma=mostrar 
- mostrase ( ) lemma=mostrar 
- mostrasen ( ) lemma=mostrar 
- mostremos ( ) lemma=mostrar 
- mostrándoles ( ) lemma=mostrar 
- mostrándonos ( ) lemma=mostrar 
- mostrándose ( ) lemma=mostrar 
- mostrársele ( ) lemma=mostrar 
- mostrásemos ( ) lemma=mostrar 
- mostré ( ) lemma=mostrar 
- mostrémonos ( ) lemma=mostrar 
- mostró ( ) lemma=mostrar 
+ mostrarte ( ) 
+ mostrará ( ) 
+ mostrarán ( ) 
+ mostraré ( ) 
+ mostraría ( ) 
+ mostraríamos ( ) 
+ mostrarían ( ) 
+ mostrase ( ) 
+ mostrasen ( ) 
+ mostremos ( ) 
+ mostrándoles ( ) 
+ mostrándonos ( ) 
+ mostrándose ( ) 
+ mostrársele ( ) 
+ mostrásemos ( ) 
+ mostré ( ) 
+ mostrémonos ( ) 
+ mostró ( ) 
  mota ( ) 
  mote ( ) 
  moteado ( ) 
  motel ( ) 
- moteles ( ) lemma=motel 
- motilado ( ) lemma=motilar 
- motilar ( ) 
+ moteles ( ) 
+ motilado ( ) 
  motilidad ( ) 
- motines ( ) lemma=motín 
- motín ( ) 
- motiva ( ) lemma=motivar 
- motivar ( ) 
- motivaba ( ) lemma=motivar 
- motivaban ( ) lemma=motivar 
- motivaciones ( ) lemma=motivación 
+ motines ( ) 
+ motiva ( ) lemma=emotivo 
+ motivaba ( ) 
+ motivaban ( ) 
+ motivaciones ( ) 
  motivación ( ) 
- motivada ( ) lemma=motivar 
+ motivada ( ) 
  motivadamente ( ) 
- motivadas ( ) lemma=motivar 
- motivado ( ) lemma=motivar 
- motivadoras ( ) lemma=motivador 
- motivador ( ) 
- motivados ( ) lemma=motivar 
- motivan ( ) lemma=motivar 
- motivando ( ) lemma=motivar 
- motivaran ( ) lemma=motivar 
- motivaron ( ) lemma=motivar 
- motivará ( ) lemma=motivar 
- motivaría ( ) lemma=motivar 
- motive ( ) lemma=motivar 
- motiven ( ) lemma=motivar 
- motivo ( ) 
- motivos ( ) lemma=motivo 
- motivó ( ) lemma=motivar 
+ motivadas ( ) 
+ motivado ( ) 
+ motivadoras ( ) 
+ motivados ( ) 
+ motivan ( ) 
+ motivando ( ) 
+ motivar ( ) 
+ motivaran ( ) 
+ motivaron ( ) 
+ motivará ( ) 
+ motivaría ( ) 
+ motive ( ) 
+ motiven ( ) 
+ motivo ( ) lemma=emotivo 
+ motivos ( ) 
+ motivó ( ) 
  moto ( ) 
  motocicleta ( ) 
- motocicletas ( ) lemma=motocicleta 
+ motocicletas ( ) 
  motociclismo ( ) 
  motoneurona ( ) 
- motoneuronas ( ) lemma=motoneurona 
+ motoneuronas ( ) 
  motor ( ) 
- motora ( ) lemma=motor 
- motoras ( ) lemma=motor 
- motores ( ) lemma=motor 
- motorizada ( ) lemma=motorizar 
- motorizar ( ) 
- motorizadas ( ) lemma=motorizar 
- motorizado ( ) lemma=motorizar 
- motorizados ( ) lemma=motorizar 
- motos ( ) lemma=moto 
- motrices ( ) lemma=motriz 
- motriz ( ) 
+ motora ( ) 
+ motoras ( ) 
+ motores ( ) 
+ motorizada ( ) 
+ motorizadas ( ) 
+ motorizado ( ) 
+ motorizados ( ) 
+ motos ( ) 
+ motrices ( ) 
  motricidad ( ) 
+ motriz ( ) 
  mots ( ) 
+ motín ( ) 
  mouth ( ) 
- movamos ( ) lemma=mover 
+ movamos ( ) 
+ movemos ( ) 
  mover ( ) 
- movemos ( ) lemma=mover 
- moveremos ( ) lemma=mover 
- moverle ( ) lemma=mover 
- moverlo ( ) lemma=mover 
- moverme ( ) lemma=mover 
- movernos ( ) lemma=mover 
+ moveremos ( ) 
+ moverle ( ) 
+ moverlo ( ) 
+ moverme ( ) 
+ movernos ( ) 
  moverse ( ) 
- moverte ( ) lemma=mover 
- moverá ( ) lemma=mover 
- moverán ( ) lemma=mover 
- moveré ( ) lemma=mover 
- movería ( ) lemma=mover 
- movida ( ) lemma=mover 
- movidas ( ) lemma=mover 
- movidita ( ) lemma=movido 
- movido ( ) lemma=mover 
- movidos ( ) lemma=mover 
- moviendo ( ) lemma=mover 
- moviera ( ) lemma=mover 
- movieron ( ) lemma=mover 
- moviese ( ) lemma=mover 
+ moverte ( ) 
+ moverá ( ) 
+ moverán ( ) 
+ moveré ( ) 
+ movería ( ) 
+ movida ( ) 
+ movidas ( ) 
+ movidita ( ) 
+ movido ( ) 
+ movidos ( ) 
+ moviendo ( ) 
+ moviera ( ) 
+ movieron ( ) 
+ moviese ( ) 
  movil ( ) 
- movilice ( ) lemma=movilizar 
- movilizar ( ) 
- movilicen ( ) lemma=movilizar 
+ movilice ( ) 
+ movilicen ( ) 
  movilidad ( ) 
- movilidades ( ) lemma=movilidad 
- moviliza ( ) lemma=movilizar 
- movilizaban ( ) lemma=movilizar 
+ movilidades ( ) 
+ moviliza ( ) 
+ movilizaban ( ) 
  movilizable ( ) 
- movilizaciones ( ) lemma=movilización 
+ movilizaciones ( ) 
  movilización ( ) 
- movilizada ( ) lemma=movilizar 
- movilizadas ( ) lemma=movilizar 
- movilizado ( ) lemma=movilizar 
- movilizados ( ) lemma=movilizar 
- movilizamos ( ) lemma=movilizar 
- movilizan ( ) lemma=movilizar 
- movilizando ( ) lemma=movilizar 
- movilizara ( ) lemma=movilizar 
- movilizaran ( ) lemma=movilizar 
- movilizarla ( ) lemma=movilizar 
- movilizarme ( ) lemma=movilizar 
- movilizarnos ( ) lemma=movilizar 
- movilizaron ( ) lemma=movilizar 
+ movilizada ( ) 
+ movilizadas ( ) 
+ movilizado ( ) 
+ movilizados ( ) 
+ movilizamos ( ) 
+ movilizan ( ) 
+ movilizando ( ) 
+ movilizar ( ) 
+ movilizara ( ) 
+ movilizaran ( ) 
+ movilizarla ( ) 
+ movilizarme ( ) 
+ movilizarnos ( ) 
+ movilizaron ( ) 
  movilizarse ( ) 
- movilizarán ( ) lemma=movilizar 
- movilizaría ( ) lemma=movilizar 
- movilizó ( ) lemma=movilizar 
+ movilizarán ( ) 
+ movilizaría ( ) 
+ movilizó ( ) 
  movimiento ( ) 
- movimientos ( ) lemma=movimiento 
- moviéndolas ( ) lemma=mover 
- moviéndose ( ) lemma=mover 
- movió ( ) lemma=mover 
- moví ( ) lemma=mover 
- movía ( ) lemma=mover 
- movíamos ( ) lemma=mover 
- movían ( ) lemma=mover 
+ movimientos ( ) 
+ moviéndolas ( ) 
+ moviéndose ( ) 
+ movió ( ) 
+ moví ( ) 
+ movía ( ) 
+ movíamos ( ) 
+ movían ( ) 
  movíl ( ) 
  moyenne ( ) 
- moza ( ) lemma=mozo 
+ moza ( ) 
  mozo ( ) 
- mozos ( ) lemma=mozo 
+ mozos ( ) 
  moño ( ) 
- moños ( ) lemma=moño 
+ moños ( ) 
  mrna ( ) 
  mrno ( ) 
  ms ( ) 
  mtdna ( ) 
  mu ( ) 
- mucha ( ) lemma=mucho 
- mucho ( ) 
- muchacha ( ) lemma=muchacho 
+ mucha ( ) 
+ muchacha ( ) 
+ muchachas ( ) 
+ muchachita ( ) 
+ muchachitas ( ) 
+ muchachito ( ) 
+ muchachitos ( ) 
  muchacho ( ) 
- muchachas ( ) lemma=muchacho 
- muchachita ( ) lemma=muchacho 
- muchachitas ( ) lemma=muchacho 
- muchachito ( ) lemma=muchacho 
- muchachitos ( ) lemma=muchacho 
- muchachos ( ) lemma=muchacho 
- muchas ( ) lemma=mucho 
+ muchachos ( ) 
+ muchas ( ) 
  muchedumbre ( ) 
- muchedumbres ( ) lemma=muchedumbre 
- muchos ( ) lemma=mucho 
- muchísima ( ) lemma=mucho 
- muchísimas ( ) lemma=mucho 
- muchísimo ( ) lemma=mucho 
- muchísimos ( ) lemma=mucho 
- mucilaginosos ( ) lemma=mucilaginoso 
- mucilaginoso ( ) 
+ muchedumbres ( ) 
+ mucho ( ) 
+ muchos ( ) 
+ muchísima ( ) 
+ muchísimas ( ) 
+ muchísimo ( ) 
+ muchísimos ( ) 
+ mucilaginosos ( ) 
  mucocutáneo ( ) 
  mucopolisacárido ( ) 
- mucopolisacáridos ( ) lemma=mucopolisacárido 
+ mucopolisacáridos ( ) 
  mucormicosis ( ) 
  mucosa ( ) 
- mucosas ( ) lemma=mucosa 
+ mucosas ( ) 
  mucoso ( ) 
- mucosos ( ) lemma=mucoso 
- muda ( ) lemma=mudo 
- mudo ( ) 
+ mucosos ( ) 
+ muda ( ) 
  mudable ( ) 
- mudado ( ) lemma=mudar 
- mudar ( ) 
- mudados ( ) lemma=mudar 
- mudamos ( ) lemma=mudar 
- mudan ( ) lemma=mudar 
+ mudado ( ) 
+ mudados ( ) 
+ mudamos ( ) 
+ mudan ( ) 
  mudanza ( ) 
- mudanzas ( ) lemma=mudanza 
- mudarme ( ) lemma=mudar 
- mudaron ( ) lemma=mudar 
+ mudanzas ( ) 
+ mudar ( ) 
+ mudarme ( ) 
+ mudaron ( ) 
  mudarse ( ) 
- mudas ( ) lemma=muda 
- mudaste ( ) lemma=mudar 
- mude ( ) lemma=mudar 
+ mudas ( ) 
+ mudaste ( ) 
+ mude ( ) 
  mudez ( ) 
- mudos ( ) lemma=mudo 
- mudás ( ) lemma=mudar 
- mudó ( ) lemma=mudar 
+ mudo ( ) 
+ mudos ( ) 
+ mudás ( ) 
+ mudó ( ) 
  mueble ( ) 
- muebles ( ) lemma=mueble 
+ muebles ( ) 
  mueca ( ) 
- muecas ( ) lemma=mueca 
+ muecas ( ) 
  muela ( ) 
- muelas ( ) lemma=muela 
- muele ( ) lemma=moler 
- muelen ( ) lemma=moler 
+ muelas ( ) 
+ muele ( ) 
+ muelen ( ) 
  muelle ( ) 
- muelles ( ) lemma=muelle 
+ muelles ( ) 
  muera ( ) 
- mueran ( ) lemma=morir 
- muerda ( ) lemma=morder 
- muerdan ( ) lemma=morder 
- muerde ( ) lemma=morder 
- muere ( ) lemma=morir 
- mueren ( ) lemma=morir 
- mueres ( ) lemma=morir 
- muero ( ) lemma=morir 
- muerta ( ) lemma=muerto 
- muerto ( ) 
- muertas ( ) lemma=muerto 
+ mueran ( ) 
+ muerda ( ) 
+ muerdan ( ) 
+ muerde ( ) 
+ muere ( ) 
+ mueren ( ) 
+ mueres ( ) 
+ muero ( ) 
+ muerta ( ) 
+ muertas ( ) 
  muerte ( ) 
- muertes ( ) lemma=muerte 
- muertos ( ) lemma=muerto 
+ muertes ( ) 
+ muerto ( ) 
+ muertos ( ) 
  muesca ( ) 
- muescas ( ) lemma=muesca 
+ muescas ( ) 
  muestra ( ) 
- muestrales ( ) lemma=muestral 
- muestral ( ) 
- muestran ( ) lemma=mostrar 
- muestras ( ) lemma=muestra 
- muestre ( ) lemma=mostrar 
- muestrea ( ) lemma=muestrear 
+ muestrales ( ) 
+ muestran ( ) 
+ muestras ( ) 
+ muestre ( ) 
+ muestrea ( ) 
+ muestrean ( ) 
  muestrear ( ) 
- muestrean ( ) lemma=muestrear 
- muestren ( ) lemma=mostrar 
+ muestren ( ) 
  muestreo ( ) 
- muestreos ( ) lemma=muestreo 
- muestro ( ) lemma=mostrar 
- mueva ( ) lemma=mover 
- muevan ( ) lemma=mover 
- muevas ( ) lemma=mover 
- mueve ( ) lemma=mover 
- mueven ( ) lemma=mover 
- mueves ( ) lemma=mover 
- muevo ( ) lemma=mover 
+ muestreos ( ) 
+ muestro ( ) 
+ mueva ( ) 
+ muevan ( ) 
+ muevas ( ) 
+ mueve ( ) 
+ mueven ( ) 
+ mueves ( ) 
+ muevo ( ) 
  mugre ( ) 
  muguet ( ) 
  mujer ( ) 
- mujercita ( ) lemma=mujer 
- mujeres ( ) lemma=mujer 
- mula ( ) lemma=mulo 
- mulo ( ) 
- mulas ( ) lemma=mulo 
- mulatas ( ) lemma=mulato 
- mulato ( ) 
+ mujercita ( ) 
+ mujeres ( ) 
+ mula ( ) lemma=emular 
+ mulas ( ) 
+ mulatas ( ) 
  muldex ( ) 
  muleta ( ) 
- muletas ( ) lemma=muleta 
+ muletas ( ) 
  muletazo ( ) 
- muletazos ( ) lemma=muletazo 
- mullidos ( ) lemma=mullir 
- mullir ( ) 
- mulos ( ) lemma=mulo 
- multa ( ) lemma=multar 
+ muletazos ( ) 
+ mullidos ( ) 
+ mulo ( ) 
+ mulos ( ) 
+ multa ( ) 
+ multaba ( ) 
+ multada ( ) 
+ multadas ( ) 
+ multado ( ) 
+ multados ( ) 
  multar ( ) 
- multaba ( ) lemma=multar 
- multada ( ) lemma=multar 
- multadas ( ) lemma=multar 
- multado ( ) lemma=multar 
- multados ( ) lemma=multar 
- multaron ( ) lemma=multar 
- multas ( ) lemma=multar 
- multe ( ) lemma=multar 
+ multaron ( ) 
+ multas ( ) 
+ multe ( ) 
  multi ( ) 
  multi-cristal ( ) 
  multibit ( ) 
  multicanal ( ) 
- multicanales ( ) lemma=multicanal 
+ multicanales ( ) 
  multicast ( ) 
  multicausal ( ) 
  multicausalidad ( ) 
  multicelular ( ) 
- multicelulares ( ) lemma=multicelular 
- multicolores ( ) lemma=multicolor 
- multicolor ( ) 
+ multicelulares ( ) 
+ multicolores ( ) 
  multiconferencia ( ) 
  multicristal ( ) 
  multicéntrico ( ) 
- multicéntricos ( ) lemma=multicéntrico 
+ multicéntricos ( ) 
  multidesmultiplexación ( ) 
  multidifusión ( ) 
  multidimensional ( ) 
@@ -3956,45 +3765,45 @@
  multidisciplinario ( ) 
  multidisturber ( ) 
  multidocumento ( ) 
- multidocumentos ( ) lemma=multidocumento 
+ multidocumentos ( ) 
  multienlace ( ) 
  multifactorial ( ) 
- multifactoriales ( ) lemma=multifactorial 
+ multifactoriales ( ) 
  multiframe ( ) 
  multifrecuencia ( ) 
  multifréquences ( ) 
  multifuncional ( ) 
- multifuncionales ( ) lemma=multifuncional 
+ multifuncionales ( ) 
  multiintervalo ( ) 
- multiintervalos ( ) lemma=multiintervalo 
+ multiintervalos ( ) 
  multilateral ( ) 
- multilaterales ( ) lemma=multilateral 
- multilateralmente ( ) lemma=multilateral 
+ multilaterales ( ) 
+ multilateralmente ( ) 
  multilista ( ) 
  multillamada ( ) 
  multilobulado ( ) 
- multilobulados ( ) lemma=multilobulado 
+ multilobulados ( ) 
  multimedio ( ) 
- multimedios ( ) lemma=multimedio 
+ multimedios ( ) 
  multimillonario ( ) 
- multimillonarios ( ) lemma=multimillonario 
+ multimillonarios ( ) 
  multimérico ( ) 
  multinacional ( ) 
- multinacionales ( ) lemma=multinacional 
+ multinacionales ( ) 
  multiorgánico ( ) 
  multiplage ( ) 
  multiple ( ) 
  multiples ( ) 
  multiplex ( ) 
- multiplexa ( ) lemma=multiplexar 
- multiplexar ( ) 
+ multiplexa ( ) 
  multiplexación ( ) 
- multiplexada ( ) lemma=multiplexar 
- multiplexadas ( ) lemma=multiplexar 
- multiplexado ( ) lemma=multiplexar 
- multiplexados ( ) lemma=multiplexar 
+ multiplexada ( ) 
+ multiplexadas ( ) 
+ multiplexado ( ) 
+ multiplexados ( ) 
  multiplexage ( ) 
- multiplexando ( ) lemma=multiplexar 
+ multiplexando ( ) 
+ multiplexar ( ) 
  multiplexarse ( ) 
  multiplexer ( ) 
  multiplexes ( ) 
@@ -4002,119 +3811,114 @@
  multiplexing ( ) 
  multiplexión ( ) 
  multiplexor ( ) 
- multiplexores ( ) lemma=multiplexor 
- multiplica ( ) lemma=multiplicar 
- multiplicar ( ) 
- multiplicaban ( ) lemma=multiplicar 
- multiplicaciones ( ) lemma=multiplicación 
+ multiplexores ( ) 
+ multiplica ( ) 
+ multiplicaban ( ) 
+ multiplicaciones ( ) 
  multiplicación ( ) 
- multiplicada ( ) lemma=multiplicar 
- multiplicado ( ) lemma=multiplicar 
+ multiplicada ( ) 
+ multiplicado ( ) 
  multiplicador ( ) 
- multiplicadores ( ) lemma=multiplicador 
- multiplicados ( ) lemma=multiplicar 
- multiplican ( ) lemma=multiplicar 
- multiplicando ( ) lemma=multiplicar 
- multiplicara ( ) lemma=multiplicar 
- multiplicaremos ( ) lemma=multiplicar 
- multiplicarla ( ) lemma=multiplicar 
- multiplicarlo ( ) lemma=multiplicar 
- multiplicaron ( ) lemma=multiplicar 
+ multiplicadores ( ) 
+ multiplicados ( ) 
+ multiplican ( ) 
+ multiplicando ( ) 
+ multiplicar ( ) 
+ multiplicara ( ) 
+ multiplicaremos ( ) 
+ multiplicarla ( ) 
+ multiplicarlo ( ) 
+ multiplicaron ( ) 
  multiplicarse ( ) 
- multiplicará ( ) lemma=multiplicar 
- multiplicarán ( ) lemma=multiplicar 
- multiplicaría ( ) lemma=multiplicar 
- multiplicarían ( ) lemma=multiplicar 
- multiplicase ( ) lemma=multiplicar 
+ multiplicará ( ) 
+ multiplicarán ( ) 
+ multiplicaría ( ) 
+ multiplicarían ( ) 
+ multiplicase ( ) 
  multiplicidad ( ) 
- multiplicándose ( ) lemma=multiplicarse 
- multiplicó ( ) lemma=multiplicar 
- multiplique ( ) lemma=multiplicar 
- multipliquen ( ) lemma=multiplicar 
+ multiplicándose ( ) 
+ multiplicó ( ) 
+ multiplique ( ) 
+ multipliquen ( ) 
  multipoint ( ) 
  multipolar ( ) 
  multiprocesador ( ) 
  multiproceso ( ) 
  multiprogramación ( ) 
  multipunto ( ) 
- multipuntos ( ) lemma=multipunto 
+ multipuntos ( ) 
  multipágina ( ) 
  multiresidente ( ) 
  multirracial ( ) 
- multirraciales ( ) lemma=multirracial 
+ multirraciales ( ) 
  multirregional ( ) 
  multisistémico ( ) 
  multislot ( ) 
- multitareas ( ) lemma=multitarea 
- multitarea ( ) 
+ multitareas ( ) 
  multiterminal ( ) 
- multiterminales ( ) lemma=multiterminal 
+ multiterminales ( ) 
  multitrama ( ) 
  multitrame ( ) 
  multitud ( ) 
- multitudes ( ) lemma=multitud 
- multitudinaria ( ) lemma=multitudinario 
+ multitudes ( ) 
+ multitudinaria ( ) 
+ multitudinarias ( ) 
  multitudinario ( ) 
- multitudinarias ( ) lemma=multitudinario 
- multitudinarios ( ) lemma=multitudinario 
+ multitudinarios ( ) 
  multiunitario ( ) 
  multiusuario ( ) 
- multiusuarios ( ) lemma=multiusuario 
+ multiusuarios ( ) 
  multivariable ( ) 
- multivariantes ( ) lemma=multivariante 
- multivariante ( ) 
+ multivariantes ( ) 
  multivoie ( ) 
- multó ( ) lemma=multar 
- mundana ( ) lemma=mundano 
+ multó ( ) 
+ mundana ( ) 
  mundano ( ) 
  mundial ( ) 
- mundiales ( ) lemma=mundial 
+ mundiales ( ) 
  mundialización ( ) 
  mundializar ( ) 
- mundialmente ( ) lemma=mundial 
- mundillo ( ) lemma=mundo 
+ mundialmente ( ) 
+ mundillo ( ) 
  mundo ( ) 
- mundos ( ) lemma=mundo 
- municiones ( ) lemma=munición 
- munición ( ) 
+ mundos ( ) 
+ municiones ( ) 
  municipal ( ) 
- municipales ( ) lemma=municipal 
+ municipales ( ) 
  municipalidad ( ) 
- municipalidades ( ) lemma=municipalidad 
+ municipalidades ( ) 
  municipalización ( ) 
- municipalizaron ( ) lemma=municipalizar 
- municipalizar ( ) 
+ municipalizaron ( ) 
  municipio ( ) 
- municipios ( ) lemma=municipio 
- muralla ( ) 
- murallas ( ) lemma=muralla 
- muramos ( ) lemma=morir|murar 
- morir|murar ( ) 
+ municipios ( ) 
+ munición ( ) 
+ muralla ( ) lemma=amurallar 
+ murallas ( ) 
+ muramos ( ) 
  murciélago ( ) 
- murciélagos ( ) lemma=murciélago 
+ murciélagos ( ) 
  murga ( ) 
- muriendo ( ) lemma=morir 
- muriera ( ) lemma=morir 
- murieran ( ) lemma=morir 
- murieron ( ) lemma=morir 
- muriesen ( ) lemma=morir 
+ muriendo ( ) 
+ muriera ( ) 
+ murieran ( ) 
+ murieron ( ) 
+ muriesen ( ) 
  murino ( ) 
- muriéndose ( ) lemma=morir 
- murió ( ) lemma=morir 
+ muriéndose ( ) 
+ murió ( ) 
  murmullo ( ) 
- murmullos ( ) lemma=murmullo 
- murmura ( ) lemma=murmurar 
+ murmullos ( ) 
+ murmura ( ) 
  murmurar ( ) 
  muro ( ) 
- muros ( ) lemma=muro 
+ muros ( ) 
  musa ( ) 
- musas ( ) lemma=musa 
+ musas ( ) 
  muscular ( ) 
- musculares ( ) lemma=muscular 
- muscularmente ( ) lemma=muscular 
+ musculares ( ) 
+ muscularmente ( ) 
  musculatura ( ) 
- musculito ( ) lemma=músculo 
- músculo ( ) 
+ musculito ( ) 
  musculo ( ) 
  musculoaponeurótico ( ) 
  musculoesquelético ( ) 
@@ -4124,195 +3928,1866 @@
  musculotendinoso ( ) 
  museo ( ) 
  museografía ( ) 
- museos ( ) lemma=museo 
- musgos ( ) lemma=musgo 
- musgo ( ) 
- musica ( ) lemma=música 
- música ( ) 
+ museos ( ) 
+ musgos ( ) 
+ musica ( ) 
  musical ( ) 
- musicales ( ) lemma=musical 
- musicalmente ( ) lemma=musical 
- musiquita ( ) lemma=música 
- musitado ( ) lemma=musitar 
- musitar ( ) 
- musitó ( ) lemma=musitar 
+ musicales ( ) 
+ musicalmente ( ) 
+ musiquita ( ) 
+ musitado ( ) 
+ musitó ( ) 
  muslo ( ) 
- muslos ( ) lemma=muslo 
+ muslos ( ) 
  must ( ) 
  mustia ( ) 
- mustias ( ) lemma=mustio 
- mustio ( ) 
- mustios ( ) lemma=mustio 
- musulmana ( ) lemma=musulmán 
- musulmán ( ) 
- musulmanas ( ) lemma=musulmán 
- musulmanes ( ) lemma=musulmán 
+ mustias ( ) 
+ mustios ( ) 
+ musulmana ( ) 
+ musulmanas ( ) 
+ musulmanes ( ) 
  musulmano ( ) 
- musulmanos ( ) lemma=musulmano 
+ musulmanos ( ) 
+ musulmán ( ) 
  mutable ( ) 
- mutacionales ( ) lemma=mutacional 
- mutacional ( ) 
- mutaciones ( ) lemma=mutación 
+ mutacionales ( ) 
+ mutaciones ( ) 
  mutación ( ) 
- mutada ( ) lemma=mutar 
- mutar ( ) 
- mutado ( ) lemma=mutar 
- mutados ( ) lemma=mutar 
+ mutada ( ) 
+ mutado ( ) 
+ mutados ( ) 
  mutagenicidad ( ) 
  mutagénesis ( ) 
  mutante ( ) 
- mutantes ( ) lemma=mutante 
+ mutantes ( ) 
+ mutar ( ) 
  mutarrotasa ( ) 
  mutation ( ) 
- mutila ( ) lemma=mutilar 
- mutilar ( ) 
- mutilaciones ( ) lemma=mutilación 
+ mutila ( ) 
+ mutilaciones ( ) 
  mutilación ( ) 
  mutilada ( ) 
- mutiladas ( ) lemma=mutilar 
- mutilado ( ) lemma=mutilar 
- mutilados ( ) lemma=mutilar 
- mutilan ( ) lemma=mutilar 
- mutilando ( ) lemma=mutilar 
+ mutiladas ( ) 
+ mutilado ( ) 
+ mutilados ( ) 
+ mutilan ( ) 
+ mutilando ( ) 
+ mutilar ( ) 
  mutilation ( ) 
- mutilen ( ) lemma=mutilar 
+ mutilen ( ) 
  mutismo ( ) 
- mutua ( ) lemma=mutuo 
- mutuo ( ) 
+ mutua ( ) 
  mutual ( ) 
  mutualismo ( ) 
  mutually ( ) 
- mutuamente ( ) lemma=mutuo 
- mutuas ( ) lemma=mutuo 
+ mutuamente ( ) 
+ mutuas ( ) 
  mutuelle ( ) 
- mutuos ( ) lemma=mutuo 
+ mutuo ( ) 
+ mutuos ( ) 
  mutágena ( ) 
  mutágeno ( ) 
- mutágenos ( ) lemma=mutágeno 
+ mutágenos ( ) 
  muy ( ) 
- muérete ( ) lemma=morir 
- muéstrennos ( ) lemma=mostrar 
- muévete ( ) lemma=mover 
+ muérete ( ) 
+ muéstrennos ( ) 
+ muévete ( ) 
  muñeca ( ) 
- muñecas ( ) lemma=muñeca 
+ muñecas ( ) 
  muñeco ( ) 
- muñecos ( ) lemma=muñeco 
+ muñecos ( ) 
  muñequita ( ) 
- muñequitas ( ) lemma=muñequita 
+ muñequitas ( ) 
  muñequito ( ) 
- muñequitos ( ) lemma=muñequito 
+ muñequitos ( ) 
  muñón ( ) 
- mÁxima ( ) lemma=grande 
- mÁximo ( ) lemma=grande 
+ mÁxima ( ) 
+ mÁximo ( ) 
  mácula ( ) 
- máculas ( ) lemma=mácula 
- mágica ( ) lemma=mágico 
+ máculas ( ) 
+ mágica ( ) 
+ mágicamente ( ) 
+ mágicas ( ) 
  mágico ( ) 
- mágicamente ( ) lemma=mágico 
- mágicas ( ) lemma=mágico 
- mágicos ( ) lemma=mágico 
- mándala ( ) lemma=mandar 
- mándale ( ) lemma=mandar 
- mándalos ( ) lemma=mandar 
- mándame ( ) lemma=mandar 
- mándamelas ( ) lemma=mandar 
- mándamelo ( ) lemma=mandar 
- mándate ( ) lemma=mandar 
- mándenme ( ) lemma=mandar 
- máquinas ( ) lemma=máquina 
+ mágicos ( ) 
+ mándala ( ) 
+ mándale ( ) 
+ mándalos ( ) 
+ mándame ( ) 
+ mándamelas ( ) 
+ mándamelo ( ) 
+ mándate ( ) 
+ mándenme ( ) 
+ máquina ( ) 
+ máquinas ( ) 
  máquinas-herramienta ( ) 
- márgenes ( ) lemma=margen 
+ márgenes ( ) 
  mármol ( ) 
- mármoles ( ) lemma=mármol 
- márquelo ( ) lemma=marcar 
- márquese ( ) lemma=marcarse 
+ mármoles ( ) 
+ márquelo ( ) 
+ márquese ( ) 
  márqueting ( ) 
  mártir ( ) 
- mártires ( ) lemma=mártir 
+ mártires ( ) 
+ más ( ) 
+ máscara ( ) 
  máscarared ( ) 
- máscaras ( ) lemma=máscara 
+ máscaras ( ) 
  másico ( ) 
  mástil ( ) 
- mástiles ( ) lemma=mástil 
- máxima ( ) lemma=grande 
- máximamente ( ) lemma=grande 
- máximas ( ) lemma=grande 
+ mástiles ( ) 
+ máxima ( ) 
+ máximamente ( ) 
+ máximas ( ) 
  máxime ( ) 
- máximo ( ) lemma=grande|máximo 
- máximos ( ) lemma=grande 
+ máximo ( ) 
+ máximos ( ) 
  médiation ( ) 
- médica ( ) lemma=médico 
- médicamente ( ) lemma=médico 
- médicas ( ) lemma=médico 
+ médica ( ) 
+ médicamente ( ) 
+ médicas ( ) 
+ médico ( ) 
  médico-consultante ( ) 
  médico-psicológico ( ) 
  médico-quirúrgico ( ) 
- médicos ( ) lemma=médico 
+ médicos ( ) 
  médicos-sanitario ( ) 
  médula ( ) 
  ménétriar ( ) 
  mérito ( ) 
- méritos ( ) lemma=mérito 
- métase ( ) lemma=meterse 
- métela ( ) lemma=meter 
- méteme ( ) lemma=meter 
- métete ( ) lemma=meter 
+ méritos ( ) 
+ métase ( ) 
+ métela ( ) 
+ méteme ( ) 
+ métete ( ) 
  méthode ( ) 
  método ( ) 
- métodos ( ) lemma=método 
- métrica ( ) lemma=métrico 
+ métodos ( ) 
+ métrica ( ) 
+ métricas ( ) 
  métrico ( ) 
- métricas ( ) lemma=métrico 
- métricos ( ) lemma=métrico 
- mí ( ) lemma=yo 
- mía ( ) lemma=mío 
- mías ( ) lemma=mío 
- mídase ( ) lemma=medirse 
+ métricos ( ) 
+ mí ( ) 
+ mía ( ) 
+ mías ( ) 
+ mídase ( ) 
  mímica ( ) 
- mínima ( ) lemma=pequeño 
- mínimamente ( ) lemma=pequeño 
- mínimas ( ) lemma=pequeño 
- mínimo ( ) lemma=pequeño 
- mínimos ( ) lemma=pequeño 
- míos ( ) lemma=mío 
- mírala ( ) lemma=mirar 
- míralo ( ) lemma=mirar 
- mírame ( ) lemma=mirar 
- mírate ( ) lemma=mirar 
- míreme ( ) lemma=mirar 
- mísera ( ) lemma=mísero 
+ mínima ( ) 
+ mínimamente ( ) 
+ mínimas ( ) 
+ mínimo ( ) 
+ mínimos ( ) 
+ mío ( ) 
+ míos ( ) 
+ mírala ( ) 
+ míralo ( ) 
+ mírame ( ) 
+ mírate ( ) 
+ míreme ( ) 
+ mísera ( ) 
+ míseras ( ) 
  mísero ( ) 
- míseras ( ) lemma=mísero 
- míseros ( ) lemma=mísero 
- mística ( ) lemma=místico 
+ míseros ( ) 
+ mística ( ) 
  místico ( ) 
- místicos ( ) lemma=místico 
- mítica ( ) lemma=mítico 
+ místicos ( ) 
+ mítica ( ) 
+ míticamente ( ) 
+ míticas ( ) 
  mítico ( ) 
- míticamente ( ) lemma=mítico 
- míticas ( ) lemma=mítico 
- míticos ( ) lemma=mítico 
+ míticos ( ) 
  módem ( ) 
- módems ( ) lemma=módem 
- módica ( ) lemma=módico 
+ módems ( ) 
+ módica ( ) 
+ módicas ( ) 
  módico ( ) 
- módicas ( ) lemma=módico 
- módicos ( ) lemma=módico 
+ módicos ( ) 
  módulo ( ) 
- módulos ( ) lemma=módulo 
- mórbida ( ) lemma=mórbido 
+ módulos ( ) 
+ mórbida ( ) 
  mórbido ( ) 
  mórula ( ) 
  móvil ( ) 
- móviles ( ) lemma=móvil 
+ móviles ( ) 
  múldex ( ) 
- múltiple ( ) lemma=multiple 
- múltiples ( ) lemma=múltiple 
+ múltiple ( ) 
+ múltiples ( ) 
  múltiplex ( ) 
  múltiplo ( ) 
- múltiplos ( ) lemma=múltiplo 
+ múltiplos ( ) 
+ músculo ( ) 
  músculo-esquelético ( ) 
- músculos ( ) lemma=músculo 
- músicas ( ) lemma=músico 
+ músculos ( ) 
+ música ( ) 
+ músicas ( ) 
  músico ( ) 
- músicos ( ) lemma=músico 
+ músicos ( ) 
+ MD ( ) lemma=AMDT 
+ MÉRIC ( ) lemma=AMÉRICA 
+ made ( ) lemma=Amadeo 
+ madeu ( ) lemma=Amadeus 
+ mad ( ) lemma=amar 
+ mali ( ) lemma=Amalio 
+ manie ( ) lemma=Amaniel 
+ may ( ) lemma=Amaya 
+ mazona ( ) lemma=amazona 
+ med ( ) lemma=Amedo 
+ meli ( ) lemma=Amelia 
+ merica ( ) lemma=American 
+ merindio ( ) lemma=Amerindios 
+ meyal ( ) lemma=Ameyali 
+ mge ( ) lemma=Amgen 
+ mniogénesi ( ) lemma=Amniogénesis 
+ moc ( ) lemma=Amoco 
+ mphioxu ( ) lemma=amphioxus 
+ méric ( ) lemma=Américo 
+ mérica ( ) lemma=América 
+ M0 ( ) lemma=SM08 
+ MI ( ) lemma=TMIT 
+ mbre ( ) lemma=Embrel 
+ mbriologí ( ) lemma=embriología 
+ milian ( ) lemma=Emiliano 
+ mili ( ) lemma=Emilio 
+ mirato ( ) lemma=emirato 
+ mmanue ( ) lemma=Emmanuel 
+ mperatri ( ) lemma=emperador 
+ mpord� ( ) lemma=Empordà 
+ MAGINIZACIÓ ( ) lemma=IMAGINIZACIÓN 
+ ME ( ) lemma=IMEI 
+ mhof ( ) lemma=imhoff 
+ mmune ( ) lemma=Immunex 
+ mpresor ( ) lemma=impresora 
+ mpuest ( ) lemma=imponer 
+ M. ( ) lemma=MM.1 
+ Marlena ( ) 
+ Mónico ( ) 
+ má ( ) lemma=imán 
+ MP ( ) lemma=RMPT 
+ MT ( ) lemma=RMTP 
+ MU ( ) lemma=RMUT 
+ M1 ( ) lemma=SM19 
+ M2 ( ) lemma=SM27 
+ MIT ( ) lemma=SMITH 
+ mbargo_(sin~embargo ( ) 
+ mit ( ) lemma=omitir 
+ MSO ( ) lemma=TMSOR 
+ meson ( ) lemma=Umesono 
+ mab ( ) lemma=amar 
+ maba ( ) lemma=amar 
+ mabilida ( ) lemma=amabilidad 
+ mabilísim ( ) lemma=amable 
+ mabl ( ) lemma=amable 
+ mablement ( ) lemma=amable 
+ mable ( ) lemma=amable 
+ mado ( ) lemma=amador 
+ maestrad ( ) lemma=amaestrar 
+ maestrado ( ) lemma=amaestrar 
+ magad ( ) lemma=amagar 
+ magaro ( ) lemma=amagar 
+ mag ( ) lemma=amagar 
+ mague ( ) lemma=amagar 
+ mag� ( ) lemma=amagar 
+ malgam ( ) lemma=amalgama 
+ malgamab ( ) lemma=amalgamar 
+ malgamad ( ) lemma=amalgamar 
+ malgama ( ) lemma=amalgama 
+ mamanta ( ) lemma=amamantar 
+ mamo ( ) lemma=amar 
+ mand ( ) lemma=amando 
+ manec ( ) lemma=amanecer 
+ manece ( ) lemma=amanecer 
+ manecere ( ) lemma=amanecer 
+ manecid ( ) lemma=amanecer 
+ maneciend ( ) lemma=amanecer 
+ maneciero ( ) lemma=amanecer 
+ manecimo ( ) lemma=amanecer 
+ maneci� ( ) lemma=amanecer 
+ manec� ( ) lemma=amanecer 
+ manecí ( ) lemma=amanecer 
+ manezc ( ) lemma=amanecer 
+ mans ( ) lemma=amansar 
+ mant ( ) lemma=amantar 
+ mante ( ) lemma=amantar 
+ mapol ( ) lemma=amapola 
+ mapola ( ) lemma=amapola 
+ marant ( ) lemma=amaranto 
+ marg ( ) lemma=amargo 
+ margado ( ) lemma=amargar 
+ margament ( ) lemma=amargo 
+ margarle ( ) lemma=amargar 
+ margarno ( ) lemma=amargar 
+ margar� ( ) lemma=amargar 
+ margo ( ) lemma=amargo 
+ margur ( ) lemma=amargura 
+ marill ( ) lemma=amarillo 
+ marilla ( ) lemma=amarillo 
+ marillent ( ) lemma=amarillento 
+ marillento ( ) lemma=amarillento 
+ marillism ( ) lemma=amarillismo 
+ marillito ( ) lemma=amarillo 
+ marillo ( ) lemma=amarillo 
+ maro ( ) lemma=amar 
+ marrada ( ) lemma=amarrar 
+ marrad ( ) lemma=amarrar 
+ marrado ( ) lemma=amarrar 
+ marra ( ) lemma=amarrar 
+ marrara ( ) lemma=amarrar 
+ marraro ( ) lemma=amarrar 
+ marr ( ) lemma=amarrar 
+ marr� ( ) lemma=amarrar 
+ mars ( ) lemma=amarse 
+ mará ( ) lemma=amar 
+ masab ( ) lemma=amasar 
+ masad ( ) lemma=amasar 
+ mateu ( ) lemma=amateur 
+ mazónic ( ) lemma=amazónico 
+ mazónica ( ) lemma=amazónico 
+ mba ( ) lemma=ambo 
+ mbicion ( ) lemma=ambicionar 
+ mbicionab ( ) lemma=ambicionar 
+ mbicionad ( ) lemma=ambicionar 
+ mbicionamo ( ) lemma=ambicionar 
+ mbiciona ( ) lemma=ambicionar 
+ mbicionara ( ) lemma=ambicionar 
+ mbicionemo ( ) lemma=ambicionar 
+ mbicione ( ) lemma=ambición 
+ mbicios ( ) lemma=ambicioso 
+ mbiciosa ( ) lemma=ambicioso 
+ mbicioso ( ) lemma=ambicioso 
+ mbició ( ) lemma=ambición 
+ mbienta ( ) lemma=ambientar 
+ mbientale ( ) lemma=ambiental 
+ mbientalista ( ) lemma=ambientalista 
+ mbientalment ( ) lemma=ambiental 
+ mbient ( ) lemma=ambientar 
+ mbiente ( ) lemma=ambiente 
+ mbigu ( ) lemma=ambiguo 
+ mbiguament ( ) lemma=ambiguo 
+ mbigua ( ) lemma=ambiguo 
+ mbiguo ( ) lemma=ambiguo 
+ mbigüeda ( ) lemma=ambigüedad 
+ mbigüedade ( ) lemma=ambigüedad 
+ mbo ( ) lemma=ambo 
+ mbrosí ( ) lemma=ambrosía 
+ mbroxo ( ) lemma=ambroxol 
+ mbulanci ( ) lemma=ambulancia 
+ mbulancia ( ) lemma=ambulancia 
+ mbulant ( ) lemma=ambulante 
+ mbulante ( ) lemma=ambulante 
+ mbulatori ( ) lemma=ambulatorio 
+ mbulatorio ( ) lemma=ambulatorio 
+ meb ( ) lemma=ameba 
+ meba ( ) lemma=ameba 
+ mebian ( ) lemma=amebiano 
+ mebiasi ( ) lemma=amebiasis 
+ mebom ( ) lemma=ameboma 
+ medrent ( ) lemma=amedrentar 
+ medrenta ( ) lemma=amedrentar 
+ medrente ( ) lemma=amedrentar 
+ medrent� ( ) lemma=amedrentar 
+ meloblasto ( ) lemma=ameloblasto 
+ men ( ) lemma=ameno 
+ menac ( ) lemma=amenazar 
+ menacemo ( ) lemma=amenazar 
+ menace ( ) lemma=amenazar 
+ menaz ( ) lemma=amenaza 
+ menazab ( ) lemma=amenazar 
+ menazaba ( ) lemma=amenazar 
+ menazad ( ) lemma=amenazar 
+ menazada ( ) lemma=amenazar 
+ menazadore ( ) lemma=amenazador 
+ menazado ( ) lemma=amenazar 
+ menazamo ( ) lemma=amenazar 
+ menaza ( ) lemma=amenaza 
+ menazand ( ) lemma=amenazar 
+ menazant ( ) lemma=amenazante 
+ menazante ( ) lemma=amenazante 
+ menazar ( ) lemma=amenazar 
+ menazarl ( ) lemma=amenazar 
+ menazarla ( ) lemma=amenazar 
+ menazarle ( ) lemma=amenazar 
+ menazarno ( ) lemma=amenazar 
+ menazaro ( ) lemma=amenazar 
+ menazar� ( ) lemma=amenazar 
+ menazarí ( ) lemma=amenazar 
+ menazaría ( ) lemma=amenazar 
+ menazas ( ) lemma=amenazar 
+ menazándola ( ) lemma=amenazar 
+ menazándol ( ) lemma=amenazar 
+ menazándole ( ) lemma=amenazar 
+ menazá ( ) lemma=amenazar 
+ menaz� ( ) lemma=amenazar 
+ menci ( ) lemma=amencia 
+ meniza ( ) lemma=amenizar 
+ menizaro ( ) lemma=amenizar 
+ menorre ( ) lemma=amenorrea 
+ merican ( ) lemma=americano 
+ mericana ( ) lemma=americano 
+ mericano ( ) lemma=americano 
+ metrallad ( ) lemma=ametrallar 
+ metrallada ( ) lemma=ametrallar 
+ metrallador ( ) lemma=ametrallador 
+ metralladora ( ) lemma=ametrallador 
+ metrallado ( ) lemma=ametrallar 
+ metrallamient ( ) lemma=ametrallamiento 
+ metrallaro ( ) lemma=ametrallar 
+ mfotericin ( ) lemma=amfotericina 
+ mibian ( ) lemma=amibiano 
+ mid ( ) lemma=amida 
+ midació ( ) lemma=amidación 
+ mig ( ) lemma=amigo 
+ migabl ( ) lemma=amigable 
+ migablement ( ) lemma=amigable 
+ migable ( ) lemma=amigable 
+ migdalino ( ) lemma=amigdalino 
+ migo ( ) lemma=amigo 
+ miguism ( ) lemma=amiguismo 
+ miguit ( ) lemma=amiguita 
+ miguita ( ) lemma=amigo 
+ miguito ( ) lemma=amigo 
+ milan� ( ) lemma=amilanar 
+ milas ( ) lemma=amilasa 
+ milopectin ( ) lemma=amilopectina 
+ mino-carboxílic ( ) lemma=amino-carboxílico 
+ mino-termina ( ) lemma=amino-terminal 
+ minoacil-arn ( ) lemma=aminoacil-arnt 
+ minoacilació ( ) lemma=aminoacilación 
+ minoacídic ( ) lemma=aminoacídico 
+ minoacídico ( ) lemma=aminoácido 
+ minoazúca ( ) lemma=aminoazúcar 
+ minofilin ( ) lemma=aminofilina 
+ minoglicósi ( ) lemma=aminoglicósir 
+ minoimidazo ( ) lemma=aminoimidazol 
+ minopurínic ( ) lemma=aminopurínico 
+ minorad ( ) lemma=aminorar 
+ minorada ( ) lemma=aminorar 
+ minora ( ) lemma=aminorar 
+ minorand ( ) lemma=aminorar 
+ minotermina ( ) lemma=aminoterminal 
+ minotransferas ( ) lemma=aminotransferasa 
+ minoácid ( ) lemma=aminoácido 
+ minoácido ( ) lemma=aminoácido 
+ miodaron ( ) lemma=amiodarona 
+ miotrofí ( ) lemma=amiotrofía 
+ miotrófic ( ) lemma=amiotrófico 
+ mista ( ) lemma=amistar 
+ mistade ( ) lemma=amistad 
+ mistos ( ) lemma=amistoso 
+ mistosament ( ) lemma=amistoso 
+ mistosa ( ) lemma=amistoso 
+ mistoso ( ) lemma=amistoso 
+ mitriptilin ( ) lemma=amitriptilina 
+ mnesi ( ) lemma=amnesia 
+ mniocentesi ( ) lemma=amniocentesis 
+ mniot ( ) lemma=amniota 
+ mnistiada ( ) lemma=amnistiar 
+ mnistiado ( ) lemma=amnistiar 
+ mnistia ( ) lemma=amnistiar 
+ mnistí ( ) lemma=amnistía 
+ mnistía ( ) lemma=amnistía 
+ mniótic ( ) lemma=amniótico 
+ mnésic ( ) lemma=amnésico 
+ mofilin ( ) lemma=amofilina 
+ mold ( ) lemma=amoldar 
+ monedad ( ) lemma=amonedar 
+ monest ( ) lemma=amonestar 
+ monestacione ( ) lemma=amonestación 
+ monestació ( ) lemma=amonestación 
+ monestad ( ) lemma=amonestar 
+ monestado ( ) lemma=amonestar 
+ monesta ( ) lemma=amonestar 
+ monest� ( ) lemma=amonestar 
+ moniaca ( ) lemma=amoniacal 
+ moniac ( ) lemma=amoniaco 
+ moni ( ) lemma=amonio 
+ montonada ( ) lemma=amontonar 
+ montonad ( ) lemma=amontonar 
+ montonado ( ) lemma=amontonar 
+ montona ( ) lemma=amontonar 
+ montonand ( ) lemma=amontonar 
+ moníac ( ) lemma=amoníaco 
+ mo ( ) lemma=smog 
+ morcillo ( ) lemma=amor 
+ morcit ( ) lemma=amor 
+ morf ( ) lemma=amorfo 
+ moros ( ) lemma=amoroso 
+ mortaja ( ) lemma=amortajar 
+ mortic ( ) lemma=amortizar 
+ mortice ( ) lemma=amortizar 
+ mortigu ( ) lemma=amortiguar 
+ mortiguació ( ) lemma=amortiguación 
+ mortiguad ( ) lemma=amortiguar 
+ mortiguado ( ) lemma=amortiguar 
+ mortiguador ( ) lemma=amortiguador 
+ mortiguadore ( ) lemma=amortiguador 
+ mortiguamient ( ) lemma=amortiguamiento 
+ mortigua ( ) lemma=amortiguar 
+ mortiguand ( ) lemma=amortiguar 
+ mortiguará ( ) lemma=amortiguar 
+ mortigüe ( ) lemma=amortiguar 
+ mortiz ( ) lemma=amortizar 
+ mortizable ( ) lemma=amortizable 
+ mortizacione ( ) lemma=amortización 
+ mortizació ( ) lemma=amortización 
+ mortizad ( ) lemma=amortizar 
+ mortizado ( ) lemma=amortizar 
+ mortiza ( ) lemma=amortizar 
+ mortizarla ( ) lemma=amortizar 
+ mortizarl ( ) lemma=amortizar 
+ mortizar� ( ) lemma=amortizar 
+ mortizará ( ) lemma=amortizar 
+ mortizaría ( ) lemma=amortizar 
+ motinado ( ) lemma=amotinar 
+ motinamient ( ) lemma=amotinamiento 
+ motinamiento ( ) lemma=amotinamiento 
+ motina ( ) lemma=amotinar 
+ motinaro ( ) lemma=amotinar 
+ mpar ( ) lemma=amparo 
+ mparad ( ) lemma=amparar 
+ mparada ( ) lemma=amparar 
+ mparado ( ) lemma=amparar 
+ mpara ( ) lemma=amparar 
+ mparand ( ) lemma=amparar 
+ mpararo ( ) lemma=amparar 
+ mparars ( ) lemma=ampararse 
+ mparará ( ) lemma=amparar 
+ mparar� ( ) lemma=amparar 
+ mpararí ( ) lemma=amparar 
+ mpare ( ) lemma=impar 
+ mparo ( ) lemma=amparo 
+ mparándos ( ) lemma=amparar 
+ mpar� ( ) lemma=amparar 
+ mp ( ) lemma=ampc 
+ mperi ( ) lemma=imperio 
+ mperímetr ( ) lemma=amperímetro 
+ mplex ( ) lemma=amplexo 
+ mpli ( ) lemma=amplio 
+ mpliab ( ) lemma=ampliar 
+ mpliacione ( ) lemma=ampliación 
+ mpliació ( ) lemma=ampliación 
+ mpliad ( ) lemma=ampliar 
+ mpliada ( ) lemma=ampliar 
+ mpliado ( ) lemma=ampliar 
+ mpliament ( ) lemma=amplio 
+ mpliamo ( ) lemma=ampliar 
+ mpliand ( ) lemma=ampliar 
+ mplia ( ) lemma=amplio 
+ mpliar ( ) lemma=ampliar 
+ mpliara ( ) lemma=ampliar 
+ mpliaremo ( ) lemma=ampliar 
+ mpliarl ( ) lemma=ampliar 
+ mpliarla ( ) lemma=ampliar 
+ mpliarlo ( ) lemma=ampliar 
+ mpliaro ( ) lemma=ampliar 
+ mpliars ( ) lemma=ampliarse 
+ mpliar� ( ) lemma=ampliar 
+ mpliará ( ) lemma=ampliar 
+ mpliarí ( ) lemma=ampliar 
+ mplias ( ) lemma=ampliar 
+ mpliase ( ) lemma=ampliar 
+ mpliemo ( ) lemma=ampliar 
+ mplific ( ) lemma=amplificar 
+ mplificació ( ) lemma=amplificación 
+ mplificad ( ) lemma=amplificar 
+ mplificada ( ) lemma=amplificar 
+ mplificado ( ) lemma=amplificar 
+ mplificadorcit ( ) lemma=amplificador 
+ mplificadore ( ) lemma=amplificador 
+ mplifica ( ) lemma=amplificar 
+ mplificand ( ) lemma=amplificar 
+ mplificarí ( ) lemma=amplificar 
+ mplifié ( ) lemma=amplifiée 
+ mplio ( ) lemma=amplio 
+ mplitu ( ) lemma=amplitud 
+ mplitud ( ) lemma=amplitude 
+ mplitude ( ) lemma=amplitud 
+ mpliándol ( ) lemma=ampliar 
+ mpliándola ( ) lemma=ampliar 
+ mpliándolo ( ) lemma=ampliar 
+ mpliándos ( ) lemma=ampliar 
+ mpli� ( ) lemma=ampliar 
+ mplí ( ) lemma=ampliar 
+ mplía ( ) lemma=ampliar 
+ mplíe ( ) lemma=ampliar 
+ mplísim ( ) lemma=amplio 
+ mplísimament ( ) lemma=amplio 
+ mplísima ( ) lemma=amplio 
+ mpoll ( ) lemma=ampolla 
+ mpolla ( ) lemma=empollar 
+ mpular ( ) lemma=ampulare 
+ mpuloso ( ) lemma=ampuloso 
+ mput ( ) lemma=imputar 
+ mputacione ( ) lemma=imputación 
+ mputació ( ) lemma=imputación 
+ mputad ( ) lemma=imputar 
+ mputada ( ) lemma=amputar 
+ mputado ( ) lemma=imputar 
+ mputa ( ) lemma=imputar 
+ mputarl ( ) lemma=amputar 
+ mputará ( ) lemma=imputar 
+ mputemo ( ) lemma=amputar 
+ mueblad ( ) lemma=amueblar 
+ mulet ( ) lemma=amuleto 
+ muleto ( ) lemma=amuleto 
+ murallad ( ) lemma=amurallar 
+ murallado ( ) lemma=amurallar 
+ mé ( ) lemma=amén 
+ mígdal ( ) lemma=amígdala 
+ mínic ( ) lemma=amínico 
+ m� ( ) lemma=amar 
+ mónic ( ) lemma=amónico 
+ md ( ) lemma=cmde 
+ manab ( ) lemma=emanar 
+ manacione ( ) lemma=emanación 
+ manació ( ) lemma=emanación 
+ manad ( ) lemma=emanar 
+ mana ( ) lemma=emanar 
+ manand ( ) lemma=emanar 
+ manaro ( ) lemma=emanar 
+ manarí ( ) lemma=emanar 
+ mancipació ( ) lemma=emancipación 
+ mancipad ( ) lemma=emancipar 
+ mancipado ( ) lemma=emancipar 
+ mbadurna ( ) lemma=embadurnar 
+ mbadurnaro ( ) lemma=embadurnar 
+ mbajad ( ) lemma=embajada 
+ mbajada ( ) lemma=embajada 
+ mbajado ( ) lemma=embajador 
+ mbajador ( ) lemma=embajador 
+ mbajadore ( ) lemma=embajador 
+ mbalad ( ) lemma=embalar 
+ mbalado ( ) lemma=embalar 
+ mbalaj ( ) lemma=embalaje 
+ mbalaje ( ) lemma=embalaje 
+ mbalamo ( ) lemma=embalar 
+ mbala ( ) lemma=embalar 
+ mbalsad ( ) lemma=embalsar 
+ mbals ( ) lemma=embalsar 
+ mbalse ( ) lemma=embalsar 
+ mbancars ( ) lemma=embancarse 
+ mbarazad ( ) lemma=embarazar 
+ mbarazada ( ) lemma=embarazar 
+ mbarazado ( ) lemma=embarazar 
+ mbarazars ( ) lemma=embarazarse 
+ mbaraz ( ) lemma=embarazo 
+ mbarazo ( ) lemma=embarazo 
+ mbarazos ( ) lemma=embarazoso 
+ mbarazosa ( ) lemma=embarazoso 
+ mbarazoso ( ) lemma=embarazoso 
+ mbarc ( ) lemma=embarcar 
+ mbarcaba ( ) lemma=embarcar 
+ mbarcacione ( ) lemma=embarcación 
+ mbarcació ( ) lemma=embarcación 
+ mbarcad ( ) lemma=embarcar 
+ mbarcado ( ) lemma=embarcar 
+ mbarcamo ( ) lemma=embarcar 
+ mbarca ( ) lemma=embarcar 
+ mbarcarno ( ) lemma=embarcar 
+ mbarcaro ( ) lemma=embarcar 
+ mbarcars ( ) lemma=embarcarse 
+ mbarc� ( ) lemma=embarcar 
+ mbarg ( ) lemma=embargo 
+ mbargab ( ) lemma=embargar 
+ mbargable ( ) lemma=embargable 
+ mbargad ( ) lemma=embargar 
+ mbargada ( ) lemma=embargar 
+ mbargado ( ) lemma=embargar 
+ mbarga ( ) lemma=embargar 
+ mbargo ( ) lemma=embargo 
+ mbarg� ( ) lemma=embargar 
+ mbarqu ( ) lemma=embarcar 
+ mbarquemo ( ) lemma=embarcar 
+ mbarque ( ) lemma=embarcar 
+ mbat ( ) lemma=embate 
+ mbate ( ) lemma=embate 
+ mbebid ( ) lemma=embeber 
+ mbebido ( ) lemma=embeber 
+ mbeddin ( ) lemma=embedding 
+ mbestid ( ) lemma=embestir 
+ mbestida ( ) lemma=embestir 
+ mbesti ( ) lemma=embestir 
+ mbestí ( ) lemma=embestir 
+ mbestía ( ) lemma=embestir 
+ mbist ( ) lemma=embestir 
+ mbistier ( ) lemma=embestir 
+ mbisti� ( ) lemma=embestir 
+ mblem ( ) lemma=emblema 
+ mblema ( ) lemma=emblema 
+ mblemátic ( ) lemma=emblemático 
+ mblemática ( ) lemma=emblemático 
+ mblemático ( ) lemma=emblemático 
+ mboc� ( ) lemma=embocar 
+ mbol ( ) lemma=embolar 
+ mboli ( ) lemma=embolia 
+ mbolia ( ) lemma=embolia 
+ mbolism ( ) lemma=embolismo 
+ mbolizació ( ) lemma=embolización 
+ mbolsaba ( ) lemma=embolsar 
+ mbolsad ( ) lemma=embolsar 
+ mbolsa ( ) lemma=embolsar 
+ mbolsand ( ) lemma=embolsar 
+ mbols ( ) lemma=embolsar 
+ mbolse ( ) lemma=embolsar 
+ mborrachand ( ) lemma=emborrachar 
+ mborracharno ( ) lemma=emborrachar 
+ mborracharo ( ) lemma=emborrachar 
+ mborron ( ) lemma=emborronar 
+ mborronamo ( ) lemma=emborronar 
+ mborronand ( ) lemma=emborronar 
+ mborrona ( ) lemma=emborronar 
+ mboscad ( ) lemma=emboscar 
+ mboscada ( ) lemma=emboscar 
+ mboscado ( ) lemma=emboscar 
+ mboscaro ( ) lemma=emboscar 
+ mbotellad ( ) lemma=embotellar 
+ mbotellador ( ) lemma=embotellador 
+ mbotelladore ( ) lemma=embotellador 
+ mbotellado ( ) lemma=embotellar 
+ mbotellamiento ( ) lemma=embotellamiento 
+ mbotella ( ) lemma=embotellar 
+ mbotell� ( ) lemma=embotellar 
+ mbozad ( ) lemma=embozar 
+ mbraga ( ) lemma=embragar 
+ mbrag ( ) lemma=embragar 
+ mbragu ( ) lemma=embragar 
+ mbriagad ( ) lemma=embriagar 
+ mbriaga ( ) lemma=embriagar 
+ mbriagars ( ) lemma=embriagarse 
+ mbriague ( ) lemma=embriaguez 
+ mbriag� ( ) lemma=embriagar 
+ mbriogénesi ( ) lemma=embriogénesis 
+ mbriológic ( ) lemma=embriológico 
+ mbrionari ( ) lemma=embrionario 
+ mbrionaria ( ) lemma=embrionario 
+ mbrionario ( ) lemma=embrionario 
+ mbrione ( ) lemma=embrión 
+ mbriólogo ( ) lemma=embriólogo 
+ mbrió ( ) lemma=embrión 
+ mbrollad ( ) lemma=embrollar 
+ mbrolland ( ) lemma=embrollar 
+ mbrolla ( ) lemma=embrollar 
+ mbroll ( ) lemma=embrollar 
+ mbroll� ( ) lemma=embrollar 
+ mbrujad ( ) lemma=embrujar 
+ mbruj ( ) lemma=embrujar 
+ mbrutec ( ) lemma=embrutecer 
+ mbrutecid ( ) lemma=embrutecer 
+ mbrutecida ( ) lemma=embrutecer 
+ mbruteci� ( ) lemma=embrutecer 
+ mbud ( ) lemma=embudo 
+ mbust ( ) lemma=embustir 
+ mbuste ( ) lemma=embuste 
+ mbutid ( ) lemma=embutido 
+ mbutido ( ) lemma=embutido 
+ mbuti ( ) lemma=embutir 
+ mbólic ( ) lemma=embólico 
+ merg ( ) lemma=emerger 
+ merge ( ) lemma=emerger 
+ mergenci ( ) lemma=emergencia 
+ mergencia ( ) lemma=emergencia 
+ mergenc ( ) lemma=emergency 
+ mergent ( ) lemma=emergente 
+ mergente ( ) lemma=emergente 
+ merger� ( ) lemma=emerger 
+ mergería ( ) lemma=emerger 
+ mergid ( ) lemma=emerger 
+ mergida ( ) lemma=emerger 
+ mergido ( ) lemma=emerger 
+ mergiend ( ) lemma=emerger 
+ mergiero ( ) lemma=emerger 
+ mergi� ( ) lemma=emerger 
+ mergí ( ) lemma=emerger 
+ merj ( ) lemma=emerger 
+ migr ( ) lemma=emigrar 
+ migracione ( ) lemma=emigración 
+ migració ( ) lemma=emigración 
+ migrada ( ) lemma=emigrar 
+ migrad ( ) lemma=emigrar 
+ migrand ( ) lemma=emigrar 
+ migrant ( ) lemma=emigrante 
+ migraro ( ) lemma=emigrar 
+ migre ( ) lemma=emigrar 
+ migr� ( ) lemma=emigrar 
+ minenci ( ) lemma=eminencia 
+ minencia ( ) lemma=eminencia 
+ minent ( ) lemma=eminente 
+ minentement ( ) lemma=eminente 
+ minente ( ) lemma=eminente 
+ mirat ( ) lemma=emirato 
+ misari ( ) lemma=emisario 
+ misario ( ) lemma=emisario 
+ misione ( ) lemma=omisión 
+ misió ( ) lemma=omisión 
+ miso ( ) lemma=emisor 
+ misor ( ) lemma=emisora 
+ misora ( ) lemma=emisor 
+ misore ( ) lemma=emisor 
+ misó ( ) lemma=emisón 
+ mitamo ( ) lemma=imitar 
+ mita ( ) lemma=omitir 
+ mitanci ( ) lemma=emitancia 
+ mite ( ) lemma=omitir 
+ mitid ( ) lemma=omitir 
+ mitida ( ) lemma=omitir 
+ mitido ( ) lemma=omitir 
+ mitiend ( ) lemma=omitir 
+ mitier ( ) lemma=emitir 
+ mitiera ( ) lemma=omitir 
+ mitiero ( ) lemma=emitir 
+ mities ( ) lemma=emitir 
+ mitiese ( ) lemma=emitir 
+ mitimo ( ) lemma=omitir 
+ miti ( ) lemma=omitir 
+ mitiremo ( ) lemma=emitir 
+ mitirs ( ) lemma=omitirse 
+ mitir� ( ) lemma=omitir 
+ mitirá ( ) lemma=emitir 
+ mitirí ( ) lemma=emitir 
+ mitiríamo ( ) lemma=emitir 
+ mitiéramo ( ) lemma=emitir 
+ mitiésemo ( ) lemma=emitir 
+ miti� ( ) lemma=omitir 
+ mitái ( ) lemma=emitir 
+ mit� ( ) lemma=omitir 
+ mitíamo ( ) lemma=emitir 
+ mocion ( ) lemma=emocionar 
+ mocionaba ( ) lemma=emocionar 
+ mocionad ( ) lemma=emocionar 
+ mocionado ( ) lemma=emocionar 
+ mociona ( ) lemma=emocionar 
+ mocionale ( ) lemma=emocional 
+ mocionalment ( ) lemma=emocional 
+ mocionant ( ) lemma=emocionante 
+ mocionante ( ) lemma=emocionante 
+ mocionaro ( ) lemma=emocionar 
+ mocionart ( ) lemma=emocionar 
+ mocionar� ( ) lemma=emocionar 
+ mocione ( ) lemma=emoción 
+ mocion� ( ) lemma=emocionar 
+ moció ( ) lemma=emoción 
+ motiv ( ) lemma=emotivo 
+ motivida ( ) lemma=emotividad 
+ mpaca ( ) lemma=empacar 
+ mpach ( ) lemma=empachar 
+ mpadronad ( ) lemma=empadronar 
+ mpadronado ( ) lemma=empadronar 
+ mpalm ( ) lemma=empalmar 
+ mpalmad ( ) lemma=empalmar 
+ mpalmamo ( ) lemma=empalmar 
+ mpalma ( ) lemma=empalmar 
+ mpalmand ( ) lemma=empalmar 
+ mpalmar� ( ) lemma=empalmar 
+ mpalme ( ) lemma=empalmar 
+ mpalm� ( ) lemma=empalmar 
+ mpanad ( ) lemma=empanar 
+ mpanada ( ) lemma=empanada 
+ mpanadill ( ) lemma=empanada 
+ mpanadilla ( ) lemma=empanada 
+ mpantan ( ) lemma=empantanar 
+ mpantanada ( ) lemma=empantanar 
+ mpantanad ( ) lemma=empantanar 
+ mpantanado ( ) lemma=empantanar 
+ mpantana ( ) lemma=empantanar 
+ mpantanaro ( ) lemma=empantanar 
+ mpap ( ) lemma=empapar 
+ mpapad ( ) lemma=empapar 
+ mpapada ( ) lemma=empapar 
+ mpapado ( ) lemma=empapar 
+ mpapa ( ) lemma=empapar 
+ mpaqu ( ) lemma=empacar 
+ mpaque ( ) lemma=empacar 
+ mpaquet ( ) lemma=empaquetar 
+ mpaquetad ( ) lemma=empaquetar 
+ mpaquetada ( ) lemma=empaquetar 
+ mpaquetado ( ) lemma=empaquetar 
+ mpaquetamient ( ) lemma=empaquetamiento 
+ mpaqueta ( ) lemma=empaquetar 
+ mpaquetarl ( ) lemma=empaquetar 
+ mparedado ( ) lemma=emparedado 
+ mparej ( ) lemma=emparejar 
+ mparejad ( ) lemma=emparejar 
+ mparejada ( ) lemma=emparejar 
+ mparejado ( ) lemma=emparejar 
+ mparejamient ( ) lemma=emparejamiento 
+ mparejamiento ( ) lemma=emparejamiento 
+ mpareja ( ) lemma=emparejar 
+ mparejaro ( ) lemma=emparejar 
+ mparejars ( ) lemma=emparejar 
+ mparej� ( ) lemma=emparejar 
+ mparent ( ) lemma=emparentar 
+ mparentad ( ) lemma=emparentar 
+ mparentada ( ) lemma=emparentar 
+ mparentado ( ) lemma=emparentar 
+ mparenta ( ) lemma=emparentar 
+ mparrillad ( ) lemma=emparrillar 
+ mpast ( ) lemma=empastar 
+ mpastad ( ) lemma=empastar 
+ mpastado ( ) lemma=empastar 
+ mpat ( ) lemma=empatar 
+ mpatad ( ) lemma=empatar 
+ mpatado ( ) lemma=empatar 
+ mpatamo ( ) lemma=empatar 
+ mpata ( ) lemma=empatar 
+ mpatand ( ) lemma=empatar 
+ mpataro ( ) lemma=empatar 
+ mpate ( ) lemma=empatar 
+ mpatí ( ) lemma=empatía 
+ mpat� ( ) lemma=empatar 
+ mpañ ( ) lemma=empañar 
+ mpañad ( ) lemma=empañar 
+ mpañada ( ) lemma=empañar 
+ mpañado ( ) lemma=empañar 
+ mpaña ( ) lemma=empañar 
+ mpañar ( ) lemma=empañar 
+ mpañaro ( ) lemma=empañar 
+ mpañar� ( ) lemma=empañar 
+ mpañeta ( ) lemma=empañetar 
+ mpañ� ( ) lemma=empañar 
+ mpecemo ( ) lemma=empecer|empezar 
+ mpecerá ( ) lemma=empecer 
+ mpec� ( ) lemma=empezar 
+ mpecéi ( ) lemma=empecer|empezar 
+ mpedernid ( ) lemma=empedernir 
+ mpedernido ( ) lemma=empedernir 
+ mpedrad ( ) lemma=empedrar 
+ mpellone ( ) lemma=empellón 
+ mpeor ( ) lemma=empeorar 
+ mpeorad ( ) lemma=empeorar 
+ mpeoramient ( ) lemma=empeoramiento 
+ mpeora ( ) lemma=empeorar 
+ mpeorand ( ) lemma=empeorar 
+ mpeoraro ( ) lemma=empeorar 
+ mpeorar� ( ) lemma=empeorar 
+ mpeorará ( ) lemma=empeorar 
+ mpeorarí ( ) lemma=empeorar 
+ mpeoraría ( ) lemma=empeorar 
+ mpeoremo ( ) lemma=empeorar 
+ mpeore ( ) lemma=empeorar 
+ mpeor� ( ) lemma=empeorar 
+ mpequeñec ( ) lemma=empequeñecer 
+ mpequeñeciéndos ( ) lemma=empequeñecer 
+ mperado ( ) lemma=emperador 
+ mperadore ( ) lemma=emperador 
+ mperrad ( ) lemma=emperrado 
+ mpezab ( ) lemma=empezar 
+ mpezaba ( ) lemma=empezar 
+ mpezad ( ) lemma=empezar 
+ mpezamo ( ) lemma=empezar 
+ mpezand ( ) lemma=empezar 
+ mpeza ( ) lemma=empezar 
+ mpezar ( ) lemma=empezar 
+ mpezara ( ) lemma=empezar 
+ mpezaremo ( ) lemma=empezar 
+ mpezarl ( ) lemma=empezar 
+ mpezaro ( ) lemma=empezar 
+ mpezars ( ) lemma=empezar 
+ mpezar� ( ) lemma=empezar 
+ mpezará ( ) lemma=empezar 
+ mpezarí ( ) lemma=empezar 
+ mpezaría ( ) lemma=empezar 
+ mpezas ( ) lemma=empezar 
+ mpezase ( ) lemma=empezar 
+ mpezast ( ) lemma=empezar 
+ mpezábamo ( ) lemma=empezar 
+ mpezái ( ) lemma=empezar 
+ mpezándom ( ) lemma=empezar 
+ mpezáramo ( ) lemma=empezar 
+ mpezásemo ( ) lemma=empezar 
+ mpez� ( ) lemma=empezar 
+ mpeñ ( ) lemma=empeño 
+ mpeñab ( ) lemma=empeñar 
+ mpeñad ( ) lemma=empeñar 
+ mpeñada ( ) lemma=empeñar 
+ mpeñado ( ) lemma=empeñar 
+ mpeñamo ( ) lemma=empeñar 
+ mpeña ( ) lemma=empeñar 
+ mpeñara ( ) lemma=empeñar 
+ mpeñaro ( ) lemma=empeñar 
+ mpeñar� ( ) lemma=empeñar 
+ mpeñe ( ) lemma=empeñar 
+ mpeño ( ) lemma=empeño 
+ mpeñosa ( ) lemma=empeñoso 
+ mpeños ( ) lemma=empeñoso 
+ mpeñ� ( ) lemma=empeñar 
+ mpiec ( ) lemma=empezar 
+ mpiece ( ) lemma=empezar 
+ mpiem ( ) lemma=empiema 
+ mpiez ( ) lemma=empezar 
+ mpieza ( ) lemma=empezar 
+ mpinad ( ) lemma=empinar 
+ mpinado ( ) lemma=empinar 
+ mpinand ( ) lemma=empinar 
+ mpinandos ( ) lemma=empinar 
+ mpirism ( ) lemma=empirismo 
+ mpiétemen ( ) lemma=empiétement 
+ mplaz ( ) lemma=emplazar 
+ mplazab ( ) lemma=emplazar 
+ mplazad ( ) lemma=emplazar 
+ mplazada ( ) lemma=emplazar 
+ mplazado ( ) lemma=emplazar 
+ mplazamient ( ) lemma=emplazamiento 
+ mplazamiento ( ) lemma=emplazamiento 
+ mplazamo ( ) lemma=emplazar 
+ mplazand ( ) lemma=emplazar 
+ mplaza ( ) lemma=emplazar 
+ mplazarl ( ) lemma=emplazar 
+ mplaz� ( ) lemma=emplazar 
+ mple ( ) lemma=empleo 
+ mpleab ( ) lemma=emplear 
+ mpleaba ( ) lemma=emplear 
+ mplead ( ) lemma=emplear 
+ mpleada ( ) lemma=emplear 
+ mpleado ( ) lemma=empleado 
+ mpleador ( ) lemma=empleador 
+ mpleadora ( ) lemma=empleador 
+ mpleadore ( ) lemma=empleador 
+ mpleamo ( ) lemma=emplear 
+ mplea ( ) lemma=emplear 
+ mpleand ( ) lemma=emplear 
+ mplear ( ) lemma=emplear 
+ mpleara ( ) lemma=emplear 
+ mplearemo ( ) lemma=emplear 
+ mplearlo ( ) lemma=emplear 
+ mplearo ( ) lemma=emplear 
+ mplears ( ) lemma=emplearse 
+ mpleart ( ) lemma=emplear 
+ mplear� ( ) lemma=emplear 
+ mpleará ( ) lemma=emplear 
+ mplearí ( ) lemma=emplear 
+ mplearíamo ( ) lemma=emplear 
+ mplease ( ) lemma=emplear 
+ mpleemo ( ) lemma=emplear 
+ mplee ( ) lemma=emplear 
+ mpleo ( ) lemma=empleo 
+ mpleáramo ( ) lemma=emplear 
+ mple� ( ) lemma=emplear 
+ mplées ( ) lemma=emplear 
+ mpobrec ( ) lemma=empobrecer 
+ mpobrece ( ) lemma=empobrecer 
+ mpobreceremo ( ) lemma=empobrecer 
+ mpobrecer� ( ) lemma=empobrecer 
+ mpobrecerá ( ) lemma=empobrecer 
+ mpobrecerí ( ) lemma=empobrecer 
+ mpobrecería ( ) lemma=empobrecer 
+ mpobrecid ( ) lemma=empobrecer 
+ mpobrecida ( ) lemma=empobrecer 
+ mpobrecido ( ) lemma=empobrecer 
+ mpobreciend ( ) lemma=empobrecer 
+ mpobrecimient ( ) lemma=empobrecimiento 
+ mpobrezc ( ) lemma=empobrecer 
+ mpollad ( ) lemma=empollar 
+ mpori ( ) lemma=emporio 
+ mpotr ( ) lemma=empotrar 
+ mpotrad ( ) lemma=empotrar 
+ mpotrada ( ) lemma=empotrar 
+ mpotrado ( ) lemma=empotrar 
+ mprend ( ) lemma=emprender 
+ mprendamo ( ) lemma=emprender 
+ mprenda ( ) lemma=emprender 
+ mprendemo ( ) lemma=emprender 
+ mprende ( ) lemma=emprender 
+ mprenderemo ( ) lemma=emprender 
+ mprender� ( ) lemma=emprender 
+ mprenderá ( ) lemma=emprender 
+ mprenderí ( ) lemma=emprender 
+ mprenderíamo ( ) lemma=emprender 
+ mprendería ( ) lemma=emprender 
+ mprendid ( ) lemma=emprender 
+ mprendida ( ) lemma=emprender 
+ mprendido ( ) lemma=emprender 
+ mprendiend ( ) lemma=emprender 
+ mprendier ( ) lemma=emprender 
+ mprendiera ( ) lemma=emprender 
+ mprendiero ( ) lemma=emprender 
+ mprendiese ( ) lemma=emprender 
+ mprendimient ( ) lemma=emprendimiento 
+ mprendimo ( ) lemma=emprender 
+ mprendi� ( ) lemma=emprender 
+ mprend� ( ) lemma=emprender 
+ mprendía ( ) lemma=emprender 
+ mpres ( ) lemma=impreso 
+ mpresari ( ) lemma=empresario 
+ mpresariad ( ) lemma=empresariado 
+ mpresaria ( ) lemma=empresario 
+ mpresariale ( ) lemma=empresarial 
+ mpresarialment ( ) lemma=empresarial 
+ mpresario ( ) lemma=empresario 
+ mpresa ( ) lemma=imprimir 
+ mpréstit ( ) lemma=empréstito 
+ mpréstito ( ) lemma=empréstito 
+ mpuj ( ) lemma=empujar 
+ mpujab ( ) lemma=empujar 
+ mpujad ( ) lemma=empujar 
+ mpujada ( ) lemma=empujar 
+ mpujado ( ) lemma=empujar 
+ mpujamo ( ) lemma=empujar 
+ mpuja ( ) lemma=empujar 
+ mpujand ( ) lemma=empujar 
+ mpujarl ( ) lemma=empujar 
+ mpujarle ( ) lemma=empujar 
+ mpujarlo ( ) lemma=empujar 
+ mpujarno ( ) lemma=empujar 
+ mpujaro ( ) lemma=empujar 
+ mpujar� ( ) lemma=empujar 
+ mpujarí ( ) lemma=empujar 
+ mpujaría ( ) lemma=empujar 
+ mpuje ( ) lemma=empujar 
+ mpujoncit ( ) lemma=empujón 
+ mpujone ( ) lemma=empujón 
+ mpujándol ( ) lemma=empujar 
+ mpuj� ( ) lemma=empujar 
+ mpujó ( ) lemma=empujón 
+ mputec ( ) lemma=emputecer 
+ mpuñar ( ) lemma=empuñar 
+ mpíric ( ) lemma=empírico 
+ mpíricament ( ) lemma=empírico 
+ mpírica ( ) lemma=empírico 
+ mpírico ( ) lemma=empírico 
+ mul ( ) lemma=emular 
+ mulació ( ) lemma=emulación 
+ mulado ( ) lemma=emulador 
+ mulara ( ) lemma=emular 
+ mulsiona ( ) lemma=emulsionar 
+ mulsió ( ) lemma=emulsión 
+ mage ( ) lemma=imagen 
+ magin ( ) lemma=imaginar 
+ maginab ( ) lemma=imaginar 
+ maginaba ( ) lemma=imaginar 
+ maginabl ( ) lemma=imaginable 
+ maginable ( ) lemma=imaginable 
+ maginació ( ) lemma=imaginación 
+ magina ( ) lemma=imaginar 
+ maginad ( ) lemma=imaginar 
+ maginamo ( ) lemma=imaginar 
+ maginand ( ) lemma=imaginar 
+ maginao ( ) lemma=imaginar 
+ maginar ( ) lemma=imaginar 
+ maginara ( ) lemma=imaginar 
+ maginari ( ) lemma=imaginario 
+ maginaria ( ) lemma=imaginario 
+ maginario ( ) lemma=imaginario 
+ maginarm ( ) lemma=imaginar 
+ maginarno ( ) lemma=imaginar 
+ maginaro ( ) lemma=imaginar 
+ maginars ( ) lemma=imaginarse 
+ maginart ( ) lemma=imaginar 
+ maginar� ( ) lemma=imaginar 
+ maginará ( ) lemma=imaginar 
+ maginativ ( ) lemma=imaginativo 
+ maginativa ( ) lemma=imaginativo 
+ maginativo ( ) lemma=imaginativo 
+ maginemo ( ) lemma=imaginar 
+ magine ( ) lemma=imaginar 
+ maginerí ( ) lemma=imaginería 
+ maginizació ( ) lemma=imaginización 
+ maginiza ( ) lemma=imaginizar 
+ maginábamo ( ) lemma=imaginar 
+ maginándol ( ) lemma=imaginar 
+ maginárosl ( ) lemma=imaginar 
+ maginársel ( ) lemma=imaginarse 
+ maginá ( ) lemma=imaginar 
+ magin� ( ) lemma=imaginar 
+ maginéi ( ) lemma=imaginar 
+ maginémono ( ) lemma=imaginar 
+ magínat ( ) lemma=imaginarse 
+ magínatel ( ) lemma=imaginarse 
+ magínatelo ( ) lemma=imaginarse 
+ magínens ( ) lemma=imaginarse 
+ magínes ( ) lemma=imaginarse 
+ mberb ( ) lemma=imberbe 
+ mbornale ( ) lemma=imbornal 
+ mborrabl ( ) lemma=imborrable 
+ mborrable ( ) lemma=imborrable 
+ mbuida ( ) lemma=imbuir 
+ mbuid ( ) lemma=imbuir 
+ mbuido ( ) lemma=imbuir 
+ mbui ( ) lemma=imbuir 
+ mbuirs ( ) lemma=imbuirse 
+ mbuy ( ) lemma=imbuir 
+ mbéci ( ) lemma=imbécil 
+ mbécile ( ) lemma=imbécil 
+ midazo ( ) lemma=imidazol 
+ mitab ( ) lemma=imitar 
+ mitacione ( ) lemma=imitación 
+ mitació ( ) lemma=imitación 
+ mitada ( ) lemma=imitar 
+ mitado ( ) lemma=imitar 
+ mitand ( ) lemma=imitar 
+ mitara ( ) lemma=imitar 
+ mitars ( ) lemma=imitarse 
+ mitar� ( ) lemma=imitar 
+ mitatio ( ) lemma=imitation 
+ mpacienci ( ) lemma=impaciencia 
+ mpaciencia ( ) lemma=impaciencia 
+ mpacient ( ) lemma=impacientar 
+ mpacientad ( ) lemma=impacientar 
+ mpacienta ( ) lemma=impacientar 
+ mpacientar ( ) lemma=impacientar 
+ mpacientement ( ) lemma=impaciente 
+ mpaciente ( ) lemma=impaciente 
+ mpactació ( ) lemma=impactación 
+ mpactad ( ) lemma=impactar 
+ mpacta ( ) lemma=impactar 
+ mpactant ( ) lemma=impactante 
+ mpact ( ) lemma=impacto 
+ mpacto ( ) lemma=impacto 
+ mpact� ( ) lemma=impactar 
+ mpair ( ) lemma=impaire 
+ mpalpabl ( ) lemma=impalpable 
+ mpa ( ) lemma=impar 
+ mparabl ( ) lemma=imparable 
+ mparablement ( ) lemma=imparable 
+ mparable ( ) lemma=imparable 
+ mparcia ( ) lemma=imparcial 
+ mparciale ( ) lemma=imparcial 
+ mparcialida ( ) lemma=imparcialidad 
+ mparcialment ( ) lemma=imparcial 
+ mpart ( ) lemma=impartir 
+ mparta ( ) lemma=impartir 
+ mparte ( ) lemma=impartir 
+ mpartid ( ) lemma=impartir 
+ mpartida ( ) lemma=impartir 
+ mpartido ( ) lemma=impartir 
+ mpartiend ( ) lemma=impartir 
+ mpartier ( ) lemma=impartir 
+ mpartiero ( ) lemma=impartir 
+ mparti ( ) lemma=impartir 
+ mpartirl ( ) lemma=impartir 
+ mpartirle ( ) lemma=impartir 
+ mpartirs ( ) lemma=impartir 
+ mpartir� ( ) lemma=impartir 
+ mpartirá ( ) lemma=impartir 
+ mparti� ( ) lemma=impartir 
+ mpasibl ( ) lemma=impasible 
+ mpasiblement ( ) lemma=impasible 
+ mpasible ( ) lemma=impasible 
+ mpass ( ) lemma=impasse 
+ mpecabl ( ) lemma=impecable 
+ mpecablement ( ) lemma=impecable 
+ mpecable ( ) lemma=impecable 
+ mpedanc ( ) lemma=impedance 
+ mpedanci ( ) lemma=impedancia 
+ mpedancia ( ) lemma=impedancia 
+ mpedid ( ) lemma=impedir 
+ mpedida ( ) lemma=impedir 
+ mpedido ( ) lemma=impedir 
+ mpediment ( ) lemma=impedimento 
+ mpedimento ( ) lemma=impedimento 
+ mpedimo ( ) lemma=impedir 
+ mpedi ( ) lemma=impedir 
+ mpediremo ( ) lemma=impedir 
+ mpedirl ( ) lemma=impedir 
+ mpedirla ( ) lemma=impedir 
+ mpedirle ( ) lemma=impedir 
+ mpedirm ( ) lemma=impedir 
+ mpedirno ( ) lemma=impedir 
+ mpedirs ( ) lemma=impedirse 
+ mpedir� ( ) lemma=impedir 
+ mpedirá ( ) lemma=impedir 
+ mpedirí ( ) lemma=impedir 
+ mpediría ( ) lemma=impedir 
+ mpedí ( ) lemma=impedir 
+ mpedía ( ) lemma=impedir 
+ mpedírsel ( ) lemma=impedirse 
+ mpenetrabl ( ) lemma=impenetrable 
+ mpenetrable ( ) lemma=impenetrable 
+ mpensabl ( ) lemma=impensable 
+ mpensable ( ) lemma=impensable 
+ mper ( ) lemma=imperar 
+ mperab ( ) lemma=imperar 
+ mperaba ( ) lemma=imperar 
+ mperad ( ) lemma=imperar 
+ mpera ( ) lemma=imperar 
+ mperand ( ) lemma=imperar 
+ mperant ( ) lemma=imperante 
+ mperante ( ) lemma=imperante 
+ mperativ ( ) lemma=imperativo 
+ mperativament ( ) lemma=imperativo 
+ mperativa ( ) lemma=imperativo 
+ mperativo ( ) lemma=imperativo 
+ mperceptibl ( ) lemma=imperceptible 
+ mperceptiblement ( ) lemma=imperceptiblemente 
+ mperceptible ( ) lemma=imperceptible 
+ mperdonabl ( ) lemma=imperdonable 
+ mperdonable ( ) lemma=imperdonable 
+ mpere ( ) lemma=imperar 
+ mperfeccione ( ) lemma=imperfección 
+ mperfecció ( ) lemma=imperfección 
+ mperfect ( ) lemma=imperfecto 
+ mperfectament ( ) lemma=imperfecto 
+ mperfecto ( ) lemma=imperfecto 
+ mperia ( ) lemma=imperial 
+ mperiale ( ) lemma=imperial 
+ mperialism ( ) lemma=imperialismo 
+ mperialist ( ) lemma=imperialista 
+ mperialista ( ) lemma=imperialista 
+ mperici ( ) lemma=impericia 
+ mperio ( ) lemma=imperio 
+ mperios ( ) lemma=imperioso 
+ mperiosament ( ) lemma=imperioso 
+ mperiosa ( ) lemma=imperioso 
+ mperioso ( ) lemma=imperioso 
+ mpermeabilizada ( ) lemma=impermeabilizar 
+ mpermeabl ( ) lemma=impermeable 
+ mpermeable ( ) lemma=impermeable 
+ mpersona ( ) lemma=impersonal 
+ mpersonalizació ( ) lemma=impersonalización 
+ mpertinenci ( ) lemma=impertinencia 
+ mperturbabilida ( ) lemma=imperturbabilidad 
+ mperturbabl ( ) lemma=imperturbable 
+ mperturbablement ( ) lemma=imperturbable 
+ mperturbable ( ) lemma=imperturbable 
+ mper� ( ) lemma=imperar 
+ mpid ( ) lemma=impedir 
+ mpidamo ( ) lemma=impedir 
+ mpida ( ) lemma=impedir 
+ mpide ( ) lemma=impedir 
+ mpidiend ( ) lemma=impedir 
+ mpidier ( ) lemma=impedir 
+ mpidiera ( ) lemma=impedir 
+ mpidiero ( ) lemma=impedir 
+ mpidies ( ) lemma=impedir 
+ mpidiese ( ) lemma=impedir 
+ mpidiéndol ( ) lemma=impedir 
+ mpidiéndole ( ) lemma=impedir 
+ mpidiéndom ( ) lemma=impedir 
+ mpidiéndono ( ) lemma=impedir 
+ mpidiéndos ( ) lemma=impedirse 
+ mpidiéramo ( ) lemma=impedir 
+ mpidiésemo ( ) lemma=impedir 
+ mpidi� ( ) lemma=impedir 
+ mplacabl ( ) lemma=implacable 
+ mplacablement ( ) lemma=implacable 
+ mplacable ( ) lemma=implacable 
+ mplant ( ) lemma=implante 
+ mplantacione ( ) lemma=implantación 
+ mplantació ( ) lemma=implantación 
+ mplantad ( ) lemma=implantar 
+ mplantada ( ) lemma=implantar 
+ mplantado ( ) lemma=implantar 
+ mplantamo ( ) lemma=implantar 
+ mplanta ( ) lemma=implantar 
+ mplantand ( ) lemma=implantar 
+ mplantaro ( ) lemma=implantar 
+ mplantars ( ) lemma=implantar 
+ mplantar� ( ) lemma=implantar 
+ mplantará ( ) lemma=implantar 
+ mplante ( ) lemma=implantar 
+ mplantábamo ( ) lemma=implantar 
+ mplant� ( ) lemma=implantar 
+ mplement ( ) lemma=implementar 
+ mplementacione ( ) lemma=implementación 
+ mplementació ( ) lemma=implementación 
+ mplementada ( ) lemma=implementar 
+ mplementad ( ) lemma=implementar 
+ mplementa ( ) lemma=implementar 
+ mplementarl ( ) lemma=implementar 
+ mplemente ( ) lemma=implementar 
+ mplemento ( ) lemma=implemento 
+ mplic ( ) lemma=implicar 
+ mplicab ( ) lemma=implicar 
+ mplicaba ( ) lemma=implicar 
+ mplicacione ( ) lemma=implicación 
+ mplicació ( ) lemma=implicación 
+ mplicad ( ) lemma=implicar 
+ mplicada ( ) lemma=implicar 
+ mplicado ( ) lemma=implicar 
+ mplicamo ( ) lemma=implicar 
+ mplica ( ) lemma=implicar 
+ mplicand ( ) lemma=implicar 
+ mplicant ( ) lemma=implicante 
+ mplicar ( ) lemma=implicar 
+ mplicara ( ) lemma=implicar 
+ mplicare ( ) lemma=implicar 
+ mplicaro ( ) lemma=implicar 
+ mplicar� ( ) lemma=implicar 
+ mplicará ( ) lemma=implicar 
+ mplicarí ( ) lemma=implicar 
+ mplicaría ( ) lemma=implicar 
+ mplicas ( ) lemma=implicar 
+ mplicase ( ) lemma=implicar 
+ mplic� ( ) lemma=implicar 
+ mpliqu ( ) lemma=implicar 
+ mpliquemo ( ) lemma=implicar 
+ mplique ( ) lemma=implicar 
+ mplor ( ) lemma=implorar 
+ mplorad ( ) lemma=implorar 
+ mplora ( ) lemma=implorar 
+ mploraro ( ) lemma=implorar 
+ mplor� ( ) lemma=implorar 
+ mplícit ( ) lemma=implícito 
+ mplícitament ( ) lemma=implícito 
+ mplícita ( ) lemma=implícito 
+ mplícito ( ) lemma=implícito 
+ mplític ( ) lemma=implítico 
+ mponderabl ( ) lemma=imponderable 
+ mponderable ( ) lemma=imponderable 
+ mpondr� ( ) lemma=imponer 
+ mpondrá ( ) lemma=imponer 
+ mpondrí ( ) lemma=imponer 
+ mpondría ( ) lemma=imponer 
+ mpon ( ) lemma=imponer 
+ mponemo ( ) lemma=imponer 
+ mpone ( ) lemma=imponer 
+ mponent ( ) lemma=imponente 
+ mponente ( ) lemma=imponente 
+ mponerl ( ) lemma=imponer 
+ mponerla ( ) lemma=imponer 
+ mponerle ( ) lemma=imponer 
+ mponerm ( ) lemma=imponer 
+ mponerno ( ) lemma=imponer 
+ mponers ( ) lemma=imponerse 
+ mponert ( ) lemma=imponer 
+ mpong ( ) lemma=imponer 
+ mpongamo ( ) lemma=imponer 
+ mponga ( ) lemma=imponer 
+ mponibl ( ) lemma=imponible 
+ mponible ( ) lemma=imponible 
+ mponiend ( ) lemma=imponer 
+ mponiéndol ( ) lemma=imponer 
+ mponiéndole ( ) lemma=imponer 
+ mponiéndos ( ) lemma=imponer 
+ mponiéndosele ( ) lemma=imponerse 
+ mponérsel ( ) lemma=imponerse 
+ mponérsele ( ) lemma=imponerse 
+ mponí ( ) lemma=imponer 
+ mponía ( ) lemma=imponer 
+ mpopularida ( ) lemma=impopularidad 
+ mport ( ) lemma=importe 
+ mportab ( ) lemma=importar 
+ mportaba ( ) lemma=importar 
+ mportacione ( ) lemma=importación 
+ mportació ( ) lemma=importación 
+ mportad ( ) lemma=importar 
+ mportada ( ) lemma=importar 
+ mportado ( ) lemma=importar 
+ mportador ( ) lemma=importador 
+ mportadora ( ) lemma=importador 
+ mportadore ( ) lemma=importador 
+ mportamo ( ) lemma=importar 
+ mporta ( ) lemma=importar 
+ mportanci ( ) lemma=importancia 
+ mportand ( ) lemma=importar 
+ mportant ( ) lemma=importante 
+ mportantement ( ) lemma=importante 
+ mportante ( ) lemma=importante 
+ mportantísim ( ) lemma=importante 
+ mportantísima ( ) lemma=importante 
+ mportantísimo ( ) lemma=importante 
+ mportar ( ) lemma=importar 
+ mportaremo ( ) lemma=importar 
+ mportarla ( ) lemma=importar 
+ mportarl ( ) lemma=importar 
+ mportarle ( ) lemma=importar 
+ mportarlo ( ) lemma=importar 
+ mportarno ( ) lemma=importar 
+ mportaro ( ) lemma=importar 
+ mportars ( ) lemma=importar 
+ mportar� ( ) lemma=importar 
+ mportará ( ) lemma=importar 
+ mportarí ( ) lemma=importar 
+ mportaríamo ( ) lemma=importar 
+ mportemo ( ) lemma=importar 
+ mporte ( ) lemma=importe 
+ mportándola ( ) lemma=importar 
+ mportándol ( ) lemma=importar 
+ mportásemo ( ) lemma=importar 
+ mport� ( ) lemma=importar 
+ mposibilida ( ) lemma=imposibilidad 
+ mposibilidade ( ) lemma=imposibilidad 
+ mposibilit ( ) lemma=imposible 
+ mposibilitab ( ) lemma=imposibilitar 
+ mposibilitad ( ) lemma=imposibilitar 
+ mposibilitada ( ) lemma=imposibilitar 
+ mposibilitado ( ) lemma=imposibilitar 
+ mposibilita ( ) lemma=imposibilitar 
+ mposibilitar� ( ) lemma=imposibilitar 
+ mposibilitará ( ) lemma=imposibilitar 
+ mposibilitarí ( ) lemma=imposibilitar 
+ mposibilitaría ( ) lemma=imposibilitar 
+ mposibilite ( ) lemma=imposibilitar 
+ mposibilit� ( ) lemma=imposibilitar 
+ mposibl ( ) lemma=imposible 
+ mposible ( ) lemma=imposible 
+ mposicione ( ) lemma=imposición 
+ mposició ( ) lemma=imposición 
+ mpositiv ( ) lemma=impositivo 
+ mpositiva ( ) lemma=impositiva 
+ mpositivo ( ) lemma=impositivos 
+ mpostergable ( ) lemma=impostergable 
+ mpotenci ( ) lemma=impotencia 
+ mpotencia ( ) lemma=impotencia 
+ mpotent ( ) lemma=impotente 
+ mpotente ( ) lemma=impotente 
+ mpracticabl ( ) lemma=impracticable 
+ mprecis ( ) lemma=impreciso 
+ mprecisa ( ) lemma=impreciso 
+ mprecisione ( ) lemma=imprecisión 
+ mpreciso ( ) lemma=impreciso 
+ mpredecibl ( ) lemma=impredecible 
+ mpredecible ( ) lemma=impredecible 
+ mpregn ( ) lemma=impregnar 
+ mpregnab ( ) lemma=impregnar 
+ mpregnació ( ) lemma=impregnación 
+ mpregnad ( ) lemma=impregnar 
+ mpregnada ( ) lemma=impregnar 
+ mpregnado ( ) lemma=impregnar 
+ mpregna ( ) lemma=impregnar 
+ mpregnand ( ) lemma=impregnar 
+ mpregnars ( ) lemma=impregnar 
+ mpregnemo ( ) lemma=impregnar 
+ mpregn� ( ) lemma=impregnar 
+ mprejuzga ( ) lemma=imprejuzgar 
+ mprent ( ) lemma=imprenta 
+ mprescindibl ( ) lemma=imprescindible 
+ mprescindiblement ( ) lemma=imprescindible 
+ mprescindible ( ) lemma=imprescindible 
+ mpresentabl ( ) lemma=impresentable 
+ mpresentable ( ) lemma=impresentable 
+ mpresio ( ) lemma=impresión 
+ mpresion ( ) lemma=impresionar 
+ mpresionaba ( ) lemma=impresionar 
+ mpresionad ( ) lemma=impresionar 
+ mpresionado ( ) lemma=impresionar 
+ mpresiona ( ) lemma=impresionar 
+ mpresionant ( ) lemma=impresionante 
+ mpresionante ( ) lemma=impresionante 
+ mpresionaro ( ) lemma=impresionar 
+ mpresionas ( ) lemma=impresionar 
+ mpresione ( ) lemma=impresión 
+ mpresion� ( ) lemma=impresionar 
+ mpresió ( ) lemma=impresión 
+ mpreso ( ) lemma=imprimir 
+ mpresora ( ) lemma=impresor 
+ mpresore ( ) lemma=impresor 
+ mpressio ( ) lemma=impression 
+ mprevisibl ( ) lemma=imprevisible 
+ mprevisible ( ) lemma=imprevisible 
+ mprevistament ( ) lemma=imprevistamente 
+ mprim ( ) lemma=imprimir 
+ mprimamo ( ) lemma=imprimar|imprimir 
+ mprima ( ) lemma=imprimir 
+ mprime ( ) lemma=imprimar 
+ mprimeu ( ) lemma=imprimeur 
+ mprimibl ( ) lemma=imprimible 
+ mprimible ( ) lemma=imprimible 
+ mprimiend ( ) lemma=imprimir 
+ mprimiero ( ) lemma=imprimir 
+ mprimimo ( ) lemma=imprimir 
+ mprimi ( ) lemma=imprimir 
+ mprimirs ( ) lemma=imprimirse 
+ mprimir� ( ) lemma=imprimir 
+ mprimirá ( ) lemma=imprimir 
+ mprimi� ( ) lemma=imprimir 
+ mprimía ( ) lemma=imprimir 
+ mprobabl ( ) lemma=improbable 
+ mprobable ( ) lemma=improbable 
+ mprocedenci ( ) lemma=improcedencia 
+ mprocedent ( ) lemma=improcedente 
+ mprocedente ( ) lemma=improcedente 
+ mproductiv ( ) lemma=improductivo 
+ mproductiva ( ) lemma=improductivo 
+ mproductivo ( ) lemma=improductivo 
+ mpront ( ) lemma=impronta 
+ mpronta ( ) lemma=improntar 
+ mproperio ( ) lemma=improperio 
+ mpropi ( ) lemma=impropio 
+ mpropiament ( ) lemma=impropio 
+ mpropia ( ) lemma=impropio 
+ mpropio ( ) lemma=impropio 
+ mprorrogabl ( ) lemma=improrrogable 
+ mprorrogable ( ) lemma=improrrogable 
+ mprovisacione ( ) lemma=improvisación 
+ mprovisació ( ) lemma=improvisación 
+ mprovisad ( ) lemma=improvisar 
+ mprovisada ( ) lemma=improvisar 
+ mprovisado ( ) lemma=improvisar 
+ mprovisa ( ) lemma=improvisar 
+ mprovisand ( ) lemma=improvisar 
+ mprovisar ( ) lemma=improvisar 
+ mprovis ( ) lemma=improvisar 
+ mprovis� ( ) lemma=improvisar 
+ mprudenci ( ) lemma=imprudencia 
+ mprudencia ( ) lemma=imprudencia 
+ mprudent ( ) lemma=imprudente 
+ mprudentement ( ) lemma=imprudente 
+ mprudente ( ) lemma=imprudente 
+ mpuesta ( ) lemma=imponer 
+ mpuesto ( ) lemma=impuesto 
+ mpugn ( ) lemma=impugnar 
+ mpugnacione ( ) lemma=impugnación 
+ mpugnació ( ) lemma=impugnación 
+ mpugnad ( ) lemma=impugnar 
+ mpugnada ( ) lemma=impugnar 
+ mpugnado ( ) lemma=impugnar 
+ mpugnamo ( ) lemma=impugnar 
+ mpugna ( ) lemma=impugnar 
+ mpugnand ( ) lemma=impugnar 
+ mpugnara ( ) lemma=impugnar 
+ mpugnare ( ) lemma=impugnar 
+ mpugnaro ( ) lemma=impugnar 
+ mpugnars ( ) lemma=impugnar 
+ mpugnar� ( ) lemma=impugnar 
+ mpugne ( ) lemma=impugnar 
+ mpugn� ( ) lemma=impugnar 
+ mpuls ( ) lemma=impulso 
+ mpulsaba ( ) lemma=impulsar 
+ mpulsad ( ) lemma=impulsar 
+ mpulsada ( ) lemma=impulsar 
+ mpulsado ( ) lemma=impulsar 
+ mpulsamo ( ) lemma=impulsar 
+ mpulsa ( ) lemma=impulsar 
+ mpulsand ( ) lemma=impulsar 
+ mpulsar ( ) lemma=impulsar 
+ mpulsara ( ) lemma=impulsar 
+ mpulsaremo ( ) lemma=impulsar 
+ mpulsarl ( ) lemma=impulsar 
+ mpulsarla ( ) lemma=impulsar 
+ mpulsaro ( ) lemma=impulsar 
+ mpulsar� ( ) lemma=impulsar 
+ mpulsará ( ) lemma=impulsar 
+ mpulsarí ( ) lemma=impulsar 
+ mpulsase ( ) lemma=impulsar 
+ mpulsemo ( ) lemma=impulsar 
+ mpulse ( ) lemma=impulsar 
+ mpulsione ( ) lemma=impulsión 
+ mpulsion ( ) lemma=impulsions 
+ mpulsiv ( ) lemma=impulsivo 
+ mpulsiva ( ) lemma=impulsivo 
+ mpulsivida ( ) lemma=impulsividad 
+ mpulsivo ( ) lemma=impulsivo 
+ mpulsió ( ) lemma=impulsión 
+ mpulso ( ) lemma=impulso 
+ mpulsore ( ) lemma=impulsor 
+ mpulsándol ( ) lemma=impulsar 
+ mpulsásemo ( ) lemma=impulsar 
+ mpuls� ( ) lemma=impulsar 
+ mpun ( ) lemma=impune 
+ mpunement ( ) lemma=impune 
+ mpune ( ) lemma=impune 
+ mpunida ( ) lemma=impunidad 
+ mpur ( ) lemma=impuro 
+ mpureza ( ) lemma=impureza 
+ mpusier ( ) lemma=imponer 
+ mpusiera ( ) lemma=imponer 
+ mpusiero ( ) lemma=imponer 
+ mpusies ( ) lemma=imponer 
+ mpusiese ( ) lemma=imponer 
+ mpusimo ( ) lemma=imponer 
+ mpusiésemo ( ) lemma=imponer 
+ mpus ( ) lemma=imponer 
+ mputabl ( ) lemma=imputable 
+ mputable ( ) lemma=imputable 
+ mputamo ( ) lemma=imputar 
+ mputand ( ) lemma=imputar 
+ mputaremo ( ) lemma=imputar 
+ mputars ( ) lemma=imputarse 
+ mputar� ( ) lemma=imputar 
+ mputarí ( ) lemma=imputar 
+ mpute ( ) lemma=imputar 
+ mput� ( ) lemma=imputar 
+ mpédanc ( ) lemma=impédance 
+ mÁgene ( ) lemma=imagen 
+ mágene ( ) lemma=imagen 
+ macaco ( ) 
+ macarrón ( ) 
+ macerar ( ) 
+ machar ( ) 
+ machucar ( ) 
+ macar ( ) 
+ macumba ( ) 
+ madridisto ( ) 
+ magnificar ( ) 
+ magulladura ( ) 
+ maizal ( ) 
+ majar ( ) 
+ majestuoso ( ) 
+ malear ( ) 
+ maleante ( ) 
+ malentender ( ) 
+ malintencionar ( ) 
+ malnutrido ( ) 
+ maltés ( ) 
+ malvar ( ) 
+ malva ( ) 
+ manar|manir ( ) 
+ manchego ( ) 
+ mancillar ( ) 
+ mancar ( ) 
+ mancornar ( ) 
+ mandilar ( ) 
+ mandril ( ) 
+ manecilla ( ) 
+ mangazón ( ) 
+ manicura ( ) 
+ manir ( ) 
+ maniático ( ) 
+ manométrico ( ) 
+ mantilla ( ) 
+ manufacturar ( ) 
+ maníaco ( ) 
+ maquiavélico ( ) 
+ maquilar ( ) 
+ maquillador ( ) 
+ maquinar ( ) 
+ marchamar ( ) 
+ marchitar ( ) 
+ margar ( ) 
+ margenar ( ) 
+ marica ( ) 
+ marinar ( ) 
+ mariquerer ( ) 
+ mariscar ( ) 
+ marmóreo ( ) 
+ martillazo ( ) 
+ mascota ( ) 
+ mascullar ( ) 
+ masticable ( ) 
+ masticar ( ) 
+ masticatorio ( ) 
+ mastocito ( ) 
+ mastoideo ( ) 
+ masía ( ) 
+ matón ( ) 
+ matricular ( ) 
+ matrona ( ) 
+ mañoso ( ) 
+ mecaniquear ( ) 
+ mecanografiar ( ) 
+ mecanográfico ( ) 
+ medallón ( ) 
+ mediatizar ( ) 
+ medible ( ) 
+ medicar ( ) 
+ medicamentoso ( ) 
+ medicinar ( ) 
+ megabyte ( ) 
+ megahercio ( ) 
+ megaloblástico ( ) 
+ megarom ( ) 
+ megavatio ( ) 
+ meiótico ( ) 
+ mejorador ( ) 
+ melanocito ( ) 
+ melgar ( ) 
+ mellar ( ) 
+ mellizo ( ) 
+ memorar ( ) 
+ memorista ( ) 
+ menar ( ) 
+ meninge ( ) 
+ menopáusico ( ) 
+ menor|pequeño ( ) 
+ mensurable ( ) 
+ menudear ( ) 
+ mercar ( ) 
+ merar ( ) 
+ mesar ( ) 
+ mesenquimatoso ( ) 
+ mesodérmico ( ) 
+ mesonéfrico ( ) 
+ mesosoma ( ) 
+ mesozoico ( ) 
+ mestizar ( ) 
+ mesócrono ( ) 
+ metabisulfito ( ) 
+ metacarpiano ( ) 
+ metacarpofalángico ( ) 
+ metafásico ( ) 
+ meteoro ( ) 
+ mezcolanza ( ) 
+ micela ( ) 
+ micoplasma ( ) 
+ micorriza ( ) 
+ microcircuito ( ) 
+ microfósil ( ) 
+ micrón ( ) 
+ microonda ( ) 
+ microsómico ( ) 
+ microvatio ( ) 
+ micótico ( ) 
+ mielínico ( ) 
+ mentar|mentir ( ) 
+ migrar ( ) 
+ mi_hija ( ) 
+ mi_hijo ( ) 
+ milanés ( ) 
+ mililitro ( ) 
+ milimétrico ( ) 
+ militarizar ( ) 
+ milivoltio ( ) 
+ millonésimo ( ) 
+ minimiosina ( ) 
+ minoración ( ) 
+ minusvalorar ( ) 
+ miofibrilla ( ) 
+ miofilamento ( ) 
+ misivo ( ) 
+ mitológica ( ) 
+ mitra ( ) 
+ miñón ( ) 
+ mochar ( ) 
+ modorrar ( ) 
+ mojón ( ) 
+ moldeable ( ) 
+ moldar ( ) 
+ moldura ( ) 
+ moler ( ) 
+ momificar ( ) 
+ mondar ( ) 
+ mongol ( ) 
+ monitorear ( ) 
+ monocigótico ( ) 
+ monocromo ( ) 
+ monocromático ( ) 
+ monolítico ( ) 
+ mononucleado ( ) 
+ monosacárido ( ) 
+ monosilábico ( ) 
+ monotónico ( ) 
+ montador ( ) 
+ montés ( ) 
+ morar ( ) 
+ moralizador ( ) 
+ mordisquear ( ) 
+ morera ( ) 
+ morfema ( ) 
+ morfométrico ( ) 
+ morfo ( ) 
+ morro ( ) 
+ morsa ( ) 
+ mortuorio ( ) 
+ mosquear ( ) 
+ motilar ( ) 
+ motivador ( ) 
+ motorizar ( ) 
+ mucilaginoso ( ) 
+ muestral ( ) 
+ mulato ( ) 
+ mullir ( ) 
+ multicolor ( ) 
+ multitarea ( ) 
+ multivariante ( ) 
+ municipalizar ( ) 
+ morir|murar ( ) 
+ musgo ( ) 
+ musitar ( ) 
+ mustio ( ) 
+ mutacional ( ) 
+ mblig ( ) lemma=ombligo 
+ minos ( ) lemma=ominoso 
+ mitiéndos ( ) lemma=omitirse 
+ mití ( ) lemma=omitir 
+ mnipresent ( ) lemma=omnipresente 
+ mnipresente ( ) lemma=omnipresente 
+ mohioide ( ) lemma=omohioideo 
+ moplat ( ) lemma=omoplato 
+ móplato ( ) lemma=omóplato 
+ m-mielografí ( ) lemma=rm-mielografía 
+ medi ( ) lemma=rmedio 
+ mbilica ( ) lemma=umbilical 
+ mbilicale ( ) lemma=umbilical 
+ mbra ( ) lemma=umbral 
+ mbrale ( ) lemma=umbral 
+ mbroso ( ) lemma=umbroso 
+ mlau ( ) lemma=umlaut 

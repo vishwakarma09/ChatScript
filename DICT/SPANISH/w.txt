@@ -1,5 +1,5 @@
 ﻿ W ( ) 
- W0 ( ) 
+ W0 ( ) lemma=pW0p 
  WILLIAMS ( ) 
  WRU ( ) 
  WXN ( ) 
@@ -66,7 +66,7 @@
  Worm ( ) 
  Worth ( ) 
  Wundt ( ) 
- w ( ) 
+ w ( ) lemma=www 
  wais ( ) 
  wait ( ) 
  walrasiano ( ) 
@@ -77,7 +77,7 @@
  way ( ) 
  web ( ) 
  wharf ( ) 
- whiskies ( ) lemma=whisky 
+ whiskies ( ) 
  whisky ( ) 
  white ( ) 
  wilkhahn ( ) 
@@ -90,3 +90,13 @@
  workshop ( ) 
  wormhole ( ) 
  www ( ) 
+ W1 ( ) lemma=LW16 
+ wandes ( ) lemma=Rwandesa 
+ wazilandi ( ) lemma=Swazilandia 
+ weepe ( ) lemma=Sweeper 
+ wee ( ) lemma=Sweet 
+ wai ( ) lemma=swais 
+ washiorko ( ) lemma=kwashiorkor 
+ witc ( ) lemma=switch 
+ witche ( ) lemma=switched 
+ witchin ( ) lemma=switching 

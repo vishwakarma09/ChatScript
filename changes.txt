@@ -1,11 +1,22 @@
-Version 7.42
+
+Version 7.43  5/28/2017
+1. Numeric Substitutions -  replace ?_km kilomenters  converts 1.2km into 1.2 kilometers
+2. tokenization of 65' and 65" changed to leave token as is.
+    before it became 65 feet and 65 inches. You can get that same effect
+    by adding into your script somewhere:  
+    replace: ?_" inches
+    replace: ?_' feet
+3. $cs_topicretrylimit (default 30) allows you change when error occurs with too many topic retries.
+4. $$topic_retry_limit_exceeded set if limit is hit
+
+
+Version 7.42 5/7/2017
 1.  *~8b  for bidirectional search
 2. ^burst($val digitsplit)  splits into two pieces a word part and a digit part (dd12 => dd  12) and
 	(12dd => dd 12) - if it starts with digit, gets all consecutive digits as second value and all the
 	rest as first. Otherwise if ends with digit, gets all consecutive rear digits as second value and
  	rest of word before as first value.
 3. may now call outputmacros from patterns, it protects match variables across the call
-
 
 
 Version 7.411  5/7/2017

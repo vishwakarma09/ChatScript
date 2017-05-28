@@ -613,13 +613,13 @@ char* InvokeUser(char* &buffer,char* ptr, FunctionResult& result,WORDP D,unsigne
 			else if (val[0] == '\'' && val[1] == '_' && IsDigit(val[2]))
 			{
 				int id = GetWildcardID(val+1);
-				if (id >= 0) val = AllocateStack(wildcardCanonicalText[id],0,true);
+				if (id >= 0) val = AllocateStack(wildcardOriginalText[id],0,true);
 				else val = AllocateStack("");
 			}
 			else if (val[0] == '_' && IsDigit(val[1]))
 			{
 				int id = GetWildcardID(val);
-				if (id >= 0) val = AllocateStack(wildcardOriginalText[id],0,true);
+				if (id >= 0) val = AllocateStack(wildcardCanonicalText[id],0,true);
 				else val = AllocateStack("");
 			}
 			else if (*val && *(val-1) != '`') val = AllocateStack(val,0,true);
@@ -2570,8 +2570,8 @@ static FunctionResult MarkCode(char* buffer)
 	NextInferMark();
 	if (showMark || (trace & TRACE_PREPARE)) Log(ECHOSTDTRACELOG,(char*)"Mark %s: \r\n",D->word);
 	if (trace & TRACE_OUTPUT) Log(STDTRACELOG,(char*)"mark all @word %d ",D->word);
-	bool ucase = D->internalBits & UPPERCASE_HASH ? true : false;
-	MarkFacts(ucase,M,startPosition,endPosition);
+	int ucase = D->internalBits & UPPERCASE_HASH ? 1 : 0;
+	MarkFacts(0, ucase,M,startPosition,endPosition);
 	if (showMark) Log(ECHOSTDTRACELOG,(char*)"------\r\n");
 	*buffer = 0;
 	return NOPROBLEM_BIT;
@@ -3639,8 +3639,8 @@ static FunctionResult SetPronounCode(char* buffer)
 	if (startPosition < 1) startPosition = 1;
 	if (startPosition > wordCount)  startPosition = wordCount;
 	WORDP D = StoreWord(word);
-	bool ucase = D->internalBits & UPPERCASE_HASH ? true : false;
-	MarkFacts(ucase,MakeMeaning(D),startPosition,startPosition);
+	int ucase = D->internalBits & UPPERCASE_HASH ? 1 : 0;
+	MarkFacts(0,ucase,MakeMeaning(D),startPosition,startPosition);
 
 	WORDP entry;
 	WORDP canonical;

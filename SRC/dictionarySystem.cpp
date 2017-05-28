@@ -475,6 +475,8 @@ bool ReadForeignPosTags(char* fname)
 	while (ReadALine(readBuffer,in)>= 0)  // foreign name followed by bits of english pos
 	{
 		char* ptr = ReadCompiledWord(readBuffer,word+1);
+		if (!word[1])
+			continue;
 		uint64 flags = 0;
 		char flag[MAX_WORD_SIZE];
 		while (*ptr)
@@ -1134,9 +1136,11 @@ static void ReadDictDetailsBeforeLayer(int layer)
 {
 	char word[MAX_WORD_SIZE];
 	sprintf(word,(char*)"TMP/prebuild%d.bin",layer);
+	int oldBOM = BOM;
 	FILE* in = FopenReadWritten(word); // binary file, no BOM
 	if (in)
 	{
+		BOM = NOBOM;
 		unsigned int xoffset;
 		for (WORDP D = dictionaryBase+1; D < dictionaryPreBuild[layer]; ++D) 
 		{
@@ -1162,6 +1166,7 @@ static void ReadDictDetailsBeforeLayer(int layer)
 		}
 		FClose(in);
 	}
+	BOM = oldBOM;
 }
 
 void WordnetLockDictionary() // dictionary and facts before build0 layer 
@@ -2342,6 +2347,13 @@ char* WriteMeaning(MEANING T,bool withPos,char* buf)
     return buffer; // transiently available for a moment
 }
 
+char* GetWord(char* word)
+{
+	WORDP D = FindWord(word, 0, PRIMARY_CASE_ALLOWED);
+	if (D) return D->word;
+	return NULL;
+}
+
 void NoteLanguage()
 {
 	FILE* out = FopenUTF8Write((char*)"language.txt"); 
@@ -2391,7 +2403,6 @@ void ReadSubstitutes(const char* name,unsigned int build,const char* layer, unsi
 			while ((at = strchr(at, ' '))) *at = '+';	// change spaces to plus
 		}
 
-
 		WORDP D = FindWord(original,0, LOWERCASE_LOOKUP);	//   do we know original already?
 		if (D && D->internalBits & HAS_SUBSTITUTE)
 		{
@@ -2400,7 +2411,7 @@ void ReadSubstitutes(const char* name,unsigned int build,const char* layer, unsi
 				WORDP S = D->w.substitutes;
 				if (!S && !*replacement) {}
 				else if (S && stricmp(S->word,replacement)) 
-					Log(ECHOSTDTRACELOG, (char*)"Currently have a substitute for %s in %s of file %s\r\n", original, readBuffer, name);
+					Log(ECHOSTDTRACELOG, (char*)"Currently have a substitute %s for %s wanting %s of file %s\r\n", S->word, original, replacement, name);
 			}
 			continue;
 		}
@@ -2451,9 +2462,9 @@ void ReadSubstitutes(const char* name,unsigned int build,const char* layer, unsi
         if (hadHyphen) 
         {
 			D = FindWord(copy);	//   do we know original already?
-			if (D && D->internalBits & HAS_SUBSTITUTE)
+			if (D && D->internalBits & HAS_SUBSTITUTE && !stricmp(D->w.substitutes->word,S->word))
 			{
-				ReportBug((char*)"Already have a substitute for %s of %s",original,readBuffer)
+				ReportBug((char*)"Already have a substitute for %s of %s to %s\r\n",original,readBuffer,S->word)
 				continue;
 			}
 	
@@ -3252,7 +3263,6 @@ void LoadDictionary()
 		AcquireDefines((char*)"SRC/dictionarySystem.h"); //   get dictionary defines (must occur before loop that decodes properties into sets (below)
 	}
 
-	AcquirePosMeanings();
 	ReadAbbreviations((char*)"abbreviations.txt"); // needed for burst/tokenizing
 	*currentFilename = 0;
 	fullDictionary = (!stricmp(language,(char*)"ENGLISH")) || (dictionaryFree-dictionaryBase) > 170000; // a lot of words are defined, must be a full dictionary.
@@ -6973,6 +6983,7 @@ void ReadForeign()
 	{
 		char word[MAX_WORD_SIZE];
 		char* ptr = ReadCompiledWord(readBuffer, word); // the base word
+		if (!*word) continue;
 		uint64 flag = 0;
 		char junk[MAX_WORD_SIZE];
 		ptr = ReadCompiledWord(ptr, junk);

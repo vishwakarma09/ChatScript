@@ -1,5 +1,4 @@
-﻿ quotterait ( ) lemma=quotter 
- QG ( ) 
+﻿ QG ( ) 
  Quaker ( ) 
  Quedlimbourg ( ) 
  Quentin ( ) 
@@ -10,356 +9,356 @@
  Québec ( ) 
  qu' ( ) 
  quadragénaire ( ) 
- quadragénaires ( ) lemma=quadragénaire 
+ quadragénaires ( ) 
  quadragésimal ( ) 
- quadragésimale ( ) lemma=quadragésimal 
- quadragésimales ( ) lemma=quadragésimal 
- quadragésimaux ( ) lemma=quadragésimal 
+ quadragésimale ( ) 
+ quadragésimales ( ) 
+ quadragésimaux ( ) 
  quadragésime ( ) 
- quadragésimes ( ) lemma=quadragésime 
+ quadragésimes ( ) 
  quadrangle ( ) 
- quadrangles ( ) lemma=quadrangle 
+ quadrangles ( ) 
  quadrangulaire ( ) 
- quadrangulaires ( ) lemma=quadrangulaire 
+ quadrangulaires ( ) 
  quadrant ( ) 
- quadrants ( ) lemma=quadrant 
+ quadrants ( ) 
  quadrat ( ) 
  quadratin ( ) 
- quadratins ( ) lemma=quadratin 
+ quadratins ( ) 
  quadratique ( ) 
- quadratiques ( ) lemma=quadratique 
- quadrats ( ) lemma=quadrat 
+ quadratiques ( ) 
+ quadrats ( ) 
  quadrature ( ) 
- quadratures ( ) lemma=quadrature 
+ quadratures ( ) 
  quadrette ( ) 
- quadrettes ( ) lemma=quadrette 
+ quadrettes ( ) 
  quadriceps ( ) 
  quadrichromie ( ) 
- quadrichromies ( ) lemma=quadrichromie 
+ quadrichromies ( ) 
  quadricolore ( ) 
- quadricolores ( ) lemma=quadricolore 
+ quadricolores ( ) 
  quadricorne ( ) 
- quadricornes ( ) lemma=quadricorne 
+ quadricornes ( ) 
  quadricourant ( ) 
- quadricourants ( ) lemma=quadricourant 
+ quadricourants ( ) 
  quadricycle ( ) 
- quadricycles ( ) lemma=quadricycle 
+ quadricycles ( ) 
  quadridimensionnel ( ) 
- quadridimensionnelle ( ) lemma=quadridimensionnel 
- quadridimensionnelles ( ) lemma=quadridimensionnel 
- quadridimensionnels ( ) lemma=quadridimensionnel 
+ quadridimensionnelle ( ) 
+ quadridimensionnelles ( ) 
+ quadridimensionnels ( ) 
  quadriennal ( ) 
- quadriennale ( ) lemma=quadriennal 
- quadriennales ( ) lemma=quadriennal 
- quadriennaux ( ) lemma=quadriennal 
+ quadriennale ( ) 
+ quadriennales ( ) 
+ quadriennaux ( ) 
  quadrifide ( ) 
- quadrifides ( ) lemma=quadrifide 
+ quadrifides ( ) 
  quadrifolié ( ) 
- quadrifoliée ( ) lemma=quadrifolié 
- quadrifoliées ( ) lemma=quadrifolié 
- quadrifoliés ( ) lemma=quadrifolié 
+ quadrifoliée ( ) 
+ quadrifoliées ( ) 
+ quadrifoliés ( ) 
  quadrige ( ) 
- quadriges ( ) lemma=quadrige 
+ quadriges ( ) 
  quadrigémellaire ( ) 
- quadrigémellaires ( ) lemma=quadrigémellaire 
+ quadrigémellaires ( ) 
  quadrijumeaux ( ) 
  quadrilatère ( ) 
- quadrilatères ( ) lemma=quadrilatère 
+ quadrilatères ( ) 
  quadrilatéral ( ) 
- quadrilatérale ( ) lemma=quadrilatéral 
- quadrilatérales ( ) lemma=quadrilatéral 
- quadrilatéraux ( ) lemma=quadrilatéral 
+ quadrilatérale ( ) 
+ quadrilatérales ( ) 
+ quadrilatéraux ( ) 
  quadrilitère ( ) 
- quadrilitères ( ) lemma=quadrilitère 
- quadrilla ( ) lemma=quadriller 
- quadriller ( ) 
+ quadrilitères ( ) 
+ quadrilla ( ) 
  quadrillage ( ) 
- quadrillages ( ) lemma=quadrillage 
- quadrillai ( ) lemma=quadriller 
- quadrillaient ( ) lemma=quadriller 
- quadrillais ( ) lemma=quadriller 
- quadrillait ( ) lemma=quadriller 
- quadrillant ( ) lemma=quadriller 
- quadrillas ( ) lemma=quadriller 
- quadrillasse ( ) lemma=quadriller 
- quadrillassent ( ) lemma=quadriller 
- quadrillasses ( ) lemma=quadriller 
- quadrillassiez ( ) lemma=quadriller 
- quadrillassions ( ) lemma=quadriller 
+ quadrillages ( ) 
+ quadrillai ( ) 
+ quadrillaient ( ) 
+ quadrillais ( ) 
+ quadrillait ( ) 
+ quadrillant ( ) 
+ quadrillas ( ) 
+ quadrillasse ( ) 
+ quadrillassent ( ) 
+ quadrillasses ( ) 
+ quadrillassiez ( ) 
+ quadrillassions ( ) 
  quadrille ( ) 
- quadrillent ( ) lemma=quadriller 
- quadrillera ( ) lemma=quadriller 
- quadrillerai ( ) lemma=quadriller 
- quadrilleraient ( ) lemma=quadriller 
- quadrillerais ( ) lemma=quadriller 
- quadrillerait ( ) lemma=quadriller 
- quadrilleras ( ) lemma=quadriller 
- quadrillerez ( ) lemma=quadriller 
- quadrilleriez ( ) lemma=quadriller 
- quadrillerions ( ) lemma=quadriller 
- quadrillerons ( ) lemma=quadriller 
- quadrilleront ( ) lemma=quadriller 
- quadrilles ( ) lemma=quadrille 
- quadrillez ( ) lemma=quadriller 
- quadrilliez ( ) lemma=quadriller 
+ quadrillent ( ) 
+ quadriller ( ) 
+ quadrillera ( ) 
+ quadrillerai ( ) 
+ quadrilleraient ( ) 
+ quadrillerais ( ) 
+ quadrillerait ( ) 
+ quadrilleras ( ) 
+ quadrillerez ( ) 
+ quadrilleriez ( ) 
+ quadrillerions ( ) 
+ quadrillerons ( ) 
+ quadrilleront ( ) 
+ quadrilles ( ) 
+ quadrillez ( ) 
+ quadrilliez ( ) 
  quadrillion ( ) 
- quadrillions ( ) lemma=quadrillion 
- quadrillons ( ) lemma=quadriller 
- quadrillâmes ( ) lemma=quadriller 
- quadrillât ( ) lemma=quadriller 
- quadrillâtes ( ) lemma=quadriller 
- quadrillèrent ( ) lemma=quadriller 
- quadrillé ( ) lemma=quadriller 
- quadrillée ( ) lemma=quadriller 
- quadrillées ( ) lemma=quadriller 
- quadrillés ( ) lemma=quadriller 
+ quadrillions ( ) 
+ quadrillons ( ) 
+ quadrillâmes ( ) 
+ quadrillât ( ) 
+ quadrillâtes ( ) 
+ quadrillèrent ( ) 
+ quadrillé ( ) 
+ quadrillée ( ) 
+ quadrillées ( ) 
+ quadrillés ( ) 
  quadrilobe ( ) 
- quadrilobes ( ) lemma=quadrilobe 
+ quadrilobes ( ) 
  quadrilobé ( ) 
- quadrilobée ( ) lemma=quadrilobé 
- quadrilobées ( ) lemma=quadrilobé 
- quadrilobés ( ) lemma=quadrilobé 
+ quadrilobée ( ) 
+ quadrilobées ( ) 
+ quadrilobés ( ) 
  quadriloculaire ( ) 
- quadriloculaires ( ) lemma=quadriloculaire 
+ quadriloculaires ( ) 
  quadrimestre ( ) 
- quadrimestres ( ) lemma=quadrimestre 
+ quadrimestres ( ) 
  quadrimestriel ( ) 
- quadrimestrielle ( ) lemma=quadrimestriel 
- quadrimestrielles ( ) lemma=quadrimestriel 
- quadrimestriels ( ) lemma=quadrimestriel 
+ quadrimestrielle ( ) 
+ quadrimestrielles ( ) 
+ quadrimestriels ( ) 
  quadrimoteur ( ) 
- quadrimoteurs ( ) lemma=quadrimoteur 
+ quadrimoteurs ( ) 
  quadriparti ( ) 
- quadripartie ( ) lemma=quadriparti 
- quadriparties ( ) lemma=quadriparti 
- quadripartis ( ) lemma=quadriparti 
+ quadripartie ( ) 
+ quadriparties ( ) 
+ quadripartis ( ) 
  quadripartisme ( ) 
- quadripartismes ( ) lemma=quadripartisme 
+ quadripartismes ( ) 
  quadripartite ( ) 
- quadripartites ( ) lemma=quadripartite 
+ quadripartites ( ) 
  quadripartition ( ) 
- quadripartitions ( ) lemma=quadripartition 
+ quadripartitions ( ) 
  quadriphonie ( ) 
- quadriphonies ( ) lemma=quadriphonie 
+ quadriphonies ( ) 
  quadriphonique ( ) 
- quadriphoniques ( ) lemma=quadriphonique 
+ quadriphoniques ( ) 
  quadriplace ( ) 
- quadriplaces ( ) lemma=quadriplace 
+ quadriplaces ( ) 
  quadriplégie ( ) 
- quadriplégies ( ) lemma=quadriplégie 
+ quadriplégies ( ) 
  quadripolaire ( ) 
- quadripolaires ( ) lemma=quadripolaire 
+ quadripolaires ( ) 
  quadripétale ( ) 
- quadripétales ( ) lemma=quadripétale 
+ quadripétales ( ) 
  quadripôle ( ) 
- quadripôles ( ) lemma=quadripôle 
+ quadripôles ( ) 
  quadrique ( ) 
- quadriques ( ) lemma=quadrique 
+ quadriques ( ) 
  quadrirème ( ) 
- quadrirèmes ( ) lemma=quadrirème 
+ quadrirèmes ( ) 
  quadriréacteur ( ) 
- quadriréacteurs ( ) lemma=quadriréacteur 
+ quadriréacteurs ( ) 
  quadrisyllabe ( ) 
- quadrisyllabes ( ) lemma=quadrisyllabe 
+ quadrisyllabes ( ) 
  quadrisyllabique ( ) 
- quadrisyllabiques ( ) lemma=quadrisyllabique 
+ quadrisyllabiques ( ) 
  quadrivalence ( ) 
- quadrivalences ( ) lemma=quadrivalence 
+ quadrivalences ( ) 
  quadrivalent ( ) 
- quadrivalente ( ) lemma=quadrivalent 
- quadrivalentes ( ) lemma=quadrivalent 
- quadrivalents ( ) lemma=quadrivalent 
+ quadrivalente ( ) 
+ quadrivalentes ( ) 
+ quadrivalents ( ) 
  quadrivalve ( ) 
- quadrivalves ( ) lemma=quadrivalve 
+ quadrivalves ( ) 
  quadrivium ( ) 
- quadriviums ( ) lemma=quadrivium 
+ quadriviums ( ) 
  quadrumane ( ) 
- quadrumanes ( ) lemma=quadrumane 
- quadrupla ( ) lemma=quadrupler 
- quadrupler ( ) 
- quadruplai ( ) lemma=quadrupler 
- quadruplaient ( ) lemma=quadrupler 
- quadruplais ( ) lemma=quadrupler 
- quadruplait ( ) lemma=quadrupler 
- quadruplant ( ) lemma=quadrupler 
- quadruplas ( ) lemma=quadrupler 
- quadruplasse ( ) lemma=quadrupler 
- quadruplassent ( ) lemma=quadrupler 
- quadruplasses ( ) lemma=quadrupler 
- quadruplassiez ( ) lemma=quadrupler 
- quadruplassions ( ) lemma=quadrupler 
+ quadrumanes ( ) 
+ quadrupla ( ) 
+ quadruplai ( ) 
+ quadruplaient ( ) 
+ quadruplais ( ) 
+ quadruplait ( ) 
+ quadruplant ( ) 
+ quadruplas ( ) 
+ quadruplasse ( ) 
+ quadruplassent ( ) 
+ quadruplasses ( ) 
+ quadruplassiez ( ) 
+ quadruplassions ( ) 
  quadruple ( ) 
  quadruplement ( ) 
- quadruplements ( ) lemma=quadruplement 
- quadruplent ( ) lemma=quadrupler 
- quadruplera ( ) lemma=quadrupler 
- quadruplerai ( ) lemma=quadrupler 
- quadrupleraient ( ) lemma=quadrupler 
- quadruplerais ( ) lemma=quadrupler 
- quadruplerait ( ) lemma=quadrupler 
- quadrupleras ( ) lemma=quadrupler 
- quadruplerez ( ) lemma=quadrupler 
- quadrupleriez ( ) lemma=quadrupler 
- quadruplerions ( ) lemma=quadrupler 
- quadruplerons ( ) lemma=quadrupler 
- quadrupleront ( ) lemma=quadrupler 
- quadruples ( ) lemma=quadruple 
+ quadruplements ( ) 
+ quadruplent ( ) 
+ quadrupler ( ) 
+ quadruplera ( ) 
+ quadruplerai ( ) 
+ quadrupleraient ( ) 
+ quadruplerais ( ) 
+ quadruplerait ( ) 
+ quadrupleras ( ) 
+ quadruplerez ( ) 
+ quadrupleriez ( ) 
+ quadruplerions ( ) 
+ quadruplerons ( ) 
+ quadrupleront ( ) 
+ quadruples ( ) 
  quadruplet ( ) 
- quadruplets ( ) lemma=quadruplet 
+ quadruplets ( ) 
  quadruplette ( ) 
- quadruplettes ( ) lemma=quadruplette 
+ quadruplettes ( ) 
  quadruplex ( ) 
- quadruplez ( ) lemma=quadrupler 
- quadrupliez ( ) lemma=quadrupler 
- quadruplions ( ) lemma=quadrupler 
- quadruplons ( ) lemma=quadrupler 
- quadruplâmes ( ) lemma=quadrupler 
- quadruplât ( ) lemma=quadrupler 
- quadruplâtes ( ) lemma=quadrupler 
- quadruplèrent ( ) lemma=quadrupler 
- quadruplé ( ) lemma=quadrupler 
- quadruplée ( ) lemma=quadrupler 
+ quadruplez ( ) 
+ quadrupliez ( ) 
+ quadruplions ( ) 
+ quadruplons ( ) 
+ quadruplâmes ( ) 
+ quadruplât ( ) 
+ quadruplâtes ( ) 
+ quadruplèrent ( ) 
+ quadruplé ( ) 
+ quadruplée ( ) 
  quadruplées ( ) 
  quadruplés ( ) 
  quadrupède ( ) 
- quadrupèdes ( ) lemma=quadrupède 
+ quadrupèdes ( ) 
  quadrupédie ( ) 
- quadrupédies ( ) lemma=quadrupédie 
+ quadrupédies ( ) 
  quai ( ) 
  quaiche ( ) 
- quaiches ( ) lemma=quaiche 
- quais ( ) lemma=quai 
+ quaiches ( ) 
+ quais ( ) 
  quaker ( ) 
  quakeresse ( ) 
- quakeresses ( ) lemma=quakeresse 
+ quakeresses ( ) 
  quakerisme ( ) 
- quakerismes ( ) lemma=quakerisme 
+ quakerismes ( ) 
  quakeriste ( ) 
- quakeristes ( ) lemma=quakeriste 
- quakers ( ) lemma=quaker 
- qualifia ( ) lemma=qualifier 
- qualifier ( ) 
+ quakeristes ( ) 
+ quakers ( ) 
+ qualifia ( ) 
  qualifiable ( ) 
- qualifiables ( ) lemma=qualifiable 
- qualifiai ( ) lemma=qualifier 
- qualifiaient ( ) lemma=qualifier 
- qualifiais ( ) lemma=qualifier 
- qualifiait ( ) lemma=qualifier 
- qualifiant ( ) lemma=qualifier 
- qualifias ( ) lemma=qualifier 
- qualifiasse ( ) lemma=qualifier 
- qualifiassent ( ) lemma=qualifier 
- qualifiasses ( ) lemma=qualifier 
- qualifiassiez ( ) lemma=qualifier 
- qualifiassions ( ) lemma=qualifier 
+ qualifiables ( ) 
+ qualifiai ( ) 
+ qualifiaient ( ) 
+ qualifiais ( ) 
+ qualifiait ( ) 
+ qualifiant ( ) 
+ qualifias ( ) 
+ qualifiasse ( ) 
+ qualifiassent ( ) 
+ qualifiasses ( ) 
+ qualifiassiez ( ) 
+ qualifiassions ( ) 
  qualificateur ( ) 
- qualificateurs ( ) lemma=qualificateur 
+ qualificateurs ( ) 
  qualificatif ( ) 
- qualificatifs ( ) lemma=qualificatif 
+ qualificatifs ( ) 
  qualification ( ) 
- qualifications ( ) lemma=qualification 
- qualificative ( ) lemma=qualificatif 
- qualificatives ( ) lemma=qualificatif 
- qualifie ( ) lemma=qualifier 
- qualifient ( ) lemma=qualifier 
- qualifiera ( ) lemma=qualifier 
- qualifierai ( ) lemma=qualifier 
- qualifieraient ( ) lemma=qualifier 
- qualifierais ( ) lemma=qualifier 
- qualifierait ( ) lemma=qualifier 
- qualifieras ( ) lemma=qualifier 
- qualifierez ( ) lemma=qualifier 
- qualifieriez ( ) lemma=qualifier 
- qualifierions ( ) lemma=qualifier 
- qualifierons ( ) lemma=qualifier 
- qualifieront ( ) lemma=qualifier 
- qualifies ( ) lemma=qualifier 
- qualifiez ( ) lemma=qualifier 
- qualifiiez ( ) lemma=qualifier 
- qualifiions ( ) lemma=qualifier 
- qualifions ( ) lemma=qualifier 
- qualifiâmes ( ) lemma=qualifier 
- qualifiât ( ) lemma=qualifier 
- qualifiâtes ( ) lemma=qualifier 
- qualifièrent ( ) lemma=qualifier 
- qualifié ( ) lemma=qualifier 
- qualifiée ( ) lemma=qualifier 
- qualifiées ( ) lemma=qualifier 
- qualifiés ( ) lemma=qualifier 
+ qualifications ( ) 
+ qualificative ( ) 
+ qualificatives ( ) 
+ qualifie ( ) 
+ qualifient ( ) 
+ qualifier ( ) 
+ qualifiera ( ) 
+ qualifierai ( ) 
+ qualifieraient ( ) 
+ qualifierais ( ) 
+ qualifierait ( ) 
+ qualifieras ( ) 
+ qualifierez ( ) 
+ qualifieriez ( ) 
+ qualifierions ( ) 
+ qualifierons ( ) 
+ qualifieront ( ) 
+ qualifies ( ) 
+ qualifiez ( ) 
+ qualifiiez ( ) 
+ qualifiions ( ) 
+ qualifions ( ) 
+ qualifiâmes ( ) 
+ qualifiât ( ) 
+ qualifiâtes ( ) 
+ qualifièrent ( ) 
+ qualifié ( ) 
+ qualifiée ( ) 
+ qualifiées ( ) 
+ qualifiés ( ) 
  qualitatif ( ) 
- qualitatifs ( ) lemma=qualitatif 
- qualitative ( ) lemma=qualitatif 
+ qualitatifs ( ) 
+ qualitative ( ) 
  qualitativement ( ) 
- qualitatives ( ) lemma=qualitatif 
+ qualitatives ( ) 
  qualité ( ) 
- qualités ( ) lemma=qualité 
+ qualités ( ) 
  quand ( ) 
  quant ( ) 
  quant-à-soi ( ) 
  quanta ( ) 
- quantifia ( ) lemma=quantifier 
- quantifier ( ) 
+ quantifia ( ) 
  quantifiable ( ) 
- quantifiables ( ) lemma=quantifiable 
- quantifiai ( ) lemma=quantifier 
- quantifiaient ( ) lemma=quantifier 
- quantifiais ( ) lemma=quantifier 
- quantifiait ( ) lemma=quantifier 
- quantifiant ( ) lemma=quantifier 
- quantifias ( ) lemma=quantifier 
- quantifiasse ( ) lemma=quantifier 
- quantifiassent ( ) lemma=quantifier 
- quantifiasses ( ) lemma=quantifier 
- quantifiassiez ( ) lemma=quantifier 
- quantifiassions ( ) lemma=quantifier 
+ quantifiables ( ) 
+ quantifiai ( ) 
+ quantifiaient ( ) 
+ quantifiais ( ) 
+ quantifiait ( ) 
+ quantifiant ( ) 
+ quantifias ( ) 
+ quantifiasse ( ) 
+ quantifiassent ( ) 
+ quantifiasses ( ) 
+ quantifiassiez ( ) 
+ quantifiassions ( ) 
  quantificateur ( ) 
- quantificateurs ( ) lemma=quantificateur 
+ quantificateurs ( ) 
  quantification ( ) 
- quantifications ( ) lemma=quantification 
- quantifie ( ) lemma=quantifier 
- quantifient ( ) lemma=quantifier 
- quantifiera ( ) lemma=quantifier 
- quantifierai ( ) lemma=quantifier 
- quantifieraient ( ) lemma=quantifier 
- quantifierais ( ) lemma=quantifier 
- quantifierait ( ) lemma=quantifier 
- quantifieras ( ) lemma=quantifier 
- quantifierez ( ) lemma=quantifier 
- quantifieriez ( ) lemma=quantifier 
- quantifierions ( ) lemma=quantifier 
- quantifierons ( ) lemma=quantifier 
- quantifieront ( ) lemma=quantifier 
- quantifies ( ) lemma=quantifier 
+ quantifications ( ) 
+ quantifie ( ) 
+ quantifient ( ) 
+ quantifier ( ) 
+ quantifiera ( ) 
+ quantifierai ( ) 
+ quantifieraient ( ) 
+ quantifierais ( ) 
+ quantifierait ( ) 
+ quantifieras ( ) 
+ quantifierez ( ) 
+ quantifieriez ( ) 
+ quantifierions ( ) 
+ quantifierons ( ) 
+ quantifieront ( ) 
+ quantifies ( ) 
  quantifieur ( ) 
- quantifieurs ( ) lemma=quantifieur 
- quantifiez ( ) lemma=quantifier 
- quantifiiez ( ) lemma=quantifier 
- quantifiions ( ) lemma=quantifier 
- quantifions ( ) lemma=quantifier 
- quantifiâmes ( ) lemma=quantifier 
- quantifiât ( ) lemma=quantifier 
- quantifiâtes ( ) lemma=quantifier 
- quantifièrent ( ) lemma=quantifier 
- quantifié ( ) lemma=quantifier 
- quantifiée ( ) lemma=quantifier 
- quantifiées ( ) lemma=quantifier 
- quantifiés ( ) lemma=quantifier 
+ quantifieurs ( ) 
+ quantifiez ( ) 
+ quantifiiez ( ) 
+ quantifiions ( ) 
+ quantifions ( ) 
+ quantifiâmes ( ) 
+ quantifiât ( ) 
+ quantifiâtes ( ) 
+ quantifièrent ( ) 
+ quantifié ( ) 
+ quantifiée ( ) 
+ quantifiées ( ) 
+ quantifiés ( ) 
  quantique ( ) 
- quantiques ( ) lemma=quantique 
+ quantiques ( ) 
  quantitatif ( ) 
- quantitatifs ( ) lemma=quantitatif 
- quantitative ( ) lemma=quantitatif 
+ quantitatifs ( ) 
+ quantitative ( ) 
  quantitativement ( ) 
- quantitatives ( ) lemma=quantitatif 
+ quantitatives ( ) 
  quantitativiste ( ) 
- quantitativistes ( ) lemma=quantitativiste 
+ quantitativistes ( ) 
  quantité ( ) 
- quantités ( ) lemma=quantité 
+ quantités ( ) 
  quantième ( ) 
- quantièmes ( ) lemma=quantième 
+ quantièmes ( ) 
  quantum ( ) 
  quarantaine ( ) 
- quarantaines ( ) lemma=quarantaine 
+ quarantaines ( ) 
  quarante ( ) 
  quarante-cinq ( ) 
  quarante-deux ( ) 
@@ -372,261 +371,261 @@
  quarante-six ( ) 
  quarante-trois ( ) 
  quarantenaire ( ) 
- quarantenaires ( ) lemma=quarantenaire 
+ quarantenaires ( ) 
  quarantenier ( ) 
- quaranteniers ( ) lemma=quarantenier 
+ quaranteniers ( ) 
  quarantième ( ) 
  quarantièmement ( ) 
- quarantièmes ( ) lemma=quarantième 
- quarderonna ( ) lemma=quarderonner 
+ quarantièmes ( ) 
+ quarderonna ( ) 
+ quarderonnai ( ) 
+ quarderonnaient ( ) 
+ quarderonnais ( ) 
+ quarderonnait ( ) 
+ quarderonnant ( ) 
+ quarderonnas ( ) 
+ quarderonnasse ( ) 
+ quarderonnassent ( ) 
+ quarderonnasses ( ) 
+ quarderonnassiez ( ) 
+ quarderonnassions ( ) 
+ quarderonne ( ) 
+ quarderonnent ( ) 
  quarderonner ( ) 
- quarderonnai ( ) lemma=quarderonner 
- quarderonnaient ( ) lemma=quarderonner 
- quarderonnais ( ) lemma=quarderonner 
- quarderonnait ( ) lemma=quarderonner 
- quarderonnant ( ) lemma=quarderonner 
- quarderonnas ( ) lemma=quarderonner 
- quarderonnasse ( ) lemma=quarderonner 
- quarderonnassent ( ) lemma=quarderonner 
- quarderonnasses ( ) lemma=quarderonner 
- quarderonnassiez ( ) lemma=quarderonner 
- quarderonnassions ( ) lemma=quarderonner 
- quarderonne ( ) lemma=quarderonner 
- quarderonnent ( ) lemma=quarderonner 
- quarderonnera ( ) lemma=quarderonner 
- quarderonnerai ( ) lemma=quarderonner 
- quarderonneraient ( ) lemma=quarderonner 
- quarderonnerais ( ) lemma=quarderonner 
- quarderonnerait ( ) lemma=quarderonner 
- quarderonneras ( ) lemma=quarderonner 
- quarderonnerez ( ) lemma=quarderonner 
- quarderonneriez ( ) lemma=quarderonner 
- quarderonnerions ( ) lemma=quarderonner 
- quarderonnerons ( ) lemma=quarderonner 
- quarderonneront ( ) lemma=quarderonner 
- quarderonnes ( ) lemma=quarderonner 
- quarderonnez ( ) lemma=quarderonner 
- quarderonniez ( ) lemma=quarderonner 
- quarderonnions ( ) lemma=quarderonner 
- quarderonnons ( ) lemma=quarderonner 
- quarderonnâmes ( ) lemma=quarderonner 
- quarderonnât ( ) lemma=quarderonner 
- quarderonnâtes ( ) lemma=quarderonner 
- quarderonnèrent ( ) lemma=quarderonner 
- quarderonné ( ) lemma=quarderonner 
- quarderonnée ( ) lemma=quarderonner 
- quarderonnées ( ) lemma=quarderonner 
- quarderonnés ( ) lemma=quarderonner 
+ quarderonnera ( ) 
+ quarderonnerai ( ) 
+ quarderonneraient ( ) 
+ quarderonnerais ( ) 
+ quarderonnerait ( ) 
+ quarderonneras ( ) 
+ quarderonnerez ( ) 
+ quarderonneriez ( ) 
+ quarderonnerions ( ) 
+ quarderonnerons ( ) 
+ quarderonneront ( ) 
+ quarderonnes ( ) 
+ quarderonnez ( ) 
+ quarderonniez ( ) 
+ quarderonnions ( ) 
+ quarderonnons ( ) 
+ quarderonnâmes ( ) 
+ quarderonnât ( ) 
+ quarderonnâtes ( ) 
+ quarderonnèrent ( ) 
+ quarderonné ( ) 
+ quarderonnée ( ) 
+ quarderonnées ( ) 
+ quarderonnés ( ) 
  quark ( ) 
- quarks ( ) lemma=quark 
- quarra ( ) lemma=quarrer 
- quarrer ( ) 
+ quarks ( ) 
+ quarra ( ) 
  quarrable ( ) 
- quarrables ( ) lemma=quarrable 
- quarrai ( ) lemma=quarrer 
- quarraient ( ) lemma=quarrer 
- quarrais ( ) lemma=quarrer 
- quarrait ( ) lemma=quarrer 
- quarrant ( ) lemma=quarrer 
- quarras ( ) lemma=quarrer 
- quarrasse ( ) lemma=quarrer 
- quarrassent ( ) lemma=quarrer 
- quarrasses ( ) lemma=quarrer 
- quarrassiez ( ) lemma=quarrer 
- quarrassions ( ) lemma=quarrer 
- quarre ( ) lemma=quarrer 
- quarrent ( ) lemma=quarrer 
- quarrera ( ) lemma=quarrer 
- quarrerai ( ) lemma=quarrer 
- quarreraient ( ) lemma=quarrer 
- quarrerais ( ) lemma=quarrer 
- quarrerait ( ) lemma=quarrer 
- quarreras ( ) lemma=quarrer 
- quarrerez ( ) lemma=quarrer 
- quarreriez ( ) lemma=quarrer 
- quarrerions ( ) lemma=quarrer 
- quarrerons ( ) lemma=quarrer 
- quarreront ( ) lemma=quarrer 
- quarres ( ) lemma=quarrer 
- quarrez ( ) lemma=quarrer 
- quarriez ( ) lemma=quarrer 
- quarrions ( ) lemma=quarrer 
- quarrons ( ) lemma=quarrer 
- quarrâmes ( ) lemma=quarrer 
- quarrât ( ) lemma=quarrer 
- quarrâtes ( ) lemma=quarrer 
- quarrèrent ( ) lemma=quarrer 
- quarré ( ) lemma=quarrer 
- quarrée ( ) lemma=quarrer 
- quarrées ( ) lemma=quarrer 
- quarrés ( ) lemma=quarrer 
+ quarrables ( ) 
+ quarrai ( ) 
+ quarraient ( ) 
+ quarrais ( ) 
+ quarrait ( ) 
+ quarrant ( ) 
+ quarras ( ) 
+ quarrasse ( ) 
+ quarrassent ( ) 
+ quarrasses ( ) 
+ quarrassiez ( ) 
+ quarrassions ( ) 
+ quarre ( ) 
+ quarrent ( ) 
+ quarrer ( ) 
+ quarrera ( ) 
+ quarrerai ( ) 
+ quarreraient ( ) 
+ quarrerais ( ) 
+ quarrerait ( ) 
+ quarreras ( ) 
+ quarrerez ( ) 
+ quarreriez ( ) 
+ quarrerions ( ) 
+ quarrerons ( ) 
+ quarreront ( ) 
+ quarres ( ) 
+ quarrez ( ) 
+ quarriez ( ) 
+ quarrions ( ) 
+ quarrons ( ) 
+ quarrâmes ( ) 
+ quarrât ( ) 
+ quarrâtes ( ) 
+ quarrèrent ( ) 
+ quarré ( ) 
+ quarrée ( ) 
+ quarrées ( ) 
+ quarrés ( ) 
  quart ( ) 
  quart-de-pouce ( ) 
- quart-de-pouces ( ) lemma=quart-de-pouce 
+ quart-de-pouces ( ) 
  quart-de-rond ( ) 
- quart-de-ronds ( ) lemma=quart-de-rond 
- quarta ( ) lemma=quarter 
- quarter ( ) 
- quartage ( ) lemma=quartager 
+ quart-de-ronds ( ) 
+ quarta ( ) 
+ quartage ( ) 
+ quartagea ( ) 
+ quartageai ( ) 
+ quartageaient ( ) 
+ quartageais ( ) 
+ quartageait ( ) 
+ quartageant ( ) 
+ quartageas ( ) 
+ quartageasse ( ) 
+ quartageassent ( ) 
+ quartageasses ( ) 
+ quartageassiez ( ) 
+ quartageassions ( ) 
+ quartagent ( ) 
+ quartageons ( ) 
  quartager ( ) 
- quartagea ( ) lemma=quartager 
- quartageai ( ) lemma=quartager 
- quartageaient ( ) lemma=quartager 
- quartageais ( ) lemma=quartager 
- quartageait ( ) lemma=quartager 
- quartageant ( ) lemma=quartager 
- quartageas ( ) lemma=quartager 
- quartageasse ( ) lemma=quartager 
- quartageassent ( ) lemma=quartager 
- quartageasses ( ) lemma=quartager 
- quartageassiez ( ) lemma=quartager 
- quartageassions ( ) lemma=quartager 
- quartagent ( ) lemma=quartager 
- quartageons ( ) lemma=quartager 
- quartagera ( ) lemma=quartager 
- quartagerai ( ) lemma=quartager 
- quartageraient ( ) lemma=quartager 
- quartagerais ( ) lemma=quartager 
- quartagerait ( ) lemma=quartager 
- quartageras ( ) lemma=quartager 
- quartagerez ( ) lemma=quartager 
- quartageriez ( ) lemma=quartager 
- quartagerions ( ) lemma=quartager 
- quartagerons ( ) lemma=quartager 
- quartageront ( ) lemma=quartager 
- quartages ( ) lemma=quartager 
- quartagez ( ) lemma=quartager 
- quartageâmes ( ) lemma=quartager 
- quartageât ( ) lemma=quartager 
- quartageâtes ( ) lemma=quartager 
- quartagiez ( ) lemma=quartager 
- quartagions ( ) lemma=quartager 
- quartagèrent ( ) lemma=quartager 
- quartagé ( ) lemma=quartager 
- quartagée ( ) lemma=quartager 
- quartagées ( ) lemma=quartager 
- quartagés ( ) lemma=quartager 
- quartai ( ) lemma=quarter 
- quartaient ( ) lemma=quarter 
+ quartagera ( ) 
+ quartagerai ( ) 
+ quartageraient ( ) 
+ quartagerais ( ) 
+ quartagerait ( ) 
+ quartageras ( ) 
+ quartagerez ( ) 
+ quartageriez ( ) 
+ quartagerions ( ) 
+ quartagerons ( ) 
+ quartageront ( ) 
+ quartages ( ) 
+ quartagez ( ) 
+ quartageâmes ( ) 
+ quartageât ( ) 
+ quartageâtes ( ) 
+ quartagiez ( ) 
+ quartagions ( ) 
+ quartagèrent ( ) 
+ quartagé ( ) 
+ quartagée ( ) 
+ quartagées ( ) 
+ quartagés ( ) 
+ quartai ( ) 
+ quartaient ( ) 
  quartaine ( ) 
- quartaines ( ) lemma=quartaine 
- quartais ( ) lemma=quarter 
- quartait ( ) lemma=quarter 
+ quartaines ( ) 
+ quartais ( ) 
+ quartait ( ) 
  quartanier ( ) 
- quartaniers ( ) lemma=quartanier 
+ quartaniers ( ) 
  quartannier ( ) 
- quartanniers ( ) lemma=quartannier 
- quartant ( ) lemma=quarter 
- quartas ( ) lemma=quarter 
- quartasse ( ) lemma=quarter 
- quartassent ( ) lemma=quarter 
- quartasses ( ) lemma=quarter 
- quartassiez ( ) lemma=quarter 
- quartassions ( ) lemma=quarter 
+ quartanniers ( ) 
+ quartant ( ) 
+ quartas ( ) 
+ quartasse ( ) 
+ quartassent ( ) 
+ quartasses ( ) 
+ quartassiez ( ) 
+ quartassions ( ) 
  quartation ( ) 
- quartations ( ) lemma=quartation 
+ quartations ( ) 
  quartaut ( ) 
- quartauts ( ) lemma=quartaut 
- quarte ( ) lemma=quart 
+ quartauts ( ) 
+ quarte ( ) 
  quartefeuille ( ) 
- quartefeuilles ( ) lemma=quartefeuille 
+ quartefeuilles ( ) 
  quartelette ( ) 
- quartelettes ( ) lemma=quartelette 
+ quartelettes ( ) 
  quartenier ( ) 
- quarteniers ( ) lemma=quartenier 
- quartent ( ) lemma=quarter 
- quartera ( ) lemma=quarter 
- quarterai ( ) lemma=quarter 
- quarteraient ( ) lemma=quarter 
- quarterais ( ) lemma=quarter 
- quarterait ( ) lemma=quarter 
- quarteras ( ) lemma=quarter 
- quarterez ( ) lemma=quarter 
- quarteriez ( ) lemma=quarter 
- quarterions ( ) lemma=quarter 
+ quarteniers ( ) 
+ quartent ( ) 
+ quarter ( ) 
+ quartera ( ) 
+ quarterai ( ) 
+ quarteraient ( ) 
+ quarterais ( ) 
+ quarterait ( ) 
+ quarteras ( ) 
+ quarterez ( ) 
+ quarteriez ( ) 
+ quarterions ( ) 
  quarteron ( ) 
- quarteronne ( ) lemma=quarteron 
- quarteronnes ( ) lemma=quarteron 
- quarterons ( ) lemma=quarteron 
- quarteront ( ) lemma=quarter 
- quarters ( ) lemma=quarter 
- quartes ( ) lemma=quart 
+ quarteronne ( ) 
+ quarteronnes ( ) 
+ quarterons ( ) 
+ quarteront ( ) 
+ quarters ( ) 
+ quartes ( ) 
  quartet ( ) 
- quartets ( ) lemma=quartet 
+ quartets ( ) 
  quartett ( ) 
  quartette ( ) 
- quartettes ( ) lemma=quartette 
+ quartettes ( ) 
  quartettiste ( ) 
- quartettistes ( ) lemma=quartettiste 
- quartetts ( ) lemma=quartett 
- quartez ( ) lemma=quarter 
+ quartettistes ( ) 
+ quartetts ( ) 
+ quartez ( ) 
  quartidi ( ) 
- quartidis ( ) lemma=quartidi 
+ quartidis ( ) 
  quartier ( ) 
  quartier-maître ( ) 
- quartier-maîtres ( ) lemma=quartier-maître 
- quartiers ( ) lemma=quartier 
- quartiez ( ) lemma=quarter 
+ quartier-maîtres ( ) 
+ quartiers ( ) 
+ quartiez ( ) 
  quartilage ( ) 
- quartilages ( ) lemma=quartilage 
+ quartilages ( ) 
  quartile ( ) 
- quartiles ( ) lemma=quartile 
- quartions ( ) lemma=quarter 
+ quartiles ( ) 
+ quartions ( ) 
  quartique ( ) 
- quartiques ( ) lemma=quartique 
+ quartiques ( ) 
  quarto ( ) 
- quartons ( ) lemma=quarter 
- quarts ( ) lemma=quart 
- quartzeuse ( ) lemma=quartzeux 
+ quartons ( ) 
+ quarts ( ) 
+ quartzeuse ( ) 
+ quartzeuses ( ) 
  quartzeux ( ) 
- quartzeuses ( ) lemma=quartzeux 
  quartzifère ( ) 
- quartzifères ( ) lemma=quartzifère 
+ quartzifères ( ) 
  quartzique ( ) 
- quartziques ( ) lemma=quartzique 
+ quartziques ( ) 
  quartzite ( ) 
- quartâmes ( ) lemma=quarter 
- quartât ( ) lemma=quarter 
- quartâtes ( ) lemma=quarter 
- quartèrent ( ) lemma=quarter 
+ quartâmes ( ) 
+ quartât ( ) 
+ quartâtes ( ) 
+ quartèrent ( ) 
  quarté ( ) 
- quartée ( ) lemma=quarter 
- quartées ( ) lemma=quarter 
- quartés ( ) lemma=quarté 
+ quartée ( ) 
+ quartées ( ) 
+ quartés ( ) 
  quasar ( ) 
- quasars ( ) lemma=quasar 
+ quasars ( ) 
  quasi ( ) 
  quasi-certitude ( ) 
- quasi-certitudes ( ) lemma=quasi-certitude 
+ quasi-certitudes ( ) 
  quasi-contrat ( ) 
- quasi-contrats ( ) lemma=quasi-contrat 
+ quasi-contrats ( ) 
  quasi-délit ( ) 
- quasi-délits ( ) lemma=quasi-délit 
+ quasi-délits ( ) 
  quasi-usufruit ( ) 
- quasi-usufruits ( ) lemma=quasi-usufruit 
+ quasi-usufruits ( ) 
  quasiment ( ) 
  quasimodo ( ) 
- quasimodos ( ) lemma=quasimodo 
- quasis ( ) lemma=quasi 
+ quasimodos ( ) 
+ quasis ( ) 
  quassia ( ) 
- quassias ( ) lemma=quassia 
+ quassias ( ) 
  quassier ( ) 
- quassiers ( ) lemma=quassier 
+ quassiers ( ) 
  quassine ( ) 
- quassines ( ) lemma=quassine 
+ quassines ( ) 
  quater ( ) 
  quaternaire ( ) 
- quaternaires ( ) lemma=quaternaire 
+ quaternaires ( ) 
  quaterne ( ) 
- quaternes ( ) lemma=quaterne 
+ quaternes ( ) 
  quaternion ( ) 
- quaternions ( ) lemma=quaternion 
+ quaternions ( ) 
  quatorze ( ) 
  quatorzième ( ) 
  quatorzièmement ( ) 
- quatorzièmes ( ) lemma=quatorzième 
+ quatorzièmes ( ) 
  quatrain ( ) 
- quatrains ( ) lemma=quatrain 
+ quatrains ( ) 
  quatre ( ) 
  quatre-cent-vingt-et-un ( ) 
  quatre-de-chiffre ( ) 
@@ -636,7 +635,7 @@
  quatre-mâts ( ) 
  quatre-quarts ( ) 
  quatre-quatre ( ) 
- quatre-quatres ( ) lemma=quatre-quatre 
+ quatre-quatres ( ) 
  quatre-saisons ( ) 
  quatre-temps ( ) 
  quatre-vingt-cinq ( ) 
@@ -660,927 +659,1170 @@
  quatre-vingt-un ( ) 
  quatre-vingt-une ( ) 
  quatre-vingtième ( ) 
- quatre-vingtièmes ( ) lemma=quatre-vingtième 
+ quatre-vingtièmes ( ) 
  quatre-vingts ( ) 
  quatre-épices ( ) 
  quatrillion ( ) 
- quatrillions ( ) lemma=quatrillion 
+ quatrillions ( ) 
  quatrième ( ) 
  quatrièmement ( ) 
- quatrièmes ( ) lemma=quatrième 
+ quatrièmes ( ) 
  quattrocento ( ) 
- quattrocentos ( ) lemma=quattrocento 
+ quattrocentos ( ) 
  quatuor ( ) 
- quatuors ( ) lemma=quatuor 
+ quatuors ( ) 
  que ( ) 
  quebracho ( ) 
- quebrachos ( ) lemma=quebracho 
+ quebrachos ( ) 
  quechua ( ) 
- quechuas ( ) lemma=quechua 
+ quechuas ( ) 
  quel ( ) 
  quelconque ( ) 
- quelconques ( ) lemma=quelconque 
- quelle ( ) lemma=quel 
+ quelconques ( ) 
+ quelle ( ) 
  quellement ( ) 
- quelles ( ) lemma=quel 
- quelqu' ( ) lemma=quelque 
- quelque ( ) 
+ quelles ( ) 
+ quelqu' ( ) 
  quelqu'un ( ) 
- quelqu'une ( ) lemma=quelqu'un 
+ quelqu'une ( ) 
+ quelque ( ) 
  quelquefois ( ) 
- quelques ( ) lemma=quelque 
- quelques-unes ( ) lemma=quelques-uns 
+ quelques ( ) 
+ quelques-unes ( ) 
  quelques-uns ( ) 
- quels ( ) lemma=quel 
+ quels ( ) 
  quenelle ( ) 
- quenelles ( ) lemma=quenelle 
+ quenelles ( ) 
  quenotte ( ) 
- quenottes ( ) lemma=quenotte 
+ quenottes ( ) 
  quenouille ( ) 
- quenouilles ( ) lemma=quenouille 
+ quenouilles ( ) 
  quenouillée ( ) 
- quenouillées ( ) lemma=quenouillée 
+ quenouillées ( ) 
  quercinois ( ) 
- quercinoise ( ) lemma=quercinois 
- quercinoises ( ) lemma=quercinois 
+ quercinoise ( ) 
+ quercinoises ( ) 
  quercitrin ( ) 
  quercitrine ( ) 
- quercitrines ( ) lemma=quercitrine 
- quercitrins ( ) lemma=quercitrin 
+ quercitrines ( ) 
+ quercitrins ( ) 
  quercitron ( ) 
- quercitrons ( ) lemma=quercitron 
- querella ( ) lemma=quereller 
- quereller ( ) 
- querellai ( ) lemma=quereller 
- querellaient ( ) lemma=quereller 
- querellais ( ) lemma=quereller 
- querellait ( ) lemma=quereller 
- querellant ( ) lemma=quereller 
- querellas ( ) lemma=quereller 
- querellasse ( ) lemma=quereller 
- querellassent ( ) lemma=quereller 
- querellasses ( ) lemma=quereller 
- querellassiez ( ) lemma=quereller 
- querellassions ( ) lemma=quereller 
+ quercitrons ( ) 
+ querella ( ) 
+ querellai ( ) 
+ querellaient ( ) 
+ querellais ( ) 
+ querellait ( ) 
+ querellant ( ) 
+ querellas ( ) 
+ querellasse ( ) 
+ querellassent ( ) 
+ querellasses ( ) 
+ querellassiez ( ) 
+ querellassions ( ) 
  querelle ( ) 
- querellent ( ) lemma=quereller 
- querellera ( ) lemma=quereller 
- querellerai ( ) lemma=quereller 
- querelleraient ( ) lemma=quereller 
- querellerais ( ) lemma=quereller 
- querellerait ( ) lemma=quereller 
- querelleras ( ) lemma=quereller 
- querellerez ( ) lemma=quereller 
- querelleriez ( ) lemma=quereller 
- querellerions ( ) lemma=quereller 
- querellerons ( ) lemma=quereller 
- querelleront ( ) lemma=quereller 
- querelles ( ) lemma=querelle 
+ querellent ( ) 
+ quereller ( ) 
+ querellera ( ) 
+ querellerai ( ) 
+ querelleraient ( ) 
+ querellerais ( ) 
+ querellerait ( ) 
+ querelleras ( ) 
+ querellerez ( ) 
+ querelleriez ( ) 
+ querellerions ( ) 
+ querellerons ( ) 
+ querelleront ( ) 
+ querelles ( ) 
  querelleur ( ) 
- querelleurs ( ) lemma=querelleur 
- querelleuse ( ) lemma=querelleur|querelleux 
- querelleur|querelleux ( ) 
- querelleuses ( ) lemma=querelleur|querelleux 
+ querelleurs ( ) 
+ querelleuse ( ) 
+ querelleuses ( ) 
  querelleux ( ) 
- querellez ( ) lemma=quereller 
- querelliez ( ) lemma=quereller 
- querellions ( ) lemma=quereller 
- querellons ( ) lemma=quereller 
- querellâmes ( ) lemma=quereller 
- querellât ( ) lemma=quereller 
- querellâtes ( ) lemma=quereller 
- querellèrent ( ) lemma=quereller 
- querellé ( ) lemma=quereller 
- querellée ( ) lemma=quereller 
- querellées ( ) lemma=quereller 
- querellés ( ) lemma=quereller 
+ querellez ( ) 
+ querelliez ( ) 
+ querellions ( ) 
+ querellons ( ) 
+ querellâmes ( ) 
+ querellât ( ) 
+ querellâtes ( ) 
+ querellèrent ( ) 
+ querellé ( ) 
+ querellée ( ) 
+ querellées ( ) 
+ querellés ( ) 
  quernage ( ) 
- quernages ( ) lemma=quernage 
+ quernages ( ) 
  querneur ( ) 
- querneurs ( ) lemma=querneur 
+ querneurs ( ) 
  questeur ( ) 
- questeurs ( ) lemma=questeur 
+ questeurs ( ) 
  question ( ) 
- questionna ( ) lemma=questionner 
- questionner ( ) 
- questionnai ( ) lemma=questionner 
- questionnaient ( ) lemma=questionner 
+ questionna ( ) 
+ questionnai ( ) 
+ questionnaient ( ) 
  questionnaire ( ) 
- questionnaires ( ) lemma=questionnaire 
- questionnais ( ) lemma=questionner 
- questionnait ( ) lemma=questionner 
- questionnant ( ) lemma=questionner 
- questionnas ( ) lemma=questionner 
- questionnasse ( ) lemma=questionner 
- questionnassent ( ) lemma=questionner 
- questionnasses ( ) lemma=questionner 
- questionnassiez ( ) lemma=questionner 
- questionnassions ( ) lemma=questionner 
- questionne ( ) lemma=questionner 
+ questionnaires ( ) 
+ questionnais ( ) 
+ questionnait ( ) 
+ questionnant ( ) 
+ questionnas ( ) 
+ questionnasse ( ) 
+ questionnassent ( ) 
+ questionnasses ( ) 
+ questionnassiez ( ) 
+ questionnassions ( ) 
+ questionne ( ) 
  questionnement ( ) 
- questionnements ( ) lemma=questionnement 
- questionnent ( ) lemma=questionner 
- questionnera ( ) lemma=questionner 
- questionnerai ( ) lemma=questionner 
- questionneraient ( ) lemma=questionner 
- questionnerais ( ) lemma=questionner 
- questionnerait ( ) lemma=questionner 
- questionneras ( ) lemma=questionner 
- questionnerez ( ) lemma=questionner 
- questionneriez ( ) lemma=questionner 
- questionnerions ( ) lemma=questionner 
- questionnerons ( ) lemma=questionner 
- questionneront ( ) lemma=questionner 
- questionnes ( ) lemma=questionner 
+ questionnements ( ) 
+ questionnent ( ) 
+ questionner ( ) 
+ questionnera ( ) 
+ questionnerai ( ) 
+ questionneraient ( ) 
+ questionnerais ( ) 
+ questionnerait ( ) 
+ questionneras ( ) 
+ questionnerez ( ) 
+ questionneriez ( ) 
+ questionnerions ( ) 
+ questionnerons ( ) 
+ questionneront ( ) 
+ questionnes ( ) 
  questionneur ( ) 
- questionneurs ( ) lemma=questionneur 
- questionneuse ( ) lemma=questionneur 
- questionneuses ( ) lemma=questionneur 
- questionnez ( ) lemma=questionner 
- questionniez ( ) lemma=questionner 
- questionnions ( ) lemma=questionner 
- questionnons ( ) lemma=questionner 
- questionnâmes ( ) lemma=questionner 
- questionnât ( ) lemma=questionner 
- questionnâtes ( ) lemma=questionner 
- questionnèrent ( ) lemma=questionner 
- questionné ( ) lemma=questionner 
- questionnée ( ) lemma=questionner 
- questionnées ( ) lemma=questionner 
- questionnés ( ) lemma=questionner 
- questions ( ) lemma=question 
+ questionneurs ( ) 
+ questionneuse ( ) 
+ questionneuses ( ) 
+ questionnez ( ) 
+ questionniez ( ) 
+ questionnions ( ) 
+ questionnons ( ) 
+ questionnâmes ( ) 
+ questionnât ( ) 
+ questionnâtes ( ) 
+ questionnèrent ( ) 
+ questionné ( ) 
+ questionnée ( ) 
+ questionnées ( ) 
+ questionnés ( ) 
+ questions ( ) 
  questorien ( ) 
- questorienne ( ) lemma=questorien 
- questoriennes ( ) lemma=questorien 
- questoriens ( ) lemma=questorien 
+ questorienne ( ) 
+ questoriennes ( ) 
+ questoriens ( ) 
  questure ( ) 
- questures ( ) lemma=questure 
+ questures ( ) 
  quetsche ( ) 
- quetsches ( ) lemma=quetsche 
+ quetsches ( ) 
  queue ( ) 
  queue-d'aronde ( ) 
- queue-d'arondes ( ) lemma=queue-d'aronde 
+ queue-d'arondes ( ) 
  queue-de-carpe ( ) 
- queue-de-carpes ( ) lemma=queue-de-carpe 
+ queue-de-carpes ( ) 
  queue-de-cheval ( ) 
- queue-de-chevals ( ) lemma=queue-de-cheval 
+ queue-de-chevals ( ) 
  queue-de-cochon ( ) 
- queue-de-cochons ( ) lemma=queue-de-cochon 
+ queue-de-cochons ( ) 
  queue-de-lion ( ) 
- queue-de-lions ( ) lemma=queue-de-lion 
+ queue-de-lions ( ) 
  queue-de-morue ( ) 
- queue-de-morues ( ) lemma=queue-de-morue 
+ queue-de-morues ( ) 
  queue-de-mouton ( ) 
- queue-de-moutons ( ) lemma=queue-de-mouton 
+ queue-de-moutons ( ) 
  queue-de-paon ( ) 
- queue-de-paons ( ) lemma=queue-de-paon 
+ queue-de-paons ( ) 
  queue-de-rat ( ) 
- queue-de-rats ( ) lemma=queue-de-rat 
+ queue-de-rats ( ) 
  queue-de-renard ( ) 
- queue-de-renards ( ) lemma=queue-de-renard 
+ queue-de-renards ( ) 
  queue-de-vache ( ) 
- queue-de-vaches ( ) lemma=queue-de-vache 
+ queue-de-vaches ( ) 
  queue-de-vinaigre ( ) 
- queue-de-vinaigres ( ) lemma=queue-de-vinaigre 
+ queue-de-vinaigres ( ) 
  queue-rouge ( ) 
- queue-rouges ( ) lemma=queue-rouge 
- queues ( ) lemma=queue 
+ queue-rouges ( ) 
+ queues ( ) 
  queurce ( ) 
- queurces ( ) lemma=queurce 
- queursa ( ) lemma=queurser 
- queurser ( ) 
+ queurces ( ) 
+ queursa ( ) 
  queursage ( ) 
- queursages ( ) lemma=queursage 
- queursai ( ) lemma=queurser 
- queursaient ( ) lemma=queurser 
- queursais ( ) lemma=queurser 
- queursait ( ) lemma=queurser 
- queursant ( ) lemma=queurser 
- queursas ( ) lemma=queurser 
- queursasse ( ) lemma=queurser 
- queursassent ( ) lemma=queurser 
- queursasses ( ) lemma=queurser 
- queursassiez ( ) lemma=queurser 
- queursassions ( ) lemma=queurser 
+ queursages ( ) 
+ queursai ( ) 
+ queursaient ( ) 
+ queursais ( ) 
+ queursait ( ) 
+ queursant ( ) 
+ queursas ( ) 
+ queursasse ( ) 
+ queursassent ( ) 
+ queursasses ( ) 
+ queursassiez ( ) 
+ queursassions ( ) 
  queurse ( ) 
- queursent ( ) lemma=queurser 
- queursera ( ) lemma=queurser 
- queurserai ( ) lemma=queurser 
- queurseraient ( ) lemma=queurser 
- queurserais ( ) lemma=queurser 
- queurserait ( ) lemma=queurser 
- queurseras ( ) lemma=queurser 
- queurserez ( ) lemma=queurser 
- queurseriez ( ) lemma=queurser 
- queurserions ( ) lemma=queurser 
- queurserons ( ) lemma=queurser 
- queurseront ( ) lemma=queurser 
- queurses ( ) lemma=queurse 
- queursez ( ) lemma=queurser 
- queursiez ( ) lemma=queurser 
- queursions ( ) lemma=queurser 
+ queursent ( ) 
+ queurser ( ) 
+ queursera ( ) 
+ queurserai ( ) 
+ queurseraient ( ) 
+ queurserais ( ) 
+ queurserait ( ) 
+ queurseras ( ) 
+ queurserez ( ) 
+ queurseriez ( ) 
+ queurserions ( ) 
+ queurserons ( ) 
+ queurseront ( ) 
+ queurses ( ) 
+ queursez ( ) 
+ queursiez ( ) 
+ queursions ( ) 
  queursoir ( ) 
- queursoirs ( ) lemma=queursoir 
- queursons ( ) lemma=queurser 
- queursâmes ( ) lemma=queurser 
- queursât ( ) lemma=queurser 
- queursâtes ( ) lemma=queurser 
- queursèrent ( ) lemma=queurser 
- queursé ( ) lemma=queurser 
- queursée ( ) lemma=queurser 
- queursées ( ) lemma=queurser 
- queursés ( ) lemma=queurser 
+ queursoirs ( ) 
+ queursons ( ) 
+ queursâmes ( ) 
+ queursât ( ) 
+ queursâtes ( ) 
+ queursèrent ( ) 
+ queursé ( ) 
+ queursée ( ) 
+ queursées ( ) 
+ queursés ( ) 
  queusot ( ) 
- queusots ( ) lemma=queusot 
+ queusots ( ) 
  queussi-queumi ( ) 
- queuta ( ) lemma=queuter 
- queuter ( ) 
+ queuta ( ) 
  queutage ( ) 
- queutages ( ) lemma=queutage 
- queutai ( ) lemma=queuter 
- queutaient ( ) lemma=queuter 
- queutais ( ) lemma=queuter 
- queutait ( ) lemma=queuter 
- queutant ( ) lemma=queuter 
- queutas ( ) lemma=queuter 
- queutasse ( ) lemma=queuter 
- queutassent ( ) lemma=queuter 
- queutasses ( ) lemma=queuter 
- queutassiez ( ) lemma=queuter 
- queutassions ( ) lemma=queuter 
- queute ( ) lemma=queuter 
- queutent ( ) lemma=queuter 
- queutera ( ) lemma=queuter 
- queuterai ( ) lemma=queuter 
- queuteraient ( ) lemma=queuter 
- queuterais ( ) lemma=queuter 
- queuterait ( ) lemma=queuter 
- queuteras ( ) lemma=queuter 
- queuterez ( ) lemma=queuter 
- queuteriez ( ) lemma=queuter 
- queuterions ( ) lemma=queuter 
- queuterons ( ) lemma=queuter 
- queuteront ( ) lemma=queuter 
- queutes ( ) lemma=queuter 
- queutez ( ) lemma=queuter 
- queutiez ( ) lemma=queuter 
- queutions ( ) lemma=queuter 
- queutons ( ) lemma=queuter 
- queutâmes ( ) lemma=queuter 
- queutât ( ) lemma=queuter 
- queutâtes ( ) lemma=queuter 
- queutèrent ( ) lemma=queuter 
- queuté ( ) lemma=queuter 
- queutée ( ) lemma=queuter 
- queutées ( ) lemma=queuter 
- queutés ( ) lemma=queuter 
+ queutages ( ) 
+ queutai ( ) 
+ queutaient ( ) 
+ queutais ( ) 
+ queutait ( ) 
+ queutant ( ) 
+ queutas ( ) 
+ queutasse ( ) 
+ queutassent ( ) 
+ queutasses ( ) 
+ queutassiez ( ) 
+ queutassions ( ) 
+ queute ( ) 
+ queutent ( ) 
+ queuter ( ) 
+ queutera ( ) 
+ queuterai ( ) 
+ queuteraient ( ) 
+ queuterais ( ) 
+ queuterait ( ) 
+ queuteras ( ) 
+ queuterez ( ) 
+ queuteriez ( ) 
+ queuterions ( ) 
+ queuterons ( ) 
+ queuteront ( ) 
+ queutes ( ) 
+ queutez ( ) 
+ queutiez ( ) 
+ queutions ( ) 
+ queutons ( ) 
+ queutâmes ( ) 
+ queutât ( ) 
+ queutâtes ( ) 
+ queutèrent ( ) 
+ queuté ( ) 
+ queutée ( ) 
+ queutées ( ) 
+ queutés ( ) 
  queux ( ) 
- qui ( ) 
+ qui ( ) lemma=Aquin 
  qui-vive ( ) 
  quia ( ) 
  quibus ( ) 
  quiche ( ) 
  quichenotte ( ) 
- quichenottes ( ) lemma=quichenotte 
- quiches ( ) lemma=quiche 
+ quichenottes ( ) 
+ quiches ( ) 
  quichotte ( ) 
- quichottes ( ) lemma=quichotte 
+ quichottes ( ) 
  quichua ( ) 
- quichuas ( ) lemma=quichua 
+ quichuas ( ) 
  quiconque ( ) 
  quid ( ) 
  quidam ( ) 
- quidams ( ) lemma=quidam 
+ quidams ( ) 
  quidditatif ( ) 
- quidditatifs ( ) lemma=quidditatif 
- quidditative ( ) lemma=quidditatif 
- quidditatives ( ) lemma=quidditatif 
+ quidditatifs ( ) 
+ quidditative ( ) 
+ quidditatives ( ) 
  quiddité ( ) 
- quiddités ( ) lemma=quiddité 
+ quiddités ( ) 
  quiescence ( ) 
- quiescences ( ) lemma=quiescence 
+ quiescences ( ) 
  quiescent ( ) 
- quiescente ( ) lemma=quiescent 
- quiescentes ( ) lemma=quiescent 
- quiescents ( ) lemma=quiescent 
+ quiescente ( ) 
+ quiescentes ( ) 
+ quiescents ( ) 
  quiet ( ) 
- quiets ( ) lemma=quiet 
+ quiets ( ) 
  quignon ( ) 
- quignons ( ) lemma=quignon 
- quilla ( ) lemma=quiller 
- quiller ( ) 
- quillai ( ) lemma=quiller 
- quillaient ( ) lemma=quiller 
- quillais ( ) lemma=quiller 
- quillait ( ) lemma=quiller 
+ quignons ( ) 
+ quilla ( ) 
+ quillai ( ) 
+ quillaient ( ) 
+ quillais ( ) 
+ quillait ( ) 
  quillaja ( ) 
- quillajas ( ) lemma=quillaja 
- quillant ( ) lemma=quiller 
+ quillajas ( ) 
+ quillant ( ) 
  quillard ( ) 
- quillards ( ) lemma=quillard 
- quillas ( ) lemma=quiller 
- quillasse ( ) lemma=quiller 
- quillassent ( ) lemma=quiller 
- quillasses ( ) lemma=quiller 
- quillassiez ( ) lemma=quiller 
- quillassions ( ) lemma=quiller 
- quille ( ) 
- quillent ( ) lemma=quiller 
- quillera ( ) lemma=quiller 
- quillerai ( ) lemma=quiller 
- quilleraient ( ) lemma=quiller 
- quillerais ( ) lemma=quiller 
- quillerait ( ) lemma=quiller 
- quilleras ( ) lemma=quiller 
- quillerez ( ) lemma=quiller 
- quilleriez ( ) lemma=quiller 
- quillerions ( ) lemma=quiller 
- quillerons ( ) lemma=quiller 
- quilleront ( ) lemma=quiller 
- quilles ( ) lemma=quille 
+ quillards ( ) 
+ quillas ( ) 
+ quillasse ( ) 
+ quillassent ( ) 
+ quillasses ( ) 
+ quillassiez ( ) 
+ quillassions ( ) 
+ quille ( ) lemma=squille 
+ quillent ( ) 
+ quiller ( ) 
+ quillera ( ) 
+ quillerai ( ) 
+ quilleraient ( ) 
+ quillerais ( ) 
+ quillerait ( ) 
+ quilleras ( ) 
+ quillerez ( ) 
+ quilleriez ( ) 
+ quillerions ( ) 
+ quillerons ( ) 
+ quilleront ( ) 
+ quilles ( ) 
  quillette ( ) 
- quillettes ( ) lemma=quillette 
+ quillettes ( ) 
  quilleur ( ) 
- quilleurs ( ) lemma=quilleur 
- quilleuse ( ) lemma=quilleur 
- quilleuses ( ) lemma=quilleur 
- quillez ( ) lemma=quiller 
+ quilleurs ( ) 
+ quilleuse ( ) 
+ quilleuses ( ) 
+ quillez ( ) 
  quillier ( ) 
- quilliers ( ) lemma=quillier 
- quilliez ( ) lemma=quiller 
- quillions ( ) lemma=quiller 
+ quilliers ( ) 
+ quilliez ( ) 
+ quillions ( ) 
  quillon ( ) 
- quillons ( ) lemma=quillon 
- quillâmes ( ) lemma=quiller 
- quillât ( ) lemma=quiller 
- quillâtes ( ) lemma=quiller 
- quillèrent ( ) lemma=quiller 
- quillé ( ) lemma=quiller 
- quillée ( ) lemma=quiller 
- quillées ( ) lemma=quiller 
- quillés ( ) lemma=quiller 
- quimpa ( ) lemma=quimper 
+ quillons ( ) 
+ quillâmes ( ) 
+ quillât ( ) 
+ quillâtes ( ) 
+ quillèrent ( ) 
+ quillé ( ) 
+ quillée ( ) 
+ quillées ( ) 
+ quillés ( ) 
+ quimpa ( ) 
+ quimpai ( ) 
+ quimpaient ( ) 
+ quimpais ( ) 
+ quimpait ( ) 
+ quimpant ( ) 
+ quimpas ( ) 
+ quimpasse ( ) 
+ quimpassent ( ) 
+ quimpasses ( ) 
+ quimpassiez ( ) 
+ quimpassions ( ) 
+ quimpe ( ) 
+ quimpent ( ) 
  quimper ( ) 
- quimpai ( ) lemma=quimper 
- quimpaient ( ) lemma=quimper 
- quimpais ( ) lemma=quimper 
- quimpait ( ) lemma=quimper 
- quimpant ( ) lemma=quimper 
- quimpas ( ) lemma=quimper 
- quimpasse ( ) lemma=quimper 
- quimpassent ( ) lemma=quimper 
- quimpasses ( ) lemma=quimper 
- quimpassiez ( ) lemma=quimper 
- quimpassions ( ) lemma=quimper 
- quimpe ( ) lemma=quimper 
- quimpent ( ) lemma=quimper 
- quimpera ( ) lemma=quimper 
- quimperai ( ) lemma=quimper 
- quimperaient ( ) lemma=quimper 
- quimperais ( ) lemma=quimper 
- quimperait ( ) lemma=quimper 
- quimperas ( ) lemma=quimper 
- quimperez ( ) lemma=quimper 
- quimperiez ( ) lemma=quimper 
- quimperions ( ) lemma=quimper 
- quimperons ( ) lemma=quimper 
- quimperont ( ) lemma=quimper 
- quimpes ( ) lemma=quimper 
- quimpez ( ) lemma=quimper 
- quimpiez ( ) lemma=quimper 
- quimpions ( ) lemma=quimper 
- quimpons ( ) lemma=quimper 
- quimpâmes ( ) lemma=quimper 
- quimpât ( ) lemma=quimper 
- quimpâtes ( ) lemma=quimper 
- quimpèrent ( ) lemma=quimper 
- quimpé ( ) lemma=quimper 
- quimpée ( ) lemma=quimper 
- quimpées ( ) lemma=quimper 
- quimpés ( ) lemma=quimper 
+ quimpera ( ) 
+ quimperai ( ) 
+ quimperaient ( ) 
+ quimperais ( ) 
+ quimperait ( ) 
+ quimperas ( ) 
+ quimperez ( ) 
+ quimperiez ( ) 
+ quimperions ( ) 
+ quimperons ( ) 
+ quimperont ( ) 
+ quimpes ( ) 
+ quimpez ( ) 
+ quimpiez ( ) 
+ quimpions ( ) 
+ quimpons ( ) 
+ quimpâmes ( ) 
+ quimpât ( ) 
+ quimpâtes ( ) 
+ quimpèrent ( ) 
+ quimpé ( ) 
+ quimpée ( ) 
+ quimpées ( ) 
+ quimpés ( ) 
  quinaire ( ) 
- quinaires ( ) lemma=quinaire 
+ quinaires ( ) 
  quinaud ( ) 
- quinaude ( ) lemma=quinaud 
- quinaudes ( ) lemma=quinaud 
- quinauds ( ) lemma=quinaud 
+ quinaude ( ) 
+ quinaudes ( ) 
+ quinauds ( ) 
  quincaille ( ) 
  quincaillerie ( ) 
- quincailleries ( ) lemma=quincaillerie 
- quincailles ( ) lemma=quincaille 
+ quincailleries ( ) 
+ quincailles ( ) 
  quincaillier ( ) 
- quincailliers ( ) lemma=quincaillier 
- quincaillière ( ) lemma=quincaillier 
- quincaillières ( ) lemma=quincaillier 
+ quincailliers ( ) 
+ quincaillière ( ) 
+ quincaillières ( ) 
  quincite ( ) 
- quincites ( ) lemma=quincite 
+ quincites ( ) 
  quinconce ( ) 
- quinconces ( ) lemma=quinconce 
+ quinconces ( ) 
  quinconcial ( ) 
- quinconciale ( ) lemma=quinconcial 
- quinconciales ( ) lemma=quinconcial 
- quinconciaux ( ) lemma=quinconcial 
+ quinconciale ( ) 
+ quinconciales ( ) 
+ quinconciaux ( ) 
  quindécemvir ( ) 
  quindécemvirat ( ) 
- quindécemvirats ( ) lemma=quindécemvirat 
- quindécemvirs ( ) lemma=quindécemvir 
- quine ( ) 
- quines ( ) lemma=quine 
+ quindécemvirats ( ) 
+ quindécemvirs ( ) 
+ quine ( ) lemma=squine 
+ quines ( ) 
  quinhydrone ( ) 
- quinhydrones ( ) lemma=quinhydrone 
+ quinhydrones ( ) 
  quinidine ( ) 
- quinidines ( ) lemma=quinidine 
+ quinidines ( ) 
  quinine ( ) 
- quinines ( ) lemma=quinine 
+ quinines ( ) 
  quininisme ( ) 
- quininismes ( ) lemma=quininisme 
+ quininismes ( ) 
  quinisme ( ) 
- quinismes ( ) lemma=quinisme 
+ quinismes ( ) 
  quinium ( ) 
- quiniums ( ) lemma=quinium 
+ quiniums ( ) 
  quinoa ( ) 
- quinoas ( ) lemma=quinoa 
+ quinoas ( ) 
  quinola ( ) 
- quinolas ( ) lemma=quinola 
+ quinolas ( ) 
  quinoléine ( ) 
- quinoléines ( ) lemma=quinoléine 
+ quinoléines ( ) 
  quinoléique ( ) 
- quinoléiques ( ) lemma=quinoléique 
+ quinoléiques ( ) 
  quinone ( ) 
- quinones ( ) lemma=quinone 
+ quinones ( ) 
  quinonique ( ) 
- quinoniques ( ) lemma=quinonique 
+ quinoniques ( ) 
  quinopyrine ( ) 
- quinopyrines ( ) lemma=quinopyrine 
+ quinopyrines ( ) 
  quinotoxine ( ) 
- quinotoxines ( ) lemma=quinotoxine 
+ quinotoxines ( ) 
  quinquagénaire ( ) 
- quinquagénaires ( ) lemma=quinquagénaire 
+ quinquagénaires ( ) 
  quinquagésime ( ) 
- quinquagésimes ( ) lemma=quinquagésime 
+ quinquagésimes ( ) 
  quinquennal ( ) 
- quinquennale ( ) lemma=quinquennal 
- quinquennales ( ) lemma=quinquennal 
+ quinquennale ( ) 
+ quinquennales ( ) 
  quinquennalité ( ) 
- quinquennalités ( ) lemma=quinquennalité 
+ quinquennalités ( ) 
  quinquennat ( ) 
- quinquennats ( ) lemma=quinquennat 
- quinquennaux ( ) lemma=quinquennal 
+ quinquennats ( ) 
+ quinquennaux ( ) 
  quinquennium ( ) 
- quinquenniums ( ) lemma=quinquennium 
+ quinquenniums ( ) 
  quinquerce ( ) 
- quinquerces ( ) lemma=quinquerce 
+ quinquerces ( ) 
  quinquet ( ) 
- quinquets ( ) lemma=quinquet 
+ quinquets ( ) 
  quinquina ( ) 
- quinquinas ( ) lemma=quinquina 
+ quinquinas ( ) 
  quinquérème ( ) 
- quinquérèmes ( ) lemma=quinquérème 
+ quinquérèmes ( ) 
  quint ( ) 
  quintaine ( ) 
- quintaines ( ) lemma=quintaine 
+ quintaines ( ) 
  quintal ( ) 
  quintane ( ) 
- quintanes ( ) lemma=quintane 
- quintaux ( ) lemma=quintal 
- quinte ( ) lemma=quint 
+ quintanes ( ) 
+ quintaux ( ) 
+ quinte ( ) 
  quintefeuille ( ) 
- quintefeuilles ( ) lemma=quintefeuille 
- quintes ( ) lemma=quint 
+ quintefeuilles ( ) 
+ quintes ( ) 
  quintessence ( ) 
- quintessences ( ) lemma=quintessence 
- quintessencia ( ) lemma=quintessencier 
+ quintessences ( ) 
+ quintessencia ( ) 
+ quintessenciai ( ) 
+ quintessenciaient ( ) 
+ quintessenciais ( ) 
+ quintessenciait ( ) 
+ quintessenciant ( ) 
+ quintessencias ( ) 
+ quintessenciasse ( ) 
+ quintessenciassent ( ) 
+ quintessenciasses ( ) 
+ quintessenciassiez ( ) 
+ quintessenciassions ( ) 
+ quintessencie ( ) 
+ quintessencient ( ) 
  quintessencier ( ) 
- quintessenciai ( ) lemma=quintessencier 
- quintessenciaient ( ) lemma=quintessencier 
- quintessenciais ( ) lemma=quintessencier 
- quintessenciait ( ) lemma=quintessencier 
- quintessenciant ( ) lemma=quintessencier 
- quintessencias ( ) lemma=quintessencier 
- quintessenciasse ( ) lemma=quintessencier 
- quintessenciassent ( ) lemma=quintessencier 
- quintessenciasses ( ) lemma=quintessencier 
- quintessenciassiez ( ) lemma=quintessencier 
- quintessenciassions ( ) lemma=quintessencier 
- quintessencie ( ) lemma=quintessencier 
- quintessencient ( ) lemma=quintessencier 
- quintessenciera ( ) lemma=quintessencier 
- quintessencierai ( ) lemma=quintessencier 
- quintessencieraient ( ) lemma=quintessencier 
- quintessencierais ( ) lemma=quintessencier 
- quintessencierait ( ) lemma=quintessencier 
- quintessencieras ( ) lemma=quintessencier 
- quintessencierez ( ) lemma=quintessencier 
- quintessencieriez ( ) lemma=quintessencier 
- quintessencierions ( ) lemma=quintessencier 
- quintessencierons ( ) lemma=quintessencier 
- quintessencieront ( ) lemma=quintessencier 
- quintessencies ( ) lemma=quintessencier 
- quintessenciez ( ) lemma=quintessencier 
- quintessenciiez ( ) lemma=quintessencier 
- quintessenciions ( ) lemma=quintessencier 
- quintessencions ( ) lemma=quintessencier 
- quintessenciâmes ( ) lemma=quintessencier 
- quintessenciât ( ) lemma=quintessencier 
- quintessenciâtes ( ) lemma=quintessencier 
- quintessencièrent ( ) lemma=quintessencier 
+ quintessenciera ( ) 
+ quintessencierai ( ) 
+ quintessencieraient ( ) 
+ quintessencierais ( ) 
+ quintessencierait ( ) 
+ quintessencieras ( ) 
+ quintessencierez ( ) 
+ quintessencieriez ( ) 
+ quintessencierions ( ) 
+ quintessencierons ( ) 
+ quintessencieront ( ) 
+ quintessencies ( ) 
+ quintessenciez ( ) 
+ quintessenciiez ( ) 
+ quintessenciions ( ) 
+ quintessencions ( ) 
+ quintessenciâmes ( ) 
+ quintessenciât ( ) 
+ quintessenciâtes ( ) 
+ quintessencièrent ( ) 
  quintessencié ( ) 
- quintessenciée ( ) lemma=quintessencié 
- quintessenciées ( ) lemma=quintessencié 
- quintessenciés ( ) lemma=quintessencié 
+ quintessenciée ( ) 
+ quintessenciées ( ) 
+ quintessenciés ( ) 
  quintette ( ) 
- quintettes ( ) lemma=quintette 
- quinteuse ( ) lemma=quinteux 
- quinteux ( ) 
+ quintettes ( ) 
+ quinteuse ( ) 
  quinteusement ( ) 
- quinteuses ( ) lemma=quinteux 
+ quinteuses ( ) 
+ quinteux ( ) 
  quintidi ( ) 
- quintidis ( ) lemma=quintidi 
+ quintidis ( ) 
  quintil ( ) 
  quintillion ( ) 
  quintillionième ( ) 
- quintillionièmes ( ) lemma=quintillionième 
- quintillions ( ) lemma=quintillion 
- quintils ( ) lemma=quintil 
+ quintillionièmes ( ) 
+ quintillions ( ) 
+ quintils ( ) 
  quinto ( ) 
  quintolet ( ) 
- quintolets ( ) lemma=quintolet 
- quints ( ) lemma=quint 
- quintupla ( ) lemma=quintupler 
- quintupler ( ) 
- quintuplai ( ) lemma=quintupler 
- quintuplaient ( ) lemma=quintupler 
- quintuplais ( ) lemma=quintupler 
- quintuplait ( ) lemma=quintupler 
- quintuplant ( ) lemma=quintupler 
- quintuplas ( ) lemma=quintupler 
- quintuplasse ( ) lemma=quintupler 
- quintuplassent ( ) lemma=quintupler 
- quintuplasses ( ) lemma=quintupler 
- quintuplassiez ( ) lemma=quintupler 
- quintuplassions ( ) lemma=quintupler 
+ quintolets ( ) 
+ quints ( ) 
+ quintupla ( ) 
+ quintuplai ( ) 
+ quintuplaient ( ) 
+ quintuplais ( ) 
+ quintuplait ( ) 
+ quintuplant ( ) 
+ quintuplas ( ) 
+ quintuplasse ( ) 
+ quintuplassent ( ) 
+ quintuplasses ( ) 
+ quintuplassiez ( ) 
+ quintuplassions ( ) 
  quintuple ( ) 
- quintuplent ( ) lemma=quintupler 
- quintuplera ( ) lemma=quintupler 
- quintuplerai ( ) lemma=quintupler 
- quintupleraient ( ) lemma=quintupler 
- quintuplerais ( ) lemma=quintupler 
- quintuplerait ( ) lemma=quintupler 
- quintupleras ( ) lemma=quintupler 
- quintuplerez ( ) lemma=quintupler 
- quintupleriez ( ) lemma=quintupler 
- quintuplerions ( ) lemma=quintupler 
- quintuplerons ( ) lemma=quintupler 
- quintupleront ( ) lemma=quintupler 
- quintuples ( ) lemma=quintuple 
+ quintuplent ( ) 
+ quintupler ( ) 
+ quintuplera ( ) 
+ quintuplerai ( ) 
+ quintupleraient ( ) 
+ quintuplerais ( ) 
+ quintuplerait ( ) 
+ quintupleras ( ) 
+ quintuplerez ( ) 
+ quintupleriez ( ) 
+ quintuplerions ( ) 
+ quintuplerons ( ) 
+ quintupleront ( ) 
+ quintuples ( ) 
  quintuplette ( ) 
- quintuplettes ( ) lemma=quintuplette 
- quintuplez ( ) lemma=quintupler 
- quintupliez ( ) lemma=quintupler 
- quintuplions ( ) lemma=quintupler 
- quintuplons ( ) lemma=quintupler 
- quintuplâmes ( ) lemma=quintupler 
- quintuplât ( ) lemma=quintupler 
- quintuplâtes ( ) lemma=quintupler 
- quintuplèrent ( ) lemma=quintupler 
- quintuplé ( ) lemma=quintupler 
- quintuplée ( ) lemma=quintupler 
+ quintuplettes ( ) 
+ quintuplez ( ) 
+ quintupliez ( ) 
+ quintuplions ( ) 
+ quintuplons ( ) 
+ quintuplâmes ( ) 
+ quintuplât ( ) 
+ quintuplâtes ( ) 
+ quintuplèrent ( ) 
+ quintuplé ( ) 
+ quintuplée ( ) 
  quintuplées ( ) 
  quintuplés ( ) 
  quinzaine ( ) 
- quinzaines ( ) lemma=quinzaine 
+ quinzaines ( ) 
  quinze ( ) 
  quinziste ( ) 
- quinzistes ( ) lemma=quinziste 
+ quinzistes ( ) 
  quinzième ( ) 
  quinzièmement ( ) 
- quinzièmes ( ) lemma=quinzième 
+ quinzièmes ( ) 
  quiné ( ) 
- quinée ( ) lemma=quiné 
- quinées ( ) lemma=quiné 
- quinés ( ) lemma=quiné 
+ quinée ( ) 
+ quinées ( ) 
+ quinés ( ) 
  quipo ( ) 
- quipos ( ) lemma=quipo 
+ quipos ( ) 
  quipou ( ) 
- quipous ( ) lemma=quipou 
+ quipous ( ) 
  quiproquo ( ) 
- quiproquos ( ) lemma=quiproquo 
+ quiproquos ( ) 
  quipu ( ) 
- quipus ( ) lemma=quipu 
+ quipus ( ) 
  quiquette ( ) 
- quiquettes ( ) lemma=quiquette 
+ quiquettes ( ) 
  quiqui ( ) 
- quiquis ( ) lemma=quiqui 
+ quiquis ( ) 
  quirat ( ) 
  quirataire ( ) 
- quirataires ( ) lemma=quirataire 
- quirats ( ) lemma=quirat 
+ quirataires ( ) 
+ quirats ( ) 
  quiritaire ( ) 
- quiritaires ( ) lemma=quiritaire 
+ quiritaires ( ) 
  quirite ( ) 
- quirites ( ) lemma=quirite 
+ quirites ( ) 
  quiscale ( ) 
- quiscales ( ) lemma=quiscale 
+ quiscales ( ) 
  quite ( ) 
- quites ( ) lemma=quite 
- quitta ( ) lemma=quitter 
- quitter ( ) 
- quittai ( ) lemma=quitter 
- quittaient ( ) lemma=quitter 
- quittais ( ) lemma=quitter 
- quittait ( ) lemma=quitter 
+ quites ( ) 
+ quitta ( ) 
+ quittai ( ) 
+ quittaient ( ) 
+ quittais ( ) 
+ quittait ( ) 
  quittance ( ) 
- quittancent ( ) lemma=quittancer 
+ quittancent ( ) 
  quittancer ( ) 
- quittancera ( ) lemma=quittancer 
- quittancerai ( ) lemma=quittancer 
- quittanceraient ( ) lemma=quittancer 
- quittancerais ( ) lemma=quittancer 
- quittancerait ( ) lemma=quittancer 
- quittanceras ( ) lemma=quittancer 
- quittancerez ( ) lemma=quittancer 
- quittanceriez ( ) lemma=quittancer 
- quittancerions ( ) lemma=quittancer 
- quittancerons ( ) lemma=quittancer 
- quittanceront ( ) lemma=quittancer 
- quittances ( ) lemma=quittance 
- quittancez ( ) lemma=quittancer 
- quittanciez ( ) lemma=quittancer 
- quittancions ( ) lemma=quittancer 
- quittancèrent ( ) lemma=quittancer 
- quittancé ( ) lemma=quittancer 
- quittancée ( ) lemma=quittancer 
- quittancées ( ) lemma=quittancer 
- quittancés ( ) lemma=quittancer 
- quittant ( ) lemma=quitter 
- quittança ( ) lemma=quittancer 
- quittançai ( ) lemma=quittancer 
- quittançaient ( ) lemma=quittancer 
- quittançais ( ) lemma=quittancer 
- quittançait ( ) lemma=quittancer 
- quittançant ( ) lemma=quittancer 
- quittanças ( ) lemma=quittancer 
- quittançasse ( ) lemma=quittancer 
- quittançassent ( ) lemma=quittancer 
- quittançasses ( ) lemma=quittancer 
- quittançassiez ( ) lemma=quittancer 
- quittançassions ( ) lemma=quittancer 
- quittançons ( ) lemma=quittancer 
- quittançâmes ( ) lemma=quittancer 
- quittançât ( ) lemma=quittancer 
- quittançâtes ( ) lemma=quittancer 
- quittas ( ) lemma=quitter 
- quittasse ( ) lemma=quitter 
- quittassent ( ) lemma=quitter 
- quittasses ( ) lemma=quitter 
- quittassiez ( ) lemma=quitter 
- quittassions ( ) lemma=quitter 
+ quittancera ( ) 
+ quittancerai ( ) 
+ quittanceraient ( ) 
+ quittancerais ( ) 
+ quittancerait ( ) 
+ quittanceras ( ) 
+ quittancerez ( ) 
+ quittanceriez ( ) 
+ quittancerions ( ) 
+ quittancerons ( ) 
+ quittanceront ( ) 
+ quittances ( ) 
+ quittancez ( ) 
+ quittanciez ( ) 
+ quittancions ( ) 
+ quittancèrent ( ) 
+ quittancé ( ) 
+ quittancée ( ) 
+ quittancées ( ) 
+ quittancés ( ) 
+ quittant ( ) 
+ quittança ( ) 
+ quittançai ( ) 
+ quittançaient ( ) 
+ quittançais ( ) 
+ quittançait ( ) 
+ quittançant ( ) 
+ quittanças ( ) 
+ quittançasse ( ) 
+ quittançassent ( ) 
+ quittançasses ( ) 
+ quittançassiez ( ) 
+ quittançassions ( ) 
+ quittançons ( ) 
+ quittançâmes ( ) 
+ quittançât ( ) 
+ quittançâtes ( ) 
+ quittas ( ) 
+ quittasse ( ) 
+ quittassent ( ) 
+ quittasses ( ) 
+ quittassiez ( ) 
+ quittassions ( ) 
  quitte ( ) 
- quittent ( ) lemma=quitter 
- quittera ( ) lemma=quitter 
- quitterai ( ) lemma=quitter 
- quitteraient ( ) lemma=quitter 
- quitterais ( ) lemma=quitter 
- quitterait ( ) lemma=quitter 
- quitteras ( ) lemma=quitter 
- quitterez ( ) lemma=quitter 
- quitteriez ( ) lemma=quitter 
- quitterions ( ) lemma=quitter 
- quitterons ( ) lemma=quitter 
- quitteront ( ) lemma=quitter 
- quittes ( ) lemma=quitte 
- quittez ( ) lemma=quitter 
- quittiez ( ) lemma=quitter 
- quittions ( ) lemma=quitter 
- quittons ( ) lemma=quitter 
- quittâmes ( ) lemma=quitter 
- quittât ( ) lemma=quitter 
- quittâtes ( ) lemma=quitter 
- quittèrent ( ) lemma=quitter 
- quitté ( ) lemma=quitter 
- quittée ( ) lemma=quitter 
- quittées ( ) lemma=quitter 
- quittés ( ) lemma=quitter 
+ quittent ( ) 
+ quitter ( ) 
+ quittera ( ) 
+ quitterai ( ) 
+ quitteraient ( ) 
+ quitterais ( ) 
+ quitterait ( ) 
+ quitteras ( ) 
+ quitterez ( ) 
+ quitteriez ( ) 
+ quitterions ( ) 
+ quitterons ( ) 
+ quitteront ( ) 
+ quittes ( ) 
+ quittez ( ) 
+ quittiez ( ) 
+ quittions ( ) 
+ quittons ( ) 
+ quittâmes ( ) 
+ quittât ( ) 
+ quittâtes ( ) 
+ quittèrent ( ) 
+ quitté ( ) 
+ quittée ( ) 
+ quittées ( ) 
+ quittés ( ) 
  quitus ( ) 
- quiète ( ) lemma=quiet 
+ quiète ( ) 
  quiètement ( ) 
- quiètes ( ) lemma=quiet 
+ quiètes ( ) 
  quiétisme ( ) 
- quiétismes ( ) lemma=quiétisme 
+ quiétismes ( ) 
  quiétiste ( ) 
- quiétistes ( ) lemma=quiétiste 
+ quiétistes ( ) 
  quiétude ( ) 
- quiétudes ( ) lemma=quiétude 
+ quiétudes ( ) 
  qumquat ( ) 
- qumquats ( ) lemma=qumquat 
+ qumquats ( ) 
  quo ( ) 
- quoailla ( ) lemma=quoailler 
+ quoailla ( ) 
+ quoaillai ( ) 
+ quoaillaient ( ) 
+ quoaillais ( ) 
+ quoaillait ( ) 
+ quoaillant ( ) 
+ quoaillas ( ) 
+ quoaillasse ( ) 
+ quoaillassent ( ) 
+ quoaillasses ( ) 
+ quoaillassiez ( ) 
+ quoaillassions ( ) 
+ quoaille ( ) 
+ quoaillent ( ) 
  quoailler ( ) 
- quoaillai ( ) lemma=quoailler 
- quoaillaient ( ) lemma=quoailler 
- quoaillais ( ) lemma=quoailler 
- quoaillait ( ) lemma=quoailler 
- quoaillant ( ) lemma=quoailler 
- quoaillas ( ) lemma=quoailler 
- quoaillasse ( ) lemma=quoailler 
- quoaillassent ( ) lemma=quoailler 
- quoaillasses ( ) lemma=quoailler 
- quoaillassiez ( ) lemma=quoailler 
- quoaillassions ( ) lemma=quoailler 
- quoaille ( ) lemma=quoailler 
- quoaillent ( ) lemma=quoailler 
- quoaillera ( ) lemma=quoailler 
- quoaillerai ( ) lemma=quoailler 
- quoailleraient ( ) lemma=quoailler 
- quoaillerais ( ) lemma=quoailler 
- quoaillerait ( ) lemma=quoailler 
- quoailleras ( ) lemma=quoailler 
- quoaillerez ( ) lemma=quoailler 
- quoailleriez ( ) lemma=quoailler 
- quoaillerions ( ) lemma=quoailler 
- quoaillerons ( ) lemma=quoailler 
- quoailleront ( ) lemma=quoailler 
- quoailles ( ) lemma=quoailler 
- quoaillez ( ) lemma=quoailler 
- quoailliez ( ) lemma=quoailler 
- quoaillions ( ) lemma=quoailler 
- quoaillons ( ) lemma=quoailler 
- quoaillâmes ( ) lemma=quoailler 
- quoaillât ( ) lemma=quoailler 
- quoaillâtes ( ) lemma=quoailler 
- quoaillèrent ( ) lemma=quoailler 
- quoaillé ( ) lemma=quoailler 
- quoaillée ( ) lemma=quoailler 
- quoaillées ( ) lemma=quoailler 
- quoaillés ( ) lemma=quoailler 
+ quoaillera ( ) 
+ quoaillerai ( ) 
+ quoailleraient ( ) 
+ quoaillerais ( ) 
+ quoaillerait ( ) 
+ quoailleras ( ) 
+ quoaillerez ( ) 
+ quoailleriez ( ) 
+ quoaillerions ( ) 
+ quoaillerons ( ) 
+ quoailleront ( ) 
+ quoailles ( ) 
+ quoaillez ( ) 
+ quoailliez ( ) 
+ quoaillions ( ) 
+ quoaillons ( ) 
+ quoaillâmes ( ) 
+ quoaillât ( ) 
+ quoaillâtes ( ) 
+ quoaillèrent ( ) 
+ quoaillé ( ) 
+ quoaillée ( ) 
+ quoaillées ( ) 
+ quoaillés ( ) 
  quodlibet ( ) 
- quodlibets ( ) lemma=quodlibet 
+ quodlibets ( ) 
  quoi ( ) 
- quoiqu' ( ) lemma=quoique 
+ quoiqu' ( ) 
  quoique ( ) 
  quolibet ( ) 
- quolibets ( ) lemma=quolibet 
+ quolibets ( ) 
  quorum ( ) 
- quorums ( ) lemma=quorum 
+ quorums ( ) 
  quota ( ) 
- quotas ( ) lemma=quota 
+ quotas ( ) 
  quote-part ( ) 
- quote-parts ( ) lemma=quote-part 
+ quote-parts ( ) 
  quotidien ( ) 
- quotidienne ( ) lemma=quotidien 
+ quotidienne ( ) 
  quotidiennement ( ) 
- quotidiennes ( ) lemma=quotidien 
+ quotidiennes ( ) 
  quotidienneté ( ) 
- quotidiennetés ( ) lemma=quotidienneté 
- quotidiens ( ) lemma=quotidien 
+ quotidiennetés ( ) 
+ quotidiens ( ) 
  quotient ( ) 
- quotients ( ) lemma=quotient 
+ quotients ( ) 
  quotité ( ) 
- quotités ( ) lemma=quotité 
- quotta ( ) lemma=quotter 
- quotter ( ) 
- quottai ( ) lemma=quotter 
- quottaient ( ) lemma=quotter 
- quottais ( ) lemma=quotter 
- quottait ( ) lemma=quotter 
- quottant ( ) lemma=quotter 
- quottas ( ) lemma=quotter 
- quottasse ( ) lemma=quotter 
- quottassent ( ) lemma=quotter 
- quottasses ( ) lemma=quotter 
- quottassiez ( ) lemma=quotter 
- quottassions ( ) lemma=quotter 
- quotte ( ) lemma=quotter 
+ quotités ( ) 
+ quotta ( ) 
+ quottai ( ) 
+ quottaient ( ) 
+ quottais ( ) 
+ quottait ( ) 
+ quottant ( ) 
+ quottas ( ) 
+ quottasse ( ) 
+ quottassent ( ) 
+ quottasses ( ) 
+ quottassiez ( ) 
+ quottassions ( ) 
+ quotte ( ) 
  quottement ( ) 
- quottements ( ) lemma=quottement 
- quottent ( ) lemma=quotter 
- quottera ( ) lemma=quotter 
- quotterai ( ) lemma=quotter 
- quotteraient ( ) lemma=quotter 
- quotterais ( ) lemma=quotter 
- quotteras ( ) lemma=quotter 
- quotterez ( ) lemma=quotter 
- quotteriez ( ) lemma=quotter 
- quotterions ( ) lemma=quotter 
- quotterons ( ) lemma=quotter 
- quotteront ( ) lemma=quotter 
- quottes ( ) lemma=quotter 
- quottez ( ) lemma=quotter 
- quottiez ( ) lemma=quotter 
- quottions ( ) lemma=quotter 
- quottons ( ) lemma=quotter 
- quottâmes ( ) lemma=quotter 
- quottât ( ) lemma=quotter 
- quottâtes ( ) lemma=quotter 
- quottèrent ( ) lemma=quotter 
- quotté ( ) lemma=quotter 
- quottée ( ) lemma=quotter 
- quottées ( ) lemma=quotter 
- quottés ( ) lemma=quotter 
+ quottements ( ) 
+ quottent ( ) 
+ quotter ( ) 
+ quottera ( ) 
+ quotterai ( ) 
+ quotteraient ( ) 
+ quotterais ( ) 
+ quotterait ( ) 
+ quotteras ( ) 
+ quotterez ( ) 
+ quotteriez ( ) 
+ quotterions ( ) 
+ quotterons ( ) 
+ quotteront ( ) 
+ quottes ( ) 
+ quottez ( ) 
+ quottiez ( ) 
+ quottions ( ) 
+ quottons ( ) 
+ quottâmes ( ) 
+ quottât ( ) 
+ quottâtes ( ) 
+ quottèrent ( ) 
+ quotté ( ) 
+ quottée ( ) 
+ quottées ( ) 
+ quottés ( ) 
  québécisme ( ) 
- québécismes ( ) lemma=québécisme 
+ québécismes ( ) 
  québécois ( ) 
- québécoise ( ) lemma=québécois 
- québécoises ( ) lemma=québécois 
- quémanda ( ) lemma=quémander 
- quémander ( ) 
+ québécoise ( ) 
+ québécoises ( ) 
+ quémanda ( ) 
  quémandage ( ) 
- quémandages ( ) lemma=quémandage 
- quémandai ( ) lemma=quémander 
- quémandaient ( ) lemma=quémander 
- quémandais ( ) lemma=quémander 
- quémandait ( ) lemma=quémander 
- quémandant ( ) lemma=quémander 
- quémandas ( ) lemma=quémander 
- quémandasse ( ) lemma=quémander 
- quémandassent ( ) lemma=quémander 
- quémandasses ( ) lemma=quémander 
- quémandassiez ( ) lemma=quémander 
- quémandassions ( ) lemma=quémander 
- quémande ( ) lemma=quémander 
- quémandent ( ) lemma=quémander 
- quémandera ( ) lemma=quémander 
- quémanderai ( ) lemma=quémander 
- quémanderaient ( ) lemma=quémander 
- quémanderais ( ) lemma=quémander 
- quémanderait ( ) lemma=quémander 
- quémanderas ( ) lemma=quémander 
- quémanderez ( ) lemma=quémander 
- quémanderiez ( ) lemma=quémander 
- quémanderions ( ) lemma=quémander 
- quémanderons ( ) lemma=quémander 
- quémanderont ( ) lemma=quémander 
- quémandes ( ) lemma=quémander 
+ quémandages ( ) 
+ quémandai ( ) 
+ quémandaient ( ) 
+ quémandais ( ) 
+ quémandait ( ) 
+ quémandant ( ) 
+ quémandas ( ) 
+ quémandasse ( ) 
+ quémandassent ( ) 
+ quémandasses ( ) 
+ quémandassiez ( ) 
+ quémandassions ( ) 
+ quémande ( ) 
+ quémandent ( ) 
+ quémander ( ) 
+ quémandera ( ) 
+ quémanderai ( ) 
+ quémanderaient ( ) 
+ quémanderais ( ) 
+ quémanderait ( ) 
+ quémanderas ( ) 
+ quémanderez ( ) 
+ quémanderiez ( ) 
+ quémanderions ( ) 
+ quémanderons ( ) 
+ quémanderont ( ) 
+ quémandes ( ) 
  quémandeur ( ) 
- quémandeurs ( ) lemma=quémandeur 
- quémandeuse ( ) lemma=quémandeur 
- quémandeuses ( ) lemma=quémandeur 
- quémandez ( ) lemma=quémander 
- quémandiez ( ) lemma=quémander 
- quémandions ( ) lemma=quémander 
- quémandons ( ) lemma=quémander 
- quémandâmes ( ) lemma=quémander 
- quémandât ( ) lemma=quémander 
- quémandâtes ( ) lemma=quémander 
- quémandèrent ( ) lemma=quémander 
- quémandé ( ) lemma=quémander 
- quémandée ( ) lemma=quémander 
- quémandées ( ) lemma=quémander 
- quémandés ( ) lemma=quémander 
+ quémandeurs ( ) 
+ quémandeuse ( ) 
+ quémandeuses ( ) 
+ quémandez ( ) 
+ quémandiez ( ) 
+ quémandions ( ) 
+ quémandons ( ) 
+ quémandâmes ( ) 
+ quémandât ( ) 
+ quémandâtes ( ) 
+ quémandèrent ( ) 
+ quémandé ( ) 
+ quémandée ( ) 
+ quémandées ( ) 
+ quémandés ( ) 
  quéquette ( ) 
- quéquettes ( ) lemma=quéquette 
+ quéquettes ( ) 
  quérable ( ) 
- quérables ( ) lemma=quérable 
+ quérables ( ) 
  quérimonie ( ) 
- quérimonies ( ) lemma=quérimonie 
+ quérimonies ( ) 
  quérulence ( ) 
- quérulences ( ) lemma=quérulence 
+ quérulences ( ) 
  quérulent ( ) 
- quérulente ( ) lemma=quérulent 
- quérulentes ( ) lemma=quérulent 
- quérulents ( ) lemma=quérulent 
- quêta ( ) lemma=quêter 
- quêter ( ) 
- quêtai ( ) lemma=quêter 
- quêtaient ( ) lemma=quêter 
- quêtais ( ) lemma=quêter 
- quêtait ( ) lemma=quêter 
- quêtant ( ) lemma=quêter 
- quêtas ( ) lemma=quêter 
- quêtasse ( ) lemma=quêter 
- quêtassent ( ) lemma=quêter 
- quêtasses ( ) lemma=quêter 
- quêtassiez ( ) lemma=quêter 
- quêtassions ( ) lemma=quêter 
+ quérulente ( ) 
+ quérulentes ( ) 
+ quérulents ( ) 
+ quêta ( ) 
+ quêtai ( ) 
+ quêtaient ( ) 
+ quêtais ( ) 
+ quêtait ( ) 
+ quêtant ( ) 
+ quêtas ( ) 
+ quêtasse ( ) 
+ quêtassent ( ) 
+ quêtasses ( ) 
+ quêtassiez ( ) 
+ quêtassions ( ) 
  quête ( ) 
- quêtent ( ) lemma=quêter 
- quêtera ( ) lemma=quêter 
- quêterai ( ) lemma=quêter 
- quêteraient ( ) lemma=quêter 
- quêterais ( ) lemma=quêter 
- quêterait ( ) lemma=quêter 
- quêteras ( ) lemma=quêter 
- quêterez ( ) lemma=quêter 
- quêteriez ( ) lemma=quêter 
- quêterions ( ) lemma=quêter 
- quêterons ( ) lemma=quêter 
- quêteront ( ) lemma=quêter 
- quêtes ( ) lemma=quête 
+ quêtent ( ) 
+ quêter ( ) 
+ quêtera ( ) 
+ quêterai ( ) 
+ quêteraient ( ) 
+ quêterais ( ) 
+ quêterait ( ) 
+ quêteras ( ) 
+ quêterez ( ) 
+ quêteriez ( ) 
+ quêterions ( ) 
+ quêterons ( ) 
+ quêteront ( ) 
+ quêtes ( ) 
  quêteur ( ) 
- quêteurs ( ) lemma=quêteur 
- quêteuse ( ) lemma=quêteur 
- quêteuses ( ) lemma=quêteur 
- quêtez ( ) lemma=quêter 
- quêtiez ( ) lemma=quêter 
- quêtions ( ) lemma=quêter 
- quêtons ( ) lemma=quêter 
- quêtâmes ( ) lemma=quêter 
- quêtât ( ) lemma=quêter 
- quêtâtes ( ) lemma=quêter 
- quêtèrent ( ) lemma=quêter 
- quêté ( ) lemma=quêter 
- quêtée ( ) lemma=quêter 
- quêtées ( ) lemma=quêter 
- quêtés ( ) lemma=quêter 
+ quêteurs ( ) 
+ quêteuse ( ) 
+ quêteuses ( ) 
+ quêtez ( ) 
+ quêtiez ( ) 
+ quêtions ( ) 
+ quêtons ( ) 
+ quêtâmes ( ) 
+ quêtât ( ) 
+ quêtâtes ( ) 
+ quêtèrent ( ) 
+ quêté ( ) 
+ quêtée ( ) 
+ quêtées ( ) 
+ quêtés ( ) 
  quôc-ngu ( ) 
- quôc-ngus ( ) lemma=quôc-ngu 
+ quôc-ngus ( ) 
+ quaboulevar ( ) lemma=Aquaboulevard 
+ quariu ( ) lemma=aquarium 
+ quitain ( ) lemma=aquitain 
+ qua-toffan ( ) lemma=aqua-toffana 
+ qua-toffana ( ) lemma=aqua-toffana 
+ quacol ( ) lemma=aquacole 
+ quacole ( ) lemma=aquacole 
+ quaculteu ( ) lemma=aquaculteur 
+ quaculteur ( ) lemma=aquaculteur 
+ quacultur ( ) lemma=aquaculture 
+ quaculture ( ) lemma=aquaculture 
+ quafortist ( ) lemma=aquafortiste 
+ quafortiste ( ) lemma=aquafortiste 
+ quamanil ( ) lemma=aquamanile 
+ quamanile ( ) lemma=aquamanile 
+ quanaut ( ) lemma=aquanaute 
+ quanaute ( ) lemma=aquanaute 
+ quaplanag ( ) lemma=aquaplanage 
+ quaplanage ( ) lemma=aquaplanage 
+ quaplan ( ) lemma=aquaplane 
+ quaplane ( ) lemma=aquaplane 
+ quaplanin ( ) lemma=aquaplaning 
+ quaplaning ( ) lemma=aquaplaning 
+ quarell ( ) lemma=aquarelle 
+ quarellag ( ) lemma=aquarellage 
+ quarellage ( ) lemma=aquarellage 
+ quarella ( ) lemma=aquareller 
+ quarellaien ( ) lemma=aquareller 
+ quarellai ( ) lemma=aquareller 
+ quarellan ( ) lemma=aquareller 
+ quarellass ( ) lemma=aquareller 
+ quarellassen ( ) lemma=aquareller 
+ quarellasse ( ) lemma=aquareller 
+ quarellassie ( ) lemma=aquareller 
+ quarellassion ( ) lemma=aquareller 
+ quarellen ( ) lemma=aquareller 
+ quarelle ( ) lemma=aquareller 
+ quareller ( ) lemma=aquareller 
+ quarellera ( ) lemma=aquareller 
+ quarelleraien ( ) lemma=aquareller 
+ quarellerai ( ) lemma=aquareller 
+ quarellere ( ) lemma=aquareller 
+ quarellerie ( ) lemma=aquareller 
+ quarellerion ( ) lemma=aquareller 
+ quarelleron ( ) lemma=aquareller 
+ quarellie ( ) lemma=aquareller 
+ quarellion ( ) lemma=aquareller 
+ quarellist ( ) lemma=aquarelliste 
+ quarelliste ( ) lemma=aquarelliste 
+ quarellon ( ) lemma=aquareller 
+ quarellâme ( ) lemma=aquareller 
+ quarellâ ( ) lemma=aquareller 
+ quarellâte ( ) lemma=aquareller 
+ quarellèren ( ) lemma=aquareller 
+ quarell� ( ) lemma=aquareller 
+ quarellé ( ) lemma=aquareller 
+ quarellée ( ) lemma=aquareller 
+ quarie ( ) lemma=aquarien 
+ quarien ( ) lemma=aquarien 
+ quariophil ( ) lemma=aquariophile 
+ quariophile ( ) lemma=aquariophile 
+ quariophili ( ) lemma=aquariophilie 
+ quariophilie ( ) lemma=aquariophilie 
+ quarium ( ) lemma=aquarium 
+ quasta ( ) lemma=aquastat 
+ quastat ( ) lemma=aquastat 
+ quateint ( ) lemma=aquateinte 
+ quateinte ( ) lemma=aquateinte 
+ quat ( ) lemma=squat 
+ quati ( ) lemma=aquatir 
+ quatie ( ) lemma=aquatir 
+ quatil ( ) lemma=aquatile 
+ quatile ( ) lemma=aquatile 
+ quatint ( ) lemma=aquatinte 
+ quatinte ( ) lemma=aquatinte 
+ quatintist ( ) lemma=aquatintiste 
+ quatintiste ( ) lemma=aquatintiste 
+ quatiqu ( ) lemma=aquatique 
+ quatique ( ) lemma=aquatique 
+ quatir ( ) lemma=aquatir 
+ quatira ( ) lemma=aquatir 
+ quatiraien ( ) lemma=aquatir 
+ quatirai ( ) lemma=aquatir 
+ quatiren ( ) lemma=aquatir 
+ quatire ( ) lemma=aquatir 
+ quatirie ( ) lemma=aquatir 
+ quatirion ( ) lemma=aquatir 
+ quatiron ( ) lemma=aquatir 
+ quatissaien ( ) lemma=aquatir 
+ quatissai ( ) lemma=aquatir 
+ quatissan ( ) lemma=aquatir 
+ quatiss ( ) lemma=aquatir 
+ quatissen ( ) lemma=aquatir 
+ quatisse ( ) lemma=aquatir 
+ quatissie ( ) lemma=aquatir 
+ quatission ( ) lemma=aquatir 
+ quatisson ( ) lemma=aquatir 
+ quatubulair ( ) lemma=aquatubulaire 
+ quatubulaire ( ) lemma=aquatubulaire 
+ quatîme ( ) lemma=aquatir 
+ quatî ( ) lemma=aquatir 
+ quatîte ( ) lemma=aquatir 
+ quavi ( ) lemma=aquavit 
+ quavit ( ) lemma=aquavit 
+ quedu ( ) lemma=aqueduc 
+ queduc ( ) lemma=aqueduc 
+ queus ( ) lemma=aqueux 
+ queuse ( ) lemma=aqueux 
+ queu ( ) lemma=aqueux 
+ quicol ( ) lemma=aquicole 
+ quicole ( ) lemma=aquicole 
+ quiculteu ( ) lemma=aquiculteur 
+ quiculteur ( ) lemma=aquiculteur 
+ quicultur ( ) lemma=aquiculture 
+ quiculture ( ) lemma=aquiculture 
+ quifoliacée ( ) lemma=aquifoliacées 
+ quifèr ( ) lemma=aquifère 
+ quifère ( ) lemma=aquifère 
+ quilai ( ) lemma=aquilain 
+ quilan ( ) lemma=aquilant 
+ quilidé ( ) lemma=aquilidés 
+ quili ( ) lemma=aquilin 
+ quilin ( ) lemma=aquilin 
+ quiline ( ) lemma=aquilin 
+ quiliné ( ) lemma=aquilinés 
+ quilo ( ) lemma=aquilon 
+ quilon ( ) lemma=aquilon 
+ quitai ( ) lemma=aquitain 
+ quitaine ( ) lemma=aquitain 
+ quitanie ( ) lemma=aquitanien 
+ quitanien ( ) lemma=aquitanien 
+ quoibonism ( ) lemma=aquoibonisme 
+ quoibonisme ( ) lemma=aquoibonisme 
+ quosit� ( ) lemma=aquosité 
+ quosité ( ) lemma=aquosité 
+ querelleur|querelleux ( ) 
+ qual ( ) lemma=squale 
+ quale ( ) lemma=squale 
+ qualid ( ) lemma=squalide 
+ qualide ( ) lemma=squalide 
+ qualidit� ( ) lemma=squalidité 
+ qualidité ( ) lemma=squalidité 
+ qualoïde ( ) lemma=squaloïdes 
+ qualèn ( ) lemma=squalène 
+ qualène ( ) lemma=squalène 
+ quamate ( ) lemma=squamates 
+ quam ( ) lemma=squame 
+ quame ( ) lemma=squame 
+ quameus ( ) lemma=squameux 
+ quameuse ( ) lemma=squameux 
+ quameu ( ) lemma=squameux 
+ quamiform ( ) lemma=squamiforme 
+ quamiforme ( ) lemma=squamiforme 
+ quamifèr ( ) lemma=squamifère 
+ quamifère ( ) lemma=squamifère 
+ quamul ( ) lemma=squamule 
+ quamule ( ) lemma=squamule 
+ quar ( ) lemma=square 
+ quare ( ) lemma=square 
+ quas ( ) lemma=squash 
+ quash ( ) lemma=squash 
+ qua ( ) lemma=squaw 
+ quatin ( ) lemma=squatine 
+ quatt ( ) lemma=squatter 
+ quatta ( ) lemma=squatter 
+ quattaien ( ) lemma=squatter 
+ quattai ( ) lemma=squatter 
+ quattan ( ) lemma=squatter 
+ quattass ( ) lemma=squatter 
+ quattassen ( ) lemma=squatter 
+ quattasse ( ) lemma=squatter 
+ quattassie ( ) lemma=squatter 
+ quattassion ( ) lemma=squatter 
+ quatten ( ) lemma=squatter 
+ quatte ( ) lemma=squatter 
+ quatter ( ) lemma=squatter 
+ quattera ( ) lemma=squatter 
+ quatteraien ( ) lemma=squatter 
+ quatterai ( ) lemma=squatter 
+ quattere ( ) lemma=squatter 
+ quatterie ( ) lemma=squatter 
+ quatterion ( ) lemma=squatter 
+ quatteron ( ) lemma=squatter 
+ quattie ( ) lemma=squatter 
+ quattion ( ) lemma=squatter 
+ quatton ( ) lemma=squatter 
+ quattâme ( ) lemma=squatter 
+ quattâ ( ) lemma=squatter 
+ quattâte ( ) lemma=squatter 
+ quattèren ( ) lemma=squatter 
+ quatt� ( ) lemma=squatter 
+ quatté ( ) lemma=squatter 
+ quattée ( ) lemma=squatter 
+ quaw ( ) lemma=squaw 
+ queez ( ) lemma=squeezer 
+ queeza ( ) lemma=squeezer 
+ queezaien ( ) lemma=squeezer 
+ queezai ( ) lemma=squeezer 
+ queezan ( ) lemma=squeezer 
+ queezass ( ) lemma=squeezer 
+ queezassen ( ) lemma=squeezer 
+ queezasse ( ) lemma=squeezer 
+ queezassie ( ) lemma=squeezer 
+ queezassion ( ) lemma=squeezer 
+ queeze ( ) lemma=squeezer 
+ queezer ( ) lemma=squeezer 
+ queezie ( ) lemma=squeezer 
+ queezion ( ) lemma=squeezer 
+ queezon ( ) lemma=squeezer 
+ queezâme ( ) lemma=squeezer 
+ queezâ ( ) lemma=squeezer 
+ queezâte ( ) lemma=squeezer 
+ queezèren ( ) lemma=squeezer 
+ queez� ( ) lemma=squeezer 
+ queezé ( ) lemma=squeezer 
+ queezée ( ) lemma=squeezer 
+ quelett ( ) lemma=squelette 
+ quelette ( ) lemma=squelette 
+ quelettiqu ( ) lemma=squelettique 
+ quelettique ( ) lemma=squelettique 
+ quelett� ( ) lemma=squeletté 
+ queletté ( ) lemma=squeletté 
+ quelettée ( ) lemma=squeletté 
+ queèz ( ) lemma=squeezer 
+ queèzen ( ) lemma=squeezer 
+ queèzer ( ) lemma=squeezer 
+ queèzera ( ) lemma=squeezer 
+ queèzeraien ( ) lemma=squeezer 
+ queèzerai ( ) lemma=squeezer 
+ queèzere ( ) lemma=squeezer 
+ queèzerie ( ) lemma=squeezer 
+ queèzerion ( ) lemma=squeezer 
+ queèzeron ( ) lemma=squeezer 
+ queèze ( ) lemma=squeezer 
+ quill ( ) lemma=squille 
+ quin ( ) lemma=squine 
+ quir ( ) lemma=squire 
+ quire ( ) lemma=squire 
+ quirr ( ) lemma=squirre 
+ quirre ( ) lemma=squirre 
+ quirreus ( ) lemma=squirreux 
+ quirreuse ( ) lemma=squirreux 
+ quirreu ( ) lemma=squirreux 

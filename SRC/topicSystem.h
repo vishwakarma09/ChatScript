@@ -134,7 +134,7 @@ extern int pendingTopicList[MAX_TOPIC_STACK+1];
 extern int originalPendingTopicList[MAX_TOPIC_STACK+1];
 void SetSampleFile(int topic);
 void ResetContext();
-FunctionResult ProcessRuleOutput(char* rule, unsigned int id,char* buffer);
+FunctionResult ProcessRuleOutput(char* rule, unsigned int id,char* buffer, bool refine = false);
 FunctionResult TestRule(int responderID,char* ptr,char* buffer,bool refine=false);
 FunctionResult PerformTopic(int active,char* buffer,char* rule = NULL,unsigned int id = 0);
 bool Repeatable(char* rule);
@@ -151,7 +151,7 @@ int PushTopic(int topic);
 void PopTopic();
 bool CheckTopicTrace();
 bool CheckTopicTime();
-FunctionResult DoOutput(char* buffer,char* rule, unsigned int id);
+FunctionResult DoOutput(char* buffer,char* rule, unsigned int id, bool refine = false);
 unsigned int EstablishTopicTrace();
 char* GetRuleIDFromText(char* ptr, int & id);
 char* GetVerify(char* tag,int & topicid, int &id);//  ~topic.#.#=LABEL<~topic.#.#  is a maximally complete why

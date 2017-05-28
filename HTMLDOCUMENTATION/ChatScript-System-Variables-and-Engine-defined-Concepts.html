@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1 id="chatscript-system-variables-and-engine-defined-concepts">ChatScript System Variables and Engine-defined Concepts</h1>
-<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 4/30/2017 cs7.41</p>
+<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 5/28/2017 cs7.43</p>
 <ul>
 <li><a href="ChatScript-System-Variables-and-Engine-defined-Concepts.html#engine-defined-concepts">Engine-defined Concepts</a></li>
 <li><a href="ChatScript-System-Variables-and-Engine-defined-Concepts.html#system-variables">System Variables</a></li>
@@ -1280,6 +1280,10 @@ s: (name is _*)
 <p>which defines new canonical values for things and creates a file <code>canon0.txt</code> or <code>canon1.txt</code> in your TOPIC folder.</p>
 <p>If you want to set a canonical pair from a table during compilation, you can use a function to do the same thing (but only 1 pair at a time).</p>
 <pre><code>^canon(word canonicalform)</code></pre>
+<h2 id="numeric-substitutions">Numeric Substitutions</h2>
+<p>A special kind of private substitution (equally applicable in regular substitution files) is the numeric substitution.</p>
+<pre><code>replace: ?_km kilometers</code></pre>
+<p>The ?_ matches a digit number followed immediately by km, like <code>1.2km</code> and will separate the number and replace the units with the given replacement.</p>
 <h1 id="interchange-variables">Interchange Variables</h1>
 <p>The following variables can be defined in a script and the engine will react to their contents.</p>
 <table style="width:39%;">
@@ -1437,6 +1441,14 @@ s: (name is _*)
 <tr class="even">
 <td><code>$cs_numbers</code></td>
 <td>if defined, causes the system to output numbers in a different language style: french, indian. All other values are english.</td>
+</tr>
+<tr class="odd">
+<td><code>$cs_topicretrylimit</code></td>
+<td>if defined changes how many times you can pass back RETRY_TOPIC before it fails (current limit is 30)</td>
+</tr>
+<tr class="even">
+<td><code>$$topic_retry_limit_exceeded</code></td>
+<td>set if topic retry limit is encountered</td>
 </tr>
 </tbody>
 </table>

@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1 id="chatscript-system-functions-manual">ChatScript System Functions Manual</h1>
-<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 5/7/2017 cs7.42</p>
+<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 5/28/2017 cs7.43</p>
 <ul>
 <li><a href="ChatScript-System-Functions-Manual.html#topic-functions">Topic Functions</a></li>
 <li><a href="ChatScript-System-Functions-Manual.html#marking-functions">Marking Functions</a></li>
@@ -139,7 +139,7 @@ It's the same if the current rule was a top level rule, but if the current rule 
 <p>This stalls the engine for that many milliseconds. If this is a server, the server is unavailable until sleep is done. Use with care. A good use is when starting up a server instance and the boot process involves reading from an API. If your machine runs 30 instances of ChatScript launched at once (to use max CPU), then all of them hitting the same API at once may be bad for the API and forcing a randomized sleep based on processid is a good use.</p>
 <h1 id="marking-functions">Marking Functions</h1>
 <h3 id="mark-word-location"><code>^mark ( word location )</code></h3>
-<p>Marking and unmarking words and concepts is fundamental to the pattern matching mechanism, so the system provides both an automatic marking mechanism and manual override abilities. You can manually mark or unmark something.</p>
+<p>Marking and unmarking words and concepts is fundamental to the pattern matching mechanism, so the system provides both an automatic marking mechanism and manual override abilities. You can manually mark or unmark something. Automatic system marking marks all concepts implied by chasing up membership in other concepts, as does this call <code>^mark</code>. <code>word</code> can be any word, which also means you can mark something with a concept name whether or not the concept actually is defined anywhere.</p>
 <p>There are two mechanisms supported using <code>^mark</code> and <code>^unmark</code>: specific and generic.</p>
 <p>With <code>specific</code>, you name words or concepts to mark or unmark, either at a particular point in the sentence or throughout the sentence.</p>
 <p>With <code>generic</code> you disable or reenable all existing marks on a word or words in the sentence. In fact, you go beyond that because during patttern matching words you disable are invisble entirely, and matching proceeds as if they do not exist.</p>

@@ -1,4 +1,4 @@
-﻿ B ( ) 
+﻿ B ( ) lemma=dBm 
  B.1 ( ) 
  B.1.1 ( ) 
  B.1.2 ( ) 
@@ -63,8 +63,7 @@
  BDS ( ) 
  BEL ( ) 
  BIG ( ) 
- BILINGÜE ( ) lemma=bilingüe 
- bilingüe ( ) 
+ BILINGÜE ( ) 
  BIND ( ) 
  BK ( ) 
  BL ( ) 
@@ -73,7 +72,7 @@
  BNR ( ) 
  BQ ( ) 
  BR ( ) 
- BS ( ) 
+ BS ( ) lemma=NBSP 
  BSTJ ( ) 
  BT ( ) 
  Babesia ( ) 
@@ -109,7 +108,7 @@
  Bara ( ) 
  Barbados ( ) 
  Barbie ( ) 
- Barbies ( ) lemma=Barbie 
+ Barbies ( ) 
  Barbudas ( ) 
  Barcelona ( ) 
  Bariloche ( ) 
@@ -264,12 +263,9 @@
  Brunela ( ) 
  Bruselas ( ) 
  Buceo ( ) 
- Buchito ( ) lemma=Buche 
- Buche ( ) 
+ Buchito ( ) 
  Buenaventura ( ) 
  Buenos ( ) 
- Buenos_Aires ( ) lemma=Buenos~Aires 
- Buenos~Aires ( ) 
  Buffalo ( ) 
  Buitre ( ) 
  Bulgaria ( ) 
@@ -278,15 +274,14 @@
  Burdeos ( ) 
  Bureta ( ) 
  Burgos ( ) 
- Burkina_Faso ( ) lemma=Burkina~Faso 
- Burkina~Faso ( ) 
+ Burkina ( ) 
  Burkitt ( ) 
  Burundi ( ) 
  Bush ( ) 
  Bustamante ( ) 
  Bécquer ( ) 
  Bélgica ( ) 
- b ( ) 
+ b ( ) lemma=ir 
  b-galactosidasa ( ) 
  b/U.1 ( ) 
  b1 ( ) 
@@ -297,25 +292,21 @@
  b6 ( ) 
  b7 ( ) 
  b8 ( ) 
- b` ( ) lemma=b 
  baba ( ) 
- babeando ( ) lemma=babear 
- babear ( ) 
- babosa ( ) lemma=baboso 
+ babeando ( ) 
+ babosa ( ) 
+ babosas ( ) 
  baboso ( ) 
- babosas ( ) lemma=baboso 
- babosos ( ) lemma=baboso 
+ babosos ( ) 
  bacalao ( ) 
- bacalaos ( ) lemma=bacalao 
+ bacalaos ( ) 
  bache ( ) 
- bacheo ( ) lemma=bachear 
- bachear ( ) 
- baches ( ) lemma=bache 
+ bacheo ( ) 
+ baches ( ) 
  bachillerato ( ) 
- bachilleres ( ) lemma=bachiller 
- bachiller ( ) 
+ bachilleres ( ) 
  bacilo ( ) 
- bacilos ( ) lemma=bacilo 
+ bacilos ( ) 
  baciloscopia ( ) 
  bacitracina ( ) 
  back ( ) 
@@ -325,707 +316,685 @@
  bactenuria ( ) 
  bacteremia ( ) 
  bacteria ( ) 
- bacteriana ( ) lemma=bacteriano 
+ bacteriana ( ) 
+ bacterianas ( ) 
  bacteriano ( ) 
- bacterianas ( ) lemma=bacteriano 
- bacterianos ( ) lemma=bacteriano 
- bacterias ( ) lemma=bacteria 
+ bacterianos ( ) 
+ bacterias ( ) 
  bacteriología ( ) 
- bacteriológica ( ) lemma=bacteriológico 
+ bacteriológica ( ) 
+ bacteriológicas ( ) 
  bacteriológico ( ) 
- bacteriológicas ( ) lemma=bacteriológico 
  bacteriuria ( ) 
  bacteriófago ( ) 
- bacteriófagos ( ) lemma=bacteriófago 
+ bacteriófagos ( ) 
  bacteroide ( ) 
- baga ( ) lemma=bagar 
- bagar ( ) 
+ baga ( ) 
  bagaje ( ) 
  bagatela ( ) 
  bagre ( ) 
  bah ( ) 
- bahameña ( ) lemma=bahameño 
- bahameño ( ) 
+ bahameña ( ) 
  bahía ( ) 
- baila ( ) lemma=bailar 
+ baila ( ) 
+ bailaba ( ) 
+ bailaban ( ) 
+ bailado ( ) 
+ bailamos ( ) 
+ bailan ( ) 
+ bailando ( ) 
  bailar ( ) 
- bailaba ( ) lemma=bailar 
- bailaban ( ) lemma=bailar 
- bailado ( ) lemma=bailar 
- bailamos ( ) lemma=bailar 
- bailan ( ) lemma=bailar 
- bailando ( ) lemma=bailar 
- bailara ( ) lemma=bailar 
- bailaran ( ) lemma=bailar 
- bailarina ( ) lemma=bailarín 
+ bailara ( ) 
+ bailaran ( ) 
+ bailarina ( ) 
+ bailarinas ( ) 
+ bailarines ( ) 
+ bailaron ( ) 
+ bailaría ( ) 
  bailarín ( ) 
- bailarinas ( ) lemma=bailarín 
- bailarines ( ) lemma=bailarín 
- bailaron ( ) lemma=bailar 
- bailaría ( ) lemma=bailar 
- bailaste ( ) lemma=bailar 
+ bailaste ( ) 
  baile ( ) 
- bailes ( ) lemma=baile 
- bailábamos ( ) lemma=bailar 
- bailé ( ) lemma=bailar 
- bailó ( ) lemma=bailar 
- baja ( ) lemma=bajo 
- bajo ( ) 
- bajaba ( ) lemma=bajar 
+ bailes ( ) 
+ bailábamos ( ) 
+ bailé ( ) 
+ bailó ( ) 
+ baja ( ) 
+ bajaba ( ) 
+ bajaban ( ) 
+ bajad ( ) 
+ bajada ( ) 
+ bajadas ( ) 
+ bajado ( ) 
+ bajados ( ) 
+ bajamente ( ) 
+ bajamos ( ) 
+ bajan ( ) 
+ bajando ( ) 
  bajar ( ) 
- bajaban ( ) lemma=bajar 
- bajad ( ) lemma=bajar 
- bajada ( ) lemma=bajar 
- bajadas ( ) lemma=bajar 
- bajado ( ) lemma=bajar 
- bajados ( ) lemma=bajar 
- bajamente ( ) lemma=bajo 
- bajamos ( ) lemma=bajar 
- bajan ( ) lemma=bajar 
- bajando ( ) lemma=bajar 
- bajara ( ) lemma=bajar 
- bajaran ( ) lemma=bajar 
- bajaremos ( ) lemma=bajar 
- bajarlo ( ) lemma=bajar 
- bajarlos ( ) lemma=bajar 
- bajaron ( ) lemma=bajar 
+ bajara ( ) 
+ bajaran ( ) 
+ bajaremos ( ) 
+ bajarlo ( ) 
+ bajarlos ( ) 
+ bajaron ( ) 
  bajarse ( ) 
- bajará ( ) lemma=bajar 
- bajarán ( ) lemma=bajar 
- bajaré ( ) lemma=bajar 
- bajaría ( ) lemma=bajar 
- bajas ( ) lemma=bajo 
- baje ( ) lemma=bajar 
- bajemos ( ) lemma=bajar 
- bajen ( ) lemma=bajar 
- bajes ( ) lemma=bajar 
+ bajará ( ) 
+ bajarán ( ) 
+ bajaré ( ) 
+ bajaría ( ) 
+ bajas ( ) 
+ baje ( ) 
+ bajemos ( ) 
+ bajen ( ) 
+ bajes ( ) 
  bajista ( ) 
- bajita ( ) lemma=bajo 
- bajitas ( ) lemma=bajo 
- bajito ( ) lemma=bajo 
- bajitos ( ) lemma=bajo 
- bajos ( ) lemma=bajo 
- bajábamos ( ) lemma=bajar 
- bajé ( ) lemma=bajar 
- bajísima ( ) lemma=bajo 
- bajísimas ( ) lemma=bajo 
- bajísimo ( ) lemma=bajo 
- bajísimos ( ) lemma=bajo 
- bajó ( ) lemma=bajar 
+ bajita ( ) 
+ bajitas ( ) 
+ bajito ( ) 
+ bajitos ( ) 
+ bajo ( ) 
+ bajos ( ) 
+ bajábamos ( ) 
+ bajé ( ) 
+ bajísima ( ) 
+ bajísimas ( ) 
+ bajísimo ( ) 
+ bajísimos ( ) 
+ bajó ( ) 
  bala ( ) 
  balacera ( ) 
- balaceras ( ) lemma=balacera 
- balada ( ) lemma=balar 
- balar ( ) 
- baladas ( ) lemma=balar 
+ balaceras ( ) 
+ balada ( ) 
+ baladas ( ) 
  baladí ( ) 
- baladíes ( ) lemma=baladí 
+ baladíes ( ) 
  balance ( ) 
- balanceaba ( ) lemma=balancear 
- balancear ( ) 
- balanceada ( ) lemma=balancear 
- balanceado ( ) lemma=balancear 
- balanceados ( ) lemma=balancear 
- balancean ( ) lemma=balancear 
+ balanceaba ( ) 
+ balanceada ( ) 
+ balanceado ( ) 
+ balanceados ( ) 
+ balancean ( ) 
  balanceante ( ) 
+ balancear ( ) 
  balanceo ( ) 
- balances ( ) lemma=balance 
- balanza ( ) 
- balanzas ( ) lemma=balanza 
- balas ( ) lemma=bala 
+ balances ( ) 
+ balanza ( ) lemma=abalanzar 
+ balanzas ( ) 
+ balar ( ) 
+ balas ( ) 
  balazo ( ) 
- balazos ( ) lemma=balazo 
- balcones ( ) lemma=balcón 
+ balazos ( ) 
+ balcones ( ) 
  balcón ( ) 
- baldada ( ) lemma=baldar 
- baldar ( ) 
- baldado ( ) lemma=baldar 
- baldas ( ) lemma=baldar 
+ baldada ( ) 
+ baldado ( ) 
+ baldas ( ) 
  balde ( ) 
- baldes ( ) lemma=balde 
- baldías ( ) lemma=baldío 
+ baldes ( ) 
+ baldías ( ) 
  baldío ( ) 
- baldíos ( ) lemma=baldío 
- baleado ( ) lemma=balear 
+ baldíos ( ) 
+ baleado ( ) 
+ baleados ( ) 
  balear ( ) 
- baleados ( ) lemma=balear 
- baleares ( ) lemma=balear 
- balearon ( ) lemma=balear 
+ baleares ( ) 
+ balearon ( ) 
  balero ( ) 
- baleó ( ) lemma=balear 
- balizas ( ) lemma=baliza 
- baliza ( ) 
+ baleó ( ) 
+ balizas ( ) 
  ballena ( ) 
- ballenas ( ) lemma=ballena 
+ ballenas ( ) 
  ballenera ( ) 
- balleneras ( ) lemma=ballenera 
+ balleneras ( ) 
  ballet ( ) 
- balnearia ( ) lemma=balneario 
+ balnearia ( ) 
  balneario ( ) 
- balnearios ( ) lemma=balneario 
+ balnearios ( ) 
  balneoterápico ( ) 
- balon ( ) lemma=balón 
- balón ( ) 
+ balon ( ) 
  baloncesto ( ) 
- baloncito ( ) lemma=balón 
- balones ( ) lemma=balón 
+ baloncito ( ) 
+ balones ( ) 
  balonmano ( ) 
  balsa ( ) 
- balsas ( ) lemma=balsa 
+ balsas ( ) 
  balsero ( ) 
- balseros ( ) lemma=balsero 
+ balseros ( ) 
  baluarte ( ) 
- baluartes ( ) lemma=baluarte 
+ baluartes ( ) 
  balustrada ( ) 
- balística ( ) lemma=balístico 
+ balística ( ) 
  balístico ( ) 
- balísticos ( ) lemma=balístico 
+ balísticos ( ) 
+ balón ( ) 
  bambú ( ) 
  banal ( ) 
  banalidad ( ) 
  banana ( ) 
- bananas ( ) lemma=banana 
- bananera ( ) lemma=bananero 
+ bananas ( ) 
+ bananera ( ) 
+ bananeras ( ) 
  bananero ( ) 
- bananeras ( ) lemma=bananero 
- bananeros ( ) lemma=bananero 
+ bananeros ( ) 
  banano ( ) 
- bananos ( ) lemma=banano 
+ bananos ( ) 
  banca ( ) 
  bancada ( ) 
  bancar ( ) 
- bancaria ( ) lemma=bancario 
+ bancaria ( ) 
+ bancarias ( ) 
  bancario ( ) 
- bancarias ( ) lemma=bancario 
- bancarios ( ) lemma=bancario 
+ bancarios ( ) 
  bancarrota ( ) 
- bancas ( ) lemma=banca 
+ bancas ( ) 
  banco ( ) 
- bancos ( ) lemma=banco 
- bancás ( ) lemma=bancar 
- band ( ) 
+ bancos ( ) 
+ bancás ( ) 
+ band ( ) lemma=Obando 
  band-shift ( ) 
  banda ( ) 
  bandada ( ) 
- bandadas ( ) lemma=bandada 
- bandas ( ) lemma=banda 
+ bandadas ( ) 
+ bandas ( ) 
  bande ( ) 
  bandeamiento ( ) 
  bandeja ( ) 
- bandejas ( ) lemma=bandeja 
- bandejita ( ) lemma=bandeja 
- bandera ( ) 
- banderas ( ) lemma=bandera 
- banderilla ( ) lemma=bandera 
- banderillas ( ) lemma=bandera 
+ bandejas ( ) 
+ bandejita ( ) 
+ bandera ( ) lemma=abanderar 
+ banderas ( ) 
+ banderilla ( ) 
+ banderillas ( ) 
  banderillero ( ) 
- banderilleros ( ) lemma=banderillero 
- banderita ( ) lemma=bandera 
- banderitas ( ) lemma=bandera 
+ banderilleros ( ) 
+ banderita ( ) 
+ banderitas ( ) 
  bandidaje ( ) 
  bandido ( ) 
- bandidos ( ) lemma=bandido 
+ bandidos ( ) 
  bando ( ) 
  bandolero ( ) 
- bandoleros ( ) lemma=bandolero 
- bandos ( ) lemma=bando 
+ bandoleros ( ) 
+ bandos ( ) 
  banjo ( ) 
  banquero ( ) 
- banqueros ( ) lemma=banquero 
+ banqueros ( ) 
  banqueta ( ) 
- banquetas ( ) lemma=banqueta 
+ banquetas ( ) 
  banquete ( ) 
- banquetes ( ) lemma=banquete 
- banquillo ( ) lemma=banco 
- banquillos ( ) lemma=banco 
- banquito ( ) lemma=banco 
+ banquetes ( ) 
+ banquillo ( ) 
+ banquillos ( ) 
+ banquito ( ) 
  bantam ( ) 
  baqueano ( ) 
  bar ( ) 
- baraja ( ) lemma=barajar 
- barajar ( ) 
- barajaban ( ) lemma=barajar 
- barajadas ( ) lemma=barajar 
- barajado ( ) lemma=barajar 
- barajan ( ) lemma=barajar 
- barajando ( ) lemma=barajar 
- barajaron ( ) lemma=barajar 
- barajas ( ) lemma=barajar 
- barajo ( ) lemma=barajar 
- barajárselo ( ) lemma=barajar 
- barajó ( ) lemma=barajar 
+ baraja ( ) 
+ barajaban ( ) 
+ barajadas ( ) 
+ barajado ( ) 
+ barajan ( ) 
+ barajando ( ) 
+ barajaron ( ) 
+ barajas ( ) 
+ barajo ( ) 
+ barajárselo ( ) 
+ barajó ( ) 
  baranda ( ) 
  barandilla ( ) 
- barandillas ( ) lemma=barandilla 
- barata ( ) lemma=barato 
+ barandillas ( ) 
+ barata ( ) lemma=abaratar 
+ baratas ( ) 
+ baratillo ( ) 
+ baratita ( ) 
  barato ( ) 
- baratas ( ) lemma=barato 
- baratillo ( ) lemma=barato 
- baratita ( ) lemma=barato 
- baratos ( ) lemma=barato 
- baratísimas ( ) lemma=barato 
- baratísimo ( ) lemma=barato 
- baratísimos ( ) lemma=barato 
+ baratos ( ) 
+ baratísimas ( ) 
+ baratísimo ( ) 
+ baratísimos ( ) 
  barba ( ) 
  barbacoa ( ) 
- barbado ( ) lemma=barbar 
- barbar ( ) 
- barbados ( ) lemma=barbar 
- barbara ( ) lemma=barbar 
+ barbado ( ) 
+ barbados ( ) 
+ barbara ( ) 
  barbaridad ( ) 
- barbaridades ( ) lemma=barbaridad 
+ barbaridades ( ) 
  barbarie ( ) 
- barbas ( ) lemma=barba 
+ barbas ( ) 
  barbero ( ) 
- barberos ( ) lemma=barbero 
+ barberos ( ) 
  barbilla ( ) 
- barbita ( ) lemma=barba 
- barbitúricos ( ) lemma=barbitúrico 
- barbitúrico ( ) 
- barca ( ) 
- barcas ( ) lemma=barca 
+ barbita ( ) 
+ barbitúricos ( ) 
+ barca ( ) lemma=abarcar 
+ barcas ( ) lemma=abarcar 
  barcaza ( ) 
- barcazas ( ) lemma=barcaza 
- barcelonesa ( ) lemma=barcelonés 
- barcelonés ( ) 
- barceloneses ( ) lemma=barcelonés 
+ barcazas ( ) 
+ barcelonesa ( ) 
+ barceloneses ( ) 
  barcelonista ( ) 
- barcelonistas ( ) lemma=barcelonista 
+ barcelonistas ( ) 
+ barcelonés ( ) 
  barco ( ) 
- barcos ( ) lemma=barco 
- barda ( ) lemma=bardar 
- bardar ( ) 
- bardo ( ) lemma=bardar 
+ barcos ( ) 
+ barda ( ) 
+ bardo ( ) 
  baremo ( ) 
- baremos ( ) lemma=baremo 
- bares ( ) lemma=bar 
+ baremos ( ) 
+ bares ( ) 
  barlovento ( ) 
- barnices ( ) lemma=barniz 
+ barnices ( ) 
  barniz ( ) 
- barométricas ( ) lemma=barométrico 
- barométrico ( ) 
- barones ( ) lemma=barón 
- barón ( ) 
- baronesa ( ) lemma=barón 
+ barométricas ( ) 
+ barones ( ) 
+ baronesa ( ) 
  barorreceptor ( ) 
  barorreceptoro ( ) 
  barorreflejo ( ) 
  barotrauma ( ) 
- barqueros ( ) lemma=barquero 
- barquero ( ) 
- barquilla ( ) lemma=barca 
- barquitos ( ) lemma=barco 
+ barqueros ( ) 
+ barquilla ( ) 
+ barquitos ( ) 
  barra ( ) 
- barracas ( ) lemma=barraca 
- barraca ( ) 
+ barracas ( ) 
  barranco ( ) 
- barras ( ) lemma=barra 
- barre ( ) lemma=barrar|barrer 
- barrar|barrer ( ) 
+ barras ( ) 
+ barre ( ) 
  barred ( ) 
- barredoras ( ) lemma=barredora 
- barredora ( ) 
- barremos ( ) lemma=barrar|barrer 
- barren ( ) lemma=barrar|barrer 
+ barredoras ( ) 
+ barremos ( ) 
+ barren ( ) 
  barrer ( ) 
  barrera ( ) 
- barreras ( ) lemma=barrera 
- barrerá ( ) lemma=barrer 
- barrerán ( ) lemma=barrer 
+ barreras ( ) 
+ barrerá ( ) 
+ barrerán ( ) 
  barriada ( ) 
- barriadas ( ) lemma=barriada 
+ barriadas ( ) 
  barricada ( ) 
- barricadas ( ) lemma=barricada 
- barrida ( ) lemma=barrer 
- barridas ( ) lemma=barrer 
+ barricadas ( ) 
+ barrida ( ) 
+ barridas ( ) 
  barrido ( ) 
- barridos ( ) lemma=barrer 
- barriendo ( ) lemma=barrer 
- barrieron ( ) lemma=barrer 
+ barridos ( ) 
+ barriendo ( ) 
+ barrieron ( ) 
  barriga ( ) 
- barriguilla ( ) lemma=barriga 
+ barriguilla ( ) 
  barril ( ) 
- barriles ( ) lemma=barril 
- barrilito ( ) lemma=barril 
+ barriles ( ) 
+ barrilito ( ) 
  barrio ( ) 
  barriobajero ( ) 
- barrios ( ) lemma=barrio 
- barrita ( ) lemma=barra 
- barritas ( ) lemma=barra 
- barrió ( ) lemma=barrer 
+ barrios ( ) 
+ barrita ( ) 
+ barritas ( ) 
+ barrió ( ) 
  barro ( ) 
- barroca ( ) lemma=barroco 
+ barroca ( ) 
+ barrocas ( ) 
  barroco ( ) 
- barrocas ( ) lemma=barroco 
- barrocos ( ) lemma=barroco 
- barros ( ) lemma=barro 
- barrote ( ) 
- barrotes ( ) lemma=barrote 
+ barrocos ( ) 
+ barros ( ) 
+ barrote ( ) lemma=abarrote 
+ barrotes ( ) 
  barullo ( ) 
  barítono ( ) 
  barómetro ( ) 
+ barón ( ) 
  basa ( ) 
- basaba ( ) lemma=basar 
- basar ( ) 
- basaban ( ) lemma=basar 
- basada ( ) lemma=basar 
- basadas ( ) lemma=basar 
- basado ( ) lemma=basar 
- basados ( ) lemma=basar 
+ basaba ( ) 
+ basaban ( ) 
+ basada ( ) 
+ basadas ( ) 
+ basado ( ) 
+ basados ( ) 
  basal ( ) 
- basales ( ) lemma=basal 
- basamos ( ) lemma=basar 
- basan ( ) lemma=basar 
- basando ( ) lemma=basar 
- basara ( ) lemma=basar 
- basaran ( ) lemma=basar 
- basaremos ( ) lemma=basar 
- basarlo ( ) lemma=basar 
- basarlos ( ) lemma=basar 
- basarme ( ) lemma=basar 
- basarnos ( ) lemma=basar 
- basaron ( ) lemma=basar 
+ basales ( ) 
+ basamos ( ) 
+ basan ( ) 
+ basando ( ) 
+ basar ( ) 
+ basara ( ) 
+ basaran ( ) 
+ basaremos ( ) 
+ basarlo ( ) 
+ basarlos ( ) 
+ basarme ( ) 
+ basarnos ( ) 
+ basaron ( ) 
  basarse ( ) 
- basará ( ) lemma=basar 
- basarán ( ) lemma=basar 
- basaré ( ) lemma=basar 
- basaría ( ) lemma=basar 
- basarían ( ) lemma=basar 
- basase ( ) lemma=basar 
+ basará ( ) 
+ basarán ( ) 
+ basaré ( ) 
+ basaría ( ) 
+ basarían ( ) 
+ basase ( ) 
  basculante ( ) 
  base ( ) 
- basemos ( ) lemma=basar 
- basen ( ) lemma=basar 
- bases ( ) lemma=base 
+ basemos ( ) 
+ basen ( ) 
+ bases ( ) 
  basic ( ) 
  basidiospora ( ) 
  basilar ( ) 
  basis ( ) 
- baso ( ) lemma=basar 
+ baso ( ) 
  basolateral ( ) 
- basolaterales ( ) lemma=basolateral 
- basta ( ) lemma=basto 
- basto ( ) 
- bastaba ( ) lemma=bastar 
- bastar ( ) 
- bastaban ( ) lemma=bastar 
- bastado ( ) lemma=bastar 
- bastan ( ) lemma=bastar 
- bastando ( ) lemma=bastar 
+ basolaterales ( ) 
+ basta ( ) 
+ bastaba ( ) 
+ bastaban ( ) 
+ bastado ( ) 
+ bastan ( ) 
+ bastando ( ) 
  bastante ( ) 
- bastantes ( ) lemma=bastante 
- bastara ( ) lemma=bastar 
- bastaron ( ) lemma=bastar 
- bastarse ( ) lemma=bastar 
- bastará ( ) lemma=bastar 
- bastarán ( ) lemma=bastar 
- bastaría ( ) lemma=bastar 
- bastarían ( ) lemma=bastar 
- bastase ( ) lemma=bastar 
- baste ( ) lemma=bastar 
- basten ( ) lemma=bastar 
- bastidores ( ) lemma=bastidor 
- bastidor ( ) 
- bastiones ( ) lemma=bastión 
+ bastantes ( ) 
+ bastar ( ) 
+ bastara ( ) 
+ bastaron ( ) 
+ bastarse ( ) 
+ bastará ( ) 
+ bastarán ( ) 
+ bastaría ( ) 
+ bastarían ( ) 
+ bastase ( ) 
+ baste ( ) 
+ basten ( ) 
+ bastidores ( ) 
+ bastiones ( ) 
+ bastito ( ) 
  bastión ( ) 
- bastito ( ) lemma=basto 
- bastoncillos ( ) lemma=bastón 
+ basto ( ) lemma=abasto 
+ bastoncillos ( ) 
+ bastones ( ) 
+ bastos ( ) 
+ bastó ( ) 
  bastón ( ) 
- bastones ( ) lemma=bastón 
- bastos ( ) lemma=basto 
- bastó ( ) lemma=bastar 
  basura ( ) 
- basuras ( ) lemma=basura 
+ basuras ( ) 
  basurear ( ) 
  basurero ( ) 
- basureros ( ) lemma=basurero 
- basábamos ( ) lemma=basar 
- basándolo ( ) lemma=basar 
- basándome ( ) lemma=basar 
- basándonos ( ) lemma=basar 
- basándose ( ) lemma=basarse 
+ basureros ( ) 
+ basábamos ( ) 
+ basándolo ( ) 
+ basándome ( ) 
+ basándonos ( ) 
+ basándose ( ) 
  basílica ( ) 
- basó ( ) lemma=basar 
- basófilos ( ) lemma=basófilo 
- basófilo ( ) 
- bata ( ) 
+ basó ( ) 
+ basófilos ( ) 
+ bata ( ) lemma=abatir 
  batalla ( ) 
- batallado ( ) lemma=batallar 
+ batallado ( ) 
+ batallan ( ) 
+ batallando ( ) 
  batallar ( ) 
- batallan ( ) lemma=batallar 
- batallando ( ) lemma=batallar 
- batallaron ( ) lemma=batallar 
- batallas ( ) lemma=batalla 
- batallita ( ) lemma=batalla 
- batallitas ( ) lemma=batalla 
- batallones ( ) lemma=batallón 
+ batallaron ( ) 
+ batallas ( ) 
+ batallita ( ) 
+ batallitas ( ) 
+ batallones ( ) 
+ batalló ( ) 
  batallón ( ) 
- batalló ( ) lemma=batallar 
- batarazas ( ) lemma=batarazo 
- batarazo ( ) 
- batas ( ) lemma=bata 
+ batarazas ( ) 
+ batas ( ) 
  batch ( ) 
- bate ( ) lemma=batir 
- batir ( ) 
+ bate ( ) lemma=abatir 
  bateador ( ) 
- bateadores ( ) lemma=bateador 
- baten ( ) lemma=batir 
+ bateadores ( ) 
+ baten ( ) 
  bateo ( ) 
  batería ( ) 
- baterías ( ) lemma=batería 
- bates ( ) lemma=batir 
- bateó ( ) lemma=batear 
- batear ( ) 
- batida ( ) lemma=batir 
- batidas ( ) lemma=batir 
- batido ( ) lemma=batir 
+ baterías ( ) 
+ bates ( ) 
+ bateó ( ) 
+ batida ( ) lemma=abatir 
+ batidas ( ) 
+ batido ( ) lemma=abatir 
  batidora ( ) 
- batidos ( ) lemma=batir 
- batiendo ( ) lemma=batir 
- batiera ( ) lemma=batir 
- batieron ( ) lemma=batir 
- batirles ( ) lemma=batir 
- batirnos ( ) lemma=batir 
- batirían ( ) lemma=batir 
- batiéndole ( ) lemma=batir 
- batió ( ) lemma=batir 
- bato ( ) lemma=batir 
+ batidos ( ) 
+ batiendo ( ) 
+ batiera ( ) 
+ batieron ( ) 
+ batir ( ) 
+ batirles ( ) 
+ batirnos ( ) 
+ batirían ( ) 
+ batiéndole ( ) 
+ batió ( ) 
+ bato ( ) 
  batterie ( ) 
  batuta ( ) 
- batí ( ) lemma=batir 
+ batí ( ) 
  baud ( ) 
  baudio ( ) 
- baudios ( ) lemma=baudio 
- baulillo ( ) lemma=baúl 
- baúl ( ) 
+ baudios ( ) 
+ baulillo ( ) 
  bautismo ( ) 
- bautiza ( ) lemma=bautizar 
+ bautiza ( ) 
+ bautizaba ( ) 
+ bautizada ( ) 
+ bautizadas ( ) 
+ bautizado ( ) 
+ bautizados ( ) 
  bautizar ( ) 
- bautizaba ( ) lemma=bautizar 
- bautizada ( ) lemma=bautizar 
- bautizadas ( ) lemma=bautizar 
- bautizado ( ) lemma=bautizar 
- bautizados ( ) lemma=bautizar 
- bautizaran ( ) lemma=bautizar 
- bautizarla ( ) lemma=bautizar 
- bautizaron ( ) lemma=bautizar 
+ bautizaran ( ) 
+ bautizarla ( ) 
+ bautizaron ( ) 
  bautizo ( ) 
- bautizos ( ) lemma=bautizo 
- bautizó ( ) lemma=bautizar 
+ bautizos ( ) 
+ bautizó ( ) 
  bayesiano ( ) 
  bayoneta ( ) 
- bayonetas ( ) lemma=bayoneta 
+ bayonetas ( ) 
  baza ( ) 
  bazar ( ) 
- bazares ( ) lemma=bazar 
- bazas ( ) lemma=baza 
+ bazares ( ) 
+ bazas ( ) 
  bazo ( ) 
- baña ( ) lemma=bañar 
- bañar ( ) 
- bañaba ( ) lemma=bañar 
- bañaban ( ) lemma=bañar 
- bañada ( ) lemma=bañar 
- bañadas ( ) lemma=bañar 
- bañado ( ) lemma=bañar 
+ baña ( ) 
+ bañaba ( ) 
+ bañaban ( ) 
+ bañada ( ) 
+ bañadas ( ) 
+ bañado ( ) 
  bañador ( ) 
- bañadores ( ) lemma=bañador 
- bañados ( ) lemma=bañar 
- bañan ( ) lemma=bañar 
- bañando ( ) lemma=bañar 
- bañarme ( ) lemma=bañar 
- bañarnos ( ) lemma=bañar 
- bañaron ( ) lemma=bañar 
+ bañadores ( ) 
+ bañados ( ) 
+ bañan ( ) 
+ bañando ( ) 
+ bañar ( ) 
+ bañarme ( ) 
+ bañarnos ( ) 
+ bañaron ( ) 
  bañarse ( ) 
- bañarte ( ) lemma=bañar 
+ bañarte ( ) 
  bañera ( ) 
- bañeras ( ) lemma=bañera 
- bañistas ( ) lemma=bañista 
- bañista ( ) 
+ bañeras ( ) 
+ bañistas ( ) 
  baño ( ) 
- baños ( ) lemma=baño 
- bañé ( ) lemma=bañar 
- bañó ( ) lemma=bañar 
- baúles ( ) lemma=baúl 
- beba ( ) lemma=beber 
- beber ( ) 
- bebamos ( ) lemma=beber 
- beban ( ) lemma=beber 
- bebe ( ) lemma=beber 
+ baños ( ) 
+ bañé ( ) 
+ bañó ( ) 
+ baúl ( ) 
+ baúles ( ) 
+ beba ( ) 
+ bebamos ( ) 
+ beban ( ) 
+ bebe ( ) 
  bebedor ( ) 
- bebedores ( ) lemma=bebedor 
- bebemos ( ) lemma=beber 
- beben ( ) lemma=beber 
- beberemos ( ) lemma=beber 
+ bebedores ( ) 
+ bebemos ( ) 
+ beben ( ) 
+ beber ( ) 
+ beberemos ( ) 
  beberse ( ) 
- beberá ( ) lemma=beber 
- beberé ( ) lemma=beber 
- bebes ( ) lemma=beber 
+ beberá ( ) 
+ beberé ( ) 
+ bebes ( ) 
  bebida ( ) 
- bebidas ( ) lemma=bebida 
- bebiditas ( ) lemma=bebida 
- bebido ( ) lemma=beber 
- bebiendo ( ) lemma=beber 
- bebieran ( ) lemma=beber 
- bebieron ( ) lemma=beber 
- bebiesen ( ) lemma=beber 
- bebita ( ) lemma=bebé 
+ bebidas ( ) 
+ bebiditas ( ) 
+ bebido ( ) 
+ bebiendo ( ) 
+ bebieran ( ) 
+ bebieron ( ) 
+ bebiesen ( ) 
+ bebita ( ) 
+ bebito ( ) 
+ bebió ( ) 
+ bebo ( ) 
  bebé ( ) 
- bebito ( ) lemma=bebé 
- bebió ( ) lemma=beber 
- bebo ( ) lemma=beber 
- bebéis ( ) lemma=beber 
- bebés ( ) lemma=bebé 
- bebí ( ) lemma=beber 
- bebía ( ) lemma=beber 
- bebían ( ) lemma=beber 
+ bebéis ( ) 
+ bebés ( ) 
+ bebí ( ) 
+ bebía ( ) 
+ bebían ( ) 
  beca ( ) 
  becado ( ) 
- becados ( ) lemma=becado 
+ becados ( ) 
  becario ( ) 
- becarios ( ) lemma=becario 
- becas ( ) lemma=beca 
- becerra ( ) lemma=becerro 
+ becarios ( ) 
+ becas ( ) 
+ becerra ( ) 
  becerro ( ) 
- becerros ( ) lemma=becerro 
+ becerros ( ) 
  becker ( ) 
  bedel ( ) 
  beige ( ) 
  being ( ) 
  beisbolista ( ) 
- beisbolistas ( ) lemma=beisbolista 
+ beisbolistas ( ) 
  beldad ( ) 
  belga ( ) 
- belgas ( ) lemma=belga 
- belicosa ( ) lemma=belicoso 
+ belgas ( ) 
+ belicosa ( ) 
+ belicosas ( ) 
  belicoso ( ) 
- belicosas ( ) lemma=belicoso 
- belicosos ( ) lemma=belicoso 
+ belicosos ( ) 
  beligerante ( ) 
  beligerantes ( ) 
- bella ( ) lemma=bello 
- bello ( ) 
+ bella ( ) 
  bellaco ( ) 
- bellas ( ) lemma=bello 
+ bellas ( ) 
  belleza ( ) 
- bellezas ( ) lemma=belleza 
- bellos ( ) lemma=bello 
+ bellezas ( ) 
+ bello ( ) 
+ bellos ( ) 
  bellota ( ) 
- bellotas ( ) lemma=bellota 
- bellísima ( ) lemma=bello 
- bellísimas ( ) lemma=bello 
- bellísimo ( ) lemma=bello 
- bellísimos ( ) lemma=bello 
+ bellotas ( ) 
+ bellísima ( ) 
+ bellísimas ( ) 
+ bellísimo ( ) 
+ bellísimos ( ) 
  bencina ( ) 
  bendecir ( ) 
- bendecía ( ) lemma=bendecir 
- bendice ( ) lemma=bendecir 
- bendicen ( ) lemma=bendecir 
- bendiciendo ( ) lemma=bendecir 
- bendiciones ( ) lemma=bendición 
+ bendecía ( ) 
+ bendice ( ) 
+ bendicen ( ) 
+ bendiciendo ( ) 
+ bendiciones ( ) 
  bendición ( ) 
- bendiga ( ) lemma=bendecir 
- bendijo ( ) lemma=bendecir 
- bendita ( ) lemma=bendito 
+ bendiga ( ) 
+ bendijo ( ) 
+ bendita ( ) 
+ benditas ( ) 
  bendito ( ) 
- benditas ( ) lemma=bendito 
- benditos ( ) lemma=bendito 
+ benditos ( ) 
  benefactor ( ) 
  beneficencia ( ) 
- beneficia ( ) lemma=beneficiar 
+ beneficia ( ) 
+ beneficiaba ( ) 
+ beneficiaban ( ) 
+ beneficiada ( ) 
+ beneficiadas ( ) 
+ beneficiado ( ) 
+ beneficiados ( ) 
+ beneficiamos ( ) 
+ benefician ( ) 
+ beneficiando ( ) 
  beneficiar ( ) 
- beneficiaba ( ) lemma=beneficiar 
- beneficiaban ( ) lemma=beneficiar 
- beneficiada ( ) lemma=beneficiar 
- beneficiadas ( ) lemma=beneficiar 
- beneficiado ( ) lemma=beneficiar 
- beneficiados ( ) lemma=beneficiar 
- beneficiamos ( ) lemma=beneficiar 
- benefician ( ) lemma=beneficiar 
- beneficiando ( ) lemma=beneficiar 
- beneficiara ( ) lemma=beneficiar 
- beneficiaran ( ) lemma=beneficiar 
- beneficiaremos ( ) lemma=beneficiar 
- beneficiaria ( ) lemma=beneficiario 
+ beneficiara ( ) 
+ beneficiaran ( ) 
+ beneficiaremos ( ) 
+ beneficiaria ( ) 
+ beneficiarias ( ) 
  beneficiario ( ) 
- beneficiarias ( ) lemma=beneficiario 
- beneficiarios ( ) lemma=beneficiario 
- beneficiaron ( ) lemma=beneficiar 
+ beneficiarios ( ) 
+ beneficiaron ( ) 
  beneficiarse ( ) 
- beneficiará ( ) lemma=beneficiar 
- beneficiarán ( ) lemma=beneficiar 
- beneficiaría ( ) lemma=beneficiar 
- beneficiarían ( ) lemma=beneficiar 
- beneficiase ( ) lemma=beneficiar 
- beneficie ( ) lemma=beneficiar 
- beneficien ( ) lemma=beneficiar 
+ beneficiará ( ) 
+ beneficiarán ( ) 
+ beneficiaría ( ) 
+ beneficiarían ( ) 
+ beneficiase ( ) 
+ beneficie ( ) 
+ beneficien ( ) 
  beneficio ( ) 
- beneficios ( ) lemma=beneficio 
- beneficiosa ( ) lemma=beneficioso 
+ beneficios ( ) 
+ beneficiosa ( ) 
+ beneficiosas ( ) 
  beneficioso ( ) 
- beneficiosas ( ) lemma=beneficioso 
- beneficiosos ( ) lemma=beneficioso 
- beneficiándose ( ) lemma=beneficiar 
- benefició ( ) lemma=beneficiar 
+ beneficiosos ( ) 
+ beneficiándose ( ) 
+ benefició ( ) 
  beneplácito ( ) 
  bengalí ( ) 
- bengalíes ( ) lemma=bengalí 
- benigna ( ) lemma=benigno 
- benigno ( ) 
- benignas ( ) lemma=benigno 
+ bengalíes ( ) 
+ benigna ( ) 
+ benignas ( ) 
  benignidad ( ) 
- benignos ( ) lemma=benigno 
+ benigno ( ) 
+ benignos ( ) 
  bentos ( ) 
- bentónica ( ) lemma=bentónico 
- bentónico ( ) 
- bentónicos ( ) lemma=bentónico 
- benzodiacepinas ( ) lemma=benzodiacepina 
- benzodiacepina ( ) 
+ bentónica ( ) 
+ bentónicos ( ) 
+ benzodiacepinas ( ) 
  benzopireno ( ) 
- benéfica ( ) lemma=benéfico 
+ benéfica ( ) 
+ benéficamente ( ) 
+ benéficas ( ) 
  benéfico ( ) 
- benéficamente ( ) lemma=benéfico 
- benéficas ( ) lemma=benéfico 
  benéfico-docente ( ) 
  benéfico-social ( ) 
- benéficos ( ) lemma=benéfico 
- benévola ( ) lemma=benévolo 
+ benéficos ( ) 
+ benévola ( ) 
+ benévolamente ( ) 
+ benévolas ( ) 
  benévolo ( ) 
- benévolamente ( ) lemma=benévolo 
- benévolas ( ) lemma=benévolo 
- benévolos ( ) lemma=benévolo 
- berberechos ( ) lemma=berberecho 
- berberecho ( ) 
+ benévolos ( ) 
+ berberechos ( ) 
  berenjena ( ) 
- berenjenas ( ) lemma=berenjena 
+ berenjenas ( ) 
  berilio ( ) 
  berlaque ( ) 
  bermellón ( ) 
- berros ( ) lemma=berro 
- berro ( ) 
- besa ( ) lemma=besar 
+ berros ( ) 
+ besa ( ) 
+ besaban ( ) 
+ besado ( ) 
+ besamos ( ) 
+ besan ( ) 
+ besando ( ) 
  besar ( ) 
- besaban ( ) lemma=besar 
- besado ( ) lemma=besar 
- besamos ( ) lemma=besar 
- besan ( ) lemma=besar 
- besando ( ) lemma=besar 
- bese ( ) lemma=besar 
- besen ( ) lemma=besar 
- beses ( ) lemma=besar 
- besito ( ) lemma=beso 
- beso ( ) 
- besitos ( ) lemma=beso 
- besos ( ) lemma=beso 
- besote ( ) lemma=beso 
+ bese ( ) 
+ besen ( ) 
+ beses ( ) 
+ besito ( ) 
+ besitos ( ) 
+ beso ( ) lemma=obeso 
+ besos ( ) 
+ besote ( ) 
  bestia ( ) 
  bestial ( ) 
- bestiales ( ) lemma=bestial 
+ bestiales ( ) 
  bestialidad ( ) 
- bestias ( ) lemma=bestia 
+ bestias ( ) 
  besugo ( ) 
- besugos ( ) lemma=besugo 
- besándole ( ) lemma=besar 
- besó ( ) lemma=besar 
+ besugos ( ) 
+ besándole ( ) 
+ besó ( ) 
  beta ( ) 
  beta-adrenérgico ( ) 
  beta-agonista ( ) 
@@ -1033,8 +1002,7 @@
  beta-globulina ( ) 
  beta-lipoproteína ( ) 
  beta-oxidación ( ) 
- betabloqueantes ( ) lemma=betabloqueante 
- betabloqueante ( ) 
+ betabloqueantes ( ) 
  betagalactosidasa ( ) 
  betalactamasa ( ) 
  between ( ) 
@@ -1044,97 +1012,93 @@
  bianual ( ) 
  bias ( ) 
  biblia ( ) 
- biblias ( ) lemma=biblia 
+ biblias ( ) 
  bibliografía ( ) 
- bibliografías ( ) lemma=bibliografía 
- bibliográfica ( ) lemma=bibliográfico 
- bibliográfico ( ) 
- bibliográficas ( ) lemma=bibliográfico 
- bibliográficos ( ) lemma=bibliográfico 
+ bibliografías ( ) 
+ bibliográfica ( ) 
+ bibliográficas ( ) 
+ bibliográficos ( ) 
  biblioteca ( ) 
- bibliotecarios ( ) lemma=bibliotecario 
- bibliotecario ( ) 
- bibliotecas ( ) lemma=biblioteca 
+ bibliotecarios ( ) 
+ bibliotecas ( ) 
  bibraquial ( ) 
  bicapa ( ) 
- bicapas ( ) lemma=bicapa 
+ bicapas ( ) 
  bicarbonato ( ) 
- bicatenaria ( ) lemma=bicatenario 
+ bicatenaria ( ) 
+ bicatenarias ( ) 
  bicatenario ( ) 
- bicatenarias ( ) lemma=bicatenario 
- bicatenarios ( ) lemma=bicatenario 
- bichito ( ) lemma=bicho 
+ bicatenarios ( ) 
+ bichito ( ) 
  bicho ( ) 
- bichos ( ) lemma=bicho 
- bici ( ) lemma=bicicleta 
+ bichos ( ) 
+ bici ( ) 
  bicicleta ( ) 
- bicicletas ( ) lemma=bicicleta 
- bicicletita ( ) lemma=bicicleta 
+ bicicletas ( ) 
+ bicicletita ( ) 
  bicipital ( ) 
  bidimensional ( ) 
- bidimensionales ( ) lemma=bidimensional 
- bidimensionalmente ( ) lemma=bidimensional 
+ bidimensionales ( ) 
+ bidimensionalmente ( ) 
  bidireccional ( ) 
- bidireccionales ( ) lemma=bidireccional 
- bidireccionalmente ( ) lemma=bidireccional 
+ bidireccionales ( ) 
+ bidireccionalmente ( ) 
  bidirectional ( ) 
  bidirectionnel ( ) 
- bidones ( ) lemma=bidón 
+ bidones ( ) 
  bidón ( ) 
  bien ( ) 
  bienal ( ) 
- bienales ( ) lemma=bienal 
- bienes ( ) lemma=bien 
+ bienales ( ) 
+ bienes ( ) 
  bienestar ( ) 
  bienio ( ) 
- bienvenida ( ) lemma=bienvenido 
+ bienvenida ( ) 
+ bienvenidas ( ) 
  bienvenido ( ) 
- bienvenidas ( ) lemma=bienvenido 
- bienvenidos ( ) lemma=bienvenido 
+ bienvenidos ( ) 
  bifacial ( ) 
- bifilares ( ) lemma=bifilar 
- bifilar ( ) 
+ bifilares ( ) 
  bifurcación ( ) 
- bifásica ( ) lemma=bifásico 
- bifásico ( ) 
+ bifásica ( ) 
  bigote ( ) 
- bigotes ( ) lemma=bigote 
+ bigotes ( ) 
  bilateral ( ) 
- bilaterales ( ) lemma=bilateral 
+ bilaterales ( ) 
  bilateralidad ( ) 
- bilateralmente ( ) lemma=bilateral 
+ bilateralmente ( ) 
  bilatéral ( ) 
  bilbaíno ( ) 
- bilbaínos ( ) lemma=bilbaíno 
+ bilbaínos ( ) 
  biliar ( ) 
- biliares ( ) lemma=biliar 
- bilingües ( ) lemma=bilingüe 
+ biliares ( ) 
+ bilingüe ( ) 
+ bilingües ( ) 
  bilirrubina ( ) 
  bilirrubinato ( ) 
  bilis ( ) 
  billar ( ) 
  billete ( ) 
  billetera ( ) 
- billetes ( ) lemma=billete 
- billetito ( ) lemma=billete 
- billetitos ( ) lemma=billete 
+ billetes ( ) 
+ billetito ( ) 
+ billetitos ( ) 
  billones ( ) 
  billón ( ) 
  bimanual ( ) 
  bimarginal ( ) 
  bimestral ( ) 
  bimestre ( ) 
- bimoleculares ( ) lemma=bimolecular 
- bimolecular ( ) 
+ bimoleculares ( ) 
  bimotor ( ) 
  binacional ( ) 
- binacionales ( ) lemma=binacional 
+ binacionales ( ) 
  binaire ( ) 
  binaires ( ) 
- binaria ( ) lemma=binario 
+ binaria ( ) 
+ binarias ( ) 
  binario ( ) 
- binarias ( ) lemma=binario 
- binarios ( ) lemma=binario 
+ binarios ( ) 
  binary ( ) 
  binding ( ) 
  binocular ( ) 
@@ -1145,45 +1109,44 @@
  biocilindro ( ) 
  biodegradabilidad ( ) 
  biodegradable ( ) 
- biodegradables ( ) lemma=biodegradable 
+ biodegradables ( ) 
  biodisco ( ) 
  biodiversidad ( ) 
  biofiltro ( ) 
- biofísicos ( ) lemma=biofísico 
- biofísico ( ) 
+ biofísicos ( ) 
  biogeografía ( ) 
  biografía ( ) 
- biografías ( ) lemma=biografía 
- biográfica ( ) lemma=biográfico 
+ biografías ( ) 
+ biográfica ( ) 
  biográfico ( ) 
- biográficos ( ) lemma=biográfico 
+ biográficos ( ) 
  biogénesis ( ) 
  bioingeniería ( ) 
  biología ( ) 
- biológica ( ) lemma=biológico 
+ biológica ( ) 
+ biológicamente ( ) 
+ biológicas ( ) 
  biológico ( ) 
- biológicamente ( ) lemma=biológico 
- biológicas ( ) lemma=biológico 
- biológicos ( ) lemma=biológico 
+ biológicos ( ) 
  biomasa ( ) 
- biomasas ( ) lemma=biomasa 
+ biomasas ( ) 
  biomatemático ( ) 
  biombo ( ) 
  biomolécula ( ) 
- biomédica ( ) lemma=biomédico 
+ biomédica ( ) 
+ biomédicas ( ) 
  biomédico ( ) 
- biomédicas ( ) lemma=biomédico 
- biomédicos ( ) lemma=biomédico 
+ biomédicos ( ) 
  biopelícula ( ) 
  bioprótesis ( ) 
  biopsia ( ) 
  biopsiar ( ) 
- biopsias ( ) lemma=biopsia 
+ biopsias ( ) 
  biopsicosocial ( ) 
- bioquímica ( ) lemma=bioquímico 
+ bioquímica ( ) 
+ bioquímicas ( ) 
  bioquímico ( ) 
- bioquímicas ( ) lemma=bioquímico 
- bioquímicos ( ) lemma=bioquímico 
+ bioquímicos ( ) 
  biorreactor ( ) 
  bioseguridad ( ) 
  biosensor ( ) 
@@ -1193,934 +1156,1822 @@
  biosistema ( ) 
  biosíntesis ( ) 
  biotecnología ( ) 
- biotecnologías ( ) lemma=biotecnología 
+ biotecnologías ( ) 
  biotecnológico ( ) 
  biotina ( ) 
  biotinilizar ( ) 
  biotipo ( ) 
  biotransformación ( ) 
  biparental ( ) 
- bipartita ( ) lemma=bipartito 
- bipartito ( ) 
+ bipartita ( ) 
  bipedestación ( ) 
  biperópico ( ) 
  bipolar ( ) 
- bipolares ( ) lemma=bipolar 
+ bipolares ( ) 
  bipotencialidad ( ) 
  birome ( ) 
  bis ( ) 
- bisabuela ( ) lemma=bisabuelo 
+ bisabuela ( ) 
  bisabuelo ( ) 
- bisabuelos ( ) lemma=bisabuelo 
+ bisabuelos ( ) 
  bisagra ( ) 
- bisagras ( ) lemma=bisagra 
+ bisagras ( ) 
  bisexual ( ) 
  bishidroxicumarina ( ) 
- bisnietos ( ) lemma=bisnieto 
- bisnieto ( ) 
+ bisnietos ( ) 
  bisturí ( ) 
  bisutería ( ) 
  bit ( ) 
- bites ( ) lemma=bit 
- bitios ( ) lemma=bit 
+ bites ( ) 
+ bitios ( ) 
  bitmap ( ) 
  bitnet ( ) 
  bitonal ( ) 
- bits ( ) lemma=bit 
- biunívoca ( ) lemma=biunívoco 
- biunívoco ( ) 
- biunívocamente ( ) lemma=biunívoco 
+ bits ( ) 
+ biunívoca ( ) 
+ biunívocamente ( ) 
  bivalent ( ) 
  bivalente ( ) 
- bivalentes ( ) lemma=bivalente 
- bivalva ( ) lemma=bivalvo 
- bivalvo ( ) 
+ bivalentes ( ) 
+ bivalva ( ) 
  bivocal ( ) 
- bizantina ( ) lemma=bizantino 
+ bizantina ( ) 
+ bizantinas ( ) 
  bizantino ( ) 
- bizantinas ( ) lemma=bizantino 
- bizantinos ( ) lemma=bizantino 
- bizca ( ) lemma=bizcar 
- bizcar ( ) 
- bizco ( ) lemma=bizcar 
+ bizantinos ( ) 
+ bizca ( ) 
+ bizco ( ) 
  biógrafo ( ) 
  biólogo ( ) 
- biólogos ( ) lemma=biólogo 
- bióticos ( ) lemma=biótico 
- biótico ( ) 
+ biólogos ( ) 
+ bióticos ( ) 
  bióxido ( ) 
  blah ( ) 
  blanc ( ) 
- blanca ( ) lemma=blanco 
- blanco ( ) 
- blancas ( ) lemma=blanco 
+ blanca ( ) 
+ blancas ( ) 
  blanche ( ) 
- blancos ( ) lemma=blanco 
+ blanco ( ) 
+ blancos ( ) 
  blancura ( ) 
- blanda ( ) lemma=blando 
- blando ( ) 
- blandamente ( ) lemma=blando 
- blandas ( ) lemma=blando 
- blanden ( ) lemma=blandir 
+ blanda ( ) lemma=ablandar 
+ blandamente ( ) 
+ blandas ( ) 
+ blanden ( ) 
+ blandido ( ) 
+ blandiendo ( ) 
  blandir ( ) 
- blandido ( ) lemma=blandir 
- blandiendo ( ) lemma=blandir 
- blanditos ( ) lemma=blando 
- blandió ( ) lemma=blandir 
- blandos ( ) lemma=blando 
- blandía ( ) lemma=blandir 
- blandían ( ) lemma=blandir 
- blanquea ( ) lemma=blanquear 
+ blanditos ( ) 
+ blandió ( ) 
+ blando ( ) 
+ blandos ( ) 
+ blandía ( ) 
+ blandían ( ) 
+ blanquea ( ) 
+ blanqueada ( ) 
+ blanqueadas ( ) 
+ blanqueado ( ) 
+ blanqueados ( ) 
+ blanquean ( ) 
+ blanqueando ( ) 
  blanquear ( ) 
- blanqueada ( ) lemma=blanquear 
- blanqueadas ( ) lemma=blanquear 
- blanqueado ( ) lemma=blanquear 
- blanqueados ( ) lemma=blanquear 
- blanquean ( ) lemma=blanquear 
- blanqueando ( ) lemma=blanquear 
- blanqueo ( ) lemma=blanquear 
+ blanqueo ( ) 
  blanquiazul ( ) 
- blanquiazules ( ) lemma=blanquiazul 
- blanquita ( ) lemma=blanco 
- blasfema ( ) lemma=blasfemo 
- blasfemo ( ) 
- blasfemas ( ) lemma=blasfemo 
+ blanquiazules ( ) 
+ blanquita ( ) 
+ blasfema ( ) 
+ blasfemas ( ) 
  blasfemia ( ) 
- blasfemias ( ) lemma=blasfemia 
+ blasfemias ( ) 
+ blasfemo ( ) 
  blastema ( ) 
  blastozooide ( ) 
- blastómeros ( ) lemma=blastómero 
- blastómero ( ) 
+ blastómeros ( ) 
  blastóporo ( ) 
- blinda ( ) lemma=blindar 
+ blinda ( ) 
+ blindada ( ) 
+ blindadas ( ) 
+ blindado ( ) 
+ blindados ( ) 
  blindar ( ) 
- blindada ( ) lemma=blindar 
- blindadas ( ) lemma=blindar 
- blindado ( ) lemma=blindar 
- blindados ( ) lemma=blindar 
  bloc ( ) 
  block ( ) 
  bloque ( ) 
- bloquea ( ) lemma=bloquear 
+ bloquea ( ) 
+ bloqueaba ( ) 
+ bloqueaban ( ) 
+ bloqueada ( ) 
+ bloqueadas ( ) 
+ bloqueado ( ) 
+ bloqueadores ( ) 
+ bloqueados ( ) 
+ bloqueamos ( ) 
+ bloquean ( ) 
+ bloqueando ( ) 
+ bloqueantes ( ) 
  bloquear ( ) 
- bloqueaba ( ) lemma=bloquear 
- bloqueaban ( ) lemma=bloquear 
- bloqueada ( ) lemma=bloquear 
- bloqueadas ( ) lemma=bloquear 
- bloqueado ( ) lemma=bloquear 
- bloqueadores ( ) lemma=bloqueador 
- bloqueador ( ) 
- bloqueados ( ) lemma=bloquear 
- bloqueamos ( ) lemma=bloquear 
- bloquean ( ) lemma=bloquear 
- bloqueando ( ) lemma=bloquear 
- bloqueantes ( ) lemma=bloqueante 
- bloqueante ( ) 
- bloquearemos ( ) lemma=bloquear 
- bloquearon ( ) lemma=bloquear 
+ bloquearemos ( ) 
+ bloquearon ( ) 
  bloquearse ( ) 
- bloqueará ( ) lemma=bloquear 
- bloquearán ( ) lemma=bloquear 
- bloquearía ( ) lemma=bloquear 
- bloquease ( ) lemma=bloquear 
- bloquee ( ) lemma=bloquear 
- bloqueen ( ) lemma=bloquear 
+ bloqueará ( ) 
+ bloquearán ( ) 
+ bloquearía ( ) 
+ bloquease ( ) 
+ bloquee ( ) 
+ bloqueen ( ) 
  bloqueo ( ) 
- bloqueos ( ) lemma=bloqueo 
- bloques ( ) lemma=bloque 
- bloqueó ( ) lemma=bloquear 
+ bloqueos ( ) 
+ bloques ( ) 
+ bloqueó ( ) 
  blues ( ) 
  blusa ( ) 
- blusas ( ) lemma=blusa 
- blusitas ( ) lemma=blusa 
+ blusas ( ) 
+ blusitas ( ) 
  blástula ( ) 
  boa ( ) 
- boas ( ) lemma=boa 
- boba ( ) lemma=bobo 
- bobo ( ) 
+ boas ( ) 
+ boba ( ) 
  bobada ( ) 
- bobadas ( ) lemma=bobada 
- bobas ( ) lemma=bobo 
+ bobadas ( ) 
+ bobas ( ) 
  bobina ( ) 
  bobinado ( ) 
- bobinas ( ) lemma=bobina 
- bobos ( ) lemma=bobo 
- boca ( ) 
+ bobinas ( ) 
+ bobo ( ) 
+ bobos ( ) 
+ boca ( ) lemma=abocar 
  bocadillo ( ) 
- bocadillos ( ) lemma=bocadillo 
- bocado ( ) 
+ bocadillos ( ) 
+ bocado ( ) lemma=abocar 
  bocanada ( ) 
- bocas ( ) lemma=boca 
- boches ( ) lemma=bochar 
- bochar ( ) 
+ bocas ( ) 
+ boches ( ) 
  bocho ( ) 
  bochorno ( ) 
- bochornos ( ) lemma=bochorno 
+ bochornos ( ) 
  bochín ( ) 
  bocina ( ) 
- bocinas ( ) lemma=bocina 
+ bocinas ( ) 
  bocio ( ) 
- bocios ( ) lemma=bocio 
+ bocios ( ) 
  boda ( ) 
- bodas ( ) lemma=boda 
+ bodas ( ) 
  bodega ( ) 
- bodegas ( ) lemma=bodega 
+ bodegas ( ) 
  bodegón ( ) 
  bodoncillo ( ) 
  bofetada ( ) 
- bofetadas ( ) lemma=bofetada 
- boga ( ) lemma=bogar 
+ bofetadas ( ) 
+ boga ( ) lemma=abogar 
  bogar ( ) 
  bogrio ( ) 
- bohemia ( ) lemma=bohemio 
+ bohemia ( ) 
  bohemio ( ) 
  boicot ( ) 
- boicotea ( ) lemma=boicotear 
+ boicotea ( ) 
+ boicoteada ( ) 
+ boicoteadas ( ) 
+ boicoteado ( ) 
+ boicoteados ( ) 
+ boicotean ( ) 
+ boicoteando ( ) 
  boicotear ( ) 
- boicoteada ( ) lemma=boicotear 
- boicoteadas ( ) lemma=boicotear 
- boicoteado ( ) lemma=boicotear 
- boicoteados ( ) lemma=boicotear 
- boicotean ( ) lemma=boicotear 
- boicoteando ( ) lemma=boicotear 
- boicotearon ( ) lemma=boicotear 
- boicoteará ( ) lemma=boicotear 
- boicotearán ( ) lemma=boicotear 
- boicoteemos ( ) lemma=boicotear 
- boicoteen ( ) lemma=boicotear 
- boicoteo ( ) lemma=boicotear 
- boicoteó ( ) lemma=boicotear 
+ boicotearon ( ) 
+ boicoteará ( ) 
+ boicotearán ( ) 
+ boicoteemos ( ) 
+ boicoteen ( ) 
+ boicoteo ( ) 
+ boicoteó ( ) 
  boina ( ) 
- boinas ( ) lemma=boina 
+ boinas ( ) 
  bola ( ) 
- bolas ( ) lemma=bola 
+ bolas ( ) 
  bolchevique ( ) 
- bolcheviques ( ) lemma=bolchevique 
+ bolcheviques ( ) 
  bolchevisto ( ) 
- bolea ( ) lemma=bolear 
- bolear ( ) 
+ bolea ( ) 
  bolero ( ) 
- boleros ( ) lemma=bolero 
- boleta ( ) lemma=boletar 
- boletar ( ) 
- boletas ( ) lemma=boletar 
- boletines ( ) lemma=boletín 
- boletín ( ) 
- boletitos ( ) lemma=boleto 
+ boleros ( ) 
+ boleta ( ) 
+ boletas ( ) 
+ boletines ( ) 
+ boletitos ( ) 
  boleto ( ) 
- boletos ( ) lemma=boleto 
+ boletos ( ) 
+ boletín ( ) 
  boliche ( ) 
- bolillas ( ) lemma=bola 
- bolita ( ) lemma=bola 
- bolitas ( ) lemma=bola 
+ bolillas ( ) 
+ bolita ( ) 
+ bolitas ( ) 
  bolivariano ( ) 
- boliviana ( ) lemma=boliviano 
+ boliviana ( ) 
+ bolivianas ( ) 
  boliviano ( ) 
- bolivianas ( ) lemma=boliviano 
- bolivianos ( ) lemma=boliviano 
- bollitos ( ) lemma=bollo 
+ bolivianos ( ) 
+ bollitos ( ) 
  bollo ( ) 
- bollos ( ) lemma=bollo 
+ bollos ( ) 
  bolo ( ) 
  bolsa ( ) 
- bolsas ( ) lemma=bolsa 
+ bolsas ( ) 
  bolsillo ( ) 
- bolsillos ( ) lemma=bolsillo 
- bolsita ( ) lemma=bolsa 
- bolsitas ( ) lemma=bolsa 
+ bolsillos ( ) 
+ bolsita ( ) 
+ bolsitas ( ) 
  bolso ( ) 
- bolsones ( ) lemma=bolso 
- bolsos ( ) lemma=bolso 
+ bolsones ( ) 
+ bolsos ( ) 
  boluda ( ) 
- boludas ( ) lemma=boludo 
+ boludas ( ) 
+ boludeces ( ) 
  boludo ( ) 
- boludeces ( ) lemma=boludez 
- boludez ( ) 
- boludón ( ) lemma=boludo 
+ boludón ( ) 
  bolígrafo ( ) 
- bolígrafos ( ) lemma=bolígrafo 
- bolívares ( ) lemma=bolívar 
- bolívar ( ) 
- bomba ( ) 
- bombacha ( ) lemma=bombacho 
- bombacho ( ) 
- bombardea ( ) lemma=bombardear 
+ bolígrafos ( ) 
+ bolívares ( ) 
+ bomba ( ) lemma=abombar 
+ bombacha ( ) 
+ bombardea ( ) 
+ bombardeada ( ) 
+ bombardeadas ( ) 
+ bombardeado ( ) 
+ bombardeados ( ) 
+ bombardean ( ) 
+ bombardeando ( ) 
  bombardear ( ) 
- bombardeada ( ) lemma=bombardear 
- bombardeadas ( ) lemma=bombardear 
- bombardeado ( ) lemma=bombardear 
- bombardeados ( ) lemma=bombardear 
- bombardean ( ) lemma=bombardear 
- bombardeando ( ) lemma=bombardear 
- bombardeara ( ) lemma=bombardear 
- bombardearon ( ) lemma=bombardear 
- bombardearía ( ) lemma=bombardear 
- bombardeen ( ) lemma=bombardear 
+ bombardeara ( ) 
+ bombardearon ( ) 
+ bombardearía ( ) 
+ bombardeen ( ) 
  bombardeo ( ) 
- bombardeos ( ) lemma=bombardeo 
+ bombardeos ( ) 
  bombardero ( ) 
- bombarderos ( ) lemma=bombardero 
- bombardeó ( ) lemma=bombardear 
- bombas ( ) lemma=bomba 
+ bombarderos ( ) 
+ bombardeó ( ) 
+ bombas ( ) 
  bombazo ( ) 
- bombea ( ) lemma=bombear 
+ bombea ( ) 
+ bombeada ( ) 
+ bombeadas ( ) 
+ bombeado ( ) 
+ bombean ( ) 
+ bombeando ( ) 
  bombear ( ) 
- bombeada ( ) lemma=bombear 
- bombeadas ( ) lemma=bombear 
- bombeado ( ) lemma=bombear 
- bombean ( ) lemma=bombear 
- bombeando ( ) lemma=bombear 
- bombee ( ) lemma=bombear 
+ bombee ( ) 
  bombeo ( ) 
  bombero ( ) 
- bomberos ( ) lemma=bombero 
+ bomberos ( ) 
  bombilla ( ) 
- bombillas ( ) lemma=bombilla 
+ bombillas ( ) 
  bombo ( ) 
- bombonas ( ) lemma=bombona 
- bombona ( ) 
- bombones ( ) lemma=bombón 
- bombón ( ) 
- bombos ( ) lemma=bombo 
- bon ( ) 
- bona ( ) lemma=bon 
+ bombonas ( ) 
+ bombones ( ) 
+ bombos ( ) 
+ bon ( ) lemma=abono 
+ bona ( ) lemma=abonar 
  bonaerense ( ) 
- bonaerenses ( ) lemma=bonaerense 
+ bonaerenses ( ) 
  bonanza ( ) 
  bondad ( ) 
- bondades ( ) lemma=bondad 
+ bondades ( ) 
  bondadoso ( ) 
- bondadosos ( ) lemma=bondadoso 
+ bondadosos ( ) 
  bonhomía ( ) 
  boniato ( ) 
- boniatos ( ) lemma=boniato 
- bonificaciones ( ) lemma=bonificación 
+ boniatos ( ) 
+ bonificaciones ( ) 
  bonificación ( ) 
  boningue ( ) 
- bonita ( ) lemma=bonito 
+ bonita ( ) 
+ bonitas ( ) 
  bonito ( ) 
- bonitas ( ) lemma=bonito 
- bonitos ( ) lemma=bonito 
- bono ( ) 
- bonos ( ) lemma=bono 
- bonsais ( ) lemma=bonsai 
- bonsai ( ) 
+ bonitos ( ) 
+ bono ( ) lemma=abono 
+ bonos ( ) 
+ bonsais ( ) 
  bonus ( ) 
- booleana ( ) lemma=booleano 
- booleano ( ) 
- booleanas ( ) lemma=booleano 
- booleanos ( ) lemma=booleano 
+ booleana ( ) 
+ booleanas ( ) 
+ booleanos ( ) 
  boom ( ) 
  booth ( ) 
  bootstrap ( ) 
- boqueadas ( ) lemma=boquear 
- boquear ( ) 
- boqueo ( ) lemma=boquear 
- boquerones ( ) lemma=boquerón 
+ boqueadas ( ) 
+ boqueo ( ) 
+ boquerones ( ) 
  boquerón ( ) 
- boquiabiertos ( ) lemma=boquiabierto 
- boquiabierto ( ) 
+ boquiabiertos ( ) 
  boquilla ( ) 
- boquita ( ) lemma=boca 
- borda ( ) lemma=bordar 
- bordar ( ) 
- bordaba ( ) lemma=bordar 
- bordada ( ) lemma=bordar 
- bordadas ( ) lemma=bordar 
- bordadito ( ) lemma=bordado 
- bordado ( ) 
- bordados ( ) lemma=bordado 
- bordaron ( ) lemma=bordar 
- borde ( ) 
- bordea ( ) lemma=bordear 
- bordear ( ) 
- bordeaban ( ) lemma=bordear 
- bordeada ( ) lemma=bordear 
- bordeadas ( ) lemma=bordear 
- bordeados ( ) lemma=bordear 
- bordean ( ) lemma=bordear 
- bordeando ( ) lemma=bordear 
- bordearla ( ) lemma=bordear 
- bordearon ( ) lemma=bordear 
- bordes ( ) lemma=borde 
- bordeó ( ) lemma=bordear 
- bordillos ( ) lemma=borde 
+ boquita ( ) 
+ borda ( ) lemma=abordar 
+ bordaba ( ) lemma=abordar 
+ bordada ( ) lemma=abordar 
+ bordadas ( ) 
+ bordadito ( ) 
+ bordado ( ) lemma=abordar 
+ bordados ( ) 
+ bordar ( ) lemma=abordar 
+ bordaron ( ) 
+ borde ( ) lemma=abordar 
+ bordea ( ) 
+ bordeaban ( ) 
+ bordeada ( ) 
+ bordeadas ( ) 
+ bordeados ( ) 
+ bordean ( ) 
+ bordeando ( ) 
+ bordearla ( ) 
+ bordearon ( ) 
+ bordes ( ) 
+ bordeó ( ) 
+ bordillos ( ) 
  bordo ( ) 
- bordó ( ) lemma=bordar 
+ bordó ( ) 
  bordón ( ) 
  boreal ( ) 
- boreales ( ) lemma=boreal 
+ boreales ( ) 
  boricua ( ) 
- boricuas ( ) lemma=boricua 
- bornes ( ) lemma=borne 
- borne ( ) 
+ boricuas ( ) 
+ bornes ( ) 
  boro ( ) 
- borra ( ) lemma=borrar 
- borrar ( ) 
- borracha ( ) lemma=borracho 
- borracho ( ) 
+ borra ( ) 
+ borracha ( ) 
  borrachera ( ) 
- borracheras ( ) lemma=borrachera 
- borrachos ( ) lemma=borracho 
- borrada ( ) lemma=borrar 
- borradas ( ) lemma=borrar 
- borrado ( ) lemma=borrar 
+ borracheras ( ) 
+ borracho ( ) 
+ borrachos ( ) 
+ borrada ( ) 
+ borradas ( ) 
+ borrado ( ) 
  borrador ( ) 
- borradores ( ) lemma=borrador 
- borrados ( ) lemma=borrar 
- borran ( ) lemma=borrar 
- borrando ( ) lemma=borrar 
- borrara ( ) lemma=borrar 
- borrarla ( ) lemma=borrar 
- borrarlo ( ) lemma=borrar 
- borrarlos ( ) lemma=borrar 
- borraron ( ) lemma=borrar 
- borrarse ( ) lemma=borrar 
- borrará ( ) lemma=borrar 
- borras ( ) lemma=borrar 
+ borradores ( ) 
+ borrados ( ) 
+ borran ( ) 
+ borrando ( ) 
+ borrar ( ) 
+ borrara ( ) 
+ borrarla ( ) 
+ borrarlo ( ) 
+ borrarlos ( ) 
+ borraron ( ) 
+ borrarse ( ) 
+ borrará ( ) 
+ borras ( ) 
  borrasca ( ) 
- borrase ( ) lemma=borrar 
- borrasen ( ) lemma=borrar 
- borre ( ) lemma=borrar 
+ borrase ( ) 
+ borrasen ( ) 
+ borre ( ) 
  borrego ( ) 
- borregos ( ) lemma=borrego 
- borren ( ) lemma=borrar 
- borrica ( ) lemma=borrico 
- borrico ( ) 
- borrosa ( ) lemma=borroso 
- borroso ( ) 
+ borregos ( ) 
+ borren ( ) 
+ borrica ( ) 
+ borrosa ( ) 
  borrosidad ( ) 
- borrosos ( ) lemma=borroso 
- borréis ( ) lemma=borrar 
- borró ( ) lemma=borrar 
+ borroso ( ) 
+ borrosos ( ) 
+ borréis ( ) 
+ borró ( ) 
  borrón ( ) 
- bosnia ( ) lemma=bosnio 
+ bosnia ( ) 
+ bosnias ( ) 
  bosnio ( ) 
- bosnias ( ) lemma=bosnio 
- bosnios ( ) lemma=bosnio 
+ bosnios ( ) 
  bosque ( ) 
- bosquecillo ( ) lemma=bosque 
- bosquecillos ( ) lemma=bosque 
- bosquecito ( ) lemma=bosque 
- bosqueja ( ) lemma=bosquejar 
- bosquejar ( ) 
- bosquejada ( ) lemma=bosquejar 
- bosquejadas ( ) lemma=bosquejar 
- bosquejado ( ) lemma=bosquejar 
- bosquejan ( ) lemma=bosquejar 
- bosquejaremos ( ) lemma=bosquejar 
- bosquejo ( ) lemma=bosquejar 
- bosquejó ( ) lemma=bosquejar 
- bosques ( ) lemma=bosque 
+ bosquecillo ( ) 
+ bosquecillos ( ) 
+ bosquecito ( ) 
+ bosqueja ( ) 
+ bosquejada ( ) 
+ bosquejadas ( ) 
+ bosquejado ( ) 
+ bosquejan ( ) 
+ bosquejaremos ( ) 
+ bosquejo ( ) 
+ bosquejó ( ) 
+ bosques ( ) 
  bostezar ( ) 
  bostezo ( ) 
- bostezos ( ) lemma=bostezo 
+ bostezos ( ) 
  bota ( ) 
- botaba ( ) lemma=botar 
+ botaba ( ) 
+ botada ( ) 
  botar ( ) 
- botada ( ) lemma=botar 
- botaron ( ) lemma=botar 
- botas ( ) lemma=bota 
+ botaron ( ) 
+ botas ( ) 
  bote ( ) 
- botecito ( ) lemma=bote 
+ botecito ( ) 
  botella ( ) 
- botellas ( ) lemma=botella 
- botellita ( ) lemma=botella 
- botellones ( ) lemma=botellón 
+ botellas ( ) 
+ botellita ( ) 
+ botellones ( ) 
  botellón ( ) 
- botes ( ) lemma=bote 
+ botes ( ) 
  both ( ) 
  boticario ( ) 
  botiguer ( ) 
  botija ( ) 
- botines ( ) lemma=botín 
- botín ( ) 
+ botines ( ) 
  botiquín ( ) 
- botita ( ) lemma=bota 
- botitas ( ) lemma=bota 
- botoncito ( ) lemma=botón 
- botón ( ) 
- botoncitos ( ) lemma=botón 
- botones ( ) lemma=botón 
+ botita ( ) 
+ botitas ( ) 
+ botoncito ( ) 
+ botoncitos ( ) 
+ botones ( ) 
  botonoso ( ) 
  botulismo ( ) 
  botulínica ( ) 
- botulínicas ( ) lemma=botulínica 
+ botulínicas ( ) 
  botánico ( ) 
- botó ( ) lemma=botar 
+ botín ( ) 
+ botó ( ) 
+ botón ( ) 
  bouche ( ) 
  boucle ( ) 
  bout ( ) 
  boutique ( ) 
- bovedilla ( ) lemma=bóveda 
- bóveda ( ) 
- bovina ( ) lemma=bovino 
- bovino ( ) 
- boxeaban ( ) lemma=boxear 
- boxear ( ) 
+ bovedilla ( ) 
+ bovina ( ) 
+ boxeaban ( ) 
  boxeador ( ) 
- boxeadores ( ) lemma=boxeador 
- boxeando ( ) lemma=boxear 
+ boxeadores ( ) 
+ boxeando ( ) 
+ boxear ( ) 
  boxeo ( ) 
- boyas ( ) lemma=boyar 
- boyar ( ) 
+ boyas ( ) 
  bradiarritmia ( ) 
  bradicardia ( ) 
  bradiquinina ( ) 
  bragueta ( ) 
  branquial ( ) 
- branquiales ( ) lemma=branquial 
+ branquiales ( ) 
  braquial ( ) 
- braquiocefálica ( ) lemma=braquiocefálico 
- braquiocefálico ( ) 
- braquiocefálicas ( ) lemma=braquiocefálico 
- brasa ( ) 
- brasas ( ) lemma=brasa 
- braserito ( ) lemma=brasero 
+ braquiocefálica ( ) 
+ braquiocefálicas ( ) 
+ brasa ( ) lemma=abrasar 
+ brasas ( ) 
+ braserito ( ) 
  brasero ( ) 
- brasilera ( ) lemma=brasilero 
+ brasilera ( ) 
+ brasileras ( ) 
  brasilero ( ) 
- brasileras ( ) lemma=brasilero 
- brasileña ( ) lemma=brasileño 
+ brasileña ( ) 
+ brasileñas ( ) 
  brasileño ( ) 
- brasileñas ( ) lemma=brasileño 
- brasileños ( ) lemma=brasileño 
- brava ( ) lemma=bravo 
+ brasileños ( ) 
+ brava ( ) 
+ bravas ( ) 
  bravo ( ) 
- bravas ( ) lemma=bravo 
- bravos ( ) lemma=bravo 
+ bravos ( ) 
  bravucón ( ) 
  bravío ( ) 
- brazo ( ) 
+ brazo ( ) lemma=abrazo 
  brazo-pierna ( ) 
- brazos ( ) lemma=brazo 
+ brazos ( ) 
  brea ( ) 
  brebaje ( ) 
  brecha ( ) 
- brechas ( ) lemma=brecha 
- brega ( ) lemma=bregar 
- bregar ( ) 
- bregan ( ) lemma=bregar 
+ brechas ( ) 
+ brega ( ) 
+ bregan ( ) 
  bregma ( ) 
- bregó ( ) lemma=bregar 
- bretona ( ) lemma=bretón 
+ bregó ( ) lemma=Obregón 
+ bretona ( ) 
+ bretonas ( ) 
+ bretones ( ) 
  bretón ( ) 
- bretonas ( ) lemma=bretón 
- bretones ( ) lemma=bretón 
  breve ( ) 
  brevedad ( ) 
- brevemente ( ) lemma=breve 
- breves ( ) lemma=breve 
- brevísima ( ) lemma=breve 
- brevísimamente ( ) lemma=breve 
- brevísimas ( ) lemma=breve 
- brevísimo ( ) lemma=breve 
- brevísimos ( ) lemma=breve 
- brezales ( ) lemma=brezal 
- brezal ( ) 
+ brevemente ( ) 
+ breves ( ) 
+ brevísima ( ) 
+ brevísimamente ( ) 
+ brevísimas ( ) 
+ brevísimo ( ) 
+ brevísimos ( ) 
+ brezales ( ) 
  brick ( ) 
  brida ( ) 
- bridas ( ) lemma=brida 
+ bridas ( ) 
  bridge ( ) 
- bridges ( ) lemma=bridge 
- brigada ( ) 
- brigadas ( ) lemma=brigada 
- brilla ( ) lemma=brillar 
- brillar ( ) 
- brillaba ( ) lemma=brillar 
- brillaban ( ) lemma=brillar 
- brillado ( ) lemma=brillar 
- brillan ( ) lemma=brillar 
- brillando ( ) lemma=brillar 
+ bridges ( ) 
+ brigada ( ) lemma=abrigar 
+ brigadas ( ) 
+ brilla ( ) 
+ brillaba ( ) 
+ brillaban ( ) 
+ brillado ( ) 
+ brillan ( ) 
+ brillando ( ) 
  brillante ( ) 
- brillantemente ( ) lemma=brillante 
- brillantes ( ) lemma=brillante 
+ brillantemente ( ) 
+ brillantes ( ) 
  brillantez ( ) 
- brillantísima ( ) lemma=brillante 
- brillantísimo ( ) lemma=brillante 
- brillaran ( ) lemma=brillar 
- brillaron ( ) lemma=brillar 
- brillarían ( ) lemma=brillar 
- brille ( ) lemma=brillar 
- brillen ( ) lemma=brillar 
+ brillantísima ( ) 
+ brillantísimo ( ) 
+ brillar ( ) 
+ brillaran ( ) 
+ brillaron ( ) 
+ brillarían ( ) 
+ brille ( ) 
+ brillen ( ) 
  brillo ( ) 
- brilló ( ) lemma=brillar 
+ brilló ( ) 
  brincar ( ) 
- brinco ( ) lemma=brincar 
- brincó ( ) lemma=brincar 
- brinda ( ) lemma=brindar 
+ brinco ( ) 
+ brincó ( ) 
+ brinda ( ) 
+ brindaba ( ) 
+ brindaban ( ) 
+ brindada ( ) 
+ brindadas ( ) 
+ brindado ( ) 
+ brindados ( ) 
+ brindamos ( ) 
+ brindan ( ) 
+ brindando ( ) 
  brindar ( ) 
- brindaba ( ) lemma=brindar 
- brindaban ( ) lemma=brindar 
- brindada ( ) lemma=brindar 
- brindadas ( ) lemma=brindar 
- brindado ( ) lemma=brindar 
- brindados ( ) lemma=brindar 
- brindamos ( ) lemma=brindar 
- brindan ( ) lemma=brindar 
- brindando ( ) lemma=brindar 
- brindara ( ) lemma=brindar 
- brindaran ( ) lemma=brindar 
- brindaremos ( ) lemma=brindar 
- brindarla ( ) lemma=brindar 
- brindarle ( ) lemma=brindar 
- brindarles ( ) lemma=brindar 
- brindarme ( ) lemma=brindar 
- brindarnos ( ) lemma=brindar 
- brindaron ( ) lemma=brindar 
- brindará ( ) lemma=brindar 
- brindarán ( ) lemma=brindar 
- brindaré ( ) lemma=brindar 
- brindaría ( ) lemma=brindar 
- brindaríamos ( ) lemma=brindar 
- brindarían ( ) lemma=brindar 
- brindasen ( ) lemma=brindar 
- brinde ( ) lemma=brindar 
- brindemos ( ) lemma=brindar 
- brinden ( ) lemma=brindar 
+ brindara ( ) 
+ brindaran ( ) 
+ brindaremos ( ) 
+ brindarla ( ) 
+ brindarle ( ) 
+ brindarles ( ) 
+ brindarme ( ) 
+ brindarnos ( ) 
+ brindaron ( ) 
+ brindará ( ) 
+ brindarán ( ) 
+ brindaré ( ) 
+ brindaría ( ) 
+ brindaríamos ( ) 
+ brindarían ( ) 
+ brindasen ( ) 
+ brinde ( ) 
+ brindemos ( ) 
+ brinden ( ) 
  brindis ( ) 
- brindo ( ) lemma=brindar 
- brindándole ( ) lemma=brindar 
- brindándoles ( ) lemma=brindar 
- brindándonos ( ) lemma=brindar 
- brindé ( ) lemma=brindar 
- brindó ( ) lemma=brindar 
+ brindo ( ) 
+ brindándole ( ) 
+ brindándoles ( ) 
+ brindándonos ( ) 
+ brindé ( ) 
+ brindó ( ) 
  brisa ( ) 
- brisas ( ) lemma=brisa 
- brisca ( ) lemma=briscar 
- briscar ( ) 
- británica ( ) lemma=británico 
+ brisas ( ) 
+ brisca ( ) 
+ británica ( ) 
+ británicas ( ) 
  británico ( ) 
- británicas ( ) lemma=británico 
- británicos ( ) lemma=británico 
+ británicos ( ) 
  brizna ( ) 
  broadcast ( ) 
- brocha ( ) 
+ brocha ( ) lemma=abrochar 
  broche ( ) 
  broglie ( ) 
  broma ( ) 
- bromados ( ) lemma=bromar 
- bromar ( ) 
- bromas ( ) lemma=broma 
+ bromados ( ) 
+ bromas ( ) 
  bromato ( ) 
- bromea ( ) lemma=bromear 
+ bromea ( ) 
+ bromeando ( ) 
  bromear ( ) 
- bromeando ( ) lemma=bromear 
  bromelina ( ) 
- bromeó ( ) lemma=bromear 
- bromitas ( ) lemma=broma 
+ bromeó ( ) 
+ bromitas ( ) 
  bromocriptina ( ) 
  bromosulftaleína ( ) 
  bromuro ( ) 
- bronca ( ) lemma=bronco 
- bronco ( ) 
- broncas ( ) lemma=bronco 
+ bronca ( ) 
+ broncas ( ) 
  bronce ( ) 
- bronceada ( ) lemma=broncear 
- broncear ( ) 
- bronceado ( ) lemma=broncear 
+ bronceada ( ) 
+ bronceado ( ) 
  bronceador ( ) 
- bronces ( ) lemma=bronce 
+ bronces ( ) 
+ bronco ( ) 
  broncoconstricción ( ) 
  broncodilatador ( ) 
  broncodilatadoro ( ) 
  broncodisplasia ( ) 
  broncoespasmo ( ) 
- broncoespasmos ( ) lemma=broncoespasmo 
+ broncoespasmos ( ) 
  broncografía ( ) 
  broncopatía ( ) 
  broncopleural ( ) 
  broncopulmonar ( ) 
- broncos ( ) lemma=bronco 
+ broncos ( ) 
  broncoscopio ( ) 
  bronquial ( ) 
- bronquiales ( ) lemma=bronquial 
+ bronquiales ( ) 
  bronquiectasia ( ) 
  bronquio ( ) 
- bronquiolos ( ) lemma=bronquiolo 
- bronquiolo ( ) 
- bronquios ( ) lemma=bronquio 
+ bronquiolos ( ) 
+ bronquios ( ) 
  bronquitis ( ) 
  bronquíolo ( ) 
  bronquítico ( ) 
- brota ( ) lemma=brotar 
+ brota ( ) 
+ brotaba ( ) 
  brotar ( ) 
- brotaba ( ) lemma=brotar 
- brotara ( ) lemma=brotar 
- brotaron ( ) lemma=brotar 
- brotarán ( ) lemma=brotar 
- brotas ( ) lemma=brotar 
+ brotara ( ) 
+ brotaron ( ) 
+ brotarán ( ) 
+ brotas ( ) 
  brote ( ) 
- brotes ( ) lemma=brote 
+ brotes ( ) 
  brown ( ) 
  browse ( ) 
- bruja ( ) lemma=brujo 
- brujo ( ) 
- brujas ( ) lemma=brujo 
+ bruja ( ) 
+ brujas ( ) 
  brujería ( ) 
- brujerías ( ) lemma=brujería 
- brujita ( ) lemma=brujo 
- brujos ( ) lemma=brujo 
- bruma ( ) 
- brumas ( ) lemma=bruma 
- brusca ( ) lemma=brusco 
+ brujerías ( ) 
+ brujita ( ) 
+ brujo ( ) 
+ brujos ( ) 
+ bruma ( ) lemma=abrumar 
+ brumas ( ) 
+ brusca ( ) 
+ bruscamente ( ) 
+ bruscas ( ) 
  brusco ( ) 
- bruscamente ( ) lemma=brusco 
- bruscas ( ) lemma=brusco 
- bruscos ( ) lemma=brusco 
+ bruscos ( ) 
  brusquedad ( ) 
- bruta ( ) lemma=bruto 
- bruto ( ) 
+ bruta ( ) 
  brutal ( ) 
- brutales ( ) lemma=brutal 
+ brutales ( ) 
  brutalidad ( ) 
- brutalidades ( ) lemma=brutalidad 
- brutalmente ( ) lemma=brutal 
- brutas ( ) lemma=bruto 
- brutito ( ) lemma=bruto 
- brutos ( ) lemma=bruto 
+ brutalidades ( ) 
+ brutalmente ( ) 
+ brutas ( ) 
+ brutito ( ) 
+ bruto ( ) 
+ brutos ( ) 
  brío ( ) 
- bríos ( ) lemma=brío 
+ bríos ( ) 
  brújula ( ) 
  bu ( ) 
  buba ( ) 
  bucal ( ) 
- bucales ( ) lemma=bucal 
- bucea ( ) lemma=bucear 
- bucear ( ) 
- buceadores ( ) lemma=buceador 
- buceador ( ) 
+ bucales ( ) 
+ bucea ( ) 
+ buceadores ( ) 
  buceo ( ) 
  buchito ( ) 
  bucle ( ) 
- bucles ( ) lemma=bucle 
- budista ( ) lemma=budisto 
- budisto ( ) 
- budistas ( ) lemma=budisto 
- buen ( ) lemma=bueno 
- bueno ( ) 
- buena ( ) lemma=bueno 
- buenamente ( ) lemma=bueno 
- buenas ( ) lemma=bueno 
+ bucles ( ) 
+ budista ( ) 
+ budistas ( ) 
+ buen ( ) 
+ buena ( ) 
+ buenamente ( ) 
+ buenas ( ) 
  buenazo ( ) 
- buenecilla ( ) lemma=bueno 
- buenecito ( ) lemma=bueno 
- buenita ( ) lemma=bueno 
- buenos ( ) lemma=bueno 
- buenosmozos ( ) lemma=buenmozo 
- buenmozo ( ) 
- buenísima ( ) lemma=bueno 
- buenísimas ( ) lemma=bueno 
- buenísimo ( ) lemma=bueno 
- buenísimos ( ) lemma=bueno 
+ buenecilla ( ) 
+ buenecito ( ) 
+ buenita ( ) 
+ bueno ( ) 
+ buenos ( ) 
+ buenosmozos ( ) 
+ buenísima ( ) 
+ buenísimas ( ) 
+ buenísimo ( ) 
+ buenísimos ( ) 
  buey ( ) 
- bueyes ( ) lemma=buey 
+ bueyes ( ) 
  bufanda ( ) 
- bufandas ( ) lemma=bufanda 
+ bufandas ( ) 
  bufete ( ) 
  buffer ( ) 
  buitre ( ) 
- buitres ( ) lemma=buitre 
+ buitres ( ) 
  bujes ( ) 
  bujía ( ) 
- bujías ( ) lemma=bujía 
- bulbares ( ) lemma=bulbar 
- bulbar ( ) 
+ bujías ( ) 
+ bulbares ( ) 
  bulbo ( ) 
  bulbocavernoso ( ) 
- bulbos ( ) lemma=bulbo 
+ bulbos ( ) 
  bulboso ( ) 
  bulboventricular ( ) 
  bulbus ( ) 
  bulevar ( ) 
  bulimia ( ) 
  bulldozer ( ) 
- bulliciosa ( ) lemma=bullicioso 
- bullicioso ( ) 
- bulliciosos ( ) lemma=bullicioso 
+ bulliciosa ( ) 
+ bulliciosos ( ) 
  bulto ( ) 
- bultos ( ) lemma=bulto 
+ bultos ( ) 
  bunched ( ) 
  buque ( ) 
- buques ( ) lemma=buque 
+ buques ( ) 
  burbuja ( ) 
- burbujas ( ) lemma=burbuja 
- burda ( ) lemma=burdo 
+ burbujas ( ) 
+ burda ( ) 
+ burdamente ( ) 
+ burdas ( ) 
  burdo ( ) 
- burdamente ( ) lemma=burdo 
- burdas ( ) lemma=burdo 
  bureau ( ) 
  bureta ( ) 
- buretas ( ) lemma=bureta 
- burgalesa ( ) lemma=burgalés 
+ buretas ( ) 
+ burgalesa ( ) 
  burgalés ( ) 
- burguesa ( ) lemma=burgués 
- burgués ( ) 
- burguesas ( ) lemma=burgués 
- burgueses ( ) lemma=burgués 
+ burguesa ( ) 
+ burguesas ( ) 
+ burgueses ( ) 
  burguesía ( ) 
- burguesías ( ) lemma=burguesía 
+ burguesías ( ) 
  burgundio ( ) 
+ burgués ( ) 
  burla ( ) 
- burlada ( ) lemma=burlar 
+ burlada ( ) 
+ burlado ( ) 
+ burlados ( ) 
+ burlan ( ) 
+ burlando ( ) 
  burlar ( ) 
- burlado ( ) lemma=burlar 
- burlados ( ) lemma=burlar 
- burlan ( ) lemma=burlar 
- burlando ( ) lemma=burlar 
- burlaron ( ) lemma=burlar 
+ burlaron ( ) 
  burlarse ( ) 
- burlas ( ) lemma=burla 
- burle ( ) lemma=burlar 
- burlen ( ) lemma=burlar 
- burlescas ( ) lemma=burlesco 
- burlesco ( ) 
- burlona ( ) lemma=burlón 
- burlón ( ) 
- burlándose ( ) lemma=burlarse 
- burló ( ) lemma=burlar 
+ burlas ( ) 
+ burle ( ) 
+ burlen ( ) 
+ burlescas ( ) 
+ burlona ( ) 
+ burlándose ( ) 
+ burló ( ) 
  burocracia ( ) 
- burocracias ( ) lemma=burocracia 
- burocratizada ( ) lemma=burocratizar 
+ burocracias ( ) 
+ burocratizada ( ) 
  burocratizar ( ) 
- burocrática ( ) lemma=burocrático 
+ burocrática ( ) 
+ burocráticamente ( ) 
+ burocráticas ( ) 
  burocrático ( ) 
- burocráticamente ( ) lemma=burocrático 
- burocráticas ( ) lemma=burocrático 
- burocráticos ( ) lemma=burocrático 
+ burocráticos ( ) 
  burofax ( ) 
- burra ( ) lemma=burro 
+ burra ( ) lemma=aburrar|aburrir 
+ burrita ( ) 
  burro ( ) 
- burrita ( ) lemma=burro 
- burros ( ) lemma=burro 
+ burros ( ) 
  burst ( ) 
  bursátil ( ) 
- bursátiles ( ) lemma=bursátil 
- buró ( ) lemma=bureau 
+ bursátiles ( ) 
+ buró ( ) 
  burócrata ( ) 
- burócratas ( ) lemma=burócrata 
- burós ( ) lemma=buró 
- bus ( ) 
- busca ( ) lemma=buscar 
- buscar ( ) 
- buscaba ( ) lemma=buscar 
- buscaban ( ) lemma=buscar 
- buscabas ( ) lemma=buscar 
- buscad ( ) lemma=buscar 
- buscada ( ) lemma=buscar 
- buscadas ( ) lemma=buscar 
- buscado ( ) lemma=buscar 
+ burócratas ( ) 
+ burós ( ) 
+ bus ( ) lemma=abuso 
+ busca ( ) 
+ buscaba ( ) 
+ buscaban ( ) 
+ buscabas ( ) 
+ buscad ( ) 
+ buscada ( ) 
+ buscadas ( ) 
+ buscado ( ) 
  buscador ( ) 
- buscadores ( ) lemma=buscador 
- buscados ( ) lemma=buscar 
- buscamos ( ) lemma=buscar 
- buscan ( ) lemma=buscar 
- buscando ( ) lemma=buscar 
- buscara ( ) lemma=buscar 
- buscarais ( ) lemma=buscar 
- buscaran ( ) lemma=buscar 
- buscaremos ( ) lemma=buscar 
- buscarla ( ) lemma=buscar 
- buscarle ( ) lemma=buscar 
- buscarles ( ) lemma=buscar 
- buscarlo ( ) lemma=buscar 
- buscarlos ( ) lemma=buscar 
- buscarme ( ) lemma=buscar 
- buscaron ( ) lemma=buscar 
+ buscadores ( ) 
+ buscados ( ) 
+ buscamos ( ) 
+ buscan ( ) 
+ buscando ( ) 
+ buscar ( ) 
+ buscara ( ) 
+ buscarais ( ) 
+ buscaran ( ) 
+ buscaremos ( ) 
+ buscarla ( ) 
+ buscarle ( ) 
+ buscarles ( ) 
+ buscarlo ( ) 
+ buscarlos ( ) 
+ buscarme ( ) 
+ buscaron ( ) 
  buscarse ( ) 
- buscarte ( ) lemma=buscar 
- buscará ( ) lemma=buscar 
- buscarán ( ) lemma=buscar 
- buscaré ( ) lemma=buscar 
- buscaría ( ) lemma=buscar 
- buscaríamos ( ) lemma=buscar 
- buscarían ( ) lemma=buscar 
- buscas ( ) lemma=busca 
- buscase ( ) lemma=buscar 
- buscasen ( ) lemma=buscar 
- busco ( ) lemma=buscar 
- buscábamos ( ) lemma=buscar 
- buscándola ( ) lemma=buscar 
- buscándolos ( ) lemma=buscar 
- buscándose ( ) lemma=buscar 
- buscó ( ) lemma=buscar 
- buses ( ) lemma=bus 
+ buscarte ( ) 
+ buscará ( ) 
+ buscarán ( ) 
+ buscaré ( ) 
+ buscaría ( ) 
+ buscaríamos ( ) 
+ buscarían ( ) 
+ buscas ( ) 
+ buscase ( ) 
+ buscasen ( ) 
+ busco ( ) 
+ buscábamos ( ) 
+ buscándola ( ) 
+ buscándolos ( ) 
+ buscándose ( ) 
+ buscó ( ) 
+ buses ( ) 
  busesito ( ) 
- busque ( ) lemma=buscar 
- busquemos ( ) lemma=buscar 
- busquen ( ) lemma=buscar 
- busques ( ) lemma=buscar 
- busqué ( ) lemma=buscar 
+ busque ( ) 
+ busquemos ( ) 
+ busquen ( ) 
+ busques ( ) 
+ busqué ( ) 
  busto ( ) 
- bustos ( ) lemma=busto 
+ bustos ( ) 
  busy ( ) 
  butaca ( ) 
- butacas ( ) lemma=butaca 
+ butacas ( ) 
  butano ( ) 
- butaquita ( ) lemma=butaca 
+ butaquita ( ) 
  butirato ( ) 
  butírico ( ) 
  buzo ( ) 
- buzones ( ) lemma=buzón 
+ buzones ( ) 
+ buzos ( ) 
  buzón ( ) 
- buzos ( ) lemma=buzo 
  by ( ) 
  bye ( ) 
- byte ( ) 
+ byte ( ) lemma=Gbytes 
  bytecode ( ) 
- bytes ( ) lemma=byte 
- bájame ( ) lemma=bajar 
- bájate ( ) lemma=bajar 
- báltica ( ) lemma=báltico 
+ bytes ( ) 
+ bájame ( ) 
+ bájate ( ) 
+ báltica ( ) 
+ bálticas ( ) 
  báltico ( ) 
- bálticas ( ) lemma=báltico 
- bálticos ( ) lemma=báltico 
- bárbara ( ) lemma=bárbaro 
+ bálticos ( ) 
+ bárbara ( ) 
+ bárbaramente ( ) 
+ bárbaras ( ) 
  bárbaro ( ) 
- bárbaramente ( ) lemma=bárbaro 
- bárbaras ( ) lemma=bárbaro 
- bárbaros ( ) lemma=bárbaro 
+ bárbaros ( ) 
  báscula ( ) 
- básculas ( ) lemma=báscula 
- básica ( ) lemma=básico 
+ básculas ( ) 
+ básica ( ) 
+ básicamente ( ) 
+ básicas ( ) 
  básico ( ) 
- básicamente ( ) lemma=básico 
- básicas ( ) lemma=básico 
- básicos ( ) lemma=básico 
- básquetbol ( ) lemma=basketball 
- basketball ( ) 
- bávara ( ) lemma=bávaro 
+ básicos ( ) 
+ básquetbol ( ) 
+ bávara ( ) 
  bávaro ( ) 
- bávaros ( ) lemma=bávaro 
- béisbol ( ) lemma=baseball 
- baseball ( ) 
- bélica ( ) lemma=bélico 
+ bávaros ( ) 
+ béisbol ( ) 
+ bélica ( ) 
+ bélicas ( ) 
  bélico ( ) 
- bélicas ( ) lemma=bélico 
- bélicos ( ) lemma=bélico 
- bésense ( ) lemma=besarse 
- besarse ( ) 
- bíblica ( ) lemma=bíblico 
+ bélicos ( ) 
+ bésense ( ) 
+ bíblica ( ) 
+ bíblicas ( ) 
  bíblico ( ) 
- bíblicas ( ) lemma=bíblico 
- bíblicos ( ) lemma=bíblico 
+ bíblicos ( ) 
  bíceps ( ) 
- bífida ( ) lemma=bífido 
- bífido ( ) 
- bípedos ( ) lemma=bípedo 
- bípedo ( ) 
- bóvedas ( ) lemma=bóveda 
+ bífida ( ) 
+ bípedos ( ) 
+ bóveda ( ) 
+ bóvedas ( ) 
  búfalo ( ) 
- búfalos ( ) lemma=búfalo 
+ búfalos ( ) 
  búho ( ) 
- búlgara ( ) lemma=búlgaro 
+ búlgara ( ) 
+ búlgaras ( ) 
  búlgaro ( ) 
- búlgaras ( ) lemma=búlgaro 
- búlgaros ( ) lemma=búlgaro 
- búscalo ( ) lemma=buscar 
- búscame ( ) lemma=buscar 
- búscate ( ) lemma=buscar 
+ búlgaros ( ) 
+ búscalo ( ) 
+ búscame ( ) 
+ búscate ( ) 
  búsqueda ( ) 
- búsquedas ( ) lemma=búsqueda 
- búsquese ( ) lemma=buscar 
+ búsquedas ( ) 
+ búsquese ( ) 
+ B1- ( ) lemma=6B1-3 
+ B2- ( ) lemma=6B2-4 
+ BSTRAC ( ) lemma=ABSTRACT 
+ ba ( ) lemma=ir 
+ badí ( ) lemma=Abadía 
+ bdu ( ) lemma=Abdul 
+ be ( ) lemma=Abel 
+ belard ( ) lemma=Abelardo 
+ braha ( ) lemma=Abraham 
+ Buche ( ) 
+ bbinghau ( ) lemma=Ebbinghaus 
+ barr ( ) lemma=Ibarra 
+ beri ( ) lemma=Iberia 
+ bero-Marroqu� ( ) lemma=Ibero-Marroquí 
+ bersearc ( ) lemma=Ibersearch 
+ biz ( ) lemma=Ibiza 
+ báñe ( ) lemma=Ibáñez 
+ bí ( ) lemma=Ibíd 
+ B0 ( ) lemma=LB02 
+ bi ( ) lemma=kbit 
+ BJEC ( ) lemma=OBJECT 
+ berhause ( ) lemma=Oberhausen 
+ bisp ( ) lemma=obispo 
+ bstetrici ( ) lemma=obstetricia 
+ bsérves ( ) lemma=observarse 
+ baj ( ) lemma=abajo 
+ balanz ( ) lemma=abalanzar 
+ balanzaro ( ) lemma=abalanzar 
+ balanz� ( ) lemma=abalanzar 
+ bander ( ) lemma=abanderar 
+ banderad ( ) lemma=abanderado 
+ banderado ( ) lemma=abanderado 
+ banderamient ( ) lemma=abanderamiento 
+ banderand ( ) lemma=abanderar 
+ bandon ( ) lemma=abandono 
+ bandonab ( ) lemma=abandonar 
+ bandonaba ( ) lemma=abandonar 
+ bandonad ( ) lemma=abandonar 
+ bandonada ( ) lemma=abandonar 
+ bandonado ( ) lemma=abandonar 
+ bandonamo ( ) lemma=abandonar 
+ bandona ( ) lemma=abandonar 
+ bandonand ( ) lemma=abandonar 
+ bandonar ( ) lemma=abandonar 
+ bandonara ( ) lemma=abandonar 
+ bandonaremo ( ) lemma=abandonar 
+ bandonarl ( ) lemma=abandonar 
+ bandonarla ( ) lemma=abandonar 
+ bandonarlo ( ) lemma=abandonar 
+ bandonarno ( ) lemma=abandonar 
+ bandonaro ( ) lemma=abandonar 
+ bandonar� ( ) lemma=abandonar 
+ bandonará ( ) lemma=abandonar 
+ bandonarí ( ) lemma=abandonar 
+ bandonaríamo ( ) lemma=abandonar 
+ bandonaría ( ) lemma=abandonar 
+ bandonas ( ) lemma=abandonar 
+ bandonase ( ) lemma=abandonar 
+ bandonemo ( ) lemma=abandonar 
+ bandone ( ) lemma=abandonar 
+ bandono ( ) lemma=abandono 
+ bandonábamo ( ) lemma=abandonar 
+ bandonáramo ( ) lemma=abandonar 
+ bandon� ( ) lemma=abandonar 
+ bandonéi ( ) lemma=abandonar 
+ banic ( ) lemma=abanico 
+ banico ( ) lemma=abanico 
+ banic� ( ) lemma=abanicar 
+ baniqu ( ) lemma=abanicar 
+ barat ( ) lemma=abaratar 
+ baratad ( ) lemma=abaratar 
+ baratamient ( ) lemma=abaratamiento 
+ baratand ( ) lemma=abaratar 
+ baratar� ( ) lemma=abaratar 
+ baratarí ( ) lemma=abaratar 
+ barc ( ) lemma=abarcar 
+ barcab ( ) lemma=abarcar 
+ barcaba ( ) lemma=abarcar 
+ barcad ( ) lemma=abarcar 
+ barcada ( ) lemma=abarcar 
+ barcado ( ) lemma=abarcar 
+ barcamo ( ) lemma=abarcar 
+ barcand ( ) lemma=abarcar 
+ barcar ( ) lemma=abarcar 
+ barcarl ( ) lemma=abarcar 
+ barcar� ( ) lemma=abarcar 
+ barcará ( ) lemma=abarcar 
+ barcarí ( ) lemma=abarcar 
+ barcaríamo ( ) lemma=abarcar 
+ barcase ( ) lemma=abarcar 
+ barc� ( ) lemma=abarcar 
+ barqu ( ) lemma=abarcar 
+ barquemo ( ) lemma=abarcar 
+ barque ( ) lemma=abarcar 
+ barrotaba ( ) lemma=abarrotar 
+ barrotada ( ) lemma=abarrotar 
+ barrotad ( ) lemma=abarrotar 
+ barrotado ( ) lemma=abarrotar 
+ barrotamient ( ) lemma=abarrotamiento 
+ barrota ( ) lemma=abarrotar 
+ barrotaro ( ) lemma=abarrotar 
+ barrot ( ) lemma=abarrote 
+ barrot� ( ) lemma=abarrotar 
+ bastec ( ) lemma=abastecer 
+ bastecedo ( ) lemma=abastecedor 
+ bastecedora ( ) lemma=abastecedor 
+ bastecedore ( ) lemma=abastecedor 
+ bastece ( ) lemma=abastecer 
+ bastecers ( ) lemma=abastecerse 
+ bastecer� ( ) lemma=abastecer 
+ bastecerá ( ) lemma=abastecer 
+ bastecid ( ) lemma=abastecer 
+ basteciend ( ) lemma=abastecer 
+ bastecimient ( ) lemma=abastecimiento 
+ bastecimiento ( ) lemma=abastecimiento 
+ bastezc ( ) lemma=abastecer 
+ bast ( ) lemma=abasto 
+ bat ( ) lemma=abate 
+ batid ( ) lemma=abatir 
+ batiero ( ) lemma=abatir 
+ baties ( ) lemma=abatir 
+ batimient ( ) lemma=abatimiento 
+ batimo ( ) lemma=abatir 
+ bati ( ) lemma=abatir 
+ bati� ( ) lemma=abatir 
+ bdic ( ) lemma=abdicar 
+ bdicad ( ) lemma=abdicar 
+ bdicamo ( ) lemma=abdicar 
+ bdicand ( ) lemma=abdicar 
+ bdica ( ) lemma=abdicar 
+ bdic� ( ) lemma=abdicar 
+ bdiquemo ( ) lemma=abdicar 
+ bdique ( ) lemma=abdicar 
+ bdome ( ) lemma=abdomen 
+ bdomina ( ) lemma=abdominal 
+ bdominale ( ) lemma=abdominal 
+ bduca ( ) lemma=abducar 
+ bducció ( ) lemma=abducción 
+ bducto ( ) lemma=abductor 
+ bdómene ( ) lemma=abdomen 
+ becedari ( ) lemma=abecedario 
+ bedu ( ) lemma=abedul 
+ bej ( ) lemma=abeja 
+ bejaruco ( ) lemma=abejaruco 
+ beja ( ) lemma=abeja 
+ bejorro ( ) lemma=abejorro 
+ belso ( ) lemma=abelson 
+ berracione ( ) lemma=aberración 
+ berració ( ) lemma=aberración 
+ berrant ( ) lemma=aberrante 
+ berrante ( ) lemma=aberrante 
+ bertur ( ) lemma=abertura 
+ bertura ( ) lemma=abertura 
+ betalipoproteinemi ( ) lemma=abetalipoproteinemia 
+ biert ( ) lemma=abierto 
+ biertament ( ) lemma=abierto 
+ bierta ( ) lemma=abierto 
+ bierto ( ) lemma=abierto 
+ bintestat ( ) lemma=abintestato 
+ bisale ( ) lemma=abisal 
+ bism ( ) lemma=abismo 
+ bismo ( ) lemma=abismo 
+ bióticament ( ) lemma=abióticamente 
+ biótico ( ) lemma=abiótico 
+ blacione ( ) lemma=ablación 
+ blandad ( ) lemma=ablandar 
+ blandado ( ) lemma=ablandador 
+ blandamient ( ) lemma=ablandamiento 
+ blandar ( ) lemma=ablandar 
+ blandarl ( ) lemma=ablandar 
+ bland� ( ) lemma=ablandar 
+ bnegació ( ) lemma=abnegación 
+ bnegad ( ) lemma=abnegado 
+ bnegado ( ) lemma=abnegar 
+ boc ( ) lemma=abocar 
+ bocad ( ) lemma=abocar 
+ bocada ( ) lemma=abocar 
+ bocaremo ( ) lemma=abocar 
+ bocars ( ) lemma=abocarse 
+ bocar� ( ) lemma=abocar 
+ bocinad ( ) lemma=abocinar 
+ bog ( ) lemma=abogar 
+ bogab ( ) lemma=abogar 
+ bogaba ( ) lemma=abogar 
+ bogací ( ) lemma=abogacía 
+ bogad ( ) lemma=abogado 
+ bogada ( ) lemma=abogado 
+ bogadill ( ) lemma=abogadillo 
+ bogadit ( ) lemma=abogadito 
+ bogado ( ) lemma=abogado 
+ bogamo ( ) lemma=abogar 
+ bogand ( ) lemma=abogar 
+ bogara ( ) lemma=abogar 
+ bogaremo ( ) lemma=abogar 
+ bogaro ( ) lemma=abogar 
+ bogar� ( ) lemma=abogar 
+ bogará ( ) lemma=abogar 
+ bogarí ( ) lemma=abogar 
+ bogaría ( ) lemma=abogar 
+ bogu ( ) lemma=abogar 
+ boguemo ( ) lemma=abogar 
+ bogue ( ) lemma=abogar 
+ bogu� ( ) lemma=abogar 
+ bogábamo ( ) lemma=abogar 
+ bog� ( ) lemma=abogar 
+ bolició ( ) lemma=abolición 
+ bolid ( ) lemma=abolir 
+ bolida ( ) lemma=abolir 
+ bolido ( ) lemma=abolir 
+ boliend ( ) lemma=abolir 
+ boliero ( ) lemma=abolir 
+ boli ( ) lemma=abolir 
+ bolirl ( ) lemma=abolir 
+ bolir� ( ) lemma=abolir 
+ bolirá ( ) lemma=abolir 
+ bolirí ( ) lemma=abolir 
+ boli� ( ) lemma=abolir 
+ bombad ( ) lemma=abombar 
+ bomband ( ) lemma=abombar 
+ bominabl ( ) lemma=abominable 
+ bominablement ( ) lemma=abominable 
+ bominable ( ) lemma=abominable 
+ bonab ( ) lemma=abonar 
+ bonable ( ) lemma=abonable 
+ bonad ( ) lemma=abonado 
+ bonada ( ) lemma=abonar 
+ bonado ( ) lemma=abonado 
+ bonamo ( ) lemma=abonar 
+ bonand ( ) lemma=abonar 
+ bonaro ( ) lemma=abonar 
+ bonar� ( ) lemma=abonar 
+ bonará ( ) lemma=abonar 
+ bonarí ( ) lemma=abonar 
+ bonaría ( ) lemma=abonar 
+ bone ( ) lemma=abonar 
+ bonn� ( ) lemma=abonné 
+ bonásemo ( ) lemma=abonar 
+ bon� ( ) lemma=abonar 
+ bord ( ) lemma=abordar 
+ bordab ( ) lemma=abordar 
+ bordad ( ) lemma=abordar 
+ bordaj ( ) lemma=abordaje 
+ bordaje ( ) lemma=abordaje 
+ bordamo ( ) lemma=abordar 
+ bordand ( ) lemma=abordar 
+ bordara ( ) lemma=abordar 
+ bordaremo ( ) lemma=abordar 
+ bordaro ( ) lemma=abordar 
+ bordars ( ) lemma=abordarse 
+ bordar� ( ) lemma=abordar 
+ bordará ( ) lemma=abordar 
+ bordarí ( ) lemma=abordar 
+ bordas ( ) lemma=abordar 
+ bordase ( ) lemma=abordar 
+ bordemo ( ) lemma=abordar 
+ bordásemo ( ) lemma=abordar 
+ bord� ( ) lemma=abordar 
+ borrec ( ) lemma=aborrecer 
+ borrecemo ( ) lemma=aborrecer 
+ borrece ( ) lemma=aborrecer 
+ borrecid ( ) lemma=aborrecer 
+ borregad ( ) lemma=aborregar 
+ borregada ( ) lemma=aborregar 
+ borregado ( ) lemma=aborregar 
+ bort ( ) lemma=aborto 
+ bortad ( ) lemma=abortar 
+ bortada ( ) lemma=abortar 
+ bortado ( ) lemma=abortar 
+ borta ( ) lemma=abortar 
+ bortand ( ) lemma=abortar 
+ bortar� ( ) lemma=abortar 
+ bortaríamo ( ) lemma=abortar 
+ borte ( ) lemma=abortar 
+ borto ( ) lemma=aborto 
+ bort� ( ) lemma=abortar 
+ borígene ( ) lemma=aborigen 
+ br ( ) lemma=obrar 
+ bracemo ( ) lemma=abrazar 
+ brace ( ) lemma=abrazar 
+ bramo ( ) lemma=obrar 
+ bra ( ) lemma=obra 
+ bras ( ) lemma=abrasar 
+ brasab ( ) lemma=abrasar 
+ brasado ( ) lemma=abrasar 
+ brasand ( ) lemma=abrasar 
+ brasiv ( ) lemma=abrasivo 
+ brasivo ( ) lemma=abrasivo 
+ braz ( ) lemma=abrazo 
+ brazab ( ) lemma=abrazar 
+ brazaba ( ) lemma=abrazar 
+ brazad ( ) lemma=abrazar 
+ brazado ( ) lemma=abrazar 
+ braza ( ) lemma=abrazar 
+ brazand ( ) lemma=abrazar 
+ brazarl ( ) lemma=abrazar 
+ brazarm ( ) lemma=abrazar 
+ brazaro ( ) lemma=abrazar 
+ braz� ( ) lemma=abrazar 
+ brelata ( ) lemma=abrelata 
+ bre ( ) lemma=obrar 
+ brevadero ( ) lemma=abrevadero 
+ brevi ( ) lemma=abreviar 
+ breviad ( ) lemma=abreviar 
+ breviadament ( ) lemma=abreviado 
+ breviada ( ) lemma=abreviado 
+ breviado ( ) lemma=abreviar 
+ brevia ( ) lemma=abreviar 
+ breviand ( ) lemma=abreviar 
+ breviaremo ( ) lemma=abreviar 
+ breviars ( ) lemma=abreviarse 
+ breviatur ( ) lemma=abreviatura 
+ breviatura ( ) lemma=abreviatura 
+ brido ( ) lemma=abridor 
+ bridore ( ) lemma=abridor 
+ briend ( ) lemma=abrir 
+ brier ( ) lemma=abrir 
+ briera ( ) lemma=abrir 
+ briero ( ) lemma=abrir 
+ bries ( ) lemma=abrir 
+ briese ( ) lemma=abrir 
+ brig ( ) lemma=abrigo 
+ brigab ( ) lemma=abrigar 
+ brigaba ( ) lemma=abrigar 
+ brigad ( ) lemma=abrigar 
+ brigado ( ) lemma=abrigar 
+ brigamo ( ) lemma=abrigar 
+ briga ( ) lemma=abrigar 
+ brigand ( ) lemma=abrigar 
+ brigará ( ) lemma=abrigar 
+ brigo ( ) lemma=abrigo 
+ brigu ( ) lemma=abrigar 
+ brigue ( ) lemma=abrigar 
+ briguito ( ) lemma=abrigo 
+ brigu� ( ) lemma=abrigar 
+ brigábamo ( ) lemma=abrigar 
+ bri ( ) lemma=ebrio 
+ brillantand ( ) lemma=abrillantar 
+ brimo ( ) lemma=abrir 
+ briphon ( ) lemma=abriphone 
+ briremo ( ) lemma=abrir 
+ brirl ( ) lemma=abrir 
+ brirla ( ) lemma=abrir 
+ brirle ( ) lemma=abrir 
+ brirlo ( ) lemma=abrir 
+ brirm ( ) lemma=abrir 
+ brirno ( ) lemma=abrir 
+ brirs ( ) lemma=abrirse 
+ brir� ( ) lemma=abrir 
+ brirá ( ) lemma=abrir 
+ brirí ( ) lemma=abrir 
+ briría ( ) lemma=abrir 
+ briéndono ( ) lemma=abrir 
+ briéndos ( ) lemma=abrirse 
+ bri� ( ) lemma=abrir 
+ broch ( ) lemma=abrochar 
+ brochado ( ) lemma=abrochar 
+ broch� ( ) lemma=abrochar 
+ brog ( ) lemma=abrogar 
+ brogad ( ) lemma=abrogar 
+ brogand ( ) lemma=abrogar 
+ broga ( ) lemma=abrogar 
+ brogars ( ) lemma=abrogarse 
+ brogándos ( ) lemma=abrogarse 
+ brog� ( ) lemma=abrogar 
+ brum ( ) lemma=abrumar 
+ brumab ( ) lemma=abrumar 
+ brumad ( ) lemma=abrumar 
+ brumado ( ) lemma=abrumar 
+ brumador ( ) lemma=abrumador 
+ brumadorament ( ) lemma=abrumador 
+ brumadora ( ) lemma=abrumador 
+ brumadore ( ) lemma=abrumador 
+ brupt ( ) lemma=abrupto 
+ bruptament ( ) lemma=abrupto 
+ brupta ( ) lemma=abrupto 
+ brupto ( ) lemma=abrupto 
+ br� ( ) lemma=obrar 
+ brí ( ) lemma=abrir 
+ bríamo ( ) lemma=abrir 
+ bría ( ) lemma=abrir 
+ bscesificació ( ) lemma=abscesificación 
+ bsces ( ) lemma=absceso 
+ bsceso ( ) lemma=absceso 
+ bscisa ( ) lemma=abscisa 
+ bsolució ( ) lemma=absolución 
+ bsolut ( ) lemma=absoluto 
+ bsolutament ( ) lemma=absoluto 
+ bsoluta ( ) lemma=absoluto 
+ bsolutism ( ) lemma=absolutismo 
+ bsolutori ( ) lemma=absolutorio 
+ bsoluto ( ) lemma=absoluto 
+ bsolvemo ( ) lemma=absolver 
+ bsolve ( ) lemma=absolver 
+ bsolverl ( ) lemma=absolver 
+ bsolverno ( ) lemma=absolver 
+ bsolver� ( ) lemma=absolver 
+ bsolviend ( ) lemma=absolver 
+ bsolvi� ( ) lemma=absolver 
+ bsorb ( ) lemma=absorber 
+ bsorbamo ( ) lemma=absorber 
+ bsorba ( ) lemma=absorber 
+ bsorbe ( ) lemma=absorber 
+ bsorbent ( ) lemma=absorbente 
+ bsorbente ( ) lemma=absorbente 
+ bsorberl ( ) lemma=absorber 
+ bsorberla ( ) lemma=absorber 
+ bsorberlo ( ) lemma=absorber 
+ bsorberno ( ) lemma=absorber 
+ bsorbers ( ) lemma=absorber 
+ bsorber� ( ) lemma=absorber 
+ bsorberá ( ) lemma=absorber 
+ bsorberí ( ) lemma=absorber 
+ bsorbid ( ) lemma=absorber 
+ bsorbida ( ) lemma=absorber 
+ bsorbido ( ) lemma=absorber 
+ bsorbiend ( ) lemma=absorber 
+ bsorbi� ( ) lemma=absorber 
+ bsorbí ( ) lemma=absorber 
+ bsorbía ( ) lemma=absorber 
+ bsorcione ( ) lemma=absorción 
+ bsorció ( ) lemma=absorción 
+ bsort ( ) lemma=absorto 
+ bsorto ( ) lemma=absorto 
+ bstencione ( ) lemma=abstención 
+ bstencionism ( ) lemma=abstencionismo 
+ bstencionist ( ) lemma=abstencionista 
+ bstencionista ( ) lemma=abstencionista 
+ bstenció ( ) lemma=abstención 
+ bstendremo ( ) lemma=abstener 
+ bstendr� ( ) lemma=abstener 
+ bstendrá ( ) lemma=abstener 
+ bstenemo ( ) lemma=abstener 
+ bstene ( ) lemma=abstener 
+ bsteners ( ) lemma=abstenerse 
+ bsteng ( ) lemma=abstener 
+ bstengamo ( ) lemma=abstener 
+ bstenga ( ) lemma=abstener 
+ bstenid ( ) lemma=abstener 
+ bsteniéndos ( ) lemma=abstenerse 
+ bstenía ( ) lemma=abstener 
+ bstien ( ) lemma=abstener 
+ bstiene ( ) lemma=abstener 
+ bstinenci ( ) lemma=abstinencia 
+ bstraccione ( ) lemma=abstracción 
+ bstracció ( ) lemma=abstracción 
+ bstract ( ) lemma=abstracto 
+ bstractament ( ) lemma=abstracto 
+ bstracta ( ) lemma=abstracto 
+ bstracto ( ) lemma=abstracto 
+ bstuv ( ) lemma=abstener 
+ bstuvier ( ) lemma=abstener 
+ bstuviera ( ) lemma=abstener 
+ bstuviero ( ) lemma=abstener 
+ bstuvies ( ) lemma=abstener 
+ bstuvimo ( ) lemma=abstener 
+ bsuelt ( ) lemma=absolver 
+ bsuelto ( ) lemma=absolver 
+ bsuelv ( ) lemma=absolver 
+ bsurd ( ) lemma=absurdo 
+ bsurdament ( ) lemma=absurdo 
+ bsurda ( ) lemma=absurdo 
+ bsurdo ( ) lemma=absurdo 
+ buchead ( ) lemma=abuchear 
+ bucheado ( ) lemma=abuchear 
+ buchearo ( ) lemma=abuchear 
+ buche ( ) lemma=abucheo 
+ bucheo ( ) lemma=abucheo 
+ buel ( ) lemma=abuelo 
+ buela ( ) lemma=abuelo 
+ buelit ( ) lemma=abuelo 
+ buelito ( ) lemma=abuelo 
+ buelo ( ) lemma=abuelo 
+ bultab ( ) lemma=abultar 
+ bultad ( ) lemma=abultado 
+ bultada ( ) lemma=abultar 
+ bund ( ) lemma=abundar 
+ bundaba ( ) lemma=abundar 
+ bundad ( ) lemma=abundar 
+ bundamient ( ) lemma=abundamiento 
+ bunda ( ) lemma=abundar 
+ bundanci ( ) lemma=abundancia 
+ bundand ( ) lemma=abundar 
+ bundant ( ) lemma=abundante 
+ bundantement ( ) lemma=abundante 
+ bundante ( ) lemma=abundante 
+ bundantísima ( ) lemma=abundante 
+ bundar ( ) lemma=abundar 
+ bundaro ( ) lemma=abundar 
+ bundemo ( ) lemma=abundar 
+ bund� ( ) lemma=abundar 
+ burr ( ) lemma=aburrar|aburrir 
+ burre ( ) lemma=aburrar|aburrir 
+ burrid ( ) lemma=aburrir 
+ burrida ( ) lemma=aburrir 
+ burrido ( ) lemma=aburrir 
+ burrimient ( ) lemma=aburrimiento 
+ burri ( ) lemma=aburrir 
+ burrirle ( ) lemma=aburrir 
+ burrirt ( ) lemma=aburrir 
+ burrir� ( ) lemma=aburrir 
+ burrirí ( ) lemma=aburrir 
+ burr� ( ) lemma=aburrir 
+ burrí ( ) lemma=aburrir 
+ burría ( ) lemma=aburrir 
+ busad ( ) lemma=abusar 
+ busa ( ) lemma=abusar 
+ busand ( ) lemma=abusar 
+ busara ( ) lemma=abusar 
+ busará ( ) lemma=abusar 
+ busemo ( ) lemma=abusar 
+ buse ( ) lemma=abusar 
+ busiv ( ) lemma=abusivo 
+ busivament ( ) lemma=abusivo 
+ busiva ( ) lemma=abusivo 
+ busivo ( ) lemma=abusivo 
+ buso ( ) lemma=abuso 
+ bus� ( ) lemma=abusar 
+ babear ( ) 
+ bachear ( ) 
+ bachiller ( ) 
+ bagar ( ) 
+ bahameño ( ) 
+ baldar ( ) 
+ baliza ( ) 
+ barajar ( ) 
+ barbar ( ) 
+ barbitúrico ( ) 
+ bardar ( ) 
+ barométrico ( ) 
+ barquero ( ) 
+ barraca ( ) 
+ barrar|barrer ( ) 
+ barredora ( ) 
+ bastidor ( ) 
+ basófilo ( ) 
+ batarazo ( ) 
+ batear ( ) 
+ bañista ( ) 
+ bentónico ( ) 
+ benzodiacepina ( ) 
+ berberecho ( ) 
+ berro ( ) 
+ betabloqueante ( ) 
+ bibliográfico ( ) 
+ bibliotecario ( ) 
+ bifilar ( ) 
+ bifásico ( ) 
+ bimolecular ( ) 
+ biofísico ( ) 
+ bipartito ( ) 
+ bisnieto ( ) 
+ biunívoco ( ) 
+ bivalvo ( ) 
+ bizcar ( ) 
+ blastómero ( ) 
+ bloqueador ( ) 
+ bloqueante ( ) 
+ bochar ( ) 
+ bolear ( ) 
+ boletar ( ) 
+ boludez ( ) 
+ bolívar ( ) 
+ bombacho ( ) 
+ bombona ( ) 
+ bombón ( ) 
+ bonsai ( ) 
+ booleano ( ) 
+ boquear ( ) 
+ boquiabierto ( ) 
+ bordear ( ) 
+ borne ( ) 
+ borrico ( ) 
+ bosquejar ( ) 
+ bovino ( ) 
+ boyar ( ) 
+ braquiocefálico ( ) 
+ bregar ( ) 
+ brezal ( ) 
+ briscar ( ) 
+ bromar ( ) 
+ broncear ( ) 
+ bronquiolo ( ) 
+ bucear ( ) 
+ buceador ( ) 
+ budisto ( ) 
+ buenmozo ( ) 
+ bulbar ( ) 
+ bullicioso ( ) 
+ burlesco ( ) 
+ burlón ( ) 
+ basketball ( ) 
+ baseball ( ) 
+ besarse ( ) 
+ bífido ( ) 
+ bípedo ( ) 
+ BP ( ) lemma=dBPa 
+ Bm ( ) lemma=dBmp 
+ Bm0 ( ) lemma=dBm0p 
+ Bp ( ) lemma=dBpm 
+ Br ( ) lemma=dBrn 
+ brieda ( ) lemma=ebriedad 
+ brio ( ) lemma=ebrio 
+ bullició ( ) lemma=ebullición 
+ bai ( ) lemma=ir 
+ beroamerican ( ) lemma=iberoamericano 
+ beroamericano ( ) lemma=iberoamericano 
+ buprofé ( ) lemma=ibuprofén 
+ béric ( ) lemma=ibérico 
+ bérica ( ) lemma=ibérico 
+ bérico ( ) lemma=ibérico 
  bueno|mejor ( ) 
+ bcecada ( ) lemma=obcecar 
+ bcecad ( ) lemma=obcecar 
+ bceca ( ) lemma=obcecar 
+ bedec ( ) lemma=obedecer 
+ bedecemo ( ) lemma=obedecer 
+ bedece ( ) lemma=obedecer 
+ bedecid ( ) lemma=obedecer 
+ bedeciend ( ) lemma=obedecer 
+ bedeciera ( ) lemma=obedecer 
+ bedeciero ( ) lemma=obedecer 
+ bedeci� ( ) lemma=obedecer 
+ bedec� ( ) lemma=obedecer 
+ bedecí ( ) lemma=obedecer 
+ bedecía ( ) lemma=obedecer 
+ bedezc ( ) lemma=obedecer 
+ bedezca ( ) lemma=obedecer 
+ bedienci ( ) lemma=obediencia 
+ bedient ( ) lemma=obediente 
+ bedientement ( ) lemma=obediente 
+ bediente ( ) lemma=obediente 
+ bes ( ) lemma=obeso 
+ besida ( ) lemma=obesidad 
+ bispad ( ) lemma=obispar 
+ bispo ( ) lemma=obispo 
+ bjecione ( ) lemma=objeción 
+ bjeció ( ) lemma=objeción 
+ bjet ( ) lemma=objeto 
+ bjetad ( ) lemma=objetar 
+ bjetada ( ) lemma=objetar 
+ bjetamo ( ) lemma=objetar 
+ bjeta ( ) lemma=objetar 
+ bjetand ( ) lemma=objetar 
+ bjetar ( ) lemma=objetar 
+ bjetaro ( ) lemma=objetar 
+ bjetar� ( ) lemma=objetar 
+ bjetará ( ) lemma=objetar 
+ bjetemo ( ) lemma=objetar 
+ bjetiv ( ) lemma=objetivo 
+ bjetivabl ( ) lemma=objetivable 
+ bjetivament ( ) lemma=objetivo 
+ bjetiva ( ) lemma=objetivo 
+ bjetivida ( ) lemma=objetividad 
+ bjetividade ( ) lemma=objetividad 
+ bjetivo ( ) lemma=objetivo 
+ bjeto-relaciona ( ) lemma=objeto-relacional 
+ bjeto ( ) lemma=objeto 
+ bjet� ( ) lemma=objetar 
+ blar ( ) lemma=oblar 
+ blicu ( ) lemma=oblicuo 
+ blicuament ( ) lemma=oblicuamente 
+ blicua ( ) lemma=oblicuo 
+ blicuida ( ) lemma=oblicuidad 
+ blig ( ) lemma=obligar 
+ bligab ( ) lemma=obligar 
+ bligaba ( ) lemma=obligar 
+ bligacione ( ) lemma=obligación 
+ bligacionist ( ) lemma=obligacionista 
+ bligacionista ( ) lemma=obligacionista 
+ bligació ( ) lemma=obligación 
+ bligad ( ) lemma=obligar 
+ bligadament ( ) lemma=obligadamente 
+ bligada ( ) lemma=obligar 
+ bligado ( ) lemma=obligar 
+ bligamo ( ) lemma=obligar 
+ bliga ( ) lemma=obligar 
+ bligand ( ) lemma=obligar 
+ bligar ( ) lemma=obligar 
+ bligara ( ) lemma=obligar 
+ bligaremo ( ) lemma=obligar 
+ bligari ( ) lemma=obligar 
+ bligarl ( ) lemma=obligar 
+ bligarla ( ) lemma=obligar 
+ bligarle ( ) lemma=obligar 
+ bligarno ( ) lemma=obligar 
+ bligaro ( ) lemma=obligar 
+ bligars ( ) lemma=obligar 
+ bligar� ( ) lemma=obligar 
+ bligará ( ) lemma=obligar 
+ bligarí ( ) lemma=obligar 
+ bligaríamo ( ) lemma=obligar 
+ bligaría ( ) lemma=obligar 
+ bligas ( ) lemma=obligar 
+ bligase ( ) lemma=obligar 
+ bligatori ( ) lemma=obligatorio 
+ bligatoriament ( ) lemma=obligatorio 
+ bligatoria ( ) lemma=obligatorio 
+ bligatorieda ( ) lemma=obligatoriedad 
+ bligatorio ( ) lemma=obligatorio 
+ bligu ( ) lemma=obligar 
+ bliguemo ( ) lemma=obligar 
+ bligue ( ) lemma=obligar 
+ bligái ( ) lemma=obligar 
+ bligándol ( ) lemma=obligar 
+ bligándolo ( ) lemma=obligar 
+ bligándono ( ) lemma=obligar 
+ bligáramo ( ) lemma=obligar 
+ blig� ( ) lemma=obligar 
+ bliteració ( ) lemma=obliteración 
+ bliterant ( ) lemma=obliterante 
+ blitératio ( ) lemma=oblitération 
+ bnubilació ( ) lemma=obnubilación 
+ brab ( ) lemma=obrar 
+ braba ( ) lemma=obrar 
+ brad ( ) lemma=obrar 
+ brand ( ) lemma=obrar 
+ brar ( ) lemma=obrar 
+ brara ( ) lemma=obrar 
+ braremo ( ) lemma=obrar 
+ braro ( ) lemma=obrar 
+ brar� ( ) lemma=obrar 
+ brarí ( ) lemma=obrar 
+ braríamo ( ) lemma=obrar 
+ braría ( ) lemma=obrar 
+ brasei ( ) lemma=obrar 
+ brase ( ) lemma=obrar 
+ bremo ( ) lemma=obrar 
+ brer ( ) lemma=obrero 
+ brera ( ) lemma=obrero 
+ brero ( ) lemma=obrero 
+ bráramo ( ) lemma=obrar 
+ bscen ( ) lemma=obsceno 
+ bscenament ( ) lemma=obsceno 
+ bscena ( ) lemma=obsceno 
+ bscenida ( ) lemma=obscenidad 
+ bsceno ( ) lemma=obsceno 
+ bscur ( ) lemma=obscuro 
+ bscura ( ) lemma=obscuro 
+ bscurece ( ) lemma=obscurecer 
+ bscuro ( ) lemma=obscuro 
+ bsequi ( ) lemma=obsequio 
+ bsequiad ( ) lemma=obsequiar 
+ bsequiamo ( ) lemma=obsequiar 
+ bsequia ( ) lemma=obsequiar 
+ bsequiand ( ) lemma=obsequiar 
+ bsequiará ( ) lemma=obsequiar 
+ bsequio ( ) lemma=obsequio 
+ bsequi� ( ) lemma=obsequiar 
+ bserv ( ) lemma=observar 
+ bservab ( ) lemma=observar 
+ bservaba ( ) lemma=observar 
+ bservabl ( ) lemma=observable 
+ bservable ( ) lemma=observable 
+ bservaciona ( ) lemma=observacional 
+ bservacione ( ) lemma=observación 
+ bservació ( ) lemma=observación 
+ bserva ( ) lemma=observar 
+ bservad ( ) lemma=observar 
+ bservada ( ) lemma=observar 
+ bservado ( ) lemma=observar 
+ bservador ( ) lemma=observador 
+ bservadora ( ) lemma=observador 
+ bservadore ( ) lemma=observador 
+ bservamo ( ) lemma=observar 
+ bservanci ( ) lemma=observancia 
+ bservand ( ) lemma=observar 
+ bservar ( ) lemma=observar 
+ bservara ( ) lemma=observar 
+ bservaremo ( ) lemma=observar 
+ bservarla ( ) lemma=observar 
+ bservarl ( ) lemma=observar 
+ bservaro ( ) lemma=observar 
+ bservars ( ) lemma=observarse 
+ bservar� ( ) lemma=observar 
+ bservará ( ) lemma=observar 
+ bservaréi ( ) lemma=observar 
+ bservaríamo ( ) lemma=observar 
+ bservas ( ) lemma=observar 
+ bservatori ( ) lemma=observatorio 
+ bservatorio ( ) lemma=observatorio 
+ bservemo ( ) lemma=observar 
+ bserve ( ) lemma=observar 
+ bservábamo ( ) lemma=observar 
+ bservái ( ) lemma=observar 
+ bservándono ( ) lemma=observar 
+ bservándos ( ) lemma=observar 
+ bserv� ( ) lemma=observar 
+ bsesion ( ) lemma=obsesionar 
+ bsesionab ( ) lemma=obsesionar 
+ bsesionad ( ) lemma=obsesionar 
+ bsesionado ( ) lemma=obsesionar 
+ bsesiona ( ) lemma=obsesionar 
+ bsesionemo ( ) lemma=obsesionar 
+ bsesione ( ) lemma=obsesión 
+ bsesiv ( ) lemma=obsesivo 
+ bsesivament ( ) lemma=obsesivo 
+ bsesió ( ) lemma=obsesión 
+ bsolescenci ( ) lemma=obsolescencia 
+ bsolet ( ) lemma=obsoleto 
+ bsoleta ( ) lemma=obsoleto 
+ bsoleto ( ) lemma=obsoleto 
+ bst ( ) lemma=obstar 
+ bstacl ( ) lemma=obstacle 
+ bstaculic ( ) lemma=obstaculizar 
+ bstaculice ( ) lemma=obstaculizar 
+ bstaculiz ( ) lemma=obstaculizar 
+ bstaculizab ( ) lemma=obstaculizar 
+ bstaculizaba ( ) lemma=obstaculizar 
+ bstaculizació ( ) lemma=obstaculización 
+ bstaculizad ( ) lemma=obstaculizar 
+ bstaculizada ( ) lemma=obstaculizar 
+ bstaculizado ( ) lemma=obstaculizar 
+ bstaculizamo ( ) lemma=obstaculizar 
+ bstaculiza ( ) lemma=obstaculizar 
+ bstaculizand ( ) lemma=obstaculizar 
+ bstaculizar ( ) lemma=obstaculizar 
+ bstaculizar� ( ) lemma=obstaculizar 
+ bstaculizará ( ) lemma=obstaculizar 
+ bstaculizarí ( ) lemma=obstaculizar 
+ bstaculizaría ( ) lemma=obstaculizar 
+ bstaculiz� ( ) lemma=obstaculizar 
+ bsta ( ) lemma=obstar 
+ bstant ( ) lemma=obstante 
+ bstar� ( ) lemma=obstar 
+ bstin ( ) lemma=obstinar 
+ bstinacione ( ) lemma=obstinación 
+ bstinació ( ) lemma=obstinación 
+ bstinad ( ) lemma=obstinar 
+ bstinadament ( ) lemma=obstinadamente 
+ bstinada ( ) lemma=obstinar 
+ bstina ( ) lemma=obstinar 
+ bstinar ( ) lemma=obstinar 
+ bstinemo ( ) lemma=obstinar 
+ bstine ( ) lemma=obstinar 
+ bstin� ( ) lemma=obstinar 
+ bstruccione ( ) lemma=obstrucción 
+ bstrucció ( ) lemma=obstrucción 
+ bstructio ( ) lemma=obstruction 
+ bstructiv ( ) lemma=obstructivo 
+ bstructiva ( ) lemma=obstructivo 
+ bstructivo ( ) lemma=obstructivo 
+ bstruid ( ) lemma=obstruir 
+ bstrui ( ) lemma=obstruir 
+ bstruirs ( ) lemma=obstruir 
+ bstruy ( ) lemma=obstruir 
+ bstruya ( ) lemma=obstruir 
+ bstruye ( ) lemma=obstruir 
+ bstruyend ( ) lemma=obstruir 
+ bstruyera ( ) lemma=obstruir 
+ bstruyero ( ) lemma=obstruir 
+ bstruyes ( ) lemma=obstruir 
+ bstruy� ( ) lemma=obstruir 
+ bstácul ( ) lemma=obstáculo 
+ bstáculo ( ) lemma=obstáculo 
+ bstétric ( ) lemma=obstétrico 
+ bstétrica ( ) lemma=obstétrico 
+ bstétrico ( ) lemma=obstétrico 
+ bst� ( ) lemma=obstar 
+ bsérval ( ) lemma=observar 
+ btencione ( ) lemma=obtención 
+ btenció ( ) lemma=obtención 
+ btendremo ( ) lemma=obtener 
+ btendr� ( ) lemma=obtener 
+ btendrá ( ) lemma=obtener 
+ btendrí ( ) lemma=obtener 
+ btendríamo ( ) lemma=obtener 
+ btendría ( ) lemma=obtener 
+ btenemo ( ) lemma=obtener 
+ btene ( ) lemma=obtener 
+ btenerl ( ) lemma=obtener 
+ btenerla ( ) lemma=obtener 
+ btenerlo ( ) lemma=obtener 
+ bteners ( ) lemma=obtenerse 
+ bteng ( ) lemma=obtener 
+ btengamo ( ) lemma=obtener 
+ btenga ( ) lemma=obtener 
+ btenid ( ) lemma=obtener 
+ btenida ( ) lemma=obtener 
+ btenido ( ) lemma=obtener 
+ bteniend ( ) lemma=obtener 
+ bteniéndos ( ) lemma=obtenerse 
+ btení ( ) lemma=obtener 
+ btenía ( ) lemma=obtener 
+ btien ( ) lemma=obtener 
+ btiene ( ) lemma=obtener 
+ bturació ( ) lemma=obturación 
+ bturarla ( ) lemma=obturar 
+ btus ( ) lemma=obtuso 
+ btusament ( ) lemma=obtuso 
+ btuso ( ) lemma=obtuso 
+ btuv ( ) lemma=obtener 
+ btuvier ( ) lemma=obtener 
+ btuviera ( ) lemma=obtener 
+ btuviere ( ) lemma=obtener 
+ btuviero ( ) lemma=obtener 
+ btuvies ( ) lemma=obtener 
+ btuviese ( ) lemma=obtener 
+ btuvimo ( ) lemma=obtener 
+ btuviéramo ( ) lemma=obtener 
+ bvi ( ) lemma=obvio 
+ bviad ( ) lemma=obviar 
+ bviament ( ) lemma=obvio 
+ bviamo ( ) lemma=obviar 
+ bviand ( ) lemma=obviar 
+ bvia ( ) lemma=obvio 
+ bviarl ( ) lemma=obviar 
+ bviaro ( ) lemma=obviar 
+ bvio ( ) lemma=obvio 
+ bvi� ( ) lemma=obviar 
+ bluescrip ( ) lemma=pbluescript 
+ bic ( ) lemma=ubicar 
+ bicab ( ) lemma=ubicar 
+ bicaba ( ) lemma=ubicar 
+ bicacione ( ) lemma=ubicación 
+ bicació ( ) lemma=ubicación 
+ bicad ( ) lemma=ubicar 
+ bicada ( ) lemma=ubicar 
+ bicado ( ) lemma=ubicar 
+ bica ( ) lemma=ubicar 
+ bicand ( ) lemma=ubicar 
+ bicar ( ) lemma=ubicar 
+ bicarl ( ) lemma=ubicar 
+ bicaro ( ) lemma=ubicar 
+ bicars ( ) lemma=ubicarse 
+ bicar� ( ) lemma=ubicar 
+ bicará ( ) lemma=ubicar 
+ bicarí ( ) lemma=ubicar 
+ bicua ( ) lemma=ubicuo 
+ bicándos ( ) lemma=ubicar 
+ bicársel ( ) lemma=ubicar 
+ bic� ( ) lemma=ubicar 
+ biqu ( ) lemma=ubicar 
+ bique ( ) lemma=ubicar 
+ biquinon ( ) lemma=ubiquinona 
+ bícal ( ) lemma=ubicar 
+ bas ( ) lemma=xbase 

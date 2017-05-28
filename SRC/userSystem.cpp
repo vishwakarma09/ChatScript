@@ -408,6 +408,27 @@ char* WriteUserVariables(char* ptr,bool sharefile, bool compiled)
 	//			X->internalBits |= JSON_REFERENCE;
 	//		}
 
+			// if var is actually system var, and value is unchanged (may have edited and restored), dont save it
+			unsigned int varthread1 =  botVariableThreadList;
+			while (varthread1)
+			{
+				cell = (unsigned int*)Index2Heap(varthread1);
+				varthread1 = cell[0];
+				WORDP E = Index2Word(cell[1]);
+				if (D == E) break; // changed back to normal
+			}
+			if (varthread1) continue; // not really changed
+
+			varthread1 = kernelVariableThreadList;
+			while (varthread1)
+			{
+				cell = (unsigned int*)Index2Heap(varthread1);
+				varthread1 = cell[0];
+				WORDP E = Index2Word(cell[1]);
+				if (D == E) break;// changed back to normal
+			}
+			if (varthread1) continue; // not really changed
+
 			if (!stricmp(D->word,"$cs_trace")) 
 			{
 				traceseen = true;
@@ -474,7 +495,7 @@ static bool ReadUserVariables()
 		}
 		else // tracing bits on a function
 		{
-			WORDP F = FindWord(readBuffer,LOWERCASE_LOOKUP);
+			WORDP F = FindWord(readBuffer,0,LOWERCASE_LOOKUP);
 			if (F) 
 			{
 				char value[MAX_WORD_SIZE];
@@ -727,9 +748,12 @@ void ReadUserData() // passed  buffer with file content (where feasible)
 	// std defaults
 	tokenControl = (DO_SUBSTITUTE_SYSTEM | DO_INTERJECTION_SPLITTING | DO_PROPERNAME_MERGE | DO_NUMBER_MERGE | DO_SPELLCHECK );
 	if (!stricmp(language,"english")) tokenControl |= DO_PARSE;
-	numberStyle = AMERICAN_NUMBERS;
 	responseControl = ALL_RESPONSES;
 	*wildcardSeparator = ' ';
+	
+	numberStyle = AMERICAN_NUMBERS;
+	numberComma = ',';
+	numberPeriod = '.';
 
 	ResetUserChat();
 	if (!ReadFileData(computerID))// read user file, if any, or get it from cache
@@ -744,6 +768,12 @@ void ReadUserData() // passed  buffer with file content (where feasible)
 		if (timing & TIME_ALWAYS || diff > 0) Log(STDTIMELOG, (char*)"Read user data time: %d ms\r\n", diff);
 	}
 	if (server && servertrace) trace = -1; // complete server trace
+
+	if (numberStyle ==  FRENCH_NUMBERS)
+	{
+		numberComma = '.';
+		numberPeriod = ',';
+	}
 }
 
 void KillShare()

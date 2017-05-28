@@ -639,7 +639,8 @@ typedef unsigned int DICTINDEX;	//   indexed ref to a dictionary entry
 
 // in tokenflags not token control
 #define NO_FIX_UTF					0x0000080000000000ULL   
-#define NO_CONDITIONAL_IDIOM         0x0000100000000000ULL
+#define NO_CONDITIONAL_IDIOM        0x0000100000000000ULL
+//	0x0000200000000000ULL   
 #define JSON_DIRECT_FROM_OOB		0x0000400000000000ULL   
 
 // end of tokenflags

@@ -27,321 +27,443 @@
  Wren ( ) 
  Wurtemberg ( ) 
  wading ( ) 
- wadings ( ) lemma=wading 
+ wadings ( ) 
  wagage ( ) 
- wagages ( ) lemma=wagage 
+ wagages ( ) 
  wager-boat ( ) 
- wager-boats ( ) lemma=wager-boat 
+ wager-boats ( ) 
  wagnérien ( ) 
- wagnérienne ( ) lemma=wagnérien 
- wagnériennes ( ) lemma=wagnérien 
- wagnériens ( ) lemma=wagnérien 
+ wagnérienne ( ) 
+ wagnériennes ( ) 
+ wagnériens ( ) 
  wagnérisme ( ) 
- wagnérismes ( ) lemma=wagnérisme 
+ wagnérismes ( ) 
  wagon ( ) 
  wagon-bar ( ) 
- wagon-bars ( ) lemma=wagon-bar 
+ wagon-bars ( ) 
  wagon-citerne ( ) 
- wagon-citernes ( ) lemma=wagon-citerne 
+ wagon-citernes ( ) 
  wagon-foudre ( ) 
- wagon-foudres ( ) lemma=wagon-foudre 
+ wagon-foudres ( ) 
  wagon-lit ( ) 
- wagon-lits ( ) lemma=wagon-lit 
+ wagon-lits ( ) 
  wagon-poste ( ) 
- wagon-postes ( ) lemma=wagon-poste 
+ wagon-postes ( ) 
  wagon-restaurant ( ) 
- wagon-restaurants ( ) lemma=wagon-restaurant 
+ wagon-restaurants ( ) 
  wagon-réservoir ( ) 
- wagon-réservoirs ( ) lemma=wagon-réservoir 
+ wagon-réservoirs ( ) 
  wagon-salon ( ) 
- wagon-salons ( ) lemma=wagon-salon 
+ wagon-salons ( ) 
  wagon-tombereau ( ) 
  wagon-trémie ( ) 
- wagon-trémies ( ) lemma=wagon-trémie 
+ wagon-trémies ( ) 
  wagon-vanne ( ) 
- wagon-vannes ( ) lemma=wagon-vanne 
+ wagon-vannes ( ) 
  wagonnage ( ) 
- wagonnages ( ) lemma=wagonnage 
+ wagonnages ( ) 
  wagonnet ( ) 
- wagonnets ( ) lemma=wagonnet 
+ wagonnets ( ) 
  wagonnier ( ) 
- wagonniers ( ) lemma=wagonnier 
+ wagonniers ( ) 
  wagonnée ( ) 
- wagonnées ( ) lemma=wagonnée 
- wagons ( ) lemma=wagon 
+ wagonnées ( ) 
+ wagons ( ) 
  wagons-tombereaux ( ) 
  wahhabisme ( ) 
- wahhabismes ( ) lemma=wahhabisme 
+ wahhabismes ( ) 
  wahhabite ( ) 
- wahhabites ( ) lemma=wahhabite 
+ wahhabites ( ) 
  walhalla ( ) 
- walhallas ( ) lemma=walhalla 
+ walhallas ( ) 
  wali ( ) 
- walis ( ) lemma=wali 
+ walis ( ) 
  walk-over ( ) 
- walk-overs ( ) lemma=walk-over 
+ walk-overs ( ) 
  walkie-talkie ( ) 
- walkie-talkies ( ) lemma=walkie-talkie 
+ walkie-talkies ( ) 
  walkman ( ) 
- walkmans ( ) lemma=walkman 
+ walkmans ( ) 
  walkyrie ( ) 
- walkyries ( ) lemma=walkyrie 
+ walkyries ( ) 
  wallaby ( ) 
- wallabys ( ) lemma=wallaby 
+ wallabys ( ) 
  wallace ( ) 
- wallaces ( ) lemma=wallace 
+ wallaces ( ) 
  wallingant ( ) 
- wallingante ( ) lemma=wallingant 
- wallingantes ( ) lemma=wallingant 
- wallingants ( ) lemma=wallingant 
+ wallingante ( ) 
+ wallingantes ( ) 
+ wallingants ( ) 
  wallon ( ) 
  wallonisme ( ) 
- wallonismes ( ) lemma=wallonisme 
+ wallonismes ( ) 
  walloniste ( ) 
- wallonistes ( ) lemma=walloniste 
- wallonne ( ) lemma=wallon 
- wallonnes ( ) lemma=wallon 
- wallons ( ) lemma=wallon 
- walé ( ) 
- walés ( ) lemma=walé 
+ wallonistes ( ) 
+ wallonne ( ) 
+ wallonnes ( ) 
+ wallons ( ) 
+ walé ( ) lemma=awalé 
+ walés ( ) 
  wapiti ( ) 
- wapitis ( ) lemma=wapiti 
+ wapitis ( ) 
  wargame ( ) 
- wargames ( ) lemma=wargame 
+ wargames ( ) 
  warning ( ) 
- warnings ( ) lemma=warning 
+ warnings ( ) 
  warrant ( ) 
- warranta ( ) lemma=warranter 
- warranter ( ) 
+ warranta ( ) 
  warrantage ( ) 
- warrantages ( ) lemma=warrantage 
- warrantai ( ) lemma=warranter 
- warrantaient ( ) lemma=warranter 
- warrantais ( ) lemma=warranter 
- warrantait ( ) lemma=warranter 
- warrantant ( ) lemma=warranter 
- warrantas ( ) lemma=warranter 
- warrantasse ( ) lemma=warranter 
- warrantassent ( ) lemma=warranter 
- warrantasses ( ) lemma=warranter 
- warrantassiez ( ) lemma=warranter 
- warrantassions ( ) lemma=warranter 
- warrante ( ) lemma=warranter 
- warrantent ( ) lemma=warranter 
- warrantera ( ) lemma=warranter 
- warranterai ( ) lemma=warranter 
- warranteraient ( ) lemma=warranter 
- warranterais ( ) lemma=warranter 
- warranterait ( ) lemma=warranter 
- warranteras ( ) lemma=warranter 
- warranterez ( ) lemma=warranter 
- warranteriez ( ) lemma=warranter 
- warranterions ( ) lemma=warranter 
- warranterons ( ) lemma=warranter 
- warranteront ( ) lemma=warranter 
- warrantes ( ) lemma=warranter 
- warrantez ( ) lemma=warranter 
- warrantiez ( ) lemma=warranter 
- warrantions ( ) lemma=warranter 
- warrantons ( ) lemma=warranter 
- warrants ( ) lemma=warrant 
- warrantâmes ( ) lemma=warranter 
- warrantât ( ) lemma=warranter 
- warrantâtes ( ) lemma=warranter 
- warrantèrent ( ) lemma=warranter 
- warranté ( ) lemma=warranter 
- warrantée ( ) lemma=warranter 
- warrantées ( ) lemma=warranter 
- warrantés ( ) lemma=warranter 
+ warrantages ( ) 
+ warrantai ( ) 
+ warrantaient ( ) 
+ warrantais ( ) 
+ warrantait ( ) 
+ warrantant ( ) 
+ warrantas ( ) 
+ warrantasse ( ) 
+ warrantassent ( ) 
+ warrantasses ( ) 
+ warrantassiez ( ) 
+ warrantassions ( ) 
+ warrante ( ) 
+ warrantent ( ) 
+ warranter ( ) 
+ warrantera ( ) 
+ warranterai ( ) 
+ warranteraient ( ) 
+ warranterais ( ) 
+ warranterait ( ) 
+ warranteras ( ) 
+ warranterez ( ) 
+ warranteriez ( ) 
+ warranterions ( ) 
+ warranterons ( ) 
+ warranteront ( ) 
+ warrantes ( ) 
+ warrantez ( ) 
+ warrantiez ( ) 
+ warrantions ( ) 
+ warrantons ( ) 
+ warrants ( ) 
+ warrantâmes ( ) 
+ warrantât ( ) 
+ warrantâtes ( ) 
+ warrantèrent ( ) 
+ warranté ( ) 
+ warrantée ( ) 
+ warrantées ( ) 
+ warrantés ( ) 
  warrat ( ) 
- warrats ( ) lemma=warrat 
+ warrats ( ) 
  washingtonia ( ) 
- washingtonias ( ) lemma=washingtonia 
+ washingtonias ( ) 
  wassingue ( ) 
- wassingues ( ) lemma=wassingue 
+ wassingues ( ) 
  wastringue ( ) 
- wastringues ( ) lemma=wastringue 
+ wastringues ( ) 
  watchman ( ) 
- watchmans ( ) lemma=watchman 
+ watchmans ( ) 
  water ( ) 
  water-ballast ( ) 
- water-ballasts ( ) lemma=water-ballast 
+ water-ballasts ( ) 
  water-chute ( ) 
- water-chutes ( ) lemma=water-chute 
+ water-chutes ( ) 
  water-closet ( ) 
- water-closets ( ) lemma=water-closet 
+ water-closets ( ) 
  water-jacket ( ) 
- water-jackets ( ) lemma=water-jacket 
+ water-jackets ( ) 
  water-polo ( ) 
- water-polos ( ) lemma=water-polo 
+ water-polos ( ) 
  waterbuck ( ) 
- waterbucks ( ) lemma=waterbuck 
+ waterbucks ( ) 
  watergang ( ) 
- watergangs ( ) lemma=watergang 
+ watergangs ( ) 
  waterie ( ) 
- wateries ( ) lemma=waterie 
+ wateries ( ) 
  wateringue ( ) 
  waterman ( ) 
- watermans ( ) lemma=waterman 
+ watermans ( ) 
  waterpoliste ( ) 
- waterpolistes ( ) lemma=waterpoliste 
+ waterpolistes ( ) 
  waterproof ( ) 
- waterproofs ( ) lemma=waterproof 
+ waterproofs ( ) 
  waters ( ) 
  watt ( ) 
  watt-heure ( ) 
- watt-heures ( ) lemma=watt-heure 
+ watt-heures ( ) 
  wattman ( ) 
- wattmans ( ) lemma=wattman 
+ wattmans ( ) 
  wattmètre ( ) 
- wattmètres ( ) lemma=wattmètre 
- watts ( ) lemma=watt 
+ wattmètres ( ) 
+ watts ( ) 
  wavellite ( ) 
- wavellites ( ) lemma=wavellite 
+ wavellites ( ) 
  wawas ( ) 
  wax ( ) 
  wayang ( ) 
- wayangs ( ) lemma=wayang 
+ wayangs ( ) 
  waza ( ) 
- wazas ( ) lemma=waza 
+ wazas ( ) 
  weber ( ) 
- webers ( ) lemma=weber 
+ webers ( ) 
  wedge ( ) 
- wedges ( ) lemma=wedge 
+ wedges ( ) 
  week-end ( ) 
- week-ends ( ) lemma=week-end 
+ week-ends ( ) 
  weimarien ( ) 
- weimarienne ( ) lemma=weimarien 
- weimariennes ( ) lemma=weimarien 
- weimariens ( ) lemma=weimarien 
+ weimarienne ( ) 
+ weimariennes ( ) 
+ weimariens ( ) 
  welche ( ) 
- welches ( ) lemma=welche 
+ welches ( ) 
  welfare ( ) 
- welfares ( ) lemma=welfare 
+ welfares ( ) 
  well-deck ( ) 
- well-decks ( ) lemma=well-deck 
+ well-decks ( ) 
  wellingtonia ( ) 
- wellingtonias ( ) lemma=wellingtonia 
+ wellingtonias ( ) 
  weltanschauung ( ) 
- weltanschauungs ( ) lemma=weltanschauung 
+ weltanschauungs ( ) 
  welter ( ) 
- welters ( ) lemma=welter 
+ welters ( ) 
  wengé ( ) 
- wengés ( ) lemma=wengé 
+ wengés ( ) 
  wergeld ( ) 
- wergelds ( ) lemma=wergeld 
+ wergelds ( ) 
  werthérien ( ) 
- werthérienne ( ) lemma=werthérien 
- werthériennes ( ) lemma=werthérien 
- werthériens ( ) lemma=werthérien 
+ werthérienne ( ) 
+ werthériennes ( ) 
+ werthériens ( ) 
  wesleyen ( ) 
- wesleyenne ( ) lemma=wesleyen 
- wesleyennes ( ) lemma=wesleyen 
- wesleyens ( ) lemma=wesleyen 
+ wesleyenne ( ) 
+ wesleyennes ( ) 
+ wesleyens ( ) 
  wesselton ( ) 
- wesseltons ( ) lemma=wesselton 
+ wesseltons ( ) 
  western ( ) 
  westerner ( ) 
- westerners ( ) lemma=westerner 
+ westerners ( ) 
  westernien ( ) 
- westernienne ( ) lemma=westernien 
- westerniennes ( ) lemma=westernien 
- westerniens ( ) lemma=westernien 
- westerns ( ) lemma=western 
+ westernienne ( ) 
+ westerniennes ( ) 
+ westerniens ( ) 
+ westerns ( ) 
  westphalien ( ) 
- westphalienne ( ) lemma=westphalien 
- westphaliennes ( ) lemma=westphalien 
- westphaliens ( ) lemma=westphalien 
+ westphalienne ( ) 
+ westphaliennes ( ) 
+ westphaliens ( ) 
  wharf ( ) 
- wharfs ( ) lemma=wharf 
+ wharfs ( ) 
  whig ( ) 
  whiggisme ( ) 
- whiggismes ( ) lemma=whiggisme 
- whigs ( ) lemma=whig 
+ whiggismes ( ) 
+ whigs ( ) 
  whip ( ) 
  whipcord ( ) 
- whipcords ( ) lemma=whipcord 
- whips ( ) lemma=whip 
+ whipcords ( ) 
+ whips ( ) 
  whisker ( ) 
- whiskers ( ) lemma=whisker 
+ whiskers ( ) 
  whiskies ( ) 
  whisky ( ) 
  whist ( ) 
- whists ( ) lemma=whist 
+ whists ( ) 
  wicket ( ) 
- wickets ( ) lemma=wicket 
+ wickets ( ) 
  widia ( ) 
- widias ( ) lemma=widia 
+ widias ( ) 
  wigwam ( ) 
- wigwams ( ) lemma=wigwam 
+ wigwams ( ) 
  wilaya ( ) 
- wilayas ( ) lemma=wilaya 
+ wilayas ( ) 
  wildcat ( ) 
- wildcats ( ) lemma=wildcat 
+ wildcats ( ) 
  wildien ( ) 
- wildienne ( ) lemma=wildien 
- wildiennes ( ) lemma=wildien 
- wildiens ( ) lemma=wildien 
+ wildienne ( ) 
+ wildiennes ( ) 
+ wildiens ( ) 
  williams ( ) 
  winch ( ) 
  winchester ( ) 
- winchesters ( ) lemma=winchester 
- winchs ( ) lemma=winch 
+ winchesters ( ) 
+ winchs ( ) 
  windsurf ( ) 
  windsurfiste ( ) 
- windsurfistes ( ) lemma=windsurfiste 
- windsurfs ( ) lemma=windsurf 
+ windsurfistes ( ) 
+ windsurfs ( ) 
  winglet ( ) 
- winglets ( ) lemma=winglet 
+ winglets ( ) 
  wintergreen ( ) 
- wintergreens ( ) lemma=wintergreen 
+ wintergreens ( ) 
  wishbone ( ) 
- wishbones ( ) lemma=wishbone 
+ wishbones ( ) 
  wisigoth ( ) 
- wisigothe ( ) lemma=wisigoth 
- wisigothes ( ) lemma=wisigoth 
+ wisigothe ( ) 
+ wisigothes ( ) 
  wisigothique ( ) 
- wisigothiques ( ) lemma=wisigothique 
- wisigoths ( ) lemma=wisigoth 
+ wisigothiques ( ) 
+ wisigoths ( ) 
  wiski ( ) 
- wiskis ( ) lemma=wiski 
+ wiskis ( ) 
  withérite ( ) 
- withérites ( ) lemma=withérite 
+ withérites ( ) 
  witloof ( ) 
- witloofs ( ) lemma=witloof 
+ witloofs ( ) 
  wobbulateur ( ) 
- wobbulateurs ( ) lemma=wobbulateur 
+ wobbulateurs ( ) 
  wobbulation ( ) 
- wobbulations ( ) lemma=wobbulation 
+ wobbulations ( ) 
  wolfram ( ) 
  wolframite ( ) 
- wolframites ( ) lemma=wolframite 
- wolframs ( ) lemma=wolfram 
+ wolframites ( ) 
+ wolframs ( ) 
  wolof ( ) 
- wolofs ( ) lemma=wolof 
+ wolofs ( ) 
  wombat ( ) 
- wombats ( ) lemma=wombat 
+ wombats ( ) 
  won ( ) 
  woofer ( ) 
- woofers ( ) lemma=woofer 
+ woofers ( ) 
  worabée ( ) 
- worabées ( ) lemma=worabée 
+ worabées ( ) 
  wormien ( ) 
- wormiens ( ) lemma=wormien 
+ wormiens ( ) 
  worsted ( ) 
- worsteds ( ) lemma=worsted 
+ worsteds ( ) 
  wouah ( ) 
  wouaou ( ) 
  wouaouh ( ) 
  wurmien ( ) 
- wurmienne ( ) lemma=wurmien 
- wurmiennes ( ) lemma=wurmien 
- wurmiens ( ) lemma=wurmien 
+ wurmienne ( ) 
+ wurmiennes ( ) 
+ wurmiens ( ) 
  wyandotte ( ) 
- wyandottes ( ) lemma=wyandotte 
+ wyandottes ( ) 
  würm ( ) 
  würmien ( ) 
- würmienne ( ) lemma=würmien 
- würmiennes ( ) lemma=würmien 
- würmiens ( ) lemma=würmien 
- würms ( ) lemma=würm 
+ würmienne ( ) 
+ würmiennes ( ) 
+ würmiens ( ) 
+ würms ( ) 
+ wanown ( ) lemma=Iwanowna 
+ we ( ) lemma=Owen 
+ wand ( ) lemma=Rwanda 
+ wissai ( ) lemma=Swissair 
+ wobod ( ) lemma=Swoboda 
+ W ( ) lemma=TWI 
+ wal� ( ) lemma=awalé 
+ w ( ) lemma=kwa 
+ wa ( ) lemma=swap 
+ washiorko ( ) lemma=kwashiorkor 
+ washiorkor ( ) lemma=kwashiorkor 
+ wahil ( ) lemma=swahili 
+ wahili ( ) lemma=swahili 
+ wahél ( ) lemma=swahéli 
+ wahéli ( ) lemma=swahéli 
+ wam ( ) lemma=swami 
+ wami ( ) lemma=swami 
+ wappin ( ) lemma=swapping 
+ wapping ( ) lemma=swapping 
+ wap ( ) lemma=swap 
+ wastik ( ) lemma=swastika 
+ wastika ( ) lemma=swastika 
+ weat-shir ( ) lemma=sweat-shirt 
+ weat-shirt ( ) lemma=sweat-shirt 
+ weate ( ) lemma=sweater 
+ weater ( ) lemma=sweater 
+ weating-syste ( ) lemma=sweating-system 
+ weating-system ( ) lemma=sweating-system 
+ weatshir ( ) lemma=sweatshirt 
+ weatshirt ( ) lemma=sweatshirt 
+ wedenborgie ( ) lemma=swedenborgien 
+ wedenborgienn ( ) lemma=swedenborgien 
+ wedenborgienne ( ) lemma=swedenborgien 
+ wedenborgien ( ) lemma=swedenborgien 
+ wedenborgism ( ) lemma=swedenborgisme 
+ wedenborgisme ( ) lemma=swedenborgisme 
+ weepstak ( ) lemma=sweepstake 
+ weepstake ( ) lemma=sweepstake 
+ win ( ) lemma=swing 
+ wing ( ) lemma=swing 
+ wingu ( ) lemma=swinguer 
+ wingua ( ) lemma=swinguer 
+ winguaien ( ) lemma=swinguer 
+ winguai ( ) lemma=swinguer 
+ winguan ( ) lemma=swinguer 
+ winguass ( ) lemma=swinguer 
+ winguassen ( ) lemma=swinguer 
+ winguasse ( ) lemma=swinguer 
+ winguassie ( ) lemma=swinguer 
+ winguassion ( ) lemma=swinguer 
+ winguen ( ) lemma=swinguer 
+ wingue ( ) lemma=swinguer 
+ winguer ( ) lemma=swinguer 
+ winguera ( ) lemma=swinguer 
+ wingueraien ( ) lemma=swinguer 
+ winguerai ( ) lemma=swinguer 
+ winguere ( ) lemma=swinguer 
+ winguerie ( ) lemma=swinguer 
+ winguerion ( ) lemma=swinguer 
+ wingueron ( ) lemma=swinguer 
+ winguie ( ) lemma=swinguer 
+ winguion ( ) lemma=swinguer 
+ winguon ( ) lemma=swinguer 
+ winguâme ( ) lemma=swinguer 
+ winguâ ( ) lemma=swinguer 
+ winguâte ( ) lemma=swinguer 
+ winguèren ( ) lemma=swinguer 
+ wingu� ( ) lemma=swinguer 
+ wingué ( ) lemma=swinguer 
+ winguée ( ) lemma=swinguer 
+ wee ( ) lemma=tweed 
+ weed ( ) lemma=tweed 
+ weete ( ) lemma=tweeter 
+ weeter ( ) lemma=tweeter 
+ wil ( ) lemma=twill 
+ will ( ) lemma=twill 
+ win-se ( ) lemma=twin-set 
+ win-set ( ) lemma=twin-set 
+ wis ( ) lemma=twist 
+ wist ( ) lemma=twist 
+ wista ( ) lemma=twister 
+ wistaien ( ) lemma=twister 
+ wistai ( ) lemma=twister 
+ wistan ( ) lemma=twister 
+ wistass ( ) lemma=twister 
+ wistassen ( ) lemma=twister 
+ wistasse ( ) lemma=twister 
+ wistassie ( ) lemma=twister 
+ wistassion ( ) lemma=twister 
+ wisten ( ) lemma=twister 
+ wiste ( ) lemma=twister 
+ wister ( ) lemma=twister 
+ wistera ( ) lemma=twister 
+ wisteraien ( ) lemma=twister 
+ wisterai ( ) lemma=twister 
+ wistere ( ) lemma=twister 
+ wisterie ( ) lemma=twister 
+ wisterion ( ) lemma=twister 
+ wisteron ( ) lemma=twister 
+ wisteu ( ) lemma=twisteur 
+ wisteur ( ) lemma=twisteur 
+ wisteus ( ) lemma=twisteur 
+ wisteuse ( ) lemma=twisteur 
+ wistie ( ) lemma=twister 
+ wistion ( ) lemma=twister 
+ wiston ( ) lemma=twister 
+ wistâme ( ) lemma=twister 
+ wistâ ( ) lemma=twister 
+ wistâte ( ) lemma=twister 
+ wistèren ( ) lemma=twister 
+ wist� ( ) lemma=twister 
+ wisté ( ) lemma=twister 
+ wistée ( ) lemma=twister 
+ wo-ste ( ) lemma=two-step 
+ wo-step ( ) lemma=two-step 
+ wanz ( ) lemma=zwanze 
+ winglianism ( ) lemma=zwinglianisme 
+ winglianisme ( ) lemma=zwinglianisme 
+ winglie ( ) lemma=zwinglien 
+ winglienn ( ) lemma=zwinglien 
+ winglienne ( ) lemma=zwinglien 
+ winglien ( ) lemma=zwinglien 

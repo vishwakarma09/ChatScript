@@ -8,3 +8,5 @@
  25mila ( ) 
  28mila ( ) 
  2mila ( ) 
+ 20mil ( ) lemma=120mila 
+ 2mil ( ) lemma=32mila 

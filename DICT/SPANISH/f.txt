@@ -1,4 +1,4 @@
-﻿ F ( ) 
+﻿ F ( ) lemma=VFT 
  F$$iA ( ) 
  F$$iZ ( ) 
  F$$il ( ) 
@@ -48,14 +48,14 @@
  FDR ( ) 
  FDS ( ) 
  FDT ( ) 
- FF ( ) 
+ FF ( ) lemma=FFFF 
  FFFF ( ) 
  FI ( ) 
  FIDA ( ) 
  FIF ( ) 
  FIFA ( ) 
  FITLM ( ) 
- FN ( ) 
+ FN ( ) lemma=IFNN 
  FNN ( ) 
  FRENCH ( ) 
  FRMR ( ) 
@@ -68,11 +68,11 @@
  FZ ( ) 
  Fab ( ) 
  Fabela ( ) 
- Fabi ( ) lemma=Fabiola 
- Fabiola ( ) 
+ Fabi ( ) 
  Fabian ( ) 
  Fabio ( ) 
- Fabiolita ( ) lemma=Fabiola 
+ Fabiola ( ) 
+ Fabiolita ( ) 
  Fabricio ( ) 
  Fabry ( ) 
  Factors ( ) 
@@ -98,10 +98,10 @@
  Feldstein ( ) 
  Felipe ( ) 
  Fermi ( ) 
- Fermines ( ) lemma=Fermín 
+ Fermines ( ) 
  Fermín ( ) 
  Fernanda ( ) 
- Fernandito ( ) lemma=Fernando 
+ Fernandito ( ) 
  Fernando ( ) 
  Fernán ( ) 
  Fernández ( ) 
@@ -116,7 +116,7 @@
  Figures ( ) 
  Fiji ( ) 
  Filadelfia ( ) 
- Fili ( ) lemma=Filadelfia 
+ Fili ( ) 
  Filipinas ( ) 
  Filipino ( ) 
  Fillol ( ) 
@@ -158,14 +158,13 @@
  Francia ( ) 
  Francina ( ) 
  Francis ( ) 
- Francisca ( ) lemma=Francisco 
+ Francisca ( ) 
  Francisco ( ) 
  Frank ( ) 
  Frank-Starling ( ) 
  Frankfurt ( ) 
  Franklin ( ) 
- Fray ( ) lemma=Fraile 
- Fraile ( ) 
+ Fray ( ) 
  Fred ( ) 
  Freddy ( ) 
  Free-Net ( ) 
@@ -180,10 +179,9 @@
  Frida ( ) 
  Frisch ( ) 
  Fritz ( ) 
- Fuera_de ( ) lemma=fuera~de 
- fuera~de ( ) 
+ Fuera ( ) 
  Fujeirah ( ) 
- Fuji ( ) lemma=Fujimori 
+ Fuji ( ) 
  Fujimori ( ) 
  Fujitsu ( ) 
  Fulbright ( ) 
@@ -197,625 +195,603 @@
  Futuna ( ) 
  Futuros ( ) 
  Félix ( ) 
- f ( ) 
+ f ( ) lemma=uff 
  f.e.m ( ) 
- fabrica ( ) lemma=fabricar 
- fabricar ( ) 
- fabricaba ( ) lemma=fabricar 
- fabricaban ( ) lemma=fabricar 
- fabricaciones ( ) lemma=fabricación 
+ fabrica ( ) 
+ fabricaba ( ) 
+ fabricaban ( ) 
+ fabricaciones ( ) 
  fabricación ( ) 
- fabricada ( ) lemma=fabricar 
- fabricadas ( ) lemma=fabricar 
- fabricado ( ) lemma=fabricar 
- fabricados ( ) lemma=fabricar 
- fabricamos ( ) lemma=fabricar 
- fabrican ( ) lemma=fabricar 
- fabricando ( ) lemma=fabricar 
+ fabricada ( ) 
+ fabricadas ( ) 
+ fabricado ( ) 
+ fabricados ( ) 
+ fabricamos ( ) 
+ fabrican ( ) 
+ fabricando ( ) 
  fabricante ( ) 
- fabricantes ( ) lemma=fabricante 
- fabricaran ( ) lemma=fabricar 
- fabricaremos ( ) lemma=fabricar 
- fabricaron ( ) lemma=fabricar 
- fabricarse ( ) lemma=fabricar 
- fabricará ( ) lemma=fabricar 
- fabricarán ( ) lemma=fabricar 
- fabricas ( ) lemma=fabricar 
- fabricasen ( ) lemma=fabricar 
- fabrico ( ) lemma=fabricar 
- fabricó ( ) lemma=fabricar 
+ fabricantes ( ) 
+ fabricar ( ) 
+ fabricaran ( ) 
+ fabricaremos ( ) 
+ fabricaron ( ) 
+ fabricarse ( ) 
+ fabricará ( ) 
+ fabricarán ( ) 
+ fabricas ( ) 
+ fabricasen ( ) 
+ fabrico ( ) 
+ fabricó ( ) 
  fabril ( ) 
  fabrique ( ) 
- fabriquemos ( ) lemma=fabricar 
- fabriquen ( ) lemma=fabricar 
- fabulosa ( ) lemma=fabuloso 
+ fabriquemos ( ) 
+ fabriquen ( ) 
+ fabulosa ( ) 
+ fabulosamente ( ) 
+ fabulosas ( ) 
  fabuloso ( ) 
- fabulosamente ( ) lemma=fabuloso 
- fabulosas ( ) lemma=fabuloso 
- fabulosos ( ) lemma=fabuloso 
- facciones ( ) lemma=facción 
+ fabulosos ( ) 
+ facciones ( ) 
  facción ( ) 
- face ( ) lemma=facer 
- facer ( ) 
- faces ( ) lemma=faz 
- faz ( ) 
+ face ( ) 
+ faces ( ) 
  faceta ( ) 
- facetas ( ) lemma=faceta 
+ facetas ( ) 
  fachada ( ) 
- fachadas ( ) lemma=fachada 
- fachas ( ) lemma=facha 
- facha ( ) 
+ fachadas ( ) 
+ fachas ( ) 
  facial ( ) 
- faciales ( ) lemma=facial 
+ faciales ( ) 
  facies ( ) 
- facil ( ) lemma=fácil 
- fácil ( ) 
+ facil ( ) 
  facilidad ( ) 
- facilidades ( ) lemma=facilidad 
- facilita ( ) lemma=facilitar 
- facilitar ( ) 
- facilitaba ( ) lemma=facilitar 
- facilitaban ( ) lemma=facilitar 
+ facilidades ( ) 
+ facilita ( ) 
+ facilitaba ( ) 
+ facilitaban ( ) 
  facilitación ( ) 
- facilitada ( ) lemma=facilitar 
- facilitadas ( ) lemma=facilitar 
- facilitado ( ) lemma=facilitar 
- facilitados ( ) lemma=facilitar 
- facilitamos ( ) lemma=facilitar 
- facilitan ( ) lemma=facilitar 
- facilitando ( ) lemma=facilitar 
- facilitara ( ) lemma=facilitar 
- facilitaran ( ) lemma=facilitar 
- facilitaremos ( ) lemma=facilitar 
- facilitarla ( ) lemma=facilitar 
- facilitarle ( ) lemma=facilitar 
- facilitarles ( ) lemma=facilitar 
- facilitarlo ( ) lemma=facilitar 
- facilitarlos ( ) lemma=facilitar 
- facilitarme ( ) lemma=facilitar 
- facilitarnos ( ) lemma=facilitar 
- facilitaron ( ) lemma=facilitar 
+ facilitada ( ) 
+ facilitadas ( ) 
+ facilitado ( ) 
+ facilitados ( ) 
+ facilitamos ( ) 
+ facilitan ( ) 
+ facilitando ( ) 
+ facilitar ( ) 
+ facilitara ( ) 
+ facilitaran ( ) 
+ facilitaremos ( ) 
+ facilitarla ( ) 
+ facilitarle ( ) 
+ facilitarles ( ) 
+ facilitarlo ( ) 
+ facilitarlos ( ) 
+ facilitarme ( ) 
+ facilitarnos ( ) 
+ facilitaron ( ) 
  facilitarse ( ) 
- facilitará ( ) lemma=facilitar 
- facilitarán ( ) lemma=facilitar 
- facilitaré ( ) lemma=facilitar 
- facilitaría ( ) lemma=facilitar 
- facilitaríamos ( ) lemma=facilitar 
- facilitarían ( ) lemma=facilitar 
- facilitase ( ) lemma=facilitar 
- facilitasen ( ) lemma=facilitar 
- facilite ( ) lemma=facilitar 
- facilitemos ( ) lemma=facilitar 
- faciliten ( ) lemma=facilitar 
- facilito ( ) lemma=fácil 
- facilitándole ( ) lemma=facilitar 
- facilitándoles ( ) lemma=facilitar 
- facilitándome ( ) lemma=facilitar 
- facilitándonos ( ) lemma=facilitar 
+ facilitará ( ) 
+ facilitarán ( ) 
+ facilitaré ( ) 
+ facilitaría ( ) 
+ facilitaríamos ( ) 
+ facilitarían ( ) 
+ facilitase ( ) 
+ facilitasen ( ) 
+ facilite ( ) 
+ facilitemos ( ) 
+ faciliten ( ) 
+ facilito ( ) 
+ facilitándole ( ) 
+ facilitándoles ( ) 
+ facilitándome ( ) 
+ facilitándonos ( ) 
  facilitándose ( ) 
- facilitáramos ( ) lemma=facilitar 
- facilitó ( ) lemma=facilitar 
- facilísimo ( ) lemma=fácil 
+ facilitáramos ( ) 
+ facilitó ( ) 
+ facilísimo ( ) 
  facsímil ( ) 
- facsímiles ( ) lemma=facsímil 
+ facsímiles ( ) 
  facteur ( ) 
  factibilidad ( ) 
  factible ( ) 
  factiblemente ( ) 
- factibles ( ) lemma=factible 
+ factibles ( ) 
  facticio ( ) 
  facto ( ) 
  factor ( ) 
- factores ( ) lemma=factor 
+ factores ( ) 
  factorial ( ) 
- factorizaciones ( ) lemma=factorización 
+ factorizaciones ( ) 
  factorización ( ) 
  factorizar ( ) 
  factoría ( ) 
- factorías ( ) lemma=factoría 
+ factorías ( ) 
  factual ( ) 
  factura ( ) 
- facturaban ( ) lemma=facturar 
- facturar ( ) 
- facturaciones ( ) lemma=facturación 
+ facturaban ( ) 
+ facturaciones ( ) 
  facturación ( ) 
- facturado ( ) lemma=facturar 
- facturan ( ) lemma=facturar 
- facturas ( ) lemma=factura 
- facturen ( ) lemma=facturar 
- facturó ( ) lemma=facturar 
- facu ( ) lemma=facultad 
+ facturado ( ) 
+ facturan ( ) 
+ facturar ( ) 
+ facturas ( ) 
+ facturen ( ) 
+ facturó ( ) 
+ facu ( ) 
+ faculta ( ) 
+ facultaba ( ) 
  facultad ( ) 
- faculta ( ) lemma=facultar 
- facultar ( ) 
- facultaba ( ) lemma=facultar 
- facultada ( ) lemma=facultar 
- facultadas ( ) lemma=facultar 
- facultades ( ) lemma=facultad 
- facultado ( ) lemma=facultar 
- facultados ( ) lemma=facultar 
+ facultada ( ) 
+ facultadas ( ) 
+ facultades ( ) 
+ facultado ( ) 
+ facultados ( ) 
  facultamiento ( ) 
- facultamos ( ) lemma=facultar 
- facultan ( ) lemma=facultar 
- facultando ( ) lemma=facultar 
- facultara ( ) lemma=facultar 
- facultará ( ) lemma=facultar 
- facultase ( ) lemma=facultar 
- facultativa ( ) lemma=facultativo 
- facultativo ( ) 
- facultativamente ( ) lemma=facultativamente|facultativo 
- facultativamente|facultativo ( ) 
- facultativas ( ) lemma=facultativo 
+ facultamos ( ) 
+ facultan ( ) 
+ facultando ( ) 
+ facultar ( ) 
+ facultara ( ) 
+ facultará ( ) 
+ facultase ( ) 
+ facultativa ( ) 
+ facultativamente ( ) 
+ facultativas ( ) 
  facultative ( ) 
- facultativos ( ) lemma=facultativo 
- faculte ( ) lemma=facultar 
+ facultativo ( ) 
+ facultativos ( ) 
+ faculte ( ) 
  facultivas ( ) 
- facultó ( ) lemma=facultar 
+ facultó ( ) 
  facundo ( ) 
  faena ( ) 
- faenaban ( ) lemma=faenar 
+ faenaban ( ) 
+ faenado ( ) 
+ faenan ( ) 
+ faenando ( ) 
  faenar ( ) 
- faenado ( ) lemma=faenar 
- faenan ( ) lemma=faenar 
- faenando ( ) lemma=faenar 
- faenas ( ) lemma=faena 
- faene ( ) lemma=faenar 
- faenen ( ) lemma=faenar 
- faenita ( ) lemma=faena 
+ faenas ( ) 
+ faene ( ) 
+ faenen ( ) 
+ faenita ( ) 
  fago ( ) 
  fagocitado ( ) 
- fagocitarias ( ) lemma=fagocitario 
- fagocitario ( ) 
- fagocitos ( ) lemma=fagocito 
- fagocito ( ) 
+ fagocitarias ( ) 
+ fagocitos ( ) 
  fagocitosis ( ) 
- fagocítica ( ) lemma=fagocítico 
+ fagocítica ( ) 
+ fagocíticas ( ) 
  fagocítico ( ) 
- fagocíticas ( ) lemma=fagocítico 
- fagos ( ) lemma=fago 
+ fagos ( ) 
  failure ( ) 
  fair ( ) 
  faisceau ( ) 
  faja ( ) 
- fajaba ( ) lemma=fajar 
- fajar ( ) 
- fajadísimos ( ) lemma=fajado 
- fajado ( ) 
- fajas ( ) lemma=faja 
+ fajaba ( ) 
+ fajadísimos ( ) 
+ fajas ( ) 
  fajina ( ) 
- fajó ( ) lemma=fajar 
- falaces ( ) lemma=falaz 
- falaz ( ) 
+ fajó ( ) 
+ falaces ( ) 
  falacia ( ) 
- falacias ( ) lemma=falacia 
+ falacias ( ) 
  falange ( ) 
- falanges ( ) lemma=falange 
+ falanges ( ) 
+ falaz ( ) 
  falcidia ( ) 
  falciforme ( ) 
- falciformes ( ) lemma=falciforme 
+ falciformes ( ) 
  falciparum ( ) 
  falcultativo ( ) 
  falcémica ( ) 
  falcémico ( ) 
  falda ( ) 
- faldas ( ) lemma=falda 
- faldita ( ) lemma=falda 
+ faldas ( ) 
+ faldita ( ) 
  falibilidad ( ) 
- falla ( ) lemma=fallar 
+ falla ( ) 
+ fallaba ( ) 
+ fallaban ( ) 
+ fallada ( ) 
+ fallado ( ) 
+ fallamos ( ) 
+ fallan ( ) 
+ fallando ( ) 
  fallar ( ) 
- fallaba ( ) lemma=fallar 
- fallaban ( ) lemma=fallar 
- fallada ( ) lemma=fallar 
- fallado ( ) lemma=fallar 
- fallamos ( ) lemma=fallar|fallir 
- fallar|fallir ( ) 
- fallan ( ) lemma=fallar 
- fallando ( ) lemma=fallar 
- fallara ( ) lemma=fallar 
- fallaremos ( ) lemma=fallar 
- fallaron ( ) lemma=fallar 
- fallarán ( ) lemma=fallar 
- fallaría ( ) lemma=fallar 
- fallaríamos ( ) lemma=fallar 
- fallas ( ) lemma=falla 
- fallase ( ) lemma=fallar 
- fallaste ( ) lemma=fallar 
- falle ( ) lemma=fallar|fallir 
- fallece ( ) lemma=fallecer 
+ fallara ( ) 
+ fallaremos ( ) 
+ fallaron ( ) 
+ fallarán ( ) 
+ fallaría ( ) 
+ fallaríamos ( ) 
+ fallas ( ) 
+ fallase ( ) 
+ fallaste ( ) 
+ falle ( ) 
+ fallece ( ) 
+ fallecen ( ) 
  fallecer ( ) 
- fallecen ( ) lemma=fallecer 
- fallecida ( ) lemma=fallecer 
- fallecidas ( ) lemma=fallecer 
- fallecido ( ) lemma=fallecer 
- fallecidos ( ) lemma=fallecer 
- falleciendo ( ) lemma=fallecer 
- falleciera ( ) lemma=fallecer 
- fallecieran ( ) lemma=fallecer 
- fallecieren ( ) lemma=fallecer 
- fallecieron ( ) lemma=fallecer 
+ fallecida ( ) 
+ fallecidas ( ) 
+ fallecido ( ) 
+ fallecidos ( ) 
+ falleciendo ( ) 
+ falleciera ( ) 
+ fallecieran ( ) 
+ fallecieren ( ) 
+ fallecieron ( ) 
  fallecimiento ( ) 
- fallecimientos ( ) lemma=fallecimiento 
- falleció ( ) lemma=fallecer 
- fallen ( ) lemma=fallar 
- falles ( ) lemma=fallar|fallir 
- fallezca ( ) lemma=fallecer 
- fallezcan ( ) lemma=fallecer 
- fallida ( ) lemma=fallir 
- fallir ( ) 
- fallidas ( ) lemma=fallir 
- fallido ( ) lemma=fallir 
- fallidos ( ) lemma=fallido 
+ fallecimientos ( ) 
+ falleció ( ) 
+ fallen ( ) 
+ falles ( ) 
+ fallezca ( ) 
+ fallezcan ( ) 
+ fallida ( ) 
+ fallidas ( ) 
+ fallido ( ) 
+ fallidos ( ) 
  fallo ( ) 
- fallos ( ) lemma=fallo 
+ fallos ( ) 
  fallot ( ) 
- falléis ( ) lemma=fallar 
- falló ( ) lemma=fallar 
+ falléis ( ) 
+ falló ( ) 
  faloidina ( ) 
- falsa ( ) lemma=falso 
- falso ( ) 
- falsamente ( ) lemma=falso 
- falsan ( ) lemma=falsar 
- falsar ( ) 
- falsas ( ) lemma=falso 
- falseada ( ) lemma=falsear 
- falsear ( ) 
+ falsa ( ) 
+ falsamente ( ) 
+ falsan ( ) 
+ falsas ( ) 
+ falseada ( ) 
  falseamiento ( ) 
+ falsear ( ) 
  falsedad ( ) 
- falsedades ( ) lemma=falsedad 
- falsifica ( ) lemma=falsificar 
- falsificar ( ) 
- falsificaba ( ) lemma=falsificar 
- falsificaciones ( ) lemma=falsificación 
+ falsedades ( ) 
+ falsifica ( ) 
+ falsificaba ( ) 
+ falsificaciones ( ) 
  falsificación ( ) 
- falsificada ( ) lemma=falsificar 
- falsificadas ( ) lemma=falsificar 
- falsificado ( ) lemma=falsificar 
- falsificados ( ) lemma=falsificar 
- falsifican ( ) lemma=falsificar 
- falsificando ( ) lemma=falsificar 
- falsos ( ) lemma=falso 
+ falsificada ( ) 
+ falsificadas ( ) 
+ falsificado ( ) 
+ falsificados ( ) 
+ falsifican ( ) 
+ falsificando ( ) 
+ falsificar ( ) 
+ falso ( ) 
+ falsos ( ) 
  falta ( ) 
- faltaba ( ) lemma=faltar 
+ faltaba ( ) 
+ faltaban ( ) 
+ faltado ( ) 
+ faltamos ( ) 
+ faltan ( ) 
+ faltando ( ) 
  faltar ( ) 
- faltaban ( ) lemma=faltar 
- faltado ( ) lemma=faltar 
- faltamos ( ) lemma=faltar 
- faltan ( ) lemma=faltar 
- faltando ( ) lemma=faltar 
- faltara ( ) lemma=faltar 
- faltaran ( ) lemma=faltar 
- faltaron ( ) lemma=faltar 
- faltará ( ) lemma=faltar 
- faltarán ( ) lemma=faltar 
- faltaría ( ) lemma=faltar 
- faltaríamos ( ) lemma=faltar 
- faltarían ( ) lemma=faltar 
- faltas ( ) lemma=falta 
- faltase ( ) lemma=faltar 
- falte ( ) lemma=faltar 
- falten ( ) lemma=faltar 
- falto ( ) lemma=faltar 
- falté ( ) lemma=faltar 
- faltó ( ) lemma=faltar 
+ faltara ( ) 
+ faltaran ( ) 
+ faltaron ( ) 
+ faltará ( ) 
+ faltarán ( ) 
+ faltaría ( ) 
+ faltaríamos ( ) 
+ faltarían ( ) 
+ faltas ( ) 
+ faltase ( ) 
+ falte ( ) 
+ falten ( ) 
+ falto ( ) 
+ falté ( ) 
+ faltó ( ) 
  fama ( ) 
  familia ( ) 
  familiar ( ) 
- familiares ( ) lemma=familiar 
- familiarice ( ) lemma=familiarizar 
- familiarizar ( ) 
- familiaricen ( ) lemma=familiarizar 
+ familiares ( ) 
+ familiarice ( ) 
+ familiaricen ( ) 
  familiariedad ( ) 
- familiariza ( ) lemma=familiarizar 
- familiarizada ( ) lemma=familiarizar 
- familiarizado ( ) lemma=familiarizar 
- familiarizados ( ) lemma=familiarizar 
- familiarizaron ( ) lemma=familiarizar 
+ familiariza ( ) 
+ familiarizada ( ) 
+ familiarizado ( ) 
+ familiarizados ( ) 
+ familiarizar ( ) 
+ familiarizaron ( ) 
  familiarizarse ( ) 
- familiarizándose ( ) lemma=familiarizar 
- familias ( ) lemma=familia 
+ familiarizándose ( ) 
+ familias ( ) 
  familias-productoro ( ) 
- famillas ( ) lemma=fama 
- famosa ( ) lemma=famoso 
+ famillas ( ) 
+ famosa ( ) 
+ famosas ( ) 
+ famosillos ( ) 
+ famositos ( ) 
  famoso ( ) 
- famosas ( ) lemma=famoso 
- famosillos ( ) lemma=famoso 
- famositos ( ) lemma=famoso 
- famosos ( ) lemma=famoso 
- fana ( ) 
+ famosos ( ) 
+ fana ( ) lemma=afanar 
  fanatismo ( ) 
- fanatismos ( ) lemma=fanatismo 
+ fanatismos ( ) 
  fandango ( ) 
- fandangos ( ) lemma=fandango 
+ fandangos ( ) 
  fanega ( ) 
- fanegas ( ) lemma=fanega 
- fanerógama ( ) lemma=fanerógamo 
- fanerógamo ( ) 
- fanerógamas ( ) lemma=fanerógamo 
+ fanegas ( ) 
+ fanerógama ( ) 
+ fanerógamas ( ) 
  fango ( ) 
- fangos ( ) lemma=fango 
+ fangos ( ) 
  fanion ( ) 
- fans ( ) lemma=fan 
- fan ( ) 
- fantasiosa ( ) lemma=fantasioso 
+ fans ( ) 
+ fantasiosa ( ) 
  fantasioso ( ) 
- fantasiosos ( ) lemma=fantasioso 
- fantasma ( ) lemma=fantasmo 
- fantasmo ( ) 
+ fantasiosos ( ) 
+ fantasma ( ) 
  fantasmal ( ) 
- fantasmas ( ) lemma=fantasma 
+ fantasmas ( ) 
  fantasía ( ) 
- fantasías ( ) lemma=fantasía 
+ fantasías ( ) 
  fantoche ( ) 
  fantome ( ) 
- fantástica ( ) lemma=fantástico 
+ fantástica ( ) 
+ fantásticas ( ) 
  fantástico ( ) 
- fantásticas ( ) lemma=fantástico 
- fantásticos ( ) lemma=fantástico 
- fanática ( ) lemma=fanático 
+ fantásticos ( ) 
+ fanática ( ) 
+ fanáticas ( ) 
  fanático ( ) 
- fanáticas ( ) lemma=fanático 
- fanáticos ( ) lemma=fanático 
- faraones ( ) lemma=faraón 
+ fanáticos ( ) 
+ faraones ( ) 
  faraón ( ) 
  fardo ( ) 
  faringe ( ) 
  faringeotraqueal ( ) 
  faringitis ( ) 
  farmacia ( ) 
- farmacias ( ) lemma=farmacia 
+ farmacias ( ) 
  farmacocinético ( ) 
  farmacodinamia ( ) 
  farmacodinámica ( ) 
  farmacogenético ( ) 
  farmacología ( ) 
- farmacológica ( ) lemma=farmacológico 
- farmacológico ( ) 
+ farmacológica ( ) 
  farmacológicamente ( ) 
- farmacológicas ( ) lemma=farmacológico 
- farmacológicos ( ) lemma=farmacológico 
+ farmacológicas ( ) 
+ farmacológico ( ) 
+ farmacológicos ( ) 
  farmacomecánico ( ) 
- farmacéutica ( ) lemma=farmacéutico 
+ farmacéutica ( ) 
+ farmacéuticas ( ) 
  farmacéutico ( ) 
- farmacéuticas ( ) lemma=farmacéutico 
- farmacéuticos ( ) lemma=farmacéutico 
- farmacólogos ( ) lemma=farmacólogo 
- farmacólogo ( ) 
+ farmacéuticos ( ) 
+ farmacólogos ( ) 
  faro ( ) 
  farol ( ) 
  farola ( ) 
- farolas ( ) lemma=farola 
+ farolas ( ) 
  farolear ( ) 
- faroles ( ) lemma=farol 
+ faroles ( ) 
  farolillo ( ) 
- faros ( ) lemma=faro 
- farádicos ( ) lemma=farádico 
- farádico ( ) 
- farías ( ) lemma=facer 
- faríngeas ( ) lemma=faríngeo 
+ faros ( ) 
+ farádicos ( ) 
+ farías ( ) 
+ faríngeas ( ) 
  faríngeo ( ) 
- faríngeos ( ) lemma=faríngeo 
+ faríngeos ( ) 
  fascia ( ) 
- fascias ( ) lemma=fascia 
- fascina ( ) lemma=fascinar 
- fascinar ( ) 
- fascinaba ( ) lemma=fascinar 
+ fascias ( ) 
+ fascina ( ) 
+ fascinaba ( ) 
  fascinación ( ) 
- fascinada ( ) lemma=fascinar 
- fascinadas ( ) lemma=fascinar 
- fascinado ( ) lemma=fascinar 
+ fascinada ( ) 
+ fascinadas ( ) 
+ fascinado ( ) 
  fascinante ( ) 
- fascinantes ( ) lemma=fascinante 
- fascinará ( ) lemma=fascinar 
- fascine ( ) lemma=fascinar 
- fascinó ( ) lemma=fascinar 
+ fascinantes ( ) 
+ fascinar ( ) 
+ fascinará ( ) 
+ fascine ( ) 
+ fascinó ( ) 
  fascismo ( ) 
  fascista ( ) 
- fascistas ( ) lemma=fascista 
+ fascistas ( ) 
  fascículo ( ) 
- fascículos ( ) lemma=fascículo 
+ fascículos ( ) 
  fase ( ) 
- fases ( ) lemma=fase 
+ fases ( ) 
  fastball ( ) 
- fastidia ( ) lemma=fastidiar 
- fastidiar ( ) 
- fastidiada ( ) lemma=fastidiado 
+ fastidia ( ) 
+ fastidiada ( ) 
  fastidiado ( ) 
- fastidian ( ) lemma=fastidiar 
- fastidiando ( ) lemma=fastidiar 
+ fastidian ( ) 
+ fastidiando ( ) 
+ fastidiar ( ) 
  fastidiarse ( ) 
- fastidie ( ) lemma=fastidiar 
- fastidies ( ) lemma=fastidiar 
+ fastidie ( ) 
+ fastidies ( ) 
  fastidio ( ) 
- fastidiosa ( ) lemma=fastidioso 
+ fastidiosa ( ) 
  fastidioso ( ) 
- fastidiosos ( ) lemma=fastidioso 
- fastidió ( ) lemma=fastidiar 
- fastuosa ( ) lemma=fastuoso 
+ fastidiosos ( ) 
+ fastidió ( ) 
+ fastuosa ( ) 
  fastuoso ( ) 
  fat ( ) 
- fata ( ) lemma=fat 
+ fata ( ) 
  fatal ( ) 
- fatales ( ) lemma=fatal 
+ fatales ( ) 
  fatalidad ( ) 
  fatalismo ( ) 
  fatalista ( ) 
- fatalmente ( ) lemma=fatal 
+ fatalmente ( ) 
  fatha ( ) 
  fatiga ( ) 
  fatigabilidad ( ) 
- fatigado ( ) lemma=fatigar 
+ fatigado ( ) 
+ fatigados ( ) 
+ fatigando ( ) 
  fatigar ( ) 
- fatigados ( ) lemma=fatigar 
- fatigando ( ) lemma=fatigar 
- fatigarse ( ) lemma=fatigar 
- fatigarán ( ) lemma=fatigar 
- fatigas ( ) lemma=fatiga 
- fatigosas ( ) lemma=fatigoso 
- fatigoso ( ) 
+ fatigarse ( ) 
+ fatigarán ( ) 
+ fatigas ( ) 
+ fatigosas ( ) 
  fato ( ) 
- fatídica ( ) lemma=fatídico 
+ fatídica ( ) 
  fatídico ( ) 
  fauces ( ) 
  fauna ( ) 
  favor ( ) 
  favorable ( ) 
- favorablemente ( ) lemma=favorable 
- favorables ( ) lemma=favorable 
- favorece ( ) lemma=favorecer 
+ favorablemente ( ) 
+ favorables ( ) 
+ favorece ( ) 
+ favorecemos ( ) 
+ favorecen ( ) 
  favorecer ( ) 
- favorecemos ( ) lemma=favorecer 
- favorecen ( ) lemma=favorecer 
- favorecerá ( ) lemma=favorecer 
- favorecerán ( ) lemma=favorecer 
- favorecería ( ) lemma=favorecer 
- favorecerían ( ) lemma=favorecer 
- favorecida ( ) lemma=favorecer 
- favorecidas ( ) lemma=favorecer 
- favorecido ( ) lemma=favorecer 
- favorecidos ( ) lemma=favorecer 
- favoreciendo ( ) lemma=favorecer 
- favorecieran ( ) lemma=favorecer 
- favorecieron ( ) lemma=favorecer 
- favorecimos ( ) lemma=favorecer 
- favoreció ( ) lemma=favorecer 
- favorecía ( ) lemma=favorecer 
- favorecían ( ) lemma=favorecer 
- favores ( ) lemma=favor 
- favorezca ( ) lemma=favorecer 
- favorezcamos ( ) lemma=favorecer 
- favorezcan ( ) lemma=favorecer 
- favorita ( ) lemma=favorito 
- favorito ( ) 
- favoritas ( ) lemma=favorito 
+ favorecerá ( ) 
+ favorecerán ( ) 
+ favorecería ( ) 
+ favorecerían ( ) 
+ favorecida ( ) 
+ favorecidas ( ) 
+ favorecido ( ) 
+ favorecidos ( ) 
+ favoreciendo ( ) 
+ favorecieran ( ) 
+ favorecieron ( ) 
+ favorecimos ( ) 
+ favoreció ( ) 
+ favorecía ( ) 
+ favorecían ( ) 
+ favores ( ) 
+ favorezca ( ) 
+ favorezcamos ( ) 
+ favorezcan ( ) 
+ favorita ( ) 
+ favoritas ( ) 
  favoritismo ( ) 
- favoritismos ( ) lemma=favoritismo 
- favoritos ( ) lemma=favorito 
- favorzote ( ) lemma=favor 
+ favoritismos ( ) 
+ favorito ( ) 
+ favoritos ( ) 
+ favorzote ( ) 
  fax ( ) 
- faxes ( ) lemma=fax 
+ faxes ( ) 
+ faz ( ) 
  fe ( ) 
- fea ( ) lemma=feo 
- feo ( ) 
+ fea ( ) lemma=afear 
  fealdad ( ) 
- feas ( ) lemma=feo 
+ feas ( ) 
  febrero ( ) 
  febril ( ) 
- febriles ( ) lemma=febril 
- febrilmente ( ) lemma=febril 
+ febriles ( ) 
+ febrilmente ( ) 
  fecal ( ) 
  fecal-oral ( ) 
- fecales ( ) lemma=fecal 
+ fecales ( ) 
  fecha ( ) 
- fechada ( ) lemma=fechar 
- fechar ( ) 
- fechadas ( ) lemma=fechar 
- fechado ( ) lemma=fechar 
- fechados ( ) lemma=fechar 
- fechas ( ) lemma=fecha 
+ fechada ( ) 
+ fechadas ( ) 
+ fechado ( ) 
+ fechados ( ) 
+ fechas ( ) 
  fechoría ( ) 
- fechorías ( ) lemma=fechoría 
- fecunda ( ) lemma=fecundo 
- fecundo ( ) 
- fecundaciones ( ) lemma=fecundación 
+ fechorías ( ) 
+ fecunda ( ) 
+ fecundaciones ( ) 
  fecundación ( ) 
- fecundado ( ) lemma=fecundar 
- fecundar ( ) 
+ fecundado ( ) 
  fecundadoro ( ) 
- fecundados ( ) lemma=fecundar 
+ fecundados ( ) 
  fecundante ( ) 
- fecundas ( ) lemma=fecundo 
+ fecundar ( ) 
+ fecundas ( ) 
  fecundidad ( ) 
- fecundos ( ) lemma=fecundo 
+ fecundo ( ) 
+ fecundos ( ) 
  fedatario ( ) 
- federa ( ) lemma=federar 
- federar ( ) 
- federaciones ( ) lemma=federación 
+ federa ( ) 
+ federaciones ( ) 
  federación ( ) 
- federadas ( ) lemma=federar 
- federado ( ) lemma=federar 
- federados ( ) lemma=federar 
+ federadas ( ) 
+ federado ( ) 
+ federados ( ) 
  federal ( ) 
- federales ( ) lemma=federal 
+ federales ( ) 
  federalismo ( ) 
  federalista ( ) 
- federalistas ( ) lemma=federalista 
- federativa ( ) lemma=federativo 
+ federalistas ( ) 
+ federar ( ) 
+ federativa ( ) 
  federativo ( ) 
- federativos ( ) lemma=federativo 
+ federativos ( ) 
  feed ( ) 
  feedback ( ) 
  fehacientemente ( ) 
- felices ( ) lemma=feliz 
- feliz ( ) 
+ felices ( ) 
  felicidad ( ) 
- felicidades ( ) lemma=felicidad 
- felicita ( ) lemma=feliz 
- felicitaba ( ) lemma=felicitar 
- felicitar ( ) 
- felicitaciones ( ) lemma=felicitación 
+ felicidades ( ) 
+ felicita ( ) 
+ felicitaba ( ) 
+ felicitaciones ( ) 
  felicitación ( ) 
- felicitada ( ) lemma=felicitar 
- felicitado ( ) lemma=felicitar 
- felicitamos ( ) lemma=felicitar 
- felicitan ( ) lemma=felicitar 
- felicitando ( ) lemma=felicitar 
- felicitara ( ) lemma=felicitar 
- felicitaremos ( ) lemma=felicitar 
- felicitarla ( ) lemma=felicitar 
- felicitarlas ( ) lemma=felicitar 
- felicitarle ( ) lemma=felicitar 
- felicitarles ( ) lemma=felicitar 
- felicitarlo ( ) lemma=felicitar 
- felicitarlos ( ) lemma=felicitar 
- felicitarme ( ) lemma=felicitar 
- felicitarnos ( ) lemma=felicitar 
- felicitaron ( ) lemma=felicitar 
- felicitaros ( ) lemma=felicitar 
+ felicitada ( ) 
+ felicitado ( ) 
+ felicitamos ( ) 
+ felicitan ( ) 
+ felicitando ( ) 
+ felicitar ( ) 
+ felicitara ( ) 
+ felicitaremos ( ) 
+ felicitarla ( ) 
+ felicitarlas ( ) 
+ felicitarle ( ) 
+ felicitarles ( ) 
+ felicitarlo ( ) 
+ felicitarlos ( ) 
+ felicitarme ( ) 
+ felicitarnos ( ) 
+ felicitaron ( ) 
+ felicitaros ( ) 
  felicitarse ( ) 
- felicitarte ( ) lemma=felicitar 
- felicitaré ( ) lemma=felicitar 
- felicitaría ( ) lemma=felicitar 
- felicitas ( ) lemma=feliz 
- felicitasen ( ) lemma=felicitar 
- felicite ( ) lemma=felicitar 
- felicitemos ( ) lemma=felicitar 
- feliciten ( ) lemma=felicitar 
- felicito ( ) lemma=feliz 
- felicitábamos ( ) lemma=felicitar 
- felicitándoles ( ) lemma=felicitar 
- felicitándolos ( ) lemma=felicitar 
- felicitándome ( ) lemma=felicitar 
- felicitándonos ( ) lemma=felicitar 
- felicitándose ( ) lemma=felicitarse 
- felicité ( ) lemma=felicitar 
- felicitémonos ( ) lemma=felicitar 
- felicitó ( ) lemma=felicitar 
- feligreses ( ) lemma=feligrés 
- feligrés ( ) 
- felina ( ) lemma=felino 
+ felicitarte ( ) 
+ felicitaré ( ) 
+ felicitaría ( ) 
+ felicitas ( ) 
+ felicitasen ( ) 
+ felicite ( ) 
+ felicitemos ( ) 
+ feliciten ( ) 
+ felicito ( ) 
+ felicitábamos ( ) 
+ felicitándoles ( ) 
+ felicitándolos ( ) 
+ felicitándome ( ) 
+ felicitándonos ( ) 
+ felicitándose ( ) 
+ felicité ( ) 
+ felicitémonos ( ) 
+ felicitó ( ) 
+ feligreses ( ) 
+ felina ( ) 
  felino ( ) 
- felinos ( ) lemma=felino 
- felizmente ( ) lemma=feliz 
+ felinos ( ) 
+ feliz ( ) 
+ felizmente ( ) 
  felpa ( ) 
  femenil ( ) 
- femeniles ( ) lemma=femenil 
- femenina ( ) lemma=femenino 
+ femeniles ( ) 
+ femenina ( ) 
+ femeninas ( ) 
  femenino ( ) 
- femeninas ( ) lemma=femenino 
- femeninos ( ) lemma=femenino 
+ femeninos ( ) 
  femineidad ( ) 
  feminista ( ) 
- feministas ( ) lemma=feminista 
+ feministas ( ) 
  feminoide ( ) 
  femoral ( ) 
- femorales ( ) lemma=femoral 
+ femorales ( ) 
  fenacetín ( ) 
  fenciclidina ( ) 
- fenecen ( ) lemma=fenecer 
- fenecer ( ) 
- fenicias ( ) lemma=fenicio 
- fenicio ( ) 
- fenicios ( ) lemma=fenicio 
+ fenecen ( ) 
+ fenicias ( ) 
+ fenicios ( ) 
  fenilalanina ( ) 
  fenilbutazona ( ) 
  fenilcetonuria ( ) 
@@ -823,642 +799,623 @@
  feniletanolamina ( ) 
  fenitoína ( ) 
  fenobarbital ( ) 
- fenoles ( ) lemma=fenol 
- fenol ( ) 
+ fenoles ( ) 
  fenomenal ( ) 
- fenomenales ( ) lemma=fenomenal 
- fenomenalmente ( ) lemma=fenomenal 
+ fenomenales ( ) 
+ fenomenalmente ( ) 
  fenoterol ( ) 
  fenotipo ( ) 
- fenotipos ( ) lemma=fenotipo 
- fenotípica ( ) lemma=fenotípico 
+ fenotipos ( ) 
+ fenotípica ( ) 
+ fenotípicamente ( ) 
+ fenotípicas ( ) 
  fenotípico ( ) 
- fenotípicamente ( ) lemma=fenotípico 
- fenotípicas ( ) lemma=fenotípico 
- fenotípicos ( ) lemma=fenotípico 
+ fenotípicos ( ) 
  fenómeno ( ) 
- fenómenos ( ) lemma=fenómeno 
- feollón ( ) lemma=feo 
- feos ( ) lemma=feo 
+ fenómenos ( ) 
+ feo ( ) 
+ feollón ( ) 
+ feos ( ) 
  feria ( ) 
- feriado ( ) lemma=feriar 
- feriar ( ) 
- feriados ( ) lemma=feriar 
- ferias ( ) lemma=feria 
- ferie ( ) lemma=feriar 
- fermenta ( ) lemma=fermentar 
- fermentar ( ) 
- fermentaciones ( ) lemma=fermentación 
+ feriado ( ) 
+ feriados ( ) 
+ ferias ( ) 
+ ferie ( ) 
+ fermenta ( ) 
+ fermentaciones ( ) 
  fermentación ( ) 
- fermentadas ( ) lemma=fermentar 
- fermentado ( ) lemma=fermentar 
+ fermentadas ( ) 
+ fermentado ( ) 
  fermentador ( ) 
- fermentadores ( ) lemma=fermentador 
- fermentados ( ) lemma=fermentar 
+ fermentadores ( ) 
+ fermentados ( ) 
+ fermentar ( ) 
  fermentativo ( ) 
  fermento ( ) 
- fermentos ( ) lemma=fermento 
+ fermentos ( ) 
  fermeture ( ) 
  fermé ( ) 
- feroces ( ) lemma=feroz 
- feroz ( ) 
+ feroces ( ) 
  ferocidad ( ) 
  feromona ( ) 
- ferozmente ( ) lemma=feroz 
+ feroz ( ) 
+ ferozmente ( ) 
  ferredoxina ( ) 
  ferriprotoporfirina ( ) 
  ferritina ( ) 
  ferrocarril ( ) 
- ferrocarriles ( ) lemma=ferrocarril 
+ ferrocarriles ( ) 
  ferromagnético ( ) 
- ferropénica ( ) lemma=ferropénico 
- ferropénico ( ) 
+ ferropénica ( ) 
  ferroso ( ) 
- ferrosos ( ) lemma=ferroso 
- ferroviaria ( ) lemma=ferroviario 
+ ferrosos ( ) 
+ ferroviaria ( ) 
+ ferroviarias ( ) 
  ferroviario ( ) 
- ferroviarias ( ) lemma=ferroviario 
- ferroviarios ( ) lemma=ferroviario 
+ ferroviarios ( ) 
  ferroína ( ) 
- ferruginosos ( ) lemma=ferruginoso 
- ferruginoso ( ) 
+ ferruginosos ( ) 
  fertilicina ( ) 
  fertilidad ( ) 
  fertilización ( ) 
  fertilizante ( ) 
- fertilizantes ( ) lemma=fertilizante 
+ fertilizantes ( ) 
  ferviente ( ) 
- fervientemente ( ) lemma=ferviente 
- fervientes ( ) lemma=ferviente 
+ fervientemente ( ) 
+ fervientes ( ) 
  fervor ( ) 
- fervorosa ( ) lemma=fervoroso 
+ fervorosa ( ) 
  fervoroso ( ) 
- fervorosos ( ) lemma=fervoroso 
- fes ( ) lemma=fe 
- festeja ( ) lemma=festejar 
+ fervorosos ( ) 
+ fes ( ) 
+ festeja ( ) 
+ festejaba ( ) 
+ festejado ( ) 
+ festejamos ( ) 
+ festejan ( ) 
+ festejando ( ) 
  festejar ( ) 
- festejaba ( ) lemma=festejar 
- festejado ( ) lemma=festejar 
- festejamos ( ) lemma=festejar 
- festejan ( ) lemma=festejar 
- festejando ( ) lemma=festejar 
- festejaron ( ) lemma=festejar 
+ festejaron ( ) 
  festejarse ( ) 
- festejará ( ) lemma=festejar 
+ festejará ( ) 
  festejo ( ) 
- festejos ( ) lemma=festejo 
- festejó ( ) lemma=festejar 
- festines ( ) lemma=festín 
- festín ( ) 
- festiva ( ) lemma=festivo 
- festivo ( ) 
+ festejos ( ) 
+ festejó ( ) 
+ festines ( ) 
+ festiva ( ) 
  festival ( ) 
- festivales ( ) lemma=festival 
- festivas ( ) lemma=festivo 
+ festivales ( ) 
+ festivas ( ) 
  festividad ( ) 
- festividades ( ) lemma=festividad 
- festivos ( ) lemma=festivo 
+ festividades ( ) 
+ festivo ( ) 
+ festivos ( ) 
+ festín ( ) 
  fetal ( ) 
- fetales ( ) lemma=fetal 
+ fetales ( ) 
  feto ( ) 
  feto-pélvico ( ) 
  fetoplacentario ( ) 
- fetos ( ) lemma=feto 
+ fetos ( ) 
  feudal ( ) 
- feudales ( ) lemma=feudal 
+ feudales ( ) 
  feudalismo ( ) 
  feudo ( ) 
- feudos ( ) lemma=feudo 
+ feudos ( ) 
  feuillet ( ) 
- feílla ( ) lemma=feo 
- feísima ( ) lemma=feo 
- feísimo ( ) lemma=feo 
- feíta ( ) lemma=feo 
- fiaba ( ) lemma=fiar 
- fiar ( ) 
+ feílla ( ) 
+ feísima ( ) 
+ feísimo ( ) 
+ feíta ( ) 
+ fiaba ( ) 
  fiabilidad ( ) 
  fiable ( ) 
- fiablemente ( ) lemma=fiable 
- fiables ( ) lemma=fiable 
- fiambres ( ) lemma=fiambre 
- fiambre ( ) 
- fiamos ( ) lemma=fiar 
- fianza ( ) 
- fianzas ( ) lemma=fianza 
- fiarla ( ) lemma=fiar 
+ fiablemente ( ) 
+ fiables ( ) 
+ fiambres ( ) 
+ fiamos ( ) 
+ fianza ( ) lemma=afianzar 
+ fianzas ( ) 
+ fiar ( ) 
+ fiarla ( ) 
  fiarse ( ) 
  fiasco ( ) 
  fibra ( ) 
- fibras ( ) lemma=fibra 
+ fibras ( ) 
  fibrilación ( ) 
  fibrilaforio ( ) 
  fibrilar ( ) 
- fibrillas ( ) lemma=fibrilla 
- fibrilla ( ) 
+ fibrillas ( ) 
  fibrina ( ) 
  fibrinolítico ( ) 
  fibrinógeno ( ) 
  fibrinólisis ( ) 
  fibroblasto ( ) 
- fibroblastos ( ) lemma=fibroblasto 
- fibrocartilaginosa ( ) lemma=fibrocartilaginoso 
+ fibroblastos ( ) 
+ fibrocartilaginosa ( ) 
  fibrocartilaginoso ( ) 
  fibrocartílago ( ) 
  fibroide ( ) 
  fibronectina ( ) 
- fibrosa ( ) lemma=fibroso 
- fibroso ( ) 
- fibrosas ( ) lemma=fibroso 
+ fibrosa ( ) 
+ fibrosas ( ) 
  fibrosis ( ) 
  fibrositis ( ) 
- fibrosos ( ) lemma=fibroso 
+ fibroso ( ) 
+ fibrosos ( ) 
  fibrógeno ( ) 
- ficciones ( ) lemma=ficción 
+ ficciones ( ) 
  ficción ( ) 
  ficha ( ) 
- fichaba ( ) lemma=fichar 
- fichar ( ) 
- fichado ( ) lemma=fichar 
- fichados ( ) lemma=fichar 
+ fichaba ( ) 
+ fichado ( ) 
+ fichados ( ) 
  fichaje ( ) 
- fichajes ( ) lemma=fichaje 
- fichando ( ) lemma=fichar 
- ficharon ( ) lemma=fichar 
- ficharían ( ) lemma=fichar 
- fichas ( ) lemma=ficha 
+ fichajes ( ) 
+ fichando ( ) 
+ fichar ( ) 
+ ficharon ( ) 
+ ficharían ( ) 
+ fichas ( ) 
  fichero ( ) 
- ficheros ( ) lemma=fichero 
- fichó ( ) lemma=fichar 
+ ficheros ( ) 
+ fichó ( ) 
  ficomicosis ( ) 
- ficticia ( ) lemma=ficticio 
+ ficticia ( ) 
+ ficticiamente ( ) 
+ ficticias ( ) 
  ficticio ( ) 
- ficticiamente ( ) lemma=ficticio 
- ficticias ( ) lemma=ficticio 
- ficticios ( ) lemma=ficticio 
+ ficticios ( ) 
  fictif ( ) 
  fictive ( ) 
- fideicomisaria ( ) lemma=fideicomisario 
+ fideicomisaria ( ) 
+ fideicomisarias ( ) 
  fideicomisario ( ) 
- fideicomisarias ( ) lemma=fideicomisario 
- fideicomisarios ( ) lemma=fideicomisario 
+ fideicomisarios ( ) 
  fideicomiso ( ) 
- fideicomisos ( ) lemma=fideicomiso 
+ fideicomisos ( ) 
  fideicomitente ( ) 
  fideicomitido ( ) 
  fidelidad ( ) 
  fidelizar ( ) 
  fiduciario ( ) 
  fiebre ( ) 
- fiebres ( ) lemma=fiebre 
+ fiebres ( ) 
  fiel ( ) 
  field ( ) 
- fieles ( ) lemma=fiel 
- fielmente ( ) lemma=fiel 
+ fieles ( ) 
+ fielmente ( ) 
  fieltro ( ) 
- fiera ( ) lemma=fiero 
+ fiera ( ) 
+ fieramente ( ) 
+ fieras ( ) 
  fiero ( ) 
- fieramente ( ) lemma=fiero 
- fieras ( ) lemma=fiero 
- fierro ( ) lemma=ferrar 
- ferrar ( ) 
+ fierro ( ) 
  fiesta ( ) 
- fiestas ( ) lemma=fiesta 
+ fiestas ( ) 
  fig. ( ) 
  figura ( ) 
- figuraba ( ) lemma=figurar 
- figurar ( ) 
- figuraban ( ) lemma=figurar 
+ figuraba ( ) 
+ figuraban ( ) 
  figuración ( ) 
- figurada ( ) lemma=figurar 
- figurado ( ) lemma=figurar 
- figuramos ( ) lemma=figurar 
- figuran ( ) lemma=figurar 
- figurando ( ) lemma=figurar 
- figurara ( ) lemma=figurar 
- figuraran ( ) lemma=figurar 
- figurarnos ( ) lemma=figurar 
- figuraron ( ) lemma=figurar 
- figurará ( ) lemma=figurar 
- figurarán ( ) lemma=figurar 
- figuraría ( ) lemma=figurar 
- figurarían ( ) lemma=figurar 
- figuras ( ) lemma=figura 
- figurase ( ) lemma=figurar 
- figurasen ( ) lemma=figurar 
- figurativamente ( ) lemma=figurativo 
+ figurada ( ) 
+ figurado ( ) 
+ figuramos ( ) 
+ figuran ( ) 
+ figurando ( ) 
+ figurar ( ) 
+ figurara ( ) 
+ figuraran ( ) 
+ figurarnos ( ) 
+ figuraron ( ) 
+ figurará ( ) 
+ figurarán ( ) 
+ figuraría ( ) 
+ figurarían ( ) 
+ figuras ( ) 
+ figurase ( ) 
+ figurasen ( ) 
+ figurativamente ( ) 
  figurativo ( ) 
- figure ( ) lemma=figura 
- figuren ( ) lemma=figurar 
+ figure ( ) 
+ figuren ( ) 
  figures ( ) 
- figurita ( ) lemma=figura 
- figuritas ( ) lemma=figura 
- figuro ( ) lemma=figurar 
- figurábamos ( ) lemma=figurar 
- figuró ( ) lemma=figurar 
- figúrate ( ) lemma=figurar 
- fija ( ) lemma=fijo 
- fijo ( ) 
- fijaba ( ) lemma=fijar 
- fijar ( ) 
- fijaban ( ) lemma=fijar 
- fijabas ( ) lemma=fijar 
- fijaciones ( ) lemma=fijación 
+ figurita ( ) 
+ figuritas ( ) 
+ figuro ( ) 
+ figurábamos ( ) 
+ figuró ( ) 
+ figúrate ( ) 
+ fija ( ) 
+ fijaba ( ) 
+ fijaban ( ) 
+ fijabas ( ) 
+ fijaciones ( ) 
  fijación ( ) 
- fijada ( ) lemma=fijar 
- fijadas ( ) lemma=fijar 
- fijado ( ) lemma=fijar 
- fijadora ( ) lemma=fijador 
- fijador ( ) 
- fijadoras ( ) lemma=fijador 
- fijadores ( ) lemma=fijador 
- fijados ( ) lemma=fijar 
- fijamente ( ) lemma=fijo 
- fijamos ( ) lemma=fijar 
- fijan ( ) lemma=fijar 
- fijando ( ) lemma=fijar 
- fijaos ( ) lemma=fijar 
- fijara ( ) lemma=fijar 
- fijaran ( ) lemma=fijar 
- fijaremos ( ) lemma=fijar 
- fijarla ( ) lemma=fijar 
- fijarlas ( ) lemma=fijar 
- fijarle ( ) lemma=fijar 
- fijarlo ( ) lemma=fijar 
- fijarlos ( ) lemma=fijar 
- fijarme ( ) lemma=fijar 
- fijarnos ( ) lemma=fijar 
- fijaron ( ) lemma=fijar 
- fijaros ( ) lemma=fijar 
+ fijada ( ) 
+ fijadas ( ) 
+ fijado ( ) 
+ fijadora ( ) 
+ fijadoras ( ) 
+ fijadores ( ) 
+ fijados ( ) 
+ fijamente ( ) 
+ fijamos ( ) 
+ fijan ( ) 
+ fijando ( ) 
+ fijaos ( ) 
+ fijar ( ) 
+ fijara ( ) 
+ fijaran ( ) 
+ fijaremos ( ) 
+ fijarla ( ) 
+ fijarlas ( ) 
+ fijarle ( ) 
+ fijarlo ( ) 
+ fijarlos ( ) 
+ fijarme ( ) 
+ fijarnos ( ) 
+ fijaron ( ) 
+ fijaros ( ) 
  fijarse ( ) 
- fijarte ( ) lemma=fijar 
- fijará ( ) lemma=fijar 
- fijarán ( ) lemma=fijar 
- fijaré ( ) lemma=fijar 
- fijaría ( ) lemma=fijar 
- fijarían ( ) lemma=fijar 
- fijas ( ) lemma=fijo 
- fijase ( ) lemma=fijar 
- fijaseis ( ) lemma=fijar 
- fijasen ( ) lemma=fijar 
- fijate ( ) lemma=fijar 
- fije ( ) lemma=fijar 
- fijemos ( ) lemma=fijar 
- fijen ( ) lemma=fijar 
- fijos ( ) lemma=fijo 
- fijáis ( ) lemma=fijar 
- fijándola ( ) lemma=fijar 
- fijándolo ( ) lemma=fijar 
- fijándonos ( ) lemma=fijar 
- fijándose ( ) lemma=fijar 
- fijándote ( ) lemma=fijar 
- fijáramos ( ) lemma=fijar 
- fijé ( ) lemma=fijar 
- fijémonos ( ) lemma=fijar 
- fijémosle ( ) lemma=fijar 
- fijó ( ) lemma=fijar 
- fila ( ) 
+ fijarte ( ) 
+ fijará ( ) 
+ fijarán ( ) 
+ fijaré ( ) 
+ fijaría ( ) 
+ fijarían ( ) 
+ fijas ( ) 
+ fijase ( ) 
+ fijaseis ( ) 
+ fijasen ( ) 
+ fijate ( ) 
+ fije ( ) 
+ fijemos ( ) 
+ fijen ( ) 
+ fijo ( ) 
+ fijos ( ) 
+ fijáis ( ) 
+ fijándola ( ) 
+ fijándolo ( ) 
+ fijándonos ( ) 
+ fijándose ( ) 
+ fijándote ( ) 
+ fijáramos ( ) 
+ fijé ( ) 
+ fijémonos ( ) 
+ fijémosle ( ) 
+ fijó ( ) 
+ fila ( ) lemma=afilar 
  filamento ( ) 
- filamentos ( ) lemma=filamento 
+ filamentos ( ) 
  filamentos-puente ( ) 
- filamentosa ( ) lemma=filamentoso 
- filamentoso ( ) 
- filamentosas ( ) lemma=filamentoso 
- filantrópicos ( ) lemma=filantrópico 
- filantrópico ( ) 
+ filamentosa ( ) 
+ filamentosas ( ) 
+ filantrópicos ( ) 
  filariosis ( ) 
- filas ( ) lemma=fila 
+ filas ( ) 
  filatelia ( ) 
- file ( ) lemma=filar 
- filar ( ) 
+ file ( ) 
  filet ( ) 
- filete ( ) lemma=filet 
- filetes ( ) lemma=filet 
- filiaciones ( ) lemma=filiación 
+ filete ( ) 
+ filetes ( ) 
+ filiaciones ( ) 
  filiación ( ) 
  filial ( ) 
- filiales ( ) lemma=filial 
- filiformes ( ) lemma=filiforme 
- filiforme ( ) 
+ filiales ( ) 
+ filiformes ( ) 
  filigrana ( ) 
- filigranas ( ) lemma=filigrana 
- filipina ( ) lemma=filipino 
+ filigranas ( ) 
+ filipina ( ) 
+ filipinas ( ) 
  filipino ( ) 
- filipinas ( ) lemma=filipino 
- filipinos ( ) lemma=filipino 
+ filipinos ( ) 
  filis ( ) 
  film ( ) 
- filmaba ( ) lemma=filmar 
- filmar ( ) 
+ filmaba ( ) 
  filmación ( ) 
- filmada ( ) lemma=filmar 
- filmadas ( ) lemma=filmar 
- filmado ( ) lemma=filmar 
- filman ( ) lemma=filmar 
- filmando ( ) lemma=filmar 
- filme ( ) lemma=filmar 
- filmes ( ) lemma=filmar 
- filmó ( ) lemma=filmar 
- filo ( ) lemma=filar 
+ filmada ( ) 
+ filmadas ( ) 
+ filmado ( ) 
+ filman ( ) 
+ filmando ( ) 
+ filmar ( ) 
+ filme ( ) 
+ filmes ( ) 
+ filmó ( ) 
+ filo ( ) 
  filogenia ( ) 
- filogenética ( ) lemma=filogenético 
+ filogenética ( ) 
  filogenético ( ) 
- filogenéticos ( ) lemma=filogenético 
+ filogenéticos ( ) 
  filología ( ) 
  filopodio ( ) 
  filoso ( ) 
  filosofal ( ) 
  filosofar ( ) 
  filosofía ( ) 
- filosofías ( ) lemma=filosofía 
- filosos ( ) lemma=filoso 
- filosófica ( ) lemma=filosófico 
+ filosofías ( ) 
+ filosos ( ) 
+ filosófica ( ) 
+ filosóficamente ( ) 
+ filosóficas ( ) 
  filosófico ( ) 
- filosóficamente ( ) lemma=filosófico 
- filosóficas ( ) lemma=filosófico 
- filosóficos ( ) lemma=filosófico 
+ filosóficos ( ) 
  fils ( ) 
- filtra ( ) lemma=filtrar 
- filtrar ( ) 
+ filtra ( ) 
  filtrabilidad ( ) 
- filtrables ( ) lemma=filtrable 
- filtrable ( ) 
- filtraciones ( ) lemma=filtración 
+ filtrables ( ) 
+ filtraciones ( ) 
  filtración ( ) 
- filtrada ( ) lemma=filtrar 
- filtradas ( ) lemma=filtrar 
+ filtrada ( ) 
+ filtradas ( ) 
  filtrado ( ) 
- filtrados ( ) lemma=filtrar 
- filtran ( ) lemma=filtrar 
- filtrando ( ) lemma=filtrar 
+ filtrados ( ) 
+ filtran ( ) 
+ filtrando ( ) 
  filtrante ( ) 
- filtrantes ( ) lemma=filtrante 
- filtrara ( ) lemma=filtrar 
- filtraron ( ) lemma=filtrar 
+ filtrantes ( ) 
+ filtrar ( ) 
+ filtrara ( ) 
+ filtraron ( ) 
  filtrarse ( ) 
- filtrarán ( ) lemma=filtrar 
- filtre ( ) lemma=filtrar 
- filtren ( ) lemma=filtrar 
+ filtrarán ( ) 
+ filtre ( ) 
+ filtren ( ) 
  filtro ( ) 
- filtros ( ) lemma=filtro 
- filtrándose ( ) lemma=filtrar 
- filtró ( ) lemma=filtrar 
+ filtros ( ) 
+ filtrándose ( ) 
+ filtró ( ) 
  filón ( ) 
- filósofa ( ) lemma=filósofo 
+ filósofa ( ) 
  filósofo ( ) 
- filósofos ( ) lemma=filósofo 
+ filósofos ( ) 
  fimbria ( ) 
- fin ( ) 
- fina ( ) lemma=fino 
- fino ( ) 
+ fin ( ) lemma=afino 
+ fina ( ) lemma=afinar 
  finadito ( ) 
  finado ( ) 
  final ( ) 
- finales ( ) lemma=final 
- finalice ( ) lemma=finalizar 
- finalizar ( ) 
- finalicemos ( ) lemma=finalizar 
- finalicen ( ) lemma=finalizar 
+ finales ( ) 
+ finalice ( ) 
+ finalicemos ( ) 
+ finalicen ( ) 
  finalidad ( ) 
- finalidades ( ) lemma=finalidad 
+ finalidades ( ) 
  finalista ( ) 
- finalistas ( ) lemma=finalista 
- finaliza ( ) lemma=finalizar 
- finalizaba ( ) lemma=finalizar 
+ finalistas ( ) 
+ finaliza ( ) 
+ finalizaba ( ) 
  finalización ( ) 
- finalizada ( ) lemma=finalizar 
- finalizadas ( ) lemma=finalizar 
- finalizado ( ) lemma=finalizar 
+ finalizada ( ) 
+ finalizadas ( ) 
+ finalizado ( ) 
  finalizador ( ) 
- finalizados ( ) lemma=finalizar 
- finalizamos ( ) lemma=finalizar 
- finalizan ( ) lemma=finalizar 
- finalizando ( ) lemma=finalizar 
- finalizara ( ) lemma=finalizar 
- finalizaran ( ) lemma=finalizar 
- finalizaron ( ) lemma=finalizar 
- finalizará ( ) lemma=finalizar 
- finalizarán ( ) lemma=finalizar 
- finalizaré ( ) lemma=finalizar 
- finalizaría ( ) lemma=finalizar 
- finalizase ( ) lemma=finalizar 
- finalizo ( ) lemma=finalizar 
- finalizásemos ( ) lemma=finalizar 
- finalizó ( ) lemma=finalizar 
- finalmente ( ) lemma=final 
- finalísima ( ) lemma=final 
- finamente ( ) lemma=fino 
- financia ( ) lemma=financiar 
- financiar ( ) 
- financiaba ( ) lemma=financiar 
- financiaban ( ) lemma=financiar 
- financiaciones ( ) lemma=financiación 
+ finalizados ( ) 
+ finalizamos ( ) 
+ finalizan ( ) 
+ finalizando ( ) 
+ finalizar ( ) 
+ finalizara ( ) 
+ finalizaran ( ) 
+ finalizaron ( ) 
+ finalizará ( ) 
+ finalizarán ( ) 
+ finalizaré ( ) 
+ finalizaría ( ) 
+ finalizase ( ) 
+ finalizo ( ) 
+ finalizásemos ( ) 
+ finalizó ( ) 
+ finalmente ( ) 
+ finalísima ( ) 
+ finamente ( ) 
+ financia ( ) 
+ financiaba ( ) 
+ financiaban ( ) 
+ financiaciones ( ) 
  financiación ( ) 
- financiada ( ) lemma=financiar 
- financiadas ( ) lemma=financiar 
- financiado ( ) lemma=financiar 
- financiadores ( ) lemma=financiador 
- financiador ( ) 
- financiados ( ) lemma=financiar 
+ financiada ( ) 
+ financiadas ( ) 
+ financiado ( ) 
+ financiadores ( ) 
+ financiados ( ) 
  financiamiento ( ) 
- financiamientos ( ) lemma=financiamiento 
- financiamos ( ) lemma=financiar 
- financian ( ) lemma=financiar 
- financiando ( ) lemma=financiar 
- financiara ( ) lemma=financiar 
- financiaran ( ) lemma=financiar 
- financiaremos ( ) lemma=financiar 
- financiarla ( ) lemma=financiar 
- financiarle ( ) lemma=financiar 
- financiarlo ( ) lemma=financiar 
- financiarlos ( ) lemma=financiar 
- financiaron ( ) lemma=financiar 
+ financiamientos ( ) 
+ financiamos ( ) 
+ financian ( ) 
+ financiando ( ) 
+ financiar ( ) 
+ financiara ( ) 
+ financiaran ( ) 
+ financiaremos ( ) 
+ financiarla ( ) 
+ financiarle ( ) 
+ financiarlo ( ) 
+ financiarlos ( ) 
+ financiaron ( ) 
  financiarse ( ) 
- financiará ( ) lemma=financiar 
- financiarán ( ) lemma=financiar 
- financiaría ( ) lemma=financiar 
- financiaríamos ( ) lemma=financiar 
- financiarían ( ) lemma=financiar 
- financias ( ) lemma=financiar 
- financiase ( ) lemma=financiar 
- financiasen ( ) lemma=financiar 
- financie ( ) lemma=financiar 
- financiemos ( ) lemma=financiar 
- financien ( ) lemma=financiar 
- financiera ( ) lemma=financiero 
+ financiará ( ) 
+ financiarán ( ) 
+ financiaría ( ) 
+ financiaríamos ( ) 
+ financiarían ( ) 
+ financias ( ) 
+ financiase ( ) 
+ financiasen ( ) 
+ financie ( ) 
+ financiemos ( ) 
+ financien ( ) 
+ financiera ( ) 
+ financieramente ( ) 
+ financieras ( ) 
  financiero ( ) 
- financieramente ( ) lemma=financiero 
- financieras ( ) lemma=financiero 
- financieros ( ) lemma=financiero 
- financiábamos ( ) lemma=financiar 
- financiándola ( ) lemma=financiar 
- financiándolas ( ) lemma=financiar 
- financiándolo ( ) lemma=financiar 
- financiándose ( ) lemma=financiarse 
- financiáramos ( ) lemma=financiar 
- financiásemos ( ) lemma=financiar 
- financió ( ) lemma=financiar 
+ financieros ( ) 
+ financiábamos ( ) 
+ financiándola ( ) 
+ financiándolas ( ) 
+ financiándolo ( ) 
+ financiándose ( ) 
+ financiáramos ( ) 
+ financiásemos ( ) 
+ financió ( ) 
  finanza ( ) 
- finanzas ( ) lemma=finanza 
- finas ( ) lemma=fino 
- finca ( ) 
- fincada ( ) lemma=fincar 
+ finanzas ( ) 
+ finas ( ) 
+ finca ( ) lemma=afincar 
+ fincada ( ) lemma=afincar 
+ fincado ( ) lemma=afincar 
  fincar ( ) 
- fincado ( ) lemma=fincar 
- fincas ( ) lemma=finca 
- fincó ( ) lemma=fincar 
- fine ( ) lemma=finar|finir 
- finar|finir ( ) 
- fines ( ) lemma=fin 
- finesa ( ) lemma=finés 
- finés ( ) 
- fineses ( ) lemma=finés 
+ fincas ( ) 
+ fincó ( ) 
+ fine ( ) lemma=afine|afín 
+ fines ( ) 
+ finesa ( ) 
+ fineses ( ) 
  fineza ( ) 
- fingen ( ) lemma=fingir 
+ fingen ( ) 
+ fingida ( ) 
+ fingidos ( ) 
+ fingiendo ( ) 
+ fingimos ( ) 
  fingir ( ) 
- fingida ( ) lemma=fingir 
- fingidos ( ) lemma=fingir 
- fingiendo ( ) lemma=fingir 
- fingimos ( ) lemma=fingir 
- fingió ( ) lemma=fingir 
- finiquita ( ) lemma=finiquitar 
+ fingió ( ) 
+ finiquita ( ) 
+ finiquitado ( ) 
  finiquitar ( ) 
- finiquitado ( ) lemma=finiquitar 
- finiquito ( ) lemma=finiquitar 
+ finiquito ( ) 
  finiseculare ( ) 
- finita ( ) lemma=finito 
+ finita ( ) 
+ finitas ( ) 
  finito ( ) 
- finitas ( ) lemma=fino 
- finitos ( ) lemma=finito 
- finja ( ) lemma=fingir 
- finlandesa ( ) lemma=finlandés 
+ finitos ( ) 
+ finja ( ) 
+ finlandesa ( ) 
+ finlandesas ( ) 
+ finlandeses ( ) 
  finlandés ( ) 
- finlandesas ( ) lemma=finlandés 
- finlandeses ( ) lemma=finlandés 
- finos ( ) lemma=fino 
- finísimas ( ) lemma=fino 
+ fino ( ) 
+ finos ( ) 
+ finés ( ) 
+ finísimas ( ) 
  fiordo ( ) 
- firma ( ) 
- firmaba ( ) lemma=firmar 
- firmar ( ) 
- firmada ( ) lemma=firmar 
- firmadas ( ) lemma=firmar 
- firmado ( ) lemma=firmar 
- firmados ( ) lemma=firmar 
+ firma ( ) lemma=afirmar 
+ firmaba ( ) lemma=afirmar 
+ firmada ( ) lemma=afirmar 
+ firmadas ( ) 
+ firmado ( ) lemma=afirmado 
+ firmados ( ) 
  firmamento ( ) 
- firmamos ( ) lemma=firmar 
- firman ( ) lemma=firmar 
- firmando ( ) lemma=firmar 
+ firmamos ( ) 
+ firman ( ) 
+ firmando ( ) 
  firmante ( ) 
- firmantes ( ) lemma=firmante 
- firmara ( ) lemma=firmar 
- firmaran ( ) lemma=firmar 
- firmaremos ( ) lemma=firmar 
- firmarla ( ) lemma=firmar 
- firmarlo ( ) lemma=firmar 
- firmaron ( ) lemma=firmar 
+ firmantes ( ) 
+ firmar ( ) lemma=afirmar 
+ firmara ( ) lemma=afirmar 
+ firmaran ( ) 
+ firmaremos ( ) 
+ firmarla ( ) 
+ firmarlo ( ) 
+ firmaron ( ) 
  firmarse ( ) 
- firmará ( ) lemma=firmar 
- firmarán ( ) lemma=firmar 
- firmaría ( ) lemma=firmar 
- firmarían ( ) lemma=firmar 
- firmas ( ) lemma=firma 
- firme ( ) 
- firmemente ( ) lemma=firme 
- firmemos ( ) lemma=firmar 
- firmen ( ) lemma=firmar 
- firmes ( ) lemma=firme 
+ firmará ( ) 
+ firmarán ( ) 
+ firmaría ( ) 
+ firmarían ( ) 
+ firmas ( ) 
+ firme ( ) lemma=afirmar 
+ firmemente ( ) 
+ firmemos ( ) 
+ firmen ( ) 
+ firmes ( ) 
  firmeza ( ) 
- firmo ( ) lemma=firmar 
- firmándose ( ) lemma=firmarse 
- firmáramos ( ) lemma=firmar 
- firmé ( ) lemma=firmar 
- firmísima ( ) lemma=firme 
- firmísimas ( ) lemma=firme 
- firmísimo ( ) lemma=firme 
- firmó ( ) lemma=firmar 
+ firmo ( ) 
+ firmándose ( ) 
+ firmáramos ( ) 
+ firmé ( ) 
+ firmísima ( ) 
+ firmísimas ( ) 
+ firmísimo ( ) 
+ firmó ( ) 
  first ( ) 
  fiscal ( ) 
- fiscales ( ) lemma=fiscal 
- fiscalice ( ) lemma=fiscalizar 
- fiscalizar ( ) 
- fiscaliza ( ) lemma=fiscalizar 
+ fiscales ( ) 
+ fiscalice ( ) 
+ fiscaliza ( ) 
  fiscalización ( ) 
- fiscalizadas ( ) lemma=fiscalizar 
- fiscalizan ( ) lemma=fiscalizar 
- fiscalizando ( ) lemma=fiscalizar 
- fiscalizará ( ) lemma=fiscalizar 
- fiscalmente ( ) lemma=fiscal 
+ fiscalizadas ( ) 
+ fiscalizan ( ) 
+ fiscalizando ( ) 
+ fiscalizar ( ) 
+ fiscalizará ( ) 
+ fiscalmente ( ) 
  fiscalía ( ) 
- fiscalías ( ) lemma=fiscalía 
+ fiscalías ( ) 
  fisco ( ) 
- fisica ( ) lemma=física 
- física ( ) lemma=físico 
- fisicoquímicas ( ) lemma=fisicoquímico 
+ fisica ( ) 
+ fisicoquímicas ( ) 
  fisicoquímico ( ) 
- fisicoquímicos ( ) lemma=fisicoquímico 
+ fisicoquímicos ( ) 
  fisioculturismo ( ) 
  fisiología ( ) 
- fisiológica ( ) lemma=fisiológico 
+ fisiológica ( ) 
+ fisiológicas ( ) 
  fisiológico ( ) 
- fisiológicas ( ) lemma=fisiológico 
- fisiológicos ( ) lemma=fisiológico 
+ fisiológicos ( ) 
  fisiopatogénico ( ) 
  fisiopatología ( ) 
- fisiopatológica ( ) lemma=fisiopatológico 
+ fisiopatológica ( ) 
+ fisiopatológicas ( ) 
  fisiopatológico ( ) 
- fisiopatológicas ( ) lemma=fisiopatológico 
- fisiopatológicos ( ) lemma=fisiopatológico 
+ fisiopatológicos ( ) 
  fisioterapeuta ( ) 
- fisioterapeutas ( ) lemma=fisioterapeuta 
+ fisioterapeutas ( ) 
  fisioterapia ( ) 
  fisiólogo ( ) 
  fisión ( ) 
  fisonomía ( ) 
  fistulizar ( ) 
  fisura ( ) 
- fisuradas ( ) lemma=fisurar 
- fisurar ( ) 
- fisuras ( ) lemma=fisura 
+ fisuradas ( ) 
+ fisuras ( ) 
  fitoplancton ( ) 
- fitosanitaria ( ) lemma=fitosanitario 
- fitosanitario ( ) 
+ fitosanitaria ( ) 
  fitotoxicidad ( ) 
  fitófago ( ) 
- flaca ( ) lemma=flaco 
+ flaca ( ) 
+ flacas ( ) 
  flaco ( ) 
- flacas ( ) lemma=flaco 
- flacos ( ) lemma=flaco 
+ flacos ( ) 
  flag ( ) 
- flagela ( ) lemma=flagelar 
- flagelar ( ) 
- flageladas ( ) lemma=flagelar 
- flagelados ( ) lemma=flagelar 
- flagelemos ( ) lemma=flagelar 
- flagelo ( ) lemma=flagelar 
- flagelos ( ) lemma=flagelo 
+ flagela ( ) 
+ flageladas ( ) 
+ flagelados ( ) 
+ flagelemos ( ) 
+ flagelo ( ) 
+ flagelos ( ) 
  flagrante ( ) 
- flagrantemente ( ) lemma=flagrante 
- flagrantes ( ) lemma=flagrante 
- flags ( ) lemma=flag 
+ flagrantemente ( ) 
+ flagrantes ( ) 
+ flags ( ) 
  flamante ( ) 
- flamantes ( ) lemma=flamante 
- flamenca ( ) lemma=flamenco 
+ flamantes ( ) 
+ flamenca ( ) 
+ flamencas ( ) 
  flamenco ( ) 
- flamencas ( ) lemma=flamenco 
- flamencos ( ) lemma=flamenco 
+ flamencos ( ) 
  flan ( ) 
  flanco ( ) 
- flancos ( ) lemma=flanco 
- flanquea ( ) lemma=flanquear 
- flanquear ( ) 
- flanqueada ( ) lemma=flanquear 
- flanqueadas ( ) lemma=flanquear 
- flanqueado ( ) lemma=flanquear 
- flanqueo ( ) lemma=flanquear 
- flaquísima ( ) lemma=flaco 
- flaquísimo ( ) lemma=flaco 
+ flancos ( ) 
+ flanquea ( ) 
+ flanqueada ( ) 
+ flanqueadas ( ) 
+ flanqueado ( ) 
+ flanqueo ( ) 
+ flaquísima ( ) 
+ flaquísimo ( ) 
  flauta ( ) 
- flautas ( ) lemma=flauta 
+ flautas ( ) 
  flautista ( ) 
  flavina ( ) 
  flavoproteína ( ) 
@@ -1466,223 +1423,215 @@
  flebotomía ( ) 
  flebótomo ( ) 
  flecha ( ) 
- flechas ( ) lemma=flecha 
+ flechas ( ) 
  fleco ( ) 
- flecos ( ) lemma=fleco 
- flejes ( ) lemma=fleje 
- fleje ( ) 
- flequillo ( ) lemma=fleco 
- fleta ( ) lemma=fletar 
+ flecos ( ) 
+ flejes ( ) 
+ flequillo ( ) 
+ fleta ( ) 
+ fletado ( ) 
+ fletados ( ) 
+ fletando ( ) 
  fletar ( ) 
- fletado ( ) lemma=fletar 
- fletados ( ) lemma=fletar 
- fletando ( ) lemma=fletar 
- flete ( ) lemma=fletar 
- fletes ( ) lemma=fletar 
+ flete ( ) 
+ fletes ( ) 
  flexibilidad ( ) 
  flexible ( ) 
- flexiblemente ( ) lemma=flexible 
- flexibles ( ) lemma=flexible 
- flexionada ( ) lemma=flexionar 
- flexionar ( ) 
+ flexiblemente ( ) 
+ flexibles ( ) 
+ flexionada ( ) 
  flexión ( ) 
  flexor ( ) 
- flexores ( ) lemma=flexor 
+ flexores ( ) 
  flexum ( ) 
  floculación ( ) 
- floja ( ) lemma=flojo 
- flojo ( ) 
- flojas ( ) lemma=flojo 
- flojeaba ( ) lemma=flojear 
- flojear ( ) 
- flojean ( ) lemma=flojear 
+ floja ( ) lemma=aflojar 
+ flojas ( ) 
+ flojeaba ( ) 
+ flojean ( ) 
  flojera ( ) 
- flojos ( ) lemma=flojo 
- flor ( ) 
- flora ( ) 
+ flojo ( ) 
+ flojos ( ) 
+ flor ( ) lemma=aflorar 
+ flora ( ) lemma=aflorar 
  floración ( ) 
  floral ( ) 
- florales ( ) lemma=floral 
- florece ( ) lemma=florecer 
+ florales ( ) 
+ florece ( ) 
+ florecen ( ) 
  florecer ( ) 
- florecen ( ) lemma=florecer 
- florecerá ( ) lemma=florecer 
- florecerán ( ) lemma=florecer 
- florecido ( ) lemma=florecer 
- floreciendo ( ) lemma=florecer 
- florecieron ( ) lemma=florecer 
- floreciesen ( ) lemma=florecer 
- florecilla ( ) lemma=flor 
+ florecerá ( ) 
+ florecerán ( ) 
+ florecido ( ) 
+ floreciendo ( ) 
+ florecieron ( ) 
+ floreciesen ( ) 
+ florecilla ( ) 
  florecimiento ( ) 
- florecitas ( ) lemma=flor 
- floreció ( ) lemma=florecer 
+ florecitas ( ) 
+ floreció ( ) 
  florentino ( ) 
  florero ( ) 
- flores ( ) lemma=flor 
+ flores ( ) 
  florescente ( ) 
- florescentes ( ) lemma=florescente 
- florezca ( ) lemma=florecer 
- florezcan ( ) lemma=florecer 
- florines ( ) lemma=florín 
+ florescentes ( ) 
+ florezca ( ) 
+ florezcan ( ) 
+ florines ( ) 
  florín ( ) 
  flota ( ) 
- flotaba ( ) lemma=flotar 
- flotar ( ) 
+ flotaba ( ) 
  flotabilidad ( ) 
  flotación ( ) 
  flotador ( ) 
- flotadores ( ) lemma=flotador 
- flotamos ( ) lemma=flotar 
- flotan ( ) lemma=flotar 
- flotando ( ) lemma=flotar 
+ flotadores ( ) 
+ flotamos ( ) 
+ flotan ( ) 
+ flotando ( ) 
  flotante ( ) 
- flotantes ( ) lemma=flotante 
- flotas ( ) lemma=flota 
- flotasen ( ) lemma=flotar 
- flote ( ) lemma=flotar 
- flotilla ( ) lemma=flota 
- flotillas ( ) lemma=flota 
- fluctuaba ( ) lemma=fluctuar 
- fluctuar ( ) 
- fluctuaciones ( ) lemma=fluctuación 
+ flotantes ( ) 
+ flotar ( ) 
+ flotas ( ) 
+ flotasen ( ) 
+ flote ( ) 
+ flotilla ( ) 
+ flotillas ( ) 
+ fluctuaba ( ) 
+ fluctuaciones ( ) 
  fluctuación ( ) 
- fluctuado ( ) lemma=fluctuar 
- fluctuando ( ) lemma=fluctuar 
- fluctuaron ( ) lemma=fluctuar 
- fluctuará ( ) lemma=fluctuar 
- fluctuó ( ) lemma=fluctuar 
- fluctúa ( ) lemma=fluctuar 
- fluctúan ( ) lemma=fluctuar 
- fluctúen ( ) lemma=fluctuar 
- fluida ( ) lemma=fluido 
- fluido ( ) 
- fluidamente ( ) lemma=fluido 
- fluidas ( ) lemma=fluido 
+ fluctuado ( ) 
+ fluctuando ( ) 
+ fluctuar ( ) 
+ fluctuaron ( ) 
+ fluctuará ( ) 
+ fluctuó ( ) 
+ fluctúa ( ) 
+ fluctúan ( ) 
+ fluctúen ( ) 
+ fluida ( ) 
+ fluidamente ( ) 
+ fluidas ( ) 
  fluidez ( ) 
  fluidificación ( ) 
- fluidificado ( ) lemma=fluidificar 
- fluidificar ( ) 
+ fluidificado ( ) 
  fluidizar ( ) 
- fluidos ( ) lemma=fluido 
+ fluido ( ) 
+ fluidos ( ) 
  fluir ( ) 
- fluirá ( ) lemma=fluir 
- fluirán ( ) lemma=fluir 
- fluirían ( ) lemma=fluir 
+ fluirá ( ) 
+ fluirán ( ) 
+ fluirían ( ) 
  flujo ( ) 
  flujograma ( ) 
- flujos ( ) lemma=flujo 
+ flujos ( ) 
  flumacenilo ( ) 
  fluorescencia ( ) 
  fluorescente ( ) 
- fluorescentes ( ) lemma=fluorescente 
+ fluorescentes ( ) 
  fluoresceínico ( ) 
  fluorimétrico ( ) 
- fluoroscópica ( ) lemma=fluoroscópico 
- fluoroscópico ( ) 
+ fluoroscópica ( ) 
  fluoruro ( ) 
  fluoxetina ( ) 
  fluvial ( ) 
- fluviales ( ) lemma=fluvial 
- fluya ( ) lemma=fluir 
- fluyan ( ) lemma=fluir 
- fluye ( ) lemma=fluir 
- fluyen ( ) lemma=fluir 
- fluyendo ( ) lemma=fluir 
- fluían ( ) lemma=fluir 
+ fluviales ( ) 
+ fluya ( ) 
+ fluyan ( ) 
+ fluye ( ) lemma=afluir 
+ fluyen ( ) 
+ fluyendo ( ) 
+ fluían ( ) 
  fluído ( ) 
- fluídos ( ) lemma=fluído 
+ fluídos ( ) 
  fláccido ( ) 
- flácidas ( ) lemma=flácido 
- flácido ( ) 
+ flácidas ( ) 
  flúor ( ) 
  fmi ( ) 
  fo ( ) 
  fobia ( ) 
- fobias ( ) lemma=fobia 
+ fobias ( ) 
  foca ( ) 
  focal ( ) 
- focales ( ) lemma=focal 
- focas ( ) lemma=foca 
+ focales ( ) 
+ focas ( ) 
  foco ( ) 
- focos ( ) lemma=foco 
+ focos ( ) 
  fogata ( ) 
- fogatas ( ) lemma=fogata 
+ fogatas ( ) 
  fogonero ( ) 
- fogones ( ) lemma=fogón 
- fogón ( ) 
+ fogones ( ) 
  fogoso ( ) 
- fogueo ( ) lemma=foguear 
- foguear ( ) 
+ fogueo ( ) 
  foja ( ) 
  folato ( ) 
- folclore ( ) lemma=folklore 
- folklore ( ) 
- folclórica ( ) lemma=folclórico 
+ folclore ( ) 
+ folclórica ( ) 
+ folclóricas ( ) 
  folclórico ( ) 
- folclóricas ( ) lemma=folclórico 
- folclóricos ( ) lemma=folclórico 
+ folclóricos ( ) 
  foliar ( ) 
  folicular ( ) 
- foliculares ( ) lemma=folicular 
+ foliculares ( ) 
  foliculoestimulante ( ) 
  foliculostimulante ( ) 
  folio ( ) 
- folios ( ) lemma=folio 
- folklórica ( ) lemma=folklórico 
+ folios ( ) 
+ folklore ( ) 
+ folklórica ( ) 
  folklórico ( ) 
- folklóricos ( ) lemma=folklórico 
+ folklóricos ( ) 
  folla ( ) 
- follaba ( ) lemma=follar 
- follar ( ) 
- follabas ( ) lemma=follar 
+ follaba ( ) 
+ follabas ( ) 
  follaje ( ) 
- folletito ( ) lemma=folleto 
+ follar ( ) 
+ folletito ( ) 
  folleto ( ) 
- folletos ( ) lemma=folleto 
- follones ( ) lemma=follón 
+ folletos ( ) 
+ follones ( ) 
  follón ( ) 
  folículo ( ) 
- folículos ( ) lemma=folículo 
+ folículos ( ) 
  folínico ( ) 
  fomaldehído ( ) 
- fomenta ( ) lemma=fomentar 
+ fomenta ( ) 
+ fomentaba ( ) 
+ fomentaban ( ) 
+ fomentada ( ) 
+ fomentadas ( ) 
+ fomentado ( ) 
+ fomentados ( ) 
+ fomentamos ( ) 
+ fomentan ( ) 
+ fomentando ( ) 
  fomentar ( ) 
- fomentaba ( ) lemma=fomentar 
- fomentaban ( ) lemma=fomentar 
- fomentada ( ) lemma=fomentar 
- fomentadas ( ) lemma=fomentar 
- fomentado ( ) lemma=fomentar 
- fomentados ( ) lemma=fomentar 
- fomentamos ( ) lemma=fomentar 
- fomentan ( ) lemma=fomentar 
- fomentando ( ) lemma=fomentar 
- fomentara ( ) lemma=fomentar 
- fomentaran ( ) lemma=fomentar 
- fomentaremos ( ) lemma=fomentar 
- fomentaron ( ) lemma=fomentar 
- fomentará ( ) lemma=fomentar 
- fomentarán ( ) lemma=fomentar 
- fomentaré ( ) lemma=fomentar 
- fomentaría ( ) lemma=fomentar 
- fomentarían ( ) lemma=fomentar 
- fomente ( ) lemma=fomentar 
- fomentemos ( ) lemma=fomentar 
- fomenten ( ) lemma=fomentar 
+ fomentara ( ) 
+ fomentaran ( ) 
+ fomentaremos ( ) 
+ fomentaron ( ) 
+ fomentará ( ) 
+ fomentarán ( ) 
+ fomentaré ( ) 
+ fomentaría ( ) 
+ fomentarían ( ) 
+ fomente ( ) 
+ fomentemos ( ) 
+ fomenten ( ) 
  fomento ( ) 
- fomentó ( ) lemma=fomentar 
+ fomentó ( ) 
  fonction ( ) 
  fonctionnant ( ) 
  fonctionnelle ( ) 
  fonctionnement ( ) 
  fonctions ( ) 
  fonda ( ) 
- fondeados ( ) lemma=fondear 
+ fondeados ( ) 
  fondear ( ) 
- fondeasen ( ) lemma=fondear 
- fondeen ( ) lemma=fondear 
- fondeo ( ) lemma=fondear 
+ fondeasen ( ) 
+ fondeen ( ) 
+ fondeo ( ) 
  fondo ( ) 
- fondos ( ) lemma=fondo 
+ fondos ( ) 
  fondoscopio ( ) 
  fonema ( ) 
  fonendoscopio ( ) 
@@ -1692,268 +1641,264 @@
  foodwine ( ) 
  footprint ( ) 
  footprinting ( ) 
- for ( ) 
+ for ( ) lemma=aforo 
  foral ( ) 
- forales ( ) lemma=foral 
+ forales ( ) 
  foramen ( ) 
  forastero ( ) 
- forasteros ( ) lemma=forastero 
- forcejeaban ( ) lemma=forcejear 
+ forasteros ( ) 
+ forcejeaban ( ) 
  forcejear ( ) 
- forcejeo ( ) lemma=forcejear 
- forcejeó ( ) lemma=forcejear 
+ forcejeo ( ) 
+ forcejeó ( ) 
  fordismo ( ) 
  forense ( ) 
- forenses ( ) lemma=forense 
+ forenses ( ) 
  forestal ( ) 
- forestales ( ) lemma=forestal 
- forja ( ) lemma=forjar 
- forjar ( ) 
- forjaban ( ) lemma=forjar 
- forjada ( ) lemma=forjado 
+ forestales ( ) 
+ forja ( ) 
+ forjaban ( ) 
+ forjada ( ) 
+ forjadas ( ) 
  forjado ( ) 
- forjadas ( ) lemma=forjado 
- forjados ( ) lemma=forjado 
- forjan ( ) lemma=forjar 
- forjando ( ) lemma=forjar 
- forjaron ( ) lemma=forjar 
- forjarán ( ) lemma=forjar 
- forjase ( ) lemma=forjar 
- forje ( ) lemma=forjar 
- forjemos ( ) lemma=forjar 
- forjen ( ) lemma=forjar 
- forjó ( ) lemma=forjar 
+ forjados ( ) 
+ forjan ( ) 
+ forjando ( ) 
+ forjar ( ) 
+ forjaron ( ) 
+ forjarán ( ) 
+ forjase ( ) 
+ forje ( ) 
+ forjemos ( ) 
+ forjen ( ) 
+ forjó ( ) 
  forma ( ) 
- formaba ( ) lemma=formar 
- formar ( ) 
- formaban ( ) lemma=formar 
- formaciones ( ) lemma=formación 
+ formaba ( ) 
+ formaban ( ) 
+ formaciones ( ) 
  formación ( ) 
- formada ( ) lemma=formado 
- formado ( ) lemma=formar 
- formadas ( ) lemma=formar 
+ formada ( ) 
+ formadas ( ) 
+ formado ( ) 
  formador ( ) 
- formadora ( ) lemma=formador 
- formadores ( ) lemma=formador 
- formados ( ) lemma=formar 
+ formadora ( ) 
+ formadores ( ) 
+ formados ( ) 
  formal ( ) 
- formales ( ) lemma=formal 
- formalice ( ) lemma=formalizar 
- formalizar ( ) 
- formalicen ( ) lemma=formalizar 
+ formales ( ) 
+ formalice ( ) 
+ formalicen ( ) 
  formalidad ( ) 
- formalidades ( ) lemma=formalidad 
+ formalidades ( ) 
  formalismo ( ) 
- formalismos ( ) lemma=formalismo 
+ formalismos ( ) 
  formalista ( ) 
- formalistas ( ) lemma=formalista 
- formaliza ( ) lemma=formalizar 
+ formalistas ( ) 
+ formaliza ( ) 
  formalización ( ) 
- formalizada ( ) lemma=formalizar 
- formalizado ( ) lemma=formalizar 
- formalizados ( ) lemma=formalizar 
- formalizando ( ) lemma=formalizar 
- formalizará ( ) lemma=formalizar 
- formalizarán ( ) lemma=formalizar 
- formalizó ( ) lemma=formalizar 
- formalmente ( ) lemma=formal 
- formamos ( ) lemma=formar 
- forman ( ) lemma=formar 
- formando ( ) lemma=formar 
- formara ( ) lemma=formar 
- formaran ( ) lemma=formar 
- formaremos ( ) lemma=formar 
- formarla ( ) lemma=formar 
- formarlas ( ) lemma=formar 
- formarlos ( ) lemma=formar 
- formarme ( ) lemma=formar 
- formarnos ( ) lemma=formar 
- formaron ( ) lemma=formar 
+ formalizada ( ) 
+ formalizado ( ) 
+ formalizados ( ) 
+ formalizando ( ) 
+ formalizar ( ) 
+ formalizará ( ) 
+ formalizarán ( ) 
+ formalizó ( ) 
+ formalmente ( ) 
+ formamos ( ) 
+ forman ( ) 
+ formando ( ) 
+ formar ( ) 
+ formara ( ) 
+ formaran ( ) 
+ formaremos ( ) 
+ formarla ( ) 
+ formarlas ( ) 
+ formarlos ( ) 
+ formarme ( ) 
+ formarnos ( ) 
+ formaron ( ) 
  formarse ( ) 
- formará ( ) lemma=formar 
- formarán ( ) lemma=formar 
- formaría ( ) lemma=formar 
- formarían ( ) lemma=formar 
- formas ( ) lemma=forma 
- formase ( ) lemma=formar 
- formasen ( ) lemma=formar 
+ formará ( ) 
+ formarán ( ) 
+ formaría ( ) 
+ formarían ( ) 
+ formas ( ) 
+ formase ( ) 
+ formasen ( ) 
  format ( ) 
- formateado ( ) lemma=formatear 
+ formateado ( ) 
+ formatean ( ) 
  formatear ( ) 
- formatean ( ) lemma=formatear 
- formatearlos ( ) lemma=formatear 
+ formatearlos ( ) 
  formateo ( ) 
  formatización ( ) 
- formatizado ( ) lemma=formatizar 
- formatizar ( ) 
+ formatizado ( ) 
  formato ( ) 
- formatos ( ) lemma=formato 
- forme ( ) lemma=formar 
- formemos ( ) lemma=formar 
- formen ( ) lemma=formar 
- formes ( ) lemma=formar 
+ formatos ( ) 
+ forme ( ) 
+ formemos ( ) 
+ formen ( ) 
+ formes ( ) 
  formiato ( ) 
  formidable ( ) 
- formidables ( ) lemma=formidable 
+ formidables ( ) 
  formilmetionina ( ) 
- formita ( ) lemma=forma 
- formo ( ) lemma=formar 
+ formita ( ) 
+ formo ( ) 
  formocina ( ) 
  formol ( ) 
  formoso ( ) 
- formula ( ) lemma=formular 
- formular ( ) 
- formulaba ( ) lemma=formular 
- formulaban ( ) lemma=formular 
- formulaciones ( ) lemma=formulación 
+ formula ( ) 
+ formulaba ( ) 
+ formulaban ( ) 
+ formulaciones ( ) 
  formulación ( ) 
- formulada ( ) lemma=formular 
- formuladas ( ) lemma=formular 
- formulado ( ) lemma=formular 
- formulados ( ) lemma=formular 
- formulamos ( ) lemma=formular 
- formulan ( ) lemma=formular 
- formulando ( ) lemma=formular 
- formulara ( ) lemma=formular 
- formularan ( ) lemma=formular 
- formularemos ( ) lemma=formular 
+ formulada ( ) 
+ formuladas ( ) 
+ formulado ( ) 
+ formulados ( ) 
+ formulamos ( ) 
+ formulan ( ) 
+ formulando ( ) 
+ formular ( ) 
+ formulara ( ) 
+ formularan ( ) 
+ formularemos ( ) 
  formulario ( ) 
- formularios ( ) lemma=formulario 
- formularla ( ) lemma=formular 
- formularlas ( ) lemma=formular 
- formularle ( ) lemma=formular 
- formularles ( ) lemma=formular 
- formularlo ( ) lemma=formular 
- formularlos ( ) lemma=formular 
- formularme ( ) lemma=formular 
- formularnos ( ) lemma=formular 
- formularon ( ) lemma=formular 
- formularse ( ) lemma=formular 
- formulará ( ) lemma=formular 
- formularán ( ) lemma=formular 
- formularé ( ) lemma=formular 
- formularía ( ) lemma=formular 
- formularíamos ( ) lemma=formular 
- formularían ( ) lemma=formular 
- formulas ( ) lemma=formular 
- formulase ( ) lemma=formular 
- formulasen ( ) lemma=formular 
- formule ( ) lemma=formular 
- formulemos ( ) lemma=formular 
- formulen ( ) lemma=formular 
- formulo ( ) lemma=formular 
- formulábamos ( ) lemma=formular 
- formulándolo ( ) lemma=formular 
- formuláramos ( ) lemma=formular 
- formulé ( ) lemma=formular 
- formuló ( ) lemma=formular 
- formábamos ( ) lemma=formar 
- formándose ( ) lemma=formarse 
- formáramos ( ) lemma=formar 
- formásemos ( ) lemma=formar 
- formé ( ) lemma=formar 
- formó ( ) lemma=formar 
+ formularios ( ) 
+ formularla ( ) 
+ formularlas ( ) 
+ formularle ( ) 
+ formularles ( ) 
+ formularlo ( ) 
+ formularlos ( ) 
+ formularme ( ) 
+ formularnos ( ) 
+ formularon ( ) 
+ formularse ( ) 
+ formulará ( ) 
+ formularán ( ) 
+ formularé ( ) 
+ formularía ( ) 
+ formularíamos ( ) 
+ formularían ( ) 
+ formulas ( ) 
+ formulase ( ) 
+ formulasen ( ) 
+ formule ( ) 
+ formulemos ( ) 
+ formulen ( ) 
+ formulo ( ) 
+ formulábamos ( ) 
+ formulándolo ( ) 
+ formuláramos ( ) 
+ formulé ( ) 
+ formuló ( ) 
+ formábamos ( ) 
+ formándose ( ) 
+ formáramos ( ) 
+ formásemos ( ) 
+ formé ( ) 
+ formó ( ) 
  fornido ( ) 
- foro ( ) 
- foros ( ) lemma=foro 
- forrado ( ) lemma=forrar 
- forrar ( ) 
- forrados ( ) lemma=forrar 
+ foro ( ) lemma=aforo 
+ foros ( ) 
+ forrado ( ) 
+ forrados ( ) 
  forraje ( ) 
- forrajeras ( ) lemma=forrajero 
+ forrajeras ( ) 
  forrajero ( ) 
- forrajes ( ) lemma=forraje 
- forran ( ) lemma=forrar 
- forrando ( ) lemma=forrar 
- forrito ( ) lemma=forro 
+ forrajes ( ) 
+ forran ( ) 
+ forrando ( ) 
+ forrar ( ) 
+ forrito ( ) 
  forro ( ) 
- fortalece ( ) lemma=fortalecer 
+ fortalece ( ) 
+ fortalecemos ( ) 
+ fortalecen ( ) 
  fortalecer ( ) 
- fortalecemos ( ) lemma=fortalecer 
- fortalecen ( ) lemma=fortalecer 
  fortalecerse ( ) 
- fortalecerá ( ) lemma=fortalecer 
- fortalecerán ( ) lemma=fortalecer 
- fortalecería ( ) lemma=fortalecer 
- fortalecida ( ) lemma=fortalecer 
- fortalecidas ( ) lemma=fortalecer 
- fortalecido ( ) lemma=fortalecer 
- fortalecidos ( ) lemma=fortalecer 
- fortaleciendo ( ) lemma=fortalecer 
- fortaleciera ( ) lemma=fortalecer 
- fortalecieran ( ) lemma=fortalecer 
- fortalecieron ( ) lemma=fortalecer 
+ fortalecerá ( ) 
+ fortalecerán ( ) 
+ fortalecería ( ) 
+ fortalecida ( ) 
+ fortalecidas ( ) 
+ fortalecido ( ) 
+ fortalecidos ( ) 
+ fortaleciendo ( ) 
+ fortaleciera ( ) 
+ fortalecieran ( ) 
+ fortalecieron ( ) 
  fortalecimiento ( ) 
- fortaleciéndose ( ) lemma=fortalecerse 
- fortaleció ( ) lemma=fortalecer 
- fortalecía ( ) lemma=fortalecer 
+ fortaleciéndose ( ) 
+ fortaleció ( ) 
+ fortalecía ( ) 
  fortaleza ( ) 
- fortalezas ( ) lemma=fortaleza 
- fortalezca ( ) lemma=fortalecer 
- fortalezcamos ( ) lemma=fortalecer 
- fortalezcan ( ) lemma=fortalecer 
- fortifica ( ) lemma=fortificar 
- fortificar ( ) 
- fortificada ( ) lemma=fortificar 
- fortificados ( ) lemma=fortificar 
- fortificara ( ) lemma=fortificar 
- fortines ( ) lemma=fortín 
- fortín ( ) 
+ fortalezas ( ) 
+ fortalezca ( ) 
+ fortalezcamos ( ) 
+ fortalezcan ( ) 
+ fortifica ( ) 
+ fortificada ( ) 
+ fortificados ( ) 
+ fortificara ( ) 
+ fortines ( ) 
  fortran ( ) 
- fortuita ( ) lemma=fortuito 
- fortuito ( ) 
- fortuitamente ( ) lemma=fortuito 
- fortuitas ( ) lemma=fortuito 
+ fortuita ( ) 
+ fortuitamente ( ) 
+ fortuitas ( ) 
  fortuite ( ) 
- fortuitos ( ) lemma=fortuito 
+ fortuito ( ) 
+ fortuitos ( ) 
  fortuitous ( ) 
  fortuna ( ) 
- fortunas ( ) lemma=fortuna 
- fortísima ( ) lemma=fuerte 
- fuerte ( ) 
- fortísimamente ( ) lemma=fuerte 
- fortísimas ( ) lemma=fuerte 
- fortísimo ( ) lemma=fuerte 
+ fortunas ( ) 
+ fortísima ( ) 
+ fortísimamente ( ) 
+ fortísimas ( ) 
+ fortísimo ( ) 
  forward ( ) 
- forza ( ) lemma=forzar 
- forzar ( ) 
- forzada ( ) lemma=forzado 
+ forza ( ) 
+ forzada ( ) 
+ forzadas ( ) 
  forzado ( ) 
- forzadas ( ) lemma=forzar 
- forzados ( ) lemma=forzar 
- forzando ( ) lemma=forzar 
- forzara ( ) lemma=forzar 
- forzarla ( ) lemma=forzar 
- forzarlo ( ) lemma=forzar 
- forzarlos ( ) lemma=forzar 
- forzarnos ( ) lemma=forzar 
- forzaron ( ) lemma=forzar 
- forzará ( ) lemma=forzar 
- forzaría ( ) lemma=forzar 
- forzosa ( ) lemma=forzoso 
+ forzados ( ) 
+ forzando ( ) 
+ forzar ( ) 
+ forzara ( ) 
+ forzarla ( ) 
+ forzarlo ( ) 
+ forzarlos ( ) 
+ forzarnos ( ) 
+ forzaron ( ) 
+ forzará ( ) 
+ forzaría ( ) 
+ forzosa ( ) 
+ forzosamente ( ) 
+ forzosas ( ) 
  forzoso ( ) 
- forzosamente ( ) lemma=forzoso 
- forzosas ( ) lemma=forzoso 
- forzosos ( ) lemma=forzoso 
+ forzosos ( ) 
  forzudo ( ) 
- forzándoles ( ) lemma=forzar 
- forzáramos ( ) lemma=forzar 
- forzó ( ) lemma=forzar 
- foránea ( ) lemma=foráneo 
+ forzándoles ( ) 
+ forzáramos ( ) 
+ forzó ( ) 
+ foránea ( ) 
+ foráneas ( ) 
  foráneo ( ) 
- foráneas ( ) lemma=foráneo 
- foráneos ( ) lemma=foráneo 
+ foráneos ( ) 
  fosa ( ) 
- fosas ( ) lemma=fosa 
+ fosas ( ) 
  fosfatasa ( ) 
- fosfatasas ( ) lemma=fosfatasa 
+ fosfatasas ( ) 
  fosfatidilcolina ( ) 
  fosfatidiletanolamina ( ) 
  fosfatidilinositol ( ) 
  fosfato ( ) 
  fosfato-p ( ) 
  fosfatodilinositol ( ) 
- fosfatos ( ) lemma=fosfato 
+ fosfatos ( ) 
  fosfatídico ( ) 
  fosfoanhídrir ( ) 
  fosfodiéster ( ) 
@@ -1965,7 +1910,7 @@
  fosfolipasa ( ) 
  fosfolipídico ( ) 
  fosfolípido ( ) 
- fosfolípidos ( ) lemma=fosfolípido 
+ fosfolípidos ( ) 
  fosfomonoéster ( ) 
  fosfopanteteína ( ) 
  fosforilación ( ) 
@@ -1981,788 +1926,1214 @@
  fosfotirosina ( ) 
  fosfotúngstico ( ) 
  fosfórico ( ) 
- fosilizados ( ) lemma=fosilizar 
+ fosilizados ( ) 
  fosilizar ( ) 
- fosilizaría ( ) lemma=fosilizar 
- foso ( ) lemma=fosar 
- fosar ( ) 
- fotita ( ) lemma=foto 
+ fosilizaría ( ) 
+ foso ( ) 
+ fotita ( ) 
  foto ( ) 
  fotoablación ( ) 
  fotocelda ( ) 
  fotocolorímetro ( ) 
- fotocopia ( ) lemma=fotocopiar 
- fotocopiar ( ) 
- fotocopiado ( ) lemma=fotocopiar 
+ fotocopia ( ) 
+ fotocopiado ( ) 
  fotocopiadora ( ) 
- fotocopias ( ) lemma=fotocopiar 
- fotoeléctrica ( ) lemma=fotoeléctrico 
- fotoeléctrico ( ) 
- fotoeléctricas ( ) lemma=fotoeléctrico 
+ fotocopiar ( ) 
+ fotocopias ( ) 
+ fotoeléctrica ( ) 
+ fotoeléctricas ( ) 
  fotofosforilación ( ) 
- fotografiada ( ) lemma=fotografiar 
+ fotografiada ( ) 
+ fotografiado ( ) 
+ fotografiados ( ) 
  fotografiar ( ) 
- fotografiado ( ) lemma=fotografiar 
- fotografiados ( ) lemma=fotografiar 
- fotografiaran ( ) lemma=fotografiar 
+ fotografiaran ( ) 
  fotografiarse ( ) 
- fotografies ( ) lemma=fotografiar 
- fotografió ( ) lemma=fotografiar 
+ fotografies ( ) 
+ fotografió ( ) 
  fotografía ( ) 
- fotografías ( ) lemma=fotografía 
- fotográfica ( ) lemma=fotográfico 
+ fotografías ( ) 
+ fotográfica ( ) 
+ fotográficas ( ) 
  fotográfico ( ) 
- fotográficas ( ) lemma=fotográfico 
- fotográficos ( ) lemma=fotográfico 
+ fotográficos ( ) 
  fotolábil ( ) 
  fotomultiplicador ( ) 
- fotones ( ) lemma=fotón 
- fotón ( ) 
+ fotones ( ) 
  fotopletismografía ( ) 
- fotoquímica ( ) lemma=fotoquímico 
+ fotoquímica ( ) 
  fotoquímico ( ) 
- fotoquímicos ( ) lemma=fotoquímico 
+ fotoquímicos ( ) 
  fotorreceptor ( ) 
- fotorreceptores ( ) lemma=fotorreceptor 
- fotos ( ) lemma=foto 
- fotosensibles ( ) lemma=fotosensible 
- fotosensible ( ) 
+ fotorreceptores ( ) 
+ fotos ( ) 
+ fotosensibles ( ) 
  fotosfera ( ) 
- fotosintética ( ) lemma=fotosintético 
+ fotosintética ( ) 
+ fotosintéticas ( ) 
  fotosintético ( ) 
- fotosintéticas ( ) lemma=fotosintético 
  fotosistema ( ) 
  fotosíntesis ( ) 
- fotovoltaicas ( ) lemma=fotovoltaico 
- fotovoltaico ( ) 
- fotovoltaicos ( ) lemma=fotovoltaico 
- fotógrafa ( ) lemma=fotógrafo 
+ fotovoltaicas ( ) 
+ fotovoltaicos ( ) 
+ fotógrafa ( ) 
  fotógrafo ( ) 
- fotógrafos ( ) lemma=fotógrafo 
+ fotógrafos ( ) 
+ fotón ( ) 
  four ( ) 
  fox ( ) 
  fp ( ) 
  frac ( ) 
- fracasa ( ) lemma=fracasar 
+ fracasa ( ) 
+ fracasaba ( ) 
+ fracasaban ( ) 
+ fracasada ( ) 
+ fracasadas ( ) 
+ fracasado ( ) 
+ fracasados ( ) 
+ fracasamos ( ) 
+ fracasan ( ) 
+ fracasando ( ) 
  fracasar ( ) 
- fracasaba ( ) lemma=fracasar 
- fracasaban ( ) lemma=fracasar 
- fracasada ( ) lemma=fracasar 
- fracasadas ( ) lemma=fracasar 
- fracasado ( ) lemma=fracasar 
- fracasados ( ) lemma=fracasar 
- fracasamos ( ) lemma=fracasar 
- fracasan ( ) lemma=fracasar 
- fracasando ( ) lemma=fracasar 
- fracasara ( ) lemma=fracasar 
- fracasaran ( ) lemma=fracasar 
- fracasaremos ( ) lemma=fracasar 
- fracasaron ( ) lemma=fracasar 
- fracasará ( ) lemma=fracasar 
- fracasarán ( ) lemma=fracasar 
- fracasaría ( ) lemma=fracasar 
- fracasaríamos ( ) lemma=fracasar 
- fracasasen ( ) lemma=fracasar 
- fracase ( ) lemma=fracasar 
- fracasen ( ) lemma=fracasar 
+ fracasara ( ) 
+ fracasaran ( ) 
+ fracasaremos ( ) 
+ fracasaron ( ) 
+ fracasará ( ) 
+ fracasarán ( ) 
+ fracasaría ( ) 
+ fracasaríamos ( ) 
+ fracasasen ( ) 
+ fracase ( ) 
+ fracasen ( ) 
  fracaso ( ) 
- fracasos ( ) lemma=fracaso 
- fracasó ( ) lemma=fracasar 
- fraccionada ( ) lemma=fraccionar 
- fraccionar ( ) 
- fraccionado ( ) lemma=fraccionar 
+ fracasos ( ) 
+ fracasó ( ) 
+ fraccionada ( ) 
+ fraccionado ( ) 
  fraccionamiento ( ) 
- fraccionamientos ( ) lemma=fraccionamiento 
- fraccionan ( ) lemma=fraccionar 
- fraccionarios ( ) lemma=fraccionario 
- fraccionario ( ) 
- fraccionaría ( ) lemma=fraccionar 
- fracciones ( ) lemma=fracción 
+ fraccionamientos ( ) 
+ fraccionan ( ) 
+ fraccionar ( ) 
+ fraccionarios ( ) 
+ fraccionaría ( ) 
+ fracciones ( ) 
  fracción ( ) 
  fractalquina ( ) 
  fractura ( ) 
  fracturación ( ) 
- fracturada ( ) lemma=fracturar 
+ fracturada ( ) 
+ fracturadas ( ) 
+ fracturado ( ) 
+ fracturados ( ) 
  fracturar ( ) 
- fracturadas ( ) lemma=fracturar 
- fracturado ( ) lemma=fracturar 
- fracturados ( ) lemma=fracturar 
  fracturarse ( ) 
- fracturas ( ) lemma=fractura 
- fracturó ( ) lemma=fracturar 
+ fracturas ( ) 
+ fracturó ( ) 
  fragancia ( ) 
- fragancias ( ) lemma=fragancia 
+ fragancias ( ) 
  fragata ( ) 
- fragatas ( ) lemma=fragata 
- fragiles ( ) lemma=frágiles 
- frágiles ( ) lemma=frágil 
+ fragatas ( ) 
+ fragiles ( ) 
  fragilidad ( ) 
- fragilidades ( ) lemma=fragilidad 
- fragmenta ( ) lemma=fragmentar 
- fragmentar ( ) 
- fragmentaciones ( ) lemma=fragmentación 
+ fragilidades ( ) 
+ fragmenta ( ) 
+ fragmentaciones ( ) 
  fragmentación ( ) 
- fragmentada ( ) lemma=fragmentar 
- fragmentadas ( ) lemma=fragmentar 
- fragmentado ( ) lemma=fragmentar 
- fragmentados ( ) lemma=fragmentar 
- fragmentan ( ) lemma=fragmentar 
+ fragmentada ( ) 
+ fragmentadas ( ) 
+ fragmentado ( ) 
+ fragmentados ( ) 
+ fragmentan ( ) 
+ fragmentar ( ) 
  fragmentarse ( ) 
- fragmente ( ) lemma=fragmentar 
- fragmenten ( ) lemma=fragmentar 
+ fragmente ( ) 
+ fragmenten ( ) 
  fragmento ( ) 
- fragmentos ( ) lemma=fragmento 
- fragmentó ( ) lemma=fragmentar 
+ fragmentos ( ) 
+ fragmentó ( ) 
  fragor ( ) 
- fragua ( ) lemma=fraguar 
+ fragua ( ) 
+ fraguada ( ) 
+ fraguado ( ) 
+ fraguando ( ) 
  fraguar ( ) 
- fraguada ( ) lemma=fraguar 
- fraguado ( ) lemma=fraguar 
- fraguando ( ) lemma=fraguar 
- fraguaron ( ) lemma=fraguar 
- fraguas ( ) lemma=fraguar 
- fraguo ( ) lemma=fraguar 
+ fraguaron ( ) 
+ fraguas ( ) 
+ fraguo ( ) 
  fraile ( ) 
  frailecillo ( ) 
- frailes ( ) lemma=fraile 
+ frailes ( ) 
  frame ( ) 
- franca ( ) lemma=franco 
- franco ( ) 
- francamente ( ) lemma=franco 
- francas ( ) lemma=franco 
- francesa ( ) lemma=francés 
- francés ( ) 
- francesas ( ) lemma=francés 
- franceses ( ) lemma=francés 
+ franca ( ) 
+ francamente ( ) 
+ francas ( ) 
+ francesa ( ) 
+ francesas ( ) 
+ franceses ( ) 
  francia ( ) 
- francos ( ) lemma=franco 
- francotiradores ( ) lemma=francotirador 
- francotirador ( ) 
+ franco ( ) 
+ francos ( ) 
+ francotiradores ( ) 
+ francés ( ) 
  franela ( ) 
  franja ( ) 
- franjas ( ) lemma=franja 
- franjita ( ) lemma=franja 
+ franjas ( ) 
+ franjita ( ) 
  franklin ( ) 
- franquea ( ) lemma=franquear 
+ franquea ( ) 
+ franqueada ( ) 
+ franqueado ( ) 
+ franquean ( ) 
+ franqueando ( ) 
  franquear ( ) 
- franqueada ( ) lemma=franquear 
- franqueado ( ) lemma=franquear 
- franquean ( ) lemma=franquear 
- franqueando ( ) lemma=franquear 
- franquearla ( ) lemma=franquear 
- franquee ( ) lemma=franquear 
- franqueo ( ) lemma=franquear 
+ franquearla ( ) 
+ franquee ( ) 
+ franqueo ( ) 
  franqueza ( ) 
- franqueó ( ) lemma=franquear 
+ franqueó ( ) 
  franquicia ( ) 
  franquiciador ( ) 
- franquicias ( ) lemma=franquicia 
+ franquicias ( ) 
  françois ( ) 
  frasco ( ) 
- frascos ( ) lemma=frasco 
+ frascos ( ) 
  frase ( ) 
- frasecilla ( ) lemma=frase 
- frasecita ( ) lemma=frase 
- frasecitas ( ) lemma=frase 
- fraseo ( ) lemma=frasear 
- frasear ( ) 
- frases ( ) lemma=frase 
+ frasecilla ( ) 
+ frasecita ( ) 
+ frasecitas ( ) 
+ fraseo ( ) 
+ frases ( ) 
  frasesita ( ) 
- frasquito ( ) lemma=frasco 
- fraterna ( ) lemma=fraterno 
- fraterno ( ) 
+ frasquito ( ) 
+ fraterna ( ) 
  fraternal ( ) 
- fraternales ( ) lemma=fraternal 
- fraternalmente ( ) lemma=fraternal 
+ fraternales ( ) 
+ fraternalmente ( ) 
  fraternidad ( ) 
  fraude ( ) 
- fraudes ( ) lemma=fraude 
- fraudulenta ( ) lemma=fraudulento 
+ fraudes ( ) 
+ fraudulenta ( ) 
+ fraudulentamente ( ) 
+ fraudulentas ( ) 
  fraudulento ( ) 
- fraudulentamente ( ) lemma=fraudulento 
- fraudulentas ( ) lemma=fraudulento 
- fraudulentos ( ) lemma=fraudulento 
- frazadas ( ) lemma=frazada 
- frazada ( ) 
+ fraudulentos ( ) 
+ frazadas ( ) 
  freatofítico ( ) 
  frecuencia ( ) 
- frecuencias ( ) lemma=frecuencia 
- frecuentaba ( ) lemma=frecuentar 
+ frecuencias ( ) 
+ frecuentaba ( ) 
+ frecuentada ( ) 
+ frecuentadas ( ) 
+ frecuentado ( ) 
+ frecuentados ( ) 
+ frecuentan ( ) 
+ frecuentando ( ) 
  frecuentar ( ) 
- frecuentada ( ) lemma=frecuentar 
- frecuentadas ( ) lemma=frecuentar 
- frecuentado ( ) lemma=frecuentar 
- frecuentados ( ) lemma=frecuentar 
- frecuentan ( ) lemma=frecuentar 
- frecuentando ( ) lemma=frecuentar 
- frecuentara ( ) lemma=frecuentar 
+ frecuentara ( ) 
  frecuente ( ) 
- frecuentemente ( ) lemma=frecuente|frecuentemente 
- frecuente|frecuentemente ( ) 
- frecuenten ( ) lemma=frecuentar 
- frecuentes ( ) lemma=frecuente 
- frecuentísimos ( ) lemma=frecuente 
+ frecuentemente ( ) 
+ frecuenten ( ) 
+ frecuentes ( ) 
+ frecuentísimos ( ) 
  free ( ) 
  free-net ( ) 
  freeze ( ) 
- fregada ( ) lemma=fregar 
+ fregada ( ) 
+ fregadita ( ) 
+ fregado ( ) 
+ fregados ( ) 
  fregar ( ) 
- fregadita ( ) lemma=fregador 
- fregador ( ) 
- fregado ( ) lemma=fregar 
- fregados ( ) lemma=fregar 
- fregaremos ( ) lemma=fregar 
- fregarlo ( ) lemma=fregar 
- fregarán ( ) lemma=fregar 
- freguís ( ) lemma=fregar 
- frena ( ) lemma=frenar 
+ fregaremos ( ) 
+ fregarlo ( ) 
+ fregarán ( ) 
+ freguís ( ) 
+ frena ( ) 
+ frenaba ( ) 
+ frenaban ( ) 
+ frenada ( ) 
+ frenadas ( ) 
+ frenado ( ) 
+ frenados ( ) 
+ frenamos ( ) 
+ frenan ( ) 
+ frenando ( ) 
  frenar ( ) 
- frenaba ( ) lemma=frenar 
- frenaban ( ) lemma=frenar 
- frenada ( ) lemma=frenar 
- frenadas ( ) lemma=frenar 
- frenado ( ) lemma=frenar 
- frenados ( ) lemma=frenar 
- frenamos ( ) lemma=frenar 
- frenan ( ) lemma=frenar 
- frenando ( ) lemma=frenar 
- frenara ( ) lemma=frenar 
- frenaran ( ) lemma=frenar 
- frenarla ( ) lemma=frenar 
- frenarlo ( ) lemma=frenar 
- frenarlos ( ) lemma=frenar 
- frenaron ( ) lemma=frenar 
- frenarse ( ) lemma=frenar 
- frenará ( ) lemma=frenar 
- frenarán ( ) lemma=frenar 
- frenaría ( ) lemma=frenar 
- frenarían ( ) lemma=frenar 
- frenas ( ) lemma=frenar 
- frene ( ) lemma=frenar 
- frenemos ( ) lemma=frenar 
- frenen ( ) lemma=frenar 
- frenes ( ) lemma=frenar 
+ frenara ( ) 
+ frenaran ( ) 
+ frenarla ( ) 
+ frenarlo ( ) 
+ frenarlos ( ) 
+ frenaron ( ) 
+ frenarse ( ) 
+ frenará ( ) 
+ frenarán ( ) 
+ frenaría ( ) 
+ frenarían ( ) 
+ frenas ( ) 
+ frene ( ) 
+ frenemos ( ) 
+ frenen ( ) 
+ frenes ( ) 
  frenesí ( ) 
- frenesíes ( ) lemma=frenesí 
+ frenesíes ( ) 
  freno ( ) 
- frenos ( ) lemma=freno 
+ frenos ( ) 
  frente ( ) 
- frente_a ( ) lemma=frente~a 
- frente~a ( ) 
- frentes ( ) lemma=frente 
+ frentes ( ) 
  frentón ( ) 
- frenética ( ) lemma=frenético 
+ frenética ( ) 
+ frenéticamente ( ) 
+ frenéticas ( ) 
  frenético ( ) 
- frenéticamente ( ) lemma=frenético 
- frenéticas ( ) lemma=frenético 
- frenéticos ( ) lemma=frenético 
- frenó ( ) lemma=frenar 
+ frenéticos ( ) 
+ frenó ( ) 
  frequency ( ) 
  fresa ( ) 
- fresas ( ) lemma=fresa 
- fresca ( ) lemma=fresco 
+ fresas ( ) 
+ fresca ( ) 
+ frescas ( ) 
  fresco ( ) 
- frescas ( ) lemma=fresco 
- frescos ( ) lemma=fresco 
+ frescos ( ) 
  frescura ( ) 
  fresenius ( ) 
  fresno ( ) 
- fresnos ( ) lemma=fresno 
- fresquita ( ) lemma=fresco 
- fresquitas ( ) lemma=fresco 
- fresquito ( ) lemma=fresco 
- freática ( ) lemma=freático 
+ fresnos ( ) 
+ fresquita ( ) 
+ fresquitas ( ) 
+ fresquito ( ) 
+ freática ( ) 
  freático ( ) 
- freía ( ) lemma=freír 
+ freía ( ) 
+ freían ( ) 
  freír ( ) 
- freían ( ) lemma=freír 
- freírlo ( ) lemma=freír 
- fria ( ) lemma=fría 
- fría ( ) lemma=frío 
- friacho ( ) lemma=frío 
- frío ( ) 
+ freírlo ( ) 
+ fria ( ) 
+ friacho ( ) 
  frialdad ( ) 
- fricciones ( ) lemma=friccionar 
- friccionar ( ) 
+ fricciones ( ) 
  fricción ( ) 
- friega ( ) lemma=fregar 
- friegues ( ) lemma=fregar 
+ friega ( ) 
+ friegues ( ) 
  frigorífico ( ) 
- frigoríficos ( ) lemma=frigorífico 
+ frigoríficos ( ) 
  frijol ( ) 
- frijoles ( ) lemma=frijol 
- friolera ( ) lemma=friolero 
- friolero ( ) 
+ frijoles ( ) 
+ friolera ( ) 
  frisón ( ) 
- frita ( ) lemma=frito 
+ frita ( ) 
+ fritas ( ) 
  frito ( ) 
- fritas ( ) lemma=frito 
- fritos ( ) lemma=frito 
+ fritos ( ) 
  frivolidad ( ) 
- frivolidades ( ) lemma=frivolidad 
- friéndonos ( ) lemma=freír 
- friíto ( ) lemma=frío 
+ frivolidades ( ) 
+ friéndonos ( ) 
+ friíto ( ) 
  frontal ( ) 
  frontale ( ) 
- frontales ( ) lemma=frontal 
- frontalmente ( ) lemma=frontal 
+ frontales ( ) 
+ frontalmente ( ) 
  frontend ( ) 
  frontera ( ) 
- fronteras ( ) lemma=frontera 
- fronteriza ( ) lemma=fronterizo 
+ fronteras ( ) 
+ fronteriza ( ) 
+ fronterizas ( ) 
  fronterizo ( ) 
- fronterizas ( ) lemma=fronterizo 
- fronterizos ( ) lemma=fronterizo 
- frontocigomática ( ) lemma=frontocigomático 
- frontocigomático ( ) 
+ fronterizos ( ) 
+ frontocigomática ( ) 
  frontonasal ( ) 
- frota ( ) lemma=frotar 
- frotar ( ) 
+ frota ( ) 
  frotación ( ) 
+ frotar ( ) 
  frotarse ( ) 
- frotará ( ) lemma=frotar 
- frotarán ( ) lemma=frotar 
+ frotará ( ) 
+ frotarán ( ) 
  frotis ( ) 
- frotándose ( ) lemma=frotar 
- frotármelo ( ) lemma=frotar 
+ frotándose ( ) 
+ frotármelo ( ) 
  fructofuranoso ( ) 
  fructosa ( ) 
  fructosamina ( ) 
- fructuosa ( ) lemma=fructuoso 
+ fructuosa ( ) 
+ fructuosamente ( ) 
+ fructuosas ( ) 
  fructuoso ( ) 
- fructuosamente ( ) lemma=fructuoso 
- fructuosas ( ) lemma=fructuoso 
- fructuosos ( ) lemma=fructuoso 
- fructífera ( ) lemma=fructífero 
+ fructuosos ( ) 
+ fructífera ( ) 
+ fructíferamente ( ) 
+ fructíferas ( ) 
  fructífero ( ) 
- fructíferamente ( ) lemma=fructífero 
- fructíferas ( ) lemma=fructífero 
- fructíferos ( ) lemma=fructífero 
+ fructíferos ( ) 
  frugal ( ) 
- fruncida ( ) lemma=fruncir 
- fruncir ( ) 
- fruncidas ( ) lemma=fruncido 
- fruncido ( ) 
- fruncidos ( ) lemma=fruncido 
+ fruncida ( ) 
+ fruncidas ( ) 
+ fruncidos ( ) 
  fruncimiento ( ) 
- frunció ( ) lemma=fruncir 
+ frunció ( ) 
  frustado ( ) 
- frustra ( ) lemma=frustrar 
- frustrar ( ) 
- frustraba ( ) lemma=frustrar 
- frustraciones ( ) lemma=frustración 
+ frustra ( ) 
+ frustraba ( ) 
+ frustraciones ( ) 
  frustración ( ) 
- frustrada ( ) lemma=frustrar 
- frustradas ( ) lemma=frustrar 
- frustrado ( ) lemma=frustrar 
- frustrados ( ) lemma=frustrado 
- frustran ( ) lemma=frustrar 
- frustrando ( ) lemma=frustrar 
+ frustrada ( ) 
+ frustradas ( ) 
+ frustrado ( ) 
+ frustrados ( ) 
+ frustran ( ) 
+ frustrando ( ) 
  frustrantemente ( ) 
- frustraron ( ) lemma=frustrar 
- frustrarse ( ) lemma=frustrar 
- frustrará ( ) lemma=frustrar 
- frustraría ( ) lemma=frustrar 
- frustren ( ) lemma=frustrar 
- frustrásemos ( ) lemma=frustrar 
- frustró ( ) lemma=frustrar 
+ frustrar ( ) 
+ frustraron ( ) 
+ frustrarse ( ) 
+ frustrará ( ) 
+ frustraría ( ) 
+ frustren ( ) 
+ frustrásemos ( ) 
+ frustró ( ) 
  fruta ( ) 
- frutales ( ) lemma=frutal 
- frutal ( ) 
- frutas ( ) lemma=fruta 
+ frutales ( ) 
+ frutas ( ) 
  frutero ( ) 
- fruteros ( ) lemma=frutero 
- frutillas ( ) lemma=frutilla 
- frutilla ( ) 
+ fruteros ( ) 
+ frutillas ( ) 
  fruto ( ) 
- frutos ( ) lemma=fruto 
+ frutos ( ) 
  frágil ( ) 
- frénica ( ) lemma=frénico 
- frénico ( ) 
+ frágiles ( ) 
+ frénica ( ) 
  fréquence ( ) 
  fréquences ( ) 
  fréquentielle ( ) 
- fríamente ( ) lemma=frío 
- frías ( ) lemma=frío 
- fríe ( ) lemma=freír 
- fríen ( ) lemma=freír 
- fríes ( ) lemma=freír 
- fríos ( ) lemma=frío 
- frívola ( ) lemma=frívolo 
+ fría ( ) 
+ fríamente ( ) 
+ frías ( ) 
+ fríe ( ) 
+ fríen ( ) 
+ fríes ( ) 
+ frío ( ) 
+ fríos ( ) 
+ frívola ( ) 
+ frívolamente ( ) 
+ frívolas ( ) 
  frívolo ( ) 
- frívolamente ( ) lemma=frívolo 
- frívolas ( ) lemma=frívolo 
- frívolos ( ) lemma=frívolo 
+ frívolos ( ) 
  fucsia ( ) 
- fue ( ) lemma=ir|ser 
+ fue ( ) 
  fuego ( ) 
- fuegos ( ) lemma=fuego 
- fuel-oil ( ) lemma=fuel 
- fuel ( ) 
+ fuegos ( ) 
+ fuel-oil ( ) 
  fuente ( ) 
- fuentes ( ) lemma=fuente 
- fuer ( ) 
- fuera ( ) 
- fuera_de ( ) lemma=fuera~de 
- fuera_del ( ) lemma=fuera~del 
- fuera~del ( ) 
- fuerais ( ) lemma=ir 
- fueran ( ) lemma=ser 
- fueras ( ) lemma=ir|ser 
- fuerce ( ) lemma=forzar 
- fuercen ( ) lemma=forzar 
+ fuentes ( ) 
+ fuer ( ) lemma=afuera 
+ fuera ( ) lemma=afueras 
+ fuerais ( ) 
+ fueran ( ) 
+ fueras ( ) 
+ fuerce ( ) 
+ fuercen ( ) 
  fuercita ( ) 
- fuere ( ) lemma=ser 
- fueren ( ) lemma=ir|ser 
+ fuere ( ) 
+ fueren ( ) 
  fuero ( ) 
- fueron ( ) lemma=ser 
- fueros ( ) lemma=fuero 
- fuertecilla ( ) lemma=fuerte 
- fuertemente ( ) lemma=fuerte 
- fuertes ( ) lemma=fuerte 
- fuertísimo ( ) lemma=fuerte 
+ fueron ( ) 
+ fueros ( ) 
+ fuerte ( ) 
+ fuertecilla ( ) 
+ fuertemente ( ) 
+ fuertes ( ) 
+ fuertísimo ( ) 
  fuerza ( ) 
  fuerza-longitud ( ) 
- fuerzan ( ) lemma=forzar 
- fuerzas ( ) lemma=fuerza 
- fuese ( ) lemma=ser 
- fueseis ( ) lemma=ir 
- fuesen ( ) lemma=ir|ser 
- fueses ( ) lemma=ir|ser 
+ fuerzan ( ) 
+ fuerzas ( ) 
+ fuese ( ) 
+ fueseis ( ) 
+ fuesen ( ) 
+ fueses ( ) 
  fuga ( ) 
- fugaces ( ) lemma=fugaz 
- fugaz ( ) 
- fugado ( ) lemma=fugar 
+ fugaces ( ) 
+ fugado ( ) 
+ fugados ( ) 
+ fugando ( ) 
  fugar ( ) 
- fugados ( ) lemma=fugar 
- fugando ( ) lemma=fugar 
- fugaron ( ) lemma=fugar 
+ fugaron ( ) 
  fugarse ( ) 
- fugas ( ) lemma=fuga 
- fugazmente ( ) lemma=fugaz 
+ fugas ( ) 
+ fugaz ( ) 
+ fugazmente ( ) 
  fugitivo ( ) 
- fugitivos ( ) lemma=fugitivo 
- fugo ( ) lemma=fugar 
- fugó ( ) lemma=fugar 
- fui ( ) lemma=ir|ser 
- fuimos ( ) lemma=ir|ir|ser 
- fuiste ( ) lemma=ir|ser 
- fuisteis ( ) lemma=ir|ser 
- fulana ( ) lemma=fulano 
+ fugitivos ( ) 
+ fugo ( ) 
+ fugó ( ) 
+ fui ( ) 
+ fuimos ( ) 
+ fuiste ( ) 
+ fuisteis ( ) 
+ fulana ( ) 
+ fulanita ( ) 
+ fulanito ( ) 
  fulano ( ) 
- fulanita ( ) lemma=fulano 
- fulanito ( ) lemma=fulano 
  fulcro ( ) 
  fulero ( ) 
  fulería ( ) 
  fulgor ( ) 
  fulgurante ( ) 
- fulgurantes ( ) lemma=fulgurante 
+ fulgurantes ( ) 
  full ( ) 
  fully ( ) 
- fulmina ( ) lemma=fulminar 
- fulminar ( ) 
- fulminada ( ) lemma=fulminar 
- fulminado ( ) lemma=fulminar 
+ fulmina ( ) 
+ fulminada ( ) 
+ fulminado ( ) 
  fulminante ( ) 
- fulminantemente ( ) lemma=fulminante 
- fulminantes ( ) lemma=fulminante 
- fulminarla ( ) lemma=fulminar 
- fuma ( ) lemma=fumar 
- fumar ( ) 
- fumaba ( ) lemma=fumar 
- fumaban ( ) lemma=fumar 
- fumado ( ) lemma=fumar 
+ fulminantemente ( ) 
+ fulminantes ( ) 
+ fulminar ( ) 
+ fulminarla ( ) 
+ fuma ( ) 
+ fumaba ( ) 
+ fumaban ( ) 
+ fumado ( ) 
  fumador ( ) 
- fumadora ( ) lemma=fumador 
- fumadoras ( ) lemma=fumador 
- fumadores ( ) lemma=fumador 
- fumados ( ) lemma=fumar 
- fumamos ( ) lemma=fumar 
- fuman ( ) lemma=fumar 
- fumando ( ) lemma=fumar 
+ fumadora ( ) 
+ fumadoras ( ) 
+ fumadores ( ) 
+ fumados ( ) 
+ fumamos ( ) 
+ fuman ( ) 
+ fumando ( ) 
+ fumar ( ) 
  fumarato ( ) 
- fumas ( ) lemma=fumar 
- fume ( ) lemma=fumar 
- fumen ( ) lemma=fumar 
- fumigaciones ( ) lemma=fumigación 
+ fumas ( ) 
+ fume ( ) 
+ fumen ( ) 
+ fumigaciones ( ) 
  fumigación ( ) 
  fumigar ( ) 
- fumigarlas ( ) lemma=fumigar 
- fumigarlo ( ) lemma=fumigar 
- fumo ( ) lemma=fumar 
- fumándose ( ) lemma=fumar 
- fumás ( ) lemma=fumar 
- fumé ( ) lemma=fumar 
- funciona ( ) lemma=funcionar 
- funcionar ( ) 
- funcionaba ( ) lemma=funcionar 
- funcionaban ( ) lemma=funcionar 
- funcionado ( ) lemma=funcionar 
+ fumigarlas ( ) 
+ fumigarlo ( ) 
+ fumo ( ) 
+ fumándose ( ) 
+ fumás ( ) 
+ fumé ( ) 
+ funciona ( ) lemma=afuncional 
+ funcionaba ( ) 
+ funcionaban ( ) 
+ funcionado ( ) 
  funcional ( ) 
- funcionales ( ) lemma=funcional 
+ funcionales ( ) 
  funcionalidad ( ) 
- funcionalidades ( ) lemma=funcionalidad 
+ funcionalidades ( ) 
  funcionalismo ( ) 
- funcionalmente ( ) lemma=funcional 
+ funcionalmente ( ) 
  funcionamiento ( ) 
- funcionamientos ( ) lemma=funcionamiento 
- funcionamos ( ) lemma=funcionar 
- funcionan ( ) lemma=funcionar 
- funcionando ( ) lemma=funcionar 
+ funcionamientos ( ) 
+ funcionamos ( ) 
+ funcionan ( ) 
+ funcionando ( ) 
  funcionante ( ) 
- funcionara ( ) lemma=funcionar 
- funcionaran ( ) lemma=funcionar 
- funcionare ( ) lemma=funcionar 
- funcionaremos ( ) lemma=funcionar 
- funcionaria ( ) lemma=funcionario 
- funcionario ( ) 
+ funcionar ( ) 
+ funcionara ( ) 
+ funcionaran ( ) 
+ funcionare ( ) 
+ funcionaremos ( ) 
+ funcionaria ( ) 
  funcionarial ( ) 
  funcionariale ( ) 
- funcionarias ( ) lemma=funcionario 
- funcionarios ( ) lemma=funcionario 
- funcionaron ( ) lemma=funcionar 
- funcionaros ( ) lemma=funcionar 
- funcionará ( ) lemma=funcionar 
- funcionarán ( ) lemma=funcionar 
- funcionaréis ( ) lemma=funcionar 
- funcionaría ( ) lemma=funcionar 
- funcionase ( ) lemma=funcionar 
- funcionasen ( ) lemma=funcionar 
- funcione ( ) lemma=funcionar 
- funcionemos ( ) lemma=funcionar 
- funcionen ( ) lemma=funcionar 
- funciones ( ) lemma=función 
+ funcionarias ( ) 
+ funcionario ( ) 
+ funcionarios ( ) 
+ funcionaron ( ) 
+ funcionaros ( ) 
+ funcionará ( ) 
+ funcionarán ( ) 
+ funcionaréis ( ) 
+ funcionaría ( ) 
+ funcionase ( ) 
+ funcionasen ( ) 
+ funcione ( ) 
+ funcionemos ( ) 
+ funcionen ( ) 
+ funciones ( ) 
+ funcionó ( ) 
  función ( ) 
- funcionó ( ) lemma=funcionar 
  function ( ) 
  functional ( ) 
  functions ( ) 
- funda ( ) lemma=fundar 
- fundar ( ) 
- fundaba ( ) lemma=fundar 
+ funda ( ) 
+ fundaba ( ) 
  fundacional ( ) 
- fundacionales ( ) lemma=fundacional 
- fundaciones ( ) lemma=fundación 
+ fundacionales ( ) 
+ fundaciones ( ) 
  fundación ( ) 
- fundada ( ) lemma=fundar 
- fundadas ( ) lemma=fundar 
- fundado ( ) lemma=fundar 
+ fundada ( ) 
+ fundadas ( ) 
+ fundado ( ) 
  fundador ( ) 
- fundadora ( ) lemma=fundador 
- fundadores ( ) lemma=fundador 
- fundados ( ) lemma=fundar 
- fundamenta ( ) lemma=fundamentar 
- fundamentar ( ) 
- fundamentaba ( ) lemma=fundamentar 
- fundamentaban ( ) lemma=fundamentar 
+ fundadora ( ) 
+ fundadores ( ) 
+ fundados ( ) 
+ fundamenta ( ) 
+ fundamentaba ( ) 
+ fundamentaban ( ) 
  fundamentación ( ) 
- fundamentada ( ) lemma=fundamentar 
- fundamentadas ( ) lemma=fundamentar 
- fundamentado ( ) lemma=fundamentar 
- fundamentados ( ) lemma=fundamentar 
+ fundamentada ( ) 
+ fundamentadas ( ) 
+ fundamentado ( ) 
+ fundamentados ( ) 
  fundamental ( ) 
- fundamentales ( ) lemma=fundamental 
+ fundamentales ( ) 
  fundamentalismo ( ) 
- fundamentalismos ( ) lemma=fundamentalismo 
+ fundamentalismos ( ) 
  fundamentalista ( ) 
- fundamentalistas ( ) lemma=fundamentalista 
- fundamentalmente ( ) lemma=fundamental 
- fundamentamos ( ) lemma=fundamentar 
- fundamentan ( ) lemma=fundamentar 
- fundamentando ( ) lemma=fundamentar 
- fundamentará ( ) lemma=fundamentar 
- fundamentarán ( ) lemma=fundamentar 
- fundamentase ( ) lemma=fundamentar 
- fundamente ( ) lemma=fundamentar 
- fundamentes ( ) lemma=fundamentar 
+ fundamentalistas ( ) 
+ fundamentalmente ( ) 
+ fundamentamos ( ) 
+ fundamentan ( ) 
+ fundamentando ( ) 
+ fundamentar ( ) 
+ fundamentará ( ) 
+ fundamentarán ( ) 
+ fundamentase ( ) 
+ fundamente ( ) 
+ fundamentes ( ) 
  fundamento ( ) 
- fundamentos ( ) lemma=fundamento 
- fundamentó ( ) lemma=fundamentar 
- fundan ( ) lemma=fundir 
- fundir ( ) 
- fundando ( ) lemma=fundar 
- fundaron ( ) lemma=fundar 
+ fundamentos ( ) 
+ fundamentó ( ) 
+ fundan ( ) 
+ fundando ( ) 
+ fundar ( ) 
+ fundaron ( ) 
  fundarse ( ) 
- fundará ( ) lemma=fundar 
- fundarán ( ) lemma=fundar 
- fundaría ( ) lemma=fundar 
- fundas ( ) lemma=funda 
- funde ( ) lemma=fundar|fundir 
- fundar|fundir ( ) 
- fundemos ( ) lemma=fundar 
- funden ( ) lemma=fundar|fundir 
- fundiciones ( ) lemma=fundición 
+ fundará ( ) 
+ fundarán ( ) 
+ fundaría ( ) 
+ fundas ( ) 
+ funde ( ) 
+ fundemos ( ) 
+ funden ( ) 
+ fundiciones ( ) 
  fundición ( ) 
- fundida ( ) lemma=fundido 
+ fundida ( ) 
+ fundidas ( ) 
  fundido ( ) 
- fundidas ( ) lemma=fundido 
- fundidos ( ) lemma=fundido 
- fundiendo ( ) lemma=fundir 
- fundiera ( ) lemma=fundir 
+ fundidos ( ) 
+ fundiendo ( ) 
+ fundiera ( ) 
+ fundir ( ) 
  fundirse ( ) 
- fundirá ( ) lemma=fundir 
- fundiéndose ( ) lemma=fundir 
- fundió ( ) lemma=fundir 
- fundo ( ) lemma=fundar|fundir 
+ fundirá ( ) 
+ fundiéndose ( ) 
+ fundió ( ) 
+ fundo ( ) 
  fundoscopio ( ) 
  fundus ( ) 
  fundándose ( ) 
- fundé ( ) lemma=fundar 
- fundían ( ) lemma=fundir 
- fundó ( ) lemma=fundar 
+ fundé ( ) 
+ fundían ( ) 
+ fundó ( ) 
  funeral ( ) 
- funerales ( ) lemma=funeral 
- funeraria ( ) lemma=funerario 
+ funerales ( ) 
+ funeraria ( ) 
+ funerarias ( ) 
  funerario ( ) 
- funerarias ( ) lemma=funerario 
- funerarios ( ) lemma=funerario 
- funesta ( ) lemma=funesto 
+ funerarios ( ) 
+ funesta ( ) 
+ funestas ( ) 
  funesto ( ) 
- funestas ( ) lemma=funesto 
- funestos ( ) lemma=funesto 
- funge ( ) lemma=fungir 
- fungir ( ) 
+ funestos ( ) 
+ funge ( ) 
  fungible ( ) 
- fungibles ( ) lemma=fungible 
- fungicidas ( ) lemma=fungicida 
- fungicida ( ) 
- fungiendo ( ) lemma=fungir 
- fungieron ( ) lemma=fungir 
+ fungibles ( ) 
+ fungicidas ( ) 
+ fungiendo ( ) 
+ fungieron ( ) 
  fungiforme ( ) 
- fungirá ( ) lemma=fungir 
- fungirán ( ) lemma=fungir 
- fungió ( ) lemma=fungir 
- fungía ( ) lemma=fungir 
+ fungir ( ) 
+ fungirá ( ) 
+ fungirán ( ) 
+ fungió ( ) 
+ fungía ( ) 
  furano ( ) 
  furanósico ( ) 
- furgones ( ) lemma=furgón 
- furgón ( ) 
+ furgones ( ) 
  furgoneta ( ) 
- furgonetas ( ) lemma=furgoneta 
+ furgonetas ( ) 
+ furgón ( ) 
  furia ( ) 
- furias ( ) lemma=furia 
- furibunda ( ) lemma=furibundo 
+ furias ( ) 
+ furibunda ( ) 
  furibundo ( ) 
- furiosa ( ) lemma=furioso 
+ furiosa ( ) 
+ furiosas ( ) 
  furioso ( ) 
- furiosas ( ) lemma=furioso 
- furiosos ( ) lemma=furioso 
+ furiosos ( ) 
  furor ( ) 
- furtiva ( ) lemma=furtivo 
+ furtiva ( ) 
+ furtivamente ( ) 
+ furtivas ( ) 
  furtivo ( ) 
- furtivamente ( ) lemma=furtivo 
- furtivas ( ) lemma=furtivo 
- furtivos ( ) lemma=furtivo 
+ furtivos ( ) 
  furúnculo ( ) 
  fusible ( ) 
- fusibles ( ) lemma=fusible 
- fusiformes ( ) lemma=fusiforme 
- fusiforme ( ) 
+ fusibles ( ) 
+ fusiformes ( ) 
  fusil ( ) 
- fusilado ( ) lemma=fusilar 
- fusilar ( ) 
- fusilados ( ) lemma=fusilar 
+ fusilado ( ) 
+ fusilados ( ) 
  fusilamiento ( ) 
- fusilamientos ( ) lemma=fusilamiento 
- fusilando ( ) lemma=fusilar 
- fusilaran ( ) lemma=fusilar 
- fusiles ( ) lemma=fusil 
- fusiona ( ) lemma=fusionar 
+ fusilamientos ( ) 
+ fusilando ( ) 
+ fusilar ( ) 
+ fusilaran ( ) 
+ fusiles ( ) 
+ fusiona ( ) 
+ fusionada ( ) 
+ fusionadas ( ) 
+ fusionados ( ) 
+ fusionan ( ) 
+ fusionando ( ) 
  fusionar ( ) 
- fusionada ( ) lemma=fusionar 
- fusionadas ( ) lemma=fusionar 
- fusionados ( ) lemma=fusionar 
- fusionan ( ) lemma=fusionar 
- fusionando ( ) lemma=fusionar 
- fusionaran ( ) lemma=fusionar 
- fusionaron ( ) lemma=fusionar 
+ fusionaran ( ) 
+ fusionaron ( ) 
  fusionarse ( ) 
- fusionará ( ) lemma=fusionar 
- fusiones ( ) lemma=fusión 
+ fusionará ( ) 
+ fusiones ( ) 
+ fusionó ( ) 
  fusión ( ) 
- fusionó ( ) lemma=fusionar 
- fustiga ( ) lemma=fustigar 
- fustigar ( ) 
- fustigado ( ) lemma=fustigar 
- fustigando ( ) lemma=fustigar 
- fustigarlo ( ) lemma=fustigar 
- fustigaron ( ) lemma=fustigar 
- fustigó ( ) lemma=fustigar 
- fustígala ( ) lemma=fustigar 
+ fustiga ( ) 
+ fustigado ( ) 
+ fustigando ( ) 
+ fustigarlo ( ) 
+ fustigaron ( ) 
+ fustigó ( ) 
+ fustígala ( ) 
  futbol ( ) 
- futbolera ( ) lemma=futbolero 
- futbolero ( ) 
+ futbolera ( ) 
  futbolista ( ) 
- futbolistas ( ) lemma=futbolista 
- futbolística ( ) lemma=futbolístico 
+ futbolistas ( ) 
+ futbolística ( ) 
+ futbolísticamente ( ) 
  futbolístico ( ) 
- futbolísticamente ( ) lemma=futbolístico 
- futbolísticos ( ) lemma=futbolístico 
+ futbolísticos ( ) 
  futre ( ) 
- futura ( ) lemma=futuro 
- futuro ( ) 
- futuras ( ) lemma=futuro 
+ futura ( ) 
+ futuras ( ) 
  futurera ( ) 
- futuros ( ) lemma=futuro 
- fué ( ) lemma=ir 
- fuéramos ( ) lemma=ir|ser 
- fuésemos ( ) lemma=ir|ser 
+ futuro ( ) 
+ futuros ( ) 
+ fué ( ) 
+ fuéramos ( ) 
+ fuésemos ( ) 
  fábrica ( ) 
- fábricas ( ) lemma=fábrica 
+ fábricas ( ) 
  fábricas-máquina ( ) 
  fábula ( ) 
- fábulas ( ) lemma=fábula 
- fáciles ( ) lemma=fácil 
- fácilmente ( ) lemma=fácil 
+ fábulas ( ) 
+ fácil ( ) 
+ fáciles ( ) 
+ fácilmente ( ) 
  fármaco ( ) 
- fármacos ( ) lemma=fármaco 
+ fármacos ( ) 
  fásico ( ) 
  fémur ( ) 
  féretro ( ) 
- féretros ( ) lemma=féretro 
- férrea ( ) lemma=férreo 
+ féretros ( ) 
+ férrea ( ) 
+ férreamente ( ) 
+ férreas ( ) 
  férreo ( ) 
- férreamente ( ) lemma=férreo 
- férreas ( ) lemma=férreo 
- férreos ( ) lemma=férreo 
+ férreos ( ) 
  férrico ( ) 
- férricos ( ) lemma=férrico 
+ férricos ( ) 
  fértil ( ) 
- fértiles ( ) lemma=fértil 
+ fértiles ( ) 
  férula ( ) 
- fía ( ) lemma=fiar 
- fían ( ) lemma=fiar 
- fías ( ) lemma=fiar 
- fíe ( ) lemma=fiar 
- fíen ( ) lemma=fiar 
- fíes ( ) lemma=fiar 
- fíjate ( ) lemma=fijar 
- fíjense ( ) lemma=fijarse 
- fíjese ( ) lemma=fijarse 
- fío ( ) lemma=fiar 
- fírmalo ( ) lemma=firmar 
+ fía ( ) 
+ fían ( ) 
+ fías ( ) 
+ fíe ( ) 
+ fíen ( ) 
+ fíes ( ) 
+ fíjate ( ) 
+ fíjense ( ) 
+ fíjese ( ) 
+ fío ( ) 
+ fírmalo ( ) 
+ física ( ) 
+ físicamente ( ) 
+ físicas ( ) 
  físico ( ) 
- físicamente ( ) lemma=físico 
- físicas ( ) lemma=físico 
  físico-deportivo ( ) 
- físico-químico ( ) lemma=físico|físico-químico 
- físico|físico-químico ( ) 
- físicos ( ) lemma=físico 
+ físico-químico ( ) 
+ físicos ( ) 
  fístula ( ) 
- fístulas ( ) lemma=fístula 
+ fístulas ( ) 
  fóbico ( ) 
  fóbico-específico ( ) 
  fórmula ( ) 
- fórmulas ( ) lemma=fórmula 
+ fórmulas ( ) 
  fósforo ( ) 
  fósil ( ) 
- fósiles ( ) lemma=fósil 
- fótica ( ) lemma=fótico 
- fótico ( ) 
+ fósiles ( ) 
+ fótica ( ) 
  fóvea ( ) 
- fúmate ( ) lemma=fumar 
+ fúmate ( ) 
  fúnebre ( ) 
- fúnebres ( ) lemma=fúnebre 
+ fúnebres ( ) 
  fúngico ( ) 
- fútbol ( ) lemma=futbol 
+ fútbol ( ) 
+ fganistá ( ) lemma=Afganistán 
+ fric ( ) lemma=Africa 
+ frodit ( ) lemma=Afrodita 
+ F1 ( ) lemma=CF17 
+ ffektivaterie ( ) lemma=Effektivaterien 
+ fraí ( ) lemma=Efraín 
+ Fraile ( ) 
+ fröre ( ) lemma=Gfröer 
+ F0 ( ) lemma=NF05 
+ feli ( ) lemma=Ofelia 
+ fannenstie ( ) lemma=Pfannenstiel 
+ fize ( ) lemma=Pfizer 
+ fabl ( ) lemma=afable 
+ famad ( ) lemma=afamar 
+ famado ( ) lemma=afamar 
+ fan ( ) lemma=ufano 
+ fanaba ( ) lemma=afanar 
+ fanad ( ) lemma=afanar 
+ fanara ( ) lemma=afanar 
+ fanaro ( ) lemma=afanar 
+ fane ( ) lemma=afán 
+ fanosament ( ) lemma=afanoso 
+ fanos ( ) lemma=afanoso 
+ fanoso ( ) lemma=afanoso 
+ fan� ( ) lemma=afanar 
+ fasi ( ) lemma=afasia 
+ fasia ( ) lemma=afasia 
+ feccione ( ) lemma=afección 
+ fecció ( ) lemma=afección 
+ fect ( ) lemma=efecto 
+ fectab ( ) lemma=afectar 
+ fectaba ( ) lemma=afectar 
+ fectacione ( ) lemma=afectación 
+ fectació ( ) lemma=afectación 
+ fectad ( ) lemma=afectado 
+ fectada ( ) lemma=afectar 
+ fectado ( ) lemma=afectar 
+ fecta ( ) lemma=afectar 
+ fectand ( ) lemma=afectar 
+ fectar ( ) lemma=afectar 
+ fectara ( ) lemma=afectar 
+ fectarla ( ) lemma=afectar 
+ fectaro ( ) lemma=afectar 
+ fectars ( ) lemma=afectar 
+ fectar� ( ) lemma=afectar 
+ fectará ( ) lemma=afectar 
+ fectarí ( ) lemma=afectar 
+ fectaría ( ) lemma=afectar 
+ fectas ( ) lemma=afectar 
+ fecte ( ) lemma=afectar 
+ fectiv ( ) lemma=efectivo 
+ fectivament ( ) lemma=efectivo 
+ fectiva ( ) lemma=efectivo 
+ fectivida ( ) lemma=efectividad 
+ fectivo ( ) lemma=efectivo 
+ fecto ( ) lemma=efecto 
+ fectuos ( ) lemma=afectuoso 
+ fectuosament ( ) lemma=afectuoso 
+ fectuoso ( ) lemma=afectuoso 
+ fect� ( ) lemma=afectar 
+ feitad ( ) lemma=afeitar 
+ feitado ( ) lemma=afeitar 
+ feita ( ) lemma=afeitar 
+ feitarm ( ) lemma=afeitar 
+ feitars ( ) lemma=afeitarse 
+ ferent ( ) lemma=eferente 
+ ferente ( ) lemma=oferente 
+ ferr ( ) lemma=aferrar 
+ ferrad ( ) lemma=aferrar 
+ ferrado ( ) lemma=aferrar 
+ ferramo ( ) lemma=aferrar 
+ ferra ( ) lemma=aferrar 
+ ferrara ( ) lemma=aferrar 
+ ferrars ( ) lemma=aferrarse 
+ ferrái ( ) lemma=aferrar 
+ ferr� ( ) lemma=aferrar 
+ ffaiblissemen ( ) lemma=affaiblissement 
+ ffluent ( ) lemma=affluente 
+ fgan ( ) lemma=afgano 
+ fgana ( ) lemma=afgano 
+ fgano ( ) lemma=afgano 
+ fianz ( ) lemma=afianzar 
+ fianzad ( ) lemma=afianzar 
+ fianzamient ( ) lemma=afianzamiento 
+ fianzand ( ) lemma=afianzar 
+ fianzarm ( ) lemma=afianzar 
+ fianzaro ( ) lemma=afianzar 
+ fianzars ( ) lemma=afianzarse 
+ fianzaría ( ) lemma=afianzar 
+ fianz� ( ) lemma=afianzar 
+ fiche ( ) lemma=afiche 
+ ficionad ( ) lemma=aficionado 
+ ficionado ( ) lemma=aficionar 
+ ficiona ( ) lemma=aficionar 
+ ficione ( ) lemma=afición 
+ ficionái ( ) lemma=aficionar 
+ ficionándos ( ) lemma=aficionar 
+ fició ( ) lemma=afición 
+ fij ( ) lemma=afijo 
+ filad ( ) lemma=afilar 
+ filado ( ) lemma=afilar 
+ filand ( ) lemma=afilar 
+ filaremo ( ) lemma=afilar 
+ filiacione ( ) lemma=afiliación 
+ filiació ( ) lemma=afiliación 
+ filiad ( ) lemma=afiliar 
+ filiada ( ) lemma=afiliar 
+ filiado ( ) lemma=afiliar 
+ filiamo ( ) lemma=afiliar 
+ filiand ( ) lemma=afiliar 
+ filia ( ) lemma=afiliar 
+ filiars ( ) lemma=afiliarse 
+ filiase ( ) lemma=afiliar 
+ filie ( ) lemma=afiliar 
+ finab ( ) lemma=afinar 
+ finació ( ) lemma=afinación 
+ finada ( ) lemma=afinar 
+ finad ( ) lemma=afinar 
+ finand ( ) lemma=afinar 
+ finará ( ) lemma=afinar 
+ fincad ( ) lemma=afincar 
+ finida ( ) lemma=afinidad 
+ finidade ( ) lemma=afinidad 
+ fin� ( ) lemma=afinar 
+ firm ( ) lemma=afirmar 
+ firmab ( ) lemma=afirmar 
+ firmacione ( ) lemma=afirmación 
+ firmació ( ) lemma=afirmación 
+ firmad ( ) lemma=afirmado 
+ firmamo ( ) lemma=afirmar 
+ firmand ( ) lemma=afirmar 
+ firmaro ( ) lemma=afirmar 
+ firmars ( ) lemma=afirmarse 
+ firmarí ( ) lemma=afirmar 
+ firmativ ( ) lemma=afirmativo 
+ firmativament ( ) lemma=afirmativo 
+ firmativa ( ) lemma=afirmativo 
+ firmativo ( ) lemma=afirmativo 
+ firmándos ( ) lemma=afirmarse 
+ firm� ( ) lemma=afirmar 
+ flig ( ) lemma=afligir 
+ flige ( ) lemma=afligir 
+ fligid ( ) lemma=afligir 
+ fligida ( ) lemma=afligir 
+ fligido ( ) lemma=afligir 
+ fligier ( ) lemma=afligir 
+ floj ( ) lemma=aflojar 
+ flojad ( ) lemma=aflojar 
+ flojamient ( ) lemma=aflojamiento 
+ flojand ( ) lemma=aflojar 
+ flojar ( ) lemma=aflojar 
+ floje ( ) lemma=aflojar 
+ floj� ( ) lemma=aflojar 
+ floraba ( ) lemma=aflorar 
+ florad ( ) lemma=aflorar 
+ floramient ( ) lemma=afloramiento 
+ florand ( ) lemma=aflorar 
+ florara ( ) lemma=aflorar 
+ floraro ( ) lemma=aflorar 
+ florará ( ) lemma=aflorar 
+ flore ( ) lemma=aflorar 
+ flor� ( ) lemma=aflorar 
+ flotoxin ( ) lemma=aflotoxina 
+ fluenci ( ) lemma=afluencia 
+ fluencia ( ) lemma=afluencia 
+ fluent ( ) lemma=efluente 
+ fluente ( ) lemma=efluente 
+ fluid ( ) lemma=afluir 
+ flui ( ) lemma=afluir 
+ fluj ( ) lemma=aflujo 
+ fluy ( ) lemma=afluir 
+ fluyend ( ) lemma=afluir 
+ fluyer ( ) lemma=afluir 
+ fluyero ( ) lemma=afluir 
+ fluy� ( ) lemma=afluir 
+ flójalo ( ) lemma=aflojar 
+ fortunad ( ) lemma=afortunado 
+ fortunadament ( ) lemma=afortunadamente|afortunado 
+ fortunada ( ) lemma=afortunado 
+ fortunado ( ) lemma=afortunado 
+ francesad ( ) lemma=afrancesar 
+ frent ( ) lemma=afrenta 
+ frenta ( ) lemma=afrentar 
+ frican ( ) lemma=africano 
+ fricana ( ) lemma=africano 
+ fricanizada ( ) lemma=africanizar 
+ fricaniza ( ) lemma=africanizar 
+ fricano ( ) lemma=africano 
+ froamericano ( ) lemma=afroamericano 
+ front ( ) lemma=afrontar 
+ frontada ( ) lemma=afrontar 
+ frontad ( ) lemma=afrontar 
+ frontado ( ) lemma=afrontar 
+ frontamo ( ) lemma=afrontar 
+ fronta ( ) lemma=afrontar 
+ frontand ( ) lemma=afrontar 
+ frontaremo ( ) lemma=afrontar 
+ frontarl ( ) lemma=afrontar 
+ frontarla ( ) lemma=afrontar 
+ frontar� ( ) lemma=afrontar 
+ frontará ( ) lemma=afrontar 
+ frontarí ( ) lemma=afrontar 
+ frontemo ( ) lemma=afrontar 
+ fronte ( ) lemma=afrontar 
+ frontábamo ( ) lemma=afrontar 
+ front� ( ) lemma=afrontar 
+ fá ( ) lemma=afán 
+ fí ( ) lemma=afín 
+ f-t ( ) lemma=ef-tu 
+ fector ( ) lemma=efectora 
+ fectuab ( ) lemma=efectuar 
+ fectuaba ( ) lemma=efectuar 
+ fectuad ( ) lemma=efectuar 
+ fectuada ( ) lemma=efectuar 
+ fectuado ( ) lemma=efectuar 
+ fectuamo ( ) lemma=efectuar 
+ fectuand ( ) lemma=efectuar 
+ fectua ( ) lemma=efectuar 
+ fectuar ( ) lemma=efectuar 
+ fectuara ( ) lemma=efectuar 
+ fectuaremo ( ) lemma=efectuar 
+ fectuarl ( ) lemma=efectuar 
+ fectuarla ( ) lemma=efectuar 
+ fectuarlo ( ) lemma=efectuar 
+ fectuaro ( ) lemma=efectuar 
+ fectuars ( ) lemma=efectuarse 
+ fectuar� ( ) lemma=efectuar 
+ fectuará ( ) lemma=efectuar 
+ fectuarí ( ) lemma=efectuar 
+ fectuaría ( ) lemma=efectuar 
+ fectuas ( ) lemma=efectuar 
+ fectuase ( ) lemma=efectuar 
+ fectuemo ( ) lemma=efectuar 
+ fectuándos ( ) lemma=efectuándose 
+ fectuásemo ( ) lemma=efectuar 
+ fectu� ( ) lemma=efectuar 
+ fectú ( ) lemma=efectuar 
+ fectúa ( ) lemma=efectuar 
+ fectúe ( ) lemma=efectuar 
+ fectúens ( ) lemma=efectuarse 
+ feméride ( ) lemma=efeméride 
+ fervescenci ( ) lemma=efervescencia 
+ ffec ( ) lemma=effect 
+ ffectiv ( ) lemma=effective 
+ ffecto ( ) lemma=effector 
+ ffector ( ) lemma=effectors 
+ ffect ( ) lemma=effects 
+ ffe ( ) lemma=effet 
+ fficacit� ( ) lemma=efficacité 
+ fficienc ( ) lemma=efficiency 
+ ficace ( ) lemma=eficaz 
+ ficaci ( ) lemma=eficacia 
+ ficacia ( ) lemma=eficacia 
+ fica ( ) lemma=eficaz 
+ ficazment ( ) lemma=eficaz 
+ ficienci ( ) lemma=eficiencia 
+ ficiencia ( ) lemma=eficiencia 
+ ficient ( ) lemma=eficiente 
+ ficientement ( ) lemma=eficiente 
+ ficiente ( ) lemma=eficiente 
+ figi ( ) lemma=efigie 
+ figie ( ) lemma=efigie 
+ fimer ( ) lemma=efímera 
+ fisem ( ) lemma=efisema 
+ florescencia ( ) lemma=eflorescencia 
+ fusiv ( ) lemma=efusivo 
+ fusivament ( ) lemma=efusivo 
+ fusiva ( ) lemma=efusivo 
+ fusió ( ) lemma=efusión 
+ fáptic ( ) lemma=efáptico 
+ fímer ( ) lemma=efímero 
+ fímero ( ) lemma=efímero 
+ facer ( ) 
+ facha ( ) 
+ facultativamente|facultativo ( ) 
+ fagocitario ( ) 
+ fagocito ( ) 
+ fajar ( ) 
+ fajado ( ) 
+ fallar|fallir ( ) 
+ fallir ( ) 
+ falsar ( ) 
+ fanerógamo ( ) 
+ fantasmo ( ) 
+ farmacólogo ( ) 
+ farádico ( ) 
+ fatigoso ( ) 
+ fechar ( ) 
+ feligrés ( ) 
+ fenecer ( ) 
+ fenicio ( ) 
+ fenol ( ) 
+ feriar ( ) 
+ ferropénico ( ) 
+ ferruginoso ( ) 
+ fiambre ( ) 
+ fibrilla ( ) 
+ ferrar ( ) 
+ fijador ( ) 
+ filamentoso ( ) 
+ filantrópico ( ) 
+ filar ( ) 
+ filiforme ( ) 
+ filtrable ( ) 
+ financiador ( ) 
+ finar|finir ( ) 
+ fisurar ( ) 
+ fitosanitario ( ) 
+ flagelar ( ) 
+ flanquear ( ) 
+ fleje ( ) 
+ flexionar ( ) 
+ flojear ( ) 
+ fluidificar ( ) 
+ fluoroscópico ( ) 
+ flácido ( ) 
+ fogón ( ) 
+ foguear ( ) 
+ formatizar ( ) 
+ fortificar ( ) 
+ fortín ( ) 
+ fosar ( ) 
+ fotoeléctrico ( ) 
+ fotosensible ( ) 
+ fotovoltaico ( ) 
+ fraccionario ( ) 
+ francotirador ( ) 
+ frasear ( ) 
+ fraterno ( ) 
+ frazada ( ) 
+ frecuente|frecuentemente ( ) 
+ fregador ( ) 
+ friccionar ( ) 
+ friolero ( ) 
+ frontocigomático ( ) 
+ fruncir ( ) 
+ fruncido ( ) 
+ frutal ( ) 
+ frutilla ( ) 
+ frénico ( ) 
+ fuel ( ) 
+ fundar|fundir ( ) 
+ fungicida ( ) 
+ fusiforme ( ) 
+ fustigar ( ) 
+ futbolero ( ) 
+ físico|físico-químico ( ) 
+ fótico ( ) 
+ fend ( ) lemma=ofender 
+ fendamo ( ) lemma=ofender 
+ fenda ( ) lemma=ofender 
+ fende ( ) lemma=ofender 
+ fenderí ( ) lemma=ofender 
+ fenderíamo ( ) lemma=ofender 
+ fendid ( ) lemma=ofender 
+ fendido ( ) lemma=ofender 
+ fendiend ( ) lemma=ofender 
+ fendiera ( ) lemma=ofender 
+ fendiero ( ) lemma=ofender 
+ fendi� ( ) lemma=ofender 
+ fend� ( ) lemma=ofender 
+ fendí ( ) lemma=ofender 
+ fens ( ) lemma=ofensa 
+ fensa ( ) lemma=ofensa 
+ fensiv ( ) lemma=ofensivo 
+ fensiva ( ) lemma=ofensivo 
+ fensivo ( ) lemma=ofensivo 
+ fert ( ) lemma=ofertar 
+ fertad ( ) lemma=ofertar 
+ fertada ( ) lemma=ofertar 
+ fertado ( ) lemma=ofertar 
+ ferta ( ) lemma=ofertar 
+ fertand ( ) lemma=ofertar 
+ fertarno ( ) lemma=ofertar 
+ fertaro ( ) lemma=ofertar 
+ fertars ( ) lemma=ofertarse 
+ fert� ( ) lemma=ofertar 
+ ff-sid ( ) lemma=off-side 
+ ffic ( ) lemma=office 
+ ffsid ( ) lemma=offside 
+ fici ( ) lemma=oficio 
+ ficiad ( ) lemma=oficiar 
+ ficia ( ) lemma=oficiar 
+ ficiale ( ) lemma=oficial 
+ ficialism ( ) lemma=oficialismo 
+ ficialist ( ) lemma=oficialista 
+ ficialista ( ) lemma=oficialista 
+ ficializ ( ) lemma=oficializar 
+ ficializad ( ) lemma=oficializar 
+ ficializa ( ) lemma=oficializar 
+ ficializ� ( ) lemma=oficializar 
+ ficialment ( ) lemma=oficial 
+ ficiar� ( ) lemma=oficiar 
+ ficin ( ) lemma=oficina 
+ ficina ( ) lemma=oficina 
+ ficinist ( ) lemma=oficinista 
+ ficio ( ) lemma=oficio 
+ ficios ( ) lemma=oficioso 
+ ficiosament ( ) lemma=oficioso 
+ ficiosa ( ) lemma=oficioso 
+ ficioso ( ) lemma=oficioso 
+ fici� ( ) lemma=oficiar 
+ fimátic ( ) lemma=ofimática 
+ frec ( ) lemma=ofrecer 
+ frecemo ( ) lemma=ofrecer 
+ frece ( ) lemma=ofrecer 
+ freceremo ( ) lemma=ofrecer 
+ frecerl ( ) lemma=ofrecer 
+ frecerle ( ) lemma=ofrecer 
+ frecerm ( ) lemma=ofrecer 
+ frecerno ( ) lemma=ofrecer 
+ frecers ( ) lemma=ofrecerse 
+ frecert ( ) lemma=ofrecer 
+ frecer� ( ) lemma=ofrecer 
+ frecerá ( ) lemma=ofrecer 
+ frecerí ( ) lemma=ofrecer 
+ freceríamo ( ) lemma=ofrecer 
+ frecería ( ) lemma=ofrecer 
+ frecid ( ) lemma=ofrecer 
+ frecida ( ) lemma=ofrecer 
+ frecido ( ) lemma=ofrecer 
+ freciend ( ) lemma=ofrecer 
+ frecier ( ) lemma=ofrecer 
+ freciera ( ) lemma=ofrecer 
+ freciero ( ) lemma=ofrecer 
+ frecies ( ) lemma=ofrecer 
+ freciese ( ) lemma=ofrecer 
+ frecimient ( ) lemma=ofrecimiento 
+ frecimiento ( ) lemma=ofrecimiento 
+ frecimo ( ) lemma=ofrecer 
+ freciéndole ( ) lemma=ofrecer 
+ freciéndono ( ) lemma=ofrecer 
+ freciéndos ( ) lemma=ofrecerse 
+ freciéndosele ( ) lemma=ofrecerse 
+ freci� ( ) lemma=ofrecer 
+ frecérsel ( ) lemma=ofrecerse 
+ frecérsela ( ) lemma=ofrecerse 
+ frec� ( ) lemma=ofrecer 
+ frecí ( ) lemma=ofrecer 
+ frecía ( ) lemma=ofrecer 
+ frend ( ) lemma=ofrendar 
+ frenda ( ) lemma=ofrendar 
+ frezc ( ) lemma=ofrecer 
+ frezcamo ( ) lemma=ofrecer 
+ frezca ( ) lemma=ofrecer 
+ ftalmológic ( ) lemma=oftalmológico 
+ ftalmológica ( ) lemma=oftalmológico 
+ ftalmológico ( ) lemma=oftalmológico 
+ ftalmopatí ( ) lemma=oftalmopatía 
+ ftalmoplejí ( ) lemma=oftalmoplejía 
+ ftalmoscopi ( ) lemma=oftalmoscopia 
+ ftalmoscópic ( ) lemma=oftalmoscópico 
+ fuscació ( ) lemma=ofuscación 
+ fusc� ( ) lemma=ofuscar 
+ fc ( ) lemma=pfca 

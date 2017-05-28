@@ -1,2 +1,4 @@
 ﻿ 5e ( ) 
  5ème ( ) 
+ 5 ( ) lemma=15e 
+ 5èm ( ) lemma=15ème 

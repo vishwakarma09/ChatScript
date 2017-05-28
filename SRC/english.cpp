@@ -489,7 +489,7 @@ static int64 ProcessNumber(int at, char* original, WORDP& revise, WORDP &entry, 
 			if (exponent && !IsDigit(exponent[-1]) && exponent[-1] != '.') exponent = NULL; // no digit or period before
 			if (exponent && !IsDigit(exponent[1]) && exponent[1] != '+' && exponent[1] != '-') exponent = NULL; // no digit or period before
 
-			if (strchr(original, '.') || exponent) // floating
+			if (strchr(original, numberPeriod) || exponent) // floating
 			{
 				double val = Convert2Float(original);
 				if (percent) val /= 100;

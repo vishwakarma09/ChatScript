@@ -1,6 +1,6 @@
 # ChatScript System Variables and Engine-defined Concepts
 © Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 4/30/2017 cs7.41
+<br>Revision 5/28/2017 cs7.43
 
 
 * [Engine-defined Concepts](ChatScript-System-Variables-and-Engine-defined-Concepts.md#engine-defined-concepts)
@@ -526,6 +526,14 @@ you can use a function to do the same thing (but only 1 pair at a time).
 
     ^canon(word canonicalform)
 
+## Numeric Substitutions
+
+A special kind of private substitution (equally applicable in regular substitution files) is the numeric substitution.
+```
+replace: ?_km kilometers
+```
+The ?_ matches a digit number followed immediately by km, like `1.2km` and will separate the number and replace the units
+with the given replacement.
 
 # Interchange Variables
 
@@ -570,3 +578,6 @@ contents.
 | `$cs_fullfloat` | if defined, causes the system to generate full float 64-bit precision on outputs, otherwise you get 2 digit precision by default |
 | `cs_botid`    |  when non-zero creates facts and functions restricted by this bitmask so facts and functions created by other masks cannot be seen. allows you to separate facts and functions per bot in a multi-bot environment. During compilation if this is set by a bot: command, then functions created and facts created by tables will be restricted to that owner.| 
 | `$cs_numbers` | if defined, causes the system to output numbers in a different language style: french, indian. All other values are english. |
+| `$cs_topicretrylimit` | if defined changes how many times you can pass back RETRY_TOPIC before it fails (current limit is 30) |
+| `$$topic_retry_limit_exceeded` | set if topic retry limit is encountered |
+ 

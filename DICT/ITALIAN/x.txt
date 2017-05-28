@@ -3,17 +3,80 @@
  XIX ( ) 
  XX ( ) 
  XYXYXY ( ) 
- xenofoba ( ) lemma=xenofobo 
- xenofobo ( ) 
- xenofobe ( ) lemma=xenofobo 
- xenofobi ( ) lemma=xenofobo 
+ xenofoba ( ) 
+ xenofobe ( ) 
+ xenofobi ( ) 
  xenofobia ( ) 
- xenofobie ( ) lemma=xenofobia 
- xenofobissima ( ) lemma=xenofobo 
- xenofobissime ( ) lemma=xenofobo 
- xenofobissimi ( ) lemma=xenofobo 
- xenofobissimo ( ) lemma=xenofobo 
- xenotrapianti ( ) lemma=xenotrapianto 
+ xenofobie ( ) 
+ xenofobissima ( ) 
+ xenofobissime ( ) 
+ xenofobissimi ( ) 
+ xenofobissimo ( ) 
+ xenofobo ( ) 
+ xenotrapianti ( ) 
  xenotrapianto ( ) 
  xilografia ( ) 
- xilografie ( ) lemma=xilografia 
+ xilografie ( ) 
+ x_x ( ) lemma=(x_x) 
+ x ( ) lemma=4x4 
+ xp ( ) lemma=Expo 
+ xpres ( ) lemma=Express 
+ xfor ( ) lemma=Oxford 
+ x-Alemagn ( ) lemma=ex-Alemagna 
+ x-Mott ( ) lemma=ex-Motta 
+ x-alleat ( ) lemma=ex-alleato 
+ x-collaborator ( ) lemma=ex-collaboratore 
+ x-coloni ( ) lemma=ex-colonia 
+ x-combattent ( ) lemma=ex-combattente 
+ x-compagn ( ) lemma=ex-compagno 
+ x-comunist ( ) lemma=ex-comunista 
+ x-comunistissim ( ) lemma=ex-comunista 
+ x-consiglier ( ) lemma=ex-consigliere 
+ x-d ( ) lemma=ex-dc 
+ x-dipendent ( ) lemma=ex-dipendente 
+ x-dirigent ( ) lemma=ex-dirigente 
+ x-funzionar ( ) lemma=ex-funzionario 
+ x-funzionari ( ) lemma=ex-funzionario 
+ x-ministr ( ) lemma=ex-ministro 
+ x-president ( ) lemma=ex-presidente 
+ x-repubblic ( ) lemma=ex-repubblica 
+ x-repubblich ( ) lemma=ex-repubblica 
+ xcursu ( ) lemma=excursus 
+ xecutiv ( ) lemma=executive 
+ xit-pol ( ) lemma=exit-poll 
+ xploi ( ) lemma=exploit 
+ xploit ( ) lemma=exploit 
+ xtr ( ) lemma=extra 
+ xtra-Ope ( ) lemma=extra-Opec 
+ xtra-giudizial ( ) lemma=extra-giudiziale 
+ xtra-giudizialissim ( ) lemma=extra-giudiziale 
+ xtra-parlamentar ( ) lemma=extra-parlamentare 
+ xtra-parlamentarissim ( ) lemma=extra-parlamentare 
+ xtracomunitar ( ) lemma=extracomunitario 
+ xtracomunitari ( ) lemma=extracomunitario 
+ xtracomunitarissim ( ) lemma=extracomunitario 
+ xtraconiugal ( ) lemma=extraconiugale 
+ xtraconiugalissim ( ) lemma=extraconiugale 
+ xtracontrattual ( ) lemma=extracontrattuale 
+ xtracontrattualissim ( ) lemma=extracontrattuale 
+ xtraeurope ( ) lemma=extraeuropeo 
+ xtraeuropeissim ( ) lemma=extraeuropeo 
+ xtragiudizial ( ) lemma=extragiudiziale 
+ xtragiudizialissim ( ) lemma=extragiudiziale 
+ xtralegal ( ) lemma=extralegale 
+ xtralegalissim ( ) lemma=extralegale 
+ xtramatrimonial ( ) lemma=extramatrimoniale 
+ xtramatrimonialissim ( ) lemma=extramatrimoniale 
+ xtraparlamentar ( ) lemma=extraparlamentare 
+ xtraparlamentarissim ( ) lemma=extraparlamentare 
+ xtrasensorial ( ) lemma=extrasensoriale 
+ xtrasensorialissim ( ) lemma=extrasensoriale 
+ xtraterrestr ( ) lemma=extraterrestre 
+ xtraterrestrissim ( ) lemma=extraterrestre 
+ xtraterritorial ( ) lemma=extraterritoriale 
+ xtraterritorialissim ( ) lemma=extraterritoriale 
+ xtraurban ( ) lemma=extraurbano 
+ xtraurbanissim ( ) lemma=extraurbano 
+ xtrissim ( ) lemma=extra 
+ xfordian ( ) lemma=oxfordiano 
+ xfordianissim ( ) lemma=oxfordiano 

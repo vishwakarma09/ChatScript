@@ -1815,7 +1815,8 @@ static char* ReadCall(char* name, char* ptr, FILE* in, char* &data,bool call, bo
 
 	if (D) ValidateCallArgs(D,arg1,arg2,argset,needTofield);
 
-	if (parenLevel != 0) BADSCRIPT((char*)"CALL-59 Failed to properly close (or [ in call to %s",D->word)
+	if (parenLevel != 0)
+		BADSCRIPT((char*)"CALL-59 Failed to properly close (or [ in call to %s",D->word)
 
 	if (isStream){;}  // no cares
 	else if (info) // system function
@@ -2426,13 +2427,13 @@ name of topic  or concept
 			sprintf(rhs,(char*)"%lld",(long long int) n); 
 #endif	
 			}
-			else if (IsAlphaUTF8DigitNumeric(*rhs)  ) 
+			else if (IsAlphaUTF8DigitNumeric(*rhs)  ) // LITERAL has no constraints
 			{
-				if (!livecall) 
-				{
-					WriteKey(rhs); 
-					WritePatternWord(rhs);		//   ordinary token
-				}
+		////		if (!livecall) 
+		//		{
+			//		WriteKey(rhs); 
+			//		WritePatternWord(rhs);		//   ordinary token
+			//	}
 			}
 			else if (*rhs == '~') 
 			{
@@ -4373,7 +4374,8 @@ static char* ReadRename(char* ptr, FILE* in,unsigned int build)
 		}
 		else ReadInt64(basic+1,n);
 		WORDP D = FindWord(word);
-		if (D && !myBot)  WARNSCRIPT((char*)"Already have a rename for %s\r\n", word)
+		if (D && !myBot)  
+			WARNSCRIPT((char*)"Already have a rename for %s\r\n", word)
 		D = StoreWord(word,n);
 		AddInternalFlag(D,(unsigned int)(RENAMED|build)); 
 		if (*word == '#' && *basic == '-') AddSystemFlag(D,CONSTANT_IS_NEGATIVE);
@@ -4843,6 +4845,7 @@ static void ReadTopicFile(char* name,uint64 buildid) //   read contents of a top
 	}
 	FClose(in); // this should be the only such, not fclose.
 	--jumpIndex;
+	if (!BOM && hasHighChar) WARNSCRIPT((char*)"File %s has no utf8 BOM but has character>127\r\n", name) // should have been utf 8 or have no high data.
 	if (!globalBotScope) // restore any local change from this file
 	{
 		myBot = 0;

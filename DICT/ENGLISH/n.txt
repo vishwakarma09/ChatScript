@@ -902,7 +902,7 @@
     notch~1n 
     nick~2nz (^prison~1) a prison
     gouge~3n 
-    nick~4vz mate successfully
+    nick~4vz (^copulate~1) mate successfully
     nick~5vz divide or reset the tail muscles of
     chip~10v 
     snick~3v 
@@ -9009,7 +9009,7 @@
     nyctophilic~1az 
  nyctophobic ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     nyctophobic~1az 
- nineth ( NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER ORDINAL KINDERGARTEN QUANTITY_NOUN ) 
+ nineth ( NOUN NOUN_NUMBER KINDERGARTEN ) 
  nearer ( meanings=2 MORE_FORM ADJECTIVE ADVERB PREPOSITION ADJECTIVE_NORMAL COMMON4 KINDERGARTEN posdefault:ADJECTIVE posdefault:ADVERB ) comparative=near 
     closer~1b 
     nearer~2z 

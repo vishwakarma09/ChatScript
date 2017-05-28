@@ -1,6 +1,6 @@
 # ChatScript System Functions Manual
 © Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 5/7/2017 cs7.42
+<br>Revision 5/28/2017 cs7.43
 
 * [Topic Functions](ChatScript-System-Functions-Manual.md#topic-functions)
 * [Marking Functions](ChatScript-System-Functions-Manual.md#marking-functions)
@@ -344,7 +344,9 @@ hitting the same API at once may be bad for the API and forcing a randomized sle
 
 Marking and unmarking words and concepts is fundamental to
 the pattern matching mechanism, so the system provides both an automatic marking
-mechanism and manual override abilities. You can manually mark or unmark something.
+mechanism and manual override abilities. You can manually mark or unmark something.  Automatic system marking marks
+all concepts implied by chasing up membership in other concepts, as does this call `^mark`.
+`word` can be any word, which also means you can mark something with a concept name whether or not the concept actually is defined anywhere.
 
 There are two mechanisms supported using `^mark` and `^unmark`: specific and generic.
 

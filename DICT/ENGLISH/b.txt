@@ -4244,9 +4244,9 @@
  blue_wall_of_silence ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     wall_of_silence~1nz (^cover-up~1) the secrecy of police officers who lie or look the other way to protect other police officers
  blue ( meanings=11 glosses=8 NOUN_ABSTRACT VERB_PRESENT VERB_INFINITIVE NOUN VERB ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR ADJECTIVE_NOT_PREDICATE COMMON4 COMMON1 NOUN_NODETERMINER KINDERGARTEN posdefault:ADJECTIVE VERB_NOOBJECT ADJECTIVE_GOOD_SUBJECT_COMPLEMENT ) comparative=bluest 
-    blueness~1nz (^chromatic_colour~1) blue color or pigment
+    blueness~1nz (^lycaenid_butterfly~1) blue color or pigment
     blue~2nz (^organization~6) any organization or party whose uniforms or badges are blue
-    wild_blue_yonder~1nz (^sky~1) the sky as viewed during daylight
+    wild_blue_yonder~1nz (^article_of_clothing~1) the sky as viewed during daylight
     blueing~2nz (^dye~1) used to whiten laundry or hair or give it a bluish tinge
     profane~1az characterized by profanity or cursing
     low~4a 

@@ -22,7 +22,7 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
 #define SERVER_RECOVERY 4
 extern jmp_buf scriptJump[5];
 extern int jumpIndex;
-
+void ShowMemory(char* label);
 void JumpBack();
 void myexit(char* msg, int code = 4);
 void mystart(char* msg);

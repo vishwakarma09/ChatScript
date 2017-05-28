@@ -1,7 +1,7 @@
-﻿ L ( ) 
- L1 ( ) 
+﻿ L ( ) lemma=VLR 
+ L1 ( ) lemma=LL12 
  L1es ( ) 
- L2 ( ) 
+ L2 ( ) lemma=LL22 
  L2es ( ) 
  LA01 ( ) 
  LA02 ( ) 
@@ -52,7 +52,7 @@
  LD62 ( ) 
  LD63 ( ) 
  LDE ( ) 
- LE ( ) 
+ LE ( ) lemma=ALEA 
  LE01 ( ) 
  LE02 ( ) 
  LE11 ( ) 
@@ -320,8 +320,7 @@
  Letrado-Asesor ( ) 
  Levame ( ) 
  Levante ( ) 
- Levys ( ) lemma=Levy 
- Levy ( ) 
+ Levys ( ) 
  León ( ) 
  Liberia ( ) 
  Libia ( ) 
@@ -357,8 +356,8 @@
  Logic ( ) 
  Logroño ( ) 
  Loja ( ) 
- Lola ( ) lemma=Dolores 
- Lolita ( ) lemma=Dolores 
+ Lola ( ) 
+ Lolita ( ) 
  Londres ( ) 
  Long ( ) 
  Lopecito ( ) 
@@ -374,13 +373,12 @@
  Lucho ( ) 
  Luciano ( ) 
  Lucy ( ) 
- Lucía ( ) lemma=Lucia 
- Lucia ( ) 
+ Lucía ( ) 
  Lugo ( ) 
  Luigi ( ) 
  Luis ( ) 
  Luisa ( ) 
- Luisito ( ) lemma=Luis 
+ Luisito ( ) 
  Luke's-Roosevelt ( ) 
  Lula ( ) 
  Lulito ( ) 
@@ -401,2004 +399,4223 @@
  Lérida ( ) 
  Líbano ( ) 
  López ( ) 
- l ( ) 
+ l ( ) lemma=ole 
  l'hospitalet ( ) 
- la ( ) lemma=el 
+ la ( ) lemma=slam 
  laberinto ( ) 
- laberintos ( ) lemma=laberinto 
+ laberintos ( ) 
  labia ( ) 
- labiales ( ) lemma=labial 
- labial ( ) 
+ labiales ( ) 
  labilidad ( ) 
  labio ( ) 
- labios ( ) lemma=labio 
- labor ( ) 
- labora ( ) lemma=laborar 
- laborar ( ) 
- laboraba ( ) lemma=laborar 
- laboraban ( ) lemma=laborar 
- laborado ( ) lemma=laborar 
+ labios ( ) 
+ labor ( ) lemma=elaborar 
+ labora ( ) lemma=elaborar 
+ laboraba ( ) 
+ laboraban ( ) 
+ laborado ( ) lemma=elaborar 
  laboral ( ) 
- laborales ( ) lemma=laboral 
- laboralmente ( ) lemma=laboral 
- laboran ( ) lemma=laborar 
- laborando ( ) lemma=laborar 
- laboraron ( ) lemma=laborar 
+ laborales ( ) 
+ laboralmente ( ) 
+ laboran ( ) 
+ laborando ( ) 
+ laborar ( ) lemma=elaborar 
+ laboraron ( ) 
  laboratorio ( ) 
- laboratorios ( ) lemma=laboratorio 
+ laboratorios ( ) 
  laborear ( ) 
- laboreo ( ) lemma=laborear 
- labores ( ) lemma=labor 
- laboriosa ( ) lemma=laborioso 
- laborioso ( ) 
- laboriosamente ( ) lemma=laborioso 
- laboriosas ( ) lemma=laborioso 
+ laboreo ( ) 
+ labores ( ) 
+ laboriosa ( ) 
+ laboriosamente ( ) 
+ laboriosas ( ) 
  laboriosidad ( ) 
- laboriosos ( ) lemma=laborioso 
+ laborioso ( ) 
+ laboriosos ( ) 
  laborista ( ) 
- laboristas ( ) lemma=laborista 
- laboró ( ) lemma=laborar 
- labra ( ) lemma=labrar 
- labrar ( ) 
- labrada ( ) lemma=labrar 
- labrado ( ) lemma=labrar 
+ laboristas ( ) 
+ laboró ( ) 
+ labra ( ) 
+ labrada ( ) 
+ labrado ( ) 
  labrador ( ) 
- labradores ( ) lemma=labrador 
- labrando ( ) lemma=labrar 
- labrara ( ) lemma=labrar 
- labraseis ( ) lemma=labrar 
- labriegos ( ) lemma=labriego 
- labriego ( ) 
- labró ( ) lemma=labrar 
- labura ( ) lemma=laburar 
+ labradores ( ) 
+ labrando ( ) 
+ labrar ( ) 
+ labrara ( ) 
+ labraseis ( ) 
+ labriegos ( ) 
+ labró ( ) 
+ labura ( ) 
+ laburando ( ) 
  laburar ( ) 
- laburando ( ) lemma=laburar 
- laburo ( ) lemma=laburar 
- laburos ( ) lemma=laburo 
- lac ( ) 
- laca ( ) 
+ laburo ( ) 
+ laburos ( ) 
+ lac ( ) lemma=placer 
+ laca ( ) lemma=placa 
  lacayo ( ) 
- lacayos ( ) lemma=lacayo 
- lacias ( ) lemma=lacio 
- lacio ( ) 
- lacito ( ) lemma=lazo 
- lazo ( ) 
+ lacayos ( ) 
+ lacias ( ) 
+ lacito ( ) 
  lacra ( ) 
- lacras ( ) lemma=lacra 
+ lacras ( ) 
  lacrimógeno ( ) 
- lacrimógenos ( ) lemma=lacrimógeno 
+ lacrimógenos ( ) 
  lactacidemia ( ) 
  lactación ( ) 
  lactancia ( ) 
  lactante ( ) 
- lactantes ( ) lemma=lactante 
+ lactantes ( ) 
  lactasa ( ) 
  lactato ( ) 
  lactoperoxidasa ( ) 
  lactosa ( ) 
  lactotropa ( ) 
  lacunar ( ) 
- lacónica ( ) lemma=lacónico 
+ lacónica ( ) 
+ lacónicamente ( ) 
+ lacónicas ( ) 
  lacónico ( ) 
- lacónicamente ( ) lemma=lacónico 
- lacónicas ( ) lemma=lacónico 
- ladeada ( ) lemma=ladear 
- ladear ( ) 
- ladeadas ( ) lemma=ladear 
+ ladeada ( ) 
+ ladeadas ( ) 
  ladera ( ) 
- laderas ( ) lemma=ladera 
+ laderas ( ) 
  ladino ( ) 
- ladito ( ) lemma=lado 
+ ladito ( ) 
  lado ( ) 
- lados ( ) lemma=lado 
- ladra ( ) lemma=ladrar 
+ lados ( ) 
+ ladra ( ) 
+ ladraba ( ) 
+ ladrado ( ) 
+ ladran ( ) 
+ ladrando ( ) 
  ladrar ( ) 
- ladraba ( ) lemma=ladrar 
- ladrado ( ) lemma=ladrar 
- ladran ( ) lemma=ladrar 
- ladrando ( ) lemma=ladrar 
- ladrillitos ( ) lemma=ladrillo 
+ ladrillitos ( ) 
  ladrillo ( ) 
- ladrillos ( ) lemma=ladrillo 
- ladrones ( ) lemma=ladrón 
+ ladrillos ( ) 
+ ladrones ( ) 
  ladrón ( ) 
- lady ( ) 
- lagartijas ( ) lemma=lagartija 
- lagartija ( ) 
+ lady ( ) lemma=Gladys 
+ lagartijas ( ) 
  lagarto ( ) 
- lagartos ( ) lemma=lagarto 
+ lagartos ( ) 
  lago ( ) 
- lagos ( ) lemma=lago 
+ lagos ( ) 
  lagrangiano ( ) 
  lagrimación ( ) 
- lagrimales ( ) lemma=lagrimal 
- lagrimal ( ) 
- lagrimas ( ) lemma=lágrima 
- lágrima ( ) 
+ lagrimales ( ) 
+ lagrimas ( ) 
  lagrimeo ( ) 
- lagrimita ( ) lemma=lágrima 
+ lagrimita ( ) 
  laguna ( ) 
  lagunaje ( ) 
- lagunas ( ) lemma=laguna 
- lagunera ( ) lemma=lagunero 
+ lagunas ( ) 
+ lagunera ( ) 
  lagunero ( ) 
- laguneros ( ) lemma=lagunero 
- lagunita ( ) lemma=laguna 
- laica ( ) lemma=laico 
+ laguneros ( ) 
+ lagunita ( ) 
+ laica ( ) 
  laico ( ) 
- laicos ( ) lemma=laico 
- lama ( ) 
- lamas ( ) lemma=lama 
+ laicos ( ) 
+ lama ( ) lemma=llama 
+ lamas ( ) lemma=llamar 
  lambda ( ) 
  lamelibranquio ( ) 
- lamenta ( ) lemma=lamentar 
- lamentar ( ) 
- lamentaba ( ) lemma=lamentar 
- lamentaban ( ) lemma=lamentar 
- lamentabilísima ( ) lemma=lamentable 
+ lamenta ( ) 
+ lamentaba ( ) 
+ lamentaban ( ) 
+ lamentabilísima ( ) 
+ lamentabilísimo ( ) 
  lamentable ( ) 
- lamentabilísimo ( ) lemma=lamentable 
- lamentablemente ( ) lemma=lamentable 
- lamentables ( ) lemma=lamentable 
- lamentaciones ( ) lemma=lamentación 
+ lamentablemente ( ) 
+ lamentables ( ) 
+ lamentaciones ( ) 
  lamentación ( ) 
- lamentada ( ) lemma=lamentar 
- lamentadas ( ) lemma=lamentar 
- lamentado ( ) lemma=lamentar 
- lamentamos ( ) lemma=lamentar 
- lamentan ( ) lemma=lamentar 
- lamentando ( ) lemma=lamentar 
- lamentaremos ( ) lemma=lamentar 
- lamentaron ( ) lemma=lamentar 
+ lamentada ( ) 
+ lamentadas ( ) 
+ lamentado ( ) 
+ lamentamos ( ) 
+ lamentan ( ) 
+ lamentando ( ) 
+ lamentar ( ) 
+ lamentaremos ( ) 
+ lamentaron ( ) 
  lamentarse ( ) 
- lamentará ( ) lemma=lamentar 
- lamentarán ( ) lemma=lamentar 
- lamentaré ( ) lemma=lamentar 
- lamentaría ( ) lemma=lamentar 
- lamentaríamos ( ) lemma=lamentar 
- lamentarían ( ) lemma=lamentar 
- lamente ( ) lemma=lamentar 
- lamentemos ( ) lemma=lamentar 
- lamenten ( ) lemma=lamentar 
+ lamentará ( ) 
+ lamentarán ( ) 
+ lamentaré ( ) 
+ lamentaría ( ) 
+ lamentaríamos ( ) 
+ lamentarían ( ) 
+ lamente ( ) 
+ lamentemos ( ) 
+ lamenten ( ) 
  lamento ( ) 
- lamentos ( ) lemma=lamento 
- lamentáramos ( ) lemma=lamentar 
- lamenté ( ) lemma=lamentar 
- lamentó ( ) lemma=lamentar 
- lamina ( ) lemma=laminar 
+ lamentos ( ) 
+ lamentáramos ( ) 
+ lamenté ( ) 
+ lamentó ( ) 
+ lamina ( ) 
+ laminado ( ) 
+ laminados ( ) 
  laminar ( ) 
- laminado ( ) lemma=laminar 
- laminados ( ) lemma=laminar 
- laminares ( ) lemma=laminar 
- laminó ( ) lemma=laminar 
- lamparillas ( ) lemma=lámpara 
- lámpara ( ) 
+ laminares ( ) 
+ laminó ( ) 
+ lamparillas ( ) 
  lamparita ( ) 
- lamáis ( ) lemma=lamer 
- lamer ( ) 
- lan ( ) 
- lana ( ) 
- lanas ( ) lemma=lana 
- lance ( ) lemma=lanzar 
- lanzar ( ) 
- lancemos ( ) lemma=lanzar 
- lancen ( ) lemma=lanzar 
- lances ( ) lemma=lanzar 
- lancha ( ) 
- lanchas ( ) lemma=lancha 
- lancé ( ) lemma=lanzar 
+ lamáis ( ) 
+ lan ( ) lemma=plano 
+ lana ( ) lemma=plano 
+ lanas ( ) 
+ lance ( ) 
+ lancemos ( ) 
+ lancen ( ) 
+ lances ( ) 
+ lancha ( ) lemma=planchar 
+ lanchas ( ) 
+ lancé ( ) 
  langosta ( ) 
- langostas ( ) lemma=langosta 
+ langostas ( ) 
  langostino ( ) 
- langostinos ( ) lemma=langostino 
+ langostinos ( ) 
  lanza ( ) 
- lanzaba ( ) lemma=lanzar 
- lanzaban ( ) lemma=lanzar 
+ lanzaba ( ) 
+ lanzaban ( ) 
  lanzacohetes ( ) 
- lanzada ( ) lemma=lanzar 
- lanzadas ( ) lemma=lanzar 
- lanzado ( ) lemma=lanzar 
+ lanzada ( ) 
+ lanzadas ( ) 
+ lanzado ( ) 
  lanzador ( ) 
- lanzadora ( ) lemma=lanzador 
- lanzadoras ( ) lemma=lanzador 
- lanzadores ( ) lemma=lanzador 
- lanzados ( ) lemma=lanzar 
+ lanzadora ( ) 
+ lanzadoras ( ) 
+ lanzadores ( ) 
+ lanzados ( ) 
  lanzamiento ( ) 
- lanzamientos ( ) lemma=lanzamiento 
- lanzamos ( ) lemma=lanzar 
- lanzan ( ) lemma=lanzar 
- lanzando ( ) lemma=lanzar 
- lanzara ( ) lemma=lanzar 
- lanzaran ( ) lemma=lanzar 
- lanzaremos ( ) lemma=lanzar 
- lanzarlas ( ) lemma=lanzar 
- lanzarle ( ) lemma=lanzar 
- lanzarlo ( ) lemma=lanzar 
- lanzarme ( ) lemma=lanzar 
- lanzarnos ( ) lemma=lanzar 
- lanzaron ( ) lemma=lanzar 
+ lanzamientos ( ) 
+ lanzamos ( ) 
+ lanzan ( ) 
+ lanzando ( ) 
+ lanzar ( ) 
+ lanzara ( ) 
+ lanzaran ( ) 
+ lanzaremos ( ) 
+ lanzarlas ( ) 
+ lanzarle ( ) 
+ lanzarlo ( ) 
+ lanzarme ( ) 
+ lanzarnos ( ) 
+ lanzaron ( ) 
  lanzarse ( ) 
- lanzará ( ) lemma=lanzar 
- lanzarán ( ) lemma=lanzar 
- lanzaría ( ) lemma=lanzar 
- lanzarían ( ) lemma=lanzar 
- lanzas ( ) lemma=lanza 
- lanzaseis ( ) lemma=lanzar 
- lanzo ( ) lemma=lanzar 
- lanzándose ( ) lemma=lanzar 
- lanzáramos ( ) lemma=lanzar 
- lanzó ( ) lemma=lanzar 
+ lanzará ( ) 
+ lanzarán ( ) 
+ lanzaría ( ) 
+ lanzarían ( ) 
+ lanzas ( ) 
+ lanzaseis ( ) 
+ lanzo ( ) 
+ lanzándose ( ) 
+ lanzáramos ( ) 
+ lanzó ( ) 
  laparoscopia ( ) 
  laparoscópico ( ) 
  laparotomía ( ) 
- lapicera ( ) lemma=lapicero 
- lapicero ( ) 
- lapona ( ) lemma=lapón 
- lapón ( ) 
- lapones ( ) lemma=lapón 
+ lapicera ( ) 
+ lapona ( ) 
+ lapones ( ) 
  lapso ( ) 
- lapsos ( ) lemma=lapso 
+ lapsos ( ) 
  lapsus ( ) 
  laptop ( ) 
- larga ( ) lemma=largo 
- largo ( ) 
- largaba ( ) lemma=largar 
- largar ( ) 
- largada ( ) lemma=largar 
- largamente ( ) lemma=largo 
- largamos ( ) lemma=largar 
- largan ( ) lemma=largar 
- largarnos ( ) lemma=largar 
+ larga ( ) lemma=alargar 
+ largaba ( ) 
+ largada ( ) lemma=alargar 
+ largamente ( ) 
+ largamos ( ) 
+ largan ( ) 
+ largar ( ) lemma=alargar 
+ largarnos ( ) 
  largarse ( ) 
- largará ( ) lemma=largar 
- largas ( ) lemma=largo 
+ largará ( ) 
+ largas ( ) 
+ largo ( ) 
  largometraje ( ) 
- largometrajes ( ) lemma=largometraje 
- largos ( ) lemma=largo 
- largotas ( ) lemma=largo 
- larguita ( ) lemma=largo 
- larguitas ( ) lemma=largo 
- larguito ( ) lemma=largo 
- larguísima ( ) lemma=largo 
- larguísimas ( ) lemma=largo 
- larguísimo ( ) lemma=largo 
- larguísimos ( ) lemma=largo 
- largábamos ( ) lemma=largar 
- largó ( ) lemma=largar 
- largón ( ) lemma=largo 
+ largometrajes ( ) 
+ largos ( ) 
+ largotas ( ) 
+ larguita ( ) 
+ larguitas ( ) 
+ larguito ( ) 
+ larguísima ( ) 
+ larguísimas ( ) 
+ larguísimo ( ) 
+ larguísimos ( ) 
+ largábamos ( ) 
+ largó ( ) 
+ largón ( ) 
  laringe ( ) 
  laringitis ( ) 
  larva ( ) 
- larvaria ( ) lemma=larvario 
- larvario ( ) 
- larvas ( ) lemma=larva 
+ larvaria ( ) 
+ larvas ( ) 
  larváceo ( ) 
- laríngea ( ) lemma=laríngeo 
+ laríngea ( ) 
  laríngeo ( ) 
- las ( ) lemma=el 
+ las ( ) lemma=class 
  lasitud ( ) 
- lastima ( ) lemma=lastimar 
+ lastima ( ) 
+ lastimada ( ) 
+ lastimadas ( ) 
+ lastimado ( ) 
+ lastimando ( ) 
  lastimar ( ) 
- lastimada ( ) lemma=lastimar 
- lastimadas ( ) lemma=lastimado 
- lastimado ( ) lemma=lastimar 
- lastimando ( ) lemma=lastimar 
  lastimarse ( ) 
- lastimosa ( ) lemma=lastimoso 
+ lastimosa ( ) 
+ lastimosamente ( ) 
+ lastimosas ( ) 
  lastimoso ( ) 
- lastimosamente ( ) lemma=lastimoso 
- lastimosas ( ) lemma=lastimoso 
- lastimó ( ) lemma=lastimar 
- lastra ( ) lemma=lastrar 
- lastrar ( ) 
- lastrada ( ) lemma=lastrar 
- lastrado ( ) lemma=lastrar 
- lastran ( ) lemma=lastrar 
- lastrando ( ) lemma=lastrar 
- lastraron ( ) lemma=lastrar 
- lastras ( ) lemma=lastrar 
+ lastimó ( ) 
+ lastra ( ) 
+ lastrada ( ) 
+ lastrado ( ) 
+ lastran ( ) 
+ lastrando ( ) 
+ lastraron ( ) 
+ lastras ( ) 
  lastre ( ) 
- lastres ( ) lemma=lastre 
- lata ( ) lemma=lato 
- lato ( ) 
- latas ( ) lemma=lato 
- late ( ) lemma=latir 
- latir ( ) 
+ lastres ( ) 
+ lata ( ) lemma=plata 
+ latas ( ) 
+ late ( ) 
  latear ( ) 
  latente ( ) 
- latentes ( ) lemma=latente 
+ latentes ( ) 
  lateral ( ) 
- laterales ( ) lemma=lateral 
- lateralmente ( ) lemma=lateral 
+ laterales ( ) 
+ lateralmente ( ) 
  latido ( ) 
- latidos ( ) lemma=latido 
- latiendo ( ) lemma=latir 
- latiguillo ( ) lemma=látigo 
- látigo ( ) 
- latina ( ) lemma=latino 
+ latidos ( ) 
+ latiendo ( ) 
+ latiguillo ( ) 
+ latina ( ) 
+ latinas ( ) 
  latino ( ) 
- latinas ( ) lemma=latino 
- latinoamericana ( ) lemma=latinoamericano 
+ latinoamericana ( ) 
+ latinoamericanas ( ) 
  latinoamericano ( ) 
- latinoamericanas ( ) lemma=latinoamericano 
- latinoamericanos ( ) lemma=latinoamericano 
- latinos ( ) lemma=latino 
- latita ( ) lemma=lata 
- latitas ( ) lemma=lata 
+ latinoamericanos ( ) 
+ latinos ( ) 
+ latir ( ) 
+ latita ( ) 
+ latitas ( ) 
  latitud ( ) 
- latitudes ( ) lemma=latitud 
- latitudinales ( ) lemma=latitudinal 
- latitudinal ( ) 
- latos ( ) lemma=lato 
- latía ( ) lemma=latir 
+ latitudes ( ) 
+ latitudinales ( ) 
+ lato ( ) lemma=plato 
+ latos ( ) 
+ latía ( ) 
  latín ( ) 
  laudo ( ) 
- laudos ( ) lemma=laudo 
- laureada ( ) lemma=laureado 
+ laudos ( ) 
+ laureada ( ) 
  laureado ( ) 
- laureados ( ) lemma=laureado 
+ laureados ( ) 
  laurel ( ) 
- laureles ( ) lemma=laurel 
- lava ( ) 
- lavaba ( ) lemma=lavar 
- lavar ( ) 
- lavaban ( ) lemma=lavar 
- lavabas ( ) lemma=lavar 
+ laureles ( ) 
+ lava ( ) lemma=clavar 
+ lavaba ( ) 
+ lavaban ( ) 
+ lavabas ( ) 
  lavabo ( ) 
- lavabos ( ) lemma=lavabo 
- lavada ( ) lemma=lavar 
- lavadas ( ) lemma=lavar 
+ lavabos ( ) 
+ lavada ( ) lemma=clavar 
+ lavadas ( ) 
  lavadero ( ) 
- lavado ( ) lemma=lavar 
+ lavado ( ) lemma=clavar 
  lavadora ( ) 
- lavadoras ( ) lemma=lavadora 
- lavados ( ) lemma=lavar 
- lavan ( ) lemma=lavar 
+ lavadoras ( ) 
+ lavados ( ) 
+ lavan ( ) 
  lavandería ( ) 
- lavanderías ( ) lemma=lavandería 
- lavando ( ) lemma=lavar 
+ lavanderías ( ) 
+ lavando ( ) 
  lavaplatos ( ) 
- lavaran ( ) lemma=lavar 
- lavarla ( ) lemma=lavar 
- lavarnos ( ) lemma=lavar 
- lavaron ( ) lemma=lavar 
+ lavar ( ) 
+ lavaran ( ) 
+ lavarla ( ) 
+ lavarnos ( ) 
+ lavaron ( ) 
  lavarse ( ) 
- lavará ( ) lemma=lavar 
- lavas ( ) lemma=lava 
- lave ( ) lemma=lavar 
- laven ( ) lemma=lavar 
- laves ( ) lemma=lavar 
- lavo ( ) lemma=lavar 
- lavándose ( ) lemma=lavarse 
- lavé ( ) lemma=lavar 
+ lavará ( ) 
+ lavas ( ) 
+ lave ( ) lemma=llave 
+ laven ( ) 
+ laves ( ) 
+ lavo ( ) lemma=clavo 
+ lavándose ( ) 
+ lavé ( ) 
  law ( ) 
- laxa ( ) lemma=laxar 
- laxar ( ) 
- laxas ( ) lemma=laxar 
- laxo ( ) lemma=laxar 
- lazara ( ) lemma=lazar 
- lazar ( ) 
- lazos ( ) lemma=lazo 
+ laxa ( ) 
+ laxas ( ) 
+ laxo ( ) 
+ lazara ( ) 
+ lazo ( ) lemma=plazo 
+ lazos ( ) 
  lazy ( ) 
- lazó ( ) lemma=lazar 
+ lazó ( ) 
  laúd ( ) 
- le ( ) 
- lea ( ) lemma=leer 
- leer ( ) 
+ le ( ) lemma=oler 
+ lea ( ) lemma=clear 
  leal ( ) 
- leales ( ) lemma=leal 
- lealmente ( ) lemma=leal 
+ leales ( ) 
+ lealmente ( ) 
  lealtad ( ) 
- lealtades ( ) lemma=lealtad 
- leamos ( ) lemma=leer 
- lean ( ) lemma=leer 
- leas ( ) lemma=leer 
- lecciones ( ) lemma=lección 
+ lealtades ( ) 
+ leamos ( ) 
+ lean ( ) 
+ leas ( ) 
+ lecciones ( ) 
  lección ( ) 
- lechada ( ) lemma=lechar 
- lechar ( ) 
- lechadas ( ) lemma=lechar 
+ lechada ( ) 
+ lechadas ( ) 
  lechazo ( ) 
  leche ( ) 
  lechero ( ) 
- lecheros ( ) lemma=lechero 
- leches ( ) lemma=leche 
+ lecheros ( ) 
+ leches ( ) 
  lecho ( ) 
- lechos ( ) lemma=lecho 
- lechosa ( ) lemma=lechoso 
- lechoso ( ) 
+ lechos ( ) 
+ lechosa ( ) 
  lechuga ( ) 
- lechugas ( ) lemma=lechuga 
+ lechugas ( ) 
  lecteur ( ) 
- lectinas ( ) lemma=lectina 
- lectina ( ) 
- lector ( ) 
+ lectinas ( ) 
+ lector ( ) lemma=elector 
  lector-grabador ( ) 
- lectora ( ) lemma=lector 
- lectoras ( ) lemma=lector 
- lectores ( ) lemma=lector 
+ lectora ( ) lemma=elector 
+ lectoras ( ) 
+ lectores ( ) 
  lectura ( ) 
  lecturaescritura ( ) 
- lecturas ( ) lemma=lectura 
+ lecturas ( ) 
  lecture ( ) 
  ledo ( ) 
- lee ( ) lemma=leer 
- leemos ( ) lemma=leer 
- leen ( ) lemma=leer 
- leeremos ( ) lemma=leer 
- leerla ( ) lemma=leer 
- leerle ( ) lemma=leer 
- leerles ( ) lemma=leer 
- leerlo ( ) lemma=leer 
- leerlos ( ) lemma=leer 
- leernos ( ) lemma=leer 
+ lee ( ) 
+ leemos ( ) 
+ leen ( ) 
+ leer ( ) 
+ leeremos ( ) 
+ leerla ( ) 
+ leerle ( ) 
+ leerles ( ) 
+ leerlo ( ) 
+ leerlos ( ) 
+ leernos ( ) 
  leerse ( ) 
- leerte ( ) lemma=leer 
- leerá ( ) lemma=leer 
- leerán ( ) lemma=leer 
- leeré ( ) lemma=leer 
- leería ( ) lemma=leer 
- leeríamos ( ) lemma=leer 
- lees ( ) lemma=leer 
+ leerte ( ) 
+ leerá ( ) 
+ leerán ( ) 
+ leeré ( ) 
+ leería ( ) 
+ leeríamos ( ) 
+ lees ( ) 
  left ( ) 
- legada ( ) lemma=legar 
- legar ( ) 
- legado ( ) 
- legados ( ) lemma=legado 
+ legada ( ) lemma=plegar 
+ legado ( ) lemma=llegar 
+ legados ( ) 
  legajo ( ) 
- legajos ( ) lemma=legajo 
+ legajos ( ) 
  legal ( ) 
- legales ( ) lemma=legal 
- legalice ( ) lemma=legalizar 
- legalizar ( ) 
- legalicemos ( ) lemma=legalizar 
- legalicen ( ) lemma=legalizar 
+ legales ( ) 
+ legalice ( ) 
+ legalicemos ( ) 
+ legalicen ( ) 
  legalidad ( ) 
- legaliza ( ) lemma=legalizar 
- legalizaciones ( ) lemma=legalización 
+ legaliza ( ) 
+ legalizaciones ( ) 
  legalización ( ) 
- legalizada ( ) lemma=legalizar 
- legalizadas ( ) lemma=legalizar 
- legalizado ( ) lemma=legalizar 
- legalizados ( ) lemma=legalizar 
- legalizamos ( ) lemma=legalizar 
- legalizan ( ) lemma=legalizar 
- legalizando ( ) lemma=legalizar 
- legalizara ( ) lemma=legalizar 
- legalizaran ( ) lemma=legalizar 
- legalizaremos ( ) lemma=legalizar 
- legalizarlos ( ) lemma=legalizar 
- legalizó ( ) lemma=legalizar 
- legalmente ( ) lemma=legal 
- legaron ( ) lemma=legar 
- legará ( ) lemma=legar 
+ legalizada ( ) 
+ legalizadas ( ) 
+ legalizado ( ) 
+ legalizados ( ) 
+ legalizamos ( ) 
+ legalizan ( ) 
+ legalizando ( ) 
+ legalizar ( ) 
+ legalizara ( ) 
+ legalizaran ( ) 
+ legalizaremos ( ) 
+ legalizarlos ( ) 
+ legalizó ( ) 
+ legalmente ( ) 
+ legar ( ) lemma=plegar 
+ legaron ( ) 
+ legará ( ) lemma=llegar 
  legatario ( ) 
- legatarios ( ) lemma=legatario 
- legendaria ( ) lemma=legendario 
+ legatarios ( ) 
+ legendaria ( ) 
+ legendarias ( ) 
  legendario ( ) 
- legendarias ( ) lemma=legendario 
- legendarios ( ) lemma=legendario 
+ legendarios ( ) 
  legibilidad ( ) 
- legible ( ) 
- legibles ( ) lemma=legible 
+ legible ( ) lemma=ilegible 
+ legibles ( ) 
  legionario ( ) 
- legionarios ( ) lemma=legionario 
- legiones ( ) lemma=legión 
- legión ( ) 
- legisla ( ) lemma=legislar 
- legislar ( ) 
- legislaciones ( ) lemma=legislación 
+ legionarios ( ) 
+ legiones ( ) 
+ legisla ( ) 
+ legislaciones ( ) 
  legislación ( ) 
- legislado ( ) lemma=legislar 
+ legislado ( ) 
  legislador ( ) 
- legisladora ( ) lemma=legislador 
- legisladores ( ) lemma=legislador 
- legislados ( ) lemma=legislar 
- legislamos ( ) lemma=legislar 
- legislan ( ) lemma=legislar 
- legislando ( ) lemma=legislar 
- legislara ( ) lemma=legislar 
- legislará ( ) lemma=legislar 
- legislativa ( ) lemma=legislativo 
+ legisladora ( ) 
+ legisladores ( ) 
+ legislados ( ) 
+ legislamos ( ) 
+ legislan ( ) 
+ legislando ( ) 
+ legislar ( ) 
+ legislara ( ) 
+ legislará ( ) 
+ legislativa ( ) 
+ legislativamente ( ) 
+ legislativas ( ) 
  legislativo ( ) 
- legislativamente ( ) lemma=legislativo 
- legislativas ( ) lemma=legislativo 
- legislativos ( ) lemma=legislativo 
+ legislativos ( ) 
  legislatura ( ) 
- legislaturas ( ) lemma=legislatura 
- legisle ( ) lemma=legislar 
- legislemos ( ) lemma=legislar 
- legislen ( ) lemma=legislar 
- legisló ( ) lemma=legislar 
- legitima ( ) lemma=legitimar 
- legitimar ( ) 
+ legislaturas ( ) 
+ legisle ( ) 
+ legislemos ( ) 
+ legislen ( ) 
+ legisló ( ) 
+ legitima ( ) 
  legitimación ( ) 
- legitimada ( ) lemma=legitimar 
- legitimadas ( ) lemma=legitimar 
- legitimado ( ) lemma=legitimar 
- legitimados ( ) lemma=legitimar 
- legitimando ( ) lemma=legitimar 
- legitimaremos ( ) lemma=legitimar 
- legitimarios ( ) lemma=legitimario 
- legitimario ( ) 
- legitimaron ( ) lemma=legitimar 
- legitimaría ( ) lemma=legitimar 
- legitime ( ) lemma=legitimar 
- legitimen ( ) lemma=legitimar 
+ legitimada ( ) 
+ legitimadas ( ) 
+ legitimado ( ) 
+ legitimados ( ) 
+ legitimando ( ) 
+ legitimar ( ) 
+ legitimaremos ( ) 
+ legitimarios ( ) 
+ legitimaron ( ) 
+ legitimaría ( ) 
+ legitime ( ) 
+ legitimen ( ) 
  legitimidad ( ) 
- legitimidades ( ) lemma=legitimidad 
- legitimo ( ) lemma=legitimar 
- lego ( ) lemma=legar 
+ legitimidades ( ) 
+ legitimo ( ) 
+ legión ( ) 
+ lego ( ) 
  legua ( ) 
- leguas ( ) lemma=legua 
+ leguas ( ) 
  legumbre ( ) 
- legumbres ( ) lemma=legumbre 
- leguminosas ( ) lemma=leguminosa 
- leguminosa ( ) 
+ legumbres ( ) 
+ leguminosas ( ) 
  leguminoso ( ) 
- legítima ( ) lemma=legítimo 
- legítimo ( ) 
- legítimamente ( ) lemma=legítimo 
- legítimas ( ) lemma=legítimo 
- legítimos ( ) lemma=legítimo 
- lei ( ) lemma=leer 
+ legítima ( ) lemma=ilegítimo 
+ legítimamente ( ) 
+ legítimas ( ) 
+ legítimo ( ) lemma=ilegítimo 
+ legítimos ( ) 
+ lei ( ) 
  leiomioma ( ) 
  leishmaniasis ( ) 
- lejana ( ) lemma=lejano 
+ lejana ( ) 
+ lejanamente ( ) 
+ lejanas ( ) 
  lejano ( ) 
- lejanamente ( ) lemma=lejano 
- lejanas ( ) lemma=lejano 
- lejanos ( ) lemma=lejano 
+ lejanos ( ) 
  lejanía ( ) 
- lejanías ( ) lemma=lejanía 
+ lejanías ( ) 
  lejos ( ) 
  lejía ( ) 
  lejísimo ( ) 
- lejísimos ( ) lemma=lejos 
+ lejísimos ( ) 
  lema ( ) 
- lemas ( ) lemma=lema 
+ lemas ( ) 
  length ( ) 
  lengua ( ) 
  lenguage ( ) 
  lenguaje ( ) 
- lenguajes ( ) lemma=lenguaje 
- lenguas ( ) lemma=lengua 
+ lenguajes ( ) 
+ lenguas ( ) 
  lengüeta ( ) 
- lengüetas ( ) lemma=lengüeta 
- lenta ( ) lemma=lento 
- lento ( ) 
- lentamente ( ) lemma=lento 
- lentas ( ) lemma=lento 
+ lengüetas ( ) 
+ lenta ( ) lemma=alentar 
+ lentamente ( ) 
+ lentas ( ) 
  lente ( ) 
- lentejas ( ) lemma=lenteja 
- lenteja ( ) 
- lentejuelas ( ) lemma=lentejuela 
- lentejuela ( ) 
- lentes ( ) lemma=lente 
- lentillas ( ) lemma=lento 
+ lentejas ( ) 
+ lentejuelas ( ) 
+ lentes ( ) 
+ lentillas ( ) 
  lentitud ( ) 
- lentitudes ( ) lemma=lentitud 
- lentos ( ) lemma=lento 
- lentísimo ( ) lemma=lento 
- lentísimos ( ) lemma=lento 
- leo ( ) lemma=leer 
- leona ( ) lemma=león 
- león ( ) 
- leonas ( ) lemma=león 
- leones ( ) lemma=león 
- leonesa ( ) lemma=leonés 
+ lentitudes ( ) 
+ lento ( ) 
+ lentos ( ) 
+ lentísimo ( ) 
+ lentísimos ( ) 
+ leo ( ) 
+ leona ( ) 
+ leonas ( ) 
+ leones ( ) 
+ leonesa ( ) 
+ leoneses ( ) 
  leonés ( ) 
- leoneses ( ) lemma=leonés 
  leopardo ( ) 
- lepidópteros ( ) lemma=lepidóptero 
- lepidóptero ( ) 
+ lepidópteros ( ) 
  leporino ( ) 
  lepra ( ) 
- leprosos ( ) lemma=leproso 
- leproso ( ) 
+ leprosos ( ) 
  leptina ( ) 
  leptospirósico ( ) 
- les ( ) 
- lesa ( ) lemma=leso 
- leso ( ) 
- lesbiana ( ) lemma=lesbiano 
- lesbiano ( ) 
- lesbianas ( ) lemma=lesbiano 
- lesiona ( ) lemma=lesionar 
- lesionar ( ) 
- lesionaban ( ) lemma=lesionar 
- lesionada ( ) lemma=lesionar 
- lesionadas ( ) lemma=lesionar 
- lesionado ( ) lemma=lesionar 
- lesionados ( ) lemma=lesionar 
+ les ( ) lemma=ileso 
+ lesa ( ) lemma=ileso 
+ lesbiana ( ) 
+ lesbianas ( ) 
+ lesiona ( ) 
+ lesionaban ( ) 
+ lesionada ( ) 
+ lesionadas ( ) 
+ lesionado ( ) 
+ lesionados ( ) 
  lesional ( ) 
- lesionan ( ) lemma=lesionar 
- lesionando ( ) lemma=lesionar 
+ lesionan ( ) 
+ lesionando ( ) 
+ lesionar ( ) 
  lesionarse ( ) 
- lesionaría ( ) lemma=lesionar 
- lesionas ( ) lemma=lesionar 
- lesione ( ) lemma=lesionar 
- lesionen ( ) lemma=lesionar 
- lesiones ( ) lemma=lesión 
+ lesionaría ( ) 
+ lesionas ( ) 
+ lesione ( ) 
+ lesionen ( ) 
+ lesiones ( ) 
+ lesioné ( ) 
+ lesionó ( ) 
+ lesivas ( ) 
  lesión ( ) 
- lesioné ( ) lemma=lesionar 
- lesionó ( ) lemma=lesionar 
- lesivas ( ) lemma=lesivo 
- lesivo ( ) 
+ leso ( ) lemma=ileso 
  letal ( ) 
- letales ( ) lemma=letal 
+ letales ( ) 
  letalidad ( ) 
- letalmente ( ) lemma=letal 
+ letalmente ( ) 
  letanía ( ) 
- letanías ( ) lemma=letanía 
+ letanías ( ) 
  letargo ( ) 
  letra ( ) 
- letrada ( ) lemma=letrado 
+ letrada ( ) 
  letrado ( ) 
- letrados ( ) lemma=letrado 
- letras ( ) lemma=letra 
+ letrados ( ) 
+ letras ( ) 
  letrero ( ) 
- letreros ( ) lemma=letrero 
- letritas ( ) lemma=letra 
+ letreros ( ) 
+ letritas ( ) 
  letter ( ) 
  letters ( ) 
  lettres ( ) 
- letárgica ( ) lemma=letárgico 
+ letárgica ( ) 
+ letárgicas ( ) 
  letárgico ( ) 
- letárgicas ( ) lemma=letárgico 
  leu ( ) 
  leucemia ( ) 
- leucemias ( ) lemma=leucemia 
+ leucemias ( ) 
  leucina ( ) 
- leucinas ( ) lemma=leucina 
- leucocitaria ( ) lemma=leucocitario 
+ leucinas ( ) 
+ leucocitaria ( ) 
  leucocitario ( ) 
- leucocitarios ( ) lemma=leucocitario 
+ leucocitarios ( ) 
  leucocito ( ) 
- leucocitos ( ) lemma=leucocito 
+ leucocitos ( ) 
  leucocitosis ( ) 
- leucocíticos ( ) lemma=leucocítico 
- leucocítico ( ) 
+ leucocíticos ( ) 
  leucograma ( ) 
  leucomielitis ( ) 
  leucopenia ( ) 
- leucémicas ( ) lemma=leucémico 
- leucémico ( ) 
- leucémicos ( ) lemma=leucémico 
- levadas ( ) lemma=levar 
- levar ( ) 
+ leucémicas ( ) 
+ leucémicos ( ) 
+ levadas ( ) 
  levadura ( ) 
- levaduras ( ) lemma=levadura 
- levanta ( ) lemma=levantar 
- levantar ( ) 
- levantaba ( ) lemma=levantar 
- levantaban ( ) lemma=levantar 
- levantad ( ) lemma=levantar 
- levantada ( ) lemma=levantar 
- levantadas ( ) lemma=levantar 
- levantado ( ) lemma=levantar 
- levantados ( ) lemma=levantar 
+ levaduras ( ) 
+ levanta ( ) 
+ levantaba ( ) 
+ levantaban ( ) 
+ levantad ( ) 
+ levantada ( ) 
+ levantadas ( ) 
+ levantado ( ) 
+ levantados ( ) 
  levantamiento ( ) 
- levantamientos ( ) lemma=levantamiento 
- levantamos ( ) lemma=levantar 
- levantan ( ) lemma=levantar 
- levantando ( ) lemma=levantar 
- levantandose ( ) lemma=levantar 
- levantara ( ) lemma=levantar 
- levantaran ( ) lemma=levantar 
- levantaremos ( ) lemma=levantar 
- levantarla ( ) lemma=levantar 
- levantarlo ( ) lemma=levantar 
- levantarme ( ) lemma=levantar 
- levantarnos ( ) lemma=levantar 
- levantaron ( ) lemma=levantar 
- levantaros ( ) lemma=levantar 
+ levantamientos ( ) 
+ levantamos ( ) 
+ levantan ( ) 
+ levantando ( ) 
+ levantandose ( ) 
+ levantar ( ) 
+ levantara ( ) 
+ levantaran ( ) 
+ levantaremos ( ) 
+ levantarla ( ) 
+ levantarlo ( ) 
+ levantarme ( ) 
+ levantarnos ( ) 
+ levantaron ( ) 
+ levantaros ( ) 
  levantarse ( ) 
- levantarte ( ) lemma=levantar 
- levantará ( ) lemma=levantar 
- levantarán ( ) lemma=levantar 
- levantaré ( ) lemma=levantar 
- levantaría ( ) lemma=levantar 
- levantas ( ) lemma=levantar 
- levantase ( ) lemma=levantar 
+ levantarte ( ) 
+ levantará ( ) 
+ levantarán ( ) 
+ levantaré ( ) 
+ levantaría ( ) 
+ levantas ( ) 
+ levantase ( ) 
  levante ( ) 
- levantemos ( ) lemma=levantar 
- levanten ( ) lemma=levantar 
- levantes ( ) lemma=levante 
- levanto ( ) lemma=levantar 
- levantásemos ( ) lemma=levantar 
- levanté ( ) lemma=levantar 
- levantó ( ) lemma=levantar 
- levas ( ) lemma=levar 
- leve ( ) 
+ levantemos ( ) 
+ levanten ( ) 
+ levantes ( ) 
+ levanto ( ) 
+ levantásemos ( ) 
+ levanté ( ) 
+ levantó ( ) 
+ levar ( ) lemma=llevar 
+ levas ( ) lemma=llevar 
+ leve ( ) lemma=llevar 
  level ( ) 
- levemente ( ) lemma=leve 
- leves ( ) lemma=leve 
+ levemente ( ) 
+ leves ( ) 
  levres ( ) 
- levántate ( ) lemma=levantar 
- levántatelas ( ) lemma=levantar 
- levántense ( ) lemma=levantar 
- levísima ( ) lemma=leve 
+ levántate ( ) 
+ levántatelas ( ) 
+ levántense ( ) 
+ levísima ( ) 
  lexa ( ) 
  lexema ( ) 
- lexemas ( ) lemma=lexema 
- lexicones ( ) lemma=lexicón 
+ lexemas ( ) 
+ lexicones ( ) 
+ lexicógrafos ( ) 
  lexicón ( ) 
- lexicógrafos ( ) lemma=lexicógrafo 
- lexicógrafo ( ) 
- lexo ( ) 
+ lexo ( ) lemma=plexo 
  ley ( ) 
  leyenda ( ) 
- leyendas ( ) lemma=leyenda 
- leyendo ( ) lemma=leer 
- leyera ( ) lemma=leer 
- leyeran ( ) lemma=leer 
- leyeron ( ) lemma=leer 
- leyes ( ) lemma=ley 
- leyese ( ) lemma=leer 
- leyesen ( ) lemma=leer 
- leyéndole ( ) lemma=leer 
- leyéndolos ( ) lemma=leer 
- leyéndome ( ) lemma=leer 
- leyéramos ( ) lemma=leer 
- leyésemos ( ) lemma=leer 
- leyó ( ) lemma=leer 
+ leyendas ( ) 
+ leyendo ( ) 
+ leyera ( ) 
+ leyeran ( ) 
+ leyeron ( ) 
+ leyes ( ) 
+ leyese ( ) 
+ leyesen ( ) 
+ leyéndole ( ) 
+ leyéndolos ( ) 
+ leyéndome ( ) 
+ leyéramos ( ) 
+ leyésemos ( ) 
+ leyó ( ) 
  lezda ( ) 
- leáis ( ) lemma=leer 
- leéis ( ) lemma=leer 
- leérsela ( ) lemma=leerse 
- leérselo ( ) lemma=leerse 
- leí ( ) lemma=leer 
- leía ( ) lemma=leer 
- leíais ( ) lemma=leer 
- leíamos ( ) lemma=leer 
- leían ( ) lemma=leer 
- leída ( ) lemma=leer 
- leídas ( ) lemma=leer 
- leído ( ) lemma=leer 
- leídos ( ) lemma=leer 
- leímos ( ) lemma=leer 
- leíste ( ) lemma=leer 
+ leáis ( ) 
+ leéis ( ) 
+ leérsela ( ) 
+ leérselo ( ) 
+ leí ( ) 
+ leía ( ) 
+ leíais ( ) 
+ leíamos ( ) 
+ leían ( ) 
+ leída ( ) 
+ leídas ( ) 
+ leído ( ) 
+ leídos ( ) 
+ leímos ( ) 
+ leíste ( ) 
  leña ( ) 
  leñador ( ) 
- leñadores ( ) lemma=leñador 
- leñas ( ) lemma=leña 
+ leñadores ( ) 
+ leñas ( ) 
  leño ( ) 
- leñosas ( ) lemma=leñoso 
- leñoso ( ) 
- liaba ( ) lemma=liar 
- liar ( ) 
- liada ( ) lemma=liar 
- liado ( ) lemma=liar 
+ leñosas ( ) 
+ león ( ) 
+ liaba ( ) 
+ liada ( ) lemma=aliado 
+ liado ( ) lemma=aliado 
  liaison ( ) 
  liaisons ( ) 
- liando ( ) lemma=liar 
+ liando ( ) 
+ liar ( ) 
  libanesa ( ) 
- libanesas ( ) lemma=libanés 
+ libanesas ( ) 
+ libaneses ( ) 
  libanés ( ) 
- libaneses ( ) lemma=libanés 
  libc ( ) 
- libelo ( ) lemma=libelar 
- libelar ( ) 
- libera ( ) lemma=liberar 
- liberar ( ) 
- liberaba ( ) lemma=liberar 
- liberaban ( ) lemma=liberar 
- liberaciones ( ) lemma=liberación 
- liberación ( ) 
+ libelo ( ) 
+ libera ( ) 
+ liberaba ( ) 
+ liberaban ( ) 
+ liberaciones ( ) 
  liberacióm ( ) 
- liberada ( ) lemma=liberado 
+ liberación ( ) 
+ liberada ( ) 
+ liberadas ( ) 
  liberado ( ) 
- liberadas ( ) lemma=liberar 
  liberador ( ) 
- liberadora ( ) lemma=liberador 
- liberadores ( ) lemma=liberador 
- liberados ( ) lemma=liberar 
+ liberadora ( ) 
+ liberadores ( ) 
+ liberados ( ) 
  liberal ( ) 
- liberales ( ) lemma=liberal 
- liberalice ( ) lemma=liberalizar 
- liberalizar ( ) 
- liberalicen ( ) lemma=liberalizar 
+ liberales ( ) 
+ liberalice ( ) 
+ liberalicen ( ) 
  liberalidad ( ) 
- liberalidades ( ) lemma=liberalidad 
+ liberalidades ( ) 
  liberalismo ( ) 
- liberaliza ( ) lemma=liberalizar 
- liberalizaciones ( ) lemma=liberalización 
+ liberaliza ( ) 
+ liberalizaciones ( ) 
  liberalización ( ) 
- liberalizada ( ) lemma=liberalizar 
- liberalizadas ( ) lemma=liberalizar 
- liberalizado ( ) lemma=liberalizar 
- liberalizadoras ( ) lemma=liberalizador 
- liberalizador ( ) 
- liberalizados ( ) lemma=liberalizar 
- liberalizamos ( ) lemma=liberalizar 
- liberalizan ( ) lemma=liberalizar 
- liberalizando ( ) lemma=liberalizar 
- liberalizara ( ) lemma=liberalizar 
- liberalizará ( ) lemma=liberalizar 
- liberalizarán ( ) lemma=liberalizar 
- liberalizó ( ) lemma=liberalizar 
- liberamos ( ) lemma=liberar 
- liberan ( ) lemma=liberar 
- liberando ( ) lemma=liberar 
- liberara ( ) lemma=liberar 
- liberaran ( ) lemma=liberar 
- liberaremos ( ) lemma=liberar 
- liberarla ( ) lemma=liberar 
- liberarlas ( ) lemma=liberar 
- liberarle ( ) lemma=liberar 
- liberarlo ( ) lemma=liberar 
- liberarme ( ) lemma=liberar 
- liberarnos ( ) lemma=liberar 
- liberaron ( ) lemma=liberar 
+ liberalizada ( ) 
+ liberalizadas ( ) 
+ liberalizado ( ) 
+ liberalizadoras ( ) 
+ liberalizados ( ) 
+ liberalizamos ( ) 
+ liberalizan ( ) 
+ liberalizando ( ) 
+ liberalizar ( ) 
+ liberalizara ( ) 
+ liberalizará ( ) 
+ liberalizarán ( ) 
+ liberalizó ( ) 
+ liberamos ( ) 
+ liberan ( ) 
+ liberando ( ) 
+ liberar ( ) 
+ liberara ( ) 
+ liberaran ( ) 
+ liberaremos ( ) 
+ liberarla ( ) 
+ liberarlas ( ) 
+ liberarle ( ) 
+ liberarlo ( ) 
+ liberarme ( ) 
+ liberarnos ( ) 
+ liberaron ( ) 
  liberarse ( ) 
- liberará ( ) lemma=liberar 
- liberarán ( ) lemma=liberar 
- liberaré ( ) lemma=liberar 
- liberaría ( ) lemma=liberar 
- liberarían ( ) lemma=liberar 
- libere ( ) lemma=liberar 
- liberemos ( ) lemma=liberar 
- liberen ( ) lemma=liberar 
- liberiana ( ) lemma=liberiano 
+ liberará ( ) 
+ liberarán ( ) 
+ liberaré ( ) 
+ liberaría ( ) 
+ liberarían ( ) 
+ libere ( ) 
+ liberemos ( ) 
+ liberen ( ) 
+ liberiana ( ) 
  liberiano ( ) 
- liberianos ( ) lemma=liberiano 
- libero ( ) lemma=liberar 
+ liberianos ( ) 
+ libero ( ) 
  libertad ( ) 
- libertades ( ) lemma=libertad 
+ libertades ( ) 
  libertador ( ) 
- libertadores ( ) lemma=libertador 
- libertaria ( ) lemma=libertario 
+ libertadores ( ) 
+ libertaria ( ) 
  libertario ( ) 
- libertarios ( ) lemma=libertario 
+ libertarios ( ) 
  libertino ( ) 
- liberándolos ( ) lemma=liberar 
+ liberándolos ( ) 
  liberándose ( ) 
- liberó ( ) lemma=liberar 
+ liberó ( ) 
  libido ( ) 
  libra ( ) 
- libraba ( ) lemma=librar 
- librar ( ) 
- libraban ( ) lemma=librar 
- librada ( ) lemma=librar 
- libradas ( ) lemma=librar 
- librado ( ) lemma=librar 
+ libraba ( ) 
+ libraban ( ) 
+ librada ( ) 
+ libradas ( ) 
+ librado ( ) 
  librador ( ) 
- librados ( ) lemma=librar 
- libramos ( ) lemma=librar 
- libran ( ) lemma=librar 
- librando ( ) lemma=librar 
- librara ( ) lemma=librar 
- libraran ( ) lemma=librar 
- libraremos ( ) lemma=librar 
- libraron ( ) lemma=librar 
+ librados ( ) 
+ libramos ( ) 
+ libran ( ) 
+ librando ( ) 
+ librar ( ) 
+ librara ( ) 
+ libraran ( ) 
+ libraremos ( ) 
+ libraron ( ) 
  librarse ( ) 
- librarán ( ) lemma=librar 
- libraría ( ) lemma=librar 
- libraríamos ( ) lemma=librar 
- librarían ( ) lemma=librar 
- libras ( ) lemma=libra 
+ librarán ( ) 
+ libraría ( ) 
+ libraríamos ( ) 
+ librarían ( ) 
+ libras ( ) 
  libre ( ) 
- libreas ( ) lemma=librea 
- librea ( ) 
+ libreas ( ) 
  librecambio ( ) 
- libremente ( ) lemma=libre 
- libren ( ) lemma=librar 
+ libremente ( ) 
+ libren ( ) 
  librería ( ) 
- librerías ( ) lemma=librería 
- libres ( ) lemma=libre 
+ librerías ( ) 
+ libres ( ) 
  libreta ( ) 
- libretas ( ) lemma=libreta 
+ libretas ( ) 
  libreto ( ) 
- librillo ( ) lemma=libro 
+ librillo ( ) 
+ librito ( ) 
  libro ( ) 
- librito ( ) lemma=libro 
  libro-registro ( ) 
- libros ( ) lemma=libro 
- libráramos ( ) lemma=librar 
- libré ( ) lemma=librar 
- libró ( ) lemma=librar 
+ libros ( ) 
+ libráramos ( ) 
+ libré ( ) 
+ libró ( ) 
  libération ( ) 
- libérese ( ) lemma=liberarse 
+ libérese ( ) 
  licencia ( ) 
- licenciada ( ) lemma=licenciado 
+ licenciada ( ) 
+ licenciadas ( ) 
  licenciado ( ) 
- licenciadas ( ) lemma=licenciado 
- licenciados ( ) lemma=licenciado 
+ licenciados ( ) 
  licenciar ( ) 
- licencias ( ) lemma=licencia 
+ licencias ( ) 
  licenciatura ( ) 
- licenciaturas ( ) lemma=licenciatura 
- licencie ( ) lemma=licenciar 
- licenció ( ) lemma=licenciar 
+ licenciaturas ( ) 
+ licencie ( ) 
+ licenció ( ) 
  liceo ( ) 
- liceos ( ) lemma=liceo 
- licitaciones ( ) lemma=licitación 
+ liceos ( ) 
+ licitaciones ( ) 
  licitación ( ) 
- licitadores ( ) lemma=licitador 
- licitador ( ) 
+ licitadores ( ) 
  licitar ( ) 
  licitud ( ) 
  licor ( ) 
- licores ( ) lemma=licor 
- licuado ( ) lemma=licuar 
- licuar ( ) 
- licuados ( ) lemma=licuar 
+ licores ( ) 
+ licuado ( ) 
+ licuados ( ) 
  licuefacción ( ) 
- lid ( ) 
- lidera ( ) lemma=liderar 
+ lid ( ) lemma=oler 
+ lidera ( ) 
+ lideraba ( ) 
+ liderada ( ) 
+ lideradas ( ) 
+ liderado ( ) 
+ liderados ( ) 
+ lideran ( ) 
  liderar ( ) 
- lideraba ( ) lemma=liderar 
- liderada ( ) lemma=liderar 
- lideradas ( ) lemma=liderar 
- liderado ( ) lemma=liderar 
- liderados ( ) lemma=liderar 
- lideran ( ) lemma=liderar 
- liderase ( ) lemma=liderar 
+ liderase ( ) 
  liderato ( ) 
  liderazgo ( ) 
- liderazgos ( ) lemma=liderazgo 
- lidere ( ) lemma=liderar 
- lideres ( ) lemma=liderar 
- lideró ( ) lemma=liderar 
- lidia ( ) lemma=lidiar 
+ liderazgos ( ) 
+ lidere ( ) 
+ lideres ( ) 
+ lideró ( ) 
+ lidia ( ) 
+ lidiada ( ) 
+ lidiadas ( ) 
+ lidiado ( ) 
+ lidian ( ) 
  lidiar ( ) 
- lidiada ( ) lemma=lidiar 
- lidiadas ( ) lemma=lidiar 
- lidiado ( ) lemma=lidiar 
- lidian ( ) lemma=lidiar 
- lidiaron ( ) lemma=lidiar 
- lidiará ( ) lemma=lidiar 
- lidiarán ( ) lemma=lidiar 
- lidió ( ) lemma=lidiar 
+ lidiaron ( ) 
+ lidiará ( ) 
+ lidiarán ( ) 
+ lidió ( ) 
  lidocaíno ( ) 
  liebre ( ) 
- liebres ( ) lemma=liebre 
+ liebres ( ) 
  lientería ( ) 
  lienzo ( ) 
- lienzos ( ) lemma=lienzo 
+ lienzos ( ) 
  liga ( ) 
  ligación ( ) 
- ligada ( ) lemma=ligado 
+ ligada ( ) 
+ ligadas ( ) 
  ligado ( ) 
- ligadas ( ) lemma=ligado 
- ligados ( ) lemma=ligado 
+ ligados ( ) 
  ligadura ( ) 
- ligaduras ( ) lemma=ligadura 
+ ligaduras ( ) 
  ligamen ( ) 
  ligamento ( ) 
- ligamentos ( ) lemma=ligamento 
+ ligamentos ( ) 
  ligamentoso ( ) 
  ligamiento ( ) 
- ligamos ( ) lemma=ligar 
- ligar ( ) 
- ligan ( ) lemma=ligar 
- ligando ( ) lemma=ligar 
- ligandos ( ) lemma=ligando 
+ ligamos ( ) 
+ ligan ( ) 
+ ligando ( ) 
+ ligandos ( ) 
  ligante ( ) 
- ligaron ( ) lemma=ligar 
- ligas ( ) lemma=liga 
+ ligar ( ) 
+ ligaron ( ) 
+ ligas ( ) 
  ligasa ( ) 
- ligera ( ) lemma=ligero 
- ligero ( ) 
- ligeramente ( ) lemma=ligero 
- ligeras ( ) lemma=ligero 
+ ligera ( ) lemma=aligerar 
+ ligeramente ( ) 
+ ligeras ( ) 
  ligereza ( ) 
- ligerito ( ) lemma=ligero 
- ligeros ( ) lemma=ligero 
- ligerísima ( ) lemma=ligero 
- ligerísimo ( ) lemma=ligero 
- ligerísimos ( ) lemma=ligero 
+ ligerito ( ) 
+ ligero ( ) 
+ ligeros ( ) 
+ ligerísima ( ) 
+ ligerísimo ( ) 
+ ligerísimos ( ) 
  ligne ( ) 
  lignes ( ) 
- ligo ( ) lemma=ligar 
- ligue ( ) lemma=ligar 
- ligues ( ) lemma=ligar 
- liguilla ( ) lemma=liga 
+ ligo ( ) 
+ ligue ( ) 
+ ligues ( ) 
+ liguilla ( ) 
  ligura ( ) 
- ligó ( ) lemma=ligar 
- lijarse ( ) lemma=lijar 
- lijar ( ) 
+ ligó ( ) 
+ lijarse ( ) 
  lila ( ) 
- lima ( ) 
- limadas ( ) lemma=limar 
+ lima ( ) lemma=clima 
+ limadas ( ) 
+ limado ( ) 
+ limanda ( ) 
+ limando ( ) 
  limar ( ) 
- limado ( ) lemma=limar 
- limanda ( ) lemma=limar 
- limando ( ) lemma=limar 
- limaría ( ) lemma=limar 
+ limaría ( ) 
  limbo ( ) 
- limeña ( ) lemma=limeño 
+ limeña ( ) 
+ limeñas ( ) 
  limeño ( ) 
- limeñas ( ) lemma=limeño 
- limeños ( ) lemma=limeño 
- limita ( ) lemma=limitar 
- limitar ( ) 
- limitaba ( ) lemma=limitar 
- limitaban ( ) lemma=limitar 
- limitaciones ( ) lemma=limitación 
+ limeños ( ) 
+ limita ( ) 
+ limitaba ( ) 
+ limitaban ( ) 
+ limitaciones ( ) 
  limitación ( ) 
- limitada ( ) lemma=limitado 
- limitado ( ) 
- limitadamente ( ) lemma=limitado 
- limitadas ( ) lemma=limitado 
- limitados ( ) lemma=limitado 
- limitadísima ( ) lemma=limitado 
- limitadísimas ( ) lemma=limitado 
+ limitada ( ) lemma=ilimitado 
+ limitadamente ( ) 
+ limitadas ( ) 
+ limitado ( ) lemma=ilimitado 
+ limitados ( ) 
+ limitadísima ( ) 
+ limitadísimas ( ) 
  limitadísimo ( ) 
- limitadísimos ( ) lemma=limitado 
- limitamos ( ) lemma=limitar 
- limitan ( ) lemma=limitar 
- limitando ( ) lemma=limitar 
+ limitadísimos ( ) 
+ limitamos ( ) 
+ limitan ( ) 
+ limitando ( ) 
  limitante ( ) 
- limitara ( ) lemma=limitar 
- limitaran ( ) lemma=limitar 
- limitaremos ( ) lemma=limitar 
- limitarnos ( ) lemma=limitar 
- limitaron ( ) lemma=limitar 
+ limitar ( ) 
+ limitara ( ) 
+ limitaran ( ) 
+ limitaremos ( ) 
+ limitarnos ( ) 
+ limitaron ( ) 
  limitarse ( ) 
- limitará ( ) lemma=limitar 
- limitarán ( ) lemma=limitar 
- limitaré ( ) lemma=limitar 
- limitaría ( ) lemma=limitar 
- limitaríamos ( ) lemma=limitar 
- limitarían ( ) lemma=limitar 
- limitase ( ) lemma=limitar 
- limitasen ( ) lemma=limitar 
- limitativos ( ) lemma=limitativo 
- limitativo ( ) 
- limite ( ) lemma=limitar 
- limitemos ( ) lemma=limitar 
- limiten ( ) lemma=limitar 
- limites ( ) lemma=límite 
- límite ( ) 
- limito ( ) lemma=limo 
- limo ( ) 
- limitábamos ( ) lemma=limitar 
- limitándose ( ) lemma=limitar 
- limitáramos ( ) lemma=limitar 
- limitásemos ( ) lemma=limitar 
- limité ( ) lemma=limitar 
- limitémonos ( ) lemma=limitar 
- limitó ( ) lemma=limitar 
+ limitará ( ) 
+ limitarán ( ) 
+ limitaré ( ) 
+ limitaría ( ) 
+ limitaríamos ( ) 
+ limitarían ( ) 
+ limitase ( ) 
+ limitasen ( ) 
+ limitativos ( ) 
+ limite ( ) 
+ limitemos ( ) 
+ limiten ( ) 
+ limites ( ) 
+ limito ( ) 
+ limitábamos ( ) 
+ limitándose ( ) 
+ limitáramos ( ) 
+ limitásemos ( ) 
+ limité ( ) 
+ limitémonos ( ) 
+ limitó ( ) 
  limnológico ( ) 
- limones ( ) lemma=limón 
- limón ( ) 
+ limo ( ) 
+ limones ( ) 
  limosna ( ) 
- limosnas ( ) lemma=limosna 
- limpia ( ) lemma=limpio 
- limpio ( ) 
- limpiaba ( ) lemma=limpiar 
- limpiar ( ) 
- limpiaban ( ) lemma=limpiar 
- limpiado ( ) lemma=limpiar 
+ limosnas ( ) 
+ limpia ( ) 
+ limpiaba ( ) 
+ limpiaban ( ) 
+ limpiado ( ) 
  limpiador ( ) 
- limpiadores ( ) lemma=limpiador 
- limpiados ( ) lemma=limpiar 
- limpiamente ( ) lemma=limpio 
- limpian ( ) lemma=limpiar 
- limpiando ( ) lemma=limpiar 
+ limpiadores ( ) 
+ limpiados ( ) 
+ limpiamente ( ) 
+ limpian ( ) 
+ limpiando ( ) 
  limpiaparabrisas ( ) 
- limpiarlo ( ) lemma=limpiar 
- limpiarlos ( ) lemma=limpiar 
- limpiaron ( ) lemma=limpiar 
+ limpiar ( ) 
+ limpiarlo ( ) 
+ limpiarlos ( ) 
+ limpiaron ( ) 
  limpiarse ( ) 
- limpiará ( ) lemma=limpiar 
- limpias ( ) lemma=limpio 
- limpiase ( ) lemma=limpiar 
- limpie ( ) lemma=limpiar 
- limpien ( ) lemma=limpiar 
+ limpiará ( ) 
+ limpias ( ) 
+ limpiase ( ) 
+ limpie ( ) 
+ limpien ( ) 
  limpieza ( ) 
- limpiezas ( ) lemma=limpieza 
- limpios ( ) lemma=limpio 
+ limpiezas ( ) 
+ limpio ( ) 
+ limpios ( ) 
  limpito ( ) 
- limpiáis ( ) lemma=limpiar 
- limpiándolo ( ) lemma=limpiar 
- limpiándose ( ) lemma=limpiar 
- limpió ( ) lemma=limpiar 
- limpísima ( ) lemma=limpio 
- limítese ( ) lemma=limitar 
+ limpiáis ( ) 
+ limpiándolo ( ) 
+ limpiándose ( ) 
+ limpió ( ) 
+ limpísima ( ) 
+ limítese ( ) 
  limítrofe ( ) 
- limítrofes ( ) lemma=limítrofe 
- limó ( ) lemma=limar 
+ limítrofes ( ) 
+ limó ( ) 
+ limón ( ) 
  linaje ( ) 
- linajes ( ) lemma=linaje 
+ linajes ( ) 
  linarense ( ) 
  lince ( ) 
- linces ( ) lemma=lince 
- lincha ( ) lemma=linchar 
- linchar ( ) 
- linchado ( ) lemma=linchar 
+ linces ( ) 
+ lincha ( ) 
+ linchado ( ) 
  linchamiento ( ) 
- linchamientos ( ) lemma=linchamiento 
- lincharon ( ) lemma=linchar 
- linchó ( ) lemma=linchar 
- linda ( ) lemma=linda|lindo 
- linda|lindo ( ) 
- lindan ( ) lemma=lindar 
- lindar ( ) 
+ linchamientos ( ) 
+ linchar ( ) 
+ lincharon ( ) 
+ linchó ( ) 
+ linda ( ) lemma=blindar 
+ lindan ( ) 
  lindante ( ) 
- lindas ( ) lemma=lindo 
- lindo ( ) 
+ lindas ( ) 
  linde ( ) 
  lindero ( ) 
- linderos ( ) lemma=lindero 
- lindos ( ) lemma=lindo 
- lindísima ( ) lemma=lindo 
- lindísimo ( ) lemma=lindo 
- line ( ) 
- linea ( ) lemma=línea 
- línea ( ) 
+ linderos ( ) 
+ lindo ( ) 
+ lindos ( ) 
+ lindísima ( ) 
+ lindísimo ( ) 
+ line ( ) lemma=alinear 
+ linea ( ) lemma=alinear 
  lineal ( ) 
- lineales ( ) lemma=lineal 
+ lineales ( ) 
  linealidad ( ) 
- linealmente ( ) lemma=lineal 
- lineamientos ( ) lemma=lineamiento 
- lineamiento ( ) 
+ linealmente ( ) 
+ lineamientos ( ) 
  linear ( ) 
- lineares ( ) lemma=linear 
- lineas ( ) lemma=línea 
+ lineares ( ) 
+ lineas ( ) 
  linfa ( ) 
  linfadenopatía ( ) 
  linfangitis ( ) 
- linfoblástica ( ) lemma=linfoblástico 
- linfoblástico ( ) 
- linfocitaria ( ) lemma=linfocitario 
+ linfoblástica ( ) 
+ linfocitaria ( ) 
+ linfocitarias ( ) 
  linfocitario ( ) 
- linfocitarias ( ) lemma=linfocitario 
  linfocito ( ) 
- linfocitos ( ) lemma=linfocito 
+ linfocitos ( ) 
  linfocitosis ( ) 
  linfocitotóxico ( ) 
  linfoide ( ) 
  linfoideo ( ) 
- linfoides ( ) lemma=linfoide 
+ linfoides ( ) 
  linfoma ( ) 
- linfomas ( ) lemma=linfoma 
- linfomatosa ( ) lemma=linfomatoso 
- linfomatoso ( ) 
+ linfomas ( ) 
+ linfomatosa ( ) 
  linfopenia ( ) 
- linfoquinas ( ) lemma=linfoquina 
- linfoquina ( ) 
- linfática ( ) lemma=linfático 
+ linfoquinas ( ) 
+ linfática ( ) 
+ linfáticas ( ) 
  linfático ( ) 
- linfáticas ( ) lemma=linfático 
- linfáticos ( ) lemma=linfático 
+ linfáticos ( ) 
  lingote ( ) 
- lingotes ( ) lemma=lingote 
+ lingotes ( ) 
  lingüista ( ) 
- lingüistas ( ) lemma=lingüista 
- lingüística ( ) lemma=lingüístico 
+ lingüistas ( ) 
+ lingüística ( ) 
+ lingüísticamente ( ) 
+ lingüísticas ( ) 
  lingüístico ( ) 
- lingüísticamente ( ) lemma=lingüístico 
- lingüísticas ( ) lemma=lingüístico 
- lingüísticos ( ) lemma=lingüístico 
- liniers ( ) lemma=linier 
- linier ( ) 
- linitas ( ) lemma=linea 
+ lingüísticos ( ) 
+ liniers ( ) 
+ linitas ( ) 
  link ( ) 
  lino ( ) 
  linoleico ( ) 
  linolénico ( ) 
  linterna ( ) 
- linternas ( ) lemma=linterna 
- liofilizados ( ) lemma=liofilizar 
- liofilizar ( ) 
+ linternas ( ) 
+ liofilizados ( ) 
  lip ( ) 
  lipasa ( ) 
- lipasas ( ) lemma=lipasa 
+ lipasas ( ) 
  lipidograma ( ) 
  lipodistrofia ( ) 
- lipodistrofias ( ) lemma=lipodistrofia 
- lipofílicas ( ) lemma=lipofílico 
- lipofílico ( ) 
+ lipodistrofias ( ) 
+ lipofílicas ( ) 
  lipoma ( ) 
  lipoplejo ( ) 
  lipoproteico ( ) 
  lipoproteína ( ) 
- lipoproteínas ( ) lemma=lipoproteína 
+ lipoproteínas ( ) 
  liposolubilidad ( ) 
  liposoluble ( ) 
  liposoma ( ) 
- liposomas ( ) lemma=liposoma 
+ liposomas ( ) 
  liposucción ( ) 
  lipotimia ( ) 
- lipídica ( ) lemma=lipídico 
+ lipídica ( ) 
+ lipídicas ( ) 
  lipídico ( ) 
- lipídicas ( ) lemma=lipídico 
- lipídicos ( ) lemma=lipídico 
+ lipídicos ( ) 
  lipólisis ( ) 
  liquen ( ) 
- liquida ( ) lemma=liquidar 
- liquidar ( ) 
+ liquida ( ) 
  liquidable ( ) 
- liquidaciones ( ) lemma=liquidación 
+ liquidaciones ( ) 
  liquidación ( ) 
- liquidada ( ) lemma=liquidar 
- liquidadas ( ) lemma=liquidar 
- liquidado ( ) lemma=liquidar 
- liquidadores ( ) lemma=liquidador 
- liquidador ( ) 
- liquidados ( ) lemma=liquidar 
- liquidan ( ) lemma=liquidar 
- liquidando ( ) lemma=liquidar 
- liquidaron ( ) lemma=liquidar 
- liquide ( ) lemma=liquidar 
+ liquidada ( ) 
+ liquidadas ( ) 
+ liquidado ( ) 
+ liquidadores ( ) 
+ liquidados ( ) 
+ liquidan ( ) 
+ liquidando ( ) 
+ liquidar ( ) 
+ liquidaron ( ) 
+ liquide ( ) 
  liquidez ( ) 
- liquido ( ) lemma=liquidar 
- liquidó ( ) lemma=liquidar 
+ liquido ( ) 
+ liquidó ( ) 
  lira ( ) 
- liras ( ) lemma=lira 
+ liras ( ) 
  lirio ( ) 
- lirios ( ) lemma=lirio 
+ lirios ( ) 
  lirismo ( ) 
- lisa ( ) lemma=liso 
- liso ( ) 
+ lisa ( ) 
  lisar ( ) 
- lisas ( ) lemma=liso 
- lisiada ( ) lemma=lisiado 
- lisiado ( ) 
- lisiados ( ) lemma=lisiado 
+ lisas ( ) 
+ lisiada ( ) 
+ lisiados ( ) 
  lisina ( ) 
- lisinas ( ) lemma=lisina 
+ lisinas ( ) 
  lisis ( ) 
+ liso ( ) 
  lisofosfolípido ( ) 
- lisos ( ) lemma=liso 
+ lisos ( ) 
  lisosomale ( ) 
- lisosomas ( ) lemma=lisosoma 
- lisosoma ( ) 
- lisosómicas ( ) lemma=lisosómico 
- lisosómico ( ) 
+ lisosomas ( ) 
+ lisosómicas ( ) 
  lisp ( ) 
- lista ( ) lemma=listo 
- listo ( ) 
- listaba ( ) lemma=listar 
- listar ( ) 
- listadas ( ) lemma=listar 
- listado ( ) 
- listados ( ) lemma=listado 
- listan ( ) lemma=listar 
- listará ( ) lemma=listar 
- listas ( ) lemma=lista 
+ lista ( ) 
+ listaba ( ) 
+ listadas ( ) 
+ listado ( ) lemma=alistar 
+ listados ( ) 
+ listan ( ) 
+ listar ( ) lemma=alistar 
+ listará ( ) 
+ listas ( ) 
  listener ( ) 
- listita ( ) lemma=listo 
- listones ( ) lemma=listonar 
- listonar ( ) 
- listos ( ) lemma=listo 
- listísimos ( ) lemma=listo 
- lite ( ) lemma=litar 
- litar ( ) 
+ listita ( ) 
+ listo ( ) 
+ listones ( ) 
+ listos ( ) 
+ listísimos ( ) 
+ lite ( ) lemma=elite 
  litera ( ) 
  literal ( ) 
- literales ( ) lemma=literal 
- literalmente ( ) lemma=literal 
- literaria ( ) lemma=literario 
+ literales ( ) 
+ literalmente ( ) 
+ literaria ( ) 
+ literariamente ( ) 
+ literarias ( ) 
  literario ( ) 
- literariamente ( ) lemma=literario 
- literarias ( ) lemma=literario 
- literarios ( ) lemma=literario 
+ literarios ( ) 
  literato ( ) 
- literatos ( ) lemma=literato 
+ literatos ( ) 
  literatura ( ) 
- literaturas ( ) lemma=literatura 
+ literaturas ( ) 
  litiasis ( ) 
- litigantes ( ) lemma=litigante 
- litigante ( ) 
+ litigantes ( ) 
  litigio ( ) 
- litigios ( ) lemma=litigio 
+ litigios ( ) 
  litografía ( ) 
- litológica ( ) lemma=litológico 
+ litológica ( ) 
  litológico ( ) 
  litoral ( ) 
- litorales ( ) lemma=litoral 
+ litorales ( ) 
  litro ( ) 
- litros ( ) lemma=litro 
+ litros ( ) 
  liturgia ( ) 
- liturgias ( ) lemma=liturgia 
- litúrgica ( ) lemma=litúrgico 
+ liturgias ( ) 
+ litúrgica ( ) 
  litúrgico ( ) 
- litúrgicos ( ) lemma=litúrgico 
- liviana ( ) lemma=liviano 
+ litúrgicos ( ) 
+ liviana ( ) lemma=alivianar 
+ livianas ( ) 
  liviano ( ) 
- livianas ( ) lemma=liviano 
- livianos ( ) lemma=liviano 
+ livianos ( ) 
  liza ( ) 
- lié ( ) lemma=liar 
- liéis ( ) lemma=liar 
- lió ( ) lemma=liar 
- llaga ( ) lemma=llagar 
+ lié ( ) 
+ liéis ( ) 
+ lió ( ) 
+ llaga ( ) 
  llagar ( ) 
- llagas ( ) lemma=llagar 
+ llagas ( ) 
  llama ( ) 
- llamaba ( ) lemma=llamar 
- llamar ( ) 
- llamaban ( ) lemma=llamar 
- llamabas ( ) lemma=llamar 
+ llamaba ( ) 
+ llamaban ( ) 
+ llamabas ( ) 
  llamada ( ) 
- llamadas ( ) lemma=llamada 
- llamadita ( ) lemma=llamada 
- llamaditas ( ) lemma=llamada 
+ llamadas ( ) 
+ llamadita ( ) 
+ llamaditas ( ) 
  llamado ( ) 
- llamados ( ) lemma=llamar 
- llamai ( ) lemma=llama 
+ llamados ( ) 
+ llamai ( ) 
  llamamiento ( ) 
- llamamientos ( ) lemma=llamamiento 
- llamamos ( ) lemma=llamar 
- llaman ( ) lemma=llamar 
- llamando ( ) lemma=llamar 
- llamante ( ) lemma=llamar 
- llamantes ( ) lemma=llamar 
- llamara ( ) lemma=llamar 
- llamaradas ( ) lemma=llamarada 
- llamarada ( ) 
- llamaran ( ) lemma=llamar 
- llamaremos ( ) lemma=llamar 
- llamarla ( ) lemma=llamar 
- llamarlas ( ) lemma=llamar 
- llamarle ( ) lemma=llamar 
- llamarles ( ) lemma=llamar 
- llamarlo ( ) lemma=llamar 
- llamarlos ( ) lemma=llamar 
- llamarme ( ) lemma=llamar 
- llamarnos ( ) lemma=llamar 
- llamaron ( ) lemma=llamar 
- llamaros ( ) lemma=llamar 
+ llamamientos ( ) 
+ llamamos ( ) 
+ llaman ( ) 
+ llamando ( ) 
+ llamante ( ) 
+ llamantes ( ) 
+ llamar ( ) 
+ llamara ( ) 
+ llamaradas ( ) 
+ llamaran ( ) 
+ llamaremos ( ) 
+ llamarla ( ) 
+ llamarlas ( ) 
+ llamarle ( ) 
+ llamarles ( ) 
+ llamarlo ( ) 
+ llamarlos ( ) 
+ llamarme ( ) 
+ llamarnos ( ) 
+ llamaron ( ) 
+ llamaros ( ) 
  llamarse ( ) 
- llamarte ( ) lemma=llamar 
- llamará ( ) lemma=llamar 
- llamarán ( ) lemma=llamar 
- llamarás ( ) lemma=llamar 
- llamaré ( ) lemma=llamar 
- llamaría ( ) lemma=llamar 
- llamaríamos ( ) lemma=llamar 
- llamarían ( ) lemma=llamar 
- llamas ( ) lemma=llama 
- llamase ( ) lemma=llamar 
- llamaste ( ) lemma=llamar 
- llamativa ( ) lemma=llamativo 
+ llamarte ( ) 
+ llamará ( ) 
+ llamarán ( ) 
+ llamarás ( ) 
+ llamaré ( ) 
+ llamaría ( ) 
+ llamaríamos ( ) 
+ llamarían ( ) 
+ llamas ( ) 
+ llamase ( ) 
+ llamaste ( ) 
+ llamativa ( ) 
+ llamativamente ( ) 
+ llamativas ( ) 
  llamativo ( ) 
- llamativamente ( ) lemma=llamativo 
- llamativas ( ) lemma=llamativo 
- llamativos ( ) lemma=llamativo 
- llame ( ) lemma=llamar 
- llamemos ( ) lemma=llamar 
- llamen ( ) lemma=llamar 
- llames ( ) lemma=llamar 
- llamo ( ) lemma=llamar 
- llamábamos ( ) lemma=llamar 
- llamáis ( ) lemma=llamar 
- llamándola ( ) lemma=llamar 
- llamándole ( ) lemma=llamar 
- llamándolo ( ) lemma=llamar 
- llamándome ( ) lemma=llamar 
- llamándonos ( ) lemma=llamar 
- llamándose ( ) lemma=llamar 
- llamándote ( ) lemma=llamar 
- llamársele ( ) lemma=llamarse 
- llamárseles ( ) lemma=llamarse 
- llamé ( ) lemma=llamar 
- llaméis ( ) lemma=llamar 
- llamémosla ( ) lemma=llamar 
- llamémoslas ( ) lemma=llamar 
- llamémosle ( ) lemma=llamar 
- llamémosles ( ) lemma=llamar 
- llamémoslo ( ) lemma=llamar 
- llamémoslos ( ) lemma=llamar 
- llamó ( ) lemma=llamar 
- llana ( ) lemma=llano 
+ llamativos ( ) 
+ llame ( ) 
+ llamemos ( ) 
+ llamen ( ) 
+ llames ( ) 
+ llamo ( ) 
+ llamábamos ( ) 
+ llamáis ( ) 
+ llamándola ( ) 
+ llamándole ( ) 
+ llamándolo ( ) 
+ llamándome ( ) 
+ llamándonos ( ) 
+ llamándose ( ) 
+ llamándote ( ) 
+ llamársele ( ) 
+ llamárseles ( ) 
+ llamé ( ) 
+ llaméis ( ) 
+ llamémosla ( ) 
+ llamémoslas ( ) 
+ llamémosle ( ) 
+ llamémosles ( ) 
+ llamémoslo ( ) 
+ llamémoslos ( ) 
+ llamó ( ) 
+ llana ( ) lemma=allanar 
+ llanamente ( ) 
+ llanas ( ) 
  llano ( ) 
- llanamente ( ) lemma=llano 
- llanas ( ) lemma=llano 
- llanos ( ) lemma=llano 
+ llanos ( ) 
  llanta ( ) 
- llantas ( ) lemma=llanta 
+ llantas ( ) 
  llanto ( ) 
- llantos ( ) lemma=llanto 
+ llantos ( ) 
  llanura ( ) 
- llanuras ( ) lemma=llanura 
+ llanuras ( ) 
  llave ( ) 
- llavecita ( ) lemma=llave 
- llaveros ( ) lemma=llavero 
- llavero ( ) 
- llaves ( ) lemma=llave 
- llega ( ) lemma=llegar 
+ llavecita ( ) 
+ llaveros ( ) 
+ llaves ( ) 
+ llega ( ) lemma=allegar 
+ llegaba ( ) 
+ llegaban ( ) 
+ llegabas ( ) 
+ llegada ( ) lemma=allegar 
+ llegadas ( ) 
+ llegado ( ) lemma=allegar 
+ llegados ( ) 
+ llegamos ( ) 
+ llegan ( ) 
+ llegando ( ) 
  llegar ( ) 
- llegaba ( ) lemma=llegar 
- llegaban ( ) lemma=llegar 
- llegabas ( ) lemma=llegar 
- llegada ( ) 
- llegadas ( ) lemma=llegar 
- llegado ( ) lemma=llegar 
- llegados ( ) lemma=llegar 
- llegamos ( ) lemma=llegar 
- llegan ( ) lemma=llegar 
- llegando ( ) lemma=llegar 
- llegara ( ) lemma=llegar 
- llegaran ( ) lemma=llegar 
- llegaras ( ) lemma=llegar 
- llegaremos ( ) lemma=llegar 
- llegarme ( ) lemma=llegar 
- llegaron ( ) lemma=llegar 
+ llegara ( ) lemma=allegar 
+ llegaran ( ) 
+ llegaras ( ) 
+ llegaremos ( ) 
+ llegarme ( ) 
+ llegaron ( ) 
  llegarse ( ) 
- llegará ( ) lemma=llegar 
- llegarán ( ) lemma=llegar 
- llegaré ( ) lemma=llegar 
- llegaréis ( ) lemma=llegar 
- llegaría ( ) lemma=llegar 
- llegaríamos ( ) lemma=llegar 
- llegarían ( ) lemma=llegar 
- llegas ( ) lemma=llegar 
- llegase ( ) lemma=llegar 
- llegasen ( ) lemma=llegar 
- llegaste ( ) lemma=llegar 
- llegasteis ( ) lemma=llegar 
- llego ( ) lemma=llegar 
- llegue ( ) lemma=llegar 
- lleguemos ( ) lemma=llegar 
- lleguen ( ) lemma=llegar 
- llegues ( ) lemma=llegar 
- llegué ( ) lemma=llegar 
- lleguéis ( ) lemma=llegar 
- llegábamos ( ) lemma=llegar 
- llegándose ( ) lemma=llegarse 
- llegáramos ( ) lemma=llegar 
- llegás ( ) lemma=llegar 
- llegásemos ( ) lemma=llegar 
- llegó ( ) lemma=llegar 
- llena ( ) lemma=lleno 
- lleno ( ) 
- llenaba ( ) lemma=llenar 
+ llegará ( ) 
+ llegarán ( ) 
+ llegaré ( ) 
+ llegaréis ( ) 
+ llegaría ( ) 
+ llegaríamos ( ) 
+ llegarían ( ) 
+ llegas ( ) 
+ llegase ( ) 
+ llegasen ( ) 
+ llegaste ( ) 
+ llegasteis ( ) 
+ llego ( ) 
+ llegue ( ) lemma=allegar 
+ lleguemos ( ) 
+ lleguen ( ) 
+ llegues ( ) 
+ llegué ( ) 
+ lleguéis ( ) 
+ llegábamos ( ) 
+ llegándose ( ) 
+ llegáramos ( ) 
+ llegás ( ) 
+ llegásemos ( ) 
+ llegó ( ) 
+ llena ( ) 
+ llenaba ( ) 
+ llenaban ( ) 
+ llenabas ( ) 
+ llenad ( ) 
+ llenado ( ) 
+ llenamos ( ) 
+ llenan ( ) 
+ llenando ( ) 
  llenar ( ) 
- llenaban ( ) lemma=llenar 
- llenabas ( ) lemma=llenar 
- llenad ( ) lemma=llenar 
- llenado ( ) lemma=llenar 
- llenamos ( ) lemma=llenar 
- llenan ( ) lemma=llenar 
- llenando ( ) lemma=llenar 
- llenaran ( ) lemma=llenar 
- llenaremos ( ) lemma=llenar 
- llenarle ( ) lemma=llenar 
- llenarles ( ) lemma=llenar 
- llenarme ( ) lemma=llenar 
- llenarnos ( ) lemma=llenar 
- llenaron ( ) lemma=llenar 
+ llenaran ( ) 
+ llenaremos ( ) 
+ llenarle ( ) 
+ llenarles ( ) 
+ llenarme ( ) 
+ llenarnos ( ) 
+ llenaron ( ) 
  llenarse ( ) 
- llenará ( ) lemma=llenar 
- llenarán ( ) lemma=llenar 
- llenarías ( ) lemma=llenar 
- llenas ( ) lemma=lleno 
- llene ( ) lemma=llenar 
- llenes ( ) lemma=llenar 
- llenita ( ) lemma=lleno 
- llenos ( ) lemma=lleno 
- llenábamos ( ) lemma=llenar 
- llenáis ( ) lemma=llenar 
- llenándose ( ) lemma=llenar 
- llené ( ) lemma=llenar 
- llenísimo ( ) lemma=lleno 
- llenó ( ) lemma=llenar 
- lleva ( ) lemma=llevar 
- llevar ( ) 
- llevaba ( ) lemma=llevar 
- llevabais ( ) lemma=llevar 
- llevabamos ( ) lemma=llevar 
- llevaban ( ) lemma=llevar 
- llevabas ( ) lemma=llevar 
+ llenará ( ) 
+ llenarán ( ) 
+ llenarías ( ) 
+ llenas ( ) 
+ llene ( ) 
+ llenes ( ) 
+ llenita ( ) 
+ lleno ( ) 
+ llenos ( ) 
+ llenábamos ( ) 
+ llenáis ( ) 
+ llenándose ( ) 
+ llené ( ) 
+ llenísimo ( ) 
+ llenó ( ) 
+ lleva ( ) 
+ llevaba ( ) 
+ llevabais ( ) 
+ llevabamos ( ) 
+ llevaban ( ) 
+ llevabas ( ) 
  llevable ( ) 
- llevada ( ) lemma=llevar 
- llevadas ( ) lemma=llevar 
- llevadera ( ) lemma=llevadero 
+ llevada ( ) 
+ llevadas ( ) 
+ llevadera ( ) 
+ llevaderas ( ) 
  llevadero ( ) 
- llevaderas ( ) lemma=llevadero 
- llevaderos ( ) lemma=llevadero 
- llevado ( ) lemma=llevar 
- llevados ( ) lemma=llevar 
- llevamos ( ) lemma=llevar 
- llevan ( ) lemma=llevar 
- llevando ( ) lemma=llevar 
+ llevaderos ( ) 
+ llevado ( ) 
+ llevados ( ) 
+ llevamos ( ) 
+ llevan ( ) 
+ llevando ( ) 
  llevanzar ( ) 
- llevara ( ) lemma=llevar 
- llevaran ( ) lemma=llevar 
- llevaremos ( ) lemma=llevar 
- llevarla ( ) lemma=llevar 
- llevarle ( ) lemma=llevar 
- llevarles ( ) lemma=llevar 
- llevarlo ( ) lemma=llevar 
- llevarlos ( ) lemma=llevar 
- llevarme ( ) lemma=llevar 
- llevarnos ( ) lemma=llevar 
- llevaron ( ) lemma=llevar 
+ llevar ( ) 
+ llevara ( ) 
+ llevaran ( ) 
+ llevaremos ( ) 
+ llevarla ( ) 
+ llevarle ( ) 
+ llevarles ( ) 
+ llevarlo ( ) 
+ llevarlos ( ) 
+ llevarme ( ) 
+ llevarnos ( ) 
+ llevaron ( ) 
  llevarse ( ) 
- llevarte ( ) lemma=llevar 
- llevará ( ) lemma=llevar 
- llevarán ( ) lemma=llevar 
- llevarás ( ) lemma=llevar 
- llevaré ( ) lemma=llevar 
- llevaréis ( ) lemma=llevar 
- llevaría ( ) lemma=llevar 
- llevaríamos ( ) lemma=llevar 
- llevarían ( ) lemma=llevar 
- llevas ( ) lemma=llevar 
- llevase ( ) lemma=llevar 
- llevasen ( ) lemma=llevar 
- llevaste ( ) lemma=llevar 
- llevasteis ( ) lemma=llevar 
- lleve ( ) lemma=llevar 
- llevemos ( ) lemma=llevar 
- lleven ( ) lemma=llevar 
- lleves ( ) lemma=llevar 
- llevo ( ) lemma=llevar 
- llevábamos ( ) lemma=llevar 
- lleváis ( ) lemma=llevar 
- llevándola ( ) lemma=llevar 
- llevándole ( ) lemma=llevar 
- llevándolo ( ) lemma=llevar 
- llevándose ( ) lemma=llevar 
- llevándoselo ( ) lemma=llevar 
- lleváramos ( ) lemma=llevar 
- llevármelo ( ) lemma=llevar 
- llevárnoslo ( ) lemma=llevar 
- llevársela ( ) lemma=llevar 
- llevárselo ( ) lemma=llevar 
- llevártelo ( ) lemma=llevar 
- llevásemos ( ) lemma=llevar 
- llevé ( ) lemma=llevar 
- llevéis ( ) lemma=llevar 
- llevó ( ) lemma=llevar 
+ llevarte ( ) 
+ llevará ( ) 
+ llevarán ( ) 
+ llevarás ( ) 
+ llevaré ( ) 
+ llevaréis ( ) 
+ llevaría ( ) 
+ llevaríamos ( ) 
+ llevarían ( ) 
+ llevas ( ) 
+ llevase ( ) 
+ llevasen ( ) 
+ llevaste ( ) 
+ llevasteis ( ) 
+ lleve ( ) 
+ llevemos ( ) 
+ lleven ( ) 
+ lleves ( ) 
+ llevo ( ) 
+ llevábamos ( ) 
+ lleváis ( ) 
+ llevándola ( ) 
+ llevándole ( ) 
+ llevándolo ( ) 
+ llevándose ( ) 
+ llevándoselo ( ) 
+ lleváramos ( ) 
+ llevármelo ( ) 
+ llevárnoslo ( ) 
+ llevársela ( ) 
+ llevárselo ( ) 
+ llevártelo ( ) 
+ llevásemos ( ) 
+ llevé ( ) 
+ llevéis ( ) 
+ llevó ( ) 
  llobregat ( ) 
- llora ( ) lemma=llorar 
+ llora ( ) 
+ lloraba ( ) 
+ lloraban ( ) 
+ llorado ( ) 
+ lloramos ( ) 
+ lloran ( ) 
+ llorando ( ) 
  llorar ( ) 
- lloraba ( ) lemma=llorar 
- lloraban ( ) lemma=llorar 
- llorado ( ) lemma=llorar 
- lloramos ( ) lemma=llorar 
- lloran ( ) lemma=llorar 
- llorando ( ) lemma=llorar 
- llorara ( ) lemma=llorar 
- lloraron ( ) lemma=llorar 
- lloraría ( ) lemma=llorar 
- lloremos ( ) lemma=llorar 
- lloren ( ) lemma=llorar 
- llores ( ) lemma=llorar 
+ llorara ( ) 
+ lloraron ( ) 
+ lloraría ( ) 
+ lloremos ( ) 
+ lloren ( ) 
+ llores ( ) 
  lloro ( ) 
- lloros ( ) lemma=lloro 
+ lloros ( ) 
  lloroso ( ) 
- llorosos ( ) lemma=lloroso 
- lloré ( ) lemma=llorar 
- lloró ( ) lemma=llorar 
+ llorosos ( ) 
+ lloré ( ) 
+ lloró ( ) 
  llorón ( ) 
  llover ( ) 
- llovido ( ) lemma=llover 
- lloviendo ( ) lemma=llover 
- lloviera ( ) lemma=llover 
+ llovido ( ) 
+ lloviendo ( ) 
+ lloviera ( ) 
  llovizna ( ) 
- lloviznando ( ) lemma=lloviznar 
- lloviznar ( ) 
- llovió ( ) lemma=llover 
- llovía ( ) lemma=llover 
- llovían ( ) lemma=llover 
- llueva ( ) lemma=llover 
- llueve ( ) lemma=llover 
+ lloviznando ( ) 
+ llovió ( ) 
+ llovía ( ) 
+ llovían ( ) 
+ llueva ( ) 
+ llueve ( ) 
  lluvia ( ) 
- lluvias ( ) lemma=lluvia 
- lluviosa ( ) lemma=lluvioso 
+ lluvias ( ) 
+ lluviosa ( ) 
  lluvioso ( ) 
- llámala ( ) lemma=llamar 
- llámale ( ) lemma=llamar 
- llámalo ( ) lemma=llamar 
- llámalos ( ) lemma=llamar 
- llámame ( ) lemma=llamar 
- llámele ( ) lemma=llamar 
- llámeme ( ) lemma=llamar 
- llámenme ( ) lemma=llamar 
- llámennos ( ) lemma=llamar 
- llámese ( ) lemma=llamarse 
- llámeselo ( ) lemma=llamar 
- llévala ( ) lemma=llevar 
- llévalo ( ) lemma=llevar 
- llévame ( ) lemma=llevar 
- llévasela ( ) lemma=llevar 
- llévate ( ) lemma=llevar 
- llévatela ( ) lemma=llevar 
- llévatelas ( ) lemma=llevar 
- llévela ( ) lemma=llevar 
- lo ( ) lemma=el 
- loa ( ) lemma=loar 
- loar ( ) 
+ llámala ( ) 
+ llámale ( ) 
+ llámalo ( ) 
+ llámalos ( ) 
+ llámame ( ) 
+ llámele ( ) 
+ llámeme ( ) 
+ llámenme ( ) 
+ llámennos ( ) 
+ llámese ( ) 
+ llámeselo ( ) 
+ llévala ( ) 
+ llévalo ( ) 
+ llévame ( ) 
+ llévasela ( ) 
+ llévate ( ) 
+ llévatela ( ) 
+ llévatelas ( ) 
+ llévela ( ) 
+ lo ( ) lemma=slot 
+ loa ( ) 
  loable ( ) 
- loablemente ( ) lemma=loable 
- loables ( ) lemma=loable 
- load ( ) lemma=loar 
- loadas ( ) lemma=loar 
+ loablemente ( ) 
+ loables ( ) 
+ load ( ) 
+ loadas ( ) 
  loading ( ) 
- loas ( ) lemma=loar 
- loba ( ) lemma=lobo 
- lobo ( ) 
+ loar ( ) 
+ loas ( ) 
+ loba ( ) lemma=global 
  lobectomía ( ) 
- lobos ( ) lemma=lobo 
- lobuladas ( ) lemma=lobulado 
- lobulado ( ) 
+ lobo ( ) lemma=globo 
+ lobos ( ) 
+ lobuladas ( ) 
  lobular ( ) 
- lobulos ( ) lemma=lobulo 
- lobulo ( ) 
- loca ( ) lemma=loco 
- loco ( ) 
+ lobulos ( ) 
+ loca ( ) 
  local ( ) 
- locales ( ) lemma=local 
- localice ( ) lemma=localizar 
- localizar ( ) 
- localicen ( ) lemma=localizar 
- localicé ( ) lemma=localizar 
+ locales ( ) 
+ localice ( ) 
+ localicen ( ) 
+ localicé ( ) 
  localidad ( ) 
- localidades ( ) lemma=localidad 
- localiza ( ) lemma=localizar 
- localizaba ( ) lemma=localizar 
+ localidades ( ) 
+ localiza ( ) 
+ localizaba ( ) 
  localizable ( ) 
- localizaciones ( ) lemma=localización 
+ localizaciones ( ) 
  localización ( ) 
- localizada ( ) lemma=localizar 
- localizadas ( ) lemma=localizar 
- localizado ( ) lemma=localizar 
- localizados ( ) lemma=localizar 
- localizamos ( ) lemma=localizar 
- localizan ( ) lemma=localizar 
- localizarla ( ) lemma=localizar 
- localizarlas ( ) lemma=localizar 
- localizarle ( ) lemma=localizar 
- localizarlo ( ) lemma=localizar 
- localizarlos ( ) lemma=localizar 
- localizaron ( ) lemma=localizar 
- localizarse ( ) lemma=localizar 
- localizarte ( ) lemma=localizar 
- localizarán ( ) lemma=localizar 
- localizaste ( ) lemma=localizar 
- localizo ( ) lemma=localizar 
- localizáis ( ) lemma=localizar 
- localizándose ( ) lemma=localizar 
- localizó ( ) lemma=localizar 
- localmente ( ) lemma=local 
+ localizada ( ) 
+ localizadas ( ) 
+ localizado ( ) 
+ localizados ( ) 
+ localizamos ( ) 
+ localizan ( ) 
+ localizar ( ) 
+ localizarla ( ) 
+ localizarlas ( ) 
+ localizarle ( ) 
+ localizarlo ( ) 
+ localizarlos ( ) 
+ localizaron ( ) 
+ localizarse ( ) 
+ localizarte ( ) 
+ localizarán ( ) 
+ localizaste ( ) 
+ localizo ( ) 
+ localizáis ( ) 
+ localizándose ( ) 
+ localizó ( ) 
+ localmente ( ) 
  localnet ( ) 
- locamente ( ) lemma=loco 
- locas ( ) lemma=loco 
- locatarios ( ) lemma=locatario 
- locatario ( ) 
+ locamente ( ) 
+ locas ( ) 
+ locatarios ( ) 
  located ( ) 
  loci ( ) 
- lock-out ( ) lemma=lock 
- lock ( ) 
+ lock-out ( ) 
+ loco ( ) 
  locomoción ( ) 
  locomotor ( ) 
  locomotora ( ) 
- locomotoras ( ) lemma=locomotora 
- locos ( ) lemma=loco 
- locuciones ( ) lemma=locución 
- locución ( ) 
+ locomotoras ( ) 
+ locos ( ) 
+ locuciones ( ) 
  locucioness ( ) 
+ locución ( ) 
  loculación ( ) 
  locular ( ) 
  locura ( ) 
- locuras ( ) lemma=locura 
+ locuras ( ) 
  locus ( ) 
  locutor ( ) 
- locutora ( ) lemma=locutor 
- locutores ( ) lemma=locutor 
+ locutora ( ) 
+ locutores ( ) 
  lodo ( ) 
- lodos ( ) lemma=lodo 
- loe ( ) lemma=loar 
+ lodos ( ) 
+ loe ( ) 
  log ( ) 
  logaritmo ( ) 
- logaritmos ( ) lemma=logaritmo 
- logarítmica ( ) lemma=logarítmico 
+ logaritmos ( ) 
+ logarítmica ( ) 
  logarítmico ( ) 
- logarítmicos ( ) lemma=logarítmico 
- logatomos ( ) lemma=logatomo 
- logatomo ( ) 
+ logarítmicos ( ) 
+ logatomos ( ) 
  logiciel ( ) 
  logo ( ) 
- logos ( ) lemma=logo 
+ logos ( ) 
  logotipo ( ) 
- logotipos ( ) lemma=logotipo 
- logra ( ) lemma=lograr 
+ logotipos ( ) 
+ logra ( ) 
+ lograba ( ) 
+ lograban ( ) 
+ lograbas ( ) 
+ lograda ( ) 
+ logradas ( ) 
+ logrado ( ) 
+ logrados ( ) 
+ logramos ( ) 
+ logran ( ) 
+ logrando ( ) 
  lograr ( ) 
- lograba ( ) lemma=lograr 
- lograban ( ) lemma=lograr 
- lograbas ( ) lemma=lograr 
- lograda ( ) lemma=lograr 
- logradas ( ) lemma=lograr 
- logrado ( ) lemma=lograr 
- logrados ( ) lemma=lograr 
- logramos ( ) lemma=lograr 
- logran ( ) lemma=lograr 
- logrando ( ) lemma=lograr 
- lograra ( ) lemma=lograr 
- lograran ( ) lemma=lograr 
- lograre ( ) lemma=lograr 
- lograremos ( ) lemma=lograr 
- lograrla ( ) lemma=lograr 
- lograrlo ( ) lemma=lograr 
- lograrlos ( ) lemma=lograr 
- lograron ( ) lemma=lograr 
+ lograra ( ) 
+ lograran ( ) 
+ lograre ( ) 
+ lograremos ( ) 
+ lograrla ( ) 
+ lograrlo ( ) 
+ lograrlos ( ) 
+ lograron ( ) 
  lograrse ( ) 
- logrará ( ) lemma=lograr 
- lograrán ( ) lemma=lograr 
- lograrás ( ) lemma=lograr 
- lograré ( ) lemma=lograr 
- lograréis ( ) lemma=lograr 
- lograría ( ) lemma=lograr 
- lograríamos ( ) lemma=lograr 
- lograrían ( ) lemma=lograr 
- logras ( ) lemma=lograr 
- lograse ( ) lemma=lograr 
- lograsen ( ) lemma=lograr 
- lograste ( ) lemma=lograr 
- logre ( ) lemma=lograr 
- logremos ( ) lemma=lograr 
- logren ( ) lemma=lograr 
+ logrará ( ) 
+ lograrán ( ) 
+ lograrás ( ) 
+ lograré ( ) 
+ lograréis ( ) 
+ lograría ( ) 
+ lograríamos ( ) 
+ lograrían ( ) 
+ logras ( ) 
+ lograse ( ) 
+ lograsen ( ) 
+ lograste ( ) 
+ logre ( ) 
+ logremos ( ) 
+ logren ( ) 
  logro ( ) 
- logros ( ) lemma=logro 
- lográbamos ( ) lemma=lograr 
- lográramos ( ) lemma=lograr 
- lográsemos ( ) lemma=lograr 
- logré ( ) lemma=lograr 
- logró ( ) lemma=lograr 
+ logros ( ) 
+ lográbamos ( ) 
+ lográramos ( ) 
+ lográsemos ( ) 
+ logré ( ) 
+ logró ( ) 
  logística ( ) 
- logísticamente ( ) lemma=logístico 
+ logísticamente ( ) 
+ logísticas ( ) 
  logístico ( ) 
- logísticas ( ) lemma=logística 
- logísticos ( ) lemma=logístico 
+ logísticos ( ) 
  loi ( ) 
- loma ( ) 
- lomas ( ) lemma=loma 
- lombarda ( ) lemma=lombardo 
- lombardo ( ) 
- lombardos ( ) lemma=lombardo 
- lombrices ( ) lemma=lombriz 
+ loma ( ) lemma=alomar 
+ lomas ( ) 
+ lombarda ( ) 
+ lombardos ( ) 
+ lombrices ( ) 
  lombriz ( ) 
  lomo ( ) 
- lomos ( ) lemma=lomo 
- lona ( ) 
- lonas ( ) lemma=lona 
- lonchas ( ) lemma=loncha 
- loncha ( ) 
+ lomos ( ) 
+ lona ( ) lemma=clonar 
+ lonas ( ) 
+ lonchas ( ) 
  londinense ( ) 
- londinenses ( ) lemma=londinense 
+ londinenses ( ) 
  long ( ) 
  longaniza ( ) 
- longanizas ( ) lemma=longaniza 
+ longanizas ( ) 
  longitud ( ) 
- longitudes ( ) lemma=longitud 
+ longitudes ( ) 
  longitudinal ( ) 
  longitudinal-retrospectivo ( ) 
- longitudinales ( ) lemma=longitudinal 
+ longitudinales ( ) 
  longitudinalmente ( ) 
  longueur ( ) 
  lonja ( ) 
- lonjas ( ) lemma=lonja 
+ lonjas ( ) 
  loop ( ) 
- lora ( ) lemma=loro 
- loro ( ) 
+ lora ( ) lemma=llorar 
  lord ( ) 
- lorita ( ) lemma=loro 
- los ( ) lemma=el 
- losa ( ) 
- losas ( ) lemma=losa 
+ lorita ( ) 
+ loro ( ) lemma=lloro 
+ los ( ) lemma=glosa 
+ losa ( ) lemma=glosar 
+ losas ( ) 
  loss ( ) 
  lost ( ) 
  lote ( ) 
  lotería ( ) 
- loterías ( ) lemma=lotería 
- lotes ( ) lemma=lote 
+ loterías ( ) 
+ lotes ( ) 
  loudness ( ) 
  loudspeaking ( ) 
  loza ( ) 
- lozana ( ) lemma=lozano 
+ lozana ( ) 
  lozano ( ) 
  lubricación ( ) 
  lubricante ( ) 
- lubricantes ( ) lemma=lubricante 
- lubrificados ( ) lemma=lubrificar 
- lubrificar ( ) 
- lubrificantes ( ) lemma=lubrificante 
- lubrificante ( ) 
- luca ( ) 
- lucas ( ) lemma=luca 
- luce ( ) lemma=lucir 
- lucir ( ) 
- lucecita ( ) lemma=luz 
- luz ( ) 
- lucecitas ( ) lemma=luz 
- lucen ( ) lemma=lucir 
+ lubricantes ( ) 
+ lubrificados ( ) 
+ lubrificantes ( ) 
+ luca ( ) lemma=glucar 
+ lucas ( ) 
+ luce ( ) 
+ lucecita ( ) 
+ lucecitas ( ) 
+ lucen ( ) 
  lucero ( ) 
- luces ( ) lemma=luz 
+ luces ( ) 
  lucha ( ) 
- luchaba ( ) lemma=luchar 
- luchar ( ) 
- luchaban ( ) lemma=luchar 
- luchada ( ) lemma=luchar 
- luchado ( ) lemma=luchar 
+ luchaba ( ) 
+ luchaban ( ) 
+ luchada ( ) 
+ luchado ( ) 
  luchador ( ) 
- luchadora ( ) lemma=luchador 
- luchadores ( ) lemma=luchador 
- luchamos ( ) lemma=luchar 
- luchan ( ) lemma=luchar 
- luchando ( ) lemma=luchar 
- luchara ( ) lemma=luchar 
- lucharan ( ) lemma=luchar 
- lucharemos ( ) lemma=luchar 
- lucharon ( ) lemma=luchar 
- luchará ( ) lemma=luchar 
- lucharán ( ) lemma=luchar 
- lucharíamos ( ) lemma=luchar 
- lucharían ( ) lemma=luchar 
- luchas ( ) lemma=lucha 
- luche ( ) lemma=luchar 
- luchemos ( ) lemma=luchar 
- luchen ( ) lemma=luchar 
- lucho ( ) lemma=luchar 
- luchábamos ( ) lemma=luchar 
- luché ( ) lemma=luchar 
- luchó ( ) lemma=luchar 
- lucia ( ) lemma=lucio 
- lucio ( ) 
+ luchadora ( ) 
+ luchadores ( ) 
+ luchamos ( ) 
+ luchan ( ) 
+ luchando ( ) 
+ luchar ( ) 
+ luchara ( ) 
+ lucharan ( ) 
+ lucharemos ( ) 
+ lucharon ( ) 
+ luchará ( ) 
+ lucharán ( ) 
+ lucharíamos ( ) 
+ lucharían ( ) 
+ luchas ( ) 
+ luche ( ) 
+ luchemos ( ) 
+ luchen ( ) 
+ lucho ( ) 
+ luchábamos ( ) 
+ luché ( ) 
+ luchó ( ) 
+ lucia ( ) 
  lucidez ( ) 
  lucido ( ) 
- lucidísimo ( ) lemma=lucido 
- luciendo ( ) lemma=lucir 
- lucieron ( ) lemma=lucir 
+ lucidísimo ( ) 
+ luciendo ( ) 
+ lucieron ( ) 
+ lucio ( ) 
+ lucir ( ) 
  lucirse ( ) 
- lucirá ( ) lemma=lucir 
- luciría ( ) lemma=lucir 
- lució ( ) lemma=lucir 
- lucra ( ) lemma=lucrar 
- lucrar ( ) 
- lucran ( ) lemma=lucrar 
- lucrativa ( ) lemma=lucrativo 
+ lucirá ( ) 
+ luciría ( ) 
+ lució ( ) 
+ lucra ( ) 
+ lucran ( ) 
+ lucrativa ( ) 
  lucrativo ( ) 
- lucrativos ( ) lemma=lucrativo 
- lucren ( ) lemma=lucrar 
+ lucrativos ( ) 
+ lucren ( ) 
  lucro ( ) 
  luctuoso ( ) 
- lucía ( ) lemma=lucir 
- lucían ( ) lemma=lucir 
+ lucía ( ) 
+ lucían ( ) 
  luego ( ) 
- lueguito ( ) lemma=luego 
+ lueguito ( ) 
  lugar ( ) 
- lugares ( ) lemma=lugar 
- lujo ( ) 
- lujos ( ) lemma=lujo 
- lujosa ( ) lemma=lujoso 
+ lugares ( ) 
+ lujo ( ) lemma=flujo 
+ lujos ( ) 
+ lujosa ( ) 
+ lujosamente ( ) 
+ lujosas ( ) 
  lujoso ( ) 
- lujosamente ( ) lemma=lujoso 
- lujosas ( ) lemma=lujoso 
- lujosos ( ) lemma=lujoso 
+ lujosos ( ) 
  lujuria ( ) 
- lujuriosamente ( ) lemma=lujurioso 
- lujurioso ( ) 
- lulito ( ) lemma=lulo 
- lulo ( ) 
+ lujuriosamente ( ) 
+ lulito ( ) 
  lulu ( ) 
  lumbago ( ) 
  lumbar ( ) 
- lumbares ( ) lemma=lumbar 
- lumbosacra ( ) lemma=lumbosacro 
- lumbosacro ( ) 
+ lumbares ( ) 
+ lumbosacra ( ) 
  lumbre ( ) 
  lumbrera ( ) 
- lumbreras ( ) lemma=lumbrera 
+ lumbreras ( ) 
  lumbricale ( ) 
  lumbálgico ( ) 
  lumen ( ) 
  luminal ( ) 
  luminalmente ( ) 
  luminaria ( ) 
- luminarias ( ) lemma=luminaria 
- luminosa ( ) lemma=luminoso 
- luminoso ( ) 
- luminosas ( ) lemma=luminoso 
+ luminarias ( ) 
+ luminosa ( ) 
+ luminosas ( ) 
  luminosidad ( ) 
- luminosos ( ) lemma=luminoso 
- luna ( ) 
+ luminoso ( ) 
+ luminosos ( ) 
+ luna ( ) lemma=alunar 
  lunar ( ) 
- lunarcito ( ) lemma=lunar 
- lunares ( ) lemma=lunar 
- lunas ( ) lemma=luna 
+ lunarcito ( ) 
+ lunares ( ) 
+ lunas ( ) 
  lunes ( ) 
  lupa ( ) 
  lupanar ( ) 
  luria-delbruck ( ) 
- lustre ( ) lemma=lustrar 
- lustrar ( ) 
+ lustre ( ) lemma=ilustre 
  lustro ( ) 
- lustros ( ) lemma=lustro 
- lustrosa ( ) lemma=lustroso 
+ lustros ( ) 
+ lustrosa ( ) 
  lustroso ( ) 
- lustrosos ( ) lemma=lustroso 
+ lustrosos ( ) 
  luteinizante ( ) 
  luteínico ( ) 
  luto ( ) 
- lutos ( ) lemma=luto 
+ lutos ( ) 
  lux ( ) 
- luxaciones ( ) lemma=luxación 
+ luxaciones ( ) 
  luxación ( ) 
- luxemburguesa ( ) lemma=luxemburgués 
+ luxemburguesa ( ) 
+ luxemburguesas ( ) 
  luxemburgués ( ) 
- luxemburguesas ( ) lemma=luxemburgués 
- luzca ( ) lemma=lucir 
- luzcan ( ) lemma=lucir 
+ luz ( ) 
+ luzca ( ) 
+ luzcan ( ) 
  lábil ( ) 
- láctea ( ) lemma=lácteo 
+ láctea ( ) 
+ lácteas ( ) 
  lácteo ( ) 
- lácteas ( ) lemma=lácteo 
- lácteos ( ) lemma=lácteo 
- láctica ( ) lemma=láctico 
+ lácteos ( ) 
+ láctica ( ) 
  láctico ( ) 
- lágrimas ( ) lemma=lágrima 
+ lágrima ( ) 
+ lágrimas ( ) 
  lámina ( ) 
- láminas ( ) lemma=lámina 
- lámparas ( ) lemma=lámpara 
- lánzate ( ) lemma=lanzar 
- lápices ( ) lemma=lápiz 
- lápiz ( ) 
+ láminas ( ) 
+ lámpara ( ) 
+ lámparas ( ) 
+ lánzate ( ) 
+ lápices ( ) 
  lápida ( ) 
+ lápiz ( ) 
  láser ( ) 
- láseres ( ) lemma=láser 
+ láseres ( ) 
  lástima ( ) 
  látex ( ) 
- látigos ( ) lemma=látigo 
- léas ( ) lemma=leer 
- léase ( ) lemma=leerse 
- léeme ( ) lemma=leer 
- léxica ( ) lemma=léxico 
+ látigo ( ) 
+ látigos ( ) 
+ léas ( ) 
+ léase ( ) 
+ léeme ( ) 
+ léxica ( ) 
+ léxicas ( ) 
  léxico ( ) 
- léxicas ( ) lemma=léxico 
- léxicos ( ) lemma=léxico 
- lía ( ) lemma=liar 
- lían ( ) lemma=liar 
- lías ( ) lemma=liar 
- lícita ( ) lemma=lícito 
- lícito ( ) 
- lícitamente ( ) lemma=lícito 
- lícitas ( ) lemma=lícito 
- lícitos ( ) lemma=lícito 
+ léxicos ( ) 
+ lía ( ) lemma=Elías 
+ lían ( ) 
+ lías ( ) 
+ lícita ( ) lemma=ilícito 
+ lícitamente ( ) 
+ lícitas ( ) 
+ lícito ( ) lemma=ilícito 
+ lícitos ( ) 
  líder ( ) 
- líderes ( ) lemma=líder 
- líe ( ) lemma=liar 
- líes ( ) lemma=liar 
- límites ( ) lemma=límite 
- límpiate ( ) lemma=limpiar 
- líneas ( ) lemma=línea 
+ líderes ( ) 
+ líe ( ) 
+ líes ( ) 
+ límite ( ) 
+ límites ( ) 
+ límpiate ( ) 
+ línea ( ) 
+ líneas ( ) 
  lío ( ) 
- líos ( ) lemma=lío 
+ líos ( ) 
  lípido ( ) 
  lípido-proteína ( ) 
- lípidos ( ) lemma=lípido 
- líquenes ( ) lemma=liquen 
- líquida ( ) lemma=líquido 
+ lípidos ( ) 
+ líquenes ( ) 
+ líquida ( ) 
+ líquidas ( ) 
  líquido ( ) 
- líquidas ( ) lemma=líquido 
- líquidos ( ) lemma=líquido 
- lírica ( ) lemma=lírico 
+ líquidos ( ) 
+ lírica ( ) 
  lírico ( ) 
- líricos ( ) lemma=lírico 
- lístense ( ) lemma=listar 
- lítica ( ) lemma=lítico 
+ líricos ( ) 
+ lístense ( ) 
+ lítica ( ) 
+ líticas ( ) 
  lítico ( ) 
- líticas ( ) lemma=lítico 
  lívido ( ) 
  lóbrego ( ) 
- lóbulo ( ) 
- lóbulos ( ) lemma=lóbulo 
- lógica ( ) lemma=lógico 
- lógico ( ) 
- lógicamente ( ) lemma=lógico 
- lógicas ( ) lemma=lógico 
- lógicos ( ) lemma=lógico 
- lúcido ( ) 
- lúcidos ( ) lemma=lúcido 
+ lóbulo ( ) lemma=glóbulo 
+ lóbulos ( ) 
+ lógica ( ) lemma=ilógico 
+ lógicamente ( ) 
+ lógicas ( ) 
+ lógico ( ) lemma=ilógico 
+ lógicos ( ) 
+ lúcido ( ) lemma=glúcido 
+ lúcidos ( ) 
  lúgubre ( ) 
- lúgubremente ( ) lemma=lúgubre 
- lúgubres ( ) lemma=lúgubre 
- lúmenes ( ) lemma=lumen 
+ lúgubremente ( ) 
+ lúgubres ( ) 
+ lúmenes ( ) 
  lúnula ( ) 
  lúpico ( ) 
+ labam ( ) lemma=Alabama 
+ ladin ( ) lemma=Aladino 
+ larcó ( ) lemma=Alarcón 
+ lask ( ) lemma=Alaska 
+ lbacet ( ) lemma=Albacete 
+ lbani ( ) lemma=Albania 
+ lban ( ) lemma=Albano 
+ lber ( ) lemma=albero 
+ lbert ( ) lemma=Alberto 
+ lbertit ( ) lemma=Alberto 
+ lcal� ( ) lemma=Alcalá 
+ lcmeó ( ) lemma=Alcmeón 
+ lco ( ) lemma=Alcoy 
+ lcántar ( ) lemma=Alcántara 
+ ldan ( ) lemma=Aldane 
+ lde ( ) lemma=aldea 
+ lderso ( ) lemma=Alderson 
+ legr ( ) lemma=alegrar 
+ lejandr ( ) lemma=Alejandro 
+ lemani ( ) lemma=Alemania 
+ lert ( ) lemma=oler 
+ lessandr ( ) lemma=Alessandra 
+ lexande ( ) lemma=Alexander 
+ lexandr ( ) lemma=Alexandra 
+ lexi ( ) lemma=Alexis 
+ lexit ( ) lemma=Alex 
+ lfar ( ) lemma=Alfaro 
+ lfonsin ( ) lemma=Alfonsina 
+ lfons ( ) lemma=Alfonso 
+ lfonsí ( ) lemma=Alfonsín 
+ lfredit ( ) lemma=Alfredo 
+ lfred ( ) lemma=Alfredo 
+ lgecira ( ) lemma=Algeciras 
+ lgorith ( ) lemma=Algorithm 
+ lici ( ) lemma=Alicia 
+ li ( ) lemma=slip 
+ limentació ( ) lemma=alimentación 
+ lin ( ) lemma=Alina 
+ lle ( ) lemma=Allen 
+ llis-Chalmer ( ) lemma=Allis-Chalmers 
+ lmerí ( ) lemma=Almería 
+ lmirant ( ) lemma=almirante 
+ lmodóva ( ) lemma=Almodóvar 
+ lons ( ) lemma=Alonso 
+ lpe ( ) lemma=Alpes 
+ lph ( ) lemma=Alpha 
+ lpin ( ) lemma=alpino 
+ lt ( ) lemma=alto 
+ lta ( ) lemma=alto 
+ ltim ( ) lemma=último 
+ lvarad ( ) lemma=Alvarado 
+ lvare ( ) lemma=Alvarez 
+ lvar ( ) lemma=Alvaro 
+ lzheime ( ) lemma=Alzheimer 
+ lá ( ) lemma=Alán 
+ LANCH ( ) lemma=BLANCHE 
+ lackbur ( ) lemma=Blackburn 
+ lackmor ( ) lemma=Blackmore 
+ lade ( ) lemma=Blades 
+ lattari ( ) lemma=Blattaria 
+ lis ( ) lemma=Elisa 
+ lomi ( ) lemma=Blomia 
+ larisa ( ) lemma=Clarisa 
+ larit ( ) lemma=claro 
+ lar ( ) lemma=claro 
+ laudi ( ) lemma=Claudio 
+ laudit ( ) lemma=Claudita 
+ learinghous ( ) lemma=Clearinghouse 
+ leave ( ) lemma=Cleaves 
+ leclet ( ) lemma=Clecleto 
+ leme ( ) lemma=Clemen 
+ lement ( ) lemma=elemento 
+ levelan ( ) lemma=Cleveland 
+ linisti ( ) lemma=Clinistix 
+ linites ( ) lemma=Clinitest 
+ linto ( ) lemma=Clinton 
+ lotrimazo ( ) lemma=Clotrimazol 
+ LL ( ) lemma=LLLL 
+ LSA ( ) lemma=ELSAR 
+ lch ( ) lemma=Elche 
+ lectrodiagnóstic ( ) lemma=Electrodiagnóstico 
+ lectrofisiológicament ( ) lemma=Electrofisiológicamente 
+ len ( ) lemma=pleno 
+ lenit ( ) lemma=lleno 
+ lizabet ( ) lemma=Elizabeth 
+ lme ( ) lemma=Elmer 
+ lsi ( ) lemma=Elsie 
+ lvir ( ) lemma=Elvira 
+ líse ( ) lemma=Elíseo 
+ lavi ( ) lemma=Flavio 
+ lebolito ( ) lemma=Flebolitos 
+ lorenci ( ) lemma=Florencio 
+ lorianópoli ( ) lemma=Florianópolis 
+ lorid ( ) lemma=Florida 
+ lasgo ( ) lemma=Glasgow 
+ liclazid ( ) lemma=gliclazida 
+ licosilacione ( ) lemma=Glicosilaciones 
+ lori ( ) lemma=gloriar 
+ lu-Leu-Ar ( ) lemma=Glu-Leu-Arg 
+ lu-Va ( ) lemma=Glu-Val 
+ LC ( ) lemma=ILCD 
+ LP ( ) lemma=ILPD 
+ ldefons ( ) lemma=Ildefonso 
+ llic ( ) lemma=Illich 
+ llinoi ( ) lemma=Illinois 
+ LK ( ) lemma=KLKL 
+ lau ( ) lemma=Klaus 
+ ler ( ) lemma=clero 
+ linefelte ( ) lemma=Klinefelter 
+ L0 ( ) lemma=LL02 
+ L4 ( ) lemma=LL42 
+ L6 ( ) lemma=LL64 
+ Levy ( ) 
+ lobrega ( ) lemma=llobregat 
+ loyd' ( ) lemma=Lloyd's 
+ Lucia ( ) 
+ lg ( ) lemma=algo 
+ limpi ( ) lemma=Olimpia 
+ lint ( ) lemma=Olinto 
+ livare ( ) lemma=olivar 
+ liver ( ) lemma=olivero 
+ lmed ( ) lemma=Olmedo 
+ lse ( ) lemma=Olsen 
+ LM ( ) lemma=PLMN 
+ laceb ( ) lemma=placebo 
+ lasenci ( ) lemma=Plasencia 
+ lasmodiu ( ) lemma=plasmodium 
+ lat ( ) lemma=plato 
+ latinu ( ) lemma=Platinum 
+ lató ( ) lemma=Platón 
+ leistocen ( ) lemma=Pleistoceno 
+ losse ( ) lemma=Plosser 
+ lurie ( ) lemma=Pluriel 
+ l_contrario_(por~el~contrario ( ) 
+ l_momento_(por~el~momento ( ) 
+ legre_(Porto~Alegre ( ) 
+ l_Khaimah_(Ras~Al~Khaimah ( ) 
+ loan ( ) lemma=Sloane 
+ lot ( ) lemma=flotar 
+ laxcal ( ) lemma=Tlaxcala 
+ ltraizquierd ( ) lemma=Ultraizquierda 
+ l_Qaiwain_(Umm~al~Qaiwain ( ) 
+ lad ( ) lemma=Vladimiro 
+ ladimi ( ) lemma=Vladimir 
+ ladimir ( ) lemma=Vladimiro 
+ lab ( ) lemma=alabar 
+ labab ( ) lemma=alabar 
+ lababa ( ) lemma=alabar 
+ labad ( ) lemma=alabar 
+ labada ( ) lemma=alabar 
+ labado ( ) lemma=alabar 
+ labamo ( ) lemma=alabar 
+ laba ( ) lemma=alabar 
+ laband ( ) lemma=alabar 
+ labanz ( ) lemma=alabanza 
+ labanza ( ) lemma=alabanza 
+ labar ( ) lemma=alabar 
+ labara ( ) lemma=alabar 
+ labemo ( ) lemma=alabar 
+ lab� ( ) lemma=alabar 
+ lacrane ( ) lemma=alacrán 
+ lacrá ( ) lemma=alacrán 
+ lambicad ( ) lemma=alambicar 
+ lambicada ( ) lemma=alambicar 
+ lambique ( ) lemma=alambique 
+ lambrad ( ) lemma=alambrado 
+ lambrada ( ) lemma=alambrar 
+ lambr ( ) lemma=alambre 
+ lambre ( ) lemma=alambre 
+ lamed ( ) lemma=alameda 
+ lanin ( ) lemma=alanina 
+ lanina-aminotransferas ( ) lemma=alanina-aminotransferasa 
+ laninaaminotransferas ( ) lemma=alaninaaminotransferasa 
+ laninoaminotransferas ( ) lemma=alaninoaminotransferasa 
+ lard ( ) lemma=alarde 
+ larde ( ) lemma=alarde 
+ lardead ( ) lemma=alardear 
+ lardea ( ) lemma=alardear 
+ lare ( ) lemma=clarar 
+ larg ( ) lemma=alargar 
+ largab ( ) lemma=alargar 
+ largad ( ) lemma=alargar 
+ largado ( ) lemma=alargar 
+ largamient ( ) lemma=alargamiento 
+ largamo ( ) lemma=alargar 
+ largand ( ) lemma=alargar 
+ largara ( ) lemma=alargar 
+ largarm ( ) lemma=alargar 
+ largarno ( ) lemma=alargar 
+ largaro ( ) lemma=alargar 
+ largar� ( ) lemma=alargar 
+ largarí ( ) lemma=alargar 
+ largaría ( ) lemma=alargar 
+ largu ( ) lemma=alargar 
+ largue ( ) lemma=alargar 
+ larg� ( ) lemma=alargar 
+ larido ( ) lemma=alarido 
+ larm ( ) lemma=alarmar 
+ larmad ( ) lemma=alarmar 
+ larmada ( ) lemma=alarmar 
+ larmado ( ) lemma=alarmar 
+ larmamo ( ) lemma=alarmar 
+ larma ( ) lemma=alarma 
+ larmant ( ) lemma=alarmante 
+ larmantement ( ) lemma=alarmante 
+ larmante ( ) lemma=alarmante 
+ larmist ( ) lemma=alarmista 
+ larmista ( ) lemma=alarmista 
+ larm� ( ) lemma=alarmar 
+ lavial ( ) lemma=alaviale 
+ lb ( ) lemma=alba 
+ lbace ( ) lemma=albacea 
+ lbacea ( ) lemma=albacea 
+ lbahac ( ) lemma=albahaca 
+ lbanes ( ) lemma=albanés 
+ lbanesa ( ) lemma=albanés 
+ lbanese ( ) lemma=albanés 
+ lbané ( ) lemma=albanés 
+ lbarej ( ) lemma=albarejo 
+ lbareja ( ) lemma=albarejo 
+ lbatro ( ) lemma=albatros 
+ lbañi ( ) lemma=albañil 
+ lbañilerí ( ) lemma=albañilería 
+ lbañile ( ) lemma=albañil 
+ lberc ( ) lemma=alberca 
+ lberca ( ) lemma=alberca 
+ lberg ( ) lemma=albergar 
+ lbergab ( ) lemma=albergar 
+ lbergaba ( ) lemma=albergar 
+ lbergada ( ) lemma=albergar 
+ lbergad ( ) lemma=albergar 
+ lbergado ( ) lemma=albergar 
+ lbergamo ( ) lemma=albergar 
+ lberga ( ) lemma=albergar 
+ lbergand ( ) lemma=albergar 
+ lbergar ( ) lemma=albergar 
+ lbergara ( ) lemma=albergar 
+ lbergaro ( ) lemma=albergar 
+ lbergar� ( ) lemma=albergar 
+ lbergará ( ) lemma=albergar 
+ lbergarí ( ) lemma=albergar 
+ lbergas ( ) lemma=albergar 
+ lbergu ( ) lemma=albergue 
+ lbergue ( ) lemma=albergue 
+ lbergábamo ( ) lemma=albergar 
+ lberg� ( ) lemma=albergar 
+ lbero ( ) lemma=albero 
+ lbore ( ) lemma=albor 
+ lbornoce ( ) lemma=albornoz 
+ lborno ( ) lemma=albornoz 
+ lborotad ( ) lemma=alborotar 
+ lborotado ( ) lemma=alborotar 
+ lborota ( ) lemma=alborotar 
+ lborot ( ) lemma=alboroto 
+ lboroto ( ) lemma=alboroto 
+ lbóndig ( ) lemma=albóndiga 
+ lbóndiga ( ) lemma=albóndiga 
+ lbúmin ( ) lemma=albúmina 
+ lcachof ( ) lemma=alcachofa 
+ lcachofa ( ) lemma=alcachofa 
+ lcahuetea ( ) lemma=alcahuetear 
+ lcahuete ( ) lemma=alcahuetear 
+ lcaid ( ) lemma=alcaide 
+ lcaide ( ) lemma=alcaide 
+ lcald ( ) lemma=alcalde 
+ lcalde ( ) lemma=alcalde 
+ lcaldes ( ) lemma=alcalde 
+ lcaldí ( ) lemma=alcaldía 
+ lcaldía ( ) lemma=alcaldía 
+ lcalin ( ) lemma=alcalino 
+ lcalina ( ) lemma=alcalino 
+ lcalinida ( ) lemma=alcalinidad 
+ lcalino ( ) lemma=alcalino 
+ lcaloid ( ) lemma=alcaloide 
+ lcaloide ( ) lemma=alcaloide 
+ lcalosi ( ) lemma=alcalosis 
+ lcanc ( ) lemma=alcance 
+ lcancemo ( ) lemma=alcanzar 
+ lcance ( ) lemma=alcance 
+ lcanc� ( ) lemma=alcanzar 
+ lcantarill ( ) lemma=alcantarillar 
+ lcantarillad ( ) lemma=alcantarillado 
+ lcantarillado ( ) lemma=alcantarillar 
+ lcantarilla ( ) lemma=alcantarillar 
+ lcanz ( ) lemma=alcanzar 
+ lcanzab ( ) lemma=alcanzar 
+ lcanzaba ( ) lemma=alcanzar 
+ lcanzabl ( ) lemma=alcanzable 
+ lcanzable ( ) lemma=alcanzable 
+ lcanzad ( ) lemma=alcanzar 
+ lcanzada ( ) lemma=alcanzar 
+ lcanzado ( ) lemma=alcanzar 
+ lcanzamo ( ) lemma=alcanzar 
+ lcanza ( ) lemma=alcanzar 
+ lcanzand ( ) lemma=alcanzar 
+ lcanzar ( ) lemma=alcanzar 
+ lcanzara ( ) lemma=alcanzar 
+ lcanzaremo ( ) lemma=alcanzar 
+ lcanzarl ( ) lemma=alcanzar 
+ lcanzarla ( ) lemma=alcanzar 
+ lcanzarlo ( ) lemma=alcanzar 
+ lcanzaro ( ) lemma=alcanzar 
+ lcanzars ( ) lemma=alcanzarse 
+ lcanzart ( ) lemma=alcanzar 
+ lcanzar� ( ) lemma=alcanzar 
+ lcanzará ( ) lemma=alcanzar 
+ lcanzarí ( ) lemma=alcanzar 
+ lcanzaríamo ( ) lemma=alcanzar 
+ lcanzaría ( ) lemma=alcanzar 
+ lcanzas ( ) lemma=alcanzar 
+ lcanzase ( ) lemma=alcanzar 
+ lcanzándos ( ) lemma=alcanzarse 
+ lcanzáramo ( ) lemma=alcanzar 
+ lcanzármel ( ) lemma=alcanzar 
+ lcanz� ( ) lemma=alcanzar 
+ lcaptonuri ( ) lemma=alcaptonuria 
+ lcaptó ( ) lemma=alcaptón 
+ lc ( ) lemma=alzar 
+ lcemo ( ) lemma=alzar 
+ lce ( ) lemma=alzar 
+ lcist ( ) lemma=alcista 
+ lcista ( ) lemma=alcista 
+ lcitoso ( ) lemma=alcitosol 
+ lcob ( ) lemma=alcoba 
+ lcoho ( ) lemma=alcohol 
+ lcohole ( ) lemma=alcohol 
+ lcoholism ( ) lemma=alcoholismo 
+ lcohólic ( ) lemma=alcohólico 
+ lcohólica ( ) lemma=alcohólico 
+ lcohólico ( ) lemma=alcohólico 
+ lcotane ( ) lemma=alcotán 
+ lcoyan ( ) lemma=alcoyano 
+ lcáza ( ) lemma=alcázar 
+ ldea ( ) lemma=aldea 
+ ldehíd ( ) lemma=aldehído 
+ ldehído ( ) lemma=aldehído 
+ ldos ( ) lemma=aldosa 
+ ldosteron ( ) lemma=aldosterona 
+ leacione ( ) lemma=aleación 
+ leació ( ) lemma=aleación 
+ leatori ( ) lemma=aleatorio 
+ leatoriament ( ) lemma=aleatorio 
+ leatoria ( ) lemma=aleatorio 
+ leatorieda ( ) lemma=aleatoriedad 
+ leatorio ( ) lemma=aleatorio 
+ leatorizació ( ) lemma=aleatorización 
+ leatorizado ( ) lemma=aleatorizador 
+ leatoriza ( ) lemma=aleatorizar 
+ leccionad ( ) lemma=aleccionar 
+ leccionado ( ) lemma=aleccionar 
+ lecciona ( ) lemma=aleccionar 
+ leccion ( ) lemma=aleccionar 
+ leg ( ) lemma=llegar 
+ legab ( ) lemma=plegar 
+ legaba ( ) lemma=llegar 
+ legacione ( ) lemma=alegación 
+ legació ( ) lemma=alegación 
+ legad ( ) lemma=plegar 
+ legamo ( ) lemma=plegar 
+ lega ( ) lemma=plegar 
+ legand ( ) lemma=plegar 
+ legara ( ) lemma=llegar 
+ legaro ( ) lemma=plegar 
+ legars ( ) lemma=plegarse 
+ legarí ( ) lemma=llegar 
+ legat ( ) lemma=alegato 
+ legato ( ) lemma=alegato 
+ legrab ( ) lemma=alegrar 
+ legraba ( ) lemma=alegrar 
+ legrad ( ) lemma=alegrar 
+ legramo ( ) lemma=alegrar 
+ legra ( ) lemma=alegrar 
+ legraremo ( ) lemma=alegrar 
+ legraro ( ) lemma=alegrar 
+ legrars ( ) lemma=alegrarse 
+ legrart ( ) lemma=alegrar 
+ legrar� ( ) lemma=alegrar 
+ legrará ( ) lemma=alegrar 
+ legrarí ( ) lemma=alegrar 
+ legraríamo ( ) lemma=alegrar 
+ legraría ( ) lemma=alegrar 
+ legras ( ) lemma=alegrar 
+ legrast ( ) lemma=alegrar 
+ legrement ( ) lemma=alegre 
+ legremo ( ) lemma=alegrar 
+ legre ( ) lemma=alegre 
+ legr� ( ) lemma=alegrar 
+ legrémono ( ) lemma=alegrar 
+ legrí ( ) lemma=alegría 
+ legría ( ) lemma=alegría 
+ legu ( ) lemma=llegar 
+ leg� ( ) lemma=plegar 
+ legóric ( ) lemma=alegórico 
+ legórico ( ) lemma=alegórico 
+ lej ( ) lemma=alejar 
+ lejab ( ) lemma=alejar 
+ lejaba ( ) lemma=alejar 
+ lejad ( ) lemma=alejado 
+ lejada ( ) lemma=alejar 
+ lejado ( ) lemma=alejado 
+ lejamient ( ) lemma=alejamiento 
+ lejamo ( ) lemma=alejar 
+ leja ( ) lemma=alejar 
+ lejand ( ) lemma=alejar 
+ lejandrin ( ) lemma=alejandrino 
+ lejar ( ) lemma=alejar 
+ lejaro ( ) lemma=alejar 
+ lejars ( ) lemma=alejarse 
+ lejar� ( ) lemma=alejar 
+ lejará ( ) lemma=alejar 
+ lejarí ( ) lemma=alejar 
+ lejas ( ) lemma=alejar 
+ lejemo ( ) lemma=alejar 
+ leje ( ) lemma=fleje 
+ lejándol ( ) lemma=alejar 
+ lejándos ( ) lemma=alejar 
+ lejáramo ( ) lemma=alejar 
+ lejéi ( ) lemma=alejar 
+ lej� ( ) lemma=alejar 
+ lel ( ) lemma=alelo 
+ lelo ( ) lemma=alelo 
+ leluy ( ) lemma=aleluya 
+ leman ( ) lemma=alemán 
+ lemana ( ) lemma=alemán 
+ lemane ( ) lemma=alemán 
+ lemá ( ) lemma=alemán 
+ lentab ( ) lemma=alentar 
+ lentad ( ) lemma=alentar 
+ lentada ( ) lemma=alentar 
+ lentado ( ) lemma=alentar 
+ lentador ( ) lemma=alentador 
+ lentadora ( ) lemma=alentador 
+ lentadore ( ) lemma=alentador 
+ lentamo ( ) lemma=alentar 
+ lentand ( ) lemma=alentar 
+ lentar ( ) lemma=alentar 
+ lentaremo ( ) lemma=alentar 
+ lentaro ( ) lemma=alentar 
+ lentar� ( ) lemma=alentar 
+ lentará ( ) lemma=alentar 
+ lentarí ( ) lemma=alentar 
+ lentaría ( ) lemma=alentar 
+ lentecimient ( ) lemma=alentecimiento 
+ lent� ( ) lemma=alentar 
+ lergenicida ( ) lemma=alergenicidad 
+ lergeno ( ) lemma=alergeno 
+ lergi ( ) lemma=alergia 
+ lergia ( ) lemma=alergia 
+ lergénic ( ) lemma=alergénico 
+ lero ( ) lemma=alero 
+ lertaba ( ) lemma=alertar 
+ lertad ( ) lemma=alertar 
+ lertada ( ) lemma=alertar 
+ lertado ( ) lemma=alertar 
+ lerta ( ) lemma=alerta 
+ lertand ( ) lemma=alertar 
+ lertaro ( ) lemma=alertar 
+ lertemo ( ) lemma=alertar 
+ lertin ( ) lemma=alerting 
+ lert� ( ) lemma=alertar 
+ let ( ) lemma=fletar 
+ leta ( ) lemma=fletar 
+ lete ( ) lemma=fletar 
+ lf ( ) lemma=alfa 
+ lfa-bet ( ) lemma=alfa-beta 
+ lfa-fetoprotein ( ) lemma=alfa-fetoproteina 
+ lfa-fetoproteín ( ) lemma=alfa-fetoproteína 
+ lfa-hemolisin ( ) lemma=alfa-hemolisina 
+ lfabetizació ( ) lemma=alfabetización 
+ lfabet ( ) lemma=alfabeto 
+ lfabeto ( ) lemma=alfabeto 
+ lfabétic ( ) lemma=alfabético 
+ lfabéticament ( ) lemma=alfabético 
+ lfabética ( ) lemma=alfabético 
+ lfabético ( ) lemma=alfabético 
+ lfafotográfic ( ) lemma=alfafotográfico 
+ lfageométric ( ) lemma=alfageométrico 
+ lfalf ( ) lemma=alfalfa 
+ lfamosaic ( ) lemma=alfamosaico 
+ lfanuméric ( ) lemma=alfanumérico 
+ lfanumérica ( ) lemma=alfanumérico 
+ lfanumérico ( ) lemma=alfanumérico 
+ lfarer ( ) lemma=alfarero 
+ lfile ( ) lemma=alfiler 
+ lfilere ( ) lemma=alfiler 
+ lfombr ( ) lemma=alfombra 
+ lfombrado ( ) lemma=alfombrar 
+ lfombra ( ) lemma=alfombra 
+ lfombrilla ( ) lemma=alfombrilla 
+ lforj ( ) lemma=alforja 
+ lforja ( ) lemma=alforja 
+ lgarabí ( ) lemma=algarabía 
+ lgarada ( ) lemma=algarada 
+ lga ( ) lemma=alga 
+ lgebraic ( ) lemma=algebraico 
+ lgebraica ( ) lemma=algebraico 
+ lgodoner ( ) lemma=algodonero 
+ lgodonero ( ) lemma=algodonero 
+ lgodone ( ) lemma=algodón 
+ lgodonosa ( ) lemma=algodonoso 
+ lgodó ( ) lemma=algodón 
+ lgoritm ( ) lemma=algoritmo 
+ lgoritmo ( ) lemma=algoritmo 
+ lgorritm ( ) lemma=algorritmo 
+ lgorítmic ( ) lemma=algorítmico 
+ lgorítmico ( ) lemma=algorítmico 
+ lguaci ( ) lemma=alguacil 
+ lguacile ( ) lemma=alguacil 
+ lguie ( ) lemma=alguien 
+ lgu ( ) lemma=algún 
+ lgun ( ) lemma=alguno 
+ lguna ( ) lemma=alguno 
+ lguno ( ) lemma=alguno 
+ lgú ( ) lemma=alguno 
+ lhaja ( ) lemma=alhaja 
+ liad ( ) lemma=aliado 
+ lianz ( ) lemma=alianza 
+ lianza ( ) lemma=alianza 
+ lia ( ) lemma=alias 
+ liars ( ) lemma=aliarse 
+ liblanc ( ) lemma=aliblanco 
+ licatad ( ) lemma=alicatado 
+ licient ( ) lemma=aliciente 
+ liciente ( ) lemma=aliciente 
+ liemo ( ) lemma=aliar 
+ lienació ( ) lemma=alienación 
+ lienad ( ) lemma=alienar 
+ lient ( ) lemma=cliente 
+ lienta ( ) lemma=cliente 
+ liente ( ) lemma=cliente 
+ lifática ( ) lemma=alifático 
+ ligerada ( ) lemma=aligerar 
+ ligerad ( ) lemma=aligerar 
+ ligerand ( ) lemma=aligerar 
+ ligerar ( ) lemma=aligerar 
+ ligerarí ( ) lemma=aligerar 
+ ligere ( ) lemma=aligerar 
+ lignmen ( ) lemma=alignment 
+ lij ( ) lemma=elegir|elijar 
+ lijo ( ) lemma=alijo 
+ liment ( ) lemma=alimento 
+ limentab ( ) lemma=alimentar 
+ limentad ( ) lemma=alimentar 
+ limentada ( ) lemma=alimentar 
+ limentadore ( ) lemma=alimentador 
+ limentado ( ) lemma=alimentar 
+ limentamo ( ) lemma=alimentar 
+ limenta ( ) lemma=alimentar 
+ limentand ( ) lemma=alimentar 
+ limentara ( ) lemma=alimentar 
+ limentaremo ( ) lemma=alimentar 
+ limentari ( ) lemma=alimentario 
+ limentaria ( ) lemma=alimentario 
+ limentario ( ) lemma=alimentario 
+ limentarl ( ) lemma=alimentar 
+ limentarla ( ) lemma=alimentar 
+ limentarno ( ) lemma=alimentar 
+ limentaro ( ) lemma=alimentar 
+ limentars ( ) lemma=alimentarse 
+ limentar� ( ) lemma=alimentar 
+ limentará ( ) lemma=alimentar 
+ limentarí ( ) lemma=alimentar 
+ limentaría ( ) lemma=alimentar 
+ limente ( ) lemma=alimentar 
+ limentici ( ) lemma=alimenticio 
+ limenticia ( ) lemma=alimenticio 
+ limenticio ( ) lemma=alimenticio 
+ limento ( ) lemma=alimento 
+ limentándos ( ) lemma=alimentar 
+ liment� ( ) lemma=alimentar 
+ lineacione ( ) lemma=alineación 
+ lineació ( ) lemma=alineación 
+ lineada ( ) lemma=alineado 
+ linead ( ) lemma=alinear 
+ lineado ( ) lemma=alineado 
+ lineamient ( ) lemma=alineamiento 
+ lineamiento ( ) lemma=alineamiento 
+ lineand ( ) lemma=alinear 
+ linearo ( ) lemma=alinear 
+ linears ( ) lemma=alinearse 
+ linear� ( ) lemma=alinear 
+ lineará ( ) lemma=alinear 
+ lineándos ( ) lemma=alinearse 
+ line� ( ) lemma=alinear 
+ lisio ( ) lemma=alisios 
+ list ( ) lemma=alistar 
+ listada ( ) lemma=alistar 
+ listand ( ) lemma=alistar 
+ listara ( ) lemma=alistar 
+ list� ( ) lemma=alistar 
+ litiásic ( ) lemma=alitiásico 
+ livi ( ) lemma=alivio 
+ liviab ( ) lemma=aliviar 
+ liviad ( ) lemma=aliviado 
+ liviada ( ) lemma=aliviar 
+ liviader ( ) lemma=aliviadero 
+ liviado ( ) lemma=aliviar 
+ liviamo ( ) lemma=aliviar 
+ livia ( ) lemma=aliviar 
+ liviand ( ) lemma=aliviar 
+ liviar ( ) lemma=aliviar 
+ liviara ( ) lemma=aliviar 
+ liviaremo ( ) lemma=aliviar 
+ liviars ( ) lemma=aliviarse 
+ liviart ( ) lemma=aliviar 
+ liviar� ( ) lemma=aliviar 
+ liviará ( ) lemma=aliviar 
+ liviarí ( ) lemma=aliviar 
+ liviaría ( ) lemma=aliviar 
+ liviase ( ) lemma=aliviar 
+ liviemo ( ) lemma=aliviar 
+ livie ( ) lemma=aliviar 
+ livio ( ) lemma=alivio 
+ livi� ( ) lemma=aliviar 
+ liwe ( ) lemma=aliweb 
+ liñad ( ) lemma=aliñar 
+ liñada ( ) lemma=aliñar 
+ li� ( ) lemma=oler 
+ lkalin ( ) lemma=alkalino 
+ lkilant ( ) lemma=alkilante 
+ ll ( ) lemma=olla 
+ llan ( ) lemma=allanar 
+ llanab ( ) lemma=allanar 
+ llanad ( ) lemma=allanar 
+ llanamient ( ) lemma=allanamiento 
+ llanamiento ( ) lemma=allanamiento 
+ llanand ( ) lemma=allanar 
+ llanar ( ) lemma=allanar 
+ llanaro ( ) lemma=allanar 
+ llanars ( ) lemma=allanarse 
+ llanar� ( ) lemma=allanar 
+ llanarí ( ) lemma=allanar 
+ llan� ( ) lemma=allanar 
+ llegad ( ) lemma=allegar 
+ llegars ( ) lemma=allegarse 
+ llend ( ) lemma=allende 
+ ll� ( ) lemma=allí 
+ lm ( ) lemma=olmo 
+ lmacen ( ) lemma=almacenar 
+ lmacenaba ( ) lemma=almacenar 
+ lmacenad ( ) lemma=almacenar 
+ lmacenada ( ) lemma=almacenar 
+ lmacenado ( ) lemma=almacenar 
+ lmacenaj ( ) lemma=almacenaje 
+ lmacenamient ( ) lemma=almacenamiento 
+ lmacenamiento ( ) lemma=almacenamiento 
+ lmacenamo ( ) lemma=almacenar 
+ lmacena ( ) lemma=almaceno 
+ lmacenand ( ) lemma=almacenar 
+ lmacenara ( ) lemma=almacenar 
+ lmacenarl ( ) lemma=almacenar 
+ lmacenarla ( ) lemma=almacenar 
+ lmacenarlo ( ) lemma=almacenar 
+ lmacenaro ( ) lemma=almacenar 
+ lmacenars ( ) lemma=almacenarse 
+ lmacenar� ( ) lemma=almacenar 
+ lmacenaría ( ) lemma=almacenar 
+ lmacene ( ) lemma=almacén 
+ lmacenist ( ) lemma=almacenista 
+ lmacen� ( ) lemma=almacenar 
+ lmacé ( ) lemma=almacén 
+ lma ( ) lemma=alma 
+ lmej ( ) lemma=almeja 
+ lmeja ( ) lemma=almeja 
+ lmejita ( ) lemma=almeja 
+ lmendr ( ) lemma=almendro 
+ lmendra ( ) lemma=almendra 
+ lmendro ( ) lemma=almendro 
+ lmidone ( ) lemma=almidón 
+ lmidó ( ) lemma=almidón 
+ lmidón-ge ( ) lemma=almidón-gel 
+ lmohad ( ) lemma=almohada 
+ lmohada ( ) lemma=almohada 
+ lmohadillamient ( ) lemma=almohadillamiento 
+ lmohadilla ( ) lemma=almohada 
+ lmohadone ( ) lemma=almohada 
+ lmohadó ( ) lemma=almohada 
+ lmorc� ( ) lemma=almorzar 
+ lmorzab ( ) lemma=almorzar 
+ lmorza ( ) lemma=almorzar 
+ lmorzaro ( ) lemma=almorzar 
+ lmuerz ( ) lemma=almuerzo 
+ lmuerza ( ) lemma=almorzar 
+ lmuerzo ( ) lemma=almuerzo 
+ locad ( ) lemma=alocar 
+ locució ( ) lemma=alocución 
+ loinjerto ( ) lemma=aloinjerto 
+ loj ( ) lemma=flojo 
+ lojab ( ) lemma=alojar 
+ lojaba ( ) lemma=alojar 
+ lojad ( ) lemma=alojar 
+ lojada ( ) lemma=alojar 
+ lojado ( ) lemma=alojar 
+ lojamient ( ) lemma=alojamiento 
+ lojamiento ( ) lemma=alojamiento 
+ loja ( ) lemma=flojo 
+ loj� ( ) lemma=alojar 
+ lométric ( ) lemma=alométrico 
+ lon ( ) lemma=along 
+ lopeci ( ) lemma=alopecia 
+ lopurino ( ) lemma=alopurinol 
+ lostéric ( ) lemma=alostérico 
+ lotrasplant ( ) lemma=alotrasplante 
+ lotípic ( ) lemma=alotípico 
+ loxan ( ) lemma=aloxano 
+ lpac ( ) lemma=alpaca 
+ lphabe ( ) lemma=alphabet 
+ lphanumeri ( ) lemma=alphanumeric 
+ lphanumériqu ( ) lemma=alphanumérique 
+ lpina ( ) lemma=alpino 
+ lpinista ( ) lemma=alpinista 
+ lpino ( ) lemma=alpino 
+ lpist ( ) lemma=alpiste 
+ lquil ( ) lemma=alquilar 
+ lquilaba ( ) lemma=alquilar 
+ lquilad ( ) lemma=alquilar 
+ lquilada ( ) lemma=alquilar 
+ lquilado ( ) lemma=alquilar 
+ lquilamo ( ) lemma=alquilar 
+ lquila ( ) lemma=alquilar 
+ lquiland ( ) lemma=alquilar 
+ lquilant ( ) lemma=alquilante 
+ lquilar ( ) lemma=alquilar 
+ lquilara ( ) lemma=alquilar 
+ lquilarl ( ) lemma=alquilar 
+ lquilar� ( ) lemma=alquilar 
+ lquilast ( ) lemma=alquilar 
+ lquilbencen ( ) lemma=alquilbenceno 
+ lquile ( ) lemma=alquiler 
+ lquilere ( ) lemma=alquiler 
+ lquilfeno ( ) lemma=alquilfenol 
+ lquil� ( ) lemma=alquilar 
+ lquimi ( ) lemma=alquimia 
+ lquitrá ( ) lemma=alquitrán 
+ lrededo ( ) lemma=alrededor 
+ lrededore ( ) lemma=alrededores 
+ ltament ( ) lemma=alto 
+ ltamiran ( ) lemma=altamirano 
+ ltare ( ) lemma=altar 
+ ltavoce ( ) lemma=altavoz 
+ ltavo ( ) lemma=altavoz 
+ lter ( ) lemma=alterar 
+ lterab ( ) lemma=alterar 
+ lteraba ( ) lemma=alterar 
+ lteracione ( ) lemma=alteración 
+ lteració ( ) lemma=alteración 
+ lterad ( ) lemma=alterar 
+ lterada ( ) lemma=alterar 
+ lteradit ( ) lemma=alterar 
+ lterado ( ) lemma=alterar 
+ lteramo ( ) lemma=alterar 
+ ltera ( ) lemma=alterar 
+ lterand ( ) lemma=alterar 
+ lterara ( ) lemma=alterar 
+ lteraro ( ) lemma=alterar 
+ lterars ( ) lemma=alterarse 
+ lterar� ( ) lemma=alterar 
+ lterará ( ) lemma=alterar 
+ lterarí ( ) lemma=alterar 
+ lteras ( ) lemma=alterar 
+ ltercad ( ) lemma=altercar 
+ ltercado ( ) lemma=altercar 
+ lteremo ( ) lemma=alterar 
+ ltere ( ) lemma=alterar 
+ ltern ( ) lemma=alterno 
+ lternaba ( ) lemma=alternar 
+ lternad ( ) lemma=alternar 
+ lternadament ( ) lemma=alternado 
+ lternada ( ) lemma=alternar 
+ lternado ( ) lemma=alternado 
+ lternadore ( ) lemma=alternador 
+ lternamo ( ) lemma=alternar 
+ lterna ( ) lemma=alternat 
+ lternanci ( ) lemma=alternancia 
+ lternancia ( ) lemma=alternancia 
+ lternand ( ) lemma=alternar 
+ lternant ( ) lemma=alternante 
+ lternar� ( ) lemma=alternar 
+ lternará ( ) lemma=alternar 
+ lternati ( ) lemma=alternatif 
+ lternatin ( ) lemma=alternating 
+ lternativ ( ) lemma=alternativo 
+ lternativament ( ) lemma=alternativamente|alternativo 
+ lternativa ( ) lemma=alternativo 
+ lternativo ( ) lemma=alternativo 
+ lterno ( ) lemma=alterno 
+ lternándos ( ) lemma=alternar 
+ ltern� ( ) lemma=alternar 
+ lter� ( ) lemma=alterar 
+ ltibajo ( ) lemma=altibajo 
+ ltiplan ( ) lemma=altiplano 
+ ltisonante ( ) lemma=altisonante 
+ ltita ( ) lemma=alto 
+ ltitu ( ) lemma=altitud 
+ ltitude ( ) lemma=altitud 
+ ltitudina ( ) lemma=altitudinal 
+ ltiv ( ) lemma=altivo 
+ ltivo ( ) lemma=altivo 
+ ltoparlante ( ) lemma=altoparlante 
+ lto ( ) lemma=alto 
+ ltruism ( ) lemma=altruismo 
+ ltruismo ( ) lemma=altruismo 
+ ltruist ( ) lemma=altruista 
+ ltruista ( ) lemma=altruista 
+ ltur ( ) lemma=altura 
+ ltura ( ) lemma=altura 
+ ltísim ( ) lemma=alto 
+ ltísima ( ) lemma=alto 
+ ltísimo ( ) lemma=alto 
+ lubia ( ) lemma=alubia 
+ lucinab ( ) lemma=alucinar 
+ lucinacione ( ) lemma=alucinación 
+ lucinació ( ) lemma=alucinación 
+ lucinad ( ) lemma=alucinar 
+ lucinado ( ) lemma=alucinar 
+ lucina ( ) lemma=alucinar 
+ lucinant ( ) lemma=alucinante 
+ lucinante ( ) lemma=alucinante 
+ lucin ( ) lemma=alucinar 
+ lucinógena ( ) lemma=alucinógeno 
+ lucinógeno ( ) lemma=alucinógeno 
+ lu ( ) lemma=plus 
+ lud ( ) lemma=eludir 
+ lude ( ) lemma=eludir 
+ ludid ( ) lemma=eludir 
+ ludida ( ) lemma=eludir 
+ ludido ( ) lemma=eludir 
+ ludiend ( ) lemma=eludir 
+ ludier ( ) lemma=aludir 
+ ludiera ( ) lemma=eludir 
+ ludiero ( ) lemma=aludir 
+ ludies ( ) lemma=eludir 
+ ludimo ( ) lemma=aludir 
+ ludi ( ) lemma=eludir 
+ ludir� ( ) lemma=eludir 
+ ludirá ( ) lemma=eludir 
+ ludi� ( ) lemma=eludir 
+ lud� ( ) lemma=aludir 
+ ludí ( ) lemma=eludir 
+ ludíamo ( ) lemma=aludir 
+ ludía ( ) lemma=aludir 
+ lumbr ( ) lemma=alumbrar 
+ lumbrad ( ) lemma=alumbrado 
+ lumbramient ( ) lemma=alumbramiento 
+ lumbra ( ) lemma=alumbrar 
+ lumbrar ( ) lemma=alumbrar 
+ lumini ( ) lemma=aluminio 
+ lumn ( ) lemma=alumno 
+ lumnad ( ) lemma=alumnado 
+ lumna ( ) lemma=alumno 
+ lumno ( ) lemma=alumno 
+ lusione ( ) lemma=ilusión 
+ lusiv ( ) lemma=elusivo 
+ lusiva ( ) lemma=alusivo 
+ lusivo ( ) lemma=alusivo 
+ lusió ( ) lemma=ilusión 
+ luviale ( ) lemma=pluvial 
+ luvió ( ) lemma=aluvión 
+ lveola ( ) lemma=alveolar 
+ lveolare ( ) lemma=alveolar 
+ lveolo ( ) lemma=alveolo 
+ lvéolo ( ) lemma=alvéolo 
+ lz ( ) lemma=alzar 
+ lzab ( ) lemma=alzar 
+ lzaba ( ) lemma=alzar 
+ lzad ( ) lemma=alzado 
+ lzado ( ) lemma=alzar 
+ lzamient ( ) lemma=alzamiento 
+ lzamiento ( ) lemma=alzamiento 
+ lzamo ( ) lemma=alzar 
+ lza ( ) lemma=alza 
+ lzara ( ) lemma=alzar 
+ lzaro ( ) lemma=alzar 
+ lzars ( ) lemma=alzarse 
+ lzar� ( ) lemma=alzar 
+ lzará ( ) lemma=alzar 
+ lzarí ( ) lemma=alzar 
+ lz� ( ) lemma=alzar 
+ l� ( ) lemma=olé 
+ léatoire ( ) lemma=aléatoires 
+ lélic ( ) lemma=alélico 
+ lélica ( ) lemma=alélico 
+ lélico ( ) lemma=alélico 
+ lérgen ( ) lemma=alérgeno 
+ lérgic ( ) lemma=alérgico 
+ lérgica ( ) lemma=alérgico 
+ lérgico ( ) lemma=alérgico 
+ lícuot ( ) lemma=alícuota 
+ lícuota ( ) lemma=alícuota 
+ lanc ( ) lemma=flanco 
+ lanca ( ) lemma=blanco 
+ lanch ( ) lemma=planchar 
+ lanco ( ) lemma=flanco 
+ lancur ( ) lemma=blancura 
+ land ( ) lemma=glande 
+ landament ( ) lemma=blando 
+ landa ( ) lemma=blando 
+ lande ( ) lemma=blandir 
+ landid ( ) lemma=blandir 
+ landiend ( ) lemma=blandir 
+ landi ( ) lemma=blandir 
+ landito ( ) lemma=blando 
+ landi� ( ) lemma=blandir 
+ lando ( ) lemma=blando 
+ landí ( ) lemma=blandir 
+ landía ( ) lemma=blandir 
+ lanque ( ) lemma=flanquear 
+ lanquead ( ) lemma=flanquear 
+ lanqueada ( ) lemma=flanquear 
+ lanqueado ( ) lemma=blanquear 
+ lanquea ( ) lemma=blanquear 
+ lanqueand ( ) lemma=blanquear 
+ lanquiazu ( ) lemma=blanquiazul 
+ lanquiazule ( ) lemma=blanquiazul 
+ lanquit ( ) lemma=blanco 
+ lasfem ( ) lemma=blasfemo 
+ lasfema ( ) lemma=blasfemo 
+ lasfemi ( ) lemma=blasfemia 
+ lasfemia ( ) lemma=blasfemia 
+ lastem ( ) lemma=blastema 
+ lastozooid ( ) lemma=blastozooide 
+ lastómero ( ) lemma=blastómero 
+ lastópor ( ) lemma=blastóporo 
+ lind ( ) lemma=blindar 
+ lindad ( ) lemma=blindar 
+ lindada ( ) lemma=blindar 
+ lindado ( ) lemma=blindar 
+ loc ( ) lemma=block 
+ loqu ( ) lemma=bloque 
+ loque ( ) lemma=bloque 
+ loqueab ( ) lemma=bloquear 
+ loqueaba ( ) lemma=bloquear 
+ loquead ( ) lemma=bloquear 
+ loqueada ( ) lemma=bloquear 
+ loqueadore ( ) lemma=bloqueador 
+ loqueado ( ) lemma=bloquear 
+ loqueamo ( ) lemma=bloquear 
+ loquea ( ) lemma=bloquear 
+ loqueand ( ) lemma=bloquear 
+ loqueante ( ) lemma=bloqueante 
+ loquearemo ( ) lemma=bloquear 
+ loquearo ( ) lemma=bloquear 
+ loquears ( ) lemma=bloquearse 
+ loquear� ( ) lemma=bloquear 
+ loqueará ( ) lemma=bloquear 
+ loquearí ( ) lemma=bloquear 
+ loqueas ( ) lemma=bloquear 
+ loquee ( ) lemma=bloquear 
+ loqueo ( ) lemma=bloqueo 
+ loque� ( ) lemma=bloquear 
+ lue ( ) lemma=blues 
+ lus ( ) lemma=iluso 
+ lusa ( ) lemma=blusa 
+ lusita ( ) lemma=blusa 
+ lástul ( ) lemma=blástula 
+ lam ( ) lemma=llamar 
+ lamaba ( ) lemma=llamar 
+ lamad ( ) lemma=llamado 
+ lamamo ( ) lemma=llamar 
+ lamand ( ) lemma=llamar 
+ lamar ( ) lemma=llamar 
+ lamidi ( ) lemma=clamidia 
+ lamidospor ( ) lemma=clamidospora 
+ lamo ( ) lemma=clamor 
+ lamore ( ) lemma=clamor 
+ lamáramo ( ) lemma=clamar 
+ lam� ( ) lemma=llamar 
+ landestin ( ) lemma=clandestino 
+ landestinament ( ) lemma=clandestino 
+ landestina ( ) lemma=clandestino 
+ landestinida ( ) lemma=clandestinidad 
+ landestino ( ) lemma=clandestino 
+ lane ( ) lemma=plan 
+ larament ( ) lemma=claro 
+ lara ( ) lemma=claro 
+ larida ( ) lemma=claridad 
+ larific ( ) lemma=clarificar 
+ larificaba ( ) lemma=clarificar 
+ larificacione ( ) lemma=clarificación 
+ larificació ( ) lemma=clarificación 
+ larificad ( ) lemma=clarificar 
+ larificada ( ) lemma=clarificar 
+ larifica ( ) lemma=clarificar 
+ larificar ( ) lemma=clarificar 
+ larificaro ( ) lemma=clarificar 
+ larificar� ( ) lemma=clarificar 
+ larificaría ( ) lemma=clarificar 
+ larificas ( ) lemma=clarificar 
+ larific� ( ) lemma=clarificar 
+ larifiqu ( ) lemma=clarificar 
+ larifiquemo ( ) lemma=clarificar 
+ larifique ( ) lemma=clarificar 
+ larine ( ) lemma=clarín 
+ larinet ( ) lemma=clarinete 
+ larito ( ) lemma=claro 
+ larividenci ( ) lemma=clarividencia 
+ larivident ( ) lemma=clarividente 
+ laro ( ) lemma=claro 
+ laroscuro ( ) lemma=claroscuro 
+ larí ( ) lemma=clarín 
+ larísim ( ) lemma=claro 
+ larísimament ( ) lemma=claro 
+ larísima ( ) lemma=claro 
+ larísimo ( ) lemma=claro 
+ lase ( ) lemma=clase 
+ lasicism ( ) lemma=clasicismo 
+ lasic ( ) lemma=clasico|clásico 
+ lasific ( ) lemma=clasificar 
+ lasificaba ( ) lemma=clasificar 
+ lasificable ( ) lemma=clasificable 
+ lasificacione ( ) lemma=clasificación 
+ lasificació ( ) lemma=clasificación 
+ lasificad ( ) lemma=clasificar 
+ lasificada ( ) lemma=clasificar 
+ lasificado ( ) lemma=clasificar 
+ lasificamo ( ) lemma=clasificar 
+ lasifica ( ) lemma=clasificar 
+ lasificand ( ) lemma=clasificar 
+ lasificar ( ) lemma=clasificar 
+ lasificaremo ( ) lemma=clasificar 
+ lasificarla ( ) lemma=clasificar 
+ lasificarl ( ) lemma=clasificar 
+ lasificaro ( ) lemma=clasificar 
+ lasificars ( ) lemma=clasificarse 
+ lasificar� ( ) lemma=clasificar 
+ lasificará ( ) lemma=clasificar 
+ lasificaría ( ) lemma=clasificar 
+ lasific� ( ) lemma=clasificar 
+ lasifiqu ( ) lemma=clasificar 
+ lasifique ( ) lemma=clasificar 
+ lasist ( ) lemma=clasista 
+ latrin ( ) lemma=clatrina 
+ latrina-clatrin ( ) lemma=clatrina-clatrina 
+ laudicació ( ) lemma=claudicación 
+ laudiqu ( ) lemma=claudicar 
+ laustr ( ) lemma=claustro 
+ laustro ( ) lemma=claustro 
+ lausur ( ) lemma=clausura 
+ lausurab ( ) lemma=clausurar 
+ lausurad ( ) lemma=clausurar 
+ lausurada ( ) lemma=clausurar 
+ lausurado ( ) lemma=clausurar 
+ lausura ( ) lemma=clausura 
+ lausuraro ( ) lemma=clausurar 
+ lausurar� ( ) lemma=clausurar 
+ lausurará ( ) lemma=clausurar 
+ lausuremo ( ) lemma=clausurar 
+ lausure ( ) lemma=clausurar 
+ lausur� ( ) lemma=clausurar 
+ lav ( ) lemma=llave 
+ lavad ( ) lemma=clavar 
+ lavars ( ) lemma=clavar 
+ lavele ( ) lemma=clavel 
+ lavelone ( ) lemma=clavelón 
+ laveló ( ) lemma=clavelón 
+ lavicul ( ) lemma=clavícula 
+ lavicula ( ) lemma=clavicular 
+ laviculare ( ) lemma=clavicular 
+ lavie ( ) lemma=clavier 
+ lavij ( ) lemma=clavija 
+ lavija ( ) lemma=clavija 
+ lavit ( ) lemma=clavo 
+ lavándol ( ) lemma=clavar 
+ lav� ( ) lemma=clavar 
+ lavícul ( ) lemma=clavícula 
+ lavícula ( ) lemma=clavícula 
+ learin ( ) lemma=clearing 
+ lemenci ( ) lemma=clemencia 
+ lemente ( ) lemma=clemente 
+ lenbutero ( ) lemma=clenbuterol 
+ lergyma ( ) lemma=clergyman 
+ lerica ( ) lemma=clerical 
+ lich� ( ) lemma=cliché 
+ liché ( ) lemma=cliché 
+ lic ( ) lemma=clic 
+ liente-servido ( ) lemma=cliente-servidor 
+ lientel ( ) lemma=clientela 
+ lientela ( ) lemma=clientela 
+ lienteservido ( ) lemma=clienteservidor 
+ lientesusuari ( ) lemma=clientesusuario 
+ lim ( ) lemma=clima 
+ limateri ( ) lemma=climaterio 
+ limatizació ( ) lemma=climatización 
+ limatológic ( ) lemma=climatológico 
+ limatológicament ( ) lemma=climatológico 
+ limatológica ( ) lemma=climatológico 
+ limatológico ( ) lemma=climatológico 
+ limina ( ) lemma=eliminar 
+ limátic ( ) lemma=climático 
+ limáticament ( ) lemma=climático 
+ limática ( ) lemma=climático 
+ limático ( ) lemma=climático 
+ lina ( ) lemma=clina 
+ linicoanatómic ( ) lemma=clinicoanatómico 
+ linicopatológic ( ) lemma=clinicopatológico 
+ loac ( ) lemma=cloaca 
+ loaca ( ) lemma=cloaca 
+ loch ( ) lemma=cloche 
+ lomidin ( ) lemma=clomidina 
+ lonacione ( ) lemma=clonación 
+ lonació ( ) lemma=clonación 
+ lonad ( ) lemma=clonar 
+ lonado ( ) lemma=clonar 
+ lonaj ( ) lemma=clonaje 
+ lonand ( ) lemma=clonar 
+ lone ( ) lemma=clon 
+ lonidin ( ) lemma=clonidina 
+ lonin ( ) lemma=cloning 
+ lonotec ( ) lemma=clonoteca 
+ lon� ( ) lemma=clonar 
+ loració ( ) lemma=floración 
+ lorad ( ) lemma=llorar 
+ loramfenico ( ) lemma=cloramfenicol 
+ lorhídric ( ) lemma=clorhídrico 
+ lor ( ) lemma=lloro 
+ lorofil ( ) lemma=clorofila 
+ lorofila ( ) lemma=clorofila 
+ loroplast ( ) lemma=cloroplasto 
+ loroplasto ( ) lemma=cloroplasto 
+ loroplástic ( ) lemma=cloroplástico 
+ loroquin ( ) lemma=cloroquina 
+ lorpropami ( ) lemma=clorpropamir 
+ lorur ( ) lemma=cloruro 
+ loruro ( ) lemma=cloruro 
+ lose ( ) lemma=closet 
+ loset ( ) lemma=closet 
+ lostridiu ( ) lemma=clostridium 
+ lube ( ) lemma=club 
+ lub ( ) lemma=club 
+ luster ( ) lemma=cluster 
+ lásic ( ) lemma=clásico 
+ lásicament ( ) lemma=clásico 
+ lásica ( ) lemma=clásico 
+ lásico ( ) lemma=clásico 
+ láusul ( ) lemma=cláusula 
+ láusula ( ) lemma=cláusula 
+ lérig ( ) lemma=clérigo 
+ lérigo ( ) lemma=clérigo 
+ líma ( ) lemma=clímax 
+ línic ( ) lemma=clínico 
+ línicament ( ) lemma=clínico 
+ línica ( ) lemma=clínico 
+ línico-humora ( ) lemma=clínico-humoral 
+ línico-patológic ( ) lemma=clínico-patológico 
+ línicohumora ( ) lemma=clínicohumoral 
+ línico ( ) lemma=clínico 
+ lítori ( ) lemma=clítoris 
+ lónic ( ) lemma=clónico 
+ lónico ( ) lemma=clónico 
+ lúste ( ) lemma=clúster 
+ l_(conforme~al ( ) 
+ l_(debido~al ( ) 
+ l_momento_en_que_(desde~el~momento~en~que ( ) 
+ laborab ( ) lemma=elaborar 
+ laboracione ( ) lemma=elaboración 
+ laboració ( ) lemma=elaboración 
+ laborad ( ) lemma=elaborar 
+ laborada ( ) lemma=elaborar 
+ laboramo ( ) lemma=elaborar 
+ laborand ( ) lemma=elaborar 
+ laborara ( ) lemma=elaborar 
+ laboraremo ( ) lemma=elaborar 
+ laboraro ( ) lemma=elaborar 
+ laborars ( ) lemma=elaborarse 
+ laborar� ( ) lemma=elaborar 
+ laborará ( ) lemma=elaborar 
+ laborarí ( ) lemma=elaborar 
+ laboraría ( ) lemma=elaborar 
+ laboras ( ) lemma=elaborar 
+ laborase ( ) lemma=elaborar 
+ laboremo ( ) lemma=elaborar 
+ labore ( ) lemma=elaborar 
+ laborándos ( ) lemma=elaborarse 
+ laboráramo ( ) lemma=elaborar 
+ labor� ( ) lemma=elaborar 
+ lasmobranqui ( ) lemma=elasmobranquio 
+ lasticida ( ) lemma=elasticidad 
+ lastin ( ) lemma=elastina 
+ leccione ( ) lemma=elección 
+ lecció ( ) lemma=elección 
+ lect ( ) lemma=electo 
+ lecta ( ) lemma=electo 
+ lectiv ( ) lemma=electivo 
+ lectiva ( ) lemma=electivo 
+ lectivo ( ) lemma=electivo 
+ lecto ( ) lemma=electo 
+ lectorad ( ) lemma=electorado 
+ lectorado ( ) lemma=electorado 
+ lectorale ( ) lemma=electoral 
+ lectoralment ( ) lemma=electoral 
+ lectore ( ) lemma=elector 
+ lectri ( ) lemma=electric 
+ lectrica ( ) lemma=electrical 
+ lectricida ( ) lemma=electricidad 
+ lectricist ( ) lemma=electricista 
+ lectricista ( ) lemma=electricista 
+ lectrificació ( ) lemma=electrificación 
+ lectr ( ) lemma=electro 
+ lectroacousti ( ) lemma=electroacoustic 
+ lectroacústic ( ) lemma=electroacústico 
+ lectroacústica ( ) lemma=electroacústico 
+ lectroacústico ( ) lemma=electroacústico 
+ lectrocardiogram ( ) lemma=electrocardiograma 
+ lectrocardiográfic ( ) lemma=electrocardiográfico 
+ lectroconvulsivant ( ) lemma=electroconvulsivante 
+ lectrod ( ) lemma=electrodo 
+ lectrodoméstico ( ) lemma=electrodoméstico 
+ lectrodo ( ) lemma=electrodo 
+ lectroencefalogram ( ) lemma=electroencefalograma 
+ lectroencefalográfic ( ) lemma=electroencefalográfico 
+ lectrofisiológic ( ) lemma=electrofisiológico 
+ lectroforesi ( ) lemma=electroforesis 
+ lectroforétic ( ) lemma=electroforético 
+ lectroforética ( ) lemma=electroforético 
+ lectroforético ( ) lemma=electroforético 
+ lectrogénic ( ) lemma=electrógeno 
+ lectroimá ( ) lemma=electroimán 
+ lectrolito ( ) lemma=electrolito 
+ lectrolizadore ( ) lemma=electrolizador 
+ lectroliza ( ) lemma=electrolizar 
+ lectrologí ( ) lemma=electrología 
+ lectrolític ( ) lemma=electrolítico 
+ lectromagnétic ( ) lemma=electromagnético 
+ lectromagnética ( ) lemma=electromagnético 
+ lectromagnético ( ) lemma=electromagnético 
+ lectromecánic ( ) lemma=electromecánico 
+ lectromecánico ( ) lemma=electromecánico 
+ lectromiografí ( ) lemma=electromiografía 
+ lectromiográfic ( ) lemma=electromiográfico 
+ lectromotri ( ) lemma=electromotriz 
+ lectronegativ ( ) lemma=electronegativo 
+ lectronegativida ( ) lemma=electronegatividad 
+ lectrone ( ) lemma=electrón 
+ lectroneutr ( ) lemma=electroneutro 
+ lectroquímic ( ) lemma=electroquímico 
+ lectrostátic ( ) lemma=electrostático 
+ lectrostática ( ) lemma=electrostático 
+ lectrostático ( ) lemma=electrostático 
+ lectrotécnic ( ) lemma=electrotécnico 
+ lectrotónic ( ) lemma=electrotónico 
+ lectrófilo ( ) lemma=electrófilo 
+ lectrógeno ( ) lemma=electrógeno 
+ lectrólisi ( ) lemma=electrólisis 
+ lectrólit ( ) lemma=electrólito 
+ lectrólito ( ) lemma=electrólito 
+ lectró ( ) lemma=electrón 
+ lectrónic ( ) lemma=electrónico 
+ lectrónicament ( ) lemma=electrónico 
+ lectrónica ( ) lemma=electrónico 
+ lectrónico ( ) lemma=electrónico 
+ lefant ( ) lemma=elefante 
+ lefante ( ) lemma=elefante 
+ leganci ( ) lemma=elegancia 
+ legant ( ) lemma=elegante 
+ legantement ( ) lemma=elegante 
+ legante ( ) lemma=elegante 
+ legantísim ( ) lemma=elegante 
+ legid ( ) lemma=elegir 
+ legida ( ) lemma=elegir 
+ legido ( ) lemma=elegir 
+ legimo ( ) lemma=elegir 
+ legi ( ) lemma=elegir 
+ legiremo ( ) lemma=elegir 
+ legirs ( ) lemma=elegirse 
+ legir� ( ) lemma=elegir 
+ legirá ( ) lemma=elegir 
+ legirí ( ) lemma=elegir 
+ legiría ( ) lemma=elegir 
+ legist ( ) lemma=elegir 
+ legí ( ) lemma=elegía 
+ lemen ( ) lemma=element 
+ lementa ( ) lemma=elemental 
+ lementale ( ) lemma=elemental 
+ lemento ( ) lemma=elemento 
+ lenc ( ) lemma=elenco 
+ lev ( ) lemma=llevar 
+ levab ( ) lemma=llevar 
+ levaba ( ) lemma=llevar 
+ levacione ( ) lemma=elevación 
+ levació ( ) lemma=elevación 
+ levad ( ) lemma=llevar 
+ levadament ( ) lemma=elevado 
+ levada ( ) lemma=llevar 
+ levado ( ) lemma=llevar 
+ levadore ( ) lemma=elevador 
+ levadísim ( ) lemma=elevado 
+ levadísima ( ) lemma=elevado 
+ levadísimo ( ) lemma=elevado 
+ levamo ( ) lemma=llevar 
+ leva ( ) lemma=llevar 
+ levand ( ) lemma=llevar 
+ levaremo ( ) lemma=llevar 
+ levarl ( ) lemma=llevar 
+ levarla ( ) lemma=elevar 
+ levarlo ( ) lemma=llevar 
+ levarm ( ) lemma=llevar 
+ levaro ( ) lemma=llevar 
+ levars ( ) lemma=llevarse 
+ levar� ( ) lemma=llevar 
+ levará ( ) lemma=llevar 
+ levarí ( ) lemma=llevar 
+ levaría ( ) lemma=llevar 
+ levándol ( ) lemma=llevar 
+ levándolo ( ) lemma=elevar 
+ levándos ( ) lemma=llevar 
+ lev� ( ) lemma=llevar 
+ licitado ( ) lemma=elicitador 
+ lig ( ) lemma=elegir 
+ lige ( ) lemma=elegir 
+ ligiend ( ) lemma=elegir 
+ ligier ( ) lemma=elegir 
+ ligiera ( ) lemma=elegir 
+ ligiero ( ) lemma=elegir 
+ ligiese ( ) lemma=elegir 
+ ligi� ( ) lemma=elegir 
+ lijamo ( ) lemma=elegir|elijar 
+ lija ( ) lemma=elegir 
+ limin ( ) lemma=eliminar 
+ liminab ( ) lemma=eliminar 
+ liminaba ( ) lemma=eliminar 
+ liminacione ( ) lemma=eliminación 
+ liminació ( ) lemma=eliminación 
+ liminad ( ) lemma=eliminar 
+ liminada ( ) lemma=eliminar 
+ liminado ( ) lemma=eliminar 
+ liminamo ( ) lemma=eliminar 
+ liminand ( ) lemma=eliminar 
+ liminar ( ) lemma=eliminar 
+ liminaremo ( ) lemma=eliminar 
+ liminarl ( ) lemma=eliminar 
+ liminarla ( ) lemma=eliminar 
+ liminarlo ( ) lemma=eliminar 
+ liminaro ( ) lemma=eliminar 
+ liminars ( ) lemma=eliminarse 
+ liminar� ( ) lemma=eliminar 
+ liminará ( ) lemma=eliminar 
+ liminarí ( ) lemma=eliminar 
+ liminaríamo ( ) lemma=eliminar 
+ liminaría ( ) lemma=eliminar 
+ liminas ( ) lemma=eliminar 
+ liminatori ( ) lemma=eliminatorio 
+ liminatoria ( ) lemma=eliminatoria 
+ liminemo ( ) lemma=eliminar 
+ limine ( ) lemma=eliminar 
+ limináramo ( ) lemma=eliminar 
+ liminásemo ( ) lemma=eliminar 
+ limin� ( ) lemma=eliminar 
+ limínela ( ) lemma=eliminar 
+ lips ( ) lemma=elipse 
+ lit ( ) lemma=ola 
+ litist ( ) lemma=elitista 
+ litista ( ) lemma=elitista 
+ lixi ( ) lemma=elixir 
+ lla ( ) lemma=olla 
+ llo ( ) lemma=él 
+ locuenci ( ) lemma=elocuencia 
+ locuent ( ) lemma=elocuente 
+ locuentement ( ) lemma=elocuente 
+ locuente ( ) lemma=elocuente 
+ logi ( ) lemma=elogio 
+ logiaba ( ) lemma=elogiar 
+ logiad ( ) lemma=elogiar 
+ logiada ( ) lemma=elogiar 
+ logiamo ( ) lemma=elogiar 
+ logia ( ) lemma=elogiar 
+ logiand ( ) lemma=elogiar 
+ logiar ( ) lemma=elogiar 
+ logiaro ( ) lemma=elogiar 
+ logiarí ( ) lemma=elogiar 
+ logio ( ) lemma=elogio 
+ logi� ( ) lemma=elogiar 
+ longació ( ) lemma=elongación 
+ lucidad ( ) lemma=elucidar 
+ ludamo ( ) lemma=eludir 
+ luda ( ) lemma=eludir 
+ lástic ( ) lemma=plástico 
+ lásticament ( ) lemma=elástico 
+ lástica ( ) lemma=plástico 
+ lástico ( ) lemma=plástico 
+ léctric ( ) lemma=eléctrico 
+ léctricament ( ) lemma=eléctrico 
+ léctrica ( ) lemma=eléctrico 
+ léctrico ( ) lemma=eléctrico 
+ líptic ( ) lemma=elíptico 
+ laco ( ) lemma=flaco 
+ lagel ( ) lemma=flagelar 
+ lagelada ( ) lemma=flagelar 
+ lagelado ( ) lemma=flagelar 
+ lagelemo ( ) lemma=flagelar 
+ lagelo ( ) lemma=flagelo 
+ lagrant ( ) lemma=flagrante 
+ lagrantement ( ) lemma=flagrante 
+ lagrante ( ) lemma=flagrante 
+ lag ( ) lemma=plagar 
+ lamant ( ) lemma=llamar 
+ lamante ( ) lemma=llamar 
+ lamenc ( ) lemma=flamenco 
+ lamenca ( ) lemma=flamenco 
+ lamenco ( ) lemma=flamenco 
+ laquísim ( ) lemma=flaco 
+ laut ( ) lemma=flauta 
+ lauta ( ) lemma=flauta 
+ lautist ( ) lemma=flautista 
+ lavin ( ) lemma=flavina 
+ lavoproteín ( ) lemma=flavoproteína 
+ lebografí ( ) lemma=flebografía 
+ lebotomí ( ) lemma=flebotomía 
+ lebótom ( ) lemma=flebótomo 
+ lech ( ) lemma=flecha 
+ lecha ( ) lemma=flecha 
+ lec ( ) lemma=fleco 
+ leco ( ) lemma=fleco 
+ lequill ( ) lemma=fleco 
+ letad ( ) lemma=fletar 
+ letado ( ) lemma=fletar 
+ letand ( ) lemma=fletar 
+ lexibilida ( ) lemma=flexibilidad 
+ lexibl ( ) lemma=flexible 
+ lexiblement ( ) lemma=flexible 
+ lexible ( ) lemma=flexible 
+ lexionad ( ) lemma=flexionar 
+ lexió ( ) lemma=flexión 
+ lexore ( ) lemma=flexor 
+ lexu ( ) lemma=flexum 
+ loculació ( ) lemma=floculación 
+ lojeab ( ) lemma=flojear 
+ lojea ( ) lemma=flojear 
+ lojer ( ) lemma=flojera 
+ lojo ( ) lemma=flojo 
+ lorale ( ) lemma=floral 
+ lorec ( ) lemma=florecer 
+ lorece ( ) lemma=florecer 
+ lorecer� ( ) lemma=florecer 
+ lorecerá ( ) lemma=florecer 
+ lorecid ( ) lemma=florecer 
+ loreciend ( ) lemma=florecer 
+ loreciero ( ) lemma=florecer 
+ loreciese ( ) lemma=florecer 
+ lorecill ( ) lemma=flor 
+ lorecimient ( ) lemma=florecimiento 
+ lorecita ( ) lemma=flor 
+ loreci� ( ) lemma=florecer 
+ lorentin ( ) lemma=florentino 
+ lorer ( ) lemma=florero 
+ lore ( ) lemma=olor 
+ lorescent ( ) lemma=florescente 
+ lorescente ( ) lemma=florescente 
+ lorezc ( ) lemma=florecer 
+ lorezca ( ) lemma=florecer 
+ lorine ( ) lemma=florín 
+ lorí ( ) lemma=florín 
+ lotab ( ) lemma=flotar 
+ lotabilida ( ) lemma=flotabilidad 
+ lotació ( ) lemma=flotación 
+ lotado ( ) lemma=flotador 
+ lotadore ( ) lemma=flotador 
+ lotamo ( ) lemma=flotar 
+ lota ( ) lemma=flota 
+ lotand ( ) lemma=flotar 
+ lotant ( ) lemma=flotante 
+ lotante ( ) lemma=flotante 
+ lotase ( ) lemma=flotar 
+ lotill ( ) lemma=flota 
+ lotilla ( ) lemma=flota 
+ luctuab ( ) lemma=fluctuar 
+ luctuacione ( ) lemma=fluctuación 
+ luctuació ( ) lemma=fluctuación 
+ luctuad ( ) lemma=fluctuar 
+ luctuand ( ) lemma=fluctuar 
+ luctua ( ) lemma=fluctuar 
+ luctuaro ( ) lemma=fluctuar 
+ luctuar� ( ) lemma=fluctuar 
+ luctu� ( ) lemma=fluctuar 
+ luctú ( ) lemma=fluctuar 
+ luctúa ( ) lemma=fluctuar 
+ luctúe ( ) lemma=fluctuar 
+ luid ( ) lemma=fluido 
+ luidament ( ) lemma=fluido 
+ luida ( ) lemma=fluido 
+ luide ( ) lemma=fluidez 
+ luidificació ( ) lemma=fluidificación 
+ luidificad ( ) lemma=fluidificar 
+ luidiza ( ) lemma=fluidizar 
+ luido ( ) lemma=fluido 
+ lui ( ) lemma=fluir 
+ luir� ( ) lemma=fluir 
+ luirá ( ) lemma=fluir 
+ luiría ( ) lemma=fluir 
+ luj ( ) lemma=flujo 
+ lujogram ( ) lemma=flujograma 
+ lumacenil ( ) lemma=flumacenilo 
+ luorescenci ( ) lemma=fluorescencia 
+ luorescent ( ) lemma=fluorescente 
+ luorescente ( ) lemma=fluorescente 
+ luoresceínic ( ) lemma=fluoresceínico 
+ luorimétric ( ) lemma=fluorimétrico 
+ luoroscópic ( ) lemma=fluoroscópico 
+ luorur ( ) lemma=fluoruro 
+ luoxetin ( ) lemma=fluoxetina 
+ luvia ( ) lemma=pluvial 
+ luy ( ) lemma=fluir 
+ luya ( ) lemma=fluir 
+ luye ( ) lemma=fluir 
+ luyend ( ) lemma=fluir 
+ luía ( ) lemma=fluir 
+ luíd ( ) lemma=fluído 
+ luído ( ) lemma=fluído 
+ láccid ( ) lemma=fláccido 
+ lácida ( ) lemma=flácido 
+ lúo ( ) lemma=flúor 
+ lacia ( ) lemma=glaciar 
+ laciare ( ) lemma=glaciar 
+ landula ( ) lemma=glandular 
+ landulare ( ) lemma=glandular 
+ laucom ( ) lemma=glaucoma 
+ lenoide ( ) lemma=glenoideo 
+ liale ( ) lemma=glial 
+ libenclami ( ) lemma=glibenclamir 
+ lica ( ) lemma=plica 
+ licasa ( ) lemma=glicasar 
+ licemi ( ) lemma=glicemia 
+ licemia ( ) lemma=glicemia 
+ liceraldehíd ( ) lemma=gliceraldehído 
+ licerin ( ) lemma=glicerinar 
+ licerofosfolípid ( ) lemma=glicerofosfolípido 
+ licero ( ) lemma=glicerol 
+ licerolfosfat ( ) lemma=glicerolfosfato 
+ licilalanin ( ) lemma=glicilalanina 
+ licin ( ) lemma=glicina 
+ licinami ( ) lemma=glicinamir 
+ licofític ( ) lemma=glicofítico 
+ licolisi ( ) lemma=glicolisis 
+ licoproteína ( ) lemma=glicoproteína 
+ licosaminoglican ( ) lemma=glicosaminoglicano 
+ licosilació ( ) lemma=glicosilación 
+ licosilad ( ) lemma=glicosilada 
+ licosila ( ) lemma=glicosilar 
+ licosídico ( ) lemma=glicósido 
+ licémic ( ) lemma=glicémico 
+ licógen ( ) lemma=glicógeno 
+ lioxilat ( ) lemma=glioxilato 
+ lobale ( ) lemma=global 
+ lobalizació ( ) lemma=globalización 
+ lobalizado ( ) lemma=globalizador 
+ lobalizador ( ) lemma=globalizador 
+ lobalment ( ) lemma=global 
+ lobin ( ) lemma=globina 
+ lobina ( ) lemma=globina 
+ lobito ( ) lemma=globo 
+ lob ( ) lemma=globo 
+ lobula ( ) lemma=globular 
+ lobulin ( ) lemma=globulina 
+ lomerula ( ) lemma=glomerular 
+ lomerulare ( ) lemma=glomerular 
+ lomerulopatí ( ) lemma=glomerulopatía 
+ lomérul ( ) lemma=glomérulo 
+ loria ( ) lemma=gloria 
+ loriet ( ) lemma=glorieta 
+ lorificar ( ) lemma=glorificar 
+ lorios ( ) lemma=glorioso 
+ lorioso ( ) lemma=glorioso 
+ losaba ( ) lemma=glosar 
+ losad ( ) lemma=glosar 
+ lositi ( ) lemma=glositis 
+ los� ( ) lemma=glosar 
+ lotone ( ) lemma=glotón 
+ lotó ( ) lemma=glotón 
+ lucago ( ) lemma=glucagon 
+ lucagó ( ) lemma=glucagón 
+ lucan ( ) lemma=glucano 
+ lucemi ( ) lemma=glucemia 
+ lucemia ( ) lemma=glucemia 
+ lucocorticoide ( ) lemma=glucocorticoide 
+ lucocáli ( ) lemma=glucocálix 
+ lucoesfingolípid ( ) lemma=glucoesfingolípido 
+ lucogenin ( ) lemma=glucogenina 
+ lucogenosintetas ( ) lemma=glucogenosintetasa 
+ lucogenólisi ( ) lemma=glucogenólisis 
+ lucolisi ( ) lemma=glucolisis 
+ lucolípido ( ) lemma=glucolípido 
+ lucolític ( ) lemma=glucolítico 
+ luconeogenétic ( ) lemma=gluconeogenético 
+ luconeogénesi ( ) lemma=gluconeogénesis 
+ lucopiranos ( ) lemma=glucopiranoso 
+ lucoproteín ( ) lemma=glucoproteína 
+ lucoproteína ( ) lemma=glucoproteína 
+ lucos ( ) lemma=glucosa 
+ lucosad ( ) lemma=glucosado 
+ lucosaoxidas ( ) lemma=glucosaoxidasa 
+ lucosa ( ) lemma=glucosa 
+ lucosi ( ) lemma=glucosil 
+ lucosila ( ) lemma=glucosilar 
+ lucosuri ( ) lemma=glucosuria 
+ lucosídic ( ) lemma=glucosídico 
+ lucémic ( ) lemma=glucémico 
+ lucídic ( ) lemma=glucídico 
+ lucógen ( ) lemma=glucógeno 
+ lucógeno-fosforilas ( ) lemma=glucógeno-fosforilasa 
+ lucólisi ( ) lemma=glucólisis 
+ lutamat ( ) lemma=glutamato 
+ lutamin ( ) lemma=glutamina 
+ lutatió ( ) lemma=glutatión 
+ luteogonocóccic ( ) lemma=gluteogonocóccico 
+ lutámic ( ) lemma=glutámico 
+ lutámico-pirúvic ( ) lemma=glutámico-pirúvico 
+ lándul ( ) lemma=glándula 
+ lándula ( ) lemma=glándula 
+ lóbul ( ) lemma=glóbulo 
+ lúcid ( ) lemma=glúcido 
+ lúte ( ) lemma=glúteo 
+ legale ( ) lemma=ilegal 
+ legalida ( ) lemma=ilegalidad 
+ legalidade ( ) lemma=ilegalidad 
+ legalment ( ) lemma=ilegal 
+ legibl ( ) lemma=ilegible 
+ legítim ( ) lemma=ilegítimo 
+ legítimament ( ) lemma=ilegítimo 
+ leoceca ( ) lemma=ileocecal 
+ limitad ( ) lemma=ilimitado 
+ limitadament ( ) lemma=ilimitado 
+ liotibia ( ) lemma=iliotibial 
+ lumin ( ) lemma=iluminar 
+ luminacione ( ) lemma=iluminación 
+ luminació ( ) lemma=iluminación 
+ luminad ( ) lemma=iluminar 
+ luminada ( ) lemma=iluminar 
+ luminado ( ) lemma=iluminar 
+ lumina ( ) lemma=iluminar 
+ luminand ( ) lemma=iluminar 
+ luminar ( ) lemma=iluminar 
+ luminaro ( ) lemma=iluminar 
+ lumin� ( ) lemma=iluminar 
+ lusion ( ) lemma=ilusionar 
+ lusionab ( ) lemma=ilusionar 
+ lusionad ( ) lemma=ilusionar 
+ lusionado ( ) lemma=ilusionar 
+ lusionand ( ) lemma=ilusionar 
+ lusori ( ) lemma=ilusorio 
+ lusoria ( ) lemma=ilusorio 
+ lusorio ( ) lemma=ilusorio 
+ luso ( ) lemma=iluso 
+ lustr ( ) lemma=ilustre 
+ lustracione ( ) lemma=ilustración 
+ lustració ( ) lemma=ilustración 
+ lustrad ( ) lemma=ilustrar 
+ lustrada ( ) lemma=ilustrar 
+ lustrado ( ) lemma=ilustrar 
+ lustra ( ) lemma=ilustrar 
+ lustrand ( ) lemma=ilustrar 
+ lustrarl ( ) lemma=ilustrar 
+ lustrarm ( ) lemma=ilustrar 
+ lustrarno ( ) lemma=ilustrar 
+ lustraro ( ) lemma=ilustrar 
+ lustrars ( ) lemma=ilustrar 
+ lustrar� ( ) lemma=ilustrar 
+ lustrará ( ) lemma=ilustrar 
+ lustrarí ( ) lemma=ilustrar 
+ lustrativ ( ) lemma=ilustrativo 
+ lustrativa ( ) lemma=ilustrativo 
+ lustrativo ( ) lemma=ilustrativo 
+ lustrándolo ( ) lemma=ilustrar 
+ lustrísimo ( ) lemma=ilustre 
+ lustr� ( ) lemma=ilustrar 
+ líac ( ) lemma=ilíaco 
+ lícit ( ) lemma=ilícito 
+ lícitament ( ) lemma=ilícito 
+ lógic ( ) lemma=ilógico 
+ labial ( ) 
+ labriego ( ) 
+ lacio ( ) 
+ ladear ( ) 
+ lagartija ( ) 
+ lagrimal ( ) 
+ lamer ( ) 
+ lapicero ( ) 
+ lapón ( ) 
+ larvario ( ) 
+ lastrar ( ) 
+ latitudinal ( ) 
+ laxar ( ) 
+ lazar ( ) 
+ lechar ( ) 
+ lechoso ( ) 
+ lectina ( ) 
+ legitimario ( ) 
+ leguminosa ( ) 
+ lenteja ( ) 
+ lentejuela ( ) 
+ lepidóptero ( ) 
+ leproso ( ) 
+ lesbiano ( ) 
+ lesivo ( ) 
+ leucocítico ( ) 
+ leucémico ( ) 
+ lexicógrafo ( ) 
+ leñoso ( ) 
+ libelar ( ) 
+ liberalizador ( ) 
+ librea ( ) 
+ licitador ( ) 
+ licuar ( ) 
+ lijar ( ) 
+ limitativo ( ) 
+ linda|lindo ( ) 
+ lindar ( ) 
+ linfoblástico ( ) 
+ linfomatoso ( ) 
+ linfoquina ( ) 
+ linier ( ) 
+ liofilizar ( ) 
+ lipofílico ( ) 
+ liquidador ( ) 
+ lisiado ( ) 
+ lisosoma ( ) 
+ lisosómico ( ) 
+ listonar ( ) 
+ litar ( ) 
+ litigante ( ) 
+ laga ( ) lemma=plagar 
+ lamab ( ) lemma=llamar 
+ lamada ( ) lemma=llamada 
+ lamadit ( ) lemma=llamada 
+ lamadita ( ) lemma=llamada 
+ lamado ( ) lemma=llamar 
+ lamamient ( ) lemma=llamamiento 
+ lamamiento ( ) lemma=llamamiento 
+ lamarada ( ) lemma=llamarada 
+ llamarada ( ) 
+ lamara ( ) lemma=llamar 
+ lamaremo ( ) lemma=llamar 
+ lamarl ( ) lemma=llamar 
+ lamarla ( ) lemma=llamar 
+ lamarle ( ) lemma=llamar 
+ lamarlo ( ) lemma=llamar 
+ lamarm ( ) lemma=llamar 
+ lamarno ( ) lemma=llamar 
+ lamaro ( ) lemma=llamar 
+ lamars ( ) lemma=llamarse 
+ lamart ( ) lemma=llamar 
+ lamar� ( ) lemma=llamar 
+ lamará ( ) lemma=llamar 
+ lamarí ( ) lemma=llamar 
+ lamaríamo ( ) lemma=llamar 
+ lamaría ( ) lemma=llamar 
+ lamast ( ) lemma=llamar 
+ lamativ ( ) lemma=llamativo 
+ lamativament ( ) lemma=llamativo 
+ lamativa ( ) lemma=llamativo 
+ lamativo ( ) lemma=llamativo 
+ lamemo ( ) lemma=llamar 
+ lame ( ) lemma=llamar 
+ lamábamo ( ) lemma=llamar 
+ lamái ( ) lemma=llamar 
+ lamándol ( ) lemma=llamar 
+ lamándom ( ) lemma=llamar 
+ lamándono ( ) lemma=llamar 
+ lamándos ( ) lemma=llamar 
+ lamándot ( ) lemma=llamar 
+ lamársel ( ) lemma=llamarse 
+ lamársele ( ) lemma=llamarse 
+ laméi ( ) lemma=llamar 
+ lamémosl ( ) lemma=llamar 
+ lamémosla ( ) lemma=llamar 
+ lamémosle ( ) lemma=llamar 
+ lamémoslo ( ) lemma=llamar 
+ lanament ( ) lemma=llano 
+ lano ( ) lemma=plano 
+ lant ( ) lemma=plantar 
+ lanta ( ) lemma=planta 
+ lanto ( ) lemma=llanto 
+ lanur ( ) lemma=llanura 
+ lanura ( ) lemma=llanura 
+ lavecit ( ) lemma=llave 
+ lavero ( ) lemma=llavero 
+ llavero ( ) 
+ legaremo ( ) lemma=llegar 
+ legarm ( ) lemma=llegar 
+ legar� ( ) lemma=plegar 
+ legaréi ( ) lemma=llegar 
+ legaríamo ( ) lemma=llegar 
+ legaría ( ) lemma=llegar 
+ legas ( ) lemma=llegar 
+ legase ( ) lemma=llegar 
+ legast ( ) lemma=llegar 
+ legastei ( ) lemma=llegar 
+ leguemo ( ) lemma=llegar 
+ legue ( ) lemma=llegar 
+ legu� ( ) lemma=llegar 
+ leguéi ( ) lemma=llegar 
+ legábamo ( ) lemma=llegar 
+ legándos ( ) lemma=llegarse 
+ legáramo ( ) lemma=llegar 
+ legá ( ) lemma=llegar 
+ legásemo ( ) lemma=llegar 
+ lenab ( ) lemma=llenar 
+ lenaba ( ) lemma=llenar 
+ lena ( ) lemma=pleno 
+ lenad ( ) lemma=llenar 
+ lenamo ( ) lemma=llenar 
+ lenand ( ) lemma=llenar 
+ lenara ( ) lemma=llenar 
+ lenaremo ( ) lemma=llenar 
+ lenarl ( ) lemma=llenar 
+ lenarle ( ) lemma=llenar 
+ lenarm ( ) lemma=llenar 
+ lenarno ( ) lemma=llenar 
+ lenaro ( ) lemma=llenar 
+ lenars ( ) lemma=llenarse 
+ lenar� ( ) lemma=llenar 
+ lenará ( ) lemma=llenar 
+ lenaría ( ) lemma=llenar 
+ lene ( ) lemma=llenar 
+ leno ( ) lemma=pleno 
+ lenábamo ( ) lemma=llenar 
+ lenái ( ) lemma=llenar 
+ lenándos ( ) lemma=llenar 
+ len� ( ) lemma=llenar 
+ lenísim ( ) lemma=pleno 
+ levabai ( ) lemma=llevar 
+ levabamo ( ) lemma=llevar 
+ levabl ( ) lemma=llevable 
+ levader ( ) lemma=llevadero 
+ levadera ( ) lemma=llevadero 
+ levadero ( ) lemma=llevadero 
+ levanza ( ) lemma=llevanzar 
+ levara ( ) lemma=llevar 
+ levarle ( ) lemma=llevar 
+ levarno ( ) lemma=llevar 
+ levart ( ) lemma=llevar 
+ levaréi ( ) lemma=llevar 
+ levaríamo ( ) lemma=llevar 
+ levase ( ) lemma=llevar 
+ levast ( ) lemma=llevar 
+ levastei ( ) lemma=llevar 
+ levemo ( ) lemma=llevar 
+ levábamo ( ) lemma=llevar 
+ levái ( ) lemma=llevar 
+ levándosel ( ) lemma=llevar 
+ leváramo ( ) lemma=llevar 
+ levármel ( ) lemma=llevar 
+ levárnosl ( ) lemma=llevar 
+ levársel ( ) lemma=llevar 
+ levártel ( ) lemma=llevar 
+ levásemo ( ) lemma=llevar 
+ levéi ( ) lemma=llevar 
+ lorab ( ) lemma=llorar 
+ loraba ( ) lemma=llorar 
+ loramo ( ) lemma=llorar 
+ lorand ( ) lemma=llorar 
+ lorar ( ) lemma=llorar 
+ loraro ( ) lemma=llorar 
+ lorarí ( ) lemma=llorar 
+ loremo ( ) lemma=llorar 
+ loros ( ) lemma=oloroso 
+ loroso ( ) lemma=lloroso 
+ lor� ( ) lemma=llorar 
+ loró ( ) lemma=llorón 
+ love ( ) lemma=llover 
+ lovid ( ) lemma=llover 
+ loviend ( ) lemma=llover 
+ lovier ( ) lemma=llover 
+ lovizn ( ) lemma=llovizna 
+ loviznand ( ) lemma=lloviznar 
+ lloviznar ( ) 
+ lovi� ( ) lemma=llover 
+ loví ( ) lemma=llover 
+ lovía ( ) lemma=llover 
+ luev ( ) lemma=llover 
+ luvi ( ) lemma=lluvia 
+ luvios ( ) lemma=lluvioso 
+ lámal ( ) lemma=llamar 
+ lámalo ( ) lemma=llamar 
+ lámam ( ) lemma=llamar 
+ lámel ( ) lemma=llamar 
+ lámem ( ) lemma=llamar 
+ lámenm ( ) lemma=llamar 
+ lámenno ( ) lemma=llamar 
+ lámes ( ) lemma=llamarse 
+ lámesel ( ) lemma=llamar 
+ léval ( ) lemma=llevar 
+ lévam ( ) lemma=llevar 
+ lévasel ( ) lemma=llevar 
+ lévat ( ) lemma=llevar 
+ lévatel ( ) lemma=llevar 
+ lévatela ( ) lemma=llevar 
+ lével ( ) lemma=llevar 
+ lobulado ( ) 
+ lobulo ( ) 
+ locatario ( ) 
+ lock ( ) 
+ logatomo ( ) 
+ lombardo ( ) 
+ loncha ( ) 
+ lubrificar ( ) 
+ lubrificante ( ) 
+ lucrar ( ) 
+ lujurioso ( ) 
+ lulo ( ) 
+ lumbosacro ( ) 
+ lustrar ( ) 
+ lead ( ) lemma=oleada 
+ leada ( ) lemma=oleada 
+ leaginosa ( ) lemma=oleaginoso 
+ leaj ( ) lemma=oleaje 
+ lecrano ( ) lemma=olecranon 
+ leic ( ) lemma=oleico 
+ leoduct ( ) lemma=oleoducto 
+ leoducto ( ) lemma=oleoducto 
+ leos ( ) lemma=oleoso 
+ lerl ( ) lemma=oler 
+ lers ( ) lemma=oler 
+ ler� ( ) lemma=oler 
+ lfacció ( ) lemma=olfacción 
+ lfativa ( ) lemma=olfativo 
+ lfat ( ) lemma=olfato 
+ lfatori ( ) lemma=olfatorio 
+ lfatoria ( ) lemma=olfatorio 
+ lfatorio ( ) lemma=olfatorio 
+ ligodendrocit ( ) lemma=oligodendrocito 
+ ligodendrocito ( ) lemma=oligodendrocito 
+ ligodendrogli ( ) lemma=oligodendroglia 
+ ligoelemento ( ) lemma=oligoelemento 
+ ligomenorre ( ) lemma=oligomenorrea 
+ ligonucleótid ( ) lemma=oligonucleótido 
+ ligopoli ( ) lemma=oligopolio 
+ ligopolístic ( ) lemma=oligopolístico 
+ ligosacárid ( ) lemma=oligosacárido 
+ ligosacárido ( ) lemma=oligosacárido 
+ liguri ( ) lemma=oliguria 
+ ligómero ( ) lemma=oligómero 
+ limpiada ( ) lemma=olimpiada 
+ limpic ( ) lemma=olímpico 
+ limpíad ( ) lemma=olimpíada 
+ liv ( ) lemma=olivo 
+ liva ( ) lemma=oliva 
+ livo ( ) lemma=olivo 
+ lmec ( ) lemma=olmeca 
+ lmeca ( ) lemma=olmeca 
+ lmo ( ) lemma=olmo 
+ lorcit ( ) lemma=olor 
+ lvid ( ) lemma=olvidar 
+ lvidab ( ) lemma=olvidar 
+ lvidad ( ) lemma=olvidar 
+ lvidada ( ) lemma=olvidar 
+ lvidadiz ( ) lemma=olvidadizo 
+ lvidado ( ) lemma=olvidar 
+ lvidamo ( ) lemma=olvidar 
+ lvida ( ) lemma=olvidar 
+ lvidand ( ) lemma=olvidar 
+ lvidao ( ) lemma=olvidar 
+ lvidar ( ) lemma=olvidar 
+ lvidara ( ) lemma=olvidar 
+ lvidaremo ( ) lemma=olvidar 
+ lvidarl ( ) lemma=olvidar 
+ lvidarla ( ) lemma=olvidar 
+ lvidarlo ( ) lemma=olvidar 
+ lvidarno ( ) lemma=olvidar 
+ lvidaro ( ) lemma=olvidar 
+ lvidars ( ) lemma=olvidarse 
+ lvidart ( ) lemma=olvidar 
+ lvidar� ( ) lemma=olvidar 
+ lvidará ( ) lemma=olvidar 
+ lvidas ( ) lemma=olvidar 
+ lvidast ( ) lemma=olvidar 
+ lvidemo ( ) lemma=olvidar 
+ lvide ( ) lemma=olvidar 
+ lvido ( ) lemma=olvido 
+ lvidándola ( ) lemma=olvidar 
+ lvidándom ( ) lemma=olvidar 
+ lvidándono ( ) lemma=olvidar 
+ lvidándos ( ) lemma=olvidar 
+ lvidáramo ( ) lemma=olvidar 
+ lvid� ( ) lemma=olvidar 
+ lvidéi ( ) lemma=olvidar 
+ lvidémono ( ) lemma=olvidar 
+ lvidémosl ( ) lemma=olvidar 
+ lvídat ( ) lemma=olvidar 
+ lvídens ( ) lemma=olvidarse 
+ lvídes ( ) lemma=olvidarse 
+ lí ( ) lemma=oler 
+ límpic ( ) lemma=olímpico 
+ límpicament ( ) lemma=olímpico 
+ límpica ( ) lemma=olímpico 
+ límpico ( ) lemma=olímpico 
+ lógraf ( ) lemma=ológrafo 
+ lace ( ) lemma=placer 
+ lacent ( ) lemma=placenta 
+ lacentari ( ) lemma=placentario 
+ lacenter ( ) lemma=placentero 
+ lacentero ( ) lemma=placentero 
+ lacere ( ) lemma=placer 
+ lacid ( ) lemma=placer 
+ lacit ( ) lemma=plaza 
+ lagad ( ) lemma=plagar 
+ lagada ( ) lemma=plagar 
+ lagado ( ) lemma=plagar 
+ lagiab ( ) lemma=plagiar 
+ lagiad ( ) lemma=plagiar 
+ lagiari ( ) lemma=plagiario 
+ lagi ( ) lemma=plagiar 
+ lanare ( ) lemma=planar 
+ lanchad ( ) lemma=planchar 
+ lancto ( ) lemma=plancton 
+ lanctónica ( ) lemma=planctónico 
+ lanctónico ( ) lemma=planctónico 
+ laneab ( ) lemma=planear 
+ laneaba ( ) lemma=planear 
+ lanead ( ) lemma=planear 
+ laneada ( ) lemma=planear 
+ laneado ( ) lemma=planear 
+ laneamient ( ) lemma=planeamiento 
+ laneamo ( ) lemma=planear 
+ lanea ( ) lemma=planear 
+ laneand ( ) lemma=planear 
+ lanearo ( ) lemma=planear 
+ laneemo ( ) lemma=planear 
+ lanet ( ) lemma=planeta 
+ lanetari ( ) lemma=planetario 
+ lanetaria ( ) lemma=planetario 
+ lanetario ( ) lemma=planetario 
+ laneta ( ) lemma=planeta 
+ lane� ( ) lemma=planear 
+ lanific ( ) lemma=planificar 
+ lanificab ( ) lemma=planificar 
+ lanificacione ( ) lemma=planificación 
+ lanificació ( ) lemma=planificación 
+ lanificad ( ) lemma=planificar 
+ lanificada ( ) lemma=planificar 
+ lanificado ( ) lemma=planificar 
+ lanificadore ( ) lemma=planificador 
+ lanifica ( ) lemma=planificar 
+ lanificand ( ) lemma=planificar 
+ lanificars ( ) lemma=planificarse 
+ lanificará ( ) lemma=planificar 
+ lanificatio ( ) lemma=planification 
+ lanific� ( ) lemma=planificar 
+ lanifiqu ( ) lemma=planificar 
+ lanifiquemo ( ) lemma=planificar 
+ lanifique ( ) lemma=planificar 
+ lanill ( ) lemma=plano 
+ lanilla ( ) lemma=plano 
+ lannin ( ) lemma=planning 
+ lantaba ( ) lemma=plantar 
+ lantacione ( ) lemma=plantación 
+ lantació ( ) lemma=plantación 
+ lantad ( ) lemma=plantar 
+ lantada ( ) lemma=plantar 
+ lantado ( ) lemma=plantar 
+ lantamo ( ) lemma=plantar 
+ lantand ( ) lemma=plantar 
+ lantar ( ) lemma=plantar 
+ lantaro ( ) lemma=plantar 
+ lantars ( ) lemma=plantarse 
+ lantaría ( ) lemma=plantar 
+ lantasei ( ) lemma=plantar 
+ lante ( ) lemma=plantar 
+ lanteab ( ) lemma=plantear 
+ lanteaba ( ) lemma=plantear 
+ lantead ( ) lemma=plantear 
+ lanteada ( ) lemma=plantear 
+ lanteado ( ) lemma=plantear 
+ lanteamient ( ) lemma=planteamiento 
+ lanteamiento ( ) lemma=planteamiento 
+ lanteamo ( ) lemma=plantear 
+ lantea ( ) lemma=plantear 
+ lanteand ( ) lemma=plantear 
+ lantear ( ) lemma=plantear 
+ lanteara ( ) lemma=plantear 
+ lantearemo ( ) lemma=plantear 
+ lantearl ( ) lemma=plantear 
+ lantearla ( ) lemma=plantear 
+ lantearle ( ) lemma=plantear 
+ lantearm ( ) lemma=plantear 
+ lantearno ( ) lemma=plantear 
+ lantearo ( ) lemma=plantear 
+ lantears ( ) lemma=plantearse 
+ lantear� ( ) lemma=plantear 
+ lanteará ( ) lemma=plantear 
+ lantearí ( ) lemma=plantear 
+ lantearíamo ( ) lemma=plantear 
+ lantearía ( ) lemma=plantear 
+ lanteas ( ) lemma=plantear 
+ lantease ( ) lemma=plantear 
+ lanteemo ( ) lemma=plantear 
+ lantee ( ) lemma=plantear 
+ lantele ( ) lemma=plantel 
+ lanteándola ( ) lemma=plantear 
+ lanteándol ( ) lemma=plantear 
+ lanteándom ( ) lemma=plantear 
+ lanteándono ( ) lemma=plantear 
+ lanteándos ( ) lemma=plantear 
+ lanteármel ( ) lemma=plantear 
+ lanteársel ( ) lemma=plantear 
+ lanteársela ( ) lemma=plantearse 
+ lanteá ( ) lemma=plantear 
+ lante� ( ) lemma=plantear 
+ lanteémono ( ) lemma=plantear 
+ lantill ( ) lemma=planta 
+ lantilla ( ) lemma=planta 
+ lantit ( ) lemma=planta 
+ lantita ( ) lemma=planta 
+ lantone ( ) lemma=plantón 
+ lantáramo ( ) lemma=plantar 
+ lant� ( ) lemma=plantar 
+ lantées ( ) lemma=plantear 
+ lantó ( ) lemma=plantón 
+ laquea ( ) lemma=plaquear 
+ laquetari ( ) lemma=plaquetario 
+ laquetaria ( ) lemma=plaquetario 
+ laqueta ( ) lemma=plaqueta 
+ laquit ( ) lemma=placa 
+ lasm ( ) lemma=plasmar 
+ lasmad ( ) lemma=plasmar 
+ lasmada ( ) lemma=plasmar 
+ lasmado ( ) lemma=plasmar 
+ lasmaferesi ( ) lemma=plasmaferesis 
+ lasmalem ( ) lemma=plasmalema 
+ lasmamo ( ) lemma=plasmar 
+ lasma ( ) lemma=plasma 
+ lasmar ( ) lemma=plasmar 
+ lasmara ( ) lemma=plasmar 
+ lasmaro ( ) lemma=plasmar 
+ lasmar� ( ) lemma=plasmar 
+ lasmará ( ) lemma=plasmar 
+ lasmarí ( ) lemma=plasmar 
+ lasme ( ) lemma=plasmar 
+ lasmidi ( ) lemma=plasmidio 
+ lasmin ( ) lemma=plasmina 
+ lasminógen ( ) lemma=plasminógeno 
+ lasmocitosi ( ) lemma=plasmocitosis 
+ lasmodio ( ) lemma=plasmodio 
+ lasmátic ( ) lemma=plasmático 
+ lasmática ( ) lemma=plasmático 
+ lasmático ( ) lemma=plasmático 
+ lasmídic ( ) lemma=plasmídico 
+ lasm� ( ) lemma=plasmar 
+ lastic ( ) lemma=plástico 
+ lataform ( ) lemma=plataforma 
+ lataforma ( ) lemma=plataforma 
+ lataner ( ) lemma=platanera 
+ latanera ( ) lemma=platanera 
+ lateada ( ) lemma=platear 
+ latead ( ) lemma=platear 
+ lateado ( ) lemma=platear 
+ latea ( ) lemma=platea 
+ latelmint ( ) lemma=platelminto 
+ latic ( ) lemma=platicar 
+ laticab ( ) lemma=platicar 
+ laticaba ( ) lemma=platicar 
+ laticad ( ) lemma=platicar 
+ latical ( ) lemma=platicar 
+ laticamo ( ) lemma=platicar 
+ latica ( ) lemma=platicar 
+ laticand ( ) lemma=platicar 
+ laticarno ( ) lemma=platicar 
+ laticaro ( ) lemma=platicar 
+ laticar� ( ) lemma=platicar 
+ laticábamo ( ) lemma=platicar 
+ latic� ( ) lemma=platicar 
+ laticó ( ) lemma=platicón 
+ latill ( ) lemma=platillo 
+ latillo ( ) lemma=platillo 
+ latin ( ) lemma=platino 
+ latiqu ( ) lemma=platicar 
+ latiqu� ( ) lemma=platicar 
+ latote ( ) lemma=plato 
+ lausibilida ( ) lemma=plausibilidad 
+ lausibl ( ) lemma=plausible 
+ lausible ( ) lemma=plausible 
+ lay ( ) lemma=playa 
+ laya ( ) lemma=playa 
+ layer ( ) lemma=player 
+ laz ( ) lemma=plazo 
+ laza ( ) lemma=plaza 
+ lazc ( ) lemma=placer 
+ lazolet ( ) lemma=plaza 
+ lañidera ( ) lemma=plañidero 
+ lañider ( ) lemma=plañidero 
+ lebeyo ( ) lemma=plebeyo 
+ lebiscit ( ) lemma=plebiscito 
+ lebiscito ( ) lemma=plebiscito 
+ legamient ( ) lemma=plegamiento 
+ legamiento ( ) lemma=plegamiento 
+ legari ( ) lemma=plegaria 
+ legaria ( ) lemma=plegaria 
+ leitesí ( ) lemma=pleitesía 
+ leit ( ) lemma=pleito 
+ leito ( ) lemma=pleito 
+ lenament ( ) lemma=pleno 
+ lenari ( ) lemma=plenario 
+ lenaria ( ) lemma=plenario 
+ lenario ( ) lemma=plenario 
+ lenitu ( ) lemma=plenitud 
+ lesiochronou ( ) lemma=plesiochronous 
+ lesiócron ( ) lemma=plesiócrono 
+ lesiócrona ( ) lemma=plesiócrono 
+ letismografí ( ) lemma=pletismografía 
+ letismográfic ( ) lemma=pletismográfico 
+ letismógraf ( ) lemma=pletismógrafo 
+ leur ( ) lemma=pleura 
+ leura ( ) lemma=pleural 
+ leurale ( ) lemma=pleural 
+ leuresí ( ) lemma=pleuresía 
+ leuroperitonea ( ) lemma=pleuroperitoneal 
+ leuroperitoneal ( ) lemma=pleuroperitoneale 
+ leuropulmonar ( ) lemma=pleuropulmonare 
+ lex ( ) lemma=plexo 
+ lexular ( ) lemma=plexulare 
+ lieg ( ) lemma=pliego 
+ liego ( ) lemma=pliego 
+ liegu ( ) lemma=pliegue 
+ liegue ( ) lemma=pliegue 
+ lom ( ) lemma=plomo 
+ lum ( ) lemma=pluma 
+ luma ( ) lemma=pluma 
+ lume ( ) lemma=plumear 
+ lumill ( ) lemma=pluma 
+ lumos ( ) lemma=plumoso 
+ lumó ( ) lemma=plumón 
+ lura ( ) lemma=plural 
+ lurale ( ) lemma=plural 
+ luralida ( ) lemma=pluralidad 
+ luralism ( ) lemma=pluralismo 
+ luralit� ( ) lemma=pluralité 
+ lurianua ( ) lemma=plurianual 
+ luricelula ( ) lemma=pluricelular 
+ luricelular ( ) lemma=pluricelulare 
+ lurigeneraciona ( ) lemma=plurigeneracional 
+ lusvalí ( ) lemma=plusvalía 
+ lusvalía ( ) lemma=plusvalía 
+ lutoni ( ) lemma=plutonio 
+ lácem ( ) lemma=pláceme 
+ láceme ( ) lemma=pláceme 
+ lásmid ( ) lemma=plásmido 
+ lásmi ( ) lemma=plásmir 
+ látan ( ) lemma=plátano 
+ látano ( ) lemma=plátano 
+ látic ( ) lemma=plática 
+ lática ( ) lemma=plática 
+ lésiochron ( ) lemma=plésiochrone 
+ létor ( ) lemma=plétora 
+ lippag ( ) lemma=slippage 
+ loga ( ) lemma=slogan 
+ lceracione ( ) lemma=ulceración 
+ lceració ( ) lemma=ulceración 
+ lcerad ( ) lemma=ulcerar 
+ lcerada ( ) lemma=ulcerar 
+ lceros ( ) lemma=ulceroso 
+ lerio ( ) lemma=ulerior 
+ lterio ( ) lemma=ulterior 
+ lteriore ( ) lemma=ulterior 
+ lteriorment ( ) lemma=ulterior 
+ ltimad ( ) lemma=ultimar 
+ ltimada ( ) lemma=ultimar 
+ ltimado ( ) lemma=ultimar 
+ ltima ( ) lemma=ultimar 
+ ltimand ( ) lemma=ultimar 
+ ltimar ( ) lemma=ultimar 
+ ltimaro ( ) lemma=ultimar 
+ ltimará ( ) lemma=ultimar 
+ ltimemo ( ) lemma=ultimar 
+ ltimátu ( ) lemma=ultimátum 
+ ltim� ( ) lemma=ultimar 
+ ltr ( ) lemma=ultra 
+ ltracelular ( ) lemma=ultracelulare 
+ ltraestructura ( ) lemma=ultraestructural 
+ ltraestructuralment ( ) lemma=ultraestructuralmente 
+ ltrafiltració ( ) lemma=ultrafiltración 
+ ltrafiltrad ( ) lemma=ultrafiltrado 
+ ltraj ( ) lemma=ultrajar 
+ ltrajad ( ) lemma=ultrajar 
+ ltrajada ( ) lemma=ultrajar 
+ ltraja ( ) lemma=ultrajar 
+ ltrajar ( ) lemma=ultrajar 
+ ltraje ( ) lemma=ultrajar 
+ ltrama ( ) lemma=ultramar 
+ ltramarino ( ) lemma=ultramarino 
+ ltraoligotrofi ( ) lemma=ultraoligotrofia 
+ ltraperiféric ( ) lemma=ultraperiférico 
+ ltrarrefractari ( ) lemma=ultrarrefractario 
+ ltra ( ) lemma=ultra 
+ ltrasonid ( ) lemma=ultrasonido 
+ ltrasonido ( ) lemma=ultrasonido 
+ ltrasonografí ( ) lemma=ultrasonografía 
+ ltrasonográfic ( ) lemma=ultrasonográfico 
+ ltrasónica ( ) lemma=ultrasónico 
+ ltraviolet ( ) lemma=ultravioleta 
+ ltravioleta ( ) lemma=ultravioleta 

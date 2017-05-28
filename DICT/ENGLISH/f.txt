@@ -3741,7 +3741,7 @@
     rumen~1nz (^stomach~1) the first compartment of the stomach of a ruminant
  fourth_stomach ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
     abomasum~1nz (^stomach~1) the fourth compartment of the stomach of a ruminant
- fourth ( meanings=5 glosses=4 NOUN_ABSTRACT NOUN ADJECTIVE ADVERB ADJECTIVE_NUMBER NOUN_NUMBER COMMON4 COMMON2 COMMON1 ORDINAL KINDERGARTEN QUANTITY_NOUN ) 
+ fourth ( meanings=5 glosses=4 NOUN_ABSTRACT NOUN ADJECTIVE ADVERB ADJECTIVE_NUMBER NOUN_NUMBER COMMON4 COMMON2 COMMON1 KINDERGARTEN ) 
     fourth~1nz (^interval~3) the musical interval between one note and another four notes away from it
     quarter~9n 
     fourth~3nz (^rank~5) following the third position

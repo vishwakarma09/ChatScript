@@ -1,4 +1,4 @@
-﻿ T ( ) 
+﻿ T ( ) lemma=VTH 
  T.0 ( ) 
  T.1 ( ) 
  T.10 ( ) 
@@ -45,7 +45,7 @@
  T.6 ( ) 
  T.60 ( ) 
  T.61 ( ) 
- T.61. ( ) lemma=T.61 
+ T.61. ( ) 
  T.62 ( ) 
  T.63 ( ) 
  T.64 ( ) 
@@ -96,7 +96,7 @@
  T102 ( ) 
  T103 ( ) 
  T104 ( ) 
- T2 ( ) 
+ T2 ( ) lemma=LT22 
  T2.1 ( ) 
  T2.11 ( ) 
  T2.12 ( ) 
@@ -152,7 +152,7 @@
  T3.85 ( ) 
  T3.90 ( ) 
  T302 ( ) 
- T4 ( ) 
+ T4 ( ) lemma=LT42 
  T4.1 ( ) 
  T4.11 ( ) 
  T4.12 ( ) 
@@ -209,14 +209,14 @@
  T9.51 ( ) 
  T9.60 ( ) 
  T9.64 ( ) 
- TA ( ) 
+ TA ( ) lemma=OTAN 
  TAG ( ) 
  TAMC ( ) 
  TAMF ( ) 
  TAPE ( ) 
  TASI ( ) 
  TB ( ) 
- TC ( ) 
+ TC ( ) lemma=RTCP 
  TC1 ( ) 
  TC10 ( ) 
  TCI ( ) 
@@ -225,8 +225,7 @@
  TDL ( ) 
  TDM ( ) 
  TDX ( ) 
- TELEIMPRESORA ( ) lemma=tELEIMPRESORA 
- tELEIMPRESORA ( ) 
+ TELEIMPRESORA ( ) 
  TELEX ( ) 
  TENT ( ) 
  TER ( ) 
@@ -240,10 +239,10 @@
  TH ( ) 
  TID ( ) 
  TIM ( ) 
- TL ( ) 
+ TL ( ) lemma=ATLM 
  TLM ( ) 
  TLX ( ) 
- TM ( ) 
+ TM ( ) lemma=STMR 
  TM0 ( ) 
  TMA ( ) 
  TMD ( ) 
@@ -254,7 +253,7 @@
  TNE ( ) 
  TOR ( ) 
  TPR ( ) 
- TR ( ) 
+ TR ( ) lemma=STRM 
  TR2 ( ) 
  TR2-TR2 ( ) 
  TRAS ( ) 
@@ -262,8 +261,8 @@
  TRC ( ) 
  TRM ( ) 
  TRS ( ) 
- TS ( ) 
- TT ( ) 
+ TS ( ) lemma=MTSD 
+ TT ( ) lemma=STTC 
  TTC ( ) 
  TTT ( ) 
  TTX ( ) 
@@ -283,24 +282,21 @@
  Tait ( ) 
  Taiwan ( ) 
  Taiwán ( ) 
- Tal_vez ( ) lemma=tal~vez 
- tal~vez ( ) 
+ Tal ( ) 
  Tam ( ) 
  Tamames ( ) 
  Tamaulipas ( ) 
  Tamayo ( ) 
- Tamaño ( ) lemma=tamaño 
- tamaño ( ) 
- Tamaños ( ) lemma=tamaño 
+ Tamaño ( ) 
+ Tamaños ( ) 
  Tampico ( ) 
- Tan_pronto_como ( ) lemma=tan~pronto~como 
- tan~pronto~como ( ) 
+ Tan ( ) 
  Tanzania ( ) 
  Tanzanía ( ) 
  Tarragona ( ) 
  Tart ( ) 
  Tartrazina ( ) 
- Tati ( ) lemma=Tatiana 
+ Tati ( ) 
  Tatiana ( ) 
  Tato ( ) 
  Tauro ( ) 
@@ -313,7 +309,7 @@
  Teherán ( ) 
  Tehuacán ( ) 
  Tejedor ( ) 
- Tejedores ( ) lemma=Tejedor 
+ Tejedores ( ) 
  Tek-Chek ( ) 
  Teletex ( ) 
  Televisa ( ) 
@@ -390,8 +386,8 @@
  Toto ( ) 
  Toutatis ( ) 
  Toya ( ) 
- Toña ( ) lemma=Antonio 
- Toño ( ) lemma=Antonio 
+ Toña ( ) 
+ Toño ( ) 
  Transcripción-traducción ( ) 
  Transformantes ( ) 
  Transition ( ) 
@@ -406,7 +402,7 @@
  Trichocereus ( ) 
  Trichophyton ( ) 
  Trinder ( ) 
- Trini ( ) lemma=Trinidad 
+ Trini ( ) 
  Trinidad ( ) 
  Trofozoíto ( ) 
  Tromberg ( ) 
@@ -426,1098 +422,1039 @@
  Tuvalu ( ) 
  Twain ( ) 
  Túnez ( ) 
- t ( ) 
+ t ( ) lemma=ute 
  t-intermedio ( ) 
  t-student ( ) 
  tA ( ) 
- ta ( ) 
+ ta ( ) lemma=pta. 
  tabaco ( ) 
- tabacos ( ) lemma=tabaco 
+ tabacos ( ) 
  tabaquera ( ) 
  tabaquismo ( ) 
  tabasqueño ( ) 
- tabasqueños ( ) lemma=tabasqueño 
+ tabasqueños ( ) 
  taberna ( ) 
- tabernas ( ) lemma=taberna 
+ tabernas ( ) 
  tabicación ( ) 
  tabicamiento ( ) 
  tabique ( ) 
- tabiques ( ) lemma=tabique 
+ tabiques ( ) 
  tabla ( ) 
  tablao ( ) 
- tablas ( ) lemma=tabla 
+ tablas ( ) 
  table ( ) 
  tableau ( ) 
- tableritos ( ) lemma=tablero 
+ tableritos ( ) 
  tablero ( ) 
  tablero-mural ( ) 
- tableros ( ) lemma=tablero 
+ tableros ( ) 
  tablilla ( ) 
- tablillas ( ) lemma=tabla 
- tablones ( ) lemma=tablón 
+ tablillas ( ) 
+ tablones ( ) 
  tablón ( ) 
- tabula ( ) lemma=tabular 
- tabular ( ) 
+ tabula ( ) 
  tabulación ( ) 
- tabuladores ( ) lemma=tabulador 
- tabulador ( ) 
- tabulados ( ) lemma=tabular 
- tabularon ( ) lemma=tabular 
+ tabuladores ( ) 
+ tabulados ( ) 
+ tabular ( ) 
+ tabularon ( ) 
  taburete ( ) 
- tabáquicos ( ) lemma=tabáquico 
- tabáquico ( ) 
+ tabáquicos ( ) 
  tabú ( ) 
- tabúes ( ) lemma=tabú 
- taca ( ) lemma=tacar 
- tacar ( ) 
+ tabúes ( ) 
+ taca ( ) lemma=atacar 
  taca-taca-taca ( ) 
  tacaño ( ) 
- tacañín ( ) lemma=tacaño 
- tacha ( ) lemma=tachar 
+ tacañín ( ) 
+ tacha ( ) 
+ tachaba ( ) 
+ tachada ( ) 
+ tachadas ( ) 
+ tachado ( ) 
+ tachados ( ) 
+ tachamos ( ) 
+ tachan ( ) 
+ tachando ( ) 
  tachar ( ) 
- tachaba ( ) lemma=tachar 
- tachada ( ) lemma=tachar 
- tachadas ( ) lemma=tachar 
- tachado ( ) lemma=tachar 
- tachados ( ) lemma=tachar 
- tachamos ( ) lemma=tachar 
- tachan ( ) lemma=tachar 
- tachando ( ) lemma=tachar 
- tacharon ( ) lemma=tachar 
- tacharían ( ) lemma=tachar 
- tachas ( ) lemma=tachar 
- tache ( ) lemma=tachar 
- tachen ( ) lemma=tachar 
+ tacharon ( ) 
+ tacharían ( ) 
+ tachas ( ) 
+ tache ( ) 
+ tachen ( ) 
  tacho ( ) 
  tachonar ( ) 
- tachuelas ( ) lemma=tachuela 
- tachuela ( ) 
- taché ( ) lemma=tachar 
- tachó ( ) lemma=tachar 
- tacita ( ) lemma=taza 
- taza ( ) 
- tacitas ( ) lemma=taza 
+ tachuelas ( ) 
+ taché ( ) 
+ tachó ( ) 
+ tacita ( ) 
+ tacitas ( ) 
  taciturno ( ) 
  taco ( ) 
  taconear ( ) 
- tacones ( ) lemma=tacón 
- tacón ( ) 
- tacos ( ) lemma=taco 
+ tacones ( ) 
+ tacos ( ) 
  tacto ( ) 
- taimada ( ) lemma=taimar 
- taimar ( ) 
- taimadas ( ) lemma=taimar 
- taiwaneses ( ) lemma=taiwanés 
- taiwanés ( ) 
- tajada ( ) lemma=tajar 
- tajar ( ) 
- tajadas ( ) lemma=tajar 
+ tacón ( ) 
+ taimada ( ) 
+ taimadas ( ) 
+ taiwaneses ( ) 
+ tajada ( ) lemma=atajar 
+ tajadas ( ) 
  tajantemente ( ) 
- taje ( ) lemma=tajar 
- tajo ( ) 
- tajos ( ) lemma=tajo 
- tal ( ) 
- tal_vez ( ) lemma=tal~vez 
+ taje ( ) lemma=atajar 
+ tajo ( ) lemma=atajo 
+ tajos ( ) 
+ tal ( ) lemma=stall 
  tala ( ) 
  talabartero ( ) 
- talada ( ) lemma=talar 
- talar ( ) 
- talado ( ) lemma=talar 
- talados ( ) lemma=talar 
- taladro ( ) lemma=taladrar 
- taladrar ( ) 
- talan ( ) lemma=talar 
- talando ( ) lemma=talar 
+ talada ( ) 
+ talado ( ) 
+ talados ( ) 
+ taladro ( ) 
+ talan ( ) 
+ talando ( ) 
  talante ( ) 
- talas ( ) lemma=tala 
+ talar ( ) 
+ talas ( ) 
  talasemia ( ) 
  talco ( ) 
  talento ( ) 
- talentos ( ) lemma=talento 
+ talentos ( ) 
  talentoso ( ) 
- talentosos ( ) lemma=talentoso 
- tales ( ) lemma=tal 
+ talentosos ( ) 
+ tales ( ) 
  talidomida ( ) 
  talio ( ) 
  talking ( ) 
- talla ( ) lemma=tallar 
- tallar ( ) 
- tallado ( ) lemma=tallar 
- tallados ( ) lemma=tallar 
- tallas ( ) lemma=tallar 
- talle ( ) lemma=tallar 
+ talla ( ) 
+ tallado ( ) 
+ tallados ( ) 
+ tallas ( ) 
+ talle ( ) 
  taller ( ) 
- talleres ( ) lemma=taller 
- tallitos ( ) lemma=tallo 
+ talleres ( ) 
+ tallitos ( ) 
  tallo ( ) 
- tallos ( ) lemma=tallo 
+ tallos ( ) 
  talo ( ) 
  talonario ( ) 
- talones ( ) lemma=talón 
- talón ( ) 
+ talones ( ) 
  talud ( ) 
- taludes ( ) lemma=talud 
- tamalito ( ) lemma=tamal 
- tamal ( ) 
- tamaulipeca ( ) lemma=tamaulipeco 
+ taludes ( ) 
+ talón ( ) 
+ tamalito ( ) 
+ tamaulipeca ( ) 
  tamaulipeco ( ) 
- tamaulipecos ( ) lemma=tamaulipeco 
- tamaña ( ) lemma=tamaño 
- tamañas ( ) lemma=tamaño 
- tamaños ( ) lemma=tamaño 
- tambalea ( ) lemma=tambalear 
+ tamaulipecos ( ) 
+ tamaña ( ) 
+ tamañas ( ) 
+ tamaño ( ) 
+ tamaños ( ) 
+ tambalea ( ) 
+ tambalean ( ) 
  tambalear ( ) 
- tambalean ( ) lemma=tambalear 
- tambaleara ( ) lemma=tambalear 
- tambaleo ( ) lemma=tambalear 
- tambaleó ( ) lemma=tambalear 
- tambien ( ) lemma=también 
+ tambaleara ( ) 
+ tambaleo ( ) 
+ tambaleó ( ) 
+ tambien ( ) 
  también ( ) 
  tambor ( ) 
- tambores ( ) lemma=tambor 
- tamborines ( ) lemma=tamborín 
- tamborín ( ) 
- tamices ( ) lemma=tamiz 
+ tambores ( ) 
+ tamborines ( ) 
+ tamices ( ) 
  tamiz ( ) 
  tampoco ( ) 
- tampones ( ) lemma=tampón 
+ tampones ( ) 
  tampón ( ) 
- tan ( ) 
- tan_pronto_como ( ) lemma=tan~pronto~como 
+ tan ( ) lemma=stand 
  tanda ( ) 
- tandas ( ) lemma=tanda 
+ tandas ( ) 
  tangente ( ) 
- tangentes ( ) lemma=tangente 
+ tangentes ( ) 
  tango ( ) 
- tangos ( ) lemma=tango 
+ tangos ( ) 
  tanguero ( ) 
- tangueros ( ) lemma=tanguero 
- tanos ( ) lemma=tano 
- tano ( ) 
+ tangueros ( ) 
+ tanos ( ) 
  tanque ( ) 
- tanqueaba ( ) lemma=tanquear 
- tanquear ( ) 
- tanques ( ) lemma=tanque 
+ tanqueaba ( ) 
+ tanques ( ) 
  tansmitida ( ) 
- tanta ( ) lemma=tanto 
- tanto ( ) 
- tantas ( ) lemma=tanto 
- tantea ( ) lemma=tantear 
- tantear ( ) 
- tanteado ( ) lemma=tantear 
- tanteados ( ) lemma=tantear 
- tanteando ( ) lemma=tantear 
+ tanta ( ) 
+ tantas ( ) 
+ tantea ( ) 
+ tanteado ( ) 
+ tanteados ( ) 
+ tanteando ( ) 
  tanteo ( ) 
- tantito ( ) lemma=tanto 
- tanto_por_ciento ( ) lemma=tanto~por~ciento 
- tanto~por~ciento ( ) 
- tantos ( ) lemma=tanto 
- tantísima ( ) lemma=tanto 
- tantísimas ( ) lemma=tanto 
- tantísimo ( ) lemma=tanto 
- tantísimos ( ) lemma=tanto 
- tapa ( ) 
- tapaba ( ) lemma=tapar 
- tapar ( ) 
- tapaban ( ) lemma=tapar 
- tapada ( ) lemma=tapar 
- tapadas ( ) lemma=tapar 
+ tantito ( ) 
+ tanto ( ) 
+ tantos ( ) 
+ tantísima ( ) 
+ tantísimas ( ) 
+ tantísimo ( ) 
+ tantísimos ( ) 
+ tapa ( ) lemma=etapa 
+ tapaba ( ) 
+ tapaban ( ) 
+ tapada ( ) 
+ tapadas ( ) 
  tapadera ( ) 
- tapaderas ( ) lemma=tapadera 
- tapado ( ) lemma=tapar 
- tapados ( ) lemma=tapar 
- tapan ( ) lemma=tapar 
- tapando ( ) lemma=tapar 
- tapara ( ) lemma=tapar 
- taparan ( ) lemma=tapar 
- taparle ( ) lemma=tapar 
- taparles ( ) lemma=tapar 
- taparlo ( ) lemma=tapar 
- taparon ( ) lemma=tapar 
+ tapaderas ( ) 
+ tapado ( ) 
+ tapados ( ) 
+ tapan ( ) 
+ tapando ( ) 
+ tapar ( ) 
+ tapara ( ) 
+ taparan ( ) 
+ taparle ( ) 
+ taparles ( ) 
+ taparlo ( ) 
+ taparon ( ) 
  taparse ( ) 
- tapas ( ) lemma=tapa 
- tapatía ( ) lemma=tapatío 
+ tapas ( ) 
+ tapatía ( ) 
  tapatío ( ) 
- tapatíos ( ) lemma=tapatío 
+ tapatíos ( ) 
  tape ( ) 
  tapete ( ) 
- tapetes ( ) lemma=tapete 
+ tapetes ( ) 
  tapia ( ) 
- tapices ( ) lemma=tapiz 
+ tapices ( ) 
+ tapitas ( ) 
  tapiz ( ) 
- tapitas ( ) lemma=tapa 
- tapiza ( ) lemma=tapizar 
- tapizar ( ) 
- tapizadas ( ) lemma=tapizar 
- tapizados ( ) lemma=tapizar 
- tapizan ( ) lemma=tapizar 
- tapo ( ) lemma=tapar 
- tapona ( ) lemma=taponar 
- taponar ( ) 
- taponadas ( ) lemma=taponar 
- taponados ( ) lemma=taponar 
+ tapiza ( ) 
+ tapizadas ( ) 
+ tapizados ( ) 
+ tapizan ( ) 
+ tapo ( ) 
+ tapona ( ) 
+ taponadas ( ) 
+ taponados ( ) 
  taponamiento ( ) 
- taponan ( ) lemma=taponar 
- tapones ( ) lemma=tapón 
+ taponan ( ) 
+ taponar ( ) 
+ tapones ( ) 
+ taponándolo ( ) 
+ taponó ( ) 
+ tapándole ( ) 
+ tapándose ( ) 
+ tapó ( ) 
  tapón ( ) 
- taponándolo ( ) lemma=taponar 
- taponó ( ) lemma=taponar 
- tapándole ( ) lemma=tapar 
- tapándose ( ) lemma=tapar 
- tapó ( ) lemma=tapar 
  tapún ( ) 
  taquiarritmia ( ) 
  taquicardia ( ) 
- taquicardias ( ) lemma=taquicardia 
+ taquicardias ( ) 
  taquigrafía ( ) 
  taquilla ( ) 
- taquillas ( ) lemma=taquilla 
- taquilleras ( ) lemma=taquillero 
- taquillero ( ) 
- taquitos ( ) lemma=taco 
- tara ( ) lemma=tarar 
- tarar ( ) 
- tarada ( ) lemma=tarar 
- tarados ( ) lemma=tarar 
- tarará ( ) lemma=tarar 
- taras ( ) lemma=tarar 
- tarda ( ) lemma=tardar 
- tardar ( ) 
- tardaba ( ) lemma=tardar 
- tardado ( ) lemma=tardar 
- tardamos ( ) lemma=tardar 
- tardan ( ) lemma=tardar 
- tardando ( ) lemma=tardar 
+ taquillas ( ) 
+ taquilleras ( ) 
+ taquitos ( ) 
+ tara ( ) 
+ tarada ( ) 
+ tarados ( ) 
+ tarará ( ) 
+ taras ( ) 
+ tarda ( ) 
+ tardaba ( ) 
+ tardado ( ) 
+ tardamos ( ) 
+ tardan ( ) 
+ tardando ( ) 
  tardanza ( ) 
- tardaran ( ) lemma=tardar 
- tardaremos ( ) lemma=tardar 
- tardaron ( ) lemma=tardar 
- tardará ( ) lemma=tardar 
- tardarán ( ) lemma=tardar 
- tardaría ( ) lemma=tardar 
- tardaríamos ( ) lemma=tardar 
+ tardar ( ) 
+ tardaran ( ) 
+ tardaremos ( ) 
+ tardaron ( ) 
+ tardará ( ) 
+ tardarán ( ) 
+ tardaría ( ) 
+ tardaríamos ( ) 
  tarde ( ) 
- tardemos ( ) lemma=tardar 
- tarden ( ) lemma=tardar 
- tardes ( ) lemma=tarde 
- tardo ( ) lemma=tardar 
- tardé ( ) lemma=tardar 
- tardía ( ) lemma=tardío 
+ tardemos ( ) 
+ tarden ( ) 
+ tardes ( ) 
+ tardo ( ) 
+ tardé ( ) 
+ tardía ( ) 
+ tardíamente ( ) 
+ tardías ( ) 
  tardío ( ) 
- tardíamente ( ) lemma=tardío 
- tardías ( ) lemma=tardío 
- tardíos ( ) lemma=tardío 
- tardísimo ( ) lemma=tarde 
- tardó ( ) lemma=tardar 
+ tardíos ( ) 
+ tardísimo ( ) 
+ tardó ( ) 
  tarea ( ) 
- tareas ( ) lemma=tarea 
+ tareas ( ) 
  tarifa ( ) 
- tarifaria ( ) lemma=tarifario 
+ tarifaria ( ) 
+ tarifarias ( ) 
  tarifario ( ) 
- tarifarias ( ) lemma=tarifario 
- tarifarios ( ) lemma=tarifario 
- tarifas ( ) lemma=tarifa 
+ tarifarios ( ) 
+ tarifas ( ) 
  tarificación ( ) 
- tarificada ( ) lemma=tarificar 
+ tarificada ( ) 
+ tarifican ( ) 
  tarificar ( ) 
- tarifican ( ) lemma=tarificar 
  tarima ( ) 
- tarimas ( ) lemma=tarima 
+ tarimas ( ) 
  tarjeta ( ) 
- tarjetas ( ) lemma=tarjeta 
- tarjetita ( ) lemma=tarjeta 
- tarjetitas ( ) lemma=tarjeta 
+ tarjetas ( ) 
+ tarjetita ( ) 
+ tarjetitas ( ) 
  tarro ( ) 
  tarso ( ) 
  tarta ( ) 
- tartamudas ( ) lemma=tartamudo 
+ tartamudas ( ) 
  tartamudo ( ) 
- tartas ( ) lemma=tarta 
+ tartas ( ) 
  tartárico ( ) 
  tarántula ( ) 
  tasa ( ) 
  tasable ( ) 
- tasaciones ( ) lemma=tasación 
+ tasaciones ( ) 
  tasación ( ) 
- tasada ( ) lemma=tasar 
+ tasada ( ) 
+ tasadas ( ) 
+ tasado ( ) 
+ tasados ( ) 
  tasar ( ) 
- tasadas ( ) lemma=tasar 
- tasado ( ) lemma=tasar 
- tasados ( ) lemma=tasar 
  tasarse ( ) 
- tasará ( ) lemma=tasar 
- tasas ( ) lemma=tasa 
- tasen ( ) lemma=tasar 
- tasó ( ) lemma=tasar 
- tatarabuela ( ) lemma=tatarabuelo 
+ tasará ( ) 
+ tasas ( ) 
+ tasen ( ) 
+ tasó ( ) 
+ tatarabuela ( ) 
  tatarabuelo ( ) 
  tau ( ) 
  taux ( ) 
- taxativa ( ) lemma=taxativo 
+ taxativa ( ) 
+ taxativamente ( ) 
+ taxativas ( ) 
  taxativo ( ) 
- taxativamente ( ) lemma=taxativo 
- taxativas ( ) lemma=taxativo 
- taxi ( ) 
- taxis ( ) lemma=taxi 
+ taxi ( ) lemma=ataxia 
+ taxis ( ) 
  taxista ( ) 
- taxistas ( ) lemma=taxista 
+ taxistas ( ) 
  taxonomía ( ) 
- taxonómica ( ) lemma=taxonómico 
- taxonómico ( ) 
+ taxonómica ( ) 
  taxonómicamente ( ) 
- taxonómicas ( ) lemma=taxonómico 
- tazas ( ) lemma=taza 
- tazones ( ) lemma=tazón 
+ taxonómicas ( ) 
+ taza ( ) 
+ tazas ( ) 
+ tazones ( ) 
  tazón ( ) 
- tañen ( ) lemma=tañar|tañer 
- tañar|tañer ( ) 
- tañidos ( ) lemma=tañer 
- tañer ( ) 
+ tañen ( ) 
+ tañidos ( ) 
  tcp ( ) 
  tcpcon ( ) 
- te ( ) lemma=tú 
- tú ( ) 
- tea ( ) 
+ te ( ) lemma=otear 
+ tea ( ) lemma=ateo 
  teatral ( ) 
- teatrales ( ) lemma=teatral 
+ teatrales ( ) 
  teatro ( ) 
- teatros ( ) lemma=teatro 
+ teatros ( ) 
  tebeo ( ) 
- tebeos ( ) lemma=tebeo 
- teca ( ) lemma=teco 
- teco ( ) 
- techado ( ) lemma=techar 
- techar ( ) 
+ tebeos ( ) 
+ teca ( ) 
+ techado ( ) 
  techniques ( ) 
  techo ( ) 
- techos ( ) lemma=techo 
- tecito ( ) lemma=té 
- té ( ) 
+ techos ( ) 
+ tecito ( ) 
  tecla ( ) 
- tecladito ( ) lemma=teclado 
+ tecladito ( ) 
  teclado ( ) 
- teclados ( ) lemma=teclado 
- teclas ( ) lemma=tecla 
- teclea ( ) lemma=teclear 
+ teclados ( ) 
+ teclas ( ) 
+ teclea ( ) 
+ tecleado ( ) 
+ tecleando ( ) 
  teclear ( ) 
- tecleado ( ) lemma=teclear 
- tecleando ( ) lemma=teclear 
- teclee ( ) lemma=teclear 
- tecleo ( ) lemma=teclear 
+ teclee ( ) 
+ tecleo ( ) 
  tecnecio ( ) 
- tecnica ( ) lemma=técnica 
- técnica ( ) lemma=técnico 
- tecnicos ( ) lemma=técnico 
- técnico ( ) 
- tecno ( ) lemma=tecnología 
- tecnología ( ) 
+ tecnica ( ) 
+ tecnicos ( ) 
+ tecno ( ) 
  tecnocrático ( ) 
  tecnoeconómico ( ) 
- tecnologia ( ) lemma=tecnología 
- tecnologías ( ) lemma=tecnología 
- tecnológica ( ) lemma=tecnológico 
+ tecnologia ( ) 
+ tecnología ( ) 
+ tecnologías ( ) 
+ tecnológica ( ) 
+ tecnológicamente ( ) 
+ tecnológicas ( ) 
  tecnológico ( ) 
- tecnológicamente ( ) lemma=tecnológico 
- tecnológicas ( ) lemma=tecnológico 
- tecnológicos ( ) lemma=tecnológico 
- tecolotes ( ) lemma=tecolote 
- tecolote ( ) 
- tecos ( ) lemma=teco 
- tectónicas ( ) lemma=tectónico 
- tectónico ( ) 
+ tecnológicos ( ) 
+ tecolotes ( ) 
+ tecos ( ) 
+ tectónicas ( ) 
  tedio ( ) 
- tediosa ( ) lemma=tedioso 
+ tediosa ( ) 
+ tediosas ( ) 
  tedioso ( ) 
- tediosas ( ) lemma=tedioso 
  teflón ( ) 
  tegmento ( ) 
  tegumento ( ) 
- tegumentos ( ) lemma=tegumento 
+ tegumentos ( ) 
  teja ( ) 
- tejada ( ) lemma=tejar 
- tejar ( ) 
- tejadillo ( ) lemma=tejado 
+ tejada ( ) 
+ tejadillo ( ) 
  tejado ( ) 
- tejados ( ) lemma=tejado 
+ tejados ( ) 
  tejano ( ) 
- tejanos ( ) lemma=tejano 
- tejas ( ) lemma=teja 
- teje ( ) lemma=tejar|tejer 
- tejar|tejer ( ) 
- tejen ( ) lemma=tejar|tejer 
+ tejanos ( ) 
+ tejas ( ) 
+ teje ( ) 
+ tejen ( ) 
  tejer ( ) 
- tejerlo ( ) lemma=tejer 
+ tejerlo ( ) 
  tejido ( ) 
- tejidos ( ) lemma=tejido 
- tejiendo ( ) lemma=tejer 
- tejieran ( ) lemma=tejer 
- tejieron ( ) lemma=tejer 
- tejió ( ) lemma=tejer 
- tejos ( ) lemma=tejo 
- tejo ( ) 
- tejía ( ) lemma=tejer 
- tejían ( ) lemma=tejer 
+ tejidos ( ) 
+ tejiendo ( ) 
+ tejieran ( ) 
+ tejieron ( ) 
+ tejió ( ) 
+ tejos ( ) 
+ tejía ( ) 
+ tejían ( ) 
  tela ( ) 
  telangiectasia ( ) 
  telarquia ( ) 
- telas ( ) lemma=tela 
+ telas ( ) 
  tele ( ) 
  telecarga ( ) 
- telecargan ( ) lemma=telecargar 
- telecargar ( ) 
+ telecargan ( ) 
  telecommunication ( ) 
- telecomunicaciones ( ) lemma=telecomunicación 
+ telecomunicaciones ( ) 
  telecomunicación ( ) 
  teleconferencia ( ) 
  telecontrol ( ) 
- telecontrolada ( ) lemma=telecontrolar 
- telecontrolar ( ) 
- telecontrolado ( ) lemma=telecontrolar 
- telecopias ( ) lemma=telecopia 
- telecopia ( ) 
+ telecontrolada ( ) 
+ telecontrolado ( ) 
+ telecopias ( ) 
  telediario ( ) 
- telediarios ( ) lemma=telediario 
+ telediarios ( ) 
  telediastólico ( ) 
  telefax ( ) 
- telefoneaban ( ) lemma=telefonear 
+ telefoneaban ( ) 
  telefonear ( ) 
- telefoneó ( ) lemma=telefonear 
+ telefoneó ( ) 
  telefonometría ( ) 
- telefonométricas ( ) lemma=telefonométrico 
- telefonométrico ( ) 
+ telefonométricas ( ) 
  telefonía ( ) 
  telefotografía ( ) 
- telefotográfica ( ) lemma=telefotográfico 
+ telefotográfica ( ) 
+ telefotográficas ( ) 
  telefotográfico ( ) 
- telefotográficas ( ) lemma=telefotográfico 
- telefotográficos ( ) lemma=telefotográfico 
- telefónica ( ) lemma=telefónico 
+ telefotográficos ( ) 
+ telefónica ( ) 
+ telefónicamente ( ) 
+ telefónicas ( ) 
  telefónico ( ) 
- telefónicamente ( ) lemma=telefónico 
- telefónicas ( ) lemma=telefónico 
- telefónicos ( ) lemma=telefónico 
+ telefónicos ( ) 
  telegrafía ( ) 
  telegrama ( ) 
- telegramas ( ) lemma=telegrama 
+ telegramas ( ) 
  telegraph ( ) 
  telegraphy ( ) 
- telegráfica ( ) lemma=telegráfico 
+ telegráfica ( ) 
+ telegráficamente ( ) 
+ telegráficas ( ) 
  telegráfico ( ) 
- telegráficamente ( ) lemma=telegráfico 
- telegráficas ( ) lemma=telegráfico 
- telegráficos ( ) lemma=telegráfico 
+ telegráficos ( ) 
  teleimpresor ( ) 
- teleimpresora ( ) lemma=teleimpresor 
- teleimpresoras ( ) lemma=teleimpresor 
- teleimpresores ( ) lemma=teleimpresor 
+ teleimpresora ( ) 
+ teleimpresoras ( ) 
+ teleimpresores ( ) 
  telemando ( ) 
  telemedida ( ) 
- telemática ( ) lemma=telemático 
+ telemática ( ) 
+ telemáticas ( ) 
  telemático ( ) 
- telemáticas ( ) lemma=telemático 
- telemáticos ( ) lemma=telemático 
+ telemáticos ( ) 
  telencéfalo ( ) 
  telenovela ( ) 
- telenovelas ( ) lemma=telenovela 
+ telenovelas ( ) 
  telephone ( ) 
  telephonometry ( ) 
  telephony ( ) 
  teleprinter ( ) 
  teleprinting ( ) 
  teleproceso ( ) 
- teles ( ) lemma=tele 
+ teles ( ) 
  telescopio ( ) 
- telescopios ( ) lemma=telescopio 
+ telescopios ( ) 
  telescritura ( ) 
  teleservicio ( ) 
- teleservicios ( ) lemma=teleservicio 
+ teleservicios ( ) 
  teletex ( ) 
  teletexto ( ) 
  teletypewriter ( ) 
  televenta ( ) 
  televidente ( ) 
- televidentes ( ) lemma=televidente 
- televisa ( ) lemma=televisar 
- televisar ( ) 
- televisada ( ) lemma=televisar 
- televisadas ( ) lemma=televisar 
- televisado ( ) lemma=televisar 
- televisados ( ) lemma=televisar 
- televise ( ) lemma=televisar 
- televisen ( ) lemma=televisar 
- televisiones ( ) lemma=televisión 
- televisión ( ) 
- televisiva ( ) lemma=televisivo 
+ televidentes ( ) 
+ televisa ( ) 
+ televisada ( ) 
+ televisadas ( ) 
+ televisado ( ) 
+ televisados ( ) 
+ televise ( ) 
+ televisen ( ) 
+ televisiones ( ) 
+ televisiva ( ) 
+ televisivas ( ) 
  televisivo ( ) 
- televisivas ( ) lemma=televisivo 
- televisivos ( ) lemma=televisivo 
+ televisivos ( ) 
+ televisión ( ) 
  televisor ( ) 
- televisores ( ) lemma=televisor 
+ televisores ( ) 
  telex ( ) 
  telomerasa ( ) 
- telomerasas ( ) lemma=telomerasa 
+ telomerasas ( ) 
  telomérico ( ) 
- telones ( ) lemma=telón 
- telón ( ) 
- telos ( ) lemma=ter 
- ter ( ) 
+ telones ( ) 
+ telos ( ) 
  teléfonico ( ) 
  teléfono ( ) 
- teléfonos ( ) lemma=teléfono 
+ teléfonos ( ) 
  telégrafo ( ) 
- telégrafos ( ) lemma=telégrafo 
+ telégrafos ( ) 
  telógeno ( ) 
  telómero ( ) 
- telómeros ( ) lemma=telómero 
+ telómeros ( ) 
+ telón ( ) 
  tema ( ) 
- temamos ( ) lemma=temer 
- temer ( ) 
- teman ( ) lemma=temer 
+ temamos ( ) 
+ teman ( ) 
  temario ( ) 
- temas ( ) lemma=tema 
- temblaba ( ) lemma=temblar 
+ temas ( ) 
+ temblaba ( ) 
+ temblaban ( ) 
+ temblado ( ) 
+ temblando ( ) 
  temblar ( ) 
- temblaban ( ) lemma=temblar 
- temblado ( ) lemma=temblar 
- temblando ( ) lemma=temblar 
- temblara ( ) lemma=temblar 
- temblaron ( ) lemma=temblar 
+ temblara ( ) 
+ temblaron ( ) 
  temblor ( ) 
- temblores ( ) lemma=temblor 
- temblorosa ( ) lemma=tembloroso 
+ temblores ( ) 
+ temblorosa ( ) 
+ temblorosas ( ) 
  tembloroso ( ) 
- temblorosas ( ) lemma=tembloroso 
- temblábamos ( ) lemma=temblar 
- tembló ( ) lemma=temblar 
- teme ( ) lemma=temer 
- tememos ( ) lemma=temer 
- temen ( ) lemma=temer 
- temeraria ( ) lemma=temerario 
+ temblábamos ( ) 
+ tembló ( ) 
+ teme ( ) 
+ tememos ( ) 
+ temen ( ) 
+ temer ( ) 
+ temeraria ( ) 
+ temerarias ( ) 
  temerario ( ) 
- temerarias ( ) lemma=temerario 
- temerarios ( ) lemma=temerario 
- temerosa ( ) lemma=temeroso 
+ temerarios ( ) 
+ temerosa ( ) 
+ temerosamente ( ) 
+ temerosas ( ) 
  temeroso ( ) 
- temerosamente ( ) lemma=temeroso 
- temerosas ( ) lemma=temeroso 
- temerosos ( ) lemma=temeroso 
- temerán ( ) lemma=temer 
- temeré ( ) lemma=temer 
- temería ( ) lemma=temer 
- temes ( ) lemma=temer 
- temi ( ) lemma=temer 
- temian ( ) lemma=temer 
+ temerosos ( ) 
+ temerán ( ) 
+ temeré ( ) 
+ temería ( ) 
+ temes ( ) 
+ temi ( ) 
+ temian ( ) 
  temible ( ) 
- temibles ( ) lemma=temible 
- temida ( ) lemma=temido 
- temido ( ) lemma=temer 
- temidas ( ) lemma=temer 
- temidos ( ) lemma=temer 
- temiendo ( ) lemma=temer 
- temiera ( ) lemma=temer 
- temieran ( ) lemma=temer 
- temieron ( ) lemma=temer 
- temimos ( ) lemma=temer 
+ temibles ( ) 
+ temida ( ) 
+ temidas ( ) 
+ temido ( ) 
+ temidos ( ) 
+ temiendo ( ) 
+ temiera ( ) 
+ temieran ( ) 
+ temieron ( ) 
+ temimos ( ) 
  teminal ( ) 
- temita ( ) lemma=tema 
- temitas ( ) lemma=tema 
- temió ( ) lemma=temer 
- temo ( ) lemma=temer 
+ temita ( ) 
+ temitas ( ) 
+ temió ( ) 
+ temo ( ) 
  temor ( ) 
- temores ( ) lemma=temor 
- temos ( ) lemma=ter 
+ temores ( ) 
+ temos ( ) 
  temperamento ( ) 
  temperatura ( ) 
- temperaturas ( ) lemma=temperatura 
+ temperaturas ( ) 
  tempestad ( ) 
- tempestades ( ) lemma=tempestad 
- templa ( ) lemma=templar 
+ tempestades ( ) 
+ templa ( ) 
+ templaban ( ) 
+ templada ( ) 
+ templadas ( ) 
+ templadazo ( ) 
+ templadito ( ) 
+ templado ( ) 
+ templados ( ) 
+ templando ( ) 
  templar ( ) 
- templaban ( ) lemma=templar 
- templada ( ) lemma=templar 
- templadas ( ) lemma=templar 
- templadazo ( ) lemma=templado 
- templado ( ) lemma=templar 
- templadito ( ) lemma=templado 
- templados ( ) lemma=templar 
- templando ( ) lemma=templar 
- templaron ( ) lemma=templar 
- templará ( ) lemma=templar 
- temple ( ) lemma=templar 
+ templaron ( ) 
+ templará ( ) 
+ temple ( ) 
  templo ( ) 
- templos ( ) lemma=templo 
- templó ( ) lemma=templar 
+ templos ( ) 
+ templó ( ) 
  temporada ( ) 
- temporadas ( ) lemma=temporada 
+ temporadas ( ) 
  temporal ( ) 
- temporales ( ) lemma=temporal 
- temporalmente ( ) lemma=temporal|temporalmente 
- temporal|temporalmente ( ) 
- temporaria ( ) lemma=temporario 
- temporario ( ) 
+ temporales ( ) 
+ temporalmente ( ) 
+ temporaria ( ) 
  temporariamente ( ) 
  temporel ( ) 
  temporelle ( ) 
- temporizaciones ( ) lemma=temporización 
+ temporizaciones ( ) 
  temporización ( ) 
- temporizada ( ) lemma=temporizar 
- temporizar ( ) 
+ temporizada ( ) 
  temporizador ( ) 
- temporizadores ( ) lemma=temporizador 
+ temporizadores ( ) 
  temporomandibular ( ) 
  temporoparietal ( ) 
- temprana ( ) lemma=temprano 
+ temprana ( ) 
+ tempranamente ( ) 
+ tempranas ( ) 
+ tempranito ( ) 
  temprano ( ) 
- tempranamente ( ) lemma=temprano 
- tempranas ( ) lemma=temprano 
- tempranito ( ) lemma=temprano 
- tempranos ( ) lemma=temprano 
- tempranísima ( ) lemma=temprano 
+ tempranos ( ) 
+ tempranísima ( ) 
  temps ( ) 
  temática ( ) 
  temáticamente ( ) 
- temáticas ( ) lemma=temática 
- temí ( ) lemma=temer 
- temía ( ) lemma=temer 
- temíamos ( ) lemma=temer 
- temían ( ) lemma=temer 
- ten ( ) lemma=tener 
- tener ( ) 
- tenaces ( ) lemma=tenaz 
- tenaz ( ) 
- tenaza ( ) lemma=tenaz 
- tenazas ( ) lemma=tenaz 
- tenazmente ( ) lemma=tenaz 
+ temáticas ( ) 
+ temí ( ) 
+ temía ( ) 
+ temíamos ( ) 
+ temían ( ) 
+ ten ( ) 
+ tenaces ( ) 
+ tenaz ( ) lemma=atenazar 
+ tenaza ( ) lemma=atenazar 
+ tenazas ( ) 
+ tenazmente ( ) 
  tención ( ) 
- tendemos ( ) lemma=tender 
- tender ( ) 
+ tendemos ( ) 
  tendencia ( ) 
- tendencias ( ) lemma=tendencia 
+ tendencias ( ) 
  tendenciosidad ( ) 
  tendente ( ) 
- tendentes ( ) lemma=tendente 
+ tendentes ( ) 
+ tender ( ) 
  tenderete ( ) 
- tenderetes ( ) lemma=tenderete 
+ tenderetes ( ) 
  tendero ( ) 
- tenderos ( ) lemma=tendero 
- tenderá ( ) lemma=tender 
- tenderán ( ) lemma=tender 
- tendería ( ) lemma=tender 
- tenderían ( ) lemma=tender 
- tendida ( ) lemma=tender 
- tendido ( ) lemma=tender 
- tendidos ( ) lemma=tender 
- tendiendo ( ) lemma=tender 
- tendiera ( ) lemma=tender 
- tendieran ( ) lemma=tender 
- tendieron ( ) lemma=tender 
- tendimos ( ) lemma=tender 
- tendinosas ( ) lemma=tendinoso 
+ tenderos ( ) 
+ tenderá ( ) lemma=atender 
+ tenderán ( ) 
+ tendería ( ) 
+ tenderían ( ) 
+ tendida ( ) lemma=atender 
+ tendido ( ) lemma=atender 
+ tendidos ( ) 
+ tendiendo ( ) 
+ tendiera ( ) lemma=atender 
+ tendieran ( ) 
+ tendieron ( ) 
+ tendimos ( ) 
+ tendinosas ( ) 
  tendinoso ( ) 
- tendinosos ( ) lemma=tendinoso 
- tendió ( ) lemma=tender 
- tendones ( ) lemma=tendón 
+ tendinosos ( ) 
+ tendió ( ) 
+ tendones ( ) 
+ tendremos ( ) 
+ tendria ( ) 
+ tendrian ( ) 
+ tendrá ( ) lemma=atener 
+ tendrán ( ) 
+ tendrás ( ) 
+ tendré ( ) 
+ tendréis ( ) 
+ tendría ( ) lemma=atener 
+ tendríais ( ) 
+ tendríamos ( ) 
+ tendrían ( ) 
+ tendrías ( ) 
+ tendía ( ) lemma=atender 
+ tendían ( ) 
  tendón ( ) 
- tendremos ( ) lemma=tener 
- tendria ( ) lemma=tener 
- tendrian ( ) lemma=tener 
- tendrá ( ) lemma=tener 
- tendrá_que ( ) lemma=tener~que 
- tener~que ( ) 
- tendrán ( ) lemma=tener 
- tendrán_que ( ) lemma=tener~que 
- tendrás ( ) lemma=tener 
- tendré ( ) lemma=tener 
- tendréis ( ) lemma=tener 
- tendría ( ) lemma=tener 
- tendríais ( ) lemma=tener 
- tendríamos ( ) lemma=tener 
- tendrían ( ) lemma=tener 
- tendrías ( ) lemma=tener 
- tendía ( ) lemma=tender 
- tendían ( ) lemma=tender 
- tenebrosa ( ) lemma=tenebroso 
+ tenebrosa ( ) 
+ tenebrosas ( ) 
  tenebroso ( ) 
- tenebrosas ( ) lemma=tenebroso 
- tenebrosos ( ) lemma=tenebroso 
- tened ( ) lemma=tener 
+ tenebrosos ( ) 
+ tened ( ) 
  tenedor ( ) 
- tenedores ( ) lemma=tenedor 
+ tenedores ( ) 
  teneduría ( ) 
- tenemos ( ) lemma=tener 
+ tenemos ( ) 
  tenencia ( ) 
- tenencias ( ) lemma=tenencia 
- tener_que ( ) lemma=tener~que 
- tenerla ( ) lemma=tener 
- tenerlas ( ) lemma=tener 
- tenerle ( ) lemma=tener 
- tenerles ( ) lemma=tener 
- tenerlo ( ) lemma=tener 
- tenerme ( ) lemma=tener 
- tenernos ( ) lemma=tener 
+ tenencias ( ) 
+ tener ( ) 
+ tenerla ( ) 
+ tenerlas ( ) 
+ tenerle ( ) 
+ tenerles ( ) 
+ tenerlo ( ) 
+ tenerme ( ) 
+ tenernos ( ) 
  tenerse ( ) 
- tenerte ( ) lemma=tener 
- tenes ( ) lemma=tener 
- tenga ( ) lemma=tener 
- tenga_que ( ) lemma=tener~que 
- tengamos ( ) lemma=tener 
- tengan ( ) lemma=tener 
- tengan_que ( ) lemma=tener~que 
- tengas ( ) lemma=tener 
- tengo ( ) lemma=tener 
- tengáis ( ) lemma=tener 
- tenia ( ) lemma=tener 
- tenida ( ) lemma=tener 
- tenidas ( ) lemma=tener 
- tenido ( ) lemma=tener 
- tenidos ( ) lemma=tener 
- teniendo ( ) lemma=tener 
+ tenerte ( ) 
+ tenes ( ) 
+ tenga ( ) lemma=atener 
+ tengamos ( ) 
+ tengan ( ) 
+ tengas ( ) 
+ tengo ( ) 
+ tengáis ( ) 
+ tenia ( ) 
+ tenida ( ) 
+ tenidas ( ) 
+ tenido ( ) 
+ tenidos ( ) 
+ teniendo ( ) 
  teniente ( ) 
- tenientes ( ) lemma=teniente 
+ tenientes ( ) 
  tenis ( ) 
  tenista ( ) 
- tenistas ( ) lemma=tenista 
- teniéndola ( ) lemma=tener 
- teniéndolo ( ) lemma=tener 
- teniéndolos ( ) lemma=tener 
- teniéndose ( ) lemma=tenerse 
- tenlo ( ) lemma=tener 
+ tenistas ( ) 
+ teniéndola ( ) 
+ teniéndolo ( ) 
+ teniéndolos ( ) 
+ teniéndose ( ) 
+ tenlo ( ) 
  tenor ( ) 
- tenores ( ) lemma=tenor 
+ tenores ( ) 
  tenorio ( ) 
- tensa ( ) lemma=tensar 
+ tensa ( ) 
+ tensada ( ) 
+ tensado ( ) 
  tensar ( ) 
- tensada ( ) lemma=tensar 
- tensado ( ) lemma=tensar 
- tensas ( ) lemma=tensar 
- tension ( ) lemma=tensión 
- tensión ( ) 
- tensiona ( ) lemma=tensionar 
- tensionar ( ) 
- tensionado ( ) lemma=tensionar 
+ tensas ( ) 
+ tension ( ) 
+ tensiona ( ) 
+ tensionado ( ) 
  tensional ( ) 
- tensiones ( ) lemma=tensión 
- tenso ( ) lemma=tensar 
+ tensiones ( ) 
+ tensión ( ) 
+ tenso ( ) 
  tensoactivo ( ) 
  tensor ( ) 
- tensó ( ) lemma=tensar 
- tentacion ( ) lemma=tentación 
+ tensó ( ) 
+ tentacion ( ) 
+ tentaciones ( ) 
  tentación ( ) 
- tentaciones ( ) lemma=tentación 
- tentada ( ) lemma=tentar 
- tentar ( ) 
- tentadas ( ) lemma=tentar 
- tentado ( ) lemma=tentar 
+ tentada ( ) 
+ tentadas ( ) 
+ tentado ( ) lemma=atentado 
  tentador ( ) 
- tentados ( ) lemma=tentar 
- tentando ( ) lemma=tentar 
+ tentados ( ) 
+ tentando ( ) 
+ tentar ( ) lemma=atentar 
  tentativa ( ) 
- tentativas ( ) lemma=tentativa 
+ tentativas ( ) 
  tentative ( ) 
  tentáculo ( ) 
- tentáculos ( ) lemma=tentáculo 
+ tentáculos ( ) 
  tenue ( ) 
  tenuemente ( ) 
- tenues ( ) lemma=tenue 
- tenéis ( ) lemma=tener 
- tenés ( ) lemma=tener 
- tení ( ) lemma=tener 
- tenía ( ) lemma=tener 
- teníais ( ) lemma=tener 
- teníamos ( ) lemma=tener 
- tenían ( ) lemma=tener 
- tenías ( ) lemma=tener 
- tenís ( ) lemma=tener 
+ tenues ( ) 
+ tenéis ( ) 
+ tenés ( ) 
+ tení ( ) lemma=atener 
+ tenía ( ) lemma=atener 
+ teníais ( ) 
+ teníamos ( ) 
+ tenían ( ) 
+ tenías ( ) 
+ tenís ( ) 
  teocrático ( ) 
  teofilina ( ) 
  teología ( ) 
- teológica ( ) lemma=teológico 
+ teológica ( ) 
+ teológicas ( ) 
  teológico ( ) 
- teológicas ( ) lemma=teológico 
- teológicos ( ) lemma=teológico 
+ teológicos ( ) 
  teorema ( ) 
  teoria ( ) 
  teoría ( ) 
- teorías ( ) lemma=teoría 
- terapeutas ( ) lemma=terapeuta 
- terapeuta ( ) 
+ teorías ( ) 
+ ter ( ) lemma=Zterm 
+ terapeutas ( ) 
  terapia ( ) 
- terapias ( ) lemma=terapia 
- terapéutica ( ) lemma=terapéutico 
+ terapias ( ) 
+ terapéutica ( ) 
+ terapéuticas ( ) 
  terapéutico ( ) 
- terapéuticas ( ) lemma=terapéutico 
- terapéuticos ( ) lemma=terapéutico 
+ terapéuticos ( ) 
  teratogénico ( ) 
- teratógenos ( ) lemma=teratógeno 
- teratógeno ( ) 
+ teratógenos ( ) 
  terbutalino ( ) 
- tercer ( ) lemma=tercero 
+ tercer ( ) 
+ tercera ( ) 
+ terceras ( ) 
  tercero ( ) 
- tercera ( ) lemma=tercero 
- terceras ( ) lemma=tercero 
- terceros ( ) lemma=tercero 
+ terceros ( ) 
  terceto ( ) 
- tercia ( ) lemma=tercio 
- tercio ( ) 
- terciaba ( ) lemma=terciar 
+ tercia ( ) 
+ terciaba ( ) 
+ terciada ( ) 
+ terciado ( ) 
  terciar ( ) 
- terciada ( ) lemma=terciar 
- terciado ( ) lemma=terciar 
- terciaria ( ) lemma=terciario 
+ terciaria ( ) 
+ terciarias ( ) 
  terciario ( ) 
- terciarias ( ) lemma=terciario 
- terciarios ( ) lemma=terciario 
- tercie ( ) lemma=terciar 
+ terciarios ( ) 
+ tercie ( ) 
  tercile ( ) 
+ tercio ( ) 
  terciopelo ( ) 
- terciopelos ( ) lemma=terciopelo 
- tercios ( ) lemma=tercio 
- tere ( ) 
+ terciopelos ( ) 
+ tercios ( ) 
+ tere ( ) lemma=stereo 
  terfenadina ( ) 
- tergiversa ( ) lemma=tergiversar 
+ tergiversa ( ) 
+ tergiversada ( ) 
+ tergiversado ( ) 
+ tergiversan ( ) 
+ tergiversando ( ) 
  tergiversar ( ) 
- tergiversada ( ) lemma=tergiversar 
- tergiversado ( ) lemma=tergiversar 
- tergiversan ( ) lemma=tergiversar 
- tergiversando ( ) lemma=tergiversar 
- tergiversara ( ) lemma=tergiversar 
- tergiverse ( ) lemma=tergiversar 
- tergiversemos ( ) lemma=tergiversar 
- tergiversen ( ) lemma=tergiversar 
- tergiversó ( ) lemma=tergiversar 
- termales ( ) lemma=termal 
- termal ( ) 
+ tergiversara ( ) 
+ tergiverse ( ) 
+ tergiversemos ( ) 
+ tergiversen ( ) 
+ tergiversó ( ) 
+ termales ( ) 
  terme ( ) 
- termina ( ) lemma=terminar 
- terminar ( ) 
- terminaba ( ) lemma=terminar 
- terminaban ( ) lemma=terminar 
- terminaciones ( ) lemma=terminación 
+ termina ( ) 
+ terminaba ( ) 
+ terminaban ( ) 
+ terminaciones ( ) 
  terminación ( ) 
- terminad ( ) lemma=terminar 
- terminada ( ) lemma=terminar 
- terminadas ( ) lemma=terminar 
+ terminad ( ) 
+ terminada ( ) 
+ terminadas ( ) 
  terminado ( ) 
- terminados ( ) lemma=terminar 
+ terminados ( ) 
  terminaison ( ) 
  terminal ( ) 
- terminales ( ) lemma=terminal 
+ terminales ( ) 
  terminals ( ) 
- terminamos ( ) lemma=terminar 
- terminan ( ) lemma=terminar 
- terminando ( ) lemma=terminar 
+ terminamos ( ) 
+ terminan ( ) 
+ terminando ( ) 
  terminante ( ) 
- terminantemente ( ) lemma=terminante 
- terminara ( ) lemma=terminar 
- terminaran ( ) lemma=terminar 
- terminaremos ( ) lemma=terminar 
- terminarla ( ) lemma=terminar 
- terminarlas ( ) lemma=terminar 
- terminarlo ( ) lemma=terminar 
- terminarlos ( ) lemma=terminar 
- terminaron ( ) lemma=terminar 
+ terminantemente ( ) 
+ terminar ( ) 
+ terminara ( ) 
+ terminaran ( ) 
+ terminaremos ( ) 
+ terminarla ( ) 
+ terminarlas ( ) 
+ terminarlo ( ) 
+ terminarlos ( ) 
+ terminaron ( ) 
  terminarse ( ) 
- terminará ( ) lemma=terminar 
- terminarán ( ) lemma=terminar 
- terminaré ( ) lemma=terminar 
- terminaría ( ) lemma=terminar 
- terminaríamos ( ) lemma=terminar 
- terminarían ( ) lemma=terminar 
- terminas ( ) lemma=terminar 
- terminase ( ) lemma=terminar 
- terminaste ( ) lemma=terminar 
+ terminará ( ) 
+ terminarán ( ) 
+ terminaré ( ) 
+ terminaría ( ) 
+ terminaríamos ( ) 
+ terminarían ( ) 
+ terminas ( ) 
+ terminase ( ) 
+ terminaste ( ) 
  terminating ( ) 
  termination ( ) 
- termine ( ) lemma=terminar 
- terminemos ( ) lemma=terminar 
- terminen ( ) lemma=terminar 
- termines ( ) lemma=terminar 
- termino ( ) lemma=terminar 
+ termine ( ) 
+ terminemos ( ) 
+ terminen ( ) 
+ termines ( ) 
+ termino ( ) 
  terminología ( ) 
- terminándose ( ) lemma=terminarse 
- termináramos ( ) lemma=terminar 
- terminé ( ) lemma=terminar 
- terminó ( ) lemma=terminar 
+ terminándose ( ) 
+ termináramos ( ) 
+ terminé ( ) 
+ terminó ( ) 
  termociclador ( ) 
  termoclina ( ) 
- termoclinas ( ) lemma=termoclina 
+ termoclinas ( ) 
  termodilución ( ) 
  termodinámica ( ) 
- termodinámicos ( ) lemma=termodinámico 
- termodinámico ( ) 
- termoeléctricas ( ) lemma=termoeléctrico 
- termoeléctrico ( ) 
+ termodinámicos ( ) 
+ termoeléctricas ( ) 
  termoestable ( ) 
  termografía ( ) 
- termohalina ( ) lemma=termohalino 
- termohalino ( ) 
+ termohalina ( ) 
  termolábil ( ) 
  termorresistente ( ) 
- termosensibles ( ) lemma=termosensible 
- termosensible ( ) 
+ termosensibles ( ) 
  termosifón ( ) 
  termostato ( ) 
- termostatos ( ) lemma=termostato 
+ termostatos ( ) 
  termostático ( ) 
  termómetro ( ) 
- termómetros ( ) lemma=termómetro 
- ternaria ( ) lemma=ternario 
+ termómetros ( ) 
+ ternaria ( ) 
+ ternarias ( ) 
  ternario ( ) 
- ternarias ( ) lemma=ternario 
- ternarios ( ) lemma=ternario 
- ternera ( ) lemma=ternero 
+ ternarios ( ) 
+ ternera ( ) 
+ terneras ( ) 
  ternero ( ) 
- terneras ( ) lemma=ternero 
- terneros ( ) lemma=ternero 
+ terneros ( ) 
  ternura ( ) 
- ternuras ( ) lemma=ternura 
- terracita ( ) lemma=terraza 
- terraza ( ) 
+ ternuras ( ) 
+ terracita ( ) 
  terraplenado ( ) 
  terraplén ( ) 
  terrateniente ( ) 
- terratenientes ( ) lemma=terrateniente 
- terrazas ( ) lemma=terraza 
+ terratenientes ( ) 
+ terraza ( ) 
+ terrazas ( ) 
  terre ( ) 
  terremoto ( ) 
- terremotos ( ) lemma=terremoto 
- terrena ( ) lemma=terreno 
- terreno ( ) 
+ terremotos ( ) 
+ terrena ( ) 
  terrenal ( ) 
- terrenales ( ) lemma=terrenal 
- terrenas ( ) lemma=terreno 
+ terrenales ( ) 
+ terrenas ( ) 
  terrenazo ( ) 
- terrenos ( ) lemma=terreno 
+ terreno ( ) 
+ terrenos ( ) 
  terrestre ( ) 
- terrestres ( ) lemma=terrestre 
+ terrestres ( ) 
  terrible ( ) 
- terriblemente ( ) lemma=terrible 
- terribles ( ) lemma=terrible 
+ terriblemente ( ) 
+ terribles ( ) 
  territorial ( ) 
- territoriales ( ) lemma=territorial 
- territorialmente ( ) lemma=territorial 
+ territoriales ( ) 
+ territorialmente ( ) 
  territorio ( ) 
- territorios ( ) lemma=territorio 
+ territorios ( ) 
  terrizo ( ) 
  terror ( ) 
- terrores ( ) lemma=terror 
+ terrores ( ) 
  terrorismo ( ) 
- terrorismos ( ) lemma=terrorismo 
+ terrorismos ( ) 
  terrorista ( ) 
- terroristas ( ) lemma=terrorista 
- terrorífica ( ) lemma=terrorífico 
+ terroristas ( ) 
+ terrorífica ( ) 
+ terroríficas ( ) 
  terrorífico ( ) 
- terroríficas ( ) lemma=terrorífico 
- terroríficos ( ) lemma=terrorífico 
- tersa ( ) lemma=terso 
- terso ( ) 
+ terroríficos ( ) 
+ tersa ( ) 
  tertiaire ( ) 
  tertiary ( ) 
  tertulia ( ) 
- tertulias ( ) lemma=tertulia 
+ tertulias ( ) 
  terén ( ) 
- tes ( ) lemma=ter 
+ tes ( ) 
  tesis ( ) 
- tesorera ( ) lemma=tesorero 
+ tesorera ( ) 
  tesorero ( ) 
- tesoreros ( ) lemma=tesorero 
+ tesoreros ( ) 
  tesorería ( ) 
- tesorerías ( ) lemma=tesorería 
- tesorito ( ) lemma=tesoro 
+ tesorerías ( ) 
+ tesorito ( ) 
  tesoro ( ) 
- tesoros ( ) lemma=tesoro 
- test ( ) 
- testado ( ) lemma=testar 
- testar ( ) 
+ tesoros ( ) 
+ test ( ) lemma=atestar 
+ testado ( ) lemma=atestar 
  testador ( ) 
- testados ( ) lemma=testar 
- testamentaria ( ) lemma=testamentario 
- testamentario ( ) 
- testamentarias ( ) lemma=testamentario 
- testamentarios ( ) lemma=testamentario 
+ testados ( ) 
+ testamentaria ( ) 
+ testamentarias ( ) 
+ testamentarios ( ) 
  testamento ( ) 
- testamentos ( ) lemma=testamento 
- teste ( ) lemma=testar 
+ testamentos ( ) 
+ testar ( ) 
+ teste ( ) 
  testear ( ) 
  tested ( ) 
- testiculos ( ) lemma=testículos 
- testículos ( ) lemma=testículo 
+ testiculos ( ) 
  testifical ( ) 
  testificar ( ) 
- testificara ( ) lemma=testificar 
- testificaran ( ) lemma=testificar 
- testificaron ( ) lemma=testificar 
- testificase ( ) lemma=testificar 
- testificó ( ) lemma=testificar 
- testifique ( ) lemma=testificar 
+ testificara ( ) 
+ testificaran ( ) 
+ testificaron ( ) 
+ testificase ( ) 
+ testificó ( ) 
+ testifique ( ) 
  testigo ( ) 
- testigos ( ) lemma=testigo 
- testimonia ( ) lemma=testimoniar 
+ testigos ( ) 
+ testimonia ( ) 
+ testimoniadas ( ) 
+ testimonian ( ) 
  testimoniar ( ) 
- testimoniadas ( ) lemma=testimoniar 
- testimonian ( ) lemma=testimoniar 
  testimonio ( ) 
- testimonios ( ) lemma=testimonio 
- testimonió ( ) lemma=testimoniar 
+ testimonios ( ) 
+ testimonió ( ) 
  testing ( ) 
  testosterona ( ) 
- tests ( ) lemma=test 
+ tests ( ) 
  testículo ( ) 
+ testículos ( ) 
  tesón ( ) 
  teta ( ) 
  tetania ( ) 
  tetanización ( ) 
- tetas ( ) lemma=teta 
+ tetas ( ) 
  tete ( ) 
- tetilla ( ) lemma=teta 
+ tetilla ( ) 
  tetraciclina ( ) 
- tetraciclinas ( ) lemma=tetraciclina 
+ tetraciclinas ( ) 
  tetrahidrofolato ( ) 
  tetrahidropteroilglutamato ( ) 
  tetralogía ( ) 
  tetrapeptídico ( ) 
  tetrapléjico ( ) 
- tetrapléjicos ( ) lemma=tetrapléjico 
+ tetrapléjicos ( ) 
  tetrasacárido ( ) 
  tetravalente ( ) 
- tetraédrica ( ) lemma=tetraédrico 
+ tetraédrica ( ) 
  tetraédrico ( ) 
  tetraéter ( ) 
  tetrámero ( ) 
- tetrápodos ( ) lemma=tetrápodo 
- tetrápodo ( ) 
- tetánica ( ) lemma=tetánico 
+ tetrápodos ( ) 
+ tetánica ( ) 
  tetánico ( ) 
- texana ( ) lemma=texano 
+ texana ( ) 
+ texanas ( ) 
  texano ( ) 
- texanas ( ) lemma=texano 
- texanos ( ) lemma=texano 
+ texanos ( ) 
  text ( ) 
  texte ( ) 
  textil ( ) 
- textiles ( ) lemma=textil 
+ textiles ( ) 
  texto ( ) 
- textos ( ) lemma=texto 
+ textos ( ) 
  textual ( ) 
- textuales ( ) lemma=textual 
- textualmente ( ) lemma=textual 
+ textuales ( ) 
+ textualmente ( ) 
  textura ( ) 
  tez ( ) 
- teñida ( ) lemma=teñir 
+ teñida ( ) 
+ teñidas ( ) 
+ teñido ( ) 
+ teñidos ( ) 
  teñir ( ) 
- teñidas ( ) lemma=teñir 
- teñido ( ) lemma=teñir 
- teñidos ( ) lemma=teñir 
- teñirte ( ) lemma=teñir 
- teñían ( ) lemma=teñir 
+ teñirte ( ) 
+ teñían ( ) 
  teólogo ( ) 
- teólogos ( ) lemma=teólogo 
- teórica ( ) lemma=teórico 
+ teólogos ( ) 
+ teórica ( ) 
+ teóricamente ( ) 
+ teóricas ( ) 
  teórico ( ) 
- teóricamente ( ) lemma=teórico 
- teóricas ( ) lemma=teórico 
- teóricos ( ) lemma=teórico 
- the ( ) 
+ teóricos ( ) 
+ the ( ) lemma=other 
  theile ( ) 
  theoretical ( ) 
  thesaurus ( ) 
@@ -1528,118 +1465,108 @@
  through ( ) 
  thyroxine ( ) 
  théorique ( ) 
- ti ( ) lemma=tú 
+ ti ( ) 
  tiamina ( ) 
- tibetana ( ) lemma=tibetano 
+ tibetana ( ) 
+ tibetanas ( ) 
  tibetano ( ) 
- tibetanas ( ) lemma=tibetano 
- tibetanos ( ) lemma=tibetano 
- tibia ( ) lemma=tibio 
- tibio ( ) 
+ tibetanos ( ) 
+ tibia ( ) 
  tibial ( ) 
- tibiamente ( ) lemma=tibio 
- tibias ( ) lemma=tibio 
- tibios ( ) lemma=tibio 
- tiburones ( ) lemma=tiburón 
+ tibiamente ( ) 
+ tibias ( ) 
+ tibio ( ) 
+ tibios ( ) 
+ tiburones ( ) 
  tiburón ( ) 
  tic ( ) 
- ticas ( ) lemma=tico 
- tico ( ) 
+ ticas ( ) 
  ticket ( ) 
- ticos ( ) lemma=tico 
- tics ( ) lemma=tic 
- tiembla ( ) lemma=temblar 
+ tico ( ) 
+ ticos ( ) 
+ tics ( ) 
+ tiembla ( ) 
  tiempo ( ) 
  tiempo-respuesta ( ) 
- tiempos ( ) lemma=tiempo 
- tienda ( ) 
- tiendan ( ) lemma=tender 
- tiendas ( ) lemma=tienda 
- tiende ( ) lemma=tender 
- tiendecitas ( ) lemma=tienda 
- tienden ( ) lemma=tender 
- tiendo ( ) lemma=tender 
- tiene ( ) lemma=tener 
- tiene_que ( ) lemma=tener~que 
- tienen ( ) lemma=tener 
- tienen_que ( ) lemma=tener~que 
- tienes ( ) lemma=tener 
- tienta ( ) lemma=tentar 
- tientas ( ) lemma=tentar 
- tiento ( ) lemma=tentar 
- tiera ( ) lemma=ter 
- tierna ( ) lemma=tierno 
+ tiempos ( ) 
+ tienda ( ) lemma=atender 
+ tiendan ( ) 
+ tiendas ( ) 
+ tiende ( ) lemma=atender 
+ tiendecitas ( ) 
+ tienden ( ) 
+ tiendo ( ) 
+ tiene ( ) lemma=atener 
+ tienen ( ) 
+ tienes ( ) 
+ tienta ( ) 
+ tientas ( ) 
+ tiento ( ) 
+ tiera ( ) 
+ tierna ( ) 
+ tiernas ( ) 
+ tiernitos ( ) 
  tierno ( ) 
- tiernas ( ) lemma=tierno 
- tiernitos ( ) lemma=tierno 
- tiernos ( ) lemma=tierno 
+ tiernos ( ) 
  tierra ( ) 
- tierras ( ) lemma=tierra 
- tiesas ( ) lemma=tieso 
- tieso ( ) 
+ tierras ( ) 
+ tiesas ( ) 
  tiesto ( ) 
- tiestos ( ) lemma=tiesto 
+ tiestos ( ) 
  tifoideo ( ) 
- tifones ( ) lemma=tifón 
- tifón ( ) 
+ tifones ( ) 
  tifoídico ( ) 
  tifus ( ) 
+ tifón ( ) 
  tigre ( ) 
- tigres ( ) lemma=tigre 
+ tigres ( ) 
  tijera ( ) 
- tijeras ( ) lemma=tijera 
- tilda ( ) lemma=tildar 
+ tijeras ( ) 
+ tilda ( ) 
+ tildada ( ) 
+ tildan ( ) 
  tildar ( ) 
- tildada ( ) lemma=tildar 
- tildan ( ) lemma=tildar 
- tildaron ( ) lemma=tildar 
+ tildaron ( ) 
  tilde ( ) 
- tildó ( ) lemma=tildar 
- timado ( ) lemma=timar 
- timar ( ) 
- timados ( ) lemma=timar 
- timbrado ( ) lemma=timbrar 
- timbrar ( ) 
+ tildó ( ) 
+ timado ( ) 
+ timados ( ) 
+ timbrado ( ) 
  timbradora ( ) 
- timbrados ( ) lemma=timbrar 
+ timbrados ( ) 
  timbre ( ) 
- timbres ( ) lemma=timbre 
+ timbres ( ) 
  time ( ) 
  time-stamp ( ) 
- times ( ) lemma=timar 
- timideces ( ) lemma=timidez 
+ times ( ) 
+ timideces ( ) 
  timidez ( ) 
  timidina ( ) 
- timidito ( ) lemma=tímido 
- tímido ( ) 
- timidísima ( ) lemma=tímido 
+ timidito ( ) 
+ timidísima ( ) 
  timing ( ) 
- timo ( ) lemma=timar 
- timocitos ( ) lemma=timocito 
- timocito ( ) 
+ timo ( ) 
+ timocitos ( ) 
  timonel ( ) 
  timopático ( ) 
- timos ( ) lemma=ter 
- timpánica ( ) lemma=timpánico 
+ timos ( ) 
+ timpánica ( ) 
  timpánico ( ) 
  timón ( ) 
- tinciones ( ) lemma=tinción 
+ tinciones ( ) 
  tinción ( ) 
- tinerfeña ( ) lemma=tinerfeño 
- tinerfeño ( ) 
+ tinerfeña ( ) 
  tinglado ( ) 
- tinieblas ( ) lemma=tiniebla 
- tiniebla ( ) 
+ tinieblas ( ) 
  tino ( ) 
- tinta ( ) lemma=tinto 
- tinto ( ) 
- tintas ( ) lemma=tinto 
- tinte ( ) lemma=tintar 
- tintar ( ) 
+ tinta ( ) 
+ tintas ( ) 
+ tinte ( ) 
  tintero ( ) 
- tinteros ( ) lemma=tintero 
- tintes ( ) lemma=tintar 
- tintos ( ) lemma=tinto 
+ tinteros ( ) 
+ tintes ( ) 
+ tinto ( ) 
+ tintos ( ) 
  tintura ( ) 
  tioconazol ( ) 
  tioglicolato ( ) 
@@ -1649,1107 +1576,1072 @@
  tiosulfato ( ) 
  tiourea ( ) 
  tipicidad ( ) 
- tipifica ( ) lemma=tipificar 
- tipificar ( ) 
+ tipifica ( ) 
  tipificación ( ) 
- tipificada ( ) lemma=tipificar 
- tipificadas ( ) lemma=tipificar 
- tipificado ( ) lemma=tipificar 
- tipificados ( ) lemma=tipificar 
- tipifican ( ) lemma=tipificar 
- tipifique ( ) lemma=tipificar 
- tipifiquen ( ) lemma=tipificar 
+ tipificada ( ) 
+ tipificadas ( ) 
+ tipificado ( ) 
+ tipificados ( ) 
+ tipifican ( ) 
+ tipificar ( ) 
+ tipifique ( ) 
+ tipifiquen ( ) 
  tipo ( ) 
  tipo-de-pieza ( ) 
- tipográfica ( ) lemma=tipográfico 
+ tipográfica ( ) 
+ tipográficas ( ) 
  tipográfico ( ) 
- tipográficas ( ) lemma=tipográfico 
- tipográficos ( ) lemma=tipográfico 
+ tipográficos ( ) 
  tipología ( ) 
- tipologías ( ) lemma=tipología 
- tipos ( ) lemma=tipo 
- tiquete ( ) 
- tira ( ) lemma=tirar 
- tirar ( ) 
- tiraba ( ) lemma=tirar 
- tiraban ( ) lemma=tirar 
- tirabas ( ) lemma=tirar 
- tirada ( ) lemma=tirar 
- tiradas ( ) lemma=tirar 
+ tipologías ( ) 
+ tipos ( ) 
+ tiquete ( ) lemma=etiquetar 
+ tira ( ) 
+ tiraba ( ) 
+ tiraban ( ) 
+ tirabas ( ) 
+ tirada ( ) 
+ tiradas ( ) 
  tiradero ( ) 
- tiraderos ( ) lemma=tiradero 
+ tiraderos ( ) 
  tirado ( ) 
  tirador ( ) 
- tiradores ( ) lemma=tirador 
- tirados ( ) lemma=tirar 
- tiramos ( ) lemma=tirar 
- tiran ( ) lemma=tirar 
- tiranas ( ) lemma=tirano 
+ tiradores ( ) 
+ tirados ( ) 
+ tiramos ( ) 
+ tiran ( ) 
+ tiranas ( ) 
+ tirando ( ) 
  tirano ( ) 
- tirando ( ) lemma=tirar 
- tiranos ( ) lemma=tirano 
+ tiranos ( ) 
  tirante ( ) 
- tiranteces ( ) lemma=tirantez 
- tirantez ( ) 
- tirantes ( ) lemma=tirante 
+ tiranteces ( ) 
+ tirantes ( ) 
  tiranía ( ) 
- tiranías ( ) lemma=tiranía 
- tirara ( ) lemma=tirar 
- tiraran ( ) lemma=tirar 
- tirarle ( ) lemma=tirar 
- tirarlo ( ) lemma=tirar 
- tirarme ( ) lemma=tirar 
- tiraron ( ) lemma=tirar 
+ tiranías ( ) 
+ tirar ( ) 
+ tirara ( ) 
+ tiraran ( ) 
+ tirarle ( ) 
+ tirarlo ( ) 
+ tirarme ( ) 
+ tiraron ( ) 
  tirarse ( ) 
- tirará ( ) lemma=tirar 
- tirarán ( ) lemma=tirar 
- tiraré ( ) lemma=tirar 
- tiraría ( ) lemma=tirar 
- tiras ( ) lemma=tirar 
- tirase ( ) lemma=tirar 
- tire ( ) lemma=tirar 
- tiremos ( ) lemma=tirar 
- tiren ( ) lemma=tirar 
- tires ( ) lemma=tirar 
- tirita ( ) lemma=tiritar 
- tiritar ( ) 
- tiritas ( ) lemma=tiritar 
- tirito ( ) lemma=tiro 
+ tirará ( ) 
+ tirarán ( ) 
+ tiraré ( ) 
+ tiraría ( ) 
+ tiras ( ) 
+ tirase ( ) 
+ tire ( ) 
+ tiremos ( ) 
+ tiren ( ) 
+ tires ( ) 
+ tirita ( ) 
+ tiritas ( ) 
+ tirito ( ) 
  tiro ( ) 
  tiroglobulina ( ) 
  tirogloso ( ) 
- tiroidea ( ) lemma=tiroideo 
+ tiroidea ( ) 
+ tiroideas ( ) 
  tiroideo ( ) 
- tiroideas ( ) lemma=tiroideo 
- tiroideos ( ) lemma=tiroideo 
+ tiroideos ( ) 
  tiroides ( ) 
  tiroiditis ( ) 
- tirones ( ) lemma=tirón 
- tirón ( ) 
- tiros ( ) lemma=tiro 
+ tirones ( ) 
+ tiros ( ) 
  tirosilo ( ) 
  tirosina ( ) 
  tirosina-kinasa ( ) 
  tirosinaquinasa ( ) 
  tirosinquinasa ( ) 
- tiroteadas ( ) lemma=tirotear 
- tirotear ( ) 
- tiroteado ( ) lemma=tirotear 
- tiroteados ( ) lemma=tirotear 
- tirotean ( ) lemma=tirotear 
- tirotearon ( ) lemma=tirotear 
+ tiroteadas ( ) 
+ tiroteado ( ) 
+ tiroteados ( ) 
+ tirotean ( ) 
+ tirotearon ( ) 
  tiroteo ( ) 
- tiroteos ( ) lemma=tiroteo 
+ tiroteos ( ) 
  tirotoxicosis ( ) 
  tirotrofino ( ) 
  tirotropina ( ) 
  tirotrópico ( ) 
  tirotóxico ( ) 
  tiroxina ( ) 
- tirándolos ( ) lemma=tirar 
- tirárnoslo ( ) lemma=tirar 
- tirárselos ( ) lemma=tirarse 
- tiré ( ) lemma=tirar 
- tiró ( ) lemma=tirar 
+ tirándolos ( ) 
+ tirárnoslo ( ) 
+ tirárselos ( ) 
+ tiré ( ) 
+ tiró ( ) 
+ tirón ( ) 
  tisular ( ) 
- tisulares ( ) lemma=tisular 
+ tisulares ( ) 
  titanio ( ) 
- titi ( ) 
+ titi ( ) lemma=otitis 
  titilación ( ) 
  titre ( ) 
- titubeos ( ) lemma=titubeo 
- titubeo ( ) 
- titula ( ) lemma=titular 
- titular ( ) 
- titulaba ( ) lemma=titular 
- titulaciones ( ) lemma=titulación 
+ titubeos ( ) 
+ titula ( ) 
+ titulaba ( ) 
+ titulaciones ( ) 
  titulación ( ) 
- titulada ( ) lemma=titular 
- tituladas ( ) lemma=titulado 
+ titulada ( ) 
+ tituladas ( ) 
  titulado ( ) 
- titulados ( ) lemma=titulado 
- titulares ( ) lemma=titular 
+ titulados ( ) 
+ titular ( ) 
+ titulares ( ) 
  titularidad ( ) 
- titularse ( ) lemma=titular 
- titulará ( ) lemma=titular 
- titularía ( ) lemma=titular 
- titulito ( ) lemma=título 
- título ( ) 
- titulo ( ) lemma=título 
- tituló ( ) lemma=titular 
+ titularse ( ) 
+ titulará ( ) 
+ titularía ( ) 
+ titulito ( ) 
+ titulo ( ) 
+ tituló ( ) 
  titán ( ) 
- tiza ( ) 
- tiznas ( ) lemma=tiznar 
- tiznar ( ) 
- tiñas ( ) lemma=tiña 
- tiña ( ) 
- tiñe ( ) lemma=teñir 
- tiñen ( ) lemma=teñir 
- tiñeron ( ) lemma=teñir 
- to ( ) 
+ tiza ( ) lemma=atizar 
+ tiznas ( ) 
+ tiñas ( ) 
+ tiñe ( ) 
+ tiñen ( ) 
+ tiñeron ( ) 
+ to ( ) lemma=stop 
  toalla ( ) 
- toallas ( ) lemma=toalla 
- toallitas ( ) lemma=toalla 
+ toallas ( ) 
+ toallitas ( ) 
  tobillo ( ) 
- tobillos ( ) lemma=tobillo 
+ tobillos ( ) 
  tobogán ( ) 
  toca ( ) 
- tocaba ( ) lemma=tocar 
- tocar ( ) 
- tocaban ( ) lemma=tocar 
- tocada ( ) lemma=tocar 
- tocadas ( ) lemma=tocar 
- tocadiscos ( ) lemma=tocadisco 
- tocadisco ( ) 
+ tocaba ( ) 
+ tocaban ( ) 
+ tocada ( ) 
+ tocadas ( ) 
+ tocadiscos ( ) 
  tocado ( ) 
  tocador ( ) 
- tocados ( ) lemma=tocado 
- tocala ( ) lemma=tocar 
- tocamientos ( ) lemma=tocamiento 
- tocamiento ( ) 
- tocamos ( ) lemma=tocar 
- tocan ( ) lemma=tocar 
- tocando ( ) lemma=tocar 
+ tocados ( ) 
+ tocala ( ) 
+ tocamientos ( ) 
+ tocamos ( ) 
+ tocan ( ) 
+ tocando ( ) 
  tocante ( ) 
- tocara ( ) lemma=tocar 
- tocaremos ( ) lemma=tocar 
- tocarle ( ) lemma=tocar 
- tocarles ( ) lemma=tocar 
- tocarlo ( ) lemma=tocar 
- tocarlos ( ) lemma=tocar 
- tocaron ( ) lemma=tocar 
+ tocar ( ) 
+ tocara ( ) 
+ tocaremos ( ) 
+ tocarle ( ) 
+ tocarles ( ) 
+ tocarlo ( ) 
+ tocarlos ( ) 
+ tocaron ( ) 
  tocarse ( ) 
- tocarte ( ) lemma=tocar 
- tocará ( ) lemma=tocar 
- tocarán ( ) lemma=tocar 
- tocaré ( ) lemma=tocar 
- tocaría ( ) lemma=tocar 
- tocas ( ) lemma=toca 
- tocase ( ) lemma=tocar 
- tocaseis ( ) lemma=tocar 
- tocasen ( ) lemma=tocar 
+ tocarte ( ) 
+ tocará ( ) 
+ tocarán ( ) 
+ tocaré ( ) 
+ tocaría ( ) 
+ tocas ( ) 
+ tocase ( ) 
+ tocaseis ( ) 
+ tocasen ( ) 
  tocaya ( ) 
- tocinito ( ) lemma=tocino 
+ tocinito ( ) 
  tocino ( ) 
- toco ( ) lemma=tocar 
- tocá ( ) lemma=tocar 
- tocábamos ( ) lemma=tocar 
- tocáis ( ) lemma=tocar 
- tocándonos ( ) lemma=tocar 
- tocándose ( ) lemma=tocar 
- tocó ( ) lemma=tocar 
- toda ( ) lemma=todo 
- todo ( ) 
- todas ( ) lemma=todo 
+ toco ( ) 
+ tocá ( ) 
+ tocábamos ( ) 
+ tocáis ( ) 
+ tocándonos ( ) 
+ tocándose ( ) 
+ tocó ( ) 
+ toda ( ) 
+ todas ( ) 
  todavía ( ) 
- todita ( ) lemma=todo 
- todititos ( ) lemma=todos 
- todos ( ) lemma=todo 
- todito ( ) lemma=todo 
- toditos ( ) lemma=todo 
+ todita ( ) 
+ todititos ( ) 
+ todito ( ) 
+ toditos ( ) 
+ todo ( ) 
+ todos ( ) 
  todoterreno ( ) 
  token ( ) 
  tolbutamir ( ) 
  told ( ) 
  toldo ( ) 
- toldos ( ) lemma=toldo 
+ toldos ( ) 
  toledano ( ) 
- tolera ( ) lemma=tolerar 
- tolerar ( ) 
- toleraba ( ) lemma=tolerar 
+ tolera ( ) 
+ toleraba ( ) 
  tolerabilidad ( ) 
  tolerable ( ) 
- tolerables ( ) lemma=tolerable 
- tolerada ( ) lemma=tolerar 
- toleradas ( ) lemma=tolerar 
- tolerado ( ) lemma=tolerar 
- tolerados ( ) lemma=tolerar 
- toleramos ( ) lemma=tolerar 
- toleran ( ) lemma=tolerar 
+ tolerables ( ) 
+ tolerada ( ) 
+ toleradas ( ) 
+ tolerado ( ) 
+ tolerados ( ) 
+ toleramos ( ) 
+ toleran ( ) 
  tolerancia ( ) 
- tolerancias ( ) lemma=tolerancia 
- tolerando ( ) lemma=tolerar 
+ tolerancias ( ) 
+ tolerando ( ) 
  tolerante ( ) 
- tolerantes ( ) lemma=tolerante 
- toleraremos ( ) lemma=tolerar 
- tolerarlas ( ) lemma=tolerar 
- tolerarlo ( ) lemma=tolerar 
- tolerarnos ( ) lemma=tolerar 
+ tolerantes ( ) 
+ tolerar ( ) 
+ toleraremos ( ) 
+ tolerarlas ( ) 
+ tolerarlo ( ) 
+ tolerarnos ( ) 
  tolerarse ( ) 
- tolerará ( ) lemma=tolerar 
- toleraré ( ) lemma=tolerar 
- toleraría ( ) lemma=tolerar 
- tolerase ( ) lemma=tolerar 
- tolere ( ) lemma=tolerar 
- toleremos ( ) lemma=tolerar 
- toleren ( ) lemma=tolerar 
- tolero ( ) lemma=tolerar 
- tolerábamos ( ) lemma=tolerar 
- tolerándolos ( ) lemma=tolerar 
- tolerándose ( ) lemma=tolerarse 
- toleró ( ) lemma=tolerar 
+ tolerará ( ) 
+ toleraré ( ) 
+ toleraría ( ) 
+ tolerase ( ) 
+ tolere ( ) 
+ toleremos ( ) 
+ toleren ( ) 
+ tolero ( ) 
+ tolerábamos ( ) 
+ tolerándolos ( ) 
+ tolerándose ( ) 
+ toleró ( ) 
  tolva ( ) 
  tolículo ( ) 
  toma ( ) 
- tomaba ( ) lemma=tomar 
- tomar ( ) 
- tomaban ( ) lemma=tomar 
- tomabas ( ) lemma=tomar 
- tomada ( ) lemma=tomar 
- tomadas ( ) lemma=tomar 
+ tomaba ( ) 
+ tomaban ( ) 
+ tomabas ( ) 
+ tomada ( ) 
+ tomadas ( ) 
  tomado ( ) 
  tomador ( ) 
- tomados ( ) lemma=tomar 
- tomamos ( ) lemma=tomar 
- toman ( ) lemma=tomar 
- tomando ( ) lemma=tomar 
- tomara ( ) lemma=tomar 
- tomaran ( ) lemma=tomar 
- tomaremos ( ) lemma=tomar 
- tomaren ( ) lemma=tomar 
- tomarla ( ) lemma=tomar 
- tomarle ( ) lemma=tomar 
- tomarles ( ) lemma=tomar 
- tomarlo ( ) lemma=tomar 
- tomarme ( ) lemma=tomar 
- tomarnos ( ) lemma=tomar 
- tomaron ( ) lemma=tomar 
- tomaros ( ) lemma=tomar 
+ tomados ( ) 
+ tomamos ( ) 
+ toman ( ) 
+ tomando ( ) 
+ tomar ( ) 
+ tomara ( ) 
+ tomaran ( ) 
+ tomaremos ( ) 
+ tomaren ( ) 
+ tomarla ( ) 
+ tomarle ( ) 
+ tomarles ( ) 
+ tomarlo ( ) 
+ tomarme ( ) 
+ tomarnos ( ) 
+ tomaron ( ) 
+ tomaros ( ) 
  tomarse ( ) 
- tomarte ( ) lemma=tomar 
- tomará ( ) lemma=tomar 
- tomarán ( ) lemma=tomar 
- tomaré ( ) lemma=tomar 
- tomaría ( ) lemma=tomar 
- tomaríamos ( ) lemma=tomar 
- tomarían ( ) lemma=tomar 
- tomarías ( ) lemma=tomar 
- tomas ( ) lemma=toma 
- tomase ( ) lemma=tomar 
- tomaseis ( ) lemma=tomar 
- tomasen ( ) lemma=tomar 
- tomasteis ( ) lemma=tomar 
+ tomarte ( ) 
+ tomará ( ) 
+ tomarán ( ) 
+ tomaré ( ) 
+ tomaría ( ) 
+ tomaríamos ( ) 
+ tomarían ( ) 
+ tomarías ( ) 
+ tomas ( ) 
+ tomase ( ) 
+ tomaseis ( ) 
+ tomasen ( ) 
+ tomasteis ( ) 
  tomate ( ) 
- tomates ( ) lemma=tomate 
- tombolita ( ) lemma=tómbola 
- tómbola ( ) 
- tome ( ) lemma=tomar 
- tomemos ( ) lemma=tomar 
- tomen ( ) lemma=tomar 
- tomes ( ) lemma=tomar 
+ tomates ( ) 
+ tombolita ( ) 
+ tome ( ) 
+ tomemos ( ) 
+ tomen ( ) 
+ tomes ( ) 
  tomillo ( ) 
- tomillos ( ) lemma=tomillo 
- tomito ( ) lemma=tomo 
+ tomillos ( ) 
+ tomito ( ) 
  tomo ( ) 
  tomografía ( ) 
- tomografías ( ) lemma=tomografía 
+ tomografías ( ) 
  tomográfico ( ) 
- tomos ( ) lemma=tomo 
- tomá ( ) lemma=tomar 
- tomábamos ( ) lemma=tomar 
- tomáis ( ) lemma=tomar 
- tomándola ( ) lemma=tomar 
+ tomos ( ) 
+ tomá ( ) 
+ tomábamos ( ) 
+ tomáis ( ) 
+ tomándola ( ) 
  tomándolas ( ) 
- tomándolos ( ) lemma=tomar 
- tomándonos ( ) lemma=tomar 
- tomándose ( ) lemma=tomarse 
- tomáramos ( ) lemma=tomar 
- tomárselas ( ) lemma=tomarse 
- tomárselo ( ) lemma=tomar 
- tomártelo ( ) lemma=tomar 
- tomás ( ) lemma=tomar 
- tomásemos ( ) lemma=tomar 
- tomé ( ) lemma=tomar 
- tomó ( ) lemma=tomar 
+ tomándolos ( ) 
+ tomándonos ( ) 
+ tomándose ( ) 
+ tomáramos ( ) 
+ tomárselas ( ) 
+ tomárselo ( ) 
+ tomártelo ( ) 
+ tomás ( ) 
+ tomásemos ( ) 
+ tomé ( ) 
+ tomó ( ) 
  ton ( ) 
- tonada ( ) lemma=tonar 
- tonar ( ) 
+ tonada ( ) 
  tonal ( ) 
  tonalidad ( ) 
- tonalidades ( ) lemma=tonalidad 
+ tonalidades ( ) 
  tonalité ( ) 
  tone ( ) 
  tonelada ( ) 
- toneladas ( ) lemma=tonelada 
+ toneladas ( ) 
  tonicidad ( ) 
  tonicoclónico ( ) 
- tonillo ( ) lemma=tono 
+ tonillo ( ) 
  tono ( ) 
- tonos ( ) lemma=tono 
- tonta ( ) lemma=tonto 
- tonto ( ) 
- tontamente ( ) lemma=tonto 
- tontas ( ) lemma=tonto 
- tontea ( ) lemma=tontear 
- tontear ( ) 
- tonteando ( ) lemma=tontear 
+ tonos ( ) 
+ tonta ( ) 
+ tontamente ( ) 
+ tontas ( ) 
+ tontea ( ) 
+ tonteando ( ) 
  tontera ( ) 
- tonteras ( ) lemma=tontera 
+ tonteras ( ) 
  tontería ( ) 
- tonterías ( ) lemma=tontería 
- tontita ( ) lemma=tonto 
- tontito ( ) lemma=tonto 
- tontos ( ) lemma=tonto 
- too ( ) lemma=toar 
- toar ( ) 
+ tonterías ( ) 
+ tontita ( ) 
+ tontito ( ) 
+ tonto ( ) 
+ tontos ( ) 
+ too ( ) 
  top ( ) 
- topa ( ) lemma=topar 
+ topa ( ) 
+ topado ( ) 
+ topamos ( ) 
+ topan ( ) 
+ topando ( ) 
  topar ( ) 
- topado ( ) lemma=topar 
- topamos ( ) lemma=topar 
- topan ( ) lemma=topar 
- topando ( ) lemma=topar 
- topara ( ) lemma=topar 
- toparemos ( ) lemma=topar 
- toparon ( ) lemma=topar 
+ topara ( ) 
+ toparemos ( ) 
+ toparon ( ) 
  toparse ( ) 
- topará ( ) lemma=topar 
- toparía ( ) lemma=topar 
- tope ( ) lemma=topar 
- topemos ( ) lemma=topar 
- toperas ( ) lemma=topera 
- topera ( ) 
- topes ( ) lemma=topar 
+ topará ( ) 
+ toparía ( ) 
+ tope ( ) 
+ topemos ( ) 
+ toperas ( ) 
+ topes ( ) 
  topo ( ) 
  topografía ( ) 
- topográfica ( ) lemma=topográfico 
+ topográfica ( ) 
+ topográficas ( ) 
  topográfico ( ) 
- topográficas ( ) lemma=topográfico 
  topogénico ( ) 
  topoisomerasa ( ) 
  topología ( ) 
- topologías ( ) lemma=topología 
+ topologías ( ) 
  topológicamente ( ) 
  topológico ( ) 
- topos ( ) lemma=topo 
- topé ( ) lemma=topar 
- topó ( ) lemma=topar 
- topónimos ( ) lemma=topónimo 
- topónimo ( ) 
+ topos ( ) 
+ topé ( ) 
+ topó ( ) 
+ topónimos ( ) 
  toque ( ) 
- toquecito ( ) lemma=toque 
- toquen ( ) lemma=tocar 
- toques ( ) lemma=tocar 
- toqué ( ) lemma=tocar 
+ toquecito ( ) 
+ toquen ( ) 
+ toques ( ) 
+ toqué ( ) 
  toracocentesis ( ) 
  toracotomía ( ) 
  torax ( ) 
  torbellino ( ) 
- torbellinos ( ) lemma=torbellino 
+ torbellinos ( ) 
  torcedura ( ) 
- torceduras ( ) lemma=torcedura 
+ torceduras ( ) 
  torcer ( ) 
- torcida ( ) lemma=torcer 
- torcidas ( ) lemma=torcer 
- torcido ( ) lemma=torcer 
- torcidos ( ) lemma=torcer 
- torciendo ( ) lemma=torcer 
- torcieron ( ) lemma=torcer 
- torció ( ) lemma=torcer 
- torcí ( ) lemma=torcer 
+ torcida ( ) 
+ torcidas ( ) 
+ torcido ( ) 
+ torcidos ( ) 
+ torciendo ( ) 
+ torcieron ( ) 
+ torció ( ) 
+ torcí ( ) 
  tordo ( ) 
- torea ( ) lemma=torear 
+ torea ( ) 
+ toreaba ( ) 
+ toreaban ( ) 
+ toreadas ( ) 
+ toreado ( ) 
+ torean ( ) 
+ toreando ( ) 
  torear ( ) 
- toreaba ( ) lemma=torear 
- toreaban ( ) lemma=torear 
- toreadas ( ) lemma=torear 
- toreado ( ) lemma=torear 
- torean ( ) lemma=torear 
- toreando ( ) lemma=torear 
- toreo ( ) lemma=torear 
- torerito ( ) lemma=torero 
+ toreo ( ) 
+ torerito ( ) 
  torero ( ) 
- toreros ( ) lemma=torero 
- toreó ( ) lemma=torear 
+ toreros ( ) 
+ toreó ( ) 
  torio ( ) 
- torito ( ) lemma=toro 
- toro ( ) 
- tormenta ( ) 
- tormentas ( ) lemma=tormenta 
+ torito ( ) 
+ tormenta ( ) lemma=atormentar 
+ tormentas ( ) 
  tormento ( ) 
- tormentos ( ) lemma=tormento 
- torna ( ) lemma=tornar 
+ tormentos ( ) 
+ torna ( ) 
+ tornado ( ) 
+ tornados ( ) 
+ tornan ( ) 
+ tornando ( ) 
  tornar ( ) 
- tornado ( ) lemma=tornar 
- tornados ( ) lemma=tornar 
- tornan ( ) lemma=tornar 
- tornando ( ) lemma=tornar 
- tornaran ( ) lemma=tornar 
- tornaron ( ) lemma=tornar 
+ tornaran ( ) 
+ tornaron ( ) 
  tornarse ( ) 
- tornará ( ) lemma=tornar 
- tornaría ( ) lemma=tornar 
- tornas ( ) lemma=tornar 
- torne ( ) lemma=tornar 
+ tornará ( ) 
+ tornaría ( ) 
+ tornas ( ) 
+ torne ( ) 
  torneo ( ) 
- torneos ( ) lemma=torneo 
+ torneos ( ) 
  tornillo ( ) 
- tornillos ( ) lemma=tornillo 
+ tornillos ( ) 
  torniquete ( ) 
  torno ( ) 
- tornándose ( ) lemma=tornar 
- tornó ( ) lemma=tornar 
+ tornándose ( ) 
+ tornó ( ) 
+ toro ( ) 
  toronja ( ) 
- toros ( ) lemma=toro 
+ toros ( ) 
  torpe ( ) 
- torpedeado ( ) lemma=torpedear 
+ torpedeado ( ) 
+ torpedean ( ) 
+ torpedeando ( ) 
  torpedear ( ) 
- torpedean ( ) lemma=torpedear 
- torpedeando ( ) lemma=torpedear 
- torpedeara ( ) lemma=torpedear 
- torpedearíamos ( ) lemma=torpedear 
- torpedeemos ( ) lemma=torpedear 
- torpemente ( ) lemma=torpe 
- torpes ( ) lemma=torpe 
+ torpedeara ( ) 
+ torpedearíamos ( ) 
+ torpedeemos ( ) 
+ torpemente ( ) 
+ torpes ( ) 
  torpeza ( ) 
- torpezas ( ) lemma=torpeza 
+ torpezas ( ) 
  torr ( ) 
- torrado ( ) lemma=torrar 
- torrar ( ) 
+ torrado ( ) 
  torre ( ) 
  torreja ( ) 
- torren ( ) lemma=torrar 
+ torren ( ) 
  torrencial ( ) 
- torrenciales ( ) lemma=torrencial 
- torrencialmente ( ) lemma=torrencial 
+ torrenciales ( ) 
+ torrencialmente ( ) 
  torrente ( ) 
- torrentes ( ) lemma=torrente 
- torres ( ) lemma=torre 
+ torrentes ( ) 
+ torres ( ) 
  torreón ( ) 
  torse ( ) 
  torsión ( ) 
  torso ( ) 
- torsos ( ) lemma=torso 
+ torsos ( ) 
  torta ( ) 
- tortas ( ) lemma=torta 
+ tortas ( ) 
  tortilla ( ) 
- tortillas ( ) lemma=tortilla 
+ tortillas ( ) 
  tortillera ( ) 
- tortillita ( ) lemma=tortilla 
+ tortillita ( ) 
  tortuga ( ) 
- tortugas ( ) lemma=tortuga 
- tortuguita ( ) lemma=tortuga 
- tortuosa ( ) lemma=tortuoso 
+ tortugas ( ) 
+ tortuguita ( ) 
+ tortuosa ( ) 
+ tortuosas ( ) 
  tortuoso ( ) 
- tortuosas ( ) lemma=tortuoso 
- tortuosos ( ) lemma=tortuoso 
+ tortuosos ( ) 
  tortura ( ) 
- torturaban ( ) lemma=torturar 
+ torturaban ( ) 
+ torturada ( ) 
+ torturadas ( ) 
+ torturado ( ) 
+ torturados ( ) 
+ torturan ( ) 
+ torturando ( ) 
  torturar ( ) 
- torturada ( ) lemma=torturar 
- torturadas ( ) lemma=torturar 
- torturado ( ) lemma=torturar 
- torturados ( ) lemma=torturar 
- torturan ( ) lemma=torturar 
- torturando ( ) lemma=torturar 
- torturaron ( ) lemma=torturar 
- torturas ( ) lemma=tortura 
- torture ( ) lemma=torturar 
- tortures ( ) lemma=torturar 
- torturó ( ) lemma=torturar 
- torácica ( ) lemma=torácico 
+ torturaron ( ) 
+ torturas ( ) 
+ torture ( ) 
+ tortures ( ) 
+ torturó ( ) 
+ torácica ( ) 
+ torácicas ( ) 
  torácico ( ) 
- torácicas ( ) lemma=torácico 
- torácicos ( ) lemma=torácico 
+ torácicos ( ) 
  tos ( ) 
- tosan ( ) lemma=toser 
- toser ( ) 
- tosca ( ) lemma=tosco 
- tosco ( ) 
- toscana ( ) lemma=toscano 
+ tosan ( ) 
+ tosca ( ) 
+ toscana ( ) 
  toscano ( ) 
- toscanos ( ) lemma=toscano 
- toscos ( ) lemma=tosco 
+ toscanos ( ) 
+ tosco ( ) 
+ toscos ( ) 
+ toser ( ) 
  tosferina ( ) 
  tosquedad ( ) 
- tostadas ( ) lemma=tostar 
- tostar ( ) 
- tostado ( ) lemma=tostar 
+ tostadas ( ) 
+ tostado ( ) 
  total ( ) 
- totales ( ) lemma=total 
+ totales ( ) 
  totalidad ( ) 
- totalitaria ( ) lemma=totalitario 
+ totalitaria ( ) 
+ totalitarias ( ) 
  totalitario ( ) 
- totalitarias ( ) lemma=totalitario 
- totalitarios ( ) lemma=totalitario 
+ totalitarios ( ) 
  totalitarismo ( ) 
- totaliza ( ) lemma=totalizar 
- totalizar ( ) 
- totalizaba ( ) lemma=totalizar 
- totalizaban ( ) lemma=totalizar 
+ totaliza ( ) 
+ totalizaba ( ) 
+ totalizaban ( ) 
  totalización ( ) 
- totalizadores ( ) lemma=totalizador 
- totalizador ( ) 
- totalizan ( ) lemma=totalizar 
- totalizando ( ) lemma=totalizar 
- totalizaron ( ) lemma=totalizar 
- totalizó ( ) lemma=totalizar 
- totalmente ( ) lemma=total|totalmente 
- total|totalmente ( ) 
+ totalizadores ( ) 
+ totalizan ( ) 
+ totalizando ( ) 
+ totalizar ( ) 
+ totalizaron ( ) 
+ totalizó ( ) 
+ totalmente ( ) 
  tour ( ) 
  tout ( ) 
  toxemia ( ) 
  toxicidad ( ) 
  toxicoalérgico ( ) 
  toxicomanía ( ) 
- toxicómana ( ) lemma=toxicómano 
+ toxicómana ( ) 
  toxicómano ( ) 
- toxicómanos ( ) lemma=toxicómano 
+ toxicómanos ( ) 
  toxina ( ) 
- toxinas ( ) lemma=toxina 
- toxoides ( ) lemma=toxoide 
- toxoide ( ) 
+ toxinas ( ) 
+ toxoides ( ) 
  toxoplasma ( ) 
  toxoplasmosis ( ) 
- tozuda ( ) lemma=tozudo 
+ tozuda ( ) 
+ tozudamente ( ) 
  tozudo ( ) 
- tozudamente ( ) lemma=tozudo 
  tpa ( ) 
- traba ( ) lemma=trabar 
- trabar ( ) 
- trababan ( ) lemma=trabar 
- trabada ( ) lemma=trabar 
- trabadas ( ) lemma=trabar 
- trabado ( ) lemma=trabar 
- trabados ( ) lemma=trabar 
- trabaja ( ) lemma=trabajar 
- trabajar ( ) 
- trabajaba ( ) lemma=trabajar 
- trabajaban ( ) lemma=trabajar 
- trabajabas ( ) lemma=trabajar 
- trabajada ( ) lemma=trabajar 
- trabajadas ( ) lemma=trabajar 
- trabajado ( ) lemma=trabajar 
+ traba ( ) 
+ trababan ( ) 
+ trabada ( ) 
+ trabadas ( ) 
+ trabado ( ) 
+ trabados ( ) 
+ trabaja ( ) 
+ trabajaba ( ) 
+ trabajaban ( ) 
+ trabajabas ( ) 
+ trabajada ( ) 
+ trabajadas ( ) 
+ trabajado ( ) 
  trabajador ( ) 
- trabajadora ( ) lemma=trabajador 
- trabajadoras ( ) lemma=trabajador 
- trabajadores ( ) lemma=trabajador 
- trabajados ( ) lemma=trabajar 
- trabajamos ( ) lemma=trabajar 
- trabajan ( ) lemma=trabajar 
- trabajando ( ) lemma=trabajar 
- trabajara ( ) lemma=trabajar 
- trabajaran ( ) lemma=trabajar 
- trabajaras ( ) lemma=trabajar 
- trabajaremos ( ) lemma=trabajar 
- trabajarla ( ) lemma=trabajar 
- trabajarlo ( ) lemma=trabajar 
- trabajaron ( ) lemma=trabajar 
+ trabajadora ( ) 
+ trabajadoras ( ) 
+ trabajadores ( ) 
+ trabajados ( ) 
+ trabajamos ( ) 
+ trabajan ( ) 
+ trabajando ( ) 
+ trabajar ( ) 
+ trabajara ( ) 
+ trabajaran ( ) 
+ trabajaras ( ) 
+ trabajaremos ( ) 
+ trabajarla ( ) 
+ trabajarlo ( ) 
+ trabajaron ( ) 
  trabajarse ( ) 
- trabajará ( ) lemma=trabajar 
- trabajarán ( ) lemma=trabajar 
- trabajaré ( ) lemma=trabajar 
- trabajaría ( ) lemma=trabajar 
- trabajaríamos ( ) lemma=trabajar 
- trabajarían ( ) lemma=trabajar 
- trabajas ( ) lemma=trabajar 
- trabajase ( ) lemma=trabajar 
- trabajasen ( ) lemma=trabajar 
- trabajaste ( ) lemma=trabajar 
- trabaje ( ) lemma=trabajar 
- trabajemos ( ) lemma=trabajar 
- trabajen ( ) lemma=trabajar 
- trabajes ( ) lemma=trabajar 
- trabajillo ( ) lemma=trabajo 
+ trabajará ( ) 
+ trabajarán ( ) 
+ trabajaré ( ) 
+ trabajaría ( ) 
+ trabajaríamos ( ) 
+ trabajarían ( ) 
+ trabajas ( ) 
+ trabajase ( ) 
+ trabajasen ( ) 
+ trabajaste ( ) 
+ trabaje ( ) 
+ trabajemos ( ) 
+ trabajen ( ) 
+ trabajes ( ) 
+ trabajillo ( ) 
+ trabajito ( ) 
+ trabajitos ( ) 
  trabajo ( ) 
- trabajito ( ) lemma=trabajo 
- trabajitos ( ) lemma=trabajo 
- trabajos ( ) lemma=trabajo 
- trabajosa ( ) lemma=trabajoso 
+ trabajos ( ) 
+ trabajosa ( ) 
+ trabajosamente ( ) 
  trabajoso ( ) 
- trabajosamente ( ) lemma=trabajoso 
- trabajosos ( ) lemma=trabajoso 
- trabajábamos ( ) lemma=trabajar 
- trabajáis ( ) lemma=trabajar 
- trabajándose ( ) lemma=trabajarse 
- trabajártelo ( ) lemma=trabajar 
- trabajé ( ) lemma=trabajar 
- trabajéis ( ) lemma=trabajar 
- trabajó ( ) lemma=trabajar 
- traban ( ) lemma=trabar 
- trabaron ( ) lemma=trabar 
- trabarían ( ) lemma=trabar 
- trabas ( ) lemma=trabar 
- trabe ( ) lemma=trabar 
+ trabajosos ( ) 
+ trabajábamos ( ) 
+ trabajáis ( ) 
+ trabajándose ( ) 
+ trabajártelo ( ) 
+ trabajé ( ) 
+ trabajéis ( ) 
+ trabajó ( ) 
+ traban ( ) 
+ trabar ( ) 
+ trabaron ( ) 
+ trabarían ( ) 
+ trabas ( ) 
+ trabe ( ) 
  trabecular ( ) 
  trabeculare ( ) 
  trabilla ( ) 
- trabájale ( ) lemma=trabajar 
- trabó ( ) lemma=trabar 
+ trabájale ( ) 
+ trabó ( ) 
  tracción ( ) 
  tracción-suspensión ( ) 
- trace ( ) lemma=trazar 
- trazar ( ) 
+ trace ( ) 
  tracear ( ) 
- tracemos ( ) lemma=trazar 
- tracen ( ) lemma=trazar 
+ tracemos ( ) 
+ tracen ( ) 
  tracto ( ) 
  tractor ( ) 
- tractores ( ) lemma=tractor 
- tractos ( ) lemma=tracto 
+ tractores ( ) 
+ tractos ( ) 
  tradicional ( ) 
- tradicionales ( ) lemma=tradicional 
- tradicionalmente ( ) lemma=tradicional 
- tradiciones ( ) lemma=tradición 
+ tradicionales ( ) 
+ tradicionalmente ( ) 
+ tradiciones ( ) 
  tradición ( ) 
  traduccional ( ) 
- traducciones ( ) lemma=traducción 
+ traducciones ( ) 
  traducción ( ) 
- traduce ( ) lemma=traducir 
+ traduce ( ) 
+ traducen ( ) 
+ traduces ( ) 
+ traducida ( ) 
+ traducidas ( ) 
+ traducido ( ) 
+ traducidos ( ) 
+ traduciendo ( ) 
+ traducimos ( ) 
  traducir ( ) 
- traducen ( ) lemma=traducir 
- traduces ( ) lemma=traducir 
- traducida ( ) lemma=traducir 
- traducidas ( ) lemma=traducir 
- traducido ( ) lemma=traducir 
- traducidos ( ) lemma=traducir 
- traduciendo ( ) lemma=traducir 
- traducimos ( ) lemma=traducir 
- traducirla ( ) lemma=traducir 
- traducirlas ( ) lemma=traducir 
- traducirlo ( ) lemma=traducir 
+ traducirla ( ) 
+ traducirlas ( ) 
+ traducirlo ( ) 
  traducirse ( ) 
- traducirá ( ) lemma=traducir 
- traducirán ( ) lemma=traducir 
- traduciría ( ) lemma=traducir 
- traducirían ( ) lemma=traducir 
- traduciéndose ( ) lemma=traducirse 
+ traducirá ( ) 
+ traducirán ( ) 
+ traduciría ( ) 
+ traducirían ( ) 
+ traduciéndose ( ) 
  traducteur ( ) 
  traduction ( ) 
  traductor ( ) 
- traductora ( ) lemma=traductor 
- traductoras ( ) lemma=traductor 
- traductores ( ) lemma=traductor 
- traducía ( ) lemma=traducir 
- traducían ( ) lemma=traducir 
- tradujera ( ) lemma=traducir 
- tradujeran ( ) lemma=traducir 
- tradujeron ( ) lemma=traducir 
- tradujesen ( ) lemma=traducir 
- tradujo ( ) lemma=traducir 
- tradujéramos ( ) lemma=traducir 
- traduzca ( ) lemma=traducir 
- traduzcan ( ) lemma=traducir 
- traduzco ( ) lemma=traducir 
- tradúzcamelo ( ) lemma=traducir 
- trae ( ) lemma=traer 
+ traductora ( ) 
+ traductoras ( ) 
+ traductores ( ) 
+ traducía ( ) 
+ traducían ( ) 
+ tradujera ( ) 
+ tradujeran ( ) 
+ tradujeron ( ) 
+ tradujesen ( ) 
+ tradujo ( ) 
+ tradujéramos ( ) 
+ traduzca ( ) 
+ traduzcan ( ) 
+ traduzco ( ) 
+ tradúzcamelo ( ) 
+ trae ( ) lemma=atraer 
+ traemos ( ) 
+ traen ( ) 
  traer ( ) 
- traemos ( ) lemma=traer 
- traen ( ) lemma=traer 
- traerla ( ) lemma=traer 
- traerle ( ) lemma=traer 
- traerlo ( ) lemma=traer 
- traerme ( ) lemma=traer 
- traernos ( ) lemma=traer 
+ traerla ( ) lemma=atraer 
+ traerle ( ) lemma=atraer 
+ traerlo ( ) lemma=atraer 
+ traerme ( ) 
+ traernos ( ) 
  traerse ( ) 
- traerá ( ) lemma=traer 
- traerán ( ) lemma=traer 
- traerás ( ) lemma=traer 
- traeré ( ) lemma=traer 
- traería ( ) lemma=traer 
- traerían ( ) lemma=traer 
- traes ( ) lemma=traer 
+ traerá ( ) lemma=atraer 
+ traerán ( ) 
+ traerás ( ) 
+ traeré ( ) 
+ traería ( ) 
+ traerían ( ) 
+ traes ( ) 
  traffic ( ) 
  trafic ( ) 
- trafica ( ) lemma=traficar 
- traficar ( ) 
- traficado ( ) lemma=traficar 
- traficados ( ) lemma=traficar 
- trafican ( ) lemma=traficar 
- traficando ( ) lemma=traficar 
+ trafica ( ) 
+ traficado ( ) 
+ traficados ( ) 
+ trafican ( ) 
+ traficando ( ) 
  traficante ( ) 
- traficantes ( ) lemma=traficante 
- traficas ( ) lemma=traficar 
- trafico ( ) lemma=traficar 
- traga ( ) lemma=tragar 
+ traficantes ( ) 
+ traficar ( ) 
+ traficas ( ) 
+ trafico ( ) 
+ traga ( ) 
+ tragado ( ) 
+ tragamos ( ) 
+ tragan ( ) 
  tragar ( ) 
- tragado ( ) lemma=tragar 
- tragamos ( ) lemma=tragar 
- tragan ( ) lemma=tragar 
- tragaremos ( ) lemma=tragar 
- tragarme ( ) lemma=tragar 
- tragaron ( ) lemma=tragar 
+ tragaremos ( ) 
+ tragarme ( ) 
+ tragaron ( ) 
  tragarse ( ) 
- tragará ( ) lemma=tragar 
- tragarán ( ) lemma=tragar 
- tragaré ( ) lemma=tragar 
- tragarían ( ) lemma=tragar 
+ tragará ( ) 
+ tragarán ( ) 
+ tragaré ( ) 
+ tragarían ( ) 
  tragedia ( ) 
- tragedias ( ) lemma=tragedia 
- trago ( ) lemma=tragar 
- tragona ( ) lemma=tragón 
- tragón ( ) 
- trague ( ) lemma=tragar 
- traguemos ( ) lemma=tragar 
+ tragedias ( ) 
+ trago ( ) 
+ tragona ( ) 
+ trague ( ) 
+ traguemos ( ) 
  tragues ( ) 
- tragáis ( ) lemma=tragar 
- tragó ( ) lemma=tragar 
- traiciona ( ) lemma=traicionar 
+ tragáis ( ) 
+ tragó ( ) 
+ traiciona ( ) 
+ traicionaba ( ) 
+ traicionado ( ) 
+ traicionados ( ) 
+ traicionamos ( ) 
+ traicionan ( ) 
+ traicionando ( ) 
  traicionar ( ) 
- traicionaba ( ) lemma=traicionar 
- traicionado ( ) lemma=traicionar 
- traicionados ( ) lemma=traicionar 
- traicionamos ( ) lemma=traicionar 
- traicionan ( ) lemma=traicionar 
- traicionando ( ) lemma=traicionar 
- traicionaremos ( ) lemma=traicionar 
- traicionaron ( ) lemma=traicionar 
- traicionará ( ) lemma=traicionar 
- traicione ( ) lemma=traicionar 
- traicionen ( ) lemma=traicionar 
- traicionera ( ) lemma=traicionero 
+ traicionaremos ( ) 
+ traicionaron ( ) 
+ traicionará ( ) 
+ traicione ( ) 
+ traicionen ( ) 
+ traicionera ( ) 
+ traicioneramente ( ) 
  traicionero ( ) 
- traicioneramente ( ) lemma=traicionero 
- traicioneros ( ) lemma=traicionero 
- traiciones ( ) lemma=traición 
+ traicioneros ( ) 
+ traiciones ( ) 
+ traicionándole ( ) 
+ traicionándonos ( ) 
+ traicionó ( ) 
  traición ( ) 
- traicionándole ( ) lemma=traicionar 
- traicionándonos ( ) lemma=traicionar 
- traicionó ( ) lemma=traicionar 
  traidor ( ) 
- traidora ( ) lemma=traidor 
- traidores ( ) lemma=traidor 
- traiga ( ) lemma=traer 
- traigan ( ) lemma=traer 
- traigo ( ) lemma=traer 
- traigáis ( ) lemma=traer 
+ traidora ( ) 
+ traidores ( ) 
+ traiga ( ) lemma=atraer 
+ traigan ( ) 
+ traigo ( ) 
+ traigáis ( ) 
  trailer ( ) 
- trailers ( ) lemma=trailer 
+ trailers ( ) 
  trait ( ) 
  traitement ( ) 
  traiter ( ) 
  traje ( ) 
- trajecito ( ) lemma=traje 
- trajera ( ) lemma=traer 
- trajeran ( ) lemma=traer 
- trajeron ( ) lemma=traer 
- trajes ( ) lemma=traje 
- trajese ( ) lemma=traer 
- trajesen ( ) lemma=traer 
+ trajecito ( ) 
+ trajera ( ) lemma=atraer 
+ trajeran ( ) 
+ trajeron ( ) 
+ trajes ( ) 
+ trajese ( ) 
+ trajesen ( ) 
  trajet ( ) 
- trajimos ( ) lemma=traer 
- trajinan ( ) lemma=trajinar 
- trajinar ( ) 
- trajinando ( ) lemma=trajinar 
- trajine ( ) lemma=trajinar 
- trajines ( ) lemma=trajinar 
- trajiste ( ) lemma=traer 
- trajisteis ( ) lemma=traer 
- trajo ( ) lemma=traer 
+ trajimos ( ) 
+ trajinan ( ) 
+ trajinando ( ) 
+ trajine ( ) 
+ trajines ( ) 
+ trajiste ( ) 
+ trajisteis ( ) 
+ trajo ( ) 
  trama ( ) 
- traman ( ) lemma=tramar 
+ traman ( ) 
+ tramando ( ) 
  tramar ( ) 
- tramando ( ) lemma=tramar 
- tramas ( ) lemma=trama 
+ tramas ( ) 
  trame ( ) 
- tramita ( ) lemma=tramitar 
- tramitar ( ) 
- tramitaciones ( ) lemma=tramitación 
+ tramita ( ) 
+ tramitaciones ( ) 
  tramitación ( ) 
- tramitada ( ) lemma=tramitar 
- tramitadas ( ) lemma=tramitar 
- tramitado ( ) lemma=tramitar 
- tramitan ( ) lemma=tramitar 
+ tramitada ( ) 
+ tramitadas ( ) 
+ tramitado ( ) 
+ tramitan ( ) 
  tramitancia ( ) 
- tramitando ( ) lemma=tramitar 
- tramitara ( ) lemma=tramitar 
- tramitaremos ( ) lemma=tramitar 
- tramitaron ( ) lemma=tramitar 
- tramitará ( ) lemma=tramitar 
- tramitarán ( ) lemma=tramitar 
- tramitaría ( ) lemma=tramitar 
- tramite ( ) lemma=tramitar 
- tramiten ( ) lemma=tramitar 
- tramites ( ) lemma=tramitar 
- tramitó ( ) lemma=tramitar 
+ tramitando ( ) 
+ tramitar ( ) 
+ tramitara ( ) 
+ tramitaremos ( ) 
+ tramitaron ( ) 
+ tramitará ( ) 
+ tramitarán ( ) 
+ tramitaría ( ) 
+ tramite ( ) 
+ tramiten ( ) 
+ tramites ( ) 
+ tramitó ( ) 
  tramo ( ) 
- tramos ( ) lemma=tramo 
+ tramos ( ) 
  trampa ( ) 
- trampas ( ) lemma=trampa 
- trampilla ( ) lemma=trampa 
- trampillas ( ) lemma=trampa 
+ trampas ( ) 
+ trampilla ( ) 
+ trampillas ( ) 
  trampolín ( ) 
- tramposa ( ) lemma=tramposo 
+ tramposa ( ) 
  tramposo ( ) 
- tramposos ( ) lemma=tramposo 
+ tramposos ( ) 
  tramsmisión ( ) 
- trancado ( ) lemma=trancar 
- trancar ( ) 
- trancas ( ) lemma=trancar 
- trance ( ) lemma=tranzar 
- tranzar ( ) 
- trances ( ) lemma=tranzar 
- tranque ( ) lemma=trancar 
- tranquila ( ) lemma=tranquilo 
- tranquilo ( ) 
- tranquilamente ( ) lemma=tranquilo 
- tranquilas ( ) lemma=tranquilo 
- tranquilice ( ) lemma=tranquilizar 
- tranquilizar ( ) 
- tranquilicemos ( ) lemma=tranquilizar 
- tranquilicen ( ) lemma=tranquilizar 
+ trancado ( ) 
+ trancas ( ) 
+ trance ( ) 
+ trances ( ) 
+ tranque ( ) 
+ tranquila ( ) 
+ tranquilamente ( ) 
+ tranquilas ( ) 
+ tranquilice ( ) 
+ tranquilicemos ( ) 
+ tranquilicen ( ) 
  tranquilidad ( ) 
- tranquilillo ( ) lemma=tranquilo 
- tranquilita ( ) lemma=tranquilo 
- tranquilito ( ) lemma=tranquilo 
- tranquiliza ( ) lemma=tranquilizar 
- tranquilizadas ( ) lemma=tranquilizar 
- tranquilizado ( ) lemma=tranquilizar 
- tranquilizados ( ) lemma=tranquilizar 
- tranquilizan ( ) lemma=tranquilizar 
- tranquilizando ( ) lemma=tranquilizar 
- tranquilizantes ( ) lemma=tranquilizante 
- tranquilizante ( ) 
- tranquilizara ( ) lemma=tranquilizar 
- tranquilizarlo ( ) lemma=tranquilizar 
+ tranquilillo ( ) 
+ tranquilita ( ) 
+ tranquilito ( ) 
+ tranquiliza ( ) 
+ tranquilizadas ( ) 
+ tranquilizado ( ) 
+ tranquilizados ( ) 
+ tranquilizan ( ) 
+ tranquilizando ( ) 
+ tranquilizantes ( ) 
+ tranquilizar ( ) 
+ tranquilizara ( ) 
+ tranquilizarlo ( ) 
  tranquilizarse ( ) 
- tranquilizará ( ) lemma=tranquilizar 
- tranquilizarán ( ) lemma=tranquilizar 
- tranquilizaría ( ) lemma=tranquilizar 
- tranquilizarían ( ) lemma=tranquilizar 
- tranquilizo ( ) lemma=tranquilizar 
- tranquilizó ( ) lemma=tranquilizar 
- tranquilos ( ) lemma=tranquilo 
- tranquilícense ( ) lemma=tranquilizar 
- tranquilícese ( ) lemma=tranquilizarse 
- tranquilízate ( ) lemma=tranquilizar 
+ tranquilizará ( ) 
+ tranquilizarán ( ) 
+ tranquilizaría ( ) 
+ tranquilizarían ( ) 
+ tranquilizo ( ) 
+ tranquilizó ( ) 
+ tranquilo ( ) 
+ tranquilos ( ) 
+ tranquilícense ( ) 
+ tranquilícese ( ) 
+ tranquilízate ( ) 
  transaccional ( ) 
- transaccionales ( ) lemma=transaccional 
- transacciones ( ) lemma=transacción 
+ transaccionales ( ) 
+ transacciones ( ) 
  transacción ( ) 
  transacetilaso ( ) 
  transaction ( ) 
- transado ( ) lemma=transar 
- transar ( ) 
- transados ( ) lemma=transar 
+ transado ( ) 
+ transados ( ) 
  transaminación ( ) 
  transaminasa ( ) 
- transaminasas ( ) lemma=transaminasa 
- transan ( ) lemma=transar 
- transatlántica ( ) lemma=transatlántico 
+ transaminasas ( ) 
+ transan ( ) 
+ transatlántica ( ) 
+ transatlánticas ( ) 
  transatlántico ( ) 
- transatlánticas ( ) lemma=transatlántico 
- transatlánticos ( ) lemma=transatlántico 
+ transatlánticos ( ) 
  transaórtico ( ) 
  transbordador ( ) 
- transbordadores ( ) lemma=transbordador 
+ transbordadores ( ) 
  transbronquial ( ) 
  transcarbamoilaso ( ) 
  transcelular ( ) 
  transcendencia ( ) 
  transcendente ( ) 
- transcendió ( ) lemma=transcender 
- transcender ( ) 
- transciende ( ) lemma=transcender 
- transcienden ( ) lemma=transcender 
+ transcendió ( ) 
+ transciende ( ) 
+ transcienden ( ) 
  transcodeur ( ) 
  transcodificación ( ) 
  transcodificador ( ) 
  transcodificarse ( ) 
- transconecta ( ) lemma=transconectar 
- transconectar ( ) 
- transconectados ( ) lemma=transconectar 
+ transconecta ( ) 
+ transconectados ( ) 
  transconexión ( ) 
  transconjugante ( ) 
- transcriba ( ) lemma=transcribir 
+ transcriba ( ) 
+ transcriban ( ) 
+ transcribe ( ) 
+ transcriben ( ) 
+ transcribes ( ) 
+ transcribiendo ( ) 
+ transcribieron ( ) 
  transcribir ( ) 
- transcriban ( ) lemma=transcribir 
- transcribe ( ) lemma=transcribir 
- transcriben ( ) lemma=transcribir 
- transcribes ( ) lemma=transcribir 
- transcribiendo ( ) lemma=transcribir 
- transcribieron ( ) lemma=transcribir 
- transcribirse ( ) lemma=transcribir 
- transcribirá ( ) lemma=transcribir 
- transcribirán ( ) lemma=transcribir 
- transcribió ( ) lemma=transcribir 
- transcribía ( ) lemma=transcribir 
+ transcribirse ( ) 
+ transcribirá ( ) 
+ transcribirán ( ) 
+ transcribió ( ) 
+ transcribía ( ) 
  transcripcional ( ) 
  transcripcionale ( ) 
- transcripciones ( ) lemma=transcripción 
+ transcripciones ( ) 
  transcripción ( ) 
  transcriptasa ( ) 
  transcripto ( ) 
- transcrita ( ) lemma=transcribir 
- transcritas ( ) lemma=transcribir 
- transcrito ( ) lemma=transcribir 
- transcritos ( ) lemma=transcribir 
- transcurra ( ) lemma=transcurrir 
+ transcrita ( ) 
+ transcritas ( ) 
+ transcrito ( ) 
+ transcritos ( ) 
+ transcurra ( ) 
+ transcurran ( ) 
+ transcurre ( ) 
+ transcurren ( ) 
+ transcurrida ( ) 
+ transcurridas ( ) 
+ transcurrido ( ) 
+ transcurridos ( ) 
+ transcurriendo ( ) 
+ transcurriera ( ) 
+ transcurrieron ( ) 
  transcurrir ( ) 
- transcurran ( ) lemma=transcurrir 
- transcurre ( ) lemma=transcurrir 
- transcurren ( ) lemma=transcurrir 
- transcurrida ( ) lemma=transcurrir 
- transcurridas ( ) lemma=transcurrir 
- transcurrido ( ) lemma=transcurrir 
- transcurridos ( ) lemma=transcurrir 
- transcurriendo ( ) lemma=transcurrir 
- transcurriera ( ) lemma=transcurrir 
- transcurrieron ( ) lemma=transcurrir 
- transcurrirá ( ) lemma=transcurrir 
- transcurrirán ( ) lemma=transcurrir 
- transcurrió ( ) lemma=transcurrir 
- transcurría ( ) lemma=transcurrir 
+ transcurrirá ( ) 
+ transcurrirán ( ) 
+ transcurrió ( ) 
+ transcurría ( ) 
  transcurso ( ) 
  transdiafragmático ( ) 
  transdisciplinar ( ) 
  transducción ( ) 
- transducen ( ) lemma=transducir 
+ transducen ( ) 
+ transducidas ( ) 
+ transducido ( ) 
+ transducidos ( ) 
  transducir ( ) 
- transducidas ( ) lemma=transducir 
- transducido ( ) lemma=transducir 
- transducidos ( ) lemma=transducir 
  transductor ( ) 
- transductores ( ) lemma=transductor 
+ transductores ( ) 
  transductoro ( ) 
  transdérmico ( ) 
  transección ( ) 
  transecto ( ) 
- transectos ( ) lemma=transecto 
+ transectos ( ) 
  transeptal ( ) 
  transesfenoidal ( ) 
  transesofágico ( ) 
  transesterificación ( ) 
- transeuntes ( ) lemma=transeúnte 
- transeúnte ( ) 
+ transeuntes ( ) 
  transexualidad ( ) 
  transexualismo ( ) 
- transeúntes ( ) lemma=transeúnte 
+ transeúnte ( ) 
+ transeúntes ( ) 
  transfección ( ) 
  transfectar ( ) 
  transfenoidal ( ) 
  transfer ( ) 
- transferasas ( ) lemma=transferasa 
- transferasa ( ) 
+ transferasas ( ) 
  transferencia ( ) 
- transferencias ( ) lemma=transferencia 
- transferentes ( ) lemma=transferente 
- transferente ( ) 
+ transferencias ( ) 
+ transferentes ( ) 
  transferible ( ) 
- transferibles ( ) lemma=transferible 
- transferida ( ) lemma=transferir 
+ transferibles ( ) 
+ transferida ( ) 
+ transferidas ( ) 
+ transferido ( ) 
+ transferidos ( ) 
+ transferimos ( ) 
  transferir ( ) 
- transferidas ( ) lemma=transferir 
- transferido ( ) lemma=transferir 
- transferidos ( ) lemma=transferir 
- transferimos ( ) lemma=transferir 
- transferirla ( ) lemma=transferir 
- transferirlos ( ) lemma=transferir 
+ transferirla ( ) 
+ transferirlos ( ) 
  transferirse ( ) 
- transferirá ( ) lemma=transferir 
- transferirán ( ) lemma=transferir 
- transferiría ( ) lemma=transferir 
+ transferirá ( ) 
+ transferirán ( ) 
+ transferiría ( ) 
  transferrina ( ) 
  transfert ( ) 
- transfería ( ) lemma=transferir 
- transferían ( ) lemma=transferir 
- transfiera ( ) lemma=transferir 
- transfieran ( ) lemma=transferir 
- transfiere ( ) lemma=transferir 
- transfieren ( ) lemma=transferir 
- transfigurado ( ) lemma=transfigurar 
- transfigurar ( ) 
- transfiramos ( ) lemma=transferir 
- transfiriendo ( ) lemma=transferir 
- transfiriera ( ) lemma=transferir 
- transfirieran ( ) lemma=transferir 
- transfirieron ( ) lemma=transferir 
- transfiriese ( ) lemma=transferir 
- transfiriesen ( ) lemma=transferir 
- transfiriéndolas ( ) lemma=transferir 
- transfirió ( ) lemma=transferir 
- transforma ( ) lemma=transformar 
- transformar ( ) 
- transformaba ( ) lemma=transformar 
- transformaban ( ) lemma=transformar 
+ transfería ( ) 
+ transferían ( ) 
+ transfiera ( ) 
+ transfieran ( ) 
+ transfiere ( ) 
+ transfieren ( ) 
+ transfigurado ( ) 
+ transfiramos ( ) 
+ transfiriendo ( ) 
+ transfiriera ( ) 
+ transfirieran ( ) 
+ transfirieron ( ) 
+ transfiriese ( ) 
+ transfiriesen ( ) 
+ transfiriéndolas ( ) 
+ transfirió ( ) 
+ transforma ( ) 
+ transformaba ( ) 
+ transformaban ( ) 
  transformacional ( ) 
- transformaciones ( ) lemma=transformación 
+ transformaciones ( ) 
  transformación ( ) 
- transformada ( ) lemma=transformar 
- transformadas ( ) lemma=transformar 
- transformado ( ) lemma=transformar 
+ transformada ( ) 
+ transformadas ( ) 
+ transformado ( ) 
  transformador ( ) 
- transformadora ( ) lemma=transformador 
- transformadores ( ) lemma=transformador 
- transformados ( ) lemma=transformar 
- transformamos ( ) lemma=transformar 
- transforman ( ) lemma=transformar 
- transformando ( ) lemma=transformar 
+ transformadora ( ) 
+ transformadores ( ) 
+ transformados ( ) 
+ transformamos ( ) 
+ transforman ( ) 
+ transformando ( ) 
  transformante ( ) 
- transformara ( ) lemma=transformar 
- transformarla ( ) lemma=transformar 
- transformarlas ( ) lemma=transformar 
- transformarle ( ) lemma=transformar 
- transformarlo ( ) lemma=transformar 
- transformarlos ( ) lemma=transformar 
- transformaron ( ) lemma=transformar 
+ transformar ( ) 
+ transformara ( ) 
+ transformarla ( ) 
+ transformarlas ( ) 
+ transformarle ( ) 
+ transformarlo ( ) 
+ transformarlos ( ) 
+ transformaron ( ) 
  transformarse ( ) 
- transformará ( ) lemma=transformar 
- transformarán ( ) lemma=transformar 
- transformaría ( ) lemma=transformar 
- transformaríamos ( ) lemma=transformar 
- transformarían ( ) lemma=transformar 
- transformase ( ) lemma=transformar 
- transforme ( ) lemma=transformar 
- transformemos ( ) lemma=transformar 
- transformen ( ) lemma=transformar 
- transformo ( ) lemma=transformar 
- transformándolo ( ) lemma=transformar 
- transformándolos ( ) lemma=transformar 
- transformándose ( ) lemma=transformarse 
- transformó ( ) lemma=transformar 
+ transformará ( ) 
+ transformarán ( ) 
+ transformaría ( ) 
+ transformaríamos ( ) 
+ transformarían ( ) 
+ transformase ( ) 
+ transforme ( ) 
+ transformemos ( ) 
+ transformen ( ) 
+ transformo ( ) 
+ transformándolo ( ) 
+ transformándolos ( ) 
+ transformándose ( ) 
+ transformó ( ) 
  transfronterizo ( ) 
- transfundieran ( ) lemma=transfundir 
+ transfundieran ( ) 
  transfundir ( ) 
- transfusionales ( ) lemma=transfusional 
- transfusional ( ) 
- transfusiones ( ) lemma=transfusión 
+ transfusionales ( ) 
+ transfusiones ( ) 
  transfusión ( ) 
  transgredir ( ) 
- transgresiones ( ) lemma=transgresión 
+ transgresiones ( ) 
  transgresión ( ) 
- transgénica ( ) lemma=transgénico 
+ transgénica ( ) 
+ transgénicas ( ) 
  transgénico ( ) 
- transgénicas ( ) lemma=transgénico 
- transgénicos ( ) lemma=transgénico 
+ transgénicos ( ) 
  transhidroximetilasa ( ) 
  transhorizonte ( ) 
- transicionales ( ) lemma=transicional 
- transicional ( ) 
- transiciones ( ) lemma=transición 
+ transicionales ( ) 
+ transiciones ( ) 
  transición ( ) 
  transigencia ( ) 
  transigir ( ) 
  transit ( ) 
- transita ( ) lemma=transitar 
+ transita ( ) 
+ transitaba ( ) 
+ transitaban ( ) 
+ transitada ( ) 
+ transitadas ( ) 
+ transitado ( ) 
+ transitados ( ) 
+ transitan ( ) 
+ transitando ( ) 
  transitar ( ) 
- transitaba ( ) lemma=transitar 
- transitaban ( ) lemma=transitar 
- transitada ( ) lemma=transitar 
- transitadas ( ) lemma=transitar 
- transitado ( ) lemma=transitar 
- transitados ( ) lemma=transitar 
- transitan ( ) lemma=transitar 
- transitando ( ) lemma=transitar 
- transitaron ( ) lemma=transitar 
- transite ( ) lemma=transitar 
- transiten ( ) lemma=transitar 
+ transitaron ( ) 
+ transite ( ) 
+ transiten ( ) 
  transition ( ) 
- transitiva ( ) lemma=transitivo 
- transitivo ( ) 
- transitivas ( ) lemma=transitivo 
- transitivos ( ) lemma=transitivo 
- transito ( ) lemma=transitar 
- transitoria ( ) lemma=transitorio 
- transitorio ( ) 
- transitoriamente ( ) lemma=transitorio 
- transitorias ( ) lemma=transitorio 
+ transitiva ( ) 
+ transitivas ( ) 
+ transitivos ( ) 
+ transito ( ) 
+ transitoria ( ) 
+ transitoriamente ( ) 
+ transitorias ( ) 
  transitoriedad ( ) 
- transitorios ( ) lemma=transitorio 
+ transitorio ( ) 
+ transitorios ( ) 
  translación ( ) 
  translation ( ) 
  translator ( ) 
- translocaciones ( ) lemma=translocación 
+ translocaciones ( ) 
  translocación ( ) 
  translocadoro ( ) 
  translocar ( ) 
@@ -2759,676 +2651,649 @@
  transmetteur ( ) 
  transmisibilidad ( ) 
  transmisible ( ) 
- transmisibles ( ) lemma=transmisible 
- transmisiones ( ) lemma=transmisión 
+ transmisibles ( ) 
+ transmisiones ( ) 
  transmisión ( ) 
  transmisor ( ) 
- transmisora ( ) lemma=transmisor 
- transmisoras ( ) lemma=transmisor 
- transmisores ( ) lemma=transmisor 
+ transmisora ( ) 
+ transmisoras ( ) 
+ transmisores ( ) 
  transmission ( ) 
  transmit ( ) 
- transmita ( ) lemma=transmitir 
- transmitir ( ) 
- transmitamos ( ) lemma=transmitir 
- transmitan ( ) lemma=transmitir 
+ transmita ( ) 
+ transmitamos ( ) 
+ transmitan ( ) 
  transmitancia ( ) 
- transmite ( ) lemma=transmitir 
- transmiten ( ) lemma=transmitir 
+ transmite ( ) 
+ transmiten ( ) 
  transmitente ( ) 
- transmites ( ) lemma=transmitir 
- transmitida ( ) lemma=transmitir 
- transmitidas ( ) lemma=transmitir 
- transmitido ( ) lemma=transmitir 
- transmitidos ( ) lemma=transmitir 
- transmitiendo ( ) lemma=transmitir 
- transmitiera ( ) lemma=transmitir 
- transmitieran ( ) lemma=transmitir 
- transmitieron ( ) lemma=transmitir 
- transmitiese ( ) lemma=transmitir 
- transmitiesen ( ) lemma=transmitir 
- transmitimos ( ) lemma=transmitir 
- transmitiremos ( ) lemma=transmitir 
- transmitirla ( ) lemma=transmitir 
- transmitirlas ( ) lemma=transmitir 
- transmitirle ( ) lemma=transmitir 
- transmitirles ( ) lemma=transmitir 
- transmitirlo ( ) lemma=transmitir 
- transmitirlos ( ) lemma=transmitir 
- transmitirnos ( ) lemma=transmitir 
+ transmites ( ) 
+ transmitida ( ) 
+ transmitidas ( ) 
+ transmitido ( ) 
+ transmitidos ( ) 
+ transmitiendo ( ) 
+ transmitiera ( ) 
+ transmitieran ( ) 
+ transmitieron ( ) 
+ transmitiese ( ) 
+ transmitiesen ( ) 
+ transmitimos ( ) 
+ transmitir ( ) 
+ transmitiremos ( ) 
+ transmitirla ( ) 
+ transmitirlas ( ) 
+ transmitirle ( ) 
+ transmitirles ( ) 
+ transmitirlo ( ) 
+ transmitirlos ( ) 
+ transmitirnos ( ) 
  transmitirse ( ) 
- transmitirá ( ) lemma=transmitir 
- transmitirán ( ) lemma=transmitir 
- transmitiré ( ) lemma=transmitir 
- transmitiría ( ) lemma=transmitir 
- transmitirían ( ) lemma=transmitir 
+ transmitirá ( ) 
+ transmitirán ( ) 
+ transmitiré ( ) 
+ transmitiría ( ) 
+ transmitirían ( ) 
  transmitiéndole ( ) 
  transmitiéndose ( ) 
- transmitiéndosela ( ) lemma=transmitirse 
- transmitiéndoselo ( ) lemma=transmitirse 
- transmitiéndoselos ( ) lemma=transmitirse 
- transmitió ( ) lemma=transmitir 
- transmito ( ) lemma=transmitir 
+ transmitiéndosela ( ) 
+ transmitiéndoselo ( ) 
+ transmitiéndoselos ( ) 
+ transmitió ( ) 
+ transmito ( ) 
  transmitted ( ) 
  transmitter ( ) 
- transmití ( ) lemma=transmitir 
- transmitía ( ) lemma=transmitir 
- transmitían ( ) lemma=transmitir 
- transmitírselo ( ) lemma=transmitirse 
- transmitírsenos ( ) lemma=transmitirse 
- transmultiplexores ( ) lemma=transmultiplexor 
- transmultiplexor ( ) 
+ transmití ( ) 
+ transmitía ( ) 
+ transmitían ( ) 
+ transmitírselo ( ) 
+ transmitírsenos ( ) 
+ transmultiplexores ( ) 
  transmurale ( ) 
  transmutación ( ) 
- transmítase ( ) lemma=transmitirse 
+ transmítase ( ) 
  transnacional ( ) 
- transnacionales ( ) lemma=transnacional 
+ transnacionales ( ) 
  transoperatorio ( ) 
  transparence ( ) 
  transparencia ( ) 
- transparencias ( ) lemma=transparencia 
+ transparencias ( ) 
  transparency ( ) 
- transparenta ( ) lemma=transparentar 
+ transparenta ( ) 
+ transparentan ( ) 
  transparentar ( ) 
- transparentan ( ) lemma=transparentar 
  transparente ( ) 
- transparentemente ( ) lemma=transparente 
- transparentes ( ) lemma=transparente 
+ transparentemente ( ) 
+ transparentes ( ) 
  transpeptidación ( ) 
- transpira ( ) lemma=transpirar 
- transpirar ( ) 
- transpiraba ( ) lemma=transpirar 
+ transpira ( ) 
+ transpiraba ( ) 
  transpiración ( ) 
- transpirando ( ) lemma=transpirar 
- transplanta ( ) lemma=transplantar 
- transplantar ( ) 
+ transpirando ( ) 
+ transplanta ( ) 
  transplantado ( ) 
- transplantados ( ) lemma=transplantar 
- transplantaron ( ) lemma=transplantar 
+ transplantados ( ) 
+ transplantar ( ) 
+ transplantaron ( ) 
  transplante ( ) 
- transplantes ( ) lemma=transplante 
+ transplantes ( ) 
  transpondedor ( ) 
- transpondedores ( ) lemma=transpondedor 
+ transpondedores ( ) 
  transponible ( ) 
- transporta ( ) lemma=transportar 
- transportar ( ) 
- transportaba ( ) lemma=transportar 
- transportaban ( ) lemma=transportar 
+ transporta ( ) 
+ transportaba ( ) 
+ transportaban ( ) 
  transportabilidad ( ) 
  transportable ( ) 
- transportaciones ( ) lemma=transportación 
+ transportaciones ( ) 
  transportación ( ) 
- transportada ( ) lemma=transportar 
- transportadas ( ) lemma=transportar 
+ transportada ( ) 
+ transportadas ( ) 
  transportado ( ) 
  transportador ( ) 
- transportadora ( ) lemma=transportador 
- transportadoras ( ) lemma=transportador 
- transportadores ( ) lemma=transportador 
- transportados ( ) lemma=transportar 
- transportamos ( ) lemma=transportar 
- transportan ( ) lemma=transportar 
- transportando ( ) lemma=transportar 
- transportara ( ) lemma=transportar 
- transportarlas ( ) lemma=transportar 
- transportarlo ( ) lemma=transportar 
- transportaron ( ) lemma=transportar 
+ transportadora ( ) 
+ transportadoras ( ) 
+ transportadores ( ) 
+ transportados ( ) 
+ transportamos ( ) 
+ transportan ( ) 
+ transportando ( ) 
+ transportar ( ) 
+ transportara ( ) 
+ transportarlas ( ) 
+ transportarlo ( ) 
+ transportaron ( ) 
  transportarse ( ) 
- transportará ( ) lemma=transportar 
- transportarán ( ) lemma=transportar 
- transportaría ( ) lemma=transportar 
- transportarían ( ) lemma=transportar 
- transportasen ( ) lemma=transportar 
+ transportará ( ) 
+ transportarán ( ) 
+ transportaría ( ) 
+ transportarían ( ) 
+ transportasen ( ) 
  transporte ( ) 
- transporten ( ) lemma=transportar 
- transportes ( ) lemma=transporte 
+ transporten ( ) 
+ transportes ( ) 
  transportista ( ) 
- transportistas ( ) lemma=transportista 
- transportó ( ) lemma=transportar 
- transposiciones ( ) lemma=transposición 
+ transportistas ( ) 
+ transportó ( ) 
+ transposiciones ( ) 
  transposición ( ) 
- transposones ( ) lemma=transposón 
+ transposones ( ) 
  transposón ( ) 
  transtorácico ( ) 
  transuretral ( ) 
- transversa ( ) lemma=transverso 
- transverso ( ) 
+ transversa ( ) 
  transversal ( ) 
- transversales ( ) lemma=transversal 
+ transversales ( ) 
  transversalidad ( ) 
- transversalmente ( ) lemma=transversal 
- transversas ( ) lemma=transverso 
+ transversalmente ( ) 
+ transversas ( ) 
+ transverso ( ) 
  tranvía ( ) 
- tranvías ( ) lemma=tranvía 
- tranzaba ( ) lemma=tranzar 
- tranzó ( ) lemma=tranzar 
- trap ( ) 
+ tranvías ( ) 
+ tranzaba ( ) 
+ tranzó ( ) 
+ trap ( ) lemma=atrapar 
  trapecio ( ) 
  trapo ( ) 
- trapos ( ) lemma=trapo 
+ trapos ( ) 
  trapío ( ) 
- traquea ( ) lemma=traquear 
- traquear ( ) 
+ traquea ( ) 
  traqueal ( ) 
- traqueales ( ) lemma=traqueal 
+ traqueales ( ) 
  traqueotomía ( ) 
- traquetean ( ) lemma=traquetear 
- traquetear ( ) 
- traqueteo ( ) lemma=traquetear 
- tras ( ) 
- trasatlántica ( ) lemma=trasatlántico 
+ traquetean ( ) 
+ traqueteo ( ) 
+ tras ( ) lemma=atraso 
+ trasatlántica ( ) 
  trasatlántico ( ) 
  trascavidad ( ) 
  trascendencia ( ) 
  trascendental ( ) 
- trascendentales ( ) lemma=trascendental 
+ trascendentales ( ) 
  trascendente ( ) 
- trascendentes ( ) lemma=trascendente 
+ trascendentes ( ) 
  trascender ( ) 
- trascenderán ( ) lemma=trascender 
- trascenderían ( ) lemma=trascender 
- trascendido ( ) lemma=trascender 
- trascendiendo ( ) lemma=trascender 
- trascendieron ( ) lemma=trascender 
- trascendió ( ) lemma=trascender 
- trascienda ( ) lemma=trascender 
- trasciende ( ) lemma=trascender 
- trascienden ( ) lemma=trascender 
+ trascenderán ( ) 
+ trascenderían ( ) 
+ trascendido ( ) 
+ trascendiendo ( ) 
+ trascendieron ( ) 
+ trascendió ( ) 
+ trascienda ( ) 
+ trasciende ( ) 
+ trascienden ( ) 
  trascripción ( ) 
- trasera ( ) lemma=trasero 
+ trasera ( ) 
+ traseras ( ) 
  trasero ( ) 
- traseras ( ) lemma=trasero 
- traseros ( ) lemma=trasero 
- traserísima ( ) lemma=trasero 
+ traseros ( ) 
+ traserísima ( ) 
  trasfondo ( ) 
- trasfondos ( ) lemma=trasfondo 
- trasgresiones ( ) lemma=trasgresión 
- trasgresión ( ) 
- trasiego ( ) lemma=trasegar 
- trasegar ( ) 
+ trasfondos ( ) 
+ trasgresiones ( ) 
+ trasiego ( ) 
  traslación ( ) 
- traslada ( ) lemma=trasladar 
+ traslada ( ) 
+ trasladaba ( ) 
+ trasladaban ( ) 
+ trasladada ( ) 
+ trasladadas ( ) 
+ trasladado ( ) 
+ trasladados ( ) 
+ trasladamos ( ) 
+ trasladan ( ) 
+ trasladando ( ) 
  trasladar ( ) 
- trasladaba ( ) lemma=trasladar 
- trasladaban ( ) lemma=trasladar 
- trasladada ( ) lemma=trasladar 
- trasladadas ( ) lemma=trasladar 
- trasladado ( ) lemma=trasladar 
- trasladados ( ) lemma=trasladar 
- trasladamos ( ) lemma=trasladar 
- trasladan ( ) lemma=trasladar 
- trasladando ( ) lemma=trasladar 
- trasladara ( ) lemma=trasladar 
- trasladaran ( ) lemma=trasladar 
- trasladarla ( ) lemma=trasladar 
- trasladarle ( ) lemma=trasladar 
- trasladarles ( ) lemma=trasladar 
- trasladarlo ( ) lemma=trasladar 
- trasladarme ( ) lemma=trasladar 
- trasladarnos ( ) lemma=trasladar 
- trasladaron ( ) lemma=trasladar 
+ trasladara ( ) 
+ trasladaran ( ) 
+ trasladarla ( ) 
+ trasladarle ( ) 
+ trasladarles ( ) 
+ trasladarlo ( ) 
+ trasladarme ( ) 
+ trasladarnos ( ) 
+ trasladaron ( ) 
  trasladarse ( ) 
- trasladará ( ) lemma=trasladar 
- trasladarán ( ) lemma=trasladar 
- trasladaré ( ) lemma=trasladar 
- trasladaría ( ) lemma=trasladar 
- trasladarían ( ) lemma=trasladar 
- trasladarías ( ) lemma=trasladar 
- trasladasen ( ) lemma=trasladar 
- traslade ( ) lemma=trasladar 
- traslademos ( ) lemma=trasladar 
- trasladen ( ) lemma=trasladar 
+ trasladará ( ) 
+ trasladarán ( ) 
+ trasladaré ( ) 
+ trasladaría ( ) 
+ trasladarían ( ) 
+ trasladarías ( ) 
+ trasladasen ( ) 
+ traslade ( ) 
+ traslademos ( ) 
+ trasladen ( ) 
  traslado ( ) 
- traslados ( ) lemma=traslado 
- trasladáis ( ) lemma=trasladar 
- trasladándolas ( ) lemma=trasladar 
- trasladándolo ( ) lemma=trasladar 
- trasladándolos ( ) lemma=trasladar 
- trasladándose ( ) lemma=trasladar 
- trasladáramos ( ) lemma=trasladar 
- trasladó ( ) lemma=trasladar 
+ traslados ( ) 
+ trasladáis ( ) 
+ trasladándolas ( ) 
+ trasladándolo ( ) 
+ trasladándolos ( ) 
+ trasladándose ( ) 
+ trasladáramos ( ) 
+ trasladó ( ) 
  traslator ( ) 
- traslatora ( ) lemma=traslatoro 
- traslatoro ( ) 
+ traslatora ( ) 
  traslocación ( ) 
- trasluce ( ) lemma=traslucir 
+ trasluce ( ) 
+ traslucen ( ) 
  traslucir ( ) 
- traslucen ( ) lemma=traslucir 
- traslució ( ) lemma=traslucir 
- traslucía ( ) lemma=traslucir 
- traslucían ( ) lemma=traslucir 
+ traslució ( ) 
+ traslucía ( ) 
+ traslucían ( ) 
  trasmisor ( ) 
- trasmita ( ) lemma=trasmitir 
+ trasmita ( ) 
+ trasmite ( ) 
+ trasmitido ( ) 
+ trasmitiese ( ) 
  trasmitir ( ) 
- trasmite ( ) lemma=trasmitir 
- trasmitido ( ) lemma=trasmitir 
- trasmitiese ( ) lemma=trasmitir 
- trasmitirá ( ) lemma=trasmitir 
- trasmitiré ( ) lemma=trasmitir 
- trasmitió ( ) lemma=trasmitir 
- trasnochada ( ) lemma=trasnochar 
- trasnochar ( ) 
- trasnochadas ( ) lemma=trasnochar 
- trasnochado ( ) lemma=trasnochar 
- traspasa ( ) lemma=traspasar 
+ trasmitirá ( ) 
+ trasmitiré ( ) 
+ trasmitió ( ) 
+ trasnochada ( ) 
+ trasnochadas ( ) 
+ trasnochado ( ) 
+ traspasa ( ) 
+ traspasada ( ) 
+ traspasadas ( ) 
+ traspasado ( ) 
+ traspasados ( ) 
+ traspasan ( ) 
+ traspasando ( ) 
  traspasar ( ) 
- traspasada ( ) lemma=traspasar 
- traspasadas ( ) lemma=traspasar 
- traspasado ( ) lemma=traspasar 
- traspasados ( ) lemma=traspasar 
- traspasan ( ) lemma=traspasar 
- traspasando ( ) lemma=traspasar 
  traspasarse ( ) 
- traspasará ( ) lemma=traspasar 
- traspasarían ( ) lemma=traspasar 
- traspase ( ) lemma=traspasar 
- traspasen ( ) lemma=traspasar 
+ traspasará ( ) 
+ traspasarían ( ) 
+ traspase ( ) 
+ traspasen ( ) 
  traspaso ( ) 
- traspasos ( ) lemma=traspaso 
- traspasó ( ) lemma=traspasar 
+ traspasos ( ) 
+ traspasó ( ) 
  traspié ( ) 
- traspiés ( ) lemma=traspié 
- trasplanta ( ) lemma=trasplantar 
- trasplantar ( ) 
+ traspiés ( ) 
+ trasplanta ( ) 
  trasplantable ( ) 
- trasplantadas ( ) lemma=trasplantar 
- trasplantado ( ) lemma=trasplantar 
- trasplantados ( ) lemma=trasplantar 
- trasplantamos ( ) lemma=trasplantar 
+ trasplantadas ( ) 
+ trasplantado ( ) 
+ trasplantados ( ) 
+ trasplantamos ( ) 
+ trasplantar ( ) 
  trasplante ( ) 
- trasplantes ( ) lemma=trasplantar 
- trasplantó ( ) lemma=trasplantar 
+ trasplantes ( ) 
+ trasplantó ( ) 
  trastabillar ( ) 
  traste ( ) 
- trasteo ( ) lemma=trastear 
- trastear ( ) 
+ trasteo ( ) 
  trasto ( ) 
- trastoca ( ) lemma=trastocar 
+ trastoca ( ) 
+ trastocado ( ) 
+ trastocando ( ) 
  trastocar ( ) 
- trastocado ( ) lemma=trastocar 
- trastocando ( ) lemma=trastocar 
- trastocó ( ) lemma=trastocar 
- trastoque ( ) lemma=trastocar 
- trastoquen ( ) lemma=trastocar 
- trastorna ( ) lemma=trastornar 
+ trastocó ( ) 
+ trastoque ( ) 
+ trastoquen ( ) 
+ trastorna ( ) 
+ trastornado ( ) 
+ trastornan ( ) 
  trastornar ( ) 
- trastornado ( ) lemma=trastornar 
- trastornan ( ) lemma=trastornar 
- trastornarse ( ) lemma=trastornar 
- trastornen ( ) lemma=trastornar 
+ trastornarse ( ) 
+ trastornen ( ) 
  trastorno ( ) 
- trastornos ( ) lemma=trastorno 
- trasvasa ( ) lemma=trasvasar 
+ trastornos ( ) 
+ trasvasa ( ) 
+ trasvasados ( ) 
+ trasvasando ( ) 
  trasvasar ( ) 
- trasvasados ( ) lemma=trasvasar 
- trasvasando ( ) lemma=trasvasar 
- trasvase ( ) lemma=trasvasar 
- trasvases ( ) lemma=trasvasar 
- trasvaséis ( ) lemma=trasvasar 
+ trasvase ( ) 
+ trasvases ( ) 
+ trasvaséis ( ) 
  trata ( ) 
- trataba ( ) lemma=tratar 
- tratar ( ) 
- trataban ( ) lemma=tratar 
+ trataba ( ) 
+ trataban ( ) 
  tratabilidad ( ) 
- tratada ( ) lemma=tratar 
- tratadas ( ) lemma=tratar 
+ tratada ( ) 
+ tratadas ( ) 
  tratado ( ) 
- tratados ( ) lemma=tratar 
+ tratados ( ) 
  tratamiento ( ) 
- tratamientos ( ) lemma=tratamiento 
- tratamos ( ) lemma=tratar 
- tratan ( ) lemma=tratar 
- tratando ( ) lemma=tratar 
+ tratamientos ( ) 
+ tratamos ( ) 
+ tratan ( ) 
+ tratando ( ) 
  tratante ( ) 
- tratantes ( ) lemma=tratante 
- tratara ( ) lemma=tratar 
- trataran ( ) lemma=tratar 
- trataremos ( ) lemma=tratar 
- tratarla ( ) lemma=tratar 
- tratarle ( ) lemma=tratar 
- tratarles ( ) lemma=tratar 
- tratarlo ( ) lemma=tratar 
- tratarnos ( ) lemma=tratar 
- trataron ( ) lemma=tratar 
+ tratantes ( ) 
+ tratar ( ) 
+ tratara ( ) 
+ trataran ( ) 
+ trataremos ( ) 
+ tratarla ( ) 
+ tratarle ( ) 
+ tratarles ( ) 
+ tratarlo ( ) 
+ tratarnos ( ) 
+ trataron ( ) 
  tratarse ( ) 
- tratará ( ) lemma=tratar 
- tratarán ( ) lemma=tratar 
- trataré ( ) lemma=tratar 
- trataría ( ) lemma=tratar 
- trataríamos ( ) lemma=tratar 
- tratarían ( ) lemma=tratar 
- tratase ( ) lemma=tratar 
- tratasen ( ) lemma=tratar 
- trate ( ) lemma=tratar 
- tratemos ( ) lemma=tratar 
- traten ( ) lemma=tratar 
+ tratará ( ) 
+ tratarán ( ) 
+ trataré ( ) 
+ trataría ( ) 
+ trataríamos ( ) 
+ tratarían ( ) 
+ tratase ( ) 
+ tratasen ( ) 
+ trate ( ) 
+ tratemos ( ) 
+ traten ( ) 
  trato ( ) 
- tratos ( ) lemma=trato 
- tratá ( ) lemma=tratar 
- tratábamos ( ) lemma=tratar 
- tratándolas ( ) lemma=tratar 
- tratándoles ( ) lemma=tratar 
- tratándolo ( ) lemma=tratar 
- tratándolos ( ) lemma=tratar 
- tratándonos ( ) lemma=tratar 
- tratándose ( ) lemma=tratándose|Tratándose 
- tratándose|Tratándose ( ) 
- tratáramos ( ) lemma=tratar 
- tratásemos ( ) lemma=tratar 
- traté ( ) lemma=tratar 
- tratés ( ) lemma=tratar 
- trató ( ) lemma=tratar 
+ tratos ( ) 
+ tratá ( ) 
+ tratábamos ( ) 
+ tratándolas ( ) 
+ tratándoles ( ) 
+ tratándolo ( ) 
+ tratándolos ( ) 
+ tratándonos ( ) 
+ tratándose ( ) 
+ tratáramos ( ) 
+ tratásemos ( ) 
+ traté ( ) 
+ tratés ( ) 
+ trató ( ) 
  trauma ( ) 
- traumas ( ) lemma=trauma 
+ traumas ( ) 
  traumatismo ( ) 
- traumatismos ( ) lemma=traumatismo 
- traumatiza ( ) lemma=traumatizar 
- traumatizar ( ) 
- traumatizada ( ) lemma=traumatizar 
- traumatizadas ( ) lemma=traumatizar 
- traumatizado ( ) lemma=traumatizar 
- traumatizados ( ) lemma=traumatizar 
- traumatizando ( ) lemma=traumatizar 
+ traumatismos ( ) 
+ traumatiza ( ) 
+ traumatizada ( ) 
+ traumatizadas ( ) 
+ traumatizado ( ) 
+ traumatizados ( ) 
+ traumatizando ( ) 
  traumatológico ( ) 
  traumatólogo ( ) 
- traumatólogos ( ) lemma=traumatólogo 
- traumes ( ) lemma=traumatizar 
- traumática ( ) lemma=traumático 
- traumático ( ) 
- traumáticas ( ) lemma=traumático 
+ traumatólogos ( ) 
+ traumes ( ) 
+ traumática ( ) 
+ traumáticas ( ) 
  travail ( ) 
- traves ( ) lemma=través 
- través ( ) 
+ traves ( ) 
  travesaño ( ) 
  travesura ( ) 
- travesuras ( ) lemma=travesura 
+ travesuras ( ) 
  travesía ( ) 
- travesías ( ) lemma=travesía 
- traviesa ( ) lemma=travesar 
- travesar ( ) 
- travieso ( ) lemma=travesar 
+ travesías ( ) 
+ traviesa ( ) lemma=atravesar 
+ travieso ( ) 
+ través ( ) 
  trayecto ( ) 
  trayectoria ( ) 
- trayectorias ( ) lemma=trayectoria 
- trayectos ( ) lemma=trayecto 
- trayendo ( ) lemma=traer 
- trayéndome ( ) lemma=traer 
- trayéndoselo ( ) lemma=traer 
+ trayectorias ( ) 
+ trayectos ( ) 
+ trayendo ( ) 
+ trayéndome ( ) 
+ trayéndoselo ( ) 
  traza ( ) 
- trazaba ( ) lemma=trazar 
- trazaban ( ) lemma=trazar 
+ trazaba ( ) 
+ trazaban ( ) 
  trazabilidad ( ) 
- trazada ( ) lemma=trazar 
- trazadas ( ) lemma=trazar 
+ trazada ( ) 
+ trazadas ( ) 
  trazado ( ) 
  trazador ( ) 
- trazados ( ) lemma=trazar 
- trazamos ( ) lemma=trazar 
- trazan ( ) lemma=trazar 
- trazando ( ) lemma=trazar 
- trazara ( ) lemma=trazar 
- trazaron ( ) lemma=trazar 
- trazará ( ) lemma=trazar 
- trazas ( ) lemma=traza 
+ trazados ( ) 
+ trazamos ( ) 
+ trazan ( ) 
+ trazando ( ) 
+ trazar ( ) 
+ trazara ( ) 
+ trazaron ( ) 
+ trazará ( ) 
+ trazas ( ) 
  trazo ( ) 
- trazos ( ) lemma=trazo 
- trazó ( ) lemma=trazar 
- traéis ( ) lemma=traer 
- traérmelo ( ) lemma=traer 
- traía ( ) lemma=traer 
- traían ( ) lemma=traer 
- traída ( ) lemma=traer 
- traídas ( ) lemma=traer 
- traído ( ) lemma=traer 
- traídos ( ) lemma=traer 
+ trazos ( ) 
+ trazó ( ) 
+ traéis ( ) 
+ traérmelo ( ) 
+ traía ( ) 
+ traían ( ) 
+ traída ( ) lemma=atraer 
+ traídas ( ) 
+ traído ( ) lemma=atraer 
+ traídos ( ) 
  tre ( ) 
  trebeliánico ( ) 
  trece ( ) 
  tregua ( ) 
- treguas ( ) lemma=tregua 
+ treguas ( ) 
  treinta ( ) 
  treintena ( ) 
  trematodo ( ) 
- tremenda ( ) lemma=tremendo 
+ tremenda ( ) 
+ tremendamente ( ) 
+ tremendas ( ) 
  tremendo ( ) 
- tremendamente ( ) lemma=tremendo 
- tremendas ( ) lemma=tremendo 
- tremendos ( ) lemma=tremendo 
- tremulos ( ) lemma=trémulo 
- trémulo ( ) 
+ tremendos ( ) 
+ tremulos ( ) 
  tren ( ) 
- trenes ( ) lemma=tren 
+ trenes ( ) 
  trenza ( ) 
- trenzada ( ) lemma=trenzar 
- trenzar ( ) 
- trenzado ( ) lemma=trenzar 
- trenzados ( ) lemma=trenzar 
- trenzan ( ) lemma=trenzar 
- trenzaron ( ) lemma=trenzar 
- trenzas ( ) lemma=trenza 
+ trenzada ( ) 
+ trenzado ( ) 
+ trenzados ( ) 
+ trenzan ( ) 
+ trenzaron ( ) 
+ trenzas ( ) 
  treonina ( ) 
- trepaba ( ) lemma=trepar 
- trepar ( ) 
- trepaban ( ) lemma=trepar 
- trepado ( ) lemma=trepar 
+ trepaba ( ) 
+ trepaban ( ) 
+ trepado ( ) 
  trepanación ( ) 
- treparon ( ) lemma=trepar 
- trepó ( ) lemma=trepar 
+ trepar ( ) 
+ treparon ( ) 
+ trepó ( ) 
  trepón ( ) 
- tres ( ) 
- trescientas ( ) lemma=trescientos 
+ tres ( ) lemma=stress 
+ trescientas ( ) 
  trescientos ( ) 
  tretalogía ( ) 
  triacilglicerol ( ) 
  triada ( ) 
  triangulación ( ) 
  triangular ( ) 
- triangulares ( ) lemma=triangular 
- triangulocitos ( ) lemma=triángulo 
- triángulo ( ) 
+ triangulares ( ) 
+ triangulocitos ( ) 
  tribal ( ) 
- tribales ( ) lemma=tribale 
- tribale ( ) 
- tribu ( ) 
- tribulaciones ( ) lemma=tribulación 
+ tribales ( ) 
+ tribu ( ) lemma=atribuir 
+ tribulaciones ( ) 
  tribulación ( ) 
  tribuna ( ) 
  tribunal ( ) 
- tribunales ( ) lemma=tribunal 
- tribunas ( ) lemma=tribuna 
- tribus ( ) lemma=tribu 
- tributa ( ) lemma=tributar 
- tributar ( ) 
+ tribunales ( ) 
+ tribunas ( ) 
+ tribus ( ) 
+ tributa ( ) 
  tributación ( ) 
- tributado ( ) lemma=tributar 
- tributamos ( ) lemma=tributar 
- tributan ( ) lemma=tributar 
- tributaria ( ) lemma=tributario 
+ tributado ( ) 
+ tributamos ( ) 
+ tributan ( ) 
+ tributar ( ) 
+ tributaria ( ) 
+ tributarias ( ) 
  tributario ( ) 
- tributarias ( ) lemma=tributario 
- tributarios ( ) lemma=tributario 
+ tributarios ( ) 
  tributary ( ) 
- tributaría ( ) lemma=tributar 
- tributen ( ) lemma=tributar 
- tributo ( ) 
- tributos ( ) lemma=tributo 
+ tributaría ( ) 
+ tributen ( ) 
+ tributo ( ) lemma=atributo 
+ tributos ( ) 
  tricarboxílico ( ) 
  triciclo ( ) 
  tricipical ( ) 
  tricipital ( ) 
  tricofítico ( ) 
  tricolor ( ) 
- tricolores ( ) lemma=tricolor 
+ tricolores ( ) 
  tricoma ( ) 
  tricuspídeo ( ) 
- tricíclicos ( ) lemma=tricíclico 
- tricíclico ( ) 
+ tricíclicos ( ) 
  tricúspide ( ) 
  tridimensional ( ) 
- tridimensionales ( ) lemma=tridimensional 
+ tridimensionales ( ) 
  trie ( ) 
  trienio ( ) 
  trifosfato ( ) 
- trifosfatos ( ) lemma=trifosfato 
+ trifosfatos ( ) 
  trifulca ( ) 
- trifulcas ( ) lemma=trifulca 
+ trifulcas ( ) 
  triglicerido ( ) 
  triglicérido ( ) 
- triglicéridos ( ) lemma=triglicérido 
+ triglicéridos ( ) 
  trigo ( ) 
  trigémino ( ) 
  trigésima ( ) 
  trigésimo ( ) 
- trilla ( ) lemma=trillar 
- trillar ( ) 
- trilladas ( ) lemma=trillar 
- trillados ( ) lemma=trillar 
+ trilla ( ) 
+ trilladas ( ) 
+ trillados ( ) 
  trilogía ( ) 
  trimestral ( ) 
- trimestrales ( ) lemma=trimestral 
- trimestralmente ( ) lemma=trimestral 
+ trimestrales ( ) 
+ trimestralmente ( ) 
  trimestre ( ) 
- trimestres ( ) lemma=trimestre 
+ trimestres ( ) 
  trimetoprim ( ) 
- trina ( ) lemma=trinar 
- trinar ( ) 
- trinaba ( ) lemma=trinar 
- trinaban ( ) lemma=trinar 
- trinca ( ) lemma=trincar 
+ trina ( ) 
+ trinaba ( ) 
+ trinaban ( ) 
+ trinca ( ) 
+ trincado ( ) 
  trincar ( ) 
- trincado ( ) lemma=trincar 
- trinchan ( ) lemma=trinchar 
+ trinchan ( ) 
  trinchar ( ) 
- trinchen ( ) lemma=trinchar 
- trincheras ( ) lemma=trinchera 
- trinchera ( ) 
+ trinchen ( ) 
+ trincheras ( ) 
  trino ( ) 
  trinucleótido ( ) 
- triosas ( ) lemma=triosa 
- triosa ( ) 
+ triosas ( ) 
  tripa ( ) 
  tripala ( ) 
  tripanosoma ( ) 
- tripartita ( ) lemma=tripartito 
+ tripartita ( ) 
+ tripartitas ( ) 
  tripartito ( ) 
- tripartitas ( ) lemma=tripartito 
- tripartitos ( ) lemma=tripartito 
- tripas ( ) lemma=tripa 
+ tripartitos ( ) 
+ tripas ( ) 
  tripeo ( ) 
  tripeptídico ( ) 
- tripilla ( ) lemma=tripa 
- tripita ( ) lemma=tripa 
+ tripilla ( ) 
+ tripita ( ) 
  triple ( ) 
- triplemente ( ) lemma=triple 
- triples ( ) lemma=triple 
+ triplemente ( ) 
+ triples ( ) 
  triplete ( ) 
- tripletes ( ) lemma=triplete 
- triplica ( ) lemma=triplicar 
+ tripletes ( ) 
+ triplica ( ) 
+ triplicaba ( ) 
+ triplicaban ( ) 
+ triplicado ( ) 
+ triplicamos ( ) 
+ triplican ( ) 
+ triplicando ( ) 
  triplicar ( ) 
- triplicaba ( ) lemma=triplicar 
- triplicaban ( ) lemma=triplicar 
- triplicado ( ) lemma=triplicar 
- triplicamos ( ) lemma=triplicar 
- triplican ( ) lemma=triplicar 
- triplicando ( ) lemma=triplicar 
- triplicaron ( ) lemma=triplicar 
- triplicarán ( ) lemma=triplicar 
- triplico ( ) lemma=triplicar 
- triplicó ( ) lemma=triplicar 
- tripliquen ( ) lemma=triplicar 
+ triplicaron ( ) 
+ triplicarán ( ) 
+ triplico ( ) 
+ triplicó ( ) 
+ tripliquen ( ) 
  triploide ( ) 
  tripsina ( ) 
  tripsinógeno ( ) 
  triptófano ( ) 
- tripulaba ( ) lemma=tripular 
- tripular ( ) 
- tripulaban ( ) lemma=tripular 
- tripulaciones ( ) lemma=tripulación 
+ tripulaba ( ) 
+ tripulaban ( ) 
+ tripulaciones ( ) 
  tripulación ( ) 
- tripulada ( ) lemma=tripular 
- tripulado ( ) lemma=tripular 
- tripulados ( ) lemma=tripular 
+ tripulada ( ) 
+ tripulado ( ) 
+ tripulados ( ) 
  tripulante ( ) 
- tripulantes ( ) lemma=tripulante 
+ tripulantes ( ) 
  tripéptido ( ) 
  trisomia ( ) 
  trisomía ( ) 
  trisquelion ( ) 
- trisqueliones ( ) lemma=trisquelión 
- trisquelión ( ) 
+ trisqueliones ( ) 
  triste ( ) 
- tristeando ( ) lemma=tristear 
- tristear ( ) 
- tristemente ( ) lemma=triste 
- tristes ( ) lemma=triste 
+ tristeando ( ) 
+ tristemente ( ) 
+ tristes ( ) 
  tristeza ( ) 
- tristezas ( ) lemma=tristeza 
- tristísima ( ) lemma=triste 
- tristísimas ( ) lemma=triste 
- tristísimo ( ) lemma=triste 
- tristón ( ) lemma=triste 
- trisómica ( ) lemma=trisómico 
- trisómico ( ) 
+ tristezas ( ) 
+ tristísima ( ) 
+ tristísimas ( ) 
+ tristísimo ( ) 
+ tristón ( ) 
+ trisómica ( ) 
  tritiar ( ) 
- tritura ( ) lemma=triturar 
- triturar ( ) 
+ tritura ( ) 
  trituración ( ) 
- triturada ( ) lemma=triturar 
- trituradas ( ) lemma=triturar 
- triturado ( ) lemma=triturar 
+ triturada ( ) 
+ trituradas ( ) 
+ triturado ( ) 
  trituradora ( ) 
- triturados ( ) lemma=triturar 
+ triturados ( ) 
+ triturar ( ) 
  tritón ( ) 
- triunfa ( ) lemma=triunfar 
- triunfar ( ) 
- triunfaba ( ) lemma=triunfar 
- triunfaban ( ) lemma=triunfar 
- triunfado ( ) lemma=triunfar 
+ triunfa ( ) 
+ triunfaba ( ) 
+ triunfaban ( ) 
+ triunfado ( ) 
  triunfador ( ) 
- triunfadora ( ) lemma=triunfador 
- triunfadoras ( ) lemma=triunfador 
- triunfadores ( ) lemma=triunfador 
+ triunfadora ( ) 
+ triunfadoras ( ) 
+ triunfadores ( ) 
  triunfal ( ) 
- triunfales ( ) lemma=triunfal 
- triunfalmente ( ) lemma=triunfal 
- triunfamos ( ) lemma=triunfar 
- triunfan ( ) lemma=triunfar 
- triunfando ( ) lemma=triunfar 
+ triunfales ( ) 
+ triunfalmente ( ) 
+ triunfamos ( ) 
+ triunfan ( ) 
+ triunfando ( ) 
  triunfante ( ) 
- triunfantes ( ) lemma=triunfante 
- triunfara ( ) lemma=triunfar 
- triunfaron ( ) lemma=triunfar 
- triunfará ( ) lemma=triunfar 
- triunfarán ( ) lemma=triunfar 
- triunfarían ( ) lemma=triunfar 
- triunfase ( ) lemma=triunfar 
- triunfe ( ) lemma=triunfar 
- triunfen ( ) lemma=triunfar 
- triunfes ( ) lemma=triunfar 
+ triunfantes ( ) 
+ triunfar ( ) 
+ triunfara ( ) 
+ triunfaron ( ) 
+ triunfará ( ) 
+ triunfarán ( ) 
+ triunfarían ( ) 
+ triunfase ( ) 
+ triunfe ( ) 
+ triunfen ( ) 
+ triunfes ( ) 
  triunfo ( ) 
- triunfos ( ) lemma=triunfo 
- triunfó ( ) lemma=triunfar 
+ triunfos ( ) 
+ triunfó ( ) 
  trivalente ( ) 
  trivial ( ) 
- triviales ( ) lemma=trivial 
+ triviales ( ) 
  trivialidad ( ) 
- trivialidades ( ) lemma=trivialidad 
+ trivialidades ( ) 
  triyodotironina ( ) 
- trizas ( ) lemma=trizar 
- trizar ( ) 
- triángulos ( ) lemma=triángulo 
+ trizas ( ) 
+ triángulo ( ) 
+ triángulos ( ) 
  trióxido ( ) 
  trna ( ) 
  trno ( ) 
  trocar ( ) 
- troceado ( ) lemma=trocear 
- trocear ( ) 
- trocean ( ) lemma=trocear 
- trocito ( ) lemma=trozo 
- trozo ( ) 
- trocitos ( ) lemma=trozo 
+ troceado ( ) 
+ trocean ( ) 
+ trocito ( ) 
+ trocitos ( ) 
  trofeo ( ) 
- trofeos ( ) lemma=trofeo 
+ trofeos ( ) 
  trofoblasto ( ) 
  trofoblástico ( ) 
  trofoectodermo ( ) 
@@ -3443,323 +3308,309 @@
  trombogénico ( ) 
  trombomodulina ( ) 
  trombone ( ) 
- trombopenias ( ) lemma=trombopenia 
- trombopenia ( ) 
+ trombopenias ( ) 
  tromboplástico ( ) 
- trombos ( ) lemma=trombo 
+ trombos ( ) 
  trombosis ( ) 
  trombótico ( ) 
  trompa ( ) 
- trompas ( ) lemma=trompa 
+ trompas ( ) 
  trompeta ( ) 
- trompetas ( ) lemma=trompeta 
- trompicado ( ) lemma=trompicar 
- trompicar ( ) 
- trompo ( ) lemma=trompar 
- trompar ( ) 
- trona ( ) 
+ trompetas ( ) 
+ trompicado ( ) 
+ trompo ( ) 
+ trona ( ) lemma=atronar 
  troncal ( ) 
- troncales ( ) lemma=troncal 
- tronchas ( ) lemma=tronchar 
- tronchar ( ) 
- tronchándonos ( ) lemma=tronchar 
- tronchándose ( ) lemma=tronchar 
+ troncales ( ) 
+ tronchas ( ) 
+ tronchándonos ( ) 
+ tronchándose ( ) 
  tronco ( ) 
- troncos ( ) lemma=tronco 
+ troncos ( ) 
  troncular ( ) 
  trono ( ) 
- tronó ( ) lemma=tronar 
- tronar ( ) 
+ tronó ( ) 
  tropa ( ) 
- tropas ( ) lemma=tropa 
- tropecemos ( ) lemma=tropezar 
- tropezar ( ) 
- tropecé ( ) lemma=tropezar 
+ tropas ( ) 
+ tropecemos ( ) 
+ tropecé ( ) 
  tropel ( ) 
- tropelías ( ) lemma=tropelía 
- tropelía ( ) 
- tropezaba ( ) lemma=tropezar 
- tropezaban ( ) lemma=tropezar 
- tropezado ( ) lemma=tropezar 
- tropezamos ( ) lemma=tropezar 
- tropezando ( ) lemma=tropezar 
- tropezara ( ) lemma=tropezar 
- tropezaran ( ) lemma=tropezar 
- tropezaremos ( ) lemma=tropezar 
- tropezaron ( ) lemma=tropezar 
- tropezará ( ) lemma=tropezar 
- tropezarán ( ) lemma=tropezar 
- tropezaría ( ) lemma=tropezar 
- tropezaríamos ( ) lemma=tropezar 
- tropezarían ( ) lemma=tropezar 
- tropezábamos ( ) lemma=tropezar 
- tropezó ( ) lemma=tropezar 
+ tropelías ( ) 
+ tropezaba ( ) 
+ tropezaban ( ) 
+ tropezado ( ) 
+ tropezamos ( ) 
+ tropezando ( ) 
+ tropezar ( ) 
+ tropezara ( ) 
+ tropezaran ( ) 
+ tropezaremos ( ) 
+ tropezaron ( ) 
+ tropezará ( ) 
+ tropezarán ( ) 
+ tropezaría ( ) 
+ tropezaríamos ( ) 
+ tropezarían ( ) 
+ tropezábamos ( ) 
+ tropezó ( ) 
  tropezón ( ) 
  tropical ( ) 
- tropicales ( ) lemma=tropical 
- tropiece ( ) lemma=tropezar 
- tropiecen ( ) lemma=tropezar 
- tropieza ( ) lemma=tropezar 
- tropiezan ( ) lemma=tropezar 
- tropiezo ( ) lemma=tropezar 
+ tropicales ( ) 
+ tropiece ( ) 
+ tropiecen ( ) 
+ tropieza ( ) 
+ tropiezan ( ) 
+ tropiezo ( ) 
  tropomiosina ( ) 
  troponina ( ) 
  troposférico ( ) 
- trotando ( ) lemma=trotar 
+ trotando ( ) 
  trotar ( ) 
  trote ( ) 
- trotecillo ( ) lemma=trote 
- trotes ( ) lemma=trote 
- trotó ( ) lemma=trotar 
- troyanos ( ) lemma=troyano 
- troyano ( ) 
- trozos ( ) lemma=trozo 
+ trotecillo ( ) 
+ trotes ( ) 
+ trotó ( ) 
+ troyanos ( ) 
+ trozo ( ) 
+ trozos ( ) 
  trubamulta ( ) 
- trucada ( ) lemma=trucar 
- trucar ( ) 
- trucado ( ) lemma=trucar 
+ trucada ( ) 
+ trucado ( ) 
  trucha ( ) 
- truchas ( ) lemma=trucha 
- truco ( ) lemma=trucar 
- trucos ( ) lemma=truco 
- truculenta ( ) lemma=truculento 
- truculento ( ) 
- truculentas ( ) lemma=truculento 
- truculentos ( ) lemma=truculento 
- truena ( ) lemma=tronar 
- truene ( ) lemma=tronar 
+ truchas ( ) 
+ truco ( ) 
+ trucos ( ) 
+ truculenta ( ) 
+ truculentas ( ) 
+ truculentos ( ) 
+ truena ( ) 
+ truene ( ) 
  trueno ( ) 
- truenos ( ) lemma=trueno 
- trueque ( ) lemma=trocar 
- truncadas ( ) lemma=truncar 
+ truenos ( ) 
+ trueque ( ) 
+ truncadas ( ) 
+ truncado ( ) 
+ truncados ( ) 
  truncar ( ) 
- truncado ( ) lemma=truncar 
- truncados ( ) lemma=truncar 
- truncará ( ) lemma=truncar 
- truncó ( ) lemma=truncar 
+ truncará ( ) 
+ truncó ( ) 
  trunk ( ) 
  trunking ( ) 
  trust ( ) 
- tráele ( ) lemma=traer 
- tráelo ( ) lemma=traer 
- tráeme ( ) lemma=traer 
- tráenos ( ) lemma=traer 
- tráete ( ) lemma=traer 
+ tráele ( ) 
+ tráelo ( ) 
+ tráeme ( ) 
+ tráenos ( ) 
+ tráete ( ) 
  tráfico ( ) 
- tráficos ( ) lemma=tráfico 
- trágica ( ) lemma=trágico 
+ tráficos ( ) 
+ trágica ( ) 
+ trágicamente ( ) 
+ trágicas ( ) 
  trágico ( ) 
- trágicamente ( ) lemma=trágico 
- trágicas ( ) lemma=trágico 
- trágicos ( ) lemma=trágico 
- tráigame ( ) lemma=traer 
+ trágicos ( ) 
+ tráigame ( ) 
  trámite ( ) 
- trámites ( ) lemma=trámite 
+ trámites ( ) 
  tránsito ( ) 
- tránsitos ( ) lemma=tránsito 
+ tránsitos ( ) 
  tráquea ( ) 
- trátese ( ) lemma=tratar 
+ trátese ( ) 
  trébol ( ) 
- tréboles ( ) lemma=trébol 
+ tréboles ( ) 
  tríada ( ) 
  tríceps ( ) 
  trímero ( ) 
  trío ( ) 
- tríos ( ) lemma=trío 
+ tríos ( ) 
  tríplice ( ) 
- tríplices ( ) lemma=tríplice 
- trófica ( ) lemma=trófico 
- trófico ( ) 
- tróficas ( ) lemma=trófico 
+ tríplices ( ) 
+ trófica ( ) lemma=atrófico 
+ tróficas ( ) 
  trópico ( ) 
- trópicos ( ) lemma=trópico 
+ trópicos ( ) 
  tsa ( ) 
- tu ( ) lemma=tú 
- tuberculosa ( ) lemma=tuberculoso 
- tuberculoso ( ) 
- tuberculosas ( ) lemma=tuberculoso 
+ tu ( ) 
+ tuberculosa ( ) 
+ tuberculosas ( ) 
  tuberculosis ( ) 
- tuberculosos ( ) lemma=tuberculoso 
+ tuberculoso ( ) 
+ tuberculosos ( ) 
  tuberculostático ( ) 
  tuberculín-negativo ( ) 
- tuberculínica ( ) lemma=tuberculínico 
- tuberculínico ( ) 
- tuberculínicas ( ) lemma=tuberculínico 
+ tuberculínica ( ) 
+ tuberculínicas ( ) 
  tuberosidad ( ) 
  tubería ( ) 
- tuberías ( ) lemma=tubería 
- tubito ( ) lemma=tubo 
+ tuberías ( ) 
+ tubito ( ) 
+ tubitos ( ) 
  tubo ( ) 
- tubitos ( ) lemma=tubo 
- tubos ( ) lemma=tubo 
+ tubos ( ) 
  tubovárico ( ) 
  tubular ( ) 
- tubulares ( ) lemma=tubular 
+ tubulares ( ) 
  tubulina ( ) 
  tubuloglomerular ( ) 
  tubulointersticial ( ) 
  tubérculo ( ) 
- tuercas ( ) lemma=tuerca 
- tuerca ( ) 
- tuerce ( ) lemma=torcer 
- tuercen ( ) lemma=torcer 
+ tuercas ( ) 
+ tuerce ( ) 
+ tuercen ( ) 
  tuerto ( ) 
- tufillo ( ) lemma=tufo 
+ tufillo ( ) 
  tufo ( ) 
- tullidos ( ) lemma=tullido 
- tullido ( ) 
+ tullidos ( ) 
  tumba ( ) 
- tumbados ( ) lemma=tumbar 
+ tumbados ( ) 
+ tumban ( ) 
  tumbar ( ) 
- tumban ( ) lemma=tumbar 
- tumbara ( ) lemma=tumbar 
- tumbaron ( ) lemma=tumbar 
- tumbarán ( ) lemma=tumbar 
- tumbas ( ) lemma=tumba 
- tumbó ( ) lemma=tumbar 
+ tumbara ( ) 
+ tumbaron ( ) 
+ tumbarán ( ) 
+ tumbas ( ) 
+ tumbó ( ) 
  tumefacción ( ) 
  tumor ( ) 
  tumoración ( ) 
  tumoral ( ) 
- tumorales ( ) lemma=tumoral 
- tumorcito ( ) lemma=tumor 
- tumores ( ) lemma=tumor 
+ tumorales ( ) 
+ tumorcito ( ) 
+ tumores ( ) 
  tumorígeno ( ) 
  tumulto ( ) 
- tumultos ( ) lemma=tumulto 
- tumultuosa ( ) lemma=tumultuoso 
+ tumultos ( ) 
+ tumultuosa ( ) 
  tumultuoso ( ) 
  tuna ( ) 
- tunas ( ) lemma=tuna 
- tunecina ( ) lemma=tunecino 
+ tunas ( ) 
+ tunecina ( ) 
+ tunecinas ( ) 
  tunecino ( ) 
- tunecinas ( ) lemma=tunecino 
- tunecinos ( ) lemma=tunecino 
+ tunecinos ( ) 
  tungsteno ( ) 
  tunicado ( ) 
  tuno ( ) 
- tupida ( ) lemma=tupir 
- tupir ( ) 
- tupido ( ) lemma=tupir 
- tupió ( ) lemma=tupiar|tupir 
- tupiar|tupir ( ) 
- tupí ( ) lemma=tupir 
+ tupida ( ) 
+ tupido ( ) 
+ tupió ( ) 
+ tupí ( ) 
  turba ( ) 
- turbada ( ) lemma=turbar 
+ turbada ( ) 
+ turbado ( ) 
+ turbados ( ) 
  turbar ( ) 
- turbado ( ) lemma=turbar 
- turbados ( ) lemma=turbar 
- turbas ( ) lemma=turbar 
- turberas ( ) lemma=turbera 
- turbera ( ) 
- turbi ( ) lemma=turbina 
- turbina ( ) 
- turbia ( ) lemma=turbio 
- turbio ( ) 
- turbias ( ) lemma=turbio 
+ turbas ( ) 
+ turberas ( ) 
+ turbi ( ) 
+ turbia ( ) 
+ turbias ( ) 
  turbidez ( ) 
  turbidímetro ( ) 
  turbiedad ( ) 
- turbinas ( ) lemma=turbina 
- turbios ( ) lemma=turbio 
- turbo ( ) lemma=turbar 
+ turbina ( ) 
+ turbinas ( ) 
+ turbio ( ) 
+ turbios ( ) 
+ turbo ( ) 
  turbuhaler ( ) 
  turbulencia ( ) 
- turbulencias ( ) lemma=turbulencia 
- turbulenta ( ) lemma=turbulento 
+ turbulencias ( ) 
+ turbulenta ( ) 
+ turbulentas ( ) 
  turbulento ( ) 
- turbulentas ( ) lemma=turbulento 
- turbulentos ( ) lemma=turbulento 
- turca ( ) lemma=turco 
+ turbulentos ( ) 
+ turca ( ) 
+ turcas ( ) 
  turco ( ) 
- turcas ( ) lemma=turco 
- turcos ( ) lemma=turco 
+ turcos ( ) 
  turfístico ( ) 
  turing ( ) 
  turismo ( ) 
- turismos ( ) lemma=turismo 
+ turismos ( ) 
  turista ( ) 
- turistas ( ) lemma=turista 
- turnaban ( ) lemma=turnar 
+ turistas ( ) 
+ turnaban ( ) 
+ turnada ( ) 
+ turnado ( ) 
+ turnados ( ) 
+ turnamos ( ) 
+ turnando ( ) 
  turnar ( ) 
- turnada ( ) lemma=turnar 
- turnado ( ) lemma=turnar 
- turnados ( ) lemma=turnar 
- turnamos ( ) lemma=turnar 
- turnando ( ) lemma=turnar 
- turnes ( ) lemma=turnar 
+ turnes ( ) 
  turno ( ) 
- turnos ( ) lemma=turno 
- turnándose ( ) lemma=turnar 
- turnó ( ) lemma=turnar 
- turquesas ( ) lemma=turquesa 
- turquesa ( ) 
- turrones ( ) lemma=turrón 
+ turnos ( ) 
+ turnándose ( ) 
+ turnó ( ) 
+ turquesas ( ) 
+ turrones ( ) 
  turrón ( ) 
  turubán ( ) 
  turulato ( ) 
- turística ( ) lemma=turístico 
+ turística ( ) 
+ turísticas ( ) 
  turístico ( ) 
- turísticas ( ) lemma=turístico 
- turísticos ( ) lemma=turístico 
- tus ( ) lemma=tu 
+ turísticos ( ) 
+ tus ( ) 
  tusígeno ( ) 
  tute ( ) 
- tutea ( ) lemma=tutear 
+ tutea ( ) 
+ tutean ( ) 
  tutear ( ) 
- tutean ( ) lemma=tutear 
  tutela ( ) 
- tutelado ( ) lemma=tutelar 
- tutelar ( ) 
- tutelares ( ) lemma=tutelar 
- tutelas ( ) lemma=tutela 
+ tutelado ( ) 
+ tutelares ( ) 
+ tutelas ( ) 
  tuteo ( ) 
  tutor ( ) 
- tutores ( ) lemma=tutor 
+ tutores ( ) 
  tutorial ( ) 
  tutoriales ( ) 
  tutoría ( ) 
- tutorías ( ) lemma=tutoría 
+ tutorías ( ) 
  tututututú ( ) 
  tutututú ( ) 
- tuve ( ) lemma=tener 
- tuviera ( ) lemma=tener 
- tuvierais ( ) lemma=tener 
- tuvieran ( ) lemma=tener 
- tuvieras ( ) lemma=tener 
- tuviere ( ) lemma=tener 
- tuvieren ( ) lemma=tener 
- tuvieron ( ) lemma=tener 
- tuviese ( ) lemma=tener 
- tuvieseis ( ) lemma=tener 
- tuviesen ( ) lemma=tener 
- tuvimos ( ) lemma=tener 
- tuviste ( ) lemma=tener 
- tuviéramos ( ) lemma=tener 
- tuviésemos ( ) lemma=tener 
- tuvo ( ) lemma=tener 
- tuya ( ) lemma=tuyo 
+ tuve ( ) 
+ tuviera ( ) lemma=atener 
+ tuvierais ( ) 
+ tuvieran ( ) 
+ tuvieras ( ) 
+ tuviere ( ) 
+ tuvieren ( ) 
+ tuvieron ( ) 
+ tuviese ( ) 
+ tuvieseis ( ) 
+ tuviesen ( ) 
+ tuvimos ( ) 
+ tuviste ( ) 
+ tuviéramos ( ) 
+ tuviésemos ( ) 
+ tuvo ( ) 
+ tuya ( ) 
  tuyo ( ) 
  two ( ) 
  type ( ) 
  typed ( ) 
  tá ( ) 
- tácita ( ) lemma=tácito 
+ tácita ( ) 
+ tácitamente ( ) 
  tácito ( ) 
- tácitamente ( ) lemma=tácito 
  táctica ( ) 
- tácticamente ( ) lemma=táctico 
+ tácticamente ( ) 
+ tácticas ( ) 
  táctico ( ) 
- tácticas ( ) lemma=táctica 
- tácticos ( ) lemma=táctico 
+ tácticos ( ) 
  táctil ( ) 
  tádem ( ) 
  tálamo ( ) 
  tándem ( ) 
- técnicamente ( ) lemma=técnico 
- técnicas ( ) lemma=técnico 
+ té ( ) 
+ técnica ( ) 
+ técnicamente ( ) 
+ técnicas ( ) 
+ técnico ( ) 
  técnico-docente ( ) 
- técnicos ( ) lemma=técnico 
+ técnicos ( ) 
  télex ( ) 
  télécommandé ( ) 
  télécommunication ( ) 
@@ -3775,62 +3626,845 @@
  téléscripteur ( ) 
  télétex ( ) 
  télétype ( ) 
- téngalo ( ) lemma=tener 
- téngase ( ) lemma=tener 
- téorica ( ) lemma=téorico 
- téorico ( ) 
- térmica ( ) lemma=térmico 
+ téngalo ( ) 
+ téngase ( ) 
+ téorica ( ) 
+ térmica ( ) 
+ térmicamente ( ) 
+ térmicas ( ) 
  térmico ( ) 
- térmicamente ( ) lemma=térmico 
- térmicas ( ) lemma=térmico 
- térmicos ( ) lemma=térmico 
+ térmicos ( ) 
  término ( ) 
- términos ( ) lemma=término 
- tétanos ( ) lemma=tetar 
- tetar ( ) 
- tí ( ) lemma=ter 
- tía ( ) lemma=tío 
- tío ( ) 
- tías ( ) lemma=tío 
+ términos ( ) 
+ tétanos ( ) 
+ tí ( ) 
+ tía ( ) 
+ tías ( ) 
  tífico ( ) 
- tímida ( ) lemma=tímido 
- tímidamente ( ) lemma=tímido 
- tímidas ( ) lemma=tímido 
- tímidos ( ) lemma=tímido 
+ tímida ( ) 
+ tímidamente ( ) 
+ tímidas ( ) 
+ tímido ( ) 
+ tímidos ( ) 
  tímpano ( ) 
- tímpanos ( ) lemma=tímpano 
- tíos ( ) lemma=tío 
- típica ( ) lemma=típico 
- típico ( ) 
- típicamente ( ) lemma=típico 
- típicas ( ) lemma=típico 
- típicos ( ) lemma=típico 
- tíralo ( ) lemma=tirar 
- tíralos ( ) lemma=tirar 
+ tímpanos ( ) 
+ tío ( ) 
+ tíos ( ) 
+ típica ( ) lemma=atípico 
+ típicamente ( ) 
+ típicas ( ) 
+ típico ( ) lemma=atípico 
+ típicos ( ) 
+ tíralo ( ) 
+ tíralos ( ) 
  tísico ( ) 
- títulos ( ) lemma=título 
- tócate ( ) lemma=tocar 
- tómate ( ) lemma=tomar 
- tómatelo ( ) lemma=tomar 
- tónica ( ) lemma=tónico 
- tónico ( ) 
+ título ( ) 
+ títulos ( ) 
+ tócate ( ) 
+ tómate ( ) 
+ tómatelo ( ) 
+ tómbola ( ) 
+ tónica ( ) 
  tónicamente ( ) 
- tónicas ( ) lemma=tónico 
- tópica ( ) lemma=tópico 
+ tónicas ( ) 
+ tónico ( ) 
+ tópica ( ) 
  tópico ( ) 
- tópicos ( ) lemma=tópico 
+ tópicos ( ) 
  tórax ( ) 
  tórpido ( ) 
- tórtolas ( ) lemma=tórtola 
- tórtola ( ) 
+ tórtolas ( ) 
  tótem ( ) 
- tóxica ( ) lemma=tóxico 
+ tóxica ( ) 
+ tóxicas ( ) 
  tóxico ( ) 
- tóxicas ( ) lemma=tóxico 
- tóxicos ( ) lemma=tóxico 
+ tóxicos ( ) 
+ tú ( ) lemma=atún 
  túbulo ( ) 
- túbulos ( ) lemma=túbulo 
+ túbulos ( ) 
  túnel ( ) 
- túneles ( ) lemma=túnel 
+ túneles ( ) 
  túnica ( ) 
- túnicas ( ) lemma=túnica 
+ túnicas ( ) 
+ T1. ( ) lemma=6T1.3 
+ T5. ( ) lemma=2T5.4 
+ TI ( ) lemma=ATI2 
+ TTENTIO ( ) lemma=ATTENTION 
+ tahualp ( ) lemma=Atahualpa 
+ telectasi ( ) lemma=atelectasia 
+ tena ( ) lemma=Atenas 
+ then ( ) lemma=Athena 
+ tlant ( ) lemma=Atlanta 
+ T10 ( ) lemma=CT109 
+ T-TR ( ) lemma=ET-TR2 
+ ternaut ( ) lemma=Eternauta 
+ therne ( ) lemma=Ethernet 
+ tiopatogeni ( ) lemma=etiopatogenia 
+ tiopí ( ) lemma=Etiopía 
+ TE ( ) lemma=STET 
+ tali ( ) lemma=Stalin 
+ tapem ( ) lemma=Itapema 
+ toi ( ) lemma=Itoiz 
+ tratropi ( ) lemma=Itratropio 
+ t� ( ) lemma=atar 
+ T0 ( ) lemma=LT02 
+ T6 ( ) lemma=LT64 
+ tili ( ) lemma=Otilia 
+ ttaw ( ) lemma=Ottawa 
+ tashn ( ) lemma=Ptashne 
+ tolome ( ) lemma=Ptolomeo 
+ TP ( ) lemma=RTPC 
+ TPC-RDS ( ) lemma=RTPC-RDSI 
+ TEINBER ( ) lemma=STEINBERG 
+ tadiu ( ) lemma=Stadium 
+ tah ( ) lemma=Stahl 
+ tanfor ( ) lemma=Stanford 
+ tarlin ( ) lemma=Starling 
+ tarne ( ) lemma=Starner 
+ tat ( ) lemma=Stata 
+ tatu ( ) lemma=status 
+ tefa ( ) lemma=Stefan 
+ teinber ( ) lemma=Steinberg 
+ tev ( ) lemma=Steve 
+ tewar ( ) lemma=Stewart 
+ tokes-Adam ( ) lemma=Stokes-Adams 
+ toke ( ) lemma=Stokey 
+ toneybroo ( ) lemma=Stoneybrook 
+ tow ( ) lemma=Stowe 
+ trasber ( ) lemma=Strasberg 
+ tuden ( ) lemma=Student 
+ tELEIMPRESORA ( ) 
+ tilisateu ( ) lemma=Utilisateur 
+ tac ( ) lemma=stack 
+ tacab ( ) lemma=atacar 
+ tacaba ( ) lemma=atacar 
+ tacad ( ) lemma=atacar 
+ tacada ( ) lemma=atacar 
+ tacado ( ) lemma=atacar 
+ tacamo ( ) lemma=atacar 
+ tacand ( ) lemma=atacar 
+ tacant ( ) lemma=atacante 
+ tacante ( ) lemma=atacante 
+ tacar ( ) lemma=atacar 
+ tacara ( ) lemma=atacar 
+ tacarl ( ) lemma=atacar 
+ tacarno ( ) lemma=atacar 
+ tacaro ( ) lemma=atacar 
+ tacar� ( ) lemma=atacar 
+ tacará ( ) lemma=atacar 
+ tacarí ( ) lemma=atacar 
+ tacaría ( ) lemma=atacar 
+ tacándole ( ) lemma=atacar 
+ tac� ( ) lemma=atacar 
+ tad ( ) lemma=atar 
+ tada ( ) lemma=atar 
+ tado ( ) lemma=atar 
+ tajab ( ) lemma=atajar 
+ tajad ( ) lemma=atajar 
+ tajado ( ) lemma=atajar 
+ tajamo ( ) lemma=atajar 
+ taja ( ) lemma=atajar 
+ tajand ( ) lemma=atajar 
+ tajar ( ) lemma=atajar 
+ tajarl ( ) lemma=atajar 
+ tajarlo ( ) lemma=atajar 
+ taj ( ) lemma=atajo 
+ taj� ( ) lemma=atajar 
+ talay ( ) lemma=atalayar 
+ talaya ( ) lemma=atalayar 
+ tand ( ) lemma=atar 
+ taqu ( ) lemma=ataque 
+ taquemo ( ) lemma=atacar 
+ taque ( ) lemma=ataque 
+ tardece ( ) lemma=atardecer 
+ tar ( ) lemma=start 
+ taread ( ) lemma=atarear 
+ tareado ( ) lemma=atarear 
+ taro ( ) lemma=atar 
+ tars ( ) lemma=atarse 
+ tasc ( ) lemma=atasco 
+ tascabl ( ) lemma=atascable 
+ tascada ( ) lemma=atascar 
+ tascad ( ) lemma=atascar 
+ tascado ( ) lemma=atascar 
+ tasca ( ) lemma=atascar 
+ tascand ( ) lemma=atascar 
+ tascaro ( ) lemma=atascar 
+ tascas ( ) lemma=atascar 
+ tasco ( ) lemma=atasco 
+ tasqu ( ) lemma=atascar 
+ tañ ( ) lemma=atañer 
+ taña ( ) lemma=atañer 
+ tañe ( ) lemma=atañer 
+ tañend ( ) lemma=atañer 
+ tañer ( ) lemma=atañer 
+ tañí ( ) lemma=atañer 
+ taú ( ) lemma=ataúd 
+ taúde ( ) lemma=ataúd 
+ telectusi ( ) lemma=atelectusia 
+ telectásic ( ) lemma=atelectásico 
+ temoric ( ) lemma=atemorizar 
+ temoriz ( ) lemma=atemorizar 
+ temorizaba ( ) lemma=atemorizar 
+ temorizad ( ) lemma=atemorizar 
+ temorizado ( ) lemma=atemorizar 
+ temorizador ( ) lemma=atemorizador 
+ temoriza ( ) lemma=atemorizar 
+ temper ( ) lemma=atemperar 
+ temperad ( ) lemma=atemperar 
+ temperand ( ) lemma=atemperar 
+ tempera ( ) lemma=atemperar 
+ tenazad ( ) lemma=atenazar 
+ tenazado ( ) lemma=atenazar 
+ tenaz� ( ) lemma=atenazar 
+ tencione ( ) lemma=atención 
+ tenció ( ) lemma=atención 
+ tendemo ( ) lemma=atender 
+ tende ( ) lemma=atender 
+ tenderemo ( ) lemma=atender 
+ tenderl ( ) lemma=atender 
+ tenderla ( ) lemma=atender 
+ tenderm ( ) lemma=atender 
+ tenderno ( ) lemma=atender 
+ tenders ( ) lemma=atenderse 
+ tender� ( ) lemma=atender 
+ tendid ( ) lemma=atender 
+ tendiend ( ) lemma=atender 
+ tendier ( ) lemma=atender 
+ tendierai ( ) lemma=atender 
+ tendiero ( ) lemma=atender 
+ tendies ( ) lemma=atender 
+ tendiéndol ( ) lemma=atender 
+ tendi� ( ) lemma=atender 
+ tendremo ( ) lemma=atener 
+ tendr� ( ) lemma=atener 
+ tendrí ( ) lemma=atener 
+ tendríamo ( ) lemma=atener 
+ tendí ( ) lemma=atender 
+ tenemo ( ) lemma=atener 
+ tene ( ) lemma=atener 
+ tenerm ( ) lemma=atener 
+ tenerno ( ) lemma=atener 
+ teners ( ) lemma=atenerse 
+ teng ( ) lemma=atener 
+ tengamo ( ) lemma=atener 
+ tengámono ( ) lemma=atener 
+ tenid ( ) lemma=atener 
+ teniend ( ) lemma=atener 
+ teniéndom ( ) lemma=atener 
+ teniéndono ( ) lemma=atener 
+ teniéndos ( ) lemma=atenerse 
+ tent ( ) lemma=atento 
+ tentab ( ) lemma=atentar 
+ tentad ( ) lemma=atentado 
+ tentament ( ) lemma=atento 
+ tenta ( ) lemma=atento 
+ tentand ( ) lemma=atentar 
+ tentara ( ) lemma=atentar 
+ tentaro ( ) lemma=atentar 
+ tentarí ( ) lemma=atentar 
+ tentaría ( ) lemma=atentar 
+ tentatori ( ) lemma=atentatorio 
+ tentatorio ( ) lemma=atentatorio 
+ tente ( ) lemma=atentar 
+ tento ( ) lemma=atento 
+ tent� ( ) lemma=atentar 
+ tenuacione ( ) lemma=atenuación 
+ tenuació ( ) lemma=atenuación 
+ tenuad ( ) lemma=atenuar 
+ tenuada ( ) lemma=atenuar 
+ tenuado ( ) lemma=atenuar 
+ tenuadore ( ) lemma=atenuador 
+ tenuand ( ) lemma=atenuar 
+ tenuant ( ) lemma=atenuante 
+ tenuante ( ) lemma=atenuante 
+ tenua ( ) lemma=atenuar 
+ tenuar ( ) lemma=atenuar 
+ tenuaro ( ) lemma=atenuar 
+ tenuará ( ) lemma=atenuar 
+ tenuarí ( ) lemma=atenuar 
+ tenu� ( ) lemma=atenuar 
+ tenú ( ) lemma=atenuar 
+ tenúa ( ) lemma=atenuar 
+ tenúe ( ) lemma=atenuar 
+ teo ( ) lemma=ateo 
+ terent ( ) lemma=aterente 
+ teroesclerosi ( ) lemma=ateroesclerosis 
+ terogenicida ( ) lemma=aterogenicidad 
+ terogénic ( ) lemma=aterogénico 
+ terom ( ) lemma=ateroma 
+ teromatosi ( ) lemma=ateromatosis 
+ teromatos ( ) lemma=ateromatoso 
+ terosclerosi ( ) lemma=aterosclerosis 
+ terosclerótic ( ) lemma=aterosclerótico 
+ terr ( ) lemma=aterrar 
+ terrado ( ) lemma=aterrar 
+ terrador ( ) lemma=aterrador 
+ terradora ( ) lemma=aterrador 
+ terradore ( ) lemma=aterrador 
+ terric ( ) lemma=aterrizar 
+ terrice ( ) lemma=aterrizar 
+ terriz ( ) lemma=aterrizar 
+ terrizab ( ) lemma=aterrizar 
+ terrizad ( ) lemma=aterrizar 
+ terrizaj ( ) lemma=aterrizaje 
+ terrizaje ( ) lemma=aterrizaje 
+ terriza ( ) lemma=aterrizar 
+ terrizand ( ) lemma=aterrizar 
+ terrizar ( ) lemma=aterrizar 
+ terrizara ( ) lemma=aterrizar 
+ terrizaro ( ) lemma=aterrizar 
+ terrizarí ( ) lemma=aterrizar 
+ terriz� ( ) lemma=aterrizar 
+ terroric ( ) lemma=aterrorizar 
+ terroriz ( ) lemma=aterrorizar 
+ terrorizaba ( ) lemma=aterrorizar 
+ terrorizad ( ) lemma=aterrorizado 
+ terrorizada ( ) lemma=aterrorizar 
+ terrorizado ( ) lemma=aterrorizar 
+ terroriza ( ) lemma=aterrorizar 
+ terrorizand ( ) lemma=aterrorizar 
+ terrorizaro ( ) lemma=aterrorizar 
+ tesor ( ) lemma=atesorar 
+ tesoramient ( ) lemma=atesoramiento 
+ tesorand ( ) lemma=atesorar 
+ testad ( ) lemma=atestar 
+ testada ( ) lemma=atestar 
+ testa ( ) lemma=atestar 
+ testaro ( ) lemma=atestar 
+ testigu ( ) lemma=atestiguar 
+ testigua ( ) lemma=atestiguar 
+ testiguaro ( ) lemma=atestiguar 
+ testiguaría ( ) lemma=atestiguar 
+ testigü ( ) lemma=atestiguar 
+ ticemo ( ) lemma=atizar 
+ tiend ( ) lemma=atender 
+ tien ( ) lemma=atener 
+ tinad ( ) lemma=atinar 
+ tinada ( ) lemma=atinar 
+ tina ( ) lemma=atinar 
+ tin ( ) lemma=atino 
+ tin� ( ) lemma=atinar 
+ tisb ( ) lemma=atisbo 
+ tisba ( ) lemma=atisbar 
+ tisband ( ) lemma=atisbar 
+ tisb� ( ) lemma=atisbar 
+ tiz ( ) lemma=atizar 
+ tizad ( ) lemma=atizar 
+ tizarl ( ) lemma=atizar 
+ tiéndanl ( ) lemma=atender 
+ tlanto-occipita ( ) lemma=atlanto-occipital 
+ tla ( ) lemma=atlas 
+ tlet ( ) lemma=atleta 
+ tleta ( ) lemma=atleta 
+ tletism ( ) lemma=atletismo 
+ tlántic ( ) lemma=atlántico 
+ tlántica ( ) lemma=atlántico 
+ tlántico ( ) lemma=atlántico 
+ tlétic ( ) lemma=atlético 
+ tlética ( ) lemma=atlético 
+ tlético ( ) lemma=atlético 
+ tmosféric ( ) lemma=atmosférico 
+ tmosférica ( ) lemma=atmosférico 
+ tmosférico ( ) lemma=atmosférico 
+ tmósfer ( ) lemma=atmósfera 
+ tmósfera ( ) lemma=atmósfera 
+ toní ( ) lemma=atonía 
+ tor ( ) lemma=store 
+ torad ( ) lemma=atorar 
+ torment ( ) lemma=atormentar 
+ tormentad ( ) lemma=atormentar 
+ tormentada ( ) lemma=atormentar 
+ tormentado ( ) lemma=atormentar 
+ tormentand ( ) lemma=atormentar 
+ tormentar ( ) lemma=atormentar 
+ tosigad ( ) lemma=atosigar 
+ tosiga ( ) lemma=atosigar 
+ tosigar� ( ) lemma=atosigar 
+ tosigu ( ) lemma=atosigar 
+ tpas ( ) lemma=atpasa 
+ tracad ( ) lemma=atracar 
+ tracamo ( ) lemma=atracar 
+ traca ( ) lemma=atracar 
+ tracand ( ) lemma=atracar 
+ tracaro ( ) lemma=atracar 
+ traccione ( ) lemma=atracción 
+ tracció ( ) lemma=atracción 
+ trac ( ) lemma=atraco 
+ traco ( ) lemma=atraco 
+ tractiv ( ) lemma=atractivo 
+ tractiva ( ) lemma=atractivo 
+ tractivo ( ) lemma=atractivo 
+ trac� ( ) lemma=atracar 
+ tra ( ) lemma=otro 
+ traemo ( ) lemma=atraer 
+ traerl ( ) lemma=atraer 
+ traer� ( ) lemma=atraer 
+ traerí ( ) lemma=atraer 
+ tragantad ( ) lemma=atragantar 
+ traido ( ) lemma=atraer 
+ traig ( ) lemma=atraer 
+ trajer ( ) lemma=atraer 
+ trajero ( ) lemma=atraer 
+ traj ( ) lemma=atraer 
+ trancab ( ) lemma=atrancar 
+ tranca ( ) lemma=atrancar 
+ trapad ( ) lemma=atrapar 
+ trapada ( ) lemma=atrapar 
+ trapado ( ) lemma=atrapar 
+ trapamient ( ) lemma=atrapamiento 
+ trapand ( ) lemma=atrapar 
+ trapa ( ) lemma=atrapar 
+ traparo ( ) lemma=atrapar 
+ trap� ( ) lemma=atrapar 
+ traqu ( ) lemma=atracar 
+ traque ( ) lemma=atracar 
+ trasad ( ) lemma=atrasar 
+ trasada ( ) lemma=atrasar 
+ trasado ( ) lemma=atrasar 
+ trasadísima ( ) lemma=atrasado 
+ trasand ( ) lemma=atrasar 
+ trasa ( ) lemma=atrasar 
+ trasarl ( ) lemma=atrasar 
+ traso ( ) lemma=atraso 
+ tras� ( ) lemma=atrasar 
+ traumátic ( ) lemma=atraumático 
+ travesab ( ) lemma=atravesar 
+ travesaba ( ) lemma=atravesar 
+ travesad ( ) lemma=atravesar 
+ travesado ( ) lemma=atravesar 
+ travesamo ( ) lemma=atravesar 
+ travesand ( ) lemma=atravesar 
+ travesa ( ) lemma=atravesar 
+ travesar ( ) lemma=atravesar 
+ travesara ( ) lemma=atravesar 
+ travesarl ( ) lemma=atravesar 
+ travesaro ( ) lemma=atravesar 
+ travesars ( ) lemma=atravesarse 
+ travesar� ( ) lemma=atravesar 
+ travesará ( ) lemma=atravesar 
+ travesarí ( ) lemma=atravesar 
+ travesaría ( ) lemma=atravesar 
+ traves� ( ) lemma=atravesar 
+ travies ( ) lemma=atravesar 
+ traviese ( ) lemma=atravesar 
+ trayend ( ) lemma=atraer 
+ trayent ( ) lemma=atrayente 
+ trayente ( ) lemma=atrayente 
+ traí ( ) lemma=atraer 
+ traíd ( ) lemma=atraer 
+ tresi ( ) lemma=atresia 
+ trev ( ) lemma=atrever 
+ treva ( ) lemma=atrever 
+ trevemo ( ) lemma=atrever 
+ treve ( ) lemma=atrever 
+ treveremo ( ) lemma=atrever 
+ trever� ( ) lemma=atrever 
+ treverá ( ) lemma=atrever 
+ treverí ( ) lemma=atrever 
+ trevería ( ) lemma=atrever 
+ trevid ( ) lemma=atrever 
+ trevida ( ) lemma=atrever 
+ trevido ( ) lemma=atrever 
+ trevier ( ) lemma=atrever 
+ treviera ( ) lemma=atrever 
+ treviero ( ) lemma=atrever 
+ trevi� ( ) lemma=atrever 
+ trev� ( ) lemma=atrever 
+ treví ( ) lemma=atrever 
+ trevía ( ) lemma=atrever 
+ tribucione ( ) lemma=atribución 
+ tribució ( ) lemma=atribución 
+ tribuibl ( ) lemma=atribuible 
+ tribuible ( ) lemma=atribuible 
+ tribuid ( ) lemma=atribuir 
+ tribuida ( ) lemma=atribuir 
+ tribuido ( ) lemma=atribuir 
+ tribuimo ( ) lemma=atribuir 
+ tribui ( ) lemma=atribuir 
+ tribuirl ( ) lemma=atribuir 
+ tribuirla ( ) lemma=atribuir 
+ tribuirle ( ) lemma=atribuir 
+ tribuirlo ( ) lemma=atribuir 
+ tribuirno ( ) lemma=atribuir 
+ tribuirs ( ) lemma=atribuirse 
+ tribuir� ( ) lemma=atribuir 
+ tribuirá ( ) lemma=atribuir 
+ tribuirí ( ) lemma=atribuir 
+ tribuiría ( ) lemma=atribuir 
+ tribulad ( ) lemma=atribular 
+ tribulado ( ) lemma=atribular 
+ tribut ( ) lemma=atributo 
+ tribuy ( ) lemma=atribuir 
+ tribuyamo ( ) lemma=atribuir 
+ tribuya ( ) lemma=atribuir 
+ tribuye ( ) lemma=atribuir 
+ tribuyend ( ) lemma=atribuir 
+ tribuyer ( ) lemma=atribuir 
+ tribuyero ( ) lemma=atribuir 
+ tribuyéndola ( ) lemma=atribuir 
+ tribuyéndol ( ) lemma=atribuir 
+ tribuyéndos ( ) lemma=atribuir 
+ tribuy� ( ) lemma=atribuir 
+ tribu� ( ) lemma=atribuir 
+ tribuí ( ) lemma=atribuir 
+ tribuíamo ( ) lemma=atribuir 
+ tribuía ( ) lemma=atribuir 
+ tribuírsel ( ) lemma=atribuirse 
+ tri ( ) lemma=atrio 
+ trincherad ( ) lemma=atrincherar 
+ trincherada ( ) lemma=atrincherar 
+ trincherado ( ) lemma=atrincherar 
+ trincheraro ( ) lemma=atrincherar 
+ trincher� ( ) lemma=atrincherar 
+ troce ( ) lemma=atroz 
+ trocida ( ) lemma=atrocidad 
+ trocidade ( ) lemma=atrocidad 
+ trofi ( ) lemma=atrofia 
+ trofia ( ) lemma=atrofiar 
+ tronadora ( ) lemma=atronador 
+ tropell ( ) lemma=atropello 
+ tropellad ( ) lemma=atropellar 
+ tropellado ( ) lemma=atropellar 
+ tropellamient ( ) lemma=atropellamiento 
+ tropellamo ( ) lemma=atropellar 
+ tropella ( ) lemma=atropellar 
+ tropelland ( ) lemma=atropellar 
+ tropellaro ( ) lemma=atropellar 
+ tropellará ( ) lemma=atropellar 
+ tropelle ( ) lemma=atropellar 
+ tropello ( ) lemma=atropello 
+ tropell� ( ) lemma=atropellar 
+ tro ( ) lemma=otro 
+ trá ( ) lemma=atrás 
+ trófic ( ) lemma=atrófico 
+ ttemp ( ) lemma=attempt 
+ ttent ( ) lemma=attente 
+ tuend ( ) lemma=atuendo 
+ tuendo ( ) lemma=atuendo 
+ tune ( ) lemma=atún 
+ turdid ( ) lemma=aturdido 
+ tuvier ( ) lemma=atener 
+ tuviéramo ( ) lemma=atener 
+ tuv ( ) lemma=atener 
+ tábamo ( ) lemma=atar 
+ tácam ( ) lemma=atacar 
+ téngas ( ) lemma=atener 
+ tímic ( ) lemma=atímico 
+ típic ( ) lemma=atípico 
+ tízal ( ) lemma=atizar 
+ tómic ( ) lemma=atómico 
+ tómica ( ) lemma=atómico 
+ tómico ( ) lemma=atómico 
+ tónic ( ) lemma=atónico 
+ tónit ( ) lemma=atónito 
+ tónito ( ) lemma=atónito 
+ tópic ( ) lemma=utópico 
+ tóxic ( ) lemma=atóxico 
+ tano ( ) lemma=etanol 
+ tap ( ) lemma=etapa 
+ tarra ( ) lemma=etarra 
+ tc ( ) lemma=etc. 
+ tcéter ( ) lemma=etcétera 
+ tcétera ( ) lemma=etcétera 
+ tern ( ) lemma=eterno 
+ ternament ( ) lemma=eterno 
+ terna ( ) lemma=eterno 
+ ternida ( ) lemma=eternidad 
+ terno ( ) lemma=eterno 
+ tidi ( ) lemma=etidio 
+ tilenglico ( ) lemma=etilenglicol 
+ timológicament ( ) lemma=etimológico 
+ tiologí ( ) lemma=etiología 
+ tiología ( ) lemma=etiología 
+ tiológica ( ) lemma=etiológico 
+ tiológic ( ) lemma=etiológico 
+ tiológico ( ) lemma=etiológico 
+ tiopatogenesi ( ) lemma=etiopatogenesis 
+ tiopatogénicament ( ) lemma=etiopatogénicamente 
+ tiopatogénic ( ) lemma=etiopatogénico 
+ tiquet ( ) lemma=etiqueta 
+ tiquetad ( ) lemma=etiquetar 
+ tiquetada ( ) lemma=etiquetar 
+ tiquetado ( ) lemma=etiquetar 
+ tiquetamo ( ) lemma=etiquetar 
+ tiqueta ( ) lemma=etiqueta 
+ tiquetand ( ) lemma=etiquetar 
+ tiquetará ( ) lemma=etiquetar 
+ tmoide ( ) lemma=etmoides 
+ tni ( ) lemma=etnia 
+ tnia ( ) lemma=etnia 
+ tologí ( ) lemma=etología 
+ táre ( ) lemma=etáreo 
+ tére ( ) lemma=etéreo 
+ térea ( ) lemma=etéreo 
+ téreo ( ) lemma=etéreo 
+ tíop ( ) lemma=etíope 
+ tíope ( ) lemma=etíope 
+ tólog ( ) lemma=etólogo 
+ tm ( ) lemma=html 
+ tt ( ) lemma=http 
+ tadin ( ) lemma=itadino 
+ talian ( ) lemma=italiano 
+ taliana ( ) lemma=italiano 
+ taliano ( ) lemma=italiano 
+ talienn ( ) lemma=italienne 
+ teracione ( ) lemma=iteración 
+ teració ( ) lemma=iteración 
+ terativa ( ) lemma=iterativo 
+ terativ ( ) lemma=iterativo 
+ terativo ( ) lemma=iterativo 
+ tineranci ( ) lemma=itinerancia 
+ tinerand ( ) lemma=itinerar 
+ tinerant ( ) lemma=itinerante 
+ tinerante ( ) lemma=itinerante 
+ tinerari ( ) lemma=itinerario 
+ tinerario ( ) lemma=itinerario 
+ tinérair ( ) lemma=itinéraire 
+ traconazo ( ) lemma=itraconazol 
+ tsm ( ) lemma=itsmo 
+ tdn ( ) lemma=mtdna 
+ tari ( ) lemma=otario 
+ torg ( ) lemma=otorgar 
+ torgab ( ) lemma=otorgar 
+ torgaba ( ) lemma=otorgar 
+ torgad ( ) lemma=otorgar 
+ torgada ( ) lemma=otorgar 
+ torgado ( ) lemma=otorgar 
+ torgamient ( ) lemma=otorgamiento 
+ torgamo ( ) lemma=otorgar 
+ torga ( ) lemma=otorgar 
+ torgand ( ) lemma=otorgar 
+ torgant ( ) lemma=otorgante 
+ torgante ( ) lemma=otorgante 
+ torgar ( ) lemma=otorgar 
+ torgara ( ) lemma=otorgar 
+ torgarl ( ) lemma=otorgar 
+ torgarla ( ) lemma=otorgar 
+ torgarle ( ) lemma=otorgar 
+ torgaro ( ) lemma=otorgar 
+ torgars ( ) lemma=otorgarse 
+ torgar� ( ) lemma=otorgar 
+ torgará ( ) lemma=otorgar 
+ torgarí ( ) lemma=otorgar 
+ torgaría ( ) lemma=otorgar 
+ torgas ( ) lemma=otorgar 
+ torgu ( ) lemma=otorgar 
+ torguemo ( ) lemma=otorgar 
+ torgue ( ) lemma=otorgar 
+ torgándol ( ) lemma=otorgar 
+ torgándom ( ) lemma=otorgar 
+ torgársel ( ) lemma=otorgarse 
+ torg� ( ) lemma=otorgar 
+ torrinolaringológic ( ) lemma=otorrinolaringológico 
+ torrinolaringólog ( ) lemma=otorrinolaringólogo 
+ toscopi ( ) lemma=otoscopio 
+ toñ ( ) lemma=otoño 
+ tr ( ) lemma=otro 
+ tas ( ) lemma=ptas. 
+ tag ( ) lemma=stage 
+ tandar ( ) lemma=standard 
+ tandardize ( ) lemma=standardized 
+ tandariza ( ) lemma=standarizar 
+ tati ( ) lemma=static 
+ taticize ( ) lemma=staticizer 
+ tatio ( ) lemma=station 
+ tatiqu ( ) lemma=statique 
+ teiner ( ) lemma=steinert 
+ toc ( ) lemma=stock 
+ tock ( ) lemma=stock 
+ torag ( ) lemma=storage 
+ tore ( ) lemma=stored 
+ toryboar ( ) lemma=storyboard 
+ trik ( ) lemma=strike 
+ trippin ( ) lemma=stripping 
+ tructur ( ) lemma=structure 
+ tabulador ( ) 
+ tabáquico ( ) 
+ tachuela ( ) 
+ taimar ( ) 
+ taiwanés ( ) 
+ taladrar ( ) 
+ tallar ( ) 
+ tamal ( ) 
+ tamborín ( ) 
+ tanquear ( ) 
+ tantear ( ) 
+ tapizar ( ) 
+ taquillero ( ) 
+ tarar ( ) 
+ taxonómico ( ) 
+ tañar|tañer ( ) 
+ teco ( ) 
+ techar ( ) 
+ tecolote ( ) 
+ tectónico ( ) 
+ tejar ( ) 
+ tejar|tejer ( ) 
+ tejo ( ) 
+ telecargar ( ) 
+ telecontrolar ( ) 
+ telecopia ( ) 
+ telefonométrico ( ) 
+ televisar ( ) 
+ temporal|temporalmente ( ) 
+ temporario ( ) 
+ temporizar ( ) 
+ tensionar ( ) 
+ terapeuta ( ) 
+ teratógeno ( ) 
+ termal ( ) 
+ termodinámico ( ) 
+ termoeléctrico ( ) 
+ termohalino ( ) 
+ termosensible ( ) 
+ terso ( ) 
+ testamentario ( ) 
+ tetrápodo ( ) 
+ tieso ( ) 
+ timar ( ) 
+ timbrar ( ) 
+ timocito ( ) 
+ tinerfeño ( ) 
+ tiniebla ( ) 
+ tintar ( ) 
+ tirantez ( ) 
+ tiritar ( ) 
+ tirotear ( ) 
+ titubeo ( ) 
+ tiznar ( ) 
+ tiña ( ) 
+ tocadisco ( ) 
+ tocamiento ( ) 
+ tonar ( ) 
+ tontear ( ) 
+ toar ( ) 
+ topera ( ) 
+ topónimo ( ) 
+ torrar ( ) 
+ tostar ( ) 
+ totalizador ( ) 
+ total|totalmente ( ) 
+ toxoide ( ) 
+ tragón ( ) 
+ trajinar ( ) 
+ trancar ( ) 
+ tranzar ( ) 
+ tranquilizante ( ) 
+ transar ( ) 
+ transcender ( ) 
+ transconectar ( ) 
+ transferasa ( ) 
+ transferente ( ) 
+ transfigurar ( ) 
+ transfusional ( ) 
+ transicional ( ) 
+ transitivo ( ) 
+ transmultiplexor ( ) 
+ transpirar ( ) 
+ traquear ( ) 
+ traquetear ( ) 
+ trasgresión ( ) 
+ trasegar ( ) 
+ traslatoro ( ) 
+ trasnochar ( ) 
+ trastear ( ) 
+ tratándose|Tratándose ( ) 
+ traumatizar ( ) 
+ traumático ( ) 
+ trémulo ( ) 
+ trenzar ( ) 
+ tribale ( ) 
+ tricíclico ( ) 
+ trillar ( ) 
+ trinar ( ) 
+ trinchera ( ) 
+ triosa ( ) 
+ tripular ( ) 
+ trisquelión ( ) 
+ tristear ( ) 
+ trisómico ( ) 
+ trizar ( ) 
+ trocear ( ) 
+ trombopenia ( ) 
+ trompicar ( ) 
+ trompar ( ) 
+ tronchar ( ) 
+ tronar ( ) 
+ tropelía ( ) 
+ troyano ( ) 
+ trucar ( ) 
+ truculento ( ) 
+ trófico ( ) 
+ tuberculínico ( ) 
+ tuerca ( ) 
+ tullido ( ) 
+ tupir ( ) 
+ tupiar|tupir ( ) 
+ turbera ( ) 
+ turquesa ( ) 
+ tutelar ( ) 
+ téorico ( ) 
+ tetar ( ) 
+ tórtola ( ) 
+ tensili ( ) lemma=utensilio 
+ tensilio ( ) lemma=utensilio 
+ terin ( ) lemma=uterino 
+ terina ( ) lemma=uterino 
+ terorrecta ( ) lemma=uterorrectal 
+ til ( ) lemma=utile 
+ tiler ( ) lemma=utilero 
+ tilic ( ) lemma=utilizar 
+ tilicemo ( ) lemma=utilizar 
+ tilice ( ) lemma=utilizar 
+ tilic� ( ) lemma=utilizar 
+ tilicémosla ( ) lemma=utilizar 
+ tilida ( ) lemma=utilidad 
+ tilidade ( ) lemma=utilidad 
+ tilitari ( ) lemma=utilitario 
+ tilitario ( ) lemma=utilitario 
+ tiliz ( ) lemma=utilizar 
+ tilizab ( ) lemma=utilizar 
+ tilizaba ( ) lemma=utilizar 
+ tilizabl ( ) lemma=utilizable 
+ tilizable ( ) lemma=utilizable 
+ tilizacione ( ) lemma=utilización 
+ tilizació ( ) lemma=utilización 
+ tilizad ( ) lemma=utilizar 
+ tilizada ( ) lemma=utilizar 
+ tilizado ( ) lemma=utilizar 
+ tilizadore ( ) lemma=utilizador 
+ tilizamo ( ) lemma=utilizar 
+ tiliza ( ) lemma=utilizar 
+ tilizand ( ) lemma=utilizar 
+ tilizar ( ) lemma=utilizar 
+ tilizara ( ) lemma=utilizar 
+ tilizaremo ( ) lemma=utilizar 
+ tilizarl ( ) lemma=utilizar 
+ tilizarla ( ) lemma=utilizar 
+ tilizarlo ( ) lemma=utilizar 
+ tilizaro ( ) lemma=utilizar 
+ tilizars ( ) lemma=utilizarse 
+ tilizar� ( ) lemma=utilizar 
+ tilizará ( ) lemma=utilizar 
+ tilizarí ( ) lemma=utilizar 
+ tilizaría ( ) lemma=utilizar 
+ tilizas ( ) lemma=utilizar 
+ tilizase ( ) lemma=utilizar 
+ tilizándol ( ) lemma=utilizar 
+ tilizándola ( ) lemma=utilizar 
+ tilizándolo ( ) lemma=utilizar 
+ tilizándos ( ) lemma=utilizándose 
+ tilizáramo ( ) lemma=utilizar 
+ tilizásemo ( ) lemma=utilizar 
+ tiliz� ( ) lemma=utilizar 
+ tillaj ( ) lemma=utillaje 
+ tillaje ( ) lemma=utillaje 
+ tilíceno ( ) lemma=utilizar 
+ tilíces ( ) lemma=utilizarse 
+ tilísim ( ) lemma=útil 
+ tilísima ( ) lemma=útil 
+ topism ( ) lemma=utopismo 
+ topí ( ) lemma=utopía 
+ topía ( ) lemma=utopía 
+ trícul ( ) lemma=utrículo 

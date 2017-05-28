@@ -34,105 +34,105 @@
  Kurt ( ) 
  Kuwait ( ) 
  k.o. ( ) 
- kafkiana ( ) lemma=kafkiano 
+ kafkiana ( ) 
+ kafkiane ( ) 
+ kafkiani ( ) 
+ kafkianissima ( ) 
+ kafkianissime ( ) 
+ kafkianissimi ( ) 
+ kafkianissimo ( ) 
  kafkiano ( ) 
- kafkiane ( ) lemma=kafkiano 
- kafkiani ( ) lemma=kafkiano 
- kafkianissima ( ) lemma=kafkiano 
- kafkianissime ( ) lemma=kafkiano 
- kafkianissimi ( ) lemma=kafkiano 
- kafkianissimo ( ) lemma=kafkiano 
  kaki ( ) 
  kalashnikov ( ) 
  kamikaze ( ) 
  kanak ( ) 
- kantiana ( ) lemma=kantiano 
+ kantiana ( ) 
+ kantiane ( ) 
+ kantiani ( ) 
+ kantianissima ( ) 
+ kantianissime ( ) 
+ kantianissimi ( ) 
+ kantianissimo ( ) 
  kantiano ( ) 
- kantiane ( ) lemma=kantiano 
- kantiani ( ) lemma=kantiano 
- kantianissima ( ) lemma=kantiano 
- kantianissime ( ) lemma=kantiano 
- kantianissimi ( ) lemma=kantiano 
- kantianissimo ( ) lemma=kantiano 
  karaoke ( ) 
  kayak ( ) 
- kazaki ( ) lemma=kazako 
+ kazaki ( ) 
  kazako ( ) 
- ke ( ) lemma=che 
+ ke ( ) 
  kefiah ( ) 
  keirin ( ) 
- keniana ( ) lemma=keniano 
+ keniana ( ) 
+ keniane ( ) 
+ keniani ( ) 
+ kenianissima ( ) 
+ kenianissime ( ) 
+ kenianissimi ( ) 
+ kenianissimo ( ) 
  keniano ( ) 
- keniane ( ) lemma=keniano 
- keniani ( ) lemma=keniano 
- kenianissima ( ) lemma=keniano 
- kenianissime ( ) lemma=keniano 
- kenianissimi ( ) lemma=keniano 
- kenianissimo ( ) lemma=keniano 
  keniota ( ) 
- keniote ( ) lemma=keniota 
- kenioti ( ) lemma=keniota 
- keniotissima ( ) lemma=keniota 
- keniotissime ( ) lemma=keniota 
- keniotissimi ( ) lemma=keniota 
- keniotissimo ( ) lemma=keniota 
- kennedyana ( ) lemma=kennedyano 
+ keniote ( ) 
+ kenioti ( ) 
+ keniotissima ( ) 
+ keniotissime ( ) 
+ keniotissimi ( ) 
+ keniotissimo ( ) 
+ kennedyana ( ) 
+ kennedyane ( ) 
+ kennedyani ( ) 
+ kennedyanissima ( ) 
+ kennedyanissime ( ) 
+ kennedyanissimi ( ) 
+ kennedyanissimo ( ) 
  kennedyano ( ) 
- kennedyane ( ) lemma=kennedyano 
- kennedyani ( ) lemma=kennedyano 
- kennedyanissima ( ) lemma=kennedyano 
- kennedyanissime ( ) lemma=kennedyano 
- kennedyanissimi ( ) lemma=kennedyano 
- kennedyanissimo ( ) lemma=kennedyano 
- kentuckiana ( ) lemma=kentuckiano 
+ kentuckiana ( ) 
+ kentuckiane ( ) 
+ kentuckiani ( ) 
+ kentuckianissima ( ) 
+ kentuckianissime ( ) 
+ kentuckianissimi ( ) 
+ kentuckianissimo ( ) 
  kentuckiano ( ) 
- kentuckiane ( ) lemma=kentuckiano 
- kentuckiani ( ) lemma=kentuckiano 
- kentuckianissima ( ) lemma=kentuckiano 
- kentuckianissime ( ) lemma=kentuckiano 
- kentuckianissimi ( ) lemma=kentuckiano 
- kentuckianissimo ( ) lemma=kentuckiano 
- kenyana ( ) lemma=kenyano 
+ kenyana ( ) 
+ kenyane ( ) 
+ kenyani ( ) 
+ kenyanissima ( ) 
+ kenyanissime ( ) 
+ kenyanissimi ( ) 
+ kenyanissimo ( ) 
  kenyano ( ) 
- kenyane ( ) lemma=kenyano 
- kenyani ( ) lemma=kenyano 
- kenyanissima ( ) lemma=kenyano 
- kenyanissime ( ) lemma=kenyano 
- kenyanissimi ( ) lemma=kenyano 
- kenyanissimo ( ) lemma=kenyano 
  kermesse ( ) 
- keynesiana ( ) lemma=keynesiano 
+ keynesiana ( ) 
+ keynesiane ( ) 
+ keynesiani ( ) 
+ keynesianissima ( ) 
+ keynesianissime ( ) 
+ keynesianissimi ( ) 
+ keynesianissimo ( ) 
  keynesiano ( ) 
- keynesiane ( ) lemma=keynesiano 
- keynesiani ( ) lemma=keynesiano 
- keynesianissima ( ) lemma=keynesiano 
- keynesianissime ( ) lemma=keynesiano 
- keynesianissimi ( ) lemma=keynesiano 
- keynesianissimo ( ) lemma=keynesiano 
- kg. ( ) lemma=kilogrammo 
- kilogrammo ( ) 
+ kg. ( ) 
  khatamista ( ) 
- khatamiste ( ) lemma=khatamista 
- khatamisti ( ) lemma=khatamista 
- khatamistissima ( ) lemma=khatamista 
- khatamistissime ( ) lemma=khatamista 
- khatamistissimi ( ) lemma=khatamista 
- khatamistissimo ( ) lemma=khatamista 
+ khatamiste ( ) 
+ khatamisti ( ) 
+ khatamistissima ( ) 
+ khatamistissime ( ) 
+ khatamistissimi ( ) 
+ khatamistissimo ( ) 
  khmer ( ) 
- khomeinismi ( ) lemma=khomeinismo 
+ khomeinismi ( ) 
  khomeinismo ( ) 
  khomeinista ( ) 
- khomeiniste ( ) lemma=khomeinista 
- khomeinisti ( ) lemma=khomeinista 
- khomeinistissima ( ) lemma=khomeinista 
- khomeinistissime ( ) lemma=khomeinista 
- khomeinistissimi ( ) lemma=khomeinista 
- khomeinistissimo ( ) lemma=khomeinista 
+ khomeiniste ( ) 
+ khomeinisti ( ) 
+ khomeinistissima ( ) 
+ khomeinistissime ( ) 
+ khomeinistissimi ( ) 
+ khomeinistissimo ( ) 
  kibbutz ( ) 
  killer ( ) 
- killers ( ) lemma=killer 
- kilogrammi ( ) lemma=kilogrammo 
- kilometri ( ) lemma=kilometro 
+ killers ( ) 
+ kilogrammi ( ) 
+ kilogrammo ( ) 
+ kilometri ( ) 
  kilometro ( ) 
  kilt ( ) 
  kimono ( ) 
@@ -141,28 +141,37 @@
  kitsch ( ) 
  kiwi ( ) 
  km ( ) 
- km. ( ) lemma=kilometro 
+ km. ( ) 
  know-how ( ) 
  ko ( ) 
- koine' ( ) lemma=koiné 
+ koine' ( ) 
  koiné ( ) 
  kolkhoz ( ) 
  kolossal ( ) 
  kombinat ( ) 
  kosher ( ) 
- kosovara ( ) lemma=kosovaro 
+ kosovara ( ) 
+ kosovare ( ) 
+ kosovari ( ) 
+ kosovarissima ( ) 
+ kosovarissime ( ) 
+ kosovarissimi ( ) 
+ kosovarissimo ( ) 
  kosovaro ( ) 
- kosovare ( ) lemma=kosovaro 
- kosovari ( ) lemma=kosovaro 
- kosovarissima ( ) lemma=kosovaro 
- kosovarissime ( ) lemma=kosovaro 
- kosovarissimi ( ) lemma=kosovaro 
- kosovarissimo ( ) lemma=kosovaro 
- kuwaitiana ( ) lemma=kuwaitiano 
+ kuwaitiana ( ) 
+ kuwaitiane ( ) 
+ kuwaitiani ( ) 
+ kuwaitianissima ( ) 
+ kuwaitianissime ( ) 
+ kuwaitianissimi ( ) 
+ kuwaitianissimo ( ) 
  kuwaitiano ( ) 
- kuwaitiane ( ) lemma=kuwaitiano 
- kuwaitiani ( ) lemma=kuwaitiano 
- kuwaitianissima ( ) lemma=kuwaitiano 
- kuwaitianissime ( ) lemma=kuwaitiano 
- kuwaitianissimi ( ) lemma=kuwaitiano 
- kuwaitianissimo ( ) lemma=kuwaitiano 
+ k ( ) lemma=Pkk 
+ ka ( ) lemma=okay 
+ ketc ( ) lemma=sketch 
+ ketche ( ) lemma=sketch 
+ kilif ( ) lemma=skilift 
+ kima ( ) lemma=skiman 
+ ki ( ) lemma=skin 
+ kinhea ( ) lemma=skinhead 
+ kinhead ( ) lemma=skinhead 

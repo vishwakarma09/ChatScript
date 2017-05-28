@@ -27,8 +27,7 @@
  Jones ( ) 
  Jordan ( ) 
  Jorge ( ) 
- Jose' ( ) lemma=Josè|José 
- Josè|José ( ) 
+ Jose' ( ) 
  Joseph ( ) 
  Jospin ( ) 
  Josè ( ) 
@@ -42,43 +41,43 @@
  Julia ( ) 
  Julio ( ) 
  Junior ( ) 
- Juppe' ( ) lemma=Juppé 
+ Juppe' ( ) 
  Juppé ( ) 
  Juve ( ) 
  Juventus ( ) 
  jab ( ) 
  jackpot ( ) 
  jam ( ) 
- jamesiana ( ) lemma=jamesiano 
+ jamesiana ( ) 
+ jamesiane ( ) 
+ jamesiani ( ) 
+ jamesianissima ( ) 
+ jamesianissime ( ) 
+ jamesianissimi ( ) 
+ jamesianissimo ( ) 
  jamesiano ( ) 
- jamesiane ( ) lemma=jamesiano 
- jamesiani ( ) lemma=jamesiano 
- jamesianissima ( ) lemma=jamesiano 
- jamesianissime ( ) lemma=jamesiano 
- jamesianissimi ( ) lemma=jamesiano 
- jamesianissimo ( ) lemma=jamesiano 
  jattura ( ) 
- jatture ( ) lemma=jattura 
+ jatture ( ) 
  jazz ( ) 
  jazz-rock ( ) 
  jazzista ( ) 
- jazzisti ( ) lemma=jazzista 
- jazzistica ( ) lemma=jazzistico 
+ jazzisti ( ) 
+ jazzistica ( ) 
+ jazzistiche ( ) 
+ jazzistici ( ) 
+ jazzisticissima ( ) 
+ jazzisticissime ( ) 
+ jazzisticissimi ( ) 
+ jazzisticissimo ( ) 
  jazzistico ( ) 
- jazzistiche ( ) lemma=jazzistico 
- jazzistici ( ) lemma=jazzistico 
- jazzisticissima ( ) lemma=jazzistico 
- jazzisticissime ( ) lemma=jazzistico 
- jazzisticissimi ( ) lemma=jazzistico 
- jazzisticissimo ( ) lemma=jazzistico 
  jeans ( ) 
  jeanseria ( ) 
- jeanserie ( ) lemma=jeanseria 
+ jeanserie ( ) 
  jeep ( ) 
  jella ( ) 
- jelle ( ) lemma=jella 
+ jelle ( ) 
  jena ( ) 
- jene ( ) lemma=jena 
+ jene ( ) 
  jet ( ) 
  jet-set ( ) 
  jiddish ( ) 
@@ -86,39 +85,43 @@
  jogging ( ) 
  joint ( ) 
  joint-venture ( ) 
- joint-ventures ( ) lemma=joint-venture 
+ joint-ventures ( ) 
  jolly ( ) 
- jospiniana ( ) lemma=jospiniano 
+ jospiniana ( ) 
+ jospiniane ( ) 
+ jospiniani ( ) 
+ jospinianissima ( ) 
+ jospinianissime ( ) 
+ jospinianissimi ( ) 
+ jospinianissimo ( ) 
  jospiniano ( ) 
- jospiniane ( ) lemma=jospiniano 
- jospiniani ( ) lemma=jospiniano 
- jospinianissima ( ) lemma=jospiniano 
- jospinianissime ( ) lemma=jospiniano 
- jospinianissimi ( ) lemma=jospiniano 
- jospinianissimo ( ) lemma=jospiniano 
- jr. ( ) lemma=junior 
- junior ( ) 
- jugoslava ( ) lemma=jugoslavo 
+ jr. ( ) 
+ jugoslava ( ) 
+ jugoslave ( ) 
+ jugoslavi ( ) 
+ jugoslavissima ( ) 
+ jugoslavissime ( ) 
+ jugoslavissimi ( ) 
+ jugoslavissimo ( ) 
  jugoslavo ( ) 
- jugoslave ( ) lemma=jugoslavo 
- jugoslavi ( ) lemma=jugoslavo 
- jugoslavissima ( ) lemma=jugoslavo 
- jugoslavissime ( ) lemma=jugoslavo 
- jugoslavissimi ( ) lemma=jugoslavo 
- jugoslavissimo ( ) lemma=jugoslavo 
  juke-box ( ) 
  jukebox ( ) 
  jumbo ( ) 
  jungla ( ) 
- jungle ( ) lemma=jungla 
+ jungle ( ) 
+ junior ( ) 
  juniores ( ) 
  junk ( ) 
  juve ( ) 
- juventina ( ) lemma=juventino 
+ juventina ( ) 
+ juventine ( ) 
+ juventini ( ) 
+ juventinissima ( ) 
+ juventinissime ( ) 
+ juventinissimi ( ) 
+ juventinissimo ( ) 
  juventino ( ) 
- juventine ( ) lemma=juventino 
- juventini ( ) lemma=juventino 
- juventinissima ( ) lemma=juventino 
- juventinissime ( ) lemma=juventino 
- juventinissimi ( ) lemma=juventino 
- juventinissimo ( ) lemma=juventino 
+ j ( ) lemma=Aja 
+ ja ( ) lemma=Ajax 
+ jorkaef ( ) lemma=Djorkaeff 
+ Josè|José ( ) 

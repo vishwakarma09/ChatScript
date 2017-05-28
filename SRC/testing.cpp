@@ -3929,6 +3929,7 @@ static void C_Build(char* input)
 	echo = true;
 	myBot = 0;	// default
 	mystart(input);
+	kernelVariableThreadList = botVariableThreadList = 0;
 	char oldlogin[MAX_WORD_SIZE];
 	char oldbot[MAX_WORD_SIZE];
 	char oldbotspace[MAX_WORD_SIZE];
@@ -7376,6 +7377,7 @@ static void ShowTrace(unsigned int bits, bool original)
 		Log(ECHOSTDTRACELOG,(char*)"Disabled simple: ");
 		if (!(bits & TRACE_ECHO)) Log(ECHOSTDTRACELOG,(char*)"echo ");
 		if (!(bits & TRACE_MATCH)) Log(ECHOSTDTRACELOG,(char*)"match ");
+		if (!(bits & TRACE_FLOW)) Log(ECHOSTDTRACELOG, (char*)"ruleflow ");
 		if (!(bits & TRACE_VARIABLE)) Log(ECHOSTDTRACELOG,(char*)"variables ");
 		Log(ECHOSTDTRACELOG,(char*)"\r\n");
 	}
@@ -9311,14 +9313,6 @@ static void BuildForeign(char* input)
 	char language[MAX_WORD_SIZE];
 	input = ReadCompiledWord(input,language);
 	MakeUpperCase(language);
-	char name[MAX_WORD_SIZE];
-	sprintf(name,"treetagger/%s_rawwords.txt",language);
-	FILE* in = fopen(name,"rb");
-	if (!in)
-	{
-		printf("file not found");
-		return;
-	}
 
 	UseDictionaryFile(NULL);
 	InitFacts();
@@ -9326,13 +9320,21 @@ static void BuildForeign(char* input)
 	InitStackHeap();
 	InitCache();
 
-	sprintf(name,"DICT/%s",language);
+	char name[MAX_WORD_SIZE];
+	sprintf(name, "DICT/%s", language);
 	MakeDirectory(name);
 	ClearDictionaryFiles();
 
 	char lemma[MAX_WORD_SIZE];
-	char junk[MAX_WORD_SIZE];
 	ReadForeign();
+
+	sprintf(name,"treetagger/%s_rawwords.txt",language);
+	FILE* in = fopen(name,"rb");
+	if (!in)
+	{
+		printf("file not found");
+		return;
+	}
 
 	while (ReadALine(readBuffer,in) >= 0)
 	{
@@ -9344,7 +9346,8 @@ static void BuildForeign(char* input)
 		memmove(word, word + 1, len); // remove "
 		if (!*word) continue;
 
-		char* close = strchr(ptr, ')');
+		char* close = strrchr(ptr, ')'); 
+		if (!close) continue;
 		*close = 0;
 		strcpy(lemma, ptr + 1);
 		*close = ')';
@@ -9802,7 +9805,7 @@ CommandInfo commandSet[] = // NEW
 	{ (char*)"\r\n---- internal support",0,(char*)""}, 
 	{ (char*)":topicdump",C_TopicDump,(char*)"Dump topic data suitable for inclusion as extra topics into TMP/tmp.txt (:extratopic or PerformChatGivenTopic)"},
 	{ (char*)":builddict",BuildDictionary,(char*)" basic, layer0, layer1, foreign, or wordnet are options instead of default full"}, 
-	{ (char*)":buildforeign",BuildForeign,(char*)""}, 
+	{ (char*)":buildforeign",BuildForeign,(char*)"regenerate foreign language dictionary"}, 
 	{ (char*)":clean",C_Clean,(char*)"Convert source files to NL instead of CR/LF for unix"},
 #ifndef DISCARDPOSTGRES
 	{ (char*)":endpguser",C_EndPGUser,(char*)"Switch from postgres user topic to file system"},

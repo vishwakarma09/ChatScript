@@ -1,5 +1,6 @@
-﻿ 8-) ( ) lemma=8- 
- 8- ( ) 
+﻿ 8-) ( ) 
  800mila ( ) 
  80mila ( ) 
  8mila ( ) 
+ 80mil ( ) lemma=180mila 
+ 8mil ( ) lemma=28mila 

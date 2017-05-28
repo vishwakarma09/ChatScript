@@ -5,33 +5,99 @@
  Yves ( ) 
  yacht ( ) 
  yankee ( ) 
- yankees ( ) lemma=yankee 
+ yankees ( ) 
  yeah ( ) 
  yehhhhhhhh ( ) 
- yemenita ( ) lemma=yemenito 
+ yemenita ( ) 
+ yemenite ( ) 
+ yemeniti ( ) 
+ yemenitissima ( ) 
+ yemenitissime ( ) 
+ yemenitissimi ( ) 
+ yemenitissimo ( ) 
  yemenito ( ) 
- yemenite ( ) lemma=yemenito 
- yemeniti ( ) lemma=yemenito 
- yemenitissima ( ) lemma=yemenito 
- yemenitissime ( ) lemma=yemenito 
- yemenitissimi ( ) lemma=yemenito 
- yemenitissimo ( ) lemma=yemenito 
  yen ( ) 
  yiddish ( ) 
- yoga ( ) lemma=yogo 
+ yoga ( ) 
+ yoghe ( ) 
+ yoghi ( ) 
+ yoghissima ( ) 
+ yoghissime ( ) 
+ yoghissimi ( ) 
+ yoghissimo ( ) 
  yogo ( ) 
- yoghe ( ) lemma=yogo 
- yoghi ( ) lemma=yogo 
- yoghissima ( ) lemma=yogo 
- yoghissime ( ) lemma=yogo 
- yoghissimi ( ) lemma=yogo 
- yoghissimo ( ) lemma=yogo 
  yogurt ( ) 
  yuppi ( ) 
  yuppie ( ) 
- yuppies ( ) lemma=yuppy 
- yuppy ( ) 
- yuppismi ( ) lemma=yuppismo 
+ yuppies ( ) 
+ yuppismi ( ) 
  yuppismo ( ) 
+ yuppy ( ) 
  yurta ( ) 
- yurte ( ) lemma=yurta 
+ yurte ( ) 
+ yal ( ) lemma=Ayala 
+ yla ( ) lemma=Dylan 
+ ync ( ) lemma=Lynch 
+ yonnai ( ) lemma=Lyonnais 
+ yer ( ) lemma=Myers 
+ ydne ( ) lemma=Sydney 
+ yso ( ) lemma=Tyson 
+ YXYX ( ) lemma=XYXYXY 
+ yatolla ( ) lemma=ayatollah 
+ ye ( ) lemma=ayeh 
+ yurvedic ( ) lemma=ayurvedico 
+ yurvedich ( ) lemma=ayurvedico 
+ yurvedicissim ( ) lemma=ayurvedico 
+ y-pas ( ) lemma=by-pass 
+ ypass ( ) lemma=bypassare 
+ ypassa ( ) lemma=bypassare 
+ ypassamm ( ) lemma=bypassare 
+ ypassand ( ) lemma=bypassare 
+ ypassan ( ) lemma=bypassare 
+ ypassant ( ) lemma=bypassare 
+ ypassar ( ) lemma=bypassare 
+ ypassaro ( ) lemma=bypassare 
+ ypassaron ( ) lemma=bypassare 
+ ypassass ( ) lemma=bypassare 
+ ypassasse ( ) lemma=bypassare 
+ ypassasser ( ) lemma=bypassare 
+ ypassassim ( ) lemma=bypassare 
+ ypassast ( ) lemma=bypassare 
+ ypassat ( ) lemma=bypassare 
+ ypassav ( ) lemma=bypassare 
+ ypassavam ( ) lemma=bypassare 
+ ypassava ( ) lemma=bypassare 
+ ypassavan ( ) lemma=bypassare 
+ ypassavat ( ) lemma=bypassare 
+ ypassera ( ) lemma=bypassare 
+ ypasserann ( ) lemma=bypassare 
+ ypasserebb ( ) lemma=bypassare 
+ ypasserebbe ( ) lemma=bypassare 
+ ypasserebber ( ) lemma=bypassare 
+ ypassere ( ) lemma=bypassare 
+ ypasseremm ( ) lemma=bypassare 
+ ypasserem ( ) lemma=bypassare 
+ ypasserest ( ) lemma=bypassare 
+ ypasseret ( ) lemma=bypassare 
+ ypassero ( ) lemma=bypassare 
+ ypasser√ ( ) lemma=bypassare 
+ ypassiam ( ) lemma=bypassare 
+ ypassiat ( ) lemma=bypassare 
+ ypassi ( ) lemma=bypassare 
+ ypassin ( ) lemma=bypassare 
+ ypasso ( ) lemma=bypassare 
+ ypass√ ( ) lemma=bypassare 
+ yt ( ) lemma=byte 
+ yte ( ) lemma=byte 
+ ybernetic ( ) lemma=cybernetico 
+ ybernetich ( ) lemma=cybernetico 
+ yberneticissim ( ) lemma=cybernetico 
+ yberpun ( ) lemma=cyberpunk 
+ yberspaz ( ) lemma=cyberspazio 
+ yberspazi ( ) lemma=cyberspazio 
+ yclett ( ) lemma=cyclette 
+ yclette ( ) lemma=cyclette 
+ yster ( ) lemma=mystery 
+ ylo ( ) lemma=nylon 
+ yndicatio ( ) lemma=syndication 
+ ycoo ( ) lemma=tycoon 

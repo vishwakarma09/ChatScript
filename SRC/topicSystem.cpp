@@ -1111,7 +1111,7 @@ void SetRejoinder(char* rule)
     }
 }
 
-FunctionResult ProcessRuleOutput(char* rule, unsigned int id,char* buffer)
+FunctionResult ProcessRuleOutput(char* rule, unsigned int id,char* buffer,bool refine)
 {
 	char* root = strstr(rule,"sorry to hear");
 	bool oldnorejoinder = norejoinder;
@@ -1224,6 +1224,14 @@ FunctionResult ProcessRuleOutput(char* rule, unsigned int id,char* buffer)
 	{
 		if (responseHappened) SetErase();	
 	}
+	else if (refine && madeResponse && Rejoinder(currentRule)) // refine rejoinders need to erase the preceeding
+	{
+		char* oldcurrent = currentRule;
+		int toplevelid = TOPLEVELID(id);
+		currentRule = GetRule(currentTopicID, toplevelid);
+		SetErase();
+		currentRule = oldcurrent;
+	}
 	
 	// set rejoinder if we didnt fail 
 	if (!(result & FAILCODES) && !norejoinder && (madeResponse || responseHappened) && !planning) SetRejoinder(rule); // a response got made
@@ -1251,13 +1259,13 @@ FunctionResult ProcessRuleOutput(char* rule, unsigned int id,char* buffer)
     return result;
 }
 
-FunctionResult DoOutput(char* buffer,char* rule, unsigned int id)
+FunctionResult DoOutput(char* buffer,char* rule, unsigned int id,bool refine)
 {
 	FunctionResult result;
 	// do output of rule
 	PushOutputBuffers();
 	currentRuleOutputBase = buffer;
-	result = ProcessRuleOutput(rule,currentRuleID,buffer);
+	result = ProcessRuleOutput(rule,currentRuleID,buffer,refine);
 	PopOutputBuffers();
 	return result;
 }
@@ -1331,7 +1339,7 @@ retry:
 		}
 		else 
 		{
-			result = DoOutput(buffer,currentRule,currentRuleID);
+			result = DoOutput(buffer,currentRule,currentRuleID,refine);
 		}
 		if (result & RETRYRULE_BIT || (result & RETRYTOPRULE_BIT && TopLevelRule(rule))) 
 		{
@@ -1589,6 +1597,8 @@ FunctionResult PerformTopic(int active,char* buffer,char* rule, unsigned int id)
 	unsigned oldTopic = currentTopicID;
 	char* topicName = GetTopicName(currentTopicID);
 	int limit = 30;
+	char* val = GetUserVariable("$cs_topicretrylimit");
+	if (*val) limit = atoi(val);
 	EstablishTopicTrace();
 	unsigned int oldtiming = EstablishTopicTiming();
 	char value[100];
@@ -1620,7 +1630,11 @@ FunctionResult PerformTopic(int active,char* buffer,char* rule, unsigned int id)
 		if (result & (RESTART_BIT| FAILRULE_BIT | FAILTOPIC_BIT | FAILSENTENCE_BIT | RETRYSENTENCE_BIT | RETRYTOPIC_BIT|RETRYINPUT_BIT)) topicIndex = tindex; 
 		//   or remove topics we matched on so we become the new master path
 	}
-	if (!limit) ReportBug((char*)"Exceeded retry topic limit");
+	if (!limit)
+	{
+		SetUserVariable((char*)"$$topic_retry_limit_exceeded", "true");
+		ReportBug((char*)"Exceeded retry topic limit");
+	}
 	result = (FunctionResult)(result & (-1 ^ ENDTOPIC_BIT)); // dont propogate 
 	if (result & FAILTOPIC_BIT) result = FAILRULE_BIT; // downgrade
 	if (trace & (TRACE_MATCH|TRACE_PATTERN|TRACE_SAMPLE|TRACE_TOPIC) && CheckTopicTrace()) 

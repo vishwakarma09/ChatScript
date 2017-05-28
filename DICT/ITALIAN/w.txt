@@ -39,86 +39,128 @@
  wagon ( ) 
  walkie-talkie ( ) 
  walkman ( ) 
- walseriana ( ) lemma=walseriano 
+ walseriana ( ) 
+ walseriane ( ) 
+ walseriani ( ) 
+ walserianissima ( ) 
+ walserianissime ( ) 
+ walserianissimi ( ) 
+ walserianissimo ( ) 
  walseriano ( ) 
- walseriane ( ) lemma=walseriano 
- walseriani ( ) lemma=walseriano 
- walserianissima ( ) lemma=walseriano 
- walserianissime ( ) lemma=walseriano 
- walserianissimi ( ) lemma=walseriano 
- walserianissimo ( ) lemma=walseriano 
- washingtoniana ( ) lemma=washingtoniano 
+ washingtoniana ( ) 
+ washingtoniane ( ) 
+ washingtoniani ( ) 
+ washingtonianissima ( ) 
+ washingtonianissime ( ) 
+ washingtonianissimi ( ) 
+ washingtonianissimo ( ) 
  washingtoniano ( ) 
- washingtoniane ( ) lemma=washingtoniano 
- washingtoniani ( ) lemma=washingtoniano 
- washingtonianissima ( ) lemma=washingtoniano 
- washingtonianissime ( ) lemma=washingtoniano 
- washingtonianissimi ( ) lemma=washingtoniano 
- washingtonianissimo ( ) lemma=washingtoniano 
  water ( ) 
- watussi ( ) lemma=watusso 
+ watussi ( ) 
  watusso ( ) 
  wc ( ) 
  web ( ) 
- weberiana ( ) lemma=weberiano 
+ weberiana ( ) 
+ weberiane ( ) 
+ weberiani ( ) 
+ weberianissima ( ) 
+ weberianissime ( ) 
+ weberianissimi ( ) 
+ weberianissimo ( ) 
  weberiano ( ) 
- weberiane ( ) lemma=weberiano 
- weberiani ( ) lemma=weberiano 
- weberianissima ( ) lemma=weberiano 
- weberianissime ( ) lemma=weberiano 
- weberianissimi ( ) lemma=weberiano 
- weberianissimo ( ) lemma=weberiano 
  week-end ( ) 
  weekend ( ) 
  welfare ( ) 
- wellesiana ( ) lemma=wellesiano 
+ wellesiana ( ) 
+ wellesiane ( ) 
+ wellesiani ( ) 
+ wellesianissima ( ) 
+ wellesianissime ( ) 
+ wellesianissimi ( ) 
+ wellesianissimo ( ) 
  wellesiano ( ) 
- wellesiane ( ) lemma=wellesiano 
- wellesiani ( ) lemma=wellesiano 
- wellesianissima ( ) lemma=wellesiano 
- wellesianissime ( ) lemma=wellesiano 
- wellesianissimi ( ) lemma=wellesiano 
- wellesianissimo ( ) lemma=wellesiano 
  welter ( ) 
- wendersiana ( ) lemma=wendersiano 
+ wendersiana ( ) 
+ wendersiane ( ) 
+ wendersiani ( ) 
+ wendersianissima ( ) 
+ wendersianissime ( ) 
+ wendersianissimi ( ) 
+ wendersianissimo ( ) 
  wendersiano ( ) 
- wendersiane ( ) lemma=wendersiano 
- wendersiani ( ) lemma=wendersiano 
- wendersianissima ( ) lemma=wendersiano 
- wendersianissime ( ) lemma=wendersiano 
- wendersianissimi ( ) lemma=wendersiano 
- wendersianissimo ( ) lemma=wendersiano 
- wertheriana ( ) lemma=wertheriano 
+ wertheriana ( ) 
+ wertheriane ( ) 
+ wertheriani ( ) 
+ wertherianissima ( ) 
+ wertherianissime ( ) 
+ wertherianissimi ( ) 
+ wertherianissimo ( ) 
  wertheriano ( ) 
- wertheriane ( ) lemma=wertheriano 
- wertheriani ( ) lemma=wertheriano 
- wertherianissima ( ) lemma=wertheriano 
- wertherianissime ( ) lemma=wertheriano 
- wertherianissimi ( ) lemma=wertheriano 
- wertherianissimo ( ) lemma=wertheriano 
  west ( ) 
  western ( ) 
  westinghouse ( ) 
- westinghouses ( ) lemma=westinghouse 
+ westinghouses ( ) 
  whisky ( ) 
- whitmaniana ( ) lemma=whitmaniano 
+ whitmaniana ( ) 
+ whitmaniane ( ) 
+ whitmaniani ( ) 
+ whitmanianissima ( ) 
+ whitmanianissime ( ) 
+ whitmanianissimi ( ) 
+ whitmanianissimo ( ) 
  whitmaniano ( ) 
- whitmaniane ( ) lemma=whitmaniano 
- whitmaniani ( ) lemma=whitmaniano 
- whitmanianissima ( ) lemma=whitmaniano 
- whitmanianissime ( ) lemma=whitmaniano 
- whitmanianissimi ( ) lemma=whitmaniano 
- whitmanianissimo ( ) lemma=whitmaniano 
  windsurf ( ) 
- wojtyliana ( ) lemma=wojtyliano 
+ wojtyliana ( ) 
+ wojtyliane ( ) 
+ wojtyliani ( ) 
+ wojtylianissima ( ) 
+ wojtylianissime ( ) 
+ wojtylianissimi ( ) 
+ wojtylianissimo ( ) 
  wojtyliano ( ) 
- wojtyliane ( ) lemma=wojtyliano 
- wojtyliani ( ) lemma=wojtyliano 
- wojtylianissima ( ) lemma=wojtyliano 
- wojtylianissime ( ) lemma=wojtyliano 
- wojtylianissimi ( ) lemma=wojtyliano 
- wojtylianissimo ( ) lemma=wojtyliano 
  won ( ) 
  workshop ( ) 
  workstation ( ) 
  wurstel ( ) 
+ w ( ) lemma=Wwf 
+ wa ( ) lemma=swap 
+ win ( ) lemma=swing 
+ wing ( ) lemma=swingare 
+ winga ( ) lemma=swingare 
+ wingamm ( ) lemma=swingare 
+ wingand ( ) lemma=swingare 
+ wingan ( ) lemma=swingare 
+ wingant ( ) lemma=swingare 
+ wingar ( ) lemma=swingare 
+ wingaro ( ) lemma=swingare 
+ wingaron ( ) lemma=swingare 
+ wingass ( ) lemma=swingare 
+ wingasse ( ) lemma=swingare 
+ wingasser ( ) lemma=swingare 
+ wingassim ( ) lemma=swingare 
+ wingast ( ) lemma=swingare 
+ wingat ( ) lemma=swingare 
+ wingav ( ) lemma=swingare 
+ wingavam ( ) lemma=swingare 
+ wingava ( ) lemma=swingare 
+ wingavan ( ) lemma=swingare 
+ wingavat ( ) lemma=swingare 
+ winghera ( ) lemma=swingare 
+ wingherann ( ) lemma=swingare 
+ wingherebb ( ) lemma=swingare 
+ wingherebbe ( ) lemma=swingare 
+ wingherebber ( ) lemma=swingare 
+ winghere ( ) lemma=swingare 
+ wingheremm ( ) lemma=swingare 
+ wingherem ( ) lemma=swingare 
+ wingherest ( ) lemma=swingare 
+ wingheret ( ) lemma=swingare 
+ winghero ( ) lemma=swingare 
+ wingher√ ( ) lemma=swingare 
+ wingh ( ) lemma=swingare 
+ winghiam ( ) lemma=swingare 
+ winghiat ( ) lemma=swingare 
+ winghi ( ) lemma=swingare 
+ winghin ( ) lemma=swingare 
+ wingo ( ) lemma=swingare 
+ wing√ ( ) lemma=swingare 

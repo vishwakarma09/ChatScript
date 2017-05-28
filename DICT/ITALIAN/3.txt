@@ -4,3 +4,5 @@
  350mila ( ) 
  35mila ( ) 
  3mila ( ) 
+ 30mil ( ) lemma=130mila 
+ 3mil ( ) lemma=23mila 

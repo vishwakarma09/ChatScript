@@ -448,6 +448,11 @@ bool InStack(char* ptr)
 	return (ptr < heapFree && ptr >= stackStart);
 }
 
+void ShowMemory(char* label)
+{
+	printf("%s: HeapUsed: %d Gap: %d\r\n", label, heapBase - heapFree,heapFree - stackFree);
+}
+
 char* AllocateHeap(char* word,size_t len,int bytes,bool clear, bool purelocal) // BYTES means size of unit
 { //   string allocation moves BACKWARDS from end of dictionary space (as do meanings)
 /* Allocations during setup as :

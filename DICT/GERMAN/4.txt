@@ -1,7 +1,6 @@
-﻿ 4 ( ) 
+﻿ 4 ( ) lemma=645 
  4*100-m- ( ) 
- 4*100-m-Staffelzeiten ( ) lemma=4*100-m-Staffelzeit 
- 4*100-m-Staffelzeit ( ) 
+ 4*100-m-Staffelzeiten ( ) 
  4,1 ( ) 
  4,2 ( ) 
  4,2-Liter-Achtzylindermotor ( ) 
@@ -11,52 +10,44 @@
  4,4 ( ) 
  4,5 ( ) 
  4,50 ( ) 
- 4,5fache ( ) lemma=4,5fach 
- 4,5fach ( ) 
+ 4,5fache ( ) 
  4,7-Millionen-Mark-Paket ( ) 
  4,8- ( ) 
- 4,8prozentige ( ) lemma=4,8prozentig 
- 4,8prozentig ( ) 
- 4- ( ) 
- 4-15-Alle ( ) lemma=4-15-All 
- 4-15-All ( ) 
+ 4,8prozentige ( ) 
+ 4- ( ) lemma=44-L 
+ 4-15-Alle ( ) 
  4-A ( ) 
  4-Aktion ( ) 
  4-Bett- ( ) 
  4-Blatt ( ) 
  4-Block ( ) 
- 4-Blätter ( ) lemma=4-Blatt 
- 4-Blättern ( ) lemma=4-Blatt 
+ 4-Blätter ( ) 
+ 4-Blättern ( ) 
  4-CD-Box ( ) 
  4-Dokumentation ( ) 
  4-Euro-Funk-Familie ( ) 
- 4-Fahrten-Karten ( ) lemma=4-Fahrten-Karte 
- 4-Fahrten-Karte ( ) 
+ 4-Fahrten-Karten ( ) 
  4-Format ( ) 
- 4-Gräser ( ) lemma=4-Gras 
- 4-Gras ( ) 
- 4-Helferzellen ( ) lemma=4-Helferzelle 
- 4-Helferzelle ( ) 
- 4-Komplexes ( ) lemma=4-Komplex 
- 4-Komplex ( ) 
+ 4-Gräser ( ) 
+ 4-Helferzellen ( ) 
+ 4-Komplexes ( ) 
  4-M ( ) 
- 4-Megabit-Chip ( ) 
- 4-Megabit-Chips ( ) lemma=4-Megabit-Chip 
+ 4-Megabit-Chip ( ) lemma=64-Megabit-Chip 
+ 4-Megabit-Chips ( ) 
  4-Millionen-Stadt ( ) 
  4-Personen-Haushalt ( ) 
- 4-Pflanzen ( ) lemma=4-Pflanze 
- 4-Pflanze ( ) 
+ 4-Pflanzen ( ) 
  4-Professor ( ) 
- 4-Professoren ( ) lemma=4-Professor 
+ 4-Professoren ( ) 
  4-Professur ( ) 
- 4-Professuren ( ) lemma=4-Professur 
+ 4-Professuren ( ) 
  4-Rakete ( ) 
  4-Seite ( ) 
- 4-Seiten ( ) lemma=4-Seite 
+ 4-Seiten ( ) 
  4-Sommer ( ) 
  4-Station ( ) 
  4-Stelle ( ) 
- 4-Stellen ( ) lemma=4-Stelle 
+ 4-Stellen ( ) 
  4-Sterne-Hotel ( ) 
  4-Stunden-Spezial-Edition ( ) 
  4-Stunden-Version ( ) 
@@ -64,25 +55,20 @@
  4-Tage-Fahrt ( ) 
  4-Tage-Woche ( ) 
  4-Track-CD ( ) 
- 4-Umschläge ( ) lemma=4-Umschlag 
- 4-Umschlag ( ) 
+ 4-Umschläge ( ) 
  4-Vorlage ( ) 
  4-Wochen-Turnus ( ) 
  4-Zeitplan ( ) 
- 4-Zellen ( ) lemma=4-Zelle 
- 4-Zelle ( ) 
+ 4-Zellen ( ) 
  4-Zettel ( ) 
  4-Zimmer ( ) 
  4-Zimmer-Wohnung ( ) 
- 4-fachen ( ) lemma=4-fach 
- 4-fach ( ) 
+ 4-fachen ( ) 
  4-g ( ) 
- 4-grossen ( ) lemma=4-groß 
- 4-groß ( ) 
- 4-großen ( ) lemma=4-groß 
+ 4-grossen ( ) 
+ 4-großen ( ) 
  4-h ( ) 
- 4-plus-2-Gespräche ( ) lemma=4-plus-2-Gespräch 
- 4-plus-2-Gespräch ( ) 
+ 4-plus-2-Gespräche ( ) 
  4. ( ) 
  4.000-Megawatt- ( ) 
  4.000-Meter-Einzelverfolgung ( ) 
@@ -90,12 +76,10 @@
  4.000-m-Einzelverfolgung ( ) 
  4.000-m-Verfolgung ( ) 
  4.000er ( ) 
- 4.000jährigen ( ) lemma=4.000jährig 
- 4.000jährig ( ) 
- 4.000köpfige ( ) lemma=4.000köpfig 
- 4.000köpfig ( ) 
- 4.000köpfigen ( ) lemma=4.000köpfig 
- 4/1 ( ) 
+ 4.000jährigen ( ) 
+ 4.000köpfige ( ) 
+ 4.000köpfigen ( ) 
+ 4/1 ( ) lemma=24/16 
  4/10 ( ) 
  4/100 ( ) 
  4/1988 ( ) 
@@ -103,29 +87,29 @@
  4/1990 ( ) 
  4/1991 ( ) 
  4/1992 ( ) 
- 4/2 ( ) 
+ 4/2 ( ) lemma=24/26 
  4/225 ( ) 
  4/230 ( ) 
  4/245 ( ) 
  4/265 ( ) 
  4/273 ( ) 
  4/280 ( ) 
- 4/3 ( ) 
+ 4/3 ( ) lemma=34/36 
  4/326 ( ) 
  4/34,71 ( ) 
- 4/4 ( ) 
+ 4/4 ( ) lemma=44/45 
  4/4- ( ) 
  4/4-Takt ( ) 
- 4/5 ( ) 
+ 4/5 ( ) lemma=64/59 
  4/59,49 ( ) 
- 4/7 ( ) 
+ 4/7 ( ) lemma=84/75 
  4/88 ( ) 
  4/89 ( ) 
  4/90 ( ) 
  4/91 ( ) 
  4/92 ( ) 
  4/93 ( ) 
- 40 ( ) 
+ 40 ( ) lemma=3400 
  40,5 ( ) 
  40,5-Teiler ( ) 
  40- ( ) 
@@ -137,31 +121,29 @@
  40-Jahr-Berufsjubiläum ( ) 
  40-Jahr-Dienstjubiläum ( ) 
  40-Jahr-Feier ( ) 
- 40-Jahr-Feiern ( ) lemma=40-Jahr-feier 
- 40-Jahr-feier ( ) 
+ 40-Jahr-Feiern ( ) 
  40-Jahr-Frist ( ) 
  40-Jahr-Jubiläum ( ) 
  40-Jahr-Landesjubiläum ( ) 
- 40-Jahr-Landesjubiläums ( ) lemma=40-Jahr-Landesjubiläum 
- 40-Jahre ( ) lemma=40-Jahr 
+ 40-Jahr-Landesjubiläums ( ) 
+ 40-Jahre ( ) 
  40-Jahre-Jubelfeier ( ) 
  40-Jahrfeier ( ) 
  40-Kilogramm-Gewichtsklasse ( ) 
  40-Meter- ( ) 
  40-Meter-Schuss ( ) 
- 40-Meter-Schuß ( ) lemma=40-Meter-Schuss 
+ 40-Meter-Schuß ( ) 
  40-Millionen- ( ) 
  40-Millionen-Dollar-Klage ( ) 
  40-Millionen-Mark-Bauprojekt ( ) 
  40-Millionen-Mark-Projekt ( ) 
  40-Millionen-Mark-Zuschuss ( ) 
- 40-Millionen-Mark-Zuschuß ( ) lemma=40-Millionen-Mark-Zuschuss 
+ 40-Millionen-Mark-Zuschuß ( ) 
  40-Millionen-Programm ( ) 
  40-Millionen-Projekt ( ) 
  40-Minuten-Rhythmus ( ) 
  40-Minuten-Takt ( ) 
- 40-Pfennig-Briefmarken ( ) lemma=40-Pfennig-Briefmarke 
- 40-Pfennig-Briefmarke ( ) 
+ 40-Pfennig-Briefmarken ( ) 
  40-Prozent ( ) 
  40-Prozent- ( ) 
  40-Prozent-Anteil ( ) 
@@ -180,13 +162,11 @@
  40-Tonnen-Lastzug ( ) 
  40-Tonnen-Sattelschlepper ( ) 
  40-Tonnen-Zug ( ) 
- 40-Watt-Birnen ( ) lemma=40-Watt-Birne 
- 40-Watt-Birne ( ) 
+ 40-Watt-Birnen ( ) 
  40-Wochen-Stunden-Schnitt ( ) 
  40-Zentimeter-Marke ( ) 
- 40-jährige ( ) lemma=40-jährig 
- 40-jährig ( ) 
- 40-jährigen ( ) lemma=40-jährig 
+ 40-jährige ( ) 
+ 40-jährigen ( ) 
  40.000- ( ) 
  40/41 ( ) 
  400 ( ) 
@@ -202,8 +182,7 @@
  400-Meter- ( ) 
  400-Meter-Bahn ( ) 
  400-Meter-Freistil ( ) 
- 400-Meter-Hürden ( ) lemma=400-Meter-Hürde 
- 400-Meter-Hürde ( ) 
+ 400-Meter-Hürden ( ) 
  400-Meter-Hürdenlauf ( ) 
  400-Meter-Lagen- ( ) 
  400-Meter-Lauf ( ) 
@@ -212,19 +191,16 @@
  400-Meter-Rundbahn ( ) 
  400-Meter-Staffel ( ) 
  400-Meter-Strecke ( ) 
- 400-Millionen ( ) lemma=400-Million 
- 400-Million ( ) 
+ 400-Millionen ( ) 
  400-Millionen-Dollar-Kredit ( ) 
  400-Millionen-Projekt ( ) 
  400-Seelen-Dorf ( ) 
  400-m-Europameisterin ( ) 
  400-m-Freistil ( ) 
- 400-m-Hürden ( ) lemma=400-m-Hürde 
- 400-m-Hürde ( ) 
+ 400-m-Hürden ( ) 
  400-m-Hürdenläufer ( ) 
  400-m-Hürdenläuferin ( ) 
- 400-m-Lagen ( ) lemma=400-m-Lage 
- 400-m-Lage ( ) 
+ 400-m-Lagen ( ) 
  400-m-Läufer ( ) 
  400-m-Olympiasiegerin ( ) 
  400-m-Sieg ( ) 
@@ -248,55 +224,45 @@
  40000 ( ) 
  40000-Mark-Grenze ( ) 
  40000-Mark-Spende ( ) 
- 4000köpfigen ( ) lemma=4000köpfig 
- 4000köpfig ( ) 
+ 4000köpfigen ( ) 
  400er ( ) 
  400fach ( ) 
- 400fache ( ) lemma=400fach 
- 400jährige ( ) lemma=400jährig 
- 400jährig ( ) 
- 400jährigen ( ) lemma=400jährig 
- 400jähriges ( ) lemma=400jährig 
- 400köpfige ( ) lemma=400köpfig 
- 400köpfig ( ) 
- 400köpfigen ( ) lemma=400köpfig 
- 400prozentige ( ) lemma=400prozentig 
- 400prozentig ( ) 
+ 400fache ( ) 
+ 400jährige ( ) 
+ 400jährigen ( ) 
+ 400jähriges ( ) 
+ 400köpfige ( ) lemma=1400köpfig 
+ 400köpfigen ( ) 
+ 400prozentige ( ) 
  401 ( ) 
  402/403 ( ) 
  4049/88 ( ) 
  409/91 ( ) 
  40er ( ) 
  40er-Jubiläum ( ) 
- 40ern ( ) lemma=40er 
+ 40ern ( ) 
  40fach ( ) 
- 40fache ( ) lemma=40fach 
- 40fachen ( ) lemma=40fach 
- 40jährige ( ) lemma=40jährig 
- 40jährig ( ) 
- 40jährigem ( ) lemma=40jährig 
- 40jährigen ( ) lemma=40jährig 
- 40jähriger ( ) lemma=40jährig 
- 40jähriges ( ) lemma=40jährig 
- 40köpfige ( ) lemma=40köpfig 
- 40köpfig ( ) 
- 40köpfigen ( ) lemma=40köpfig 
- 40köpfiger ( ) lemma=40köpfig 
+ 40fache ( ) 
+ 40fachen ( ) 
+ 40jährige ( ) lemma=140jährig 
+ 40jährigem ( ) 
+ 40jährigen ( ) 
+ 40jähriger ( ) 
+ 40jähriges ( ) 
+ 40köpfige ( ) 
+ 40köpfigen ( ) 
+ 40köpfiger ( ) 
  40mal ( ) 
- 40malige ( ) lemma=40malig 
- 40malig ( ) 
- 40maliges ( ) lemma=40malig 
- 40prozentige ( ) lemma=40prozentig 
- 40prozentig ( ) 
- 40prozentigen ( ) lemma=40prozentig 
- 40prozentiger ( ) lemma=40prozentig 
- 40stündigen ( ) lemma=40stündig 
- 40stündig ( ) 
- 40stündiges ( ) lemma=40stündig 
- 40tägige ( ) lemma=40tägig 
- 40tägig ( ) 
- 40tägigen ( ) lemma=40tägig 
- 41 ( ) 
+ 40malige ( ) lemma=840malig 
+ 40maliges ( ) 
+ 40prozentige ( ) 
+ 40prozentigen ( ) 
+ 40prozentiger ( ) 
+ 40stündigen ( ) 
+ 40stündiges ( ) 
+ 40tägige ( ) 
+ 40tägigen ( ) 
+ 41 ( ) lemma=8412 
  41-A ( ) 
  41/2 ( ) 
  41/3 ( ) 
@@ -315,20 +281,17 @@
  413/93 ( ) 
  41397/15/12/86/02 ( ) 
  418/90 ( ) 
- 41a-Massnahmen ( ) lemma=41a-Maßnahme 
- 41a-Maßnahme ( ) 
- 41a-Maßnahmen ( ) lemma=41a-Maßnahme 
- 41fache ( ) lemma=41fach 
- 41fach ( ) 
+ 41a-Massnahmen ( ) 
+ 41a-Maßnahmen ( ) 
+ 41fache ( ) 
  41jährig ( ) 
- 41jährige ( ) lemma=41jährig 
- 41jährigen ( ) lemma=41jährig 
- 41jähriger ( ) lemma=41jährig 
+ 41jährige ( ) 
+ 41jährigen ( ) 
+ 41jähriger ( ) 
  42,195-Kilometer-Strecke ( ) 
  42-A ( ) 
  42-Stunden-Woche ( ) 
- 42-jährige ( ) lemma=42-jährig 
- 42-jährig ( ) 
+ 42-jährige ( ) 
  42. ( ) 
  42/43 ( ) 
  42/44 ( ) 
@@ -346,20 +309,17 @@
  429/91 ( ) 
  42er ( ) 
  42jährig ( ) 
- 42jährige ( ) lemma=42jährig 
- 42jährigen ( ) lemma=42jährig 
- 42jähriger ( ) lemma=42jährig 
- 42köpfige ( ) lemma=42köpfig 
- 42köpfig ( ) 
- 42köpfigen ( ) lemma=42köpfig 
- 42zeiligen ( ) lemma=42zeilig 
- 42zeilig ( ) 
+ 42jährige ( ) 
+ 42jährigen ( ) 
+ 42jähriger ( ) 
+ 42köpfige ( ) 
+ 42köpfigen ( ) 
+ 42zeiligen ( ) 
  43 ( ) 
  43-A ( ) 
  43-Prozent-Marke ( ) 
  43-Stunden ( ) 
- 43-jährige ( ) lemma=43-jährig 
- 43-jährig ( ) 
+ 43-jährige ( ) 
  43.- ( ) 
  43/1989 ( ) 
  43/44 ( ) 
@@ -369,39 +329,29 @@
  432/90 ( ) 
  432965-2 ( ) 
  43er ( ) 
- 43fachen ( ) lemma=43fach 
- 43fach ( ) 
- 43jährige ( ) lemma=43jährig 
- 43jährig ( ) 
- 43jährigem ( ) lemma=43jährig 
- 43jährigen ( ) lemma=43jährig 
- 43jähriger ( ) lemma=43jährig 
- 43köpfige ( ) lemma=43köpfig 
- 43köpfig ( ) 
- 43köpfigen ( ) lemma=43köpfig 
- 43prozentige ( ) lemma=43prozentig 
- 43prozentig ( ) 
- 43prozentigen ( ) lemma=43prozentig 
- 43tägigen ( ) lemma=43tägig 
- 43tägig ( ) 
- 44 ( ) 
+ 43fachen ( ) 
+ 43jährige ( ) 
+ 43jährigem ( ) 
+ 43jährigen ( ) 
+ 43jähriger ( ) 
+ 43köpfige ( ) 
+ 43köpfigen ( ) 
+ 43prozentige ( ) 
+ 43prozentigen ( ) 
+ 43tägigen ( ) 
+ 44 ( ) lemma=1446 
  44- ( ) 
  44-A ( ) 
  44-L ( ) 
- 44-jährige ( ) lemma=44-jährig 
- 44-jährig ( ) 
+ 44-jährige ( ) 
  44/45 ( ) 
  440 ( ) 
- 440-MW-Blöcke ( ) lemma=440-MW-Block 
- 440-MW-Block ( ) 
- 440-MW-Reaktoren ( ) lemma=440-MW-Reaktor 
- 440-MW-Reaktor ( ) 
+ 440-MW-Blöcke ( ) 
+ 440-MW-Reaktoren ( ) 
  440-Mark ( ) 
  440-Megawatt- ( ) 
- 440-Megawatt-Druckwasserreaktoren ( ) lemma=440-Megawatt-Druckwasserreaktor 
- 440-Megawatt-Druckwasserreaktor ( ) 
- 440-Megawatt-Reaktoren ( ) lemma=440-Megawatt-Reaktor 
- 440-Megawatt-Reaktor ( ) 
+ 440-Megawatt-Druckwasserreaktoren ( ) 
+ 440-Megawatt-Reaktoren ( ) 
  440/213 ( ) 
  440/230 ( ) 
  44000-Einwohner-Stadt ( ) 
@@ -410,15 +360,12 @@
  44er ( ) 
  44er-Linie ( ) 
  44jährig ( ) 
- 44jährige ( ) lemma=44jährig 
- 44jährigen ( ) lemma=44jährig 
- 44jähriger ( ) lemma=44jährig 
- 44köpfigen ( ) lemma=44köpfig 
- 44köpfig ( ) 
- 44prozentige ( ) lemma=44prozentig 
- 44prozentig ( ) 
- 44tägigen ( ) lemma=44tägig 
- 44tägig ( ) 
+ 44jährige ( ) 
+ 44jährigen ( ) 
+ 44jähriger ( ) 
+ 44köpfigen ( ) 
+ 44prozentige ( ) 
+ 44tägigen ( ) 
  45 ( ) 
  45,1 ( ) 
  45- ( ) 
@@ -430,11 +377,10 @@
  45-Minuten-Film ( ) 
  45-Minuten-Modell ( ) 
  45-Minuten-Sendung ( ) 
- 45-Minuten-Sendungen ( ) lemma=45-Minuten-Sendung 
+ 45-Minuten-Sendungen ( ) 
  45-Minuten-Takt ( ) 
  45-Stunden-Woche ( ) 
- 45-jährige ( ) lemma=45-jährig 
- 45-jährig ( ) 
+ 45-jährige ( ) 
  45.000-Einwohner-Stadt ( ) 
  45/3 ( ) 
  45/46 ( ) 
@@ -443,42 +389,34 @@
  45/92 ( ) 
  450 ( ) 
  450-Mark ( ) 
- 450-Mark-Jobs ( ) lemma=450-Mark-Job 
- 450-Mark-Job ( ) 
+ 450-Mark-Jobs ( ) 
  450-Seelen-Gemeinde ( ) 
  450-Seelen-Ort ( ) 
  4500 ( ) 
  4500-Einwohner-Gemeinde ( ) 
- 450jährigen ( ) lemma=450jährig 
- 450jährig ( ) 
- 450jähriges ( ) lemma=450jährig 
- 450köpfigen ( ) lemma=450köpfig 
- 450köpfig ( ) 
+ 450jährigen ( ) 
+ 450jähriges ( ) 
+ 450köpfigen ( ) 
  452/53 ( ) 
  4538/89 ( ) 
  456 ( ) 
  456/88 ( ) 
  45er ( ) 
  45er-Raster ( ) 
- 45fachen ( ) lemma=45fach 
- 45fach ( ) 
- 45jährige ( ) lemma=45jährig 
- 45jährig ( ) 
- 45jährigem ( ) lemma=45jährig 
- 45jährigen ( ) lemma=45jährig 
- 45jähriger ( ) lemma=45jährig 
- 45jähriges ( ) lemma=45jährig 
- 45köpfige ( ) lemma=45köpfig 
- 45köpfig ( ) 
- 45köpfigen ( ) lemma=45köpfig 
- 45prozentige ( ) lemma=45prozentig 
- 45prozentig ( ) 
- 45prozentigen ( ) lemma=45prozentig 
+ 45fachen ( ) 
+ 45jährige ( ) 
+ 45jährigem ( ) 
+ 45jährigen ( ) 
+ 45jähriger ( ) 
+ 45jähriges ( ) 
+ 45köpfige ( ) 
+ 45köpfigen ( ) 
+ 45prozentige ( ) 
+ 45prozentigen ( ) 
  46 ( ) 
  46,20 ( ) 
  46-A ( ) 
- 46-jährige ( ) lemma=46-jährig 
- 46-jährig ( ) 
+ 46-jährige ( ) 
  46. ( ) 
  46/47 ( ) 
  46/48 ( ) 
@@ -487,13 +425,11 @@
  4677:4624-Sieger ( ) 
  46er ( ) 
  46jährig ( ) 
- 46jährige ( ) lemma=46jährig 
- 46jährigen ( ) lemma=46jährig 
- 46jähriger ( ) lemma=46jährig 
- 46malige ( ) lemma=46malig 
- 46malig ( ) 
- 46prozentigen ( ) lemma=46prozentig 
- 46prozentig ( ) 
+ 46jährige ( ) 
+ 46jährigen ( ) 
+ 46jähriger ( ) 
+ 46malige ( ) 
+ 46prozentigen ( ) 
  47 ( ) 
  47-A ( ) 
  47-Millionen-Mark-Flop ( ) 
@@ -503,17 +439,15 @@
  470-Mark-Grenze ( ) 
  470er ( ) 
  470er- ( ) 
- 470er-Frauen ( ) lemma=470er-Frau 
- 470er-Frau ( ) 
+ 470er-Frauen ( ) 
  470er-Klasse ( ) 
  4716/87 ( ) 
  474/91 ( ) 
  4762 ( ) 
  47er ( ) 
- 47jährige ( ) lemma=47jährig 
- 47jährig ( ) 
- 47jährigen ( ) lemma=47jährig 
- 47jähriger ( ) lemma=47jährig 
+ 47jährige ( ) 
+ 47jährigen ( ) 
+ 47jähriger ( ) 
  48 ( ) 
  48,0-Teiler ( ) 
  48-A ( ) 
@@ -531,8 +465,7 @@
  48/50 ( ) 
  48/51 ( ) 
  480-Mark-Basis ( ) 
- 480-Mark-Jobs ( ) lemma=480-Mark-Job 
- 480-Mark-Job ( ) 
+ 480-Mark-Jobs ( ) 
  4800-Kilowatt-Kraftpaket ( ) 
  4800-Tonnen-Frachter ( ) 
  482 ( ) 
@@ -543,42 +476,37 @@
  48er-Revolution ( ) 
  48er-Revolutionär ( ) 
  48jährig ( ) 
- 48jährige ( ) lemma=48jährig 
- 48jährigen ( ) lemma=48jährig 
- 48jähriger ( ) lemma=48jährig 
- 48prozentigen ( ) lemma=48prozentig 
- 48prozentig ( ) 
- 48stündige ( ) lemma=48stündig 
- 48stündig ( ) 
- 48stündigen ( ) lemma=48stündig 
- 48stündiger ( ) lemma=48stündig 
- 48stündiges ( ) lemma=48stündig 
+ 48jährige ( ) 
+ 48jährigen ( ) 
+ 48jähriger ( ) 
+ 48prozentigen ( ) 
+ 48stündige ( ) 
+ 48stündigen ( ) 
+ 48stündiger ( ) 
+ 48stündiges ( ) 
  49,9-Prozent-Anteil ( ) 
  49-Meter-Band ( ) 
  49-Prozent-Anteil ( ) 
  49-Prozent-Beteiligung ( ) 
  49-Prozent-Rahmen ( ) 
  49-Prozentregelung ( ) 
- 49-jährige ( ) lemma=49-jährig 
- 49-jährig ( ) 
+ 49-jährige ( ) 
  49/50 ( ) 
  49/51 ( ) 
  49/53 ( ) 
  49/89 ( ) 
  49/91 ( ) 
- 490-Kilo-Leinen ( ) lemma=490-Kilo-Leine 
- 490-Kilo-Leine ( ) 
+ 490-Kilo-Leinen ( ) 
  499/91 ( ) 
  49er ( ) 
  49jährig ( ) 
- 49jährige ( ) lemma=49jährig 
- 49jährigen ( ) lemma=49jährig 
- 49jähriger ( ) lemma=49jährig 
+ 49jährige ( ) 
+ 49jährigen ( ) 
+ 49jähriger ( ) 
  49m-Band ( ) 
- 49prozentige ( ) lemma=49prozentig 
- 49prozentig ( ) 
- 49prozentigen ( ) lemma=49prozentig 
- 49prozentiger ( ) lemma=49prozentig 
+ 49prozentige ( ) 
+ 49prozentigen ( ) 
+ 49prozentiger ( ) 
  4:0-Auswärtserfolg ( ) 
  4:0-Auswärtssieg ( ) 
  4:0-Derbysieg ( ) 
@@ -586,14 +514,11 @@
  4:0-Erfolg ( ) 
  4:0-Führung ( ) 
  4:0-Pausenstand ( ) 
- 4:0-Punkte ( ) lemma=4:0-Punkt 
- 4:0-Punkt ( ) 
- 4:0-Punkten ( ) lemma=4:0-Punkt 
+ 4:0-Punkte ( ) 
+ 4:0-Punkten ( ) 
  4:0-Sieg ( ) 
- 4:0-Siegen ( ) lemma=4:0-sieg 
- 4:0-sieg ( ) 
- 4:0-Toren ( ) lemma=4:0-Tor 
- 4:0-Tor ( ) 
+ 4:0-Siegen ( ) 
+ 4:0-Toren ( ) 
  4:1 ( ) 
  4:1-Ehrentreffer ( ) 
  4:1-Endstand ( ) 
@@ -602,19 +527,16 @@
  4:1-Niederlage ( ) 
  4:1-Pausenstand ( ) 
  4:1-Sieg ( ) 
- 4:1-Siegen ( ) lemma=4:1-sieg 
- 4:1-sieg ( ) 
+ 4:1-Siegen ( ) 
  4:1-Sieger ( ) 
  4:1-Vorsprung ( ) 
- 4:11-Siegen ( ) lemma=4:11-sieg 
- 4:11-sieg ( ) 
+ 4:11-Siegen ( ) 
  4:2-Deckung ( ) 
  4:2-Endstand ( ) 
  4:2-Erfolg ( ) 
  4:2-Führung ( ) 
- 4:2-Punkte ( ) lemma=4:2-Punkt 
- 4:2-Punkt ( ) 
- 4:2-Punkten ( ) lemma=4:2-Punkt 
+ 4:2-Punkte ( ) 
+ 4:2-Punkten ( ) 
  4:2-Sieg ( ) 
  4:22,81 ( ) 
  4:24,14 ( ) 
@@ -628,9 +550,8 @@
  4:35,85 ( ) 
  4:4-Ausgleich ( ) 
  4:4-Endstand ( ) 
- 4:4-Punkte ( ) lemma=4:4-Punkt 
- 4:4-Punkt ( ) 
- 4:4-Punkten ( ) lemma=4:4-Punkt 
+ 4:4-Punkte ( ) 
+ 4:4-Punkten ( ) 
  4:4-Remis ( ) 
  4:4-Unentschieden ( ) 
  4:46,69 ( ) 
@@ -638,27 +559,21 @@
  4:5-Niederlage ( ) 
  4:6- ( ) 
  4:6-Niederlage ( ) 
- 4:6-Punkte ( ) lemma=4:6-Punkt 
- 4:6-Punkt ( ) 
+ 4:6-Punkte ( ) 
  4:8-Niederlage ( ) 
  4:9-Niederlage ( ) 
- 4Matic-Modelle ( ) lemma=4Matic-Modell 
- 4Matic-Modell ( ) 
+ 4Matic-Modelle ( ) 
  4P-Gruppe ( ) 
  4P-Verpackungsgruppe ( ) 
  4U-Fan ( ) 
- 4er ( ) 
- 4fach ( ) 
- 4jährige ( ) lemma=4jährig 
- 4jährig ( ) 
- 4jährigen ( ) lemma=4jährig 
- 4jähriger ( ) lemma=4jährig 
- 4mal-400-Meter-Staffeln ( ) lemma=4mal-400-Meter-Staffel 
- 4mal-400-Meter-Staffel ( ) 
- 4prozentigen ( ) lemma=4prozentig 
- 4prozentig ( ) 
- 4teilige ( ) lemma=4teilig 
- 4teilig ( ) 
+ 4er ( ) lemma=94er 
+ 4fach ( ) lemma=24fach 
+ 4jährige ( ) lemma=94jährig 
+ 4jährigen ( ) 
+ 4jähriger ( ) 
+ 4mal-400-Meter-Staffeln ( ) 
+ 4prozentigen ( ) 
+ 4teilige ( ) 
  4x10-km-Staffel ( ) 
  4x100-Meter-Staffel ( ) 
  4x100-m- ( ) 
@@ -672,3 +587,363 @@
  4x400-m-Staffel ( ) 
  4x5-km-Staffel ( ) 
  4x7,5-km-Staffel ( ) 
+ 40/3 ( ) lemma=040/39 
+ 40/39252 ( ) lemma=040/392526 
+ 40/4 ( ) lemma=040/45 
+ 40/43 ( ) lemma=040/439 
+ 40/491164 ( ) lemma=040/4911647 
+ 40/691005 ( ) lemma=040/6910055 
+ 40/6970891 ( ) lemma=040/69708915 
+ 4131/6629 ( ) lemma=04131/66295 
+ 421/21333 ( ) lemma=0421/213333 
+ 421/3 ( ) lemma=0421/32 
+ 421/32162 ( ) lemma=0421/321623 
+ 421/32353 ( ) lemma=0421/323530 
+ 421/32443 ( ) lemma=0421/324438 
+ 421/34 ( ) lemma=0421/346 
+ 421/35674 ( ) lemma=0421/356746 
+ 421/38161 ( ) lemma=0421/381615 
+ 421/396373 ( ) lemma=0421/3963737 
+ 421/45540 ( ) lemma=0421/455408 
+ 421/49352 ( ) lemma=0421/493521 
+ 421/559630 ( ) lemma=0421/5596300 
+ 421/59186 ( ) lemma=0421/591865 
+ 421/7532 ( ) lemma=0421/75325 
+ 4235/215 ( ) lemma=04235/2158 
+ 4253/71 ( ) lemma=04253/714 
+ 431/67204 ( ) lemma=0431/672041 
+ 441/88475 ( ) lemma=0441/884757 
+ 4421/48 ( ) lemma=04421/480 
+ 451/7 ( ) lemma=0451/79 
+ 471/4 ( ) lemma=0471/41 
+ 471/41234 ( ) lemma=0471/412340 
+ 4743/795 ( ) lemma=04743/7956 
+ 4761/7133 ( ) lemma=04761/71330 
+ 4791/704 ( ) lemma=04791/7041 
+ 491 ( ) lemma=0491- 
+ 4, ( ) lemma=14,5 
+ 4,7 ( ) lemma=14,75 
+ 4-Ausba ( ) lemma=14-Ausbau 
+ 4-Millionen-Metropol ( ) lemma=14-Millionen-Metropole 
+ 4-Millionen-Stad ( ) lemma=14-Millionen-Stadt 
+ 4-Neuba ( ) lemma=14-Neubau 
+ 4-Parteien-Koalitio ( ) lemma=14-Parteien-Koalition 
+ 4-Prozent-Mark ( ) lemma=14-Prozent-Marke 
+ 4-Punkt ( ) lemma=14-Punkt 
+ 4-Punkte-Katalo ( ) lemma=14-Punkte-Katalog 
+ 4-Punkte-Pla ( ) lemma=14-Punkte-Plan 
+ 4-Stunden ( ) lemma=24-Stunden- 
+ 4-Stunden-Ta ( ) lemma=24-Stunden-Tag 
+ 4-Tage ( ) lemma=14-Tage- 
+ 4-Tage-Arrangemen ( ) lemma=14-Tage-Arrangement 
+ 4-Tage-Gel ( ) lemma=14-Tage-Geld 
+ 4-Tage-Rhythmu ( ) lemma=14-Tage-Rhythmus 
+ 4-Tage-Tak ( ) lemma=14-Tage-Takt 
+ 4-Tages-Rhythmu ( ) lemma=14-Tages-Rhythmus 
+ 4-Tunne ( ) lemma=14-Tunnel 
+ 4-Tunnel-Eröffnun ( ) lemma=14-Tunnel-Eröffnung 
+ 4-Tunnel ( ) lemma=14-Tunnel 
+ 4-Verlegun ( ) lemma=14-Verlegung 
+ 4-jährig ( ) lemma=44-jährig 
+ 4-jährige ( ) lemma=34-jährig 
+ 4-tägi ( ) lemma=14-tägig 
+ 4-tägig ( ) lemma=14-tägig 
+ 4-tägige ( ) lemma=14-tägig 
+ 4.0 ( ) lemma=14.06 
+ 4.1 ( ) lemma=14.10 
+ 4/ ( ) lemma=84/1 
+ 4/278 ( ) lemma=14/2780 
+ 4/8 ( ) lemma=84/85 
+ 4/9 ( ) lemma=94/95 
+ 40-Betten-Hote ( ) lemma=240-Betten-Hotel 
+ 40-Doppelzimmer-Hote ( ) lemma=140-Doppelzimmer-Hotel 
+ 40-Millionen-Mark ( ) lemma=140-Millionen-Mark- 
+ 40-Millionen-Mark-Objekt ( ) lemma=140-Millionen-Mark-Objekt 
+ 40-Millionen-Mark-Projek ( ) lemma=140-Millionen-Mark-Projekt 
+ 40-Seite ( ) lemma=140-Seite 
+ 40-Seiten-Wer ( ) lemma=140-Seiten-Werk 
+ 40-Teile ( ) lemma=140-Teiler 
+ 400-Ringe-Grenz ( ) lemma=1400-Ringe-Grenze 
+ 400-Ringe-Mark ( ) lemma=1400-Ringe-Marke 
+ 400-Seelen-Dor ( ) lemma=1400-Seelen-Dorf 
+ 400-Seelen-Gemeind ( ) lemma=1400-Seelen-Gemeinde 
+ 4000-Einwohner-Gemeind ( ) lemma=14000-Einwohner-Gemeinde 
+ 4000-Einwohner-Kommun ( ) lemma=24000-Einwohner-Kommune 
+ 4000-Einwohner-Stad ( ) lemma=84000-Einwohner-Stadt 
+ 401/4 ( ) lemma=1401/42 
+ 402/7 ( ) lemma=1402/78 
+ 403/5 ( ) lemma=1403/50 
+ 405/3 ( ) lemma=1405/35 
+ 408/0 ( ) lemma=1408/07 
+ 408/1 ( ) lemma=1408/14 
+ 409/5 ( ) lemma=1409/50 
+ 409/8 ( ) lemma=1409/89 
+ 411/6 ( ) lemma=1411/64 
+ 412/1 ( ) lemma=1412/14 
+ 413/0 ( ) lemma=1413/08 
+ 416/0 ( ) lemma=1416/07 
+ 417/7 ( ) lemma=1417/78 
+ 418/8 ( ) lemma=1418/85 
+ 419/5 ( ) lemma=1419/50 
+ 419/9 ( ) lemma=1419/92 
+ 42/ ( ) lemma=142/3 
+ 42/8 ( ) lemma=142/89 
+ 421/0 ( ) lemma=1421/00 
+ 423/0 ( ) lemma=1423/00 
+ 425/0 ( ) lemma=1425/00 
+ 426/1 ( ) lemma=1426/14 
+ 426/7 ( ) lemma=1426/78 
+ 427/9 ( ) lemma=1427/92 
+ 428/4 ( ) lemma=1428/42 
+ 428/8 ( ) lemma=1428/88 
+ 429/2 ( ) lemma=1429/21 
+ 429/5 ( ) lemma=1429/50 
+ 430/8 ( ) lemma=1430/88 
+ 432/0 ( ) lemma=1432/00 
+ 433/0 ( ) lemma=1433/00 
+ 44/ ( ) lemma=144/5 
+ 442/5 ( ) lemma=1442/50 
+ 442/7 ( ) lemma=1442/71 
+ 443/4 ( ) lemma=1443/42 
+ 443/7 ( ) lemma=1443/71 
+ 444/6 ( ) lemma=1444/64 
+ 444/8 ( ) lemma=1444/85 
+ 446/5 ( ) lemma=1446/50 
+ 447/9 ( ) lemma=1447/92 
+ 448/1 ( ) lemma=1448/14 
+ 449/4 ( ) lemma=1449/42 
+ 449/9 ( ) lemma=1449/92 
+ 44e ( ) lemma=144er 
+ 452/0 ( ) lemma=1452/07 
+ 454/1 ( ) lemma=1454/14 
+ 460/0 ( ) lemma=1460/00 
+ 461/7 ( ) lemma=1461/78 
+ 462/7 ( ) lemma=1462/71 
+ 462/8 ( ) lemma=1462/87 
+ 462/9 ( ) lemma=1462/92 
+ 463/0 ( ) lemma=1463/07 
+ 463/1 ( ) lemma=1463/14 
+ 4661/8 ( ) lemma=14661/88 
+ 467/2 ( ) lemma=1467/21 
+ 467/8 ( ) lemma=1467/85 
+ 46e ( ) lemma=146er 
+ 470/3 ( ) lemma=1470/35 
+ 472/0 ( ) lemma=1472/00 
+ 474:1488-Niederlag ( ) lemma=1474:1488-Niederlage 
+ 478/0 ( ) lemma=1478/00 
+ 478/7 ( ) lemma=1478/78 
+ 489/9 ( ) lemma=1489/90 
+ 493/8 ( ) lemma=1493/89 
+ 499/9 ( ) lemma=1499/90 
+ 4:10-Führun ( ) lemma=14:10-Führung 
+ 4:11-Führun ( ) lemma=14:11-Führung 
+ 4:11-Sie ( ) lemma=14:11-Sieg 
+ 4:12-Sie ( ) lemma=14:12-Sieg 
+ 4:13-Siege ( ) lemma=14:13-Sieger 
+ 4:17-Niederlag ( ) lemma=14:17-Niederlage 
+ 4:19-Niederlag ( ) lemma=14:19-Niederlage 
+ 4:2-Zähle ( ) lemma=14:2-Zähler 
+ 4:4-Punkt ( ) lemma=14:4-Punkt 
+ 4:4-Zähle ( ) lemma=14:4-Zähler 
+ 4er-Fel ( ) lemma=64er-Feld 
+ 4fache ( ) lemma=34fach 
+ 4jähri ( ) lemma=84jährig 
+ 4jährig ( ) lemma=94jährig 
+ 4köpfig ( ) lemma=54köpfig 
+ 4köpfige ( ) lemma=94köpfig 
+ 4malige ( ) lemma=14malig 
+ 4monatig ( ) lemma=14monatig 
+ 4monatige ( ) lemma=14monatig 
+ 4prozentig ( ) lemma=94prozentig 
+ 4prozentige ( ) lemma=74prozentig 
+ 4stöckige ( ) lemma=14stöckig 
+ 4stündig ( ) lemma=24stündig 
+ 4stündige ( ) lemma=54stündig 
+ 4teilig ( ) lemma=14teilig 
+ 4tägi ( ) lemma=14tägig 
+ 4tägig ( ) lemma=14tägig 
+ 4tägige ( ) lemma=44tägig 
+ 4,7-Teile ( ) lemma=24,7-Teiler 
+ 4,9prozentige ( ) lemma=24,9prozentig 
+ 4-Milliarden ( ) lemma=24-Milliarden- 
+ 4-Milliarden-Dollar ( ) lemma=24-Milliarden-Dollar- 
+ 4-Milliarden-Dollar-Hilfspake ( ) lemma=24-Milliarden-Dollar-Hilfspaket 
+ 4-Milliarden-Dollar-Hilfspaket ( ) lemma=24-Milliarden-Dollar-Hilfspaket 
+ 4-Milliarden-Dollar-Hilfsprogram ( ) lemma=24-Milliarden-Dollar-Hilfsprogramm 
+ 4-Milliarden-Dollar-Pake ( ) lemma=24-Milliarden-Dollar-Paket 
+ 4-Minuten-Tak ( ) lemma=24-Minuten-Takt 
+ 4-Prozent-Antei ( ) lemma=24-Prozent-Anteil 
+ 4-Prozent-Beteiligun ( ) lemma=24-Prozent-Beteiligung 
+ 4-Spur-Studi ( ) lemma=24-Spur-Studio 
+ 4-Stunde ( ) lemma=24-Stunden 
+ 4-Stunden-Bereitschaf ( ) lemma=24-Stunden-Bereitschaft 
+ 4-Stunden-Betreuun ( ) lemma=24-Stunden-Betreuung 
+ 4-Stunden-Betrie ( ) lemma=24-Stunden-Betrieb 
+ 4-Stunden-Dauerbetrie ( ) lemma=24-Stunden-Dauerbetrieb 
+ 4-Stunden-Diens ( ) lemma=24-Stunden-Dienst 
+ 4-Stunden-Gehe ( ) lemma=24-Stunden-Gehen 
+ 4-Stunden-Jugendprogram ( ) lemma=24-Stunden-Jugendprogramm 
+ 4-Stunden-Kart ( ) lemma=24-Stunden-Karte 
+ 4-Stunden-Karte ( ) lemma=24-Stunden-Karte 
+ 4-Stunden-Lau ( ) lemma=24-Stunden-Lauf 
+ 4-Stunden-Lauf ( ) lemma=24-Stunden-Lauf 
+ 4-Stunden-Pfleg ( ) lemma=24-Stunden-Pflege 
+ 4-Stunden-Program ( ) lemma=24-Stunden-Programm 
+ 4-Stunden-Programm ( ) lemma=24-Stunden-Programm 
+ 4-Stunden-Präsen ( ) lemma=24-Stunden-Präsenz 
+ 4-Stunden-Renne ( ) lemma=24-Stunden-Rennen 
+ 4-Stunden-Rennen ( ) lemma=24-Stunden-Rennen 
+ 4-Stunden-Rhythmu ( ) lemma=24-Stunden-Rhythmus 
+ 4-Stunden-Schich ( ) lemma=24-Stunden-Schicht 
+ 4-Stunden-Schwimme ( ) lemma=24-Stunden-Schwimmen 
+ 4-Stunden-Schwimmen ( ) lemma=24-Stunden-Schwimmen 
+ 4-Stunden-Servic ( ) lemma=24-Stunden-Service 
+ 4-Stunden-Sondersendun ( ) lemma=24-Stunden-Sondersendung 
+ 4-Stunden-Vollprogram ( ) lemma=24-Stunden-Vollprogramm 
+ 4-Stunden-Woch ( ) lemma=24-Stunden-Woche 
+ 4-Stundenprogram ( ) lemma=24-Stundenprogramm 
+ 4-Tonnen-Lastwage ( ) lemma=24-Tonnen-Lastwagen 
+ 4-plus-Ticke ( ) lemma=24-plus-Ticket 
+ 4-stündig ( ) lemma=24-stündig 
+ 4/199 ( ) lemma=24/1990 
+ 40-Liter-Behälte ( ) lemma=240-Liter-Behälter 
+ 40-Liter-Gefäss ( ) lemma=240-Liter-Gefäß 
+ 40-Liter-Gefäß ( ) lemma=240-Liter-Gefäß 
+ 40-Liter-Tonn ( ) lemma=240-Liter-Tonne 
+ 40-Liter-Tonne ( ) lemma=240-Liter-Tonne 
+ 40000-Einwohner-Stad ( ) lemma=240000-Einwohner-Stadt 
+ 42/33 ( ) lemma=242/338 
+ 44/9 ( ) lemma=844/91 
+ 45/9 ( ) lemma=245/90 
+ 48e ( ) lemma=248er 
+ 495/8 ( ) lemma=2495/89 
+ 49h-Kontingent ( ) lemma=249h-Kontingent 
+ 4:23-Erfol ( ) lemma=24:23-Erfolg 
+ 4bändige ( ) lemma=24bändig 
+ 4e ( ) lemma=94er 
+ 4,0 ( ) lemma=34,0- 
+ 4/15,7 ( ) lemma=34/15,79 
+ 4/6 ( ) lemma=74/68 
+ 41417-Privile ( ) lemma=341417-Privileg 
+ 455/8 ( ) lemma=3455/87 
+ 4:10-Punkt ( ) lemma=34:10-Punkt 
+ 4er-Haltestell ( ) lemma=34er-Haltestelle 
+ 4*100-m-Staffelzeit ( ) 
+ 4,5fach ( ) 
+ 4,8prozentig ( ) 
+ 4-15-All ( ) 
+ 4-Fahrten-Karte ( ) 
+ 4-Gras ( ) 
+ 4-Helferzelle ( ) 
+ 4-Komplex ( ) 
+ 4-Pflanze ( ) 
+ 4-Umschlag ( ) 
+ 4-Zelle ( ) 
+ 4-fach ( ) 
+ 4-groß ( ) 
+ 4-plus-2-Gespräch ( ) 
+ 4.000jährig ( ) 
+ 4.000köpfig ( ) 
+ 40-Jahr-feier ( ) 
+ 40-Pfennig-Briefmarke ( ) 
+ 40-Watt-Birne ( ) 
+ 40-jährig ( ) 
+ 400-Meter-Hürde ( ) 
+ 400-Million ( ) 
+ 400-m-Hürde ( ) 
+ 400-m-Lage ( ) 
+ 4000köpfig ( ) 
+ 400jährig ( ) 
+ 400köpfig ( ) 
+ 400prozentig ( ) 
+ 40jährig ( ) 
+ 40köpfig ( ) 
+ 40malig ( ) 
+ 40prozentig ( ) 
+ 40stündig ( ) 
+ 40tägig ( ) 
+ 41a-Maßnahme ( ) 
+ 41fach ( ) 
+ 42-jährig ( ) 
+ 42köpfig ( ) 
+ 42zeilig ( ) 
+ 43-jährig ( ) 
+ 43fach ( ) 
+ 43jährig ( ) 
+ 43köpfig ( ) 
+ 43prozentig ( ) 
+ 43tägig ( ) 
+ 44-jährig ( ) 
+ 40-MW-Blöck ( ) lemma=440-MW-Block 
+ 440-MW-Block ( ) 
+ 40-MW-Reaktore ( ) lemma=440-MW-Reaktor 
+ 440-MW-Reaktor ( ) 
+ 40-Mar ( ) lemma=440-Mark 
+ 40-Megawatt ( ) lemma=440-Megawatt- 
+ 40-Megawatt-Druckwasserreaktore ( ) lemma=440-Megawatt-Druckwasserreaktor 
+ 440-Megawatt-Druckwasserreaktor ( ) 
+ 40-Megawatt-Reaktore ( ) lemma=440-Megawatt-Reaktor 
+ 440-Megawatt-Reaktor ( ) 
+ 40/21 ( ) lemma=440/213 
+ 40/23 ( ) lemma=440/230 
+ 421ma ( ) lemma=4421mal 
+ 46/9 ( ) lemma=446/90 
+ 4er-Lini ( ) lemma=44er-Linie 
+ 44köpfig ( ) 
+ 44prozentig ( ) 
+ 44tägig ( ) 
+ 45-jährig ( ) 
+ 450-Mark-Job ( ) 
+ 450jährig ( ) 
+ 450köpfig ( ) 
+ 45fach ( ) 
+ 45jährig ( ) 
+ 45köpfig ( ) 
+ 45prozentig ( ) 
+ 46-jährig ( ) 
+ 46malig ( ) 
+ 46prozentig ( ) 
+ 470er-Frau ( ) 
+ 47jährig ( ) 
+ 480-Mark-Job ( ) 
+ 48prozentig ( ) 
+ 48stündig ( ) 
+ 49-jährig ( ) 
+ 490-Kilo-Leine ( ) 
+ 49prozentig ( ) 
+ 4:0-Punkt ( ) 
+ 4:0-sieg ( ) 
+ 4:0-Tor ( ) 
+ 4:1-sieg ( ) 
+ 4:11-sieg ( ) 
+ 4:2-Punkt ( ) 
+ 4:6-Punkt ( ) 
+ 4Matic-Modell ( ) 
+ 4mal-400-Meter-Staffel ( ) 
+ 4-Tonreih ( ) lemma=54-Tonreihe 
+ 4ma ( ) lemma=54mal 
+ 4-Chefredakteu ( ) lemma=64-Chefredakteur 
+ 4-Fan ( ) lemma=64-Fan 
+ 4-Frequen ( ) lemma=64-Frequenz 
+ 4-Frequenze ( ) lemma=64-Frequenz 
+ 4-Freund ( ) lemma=64-Freund 
+ 4-Freundeskrei ( ) lemma=64-Freundeskreis 
+ 4-Hörer ( ) lemma=64-Hörer 
+ 4-Kilobit-Leitun ( ) lemma=64-Kilobit-Leitung 
+ 4-Megabit-Chi ( ) lemma=64-Megabit-Chip 
+ 4-Megabit-Chip-Produktio ( ) lemma=64-Megabit-Chip-Produktion 
+ 4-Megabit-Speicherchip ( ) lemma=64-Megabit-Speicherchip 
+ 4-Redakteuri ( ) lemma=64-Redakteurin 
+ 4-Redaktio ( ) lemma=64-Redaktion 
+ 4-Teile ( ) lemma=74-Teiler 
+ 44ma ( ) lemma=644mal 
+ 45/8 ( ) lemma=645/89 
+ 4seitig ( ) lemma=64seitig 
+ 4/83, ( ) lemma=74/83,5 
+ 423/9 ( ) lemma=7423/91 
+ 47-Frachtmaschin ( ) lemma=747-Frachtmaschine 
+ 49-Millionen-Mark-Eta ( ) lemma=849-Millionen-Mark-Etat 
+ 4:76-Sie ( ) lemma=84:76-Sieg 
+ 4:91-Heimniederlag ( ) lemma=84:91-Heimniederlage 
+ 4/89, ( ) lemma=94/89,5 
+ 4-Forma ( ) lemma=A4-Format 

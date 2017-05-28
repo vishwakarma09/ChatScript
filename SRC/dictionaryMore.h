@@ -149,7 +149,7 @@ extern unsigned int* hashbuckets;
 #define OOB_END ']'
 void LockLevel();
 void UnlockLayer(int layer);
-
+char* GetWord(char* word);
 WORDP GetPlural(WORDP D);
 void SetPlural(WORDP D,MEANING M);
 WORDP GetComparison(WORDP D);

@@ -4,3 +4,5 @@
  45mila ( ) 
  4mila ( ) 
  4x4 ( ) 
+ 40mil ( ) lemma=140mila 
+ 4mil ( ) lemma=24mila 

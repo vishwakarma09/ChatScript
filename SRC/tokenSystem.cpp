@@ -389,6 +389,19 @@ static char* HandleQuoter(char* ptr,char** words, int& count)
 	return  end + 1;
 }
 
+static WORDP UnitSubstitution(char* buffer)
+{
+	char value[MAX_WORD_SIZE];
+	char* at = buffer - 1;
+	while (IsDigit(*++at) || *at == '.'); // skip past number
+	strcpy(value, "?_");
+	strcat(value + 2, at); // presume word after number is not big
+	while ((at = strchr(value, '.'))) memmove(at, at + 1, strlen(at)); // remove periods
+	WORDP D = FindWord(value, 0, LOWERCASE_LOOKUP);
+	uint64 allowed = tokenControl & (DO_SUBSTITUTE_SYSTEM | DO_PRIVATE);
+	return (D && allowed & D->internalBits) ? D : NULL; // allowed transform
+}
+
 static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, bool nomodify, bool oobStart, bool oobJson)
 {
 	char* start = ptr;
@@ -518,11 +531,17 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 	}
 
 	// check for float
-	if (strchr(token, '.') || strchr(token, 'e') || strchr(token, 'E'))
+	if (strchr(token, numberPeriod) || strchr(token, 'e') || strchr(token, 'E'))
 	{
 		char* at = token;
-		while (*++at && (IsDigit(*at) || *at == '.' || *at == 'e' || *at == 'E' || *at == '-' || *at == '+')) { ; }
-		if (IsFloat(token, at)) // $50. is not a float, its end of sentene
+		bool seenExponent = false;
+		while (*++at && (IsDigit(*at) || *at == numberComma || *at == numberPeriod || (!seenExponent && (*at == 'e' || *at == 'E')) || *at == '-' || *at == '+'))
+		{
+			if (*at == 'e' || *at == 'E') seenExponent = true; // exponent can only appear once, 10e4euros
+		}
+
+		// may be units attached, so dont split that apart
+		if (IsFloat(token, at) && !UnitSubstitution(at)) // $50. is not a float, its end of sentene
 		{
 			if (*at == '%') ++at;
 			if (*at == 'k' || *at == 'K' || *at == 'm' || *at == 'M' || *at == 'B' || *at == 'b')
@@ -580,7 +599,7 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 			return ptr + 3;
 		return ptr+1;
 	}
-	else if (*ptr == ',')
+	else if (*ptr == numberComma)
 	{
 		if (IsDigit(ptr[1]) && IsDigit(ptr[2]) && IsDigit(ptr[3]) && ptr != start && IsDigit(ptr[-1])) { ; } // 1,000  is legal
 		else return ptr + 1;
@@ -614,7 +633,7 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 	if (comma && IsDigit(comma[1]) && IsDigit(comma[2]) && !IsDigit(comma[3]))
 	{
 		// comma normally separates 3 digits, except for india where it can do 2's until last three
-		if (comma[3] == ',' && IsDigit(comma[4]) && IsDigit(comma[5])){}
+		if (comma[3] == numberComma && IsDigit(comma[4]) && IsDigit(comma[5])){}
 		else return comma; // 25,20 
 	}
 	if (kind & BRACKETS && ( (c != '>' && c != '<') || next != '=') ) 
@@ -633,7 +652,7 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 	char* fullstopper = NULL;
 	if (*ptr != ':' && *ptr != ';') while (*++end && !IsWhiteSpace(*end) && *end != '!' && *end != '?')
 	{
-		if (*end == ',') 
+		if (*end == numberComma) 
 		{
 			if (!IsDigit(end[1]) || !IsDigit(* (end-1))) // not comma within a number
 			{
@@ -730,9 +749,9 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 	char* after = start + lsize;
 	// see if we have 25,2015
 	size_t tokenlen = strlen(token);
-	if (tokenlen == 7 && IsDigit(token[0]) && IsDigit(token[1]) && token[2] == ',' && IsDigit(token[3]))
+	if (tokenlen == 7 && IsDigit(token[0]) && IsDigit(token[1]) && token[2] == numberComma && IsDigit(token[3]))
 		return ptr + 2;
-	if (tokenlen == 6 && IsDigit(token[0])  && token[1] == ',' && IsDigit(token[2])) // 2,2015
+	if (tokenlen == 6 && IsDigit(token[0])  && token[1] == numberComma && IsDigit(token[2])) // 2,2015
 		return ptr + 1;
 	if (!strnicmp(token,"https://",8) || !strnicmp(token,"http://",7)) return after;
 	if (*priorToken != '/' && IsFraction(token)) return after; // fraction?
@@ -769,7 +788,7 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
         if (c == '|') break;
 		kind = IsPunctuation(c);
 		next = ptr[1];
-		if (c == ',') 
+		if (c == numberComma) 
 		{
 			if (!IsDigit(ptr[1]) || !IsDigit(*(ptr-1))) break; // comma obviously not in a number
 			// must have 3 digits after comma
@@ -851,7 +870,6 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 				}
 			}
 			if ( c == ']' || c == ')') break; //closers
-			if (ptr != start && IsDigit(*(ptr-1)) && IsWordTerminator(ptr[1]) && (c == '"' || c == '\'' )) break; // special markers on trailing end of numbers get broken off. 50' and 50" 
 			if ((c == 'x' || c== 'X') && IsDigit(*start) && IsDigit(next)) break; // break  4x4
 			// allow 24%
 			if (kind & ARITHMETICS && IsDigit(next) && IsDigit(*(ptr-2))  && c != '/' && c != '.' && IsDigit(*start) && !(tokenControl & TOKEN_AS_IS)) 
@@ -895,7 +913,7 @@ char* Tokenize(char* input,int &mycount,char** words,bool all,bool nomodify,bool
     int nest = 0;
     unsigned int paren = 0;
     
-	AdjustUTF8(ptr, ptr - 1);
+	//AdjustUTF8(ptr, ptr - 1);
 
 	if (tokenControl == UNTOUCHED_INPUT)
 	{
@@ -962,7 +980,7 @@ char* Tokenize(char* input,int &mycount,char** words,bool all,bool nomodify,bool
 			}
 		}
 		else if (oobStart && *ptr == ']') oobJson = false; // end of oob
-		if (*ptr == '"' && !strchr(ptr+1,'"') && !(tokenControl & TOKEN_AS_IS) && ptr[1])  ++ptr; // ignore single starting quote?  "hi   -- but if it next sentence line was part like POS tagging, would be a problem  and beware of 5' 11"
+		if (*ptr == '"' && !strchr(ptr+1,'"') && !(tokenControl & TOKEN_AS_IS) && ptr[1])  ptr = SkipWhitespace(++ptr); // ignore single starting quote?  "hi   -- but if it next sentence line was part like POS tagging, would be a problem  and beware of 5' 11"
 
 		// find end of word 
 		int oldCount = count;
@@ -1005,25 +1023,6 @@ char* Tokenize(char* input,int &mycount,char** words,bool all,bool nomodify,bool
 		{
 			mycount = REAL_SENTENCE_LIMIT;
 			goto SAFETY;
-		}
-
-		//   handle symbols for feet and inches by expanding them
-		if (!(tokenControl & TOKEN_AS_IS) && IsDigit(startc) &&  (lastc == '\'' || lastc == '"'))
-		{
-			char* word = AllocateHeap(ptr,len-1);  // number w/o the '
-			if (word) words[count++] = word;
-			words[count] = StoreWord((lastc == '\'') ? (char*) "feet": (char*)"inches",0)->word; // spell out the notation
-			ptr = SkipWhitespace(end);
-			strcpy(priorToken,words[count]);
-			continue;
-		}
-		//   handle symbols for feet and inches by expanding them
-		if (!(tokenControl & TOKEN_AS_IS) &&  startc == '"' && len == 1 && count > 1 && IsDigit(words[count-1][0]))
-		{
-			words[count] = StoreWord((char*)"inches",0)->word; // spell out the notation
-			ptr = SkipWhitespace(end);
-			strcpy(priorToken,words[count]);
-			continue;
 		}
 
 		//   if the word is a quoted expression, see if we KNOW it already as a noun, if so, remove quotes
@@ -1915,6 +1914,19 @@ static bool Substitute(WORDP found,char* sub, int i,int erasing)
 			if (!*sub) sub = 0;
 		}
 	}
+	else if (*found->word == '?' && found->word[1] == '_') // unit substitution
+	{
+		char* tokens[3];
+		char* at = wordStarts[i];
+		while (IsDigit(*++at) || *at == '.');
+		char c = *at;
+		*at = 0;	// closes out units
+		tokens[1] = wordStarts[i]; // the word after the erase zone
+		tokens[2] = sub;
+		ReplaceWords("Number units", i, 1, 2, tokens); // remove 1, add 2
+		*at = c;
+		return true;
+	}
 
 	int erase = 1 + erasing;
 	if (!sub || *sub == '%') // just delete the word or note tokenbit and then delete
@@ -2122,6 +2134,9 @@ static bool ProcessMyIdiom(int i,unsigned int max,char* buffer,char* ptr)
 			found = word; 
 			idiomMatch = n; 
 		}
+
+		if (!found && i == j && IsDigit(buffer[1])) found = UnitSubstitution(buffer + 1);// generic digits + unit
+
         if (found == localfound && j == wordCount)  //   sentence ender
 		{
 			*ptr++ = '>'; //   end of sentence marker
@@ -2249,6 +2264,8 @@ void ProcessSubstitutes() // revise contiguous words based on LIVEDATA files
 			}
 			*ptr = 0;	// remove tail
 		}
+
+		if (!count && IsDigit(*wordStarts[i])) count = 1; // numeric units
         
 		//   use max count
         if (count && ProcessMyIdiom(i,count-1,buffer,ptr)) 

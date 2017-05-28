@@ -1,6 +1,6 @@
 #include "common.h" 
 #include "evserver.h"
-char* version = "7.42";
+char* version = "7.43";
 char sourceInput[200];
 FILE* userInitFile;
 int externalTagger = 0;
@@ -488,6 +488,7 @@ void ReloadSystem()
 
 	if (!ReadBinaryFacts(FopenStaticReadOnly(UseDictionaryFile((char*)"facts.bin"))))  // DICT
 	{
+		AcquirePosMeanings();
 		WORDP safeDict = dictionaryFree;
 		ReadFacts(UseDictionaryFile((char*)"facts.txt"),NULL,0);
 		if ( safeDict != dictionaryFree) myexit((char*)"dict changed on read of facts");
@@ -1507,7 +1508,10 @@ int PerformChat(char* user, char* usee, char* incoming,char* ip,char* output) //
 		eraseUser = true;
 		strncpy(x, erasename, strlen(erasename));
 	}
-
+	if (strstr(incoming, "estranged"))
+	{
+		int xx = 0;
+	}
 	mainInputBuffer = incoming;
 	mainOutputBuffer = output;
 	size_t len = strlen(incoming);
@@ -1603,7 +1607,6 @@ int PerformChat(char* user, char* usee, char* incoming,char* ip,char* output) //
 		char oldc;
 		int oldCurrentLine;	
 		BOMAccess(BOMvalue, oldc,oldCurrentLine); // copy out prior file access and reinit user file access
-
 		ReadUserData();		//   now bring in user state
 		BOMAccess(BOMvalue, oldc,oldCurrentLine); // restore old BOM values
 	}

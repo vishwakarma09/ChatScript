@@ -1,9 +1,4 @@
-﻿ jambassions ( ) lemma=jamber 
- jarretterons ( ) lemma=jarreter 
- jugions ( ) lemma=juger 
- jdanoviens ( ) lemma=jdanovien 
- je ( ) 
- J.-J. ( ) 
+﻿ J.-J. ( ) 
  Jack ( ) 
  Jacob ( ) 
  Jacqueline ( ) 
@@ -20,7 +15,7 @@
  Jaunay-Clan ( ) 
  Jaurès ( ) 
  Javier ( ) 
- Je ( ) lemma=je 
+ Je ( ) 
  Jean ( ) 
  Jean-Baptiste ( ) 
  Jean-Baylet ( ) 
@@ -96,975 +91,975 @@
  Jésus ( ) 
  Jésus-Christ ( ) 
  Jörg ( ) 
- j' ( ) lemma=je 
+ j' ( ) 
  jabadao ( ) 
- jabadaos ( ) lemma=jabadao 
+ jabadaos ( ) 
  jabiru ( ) 
- jabirus ( ) lemma=jabiru 
- jabla ( ) lemma=jabler 
- jabler ( ) 
+ jabirus ( ) 
+ jabla ( ) 
  jablage ( ) 
- jablages ( ) lemma=jablage 
- jablai ( ) lemma=jabler 
- jablaient ( ) lemma=jabler 
- jablais ( ) lemma=jabler 
- jablait ( ) lemma=jabler 
- jablant ( ) lemma=jabler 
- jablas ( ) lemma=jabler 
- jablasse ( ) lemma=jabler 
- jablassent ( ) lemma=jabler 
- jablasses ( ) lemma=jabler 
- jablassiez ( ) lemma=jabler 
- jablassions ( ) lemma=jabler 
+ jablages ( ) 
+ jablai ( ) 
+ jablaient ( ) 
+ jablais ( ) 
+ jablait ( ) 
+ jablant ( ) 
+ jablas ( ) 
+ jablasse ( ) 
+ jablassent ( ) 
+ jablasses ( ) 
+ jablassiez ( ) 
+ jablassions ( ) 
  jable ( ) 
- jablent ( ) lemma=jabler 
- jablera ( ) lemma=jabler 
- jablerai ( ) lemma=jabler 
- jableraient ( ) lemma=jabler 
- jablerais ( ) lemma=jabler 
- jablerait ( ) lemma=jabler 
- jableras ( ) lemma=jabler 
- jablerez ( ) lemma=jabler 
- jableriez ( ) lemma=jabler 
- jablerions ( ) lemma=jabler 
- jablerons ( ) lemma=jabler 
- jableront ( ) lemma=jabler 
- jables ( ) lemma=jable 
+ jablent ( ) 
+ jabler ( ) 
+ jablera ( ) 
+ jablerai ( ) 
+ jableraient ( ) 
+ jablerais ( ) 
+ jablerait ( ) 
+ jableras ( ) 
+ jablerez ( ) 
+ jableriez ( ) 
+ jablerions ( ) 
+ jablerons ( ) 
+ jableront ( ) 
+ jables ( ) 
  jableuse ( ) 
- jableuses ( ) lemma=jableuse 
- jablez ( ) lemma=jabler 
- jabliez ( ) lemma=jabler 
- jablions ( ) lemma=jabler 
+ jableuses ( ) 
+ jablez ( ) 
+ jabliez ( ) 
+ jablions ( ) 
  jablière ( ) 
- jablières ( ) lemma=jablière 
+ jablières ( ) 
  jabloir ( ) 
  jabloire ( ) 
- jabloires ( ) lemma=jabloire 
- jabloirs ( ) lemma=jabloir 
- jablons ( ) lemma=jabler 
+ jabloires ( ) 
+ jabloirs ( ) 
+ jablons ( ) 
  jablotchkoff ( ) 
- jablotchkoffs ( ) lemma=jablotchkoff 
- jablâmes ( ) lemma=jabler 
- jablât ( ) lemma=jabler 
- jablâtes ( ) lemma=jabler 
- jablèrent ( ) lemma=jabler 
- jablé ( ) lemma=jabler 
- jablée ( ) lemma=jabler 
- jablées ( ) lemma=jabler 
- jablés ( ) lemma=jabler 
+ jablotchkoffs ( ) 
+ jablâmes ( ) 
+ jablât ( ) 
+ jablâtes ( ) 
+ jablèrent ( ) 
+ jablé ( ) 
+ jablée ( ) 
+ jablées ( ) 
+ jablés ( ) 
  jaborandi ( ) 
- jaborandis ( ) lemma=jaborandi 
+ jaborandis ( ) 
  jabot ( ) 
- jabota ( ) lemma=jaboter 
- jaboter ( ) 
+ jabota ( ) 
  jabotage ( ) 
- jabotages ( ) lemma=jabotage 
- jabotai ( ) lemma=jaboter 
- jabotaient ( ) lemma=jaboter 
- jabotais ( ) lemma=jaboter 
- jabotait ( ) lemma=jaboter 
- jabotant ( ) lemma=jaboter 
- jabotas ( ) lemma=jaboter 
- jabotasse ( ) lemma=jaboter 
- jabotassent ( ) lemma=jaboter 
- jabotasses ( ) lemma=jaboter 
- jabotassiez ( ) lemma=jaboter 
- jabotassions ( ) lemma=jaboter 
- jabote ( ) lemma=jaboter 
- jabotent ( ) lemma=jaboter 
- jabotera ( ) lemma=jaboter 
- jaboterai ( ) lemma=jaboter 
- jaboteraient ( ) lemma=jaboter 
- jaboterais ( ) lemma=jaboter 
- jaboterait ( ) lemma=jaboter 
- jaboteras ( ) lemma=jaboter 
- jaboterez ( ) lemma=jaboter 
- jaboteriez ( ) lemma=jaboter 
- jaboterions ( ) lemma=jaboter 
- jaboterons ( ) lemma=jaboter 
- jaboteront ( ) lemma=jaboter 
- jabotes ( ) lemma=jaboter 
+ jabotages ( ) 
+ jabotai ( ) 
+ jabotaient ( ) 
+ jabotais ( ) 
+ jabotait ( ) 
+ jabotant ( ) 
+ jabotas ( ) 
+ jabotasse ( ) 
+ jabotassent ( ) 
+ jabotasses ( ) 
+ jabotassiez ( ) 
+ jabotassions ( ) 
+ jabote ( ) 
+ jabotent ( ) 
+ jaboter ( ) 
+ jabotera ( ) 
+ jaboterai ( ) 
+ jaboteraient ( ) 
+ jaboterais ( ) 
+ jaboterait ( ) 
+ jaboteras ( ) 
+ jaboterez ( ) 
+ jaboteriez ( ) 
+ jaboterions ( ) 
+ jaboterons ( ) 
+ jaboteront ( ) 
+ jabotes ( ) 
  jaboteur ( ) 
- jaboteurs ( ) lemma=jaboteur 
- jaboteuse ( ) lemma=jaboteur 
- jaboteuses ( ) lemma=jaboteur 
- jabotez ( ) lemma=jaboter 
- jabotiez ( ) lemma=jaboter 
- jabotions ( ) lemma=jaboter 
+ jaboteurs ( ) 
+ jaboteuse ( ) 
+ jaboteuses ( ) 
+ jabotez ( ) 
+ jabotiez ( ) 
+ jabotions ( ) 
  jabotière ( ) 
- jabotières ( ) lemma=jabotière 
- jabotons ( ) lemma=jaboter 
- jabots ( ) lemma=jabot 
- jabotâmes ( ) lemma=jaboter 
- jabotât ( ) lemma=jaboter 
- jabotâtes ( ) lemma=jaboter 
- jabotèrent ( ) lemma=jaboter 
- jaboté ( ) lemma=jaboter 
- jabotée ( ) lemma=jaboter 
- jabotées ( ) lemma=jaboter 
- jabotés ( ) lemma=jaboter 
+ jabotières ( ) 
+ jabotons ( ) 
+ jabots ( ) 
+ jabotâmes ( ) 
+ jabotât ( ) 
+ jabotâtes ( ) 
+ jabotèrent ( ) 
+ jaboté ( ) 
+ jabotée ( ) 
+ jabotées ( ) 
+ jabotés ( ) 
  jacamar ( ) 
- jacamars ( ) lemma=jacamar 
+ jacamars ( ) 
  jacana ( ) 
- jacanas ( ) lemma=jacana 
+ jacanas ( ) 
  jacapucayo ( ) 
- jacapucayos ( ) lemma=jacapucayo 
+ jacapucayos ( ) 
  jacaranda ( ) 
- jacarandas ( ) lemma=jacaranda 
+ jacarandas ( ) 
  jacare ( ) 
- jacares ( ) lemma=jacare 
+ jacares ( ) 
  jacaré ( ) 
- jacarés ( ) lemma=jacaré 
- jacassa ( ) lemma=jacasser 
- jacasser ( ) 
- jacassai ( ) lemma=jacasser 
- jacassaient ( ) lemma=jacasser 
- jacassais ( ) lemma=jacasser 
- jacassait ( ) lemma=jacasser 
- jacassant ( ) lemma=jacasser 
- jacassas ( ) lemma=jacasser 
- jacassasse ( ) lemma=jacasser 
- jacassassent ( ) lemma=jacasser 
- jacassasses ( ) lemma=jacasser 
- jacassassiez ( ) lemma=jacasser 
- jacassassions ( ) lemma=jacasser 
+ jacarés ( ) 
+ jacassa ( ) 
+ jacassai ( ) 
+ jacassaient ( ) 
+ jacassais ( ) 
+ jacassait ( ) 
+ jacassant ( ) 
+ jacassas ( ) 
+ jacassasse ( ) 
+ jacassassent ( ) 
+ jacassasses ( ) 
+ jacassassiez ( ) 
+ jacassassions ( ) 
  jacasse ( ) 
  jacassement ( ) 
- jacassements ( ) lemma=jacassement 
- jacassent ( ) lemma=jacasser 
- jacassera ( ) lemma=jacasser 
- jacasserai ( ) lemma=jacasser 
- jacasseraient ( ) lemma=jacasser 
- jacasserais ( ) lemma=jacasser 
- jacasserait ( ) lemma=jacasser 
- jacasseras ( ) lemma=jacasser 
- jacasserez ( ) lemma=jacasser 
+ jacassements ( ) 
+ jacassent ( ) 
+ jacasser ( ) 
+ jacassera ( ) 
+ jacasserai ( ) 
+ jacasseraient ( ) 
+ jacasserais ( ) 
+ jacasserait ( ) 
+ jacasseras ( ) 
+ jacasserez ( ) 
  jacasserie ( ) 
- jacasseries ( ) lemma=jacasserie 
- jacasseriez ( ) lemma=jacasser 
- jacasserions ( ) lemma=jacasser 
- jacasserons ( ) lemma=jacasser 
- jacasseront ( ) lemma=jacasser 
- jacasses ( ) lemma=jacasse 
+ jacasseries ( ) 
+ jacasseriez ( ) 
+ jacasserions ( ) 
+ jacasserons ( ) 
+ jacasseront ( ) 
+ jacasses ( ) 
  jacasseur ( ) 
- jacasseurs ( ) lemma=jacasseur 
- jacasseuse ( ) lemma=jacasseur 
- jacasseuses ( ) lemma=jacasseur 
- jacassez ( ) lemma=jacasser 
+ jacasseurs ( ) 
+ jacasseuse ( ) 
+ jacasseuses ( ) 
+ jacassez ( ) 
  jacassier ( ) 
- jacassiers ( ) lemma=jacassier 
- jacassiez ( ) lemma=jacasser 
- jacassions ( ) lemma=jacasser 
- jacassière ( ) lemma=jacassier 
- jacassières ( ) lemma=jacassier 
- jacassons ( ) lemma=jacasser 
- jacassâmes ( ) lemma=jacasser 
- jacassât ( ) lemma=jacasser 
- jacassâtes ( ) lemma=jacasser 
- jacassèrent ( ) lemma=jacasser 
- jacassé ( ) lemma=jacasser 
- jacassée ( ) lemma=jacasser 
- jacassées ( ) lemma=jacasser 
- jacassés ( ) lemma=jacasser 
+ jacassiers ( ) 
+ jacassiez ( ) 
+ jacassions ( ) 
+ jacassière ( ) 
+ jacassières ( ) 
+ jacassons ( ) 
+ jacassâmes ( ) 
+ jacassât ( ) 
+ jacassâtes ( ) 
+ jacassèrent ( ) 
+ jacassé ( ) 
+ jacassée ( ) 
+ jacassées ( ) 
+ jacassés ( ) 
  jacent ( ) 
- jacente ( ) lemma=jacent 
- jacentes ( ) lemma=jacent 
- jacents ( ) lemma=jacent 
+ jacente ( ) 
+ jacentes ( ) 
+ jacents ( ) 
  jachère ( ) 
- jachèrent ( ) lemma=jachérer 
+ jachèrent ( ) 
+ jachères ( ) 
+ jachéra ( ) 
+ jachérai ( ) 
+ jachéraient ( ) 
+ jachérais ( ) 
+ jachérait ( ) 
+ jachérant ( ) 
+ jachéras ( ) 
+ jachérasse ( ) 
+ jachérassent ( ) 
+ jachérasses ( ) 
+ jachérassiez ( ) 
+ jachérassions ( ) 
  jachérer ( ) 
- jachères ( ) lemma=jachère 
- jachéra ( ) lemma=jachérer 
- jachérai ( ) lemma=jachérer 
- jachéraient ( ) lemma=jachérer 
- jachérais ( ) lemma=jachérer 
- jachérait ( ) lemma=jachérer 
- jachérant ( ) lemma=jachérer 
- jachéras ( ) lemma=jachérer 
- jachérasse ( ) lemma=jachérer 
- jachérassent ( ) lemma=jachérer 
- jachérasses ( ) lemma=jachérer 
- jachérassiez ( ) lemma=jachérer 
- jachérassions ( ) lemma=jachérer 
- jachérera ( ) lemma=jachérer 
- jachérerai ( ) lemma=jachérer 
- jachéreraient ( ) lemma=jachérer 
- jachérerais ( ) lemma=jachérer 
- jachérerait ( ) lemma=jachérer 
- jachéreras ( ) lemma=jachérer 
- jachérerez ( ) lemma=jachérer 
- jachéreriez ( ) lemma=jachérer 
- jachérerions ( ) lemma=jachérer 
- jachérerons ( ) lemma=jachérer 
- jachéreront ( ) lemma=jachérer 
- jachérez ( ) lemma=jachérer 
- jachériez ( ) lemma=jachérer 
- jachérions ( ) lemma=jachérer 
- jachérons ( ) lemma=jachérer 
- jachérâmes ( ) lemma=jachérer 
- jachérât ( ) lemma=jachérer 
- jachérâtes ( ) lemma=jachérer 
- jachérèrent ( ) lemma=jachérer 
- jachéré ( ) lemma=jachérer 
- jachérée ( ) lemma=jachérer 
- jachérées ( ) lemma=jachérer 
- jachérés ( ) lemma=jachérer 
+ jachérera ( ) 
+ jachérerai ( ) 
+ jachéreraient ( ) 
+ jachérerais ( ) 
+ jachérerait ( ) 
+ jachéreras ( ) 
+ jachérerez ( ) 
+ jachéreriez ( ) 
+ jachérerions ( ) 
+ jachérerons ( ) 
+ jachéreront ( ) 
+ jachérez ( ) 
+ jachériez ( ) 
+ jachérions ( ) 
+ jachérons ( ) 
+ jachérâmes ( ) 
+ jachérât ( ) 
+ jachérâtes ( ) 
+ jachérèrent ( ) 
+ jachéré ( ) 
+ jachérée ( ) 
+ jachérées ( ) 
+ jachérés ( ) 
  jacinthe ( ) 
- jacinthes ( ) lemma=jacinthe 
+ jacinthes ( ) 
  jaciste ( ) 
- jacistes ( ) lemma=jaciste 
+ jacistes ( ) 
  jack ( ) 
  jacket ( ) 
- jackets ( ) lemma=jacket 
+ jackets ( ) 
  jackpot ( ) 
- jackpots ( ) lemma=jackpot 
- jacks ( ) lemma=jack 
+ jackpots ( ) 
+ jacks ( ) 
  jaco ( ) 
  jacob ( ) 
  jacobien ( ) 
- jacobienne ( ) lemma=jacobien 
- jacobiennes ( ) lemma=jacobien 
- jacobiens ( ) lemma=jacobien 
+ jacobienne ( ) 
+ jacobiennes ( ) 
+ jacobiens ( ) 
  jacobin ( ) 
- jacobine ( ) lemma=jacobin 
- jacobines ( ) lemma=jacobin 
+ jacobine ( ) 
+ jacobines ( ) 
  jacobinisme ( ) 
- jacobinismes ( ) lemma=jacobinisme 
- jacobins ( ) lemma=jacobin 
+ jacobinismes ( ) 
+ jacobins ( ) 
  jacobite ( ) 
- jacobites ( ) lemma=jacobite 
- jacobs ( ) lemma=jacob 
+ jacobites ( ) 
+ jacobs ( ) 
  jacobus ( ) 
  jacobée ( ) 
- jacobées ( ) lemma=jacobée 
+ jacobées ( ) 
  jaconas ( ) 
  jaconce ( ) 
- jaconces ( ) lemma=jaconce 
- jacos ( ) lemma=jaco 
+ jaconces ( ) 
+ jacos ( ) 
  jacot ( ) 
- jacots ( ) lemma=jacot 
+ jacots ( ) 
  jacquard ( ) 
- jacquards ( ) lemma=jacquard 
+ jacquards ( ) 
  jacquardé ( ) 
- jacquardée ( ) lemma=jacquardé 
- jacquardées ( ) lemma=jacquardé 
- jacquardés ( ) lemma=jacquardé 
+ jacquardée ( ) 
+ jacquardées ( ) 
+ jacquardés ( ) 
  jacque ( ) 
  jacqueline ( ) 
- jacquelines ( ) lemma=jacqueline 
+ jacquelines ( ) 
  jacquemart ( ) 
- jacquemarts ( ) lemma=jacquemart 
+ jacquemarts ( ) 
  jacquerie ( ) 
- jacqueries ( ) lemma=jacquerie 
- jacques ( ) lemma=jacque|jacques 
- jacque|jacques ( ) 
+ jacqueries ( ) 
+ jacques ( ) 
  jacquet ( ) 
  jacqueteur ( ) 
- jacqueteurs ( ) lemma=jacqueteur 
- jacqueteuse ( ) lemma=jacqueteur 
- jacqueteuses ( ) lemma=jacqueteur 
- jacquets ( ) lemma=jacquet 
+ jacqueteurs ( ) 
+ jacqueteuse ( ) 
+ jacqueteuses ( ) 
+ jacquets ( ) 
  jacquier ( ) 
- jacquiers ( ) lemma=jacquier 
+ jacquiers ( ) 
  jacquot ( ) 
- jacquots ( ) lemma=jacquot 
- jacta ( ) lemma=jacter 
- jacter ( ) 
- jactai ( ) lemma=jacter 
- jactaient ( ) lemma=jacter 
- jactais ( ) lemma=jacter 
- jactait ( ) lemma=jacter 
+ jacquots ( ) 
+ jacta ( ) 
+ jactai ( ) 
+ jactaient ( ) 
+ jactais ( ) 
+ jactait ( ) 
  jactance ( ) 
- jactances ( ) lemma=jactance 
- jactant ( ) lemma=jacter 
- jactas ( ) lemma=jacter 
- jactasse ( ) lemma=jacter 
- jactassent ( ) lemma=jacter 
- jactasses ( ) lemma=jacter 
- jactassiez ( ) lemma=jacter 
- jactassions ( ) lemma=jacter 
+ jactances ( ) 
+ jactant ( ) 
+ jactas ( ) 
+ jactasse ( ) 
+ jactassent ( ) 
+ jactasses ( ) 
+ jactassiez ( ) 
+ jactassions ( ) 
  jactation ( ) 
- jactations ( ) lemma=jactation 
- jacte ( ) lemma=jacter 
- jactent ( ) lemma=jacter 
- jactera ( ) lemma=jacter 
- jacterai ( ) lemma=jacter 
- jacteraient ( ) lemma=jacter 
- jacterais ( ) lemma=jacter 
- jacterait ( ) lemma=jacter 
- jacteras ( ) lemma=jacter 
- jacterez ( ) lemma=jacter 
- jacteriez ( ) lemma=jacter 
- jacterions ( ) lemma=jacter 
- jacterons ( ) lemma=jacter 
- jacteront ( ) lemma=jacter 
- jactes ( ) lemma=jacter 
+ jactations ( ) 
+ jacte ( ) 
+ jactent ( ) 
+ jacter ( ) 
+ jactera ( ) 
+ jacterai ( ) 
+ jacteraient ( ) 
+ jacterais ( ) 
+ jacterait ( ) 
+ jacteras ( ) 
+ jacterez ( ) 
+ jacteriez ( ) 
+ jacterions ( ) 
+ jacterons ( ) 
+ jacteront ( ) 
+ jactes ( ) 
  jacteur ( ) 
- jacteurs ( ) lemma=jacteur 
- jacteuse ( ) lemma=jacteur 
- jacteuses ( ) lemma=jacteur 
- jactez ( ) lemma=jacter 
- jactiez ( ) lemma=jacter 
- jactions ( ) lemma=jacter 
- jactons ( ) lemma=jacter 
- jactâmes ( ) lemma=jacter 
- jactât ( ) lemma=jacter 
- jactâtes ( ) lemma=jacter 
- jactèrent ( ) lemma=jacter 
- jacté ( ) lemma=jacter 
- jactée ( ) lemma=jacter 
- jactées ( ) lemma=jacter 
- jactés ( ) lemma=jacter 
+ jacteurs ( ) 
+ jacteuse ( ) 
+ jacteuses ( ) 
+ jactez ( ) 
+ jactiez ( ) 
+ jactions ( ) 
+ jactons ( ) 
+ jactâmes ( ) 
+ jactât ( ) 
+ jactâtes ( ) 
+ jactèrent ( ) 
+ jacté ( ) 
+ jactée ( ) 
+ jactées ( ) 
+ jactés ( ) 
  jaculation ( ) 
- jaculations ( ) lemma=jaculation 
+ jaculations ( ) 
  jaculatoire ( ) 
- jaculatoires ( ) lemma=jaculatoire 
+ jaculatoires ( ) 
  jacée ( ) 
- jacées ( ) lemma=jacée 
+ jacées ( ) 
  jade ( ) 
- jades ( ) lemma=jade 
+ jades ( ) 
  jadis ( ) 
  jadot ( ) 
- jadots ( ) lemma=jadot 
+ jadots ( ) 
  jadéite ( ) 
- jadéites ( ) lemma=jadéite 
- jaffa ( ) lemma=jaffer 
- jaffer ( ) 
- jaffai ( ) lemma=jaffer 
- jaffaient ( ) lemma=jaffer 
- jaffais ( ) lemma=jaffer 
- jaffait ( ) lemma=jaffer 
- jaffant ( ) lemma=jaffer 
- jaffas ( ) lemma=jaffer 
- jaffasse ( ) lemma=jaffer 
- jaffassent ( ) lemma=jaffer 
- jaffasses ( ) lemma=jaffer 
- jaffassiez ( ) lemma=jaffer 
- jaffassions ( ) lemma=jaffer 
+ jadéites ( ) 
+ jaffa ( ) 
+ jaffai ( ) 
+ jaffaient ( ) 
+ jaffais ( ) 
+ jaffait ( ) 
+ jaffant ( ) 
+ jaffas ( ) 
+ jaffasse ( ) 
+ jaffassent ( ) 
+ jaffasses ( ) 
+ jaffassiez ( ) 
+ jaffassions ( ) 
  jaffe ( ) 
- jaffent ( ) lemma=jaffer 
- jaffera ( ) lemma=jaffer 
- jafferai ( ) lemma=jaffer 
- jafferaient ( ) lemma=jaffer 
- jafferais ( ) lemma=jaffer 
- jafferait ( ) lemma=jaffer 
- jafferas ( ) lemma=jaffer 
- jafferez ( ) lemma=jaffer 
- jafferiez ( ) lemma=jaffer 
- jafferions ( ) lemma=jaffer 
- jafferons ( ) lemma=jaffer 
- jafferont ( ) lemma=jaffer 
- jaffes ( ) lemma=jaffe 
- jaffez ( ) lemma=jaffer 
- jaffiez ( ) lemma=jaffer 
- jaffions ( ) lemma=jaffer 
- jaffons ( ) lemma=jaffer 
- jaffâmes ( ) lemma=jaffer 
- jaffât ( ) lemma=jaffer 
- jaffâtes ( ) lemma=jaffer 
- jaffèrent ( ) lemma=jaffer 
- jaffé ( ) lemma=jaffer 
- jaffée ( ) lemma=jaffer 
- jaffées ( ) lemma=jaffer 
- jaffés ( ) lemma=jaffer 
+ jaffent ( ) 
+ jaffer ( ) 
+ jaffera ( ) 
+ jafferai ( ) 
+ jafferaient ( ) 
+ jafferais ( ) 
+ jafferait ( ) 
+ jafferas ( ) 
+ jafferez ( ) 
+ jafferiez ( ) 
+ jafferions ( ) 
+ jafferons ( ) 
+ jafferont ( ) 
+ jaffes ( ) 
+ jaffez ( ) 
+ jaffiez ( ) 
+ jaffions ( ) 
+ jaffons ( ) 
+ jaffâmes ( ) 
+ jaffât ( ) 
+ jaffâtes ( ) 
+ jaffèrent ( ) 
+ jaffé ( ) 
+ jaffée ( ) 
+ jaffées ( ) 
+ jaffés ( ) 
  jaguar ( ) 
  jaguarion ( ) 
- jaguarions ( ) lemma=jaguarion 
+ jaguarions ( ) 
  jaguarondi ( ) 
- jaguarondis ( ) lemma=jaguarondi 
- jaguars ( ) lemma=jaguar 
+ jaguarondis ( ) 
+ jaguars ( ) 
  jaguarundi ( ) 
- jaguarundis ( ) lemma=jaguarundi 
- jailli ( ) lemma=jaillir 
+ jaguarundis ( ) 
+ jailli ( ) 
+ jaillie ( ) 
+ jaillies ( ) 
  jaillir ( ) 
- jaillie ( ) lemma=jaillir 
- jaillies ( ) lemma=jaillir 
- jaillira ( ) lemma=jaillir 
- jaillirai ( ) lemma=jaillir 
- jailliraient ( ) lemma=jaillir 
- jaillirais ( ) lemma=jaillir 
- jaillirait ( ) lemma=jaillir 
- jailliras ( ) lemma=jaillir 
- jaillirent ( ) lemma=jaillir 
- jaillirez ( ) lemma=jaillir 
- jailliriez ( ) lemma=jaillir 
- jaillirions ( ) lemma=jaillir 
- jaillirons ( ) lemma=jaillir 
- jailliront ( ) lemma=jaillir 
- jaillis ( ) lemma=jaillir 
- jaillissaient ( ) lemma=jaillir 
- jaillissais ( ) lemma=jaillir 
- jaillissait ( ) lemma=jaillir 
+ jaillira ( ) 
+ jaillirai ( ) 
+ jailliraient ( ) 
+ jaillirais ( ) 
+ jaillirait ( ) 
+ jailliras ( ) 
+ jaillirent ( ) 
+ jaillirez ( ) 
+ jailliriez ( ) 
+ jaillirions ( ) 
+ jaillirons ( ) 
+ jailliront ( ) 
+ jaillis ( ) 
+ jaillissaient ( ) 
+ jaillissais ( ) 
+ jaillissait ( ) 
  jaillissant ( ) 
- jaillissante ( ) lemma=jaillissant 
- jaillissantes ( ) lemma=jaillissant 
- jaillissants ( ) lemma=jaillissant 
- jaillisse ( ) lemma=jaillir 
+ jaillissante ( ) 
+ jaillissantes ( ) 
+ jaillissants ( ) 
+ jaillisse ( ) 
  jaillissement ( ) 
- jaillissements ( ) lemma=jaillissement 
- jaillissent ( ) lemma=jaillir 
- jaillisses ( ) lemma=jaillir 
- jaillissez ( ) lemma=jaillir 
- jaillissiez ( ) lemma=jaillir 
- jaillissions ( ) lemma=jaillir 
- jaillissons ( ) lemma=jaillir 
- jaillit ( ) lemma=jaillir 
- jaillîmes ( ) lemma=jaillir 
- jaillît ( ) lemma=jaillir 
- jaillîtes ( ) lemma=jaillir 
+ jaillissements ( ) 
+ jaillissent ( ) 
+ jaillisses ( ) 
+ jaillissez ( ) 
+ jaillissiez ( ) 
+ jaillissions ( ) 
+ jaillissons ( ) 
+ jaillit ( ) 
+ jaillîmes ( ) 
+ jaillît ( ) 
+ jaillîtes ( ) 
  jais ( ) 
  jaja ( ) 
- jajas ( ) lemma=jaja 
+ jajas ( ) 
  jalage ( ) 
- jalages ( ) lemma=jalage 
+ jalages ( ) 
  jalap ( ) 
- jalaps ( ) lemma=jalap 
+ jalaps ( ) 
  jale ( ) 
  jaleo ( ) 
- jaleos ( ) lemma=jaleo 
- jales ( ) lemma=jale 
+ jaleos ( ) 
+ jales ( ) 
  jalet ( ) 
- jalets ( ) lemma=jalet 
+ jalets ( ) 
  jalmince ( ) 
- jalminces ( ) lemma=jalmince 
+ jalminces ( ) 
  jalon ( ) 
- jalonna ( ) lemma=jalonner 
- jalonner ( ) 
- jalonnai ( ) lemma=jalonner 
- jalonnaient ( ) lemma=jalonner 
- jalonnais ( ) lemma=jalonner 
- jalonnait ( ) lemma=jalonner 
- jalonnant ( ) lemma=jalonner 
- jalonnas ( ) lemma=jalonner 
- jalonnasse ( ) lemma=jalonner 
- jalonnassent ( ) lemma=jalonner 
- jalonnasses ( ) lemma=jalonner 
- jalonnassiez ( ) lemma=jalonner 
- jalonnassions ( ) lemma=jalonner 
- jalonne ( ) lemma=jalonner 
+ jalonna ( ) 
+ jalonnai ( ) 
+ jalonnaient ( ) 
+ jalonnais ( ) 
+ jalonnait ( ) 
+ jalonnant ( ) 
+ jalonnas ( ) 
+ jalonnasse ( ) 
+ jalonnassent ( ) 
+ jalonnasses ( ) 
+ jalonnassiez ( ) 
+ jalonnassions ( ) 
+ jalonne ( ) 
  jalonnement ( ) 
- jalonnements ( ) lemma=jalonnement 
- jalonnent ( ) lemma=jalonner 
- jalonnera ( ) lemma=jalonner 
- jalonnerai ( ) lemma=jalonner 
- jalonneraient ( ) lemma=jalonner 
- jalonnerais ( ) lemma=jalonner 
- jalonnerait ( ) lemma=jalonner 
- jalonneras ( ) lemma=jalonner 
- jalonnerez ( ) lemma=jalonner 
- jalonneriez ( ) lemma=jalonner 
- jalonnerions ( ) lemma=jalonner 
- jalonnerons ( ) lemma=jalonner 
- jalonneront ( ) lemma=jalonner 
- jalonnes ( ) lemma=jalonner 
+ jalonnements ( ) 
+ jalonnent ( ) 
+ jalonner ( ) 
+ jalonnera ( ) 
+ jalonnerai ( ) 
+ jalonneraient ( ) 
+ jalonnerais ( ) 
+ jalonnerait ( ) 
+ jalonneras ( ) 
+ jalonnerez ( ) 
+ jalonneriez ( ) 
+ jalonnerions ( ) 
+ jalonnerons ( ) 
+ jalonneront ( ) 
+ jalonnes ( ) 
  jalonneur ( ) 
- jalonneurs ( ) lemma=jalonneur 
- jalonnez ( ) lemma=jalonner 
- jalonniez ( ) lemma=jalonner 
- jalonnions ( ) lemma=jalonner 
- jalonnons ( ) lemma=jalonner 
- jalonnâmes ( ) lemma=jalonner 
- jalonnât ( ) lemma=jalonner 
- jalonnâtes ( ) lemma=jalonner 
- jalonnèrent ( ) lemma=jalonner 
- jalonné ( ) lemma=jalonner 
- jalonnée ( ) lemma=jalonner 
- jalonnées ( ) lemma=jalonner 
- jalonnés ( ) lemma=jalonner 
- jalons ( ) lemma=jalon 
- jalousa ( ) lemma=jalouser 
- jalouser ( ) 
- jalousai ( ) lemma=jalouser 
- jalousaient ( ) lemma=jalouser 
- jalousais ( ) lemma=jalouser 
- jalousait ( ) lemma=jalouser 
- jalousant ( ) lemma=jalouser 
- jalousas ( ) lemma=jalouser 
- jalousasse ( ) lemma=jalouser 
- jalousassent ( ) lemma=jalouser 
- jalousasses ( ) lemma=jalouser 
- jalousassiez ( ) lemma=jalouser 
- jalousassions ( ) lemma=jalouser 
- jalouse ( ) lemma=jaloux 
- jaloux ( ) 
+ jalonneurs ( ) 
+ jalonnez ( ) 
+ jalonniez ( ) 
+ jalonnions ( ) 
+ jalonnons ( ) 
+ jalonnâmes ( ) 
+ jalonnât ( ) 
+ jalonnâtes ( ) 
+ jalonnèrent ( ) 
+ jalonné ( ) 
+ jalonnée ( ) 
+ jalonnées ( ) 
+ jalonnés ( ) 
+ jalons ( ) 
+ jalousa ( ) 
+ jalousai ( ) 
+ jalousaient ( ) 
+ jalousais ( ) 
+ jalousait ( ) 
+ jalousant ( ) 
+ jalousas ( ) 
+ jalousasse ( ) 
+ jalousassent ( ) 
+ jalousasses ( ) 
+ jalousassiez ( ) 
+ jalousassions ( ) 
+ jalouse ( ) 
  jalousement ( ) 
- jalousent ( ) lemma=jalouser 
- jalousera ( ) lemma=jalouser 
- jalouserai ( ) lemma=jalouser 
- jalouseraient ( ) lemma=jalouser 
- jalouserais ( ) lemma=jalouser 
- jalouserait ( ) lemma=jalouser 
- jalouseras ( ) lemma=jalouser 
- jalouserez ( ) lemma=jalouser 
- jalouseriez ( ) lemma=jalouser 
- jalouserions ( ) lemma=jalouser 
- jalouserons ( ) lemma=jalouser 
- jalouseront ( ) lemma=jalouser 
- jalouses ( ) lemma=jaloux 
- jalousez ( ) lemma=jalouser 
+ jalousent ( ) 
+ jalouser ( ) 
+ jalousera ( ) 
+ jalouserai ( ) 
+ jalouseraient ( ) 
+ jalouserais ( ) 
+ jalouserait ( ) 
+ jalouseras ( ) 
+ jalouserez ( ) 
+ jalouseriez ( ) 
+ jalouserions ( ) 
+ jalouserons ( ) 
+ jalouseront ( ) 
+ jalouses ( ) 
+ jalousez ( ) 
  jalousie ( ) 
- jalousies ( ) lemma=jalousie 
- jalousiez ( ) lemma=jalouser 
- jalousions ( ) lemma=jalouser 
- jalousons ( ) lemma=jalouser 
- jalousâmes ( ) lemma=jalouser 
- jalousât ( ) lemma=jalouser 
- jalousâtes ( ) lemma=jalouser 
- jalousèrent ( ) lemma=jalouser 
- jalousé ( ) lemma=jalouser 
- jalousée ( ) lemma=jalouser 
- jalousées ( ) lemma=jalouser 
- jalousés ( ) lemma=jalouser 
+ jalousies ( ) 
+ jalousiez ( ) 
+ jalousions ( ) 
+ jalousons ( ) 
+ jalousâmes ( ) 
+ jalousât ( ) 
+ jalousâtes ( ) 
+ jalousèrent ( ) 
+ jalousé ( ) 
+ jalousée ( ) 
+ jalousées ( ) 
+ jalousés ( ) 
+ jaloux ( ) 
  jam ( ) 
  jam-session ( ) 
- jam-sessions ( ) lemma=jam-session 
+ jam-sessions ( ) 
  jamais ( ) 
  jamaïquain ( ) 
- jamaïquaine ( ) lemma=jamaïquain 
- jamaïquaines ( ) lemma=jamaïquain 
- jamaïquains ( ) lemma=jamaïquain 
- jamba ( ) lemma=jamber 
- jamber ( ) 
+ jamaïquaine ( ) 
+ jamaïquaines ( ) 
+ jamaïquains ( ) 
+ jamba ( ) 
  jambage ( ) 
- jambages ( ) lemma=jambage 
- jambai ( ) lemma=jamber 
- jambaient ( ) lemma=jamber 
- jambais ( ) lemma=jamber 
- jambait ( ) lemma=jamber 
- jambant ( ) lemma=jamber 
+ jambages ( ) 
+ jambai ( ) 
+ jambaient ( ) 
+ jambais ( ) 
+ jambait ( ) 
+ jambant ( ) 
  jambard ( ) 
- jambards ( ) lemma=jambard 
+ jambards ( ) 
  jambart ( ) 
- jambarts ( ) lemma=jambart 
- jambas ( ) lemma=jamber 
- jambasse ( ) lemma=jamber 
- jambassent ( ) lemma=jamber 
- jambasses ( ) lemma=jamber 
- jambassiez ( ) lemma=jamber 
+ jambarts ( ) 
+ jambas ( ) 
+ jambasse ( ) 
+ jambassent ( ) 
+ jambasses ( ) 
+ jambassiez ( ) 
+ jambassions ( ) 
  jambe ( ) 
  jambelet ( ) 
- jambelets ( ) lemma=jambelet 
- jambent ( ) lemma=jamber 
- jambera ( ) lemma=jamber 
- jamberai ( ) lemma=jamber 
- jamberaient ( ) lemma=jamber 
- jamberais ( ) lemma=jamber 
- jamberait ( ) lemma=jamber 
- jamberas ( ) lemma=jamber 
- jamberez ( ) lemma=jamber 
- jamberiez ( ) lemma=jamber 
- jamberions ( ) lemma=jamber 
- jamberons ( ) lemma=jamber 
- jamberont ( ) lemma=jamber 
- jambes ( ) lemma=jambe 
+ jambelets ( ) 
+ jambent ( ) 
+ jamber ( ) 
+ jambera ( ) 
+ jamberai ( ) 
+ jamberaient ( ) 
+ jamberais ( ) 
+ jamberait ( ) 
+ jamberas ( ) 
+ jamberez ( ) 
+ jamberiez ( ) 
+ jamberions ( ) 
+ jamberons ( ) 
+ jamberont ( ) 
+ jambes ( ) 
  jambette ( ) 
- jambettes ( ) lemma=jambette 
- jambez ( ) lemma=jamber 
+ jambettes ( ) 
+ jambez ( ) 
  jambier ( ) 
- jambiers ( ) lemma=jambier 
- jambiez ( ) lemma=jamber 
+ jambiers ( ) 
+ jambiez ( ) 
  jambin ( ) 
- jambins ( ) lemma=jambin 
- jambions ( ) lemma=jamber 
- jambière ( ) lemma=jambier 
- jambières ( ) lemma=jambier 
+ jambins ( ) 
+ jambions ( ) 
+ jambière ( ) 
+ jambières ( ) 
  jambon ( ) 
  jambonneau ( ) 
- jambonneaux ( ) lemma=jambonneau 
+ jambonneaux ( ) 
  jambonnette ( ) 
- jambonnettes ( ) lemma=jambonnette 
+ jambonnettes ( ) 
  jambonné ( ) 
- jambonnée ( ) lemma=jambonné 
- jambonnées ( ) lemma=jambonné 
- jambonnés ( ) lemma=jambonné 
- jambons ( ) lemma=jambon 
+ jambonnée ( ) 
+ jambonnées ( ) 
+ jambonnés ( ) 
+ jambons ( ) 
  jamboree ( ) 
- jamborees ( ) lemma=jamboree 
+ jamborees ( ) 
  jambose ( ) 
- jamboses ( ) lemma=jambose 
+ jamboses ( ) 
  jambosier ( ) 
- jambosiers ( ) lemma=jambosier 
- jambâmes ( ) lemma=jamber 
- jambât ( ) lemma=jamber 
- jambâtes ( ) lemma=jamber 
- jambèrent ( ) lemma=jamber 
+ jambosiers ( ) 
+ jambâmes ( ) 
+ jambât ( ) 
+ jambâtes ( ) 
+ jambèrent ( ) 
  jambé ( ) 
- jambée ( ) lemma=jambé 
- jambées ( ) lemma=jambé 
- jambés ( ) lemma=jambé 
+ jambée ( ) 
+ jambées ( ) 
+ jambés ( ) 
  jamerose ( ) 
- jameroses ( ) lemma=jamerose 
+ jameroses ( ) 
  jamerosier ( ) 
- jamerosiers ( ) lemma=jamerosier 
- jams ( ) lemma=jam 
+ jamerosiers ( ) 
+ jams ( ) 
  jan ( ) 
  jangada ( ) 
- jangadas ( ) lemma=jangada 
+ jangadas ( ) 
  jangag ( ) 
- jangags ( ) lemma=jangag 
+ jangags ( ) 
  janie ( ) 
- janies ( ) lemma=janie 
+ janies ( ) 
  janin ( ) 
- janins ( ) lemma=janin 
+ janins ( ) 
  janissaire ( ) 
- janissaires ( ) lemma=janissaire 
+ janissaires ( ) 
  janoterie ( ) 
- janoteries ( ) lemma=janoterie 
+ janoteries ( ) 
  janotisme ( ) 
- janotismes ( ) lemma=janotisme 
- jans ( ) lemma=jan 
+ janotismes ( ) 
+ jans ( ) 
  jansky ( ) 
- janskys ( ) lemma=jansky 
+ janskys ( ) 
  jansénien ( ) 
- jansénienne ( ) lemma=jansénien 
- janséniennes ( ) lemma=jansénien 
- janséniens ( ) lemma=jansénien 
+ jansénienne ( ) 
+ janséniennes ( ) 
+ janséniens ( ) 
  janséniquement ( ) 
  jansénisme ( ) 
- jansénismes ( ) lemma=jansénisme 
+ jansénismes ( ) 
  janséniste ( ) 
- jansénistes ( ) lemma=janséniste 
+ jansénistes ( ) 
  jante ( ) 
- jantes ( ) lemma=jante 
+ jantes ( ) 
  janthine ( ) 
- janthines ( ) lemma=janthine 
+ janthines ( ) 
  jantier ( ) 
- jantiers ( ) lemma=jantier 
+ jantiers ( ) 
  jantille ( ) 
- jantilles ( ) lemma=jantille 
+ jantilles ( ) 
  jantière ( ) 
- jantières ( ) lemma=jantière 
+ jantières ( ) 
  janus ( ) 
  janvier ( ) 
- janviers ( ) lemma=janvier 
+ janviers ( ) 
  jap ( ) 
  japhétique ( ) 
- japhétiques ( ) lemma=japhétique 
+ japhétiques ( ) 
  japon ( ) 
  japonais ( ) 
- japonaisa ( ) lemma=japonaiser 
+ japonaisa ( ) 
+ japonaisai ( ) 
+ japonaisaient ( ) 
+ japonaisais ( ) 
+ japonaisait ( ) 
+ japonaisant ( ) 
+ japonaisas ( ) 
+ japonaisasse ( ) 
+ japonaisassent ( ) 
+ japonaisasses ( ) 
+ japonaisassiez ( ) 
+ japonaisassions ( ) 
+ japonaise ( ) 
+ japonaisent ( ) 
  japonaiser ( ) 
- japonaisai ( ) lemma=japonaiser 
- japonaisaient ( ) lemma=japonaiser 
- japonaisais ( ) lemma=japonaiser 
- japonaisait ( ) lemma=japonaiser 
- japonaisant ( ) lemma=japonaiser 
- japonaisas ( ) lemma=japonaiser 
- japonaisasse ( ) lemma=japonaiser 
- japonaisassent ( ) lemma=japonaiser 
- japonaisasses ( ) lemma=japonaiser 
- japonaisassiez ( ) lemma=japonaiser 
- japonaisassions ( ) lemma=japonaiser 
- japonaise ( ) lemma=japonais 
- japonaisent ( ) lemma=japonaiser 
- japonaisera ( ) lemma=japonaiser 
- japonaiserai ( ) lemma=japonaiser 
- japonaiseraient ( ) lemma=japonaiser 
- japonaiserais ( ) lemma=japonaiser 
- japonaiserait ( ) lemma=japonaiser 
- japonaiseras ( ) lemma=japonaiser 
- japonaiserez ( ) lemma=japonaiser 
+ japonaisera ( ) 
+ japonaiserai ( ) 
+ japonaiseraient ( ) 
+ japonaiserais ( ) 
+ japonaiserait ( ) 
+ japonaiseras ( ) 
+ japonaiserez ( ) 
  japonaiserie ( ) 
- japonaiseries ( ) lemma=japonaiserie 
- japonaiseriez ( ) lemma=japonaiser 
- japonaiserions ( ) lemma=japonaiser 
- japonaiserons ( ) lemma=japonaiser 
- japonaiseront ( ) lemma=japonaiser 
- japonaises ( ) lemma=japonais 
- japonaisez ( ) lemma=japonaiser 
- japonaisiez ( ) lemma=japonaiser 
- japonaisions ( ) lemma=japonaiser 
- japonaisons ( ) lemma=japonaiser 
- japonaisâmes ( ) lemma=japonaiser 
- japonaisât ( ) lemma=japonaiser 
- japonaisâtes ( ) lemma=japonaiser 
- japonaisèrent ( ) lemma=japonaiser 
- japonaisé ( ) lemma=japonaiser 
- japonaisée ( ) lemma=japonaiser 
- japonaisées ( ) lemma=japonaiser 
- japonaisés ( ) lemma=japonaiser 
+ japonaiseries ( ) 
+ japonaiseriez ( ) 
+ japonaiserions ( ) 
+ japonaiserons ( ) 
+ japonaiseront ( ) 
+ japonaises ( ) 
+ japonaisez ( ) 
+ japonaisiez ( ) 
+ japonaisions ( ) 
+ japonaisons ( ) 
+ japonaisâmes ( ) 
+ japonaisât ( ) 
+ japonaisâtes ( ) 
+ japonaisèrent ( ) 
+ japonaisé ( ) 
+ japonaisée ( ) 
+ japonaisées ( ) 
+ japonaisés ( ) 
  japonerie ( ) 
- japoneries ( ) lemma=japonerie 
- japonisa ( ) lemma=japoniser 
- japoniser ( ) 
- japonisai ( ) lemma=japoniser 
- japonisaient ( ) lemma=japoniser 
- japonisais ( ) lemma=japoniser 
- japonisait ( ) lemma=japoniser 
+ japoneries ( ) 
+ japonisa ( ) 
+ japonisai ( ) 
+ japonisaient ( ) 
+ japonisais ( ) 
+ japonisait ( ) 
  japonisant ( ) 
- japonisante ( ) lemma=japonisant 
- japonisantes ( ) lemma=japonisant 
- japonisants ( ) lemma=japonisant 
- japonisas ( ) lemma=japoniser 
- japonisasse ( ) lemma=japoniser 
- japonisassent ( ) lemma=japoniser 
- japonisasses ( ) lemma=japoniser 
- japonisassiez ( ) lemma=japoniser 
- japonisassions ( ) lemma=japoniser 
- japonise ( ) lemma=japoniser 
- japonisent ( ) lemma=japoniser 
- japonisera ( ) lemma=japoniser 
- japoniserai ( ) lemma=japoniser 
- japoniseraient ( ) lemma=japoniser 
- japoniserais ( ) lemma=japoniser 
- japoniserait ( ) lemma=japoniser 
- japoniseras ( ) lemma=japoniser 
- japoniserez ( ) lemma=japoniser 
- japoniseriez ( ) lemma=japoniser 
- japoniserions ( ) lemma=japoniser 
- japoniserons ( ) lemma=japoniser 
- japoniseront ( ) lemma=japoniser 
- japonises ( ) lemma=japoniser 
- japonisez ( ) lemma=japoniser 
- japonisiez ( ) lemma=japoniser 
- japonisions ( ) lemma=japoniser 
+ japonisante ( ) 
+ japonisantes ( ) 
+ japonisants ( ) 
+ japonisas ( ) 
+ japonisasse ( ) 
+ japonisassent ( ) 
+ japonisasses ( ) 
+ japonisassiez ( ) 
+ japonisassions ( ) 
+ japonise ( ) 
+ japonisent ( ) 
+ japoniser ( ) 
+ japonisera ( ) 
+ japoniserai ( ) 
+ japoniseraient ( ) 
+ japoniserais ( ) 
+ japoniserait ( ) 
+ japoniseras ( ) 
+ japoniserez ( ) 
+ japoniseriez ( ) 
+ japoniserions ( ) 
+ japoniserons ( ) 
+ japoniseront ( ) 
+ japonises ( ) 
+ japonisez ( ) 
+ japonisiez ( ) 
+ japonisions ( ) 
  japonisme ( ) 
- japonismes ( ) lemma=japonisme 
- japonisons ( ) lemma=japoniser 
+ japonismes ( ) 
+ japonisons ( ) 
  japoniste ( ) 
- japonistes ( ) lemma=japoniste 
- japonisâmes ( ) lemma=japoniser 
- japonisât ( ) lemma=japoniser 
- japonisâtes ( ) lemma=japoniser 
- japonisèrent ( ) lemma=japoniser 
- japonisé ( ) lemma=japoniser 
- japonisée ( ) lemma=japoniser 
- japonisées ( ) lemma=japoniser 
- japonisés ( ) lemma=japoniser 
+ japonistes ( ) 
+ japonisâmes ( ) 
+ japonisât ( ) 
+ japonisâtes ( ) 
+ japonisèrent ( ) 
+ japonisé ( ) 
+ japonisée ( ) 
+ japonisées ( ) 
+ japonisés ( ) 
  japonite ( ) 
- japonites ( ) lemma=japonite 
- japons ( ) lemma=japon 
- jappa ( ) lemma=japper 
- japper ( ) 
+ japonites ( ) 
+ japons ( ) 
+ jappa ( ) 
  jappage ( ) 
- jappages ( ) lemma=jappage 
- jappai ( ) lemma=japper 
- jappaient ( ) lemma=japper 
- jappais ( ) lemma=japper 
- jappait ( ) lemma=japper 
+ jappages ( ) 
+ jappai ( ) 
+ jappaient ( ) 
+ jappais ( ) 
+ jappait ( ) 
  jappant ( ) 
- jappante ( ) lemma=jappant 
- jappantes ( ) lemma=jappant 
- jappants ( ) lemma=jappant 
- jappas ( ) lemma=japper 
- jappasse ( ) lemma=japper 
- jappassent ( ) lemma=japper 
- jappasses ( ) lemma=japper 
- jappassiez ( ) lemma=japper 
- jappassions ( ) lemma=japper 
+ jappante ( ) 
+ jappantes ( ) 
+ jappants ( ) 
+ jappas ( ) 
+ jappasse ( ) 
+ jappassent ( ) 
+ jappasses ( ) 
+ jappassiez ( ) 
+ jappassions ( ) 
  jappe ( ) 
  jappement ( ) 
- jappements ( ) lemma=jappement 
- jappent ( ) lemma=japper 
- jappera ( ) lemma=japper 
- japperai ( ) lemma=japper 
- japperaient ( ) lemma=japper 
- japperais ( ) lemma=japper 
- japperait ( ) lemma=japper 
- japperas ( ) lemma=japper 
- japperez ( ) lemma=japper 
- japperiez ( ) lemma=japper 
- japperions ( ) lemma=japper 
- japperons ( ) lemma=japper 
- japperont ( ) lemma=japper 
- jappes ( ) lemma=jappe 
+ jappements ( ) 
+ jappent ( ) 
+ japper ( ) 
+ jappera ( ) 
+ japperai ( ) 
+ japperaient ( ) 
+ japperais ( ) 
+ japperait ( ) 
+ japperas ( ) 
+ japperez ( ) 
+ japperiez ( ) 
+ japperions ( ) 
+ japperons ( ) 
+ japperont ( ) 
+ jappes ( ) 
  jappeur ( ) 
- jappeurs ( ) lemma=jappeur 
- jappeuse ( ) lemma=jappeur 
- jappeuses ( ) lemma=jappeur 
- jappez ( ) lemma=japper 
- jappiez ( ) lemma=japper 
- jappions ( ) lemma=japper 
- jappons ( ) lemma=japper 
- jappâmes ( ) lemma=japper 
- jappât ( ) lemma=japper 
- jappâtes ( ) lemma=japper 
- jappèrent ( ) lemma=japper 
- jappé ( ) lemma=japper 
- jappée ( ) lemma=japper 
- jappées ( ) lemma=japper 
- jappés ( ) lemma=japper 
- japs ( ) lemma=jap 
+ jappeurs ( ) 
+ jappeuse ( ) 
+ jappeuses ( ) 
+ jappez ( ) 
+ jappiez ( ) 
+ jappions ( ) 
+ jappons ( ) 
+ jappâmes ( ) 
+ jappât ( ) 
+ jappâtes ( ) 
+ jappèrent ( ) 
+ jappé ( ) 
+ jappée ( ) 
+ jappées ( ) 
+ jappés ( ) 
+ japs ( ) 
  jaque ( ) 
  jaquelin ( ) 
  jaqueline ( ) 
- jaquelines ( ) lemma=jaqueline 
- jaquelins ( ) lemma=jaquelin 
+ jaquelines ( ) 
+ jaquelins ( ) 
  jaquemart ( ) 
- jaquemarts ( ) lemma=jaquemart 
- jaques ( ) lemma=jaque 
+ jaquemarts ( ) 
+ jaques ( ) 
  jaquet ( ) 
- jaquets ( ) lemma=jaquet 
+ jaquets ( ) 
  jaquette ( ) 
- jaquettes ( ) lemma=jaquette 
+ jaquettes ( ) 
  jaquier ( ) 
- jaquiers ( ) lemma=jaquier 
+ jaquiers ( ) 
  jar ( ) 
  jararaca ( ) 
- jararacas ( ) lemma=jararaca 
+ jararacas ( ) 
  jard ( ) 
  jarde ( ) 
- jardes ( ) lemma=jarde 
+ jardes ( ) 
  jardin ( ) 
- jardina ( ) lemma=jardiner 
- jardiner ( ) 
+ jardina ( ) 
  jardinage ( ) 
- jardinages ( ) lemma=jardinage 
- jardinai ( ) lemma=jardiner 
- jardinaient ( ) lemma=jardiner 
- jardinais ( ) lemma=jardiner 
- jardinait ( ) lemma=jardiner 
- jardinant ( ) lemma=jardiner 
- jardinas ( ) lemma=jardiner 
- jardinasse ( ) lemma=jardiner 
- jardinassent ( ) lemma=jardiner 
- jardinasses ( ) lemma=jardiner 
- jardinassiez ( ) lemma=jardiner 
- jardinassions ( ) lemma=jardiner 
+ jardinages ( ) 
+ jardinai ( ) 
+ jardinaient ( ) 
+ jardinais ( ) 
+ jardinait ( ) 
+ jardinant ( ) 
+ jardinas ( ) 
+ jardinasse ( ) 
+ jardinassent ( ) 
+ jardinasses ( ) 
+ jardinassiez ( ) 
+ jardinassions ( ) 
  jardinatoire ( ) 
- jardinatoires ( ) lemma=jardinatoire 
- jardine ( ) lemma=jardiner 
- jardinent ( ) lemma=jardiner 
- jardinera ( ) lemma=jardiner 
- jardinerai ( ) lemma=jardiner 
- jardineraient ( ) lemma=jardiner 
- jardinerais ( ) lemma=jardiner 
- jardinerait ( ) lemma=jardiner 
- jardineras ( ) lemma=jardiner 
- jardinerez ( ) lemma=jardiner 
+ jardinatoires ( ) 
+ jardine ( ) 
+ jardinent ( ) 
+ jardiner ( ) 
+ jardinera ( ) 
+ jardinerai ( ) 
+ jardineraient ( ) 
+ jardinerais ( ) 
+ jardinerait ( ) 
+ jardineras ( ) 
+ jardinerez ( ) 
  jardinerie ( ) 
- jardineries ( ) lemma=jardinerie 
- jardineriez ( ) lemma=jardiner 
- jardinerions ( ) lemma=jardiner 
- jardinerons ( ) lemma=jardiner 
- jardineront ( ) lemma=jardiner 
- jardines ( ) lemma=jardiner 
+ jardineries ( ) 
+ jardineriez ( ) 
+ jardinerions ( ) 
+ jardinerons ( ) 
+ jardineront ( ) 
+ jardines ( ) 
  jardinet ( ) 
- jardinets ( ) lemma=jardinet 
- jardineuse ( ) lemma=jardineux 
+ jardinets ( ) 
+ jardineuse ( ) 
+ jardineuses ( ) 
  jardineux ( ) 
- jardineuses ( ) lemma=jardineux 
- jardinez ( ) lemma=jardiner 
+ jardinez ( ) 
  jardinier ( ) 
- jardiniers ( ) lemma=jardinier 
- jardiniez ( ) lemma=jardiner 
- jardinions ( ) lemma=jardiner 
+ jardiniers ( ) 
+ jardiniez ( ) 
+ jardinions ( ) 
  jardiniste ( ) 
- jardinistes ( ) lemma=jardiniste 
- jardinière ( ) lemma=jardinier 
- jardinières ( ) lemma=jardinier 
- jardinons ( ) lemma=jardiner 
- jardins ( ) lemma=jardin 
- jardinâmes ( ) lemma=jardiner 
- jardinât ( ) lemma=jardiner 
- jardinâtes ( ) lemma=jardiner 
- jardinèrent ( ) lemma=jardiner 
- jardiné ( ) lemma=jardiner 
- jardinée ( ) lemma=jardiner 
- jardinées ( ) lemma=jardiner 
- jardinés ( ) lemma=jardiner 
+ jardinistes ( ) 
+ jardinière ( ) 
+ jardinières ( ) 
+ jardinons ( ) 
+ jardins ( ) 
+ jardinâmes ( ) 
+ jardinât ( ) 
+ jardinâtes ( ) 
+ jardinèrent ( ) 
+ jardiné ( ) 
+ jardinée ( ) 
+ jardinées ( ) 
+ jardinés ( ) 
  jardon ( ) 
- jardons ( ) lemma=jardon 
- jards ( ) lemma=jard 
- jargauda ( ) lemma=jargauder 
+ jardons ( ) 
+ jards ( ) 
+ jargauda ( ) 
+ jargaudai ( ) 
+ jargaudaient ( ) 
+ jargaudais ( ) 
+ jargaudait ( ) 
+ jargaudant ( ) 
+ jargaudas ( ) 
+ jargaudasse ( ) 
+ jargaudassent ( ) 
+ jargaudasses ( ) 
+ jargaudassiez ( ) 
+ jargaudassions ( ) 
+ jargaude ( ) 
+ jargaudent ( ) 
  jargauder ( ) 
- jargaudai ( ) lemma=jargauder 
- jargaudaient ( ) lemma=jargauder 
- jargaudais ( ) lemma=jargauder 
- jargaudait ( ) lemma=jargauder 
- jargaudant ( ) lemma=jargauder 
- jargaudas ( ) lemma=jargauder 
- jargaudasse ( ) lemma=jargauder 
- jargaudassent ( ) lemma=jargauder 
- jargaudasses ( ) lemma=jargauder 
- jargaudassiez ( ) lemma=jargauder 
- jargaudassions ( ) lemma=jargauder 
- jargaude ( ) lemma=jargauder 
- jargaudent ( ) lemma=jargauder 
- jargaudera ( ) lemma=jargauder 
- jargauderai ( ) lemma=jargauder 
- jargauderaient ( ) lemma=jargauder 
- jargauderais ( ) lemma=jargauder 
- jargauderait ( ) lemma=jargauder 
- jargauderas ( ) lemma=jargauder 
- jargauderez ( ) lemma=jargauder 
- jargauderiez ( ) lemma=jargauder 
- jargauderions ( ) lemma=jargauder 
- jargauderons ( ) lemma=jargauder 
- jargauderont ( ) lemma=jargauder 
- jargaudes ( ) lemma=jargauder 
- jargaudez ( ) lemma=jargauder 
- jargaudiez ( ) lemma=jargauder 
- jargaudions ( ) lemma=jargauder 
- jargaudons ( ) lemma=jargauder 
- jargaudâmes ( ) lemma=jargauder 
- jargaudât ( ) lemma=jargauder 
- jargaudâtes ( ) lemma=jargauder 
- jargaudèrent ( ) lemma=jargauder 
- jargaudé ( ) lemma=jargauder 
- jargaudée ( ) lemma=jargauder 
- jargaudées ( ) lemma=jargauder 
- jargaudés ( ) lemma=jargauder 
+ jargaudera ( ) 
+ jargauderai ( ) 
+ jargauderaient ( ) 
+ jargauderais ( ) 
+ jargauderait ( ) 
+ jargauderas ( ) 
+ jargauderez ( ) 
+ jargauderiez ( ) 
+ jargauderions ( ) 
+ jargauderons ( ) 
+ jargauderont ( ) 
+ jargaudes ( ) 
+ jargaudez ( ) 
+ jargaudiez ( ) 
+ jargaudions ( ) 
+ jargaudons ( ) 
+ jargaudâmes ( ) 
+ jargaudât ( ) 
+ jargaudâtes ( ) 
+ jargaudèrent ( ) 
+ jargaudé ( ) 
+ jargaudée ( ) 
+ jargaudées ( ) 
+ jargaudés ( ) 
  jargon ( ) 
  jargonagraphie ( ) 
- jargonagraphies ( ) lemma=jargonagraphie 
+ jargonagraphies ( ) 
  jargonaphasie ( ) 
- jargonaphasies ( ) lemma=jargonaphasie 
- jargonna ( ) lemma=jargonner 
- jargonner ( ) 
- jargonnai ( ) lemma=jargonner 
- jargonnaient ( ) lemma=jargonner 
- jargonnais ( ) lemma=jargonner 
- jargonnait ( ) lemma=jargonner 
+ jargonaphasies ( ) 
+ jargonna ( ) 
+ jargonnai ( ) 
+ jargonnaient ( ) 
+ jargonnais ( ) 
+ jargonnait ( ) 
  jargonnant ( ) 
- jargonnante ( ) lemma=jargonnant 
- jargonnantes ( ) lemma=jargonnant 
- jargonnants ( ) lemma=jargonnant 
- jargonnas ( ) lemma=jargonner 
- jargonnasse ( ) lemma=jargonner 
- jargonnassent ( ) lemma=jargonner 
- jargonnasses ( ) lemma=jargonner 
- jargonnassiez ( ) lemma=jargonner 
- jargonnassions ( ) lemma=jargonner 
- jargonne ( ) lemma=jargonner 
- jargonnent ( ) lemma=jargonner 
- jargonnera ( ) lemma=jargonner 
- jargonnerai ( ) lemma=jargonner 
- jargonneraient ( ) lemma=jargonner 
- jargonnerais ( ) lemma=jargonner 
- jargonnerait ( ) lemma=jargonner 
- jargonneras ( ) lemma=jargonner 
- jargonnerez ( ) lemma=jargonner 
- jargonneriez ( ) lemma=jargonner 
- jargonnerions ( ) lemma=jargonner 
- jargonnerons ( ) lemma=jargonner 
- jargonneront ( ) lemma=jargonner 
- jargonnes ( ) lemma=jargonner 
+ jargonnante ( ) 
+ jargonnantes ( ) 
+ jargonnants ( ) 
+ jargonnas ( ) 
+ jargonnasse ( ) 
+ jargonnassent ( ) 
+ jargonnasses ( ) 
+ jargonnassiez ( ) 
+ jargonnassions ( ) 
+ jargonne ( ) 
+ jargonnent ( ) 
+ jargonner ( ) 
+ jargonnera ( ) 
+ jargonnerai ( ) 
+ jargonneraient ( ) 
+ jargonnerais ( ) 
+ jargonnerait ( ) 
+ jargonneras ( ) 
+ jargonnerez ( ) 
+ jargonneriez ( ) 
+ jargonnerions ( ) 
+ jargonnerons ( ) 
+ jargonneront ( ) 
+ jargonnes ( ) 
  jargonnesque ( ) 
- jargonnesques ( ) lemma=jargonnesque 
+ jargonnesques ( ) 
  jargonneur ( ) 
- jargonneurs ( ) lemma=jargonneur 
- jargonneuse ( ) lemma=jargonneur 
- jargonneuses ( ) lemma=jargonneur 
- jargonnez ( ) lemma=jargonner 
+ jargonneurs ( ) 
+ jargonneuse ( ) 
+ jargonneuses ( ) 
+ jargonnez ( ) 
  jargonnier ( ) 
- jargonniers ( ) lemma=jargonnier 
- jargonniez ( ) lemma=jargonner 
- jargonnions ( ) lemma=jargonner 
- jargonnière ( ) lemma=jargonnier 
- jargonnières ( ) lemma=jargonnier 
- jargonnons ( ) lemma=jargonner 
- jargonnâmes ( ) lemma=jargonner 
- jargonnât ( ) lemma=jargonner 
- jargonnâtes ( ) lemma=jargonner 
- jargonnèrent ( ) lemma=jargonner 
- jargonné ( ) lemma=jargonner 
- jargonnée ( ) lemma=jargonner 
- jargonnées ( ) lemma=jargonner 
- jargonnés ( ) lemma=jargonner 
+ jargonniers ( ) 
+ jargonniez ( ) 
+ jargonnions ( ) 
+ jargonnière ( ) 
+ jargonnières ( ) 
+ jargonnons ( ) 
+ jargonnâmes ( ) 
+ jargonnât ( ) 
+ jargonnâtes ( ) 
+ jargonnèrent ( ) 
+ jargonné ( ) 
+ jargonnée ( ) 
+ jargonnées ( ) 
+ jargonnés ( ) 
  jargonomimie ( ) 
- jargonomimies ( ) lemma=jargonomimie 
- jargons ( ) lemma=jargon 
+ jargonomimies ( ) 
+ jargons ( ) 
  jarni ( ) 
  jarnibleu ( ) 
  jarnicoton ( ) 
@@ -1072,2641 +1067,2859 @@
  jarnigoi ( ) 
  jarniguienne ( ) 
  jarosse ( ) 
- jarosses ( ) lemma=jarosse 
+ jarosses ( ) 
  jarousse ( ) 
- jarousses ( ) lemma=jarousse 
+ jarousses ( ) 
  jarovisation ( ) 
- jarovisations ( ) lemma=jarovisation 
+ jarovisations ( ) 
  jarre ( ) 
- jarres ( ) lemma=jarre 
+ jarres ( ) 
  jarret ( ) 
- jarreta ( ) lemma=jarreter 
- jarreter ( ) 
- jarretai ( ) lemma=jarreter 
- jarretaient ( ) lemma=jarreter 
- jarretais ( ) lemma=jarreter 
- jarretait ( ) lemma=jarreter 
- jarretant ( ) lemma=jarreter 
- jarretas ( ) lemma=jarreter 
- jarretasse ( ) lemma=jarreter 
- jarretassent ( ) lemma=jarreter 
- jarretasses ( ) lemma=jarreter 
- jarretassiez ( ) lemma=jarreter 
- jarretassions ( ) lemma=jarreter 
+ jarreta ( ) 
+ jarretai ( ) 
+ jarretaient ( ) 
+ jarretais ( ) 
+ jarretait ( ) 
+ jarretant ( ) 
+ jarretas ( ) 
+ jarretasse ( ) 
+ jarretassent ( ) 
+ jarretasses ( ) 
+ jarretassiez ( ) 
+ jarretassions ( ) 
  jarretelle ( ) 
- jarretelles ( ) lemma=jarretelle 
- jarretez ( ) lemma=jarreter 
+ jarretelles ( ) 
+ jarreter ( ) 
+ jarretez ( ) 
  jarretier ( ) 
- jarretiers ( ) lemma=jarretier 
- jarretiez ( ) lemma=jarreter 
- jarretions ( ) lemma=jarreter 
- jarretière ( ) lemma=jarretier 
- jarretières ( ) lemma=jarretier 
- jarretons ( ) lemma=jarreter 
- jarrets ( ) lemma=jarret 
- jarrette ( ) lemma=jarreter 
- jarrettent ( ) lemma=jarreter 
- jarrettera ( ) lemma=jarreter 
- jarretterai ( ) lemma=jarreter 
- jarretteraient ( ) lemma=jarreter 
- jarretterais ( ) lemma=jarreter 
- jarretterait ( ) lemma=jarreter 
- jarretteras ( ) lemma=jarreter 
- jarretterez ( ) lemma=jarreter 
- jarretteriez ( ) lemma=jarreter 
- jarretterions ( ) lemma=jarreter 
- jarretteront ( ) lemma=jarreter 
- jarrettes ( ) lemma=jarreter 
- jarretâmes ( ) lemma=jarreter 
- jarretât ( ) lemma=jarreter 
- jarretâtes ( ) lemma=jarreter 
- jarretèrent ( ) lemma=jarreter 
+ jarretiers ( ) 
+ jarretiez ( ) 
+ jarretions ( ) 
+ jarretière ( ) 
+ jarretières ( ) 
+ jarretons ( ) 
+ jarrets ( ) 
+ jarrette ( ) 
+ jarrettent ( ) 
+ jarrettera ( ) 
+ jarretterai ( ) 
+ jarretteraient ( ) 
+ jarretterais ( ) 
+ jarretterait ( ) 
+ jarretteras ( ) 
+ jarretterez ( ) 
+ jarretteriez ( ) 
+ jarretterions ( ) 
+ jarretterons ( ) 
+ jarretteront ( ) 
+ jarrettes ( ) 
+ jarretâmes ( ) 
+ jarretât ( ) 
+ jarretâtes ( ) 
+ jarretèrent ( ) 
  jarreté ( ) 
- jarretée ( ) lemma=jarreté 
- jarretées ( ) lemma=jarreté 
- jarretés ( ) lemma=jarreté 
- jarreuse ( ) lemma=jarreux 
+ jarretée ( ) 
+ jarretées ( ) 
+ jarretés ( ) 
+ jarreuse ( ) 
+ jarreuses ( ) 
  jarreux ( ) 
- jarreuses ( ) lemma=jarreux 
  jarrissade ( ) 
- jarrissades ( ) lemma=jarrissade 
- jars ( ) lemma=jar|jars 
- jar|jars ( ) 
+ jarrissades ( ) 
+ jars ( ) 
  jas ( ) 
- jasa ( ) lemma=jaser 
- jaser ( ) 
- jasai ( ) lemma=jaser 
- jasaient ( ) lemma=jaser 
- jasais ( ) lemma=jaser 
- jasait ( ) lemma=jaser 
+ jasa ( ) 
+ jasai ( ) 
+ jasaient ( ) 
+ jasais ( ) 
+ jasait ( ) 
  jasant ( ) 
- jasante ( ) lemma=jasant 
- jasantes ( ) lemma=jasant 
- jasants ( ) lemma=jasant 
- jasas ( ) lemma=jaser 
- jasasse ( ) lemma=jaser 
- jasassent ( ) lemma=jaser 
- jasasses ( ) lemma=jaser 
- jasassiez ( ) lemma=jaser 
- jasassions ( ) lemma=jaser 
- jase ( ) lemma=jaser 
+ jasante ( ) 
+ jasantes ( ) 
+ jasants ( ) 
+ jasas ( ) 
+ jasasse ( ) 
+ jasassent ( ) 
+ jasasses ( ) 
+ jasassiez ( ) 
+ jasassions ( ) 
+ jase ( ) 
  jasement ( ) 
- jasements ( ) lemma=jasement 
- jasent ( ) lemma=jaser 
- jasera ( ) lemma=jaser 
- jaserai ( ) lemma=jaser 
- jaseraient ( ) lemma=jaser 
- jaserais ( ) lemma=jaser 
- jaserait ( ) lemma=jaser 
+ jasements ( ) 
+ jasent ( ) 
+ jaser ( ) 
+ jasera ( ) 
+ jaserai ( ) 
+ jaseraient ( ) 
+ jaserais ( ) 
+ jaserait ( ) 
  jaseran ( ) 
- jaserans ( ) lemma=jaseran 
- jaseras ( ) lemma=jaser 
- jaserez ( ) lemma=jaser 
+ jaserans ( ) 
+ jaseras ( ) 
+ jaserez ( ) 
  jaserie ( ) 
- jaseries ( ) lemma=jaserie 
- jaseriez ( ) lemma=jaser 
- jaserions ( ) lemma=jaser 
- jaserons ( ) lemma=jaser 
- jaseront ( ) lemma=jaser 
- jases ( ) lemma=jaser 
+ jaseries ( ) 
+ jaseriez ( ) 
+ jaserions ( ) 
+ jaserons ( ) 
+ jaseront ( ) 
+ jases ( ) 
  jaseur ( ) 
- jaseurs ( ) lemma=jaseur 
- jaseuse ( ) lemma=jaseur 
- jaseuses ( ) lemma=jaseur 
- jasez ( ) lemma=jaser 
- jasiez ( ) lemma=jaser 
+ jaseurs ( ) 
+ jaseuse ( ) 
+ jaseuses ( ) 
+ jasez ( ) 
+ jasiez ( ) 
  jasione ( ) 
- jasiones ( ) lemma=jasione 
- jasions ( ) lemma=jaser 
+ jasiones ( ) 
+ jasions ( ) 
  jasmin ( ) 
- jasmins ( ) lemma=jasmin 
+ jasmins ( ) 
  jasmone ( ) 
- jasons ( ) lemma=jaser 
- jaspa ( ) lemma=jasper 
- jasper ( ) 
+ jasons ( ) 
+ jaspa ( ) 
  jaspage ( ) 
- jaspages ( ) lemma=jaspage 
- jaspai ( ) lemma=jasper 
- jaspaient ( ) lemma=jasper 
- jaspais ( ) lemma=jasper 
- jaspait ( ) lemma=jasper 
- jaspant ( ) lemma=jasper 
- jaspas ( ) lemma=jasper 
- jaspasse ( ) lemma=jasper 
- jaspassent ( ) lemma=jasper 
- jaspasses ( ) lemma=jasper 
- jaspassiez ( ) lemma=jasper 
- jaspassions ( ) lemma=jasper 
+ jaspages ( ) 
+ jaspai ( ) 
+ jaspaient ( ) 
+ jaspais ( ) 
+ jaspait ( ) 
+ jaspant ( ) 
+ jaspas ( ) 
+ jaspasse ( ) 
+ jaspassent ( ) 
+ jaspasses ( ) 
+ jaspassiez ( ) 
+ jaspassions ( ) 
  jaspe ( ) 
- jaspent ( ) lemma=jasper 
- jaspera ( ) lemma=jasper 
- jasperai ( ) lemma=jasper 
- jasperaient ( ) lemma=jasper 
- jasperais ( ) lemma=jasper 
- jasperait ( ) lemma=jasper 
- jasperas ( ) lemma=jasper 
- jasperez ( ) lemma=jasper 
- jasperiez ( ) lemma=jasper 
- jasperions ( ) lemma=jasper 
- jasperons ( ) lemma=jasper 
- jasperont ( ) lemma=jasper 
- jaspes ( ) lemma=jaspe 
- jaspez ( ) lemma=jasper 
- jaspiez ( ) lemma=jasper 
+ jaspent ( ) 
+ jasper ( ) 
+ jaspera ( ) 
+ jasperai ( ) 
+ jasperaient ( ) 
+ jasperais ( ) 
+ jasperait ( ) 
+ jasperas ( ) 
+ jasperez ( ) 
+ jasperiez ( ) 
+ jasperions ( ) 
+ jasperons ( ) 
+ jasperont ( ) 
+ jaspes ( ) 
+ jaspez ( ) 
+ jaspiez ( ) 
  jaspin ( ) 
- jaspina ( ) lemma=jaspiner 
- jaspiner ( ) 
+ jaspina ( ) 
  jaspinage ( ) 
- jaspinages ( ) lemma=jaspinage 
- jaspinai ( ) lemma=jaspiner 
- jaspinaient ( ) lemma=jaspiner 
- jaspinais ( ) lemma=jaspiner 
- jaspinait ( ) lemma=jaspiner 
- jaspinant ( ) lemma=jaspiner 
- jaspinas ( ) lemma=jaspiner 
- jaspinasse ( ) lemma=jaspiner 
- jaspinassent ( ) lemma=jaspiner 
- jaspinasses ( ) lemma=jaspiner 
- jaspinassiez ( ) lemma=jaspiner 
- jaspinassions ( ) lemma=jaspiner 
- jaspine ( ) lemma=jaspiner 
- jaspinent ( ) lemma=jaspiner 
- jaspinera ( ) lemma=jaspiner 
- jaspinerai ( ) lemma=jaspiner 
- jaspineraient ( ) lemma=jaspiner 
- jaspinerais ( ) lemma=jaspiner 
- jaspinerait ( ) lemma=jaspiner 
- jaspineras ( ) lemma=jaspiner 
- jaspinerez ( ) lemma=jaspiner 
- jaspineriez ( ) lemma=jaspiner 
- jaspinerions ( ) lemma=jaspiner 
- jaspinerons ( ) lemma=jaspiner 
- jaspineront ( ) lemma=jaspiner 
- jaspines ( ) lemma=jaspiner 
+ jaspinages ( ) 
+ jaspinai ( ) 
+ jaspinaient ( ) 
+ jaspinais ( ) 
+ jaspinait ( ) 
+ jaspinant ( ) 
+ jaspinas ( ) 
+ jaspinasse ( ) 
+ jaspinassent ( ) 
+ jaspinasses ( ) 
+ jaspinassiez ( ) 
+ jaspinassions ( ) 
+ jaspine ( ) 
+ jaspinent ( ) 
+ jaspiner ( ) 
+ jaspinera ( ) 
+ jaspinerai ( ) 
+ jaspineraient ( ) 
+ jaspinerais ( ) 
+ jaspinerait ( ) 
+ jaspineras ( ) 
+ jaspinerez ( ) 
+ jaspineriez ( ) 
+ jaspinerions ( ) 
+ jaspinerons ( ) 
+ jaspineront ( ) 
+ jaspines ( ) 
  jaspineur ( ) 
- jaspineurs ( ) lemma=jaspineur 
- jaspineuse ( ) lemma=jaspineur 
- jaspineuses ( ) lemma=jaspineur 
- jaspinez ( ) lemma=jaspiner 
- jaspiniez ( ) lemma=jaspiner 
- jaspinions ( ) lemma=jaspiner 
- jaspinons ( ) lemma=jaspiner 
- jaspins ( ) lemma=jaspin 
- jaspinâmes ( ) lemma=jaspiner 
- jaspinât ( ) lemma=jaspiner 
- jaspinâtes ( ) lemma=jaspiner 
- jaspinèrent ( ) lemma=jaspiner 
- jaspiné ( ) lemma=jaspiner 
- jaspinée ( ) lemma=jaspiner 
- jaspinées ( ) lemma=jaspiner 
- jaspinés ( ) lemma=jaspiner 
- jaspions ( ) lemma=jasper 
+ jaspineurs ( ) 
+ jaspineuse ( ) 
+ jaspineuses ( ) 
+ jaspinez ( ) 
+ jaspiniez ( ) 
+ jaspinions ( ) 
+ jaspinons ( ) 
+ jaspins ( ) 
+ jaspinâmes ( ) 
+ jaspinât ( ) 
+ jaspinâtes ( ) 
+ jaspinèrent ( ) 
+ jaspiné ( ) 
+ jaspinée ( ) 
+ jaspinées ( ) 
+ jaspinés ( ) 
+ jaspions ( ) 
  jaspique ( ) 
- jaspiques ( ) lemma=jaspique 
- jaspons ( ) lemma=jasper 
+ jaspiques ( ) 
+ jaspons ( ) 
  jaspoïde ( ) 
- jaspoïdes ( ) lemma=jaspoïde 
+ jaspoïdes ( ) 
  jaspure ( ) 
- jaspures ( ) lemma=jaspure 
- jaspâmes ( ) lemma=jasper 
- jaspât ( ) lemma=jasper 
- jaspâtes ( ) lemma=jasper 
- jaspèrent ( ) lemma=jasper 
+ jaspures ( ) 
+ jaspâmes ( ) 
+ jaspât ( ) 
+ jaspâtes ( ) 
+ jaspèrent ( ) 
  jaspé ( ) 
- jaspée ( ) lemma=jaspé 
- jaspées ( ) lemma=jaspé 
- jaspés ( ) lemma=jaspé 
+ jaspée ( ) 
+ jaspées ( ) 
+ jaspés ( ) 
  jasserie ( ) 
- jasseries ( ) lemma=jasserie 
- jasâmes ( ) lemma=jaser 
- jasât ( ) lemma=jaser 
- jasâtes ( ) lemma=jaser 
- jasèrent ( ) lemma=jaser 
- jasé ( ) lemma=jaser 
- jasée ( ) lemma=jaser 
- jasées ( ) lemma=jaser 
- jasés ( ) lemma=jaser 
+ jasseries ( ) 
+ jasâmes ( ) 
+ jasât ( ) 
+ jasâtes ( ) 
+ jasèrent ( ) 
+ jasé ( ) 
+ jasée ( ) 
+ jasées ( ) 
+ jasés ( ) 
  jato ( ) 
  jatrophe ( ) 
- jatrophes ( ) lemma=jatrophe 
+ jatrophes ( ) 
  jatte ( ) 
- jattes ( ) lemma=jatte 
+ jattes ( ) 
  jattée ( ) 
- jattées ( ) lemma=jattée 
+ jattées ( ) 
  jauge ( ) 
- jaugea ( ) lemma=jauger 
- jauger ( ) 
+ jaugea ( ) 
  jaugeage ( ) 
- jaugeages ( ) lemma=jaugeage 
- jaugeai ( ) lemma=jauger 
- jaugeaient ( ) lemma=jauger 
- jaugeais ( ) lemma=jauger 
- jaugeait ( ) lemma=jauger 
- jaugeant ( ) lemma=jauger 
- jaugeas ( ) lemma=jauger 
- jaugeasse ( ) lemma=jauger 
- jaugeassent ( ) lemma=jauger 
- jaugeasses ( ) lemma=jauger 
- jaugeassiez ( ) lemma=jauger 
- jaugeassions ( ) lemma=jauger 
- jaugent ( ) lemma=jauger 
- jaugeons ( ) lemma=jauger 
- jaugera ( ) lemma=jauger 
- jaugerai ( ) lemma=jauger 
- jaugeraient ( ) lemma=jauger 
- jaugerais ( ) lemma=jauger 
- jaugerait ( ) lemma=jauger 
- jaugeras ( ) lemma=jauger 
- jaugerez ( ) lemma=jauger 
- jaugeriez ( ) lemma=jauger 
- jaugerions ( ) lemma=jauger 
- jaugerons ( ) lemma=jauger 
- jaugeront ( ) lemma=jauger 
- jauges ( ) lemma=jauge 
+ jaugeages ( ) 
+ jaugeai ( ) 
+ jaugeaient ( ) 
+ jaugeais ( ) 
+ jaugeait ( ) 
+ jaugeant ( ) 
+ jaugeas ( ) 
+ jaugeasse ( ) 
+ jaugeassent ( ) 
+ jaugeasses ( ) 
+ jaugeassiez ( ) 
+ jaugeassions ( ) 
+ jaugent ( ) 
+ jaugeons ( ) 
+ jauger ( ) 
+ jaugera ( ) 
+ jaugerai ( ) 
+ jaugeraient ( ) 
+ jaugerais ( ) 
+ jaugerait ( ) 
+ jaugeras ( ) 
+ jaugerez ( ) 
+ jaugeriez ( ) 
+ jaugerions ( ) 
+ jaugerons ( ) 
+ jaugeront ( ) 
+ jauges ( ) 
  jaugette ( ) 
- jaugettes ( ) lemma=jaugette 
+ jaugettes ( ) 
  jaugeur ( ) 
- jaugeurs ( ) lemma=jaugeur 
- jaugez ( ) lemma=jauger 
- jaugeâmes ( ) lemma=jauger 
- jaugeât ( ) lemma=jauger 
- jaugeâtes ( ) lemma=jauger 
- jaugiez ( ) lemma=jauger 
- jaugions ( ) lemma=jauger 
+ jaugeurs ( ) 
+ jaugez ( ) 
+ jaugeâmes ( ) 
+ jaugeât ( ) 
+ jaugeâtes ( ) 
+ jaugiez ( ) 
+ jaugions ( ) 
  jaugue ( ) 
- jaugues ( ) lemma=jaugue 
- jaugèrent ( ) lemma=jauger 
- jaugé ( ) lemma=jauger 
- jaugée ( ) lemma=jauger 
- jaugées ( ) lemma=jauger 
- jaugés ( ) lemma=jauger 
+ jaugues ( ) 
+ jaugèrent ( ) 
+ jaugé ( ) 
+ jaugée ( ) 
+ jaugées ( ) 
+ jaugés ( ) 
  jaumière ( ) 
- jaumières ( ) lemma=jaumière 
+ jaumières ( ) 
  jaunasse ( ) 
- jaunasses ( ) lemma=jaunasse 
+ jaunasses ( ) 
  jaune ( ) 
  jauneau ( ) 
- jauneaux ( ) lemma=jauneau 
- jaunes ( ) lemma=jaune 
+ jauneaux ( ) 
+ jaunes ( ) 
  jaunet ( ) 
- jaunets ( ) lemma=jaunet 
- jaunette ( ) lemma=jaunet 
- jaunettes ( ) lemma=jaunet 
- jauni ( ) lemma=jaunir 
+ jaunets ( ) 
+ jaunette ( ) 
+ jaunettes ( ) 
+ jauni ( ) 
+ jaunie ( ) 
+ jaunies ( ) 
  jaunir ( ) 
- jaunie ( ) lemma=jaunir 
- jaunies ( ) lemma=jaunir 
- jaunira ( ) lemma=jaunir 
- jaunirai ( ) lemma=jaunir 
- jauniraient ( ) lemma=jaunir 
- jaunirais ( ) lemma=jaunir 
- jaunirait ( ) lemma=jaunir 
- jauniras ( ) lemma=jaunir 
- jaunirent ( ) lemma=jaunir 
- jaunirez ( ) lemma=jaunir 
- jauniriez ( ) lemma=jaunir 
- jaunirions ( ) lemma=jaunir 
- jaunirons ( ) lemma=jaunir 
- jauniront ( ) lemma=jaunir 
- jaunis ( ) lemma=jaunir 
+ jaunira ( ) 
+ jaunirai ( ) 
+ jauniraient ( ) 
+ jaunirais ( ) 
+ jaunirait ( ) 
+ jauniras ( ) 
+ jaunirent ( ) 
+ jaunirez ( ) 
+ jauniriez ( ) 
+ jaunirions ( ) 
+ jaunirons ( ) 
+ jauniront ( ) 
+ jaunis ( ) 
  jaunissage ( ) 
- jaunissages ( ) lemma=jaunissage 
- jaunissaient ( ) lemma=jaunir 
- jaunissais ( ) lemma=jaunir 
- jaunissait ( ) lemma=jaunir 
+ jaunissages ( ) 
+ jaunissaient ( ) 
+ jaunissais ( ) 
+ jaunissait ( ) 
  jaunissant ( ) 
- jaunissante ( ) lemma=jaunissant 
- jaunissantes ( ) lemma=jaunissant 
- jaunissants ( ) lemma=jaunissant 
+ jaunissante ( ) 
+ jaunissantes ( ) 
+ jaunissants ( ) 
  jaunisse ( ) 
  jaunissement ( ) 
- jaunissements ( ) lemma=jaunissement 
- jaunissent ( ) lemma=jaunir 
- jaunisses ( ) lemma=jaunisse 
- jaunissez ( ) lemma=jaunir 
- jaunissiez ( ) lemma=jaunir 
- jaunissions ( ) lemma=jaunir 
- jaunissons ( ) lemma=jaunir 
+ jaunissements ( ) 
+ jaunissent ( ) 
+ jaunisses ( ) 
+ jaunissez ( ) 
+ jaunissiez ( ) 
+ jaunissions ( ) 
+ jaunissons ( ) 
  jaunissure ( ) 
- jaunissures ( ) lemma=jaunissure 
- jaunit ( ) lemma=jaunir 
+ jaunissures ( ) 
+ jaunit ( ) 
  jaunotte ( ) 
- jaunottes ( ) lemma=jaunotte 
+ jaunottes ( ) 
  jaunâtre ( ) 
- jaunâtres ( ) lemma=jaunâtre 
+ jaunâtres ( ) 
  jaunée ( ) 
- jaunées ( ) lemma=jaunée 
- jaunîmes ( ) lemma=jaunir 
- jaunît ( ) lemma=jaunir 
- jaunîtes ( ) lemma=jaunir 
+ jaunées ( ) 
+ jaunîmes ( ) 
+ jaunît ( ) 
+ jaunîtes ( ) 
  jaurèsien ( ) 
- jaurèsienne ( ) lemma=jaurèsien 
- jaurèsiennes ( ) lemma=jaurèsien 
- jaurèsiens ( ) lemma=jaurèsien 
+ jaurèsienne ( ) 
+ jaurèsiennes ( ) 
+ jaurèsiens ( ) 
  jaurésiste ( ) 
- jaurésistes ( ) lemma=jaurésiste 
+ jaurésistes ( ) 
  java ( ) 
  javanais ( ) 
- javanaise ( ) lemma=javanais 
- javanaises ( ) lemma=javanais 
+ javanaise ( ) 
+ javanaises ( ) 
  javart ( ) 
- javarts ( ) lemma=javart 
- javas ( ) lemma=java 
+ javarts ( ) 
+ javas ( ) 
  javeau ( ) 
- javeaux ( ) lemma=javeau 
+ javeaux ( ) 
  javel ( ) 
- javela ( ) lemma=javeler 
- javeler ( ) 
+ javela ( ) 
  javelage ( ) 
- javelages ( ) lemma=javelage 
- javelai ( ) lemma=javeler 
- javelaient ( ) lemma=javeler 
- javelais ( ) lemma=javeler 
- javelait ( ) lemma=javeler 
- javelant ( ) lemma=javeler 
- javelas ( ) lemma=javeler 
- javelasse ( ) lemma=javeler 
- javelassent ( ) lemma=javeler 
- javelasses ( ) lemma=javeler 
- javelassiez ( ) lemma=javeler 
- javelassions ( ) lemma=javeler 
+ javelages ( ) 
+ javelai ( ) 
+ javelaient ( ) 
+ javelais ( ) 
+ javelait ( ) 
+ javelant ( ) 
+ javelas ( ) 
+ javelasse ( ) 
+ javelassent ( ) 
+ javelasses ( ) 
+ javelassiez ( ) 
+ javelassions ( ) 
+ javeler ( ) 
  javeleur ( ) 
- javeleurs ( ) lemma=javeleur 
- javeleuse ( ) lemma=javeleur 
- javeleuses ( ) lemma=javeleur 
- javelez ( ) lemma=javeler 
- javeliez ( ) lemma=javeler 
+ javeleurs ( ) 
+ javeleuse ( ) 
+ javeleuses ( ) 
+ javelez ( ) 
+ javeliez ( ) 
  javeline ( ) 
- javelines ( ) lemma=javeline 
- javelions ( ) lemma=javeler 
+ javelines ( ) 
+ javelions ( ) 
  javelle ( ) 
- javellent ( ) lemma=javeler 
- javellera ( ) lemma=javeler 
- javellerai ( ) lemma=javeler 
- javelleraient ( ) lemma=javeler 
- javellerais ( ) lemma=javeler 
- javellerait ( ) lemma=javeler 
- javelleras ( ) lemma=javeler 
- javellerez ( ) lemma=javeler 
- javelleriez ( ) lemma=javeler 
- javellerions ( ) lemma=javeler 
- javellerons ( ) lemma=javeler 
- javelleront ( ) lemma=javeler 
- javelles ( ) lemma=javelle 
- javellisa ( ) lemma=javelliser 
- javelliser ( ) 
- javellisai ( ) lemma=javelliser 
- javellisaient ( ) lemma=javelliser 
- javellisais ( ) lemma=javelliser 
- javellisait ( ) lemma=javelliser 
- javellisant ( ) lemma=javelliser 
- javellisas ( ) lemma=javelliser 
- javellisasse ( ) lemma=javelliser 
- javellisassent ( ) lemma=javelliser 
- javellisasses ( ) lemma=javelliser 
- javellisassiez ( ) lemma=javelliser 
- javellisassions ( ) lemma=javelliser 
+ javellent ( ) 
+ javellera ( ) 
+ javellerai ( ) 
+ javelleraient ( ) 
+ javellerais ( ) 
+ javellerait ( ) 
+ javelleras ( ) 
+ javellerez ( ) 
+ javelleriez ( ) 
+ javellerions ( ) 
+ javellerons ( ) 
+ javelleront ( ) 
+ javelles ( ) 
+ javellisa ( ) 
+ javellisai ( ) 
+ javellisaient ( ) 
+ javellisais ( ) 
+ javellisait ( ) 
+ javellisant ( ) 
+ javellisas ( ) 
+ javellisasse ( ) 
+ javellisassent ( ) 
+ javellisasses ( ) 
+ javellisassiez ( ) 
+ javellisassions ( ) 
  javellisation ( ) 
- javellisations ( ) lemma=javellisation 
- javellise ( ) lemma=javelliser 
- javellisent ( ) lemma=javelliser 
- javellisera ( ) lemma=javelliser 
- javelliserai ( ) lemma=javelliser 
- javelliseraient ( ) lemma=javelliser 
- javelliserais ( ) lemma=javelliser 
- javelliserait ( ) lemma=javelliser 
- javelliseras ( ) lemma=javelliser 
- javelliserez ( ) lemma=javelliser 
- javelliseriez ( ) lemma=javelliser 
- javelliserions ( ) lemma=javelliser 
- javelliserons ( ) lemma=javelliser 
- javelliseront ( ) lemma=javelliser 
- javellises ( ) lemma=javelliser 
- javellisez ( ) lemma=javelliser 
- javellisiez ( ) lemma=javelliser 
- javellisions ( ) lemma=javelliser 
- javellisons ( ) lemma=javelliser 
- javellisâmes ( ) lemma=javelliser 
- javellisât ( ) lemma=javelliser 
- javellisâtes ( ) lemma=javelliser 
- javellisèrent ( ) lemma=javelliser 
- javellisé ( ) lemma=javelliser 
- javellisée ( ) lemma=javelliser 
- javellisées ( ) lemma=javelliser 
- javellisés ( ) lemma=javelliser 
- javelons ( ) lemma=javeler 
+ javellisations ( ) 
+ javellise ( ) 
+ javellisent ( ) 
+ javelliser ( ) 
+ javellisera ( ) 
+ javelliserai ( ) 
+ javelliseraient ( ) 
+ javelliserais ( ) 
+ javelliserait ( ) 
+ javelliseras ( ) 
+ javelliserez ( ) 
+ javelliseriez ( ) 
+ javelliserions ( ) 
+ javelliserons ( ) 
+ javelliseront ( ) 
+ javellises ( ) 
+ javellisez ( ) 
+ javellisiez ( ) 
+ javellisions ( ) 
+ javellisons ( ) 
+ javellisâmes ( ) 
+ javellisât ( ) 
+ javellisâtes ( ) 
+ javellisèrent ( ) 
+ javellisé ( ) 
+ javellisée ( ) 
+ javellisées ( ) 
+ javellisés ( ) 
+ javelons ( ) 
  javelot ( ) 
- javelots ( ) lemma=javelot 
+ javelots ( ) 
  javeloté ( ) 
- javelotée ( ) lemma=javeloté 
- javelotées ( ) lemma=javeloté 
- javelotés ( ) lemma=javeloté 
- javels ( ) lemma=javel 
- javelâmes ( ) lemma=javeler 
- javelât ( ) lemma=javeler 
- javelâtes ( ) lemma=javeler 
- javelèrent ( ) lemma=javeler 
- javelé ( ) lemma=javeler 
- javelée ( ) lemma=javeler 
- javelées ( ) lemma=javeler 
- javelés ( ) lemma=javeler 
+ javelotée ( ) 
+ javelotées ( ) 
+ javelotés ( ) 
+ javels ( ) 
+ javelâmes ( ) 
+ javelât ( ) 
+ javelâtes ( ) 
+ javelèrent ( ) 
+ javelé ( ) 
+ javelée ( ) 
+ javelées ( ) 
+ javelés ( ) 
  javotte ( ) 
- javottes ( ) lemma=javotte 
+ javottes ( ) 
  jayet ( ) 
- jayets ( ) lemma=jayet 
+ jayets ( ) 
  jazz ( ) 
- jazzifia ( ) lemma=jazzifier 
+ jazzifia ( ) 
+ jazzifiai ( ) 
+ jazzifiaient ( ) 
+ jazzifiais ( ) 
+ jazzifiait ( ) 
+ jazzifiant ( ) 
+ jazzifias ( ) 
+ jazzifiasse ( ) 
+ jazzifiassent ( ) 
+ jazzifiasses ( ) 
+ jazzifiassiez ( ) 
+ jazzifiassions ( ) 
+ jazzifie ( ) 
+ jazzifient ( ) 
  jazzifier ( ) 
- jazzifiai ( ) lemma=jazzifier 
- jazzifiaient ( ) lemma=jazzifier 
- jazzifiais ( ) lemma=jazzifier 
- jazzifiait ( ) lemma=jazzifier 
- jazzifiant ( ) lemma=jazzifier 
- jazzifias ( ) lemma=jazzifier 
- jazzifiasse ( ) lemma=jazzifier 
- jazzifiassent ( ) lemma=jazzifier 
- jazzifiasses ( ) lemma=jazzifier 
- jazzifiassiez ( ) lemma=jazzifier 
- jazzifiassions ( ) lemma=jazzifier 
- jazzifie ( ) lemma=jazzifier 
- jazzifient ( ) lemma=jazzifier 
- jazzifiera ( ) lemma=jazzifier 
- jazzifierai ( ) lemma=jazzifier 
- jazzifieraient ( ) lemma=jazzifier 
- jazzifierais ( ) lemma=jazzifier 
- jazzifierait ( ) lemma=jazzifier 
- jazzifieras ( ) lemma=jazzifier 
- jazzifierez ( ) lemma=jazzifier 
- jazzifieriez ( ) lemma=jazzifier 
- jazzifierions ( ) lemma=jazzifier 
- jazzifierons ( ) lemma=jazzifier 
- jazzifieront ( ) lemma=jazzifier 
- jazzifies ( ) lemma=jazzifier 
- jazzifiez ( ) lemma=jazzifier 
- jazzifiiez ( ) lemma=jazzifier 
- jazzifiions ( ) lemma=jazzifier 
- jazzifions ( ) lemma=jazzifier 
- jazzifiâmes ( ) lemma=jazzifier 
- jazzifiât ( ) lemma=jazzifier 
- jazzifiâtes ( ) lemma=jazzifier 
- jazzifièrent ( ) lemma=jazzifier 
- jazzifié ( ) lemma=jazzifier 
- jazzifiée ( ) lemma=jazzifier 
- jazzifiées ( ) lemma=jazzifier 
- jazzifiés ( ) lemma=jazzifier 
+ jazzifiera ( ) 
+ jazzifierai ( ) 
+ jazzifieraient ( ) 
+ jazzifierais ( ) 
+ jazzifierait ( ) 
+ jazzifieras ( ) 
+ jazzifierez ( ) 
+ jazzifieriez ( ) 
+ jazzifierions ( ) 
+ jazzifierons ( ) 
+ jazzifieront ( ) 
+ jazzifies ( ) 
+ jazzifiez ( ) 
+ jazzifiiez ( ) 
+ jazzifiions ( ) 
+ jazzifions ( ) 
+ jazzifiâmes ( ) 
+ jazzifiât ( ) 
+ jazzifiâtes ( ) 
+ jazzifièrent ( ) 
+ jazzifié ( ) 
+ jazzifiée ( ) 
+ jazzifiées ( ) 
+ jazzifiés ( ) 
  jazzique ( ) 
- jazziques ( ) lemma=jazzique 
+ jazziques ( ) 
  jazzistique ( ) 
- jazzistiques ( ) lemma=jazzistique 
+ jazzistiques ( ) 
  jazzman ( ) 
- jazzmans ( ) lemma=jazzman 
- jaïn ( ) 
+ jazzmans ( ) 
+ jaïn ( ) lemma=djaïn 
  jaïna ( ) 
- jaïnas ( ) lemma=jaïna 
- jaïnisme ( ) 
- jaïnismes ( ) lemma=jaïnisme 
+ jaïnas ( ) 
+ jaïnisme ( ) lemma=djaïnisme 
+ jaïnismes ( ) 
  jaïniste ( ) 
- jaïnistes ( ) lemma=jaïniste 
- jaïns ( ) lemma=jaïn 
+ jaïnistes ( ) 
+ jaïns ( ) 
  jdanovien ( ) 
- jdanovienne ( ) lemma=jdanovien 
- jdanoviennes ( ) lemma=jdanovien 
+ jdanovienne ( ) 
+ jdanoviennes ( ) 
+ jdanoviens ( ) 
  jdanovisme ( ) 
- jdanovismes ( ) lemma=jdanovisme 
+ jdanovismes ( ) 
+ je ( ) 
  je-m'en-fichisme ( ) 
- je-m'en-fichismes ( ) lemma=je-m'en-fichisme 
+ je-m'en-fichismes ( ) 
  je-m'en-fichiste ( ) 
- je-m'en-fichistes ( ) lemma=je-m'en-fichiste 
+ je-m'en-fichistes ( ) 
  je-m'en-foutisme ( ) 
- je-m'en-foutismes ( ) lemma=je-m'en-foutisme 
+ je-m'en-foutismes ( ) 
  je-m'en-foutiste ( ) 
- je-m'en-foutistes ( ) lemma=je-m'en-foutiste 
+ je-m'en-foutistes ( ) 
  je-ne-sais-quoi ( ) 
  jean ( ) 
  jean-fesse ( ) 
- jean-fesses ( ) lemma=jean-fesse 
+ jean-fesses ( ) 
  jean-foutre ( ) 
  jean-foutrerie ( ) 
- jean-foutreries ( ) lemma=jean-foutrerie 
+ jean-foutreries ( ) 
  jean-jean ( ) 
- jean-jeans ( ) lemma=jean-jean 
+ jean-jeans ( ) 
  jean-le-blanc ( ) 
  jeanjean ( ) 
- jeanjeans ( ) lemma=jeanjean 
+ jeanjeans ( ) 
  jeanneton ( ) 
- jeannetons ( ) lemma=jeanneton 
+ jeannetons ( ) 
  jeannette ( ) 
- jeannettes ( ) lemma=jeannette 
+ jeannettes ( ) 
  jeannot ( ) 
  jeannotisme ( ) 
- jeannotismes ( ) lemma=jeannotisme 
- jeannots ( ) lemma=jeannot 
- jeans ( ) lemma=jean|jeans 
- jean|jeans ( ) 
+ jeannotismes ( ) 
+ jeannots ( ) 
+ jeans ( ) 
  jectisse ( ) 
- jectisses ( ) lemma=jectisse 
+ jectisses ( ) 
  jeep ( ) 
- jeeps ( ) lemma=jeep 
+ jeeps ( ) 
  jeffersonnie ( ) 
- jeffersonnies ( ) lemma=jeffersonnie 
- jellaba ( ) 
- jellabas ( ) lemma=jellaba 
+ jeffersonnies ( ) 
+ jellaba ( ) lemma=djellaba 
+ jellabas ( ) 
  jenny ( ) 
- jennys ( ) lemma=jenny 
+ jennys ( ) 
  jennérien ( ) 
- jennérienne ( ) lemma=jennérien 
- jennériennes ( ) lemma=jennérien 
- jennériens ( ) lemma=jennérien 
+ jennérienne ( ) 
+ jennériennes ( ) 
+ jennériens ( ) 
  jerk ( ) 
- jerka ( ) lemma=jerker 
+ jerka ( ) 
+ jerkai ( ) 
+ jerkaient ( ) 
+ jerkais ( ) 
+ jerkait ( ) 
+ jerkant ( ) 
+ jerkas ( ) 
+ jerkasse ( ) 
+ jerkassent ( ) 
+ jerkasses ( ) 
+ jerkassiez ( ) 
+ jerkassions ( ) 
+ jerke ( ) 
+ jerkent ( ) 
  jerker ( ) 
- jerkai ( ) lemma=jerker 
- jerkaient ( ) lemma=jerker 
- jerkais ( ) lemma=jerker 
- jerkait ( ) lemma=jerker 
- jerkant ( ) lemma=jerker 
- jerkas ( ) lemma=jerker 
- jerkasse ( ) lemma=jerker 
- jerkassent ( ) lemma=jerker 
- jerkasses ( ) lemma=jerker 
- jerkassiez ( ) lemma=jerker 
- jerkassions ( ) lemma=jerker 
- jerke ( ) lemma=jerker 
- jerkent ( ) lemma=jerker 
- jerkera ( ) lemma=jerker 
- jerkerai ( ) lemma=jerker 
- jerkeraient ( ) lemma=jerker 
- jerkerais ( ) lemma=jerker 
- jerkerait ( ) lemma=jerker 
- jerkeras ( ) lemma=jerker 
- jerkerez ( ) lemma=jerker 
- jerkeriez ( ) lemma=jerker 
- jerkerions ( ) lemma=jerker 
- jerkerons ( ) lemma=jerker 
- jerkeront ( ) lemma=jerker 
- jerkes ( ) lemma=jerker 
+ jerkera ( ) 
+ jerkerai ( ) 
+ jerkeraient ( ) 
+ jerkerais ( ) 
+ jerkerait ( ) 
+ jerkeras ( ) 
+ jerkerez ( ) 
+ jerkeriez ( ) 
+ jerkerions ( ) 
+ jerkerons ( ) 
+ jerkeront ( ) 
+ jerkes ( ) 
  jerkeur ( ) 
- jerkeurs ( ) lemma=jerkeur 
- jerkeuse ( ) lemma=jerkeur 
- jerkeuses ( ) lemma=jerkeur 
- jerkez ( ) lemma=jerker 
- jerkiez ( ) lemma=jerker 
- jerkions ( ) lemma=jerker 
- jerkons ( ) lemma=jerker 
- jerks ( ) lemma=jerk 
- jerkâmes ( ) lemma=jerker 
- jerkât ( ) lemma=jerker 
- jerkâtes ( ) lemma=jerker 
- jerkèrent ( ) lemma=jerker 
- jerké ( ) lemma=jerker 
- jerkée ( ) lemma=jerker 
- jerkées ( ) lemma=jerker 
- jerkés ( ) lemma=jerker 
+ jerkeurs ( ) 
+ jerkeuse ( ) 
+ jerkeuses ( ) 
+ jerkez ( ) 
+ jerkiez ( ) 
+ jerkions ( ) 
+ jerkons ( ) 
+ jerks ( ) 
+ jerkâmes ( ) 
+ jerkât ( ) 
+ jerkâtes ( ) 
+ jerkèrent ( ) 
+ jerké ( ) 
+ jerkée ( ) 
+ jerkées ( ) 
+ jerkés ( ) 
  jerrican ( ) 
- jerricans ( ) lemma=jerrican 
+ jerricans ( ) 
  jerrycan ( ) 
- jerrycans ( ) lemma=jerrycan 
+ jerrycans ( ) 
  jersey ( ) 
- jerseys ( ) lemma=jersey 
+ jerseys ( ) 
  jersiais ( ) 
- jersiaise ( ) lemma=jersiais 
- jersiaises ( ) lemma=jersiais 
+ jersiaise ( ) 
+ jersiaises ( ) 
  jervine ( ) 
- jervines ( ) lemma=jervine 
+ jervines ( ) 
  jet ( ) 
  jet-stream ( ) 
- jet-streams ( ) lemma=jet-stream 
- jeta ( ) lemma=jeter 
- jeter ( ) 
+ jet-streams ( ) 
+ jeta ( ) 
  jetable ( ) 
- jetables ( ) lemma=jetable 
+ jetables ( ) 
  jetage ( ) 
- jetages ( ) lemma=jetage 
- jetai ( ) lemma=jeter 
- jetaient ( ) lemma=jeter 
- jetais ( ) lemma=jeter 
- jetait ( ) lemma=jeter 
- jetant ( ) lemma=jeter 
- jetas ( ) lemma=jeter 
- jetasse ( ) lemma=jeter 
- jetassent ( ) lemma=jeter 
- jetasses ( ) lemma=jeter 
- jetassiez ( ) lemma=jeter 
- jetassions ( ) lemma=jeter 
+ jetages ( ) 
+ jetai ( ) 
+ jetaient ( ) 
+ jetais ( ) 
+ jetait ( ) 
+ jetant ( ) 
+ jetas ( ) 
+ jetasse ( ) 
+ jetassent ( ) 
+ jetasses ( ) 
+ jetassiez ( ) 
+ jetassions ( ) 
+ jeter ( ) 
  jeteur ( ) 
- jeteurs ( ) lemma=jeteur 
- jeteuse ( ) lemma=jeteur 
- jeteuses ( ) lemma=jeteur 
- jetez ( ) lemma=jeter 
- jetiez ( ) lemma=jeter 
- jetions ( ) lemma=jeter 
+ jeteurs ( ) 
+ jeteuse ( ) 
+ jeteuses ( ) 
+ jetez ( ) 
+ jetiez ( ) 
+ jetions ( ) 
  jetisse ( ) 
- jetisses ( ) lemma=jetisse 
+ jetisses ( ) 
  jeton ( ) 
  jetonnier ( ) 
- jetonniers ( ) lemma=jetonnier 
- jetons ( ) lemma=jeton 
- jets ( ) lemma=jet 
+ jetonniers ( ) 
+ jetons ( ) 
+ jets ( ) 
  jetset ( ) 
- jetsets ( ) lemma=jetset 
+ jetsets ( ) 
  jetsociety ( ) 
- jetsocietys ( ) lemma=jetsociety 
+ jetsocietys ( ) 
  jettatore ( ) 
- jettatores ( ) lemma=jettatore 
+ jettatores ( ) 
  jettatura ( ) 
- jettaturas ( ) lemma=jettatura 
- jette ( ) lemma=jeter 
- jettent ( ) lemma=jeter 
- jettera ( ) lemma=jeter 
- jetterai ( ) lemma=jeter 
- jetteraient ( ) lemma=jeter 
- jetterais ( ) lemma=jeter 
- jetterait ( ) lemma=jeter 
- jetteras ( ) lemma=jeter 
- jetterez ( ) lemma=jeter 
- jetteriez ( ) lemma=jeter 
- jetterions ( ) lemma=jeter 
- jetterons ( ) lemma=jeter 
- jetteront ( ) lemma=jeter 
- jettes ( ) lemma=jeter 
- jetâmes ( ) lemma=jeter 
- jetât ( ) lemma=jeter 
- jetâtes ( ) lemma=jeter 
- jetèrent ( ) lemma=jeter 
+ jettaturas ( ) 
+ jette ( ) 
+ jettent ( ) 
+ jettera ( ) 
+ jetterai ( ) 
+ jetteraient ( ) 
+ jetterais ( ) 
+ jetterait ( ) 
+ jetteras ( ) 
+ jetterez ( ) 
+ jetteriez ( ) 
+ jetterions ( ) 
+ jetterons ( ) 
+ jetteront ( ) 
+ jettes ( ) 
+ jetâmes ( ) 
+ jetât ( ) 
+ jetâtes ( ) 
+ jetèrent ( ) 
  jeté ( ) 
- jetée ( ) lemma=jeté 
- jetées ( ) lemma=jeté 
- jetés ( ) lemma=jeté 
+ jetée ( ) 
+ jetées ( ) 
+ jetés ( ) 
  jeu ( ) 
  jeudi ( ) 
- jeudis ( ) lemma=jeudi 
+ jeudis ( ) 
  jeun ( ) 
  jeune ( ) 
  jeune-france ( ) 
- jeune-frances ( ) lemma=jeune-france 
+ jeune-frances ( ) 
  jeune-turc ( ) 
- jeune-turcs ( ) lemma=jeune-turc 
+ jeune-turcs ( ) 
  jeunement ( ) 
- jeunes ( ) lemma=jeune 
+ jeunes ( ) 
  jeunesse ( ) 
- jeunesses ( ) lemma=jeunesse 
+ jeunesses ( ) 
  jeunet ( ) 
- jeunets ( ) lemma=jeunet 
- jeunette ( ) lemma=jeunet 
- jeunettes ( ) lemma=jeunet 
+ jeunets ( ) 
+ jeunette ( ) 
+ jeunettes ( ) 
  jeunisme ( ) 
- jeunismes ( ) lemma=jeunisme 
+ jeunismes ( ) 
  jeunot ( ) 
- jeunots ( ) lemma=jeunot 
- jeunotte ( ) lemma=jeunot 
- jeunottes ( ) lemma=jeunot 
- jeux ( ) lemma=jeu 
- jeûna ( ) lemma=jeûner 
- jeûner ( ) 
- jeûnai ( ) lemma=jeûner 
- jeûnaient ( ) lemma=jeûner 
- jeûnais ( ) lemma=jeûner 
- jeûnait ( ) lemma=jeûner 
- jeûnant ( ) lemma=jeûner 
- jeûnas ( ) lemma=jeûner 
- jeûnasse ( ) lemma=jeûner 
- jeûnassent ( ) lemma=jeûner 
- jeûnasses ( ) lemma=jeûner 
- jeûnassiez ( ) lemma=jeûner 
- jeûnassions ( ) lemma=jeûner 
+ jeunots ( ) 
+ jeunotte ( ) 
+ jeunottes ( ) 
+ jeux ( ) 
+ jeûna ( ) 
+ jeûnai ( ) 
+ jeûnaient ( ) 
+ jeûnais ( ) 
+ jeûnait ( ) 
+ jeûnant ( ) 
+ jeûnas ( ) 
+ jeûnasse ( ) 
+ jeûnassent ( ) 
+ jeûnasses ( ) 
+ jeûnassiez ( ) 
+ jeûnassions ( ) 
  jeûne ( ) 
- jeûnent ( ) lemma=jeûner 
- jeûnera ( ) lemma=jeûner 
- jeûnerai ( ) lemma=jeûner 
- jeûneraient ( ) lemma=jeûner 
- jeûnerais ( ) lemma=jeûner 
- jeûnerait ( ) lemma=jeûner 
- jeûneras ( ) lemma=jeûner 
- jeûnerez ( ) lemma=jeûner 
- jeûneriez ( ) lemma=jeûner 
- jeûnerions ( ) lemma=jeûner 
- jeûnerons ( ) lemma=jeûner 
- jeûneront ( ) lemma=jeûner 
- jeûnes ( ) lemma=jeûne 
+ jeûnent ( ) 
+ jeûner ( ) 
+ jeûnera ( ) 
+ jeûnerai ( ) 
+ jeûneraient ( ) 
+ jeûnerais ( ) 
+ jeûnerait ( ) 
+ jeûneras ( ) 
+ jeûnerez ( ) 
+ jeûneriez ( ) 
+ jeûnerions ( ) 
+ jeûnerons ( ) 
+ jeûneront ( ) 
+ jeûnes ( ) 
  jeûneur ( ) 
- jeûneurs ( ) lemma=jeûneur 
- jeûneuse ( ) lemma=jeûneur 
- jeûneuses ( ) lemma=jeûneur 
- jeûnez ( ) lemma=jeûner 
- jeûniez ( ) lemma=jeûner 
- jeûnions ( ) lemma=jeûner 
- jeûnons ( ) lemma=jeûner 
- jeûnâmes ( ) lemma=jeûner 
- jeûnât ( ) lemma=jeûner 
- jeûnâtes ( ) lemma=jeûner 
- jeûnèrent ( ) lemma=jeûner 
- jeûné ( ) lemma=jeûner 
- jeûnée ( ) lemma=jeûner 
- jeûnées ( ) lemma=jeûner 
- jeûnés ( ) lemma=jeûner 
+ jeûneurs ( ) 
+ jeûneuse ( ) 
+ jeûneuses ( ) 
+ jeûnez ( ) 
+ jeûniez ( ) 
+ jeûnions ( ) 
+ jeûnons ( ) 
+ jeûnâmes ( ) 
+ jeûnât ( ) 
+ jeûnâtes ( ) 
+ jeûnèrent ( ) 
+ jeûné ( ) 
+ jeûnée ( ) 
+ jeûnées ( ) 
+ jeûnés ( ) 
  jigger ( ) 
- jiggers ( ) lemma=jigger 
+ jiggers ( ) 
  jin-seng ( ) 
- jin-sengs ( ) lemma=jin-seng 
+ jin-sengs ( ) 
  jingle ( ) 
- jingles ( ) lemma=jingle 
+ jingles ( ) 
  jinglet ( ) 
- jinglets ( ) lemma=jinglet 
+ jinglets ( ) 
  jingo ( ) 
- jingos ( ) lemma=jingo 
+ jingos ( ) 
  jitter-bug ( ) 
- jitter-bugs ( ) lemma=jitter-bug 
+ jitter-bugs ( ) 
  jiu-jitsu ( ) 
- jiu-jitsus ( ) lemma=jiu-jitsu 
+ jiu-jitsus ( ) 
  joaillerie ( ) 
- joailleries ( ) lemma=joaillerie 
+ joailleries ( ) 
  joaillier ( ) 
- joailliers ( ) lemma=joaillier 
- joaillière ( ) lemma=joaillier 
- joaillières ( ) lemma=joaillier 
+ joailliers ( ) 
+ joaillière ( ) 
+ joaillières ( ) 
  joannite ( ) 
- joannites ( ) lemma=joannite 
+ joannites ( ) 
  job ( ) 
  jobard ( ) 
- jobarda ( ) lemma=jobarder 
- jobarder ( ) 
- jobardai ( ) lemma=jobarder 
- jobardaient ( ) lemma=jobarder 
- jobardais ( ) lemma=jobarder 
- jobardait ( ) lemma=jobarder 
- jobardant ( ) lemma=jobarder 
- jobardas ( ) lemma=jobarder 
- jobardasse ( ) lemma=jobarder 
- jobardassent ( ) lemma=jobarder 
- jobardasses ( ) lemma=jobarder 
- jobardassiez ( ) lemma=jobarder 
- jobardassions ( ) lemma=jobarder 
- jobarde ( ) lemma=jobard 
+ jobarda ( ) 
+ jobardai ( ) 
+ jobardaient ( ) 
+ jobardais ( ) 
+ jobardait ( ) 
+ jobardant ( ) 
+ jobardas ( ) 
+ jobardasse ( ) 
+ jobardassent ( ) 
+ jobardasses ( ) 
+ jobardassiez ( ) 
+ jobardassions ( ) 
+ jobarde ( ) 
  jobardement ( ) 
- jobardent ( ) lemma=jobarder 
- jobardera ( ) lemma=jobarder 
- jobarderai ( ) lemma=jobarder 
- jobarderaient ( ) lemma=jobarder 
- jobarderais ( ) lemma=jobarder 
- jobarderait ( ) lemma=jobarder 
- jobarderas ( ) lemma=jobarder 
- jobarderez ( ) lemma=jobarder 
+ jobardent ( ) 
+ jobarder ( ) 
+ jobardera ( ) 
+ jobarderai ( ) 
+ jobarderaient ( ) 
+ jobarderais ( ) 
+ jobarderait ( ) 
+ jobarderas ( ) 
+ jobarderez ( ) 
  jobarderie ( ) 
- jobarderies ( ) lemma=jobarderie 
- jobarderiez ( ) lemma=jobarder 
- jobarderions ( ) lemma=jobarder 
- jobarderons ( ) lemma=jobarder 
- jobarderont ( ) lemma=jobarder 
- jobardes ( ) lemma=jobard 
- jobardez ( ) lemma=jobarder 
- jobardiez ( ) lemma=jobarder 
- jobardions ( ) lemma=jobarder 
+ jobarderies ( ) 
+ jobarderiez ( ) 
+ jobarderions ( ) 
+ jobarderons ( ) 
+ jobarderont ( ) 
+ jobardes ( ) 
+ jobardez ( ) 
+ jobardiez ( ) 
+ jobardions ( ) 
  jobardise ( ) 
- jobardises ( ) lemma=jobardise 
- jobardons ( ) lemma=jobarder 
- jobards ( ) lemma=jobard 
- jobardâmes ( ) lemma=jobarder 
- jobardât ( ) lemma=jobarder 
- jobardâtes ( ) lemma=jobarder 
- jobardèrent ( ) lemma=jobarder 
- jobardé ( ) lemma=jobarder 
- jobardée ( ) lemma=jobarder 
- jobardées ( ) lemma=jobarder 
- jobardés ( ) lemma=jobarder 
+ jobardises ( ) 
+ jobardons ( ) 
+ jobards ( ) 
+ jobardâmes ( ) 
+ jobardât ( ) 
+ jobardâtes ( ) 
+ jobardèrent ( ) 
+ jobardé ( ) 
+ jobardée ( ) 
+ jobardées ( ) 
+ jobardés ( ) 
  jobelin ( ) 
- jobeline ( ) lemma=jobelin 
- jobelines ( ) lemma=jobelin 
- jobelins ( ) lemma=jobelin 
- jobs ( ) lemma=job 
+ jobeline ( ) 
+ jobelines ( ) 
+ jobelins ( ) 
+ jobs ( ) 
  jocasse ( ) 
- jocasses ( ) lemma=jocasse 
+ jocasses ( ) 
  jociste ( ) 
- jocistes ( ) lemma=jociste 
+ jocistes ( ) 
  jockey ( ) 
- jockeys ( ) lemma=jockey 
+ jockeys ( ) 
  jocko ( ) 
- jockos ( ) lemma=jocko 
+ jockos ( ) 
  joconde ( ) 
- jocondes ( ) lemma=joconde 
+ jocondes ( ) 
  jocothérapie ( ) 
- jocothérapies ( ) lemma=jocothérapie 
+ jocothérapies ( ) 
  jocrisse ( ) 
  jocrisserie ( ) 
- jocrisseries ( ) lemma=jocrisserie 
- jocrisses ( ) lemma=jocrisse 
+ jocrisseries ( ) 
+ jocrisses ( ) 
  jod ( ) 
  jodel ( ) 
- jodels ( ) lemma=jodel 
+ jodels ( ) 
  jodhpurs ( ) 
- jodla ( ) lemma=jodler 
+ jodla ( ) 
+ jodlai ( ) 
+ jodlaient ( ) 
+ jodlais ( ) 
+ jodlait ( ) 
+ jodlant ( ) 
+ jodlas ( ) 
+ jodlasse ( ) 
+ jodlassent ( ) 
+ jodlasses ( ) 
+ jodlassiez ( ) 
+ jodlassions ( ) 
+ jodle ( ) 
+ jodlent ( ) 
  jodler ( ) 
- jodlai ( ) lemma=jodler 
- jodlaient ( ) lemma=jodler 
- jodlais ( ) lemma=jodler 
- jodlait ( ) lemma=jodler 
- jodlant ( ) lemma=jodler 
- jodlas ( ) lemma=jodler 
- jodlasse ( ) lemma=jodler 
- jodlassent ( ) lemma=jodler 
- jodlasses ( ) lemma=jodler 
- jodlassiez ( ) lemma=jodler 
- jodlassions ( ) lemma=jodler 
- jodle ( ) lemma=jodler 
- jodlent ( ) lemma=jodler 
- jodlera ( ) lemma=jodler 
- jodlerai ( ) lemma=jodler 
- jodleraient ( ) lemma=jodler 
- jodlerais ( ) lemma=jodler 
- jodlerait ( ) lemma=jodler 
- jodleras ( ) lemma=jodler 
- jodlerez ( ) lemma=jodler 
- jodleriez ( ) lemma=jodler 
- jodlerions ( ) lemma=jodler 
- jodlerons ( ) lemma=jodler 
- jodleront ( ) lemma=jodler 
- jodles ( ) lemma=jodler 
+ jodlera ( ) 
+ jodlerai ( ) 
+ jodleraient ( ) 
+ jodlerais ( ) 
+ jodlerait ( ) 
+ jodleras ( ) 
+ jodlerez ( ) 
+ jodleriez ( ) 
+ jodlerions ( ) 
+ jodlerons ( ) 
+ jodleront ( ) 
+ jodles ( ) 
  jodleur ( ) 
- jodleurs ( ) lemma=jodleur 
- jodleuse ( ) lemma=jodleur 
- jodleuses ( ) lemma=jodleur 
- jodlez ( ) lemma=jodler 
- jodliez ( ) lemma=jodler 
- jodlions ( ) lemma=jodler 
- jodlons ( ) lemma=jodler 
- jodlâmes ( ) lemma=jodler 
- jodlât ( ) lemma=jodler 
- jodlâtes ( ) lemma=jodler 
- jodlèrent ( ) lemma=jodler 
- jodlé ( ) lemma=jodler 
+ jodleurs ( ) 
+ jodleuse ( ) 
+ jodleuses ( ) 
+ jodlez ( ) 
+ jodliez ( ) 
+ jodlions ( ) 
+ jodlons ( ) 
+ jodlâmes ( ) 
+ jodlât ( ) 
+ jodlâtes ( ) 
+ jodlèrent ( ) 
+ jodlé ( ) 
  jodlée ( ) 
- jodlées ( ) lemma=jodlée 
- jodlés ( ) lemma=jodler 
- jods ( ) lemma=jod 
- jogge ( ) lemma=jogger 
+ jodlées ( ) 
+ jodlés ( ) 
+ jods ( ) 
+ jogge ( ) 
+ joggea ( ) 
+ joggeai ( ) 
+ joggeaient ( ) 
+ joggeais ( ) 
+ joggeait ( ) 
+ joggeant ( ) 
+ joggeas ( ) 
+ joggeasse ( ) 
+ joggeassent ( ) 
+ joggeasses ( ) 
+ joggeassiez ( ) 
+ joggeassions ( ) 
+ joggent ( ) 
+ joggeons ( ) 
  jogger ( ) 
- joggea ( ) lemma=jogger 
- joggeai ( ) lemma=jogger 
- joggeaient ( ) lemma=jogger 
- joggeais ( ) lemma=jogger 
- joggeait ( ) lemma=jogger 
- joggeant ( ) lemma=jogger 
- joggeas ( ) lemma=jogger 
- joggeasse ( ) lemma=jogger 
- joggeassent ( ) lemma=jogger 
- joggeasses ( ) lemma=jogger 
- joggeassiez ( ) lemma=jogger 
- joggeassions ( ) lemma=jogger 
- joggent ( ) lemma=jogger 
- joggeons ( ) lemma=jogger 
- joggera ( ) lemma=jogger 
- joggerai ( ) lemma=jogger 
- joggeraient ( ) lemma=jogger 
- joggerais ( ) lemma=jogger 
- joggerait ( ) lemma=jogger 
- joggeras ( ) lemma=jogger 
- joggerez ( ) lemma=jogger 
- joggeriez ( ) lemma=jogger 
- joggerions ( ) lemma=jogger 
- joggerons ( ) lemma=jogger 
- joggeront ( ) lemma=jogger 
- jogges ( ) lemma=jogger 
+ joggera ( ) 
+ joggerai ( ) 
+ joggeraient ( ) 
+ joggerais ( ) 
+ joggerait ( ) 
+ joggeras ( ) 
+ joggerez ( ) 
+ joggeriez ( ) 
+ joggerions ( ) 
+ joggerons ( ) 
+ joggeront ( ) 
+ jogges ( ) 
  joggeur ( ) 
- joggeurs ( ) lemma=joggeur 
- joggeuse ( ) lemma=joggeur 
- joggeuses ( ) lemma=joggeur 
- joggez ( ) lemma=jogger 
- joggeâmes ( ) lemma=jogger 
- joggeât ( ) lemma=jogger 
- joggeâtes ( ) lemma=jogger 
- joggiez ( ) lemma=jogger 
+ joggeurs ( ) 
+ joggeuse ( ) 
+ joggeuses ( ) 
+ joggez ( ) 
+ joggeâmes ( ) 
+ joggeât ( ) 
+ joggeâtes ( ) 
+ joggiez ( ) 
  jogging ( ) 
- joggings ( ) lemma=jogging 
- joggions ( ) lemma=jogger 
- joggèrent ( ) lemma=jogger 
- joggé ( ) lemma=jogger 
- joggée ( ) lemma=jogger 
- joggées ( ) lemma=jogger 
- joggés ( ) lemma=jogger 
+ joggings ( ) 
+ joggions ( ) 
+ joggèrent ( ) 
+ joggé ( ) 
+ joggée ( ) 
+ joggées ( ) 
+ joggés ( ) 
  johannique ( ) 
- johanniques ( ) lemma=johannique 
+ johanniques ( ) 
  johannisberg ( ) 
- johannisbergs ( ) lemma=johannisberg 
+ johannisbergs ( ) 
  johannisme ( ) 
- johannismes ( ) lemma=johannisme 
+ johannismes ( ) 
  johannite ( ) 
- johannites ( ) lemma=johannite 
+ johannites ( ) 
  joie ( ) 
- joies ( ) lemma=joie 
- joignaient ( ) lemma=joindre 
- joindre ( ) 
- joignais ( ) lemma=joindre 
- joignait ( ) lemma=joindre 
+ joies ( ) 
+ joignaient ( ) 
+ joignais ( ) 
+ joignait ( ) 
  joignant ( ) 
- joignante ( ) lemma=joignant 
- joignantes ( ) lemma=joignant 
- joignants ( ) lemma=joignant 
- joigne ( ) lemma=joindre 
- joignent ( ) lemma=joindre 
- joignes ( ) lemma=joindre 
+ joignante ( ) 
+ joignantes ( ) 
+ joignants ( ) 
+ joigne ( ) 
+ joignent ( ) 
+ joignes ( ) 
  joigneur ( ) 
- joigneurs ( ) lemma=joigneur 
- joignez ( ) lemma=joindre 
- joigniez ( ) lemma=joindre 
- joignions ( ) lemma=joindre 
- joignirent ( ) lemma=joindre 
- joignis ( ) lemma=joindre 
- joignisse ( ) lemma=joindre 
- joignissent ( ) lemma=joindre 
- joignisses ( ) lemma=joindre 
- joignissiez ( ) lemma=joindre 
- joignissions ( ) lemma=joindre 
- joignit ( ) lemma=joindre 
- joignons ( ) lemma=joindre 
- joignîmes ( ) lemma=joindre 
- joignît ( ) lemma=joindre 
- joignîtes ( ) lemma=joindre 
- joindra ( ) lemma=joindre 
- joindrai ( ) lemma=joindre 
- joindraient ( ) lemma=joindre 
- joindrais ( ) lemma=joindre 
- joindrait ( ) lemma=joindre 
- joindras ( ) lemma=joindre 
- joindrez ( ) lemma=joindre 
- joindriez ( ) lemma=joindre 
- joindrions ( ) lemma=joindre 
- joindrons ( ) lemma=joindre 
- joindront ( ) lemma=joindre 
- joins ( ) lemma=joindre 
- joint ( ) 
- jointa ( ) lemma=jointer 
- jointer ( ) 
+ joigneurs ( ) 
+ joignez ( ) 
+ joigniez ( ) 
+ joignions ( ) 
+ joignirent ( ) 
+ joignis ( ) 
+ joignisse ( ) 
+ joignissent ( ) 
+ joignisses ( ) 
+ joignissiez ( ) 
+ joignissions ( ) 
+ joignit ( ) 
+ joignons ( ) 
+ joignîmes ( ) 
+ joignît ( ) 
+ joignîtes ( ) 
+ joindra ( ) 
+ joindrai ( ) 
+ joindraient ( ) 
+ joindrais ( ) 
+ joindrait ( ) 
+ joindras ( ) 
+ joindre ( ) 
+ joindrez ( ) 
+ joindriez ( ) 
+ joindrions ( ) 
+ joindrons ( ) 
+ joindront ( ) 
+ joins ( ) 
+ joint ( ) lemma=ajointer 
+ jointa ( ) lemma=ajointer 
  jointage ( ) 
- jointages ( ) lemma=jointage 
- jointai ( ) lemma=jointer 
- jointaient ( ) lemma=jointer 
- jointais ( ) lemma=jointer 
- jointait ( ) lemma=jointer 
- jointant ( ) lemma=jointer 
- jointas ( ) lemma=jointer 
- jointasse ( ) lemma=jointer 
- jointassent ( ) lemma=jointer 
- jointasses ( ) lemma=jointer 
- jointassiez ( ) lemma=jointer 
- jointassions ( ) lemma=jointer 
- jointe ( ) 
+ jointages ( ) 
+ jointai ( ) lemma=ajointer 
+ jointaient ( ) 
+ jointais ( ) 
+ jointait ( ) 
+ jointant ( ) 
+ jointas ( ) 
+ jointasse ( ) lemma=ajointer 
+ jointassent ( ) 
+ jointasses ( ) 
+ jointassiez ( ) 
+ jointassions ( ) 
+ jointe ( ) lemma=ajointer 
  jointement ( ) 
- jointements ( ) lemma=jointement 
- jointent ( ) lemma=jointer 
- jointera ( ) lemma=jointer 
- jointerai ( ) lemma=jointer 
- jointeraient ( ) lemma=jointer 
- jointerais ( ) lemma=jointer 
- jointerait ( ) lemma=jointer 
- jointeras ( ) lemma=jointer 
- jointerez ( ) lemma=jointer 
- jointeriez ( ) lemma=jointer 
- jointerions ( ) lemma=jointer 
- jointerons ( ) lemma=jointer 
- jointeront ( ) lemma=jointer 
- jointes ( ) lemma=jointe 
- jointez ( ) lemma=jointer 
- jointiez ( ) lemma=jointer 
+ jointements ( ) 
+ jointent ( ) 
+ jointer ( ) lemma=ajointer 
+ jointera ( ) lemma=ajointer 
+ jointerai ( ) lemma=ajointer 
+ jointeraient ( ) 
+ jointerais ( ) 
+ jointerait ( ) 
+ jointeras ( ) 
+ jointerez ( ) 
+ jointeriez ( ) 
+ jointerions ( ) 
+ jointerons ( ) 
+ jointeront ( ) 
+ jointes ( ) 
+ jointez ( ) 
+ jointiez ( ) 
  jointif ( ) 
- jointifs ( ) lemma=jointif 
- jointions ( ) lemma=jointer 
- jointive ( ) lemma=jointif 
+ jointifs ( ) 
+ jointions ( ) 
+ jointive ( ) 
  jointivement ( ) 
- jointives ( ) lemma=jointif 
- jointoie ( ) lemma=jointoyer 
- jointoyer ( ) 
+ jointives ( ) 
+ jointoie ( ) 
  jointoiement ( ) 
- jointoiements ( ) lemma=jointoiement 
- jointoient ( ) lemma=jointoyer 
- jointoiera ( ) lemma=jointoyer 
- jointoierai ( ) lemma=jointoyer 
- jointoieraient ( ) lemma=jointoyer 
- jointoierais ( ) lemma=jointoyer 
- jointoierait ( ) lemma=jointoyer 
- jointoieras ( ) lemma=jointoyer 
- jointoierez ( ) lemma=jointoyer 
- jointoieriez ( ) lemma=jointoyer 
- jointoierions ( ) lemma=jointoyer 
- jointoierons ( ) lemma=jointoyer 
- jointoieront ( ) lemma=jointoyer 
- jointoies ( ) lemma=jointoyer 
- jointons ( ) lemma=jointer 
- jointoya ( ) lemma=jointoyer 
- jointoyai ( ) lemma=jointoyer 
- jointoyaient ( ) lemma=jointoyer 
- jointoyais ( ) lemma=jointoyer 
- jointoyait ( ) lemma=jointoyer 
- jointoyant ( ) lemma=jointoyer 
- jointoyas ( ) lemma=jointoyer 
- jointoyasse ( ) lemma=jointoyer 
- jointoyassent ( ) lemma=jointoyer 
- jointoyasses ( ) lemma=jointoyer 
- jointoyassiez ( ) lemma=jointoyer 
- jointoyassions ( ) lemma=jointoyer 
+ jointoiements ( ) 
+ jointoient ( ) 
+ jointoiera ( ) 
+ jointoierai ( ) 
+ jointoieraient ( ) 
+ jointoierais ( ) 
+ jointoierait ( ) 
+ jointoieras ( ) 
+ jointoierez ( ) 
+ jointoieriez ( ) 
+ jointoierions ( ) 
+ jointoierons ( ) 
+ jointoieront ( ) 
+ jointoies ( ) 
+ jointons ( ) 
+ jointoya ( ) 
+ jointoyai ( ) 
+ jointoyaient ( ) 
+ jointoyais ( ) 
+ jointoyait ( ) 
+ jointoyant ( ) 
+ jointoyas ( ) 
+ jointoyasse ( ) 
+ jointoyassent ( ) 
+ jointoyasses ( ) 
+ jointoyassiez ( ) 
+ jointoyassions ( ) 
+ jointoyer ( ) 
  jointoyeur ( ) 
- jointoyeurs ( ) lemma=jointoyeur 
- jointoyez ( ) lemma=jointoyer 
- jointoyiez ( ) lemma=jointoyer 
- jointoyions ( ) lemma=jointoyer 
- jointoyons ( ) lemma=jointoyer 
- jointoyâmes ( ) lemma=jointoyer 
- jointoyât ( ) lemma=jointoyer 
- jointoyâtes ( ) lemma=jointoyer 
- jointoyèrent ( ) lemma=jointoyer 
- jointoyé ( ) lemma=jointoyer 
- jointoyée ( ) lemma=jointoyer 
- jointoyées ( ) lemma=jointoyer 
- jointoyés ( ) lemma=jointoyer 
- joints ( ) lemma=joint 
+ jointoyeurs ( ) 
+ jointoyez ( ) 
+ jointoyiez ( ) 
+ jointoyions ( ) 
+ jointoyons ( ) 
+ jointoyâmes ( ) 
+ jointoyât ( ) 
+ jointoyâtes ( ) 
+ jointoyèrent ( ) 
+ jointoyé ( ) 
+ jointoyée ( ) 
+ jointoyées ( ) 
+ jointoyés ( ) 
+ joints ( ) 
  jointure ( ) 
- jointures ( ) lemma=jointure 
- jointâmes ( ) lemma=jointer 
- jointât ( ) lemma=jointer 
- jointâtes ( ) lemma=jointer 
- jointèrent ( ) lemma=jointer 
- jointé ( ) 
- jointée ( ) lemma=jointé 
- jointées ( ) lemma=jointé 
- jointés ( ) lemma=jointé 
+ jointures ( ) 
+ jointâmes ( ) 
+ jointât ( ) 
+ jointâtes ( ) 
+ jointèrent ( ) 
+ jointé ( ) lemma=ajointer 
+ jointée ( ) lemma=ajointer 
+ jointées ( ) 
+ jointés ( ) 
  joisse ( ) 
- joisses ( ) lemma=joisse 
+ joisses ( ) 
  jojo ( ) 
- jojos ( ) lemma=jojo 
+ jojos ( ) 
  jokari ( ) 
- jokaris ( ) lemma=jokari 
+ jokaris ( ) 
  joker ( ) 
- jokers ( ) lemma=joker 
+ jokers ( ) 
  joli ( ) 
  jolibois ( ) 
- jolie ( ) lemma=joli 
- jolies ( ) lemma=joli 
+ jolie ( ) 
+ jolies ( ) 
  joliesse ( ) 
- joliesses ( ) lemma=joliesse 
+ joliesses ( ) 
  joliet ( ) 
- joliets ( ) lemma=joliet 
- joliette ( ) lemma=joliet 
- joliettes ( ) lemma=joliet 
+ joliets ( ) 
+ joliette ( ) 
+ joliettes ( ) 
  joliment ( ) 
- jolis ( ) lemma=joli 
+ jolis ( ) 
  jolité ( ) 
- jolités ( ) lemma=jolité 
+ jolités ( ) 
  joliveté ( ) 
- jolivetés ( ) lemma=joliveté 
- jonc ( ) 
+ jolivetés ( ) 
+ jonc ( ) lemma=ajonc 
  joncacées ( ) 
  joncaille ( ) 
- joncailles ( ) lemma=joncaille 
- jonce ( ) lemma=joncer 
+ joncailles ( ) 
+ jonce ( ) 
+ joncent ( ) 
  joncer ( ) 
- joncent ( ) lemma=joncer 
- joncera ( ) lemma=joncer 
- joncerai ( ) lemma=joncer 
- jonceraient ( ) lemma=joncer 
- joncerais ( ) lemma=joncer 
- joncerait ( ) lemma=joncer 
- jonceras ( ) lemma=joncer 
- joncerez ( ) lemma=joncer 
- jonceriez ( ) lemma=joncer 
- joncerions ( ) lemma=joncer 
- joncerons ( ) lemma=joncer 
- jonceront ( ) lemma=joncer 
- jonces ( ) lemma=joncer 
- jonceuse ( ) lemma=jonceux 
+ joncera ( ) 
+ joncerai ( ) 
+ jonceraient ( ) 
+ joncerais ( ) 
+ joncerait ( ) 
+ jonceras ( ) 
+ joncerez ( ) 
+ jonceriez ( ) 
+ joncerions ( ) 
+ joncerons ( ) 
+ jonceront ( ) 
+ jonces ( ) 
+ jonceuse ( ) 
+ jonceuses ( ) 
  jonceux ( ) 
- jonceuses ( ) lemma=jonceux 
- joncez ( ) lemma=joncer 
- joncha ( ) lemma=joncher 
- joncher ( ) 
- jonchai ( ) lemma=joncher 
+ joncez ( ) 
+ joncha ( ) 
+ jonchai ( ) 
  jonchaie ( ) 
- jonchaient ( ) lemma=joncher 
- jonchaies ( ) lemma=jonchaie 
- jonchais ( ) lemma=joncher 
- jonchait ( ) lemma=joncher 
- jonchant ( ) lemma=joncher 
- jonchas ( ) lemma=joncher 
- jonchasse ( ) lemma=joncher 
- jonchassent ( ) lemma=joncher 
- jonchasses ( ) lemma=joncher 
- jonchassiez ( ) lemma=joncher 
- jonchassions ( ) lemma=joncher 
- jonche ( ) lemma=joncher 
+ jonchaient ( ) 
+ jonchaies ( ) 
+ jonchais ( ) 
+ jonchait ( ) 
+ jonchant ( ) 
+ jonchas ( ) 
+ jonchasse ( ) 
+ jonchassent ( ) 
+ jonchasses ( ) 
+ jonchassiez ( ) 
+ jonchassions ( ) 
+ jonche ( ) 
  jonchement ( ) 
- jonchements ( ) lemma=jonchement 
- jonchent ( ) lemma=joncher 
- jonchera ( ) lemma=joncher 
- joncherai ( ) lemma=joncher 
+ jonchements ( ) 
+ jonchent ( ) 
+ joncher ( ) 
+ jonchera ( ) 
+ joncherai ( ) 
  joncheraie ( ) 
- joncheraient ( ) lemma=joncher 
- joncheraies ( ) lemma=joncheraie 
- joncherais ( ) lemma=joncher 
- joncherait ( ) lemma=joncher 
- joncheras ( ) lemma=joncher 
- joncherez ( ) lemma=joncher 
- joncheriez ( ) lemma=joncher 
- joncherions ( ) lemma=joncher 
- joncherons ( ) lemma=joncher 
- joncheront ( ) lemma=joncher 
- jonches ( ) lemma=joncher 
+ joncheraient ( ) 
+ joncheraies ( ) 
+ joncherais ( ) 
+ joncherait ( ) 
+ joncheras ( ) 
+ joncherez ( ) 
+ joncheriez ( ) 
+ joncherions ( ) 
+ joncherons ( ) 
+ joncheront ( ) 
+ jonches ( ) 
  jonchet ( ) 
- jonchets ( ) lemma=jonchet 
- jonchez ( ) lemma=joncher 
- jonchiez ( ) lemma=joncher 
- jonchions ( ) lemma=joncher 
- jonchons ( ) lemma=joncher 
- jonchâmes ( ) lemma=joncher 
- jonchât ( ) lemma=joncher 
- jonchâtes ( ) lemma=joncher 
+ jonchets ( ) 
+ jonchez ( ) 
+ jonchiez ( ) 
+ jonchions ( ) 
+ jonchons ( ) 
+ jonchâmes ( ) 
+ jonchât ( ) 
+ jonchâtes ( ) 
  jonchère ( ) 
- jonchèrent ( ) lemma=joncher 
- jonchères ( ) lemma=jonchère 
+ jonchèrent ( ) 
+ jonchères ( ) 
  jonché ( ) 
- jonchée ( ) lemma=jonché 
- jonchées ( ) lemma=jonché 
- jonchés ( ) lemma=jonché 
- jonciez ( ) lemma=joncer 
- joncions ( ) lemma=joncer 
- joncs ( ) lemma=jonc 
+ jonchée ( ) 
+ jonchées ( ) 
+ jonchés ( ) 
+ jonciez ( ) 
+ joncions ( ) 
+ joncs ( ) 
  jonctif ( ) 
- jonctifs ( ) lemma=jonctif 
+ jonctifs ( ) 
  jonction ( ) 
- jonctions ( ) lemma=jonction 
- jonctive ( ) lemma=jonctif 
- jonctives ( ) lemma=jonctif 
+ jonctions ( ) 
+ jonctive ( ) 
+ jonctives ( ) 
  joncture ( ) 
- jonctures ( ) lemma=joncture 
- joncèrent ( ) lemma=joncer 
- joncé ( ) lemma=joncer 
- joncée ( ) lemma=joncer 
- joncées ( ) lemma=joncer 
- joncés ( ) lemma=joncer 
- jongla ( ) lemma=jongler 
- jongler ( ) 
+ jonctures ( ) 
+ joncèrent ( ) 
+ joncé ( ) 
+ joncée ( ) 
+ joncées ( ) 
+ joncés ( ) 
+ jongla ( ) 
  jonglage ( ) 
- jonglages ( ) lemma=jonglage 
- jonglai ( ) lemma=jongler 
- jonglaient ( ) lemma=jongler 
- jonglais ( ) lemma=jongler 
- jonglait ( ) lemma=jongler 
- jonglant ( ) lemma=jongler 
- jonglas ( ) lemma=jongler 
- jonglasse ( ) lemma=jongler 
- jonglassent ( ) lemma=jongler 
- jonglasses ( ) lemma=jongler 
- jonglassiez ( ) lemma=jongler 
- jonglassions ( ) lemma=jongler 
- jongle ( ) lemma=jongler 
- jonglent ( ) lemma=jongler 
- jonglera ( ) lemma=jongler 
- jonglerai ( ) lemma=jongler 
- jongleraient ( ) lemma=jongler 
- jonglerais ( ) lemma=jongler 
- jonglerait ( ) lemma=jongler 
- jongleras ( ) lemma=jongler 
- jonglerez ( ) lemma=jongler 
+ jonglages ( ) 
+ jonglai ( ) 
+ jonglaient ( ) 
+ jonglais ( ) 
+ jonglait ( ) 
+ jonglant ( ) 
+ jonglas ( ) 
+ jonglasse ( ) 
+ jonglassent ( ) 
+ jonglasses ( ) 
+ jonglassiez ( ) 
+ jonglassions ( ) 
+ jongle ( ) 
+ jonglent ( ) 
+ jongler ( ) 
+ jonglera ( ) 
+ jonglerai ( ) 
+ jongleraient ( ) 
+ jonglerais ( ) 
+ jonglerait ( ) 
+ jongleras ( ) 
+ jonglerez ( ) 
  jonglerie ( ) 
- jongleries ( ) lemma=jonglerie 
- jongleriez ( ) lemma=jongler 
- jonglerions ( ) lemma=jongler 
- jonglerons ( ) lemma=jongler 
- jongleront ( ) lemma=jongler 
- jongles ( ) lemma=jongler 
+ jongleries ( ) 
+ jongleriez ( ) 
+ jonglerions ( ) 
+ jonglerons ( ) 
+ jongleront ( ) 
+ jongles ( ) 
  jongleur ( ) 
- jongleurs ( ) lemma=jongleur 
- jongleuse ( ) lemma=jongleur 
- jongleuses ( ) lemma=jongleur 
- jonglez ( ) lemma=jongler 
- jongliez ( ) lemma=jongler 
- jonglions ( ) lemma=jongler 
- jonglons ( ) lemma=jongler 
- jonglâmes ( ) lemma=jongler 
- jonglât ( ) lemma=jongler 
- jonglâtes ( ) lemma=jongler 
- jonglèrent ( ) lemma=jongler 
- jonglé ( ) lemma=jongler 
- jonglée ( ) lemma=jongler 
- jonglées ( ) lemma=jongler 
- jonglés ( ) lemma=jongler 
+ jongleurs ( ) 
+ jongleuse ( ) 
+ jongleuses ( ) 
+ jonglez ( ) 
+ jongliez ( ) 
+ jonglions ( ) 
+ jonglons ( ) 
+ jonglâmes ( ) 
+ jonglât ( ) 
+ jonglâtes ( ) 
+ jonglèrent ( ) 
+ jonglé ( ) 
+ jonglée ( ) 
+ jonglées ( ) 
+ jonglés ( ) 
  jonkheer ( ) 
- jonkheers ( ) lemma=jonkheer 
+ jonkheers ( ) 
  jonque ( ) 
- jonques ( ) lemma=jonque 
+ jonques ( ) 
  jonquille ( ) 
- jonquilles ( ) lemma=jonquille 
- jonça ( ) lemma=joncer 
- jonçai ( ) lemma=joncer 
- jonçaient ( ) lemma=joncer 
- jonçais ( ) lemma=joncer 
- jonçait ( ) lemma=joncer 
- jonçant ( ) lemma=joncer 
- jonças ( ) lemma=joncer 
- jonçasse ( ) lemma=joncer 
- jonçassent ( ) lemma=joncer 
- jonçasses ( ) lemma=joncer 
- jonçassiez ( ) lemma=joncer 
- jonçassions ( ) lemma=joncer 
- jonçons ( ) lemma=joncer 
- jonçâmes ( ) lemma=joncer 
- jonçât ( ) lemma=joncer 
- jonçâtes ( ) lemma=joncer 
+ jonquilles ( ) 
+ jonça ( ) 
+ jonçai ( ) 
+ jonçaient ( ) 
+ jonçais ( ) 
+ jonçait ( ) 
+ jonçant ( ) 
+ jonças ( ) 
+ jonçasse ( ) 
+ jonçassent ( ) 
+ jonçasses ( ) 
+ jonçassiez ( ) 
+ jonçassions ( ) 
+ jonçons ( ) 
+ jonçâmes ( ) 
+ jonçât ( ) 
+ jonçâtes ( ) 
  joran ( ) 
- jorans ( ) lemma=joran 
+ jorans ( ) 
  jordanesque ( ) 
- jordanesques ( ) lemma=jordanesque 
+ jordanesques ( ) 
  jordanien ( ) 
- jordanienne ( ) lemma=jordanien 
- jordaniennes ( ) lemma=jordanien 
- jordaniens ( ) lemma=jordanien 
+ jordanienne ( ) 
+ jordaniennes ( ) 
+ jordaniens ( ) 
  jordanon ( ) 
- jordanons ( ) lemma=jordanon 
- jordonna ( ) lemma=jordonner 
+ jordanons ( ) 
+ jordonna ( ) 
+ jordonnai ( ) 
+ jordonnaient ( ) 
+ jordonnais ( ) 
+ jordonnait ( ) 
+ jordonnant ( ) 
+ jordonnas ( ) 
+ jordonnasse ( ) 
+ jordonnassent ( ) 
+ jordonnasses ( ) 
+ jordonnassiez ( ) 
+ jordonnassions ( ) 
+ jordonne ( ) 
+ jordonnent ( ) 
  jordonner ( ) 
- jordonnai ( ) lemma=jordonner 
- jordonnaient ( ) lemma=jordonner 
- jordonnais ( ) lemma=jordonner 
- jordonnait ( ) lemma=jordonner 
- jordonnant ( ) lemma=jordonner 
- jordonnas ( ) lemma=jordonner 
- jordonnasse ( ) lemma=jordonner 
- jordonnassent ( ) lemma=jordonner 
- jordonnasses ( ) lemma=jordonner 
- jordonnassiez ( ) lemma=jordonner 
- jordonnassions ( ) lemma=jordonner 
- jordonne ( ) lemma=jordonner 
- jordonnent ( ) lemma=jordonner 
- jordonnera ( ) lemma=jordonner 
- jordonnerai ( ) lemma=jordonner 
- jordonneraient ( ) lemma=jordonner 
- jordonnerais ( ) lemma=jordonner 
- jordonnerait ( ) lemma=jordonner 
- jordonneras ( ) lemma=jordonner 
- jordonnerez ( ) lemma=jordonner 
- jordonneriez ( ) lemma=jordonner 
- jordonnerions ( ) lemma=jordonner 
- jordonnerons ( ) lemma=jordonner 
- jordonneront ( ) lemma=jordonner 
- jordonnes ( ) lemma=jordonner 
- jordonnez ( ) lemma=jordonner 
- jordonniez ( ) lemma=jordonner 
- jordonnions ( ) lemma=jordonner 
- jordonnons ( ) lemma=jordonner 
- jordonnâmes ( ) lemma=jordonner 
- jordonnât ( ) lemma=jordonner 
- jordonnâtes ( ) lemma=jordonner 
- jordonnèrent ( ) lemma=jordonner 
- jordonné ( ) lemma=jordonner 
- jordonnée ( ) lemma=jordonner 
- jordonnées ( ) lemma=jordonner 
- jordonnés ( ) lemma=jordonner 
+ jordonnera ( ) 
+ jordonnerai ( ) 
+ jordonneraient ( ) 
+ jordonnerais ( ) 
+ jordonnerait ( ) 
+ jordonneras ( ) 
+ jordonnerez ( ) 
+ jordonneriez ( ) 
+ jordonnerions ( ) 
+ jordonnerons ( ) 
+ jordonneront ( ) 
+ jordonnes ( ) 
+ jordonnez ( ) 
+ jordonniez ( ) 
+ jordonnions ( ) 
+ jordonnons ( ) 
+ jordonnâmes ( ) 
+ jordonnât ( ) 
+ jordonnâtes ( ) 
+ jordonnèrent ( ) 
+ jordonné ( ) 
+ jordonnée ( ) 
+ jordonnées ( ) 
+ jordonnés ( ) 
  joruri ( ) 
- joruris ( ) lemma=joruri 
+ joruris ( ) 
  joseph ( ) 
- josephs ( ) lemma=joseph 
+ josephs ( ) 
  joséphine ( ) 
- joséphines ( ) lemma=joséphine 
+ joséphines ( ) 
  joséphisme ( ) 
- joséphismes ( ) lemma=joséphisme 
+ joséphismes ( ) 
  jota ( ) 
- jotas ( ) lemma=jota 
+ jotas ( ) 
  jotte ( ) 
  jottereau ( ) 
- jottereaux ( ) lemma=jottereau 
- jottes ( ) lemma=jotte 
- joua ( ) lemma=jouer 
- jouer ( ) 
+ jottereaux ( ) 
+ jottes ( ) 
+ joua ( ) 
  jouable ( ) 
- jouables ( ) lemma=jouable 
- jouai ( ) lemma=jouer 
- jouaient ( ) lemma=jouer 
+ jouables ( ) 
+ jouai ( ) 
+ jouaient ( ) 
  jouail ( ) 
- jouailla ( ) lemma=jouailler 
+ jouailla ( ) 
+ jouaillai ( ) 
+ jouaillaient ( ) 
+ jouaillais ( ) 
+ jouaillait ( ) 
+ jouaillant ( ) 
+ jouaillas ( ) 
+ jouaillasse ( ) 
+ jouaillassent ( ) 
+ jouaillasses ( ) 
+ jouaillassiez ( ) 
+ jouaillassions ( ) 
+ jouaille ( ) 
+ jouaillent ( ) 
  jouailler ( ) 
- jouaillai ( ) lemma=jouailler 
- jouaillaient ( ) lemma=jouailler 
- jouaillais ( ) lemma=jouailler 
- jouaillait ( ) lemma=jouailler 
- jouaillant ( ) lemma=jouailler 
- jouaillas ( ) lemma=jouailler 
- jouaillasse ( ) lemma=jouailler 
- jouaillassent ( ) lemma=jouailler 
- jouaillasses ( ) lemma=jouailler 
- jouaillassiez ( ) lemma=jouailler 
- jouaillassions ( ) lemma=jouailler 
- jouaille ( ) lemma=jouailler 
- jouaillent ( ) lemma=jouailler 
- jouaillera ( ) lemma=jouailler 
- jouaillerai ( ) lemma=jouailler 
- jouailleraient ( ) lemma=jouailler 
- jouaillerais ( ) lemma=jouailler 
- jouaillerait ( ) lemma=jouailler 
- jouailleras ( ) lemma=jouailler 
- jouaillerez ( ) lemma=jouailler 
- jouailleriez ( ) lemma=jouailler 
- jouaillerions ( ) lemma=jouailler 
- jouaillerons ( ) lemma=jouailler 
- jouailleront ( ) lemma=jouailler 
- jouailles ( ) lemma=jouailler 
- jouaillez ( ) lemma=jouailler 
- jouailliez ( ) lemma=jouailler 
- jouaillions ( ) lemma=jouailler 
- jouaillons ( ) lemma=jouailler 
- jouaillâmes ( ) lemma=jouailler 
- jouaillât ( ) lemma=jouailler 
- jouaillâtes ( ) lemma=jouailler 
- jouaillèrent ( ) lemma=jouailler 
- jouaillé ( ) lemma=jouailler 
- jouaillée ( ) lemma=jouailler 
- jouaillées ( ) lemma=jouailler 
- jouaillés ( ) lemma=jouailler 
- jouails ( ) lemma=jouail 
- jouais ( ) lemma=jouer 
- jouait ( ) lemma=jouer 
+ jouaillera ( ) 
+ jouaillerai ( ) 
+ jouailleraient ( ) 
+ jouaillerais ( ) 
+ jouaillerait ( ) 
+ jouailleras ( ) 
+ jouaillerez ( ) 
+ jouailleriez ( ) 
+ jouaillerions ( ) 
+ jouaillerons ( ) 
+ jouailleront ( ) 
+ jouailles ( ) 
+ jouaillez ( ) 
+ jouailliez ( ) 
+ jouaillions ( ) 
+ jouaillons ( ) 
+ jouaillâmes ( ) 
+ jouaillât ( ) 
+ jouaillâtes ( ) 
+ jouaillèrent ( ) 
+ jouaillé ( ) 
+ jouaillée ( ) 
+ jouaillées ( ) 
+ jouaillés ( ) 
+ jouails ( ) 
+ jouais ( ) 
+ jouait ( ) 
  joual ( ) 
- joualisa ( ) lemma=joualiser 
- joualiser ( ) 
- joualisai ( ) lemma=joualiser 
- joualisaient ( ) lemma=joualiser 
- joualisais ( ) lemma=joualiser 
- joualisait ( ) lemma=joualiser 
+ joualisa ( ) 
+ joualisai ( ) 
+ joualisaient ( ) 
+ joualisais ( ) 
+ joualisait ( ) 
  joualisant ( ) 
- joualisante ( ) lemma=joualisant 
- joualisantes ( ) lemma=joualisant 
- joualisants ( ) lemma=joualisant 
- joualisas ( ) lemma=joualiser 
- joualisasse ( ) lemma=joualiser 
- joualisassent ( ) lemma=joualiser 
- joualisasses ( ) lemma=joualiser 
- joualisassiez ( ) lemma=joualiser 
- joualisassions ( ) lemma=joualiser 
- joualise ( ) lemma=joualiser 
- joualisent ( ) lemma=joualiser 
- joualisera ( ) lemma=joualiser 
- joualiserai ( ) lemma=joualiser 
- joualiseraient ( ) lemma=joualiser 
- joualiserais ( ) lemma=joualiser 
- joualiserait ( ) lemma=joualiser 
- joualiseras ( ) lemma=joualiser 
- joualiserez ( ) lemma=joualiser 
- joualiseriez ( ) lemma=joualiser 
- joualiserions ( ) lemma=joualiser 
- joualiserons ( ) lemma=joualiser 
- joualiseront ( ) lemma=joualiser 
- joualises ( ) lemma=joualiser 
- joualisez ( ) lemma=joualiser 
- joualisiez ( ) lemma=joualiser 
- joualisions ( ) lemma=joualiser 
- joualisons ( ) lemma=joualiser 
- joualisâmes ( ) lemma=joualiser 
- joualisât ( ) lemma=joualiser 
- joualisâtes ( ) lemma=joualiser 
- joualisèrent ( ) lemma=joualiser 
- joualisé ( ) lemma=joualiser 
- joualisée ( ) lemma=joualiser 
- joualisées ( ) lemma=joualiser 
- joualisés ( ) lemma=joualiser 
+ joualisante ( ) 
+ joualisantes ( ) 
+ joualisants ( ) 
+ joualisas ( ) 
+ joualisasse ( ) 
+ joualisassent ( ) 
+ joualisasses ( ) 
+ joualisassiez ( ) 
+ joualisassions ( ) 
+ joualise ( ) 
+ joualisent ( ) 
+ joualiser ( ) 
+ joualisera ( ) 
+ joualiserai ( ) 
+ joualiseraient ( ) 
+ joualiserais ( ) 
+ joualiserait ( ) 
+ joualiseras ( ) 
+ joualiserez ( ) 
+ joualiseriez ( ) 
+ joualiserions ( ) 
+ joualiserons ( ) 
+ joualiseront ( ) 
+ joualises ( ) 
+ joualisez ( ) 
+ joualisiez ( ) 
+ joualisions ( ) 
+ joualisons ( ) 
+ joualisâmes ( ) 
+ joualisât ( ) 
+ joualisâtes ( ) 
+ joualisèrent ( ) 
+ joualisé ( ) 
+ joualisée ( ) 
+ joualisées ( ) 
+ joualisés ( ) 
  joualle ( ) 
- joualles ( ) lemma=joualle 
- jouals ( ) lemma=joual 
- jouant ( ) lemma=jouer 
- jouas ( ) lemma=jouer 
+ joualles ( ) 
+ jouals ( ) 
+ jouant ( ) 
+ jouas ( ) 
  jouasse ( ) 
- jouassent ( ) lemma=jouer 
- jouasses ( ) lemma=jouasse 
- jouassiez ( ) lemma=jouer 
- jouassions ( ) lemma=jouer 
+ jouassent ( ) 
+ jouasses ( ) 
+ jouassiez ( ) 
+ jouassions ( ) 
  joubarbe ( ) 
- joubarbes ( ) lemma=joubarbe 
+ joubarbes ( ) 
  joue ( ) 
  jouelle ( ) 
- jouelles ( ) lemma=jouelle 
- jouent ( ) lemma=jouer 
- jouera ( ) lemma=jouer 
- jouerai ( ) lemma=jouer 
- joueraient ( ) lemma=jouer 
- jouerais ( ) lemma=jouer 
- jouerait ( ) lemma=jouer 
- joueras ( ) lemma=jouer 
- jouerez ( ) lemma=jouer 
- joueriez ( ) lemma=jouer 
- jouerions ( ) lemma=jouer 
- jouerons ( ) lemma=jouer 
- joueront ( ) lemma=jouer 
- joues ( ) lemma=joue 
+ jouelles ( ) 
+ jouent ( ) 
+ jouer ( ) 
+ jouera ( ) 
+ jouerai ( ) 
+ joueraient ( ) 
+ jouerais ( ) 
+ jouerait ( ) 
+ joueras ( ) 
+ jouerez ( ) 
+ joueriez ( ) 
+ jouerions ( ) 
+ jouerons ( ) 
+ joueront ( ) 
+ joues ( ) 
  jouet ( ) 
- jouets ( ) lemma=jouet 
+ jouets ( ) 
  jouette ( ) 
- jouettes ( ) lemma=jouette 
+ jouettes ( ) 
  joueur ( ) 
- joueurs ( ) lemma=joueur 
- joueuse ( ) lemma=joueur 
- joueuses ( ) lemma=joueur 
- jouez ( ) lemma=jouer 
+ joueurs ( ) 
+ joueuse ( ) 
+ joueuses ( ) 
+ jouez ( ) 
  joufflu ( ) 
- joufflue ( ) lemma=joufflu 
- joufflues ( ) lemma=joufflu 
- joufflus ( ) lemma=joufflu 
+ joufflue ( ) 
+ joufflues ( ) 
+ joufflus ( ) 
  joug ( ) 
- jougs ( ) lemma=joug 
- joui ( ) lemma=jouir 
+ jougs ( ) 
+ joui ( ) 
+ jouie ( ) 
+ jouies ( ) 
+ jouiez ( ) 
+ jouions ( ) 
  jouir ( ) 
- jouie ( ) lemma=jouir 
- jouies ( ) lemma=jouir 
- jouiez ( ) lemma=jouer 
- jouions ( ) lemma=jouer 
- jouira ( ) lemma=jouir 
- jouirai ( ) lemma=jouir 
- jouiraient ( ) lemma=jouir 
- jouirais ( ) lemma=jouir 
- jouirait ( ) lemma=jouir 
- jouiras ( ) lemma=jouir 
- jouirent ( ) lemma=jouir 
- jouirez ( ) lemma=jouir 
- jouiriez ( ) lemma=jouir 
- jouirions ( ) lemma=jouir 
- jouirons ( ) lemma=jouir 
- jouiront ( ) lemma=jouir 
- jouis ( ) lemma=jouir 
- jouissaient ( ) lemma=jouir 
- jouissais ( ) lemma=jouir 
- jouissait ( ) lemma=jouir 
+ jouira ( ) 
+ jouirai ( ) 
+ jouiraient ( ) 
+ jouirais ( ) 
+ jouirait ( ) 
+ jouiras ( ) 
+ jouirent ( ) 
+ jouirez ( ) 
+ jouiriez ( ) 
+ jouirions ( ) 
+ jouirons ( ) 
+ jouiront ( ) 
+ jouis ( ) 
+ jouissaient ( ) 
+ jouissais ( ) 
+ jouissait ( ) 
  jouissance ( ) 
- jouissances ( ) lemma=jouissance 
+ jouissances ( ) 
  jouissant ( ) 
- jouissante ( ) lemma=jouissant 
- jouissantes ( ) lemma=jouissant 
- jouissants ( ) lemma=jouissant 
- jouisse ( ) lemma=jouir 
- jouissent ( ) lemma=jouir 
- jouisses ( ) lemma=jouir 
+ jouissante ( ) 
+ jouissantes ( ) 
+ jouissants ( ) 
+ jouisse ( ) 
+ jouissent ( ) 
+ jouisses ( ) 
  jouisseur ( ) 
- jouisseurs ( ) lemma=jouisseur 
- jouisseuse ( ) lemma=jouisseur 
- jouisseuses ( ) lemma=jouisseur 
- jouissez ( ) lemma=jouir 
- jouissiez ( ) lemma=jouir 
+ jouisseurs ( ) 
+ jouisseuse ( ) 
+ jouisseuses ( ) 
+ jouissez ( ) 
+ jouissiez ( ) 
  jouissif ( ) 
- jouissifs ( ) lemma=jouissif 
- jouissions ( ) lemma=jouir 
- jouissive ( ) lemma=jouissif 
- jouissives ( ) lemma=jouissif 
- jouissons ( ) lemma=jouir 
- jouit ( ) lemma=jouir 
+ jouissifs ( ) 
+ jouissions ( ) 
+ jouissive ( ) 
+ jouissives ( ) 
+ jouissons ( ) 
+ jouit ( ) 
  joujou ( ) 
  joujouthèque ( ) 
- joujouthèques ( ) lemma=joujouthèque 
- joujoux ( ) lemma=joujou 
+ joujouthèques ( ) 
+ joujoux ( ) 
  joule ( ) 
- joules ( ) lemma=joule 
- jouons ( ) lemma=jouer 
- jour ( ) 
+ joules ( ) 
+ jouons ( ) 
+ jour ( ) lemma=ajour 
  jourd'hui ( ) 
- jourd'huis ( ) lemma=jourd'hui 
+ jourd'huis ( ) 
  journade ( ) 
- journades ( ) lemma=journade 
+ journades ( ) 
  journal ( ) 
- journaleuse ( ) lemma=journaleux 
+ journaleuse ( ) 
+ journaleuses ( ) 
  journaleux ( ) 
- journaleuses ( ) lemma=journaleux 
  journalier ( ) 
- journaliers ( ) lemma=journalier 
- journalisa ( ) lemma=journaliser 
+ journaliers ( ) 
+ journalisa ( ) 
+ journalisai ( ) 
+ journalisaient ( ) 
+ journalisais ( ) 
+ journalisait ( ) 
+ journalisant ( ) 
+ journalisas ( ) 
+ journalisasse ( ) 
+ journalisassent ( ) 
+ journalisasses ( ) 
+ journalisassiez ( ) 
+ journalisassions ( ) 
+ journalise ( ) 
+ journalisent ( ) 
  journaliser ( ) 
- journalisai ( ) lemma=journaliser 
- journalisaient ( ) lemma=journaliser 
- journalisais ( ) lemma=journaliser 
- journalisait ( ) lemma=journaliser 
- journalisant ( ) lemma=journaliser 
- journalisas ( ) lemma=journaliser 
- journalisasse ( ) lemma=journaliser 
- journalisassent ( ) lemma=journaliser 
- journalisasses ( ) lemma=journaliser 
- journalisassiez ( ) lemma=journaliser 
- journalisassions ( ) lemma=journaliser 
- journalise ( ) lemma=journaliser 
- journalisent ( ) lemma=journaliser 
- journalisera ( ) lemma=journaliser 
- journaliserai ( ) lemma=journaliser 
- journaliseraient ( ) lemma=journaliser 
- journaliserais ( ) lemma=journaliser 
- journaliserait ( ) lemma=journaliser 
- journaliseras ( ) lemma=journaliser 
- journaliserez ( ) lemma=journaliser 
- journaliseriez ( ) lemma=journaliser 
- journaliserions ( ) lemma=journaliser 
- journaliserons ( ) lemma=journaliser 
- journaliseront ( ) lemma=journaliser 
- journalises ( ) lemma=journaliser 
- journalisez ( ) lemma=journaliser 
- journalisiez ( ) lemma=journaliser 
- journalisions ( ) lemma=journaliser 
+ journalisera ( ) 
+ journaliserai ( ) 
+ journaliseraient ( ) 
+ journaliserais ( ) 
+ journaliserait ( ) 
+ journaliseras ( ) 
+ journaliserez ( ) 
+ journaliseriez ( ) 
+ journaliserions ( ) 
+ journaliserons ( ) 
+ journaliseront ( ) 
+ journalises ( ) 
+ journalisez ( ) 
+ journalisiez ( ) 
+ journalisions ( ) 
  journalisme ( ) 
- journalismes ( ) lemma=journalisme 
- journalisons ( ) lemma=journaliser 
+ journalismes ( ) 
+ journalisons ( ) 
  journaliste ( ) 
- journalistes ( ) lemma=journaliste 
+ journalistes ( ) 
  journalistique ( ) 
- journalistiques ( ) lemma=journalistique 
- journalisâmes ( ) lemma=journaliser 
- journalisât ( ) lemma=journaliser 
- journalisâtes ( ) lemma=journaliser 
- journalisèrent ( ) lemma=journaliser 
- journalisé ( ) lemma=journaliser 
- journalisée ( ) lemma=journaliser 
- journalisées ( ) lemma=journaliser 
- journalisés ( ) lemma=journaliser 
- journalière ( ) lemma=journalier 
- journalières ( ) lemma=journalier 
+ journalistiques ( ) 
+ journalisâmes ( ) 
+ journalisât ( ) 
+ journalisâtes ( ) 
+ journalisèrent ( ) 
+ journalisé ( ) 
+ journalisée ( ) 
+ journalisées ( ) 
+ journalisés ( ) 
+ journalière ( ) 
+ journalières ( ) 
  journau ( ) 
- journaux ( ) lemma=journal|journau 
- journal|journau ( ) 
+ journaux ( ) 
  journel ( ) 
- journelle ( ) lemma=journel 
+ journelle ( ) 
  journellement ( ) 
- journelles ( ) lemma=journel 
- journels ( ) lemma=journel 
- journée ( ) 
- journées ( ) lemma=journée 
- jours ( ) lemma=jour 
- jouta ( ) lemma=jouter 
- jouter ( ) 
- joutai ( ) lemma=jouter 
- joutaient ( ) lemma=jouter 
- joutais ( ) lemma=jouter 
- joutait ( ) lemma=jouter 
- joutant ( ) lemma=jouter 
- joutas ( ) lemma=jouter 
- joutasse ( ) lemma=jouter 
- joutassent ( ) lemma=jouter 
- joutasses ( ) lemma=jouter 
- joutassiez ( ) lemma=jouter 
- joutassions ( ) lemma=jouter 
- joute ( ) 
- joutent ( ) lemma=jouter 
- joutera ( ) lemma=jouter 
- jouterai ( ) lemma=jouter 
- jouteraient ( ) lemma=jouter 
- jouterais ( ) lemma=jouter 
- jouterait ( ) lemma=jouter 
- jouteras ( ) lemma=jouter 
- jouterez ( ) lemma=jouter 
- jouteriez ( ) lemma=jouter 
- jouterions ( ) lemma=jouter 
- jouterons ( ) lemma=jouter 
- jouteront ( ) lemma=jouter 
- joutes ( ) lemma=joute 
+ journelles ( ) 
+ journels ( ) 
+ journée ( ) lemma=ajourner 
+ journées ( ) 
+ jours ( ) 
+ jouta ( ) lemma=ajouter 
+ joutai ( ) lemma=ajouter 
+ joutaient ( ) 
+ joutais ( ) 
+ joutait ( ) 
+ joutant ( ) 
+ joutas ( ) 
+ joutasse ( ) lemma=ajouter 
+ joutassent ( ) 
+ joutasses ( ) 
+ joutassiez ( ) 
+ joutassions ( ) 
+ joute ( ) lemma=ajouter 
+ joutent ( ) 
+ jouter ( ) lemma=ajouter 
+ joutera ( ) lemma=ajouter 
+ jouterai ( ) lemma=ajouter 
+ jouteraient ( ) 
+ jouterais ( ) 
+ jouterait ( ) 
+ jouteras ( ) 
+ jouterez ( ) 
+ jouteriez ( ) 
+ jouterions ( ) 
+ jouterons ( ) 
+ jouteront ( ) 
+ joutes ( ) 
  jouteur ( ) 
- jouteurs ( ) lemma=jouteur 
- jouteuse ( ) lemma=jouteur 
- jouteuses ( ) lemma=jouteur 
- joutez ( ) lemma=jouter 
- joutiez ( ) lemma=jouter 
- joutions ( ) lemma=jouter 
- joutons ( ) lemma=jouter 
+ jouteurs ( ) 
+ jouteuse ( ) 
+ jouteuses ( ) 
+ joutez ( ) 
+ joutiez ( ) 
+ joutions ( ) 
+ joutons ( ) 
  joutte ( ) 
- jouttes ( ) lemma=joutte 
- joutâmes ( ) lemma=jouter 
- joutât ( ) lemma=jouter 
- joutâtes ( ) lemma=jouter 
- joutèrent ( ) lemma=jouter 
- jouté ( ) lemma=jouter 
- joutée ( ) lemma=jouter 
- joutées ( ) lemma=jouter 
- joutés ( ) lemma=jouter 
+ jouttes ( ) 
+ joutâmes ( ) 
+ joutât ( ) 
+ joutâtes ( ) 
+ joutèrent ( ) 
+ jouté ( ) lemma=ajouté 
+ joutée ( ) lemma=ajouter 
+ joutées ( ) 
+ joutés ( ) 
  jouvence ( ) 
  jouvenceau ( ) 
  jouvenceaux ( ) 
  jouvencelle ( ) 
- jouvencelles ( ) lemma=jouvencelle 
- jouvences ( ) lemma=jouvence 
- jouxta ( ) lemma=jouxter 
- jouxter ( ) 
- jouxtai ( ) lemma=jouxter 
- jouxtaient ( ) lemma=jouxter 
- jouxtais ( ) lemma=jouxter 
- jouxtait ( ) lemma=jouxter 
- jouxtant ( ) lemma=jouxter 
- jouxtas ( ) lemma=jouxter 
- jouxtasse ( ) lemma=jouxter 
- jouxtassent ( ) lemma=jouxter 
- jouxtasses ( ) lemma=jouxter 
- jouxtassiez ( ) lemma=jouxter 
- jouxtassions ( ) lemma=jouxter 
+ jouvencelles ( ) 
+ jouvences ( ) 
+ jouxta ( ) 
+ jouxtai ( ) 
+ jouxtaient ( ) 
+ jouxtais ( ) 
+ jouxtait ( ) 
+ jouxtant ( ) 
+ jouxtas ( ) 
+ jouxtasse ( ) 
+ jouxtassent ( ) 
+ jouxtasses ( ) 
+ jouxtassiez ( ) 
+ jouxtassions ( ) 
  jouxte ( ) 
- jouxtent ( ) lemma=jouxter 
- jouxtera ( ) lemma=jouxter 
- jouxterai ( ) lemma=jouxter 
- jouxteraient ( ) lemma=jouxter 
- jouxterais ( ) lemma=jouxter 
- jouxterait ( ) lemma=jouxter 
- jouxteras ( ) lemma=jouxter 
- jouxterez ( ) lemma=jouxter 
- jouxteriez ( ) lemma=jouxter 
- jouxterions ( ) lemma=jouxter 
- jouxterons ( ) lemma=jouxter 
- jouxteront ( ) lemma=jouxter 
- jouxtes ( ) lemma=jouxter 
- jouxtez ( ) lemma=jouxter 
- jouxtiez ( ) lemma=jouxter 
- jouxtions ( ) lemma=jouxter 
- jouxtons ( ) lemma=jouxter 
- jouxtâmes ( ) lemma=jouxter 
- jouxtât ( ) lemma=jouxter 
- jouxtâtes ( ) lemma=jouxter 
- jouxtèrent ( ) lemma=jouxter 
- jouxté ( ) lemma=jouxter 
- jouxtée ( ) lemma=jouxter 
- jouxtées ( ) lemma=jouxter 
- jouxtés ( ) lemma=jouxter 
- jouâmes ( ) lemma=jouer 
- jouât ( ) lemma=jouer 
- jouâtes ( ) lemma=jouer 
- jouèrent ( ) lemma=jouer 
- joué ( ) lemma=jouer 
+ jouxtent ( ) 
+ jouxter ( ) 
+ jouxtera ( ) 
+ jouxterai ( ) 
+ jouxteraient ( ) 
+ jouxterais ( ) 
+ jouxterait ( ) 
+ jouxteras ( ) 
+ jouxterez ( ) 
+ jouxteriez ( ) 
+ jouxterions ( ) 
+ jouxterons ( ) 
+ jouxteront ( ) 
+ jouxtes ( ) 
+ jouxtez ( ) 
+ jouxtiez ( ) 
+ jouxtions ( ) 
+ jouxtons ( ) 
+ jouxtâmes ( ) 
+ jouxtât ( ) 
+ jouxtâtes ( ) 
+ jouxtèrent ( ) 
+ jouxté ( ) 
+ jouxtée ( ) 
+ jouxtées ( ) 
+ jouxtés ( ) 
+ jouâmes ( ) 
+ jouât ( ) 
+ jouâtes ( ) 
+ jouèrent ( ) 
+ joué ( ) 
  jouée ( ) 
- jouées ( ) lemma=jouée 
- joués ( ) lemma=jouer 
- jouîmes ( ) lemma=jouir 
- jouît ( ) lemma=jouir 
- jouîtes ( ) lemma=jouir 
+ jouées ( ) 
+ joués ( ) 
+ jouîmes ( ) 
+ jouît ( ) 
+ jouîtes ( ) 
  jovial ( ) 
- joviale ( ) lemma=jovial 
+ joviale ( ) 
  jovialement ( ) 
- joviales ( ) lemma=jovial 
+ joviales ( ) 
  jovialité ( ) 
- jovialités ( ) lemma=jovialité 
- joviaux ( ) lemma=jovial 
+ jovialités ( ) 
+ joviaux ( ) 
  jovicentrique ( ) 
- jovicentriques ( ) lemma=jovicentrique 
+ jovicentriques ( ) 
  jovien ( ) 
- jovienne ( ) lemma=jovien 
- joviennes ( ) lemma=jovien 
- joviens ( ) lemma=jovien 
+ jovienne ( ) 
+ joviennes ( ) 
+ joviens ( ) 
  joyau ( ) 
- joyaux ( ) lemma=joyau 
- joyeuse ( ) lemma=joyeux 
- joyeux ( ) 
+ joyaux ( ) 
+ joyeuse ( ) 
  joyeusement ( ) 
  joyeuserie ( ) 
- joyeuseries ( ) lemma=joyeuserie 
- joyeuses ( ) lemma=joyeux 
+ joyeuseries ( ) 
+ joyeuses ( ) 
  joyeuseté ( ) 
- joyeusetés ( ) lemma=joyeuseté 
+ joyeusetés ( ) 
+ joyeux ( ) 
  jubaea ( ) 
- jubaeas ( ) lemma=jubaea 
+ jubaeas ( ) 
  jubarte ( ) 
- jubartes ( ) lemma=jubarte 
- jubila ( ) lemma=jubiler 
- jubiler ( ) 
- jubilai ( ) lemma=jubiler 
- jubilaient ( ) lemma=jubiler 
+ jubartes ( ) 
+ jubila ( ) 
+ jubilai ( ) 
+ jubilaient ( ) 
  jubilaire ( ) 
- jubilaires ( ) lemma=jubilaire 
- jubilais ( ) lemma=jubiler 
- jubilait ( ) lemma=jubiler 
+ jubilaires ( ) 
+ jubilais ( ) 
+ jubilait ( ) 
  jubilant ( ) 
- jubilante ( ) lemma=jubilant 
- jubilantes ( ) lemma=jubilant 
- jubilants ( ) lemma=jubilant 
- jubilas ( ) lemma=jubiler 
- jubilasse ( ) lemma=jubiler 
- jubilassent ( ) lemma=jubiler 
- jubilasses ( ) lemma=jubiler 
- jubilassiez ( ) lemma=jubiler 
- jubilassions ( ) lemma=jubiler 
+ jubilante ( ) 
+ jubilantes ( ) 
+ jubilants ( ) 
+ jubilas ( ) 
+ jubilasse ( ) 
+ jubilassent ( ) 
+ jubilasses ( ) 
+ jubilassiez ( ) 
+ jubilassions ( ) 
  jubilation ( ) 
- jubilations ( ) lemma=jubilation 
+ jubilations ( ) 
  jubilatoire ( ) 
- jubilatoires ( ) lemma=jubilatoire 
- jubile ( ) lemma=jubiler 
- jubilent ( ) lemma=jubiler 
- jubilera ( ) lemma=jubiler 
- jubilerai ( ) lemma=jubiler 
- jubileraient ( ) lemma=jubiler 
- jubilerais ( ) lemma=jubiler 
- jubilerait ( ) lemma=jubiler 
- jubileras ( ) lemma=jubiler 
- jubilerez ( ) lemma=jubiler 
- jubileriez ( ) lemma=jubiler 
- jubilerions ( ) lemma=jubiler 
- jubilerons ( ) lemma=jubiler 
- jubileront ( ) lemma=jubiler 
- jubiles ( ) lemma=jubiler 
- jubilez ( ) lemma=jubiler 
- jubiliez ( ) lemma=jubiler 
- jubilions ( ) lemma=jubiler 
- jubilons ( ) lemma=jubiler 
- jubilâmes ( ) lemma=jubiler 
- jubilât ( ) lemma=jubiler 
- jubilâtes ( ) lemma=jubiler 
- jubilèrent ( ) lemma=jubiler 
+ jubilatoires ( ) 
+ jubile ( ) 
+ jubilent ( ) 
+ jubiler ( ) 
+ jubilera ( ) 
+ jubilerai ( ) 
+ jubileraient ( ) 
+ jubilerais ( ) 
+ jubilerait ( ) 
+ jubileras ( ) 
+ jubilerez ( ) 
+ jubileriez ( ) 
+ jubilerions ( ) 
+ jubilerons ( ) 
+ jubileront ( ) 
+ jubiles ( ) 
+ jubilez ( ) 
+ jubiliez ( ) 
+ jubilions ( ) 
+ jubilons ( ) 
+ jubilâmes ( ) 
+ jubilât ( ) 
+ jubilâtes ( ) 
+ jubilèrent ( ) 
  jubilé ( ) 
- jubilée ( ) lemma=jubiler 
- jubilées ( ) lemma=jubiler 
- jubilés ( ) lemma=jubilé 
+ jubilée ( ) 
+ jubilées ( ) 
+ jubilés ( ) 
  jubis ( ) 
  jubé ( ) 
  jubéa ( ) 
- jubéas ( ) lemma=jubéa 
- jubés ( ) lemma=jubé 
+ jubéas ( ) 
+ jubés ( ) 
  juc ( ) 
- jucha ( ) lemma=jucher 
+ jucha ( ) 
+ juchai ( ) 
+ juchaient ( ) 
+ juchais ( ) 
+ juchait ( ) 
+ juchant ( ) 
+ juchas ( ) 
+ juchasse ( ) 
+ juchassent ( ) 
+ juchasses ( ) 
+ juchassiez ( ) 
+ juchassions ( ) 
+ juche ( ) 
+ juchent ( ) 
  jucher ( ) 
- juchai ( ) lemma=jucher 
- juchaient ( ) lemma=jucher 
- juchais ( ) lemma=jucher 
- juchait ( ) lemma=jucher 
- juchant ( ) lemma=jucher 
- juchas ( ) lemma=jucher 
- juchasse ( ) lemma=jucher 
- juchassent ( ) lemma=jucher 
- juchasses ( ) lemma=jucher 
- juchassiez ( ) lemma=jucher 
- juchassions ( ) lemma=jucher 
- juche ( ) lemma=jucher 
- juchent ( ) lemma=jucher 
- juchera ( ) lemma=jucher 
- jucherai ( ) lemma=jucher 
- jucheraient ( ) lemma=jucher 
- jucherais ( ) lemma=jucher 
- jucherait ( ) lemma=jucher 
- jucheras ( ) lemma=jucher 
- jucherez ( ) lemma=jucher 
- jucheriez ( ) lemma=jucher 
- jucherions ( ) lemma=jucher 
- jucherons ( ) lemma=jucher 
- jucheront ( ) lemma=jucher 
- juches ( ) lemma=jucher 
- juchez ( ) lemma=jucher 
- juchiez ( ) lemma=jucher 
- juchions ( ) lemma=jucher 
+ juchera ( ) 
+ jucherai ( ) 
+ jucheraient ( ) 
+ jucherais ( ) 
+ jucherait ( ) 
+ jucheras ( ) 
+ jucherez ( ) 
+ jucheriez ( ) 
+ jucherions ( ) 
+ jucherons ( ) 
+ jucheront ( ) 
+ juches ( ) 
+ juchez ( ) 
+ juchiez ( ) 
+ juchions ( ) 
  juchoir ( ) 
- juchoirs ( ) lemma=juchoir 
- juchons ( ) lemma=jucher 
- juchâmes ( ) lemma=jucher 
- juchât ( ) lemma=jucher 
- juchâtes ( ) lemma=jucher 
- juchèrent ( ) lemma=jucher 
- juché ( ) lemma=jucher 
+ juchoirs ( ) 
+ juchons ( ) 
+ juchâmes ( ) 
+ juchât ( ) 
+ juchâtes ( ) 
+ juchèrent ( ) 
+ juché ( ) 
  juchée ( ) 
- juchées ( ) lemma=juchée 
- juchés ( ) lemma=jucher 
- jucs ( ) lemma=juc 
+ juchées ( ) 
+ juchés ( ) 
+ jucs ( ) 
  judas ( ) 
  judaïcité ( ) 
- judaïcités ( ) lemma=judaïcité 
+ judaïcités ( ) 
  judaïque ( ) 
  judaïquement ( ) 
- judaïques ( ) lemma=judaïque 
- judaïsa ( ) lemma=judaïser 
- judaïser ( ) 
- judaïsai ( ) lemma=judaïser 
- judaïsaient ( ) lemma=judaïser 
- judaïsais ( ) lemma=judaïser 
- judaïsait ( ) lemma=judaïser 
+ judaïques ( ) 
+ judaïsa ( ) 
+ judaïsai ( ) 
+ judaïsaient ( ) 
+ judaïsais ( ) 
+ judaïsait ( ) 
  judaïsant ( ) 
- judaïsante ( ) lemma=judaïsant 
- judaïsantes ( ) lemma=judaïsant 
- judaïsants ( ) lemma=judaïsant 
- judaïsas ( ) lemma=judaïser 
- judaïsasse ( ) lemma=judaïser 
- judaïsassent ( ) lemma=judaïser 
- judaïsasses ( ) lemma=judaïser 
- judaïsassiez ( ) lemma=judaïser 
- judaïsassions ( ) lemma=judaïser 
+ judaïsante ( ) 
+ judaïsantes ( ) 
+ judaïsants ( ) 
+ judaïsas ( ) 
+ judaïsasse ( ) 
+ judaïsassent ( ) 
+ judaïsasses ( ) 
+ judaïsassiez ( ) 
+ judaïsassions ( ) 
  judaïsation ( ) 
- judaïsations ( ) lemma=judaïsation 
- judaïse ( ) lemma=judaïser 
- judaïsent ( ) lemma=judaïser 
- judaïsera ( ) lemma=judaïser 
- judaïserai ( ) lemma=judaïser 
- judaïseraient ( ) lemma=judaïser 
- judaïserais ( ) lemma=judaïser 
- judaïserait ( ) lemma=judaïser 
- judaïseras ( ) lemma=judaïser 
- judaïserez ( ) lemma=judaïser 
- judaïseriez ( ) lemma=judaïser 
- judaïserions ( ) lemma=judaïser 
- judaïserons ( ) lemma=judaïser 
- judaïseront ( ) lemma=judaïser 
- judaïses ( ) lemma=judaïser 
- judaïsez ( ) lemma=judaïser 
- judaïsiez ( ) lemma=judaïser 
- judaïsions ( ) lemma=judaïser 
+ judaïsations ( ) 
+ judaïse ( ) 
+ judaïsent ( ) 
+ judaïser ( ) 
+ judaïsera ( ) 
+ judaïserai ( ) 
+ judaïseraient ( ) 
+ judaïserais ( ) 
+ judaïserait ( ) 
+ judaïseras ( ) 
+ judaïserez ( ) 
+ judaïseriez ( ) 
+ judaïserions ( ) 
+ judaïserons ( ) 
+ judaïseront ( ) 
+ judaïses ( ) 
+ judaïsez ( ) 
+ judaïsiez ( ) 
+ judaïsions ( ) 
  judaïsme ( ) 
- judaïsmes ( ) lemma=judaïsme 
- judaïsons ( ) lemma=judaïser 
- judaïsâmes ( ) lemma=judaïser 
- judaïsât ( ) lemma=judaïser 
- judaïsâtes ( ) lemma=judaïser 
- judaïsèrent ( ) lemma=judaïser 
- judaïsé ( ) lemma=judaïser 
- judaïsée ( ) lemma=judaïser 
- judaïsées ( ) lemma=judaïser 
- judaïsés ( ) lemma=judaïser 
+ judaïsmes ( ) 
+ judaïsons ( ) 
+ judaïsâmes ( ) 
+ judaïsât ( ) 
+ judaïsâtes ( ) 
+ judaïsèrent ( ) 
+ judaïsé ( ) 
+ judaïsée ( ) 
+ judaïsées ( ) 
+ judaïsés ( ) 
  judaïté ( ) 
- judaïtés ( ) lemma=judaïté 
+ judaïtés ( ) 
  judelle ( ) 
- judelles ( ) lemma=judelle 
+ judelles ( ) 
  judicatif ( ) 
- judicatifs ( ) lemma=judicatif 
- judicative ( ) lemma=judicatif 
- judicatives ( ) lemma=judicatif 
+ judicatifs ( ) 
+ judicative ( ) 
+ judicatives ( ) 
  judicatoire ( ) 
- judicatoires ( ) lemma=judicatoire 
+ judicatoires ( ) 
  judicature ( ) 
- judicatures ( ) lemma=judicature 
+ judicatures ( ) 
  judiciaire ( ) 
  judiciairement ( ) 
- judiciaires ( ) lemma=judiciaire 
- judicieuse ( ) lemma=judicieux 
- judicieux ( ) 
+ judiciaires ( ) 
+ judicieuse ( ) 
  judicieusement ( ) 
- judicieuses ( ) lemma=judicieux 
+ judicieuses ( ) 
+ judicieux ( ) 
  judo ( ) 
  judoka ( ) 
- judokas ( ) lemma=judoka 
- judos ( ) lemma=judo 
+ judokas ( ) 
+ judos ( ) 
  judéen ( ) 
- judéenne ( ) lemma=judéen 
- judéennes ( ) lemma=judéen 
- judéens ( ) lemma=judéen 
+ judéenne ( ) 
+ judéennes ( ) 
+ judéens ( ) 
  judéité ( ) 
- judéités ( ) lemma=judéité 
+ judéités ( ) 
  judéo-allemand ( ) 
- judéo-allemande ( ) lemma=judéo-allemand 
- judéo-allemandes ( ) lemma=judéo-allemand 
- judéo-allemands ( ) lemma=judéo-allemand 
+ judéo-allemande ( ) 
+ judéo-allemandes ( ) 
+ judéo-allemands ( ) 
  judéo-arabe ( ) 
- judéo-arabes ( ) lemma=judéo-arabe 
+ judéo-arabes ( ) 
  judéo-araméen ( ) 
- judéo-araméenne ( ) lemma=judéo-araméen 
- judéo-araméennes ( ) lemma=judéo-araméen 
- judéo-araméens ( ) lemma=judéo-araméen 
+ judéo-araméenne ( ) 
+ judéo-araméennes ( ) 
+ judéo-araméens ( ) 
  judéo-christianisme ( ) 
- judéo-christianismes ( ) lemma=judéo-christianisme 
+ judéo-christianismes ( ) 
  judéo-chrétien ( ) 
- judéo-chrétienne ( ) lemma=judéo-chrétien 
- judéo-chrétiennes ( ) lemma=judéo-chrétien 
- judéo-chrétiens ( ) lemma=judéo-chrétien 
+ judéo-chrétienne ( ) 
+ judéo-chrétiennes ( ) 
+ judéo-chrétiens ( ) 
  judéo-espagnol ( ) 
- judéo-espagnole ( ) lemma=judéo-espagnol 
- judéo-espagnoles ( ) lemma=judéo-espagnol 
- judéo-espagnols ( ) lemma=judéo-espagnol 
+ judéo-espagnole ( ) 
+ judéo-espagnoles ( ) 
+ judéo-espagnols ( ) 
  judéo-français ( ) 
- judéo-française ( ) lemma=judéo-français 
- judéo-françaises ( ) lemma=judéo-français 
+ judéo-française ( ) 
+ judéo-françaises ( ) 
  judéo-marxiste ( ) 
- judéo-marxistes ( ) lemma=judéo-marxiste 
+ judéo-marxistes ( ) 
  judéo-maçonnique ( ) 
- judéo-maçonniques ( ) lemma=judéo-maçonnique 
+ judéo-maçonniques ( ) 
  juerga ( ) 
- juergas ( ) lemma=juerga 
+ juergas ( ) 
  jugal ( ) 
- jugale ( ) lemma=jugal 
- jugales ( ) lemma=jugal 
- jugaux ( ) lemma=jugal 
+ jugale ( ) 
+ jugales ( ) 
+ jugaux ( ) 
  juge ( ) 
- jugea ( ) lemma=juger 
- juger ( ) 
+ jugea ( ) 
  jugeable ( ) 
- jugeables ( ) lemma=jugeable 
- jugeai ( ) lemma=juger 
- jugeaient ( ) lemma=juger 
- jugeais ( ) lemma=juger 
- jugeait ( ) lemma=juger 
+ jugeables ( ) 
+ jugeai ( ) 
+ jugeaient ( ) 
+ jugeais ( ) 
+ jugeait ( ) 
  jugeant ( ) 
- jugeante ( ) lemma=jugeant 
- jugeantes ( ) lemma=jugeant 
- jugeants ( ) lemma=jugeant 
- jugeas ( ) lemma=juger 
- jugeasse ( ) lemma=juger 
- jugeassent ( ) lemma=juger 
- jugeasses ( ) lemma=juger 
- jugeassiez ( ) lemma=juger 
- jugeassions ( ) lemma=juger 
+ jugeante ( ) 
+ jugeantes ( ) 
+ jugeants ( ) 
+ jugeas ( ) 
+ jugeasse ( ) 
+ jugeassent ( ) 
+ jugeasses ( ) 
+ jugeassiez ( ) 
+ jugeassions ( ) 
  jugement ( ) 
- jugements ( ) lemma=jugement 
- jugent ( ) lemma=juger 
- jugeons ( ) lemma=juger 
+ jugements ( ) 
+ jugent ( ) 
+ jugeons ( ) 
  jugeote ( ) 
- jugeotes ( ) lemma=jugeote 
- jugera ( ) lemma=juger 
- jugerai ( ) lemma=juger 
- jugeraient ( ) lemma=juger 
- jugerais ( ) lemma=juger 
- jugerait ( ) lemma=juger 
- jugeras ( ) lemma=juger 
- jugerez ( ) lemma=juger 
+ jugeotes ( ) 
+ juger ( ) 
+ jugera ( ) 
+ jugerai ( ) 
+ jugeraient ( ) 
+ jugerais ( ) 
+ jugerait ( ) 
+ jugeras ( ) 
+ jugerez ( ) 
  jugerie ( ) 
- jugeries ( ) lemma=jugerie 
- jugeriez ( ) lemma=juger 
- jugerions ( ) lemma=juger 
- jugerons ( ) lemma=juger 
- jugeront ( ) lemma=juger 
- juges ( ) lemma=juge 
+ jugeries ( ) 
+ jugeriez ( ) 
+ jugerions ( ) 
+ jugerons ( ) 
+ jugeront ( ) 
+ juges ( ) 
  jugeur ( ) 
- jugeurs ( ) lemma=jugeur 
- jugeuse ( ) lemma=jugeur 
- jugeuses ( ) lemma=jugeur 
- jugez ( ) lemma=juger 
- jugeâmes ( ) lemma=juger 
- jugeât ( ) lemma=juger 
- jugeâtes ( ) lemma=juger 
- jugiez ( ) lemma=juger 
+ jugeurs ( ) 
+ jugeuse ( ) 
+ jugeuses ( ) 
+ jugez ( ) 
+ jugeâmes ( ) 
+ jugeât ( ) 
+ jugeâtes ( ) 
+ jugiez ( ) 
+ jugions ( ) 
  juglandacées ( ) 
  juglandées ( ) 
- jugula ( ) lemma=juguler 
- juguler ( ) 
- jugulai ( ) lemma=juguler 
- jugulaient ( ) lemma=juguler 
+ jugula ( ) 
+ jugulai ( ) 
+ jugulaient ( ) 
  jugulaire ( ) 
- jugulaires ( ) lemma=jugulaire 
- jugulais ( ) lemma=juguler 
- jugulait ( ) lemma=juguler 
- jugulant ( ) lemma=juguler 
- jugulas ( ) lemma=juguler 
- jugulasse ( ) lemma=juguler 
- jugulassent ( ) lemma=juguler 
- jugulasses ( ) lemma=juguler 
- jugulassiez ( ) lemma=juguler 
- jugulassions ( ) lemma=juguler 
- jugule ( ) lemma=juguler 
- jugulent ( ) lemma=juguler 
- jugulera ( ) lemma=juguler 
- jugulerai ( ) lemma=juguler 
- juguleraient ( ) lemma=juguler 
- jugulerais ( ) lemma=juguler 
- jugulerait ( ) lemma=juguler 
- juguleras ( ) lemma=juguler 
- jugulerez ( ) lemma=juguler 
- juguleriez ( ) lemma=juguler 
- jugulerions ( ) lemma=juguler 
- jugulerons ( ) lemma=juguler 
- juguleront ( ) lemma=juguler 
- jugules ( ) lemma=juguler 
- jugulez ( ) lemma=juguler 
- juguliez ( ) lemma=juguler 
- jugulions ( ) lemma=juguler 
- jugulons ( ) lemma=juguler 
- jugulâmes ( ) lemma=juguler 
- jugulât ( ) lemma=juguler 
- jugulâtes ( ) lemma=juguler 
- jugulèrent ( ) lemma=juguler 
- jugulé ( ) lemma=juguler 
- jugulée ( ) lemma=juguler 
- jugulées ( ) lemma=juguler 
- jugulés ( ) lemma=juguler 
+ jugulaires ( ) 
+ jugulais ( ) 
+ jugulait ( ) 
+ jugulant ( ) 
+ jugulas ( ) 
+ jugulasse ( ) 
+ jugulassent ( ) 
+ jugulasses ( ) 
+ jugulassiez ( ) 
+ jugulassions ( ) 
+ jugule ( ) 
+ jugulent ( ) 
+ juguler ( ) 
+ jugulera ( ) 
+ jugulerai ( ) 
+ juguleraient ( ) 
+ jugulerais ( ) 
+ jugulerait ( ) 
+ juguleras ( ) 
+ jugulerez ( ) 
+ juguleriez ( ) 
+ jugulerions ( ) 
+ jugulerons ( ) 
+ juguleront ( ) 
+ jugules ( ) 
+ jugulez ( ) 
+ juguliez ( ) 
+ jugulions ( ) 
+ jugulons ( ) 
+ jugulâmes ( ) 
+ jugulât ( ) 
+ jugulâtes ( ) 
+ jugulèrent ( ) 
+ jugulé ( ) 
+ jugulée ( ) 
+ jugulées ( ) 
+ jugulés ( ) 
  jugère ( ) 
- jugèrent ( ) lemma=juger 
- jugères ( ) lemma=jugère 
+ jugèrent ( ) 
+ jugères ( ) 
  jugé ( ) 
- jugée ( ) lemma=jugé 
- jugées ( ) lemma=jugé 
- jugés ( ) lemma=jugé 
+ jugée ( ) 
+ jugées ( ) 
+ jugés ( ) 
  juif ( ) 
- juifs ( ) lemma=juif 
+ juifs ( ) 
  juillet ( ) 
- juillets ( ) lemma=juillet 
+ juillets ( ) 
  juillettiste ( ) 
- juillettistes ( ) lemma=juillettiste 
+ juillettistes ( ) 
  juin ( ) 
- juins ( ) lemma=juin 
- juive ( ) lemma=juif 
+ juins ( ) 
+ juive ( ) 
  juiverie ( ) 
- juiveries ( ) lemma=juiverie 
- juives ( ) lemma=juif 
+ juiveries ( ) 
+ juives ( ) 
  jujube ( ) 
- jujubes ( ) lemma=jujube 
+ jujubes ( ) 
  jujubier ( ) 
- jujubiers ( ) lemma=jujubier 
+ jujubiers ( ) 
  juke-box ( ) 
  julep ( ) 
- juleps ( ) lemma=julep 
+ juleps ( ) 
  jules ( ) 
  julien ( ) 
- julienne ( ) lemma=julien 
- juliennes ( ) lemma=julien 
- juliens ( ) lemma=julien 
+ julienne ( ) 
+ juliennes ( ) 
+ juliens ( ) 
  julot ( ) 
- julots ( ) lemma=julot 
+ julots ( ) 
  jumar ( ) 
  jumaras ( ) 
- jumars ( ) lemma=jumar 
+ jumars ( ) 
  jumart ( ) 
- jumarts ( ) lemma=jumart 
+ jumarts ( ) 
  jumbo ( ) 
  jumbo-jet ( ) 
- jumbo-jets ( ) lemma=jumbo-jet 
- jumbos ( ) lemma=jumbo 
+ jumbo-jets ( ) 
+ jumbos ( ) 
  jumeau ( ) 
- jumeaux ( ) lemma=jumeau 
+ jumeaux ( ) 
  jumel ( ) 
- jumela ( ) lemma=jumeler 
- jumeler ( ) 
+ jumela ( ) 
  jumelage ( ) 
- jumelages ( ) lemma=jumelage 
- jumelai ( ) lemma=jumeler 
- jumelaient ( ) lemma=jumeler 
- jumelais ( ) lemma=jumeler 
- jumelait ( ) lemma=jumeler 
- jumelant ( ) lemma=jumeler 
- jumelas ( ) lemma=jumeler 
- jumelasse ( ) lemma=jumeler 
- jumelassent ( ) lemma=jumeler 
- jumelasses ( ) lemma=jumeler 
- jumelassiez ( ) lemma=jumeler 
- jumelassions ( ) lemma=jumeler 
- jumelez ( ) lemma=jumeler 
- jumeliez ( ) lemma=jumeler 
- jumelions ( ) lemma=jumeler 
+ jumelages ( ) 
+ jumelai ( ) 
+ jumelaient ( ) 
+ jumelais ( ) 
+ jumelait ( ) 
+ jumelant ( ) 
+ jumelas ( ) 
+ jumelasse ( ) 
+ jumelassent ( ) 
+ jumelasses ( ) 
+ jumelassiez ( ) 
+ jumelassions ( ) 
+ jumeler ( ) 
+ jumelez ( ) 
+ jumeliez ( ) 
+ jumelions ( ) 
  jumelle ( ) 
- jumellent ( ) lemma=jumeler 
- jumellera ( ) lemma=jumeler 
- jumellerai ( ) lemma=jumeler 
- jumelleraient ( ) lemma=jumeler 
- jumellerais ( ) lemma=jumeler 
- jumellerait ( ) lemma=jumeler 
- jumelleras ( ) lemma=jumeler 
- jumellerez ( ) lemma=jumeler 
- jumelleriez ( ) lemma=jumeler 
- jumellerions ( ) lemma=jumeler 
- jumellerons ( ) lemma=jumeler 
- jumelleront ( ) lemma=jumeler 
- jumelles ( ) lemma=jumelle 
- jumelons ( ) lemma=jumeler 
- jumels ( ) lemma=jumel 
- jumelâmes ( ) lemma=jumeler 
- jumelât ( ) lemma=jumeler 
- jumelâtes ( ) lemma=jumeler 
- jumelèrent ( ) lemma=jumeler 
- jumelé ( ) lemma=jumeler 
- jumelée ( ) lemma=jumeler 
- jumelées ( ) lemma=jumeler 
- jumelés ( ) lemma=jumeler 
+ jumellent ( ) 
+ jumellera ( ) 
+ jumellerai ( ) 
+ jumelleraient ( ) 
+ jumellerais ( ) 
+ jumellerait ( ) 
+ jumelleras ( ) 
+ jumellerez ( ) 
+ jumelleriez ( ) 
+ jumellerions ( ) 
+ jumellerons ( ) 
+ jumelleront ( ) 
+ jumelles ( ) 
+ jumelons ( ) 
+ jumels ( ) 
+ jumelâmes ( ) 
+ jumelât ( ) 
+ jumelâtes ( ) 
+ jumelèrent ( ) 
+ jumelé ( ) 
+ jumelée ( ) 
+ jumelées ( ) 
+ jumelés ( ) 
  jument ( ) 
  jumenterie ( ) 
- jumenteries ( ) lemma=jumenterie 
- jumenteuse ( ) lemma=jumenteux 
+ jumenteries ( ) 
+ jumenteuse ( ) 
+ jumenteuses ( ) 
  jumenteux ( ) 
- jumenteuses ( ) lemma=jumenteux 
- juments ( ) lemma=jument 
+ juments ( ) 
  jumentés ( ) 
  jump ( ) 
  jumper ( ) 
- jumpers ( ) lemma=jumper 
+ jumpers ( ) 
  jumpeur ( ) 
- jumpeurs ( ) lemma=jumpeur 
+ jumpeurs ( ) 
  jumping ( ) 
- jumpings ( ) lemma=jumping 
- jumps ( ) lemma=jump 
+ jumpings ( ) 
+ jumps ( ) 
  juncacées ( ) 
  jungermanniales ( ) 
  jungien ( ) 
- jungienne ( ) lemma=jungien 
- jungiennes ( ) lemma=jungien 
- jungiens ( ) lemma=jungien 
+ jungienne ( ) 
+ jungiennes ( ) 
+ jungiens ( ) 
  jungle ( ) 
- jungles ( ) lemma=jungle 
+ jungles ( ) 
  junior ( ) 
- juniors ( ) lemma=junior 
+ juniors ( ) 
  juniperus ( ) 
  junker ( ) 
- junkers ( ) lemma=junker 
+ junkers ( ) 
  junkie ( ) 
- junkies ( ) lemma=junkie 
+ junkies ( ) 
  junonien ( ) 
- junonienne ( ) lemma=junonien 
- junoniennes ( ) lemma=junonien 
- junoniens ( ) lemma=junonien 
+ junonienne ( ) 
+ junoniennes ( ) 
+ junoniens ( ) 
  junte ( ) 
- juntes ( ) lemma=junte 
+ juntes ( ) 
  jupe ( ) 
  jupe-culotte ( ) 
- jupe-culottes ( ) lemma=jupe-culotte 
- jupes ( ) lemma=jupe 
+ jupe-culottes ( ) 
+ jupes ( ) 
  jupette ( ) 
- jupettes ( ) lemma=jupette 
+ jupettes ( ) 
  jupier ( ) 
- jupiers ( ) lemma=jupier 
+ jupiers ( ) 
  jupitérien ( ) 
- jupitérienne ( ) lemma=jupitérien 
- jupitériennes ( ) lemma=jupitérien 
- jupitériens ( ) lemma=jupitérien 
- jupière ( ) lemma=jupier 
- jupières ( ) lemma=jupier 
+ jupitérienne ( ) 
+ jupitériennes ( ) 
+ jupitériens ( ) 
+ jupière ( ) 
+ jupières ( ) 
  jupon ( ) 
- juponna ( ) lemma=juponner 
- juponner ( ) 
+ juponna ( ) 
  juponnage ( ) 
- juponnages ( ) lemma=juponnage 
- juponnai ( ) lemma=juponner 
- juponnaient ( ) lemma=juponner 
+ juponnages ( ) 
+ juponnai ( ) 
+ juponnaient ( ) 
  juponnaille ( ) 
- juponnailles ( ) lemma=juponnaille 
- juponnais ( ) lemma=juponner 
- juponnait ( ) lemma=juponner 
- juponnant ( ) lemma=juponner 
- juponnas ( ) lemma=juponner 
- juponnasse ( ) lemma=juponner 
- juponnassent ( ) lemma=juponner 
- juponnasses ( ) lemma=juponner 
- juponnassiez ( ) lemma=juponner 
- juponnassions ( ) lemma=juponner 
- juponne ( ) lemma=juponner 
- juponnent ( ) lemma=juponner 
- juponnera ( ) lemma=juponner 
- juponnerai ( ) lemma=juponner 
- juponneraient ( ) lemma=juponner 
- juponnerais ( ) lemma=juponner 
- juponnerait ( ) lemma=juponner 
- juponneras ( ) lemma=juponner 
- juponnerez ( ) lemma=juponner 
- juponneriez ( ) lemma=juponner 
- juponnerions ( ) lemma=juponner 
- juponnerons ( ) lemma=juponner 
- juponneront ( ) lemma=juponner 
- juponnes ( ) lemma=juponner 
- juponnez ( ) lemma=juponner 
+ juponnailles ( ) 
+ juponnais ( ) 
+ juponnait ( ) 
+ juponnant ( ) 
+ juponnas ( ) 
+ juponnasse ( ) 
+ juponnassent ( ) 
+ juponnasses ( ) 
+ juponnassiez ( ) 
+ juponnassions ( ) 
+ juponne ( ) 
+ juponnent ( ) 
+ juponner ( ) 
+ juponnera ( ) 
+ juponnerai ( ) 
+ juponneraient ( ) 
+ juponnerais ( ) 
+ juponnerait ( ) 
+ juponneras ( ) 
+ juponnerez ( ) 
+ juponneriez ( ) 
+ juponnerions ( ) 
+ juponnerons ( ) 
+ juponneront ( ) 
+ juponnes ( ) 
+ juponnez ( ) 
  juponnier ( ) 
- juponniers ( ) lemma=juponnier 
- juponniez ( ) lemma=juponner 
- juponnions ( ) lemma=juponner 
- juponnons ( ) lemma=juponner 
- juponnâmes ( ) lemma=juponner 
- juponnât ( ) lemma=juponner 
- juponnâtes ( ) lemma=juponner 
- juponnèrent ( ) lemma=juponner 
- juponné ( ) lemma=juponner 
- juponnée ( ) lemma=juponner 
- juponnées ( ) lemma=juponner 
- juponnés ( ) lemma=juponner 
- jupons ( ) lemma=jupon 
- jura ( ) lemma=jurer 
- jurer ( ) 
+ juponniers ( ) 
+ juponniez ( ) 
+ juponnions ( ) 
+ juponnons ( ) 
+ juponnâmes ( ) 
+ juponnât ( ) 
+ juponnâtes ( ) 
+ juponnèrent ( ) 
+ juponné ( ) 
+ juponnée ( ) 
+ juponnées ( ) 
+ juponnés ( ) 
+ jupons ( ) 
+ jura ( ) 
  jurable ( ) 
- jurables ( ) lemma=jurable 
- jurai ( ) lemma=jurer 
- juraient ( ) lemma=jurer 
- jurais ( ) lemma=jurer 
- jurait ( ) lemma=jurer 
+ jurables ( ) 
+ jurai ( ) 
+ juraient ( ) 
+ jurais ( ) 
+ jurait ( ) 
  juran ( ) 
  jurande ( ) 
- jurandes ( ) lemma=jurande 
- jurans ( ) lemma=juran 
- jurant ( ) lemma=jurer 
+ jurandes ( ) 
+ jurans ( ) 
+ jurant ( ) 
  jurançon ( ) 
- jurançons ( ) lemma=jurançon 
- juras ( ) lemma=jurer 
- jurasse ( ) lemma=jurer 
- jurassent ( ) lemma=jurer 
- jurasses ( ) lemma=jurer 
+ jurançons ( ) 
+ juras ( ) 
+ jurasse ( ) 
+ jurassent ( ) 
+ jurasses ( ) 
  jurassien ( ) 
- jurassienne ( ) lemma=jurassien 
- jurassiennes ( ) lemma=jurassien 
- jurassiens ( ) lemma=jurassien 
- jurassiez ( ) lemma=jurer 
- jurassions ( ) lemma=jurer 
+ jurassienne ( ) 
+ jurassiennes ( ) 
+ jurassiens ( ) 
+ jurassiez ( ) 
+ jurassions ( ) 
  jurassique ( ) 
- jurassiques ( ) lemma=jurassique 
+ jurassiques ( ) 
  jurat ( ) 
  juratoire ( ) 
- juratoires ( ) lemma=juratoire 
- jurats ( ) lemma=jurat 
+ juratoires ( ) 
+ jurats ( ) 
  jure ( ) 
  jurement ( ) 
- jurements ( ) lemma=jurement 
- jurent ( ) lemma=jurer 
- jurera ( ) lemma=jurer 
- jurerai ( ) lemma=jurer 
- jureraient ( ) lemma=jurer 
- jurerais ( ) lemma=jurer 
- jurerait ( ) lemma=jurer 
- jureras ( ) lemma=jurer 
- jurerez ( ) lemma=jurer 
- jureriez ( ) lemma=jurer 
- jurerions ( ) lemma=jurer 
- jurerons ( ) lemma=jurer 
- jureront ( ) lemma=jurer 
- jures ( ) lemma=jurer 
+ jurements ( ) 
+ jurent ( ) 
+ jurer ( ) 
+ jurera ( ) 
+ jurerai ( ) 
+ jureraient ( ) 
+ jurerais ( ) 
+ jurerait ( ) 
+ jureras ( ) 
+ jurerez ( ) 
+ jureriez ( ) 
+ jurerions ( ) 
+ jurerons ( ) 
+ jureront ( ) 
+ jures ( ) 
  jureur ( ) 
- jureurs ( ) lemma=jureur 
- jureuse ( ) lemma=jureur 
- jureuses ( ) lemma=jureur 
- jurez ( ) lemma=jurer 
+ jureurs ( ) 
+ jureuse ( ) 
+ jureuses ( ) 
+ jurez ( ) 
  juridiction ( ) 
  juridictionnalisation ( ) 
- juridictionnalisations ( ) lemma=juridictionnalisation 
+ juridictionnalisations ( ) 
  juridictionnel ( ) 
- juridictionnelle ( ) lemma=juridictionnel 
- juridictionnelles ( ) lemma=juridictionnel 
- juridictionnels ( ) lemma=juridictionnel 
- juridictions ( ) lemma=juridiction 
+ juridictionnelle ( ) 
+ juridictionnelles ( ) 
+ juridictionnels ( ) 
+ juridictions ( ) 
  juridique ( ) 
  juridiquement ( ) 
- juridiques ( ) lemma=juridique 
+ juridiques ( ) 
  juridisme ( ) 
- juridismes ( ) lemma=juridisme 
- juriez ( ) lemma=jurer 
- jurions ( ) lemma=jurer 
+ juridismes ( ) 
+ juriez ( ) 
+ jurions ( ) 
  jurisconsulte ( ) 
- jurisconsultes ( ) lemma=jurisconsulte 
+ jurisconsultes ( ) 
  jurisprudence ( ) 
- jurisprudences ( ) lemma=jurisprudence 
+ jurisprudences ( ) 
  jurisprudent ( ) 
  jurisprudentiel ( ) 
- jurisprudentielle ( ) lemma=jurisprudentiel 
- jurisprudentielles ( ) lemma=jurisprudentiel 
- jurisprudentiels ( ) lemma=jurisprudentiel 
- jurisprudents ( ) lemma=jurisprudent 
+ jurisprudentielle ( ) 
+ jurisprudentielles ( ) 
+ jurisprudentiels ( ) 
+ jurisprudents ( ) 
  juriste ( ) 
- juristes ( ) lemma=juriste 
+ juristes ( ) 
  jurologie ( ) 
- jurologies ( ) lemma=jurologie 
+ jurologies ( ) 
  juron ( ) 
- jurons ( ) lemma=juron 
+ jurons ( ) 
  jury ( ) 
- jurys ( ) lemma=jury 
- jurâmes ( ) lemma=jurer 
- jurât ( ) lemma=jurer 
- jurâtes ( ) lemma=jurer 
- jurèrent ( ) lemma=jurer 
+ jurys ( ) 
+ jurâmes ( ) 
+ jurât ( ) 
+ jurâtes ( ) 
+ jurèrent ( ) 
  juré ( ) 
- jurée ( ) lemma=juré 
- jurées ( ) lemma=juré 
- jurés ( ) lemma=juré 
- jus ( ) 
+ jurée ( ) 
+ jurées ( ) 
+ jurés ( ) 
+ jus ( ) lemma=ajust 
  jusant ( ) 
- jusants ( ) lemma=jusant 
- jusqu' ( ) lemma=jusque 
- jusque ( ) 
+ jusants ( ) 
+ jusqu' ( ) 
  jusqu'au-boutisme ( ) 
- jusqu'au-boutismes ( ) lemma=jusqu'au-boutisme 
+ jusqu'au-boutismes ( ) 
  jusqu'au-boutiste ( ) 
- jusqu'au-boutistes ( ) lemma=jusqu'au-boutiste 
+ jusqu'au-boutistes ( ) 
+ jusque ( ) 
  jusques ( ) 
  jusquiame ( ) 
- jusquiames ( ) lemma=jusquiame 
+ jusquiames ( ) 
  jussif ( ) 
- jussifs ( ) lemma=jussif 
+ jussifs ( ) 
  jussion ( ) 
- jussions ( ) lemma=jussion 
- jussive ( ) lemma=jussif 
- jussives ( ) lemma=jussif 
+ jussions ( ) 
+ jussive ( ) 
+ jussives ( ) 
  jussiée ( ) 
- jussiées ( ) lemma=jussiée 
+ jussiées ( ) 
  justaucorps ( ) 
- juste ( ) 
+ juste ( ) lemma=ajuster 
  juste-milieu ( ) 
- justement ( ) 
- justes ( ) lemma=juste 
+ justement ( ) lemma=ajustement 
+ justes ( ) 
  justesse ( ) 
- justesses ( ) lemma=justesse 
+ justesses ( ) 
  justice ( ) 
- justices ( ) lemma=justice 
+ justices ( ) 
  justicia ( ) 
  justiciabilité ( ) 
- justiciabilités ( ) lemma=justiciabilité 
+ justiciabilités ( ) 
  justiciable ( ) 
- justiciables ( ) lemma=justiciable 
- justiciai ( ) lemma=justicier 
- justicier ( ) 
- justiciaient ( ) lemma=justicier 
- justiciais ( ) lemma=justicier 
- justiciait ( ) lemma=justicier 
+ justiciables ( ) 
+ justiciai ( ) 
+ justiciaient ( ) 
+ justiciais ( ) 
+ justiciait ( ) 
  justicialisme ( ) 
- justicialismes ( ) lemma=justicialisme 
+ justicialismes ( ) 
  justicialiste ( ) 
- justicialistes ( ) lemma=justicialiste 
- justiciant ( ) lemma=justicier 
+ justicialistes ( ) 
+ justiciant ( ) 
  justiciard ( ) 
- justiciarde ( ) lemma=justiciard 
- justiciardes ( ) lemma=justiciard 
- justiciards ( ) lemma=justiciard 
- justicias ( ) lemma=justicia 
- justiciasse ( ) lemma=justicier 
- justiciassent ( ) lemma=justicier 
- justiciasses ( ) lemma=justicier 
- justiciassiez ( ) lemma=justicier 
- justiciassions ( ) lemma=justicier 
- justicie ( ) lemma=justicier 
- justicient ( ) lemma=justicier 
- justiciera ( ) lemma=justicier 
- justicierai ( ) lemma=justicier 
- justicieraient ( ) lemma=justicier 
- justicierais ( ) lemma=justicier 
- justicierait ( ) lemma=justicier 
- justicieras ( ) lemma=justicier 
- justicierez ( ) lemma=justicier 
- justicieriez ( ) lemma=justicier 
- justicierions ( ) lemma=justicier 
- justicierons ( ) lemma=justicier 
- justicieront ( ) lemma=justicier 
- justiciers ( ) lemma=justicier 
- justicies ( ) lemma=justicier 
- justiciez ( ) lemma=justicier 
- justiciiez ( ) lemma=justicier 
- justiciions ( ) lemma=justicier 
- justicions ( ) lemma=justicier 
- justiciâmes ( ) lemma=justicier 
- justiciât ( ) lemma=justicier 
- justiciâtes ( ) lemma=justicier 
- justicière ( ) lemma=justicier 
- justicièrent ( ) lemma=justicier 
- justicières ( ) lemma=justicier 
- justicié ( ) lemma=justicier 
- justiciée ( ) lemma=justicier 
- justiciées ( ) lemma=justicier 
- justiciés ( ) lemma=justicier 
+ justiciarde ( ) 
+ justiciardes ( ) 
+ justiciards ( ) 
+ justicias ( ) 
+ justiciasse ( ) 
+ justiciassent ( ) 
+ justiciasses ( ) 
+ justiciassiez ( ) 
+ justiciassions ( ) 
+ justicie ( ) 
+ justicient ( ) 
+ justicier ( ) 
+ justiciera ( ) 
+ justicierai ( ) 
+ justicieraient ( ) 
+ justicierais ( ) 
+ justicierait ( ) 
+ justicieras ( ) 
+ justicierez ( ) 
+ justicieriez ( ) 
+ justicierions ( ) 
+ justicierons ( ) 
+ justicieront ( ) 
+ justiciers ( ) 
+ justicies ( ) 
+ justiciez ( ) 
+ justiciiez ( ) 
+ justiciions ( ) 
+ justicions ( ) 
+ justiciâmes ( ) 
+ justiciât ( ) 
+ justiciâtes ( ) 
+ justicière ( ) 
+ justicièrent ( ) 
+ justicières ( ) 
+ justicié ( ) 
+ justiciée ( ) 
+ justiciées ( ) 
+ justiciés ( ) 
  justif ( ) 
- justifia ( ) lemma=justifier 
- justifier ( ) 
+ justifia ( ) 
  justifiable ( ) 
- justifiables ( ) lemma=justifiable 
- justifiai ( ) lemma=justifier 
- justifiaient ( ) lemma=justifier 
- justifiais ( ) lemma=justifier 
- justifiait ( ) lemma=justifier 
+ justifiables ( ) 
+ justifiai ( ) 
+ justifiaient ( ) 
+ justifiais ( ) 
+ justifiait ( ) 
  justifiant ( ) 
- justifiante ( ) lemma=justifiant 
- justifiantes ( ) lemma=justifiant 
- justifiants ( ) lemma=justifiant 
- justifias ( ) lemma=justifier 
- justifiasse ( ) lemma=justifier 
- justifiassent ( ) lemma=justifier 
- justifiasses ( ) lemma=justifier 
- justifiassiez ( ) lemma=justifier 
- justifiassions ( ) lemma=justifier 
+ justifiante ( ) 
+ justifiantes ( ) 
+ justifiants ( ) 
+ justifias ( ) 
+ justifiasse ( ) 
+ justifiassent ( ) 
+ justifiasses ( ) 
+ justifiassiez ( ) 
+ justifiassions ( ) 
  justificateur ( ) 
- justificateurs ( ) lemma=justificateur 
+ justificateurs ( ) 
  justificatif ( ) 
- justificatifs ( ) lemma=justificatif 
+ justificatifs ( ) 
  justification ( ) 
- justifications ( ) lemma=justification 
- justificative ( ) lemma=justificatif 
- justificatives ( ) lemma=justificatif 
- justificatrice ( ) lemma=justificateur 
- justificatrices ( ) lemma=justificateur 
- justifie ( ) lemma=justifier 
- justifient ( ) lemma=justifier 
- justifiera ( ) lemma=justifier 
- justifierai ( ) lemma=justifier 
- justifieraient ( ) lemma=justifier 
- justifierais ( ) lemma=justifier 
- justifierait ( ) lemma=justifier 
- justifieras ( ) lemma=justifier 
- justifierez ( ) lemma=justifier 
- justifieriez ( ) lemma=justifier 
- justifierions ( ) lemma=justifier 
- justifierons ( ) lemma=justifier 
- justifieront ( ) lemma=justifier 
- justifies ( ) lemma=justifier 
- justifiez ( ) lemma=justifier 
- justifiiez ( ) lemma=justifier 
- justifiions ( ) lemma=justifier 
- justifions ( ) lemma=justifier 
- justifiâmes ( ) lemma=justifier 
- justifiât ( ) lemma=justifier 
- justifiâtes ( ) lemma=justifier 
- justifièrent ( ) lemma=justifier 
- justifié ( ) lemma=justifier 
- justifiée ( ) lemma=justifier 
- justifiées ( ) lemma=justifier 
- justifiés ( ) lemma=justifier 
- justifs ( ) lemma=justif 
+ justifications ( ) 
+ justificative ( ) 
+ justificatives ( ) 
+ justificatrice ( ) 
+ justificatrices ( ) 
+ justifie ( ) 
+ justifient ( ) 
+ justifier ( ) 
+ justifiera ( ) 
+ justifierai ( ) 
+ justifieraient ( ) 
+ justifierais ( ) 
+ justifierait ( ) 
+ justifieras ( ) 
+ justifierez ( ) 
+ justifieriez ( ) 
+ justifierions ( ) 
+ justifierons ( ) 
+ justifieront ( ) 
+ justifies ( ) 
+ justifiez ( ) 
+ justifiiez ( ) 
+ justifiions ( ) 
+ justifions ( ) 
+ justifiâmes ( ) 
+ justifiât ( ) 
+ justifiâtes ( ) 
+ justifièrent ( ) 
+ justifié ( ) 
+ justifiée ( ) 
+ justifiées ( ) 
+ justifiés ( ) 
+ justifs ( ) 
  justin ( ) 
- justins ( ) lemma=justin 
+ justins ( ) 
  jusée ( ) 
- jusées ( ) lemma=jusée 
- juta ( ) lemma=juter 
- juter ( ) 
- jutage ( ) 
- jutages ( ) lemma=jutage 
- jutai ( ) lemma=juter 
- jutaient ( ) lemma=juter 
- jutais ( ) lemma=juter 
- jutait ( ) lemma=juter 
- jutant ( ) lemma=juter 
- jutas ( ) lemma=juter 
- jutasse ( ) lemma=juter 
- jutassent ( ) lemma=juter 
- jutasses ( ) lemma=juter 
- jutassiez ( ) lemma=juter 
- jutassions ( ) lemma=juter 
- jute ( ) 
- jutent ( ) lemma=juter 
- jutera ( ) lemma=juter 
- juterai ( ) lemma=juter 
- juteraient ( ) lemma=juter 
- juterais ( ) lemma=juter 
- juterait ( ) lemma=juter 
- juteras ( ) lemma=juter 
- juterez ( ) lemma=juter 
- juteriez ( ) lemma=juter 
- juterions ( ) lemma=juter 
- juterons ( ) lemma=juter 
- juteront ( ) lemma=juter 
- jutes ( ) lemma=jute 
- juteuse ( ) lemma=juteux 
+ jusées ( ) 
+ juta ( ) lemma=ajuter 
+ jutage ( ) lemma=ajutage 
+ jutages ( ) 
+ jutai ( ) lemma=ajuter 
+ jutaient ( ) 
+ jutais ( ) 
+ jutait ( ) 
+ jutant ( ) 
+ jutas ( ) 
+ jutasse ( ) lemma=ajuter 
+ jutassent ( ) 
+ jutasses ( ) 
+ jutassiez ( ) 
+ jutassions ( ) 
+ jute ( ) lemma=ajuter 
+ jutent ( ) 
+ juter ( ) lemma=ajuter 
+ jutera ( ) lemma=ajuter 
+ juterai ( ) lemma=ajuter 
+ juteraient ( ) 
+ juterais ( ) 
+ juterait ( ) 
+ juteras ( ) 
+ juterez ( ) 
+ juteriez ( ) 
+ juterions ( ) 
+ juterons ( ) 
+ juteront ( ) 
+ jutes ( ) 
+ juteuse ( ) 
+ juteuses ( ) 
  juteux ( ) 
- juteuses ( ) lemma=juteux 
- jutez ( ) lemma=juter 
- jutiez ( ) lemma=juter 
- jutions ( ) lemma=juter 
- jutons ( ) lemma=juter 
- jutâmes ( ) lemma=juter 
- jutât ( ) lemma=juter 
- jutâtes ( ) lemma=juter 
- jutèrent ( ) lemma=juter 
- juté ( ) lemma=juter 
- jutée ( ) lemma=juter 
- jutées ( ) lemma=juter 
- jutés ( ) lemma=juter 
+ jutez ( ) 
+ jutiez ( ) 
+ jutions ( ) 
+ jutons ( ) 
+ jutâmes ( ) 
+ jutât ( ) 
+ jutâtes ( ) 
+ jutèrent ( ) 
+ juté ( ) lemma=ajuter 
+ jutée ( ) lemma=ajuter 
+ jutées ( ) 
+ jutés ( ) 
  juvenilia ( ) 
  juvénat ( ) 
- juvénats ( ) lemma=juvénat 
+ juvénats ( ) 
  juvénile ( ) 
  juvénilement ( ) 
- juvéniles ( ) lemma=juvénile 
+ juvéniles ( ) 
  juvénilisme ( ) 
- juvénilismes ( ) lemma=juvénilisme 
+ juvénilismes ( ) 
  juvénilité ( ) 
- juvénilités ( ) lemma=juvénilité 
+ juvénilités ( ) 
  juxta-articulaire ( ) 
- juxta-articulaires ( ) lemma=juxta-articulaire 
+ juxta-articulaires ( ) 
  juxta-épiphysaire ( ) 
- juxta-épiphysaires ( ) lemma=juxta-épiphysaire 
+ juxta-épiphysaires ( ) 
  juxtaliminaire ( ) 
- juxtaliminaires ( ) lemma=juxtaliminaire 
+ juxtaliminaires ( ) 
  juxtalinéaire ( ) 
  juxtalinéairement ( ) 
- juxtalinéaires ( ) lemma=juxtalinéaire 
- juxtaposa ( ) lemma=juxtaposer 
- juxtaposer ( ) 
+ juxtalinéaires ( ) 
+ juxtaposa ( ) 
  juxtaposable ( ) 
- juxtaposables ( ) lemma=juxtaposable 
- juxtaposai ( ) lemma=juxtaposer 
- juxtaposaient ( ) lemma=juxtaposer 
- juxtaposais ( ) lemma=juxtaposer 
- juxtaposait ( ) lemma=juxtaposer 
+ juxtaposables ( ) 
+ juxtaposai ( ) 
+ juxtaposaient ( ) 
+ juxtaposais ( ) 
+ juxtaposait ( ) 
  juxtaposant ( ) 
- juxtaposante ( ) lemma=juxtaposant 
- juxtaposantes ( ) lemma=juxtaposant 
- juxtaposants ( ) lemma=juxtaposant 
- juxtaposas ( ) lemma=juxtaposer 
- juxtaposasse ( ) lemma=juxtaposer 
- juxtaposassent ( ) lemma=juxtaposer 
- juxtaposasses ( ) lemma=juxtaposer 
- juxtaposassiez ( ) lemma=juxtaposer 
- juxtaposassions ( ) lemma=juxtaposer 
- juxtapose ( ) lemma=juxtaposer 
- juxtaposent ( ) lemma=juxtaposer 
- juxtaposera ( ) lemma=juxtaposer 
- juxtaposerai ( ) lemma=juxtaposer 
- juxtaposeraient ( ) lemma=juxtaposer 
- juxtaposerais ( ) lemma=juxtaposer 
- juxtaposerait ( ) lemma=juxtaposer 
- juxtaposeras ( ) lemma=juxtaposer 
- juxtaposerez ( ) lemma=juxtaposer 
- juxtaposeriez ( ) lemma=juxtaposer 
- juxtaposerions ( ) lemma=juxtaposer 
- juxtaposerons ( ) lemma=juxtaposer 
- juxtaposeront ( ) lemma=juxtaposer 
- juxtaposes ( ) lemma=juxtaposer 
- juxtaposez ( ) lemma=juxtaposer 
- juxtaposiez ( ) lemma=juxtaposer 
- juxtaposions ( ) lemma=juxtaposer 
+ juxtaposante ( ) 
+ juxtaposantes ( ) 
+ juxtaposants ( ) 
+ juxtaposas ( ) 
+ juxtaposasse ( ) 
+ juxtaposassent ( ) 
+ juxtaposasses ( ) 
+ juxtaposassiez ( ) 
+ juxtaposassions ( ) 
+ juxtapose ( ) 
+ juxtaposent ( ) 
+ juxtaposer ( ) 
+ juxtaposera ( ) 
+ juxtaposerai ( ) 
+ juxtaposeraient ( ) 
+ juxtaposerais ( ) 
+ juxtaposerait ( ) 
+ juxtaposeras ( ) 
+ juxtaposerez ( ) 
+ juxtaposeriez ( ) 
+ juxtaposerions ( ) 
+ juxtaposerons ( ) 
+ juxtaposeront ( ) 
+ juxtaposes ( ) 
+ juxtaposez ( ) 
+ juxtaposiez ( ) 
+ juxtaposions ( ) 
  juxtaposition ( ) 
- juxtapositions ( ) lemma=juxtaposition 
- juxtaposons ( ) lemma=juxtaposer 
- juxtaposâmes ( ) lemma=juxtaposer 
- juxtaposât ( ) lemma=juxtaposer 
- juxtaposâtes ( ) lemma=juxtaposer 
- juxtaposèrent ( ) lemma=juxtaposer 
- juxtaposé ( ) lemma=juxtaposer 
- juxtaposée ( ) lemma=juxtaposer 
- juxtaposées ( ) lemma=juxtaposer 
- juxtaposés ( ) lemma=juxtaposer 
+ juxtapositions ( ) 
+ juxtaposons ( ) 
+ juxtaposâmes ( ) 
+ juxtaposât ( ) 
+ juxtaposâtes ( ) 
+ juxtaposèrent ( ) 
+ juxtaposé ( ) 
+ juxtaposée ( ) 
+ juxtaposées ( ) 
+ juxtaposés ( ) 
  juxtatropical ( ) 
- juxtatropicale ( ) lemma=juxtatropical 
- juxtatropicales ( ) lemma=juxtatropical 
- juxtatropicaux ( ) lemma=juxtatropical 
+ juxtatropicale ( ) 
+ juxtatropicales ( ) 
+ juxtatropicaux ( ) 
  jy ( ) 
  jèze ( ) 
- jèzes ( ) lemma=jèze 
+ jèzes ( ) 
  jéciste ( ) 
- jécistes ( ) lemma=jéciste 
+ jécistes ( ) 
  jéhoviste ( ) 
- jéhovistes ( ) lemma=jéhoviste 
+ jéhovistes ( ) 
  jéjunal ( ) 
- jéjunale ( ) lemma=jéjunal 
- jéjunales ( ) lemma=jéjunal 
- jéjunaux ( ) lemma=jéjunal 
+ jéjunale ( ) 
+ jéjunales ( ) 
+ jéjunaux ( ) 
  jéjunite ( ) 
- jéjunites ( ) lemma=jéjunite 
+ jéjunites ( ) 
  jéjuno-iléite ( ) 
- jéjuno-iléites ( ) lemma=jéjuno-iléite 
+ jéjuno-iléites ( ) 
  jéjuno-iléon ( ) 
- jéjuno-iléons ( ) lemma=jéjuno-iléon 
+ jéjuno-iléons ( ) 
  jéjunoscope ( ) 
- jéjunoscopes ( ) lemma=jéjunoscope 
+ jéjunoscopes ( ) 
  jéjunostomie ( ) 
- jéjunostomies ( ) lemma=jéjunostomie 
+ jéjunostomies ( ) 
  jéjunum ( ) 
- jéjunums ( ) lemma=jéjunum 
+ jéjunums ( ) 
  jéroboam ( ) 
- jéroboams ( ) lemma=jéroboam 
- jérémiada ( ) lemma=jérémiader 
- jérémiader ( ) 
- jérémiadai ( ) lemma=jérémiader 
- jérémiadaient ( ) lemma=jérémiader 
- jérémiadais ( ) lemma=jérémiader 
- jérémiadait ( ) lemma=jérémiader 
- jérémiadant ( ) lemma=jérémiader 
- jérémiadas ( ) lemma=jérémiader 
- jérémiadasse ( ) lemma=jérémiader 
- jérémiadassent ( ) lemma=jérémiader 
- jérémiadasses ( ) lemma=jérémiader 
- jérémiadassiez ( ) lemma=jérémiader 
- jérémiadassions ( ) lemma=jérémiader 
+ jéroboams ( ) 
+ jérémiada ( ) 
+ jérémiadai ( ) 
+ jérémiadaient ( ) 
+ jérémiadais ( ) 
+ jérémiadait ( ) 
+ jérémiadant ( ) 
+ jérémiadas ( ) 
+ jérémiadasse ( ) 
+ jérémiadassent ( ) 
+ jérémiadasses ( ) 
+ jérémiadassiez ( ) 
+ jérémiadassions ( ) 
  jérémiade ( ) 
- jérémiadent ( ) lemma=jérémiader 
- jérémiadera ( ) lemma=jérémiader 
- jérémiaderai ( ) lemma=jérémiader 
- jérémiaderaient ( ) lemma=jérémiader 
- jérémiaderais ( ) lemma=jérémiader 
- jérémiaderait ( ) lemma=jérémiader 
- jérémiaderas ( ) lemma=jérémiader 
- jérémiaderez ( ) lemma=jérémiader 
- jérémiaderiez ( ) lemma=jérémiader 
- jérémiaderions ( ) lemma=jérémiader 
- jérémiaderons ( ) lemma=jérémiader 
- jérémiaderont ( ) lemma=jérémiader 
- jérémiades ( ) lemma=jérémiade 
- jérémiadez ( ) lemma=jérémiader 
- jérémiadiez ( ) lemma=jérémiader 
- jérémiadions ( ) lemma=jérémiader 
- jérémiadons ( ) lemma=jérémiader 
- jérémiadâmes ( ) lemma=jérémiader 
- jérémiadât ( ) lemma=jérémiader 
- jérémiadâtes ( ) lemma=jérémiader 
- jérémiadèrent ( ) lemma=jérémiader 
- jérémiadé ( ) lemma=jérémiader 
- jérémiadée ( ) lemma=jérémiader 
- jérémiadées ( ) lemma=jérémiader 
- jérémiadés ( ) lemma=jérémiader 
+ jérémiadent ( ) 
+ jérémiader ( ) 
+ jérémiadera ( ) 
+ jérémiaderai ( ) 
+ jérémiaderaient ( ) 
+ jérémiaderais ( ) 
+ jérémiaderait ( ) 
+ jérémiaderas ( ) 
+ jérémiaderez ( ) 
+ jérémiaderiez ( ) 
+ jérémiaderions ( ) 
+ jérémiaderons ( ) 
+ jérémiaderont ( ) 
+ jérémiades ( ) 
+ jérémiadez ( ) 
+ jérémiadiez ( ) 
+ jérémiadions ( ) 
+ jérémiadons ( ) 
+ jérémiadâmes ( ) 
+ jérémiadât ( ) 
+ jérémiadâtes ( ) 
+ jérémiadèrent ( ) 
+ jérémiadé ( ) 
+ jérémiadée ( ) 
+ jérémiadées ( ) 
+ jérémiadés ( ) 
  jésuite ( ) 
  jésuitement ( ) 
  jésuiterie ( ) 
- jésuiteries ( ) lemma=jésuiterie 
- jésuites ( ) lemma=jésuite 
+ jésuiteries ( ) 
+ jésuites ( ) 
  jésuitique ( ) 
  jésuitiquement ( ) 
- jésuitiques ( ) lemma=jésuitique 
- jésuitisa ( ) lemma=jésuitiser 
+ jésuitiques ( ) 
+ jésuitisa ( ) 
+ jésuitisai ( ) 
+ jésuitisaient ( ) 
+ jésuitisais ( ) 
+ jésuitisait ( ) 
+ jésuitisant ( ) 
+ jésuitisas ( ) 
+ jésuitisasse ( ) 
+ jésuitisassent ( ) 
+ jésuitisasses ( ) 
+ jésuitisassiez ( ) 
+ jésuitisassions ( ) 
+ jésuitise ( ) 
+ jésuitisent ( ) 
  jésuitiser ( ) 
- jésuitisai ( ) lemma=jésuitiser 
- jésuitisaient ( ) lemma=jésuitiser 
- jésuitisais ( ) lemma=jésuitiser 
- jésuitisait ( ) lemma=jésuitiser 
- jésuitisant ( ) lemma=jésuitiser 
- jésuitisas ( ) lemma=jésuitiser 
- jésuitisasse ( ) lemma=jésuitiser 
- jésuitisassent ( ) lemma=jésuitiser 
- jésuitisasses ( ) lemma=jésuitiser 
- jésuitisassiez ( ) lemma=jésuitiser 
- jésuitisassions ( ) lemma=jésuitiser 
- jésuitise ( ) lemma=jésuitiser 
- jésuitisent ( ) lemma=jésuitiser 
- jésuitisera ( ) lemma=jésuitiser 
- jésuitiserai ( ) lemma=jésuitiser 
- jésuitiseraient ( ) lemma=jésuitiser 
- jésuitiserais ( ) lemma=jésuitiser 
- jésuitiserait ( ) lemma=jésuitiser 
- jésuitiseras ( ) lemma=jésuitiser 
- jésuitiserez ( ) lemma=jésuitiser 
- jésuitiseriez ( ) lemma=jésuitiser 
- jésuitiserions ( ) lemma=jésuitiser 
- jésuitiserons ( ) lemma=jésuitiser 
- jésuitiseront ( ) lemma=jésuitiser 
- jésuitises ( ) lemma=jésuitiser 
- jésuitisez ( ) lemma=jésuitiser 
- jésuitisiez ( ) lemma=jésuitiser 
- jésuitisions ( ) lemma=jésuitiser 
+ jésuitisera ( ) 
+ jésuitiserai ( ) 
+ jésuitiseraient ( ) 
+ jésuitiserais ( ) 
+ jésuitiserait ( ) 
+ jésuitiseras ( ) 
+ jésuitiserez ( ) 
+ jésuitiseriez ( ) 
+ jésuitiserions ( ) 
+ jésuitiserons ( ) 
+ jésuitiseront ( ) 
+ jésuitises ( ) 
+ jésuitisez ( ) 
+ jésuitisiez ( ) 
+ jésuitisions ( ) 
  jésuitisme ( ) 
- jésuitismes ( ) lemma=jésuitisme 
- jésuitisons ( ) lemma=jésuitiser 
- jésuitisâmes ( ) lemma=jésuitiser 
- jésuitisât ( ) lemma=jésuitiser 
- jésuitisâtes ( ) lemma=jésuitiser 
- jésuitisèrent ( ) lemma=jésuitiser 
- jésuitisé ( ) lemma=jésuitiser 
- jésuitisée ( ) lemma=jésuitiser 
- jésuitisées ( ) lemma=jésuitiser 
- jésuitisés ( ) lemma=jésuitiser 
+ jésuitismes ( ) 
+ jésuitisons ( ) 
+ jésuitisâmes ( ) 
+ jésuitisât ( ) 
+ jésuitisâtes ( ) 
+ jésuitisèrent ( ) 
+ jésuitisé ( ) 
+ jésuitisée ( ) 
+ jésuitisées ( ) 
+ jésuitisés ( ) 
  jésuitière ( ) 
- jésuitières ( ) lemma=jésuitière 
+ jésuitières ( ) 
  jésus ( ) 
+ j ( ) lemma=je 
+ J ( ) lemma=BJP 
+ ja ( ) lemma=ajax 
+ jist ( ) lemma=ajiste 
+ jiste ( ) lemma=ajiste 
+ jointaien ( ) lemma=ajointer 
+ jointan ( ) lemma=ajointer 
+ jointass ( ) lemma=ajointer 
+ jointassen ( ) lemma=ajointer 
+ jointassie ( ) lemma=ajointer 
+ jointassion ( ) lemma=ajointer 
+ jointen ( ) lemma=ajointer 
+ jointeraien ( ) lemma=ajointer 
+ jointere ( ) lemma=ajointer 
+ jointerie ( ) lemma=ajointer 
+ jointerion ( ) lemma=ajointer 
+ jointeron ( ) lemma=ajointer 
+ jointie ( ) lemma=ajointer 
+ jointion ( ) lemma=ajointer 
+ jointon ( ) lemma=ajointer 
+ jointâme ( ) lemma=ajointer 
+ jointâ ( ) lemma=ajointer 
+ jointâte ( ) lemma=ajointer 
+ jointèren ( ) lemma=ajointer 
+ joint� ( ) lemma=ajointer 
+ jon ( ) lemma=ajonc 
+ joup ( ) lemma=ajoupa 
+ joupa ( ) lemma=ajoupa 
+ jou ( ) lemma=ajout 
+ jourag ( ) lemma=ajourage 
+ jourage ( ) lemma=ajourage 
+ joura ( ) lemma=ajourer 
+ jouraien ( ) lemma=ajourer 
+ jourai ( ) lemma=ajourer 
+ jouran ( ) lemma=ajourer 
+ jourass ( ) lemma=ajourer 
+ jourassen ( ) lemma=ajourer 
+ jourasse ( ) lemma=ajourer 
+ jourassie ( ) lemma=ajourer 
+ jourassion ( ) lemma=ajourer 
+ jouren ( ) lemma=ajourer 
+ joure ( ) lemma=ajourer 
+ jourer ( ) lemma=ajourer 
+ jourera ( ) lemma=ajourer 
+ joureraien ( ) lemma=ajourer 
+ jourerai ( ) lemma=ajourer 
+ jourere ( ) lemma=ajourer 
+ jourerie ( ) lemma=ajourer 
+ jourerion ( ) lemma=ajourer 
+ joureron ( ) lemma=ajourer 
+ jourie ( ) lemma=ajourer 
+ jourion ( ) lemma=ajourer 
+ journ ( ) lemma=ajourner 
+ journabl ( ) lemma=ajournable 
+ journable ( ) lemma=ajournable 
+ journa ( ) lemma=ajourner 
+ journaien ( ) lemma=ajourner 
+ journai ( ) lemma=ajourner 
+ journan ( ) lemma=ajourner 
+ journass ( ) lemma=ajourner 
+ journassen ( ) lemma=ajourner 
+ journasse ( ) lemma=ajourner 
+ journassie ( ) lemma=ajourner 
+ journassion ( ) lemma=ajourner 
+ journemen ( ) lemma=ajournement 
+ journement ( ) lemma=ajournement 
+ journen ( ) lemma=ajourner 
+ journe ( ) lemma=ajourner 
+ journer ( ) lemma=ajourner 
+ journera ( ) lemma=ajourner 
+ journeraien ( ) lemma=ajourner 
+ journerai ( ) lemma=ajourner 
+ journere ( ) lemma=ajourner 
+ journerie ( ) lemma=ajourner 
+ journerion ( ) lemma=ajourner 
+ journeron ( ) lemma=ajourner 
+ journie ( ) lemma=ajourner 
+ journion ( ) lemma=ajourner 
+ journon ( ) lemma=ajourner 
+ journâme ( ) lemma=ajourner 
+ journâ ( ) lemma=ajourner 
+ journâte ( ) lemma=ajourner 
+ journèren ( ) lemma=ajourner 
+ journ� ( ) lemma=ajourner 
+ journé ( ) lemma=ajourner 
+ jouron ( ) lemma=ajourer 
+ jourâme ( ) lemma=ajourer 
+ jourâ ( ) lemma=ajourer 
+ jourâte ( ) lemma=ajourer 
+ jourèren ( ) lemma=ajourer 
+ jour� ( ) lemma=ajouré 
+ jouré ( ) lemma=ajouré 
+ jourée ( ) lemma=ajouré 
+ jout ( ) lemma=ajout 
+ joutag ( ) lemma=ajoutage 
+ joutage ( ) lemma=ajoutage 
+ joutaien ( ) lemma=ajouter 
+ joutan ( ) lemma=ajouter 
+ joutass ( ) lemma=ajouter 
+ joutassen ( ) lemma=ajouter 
+ joutassie ( ) lemma=ajouter 
+ joutassion ( ) lemma=ajouter 
+ joutemen ( ) lemma=ajoutement 
+ joutement ( ) lemma=ajoutement 
+ jouten ( ) lemma=ajouter 
+ jouteraien ( ) lemma=ajouter 
+ joutere ( ) lemma=ajouter 
+ jouterie ( ) lemma=ajouter 
+ jouterion ( ) lemma=ajouter 
+ jouteron ( ) lemma=ajouter 
+ joutie ( ) lemma=ajouter 
+ joution ( ) lemma=ajouter 
+ joutoi ( ) lemma=ajoutoir 
+ joutoir ( ) lemma=ajoutoir 
+ jouton ( ) lemma=ajouter 
+ joutur ( ) lemma=ajouture 
+ jouture ( ) lemma=ajouture 
+ joutâme ( ) lemma=ajouter 
+ joutâ ( ) lemma=ajouter 
+ joutâte ( ) lemma=ajouter 
+ joutèren ( ) lemma=ajouter 
+ jout� ( ) lemma=ajouté 
+ just ( ) lemma=ajust 
+ justabl ( ) lemma=ajustable 
+ justable ( ) lemma=ajustable 
+ justag ( ) lemma=ajustage 
+ justage ( ) lemma=ajustage 
+ justa ( ) lemma=ajuster 
+ justaien ( ) lemma=ajuster 
+ justai ( ) lemma=ajuster 
+ justan ( ) lemma=ajuster 
+ justass ( ) lemma=ajuster 
+ justassen ( ) lemma=ajuster 
+ justasse ( ) lemma=ajuster 
+ justassie ( ) lemma=ajuster 
+ justassion ( ) lemma=ajuster 
+ justemen ( ) lemma=ajustement 
+ justen ( ) lemma=ajuster 
+ juster ( ) lemma=ajuster 
+ justera ( ) lemma=ajuster 
+ justeraien ( ) lemma=ajuster 
+ justerai ( ) lemma=ajuster 
+ justere ( ) lemma=ajuster 
+ justerie ( ) lemma=ajuster 
+ justerion ( ) lemma=ajuster 
+ justeron ( ) lemma=ajuster 
+ justeu ( ) lemma=ajusteur 
+ justeur ( ) lemma=ajusteur 
+ justie ( ) lemma=ajuster 
+ justion ( ) lemma=ajuster 
+ justoi ( ) lemma=ajustoir 
+ justoir ( ) lemma=ajustoir 
+ juston ( ) lemma=ajuster 
+ justur ( ) lemma=ajusture 
+ justure ( ) lemma=ajusture 
+ justâme ( ) lemma=ajuster 
+ justâ ( ) lemma=ajuster 
+ justâte ( ) lemma=ajuster 
+ justèren ( ) lemma=ajuster 
+ just� ( ) lemma=ajuster 
+ justé ( ) lemma=ajuster 
+ justée ( ) lemma=ajuster 
+ ju ( ) lemma=ajut 
+ jut ( ) lemma=ajut 
+ jutag ( ) lemma=ajutage 
+ jutaien ( ) lemma=ajuter 
+ jutan ( ) lemma=ajuter 
+ jutass ( ) lemma=ajuter 
+ jutassen ( ) lemma=ajuter 
+ jutassie ( ) lemma=ajuter 
+ jutassion ( ) lemma=ajuter 
+ juten ( ) lemma=ajuter 
+ juteraien ( ) lemma=ajuter 
+ jutere ( ) lemma=ajuter 
+ juterie ( ) lemma=ajuter 
+ juterion ( ) lemma=ajuter 
+ juteron ( ) lemma=ajuter 
+ jutie ( ) lemma=ajuter 
+ jution ( ) lemma=ajuter 
+ jutoi ( ) lemma=ajutoir 
+ jutoir ( ) lemma=ajutoir 
+ juton ( ) lemma=ajuter 
+ jutâme ( ) lemma=ajuter 
+ jutâ ( ) lemma=ajuter 
+ jutâte ( ) lemma=ajuter 
+ jutèren ( ) lemma=ajuter 
+ jut� ( ) lemma=ajuter 
+ jaï ( ) lemma=djaïn 
+ jaïnism ( ) lemma=djaïnisme 
+ jebe ( ) lemma=djebel 
+ jebel ( ) lemma=djebel 
+ jellab ( ) lemma=djellaba 
+ jemâ� ( ) lemma=djemââ 
+ jemââ ( ) lemma=djemââ 
+ jic ( ) lemma=djich 
+ jiha ( ) lemma=djihad 
+ jin ( ) lemma=djinn 
+ jinn ( ) lemma=djinn 
+ ject ( ) lemma=ejecta 
+ jel ( ) lemma=fjeld 
+ jeld ( ) lemma=fjeld 
+ jor ( ) lemma=fjord 
+ jordie ( ) lemma=fjordien 
+ jordienn ( ) lemma=fjordien 
+ jordienne ( ) lemma=fjordien 
+ jordien ( ) lemma=fjordien 
+ jord ( ) lemma=fjord 
+ jacque|jacques ( ) 
+ jar|jars ( ) 
+ jean|jeans ( ) 
+ journal|journau ( ) 
+ jökkenmöddin ( ) lemma=kjökkenmödding 
+ jökkenmödding ( ) lemma=kjökkenmödding 
+ jaël ( ) lemma=tjaële 
+ jaële ( ) lemma=tjaële 
+ jäl ( ) lemma=tjäle 
+ jäle ( ) lemma=tjäle 

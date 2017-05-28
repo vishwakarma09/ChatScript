@@ -1,4 +1,4 @@
-﻿ 1 ( ) 
+﻿ 1 ( ) lemma=Z11 
  1,- ( ) 
  1,-- ( ) 
  1,028 ( ) 
@@ -6,32 +6,27 @@
  1,1%- ( ) 
  1,1-Kilo-Packung ( ) 
  1,1-Kubikmeter-Container ( ) 
- 1,1-Kubikmeter-Containern ( ) lemma=1,1-Kubikmeter-Container 
- 1,1-Milliarden ( ) lemma=1,1-Milliarde 
- 1,1-Milliarde ( ) 
+ 1,1-Kubikmeter-Containern ( ) 
+ 1,1-Milliarden ( ) 
  1,1-Millionen-Watt-Reaktor ( ) 
  1,2 ( ) 
  1,2%- ( ) 
  1,2-Liter-Flasche ( ) 
  1,2-Millionen-Einwohner-Stadt ( ) 
  1,2-Millionen-Etat ( ) 
- 1,2-Millionen-Mark-Computers ( ) lemma=1,2-Millionen-Mark-Computer 
- 1,2-Millionen-Mark-Computer ( ) 
+ 1,2-Millionen-Mark-Computers ( ) 
  1,2-Millionen-Stadt ( ) 
- 1,2-ungesättigtem ( ) lemma=1,2-ungesättigt 
- 1,2-ungesättigt ( ) 
- 1,2-ungesättigten ( ) lemma=1,2-ungesättigt 
+ 1,2-ungesättigtem ( ) 
+ 1,2-ungesättigten ( ) 
  1,22 ( ) 
  1,2355 ( ) 
  1,2400 ( ) 
  1,2936/46 ( ) 
  1,358 ( ) 
- 1,35fache ( ) lemma=1,35fach 
- 1,35fach ( ) 
+ 1,35fache ( ) 
  1,3870 ( ) 
- 1,3fache ( ) lemma=1,3fach 
- 1,3fach ( ) 
- 1,3fachen ( ) lemma=1,3fach 
+ 1,3fache ( ) 
+ 1,3fachen ( ) 
  1,4 ( ) 
  1,4%- ( ) 
  1,4-Millionen-Mark-Projekt ( ) 
@@ -44,13 +39,11 @@
  1,4970/80 ( ) 
  1,5 ( ) 
  1,5%- ( ) 
- 1,5-Liter-Flaschen ( ) lemma=1,5-Liter-Flasche 
- 1,5-Liter-Flasche ( ) 
+ 1,5-Liter-Flaschen ( ) 
  1,5-Millionen- ( ) 
  1,5-Millionen-Stadt ( ) 
  1,5-Prozent-Hürde ( ) 
- 1,5-facher ( ) lemma=1,5-fach 
- 1,5-fach ( ) 
+ 1,5-facher ( ) 
  1,5660/70 ( ) 
  1,5695 ( ) 
  1,5700/10 ( ) 
@@ -59,19 +52,15 @@
  1,5850/60 ( ) 
  1,5910/20 ( ) 
  1,5980/90 ( ) 
- 1,5fache ( ) lemma=1,5fach 
- 1,5fach ( ) 
- 1,5prozentigen ( ) lemma=1,5prozentig 
- 1,5prozentig ( ) 
+ 1,5fache ( ) 
+ 1,5prozentigen ( ) 
  1,6%- ( ) 
  1,6-Millionen-Projekt ( ) 
  1,6-Millionen-Stadt ( ) 
- 1,6-facher ( ) lemma=1,6-fach 
- 1,6-fach ( ) 
+ 1,6-facher ( ) 
  1,6300/10 ( ) 
  1,6310/20 ( ) 
- 1,6fache ( ) lemma=1,6fach 
- 1,6fach ( ) 
+ 1,6fache ( ) 
  1,7 ( ) 
  1,7%- ( ) 
  1,75 ( ) 
@@ -83,17 +72,15 @@
  1,9 ( ) 
  1,9%- ( ) 
  1,9-Millionen-Zuschuss ( ) 
- 1,9-Millionen-Zuschuß ( ) lemma=1,9-Millionen-Zuschuss 
- 1- ( ) 
+ 1,9-Millionen-Zuschuß ( ) 
+ 1- ( ) lemma=71-R 
  1-A ( ) 
- 1-A-Geldscheine ( ) lemma=1-A-Geldschein 
- 1-A-Geldschein ( ) 
+ 1-A-Geldscheine ( ) 
  1-Anlage ( ) 
  1-Auto ( ) 
  1-Beitrag ( ) 
  1-Bibel-Lexikon ( ) 
- 1-Bibellexikon ( ) lemma=1-Bibellexika 
- 1-Bibellexika ( ) 
+ 1-Bibellexikon ( ) 
  1-Brompropan ( ) 
  1-Bällchen ( ) 
  1-Chef ( ) 
@@ -104,24 +91,22 @@
  1-Feuilleton ( ) 
  1-Film ( ) 
  1-Frühstücksfernsehen ( ) 
- 1-Fussballsendung ( ) lemma=1-Fußballsendung 
+ 1-Fussballsendung ( ) 
+ 1-Fussballshow ( ) 
  1-Fußballsendung ( ) 
- 1-Fussballshow ( ) lemma=1-Fußballshow 
  1-Fußballshow ( ) 
  1-Geschäftsführer ( ) 
  1-Geschäftsführung ( ) 
  1-Gesellschafter ( ) 
  1-Glücksrad ( ) 
- 1-Hexen ( ) lemma=1-Hexe 
- 1-Hexe ( ) 
+ 1-Hexen ( ) 
  1-Horn ( ) 
  1-Informationsdirektor ( ) 
  1-Interview ( ) 
  1-Jugend ( ) 
- 1-Klasse ( ) 
+ 1-Klasse ( ) lemma=11-Klasse 
  1-Kollegin ( ) 
- 1-Kunden ( ) lemma=1-Kunde 
- 1-Kunde ( ) 
+ 1-Kunden ( ) 
  1-Lebenshilfe ( ) 
  1-Leute ( ) 
  1-M ( ) 
@@ -131,9 +116,8 @@
  1-Mitarbeiterin ( ) 
  1-Moderator ( ) 
  1-Netz ( ) 
- 1-Netzes ( ) lemma=1-Netz 
- 1-Notizen ( ) lemma=1-Notiz 
- 1-Notiz ( ) 
+ 1-Netzes ( ) 
+ 1-Notizen ( ) 
  1-Panzer ( ) 
  1-Plus ( ) 
  1-Pressekonferenz ( ) 
@@ -161,10 +145,8 @@
  1-Vertreter ( ) 
  1-Weltmeisterschaft ( ) 
  1-West ( ) 
- 1-Zimmer-Appartements ( ) lemma=1-Zimmer-Appartement 
- 1-Zimmer-Appartement ( ) 
- 1-fachen ( ) lemma=1-fach 
- 1-fach ( ) 
+ 1-Zimmer-Appartements ( ) 
+ 1-fachen ( ) 
  1-m-Brett ( ) 
  1. ( ) 
  1.-August-Feier ( ) 
@@ -174,20 +156,17 @@
  1.000-Dächer-Programm ( ) 
  1.000-Jahr-Feier ( ) 
  1.000-Jahrfeier ( ) 
- 1.000-MW-Reaktoren ( ) lemma=1.000-MW-Reaktor 
- 1.000-MW-Reaktor ( ) 
+ 1.000-MW-Reaktoren ( ) 
  1.000-Mark- ( ) 
  1.000-Mark-Grenze ( ) 
- 1.000-Mark-Scheine ( ) lemma=1.000-Mark-Schein 
- 1.000-Mark-Schein ( ) 
- 1.000-Mark-Scheinen ( ) lemma=1.000-Mark-Schein 
+ 1.000-Mark-Scheine ( ) 
+ 1.000-Mark-Scheinen ( ) 
  1.000-Marks-Rad ( ) 
  1.000-Megawatt- ( ) 
- 1.000-Megawatt-Blöcke ( ) lemma=1.000-Megawatt-Block 
- 1.000-Megawatt-Block ( ) 
+ 1.000-Megawatt-Blöcke ( ) 
  1.000-Megawatt-Klasse ( ) 
  1.000-Megawatt-Reaktor ( ) 
- 1.000-Megawatt-Reaktoren ( ) lemma=1.000-Megawatt-Reaktor 
+ 1.000-Megawatt-Reaktoren ( ) 
  1.000-Meter-Lauf ( ) 
  1.000-Meter-Zeitfahren ( ) 
  1.000-Seelen-Dorf ( ) 
@@ -199,38 +178,33 @@
  1.000er ( ) 
  1.000er- ( ) 
  1.000fach ( ) 
- 1.000fache ( ) lemma=1.000fach 
- 1.000jährigen ( ) lemma=1.000jährig 
- 1.000jährig ( ) 
- 1.000köpfige ( ) lemma=1.000köpfig 
- 1.000köpfig ( ) 
+ 1.000fache ( ) 
+ 1.000jährigen ( ) 
+ 1.000köpfige ( ) 
  1.200-Jahr-Feier ( ) 
- 1.200-Jahr-Feiern ( ) lemma=1.200-Jahr-Feier 
+ 1.200-Jahr-Feiern ( ) 
  1.200-Seelen-Gemeinde ( ) 
- 1.200jährigen ( ) lemma=1.200jährig 
- 1.200jährig ( ) 
- 1.300-MW-Reaktoren ( ) lemma=1.300-MW-Reaktor 
- 1.300-MW-Reaktor ( ) 
+ 1.200jährigen ( ) 
+ 1.300-MW-Reaktoren ( ) 
  1.300-Megawatt ( ) 
  1.300-Megawatt- ( ) 
  1.300-Megawatt-Block ( ) 
  1.300-Megawatt-Druckwasserreaktor ( ) 
  1.300-Megawatt-Reaktor ( ) 
- 1.300-Megawatt-Reaktoren ( ) lemma=1.300-Megawatt-Reaktor 
- 1.300-Megawatt-Reaktors ( ) lemma=1.300-Megawatt-Reaktor 
+ 1.300-Megawatt-Reaktoren ( ) 
+ 1.300-Megawatt-Reaktors ( ) 
  1.5/2 ( ) 
  1.500-Megawatt- ( ) 
  1.500-Megawatt-Reaktor ( ) 
  1.500-Meter-Lauf ( ) 
- 1.500-Meter-Läufers ( ) lemma=1.500-Meter-Läufer 
- 1.500-Meter-Läufer ( ) 
+ 1.500-Meter-Läufers ( ) 
  1.500-Seelen-Gemeinde ( ) 
  1.500.- ( ) 
- 1/1 ( ) 
+ 1/1 ( ) lemma=51/16 
  1/10 ( ) 
  1/100 ( ) 
  1/115 ( ) 
- 1/12 ( ) 
+ 1/12 ( ) lemma=61/121 
  1/120 ( ) 
  1/135 ( ) 
  1/15 ( ) 
@@ -242,14 +216,14 @@
  1/1991 ( ) 
  1/1992 ( ) 
  1/1993 ( ) 
- 1/2 ( ) 
+ 1/2 ( ) lemma=31/23 
  1/2/3 ( ) 
  1/20 ( ) 
  1/21 ( ) 
  1/24 ( ) 
  1/25 ( ) 
  1/26 ( ) 
- 1/3 ( ) 
+ 1/3 ( ) lemma=41/30 
  1/30 ( ) 
  1/31 ( ) 
  1/32 ( ) 
@@ -258,7 +232,7 @@
  1/36 ( ) 
  1/37 ( ) 
  1/38 ( ) 
- 1/4 ( ) 
+ 1/4 ( ) lemma=41/48 
  1/4"-Technik ( ) 
  1/4-Technik ( ) 
  1/4-Zoll-Technologie ( ) 
@@ -271,7 +245,7 @@
  1/45 ( ) 
  1/47 ( ) 
  1/49 ( ) 
- 1/5 ( ) 
+ 1/5 ( ) lemma=41/55 
  1/50 ( ) 
  1/52 ( ) 
  1/55 ( ) 
@@ -285,7 +259,7 @@
  1/76 ( ) 
  1/78 ( ) 
  1/79 ( ) 
- 1/8 ( ) 
+ 1/8 ( ) lemma=81/83 
  1/80 ( ) 
  1/84 ( ) 
  1/85 ( ) 
@@ -297,7 +271,7 @@
  1/92 ( ) 
  1/93 ( ) 
  1/94 ( ) 
- 10 ( ) 
+ 10 ( ) lemma=2100 
  10*50- ( ) 
  10*50-m- ( ) 
  10,3 ( ) 
@@ -306,22 +280,21 @@
  10- ( ) 
  10-A ( ) 
  10-Ausschuss ( ) 
- 10-Ausschuß ( ) lemma=10-Ausschuss 
+ 10-Ausschuß ( ) 
  10-Darlehen ( ) 
  10-Gesetz ( ) 
- 10-Gremiums ( ) lemma=10-Gremium 
- 10-Gremium ( ) 
+ 10-Gremiums ( ) 
  10-Jahr-Feier ( ) 
  10-Jahres-Feier ( ) 
  10-Jahres-Vertrag ( ) 
  10-Kilometer-Marsch ( ) 
  10-Kilometer-Strecke ( ) 
  10-Kommission ( ) 
- 10-Kommissionen ( ) lemma=10-Kommission 
+ 10-Kommissionen ( ) 
  10-Liter ( ) 
  10-Mark- ( ) 
  10-Mark-Schein ( ) 
- 10-Massnahme ( ) lemma=10-Maßnahme 
+ 10-Massnahme ( ) 
  10-Maßnahme ( ) 
  10-Meter-Schanze ( ) 
  10-Milliarden- ( ) 
@@ -337,13 +310,11 @@
  10-Minuten-Gespräch ( ) 
  10-Minuten-Takt ( ) 
  10-Mio ( ) 
- 10-Mord-Scheine ( ) lemma=10-Mord-Schein 
- 10-Mord-Schein ( ) 
+ 10-Mord-Scheine ( ) 
  10-Prozent- ( ) 
  10-Prozent-Kappungsgrenze ( ) 
  10-Prozent-Marke ( ) 
- 10-Punkte ( ) lemma=10-Punkt 
- 10-Punkt ( ) 
+ 10-Punkte ( ) 
  10-Punkte- ( ) 
  10-Punkte-Forderungskatalog ( ) 
  10-Punkte-Katalog ( ) 
@@ -354,9 +325,8 @@
  10-Uhr-Gottesdienst ( ) 
  10-Uhr-Zug ( ) 
  10-fach ( ) 
- 10-jährige ( ) lemma=10-jährig 
- 10-jährig ( ) 
- 10-jährigen ( ) lemma=10-jährig 
+ 10-jährige ( ) 
+ 10-jährigen ( ) 
  10-km- ( ) 
  10-km-Gehen ( ) 
  10-km-Konkurrenz ( ) 
@@ -367,12 +337,9 @@
  10-km-Staffel ( ) 
  10-km-Strecke ( ) 
  10-km-Weltmeister ( ) 
- 10-monatiger ( ) lemma=10-monatig 
- 10-monatig ( ) 
- 10-prozentigen ( ) lemma=10-prozentig 
- 10-prozentig ( ) 
- 10-tägigen ( ) lemma=10-tägig 
- 10-tägig ( ) 
+ 10-monatiger ( ) 
+ 10-prozentigen ( ) 
+ 10-tägigen ( ) 
  10. ( ) 
  10.000- ( ) 
  10.000-Einwohner-Gemeinde ( ) 
@@ -386,7 +353,7 @@
  10.000-m-Weltrekord ( ) 
  10.000er ( ) 
  10.000fach ( ) 
- 10.000fache ( ) lemma=10.000fach 
+ 10.000fache ( ) 
  10.30-Uhr-Gottesdienst ( ) 
  10.30-Uhr-Messe ( ) 
  10/1 ( ) 
@@ -411,7 +378,7 @@
  10/90 ( ) 
  10/91 ( ) 
  10/92 ( ) 
- 100 ( ) 
+ 100 ( ) lemma=41000 
  100,-- ( ) 
  100,0/98,0 ( ) 
  100,0/98,5 ( ) 
@@ -422,17 +389,16 @@
  100-Betten-Klinik ( ) 
  100-DM-Aktie ( ) 
  100-DM-Schein ( ) 
- 100-Dollar-Noten ( ) lemma=100-Dollar-Note 
- 100-Dollar-Note ( ) 
+ 100-Dollar-Noten ( ) 
  100-Dollar-Schein ( ) 
- 100-Dollar-Scheinen ( ) lemma=100-Dollar-Schein 
+ 100-Dollar-Scheinen ( ) 
  100-Geschäftsführer ( ) 
  100-Gramm-Fläschchen ( ) 
  100-Gramm-Portion ( ) 
  100-Hand ( ) 
  100-Jahr-Feier ( ) 
  100-Jahr-Jubiläum ( ) 
- 100-Jahr-Jubiläums ( ) lemma=100-Jahr-Jubiläum 
+ 100-Jahr-Jubiläums ( ) 
  100-Kilometer ( ) 
  100-Kilometer- ( ) 
  100-Kilometer-Bahnlauf ( ) 
@@ -445,12 +411,11 @@
  100-Macher ( ) 
  100-Mark- ( ) 
  100-Mark-Aktie ( ) 
- 100-Mark-Anteile ( ) lemma=100-Mark-Anteil 
- 100-Mark-Anteil ( ) 
+ 100-Mark-Anteile ( ) 
  100-Mark-Dinner-Show ( ) 
  100-Mark-Schein ( ) 
- 100-Mark-Scheine ( ) lemma=100-Mark-Schein 
- 100-Mark-Scheinen ( ) lemma=100-Mark-Schein 
+ 100-Mark-Scheine ( ) 
+ 100-Mark-Scheinen ( ) 
  100-Mark-Stückelung ( ) 
  100-Mark-Vignette ( ) 
  100-Megawatt ( ) 
@@ -462,8 +427,7 @@
  100-Meter-Endlauf ( ) 
  100-Meter-Finale ( ) 
  100-Meter-Grenze ( ) 
- 100-Meter-Hürden ( ) lemma=100-Meter-Hürde 
- 100-Meter-Hürde ( ) 
+ 100-Meter-Hürden ( ) 
  100-Meter-Lauf ( ) 
  100-Meter-Laufbahn ( ) 
  100-Meter-Olympiasieger ( ) 
@@ -472,14 +436,12 @@
  100-Meter-Rückenstrecke ( ) 
  100-Meter-Schmetterling ( ) 
  100-Meter-Sprint ( ) 
- 100-Meter-Sprints ( ) lemma=100-Meter-Sprint 
+ 100-Meter-Sprints ( ) 
  100-Meter-Staffel ( ) 
  100-Meter-Turm ( ) 
- 100-Milliarden ( ) lemma=100-Milliarde 
- 100-Milliarde ( ) 
+ 100-Milliarden ( ) 
  100-Milliliter-Flasche ( ) 
- 100-Millionen ( ) lemma=100-Million 
- 100-Million ( ) 
+ 100-Millionen ( ) 
  100-Millionen- ( ) 
  100-Millionen-Bau ( ) 
  100-Millionen-Dollar-Kredit ( ) 
@@ -490,8 +452,8 @@
  100-Millionen-Mark-Grenze ( ) 
  100-Millionen-Mark-Programm ( ) 
  100-Millionen-Mark-Projekt ( ) 
- 100-Millionen-Mark-Projektes ( ) lemma=100-Millionen-Mark-Projekt 
- 100-Millionen-Mark-Projekts ( ) lemma=100-Millionen-Mark-Projekt 
+ 100-Millionen-Mark-Projektes ( ) 
+ 100-Millionen-Mark-Projekts ( ) 
  100-Millionen-Programm ( ) 
  100-Millionen-Projekt ( ) 
  100-Mio ( ) 
@@ -503,23 +465,18 @@
  100-Prozent-Tochter ( ) 
  100-Quadratmeter-Wohnung ( ) 
  100-Rubel- ( ) 
- 100-Rubel-Scheinen ( ) lemma=100-Rubel-Schein 
- 100-Rubel-Schein ( ) 
- 100-Rubelscheine ( ) lemma=100-Rubelschein 
- 100-Rubelschein ( ) 
- 100-Seiten-Konzepts ( ) lemma=100-Seiten-Konzept 
- 100-Seiten-Konzept ( ) 
+ 100-Rubel-Scheinen ( ) 
+ 100-Rubelscheine ( ) 
+ 100-Seiten-Konzepts ( ) 
  100-Tage-Aktionsprogramm ( ) 
  100-Tage-Bilanz ( ) 
  100-Tage-Programm ( ) 
  100-Tage-Sofortprogramm ( ) 
  100-Watt-Glühbirne ( ) 
- 100-Watt-Glühbirnen ( ) lemma=100-Watt-Glühbirne 
- 100-Yuan-Scheine ( ) lemma=100-Yuan-Schein 
- 100-Yuan-Schein ( ) 
- 100-jährige ( ) lemma=100-jährig 
- 100-jährig ( ) 
- 100-jährigen ( ) lemma=100-jährig 
+ 100-Watt-Glühbirnen ( ) 
+ 100-Yuan-Scheine ( ) 
+ 100-jährige ( ) 
+ 100-jährigen ( ) 
  100-kg-Mann ( ) 
  100-km- ( ) 
  100-km-Lauf ( ) 
@@ -530,10 +487,8 @@
  100-m-Finale ( ) 
  100-m-Freistil ( ) 
  100-m-Halbfinale ( ) 
- 100-m-Hürden ( ) lemma=100-m-Hürde 
- 100-m-Hürde ( ) 
- 100-m-Lagen ( ) lemma=100-m-Lage 
- 100-m-Lage ( ) 
+ 100-m-Hürden ( ) 
+ 100-m-Lagen ( ) 
  100-m-Lagenstaffel ( ) 
  100-m-Lauf ( ) 
  100-m-Olympiasieger ( ) 
@@ -545,14 +500,11 @@
  100-m-Sprint ( ) 
  100-m-Sprinter ( ) 
  100-m-Staffel ( ) 
- 100-m-Weltrekorde ( ) lemma=100-m-Weltrekord 
- 100-m-Weltrekord ( ) 
+ 100-m-Weltrekorde ( ) 
  100-m-Zeit ( ) 
- 100-prozentige ( ) lemma=100-prozentig 
- 100-prozentig ( ) 
- 100-prozentigen ( ) lemma=100-prozentig 
- 100-tägigen ( ) lemma=100-tägig 
- 100-tägig ( ) 
+ 100-prozentige ( ) 
+ 100-prozentigen ( ) 
+ 100-tägigen ( ) 
  100.-- ( ) 
  100.000- ( ) 
  100.000-Dächer-Programm ( ) 
@@ -560,34 +512,30 @@
  100.000-Mann-Armee ( ) 
  100.000er ( ) 
  100.000er-Auflage ( ) 
- 100.000fache ( ) lemma=100.000fach 
- 100.000fach ( ) 
- 100.000faches ( ) lemma=100.000fach 
+ 100.000fache ( ) 
+ 100.000faches ( ) 
  100/200 ( ) 
  100/87 ( ) 
  100/88 ( ) 
- 1000 ( ) 
+ 1000 ( ) lemma=110000 
  1000- ( ) 
  1000-Betten-Klinik ( ) 
  1000-Dächer-Programm ( ) 
  1000-Jahr-Feier ( ) 
  1000-Jahrfeier ( ) 
  1000-Kronen-Investition ( ) 
- 1000-Lire-Scheinen ( ) lemma=1000-Lire-Schein 
- 1000-Lire-Schein ( ) 
+ 1000-Lire-Scheinen ( ) 
  1000-Liter-Behälter ( ) 
- 1000-Mark-Gewinne ( ) lemma=1000-Mark-Gewinn 
- 1000-Mark-Gewinn ( ) 
+ 1000-Mark-Gewinne ( ) 
  1000-Mark-Grenze ( ) 
  1000-Mark-Schein ( ) 
- 1000-Mark-Scheine ( ) lemma=1000-Mark-Schein 
- 1000-Mark-Scheinen ( ) lemma=1000-Mark-Schein 
+ 1000-Mark-Scheine ( ) 
+ 1000-Mark-Scheinen ( ) 
  1000-Mark-Spende ( ) 
  1000-Mark-Zuschuss ( ) 
- 1000-Mark-Zuschuß ( ) lemma=1000-Mark-Zuschuss 
+ 1000-Mark-Zuschuß ( ) 
  1000-Megawatt-Druckwasserreaktor ( ) 
- 1000-Megawatt-Reaktoren ( ) lemma=1000-Megawatt-Reaktor 
- 1000-Megawatt-Reaktor ( ) 
+ 1000-Megawatt-Reaktoren ( ) 
  1000-Meter-Distanz ( ) 
  1000-Meter-Lauf ( ) 
  1000-Meter-Marke ( ) 
@@ -614,46 +562,38 @@
  10000-Volt-Mittelspannungskabel ( ) 
  100000 ( ) 
  100000-Einwohner-Stadt ( ) 
- 100000-Lire-Noten ( ) lemma=100000-Lire-Note 
- 100000-Lire-Note ( ) 
- 100000-Mann-Heeres ( ) lemma=100000-Mann-Heer 
- 100000-Mann-Heer ( ) 
+ 100000-Lire-Noten ( ) 
+ 100000-Mann-Heeres ( ) 
  100000-Mark-Spende ( ) 
  100000-Mark-Zuschuss ( ) 
- 100000-Mark-Zuschuß ( ) lemma=100000-Mark-Zuschuss 
+ 100000-Mark-Zuschuß ( ) 
  100000er ( ) 
  1000er ( ) 
- 1000jährige ( ) lemma=1000jährig 
- 1000jährig ( ) 
- 1000jährigen ( ) lemma=1000jährig 
- 1000jähriges ( ) lemma=1000jährig 
- 1000köpfigen ( ) lemma=1000köpfig 
- 1000köpfig ( ) 
- 1000prozentiger ( ) lemma=1000prozentig 
- 1000prozentig ( ) 
+ 1000jährige ( ) 
+ 1000jährigen ( ) 
+ 1000jähriges ( ) 
+ 1000köpfigen ( ) 
+ 1000prozentiger ( ) 
  1001-Gruppe ( ) 
  10028/90 ( ) 
  100er ( ) 
  100fach ( ) 
- 100fache ( ) lemma=100fach 
- 100fachen ( ) lemma=100fach 
- 100jährige ( ) lemma=100jährig 
- 100jährig ( ) 
- 100jährigen ( ) lemma=100jährig 
- 100jähriger ( ) lemma=100jährig 
- 100jähriges ( ) lemma=100jährig 
- 100köpfige ( ) lemma=100köpfig 
- 100köpfig ( ) 
- 100köpfigen ( ) lemma=100köpfig 
+ 100fache ( ) 
+ 100fachen ( ) 
+ 100jährige ( ) lemma=1100jährig 
+ 100jährigen ( ) 
+ 100jähriger ( ) 
+ 100jähriges ( ) 
+ 100köpfige ( ) 
+ 100köpfigen ( ) 
  100m-Lauf ( ) 
  100prozentig ( ) 
- 100prozentige ( ) lemma=100prozentig 
- 100prozentigem ( ) lemma=100prozentig 
- 100prozentigen ( ) lemma=100prozentig 
- 100prozentiger ( ) lemma=100prozentig 
- 100prozentiges ( ) lemma=100prozentig 
- 100tägigen ( ) lemma=100tägig 
- 100tägig ( ) 
+ 100prozentige ( ) 
+ 100prozentigem ( ) 
+ 100prozentigen ( ) 
+ 100prozentiger ( ) 
+ 100prozentiges ( ) 
+ 100tägigen ( ) 
  101,5/76,0 ( ) 
  101/105 ( ) 
  101/1992 ( ) 
@@ -661,35 +601,28 @@
  101/90 ( ) 
  101/91 ( ) 
  1013/216 ( ) 
- 101jährige ( ) lemma=101jährig 
- 101jährig ( ) 
- 101köpfigen ( ) lemma=101köpfig 
- 101köpfig ( ) 
+ 101jährige ( ) 
+ 101köpfigen ( ) 
  102 ( ) 
  102,0/89,5 ( ) 
  102/3 ( ) 
  1025-Teiler ( ) 
- 102jährige ( ) lemma=102jährig 
- 102jährig ( ) 
+ 102jährige ( ) 
  103:113-Niederlage ( ) 
- 103jährige ( ) lemma=103jährig 
- 103jährig ( ) 
- 103jährigen ( ) lemma=103jährig 
+ 103jährige ( ) 
+ 103jährigen ( ) 
  104,0/94,5 ( ) 
  104,0/98,5 ( ) 
- 104jährigen ( ) lemma=104jährig 
- 104jährig ( ) 
+ 104jährigen ( ) 
  105,0/95,5 ( ) 
  105-Hubschrauber ( ) 
- 105prozentige ( ) lemma=105prozentig 
- 105prozentig ( ) 
+ 105prozentige ( ) 
  106,6-Millionen-Etat ( ) 
  106/122 ( ) 
  107/93 ( ) 
  1074/92 ( ) 
- 107jährige ( ) lemma=107jährig 
- 107jährig ( ) 
- 107jährigen ( ) lemma=107jährig 
+ 107jährige ( ) 
+ 107jährigen ( ) 
  108,5/97,5 ( ) 
  108/114 ( ) 
  108000-Einwohner-Stadt ( ) 
@@ -698,78 +631,59 @@
  1099:1061-Sieg ( ) 
  109er ( ) 
  10:0-Endstand ( ) 
- 10:0-Punkte ( ) lemma=10:0-Punkt 
- 10:0-Punkt ( ) 
+ 10:0-Punkte ( ) 
  10:1-Sieg ( ) 
  10:10-Ausgleich ( ) 
- 10:10-Punkten ( ) lemma=10:10-Punkt 
- 10:10-Punkt ( ) 
- 10:10-Zählern ( ) lemma=10:10-Zähler 
- 10:10-Zähler ( ) 
+ 10:10-Punkten ( ) 
+ 10:10-Zählern ( ) 
  10:13-Rückstand ( ) 
- 10:2-Punkte ( ) lemma=10:2-Punkt 
- 10:2-Punkt ( ) 
- 10:2-Punkten ( ) lemma=10:2-Punkt 
- 10:2-Tore ( ) lemma=10:2-Tor 
- 10:2-Tor ( ) 
- 10:2-Zählern ( ) lemma=10:2-Zähler 
- 10:2-Zähler ( ) 
+ 10:2-Punkte ( ) 
+ 10:2-Punkten ( ) 
+ 10:2-Tore ( ) 
+ 10:2-Zählern ( ) lemma=Außenbeleuchtung 
  10:5-Sieg ( ) 
- 10:6-Punkten ( ) lemma=10:6-Punkt 
- 10:6-Punkt ( ) 
+ 10:6-Punkten ( ) 
  10:8-Führung ( ) 
  10e-Abschreibung ( ) 
  10e-Förderung ( ) 
  10er ( ) 
- 10er-Kanus ( ) lemma=10er-Kanu 
- 10er-Kanu ( ) 
+ 10er-Kanus ( ) 
  10er-Pack ( ) 
  10fach-Bestimmung ( ) 
- 10fache ( ) lemma=10fach 
- 10fach ( ) 
- 10fachen ( ) lemma=10fach 
- 10jährige ( ) lemma=10jährig 
- 10jährig ( ) 
- 10jährigen ( ) lemma=10jährig 
- 10jähriger ( ) lemma=10jährig 
- 10jähriges ( ) lemma=10jährig 
- 10köpfige ( ) lemma=10köpfig 
- 10köpfig ( ) 
- 10köpfigen ( ) lemma=10köpfig 
- 10monatiger ( ) lemma=10monatig 
- 10monatig ( ) 
- 10prozentige ( ) lemma=10prozentig 
- 10prozentig ( ) 
- 10prozentigen ( ) lemma=10prozentig 
- 10teilige ( ) lemma=10teilig 
- 10teilig ( ) 
- 10teiligen ( ) lemma=10teilig 
- 10tägige ( ) lemma=10tägig 
- 10tägig ( ) 
- 10tägigen ( ) lemma=10tägig 
+ 10fache ( ) 
+ 10fachen ( ) 
+ 10jährige ( ) lemma=110jährig 
+ 10jährigen ( ) 
+ 10jähriger ( ) 
+ 10jähriges ( ) 
+ 10köpfige ( ) lemma=110köpfig 
+ 10köpfigen ( ) 
+ 10monatiger ( ) 
+ 10prozentige ( ) 
+ 10prozentigen ( ) 
+ 10teilige ( ) 
+ 10teiligen ( ) 
+ 10tägige ( ) 
+ 10tägigen ( ) 
  11 ( ) 
  11,07/7,26/13,02/1,94/50 ( ) 
  11,3 ( ) 
  11,3- ( ) 
- 11,5prozentige ( ) lemma=11,5prozentig 
- 11,5prozentig ( ) 
+ 11,5prozentige ( ) 
  11,6 ( ) 
  11- ( ) 
  11-Hydroxy- ( ) 
  11-Kilometer-Abendwanderung ( ) 
- 11-Klassen ( ) lemma=11-Klasse 
- 11-Klasse ( ) 
+ 11-Klassen ( ) 
  11-M ( ) 
  11-Millionen-Projekt ( ) 
  11-Millionen-Sondertopf ( ) 
- 11-Minuten ( ) lemma=11-Minute 
- 11-Minute ( ) 
+ 11-Minuten ( ) 
  11-Nor-9-tetrahydro- ( ) 
  11-Prozent-Forderung ( ) 
  11-Punkte- ( ) 
  11-Uhr-Matinee ( ) 
- 11-jährige ( ) lemma=11-jährig 
- 11-jährig ( ) 
+ 11-jährige ( ) 
  11-m-Schiessen ( ) 
  11-m-Schießen ( ) 
  11-nor- ( ) 
@@ -785,7 +699,7 @@
  11/58 ( ) 
  11/6 ( ) 
  11/7 ( ) 
- 11/8 ( ) 
+ 11/8 ( ) lemma=311/88 
  11/86 ( ) 
  11/87 ( ) 
  11/88 ( ) 
@@ -799,116 +713,91 @@
  110-Jahr-Feier ( ) 
  110-KV-Antrag ( ) 
  110-KV-Leitung ( ) 
- 110-KV-Leitungen ( ) lemma=110-KV-Leitung 
+ 110-KV-Leitungen ( ) 
  110-Kilovolt ( ) 
  110-Kilovolt-Leitung ( ) 
  110-Kilovolt-Stromleitung ( ) 
  110-Mark-Gebühr ( ) 
- 110-Meter-Hürden ( ) lemma=110-Meter-Hürde 
- 110-Meter-Hürde ( ) 
+ 110-Meter-Hürden ( ) 
  110-Meter-Hürden-Olympiasieger ( ) 
- 110-Notrufe ( ) lemma=110-Notruf 
- 110-Notruf ( ) 
+ 110-Notrufe ( ) 
  110-Teiler ( ) 
  110-Zentrale ( ) 
  110-kV-Leitung ( ) 
- 110-m-Hürden ( ) lemma=110-m-Hürde 
- 110-m-Hürde ( ) 
+ 110-m-Hürden ( ) 
  110-m-Hürden-Olympiasieger ( ) 
  110.000-Volt-Leitung ( ) 
  1100 ( ) 
  1100-Jahr-Feier ( ) 
  1100-Jahrfeier ( ) 
  1100-Liter-Container ( ) 
- 1100-Liter-Tonnen ( ) lemma=1100-Liter-Tonne 
- 1100-Liter-Tonne ( ) 
+ 1100-Liter-Tonnen ( ) 
  110000 ( ) 
  110000-Volt-Hochspannungskabel ( ) 
  1100er ( ) 
- 1100jährigen ( ) lemma=1100jährig 
- 1100jährig ( ) 
- 110fache ( ) lemma=110fach 
- 110fach ( ) 
- 110jährige ( ) lemma=110jährig 
- 110jährig ( ) 
- 110jährigen ( ) lemma=110jährig 
- 110jähriges ( ) lemma=110jährig 
- 110köpfigen ( ) lemma=110köpfig 
- 110köpfig ( ) 
+ 1100jährigen ( ) 
+ 110fache ( ) 
+ 110jährige ( ) 
+ 110jährigen ( ) 
+ 110jähriges ( ) 
+ 110köpfigen ( ) 
  110prozentig ( ) 
  111-Minuten-Büttenfeuerwerk ( ) 
  111/91 ( ) 
- 111fache ( ) lemma=111fach 
- 111fach ( ) 
- 111fachen ( ) lemma=111fach 
- 111jährige ( ) lemma=111jährig 
- 111jährig ( ) 
- 111jährigen ( ) lemma=111jährig 
+ 111fache ( ) 
+ 111fachen ( ) 
+ 111jährige ( ) 
+ 111jährigen ( ) 
  112 ( ) 
  112/114 ( ) 
  113 ( ) 
  11334 ( ) 
- 114jährigen ( ) lemma=114jährig 
- 114jährig ( ) 
+ 114jährigen ( ) 
  115-Milliarden-Solidarfonds ( ) 
  115/2 ( ) 
  1150 ( ) 
- 1150-Jahr-Feiern ( ) lemma=1150-Jahr-Feier 
- 1150-Jahr-Feier ( ) 
+ 1150-Jahr-Feiern ( ) 
  11500/23000 ( ) 
- 1150jährige ( ) lemma=1150jährig 
- 1150jährig ( ) 
+ 1150jährige ( ) 
  1154/91 ( ) 
- 115jährigen ( ) lemma=115jährig 
- 115jährig ( ) 
+ 115jährigen ( ) 
  116/118 ( ) 
  1165,6 ( ) 
- 116tägigen ( ) lemma=116tägig 
- 116tägig ( ) 
+ 116tägigen ( ) 
  117 ( ) 
  117000 ( ) 
  1175-Jahr-Feier ( ) 
  1175-Jahrfeier ( ) 
- 1175jährigen ( ) lemma=1175jährig 
- 1175jährig ( ) 
- 1175jähriges ( ) lemma=1175jährig 
+ 1175jährigen ( ) 
+ 1175jähriges ( ) 
  118/2 ( ) 
  118/88 ( ) 
  118/93 ( ) 
  1189mal ( ) 
- 118köpfige ( ) lemma=118köpfig 
- 118köpfig ( ) 
+ 118köpfige ( ) 
  119 ( ) 
  1192/64 ( ) 
  1195/13 ( ) 
- 11:1-Punkte ( ) lemma=11:1-Punkt 
- 11:1-Punkt ( ) 
- 11:1-Punkten ( ) lemma=11:1-Punkt 
+ 11:1-Punkte ( ) 
+ 11:1-Punkten ( ) 
  11:11-Remis ( ) 
  11:13-Heimniederlage ( ) 
  11:13-Rückstand ( ) 
  11:20-Niederlage ( ) 
- 11:3-Punkten ( ) lemma=11:3-Punkt 
- 11:3-Punkt ( ) 
- 11:5-Tore ( ) lemma=11:5-Tor 
- 11:5-Tor ( ) 
- 11:6-Siegen ( ) lemma=11:6-Sieg 
- 11:6-Sieg ( ) 
- 11:9-Punkten ( ) lemma=11:9-Punkt 
- 11:9-Punkt ( ) 
+ 11:3-Punkten ( ) 
+ 11:5-Tore ( ) 
+ 11:6-Siegen ( ) 
+ 11:9-Punkten ( ) 
  11er ( ) 
- 11jährige ( ) lemma=11jährig 
- 11jährig ( ) 
- 11jährigen ( ) lemma=11jährig 
- 11jähriger ( ) lemma=11jährig 
- 11jähriges ( ) lemma=11jährig 
- 11köpfige ( ) lemma=11köpfig 
- 11köpfig ( ) 
+ 11jährige ( ) lemma=111jährig 
+ 11jährigen ( ) 
+ 11jähriger ( ) 
+ 11jähriges ( ) 
+ 11köpfige ( ) 
  11m-Schiessen ( ) 
  11m-Schießen ( ) 
- 11monatiger ( ) lemma=11monatig 
- 11monatig ( ) 
- 12 ( ) 
+ 11monatiger ( ) 
+ 12 ( ) lemma=C128 
  12,0/321,6 ( ) 
  12,1 ( ) 
  12,3 ( ) 
@@ -916,8 +805,7 @@
  12,5-Prozent-Anteil ( ) 
  12,5-Prozent-Hürde ( ) 
  12,50 ( ) 
- 12,5prozentigen ( ) lemma=12,5prozentig 
- 12,5prozentig ( ) 
+ 12,5prozentigen ( ) 
  12,8 ( ) 
  12,9 ( ) 
  12- ( ) 
@@ -928,27 +816,21 @@
  12-Mio ( ) 
  12-Punkte-Katalog ( ) 
  12-Punkte-Programm ( ) 
- 12-Stunden ( ) lemma=12-Stunde 
- 12-Stunde ( ) 
+ 12-Stunden ( ) 
  12-Stunden- ( ) 
- 12-Stunden-Laufs ( ) lemma=12-Stunden-Lauf 
- 12-Stunden-Lauf ( ) 
- 12-Stunden-Schichten ( ) lemma=12-Stunden-Schicht 
- 12-Stunden-Schicht ( ) 
+ 12-Stunden-Laufs ( ) 
+ 12-Stunden-Schichten ( ) 
  12-Stunden-Tag ( ) 
  12-Turnier ( ) 
  12-Uhr-Läuten ( ) 
- 12-V-Anschluß ( ) lemma=12-V-Anschluss 
- 12-V-Anschluss ( ) 
+ 12-V-Anschluß ( ) 
  12-Wochen-Frist ( ) 
  12-Zentimeter-CD ( ) 
  12-Zylinder ( ) 
  12-g-Gebinde ( ) 
- 12-jährige ( ) lemma=12-jährig 
- 12-jährig ( ) 
- 12-jährigen ( ) lemma=12-jährig 
- 12-köpfigen ( ) lemma=12-köpfig 
- 12-köpfig ( ) 
+ 12-jährige ( ) 
+ 12-jährigen ( ) 
+ 12-köpfigen ( ) 
  12. ( ) 
  12.000-Einwohner-Stadt ( ) 
  12.000-Seelen-Städtchen ( ) 
@@ -958,7 +840,7 @@
  12.30 ( ) 
  12.45 ( ) 
  12/10 ( ) 
- 12/11 ( ) 
+ 12/11 ( ) lemma=112/114 
  12/13 ( ) 
  12/13.9.89 ( ) 
  12/14 ( ) 
@@ -977,7 +859,7 @@
  12/87 ( ) 
  12/89 ( ) 
  12/90 ( ) 
- 12/91 ( ) 
+ 12/91 ( ) lemma=612/912 
  12/92 ( ) 
  120 ( ) 
  120- ( ) 
@@ -986,13 +868,13 @@
  120-Jahr-Feier ( ) 
  120-Liter-Behälter ( ) 
  120-Liter-Eimer ( ) 
- 120-Liter-Gefäss ( ) lemma=120-Liter-Gefäß 
+ 120-Liter-Gefäss ( ) 
+ 120-Liter-Gefässes ( ) 
  120-Liter-Gefäß ( ) 
- 120-Liter-Gefässes ( ) lemma=120-Liter-Gefäß 
- 120-Liter-Gefäßes ( ) lemma=120-Liter-Gefäß 
+ 120-Liter-Gefäßes ( ) 
  120-Liter-Restmülltonne ( ) 
  120-Liter-Tonne ( ) 
- 120-Liter-Tonnen ( ) lemma=120-Liter-Tonne 
+ 120-Liter-Tonnen ( ) 
  120-Meter-Schanze ( ) 
  120-Mikrogramm-Grenze ( ) 
  120-Millionen- ( ) 
@@ -1000,8 +882,7 @@
  120-Millionen-Mark-Projekt ( ) 
  120-Millionen-Mark-Schiebung ( ) 
  120-Millionen-Programm ( ) 
- 120-Millionen-Volkes ( ) lemma=120-Millionen-Volk 
- 120-Millionen-Volk ( ) 
+ 120-Millionen-Volkes ( ) 
  120-Seiten-Dokumentation ( ) 
  120-m-Schanze ( ) 
  120.000-Einwohner-Stadt ( ) 
@@ -1013,36 +894,28 @@
  12000-Einwohner-Kommune ( ) 
  12000-Einwohner-Stadt ( ) 
  120000 ( ) 
- 1200jährige ( ) lemma=1200jährig 
- 1200jährig ( ) 
- 1200jährigen ( ) lemma=1200jährig 
- 1200jähriges ( ) lemma=1200jährig 
+ 1200jährige ( ) 
+ 1200jährigen ( ) 
+ 1200jähriges ( ) 
  1209/42 ( ) 
  120er ( ) 
- 120fache ( ) lemma=120fach 
- 120fach ( ) 
- 120jährige ( ) lemma=120jährig 
- 120jährig ( ) 
- 120jährigen ( ) lemma=120jährig 
- 120jähriges ( ) lemma=120jährig 
- 120köpfigen ( ) lemma=120köpfig 
- 120köpfig ( ) 
+ 120fache ( ) 
+ 120jährige ( ) 
+ 120jährigen ( ) 
+ 120jähriges ( ) 
+ 120köpfigen ( ) 
  120prozentig ( ) 
  121/122 ( ) 
  1213/85 ( ) 
- 121jährigen ( ) lemma=121jährig 
- 121jährig ( ) 
+ 121jährigen ( ) 
  122-Millimeter- ( ) 
- 122-Millimeter-Raketen ( ) lemma=122-Millimeter-Rakete 
- 122-Millimeter-Rakete ( ) 
+ 122-Millimeter-Raketen ( ) 
  122-Teiler ( ) 
  1225-Jahr-Feier ( ) 
- 1225jähriges ( ) lemma=1225jährig 
- 1225jährig ( ) 
+ 1225jähriges ( ) 
  1228/92 ( ) 
  123/88 ( ) 
- 123jährigen ( ) lemma=123jährig 
- 123jährig ( ) 
+ 123jährigen ( ) 
  124-Teiler ( ) 
  125 ( ) 
  125-Jahr-Feier ( ) 
@@ -1052,19 +925,15 @@
  125/127 ( ) 
  125/90 ( ) 
  1250-Jahr-Feier ( ) 
- 1250jähriges ( ) lemma=1250jährig 
- 1250jährig ( ) 
+ 1250jähriges ( ) 
  1252/50 ( ) 
  1253/85 ( ) 
  125er ( ) 
- 125er-DKW-Motorrades ( ) lemma=125er-DKW-Motorrad 
- 125er-DKW-Motorrad ( ) 
- 125fache ( ) lemma=125fach 
- 125fach ( ) 
- 125jährige ( ) lemma=125jährig 
- 125jährig ( ) 
- 125jährigen ( ) lemma=125jährig 
- 125jähriges ( ) lemma=125jährig 
+ 125er-DKW-Motorrades ( ) 
+ 125fache ( ) 
+ 125jährige ( ) 
+ 125jährigen ( ) 
+ 125jähriges ( ) 
  126 ( ) 
  126-Betten-Klinik ( ) 
  126/85 ( ) 
@@ -1073,13 +942,11 @@
  1268/50 ( ) 
  1268/86 ( ) 
  1269/21 ( ) 
- 126köpfige ( ) lemma=126köpfig 
- 126köpfig ( ) 
+ 126köpfige ( ) 
  127,4 ( ) 
  1277/91 ( ) 
  1279/28 ( ) 
- 127jährige ( ) lemma=127jährig 
- 127jährig ( ) 
+ 127jährige ( ) 
  128/129 ( ) 
  128/90 ( ) 
  1280/53 ( ) 
@@ -1087,72 +954,61 @@
  1285/92 ( ) 
  1287/00 ( ) 
  1288/90 ( ) 
- 128köpfigen ( ) lemma=128köpfig 
- 128köpfig ( ) 
+ 128köpfigen ( ) 
  129-Prozess ( ) 
- 129-Prozeß ( ) lemma=129-Prozess 
+ 129-Prozeß ( ) 
  1292/71 ( ) 
  1296/33 ( ) 
  1298/71 ( ) 
  129a-Angeklagte ( ) 
  129a-Anklage ( ) 
  129a-Ermittlungsverfahren ( ) 
- 129a-Gefangenen ( ) lemma=129a-Gefangene 
- 129a-Gefangene ( ) 
+ 129a-Gefangenen ( ) 
  129a-Konstruktion ( ) 
  129a-Praxis ( ) 
  129a-Prozess ( ) 
- 129a-Prozesse ( ) lemma=129a-Prozess 
- 129a-Prozesses ( ) lemma=129a-Prozess 
- 129a-Prozeß ( ) lemma=129a-Prozess 
+ 129a-Prozesse ( ) 
+ 129a-Prozesses ( ) 
+ 129a-Prozeß ( ) 
  129a-Verfahren ( ) 
- 129a-Verfahrens ( ) lemma=129a-Verfahren 
+ 129a-Verfahrens ( ) 
  129a-Verurteilung ( ) 
  129a-Vorwurf ( ) 
- 129a-Vorwurfs ( ) lemma=129a-Vorwurf 
+ 129a-Vorwurfs ( ) 
  129er ( ) 
- 12:0-Punkte ( ) lemma=12:0-Punkt 
- 12:0-Punkt ( ) 
- 12:0-Punkten ( ) lemma=12:0-Punkt 
+ 12:0-Punkte ( ) 
+ 12:0-Punkten ( ) 
  12:10-Vorsprung ( ) 
  12:11-Sieg ( ) 
  12:11-Vorsprung ( ) 
  12:14-Anschlusstreffer ( ) 
- 12:14-Anschlußtreffer ( ) lemma=12:14-Anschlusstreffer 
+ 12:14-Anschlußtreffer ( ) 
  12:15-Niederlage ( ) 
  12:15-Rückstand ( ) 
  12:16-Niederlage ( ) 
- 12:2-Punkte ( ) lemma=12:2-Punkt 
- 12:2-Punkt ( ) 
+ 12:2-Punkte ( ) 
  12:4-Führung ( ) 
  12:8-Heimsieg ( ) 
  12:9-Derbysieg ( ) 
- 12bändige ( ) lemma=12bändig 
- 12bändig ( ) 
+ 12bändige ( ) 
  12er ( ) 
- 12er-Gemeinschaftskurses ( ) lemma=12er-Gemeinschaftskurs 
- 12er-Gemeinschaftskurs ( ) 
+ 12er-Gemeinschaftskurses ( ) 
  12jährig ( ) 
- 12jährige ( ) lemma=12jährig 
- 12jährigen ( ) lemma=12jährig 
- 12jähriger ( ) lemma=12jährig 
- 12jähriges ( ) lemma=12jährig 
- 12köpfige ( ) lemma=12köpfig 
- 12köpfig ( ) 
- 12köpfigen ( ) lemma=12köpfig 
- 12monatige ( ) lemma=12monatig 
- 12monatig ( ) 
- 12monatigen ( ) lemma=12monatig 
- 12prozentigen ( ) lemma=12prozentig 
- 12prozentig ( ) 
- 12stündige ( ) lemma=12stündig 
- 12stündig ( ) 
- 12teilige ( ) lemma=12teilig 
- 12teilig ( ) 
+ 12jährige ( ) 
+ 12jährigen ( ) 
+ 12jähriger ( ) 
+ 12jähriges ( ) 
+ 12köpfige ( ) 
+ 12köpfigen ( ) 
+ 12monatige ( ) 
+ 12monatigen ( ) 
+ 12prozentigen ( ) 
+ 12stündige ( ) 
+ 12teilige ( ) 
  13 ( ) 
  13,1 ( ) 
  13,5-Teiler-Schuss ( ) 
- 13,5-Teiler-Schuß ( ) lemma=13,5-Teiler-Schuss 
+ 13,5-Teiler-Schuß ( ) 
  13- ( ) 
  13-A ( ) 
  13-Milliarden-Haushalt ( ) 
@@ -1161,14 +1017,11 @@
  13-Millionen-Neubau ( ) 
  13-Prozent-Sturz ( ) 
  13-Punkte-Papier ( ) 
- 13-Stellen ( ) lemma=13-Stelle 
- 13-Stelle ( ) 
+ 13-Stellen ( ) 
  13-Stunden-Film ( ) 
- 13-jährige ( ) lemma=13-jährig 
- 13-jährig ( ) 
- 13-jährigen ( ) lemma=13-jährig 
- 13-köpfige ( ) lemma=13-köpfig 
- 13-köpfig ( ) 
+ 13-jährige ( ) 
+ 13-jährigen ( ) 
+ 13-köpfige ( ) 
  13. ( ) 
  13.39 ( ) 
  13/100 ( ) 
@@ -1191,21 +1044,18 @@
  1300 ( ) 
  1300-Einwohner-Gemeinde ( ) 
  1300-Megawatt-Kraftwerk ( ) 
- 1300-Megawatt-Reaktors ( ) lemma=1300-Megawatt-Reaktor 
- 1300-Megawatt-Reaktor ( ) 
+ 1300-Megawatt-Reaktors ( ) 
  13000-Einwohner-Stadt ( ) 
  1301/86 ( ) 
  1305/92 ( ) 
  1306/85 ( ) 
  130er ( ) 
- 130jährige ( ) lemma=130jährig 
- 130jährig ( ) 
- 130jährigem ( ) lemma=130jährig 
- 130jährigen ( ) lemma=130jährig 
- 130jähriges ( ) lemma=130jährig 
- 130köpfige ( ) lemma=130köpfig 
- 130köpfig ( ) 
- 130köpfigen ( ) lemma=130köpfig 
+ 130jährige ( ) 
+ 130jährigem ( ) 
+ 130jährigen ( ) 
+ 130jähriges ( ) 
+ 130köpfige ( ) 
+ 130köpfigen ( ) 
  131/133 ( ) 
  1313/57 ( ) 
  1313/64 ( ) 
@@ -1234,8 +1084,7 @@
  1337/60 ( ) 
  1338/50 ( ) 
  1339/75 ( ) 
- 133jährigen ( ) lemma=133jährig 
- 133jährig ( ) 
+ 133jährigen ( ) 
  1341/42 ( ) 
  1341/57 ( ) 
  1342/10 ( ) 
@@ -1245,8 +1094,7 @@
  1346/10 ( ) 
  134a-Produktion ( ) 
  134a-Produktionsanlage ( ) 
- 134köpfige ( ) lemma=134köpfig 
- 134köpfig ( ) 
+ 134köpfige ( ) 
  135/89 ( ) 
  1350/16 ( ) 
  1352/00 ( ) 
@@ -1256,8 +1104,7 @@
  1355/83 ( ) 
  1357/66 ( ) 
  1359/42 ( ) 
- 135jähriger ( ) lemma=135jährig 
- 135jährig ( ) 
+ 135jähriger ( ) 
  1360/00 ( ) 
  1363/14 ( ) 
  1363/92 ( ) 
@@ -1265,8 +1112,7 @@
  1367/42 ( ) 
  1367/50 ( ) 
  1368/83 ( ) 
- 136köpfigen ( ) lemma=136köpfig 
- 136köpfig ( ) 
+ 136köpfigen ( ) 
  137 ( ) 
  137,5/167,5 ( ) 
  137/92 ( ) 
@@ -1279,8 +1125,7 @@
  1376/28 ( ) 
  1376/42 ( ) 
  1377/91 ( ) 
- 137köpfigen ( ) lemma=137köpfig 
- 137köpfig ( ) 
+ 137köpfigen ( ) 
  138-Teiler ( ) 
  1381/35 ( ) 
  1383/57 ( ) 
@@ -1297,56 +1142,42 @@
  1396/14 ( ) 
  1397/16 ( ) 
  1398/28 ( ) 
- 13:1-Punkte ( ) lemma=13:1-Punkt 
- 13:1-Punkt ( ) 
- 13:1-Punkten ( ) lemma=13:1-Punkt 
+ 13:1-Punkte ( ) 
+ 13:1-Punkten ( ) 
  13:11-Führung ( ) 
  13:14-Anschlusstreffer ( ) 
- 13:14-Anschlußtreffer ( ) lemma=13:14-Anschlusstreffer 
- 13:5-Punkte ( ) lemma=13:5-Punkt 
- 13:5-Punkt ( ) 
+ 13:14-Anschlußtreffer ( ) 
+ 13:5-Punkte ( ) 
  13:6-Sieg ( ) 
- 13:6-Siegen ( ) lemma=13:6-Sieg 
- 13:7-Erfolgen ( ) lemma=13:7-Erfolg 
- 13:7-Erfolg ( ) 
- 13:7-Punkte ( ) lemma=13:7-Punkt 
- 13:7-Punkt ( ) 
- 13:9-Punkte ( ) lemma=13:9-Punkt 
- 13:9-Punkt ( ) 
+ 13:6-Siegen ( ) 
+ 13:7-Erfolgen ( ) 
+ 13:7-Punkte ( ) 
+ 13:9-Punkte ( ) 
  13er ( ) 
  13er-Feld ( ) 
- 13fache ( ) lemma=13fach 
- 13fach ( ) 
- 13fachen ( ) lemma=13fach 
- 13geschossige ( ) lemma=13geschossig 
- 13geschossig ( ) 
- 13geschossigen ( ) lemma=13geschossig 
- 13jährige ( ) lemma=13jährig 
- 13jährig ( ) 
- 13jährigem ( ) lemma=13jährig 
- 13jährigen ( ) lemma=13jährig 
- 13jähriger ( ) lemma=13jährig 
- 13jähriges ( ) lemma=13jährig 
- 13köpfige ( ) lemma=13köpfig 
- 13köpfig ( ) 
- 13köpfigen ( ) lemma=13köpfig 
+ 13fache ( ) 
+ 13fachen ( ) 
+ 13geschossige ( ) 
+ 13geschossigen ( ) 
+ 13jährige ( ) 
+ 13jährigem ( ) 
+ 13jährigen ( ) 
+ 13jähriger ( ) 
+ 13jähriges ( ) 
+ 13köpfige ( ) 
+ 13köpfigen ( ) 
  13mal ( ) 
- 13maligen ( ) lemma=13malig 
- 13malig ( ) 
- 13monatigem ( ) lemma=13monatig 
- 13monatig ( ) 
- 13monatigen ( ) lemma=13monatig 
- 13monatiger ( ) lemma=13monatig 
- 13prozentige ( ) lemma=13prozentig 
- 13prozentig ( ) 
- 13prozentigen ( ) lemma=13prozentig 
- 13stündigen ( ) lemma=13stündig 
- 13stündig ( ) 
+ 13maligen ( ) 
+ 13monatigem ( ) 
+ 13monatigen ( ) 
+ 13monatiger ( ) 
+ 13prozentige ( ) 
+ 13prozentigen ( ) 
+ 13stündigen ( ) 
  13teilig ( ) 
- 13teilige ( ) lemma=13teilig 
- 13teiligen ( ) lemma=13teilig 
- 13tägigen ( ) lemma=13tägig 
- 13tägig ( ) 
+ 13teilige ( ) 
+ 13teiligen ( ) 
+ 13tägigen ( ) 
  14 ( ) 
  14,5 ( ) 
  14,75 ( ) 
@@ -1358,8 +1189,7 @@
  14-Neubau ( ) 
  14-Parteien-Koalition ( ) 
  14-Prozent-Marke ( ) 
- 14-Punkte ( ) lemma=14-Punkt 
- 14-Punkt ( ) 
+ 14-Punkte ( ) 
  14-Punkte-Katalog ( ) 
  14-Punkte-Plan ( ) 
  14-Stunden- ( ) 
@@ -1372,16 +1202,15 @@
  14-Tages-Rhythmus ( ) 
  14-Tunnel ( ) 
  14-Tunnel-Eröffnung ( ) 
- 14-Tunnels ( ) lemma=14-Tunnel 
+ 14-Tunnels ( ) 
  14-Verlegung ( ) 
- 14-jährige ( ) lemma=14-jährig 
- 14-jährig ( ) 
- 14-jährigen ( ) lemma=14-jährig 
- 14-jähriger ( ) lemma=14-jährig 
+ 14-jährige ( ) 
+ 14-jährigen ( ) 
+ 14-jähriger ( ) 
  14-tägig ( ) 
- 14-tägige ( ) lemma=14-tägig 
- 14-tägigem ( ) lemma=14-tägig 
- 14-tägigen ( ) lemma=14-tägig 
+ 14-tägige ( ) 
+ 14-tägigem ( ) 
+ 14-tägigen ( ) 
  14. ( ) 
  14.06 ( ) 
  14.10 ( ) 
@@ -1402,11 +1231,9 @@
  140-Betten-Hotel ( ) 
  140-Doppelzimmer-Hotel ( ) 
  140-Millionen-Mark- ( ) 
- 140-Millionen-Mark-Objekts ( ) lemma=140-Millionen-Mark-Objekt 
- 140-Millionen-Mark-Objekt ( ) 
+ 140-Millionen-Mark-Objekts ( ) 
  140-Millionen-Mark-Projekt ( ) 
- 140-Seiten ( ) lemma=140-Seite 
- 140-Seite ( ) 
+ 140-Seiten ( ) 
  140-Seiten-Werk ( ) 
  140-Teiler ( ) 
  1400-Ringe-Grenze ( ) 
@@ -1416,8 +1243,7 @@
  14000-Einwohner-Gemeinde ( ) 
  14000-Einwohner-Kommune ( ) 
  14000-Einwohner-Stadt ( ) 
- 1400köpfigen ( ) lemma=1400köpfig 
- 1400köpfig ( ) 
+ 1400köpfigen ( ) 
  1401/42 ( ) 
  1402/78 ( ) 
  1403/50 ( ) 
@@ -1426,8 +1252,7 @@
  1408/14 ( ) 
  1409/50 ( ) 
  1409/89 ( ) 
- 140jährigen ( ) lemma=140jährig 
- 140jährig ( ) 
+ 140jährigen ( ) 
  1411/64 ( ) 
  1412/14 ( ) 
  1413/08 ( ) 
@@ -1495,50 +1320,40 @@
  14:17-Niederlage ( ) 
  14:19-Niederlage ( ) 
  14:2-Zähler ( ) 
- 14:4-Punkte ( ) lemma=14:4-Punkt 
- 14:4-Punkt ( ) 
+ 14:4-Punkte ( ) 
  14:4-Zähler ( ) 
  14er-Feld ( ) 
- 14fache ( ) lemma=14fach 
- 14fach ( ) 
- 14fachen ( ) lemma=14fach 
- 14facher ( ) lemma=14fach 
+ 14fache ( ) 
+ 14fachen ( ) 
+ 14facher ( ) 
  14jährig ( ) 
- 14jährige ( ) lemma=14jährig 
- 14jährigem ( ) lemma=14jährig 
- 14jährigen ( ) lemma=14jährig 
- 14jähriger ( ) lemma=14jährig 
- 14jähriges ( ) lemma=14jährig 
- 14köpfige ( ) lemma=14köpfig 
- 14köpfig ( ) 
- 14köpfigen ( ) lemma=14köpfig 
- 14maligen ( ) lemma=14malig 
- 14malig ( ) 
- 14monatige ( ) lemma=14monatig 
- 14monatig ( ) 
- 14monatigen ( ) lemma=14monatig 
- 14monatiger ( ) lemma=14monatig 
- 14prozentige ( ) lemma=14prozentig 
- 14prozentig ( ) 
- 14prozentigen ( ) lemma=14prozentig 
- 14stöckigen ( ) lemma=14stöckig 
- 14stöckig ( ) 
- 14stöckiges ( ) lemma=14stöckig 
- 14stündige ( ) lemma=14stündig 
- 14stündig ( ) 
- 14stündigen ( ) lemma=14stündig 
- 14stündiger ( ) lemma=14stündig 
- 14teilige ( ) lemma=14teilig 
- 14teilig ( ) 
+ 14jährige ( ) lemma=114jährig 
+ 14jährigem ( ) 
+ 14jährigen ( ) 
+ 14jähriger ( ) 
+ 14jähriges ( ) 
+ 14köpfige ( ) 
+ 14köpfigen ( ) 
+ 14maligen ( ) 
+ 14monatige ( ) 
+ 14monatigen ( ) 
+ 14monatiger ( ) 
+ 14prozentige ( ) 
+ 14prozentigen ( ) 
+ 14stöckigen ( ) 
+ 14stöckiges ( ) 
+ 14stündige ( ) 
+ 14stündigen ( ) 
+ 14stündiger ( ) 
+ 14teilige ( ) 
  14tägig ( ) 
- 14tägige ( ) lemma=14tägig 
- 14tägigem ( ) lemma=14tägig 
- 14tägigen ( ) lemma=14tägig 
- 14tägiger ( ) lemma=14tägig 
- 14tägiges ( ) lemma=14tägig 
- 15 ( ) 
- 15,5prozentige ( ) lemma=15,5prozentig 
- 15,5prozentig ( ) 
+ 14tägige ( ) 
+ 14tägigem ( ) 
+ 14tägigen ( ) 
+ 14tägiger ( ) 
+ 14tägiges ( ) 
+ 15 ( ) lemma=3150 
+ 15,5prozentige ( ) 
  15,6 ( ) 
  15- ( ) 
  15-A ( ) 
@@ -1547,23 +1362,20 @@
  15-Jahrfeier ( ) 
  15-Kilometer- ( ) 
  15-Kilometer-Distanz ( ) 
- 15-Länder ( ) lemma=15-Land 
- 15-Land ( ) 
- 15-Mark-Taschen ( ) lemma=15-Mark-Tasche 
- 15-Mark-Tasche ( ) 
+ 15-Länder ( ) 
+ 15-Mark-Taschen ( ) 
  15-Meter-Klasse ( ) 
  15-Meter-Rennklasse ( ) 
  15-Millionen-Bevölkerung ( ) 
  15-Millionen-Mark-Zuschuss ( ) 
- 15-Millionen-Mark-Zuschuß ( ) lemma=15-Millionen-Mark-Zuschuss 
+ 15-Millionen-Mark-Zuschuß ( ) 
  15-Millionen-Projekt ( ) 
  15-Millionen-Stadt ( ) 
  15-Minuten- ( ) 
- 15-Minuten-Interviews ( ) lemma=15-Minuten-Interview 
- 15-Minuten-Interview ( ) 
+ 15-Minuten-Interviews ( ) 
  15-Minuten-Takt ( ) 
- 15-Minuten-Taktes ( ) lemma=15-Minuten-Takt 
- 15-Minuten-Takts ( ) lemma=15-Minuten-Takt 
+ 15-Minuten-Taktes ( ) 
+ 15-Minuten-Takts ( ) 
  15-Minuten-Verkehr ( ) 
  15-Prozent- ( ) 
  15-Prozent-Marke ( ) 
@@ -1575,28 +1387,24 @@
  15-Quadratmeter-Zimmer ( ) 
  15-Stunden-Job ( ) 
  15-Stunden-Tag ( ) 
- 15-Stunden-Tage ( ) lemma=15-Stunden-Tag 
- 15-Uhr-Spielen ( ) lemma=15-Uhr-Spiel 
- 15-Uhr-Spiel ( ) 
+ 15-Stunden-Tage ( ) 
+ 15-Uhr-Spielen ( ) 
  15-Uhr-Vorstellung ( ) 
- 15-jährige ( ) lemma=15-jährig 
- 15-jährig ( ) 
- 15-jährigen ( ) lemma=15-jährig 
- 15-jähriger ( ) lemma=15-jährig 
- 15-jähriges ( ) lemma=15-jährig 
+ 15-jährige ( ) 
+ 15-jährigen ( ) 
+ 15-jähriger ( ) 
+ 15-jähriges ( ) 
  15-km- ( ) 
  15-km-Langlauf ( ) 
  15-km-Lauf ( ) 
  15-km-Rennen ( ) 
  15-km-Sieg ( ) 
- 15-köpfige ( ) lemma=15-köpfig 
- 15-köpfig ( ) 
- 15-köpfigen ( ) lemma=15-köpfig 
+ 15-köpfige ( ) 
+ 15-köpfigen ( ) 
  15-m-Rennklasse ( ) 
  15. ( ) 
  15.00- ( ) 
- 15.000köpfige ( ) lemma=15.000köpfig 
- 15.000köpfig ( ) 
+ 15.000köpfige ( ) 
  15.05 ( ) 
  15/10 ( ) 
  15/12 ( ) 
@@ -1609,25 +1417,24 @@
  150 ( ) 
  150,0/177,5 ( ) 
  150- ( ) 
- 150-Jahr-Feier ( ) 
+ 150-Jahr-Feier ( ) lemma=1150-Jahr-Feier 
  150-Jahr-Jubiläum ( ) 
- 150-Jahr-Jubiläums ( ) lemma=150-Jahr-Jubiläum 
+ 150-Jahr-Jubiläums ( ) 
  150-Meter- ( ) 
  150-Millionen-Mark-Projekt ( ) 
  150-Millionen-Volk ( ) 
  150-Seelen-Gemeinde ( ) 
  150-g-Erdbeerjoghurt ( ) 
- 150-köpfige ( ) lemma=150-köpfig 
- 150-köpfig ( ) 
+ 150-köpfige ( ) 
  150-prozentig ( ) 
- 150-prozentiges ( ) lemma=150-prozentig 
+ 150-prozentiges ( ) 
  150/88 ( ) 
  1500 ( ) 
  1500-Einwohner-Marke ( ) 
  1500-Mark-Scheck ( ) 
  1500-Meter-Lauf ( ) 
  1500-Meter-Rennen ( ) 
- 1500-Meter-Rennens ( ) lemma=1500-Meter-Rennen 
+ 1500-Meter-Rennens ( ) 
  1500-Meter-Staffellauf ( ) 
  1500-Meter-Strecke ( ) 
  1500-Punkte-Marke ( ) 
@@ -1649,107 +1456,86 @@
  1500er ( ) 
  1503-Verfahren ( ) 
  150D-Mark ( ) 
- 150fache ( ) lemma=150fach 
- 150fach ( ) 
- 150fachen ( ) lemma=150fach 
- 150jährige ( ) lemma=150jährig 
- 150jährig ( ) 
- 150jährigen ( ) lemma=150jährig 
- 150jähriges ( ) lemma=150jährig 
- 150köpfige ( ) lemma=150köpfig 
- 150köpfig ( ) 
- 150köpfigen ( ) lemma=150köpfig 
+ 150fache ( ) 
+ 150fachen ( ) 
+ 150jährige ( ) 
+ 150jährigen ( ) 
+ 150jähriges ( ) 
+ 150köpfige ( ) 
+ 150köpfigen ( ) 
  150prozentig ( ) 
- 150prozentige ( ) lemma=150prozentig 
- 150prozentigen ( ) lemma=150prozentig 
- 150prozentiger ( ) lemma=150prozentig 
+ 150prozentige ( ) 
+ 150prozentigen ( ) 
+ 150prozentiger ( ) 
  151/92 ( ) 
  1515/85 ( ) 
  1516:1513-Sieg ( ) 
- 151jährigen ( ) lemma=151jährig 
- 151jährig ( ) 
+ 151jährigen ( ) 
  152/93 ( ) 
  1520:1543-Niederlage ( ) 
  1521/22 ( ) 
  152er ( ) 
  1534/92 ( ) 
  155-Millimeter ( ) 
- 155-Millimeter-Geschosse ( ) lemma=155-Millimeter-Geschoss 
- 155-Millimeter-Geschoss ( ) 
- 155-mm-Haubitzen ( ) lemma=155-mm-Haubitze 
- 155-mm-Haubitze ( ) 
+ 155-Millimeter-Geschosse ( ) 
+ 155-mm-Haubitzen ( ) 
  155/92 ( ) 
  1555/88 ( ) 
- 155jährigen ( ) lemma=155jährig 
- 155jährig ( ) 
+ 155jährigen ( ) 
  156/6 ( ) 
  156er-Nummer ( ) 
- 156er-Nummern ( ) lemma=156er-Nummer 
+ 156er-Nummern ( ) 
  1586/89 ( ) 
  159-Teiler ( ) 
  15921,22 ( ) 
  1594/95 ( ) 
  1595,04 ( ) 
  15:0-Sieg ( ) 
- 15:1-Punkten ( ) lemma=15:1-Punkt 
- 15:1-Punkt ( ) 
+ 15:1-Punkten ( ) 
  15:13-Lösung ( ) 
- 15:13-Punkten ( ) lemma=15:13-Punkt 
- 15:13-Punkt ( ) 
- 15:15-Punkten ( ) lemma=15:15-Punkt 
- 15:15-Punkt ( ) 
+ 15:13-Punkten ( ) 
+ 15:15-Punkten ( ) 
  15:17-Niederlage ( ) 
  15:18-Niederlage ( ) 
  15:2-Sieg ( ) 
- 15:3-Punkte ( ) lemma=15:3-Punkt 
- 15:3-Punkt ( ) 
- 15:7-Zählern ( ) lemma=15:7-Zähler 
- 15:7-Zähler ( ) 
+ 15:3-Punkte ( ) 
+ 15:7-Zählern ( ) 
  15er ( ) 
- 15er-Clubs ( ) lemma=15er-Club 
- 15er-Club ( ) 
+ 15er-Clubs ( ) 
  15er-Feld ( ) 
  15er-Kader ( ) 
  15fach ( ) 
- 15fache ( ) lemma=15fach 
- 15fachen ( ) lemma=15fach 
+ 15fache ( ) 
+ 15fachen ( ) 
  15jährig ( ) 
- 15jährige ( ) lemma=15jährig 
- 15jährigem ( ) lemma=15jährig 
- 15jährigen ( ) lemma=15jährig 
- 15jähriger ( ) lemma=15jährig 
- 15jähriges ( ) lemma=15jährig 
- 15köpfige ( ) lemma=15köpfig 
- 15köpfig ( ) 
- 15köpfigen ( ) lemma=15köpfig 
- 15köpfiger ( ) lemma=15köpfig 
- 15köpfiges ( ) lemma=15köpfig 
- 15malige ( ) lemma=15malig 
- 15malig ( ) 
- 15maliges ( ) lemma=15malig 
- 15monatige ( ) lemma=15monatig 
- 15monatig ( ) 
- 15monatigen ( ) lemma=15monatig 
- 15monatiger ( ) lemma=15monatig 
- 15prozentige ( ) lemma=15prozentig 
- 15prozentig ( ) 
- 15prozentigen ( ) lemma=15prozentig 
- 15prozentiger ( ) lemma=15prozentig 
- 15stöckigen ( ) lemma=15stöckig 
- 15stöckig ( ) 
- 15stündige ( ) lemma=15stündig 
- 15stündig ( ) 
- 15stündigem ( ) lemma=15stündig 
- 15stündigen ( ) lemma=15stündig 
- 15stündiger ( ) lemma=15stündig 
- 15teilige ( ) lemma=15teilig 
- 15teilig ( ) 
+ 15jährige ( ) lemma=115jährig 
+ 15jährigem ( ) 
+ 15jährigen ( ) 
+ 15jähriger ( ) 
+ 15jähriges ( ) 
+ 15köpfige ( ) 
+ 15köpfigen ( ) 
+ 15köpfiger ( ) 
+ 15köpfiges ( ) 
+ 15malige ( ) 
+ 15maliges ( ) 
+ 15monatige ( ) 
+ 15monatigen ( ) 
+ 15monatiger ( ) 
+ 15prozentige ( ) 
+ 15prozentigen ( ) 
+ 15prozentiger ( ) 
+ 15stöckigen ( ) 
+ 15stündige ( ) 
+ 15stündigem ( ) 
+ 15stündigen ( ) 
+ 15stündiger ( ) 
+ 15teilige ( ) 
  15tägig ( ) 
- 15tägige ( ) lemma=15tägig 
- 15tägigen ( ) lemma=15tägig 
- 15tägiger ( ) lemma=15tägig 
- 15wöchige ( ) lemma=15wöchig 
- 15wöchig ( ) 
+ 15tägige ( ) 
+ 15tägigen ( ) 
+ 15tägiger ( ) 
+ 15wöchige ( ) 
  16 ( ) 
  16,7 ( ) 
  16,9 ( ) 
@@ -1758,25 +1544,22 @@
  16-Bit- ( ) 
  16-Bit-Konsole ( ) 
  16-Bomber ( ) 
- 16-Bombern ( ) lemma=16-Bomber 
+ 16-Bombern ( ) 
  16-E ( ) 
  16-Europameister ( ) 
  16-Kilometer-Lauf ( ) 
- 16-Kilometer-Laufs ( ) lemma=16-Kilometer-Lauf 
+ 16-Kilometer-Laufs ( ) 
  16-Megabit-Chip ( ) 
- 16-Megabit-Chips ( ) lemma=16-Megabit-Chip 
+ 16-Megabit-Chips ( ) 
  16-Meter- ( ) 
  16-Meter-Handzugleiter ( ) 
  16-Meter-Marke ( ) 
  16-Meter-Raum ( ) 
  16-Meter-Schuss ( ) 
- 16-Meter-Schuß ( ) lemma=16-Meter-Schuss 
- 16-Millimeter-Filmprojektoren ( ) lemma=16-Millimeter-Filmprojektor 
- 16-Millimeter-Filmprojektor ( ) 
- 16-Millimeter-Kameras ( ) lemma=16-Millimeter-Kamera 
- 16-Millimeter-Kamera ( ) 
- 16-Punkte ( ) lemma=16-Punkt 
- 16-Punkt ( ) 
+ 16-Meter-Schuß ( ) 
+ 16-Millimeter-Filmprojektoren ( ) 
+ 16-Millimeter-Kameras ( ) 
+ 16-Punkte ( ) 
  16-Punkte-Programm ( ) 
  16-Punkte-Rückstand ( ) 
  16-Quadratmeter-Zimmer ( ) 
@@ -1784,16 +1567,15 @@
  16-Stunden-Arbeitstag ( ) 
  16-Stunden-Kleid ( ) 
  16-Stunden-Tag ( ) 
- 16-Stunden-Tagen ( ) lemma=16-Stunden-Tag 
- 16-jährige ( ) lemma=16-jährig 
- 16-jährig ( ) 
- 16-jährigen ( ) lemma=16-jährig 
+ 16-Stunden-Tagen ( ) 
+ 16-jährige ( ) 
+ 16-jährigen ( ) 
  16-m-Schuss ( ) 
- 16-m-Schuß ( ) lemma=16-m-Schuss 
+ 16-m-Schuß ( ) 
  16-mm ( ) 
  16-mm- ( ) 
  16-mm-Film ( ) 
- 16-mm-Filme ( ) lemma=16-mm-Film 
+ 16-mm-Filme ( ) 
  16-mm-Kamera ( ) 
  16-mm-Material ( ) 
  16-mm-Streifen ( ) 
@@ -1801,8 +1583,7 @@
  16. ( ) 
  16./17. ( ) 
  16.00- ( ) 
- 16.000köpfigen ( ) lemma=16.000köpfig 
- 16.000köpfig ( ) 
+ 16.000köpfigen ( ) 
  16.03 ( ) 
  16.56 ( ) 
  16/100 ( ) 
@@ -1816,21 +1597,18 @@
  16/92 ( ) 
  160 ( ) 
  160- ( ) 
- 160-Betten-Hotels ( ) lemma=160-Betten-Hotel 
- 160-Betten-Hotel ( ) 
- 160-Betten-Kurhotels ( ) lemma=160-Betten-Kurhotel 
- 160-Betten-Kurhotel ( ) 
+ 160-Betten-Hotels ( ) 
+ 160-Betten-Kurhotels ( ) 
  160-Millionen-Mark-Projekt ( ) 
  160-Millionen-Mark-Vorschuss ( ) 
- 160-Millionen-Mark-Vorschuß ( ) lemma=160-Millionen-Mark-Vorschuss 
+ 160-Millionen-Mark-Vorschuß ( ) 
  160-Millionen-SSB-Defizit ( ) 
  16000 ( ) 
  16000-Einwohner-Gemeinde ( ) 
  16000-Einwohner-Kommune ( ) 
  16000-Einwohner-Stadt ( ) 
  1600er ( ) 
- 160köpfigen ( ) lemma=160köpfig 
- 160köpfig ( ) 
+ 160köpfigen ( ) 
  161 ( ) 
  161/88 ( ) 
  1613/91 ( ) 
@@ -1842,15 +1620,13 @@
  166 ( ) 
  166/87 ( ) 
  167/89 ( ) 
- 167fache ( ) lemma=167fach 
- 167fach ( ) 
- 167fachen ( ) lemma=167fach 
+ 167fache ( ) 
+ 167fachen ( ) 
  169/170 ( ) 
  1696,74 ( ) 
  1696,76 ( ) 
  1698/99 ( ) 
- 16:0-Punkten ( ) lemma=16:0-Punkt 
- 16:0-Punkt ( ) 
+ 16:0-Punkten ( ) 
  16:10-Heimsieg ( ) 
  16:10-Vorsprung ( ) 
  16:13-Heimerfolg ( ) 
@@ -1858,12 +1634,9 @@
  16:14-Erfolg ( ) 
  16:14-Vorsprung ( ) 
  16:15-Führung ( ) 
- 16:2-Punkte ( ) lemma=16:2-Punkt 
- 16:2-Punkt ( ) 
- 16:26-Punkte ( ) lemma=16:26-Punkt 
- 16:26-Punkt ( ) 
- 16:4-Punkte ( ) lemma=16:4-Punkt 
- 16:4-Punkt ( ) 
+ 16:2-Punkte ( ) 
+ 16:26-Punkte ( ) 
+ 16:4-Punkte ( ) 
  16:8-Führung ( ) 
  16:9-Format ( ) 
  16:9-Sieger ( ) 
@@ -1874,57 +1647,46 @@
  16er-Feld ( ) 
  16er-Kader ( ) 
  16er-Staffel ( ) 
- 16fache ( ) lemma=16fach 
- 16fach ( ) 
- 16fachen ( ) lemma=16fach 
- 16geschossige ( ) lemma=16geschossig 
- 16geschossig ( ) 
- 16geschossigen ( ) lemma=16geschossig 
+ 16fache ( ) 
+ 16fachen ( ) 
+ 16geschossige ( ) 
+ 16geschossigen ( ) 
  16jährig ( ) 
- 16jährige ( ) lemma=16jährig 
- 16jährigem ( ) lemma=16jährig 
- 16jährigen ( ) lemma=16jährig 
- 16jähriger ( ) lemma=16jährig 
- 16jähriges ( ) lemma=16jährig 
- 16köpfige ( ) lemma=16köpfig 
- 16köpfig ( ) 
- 16köpfigen ( ) lemma=16köpfig 
- 16köpfiges ( ) lemma=16köpfig 
+ 16jährige ( ) 
+ 16jährigem ( ) 
+ 16jährigen ( ) 
+ 16jähriger ( ) 
+ 16jähriges ( ) 
+ 16köpfige ( ) 
+ 16köpfigen ( ) 
+ 16köpfiges ( ) 
  16mal ( ) 
- 16malige ( ) lemma=16malig 
- 16malig ( ) 
+ 16malige ( ) 
  16mm-Film ( ) 
- 16mm-Filme ( ) lemma=16mm-Film 
- 16mm-Filmen ( ) lemma=16mm-Film 
+ 16mm-Filme ( ) 
+ 16mm-Filmen ( ) 
  16mm-Kamera ( ) 
- 16monatige ( ) lemma=16monatig 
- 16monatig ( ) 
- 16monatigen ( ) lemma=16monatig 
- 16monatiger ( ) lemma=16monatig 
- 16prozentige ( ) lemma=16prozentig 
- 16prozentig ( ) 
- 16prozentigen ( ) lemma=16prozentig 
- 16stöckiges ( ) lemma=16stöckig 
- 16stöckig ( ) 
- 16stündigen ( ) lemma=16stündig 
- 16stündig ( ) 
- 16stündiger ( ) lemma=16stündig 
- 16teilige ( ) lemma=16teilig 
- 16teilig ( ) 
- 16tägige ( ) lemma=16tägig 
- 16tägig ( ) 
- 16tägigen ( ) lemma=16tägig 
- 16wöchige ( ) lemma=16wöchig 
- 16wöchig ( ) 
- 16wöchigen ( ) lemma=16wöchig 
- 16wöchiger ( ) lemma=16wöchig 
- 16wöchiges ( ) lemma=16wöchig 
+ 16monatige ( ) 
+ 16monatigen ( ) 
+ 16monatiger ( ) 
+ 16prozentige ( ) 
+ 16prozentigen ( ) 
+ 16stöckiges ( ) 
+ 16stündigen ( ) 
+ 16stündiger ( ) 
+ 16teilige ( ) 
+ 16tägige ( ) lemma=116tägig 
+ 16tägigen ( ) 
+ 16wöchige ( ) 
+ 16wöchigen ( ) 
+ 16wöchiger ( ) 
+ 16wöchiges ( ) 
  17 ( ) 
  17,50 ( ) 
  17- ( ) 
  17-19 ( ) 
  17-Meter-Schuss ( ) 
- 17-Meter-Schuß ( ) lemma=17-Meter-Schuss 
+ 17-Meter-Schuß ( ) 
  17-Milliarden- ( ) 
  17-Millionen-Stadt ( ) 
  17-Minuten-Takt ( ) 
@@ -1935,10 +1697,9 @@
  17-Punkte-Katalog ( ) 
  17-Seiten-Papier ( ) 
  17-Stimmen-Vorsprung ( ) 
- 17-jährige ( ) lemma=17-jährig 
- 17-jährig ( ) 
+ 17-jährige ( ) 
  17-m-Schuss ( ) 
- 17-m-Schuß ( ) lemma=17-m-Schuss 
+ 17-m-Schuß ( ) 
  17/1 ( ) 
  17/10 ( ) 
  17/18 ( ) 
@@ -1949,7 +1710,7 @@
  170 ( ) 
  170-Hektar-Gelände ( ) 
  170/90 ( ) 
- 1700 ( ) 
+ 1700 ( ) lemma=117000 
  1700-Seelen-Gemeinde ( ) 
  17000 ( ) 
  170er ( ) 
@@ -1957,16 +1718,15 @@
  1744 ( ) 
  175-Jahr-Feier ( ) 
  175-Jahr-Jubiläum ( ) 
- 175-Jahr-Jubiläums ( ) lemma=175-Jahr-Jubiläum 
+ 175-Jahr-Jubiläums ( ) 
  175/212,5 ( ) 
  1750/60 ( ) 
  17500-Einwohner-Kommune ( ) 
  1758/59 ( ) 
  175er ( ) 
- 175jährige ( ) lemma=175jährig 
- 175jährig ( ) 
- 175jährigen ( ) lemma=175jährig 
- 175jähriges ( ) lemma=175jährig 
+ 175jährige ( ) lemma=1175jährig 
+ 175jährigen ( ) 
+ 175jähriges ( ) 
  175mal ( ) 
  1761/62 ( ) 
  1770,64 ( ) 
@@ -1990,39 +1750,32 @@
  17:16-Sieg ( ) 
  17:16-Zittersieg ( ) 
  17:17-Endstand ( ) 
- 17:17-Punkte ( ) lemma=17:17-Punkt 
- 17:17-Punkt ( ) 
+ 17:17-Punkte ( ) 
  17:19-Rückstand ( ) 
  17:8-Auswärtserfolg ( ) 
- 17:9-Punkten ( ) lemma=17:9-Punkt 
- 17:9-Punkt ( ) 
+ 17:9-Punkten ( ) 
  17er-Feld ( ) 
- 17er-Feldes ( ) lemma=17er-Feld 
+ 17er-Feldes ( ) 
  17er-Gruppe ( ) 
  17fach ( ) 
- 17fache ( ) lemma=17fach 
- 17fachen ( ) lemma=17fach 
+ 17fache ( ) 
+ 17fachen ( ) 
  17jährig ( ) 
- 17jährige ( ) lemma=17jährig 
- 17jährigem ( ) lemma=17jährig 
- 17jährigen ( ) lemma=17jährig 
- 17jähriger ( ) lemma=17jährig 
- 17jähriges ( ) lemma=17jährig 
- 17köpfige ( ) lemma=17köpfig 
- 17köpfig ( ) 
- 17köpfigen ( ) lemma=17köpfig 
- 17monatige ( ) lemma=17monatig 
- 17monatig ( ) 
- 17monatigen ( ) lemma=17monatig 
- 17prozentige ( ) lemma=17prozentig 
- 17prozentig ( ) 
- 17stündige ( ) lemma=17stündig 
- 17stündig ( ) 
- 17stündigen ( ) lemma=17stündig 
- 17stündiger ( ) lemma=17stündig 
- 17tägigen ( ) lemma=17tägig 
- 17tägig ( ) 
- 17tägiger ( ) lemma=17tägig 
+ 17jährige ( ) 
+ 17jährigem ( ) 
+ 17jährigen ( ) 
+ 17jähriger ( ) 
+ 17jähriges ( ) 
+ 17köpfige ( ) 
+ 17köpfigen ( ) 
+ 17monatige ( ) 
+ 17monatigen ( ) 
+ 17prozentige ( ) 
+ 17stündige ( ) 
+ 17stündigen ( ) 
+ 17stündiger ( ) 
+ 17tägigen ( ) 
+ 17tägiger ( ) 
  18 ( ) 
  18,5 ( ) 
  18,9-Millionen-Mark-Projekt ( ) 
@@ -2030,19 +1783,17 @@
  18-Familien-Haus ( ) 
  18-Gang-Kettenschaltung ( ) 
  18-Gang-Schaltung ( ) 
- 18-Kampfflugzeuge ( ) lemma=18-Kampfflugzeug 
- 18-Kampfflugzeug ( ) 
+ 18-Kampfflugzeuge ( ) 
  18-Loch- ( ) 
  18-Loch-Anlage ( ) 
  18-Loch-Golfanlage ( ) 
  18-Loch-Golfplatz ( ) 
  18-Loch-Platz ( ) 
- 18-Loch-Plätze ( ) lemma=18-Loch-Platz 
+ 18-Loch-Plätze ( ) 
  18-Meter-Schuss ( ) 
- 18-Meter-Schuß ( ) lemma=18-Meter-Schuss 
+ 18-Meter-Schuß ( ) 
  18-Millionen-Metropole ( ) 
- 18-Nationen-Turniers ( ) lemma=18-Nationen-Turnier 
- 18-Nationen-Turnier ( ) 
+ 18-Nationen-Turniers ( ) 
  18-Punkte-Plan ( ) 
  18-Stunden-Tag ( ) 
  18-Teiler ( ) 
@@ -2050,19 +1801,16 @@
  18-Uhr-Vorstellung ( ) 
  18-West ( ) 
  18-Wettbewerb ( ) 
- 18-jährige ( ) lemma=18-jährig 
- 18-jährig ( ) 
- 18-jähriges ( ) lemma=18-jährig 
+ 18-jährige ( ) 
+ 18-jähriges ( ) 
  18-m-Flachschuss ( ) 
- 18-m-Flachschuß ( ) lemma=18-m-Flachschuss 
- 18-m-Freistoss ( ) lemma=18-m-Freistoß 
+ 18-m-Flachschuß ( ) 
+ 18-m-Freistoss ( ) 
  18-m-Freistoß ( ) 
  18-m-Schuss ( ) 
- 18-m-Schuß ( ) lemma=18-m-Schuss 
- 18-monatiger ( ) lemma=18-monatig 
- 18-monatig ( ) 
- 18-stündigen ( ) lemma=18-stündig 
- 18-stündig ( ) 
+ 18-m-Schuß ( ) 
+ 18-monatiger ( ) 
+ 18-stündigen ( ) 
  18. ( ) 
  18.000-Einwohner- ( ) 
  18.000-Pfund- ( ) 
@@ -2085,8 +1833,7 @@
  18000-Einwohner-Stadt ( ) 
  1802/91 ( ) 
  180er ( ) 
- 180köpfigen ( ) lemma=180köpfig 
- 180köpfig ( ) 
+ 180köpfigen ( ) 
  181/46 ( ) 
  1810 ( ) 
  1811er ( ) 
@@ -2098,13 +1845,13 @@
  1822-Jazz ( ) 
  1822-Jazz-Konzert ( ) 
  1822-Rock-Festival ( ) 
- 1822-Rock-Festivals ( ) lemma=1822-Rock-Festival 
+ 1822-Rock-Festivals ( ) 
  1822-Rockfestival ( ) 
- 1822-Rockfestivals ( ) lemma=1822-Rockfestival 
+ 1822-Rockfestivals ( ) 
  1827/89 ( ) 
  1828/29 ( ) 
  1830er ( ) 
- 1830ern ( ) lemma=1830er 
+ 1830ern ( ) 
  1833/34 ( ) 
  1841/42 ( ) 
  1842 ( ) 
@@ -2133,12 +1880,10 @@
  1873 ( ) 
  1873/89 ( ) 
  18776/91 ( ) 
- 1878-Erfolge ( ) lemma=1878-Erfolg 
- 1878-Erfolg ( ) 
+ 1878-Erfolge ( ) 
  1879 ( ) 
  1879/1920 ( ) 
- 187malige ( ) lemma=187malig 
- 187malig ( ) 
+ 187malige ( ) 
  1880er ( ) 
  1882 ( ) 
  1884/85 ( ) 
@@ -2155,73 +1900,55 @@
  1896/97 ( ) 
  1897 ( ) 
  1899/1900 ( ) 
- 18:0-Punkte ( ) lemma=18:0-Punkt 
- 18:0-Punkt ( ) 
+ 18:0-Punkte ( ) 
  18:14-Sieg ( ) 
  18:15-Heimsieg ( ) 
  18:17-Sieg ( ) 
  18:19-Niederlage ( ) 
- 18:2-Punkte ( ) lemma=18:2-Punkt 
- 18:2-Punkt ( ) 
- 18:2-Punkten ( ) lemma=18:2-Punkt 
- 18:2-Tore ( ) lemma=18:2-Tor 
- 18:2-Tor ( ) 
- 18:4-Punkten ( ) lemma=18:4-Punkt 
- 18:4-Punkt ( ) 
+ 18:2-Punkte ( ) 
+ 18:2-Punkten ( ) 
+ 18:2-Tore ( ) 
+ 18:4-Punkten ( ) 
  18:7-Heimsieg ( ) 
  18a-Verfahren ( ) 
  18er-Feld ( ) 
  18er-Kader ( ) 
- 18fache ( ) lemma=18fach 
- 18fach ( ) 
- 18fachen ( ) lemma=18fach 
+ 18fache ( ) 
+ 18fachen ( ) 
  18jährig ( ) 
- 18jährige ( ) lemma=18jährig 
- 18jährigem ( ) lemma=18jährig 
- 18jährigen ( ) lemma=18jährig 
- 18jähriger ( ) lemma=18jährig 
- 18jähriges ( ) lemma=18jährig 
- 18karätigem ( ) lemma=18karätig 
- 18karätig ( ) 
- 18köpfige ( ) lemma=18köpfig 
- 18köpfig ( ) 
- 18köpfigen ( ) lemma=18köpfig 
- 18köpfiges ( ) lemma=18köpfig 
- 18maligen ( ) lemma=18malig 
- 18malig ( ) 
- 18monatige ( ) lemma=18monatig 
- 18monatig ( ) 
- 18monatigen ( ) lemma=18monatig 
- 18monatiger ( ) lemma=18monatig 
- 18prozentigen ( ) lemma=18prozentig 
- 18prozentig ( ) 
- 18stöckiges ( ) lemma=18stöckig 
- 18stöckig ( ) 
- 18stündigem ( ) lemma=18stündig 
- 18stündig ( ) 
- 18stündigen ( ) lemma=18stündig 
- 18stündiger ( ) lemma=18stündig 
- 18teiligen ( ) lemma=18teilig 
- 18teilig ( ) 
- 19 ( ) 
+ 18jährige ( ) 
+ 18jährigem ( ) 
+ 18jährigen ( ) 
+ 18jähriger ( ) 
+ 18jähriges ( ) 
+ 18karätigem ( ) 
+ 18köpfige ( ) 
+ 18köpfigen ( ) 
+ 18köpfiges ( ) 
+ 18maligen ( ) 
+ 18monatige ( ) 
+ 18monatigen ( ) 
+ 18monatiger ( ) 
+ 18prozentigen ( ) 
+ 18stöckiges ( ) 
+ 18stündigem ( ) 
+ 18stündigen ( ) 
+ 18stündiger ( ) 
+ 18teiligen ( ) 
+ 19 ( ) lemma=8192 
  19,6-Prozent-Beteiligung ( ) 
  19,8 ( ) 
  19- ( ) 
- 19-Kräfte ( ) lemma=19-Kraft 
- 19-Kraft ( ) 
+ 19-Kräfte ( ) 
  19-Nationalspielerin ( ) 
  19-Punkte-Programm ( ) 
  19-Seiten-Text ( ) 
- 19-Stellen ( ) lemma=19-Stelle 
- 19-Stelle ( ) 
+ 19-Stellen ( ) 
  19-Uhr- ( ) 
- 19-Verträge ( ) lemma=19-Vertrag 
- 19-Vertrag ( ) 
- 19-jährige ( ) lemma=19-jährig 
- 19-jährig ( ) 
- 19-jährigen ( ) lemma=19-jährig 
- 19-köpfige ( ) lemma=19-köpfig 
- 19-köpfig ( ) 
+ 19-Verträge ( ) 
+ 19-jährige ( ) 
+ 19-jährigen ( ) 
+ 19-köpfige ( ) 
  19. ( ) 
  19.30 ( ) 
  19/20 ( ) 
@@ -2242,7 +1969,7 @@
  190er-Kompaktklasse ( ) 
  190er-Nachfolger ( ) 
  190er-Reihe ( ) 
- 190ern ( ) lemma=190er 
+ 190ern ( ) 
  1910/11 ( ) 
  1910/1911 ( ) 
  1911/12 ( ) 
@@ -2294,8 +2021,7 @@
  1938/39 ( ) 
  1939 ( ) 
  1939/40 ( ) 
- 193jährigen ( ) lemma=193jährig 
- 193jährig ( ) 
+ 193jährigen ( ) 
  194/87 ( ) 
  194/88 ( ) 
  1940/41 ( ) 
@@ -2469,8 +2195,7 @@
  1998/2000 ( ) 
  1998/99 ( ) 
  1999 ( ) 
- 19:1-Punkte ( ) lemma=19:1-Punkt 
- 19:1-Punkt ( ) 
+ 19:1-Punkte ( ) 
  19:1-Zähler ( ) 
  19:10-Favorit ( ) 
  19:18-Sieg ( ) 
@@ -2480,26 +2205,20 @@
  19:21-Niederlage ( ) 
  19er ( ) 
  19er-Feld ( ) 
- 19fache ( ) lemma=19fach 
- 19fach ( ) 
- 19fachen ( ) lemma=19fach 
+ 19fache ( ) 
+ 19fachen ( ) 
  19jährig ( ) 
- 19jährige ( ) lemma=19jährig 
- 19jährigem ( ) lemma=19jährig 
- 19jährigen ( ) lemma=19jährig 
- 19jähriger ( ) lemma=19jährig 
- 19jähriges ( ) lemma=19jährig 
- 19köpfige ( ) lemma=19köpfig 
- 19köpfig ( ) 
- 19köpfigen ( ) lemma=19köpfig 
- 19malige ( ) lemma=19malig 
- 19malig ( ) 
- 19monatigen ( ) lemma=19monatig 
- 19monatig ( ) 
- 19stündigen ( ) lemma=19stündig 
- 19stündig ( ) 
- 19tägigen ( ) lemma=19tägig 
- 19tägig ( ) 
+ 19jährige ( ) 
+ 19jährigem ( ) 
+ 19jährigen ( ) 
+ 19jähriger ( ) 
+ 19jähriges ( ) 
+ 19köpfige ( ) 
+ 19köpfigen ( ) 
+ 19malige ( ) 
+ 19monatigen ( ) 
+ 19stündigen ( ) 
+ 19tägigen ( ) 
  1:0 ( ) 
  1:0- ( ) 
  1:0-Auftaktsieg ( ) 
@@ -2514,8 +2233,8 @@
  1:0-Heimsieg ( ) 
  1:0-Pausenführung ( ) 
  1:0-Sieg ( ) 
- 1:0-Siege ( ) lemma=1:0-Sieg 
- 1:0-Sieges ( ) lemma=1:0-Sieg 
+ 1:0-Siege ( ) 
+ 1:0-Sieges ( ) 
  1:0-Siegtreffer ( ) 
  1:0-Vorsprung ( ) 
  1:1 ( ) 
@@ -2525,47 +2244,45 @@
  1:1-Endstand ( ) 
  1:1-Halbzeitstand ( ) 
  1:1-Kurs ( ) 
- 1:1-Kurses ( ) lemma=1:1-Kurs 
+ 1:1-Kurses ( ) 
  1:1-Pausenstand ( ) 
  1:1-Remis ( ) 
  1:1-Tausch ( ) 
  1:1-Umstellung ( ) 
  1:1-Umtausch ( ) 
- 1:1-Umtausches ( ) lemma=1:1-Umtausch 
+ 1:1-Umtausches ( ) 
  1:1-Umtauschkurs ( ) 
- 1:1-Umtauschs ( ) lemma=1:1-Umtausch 
+ 1:1-Umtauschs ( ) 
  1:1-Unentschieden ( ) 
  1:1-Verhältnis ( ) 
  1:1-Übersetzung ( ) 
- 1:15-Punkte ( ) lemma=1:15-Punkt 
- 1:15-Punkt ( ) 
+ 1:15-Punkte ( ) 
  1:2 ( ) 
  1:2-Anschlusstreffer ( ) 
- 1:2-Anschlußtreffer ( ) lemma=1:2-Anschlusstreffer 
+ 1:2-Anschlußtreffer ( ) 
  1:2-Endstand ( ) 
  1:2-Heimniederlage ( ) 
  1:2-Niederlage ( ) 
- 1:2-Niederlagen ( ) lemma=1:2-Niederlage 
+ 1:2-Niederlagen ( ) 
  1:2-Pleite ( ) 
  1:2-Regelung ( ) 
  1:2-Rückstand ( ) 
  1:2-Umtausch ( ) 
  1:3- ( ) 
  1:3-Anschlusstreffer ( ) 
- 1:3-Anschlußtreffer ( ) lemma=1:3-Anschlusstreffer 
+ 1:3-Anschlußtreffer ( ) 
  1:3-Debakel ( ) 
  1:3-Endstand ( ) 
  1:3-Heimniederlage ( ) 
  1:3-Heimpleite ( ) 
  1:3-Hinspielniederlage ( ) 
  1:3-Niederlage ( ) 
- 1:3-Niederlagen ( ) lemma=1:3-Niederlage 
- 1:3-Punkten ( ) lemma=1:3-Punkt 
- 1:3-Punkt ( ) 
+ 1:3-Niederlagen ( ) 
+ 1:3-Punkten ( ) 
  1:3-Rückstand ( ) 
  1:3-Verkauf ( ) 
  1:4-Anschlusstreffer ( ) 
- 1:4-Anschlußtreffer ( ) lemma=1:4-Anschlusstreffer 
+ 1:4-Anschlußtreffer ( ) 
  1:4-Endstand ( ) 
  1:4-Heimniederlage ( ) 
  1:4-Niederlage ( ) 
@@ -2573,32 +2290,492 @@
  1:4-Rückstand ( ) 
  1:4-Schlappe ( ) 
  1:5-Niederlage ( ) 
- 1:5-Punkte ( ) lemma=1:5-Punkt 
- 1:5-Punkt ( ) 
- 1:5-Punkten ( ) lemma=1:5-Punkt 
+ 1:5-Punkte ( ) 
+ 1:5-Punkten ( ) 
  1:6-Debakel ( ) 
  1:6-Niederlage ( ) 
  1:6-Schlappe ( ) 
  1:7-Niederlage ( ) 
- 1:7-Punkte ( ) lemma=1:7-Punkt 
- 1:7-Punkt ( ) 
+ 1:7-Punkte ( ) 
  1:8-Debakel ( ) 
- 1:8-Sätzen ( ) lemma=1:8-Satz 
- 1:8-Satz ( ) 
+ 1:8-Sätzen ( ) 
  1:9-Niederlage ( ) 
  1D-Mark ( ) 
  1a ( ) 
  1a- ( ) 
  1a-Lage ( ) 
- 1a-Lagen ( ) lemma=1a-Lage 
- 1b-Lagen ( ) lemma=1b-Lage 
- 1b-Lage ( ) 
+ 1a-Lagen ( ) 
+ 1b-Lagen ( ) 
  1b-Mannschaft ( ) 
  1b-Stelle ( ) 
- 1er ( ) 
+ 1er ( ) lemma=91er- 
  1er-Wertung ( ) 
- 1ern ( ) lemma=1er 
- 1jährigen ( ) lemma=1jährig 
- 1jährig ( ) 
- 1jähriger ( ) lemma=1jährig 
+ 1ern ( ) 
+ 1jährigen ( ) 
+ 1jähriger ( ) 
  1mal ( ) 
+ 19-Stell ( ) lemma=-19-Stelle 
+ 19-Stelle ( ) lemma=-19-Stelle 
+ 1-Keepe ( ) lemma=01-Keeper 
+ 1-Schlussman ( ) lemma=01-Schlussmann 
+ 1-Schlußman ( ) lemma=01-Schlussmann 
+ 1/ ( ) lemma=91/2 
+ 130-Nummer ( ) lemma=0130-Nummer 
+ 130/85119 ( ) lemma=0130/851199 
+ 1e ( ) lemma=91er 
+ 1,1-Milliarde ( ) 
+ 1,2-Millionen-Mark-Computer ( ) 
+ 1,2-ungesättigt ( ) 
+ 1,35fach ( ) 
+ 1,3fach ( ) 
+ 1,5-Liter-Flasche ( ) 
+ 1,5-fach ( ) 
+ 1,5fach ( ) 
+ 1,5prozentig ( ) lemma=11,5prozentig 
+ 1,6-fach ( ) 
+ 1,6fach ( ) 
+ 1-A-Geldschein ( ) 
+ 1-Bibellexika ( ) 
+ 1-Hexe ( ) 
+ 1-Kunde ( ) 
+ 1-Notiz ( ) 
+ 1-Zimmer-Appartement ( ) 
+ 1-fach ( ) 
+ 1.000-MW-Reaktor ( ) 
+ 1.000-Mark-Schein ( ) 
+ 1.000-Megawatt-Block ( ) 
+ 1.000jährig ( ) 
+ 1.000köpfig ( ) 
+ 1.200jährig ( ) 
+ 1.300-MW-Reaktor ( ) 
+ 1.500-Meter-Läufer ( ) 
+ 10-Gremium ( ) 
+ 10-Mord-Schein ( ) 
+ 10-Punkt ( ) 
+ 10-jährig ( ) 
+ 10-monatig ( ) 
+ 10-prozentig ( ) 
+ 10-tägig ( ) 
+ 100-Dollar-Note ( ) 
+ 100-Mark-Anteil ( ) 
+ 100-Meter-Hürde ( ) 
+ 100-Milliarde ( ) 
+ 100-Million ( ) 
+ 100-Rubel-Schein ( ) 
+ 100-Rubelschein ( ) 
+ 100-Seiten-Konzept ( ) 
+ 100-Yuan-Schein ( ) 
+ 100-jährig ( ) 
+ 100-m-Hürde ( ) 
+ 100-m-Lage ( ) 
+ 100-m-Weltrekord ( ) 
+ 100-prozentig ( ) 
+ 100-tägig ( ) 
+ 100.000fach ( ) 
+ 1000-Lire-Schein ( ) 
+ 1000-Mark-Gewinn ( ) 
+ 1000-Megawatt-Reaktor ( ) 
+ 100000-Lire-Note ( ) 
+ 100000-Mann-Heer ( ) 
+ 1000jährig ( ) 
+ 1000köpfig ( ) 
+ 1000prozentig ( ) 
+ 100jährig ( ) 
+ 100köpfig ( ) 
+ 100tägig ( ) 
+ 101jährig ( ) 
+ 101köpfig ( ) 
+ 102jährig ( ) 
+ 103jährig ( ) 
+ 104jährig ( ) 
+ 105prozentig ( ) 
+ 107jährig ( ) 
+ 10:0-Punkt ( ) 
+ 10:10-Punkt ( ) 
+ 10:10-Zähler ( ) 
+ 10:2-Punkt ( ) 
+ 10:2-Tor ( ) 
+ 10:2-Zähler ( ) 
+ 10:6-Punkt ( ) 
+ 10er-Kanu ( ) 
+ 10fach ( ) lemma=110fach 
+ 10jährig ( ) lemma=110jährig 
+ 10köpfig ( ) 
+ 10monatig ( ) 
+ 10prozentig ( ) 
+ 10teilig ( ) 
+ 10tägig ( ) 
+ 1,07/7,26/13,02/1,94/5 ( ) lemma=11,07/7,26/13,02/1,94/50 
+ 1, ( ) lemma=31,2 
+ 1,3 ( ) lemma=11,3- 
+ 11,5prozentig ( ) 
+ 1-Hydroxy ( ) lemma=11-Hydroxy- 
+ 1-Kilometer-Abendwanderun ( ) lemma=11-Kilometer-Abendwanderung 
+ 11-Klasse ( ) 
+ 1-Millionen-Projek ( ) lemma=11-Millionen-Projekt 
+ 1-Millionen-Sondertop ( ) lemma=11-Millionen-Sondertopf 
+ 1-Minute ( ) lemma=11-Minute 
+ 11-Minute ( ) 
+ 1-Nor-9-tetrahydro ( ) lemma=11-Nor-9-tetrahydro- 
+ 1-Prozent-Forderun ( ) lemma=11-Prozent-Forderung 
+ 1-Punkte ( ) lemma=11-Punkte- 
+ 1-Uhr-Matine ( ) lemma=11-Uhr-Matinee 
+ 1-jährig ( ) lemma=61-jährig 
+ 11-jährig ( ) 
+ 1-m-Schiesse ( ) lemma=11-m-Schiessen 
+ 1-m-Schieße ( ) lemma=11-m-Schießen 
+ 1-nor ( ) lemma=11-nor- 
+ 1/198 ( ) lemma=11/1989 
+ 1/199 ( ) lemma=51/1992 
+ 1/9 ( ) lemma=91/97 
+ 10-Betten-Krankenhau ( ) lemma=110-Betten-Krankenhaus 
+ 10-Jahr-Feie ( ) lemma=110-Jahr-Feier 
+ 10-KV-Antra ( ) lemma=110-KV-Antrag 
+ 10-KV-Leitun ( ) lemma=110-KV-Leitung 
+ 10-KV-Leitunge ( ) lemma=110-KV-Leitung 
+ 10-Kilovol ( ) lemma=110-Kilovolt 
+ 10-Kilovolt-Leitun ( ) lemma=110-Kilovolt-Leitung 
+ 10-Kilovolt-Stromleitun ( ) lemma=110-Kilovolt-Stromleitung 
+ 10-Mark-Gebüh ( ) lemma=110-Mark-Gebühr 
+ 10-Meter-Hürde ( ) lemma=110-Meter-Hürde 
+ 110-Meter-Hürde ( ) 
+ 10-Meter-Hürden-Olympiasiege ( ) lemma=110-Meter-Hürden-Olympiasieger 
+ 10-Notruf ( ) lemma=110-Notruf 
+ 110-Notruf ( ) 
+ 10-Teile ( ) lemma=110-Teiler 
+ 10-Zentral ( ) lemma=110-Zentrale 
+ 10-kV-Leitun ( ) lemma=110-kV-Leitung 
+ 10-m-Hürde ( ) lemma=110-m-Hürde 
+ 110-m-Hürde ( ) 
+ 10-m-Hürden-Olympiasiege ( ) lemma=110-m-Hürden-Olympiasieger 
+ 10.000-Volt-Leitun ( ) lemma=110.000-Volt-Leitung 
+ 100-Jahr-Feie ( ) lemma=1100-Jahr-Feier 
+ 100-Jahrfeie ( ) lemma=1100-Jahrfeier 
+ 100-Liter-Containe ( ) lemma=1100-Liter-Container 
+ 100-Liter-Tonne ( ) lemma=1100-Liter-Tonne 
+ 1100-Liter-Tonne ( ) 
+ 10000-Volt-Hochspannungskabe ( ) lemma=110000-Volt-Hochspannungskabel 
+ 100e ( ) lemma=1100er 
+ 1100jährig ( ) 
+ 110fach ( ) 
+ 110jährig ( ) 
+ 110köpfig ( ) 
+ 10prozenti ( ) lemma=110prozentig 
+ 11-Minuten-Büttenfeuerwer ( ) lemma=111-Minuten-Büttenfeuerwerk 
+ 11/9 ( ) lemma=111/91 
+ 11fach ( ) lemma=111fach 
+ 111fach ( ) 
+ 11fache ( ) lemma=111fach 
+ 11jährig ( ) lemma=111jährig 
+ 111jährig ( ) 
+ 133 ( ) lemma=11334 
+ 114jährig ( ) 
+ 15-Milliarden-Solidarfond ( ) lemma=115-Milliarden-Solidarfonds 
+ 15/ ( ) lemma=115/2 
+ 1150-Jahr-Feier ( ) 
+ 1500/2300 ( ) lemma=11500/23000 
+ 150jährig ( ) lemma=1150jährig 
+ 1150jährig ( ) 
+ 154/9 ( ) lemma=1154/91 
+ 115jährig ( ) 
+ 16/11 ( ) lemma=116/118 
+ 165, ( ) lemma=1165,6 
+ 116tägig ( ) 
+ 175-Jahr-Feie ( ) lemma=1175-Jahr-Feier 
+ 175-Jahrfeie ( ) lemma=1175-Jahrfeier 
+ 1175jährig ( ) 
+ 18/ ( ) lemma=118/2 
+ 18/8 ( ) lemma=118/88 
+ 18/9 ( ) lemma=418/90 
+ 189ma ( ) lemma=1189mal 
+ 18köpfig ( ) lemma=118köpfig 
+ 118köpfig ( ) 
+ 192/6 ( ) lemma=1192/64 
+ 195/1 ( ) lemma=1195/13 
+ 1:1-Punkt ( ) lemma=11:1-Punkt 
+ 11:1-Punkt ( ) 
+ 1:1-Punkte ( ) lemma=11:1-Punkt 
+ 1:11-Remi ( ) lemma=11:11-Remis 
+ 1:13-Heimniederlag ( ) lemma=11:13-Heimniederlage 
+ 1:13-Rückstan ( ) lemma=11:13-Rückstand 
+ 1:20-Niederlag ( ) lemma=11:20-Niederlage 
+ 1:3-Punkte ( ) lemma=11:3-Punkt 
+ 11:3-Punkt ( ) 
+ 1:5-Tor ( ) lemma=11:5-Tor 
+ 11:5-Tor ( ) 
+ 1:6-Siege ( ) lemma=11:6-Sieg 
+ 11:6-Sieg ( ) 
+ 1:9-Punkte ( ) lemma=11:9-Punkt 
+ 11:9-Punkt ( ) 
+ 1jährig ( ) lemma=91jährig 
+ 1jährige ( ) lemma=91jährig 
+ 1köpfig ( ) lemma=91köpfig 
+ 11köpfig ( ) 
+ 1m-Schiesse ( ) lemma=11m-Schiessen 
+ 1m-Schieße ( ) lemma=11m-Schießen 
+ 1monatige ( ) lemma=21monatig 
+ 11monatig ( ) 
+ 12,5prozentig ( ) 
+ 12-Stunde ( ) 
+ 12-Stunden-Lauf ( ) 
+ 12-Stunden-Schicht ( ) 
+ 12-V-Anschluss ( ) 
+ 12-jährig ( ) 
+ 12-köpfig ( ) 
+ 120-Millionen-Volk ( ) 
+ 1200jährig ( ) 
+ 120fach ( ) 
+ 120jährig ( ) 
+ 120köpfig ( ) 
+ 121jährig ( ) 
+ 122-Millimeter-Rakete ( ) 
+ 1225jährig ( ) 
+ 123jährig ( ) 
+ 1250jährig ( ) 
+ 125er-DKW-Motorrad ( ) 
+ 125fach ( ) 
+ 125jährig ( ) 
+ 126köpfig ( ) 
+ 127jährig ( ) 
+ 128köpfig ( ) 
+ 129a-Gefangene ( ) 
+ 12:0-Punkt ( ) 
+ 12:2-Punkt ( ) 
+ 12bändig ( ) 
+ 12er-Gemeinschaftskurs ( ) 
+ 12köpfig ( ) 
+ 12monatig ( ) 
+ 12prozentig ( ) 
+ 12stündig ( ) 
+ 12teilig ( ) 
+ 13-Stelle ( ) 
+ 13-jährig ( ) 
+ 13-köpfig ( ) 
+ 1300-Megawatt-Reaktor ( ) 
+ 130jährig ( ) 
+ 130köpfig ( ) 
+ 133jährig ( ) 
+ 134köpfig ( ) 
+ 135jährig ( ) 
+ 136köpfig ( ) 
+ 137köpfig ( ) 
+ 13:1-Punkt ( ) 
+ 13:5-Punkt ( ) 
+ 13:7-Erfolg ( ) 
+ 13:7-Punkt ( ) 
+ 13:9-Punkt ( ) 
+ 13fach ( ) 
+ 13geschossig ( ) 
+ 13jährig ( ) 
+ 13köpfig ( ) 
+ 13malig ( ) 
+ 13monatig ( ) 
+ 13prozentig ( ) 
+ 13stündig ( ) 
+ 13tägig ( ) 
+ 14-Punkt ( ) 
+ 14-jährig ( ) 
+ 140-Millionen-Mark-Objekt ( ) 
+ 140-Seite ( ) 
+ 1400köpfig ( ) 
+ 140jährig ( ) 
+ 14:4-Punkt ( ) 
+ 14fach ( ) 
+ 14köpfig ( ) 
+ 14malig ( ) 
+ 14monatig ( ) 
+ 14prozentig ( ) 
+ 14stöckig ( ) 
+ 14stündig ( ) 
+ 14teilig ( ) 
+ 15,5prozentig ( ) 
+ 15-Land ( ) 
+ 15-Mark-Tasche ( ) 
+ 15-Minuten-Interview ( ) 
+ 15-Uhr-Spiel ( ) 
+ 15-jährig ( ) 
+ 15-köpfig ( ) 
+ 15.000köpfig ( ) 
+ 150-köpfig ( ) 
+ 150fach ( ) 
+ 150köpfig ( ) 
+ 151jährig ( ) 
+ 155-Millimeter-Geschoss ( ) 
+ 155-mm-Haubitze ( ) 
+ 155jährig ( ) 
+ 15:1-Punkt ( ) 
+ 15:13-Punkt ( ) 
+ 15:15-Punkt ( ) 
+ 15:3-Punkt ( ) 
+ 15:7-Zähler ( ) 
+ 15er-Club ( ) 
+ 15köpfig ( ) 
+ 15malig ( ) 
+ 15monatig ( ) 
+ 15prozentig ( ) 
+ 15stöckig ( ) 
+ 15stündig ( ) 
+ 15teilig ( ) 
+ 15wöchig ( ) 
+ 16-Millimeter-Filmprojektor ( ) 
+ 16-Millimeter-Kamera ( ) 
+ 16-Punkt ( ) 
+ 16-jährig ( ) 
+ 16.000köpfig ( ) 
+ 160-Betten-Hotel ( ) 
+ 160-Betten-Kurhotel ( ) 
+ 160köpfig ( ) 
+ 167fach ( ) 
+ 16:0-Punkt ( ) 
+ 16:2-Punkt ( ) 
+ 16:26-Punkt ( ) 
+ 16:4-Punkt ( ) 
+ 16fach ( ) 
+ 16geschossig ( ) 
+ 16köpfig ( ) 
+ 16malig ( ) 
+ 16monatig ( ) 
+ 16prozentig ( ) 
+ 16stöckig ( ) 
+ 16stündig ( ) 
+ 16teilig ( ) 
+ 16tägig ( ) 
+ 16wöchig ( ) 
+ 17-jährig ( ) 
+ 175jährig ( ) 
+ 17:17-Punkt ( ) 
+ 17:9-Punkt ( ) 
+ 17köpfig ( ) 
+ 17monatig ( ) 
+ 17prozentig ( ) 
+ 17stündig ( ) 
+ 17tägig ( ) 
+ 18-Kampfflugzeug ( ) 
+ 18-Nationen-Turnier ( ) 
+ 18-jährig ( ) 
+ 18-monatig ( ) 
+ 18-stündig ( ) 
+ 180köpfig ( ) 
+ 1878-Erfolg ( ) 
+ 187malig ( ) 
+ 18:0-Punkt ( ) 
+ 18:2-Punkt ( ) 
+ 18:2-Tor ( ) 
+ 18:4-Punkt ( ) 
+ 18fach ( ) 
+ 18karätig ( ) 
+ 18malig ( ) 
+ 18monatig ( ) 
+ 18prozentig ( ) 
+ 18stöckig ( ) 
+ 18stündig ( ) 
+ 18teilig ( ) 
+ 19-Kraft ( ) 
+ 19-Vertrag ( ) 
+ 19-jährig ( ) 
+ 19-köpfig ( ) 
+ 193jährig ( ) 
+ 19:1-Punkt ( ) 
+ 19fach ( ) 
+ 19köpfig ( ) 
+ 19malig ( ) 
+ 19monatig ( ) 
+ 19stündig ( ) 
+ 19tägig ( ) 
+ 1:15-Punkt ( ) 
+ 1:3-Punkt ( ) 
+ 1:5-Punkt ( ) 
+ 1:7-Punkt ( ) 
+ 1:8-Satz ( ) 
+ 1b-Lage ( ) 
+ 1-Dollar-Mark ( ) lemma=21-Dollar-Marke 
+ 1-Gan ( ) lemma=21-Gang 
+ 1-Milliarden-Sparpake ( ) lemma=21-Milliarden-Sparpaket 
+ 1-Minuten-Tak ( ) lemma=21-Minuten-Takt 
+ 1-Nationalmannschaf ( ) lemma=21-Nationalmannschaft 
+ 1-Tea ( ) lemma=21-Team 
+ 1-Uhr-Nachrichte ( ) lemma=21-Uhr-Nachricht 
+ 1/196 ( ) lemma=21/1960 
+ 10000-Einwohner-Stad ( ) lemma=210000-Einwohner-Stadt 
+ 12/8 ( ) lemma=212/85 
+ 14-Millionen-Eta ( ) lemma=214-Millionen-Etat 
+ 15/9 ( ) lemma=315/92 
+ 18-Anklag ( ) lemma=218-Anklage 
+ 18-Beratun ( ) lemma=218-Beratung 
+ 18-Beratungsgeset ( ) lemma=218-Beratungsgesetz 
+ 18-Beratungsschei ( ) lemma=218-Beratungsschein 
+ 18-Beratungsstell ( ) lemma=218-Beratungsstelle 
+ 18-Beschlus ( ) lemma=218-Beschluss 
+ 18-Beschlu� ( ) lemma=218-Beschluss 
+ 18-Broschür ( ) lemma=218-Broschüre 
+ 18-Debatt ( ) lemma=218-Debatte 
+ 18-Entscheidun ( ) lemma=218-Entscheidung 
+ 18-Frageboge ( ) lemma=218-Fragebogen 
+ 18-Fraue ( ) lemma=218-Frau 
+ 18-Gegnerinne ( ) lemma=218-Gegnerin 
+ 18-Grupp ( ) lemma=218-Gruppe 
+ 18-Gruppe ( ) lemma=218-Gruppe 
+ 18-Initiativ ( ) lemma=218-Initiative 
+ 18-Klag ( ) lemma=218-Klage 
+ 18-Kompromis ( ) lemma=218-Kompromiss 
+ 18-Kompromi� ( ) lemma=218-Kompromiss 
+ 18-Kongres ( ) lemma=218-Kongress 
+ 18-Kongre� ( ) lemma=218-Kongress 
+ 18-Koordinatio ( ) lemma=218-Koordination 
+ 18-Positio ( ) lemma=218-Position 
+ 18-Praxi ( ) lemma=218-Praxis 
+ 18-Prozes ( ) lemma=218-Prozess 
+ 18-Proze� ( ) lemma=218-Prozess 
+ 18-Refor ( ) lemma=218-Reform 
+ 18-Regelun ( ) lemma=218-Regelung 
+ 18-Urtei ( ) lemma=218-Urteil 
+ 18-Urteil ( ) lemma=218-Urteil 
+ 18-Verfahre ( ) lemma=218-Verfahren 
+ 199 ( ) lemma=21990 
+ 1:17-Erfol ( ) lemma=21:17-Erfolg 
+ 1:20-Zittersie ( ) lemma=21:20-Zittersieg 
+ 1:24-Niederlag ( ) lemma=21:24-Niederlage 
+ 1fach ( ) lemma=41fach 
+ 1fache ( ) lemma=21fach 
+ 1jähri ( ) lemma=81jährig 
+ 1köpfige ( ) lemma=71köpfig 
+ 1ma ( ) lemma=21mal 
+ 1monatig ( ) lemma=21monatig 
+ 1prozentig ( ) lemma=51prozentig 
+ 1stöckig ( ) lemma=21stöckig 
+ 1stündige ( ) lemma=21stündig 
+ 1/6 ( ) lemma=61/63 
+ 1019.6/9 ( ) lemma=31019.6/92 
+ 13/8 ( ) lemma=313/85 
+ 14/9 ( ) lemma=314/90 
+ 17/9 ( ) lemma=317/93 
+ 18-Teile ( ) lemma=318-Teiler 
+ 10-Millionen-Eta ( ) lemma=410-Millionen-Etat 
+ 10/9 ( ) lemma=410/93 
+ 100-Meter-Staffe ( ) lemma=4100-Meter-Staffel 
+ 13/9 ( ) lemma=413/93 
+ 1397/15/12/86/0 ( ) lemma=41397/15/12/86/02 
+ 1a-Massnahme ( ) lemma=41a-Maßnahme 
+ 1a-Maßnahme ( ) lemma=41a-Maßnahme 
+ 1-Prozent-Antei ( ) lemma=51-Prozent-Anteil 
+ 1-Prozent-Beteiligun ( ) lemma=51-Prozent-Beteiligung 
+ 1-Prozent-Mehrhei ( ) lemma=51-Prozent-Mehrheit 
+ 1-Prozent-Pake ( ) lemma=51-Prozent-Paket 
+ 15/8 ( ) lemma=515/89 
+ 1:49-Schätzun ( ) lemma=51:49-Schätzung 
+ 1prozentige ( ) lemma=51prozentig 
+ 1tägig ( ) lemma=51tägig 
+ 100/1 ( ) lemma=6100/12 
+ 146/9 ( ) lemma=6146/91 
+ 1er-Grupp ( ) lemma=61er-Gruppe 
+ 1-Teile ( ) lemma=71-Teiler 
+ 1/2prozentig ( ) lemma=71/2prozentig 
+ 17/71 ( ) lemma=717/718 
+ 1,6 ( ) lemma=81,6- 
+ 1malig ( ) lemma=81malig 
+ 11e ( ) lemma=911er 
+ 18e ( ) lemma=918er 
+ 14-Untersuchunge ( ) lemma=C14-Untersuchung 
+ 1-Net ( ) lemma=D1-Netz 
+ 1-Eröffnungszu ( ) lemma=R1-Eröffnungszug 
+ 1-Wes ( ) lemma=U1-West 

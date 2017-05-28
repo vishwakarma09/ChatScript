@@ -681,8 +681,7 @@ static char* Output_Function(char* word, char* ptr,  char* space,char*& buffer, 
 
 			ptr =  DoFunction(word,ptr,buffer,result); 
 
-			if (result == UNDEFINED_FUNCTION) result = NOPROBLEM_BIT;
-			else if (space && *space != ' ' && result != ENDCALL_BIT) // we need to add a space, but not if requesting a call return ^return
+			if (space && *space != ' ' && result != ENDCALL_BIT) // we need to add a space, but not if requesting a call return ^return
 			{
 				memmove(buffer+1,buffer,strlen(buffer) + 1);
 				*buffer = ' ';

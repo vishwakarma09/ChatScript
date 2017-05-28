@@ -1,6 +1,6 @@
 # ChatScript Command Line Parameters
 Copyright Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com<br>
-Revision 4/24/2017 cs7.4
+Revision 5/28/2017 cs7.43
 
 # Command Line Parameters
 
@@ -147,7 +147,8 @@ ChatScript "Vmyvar=tony is here"
 
 Quoted strings will be stored without the quotes. Bot variables are always reset to their
 original value at each volley, even if you overwrite them during a volley. This can be
-used to provide server-host specific values into a script.
+used to provide server-host specific values into a script. Nor will they be saved in The
+user's topic file across volleys.  This also applies to variables defined during any CS_BOOT
 
 
 ## No such bot-specific - nosuchbotrestart=true

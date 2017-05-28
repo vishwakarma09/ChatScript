@@ -1,4 +1,4 @@
-﻿ 2 ( ) 
+﻿ 2 ( ) lemma=Z23 
  2,0%- ( ) 
  2,1 ( ) 
  2,1%- ( ) 
@@ -10,46 +10,40 @@
  2,4 ( ) 
  2,4- ( ) 
  2,418/421 ( ) 
- 2,4fache ( ) lemma=2,4fach 
- 2,4fach ( ) 
- 2,5 ( ) 
+ 2,4fache ( ) 
+ 2,5 ( ) lemma=12,50 
  2,5- ( ) 
  2,5-Milliarden- ( ) 
  2,5-Millionen-Loch ( ) 
- 2,5-Minuten-Spots ( ) lemma=2,5-Minuten-Spot 
- 2,5-Minuten-Spot ( ) 
- 2,5-fache ( ) lemma=2,5-fach 
- 2,5-fach ( ) 
+ 2,5-Minuten-Spots ( ) 
+ 2,5-fache ( ) 
  2,50 ( ) 
- 2,5fache ( ) lemma=2,5fach 
- 2,5fach ( ) 
+ 2,5fache ( ) 
  2,6 ( ) 
- 2,6fache ( ) lemma=2,6fach 
- 2,6fach ( ) 
+ 2,6fache ( ) 
  2,7 ( ) 
  2,8 ( ) 
  2,8450/60 ( ) 
  2,9 ( ) 
- 2- ( ) 
+ 2- ( ) lemma=42-A 
  2-4-5-T ( ) 
  2-A ( ) 
  2-Abgabe ( ) 
- 2-Abgaben ( ) lemma=2-Abgabe 
- 2-Abgase ( ) lemma=2-Abgas 
- 2-Abgas ( ) 
- 2-Abgasen ( ) lemma=2-Abgas 
+ 2-Abgaben ( ) 
+ 2-Abgase ( ) 
+ 2-Abgasen ( ) 
  2-Anstieg ( ) 
  2-Anteil ( ) 
  2-Auftritt ( ) 
- 2-Ausstoss ( ) lemma=2-Ausstoß 
+ 2-Ausstoss ( ) 
+ 2-Ausstosses ( ) 
  2-Ausstoß ( ) 
- 2-Ausstosses ( ) lemma=2-Ausstoß 
- 2-Ausstoßes ( ) lemma=2-Ausstoß 
+ 2-Ausstoßes ( ) 
  2-Basisstation ( ) 
  2-Beitrag ( ) 
  2-Belastung ( ) 
  2-Beschluss ( ) 
- 2-Beschluß ( ) lemma=2-Beschluss 
+ 2-Beschluß ( ) 
  2-Betreiber ( ) 
  2-Bilanz ( ) 
  2-Bomber ( ) 
@@ -57,27 +51,26 @@
  2-Crime-Story ( ) 
  2-Divisions-Konzept ( ) 
  2-Einsparung ( ) 
- 2-Einsparungen ( ) lemma=2-Einsparung 
+ 2-Einsparungen ( ) 
  2-Emission ( ) 
- 2-Emissionen ( ) lemma=2-Emission 
+ 2-Emissionen ( ) 
  2-Energiesteuer ( ) 
  2-Ethoxy-2-methylpropan ( ) 
  2-Ethylidin-1,5-Dimethyl ( ) 
  2-Flug ( ) 
  2-Format ( ) 
  2-Fracht ( ) 
- 2-Frachten ( ) lemma=2-Fracht 
+ 2-Frachten ( ) 
  2-Gebäude ( ) 
- 2-Gebäudes ( ) lemma=2-Gebäude 
+ 2-Gebäudes ( ) 
  2-Gedenkfeier ( ) 
  2-Gehalt ( ) 
- 2-Gehalts ( ) lemma=2-Gehalt 
+ 2-Gehalts ( ) 
  2-Geschäftsführer ( ) 
  2-Gesellschaft ( ) 
  2-Gesellschafter ( ) 
- 2-Gespräche ( ) lemma=2-Gespräch 
- 2-Gespräch ( ) 
- 2-Gesprächen ( ) lemma=2-Gespräch 
+ 2-Gespräche ( ) 
+ 2-Gesprächen ( ) 
  2-Gruppe ( ) 
  2-Halbierung ( ) 
  2-Hörspiel ( ) 
@@ -85,13 +78,12 @@
  2-Jugend-Gruppe ( ) 
  2-Komponente ( ) 
  2-Konzentration ( ) 
- 2-Konzentrationen ( ) lemma=2-Konzentration 
+ 2-Konzentrationen ( ) 
  2-Kreislauf ( ) 
  2-Kultur ( ) 
- 2-Kurzzüge ( ) lemma=2-Kurzzug 
- 2-Kurzzug ( ) 
+ 2-Kurzzüge ( ) 
  2-Laser ( ) 
- 2-Lasern ( ) lemma=2-Laser 
+ 2-Lasern ( ) 
  2-Liter-Auto ( ) 
  2-Liter-Weinflasche ( ) 
  2-Lizenz ( ) 
@@ -115,32 +107,29 @@
  2-Mrd. ( ) 
  2-Napalm ( ) 
  2-Netz ( ) 
- 2-Netzes ( ) lemma=2-Netz 
+ 2-Netzes ( ) 
  2-Ost ( ) 
  2-Problem ( ) 
  2-Problematik ( ) 
  2-Produktion ( ) 
  2-Produzent ( ) 
- 2-Produzenten ( ) lemma=2-Produzent 
- 2-Professoren ( ) lemma=2-Professor 
- 2-Professor ( ) 
+ 2-Produzenten ( ) 
+ 2-Professoren ( ) 
  2-Professorin ( ) 
  2-Professur ( ) 
  2-Programm ( ) 
- 2-Programms ( ) lemma=2-Programm 
+ 2-Programms ( ) 
  2-Rakete ( ) 
- 2-Raketen ( ) lemma=2-Rakete 
- 2-Raketenwaffen ( ) lemma=2-Raketenwaffe 
- 2-Raketenwaffe ( ) 
+ 2-Raketen ( ) 
+ 2-Raketenwaffen ( ) 
  2-Raum ( ) 
  2-Redaktion ( ) 
  2-Reduktion ( ) 
  2-Reduktionsziel ( ) 
  2-Reduzierung ( ) 
- 2-Reduzierungen ( ) lemma=2-Reduzierung 
+ 2-Reduzierungen ( ) 
  2-Reduzierungsprogramm ( ) 
- 2-Reste ( ) lemma=2-Rest 
- 2-Rest ( ) 
+ 2-Reste ( ) 
  2-Rezeptor ( ) 
  2-Satz-Sieg ( ) 
  2-Sendung ( ) 
@@ -149,10 +138,9 @@
  2-Stabilisierung ( ) 
  2-Stelle ( ) 
  2-Steuer ( ) 
- 2-Steuern ( ) lemma=2-Steuer 
+ 2-Steuern ( ) 
  2-Stunden-Job ( ) 
- 2-Stunden-Taktes ( ) lemma=2-Stunden-Takt 
- 2-Stunden-Takt ( ) 
+ 2-Stunden-Taktes ( ) 
  2-Sänger ( ) 
  2-Trasse ( ) 
  2-Verbrauch ( ) 
@@ -162,23 +150,19 @@
  2-Verschwörer ( ) 
  2-Vorteil ( ) 
  2-Wert ( ) 
- 2-Werte ( ) lemma=2-Wert 
+ 2-Werte ( ) 
  2-Zi. ( ) 
  2-Ziel ( ) 
  2-Zimmer-Wohnung ( ) 
- 2-Zimmer-Wohnungen ( ) lemma=2-Zimmer-Wohnung 
+ 2-Zimmer-Wohnungen ( ) 
  2-Zuschlag ( ) 
- 2-freie ( ) lemma=2-frei 
- 2-frei ( ) 
- 2-freien ( ) lemma=2-frei 
- 2-freier ( ) lemma=2-frei 
- 2-in-1-Duschgelen ( ) lemma=2-in-1-Duschgel 
- 2-in-1-Duschgel ( ) 
- 2-jährige ( ) lemma=2-jährig 
- 2-jährig ( ) 
+ 2-freie ( ) 
+ 2-freien ( ) 
+ 2-freier ( ) 
+ 2-in-1-Duschgelen ( ) 
+ 2-jährige ( ) lemma=52-jährig 
  2-kulturell ( ) 
- 2-plus-4-Gesprächen ( ) lemma=2-plus-4-Gespräch 
- 2-plus-4-Gespräch ( ) 
+ 2-plus-4-Gesprächen ( ) 
  2-Überbauung ( ) 
  2. ( ) 
  2.000- ( ) 
@@ -187,19 +171,16 @@
  2.000-Seelen-Dorf ( ) 
  2.000-Seelen-Gemeinde ( ) 
  2.000er ( ) 
- 2.000jährige ( ) lemma=2.000jährig 
- 2.000jährig ( ) 
- 2.000jährigen ( ) lemma=2.000jährig 
- 2.000jähriger ( ) lemma=2.000jährig 
+ 2.000jährige ( ) 
+ 2.000jährigen ( ) 
+ 2.000jähriger ( ) 
  2.200-Seelen-Gemeinde ( ) 
  2.500-Seelen-Gemeinde ( ) 
- 2.500jährige ( ) lemma=2.500jährig 
- 2.500jährig ( ) 
- 2.500köpfige ( ) lemma=2.500köpfig 
- 2.500köpfig ( ) 
- 2.500köpfigen ( ) lemma=2.500köpfig 
+ 2.500jährige ( ) 
+ 2.500köpfige ( ) 
+ 2.500köpfigen ( ) 
  2/0 ( ) 
- 2/1 ( ) 
+ 2/1 ( ) lemma=92/12 
  2/10 ( ) 
  2/100 ( ) 
  2/11 ( ) 
@@ -213,32 +194,32 @@
  2/1990 ( ) 
  2/1991 ( ) 
  2/1992 ( ) 
- 2/2 ( ) 
+ 2/2 ( ) lemma=22/28 
  2/230 ( ) 
  2/24 ( ) 
- 2/3 ( ) 
+ 2/3 ( ) lemma=32/38 
  2/3-Mehrheit ( ) 
- 2/3-Mehrheiten ( ) lemma=2/3-Mehrheit 
+ 2/3-Mehrheiten ( ) 
  2/3/4 ( ) 
  2/31 ( ) 
  2/322 ( ) 
  2/360 ( ) 
- 2/4 ( ) 
+ 2/4 ( ) lemma=42/45 
  2/435 ( ) 
- 2/5 ( ) 
+ 2/5 ( ) lemma=52/55 
  2/50 ( ) 
- 2/6 ( ) 
+ 2/6 ( ) lemma=72/69 
  2/60 ( ) 
  2/63 ( ) 
  2/84 ( ) 
  2/88 ( ) 
  2/89 ( ) 
- 2/9 ( ) 
+ 2/9 ( ) lemma=92/93 
  2/90 ( ) 
  2/91 ( ) 
  2/92 ( ) 
  2/93 ( ) 
- 20 ( ) 
+ 20 ( ) lemma=1200 
  20,-- ( ) 
  20,3 ( ) 
  20- ( ) 
@@ -258,8 +239,7 @@
  20-Kilometer-Sperrzone ( ) 
  20-Kilometer-Stau ( ) 
  20-Kilometer-Strecke ( ) 
- 20-Kilometer-Wanderungen ( ) lemma=20-Kilometer-Wanderung 
- 20-Kilometer-Wanderung ( ) 
+ 20-Kilometer-Wanderungen ( ) 
  20-Kilometer-Zone ( ) 
  20-Kilovolt-Kabel ( ) 
  20-Kilovolt-Schaltanlage ( ) 
@@ -268,21 +248,20 @@
  20-Liter-Blechkanister ( ) 
  20-Liter-Eimer ( ) 
  20-Liter-Kanister ( ) 
- 20-Mark-Raten ( ) lemma=20-Mark-Rate 
- 20-Mark-Rate ( ) 
+ 20-Mark-Raten ( ) 
  20-Mark-Schein ( ) 
- 20-Mark-Scheinen ( ) lemma=20-Mark-Schein 
+ 20-Mark-Scheinen ( ) 
  20-Mark-Spende ( ) 
- 20-Meter-Freistoss ( ) lemma=20-Meter-Freistoß 
+ 20-Meter-Freistoss ( ) 
  20-Meter-Freistoß ( ) 
  20-Meter-Schuss ( ) 
- 20-Meter-Schuß ( ) lemma=20-Meter-Schuss 
+ 20-Meter-Schuß ( ) 
  20-Meter-Umzug ( ) 
  20-Milliarden-DM-Grenze ( ) 
  20-Milliarden-Programm ( ) 
  20-Millionen- ( ) 
  20-Millionen-Mark-Projekt ( ) 
- 20-Millionen-Mark-Projekts ( ) lemma=20-Millionen-Mark-Projekt 
+ 20-Millionen-Mark-Projekts ( ) 
  20-Millionen-Metropole ( ) 
  20-Millionen-Programm ( ) 
  20-Millionen-Projekt ( ) 
@@ -291,7 +270,7 @@
  20-Minuten-Film ( ) 
  20-Minuten-Gesangsschau ( ) 
  20-Minuten-Takt ( ) 
- 20-Minuten-Taktes ( ) lemma=20-Minuten-Takt 
+ 20-Minuten-Taktes ( ) 
  20-Prozent ( ) 
  20-Prozent- ( ) 
  20-Prozent-Anteil ( ) 
@@ -304,50 +283,42 @@
  20-Prozent-Partei ( ) 
  20-Prozent-Quote ( ) 
  20-Prozent-Ziel ( ) 
- 20-Punkte ( ) lemma=20-Punkt 
- 20-Punkt ( ) 
+ 20-Punkte ( ) 
  20-Punkte-Katalog ( ) 
  20-Punkte-Programm ( ) 
  20-Punkte-Vorsprung ( ) 
  20-Quadratmeter-Raum ( ) 
  20-Seiten-Papier ( ) 
  20-Sekunden-Auftritt ( ) 
- 20-Sekunden-Spots ( ) lemma=20-Sekunden-Spot 
- 20-Sekunden-Spot ( ) 
+ 20-Sekunden-Spots ( ) 
  20-Stimmen-Mehrheit ( ) 
- 20-Stunden-Stellen ( ) lemma=20-Stunden-Stelle 
- 20-Stunden-Stelle ( ) 
+ 20-Stunden-Stellen ( ) 
  20-Stunden-Tag ( ) 
  20-Tage-Rhythmus ( ) 
  20-Tonnen- ( ) 
- 20-US-Dollarnoten ( ) lemma=20-US-Dollarnote 
- 20-US-Dollarnote ( ) 
+ 20-US-Dollarnoten ( ) 
  20-Uhr ( ) 
  20-Uhr- ( ) 
  20-Uhr-Grenze ( ) 
- 20-Uhr-Nachrichten ( ) lemma=20-Uhr-Nachricht 
- 20-Uhr-Nachricht ( ) 
+ 20-Uhr-Nachrichten ( ) 
  20-Uhr-Tagesschau ( ) 
  20-Uhr-Werbegrenze ( ) 
- 20-Zoll-Rädern ( ) lemma=20-Zoll-Rad 
- 20-Zoll-Rad ( ) 
+ 20-Zoll-Rädern ( ) 
  20-g-Butter ( ) 
- 20-jährige ( ) lemma=20-jährig 
- 20-jährig ( ) 
- 20-jährigen ( ) lemma=20-jährig 
+ 20-jährige ( ) 
+ 20-jährigen ( ) 
  20-kV-Leitung ( ) 
- 20-kV-Stromleitungen ( ) lemma=20-kV-Stromleitung 
- 20-kV-Stromleitung ( ) 
+ 20-kV-Stromleitungen ( ) 
  20-km-Gehen ( ) 
  20-km-Lauf ( ) 
- 20-km-Strassengehen ( ) lemma=20-km-Straßengehen 
+ 20-km-Strassengehen ( ) 
  20-km-Straßengehen ( ) 
  20-km-Wettbewerb ( ) 
  20-km-Zone ( ) 
- 20-m-Freistoss ( ) lemma=20-m-Freistoß 
+ 20-m-Freistoss ( ) 
  20-m-Freistoß ( ) 
  20-m-Schuss ( ) 
- 20-m-Schuß ( ) lemma=20-m-Schuss 
+ 20-m-Schuß ( ) 
  20-mm-Maschinenkanone ( ) 
  20. ( ) 
  20.000-Einwohner-Stadt ( ) 
@@ -363,26 +334,25 @@
  20/35 ( ) 
  20/4 ( ) 
  20/92 ( ) 
- 200 ( ) 
+ 200 ( ) lemma=42000 
  200- ( ) 
  200-Baud-Leitung ( ) 
  200-Betten-Hotel ( ) 
  200-Jahr-Feier ( ) 
- 200-Jahr-Feiern ( ) lemma=200-Jahr-Feier 
+ 200-Jahr-Feiern ( ) 
  200-Jahr-Jubiläum ( ) 
  200-Jahrfeier ( ) 
  200-Liter- ( ) 
  200-Liter-Behälter ( ) 
  200-Liter-Fass ( ) 
- 200-Liter-Faß ( ) lemma=200-Liter-Fass 
- 200-Liter-Fässer ( ) lemma=200-Liter-Fass 
+ 200-Liter-Faß ( ) 
+ 200-Liter-Fässer ( ) 
  200-Mark-Fälschung ( ) 
- 200-Mark-Noten ( ) lemma=200-Mark-Note 
- 200-Mark-Note ( ) 
+ 200-Mark-Noten ( ) 
  200-Mark-Scheck ( ) 
  200-Mark-Schein ( ) 
- 200-Mark-Scheine ( ) lemma=200-Mark-Schein 
- 200-Mark-Scheinen ( ) lemma=200-Mark-Schein 
+ 200-Mark-Scheine ( ) 
+ 200-Mark-Scheinen ( ) 
  200-Meilen- ( ) 
  200-Meilen-Wirtschaftszone ( ) 
  200-Meilen-Zone ( ) 
@@ -398,8 +368,7 @@
  200-Millionen-Mark-Projekt ( ) 
  200-Millionen-Programm ( ) 
  200-Millionen-Projekt ( ) 
- 200-Quadratmeter-Eigentumswohnungen ( ) lemma=200-Quadratmeter-Eigentumswohnung 
- 200-Quadratmeter-Eigentumswohnung ( ) 
+ 200-Quadratmeter-Eigentumswohnungen ( ) 
  200-Runden- ( ) 
  200-Seelen- ( ) 
  200-Seelen-Dorf ( ) 
@@ -407,15 +376,13 @@
  200-Seemeilen-Zone ( ) 
  200-Seiten-Erhebung ( ) 
  200-Zimmer-Hotel ( ) 
- 200-jährigen ( ) lemma=200-jährig 
- 200-jährig ( ) 
+ 200-jährigen ( ) 
  200-km-Fahrt ( ) 
  200-m ( ) 
  200-m-Brust ( ) 
  200-m-Freistil ( ) 
  200-m-Freistil-Distanz ( ) 
- 200-m-Lagen ( ) lemma=200-m-Lage 
- 200-m-Lage ( ) 
+ 200-m-Lagen ( ) 
  200-m-Lauf ( ) 
  200-m-Mann ( ) 
  200-m-Rennen ( ) 
@@ -431,19 +398,18 @@
  200.000-Einwohner-Stadt ( ) 
  200/100 ( ) 
  200/88 ( ) 
- 2000 ( ) 
+ 2000 ( ) lemma=120000 
  2000-Einwohner-Dorf ( ) 
  2000-Grad-Schmelze ( ) 
  2000-Höhenmeter-Tiefschnee-Abfahrt ( ) 
  2000-Jahr-Feier ( ) 
  2000-Jahres-Rhythmus ( ) 
- 2000-Liter-Gefäss ( ) lemma=2000-Liter-Gefäß 
+ 2000-Liter-Gefäss ( ) 
  2000-Liter-Gefäß ( ) 
- 2000-Liter-Tanks ( ) lemma=2000-Liter-Tank 
- 2000-Liter-Tank ( ) 
+ 2000-Liter-Tanks ( ) 
  2000-Mann-Zelt ( ) 
  2000-Mark-Zuschuss ( ) 
- 2000-Mark-Zuschuß ( ) lemma=2000-Mark-Zuschuss 
+ 2000-Mark-Zuschuß ( ) 
  2000-Meter-Strecke ( ) 
  2000-O ( ) 
  2000-Scheck ( ) 
@@ -458,46 +424,39 @@
  20000-Seelen-Stadt ( ) 
  200000 ( ) 
  2000er ( ) 
- 2000er-Spiele ( ) lemma=2000er-Spiel 
- 2000er-Spiel ( ) 
- 2000fache ( ) lemma=2000fach 
- 2000fach ( ) 
- 2000jährige ( ) lemma=2000jährig 
- 2000jährig ( ) 
- 2000jährigen ( ) lemma=2000jährig 
- 2000köpfige ( ) lemma=2000köpfig 
- 2000köpfig ( ) 
+ 2000er-Spiele ( ) 
+ 2000fache ( ) 
+ 2000jährige ( ) 
+ 2000jährigen ( ) 
+ 2000köpfige ( ) 
  2000mal ( ) 
  2001-Verlag ( ) 
  2003/4 ( ) 
  2005 ( ) 
  2005/2020 ( ) 
  200er ( ) 
- 200ern ( ) lemma=200er 
- 200fach ( ) 
- 200fache ( ) lemma=200fach 
- 200fachen ( ) lemma=200fach 
- 200facher ( ) lemma=200fach 
- 200jährige ( ) lemma=200jährig 
- 200jährig ( ) 
- 200jährigen ( ) lemma=200jährig 
- 200jähriger ( ) lemma=200jährig 
- 200jähriges ( ) lemma=200jährig 
- 200köpfige ( ) lemma=200köpfig 
- 200köpfig ( ) 
- 200köpfigen ( ) lemma=200köpfig 
- 200köpfiges ( ) lemma=200köpfig 
+ 200ern ( ) 
+ 200fach ( ) lemma=7200fach 
+ 200fache ( ) 
+ 200fachen ( ) 
+ 200facher ( ) 
+ 200jährige ( ) lemma=1200jährig 
+ 200jährigen ( ) 
+ 200jähriger ( ) 
+ 200jähriges ( ) 
+ 200köpfige ( ) 
+ 200köpfigen ( ) 
+ 200köpfiges ( ) 
  200mal ( ) 
  200prozentig ( ) 
- 200prozentige ( ) lemma=200prozentig 
- 200prozentigen ( ) lemma=200prozentig 
+ 200prozentige ( ) 
+ 200prozentigen ( ) 
  201/91 ( ) 
  2010/2011 ( ) 
  2012/92 ( ) 
  202/88 ( ) 
  2020 ( ) 
- 203-Millimeter-Atomgranaten ( ) lemma=203-Millimeter-Atomgranate 
- 203-Millimeter-Atomgranate ( ) 
+ 203-Millimeter-Atomgranaten ( ) 
  204-Millionen-Etat ( ) 
  205/62/0 ( ) 
  205/67/4 ( ) 
@@ -509,8 +468,7 @@
  20:19-Heimsieg ( ) 
  20:19-Sieg ( ) 
  20:19-Sieger ( ) 
- 20:2-Punkte ( ) lemma=20:2-Punkt 
- 20:2-Punkt ( ) 
+ 20:2-Punkte ( ) 
  20:20-Gleichstand ( ) 
  20:21-Niederlage ( ) 
  20:22-Niederlage ( ) 
@@ -524,48 +482,39 @@
  20er-Jahre-Ausstellung ( ) 
  20er-Kader ( ) 
  20er-Liga ( ) 
- 20ern ( ) lemma=20er 
- 20fach ( ) 
- 20fache ( ) lemma=20fach 
- 20fachem ( ) lemma=20fach 
- 20fachen ( ) lemma=20fach 
- 20facher ( ) lemma=20fach 
- 20faches ( ) lemma=20fach 
- 20geschossigen ( ) lemma=20geschossig 
- 20geschossig ( ) 
- 20jährig ( ) 
- 20jährige ( ) lemma=20jährig 
- 20jährigem ( ) lemma=20jährig 
- 20jährigen ( ) lemma=20jährig 
- 20jähriger ( ) lemma=20jährig 
- 20jähriges ( ) lemma=20jährig 
- 20köpfige ( ) lemma=20köpfig 
- 20köpfig ( ) 
- 20köpfigen ( ) lemma=20köpfig 
- 20köpfiges ( ) lemma=20köpfig 
+ 20ern ( ) 
+ 20fach ( ) lemma=120fach 
+ 20fache ( ) 
+ 20fachem ( ) 
+ 20fachen ( ) 
+ 20facher ( ) 
+ 20faches ( ) 
+ 20geschossigen ( ) 
+ 20jährig ( ) lemma=120jährig 
+ 20jährige ( ) lemma=120jährig 
+ 20jährigem ( ) 
+ 20jährigen ( ) 
+ 20jähriger ( ) 
+ 20jähriges ( ) 
+ 20köpfige ( ) lemma=120köpfig 
+ 20köpfigen ( ) 
+ 20köpfiges ( ) 
  20mal ( ) 
- 20malige ( ) lemma=20malig 
- 20malig ( ) 
- 20monatige ( ) lemma=20monatig 
- 20monatig ( ) 
- 20monatigen ( ) lemma=20monatig 
- 20monatiger ( ) lemma=20monatig 
- 20prozentige ( ) lemma=20prozentig 
- 20prozentig ( ) 
- 20prozentigem ( ) lemma=20prozentig 
- 20prozentigen ( ) lemma=20prozentig 
- 20prozentiger ( ) lemma=20prozentig 
- 20prozentiges ( ) lemma=20prozentig 
- 20stöckigen ( ) lemma=20stöckig 
- 20stöckig ( ) 
- 20stündige ( ) lemma=20stündig 
- 20stündig ( ) 
- 20stündigen ( ) lemma=20stündig 
- 20stündiger ( ) lemma=20stündig 
- 20teilige ( ) lemma=20teilig 
- 20teilig ( ) 
- 20tägigen ( ) lemma=20tägig 
- 20tägig ( ) 
+ 20malige ( ) 
+ 20monatige ( ) 
+ 20monatigen ( ) 
+ 20monatiger ( ) 
+ 20prozentige ( ) 
+ 20prozentigem ( ) 
+ 20prozentigen ( ) 
+ 20prozentiger ( ) 
+ 20prozentiges ( ) 
+ 20stöckigen ( ) 
+ 20stündige ( ) 
+ 20stündigen ( ) 
+ 20stündiger ( ) 
+ 20teilige ( ) 
+ 20tägigen ( ) 
  21 ( ) 
  21,7 ( ) 
  21,8 ( ) 
@@ -576,10 +525,8 @@
  21-Minuten-Takt ( ) 
  21-Nationalmannschaft ( ) 
  21-Team ( ) 
- 21-Uhr-Nachrichten ( ) lemma=21-Uhr-Nachricht 
- 21-Uhr-Nachricht ( ) 
- 21-jährige ( ) lemma=21-jährig 
- 21-jährig ( ) 
+ 21-Uhr-Nachrichten ( ) 
+ 21-jährige ( ) 
  21. ( ) 
  21/1 ( ) 
  21/1960 ( ) 
@@ -604,63 +551,55 @@
  218-Beratungsschein ( ) 
  218-Beratungsstelle ( ) 
  218-Beschluss ( ) 
- 218-Beschluß ( ) lemma=218-Beschluss 
+ 218-Beschluß ( ) 
  218-Broschüre ( ) 
  218-Debatte ( ) 
  218-Entscheidung ( ) 
  218-Fragebogen ( ) 
- 218-Frauen ( ) lemma=218-Frau 
- 218-Frau ( ) 
- 218-Gegnerinnen ( ) lemma=218-Gegnerin 
- 218-Gegnerin ( ) 
+ 218-Frauen ( ) 
+ 218-Gegnerinnen ( ) 
  218-Gruppe ( ) 
- 218-Gruppen ( ) lemma=218-Gruppe 
+ 218-Gruppen ( ) 
  218-Initiative ( ) 
  218-Klage ( ) 
  218-Kompromiss ( ) 
- 218-Kompromiß ( ) lemma=218-Kompromiss 
+ 218-Kompromiß ( ) 
  218-Kongress ( ) 
- 218-Kongreß ( ) lemma=218-Kongress 
+ 218-Kongreß ( ) 
  218-Koordination ( ) 
  218-Position ( ) 
  218-Praxis ( ) 
  218-Prozess ( ) 
- 218-Prozeß ( ) lemma=218-Prozess 
+ 218-Prozeß ( ) 
  218-Reform ( ) 
  218-Regelung ( ) 
  218-Urteil ( ) 
- 218-Urteils ( ) lemma=218-Urteil 
+ 218-Urteils ( ) 
  218-Verfahren ( ) 
  21990 ( ) 
  21:17-Erfolg ( ) 
  21:20-Zittersieg ( ) 
  21:24-Niederlage ( ) 
  21er ( ) 
- 21fache ( ) lemma=21fach 
- 21fach ( ) 
- 21facher ( ) lemma=21fach 
+ 21fache ( ) 
+ 21facher ( ) 
  21jährig ( ) 
- 21jährige ( ) lemma=21jährig 
- 21jährigem ( ) lemma=21jährig 
- 21jährigen ( ) lemma=21jährig 
- 21jähriger ( ) lemma=21jährig 
- 21jähriges ( ) lemma=21jährig 
- 21köpfige ( ) lemma=21köpfig 
- 21köpfig ( ) 
- 21köpfigen ( ) lemma=21köpfig 
- 21köpfiges ( ) lemma=21köpfig 
+ 21jährige ( ) lemma=121jährig 
+ 21jährigem ( ) 
+ 21jährigen ( ) 
+ 21jähriger ( ) 
+ 21jähriges ( ) 
+ 21köpfige ( ) 
+ 21köpfigen ( ) 
+ 21köpfiges ( ) 
  21mal ( ) 
- 21monatige ( ) lemma=21monatig 
- 21monatig ( ) 
- 21monatigen ( ) lemma=21monatig 
- 21monatiger ( ) lemma=21monatig 
- 21prozentige ( ) lemma=21prozentig 
- 21prozentig ( ) 
- 21stöckige ( ) lemma=21stöckig 
- 21stöckig ( ) 
- 21stündigem ( ) lemma=21stündig 
- 21stündig ( ) 
- 21stündigen ( ) lemma=21stündig 
+ 21monatige ( ) 
+ 21monatigen ( ) 
+ 21monatiger ( ) 
+ 21prozentige ( ) 
+ 21stöckige ( ) 
+ 21stündigem ( ) 
+ 21stündigen ( ) 
  22 ( ) 
  22,3-Teiler ( ) 
  22,7 ( ) 
@@ -670,13 +609,11 @@
  22-Uhr-Regelung ( ) 
  22-Uhr-Vorstellung ( ) 
  22-Wochen-Frist ( ) 
- 22-jährige ( ) lemma=22-jährig 
- 22-jährig ( ) 
- 22-jährigen ( ) lemma=22-jährig 
- 22-köpfige ( ) lemma=22-köpfig 
- 22-köpfig ( ) 
+ 22-jährige ( ) 
+ 22-jährigen ( ) 
+ 22-köpfige ( ) 
  22-m-Schuss ( ) 
- 22-m-Schuß ( ) lemma=22-m-Schuss 
+ 22-m-Schuß ( ) 
  22. ( ) 
  22/2 ( ) 
  22/2/89 ( ) 
@@ -694,66 +631,50 @@
  22000 ( ) 
  22000-Tonnen-Containerschiff ( ) 
  2237/91 ( ) 
- 225-Kilo-Bomben ( ) lemma=225-Kilo-Bombe 
- 225-Kilo-Bombe ( ) 
+ 225-Kilo-Bomben ( ) 
  2254/89 ( ) 
- 225jährigen ( ) lemma=225jährig 
- 225jährig ( ) 
- 225jähriges ( ) lemma=225jährig 
+ 225jährigen ( ) 
+ 225jähriges ( ) 
  226/91 ( ) 
- 227-Betten-Hauses ( ) lemma=227-Betten-Haus 
- 227-Betten-Haus ( ) 
+ 227-Betten-Hauses ( ) 
  227/92 ( ) 
  228-Liter-Fass ( ) 
- 228-Liter-Faß ( ) lemma=228-Liter-Fass 
+ 228-Liter-Faß ( ) 
  229/88 ( ) 
- 22:1-Siege ( ) lemma=22:1-Sieg 
- 22:1-Sieg ( ) 
+ 22:1-Siege ( ) 
  22:14-Derbysieg ( ) 
  22:19-Sieg ( ) 
  22:28-Niederlage ( ) 
- 22:4-Punkten ( ) lemma=22:4-Punkt 
- 22:4-Punkt ( ) 
+ 22:4-Punkten ( ) 
  22er ( ) 
- 22fache ( ) lemma=22fach 
- 22fach ( ) 
- 22geschossige ( ) lemma=22geschossig 
- 22geschossig ( ) 
+ 22fache ( ) 
+ 22geschossige ( ) 
  22jährig ( ) 
- 22jährige ( ) lemma=22jährig 
- 22jährigem ( ) lemma=22jährig 
- 22jährigen ( ) lemma=22jährig 
- 22jähriger ( ) lemma=22jährig 
- 22jähriges ( ) lemma=22jährig 
- 22köpfige ( ) lemma=22köpfig 
- 22köpfig ( ) 
- 22köpfigen ( ) lemma=22köpfig 
- 22köpfiges ( ) lemma=22köpfig 
- 22monatigen ( ) lemma=22monatig 
- 22monatig ( ) 
- 22prozentige ( ) lemma=22prozentig 
- 22prozentig ( ) 
- 22stöckige ( ) lemma=22stöckig 
- 22stöckig ( ) 
- 22stündigen ( ) lemma=22stündig 
- 22stündig ( ) 
- 22stündiger ( ) lemma=22stündig 
- 22teilige ( ) lemma=22teilig 
- 22teilig ( ) 
- 22tägige ( ) lemma=22tägig 
- 22tägig ( ) 
+ 22jährige ( ) 
+ 22jährigem ( ) 
+ 22jährigen ( ) 
+ 22jähriger ( ) 
+ 22jähriges ( ) 
+ 22köpfige ( ) 
+ 22köpfigen ( ) 
+ 22köpfiges ( ) 
+ 22monatigen ( ) 
+ 22prozentige ( ) 
+ 22stöckige ( ) 
+ 22stündigen ( ) 
+ 22stündiger ( ) 
+ 22teilige ( ) 
+ 22tägige ( ) 
  23 ( ) 
  23- ( ) 
  23-Monate-Vertrag ( ) 
  23-Prozent- ( ) 
- 23-Raketen ( ) lemma=23-Rakete 
- 23-Rakete ( ) 
+ 23-Raketen ( ) 
  23-Stunden ( ) 
- 23-Stunden-Einschluss ( ) lemma=23-Stunden-Einschluß 
+ 23-Stunden-Einschluss ( ) 
  23-Stunden-Einschluß ( ) 
- 23-jährige ( ) lemma=23-jährig 
- 23-jährig ( ) 
- 23-jährigen ( ) lemma=23-jährig 
+ 23-jährige ( ) 
+ 23-jährigen ( ) 
  23. ( ) 
  23./24. ( ) 
  23/2 ( ) 
@@ -766,8 +687,7 @@
  23/91 ( ) 
  23/93 ( ) 
  230 ( ) 
- 230-Punkte-Programmes ( ) lemma=230-Punkte-Programm 
- 230-Punkte-Programm ( ) 
+ 230-Punkte-Programmes ( ) 
  230/91 ( ) 
  2300 ( ) 
  23000-Einwohner-Kommune ( ) 
@@ -778,8 +698,7 @@
  230seitigen ( ) 
  231/2 ( ) 
  231/89 ( ) 
- 232-Anschluß ( ) lemma=232-Anschluss 
- 232-Anschluss ( ) 
+ 232-Anschluß ( ) 
  232-Schnittstelle ( ) 
  2323.Handwerker-Auskunftsdienst ( ) 
  2370 ( ) 
@@ -789,34 +708,28 @@
  23:18-Sieg ( ) 
  23:24-Niederlage ( ) 
  23er ( ) 
- 23fache ( ) lemma=23fach 
- 23fach ( ) 
- 23fachen ( ) lemma=23fach 
+ 23fache ( ) 
+ 23fachen ( ) 
  23jährig ( ) 
- 23jährige ( ) lemma=23jährig 
- 23jährigem ( ) lemma=23jährig 
- 23jährigen ( ) lemma=23jährig 
- 23jähriger ( ) lemma=23jährig 
- 23jähriges ( ) lemma=23jährig 
- 23köpfige ( ) lemma=23köpfig 
- 23köpfig ( ) 
- 23köpfigen ( ) lemma=23köpfig 
- 23prozentigen ( ) lemma=23prozentig 
- 23prozentig ( ) 
- 23stündige ( ) lemma=23stündig 
- 23stündig ( ) 
- 23stündigen ( ) lemma=23stündig 
- 23tägige ( ) lemma=23tägig 
- 23tägig ( ) 
+ 23jährige ( ) lemma=123jährig 
+ 23jährigem ( ) 
+ 23jährigen ( ) 
+ 23jähriger ( ) 
+ 23jähriges ( ) 
+ 23köpfige ( ) 
+ 23köpfigen ( ) 
+ 23prozentigen ( ) 
+ 23stündige ( ) 
+ 23stündigen ( ) 
+ 23tägige ( ) 
  24 ( ) 
  24,7-Teiler ( ) 
- 24,9prozentigen ( ) lemma=24,9prozentig 
- 24,9prozentig ( ) 
+ 24,9prozentigen ( ) 
  24- ( ) 
  24-Milliarden- ( ) 
  24-Milliarden-Dollar- ( ) 
  24-Milliarden-Dollar-Hilfspaket ( ) 
- 24-Milliarden-Dollar-Hilfspakets ( ) lemma=24-Milliarden-Dollar-Hilfspaket 
+ 24-Milliarden-Dollar-Hilfspakets ( ) 
  24-Milliarden-Dollar-Hilfsprogramm ( ) 
  24-Milliarden-Dollar-Paket ( ) 
  24-Minuten-Takt ( ) 
@@ -833,19 +746,19 @@
  24-Stunden-Gehen ( ) 
  24-Stunden-Jugendprogramm ( ) 
  24-Stunden-Karte ( ) 
- 24-Stunden-Karten ( ) lemma=24-Stunden-Karte 
+ 24-Stunden-Karten ( ) 
  24-Stunden-Lauf ( ) 
- 24-Stunden-Laufs ( ) lemma=24-Stunden-Lauf 
+ 24-Stunden-Laufs ( ) 
  24-Stunden-Pflege ( ) 
  24-Stunden-Programm ( ) 
- 24-Stunden-Programms ( ) lemma=24-Stunden-Programm 
+ 24-Stunden-Programms ( ) 
  24-Stunden-Präsenz ( ) 
  24-Stunden-Rennen ( ) 
- 24-Stunden-Rennens ( ) lemma=24-Stunden-Rennen 
+ 24-Stunden-Rennens ( ) 
  24-Stunden-Rhythmus ( ) 
  24-Stunden-Schicht ( ) 
  24-Stunden-Schwimmen ( ) 
- 24-Stunden-Schwimmens ( ) lemma=24-Stunden-Schwimmen 
+ 24-Stunden-Schwimmens ( ) 
  24-Stunden-Service ( ) 
  24-Stunden-Sondersendung ( ) 
  24-Stunden-Tag ( ) 
@@ -853,13 +766,11 @@
  24-Stunden-Woche ( ) 
  24-Stundenprogramm ( ) 
  24-Tonnen-Lastwagen ( ) 
- 24-jährige ( ) lemma=24-jährig 
- 24-jährig ( ) 
- 24-jährigen ( ) lemma=24-jährig 
- 24-jähriger ( ) lemma=24-jährig 
+ 24-jährige ( ) 
+ 24-jährigen ( ) 
+ 24-jähriger ( ) 
  24-plus-Ticket ( ) 
- 24-stündige ( ) lemma=24-stündig 
- 24-stündig ( ) 
+ 24-stündige ( ) 
  24. ( ) 
  24/16 ( ) 
  24/1990 ( ) 
@@ -874,11 +785,10 @@
  240- ( ) 
  240-Betten-Hotel ( ) 
  240-Liter-Behälter ( ) 
- 240-Liter-Gefässe ( ) lemma=240-Liter-Gefäß 
- 240-Liter-Gefäß ( ) 
- 240-Liter-Gefäße ( ) lemma=240-Liter-Gefäß 
+ 240-Liter-Gefässe ( ) 
+ 240-Liter-Gefäße ( ) 
  240-Liter-Tonne ( ) 
- 240-Liter-Tonnen ( ) lemma=240-Liter-Tonne 
+ 240-Liter-Tonnen ( ) 
  2400 ( ) 
  24000-Einwohner-Kommune ( ) 
  24000-Einwohner-Stadt ( ) 
@@ -889,42 +799,34 @@
  248 ( ) 
  248er ( ) 
  2495/89 ( ) 
- 249h-Kontingente ( ) lemma=249h-Kontingent 
- 249h-Kontingent ( ) 
+ 249h-Kontingente ( ) 
  24:23-Erfolg ( ) 
- 24bändigen ( ) lemma=24bändig 
- 24bändig ( ) 
- 24bändiges ( ) lemma=24bändig 
+ 24bändigen ( ) 
+ 24bändiges ( ) 
  24er ( ) 
- 24fache ( ) lemma=24fach 
- 24fach ( ) 
- 24fachen ( ) lemma=24fach 
+ 24fache ( ) 
+ 24fachen ( ) 
  24jährig ( ) 
- 24jährige ( ) lemma=24jährig 
- 24jährigen ( ) lemma=24jährig 
- 24jähriger ( ) lemma=24jährig 
- 24köpfige ( ) lemma=24köpfig 
- 24köpfig ( ) 
- 24köpfigen ( ) lemma=24köpfig 
- 24köpfiger ( ) lemma=24köpfig 
- 24köpfiges ( ) lemma=24köpfig 
- 24prozentige ( ) lemma=24prozentig 
- 24prozentig ( ) 
- 24prozentigen ( ) lemma=24prozentig 
- 24stündige ( ) lemma=24stündig 
- 24stündig ( ) 
- 24stündigem ( ) lemma=24stündig 
- 24stündigen ( ) lemma=24stündig 
- 24stündiger ( ) lemma=24stündig 
- 24stündiges ( ) lemma=24stündig 
+ 24jährige ( ) 
+ 24jährigen ( ) 
+ 24jähriger ( ) 
+ 24köpfige ( ) 
+ 24köpfigen ( ) 
+ 24köpfiger ( ) 
+ 24köpfiges ( ) 
+ 24prozentige ( ) 
+ 24prozentigen ( ) 
+ 24stündige ( ) 
+ 24stündigem ( ) 
+ 24stündigen ( ) 
+ 24stündiger ( ) 
+ 24stündiges ( ) 
  25 ( ) 
  25,8 ( ) 
  25- ( ) 
  25-Dinar- ( ) 
- 25-Dinar-Noten ( ) lemma=25-Dinar-Note 
- 25-Dinar-Note ( ) 
- 25-Dinar-Scheine ( ) lemma=25-Dinar-Schein 
- 25-Dinar-Schein ( ) 
+ 25-Dinar-Noten ( ) 
+ 25-Dinar-Scheine ( ) 
  25-Grad-Marke ( ) 
  25-Jahr-Dienstjubiläum ( ) 
  25-Jahr-Feier ( ) 
@@ -934,25 +836,23 @@
  25-Jahrfeier ( ) 
  25-Liter ( ) 
  25-Liter-Eimer ( ) 
- 25-Liter-Eimern ( ) lemma=25-Liter-Eimer 
+ 25-Liter-Eimern ( ) 
  25-Meter- ( ) 
  25-Meter-Bahn ( ) 
  25-Meter-Bahnen ( ) 
  25-Meter-Becken ( ) 
- 25-Meter-Freistoss ( ) lemma=25-Meter-Freistoß 
+ 25-Meter-Freistoss ( ) 
  25-Meter-Freistoß ( ) 
  25-Meter-Schuss ( ) 
- 25-Meter-Schuß ( ) lemma=25-Meter-Schuss 
- 25-Millionen ( ) lemma=25-Million 
- 25-Million ( ) 
+ 25-Meter-Schuß ( ) 
+ 25-Millionen ( ) 
  25-Millionen-Auftrag ( ) 
  25-Millionen-Mark-Programm ( ) 
  25-Millionen-Programm ( ) 
- 25-Millionen-Programms ( ) lemma=25-Millionen-Programm 
+ 25-Millionen-Programms ( ) 
  25-Millionen-Projekt ( ) 
  25-Millionen-Topf ( ) 
- 25-Millionen-Volkes ( ) lemma=25-Millionen-Volk 
- 25-Millionen-Volk ( ) 
+ 25-Millionen-Volkes ( ) 
  25-Minuten-Takt ( ) 
  25-Prozent- ( ) 
  25-Prozent-Anteil ( ) 
@@ -962,18 +862,16 @@
  25-Prozent-Paket ( ) 
  25-Prozent-Regelung ( ) 
  25-Prozent-Zuschuss ( ) 
- 25-Prozent-Zuschuß ( ) lemma=25-Prozent-Zuschuss 
+ 25-Prozent-Zuschuß ( ) 
  25-Punkte-Programm ( ) 
  25-Stunden ( ) 
  25-Stunden-Woche ( ) 
- 25-jährige ( ) lemma=25-jährig 
- 25-jährig ( ) 
- 25-jährigen ( ) lemma=25-jährig 
- 25-köpfige ( ) lemma=25-köpfig 
- 25-köpfig ( ) 
+ 25-jährige ( ) 
+ 25-jährigen ( ) 
+ 25-köpfige ( ) 
  25-m-Bahn ( ) 
  25-m-Schuss ( ) 
- 25-m-Schuß ( ) lemma=25-m-Schuss 
+ 25-m-Schuß ( ) 
  25. ( ) 
  25/13 ( ) 
  25/134 ( ) 
@@ -994,25 +892,23 @@
  250-Millionen-Mark-Vorhaben ( ) 
  250-ccm-Klasse ( ) 
  250-kg-Bombe ( ) 
- 2500 ( ) 
+ 2500 ( ) lemma=325000 
  2500-Quadratmeter-Grundstück ( ) 
  2500-Seelen-Gemeinde ( ) 
  2500-Seelen-Städtchen ( ) 
- 2500-Seelen-Städtchens ( ) lemma=2500-Seelen-Städtchen 
+ 2500-Seelen-Städtchens ( ) 
  25000 ( ) 
  25000-Einwohner-Kommune ( ) 
  25000-Einwohner-Stadt ( ) 
  250000 ( ) 
  250er ( ) 
  250er-Klasse ( ) 
- 250ern ( ) lemma=250er 
- 250jährige ( ) lemma=250jährig 
- 250jährig ( ) 
- 250jährigen ( ) lemma=250jährig 
- 250jähriges ( ) lemma=250jährig 
- 250köpfige ( ) lemma=250köpfig 
- 250köpfig ( ) 
- 250köpfigen ( ) lemma=250köpfig 
+ 250ern ( ) 
+ 250jährige ( ) lemma=1250jährig 
+ 250jährigen ( ) 
+ 250jähriges ( ) 
+ 250köpfige ( ) 
+ 250köpfigen ( ) 
  251 ( ) 
  251/01 ( ) 
  2550/91 ( ) 
@@ -1021,46 +917,37 @@
  2555/1991 ( ) 
  256-Megabit-Chip ( ) 
  258/259 ( ) 
- 25:13-Siegen ( ) lemma=25:13-Sieg 
- 25:13-Sieg ( ) 
+ 25:13-Siegen ( ) 
  25er ( ) 
- 25fache ( ) lemma=25fach 
- 25fach ( ) 
- 25fachen ( ) lemma=25fach 
- 25facher ( ) lemma=25fach 
- 25geschossiger ( ) lemma=25geschossig 
- 25geschossig ( ) 
- 25geschossiges ( ) lemma=25geschossig 
- 25jährig ( ) 
- 25jährige ( ) lemma=25jährig 
- 25jährigem ( ) lemma=25jährig 
- 25jährigen ( ) lemma=25jährig 
- 25jähriger ( ) lemma=25jährig 
- 25jähriges ( ) lemma=25jährig 
- 25köpfige ( ) lemma=25köpfig 
- 25köpfig ( ) 
- 25köpfigen ( ) lemma=25köpfig 
- 25köpfiges ( ) lemma=25köpfig 
+ 25fache ( ) 
+ 25fachen ( ) 
+ 25facher ( ) 
+ 25geschossiger ( ) 
+ 25geschossiges ( ) 
+ 25jährig ( ) lemma=725jährig 
+ 25jährige ( ) lemma=325jährig 
+ 25jährigem ( ) 
+ 25jährigen ( ) 
+ 25jähriger ( ) 
+ 25jähriges ( ) 
+ 25köpfige ( ) 
+ 25köpfigen ( ) 
+ 25köpfiges ( ) 
  25mal ( ) 
- 25maliges ( ) lemma=25malig 
- 25malig ( ) 
- 25prozentige ( ) lemma=25prozentig 
- 25prozentig ( ) 
- 25prozentigen ( ) lemma=25prozentig 
- 25prozentiger ( ) lemma=25prozentig 
- 25prozentiges ( ) lemma=25prozentig 
- 25stündige ( ) lemma=25stündig 
- 25stündig ( ) 
- 25stündigen ( ) lemma=25stündig 
- 25teiligen ( ) lemma=25teilig 
- 25teilig ( ) 
+ 25maliges ( ) 
+ 25prozentige ( ) 
+ 25prozentigen ( ) 
+ 25prozentiger ( ) 
+ 25prozentiges ( ) 
+ 25stündige ( ) 
+ 25stündigen ( ) 
+ 25teiligen ( ) 
  26 ( ) 
  26,6 ( ) 
  26- ( ) 
  26-Stunden-Epos ( ) 
- 26-jährige ( ) lemma=26-jährig 
- 26-jährig ( ) 
- 26-jähriger ( ) lemma=26-jährig 
+ 26-jährige ( ) 
+ 26-jähriger ( ) 
  26. ( ) 
  26/27 ( ) 
  26/3 ( ) 
@@ -1077,35 +964,28 @@
  2684 ( ) 
  2690/92 ( ) 
  26er ( ) 
- 26fachen ( ) lemma=26fach 
- 26fach ( ) 
+ 26fachen ( ) 
  26jährig ( ) 
- 26jährige ( ) lemma=26jährig 
- 26jährigen ( ) lemma=26jährig 
- 26jähriger ( ) lemma=26jährig 
- 26köpfige ( ) lemma=26köpfig 
- 26köpfig ( ) 
- 26köpfigen ( ) lemma=26köpfig 
- 26monatige ( ) lemma=26monatig 
- 26monatig ( ) 
- 26monatiger ( ) lemma=26monatig 
- 26prozentige ( ) lemma=26prozentig 
- 26prozentig ( ) 
- 26prozentigen ( ) lemma=26prozentig 
- 26stündige ( ) lemma=26stündig 
- 26stündig ( ) 
- 26stündigen ( ) lemma=26stündig 
- 26stündiger ( ) lemma=26stündig 
- 26teilige ( ) lemma=26teilig 
- 26teilig ( ) 
- 26teiligen ( ) lemma=26teilig 
+ 26jährige ( ) 
+ 26jährigen ( ) 
+ 26jähriger ( ) 
+ 26köpfige ( ) 
+ 26köpfigen ( ) 
+ 26monatige ( ) 
+ 26monatiger ( ) 
+ 26prozentige ( ) 
+ 26prozentigen ( ) 
+ 26stündige ( ) 
+ 26stündigen ( ) 
+ 26stündiger ( ) 
+ 26teilige ( ) 
+ 26teiligen ( ) 
  27 ( ) 
  27- ( ) 
  27-Anschluss ( ) 
- 27-Anschluß ( ) lemma=27-Anschluss 
- 27-jährige ( ) lemma=27-jährig 
- 27-jährig ( ) 
- 27-jährigen ( ) lemma=27-jährig 
+ 27-Anschluß ( ) 
+ 27-jährige ( ) 
+ 27-jährigen ( ) 
  27. ( ) 
  27/14 ( ) 
  27/28 ( ) 
@@ -1126,41 +1006,33 @@
  274/90 ( ) 
  275/89 ( ) 
  275/90 ( ) 
- 275jährige ( ) lemma=275jährig 
- 275jährig ( ) 
+ 275jährige ( ) 
  275mal ( ) 
  278/90 ( ) 
- 27:5-Sätze ( ) lemma=27:5-Satz 
- 27:5-Satz ( ) 
+ 27:5-Sätze ( ) 
  27er ( ) 
- 27jährig ( ) 
- 27jährige ( ) lemma=27jährig 
- 27jährigem ( ) lemma=27jährig 
- 27jährigen ( ) lemma=27jährig 
- 27jähriger ( ) lemma=27jährig 
- 27köpfige ( ) lemma=27köpfig 
- 27köpfig ( ) 
- 27köpfigen ( ) lemma=27köpfig 
+ 27jährig ( ) lemma=127jährig 
+ 27jährige ( ) 
+ 27jährigem ( ) 
+ 27jährigen ( ) 
+ 27jähriger ( ) 
+ 27köpfige ( ) 
+ 27köpfigen ( ) 
  27mal ( ) 
- 27malige ( ) lemma=27malig 
- 27malig ( ) 
- 27monatige ( ) lemma=27monatig 
- 27monatig ( ) 
- 27tägige ( ) lemma=27tägig 
- 27tägig ( ) 
+ 27malige ( ) 
+ 27monatige ( ) 
+ 27tägige ( ) 
  28 ( ) 
  28,8 ( ) 
  28,8-Stunden-Woche ( ) 
  28- ( ) 
  28-Mann-Kader ( ) 
- 28-Millionen-Mark-Projektes ( ) lemma=28-Millionen-Mark-Projekt 
- 28-Millionen-Mark-Projekt ( ) 
+ 28-Millionen-Mark-Projektes ( ) 
  28-Mio ( ) 
  28-Tonnen-Limit ( ) 
  28-Tonnen-Regelung ( ) 
- 28-jährige ( ) lemma=28-jährig 
- 28-jährig ( ) 
- 28-jähriger ( ) lemma=28-jährig 
+ 28-jährige ( ) 
+ 28-jähriger ( ) 
  28. ( ) 
  28./29. ( ) 
  28/17 ( ) 
@@ -1168,7 +1040,7 @@
  28/29 ( ) 
  28/29/30 ( ) 
  28/63 ( ) 
- 28/9 ( ) 
+ 28/9 ( ) lemma=128/90 
  28/95 ( ) 
  280.000-Einwohner-Stadt ( ) 
  28000-Einwohner-Stadt ( ) 
@@ -1177,34 +1049,27 @@
  287/90 ( ) 
  287/92 ( ) 
  28er ( ) 
- 28fache ( ) lemma=28fach 
- 28fach ( ) 
- 28fachen ( ) lemma=28fach 
+ 28fache ( ) 
+ 28fachen ( ) 
  28jährig ( ) 
- 28jährige ( ) lemma=28jährig 
- 28jährigen ( ) lemma=28jährig 
- 28jähriger ( ) lemma=28jährig 
- 28köpfige ( ) lemma=28köpfig 
- 28köpfig ( ) 
- 28köpfigen ( ) lemma=28köpfig 
- 28prozentige ( ) lemma=28prozentig 
- 28prozentig ( ) 
- 28prozentigen ( ) lemma=28prozentig 
- 28stöckigen ( ) lemma=28stöckig 
- 28stöckig ( ) 
- 28stündigen ( ) lemma=28stündig 
- 28stündig ( ) 
- 28stündiger ( ) lemma=28stündig 
- 28tägiger ( ) lemma=28tägig 
- 28tägig ( ) 
+ 28jährige ( ) 
+ 28jährigen ( ) 
+ 28jähriger ( ) 
+ 28köpfige ( ) lemma=128köpfig 
+ 28köpfigen ( ) 
+ 28prozentige ( ) 
+ 28prozentigen ( ) 
+ 28stöckigen ( ) 
+ 28stündigen ( ) 
+ 28stündiger ( ) 
+ 28tägiger ( ) 
  29,25/27 ( ) 
  29,33/35 ( ) 
  29,48/52 ( ) 
  29-Cent-Briefmarke ( ) 
  29-Umgehung ( ) 
- 29-jährige ( ) lemma=29-jährig 
- 29-jährig ( ) 
- 29-jährigen ( ) lemma=29-jährig 
+ 29-jährige ( ) 
+ 29-jährigen ( ) 
  29. ( ) 
  29/1991 ( ) 
  29/30 ( ) 
@@ -1218,20 +1083,16 @@
  295-Tunnel ( ) 
  299/90 ( ) 
  29er ( ) 
- 29er-Verbände ( ) lemma=29er-Verband 
- 29er-Verband ( ) 
- 29fache ( ) lemma=29fach 
- 29fach ( ) 
- 29fachen ( ) lemma=29fach 
+ 29er-Verbände ( ) 
+ 29fache ( ) 
+ 29fachen ( ) 
  29jährig ( ) 
- 29jährige ( ) lemma=29jährig 
- 29jährigem ( ) lemma=29jährig 
- 29jährigen ( ) lemma=29jährig 
- 29jähriger ( ) lemma=29jährig 
- 29köpfige ( ) lemma=29köpfig 
- 29köpfig ( ) 
- 29stündige ( ) lemma=29stündig 
- 29stündig ( ) 
+ 29jährige ( ) 
+ 29jährigem ( ) 
+ 29jährigen ( ) 
+ 29jähriger ( ) 
+ 29köpfige ( ) 
+ 29stündige ( ) 
  2:0 ( ) 
  2:0- ( ) 
  2:0-Auswärtssieg ( ) 
@@ -1244,21 +1105,20 @@
  2:0-Laufsieger ( ) 
  2:0-Pausenstand ( ) 
  2:0-Pokalsieg ( ) 
- 2:0-Punkten ( ) lemma=2:0-Punkt 
- 2:0-Punkt ( ) 
+ 2:0-Punkten ( ) 
  2:0-Satzführung ( ) 
  2:0-Sieg ( ) 
- 2:0-Sieges ( ) lemma=2:0-Sieg 
+ 2:0-Sieges ( ) 
  2:0-Vorsprung ( ) 
  2:1 ( ) 
  2:1- ( ) 
  2:1-Anschlusstreffer ( ) 
- 2:1-Anschlußtreffer ( ) lemma=2:1-Anschlusstreffer 
+ 2:1-Anschlußtreffer ( ) 
  2:1-Arbeitssieg ( ) 
  2:1-Auswärtssieg ( ) 
  2:1-Endstand ( ) 
  2:1-Erfolg ( ) 
- 2:1-Erfolgen ( ) lemma=2:1-Erfolg 
+ 2:1-Erfolgen ( ) 
  2:1-Führung ( ) 
  2:1-Führungstreffer ( ) 
  2:1-Gesamtführung ( ) 
@@ -1271,38 +1131,34 @@
  2:1-Punktsieg ( ) 
  2:1-Punktsieger ( ) 
  2:1-Quote ( ) 
- 2:1-Sieg ( ) 
- 2:1-Siegen ( ) lemma=2:1-sieg 
- 2:1-sieg ( ) 
+ 2:1-Sieg ( ) lemma=22:1-Sieg 
+ 2:1-Siegen ( ) 
  2:1-Sieger ( ) 
- 2:1-Sieges ( ) lemma=2:1-Sieg 
+ 2:1-Sieges ( ) 
  2:1-Siegtreffer ( ) 
  2:1-Triumph ( ) 
  2:1-Umstellung ( ) 
  2:1-Umtausch ( ) 
  2:1-Umtauschkurs ( ) 
  2:1-Vorschlag ( ) 
- 2:1-Vorschlages ( ) lemma=2:1-Vorschlag 
+ 2:1-Vorschlages ( ) 
  2:1-Vorsprung ( ) 
  2:1-Überlegenheit ( ) 
  2:15-Niederlage ( ) 
- 2:16-Punkte ( ) lemma=2:16-Punkt 
- 2:16-Punkt ( ) 
+ 2:16-Punkte ( ) 
  2:2-Ausgleich ( ) 
  2:2-Ausgleichstreffer ( ) 
  2:2-Endstand ( ) 
  2:2-Halbzeitstand ( ) 
  2:2-Pausenstand ( ) 
- 2:2-Punkten ( ) lemma=2:2-Punkt 
- 2:2-Punkt ( ) 
+ 2:2-Punkten ( ) 
  2:2-Remis ( ) 
  2:2-Unentschieden ( ) 
- 2:22-Punkten ( ) lemma=2:22-Punkt 
- 2:22-Punkt ( ) 
+ 2:22-Punkten ( ) 
  2:3-Anschluss ( ) 
  2:3-Anschlusstreffer ( ) 
- 2:3-Anschluß ( ) lemma=2:3-Anschluss 
- 2:3-Anschlußtreffer ( ) lemma=2:3-Anschlusstreffer 
+ 2:3-Anschluß ( ) 
+ 2:3-Anschlußtreffer ( ) 
  2:3-Endstand ( ) 
  2:3-Heimniederlage ( ) 
  2:3-Niederlage ( ) 
@@ -1311,40 +1167,464 @@
  2:3-Rückstand ( ) 
  2:3-Schlappe ( ) 
  2:4-Anschlusstreffer ( ) 
- 2:4-Anschlußtreffer ( ) lemma=2:4-Anschlusstreffer 
+ 2:4-Anschlußtreffer ( ) 
  2:4-Endstand ( ) 
  2:4-Heimniederlage ( ) 
  2:4-Niederlage ( ) 
- 2:4-Punkte ( ) lemma=2:4-Punkt 
- 2:4-Punkt ( ) 
- 2:4-Punkten ( ) lemma=2:4-Punkt 
+ 2:4-Punkte ( ) lemma=22:4-Punkt 
+ 2:4-Punkten ( ) 
  2:4-Rückstand ( ) 
- 2:4-Zählern ( ) lemma=2:4-Zähler 
- 2:4-Zähler ( ) 
- 2:46-Punkte ( ) lemma=2:46-Punkt 
- 2:46-Punkt ( ) 
+ 2:4-Zählern ( ) 
+ 2:46-Punkte ( ) 
  2:5-Anschlusstreffer ( ) 
- 2:5-Anschlußtreffer ( ) lemma=2:5-Anschlusstreffer 
+ 2:5-Anschlußtreffer ( ) 
  2:5-Heimniederlage ( ) 
  2:5-Niederlage ( ) 
  2:5-Rückstand ( ) 
  2:6-Endstand ( ) 
  2:6-Niederlage ( ) 
- 2:6-Punkten ( ) lemma=2:6-Punkt 
- 2:6-Punkt ( ) 
+ 2:6-Punkten ( ) 
  2:6-Rückstand ( ) 
  2:6-Schlappe ( ) 
  2:6-Zähler ( ) 
  2:7-Niederlage ( ) 
  2:8-Pleite ( ) 
- 2:8-Punkten ( ) lemma=2:8-Punkt 
- 2:8-Punkt ( ) 
+ 2:8-Punkten ( ) 
  2:9-Niederlage ( ) 
- 2er ( ) 
- 2jährige ( ) lemma=2jährig 
- 2jährig ( ) 
- 2jährigen ( ) lemma=2jährig 
- 2jähriger ( ) lemma=2jährig 
+ 2er ( ) lemma=72er 
+ 2jährige ( ) lemma=92jährig 
+ 2jährigen ( ) 
+ 2jähriger ( ) 
  2mal ( ) 
- 2prozentigen ( ) lemma=2prozentig 
- 2prozentig ( ) 
+ 2prozentigen ( ) 
+ 218-Tribuna ( ) lemma=-218-Tribunal 
+ 218-Urtei ( ) lemma=-218-Urteil 
+ 218-Vorschla ( ) lemma=-218-Vorschlag 
+ 2-Ausstos ( ) lemma=02-Ausstoß 
+ 2-Ausstosse ( ) lemma=02-Ausstoß 
+ 2-Aussto� ( ) lemma=02-Ausstoß 
+ 2-Ausstoße ( ) lemma=02-Ausstoß 
+ 2-Emissione ( ) lemma=02-Emission 
+ 2/ ( ) lemma=72/8 
+ 20-Nummer ( ) lemma=020-Nummer 
+ 203/5328 ( ) lemma=0203/53289 
+ 2102/1474 ( ) lemma=02102/14740 
+ 211/408967 ( ) lemma=0211/4089676 
+ 211/55628 ( ) lemma=0211/556281 
+ 2151/61574 ( ) lemma=02151/615749 
+ 2151/6533 ( ) lemma=02151/65333 
+ 221/24977 ( ) lemma=0221/249779 
+ 221/51139 ( ) lemma=0221/511395 
+ 228 ( ) lemma=0228- 
+ 228/104514/ ( ) lemma=0228/104514/5 
+ 228/1 ( ) lemma=0228/16 
+ 228/2 ( ) lemma=0228/21 
+ 228/21135 ( ) lemma=0228/211355 
+ 228/21740 ( ) lemma=0228/217401 
+ 228/22282 ( ) lemma=0228/222826 
+ 228/36101 ( ) lemma=0228/361013 
+ 228/47080 ( ) lemma=0228/470806 
+ 228/63287 ( ) lemma=0228/632871 
+ 228/65904 ( ) lemma=0228/659044 
+ 228/66444 ( ) lemma=0228/664442 
+ 228/666752 ( ) lemma=0228/6667521 
+ 228/68705 ( ) lemma=0228/687055 
+ 228/69290 ( ) lemma=0228/692906 
+ 228/69777 ( ) lemma=0228/697778 
+ 228/73557 ( ) lemma=0228/735577 
+ 241/54112 ( ) lemma=0241/541120 
+ 2681/437 ( ) lemma=02681/4377 
+ 2962/80042 ( ) lemma=02962/800427 
+ 2e ( ) lemma=92er 
+ 2er-Sitzun ( ) lemma=02er-Sitzung 
+ 2,0/321, ( ) lemma=12,0/321,6 
+ 2, ( ) lemma=92,4 
+ 2,5-Prozent-Antei ( ) lemma=12,5-Prozent-Anteil 
+ 2,5-Prozent-Hürd ( ) lemma=12,5-Prozent-Hürde 
+ 2,5prozentige ( ) lemma=12,5prozentig 
+ 2-GHz-Bereic ( ) lemma=12-GHz-Bereich 
+ 2-Jahr-Feie ( ) lemma=12-Jahr-Feier 
+ 2-Millionen-Kredi ( ) lemma=12-Millionen-Kredit 
+ 2-Millionen-Program ( ) lemma=12-Millionen-Programm 
+ 2-Mi ( ) lemma=12-Mio 
+ 2-Punkte-Katalo ( ) lemma=12-Punkte-Katalog 
+ 2-Punkte-Program ( ) lemma=12-Punkte-Programm 
+ 2-Stunde ( ) lemma=12-Stunde 
+ 2-Stunden ( ) lemma=32-Stunden- 
+ 2-Stunden-Lauf ( ) lemma=12-Stunden-Lauf 
+ 2-Stunden-Schichte ( ) lemma=12-Stunden-Schicht 
+ 2-Stunden-Ta ( ) lemma=12-Stunden-Tag 
+ 2-Turnie ( ) lemma=12-Turnier 
+ 2-Uhr-Läute ( ) lemma=12-Uhr-Läuten 
+ 2-V-Anschlu� ( ) lemma=12-V-Anschluss 
+ 2-Wochen-Fris ( ) lemma=22-Wochen-Frist 
+ 2-Zentimeter-C ( ) lemma=12-Zentimeter-CD 
+ 2-Zylinde ( ) lemma=12-Zylinder 
+ 2-g-Gebind ( ) lemma=12-g-Gebinde 
+ 2-jährig ( ) lemma=52-jährig 
+ 2-köpfige ( ) lemma=12-köpfig 
+ 2.000-Einwohner-Stad ( ) lemma=12.000-Einwohner-Stadt 
+ 2.000-Seelen-Städtche ( ) lemma=12.000-Seelen-Städtchen 
+ 2.000/19.00 ( ) lemma=12.000/19.000 
+ 2.000fac ( ) lemma=12.000fach 
+ 2.1 ( ) lemma=12.15 
+ 2.3 ( ) lemma=12.30 
+ 2.4 ( ) lemma=12.45 
+ 2/13.9.8 ( ) lemma=12/13.9.89 
+ 2/197 ( ) lemma=12/1972 
+ 2/198 ( ) lemma=12/1989 
+ 2/23 ( ) lemma=12/236 
+ 2/56,6 ( ) lemma=12/56,69 
+ 2/6/8 ( ) lemma=12/6/89 
+ 2/8 ( ) lemma=82/84 
+ 20-Betten-Hau ( ) lemma=120-Betten-Haus 
+ 20-Betten-Hote ( ) lemma=120-Betten-Hotel 
+ 20-Jahr-Feie ( ) lemma=120-Jahr-Feier 
+ 20-Liter-Behälte ( ) lemma=120-Liter-Behälter 
+ 20-Liter-Eime ( ) lemma=120-Liter-Eimer 
+ 20-Liter-Gefäs ( ) lemma=120-Liter-Gefäß 
+ 20-Liter-Gefässe ( ) lemma=120-Liter-Gefäß 
+ 20-Liter-Gefä� ( ) lemma=120-Liter-Gefäß 
+ 20-Liter-Gefäße ( ) lemma=120-Liter-Gefäß 
+ 20-Liter-Restmülltonn ( ) lemma=120-Liter-Restmülltonne 
+ 20-Liter-Tonn ( ) lemma=120-Liter-Tonne 
+ 20-Liter-Tonne ( ) lemma=120-Liter-Tonne 
+ 20-Meter-Schanz ( ) lemma=120-Meter-Schanze 
+ 20-Mikrogramm-Grenz ( ) lemma=120-Mikrogramm-Grenze 
+ 20-Millionen ( ) lemma=120-Millionen- 
+ 20-Millionen-Eta ( ) lemma=120-Millionen-Etat 
+ 20-Millionen-Mark-Projek ( ) lemma=120-Millionen-Mark-Projekt 
+ 20-Millionen-Mark-Schiebun ( ) lemma=120-Millionen-Mark-Schiebung 
+ 20-Millionen-Program ( ) lemma=120-Millionen-Programm 
+ 20-Millionen-Volke ( ) lemma=120-Millionen-Volk 
+ 20-Seiten-Dokumentatio ( ) lemma=120-Seiten-Dokumentation 
+ 20-m-Schanz ( ) lemma=120-m-Schanze 
+ 20.000-Einwohner-Stad ( ) lemma=120.000-Einwohner-Stadt 
+ 20/9 ( ) lemma=120/90 
+ 200-Jahr-Feie ( ) lemma=1200-Jahr-Feier 
+ 200-Jahr-Jubiläu ( ) lemma=1200-Jahr-Jubiläum 
+ 200-Jahrfeie ( ) lemma=1200-Jahrfeier 
+ 2000-Einwohner-Kommun ( ) lemma=12000-Einwohner-Kommune 
+ 2000-Einwohner-Stad ( ) lemma=12000-Einwohner-Stadt 
+ 200jährig ( ) lemma=1200jährig 
+ 209/4 ( ) lemma=1209/42 
+ 20e ( ) lemma=120er 
+ 20prozenti ( ) lemma=120prozentig 
+ 21/12 ( ) lemma=121/122 
+ 213/8 ( ) lemma=1213/85 
+ 22-Millimeter ( ) lemma=122-Millimeter- 
+ 22-Millimeter-Rakete ( ) lemma=122-Millimeter-Rakete 
+ 22-Teile ( ) lemma=122-Teiler 
+ 225-Jahr-Feie ( ) lemma=1225-Jahr-Feier 
+ 225jährige ( ) lemma=1225jährig 
+ 228/9 ( ) lemma=1228/92 
+ 23/8 ( ) lemma=123/88 
+ 24-Teile ( ) lemma=124-Teiler 
+ 25-Jahr-Feie ( ) lemma=825-Jahr-Feier 
+ 25-Jahr-Jubiläu ( ) lemma=825-Jahr-Jubiläum 
+ 25-Teile ( ) lemma=125-Teiler 
+ 25-ccm-Klass ( ) lemma=125-ccm-Klasse 
+ 25/12 ( ) lemma=125/127 
+ 25/9 ( ) lemma=125/90 
+ 250-Jahr-Feie ( ) lemma=1250-Jahr-Feier 
+ 252/5 ( ) lemma=1252/50 
+ 253/8 ( ) lemma=1253/85 
+ 25e ( ) lemma=125er 
+ 25er-DKW-Motorrade ( ) lemma=125er-DKW-Motorrad 
+ 25fach ( ) lemma=125fach 
+ 26-Betten-Klini ( ) lemma=126-Betten-Klinik 
+ 26/8 ( ) lemma=126/89 
+ 266/3 ( ) lemma=1266/31 
+ 268/5 ( ) lemma=1268/50 
+ 268/8 ( ) lemma=1268/86 
+ 269/2 ( ) lemma=1269/21 
+ 26köpfig ( ) lemma=126köpfig 
+ 27, ( ) lemma=127,4 
+ 277/9 ( ) lemma=1277/91 
+ 279/2 ( ) lemma=1279/28 
+ 28/12 ( ) lemma=128/129 
+ 280/5 ( ) lemma=1280/53 
+ 285/3 ( ) lemma=1285/35 
+ 285/9 ( ) lemma=1285/92 
+ 287/0 ( ) lemma=1287/00 
+ 288/9 ( ) lemma=1288/90 
+ 29-Prozes ( ) lemma=129-Prozess 
+ 29-Proze� ( ) lemma=129-Prozess 
+ 292/7 ( ) lemma=1292/71 
+ 296/3 ( ) lemma=1296/33 
+ 298/7 ( ) lemma=1298/71 
+ 29a-Angeklagt ( ) lemma=129a-Angeklagte 
+ 29a-Anklag ( ) lemma=129a-Anklage 
+ 29a-Ermittlungsverfahre ( ) lemma=129a-Ermittlungsverfahren 
+ 29a-Gefangene ( ) lemma=129a-Gefangene 
+ 29a-Konstruktio ( ) lemma=129a-Konstruktion 
+ 29a-Praxi ( ) lemma=129a-Praxis 
+ 29a-Prozes ( ) lemma=129a-Prozess 
+ 29a-Prozess ( ) lemma=129a-Prozess 
+ 29a-Prozesse ( ) lemma=129a-Prozess 
+ 29a-Proze� ( ) lemma=129a-Prozess 
+ 29a-Verfahre ( ) lemma=129a-Verfahren 
+ 29a-Verfahren ( ) lemma=129a-Verfahren 
+ 29a-Verurteilun ( ) lemma=129a-Verurteilung 
+ 29a-Vorwur ( ) lemma=129a-Vorwurf 
+ 29a-Vorwurf ( ) lemma=129a-Vorwurf 
+ 29e ( ) lemma=129er 
+ 2:0-Punkt ( ) lemma=12:0-Punkt 
+ 2:0-Punkte ( ) lemma=12:0-Punkt 
+ 2:10-Vorsprun ( ) lemma=12:10-Vorsprung 
+ 2:11-Sie ( ) lemma=12:11-Sieg 
+ 2:11-Vorsprun ( ) lemma=12:11-Vorsprung 
+ 2:14-Anschlusstreffe ( ) lemma=12:14-Anschlusstreffer 
+ 2:14-Anschlußtreffe ( ) lemma=12:14-Anschlusstreffer 
+ 2:15-Niederlag ( ) lemma=12:15-Niederlage 
+ 2:15-Rückstan ( ) lemma=12:15-Rückstand 
+ 2:16-Niederlag ( ) lemma=12:16-Niederlage 
+ 2:2-Punkt ( ) lemma=12:2-Punkt 
+ 2:4-Führun ( ) lemma=12:4-Führung 
+ 2:8-Heimsie ( ) lemma=12:8-Heimsieg 
+ 2:9-Derbysie ( ) lemma=12:9-Derbysieg 
+ 2bändig ( ) lemma=12bändig 
+ 2er-Gemeinschaftskurse ( ) lemma=12er-Gemeinschaftskurs 
+ 2jähri ( ) lemma=92jährig 
+ 2jährig ( ) lemma=92jährig 
+ 2köpfig ( ) lemma=42köpfig 
+ 2köpfige ( ) lemma=92köpfig 
+ 2monatig ( ) lemma=12monatig 
+ 2monatige ( ) lemma=22monatig 
+ 2prozentige ( ) lemma=52prozentig 
+ 2stündig ( ) lemma=72stündig 
+ 2teilig ( ) lemma=52teilig 
+ 2,4fach ( ) 
+ 2,5-Minuten-Spot ( ) 
+ 2,5-fach ( ) 
+ 2,5fach ( ) 
+ 2,6fach ( ) 
+ 2-Abgas ( ) 
+ 2-Gespräch ( ) 
+ 2-Kurzzug ( ) 
+ 2-Professor ( ) 
+ 2-Raketenwaffe ( ) 
+ 2-Rest ( ) 
+ 2-Stunden-Takt ( ) 
+ 2-frei ( ) 
+ 2-in-1-Duschgel ( ) 
+ 2-plus-4-Gespräch ( ) 
+ 2.000jährig ( ) 
+ 2.500jährig ( ) 
+ 2.500köpfig ( ) 
+ 20-Kilometer-Wanderung ( ) 
+ 20-Mark-Rate ( ) 
+ 20-Punkt ( ) 
+ 20-Sekunden-Spot ( ) 
+ 20-Stunden-Stelle ( ) 
+ 20-US-Dollarnote ( ) 
+ 20-Uhr-Nachricht ( ) 
+ 20-Zoll-Rad ( ) 
+ 20-jährig ( ) 
+ 20-kV-Stromleitung ( ) 
+ 200-Mark-Note ( ) 
+ 200-Quadratmeter-Eigentumswohnung ( ) 
+ 200-jährig ( ) 
+ 200-m-Lage ( ) 
+ 2000-Liter-Tank ( ) 
+ 2000er-Spiel ( ) 
+ 2000fach ( ) 
+ 2000jährig ( ) 
+ 2000köpfig ( ) 
+ 200köpfig ( ) 
+ 203-Millimeter-Atomgranate ( ) 
+ 20:2-Punkt ( ) 
+ 20geschossig ( ) 
+ 20köpfig ( ) 
+ 20malig ( ) lemma=320malig 
+ 20monatig ( ) 
+ 20prozentig ( ) 
+ 20stöckig ( ) 
+ 20stündig ( ) 
+ 20teilig ( ) 
+ 20tägig ( ) 
+ 21-Uhr-Nachricht ( ) 
+ 21-jährig ( ) 
+ 218-Frau ( ) 
+ 218-Gegnerin ( ) 
+ 21fach ( ) 
+ 21köpfig ( ) 
+ 21monatig ( ) 
+ 21prozentig ( ) 
+ 21stöckig ( ) 
+ 21stündig ( ) 
+ 2,3-Teile ( ) lemma=22,3-Teiler 
+ 2-Uhr-Grenz ( ) lemma=22-Uhr-Grenze 
+ 2-Uhr-Program ( ) lemma=22-Uhr-Programm 
+ 2-Uhr-Regelun ( ) lemma=22-Uhr-Regelung 
+ 2-Uhr-Vorstellun ( ) lemma=22-Uhr-Vorstellung 
+ 22-jährig ( ) 
+ 2-köpfig ( ) lemma=32-köpfig 
+ 22-köpfig ( ) 
+ 2-m-Schus ( ) lemma=22-m-Schuss 
+ 2-m-Schu� ( ) lemma=22-m-Schuss 
+ 2/2/8 ( ) lemma=22/2/89 
+ 2/8/8 ( ) lemma=22/8/89 
+ 20-Vol ( ) lemma=220-Volt 
+ 20-Volt-Net ( ) lemma=220-Volt-Netz 
+ 2000-Tonnen-Containerschif ( ) lemma=22000-Tonnen-Containerschiff 
+ 237/9 ( ) lemma=2237/91 
+ 25-Kilo-Bombe ( ) lemma=225-Kilo-Bombe 
+ 225-Kilo-Bombe ( ) 
+ 254/8 ( ) lemma=2254/89 
+ 225jährig ( ) 
+ 26/9 ( ) lemma=226/91 
+ 27-Betten-Hause ( ) lemma=227-Betten-Haus 
+ 227-Betten-Haus ( ) 
+ 27/9 ( ) lemma=227/92 
+ 28-Liter-Fas ( ) lemma=228-Liter-Fass 
+ 28-Liter-Fa� ( ) lemma=228-Liter-Fass 
+ 29/8 ( ) lemma=229/88 
+ 22:1-Sieg ( ) 
+ 2:14-Derbysie ( ) lemma=22:14-Derbysieg 
+ 2:19-Sie ( ) lemma=22:19-Sieg 
+ 2:28-Niederlag ( ) lemma=22:28-Niederlage 
+ 22:4-Punkt ( ) 
+ 2fach ( ) lemma=52fach 
+ 22fach ( ) 
+ 2geschossig ( ) lemma=22geschossig 
+ 22geschossig ( ) 
+ 22köpfig ( ) 
+ 22monatig ( ) 
+ 2prozentig ( ) lemma=52prozentig 
+ 22prozentig ( ) 
+ 2stöckig ( ) lemma=22stöckig 
+ 22stöckig ( ) 
+ 2stündige ( ) lemma=72stündig 
+ 22stündig ( ) 
+ 22teilig ( ) 
+ 2tägig ( ) lemma=22tägig 
+ 22tägig ( ) 
+ 23-Rakete ( ) 
+ 23-jährig ( ) 
+ 230-Punkte-Programm ( ) 
+ 232-Anschluss ( ) 
+ 23fach ( ) 
+ 23köpfig ( ) 
+ 23prozentig ( ) 
+ 23stündig ( ) 
+ 23tägig ( ) 
+ 24,9prozentig ( ) 
+ 24-jährig ( ) 
+ 24-stündig ( ) 
+ 240-Liter-Gefäß ( ) 
+ 249h-Kontingent ( ) 
+ 24bändig ( ) 
+ 24fach ( ) 
+ 24köpfig ( ) 
+ 24prozentig ( ) 
+ 24stündig ( ) 
+ 25-Dinar-Note ( ) 
+ 25-Dinar-Schein ( ) 
+ 25-Million ( ) 
+ 25-Millionen-Volk ( ) 
+ 25-jährig ( ) 
+ 25-köpfig ( ) 
+ 250jährig ( ) 
+ 250köpfig ( ) 
+ 25:13-Sieg ( ) 
+ 25geschossig ( ) 
+ 25köpfig ( ) 
+ 25malig ( ) 
+ 25prozentig ( ) 
+ 25stündig ( ) 
+ 25teilig ( ) 
+ 26-jährig ( ) 
+ 26fach ( ) 
+ 26monatig ( ) 
+ 26prozentig ( ) 
+ 26stündig ( ) 
+ 26teilig ( ) 
+ 27-jährig ( ) 
+ 275jährig ( ) 
+ 27:5-Satz ( ) 
+ 27köpfig ( ) 
+ 27malig ( ) 
+ 27monatig ( ) 
+ 27tägig ( ) 
+ 28-Millionen-Mark-Projekt ( ) 
+ 28-jährig ( ) 
+ 28fach ( ) 
+ 28köpfig ( ) 
+ 28prozentig ( ) 
+ 28stöckig ( ) 
+ 28stündig ( ) 
+ 28tägig ( ) 
+ 29-jährig ( ) 
+ 29er-Verband ( ) 
+ 29fach ( ) 
+ 29köpfig ( ) 
+ 29stündig ( ) 
+ 2:1-sieg ( ) 
+ 2:16-Punkt ( ) 
+ 2:22-Punkt ( ) 
+ 2:4-Punkt ( ) 
+ 2:4-Zähler ( ) 
+ 2:46-Punkt ( ) 
+ 2:6-Punkt ( ) 
+ 2:8-Punkt ( ) 
+ 2-Bit-Mikroprozessor ( ) lemma=32-Bit-Mikroprozessor 
+ 2-Seiten-Hef ( ) lemma=32-Seiten-Heft 
+ 2-Stunden-Woch ( ) lemma=42-Stunden-Woche 
+ 2000-Mark-Schec ( ) lemma=32000-Mark-Scheck 
+ 20000-Einwohner-Stad ( ) lemma=320000-Einwohner-Stadt 
+ 20er-Hürd ( ) lemma=320er-Hürde 
+ 21/9 ( ) lemma=321/91 
+ 23245/4 ( ) lemma=323245/46 
+ 24-Milliarden-Eta ( ) lemma=324-Milliarden-Etat 
+ 29/9 ( ) lemma=429/91 
+ 2er-Fel ( ) lemma=32er-Feld 
+ 2er-Hauptfel ( ) lemma=32er-Hauptfeld 
+ 2fache ( ) lemma=32fach 
+ 2seitig ( ) lemma=32seitig 
+ 2,195-Kilometer-Streck ( ) lemma=42,195-Kilometer-Strecke 
+ 20-Seelen-Gemeind ( ) lemma=420-Seelen-Gemeinde 
+ 22/42 ( ) lemma=422/423 
+ 22/43 ( ) lemma=422/433 
+ 25-Millionen-Mark-Eta ( ) lemma=425-Millionen-Mark-Etat 
+ 285 ( ) lemma=42859 
+ 2zeilige ( ) lemma=42zeilig 
+ 2-Bombe ( ) lemma=52-Bomber 
+ 20-Mark-Basi ( ) lemma=520-Mark-Basis 
+ 200-Einwohner-Gemeind ( ) lemma=5200-Einwohner-Gemeinde 
+ 2:29-Tor ( ) lemma=52:29-Tor 
+ 2tägige ( ) lemma=52tägig 
+ 2-Millionen-Mark-Komple ( ) lemma=62-Millionen-Mark-Komplex 
+ 2-Millionen-Mark-Objek ( ) lemma=62-Millionen-Mark-Objekt 
+ 22-Ring ( ) lemma=622-Ring 
+ 24/3 ( ) lemma=624/33 
+ 24/9 ( ) lemma=624/90 
+ 2-stündige ( ) lemma=72-stündig 
+ 2/1, ( ) lemma=72/1,2 
+ 2/70/72/7 ( ) lemma=72/70/72/73 
+ 2/7 ( ) lemma=72/73 
+ 2/76/70/7 ( ) lemma=72/76/70/74 
+ 2er-Rund ( ) lemma=72er-Runde 
+ 2-kg-Klass ( ) lemma=82-kg-Klasse 
+ 26e ( ) lemma=826er 
+ 2,5-Teile ( ) lemma=92,5-Teiler 
+ 23/9 ( ) lemma=923/90 
+ 24/94 ( ) lemma=924/944 
+ 25/100 ( ) lemma=925/1000 
+ 2er-Defizi ( ) lemma=92er-Defizit 
+ 2er-Ergebni ( ) lemma=92er-Ergebnis 
+ 2-Mac-Nor ( ) lemma=D2-Mac-Norm 
+ 2-Mac-Programm ( ) lemma=D2-Mac-Programm 
+ 2-Missio ( ) lemma=D2-Mission 
+ 2-Net ( ) lemma=D2-Netz 
+ 2O2-Lösun ( ) lemma=H2O2-Lösung 
+ 2S ( ) lemma=H2S- 
+ 2S-Messwert ( ) lemma=H2S-Messwert 
+ 2S-Prüfgasampulle ( ) lemma=H2S-Prüfgasampulle 
+ 2S-Senso ( ) lemma=H2S-Sensor 
+ 2-LS-Senso ( ) lemma=O2-LS-Sensor 
+ 2-Messun ( ) lemma=O2-Messung 
+ 2-Messwert ( ) lemma=O2-Messwert 
+ 2-Sensorkapse ( ) lemma=O2-Sensorkapsel 
+ 2-Verdrängun ( ) lemma=O2-Verdrängung 
+ 2-Gipfe ( ) lemma=U2-Gipfel 

@@ -1127,7 +1127,6 @@ FACT* CreateFastFact(FACTOID_OR_MEANING subject, FACTOID_OR_MEANING verb, FACTOI
 		return NULL;
 	}
 	currentFact = factFree;
-	int index = Fact2Index(currentFact); // for debugging
 
 	//   init the basics
 	memset(currentFact,0,sizeof(FACT));
@@ -1403,7 +1402,7 @@ FACT* ReadFact(char* &ptr, unsigned int build)
 	bool bad = false;
 	bool response = false;
     if (!*ptr || *ptr == ')' ); // end of fact
-	else ptr = ReadFlags(ptr,properties,bad,response);
+	else ptr = ReadFlags(ptr,properties,bad,response,true);
 	flags |= (unsigned int) properties;
 
     if (flags & FACTSUBJECT) subject = (MEANING) atoi(subjectname);

@@ -1,8 +1,8 @@
-ï»¿# ChatScript Multiple Bots Manual
+# ChatScript Multiple Bots Manual
 
-> Â© Bruce Wilcox, gowilcox@gmail.com brilligunderstanding.com 
+> © Bruce Wilcox, gowilcox@gmail.com brilligunderstanding.com 
 
-> Revision 1/28/2017 cs7.12
+> Revision 5/28/2017 cs7.43
 
 
 The system can support multiple bots cohabiting the same engine. You can restrict topics
@@ -135,7 +135,7 @@ when the file or topic ends.
 
 ## Shared Facts
 
-`Share` â€“ Normally, if you have multiple bots, they all talk independently to the
+`Share` – Normally, if you have multiple bots, they all talk independently to the
 user. What one learns or says is not available to the other bots. It is possible to create a
 collection of bots that all can hear what has been said and share information. Share on a
 topic means that all bots will have common access/modification of a topic's state. So if
@@ -150,7 +150,7 @@ common variable. When sharing is in effect, the state with the user (what he sai
 bot said, what turn of the volley this is, where the rejoinder mark is) is all common
 among the bots- they are advancing a joint conversation.
 
-## Restriction of Facts and Functions
+## Fully Independent Bots - Restriction of Facts and Functions
 
 Normally all facts generated during compilation are available to all bots. But you can create facts restricted
 to specific bots. You can have up to 64 different bots controlling different facts. You do this by setting $cs_botid
@@ -183,3 +183,17 @@ You disable ownership rules with
 ```
 bot: 0
 ```
+
+In the build file, you need to compile all bot definition macros and the default bot macro under bot: 0  ownership.
+All other bots can be built independently by using bot ids that are powers of two and unique bot names. 
+```
+bot: 0
+private/Mine/CONTROL/botmacro.top
+private/Mine1/CONTROL/botmacro.top
+private/Mine2/CONTROL/botmacro.top
+bot: 1 John
+private/John/
+bot: 2 Harry
+private/Harry/
+bot: 4 Martha
+private/Martha/

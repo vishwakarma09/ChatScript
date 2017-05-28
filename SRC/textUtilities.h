@@ -87,6 +87,8 @@ extern bool newline;
 extern int numberStyle;
 extern char conditionalCompile[MAX_CONDITIONALS+1][50];
 extern int conditionalCompiledIndex;
+extern char numberComma;
+extern char numberPeriod;
 
 extern bool showBadUTF;
 extern char* userRecordSourceBuffer;
@@ -145,6 +147,7 @@ void BOMAccess(int &BOMvalue, char &oldc, int &oldCurrentLine);
 size_t OutputLimit(unsigned char* data);
 extern int startSentence;
 extern int endSentence;
+extern bool hasHighChar;
 bool IsFraction(char* token);
 // boolean style tests
 bool AdjustUTF8(char* start, char* buffer);
@@ -185,7 +188,7 @@ void InitTextUtilities1();
 bool ReadDocument(char* inBuffer,FILE* sourceFile);
 
 // reading functions
-char* ReadFlags(char* ptr,uint64& flags,bool &bad, bool &response);
+char* ReadFlags(char* ptr,uint64& flags,bool &bad, bool &response, bool factcall = false);
 char* ReadHex(char* ptr, uint64 & value);
 char* ReadInt(char* ptr, int & value);
 char* ReadInt64(char* ptr, int64 & w);

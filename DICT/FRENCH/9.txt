@@ -1,2 +1,4 @@
 ﻿ 9e ( ) 
  9ème ( ) 
+ 9 ( ) lemma=19e 
+ 9èm ( ) lemma=19ème 

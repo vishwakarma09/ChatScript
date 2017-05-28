@@ -211,7 +211,9 @@ int factsJsonHelper(char *jsontext, jsmntok_t *tokens, int tokenlimit, int sizel
 				strcpy(str,(char*)"null");
 				*flags = JSON_STRING_VALUE; // string null
 			}
-			else if (!strcmp(str,(char*)"true") || !strcmp(str,(char*)"false")) {}
+			else if (!strcmp(str,(char*)"true") || !strcmp(str,(char*)"false")) 
+			{
+			}
 			else if (!strncmp(str,(char*)"ja-",3)) 
 			{
 				*flags = JSON_ARRAY_VALUE;
@@ -1732,9 +1734,9 @@ MEANING jsonValue(char* value, unsigned int& flags)
 	}
 	else if (!strnicmp(value,(char*)"jo-",3)) flags |= JSON_OBJECT_VALUE;
 	else if (!strnicmp(value,(char*)"ja-",3))  flags |= JSON_ARRAY_VALUE;
-	else if (!stricmp(value,(char*)"true"))  flags |= JSON_PRIMITIVE_VALUE;
-	else if (!stricmp(value,(char*)"false"))  flags |= JSON_PRIMITIVE_VALUE;
-	else if (!stricmp(value,(char*)"null"))  flags |= JSON_PRIMITIVE_VALUE;
+	else if (!strcmp(value,(char*)"true"))  flags |= JSON_PRIMITIVE_VALUE;
+	else if (!strcmp(value,(char*)"false"))  flags |= JSON_PRIMITIVE_VALUE;
+	else if (!strcmp(value,(char*)"null"))  flags |= JSON_PRIMITIVE_VALUE;
 	else if (!*value)  // empty string treat as null
 	{
 		flags |= JSON_PRIMITIVE_VALUE;
@@ -1858,7 +1860,9 @@ LOOP: // now we look at $x.key or $x[0]
 	{
 		char* answer = GetUserVariable(keyx);
 		strcpy(keyx,answer);
-		if (*keyx == '$') 
+		if (!*keyx) 
+			return FAILRULE_BIT;
+		if (*keyx == '$')
 		{
 			if (trace & TRACE_VARIABLESET) Log(STDTRACELOG,(char*)"JsonVarStillVar: %s.%s\r\n",fullpath,keyx);
 			return FAILRULE_BIT;	// cannot be indirection
@@ -1911,9 +1915,11 @@ LOOP: // now we look at $x.key or $x[0]
 				// perform internal call to function
 				unsigned int oldArgumentBase = callArgumentBase;
 				unsigned int oldArgumentIndex = callArgumentIndex;
+				callArgumentBase = callArgumentIndex;
 				callArgumentBases[callIndex++] = callArgumentIndex - 1; // call stack
 				ARGUMENT(1) = (priorLeftside->word[3] == 't') ? (char*)"transient" : (char*)"permanent";
 				ARGUMENT(2) = "object";
+				callArgumentIndex += 2;
 				JSONCreateCode(loc); // get new object name
 				--callIndex;
 				callArgumentIndex = oldArgumentIndex;
@@ -1932,9 +1938,11 @@ LOOP: // now we look at $x.key or $x[0]
 				// perform internal call to function
 				unsigned int oldArgumentBase = callArgumentBase;
 				unsigned int oldArgumentIndex = callArgumentIndex;
+				callArgumentBase = callArgumentIndex;
 				callArgumentBases[callIndex++] = callArgumentIndex - 1; // call stack
 				ARGUMENT(1) = (priorLeftside->word[3] == 't') ? (char*)"transient" : (char*)"permanent";
 				ARGUMENT(2) = "array";
+				callArgumentIndex += 2;
 				JSONCreateCode(loc); // get new array name
 		
 				leftside = FindWord(loc);
@@ -2023,10 +2031,12 @@ LOOP: // now we look at $x.key or $x[0]
 		// perform internal call to function
 		unsigned int oldArgumentBase = callArgumentBase;
 		unsigned int oldArgumentIndex = callArgumentIndex;
+		callArgumentBase = callArgumentIndex;
 		callArgumentBases[callIndex++] = callArgumentIndex - 1; // call stack
 		ARGUMENT(1) = (leftside->word[3] == 't') ? (char*)"transient unique" : (char*)"permanent unique";
 		ARGUMENT(2) = leftside->word;
 		ARGUMENT(3) = value;
+		callArgumentIndex += 3;
 		char loc[100];
 		JSONArrayInsertCode(loc); // get new object name
 		--callIndex;

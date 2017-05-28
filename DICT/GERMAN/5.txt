@@ -1,4 +1,4 @@
-﻿ 5 ( ) 
+﻿ 5 ( ) lemma=950 
  5%-Hürde ( ) 
  5%-Klausel ( ) 
  5,1 ( ) 
@@ -8,16 +8,15 @@
  5,4 ( ) 
  5,4- ( ) 
  5,4-Prozent-Abschluss ( ) 
- 5,4-Prozent-Abschluß ( ) lemma=5,4-Prozent-Abschluss 
- 5,4prozentige ( ) lemma=5,4prozentig 
- 5,4prozentig ( ) 
+ 5,4-Prozent-Abschluß ( ) 
+ 5,4prozentige ( ) 
  5,5 ( ) 
  5,5-Prozent-Partei ( ) 
  5,6-Millionen-Projekt ( ) 
  5,7 ( ) 
  5,9 ( ) 
  5,9-Millionen-Einwohner-Stadt ( ) 
- 5- ( ) 
+ 5- ( ) lemma=45-A 
  5-A ( ) 
  5-Abfahrt ( ) 
  5-Chef ( ) 
@@ -29,20 +28,18 @@
  5-Jahres- ( ) 
  5-Konzept ( ) 
  5-Liter- ( ) 
- 5-Liter-grosse ( ) lemma=5-Liter-groß 
- 5-Liter-groß ( ) 
- 5-Liter-große ( ) lemma=5-Liter-groß 
+ 5-Liter-grosse ( ) 
+ 5-Liter-große ( ) 
  5-Mark-Schein ( ) 
  5-Mark-Stück ( ) 
  5-Milliarden-Kredit ( ) 
  5-Millionen- ( ) 
- 5-Minuten-Takt ( ) 
+ 5-Minuten-Takt ( ) lemma=15-Minuten-Takt 
  5-Minuten-Terrine ( ) 
- 5-Minuten-Terrinen ( ) lemma=5-Minuten-Terrine 
- 5-Nachfolgers ( ) lemma=5-Nachfolger 
- 5-Nachfolger ( ) 
+ 5-Minuten-Terrinen ( ) 
+ 5-Nachfolgers ( ) 
  5-Nanogramm-Wert ( ) 
- 5-Prozent ( ) 
+ 5-Prozent ( ) lemma=55-Prozent- 
  5-Prozent- ( ) 
  5-Prozent-Hürde ( ) 
  5-Prozent-Klausel ( ) 
@@ -54,26 +51,22 @@
  5-Rückumschlag ( ) 
  5-Schein ( ) 
  5-Sterne-Hotel ( ) 
- 5-Sterne-Hotels ( ) lemma=5-Sterne-Hotel 
+ 5-Sterne-Hotels ( ) 
  5-Tage-Fahrt ( ) 
  5-Tage-Woche ( ) 
  5-Uhr-Tee ( ) 
- 5-Umschlages ( ) lemma=5-Umschlag 
- 5-Umschlag ( ) 
+ 5-Umschlages ( ) 
  5-Verlängerung ( ) 
  5-Zentner-Blindgänger ( ) 
  5-Zentner-Bombe ( ) 
- 5-Zoll-Gleisen ( ) lemma=5-Zoll-Gleis 
- 5-Zoll-Gleis ( ) 
- 5-fachem ( ) lemma=5-fach 
- 5-fach ( ) 
- 5-facher ( ) lemma=5-fach 
+ 5-Zoll-Gleisen ( ) 
+ 5-fachem ( ) 
+ 5-facher ( ) 
  5-km-Gehen ( ) 
  5-km-Sprint ( ) 
- 5-km-Strassengehen ( ) lemma=5-km-Straßengehen 
+ 5-km-Strassengehen ( ) 
  5-km-Straßengehen ( ) 
- 5-sprachiges ( ) lemma=5-sprachig 
- 5-sprachig ( ) 
+ 5-sprachiges ( ) 
  5. ( ) 
  5./6. ( ) 
  5.000-Einwohner- ( ) 
@@ -87,24 +80,21 @@
  5.000-Seelen-Ort ( ) 
  5.000er ( ) 
  5.000fach ( ) 
- 5.000jährige ( ) lemma=5.000jährig 
- 5.000jährig ( ) 
- 5.000köpfige ( ) lemma=5.000köpfig 
- 5.000köpfig ( ) 
- 5.500köpfigen ( ) lemma=5.500köpfig 
- 5.500köpfig ( ) 
- 5/1 ( ) 
+ 5.000jährige ( ) 
+ 5.000köpfige ( ) 
+ 5.500köpfigen ( ) 
+ 5/1 ( ) lemma=25/13 
  5/100 ( ) 
  5/1992 ( ) 
- 5/2 ( ) 
+ 5/2 ( ) lemma=25/27 
  5/250 ( ) 
- 5/3 ( ) 
+ 5/3 ( ) lemma=35/37 
  5/3/4 ( ) 
- 5/4 ( ) 
+ 5/4 ( ) lemma=45/47 
  5/435 ( ) 
- 5/5 ( ) 
- 5/6 ( ) 
- 5/8 ( ) 
+ 5/5 ( ) lemma=55/57 
+ 5/6 ( ) lemma=65/66 
+ 5/8 ( ) lemma=85/89 
  5/85 ( ) 
  5/88 ( ) 
  5/89 ( ) 
@@ -112,80 +102,70 @@
  5/91 ( ) 
  5/92 ( ) 
  5/93 ( ) 
- 50 ( ) 
+ 50 ( ) lemma=9500 
  50- ( ) 
  50-A ( ) 
  50-DM ( ) 
  50-DM- ( ) 
  50-DM-Aktie ( ) 
- 50-DM-Aktien ( ) lemma=50-DM-Aktie 
+ 50-DM-Aktien ( ) 
  50-DM-Papier ( ) 
  50-DM-Stamm- ( ) 
  50-DM-Stammaktie ( ) 
- 50-DM-Stammaktien ( ) lemma=50-DM-Stammaktie 
+ 50-DM-Stammaktien ( ) 
  50-DM-Vorzugsaktie ( ) 
- 50-Dollar-Blüten ( ) lemma=50-Dollar-Blüte 
- 50-Dollar-Blüte ( ) 
- 50-Dollar-Noten ( ) lemma=50-Dollar-Note 
- 50-Dollar-Note ( ) 
- 50-Dollar-Scheine ( ) lemma=50-Dollar-Schein 
- 50-Dollar-Schein ( ) 
+ 50-Dollar-Blüten ( ) 
+ 50-Dollar-Noten ( ) 
+ 50-Dollar-Scheine ( ) 
  50-Hektar-Betrieb ( ) 
- 50-Jahr-Feier ( ) 
+ 50-Jahr-Feier ( ) lemma=750-Jahr-feier 
  50-Kilo-Bombe ( ) 
  50-Kilo-Fliegerbombe ( ) 
  50-Kilo-Sack ( ) 
  50-Kilometer-Projekt ( ) 
- 50-Kronen-Noten ( ) lemma=50-Kronen-Note 
- 50-Kronen-Note ( ) 
+ 50-Kronen-Noten ( ) 
  50-Liter- ( ) 
  50-Liter-Behälter ( ) 
  50-Liter-Eimer ( ) 
- 50-Liter-Eimern ( ) lemma=50-Liter-Eimer 
+ 50-Liter-Eimern ( ) 
  50-Liter-Sack ( ) 
  50-Liter-Tonne ( ) 
- 50-Liter-Tonnen ( ) lemma=50-Liter-Tonne 
+ 50-Liter-Tonnen ( ) 
  50-Mann-Betrieb ( ) 
- 50-Mann-Betriebs ( ) lemma=50-Mann-Betrieb 
+ 50-Mann-Betriebs ( ) 
  50-Mark ( ) 
  50-Mark- ( ) 
  50-Mark-Aktie ( ) 
  50-Mark-Miete ( ) 
  50-Mark-Schein ( ) 
- 50-Mark-Scheine ( ) lemma=50-Mark-Schein 
- 50-Mark-Schritten ( ) lemma=50-Mark-Schritt 
- 50-Mark-Schritt ( ) 
+ 50-Mark-Scheine ( ) 
+ 50-Mark-Schritten ( ) 
  50-Megawatt-Reaktor ( ) 
- 50-Meter ( ) 
+ 50-Meter ( ) lemma=150-Meter- 
  50-Meter- ( ) 
  50-Meter-Bahn ( ) 
- 50-Meter-Bahnen ( ) lemma=50-Meter-Bahn 
+ 50-Meter-Bahnen ( ) 
  50-Meter-Becken ( ) 
- 50-Meter-Krans ( ) lemma=50-Meter-Kran 
- 50-Meter-Kran ( ) 
+ 50-Meter-Krans ( ) 
  50-Meter-Lauf ( ) 
  50-Meter-Pass ( ) 
- 50-Meter-Paß ( ) lemma=50-Meter-Pass 
- 50-Meter-Rutsche ( ) lemma=50-Meter-Rutsch 
- 50-Meter-Rutsch ( ) 
+ 50-Meter-Paß ( ) 
+ 50-Meter-Rutsche ( ) 
  50-Meter-Rückenschwimmen ( ) 
  50-Meter-Sportbecken ( ) 
  50-Meter-Sprung ( ) 
  50-Milliarden-Projekt ( ) 
- 50-Millionen ( ) lemma=50-Million 
- 50-Million ( ) 
+ 50-Millionen ( ) lemma=850-Millionen- 
  50-Millionen- ( ) 
  50-Millionen-Angebot ( ) 
  50-Millionen-Dinar-Schein ( ) 
  50-Millionen-Mark-Projekt ( ) 
  50-Millionen-Projekt ( ) 
  50-Millionen-Umsatz ( ) 
- 50-Minuten-Filmen ( ) lemma=50-Minuten-Film 
- 50-Minuten-Film ( ) 
- 50-Pfennig-Comics ( ) lemma=50-Pfennig-Comic 
- 50-Pfennig-Comic ( ) 
+ 50-Minuten-Filmen ( ) 
+ 50-Pfennig-Comics ( ) 
  50-Pfennig-Stück ( ) 
- 50-Pfennig-Stücke ( ) lemma=50-Pfennig-Stück 
+ 50-Pfennig-Stücke ( ) 
  50-Prozent ( ) 
  50-Prozent- ( ) 
  50-Prozent-Anteil ( ) 
@@ -196,16 +176,15 @@
  50-Prozent-Mehrheit ( ) 
  50-Prozent-Paket ( ) 
  50-Prozent-Quote ( ) 
- 50-Prozent-Quoten ( ) lemma=50-Prozent-Quote 
+ 50-Prozent-Quoten ( ) 
  50-Prozent-Schwelle ( ) 
  50-Prozent-Zuschuss ( ) 
- 50-Prozent-Zuschuß ( ) lemma=50-Prozent-Zuschuss 
+ 50-Prozent-Zuschuß ( ) 
  50-Quadratmeter- ( ) 
  50-Sekunden-Takt ( ) 
  50-Teiler ( ) 
  50-Tore-Grenze ( ) 
- 50-jährige ( ) lemma=50-jährig 
- 50-jährig ( ) 
+ 50-jährige ( ) lemma=750-jährig 
  50-kg-Schlaghammer ( ) 
  50-km- ( ) 
  50-km-Einzelzeitfahren ( ) 
@@ -217,62 +196,49 @@
  50-m-Lauf ( ) 
  50.000-Einwohner-Grenze ( ) 
  50.000-Einwohner-Stadt ( ) 
- 50.000-Einwohner-Städtchens ( ) lemma=50.000-Einwohner-Städtchen 
- 50.000-Einwohner-Städtchen ( ) 
+ 50.000-Einwohner-Städtchens ( ) 
  50.000-Mark-Goldschatz ( ) 
- 50.000fache ( ) lemma=50.000fach 
- 50.000fach ( ) 
+ 50.000fache ( ) 
  50/50 ( ) 
  50/50-Regelung ( ) 
  50/51 ( ) 
  50/60 ( ) 
  50/87 ( ) 
- 500 ( ) 
+ 500 ( ) lemma=35000 
  500- ( ) 
  500-Betten-Hotel ( ) 
  500-Gramm-Pfandglas ( ) 
  500-Jahr- ( ) 
  500-Jahr-Feier ( ) 
- 500-Jahr-Feierlichkeiten ( ) lemma=500-Jahr-Feierlichkeit 
- 500-Jahr-Feierlichkeit ( ) 
- 500-Jahr-Feiern ( ) lemma=500-Jahr-feier 
- 500-Jahr-feier ( ) 
+ 500-Jahr-Feierlichkeiten ( ) 
+ 500-Jahr-Feiern ( ) 
  500-Jahr-Jubiläum ( ) 
  500-Jahre- ( ) 
- 500-Jahres ( ) lemma=500-Jahr 
- 500-Jahr ( ) 
- 500-Jahres-Feiern ( ) lemma=500-Jahres-feier 
- 500-Jahres-feier ( ) 
+ 500-Jahres ( ) 
+ 500-Jahres-Feiern ( ) 
  500-Jahres-Stiftung ( ) 
  500-Jahrfeier ( ) 
- 500-Kilo-Bomben ( ) lemma=500-Kilo-Bombe 
- 500-Kilo-Bombe ( ) 
+ 500-Kilo-Bomben ( ) 
  500-Kilowatt-Anlage ( ) 
  500-Liter-Tonne ( ) 
  500-Mark-Basis ( ) 
- 500-Mark-Raten ( ) lemma=500-Mark-Rate 
- 500-Mark-Rate ( ) 
+ 500-Mark-Raten ( ) 
  500-Mark-Schein ( ) 
- 500-Mark-Scheine ( ) lemma=500-Mark-Schein 
- 500-Mark-Scheinen ( ) lemma=500-Mark-Schein 
- 500-Mark-Scheins ( ) lemma=500-Mark-Schein 
- 500-Megawatt-Blöcke ( ) lemma=500-Megawatt-Block 
- 500-Megawatt-Block ( ) 
- 500-Megawatt-Steinkohlekraftwerks ( ) lemma=500-Megawatt-Steinkohlekraftwerk 
- 500-Megawatt-Steinkohlekraftwerk ( ) 
+ 500-Mark-Scheine ( ) 
+ 500-Mark-Scheinen ( ) 
+ 500-Mark-Scheins ( ) 
+ 500-Megawatt-Blöcke ( ) 
+ 500-Megawatt-Steinkohlekraftwerks ( ) 
  500-Meter-Distanz ( ) 
- 500-Meter-Korridors ( ) lemma=500-Meter-Korridor 
- 500-Meter-Korridor ( ) 
+ 500-Meter-Korridors ( ) 
  500-Meter-Strecke ( ) 
  500-Milliarden-Sparprogramm ( ) 
- 500-Millionen ( ) lemma=500-Million 
- 500-Million ( ) 
+ 500-Millionen ( ) 
  500-Millionen- ( ) 
  500-Millionen-Dollar-Kredit ( ) 
  500-Millionen-Mark-Projekt ( ) 
- 500-Millionen-Mark-Projekts ( ) lemma=500-Millionen-Mark-Projekt 
- 500-Millionen-Projektes ( ) lemma=500-Millionen-Projekt 
- 500-Millionen-Projekt ( ) 
+ 500-Millionen-Mark-Projekts ( ) 
+ 500-Millionen-Projektes ( ) 
  500-Millionen-Sozialplan ( ) 
  500-Pfund-Bombe ( ) 
  500-Seelen- ( ) 
@@ -282,29 +248,26 @@
  500-Seiten-Wälzer ( ) 
  500-Tage- ( ) 
  500-Tage-Plan ( ) 
- 500-Tage-Planes ( ) lemma=500-Tage-Plan 
- 500-Tage-Plans ( ) lemma=500-Tage-Plan 
+ 500-Tage-Planes ( ) 
+ 500-Tage-Plans ( ) 
  500-Tage-Programm ( ) 
- 500-Tage-Programms ( ) lemma=500-Tage-Programm 
+ 500-Tage-Programms ( ) 
  500-Watt-Sender ( ) 
  500-ccm-Klasse ( ) 
  500-g-Joghurt ( ) 
- 500-jährigen ( ) lemma=500-jährig 
- 500-jährig ( ) 
+ 500-jährigen ( ) 
  500-m-Distanz ( ) 
  500. ( ) 
  500.000-Dollar- ( ) 
  500.000-Einwohner ( ) 
  500.000-Einwohner-Stadt ( ) 
- 5000 ( ) 
- 5000-Analysen ( ) lemma=5000-Analyse 
- 5000-Analyse ( ) 
+ 5000 ( ) lemma=650000 
+ 5000-Analysen ( ) 
  5000-Einwohner-Gemeinde ( ) 
  5000-Einwohner-Stadt ( ) 
  5000-Gefäß ( ) 
  5000-Gefäßöffnung ( ) 
- 5000-Grenzwert-Konzentrationen ( ) lemma=5000-Grenzwert-Konzentration 
- 5000-Grenzwert-Konzentration ( ) 
+ 5000-Grenzwert-Konzentrationen ( ) 
  5000-Kubikmeter-Hochbehälter ( ) 
  5000-Mark-Preis ( ) 
  5000-Mark-Spende ( ) 
@@ -325,74 +288,62 @@
  50000-Einwohner-Stadt ( ) 
  5000er ( ) 
  5000fach ( ) 
- 5000jährigen ( ) lemma=5000jährig 
- 5000jährig ( ) 
+ 5000jährigen ( ) 
  500er ( ) 
  500er-Kontingent ( ) 
- 500ern ( ) lemma=500er 
+ 500ern ( ) 
  500fach ( ) 
- 500fache ( ) lemma=500fach 
- 500fachen ( ) lemma=500fach 
- 500jährige ( ) lemma=500jährig 
- 500jährig ( ) 
- 500jährigen ( ) lemma=500jährig 
- 500jähriger ( ) lemma=500jährig 
- 500jähriges ( ) lemma=500jährig 
- 500köpfige ( ) lemma=500köpfig 
- 500köpfig ( ) 
- 500köpfigen ( ) lemma=500köpfig 
+ 500fache ( ) 
+ 500fachen ( ) 
+ 500jährige ( ) 
+ 500jährigen ( ) 
+ 500jähriger ( ) 
+ 500jähriges ( ) 
+ 500köpfige ( ) 
+ 500köpfigen ( ) 
  500mal ( ) 
- 500prozentigen ( ) lemma=500prozentig 
- 500prozentig ( ) 
+ 500prozentigen ( ) 
  501-Jeans ( ) 
- 501-Programmes ( ) lemma=501-Programm 
- 501-Programm ( ) 
+ 501-Programmes ( ) 
  5019/91 ( ) 
  507/11 ( ) 
  507/92 ( ) 
  50:50-Beteiligung ( ) 
  50:50-Tochter ( ) 
- 50er ( ) 
+ 50er ( ) lemma=250er 
  50er- ( ) 
- 50er-Jahre ( ) lemma=50er-Jahr 
- 50er-Jahr ( ) 
+ 50er-Jahre ( ) 
  50er-Jahre- ( ) 
  50er-Jahre-Bau ( ) 
- 50er-Jahre-Bauten ( ) lemma=50er-Jahre-Bau 
+ 50er-Jahre-Bauten ( ) 
  50er-Jahre-Design ( ) 
- 50er-Jahre-Designs ( ) lemma=50er-Jahre-Design 
+ 50er-Jahre-Designs ( ) 
  50er-Jahre-Flair ( ) 
  50er-Jahre-Nostalgie ( ) 
- 50er-Jahre-Schnulzen ( ) lemma=50er-Jahre-Schnulze 
- 50er-Jahre-Schnulze ( ) 
+ 50er-Jahre-Schnulzen ( ) 
  50er-Jahre-Stil ( ) 
- 50ern ( ) lemma=50er 
- 50fach ( ) 
- 50fache ( ) lemma=50fach 
- 50fachen ( ) lemma=50fach 
- 50facher ( ) lemma=50fach 
- 50jährig ( ) 
- 50jährige ( ) lemma=50jährig 
- 50jährigem ( ) lemma=50jährig 
- 50jährigen ( ) lemma=50jährig 
- 50jähriger ( ) lemma=50jährig 
- 50jähriges ( ) lemma=50jährig 
- 50köpfige ( ) lemma=50köpfig 
- 50köpfig ( ) 
- 50köpfigen ( ) lemma=50köpfig 
+ 50ern ( ) 
+ 50fach ( ) lemma=150fach 
+ 50fache ( ) lemma=150fach 
+ 50fachen ( ) 
+ 50facher ( ) 
+ 50jährig ( ) lemma=850jährig 
+ 50jährige ( ) lemma=850jährig 
+ 50jährigem ( ) 
+ 50jährigen ( ) 
+ 50jähriger ( ) 
+ 50jähriges ( ) 
+ 50köpfige ( ) lemma=450köpfig 
+ 50köpfigen ( ) 
  50mal ( ) 
- 50maliges ( ) lemma=50malig 
- 50malig ( ) 
- 50prozentige ( ) lemma=50prozentig 
- 50prozentig ( ) 
- 50prozentigem ( ) lemma=50prozentig 
- 50prozentigen ( ) lemma=50prozentig 
- 50prozentiger ( ) lemma=50prozentig 
- 50prozentiges ( ) lemma=50prozentig 
- 50sitzigen ( ) lemma=50sitzig 
- 50sitzig ( ) 
- 50stündigen ( ) lemma=50stündig 
- 50stündig ( ) 
+ 50maliges ( ) 
+ 50prozentige ( ) lemma=150prozentig 
+ 50prozentigem ( ) 
+ 50prozentigen ( ) 
+ 50prozentiger ( ) 
+ 50prozentiges ( ) 
+ 50sitzigen ( ) 
+ 50stündigen ( ) 
  51- ( ) 
  51-Prozent-Anteil ( ) 
  51-Prozent-Beteiligung ( ) 
@@ -409,21 +360,17 @@
  51:49-Schätzung ( ) 
  51er ( ) 
  51jährig ( ) 
- 51jährige ( ) lemma=51jährig 
- 51jährigen ( ) lemma=51jährig 
- 51jähriger ( ) lemma=51jährig 
- 51köpfigen ( ) lemma=51köpfig 
- 51köpfig ( ) 
- 51prozentige ( ) lemma=51prozentig 
- 51prozentig ( ) 
- 51prozentigen ( ) lemma=51prozentig 
- 51tägige ( ) lemma=51tägig 
- 51tägig ( ) 
+ 51jährige ( ) lemma=151jährig 
+ 51jährigen ( ) 
+ 51jähriger ( ) 
+ 51köpfigen ( ) 
+ 51prozentige ( ) 
+ 51prozentigen ( ) 
+ 51tägige ( ) 
  52 ( ) 
  52-Bomber ( ) 
- 52-jährige ( ) lemma=52-jährig 
- 52-jährig ( ) 
- 52-jährigen ( ) lemma=52-jährig 
+ 52-jährige ( ) 
+ 52-jährigen ( ) 
  52. ( ) 
  52/2 ( ) 
  52/53 ( ) 
@@ -431,50 +378,39 @@
  520-Mark-Basis ( ) 
  5200-Einwohner-Gemeinde ( ) 
  525 ( ) 
- 52:29-Tore ( ) lemma=52:29-Tor 
- 52:29-Tor ( ) 
+ 52:29-Tore ( ) 
  52er ( ) 
  52er- ( ) 
- 52fache ( ) lemma=52fach 
- 52fach ( ) 
+ 52fache ( ) 
  52jährig ( ) 
- 52jährige ( ) lemma=52jährig 
- 52jährigen ( ) lemma=52jährig 
- 52jähriger ( ) lemma=52jährig 
- 52köpfigen ( ) lemma=52köpfig 
- 52köpfig ( ) 
- 52prozentige ( ) lemma=52prozentig 
- 52prozentig ( ) 
- 52prozentigen ( ) lemma=52prozentig 
- 52teilige ( ) lemma=52teilig 
- 52teilig ( ) 
- 52tägigen ( ) lemma=52tägig 
- 52tägig ( ) 
+ 52jährige ( ) 
+ 52jährigen ( ) 
+ 52jähriger ( ) 
+ 52köpfigen ( ) 
+ 52prozentige ( ) 
+ 52prozentigen ( ) 
+ 52teilige ( ) 
+ 52tägigen ( ) 
  53 ( ) 
  53-Millionen-Mark-Projekt ( ) 
- 53-jährigen ( ) lemma=53-jährig 
- 53-jährig ( ) 
+ 53-jährigen ( ) 
  53/1 ( ) 
  53/2 ( ) 
  53/56 ( ) 
  53/67 ( ) 
  53/92 ( ) 
- 530-Mark-Jobs ( ) lemma=530-Mark-Job 
- 530-Mark-Job ( ) 
- 530-Mark-Kräfte ( ) lemma=530-Mark-Kraft 
- 530-Mark-Kraft ( ) 
+ 530-Mark-Jobs ( ) 
+ 530-Mark-Kräfte ( ) 
  538/2 ( ) 
  538/90 ( ) 
  539000 ( ) 
  53er ( ) 
  53jährig ( ) 
- 53jährige ( ) lemma=53jährig 
- 53jährigen ( ) lemma=53jährig 
- 53jähriger ( ) lemma=53jährig 
- 53prozentigem ( ) lemma=53prozentig 
- 53prozentig ( ) 
- 53tägigen ( ) lemma=53tägig 
- 53tägig ( ) 
+ 53jährige ( ) 
+ 53jährigen ( ) 
+ 53jähriger ( ) 
+ 53prozentigem ( ) 
+ 53tägigen ( ) 
  54 ( ) 
  54-Tonreihe ( ) 
  54/55 ( ) 
@@ -483,15 +419,13 @@
  540 ( ) 
  54er ( ) 
  54jährig ( ) 
- 54jährige ( ) lemma=54jährig 
- 54jährigen ( ) lemma=54jährig 
- 54jähriger ( ) lemma=54jährig 
- 54köpfige ( ) lemma=54köpfig 
- 54köpfig ( ) 
- 54köpfigen ( ) lemma=54köpfig 
+ 54jährige ( ) 
+ 54jährigen ( ) 
+ 54jähriger ( ) 
+ 54köpfige ( ) 
+ 54köpfigen ( ) 
  54mal ( ) 
- 54stündigen ( ) lemma=54stündig 
- 54stündig ( ) 
+ 54stündigen ( ) 
  55,3-Teiler ( ) 
  55- ( ) 
  55-Mark-Schein ( ) 
@@ -507,14 +441,12 @@
  55er ( ) 
  55er- ( ) 
  55jährig ( ) 
- 55jährige ( ) lemma=55jährig 
- 55jährigen ( ) lemma=55jährig 
- 55jähriger ( ) lemma=55jährig 
- 55köpfige ( ) lemma=55köpfig 
- 55köpfig ( ) 
- 55prozentige ( ) lemma=55prozentig 
- 55prozentig ( ) 
- 55prozentigen ( ) lemma=55prozentig 
+ 55jährige ( ) lemma=155jährig 
+ 55jährigen ( ) 
+ 55jähriger ( ) 
+ 55köpfige ( ) 
+ 55prozentige ( ) 
+ 55prozentigen ( ) 
  56 ( ) 
  56,5- ( ) 
  56-Kilo-Mann ( ) 
@@ -523,26 +455,21 @@
  56/58 ( ) 
  56/88 ( ) 
  560-Mark-Job ( ) 
- 560-Mark-Jobs ( ) lemma=560-Mark-Job 
+ 560-Mark-Jobs ( ) 
  560er ( ) 
- 560stündigen ( ) lemma=560stündig 
- 560stündig ( ) 
+ 560stündigen ( ) 
  561/89 ( ) 
  565/93 ( ) 
  569/92 ( ) 
  56er ( ) 
- 56fachen ( ) lemma=56fach 
- 56fach ( ) 
- 56jährige ( ) lemma=56jährig 
- 56jährig ( ) 
- 56jährigen ( ) lemma=56jährig 
- 56jähriger ( ) lemma=56jährig 
- 57,5-Millionen-Mark-Komplexes ( ) lemma=57,5-Millionen-Mark-Komplex 
- 57,5-Millionen-Mark-Komplex ( ) 
+ 56fachen ( ) 
+ 56jährige ( ) 
+ 56jährigen ( ) 
+ 56jähriger ( ) 
+ 57,5-Millionen-Mark-Komplexes ( ) 
  57-Kilo-Klasse ( ) 
- 57-jährige ( ) lemma=57-jährig 
- 57-jährig ( ) 
- 57-jährigen ( ) lemma=57-jährig 
+ 57-jährige ( ) 
+ 57-jährigen ( ) 
  57-kg-Klasse ( ) 
  57. ( ) 
  57/58 ( ) 
@@ -553,18 +480,16 @@
  576/92 ( ) 
  57er ( ) 
  57er-Bus ( ) 
- 57er-Busses ( ) lemma=57er-Bus 
+ 57er-Busses ( ) 
  57jährig ( ) 
- 57jährige ( ) lemma=57jährig 
- 57jährigen ( ) lemma=57jährig 
- 57jähriger ( ) lemma=57jährig 
- 57jähriges ( ) lemma=57jährig 
- 57köpfigen ( ) lemma=57köpfig 
- 57köpfig ( ) 
+ 57jährige ( ) 
+ 57jährigen ( ) 
+ 57jähriger ( ) 
+ 57jähriges ( ) 
+ 57köpfigen ( ) 
  58,5 ( ) 
  58-Millionen-Mark-Brücke ( ) 
- 58-jährige ( ) lemma=58-jährig 
- 58-jährig ( ) 
+ 58-jährige ( ) 
  58/59 ( ) 
  58/91 ( ) 
  5800 ( ) 
@@ -575,11 +500,10 @@
  58er-Bus ( ) 
  58er-Regelung ( ) 
  58jährig ( ) 
- 58jährige ( ) lemma=58jährig 
- 58jährigen ( ) lemma=58jährig 
- 58jähriger ( ) lemma=58jährig 
- 58prozentige ( ) lemma=58prozentig 
- 58prozentig ( ) 
+ 58jährige ( ) 
+ 58jährigen ( ) 
+ 58jähriger ( ) 
+ 58prozentige ( ) 
  59 ( ) 
  59/2 ( ) 
  59/3 ( ) 
@@ -587,15 +511,13 @@
  590/92 ( ) 
  59er ( ) 
  59jährig ( ) 
- 59jährige ( ) lemma=59jährig 
- 59jährigen ( ) lemma=59jährig 
- 59jähriger ( ) lemma=59jährig 
- 59köpfigen ( ) lemma=59köpfig 
- 59köpfig ( ) 
+ 59jährige ( ) 
+ 59jährigen ( ) 
+ 59jähriger ( ) 
+ 59köpfigen ( ) 
  5:0-Endstand ( ) 
  5:0-Erfolg ( ) 
- 5:0-Punkten ( ) lemma=5:0-Punkt 
- 5:0-Punkt ( ) 
+ 5:0-Punkten ( ) 
  5:0-Sieg ( ) 
  5:1-Arbeitssieg ( ) 
  5:1-Auswärtserfolg ( ) 
@@ -603,14 +525,12 @@
  5:1-Endstand ( ) 
  5:1-Erfolg ( ) 
  5:1-Führung ( ) 
- 5:1-Punkte ( ) lemma=5:1-Punkt 
- 5:1-Punkt ( ) 
- 5:1-Punkten ( ) lemma=5:1-Punkt 
+ 5:1-Punkte ( ) lemma=15:1-Punkt 
+ 5:1-Punkten ( ) 
  5:1-Sieg ( ) 
  5:1-Triumph ( ) 
  5:10-Rückstand ( ) 
- 5:13-Punkten ( ) lemma=5:13-Punkt 
- 5:13-Punkt ( ) 
+ 5:13-Punkten ( ) 
  5:2-Endstand ( ) 
  5:2-Erfolg ( ) 
  5:2-Führung ( ) 
@@ -620,8 +540,7 @@
  5:3-Endstand ( ) 
  5:3-Erfolg ( ) 
  5:3-Führung ( ) 
- 5:3-Punkte ( ) lemma=5:3-Punkt 
- 5:3-Punkt ( ) 
+ 5:3-Punkte ( ) 
  5:3-Sieg ( ) 
  5:3-Überzahlspiel ( ) 
  5:4 ( ) 
@@ -631,24 +550,387 @@
  5:4-Überzahlspiel ( ) 
  5:6-Niederlage ( ) 
  5:7-Niederlage ( ) 
- 5:7-Punkten ( ) lemma=5:7-Punkt 
- 5:7-Punkt ( ) 
+ 5:7-Punkten ( ) 
  5:7-Rückstand ( ) 
- 5:7-Zähler ( ) 
+ 5:7-Zähler ( ) lemma=15:7-Zähler 
  5:8-Niederlage ( ) 
  5:9-Niederlage ( ) 
- 5er ( ) 
+ 5er ( ) lemma=55er- 
  5er- ( ) 
  5er-Reihe ( ) 
- 5geschossigen ( ) lemma=5geschossig 
- 5geschossig ( ) 
- 5jährige ( ) lemma=5jährig 
- 5jährig ( ) 
- 5jährigen ( ) lemma=5jährig 
- 5jähriger ( ) lemma=5jährig 
- 5jähriges ( ) lemma=5jährig 
- 5prozentige ( ) lemma=5prozentig 
- 5prozentig ( ) 
- 5teiligen ( ) lemma=5teilig 
- 5teilig ( ) 
+ 5geschossigen ( ) 
+ 5jährige ( ) lemma=95jährig 
+ 5jährigen ( ) 
+ 5jähriger ( ) 
+ 5jähriges ( ) 
+ 5prozentige ( ) lemma=95prozentig 
+ 5teiligen ( ) 
  5x50-m-Pendel-Hindernis-Staffel ( ) 
+ 5/0 ( ) lemma=05/07 
+ 5/ ( ) lemma=95/6 
+ 511/2 ( ) lemma=0511/28 
+ 511/348191 ( ) lemma=0511/3481917 
+ 511/700015 ( ) lemma=0511/7000153 
+ 511/88323 ( ) lemma=0511/883232 
+ 541/2 ( ) lemma=0541/20 
+ 561/77003 ( ) lemma=0561/770034 
+ 561/77984 ( ) lemma=0561/779847 
+ 571/2945 ( ) lemma=0571/29456 
+ 5e ( ) lemma=95er 
+ 5,5prozentig ( ) lemma=15,5prozentig 
+ 5, ( ) lemma=45,1 
+ 5-Betten-Klini ( ) lemma=15-Betten-Klinik 
+ 5-Jahr-Feie ( ) lemma=75-Jahr-Feier 
+ 5-Jahrfeie ( ) lemma=25-Jahrfeier 
+ 5-Kilometer ( ) lemma=15-Kilometer- 
+ 5-Kilometer-Distan ( ) lemma=15-Kilometer-Distanz 
+ 5-Lände ( ) lemma=15-Land 
+ 5-Mark-Tasche ( ) lemma=15-Mark-Tasche 
+ 5-Meter-Klass ( ) lemma=15-Meter-Klasse 
+ 5-Meter-Rennklass ( ) lemma=15-Meter-Rennklasse 
+ 5-Millionen-Bevölkerun ( ) lemma=15-Millionen-Bevölkerung 
+ 5-Millionen-Mark-Zuschus ( ) lemma=15-Millionen-Mark-Zuschuss 
+ 5-Millionen-Mark-Zuschu� ( ) lemma=15-Millionen-Mark-Zuschuss 
+ 5-Millionen-Projek ( ) lemma=35-Millionen-Projekt 
+ 5-Millionen-Stad ( ) lemma=15-Millionen-Stadt 
+ 5-Minuten ( ) lemma=45-Minuten- 
+ 5-Minuten-Interview ( ) lemma=15-Minuten-Interview 
+ 5-Minuten-Tak ( ) lemma=45-Minuten-Takt 
+ 5-Minuten-Takte ( ) lemma=15-Minuten-Takt 
+ 5-Minuten-Verkeh ( ) lemma=15-Minuten-Verkehr 
+ 5-Prozent-Mark ( ) lemma=75-Prozent-Marke 
+ 5-Prozent-Regelun ( ) lemma=25-Prozent-Regelung 
+ 5-Punkte ( ) lemma=15-Punkte- 
+ 5-Punkte-Katalo ( ) lemma=15-Punkte-Katalog 
+ 5-Punkte-Papie ( ) lemma=15-Punkte-Papier 
+ 5-Punkte-Program ( ) lemma=25-Punkte-Programm 
+ 5-Quadratmeter-Zimme ( ) lemma=15-Quadratmeter-Zimmer 
+ 5-Stunden-Jo ( ) lemma=15-Stunden-Job 
+ 5-Stunden-Ta ( ) lemma=15-Stunden-Tag 
+ 5-Stunden-Tag ( ) lemma=15-Stunden-Tag 
+ 5-Uhr-Spiele ( ) lemma=15-Uhr-Spiel 
+ 5-Uhr-Vorstellun ( ) lemma=15-Uhr-Vorstellung 
+ 5-jährig ( ) lemma=45-jährig 
+ 5-jährige ( ) lemma=35-jährig 
+ 5-km ( ) lemma=15-km- 
+ 5-km-Langlau ( ) lemma=15-km-Langlauf 
+ 5-km-Lau ( ) lemma=15-km-Lauf 
+ 5-km-Renne ( ) lemma=15-km-Rennen 
+ 5-km-Sie ( ) lemma=15-km-Sieg 
+ 5-köpfig ( ) lemma=25-köpfig 
+ 5-köpfige ( ) lemma=15-köpfig 
+ 5-m-Rennklass ( ) lemma=15-m-Rennklasse 
+ 5.00 ( ) lemma=15.00- 
+ 5.000köpfig ( ) lemma=15.000köpfig 
+ 5.0 ( ) lemma=15.05 
+ 5/9 ( ) lemma=95/96 
+ 50,0/177, ( ) lemma=150,0/177,5 
+ 50-Jahr-Feie ( ) lemma=950-Jahr-Feier 
+ 50-Jahr-Jubiläu ( ) lemma=850-Jahr-Jubiläum 
+ 50-Jahr-Jubiläum ( ) lemma=850-Jahr-Jubiläum 
+ 50-Millionen-Mark-Projek ( ) lemma=150-Millionen-Mark-Projekt 
+ 50-Millionen-Vol ( ) lemma=150-Millionen-Volk 
+ 50-Seelen-Gemeind ( ) lemma=750-Seelen-Gemeinde 
+ 50-g-Erdbeerjoghur ( ) lemma=150-g-Erdbeerjoghurt 
+ 50-köpfig ( ) lemma=150-köpfig 
+ 50-prozenti ( ) lemma=150-prozentig 
+ 50-prozentige ( ) lemma=150-prozentig 
+ 50/8 ( ) lemma=850/88 
+ 500-Einwohner-Mark ( ) lemma=1500-Einwohner-Marke 
+ 500-Mark-Schec ( ) lemma=1500-Mark-Scheck 
+ 500-Meter-Lau ( ) lemma=1500-Meter-Lauf 
+ 500-Meter-Renne ( ) lemma=1500-Meter-Rennen 
+ 500-Meter-Rennen ( ) lemma=1500-Meter-Rennen 
+ 500-Meter-Staffellau ( ) lemma=1500-Meter-Staffellauf 
+ 500-Meter-Streck ( ) lemma=1500-Meter-Strecke 
+ 500-Punkte-Mark ( ) lemma=1500-Punkte-Marke 
+ 500-Ringe-Grenz ( ) lemma=1500-Ringe-Grenze 
+ 500-Seelen-Or ( ) lemma=1500-Seelen-Ort 
+ 500-m-Distan ( ) lemma=1500-m-Distanz 
+ 500-m-Europameiste ( ) lemma=1500-m-Europameister 
+ 500-m-Freisti ( ) lemma=1500-m-Freistil 
+ 500-m-Lau ( ) lemma=1500-m-Lauf 
+ 500-m-Läuferi ( ) lemma=1500-m-Läuferin 
+ 500-m-Olympiasiegeri ( ) lemma=1500-m-Olympiasiegerin 
+ 500-m-Renne ( ) lemma=1500-m-Rennen 
+ 500-m-Sie ( ) lemma=1500-m-Sieg 
+ 500-m-Weltmeiste ( ) lemma=1500-m-Weltmeister 
+ 500-m-Weltrekor ( ) lemma=1500-m-Weltrekord 
+ 5000-Punkte-Mark ( ) lemma=15000-Punkte-Marke 
+ 500e ( ) lemma=1500er 
+ 503-Verfahre ( ) lemma=1503-Verfahren 
+ 50D-Mar ( ) lemma=150D-Mark 
+ 50köpfig ( ) lemma=250köpfig 
+ 50prozenti ( ) lemma=150prozentig 
+ 50prozentig ( ) lemma=150prozentig 
+ 51/9 ( ) lemma=151/92 
+ 515/8 ( ) lemma=1515/85 
+ 516:1513-Sie ( ) lemma=1516:1513-Sieg 
+ 52/9 ( ) lemma=152/93 
+ 520:1543-Niederlag ( ) lemma=1520:1543-Niederlage 
+ 521/2 ( ) lemma=1521/22 
+ 52e ( ) lemma=152er 
+ 534/9 ( ) lemma=1534/92 
+ 55-Millimete ( ) lemma=155-Millimeter 
+ 55-Millimeter-Geschoss ( ) lemma=155-Millimeter-Geschoss 
+ 55-mm-Haubitze ( ) lemma=155-mm-Haubitze 
+ 55/9 ( ) lemma=755/91 
+ 555/8 ( ) lemma=1555/88 
+ 56/ ( ) lemma=156/6 
+ 56er-Numme ( ) lemma=156er-Nummer 
+ 56er-Nummer ( ) lemma=156er-Nummer 
+ 586/8 ( ) lemma=1586/89 
+ 59-Teile ( ) lemma=159-Teiler 
+ 5921,2 ( ) lemma=15921,22 
+ 594/9 ( ) lemma=1594/95 
+ 595,0 ( ) lemma=1595,04 
+ 5:0-Sie ( ) lemma=15:0-Sieg 
+ 5:13-Lösun ( ) lemma=15:13-Lösung 
+ 5:13-Punkte ( ) lemma=15:13-Punkt 
+ 5:15-Punkte ( ) lemma=15:15-Punkt 
+ 5:17-Niederlag ( ) lemma=15:17-Niederlage 
+ 5:18-Niederlag ( ) lemma=15:18-Niederlage 
+ 5:2-Sie ( ) lemma=15:2-Sieg 
+ 5:3-Punkt ( ) lemma=15:3-Punkt 
+ 5er-Club ( ) lemma=15er-Club 
+ 5er-Fel ( ) lemma=15er-Feld 
+ 5er-Kade ( ) lemma=15er-Kader 
+ 5fac ( ) lemma=15fach 
+ 5fach ( ) lemma=75fach 
+ 5fache ( ) lemma=45fach 
+ 5jähri ( ) lemma=85jährig 
+ 5jährig ( ) lemma=95jährig 
+ 5köpfig ( ) lemma=75köpfig 
+ 5köpfige ( ) lemma=45köpfig 
+ 5malig ( ) lemma=15malig 
+ 5malige ( ) lemma=75malig 
+ 5monatig ( ) lemma=15monatig 
+ 5monatige ( ) lemma=15monatig 
+ 5prozentig ( ) lemma=95prozentig 
+ 5stöckige ( ) lemma=15stöckig 
+ 5stündig ( ) lemma=25stündig 
+ 5stündige ( ) lemma=25stündig 
+ 5teilig ( ) lemma=15teilig 
+ 5tägi ( ) lemma=15tägig 
+ 5tägig ( ) lemma=15tägig 
+ 5tägige ( ) lemma=15tägig 
+ 5wöchig ( ) lemma=15wöchig 
+ 5-Dinar ( ) lemma=25-Dinar- 
+ 5-Dinar-Note ( ) lemma=25-Dinar-Note 
+ 5-Dinar-Schein ( ) lemma=25-Dinar-Schein 
+ 5-Grad-Mark ( ) lemma=35-Grad-Marke 
+ 5-Jahr-Dienstjubiläu ( ) lemma=25-Jahr-Dienstjubiläum 
+ 5-Jahr-Firmenjubiläu ( ) lemma=25-Jahr-Firmenjubiläum 
+ 5-Jahr-Jubiläu ( ) lemma=75-Jahr-Jubiläum 
+ 5-Jahre-Program ( ) lemma=25-Jahre-Programm 
+ 5-Lite ( ) lemma=35-Liter 
+ 5-Liter-Eime ( ) lemma=35-Liter-Eimer 
+ 5-Liter-Eimer ( ) lemma=25-Liter-Eimer 
+ 5-Meter ( ) lemma=25-Meter- 
+ 5-Meter-Bah ( ) lemma=25-Meter-Bahn 
+ 5-Meter-Bahne ( ) lemma=25-Meter-Bahnen 
+ 5-Meter-Becke ( ) lemma=25-Meter-Becken 
+ 5-Meter-Freistos ( ) lemma=25-Meter-Freistoß 
+ 5-Meter-Freisto� ( ) lemma=25-Meter-Freistoß 
+ 5-Meter-Schus ( ) lemma=25-Meter-Schuss 
+ 5-Meter-Schu� ( ) lemma=25-Meter-Schuss 
+ 5-Millione ( ) lemma=25-Million 
+ 5-Millionen-Auftra ( ) lemma=25-Millionen-Auftrag 
+ 5-Millionen-Mark-Program ( ) lemma=25-Millionen-Mark-Programm 
+ 5-Millionen-Program ( ) lemma=25-Millionen-Programm 
+ 5-Millionen-Programm ( ) lemma=25-Millionen-Programm 
+ 5-Millionen-Top ( ) lemma=25-Millionen-Topf 
+ 5-Millionen-Volke ( ) lemma=25-Millionen-Volk 
+ 5-Prozent-Antei ( ) lemma=35-Prozent-Anteil 
+ 5-Prozent-Beteiligun ( ) lemma=75-Prozent-Beteiligung 
+ 5-Prozent-Klause ( ) lemma=25-Prozent-Klausel 
+ 5-Prozent-Pake ( ) lemma=25-Prozent-Paket 
+ 5-Prozent-Zuschus ( ) lemma=25-Prozent-Zuschuss 
+ 5-Prozent-Zuschu� ( ) lemma=25-Prozent-Zuschuss 
+ 5-Stunde ( ) lemma=35-Stunden 
+ 5-Stunden-Woch ( ) lemma=45-Stunden-Woche 
+ 5-m-Bah ( ) lemma=25-m-Bahn 
+ 5-m-Schus ( ) lemma=25-m-Schuss 
+ 5-m-Schu� ( ) lemma=25-m-Schuss 
+ 5/13 ( ) lemma=25/134 
+ 50-Liter-Behälte ( ) lemma=250-Liter-Behälter 
+ 50-MW ( ) lemma=250-MW- 
+ 50-Millionen-Loc ( ) lemma=250-Millionen-Loch 
+ 50-Millionen-Mark-Katastroph ( ) lemma=250-Millionen-Mark-Katastrophe 
+ 50-Millionen-Mark-Program ( ) lemma=250-Millionen-Mark-Programm 
+ 50-Millionen-Mark-Spend ( ) lemma=250-Millionen-Mark-Spende 
+ 50-Millionen-Mark-Vorhabe ( ) lemma=250-Millionen-Mark-Vorhaben 
+ 50-ccm-Klass ( ) lemma=250-ccm-Klasse 
+ 50-kg-Bomb ( ) lemma=250-kg-Bombe 
+ 500-Quadratmeter-Grundstüc ( ) lemma=2500-Quadratmeter-Grundstück 
+ 500-Seelen-Gemeind ( ) lemma=2500-Seelen-Gemeinde 
+ 500-Seelen-Städtche ( ) lemma=2500-Seelen-Städtchen 
+ 500-Seelen-Städtchen ( ) lemma=2500-Seelen-Städtchen 
+ 5000-Einwohner-Kommun ( ) lemma=25000-Einwohner-Kommune 
+ 5000-Einwohner-Stad ( ) lemma=25000-Einwohner-Stadt 
+ 50e ( ) lemma=850er 
+ 50er-Klass ( ) lemma=250er-Klasse 
+ 51/0 ( ) lemma=251/01 
+ 550/9 ( ) lemma=2550/91 
+ 55000-Tonnen-Tanke ( ) lemma=255000-Tonnen-Tanker 
+ 552/9 ( ) lemma=2552/90 
+ 555/199 ( ) lemma=2555/1991 
+ 56-Megabit-Chi ( ) lemma=256-Megabit-Chip 
+ 58/25 ( ) lemma=258/259 
+ 5:13-Siege ( ) lemma=25:13-Sieg 
+ 5geschossige ( ) lemma=25geschossig 
+ 5ma ( ) lemma=35mal 
+ 5teilige ( ) lemma=25teilig 
+ 5-Liter-Behälte ( ) lemma=35-Liter-Behälter 
+ 5-Liter-Gefäs ( ) lemma=35-Liter-Gefäß 
+ 5-Liter-Gefä� ( ) lemma=35-Liter-Gefäß 
+ 5-Liter-Mülleime ( ) lemma=35-Liter-Mülleimer 
+ 5-Liter-Tonn ( ) lemma=35-Liter-Tonne 
+ 5-Meter-Abstan ( ) lemma=35-Meter-Abstand 
+ 5-Meter-Lau ( ) lemma=75-Meter-Lauf 
+ 5-Millionen ( ) lemma=35-Millionen- 
+ 5-Millionen-Mark-Projek ( ) lemma=35-Millionen-Mark-Projekt 
+ 5-Millionen-Projekte ( ) lemma=35-Millionen-Projekt 
+ 5-Stunden ( ) lemma=35-Stunden- 
+ 5-Stunden-Beschäftigun ( ) lemma=35-Stunden-Beschäftigung 
+ 5-Stundenwoch ( ) lemma=35-Stundenwoche 
+ 5-mm ( ) lemma=35-mm- 
+ 5-mm-Fil ( ) lemma=35-mm-Film 
+ 5-mm-Film ( ) lemma=35-mm-Film 
+ 5-mm-Forma ( ) lemma=35-mm-Format 
+ 5-mm-Kamer ( ) lemma=35-mm-Kamera 
+ 5-mm-Kopi ( ) lemma=35-mm-Kopie 
+ 5-mm-Projektor ( ) lemma=35-mm-Projektor 
+ 5/10 ( ) lemma=35/100 
+ 50-Kilo-Granat ( ) lemma=350-Kilo-granate 
+ 50-Seelen-Dor ( ) lemma=350-Seelen-Dorf 
+ 50.000-Einwohner-Stad ( ) lemma=350.000-Einwohner-Stadt 
+ 54/7 ( ) lemma=354/70 
+ 56/9 ( ) lemma=356/92 
+ 56e ( ) lemma=356er 
+ 59/8 ( ) lemma=359/89 
+ 5-Grad-Winke ( ) lemma=45-Grad-Winkel 
+ 5-Minuten-Beitra ( ) lemma=45-Minuten-Beitrag 
+ 5-Minuten-Fil ( ) lemma=45-Minuten-Film 
+ 5-Minuten-Model ( ) lemma=45-Minuten-Modell 
+ 5-Minuten-Sendun ( ) lemma=45-Minuten-Sendung 
+ 5-Minuten-Sendunge ( ) lemma=45-Minuten-Sendung 
+ 5.000-Einwohner-Stad ( ) lemma=45.000-Einwohner-Stadt 
+ 50-Mar ( ) lemma=450-Mark 
+ 50-Mark-Job ( ) lemma=450-Mark-Job 
+ 50-Seelen-Or ( ) lemma=450-Seelen-Ort 
+ 500-Einwohner-Gemeind ( ) lemma=7500-Einwohner-Gemeinde 
+ 52/5 ( ) lemma=452/53 
+ 538/8 ( ) lemma=4538/89 
+ 56/8 ( ) lemma=456/88 
+ 5er-Raste ( ) lemma=45er-Raster 
+ 5,4prozentig ( ) 
+ 5-Liter-groß ( ) 
+ 5-Nachfolger ( ) 
+ 5-Umschlag ( ) 
+ 5-Zoll-Gleis ( ) 
+ 5-fach ( ) 
+ 5-sprachig ( ) 
+ 5.000jährig ( ) 
+ 5.500köpfig ( ) 
+ 50-Dollar-Blüte ( ) 
+ 50-Dollar-Note ( ) 
+ 50-Dollar-Schein ( ) 
+ 50-Kronen-Note ( ) 
+ 50-Mark-Schritt ( ) 
+ 50-Meter-Kran ( ) 
+ 50-Meter-Rutsch ( ) 
+ 50-Million ( ) 
+ 50-Minuten-Film ( ) 
+ 50-Pfennig-Comic ( ) 
+ 50-jährig ( ) 
+ 50.000-Einwohner-Städtchen ( ) 
+ 50.000fach ( ) 
+ 500-Jahr-Feierlichkeit ( ) 
+ 500-Jahr-feier ( ) 
+ 500-Jahr ( ) 
+ 500-Jahres-feier ( ) 
+ 500-Kilo-Bombe ( ) 
+ 500-Mark-Rate ( ) 
+ 500-Megawatt-Block ( ) 
+ 500-Megawatt-Steinkohlekraftwerk ( ) 
+ 500-Meter-Korridor ( ) 
+ 500-Million ( ) 
+ 500-Millionen-Projekt ( ) 
+ 500-jährig ( ) 
+ 5000-Analyse ( ) 
+ 5000-Grenzwert-Konzentration ( ) 
+ 5000jährig ( ) 
+ 500jährig ( ) 
+ 500köpfig ( ) 
+ 500prozentig ( ) 
+ 501-Programm ( ) 
+ 50er-Jahr ( ) 
+ 50er-Jahre-Schnulze ( ) 
+ 50malig ( ) 
+ 50sitzig ( ) 
+ 50stündig ( ) 
+ 51köpfig ( ) 
+ 51prozentig ( ) 
+ 51tägig ( ) 
+ 52-jährig ( ) 
+ 52:29-Tor ( ) 
+ 52fach ( ) 
+ 52köpfig ( ) 
+ 52prozentig ( ) 
+ 52teilig ( ) 
+ 52tägig ( ) 
+ 53-jährig ( ) 
+ 530-Mark-Job ( ) 
+ 530-Mark-Kraft ( ) 
+ 53prozentig ( ) 
+ 53tägig ( ) 
+ 54köpfig ( ) 
+ 54stündig ( ) 
+ 5,3-Teile ( ) lemma=55,3-Teiler 
+ 5-Mark-Schei ( ) lemma=55-Mark-Schein 
+ 5-km-Einzelzeitfahre ( ) lemma=55-km-Einzelzeitfahren 
+ 5/73/7 ( ) lemma=55/73/79 
+ 500-Meter-Distan ( ) lemma=5500-Meter-Distanz 
+ 55/8 ( ) lemma=555/89 
+ 55köpfig ( ) 
+ 55prozentig ( ) 
+ 560stündig ( ) 
+ 56fach ( ) 
+ 56jährig ( ) 
+ 57,5-Millionen-Mark-Komplex ( ) 
+ 57-jährig ( ) 
+ 57köpfig ( ) 
+ 58-jährig ( ) 
+ 58prozentig ( ) 
+ 59köpfig ( ) 
+ 5:0-Punkt ( ) 
+ 5:1-Punkt ( ) 
+ 5:13-Punkt ( ) 
+ 5:7-Punkt ( ) 
+ 5geschossig ( ) 
+ 5-Hektar-Betrie ( ) lemma=65-Hektar-Betrieb 
+ 5-Quadratmeter-Wohnunge ( ) lemma=65-Quadratmeter-Wohnung 
+ 5-Renne ( ) lemma=65-Rennen 
+ 5-Wett ( ) lemma=65-Wette 
+ 5-kg-Klass ( ) lemma=65-kg-Klasse 
+ 57 ( ) lemma=6572 
+ 5-Jahrfeierlichkeite ( ) lemma=75-Jahrfeierlichkeit 
+ 5-Meter-Zone ( ) lemma=75-Meter-Zone 
+ 5-Minuten-Program ( ) lemma=75-Minuten-Programm 
+ 5-Prozent-Hürd ( ) lemma=75-Prozent-Hürde 
+ 5-Punkte-Sofortprogram ( ) lemma=75-Punkte-Sofortprogramm 
+ 5/7 ( ) lemma=75/79 
+ 50-Feie ( ) lemma=750-Feier 
+ 50-Gramm-Bro ( ) lemma=750-Gramm-Brot 
+ 50-Jah ( ) lemma=750-Jahr 
+ 50-Jahr ( ) lemma=750-Jahr- 
+ 50-Jahre-Feie ( ) lemma=750-Jahre-Feier 
+ 50-Jahrfeie ( ) lemma=750-Jahrfeier 
+ 5,0/97, ( ) lemma=95,0/97,0 
+ 5,5/98, ( ) lemma=95,5/98,0 
+ 5,5/99, ( ) lemma=95,5/99,0 
+ 5-Prozent-Mehrhei ( ) lemma=95-Prozent-Mehrheit 
+ 500-Einwohner-Kommun ( ) lemma=9500-Einwohner-Kommune 
+ 54e ( ) lemma=954er 
+ 55ma ( ) lemma=955mal 

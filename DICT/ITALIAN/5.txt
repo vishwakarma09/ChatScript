@@ -2,3 +2,5 @@
  50mila ( ) 
  55mila ( ) 
  5mila ( ) 
+ 50mil ( ) lemma=750mila 
+ 5mil ( ) lemma=75mila 

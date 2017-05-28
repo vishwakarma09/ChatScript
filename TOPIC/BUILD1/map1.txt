@@ -104,28 +104,22 @@ file: C:/ChatScript/RAWDATA/HARRY/keywordless.top 0
         rule: ~keywordless.2.0 u:  13
           line: 13 0
           Complexity of rule ~keywordless.2.0- u: 1
-        rule: ~keywordless.3.0 ?:  15
-          line: 15 0
-          line: 16 18
-          line: 17 29
-          line: 18 174
-          line: 21 329
+        rule: ~keywordless.3.0 ?:  17
+          line: 17 0
+          line: 18 18
+          line: 20 30
+          line: 21 192
+          line: 24 347
           Complexity of rule ~keywordless.3.0- ?: 1
-        rule: ~keywordless.4.0 ?:  24
-          line: 24 0
-          line: 25 54
-          line: 26 62
-          line: 27 207
-          line: 30 362
+        rule: ~keywordless.4.0 ?:  30
+          line: 30 0
+          line: 31 10
+          line: 37 55
+          line: 38 63
+          line: 39 225
+          line: 42 380
+          line: 44 419
           Complexity of rule ~keywordless.4.0- ?: 1
-        rule: ~keywordless.5.0 ?:  33
-          line: 33 0
-          line: 34 40
-          line: 35 48
-          line: 36 193
-          line: 39 348
-          line: 42 387
-          Complexity of rule ~keywordless.5.0- ?: 1
 file: C:/ChatScript/RAWDATA/HARRY/simplecontrol.top 0
     macro: ^harry 2
           line: 3 0

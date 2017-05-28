@@ -2652,7 +2652,7 @@
     service~13nz (^company~1) a company or agency that performs a public service
     armed_service~1nz (^force~8) a force that is a branch of the armed forces
     service~15vz make fit for use
-    serve~6vz mate with
+    serve~6vz (^copulate~1) mate with
     serve~10vz be used by
  self-service ( meanings=2 glosses=2 NOUN_ABSTRACT NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR posdefault:ADJECTIVE ) 
     self-service~1nz (^service~1) the practice of serving yourself
@@ -7192,7 +7192,7 @@
     peg~5nz (^leg~6) informal terms for the leg
     stick~6nz (^limb~6) a small thin branch of a tree
     pose~4v 
-    sting~5vz saddle with something disagreeable or disadvantageous
+    sting~5vz (^butter~1) saddle with something disagreeable or disadvantageous
     cohere~1vz come or be in close contact with
     hold_fast~1vz stick to firmly
     stick~11vz pierce or penetrate or puncture with something pointed
@@ -18262,14 +18262,14 @@
     optic_tract~1nz (^cranial_nerve~1) the cranial nerve that serves the retina
  sixth_cranial_nerve ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
     abducens~1nz (^cranial_nerve~1) a small motor nerve supplying the lateral rectus muscle of the eye
- sixth ( meanings=4 glosses=4 NOUN_ABSTRACT NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER ORDINAL KINDERGARTEN posdefault:NOUN QUANTITY_NOUN ) 
+ sixth ( meanings=4 glosses=4 NOUN_ABSTRACT NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER KINDERGARTEN posdefault:NOUN ) 
     sixth~1nz (^interval~3) the musical interval between one note and another six notes away from it
     one-sixth~1nz (^common_fraction~1) one part in six equal parts
     sixth~3nz (^rank~5) position six in a countable series of things
     sixth~4az coming next after the fifth and just before the seventh in position
  seventh_cranial_nerve ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
     facial~2nz (^cranial_nerve~1) cranial nerve that supplies facial muscles
- seventh ( meanings=4 glosses=4 NOUN_ABSTRACT NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER ORDINAL KINDERGARTEN QUANTITY_NOUN ) 
+ seventh ( meanings=4 glosses=4 NOUN_ABSTRACT NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER KINDERGARTEN ) 
     seventh~1nz (^interval~3) the musical interval between one note and another seven notes away from it
     one-seventh~1nz (^common_fraction~1) one part in seven equal parts
     seventh~3nz (^rank~5) position seven in a countable series of things

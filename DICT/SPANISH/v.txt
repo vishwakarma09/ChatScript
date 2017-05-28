@@ -1,4 +1,4 @@
-﻿ V ( ) 
+﻿ V ( ) lemma=SVT 
  V.1 ( ) 
  V.10 ( ) 
  V.11 ( ) 
@@ -23,7 +23,7 @@
  VERX ( ) 
  VF ( ) 
  VFT ( ) 
- VI ( ) 
+ VI ( ) lemma=XVII 
  VI-4 ( ) 
  VI.1 ( ) 
  VI.3 ( ) 
@@ -72,8 +72,7 @@
  Venezuela ( ) 
  Venus ( ) 
  Veracruz ( ) 
- Veras ( ) lemma=Vera 
- Vera ( ) 
+ Veras ( ) 
  Verdiamarillas ( ) 
  Vernadsky ( ) 
  Vero ( ) 
@@ -110,9 +109,9 @@
  Vivín ( ) 
  Vizcaya ( ) 
  Viña ( ) 
- Vladi ( ) lemma=Vladimiro 
- Vladimiro ( ) 
+ Vladi ( ) 
  Vladimir ( ) 
+ Vladimiro ( ) 
  Voigt ( ) 
  Vol ( ) 
  Vol. ( ) 
@@ -124,470 +123,450 @@
  Vázquez ( ) 
  Vélez ( ) 
  Víctor ( ) 
- Vírgenes_Británicas ( ) lemma=Vírgenes~Británicas 
- Vírgenes~Británicas ( ) 
- v ( ) 
+ Vírgenes ( ) 
+ v ( ) lemma=uva 
  v.g ( ) 
- va ( ) lemma=ir 
+ va ( ) lemma=uva 
  vaca ( ) 
  vacacional ( ) 
- vacaciones ( ) lemma=vacación 
+ vacaciones ( ) 
  vacación ( ) 
  vacante ( ) 
- vacantes ( ) lemma=vacar 
- vacar ( ) 
- vacas ( ) lemma=vaca 
+ vacantes ( ) 
+ vacas ( ) 
  vaccinia ( ) 
- vaciada ( ) lemma=vaciar 
+ vaciada ( ) 
+ vaciadas ( ) 
+ vaciado ( ) 
+ vaciando ( ) 
  vaciar ( ) 
- vaciadas ( ) lemma=vaciar 
- vaciado ( ) lemma=vaciar 
- vaciando ( ) lemma=vaciar 
- vaciara ( ) lemma=vaciar 
- vaciaron ( ) lemma=vaciar 
- vaciarán ( ) lemma=vaciar 
- vaciaría ( ) lemma=vaciar 
- vacila ( ) lemma=vacilar 
+ vaciara ( ) 
+ vaciaron ( ) 
+ vaciarán ( ) 
+ vaciaría ( ) 
+ vacila ( ) 
+ vacilaba ( ) 
+ vacilada ( ) 
+ vacilado ( ) 
+ vacilamos ( ) 
+ vacilan ( ) 
+ vacilando ( ) 
  vacilar ( ) 
- vacilaba ( ) lemma=vacilar 
- vacilada ( ) lemma=vacilar 
- vacilado ( ) lemma=vacilar 
- vacilamos ( ) lemma=vacilar 
- vacilan ( ) lemma=vacilar 
- vacilando ( ) lemma=vacilar 
- vacilaremos ( ) lemma=vacilar 
- vacilaron ( ) lemma=vacilar 
- vacilará ( ) lemma=vacilar 
- vacilarán ( ) lemma=vacilar 
- vacilaré ( ) lemma=vacilar 
- vacilaría ( ) lemma=vacilar 
- vacile ( ) lemma=vacilar 
- vacilemos ( ) lemma=vacilar 
- vacilen ( ) lemma=vacilar 
- vacilo ( ) lemma=vacilar 
- vaciló ( ) lemma=vacilar 
- vacuas ( ) lemma=vacuo 
- vacuo ( ) 
+ vacilaremos ( ) 
+ vacilaron ( ) 
+ vacilará ( ) 
+ vacilarán ( ) 
+ vacilaré ( ) 
+ vacilaría ( ) 
+ vacile ( ) 
+ vacilemos ( ) 
+ vacilen ( ) 
+ vacilo ( ) 
+ vaciló ( ) 
+ vacuas ( ) 
  vacuidad ( ) 
  vacuna ( ) 
- vacunaciones ( ) lemma=vacunación 
+ vacunaciones ( ) 
  vacunación ( ) 
- vacunadas ( ) lemma=vacunar 
+ vacunadas ( ) 
+ vacunado ( ) 
+ vacunados ( ) 
+ vacunamos ( ) 
+ vacunan ( ) 
  vacunar ( ) 
- vacunado ( ) lemma=vacunar 
- vacunados ( ) lemma=vacunar 
- vacunamos ( ) lemma=vacunar 
- vacunan ( ) lemma=vacunar 
- vacunaran ( ) lemma=vacunar 
- vacunarle ( ) lemma=vacunar 
- vacunaron ( ) lemma=vacunar 
- vacunas ( ) lemma=vacuna 
- vacuno ( ) lemma=vacunar 
- vacunos ( ) lemma=vacuno 
+ vacunaran ( ) 
+ vacunarle ( ) 
+ vacunaron ( ) 
+ vacunas ( ) 
+ vacuno ( ) 
+ vacunos ( ) 
  vacunoterapia ( ) 
  vacuola ( ) 
  vacuum ( ) 
- vacía ( ) lemma=vacio 
- vacio ( ) 
- vacían ( ) lemma=vaciar 
- vacías ( ) lemma=vacío 
+ vacía ( ) 
+ vacían ( ) 
+ vacías ( ) 
+ vacíes ( ) 
  vacío ( ) 
- vacíes ( ) lemma=vaciar 
- vacíos ( ) lemma=vacío 
- vaga ( ) lemma=vago 
- vago ( ) 
- vagaban ( ) lemma=vagar 
- vagar ( ) 
- vagabunda ( ) lemma=vagabundo 
- vagabundo ( ) 
+ vacíos ( ) 
+ vaga ( ) 
+ vagaban ( ) 
+ vagabunda ( ) 
  vagabundear ( ) 
- vagabundeo ( ) lemma=vagabundear 
- vagabundos ( ) lemma=vagabundo 
+ vagabundeo ( ) 
+ vagabundo ( ) 
+ vagabundos ( ) 
  vagal ( ) 
- vagamente ( ) lemma=vago 
- vagan ( ) lemma=vagar 
- vagando ( ) lemma=vagar 
- vagarán ( ) lemma=vagar 
- vagas ( ) lemma=vago 
+ vagamente ( ) 
+ vagan ( ) 
+ vagando ( ) 
+ vagar ( ) 
+ vagarán ( ) 
+ vagas ( ) 
  vagina ( ) 
  vaginal ( ) 
  vaginismo ( ) 
- vagones ( ) lemma=vagón 
- vagón ( ) 
- vagos ( ) lemma=vago 
+ vago ( ) 
+ vagones ( ) 
+ vagos ( ) 
  vaguedad ( ) 
- vaguedades ( ) lemma=vaguedad 
- vaguen ( ) lemma=vagar 
+ vaguedades ( ) 
+ vaguen ( ) 
+ vagón ( ) 
  vahído ( ) 
- vai ( ) lemma=ir 
+ vai ( ) 
  vaina ( ) 
- vainas ( ) lemma=vaina 
+ vainas ( ) 
  vainilla ( ) 
- vainitas ( ) lemma=vainita 
- vainita ( ) 
- vais ( ) lemma=ir 
- vaivenes ( ) lemma=vaivén 
+ vainitas ( ) 
+ vais ( ) 
+ vaivenes ( ) 
  vaivén ( ) 
  vajilla ( ) 
- vajillas ( ) lemma=vajilla 
- valdrá ( ) lemma=valer 
- valer ( ) 
- valdrán ( ) lemma=valer 
- valdría ( ) lemma=valer 
- vale ( ) 
- valedera ( ) lemma=valedero 
- valedero ( ) 
- valedores ( ) lemma=valedor 
- valedor ( ) 
- valemos ( ) lemma=valer 
- valen ( ) lemma=valer 
+ vajillas ( ) 
+ valdrá ( ) 
+ valdrán ( ) 
+ valdría ( ) 
+ vale ( ) lemma=aval 
+ valedera ( ) 
+ valedores ( ) 
+ valemos ( ) 
+ valen ( ) 
  valence ( ) 
  valencia ( ) 
- valenciana ( ) lemma=valenciano 
+ valenciana ( ) 
+ valencianas ( ) 
  valenciano ( ) 
- valencianas ( ) lemma=valenciano 
- valencianos ( ) lemma=valenciano 
+ valencianos ( ) 
  valentía ( ) 
- valernos ( ) lemma=valer 
- valerosa ( ) lemma=valeroso 
+ valer ( ) 
+ valernos ( ) 
+ valerosa ( ) 
+ valerosamente ( ) 
+ valerosas ( ) 
  valeroso ( ) 
- valerosamente ( ) lemma=valeroso 
- valerosas ( ) lemma=valeroso 
- valerosos ( ) lemma=valeroso 
+ valerosos ( ) 
  valerse ( ) 
- vales ( ) lemma=vale 
+ vales ( ) 
  valeur ( ) 
- valga ( ) lemma=valer 
- valgan ( ) lemma=valer 
- valgo ( ) lemma=valer 
- valida ( ) lemma=validar 
- validar ( ) 
- validaciones ( ) lemma=validación 
+ valga ( ) 
+ valgan ( ) 
+ valgo ( ) 
+ valida ( ) 
+ validaciones ( ) 
  validación ( ) 
- validada ( ) lemma=validar 
- validadas ( ) lemma=validar 
- validado ( ) lemma=validar 
- validados ( ) lemma=validar 
- validando ( ) lemma=validar 
- validaron ( ) lemma=validar 
- validará ( ) lemma=validar 
- validas ( ) lemma=valer 
- validen ( ) lemma=validar 
+ validada ( ) 
+ validadas ( ) 
+ validado ( ) 
+ validados ( ) 
+ validando ( ) 
+ validar ( ) 
+ validaron ( ) 
+ validará ( ) 
+ validas ( ) 
+ validen ( ) 
  validez ( ) 
- valido ( ) lemma=valer 
- validos ( ) lemma=valer 
- validó ( ) lemma=validar 
- valiendo ( ) lemma=valer 
+ valido ( ) 
+ validos ( ) 
+ validó ( ) 
+ valiendo ( ) 
  valiente ( ) 
- valientemente ( ) lemma=valiente 
- valientes ( ) lemma=valiente 
- valiera ( ) lemma=valer 
- valieran ( ) lemma=valer 
- valieron ( ) lemma=valer 
+ valientemente ( ) 
+ valientes ( ) 
+ valiera ( ) 
+ valieran ( ) 
+ valieron ( ) 
  valija ( ) 
- valijas ( ) lemma=valija 
+ valijas ( ) 
  valina ( ) 
- valiosa ( ) lemma=valioso 
+ valiosa ( ) 
+ valiosas ( ) 
  valioso ( ) 
- valiosas ( ) lemma=valioso 
- valiosos ( ) lemma=valioso 
- valiosísima ( ) lemma=valioso 
- valiosísimas ( ) lemma=valioso 
- valiosísimo ( ) lemma=valioso 
- valiosísimos ( ) lemma=valioso 
+ valiosos ( ) 
+ valiosísima ( ) 
+ valiosísimas ( ) 
+ valiosísimo ( ) 
+ valiosísimos ( ) 
  valiéndose ( ) 
- valió ( ) lemma=valer 
+ valió ( ) 
  valla ( ) 
- vallados ( ) lemma=vallado 
- vallado ( ) 
- vallas ( ) lemma=valla 
+ vallados ( ) 
+ vallas ( ) 
  valle ( ) 
- vallecillo ( ) lemma=valle 
- valles ( ) lemma=valle 
- vallisoletana ( ) lemma=vallisoletano 
+ vallecillo ( ) 
+ valles ( ) 
+ vallisoletana ( ) 
  vallisoletano ( ) 
  valor ( ) 
- valora ( ) lemma=valorar 
- valorar ( ) 
- valoraba ( ) lemma=valorar 
- valoraban ( ) lemma=valorar 
+ valora ( ) 
+ valoraba ( ) 
+ valoraban ( ) 
  valorable ( ) 
- valoraciones ( ) lemma=valoración 
+ valoraciones ( ) 
  valoración ( ) 
- valorada ( ) lemma=valorar 
- valoradas ( ) lemma=valorar 
- valorado ( ) lemma=valorar 
- valorados ( ) lemma=valorar 
- valoramos ( ) lemma=valorar 
- valoran ( ) lemma=valorar 
- valorando ( ) lemma=valorar 
- valoraran ( ) lemma=valorar 
- valoraremos ( ) lemma=valorar 
- valorarla ( ) lemma=valorar 
- valorarlo ( ) lemma=valorar 
- valorarlos ( ) lemma=valorar 
- valoraron ( ) lemma=valorar 
+ valorada ( ) 
+ valoradas ( ) 
+ valorado ( ) 
+ valorados ( ) 
+ valoramos ( ) 
+ valoran ( ) 
+ valorando ( ) 
+ valorar ( ) 
+ valoraran ( ) 
+ valoraremos ( ) 
+ valorarla ( ) 
+ valorarlo ( ) 
+ valorarlos ( ) 
+ valoraron ( ) 
  valorarse ( ) 
- valorará ( ) lemma=valorar 
- valorarán ( ) lemma=valorar 
- valoraría ( ) lemma=valorar 
- valoras ( ) lemma=valorar 
- valorase ( ) lemma=valorar 
- valore ( ) lemma=valorar 
- valoremos ( ) lemma=valorar 
- valoren ( ) lemma=valorar 
- valores ( ) lemma=valor 
- valorice ( ) lemma=valorizar 
- valorizar ( ) 
- valoricen ( ) lemma=valorizar 
- valoriza ( ) lemma=valorizar 
- valorizables ( ) lemma=valorizable 
- valorizable ( ) 
+ valorará ( ) 
+ valorarán ( ) 
+ valoraría ( ) 
+ valoras ( ) 
+ valorase ( ) 
+ valore ( ) 
+ valoremos ( ) 
+ valoren ( ) 
+ valores ( ) 
+ valorice ( ) 
+ valoricen ( ) 
+ valoriza ( ) 
+ valorizables ( ) 
  valorización ( ) 
- valorizada ( ) lemma=valorizar 
- valorizadas ( ) lemma=valorizar 
- valorizado ( ) lemma=valorizar 
- valorizados ( ) lemma=valorizar 
- valorizamos ( ) lemma=valorizar 
- valorizan ( ) lemma=valorizar 
- valorizando ( ) lemma=valorizar 
- valorizará ( ) lemma=valorizar 
- valorizarán ( ) lemma=valorizar 
- valoro ( ) lemma=valorar 
- valorábamos ( ) lemma=valorar 
- valorándose ( ) lemma=valorarse 
- valoró ( ) lemma=valorar 
+ valorizada ( ) 
+ valorizadas ( ) 
+ valorizado ( ) 
+ valorizados ( ) 
+ valorizamos ( ) 
+ valorizan ( ) 
+ valorizando ( ) 
+ valorizar ( ) 
+ valorizará ( ) 
+ valorizarán ( ) 
+ valoro ( ) 
+ valorábamos ( ) 
+ valorándose ( ) 
+ valoró ( ) 
  valproato ( ) 
- valuada ( ) lemma=valuar 
- valuar ( ) 
- valuadas ( ) lemma=valuar 
- valuado ( ) lemma=valuar 
- valuados ( ) lemma=valuar 
+ valuada ( ) lemma=evaluar 
+ valuadas ( ) 
+ valuado ( ) lemma=evaluar 
+ valuados ( ) 
  value ( ) 
  valva ( ) 
- valvas ( ) lemma=valva 
+ valvas ( ) 
  valvular ( ) 
- valvulares ( ) lemma=valvular 
+ valvulares ( ) 
  valvulopatía ( ) 
  valvuloplastia ( ) 
  valvulotomía ( ) 
- valía ( ) lemma=valer 
- valíamos ( ) lemma=valer 
- valían ( ) lemma=valer 
+ valía ( ) 
+ valíamos ( ) 
+ valían ( ) 
  vamos ( ) 
  vampiro ( ) 
- vampiros ( ) lemma=vampiro 
- van ( ) lemma=ir 
- vana ( ) lemma=vano 
- vano ( ) 
+ vampiros ( ) 
+ van ( ) lemma=avant 
+ vana ( ) 
  vanadio ( ) 
- vanas ( ) lemma=vano 
+ vanas ( ) 
  vancomicina ( ) 
  vandalismo ( ) 
- vandalismos ( ) lemma=vandalismo 
+ vandalismos ( ) 
  vanguardia ( ) 
- vanguardias ( ) lemma=vanguardia 
+ vanguardias ( ) 
  vanidad ( ) 
- vanidades ( ) lemma=vanidad 
+ vanidades ( ) 
  vanililmandélico ( ) 
- vanos ( ) lemma=vano 
- vapor ( ) 
- vapores ( ) lemma=vapor 
+ vano ( ) 
+ vanos ( ) 
+ vapor ( ) lemma=evaporar 
+ vapores ( ) 
  vaporización ( ) 
  vaporizar ( ) 
- vaporosa ( ) lemma=vaporoso 
- vaporoso ( ) 
+ vaporosa ( ) 
  vaquero ( ) 
- vaqueros ( ) lemma=vaquero 
- vaquerías ( ) lemma=vaquería 
- vaquería ( ) 
- vaquillas ( ) lemma=vaca 
- vaquita ( ) lemma=vaca 
+ vaqueros ( ) 
+ vaquerías ( ) 
+ vaquillas ( ) 
+ vaquita ( ) 
  vara ( ) 
- varada ( ) lemma=varar 
- varar ( ) 
- varado ( ) lemma=varar 
- varados ( ) lemma=varar 
- varas ( ) lemma=vara 
- vareaba ( ) lemma=varear 
- varear ( ) 
- vareada ( ) lemma=varear 
- varean ( ) lemma=varear 
- varia ( ) lemma=vario 
- vario ( ) 
- variaba ( ) lemma=variar 
- variar ( ) 
- variaban ( ) lemma=variar 
+ varada ( ) 
+ varado ( ) 
+ varados ( ) 
+ varas ( ) 
+ vareaba ( ) 
+ vareada ( ) 
+ varean ( ) 
+ varia ( ) 
+ variaba ( ) 
+ variaban ( ) 
  variabilidad ( ) 
  variable ( ) 
- variables ( ) lemma=variable 
- variaciones ( ) lemma=variación 
+ variables ( ) 
+ variaciones ( ) 
  variación ( ) 
- variada ( ) lemma=variar 
- variadas ( ) lemma=variar 
- variado ( ) lemma=variar 
- variados ( ) lemma=variar 
+ variada ( ) 
+ variadas ( ) 
+ variado ( ) 
+ variados ( ) 
  variancia ( ) 
- variando ( ) lemma=variar 
+ variando ( ) 
  variante ( ) 
- variantes ( ) lemma=variante 
+ variantes ( ) 
  varianza ( ) 
- varianzas ( ) lemma=varianza 
- variara ( ) lemma=variar 
- variaran ( ) lemma=variar 
- variaron ( ) lemma=variar 
- variará ( ) lemma=variar 
- variarán ( ) lemma=variar 
- varias ( ) lemma=varios 
- varios ( ) 
+ varianzas ( ) 
+ variar ( ) 
+ variara ( ) 
+ variaran ( ) 
+ variaron ( ) 
+ variará ( ) 
+ variarán ( ) 
+ varias ( ) 
  varicela ( ) 
  varicela-zoster ( ) 
- varices ( ) lemma=variz 
- variz ( ) 
+ varices ( ) 
  varicocele ( ) 
- varicosas ( ) lemma=varicoso 
- varicoso ( ) 
+ varicosas ( ) 
  varicosidad ( ) 
  variedad ( ) 
- variedades ( ) lemma=variedad 
+ variedades ( ) 
  varilla ( ) 
- varillas ( ) lemma=vara 
+ varillas ( ) 
+ vario ( ) lemma=ovario 
  variolización ( ) 
- variopinta ( ) lemma=variopinto 
+ variopinta ( ) 
  variopinto ( ) 
- variopintos ( ) lemma=variopinto 
- varita ( ) lemma=vara 
- varió ( ) lemma=variar 
- varones ( ) lemma=varón 
- varón ( ) 
+ variopintos ( ) 
+ varios ( ) 
+ varita ( ) 
+ varió ( ) 
+ varones ( ) 
  varonil ( ) 
- varoniles ( ) lemma=varonil 
- varía ( ) lemma=variar 
- varían ( ) lemma=variar 
- varías ( ) lemma=variar 
- varíe ( ) lemma=variar 
- varíen ( ) lemma=variar 
- varío ( ) lemma=variar 
- vas ( ) lemma=ir 
- vasca ( ) lemma=vasco 
+ varoniles ( ) 
+ varía ( ) 
+ varían ( ) 
+ varías ( ) 
+ varíe ( ) 
+ varíen ( ) 
+ varío ( ) 
+ varón ( ) 
+ vas ( ) 
+ vasca ( ) 
+ vascas ( ) 
  vasco ( ) 
- vascas ( ) lemma=vasco 
- vascos ( ) lemma=vasco 
+ vascos ( ) 
  vascular ( ) 
- vasculares ( ) lemma=vascular 
+ vasculares ( ) 
  vascularización ( ) 
  vascularizar ( ) 
  vasculitis ( ) 
  vasculonervioso ( ) 
  vasculopatía ( ) 
- vasitos ( ) lemma=vaso 
+ vasitos ( ) 
  vaso ( ) 
  vaso-oclusión ( ) 
  vasoactivo ( ) 
- vasoactivos ( ) lemma=vasoactivo 
+ vasoactivos ( ) 
  vasoconstricción ( ) 
  vasoconstrictor ( ) 
- vasoconstrictora ( ) lemma=vasoconstrictor 
- vasoconstrictores ( ) lemma=vasoconstrictor 
+ vasoconstrictora ( ) 
+ vasoconstrictores ( ) 
  vasodilatación ( ) 
  vasodilatador ( ) 
- vasodilatadores ( ) lemma=vasodilatador 
+ vasodilatadores ( ) 
  vasodilatar ( ) 
  vasomotor ( ) 
- vasomotoras ( ) lemma=vasomotor 
+ vasomotoras ( ) 
  vasopresina ( ) 
  vasopresinsensible ( ) 
- vasos ( ) lemma=vaso 
+ vasos ( ) 
  vasovagal ( ) 
- vasta ( ) lemma=vasto 
+ vasta ( ) 
+ vastas ( ) 
  vasto ( ) 
- vastas ( ) lemma=vasto 
- vastos ( ) lemma=vasto 
- vastísimas ( ) lemma=vasto 
- vastísimo ( ) lemma=vasto 
- vaticana ( ) lemma=vaticano 
+ vastos ( ) 
+ vastísimas ( ) 
+ vastísimo ( ) 
+ vaticana ( ) 
  vaticano ( ) 
- vaticanos ( ) lemma=vaticano 
- vaticina ( ) lemma=vaticinar 
+ vaticanos ( ) 
+ vaticina ( ) 
+ vaticinado ( ) 
+ vaticinan ( ) 
  vaticinar ( ) 
- vaticinado ( ) lemma=vaticinar 
- vaticinan ( ) lemma=vaticinar 
- vaticinaron ( ) lemma=vaticinar 
+ vaticinaron ( ) 
  vaticinio ( ) 
- vaticinios ( ) lemma=vaticinio 
- vaticino ( ) lemma=vaticinar 
- vaticiné ( ) lemma=vaticinar 
- vaticinó ( ) lemma=vaticinar 
+ vaticinios ( ) 
+ vaticino ( ) 
+ vaticiné ( ) 
+ vaticinó ( ) 
  vatio ( ) 
- vatios ( ) lemma=vatio 
- vay ( ) lemma=ir 
- vaya ( ) lemma=ir 
- vayamos ( ) lemma=ir 
- vayan ( ) lemma=ir 
- vayas ( ) lemma=ir 
- vayáis ( ) lemma=ir 
- ve ( ) lemma=ver 
- ver ( ) 
- vea ( ) lemma=ver 
- veamos ( ) lemma=ver 
- vean ( ) lemma=ver 
- veas ( ) lemma=ver 
- vease ( ) lemma=ver 
- veces ( ) lemma=vez 
- vez ( ) 
- vecina ( ) lemma=vecino 
- vecino ( ) 
+ vatios ( ) 
+ vay ( ) 
+ vaya ( ) 
+ vayamos ( ) 
+ vayan ( ) 
+ vayas ( ) 
+ vayáis ( ) 
+ ve ( ) lemma=over 
+ vea ( ) 
+ veamos ( ) 
+ vean ( ) 
+ veas ( ) 
+ vease ( ) 
+ veces ( ) 
+ vecina ( ) lemma=avecinar 
  vecinal ( ) 
- vecinales ( ) lemma=vecinal 
- vecinas ( ) lemma=vecino 
+ vecinales ( ) 
+ vecinas ( ) 
  vecindad ( ) 
- vecindades ( ) lemma=vecindad 
+ vecindades ( ) 
  vecindario ( ) 
- vecinos ( ) lemma=vecino 
+ vecino ( ) 
+ vecinos ( ) 
  vector ( ) 
- vectores ( ) lemma=vector 
+ vectores ( ) 
  vectorial ( ) 
- veda ( ) lemma=vedar 
+ veda ( ) 
+ vedada ( ) 
+ vedadas ( ) 
+ vedado ( ) 
+ vedados ( ) 
  vedar ( ) 
- vedada ( ) lemma=vedar 
- vedadas ( ) lemma=vedar 
- vedado ( ) lemma=vedar 
- vedados ( ) lemma=vedar 
- vedas ( ) lemma=vedar 
+ vedas ( ) 
  vega ( ) 
- vegas ( ) lemma=vega 
- vegeta ( ) lemma=vegetar 
- vegetar ( ) 
- vegetaba ( ) lemma=vegetar 
- vegetaciones ( ) lemma=vegetación 
+ vegas ( ) 
+ vegeta ( ) 
+ vegetaba ( ) 
+ vegetaciones ( ) 
  vegetación ( ) 
  vegetal ( ) 
- vegetales ( ) lemma=vegetal 
- vegetan ( ) lemma=vegetar 
- vegetando ( ) lemma=vegetar 
- vegetariana ( ) lemma=vegetariano 
- vegetariano ( ) 
- vegetarianos ( ) lemma=vegetariano 
- vegetativa ( ) lemma=vegetativo 
+ vegetales ( ) 
+ vegetan ( ) 
+ vegetando ( ) 
+ vegetariana ( ) 
+ vegetarianos ( ) 
+ vegetativa ( ) 
+ vegetativas ( ) 
  vegetativo ( ) 
- vegetativas ( ) lemma=vegetativo 
- vegetativos ( ) lemma=vegetativo 
+ vegetativos ( ) 
  vehemencia ( ) 
  vehemente ( ) 
- vehementemente ( ) lemma=vehemente 
- vehementes ( ) lemma=vehemente 
- vehicula ( ) lemma=vehicular 
+ vehementemente ( ) 
+ vehementes ( ) 
+ vehicula ( ) 
+ vehiculada ( ) 
+ vehiculado ( ) 
+ vehiculados ( ) 
+ vehiculan ( ) 
  vehicular ( ) 
- vehiculada ( ) lemma=vehicular 
- vehiculado ( ) lemma=vehicular 
- vehiculados ( ) lemma=vehicular 
- vehiculan ( ) lemma=vehicular 
  vehículo ( ) 
- vehículos ( ) lemma=vehículo 
- veian ( ) lemma=ver 
+ vehículos ( ) 
+ veian ( ) 
  veinte ( ) 
  veintena ( ) 
- veintenas ( ) lemma=veintena 
+ veintenas ( ) 
  veinticinco ( ) 
  veinticuatro ( ) 
  veintidós ( ) 
@@ -596,1155 +575,1120 @@
  veintisiete ( ) 
  veintiséis ( ) 
  veintitrés ( ) 
- veintiuna ( ) lemma=veintiuno 
+ veintiuna ( ) 
  veintiuno ( ) 
- veintiún ( ) lemma=veintiuno 
- veis ( ) lemma=ver 
- vejaciones ( ) lemma=vejación 
+ veintiún ( ) 
+ veis ( ) 
+ vejaciones ( ) 
  vejación ( ) 
  vejentud ( ) 
  vejez ( ) 
  vejiga ( ) 
  vela ( ) 
  velada ( ) 
- veladas ( ) lemma=velada 
- velado ( ) lemma=velar 
- velar ( ) 
+ veladas ( ) 
+ velado ( ) 
  velador ( ) 
- veladores ( ) lemma=velador 
- velamos ( ) lemma=velar 
- velan ( ) lemma=velar 
- velando ( ) lemma=velar 
- velara ( ) lemma=velar 
- velaran ( ) lemma=velar 
- velaremos ( ) lemma=velar 
- velarle ( ) lemma=velar 
- velará ( ) lemma=velar 
- velarán ( ) lemma=velar 
- velaré ( ) lemma=velar 
- velaría ( ) lemma=velar 
- velarían ( ) lemma=velar 
- velas ( ) lemma=vela 
- velasen ( ) lemma=velar 
- vele ( ) lemma=ir|velar|ver 
- velemos ( ) lemma=velar 
- velen ( ) lemma=velar 
+ veladores ( ) 
+ velamos ( ) 
+ velan ( ) 
+ velando ( ) 
+ velar ( ) 
+ velara ( ) 
+ velaran ( ) 
+ velaremos ( ) 
+ velarle ( ) 
+ velará ( ) 
+ velarán ( ) 
+ velaré ( ) 
+ velaría ( ) 
+ velarían ( ) 
+ velas ( ) 
+ velasen ( ) 
+ vele ( ) 
+ velemos ( ) 
+ velen ( ) 
  velero ( ) 
- veleros ( ) lemma=velero 
+ veleros ( ) 
  veleta ( ) 
- velitas ( ) lemma=vela 
- velizes ( ) lemma=véliz 
- véliz ( ) 
+ velitas ( ) 
+ velizes ( ) 
  vello ( ) 
- vellosa ( ) lemma=velloso 
- velloso ( ) 
+ vellosa ( ) 
  vellosidad ( ) 
- vellosidades ( ) lemma=vellosidad 
- velludos ( ) lemma=velludo 
- velludo ( ) 
+ vellosidades ( ) 
+ velloso ( ) 
+ velludos ( ) 
  velo ( ) 
- veloces ( ) lemma=veloz 
- veloz ( ) 
+ veloces ( ) 
  velocidad ( ) 
- velocidades ( ) lemma=velocidad 
+ velocidades ( ) 
  velocista ( ) 
- velocistas ( ) lemma=velocista 
+ velocistas ( ) 
  velocímetro ( ) 
  velorio ( ) 
- velos ( ) lemma=velo 
- velozmente ( ) lemma=veloz 
- veló ( ) lemma=velar 
- veme ( ) lemma=ir|ver 
- vemos ( ) lemma=ver 
- ven ( ) lemma=ver 
+ velos ( ) 
+ veloz ( ) 
+ velozmente ( ) 
+ veló ( ) 
+ veme ( ) 
+ vemos ( ) 
+ ven ( ) lemma=avena 
  vena ( ) 
  venado ( ) 
- venados ( ) lemma=venado 
- venas ( ) lemma=vena 
- vence ( ) lemma=vencer 
- vencer ( ) 
+ venados ( ) 
+ venas ( ) 
+ vence ( ) 
  vencedor ( ) 
- vencedora ( ) lemma=vencedor 
- vencedoras ( ) lemma=vencedor 
- vencedores ( ) lemma=vencedor 
- vencemos ( ) lemma=vencer 
- vencen ( ) lemma=vencer 
- vencerla ( ) lemma=vencer 
- vencerlo ( ) lemma=vencer 
+ vencedora ( ) 
+ vencedoras ( ) 
+ vencedores ( ) 
+ vencemos ( ) 
+ vencen ( ) 
+ vencer ( ) 
+ vencerla ( ) 
+ vencerlo ( ) 
  vencerse ( ) 
- vencerá ( ) lemma=vencer 
- vencerán ( ) lemma=vencer 
- vencerás ( ) lemma=vencer 
- vencida ( ) lemma=vencer 
- vencidas ( ) lemma=vencer 
- vencido ( ) lemma=vencer 
- vencidos ( ) lemma=vencer 
- venciendo ( ) lemma=vencer 
- venciera ( ) lemma=vencer 
- vencieran ( ) lemma=vencer 
- vencieron ( ) lemma=vencer 
+ vencerá ( ) 
+ vencerán ( ) 
+ vencerás ( ) 
+ vencida ( ) 
+ vencidas ( ) 
+ vencido ( ) 
+ vencidos ( ) 
+ venciendo ( ) 
+ venciera ( ) 
+ vencieran ( ) 
+ vencieron ( ) 
  vencimiento ( ) 
- vencimientos ( ) lemma=vencimiento 
- venciéndolos ( ) lemma=vencer 
- venció ( ) lemma=vencer 
- vencía ( ) lemma=vencer 
- vencían ( ) lemma=vencer 
- venda ( ) lemma=vendar|vender 
- vendar|vender ( ) 
- vendado ( ) lemma=vendar 
- vendar ( ) 
- vendados ( ) lemma=vendar 
+ vencimientos ( ) 
+ venciéndolos ( ) 
+ venció ( ) 
+ vencía ( ) 
+ vencían ( ) 
+ venda ( ) 
+ vendado ( ) 
+ vendados ( ) 
  vendaje ( ) 
- vendajes ( ) lemma=vendaje 
- vendan ( ) lemma=vendar|vender 
- vendaran ( ) lemma=vendar 
- vendaron ( ) lemma=vendar 
- vendas ( ) lemma=vendar|vender 
+ vendajes ( ) 
+ vendan ( ) 
+ vendar ( ) 
+ vendaran ( ) 
+ vendaron ( ) 
+ vendas ( ) 
  vendaval ( ) 
- vende ( ) lemma=vendar|vender 
+ vende ( ) 
  vendedor ( ) 
- vendedora ( ) lemma=vendedor 
- vendedoras ( ) lemma=vendedor 
- vendedores ( ) lemma=vendedor 
- vendemos ( ) lemma=vendar|vender 
- venden ( ) lemma=vendar|vender 
+ vendedora ( ) 
+ vendedoras ( ) 
+ vendedores ( ) 
+ vendemos ( ) 
+ venden ( ) 
  vender ( ) 
- venderemos ( ) lemma=vender 
- venderla ( ) lemma=vender 
- venderle ( ) lemma=vender 
- venderles ( ) lemma=vender 
- venderlo ( ) lemma=vender 
- vendernos ( ) lemma=vender 
+ venderemos ( ) 
+ venderla ( ) 
+ venderle ( ) 
+ venderles ( ) 
+ venderlo ( ) 
+ vendernos ( ) 
  venderse ( ) 
- venderte ( ) lemma=vender 
- venderá ( ) lemma=vender 
- venderán ( ) lemma=vender 
- vendería ( ) lemma=vender 
- venderían ( ) lemma=vender 
- vendes ( ) lemma=vendar|vender 
- vendida ( ) lemma=vender 
- vendidas ( ) lemma=vender 
- vendido ( ) lemma=vender 
- vendidos ( ) lemma=vender 
- vendiendo ( ) lemma=vender 
- vendiera ( ) lemma=vender 
- vendieran ( ) lemma=vender 
- vendieron ( ) lemma=vender 
- vendimia ( ) lemma=vendimiar 
+ venderte ( ) 
+ venderá ( ) 
+ venderán ( ) 
+ vendería ( ) 
+ venderían ( ) 
+ vendes ( ) 
+ vendida ( ) 
+ vendidas ( ) 
+ vendido ( ) 
+ vendidos ( ) 
+ vendiendo ( ) 
+ vendiera ( ) 
+ vendieran ( ) 
+ vendieron ( ) 
+ vendimia ( ) 
  vendimiar ( ) 
- vendimias ( ) lemma=vendimiar 
- vendimos ( ) lemma=vender 
- vendiéndolas ( ) lemma=vender 
- vendiéndole ( ) lemma=vender 
- vendiéndolos ( ) lemma=vender 
- vendiéndose ( ) lemma=venderse 
- vendió ( ) lemma=vender 
- vendo ( ) lemma=vendar|vender 
- vendrá ( ) lemma=venir 
- venir ( ) 
- vendrán ( ) lemma=venir 
- vendrás ( ) lemma=venir 
- vendré ( ) lemma=venir 
- vendréis ( ) lemma=venir 
- vendría ( ) lemma=venir 
- vendríamos ( ) lemma=venir 
- vendrían ( ) lemma=venir 
- vendrías ( ) lemma=venir 
- vendámoslos ( ) lemma=vender 
- vendérselas ( ) lemma=venderse 
- vendí ( ) lemma=vender 
- vendía ( ) lemma=vender 
- vendíamos ( ) lemma=vender 
- vendían ( ) lemma=vender 
- vendías ( ) lemma=vender 
- veneciana ( ) lemma=veneciano 
+ vendimias ( ) 
+ vendimos ( ) 
+ vendiéndolas ( ) 
+ vendiéndole ( ) 
+ vendiéndolos ( ) 
+ vendiéndose ( ) 
+ vendió ( ) 
+ vendo ( ) 
+ vendrá ( ) 
+ vendrán ( ) 
+ vendrás ( ) 
+ vendré ( ) 
+ vendréis ( ) 
+ vendría ( ) 
+ vendríamos ( ) 
+ vendrían ( ) 
+ vendrías ( ) 
+ vendámoslos ( ) 
+ vendérselas ( ) 
+ vendí ( ) 
+ vendía ( ) 
+ vendíamos ( ) 
+ vendían ( ) 
+ vendías ( ) 
+ veneciana ( ) 
+ venecianas ( ) 
  veneciano ( ) 
- venecianas ( ) lemma=veneciano 
- venecianos ( ) lemma=veneciano 
+ venecianos ( ) 
  veneno ( ) 
- venenos ( ) lemma=veneno 
- venenosas ( ) lemma=venenoso 
+ venenos ( ) 
+ venenosas ( ) 
  venenoso ( ) 
- venenosos ( ) lemma=venenoso 
- venera ( ) lemma=venerar 
- venerar ( ) 
+ venenosos ( ) 
+ venera ( ) 
  venerable ( ) 
- venerado ( ) lemma=venerar 
- venerados ( ) lemma=venerar 
- venero ( ) lemma=venerar 
- venezolana ( ) lemma=venezolano 
+ venerado ( ) 
+ venerados ( ) 
+ venero ( ) 
+ venezolana ( ) 
+ venezolanas ( ) 
  venezolano ( ) 
- venezolanas ( ) lemma=venezolano 
- venezolanos ( ) lemma=venezolano 
- venga ( ) lemma=vengar|venir 
- vengar|venir ( ) 
- vengaba ( ) lemma=vengar 
- vengar ( ) 
- vengamos ( ) lemma=vengar|venir 
- vengan ( ) lemma=vengar|venir 
+ venezolanos ( ) 
+ venga ( ) lemma=avenir 
+ vengaba ( ) 
+ vengamos ( ) 
+ vengan ( ) 
  venganza ( ) 
- venganzas ( ) lemma=venganza 
- vengara ( ) lemma=vengar 
+ venganzas ( ) 
+ vengar ( ) 
+ vengara ( ) 
  vengarse ( ) 
- vengará ( ) lemma=vengar 
- vengaré ( ) lemma=vengar 
- vengas ( ) lemma=vengar|venir 
- vengo ( ) lemma=vengar|venir 
- vengue ( ) lemma=vengar 
- vengáis ( ) lemma=vengar|venir 
- vengándose ( ) lemma=vengar 
- vengás ( ) lemma=vengar|venir 
- venid ( ) lemma=venir 
- venida ( ) lemma=venir 
- venidas ( ) lemma=venir 
- venidera ( ) lemma=venidero 
+ vengará ( ) 
+ vengaré ( ) 
+ vengas ( ) 
+ vengo ( ) 
+ vengue ( ) 
+ vengáis ( ) 
+ vengándose ( ) 
+ vengás ( ) 
+ venid ( ) lemma=avenida 
+ venida ( ) lemma=avenida 
+ venidas ( ) 
+ venidera ( ) 
+ venideras ( ) 
  venidero ( ) 
- venideras ( ) lemma=venidero 
- venideros ( ) lemma=venidero 
- venido ( ) lemma=venir 
- venidos ( ) lemma=venir 
- venimos ( ) lemma=venir 
- venirle ( ) lemma=venir 
- venirme ( ) lemma=venir 
- venirnos ( ) lemma=venir 
- veniros ( ) lemma=venir 
+ venideros ( ) 
+ venido ( ) lemma=avenir 
+ venidos ( ) 
+ venimos ( ) 
+ venir ( ) 
+ venirle ( ) 
+ venirme ( ) 
+ venirnos ( ) 
+ veniros ( ) 
  venirse ( ) 
- venirte ( ) lemma=venir 
+ venirte ( ) 
  veno-venoso ( ) 
  venomotor ( ) 
  venooclusiva ( ) 
- venosa ( ) lemma=venoso 
+ venosa ( ) 
+ venosas ( ) 
  venoso ( ) 
- venosas ( ) lemma=venoso 
- venosos ( ) lemma=venoso 
- venta ( ) 
- ventaja ( ) 
- ventajas ( ) lemma=ventaja 
- ventajosa ( ) lemma=ventajoso 
+ venosos ( ) 
+ venta ( ) lemma=aventar 
+ ventaja ( ) lemma=aventajar 
+ ventajas ( ) 
+ ventajosa ( ) 
+ ventajosamente ( ) 
+ ventajosas ( ) 
  ventajoso ( ) 
- ventajosamente ( ) lemma=ventajoso 
- ventajosas ( ) lemma=ventajoso 
- ventajosos ( ) lemma=ventajoso 
+ ventajosos ( ) 
  ventana ( ) 
- ventanas ( ) lemma=ventana 
- ventanilla ( ) lemma=ventana 
- ventanillas ( ) lemma=ventana 
- ventanita ( ) lemma=ventana 
- ventas ( ) lemma=venta 
- vente ( ) lemma=venir 
- ventila ( ) lemma=ventilar 
- ventilar ( ) 
+ ventanas ( ) 
+ ventanilla ( ) 
+ ventanillas ( ) 
+ ventanita ( ) 
+ ventas ( ) 
+ vente ( ) 
+ ventila ( ) 
  ventilación ( ) 
  ventilación-perfusión ( ) 
- ventilado ( ) lemma=ventilar 
- ventilados ( ) lemma=ventilar 
- ventilan ( ) lemma=ventilar 
- ventilando ( ) lemma=ventilar 
+ ventilado ( ) 
+ ventilados ( ) 
+ ventilan ( ) 
+ ventilando ( ) 
+ ventilar ( ) 
  ventilarse ( ) 
  ventilatorio ( ) 
- ventile ( ) lemma=ventilar 
- ventilen ( ) lemma=ventilar 
- ventiló ( ) lemma=ventilar 
+ ventile ( ) 
+ ventilen ( ) 
+ ventiló ( ) 
  ventosa ( ) 
  ventral ( ) 
- ventrales ( ) lemma=ventral 
+ ventrales ( ) 
  ventralmente ( ) 
  ventricular ( ) 
- ventriculares ( ) lemma=ventricular 
+ ventriculares ( ) 
  ventriculografía ( ) 
  ventrobasal ( ) 
  ventrículo ( ) 
- ventrículos ( ) lemma=ventrículo 
- ventura ( ) 
- venturosa ( ) lemma=venturoso 
- venturoso ( ) 
- venturosamente ( ) lemma=venturoso 
- venturosos ( ) lemma=venturoso 
- venza ( ) lemma=vencer 
- venzan ( ) lemma=vencer 
- venéreas ( ) lemma=venéreo 
- venéreo ( ) 
- venía ( ) lemma=venir 
- veníamos ( ) lemma=venir 
- venían ( ) lemma=venir 
- venías ( ) lemma=venir 
- venís ( ) lemma=venir 
- veo ( ) lemma=ver 
- veraces ( ) lemma=veraz 
- veraz ( ) 
+ ventrículos ( ) 
+ ventura ( ) lemma=aventura 
+ venturosa ( ) 
+ venturosamente ( ) 
+ venturosos ( ) 
+ venza ( ) 
+ venzan ( ) 
+ venéreas ( ) 
+ venía ( ) 
+ veníamos ( ) 
+ venían ( ) 
+ venías ( ) 
+ venís ( ) 
+ veo ( ) 
+ ver ( ) lemma=Avery 
+ veraces ( ) 
  veracidad ( ) 
- veracruzana ( ) lemma=veracruzano 
+ veracruzana ( ) 
  veracruzano ( ) 
- veracruzanos ( ) lemma=veracruzano 
- veranea ( ) lemma=veranear 
+ veracruzanos ( ) 
+ veranea ( ) 
+ veraneaba ( ) 
  veranear ( ) 
- veraneaba ( ) lemma=veranear 
- veraneo ( ) lemma=veranear 
- veraniega ( ) lemma=veraniego 
+ veraneo ( ) 
+ veraniega ( ) 
  veraniego ( ) 
  verano ( ) 
- veranos ( ) lemma=verano 
+ veranos ( ) 
  veras ( ) 
+ veraz ( ) 
  verbal ( ) 
- verbales ( ) lemma=verbal 
- verbalmente ( ) lemma=verbal 
+ verbales ( ) 
+ verbalmente ( ) 
  verbena ( ) 
  verbo ( ) 
  verborrea ( ) 
- verborreas ( ) lemma=verborrea 
- verbos ( ) lemma=verbo 
+ verborreas ( ) 
+ verbos ( ) 
  verdad ( ) 
- verdadera ( ) lemma=verdadero 
+ verdadera ( ) 
+ verdaderamente ( ) 
+ verdaderas ( ) 
  verdadero ( ) 
- verdaderamente ( ) lemma=verdadero 
- verdaderas ( ) lemma=verdadero 
- verdaderos ( ) lemma=verdadero 
- verdades ( ) lemma=verdad 
+ verdaderos ( ) 
+ verdades ( ) 
  verde ( ) 
- verdecito ( ) lemma=verde 
- verdes ( ) lemma=verde 
+ verdecito ( ) 
+ verdes ( ) 
  verdiazule ( ) 
  verdugo ( ) 
- verdugos ( ) lemma=verdugo 
+ verdugos ( ) 
  verdura ( ) 
- verduras ( ) lemma=verdura 
+ verduras ( ) 
  vereda ( ) 
- veredas ( ) lemma=vereda 
+ veredas ( ) 
  veredicto ( ) 
- veredictos ( ) lemma=veredicto 
- veremos ( ) lemma=ver 
+ veredictos ( ) 
+ veremos ( ) 
  vergonzante ( ) 
- vergonzosa ( ) lemma=vergonzoso 
+ vergonzosa ( ) 
+ vergonzosamente ( ) 
+ vergonzosas ( ) 
  vergonzoso ( ) 
- vergonzosamente ( ) lemma=vergonzoso 
- vergonzosas ( ) lemma=vergonzoso 
- vergonzosos ( ) lemma=vergonzoso 
- verguenza ( ) lemma=vergüenza 
+ vergonzosos ( ) 
+ verguenza ( ) 
  vergüenza ( ) 
- verifica ( ) lemma=verificar 
- verificar ( ) 
- verificaban ( ) lemma=verificar 
- verificaciones ( ) lemma=verificación 
+ verifica ( ) 
+ verificaban ( ) 
+ verificaciones ( ) 
  verificación ( ) 
- verificada ( ) lemma=verificar 
- verificadas ( ) lemma=verificar 
- verificado ( ) lemma=verificar 
- verificados ( ) lemma=verificar 
- verificamos ( ) lemma=verificar 
- verifican ( ) lemma=verificar 
- verificando ( ) lemma=verificar 
- verificara ( ) lemma=verificar 
- verificaremos ( ) lemma=verificar 
- verificarlo ( ) lemma=verificar 
- verificaron ( ) lemma=verificar 
+ verificada ( ) 
+ verificadas ( ) 
+ verificado ( ) 
+ verificados ( ) 
+ verificamos ( ) 
+ verifican ( ) 
+ verificando ( ) 
+ verificar ( ) 
+ verificara ( ) 
+ verificaremos ( ) 
+ verificarlo ( ) 
+ verificaron ( ) 
  verificarse ( ) 
- verificará ( ) lemma=verificar 
- verificarán ( ) lemma=verificar 
- verificaré ( ) lemma=verificar 
- verificaría ( ) lemma=verificar 
- verificase ( ) lemma=verificar 
- verificasen ( ) lemma=verificar 
- verificó ( ) lemma=verificar 
- verifique ( ) lemma=verificar 
- verifiquen ( ) lemma=verificar 
- verifiqué ( ) lemma=verificar 
- verifíquese ( ) lemma=verificarse 
+ verificará ( ) 
+ verificarán ( ) 
+ verificaré ( ) 
+ verificaría ( ) 
+ verificase ( ) 
+ verificasen ( ) 
+ verificó ( ) 
+ verifique ( ) 
+ verifiquen ( ) 
+ verifiqué ( ) 
+ verifíquese ( ) 
  verja ( ) 
- verjas ( ) lemma=verja 
- verla ( ) lemma=ver 
- verle ( ) lemma=ver 
- verles ( ) lemma=ver 
- verlo ( ) lemma=ver 
- verlos ( ) lemma=ver 
- verme ( ) lemma=ver 
- vernos ( ) lemma=ver 
- veros ( ) lemma=ver 
+ verjas ( ) 
+ verla ( ) lemma=overlap 
+ verle ( ) 
+ verles ( ) 
+ verlo ( ) 
+ verlos ( ) 
+ verme ( ) 
+ vernos ( ) 
+ veros ( ) 
  verosimilitud ( ) 
  verrouillage ( ) 
- verrugas ( ) lemma=verruga 
- verruga ( ) 
+ verrugas ( ) 
  vers ( ) 
- versa ( ) lemma=versar 
+ versa ( ) 
+ versaba ( ) 
+ versaban ( ) 
+ versado ( ) 
+ versados ( ) 
+ versan ( ) 
  versar ( ) 
- versaba ( ) lemma=versar 
- versaban ( ) lemma=versar 
- versado ( ) lemma=versar 
- versados ( ) lemma=versar 
- versan ( ) lemma=versar 
- versaran ( ) lemma=versar 
- versaron ( ) lemma=versar 
- versará ( ) lemma=versar 
- versarán ( ) lemma=versar 
- versaría ( ) lemma=versar 
- versas ( ) lemma=versar 
+ versaran ( ) 
+ versaron ( ) 
+ versará ( ) 
+ versarán ( ) 
+ versaría ( ) 
+ versas ( ) 
  versatilidad ( ) 
  verse ( ) 
- versen ( ) lemma=versar 
- version ( ) lemma=versión 
+ versen ( ) 
+ version ( ) 
+ versiones ( ) 
+ versito ( ) 
  versión ( ) 
- versiones ( ) lemma=versión 
- versito ( ) lemma=verso 
  verso ( ) 
- versos ( ) lemma=verso 
+ versos ( ) 
  versus ( ) 
  versátil ( ) 
- versátiles ( ) lemma=versátil 
- versó ( ) lemma=versar 
- verte ( ) lemma=ver 
- vertebradas ( ) lemma=vertebrar 
- vertebrar ( ) 
+ versátiles ( ) 
+ versó ( ) 
+ verte ( ) 
+ vertebradas ( ) 
  vertebrado ( ) 
- vertebrados ( ) lemma=vertebrado 
+ vertebrados ( ) 
  vertebral ( ) 
- vertebrales ( ) lemma=vertebral 
+ vertebrales ( ) 
  vertebrobasilar ( ) 
  vertedero ( ) 
- vertederos ( ) lemma=vertedero 
- vertemos ( ) lemma=verter 
+ vertederos ( ) 
+ vertemos ( ) 
  verter ( ) 
- verterse ( ) lemma=verter 
- vertería ( ) lemma=verter 
+ verterse ( ) 
+ vertería ( ) 
  vertical ( ) 
- verticales ( ) lemma=vertical 
+ verticales ( ) 
  verticalidad ( ) 
- verticalidades ( ) lemma=verticalidad 
+ verticalidades ( ) 
  verticalización ( ) 
- verticalmente ( ) lemma=vertical 
- vertida ( ) lemma=verter 
- vertidas ( ) lemma=verter 
- vertido ( ) lemma=verter 
- vertidos ( ) lemma=verter 
- vertiendo ( ) lemma=verter 
+ verticalmente ( ) 
+ vertida ( ) 
+ vertidas ( ) 
+ vertido ( ) 
+ vertidos ( ) 
+ vertiendo ( ) 
  vertiente ( ) 
- vertientes ( ) lemma=vertiente 
- vertiera ( ) lemma=verter 
- vertieron ( ) lemma=verter 
+ vertientes ( ) 
+ vertiera ( ) 
+ vertieron ( ) 
  vertiginoso ( ) 
- vertió ( ) lemma=verter 
- vertían ( ) lemma=verter 
- verá ( ) lemma=ver 
- verán ( ) lemma=ver 
- verás ( ) lemma=ver 
- veré ( ) lemma=ver 
- veréis ( ) lemma=ver 
- vería ( ) lemma=ver 
- veríais ( ) lemma=ver 
- veríamos ( ) lemma=ver 
- verían ( ) lemma=ver 
- verías ( ) lemma=ver 
- verídica ( ) lemma=verídico 
- verídico ( ) 
+ vertió ( ) 
+ vertían ( ) 
+ verá ( ) 
+ verán ( ) 
+ verás ( ) 
+ veré ( ) 
+ veréis ( ) 
+ vería ( ) lemma=avería 
+ veríais ( ) 
+ veríamos ( ) 
+ verían ( ) 
+ verías ( ) 
+ verídica ( ) 
  verónica ( ) 
- verónicas ( ) lemma=verónica 
- ves ( ) lemma=ver 
+ verónicas ( ) 
+ ves ( ) 
  vesical ( ) 
- vesicales ( ) lemma=vesical 
+ vesicales ( ) 
  vesicogenital ( ) 
  vesicoureteral ( ) 
  vesicouterino ( ) 
  vesicovaginal ( ) 
  vesicular ( ) 
- vespertina ( ) lemma=vespertino 
+ vespertina ( ) 
+ vespertinas ( ) 
  vespertino ( ) 
- vespertinas ( ) lemma=vespertino 
  vestibular ( ) 
- vestida ( ) lemma=vestir 
- vestir ( ) 
- vestidas ( ) lemma=vestir 
- vestidito ( ) lemma=vestido 
+ vestida ( ) 
+ vestidas ( ) 
+ vestidito ( ) 
+ vestiditos ( ) 
  vestido ( ) 
- vestiditos ( ) lemma=vestido 
- vestidos ( ) lemma=vestido 
- vestiduras ( ) lemma=vestidura 
- vestidura ( ) 
+ vestidos ( ) 
+ vestiduras ( ) 
  vestigio ( ) 
- vestigios ( ) lemma=vestigio 
+ vestigios ( ) 
  vestimenta ( ) 
- vestimentas ( ) lemma=vestimenta 
- vestimos ( ) lemma=vestir 
- vestirla ( ) lemma=vestir 
- vestirme ( ) lemma=vestir 
- vestirnos ( ) lemma=vestir 
+ vestimentas ( ) 
+ vestimos ( ) 
+ vestir ( ) 
+ vestirla ( ) 
+ vestirme ( ) 
+ vestirnos ( ) 
  vestirse ( ) 
- vestirá ( ) lemma=vestir 
- vestirán ( ) lemma=vestir 
- vestiste ( ) lemma=vestir 
+ vestirá ( ) 
+ vestirán ( ) 
+ vestiste ( ) 
  vestuario ( ) 
- vestuarios ( ) lemma=vestuario 
- vestía ( ) lemma=vestir 
- vestían ( ) lemma=vestir 
+ vestuarios ( ) 
+ vestía ( ) 
+ vestían ( ) 
  vestíbulo ( ) 
  vesícula ( ) 
- vesículas ( ) lemma=vesícula 
- veta ( ) lemma=vetar 
+ vesículas ( ) 
+ veta ( ) 
+ vetada ( ) 
+ vetado ( ) 
  vetar ( ) 
- vetada ( ) lemma=vetar 
- vetado ( ) lemma=vetar 
- vetara ( ) lemma=vetar 
- vetaron ( ) lemma=vetar 
- vetará ( ) lemma=vetar 
- vetaría ( ) lemma=vetar 
- vetas ( ) lemma=vetar 
- vete ( ) lemma=ir|ver 
- veterana ( ) lemma=veterano 
+ vetara ( ) 
+ vetaron ( ) 
+ vetará ( ) 
+ vetaría ( ) 
+ vetas ( ) 
+ vete ( ) 
+ veterana ( ) 
+ veteranas ( ) 
  veterano ( ) 
- veteranas ( ) lemma=veterano 
- veteranos ( ) lemma=veterano 
- veterinaria ( ) lemma=veterinario 
+ veteranos ( ) 
+ veterinaria ( ) 
+ veterinarias ( ) 
  veterinario ( ) 
- veterinarias ( ) lemma=veterinario 
- veterinarios ( ) lemma=veterinario 
- veto ( ) lemma=vetar 
- vetó ( ) lemma=vetar 
- veáis ( ) lemma=ver 
- veía ( ) lemma=ver 
- veíais ( ) lemma=ver 
- veíamos ( ) lemma=ver 
- veían ( ) lemma=ver 
- veías ( ) lemma=ver 
+ veterinarios ( ) 
+ veto ( ) 
+ vetó ( ) 
+ vez ( ) 
+ veáis ( ) 
+ veía ( ) 
+ veíais ( ) 
+ veíamos ( ) 
+ veían ( ) 
+ veías ( ) 
  vi ( ) 
- via ( ) lemma=vía 
- vía ( ) 
+ via ( ) 
  viabilidad ( ) 
  viable ( ) 
- viables ( ) lemma=viable 
+ viables ( ) 
  viaducto ( ) 
- viaductos ( ) lemma=viaducto 
- viaja ( ) lemma=viajar 
+ viaductos ( ) 
+ viaja ( ) 
+ viajaba ( ) 
+ viajaban ( ) 
+ viajado ( ) 
+ viajamos ( ) 
+ viajan ( ) 
+ viajando ( ) 
  viajar ( ) 
- viajaba ( ) lemma=viajar 
- viajaban ( ) lemma=viajar 
- viajado ( ) lemma=viajar 
- viajamos ( ) lemma=viajar 
- viajan ( ) lemma=viajar 
- viajando ( ) lemma=viajar 
- viajara ( ) lemma=viajar 
- viajaran ( ) lemma=viajar 
- viajaremos ( ) lemma=viajar 
- viajaron ( ) lemma=viajar 
- viajará ( ) lemma=viajar 
- viajarán ( ) lemma=viajar 
- viajaré ( ) lemma=viajar 
- viajaría ( ) lemma=viajar 
- viajas ( ) lemma=viajar 
- viajase ( ) lemma=viajar 
- viajasen ( ) lemma=viajar 
+ viajara ( ) 
+ viajaran ( ) 
+ viajaremos ( ) 
+ viajaron ( ) 
+ viajará ( ) 
+ viajarán ( ) 
+ viajaré ( ) 
+ viajaría ( ) 
+ viajas ( ) 
+ viajase ( ) 
+ viajasen ( ) 
  viaje ( ) 
- viajecito ( ) lemma=viaje 
- viajen ( ) lemma=viajar 
- viajera ( ) lemma=viajero 
+ viajecito ( ) 
+ viajen ( ) 
+ viajera ( ) 
+ viajeras ( ) 
  viajero ( ) 
- viajeras ( ) lemma=viajero 
- viajeros ( ) lemma=viajero 
- viajes ( ) lemma=viaje 
- viajo ( ) lemma=viajar 
- viajáis ( ) lemma=viajar 
- viajé ( ) lemma=viajar 
- viajó ( ) lemma=viajar 
+ viajeros ( ) 
+ viajes ( ) 
+ viajo ( ) 
+ viajáis ( ) 
+ viajé ( ) 
+ viajó ( ) 
  vial ( ) 
- viales ( ) lemma=vial 
+ viales ( ) 
  vialidad ( ) 
- vialidades ( ) lemma=vialidad 
- viaria ( ) lemma=viario 
- viario ( ) 
- vibra ( ) lemma=vibrar 
- vibrar ( ) 
- vibraciones ( ) lemma=vibración 
+ vialidades ( ) 
+ viaria ( ) 
+ vibra ( ) 
+ vibraciones ( ) 
  vibración ( ) 
- vibrado ( ) lemma=vibrar 
- vibradores ( ) lemma=vibrador 
- vibrador ( ) 
+ vibrado ( ) 
+ vibradores ( ) 
  vibrante ( ) 
- vibrantes ( ) lemma=vibrante 
- vibraron ( ) lemma=vibrar 
+ vibrantes ( ) 
+ vibrar ( ) 
+ vibraron ( ) 
  vicario ( ) 
  viceconsejería ( ) 
  vicedirector ( ) 
- viceministra ( ) lemma=viceministro 
+ viceministra ( ) 
  viceministro ( ) 
- viceministros ( ) lemma=viceministro 
+ viceministros ( ) 
  vicepresidencia ( ) 
- vicepresidencias ( ) lemma=vicepresidencia 
- vicepresidenta ( ) lemma=vicepresidente 
+ vicepresidencias ( ) 
+ vicepresidenta ( ) 
  vicepresidente ( ) 
- vicepresidentes ( ) lemma=vicepresidente 
+ vicepresidentes ( ) 
  vicesecretario ( ) 
  viceversa ( ) 
- viché ( ) lemma=vichar 
- vichar ( ) 
- vicia ( ) lemma=viciar 
+ viché ( ) 
+ vicia ( ) 
+ viciada ( ) 
+ viciadas ( ) 
+ viciado ( ) 
+ viciados ( ) 
+ viciando ( ) 
  viciar ( ) 
- viciada ( ) lemma=viciar 
- viciadas ( ) lemma=viciar 
- viciado ( ) lemma=viciar 
- viciados ( ) lemma=viciar 
- viciando ( ) lemma=viciar 
  vicio ( ) 
- vicios ( ) lemma=vicio 
- viciosas ( ) lemma=vicioso 
+ vicios ( ) 
+ viciosas ( ) 
  vicioso ( ) 
- viciosos ( ) lemma=vicioso 
- vicisitudes ( ) lemma=vicisitud 
- vicisitud ( ) 
- victimas ( ) lemma=víctima 
- víctima ( ) 
+ viciosos ( ) 
+ vicisitudes ( ) 
+ victimas ( ) 
  victoria ( ) 
  victoriana ( ) 
- victorianas ( ) lemma=victoriana 
- victorias ( ) lemma=victoria 
- victoriosa ( ) lemma=victorioso 
+ victorianas ( ) 
+ victorias ( ) 
+ victoriosa ( ) 
+ victoriosas ( ) 
  victorioso ( ) 
- victoriosas ( ) lemma=victorioso 
- victoriosos ( ) lemma=victorioso 
+ victoriosos ( ) 
  vid ( ) 
  vida ( ) 
- vidas ( ) lemma=vida 
+ vidas ( ) 
  video ( ) 
  videocasete ( ) 
  videograbadora ( ) 
- videojuegos ( ) lemma=videojuego 
- videojuego ( ) 
- videos ( ) lemma=video 
+ videojuegos ( ) 
+ videos ( ) 
  videotex ( ) 
- vides ( ) lemma=vid 
- vidriadas ( ) lemma=vidriar 
- vidriar ( ) 
+ vides ( ) 
+ vidriadas ( ) 
  vidrio ( ) 
- vidrios ( ) lemma=vidrio 
- vidriosos ( ) lemma=vidrioso 
- vidrioso ( ) 
- vieja ( ) lemma=viejo 
+ vidrios ( ) 
+ vidriosos ( ) 
+ vieja ( ) 
+ viejas ( ) 
+ viejecitas ( ) 
+ viejecito ( ) 
+ viejecitos ( ) 
+ viejita ( ) 
+ viejito ( ) 
+ viejitos ( ) 
  viejo ( ) 
- viejas ( ) lemma=viejo 
- viejecitas ( ) lemma=viejo 
- viejecito ( ) lemma=viejo 
- viejecitos ( ) lemma=viejo 
- viejita ( ) lemma=viejo 
- viejito ( ) lemma=viejo 
- viejitos ( ) lemma=viejo 
- viejos ( ) lemma=viejo 
- viejísima ( ) lemma=viejo 
- viendo ( ) lemma=ver 
- viene ( ) lemma=venir 
- vienen ( ) lemma=venir 
- vienes ( ) lemma=venir 
- viente ( ) lemma=ventar 
- ventar ( ) 
+ viejos ( ) 
+ viejísima ( ) 
+ viendo ( ) 
+ viene ( ) lemma=avenir 
+ vienen ( ) 
+ vienes ( ) 
+ viente ( ) 
  viento ( ) 
- vientos ( ) lemma=viento 
+ vientos ( ) 
  vientre ( ) 
- vientres ( ) lemma=vientre 
- viera ( ) lemma=ver 
- vierais ( ) lemma=ver 
- vieran ( ) lemma=ver 
- vieras ( ) lemma=ver 
+ vientres ( ) 
+ viera ( ) 
+ vierais ( ) 
+ vieran ( ) 
+ vieras ( ) 
  viernes ( ) 
- vieron ( ) lemma=ver 
- vierta ( ) lemma=verter 
- viertan ( ) lemma=verter 
- vierte ( ) lemma=verter 
- vierten ( ) lemma=verter 
- viese ( ) lemma=ver 
- vieseis ( ) lemma=ver 
- viesen ( ) lemma=ver 
+ vieron ( ) 
+ vierta ( ) 
+ viertan ( ) 
+ vierte ( ) 
+ vierten ( ) 
+ viese ( ) 
+ vieseis ( ) 
+ viesen ( ) 
  vietnamita ( ) 
- vietnamitas ( ) lemma=vietnamita 
+ vietnamitas ( ) 
  viga ( ) 
- vigas ( ) lemma=viga 
+ vigas ( ) 
  vigencia ( ) 
  vigente ( ) 
- vigentes ( ) lemma=vigente 
- vigila ( ) lemma=vigilar 
- vigilar ( ) 
- vigilaba ( ) lemma=vigilar 
- vigilaban ( ) lemma=vigilar 
- vigilada ( ) lemma=vigilar 
- vigiladas ( ) lemma=vigilar 
- vigilado ( ) lemma=vigilar 
- vigilados ( ) lemma=vigilar 
- vigilamos ( ) lemma=vigilar 
- vigilan ( ) lemma=vigilar 
+ vigentes ( ) 
+ vigila ( ) 
+ vigilaba ( ) 
+ vigilaban ( ) 
+ vigilada ( ) 
+ vigiladas ( ) 
+ vigilado ( ) 
+ vigilados ( ) 
+ vigilamos ( ) 
+ vigilan ( ) 
  vigilancia ( ) 
- vigilancias ( ) lemma=vigilancia 
- vigilando ( ) lemma=vigilar 
+ vigilancias ( ) 
+ vigilando ( ) 
  vigilante ( ) 
- vigilantes ( ) lemma=vigilante 
- vigilara ( ) lemma=vigilar 
- vigilaremos ( ) lemma=vigilar 
- vigilarla ( ) lemma=vigilar 
- vigilarlo ( ) lemma=vigilar 
- vigilarnos ( ) lemma=vigilar 
- vigilaron ( ) lemma=vigilar 
+ vigilantes ( ) 
+ vigilar ( ) 
+ vigilara ( ) 
+ vigilaremos ( ) 
+ vigilarla ( ) 
+ vigilarlo ( ) 
+ vigilarnos ( ) 
+ vigilaron ( ) 
  vigilarse ( ) 
- vigilará ( ) lemma=vigilar 
- vigilarán ( ) lemma=vigilar 
- vigilaré ( ) lemma=vigilar 
- vigilaría ( ) lemma=vigilar 
- vigilase ( ) lemma=vigilar 
- vigile ( ) lemma=vigilar 
- vigilemos ( ) lemma=vigilar 
- vigilen ( ) lemma=vigilar 
+ vigilará ( ) 
+ vigilarán ( ) 
+ vigilaré ( ) 
+ vigilaría ( ) 
+ vigilase ( ) 
+ vigile ( ) 
+ vigilemos ( ) 
+ vigilen ( ) 
  vigilia ( ) 
- vigilias ( ) lemma=vigilia 
- vigilándola ( ) lemma=vigilar 
- vigilándose ( ) lemma=vigilarse 
+ vigilias ( ) 
+ vigilándola ( ) 
+ vigilándose ( ) 
  vigor ( ) 
- vigoriza ( ) lemma=vigorizar 
+ vigoriza ( ) 
  vigorizar ( ) 
- vigorosa ( ) lemma=vigoroso 
+ vigorosa ( ) 
+ vigorosamente ( ) 
+ vigorosas ( ) 
  vigoroso ( ) 
- vigorosamente ( ) lemma=vigoroso 
- vigorosas ( ) lemma=vigoroso 
- vigorosos ( ) lemma=vigoroso 
+ vigorosos ( ) 
  vigésima ( ) 
  vigésimo ( ) 
  vigía ( ) 
- vigías ( ) lemma=vigía 
+ vigías ( ) 
  vih ( ) 
  vii ( ) 
  viii ( ) 
- vikinga ( ) lemma=vikingo 
- vikingo ( ) 
- vikingos ( ) lemma=vikingo 
+ vikinga ( ) 
+ vikingos ( ) 
  vil ( ) 
- viles ( ) lemma=vil 
+ viles ( ) 
  villa ( ) 
- villana ( ) lemma=villano 
+ villana ( ) 
  villano ( ) 
- villanos ( ) lemma=villano 
- villas ( ) lemma=villa 
+ villanos ( ) 
+ villas ( ) 
  villorrio ( ) 
- vilmente ( ) lemma=vil 
- vimos ( ) lemma=ver 
+ vilmente ( ) 
+ vimos ( ) 
  vinagre ( ) 
- vinagreras ( ) lemma=vinagrera 
- vinagrera ( ) 
- vinagrito ( ) lemma=vinagre 
+ vinagreras ( ) 
+ vinagrito ( ) 
  vinatería ( ) 
- vincula ( ) lemma=vincular 
- vincular ( ) 
- vinculaba ( ) lemma=vincular 
- vinculaban ( ) lemma=vincular 
- vinculaciones ( ) lemma=vinculación 
+ vincula ( ) 
+ vinculaba ( ) 
+ vinculaban ( ) 
+ vinculaciones ( ) 
  vinculación ( ) 
- vinculad ( ) lemma=vincular 
- vinculada ( ) lemma=vincular 
- vinculadas ( ) lemma=vincular 
- vinculado ( ) lemma=vincular 
- vinculados ( ) lemma=vincular 
- vinculamos ( ) lemma=vincular 
- vinculan ( ) lemma=vincular 
- vinculando ( ) lemma=vincular 
+ vinculad ( ) 
+ vinculada ( ) 
+ vinculadas ( ) 
+ vinculado ( ) 
+ vinculados ( ) 
+ vinculamos ( ) 
+ vinculan ( ) 
+ vinculando ( ) 
  vinculante ( ) 
- vinculara ( ) lemma=vincular 
- vincularon ( ) lemma=vincular 
+ vincular ( ) 
+ vinculara ( ) 
+ vincularon ( ) 
  vincularse ( ) 
- vinculará ( ) lemma=vincular 
- vincularán ( ) lemma=vincular 
- vincularía ( ) lemma=vincular 
- vincularíamos ( ) lemma=vincular 
- vinculase ( ) lemma=vincular 
- vincule ( ) lemma=vincular 
- vinculemos ( ) lemma=vincular 
- vinculen ( ) lemma=vincular 
- vinculo ( ) lemma=vincular 
- vinculándose ( ) lemma=vincularse 
- vinculó ( ) lemma=vincular 
+ vinculará ( ) 
+ vincularán ( ) 
+ vincularía ( ) 
+ vincularíamos ( ) 
+ vinculase ( ) 
+ vincule ( ) 
+ vinculemos ( ) 
+ vinculen ( ) 
+ vinculo ( ) 
+ vinculándose ( ) 
+ vinculó ( ) 
  vindicatorio ( ) 
- vine ( ) lemma=venir 
- viniendo ( ) lemma=venir 
- viniera ( ) lemma=venir 
- vinieran ( ) lemma=venir 
- vinieras ( ) lemma=venir 
- viniere ( ) lemma=venir 
- vinieren ( ) lemma=venir 
- vinieron ( ) lemma=venir 
- viniese ( ) lemma=venir 
- vinieseis ( ) lemma=venir 
- viniesen ( ) lemma=venir 
+ vine ( ) 
+ viniendo ( ) 
+ viniera ( ) lemma=avenir 
+ vinieran ( ) 
+ vinieras ( ) 
+ viniere ( ) 
+ vinieren ( ) 
+ vinieron ( ) 
+ viniese ( ) 
+ vinieseis ( ) 
+ viniesen ( ) 
  vinilo ( ) 
- vinimos ( ) lemma=venir 
- viniste ( ) lemma=venir 
- vinito ( ) lemma=vino 
- vino ( ) 
- vinos ( ) lemma=vino 
- vio ( ) lemma=ver 
- viola ( ) lemma=violar 
- violar ( ) 
- violaba ( ) lemma=violar 
- violaban ( ) lemma=violar 
- violaciones ( ) lemma=violación 
+ vinimos ( ) 
+ viniste ( ) 
+ vinito ( ) 
+ vino ( ) lemma=ovino 
+ vinos ( ) 
+ vio ( ) 
+ viola ( ) 
+ violaba ( ) 
+ violaban ( ) 
+ violaciones ( ) 
  violación ( ) 
- violada ( ) lemma=violar 
- violadas ( ) lemma=violar 
- violado ( ) lemma=violar 
- violados ( ) lemma=violar 
- violamos ( ) lemma=violar 
- violan ( ) lemma=violar 
- violando ( ) lemma=violar 
- violara ( ) lemma=violar 
- violaran ( ) lemma=violar 
- violaren ( ) lemma=violar 
- violaron ( ) lemma=violar 
- violará ( ) lemma=violar 
- violaría ( ) lemma=violar 
- violaríamos ( ) lemma=violar 
- violarían ( ) lemma=violar 
- viole ( ) lemma=violar 
- violen ( ) lemma=violar 
+ violada ( ) 
+ violadas ( ) 
+ violado ( ) 
+ violados ( ) 
+ violamos ( ) 
+ violan ( ) 
+ violando ( ) 
+ violar ( ) 
+ violara ( ) 
+ violaran ( ) 
+ violaren ( ) 
+ violaron ( ) 
+ violará ( ) 
+ violaría ( ) 
+ violaríamos ( ) 
+ violarían ( ) 
+ viole ( ) 
+ violen ( ) 
  violencia ( ) 
- violencias ( ) lemma=violencia 
- violenta ( ) lemma=violento 
- violento ( ) 
- violentado ( ) lemma=violentar 
+ violencias ( ) 
+ violenta ( ) 
+ violentado ( ) 
+ violentamente ( ) 
+ violentando ( ) 
  violentar ( ) 
- violentamente ( ) lemma=violento 
- violentando ( ) lemma=violentar 
- violentaron ( ) lemma=violentar 
- violentaría ( ) lemma=violentar 
- violentas ( ) lemma=violento 
- violente ( ) lemma=violentar 
- violentos ( ) lemma=violento 
- violentísimamente ( ) lemma=violento 
- violentísimo ( ) lemma=violento 
+ violentaron ( ) 
+ violentaría ( ) 
+ violentas ( ) 
+ violente ( ) 
+ violento ( ) 
+ violentos ( ) 
+ violentísimamente ( ) 
+ violentísimo ( ) 
  violeta ( ) 
- violetas ( ) lemma=violeta 
- violines ( ) lemma=violín 
- violín ( ) 
+ violetas ( ) 
+ violines ( ) 
  violinista ( ) 
- violinistas ( ) lemma=violinista 
- violé ( ) lemma=violar 
- violó ( ) lemma=violar 
- virado ( ) lemma=virar 
- virar ( ) 
+ violinistas ( ) 
+ violé ( ) 
+ violín ( ) 
+ violó ( ) 
+ virado ( ) 
  viral ( ) 
- virales ( ) lemma=viral 
- virarás ( ) lemma=virar 
- vires ( ) lemma=virar 
+ virales ( ) 
+ virar ( ) 
+ virarás ( ) 
+ vires ( ) 
  virgen ( ) 
- virgencita ( ) lemma=virgen 
+ virgencita ( ) 
  viril ( ) 
  virilidad ( ) 
  virión ( ) 
  virosis ( ) 
  virtual ( ) 
- virtuales ( ) lemma=virtual 
+ virtuales ( ) 
  virtualidad ( ) 
- virtualmente ( ) lemma=virtual 
+ virtualmente ( ) 
  virtud ( ) 
- virtudes ( ) lemma=virtud 
+ virtudes ( ) 
  virtuel ( ) 
  virtuelle ( ) 
- virtuosa ( ) lemma=virtuoso 
- virtuoso ( ) 
- virtuosas ( ) lemma=virtuoso 
+ virtuosa ( ) 
+ virtuosas ( ) 
  virtuosismo ( ) 
- virtuosos ( ) lemma=virtuoso 
+ virtuoso ( ) 
+ virtuosos ( ) 
  viruela ( ) 
  virulencia ( ) 
- virulenta ( ) lemma=virulento 
+ virulenta ( ) 
+ virulentas ( ) 
  virulento ( ) 
- virulentas ( ) lemma=virulento 
- virulentos ( ) lemma=virulento 
+ virulentos ( ) 
  virus ( ) 
- viró ( ) lemma=virar 
+ viró ( ) 
  virósico ( ) 
- visa ( ) lemma=visar 
- visar ( ) 
- visada ( ) lemma=visar 
- visado ( ) lemma=visar 
- visados ( ) lemma=visar 
+ visa ( ) lemma=avisar 
+ visada ( ) 
+ visado ( ) lemma=avisar 
+ visados ( ) 
  visaje ( ) 
- visas ( ) lemma=visar 
+ visar ( ) 
+ visas ( ) 
  visceral ( ) 
- viscerales ( ) lemma=visceral 
- viscosa ( ) lemma=viscoso 
- viscoso ( ) 
- viscosas ( ) lemma=viscoso 
+ viscerales ( ) 
+ viscosa ( ) 
+ viscosas ( ) 
  viscosidad ( ) 
- viscosos ( ) lemma=viscoso 
+ viscoso ( ) 
+ viscosos ( ) 
  visibilidad ( ) 
  visible ( ) 
- visiblemente ( ) lemma=visible 
- visibles ( ) lemma=visible 
- visigótica ( ) lemma=visigótico 
- visigótico ( ) 
+ visiblemente ( ) 
+ visibles ( ) 
+ visigótica ( ) 
  visiofónico ( ) 
- visionado ( ) lemma=visionar 
- visionar ( ) 
- visiones ( ) lemma=visión 
- visión ( ) 
+ visionado ( ) 
+ visiones ( ) 
  visita ( ) 
- visitaba ( ) lemma=visitar 
+ visitaba ( ) 
+ visitaban ( ) 
+ visitada ( ) 
+ visitadas ( ) 
+ visitado ( ) 
+ visitados ( ) 
+ visitamos ( ) 
+ visitan ( ) 
+ visitando ( ) 
+ visitante ( ) 
+ visitantes ( ) 
  visitar ( ) 
- visitaban ( ) lemma=visitar 
- visitada ( ) lemma=visitar 
- visitadas ( ) lemma=visitar 
- visitado ( ) lemma=visitar 
- visitados ( ) lemma=visitar 
- visitamos ( ) lemma=visitar 
- visitan ( ) lemma=visitar 
- visitando ( ) lemma=visitar 
- visitante ( ) lemma=visitar 
- visitantes ( ) lemma=visitar 
- visitara ( ) lemma=visitar 
- visitaran ( ) lemma=visitar 
- visitaremos ( ) lemma=visitar 
- visitarla ( ) lemma=visitar 
- visitarle ( ) lemma=visitar 
- visitarlo ( ) lemma=visitar 
- visitarme ( ) lemma=visitar 
- visitarnos ( ) lemma=visitar 
- visitaron ( ) lemma=visitar 
- visitará ( ) lemma=visitar 
- visitarán ( ) lemma=visitar 
- visitaré ( ) lemma=visitar 
- visitaría ( ) lemma=visitar 
- visitas ( ) lemma=visitar 
- visitase ( ) lemma=visitar 
- visite ( ) lemma=visitar 
- visiten ( ) lemma=visitar 
- visites ( ) lemma=visitar 
- visito ( ) lemma=viso 
- viso ( ) 
- visité ( ) lemma=visitar 
- visitó ( ) lemma=visitar 
- vislumbra ( ) lemma=vislumbrar 
+ visitara ( ) 
+ visitaran ( ) 
+ visitaremos ( ) 
+ visitarla ( ) 
+ visitarle ( ) 
+ visitarlo ( ) 
+ visitarme ( ) 
+ visitarnos ( ) 
+ visitaron ( ) 
+ visitará ( ) 
+ visitarán ( ) 
+ visitaré ( ) 
+ visitaría ( ) 
+ visitas ( ) 
+ visitase ( ) 
+ visite ( ) 
+ visiten ( ) 
+ visites ( ) 
+ visito ( ) 
+ visité ( ) 
+ visitó ( ) 
+ visión ( ) 
+ vislumbra ( ) 
+ vislumbraba ( ) 
+ vislumbrados ( ) 
+ vislumbran ( ) 
  vislumbrar ( ) 
- vislumbraba ( ) lemma=vislumbrar 
- vislumbrados ( ) lemma=vislumbrar 
- vislumbran ( ) lemma=vislumbrar 
- vislumbrarse ( ) lemma=vislumbrar 
- vislumbre ( ) lemma=vislumbrar 
- vislumbres ( ) lemma=vislumbrar 
- vislumbro ( ) lemma=vislumbrar 
+ vislumbrarse ( ) 
+ vislumbre ( ) 
+ vislumbres ( ) 
+ vislumbro ( ) 
  visomotora ( ) 
- visones ( ) lemma=visón 
- visón ( ) 
- visos ( ) lemma=viso 
- vista ( ) 
- vistamos ( ) lemma=vestir 
- vistan ( ) lemma=vestir 
- vistas ( ) lemma=vista 
+ visones ( ) 
+ visos ( ) 
+ vista ( ) lemma=avistar 
+ vistamos ( ) 
+ vistan ( ) 
+ vistas ( ) 
  vistazo ( ) 
- viste ( ) lemma=ver|ver|vestir 
- ver|ver|vestir ( ) 
- visteis ( ) lemma=ver 
- visten ( ) lemma=vestir 
- vistes ( ) lemma=ver|vestir 
- ver|vestir ( ) 
- vistiendo ( ) lemma=vestir 
- vistiera ( ) lemma=vestir 
- vistieron ( ) lemma=vestir 
- vistió ( ) lemma=vestir 
- visto ( ) lemma=ver 
- vistos ( ) lemma=ver 
- vistosa ( ) lemma=vistoso 
- vistoso ( ) 
- vistosas ( ) lemma=vistoso 
+ viste ( ) 
+ visteis ( ) 
+ visten ( ) 
+ vistes ( ) 
+ vistiendo ( ) 
+ vistiera ( ) 
+ vistieron ( ) 
+ vistió ( ) 
+ visto ( ) 
+ vistos ( ) 
+ vistosa ( ) 
+ vistosas ( ) 
  vistosidad ( ) 
- vistosos ( ) lemma=vistoso 
+ vistoso ( ) 
+ vistosos ( ) 
  visual ( ) 
- visuales ( ) lemma=visual 
- visualice ( ) lemma=visualizar 
- visualizar ( ) 
- visualicen ( ) lemma=visualizar 
- visualiza ( ) lemma=visualizar 
+ visuales ( ) 
+ visualice ( ) 
+ visualicen ( ) 
+ visualiza ( ) 
  visualizable ( ) 
  visualización ( ) 
- visualizada ( ) lemma=visualizar 
- visualizado ( ) lemma=visualizar 
+ visualizada ( ) 
+ visualizado ( ) 
  visualizador ( ) 
- visualizadores ( ) lemma=visualizador 
- visualizados ( ) lemma=visualizar 
- visualizan ( ) lemma=visualizar 
- visualizando ( ) lemma=visualizar 
+ visualizadores ( ) 
+ visualizados ( ) 
+ visualizan ( ) 
+ visualizando ( ) 
+ visualizar ( ) 
  visualizarse ( ) 
- visualizará ( ) lemma=visualizar 
- visualmente ( ) lemma=visual 
+ visualizará ( ) 
+ visualmente ( ) 
+ visón ( ) 
  vital ( ) 
- vitales ( ) lemma=vital 
- vitalicia ( ) lemma=vitalicio 
+ vitales ( ) 
+ vitalicia ( ) 
+ vitalicias ( ) 
  vitalicio ( ) 
- vitalicias ( ) lemma=vitalicio 
- vitalicios ( ) lemma=vitalicio 
+ vitalicios ( ) 
  vitalidad ( ) 
  vitalismo ( ) 
  vitalista ( ) 
- vitalistas ( ) lemma=vitalista 
- vitalmente ( ) lemma=vital 
+ vitalistas ( ) 
+ vitalmente ( ) 
  vitamina ( ) 
- vitaminas ( ) lemma=vitamina 
+ vitaminas ( ) 
  vitaminoterapia ( ) 
- vitamínica ( ) lemma=vitamínico 
+ vitamínica ( ) 
+ vitamínicas ( ) 
  vitamínico ( ) 
- vitamínicas ( ) lemma=vitamínico 
- vitamínicos ( ) lemma=vitamínico 
- vite ( ) lemma=vitar 
- vitar ( ) 
- vitelina ( ) lemma=vitelino 
+ vitamínicos ( ) 
+ vite ( ) lemma=evitar 
+ vitelina ( ) 
  vitelino ( ) 
  vitelo ( ) 
  vitiligo ( ) 
- vitoreaban ( ) lemma=vitorear 
- vitorear ( ) 
- vitorearon ( ) lemma=vitorear 
- vitorearía ( ) lemma=vitorear 
- vitoreó ( ) lemma=vitorear 
+ vitoreaban ( ) 
+ vitorearon ( ) 
+ vitorearía ( ) 
+ vitoreó ( ) 
  vitrectomizar ( ) 
- vitrifica ( ) lemma=vitrificar 
- vitrificar ( ) 
- vitrificados ( ) lemma=vitrificar 
+ vitrifica ( ) 
+ vitrificados ( ) 
  vitrina ( ) 
- vitrinas ( ) lemma=vitrina 
+ vitrinas ( ) 
  vitritis ( ) 
- vituallas ( ) lemma=vituallar 
- vituallar ( ) 
- viuda ( ) lemma=viudo 
- viudo ( ) 
- viudas ( ) lemma=viudo 
+ vituallas ( ) 
+ viuda ( ) 
+ viudas ( ) 
  viudedad ( ) 
- viudos ( ) lemma=viudo 
- viva ( ) lemma=vivo 
- vivo ( ) 
- vivamente ( ) lemma=vivo 
- vivamos ( ) lemma=vivir 
- vivir ( ) 
- vivan ( ) lemma=vivir 
- vivaracha ( ) lemma=vivaracho 
- vivaracho ( ) 
- vivas ( ) lemma=vivo 
+ viudo ( ) 
+ viudos ( ) 
+ viva ( ) lemma=avivar 
+ vivamente ( ) 
+ vivamos ( ) 
+ vivan ( ) 
+ vivaracha ( ) 
+ vivas ( ) 
  vivaz ( ) 
- vive ( ) lemma=vivir 
- viven ( ) lemma=vivir 
+ vive ( ) 
+ viven ( ) 
  vivencia ( ) 
  vivencial ( ) 
  vivenciar ( ) 
- vivencias ( ) lemma=vivencia 
+ vivencias ( ) 
  vivero ( ) 
- viveros ( ) lemma=vivero 
- vives ( ) lemma=vivir 
+ viveros ( ) 
+ vives ( ) 
  viveza ( ) 
- vivida ( ) lemma=vivir 
- vividas ( ) lemma=vivir 
- vivido ( ) lemma=vivir 
+ vivida ( ) 
+ vividas ( ) 
+ vivido ( ) 
  vivienda ( ) 
- viviendas ( ) lemma=vivienda 
- viviendo ( ) lemma=vivir 
+ viviendas ( ) 
+ viviendo ( ) 
  viviente ( ) 
- vivientes ( ) lemma=viviente 
- viviera ( ) lemma=vivir 
- vivierais ( ) lemma=vivir 
- vivieran ( ) lemma=vivir 
- vivieras ( ) lemma=vivir 
- vivieron ( ) lemma=vivir 
- vivieseis ( ) lemma=vivir 
- viviesen ( ) lemma=vivir 
- vivimos ( ) lemma=vivir 
- viviremos ( ) lemma=vivir 
- vivirla ( ) lemma=vivir 
- vivirlos ( ) lemma=vivir 
+ vivientes ( ) 
+ viviera ( ) 
+ vivierais ( ) 
+ vivieran ( ) 
+ vivieras ( ) 
+ vivieron ( ) 
+ vivieseis ( ) 
+ viviesen ( ) 
+ vivimos ( ) 
+ vivir ( ) 
+ viviremos ( ) 
+ vivirla ( ) 
+ vivirlos ( ) 
  vivirse ( ) 
- vivirá ( ) lemma=vivir 
- vivirán ( ) lemma=vivir 
- viviría ( ) lemma=vivir 
- viviríamos ( ) lemma=vivir 
- vivirían ( ) lemma=vivir 
- vivita ( ) lemma=vivo 
- vivito ( ) lemma=vivo 
- viviéndolo ( ) lemma=vivir 
- viviéndose ( ) lemma=vivir 
- viviéramos ( ) lemma=vivir 
- vivió ( ) lemma=vivir 
+ vivirá ( ) 
+ vivirán ( ) 
+ viviría ( ) 
+ viviríamos ( ) 
+ vivirían ( ) 
+ vivita ( ) 
+ vivito ( ) 
+ viviéndolo ( ) 
+ viviéndose ( ) 
+ viviéramos ( ) 
+ vivió ( ) 
+ vivo ( ) 
  vivo-agudo ( ) 
- vivos ( ) lemma=vivo 
- viví ( ) lemma=vivir 
- vivía ( ) lemma=vivir 
- vivíamos ( ) lemma=vivir 
- vivían ( ) lemma=vivir 
- vivías ( ) lemma=vivir 
- vivís ( ) lemma=vivir 
- vivísima ( ) lemma=vivo 
- vizcaína ( ) lemma=vizcaíno 
+ vivos ( ) 
+ viví ( ) 
+ vivía ( ) 
+ vivíamos ( ) 
+ vivían ( ) 
+ vivías ( ) 
+ vivís ( ) 
+ vivísima ( ) 
+ vizcaína ( ) 
  vizcaíno ( ) 
- vizcaínos ( ) lemma=vizcaíno 
+ vizcaínos ( ) 
  vizconde ( ) 
- viéndola ( ) lemma=ver 
- viéndole ( ) lemma=ver 
- viéndolo ( ) lemma=ver 
- viéndome ( ) lemma=ver 
- viéndonos ( ) lemma=ver 
- viéndoos ( ) lemma=ver 
- viéndose ( ) lemma=ver 
- viéramos ( ) lemma=ver 
- viésemos ( ) lemma=ver 
+ viéndola ( ) 
+ viéndole ( ) 
+ viéndolo ( ) 
+ viéndome ( ) 
+ viéndonos ( ) 
+ viéndoos ( ) 
+ viéndose ( ) 
+ viéramos ( ) 
+ viésemos ( ) 
  viña ( ) 
- viñas ( ) lemma=viña 
+ viñas ( ) 
  viñedo ( ) 
- viñedos ( ) lemma=viñedo 
- viñetas ( ) lemma=viñeta 
- viñeta ( ) 
+ viñedos ( ) 
+ viñetas ( ) 
  vocablo ( ) 
- vocablos ( ) lemma=vocablo 
+ vocablos ( ) 
  vocabulario ( ) 
  vocacional ( ) 
- vocaciones ( ) lemma=vocación 
+ vocaciones ( ) 
  vocación ( ) 
  vocal ( ) 
- vocales ( ) lemma=vocal 
+ vocales ( ) 
  vocalista ( ) 
  vocaux ( ) 
  vocero ( ) 
- voceros ( ) lemma=vocero 
- voces ( ) lemma=voz 
- voz ( ) 
- vociferaba ( ) lemma=vociferar 
+ voceros ( ) 
+ voces ( ) 
+ vociferaba ( ) 
+ vociferaban ( ) 
+ vociferando ( ) 
  vociferar ( ) 
- vociferaban ( ) lemma=vociferar 
- vociferando ( ) lemma=vociferar 
- vocifero ( ) lemma=vociferar 
+ vocifero ( ) 
  vodka ( ) 
  voice ( ) 
  voie ( ) 
  voies ( ) 
  voix ( ) 
- volaba ( ) lemma=volar 
- volar ( ) 
- volaban ( ) lemma=volar 
- volabas ( ) lemma=volar 
- volada ( ) lemma=volar 
- volado ( ) lemma=volar 
+ volaba ( ) 
+ volaban ( ) 
+ volabas ( ) 
+ volada ( ) 
+ volado ( ) 
  voladora ( ) 
- voladuras ( ) lemma=voladura 
- voladura ( ) 
- volamos ( ) lemma=volar 
- volando ( ) lemma=volar 
+ voladuras ( ) 
+ volamos ( ) 
+ volando ( ) 
  volante ( ) 
- volantes ( ) lemma=volante 
- volara ( ) lemma=volar 
- volaron ( ) lemma=volar 
- volará ( ) lemma=volar 
- volarán ( ) lemma=volar 
- volaría ( ) lemma=volar 
- volarían ( ) lemma=volar 
+ volantes ( ) 
+ volar ( ) 
+ volara ( ) 
+ volaron ( ) 
+ volará ( ) 
+ volarán ( ) 
+ volaría ( ) 
+ volarían ( ) 
  volatilidad ( ) 
- volcada ( ) lemma=volcar 
+ volcada ( ) 
+ volcadas ( ) 
+ volcado ( ) 
+ volcados ( ) 
+ volcamos ( ) 
+ volcando ( ) 
+ volcanes ( ) 
  volcar ( ) 
- volcadas ( ) lemma=volcar 
- volcado ( ) lemma=volcar 
- volcados ( ) lemma=volcar 
- volcamos ( ) lemma=volcar 
- volcando ( ) lemma=volcar 
- volcanes ( ) lemma=volcán 
- volcán ( ) 
- volcaron ( ) lemma=volcar 
+ volcaron ( ) 
  volcarse ( ) 
- volcarte ( ) lemma=volcar 
- volcará ( ) lemma=volcar 
- volcó ( ) lemma=volcar 
- volea ( ) lemma=volear 
- volear ( ) 
- voleas ( ) lemma=volear 
+ volcarte ( ) 
+ volcará ( ) 
+ volcán ( ) 
+ volcó ( ) 
+ volea ( ) 
+ voleas ( ) 
  voleibol ( ) 
  volemia ( ) 
  voleo ( ) 
@@ -1752,259 +1696,682 @@
  volovelismo ( ) 
  volquete ( ) 
  voltaje ( ) 
- voltea ( ) lemma=voltear 
+ voltea ( ) 
+ volteado ( ) 
  voltear ( ) 
- volteado ( ) lemma=voltear 
- volteo ( ) lemma=voltear 
+ volteo ( ) 
  voltereta ( ) 
- volteretas ( ) lemma=voltereta 
- volteó ( ) lemma=voltear 
+ volteretas ( ) 
+ volteó ( ) 
  voltio ( ) 
- voltios ( ) lemma=voltio 
+ voltios ( ) 
  voltímetro ( ) 
  volume ( ) 
  volumen ( ) 
  volumen-flujo ( ) 
  volumen-superficie ( ) 
- volumenes ( ) lemma=volumen 
- voluminosa ( ) lemma=voluminoso 
+ volumenes ( ) 
+ voluminosa ( ) 
+ voluminosas ( ) 
  voluminoso ( ) 
- voluminosas ( ) lemma=voluminoso 
- voluminosos ( ) lemma=voluminoso 
- volumétrica ( ) lemma=volumétrico 
- volumétrico ( ) 
- volumétricos ( ) lemma=volumétrico 
+ voluminosos ( ) 
+ volumétrica ( ) 
+ volumétricos ( ) 
  voluntad ( ) 
- voluntades ( ) lemma=voluntad 
- voluntaria ( ) lemma=voluntario 
- voluntario ( ) 
+ voluntades ( ) 
+ voluntaria ( ) 
  voluntariado ( ) 
- voluntariamente ( ) lemma=voluntario 
- voluntarias ( ) lemma=voluntario 
- voluntarios ( ) lemma=voluntario 
- voluntariosa ( ) lemma=voluntarioso 
+ voluntariamente ( ) 
+ voluntarias ( ) 
+ voluntario ( ) 
+ voluntarios ( ) 
+ voluntariosa ( ) 
  voluntarioso ( ) 
- voluntariosos ( ) lemma=voluntarioso 
+ voluntariosos ( ) 
  voluntarismo ( ) 
- voluntarismos ( ) lemma=voluntarismo 
- volvamos ( ) lemma=volver 
+ voluntarismos ( ) 
+ volvamos ( ) 
+ volvemos ( ) 
  volver ( ) 
- volvemos ( ) lemma=volver 
- volveremos ( ) lemma=volver 
- volverla ( ) lemma=volver 
- volverlas ( ) lemma=volver 
- volverlo ( ) lemma=volver 
- volverlos ( ) lemma=volver 
- volverme ( ) lemma=volver 
- volvernos ( ) lemma=volver 
+ volveremos ( ) 
+ volverla ( ) 
+ volverlas ( ) 
+ volverlo ( ) 
+ volverlos ( ) 
+ volverme ( ) 
+ volvernos ( ) 
  volverse ( ) 
- volverte ( ) lemma=volver 
- volverá ( ) lemma=volver 
- volverán ( ) lemma=volver 
- volveré ( ) lemma=volver|Volveré 
- volver|Volveré ( ) 
- volvería ( ) lemma=volver 
- volveríamos ( ) lemma=volver 
- volverían ( ) lemma=volver 
- volviendo ( ) lemma=volver 
- volviera ( ) lemma=volver 
- volvieran ( ) lemma=volver 
- volvieron ( ) lemma=volver 
- volviese ( ) lemma=volver 
- volviesen ( ) lemma=volver 
- volvimos ( ) lemma=volver 
- volvio ( ) lemma=volver 
- volviste ( ) lemma=volver 
- volviéndola ( ) lemma=volver 
- volviéndome ( ) lemma=volver 
- volviéndonos ( ) lemma=volver 
- volviéndose ( ) lemma=volverse 
- volviéramos ( ) lemma=volver 
- volviésemos ( ) lemma=volver 
- volvió ( ) lemma=volver 
+ volverte ( ) 
+ volverá ( ) 
+ volverán ( ) 
+ volveré ( ) 
+ volvería ( ) 
+ volveríamos ( ) 
+ volverían ( ) 
+ volviendo ( ) 
+ volviera ( ) 
+ volvieran ( ) 
+ volvieron ( ) 
+ volviese ( ) 
+ volviesen ( ) 
+ volvimos ( ) 
+ volvio ( ) 
+ volviste ( ) 
+ volviéndola ( ) 
+ volviéndome ( ) 
+ volviéndonos ( ) 
+ volviéndose ( ) 
+ volviéramos ( ) 
+ volviésemos ( ) 
+ volvió ( ) 
  volvocal ( ) 
- volváis ( ) lemma=volver 
- volvéis ( ) lemma=volver 
- volví ( ) lemma=volver 
- volvía ( ) lemma=volver 
- volvíamos ( ) lemma=volver 
- volvían ( ) lemma=volver 
- volvías ( ) lemma=volver 
+ volváis ( ) 
+ volvéis ( ) 
+ volví ( ) 
+ volvía ( ) 
+ volvíamos ( ) 
+ volvían ( ) 
+ volvías ( ) 
  volátil ( ) 
- volátiles ( ) lemma=volátil 
- volé ( ) lemma=volar 
+ volátiles ( ) 
+ volé ( ) 
  volémica ( ) 
- voló ( ) lemma=volar 
- volúmenes ( ) lemma=volumen 
+ voló ( ) 
+ volúmenes ( ) 
  volúmetro ( ) 
- vomitando ( ) lemma=vomitar 
+ vomitando ( ) 
  vomitar ( ) 
- vomitó ( ) lemma=vomitar 
+ vomitó ( ) 
  vonadio ( ) 
- voraces ( ) lemma=voraz 
- voraz ( ) 
+ voraces ( ) 
  voracidad ( ) 
+ voraz ( ) 
  vos ( ) 
  vosotros ( ) 
- vota ( ) lemma=votar 
- votar ( ) 
- votaba ( ) lemma=votar 
- votaban ( ) lemma=votar 
- votaciones ( ) lemma=votación 
+ vota ( ) 
+ votaba ( ) 
+ votaban ( ) 
+ votaciones ( ) 
  votación ( ) 
- votada ( ) lemma=votar 
- votadas ( ) lemma=votar 
- votado ( ) lemma=votar 
- votados ( ) lemma=votar 
- votamos ( ) lemma=votar 
- votan ( ) lemma=votar 
- votando ( ) lemma=votar 
+ votada ( ) 
+ votadas ( ) 
+ votado ( ) 
+ votados ( ) 
+ votamos ( ) 
+ votan ( ) 
+ votando ( ) 
  votante ( ) 
- votantes ( ) lemma=votante 
- votara ( ) lemma=votar 
- votaran ( ) lemma=votar 
- votaremos ( ) lemma=votar 
- votarla ( ) lemma=votar 
- votarlas ( ) lemma=votar 
- votarlo ( ) lemma=votar 
- votarlos ( ) lemma=votar 
- votaron ( ) lemma=votar 
- votará ( ) lemma=votar 
- votarán ( ) lemma=votar 
- votaré ( ) lemma=votar 
- votaría ( ) lemma=votar 
- votaríamos ( ) lemma=votar 
- votarían ( ) lemma=votar 
- votas ( ) lemma=votar 
- votase ( ) lemma=votar 
- votasen ( ) lemma=votar 
- votaste ( ) lemma=votar 
- vote ( ) lemma=votar 
- votemos ( ) lemma=votar 
- voten ( ) lemma=votar 
+ votantes ( ) 
+ votar ( ) 
+ votara ( ) 
+ votaran ( ) 
+ votaremos ( ) 
+ votarla ( ) 
+ votarlas ( ) 
+ votarlo ( ) 
+ votarlos ( ) 
+ votaron ( ) 
+ votará ( ) 
+ votarán ( ) 
+ votaré ( ) 
+ votaría ( ) 
+ votaríamos ( ) 
+ votarían ( ) 
+ votas ( ) 
+ votase ( ) 
+ votasen ( ) 
+ votaste ( ) 
+ vote ( ) 
+ votemos ( ) 
+ voten ( ) 
  voto ( ) 
- votos ( ) lemma=voto 
- votábamos ( ) lemma=votar 
- votándolo ( ) lemma=votar 
- votáramos ( ) lemma=votar 
- votásemos ( ) lemma=votar 
- voté ( ) lemma=votar 
- votéis ( ) lemma=votar 
- votó ( ) lemma=votar 
- voy ( ) lemma=ir 
+ votos ( ) 
+ votábamos ( ) 
+ votándolo ( ) 
+ votáramos ( ) 
+ votásemos ( ) 
+ voté ( ) 
+ votéis ( ) 
+ votó ( ) 
+ voy ( ) 
  voyez ( ) 
+ voz ( ) 
  vraisemblance ( ) 
  vs ( ) 
- vuela ( ) lemma=volar 
- vuelan ( ) lemma=volar 
- vuelas ( ) lemma=volar 
- vuelca ( ) lemma=volcar 
- vuelcas ( ) lemma=volcar 
- vuelco ( ) lemma=volcar 
- vuele ( ) lemma=volar 
- vuelecito ( ) lemma=vuelo 
+ vuela ( ) 
+ vuelan ( ) 
+ vuelas ( ) 
+ vuelca ( ) 
+ vuelcas ( ) 
+ vuelco ( ) 
+ vuele ( ) 
+ vuelecito ( ) 
+ vuelen ( ) 
+ vueles ( ) 
  vuelo ( ) 
- vuelen ( ) lemma=volar 
- vueles ( ) lemma=volar 
- vuelos ( ) lemma=vuelo 
- vuelque ( ) lemma=volcar 
- vuelquen ( ) lemma=volcar 
+ vuelos ( ) 
+ vuelque ( ) 
+ vuelquen ( ) 
  vuelta ( ) 
- vueltas ( ) lemma=vuelta 
- vueltecitas ( ) lemma=vuelta 
+ vueltas ( ) 
+ vueltecitas ( ) 
  vuelteo ( ) 
- vuelto ( ) lemma=volver 
- vueltos ( ) lemma=volver 
- vuelva ( ) lemma=volver 
- vuelvan ( ) lemma=volver 
- vuelvas ( ) lemma=volver 
- vuelve ( ) lemma=volver 
- vuelven ( ) lemma=volver 
- vuelves ( ) lemma=volver 
- vuelvo ( ) lemma=volver 
- vuestra ( ) lemma=vuestro 
+ vuelto ( ) 
+ vueltos ( ) 
+ vuelva ( ) 
+ vuelvan ( ) 
+ vuelvas ( ) 
+ vuelve ( ) 
+ vuelven ( ) 
+ vuelves ( ) 
+ vuelvo ( ) 
+ vuestra ( ) 
+ vuestras ( ) 
  vuestro ( ) 
- vuestras ( ) lemma=vuestro 
- vuestros ( ) lemma=vuestro 
+ vuestros ( ) 
  vulcanismo ( ) 
  vulgar ( ) 
- vulgares ( ) lemma=vulgar 
+ vulgares ( ) 
  vulgaridad ( ) 
- vulgaridades ( ) lemma=vulgaridad 
+ vulgaridades ( ) 
  vulgarismo ( ) 
- vulgarmente ( ) lemma=vulgar 
- vulnera ( ) lemma=vulnerar 
- vulnerar ( ) 
- vulneraba ( ) lemma=vulnerar 
+ vulgarmente ( ) 
+ vulnera ( ) 
+ vulneraba ( ) 
  vulnerabilidad ( ) 
  vulnerable ( ) 
- vulnerables ( ) lemma=vulnerable 
+ vulnerables ( ) 
  vulneración ( ) 
- vulnerada ( ) lemma=vulnerar 
- vulnerado ( ) lemma=vulnerar 
- vulnerados ( ) lemma=vulnerar 
- vulneran ( ) lemma=vulnerar 
- vulnerando ( ) lemma=vulnerar 
- vulnerara ( ) lemma=vulnerar 
- vulneraron ( ) lemma=vulnerar 
- vulneraría ( ) lemma=vulnerar 
- vulnerarían ( ) lemma=vulnerar 
- vulnere ( ) lemma=vulnerar 
- vulneren ( ) lemma=vulnerar 
+ vulnerada ( ) 
+ vulnerado ( ) 
+ vulnerados ( ) 
+ vulneran ( ) 
+ vulnerando ( ) 
+ vulnerar ( ) 
+ vulnerara ( ) 
+ vulneraron ( ) 
+ vulneraría ( ) 
+ vulnerarían ( ) 
+ vulnere ( ) 
+ vulneren ( ) 
  vulvar ( ) 
- válgame ( ) lemma=valer 
- válganos ( ) lemma=valer 
- válida ( ) lemma=válido 
+ válgame ( ) 
+ válganos ( ) 
+ válida ( ) 
+ válidamente ( ) 
+ válidas ( ) 
  válido ( ) 
- válidamente ( ) lemma=válido 
- válidas ( ) lemma=válido 
- válidos ( ) lemma=válido 
+ válidos ( ) 
  válvula ( ) 
- válvulas ( ) lemma=válvula 
- vámonos ( ) lemma=ir 
- vándalos ( ) lemma=vándalo 
- vándalo ( ) 
+ válvulas ( ) 
+ vámonos ( ) 
+ vándalos ( ) 
  vástago ( ) 
- váyanse ( ) lemma=irse 
- véanse ( ) lemma=verse 
- véase ( ) lemma=verse 
- véndeme ( ) lemma=vendar|vender 
- vénulas ( ) lemma=vénula 
- vénula ( ) 
+ váyanse ( ) 
+ véanse ( ) 
+ véase ( ) 
+ véliz ( ) 
+ véndeme ( ) 
+ vénulas ( ) 
  vérification ( ) 
- vérsela ( ) lemma=verse 
- vérselas ( ) lemma=verse 
+ vérsela ( ) 
+ vérselas ( ) 
  vértebra ( ) 
- vértebras ( ) lemma=vértebra 
- vértelo ( ) lemma=ver 
+ vértebras ( ) 
+ vértelo ( ) 
  vértex ( ) 
  vértice ( ) 
- vértices ( ) lemma=vértice 
+ vértices ( ) 
  vértigo ( ) 
- vételo ( ) lemma=ir|ver|vetar 
- ví ( ) lemma=ver 
- vías ( ) lemma=vía 
+ vételo ( ) 
+ ví ( ) lemma=avío 
+ vía ( ) 
+ vías ( ) 
  víbora ( ) 
- víboras ( ) lemma=víbora 
- víctimas ( ) lemma=víctima 
+ víboras ( ) 
+ víctima ( ) 
+ víctimas ( ) 
  vídeo ( ) 
- vídeos ( ) lemma=vídeo 
+ vídeos ( ) 
  vínculo ( ) 
- vínculos ( ) lemma=vínculo 
- vírgenes ( ) lemma=virgen 
- vírica ( ) lemma=vírico 
+ vínculos ( ) 
+ vírgenes ( ) 
+ vírica ( ) 
+ víricas ( ) 
  vírico ( ) 
- víricas ( ) lemma=vírico 
- víricos ( ) lemma=vírico 
+ víricos ( ) 
  víscera ( ) 
- vísceras ( ) lemma=víscera 
+ vísceras ( ) 
  víspera ( ) 
- vísperas ( ) lemma=víspera 
- vítrea ( ) lemma=vítreo 
+ vísperas ( ) 
+ vítrea ( ) 
  vítreo ( ) 
  víveres ( ) 
- vívidos ( ) lemma=vívido 
- vívido ( ) 
+ vívidos ( ) 
  vómito ( ) 
- vómitos ( ) lemma=vómito 
+ vómitos ( ) 
  vúmetro ( ) 
+ vendañ ( ) lemma=Avendaño 
+ vianc ( ) lemma=Avianca 
+ vilé ( ) lemma=Avilés 
+ veli ( ) lemma=Evelia 
+ vely ( ) lemma=Evelyn 
+ verto ( ) lemma=Everton 
+ vitació ( ) lemma=evitación 
+ V. ( ) lemma=IV.4 
+ vanch ( ) lemma=Yvancho 
+ vá ( ) lemma=Iván 
+ V0 ( ) lemma=LV02 
+ vied ( ) lemma=Oviedo 
+ Vera ( ) 
+ val ( ) lemma=avalar 
+ valab ( ) lemma=avalar 
+ valaba ( ) lemma=avalar 
+ valad ( ) lemma=ovalar 
+ valada ( ) lemma=avalar 
+ valado ( ) lemma=avalar 
+ vala ( ) lemma=avalar 
+ valanch ( ) lemma=avalancha 
+ valancha ( ) lemma=avalancha 
+ valand ( ) lemma=avalar 
+ valar ( ) lemma=avalar 
+ valara ( ) lemma=avalar 
+ valaro ( ) lemma=avalar 
+ valar� ( ) lemma=avalar 
+ valaría ( ) lemma=avalar 
+ val� ( ) lemma=avalar 
+ valú ( ) lemma=evaluar 
+ vanc ( ) lemma=avance 
+ vancemo ( ) lemma=avanzar 
+ vance ( ) lemma=avance 
+ vanc� ( ) lemma=avanzar 
+ vanz ( ) lemma=avanzar 
+ vanzab ( ) lemma=avanzar 
+ vanzaba ( ) lemma=avanzar 
+ vanzad ( ) lemma=avanzar 
+ vanzada ( ) lemma=avanzar 
+ vanzado ( ) lemma=avanzar 
+ vanzamo ( ) lemma=avanzar 
+ vanza ( ) lemma=avanzar 
+ vanzand ( ) lemma=avanzar 
+ vanzar ( ) lemma=avanzar 
+ vanzara ( ) lemma=avanzar 
+ vanzaremo ( ) lemma=avanzar 
+ vanzaro ( ) lemma=avanzar 
+ vanzar� ( ) lemma=avanzar 
+ vanzará ( ) lemma=avanzar 
+ vanzarí ( ) lemma=avanzar 
+ vanzaríamo ( ) lemma=avanzar 
+ vanzaría ( ) lemma=avanzar 
+ vanzase ( ) lemma=avanzar 
+ vanzáramo ( ) lemma=avanzar 
+ vanzásemo ( ) lemma=avanzar 
+ vanz� ( ) lemma=avanzar 
+ var ( ) lemma=avaro 
+ vasallad ( ) lemma=avasallar 
+ vasallada ( ) lemma=avasallar 
+ vasalland ( ) lemma=avasallar 
+ vasalla ( ) lemma=avasallar 
+ vascula ( ) lemma=avascular 
+ vata ( ) lemma=avatar 
+ vatare ( ) lemma=avatar 
+ vecilla ( ) lemma=ave 
+ vecin ( ) lemma=avecinar 
+ vecinab ( ) lemma=avecinar 
+ vellan ( ) lemma=avellana 
+ vellana ( ) lemma=avellana 
+ venenci ( ) lemma=avenencia 
+ venencia ( ) lemma=avenencia 
+ veng ( ) lemma=avenir 
+ veni ( ) lemma=avenir 
+ ventaj ( ) lemma=aventajar 
+ ventajab ( ) lemma=aventajar 
+ ventajaba ( ) lemma=aventajar 
+ ventajad ( ) lemma=aventajar 
+ ventajand ( ) lemma=aventajar 
+ ventajaro ( ) lemma=aventajar 
+ ventajar� ( ) lemma=aventajar 
+ ventaj� ( ) lemma=aventajar 
+ ventaro ( ) lemma=aventar 
+ ventars ( ) lemma=aventarse 
+ ventur ( ) lemma=aventurar 
+ venturab ( ) lemma=aventurar 
+ venturad ( ) lemma=aventurar 
+ venturar� ( ) lemma=aventurar 
+ venturarí ( ) lemma=aventurar 
+ venturer ( ) lemma=aventurero 
+ venturerament ( ) lemma=aventurero 
+ venturera ( ) lemma=aventurero 
+ venturero ( ) lemma=aventurero 
+ venturábamo ( ) lemma=aventurar 
+ ventur� ( ) lemma=aventurar 
+ vent� ( ) lemma=aventar 
+ vergonzad ( ) lemma=avergonzar 
+ vergonzada ( ) lemma=avergonzar 
+ vergonzado ( ) lemma=avergonzar 
+ vergonzamo ( ) lemma=avergonzar 
+ vergonza ( ) lemma=avergonzar 
+ vergonzaremo ( ) lemma=avergonzar 
+ vergonzarno ( ) lemma=avergonzar 
+ vergonzaro ( ) lemma=avergonzar 
+ vergonzars ( ) lemma=avergonzarse 
+ vergonzar� ( ) lemma=avergonzar 
+ vergonzarí ( ) lemma=avergonzar 
+ vergüenz ( ) lemma=avergonzar 
+ veriad ( ) lemma=averiado 
+ veriada ( ) lemma=averiar 
+ veriado ( ) lemma=averiar 
+ veriaro ( ) lemma=averiar 
+ veriars ( ) lemma=averiarse 
+ verigu ( ) lemma=averiguar 
+ veriguacione ( ) lemma=averiguación 
+ veriguació ( ) lemma=averiguación 
+ veriguad ( ) lemma=averiguar 
+ veriguado ( ) lemma=averiguar 
+ veriguamo ( ) lemma=averiguar 
+ veriguand ( ) lemma=averiguar 
+ verigua ( ) lemma=averiguar 
+ veriguara ( ) lemma=averiguar 
+ veriguarl ( ) lemma=averiguar 
+ veriguarm ( ) lemma=averiguar 
+ veriguaro ( ) lemma=averiguar 
+ veriguars ( ) lemma=averiguar 
+ veriguá ( ) lemma=averiguar 
+ verigu� ( ) lemma=averiguar 
+ verigüe ( ) lemma=averiguar 
+ verigü� ( ) lemma=averiguar 
+ veri� ( ) lemma=averiar 
+ versió ( ) lemma=aversión 
+ vertisseu ( ) lemma=avertisseur 
+ verí ( ) lemma=avería 
+ vestruce ( ) lemma=avestruz 
+ vestru ( ) lemma=avestruz 
+ vezad ( ) lemma=avezar 
+ vezado ( ) lemma=avezar 
+ viacione ( ) lemma=aviación 
+ viació ( ) lemma=aviación 
+ viad ( ) lemma=aviar 
+ viado ( ) lemma=aviador 
+ viadore ( ) lemma=aviador 
+ vide ( ) lemma=avidez 
+ vien ( ) lemma=avenir 
+ vienta ( ) lemma=aventar 
+ vient ( ) lemma=aventar 
+ vies ( ) lemma=avieso 
+ viesa ( ) lemma=avieso 
+ vin ( ) lemma=ovino 
+ vione ( ) lemma=avión 
+ vionet ( ) lemma=avioneta 
+ vioneta ( ) lemma=avioneta 
+ vis ( ) lemma=aviso 
+ visab ( ) lemma=avisar 
+ visad ( ) lemma=avisar 
+ visamo ( ) lemma=avisar 
+ visand ( ) lemma=avisar 
+ visara ( ) lemma=avisar 
+ visaremo ( ) lemma=avisar 
+ visarl ( ) lemma=avisar 
+ visarle ( ) lemma=avisar 
+ visaro ( ) lemma=avisar 
+ visar� ( ) lemma=avisar 
+ visará ( ) lemma=avisar 
+ vise ( ) lemma=avisar 
+ viso ( ) lemma=aviso 
+ visp ( ) lemma=avispa 
+ vispado ( ) lemma=avispar 
+ visper ( ) lemma=avispero 
+ vispone ( ) lemma=avispón 
+ vist ( ) lemma=avistar 
+ vistad ( ) lemma=avistar 
+ vistado ( ) lemma=avistar 
+ vistaro ( ) lemma=avistar 
+ vist� ( ) lemma=avistar 
+ visándol ( ) lemma=avisar 
+ visándot ( ) lemma=avisar 
+ vis� ( ) lemma=avisar 
+ viv ( ) lemma=avivar 
+ vivad ( ) lemma=avivar 
+ vivand ( ) lemma=avivar 
+ vivemo ( ) lemma=avivar 
+ viv� ( ) lemma=avivar 
+ vizor ( ) lemma=avizorar 
+ vió ( ) lemma=avión 
+ vutard ( ) lemma=avutarda 
+ vutarda ( ) lemma=avutarda 
+ vacu ( ) lemma=evacuar 
+ vacuacione ( ) lemma=evacuación 
+ vacuació ( ) lemma=evacuación 
+ vacuad ( ) lemma=evacuar 
+ vacuada ( ) lemma=evacuar 
+ vacuado ( ) lemma=evacuar 
+ vacua ( ) lemma=evacuar 
+ vacuand ( ) lemma=evacuar 
+ vacuaro ( ) lemma=evacuar 
+ vacuásemo ( ) lemma=evacuar 
+ vacu� ( ) lemma=evacuar 
+ vacú ( ) lemma=evacuar 
+ vacúa ( ) lemma=evacuar 
+ vad ( ) lemma=evadir 
+ vade ( ) lemma=evadir 
+ vadid ( ) lemma=evadir 
+ vadido ( ) lemma=evadir 
+ vadiend ( ) lemma=evadir 
+ vadi ( ) lemma=evadir 
+ vadirs ( ) lemma=evadirse 
+ vadi� ( ) lemma=evadir 
+ vaginació ( ) lemma=evaginación 
+ valuab ( ) lemma=evaluar 
+ valuaba ( ) lemma=evaluar 
+ valuacione ( ) lemma=evaluación 
+ valuació ( ) lemma=evaluación 
+ valuad ( ) lemma=evaluar 
+ valuamo ( ) lemma=evaluar 
+ valuand ( ) lemma=evaluar 
+ valua ( ) lemma=evaluar 
+ valuar ( ) lemma=evaluar 
+ valuaremo ( ) lemma=evaluar 
+ valuaro ( ) lemma=evaluar 
+ valuars ( ) lemma=evaluarse 
+ valuar� ( ) lemma=evaluar 
+ valuará ( ) lemma=evaluar 
+ valuarí ( ) lemma=evaluar 
+ valuaría ( ) lemma=evaluar 
+ valuas ( ) lemma=evaluar 
+ valuase ( ) lemma=evaluar 
+ valuemo ( ) lemma=evaluar 
+ valu� ( ) lemma=evaluar 
+ valúa ( ) lemma=evaluar 
+ valúe ( ) lemma=evaluar 
+ vangeli ( ) lemma=evangelio 
+ vangelio ( ) lemma=evangelio 
+ vangelist ( ) lemma=evangelista 
+ vangelista ( ) lemma=evangelista 
+ vangelizació ( ) lemma=evangelización 
+ vangeliza ( ) lemma=evangelizar 
+ vangeliz� ( ) lemma=evangelizar 
+ vangélic ( ) lemma=evangélico 
+ vangélica ( ) lemma=evangélico 
+ vangélico ( ) lemma=evangélico 
+ vaporaba ( ) lemma=evaporar 
+ vaporacione ( ) lemma=evaporación 
+ vaporació ( ) lemma=evaporación 
+ vaporad ( ) lemma=evaporar 
+ vaporado ( ) lemma=evaporador 
+ vapora ( ) lemma=evaporar 
+ vaporand ( ) lemma=evaporar 
+ vaporars ( ) lemma=evaporarse 
+ vaporándos ( ) lemma=evaporar 
+ vapor� ( ) lemma=evaporar 
+ vapotranspiració ( ) lemma=evapotranspiración 
+ vasione ( ) lemma=evasión 
+ vasiv ( ) lemma=evasivo 
+ vasiva ( ) lemma=evasivo 
+ vasivo ( ) lemma=evasivo 
+ vasió ( ) lemma=evasión 
+ vent ( ) lemma=evento 
+ vento ( ) lemma=evento 
+ ventua ( ) lemma=eventual 
+ ventuale ( ) lemma=eventual 
+ ventualida ( ) lemma=eventualidad 
+ ventualidade ( ) lemma=eventualidad 
+ ventualment ( ) lemma=eventual|eventualmente 
+ verti ( ) lemma=evertir 
+ videnci ( ) lemma=evidenciar 
+ videnciab ( ) lemma=evidenciar 
+ videnciaba ( ) lemma=evidenciar 
+ videnciad ( ) lemma=evidenciar 
+ videnciada ( ) lemma=evidenciar 
+ videnciado ( ) lemma=evidenciar 
+ videncia ( ) lemma=evidenciar 
+ videnciand ( ) lemma=evidenciar 
+ videnciaro ( ) lemma=evidenciar 
+ videnciar� ( ) lemma=evidenciar 
+ videncie ( ) lemma=evidenciar 
+ videnci� ( ) lemma=evidenciar 
+ vident ( ) lemma=evidente 
+ videntement ( ) lemma=evidente 
+ vidente ( ) lemma=evidente 
+ videntísim ( ) lemma=evidente 
+ vit ( ) lemma=evitar 
+ vitab ( ) lemma=evitar 
+ vitable ( ) lemma=evitable 
+ vitad ( ) lemma=evitar 
+ vitado ( ) lemma=evitar 
+ vitamo ( ) lemma=evitar 
+ vita ( ) lemma=evitar 
+ vitand ( ) lemma=evitar 
+ vitar ( ) lemma=evitar 
+ vitara ( ) lemma=evitar 
+ vitaremo ( ) lemma=evitar 
+ vitarl ( ) lemma=evitar 
+ vitarle ( ) lemma=evitar 
+ vitarlo ( ) lemma=evitar 
+ vitarm ( ) lemma=evitar 
+ vitarno ( ) lemma=evitar 
+ vitaro ( ) lemma=evitar 
+ vitars ( ) lemma=evitarse 
+ vitar� ( ) lemma=evitar 
+ vitará ( ) lemma=evitar 
+ vitarí ( ) lemma=evitar 
+ vitaríamo ( ) lemma=evitar 
+ vitaría ( ) lemma=evitar 
+ vitas ( ) lemma=evitar 
+ vitase ( ) lemma=evitar 
+ vitemo ( ) lemma=evitar 
+ vitándole ( ) lemma=evitar 
+ vitándos ( ) lemma=evitarse 
+ vitáramo ( ) lemma=evitar 
+ vit� ( ) lemma=evitar 
+ voc ( ) lemma=evocar 
+ vocab ( ) lemma=evocar 
+ vocaba ( ) lemma=evocar 
+ vocació ( ) lemma=evocación 
+ vocad ( ) lemma=evocar 
+ vocada ( ) lemma=evocar 
+ vocado ( ) lemma=evocar 
+ voca ( ) lemma=evocar 
+ vocand ( ) lemma=evocar 
+ vocaro ( ) lemma=evocar 
+ vocar� ( ) lemma=evocar 
+ vocábamo ( ) lemma=evocar 
+ voc� ( ) lemma=evocar 
+ volucion ( ) lemma=evolucionar 
+ volucionab ( ) lemma=evolucionar 
+ volucionaba ( ) lemma=evolucionar 
+ volucionad ( ) lemma=evolucionar 
+ volucionado ( ) lemma=evolucionar 
+ volucionamo ( ) lemma=evolucionar 
+ voluciona ( ) lemma=evolucionar 
+ volucionand ( ) lemma=evolucionar 
+ volucionaro ( ) lemma=evolucionar 
+ volucionar� ( ) lemma=evolucionar 
+ volucionará ( ) lemma=evolucionar 
+ volucionarí ( ) lemma=evolucionar 
+ volucionas ( ) lemma=evolucionar 
+ volucione ( ) lemma=evolución 
+ volucion� ( ) lemma=evolucionar 
+ volució ( ) lemma=evolución 
+ volutiv ( ) lemma=evolutivo 
+ volutivament ( ) lemma=evolutivo 
+ volutiva ( ) lemma=evolutivo 
+ volutivida ( ) lemma=evolutividad 
+ volutivo ( ) lemma=evolutivo 
+ voqu ( ) lemma=evocar 
+ voquemo ( ) lemma=evocar 
+ voque ( ) lemma=evocar 
+ voqu� ( ) lemma=evocar 
+ vacionad ( ) lemma=ovacionar 
+ vacionado ( ) lemma=ovacionar 
+ vacionaro ( ) lemma=ovacionar 
+ vacione ( ) lemma=ovación 
+ vacion� ( ) lemma=ovacionar 
+ vació ( ) lemma=ovación 
+ vari ( ) lemma=ovario 
+ vej ( ) lemma=oveja 
+ veja ( ) lemma=oveja 
+ verflo ( ) lemma=overflow 
+ verlin ( ) lemma=overline 
+ verloa ( ) lemma=overload 
+ verole ( ) lemma=overol 
+ viduct ( ) lemma=oviducto 
+ vina ( ) lemma=ovino 
+ voalbúmin ( ) lemma=ovoalbúmina 
+ vocit ( ) lemma=ovocito 
+ vocito ( ) lemma=ovocito 
+ vulació ( ) lemma=ovulación 
+ vula ( ) lemma=ovular 
+ váric ( ) lemma=ovárico 
+ várico ( ) lemma=ovárico 
+ veíti ( ) lemma=uveítis 
+ vacar ( ) 
+ vacuo ( ) 
+ vacio ( ) 
+ vainita ( ) 
+ valedero ( ) 
+ valedor ( ) 
+ vallado ( ) 
+ valorizable ( ) 
+ vaporoso ( ) 
+ vaquería ( ) 
+ varar ( ) 
+ varear ( ) 
+ variz ( ) 
+ varicoso ( ) 
+ vegetar ( ) 
+ vegetariano ( ) 
+ velludo ( ) 
+ vendar|vender ( ) 
+ venerar ( ) 
+ vengar|venir ( ) 
+ venturoso ( ) 
+ venéreo ( ) 
+ verruga ( ) 
+ vertebrar ( ) 
+ verídico ( ) 
+ vestidura ( ) 
+ viario ( ) 
+ vibrador ( ) 
+ vichar ( ) 
+ vicisitud ( ) 
+ videojuego ( ) 
+ vidriar ( ) 
+ vidrioso ( ) 
+ ventar ( ) 
+ vikingo ( ) 
+ vinagrera ( ) 
+ visigótico ( ) 
+ visionar ( ) 
+ ver|ver|vestir ( ) 
+ ver|vestir ( ) 
+ vitorear ( ) 
+ vitrificar ( ) 
+ vituallar ( ) 
+ vivaracho ( ) 
+ viñeta ( ) 
+ voladura ( ) 
+ volear ( ) 
+ volumétrico ( ) 
+ volver|Volveré ( ) 
+ vándalo ( ) 
+ vénula ( ) 
+ vívido ( ) 

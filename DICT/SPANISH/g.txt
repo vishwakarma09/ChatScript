@@ -1,4 +1,4 @@
-﻿ G ( ) 
+﻿ G ( ) lemma=TGX 
  G.101 ( ) 
  G.111 ( ) 
  G.114 ( ) 
@@ -25,12 +25,12 @@
  G.722 ( ) 
  G.732 ( ) 
  G.733 ( ) 
- G0 ( ) 
- G1 ( ) 
- G2 ( ) 
- G3 ( ) 
+ G0 ( ) lemma=LG02 
+ G1 ( ) lemma=LG16 
+ G2 ( ) lemma=LG29 
+ G3 ( ) lemma=LG30 
  G3/G4 ( ) 
- G4 ( ) 
+ G4 ( ) lemma=LG42 
  G4/G3 ( ) 
  GA ( ) 
  GCU ( ) 
@@ -73,8 +73,7 @@
  Gastos ( ) 
  Gastón ( ) 
  Gatia ( ) 
- Gatí ( ) lemma=Gatita 
- Gatita ( ) 
+ Gatí ( ) 
  Gavino ( ) 
  Gayta ( ) 
  Gbytes ( ) 
@@ -97,8 +96,7 @@
  Germino ( ) 
  Germán ( ) 
  Gerona ( ) 
- Gfrörer ( ) lemma=Gfröer 
- Gfröer ( ) 
+ Gfrörer ( ) 
  Ghana ( ) 
  Gibraltar ( ) 
  Giemsa ( ) 
@@ -133,7 +131,7 @@
  Goldberger ( ) 
  Golenbock ( ) 
  Golgi ( ) 
- Gonzalitos ( ) lemma=Gonzalo 
+ Gonzalitos ( ) 
  Gonzalo ( ) 
  González ( ) 
  Goodpasture ( ) 
@@ -143,8 +141,7 @@
  Gorski ( ) 
  Goyín ( ) 
  Graaf ( ) 
- Gracias_a ( ) lemma=gracias~a 
- gracias~a ( ) 
+ Gracias ( ) 
  Graciela ( ) 
  Gramm-Rudman ( ) 
  Granada ( ) 
@@ -171,7 +168,7 @@
  Guanajuato ( ) 
  Guantánamo ( ) 
  Guaraná ( ) 
- Guate ( ) lemma=Guatemala 
+ Guate ( ) 
  Guatemala ( ) 
  Guayana ( ) 
  Guayaquil ( ) 
@@ -198,323 +195,307 @@
  Génesis ( ) 
  Génova ( ) 
  Gómez ( ) 
- g ( ) 
+ g ( ) lemma=igm 
  gabardina ( ) 
  gabaérgico ( ) 
  gabinete ( ) 
- gabinetes ( ) lemma=gabinete 
- gabonesa ( ) lemma=gabonés 
- gabonés ( ) 
+ gabinetes ( ) 
+ gabonesa ( ) 
  gabán ( ) 
  gaceta ( ) 
- gacetilla ( ) lemma=gaceta 
- gacha ( ) lemma=gacho 
+ gacetilla ( ) 
+ gacha ( ) lemma=agachar 
+ gachas ( ) 
  gacho ( ) 
- gachas ( ) lemma=gacho 
- gaditana ( ) lemma=gaditano 
+ gaditana ( ) 
  gaditano ( ) 
- gafados ( ) lemma=gafar 
- gafar ( ) 
+ gafados ( ) 
  gafas ( ) 
  gag ( ) 
  gain ( ) 
- gaitas ( ) lemma=gaita 
- gaita ( ) 
- gala ( ) lemma=galo 
- galo ( ) 
+ gaitas ( ) 
+ gala ( ) 
  galactocerebrósido ( ) 
  galactorrea ( ) 
- galactosa ( ) lemma=galactoso 
- galactoso ( ) 
+ galactosa ( ) 
  galactosa-ácido ( ) 
  galactosamina ( ) 
- galactosas ( ) lemma=galactosa 
+ galactosas ( ) 
  galactosemia ( ) 
- galanes ( ) lemma=galán 
- galán ( ) 
+ galanes ( ) 
  galante ( ) 
  galantear ( ) 
- galardonada ( ) lemma=galardonar 
+ galardonada ( ) 
+ galardonado ( ) 
+ galardonados ( ) 
  galardonar ( ) 
- galardonado ( ) lemma=galardonar 
- galardonados ( ) lemma=galardonar 
- galardones ( ) lemma=galardón 
+ galardones ( ) 
  galardón ( ) 
- galas ( ) lemma=galo 
+ galas ( ) 
  galaxia ( ) 
- galaxias ( ) lemma=galaxia 
+ galaxias ( ) 
  galenista ( ) 
  galera ( ) 
- galeras ( ) lemma=galera 
+ galeras ( ) 
  galería ( ) 
- galerías ( ) lemma=galería 
- galesa ( ) lemma=galés 
- galés ( ) 
- galeses ( ) lemma=galés 
+ galerías ( ) 
+ galesa ( ) 
+ galeses ( ) 
  galeón ( ) 
  galgo ( ) 
- galgos ( ) lemma=galgo 
+ galgos ( ) 
  galio ( ) 
  gallardo ( ) 
- gallega ( ) lemma=gallego 
+ gallega ( ) 
+ gallegas ( ) 
  gallego ( ) 
- gallegas ( ) lemma=gallego 
- gallegos ( ) lemma=gallego 
+ gallegos ( ) 
  galleta ( ) 
- galletas ( ) lemma=galleta 
+ galletas ( ) 
  gallina ( ) 
- gallinas ( ) lemma=gallina 
+ gallinas ( ) 
  gallinero ( ) 
- gallineros ( ) lemma=gallinero 
+ gallineros ( ) 
  gallo ( ) 
- gallos ( ) lemma=gallo 
- galones ( ) lemma=galón 
- galón ( ) 
+ gallos ( ) 
+ galo ( ) 
+ galones ( ) 
  galope ( ) 
- galos ( ) lemma=galo 
- galvanizada ( ) lemma=galvanizar 
+ galos ( ) 
+ galvanizada ( ) 
+ galvanizado ( ) 
  galvanizar ( ) 
- galvanizado ( ) lemma=galvanizar 
  galvanómetro ( ) 
- galvánicamente ( ) lemma=galvánico 
- galvánico ( ) 
- galvánicos ( ) lemma=galvánico 
- galénica ( ) lemma=galénico 
- galénico ( ) 
+ galvánicamente ( ) 
+ galvánicos ( ) 
+ galán ( ) 
+ galénica ( ) 
+ galés ( ) 
+ galón ( ) 
  gama ( ) 
- gamas ( ) lemma=gama 
+ gamas ( ) 
  gamba ( ) 
- gambas ( ) lemma=gamba 
+ gambas ( ) 
  gambiense ( ) 
  gameto ( ) 
- gametocitos ( ) lemma=gametocito 
- gametocito ( ) 
+ gametocitos ( ) 
  gametofito ( ) 
  gametogénesis ( ) 
- gametos ( ) lemma=gameto 
+ gametos ( ) 
  gamma ( ) 
  gamma-amino ( ) 
  gamma-tubulina ( ) 
  gammacámara ( ) 
- gammaglobulinas ( ) lemma=gammaglobulina 
- gammaglobulina ( ) 
+ gammaglobulinas ( ) 
  gammagrafía ( ) 
- gammagrafías ( ) lemma=gammagrafía 
+ gammagrafías ( ) 
  gammagráfico ( ) 
- gammapatías ( ) lemma=gammapatía 
- gammapatía ( ) 
+ gammapatías ( ) 
  gammágrafo ( ) 
- gana ( ) lemma=ganar 
- ganar ( ) 
- ganaba ( ) lemma=ganar 
- ganaban ( ) lemma=ganar 
- ganada ( ) lemma=ganar 
- ganadas ( ) lemma=ganar 
- ganadera ( ) lemma=ganadero 
+ gana ( ) 
+ ganaba ( ) 
+ ganaban ( ) 
+ ganada ( ) 
+ ganadas ( ) 
+ ganadera ( ) 
+ ganaderas ( ) 
  ganadero ( ) 
- ganaderas ( ) lemma=ganadero 
- ganaderos ( ) lemma=ganadero 
+ ganaderos ( ) 
  ganadería ( ) 
- ganaderías ( ) lemma=ganadería 
+ ganaderías ( ) 
  ganado ( ) 
  ganador ( ) 
- ganadora ( ) lemma=ganador 
- ganadoras ( ) lemma=ganador 
- ganadores ( ) lemma=ganador 
- ganados ( ) lemma=ganado 
- ganamos ( ) lemma=ganar 
- ganan ( ) lemma=ganar 
+ ganadora ( ) 
+ ganadoras ( ) 
+ ganadores ( ) 
+ ganados ( ) 
+ ganamos ( ) 
+ ganan ( ) 
  ganancia ( ) 
  ganancial ( ) 
- gananciales ( ) lemma=ganancial 
- ganancias ( ) lemma=ganancia 
- ganando ( ) lemma=ganar 
- ganara ( ) lemma=ganar 
- ganaran ( ) lemma=ganar 
- ganaremos ( ) lemma=ganar 
- ganarla ( ) lemma=ganar 
- ganarle ( ) lemma=ganar 
- ganarles ( ) lemma=ganar 
- ganarlo ( ) lemma=ganar 
- ganarme ( ) lemma=ganar 
- ganarnos ( ) lemma=ganar 
- ganaron ( ) lemma=ganar 
+ gananciales ( ) 
+ ganancias ( ) 
+ ganando ( ) 
+ ganar ( ) 
+ ganara ( ) 
+ ganaran ( ) 
+ ganaremos ( ) 
+ ganarla ( ) 
+ ganarle ( ) 
+ ganarles ( ) 
+ ganarlo ( ) 
+ ganarme ( ) 
+ ganarnos ( ) 
+ ganaron ( ) 
  ganarse ( ) 
- ganarte ( ) lemma=ganar 
- ganará ( ) lemma=ganar 
- ganarán ( ) lemma=ganar 
- ganarás ( ) lemma=ganar 
- ganaría ( ) lemma=ganar 
- ganaríamos ( ) lemma=ganar 
- ganarían ( ) lemma=ganar 
- ganarías ( ) lemma=ganar 
- ganas ( ) lemma=gana 
- ganase ( ) lemma=ganar 
- ganasen ( ) lemma=ganar 
- ganaste ( ) lemma=ganar 
- ganasteis ( ) lemma=ganar 
+ ganarte ( ) 
+ ganará ( ) 
+ ganarán ( ) 
+ ganarás ( ) 
+ ganaría ( ) 
+ ganaríamos ( ) 
+ ganarían ( ) 
+ ganarías ( ) 
+ ganas ( ) 
+ ganase ( ) 
+ ganasen ( ) 
+ ganaste ( ) 
+ ganasteis ( ) 
  gancho ( ) 
- ganchos ( ) lemma=gancho 
- gane ( ) lemma=ganar 
- ganemos ( ) lemma=ganar 
- ganen ( ) lemma=ganar 
- ganes ( ) lemma=ganar 
+ ganchos ( ) 
+ gane ( ) 
+ ganemos ( ) 
+ ganen ( ) 
+ ganes ( ) 
  ganga ( ) 
- gangas ( ) lemma=ganga 
+ gangas ( ) 
  ganglio ( ) 
  ganglionar ( ) 
- ganglionares ( ) lemma=ganglionar 
- ganglios ( ) lemma=ganglio 
+ ganglionares ( ) 
+ ganglios ( ) 
  gangliósido ( ) 
- gangliósidos ( ) lemma=gangliósido 
+ gangliósidos ( ) 
  gangrena ( ) 
- gangrenan ( ) lemma=gangrenar 
- gangrenar ( ) 
- gangrenando ( ) lemma=gangrenar 
- gangrenosa ( ) lemma=gangrenoso 
- gangrenoso ( ) 
- gano ( ) lemma=ganar 
- gansito ( ) lemma=ganso 
+ gangrenan ( ) 
+ gangrenando ( ) 
+ gangrenosa ( ) 
+ gano ( ) 
+ gansito ( ) 
  ganso ( ) 
- ganáis ( ) lemma=ganar 
- ganándolo ( ) lemma=ganar 
- ganársela ( ) lemma=ganarse 
- gané ( ) lemma=ganar 
- ganéis ( ) lemma=ganar 
- ganó ( ) lemma=ganar 
- garabatos ( ) lemma=garabato 
- garabato ( ) 
+ ganáis ( ) 
+ ganándolo ( ) 
+ ganársela ( ) 
+ gané ( ) 
+ ganéis ( ) 
+ ganó ( ) 
+ garabatos ( ) 
  garage ( ) 
  garaje ( ) 
- garajes ( ) lemma=garaje 
- garante ( ) lemma=garantir 
- garantir ( ) 
- garantes ( ) lemma=garantir 
- garantice ( ) lemma=garantizar 
+ garajes ( ) 
+ garante ( ) 
+ garantes ( ) 
+ garantice ( ) 
+ garanticemos ( ) 
+ garanticen ( ) 
+ garanticémosle ( ) 
+ garantidos ( ) 
+ garantiza ( ) 
+ garantizaba ( ) 
+ garantizaban ( ) 
+ garantizada ( ) 
+ garantizadas ( ) 
+ garantizado ( ) 
+ garantizados ( ) 
+ garantizamos ( ) 
+ garantizan ( ) 
+ garantizando ( ) 
  garantizar ( ) 
- garanticemos ( ) lemma=garantizar 
- garanticen ( ) lemma=garantizar 
- garanticémosle ( ) lemma=garantizar 
- garantidos ( ) lemma=garantir 
- garantiza ( ) lemma=garantizar 
- garantizaba ( ) lemma=garantizar 
- garantizaban ( ) lemma=garantizar 
- garantizada ( ) lemma=garantizar 
- garantizadas ( ) lemma=garantizar 
- garantizado ( ) lemma=garantizar 
- garantizados ( ) lemma=garantizar 
- garantizamos ( ) lemma=garantizar 
- garantizan ( ) lemma=garantizar 
- garantizando ( ) lemma=garantizar 
- garantizara ( ) lemma=garantizar 
- garantizaran ( ) lemma=garantizar 
- garantizaremos ( ) lemma=garantizar 
- garantizaren ( ) lemma=garantizar 
- garantizarla ( ) lemma=garantizar 
- garantizarle ( ) lemma=garantizar 
- garantizarles ( ) lemma=garantizar 
- garantizarlo ( ) lemma=garantizar 
- garantizarlos ( ) lemma=garantizar 
- garantizarme ( ) lemma=garantizar 
- garantizarnos ( ) lemma=garantizar 
- garantizaron ( ) lemma=garantizar 
+ garantizara ( ) 
+ garantizaran ( ) 
+ garantizaremos ( ) 
+ garantizaren ( ) 
+ garantizarla ( ) 
+ garantizarle ( ) 
+ garantizarles ( ) 
+ garantizarlo ( ) 
+ garantizarlos ( ) 
+ garantizarme ( ) 
+ garantizarnos ( ) 
+ garantizaron ( ) 
  garantizarse ( ) 
- garantizará ( ) lemma=garantizar 
- garantizarán ( ) lemma=garantizar 
- garantizaría ( ) lemma=garantizar 
- garantizarían ( ) lemma=garantizar 
- garantizase ( ) lemma=garantizar 
- garantizasen ( ) lemma=garantizar 
- garantizo ( ) lemma=garantizar 
- garantizábamos ( ) lemma=garantizar 
- garantizándolas ( ) lemma=garantizar 
- garantizándoles ( ) lemma=garantizar 
- garantizándolo ( ) lemma=garantizar 
- garantizándose ( ) lemma=garantizarse 
- garantizándosele ( ) lemma=garantizarse 
- garantizáramos ( ) lemma=garantizar 
- garantizárnoslo ( ) lemma=garantizar 
- garantizársele ( ) lemma=garantizarse 
- garantizó ( ) lemma=garantizar 
+ garantizará ( ) 
+ garantizarán ( ) 
+ garantizaría ( ) 
+ garantizarían ( ) 
+ garantizase ( ) 
+ garantizasen ( ) 
+ garantizo ( ) 
+ garantizábamos ( ) 
+ garantizándolas ( ) 
+ garantizándoles ( ) 
+ garantizándolo ( ) 
+ garantizándose ( ) 
+ garantizándosele ( ) 
+ garantizáramos ( ) 
+ garantizárnoslo ( ) 
+ garantizársele ( ) 
+ garantizó ( ) 
  garantía ( ) 
  garantíar ( ) 
- garantías ( ) lemma=garantía 
- garbancito ( ) lemma=garbanzo 
+ garantías ( ) 
+ garbancito ( ) 
  garbanzo ( ) 
- garbanzos ( ) lemma=garbanzo 
+ garbanzos ( ) 
  garbo ( ) 
  garde ( ) 
  gardenia ( ) 
  garganta ( ) 
- gargantas ( ) lemma=garganta 
- garra ( ) 
+ gargantas ( ) 
+ garra ( ) lemma=agarrar 
  garrafa ( ) 
- garrafas ( ) lemma=garrafa 
+ garrafas ( ) 
  garrapata ( ) 
- garrapatas ( ) lemma=garrapata 
- garras ( ) lemma=garra 
+ garrapatas ( ) 
+ garras ( ) 
  garrido ( ) 
- garrocha ( ) lemma=garrochar 
- garrochar ( ) 
+ garrocha ( ) 
  garrote ( ) 
- garrotes ( ) lemma=garrote 
+ garrotes ( ) 
  garza ( ) 
- garzas ( ) lemma=garza 
+ garzas ( ) 
  gas ( ) 
  gasa ( ) 
- gasas ( ) lemma=gasa 
- gaseados ( ) lemma=gasear 
- gasear ( ) 
- gaseosa ( ) lemma=gaseoso 
+ gasas ( ) 
+ gaseados ( ) 
+ gaseosa ( ) 
+ gaseosas ( ) 
  gaseoso ( ) 
- gaseosas ( ) lemma=gaseosa 
- gaseosos ( ) lemma=gaseoso 
- gases ( ) lemma=gas 
- gasificadores ( ) lemma=gasificador 
- gasificador ( ) 
+ gaseosos ( ) 
+ gases ( ) 
+ gasificadores ( ) 
  gasoducto ( ) 
- gasoductos ( ) lemma=gasoducto 
+ gasoductos ( ) 
  gasolina ( ) 
- gasolinas ( ) lemma=gasolina 
+ gasolinas ( ) 
  gasolinera ( ) 
- gasolineras ( ) lemma=gasolinera 
- gasta ( ) lemma=gastar 
+ gasolineras ( ) 
+ gasta ( ) 
+ gastaba ( ) 
+ gastaban ( ) 
+ gastad ( ) 
+ gastada ( ) 
+ gastadas ( ) 
+ gastado ( ) 
+ gastados ( ) 
+ gastamos ( ) 
+ gastan ( ) 
+ gastando ( ) 
  gastar ( ) 
- gastaba ( ) lemma=gastar 
- gastaban ( ) lemma=gastar 
- gastad ( ) lemma=gastar 
- gastada ( ) lemma=gastar 
- gastadas ( ) lemma=gastar 
- gastado ( ) lemma=gastar 
- gastados ( ) lemma=gastar 
- gastamos ( ) lemma=gastar 
- gastan ( ) lemma=gastar 
- gastando ( ) lemma=gastar 
- gastara ( ) lemma=gastar 
- gastaran ( ) lemma=gastar 
- gastaremos ( ) lemma=gastar 
- gastarla ( ) lemma=gastar 
- gastarle ( ) lemma=gastar 
- gastarlo ( ) lemma=gastar 
- gastarlos ( ) lemma=gastar 
- gastarme ( ) lemma=gastar 
- gastaron ( ) lemma=gastar 
+ gastara ( ) 
+ gastaran ( ) 
+ gastaremos ( ) 
+ gastarla ( ) 
+ gastarle ( ) 
+ gastarlo ( ) 
+ gastarlos ( ) 
+ gastarme ( ) 
+ gastaron ( ) 
  gastarse ( ) 
- gastarte ( ) lemma=gastar 
- gastará ( ) lemma=gastar 
- gastarán ( ) lemma=gastar 
- gastaría ( ) lemma=gastar 
- gastaríamos ( ) lemma=gastar 
- gastarían ( ) lemma=gastar 
- gastas ( ) lemma=gastar 
- gastase ( ) lemma=gastar 
- gastaste ( ) lemma=gastar 
- gaste ( ) lemma=gastar 
- gastemos ( ) lemma=gastar 
- gasten ( ) lemma=gastar 
- gastes ( ) lemma=gastar 
+ gastarte ( ) 
+ gastará ( ) 
+ gastarán ( ) 
+ gastaría ( ) 
+ gastaríamos ( ) 
+ gastarían ( ) 
+ gastas ( ) 
+ gastase ( ) 
+ gastaste ( ) 
+ gaste ( ) 
+ gastemos ( ) 
+ gasten ( ) 
+ gastes ( ) 
  gasto ( ) 
- gastos ( ) lemma=gasto 
+ gastos ( ) 
  gastritis ( ) 
  gastroduodenal ( ) 
  gastroenteritis ( ) 
@@ -523,369 +504,357 @@
  gastroesofágico ( ) 
  gastroesplénico ( ) 
  gastrointestinal ( ) 
- gastrointestinales ( ) lemma=gastrointestinal 
+ gastrointestinales ( ) 
  gastronomía ( ) 
- gastronómica ( ) lemma=gastronómico 
+ gastronómica ( ) 
  gastronómico ( ) 
- gastronómicos ( ) lemma=gastronómico 
+ gastronómicos ( ) 
  gastropatía ( ) 
  gastrulación ( ) 
- gastándose ( ) lemma=gastar 
- gastás ( ) lemma=gastar 
- gasté ( ) lemma=gastar 
- gastéis ( ) lemma=gastar 
- gastó ( ) lemma=gastar 
+ gastándose ( ) 
+ gastás ( ) 
+ gasté ( ) 
+ gastéis ( ) 
+ gastó ( ) 
  gasóleo ( ) 
- gasóleos ( ) lemma=gasóleo 
- gata ( ) lemma=gato 
- gato ( ) 
- gatas ( ) lemma=gato 
+ gasóleos ( ) 
+ gata ( ) 
+ gatas ( ) 
  gate ( ) 
  gated ( ) 
  gateway ( ) 
- gatillo ( ) lemma=gato 
- gatito ( ) lemma=gato 
- gatitos ( ) lemma=gato 
- gatos ( ) lemma=gato 
+ gatillo ( ) 
+ gatito ( ) 
+ gatitos ( ) 
+ gato ( ) 
+ gatos ( ) 
  gatt ( ) 
  gauchada ( ) 
  gauge ( ) 
- gaussiana ( ) lemma=gaussiano 
+ gaussiana ( ) 
  gaussiano ( ) 
  gavetero ( ) 
- gaviotas ( ) lemma=gaviota 
- gaviota ( ) 
+ gaviotas ( ) 
  gay ( ) 
  gazpacho ( ) 
  geant ( ) 
  gel ( ) 
  gelatina ( ) 
- gelatinas ( ) lemma=gelatina 
- gelatinosa ( ) lemma=gelatinoso 
- gelatinoso ( ) 
- gelatinosas ( ) lemma=gelatinoso 
- geles ( ) lemma=gel 
+ gelatinas ( ) 
+ gelatinosa ( ) 
+ gelatinosas ( ) 
+ geles ( ) 
  gemación ( ) 
- gemela ( ) lemma=gemelo 
+ gemela ( ) 
+ gemelas ( ) 
  gemelo ( ) 
- gemelas ( ) lemma=gemelo 
- gemelos ( ) lemma=gemelo 
+ gemelos ( ) 
  gen ( ) 
  gendarme ( ) 
- gendarmes ( ) lemma=gendarme 
+ gendarmes ( ) 
  genealogía ( ) 
- genealogías ( ) lemma=genealogía 
+ genealogías ( ) 
  genealógico ( ) 
- genealógicos ( ) lemma=genealógico 
- genera ( ) lemma=generar 
- generar ( ) 
- generaba ( ) lemma=generar 
- generaban ( ) lemma=generar 
+ genealógicos ( ) 
+ genera ( ) 
+ generaba ( ) 
+ generaban ( ) 
  generacional ( ) 
- generaciones ( ) lemma=generación 
+ generaciones ( ) 
  generación ( ) 
- generada ( ) lemma=generar 
- generadas ( ) lemma=generar 
- generado ( ) lemma=generar 
+ generada ( ) 
+ generadas ( ) 
+ generado ( ) 
  generador ( ) 
- generadora ( ) lemma=generador 
- generadoras ( ) lemma=generador 
- generadores ( ) lemma=generador 
- generados ( ) lemma=generar 
+ generadora ( ) 
+ generadoras ( ) 
+ generadores ( ) 
+ generados ( ) 
  general ( ) 
- generales ( ) lemma=general 
- generalice ( ) lemma=generalizar 
- generalizar ( ) 
+ generales ( ) 
+ generalice ( ) 
  generalidad ( ) 
- generalidades ( ) lemma=generalidad 
+ generalidades ( ) 
  generalista ( ) 
- generalistas ( ) lemma=generalista 
- generaliza ( ) lemma=generalizar 
- generalizaciones ( ) lemma=generalización 
+ generalistas ( ) 
+ generaliza ( ) 
+ generalizaciones ( ) 
  generalización ( ) 
- generalizada ( ) lemma=generalizado 
- generalizado ( ) lemma=generalizar 
- generalizadas ( ) lemma=generalizar 
- generalizados ( ) lemma=generalizar 
- generalizan ( ) lemma=generalizar 
- generalizando ( ) lemma=generalizar 
- generalizara ( ) lemma=generalizar 
- generalizaran ( ) lemma=generalizar 
+ generalizada ( ) 
+ generalizadas ( ) 
+ generalizado ( ) 
+ generalizados ( ) 
+ generalizan ( ) 
+ generalizando ( ) 
+ generalizar ( ) 
+ generalizara ( ) 
+ generalizaran ( ) 
  generalizarse ( ) 
- generalizará ( ) lemma=generalizar 
- generalizase ( ) lemma=generalizar 
- generalizó ( ) lemma=generalizar 
- generalmente ( ) lemma=general|generalmente 
- general|generalmente ( ) 
- generalísimo ( ) lemma=general 
- generamos ( ) lemma=generar 
- generan ( ) lemma=generar 
- generando ( ) lemma=generar 
- generara ( ) lemma=generar 
- generaran ( ) lemma=generar 
- generaremos ( ) lemma=generar 
- generaron ( ) lemma=generar 
+ generalizará ( ) 
+ generalizase ( ) 
+ generalizó ( ) 
+ generalmente ( ) 
+ generalísimo ( ) 
+ generamos ( ) 
+ generan ( ) 
+ generando ( ) 
+ generar ( ) 
+ generara ( ) 
+ generaran ( ) 
+ generaremos ( ) 
+ generaron ( ) 
  generarse ( ) 
- generará ( ) lemma=generar 
- generarán ( ) lemma=generar 
- generaría ( ) lemma=generar 
- generarían ( ) lemma=generar 
- generase ( ) lemma=generar 
- generativos ( ) lemma=generativo 
- generativo ( ) 
+ generará ( ) 
+ generarán ( ) 
+ generaría ( ) 
+ generarían ( ) 
+ generase ( ) 
+ generativos ( ) 
  generatriz ( ) 
- genere ( ) lemma=generar 
- generemos ( ) lemma=generar 
- generen ( ) lemma=generar 
- genero ( ) lemma=generar 
- generosa ( ) lemma=generoso 
- generoso ( ) 
- generosamente ( ) lemma=generoso 
- generosas ( ) lemma=generoso 
+ genere ( ) 
+ generemos ( ) 
+ generen ( ) 
+ genero ( ) 
+ generosa ( ) 
+ generosamente ( ) 
+ generosas ( ) 
  generosidad ( ) 
- generosidades ( ) lemma=generosidad 
- generosos ( ) lemma=generoso 
- generosísima ( ) lemma=generoso 
- generosísimas ( ) lemma=generoso 
- generó ( ) lemma=generar 
- genes ( ) lemma=gen|genes 
- gen|genes ( ) 
+ generosidades ( ) 
+ generoso ( ) 
+ generosos ( ) 
+ generosísima ( ) 
+ generosísimas ( ) 
+ generó ( ) 
+ genes ( ) 
  geneterplus ( ) 
  genetista ( ) 
- genetistas ( ) lemma=genetista 
+ genetistas ( ) 
  genial ( ) 
- geniales ( ) lemma=genial 
- genialmente ( ) lemma=genial 
+ geniales ( ) 
+ genialmente ( ) 
  genio ( ) 
- genios ( ) lemma=genio 
+ genios ( ) 
  genital ( ) 
- genitales ( ) lemma=genital 
+ genitales ( ) 
  genitorrectal ( ) 
  genitourinario ( ) 
  genocidio ( ) 
- genocidios ( ) lemma=genocidio 
+ genocidios ( ) 
  genoma ( ) 
- genomas ( ) lemma=genoma 
+ genomas ( ) 
  genoteca ( ) 
- genotecas ( ) lemma=genoteca 
+ genotecas ( ) 
  genotipo ( ) 
- genotipos ( ) lemma=genotipo 
+ genotipos ( ) 
  genotípico ( ) 
- genovesa ( ) lemma=genovés 
+ genovesa ( ) 
  genovés ( ) 
- gente ( ) 
- gentes ( ) lemma=gente 
+ gente ( ) lemma=agente 
+ gentes ( ) 
  gentil ( ) 
  gentileza ( ) 
- gentilmente ( ) lemma=gentil 
- genuina ( ) lemma=genuino 
+ gentilmente ( ) 
+ genuina ( ) 
+ genuinamente ( ) 
+ genuinas ( ) 
  genuino ( ) 
- genuinamente ( ) lemma=genuino 
- genuinas ( ) lemma=genuino 
- genuinos ( ) lemma=genuino 
- genérica ( ) lemma=genérico 
+ genuinos ( ) 
+ genérica ( ) 
+ genéricamente ( ) 
+ genéricas ( ) 
  genérico ( ) 
- genéricamente ( ) lemma=genérico 
- genéricas ( ) lemma=genérico 
- genéricos ( ) lemma=genérico 
- genética ( ) lemma=genético 
+ genéricos ( ) 
+ genética ( ) 
+ genéticamente ( ) 
+ genéticas ( ) 
  genético ( ) 
- genéticamente ( ) lemma=genético 
- genéticas ( ) lemma=genético 
  genético-poblacional ( ) 
- genéticos ( ) lemma=genético 
+ genéticos ( ) 
  genómico ( ) 
  geocronología ( ) 
- geoestacionaria ( ) lemma=geoestacionario 
+ geoestacionaria ( ) 
  geoestacionario ( ) 
- geoestacionarios ( ) lemma=geoestacionario 
+ geoestacionarios ( ) 
  geografía ( ) 
- geografías ( ) lemma=geografía 
+ geografías ( ) 
  geographically ( ) 
- geográfica ( ) lemma=geográfico 
+ geográfica ( ) 
+ geográficamente ( ) 
+ geográficas ( ) 
  geográfico ( ) 
- geográficamente ( ) lemma=geográfico 
- geográficas ( ) lemma=geográfico 
- geográficos ( ) lemma=geográfico 
+ geográficos ( ) 
  geología ( ) 
- geológica ( ) lemma=geológico 
+ geológica ( ) 
+ geológicas ( ) 
  geológico ( ) 
- geológicas ( ) lemma=geológico 
- geológicos ( ) lemma=geológico 
+ geológicos ( ) 
  geometría ( ) 
  geomorfología ( ) 
- geométrica ( ) lemma=geométrico 
- geométrico ( ) 
+ geométrica ( ) 
  geométricamente ( ) 
- geométricas ( ) lemma=geométrico 
- geométricos ( ) lemma=geométrico 
- geopolítica ( ) lemma=geopolítico 
+ geométricas ( ) 
+ geométrico ( ) 
+ geométricos ( ) 
+ geopolítica ( ) 
+ geopolíticamente ( ) 
+ geopolíticas ( ) 
  geopolítico ( ) 
- geopolíticamente ( ) lemma=geopolítico 
- geopolíticas ( ) lemma=geopolítico 
- geopolíticos ( ) lemma=geopolítico 
+ geopolíticos ( ) 
  geopotencial ( ) 
  geopresurizar ( ) 
- georgiana ( ) lemma=georgiano 
+ georgiana ( ) 
+ georgianas ( ) 
  georgiano ( ) 
- georgianas ( ) lemma=georgiano 
- georgianos ( ) lemma=georgiano 
+ georgianos ( ) 
  geotermico ( ) 
- geotérmica ( ) lemma=geotérmico 
- geotérmico ( ) 
- geotérmicas ( ) lemma=geotérmico 
- geotérmicos ( ) lemma=geotérmico 
+ geotérmica ( ) 
+ geotérmicas ( ) 
+ geotérmicos ( ) 
  geranio ( ) 
- geranios ( ) lemma=geranio 
+ geranios ( ) 
  gerencia ( ) 
- gerencias ( ) lemma=gerencia 
+ gerencias ( ) 
  gerente ( ) 
- gerentes ( ) lemma=gerente 
+ gerentes ( ) 
  geriatra ( ) 
  geriatría ( ) 
- geriátrica ( ) lemma=geriátrico 
+ geriátrica ( ) 
  geriátrico ( ) 
- germana ( ) lemma=germano 
+ germana ( ) 
+ germanas ( ) 
  germano ( ) 
- germanas ( ) lemma=germano 
- germanos ( ) lemma=germano 
+ germanos ( ) 
  germen ( ) 
  germinación ( ) 
- germinado ( ) lemma=germinar 
- germinar ( ) 
+ germinado ( ) 
  germinal ( ) 
- germinales ( ) lemma=germinal 
- germánica ( ) lemma=germánico 
+ germinales ( ) 
+ germánica ( ) 
+ germánicas ( ) 
  germánico ( ) 
- germánicas ( ) lemma=germánico 
  gerontogeriátrico ( ) 
  gerundense ( ) 
  gerundio ( ) 
- gerundios ( ) lemma=gerundio 
- gesta ( ) lemma=gestar 
- gestar ( ) 
+ gerundios ( ) 
+ gesta ( ) 
  gestacional ( ) 
- gestaciones ( ) lemma=gestación 
+ gestaciones ( ) 
  gestación ( ) 
- gestada ( ) lemma=gestar 
- gestado ( ) lemma=gestar 
- gestando ( ) lemma=gestar 
+ gestada ( ) 
+ gestado ( ) 
+ gestando ( ) 
  gestante ( ) 
- gestantes ( ) lemma=gestante 
- gestara ( ) lemma=gestar 
- gestaron ( ) lemma=gestar 
- gestas ( ) lemma=gestar 
- gesten ( ) lemma=gestar 
- gestiona ( ) lemma=gestionar 
+ gestantes ( ) 
+ gestar ( ) 
+ gestara ( ) 
+ gestaron ( ) 
+ gestas ( ) 
+ gesten ( ) 
+ gestiona ( ) 
+ gestionaba ( ) 
+ gestionada ( ) 
+ gestionadas ( ) 
+ gestionado ( ) 
+ gestionados ( ) 
+ gestionamos ( ) 
+ gestionan ( ) 
+ gestionando ( ) 
  gestionar ( ) 
- gestionaba ( ) lemma=gestionar 
- gestionada ( ) lemma=gestionar 
- gestionadas ( ) lemma=gestionar 
- gestionado ( ) lemma=gestionar 
- gestionados ( ) lemma=gestionar 
- gestionamos ( ) lemma=gestionar 
- gestionan ( ) lemma=gestionar 
- gestionando ( ) lemma=gestionar 
- gestionarla ( ) lemma=gestionar 
- gestionarlas ( ) lemma=gestionar 
- gestionarlo ( ) lemma=gestionar 
- gestionarlos ( ) lemma=gestionar 
- gestionarse ( ) lemma=gestionar 
- gestionará ( ) lemma=gestionar 
- gestionase ( ) lemma=gestionar 
- gestione ( ) lemma=gestionar 
- gestionemos ( ) lemma=gestionar 
- gestionen ( ) lemma=gestionar 
- gestiones ( ) lemma=gestión 
+ gestionarla ( ) 
+ gestionarlas ( ) 
+ gestionarlo ( ) 
+ gestionarlos ( ) 
+ gestionarse ( ) 
+ gestionará ( ) 
+ gestionase ( ) 
+ gestione ( ) 
+ gestionemos ( ) 
+ gestionen ( ) 
+ gestiones ( ) 
+ gestionó ( ) 
  gestión ( ) 
- gestionó ( ) lemma=gestionar 
  gesto ( ) 
  gestor ( ) 
- gestora ( ) lemma=gestor 
- gestoras ( ) lemma=gestor 
- gestores ( ) lemma=gestor 
- gestos ( ) lemma=gesto 
- gestó ( ) lemma=gestar 
+ gestora ( ) 
+ gestoras ( ) 
+ gestores ( ) 
+ gestos ( ) 
+ gestó ( ) 
  get ( ) 
- gibas ( ) lemma=gibar 
- gibar ( ) 
+ gibas ( ) 
  gigante ( ) 
- gigantes ( ) lemma=gigante 
- gigantesca ( ) lemma=gigantesco 
+ gigantes ( ) 
+ gigantesca ( ) 
+ gigantescas ( ) 
  gigantesco ( ) 
- gigantescas ( ) lemma=gigantesco 
- gigantescos ( ) lemma=gigantesco 
+ gigantescos ( ) 
  gil ( ) 
  gilipollas ( ) 
  gimnasia ( ) 
  gimnasio ( ) 
- gimnasios ( ) lemma=gimnasio 
+ gimnasios ( ) 
  gimnasta ( ) 
- gimnastas ( ) lemma=gimnasta 
+ gimnastas ( ) 
  gimnástica ( ) 
  ginebra ( ) 
- ginebras ( ) lemma=ginebra 
- ginebrina ( ) lemma=ginebrino 
- ginebrino ( ) 
+ ginebras ( ) 
+ ginebrina ( ) 
  ginecobstetricia ( ) 
  ginecología ( ) 
- ginecológica ( ) lemma=ginecológico 
+ ginecológica ( ) 
  ginecológico ( ) 
  ginecomastia ( ) 
- ginecóloga ( ) lemma=ginecólogo 
+ ginecóloga ( ) 
  ginecólogo ( ) 
- ginecólogos ( ) lemma=ginecólogo 
+ ginecólogos ( ) 
  gira ( ) 
- giraba ( ) lemma=girar 
+ giraba ( ) 
+ giraban ( ) 
+ girada ( ) 
+ giradas ( ) 
+ girado ( ) 
+ giramos ( ) 
+ giran ( ) 
+ girando ( ) 
  girar ( ) 
- giraban ( ) lemma=girar 
- girada ( ) lemma=girar 
- giradas ( ) lemma=girar 
- girado ( ) lemma=girar 
- giramos ( ) lemma=girar 
- giran ( ) lemma=girar 
- girando ( ) lemma=girar 
- giraron ( ) lemma=girar 
- girará ( ) lemma=girar 
- giras ( ) lemma=gira 
+ giraron ( ) 
+ girará ( ) 
+ giras ( ) 
  girasa ( ) 
  girasar ( ) 
  girasol ( ) 
- girasoles ( ) lemma=girasol 
- giratoria ( ) lemma=giratorio 
+ girasoles ( ) 
+ giratoria ( ) 
  giratorio ( ) 
- gire ( ) lemma=girar 
- giren ( ) lemma=girar 
+ gire ( ) 
+ giren ( ) 
  giro ( ) 
- girona ( ) lemma=gira 
- giros ( ) lemma=giro 
- girás ( ) lemma=girar 
- giró ( ) lemma=girar 
- gitana ( ) lemma=gitano 
+ girona ( ) 
+ giros ( ) 
+ girás ( ) 
+ giró ( ) 
+ gitana ( ) 
+ gitanas ( ) 
  gitano ( ) 
- gitanas ( ) lemma=gitano 
- gitanos ( ) lemma=gitano 
+ gitanos ( ) 
  given ( ) 
  giving ( ) 
  glacial ( ) 
  glaciar ( ) 
- glaciares ( ) lemma=glaciar 
+ glaciares ( ) 
  glande ( ) 
  glandular ( ) 
- glandulares ( ) lemma=glandular 
+ glandulares ( ) 
  glaucoma ( ) 
- glenoidea ( ) lemma=glenoideo 
- glenoideo ( ) 
- gliales ( ) lemma=glial 
- glial ( ) 
+ glenoidea ( ) 
+ gliales ( ) 
  glibenclamir ( ) 
  glicar ( ) 
  glicasar ( ) 
  glicemia ( ) 
- glicemias ( ) lemma=glicemia 
+ glicemias ( ) 
  gliceraldehído ( ) 
- glicerina ( ) lemma=glicerinar 
- glicerinar ( ) 
+ glicerina ( ) 
  glicerofosfolípido ( ) 
  glicerol ( ) 
  glicerolfosfato ( ) 
@@ -895,83 +864,77 @@
  gliclazida ( ) 
  glicofítico ( ) 
  glicolisis ( ) 
- glicoproteínas ( ) lemma=glicoproteína 
- glicoproteína ( ) 
+ glicoproteínas ( ) 
  glicosaminoglicano ( ) 
  glicosilación ( ) 
  glicosilada ( ) 
  glicosilar ( ) 
- glicosídicos ( ) lemma=glicósido 
- glicósido ( ) 
+ glicosídicos ( ) 
  glicémico ( ) 
  glicógeno ( ) 
  glioxilato ( ) 
  global ( ) 
- globales ( ) lemma=global 
+ globales ( ) 
  globalización ( ) 
  globalizador ( ) 
- globalizadora ( ) lemma=globalizador 
- globalmente ( ) lemma=global 
+ globalizadora ( ) 
+ globalmente ( ) 
  globina ( ) 
- globinas ( ) lemma=globina 
- globitos ( ) lemma=globo 
+ globinas ( ) 
+ globitos ( ) 
  globo ( ) 
- globos ( ) lemma=globo 
+ globos ( ) 
  globular ( ) 
  globulina ( ) 
  glomerular ( ) 
- glomerulares ( ) lemma=glomerular 
+ glomerulares ( ) 
  glomerulopatía ( ) 
  glomérulo ( ) 
  gloria ( ) 
- glorias ( ) lemma=gloria 
+ glorias ( ) 
  glorieta ( ) 
- glorificara ( ) lemma=glorificar 
- glorificar ( ) 
- glorio ( ) lemma=gloriar 
- gloriar ( ) 
- gloriosa ( ) lemma=glorioso 
+ glorificara ( ) 
+ glorio ( ) 
+ gloriosa ( ) 
  glorioso ( ) 
- gloriosos ( ) lemma=glorioso 
+ gloriosos ( ) 
  glosa ( ) 
- glosaban ( ) lemma=glosar 
+ glosaban ( ) 
+ glosado ( ) 
  glosar ( ) 
- glosado ( ) lemma=glosar 
  glositis ( ) 
- glosó ( ) lemma=glosar 
- glotones ( ) lemma=glotón 
+ glosó ( ) 
+ glotones ( ) 
  glotón ( ) 
  glucagon ( ) 
  glucagón ( ) 
  glucano ( ) 
  glucar ( ) 
  glucemia ( ) 
- glucemias ( ) lemma=glucemia 
- glucocorticoides ( ) lemma=glucocorticoide 
- glucocorticoide ( ) 
+ glucemias ( ) 
+ glucocorticoides ( ) 
  glucocálix ( ) 
  glucoesfingolípido ( ) 
  glucogenina ( ) 
  glucogenosintetasa ( ) 
  glucogenólisis ( ) 
  glucolisis ( ) 
- glucolípidos ( ) lemma=glucolípido 
- glucolípido ( ) 
+ glucolípidos ( ) 
  glucolítico ( ) 
  gluconeogenético ( ) 
  gluconeogénesis ( ) 
  glucopiranoso ( ) 
  glucoproteína ( ) 
- glucoproteínas ( ) lemma=glucoproteína 
+ glucoproteínas ( ) 
  glucosa ( ) 
  glucosado ( ) 
  glucosaoxidasa ( ) 
- glucosas ( ) lemma=glucosa 
+ glucosas ( ) 
  glucosil ( ) 
  glucosilar ( ) 
  glucosuria ( ) 
  glucosídico ( ) 
- glucémica ( ) lemma=glucémico 
+ glucémica ( ) 
  glucémico ( ) 
  glucídico ( ) 
  glucógeno ( ) 
@@ -984,741 +947,1234 @@
  glutámico ( ) 
  glutámico-pirúvico ( ) 
  glándula ( ) 
- glándulas ( ) lemma=glándula 
+ glándulas ( ) 
  glóbulo ( ) 
- glóbulos ( ) lemma=glóbulo 
+ glóbulos ( ) 
  glúcido ( ) 
- glúcidos ( ) lemma=glúcido 
+ glúcidos ( ) 
  glúteo ( ) 
- gobernaba ( ) lemma=gobernar 
- gobernar ( ) 
- gobernaban ( ) lemma=gobernar 
+ gobernaba ( ) 
+ gobernaban ( ) 
  gobernabilidad ( ) 
- gobernaciones ( ) lemma=gobernación 
+ gobernaciones ( ) 
  gobernación ( ) 
- gobernada ( ) lemma=gobernar 
- gobernadas ( ) lemma=gobernar 
- gobernado ( ) lemma=gobernar 
+ gobernada ( ) 
+ gobernadas ( ) 
+ gobernado ( ) 
  gobernador ( ) 
- gobernadora ( ) lemma=gobernador 
- gobernadores ( ) lemma=gobernador 
- gobernados ( ) lemma=gobernar 
- gobernando ( ) lemma=gobernar 
+ gobernadora ( ) 
+ gobernadores ( ) 
+ gobernados ( ) 
+ gobernando ( ) 
  gobernante ( ) 
- gobernantes ( ) lemma=gobernante 
- gobernara ( ) lemma=gobernar 
- gobernaran ( ) lemma=gobernar 
- gobernaron ( ) lemma=gobernar 
- gobernará ( ) lemma=gobernar 
- gobernarán ( ) lemma=gobernar 
- gobernaría ( ) lemma=gobernar 
- gobernase ( ) lemma=gobernar 
- gobernó ( ) lemma=gobernar 
- gobierna ( ) lemma=gobernar 
- gobiernan ( ) lemma=gobernar 
- gobierne ( ) lemma=gobernar 
+ gobernantes ( ) 
+ gobernar ( ) 
+ gobernara ( ) 
+ gobernaran ( ) 
+ gobernaron ( ) 
+ gobernará ( ) 
+ gobernarán ( ) 
+ gobernaría ( ) 
+ gobernase ( ) 
+ gobernó ( ) 
+ gobierna ( ) 
+ gobiernan ( ) 
+ gobierne ( ) 
  gobierno ( ) 
- gobiernos ( ) lemma=gobierno 
- goce ( ) lemma=gozar 
- gozar ( ) 
- gocemos ( ) lemma=gozar 
- gocen ( ) lemma=gozar 
+ gobiernos ( ) 
+ goce ( ) 
+ gocemos ( ) 
+ gocen ( ) 
  gol ( ) 
  golazo ( ) 
- golazos ( ) lemma=golazo 
- golea ( ) lemma=golear 
- golear ( ) 
- goleada ( ) lemma=golear 
- goleado ( ) lemma=golear 
+ golazos ( ) 
+ golea ( ) 
+ goleada ( ) 
+ goleado ( ) 
  goleador ( ) 
- goleadores ( ) lemma=goleador 
- goleados ( ) lemma=golear 
- golean ( ) lemma=golear 
- golearon ( ) lemma=golear 
- goleo ( ) lemma=golear 
- goles ( ) lemma=gol 
- goleó ( ) lemma=golear 
+ goleadores ( ) 
+ goleados ( ) 
+ golean ( ) 
+ golear ( ) 
+ golearon ( ) 
+ goleo ( ) 
+ goles ( ) 
+ goleó ( ) 
  golf ( ) 
  golfillo ( ) 
  golfista ( ) 
- golfistas ( ) lemma=golfista 
+ golfistas ( ) 
  golfo ( ) 
- golfos ( ) lemma=golfo 
+ golfos ( ) 
  golgi ( ) 
- golondrinas ( ) lemma=golondrina 
- golondrina ( ) 
- golosa ( ) lemma=goloso 
+ golondrinas ( ) 
+ golosa ( ) 
+ golosinas ( ) 
  goloso ( ) 
- golosinas ( ) lemma=golosina 
- golosina ( ) 
- golosos ( ) lemma=goloso 
+ golosos ( ) 
  golpe ( ) 
- golpea ( ) lemma=golpear 
+ golpea ( ) 
+ golpeaba ( ) 
+ golpeaban ( ) 
+ golpeada ( ) 
+ golpeadas ( ) 
+ golpeado ( ) 
+ golpeados ( ) 
+ golpean ( ) 
+ golpeando ( ) 
  golpear ( ) 
- golpeaba ( ) lemma=golpear 
- golpeaban ( ) lemma=golpear 
- golpeada ( ) lemma=golpear 
- golpeadas ( ) lemma=golpear 
- golpeado ( ) lemma=golpear 
- golpeados ( ) lemma=golpear 
- golpean ( ) lemma=golpear 
- golpeando ( ) lemma=golpear 
- golpearlo ( ) lemma=golpear 
- golpearnos ( ) lemma=golpear 
- golpearon ( ) lemma=golpear 
- golpeará ( ) lemma=golpear 
- golpearé ( ) lemma=golpear 
- golpeas ( ) lemma=golpear 
- golpeemos ( ) lemma=golpear 
- golpes ( ) lemma=golpe 
- golpeteaba ( ) lemma=golpetear 
- golpetear ( ) 
- golpeándoles ( ) lemma=golpear 
- golpeándonos ( ) lemma=golpear 
- golpeándote ( ) lemma=golpear 
- golpeó ( ) lemma=golpear 
+ golpearlo ( ) 
+ golpearnos ( ) 
+ golpearon ( ) 
+ golpeará ( ) 
+ golpearé ( ) 
+ golpeas ( ) 
+ golpeemos ( ) 
+ golpes ( ) 
+ golpeteaba ( ) 
+ golpeándoles ( ) 
+ golpeándonos ( ) 
+ golpeándote ( ) 
+ golpeó ( ) 
  golpista ( ) 
- golpistas ( ) lemma=golpista 
+ golpistas ( ) 
  goma ( ) 
- gomas ( ) lemma=goma 
+ gomas ( ) 
  gomera ( ) 
  gonadal ( ) 
  gonadotrofo ( ) 
  gonadotropa ( ) 
  gonadotropina ( ) 
  gonioscopia ( ) 
- goniómetros ( ) lemma=goniómetro 
- goniómetro ( ) 
+ goniómetros ( ) 
  gonocito ( ) 
  gonocóccico ( ) 
  gonodoblastoma ( ) 
  gonosómico ( ) 
  gopher ( ) 
- gorda ( ) lemma=gordo 
- gordo ( ) 
- gordas ( ) lemma=gordo 
+ gorda ( ) 
+ gordas ( ) 
  gordiano ( ) 
- gordita ( ) lemma=gordo 
- gordito ( ) lemma=gordo 
- gorditos ( ) lemma=gordo 
- gordos ( ) lemma=gordo 
- gordote ( ) lemma=gordo 
+ gordita ( ) 
+ gordito ( ) 
+ gorditos ( ) 
+ gordo ( ) 
+ gordos ( ) 
+ gordote ( ) 
  gordura ( ) 
- gordísima ( ) lemma=gordo 
- gordísimo ( ) lemma=gordo 
- gordísimos ( ) lemma=gordo 
- gorgojos ( ) lemma=gorgojo 
- gorgojo ( ) 
+ gordísima ( ) 
+ gordísimo ( ) 
+ gordísimos ( ) 
+ gorgojos ( ) 
  gorra ( ) 
- gorras ( ) lemma=gorra 
- gorriones ( ) lemma=gorrión 
+ gorras ( ) 
+ gorriones ( ) 
+ gorritos ( ) 
  gorrión ( ) 
- gorritos ( ) lemma=gorro 
  gorro ( ) 
- gota ( ) 
- gotas ( ) lemma=gota 
- gotea ( ) lemma=gotear 
- gotear ( ) 
- goteo ( ) lemma=gotear 
+ gota ( ) lemma=agotar 
+ gotas ( ) 
+ gotea ( ) 
+ goteo ( ) 
  gotera ( ) 
- goteras ( ) lemma=gotera 
- goticas ( ) lemma=gota 
- gotita ( ) lemma=gota 
- gotitas ( ) lemma=gota 
+ goteras ( ) 
+ goticas ( ) 
+ gotita ( ) 
+ gotitas ( ) 
  governing ( ) 
- goza ( ) lemma=gozar 
- gozaba ( ) lemma=gozar 
- gozaban ( ) lemma=gozar 
- gozada ( ) lemma=gozar 
- gozado ( ) lemma=gozar 
- gozamos ( ) lemma=gozar 
- gozan ( ) lemma=gozar 
- gozando ( ) lemma=gozar 
- gozara ( ) lemma=gozar 
- gozaran ( ) lemma=gozar 
- gozaremos ( ) lemma=gozar 
- gozaron ( ) lemma=gozar 
- gozará ( ) lemma=gozar 
- gozarán ( ) lemma=gozar 
- gozaría ( ) lemma=gozar 
+ goza ( ) 
+ gozaba ( ) 
+ gozaban ( ) 
+ gozada ( ) 
+ gozado ( ) 
+ gozamos ( ) 
+ gozan ( ) 
+ gozando ( ) 
+ gozar ( ) 
+ gozara ( ) 
+ gozaran ( ) 
+ gozaremos ( ) 
+ gozaron ( ) 
+ gozará ( ) 
+ gozarán ( ) 
+ gozaría ( ) 
  gozo ( ) 
- gozosa ( ) lemma=gozoso 
- gozoso ( ) 
- gozábamos ( ) lemma=gozar 
- gozó ( ) lemma=gozar 
- graba ( ) lemma=grabar 
- grabar ( ) 
- grabaciones ( ) lemma=grabación 
+ gozosa ( ) 
+ gozábamos ( ) 
+ gozó ( ) 
+ graba ( ) 
+ grabaciones ( ) 
  grabación ( ) 
- grabada ( ) lemma=grabar 
- grabadas ( ) lemma=grabar 
+ grabada ( ) 
+ grabadas ( ) 
  grabado ( ) 
  grabadora ( ) 
- grabadoras ( ) lemma=grabadora 
- grabadores ( ) lemma=grabador 
- grabador ( ) 
- grabados ( ) lemma=grabar 
- grabamos ( ) lemma=grabar 
- graban ( ) lemma=grabar 
- grabando ( ) lemma=grabar 
- grabara ( ) lemma=grabar 
- grabarles ( ) lemma=grabar 
- grabarlo ( ) lemma=grabar 
- grabaron ( ) lemma=grabar 
+ grabadoras ( ) 
+ grabadores ( ) 
+ grabados ( ) 
+ grabamos ( ) 
+ graban ( ) 
+ grabando ( ) 
+ grabar ( ) 
+ grabara ( ) 
+ grabarles ( ) 
+ grabarlo ( ) 
+ grabaron ( ) 
  grabarse ( ) 
- grabará ( ) lemma=grabar 
- grabas ( ) lemma=grabar 
- grabase ( ) lemma=grabar 
- grabaste ( ) lemma=grabar 
- grabe ( ) lemma=grabar 
- graben ( ) lemma=grabar 
- grabo ( ) lemma=grabar 
- grabé ( ) lemma=grabar 
- grabó ( ) lemma=grabar 
+ grabará ( ) 
+ grabas ( ) 
+ grabase ( ) 
+ grabaste ( ) 
+ grabe ( ) 
+ graben ( ) 
+ grabo ( ) 
+ grabé ( ) 
+ grabó ( ) 
  gracia ( ) 
- gracias ( ) lemma=gracia 
- gracias_a ( ) lemma=gracias~a 
- graciosa ( ) lemma=gracioso 
+ gracias ( ) 
+ graciosa ( ) 
+ graciosamente ( ) 
+ graciosas ( ) 
+ graciosillos ( ) 
  gracioso ( ) 
- graciosamente ( ) lemma=gracioso 
- graciosas ( ) lemma=gracioso 
- graciosillos ( ) lemma=gracioso 
- graciosos ( ) lemma=gracioso 
- graciosísimo ( ) lemma=gracioso 
- grada ( ) 
+ graciosos ( ) 
+ graciosísimo ( ) 
+ grada ( ) lemma=agradar 
  gradación ( ) 
- gradas ( ) lemma=grada 
- graderia ( ) lemma=gradería 
- gradería ( ) 
- grades ( ) lemma=gradar 
- gradar ( ) 
+ gradas ( ) 
+ graderia ( ) 
+ grades ( ) 
  gradiente ( ) 
- gradientes ( ) lemma=gradiente 
- graditos ( ) lemma=grado 
+ gradientes ( ) 
+ graditos ( ) 
  grado ( ) 
- grados ( ) lemma=grado 
- graduaban ( ) lemma=graduar 
- graduar ( ) 
+ grados ( ) 
+ graduaban ( ) 
  graduación ( ) 
- graduada ( ) lemma=graduar 
- graduado ( ) lemma=graduar 
- graduados ( ) lemma=graduar 
- graduai ( ) lemma=graduar 
+ graduada ( ) 
+ graduado ( ) 
+ graduados ( ) 
+ graduai ( ) 
  gradual ( ) 
- graduales ( ) lemma=gradual 
- gradualmente ( ) lemma=gradual 
- graduando ( ) lemma=graduar 
- graduarlo ( ) lemma=graduar 
+ graduales ( ) 
+ gradualmente ( ) 
+ graduando ( ) 
+ graduar ( ) 
+ graduarlo ( ) 
  graduarse ( ) 
- graduasen ( ) lemma=graduar 
- gradué ( ) lemma=graduar 
- graduó ( ) lemma=graduar 
- gradúas ( ) lemma=graduar 
- gradúe ( ) lemma=graduar 
- gradúo ( ) lemma=graduar 
+ graduasen ( ) 
+ gradué ( ) 
+ graduó ( ) 
+ gradúas ( ) 
+ gradúe ( ) 
+ gradúo ( ) 
  grafismo ( ) 
- grafismos ( ) lemma=grafismo 
+ grafismos ( ) 
  grafito ( ) 
- grafitos ( ) lemma=grafito 
+ grafitos ( ) 
  grafo ( ) 
- grafológicas ( ) lemma=grafológica 
- grafológica ( ) 
+ grafológicas ( ) 
  gram ( ) 
  grama ( ) 
  gramatical ( ) 
- gramaticales ( ) lemma=gramatical 
- gramaticalmente ( ) lemma=gramatical 
+ gramaticales ( ) 
+ gramaticalmente ( ) 
  gramilla ( ) 
  gramnegativo ( ) 
  gramo ( ) 
- gramos ( ) lemma=gramo 
+ gramos ( ) 
  grampositivo ( ) 
  gramática ( ) 
- gramáticas ( ) lemma=gramática|gramático 
- gramática|gramático ( ) 
+ gramáticas ( ) 
  gramático ( ) 
  gramínea ( ) 
- gran ( ) lemma=gran|grande 
- gran|grande ( ) 
- grana ( ) lemma=granar 
- granar ( ) 
+ gran ( ) 
+ grana ( ) 
  granada ( ) 
- granadas ( ) lemma=granada 
+ granadas ( ) 
  granado ( ) 
- granados ( ) lemma=granado 
- grande ( ) 
- grandecita ( ) lemma=grande 
- grandecitas ( ) lemma=grande 
- grandecito ( ) lemma=grande 
- grandecitos ( ) lemma=grande 
- grandemente ( ) lemma=grande 
- grandes ( ) lemma=grande 
+ granados ( ) 
+ grande ( ) lemma=agrandar 
+ grandecita ( ) 
+ grandecitas ( ) 
+ grandecito ( ) 
+ grandecitos ( ) 
+ grandemente ( ) 
+ grandes ( ) 
  grandeza ( ) 
- grandezas ( ) lemma=grandeza 
- grandilocuentes ( ) lemma=grandilocuente 
- grandilocuente ( ) 
- grandiosa ( ) lemma=grandioso 
+ grandezas ( ) 
+ grandilocuentes ( ) 
+ grandiosa ( ) 
+ grandiosas ( ) 
  grandioso ( ) 
- grandiosas ( ) lemma=grandioso 
- grandiosos ( ) lemma=grandioso 
- grandota ( ) lemma=grandote 
+ grandiosos ( ) 
+ grandota ( ) 
  grandote ( ) 
- grandotota ( ) lemma=grande 
- grandísima ( ) lemma=grande 
- grandísimas ( ) lemma=grande 
- grandísimo ( ) lemma=grande 
- grane ( ) lemma=granar 
+ grandotota ( ) 
+ grandísima ( ) 
+ grandísimas ( ) 
+ grandísimo ( ) 
+ grane ( ) 
  granero ( ) 
- graneros ( ) lemma=granero 
- granitico ( ) lemma=granítico 
- granítico ( ) 
+ graneros ( ) 
+ granitico ( ) 
  granito ( ) 
- granitos ( ) lemma=granito 
+ granitos ( ) 
  granizo ( ) 
  granja ( ) 
- granjas ( ) lemma=granja 
- granjeado ( ) lemma=granjear 
+ granjas ( ) 
+ granjeado ( ) 
  granjear ( ) 
- granjearon ( ) lemma=granjear 
+ granjearon ( ) 
  granjearse ( ) 
- granjeará ( ) lemma=granjear 
- granjearía ( ) lemma=granjear 
- granjee ( ) lemma=granjear 
+ granjeará ( ) 
+ granjearía ( ) 
+ granjee ( ) 
  granjero ( ) 
- granjeros ( ) lemma=granjero 
- granjeándose ( ) lemma=granjearse 
- granjeó ( ) lemma=granjear 
+ granjeros ( ) 
+ granjeándose ( ) 
+ granjeó ( ) 
  grano ( ) 
- granos ( ) lemma=grano 
- granulado ( ) lemma=granular 
+ granos ( ) 
+ granulado ( ) 
  granular ( ) 
- granulares ( ) lemma=granular 
+ granulares ( ) 
  granularidad ( ) 
- granules ( ) lemma=granular 
+ granules ( ) 
  granulocito-macrófago ( ) 
- granulocitos ( ) lemma=granulocito 
- granulocito ( ) 
+ granulocitos ( ) 
  granulocitosis ( ) 
  granuloma ( ) 
- granulomas ( ) lemma=granuloma 
- granulomatosa ( ) lemma=granulomatoso 
- granulomatoso ( ) 
+ granulomas ( ) 
+ granulomatosa ( ) 
  granulomatosis ( ) 
- granulosa ( ) lemma=granuloso 
+ granulosa ( ) 
  granuloso ( ) 
- granulosos ( ) lemma=granuloso 
+ granulosos ( ) 
  graphic ( ) 
  graphique ( ) 
  graphiques ( ) 
- grasa ( ) lemma=graso 
+ grasa ( ) 
+ grasas ( ) 
  graso ( ) 
- grasas ( ) lemma=graso 
- grasos ( ) lemma=graso 
- grata ( ) lemma=grato 
- grato ( ) 
- gratamente ( ) lemma=grato 
- gratas ( ) lemma=grato 
- gratifica ( ) lemma=gratificar 
- gratificar ( ) 
- gratificaciones ( ) lemma=gratificación 
+ grasos ( ) 
+ grata ( ) 
+ gratamente ( ) 
+ gratas ( ) 
+ gratifica ( ) 
+ gratificaciones ( ) 
  gratificación ( ) 
- gratificada ( ) lemma=gratificar 
+ gratificada ( ) 
  gratificante ( ) 
- gratificantes ( ) lemma=gratificante 
+ gratificantes ( ) 
  gratis ( ) 
  gratitud ( ) 
- gratos ( ) lemma=grato 
- gratuita ( ) lemma=gratuito 
+ grato ( ) 
+ gratos ( ) 
+ gratuita ( ) 
+ gratuitamente ( ) 
+ gratuitas ( ) 
  gratuito ( ) 
- gratuitamente ( ) lemma=gratuito 
- gratuitas ( ) lemma=gratuito 
- gratuitos ( ) lemma=gratuito 
- gratísima ( ) lemma=grato 
- gratísimo ( ) lemma=grato 
- grava ( ) lemma=gravar 
- gravar ( ) 
- gravada ( ) lemma=gravar 
- gravadas ( ) lemma=gravar 
- gravado ( ) lemma=gravar 
- gravados ( ) lemma=gravar 
+ gratuitos ( ) 
+ gratísima ( ) 
+ gratísimo ( ) 
+ grava ( ) lemma=agravar 
+ gravada ( ) lemma=agravar 
+ gravadas ( ) 
+ gravado ( ) lemma=agravar 
+ gravados ( ) 
  gravamen ( ) 
- gravamos ( ) lemma=gravar 
- gravan ( ) lemma=gravar 
- gravando ( ) lemma=gravar 
- gravara ( ) lemma=gravar 
- gravará ( ) lemma=gravar 
- gravase ( ) lemma=gravar 
- gravasen ( ) lemma=gravar 
- grave ( ) 
+ gravamos ( ) 
+ gravan ( ) 
+ gravando ( ) 
+ gravar ( ) 
+ gravara ( ) lemma=agravar 
+ gravará ( ) lemma=agravar 
+ gravase ( ) 
+ gravasen ( ) 
+ grave ( ) lemma=agravar 
  gravedad ( ) 
- gravemente ( ) lemma=grave 
- gravemos ( ) lemma=gravar 
- graven ( ) lemma=gravar 
- graves ( ) lemma=grave 
+ gravemente ( ) 
+ gravemos ( ) 
+ graven ( ) 
+ graves ( ) 
  gravimétrico ( ) 
- gravita ( ) lemma=gravitar 
- gravitar ( ) 
+ gravita ( ) 
  gravitación ( ) 
- gravitatoria ( ) lemma=gravitatorio 
+ gravitatoria ( ) 
  gravitatorio ( ) 
  gravosidad ( ) 
- gravámenes ( ) lemma=gravamen 
- gravídica ( ) lemma=gravídico 
- gravídico ( ) 
- gravísima ( ) lemma=grave 
- gravísimamente ( ) lemma=grave 
- gravísimas ( ) lemma=grave 
- gravísimo ( ) lemma=grave 
- gravísimos ( ) lemma=grave 
- grecas ( ) lemma=greca 
- greca ( ) 
+ gravámenes ( ) 
+ gravídica ( ) 
+ gravísima ( ) 
+ gravísimamente ( ) 
+ gravísimas ( ) 
+ gravísimo ( ) 
+ gravísimos ( ) 
+ grecas ( ) 
  green ( ) 
  gregario ( ) 
  greinar ( ) 
  gremial ( ) 
- gremiales ( ) lemma=gremial 
+ gremiales ( ) 
  gremio ( ) 
- gremios ( ) lemma=gremio 
- griega ( ) lemma=griego 
+ gremios ( ) 
+ griega ( ) 
+ griegas ( ) 
  griego ( ) 
- griegas ( ) lemma=griego 
- griegos ( ) lemma=griego 
+ griegos ( ) 
  grieta ( ) 
- grietas ( ) lemma=grieta 
+ grietas ( ) 
  grifo ( ) 
- grifos ( ) lemma=grifo 
+ grifos ( ) 
  grilla ( ) 
  grima ( ) 
- gringa ( ) lemma=gringo 
+ gringa ( ) 
  gringo ( ) 
  gringos ( ) 
- gripa ( ) lemma=gripar 
- gripar ( ) 
+ gripa ( ) 
  gripal ( ) 
- gripales ( ) lemma=gripal 
+ gripales ( ) 
  gripe ( ) 
- gripes ( ) lemma=gripe 
+ gripes ( ) 
  gris ( ) 
  griseofulvina ( ) 
- grises ( ) lemma=gris 
- grita ( ) lemma=gritar 
+ grises ( ) 
+ grita ( ) 
+ gritaba ( ) 
+ gritabai ( ) 
+ gritaban ( ) 
+ gritado ( ) 
+ gritamos ( ) 
+ gritan ( ) 
+ gritando ( ) 
  gritar ( ) 
- gritaba ( ) lemma=gritar 
- gritabai ( ) lemma=gritar 
- gritaban ( ) lemma=gritar 
- gritado ( ) lemma=gritar 
- gritamos ( ) lemma=gritar 
- gritan ( ) lemma=gritar 
- gritando ( ) lemma=gritar 
- gritara ( ) lemma=gritar 
- gritarle ( ) lemma=gritar 
- gritaron ( ) lemma=gritar 
- gritará ( ) lemma=gritar 
- grite ( ) lemma=gritar 
- gritemos ( ) lemma=gritar 
- griten ( ) lemma=gritar 
+ gritara ( ) 
+ gritarle ( ) 
+ gritaron ( ) 
+ gritará ( ) 
+ grite ( ) 
+ gritemos ( ) 
+ griten ( ) 
  gritería ( ) 
- gritito ( ) lemma=grito 
+ gritito ( ) 
  grito ( ) 
- gritos ( ) lemma=grito 
- grité ( ) lemma=gritar 
- gritó ( ) lemma=gritar 
- groenlandesa ( ) lemma=groenlandés 
- groenlandés ( ) 
- grosera ( ) lemma=grosero 
+ gritos ( ) 
+ grité ( ) 
+ gritó ( ) 
+ groenlandesa ( ) 
+ grosera ( ) 
+ groseramente ( ) 
+ groseras ( ) 
  grosero ( ) 
- groseramente ( ) lemma=grosero 
- groseras ( ) lemma=grosero 
- groseros ( ) lemma=grosero 
+ groseros ( ) 
  grosería ( ) 
  grosor ( ) 
- grosores ( ) lemma=grosor 
+ grosores ( ) 
  gross ( ) 
- grotesca ( ) lemma=grotesco 
+ grotesca ( ) 
+ grotescas ( ) 
  grotesco ( ) 
- grotescas ( ) lemma=grotesco 
- grotescos ( ) lemma=grotesco 
+ grotescos ( ) 
  group ( ) 
  groupe ( ) 
  groupement ( ) 
- gruesa ( ) lemma=grueso 
+ gruesa ( ) 
+ gruesas ( ) 
  grueso ( ) 
- gruesas ( ) lemma=grueso 
- gruesos ( ) lemma=grueso 
- grumos ( ) lemma=grumo 
- grumo ( ) 
+ gruesos ( ) 
+ grumos ( ) 
  grupal ( ) 
- grupales ( ) lemma=grupal 
- grupito ( ) lemma=grupo 
+ grupales ( ) 
+ grupito ( ) 
  grupo ( ) 
- grupos ( ) lemma=grupo 
+ grupos ( ) 
  gruta ( ) 
- grutas ( ) lemma=gruta 
- gruñe ( ) lemma=gruñir 
- gruñir ( ) 
- gruñes ( ) lemma=gruñir 
+ grutas ( ) 
+ gruñe ( ) 
+ gruñes ( ) 
  gruñido ( ) 
  grynfeltt ( ) 
- gráafica ( ) lemma=gráafico 
- gráafico ( ) 
+ gráafica ( ) 
  grácil ( ) 
- gráciles ( ) lemma=grácil 
- gráfica ( ) lemma=gráfico 
+ gráciles ( ) 
+ gráfica ( ) 
+ gráficamente ( ) 
+ gráficas ( ) 
  gráfico ( ) 
- gráficamente ( ) lemma=gráfico 
- gráficas ( ) lemma=gráfico 
- gráficos ( ) lemma=gráfico 
+ gráficos ( ) 
  gránulo ( ) 
- gránulos ( ) lemma=gránulo 
+ gránulos ( ) 
  grúa ( ) 
- grúas ( ) lemma=grúa 
+ grúas ( ) 
  guachipifiar ( ) 
- guachos ( ) lemma=guacho 
- guacho ( ) 
- guadalajareños ( ) lemma=guadalajareño 
- guadalajareño ( ) 
- guadalupana ( ) lemma=guadalupano 
- guadalupano ( ) 
+ guachos ( ) 
+ guadalajareños ( ) 
+ guadalupana ( ) 
  guadalupense ( ) 
  guadiano ( ) 
  guagua ( ) 
- guaguas ( ) lemma=guagua 
+ guaguas ( ) 
  guagüita ( ) 
- guajira ( ) lemma=guajiro 
- guajiro ( ) 
- guajiras ( ) lemma=guajiro 
- guajiros ( ) lemma=guajiro 
+ guajira ( ) 
+ guajiras ( ) 
+ guajiros ( ) 
  guanajuatense ( ) 
- guanajuatenses ( ) lemma=guanajuatense 
- guanidinas ( ) lemma=guanidina 
- guanidina ( ) 
+ guanajuatenses ( ) 
+ guanidinas ( ) 
  guanilato ( ) 
  guanina ( ) 
  guano ( ) 
  guanosina ( ) 
- guante ( ) 
- guantes ( ) lemma=guante 
- guapa ( ) lemma=guapo 
- guapo ( ) 
- guapas ( ) lemma=guapo 
+ guante ( ) lemma=aguantar 
+ guantes ( ) 
+ guapa ( ) 
+ guapas ( ) 
  guapeza ( ) 
- guapos ( ) lemma=guapo 
- guapísima ( ) lemma=guapo 
- guapísimo ( ) lemma=guapo 
+ guapo ( ) 
+ guapos ( ) 
+ guapísima ( ) 
+ guapísimo ( ) 
  guaraní ( ) 
- guaraníes ( ) lemma=guaraní 
- guard ( ) 
- guarda ( ) 
- guardaba ( ) lemma=guardar 
- guardar ( ) 
- guardaban ( ) lemma=guardar 
+ guaraníes ( ) 
+ guard ( ) lemma=aguardar 
+ guarda ( ) lemma=aguardar 
+ guardaba ( ) lemma=aguardar 
+ guardaban ( ) 
  guardabosques ( ) 
- guardacostas ( ) lemma=guardacosta 
- guardacosta ( ) 
- guardada ( ) lemma=guardar 
- guardadas ( ) lemma=guardar 
- guardado ( ) lemma=guardar 
+ guardacostas ( ) 
+ guardada ( ) 
+ guardadas ( ) 
+ guardado ( ) 
  guardador ( ) 
- guardados ( ) lemma=guardar 
+ guardados ( ) 
  guardaespaldas ( ) 
  guardameta ( ) 
- guardametas ( ) lemma=guardameta 
- guardamos ( ) lemma=guardar 
- guardan ( ) lemma=guardar 
- guardando ( ) lemma=guardar 
- guardara ( ) lemma=guardar 
- guardaran ( ) lemma=guardar 
- guardarlo ( ) lemma=guardar 
- guardarnos ( ) lemma=guardar 
- guardaron ( ) lemma=guardar 
+ guardametas ( ) 
+ guardamos ( ) 
+ guardan ( ) 
+ guardando ( ) 
+ guardar ( ) lemma=aguardar 
+ guardara ( ) 
+ guardaran ( ) 
+ guardarlo ( ) 
+ guardarnos ( ) 
+ guardaron ( ) 
  guardarropa ( ) 
  guardarse ( ) 
- guardará ( ) lemma=guardar 
- guardarán ( ) lemma=guardar 
- guardaré ( ) lemma=guardar 
- guardaría ( ) lemma=guardar 
- guardas ( ) lemma=guardar 
- guardase ( ) lemma=guardar 
- guardaseis ( ) lemma=guardar 
- guarde ( ) lemma=guardar 
- guardemos ( ) lemma=guardar 
- guarden ( ) lemma=guardar 
+ guardará ( ) 
+ guardarán ( ) 
+ guardaré ( ) 
+ guardaría ( ) lemma=aguardar 
+ guardas ( ) 
+ guardase ( ) 
+ guardaseis ( ) 
+ guarde ( ) lemma=aguardar 
+ guardemos ( ) 
+ guarden ( ) 
  guardería ( ) 
- guarderías ( ) lemma=guardería 
- guardes ( ) lemma=guardar 
+ guarderías ( ) 
+ guardes ( ) 
  guardia ( ) 
- guardianas ( ) lemma=guardián 
- guardián ( ) 
- guardianes ( ) lemma=guardián 
- guardias ( ) lemma=guardia 
+ guardianas ( ) 
+ guardianes ( ) 
+ guardias ( ) 
  guarding ( ) 
- guardo ( ) lemma=guardar 
- guardábamos ( ) lemma=guardar 
- guardáis ( ) lemma=guardar 
- guardándose ( ) lemma=guardarse 
- guardé ( ) lemma=guardar 
- guardémonos ( ) lemma=guardar 
- guardó ( ) lemma=guardar 
+ guardián ( ) 
+ guardo ( ) 
+ guardábamos ( ) 
+ guardáis ( ) 
+ guardándose ( ) 
+ guardé ( ) 
+ guardémonos ( ) 
+ guardó ( ) 
  guarida ( ) 
  guarismo ( ) 
- guarismos ( ) lemma=guarismo 
- guarniciones ( ) lemma=guarnición 
+ guarismos ( ) 
+ guarniciones ( ) 
  guarnición ( ) 
  guata ( ) 
- guatas ( ) lemma=guata 
- guatemalteca ( ) lemma=guatemalteco 
+ guatas ( ) 
+ guatemalteca ( ) 
+ guatemaltecas ( ) 
  guatemalteco ( ) 
- guatemaltecas ( ) lemma=guatemalteco 
- guatemaltecos ( ) lemma=guatemalteco 
- guateques ( ) lemma=guateque 
- guateque ( ) 
- guatita ( ) lemma=guata 
+ guatemaltecos ( ) 
+ guateques ( ) 
+ guatita ( ) 
  guatón ( ) 
  guau ( ) 
  guay ( ) 
  guayaba ( ) 
- guayabas ( ) lemma=guayaba 
+ guayabas ( ) 
  guayabo ( ) 
  gubernamental ( ) 
- gubernamentales ( ) lemma=gubernamental 
- gubernativa ( ) lemma=gubernativo 
+ gubernamentales ( ) 
+ gubernativa ( ) 
+ gubernativas ( ) 
  gubernativo ( ) 
- gubernativas ( ) lemma=gubernativo 
  gubernáculum ( ) 
- guerra ( ) 
- guerras ( ) lemma=guerra 
- guerrera ( ) lemma=guerrero 
- guerrero ( ) 
- guerreras ( ) lemma=guerrero 
+ guerra ( ) lemma=aguerrir 
+ guerras ( ) 
+ guerrera ( ) 
+ guerreras ( ) 
  guerrerense ( ) 
- guerrerenses ( ) lemma=guerrerense 
- guerreros ( ) lemma=guerrero 
+ guerrerenses ( ) 
+ guerrero ( ) 
+ guerreros ( ) 
  guerrilla ( ) 
- guerrillas ( ) lemma=guerrilla 
- guerrillera ( ) lemma=guerrillero 
+ guerrillas ( ) 
+ guerrillera ( ) 
+ guerrilleras ( ) 
  guerrillero ( ) 
- guerrilleras ( ) lemma=guerrillero 
- guerrilleros ( ) lemma=guerrillero 
+ guerrilleros ( ) 
  gueto ( ) 
- guetos ( ) lemma=gueto 
+ guetos ( ) 
  guia ( ) 
- guiaba ( ) lemma=guiar 
+ guiaba ( ) 
+ guiada ( ) 
+ guiadas ( ) 
+ guiado ( ) 
+ guiados ( ) 
+ guiamos ( ) 
+ guiando ( ) 
  guiar ( ) 
- guiada ( ) lemma=guiar 
- guiadas ( ) lemma=guiar 
- guiado ( ) lemma=guiar 
- guiados ( ) lemma=guiar 
- guiamos ( ) lemma=guiar 
- guiando ( ) lemma=guiar 
- guiara ( ) lemma=guiar 
- guiaremos ( ) lemma=guiar 
- guiará ( ) lemma=guiar 
- guiarán ( ) lemma=guiar 
- guiaré ( ) lemma=guiar 
- guijarros ( ) lemma=guijarro 
- guijarro ( ) 
+ guiara ( ) 
+ guiaremos ( ) 
+ guiará ( ) 
+ guiarán ( ) 
+ guiaré ( ) 
+ guijarros ( ) 
  guillotina ( ) 
  guinda ( ) 
- guindas ( ) lemma=guinda 
+ guindas ( ) 
  guinea ( ) 
- guiones ( ) lemma=guión 
- guión ( ) 
+ guiones ( ) 
  guionista ( ) 
- guionistas ( ) lemma=guionista 
- guipuzcoana ( ) lemma=guipuzcoano 
- guipuzcoano ( ) 
- guisa ( ) lemma=guisar 
- guisar ( ) 
- guisada ( ) lemma=guisar 
+ guionistas ( ) 
+ guipuzcoana ( ) 
+ guisa ( ) 
+ guisada ( ) 
  guisado ( ) 
- guisan ( ) lemma=guisar 
+ guisan ( ) 
  guisante ( ) 
- guisantes ( ) lemma=guisante 
- guisen ( ) lemma=guisar 
- guiso ( ) lemma=guisar 
+ guisantes ( ) 
+ guisar ( ) 
+ guisen ( ) 
+ guiso ( ) 
  guita ( ) 
  guitarra ( ) 
- guitarras ( ) lemma=guitarra 
+ guitarras ( ) 
  guitarrista ( ) 
- guitarristas ( ) lemma=guitarrista 
- guito ( ) lemma=guitar 
- guitar ( ) 
- guiños ( ) lemma=guiño 
- guiño ( ) 
- guió ( ) lemma=guiar 
- gusanillo ( ) lemma=gusano 
+ guitarristas ( ) 
+ guito ( ) 
+ guiños ( ) 
+ guió ( ) 
+ guión ( ) 
+ gusanillo ( ) 
  gusano ( ) 
- gusanos ( ) lemma=gusano 
- gusta ( ) lemma=gustar 
+ gusanos ( ) 
+ gusta ( ) 
+ gustaba ( ) 
+ gustaban ( ) 
+ gustado ( ) 
+ gustamos ( ) 
+ gustan ( ) 
+ gustando ( ) 
  gustar ( ) 
- gustaba ( ) lemma=gustar 
- gustaban ( ) lemma=gustar 
- gustado ( ) lemma=gustar 
- gustamos ( ) lemma=gustar 
- gustan ( ) lemma=gustar 
- gustando ( ) lemma=gustar 
- gustara ( ) lemma=gustar 
- gustarle ( ) lemma=gustar 
- gustarnos ( ) lemma=gustar 
- gustaron ( ) lemma=gustar 
- gustará ( ) lemma=gustar 
- gustaría ( ) lemma=gustar 
- gustarían ( ) lemma=gustar 
- gustas ( ) lemma=gustar 
- gustase ( ) lemma=gustar 
- gustativa ( ) lemma=gustativo 
+ gustara ( ) 
+ gustarle ( ) 
+ gustarnos ( ) 
+ gustaron ( ) 
+ gustará ( ) 
+ gustaría ( ) 
+ gustarían ( ) 
+ gustas ( ) 
+ gustase ( ) 
+ gustativa ( ) 
+ gustativas ( ) 
  gustativo ( ) 
- gustativas ( ) lemma=gustativo 
- gustativos ( ) lemma=gustativo 
- guste ( ) lemma=gustar 
- gusten ( ) lemma=gustar 
- gustito ( ) lemma=gusto 
+ gustativos ( ) 
+ guste ( ) 
+ gusten ( ) 
+ gustito ( ) 
  gusto ( ) 
- gustos ( ) lemma=gusto 
- gustosamente ( ) lemma=gustoso 
+ gustos ( ) 
+ gustosamente ( ) 
  gustoso ( ) 
- gustosos ( ) lemma=gustoso 
- gustó ( ) lemma=gustar 
+ gustosos ( ) 
+ gustó ( ) 
  gutural ( ) 
  guá ( ) 
- guárdalas ( ) lemma=guardar 
- guárdalo ( ) lemma=guardar 
- guárdelo ( ) lemma=guardar 
+ guárdalas ( ) 
+ guárdalo ( ) 
+ guárdelo ( ) 
  guía ( ) 
- guían ( ) lemma=guiar 
- guías ( ) lemma=guía 
- guíe ( ) lemma=guiar 
- guíen ( ) lemma=guiar 
+ guían ( ) 
+ guías ( ) 
+ guíe ( ) 
+ guíen ( ) 
  gyttja ( ) 
- gástese ( ) lemma=gastar 
- gástrica ( ) lemma=gástrico 
+ gástese ( ) 
+ gástrica ( ) 
+ gástricas ( ) 
  gástrico ( ) 
- gástricas ( ) lemma=gástrico 
- gástricos ( ) lemma=gástrico 
+ gástricos ( ) 
  gástrula ( ) 
- gélida ( ) lemma=gélido 
+ gélida ( ) 
+ gélidas ( ) 
  gélido ( ) 
- gélidas ( ) lemma=gélido 
  género ( ) 
- géneros ( ) lemma=género 
+ géneros ( ) 
  génesis ( ) 
- génica ( ) lemma=génico 
+ génica ( ) 
+ génicas ( ) 
  génico ( ) 
- génicas ( ) lemma=génica 
- génicos ( ) lemma=génico 
+ génicos ( ) 
  géntex ( ) 
  général ( ) 
  géographiquement ( ) 
- gérmenes ( ) lemma=germen 
+ gérmenes ( ) 
  gíneco-obstétrico ( ) 
  gónada ( ) 
- gónadas ( ) lemma=gónada 
+ gónadas ( ) 
  góndola ( ) 
- gótica ( ) lemma=gótico 
+ gótica ( ) 
+ góticas ( ) 
  gótico ( ) 
- góticas ( ) lemma=gótico 
- góticos ( ) lemma=gótico 
- güera ( ) lemma=güero 
- güero ( ) 
+ góticos ( ) 
+ güera ( ) 
+ güero ( ) lemma=agüero 
  güisqui ( ) 
+ ganglionosi ( ) lemma=Aganglionosis 
+ garrap ( ) lemma=Agarrapo 
+ garrapí ( ) lemma=Agarrapín 
+ gat ( ) lemma=Agata 
+ genci ( ) lemma=agenciar 
+ go ( ) lemma=ego 
+ gualegua ( ) lemma=Agualeguas 
+ guará ( ) lemma=Aguarás 
+ guascaliente ( ) lemma=Aguascalientes 
+ guila ( ) lemma=Aguilar 
+ guiler ( ) lemma=Aguilera 
+ guirr ( ) lemma=Aguirre 
+ guj ( ) lemma=aguja 
+ gustí ( ) lemma=Agustín 
+ gipt ( ) lemma=Egipto 
+ Gatita ( ) 
+ Gfröer ( ) 
+ glesi ( ) lemma=iglesia 
+ glesia ( ) lemma=iglesia 
+ gnaci ( ) lemma=Ignacio 
+ guaz� ( ) lemma=Iguazú 
+ güe ( ) lemma=Igüey 
+ GR ( ) lemma=LGRC 
+ gand ( ) lemma=Uganda 
+ gachab ( ) lemma=agachar 
+ gachad ( ) lemma=agachar 
+ gachand ( ) lemma=agachar 
+ gacharm ( ) lemma=agachar 
+ gachars ( ) lemma=agacharse 
+ gach ( ) lemma=agachar 
+ gach� ( ) lemma=agachar 
+ galacti ( ) lemma=agalactia 
+ galla ( ) lemma=agalla 
+ ga ( ) lemma=agar 
+ garos ( ) lemma=agarosa 
+ garr ( ) lemma=agarre 
+ garrab ( ) lemma=agarrar 
+ garraba ( ) lemma=agarrar 
+ garrad ( ) lemma=agarrar 
+ garrader ( ) lemma=agarradera 
+ garrado ( ) lemma=agarrar 
+ garramo ( ) lemma=agarrar 
+ garrand ( ) lemma=agarrar 
+ garrarm ( ) lemma=agarrar 
+ garrarno ( ) lemma=agarrar 
+ garraro ( ) lemma=agarrar 
+ garrars ( ) lemma=agarrar 
+ garrará ( ) lemma=agarrar 
+ garrast ( ) lemma=agarrar 
+ garre ( ) lemma=agarre 
+ garrone ( ) lemma=agarrón 
+ garrotad ( ) lemma=agarrotar 
+ garrotado ( ) lemma=agarrotar 
+ garrota ( ) lemma=agarrotar 
+ garrá ( ) lemma=agarrar 
+ garr� ( ) lemma=agarrar 
+ garró ( ) lemma=agarrón 
+ gasajad ( ) lemma=agasajar 
+ gasajo ( ) lemma=agasajo 
+ genciad ( ) lemma=agenciar 
+ genciaro ( ) lemma=agenciar 
+ genciars ( ) lemma=agenciarse 
+ gencia ( ) lemma=agencia 
+ genci� ( ) lemma=agenciar 
+ gend ( ) lemma=agenda 
+ genda ( ) lemma=agenda 
+ gent ( ) lemma=agente 
+ ggregat ( ) lemma=aggregate 
+ gilic ( ) lemma=agilizar 
+ gilicemo ( ) lemma=agilizar 
+ gilice ( ) lemma=agilizar 
+ gilida ( ) lemma=agilidad 
+ giliz ( ) lemma=agilizar 
+ gilizació ( ) lemma=agilización 
+ gilizad ( ) lemma=agilizar 
+ giliza ( ) lemma=agilizar 
+ gilizand ( ) lemma=agilizar 
+ gilizar ( ) lemma=agilizar 
+ gilizar� ( ) lemma=agilizar 
+ gilizarí ( ) lemma=agilizar 
+ gi ( ) lemma=agip 
+ git ( ) lemma=agitar 
+ gitaba ( ) lemma=agitar 
+ gitacione ( ) lemma=agitación 
+ gitació ( ) lemma=agitación 
+ gitad ( ) lemma=agitar 
+ gitada ( ) lemma=agitar 
+ gitado ( ) lemma=agitar 
+ gitadore ( ) lemma=agitador 
+ gita ( ) lemma=agitar 
+ gitand ( ) lemma=agitar 
+ gitaro ( ) lemma=agitar 
+ gitemo ( ) lemma=agitar 
+ git� ( ) lemma=agitar 
+ glomer ( ) lemma=aglomerar 
+ glomeracione ( ) lemma=aglomeración 
+ glomeració ( ) lemma=aglomeración 
+ glomerad ( ) lemma=aglomerar 
+ glomeraro ( ) lemma=aglomerar 
+ glutin ( ) lemma=aglutinar 
+ glutinació ( ) lemma=aglutinación 
+ glutinado ( ) lemma=aglutinar 
+ glutina ( ) lemma=aglutinar 
+ glutinar ( ) lemma=aglutinar 
+ glutinará ( ) lemma=aglutinar 
+ glutinaría ( ) lemma=aglutinar 
+ glutinina ( ) lemma=aglutinina 
+ glutin� ( ) lemma=aglutinar 
+ glutinógeno ( ) lemma=aglutinógeno 
+ gobi ( ) lemma=agobio 
+ gobiad ( ) lemma=agobiar 
+ gobiada ( ) lemma=agobiar 
+ gobiado ( ) lemma=agobiar 
+ gobia ( ) lemma=agobiar 
+ gobie ( ) lemma=agobiar 
+ gobio ( ) lemma=agobio 
+ golparo ( ) lemma=agolpar 
+ gonic ( ) lemma=agónico 
+ gonist ( ) lemma=agonista 
+ goniz ( ) lemma=agonizar 
+ gonizand ( ) lemma=agonizar 
+ goní ( ) lemma=agonía 
+ gonía ( ) lemma=agonía 
+ gorafobi ( ) lemma=agorafobia 
+ gorafóbic ( ) lemma=agorafóbico 
+ gorer ( ) lemma=agorero 
+ gorero ( ) lemma=agorero 
+ gost ( ) lemma=agosto 
+ got ( ) lemma=agotar 
+ gotab ( ) lemma=agotar 
+ gotaba ( ) lemma=agotar 
+ gotad ( ) lemma=agotado 
+ gotada ( ) lemma=agotado 
+ gotado ( ) lemma=agotar 
+ gotador ( ) lemma=agotador 
+ gotadora ( ) lemma=agotador 
+ gotadore ( ) lemma=agotador 
+ gotamient ( ) lemma=agotamiento 
+ gotamo ( ) lemma=agotar 
+ gotand ( ) lemma=agotar 
+ gotar ( ) lemma=agotar 
+ gotaro ( ) lemma=agotar 
+ gotars ( ) lemma=agotarse 
+ gotar� ( ) lemma=agotar 
+ gotará ( ) lemma=agotar 
+ gotarí ( ) lemma=agotar 
+ gotaríamo ( ) lemma=agotar 
+ gote ( ) lemma=agotar 
+ got� ( ) lemma=agotar 
+ graciad ( ) lemma=agraciar 
+ graciado ( ) lemma=agraciar 
+ grad ( ) lemma=agrado 
+ gradabilísim ( ) lemma=agradable 
+ gradabilísimo ( ) lemma=agradable 
+ gradabl ( ) lemma=agradable 
+ gradablement ( ) lemma=agradable 
+ gradable ( ) lemma=agradable 
+ gradad ( ) lemma=agradar 
+ gradand ( ) lemma=agradar 
+ gradar� ( ) lemma=agradar 
+ gradarí ( ) lemma=agradar 
+ gradec ( ) lemma=agradecer 
+ gradecel ( ) lemma=agradecer 
+ gradecemo ( ) lemma=agradecer 
+ gradece ( ) lemma=agradecer 
+ gradeceremo ( ) lemma=agradecer 
+ gradecerl ( ) lemma=agradecer 
+ gradecerle ( ) lemma=agradecer 
+ gradecers ( ) lemma=agradecerse 
+ gradecer� ( ) lemma=agradecer 
+ gradecerá ( ) lemma=agradecer 
+ gradecerí ( ) lemma=agradecer 
+ gradeceríamo ( ) lemma=agradecer 
+ gradecería ( ) lemma=agradecer 
+ gradecid ( ) lemma=agradecer 
+ gradecida ( ) lemma=agradecer 
+ gradecido ( ) lemma=agradecer 
+ gradeciend ( ) lemma=agradecer 
+ gradeciero ( ) lemma=agradecer 
+ gradecimient ( ) lemma=agradecimiento 
+ gradecimiento ( ) lemma=agradecimiento 
+ gradecimo ( ) lemma=agradecer 
+ gradeciéndol ( ) lemma=agradecer 
+ gradeciéndole ( ) lemma=agradecer 
+ gradeci� ( ) lemma=agradecer 
+ gradecérsel ( ) lemma=agradecerse 
+ gradecértel ( ) lemma=agradecer 
+ gradecí ( ) lemma=agradecer 
+ gradezc ( ) lemma=agradecer 
+ gradezcamo ( ) lemma=agradecer 
+ grad� ( ) lemma=agradar 
+ gramaticale ( ) lemma=agramatical 
+ gramaticalida ( ) lemma=agramaticalidad 
+ grandad ( ) lemma=agrandar 
+ grandado ( ) lemma=agrandado 
+ grandamient ( ) lemma=agrandamiento 
+ grandamo ( ) lemma=agrandar 
+ granda ( ) lemma=agrandar 
+ grandand ( ) lemma=agrandar 
+ grandar ( ) lemma=agrandar 
+ grand ( ) lemma=agrandar 
+ grand� ( ) lemma=agrandar 
+ grari ( ) lemma=agrario 
+ grariament ( ) lemma=agrario 
+ graria ( ) lemma=agrario 
+ grario ( ) lemma=agrario 
+ grav ( ) lemma=agravar 
+ gravació ( ) lemma=agravación 
+ gravad ( ) lemma=agravar 
+ gravamient ( ) lemma=agravamiento 
+ gravamiento ( ) lemma=agravamiento 
+ gravamo ( ) lemma=agravar 
+ gravand ( ) lemma=agravar 
+ gravant ( ) lemma=agravante 
+ gravante ( ) lemma=agravante 
+ gravaro ( ) lemma=agravar 
+ gravars ( ) lemma=agravarse 
+ gravar� ( ) lemma=agravar 
+ gravarí ( ) lemma=agravar 
+ gravaría ( ) lemma=agravar 
+ gravas ( ) lemma=agravar 
+ graviad ( ) lemma=agraviar 
+ graviada ( ) lemma=agraviar 
+ graviado ( ) lemma=agraviar 
+ gravia ( ) lemma=agraviar 
+ gravi ( ) lemma=agravio 
+ gravio ( ) lemma=agravio 
+ gravándos ( ) lemma=agravarse 
+ grav� ( ) lemma=agravar 
+ gred ( ) lemma=agredir 
+ grede ( ) lemma=agredir 
+ gredid ( ) lemma=agredir 
+ gredida ( ) lemma=agredir 
+ gredido ( ) lemma=agredir 
+ grediero ( ) lemma=agredir 
+ gredimo ( ) lemma=agredir 
+ gredi ( ) lemma=agredir 
+ gredirl ( ) lemma=agredir 
+ gredirno ( ) lemma=agredir 
+ grediéndol ( ) lemma=agredir 
+ gredi� ( ) lemma=agredir 
+ greg ( ) lemma=agregar 
+ gregab ( ) lemma=agregar 
+ gregació ( ) lemma=agregación 
+ gregad ( ) lemma=agregado 
+ gregada ( ) lemma=agregar 
+ gregado ( ) lemma=agregado 
+ gregamo ( ) lemma=agregar 
+ grega ( ) lemma=agregar 
+ gregand ( ) lemma=agregar 
+ gregarl ( ) lemma=agregar 
+ gregaro ( ) lemma=agregar 
+ gregars ( ) lemma=agregarse 
+ gregar� ( ) lemma=agregar 
+ gregará ( ) lemma=agregar 
+ gregarí ( ) lemma=agregar 
+ gregaría ( ) lemma=agregar 
+ gregativ ( ) lemma=agregativo 
+ gregu ( ) lemma=agregar 
+ gregue ( ) lemma=agregar 
+ gregándola ( ) lemma=agregar 
+ gregándol ( ) lemma=agregar 
+ greg� ( ) lemma=agregar 
+ gremiacione ( ) lemma=agremiación 
+ gremiació ( ) lemma=agremiación 
+ gremiado ( ) lemma=agremiar 
+ gresio ( ) lemma=agresión 
+ gresione ( ) lemma=agresión 
+ gresiv ( ) lemma=agresivo 
+ gresivament ( ) lemma=agresivo 
+ gresiva ( ) lemma=agresivo 
+ gresivida ( ) lemma=agresividad 
+ gresivo ( ) lemma=agresivo 
+ gresió ( ) lemma=agresión 
+ greso ( ) lemma=egreso 
+ gresor ( ) lemma=agresor 
+ gresore ( ) lemma=agresor 
+ grest ( ) lemma=agreste 
+ gri ( ) lemma=agrio 
+ griament ( ) lemma=agrio 
+ griand ( ) lemma=agriar 
+ gria ( ) lemma=agrio 
+ griculto ( ) lemma=agricultor 
+ gricultore ( ) lemma=agricultor 
+ gricultur ( ) lemma=agricultura 
+ gricultura ( ) lemma=agricultura 
+ gridulc ( ) lemma=agridulce 
+ grio ( ) lemma=agrio 
+ gr ( ) lemma=agro 
+ groalimentario ( ) lemma=agroalimentario 
+ groenergétic ( ) lemma=agroenergético 
+ gronomí ( ) lemma=agronomía 
+ gropecuari ( ) lemma=agropecuario 
+ gropecuaria ( ) lemma=agropecuario 
+ gropecuario ( ) lemma=agropecuario 
+ groturism ( ) lemma=agroturismo 
+ grup ( ) lemma=agrupar 
+ grupab ( ) lemma=agrupar 
+ grupaba ( ) lemma=agrupar 
+ grupacione ( ) lemma=agrupación 
+ grupació ( ) lemma=agrupación 
+ grupad ( ) lemma=agrupar 
+ grupada ( ) lemma=agrupar 
+ grupado ( ) lemma=agrupar 
+ grupamient ( ) lemma=agrupamiento 
+ grupamiento ( ) lemma=agrupamiento 
+ grupamo ( ) lemma=agrupar 
+ grupa ( ) lemma=agrupar 
+ grupand ( ) lemma=agrupar 
+ gruparemo ( ) lemma=agrupar 
+ gruparo ( ) lemma=agrupar 
+ grupars ( ) lemma=agrupar 
+ grupar� ( ) lemma=agrupar 
+ grupará ( ) lemma=agrupar 
+ gruparí ( ) lemma=agrupar 
+ grupase ( ) lemma=agrupar 
+ grupe ( ) lemma=agrupar 
+ grup� ( ) lemma=agrupar 
+ gréguel ( ) lemma=agregar 
+ grícol ( ) lemma=agrícola 
+ grícola ( ) lemma=agrícola 
+ grónom ( ) lemma=agrónomo 
+ grónomo ( ) lemma=agrónomo 
+ gu ( ) lemma=agur 
+ guacat ( ) lemma=aguacate 
+ guacate ( ) lemma=aguacate 
+ guacer ( ) lemma=aguacero 
+ guacero ( ) lemma=aguacero 
+ guad ( ) lemma=aguar 
+ guada ( ) lemma=aguar 
+ guant ( ) lemma=aguantar 
+ guantab ( ) lemma=aguantar 
+ guantaba ( ) lemma=aguantar 
+ guantad ( ) lemma=aguantar 
+ guantamo ( ) lemma=aguantar 
+ guanta ( ) lemma=aguantar 
+ guantand ( ) lemma=aguantar 
+ guantarl ( ) lemma=aguantar 
+ guantaro ( ) lemma=aguantar 
+ guantars ( ) lemma=aguantarse 
+ guant� ( ) lemma=aguantar 
+ gua ( ) lemma=igual 
+ guara ( ) lemma=aguar 
+ guardab ( ) lemma=aguardar 
+ guardad ( ) lemma=aguardar 
+ guardamo ( ) lemma=aguardar 
+ guardand ( ) lemma=aguardar 
+ guardaro ( ) lemma=aguardar 
+ guardar� ( ) lemma=aguardar 
+ guardient ( ) lemma=aguardiente 
+ guardiente ( ) lemma=aguardiente 
+ guardábamo ( ) lemma=aguardar 
+ guardáramo ( ) lemma=aguardar 
+ guard� ( ) lemma=aguardar 
+ gud ( ) lemma=agudo 
+ guda ( ) lemma=agudo 
+ gudez ( ) lemma=agudeza 
+ gudic ( ) lemma=agudizar 
+ gudice ( ) lemma=agudizar 
+ gudiz ( ) lemma=agudizar 
+ gudizació ( ) lemma=agudización 
+ gudizad ( ) lemma=agudizar 
+ gudiza ( ) lemma=agudizar 
+ gudizand ( ) lemma=agudizar 
+ gudizar ( ) lemma=agudizar 
+ gudizaro ( ) lemma=agudizar 
+ gudizar� ( ) lemma=agudizar 
+ gudizará ( ) lemma=agudizar 
+ gudizaría ( ) lemma=agudizar 
+ gudiz� ( ) lemma=agudizar 
+ gudo ( ) lemma=agudo 
+ guerrid ( ) lemma=aguerrir 
+ guerrido ( ) lemma=aguerrir 
+ guijone ( ) lemma=aguijonear 
+ guijonead ( ) lemma=aguijonear 
+ guijonea ( ) lemma=aguijonear 
+ guijó ( ) lemma=aguijón 
+ guilucho ( ) lemma=aguilucho 
+ guinald ( ) lemma=aguinaldo 
+ guinaldo ( ) lemma=aguinaldo 
+ guja ( ) lemma=aguja 
+ gujereada ( ) lemma=agujerear 
+ gujeread ( ) lemma=agujerear 
+ gujereado ( ) lemma=agujerear 
+ gujerit ( ) lemma=agujero 
+ gujerito ( ) lemma=agujero 
+ gujer ( ) lemma=agujero 
+ gujero ( ) lemma=agujero 
+ gujeta ( ) lemma=agujeta 
+ gustin ( ) lemma=agustino 
+ guza ( ) lemma=aguzar 
+ guántam ( ) lemma=aguantar 
+ güer ( ) lemma=agüero 
+ güit ( ) lemma=agua 
+ gipci ( ) lemma=egipcio 
+ gipcia ( ) lemma=egipcio 
+ gipcio ( ) lemma=egipcio 
+ goísm ( ) lemma=egoísmo 
+ goísmo ( ) lemma=egoísmo 
+ goíst ( ) lemma=egoísta 
+ goístament ( ) lemma=egoísta 
+ goísta ( ) lemma=egoísta 
+ gresad ( ) lemma=egresar 
+ gresado ( ) lemma=egresar 
+ gresa ( ) lemma=egresar 
+ gres ( ) lemma=egreso 
+ gabonés ( ) 
+ gafar ( ) 
+ gaita ( ) 
+ galactoso ( ) 
+ galvánico ( ) 
+ galénico ( ) 
+ gametocito ( ) 
+ gammaglobulina ( ) 
+ gammapatía ( ) 
+ gangrenar ( ) 
+ gangrenoso ( ) 
+ garabato ( ) 
+ garantir ( ) 
+ garrochar ( ) 
+ gasear ( ) 
+ gasificador ( ) 
+ gaviota ( ) 
+ gelatinoso ( ) 
+ general|generalmente ( ) 
+ generativo ( ) 
+ gen|genes ( ) 
+ geotérmico ( ) 
+ germinar ( ) 
+ gibar ( ) 
+ ginebrino ( ) 
+ glenoideo ( ) 
+ glial ( ) 
+ glicerinar ( ) 
+ glicoproteína ( ) 
+ glicósido ( ) 
+ glorificar ( ) 
+ gloriar ( ) 
+ glucocorticoide ( ) 
+ glucolípido ( ) 
+ golondrina ( ) 
+ golosina ( ) 
+ golpetear ( ) 
+ goniómetro ( ) 
+ gorgojo ( ) 
+ gotear ( ) 
+ gozoso ( ) 
+ grabador ( ) 
+ gradería ( ) 
+ gradar ( ) 
+ grafológica ( ) 
+ gramática|gramático ( ) 
+ gran|grande ( ) 
+ granar ( ) 
+ grandilocuente ( ) 
+ granítico ( ) 
+ granulocito ( ) 
+ granulomatoso ( ) 
+ gratificar ( ) 
+ gravitar ( ) 
+ gravídico ( ) 
+ greca ( ) 
+ gripar ( ) 
+ groenlandés ( ) 
+ grumo ( ) 
+ gruñir ( ) 
+ gráafico ( ) 
+ guacho ( ) 
+ guadalajareño ( ) 
+ guadalupano ( ) 
+ guajiro ( ) 
+ guanidina ( ) 
+ guardacosta ( ) 
+ guateque ( ) 
+ guijarro ( ) 
+ guipuzcoano ( ) 
+ guitar ( ) 
+ guiño ( ) 
+ gnomini ( ) lemma=ignominia 
+ gnor ( ) lemma=ignorar 
+ gnorab ( ) lemma=ignorar 
+ gnoraba ( ) lemma=ignorar 
+ gnorad ( ) lemma=ignorar 
+ gnorada ( ) lemma=ignorar 
+ gnorado ( ) lemma=ignorar 
+ gnoramo ( ) lemma=ignorar 
+ gnora ( ) lemma=ignorar 
+ gnoranci ( ) lemma=ignorancia 
+ gnorancia ( ) lemma=ignorancia 
+ gnorand ( ) lemma=ignorar 
+ gnorant ( ) lemma=ignorante 
+ gnorante ( ) lemma=ignorante 
+ gnorarl ( ) lemma=ignorar 
+ gnorarla ( ) lemma=ignorar 
+ gnorarlo ( ) lemma=ignorar 
+ gnoraro ( ) lemma=ignorar 
+ gnorars ( ) lemma=ignorarse 
+ gnorar� ( ) lemma=ignorar 
+ gnorará ( ) lemma=ignorar 
+ gnorarí ( ) lemma=ignorar 
+ gnoras ( ) lemma=ignorar 
+ gnorase ( ) lemma=ignorar 
+ gnoremo ( ) lemma=ignorar 
+ gnore ( ) lemma=ignorar 
+ gnorábamo ( ) lemma=ignorar 
+ gnorándol ( ) lemma=ignorar 
+ gnorándos ( ) lemma=ignorarse 
+ gnoráramo ( ) lemma=ignorar 
+ gnorásemo ( ) lemma=ignorar 
+ gnor� ( ) lemma=ignorar 
+ gnórenl ( ) lemma=ignorar 
+ gual ( ) lemma=igualar 
+ gualaba ( ) lemma=igualar 
+ gualació ( ) lemma=igualación 
+ gualad ( ) lemma=igualar 
+ gualada ( ) lemma=igualar 
+ gualado ( ) lemma=igualar 
+ guala ( ) lemma=igualar 
+ gualand ( ) lemma=igualar 
+ gualaro ( ) lemma=igualar 
+ gualar� ( ) lemma=igualar 
+ gualará ( ) lemma=igualar 
+ gualaría ( ) lemma=igualar 
+ gualda ( ) lemma=igualdad 
+ gualdade ( ) lemma=igualdad 
+ guale ( ) lemma=igual 
+ gualit ( ) lemma=igual 
+ gualment ( ) lemma=igual|igualmente 
+ gual� ( ) lemma=igualar 
+ guan ( ) lemma=iguana 
  grande|máximo ( ) 
+ gone ( ) lemma=ogonek 
+ g-scou ( ) lemma=sg-scout 

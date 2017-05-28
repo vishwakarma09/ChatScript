@@ -42,1140 +42,1277 @@
  Kyoto ( ) 
  Kévin ( ) 
  k-way ( ) 
- k-ways ( ) lemma=k-way 
- ka ( ) 
+ k-ways ( ) 
+ ka ( ) lemma=ska 
  kabbale ( ) 
- kabbales ( ) lemma=kabbale 
+ kabbales ( ) 
  kabbaliste ( ) 
- kabbalistes ( ) lemma=kabbaliste 
+ kabbalistes ( ) 
  kabig ( ) 
- kabigs ( ) lemma=kabig 
+ kabigs ( ) 
  kablouna ( ) 
- kablounas ( ) lemma=kablouna 
+ kablounas ( ) 
  kabuki ( ) 
- kabukis ( ) lemma=kabuki 
+ kabukis ( ) 
  kabyle ( ) 
- kabyles ( ) lemma=kabyle 
+ kabyles ( ) 
  kacha ( ) 
- kachas ( ) lemma=kacha 
+ kachas ( ) 
  kachoube ( ) 
- kachoubes ( ) lemma=kachoube 
+ kachoubes ( ) 
  kacochnyk ( ) 
- kacochnyks ( ) lemma=kacochnyk 
+ kacochnyks ( ) 
  kaddisch ( ) 
- kaddischs ( ) lemma=kaddisch 
+ kaddischs ( ) 
  kadi ( ) 
- kadis ( ) lemma=kadi 
+ kadis ( ) 
  kadsura ( ) 
- kadsuras ( ) lemma=kadsura 
+ kadsuras ( ) 
  kaempférie ( ) 
- kaempféries ( ) lemma=kaempférie 
+ kaempféries ( ) 
  kafir ( ) 
- kafirs ( ) lemma=kafir 
+ kafirs ( ) 
  kafkaïen ( ) 
- kafkaïenne ( ) lemma=kafkaïen 
- kafkaïennes ( ) lemma=kafkaïen 
- kafkaïens ( ) lemma=kafkaïen 
+ kafkaïenne ( ) 
+ kafkaïennes ( ) 
+ kafkaïens ( ) 
  kagou ( ) 
- kagous ( ) lemma=kagou 
+ kagous ( ) 
  kahoua ( ) 
- kahouas ( ) lemma=kahoua 
+ kahouas ( ) 
  kaire ( ) 
- kaires ( ) lemma=kaire 
+ kaires ( ) 
  kaiser ( ) 
  kaiserlick ( ) 
- kaiserlicks ( ) lemma=kaiserlick 
- kaisers ( ) lemma=kaiser 
+ kaiserlicks ( ) 
+ kaisers ( ) 
  kakapo ( ) 
- kakapos ( ) lemma=kakapo 
+ kakapos ( ) 
  kakatoès ( ) 
  kakerlak ( ) 
- kakerlaks ( ) lemma=kakerlak 
+ kakerlaks ( ) 
  kaki ( ) 
- kakis ( ) lemma=kaki 
+ kakis ( ) 
  kakochnik ( ) 
- kakochniks ( ) lemma=kakochnik 
+ kakochniks ( ) 
  kakémono ( ) 
- kakémonos ( ) lemma=kakémono 
+ kakémonos ( ) 
  kala-azar ( ) 
- kala-azars ( ) lemma=kala-azar 
+ kala-azars ( ) 
  kalachnikov ( ) 
- kalachnikovs ( ) lemma=kalachnikov 
+ kalachnikovs ( ) 
  kalanchoé ( ) 
- kalanchoés ( ) lemma=kalanchoé 
+ kalanchoés ( ) 
  kali ( ) 
  kalicine ( ) 
- kalicines ( ) lemma=kalicine 
+ kalicines ( ) 
  kalicytie ( ) 
- kalicyties ( ) lemma=kalicytie 
- kalis ( ) lemma=kali 
+ kalicyties ( ) 
+ kalis ( ) 
  kalisme ( ) 
- kalismes ( ) lemma=kalisme 
+ kalismes ( ) 
  kalium ( ) 
- kaliums ( ) lemma=kalium 
+ kaliums ( ) 
  kaliémie ( ) 
- kaliémies ( ) lemma=kaliémie 
+ kaliémies ( ) 
  kallikréine ( ) 
- kallikréines ( ) lemma=kallikréine 
+ kallikréines ( ) 
  kalmia ( ) 
- kalmias ( ) lemma=kalmia 
+ kalmias ( ) 
  kalmie ( ) 
- kalmies ( ) lemma=kalmie 
+ kalmies ( ) 
  kalmouk ( ) 
- kalmouks ( ) lemma=kalmouk 
+ kalmouks ( ) 
  kalpack ( ) 
- kalpacks ( ) lemma=kalpack 
+ kalpacks ( ) 
  kalpak ( ) 
- kalpaks ( ) lemma=kalpak 
- kaléidoscopa ( ) lemma=kaléidoscoper 
- kaléidoscoper ( ) 
- kaléidoscopai ( ) lemma=kaléidoscoper 
- kaléidoscopaient ( ) lemma=kaléidoscoper 
- kaléidoscopais ( ) lemma=kaléidoscoper 
- kaléidoscopait ( ) lemma=kaléidoscoper 
- kaléidoscopant ( ) lemma=kaléidoscoper 
- kaléidoscopas ( ) lemma=kaléidoscoper 
- kaléidoscopasse ( ) lemma=kaléidoscoper 
- kaléidoscopassent ( ) lemma=kaléidoscoper 
- kaléidoscopasses ( ) lemma=kaléidoscoper 
- kaléidoscopassiez ( ) lemma=kaléidoscoper 
- kaléidoscopassions ( ) lemma=kaléidoscoper 
+ kalpaks ( ) 
+ kaléidoscopa ( ) 
+ kaléidoscopai ( ) 
+ kaléidoscopaient ( ) 
+ kaléidoscopais ( ) 
+ kaléidoscopait ( ) 
+ kaléidoscopant ( ) 
+ kaléidoscopas ( ) 
+ kaléidoscopasse ( ) 
+ kaléidoscopassent ( ) 
+ kaléidoscopasses ( ) 
+ kaléidoscopassiez ( ) 
+ kaléidoscopassions ( ) 
  kaléidoscope ( ) 
- kaléidoscopent ( ) lemma=kaléidoscoper 
- kaléidoscopera ( ) lemma=kaléidoscoper 
- kaléidoscoperai ( ) lemma=kaléidoscoper 
- kaléidoscoperaient ( ) lemma=kaléidoscoper 
- kaléidoscoperais ( ) lemma=kaléidoscoper 
- kaléidoscoperait ( ) lemma=kaléidoscoper 
- kaléidoscoperas ( ) lemma=kaléidoscoper 
- kaléidoscoperez ( ) lemma=kaléidoscoper 
- kaléidoscoperiez ( ) lemma=kaléidoscoper 
- kaléidoscoperions ( ) lemma=kaléidoscoper 
- kaléidoscoperons ( ) lemma=kaléidoscoper 
- kaléidoscoperont ( ) lemma=kaléidoscoper 
- kaléidoscopes ( ) lemma=kaléidoscope 
- kaléidoscopez ( ) lemma=kaléidoscoper 
+ kaléidoscopent ( ) 
+ kaléidoscoper ( ) 
+ kaléidoscopera ( ) 
+ kaléidoscoperai ( ) 
+ kaléidoscoperaient ( ) 
+ kaléidoscoperais ( ) 
+ kaléidoscoperait ( ) 
+ kaléidoscoperas ( ) 
+ kaléidoscoperez ( ) 
+ kaléidoscoperiez ( ) 
+ kaléidoscoperions ( ) 
+ kaléidoscoperons ( ) 
+ kaléidoscoperont ( ) 
+ kaléidoscopes ( ) 
+ kaléidoscopez ( ) 
  kaléidoscopie ( ) 
- kaléidoscopies ( ) lemma=kaléidoscopie 
- kaléidoscopiez ( ) lemma=kaléidoscoper 
- kaléidoscopions ( ) lemma=kaléidoscoper 
+ kaléidoscopies ( ) 
+ kaléidoscopiez ( ) 
+ kaléidoscopions ( ) 
  kaléidoscopique ( ) 
- kaléidoscopiques ( ) lemma=kaléidoscopique 
- kaléidoscopons ( ) lemma=kaléidoscoper 
- kaléidoscopâmes ( ) lemma=kaléidoscoper 
- kaléidoscopât ( ) lemma=kaléidoscoper 
- kaléidoscopâtes ( ) lemma=kaléidoscoper 
- kaléidoscopèrent ( ) lemma=kaléidoscoper 
- kaléidoscopé ( ) lemma=kaléidoscoper 
- kaléidoscopée ( ) lemma=kaléidoscoper 
- kaléidoscopées ( ) lemma=kaléidoscoper 
- kaléidoscopés ( ) lemma=kaléidoscoper 
+ kaléidoscopiques ( ) 
+ kaléidoscopons ( ) 
+ kaléidoscopâmes ( ) 
+ kaléidoscopât ( ) 
+ kaléidoscopâtes ( ) 
+ kaléidoscopèrent ( ) 
+ kaléidoscopé ( ) 
+ kaléidoscopée ( ) 
+ kaléidoscopées ( ) 
+ kaléidoscopés ( ) 
  kama ( ) 
  kamala ( ) 
- kamalas ( ) lemma=kamala 
- kamas ( ) lemma=kama 
+ kamalas ( ) 
+ kamas ( ) 
  kamchadale ( ) 
- kamchadales ( ) lemma=kamchadale 
+ kamchadales ( ) 
  kami ( ) 
  kamichi ( ) 
- kamichis ( ) lemma=kamichi 
+ kamichis ( ) 
  kamik ( ) 
  kamikaze ( ) 
- kamikazes ( ) lemma=kamikaze 
- kamiks ( ) lemma=kamik 
- kamis ( ) lemma=kami 
+ kamikazes ( ) 
+ kamiks ( ) 
+ kamis ( ) 
  kampong ( ) 
- kampongs ( ) lemma=kampong 
+ kampongs ( ) 
  kampuchéen ( ) 
- kampuchéenne ( ) lemma=kampuchéen 
- kampuchéennes ( ) lemma=kampuchéen 
- kampuchéens ( ) lemma=kampuchéen 
+ kampuchéenne ( ) 
+ kampuchéennes ( ) 
+ kampuchéens ( ) 
  kampung ( ) 
- kampungs ( ) lemma=kampung 
+ kampungs ( ) 
  kamsin ( ) 
- kamsins ( ) lemma=kamsin 
+ kamsins ( ) 
  kamtchadale ( ) 
- kamtchadales ( ) lemma=kamtchadale 
- kan ( ) 
+ kamtchadales ( ) 
+ kan ( ) lemma=akan 
  kana ( ) 
  kanake ( ) 
- kanakes ( ) lemma=kanake 
+ kanakes ( ) 
  kanamycine ( ) 
- kanamycines ( ) lemma=kanamycine 
+ kanamycines ( ) 
  kanaque ( ) 
- kanaques ( ) lemma=kanaque 
- kanas ( ) lemma=kana 
+ kanaques ( ) 
+ kanas ( ) 
  kanat ( ) 
- kanats ( ) lemma=kanat 
+ kanats ( ) 
  kandjar ( ) 
- kandjars ( ) lemma=kandjar 
+ kandjars ( ) 
  kandji ( ) 
- kandjis ( ) lemma=kandji 
+ kandjis ( ) 
  kangourou ( ) 
- kangourous ( ) lemma=kangourou 
+ kangourous ( ) 
  kanji ( ) 
- kanjis ( ) lemma=kanji 
+ kanjis ( ) 
  kanoun ( ) 
- kanouns ( ) lemma=kanoun 
- kans ( ) lemma=kan 
+ kanouns ( ) 
+ kans ( ) 
  kantien ( ) 
- kantienne ( ) lemma=kantien 
- kantiennes ( ) lemma=kantien 
- kantiens ( ) lemma=kantien 
+ kantienne ( ) 
+ kantiennes ( ) 
+ kantiens ( ) 
  kantisme ( ) 
- kantismes ( ) lemma=kantisme 
+ kantismes ( ) 
  kantiste ( ) 
- kantistes ( ) lemma=kantiste 
+ kantistes ( ) 
  kaoliang ( ) 
- kaoliangs ( ) lemma=kaoliang 
+ kaoliangs ( ) 
  kaolin ( ) 
  kaolinique ( ) 
- kaoliniques ( ) lemma=kaolinique 
- kaolinisa ( ) lemma=kaoliniser 
- kaoliniser ( ) 
- kaolinisai ( ) lemma=kaoliniser 
- kaolinisaient ( ) lemma=kaoliniser 
- kaolinisais ( ) lemma=kaoliniser 
- kaolinisait ( ) lemma=kaoliniser 
- kaolinisant ( ) lemma=kaoliniser 
- kaolinisas ( ) lemma=kaoliniser 
- kaolinisasse ( ) lemma=kaoliniser 
- kaolinisassent ( ) lemma=kaoliniser 
- kaolinisasses ( ) lemma=kaoliniser 
- kaolinisassiez ( ) lemma=kaoliniser 
- kaolinisassions ( ) lemma=kaoliniser 
+ kaoliniques ( ) 
+ kaolinisa ( ) 
+ kaolinisai ( ) 
+ kaolinisaient ( ) 
+ kaolinisais ( ) 
+ kaolinisait ( ) 
+ kaolinisant ( ) 
+ kaolinisas ( ) 
+ kaolinisasse ( ) 
+ kaolinisassent ( ) 
+ kaolinisasses ( ) 
+ kaolinisassiez ( ) 
+ kaolinisassions ( ) 
  kaolinisation ( ) 
- kaolinisations ( ) lemma=kaolinisation 
- kaolinise ( ) lemma=kaoliniser 
- kaolinisent ( ) lemma=kaoliniser 
- kaolinisera ( ) lemma=kaoliniser 
- kaoliniserai ( ) lemma=kaoliniser 
- kaoliniseraient ( ) lemma=kaoliniser 
- kaoliniserais ( ) lemma=kaoliniser 
- kaoliniserait ( ) lemma=kaoliniser 
- kaoliniseras ( ) lemma=kaoliniser 
- kaoliniserez ( ) lemma=kaoliniser 
- kaoliniseriez ( ) lemma=kaoliniser 
- kaoliniserions ( ) lemma=kaoliniser 
- kaoliniserons ( ) lemma=kaoliniser 
- kaoliniseront ( ) lemma=kaoliniser 
- kaolinises ( ) lemma=kaoliniser 
- kaolinisez ( ) lemma=kaoliniser 
- kaolinisiez ( ) lemma=kaoliniser 
- kaolinisions ( ) lemma=kaoliniser 
- kaolinisons ( ) lemma=kaoliniser 
- kaolinisâmes ( ) lemma=kaoliniser 
- kaolinisât ( ) lemma=kaoliniser 
- kaolinisâtes ( ) lemma=kaoliniser 
- kaolinisèrent ( ) lemma=kaoliniser 
- kaolinisé ( ) lemma=kaoliniser 
- kaolinisée ( ) lemma=kaoliniser 
- kaolinisées ( ) lemma=kaoliniser 
- kaolinisés ( ) lemma=kaoliniser 
+ kaolinisations ( ) 
+ kaolinise ( ) 
+ kaolinisent ( ) 
+ kaoliniser ( ) 
+ kaolinisera ( ) 
+ kaoliniserai ( ) 
+ kaoliniseraient ( ) 
+ kaoliniserais ( ) 
+ kaoliniserait ( ) 
+ kaoliniseras ( ) 
+ kaoliniserez ( ) 
+ kaoliniseriez ( ) 
+ kaoliniserions ( ) 
+ kaoliniserons ( ) 
+ kaoliniseront ( ) 
+ kaolinises ( ) 
+ kaolinisez ( ) 
+ kaolinisiez ( ) 
+ kaolinisions ( ) 
+ kaolinisons ( ) 
+ kaolinisâmes ( ) 
+ kaolinisât ( ) 
+ kaolinisâtes ( ) 
+ kaolinisèrent ( ) 
+ kaolinisé ( ) 
+ kaolinisée ( ) 
+ kaolinisées ( ) 
+ kaolinisés ( ) 
  kaolinite ( ) 
- kaolinites ( ) lemma=kaolinite 
- kaolins ( ) lemma=kaolin 
+ kaolinites ( ) 
+ kaolins ( ) 
  kaon ( ) 
- kaons ( ) lemma=kaon 
+ kaons ( ) 
  kaori ( ) 
- kaoris ( ) lemma=kaori 
+ kaoris ( ) 
  kapo ( ) 
  kapok ( ) 
  kapokier ( ) 
- kapokiers ( ) lemma=kapokier 
- kapoks ( ) lemma=kapok 
- kapos ( ) lemma=kapo 
+ kapokiers ( ) 
+ kapoks ( ) 
+ kapos ( ) 
  kapout ( ) 
- kapouts ( ) lemma=kapout 
+ kapouts ( ) 
  kappa ( ) 
- kappas ( ) lemma=kappa 
+ kappas ( ) 
  karakul ( ) 
- karakuls ( ) lemma=karakul 
+ karakuls ( ) 
  karata ( ) 
- karatas ( ) lemma=karata 
+ karatas ( ) 
  karateka ( ) 
- karatekas ( ) lemma=karateka 
+ karatekas ( ) 
  karaté ( ) 
- karatés ( ) lemma=karaté 
+ karatés ( ) 
  karbau ( ) 
- karbaux ( ) lemma=karbau 
+ karbaux ( ) 
  kari ( ) 
- karis ( ) lemma=kari 
+ karis ( ) 
  karité ( ) 
- karités ( ) lemma=karité 
+ karités ( ) 
  karma ( ) 
  karman ( ) 
- karmans ( ) lemma=karman 
- karmas ( ) lemma=karma 
+ karmans ( ) 
+ karmas ( ) 
  karmatique ( ) 
- karmatiques ( ) lemma=karmatique 
+ karmatiques ( ) 
  karpatique ( ) 
- karpatiques ( ) lemma=karpatique 
+ karpatiques ( ) 
  karst ( ) 
  karstique ( ) 
- karstiques ( ) lemma=karstique 
+ karstiques ( ) 
  karstologie ( ) 
- karstologies ( ) lemma=karstologie 
- karsts ( ) lemma=karst 
+ karstologies ( ) 
+ karsts ( ) 
  kart ( ) 
  karting ( ) 
- kartings ( ) lemma=karting 
- karts ( ) lemma=kart 
+ kartings ( ) 
+ karts ( ) 
  karyokinèse ( ) 
- karyokinèses ( ) lemma=karyokinèse 
- kas ( ) lemma=ka 
+ karyokinèses ( ) 
+ kas ( ) lemma=ukase 
  kasatchok ( ) 
- kasatchoks ( ) lemma=kasatchok 
+ kasatchoks ( ) 
  kasbah ( ) 
- kasbahs ( ) lemma=kasbah 
+ kasbahs ( ) 
  kascher ( ) 
  kasha ( ) 
- kashas ( ) lemma=kasha 
+ kashas ( ) 
  kata ( ) 
  katabatique ( ) 
- katabatiques ( ) lemma=katabatique 
+ katabatiques ( ) 
  katafront ( ) 
- katafronts ( ) lemma=katafront 
+ katafronts ( ) 
  katakana ( ) 
- katakanas ( ) lemma=katakana 
+ katakanas ( ) 
  katana ( ) 
- katanas ( ) lemma=katana 
- katas ( ) lemma=kata 
+ katanas ( ) 
+ katas ( ) 
  katiba ( ) 
- katibas ( ) lemma=katiba 
+ katibas ( ) 
  kauri ( ) 
- kauris ( ) lemma=kauri 
+ kauris ( ) 
  kava ( ) 
- kavas ( ) lemma=kava 
+ kavas ( ) 
  kawa ( ) 
- kawas ( ) lemma=kawa 
+ kawas ( ) 
  kawaïsme ( ) 
- kawaïsmes ( ) lemma=kawaïsme 
+ kawaïsmes ( ) 
  kayac ( ) 
- kayacs ( ) lemma=kayac 
+ kayacs ( ) 
  kayak ( ) 
  kayakiste ( ) 
- kayakistes ( ) lemma=kayakiste 
- kayaks ( ) lemma=kayak 
+ kayakistes ( ) 
+ kayaks ( ) 
  kazakh ( ) 
- kazakhs ( ) lemma=kazakh 
+ kazakhs ( ) 
  kaïd ( ) 
- kaïds ( ) lemma=kaïd 
+ kaïds ( ) 
  kaïffa ( ) 
- kaïffas ( ) lemma=kaïffa 
+ kaïffas ( ) 
  kaïmac ( ) 
- kaïmacs ( ) lemma=kaïmac 
+ kaïmacs ( ) 
  kaïnite ( ) 
- kaïnites ( ) lemma=kaïnite 
+ kaïnites ( ) 
  kaïnophobie ( ) 
- kaïnophobies ( ) lemma=kaïnophobie 
+ kaïnophobies ( ) 
  kchatriya ( ) 
- kchatriyas ( ) lemma=kchatriya 
+ kchatriyas ( ) 
  kchatrya ( ) 
- kchatryas ( ) lemma=kchatrya 
+ kchatryas ( ) 
  kebab ( ) 
- kebabs ( ) lemma=kebab 
+ kebabs ( ) 
  keepsake ( ) 
- keepsakes ( ) lemma=keepsake 
+ keepsakes ( ) 
  kef ( ) 
  keffieh ( ) 
- keffiehs ( ) lemma=keffieh 
- kefs ( ) lemma=kef 
+ keffiehs ( ) 
+ kefs ( ) 
  kelvin ( ) 
  kelvinomètre ( ) 
- kelvinomètres ( ) lemma=kelvinomètre 
- kelvins ( ) lemma=kelvin 
+ kelvinomètres ( ) 
+ kelvins ( ) 
  kendo ( ) 
- kendos ( ) lemma=kendo 
+ kendos ( ) 
  kennedye ( ) 
- kennedyes ( ) lemma=kennedye 
+ kennedyes ( ) 
  kennédie ( ) 
- kennédies ( ) lemma=kennédie 
+ kennédies ( ) 
  kentia ( ) 
- kentias ( ) lemma=kentia 
+ kentias ( ) 
  kentrophylle ( ) 
- kentrophylles ( ) lemma=kentrophylle 
+ kentrophylles ( ) 
  kerdomètre ( ) 
- kerdomètres ( ) lemma=kerdomètre 
+ kerdomètres ( ) 
  kerma ( ) 
- kermas ( ) lemma=kerma 
+ kermas ( ) 
  kermesse ( ) 
- kermesses ( ) lemma=kermesse 
+ kermesses ( ) 
  kermès ( ) 
  kermétisé ( ) 
- kermétisée ( ) lemma=kermétisé 
- kermétisées ( ) lemma=kermétisé 
- kermétisés ( ) lemma=kermétisé 
+ kermétisée ( ) 
+ kermétisées ( ) 
+ kermétisés ( ) 
  kerria ( ) 
- kerrias ( ) lemma=kerria 
+ kerrias ( ) 
  kerrie ( ) 
- kerries ( ) lemma=kerrie 
- ketch ( ) 
- ketchs ( ) lemma=ketch 
+ kerries ( ) 
+ ketch ( ) lemma=sketch 
+ ketchs ( ) 
  ketchup ( ) 
- ketchups ( ) lemma=ketchup 
+ ketchups ( ) 
  ketmie ( ) 
- ketmies ( ) lemma=ketmie 
+ ketmies ( ) 
  keuper ( ) 
- keupers ( ) lemma=keuper 
+ keupers ( ) 
  keynésien ( ) 
- keynésienne ( ) lemma=keynésien 
- keynésiennes ( ) lemma=keynésien 
- keynésiens ( ) lemma=keynésien 
+ keynésienne ( ) 
+ keynésiennes ( ) 
+ keynésiens ( ) 
  kg ( ) 
  khalifat ( ) 
- khalifats ( ) lemma=khalifat 
+ khalifats ( ) 
  khalife ( ) 
- khalifes ( ) lemma=khalife 
+ khalifes ( ) 
  khalkha ( ) 
- khalkhas ( ) lemma=khalkha 
+ khalkhas ( ) 
  khammès ( ) 
  khamsin ( ) 
- khamsins ( ) lemma=khamsin 
+ khamsins ( ) 
  khan ( ) 
  khanat ( ) 
- khanats ( ) lemma=khanat 
+ khanats ( ) 
  khandjar ( ) 
- khandjars ( ) lemma=khandjar 
+ khandjars ( ) 
  khani ( ) 
- khanis ( ) lemma=khani 
+ khanis ( ) 
  khanoun ( ) 
- khanouns ( ) lemma=khanoun 
- khans ( ) lemma=khan 
+ khanouns ( ) 
+ khans ( ) 
  kharidjisme ( ) 
- kharidjismes ( ) lemma=kharidjisme 
+ kharidjismes ( ) 
  kharidjite ( ) 
- kharidjites ( ) lemma=kharidjite 
+ kharidjites ( ) 
  kharijite ( ) 
- kharijites ( ) lemma=kharijite 
+ kharijites ( ) 
  khi ( ) 
- khis ( ) lemma=khi 
+ khis ( ) 
  khlong ( ) 
- khlongs ( ) lemma=khlong 
+ khlongs ( ) 
  khmer ( ) 
- khmers ( ) lemma=khmer 
- khmère ( ) lemma=khmer 
- khmères ( ) lemma=khmer 
+ khmers ( ) 
+ khmère ( ) 
+ khmères ( ) 
  khodja ( ) 
- khodjas ( ) lemma=khodja 
+ khodjas ( ) 
  khotba ( ) 
- khotbas ( ) lemma=khotba 
+ khotbas ( ) 
  khâgne ( ) 
- khâgnes ( ) lemma=khâgne 
- khâgneuse ( ) lemma=khâgneux 
+ khâgnes ( ) 
+ khâgneuse ( ) 
+ khâgneuses ( ) 
  khâgneux ( ) 
- khâgneuses ( ) lemma=khâgneux 
  khédival ( ) 
- khédivale ( ) lemma=khédival 
- khédivales ( ) lemma=khédival 
+ khédivale ( ) 
+ khédivales ( ) 
  khédivat ( ) 
- khédivats ( ) lemma=khédivat 
- khédivaux ( ) lemma=khédival 
+ khédivats ( ) 
+ khédivaux ( ) 
  khédive ( ) 
- khédives ( ) lemma=khédive 
+ khédives ( ) 
  khédivial ( ) 
- khédiviale ( ) lemma=khédivial 
- khédiviales ( ) lemma=khédivial 
+ khédiviale ( ) 
+ khédiviales ( ) 
  khédiviat ( ) 
- khédiviats ( ) lemma=khédiviat 
- khédiviaux ( ) lemma=khédivial 
+ khédiviats ( ) 
+ khédiviaux ( ) 
  khéroub ( ) 
- khéroubs ( ) lemma=khéroub 
+ khéroubs ( ) 
  khôl ( ) 
- khôls ( ) lemma=khôl 
+ khôls ( ) 
  kibboutzique ( ) 
- kibboutziques ( ) lemma=kibboutzique 
+ kibboutziques ( ) 
  kibboutznik ( ) 
  kibitka ( ) 
- kibitkas ( ) lemma=kibitka 
+ kibitkas ( ) 
  kibla ( ) 
  kiblah ( ) 
- kiblahs ( ) lemma=kiblah 
- kiblas ( ) lemma=kibla 
+ kiblahs ( ) 
+ kiblas ( ) 
  kiche ( ) 
  kichenotte ( ) 
- kichenottes ( ) lemma=kichenotte 
- kiches ( ) lemma=kiche 
+ kichenottes ( ) 
+ kiches ( ) 
  kick ( ) 
  kick-starter ( ) 
- kick-starters ( ) lemma=kick-starter 
- kicks ( ) lemma=kick 
+ kick-starters ( ) 
+ kicks ( ) 
  kid ( ) 
- kidnappa ( ) lemma=kidnapper 
- kidnapper ( ) 
+ kidnappa ( ) 
  kidnappage ( ) 
- kidnappages ( ) lemma=kidnappage 
- kidnappai ( ) lemma=kidnapper 
- kidnappaient ( ) lemma=kidnapper 
- kidnappais ( ) lemma=kidnapper 
- kidnappait ( ) lemma=kidnapper 
- kidnappant ( ) lemma=kidnapper 
- kidnappas ( ) lemma=kidnapper 
- kidnappasse ( ) lemma=kidnapper 
- kidnappassent ( ) lemma=kidnapper 
- kidnappasses ( ) lemma=kidnapper 
- kidnappassiez ( ) lemma=kidnapper 
- kidnappassions ( ) lemma=kidnapper 
- kidnappe ( ) lemma=kidnapper 
- kidnappent ( ) lemma=kidnapper 
- kidnappera ( ) lemma=kidnapper 
- kidnapperai ( ) lemma=kidnapper 
- kidnapperaient ( ) lemma=kidnapper 
- kidnapperais ( ) lemma=kidnapper 
- kidnapperait ( ) lemma=kidnapper 
- kidnapperas ( ) lemma=kidnapper 
- kidnapperez ( ) lemma=kidnapper 
- kidnapperiez ( ) lemma=kidnapper 
- kidnapperions ( ) lemma=kidnapper 
- kidnapperons ( ) lemma=kidnapper 
- kidnapperont ( ) lemma=kidnapper 
- kidnappes ( ) lemma=kidnapper 
+ kidnappages ( ) 
+ kidnappai ( ) 
+ kidnappaient ( ) 
+ kidnappais ( ) 
+ kidnappait ( ) 
+ kidnappant ( ) 
+ kidnappas ( ) 
+ kidnappasse ( ) 
+ kidnappassent ( ) 
+ kidnappasses ( ) 
+ kidnappassiez ( ) 
+ kidnappassions ( ) 
+ kidnappe ( ) 
+ kidnappent ( ) 
+ kidnapper ( ) 
+ kidnappera ( ) 
+ kidnapperai ( ) 
+ kidnapperaient ( ) 
+ kidnapperais ( ) 
+ kidnapperait ( ) 
+ kidnapperas ( ) 
+ kidnapperez ( ) 
+ kidnapperiez ( ) 
+ kidnapperions ( ) 
+ kidnapperons ( ) 
+ kidnapperont ( ) 
+ kidnappes ( ) 
  kidnappeur ( ) 
- kidnappeurs ( ) lemma=kidnappeur 
- kidnappeuse ( ) lemma=kidnappeur 
- kidnappeuses ( ) lemma=kidnappeur 
- kidnappez ( ) lemma=kidnapper 
- kidnappiez ( ) lemma=kidnapper 
+ kidnappeurs ( ) 
+ kidnappeuse ( ) 
+ kidnappeuses ( ) 
+ kidnappez ( ) 
+ kidnappiez ( ) 
  kidnapping ( ) 
- kidnappings ( ) lemma=kidnapping 
- kidnappions ( ) lemma=kidnapper 
- kidnappons ( ) lemma=kidnapper 
- kidnappâmes ( ) lemma=kidnapper 
- kidnappât ( ) lemma=kidnapper 
- kidnappâtes ( ) lemma=kidnapper 
- kidnappèrent ( ) lemma=kidnapper 
- kidnappé ( ) lemma=kidnapper 
- kidnappée ( ) lemma=kidnapper 
- kidnappées ( ) lemma=kidnapper 
- kidnappés ( ) lemma=kidnapper 
- kids ( ) lemma=kid 
+ kidnappings ( ) 
+ kidnappions ( ) 
+ kidnappons ( ) 
+ kidnappâmes ( ) 
+ kidnappât ( ) 
+ kidnappâtes ( ) 
+ kidnappèrent ( ) 
+ kidnappé ( ) 
+ kidnappée ( ) 
+ kidnappées ( ) 
+ kidnappés ( ) 
+ kids ( ) 
  kief ( ) 
- kiefs ( ) lemma=kief 
+ kiefs ( ) 
  kieselguhr ( ) 
- kieselguhrs ( ) lemma=kieselguhr 
+ kieselguhrs ( ) 
  kieselgur ( ) 
- kieselgurs ( ) lemma=kieselgur 
+ kieselgurs ( ) 
  kiesérite ( ) 
- kiesérites ( ) lemma=kiesérite 
- kif ( ) 
+ kiesérites ( ) 
+ kif ( ) lemma=skiff 
  kif-kif ( ) 
  kifomanie ( ) 
- kifomanies ( ) lemma=kifomanie 
- kifs ( ) lemma=kif 
+ kifomanies ( ) 
+ kifs ( ) 
  kiki ( ) 
- kikis ( ) lemma=kiki 
+ kikis ( ) 
  kil ( ) 
  kilim ( ) 
- kilims ( ) lemma=kilim 
+ kilims ( ) 
  kilo ( ) 
  kiloampère ( ) 
  kiloampèremètre ( ) 
- kiloampèremètres ( ) lemma=kiloampèremètre 
- kiloampères ( ) lemma=kiloampère 
+ kiloampèremètres ( ) 
+ kiloampères ( ) 
  kilobar ( ) 
- kilobars ( ) lemma=kilobar 
+ kilobars ( ) 
  kilocalorie ( ) 
- kilocalories ( ) lemma=kilocalorie 
+ kilocalories ( ) 
  kilocycle ( ) 
- kilocycles ( ) lemma=kilocycle 
+ kilocycles ( ) 
  kilogramme ( ) 
- kilogrammes ( ) lemma=kilogramme 
+ kilogrammes ( ) 
  kilogrammètre ( ) 
- kilogrammètres ( ) lemma=kilogrammètre 
+ kilogrammètres ( ) 
  kilojoule ( ) 
- kilojoules ( ) lemma=kilojoule 
+ kilojoules ( ) 
  kilomètre ( ) 
- kilomètrent ( ) lemma=kilométrer 
- kilométrer ( ) 
- kilomètres ( ) lemma=kilomètre 
- kilométra ( ) lemma=kilométrer 
+ kilomètrent ( ) 
+ kilomètres ( ) 
+ kilométra ( ) 
  kilométrage ( ) 
- kilométrages ( ) lemma=kilométrage 
- kilométrai ( ) lemma=kilométrer 
- kilométraient ( ) lemma=kilométrer 
- kilométrais ( ) lemma=kilométrer 
- kilométrait ( ) lemma=kilométrer 
- kilométrant ( ) lemma=kilométrer 
- kilométras ( ) lemma=kilométrer 
- kilométrasse ( ) lemma=kilométrer 
- kilométrassent ( ) lemma=kilométrer 
- kilométrasses ( ) lemma=kilométrer 
- kilométrassiez ( ) lemma=kilométrer 
- kilométrassions ( ) lemma=kilométrer 
- kilométrera ( ) lemma=kilométrer 
- kilométrerai ( ) lemma=kilométrer 
- kilométreraient ( ) lemma=kilométrer 
- kilométrerais ( ) lemma=kilométrer 
- kilométrerait ( ) lemma=kilométrer 
- kilométreras ( ) lemma=kilométrer 
- kilométrerez ( ) lemma=kilométrer 
- kilométreriez ( ) lemma=kilométrer 
- kilométrerions ( ) lemma=kilométrer 
- kilométrerons ( ) lemma=kilométrer 
- kilométreront ( ) lemma=kilométrer 
- kilométrez ( ) lemma=kilométrer 
- kilométriez ( ) lemma=kilométrer 
- kilométrions ( ) lemma=kilométrer 
+ kilométrages ( ) 
+ kilométrai ( ) 
+ kilométraient ( ) 
+ kilométrais ( ) 
+ kilométrait ( ) 
+ kilométrant ( ) 
+ kilométras ( ) 
+ kilométrasse ( ) 
+ kilométrassent ( ) 
+ kilométrasses ( ) 
+ kilométrassiez ( ) 
+ kilométrassions ( ) 
+ kilométrer ( ) 
+ kilométrera ( ) 
+ kilométrerai ( ) 
+ kilométreraient ( ) 
+ kilométrerais ( ) 
+ kilométrerait ( ) 
+ kilométreras ( ) 
+ kilométrerez ( ) 
+ kilométreriez ( ) 
+ kilométrerions ( ) 
+ kilométrerons ( ) 
+ kilométreront ( ) 
+ kilométrez ( ) 
+ kilométriez ( ) 
+ kilométrions ( ) 
  kilométrique ( ) 
  kilométriquement ( ) 
- kilométriques ( ) lemma=kilométrique 
- kilométrons ( ) lemma=kilométrer 
- kilométrâmes ( ) lemma=kilométrer 
- kilométrât ( ) lemma=kilométrer 
- kilométrâtes ( ) lemma=kilométrer 
- kilométrèrent ( ) lemma=kilométrer 
- kilométré ( ) lemma=kilométrer 
- kilométrée ( ) lemma=kilométrer 
- kilométrées ( ) lemma=kilométrer 
- kilométrés ( ) lemma=kilométrer 
- kilos ( ) lemma=kilo 
+ kilométriques ( ) 
+ kilométrons ( ) 
+ kilométrâmes ( ) 
+ kilométrât ( ) 
+ kilométrâtes ( ) 
+ kilométrèrent ( ) 
+ kilométré ( ) 
+ kilométrée ( ) 
+ kilométrées ( ) 
+ kilométrés ( ) 
+ kilos ( ) 
  kilotonne ( ) 
- kilotonnes ( ) lemma=kilotonne 
+ kilotonnes ( ) 
  kilotonnique ( ) 
- kilotonniques ( ) lemma=kilotonnique 
+ kilotonniques ( ) 
  kilovar ( ) 
- kilovars ( ) lemma=kilovar 
+ kilovars ( ) 
  kilovolt ( ) 
- kilovolts ( ) lemma=kilovolt 
+ kilovolts ( ) 
  kilowatt ( ) 
  kilowattheure ( ) 
- kilowattheures ( ) lemma=kilowattheure 
- kilowatts ( ) lemma=kilowatt 
- kils ( ) lemma=kil 
+ kilowattheures ( ) 
+ kilowatts ( ) 
+ kils ( ) 
  kilt ( ) 
- kilts ( ) lemma=kilt 
+ kilts ( ) 
  kimberlite ( ) 
- kimberlites ( ) lemma=kimberlite 
+ kimberlites ( ) 
  kimono ( ) 
- kimonos ( ) lemma=kimono 
+ kimonos ( ) 
  kina ( ) 
- kinas ( ) lemma=kina 
+ kinas ( ) 
  kinase ( ) 
- kinases ( ) lemma=kinase 
+ kinases ( ) 
  kincajou ( ) 
- kincajous ( ) lemma=kincajou 
+ kincajous ( ) 
  kinescope ( ) 
- kinescopes ( ) lemma=kinescope 
+ kinescopes ( ) 
  kinescopie ( ) 
- kinescopies ( ) lemma=kinescopie 
+ kinescopies ( ) 
  kinesthésie ( ) 
- kinesthésies ( ) lemma=kinesthésie 
+ kinesthésies ( ) 
  kinesthésique ( ) 
- kinesthésiques ( ) lemma=kinesthésique 
+ kinesthésiques ( ) 
  king-charles ( ) 
  kinine ( ) 
- kinines ( ) lemma=kinine 
+ kinines ( ) 
  kinkajou ( ) 
- kinkajous ( ) lemma=kinkajou 
+ kinkajous ( ) 
  kinnara ( ) 
  kinnor ( ) 
- kinnors ( ) lemma=kinnor 
+ kinnors ( ) 
  kino ( ) 
- kinos ( ) lemma=kino 
+ kinos ( ) 
  kiné ( ) 
- kinési ( ) 
+ kinési ( ) lemma=akinésie 
  kinésimètre ( ) 
- kinésimètres ( ) lemma=kinésimètre 
+ kinésimètres ( ) 
  kinésique ( ) 
- kinésiques ( ) lemma=kinésique 
+ kinésiques ( ) 
  kinésithérapeute ( ) 
- kinésithérapeutes ( ) lemma=kinésithérapeute 
+ kinésithérapeutes ( ) 
  kinésithérapie ( ) 
- kinésithérapies ( ) lemma=kinésithérapie 
+ kinésithérapies ( ) 
  kinétoscope ( ) 
- kinétoscopes ( ) lemma=kinétoscope 
+ kinétoscopes ( ) 
  kiosquaire ( ) 
- kiosquaires ( ) lemma=kiosquaire 
+ kiosquaires ( ) 
  kiosque ( ) 
- kiosques ( ) lemma=kiosque 
+ kiosques ( ) 
  kiosquier ( ) 
- kiosquiers ( ) lemma=kiosquier 
- kiosquière ( ) lemma=kiosquier 
- kiosquières ( ) lemma=kiosquier 
- kip ( ) 
- kippa ( ) 
- kippas ( ) lemma=kippa 
- kipper ( ) 
- kippers ( ) lemma=kipper 
- kips ( ) lemma=kip 
+ kiosquiers ( ) 
+ kiosquière ( ) 
+ kiosquières ( ) 
+ kip ( ) lemma=skip 
+ kippa ( ) lemma=skipper 
+ kippas ( ) 
+ kipper ( ) lemma=skipper 
+ kippers ( ) 
+ kips ( ) 
  kir ( ) 
- kirs ( ) lemma=kir 
+ kirs ( ) 
  kirsch ( ) 
- kirschs ( ) lemma=kirsch 
+ kirschs ( ) 
  kiswahili ( ) 
- kiswahilis ( ) lemma=kiswahili 
+ kiswahilis ( ) 
  kit ( ) 
  kitch ( ) 
  kitchenette ( ) 
- kitchenettes ( ) lemma=kitchenette 
- kitchs ( ) lemma=kitch 
- kits ( ) lemma=kit 
+ kitchenettes ( ) 
+ kitchs ( ) 
+ kits ( ) 
  kitsch ( ) 
- kitschs ( ) lemma=kitsch 
+ kitschs ( ) 
  kiwi ( ) 
- kiwis ( ) lemma=kiwi 
+ kiwis ( ) 
  kjökkenmödding ( ) 
- kjökkenmöddings ( ) lemma=kjökkenmödding 
+ kjökkenmöddings ( ) 
  klaxon ( ) 
- klaxonna ( ) lemma=klaxonner 
+ klaxonna ( ) 
+ klaxonnai ( ) 
+ klaxonnaient ( ) 
+ klaxonnais ( ) 
+ klaxonnait ( ) 
+ klaxonnant ( ) 
+ klaxonnas ( ) 
+ klaxonnasse ( ) 
+ klaxonnassent ( ) 
+ klaxonnasses ( ) 
+ klaxonnassiez ( ) 
+ klaxonnassions ( ) 
+ klaxonne ( ) 
+ klaxonnent ( ) 
  klaxonner ( ) 
- klaxonnai ( ) lemma=klaxonner 
- klaxonnaient ( ) lemma=klaxonner 
- klaxonnais ( ) lemma=klaxonner 
- klaxonnait ( ) lemma=klaxonner 
- klaxonnant ( ) lemma=klaxonner 
- klaxonnas ( ) lemma=klaxonner 
- klaxonnasse ( ) lemma=klaxonner 
- klaxonnassent ( ) lemma=klaxonner 
- klaxonnasses ( ) lemma=klaxonner 
- klaxonnassiez ( ) lemma=klaxonner 
- klaxonnassions ( ) lemma=klaxonner 
- klaxonne ( ) lemma=klaxonner 
- klaxonnent ( ) lemma=klaxonner 
- klaxonnera ( ) lemma=klaxonner 
- klaxonnerai ( ) lemma=klaxonner 
- klaxonneraient ( ) lemma=klaxonner 
- klaxonnerais ( ) lemma=klaxonner 
- klaxonnerait ( ) lemma=klaxonner 
- klaxonneras ( ) lemma=klaxonner 
- klaxonnerez ( ) lemma=klaxonner 
- klaxonneriez ( ) lemma=klaxonner 
- klaxonnerions ( ) lemma=klaxonner 
- klaxonnerons ( ) lemma=klaxonner 
- klaxonneront ( ) lemma=klaxonner 
- klaxonnes ( ) lemma=klaxonner 
- klaxonnez ( ) lemma=klaxonner 
- klaxonniez ( ) lemma=klaxonner 
- klaxonnions ( ) lemma=klaxonner 
- klaxonnons ( ) lemma=klaxonner 
- klaxonnâmes ( ) lemma=klaxonner 
- klaxonnât ( ) lemma=klaxonner 
- klaxonnâtes ( ) lemma=klaxonner 
- klaxonnèrent ( ) lemma=klaxonner 
- klaxonné ( ) lemma=klaxonner 
- klaxonnée ( ) lemma=klaxonner 
- klaxonnées ( ) lemma=klaxonner 
- klaxonnés ( ) lemma=klaxonner 
- klaxons ( ) lemma=klaxon 
+ klaxonnera ( ) 
+ klaxonnerai ( ) 
+ klaxonneraient ( ) 
+ klaxonnerais ( ) 
+ klaxonnerait ( ) 
+ klaxonneras ( ) 
+ klaxonnerez ( ) 
+ klaxonneriez ( ) 
+ klaxonnerions ( ) 
+ klaxonnerons ( ) 
+ klaxonneront ( ) 
+ klaxonnes ( ) 
+ klaxonnez ( ) 
+ klaxonniez ( ) 
+ klaxonnions ( ) 
+ klaxonnons ( ) 
+ klaxonnâmes ( ) 
+ klaxonnât ( ) 
+ klaxonnâtes ( ) 
+ klaxonnèrent ( ) 
+ klaxonné ( ) 
+ klaxonnée ( ) 
+ klaxonnées ( ) 
+ klaxonnés ( ) 
+ klaxons ( ) 
  klebs ( ) 
  kleenex ( ) 
  klephte ( ) 
- klephtes ( ) lemma=klephte 
+ klephtes ( ) 
  klepper ( ) 
- kleppers ( ) lemma=klepper 
+ kleppers ( ) 
  kleptomane ( ) 
- kleptomanes ( ) lemma=kleptomane 
+ kleptomanes ( ) 
  kleptomanie ( ) 
- kleptomanies ( ) lemma=kleptomanie 
+ kleptomanies ( ) 
  klippe ( ) 
  klipper ( ) 
- klippers ( ) lemma=klipper 
- klippes ( ) lemma=klippe 
+ klippers ( ) 
+ klippes ( ) 
  klong ( ) 
- klongs ( ) lemma=klong 
+ klongs ( ) 
  klystron ( ) 
- klystrons ( ) lemma=klystron 
- km ( ) lemma=kilomètre 
- km/h ( ) lemma=kilomètres-heure 
- kilomètres-heure ( ) 
+ klystrons ( ) 
+ km ( ) 
+ km/h ( ) 
  knesset ( ) 
- knessets ( ) lemma=knesset 
+ knessets ( ) 
  knickerbockers ( ) 
  knickers ( ) 
  knock-down ( ) 
- knock-downs ( ) lemma=knock-down 
+ knock-downs ( ) 
  knock-out ( ) 
- knock-outa ( ) lemma=knock-outer 
+ knock-outa ( ) 
+ knock-outai ( ) 
+ knock-outaient ( ) 
+ knock-outais ( ) 
+ knock-outait ( ) 
+ knock-outant ( ) 
+ knock-outas ( ) 
+ knock-outasse ( ) 
+ knock-outassent ( ) 
+ knock-outasses ( ) 
+ knock-outassiez ( ) 
+ knock-outassions ( ) 
+ knock-oute ( ) 
+ knock-outent ( ) 
  knock-outer ( ) 
- knock-outai ( ) lemma=knock-outer 
- knock-outaient ( ) lemma=knock-outer 
- knock-outais ( ) lemma=knock-outer 
- knock-outait ( ) lemma=knock-outer 
- knock-outant ( ) lemma=knock-outer 
- knock-outas ( ) lemma=knock-outer 
- knock-outasse ( ) lemma=knock-outer 
- knock-outassent ( ) lemma=knock-outer 
- knock-outasses ( ) lemma=knock-outer 
- knock-outassiez ( ) lemma=knock-outer 
- knock-outassions ( ) lemma=knock-outer 
- knock-oute ( ) lemma=knock-outer 
- knock-outent ( ) lemma=knock-outer 
- knock-outera ( ) lemma=knock-outer 
- knock-outerai ( ) lemma=knock-outer 
- knock-outeraient ( ) lemma=knock-outer 
- knock-outerais ( ) lemma=knock-outer 
- knock-outerait ( ) lemma=knock-outer 
- knock-outeras ( ) lemma=knock-outer 
- knock-outerez ( ) lemma=knock-outer 
- knock-outeriez ( ) lemma=knock-outer 
- knock-outerions ( ) lemma=knock-outer 
- knock-outerons ( ) lemma=knock-outer 
- knock-outeront ( ) lemma=knock-outer 
- knock-outes ( ) lemma=knock-outer 
- knock-outez ( ) lemma=knock-outer 
- knock-outiez ( ) lemma=knock-outer 
- knock-outions ( ) lemma=knock-outer 
- knock-outons ( ) lemma=knock-outer 
- knock-outs ( ) lemma=knock-out 
- knock-outâmes ( ) lemma=knock-outer 
- knock-outât ( ) lemma=knock-outer 
- knock-outâtes ( ) lemma=knock-outer 
- knock-outèrent ( ) lemma=knock-outer 
- knock-outé ( ) lemma=knock-outer 
- knock-outée ( ) lemma=knock-outer 
- knock-outées ( ) lemma=knock-outer 
- knock-outés ( ) lemma=knock-outer 
+ knock-outera ( ) 
+ knock-outerai ( ) 
+ knock-outeraient ( ) 
+ knock-outerais ( ) 
+ knock-outerait ( ) 
+ knock-outeras ( ) 
+ knock-outerez ( ) 
+ knock-outeriez ( ) 
+ knock-outerions ( ) 
+ knock-outerons ( ) 
+ knock-outeront ( ) 
+ knock-outes ( ) 
+ knock-outez ( ) 
+ knock-outiez ( ) 
+ knock-outions ( ) 
+ knock-outons ( ) 
+ knock-outs ( ) 
+ knock-outâmes ( ) 
+ knock-outât ( ) 
+ knock-outâtes ( ) 
+ knock-outèrent ( ) 
+ knock-outé ( ) 
+ knock-outée ( ) 
+ knock-outées ( ) 
+ knock-outés ( ) 
  knoedel ( ) 
  knout ( ) 
- knouta ( ) lemma=knouter 
+ knouta ( ) 
+ knoutai ( ) 
+ knoutaient ( ) 
+ knoutais ( ) 
+ knoutait ( ) 
+ knoutant ( ) 
+ knoutas ( ) 
+ knoutasse ( ) 
+ knoutassent ( ) 
+ knoutasses ( ) 
+ knoutassiez ( ) 
+ knoutassions ( ) 
+ knoute ( ) 
+ knoutent ( ) 
  knouter ( ) 
- knoutai ( ) lemma=knouter 
- knoutaient ( ) lemma=knouter 
- knoutais ( ) lemma=knouter 
- knoutait ( ) lemma=knouter 
- knoutant ( ) lemma=knouter 
- knoutas ( ) lemma=knouter 
- knoutasse ( ) lemma=knouter 
- knoutassent ( ) lemma=knouter 
- knoutasses ( ) lemma=knouter 
- knoutassiez ( ) lemma=knouter 
- knoutassions ( ) lemma=knouter 
- knoute ( ) lemma=knouter 
- knoutent ( ) lemma=knouter 
- knoutera ( ) lemma=knouter 
- knouterai ( ) lemma=knouter 
- knouteraient ( ) lemma=knouter 
- knouterais ( ) lemma=knouter 
- knouterait ( ) lemma=knouter 
- knouteras ( ) lemma=knouter 
- knouterez ( ) lemma=knouter 
- knouteriez ( ) lemma=knouter 
- knouterions ( ) lemma=knouter 
- knouterons ( ) lemma=knouter 
- knouteront ( ) lemma=knouter 
- knoutes ( ) lemma=knouter 
- knoutez ( ) lemma=knouter 
- knoutiez ( ) lemma=knouter 
- knoutions ( ) lemma=knouter 
- knoutons ( ) lemma=knouter 
- knouts ( ) lemma=knout 
- knoutâmes ( ) lemma=knouter 
- knoutât ( ) lemma=knouter 
- knoutâtes ( ) lemma=knouter 
- knoutèrent ( ) lemma=knouter 
- knouté ( ) lemma=knouter 
- knoutée ( ) lemma=knouter 
- knoutées ( ) lemma=knouter 
- knoutés ( ) lemma=knouter 
+ knoutera ( ) 
+ knouterai ( ) 
+ knouteraient ( ) 
+ knouterais ( ) 
+ knouterait ( ) 
+ knouteras ( ) 
+ knouterez ( ) 
+ knouteriez ( ) 
+ knouterions ( ) 
+ knouterons ( ) 
+ knouteront ( ) 
+ knoutes ( ) 
+ knoutez ( ) 
+ knoutiez ( ) 
+ knoutions ( ) 
+ knoutons ( ) 
+ knouts ( ) 
+ knoutâmes ( ) 
+ knoutât ( ) 
+ knoutâtes ( ) 
+ knoutèrent ( ) 
+ knouté ( ) 
+ knoutée ( ) 
+ knoutées ( ) 
+ knoutés ( ) 
  know-how ( ) 
  knémide ( ) 
- knémides ( ) lemma=knémide 
+ knémides ( ) 
  knödel ( ) 
  koala ( ) 
- koalas ( ) lemma=koala 
+ koalas ( ) 
  koan ( ) 
  kob ( ) 
  kobold ( ) 
- kobolds ( ) lemma=kobold 
- kobs ( ) lemma=kob 
+ kobolds ( ) 
+ kobs ( ) 
  koch ( ) 
  kocher ( ) 
  kochia ( ) 
- kochias ( ) lemma=kochia 
- kochs ( ) lemma=koch 
+ kochias ( ) 
+ kochs ( ) 
  kodak ( ) 
- kodaks ( ) lemma=kodak 
+ kodaks ( ) 
  koff ( ) 
- koffs ( ) lemma=koff 
+ koffs ( ) 
  koheul ( ) 
- koheuls ( ) lemma=koheul 
+ koheuls ( ) 
  kohl ( ) 
- kohls ( ) lemma=kohl 
+ kohls ( ) 
  kohol ( ) 
- kohols ( ) lemma=kohol 
+ kohols ( ) 
  kola ( ) 
  kolatier ( ) 
- kolatiers ( ) lemma=kolatier 
+ kolatiers ( ) 
  kolatisme ( ) 
- kolatismes ( ) lemma=kolatisme 
+ kolatismes ( ) 
  kolback ( ) 
- kolbacks ( ) lemma=kolback 
+ kolbacks ( ) 
  kolinski ( ) 
- kolinskis ( ) lemma=kolinski 
+ kolinskis ( ) 
  kolkhoze ( ) 
- kolkhozes ( ) lemma=kolkhoze 
+ kolkhozes ( ) 
  kolkhozien ( ) 
- kolkhozienne ( ) lemma=kolkhozien 
- kolkhoziennes ( ) lemma=kolkhozien 
- kolkhoziens ( ) lemma=kolkhozien 
+ kolkhozienne ( ) 
+ kolkhoziennes ( ) 
+ kolkhoziens ( ) 
  kominform ( ) 
- kominforms ( ) lemma=kominform 
+ kominforms ( ) 
  komintern ( ) 
- kominterns ( ) lemma=komintern 
+ kominterns ( ) 
  kommandantur ( ) 
- kommandanturs ( ) lemma=kommandantur 
+ kommandanturs ( ) 
  kommando ( ) 
- kommandos ( ) lemma=kommando 
+ kommandos ( ) 
  kompas ( ) 
  komsomol ( ) 
- komsomols ( ) lemma=komsomol 
+ komsomols ( ) 
  konel ( ) 
- konels ( ) lemma=konel 
+ konels ( ) 
  konzern ( ) 
- konzerns ( ) lemma=konzern 
+ konzerns ( ) 
  kopeck ( ) 
- kopecks ( ) lemma=kopeck 
+ kopecks ( ) 
  koppa ( ) 
- koppas ( ) lemma=koppa 
+ koppas ( ) 
  kora ( ) 
  koran ( ) 
- korans ( ) lemma=koran 
- koras ( ) lemma=kora 
+ korans ( ) 
+ koras ( ) 
  korrigan ( ) 
- korrigane ( ) lemma=korrigan 
- korriganes ( ) lemma=korrigan 
- korrigans ( ) lemma=korrigan 
+ korrigane ( ) 
+ korriganes ( ) 
+ korrigans ( ) 
  koré ( ) 
- korés ( ) lemma=koré 
+ korés ( ) 
  korê ( ) 
- korês ( ) lemma=korê 
+ korês ( ) 
  koto ( ) 
- kotos ( ) lemma=koto 
+ kotos ( ) 
  kouan-houa ( ) 
- kouan-houas ( ) lemma=kouan-houa 
+ kouan-houas ( ) 
  koubba ( ) 
- koubbas ( ) lemma=koubba 
+ koubbas ( ) 
  kouglof ( ) 
- kouglofs ( ) lemma=kouglof 
+ kouglofs ( ) 
  koulak ( ) 
- koulaks ( ) lemma=koulak 
+ koulaks ( ) 
  koulibiac ( ) 
- koulibiacs ( ) lemma=koulibiac 
+ koulibiacs ( ) 
  koumis ( ) 
  kourgane ( ) 
- kourganes ( ) lemma=kourgane 
+ kourganes ( ) 
  kouros ( ) 
  kourtchatovium ( ) 
- kourtchatoviums ( ) lemma=kourtchatovium 
+ kourtchatoviums ( ) 
  koweitien ( ) 
- koweitienne ( ) lemma=koweitien 
- koweitiennes ( ) lemma=koweitien 
- koweitiens ( ) lemma=koweitien 
+ koweitienne ( ) 
+ koweitiennes ( ) 
+ koweitiens ( ) 
  kraal ( ) 
- kraals ( ) lemma=kraal 
+ kraals ( ) 
  krach ( ) 
- krachs ( ) lemma=krach 
+ krachs ( ) 
  kraft ( ) 
- krafts ( ) lemma=kraft 
+ krafts ( ) 
  krak ( ) 
  kraken ( ) 
- krakens ( ) lemma=kraken 
- kraks ( ) lemma=krak 
+ krakens ( ) 
+ kraks ( ) 
  kramerie ( ) 
- krameries ( ) lemma=kramerie 
+ krameries ( ) 
  krapfen ( ) 
- krapfens ( ) lemma=krapfen 
+ krapfens ( ) 
  kraurosis ( ) 
  kreep ( ) 
- kreeps ( ) lemma=kreep 
+ kreeps ( ) 
  kremlin ( ) 
  kremlinologie ( ) 
- kremlinologies ( ) lemma=kremlinologie 
+ kremlinologies ( ) 
  kremlinologue ( ) 
- kremlinologues ( ) lemma=kremlinologue 
- kremlins ( ) lemma=kremlin 
+ kremlinologues ( ) 
+ kremlins ( ) 
  kreutzer ( ) 
- kreutzers ( ) lemma=kreutzer 
+ kreutzers ( ) 
  kriegspiel ( ) 
- kriegspiels ( ) lemma=kriegspiel 
+ kriegspiels ( ) 
  krill ( ) 
- krills ( ) lemma=krill 
+ krills ( ) 
  kriss ( ) 
  kronstadt ( ) 
- kronstadts ( ) lemma=kronstadt 
+ kronstadts ( ) 
  kroumir ( ) 
- kroumirs ( ) lemma=kroumir 
+ kroumirs ( ) 
  krypton ( ) 
- kryptons ( ) lemma=krypton 
+ kryptons ( ) 
  ksar ( ) 
- ksars ( ) lemma=ksar 
+ ksars ( ) 
  kshatriya ( ) 
- kshatriyas ( ) lemma=kshatriya 
+ kshatriyas ( ) 
  ksi ( ) 
- ksis ( ) lemma=ksi 
+ ksis ( ) 
  kuatsu ( ) 
- kuatsus ( ) lemma=kuatsu 
+ kuatsus ( ) 
  kuffieh ( ) 
- kuffiehs ( ) lemma=kuffieh 
+ kuffiehs ( ) 
  kufieh ( ) 
- kufiehs ( ) lemma=kufieh 
+ kufiehs ( ) 
  kugelhof ( ) 
- kugelhofs ( ) lemma=kugelhof 
+ kugelhofs ( ) 
  kummel ( ) 
- kummels ( ) lemma=kummel 
+ kummels ( ) 
  kumquat ( ) 
- kumquats ( ) lemma=kumquat 
+ kumquats ( ) 
  kung-fu ( ) 
- kung-fus ( ) lemma=kung-fu 
+ kung-fus ( ) 
  kurde ( ) 
- kurdes ( ) lemma=kurde 
+ kurdes ( ) 
  kursaal ( ) 
- kursaals ( ) lemma=kursaal 
+ kursaals ( ) 
  kurtchatovium ( ) 
- kurtchatoviums ( ) lemma=kurtchatovium 
+ kurtchatoviums ( ) 
  kvas ( ) 
  kwa ( ) 
  kwas ( ) 
  kwashiorkor ( ) 
- kwashiorkors ( ) lemma=kwashiorkor 
+ kwashiorkors ( ) 
  kymographe ( ) 
- kymographes ( ) lemma=kymographe 
+ kymographes ( ) 
  kymographie ( ) 
- kymographies ( ) lemma=kymographie 
+ kymographies ( ) 
  kymri ( ) 
  kymrique ( ) 
- kymriques ( ) lemma=kymrique 
- kymris ( ) lemma=kymri 
+ kymriques ( ) 
+ kymris ( ) 
  kyogen ( ) 
- kyogens ( ) lemma=kyogen 
+ kyogens ( ) 
  kyrie ( ) 
  kyrielle ( ) 
- kyrielles ( ) lemma=kyrielle 
+ kyrielles ( ) 
  kyriologique ( ) 
- kyriologiques ( ) lemma=kyriologique 
+ kyriologiques ( ) 
  kyste ( ) 
- kystes ( ) lemma=kyste 
- kysteuse ( ) lemma=kysteux 
+ kystes ( ) 
+ kysteuse ( ) 
+ kysteuses ( ) 
  kysteux ( ) 
- kysteuses ( ) lemma=kysteux 
  kystique ( ) 
- kystiques ( ) lemma=kystique 
+ kystiques ( ) 
  kyu ( ) 
  kyudo ( ) 
- kyudos ( ) lemma=kyudo 
- kyus ( ) lemma=kyu 
+ kyudos ( ) 
+ kyus ( ) 
  kâvya ( ) 
- kâvyas ( ) lemma=kâvya 
+ kâvyas ( ) 
  kère ( ) 
- kères ( ) lemma=kère 
+ kères ( ) 
  kébour ( ) 
- kébours ( ) lemma=kébour 
+ kébours ( ) 
  kébroque ( ) 
- kébroques ( ) lemma=kébroque 
+ kébroques ( ) 
  kéfir ( ) 
- kéfirs ( ) lemma=kéfir 
+ kéfirs ( ) 
  kémia ( ) 
- kémias ( ) lemma=kémia 
+ kémias ( ) 
  kénotron ( ) 
- kénotrons ( ) lemma=kénotron 
+ kénotrons ( ) 
  kényen ( ) 
- kényenne ( ) lemma=kényen 
- kényennes ( ) lemma=kényen 
- kényens ( ) lemma=kényen 
+ kényenne ( ) 
+ kényennes ( ) 
+ kényens ( ) 
  képhir ( ) 
- képhirs ( ) lemma=képhir 
+ képhirs ( ) 
  képhyr ( ) 
- képhyrs ( ) lemma=képhyr 
+ képhyrs ( ) 
  képi ( ) 
- képis ( ) lemma=képi 
+ képis ( ) 
  képissier ( ) 
- képissiers ( ) lemma=képissier 
+ képissiers ( ) 
  képlérien ( ) 
- képlérienne ( ) lemma=képlérien 
- képlériennes ( ) lemma=képlérien 
- képlériens ( ) lemma=képlérien 
+ képlérienne ( ) 
+ képlériennes ( ) 
+ képlériens ( ) 
  kérabau ( ) 
- kérabaux ( ) lemma=kérabau 
+ kérabaux ( ) 
  kératalgie ( ) 
- kératalgies ( ) lemma=kératalgie 
+ kératalgies ( ) 
  kératectomie ( ) 
- kératectomies ( ) lemma=kératectomie 
+ kératectomies ( ) 
  kératine ( ) 
- kératines ( ) lemma=kératine 
- kératinisa ( ) lemma=kératiniser 
- kératiniser ( ) 
- kératinisai ( ) lemma=kératiniser 
- kératinisaient ( ) lemma=kératiniser 
- kératinisais ( ) lemma=kératiniser 
- kératinisait ( ) lemma=kératiniser 
- kératinisant ( ) lemma=kératiniser 
- kératinisas ( ) lemma=kératiniser 
- kératinisasse ( ) lemma=kératiniser 
- kératinisassent ( ) lemma=kératiniser 
- kératinisasses ( ) lemma=kératiniser 
- kératinisassiez ( ) lemma=kératiniser 
- kératinisassions ( ) lemma=kératiniser 
+ kératines ( ) 
+ kératinisa ( ) 
+ kératinisai ( ) 
+ kératinisaient ( ) 
+ kératinisais ( ) 
+ kératinisait ( ) 
+ kératinisant ( ) 
+ kératinisas ( ) 
+ kératinisasse ( ) 
+ kératinisassent ( ) 
+ kératinisasses ( ) 
+ kératinisassiez ( ) 
+ kératinisassions ( ) 
  kératinisation ( ) 
- kératinisations ( ) lemma=kératinisation 
- kératinise ( ) lemma=kératiniser 
- kératinisent ( ) lemma=kératiniser 
- kératinisera ( ) lemma=kératiniser 
- kératiniserai ( ) lemma=kératiniser 
- kératiniseraient ( ) lemma=kératiniser 
- kératiniserais ( ) lemma=kératiniser 
- kératiniserait ( ) lemma=kératiniser 
- kératiniseras ( ) lemma=kératiniser 
- kératiniserez ( ) lemma=kératiniser 
- kératiniseriez ( ) lemma=kératiniser 
- kératiniserions ( ) lemma=kératiniser 
- kératiniserons ( ) lemma=kératiniser 
- kératiniseront ( ) lemma=kératiniser 
- kératinises ( ) lemma=kératiniser 
- kératinisez ( ) lemma=kératiniser 
- kératinisiez ( ) lemma=kératiniser 
- kératinisions ( ) lemma=kératiniser 
- kératinisons ( ) lemma=kératiniser 
- kératinisâmes ( ) lemma=kératiniser 
- kératinisât ( ) lemma=kératiniser 
- kératinisâtes ( ) lemma=kératiniser 
- kératinisèrent ( ) lemma=kératiniser 
+ kératinisations ( ) 
+ kératinise ( ) 
+ kératinisent ( ) 
+ kératiniser ( ) 
+ kératinisera ( ) 
+ kératiniserai ( ) 
+ kératiniseraient ( ) 
+ kératiniserais ( ) 
+ kératiniserait ( ) 
+ kératiniseras ( ) 
+ kératiniserez ( ) 
+ kératiniseriez ( ) 
+ kératiniserions ( ) 
+ kératiniserons ( ) 
+ kératiniseront ( ) 
+ kératinises ( ) 
+ kératinisez ( ) 
+ kératinisiez ( ) 
+ kératinisions ( ) 
+ kératinisons ( ) 
+ kératinisâmes ( ) 
+ kératinisât ( ) 
+ kératinisâtes ( ) 
+ kératinisèrent ( ) 
  kératinisé ( ) 
- kératinisée ( ) lemma=kératinisé 
- kératinisées ( ) lemma=kératinisé 
- kératinisés ( ) lemma=kératinisé 
+ kératinisée ( ) 
+ kératinisées ( ) 
+ kératinisés ( ) 
  kératique ( ) 
- kératiques ( ) lemma=kératique 
+ kératiques ( ) 
  kératite ( ) 
- kératites ( ) lemma=kératite 
+ kératites ( ) 
  kérato-conjonctivite ( ) 
- kérato-conjonctivites ( ) lemma=kérato-conjonctivite 
+ kérato-conjonctivites ( ) 
  kératocèle ( ) 
- kératocèles ( ) lemma=kératocèle 
+ kératocèles ( ) 
  kératocône ( ) 
- kératocônes ( ) lemma=kératocône 
+ kératocônes ( ) 
  kératodermie ( ) 
- kératodermies ( ) lemma=kératodermie 
+ kératodermies ( ) 
  kératolyse ( ) 
- kératolyses ( ) lemma=kératolyse 
+ kératolyses ( ) 
  kératomalacie ( ) 
- kératomalacies ( ) lemma=kératomalacie 
+ kératomalacies ( ) 
  kératome ( ) 
- kératomes ( ) lemma=kératome 
+ kératomes ( ) 
  kératoplastie ( ) 
- kératoplasties ( ) lemma=kératoplastie 
+ kératoplasties ( ) 
  kératoplastique ( ) 
- kératoplastiques ( ) lemma=kératoplastique 
+ kératoplastiques ( ) 
  kératose ( ) 
- kératoses ( ) lemma=kératose 
+ kératoses ( ) 
  kératotomie ( ) 
- kératotomies ( ) lemma=kératotomie 
+ kératotomies ( ) 
  kérion ( ) 
- kérions ( ) lemma=kérion 
+ kérions ( ) 
  kérithérapie ( ) 
- kérithérapies ( ) lemma=kérithérapie 
+ kérithérapies ( ) 
  kérogène ( ) 
- kérogènes ( ) lemma=kérogène 
+ kérogènes ( ) 
  kérosène ( ) 
- kérosènes ( ) lemma=kérosène 
+ kérosènes ( ) 
  kérotracose ( ) 
- kérotracoses ( ) lemma=kérotracose 
+ kérotracoses ( ) 
  kéroub ( ) 
- kéroubs ( ) lemma=kéroub 
+ kéroubs ( ) 
  kérygme ( ) 
- kérygmes ( ) lemma=kérygme 
+ kérygmes ( ) 
  kétol ( ) 
- kétols ( ) lemma=kétol 
+ kétols ( ) 
  kévatron ( ) 
- kévatrons ( ) lemma=kévatron 
+ kévatrons ( ) 
  kûfique ( ) 
- kûfiques ( ) lemma=kûfique 
+ kûfiques ( ) 
+ kap ( ) lemma=okapi 
+ kage ( ) lemma=Skagen 
+ kass ( ) lemma=akassa 
+ kassa ( ) lemma=akassa 
+ kinésie ( ) lemma=akinésie 
+ kkadie ( ) lemma=akkadien 
+ kkadienn ( ) lemma=akkadien 
+ kkadienne ( ) lemma=akkadien 
+ kkadien ( ) lemma=akkadien 
+ k ( ) lemma=ski 
+ ko ( ) lemma=ako 
+ ksa ( ) lemma=aksak 
+ ksak ( ) lemma=aksak 
+ kvavi ( ) lemma=akvavit 
+ kvavit ( ) lemma=akvavit 
+ kèn ( ) lemma=akène 
+ kène ( ) lemma=akène 
+ kklesiasterio ( ) lemma=ekklesiasterion 
+ kklesiasterion ( ) lemma=ekklesiasterion 
+ ktachrom ( ) lemma=ektachrome 
+ ktachrome ( ) lemma=ektachrome 
+ keban ( ) lemma=ikebana 
+ kebana ( ) lemma=ikebana 
+ kilomètres-heure ( ) 
+ kapi ( ) lemma=okapi 
+ koum� ( ) lemma=okoumé 
+ koumé ( ) lemma=okoumé 
+ kaa ( ) lemma=skaal 
+ kaal ( ) lemma=skaal 
+ kald ( ) lemma=skalde 
+ kalde ( ) lemma=skalde 
+ kate-boar ( ) lemma=skate-board 
+ kate-board ( ) lemma=skate-board 
+ kateboar ( ) lemma=skateboard 
+ kateboard ( ) lemma=skateboard 
+ kateu ( ) lemma=skateur 
+ kateur ( ) lemma=skateur 
+ kateus ( ) lemma=skateur 
+ kateuse ( ) lemma=skateur 
+ katin ( ) lemma=skating 
+ kating ( ) lemma=skating 
+ kee ( ) lemma=skeet 
+ keet ( ) lemma=skeet 
+ keleto ( ) lemma=skeleton 
+ keleton ( ) lemma=skeleton 
+ ketc ( ) lemma=sketch 
+ ketche ( ) lemma=sketch 
+ ki-bo ( ) lemma=ski-bob 
+ ki-bob ( ) lemma=ski-bob 
+ ki ( ) lemma=ski 
+ kiabl ( ) lemma=skiable 
+ kiable ( ) lemma=skiable 
+ kiagraphi ( ) lemma=skiagraphie 
+ kiagraphie ( ) lemma=skiagraphie 
+ kia ( ) lemma=skier 
+ kiaien ( ) lemma=skier 
+ kiai ( ) lemma=skier 
+ kian ( ) lemma=skier 
+ kiascopi ( ) lemma=skiascopie 
+ kiascopie ( ) lemma=skiascopie 
+ kiass ( ) lemma=skier 
+ kiassen ( ) lemma=skier 
+ kiasse ( ) lemma=skier 
+ kiassie ( ) lemma=skier 
+ kiassion ( ) lemma=skier 
+ kiatro ( ) lemma=skiatron 
+ kiatron ( ) lemma=skiatron 
+ kido ( ) lemma=skidoo 
+ kidoo ( ) lemma=skidoo 
+ kien ( ) lemma=skier 
+ kie ( ) lemma=skier 
+ kier ( ) lemma=skier 
+ kiera ( ) lemma=skier 
+ kieraien ( ) lemma=skier 
+ kierai ( ) lemma=skier 
+ kiere ( ) lemma=skier 
+ kierie ( ) lemma=skier 
+ kierion ( ) lemma=skier 
+ kieron ( ) lemma=skier 
+ kieu ( ) lemma=skieur 
+ kieur ( ) lemma=skieur 
+ kieus ( ) lemma=skieur 
+ kieuse ( ) lemma=skieur 
+ kiffeu ( ) lemma=skiffeur 
+ kiffeur ( ) lemma=skiffeur 
+ kiffeus ( ) lemma=skiffeur 
+ kiffeuse ( ) lemma=skiffeur 
+ kiff ( ) lemma=skiff 
+ kiie ( ) lemma=skier 
+ kiion ( ) lemma=skier 
+ kion ( ) lemma=skier 
+ kipp ( ) lemma=skipper 
+ kippaien ( ) lemma=skipper 
+ kippai ( ) lemma=skipper 
+ kippan ( ) lemma=skipper 
+ kippass ( ) lemma=skipper 
+ kippassen ( ) lemma=skipper 
+ kippasse ( ) lemma=skipper 
+ kippassie ( ) lemma=skipper 
+ kippassion ( ) lemma=skipper 
+ kippen ( ) lemma=skipper 
+ kippe ( ) lemma=skipper 
+ kippera ( ) lemma=skipper 
+ kipperaien ( ) lemma=skipper 
+ kipperai ( ) lemma=skipper 
+ kippere ( ) lemma=skipper 
+ kipperie ( ) lemma=skipper 
+ kipperion ( ) lemma=skipper 
+ kipperon ( ) lemma=skipper 
+ kippie ( ) lemma=skipper 
+ kippion ( ) lemma=skipper 
+ kippon ( ) lemma=skipper 
+ kippâme ( ) lemma=skipper 
+ kippâ ( ) lemma=skipper 
+ kippâte ( ) lemma=skipper 
+ kippèren ( ) lemma=skipper 
+ kipp� ( ) lemma=skipper 
+ kippé ( ) lemma=skipper 
+ kippée ( ) lemma=skipper 
+ kiâme ( ) lemma=skier 
+ kiâ ( ) lemma=skier 
+ kiâte ( ) lemma=skier 
+ kièren ( ) lemma=skier 
+ ki� ( ) lemma=skier 
+ kié ( ) lemma=skier 
+ kiée ( ) lemma=skier 
+ kunk ( ) lemma=skunks 
+ kye-terrie ( ) lemma=skye-terrier 
+ kye-terrier ( ) lemma=skye-terrier 
+ kénit ( ) lemma=skénite 
+ kénite ( ) lemma=skénite 
+ kase ( ) lemma=ukase 
+ krainie ( ) lemma=ukrainien 
+ krainienn ( ) lemma=ukrainien 
+ krainienne ( ) lemma=ukrainien 
+ krainien ( ) lemma=ukrainien 
+ kulél� ( ) lemma=ukulélé 
+ kulélé ( ) lemma=ukulélé 

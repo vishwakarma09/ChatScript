@@ -354,9 +354,25 @@ bool SpellCheckSentence()
 	for (int i = startWord; i <= wordCount; ++i)
 	{
 		char* word = wordStarts[i];
+		char* tokens[2];
+
+		// change any \ to /
+		char newword[MAX_WORD_SIZE];
+		bool altered = false;
+		if (strlen(word) < MAX_WORD_SIZE)
+		{
+			strcpy(newword, word);
+			char* at = newword;
+			while ((at = strchr(at,'\\')))
+			{
+				*at = '/';
+				altered = true;
+			}
+			if (altered) word = wordStarts[i] = StoreWord(newword, AS_IS)->word;
+		}
+
 		if (*word == '\'' && !word[1] && i != startWord && IsDigit(*wordStarts[i - 1]) && !stricmp(language, "english")) // fails if not digit bug
 		{
-			char* tokens[2];
 			tokens[1] = (char*)"foot";
 			ReplaceWords("' as feet", i, 1, 1, tokens);
 			fixedSpell = true;
@@ -364,7 +380,6 @@ bool SpellCheckSentence()
 		}
 		if (*word == '"' && !word[1] && i != startWord && IsDigit(*wordStarts[i - 1]) && !stricmp(language, "english")) // fails if not digit bug
 		{
-			char* tokens[2];
 			tokens[1] = (char*)"inch";
 			ReplaceWords("' as feet", i, 1, 1, tokens);
 			fixedSpell = true;
@@ -376,7 +391,7 @@ bool SpellCheckSentence()
 		// dont spell check uppercase not at start or joined word
 		if (IsUpperCase(word[0]) && (i != startWord || strchr(word,'_')) && tokenControl & NO_PROPER_SPELLCHECK) continue; 
 		//  dont  spell check email or other things with @ or . in them
-		if (strchr(word,'@') || strchr(word,'.') || strchr(word,'$')) continue;
+		if (strchr(word,'@') || strchr(word, '&')  || strchr(word,'.') || strchr(word,'$')) continue;
 
 		// dont spell check names of json objects or arrays
 		if (!strnicmp(word,"ja-",3) || !strnicmp(word,"jo-",3)) continue;
@@ -536,6 +551,12 @@ bool SpellCheckSentence()
 
 		// break apart slashed pair like eat/feed
 		char* slash = strchr(word,'/');
+		if (slash && !slash[1] && len < MAX_WORD_SIZE) // remove trailing slash
+		{
+			strcpy(newword, word);
+			newword[slash - word] = 0;
+			word = wordStarts[i] = StoreWord(newword, AS_IS)->word;
+		}
 		if (slash && slash != word && slash[1]) //   break apart word/word
 		{
 			if ((wordCount + 2 ) >= REAL_SENTENCE_LIMIT) continue;	// no room
@@ -1223,12 +1244,12 @@ char* SpellFix(char* originalWord,int start,uint64 posflags)
     if (posflags == PART_OF_SPEECH && start < wordCount) // see if we can restrict word based on next word
     {
         D = FindWord(wordStarts[start+1],0,PRIMARY_CASE_ALLOWED);
-        uint64 flags = (D) ? D->properties : (-1); //   if we dont know the word, it could be anything
-        if (flags & PREPOSITION) pos &= -1 ^ (PREPOSITION|NOUN);   //   prep cannot be preceeded by noun or prep
-        if (!(flags & (PREPOSITION|VERB|CONJUNCTION|ADVERB)) && flags & DETERMINER) pos &= -1 ^ (DETERMINER|ADJECTIVE|NOUN|ADJECTIVE_NUMBER|NOUN_NUMBER); //   determiner cannot be preceeded by noun determiner adjective
-        if (!(flags & (PREPOSITION|VERB|CONJUNCTION|DETERMINER|ADVERB)) && flags & ADJECTIVE) pos &= -1 ^ (NOUN); 
-        if (!(flags & (PREPOSITION|NOUN|CONJUNCTION|DETERMINER|ADVERB|ADJECTIVE)) && flags & VERB) pos &= -1 ^ (VERB); //   we know all helper verbs we might be
-        if (D && *D->word == '\'' && D->word[1] == 's' ) pos &= NOUN;    //   we can only be a noun if possessive - contracted 's should already be removed by now
+		uint64 flags = (D) ? D->properties : (-1ull); //   if we dont know the word, it could be anything
+		if ((flags & PART_OF_SPEECH) == PREPOSITION) pos &= -1 ^ (PREPOSITION | NOUN);   //   prep cannot be preceeded by noun or prep
+		if (!(flags & (PREPOSITION | VERB | CONJUNCTION | ADVERB)) && flags & DETERMINER) pos &= -1 ^ (DETERMINER | ADJECTIVE | NOUN | ADJECTIVE_NUMBER | NOUN_NUMBER); //   determiner cannot be preceeded by noun determiner adjective
+		if (!(flags & (PREPOSITION | VERB | CONJUNCTION | DETERMINER | ADVERB)) && flags & ADJECTIVE) pos &= -1 ^ (NOUN);
+		if (!(flags & (PREPOSITION | NOUN | CONJUNCTION | DETERMINER | ADVERB | ADJECTIVE)) && flags & VERB) pos &= -1 ^ (VERB); //   we know all helper verbs we might be
+		if (D && *D->word == '\'' && D->word[1] == 's' ) pos &= NOUN;    //   we can only be a noun if possessive - contracted 's should already be removed by now
     }
     if (posflags == PART_OF_SPEECH && start > 1)
     {

@@ -1846,7 +1846,7 @@
     tread~3nz (^contact~3) the part that makes contact with the ground
     tread~4nz (^surface~2) the grooved surface of a pneumatic tire
     tread~5vz brace by pressing the foot against the center
-    tread~6vz mate with
+    tread~6vz (^copulate~1) mate with
     tread~7vz crush as if by treading on
     trample~4v 
     step~16v 
@@ -2966,7 +2966,7 @@
     take_away~1v 
     take~5vz ascertain or determine by measuring, computing or take a reading from a dial
     assume~2v 
-    take~7vz be seized or affected in a specified way
+    take~7vz (^become~1) be seized or affected in a specified way
     study~11v 
     read~5v 
     submit~1vz accept or undergo, often unwillingly
@@ -2979,7 +2979,7 @@
     aim~11v 
     have~7v 
     get_hold_of~3vz get into one's hands, take physically
-    take~20vz travel or go by means of a certain kind of transportation, or a certain route
+    take~20vz (^have_intercourse~1) travel or go by means of a certain kind of transportation, or a certain route
     drive~26v 
     strike~21v 
     direct~23v 
@@ -8470,7 +8470,7 @@
     trigeminal_nerve~1n 
  tenth_cranial_nerve ( meanings=1 NOUN NOUN_SINGULAR ) 
     vagus~1n 
- tenth ( meanings=3 glosses=3 NOUN_ABSTRACT NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER ORDINAL KINDERGARTEN QUANTITY_NOUN ) 
+ tenth ( meanings=3 glosses=3 NOUN_ABSTRACT NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER KINDERGARTEN ) 
     ten_percent~1nz (^common_fraction~1) a tenth part
     tenth~2nz (^rank~5) position ten in a countable series of things
     tenth~3az coming next after the ninth and just before the eleventh in position

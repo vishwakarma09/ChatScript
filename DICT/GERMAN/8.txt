@@ -1,35 +1,30 @@
-﻿ 8 ( ) 
- 8,0-Prozent-Bundesobligationen ( ) lemma=8,0-Prozent-Bundesobligation 
- 8,0-Prozent-Bundesobligation ( ) 
+﻿ 8 ( ) lemma=Z80 
+ 8,0-Prozent-Bundesobligationen ( ) 
  8,01 ( ) 
  8,2 ( ) 
  8,21 ( ) 
- 8,25-Prozent-Obligationen ( ) lemma=8,25-Prozent-Obligation 
- 8,25-Prozent-Obligation ( ) 
+ 8,25-Prozent-Obligationen ( ) 
  8,49 ( ) 
  8,5 ( ) 
  8,5-Milliarden-Mark-Projekt ( ) 
- 8,5-Prozent-Bundesobligationen ( ) lemma=8,5-Prozent-Bundesobligation 
- 8,5-Prozent-Bundesobligation ( ) 
+ 8,5-Prozent-Bundesobligationen ( ) 
  8,5-Prozent-Einheitsanleihe ( ) 
  8,5:17,5-Niederlage ( ) 
- 8- ( ) 
+ 8- ( ) lemma=98-A 
  8-Ball ( ) 
  8-Film ( ) 
- 8-Filmen ( ) lemma=8-Film 
+ 8-Filmen ( ) 
  8-Kamera ( ) 
  8-Millimeter- ( ) 
  8-Millionen- ( ) 
  8-Millionen-Dollar-Falle ( ) 
  8-Punkte-Plan ( ) 
  8-Stunden- ( ) 
- 8-Trasse ( ) lemma=8-trasse 
- 8-trasse ( ) 
+ 8-Trasse ( ) 
  8-Uhr ( ) 
  8-Umgehung ( ) 
  8-Westumgehung ( ) 
- 8-Zellen ( ) lemma=8-Zelle 
- 8-Zelle ( ) 
+ 8-Zellen ( ) 
  8-m-Spiegel ( ) 
  8-mm- ( ) 
  8.00 ( ) 
@@ -37,39 +32,38 @@
  8.000er- ( ) 
  8.15 ( ) 
  8/0 ( ) 
- 8/1 ( ) 
+ 8/1 ( ) lemma=28/17 
  8/100 ( ) 
- 8/15 ( ) 
+ 8/15 ( ) lemma=08/15- 
  8/1872 ( ) 
  8/1990 ( ) 
- 8/2 ( ) 
- 8/3 ( ) 
- 8/4 ( ) 
+ 8/2 ( ) lemma=28/29 
+ 8/3 ( ) lemma=38/39 
+ 8/4 ( ) lemma=48/49 
  8/40 ( ) 
- 8/5 ( ) 
+ 8/5 ( ) lemma=58/59 
  8/57,74 ( ) 
  8/57,97 ( ) 
- 8/6 ( ) 
- 8/7 ( ) 
- 8/8 ( ) 
+ 8/6 ( ) lemma=68/69 
+ 8/7 ( ) lemma=78/79 
+ 8/8 ( ) lemma=88/89 
  8/87 ( ) 
  8/88 ( ) 
  8/89 ( ) 
- 8/9 ( ) 
+ 8/9 ( ) lemma=98/99 
  8/90 ( ) 
  8/91 ( ) 
  8/92 ( ) 
  8/93 ( ) 
- 80 ( ) 
+ 80 ( ) lemma=5800 
  80- ( ) 
  80-Anlage ( ) 
  80-Jahr-Feier ( ) 
  80-Kilometer-Radius ( ) 
- 80-Liter-Gefässe ( ) lemma=80-Liter-Gefäß 
- 80-Liter-Gefäß ( ) 
- 80-Liter-Gefäße ( ) lemma=80-Liter-Gefäß 
+ 80-Liter-Gefässe ( ) 
+ 80-Liter-Gefäße ( ) 
  80-Liter-Tonne ( ) 
- 80-Liter-Tonnen ( ) lemma=80-Liter-Tonne 
+ 80-Liter-Tonnen ( ) 
  80-Millionen- ( ) 
  80-Millionen-Mark-Projekt ( ) 
  80-Millionen-Projekt ( ) 
@@ -90,25 +84,22 @@
  80-Teiler ( ) 
  80-Trainer ( ) 
  80-Zentimeter-Becken ( ) 
- 80-jährige ( ) lemma=80-jährig 
- 80-jährig ( ) 
- 80-jährigen ( ) lemma=80-jährig 
+ 80-jährige ( ) 
+ 80-jährigen ( ) 
  80-kg-Mann ( ) 
  80.000-Einwohner-Stadt ( ) 
  80/100 ( ) 
  80/81 ( ) 
- 800 ( ) 
+ 800 ( ) lemma=68000 
  800- ( ) 
  800-Betten-Klinik ( ) 
  800-Jahr-Feier ( ) 
  800-Jahr-Jubiläum ( ) 
- 800-Jahre ( ) lemma=800-Jahr 
- 800-Jahr ( ) 
+ 800-Jahre ( ) 
  800-Jahrfeier ( ) 
  800-Mark-Programm ( ) 
  800-Mark-Spende ( ) 
- 800-Megawatt-Blöcke ( ) lemma=800-Megawatt-Block 
- 800-Megawatt-Block ( ) 
+ 800-Megawatt-Blöcke ( ) 
  800-Meter ( ) 
  800-Meter- ( ) 
  800-Meter-Lauf ( ) 
@@ -135,58 +126,49 @@
  8000-Seelen-Gemeinde ( ) 
  80000 ( ) 
  800000-Mark-Zuschuss ( ) 
- 800000-Mark-Zuschuß ( ) lemma=800000-Mark-Zuschuss 
+ 800000-Mark-Zuschuß ( ) 
  8000er ( ) 
  8000er-Grenze ( ) 
  800er ( ) 
- 800jährige ( ) lemma=800jährig 
- 800jährig ( ) 
- 800jährigen ( ) lemma=800jährig 
- 800jähriges ( ) lemma=800jährig 
+ 800jährige ( ) 
+ 800jährigen ( ) 
+ 800jähriges ( ) 
  805/91 ( ) 
  809/92 ( ) 
  80er ( ) 
- 80er-Jahre ( ) lemma=80er-Jahr 
- 80er-Jahr ( ) 
+ 80er-Jahre ( ) 
  80er-Jahre- ( ) 
- 80er-Jahren ( ) lemma=80er-Jahr 
- 80ern ( ) lemma=80er 
- 80fachen ( ) lemma=80fach 
- 80fach ( ) 
+ 80er-Jahren ( ) 
+ 80ern ( ) 
+ 80fachen ( ) 
  80jährig ( ) 
- 80jährige ( ) lemma=80jährig 
- 80jährigen ( ) lemma=80jährig 
- 80jähriger ( ) lemma=80jährig 
- 80jähriges ( ) lemma=80jährig 
- 80köpfige ( ) lemma=80köpfig 
- 80köpfig ( ) 
- 80köpfigen ( ) lemma=80köpfig 
- 80prozentige ( ) lemma=80prozentig 
- 80prozentig ( ) 
- 80prozentigen ( ) lemma=80prozentig 
- 80prozentiger ( ) lemma=80prozentig 
- 80stündigen ( ) lemma=80stündig 
- 80stündig ( ) 
- 80stündiges ( ) lemma=80stündig 
- 80tägiger ( ) lemma=80tägig 
- 80tägig ( ) 
+ 80jährige ( ) 
+ 80jährigen ( ) 
+ 80jähriger ( ) 
+ 80jähriges ( ) 
+ 80köpfige ( ) lemma=180köpfig 
+ 80köpfigen ( ) 
+ 80prozentige ( ) 
+ 80prozentigen ( ) 
+ 80prozentiger ( ) 
+ 80stündigen ( ) 
+ 80stündiges ( ) 
+ 80tägiger ( ) 
  81,6- ( ) 
  81/1 ( ) 
  81/2 ( ) 
- 81/4 ( ) 
+ 81/4 ( ) lemma=181/46 
  81/80 ( ) 
  81/82 ( ) 
  81/83 ( ) 
  8192 ( ) 
  81er ( ) 
  81jährig ( ) 
- 81jährige ( ) lemma=81jährig 
- 81jährigen ( ) lemma=81jährig 
- 81jähriger ( ) lemma=81jährig 
- 81köpfige ( ) lemma=81köpfig 
- 81köpfig ( ) 
- 81malige ( ) lemma=81malig 
- 81malig ( ) 
+ 81jährige ( ) 
+ 81jährigen ( ) 
+ 81jähriger ( ) 
+ 81köpfige ( ) 
+ 81malige ( ) 
  82-kg-Klasse ( ) 
  82/83 ( ) 
  82/84 ( ) 
@@ -196,12 +178,11 @@
  826er ( ) 
  82er ( ) 
  82jährig ( ) 
- 82jährige ( ) lemma=82jährig 
- 82jährigen ( ) lemma=82jährig 
- 82jähriger ( ) lemma=82jährig 
+ 82jährige ( ) 
+ 82jährigen ( ) 
+ 82jähriger ( ) 
  83 ( ) 
- 83-jährigen ( ) lemma=83-jährig 
- 83-jährig ( ) 
+ 83-jährigen ( ) 
  83/66 ( ) 
  83/82 ( ) 
  83/84 ( ) 
@@ -210,17 +191,16 @@
  83/89 ( ) 
  83er ( ) 
  83jährig ( ) 
- 83jährige ( ) lemma=83jährig 
- 83jährigen ( ) lemma=83jährig 
- 83jähriger ( ) lemma=83jährig 
- 84 ( ) 
+ 83jährige ( ) 
+ 83jährigen ( ) 
+ 83jähriger ( ) 
+ 84 ( ) lemma=1844 
  84/1 ( ) 
  84/75 ( ) 
  84/85 ( ) 
  84/91 ( ) 
  84000-Einwohner-Stadt ( ) 
- 840maligen ( ) lemma=840malig 
- 840malig ( ) 
+ 840maligen ( ) 
  8412 ( ) 
  844/91 ( ) 
  849-Millionen-Mark-Etat ( ) 
@@ -228,11 +208,11 @@
  84:91-Heimniederlage ( ) 
  84er ( ) 
  84jährig ( ) 
- 84jährige ( ) lemma=84jährig 
- 84jährigen ( ) lemma=84jährig 
- 84jähriger ( ) lemma=84jährig 
- 84jähriges ( ) lemma=84jährig 
- 85 ( ) 
+ 84jährige ( ) 
+ 84jährigen ( ) 
+ 84jähriger ( ) 
+ 84jähriges ( ) 
+ 85 ( ) lemma=1854 
  85- ( ) 
  85/86 ( ) 
  85/89 ( ) 
@@ -241,23 +221,21 @@
  850 ( ) 
  850-Jahr-Feier ( ) 
  850-Jahr-Jubiläum ( ) 
- 850-Jahr-Jubiläums ( ) lemma=850-Jahr-Jubiläum 
+ 850-Jahr-Jubiläums ( ) 
  850-Millionen- ( ) 
  850/88 ( ) 
  850er ( ) 
- 850jährige ( ) lemma=850jährig 
- 850jährig ( ) 
- 850jährigen ( ) lemma=850jährig 
+ 850jährige ( ) 
+ 850jährigen ( ) 
  85er ( ) 
  85jährig ( ) 
- 85jährige ( ) lemma=85jährig 
- 85jährigen ( ) lemma=85jährig 
- 85jähriger ( ) lemma=85jährig 
- 85jähriges ( ) lemma=85jährig 
- 86 ( ) 
+ 85jährige ( ) 
+ 85jährigen ( ) 
+ 85jähriger ( ) 
+ 85jähriges ( ) 
+ 86 ( ) lemma=1866 
  86,8 ( ) 
- 86-Bands ( ) lemma=86-Band 
- 86-Band ( ) 
+ 86-Bands ( ) 
  86-Kilo-Mann ( ) 
  86-Teiler ( ) 
  86/1 ( ) 
@@ -266,9 +244,9 @@
  86:83-Sieg ( ) 
  86er ( ) 
  86jährig ( ) 
- 86jährige ( ) lemma=86jährig 
- 86jährigen ( ) lemma=86jährig 
- 86jähriger ( ) lemma=86jährig 
+ 86jährige ( ) 
+ 86jährigen ( ) 
+ 86jähriger ( ) 
  87. ( ) 
  87/2 ( ) 
  87/87 ( ) 
@@ -281,10 +259,10 @@
  87:90-Niederlage ( ) 
  87er ( ) 
  87jährig ( ) 
- 87jährige ( ) lemma=87jährig 
- 87jährigen ( ) lemma=87jährig 
- 87jähriger ( ) lemma=87jährig 
- 88 ( ) 
+ 87jährige ( ) 
+ 87jährigen ( ) 
+ 87jähriger ( ) 
+ 88 ( ) lemma=1887 
  88-Fieber ( ) 
  88-Geschehnisraum ( ) 
  88-mässig ( ) 
@@ -294,68 +272,343 @@
  881 ( ) 
  885/92 ( ) 
  88er ( ) 
- 88er-Bescheids ( ) lemma=88er-Bescheid 
- 88er-Bescheid ( ) 
- 88fache ( ) lemma=88fach 
- 88fach ( ) 
- 88fachen ( ) lemma=88fach 
+ 88er-Bescheids ( ) 
+ 88fache ( ) 
+ 88fachen ( ) 
  88jährig ( ) 
- 88jährige ( ) lemma=88jährig 
- 88jährigen ( ) lemma=88jährig 
- 88jähriger ( ) lemma=88jährig 
- 88köpfigen ( ) lemma=88köpfig 
- 88köpfig ( ) 
- 89 ( ) 
+ 88jährige ( ) 
+ 88jährigen ( ) 
+ 88jähriger ( ) 
+ 88köpfigen ( ) 
+ 89 ( ) lemma=1897 
  89/90 ( ) 
  89/91 ( ) 
  89/92 ( ) 
  89er ( ) 
  89er-Wende ( ) 
  89jährig ( ) 
- 89jährige ( ) lemma=89jährig 
- 89jährigen ( ) lemma=89jährig 
- 89jähriger ( ) lemma=89jährig 
+ 89jährige ( ) 
+ 89jährigen ( ) 
+ 89jähriger ( ) 
  8:0-Erfolg ( ) 
- 8:0-Punkte ( ) lemma=8:0-Punkt 
- 8:0-Punkt ( ) 
- 8:0-Punkten ( ) lemma=8:0-Punkt 
+ 8:0-Punkte ( ) 
+ 8:0-Punkten ( ) 
  8:0-Sieg ( ) 
  8:0-Zähler ( ) 
  8:1-Erfolg ( ) 
  8:1-Sieg ( ) 
- 8:1-Tore ( ) lemma=8:1-Tor 
- 8:1-Tor ( ) 
- 8:10-Punkten ( ) lemma=8:10-Punkt 
- 8:10-Punkt ( ) 
+ 8:1-Tore ( ) 
+ 8:10-Punkten ( ) 
  8:2-Erfolg ( ) 
- 8:2-Punkte ( ) lemma=8:2-Punkt 
- 8:2-Punkt ( ) 
- 8:2-Punkten ( ) lemma=8:2-Punkt 
+ 8:2-Punkte ( ) lemma=18:2-Punkt 
+ 8:2-Punkten ( ) 
  8:2-Sieg ( ) 
- 8:2-Tore ( ) lemma=8:2-Tor 
- 8:2-Tor ( ) 
+ 8:2-Tore ( ) 
  8:3-Erfolg ( ) 
  8:3-Führung ( ) 
  8:3-Sieg ( ) 
  8:4-Erfolg ( ) 
- 8:4-Punkte ( ) lemma=8:4-Punkt 
- 8:4-Punkt ( ) 
+ 8:4-Punkte ( ) lemma=18:4-Punkt 
  8:4-Zähler ( ) 
- 8:4-Zählern ( ) lemma=8:4-Zähler 
+ 8:4-Zählern ( ) 
  8:5-Führung ( ) 
  8:6-Sieg ( ) 
- 8:7-Stimmen ( ) lemma=8:7-Stimme 
- 8:7-Stimme ( ) 
- 8:8-Punkte ( ) lemma=8:8-Punkt 
- 8:8-Punkt ( ) 
+ 8:7-Stimmen ( ) 
+ 8:8-Punkte ( ) 
  8:8-Unentschieden ( ) 
- 8er ( ) 
+ 8er ( ) lemma=98er 
  8er-Ball ( ) 
  8er-Reihe ( ) 
- 8jährige ( ) lemma=8jährig 
- 8jährig ( ) 
- 8jährigen ( ) lemma=8jährig 
- 8jähriger ( ) lemma=8jährig 
- 8jähriges ( ) lemma=8jährig 
- 8prozentige ( ) lemma=8prozentig 
- 8prozentig ( ) 
+ 8jährige ( ) lemma=88jährig 
+ 8jährigen ( ) 
+ 8jähriger ( ) 
+ 8jähriges ( ) 
+ 8prozentige ( ) lemma=98prozentig 
+ 8-15-Ba ( ) lemma=08-15-Bau 
+ 8/15-Analys ( ) lemma=08/15-Analyse 
+ 8137/66 ( ) lemma=08137/661 
+ 8168/180 ( ) lemma=08168/1802 
+ 8285/41 ( ) lemma=08285/418 
+ 8402/153 ( ) lemma=08402/1538 
+ 841/1922 ( ) lemma=0841/19222 
+ 841/30911 ( ) lemma=0841/309114 
+ 841/6228 ( ) lemma=0841/62284 
+ 841/9343 ( ) lemma=0841/93430 
+ 8441/1970 ( ) lemma=08441/19709 
+ 8441/2714 ( ) lemma=08441/27142 
+ 8441/302 ( ) lemma=08441/3021 
+ 8441/373 ( ) lemma=08441/3733 
+ 8441/550 ( ) lemma=08441/5500 
+ 8441/601 ( ) lemma=08441/6016 
+ 8441/681 ( ) lemma=08441/6815 
+ 8441/7123 ( ) lemma=08441/71233 
+ 8442/204 ( ) lemma=08442/2044 
+ 8442/219 ( ) lemma=08442/2194 
+ 8442/255 ( ) lemma=08442/2555 
+ 8442/293 ( ) lemma=08442/2937 
+ 8442/305 ( ) lemma=08442/3058 
+ 8442/319 ( ) lemma=08442/3199 
+ 8442/348 ( ) lemma=08442/3488 
+ 8442/358 ( ) lemma=08442/3587 
+ 8442/434 ( ) lemma=08442/4345 
+ 8442/453 ( ) lemma=08442/4538 
+ 8442/653 ( ) lemma=08442/6530 
+ 8444/61 ( ) lemma=08444/612 
+ 8444/727 ( ) lemma=08444/7271 
+ 8452/11 ( ) lemma=08452/112 
+ 8452/1922 ( ) lemma=08452/19222 
+ 8452/203 ( ) lemma=08452/2031 
+ 8452/255 ( ) lemma=08452/2558 
+ 8452/39 ( ) lemma=08452/394 
+ 8452/49 ( ) lemma=08452/494 
+ 8452/720 ( ) lemma=08452/7200 
+ 8452/808 ( ) lemma=08452/8080 
+ 8452/818 ( ) lemma=08452/8181 
+ 8452/854 ( ) lemma=08452/8545 
+ 8459/96 ( ) lemma=08459/964 
+ 89/18585 ( ) lemma=089/185858 
+ 89/430161 ( ) lemma=089/4301616 
+ 89/77774 ( ) lemma=089/777744 
+ 89/78409 ( ) lemma=089/784096 
+ 89/85104 ( ) lemma=089/851043 
+ 89/9 ( ) lemma=089/95 
+ 8e ( ) lemma=98er 
+ 8, ( ) lemma=58,5 
+ 8,9-Millionen-Mark-Projek ( ) lemma=18,9-Millionen-Mark-Projekt 
+ 8-Familien-Hau ( ) lemma=18-Familien-Haus 
+ 8-Gang-Kettenschaltun ( ) lemma=18-Gang-Kettenschaltung 
+ 8-Gang-Schaltun ( ) lemma=18-Gang-Schaltung 
+ 8-Kampfflugzeug ( ) lemma=18-Kampfflugzeug 
+ 8-Loch ( ) lemma=18-Loch- 
+ 8-Loch-Anlag ( ) lemma=18-Loch-Anlage 
+ 8-Loch-Golfanlag ( ) lemma=18-Loch-Golfanlage 
+ 8-Loch-Golfplat ( ) lemma=18-Loch-Golfplatz 
+ 8-Loch-Plat ( ) lemma=18-Loch-Platz 
+ 8-Loch-Plätz ( ) lemma=18-Loch-Platz 
+ 8-Meter-Schus ( ) lemma=18-Meter-Schuss 
+ 8-Meter-Schu� ( ) lemma=18-Meter-Schuss 
+ 8-Millionen-Metropol ( ) lemma=18-Millionen-Metropole 
+ 8-Nationen-Turnier ( ) lemma=18-Nationen-Turnier 
+ 8-Punkte-Pla ( ) lemma=18-Punkte-Plan 
+ 8-Stunden-Ta ( ) lemma=18-Stunden-Tag 
+ 8-Teile ( ) lemma=68-Teiler 
+ 8-Uhr-Gottesdiens ( ) lemma=18-Uhr-Gottesdienst 
+ 8-Uhr-Vorstellun ( ) lemma=18-Uhr-Vorstellung 
+ 8-Wes ( ) lemma=18-West 
+ 8-Wettbewer ( ) lemma=18-Wettbewerb 
+ 8-jährig ( ) lemma=68-jährig 
+ 8-jährige ( ) lemma=38-jährig 
+ 8-m-Flachschus ( ) lemma=18-m-Flachschuss 
+ 8-m-Flachschu� ( ) lemma=18-m-Flachschuss 
+ 8-m-Freistos ( ) lemma=18-m-Freistoß 
+ 8-m-Freisto� ( ) lemma=18-m-Freistoß 
+ 8-m-Schus ( ) lemma=18-m-Schuss 
+ 8-m-Schu� ( ) lemma=18-m-Schuss 
+ 8-monatige ( ) lemma=18-monatig 
+ 8-stündige ( ) lemma=18-stündig 
+ 8.000-Einwohner ( ) lemma=18.000-Einwohner- 
+ 8.000-Pfund ( ) lemma=18.000-Pfund- 
+ 80-Grad ( ) lemma=180-Grad- 
+ 80-Grad-Drehun ( ) lemma=180-Grad-Drehung 
+ 80-Grad-Wend ( ) lemma=180-Grad-Wende 
+ 80-Grad-Wendun ( ) lemma=180-Grad-Wendung 
+ 80-Meter-Schanz ( ) lemma=180-Meter-Schanze 
+ 80-Mikrogramm-Schwell ( ) lemma=180-Mikrogramm-Schwelle 
+ 80-Minuten-Regelun ( ) lemma=180-Minuten-Regelung 
+ 80.000-Einwohner-Stad ( ) lemma=280.000-Einwohner-Stadt 
+ 800-Einwohner-Stadttei ( ) lemma=1800-Einwohner-Stadtteil 
+ 800/190 ( ) lemma=1800/1900 
+ 8000-Einwohner-Kommun ( ) lemma=38000-Einwohner-Kommune 
+ 8000-Einwohner-Stad ( ) lemma=28000-Einwohner-Stadt 
+ 802/9 ( ) lemma=1802/91 
+ 80e ( ) lemma=180er 
+ 81 ( ) lemma=1810 
+ 811e ( ) lemma=1811er 
+ 812/1 ( ) lemma=1812/13 
+ 814/1 ( ) lemma=1814/15 
+ 817/181 ( ) lemma=1817/1818 
+ 820/2 ( ) lemma=1820/21 
+ 822-Festiva ( ) lemma=1822-Festival 
+ 822-Jaz ( ) lemma=1822-Jazz 
+ 822-Jazz-Konzer ( ) lemma=1822-Jazz-Konzert 
+ 822-Rock-Festiva ( ) lemma=1822-Rock-Festival 
+ 822-Rock-Festival ( ) lemma=1822-Rock-Festival 
+ 822-Rockfestiva ( ) lemma=1822-Rockfestival 
+ 822-Rockfestival ( ) lemma=1822-Rockfestival 
+ 827/8 ( ) lemma=1827/89 
+ 828/2 ( ) lemma=1828/29 
+ 830e ( ) lemma=1830er 
+ 830er ( ) lemma=1830er 
+ 833/3 ( ) lemma=1833/34 
+ 841/4 ( ) lemma=1841/42 
+ 847/8 ( ) lemma=1847/89 
+ 848/4 ( ) lemma=1848/49 
+ 848e ( ) lemma=1848er 
+ 848er-Revolutio ( ) lemma=1848er-Revolution 
+ 85/54/ ( ) lemma=185/54/4 
+ 85/72/ ( ) lemma=185/72/4 
+ 850/0 ( ) lemma=1850/09 
+ 8500-Einwohner-Stad ( ) lemma=18500-Einwohner-Stadt 
+ 8500-Einwohner-Städtche ( ) lemma=18500-Einwohner-Städtchen 
+ 856/5 ( ) lemma=1856/57 
+ 857/9 ( ) lemma=1857/91 
+ 860-Fanclu ( ) lemma=1860-Fanclub 
+ 860e ( ) lemma=1860er 
+ 862/6 ( ) lemma=1862/63 
+ 870/7 ( ) lemma=1870/71 
+ 872 ( ) lemma=18724 
+ 87 ( ) lemma=1879 
+ 873/8 ( ) lemma=1873/89 
+ 8776/9 ( ) lemma=18776/91 
+ 878-Erfolg ( ) lemma=1878-Erfolg 
+ 879/192 ( ) lemma=1879/1920 
+ 87malig ( ) lemma=187malig 
+ 880e ( ) lemma=1880er 
+ 884/8 ( ) lemma=1884/85 
+ 890 ( ) lemma=1890- 
+ 890e ( ) lemma=1890er 
+ 893/9 ( ) lemma=1893/91 
+ 895/0 ( ) lemma=1895/07 
+ 895/9 ( ) lemma=1895/96 
+ 896/9 ( ) lemma=1896/97 
+ 899/190 ( ) lemma=1899/1900 
+ 8:0-Punkt ( ) lemma=18:0-Punkt 
+ 8:14-Sie ( ) lemma=18:14-Sieg 
+ 8:15-Heimsie ( ) lemma=18:15-Heimsieg 
+ 8:17-Sie ( ) lemma=18:17-Sieg 
+ 8:19-Niederlag ( ) lemma=18:19-Niederlage 
+ 8:2-Punkt ( ) lemma=38:2-Punkt 
+ 8:2-Tor ( ) lemma=18:2-Tor 
+ 8:7-Heimsie ( ) lemma=18:7-Heimsieg 
+ 8a-Verfahre ( ) lemma=18a-Verfahren 
+ 8er-Fel ( ) lemma=18er-Feld 
+ 8er-Kade ( ) lemma=18er-Kader 
+ 8fach ( ) lemma=88fach 
+ 8fache ( ) lemma=88fach 
+ 8jähri ( ) lemma=88jährig 
+ 8jährig ( ) lemma=88jährig 
+ 8karätige ( ) lemma=18karätig 
+ 8köpfig ( ) lemma=28köpfig 
+ 8köpfige ( ) lemma=88köpfig 
+ 8malige ( ) lemma=18malig 
+ 8monatig ( ) lemma=18monatig 
+ 8monatige ( ) lemma=18monatig 
+ 8stöckige ( ) lemma=28stöckig 
+ 8stündige ( ) lemma=48stündig 
+ 8teilige ( ) lemma=18teilig 
+ 8,8-Stunden-Woch ( ) lemma=28,8-Stunden-Woche 
+ 8-Mann-Kade ( ) lemma=28-Mann-Kader 
+ 8-Millionen-Mark-Projekte ( ) lemma=28-Millionen-Mark-Projekt 
+ 8-Mi ( ) lemma=28-Mio 
+ 8-Tonnen-Limi ( ) lemma=28-Tonnen-Limit 
+ 8-Tonnen-Regelun ( ) lemma=28-Tonnen-Regelung 
+ 8./29 ( ) lemma=28./29. 
+ 8/199 ( ) lemma=28/1991 
+ 8/29/3 ( ) lemma=28/29/30 
+ 8/ ( ) lemma=28/9 
+ 805/8 ( ) lemma=2805/89 
+ 86e ( ) lemma=486er 
+ 87/9 ( ) lemma=287/92 
+ 8prozentig ( ) lemma=98prozentig 
+ 8tägige ( ) lemma=28tägig 
+ 8,5-Stunde ( ) lemma=38,5-Stunden 
+ 8,5-Stunden-Woch ( ) lemma=38,5-Stunden-Woche 
+ 8-Stunden-Woch ( ) lemma=48-Stunden-Woche 
+ 80-Einwohner-Gemeind ( ) lemma=380-Einwohner-Gemeinde 
+ 80-KV-Leitun ( ) lemma=380-KV-Leitung 
+ 80-Kilovol ( ) lemma=380-Kilovolt 
+ 80-Kilovolt-Leitun ( ) lemma=380-Kilovolt-Leitung 
+ 80-Kilovolt-Trass ( ) lemma=380-Kilovolt-trasse 
+ 80-Ringe-Grenz ( ) lemma=380-Ringe-Grenze 
+ 80-Seelen-Gemeind ( ) lemma=380-Seelen-Gemeinde 
+ 80-kV-Stromtrass ( ) lemma=380-kV-Stromtrasse 
+ 81/38 ( ) lemma=381/380 
+ 81959/5 ( ) lemma=381959/50 
+ 85/38 ( ) lemma=385/387 
+ 89/38 ( ) lemma=389/386 
+ 8,0-Teile ( ) lemma=48,0-Teiler 
+ 8-Kilo-Klass ( ) lemma=48-Kilo-Klasse 
+ 8-Millionen-Kredi ( ) lemma=48-Millionen-Kredit 
+ 8-Stunde ( ) lemma=48-Stunden 
+ 8-Stunden ( ) lemma=48-Stunden- 
+ 8-Stunden-Fris ( ) lemma=48-Stunden-Frist 
+ 8-Stunden-Ultimatu ( ) lemma=48-Stunden-Ultimatum 
+ 8-kg-Klass ( ) lemma=48-kg-Klasse 
+ 8/198 ( ) lemma=48/1989 
+ 80-Mark-Basi ( ) lemma=480-Mark-Basis 
+ 80-Mark-Job ( ) lemma=480-Mark-Job 
+ 800-Kilowatt-Kraftpake ( ) lemma=4800-Kilowatt-Kraftpaket 
+ 800-Tonnen-Frachte ( ) lemma=4800-Tonnen-Frachter 
+ 86-Betten-Hau ( ) lemma=486-Betten-Haus 
+ 86er-Seri ( ) lemma=486er-Serie 
+ 8er-Revolutio ( ) lemma=68er-Revolution 
+ 8er-Revolutionä ( ) lemma=48er-Revolutionär 
+ 8stündig ( ) lemma=48stündig 
+ 8-Millionen-Mark-Brück ( ) lemma=58-Millionen-Mark-Brücke 
+ 84/8 ( ) lemma=584/89 
+ 87/8 ( ) lemma=587/87 
+ 8er-Bu ( ) lemma=58er-Bus 
+ 8er-Regelun ( ) lemma=58er-Regelung 
+ 8-Generatio ( ) lemma=68-Generation 
+ 8-Millionen-Mark-Projek ( ) lemma=68-Millionen-Mark-Projekt 
+ 84/9 ( ) lemma=684/92 
+ 8er-Aktivis ( ) lemma=68er-Aktivist 
+ 8er-Aktiviste ( ) lemma=68er-Aktivist 
+ 8er-Aufbruc ( ) lemma=68er-Aufbruch 
+ 8er-Bewegun ( ) lemma=68er-Bewegung 
+ 8er-Generatio ( ) lemma=68er-Generation 
+ 8er-Idee ( ) lemma=68er-Idee 
+ 8er-Invasio ( ) lemma=68er-Invasion 
+ 8er-Kollege ( ) lemma=68er-Kollege 
+ 8er-Lehre ( ) lemma=68er-Lehrer 
+ 8er-Linke ( ) lemma=68er-Linke 
+ 8er-Protest ( ) lemma=68er-Protest 
+ 8er-Pädagogi ( ) lemma=68er-Pädagogik 
+ 8er-Revolt ( ) lemma=68er-Revolte 
+ 8er-Rund ( ) lemma=78er-Runde 
+ 8er-Studentenbewegun ( ) lemma=68er-Studentenbewegung 
+ 8er-Studentenrevolt ( ) lemma=68er-Studentenrevolte 
+ 8er-Theme ( ) lemma=68er-Thema 
+ 8er-Utopie ( ) lemma=68er-Utopie 
+ 8er-Veterane ( ) lemma=68er-Veteran 
+ 8er-Zei ( ) lemma=68er-Zeit 
+ 8-Kilogramm-Kämpfe ( ) lemma=78-Kilogramm-Kämpfer 
+ 8-Quadratmeter-Wohnun ( ) lemma=78-Quadratmeter-Wohnung 
+ 8,0-Prozent-Bundesobligation ( ) 
+ 8,25-Prozent-Obligation ( ) 
+ 8,5-Prozent-Bundesobligation ( ) 
+ 8-trasse ( ) 
+ 8-Zelle ( ) 
+ 80-Liter-Gefäß ( ) 
+ 80-jährig ( ) 
+ 800-Jahr ( ) 
+ 800-Megawatt-Block ( ) 
+ 800jährig ( ) 
+ 80er-Jahr ( ) 
+ 80fach ( ) 
+ 80köpfig ( ) 
+ 80prozentig ( ) 
+ 80stündig ( ) 
+ 80tägig ( ) 
+ 81köpfig ( ) 
+ 81malig ( ) 
+ 83-jährig ( ) 
+ 840malig ( ) 
+ 850jährig ( ) 
+ 86-Band ( ) 
+ 8-Fiebe ( ) lemma=88-Fieber 
+ 8-Geschehnisrau ( ) lemma=88-Geschehnisraum 
+ 8-mässi ( ) lemma=88-mässig 
+ 8-mäßi ( ) lemma=88-mäßig 
+ 85/9 ( ) lemma=885/92 
+ 8er-Bescheid ( ) lemma=88er-Bescheid 
+ 88er-Bescheid ( ) 
+ 88fach ( ) 
+ 88köpfig ( ) 
+ 8:1-Tor ( ) 
+ 8:10-Punkt ( ) 
+ 8:4-Punkt ( ) 
+ 8:7-Stimme ( ) 
+ 8:8-Punkt ( ) 
+ 86/9 ( ) lemma=986/91 
+ 8-Motore ( ) lemma=V8-Motor 

@@ -5171,7 +5171,7 @@
     motor_fiber~1nz (^nerve_fiber~1) a nerve fiber that carries impulses toward the muscles or glands
  eighth_cranial_nerve ( meanings=1 NOUN NOUN_SINGULAR ) 
     acoustic_nerve~1n 
- eighth ( meanings=3 glosses=3 NOUN_ABSTRACT NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER ORDINAL KINDERGARTEN QUANTITY_NOUN ) 
+ eighth ( meanings=3 glosses=3 NOUN_ABSTRACT NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER KINDERGARTEN ) 
     one-eighth~1nz (^common_fraction~1) one part in eight equal parts
     eighth~2nz (^rank~5) position eight in a countable series of things
     eighth~3az coming next after the seventh and just before the ninth in position

@@ -1,10 +1,10 @@
-﻿ Z ( ) 
+﻿ Z ( ) lemma=IZL 
  ZCZC ( ) 
  ZKWA ( ) 
  ZKWZ ( ) 
  ZOK ( ) 
  ZS0 ( ) 
- ZSO ( ) lemma=ZS0 
+ ZSO ( ) 
  ZSU ( ) 
  ZYA ( ) 
  ZYC ( ) 
@@ -36,109 +36,182 @@
  Zulema ( ) 
  Zulia ( ) 
  z ( ) 
- zacatecana ( ) lemma=zacatecano 
+ zacatecana ( ) 
  zacatecano ( ) 
  zafiro-titanio ( ) 
  zaga ( ) 
  zaguero ( ) 
  zaguán ( ) 
  zaino ( ) 
- zambos ( ) lemma=zambo 
- zambo ( ) 
+ zambos ( ) 
  zamorano ( ) 
- zampando ( ) lemma=zampar 
+ zampando ( ) 
  zampar ( ) 
  zanahoria ( ) 
- zanahorias ( ) lemma=zanahoria 
+ zanahorias ( ) 
  zancada ( ) 
  zancadilla ( ) 
- zancadillas ( ) lemma=zancadilla 
+ zancadillas ( ) 
  zanco ( ) 
- zanja ( ) lemma=zanjar 
+ zanja ( ) 
+ zanjaba ( ) 
+ zanjada ( ) 
+ zanjadas ( ) 
+ zanjado ( ) 
+ zanjan ( ) 
  zanjar ( ) 
- zanjaba ( ) lemma=zanjar 
- zanjada ( ) lemma=zanjar 
- zanjadas ( ) lemma=zanjar 
- zanjado ( ) lemma=zanjar 
- zanjan ( ) lemma=zanjar 
- zanjas ( ) lemma=zanja 
- zanje ( ) lemma=zanjar 
- zanjen ( ) lemma=zanjar 
- zanjó ( ) lemma=zanjar 
+ zanjas ( ) 
+ zanje ( ) 
+ zanjen ( ) 
+ zanjó ( ) 
  zapata ( ) 
- zapateaba ( ) lemma=zapatear 
- zapatear ( ) 
+ zapateaba ( ) 
  zapatero ( ) 
  zapatería ( ) 
  zapatilla ( ) 
- zapatillas ( ) lemma=zapatilla 
+ zapatillas ( ) 
  zapatista ( ) 
- zapatistas ( ) lemma=zapatista 
+ zapatistas ( ) 
  zapato ( ) 
- zapatos ( ) lemma=zapato 
+ zapatos ( ) 
  zar ( ) 
  zarcero ( ) 
- zares ( ) lemma=zar 
- zarpado ( ) lemma=zarpar 
+ zares ( ) 
+ zarpado ( ) 
+ zarpan ( ) 
  zarpar ( ) 
- zarpan ( ) lemma=zarpar 
- zarparán ( ) lemma=zarpar 
- zarpen ( ) lemma=zarpar 
- zarpó ( ) lemma=zarpar 
+ zarparán ( ) 
+ zarpen ( ) 
+ zarpó ( ) 
  zarza ( ) 
  zarzamora ( ) 
  zarzuela ( ) 
- zarzuelas ( ) lemma=zarzuela 
- zas ( ) 
- zeolitas ( ) lemma=zeolita 
- zeolita ( ) 
+ zarzuelas ( ) 
+ zas ( ) lemma=Szasz 
+ zeolitas ( ) 
  zero ( ) 
- zig-zag ( ) lemma=zig 
- zig ( ) 
+ zig-zag ( ) 
  zigomicosis ( ) 
  zinc ( ) 
  zodiaco ( ) 
  zodíaco ( ) 
  zona ( ) 
  zonal ( ) 
- zonas ( ) lemma=zona 
+ zonas ( ) 
  zone ( ) 
  zoo ( ) 
  zooide ( ) 
  zoología ( ) 
  zoológico ( ) 
- zoológicos ( ) lemma=zoológico 
+ zoológicos ( ) 
  zoonosis ( ) 
  zooplancton ( ) 
  zooplanctónico ( ) 
- zoos ( ) lemma=zoo 
+ zoos ( ) 
  zoosanitario ( ) 
  zootécnico ( ) 
- zorra ( ) lemma=zorro 
+ zorra ( ) 
+ zorras ( ) 
  zorro ( ) 
- zorras ( ) lemma=zorro 
- zorros ( ) lemma=zorro 
+ zorros ( ) 
  zoster ( ) 
- zozobra ( ) lemma=zozobrar 
+ zozobra ( ) 
  zozobrar ( ) 
- zozobras ( ) lemma=zozobrar 
- zozobró ( ) lemma=zozobrar 
+ zozobras ( ) 
+ zozobró ( ) 
  zulú ( ) 
- zulúes ( ) lemma=zulú 
- zumaque ( ) lemma=zumacar 
- zumacar ( ) 
- zumaques ( ) lemma=zumacar 
+ zulúes ( ) 
+ zumaque ( ) 
+ zumaques ( ) 
  zumbido ( ) 
  zumo ( ) 
- zumos ( ) lemma=zumo 
+ zumos ( ) 
  zurcir ( ) 
- zurda ( ) lemma=zurdo 
- zurdo ( ) 
+ zurda ( ) 
  zurdería ( ) 
- zurdos ( ) lemma=zurdo 
- zurra ( ) lemma=zurrar 
- zurrar ( ) 
- zurró ( ) lemma=zurrar 
- zurzan ( ) lemma=zurcir 
+ zurdo ( ) 
+ zurdos ( ) 
+ zurra ( ) 
+ zurró ( ) 
+ zurzan ( ) 
  zócalo ( ) 
- zócalos ( ) lemma=zócalo 
+ zócalos ( ) 
+ zerbaiyá ( ) lemma=Azerbaiyán 
+ zna ( ) lemma=Aznar 
+ znu ( ) lemma=Eznus 
+ Z0 ( ) lemma=LZ02 
+ Z1 ( ) lemma=LZ12 
+ Z2 ( ) lemma=LZ29 
+ Z3 ( ) lemma=LZ30 
+ za ( ) lemma=izar 
+ zilar ( ) lemma=Szilard 
+ zaw ( ) lemma=Uzawa 
+ ztári ( ) lemma=Uztáriz 
+ zadone ( ) lemma=azadón 
+ zafat ( ) lemma=azafata 
+ zafata ( ) lemma=azafata 
+ zafrá ( ) lemma=azafrán 
+ zale ( ) lemma=azalea 
+ zalea ( ) lemma=azalea 
+ zare ( ) lemma=azar 
+ zaros ( ) lemma=azaroso 
+ zarosa ( ) lemma=azaroso 
+ zathioprin ( ) lemma=azathioprina 
+ zatioprin ( ) lemma=azatioprina 
+ zimu ( ) lemma=azimut 
+ zimuta ( ) lemma=azimutal 
+ zo ( ) lemma=azor 
+ zoospérmic ( ) lemma=azoospérmico 
+ zore ( ) lemma=azor 
+ zot ( ) lemma=azotar 
+ zotad ( ) lemma=azotar 
+ zotada ( ) lemma=azotar 
+ zotado ( ) lemma=azotar 
+ zota ( ) lemma=azotar 
+ zotaro ( ) lemma=azotar 
+ zote ( ) lemma=azote 
+ zotea ( ) lemma=azotea 
+ zot� ( ) lemma=azotar 
+ ztec ( ) lemma=azteca 
+ zteca ( ) lemma=azteca 
+ zucarad ( ) lemma=azucarar 
+ zucarada ( ) lemma=azucarar 
+ zucara ( ) lemma=azucarar 
+ zucarer ( ) lemma=azucarero 
+ zucarera ( ) lemma=azucarero 
+ zucarero ( ) lemma=azucarero 
+ zucen ( ) lemma=azucena 
+ zucena ( ) lemma=azucena 
+ zufr ( ) lemma=azufre 
+ zu ( ) lemma=azul 
+ zulad ( ) lemma=azulado 
+ zulado ( ) lemma=azulado 
+ zulejo ( ) lemma=azulejo 
+ zule ( ) lemma=azul 
+ zulgran ( ) lemma=azulgrano 
+ zuz ( ) lemma=azuzar 
+ zuzad ( ) lemma=azuzar 
+ zuzado ( ) lemma=azuzar 
+ zuza ( ) lemma=azuzar 
+ zzurr ( ) lemma=azzurri 
+ zúca ( ) lemma=azúcar 
+ zúcar-bas ( ) lemma=azúcar-base 
+ zúcar-fosfat ( ) lemma=azúcar-fosfato 
+ zúcare ( ) lemma=azúcar 
+ zad ( ) lemma=izar 
+ zamo ( ) lemma=izar 
+ zand ( ) lemma=izar 
+ zaro ( ) lemma=izar 
+ zquierd ( ) lemma=izquierdo 
+ zquierda ( ) lemma=izquierdo 
+ zquierdist ( ) lemma=izquierdista 
+ zquierdista ( ) lemma=izquierdista 
+ zquierdo ( ) lemma=izquierdo 
+ z� ( ) lemma=izar 
+ zon ( ) lemma=ozono 
+ zambo ( ) 
+ zapatear ( ) 
+ zeolita ( ) 
+ zig ( ) 
+ zumacar ( ) 
+ zurrar ( ) 

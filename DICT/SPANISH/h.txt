@@ -1,4 +1,4 @@
-﻿ H ( ) 
+﻿ H ( ) lemma=kHz 
  H.14 ( ) 
  H.15 ( ) 
  H.22 ( ) 
@@ -8,7 +8,7 @@
  H.41 ( ) 
  HATS ( ) 
  HDLC ( ) 
- HH ( ) 
+ HH ( ) lemma=HHHH 
  HHHH ( ) 
  HIC ( ) 
  HLO ( ) 
@@ -39,8 +39,7 @@
  Harsey ( ) 
  Harvey ( ) 
  Hassan ( ) 
- Hasta_ahora ( ) lemma=hasta~ahora 
- hasta~ahora ( ) 
+ Hasta ( ) 
  Hawai ( ) 
  Haworth ( ) 
  Haydée ( ) 
@@ -136,7 +135,7 @@
  Huffman ( ) 
  Hughes ( ) 
  Hugo ( ) 
- Huguito ( ) lemma=Hugo 
+ Huguito ( ) 
  Humana ( ) 
  Humberto ( ) 
  Humphrey ( ) 
@@ -144,8 +143,7 @@
  Hunter ( ) 
  Huntington ( ) 
  Huppler ( ) 
- Huracan ( ) lemma=Huracán 
- Huracán ( ) 
+ Huracan ( ) 
  Hurler ( ) 
  Hurwicz ( ) 
  Hussein ( ) 
@@ -154,563 +152,518 @@
  Hz ( ) 
  Héctor ( ) 
  Húngara ( ) 
- h ( ) 
- ha ( ) lemma=haber 
- haber ( ) 
- ha_de ( ) lemma=haber~de 
- haber~de ( ) 
+ h ( ) lemma=the 
+ ha ( ) lemma=chau 
  hab ( ) 
  haba ( ) 
- habanera ( ) lemma=habanero 
+ habanera ( ) 
  habanero ( ) 
- habaneros ( ) lemma=habanero 
- habas ( ) lemma=haba 
- haberes ( ) lemma=haber 
- haberla ( ) lemma=haber 
- haberlas ( ) lemma=haber 
- haberle ( ) lemma=haber 
- haberles ( ) lemma=haber 
- haberlo ( ) lemma=haber 
- haberlos ( ) lemma=haber 
- haberme ( ) lemma=haber 
- habernos ( ) lemma=haber 
- haberos ( ) lemma=haber 
+ habaneros ( ) 
+ habas ( ) 
+ haber ( ) 
+ haberes ( ) 
+ haberla ( ) 
+ haberlas ( ) 
+ haberle ( ) 
+ haberles ( ) 
+ haberlo ( ) 
+ haberlos ( ) 
+ haberme ( ) 
+ habernos ( ) 
+ haberos ( ) 
  haberse ( ) 
- haberte ( ) lemma=haber 
- habia ( ) lemma=haber 
- habian ( ) lemma=haber 
- habichuelas ( ) lemma=habichuela 
- habichuela ( ) 
- habida ( ) lemma=haber 
- habidas ( ) lemma=haber 
- habido ( ) lemma=haber 
- habidos ( ) lemma=haber 
- habiendo ( ) lemma=haber 
+ haberte ( ) 
+ habia ( ) 
+ habian ( ) 
+ habichuelas ( ) 
+ habida ( ) 
+ habidas ( ) 
+ habido ( ) 
+ habidos ( ) 
+ habiendo ( ) 
  habilidad ( ) 
- habilidades ( ) lemma=habilidad 
- habilita ( ) lemma=habilitar 
- habilitar ( ) 
+ habilidades ( ) 
+ habilita ( ) 
  habilitación ( ) 
- habilitada ( ) lemma=habilitar 
- habilitadas ( ) lemma=habilitar 
- habilitado ( ) lemma=habilitar 
- habilitados ( ) lemma=habilitar 
- habilitan ( ) lemma=habilitar 
- habilitando ( ) lemma=habilitar 
- habilitara ( ) lemma=habilitar 
- habilitaran ( ) lemma=habilitar 
- habilitarlo ( ) lemma=habilitar 
- habilitaron ( ) lemma=habilitar 
+ habilitada ( ) 
+ habilitadas ( ) 
+ habilitado ( ) 
+ habilitados ( ) 
+ habilitan ( ) 
+ habilitando ( ) 
+ habilitar ( ) 
+ habilitara ( ) 
+ habilitaran ( ) 
+ habilitarlo ( ) 
+ habilitaron ( ) 
  habilitarse ( ) 
- habilitará ( ) lemma=habilitar 
- habilitarán ( ) lemma=habilitar 
- habilite ( ) lemma=habilitar 
- habiliten ( ) lemma=habilitar 
- habilitásemos ( ) lemma=habilitar 
- habilitó ( ) lemma=habilitar 
- habita ( ) lemma=habitar 
- habitar ( ) 
- habitaba ( ) lemma=habitar 
- habitaban ( ) lemma=habitar 
+ habilitará ( ) 
+ habilitarán ( ) 
+ habilite ( ) 
+ habiliten ( ) 
+ habilitásemos ( ) 
+ habilitó ( ) 
+ habita ( ) 
+ habitaba ( ) 
+ habitaban ( ) 
  habitabilidad ( ) 
- habitacion ( ) lemma=habitación 
+ habitacion ( ) 
+ habitaciones ( ) 
  habitación ( ) 
- habitaciones ( ) lemma=habitación 
- habitada ( ) lemma=habitar 
- habitadas ( ) lemma=habitar 
- habitado ( ) lemma=habitar 
- habitados ( ) lemma=habitar 
- habitan ( ) lemma=habitar 
+ habitada ( ) 
+ habitadas ( ) 
+ habitado ( ) 
+ habitados ( ) 
+ habitan ( ) 
  habitante ( ) 
- habitantes ( ) lemma=habitante 
- habitas ( ) lemma=habitar 
- habite ( ) lemma=habitar 
- habiten ( ) lemma=habitar 
- habituada ( ) lemma=habituar 
- habituar ( ) 
- habituadas ( ) lemma=habituar 
- habituado ( ) lemma=habituar 
- habituados ( ) lemma=habituar 
+ habitantes ( ) 
+ habitar ( ) 
+ habitas ( ) 
+ habite ( ) 
+ habiten ( ) 
+ habituada ( ) 
+ habituadas ( ) 
+ habituado ( ) 
+ habituados ( ) 
  habitual ( ) 
- habituales ( ) lemma=habitual 
- habitualmente ( ) lemma=habitual 
- habituando ( ) lemma=habituar 
- habitábamos ( ) lemma=habitar 
- habiéndola ( ) lemma=haber 
- habiéndolas ( ) lemma=haber 
- habiéndole ( ) lemma=haber 
- habiéndoles ( ) lemma=haber 
- habiéndolo ( ) lemma=haber 
- habiéndonos ( ) lemma=haber 
- habiéndose ( ) lemma=haberse 
- habiéndoseles ( ) lemma=haberse 
+ habituales ( ) 
+ habitualmente ( ) 
+ habituando ( ) 
+ habitábamos ( ) 
+ habiéndola ( ) 
+ habiéndolas ( ) 
+ habiéndole ( ) 
+ habiéndoles ( ) 
+ habiéndolo ( ) 
+ habiéndonos ( ) 
+ habiéndose ( ) 
+ habiéndoseles ( ) 
  habla ( ) 
- hablaba ( ) lemma=hablar 
- hablar ( ) 
- hablabais ( ) lemma=hablar 
- hablaban ( ) lemma=hablar 
- hablabas ( ) lemma=hablar 
- hablada ( ) lemma=hablar 
- habladas ( ) lemma=hablar 
- hablado ( ) lemma=hablar 
+ hablaba ( ) 
+ hablabais ( ) 
+ hablaban ( ) 
+ hablabas ( ) 
+ hablada ( ) 
+ habladas ( ) 
+ hablado ( ) 
  hablador ( ) 
- habladora ( ) lemma=hablador 
- habladores ( ) lemma=hablador 
- hablados ( ) lemma=hablar 
- hablai ( ) lemma=hablar 
- hablale ( ) lemma=hablar 
- hablamos ( ) lemma=hablar 
- hablan ( ) lemma=hablar 
- hablando ( ) lemma=hablar 
+ habladora ( ) 
+ habladores ( ) 
+ hablados ( ) 
+ hablai ( ) 
+ hablale ( ) 
+ hablamos ( ) 
+ hablan ( ) 
+ hablando ( ) 
  hablante ( ) 
- hablantes ( ) lemma=hablante 
- hablara ( ) lemma=hablar 
- hablaran ( ) lemma=hablar 
- hablaras ( ) lemma=hablar 
- hablaremos ( ) lemma=hablar 
- hablarla ( ) lemma=hablar 
- hablarle ( ) lemma=hablar 
- hablarles ( ) lemma=hablar 
- hablarlo ( ) lemma=hablar 
- hablarme ( ) lemma=hablar 
- hablarnos ( ) lemma=hablar 
- hablaron ( ) lemma=hablar 
- hablaros ( ) lemma=hablar 
+ hablantes ( ) 
+ hablar ( ) 
+ hablara ( ) 
+ hablaran ( ) 
+ hablaras ( ) 
+ hablaremos ( ) 
+ hablarla ( ) 
+ hablarle ( ) 
+ hablarles ( ) 
+ hablarlo ( ) 
+ hablarme ( ) 
+ hablarnos ( ) 
+ hablaron ( ) 
+ hablaros ( ) 
  hablarse ( ) 
- hablarte ( ) lemma=hablar 
- hablará ( ) lemma=hablar 
- hablarán ( ) lemma=hablar 
- hablaré ( ) lemma=hablar 
- hablaría ( ) lemma=hablar 
- hablaríamos ( ) lemma=hablar 
- hablarían ( ) lemma=hablar 
- hablas ( ) lemma=hablar 
- hablase ( ) lemma=hablar 
- hablaste ( ) lemma=hablar 
- hable ( ) lemma=hablar 
- hablemos ( ) lemma=hablar 
- hablen ( ) lemma=hablar 
- hables ( ) lemma=hablar 
- hablo ( ) lemma=hablar 
- hablábamos ( ) lemma=hablar 
- habláis ( ) lemma=hablar 
- hablándole ( ) lemma=hablar 
- hablándoles ( ) lemma=hablar 
- hablándolo ( ) lemma=hablar 
- hablándome ( ) lemma=hablar 
- hablándonos ( ) lemma=hablar 
- habláramos ( ) lemma=hablar 
- hablásemos ( ) lemma=hablar 
- hablé ( ) lemma=hablar 
- habléis ( ) lemma=hablar 
- habló ( ) lemma=hablar 
- habremos ( ) lemma=haber 
- habrian ( ) lemma=haber 
- habrá ( ) lemma=haber 
- habrá_de ( ) lemma=haber~de 
- habrá_que ( ) lemma=haber~que 
- haber~que ( ) 
- habrán ( ) lemma=haber 
- habrán_de ( ) lemma=haber~de 
- habrás ( ) lemma=haber 
- habré ( ) lemma=haber 
- habréis ( ) lemma=haber 
- habría ( ) lemma=haber 
- habría_que ( ) lemma=haber~que 
- habríais ( ) lemma=haber 
- habríamos ( ) lemma=haber 
- habrían ( ) lemma=haber 
- habéis ( ) lemma=haber 
- habérsela ( ) lemma=haberse 
- habérselas ( ) lemma=haberse 
- habérsele ( ) lemma=haberse 
- habérseles ( ) lemma=haberse 
- habérseme ( ) lemma=haberse 
- habérsenos ( ) lemma=haberse 
- había ( ) lemma=haber 
- habíais ( ) lemma=haber 
- habíamos ( ) lemma=haber 
- habían ( ) lemma=haber 
- habías ( ) lemma=haber 
- hace ( ) lemma=hacer 
+ hablarte ( ) 
+ hablará ( ) 
+ hablarán ( ) 
+ hablaré ( ) 
+ hablaría ( ) 
+ hablaríamos ( ) 
+ hablarían ( ) 
+ hablas ( ) 
+ hablase ( ) 
+ hablaste ( ) 
+ hable ( ) 
+ hablemos ( ) 
+ hablen ( ) 
+ hables ( ) 
+ hablo ( ) 
+ hablábamos ( ) 
+ habláis ( ) 
+ hablándole ( ) 
+ hablándoles ( ) 
+ hablándolo ( ) 
+ hablándome ( ) 
+ hablándonos ( ) 
+ habláramos ( ) 
+ hablásemos ( ) 
+ hablé ( ) 
+ habléis ( ) 
+ habló ( ) 
+ habremos ( ) 
+ habrian ( ) 
+ habrá ( ) 
+ habrán ( ) 
+ habrás ( ) 
+ habré ( ) 
+ habréis ( ) 
+ habría ( ) 
+ habríais ( ) 
+ habríamos ( ) 
+ habrían ( ) 
+ habéis ( ) 
+ habérsela ( ) 
+ habérselas ( ) 
+ habérsele ( ) 
+ habérseles ( ) 
+ habérseme ( ) 
+ habérsenos ( ) 
+ había ( ) 
+ habíais ( ) 
+ habíamos ( ) 
+ habían ( ) 
+ habías ( ) 
+ hace ( ) 
+ haced ( ) 
+ hacemos ( ) 
+ hacen ( ) 
+ hacendada ( ) 
+ hacendado ( ) 
+ hacendados ( ) 
  hacer ( ) 
- haced ( ) lemma=hacer 
- hacemos ( ) lemma=hacer 
- hacen ( ) lemma=hacer 
- hacendada ( ) lemma=hacendar 
- hacendar ( ) 
- hacendado ( ) lemma=hacendar 
- hacendados ( ) lemma=hacendar 
- hacerla ( ) lemma=hacer 
- hacerlas ( ) lemma=hacer 
- hacerle ( ) lemma=hacer 
- hacerles ( ) lemma=hacer 
- hacerlo ( ) lemma=hacer 
- hacerme ( ) lemma=hacer 
- hacernos ( ) lemma=hacer 
- haceros ( ) lemma=hacer 
+ hacerla ( ) 
+ hacerlas ( ) 
+ hacerle ( ) 
+ hacerles ( ) 
+ hacerlo ( ) 
+ hacerme ( ) 
+ hacernos ( ) 
+ haceros ( ) 
  hacerse ( ) 
- hacerte ( ) lemma=hacer 
- haces ( ) lemma=haz 
- haz ( ) 
- hacete ( ) lemma=hacer 
+ hacerte ( ) 
+ haces ( ) 
+ hacete ( ) 
  hacha ( ) 
- hachas ( ) lemma=hacha 
- hache ( ) lemma=hachar 
- hachar ( ) 
- hachemita ( ) lemma=hachemito 
- hachemito ( ) 
+ hachas ( ) 
+ hache ( ) 
+ hachemita ( ) 
  hachís ( ) 
  hacia ( ) 
  hacienda ( ) 
- haciendas ( ) lemma=hacienda 
- haciendo ( ) lemma=hacer 
- hacinadas ( ) lemma=hacinar 
- hacinar ( ) 
- hacinado ( ) lemma=hacinar 
- hacinados ( ) lemma=hacinar 
+ haciendas ( ) 
+ haciendo ( ) 
+ hacinadas ( ) 
+ hacinado ( ) 
+ hacinados ( ) 
  hacinamiento ( ) 
- hacinan ( ) lemma=hacinar 
- haciéndola ( ) lemma=hacer 
- haciéndolas ( ) lemma=hacer 
- haciéndole ( ) lemma=hacer 
- haciéndoles ( ) lemma=hacer 
- haciéndolo ( ) lemma=hacer 
- haciéndolos ( ) lemma=hacer 
- haciéndome ( ) lemma=hacer 
- haciéndonos ( ) lemma=hacer 
+ hacinan ( ) 
+ hacinar ( ) 
+ haciéndola ( ) 
+ haciéndolas ( ) 
+ haciéndole ( ) 
+ haciéndoles ( ) 
+ haciéndolo ( ) 
+ haciéndolos ( ) 
+ haciéndome ( ) 
+ haciéndonos ( ) 
  haciéndose ( ) 
- haciéndoselo ( ) lemma=hacerse 
- hacéis ( ) lemma=hacer 
- hacérmelo ( ) lemma=hacer 
- hacérsela ( ) lemma=hacer 
- hacérselas ( ) lemma=hacerse 
- hacérsele ( ) lemma=hacerse 
- hacérseles ( ) lemma=hacerse 
- hacérselo ( ) lemma=hacer 
- hacérselos ( ) lemma=hacerse 
- hacés ( ) lemma=hacer 
- hacía ( ) lemma=hacer 
- hacíais ( ) lemma=hacer 
- hacíamos ( ) lemma=hacer 
- hacían ( ) lemma=hacer 
- hacías ( ) lemma=hacer 
- hada ( ) lemma=hadar 
- hadar ( ) 
- hadas ( ) lemma=hadar 
+ haciéndoselo ( ) 
+ hacéis ( ) 
+ hacérmelo ( ) 
+ hacérsela ( ) 
+ hacérselas ( ) 
+ hacérsele ( ) 
+ hacérseles ( ) 
+ hacérselo ( ) 
+ hacérselos ( ) 
+ hacés ( ) 
+ hacía ( ) 
+ hacíais ( ) 
+ hacíamos ( ) 
+ hacían ( ) 
+ hacías ( ) 
+ hada ( ) 
+ hadas ( ) 
  hado ( ) 
- hados ( ) lemma=hado 
+ hados ( ) 
  haemoglukotest ( ) 
- haga ( ) lemma=hacer 
- hagamos ( ) lemma=hacer 
- hagan ( ) lemma=hacer 
- hagas ( ) lemma=hacer 
- hago ( ) lemma=hacer 
- hagáis ( ) lemma=hacer 
- hagámoslas ( ) lemma=hacer 
- hagámosles ( ) lemma=hacer 
- hagámoslo ( ) lemma=hacer 
- hagás ( ) lemma=hacer 
- haitiana ( ) lemma=haitiano 
+ haga ( ) lemma=Chagas 
+ hagamos ( ) 
+ hagan ( ) 
+ hagas ( ) 
+ hago ( ) 
+ hagáis ( ) 
+ hagámoslas ( ) 
+ hagámosles ( ) 
+ hagámoslo ( ) 
+ hagás ( ) 
+ haitiana ( ) 
+ haitianas ( ) 
  haitiano ( ) 
- haitianas ( ) lemma=haitiano 
- haitianos ( ) lemma=haitiano 
- hala ( ) lemma=halar 
- halar ( ) 
- halaga ( ) lemma=halagar 
- halagar ( ) 
- halagado ( ) lemma=halagar 
- halagará ( ) lemma=halagar 
+ haitianos ( ) 
+ hala ( ) 
+ halaga ( ) 
+ halagado ( ) 
+ halagará ( ) 
  halago ( ) 
- halagos ( ) lemma=halago 
- halagüeñas ( ) lemma=halagüeño 
- halagüeño ( ) 
- halcones ( ) lemma=halcón 
+ halagos ( ) 
+ halagüeñas ( ) 
+ halcones ( ) 
  halcón ( ) 
- hale ( ) lemma=halar 
+ hale ( ) lemma=chalet 
  half ( ) 
  halitosis ( ) 
  hall ( ) 
- halla ( ) lemma=hallar 
+ halla ( ) 
+ hallaba ( ) 
+ hallaban ( ) 
+ hallada ( ) 
+ halladas ( ) 
+ hallado ( ) 
+ hallados ( ) 
+ hallamos ( ) 
+ hallan ( ) 
+ hallando ( ) 
  hallar ( ) 
- hallaba ( ) lemma=hallar 
- hallaban ( ) lemma=hallar 
- hallada ( ) lemma=hallar 
- halladas ( ) lemma=hallar 
- hallado ( ) lemma=hallar 
- hallados ( ) lemma=hallar 
- hallamos ( ) lemma=hallar 
- hallan ( ) lemma=hallar 
- hallando ( ) lemma=hallar 
- hallara ( ) lemma=hallar 
- hallaran ( ) lemma=hallar 
- hallare ( ) lemma=hallar 
- hallaremos ( ) lemma=hallar 
- hallarla ( ) lemma=hallar 
- hallaron ( ) lemma=hallar 
+ hallara ( ) 
+ hallaran ( ) 
+ hallare ( ) 
+ hallaremos ( ) 
+ hallarla ( ) 
+ hallaron ( ) 
  hallarse ( ) 
- hallará ( ) lemma=hallar 
- hallarán ( ) lemma=hallar 
- hallaría ( ) lemma=hallar 
- hallaríamos ( ) lemma=hallar 
- hallarían ( ) lemma=hallar 
- hallase ( ) lemma=hallar 
- hallaseis ( ) lemma=hallar 
- hallasen ( ) lemma=hallar 
+ hallará ( ) 
+ hallarán ( ) 
+ hallaría ( ) 
+ hallaríamos ( ) 
+ hallarían ( ) 
+ hallase ( ) 
+ hallaseis ( ) 
+ hallasen ( ) 
  hallazgo ( ) 
- hallazgos ( ) lemma=hallazgo 
- halle ( ) lemma=hallar 
- hallemos ( ) lemma=hallar 
- hallen ( ) lemma=hallar 
- hallo ( ) lemma=hallar 
- hallábamos ( ) lemma=hallar 
- hallándose ( ) lemma=hallar 
- halláramos ( ) lemma=hallar 
- halló ( ) lemma=hallar 
+ hallazgos ( ) 
+ halle ( ) 
+ hallemos ( ) 
+ hallen ( ) 
+ hallo ( ) 
+ hallábamos ( ) 
+ hallándose ( ) 
+ halláramos ( ) 
+ halló ( ) 
  halo ( ) 
  halofantrina ( ) 
  halofitismo ( ) 
- halogenados ( ) lemma=halogenar 
- halogenar ( ) 
- halones ( ) lemma=halón 
- halón ( ) 
- halógenos ( ) lemma=halógeno 
- halógeno ( ) 
+ halogenados ( ) 
+ halones ( ) 
+ halógenos ( ) 
  hamaca ( ) 
  hambre ( ) 
- hambres ( ) lemma=hambre 
- hambrienta ( ) lemma=hambriento 
+ hambres ( ) 
+ hambrienta ( ) 
+ hambrientas ( ) 
  hambriento ( ) 
- hambrientas ( ) lemma=hambriento 
- hambrientos ( ) lemma=hambriento 
+ hambrientos ( ) 
  hambruna ( ) 
- hambrunas ( ) lemma=hambruna 
- hamburguesa ( ) lemma=hamburgués 
- hamburgués ( ) 
- hamburguesas ( ) lemma=hamburgués 
+ hambrunas ( ) 
+ hamburguesa ( ) 
+ hamburguesas ( ) 
  hamiltoniano ( ) 
  hampa ( ) 
- han ( ) lemma=haber 
- han_de ( ) lemma=haber~de 
+ han ( ) lemma=Ghana 
  hand ( ) 
  handling ( ) 
  hands ( ) 
  haplogrupo ( ) 
  haploide ( ) 
- haploides ( ) lemma=haploide 
+ haploides ( ) 
  haplotipo ( ) 
- haplotipos ( ) lemma=haplotipo 
+ haplotipos ( ) 
  hapteno ( ) 
  hapteno-proteína ( ) 
- haptenos ( ) lemma=hapteno 
+ haptenos ( ) 
  haptoglobina ( ) 
  hapténico ( ) 
  hardware ( ) 
  hardwarea ( ) 
- haremos ( ) lemma=hacer 
- haria ( ) lemma=hacer 
+ haremos ( ) 
+ haria ( ) 
  harina ( ) 
- harinas ( ) lemma=harina 
+ harinas ( ) 
  harmonique ( ) 
- harta ( ) lemma=harto 
- harto ( ) 
- hartado ( ) lemma=hartar 
+ harta ( ) 
+ hartado ( ) 
+ hartan ( ) 
+ hartando ( ) 
  hartar ( ) 
- hartan ( ) lemma=hartar 
- hartando ( ) lemma=hartar 
- hartaron ( ) lemma=hartar 
- hartas ( ) lemma=harto 
- harten ( ) lemma=hartar 
- hartita ( ) lemma=harto 
- hartos ( ) lemma=harto 
- hartó ( ) lemma=hartar 
- hará ( ) lemma=hacer 
- harán ( ) lemma=hacer 
- harás ( ) lemma=hacer 
- haré ( ) lemma=hacer 
+ hartaron ( ) 
+ hartas ( ) 
+ harten ( ) 
+ hartita ( ) 
+ harto ( ) 
+ hartos ( ) 
+ hartó ( ) 
+ hará ( ) 
+ harán ( ) 
+ harás ( ) 
+ haré ( ) 
  harén ( ) 
- haría ( ) lemma=hacer 
- haríamos ( ) lemma=hacer 
- harían ( ) lemma=hacer 
- harías ( ) lemma=hacer 
- has ( ) lemma=haber 
+ haría ( ) 
+ haríamos ( ) 
+ harían ( ) 
+ harías ( ) 
+ has ( ) lemma=phase 
  hash ( ) 
  hasta ( ) 
  hato ( ) 
- hatos ( ) lemma=hato 
+ hatos ( ) 
  haut ( ) 
- hawaianos ( ) lemma=hawaiano 
- hawaiano ( ) 
- hay ( ) lemma=haber 
- hay_que ( ) lemma=haber~que 
- haya ( ) lemma=haber 
- haya_de ( ) lemma=haber~de 
- haya_que ( ) lemma=haber~que 
- hayamos ( ) lemma=haber 
- hayan ( ) lemma=haber 
- hayan_de ( ) lemma=haber~de 
- hayas ( ) lemma=haber 
+ hawaianos ( ) 
+ hay ( ) 
+ haya ( ) 
+ hayamos ( ) 
+ hayan ( ) 
+ hayas ( ) 
  hayedo-abetal ( ) 
  hayerror ( ) 
- hayáis ( ) lemma=haber 
+ hayáis ( ) 
+ haz ( ) 
  hazaña ( ) 
- hazañas ( ) lemma=hazaña 
+ hazañas ( ) 
  hazhoja ( ) 
- hazle ( ) lemma=hacer 
- hazlo ( ) lemma=hacer 
- hazme ( ) lemma=hacer 
+ hazle ( ) 
+ hazlo ( ) 
+ hazme ( ) 
  hazmerreir ( ) 
- hazte ( ) lemma=hacer 
- he ( ) lemma=haber 
+ hazte ( ) 
+ he ( ) lemma=Ches 
  head ( ) 
  header ( ) 
  headhunter ( ) 
  headhunting ( ) 
  hebbiano ( ) 
- hebillas ( ) lemma=hebilla 
- hebilla ( ) 
+ hebillas ( ) 
  hebra ( ) 
- hebras ( ) lemma=hebra 
- hebrea ( ) lemma=hebreo 
+ hebras ( ) 
+ hebrea ( ) 
+ hebreas ( ) 
  hebreo ( ) 
- hebreas ( ) lemma=hebreo 
- hebreos ( ) lemma=hebreo 
+ hebreos ( ) 
  heces ( ) 
- hecha ( ) lemma=hecho 
- hecho ( ) 
- hechas ( ) lemma=hacer 
- hechizados ( ) lemma=hechizar 
- hechizar ( ) 
+ hecha ( ) 
+ hechas ( ) 
+ hechizados ( ) 
  hechizo ( ) 
- hechos ( ) lemma=hecho 
- hechuras ( ) lemma=hechura 
- hechura ( ) 
+ hecho ( ) 
+ hechos ( ) 
+ hechuras ( ) 
  hectárea ( ) 
- hectáreas ( ) lemma=hectárea 
- hediendo ( ) lemma=heder 
- heder ( ) 
- hedionda ( ) lemma=hediondo 
- hediondo ( ) 
+ hectáreas ( ) 
+ hediendo ( ) 
+ hedionda ( ) 
  hedor ( ) 
  hegemonía ( ) 
- hegemonías ( ) lemma=hegemonía 
- hegemónica ( ) lemma=hegemónico 
+ hegemonías ( ) 
+ hegemónica ( ) 
+ hegemónicas ( ) 
  hegemónico ( ) 
- hegemónicas ( ) lemma=hegemónico 
- hegemónicos ( ) lemma=hegemónico 
- helada ( ) lemma=helado 
- helado ( ) 
- heladas ( ) lemma=helado 
+ hegemónicos ( ) 
+ helada ( ) 
+ heladas ( ) 
  heladera ( ) 
- heladitos ( ) lemma=helado 
- helados ( ) lemma=helado 
+ heladitos ( ) 
+ helado ( ) 
+ helados ( ) 
  helecho ( ) 
- helechos ( ) lemma=helecho 
- helena ( ) lemma=heleno 
+ helechos ( ) 
+ helena ( ) 
  heleno ( ) 
- helenística ( ) lemma=helenístico 
+ helenística ( ) 
  helenístico ( ) 
  helicaso ( ) 
  helicoidal ( ) 
- helicoidales ( ) lemma=helicoidal 
+ helicoidales ( ) 
  helicoide ( ) 
  helicóptero ( ) 
- helicópteros ( ) lemma=helicóptero 
+ helicópteros ( ) 
  helio ( ) 
  helióstato ( ) 
- helióstatos ( ) lemma=helióstato 
+ helióstatos ( ) 
  helminto ( ) 
- heló ( ) lemma=helar 
- helar ( ) 
+ heló ( ) 
  hemaglutinante ( ) 
  hemaglutinina ( ) 
  hematimetría ( ) 
  hematoencefálico ( ) 
  hematoidina ( ) 
  hematología ( ) 
- hematológicas ( ) lemma=hematológico 
+ hematológicas ( ) 
  hematológico ( ) 
- hematológicos ( ) lemma=hematológico 
- hematomas ( ) lemma=hematoma 
- hematoma ( ) 
+ hematológicos ( ) 
+ hematomas ( ) 
  hematopoyesis ( ) 
- hematopoyéticos ( ) lemma=hematopoyético 
- hematopoyético ( ) 
+ hematopoyéticos ( ) 
  hematuria ( ) 
- hematurias ( ) lemma=hematuria 
- hematíes ( ) lemma=hematíe 
- hematíe ( ) 
+ hematurias ( ) 
+ hematíes ( ) 
  hematócrito ( ) 
- hematógena ( ) lemma=hematógeno 
- hematógeno ( ) 
+ hematógena ( ) 
  hematólogo ( ) 
  hembra ( ) 
- hembras ( ) lemma=hembra 
+ hembras ( ) 
  hemiacetal ( ) 
  hemibloqueo ( ) 
  hemicetal ( ) 
  hemicigoto ( ) 
- hemidesmosomas ( ) lemma=hemidesmosoma 
- hemidesmosoma ( ) 
- hemimembranas ( ) lemma=hemimembrana 
- hemimembrana ( ) 
+ hemidesmosomas ( ) 
+ hemimembranas ( ) 
  hemisferio ( ) 
- hemisferios ( ) lemma=hemisferio 
- hemisférica ( ) lemma=hemisférico 
- hemisférico ( ) 
+ hemisferios ( ) 
+ hemisférica ( ) 
  hemitórax ( ) 
  hemo ( ) 
  hemocromatosis ( ) 
  hemocultivo ( ) 
- hemoderivados ( ) lemma=hemoderivado 
- hemoderivado ( ) 
+ hemoderivados ( ) 
  hemodializar ( ) 
  hemodilución ( ) 
  hemodinamisto ( ) 
  hemodinámico ( ) 
  hemodiálisis ( ) 
  hemofilia ( ) 
- hemofilias ( ) lemma=hemofilia 
- hemofílicos ( ) lemma=hemofílico 
- hemofílico ( ) 
+ hemofilias ( ) 
+ hemofílicos ( ) 
  hemoglobina ( ) 
- hemoglobinas ( ) lemma=hemoglobina 
+ hemoglobinas ( ) 
  hemoglobinuria ( ) 
  hemograma ( ) 
  hemohistioblasto ( ) 
  hemolinfático ( ) 
  hemolisina ( ) 
- hemolisinas ( ) lemma=hemolisina 
- hemolítica ( ) lemma=hemolítico 
+ hemolisinas ( ) 
+ hemolítica ( ) 
+ hemolíticas ( ) 
  hemolítico ( ) 
- hemolíticas ( ) lemma=hemolítico 
- hemopoyéticas ( ) lemma=hemopoyético 
- hemopoyético ( ) 
+ hemopoyéticas ( ) 
  hemoptisis ( ) 
  hemorragia ( ) 
- hemorragias ( ) lemma=hemorragia 
- hemorrágica ( ) lemma=hemorrágico 
+ hemorragias ( ) 
+ hemorrágica ( ) 
+ hemorrágicas ( ) 
  hemorrágico ( ) 
- hemorrágicas ( ) lemma=hemorrágico 
- hemorrágicos ( ) lemma=hemorrágico 
- hemos ( ) lemma=haber 
+ hemorrágicos ( ) 
+ hemos ( ) 
  hemosiderina ( ) 
  hemosiderosis ( ) 
  hemostasia ( ) 
- hemostáticas ( ) lemma=hemostático 
- hemostático ( ) 
- hemostáticos ( ) lemma=hemostático 
+ hemostáticas ( ) 
+ hemostáticos ( ) 
  hemotórax ( ) 
- hemáticos ( ) lemma=hemático 
- hemático ( ) 
+ hemáticos ( ) 
  hemínico ( ) 
  hemólisis ( ) 
- hendidas ( ) lemma=hendir 
- hendir ( ) 
+ hendidas ( ) 
  hendidura ( ) 
- hendiduras ( ) lemma=hendidura 
+ hendiduras ( ) 
  heno ( ) 
- henos ( ) lemma=heno 
+ henos ( ) 
  heparina ( ) 
  heparinasa ( ) 
  hepatectomía ( ) 
@@ -722,128 +675,121 @@
  hepatocarcinomo ( ) 
  hepatocelular ( ) 
  hepatocelulare ( ) 
- hepatocitos ( ) lemma=hepatocito 
- hepatocito ( ) 
+ hepatocitos ( ) 
  hepatoma ( ) 
  hepatomegalia ( ) 
  hepatonecrosis ( ) 
- hepatopancreática ( ) lemma=hepatopancreático 
- hepatopancreático ( ) 
+ hepatopancreática ( ) 
  hepatopatía ( ) 
  hepatosplenomegalia ( ) 
  hepatotomía ( ) 
  hepatotoxicidad ( ) 
  hepatotóxico ( ) 
- hepática ( ) lemma=hepático 
+ hepática ( ) 
+ hepáticas ( ) 
  hepático ( ) 
- hepáticas ( ) lemma=hepático 
- hepáticos ( ) lemma=hepático 
- herbácea ( ) lemma=herbáceo 
- herbáceo ( ) 
- herbívoros ( ) lemma=herbívoro 
- herbívoro ( ) 
+ hepáticos ( ) 
+ herbácea ( ) 
+ herbívoros ( ) 
  here ( ) 
- hereda ( ) lemma=heredar 
- heredar ( ) 
- heredaba ( ) lemma=heredar 
+ hereda ( ) 
+ heredaba ( ) 
  heredabilidad ( ) 
  heredable ( ) 
- heredables ( ) lemma=heredable 
- heredada ( ) lemma=heredar 
- heredadas ( ) lemma=heredar 
- heredado ( ) lemma=heredar 
- heredados ( ) lemma=heredar 
+ heredables ( ) 
+ heredada ( ) 
+ heredadas ( ) 
+ heredado ( ) 
+ heredados ( ) 
  heredamiento ( ) 
- heredamientos ( ) lemma=heredamiento 
- heredamos ( ) lemma=heredar 
- heredan ( ) lemma=heredar 
- heredando ( ) lemma=heredar 
+ heredamientos ( ) 
+ heredamos ( ) 
+ heredan ( ) 
+ heredando ( ) 
  heredante ( ) 
- heredara ( ) lemma=heredar 
- heredaron ( ) lemma=heredar 
- heredarse ( ) lemma=heredar 
- heredarán ( ) lemma=heredar 
- heredaría ( ) lemma=heredar 
- herede ( ) lemma=heredar 
- heredera ( ) lemma=heredero 
+ heredar ( ) 
+ heredara ( ) 
+ heredaron ( ) 
+ heredarse ( ) 
+ heredarán ( ) 
+ heredaría ( ) 
+ herede ( ) 
+ heredera ( ) 
+ herederas ( ) 
  heredero ( ) 
- herederas ( ) lemma=heredero 
- herederos ( ) lemma=heredero 
- heredes ( ) lemma=heredar 
- hereditaria ( ) lemma=hereditario 
+ herederos ( ) 
+ heredes ( ) 
+ hereditaria ( ) 
+ hereditarias ( ) 
  hereditario ( ) 
- hereditarias ( ) lemma=hereditario 
- hereditarios ( ) lemma=hereditario 
+ hereditarios ( ) 
  heredocomplejo ( ) 
- heredé ( ) lemma=heredar 
- heredó ( ) lemma=heredar 
+ heredé ( ) 
+ heredó ( ) 
  hereje ( ) 
- herejes ( ) lemma=hereje 
+ herejes ( ) 
  herejía ( ) 
- herejías ( ) lemma=herejía 
+ herejías ( ) 
  herencia ( ) 
- herencias ( ) lemma=herencia 
+ herencias ( ) 
  herida ( ) 
- heridas ( ) lemma=herida 
- herido ( ) lemma=herir 
+ heridas ( ) 
+ herido ( ) 
+ heridos ( ) 
  herir ( ) 
- heridos ( ) lemma=herir 
- herirlo ( ) lemma=herir 
- herirnos ( ) lemma=herir 
+ herirlo ( ) 
+ herirnos ( ) 
  hermafrodita ( ) 
- hermana ( ) lemma=hermano 
- hermano ( ) 
- hermanadas ( ) lemma=hermanar 
- hermanar ( ) 
- hermanado ( ) lemma=hermanar 
- hermanan ( ) lemma=hermanar 
- hermanas ( ) lemma=hermano 
+ hermana ( ) 
+ hermanadas ( ) 
+ hermanado ( ) 
+ hermanan ( ) 
+ hermanas ( ) 
  hermandad ( ) 
- hermandades ( ) lemma=hermandad 
- hermanita ( ) lemma=hermano 
- hermanito ( ) lemma=hermano 
- hermanitos ( ) lemma=hermano 
- hermanos ( ) lemma=hermano 
+ hermandades ( ) 
+ hermanita ( ) 
+ hermanito ( ) 
+ hermanitos ( ) 
+ hermano ( ) 
+ hermanos ( ) 
  hermetismo ( ) 
- hermosa ( ) lemma=hermoso 
+ hermosa ( ) 
+ hermosamente ( ) 
+ hermosas ( ) 
  hermoso ( ) 
- hermosamente ( ) lemma=hermoso 
- hermosas ( ) lemma=hermoso 
- hermosos ( ) lemma=hermoso 
- hermosotes ( ) lemma=hermoso 
+ hermosos ( ) 
+ hermosotes ( ) 
  hermosura ( ) 
- hermosísima ( ) lemma=hermoso 
- hermosísimo ( ) lemma=hermoso 
- hermosísimos ( ) lemma=hermoso 
- hermética ( ) lemma=hermético 
+ hermosísima ( ) 
+ hermosísimo ( ) 
+ hermosísimos ( ) 
+ hermética ( ) 
+ herméticamente ( ) 
+ herméticas ( ) 
  hermético ( ) 
- herméticamente ( ) lemma=hermético 
- herméticas ( ) lemma=hermético 
- herméticos ( ) lemma=hermético 
+ herméticos ( ) 
  hernia ( ) 
  herniación ( ) 
- hernias ( ) lemma=hernia 
+ hernias ( ) 
  herniorrafia ( ) 
- heroica ( ) lemma=heroico 
+ heroica ( ) 
+ heroicamente ( ) 
+ heroicas ( ) 
  heroico ( ) 
- heroicamente ( ) lemma=heroico 
- heroicas ( ) lemma=heroico 
- heroicos ( ) lemma=heroico 
- heroinómanos ( ) lemma=heroinómano 
- heroinómano ( ) 
- heroína ( ) lemma=héroe 
- héroe ( ) 
+ heroicos ( ) 
+ heroinómanos ( ) 
+ heroína ( ) 
  heroísmo ( ) 
  herpes ( ) 
  herpesvirus ( ) 
  herradura ( ) 
  herramienta ( ) 
- herramientas ( ) lemma=herramienta 
+ herramientas ( ) 
  herrero ( ) 
  hershey-chase ( ) 
- hervida ( ) lemma=hervido 
- hervido ( ) 
+ hervida ( ) 
  hervidero ( ) 
+ hervido ( ) 
  hervidor ( ) 
  hervir ( ) 
  heráldica ( ) 
@@ -851,44 +797,39 @@
  heterocigosis ( ) 
  heterocigota ( ) 
  heterocigoto ( ) 
- heterocigotos ( ) lemma=heterocigoto 
+ heterocigotos ( ) 
  heterocigótico ( ) 
  heterocromatina ( ) 
- heterocromáticas ( ) lemma=heterocromático 
- heterocromático ( ) 
+ heterocromáticas ( ) 
  heterocíclico ( ) 
- heterocíclicos ( ) lemma=heterocíclico 
+ heterocíclicos ( ) 
  heterodimérico ( ) 
  heterodoxia ( ) 
  heterodímero ( ) 
  heterogeneidad ( ) 
- heterogeneidades ( ) lemma=heterogeneidad 
+ heterogeneidades ( ) 
  heterogeneous ( ) 
- heterogénea ( ) lemma=heterogéneo 
+ heterogénea ( ) 
+ heterogéneamente ( ) 
+ heterogéneas ( ) 
  heterogéneo ( ) 
- heterogéneamente ( ) lemma=heterogéneo 
- heterogéneas ( ) lemma=heterogéneo 
- heterogéneos ( ) lemma=heterogéneo 
+ heterogéneos ( ) 
  heterosexual ( ) 
- heterosexuales ( ) lemma=heterosexual 
+ heterosexuales ( ) 
  heterotópicamente ( ) 
- heterozigotas ( ) lemma=heterozigoto 
+ heterozigotas ( ) 
  heterozigoto ( ) 
  heterozigótico ( ) 
  heteróclito ( ) 
- heterófilos ( ) lemma=heterófilo 
- heterófilo ( ) 
- heterólogas ( ) lemma=heterólogo 
- heterólogo ( ) 
- heterótrofas ( ) lemma=heterótrofo 
+ heterófilos ( ) 
+ heterólogas ( ) 
+ heterótrofas ( ) 
  heterótrofo ( ) 
- heterótrofos ( ) lemma=heterótrofo 
- heurísticas ( ) lemma=heurístico 
- heurístico ( ) 
+ heterótrofos ( ) 
+ heurísticas ( ) 
  hexadecimal ( ) 
- hexadecimales ( ) lemma=hexadecimal 
- hexagonales ( ) lemma=hexagonal 
- hexagonal ( ) 
+ hexadecimales ( ) 
+ hexagonales ( ) 
  hexoquinasa ( ) 
  hexosaminidasa ( ) 
  hey ( ) 
@@ -898,93 +839,84 @@
  hialurónico ( ) 
  hiato ( ) 
  hibridación ( ) 
- hibridadas ( ) lemma=hibridar 
- hibridar ( ) 
- hibridan ( ) lemma=hibridar 
- hibridaron ( ) lemma=hibridar 
- hibridomas ( ) lemma=hibridoma 
- hibridoma ( ) 
- hice ( ) lemma=hacer 
- hiciera ( ) lemma=hacer 
- hicieran ( ) lemma=hacer 
- hicieras ( ) lemma=hacer 
- hiciere ( ) lemma=hacer 
- hicieren ( ) lemma=hacer 
- hicieron ( ) lemma=hacer 
- hiciese ( ) lemma=hacer 
- hicieseis ( ) lemma=hacer 
- hiciesen ( ) lemma=hacer 
- hicieses ( ) lemma=hacer 
- hicimos ( ) lemma=hacer 
- hiciste ( ) lemma=hacer 
- hicisteis ( ) lemma=hacer 
- hiciéramos ( ) lemma=hacer 
- hiciésemos ( ) lemma=hacer 
+ hibridadas ( ) 
+ hibridan ( ) 
+ hibridaron ( ) 
+ hibridomas ( ) 
+ hice ( ) 
+ hiciera ( ) 
+ hicieran ( ) 
+ hicieras ( ) 
+ hiciere ( ) 
+ hicieren ( ) 
+ hicieron ( ) 
+ hiciese ( ) 
+ hicieseis ( ) 
+ hiciesen ( ) 
+ hicieses ( ) 
+ hicimos ( ) 
+ hiciste ( ) 
+ hicisteis ( ) 
+ hiciéramos ( ) 
+ hiciésemos ( ) 
  hidalgo ( ) 
  hidalguense ( ) 
- hidalguenses ( ) lemma=hidalguense 
+ hidalguenses ( ) 
  hidantoína ( ) 
  hidatídico ( ) 
  hidralacina ( ) 
  hidramnio ( ) 
  hidratación ( ) 
- hidratada ( ) lemma=hidratar 
- hidratar ( ) 
- hidratan ( ) lemma=hidratar 
+ hidratada ( ) 
+ hidratan ( ) 
  hidrato ( ) 
- hidratos ( ) lemma=hidrato 
+ hidratos ( ) 
  hidriboma ( ) 
  hidroaéreo ( ) 
- hidrocarbonada ( ) lemma=hidrocarbonar 
+ hidrocarbonada ( ) 
  hidrocarbonar ( ) 
- hidrocarbono ( ) lemma=hidrocarbonar 
+ hidrocarbono ( ) 
  hidrocarburo ( ) 
- hidrocarburos ( ) lemma=hidrocarburo 
+ hidrocarburos ( ) 
  hidrocefalia ( ) 
  hidrocele ( ) 
  hidroclorídrico ( ) 
  hidrocálido ( ) 
- hidrocálidos ( ) lemma=hidrocálido 
- hidrodinámicas ( ) lemma=hidrodinámico 
- hidrodinámico ( ) 
- hidrodinámicos ( ) lemma=hidrodinámico 
+ hidrocálidos ( ) 
+ hidrodinámicas ( ) 
+ hidrodinámicos ( ) 
  hidroelectrolítico ( ) 
- hidroeléctrica ( ) lemma=hidroeléctrico 
+ hidroeléctrica ( ) 
+ hidroeléctricas ( ) 
  hidroeléctrico ( ) 
- hidroeléctricas ( ) lemma=hidroeléctrico 
- hidroeléctricos ( ) lemma=hidroeléctrico 
- hidrofílica ( ) lemma=hidrófilo 
- hidrófilo ( ) 
- hidrofílico ( ) lemma=hidrófilo 
- hidrofílicos ( ) lemma=hidrófilo 
+ hidroeléctricos ( ) 
+ hidrofílica ( ) 
+ hidrofílico ( ) 
+ hidrofílicos ( ) 
  hidrofítico ( ) 
- hidrofóbica ( ) lemma=hidrofóbico 
+ hidrofóbica ( ) 
+ hidrofóbicas ( ) 
  hidrofóbico ( ) 
- hidrofóbicas ( ) lemma=hidrofóbico 
- hidrofóbicos ( ) lemma=hidrofóbico 
- hidrogenado ( ) lemma=hidrogenar 
- hidrogenar ( ) 
+ hidrofóbicos ( ) 
+ hidrogenado ( ) 
  hidrogenión ( ) 
- hidrogeológicas ( ) lemma=hidrogeológico 
- hidrogeológico ( ) 
- hidrogeológicos ( ) lemma=hidrogeológico 
- hidrogeoquímicas ( ) lemma=hidrogeoquímico 
- hidrogeoquímico ( ) 
+ hidrogeológicas ( ) 
+ hidrogeológicos ( ) 
+ hidrogeoquímicas ( ) 
  hidrograma ( ) 
- hidrográfica ( ) lemma=hidrográfico 
- hidrográfico ( ) 
+ hidrográfica ( ) 
  hidrolización ( ) 
  hidrolizar ( ) 
- hidrolítica ( ) lemma=hidrolítico 
+ hidrolítica ( ) 
+ hidrolíticas ( ) 
  hidrolítico ( ) 
- hidrolíticas ( ) lemma=hidrolítico 
  hidrológico ( ) 
  hidronio ( ) 
  hidropesía ( ) 
  hidrosalino ( ) 
  hidrosfera ( ) 
  hidrosoluble ( ) 
- hidrostática ( ) lemma=hidrostático 
+ hidrostática ( ) 
  hidrostático ( ) 
  hidroxiapatita ( ) 
  hidroxietilo ( ) 
@@ -993,111 +925,105 @@
  hidroxilo ( ) 
  hidroxílico ( ) 
  hidrozoid ( ) 
- hidráulica ( ) lemma=hidráulico 
+ hidráulica ( ) 
+ hidráulicas ( ) 
  hidráulico ( ) 
- hidráulicas ( ) lemma=hidráulico 
- hidráulicos ( ) lemma=hidráulico 
- hidrófobas ( ) lemma=hidrófobo 
- hidrófobo ( ) 
- hidrófobos ( ) lemma=hidrófobo 
+ hidráulicos ( ) 
+ hidrófobas ( ) 
+ hidrófobos ( ) 
  hidrógeno ( ) 
- hidrógenos ( ) lemma=hidrógeno 
+ hidrógenos ( ) 
  hidrólisis ( ) 
  hidrópico ( ) 
- hiela ( ) lemma=helar 
- hielas ( ) lemma=helar 
+ hiela ( ) 
+ hielas ( ) 
  hielo ( ) 
- hielos ( ) lemma=hielo 
- hieran ( ) lemma=herir 
+ hielos ( ) 
+ hieran ( ) 
  hierarchic ( ) 
  hierarchy ( ) 
- hieras ( ) lemma=herir 
+ hieras ( ) 
  hierba ( ) 
- hierbas ( ) lemma=hierba 
- hiere ( ) lemma=herir 
- hieren ( ) lemma=herir 
+ hierbas ( ) 
+ hiere ( ) 
+ hieren ( ) 
  hierro ( ) 
  hierro-azufre ( ) 
  hierro-oxígeno ( ) 
- hierros ( ) lemma=hierro 
- hierva ( ) lemma=herver|hervir 
- herver|hervir ( ) 
- hierve ( ) lemma=herver|hervir 
- hierven ( ) lemma=herver|hervir 
+ hierros ( ) 
+ hierva ( ) 
+ hierve ( ) 
+ hierven ( ) 
  high ( ) 
  highway ( ) 
  higiene ( ) 
- higienes ( ) lemma=higiene 
- higiénica ( ) lemma=higiénico 
+ higienes ( ) 
+ higiénica ( ) 
+ higiénicas ( ) 
  higiénico ( ) 
- higiénicas ( ) lemma=higiénico 
  higiénico-dietético ( ) 
- higiénicos ( ) lemma=higiénico 
+ higiénicos ( ) 
  higiénicos-sanitario ( ) 
  higo ( ) 
- higos ( ) lemma=higo 
+ higos ( ) 
  higuera ( ) 
- higueras ( ) lemma=higuera 
- hija ( ) lemma=hijo 
+ higueras ( ) 
+ hija ( ) 
+ hijas ( ) 
+ hijastra ( ) 
+ hijita ( ) 
+ hijito ( ) 
+ hijitos ( ) 
  hijo ( ) 
- hijas ( ) lemma=hijo 
- hijastra ( ) lemma=hijastro 
- hijastro ( ) 
- hijita ( ) lemma=hijo 
- hijito ( ) lemma=hijo 
- hijitos ( ) lemma=hijo 
- hijos ( ) lemma=hijo 
- hila ( ) lemma=hilar 
+ hijos ( ) 
+ hila ( ) 
+ hilaba ( ) 
+ hilados ( ) 
+ hilando ( ) 
  hilar ( ) 
- hilaba ( ) lemma=hilar 
- hilados ( ) lemma=hilar 
- hilando ( ) lemma=hilar 
- hilaran ( ) lemma=hilar 
+ hilaran ( ) 
  hilaridad ( ) 
- hilarlo ( ) lemma=hilar 
+ hilarlo ( ) 
  hilera ( ) 
- hileras ( ) lemma=hilera 
+ hileras ( ) 
  hiliar ( ) 
  hilio ( ) 
- hilios ( ) lemma=hilio 
- hilito ( ) lemma=hilo 
+ hilios ( ) 
+ hilito ( ) 
+ hilitos ( ) 
  hilo ( ) 
- hilitos ( ) lemma=hilo 
- hilos ( ) lemma=hilo 
- hilvanaba ( ) lemma=hilvanar 
+ hilos ( ) 
+ hilvanaba ( ) 
+ hilvanada ( ) 
+ hilvanado ( ) 
+ hilvanando ( ) 
  hilvanar ( ) 
- hilvanada ( ) lemma=hilvanar 
- hilvanado ( ) lemma=hilvanar 
- hilvanando ( ) lemma=hilvanar 
- hilvanaron ( ) lemma=hilvanar 
+ hilvanaron ( ) 
  himen ( ) 
  himno ( ) 
- himnos ( ) lemma=himno 
+ himnos ( ) 
  hincapié ( ) 
- hincha ( ) 
+ hincha ( ) lemma=chinchar 
  hinchable ( ) 
- hinchada ( ) lemma=hinchar 
+ hinchada ( ) 
+ hinchadas ( ) 
+ hinchado ( ) 
+ hinchados ( ) 
+ hinchan ( ) 
  hinchar ( ) 
- hinchadas ( ) lemma=hinchar 
- hinchado ( ) lemma=hinchar 
- hinchados ( ) lemma=hinchar 
- hinchan ( ) lemma=henchir|hinchar 
- henchir|hinchar ( ) 
- hincharse ( ) lemma=hinchar 
- hinchas ( ) lemma=hincha 
+ hincharse ( ) 
+ hinchas ( ) 
  hinchazón ( ) 
- hinche ( ) lemma=henchir|hinchar 
- hinchen ( ) lemma=henchir|hinchar 
+ hinche ( ) lemma=chinchar 
+ hinchen ( ) 
  hindú ( ) 
- hindúes ( ) lemma=hindú 
+ hindúes ( ) 
  hinojo ( ) 
  hipalergizante ( ) 
- hiperactiva ( ) lemma=hiperactivo 
- hiperactivo ( ) 
+ hiperactiva ( ) 
  hiperactividad ( ) 
  hiperagregabilidad ( ) 
- hiperaguda ( ) lemma=hiperagudo 
- hiperagudo ( ) 
+ hiperaguda ( ) 
  hiperandrogenemia ( ) 
  hiperandrogenismo ( ) 
  hiperazoemia ( ) 
@@ -1130,8 +1056,7 @@
  hipermedia ( ) 
  hipermedio ( ) 
  hipermutador ( ) 
- hipermétropes ( ) lemma=hipermétrope 
- hipermétrope ( ) 
+ hipermétropes ( ) 
  hiperparatiroidismo ( ) 
  hiperplasia ( ) 
  hiperpolarización ( ) 
@@ -1143,23 +1068,21 @@
  hiperreactividad ( ) 
  hipersecreción ( ) 
  hipersensibilidad ( ) 
- hipersensibles ( ) lemma=hipersensible 
- hipersensible ( ) 
- hipertensiones ( ) lemma=hipertensión 
+ hipersensibles ( ) 
+ hipertensiones ( ) 
+ hipertensiva ( ) 
  hipertensión ( ) 
- hipertensiva ( ) lemma=hipertensivo 
- hipertensivo ( ) 
  hipertenso ( ) 
  hipertermia ( ) 
  hipertexto ( ) 
- hipertextos ( ) lemma=hipertexto 
+ hipertextos ( ) 
  hipertextuale ( ) 
  hipertiroidismo ( ) 
  hipertonía ( ) 
  hipertrigliceridemia ( ) 
  hipertrofia ( ) 
  hipertrofiar ( ) 
- hipertrófica ( ) lemma=hipertrófico 
+ hipertrófica ( ) 
  hipertrófico ( ) 
  hipertónica ( ) 
  hiperuricemia ( ) 
@@ -1168,17 +1091,15 @@
  hiperémico ( ) 
  hipnopedia ( ) 
  hipnosis ( ) 
- hipnotizada ( ) lemma=hipnotizar 
- hipnotizar ( ) 
- hipnotizados ( ) lemma=hipnotizar 
- hipnotizaron ( ) lemma=hipnotizar 
+ hipnotizada ( ) 
+ hipnotizados ( ) 
+ hipnotizaron ( ) 
  hipnozoito ( ) 
  hipnozoíto ( ) 
- hipnóticos ( ) lemma=hipnótico 
- hipnótico ( ) 
+ hipnóticos ( ) 
  hipo ( ) 
  hipoacusia ( ) 
- hipoacusias ( ) lemma=hipoacusia 
+ hipoacusias ( ) 
  hipoacúsico ( ) 
  hipoaldosteronismo ( ) 
  hipoalgesia ( ) 
@@ -1189,22 +1110,21 @@
  hipocondrio ( ) 
  hipocratismo ( ) 
  hipocresía ( ) 
- hipocresías ( ) lemma=hipocresía 
- hipocrática ( ) lemma=hipocrático 
+ hipocresías ( ) 
+ hipocrática ( ) 
  hipocrático ( ) 
- hipocráticos ( ) lemma=hipocrático 
- hipofisaria ( ) lemma=hipofisario 
+ hipocráticos ( ) 
+ hipofisaria ( ) 
+ hipofisarias ( ) 
  hipofisario ( ) 
- hipofisarias ( ) lemma=hipofisario 
- hipofisarios ( ) lemma=hipofisario 
+ hipofisarios ( ) 
  hipofisariotiroideo ( ) 
  hipofosfatemia ( ) 
  hipofunción ( ) 
  hipoglicemia ( ) 
  hipoglicemiante ( ) 
  hipoglucemia ( ) 
- hipoglucemiantes ( ) lemma=hipoglucemiante 
- hipoglucemiante ( ) 
+ hipoglucemiantes ( ) 
  hipoglucémico ( ) 
  hipogonadismo ( ) 
  hipogástrico ( ) 
@@ -1217,35 +1137,35 @@
  hiporreninemia ( ) 
  hiporreninémico ( ) 
  hipotalamohipofisario ( ) 
- hipotalámica ( ) lemma=hipotalámico 
+ hipotalámica ( ) 
  hipotalámico ( ) 
  hipoteca ( ) 
- hipotecada ( ) lemma=hipotecar 
+ hipotecada ( ) 
+ hipotecadas ( ) 
+ hipotecado ( ) 
+ hipotecan ( ) 
+ hipotecando ( ) 
  hipotecar ( ) 
- hipotecadas ( ) lemma=hipotecar 
- hipotecado ( ) lemma=hipotecar 
- hipotecan ( ) lemma=hipotecar 
- hipotecando ( ) lemma=hipotecar 
- hipotecaria ( ) lemma=hipotecario 
+ hipotecaria ( ) 
+ hipotecarias ( ) 
  hipotecario ( ) 
- hipotecarias ( ) lemma=hipotecario 
- hipotecarios ( ) lemma=hipotecario 
- hipotecará ( ) lemma=hipotecar 
- hipotecas ( ) lemma=hipoteca 
+ hipotecarios ( ) 
+ hipotecará ( ) 
+ hipotecas ( ) 
  hipotensión ( ) 
  hipotensor ( ) 
  hipotenusa ( ) 
- hipoteque ( ) lemma=hipotecar 
+ hipoteque ( ) 
  hipotermia ( ) 
  hipotiroideo ( ) 
  hipotiroidismo ( ) 
  hipotálamo ( ) 
  hipotálamo-hipófisis ( ) 
- hipotética ( ) lemma=hipotético 
- hipotético ( ) 
+ hipotética ( ) 
  hipotéticamente ( ) 
- hipotéticas ( ) lemma=hipotético 
- hipotéticos ( ) lemma=hipotético 
+ hipotéticas ( ) 
+ hipotético ( ) 
+ hipotéticos ( ) 
  hipotónico ( ) 
  hipoventilación ( ) 
  hipovolemia ( ) 
@@ -1253,643 +1173,1161 @@
  hipoxemia ( ) 
  hipoxia ( ) 
  hipsograma ( ) 
- hipsogramas ( ) lemma=hipsograma 
- hipérbolas ( ) lemma=hipérbola 
- hipérbola ( ) 
- hipó ( ) lemma=hipar 
- hipar ( ) 
+ hipsogramas ( ) 
+ hipérbolas ( ) 
+ hipó ( ) 
  hipócrita ( ) 
- hipócritamente ( ) lemma=hipócrita 
- hipócritas ( ) lemma=hipócrita 
+ hipócritamente ( ) 
+ hipócritas ( ) 
  hipódromo ( ) 
- hipódromos ( ) lemma=hipódromo 
+ hipódromos ( ) 
  hipófisis ( ) 
  hipótesis ( ) 
  hipóxico ( ) 
- hiriendo ( ) lemma=herir 
+ hiriendo ( ) 
  hiriente ( ) 
- hiriera ( ) lemma=herir 
- hirieran ( ) lemma=herir 
- hirieron ( ) lemma=herir 
- hiriese ( ) lemma=herir 
- hirió ( ) lemma=herir 
- hirviendo ( ) lemma=hervir 
+ hiriera ( ) 
+ hirieran ( ) 
+ hirieron ( ) 
+ hiriese ( ) 
+ hirió ( ) 
+ hirviendo ( ) 
  his-purkinje ( ) 
- hispana ( ) lemma=hispano 
- hispano ( ) 
- hispanas ( ) lemma=hispano 
+ hispana ( ) 
+ hispanas ( ) 
  hispanista ( ) 
- hispanoamericana ( ) lemma=hispanoamericano 
+ hispano ( ) 
+ hispanoamericana ( ) 
  hispanoamericano ( ) 
- hispanoamericanos ( ) lemma=hispanoamericano 
- hispanos ( ) lemma=hispano 
- hispánicos ( ) lemma=hispánico 
- hispánico ( ) 
+ hispanoamericanos ( ) 
+ hispanos ( ) 
+ hispánicos ( ) 
  histamina ( ) 
  histerectomizar ( ) 
  histerectomía ( ) 
  histeria ( ) 
  histidina ( ) 
- histiocitos ( ) lemma=histiocito 
- histiocito ( ) 
+ histiocitos ( ) 
  histiocitosis ( ) 
  histocompatibilidad ( ) 
  histograma ( ) 
  histología ( ) 
  histolytico ( ) 
- histológica ( ) lemma=histológico 
- histológico ( ) 
+ histológica ( ) 
  histológicamente ( ) 
- histológicas ( ) lemma=histológico 
- histológicos ( ) lemma=histológico 
+ histológicas ( ) 
+ histológico ( ) 
+ histológicos ( ) 
  histona ( ) 
- histonas ( ) lemma=histona 
+ histonas ( ) 
  histopatología ( ) 
  histopatológico ( ) 
  histopatológlco ( ) 
- histoquímicas ( ) lemma=histoquímica 
- histoquímica ( ) 
+ histoquímicas ( ) 
  historia ( ) 
  historiador ( ) 
- historiadora ( ) lemma=historiador 
- historiadoras ( ) lemma=historiador 
- historiadores ( ) lemma=historiador 
+ historiadora ( ) 
+ historiadoras ( ) 
+ historiadores ( ) 
  historial ( ) 
- historiales ( ) lemma=historial 
- historias ( ) lemma=historia 
- historica ( ) lemma=histórica 
- histórica ( ) lemma=histórico 
+ historiales ( ) 
+ historias ( ) 
+ historica ( ) 
  historicogeográfico ( ) 
  historieta ( ) 
- historietas ( ) lemma=historieta 
+ historietas ( ) 
  historiografía ( ) 
- histriónicos ( ) lemma=histriónico 
- histriónico ( ) 
- histérica ( ) lemma=histérico 
+ histriónicos ( ) 
+ histérica ( ) 
+ histéricas ( ) 
  histérico ( ) 
- histéricas ( ) lemma=histérico 
- histéricos ( ) lemma=histérico 
+ histéricos ( ) 
  histónico ( ) 
+ histórica ( ) 
+ históricamente ( ) 
+ históricas ( ) 
  histórico ( ) 
- históricamente ( ) lemma=histórico 
- históricas ( ) lemma=histórico 
- históricos ( ) lemma=histórico 
- hito ( ) lemma=hitar 
- hitar ( ) 
- hitos ( ) lemma=hito 
- hizo ( ) lemma=hacer 
+ históricos ( ) 
+ hito ( ) lemma=ahíto 
+ hitos ( ) 
+ hizo ( ) 
  hiérarchie ( ) 
  hiérarchisé ( ) 
  hobby ( ) 
- hoces ( ) lemma=hoz 
- hoz ( ) 
+ hoces ( ) 
  hocico ( ) 
  hogar ( ) 
- hogares ( ) lemma=hogar 
+ hogares ( ) 
  hogaza ( ) 
  hogaño ( ) 
  hoguera ( ) 
- hogueras ( ) lemma=hoguera 
+ hogueras ( ) 
  hoja ( ) 
  hojalata ( ) 
  hojaldre ( ) 
- hojas ( ) lemma=hoja 
+ hojas ( ) 
  hojeador ( ) 
- hojearse ( ) lemma=hojear 
- hojear ( ) 
- hojita ( ) lemma=hoja 
- hojitas ( ) lemma=hoja 
- hola ( ) 
- holandesa ( ) lemma=holandés 
+ hojearse ( ) 
+ hojita ( ) 
+ hojitas ( ) 
+ hola ( ) lemma=cholo 
+ holandesa ( ) 
+ holandesas ( ) 
+ holandeses ( ) 
  holandés ( ) 
- holandesas ( ) lemma=holandés 
- holandeses ( ) lemma=holandés 
  holding ( ) 
- holgada ( ) lemma=holgado 
+ holgada ( ) 
+ holgadamente ( ) 
  holgado ( ) 
- holgadamente ( ) lemma=holgado 
- holgados ( ) lemma=holgado 
+ holgados ( ) 
  holgura ( ) 
- hollada ( ) lemma=hollar 
+ hollada ( ) 
+ hollan ( ) 
  hollar ( ) 
- hollan ( ) lemma=hollar 
  hollywoodiense ( ) 
  holocausto ( ) 
- holocaustos ( ) lemma=holocausto 
+ holocaustos ( ) 
  holoenzima ( ) 
- holoenzimas ( ) lemma=holoenzima 
+ holoenzimas ( ) 
  hombre ( ) 
  hombre-máquina ( ) 
- hombrecillos ( ) lemma=hombre 
- hombrecitos ( ) lemma=hombre 
- hombres ( ) lemma=hombre 
- hombria ( ) lemma=hombría 
- hombría ( ) 
+ hombrecillos ( ) 
+ hombrecitos ( ) 
+ hombres ( ) 
+ hombria ( ) 
  hombro ( ) 
- hombros ( ) lemma=hombro 
- home ( ) 
+ hombros ( ) 
+ home ( ) lemma=Thomen 
  homenaje ( ) 
- homenajeadas ( ) lemma=homenajear 
+ homenajeadas ( ) 
+ homenajeado ( ) 
+ homenajeados ( ) 
  homenajear ( ) 
- homenajeado ( ) lemma=homenajear 
- homenajeados ( ) lemma=homenajear 
- homenajes ( ) lemma=homenaje 
+ homenajes ( ) 
  homeodominio ( ) 
- homeopática ( ) lemma=homeopático 
+ homeopática ( ) 
+ homeopáticas ( ) 
  homeopático ( ) 
- homeopáticas ( ) lemma=homeopático 
- homeopáticos ( ) lemma=homeopático 
+ homeopáticos ( ) 
  homeostasia ( ) 
  homeostasis ( ) 
  homeostático ( ) 
  homeópata ( ) 
- homeótica ( ) lemma=homeótico 
+ homeótica ( ) 
  homeótico ( ) 
- homeóticos ( ) lemma=homeótico 
+ homeóticos ( ) 
  homicida ( ) 
- homicidas ( ) lemma=homicida 
+ homicidas ( ) 
  homicidio ( ) 
- homicidios ( ) lemma=homicidio 
+ homicidios ( ) 
  homilía ( ) 
  homocigosis ( ) 
  homocigoto ( ) 
- homocigotos ( ) lemma=homocigoto 
+ homocigotos ( ) 
  homocisteína ( ) 
  homodímero ( ) 
  homogamia ( ) 
- homogaméticas ( ) lemma=homogamético 
- homogamético ( ) 
+ homogaméticas ( ) 
  homogene ( ) 
  homogeneidad ( ) 
  homogeneización ( ) 
- homogeneizado ( ) lemma=homogeneizar 
+ homogeneizado ( ) 
  homogeneizar ( ) 
  homogeneous ( ) 
  homogentísico ( ) 
- homogénea ( ) lemma=homogéneo 
+ homogénea ( ) 
+ homogéneamente ( ) 
+ homogéneas ( ) 
  homogéneo ( ) 
- homogéneamente ( ) lemma=homogéneo 
- homogéneas ( ) lemma=homogéneo 
- homogéneos ( ) lemma=homogéneo 
- homologaciones ( ) lemma=homologación 
+ homogéneos ( ) 
+ homologaciones ( ) 
  homologación ( ) 
- homologada ( ) lemma=homologar 
+ homologada ( ) 
+ homologadas ( ) 
+ homologado ( ) 
+ homologados ( ) 
  homologar ( ) 
- homologadas ( ) lemma=homologar 
- homologado ( ) lemma=homologar 
- homologados ( ) lemma=homologar 
- homologarnos ( ) lemma=homologar 
+ homologarnos ( ) 
  homología ( ) 
- homologías ( ) lemma=homología 
+ homologías ( ) 
  homopolipéptido ( ) 
- homopolímeros ( ) lemma=homopolímero 
- homopolímero ( ) 
+ homopolímeros ( ) 
  homosexual ( ) 
- homosexuales ( ) lemma=homosexual 
+ homosexuales ( ) 
  homosexualidad ( ) 
  homozigosis ( ) 
  homozigoto ( ) 
- homozigotos ( ) lemma=homozigoto 
- homócronos ( ) lemma=homócrono 
- homócrono ( ) 
- homóloga ( ) lemma=homólogo 
+ homozigotos ( ) 
+ homócronos ( ) 
+ homóloga ( ) 
+ homólogas ( ) 
  homólogo ( ) 
- homólogas ( ) lemma=homólogo 
- homólogos ( ) lemma=homólogo 
- homónima ( ) lemma=homónimo 
- homónimo ( ) 
- honda ( ) lemma=hondo 
+ homólogos ( ) 
+ homónima ( ) 
+ honda ( ) lemma=ahondar 
+ hondamente ( ) 
+ hondas ( ) 
  hondo ( ) 
- hondamente ( ) lemma=hondo 
- hondas ( ) lemma=hondo 
- hondos ( ) lemma=hondo 
- hondureña ( ) lemma=hondureño 
+ hondos ( ) 
+ hondureña ( ) 
+ hondureñas ( ) 
  hondureño ( ) 
- hondureñas ( ) lemma=hondureño 
- hondureños ( ) lemma=hondureño 
- honesta ( ) lemma=honesto 
- honesto ( ) 
- honestamente ( ) lemma=honesto 
- honestas ( ) lemma=honesto 
+ hondureños ( ) 
+ honesta ( ) 
+ honestamente ( ) 
+ honestas ( ) 
  honestidad ( ) 
- honestos ( ) lemma=honesto 
+ honesto ( ) 
+ honestos ( ) 
  hongo ( ) 
- hongos ( ) lemma=hongo 
+ hongos ( ) 
  honor ( ) 
- honorabilísimos ( ) lemma=honorable 
+ honorabilísimos ( ) 
  honorable ( ) 
- honorablemente ( ) lemma=honorable 
- honorables ( ) lemma=honorable 
+ honorablemente ( ) 
+ honorables ( ) 
  honorario ( ) 
- honorarios ( ) lemma=honorario 
- honores ( ) lemma=honor 
- honorífica ( ) lemma=honorífico 
+ honorarios ( ) 
+ honores ( ) 
+ honorífica ( ) 
+ honoríficas ( ) 
  honorífico ( ) 
- honoríficas ( ) lemma=honorífico 
- honoríficos ( ) lemma=honorífico 
+ honoríficos ( ) 
  honra ( ) 
- honraba ( ) lemma=honrar 
- honrar ( ) 
- honrada ( ) lemma=honrado 
- honrado ( ) 
- honradamente ( ) lemma=honrado 
- honradas ( ) lemma=honrado 
+ honraba ( ) 
+ honrada ( ) 
+ honradamente ( ) 
+ honradas ( ) 
  honradez ( ) 
- honrados ( ) lemma=honrado 
- honramos ( ) lemma=honrar 
- honran ( ) lemma=honrar 
- honrando ( ) lemma=honrar 
- honraremos ( ) lemma=honrar 
- honraron ( ) lemma=honrar 
- honrará ( ) lemma=honrar 
- honraría ( ) lemma=honrar 
- honras ( ) lemma=honra 
- honre ( ) lemma=honrar 
- honremos ( ) lemma=honrar 
- honren ( ) lemma=honrar 
- honrilla ( ) lemma=honra 
- honro ( ) lemma=honrar 
+ honrado ( ) 
+ honrados ( ) 
+ honramos ( ) 
+ honran ( ) 
+ honrando ( ) 
+ honrar ( ) 
+ honraremos ( ) 
+ honraron ( ) 
+ honrará ( ) 
+ honraría ( ) 
+ honras ( ) 
+ honre ( ) 
+ honremos ( ) 
+ honren ( ) 
+ honrilla ( ) 
+ honro ( ) 
  hood ( ) 
  hora ( ) 
- horaria ( ) lemma=horario 
+ horaria ( ) 
+ horarias ( ) 
  horario ( ) 
- horarias ( ) lemma=horario 
- horarios ( ) lemma=horario 
- horas ( ) lemma=hora 
- horca ( ) 
- horcas ( ) lemma=horca 
- horitas ( ) lemma=hora 
+ horarios ( ) 
+ horas ( ) 
+ horca ( ) lemma=ahorcar 
+ horcas ( ) 
+ horitas ( ) 
  horizontal ( ) 
- horizontales ( ) lemma=horizontal 
+ horizontales ( ) 
  horizontalidad ( ) 
- horizontalmente ( ) lemma=horizontal 
+ horizontalmente ( ) 
  horizonte ( ) 
- horizontes ( ) lemma=horizonte 
+ horizontes ( ) 
  hormiga ( ) 
- hormigas ( ) lemma=hormiga 
+ hormigas ( ) 
  hormigueo ( ) 
  hormiguero ( ) 
- hormiguitas ( ) lemma=hormiga 
+ hormiguitas ( ) 
  hormigón ( ) 
  hormogonale ( ) 
  hormona ( ) 
  hormona-receptor ( ) 
  hormonal ( ) 
- hormonales ( ) lemma=hormonal 
- hormonas ( ) lemma=hormona 
- horneado ( ) lemma=hornear 
+ hormonales ( ) 
+ hormonas ( ) 
+ horneado ( ) 
  hornear ( ) 
- hornee ( ) lemma=hornear 
- hornillos ( ) lemma=horno 
+ hornee ( ) 
+ hornillos ( ) 
  horno ( ) 
- hornos ( ) lemma=horno 
+ hornos ( ) 
  horquilla ( ) 
- horquillado ( ) lemma=horquillar 
- horquillar ( ) 
- horquillados ( ) lemma=horquillar 
- horquillas ( ) lemma=horquilla 
- horrenda ( ) lemma=horrendo 
+ horquillado ( ) 
+ horquillados ( ) 
+ horquillas ( ) 
+ horrenda ( ) 
+ horrendas ( ) 
  horrendo ( ) 
- horrendas ( ) lemma=horrendo 
- horrendos ( ) lemma=horrendo 
+ horrendos ( ) 
  horrible ( ) 
- horriblemente ( ) lemma=horrible 
- horribles ( ) lemma=horrible 
+ horriblemente ( ) 
+ horribles ( ) 
  horror ( ) 
- horrores ( ) lemma=horror 
- horroriza ( ) lemma=horrorizar 
- horrorizar ( ) 
- horrorizaba ( ) lemma=horrorizar 
- horrorizada ( ) lemma=horrorizar 
- horrorizado ( ) lemma=horrorizar 
- horrorizados ( ) lemma=horrorizar 
- horrorizamos ( ) lemma=horrorizar 
- horrorizan ( ) lemma=horrorizar 
- horrorizó ( ) lemma=horrorizar 
- horrorosa ( ) lemma=horroroso 
+ horrores ( ) 
+ horroriza ( ) 
+ horrorizaba ( ) 
+ horrorizada ( ) 
+ horrorizado ( ) 
+ horrorizados ( ) 
+ horrorizamos ( ) 
+ horrorizan ( ) 
+ horrorizó ( ) 
+ horrorosa ( ) 
+ horrorosamente ( ) 
+ horrorosas ( ) 
  horroroso ( ) 
- horrorosamente ( ) lemma=horroroso 
- horrorosas ( ) lemma=horroroso 
- horrorosos ( ) lemma=horroroso 
+ horrorosos ( ) 
  hors ( ) 
  hortaliza ( ) 
- hortalizas ( ) lemma=hortaliza 
+ hortalizas ( ) 
  hortensia ( ) 
- hortensias ( ) lemma=hortensia 
- hortícolas ( ) lemma=hortícola 
- hortícola ( ) 
- hosca ( ) lemma=hosco 
+ hortensias ( ) 
+ hortícolas ( ) 
+ hosca ( ) 
  hosco ( ) 
- hospeda ( ) lemma=hospedar 
- hospedar ( ) 
- hospedaba ( ) lemma=hospedar 
+ hospeda ( ) 
+ hospedaba ( ) 
  hospedador ( ) 
  hospedadoro ( ) 
- hospedados ( ) lemma=hospedar 
- hospedan ( ) lemma=hospedar 
+ hospedados ( ) 
+ hospedan ( ) 
+ hospedar ( ) 
  hospedarse ( ) 
- hospedarán ( ) lemma=hospedar 
- hospeden ( ) lemma=hospedar 
+ hospedarán ( ) 
+ hospeden ( ) 
  hospedera ( ) 
  hospedero ( ) 
- hospedó ( ) lemma=hospedar 
+ hospedó ( ) 
  hospicio ( ) 
- hospicios ( ) lemma=hospicio 
+ hospicios ( ) 
  hospital ( ) 
- hospitalaria ( ) lemma=hospitalario 
+ hospitalaria ( ) 
+ hospitalarias ( ) 
  hospitalario ( ) 
- hospitalarias ( ) lemma=hospitalario 
- hospitalarios ( ) lemma=hospitalario 
- hospitales ( ) lemma=hospital 
+ hospitalarios ( ) 
+ hospitales ( ) 
  hospitalidad ( ) 
  hospitalismo ( ) 
- hospitalizaciones ( ) lemma=hospitalización 
+ hospitalizaciones ( ) 
  hospitalización ( ) 
- hospitalizada ( ) lemma=hospitalizar 
- hospitalizar ( ) 
- hospitalizadas ( ) lemma=hospitalizar 
- hospitalizado ( ) lemma=hospitalizar 
- hospitalizados ( ) lemma=hospitalizar 
- hospitalizarse ( ) lemma=hospitalizar 
+ hospitalizada ( ) 
+ hospitalizadas ( ) 
+ hospitalizado ( ) 
+ hospitalizados ( ) 
+ hospitalizarse ( ) 
  host ( ) 
  hostal ( ) 
- hostales ( ) lemma=hostal 
+ hostales ( ) 
  hostelería ( ) 
  hostia ( ) 
- hostias ( ) lemma=hostia 
- hostigaban ( ) lemma=hostigar 
- hostigar ( ) 
- hostigadas ( ) lemma=hostigar 
- hostigado ( ) lemma=hostigar 
- hostigados ( ) lemma=hostigar 
+ hostias ( ) 
+ hostigaban ( ) 
+ hostigadas ( ) 
+ hostigado ( ) 
+ hostigados ( ) 
  hostigamiento ( ) 
- hostigamientos ( ) lemma=hostigamiento 
- hostigan ( ) lemma=hostigar 
- hostigando ( ) lemma=hostigar 
+ hostigamientos ( ) 
+ hostigan ( ) 
+ hostigando ( ) 
+ hostigar ( ) 
  hostil ( ) 
- hostiles ( ) lemma=hostil 
+ hostiles ( ) 
  hostilidad ( ) 
- hostilidades ( ) lemma=hostilidad 
- hosts ( ) lemma=host 
+ hostilidades ( ) 
+ hosts ( ) 
  hotel ( ) 
- hotelera ( ) lemma=hotelero 
+ hotelera ( ) 
+ hoteleras ( ) 
  hotelero ( ) 
- hoteleras ( ) lemma=hotelero 
- hoteleros ( ) lemma=hotelero 
+ hoteleros ( ) 
  hotelería ( ) 
- hoteles ( ) lemma=hotel 
+ hoteles ( ) 
  hoy ( ) 
- hoy_día ( ) lemma=hoy~día 
- hoy~día ( ) 
- hoya ( ) lemma=hoyar 
- hoyar ( ) 
+ hoya ( ) 
  hoyo ( ) 
- hoyos ( ) lemma=hoyo 
+ hoyos ( ) 
+ hoz ( ) lemma=choza 
  html ( ) 
  http ( ) 
- hu ( ) 
+ hu ( ) lemma=chus 
  huasteca ( ) 
- hube ( ) lemma=haber 
- hubiera ( ) lemma=haber 
- hubieran ( ) lemma=haber 
- hubieras ( ) lemma=haber 
- hubiere ( ) lemma=haber 
- hubieren ( ) lemma=haber 
- hubieron ( ) lemma=haber 
- hubiese ( ) lemma=haber 
- hubieseis ( ) lemma=haber 
- hubiesen ( ) lemma=haber 
- hubieses ( ) lemma=haber 
- hubimos ( ) lemma=haber 
- hubiéramos ( ) lemma=haber 
- hubiésemos ( ) lemma=haber 
- hubo ( ) lemma=haber 
- hueca ( ) lemma=hueco 
+ hube ( ) 
+ hubiera ( ) 
+ hubieran ( ) 
+ hubieras ( ) 
+ hubiere ( ) 
+ hubieren ( ) 
+ hubieron ( ) 
+ hubiese ( ) 
+ hubieseis ( ) 
+ hubiesen ( ) 
+ hubieses ( ) 
+ hubimos ( ) 
+ hubiéramos ( ) 
+ hubiésemos ( ) 
+ hubo ( ) 
+ hueca ( ) lemma=chueco 
+ huecas ( ) 
  hueco ( ) 
- huecas ( ) lemma=hueco 
- huecos ( ) lemma=hueco 
- huela ( ) lemma=oler 
- huelan ( ) lemma=oler 
- huele ( ) lemma=oler 
- huelen ( ) lemma=oler 
- hueles ( ) lemma=oler 
+ huecos ( ) 
+ huela ( ) 
+ huelan ( ) 
+ huele ( ) 
+ huelen ( ) 
+ hueles ( ) 
  huelga ( ) 
- huelgas ( ) lemma=huelga 
- huelguistas ( ) lemma=huelguista 
- huelguista ( ) 
+ huelgas ( ) 
+ huelguistas ( ) 
  huella ( ) 
- huellas ( ) lemma=huella 
- huequito ( ) lemma=hueco 
+ huellas ( ) 
+ huequito ( ) 
  huerta ( ) 
- huertas ( ) lemma=huerta 
+ huertas ( ) 
  huerto ( ) 
- huertos ( ) lemma=huerto 
+ huertos ( ) 
  hueso ( ) 
- huesos ( ) lemma=hueso 
- huestes ( ) lemma=hueste 
- hueste ( ) 
- huesudas ( ) lemma=huesudo 
- huesudo ( ) 
- huevada ( ) lemma=huevar 
- huevar ( ) 
- huevas ( ) lemma=hueva 
- hueva ( ) 
- huevecitos ( ) lemma=huevo 
+ huesos ( ) 
+ huestes ( ) 
+ huesudas ( ) 
+ huevada ( ) 
+ huevas ( ) 
+ huevecitos ( ) 
+ huevito ( ) 
  huevo ( ) 
- huevito ( ) lemma=huevo 
- huevos ( ) lemma=huevo 
+ huevos ( ) 
  huevón ( ) 
- huida ( ) lemma=huir 
+ huida ( ) 
+ huidas ( ) 
+ huido ( ) 
+ huidos ( ) 
+ huimos ( ) 
  huir ( ) 
- huidas ( ) lemma=huir 
- huido ( ) lemma=huir 
- huidos ( ) lemma=huir 
- huimos ( ) lemma=huir 
- huirá ( ) lemma=huir 
- huiría ( ) lemma=huir 
+ huirá ( ) 
+ huiría ( ) 
  hule ( ) 
  hulla ( ) 
- human ( ) lemma=humar 
- humar ( ) 
- humana ( ) lemma=humano 
- humano ( ) 
- humanamente ( ) lemma=humano 
- humanas ( ) lemma=humano 
+ human ( ) 
+ humana ( ) 
+ humanamente ( ) 
+ humanas ( ) 
  humanidad ( ) 
- humanidades ( ) lemma=humanidad 
+ humanidades ( ) 
  humanismo ( ) 
- humanitaria ( ) lemma=humanitario 
+ humanitaria ( ) 
+ humanitariamente ( ) 
+ humanitarias ( ) 
  humanitario ( ) 
- humanitariamente ( ) lemma=humanitario 
- humanitarias ( ) lemma=humanitario 
- humanitarios ( ) lemma=humanitario 
- humanitos ( ) lemma=humano 
- humaniza ( ) lemma=humanizar 
- humanizar ( ) 
+ humanitarios ( ) 
+ humanitos ( ) 
+ humaniza ( ) 
  humanización ( ) 
- humanizada ( ) lemma=humanizar 
- humanizados ( ) lemma=humanizar 
- humanizando ( ) lemma=humanizar 
- humanizarse ( ) lemma=humanizar 
- humanos ( ) lemma=humano 
- humanísimas ( ) lemma=humano 
+ humanizada ( ) 
+ humanizados ( ) 
+ humanizando ( ) 
+ humanizar ( ) 
+ humanizarse ( ) 
+ humano ( ) 
+ humanos ( ) 
+ humanísimas ( ) 
  humareda ( ) 
  humectación ( ) 
  humectar ( ) 
  humedad ( ) 
- humedades ( ) lemma=humedad 
+ humedades ( ) 
  humedal ( ) 
- humedecidas ( ) lemma=humedecer 
- humedecer ( ) 
- humedecido ( ) lemma=humedecer 
- humedito ( ) lemma=húmedo 
- húmedo ( ) 
+ humedecidas ( ) 
+ humedecido ( ) 
+ humedito ( ) 
  humeral ( ) 
  humidificación ( ) 
  humildad ( ) 
  humilde ( ) 
- humildemente ( ) lemma=humilde 
- humildes ( ) lemma=humilde 
- humilla ( ) lemma=humillar 
- humillar ( ) 
- humillaciones ( ) lemma=humillación 
+ humildemente ( ) 
+ humildes ( ) 
+ humilla ( ) 
+ humillaciones ( ) 
  humillación ( ) 
- humilladas ( ) lemma=humillar 
- humillado ( ) lemma=humillar 
- humillados ( ) lemma=humillar 
- humillamos ( ) lemma=humillar 
- humillan ( ) lemma=humillar 
- humillando ( ) lemma=humillar 
+ humilladas ( ) 
+ humillado ( ) 
+ humillados ( ) 
+ humillamos ( ) 
+ humillan ( ) 
+ humillando ( ) 
  humillante ( ) 
- humillantes ( ) lemma=humillante 
- humillarme ( ) lemma=humillar 
- humillaron ( ) lemma=humillar 
- humillaseis ( ) lemma=humillar 
- humille ( ) lemma=humillar 
- humilló ( ) lemma=humillar 
+ humillantes ( ) 
+ humillar ( ) 
+ humillarme ( ) 
+ humillaron ( ) 
+ humillaseis ( ) 
+ humille ( ) 
+ humilló ( ) 
  humo ( ) 
  humor ( ) 
  humoral ( ) 
- humorales ( ) lemma=humoral 
- humores ( ) lemma=humor 
+ humorales ( ) 
+ humores ( ) 
  humorismo ( ) 
  humorista ( ) 
- humoristas ( ) lemma=humorista 
- humorística ( ) lemma=humorístico 
+ humoristas ( ) 
+ humorística ( ) 
+ humorísticas ( ) 
  humorístico ( ) 
- humorísticas ( ) lemma=humorístico 
- humorísticos ( ) lemma=humorístico 
- humos ( ) lemma=humo 
- hunda ( ) lemma=hundir 
- hundir ( ) 
- hundamos ( ) lemma=hundir 
- hundan ( ) lemma=hundir 
- hunde ( ) lemma=hundir 
- hunden ( ) lemma=hundir 
- hundida ( ) lemma=hundir 
- hundido ( ) lemma=hundir 
- hundidos ( ) lemma=hundir 
- hundiendo ( ) lemma=hundir 
- hundiera ( ) lemma=hundir 
- hundieran ( ) lemma=hundir 
- hundieron ( ) lemma=hundir 
+ humorísticos ( ) 
+ humos ( ) 
+ hunda ( ) 
+ hundamos ( ) 
+ hundan ( ) 
+ hunde ( ) 
+ hunden ( ) 
+ hundida ( ) 
+ hundido ( ) 
+ hundidos ( ) 
+ hundiendo ( ) 
+ hundiera ( ) 
+ hundieran ( ) 
+ hundieron ( ) 
  hundimiento ( ) 
- hundimientos ( ) lemma=hundimiento 
- hundimos ( ) lemma=hundir 
- hundiremos ( ) lemma=hundir 
- hundirme ( ) lemma=hundir 
- hundirnos ( ) lemma=hundir 
+ hundimientos ( ) 
+ hundimos ( ) 
+ hundir ( ) 
+ hundiremos ( ) 
+ hundirme ( ) 
+ hundirnos ( ) 
  hundirse ( ) 
- hundirá ( ) lemma=hundir 
- hundiría ( ) lemma=hundir 
- hundiéndonos ( ) lemma=hundir 
- hundiéndose ( ) lemma=hundir 
- hundió ( ) lemma=hundir 
- hundo ( ) lemma=hundir 
- hundían ( ) lemma=hundir 
+ hundirá ( ) 
+ hundiría ( ) 
+ hundiéndonos ( ) 
+ hundiéndose ( ) 
+ hundió ( ) 
+ hundo ( ) 
+ hundían ( ) 
  huracanados ( ) 
- huracanes ( ) lemma=huracán 
+ huracanes ( ) 
  huracán ( ) 
  huraño ( ) 
- hurones ( ) lemma=hurón 
- hurón ( ) 
- hurta ( ) lemma=hurtar 
+ hurones ( ) 
+ hurta ( ) 
+ hurtado ( ) 
  hurtar ( ) 
- hurtado ( ) lemma=hurtar 
  hurto ( ) 
- hurtos ( ) lemma=hurto 
+ hurtos ( ) 
  huso ( ) 
- husos ( ) lemma=huso 
+ husos ( ) 
  huy ( ) 
- huya ( ) lemma=huir 
- huyamos ( ) lemma=huir 
- huyan ( ) lemma=huir 
- huye ( ) lemma=huir 
- huyen ( ) lemma=huir 
- huyendo ( ) lemma=huir 
- huyera ( ) lemma=huir 
- huyeran ( ) lemma=huir 
- huyeron ( ) lemma=huir 
- huyese ( ) lemma=huir 
- huyesen ( ) lemma=huir 
- huyó ( ) lemma=huir 
- huérfana ( ) lemma=huérfano 
+ huya ( ) 
+ huyamos ( ) 
+ huyan ( ) 
+ huye ( ) 
+ huyen ( ) 
+ huyendo ( ) 
+ huyera ( ) 
+ huyeran ( ) 
+ huyeron ( ) 
+ huyese ( ) 
+ huyesen ( ) 
+ huyó ( ) 
+ huérfana ( ) 
  huérfano ( ) 
- huérfanos ( ) lemma=huérfano 
+ huérfanos ( ) 
  huésped ( ) 
- huéspedes ( ) lemma=huésped 
- huía ( ) lemma=huir 
- huían ( ) lemma=huir 
+ huéspedes ( ) 
+ huía ( ) 
+ huían ( ) 
  hypothetical ( ) 
  hábil ( ) 
- hábiles ( ) lemma=hábil 
- hábilmente ( ) lemma=hábil 
+ hábiles ( ) 
+ hábilmente ( ) 
  hábitat ( ) 
- hábitats ( ) lemma=hábitat 
+ hábitats ( ) 
  hábito ( ) 
- hábitos ( ) lemma=hábito 
- háblale ( ) lemma=hablar 
- háblame ( ) lemma=hablar 
- háblanos ( ) lemma=hablar 
- háblele ( ) lemma=hablar 
- háblenos ( ) lemma=hablar 
- háblese ( ) lemma=hablarse 
- hácele ( ) lemma=hacer 
- hágala ( ) lemma=hacer 
- hágalo ( ) lemma=hacer 
- hágame ( ) lemma=hacer 
- háganla ( ) lemma=hacer 
- háganlo ( ) lemma=hacer 
- hágannos ( ) lemma=hacer 
- háganse ( ) lemma=hacerse 
- hágase ( ) lemma=hacer 
+ hábitos ( ) 
+ háblale ( ) 
+ háblame ( ) 
+ háblanos ( ) 
+ háblele ( ) 
+ háblenos ( ) 
+ háblese ( ) 
+ hácele ( ) 
+ hágala ( ) 
+ hágalo ( ) 
+ hágame ( ) 
+ háganla ( ) 
+ háganlo ( ) 
+ hágannos ( ) 
+ háganse ( ) 
+ hágase ( ) 
  hámster ( ) 
  hélice ( ) 
  hélice-vuelta ( ) 
  hélice-vuelta-hélice ( ) 
- hélices ( ) lemma=hélice 
- héroes ( ) lemma=héroe 
+ hélices ( ) 
+ héroe ( ) 
+ héroes ( ) 
  hétérogene ( ) 
- híbrida ( ) lemma=híbrido 
+ híbrida ( ) 
+ híbridas ( ) 
  híbrido ( ) 
- híbridas ( ) lemma=híbrido 
- híbridos ( ) lemma=híbrido 
- hídrica ( ) lemma=hídrico 
+ híbridos ( ) 
+ hídrica ( ) 
  hídrico ( ) 
- hídricos ( ) lemma=hídrico 
+ hídricos ( ) 
  hígado ( ) 
  híjole ( ) 
  hípico ( ) 
- hísticas ( ) lemma=hístico 
+ hísticas ( ) 
  hístico ( ) 
- húmeda ( ) lemma=húmedo 
- húmedas ( ) lemma=húmedo 
- húmedos ( ) lemma=húmedo 
+ húmeda ( ) 
+ húmedas ( ) 
+ húmedo ( ) 
+ húmedos ( ) 
  húmero ( ) 
- húmicos ( ) lemma=húmico 
- húmico ( ) 
- húngara ( ) lemma=húngaro 
+ húmicos ( ) 
+ húngara ( ) 
+ húngaras ( ) 
  húngaro ( ) 
- húngaras ( ) lemma=húngaro 
- húngaros ( ) lemma=húngaro 
+ húngaros ( ) 
+ habi_(Abu~Dhabi ( ) 
+ hme ( ) lemma=Ahmed 
+ hor ( ) lemma=thorn 
+ hutá ( ) lemma=Bhután 
+ habel ( ) lemma=Chabela 
+ hacarit ( ) lemma=Chacarita 
+ hac ( ) lemma=Chaco 
+ hadwic ( ) lemma=Chadwick 
+ ham ( ) lemma=champ 
+ hamberli ( ) lemma=Chamberlin 
+ hamorr ( ) lemma=Chamorro 
+ hangeSubscriptionProfil ( ) lemma=ChangeSubscriptionProfile 
+ hapultepe ( ) lemma=Chapultepec 
+ harle ( ) lemma=charlar 
+ harli ( ) lemma=Charlie 
+ harlott ( ) lemma=Charlotte 
+ hat ( ) lemma=Chato 
+ havaran ( ) lemma=Chavarano 
+ hav ( ) lemma=chavo 
+ haít ( ) lemma=Chaíto 
+ hech ( ) lemma=cheche 
+ hecoslovac ( ) lemma=checoslovaco 
+ hecoslovaqui ( ) lemma=Checoslovaquia 
+ hel ( ) lemma=shell 
+ hemica ( ) lemma=Chemical 
+ herl ( ) lemma=Cherla 
+ hesn ( ) lemma=Chesno 
+ hetzel ( ) lemma=Chetzels 
+ hevrole ( ) lemma=Chevrolet 
+ hi-cuadrad ( ) lemma=Chi-cuadrado 
+ hiapa ( ) lemma=Chiapas 
+ hicag ( ) lemma=Chicago 
+ hich ( ) lemma=chicho 
+ hiclan ( ) lemma=Chiclana 
+ hihuahu ( ) lemma=Chihuahua 
+ hilco ( ) lemma=Chilcoa 
+ hil ( ) lemma=chile 
+ hiluc ( ) lemma=Chiluca 
+ hin ( ) lemma=chino 
+ hinch ( ) lemma=Chincha 
+ hinglepu ( ) lemma=Chingleput 
+ hiot ( ) lemma=Chiote 
+ hiotit ( ) lemma=Chiote 
+ hipinqu ( ) lemma=Chipinque 
+ hipr ( ) lemma=Chipre 
+ hiquilin ( ) lemma=Chiquilina 
+ hiquit ( ) lemma=chico 
+ hlamydi ( ) lemma=Chlamydia 
+ hlorell ( ) lemma=Chlorella 
+ hoose ( ) lemma=Chooser 
+ hop ( ) lemma=chopo 
+ hot ( ) lemma=choto 
+ hove ( ) lemma=Chovet 
+ hri ( ) lemma=Chris 
+ hristia ( ) lemma=Christian 
+ hristophe ( ) lemma=Christopher 
+ hrysle ( ) lemma=Chrysler 
+ hrysophit ( ) lemma=Chrysophita 
+ hubu ( ) lemma=Chubut 
+ hum ( ) lemma=Chumi 
+ hup ( ) lemma=chupar 
+ hurc ( ) lemma=Church 
+ háve ( ) lemma=Chávez 
+ hrlichi ( ) lemma=Ehrlichia 
+ hora_(hasta~ahora ( ) 
+ Huracán ( ) 
+ H0 ( ) lemma=LH02 
+ H1 ( ) lemma=LH16 
+ H6 ( ) lemma=LH62 
+ hbayash ( ) lemma=Ohbayashi 
+ hi ( ) lemma=chis 
+ hiladelphi ( ) lemma=Philadelphia 
+ hoeni ( ) lemma=Phoenix 
+ hycomycete ( ) lemma=Phycomycetes 
+ h-negativ ( ) lemma=Rh-negativa 
+ h-positiv ( ) lemma=Rh-positivo 
+ hipicephalu ( ) lemma=Rhipicephalus 
+ hizobiu ( ) lemma=Rhizobium 
+ hone-Poulen ( ) lemma=Rhone-Poulenc 
+ hakespear ( ) lemma=Shakespeare 
+ hanno ( ) lemma=Shannon 
+ harja ( ) lemma=Sharjah 
+ harpshoote ( ) lemma=Sharpshooter 
+ hearso ( ) lemma=Shearson 
+ helbourn ( ) lemma=Shelbourne 
+ hell ( ) lemma=Shells 
+ herma ( ) lemma=Sherman 
+ hine-Dalgarn ( ) lemma=Shine-Dalgarno 
+ hubi ( ) lemma=Shubik 
+ hatche ( ) lemma=Thatcher 
+ hibau ( ) lemma=Thibaut 
+ homa ( ) lemma=Thomas 
+ hom ( ) lemma=Thoms 
+ homso ( ) lemma=Thomson 
+ hune ( ) lemma=Thunen 
+ hy- ( ) lemma=Thy-1 
+ hémi ( ) lemma=Thémis 
+ har ( ) lemma=wharf 
+ hittl ( ) lemma=Whittle 
+ hea ( ) lemma=ahead 
+ hijad ( ) lemma=ahijado 
+ hinc ( ) lemma=ahincar 
+ hog ( ) lemma=ahogo 
+ hogaba ( ) lemma=ahogar 
+ hogad ( ) lemma=ahogar 
+ hogada ( ) lemma=ahogar 
+ hogado ( ) lemma=ahogar 
+ hoga ( ) lemma=ahogar 
+ hogand ( ) lemma=ahogar 
+ hogarla ( ) lemma=ahogar 
+ hogarl ( ) lemma=ahogar 
+ hogarno ( ) lemma=ahogar 
+ hogaro ( ) lemma=ahogar 
+ hogars ( ) lemma=ahogarse 
+ hogaríamo ( ) lemma=ahogar 
+ hogo ( ) lemma=ahogo 
+ hoguemo ( ) lemma=ahogar 
+ hogándos ( ) lemma=ahogarse 
+ hog� ( ) lemma=ahogar 
+ hond ( ) lemma=ahondar 
+ hondad ( ) lemma=ahondar 
+ hondand ( ) lemma=ahondar 
+ hondar ( ) lemma=ahondar 
+ hondar� ( ) lemma=ahondar 
+ hondará ( ) lemma=ahondar 
+ hondarí ( ) lemma=ahondar 
+ hondemo ( ) lemma=ahondar 
+ hond� ( ) lemma=ahondar 
+ horcad ( ) lemma=ahorcar 
+ horcado ( ) lemma=ahorcar 
+ horc� ( ) lemma=ahorcar 
+ horit ( ) lemma=ahora 
+ horr ( ) lemma=chorro 
+ horrab ( ) lemma=ahorrar 
+ horrad ( ) lemma=chorrada 
+ horrada ( ) lemma=chorrada 
+ horradora ( ) lemma=ahorrador 
+ horrado ( ) lemma=ahorrar 
+ horramo ( ) lemma=ahorrar 
+ horra ( ) lemma=ahorrar 
+ horrand ( ) lemma=ahorrar 
+ horraremo ( ) lemma=ahorrar 
+ horraro ( ) lemma=ahorrar 
+ horrars ( ) lemma=ahorrarse 
+ horrar� ( ) lemma=ahorrar 
+ horrarí ( ) lemma=ahorrar 
+ horraríamo ( ) lemma=ahorrar 
+ horraría ( ) lemma=ahorrar 
+ horremo ( ) lemma=ahorrar 
+ horre ( ) lemma=ahorrar 
+ horrist ( ) lemma=ahorrista 
+ horrista ( ) lemma=ahorrista 
+ horro ( ) lemma=chorro 
+ horr� ( ) lemma=ahorrar 
+ huecamient ( ) lemma=ahuecamiento 
+ humad ( ) lemma=ahumar 
+ humado ( ) lemma=ahumar 
+ humars ( ) lemma=ahumarse 
+ husa ( ) lemma=ahusar 
+ huyent ( ) lemma=ahuyentar 
+ huyentada ( ) lemma=ahuyentar 
+ huyenta ( ) lemma=ahuyentar 
+ huyentaro ( ) lemma=ahuyentar 
+ h� ( ) lemma=ché 
+ hínc ( ) lemma=ahínco 
+ hít ( ) lemma=ahíto 
+ hóguenno ( ) lemma=ahogar 
+ habacan ( ) lemma=chabacano 
+ habol ( ) lemma=chabola 
+ habola ( ) lemma=chabola 
+ haca ( ) lemma=chacal 
+ hach ( ) lemma=chachi 
+ hadd ( ) lemma=chadda 
+ haf ( ) lemma=chafar 
+ hafad ( ) lemma=chafar 
+ hafa ( ) lemma=chafar 
+ hag ( ) lemma=chaga 
+ hagásic ( ) lemma=chagásico 
+ hain ( ) lemma=chaine 
+ halad ( ) lemma=chalar 
+ halado ( ) lemma=chalar 
+ halchaz ( ) lemma=chalchazo 
+ halecit ( ) lemma=chalecito 
+ halec ( ) lemma=chaleco 
+ haleco ( ) lemma=chaleco 
+ hal� ( ) lemma=chalet 
+ halé ( ) lemma=chalet 
+ hamaco ( ) lemma=chamaco 
+ hamaquito ( ) lemma=chamaco 
+ hamarr ( ) lemma=chamarra 
+ hamb ( ) lemma=chamba 
+ hambea ( ) lemma=chambear 
+ hampagn ( ) lemma=champagne 
+ hampañ ( ) lemma=champagne 
+ hampá ( ) lemma=champagne 
+ hamp� ( ) lemma=shampoo 
+ hanc ( ) lemma=chance 
+ hance ( ) lemma=chance 
+ hancill ( ) lemma=chance 
+ hangarro ( ) lemma=changarro 
+ hang ( ) lemma=change 
+ hanne ( ) lemma=channel 
+ hanquete ( ) lemma=chanquete 
+ hantaj ( ) lemma=chantaje 
+ hantajead ( ) lemma=chantajear 
+ hantajeado ( ) lemma=chantajear 
+ hantajeand ( ) lemma=chantajear 
+ hantajea ( ) lemma=chantajear 
+ hantaje ( ) lemma=chantaje 
+ hanz ( ) lemma=chanza 
+ hap ( ) lemma=chapo 
+ haparrit ( ) lemma=chaparro 
+ haparró ( ) lemma=chaparrón 
+ hapa ( ) lemma=chapa 
+ hapit ( ) lemma=chapa 
+ hapucer ( ) lemma=chapucero 
+ hapucerament ( ) lemma=chapucero 
+ hapuz ( ) lemma=chapuzar 
+ hapuza ( ) lemma=chapuzar 
+ haquet ( ) lemma=chaqueta 
+ haqueta ( ) lemma=chaqueta 
+ haquetit ( ) lemma=chaqueta 
+ haqu� ( ) lemma=chaqué 
+ haracte ( ) lemma=character 
+ haracteristi ( ) lemma=characteristic 
+ haracter ( ) lemma=characters 
+ harc ( ) lemma=charco 
+ harca ( ) lemma=charca 
+ harco ( ) lemma=charco 
+ hario ( ) lemma=chariot 
+ harl ( ) lemma=charla 
+ harlad ( ) lemma=charlar 
+ harlamo ( ) lemma=charlar 
+ harla ( ) lemma=charla 
+ harland ( ) lemma=charlar 
+ harlatá ( ) lemma=charlatán 
+ harl� ( ) lemma=charlar 
+ haro ( ) lemma=charol 
+ harol ( ) lemma=charolar 
+ harola ( ) lemma=charolar 
+ harrit ( ) lemma=charro 
+ harr ( ) lemma=charro 
+ harro ( ) lemma=charro 
+ harru ( ) lemma=charrúa 
+ hasc ( ) lemma=chasco 
+ hasca ( ) lemma=chascar 
+ hasco ( ) lemma=chasco 
+ hasi ( ) lemma=chasis 
+ hatarr ( ) lemma=chatarra 
+ hauch ( ) lemma=chaucha 
+ hava ( ) lemma=chaval 
+ haval ( ) lemma=chaval 
+ havala ( ) lemma=chaval 
+ havale ( ) lemma=chaval 
+ havalit ( ) lemma=chaval 
+ havo ( ) lemma=chavo 
+ hec ( ) lemma=checo 
+ heca ( ) lemma=checo 
+ heco ( ) lemma=checo 
+ hecoslovaca ( ) lemma=checoslovaco 
+ helí ( ) lemma=chelín 
+ hemi ( ) lemma=chemin 
+ hequ ( ) lemma=cheque 
+ hequead ( ) lemma=chequear 
+ hequeand ( ) lemma=chequear 
+ hequea ( ) lemma=chequear 
+ hequearl ( ) lemma=chequear 
+ hequearm ( ) lemma=chequear 
+ heque ( ) lemma=cheque 
+ hequé ( ) lemma=cheqear 
+ hequée ( ) lemma=chequear 
+ herit ( ) lemma=chero 
+ her ( ) lemma=chero 
+ heverísim ( ) lemma=chévere 
+ hiapanec ( ) lemma=chiapaneco 
+ hiapaneco ( ) lemma=chiapaneco 
+ hic ( ) lemma=chico 
+ hicano ( ) lemma=chicano 
+ hica ( ) lemma=chico 
+ hicharr ( ) lemma=chicharro 
+ hicharro ( ) lemma=chicharro 
+ hiche ( ) lemma=chiche 
+ hichó ( ) lemma=chichón 
+ hicl ( ) lemma=chicle 
+ hicle ( ) lemma=chicle 
+ hico ( ) lemma=chico 
+ hiffre ( ) lemma=chiffres 
+ hifl ( ) lemma=chiflar 
+ hiflad ( ) lemma=chiflar 
+ hihuahuens ( ) lemma=chihuahuense 
+ hihuahuense ( ) lemma=chihuahuense 
+ hilang ( ) lemma=chilango 
+ hilango ( ) lemma=chilango 
+ hilen ( ) lemma=chileno 
+ hilena ( ) lemma=chileno 
+ hileno ( ) lemma=chileno 
+ hile ( ) lemma=chile 
+ hill ( ) lemma=chillar 
+ hillad ( ) lemma=chillar 
+ hilla ( ) lemma=chillar 
+ hilland ( ) lemma=chillar 
+ hille ( ) lemma=chillar 
+ hillon ( ) lemma=chillón 
+ himb ( ) lemma=chimba 
+ himene ( ) lemma=chimenea 
+ himenea ( ) lemma=chimenea 
+ himpancé ( ) lemma=chimpancé 
+ hina ( ) lemma=chino 
+ hineand ( ) lemma=chinear 
+ hingad ( ) lemma=chingar 
+ hingarr ( ) lemma=chingarro 
+ hinit ( ) lemma=chinito 
+ hino ( ) lemma=chino 
+ hipriot ( ) lemma=chipriota 
+ hipriota ( ) lemma=chipriota 
+ hip ( ) lemma=chip 
+ hiquillad ( ) lemma=chiquillada 
+ hiquilla ( ) lemma=chico 
+ hiquillita ( ) lemma=chiquillo 
+ hiquill ( ) lemma=chico 
+ hiquillo ( ) lemma=chico 
+ hiquita ( ) lemma=chico 
+ hiquitic ( ) lemma=chiquita 
+ hiquitit ( ) lemma=chiquitito 
+ hiquito ( ) lemma=chico 
+ hirla ( ) lemma=chirlar 
+ hism ( ) lemma=chisme 
+ hisme ( ) lemma=chisme 
+ hismoséam ( ) lemma=chismosear 
+ hisp ( ) lemma=chispa 
+ hispa ( ) lemma=chispa 
+ hispaz ( ) lemma=chispazo 
+ hista ( ) lemma=chistar 
+ hist ( ) lemma=chistar 
+ hister ( ) lemma=chistera 
+ histe ( ) lemma=chistar 
+ histid ( ) lemma=chistido 
+ histos ( ) lemma=chistoso 
+ hita ( ) lemma=chitas 
+ hiv ( ) lemma=chivo 
+ hiva ( ) lemma=chivo 
+ hivet ( ) lemma=chiveto 
+ hivo ( ) lemma=chivo 
+ hiít ( ) lemma=chiíta 
+ hiíta ( ) lemma=chiíta 
+ ho ( ) lemma=show 
+ hoc ( ) lemma=shock 
+ hocad ( ) lemma=chocar 
+ hocado ( ) lemma=chocar 
+ hocamo ( ) lemma=chocar 
+ hoca ( ) lemma=chocar 
+ hocand ( ) lemma=chocar 
+ hocant ( ) lemma=chocante 
+ hocante ( ) lemma=chocante 
+ hocarl ( ) lemma=chocar 
+ hocaro ( ) lemma=chocar 
+ hocart ( ) lemma=chocar 
+ hocar� ( ) lemma=chocar 
+ hocará ( ) lemma=chocar 
+ hocarí ( ) lemma=chocar 
+ hocas ( ) lemma=chocar 
+ hocheand ( ) lemma=chochear 
+ hochea ( ) lemma=chochear 
+ hoche ( ) lemma=chochear 
+ hoch ( ) lemma=chocho 
+ hocolat ( ) lemma=chocolate 
+ hocolate ( ) lemma=chocolate 
+ hoc� ( ) lemma=chocar 
+ hofe ( ) lemma=chofer 
+ hofere ( ) lemma=chofer 
+ hoic ( ) lemma=choice 
+ hoi ( ) lemma=choix 
+ holit ( ) lemma=cholo 
+ homb ( ) lemma=chomba 
+ hopit ( ) lemma=chopo 
+ hopito ( ) lemma=chopo 
+ hopo ( ) lemma=chopo 
+ hoqu ( ) lemma=choque 
+ hoque ( ) lemma=choque 
+ horiz ( ) lemma=chorizo 
+ horizo ( ) lemma=chorizo 
+ horradill ( ) lemma=chorrada 
+ horradilla ( ) lemma=chorrada 
+ horrit ( ) lemma=chorro 
+ hoto ( ) lemma=choto 
+ hoza ( ) lemma=choza 
+ hubasc ( ) lemma=chubasco 
+ hubasco ( ) lemma=chubasco 
+ huch ( ) lemma=chucha 
+ huec ( ) lemma=chueca 
+ hul ( ) lemma=chulo 
+ hulea ( ) lemma=chulear 
+ hulee ( ) lemma=chulear 
+ hulerí ( ) lemma=chulería 
+ hulería ( ) lemma=chulería 
+ hulet ( ) lemma=chuleta 
+ huleta ( ) lemma=chuleta 
+ huletill ( ) lemma=chuleta 
+ huletit ( ) lemma=chuleta 
+ hulo ( ) lemma=chulo 
+ hulísim ( ) lemma=chulo 
+ hump ( ) lemma=chumpa 
+ hunkin ( ) lemma=chunking 
+ hupad ( ) lemma=chupar 
+ hupado ( ) lemma=chupar 
+ hupall ( ) lemma=chupalla 
+ hupamo ( ) lemma=chupar 
+ hupand ( ) lemma=chupar 
+ hupao ( ) lemma=chupar 
+ hupa ( ) lemma=chupar 
+ huparía ( ) lemma=chupar 
+ hupe ( ) lemma=chupar 
+ hurr ( ) lemma=churro 
+ hurro ( ) lemma=churro 
+ hurruscad ( ) lemma=churruscar 
+ husm ( ) lemma=chusma 
+ hut ( ) lemma=chuta 
+ hutand ( ) lemma=chutar 
+ hut� ( ) lemma=chutar 
+ hámel ( ) lemma=chámela 
+ hánda ( ) lemma=chándal 
+ héver ( ) lemma=chévere 
+ hícharo ( ) lemma=chícharo 
+ hócal ( ) lemma=chocar 
+ hófe ( ) lemma=chófer 
+ hófere ( ) lemma=chófer 
+ hh ( ) lemma=eh 
+ hhh ( ) lemma=shhht 
+ hrlichiosi ( ) lemma=ehrlichiosis 
+ habichuela ( ) 
+ habituar ( ) 
+ hacendar ( ) 
+ hachar ( ) 
+ hachemito ( ) 
+ hadar ( ) 
+ halar ( ) 
+ halagar ( ) 
+ halagüeño ( ) 
+ halogenar ( ) 
+ halón ( ) 
+ halógeno ( ) 
+ hamburgués ( ) 
+ hawaiano ( ) 
+ hebilla ( ) 
+ hechizar ( ) 
+ hechura ( ) 
+ heder ( ) 
+ hediondo ( ) 
+ helar ( ) 
+ hematoma ( ) 
+ hematopoyético ( ) 
+ hematíe ( ) 
+ hematógeno ( ) 
+ hemidesmosoma ( ) 
+ hemimembrana ( ) 
+ hemisférico ( ) 
+ hemoderivado ( ) 
+ hemofílico ( ) 
+ hemopoyético ( ) 
+ hemostático ( ) 
+ hemático ( ) 
+ hendir ( ) 
+ hepatocito ( ) 
+ hepatopancreático ( ) 
+ herbáceo ( ) 
+ herbívoro ( ) 
+ hermanar ( ) 
+ heroinómano ( ) 
+ heterocromático ( ) 
+ heterófilo ( ) 
+ heterólogo ( ) 
+ heurístico ( ) 
+ hexagonal ( ) 
+ hibridar ( ) 
+ hibridoma ( ) 
+ hidratar ( ) 
+ hidrodinámico ( ) 
+ hidrófilo ( ) 
+ hidrogenar ( ) 
+ hidrogeológico ( ) 
+ hidrogeoquímico ( ) 
+ hidrográfico ( ) 
+ hidrófobo ( ) 
+ herver|hervir ( ) 
+ hijastro ( ) 
+ henchir|hinchar ( ) 
+ hiperactivo ( ) 
+ hiperagudo ( ) 
+ hipermétrope ( ) 
+ hipersensible ( ) 
+ hipertensivo ( ) 
+ hipnotizar ( ) 
+ hipnótico ( ) 
+ hipoglucemiante ( ) 
+ hipérbola ( ) 
+ hipar ( ) 
+ hispánico ( ) 
+ histiocito ( ) 
+ histoquímica ( ) 
+ histriónico ( ) 
+ hitar ( ) 
+ hojear ( ) 
+ hombría ( ) 
+ homogamético ( ) 
+ homopolímero ( ) 
+ homócrono ( ) 
+ homónimo ( ) 
+ horquillar ( ) 
+ horrorizar ( ) 
+ hortícola ( ) 
+ hospitalizar ( ) 
+ hoyar ( ) 
+ huelguista ( ) 
+ hueste ( ) 
+ huesudo ( ) 
+ huevar ( ) 
+ hueva ( ) 
+ humar ( ) 
+ humedecer ( ) 
+ hurón ( ) 
+ húmico ( ) 
+ hmi ( ) lemma=ohmio 
+ hmio ( ) lemma=ohmio 
  hondonada ( ) 
+ hanto ( ) lemma=phantom 
+ hysiologí ( ) lemma=physiología 
+ hysi ( ) lemma=physis 
+ hýsi ( ) lemma=phýsis 
+ hýsis-dik ( ) lemma=phýsis-dike 
+ hora_(por~ahora ( ) 
+ hodesiens ( ) lemma=rhodesiense 
+ herif ( ) lemma=sheriff 
+ hif ( ) lemma=shift 
+ hock ( ) lemma=shock 
+ hun ( ) lemma=shunt 
+ heil ( ) lemma=theile 
+ heoretica ( ) lemma=theoretical 
+ hesauru ( ) lemma=thesaurus 
+ het ( ) lemma=theta 
+ hrea ( ) lemma=thread 
+ hre ( ) lemma=three 
+ hroug ( ) lemma=through 
+ hyroxin ( ) lemma=thyroxine 
+ héoriqu ( ) lemma=théorique 
+ hiskie ( ) lemma=whisky 
+ hisk ( ) lemma=whisky 
+ hit ( ) lemma=white 

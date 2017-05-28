@@ -1,4 +1,4 @@
-﻿ J ( ) 
+﻿ J ( ) lemma=SJe 
  JCDR ( ) 
  JCT1 ( ) 
  JTC ( ) 
@@ -13,21 +13,20 @@
  Jaffe ( ) 
  Jaguar-GM ( ) 
  Jaime ( ) 
- Jaimito ( ) lemma=Jaime 
+ Jaimito ( ) 
  Jalapa ( ) 
  Jalisco ( ) 
  Jamahiriya ( ) 
  Jamaica ( ) 
  James ( ) 
  Jan ( ) 
- Janecita ( ) lemma=Janice 
- Janice ( ) 
+ Janecita ( ) 
  Janet ( ) 
  Janeway ( ) 
  Japón ( ) 
  Jaro ( ) 
  Java ( ) 
- Javi ( ) lemma=Javier 
+ Javi ( ) 
  Javier ( ) 
  Jaén ( ) 
  Jean ( ) 
@@ -43,7 +42,7 @@
  Jersey ( ) 
  Jerusalén ( ) 
  Jerónimo ( ) 
- Jerónimos ( ) lemma=Jerónimo 
+ Jerónimos ( ) 
  Jessica ( ) 
  Jessie ( ) 
  Jesu ( ) 
@@ -62,8 +61,7 @@
  Johnson ( ) 
  Joie ( ) 
  Join ( ) 
- Joint_Committee_Technical ( ) lemma=Joint~Committee~Technical 
- Joint~Committee~Technical ( ) 
+ Joint ( ) 
  Jonatan ( ) 
  Jonathan ( ) 
  Jones ( ) 
@@ -71,28 +69,26 @@
  Jordania ( ) 
  Jordi ( ) 
  Jorge ( ) 
- Jorgito ( ) lemma=Jorge 
- Jose ( ) lemma=José 
- José ( ) 
+ Jorgito ( ) 
+ Jose ( ) 
  Josefa ( ) 
  Joseph ( ) 
+ José ( ) 
  Jovani ( ) 
  Joy ( ) 
  Joystick ( ) 
  Juan ( ) 
- Juana ( ) lemma=Juan 
- Juancito ( ) lemma=Juan 
- Juanita ( ) lemma=Juana 
- Juanito ( ) lemma=Juan 
+ Juana ( ) 
+ Juancito ( ) 
+ Juanita ( ) 
+ Juanito ( ) 
  Juez ( ) 
  Juglar ( ) 
- Julia ( ) lemma=Julio 
- Julio ( ) 
+ Julia ( ) 
  Julián ( ) 
  JumpS ( ) 
  Jung ( ) 
- Junto_con ( ) lemma=junto~con 
- junto~con ( ) 
+ Junto ( ) 
  Jurado ( ) 
  Jurados ( ) 
  Justicia ( ) 
@@ -103,471 +99,616 @@
  Juárez ( ) 
  Jáguer ( ) 
  Júpiter ( ) 
- j ( ) 
- ja ( ) 
+ j ( ) lemma=ojo 
+ ja ( ) lemma=ojal 
  jabalina ( ) 
  jabalí ( ) 
- jabalíes ( ) lemma=jabalí 
- jabones ( ) lemma=jabón 
+ jabalíes ( ) 
+ jabones ( ) 
  jabón ( ) 
  jacinto ( ) 
  jack ( ) 
- jacta ( ) lemma=jactar 
- jactar ( ) 
- jactaba ( ) lemma=jactar 
- jactado ( ) lemma=jactar 
- jactamos ( ) lemma=jactar 
- jactan ( ) lemma=jactar 
+ jacta ( ) 
+ jactaba ( ) 
+ jactado ( ) 
+ jactamos ( ) 
+ jactan ( ) 
  jactancia ( ) 
- jactancias ( ) lemma=jactancia 
- jactarme ( ) lemma=jactar 
+ jactancias ( ) 
+ jactar ( ) 
+ jactarme ( ) 
  jactarse ( ) 
- jacto ( ) lemma=jactar 
- jactó ( ) lemma=jactar 
- jacé ( ) lemma=hacer 
+ jacto ( ) 
+ jactó ( ) 
+ jacé ( ) 
  jadeo ( ) 
- jala ( ) lemma=jar 
- jar ( ) 
- jalado ( ) lemma=jalar 
- jalar ( ) 
+ jala ( ) 
+ jalado ( ) 
  jalapeño ( ) 
- jalapeños ( ) lemma=jalapeño 
- jaleaba ( ) lemma=jalear 
+ jalapeños ( ) 
+ jalar ( ) 
+ jaleaba ( ) 
+ jaleadas ( ) 
+ jaleados ( ) 
+ jalean ( ) 
  jalear ( ) 
- jaleadas ( ) lemma=jalear 
- jaleados ( ) lemma=jalear 
- jalean ( ) lemma=jalear 
  jaleo ( ) 
- jaleos ( ) lemma=jaleo 
+ jaleos ( ) 
  jalisciense ( ) 
- jaliscienses ( ) lemma=jalisciense 
- jalones ( ) lemma=jalón 
+ jaliscienses ( ) 
+ jalones ( ) 
+ jaló ( ) 
  jalón ( ) 
- jaló ( ) lemma=jalar 
- jamamos ( ) lemma=jamar 
- jamar ( ) 
- jamas ( ) lemma=jamás 
+ jamamos ( ) 
+ jamas ( ) 
+ jamases ( ) 
+ jambas ( ) 
  jamás ( ) 
- jamases ( ) lemma=jamar 
- jambas ( ) lemma=jambar 
- jambar ( ) 
  jamón ( ) 
- japonesa ( ) lemma=japonés 
- japonés ( ) 
- japonesas ( ) lemma=japonés 
- japoneses ( ) lemma=japonés 
+ japonesa ( ) 
+ japonesas ( ) 
+ japoneses ( ) 
  japoneses-americano ( ) 
+ japonés ( ) 
  jaque ( ) 
  jaqueca ( ) 
- jaquecas ( ) lemma=jaqueca 
+ jaquecas ( ) 
  jara ( ) 
  jarabe ( ) 
- jarabes ( ) lemma=jarabe 
- jaras ( ) lemma=jara 
+ jarabes ( ) 
+ jaras ( ) 
  jardinera ( ) 
- jardineras ( ) lemma=jardinera 
+ jardineras ( ) 
  jardinero ( ) 
- jardineros ( ) lemma=jardinero 
+ jardineros ( ) 
  jardinería ( ) 
- jardines ( ) lemma=jardín 
+ jardines ( ) 
  jardín ( ) 
  jaromas ( ) 
  jarra ( ) 
- jarras ( ) lemma=jarra 
+ jarras ( ) 
  jarro ( ) 
- jarroncito ( ) lemma=jarrón 
+ jarroncito ( ) 
+ jarrones ( ) 
  jarrón ( ) 
- jarrones ( ) lemma=jarrón 
- jaspeada ( ) lemma=jaspear 
- jaspear ( ) 
+ jaspeada ( ) 
  jato ( ) 
  jauge ( ) 
  jaula ( ) 
- jaulas ( ) lemma=jaula 
- jaulita ( ) lemma=jaula 
+ jaulas ( ) 
+ jaulita ( ) 
  jauría ( ) 
  jazmín ( ) 
  jazz ( ) 
- je ( ) lemma=jar 
+ je ( ) lemma=eje 
  jeep ( ) 
- jefa ( ) lemma=jefe 
- jefe ( ) 
+ jefa ( ) 
  jefatura ( ) 
- jefaturas ( ) lemma=jefatura 
- jefes ( ) lemma=jefe 
+ jefaturas ( ) 
+ jefe ( ) 
+ jefes ( ) 
  jeque ( ) 
- jeques ( ) lemma=jeque 
+ jeques ( ) 
  jerarca ( ) 
- jerarcas ( ) lemma=jerarca 
- jerarquiza ( ) lemma=jerarquizar 
+ jerarcas ( ) 
+ jerarquiza ( ) 
+ jerarquizada ( ) 
+ jerarquizadas ( ) 
+ jerarquizado ( ) 
  jerarquizar ( ) 
- jerarquizada ( ) lemma=jerarquizar 
- jerarquizadas ( ) lemma=jerarquizar 
- jerarquizado ( ) lemma=jerarquizar 
  jerarquía ( ) 
- jerarquías ( ) lemma=jerarquía 
+ jerarquías ( ) 
  jerez ( ) 
  jerga ( ) 
- jergones ( ) lemma=jergón 
+ jergones ( ) 
  jergón ( ) 
  jeringa ( ) 
- jeringas ( ) lemma=jeringa 
- jeringuillas ( ) lemma=jeringuilla 
- jeringuilla ( ) 
+ jeringas ( ) 
+ jeringuillas ( ) 
  jermu ( ) 
  jersey ( ) 
- jerseys ( ) lemma=jersey 
- jerárquica ( ) lemma=jerárquico 
+ jerseys ( ) 
+ jerárquica ( ) 
+ jerárquicamente ( ) 
  jerárquico ( ) 
- jerárquicamente ( ) lemma=jerárquico 
- jerárquicos ( ) lemma=jerárquico 
- jes ( ) lemma=jar 
+ jerárquicos ( ) 
+ jes ( ) 
  jesuita ( ) 
- jesuitas ( ) lemma=jesuita 
- jet ( ) 
+ jesuitas ( ) 
+ jet ( ) lemma=ojete 
  jeta ( ) 
- jets ( ) lemma=jet 
+ jets ( ) 
  jeu ( ) 
  ji ( ) 
  ji-cuadrar ( ) 
- jilguerillo ( ) lemma=jilguero 
+ jilguerillo ( ) 
  jilguero ( ) 
  jinete ( ) 
- jinetes ( ) lemma=jinete 
+ jinetes ( ) 
  jitter ( ) 
- jo ( ) lemma=jar 
- jocosa ( ) lemma=jocoso 
+ jo ( ) lemma=ojo 
+ jocosa ( ) 
+ jocosamente ( ) 
  jocoso ( ) 
- jocosamente ( ) lemma=jocoso 
  joda ( ) 
- jodan ( ) lemma=joder 
+ jodan ( ) 
+ jodas ( ) 
+ jode ( ) 
+ joden ( ) 
  joder ( ) 
- jodas ( ) lemma=joder 
- jode ( ) lemma=joder 
- joden ( ) lemma=joder 
- jodes ( ) lemma=joder 
- jodete ( ) lemma=joder 
- jodida ( ) lemma=joder 
+ jodes ( ) 
+ jodete ( ) 
+ jodida ( ) 
  jodido ( ) 
- jodidos ( ) lemma=joder 
- jodió ( ) lemma=joder 
- jodo ( ) lemma=joder 
- jodí ( ) lemma=joder 
- jodía ( ) lemma=joder 
+ jodidos ( ) 
+ jodió ( ) 
+ jodo ( ) 
+ jodí ( ) 
+ jodía ( ) 
  jolín ( ) 
  joncteur ( ) 
  jonction ( ) 
  jonrón ( ) 
  jornada ( ) 
- jornadas ( ) lemma=jornada 
+ jornadas ( ) 
  jornal ( ) 
  jornalero ( ) 
- jornaleros ( ) lemma=jornalero 
- jornales ( ) lemma=jornal 
+ jornaleros ( ) 
+ jornales ( ) 
  joroba ( ) 
  jorobado ( ) 
- joroban ( ) lemma=jorobar 
+ joroban ( ) 
  jorobar ( ) 
- josefina ( ) lemma=josefino 
- josefino ( ) 
- joules ( ) lemma=joule 
- joule ( ) 
+ josefina ( ) 
+ joules ( ) 
  joven ( ) 
- jovencita ( ) lemma=joven 
- jovencitas ( ) lemma=joven 
- jovencito ( ) lemma=joven 
- jovencitos ( ) lemma=joven 
+ jovencita ( ) 
+ jovencitas ( ) 
+ jovencito ( ) 
+ jovencitos ( ) 
  jovencísimo ( ) 
  jovial ( ) 
  joya ( ) 
- joyas ( ) lemma=joya 
+ joyas ( ) 
  joyero ( ) 
- joyeros ( ) lemma=joyero 
+ joyeros ( ) 
  joyería ( ) 
  juarense ( ) 
- jubila ( ) lemma=jubilar 
- jubilar ( ) 
- jubilaban ( ) lemma=jubilar 
- jubilaciones ( ) lemma=jubilación 
+ jubila ( ) 
+ jubilaban ( ) 
+ jubilaciones ( ) 
  jubilación ( ) 
- jubilada ( ) lemma=jubilar 
- jubiladas ( ) lemma=jubilar 
- jubilado ( ) lemma=jubilar 
- jubilados ( ) lemma=jubilar 
- jubilamos ( ) lemma=jubilar 
- jubilan ( ) lemma=jubilar 
+ jubilada ( ) 
+ jubiladas ( ) 
+ jubilado ( ) 
+ jubilados ( ) 
+ jubilamos ( ) 
+ jubilan ( ) 
+ jubilar ( ) 
  jubilarse ( ) 
- jubilaría ( ) lemma=jubilar 
+ jubilaría ( ) 
  jubileo ( ) 
- jubileos ( ) lemma=jubileo 
- jubilo ( ) lemma=jubilar 
- jubilosa ( ) lemma=jubiloso 
+ jubileos ( ) 
+ jubilo ( ) 
+ jubilosa ( ) 
+ jubilosamente ( ) 
+ jubilosas ( ) 
  jubiloso ( ) 
- jubilosamente ( ) lemma=jubiloso 
- jubilosas ( ) lemma=jubiloso 
- jubilosos ( ) lemma=jubiloso 
- jubiló ( ) lemma=jubilar 
- judaica ( ) lemma=judaico 
+ jubilosos ( ) 
+ jubiló ( ) 
+ judaica ( ) 
  judaico ( ) 
  judicial ( ) 
- judiciales ( ) lemma=judicial 
- judicialmente ( ) lemma=judicial 
- judiciaria ( ) lemma=judiciario 
- judiciario ( ) 
- judio ( ) lemma=judiar 
- judiar ( ) 
- judía ( ) lemma=judío 
+ judiciales ( ) 
+ judicialmente ( ) 
+ judiciaria ( ) 
+ judio ( ) 
+ judía ( ) 
+ judías ( ) 
  judío ( ) 
- judías ( ) lemma=judío 
- judíos ( ) lemma=judío 
- jueces ( ) lemma=juez 
- juez ( ) 
- juega ( ) lemma=jugar 
- jugar ( ) 
- juegan ( ) lemma=jugar 
- juegas ( ) lemma=jugar 
- juege ( ) lemma=jugar 
+ judíos ( ) 
+ jueces ( ) 
+ juega ( ) 
+ juegan ( ) 
+ juegas ( ) 
+ juege ( ) 
  juego ( ) 
- juegos ( ) lemma=juego 
- juegue ( ) lemma=jugar 
- jueguen ( ) lemma=jugar 
- juegues ( ) lemma=jugar 
- jueguito ( ) lemma=juego 
- jueguitos ( ) lemma=juego 
+ juegos ( ) 
+ juegue ( ) 
+ jueguen ( ) 
+ juegues ( ) 
+ jueguito ( ) 
+ jueguitos ( ) 
  juerga ( ) 
- juergas ( ) lemma=juerga 
+ juergas ( ) 
  jueves ( ) 
- jueza ( ) lemma=juez 
- juezas ( ) lemma=juez 
- jugaba ( ) lemma=jugar 
- jugaban ( ) lemma=jugar 
- jugabas ( ) lemma=jugar 
+ juez ( ) 
+ jueza ( ) 
+ juezas ( ) 
+ jugaba ( ) 
+ jugaban ( ) 
+ jugabas ( ) 
  jugada ( ) 
- jugadas ( ) lemma=jugar 
+ jugadas ( ) 
  jugado ( ) 
  jugador ( ) 
- jugadora ( ) lemma=jugador 
- jugadoras ( ) lemma=jugador 
- jugadores ( ) lemma=jugador 
- jugados ( ) lemma=jugar 
- jugamos ( ) lemma=jugar 
- jugando ( ) lemma=jugar 
- jugara ( ) lemma=jugar 
- jugaran ( ) lemma=jugar 
- jugaras ( ) lemma=jugar 
- jugaremos ( ) lemma=jugar 
- jugarla ( ) lemma=jugar 
- jugarlo ( ) lemma=jugar 
- jugarnos ( ) lemma=jugar 
- jugaron ( ) lemma=jugar 
+ jugadora ( ) 
+ jugadoras ( ) 
+ jugadores ( ) 
+ jugados ( ) 
+ jugamos ( ) 
+ jugando ( ) 
+ jugar ( ) 
+ jugara ( ) 
+ jugaran ( ) 
+ jugaras ( ) 
+ jugaremos ( ) 
+ jugarla ( ) 
+ jugarlo ( ) 
+ jugarnos ( ) 
+ jugaron ( ) 
  jugarse ( ) 
- jugarte ( ) lemma=jugar 
- jugará ( ) lemma=jugar 
- jugarán ( ) lemma=jugar 
- jugaré ( ) lemma=jugar 
- jugaría ( ) lemma=jugar 
- jugarían ( ) lemma=jugar 
- jugase ( ) lemma=jugar 
- jugaste ( ) lemma=jugar 
- jugasteis ( ) lemma=jugar 
+ jugarte ( ) 
+ jugará ( ) 
+ jugarán ( ) 
+ jugaré ( ) 
+ jugaría ( ) 
+ jugarían ( ) 
+ jugase ( ) 
+ jugaste ( ) 
+ jugasteis ( ) 
  jugo ( ) 
- jugos ( ) lemma=jugo 
- jugosa ( ) lemma=jugoso 
+ jugos ( ) 
+ jugosa ( ) 
+ jugosas ( ) 
  jugoso ( ) 
- jugosas ( ) lemma=jugoso 
- jugosos ( ) lemma=jugoso 
- juguemos ( ) lemma=jugar 
+ jugosos ( ) 
+ juguemos ( ) 
  juguete ( ) 
- juguetes ( ) lemma=juguete 
- jugueteó ( ) lemma=juguetear 
- juguetear ( ) 
- juguetito ( ) lemma=juguete 
- jugué ( ) lemma=jugar 
- jugábamos ( ) lemma=jugar 
- jugáis ( ) lemma=jugar 
- jugándoles ( ) lemma=jugar 
- jugándonos ( ) lemma=jugar 
- jugándose ( ) lemma=jugarse 
- jugáramos ( ) lemma=jugar 
- jugársela ( ) lemma=jugar 
- jugó ( ) lemma=jugar 
+ juguetes ( ) 
+ jugueteó ( ) 
+ juguetito ( ) 
+ jugué ( ) 
+ jugábamos ( ) 
+ jugáis ( ) 
+ jugándoles ( ) 
+ jugándonos ( ) 
+ jugándose ( ) 
+ jugáramos ( ) 
+ jugársela ( ) 
+ jugó ( ) 
  juicio ( ) 
- juicios ( ) lemma=juicio 
- jujará ( ) lemma=juzgar 
- juzgar ( ) 
+ juicios ( ) 
+ jujará ( ) 
  julio ( ) 
- julios ( ) lemma=julio 
- jumo ( ) lemma=jumar 
- jumar ( ) 
+ julios ( ) 
+ jumo ( ) 
  jumps ( ) 
- junamos ( ) lemma=junar 
- junar ( ) 
+ junamos ( ) 
  juncale ( ) 
  junco ( ) 
- juncos ( ) lemma=junco 
+ juncos ( ) 
  junction ( ) 
  junctor ( ) 
  jungla ( ) 
  junio ( ) 
  junior ( ) 
- juniors ( ) lemma=junior 
- junta ( ) lemma=junto 
- junto ( ) 
- juntaba ( ) lemma=juntar 
+ juniors ( ) 
+ junta ( ) 
+ juntaba ( ) 
+ juntaban ( ) 
+ juntado ( ) 
+ juntamente ( ) 
+ juntamos ( ) 
+ juntan ( ) 
+ juntando ( ) 
  juntar ( ) 
- juntaban ( ) lemma=juntar 
- juntado ( ) lemma=juntar 
- juntamente ( ) lemma=junto 
- juntamos ( ) lemma=juntar 
- juntan ( ) lemma=juntar 
- juntando ( ) lemma=juntar 
- juntara ( ) lemma=juntar 
- juntarnos ( ) lemma=juntar 
- juntaron ( ) lemma=juntar 
+ juntara ( ) 
+ juntarnos ( ) 
+ juntaron ( ) 
  juntarse ( ) 
- juntarán ( ) lemma=juntar 
- juntarían ( ) lemma=juntar 
- juntas ( ) lemma=junto 
- juntasen ( ) lemma=juntar 
- juntaste ( ) lemma=juntar 
- junte ( ) lemma=juntar 
- juntemos ( ) lemma=juntar 
- junten ( ) lemma=juntar 
- juntillas ( ) lemma=junto 
- juntitas ( ) lemma=junto 
- juntitos ( ) lemma=junto 
- junto_con ( ) lemma=junto~con 
- juntos ( ) lemma=junto 
- junturas ( ) lemma=juntura 
- juntura ( ) 
- junté ( ) lemma=juntar 
- juntó ( ) lemma=juntar 
- jura ( ) lemma=jurar 
- jurar ( ) 
- juraba ( ) lemma=jurar 
- jurada ( ) lemma=jurado 
+ juntarán ( ) 
+ juntarían ( ) 
+ juntas ( ) 
+ juntasen ( ) 
+ juntaste ( ) 
+ junte ( ) 
+ juntemos ( ) 
+ junten ( ) 
+ juntillas ( ) 
+ juntitas ( ) 
+ juntitos ( ) 
+ junto ( ) 
+ juntos ( ) 
+ junturas ( ) 
+ junté ( ) 
+ juntó ( ) 
+ jura ( ) 
+ juraba ( ) 
+ jurada ( ) 
+ juradas ( ) 
  jurado ( ) 
- juradas ( ) lemma=jurado 
- jurados ( ) lemma=jurado 
- juramentado ( ) lemma=juramentar 
+ jurados ( ) 
+ juramentado ( ) 
+ juramentados ( ) 
  juramentar ( ) 
- juramentados ( ) lemma=juramentar 
  juramento ( ) 
- juramentos ( ) lemma=juramento 
- juramentó ( ) lemma=juramentar 
- juramos ( ) lemma=jurar 
- juran ( ) lemma=jurar 
- jurando ( ) lemma=jurar 
- juraron ( ) lemma=jurar 
- juraría ( ) lemma=jurar 
- jurase ( ) lemma=jurar 
- jure ( ) lemma=jurar 
+ juramentos ( ) 
+ juramentó ( ) 
+ juramos ( ) 
+ juran ( ) 
+ jurando ( ) 
+ jurar ( ) 
+ juraron ( ) 
+ juraría ( ) 
+ jurase ( ) 
+ jure ( ) 
  jurisdiccional ( ) 
- jurisdiccionales ( ) lemma=jurisdiccional 
- jurisdicciones ( ) lemma=jurisdicción 
+ jurisdiccionales ( ) 
+ jurisdicciones ( ) 
  jurisdicción ( ) 
  jurisprudencia ( ) 
- jurisprudencias ( ) lemma=jurisprudencia 
+ jurisprudencias ( ) 
  jurista ( ) 
- juristas ( ) lemma=jurista 
- juro ( ) lemma=jurar 
- jurásica ( ) lemma=jurásico 
+ juristas ( ) 
+ juro ( ) 
+ jurásica ( ) 
  jurásico ( ) 
- jurídica ( ) lemma=jurídico 
+ jurídica ( ) 
+ jurídicamente ( ) 
+ jurídicas ( ) 
  jurídico ( ) 
- jurídicamente ( ) lemma=jurídico 
- jurídicas ( ) lemma=jurídico 
  jurídico-privar ( ) 
- jurídicos ( ) lemma=jurídico 
- juró ( ) lemma=jurar 
- justa ( ) lemma=justo 
- justo ( ) 
- justamente ( ) lemma=justo 
- justas ( ) lemma=justo 
- juste ( ) lemma=justar 
- justar ( ) 
- justicia ( ) 
- justicias ( ) lemma=justicia 
- justiciera ( ) lemma=justiciero 
+ jurídicos ( ) 
+ juró ( ) 
+ justa ( ) lemma=ajustar 
+ justamente ( ) 
+ justas ( ) lemma=ajustar 
+ juste ( ) lemma=ajuste 
+ justicia ( ) lemma=ajusticiar 
+ justicias ( ) 
+ justiciera ( ) 
  justiciero ( ) 
- justifica ( ) lemma=justificar 
- justificar ( ) 
- justificaba ( ) lemma=justificar 
- justificaban ( ) lemma=justificar 
- justificaciones ( ) lemma=justificación 
+ justifica ( ) 
+ justificaba ( ) 
+ justificaban ( ) 
+ justificaciones ( ) 
  justificación ( ) 
- justificada ( ) lemma=justificar 
- justificadas ( ) lemma=justificar 
- justificado ( ) lemma=justificar 
- justificados ( ) lemma=justificar 
- justificamos ( ) lemma=justificar 
- justifican ( ) lemma=justificar 
- justificando ( ) lemma=justificar 
+ justificada ( ) 
+ justificadas ( ) 
+ justificado ( ) 
+ justificados ( ) 
+ justificamos ( ) 
+ justifican ( ) 
+ justificando ( ) 
  justificante ( ) 
- justificantes ( ) lemma=justificante 
- justificara ( ) lemma=justificar 
- justificaran ( ) lemma=justificar 
- justificaren ( ) lemma=justificar 
- justificaron ( ) lemma=justificar 
+ justificantes ( ) 
+ justificar ( ) 
+ justificara ( ) 
+ justificaran ( ) 
+ justificaren ( ) 
+ justificaron ( ) 
  justificarse ( ) 
- justificará ( ) lemma=justificar 
- justificarán ( ) lemma=justificar 
- justificaría ( ) lemma=justificar 
- justificarían ( ) lemma=justificar 
- justificas ( ) lemma=justificar 
- justificase ( ) lemma=justificar 
- justificasen ( ) lemma=justificar 
+ justificará ( ) 
+ justificarán ( ) 
+ justificaría ( ) 
+ justificarían ( ) 
+ justificas ( ) 
+ justificase ( ) 
+ justificasen ( ) 
  justificativo ( ) 
- justifico ( ) lemma=justificar 
- justificándose ( ) lemma=justificarse 
- justificó ( ) lemma=justificar 
- justifique ( ) lemma=justificar 
- justifiquemos ( ) lemma=justificar 
- justifiquen ( ) lemma=justificar 
- justito ( ) lemma=justo 
- justitos ( ) lemma=justo 
- justos ( ) lemma=justo 
+ justifico ( ) 
+ justificándose ( ) 
+ justificó ( ) 
+ justifique ( ) 
+ justifiquemos ( ) 
+ justifiquen ( ) 
+ justito ( ) 
+ justitos ( ) 
+ justo ( ) 
+ justos ( ) 
  juvenil ( ) 
- juveniles ( ) lemma=juvenil 
+ juveniles ( ) 
  juventud ( ) 
- juventudes ( ) lemma=juventud 
- juzga ( ) lemma=juzgar 
- juzgaba ( ) lemma=juzgar 
- juzgaban ( ) lemma=juzgar 
- juzgad ( ) lemma=juzgar 
- juzgada ( ) lemma=juzgar 
- juzgadas ( ) lemma=juzgar 
- juzgado ( ) lemma=juzgar 
- juzgados ( ) lemma=juzgado 
- juzgamos ( ) lemma=juzgar 
- juzgan ( ) lemma=juzgar 
- juzgando ( ) lemma=juzgar 
- juzgara ( ) lemma=juzgar 
- juzgaran ( ) lemma=juzgar 
- juzgaremos ( ) lemma=juzgar 
- juzgarla ( ) lemma=juzgar 
- juzgarlas ( ) lemma=juzgar 
- juzgarle ( ) lemma=juzgar 
- juzgarlo ( ) lemma=juzgar 
- juzgarlos ( ) lemma=juzgar 
- juzgaron ( ) lemma=juzgar 
- juzgará ( ) lemma=juzgar 
- juzgarán ( ) lemma=juzgar 
- juzgarían ( ) lemma=juzgar 
- juzgase ( ) lemma=juzgar 
- juzgo ( ) lemma=juzgar 
- juzgue ( ) lemma=juzgar 
- juzguemos ( ) lemma=juzgar 
- juzguen ( ) lemma=juzgar 
- juzguéis ( ) lemma=juzgar 
- juzgábamos ( ) lemma=juzgar 
- juzgándolos ( ) lemma=juzgar 
- juzgó ( ) lemma=juzgar 
+ juventudes ( ) 
+ juzga ( ) 
+ juzgaba ( ) 
+ juzgaban ( ) 
+ juzgad ( ) 
+ juzgada ( ) 
+ juzgadas ( ) 
+ juzgado ( ) 
+ juzgados ( ) 
+ juzgamos ( ) 
+ juzgan ( ) 
+ juzgando ( ) 
+ juzgar ( ) 
+ juzgara ( ) 
+ juzgaran ( ) 
+ juzgaremos ( ) 
+ juzgarla ( ) 
+ juzgarlas ( ) 
+ juzgarle ( ) 
+ juzgarlo ( ) 
+ juzgarlos ( ) 
+ juzgaron ( ) 
+ juzgará ( ) 
+ juzgarán ( ) 
+ juzgarían ( ) 
+ juzgase ( ) 
+ juzgo ( ) 
+ juzgue ( ) 
+ juzguemos ( ) 
+ juzguen ( ) 
+ juzguéis ( ) 
+ juzgábamos ( ) 
+ juzgándolos ( ) 
+ juzgó ( ) 
  já ( ) 
  jó ( ) 
- jódalos ( ) lemma=joder 
- jónicos ( ) lemma=jónico 
- jónico ( ) 
- jóvenes ( ) lemma=joven 
+ jódalos ( ) 
+ jónicos ( ) 
+ jóvenes ( ) 
  júbilo ( ) 
- júramelo ( ) lemma=jurar 
+ júramelo ( ) 
+ jma ( ) lemma=Ajman 
+ joblanc ( ) lemma=Ajoblanco 
+ jibout ( ) lemma=Djibouti 
+ Janice ( ) 
+ Julio ( ) 
+ jeldah ( ) lemma=Kjeldahl 
+ J0 ( ) lemma=LJ02 
+ J1 ( ) lemma=LJ16 
+ jemplo_(por~ejemplo ( ) 
+ jögre ( ) lemma=Sjögren 
+ jia ( ) lemma=Tjian 
+ jad ( ) lemma=ajar 
+ jardinado ( ) lemma=ajardinar 
+ jedrecist ( ) lemma=ajedrecista 
+ jedrecista ( ) lemma=ajedrecista 
+ jedre ( ) lemma=ajedrez 
+ jen ( ) lemma=ajeno 
+ jena ( ) lemma=ajeno 
+ jeno ( ) lemma=ajeno 
+ jetread ( ) lemma=ajetrear 
+ jetre ( ) lemma=ajetrear 
+ jolot ( ) lemma=ajolote 
+ jonjol� ( ) lemma=ajonjolí 
+ jua ( ) lemma=ajuar 
+ just ( ) lemma=ajustar 
+ justab ( ) lemma=ajustar 
+ justaba ( ) lemma=ajustar 
+ justabl ( ) lemma=ajustable 
+ justable ( ) lemma=ajustable 
+ justad ( ) lemma=ajustar 
+ justada ( ) lemma=ajustar 
+ justado ( ) lemma=ajustar 
+ justamo ( ) lemma=ajustar 
+ justand ( ) lemma=ajustar 
+ justao ( ) lemma=ajustar 
+ justar ( ) lemma=ajustar 
+ justaremo ( ) lemma=ajustar 
+ justare ( ) lemma=ajustar 
+ justarl ( ) lemma=ajustar 
+ justarla ( ) lemma=ajustar 
+ justarm ( ) lemma=ajustar 
+ justarno ( ) lemma=ajustar 
+ justaro ( ) lemma=ajustar 
+ justars ( ) lemma=ajustarse 
+ justar� ( ) lemma=ajustar 
+ justará ( ) lemma=ajustar 
+ justarí ( ) lemma=ajustar 
+ justaría ( ) lemma=ajustar 
+ justiciada ( ) lemma=ajusticiar 
+ justiciad ( ) lemma=ajusticiar 
+ justiciado ( ) lemma=ajusticiar 
+ justiciamient ( ) lemma=ajusticiamiento 
+ justici� ( ) lemma=ajusticiar 
+ justándom ( ) lemma=ajustar 
+ justándos ( ) lemma=ajustar 
+ just� ( ) lemma=ajustar 
+ j� ( ) lemma=ajá 
+ jecucione ( ) lemma=ejecución 
+ jecució ( ) lemma=ejecución 
+ jecut ( ) lemma=ejecutar 
+ jecutab ( ) lemma=ejecutar 
+ jecutaba ( ) lemma=ejecutar 
+ jecutabl ( ) lemma=ejecutable 
+ jecutable ( ) lemma=ejecutable 
+ jecutad ( ) lemma=ejecutar 
+ jecutada ( ) lemma=ejecutar 
+ jecutado ( ) lemma=ejecutar 
+ jecutamo ( ) lemma=ejecutar 
+ jecuta ( ) lemma=ejecutar 
+ jecutand ( ) lemma=ejecutar 
+ jecutar ( ) lemma=ejecutar 
+ jecutara ( ) lemma=ejecutar 
+ jecutarl ( ) lemma=ejecutar 
+ jecutarla ( ) lemma=ejecutar 
+ jecutarlo ( ) lemma=ejecutar 
+ jecutaro ( ) lemma=ejecutar 
+ jecutars ( ) lemma=ejecutarse 
+ jecutar� ( ) lemma=ejecutar 
+ jecutará ( ) lemma=ejecutar 
+ jecutarí ( ) lemma=ejecutar 
+ jecutaría ( ) lemma=ejecutar 
+ jecutase ( ) lemma=ejecutar 
+ jecute ( ) lemma=ejecutar 
+ jecutiv ( ) lemma=ejecutivo 
+ jecutiva ( ) lemma=ejecutivo 
+ jecutivo ( ) lemma=ejecutivo 
+ jecuto ( ) lemma=ejecutor 
+ jecutore ( ) lemma=ejecutor 
+ jecutoria ( ) lemma=ejecutoria 
+ jecutándol ( ) lemma=ejecutar 
+ jecutándos ( ) lemma=ejecutarse 
+ jecut� ( ) lemma=ejecutar 
+ jempla ( ) lemma=ejemplar 
+ jemplare ( ) lemma=ejemplar 
+ jemplarment ( ) lemma=ejemplar 
+ jemplific ( ) lemma=ejemplificar 
+ jemplificado ( ) lemma=ejemplificar 
+ jemplifica ( ) lemma=ejemplificar 
+ jemplificand ( ) lemma=ejemplificar 
+ jemplific� ( ) lemma=ejemplificar 
+ jempl ( ) lemma=ejemplo 
+ jemplo ( ) lemma=ejemplo 
+ jerc ( ) lemma=ejercer 
+ jercemo ( ) lemma=ejercer 
+ jerce ( ) lemma=ejercer 
+ jerceremo ( ) lemma=ejercer 
+ jercerl ( ) lemma=ejercer 
+ jercer� ( ) lemma=ejercer 
+ jercerá ( ) lemma=ejercer 
+ jercerí ( ) lemma=ejercer 
+ jerceríamo ( ) lemma=ejercer 
+ jercici ( ) lemma=ejercicio 
+ jercicio ( ) lemma=ejercicio 
+ jercid ( ) lemma=ejercer 
+ jercida ( ) lemma=ejercer 
+ jercido ( ) lemma=ejercer 
+ jerciend ( ) lemma=ejercer 
+ jercier ( ) lemma=ejercer 
+ jerciero ( ) lemma=ejercer 
+ jercies ( ) lemma=ejercer 
+ jercimo ( ) lemma=ejercer 
+ jercit ( ) lemma=ejercito 
+ jercitad ( ) lemma=ejercitar 
+ jercita ( ) lemma=ejercitar 
+ jercitars ( ) lemma=ejercitarse 
+ jercitar� ( ) lemma=ejercitar 
+ jercitará ( ) lemma=ejercitar 
+ jercitase ( ) lemma=ejercitar 
+ jerci� ( ) lemma=ejercer 
+ jerc� ( ) lemma=ejercer 
+ jercí ( ) lemma=ejercer 
+ jercía ( ) lemma=ejercer 
+ jerz ( ) lemma=ejercer 
+ jerzamo ( ) lemma=ejercer 
+ jerza ( ) lemma=ejercer 
+ jid ( ) lemma=ejido 
+ jido ( ) lemma=ejido 
+ jércit ( ) lemma=ejército 
+ jército ( ) lemma=ejército 
+ jar ( ) 
+ jamar ( ) 
+ jambar ( ) 
+ jaspear ( ) 
+ jeringuilla ( ) 
+ josefino ( ) 
+ joule ( ) 
+ judiciario ( ) 
+ judiar ( ) 
+ juguetear ( ) 
+ jumar ( ) 
+ junar ( ) 
+ juntura ( ) 
+ jónico ( ) 
+ jal ( ) lemma=ojala 
+ jale ( ) lemma=ojal 
+ jal� ( ) lemma=ojalá 
+ jead ( ) lemma=ojear 
+ jea ( ) lemma=ojear 
+ jito ( ) lemma=ojo 
+ jiva ( ) lemma=ojiva 
+ jota ( ) lemma=ojota 
