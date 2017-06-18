@@ -429,7 +429,7 @@ FunctionResult HandleRelation(char* word1,char* op, char* word2,bool output,int&
 		{
 			char* arg1 = val1;
 			char* arg2 = val2;
-			if (*arg1 == '"')
+			if (*arg1 == '"' && arg1[1]) // truly a string
 			{
 				size_t len = strlen(arg1);
 				if (arg1[len-1] == '"') // remove STRING markers
@@ -438,7 +438,7 @@ FunctionResult HandleRelation(char* word1,char* op, char* word2,bool output,int&
 					++arg1;
 				}
 			}
-			if (*arg2 == '"')
+			if (*arg2 == '"' && arg1[1])
 			{
 				size_t len = strlen(arg2);
 				if (arg2[len-1] == '"') // remove STRING markers

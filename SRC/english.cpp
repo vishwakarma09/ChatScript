@@ -399,7 +399,7 @@ static int64 ProcessNumber(int at, char* original, WORDP& revise, WORDP &entry, 
 		if (kind == PLACETYPE_NUMBER)
 		{
 			entry = StoreWord(original, properties);
-			if (at > 1 && start != at && IsNumber(wordStarts[at - 1])) // fraction not place
+			if (at > 1 && start != at && IsNumber(wordStarts[at - 1]) && !strstr(original, (char*)"second")) // fraction not place
 			{
 				double val = 1.0 / Convert2Integer(original);
 				WriteFloat(number,val);
@@ -951,10 +951,15 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 	// DETERMINE CANONICAL OF A KNOWN WORD
 	if (!canonical && !IS_NEW_WORD(entry)) // we dont know the word and didn't interpolate it from noun or verb advanced forms (cannot get canonical of word created this volley)
 	{
-		if (properties & (VERB|NOUN_GERUND)) canonical = FindWord(GetInfinitive(original,true),0,PRIMARY_CASE_ALLOWED); // verb or known gerund (ing) or noun plural (s) which might be a verb instead
-		if (!canonical && properties & (MORE_FORM|MOST_FORM)) // get base form
+		if (properties & (VERB | NOUN_GERUND))
 		{
-			canonical = FindWord(GetAdjectiveBase(original,true),0,PRIMARY_CASE_ALLOWED);
+			char* inf = GetInfinitive(original, true);
+			if (inf) canonical = FindWord(inf, 0, PRIMARY_CASE_ALLOWED); // verb or known gerund (ing) or noun plural (s) which might be a verb instead
+		}
+		if (!canonical && properties & (MORE_FORM | MOST_FORM)) // get base form
+		{
+			char* adj = GetAdjectiveBase(original, true);
+			if (adj) canonical = FindWord(adj,0,PRIMARY_CASE_ALLOWED);
 			if (!canonical) canonical = FindWord(GetAdverbBase(original,true),0,PRIMARY_CASE_ALLOWED);
 		}
 		if (!canonical && properties & NOUN) // EVEN if we do know it... flies is a singular and needs canonical for fly BUG
@@ -969,7 +974,11 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 			if (!canonical) canonical = FindWord(singular,0,PRIMARY_CASE_ALLOWED);
 		}
 
-		if (!canonical) canonical = FindWord(GetAdjectiveBase(original,true),0,PRIMARY_CASE_ALLOWED);
+		if (!canonical)
+		{
+			char* adj = GetAdjectiveBase(original, true);
+			if (adj) canonical = FindWord(adj, 0, PRIMARY_CASE_ALLOWED);
+		}
 
 		if (properties & (ADJECTIVE_NORMAL|ADVERB)) // some kind of known adjective or adverb
 		{
@@ -2059,7 +2068,8 @@ char* GetInfinitive(char* word, bool nonew)
 		return D->word; //    infinitive value
 	}
 	char* canon =  (D) ? GetCanonical(D) : NULL; // "were" has direct canonical
-	if (canon && FindWord(canon)->properties & VERB) 
+	WORDP E = (canon) ? FindWord(canon) : NULL;
+	if (E && E->properties & VERB) 
 	{
 		if (D->properties & (VERB_PRESENT|VERB_PRESENT_3PS)) verbFormat |= VERB_PRESENT;
 		if (D->properties & VERB_PRESENT_PARTICIPLE) verbFormat |= VERB_PRESENT_PARTICIPLE;
@@ -2181,7 +2191,7 @@ char* GetInfinitive(char* word, bool nonew)
             if (D && D->properties & VERB_INFINITIVE) return D->word; //   found it
         }
 
-		if (!buildDictionary && !nonew && !fullDictionary)
+		if (!xbuildDictionary && !nonew && !fullDictionary)
 		{
 			char wd[MAX_WORD_SIZE];
 			strcpy(wd,word);
@@ -2248,7 +2258,7 @@ char* GetInfinitive(char* word, bool nonew)
         D = FindWord(word,len-3,controls);    //   drop ing
         if (D && D->properties & VERB_INFINITIVE) return D->word; //   found it
 
-		if (!buildDictionary && !nonew)
+		if (!xbuildDictionary && !nonew)
 		{
 			char wd[MAX_WORD_SIZE];
 			strcpy(wd,word);
@@ -2290,7 +2300,7 @@ char* GetInfinitive(char* word, bool nonew)
 		D = FindWord(word,len-1,UPPERCASE_LOOKUP); // if word exists in upper case, this is a plural and NOT a verb with s
 		if (D) return NULL;
 
-		if (!buildDictionary && !nonew && prior != 's') // not consciousness
+		if (!xbuildDictionary && !nonew && prior != 's') // not consciousness
 		{
 			char wd[MAX_WORD_SIZE];
 			strcpy(wd,word);
@@ -2308,7 +2318,7 @@ char* GetInfinitive(char* word, bool nonew)
 		verbFormat = 0;
 		return word;
 	}
-	if ( nonew || buildDictionary ) return NULL;
+	if ( nonew || xbuildDictionary ) return NULL;
 	verbFormat = VERB_INFINITIVE;
 	return InferVerb(word,len);
 }
@@ -2561,7 +2571,7 @@ char* GetSingularNoun(char* word, bool initial, bool nonew)
 			}
 		}
 	}
-	if ( nonew || buildDictionary ) return NULL;
+	if ( nonew || xbuildDictionary ) return NULL;
 
 	nounFormat = (IsUpperCase(*word)) ? NOUN_PROPER_SINGULAR : NOUN_SINGULAR;
 	return InferNoun(word,len);
@@ -2786,7 +2796,7 @@ char* GetAdverbBase(char* word, bool nonew)
 			return D->word;
 		}
     }
-	if ( nonew || buildDictionary) return NULL;
+	if ( nonew || xbuildDictionary) return NULL;
 	
 	return InferAdverb(word,len);
 }
@@ -3089,7 +3099,7 @@ char* GetAdjectiveBase(char* word, bool nonew)
              if (D && D->properties & ADJECTIVE) return D->word; 
         }   
     }
-	if ( nonew || buildDictionary) return NULL;
+	if ( nonew || xbuildDictionary) return NULL;
 	
 	return InferAdjective(word,len);
 }

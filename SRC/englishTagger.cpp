@@ -2647,7 +2647,6 @@ void MarkTags(unsigned int i)
 	
 	unsigned int start = i;
 	unsigned int stop = i;
-	int ucase = 0; // placeholder
 
 	// swallow idioms as single marks
 	while (posValues[start-1] == IDIOM) --start;	
@@ -2662,22 +2661,22 @@ void MarkTags(unsigned int i)
 	{
 		if (bits & bit) 
 		{
-			if (bit & PRONOUN_BITS)  MarkFacts(0,ucase,MakeMeaning(Dpronoun),start,stop); // general as opposed to specific
-			else if (bit & AUX_VERB)  MarkFacts(0, ucase,MakeMeaning(Dauxverb),start,stop); // general as opposed to specific
+			if (bit & PRONOUN_BITS)  MarkFacts(0,0,MakeMeaning(Dpronoun),start,stop); // general as opposed to specific
+			else if (bit & AUX_VERB)  MarkFacts(0, 0,MakeMeaning(Dauxverb),start,stop); // general as opposed to specific
 
 			// determiners are a kind of adjective- "how *much time do you like" but we dont want them marked
-			//	if (bit & DETERMINER_BITS) MarkFacts(0,ucase,MakeMeaning(Dadjective),start,stop);
+			//	if (bit & DETERMINER_BITS) MarkFacts(0,0,MakeMeaning(Dadjective),start,stop);
 			
-			MarkFacts(0, ucase,posMeanings[j],start,stop); // NOUNS which have singular like "well" but could be infinitive, are listed as nouns but not infintive
+			MarkFacts(0, 0,posMeanings[j],start,stop); // NOUNS which have singular like "well" but could be infinitive, are listed as nouns but not infintive
 			if (bit & NOUN_HUMAN) // impute additional meanings
 			{
 				if (bits & (NOUN_PROPER_SINGULAR|NOUN_PROPER_PLURAL)) 
 				{
-					MarkFacts(0, ucase,MakeMeaning(Dhumanname),start,stop);
-					MarkFacts(0, ucase,MakeMeaning(Dpropername),start,stop);
+					MarkFacts(0, 0,MakeMeaning(Dhumanname),start,stop);
+					MarkFacts(0, 0,MakeMeaning(Dpropername),start,stop);
 				}
-				if (bits & NOUN_HE) MarkFacts(0, ucase,MakeMeaning(Dmalename),start,stop);
-				if (bits & NOUN_SHE) MarkFacts(0, ucase,MakeMeaning(Dfemalename),start,stop);
+				if (bits & NOUN_HE) MarkFacts(0, 0,MakeMeaning(Dmalename),start,stop);
+				if (bits & NOUN_SHE) MarkFacts(0, 0,MakeMeaning(Dfemalename),start,stop);
 			}
 		}
 
@@ -2694,17 +2693,17 @@ void MarkTags(unsigned int i)
 			else if (bit & WEB_URL && strchr(originalLower[i]->word+1,'@'))
 			{
 				char* x = strchr(originalLower[i]->word+1,'@');
-				if (x && IsAlphaUTF8(x[1])) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~email_url")),start,stop);
+				if (x && IsAlphaUTF8(x[1])) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~email_url")),start,stop);
 			}
-			else if (bit & MARK_FLAGS)  MarkFacts(0, ucase,sysMeanings[j],start,stop);
+			else if (bit & MARK_FLAGS)  MarkFacts(0, 0,sysMeanings[j],start,stop);
 			bit >>= 1;
 		}
 		uint64 age = originalLower[i]->systemFlags & AGE_LEARNED;
 		if (!age){;}
-		else if (age == KINDERGARTEN)  MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~kindergarten")),start,stop);
-		else if (age == GRADE1_2)  MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~grade1_2")),start,stop);
-		else if (age == GRADE3_4)  MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~grade3_4")),start,stop);
-		else if (age == GRADE5_6)  MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~grade5_6")),start,stop);
+		else if (age == KINDERGARTEN)  MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~kindergarten")),start,stop);
+		else if (age == GRADE1_2)  MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~grade1_2")),start,stop);
+		else if (age == GRADE3_4)  MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~grade3_4")),start,stop);
+		else if (age == GRADE5_6)  MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~grade5_6")),start,stop);
 	}
 	if (bits & AUX_VERB ) finalPosValues[i] |= VERB;	// lest it report "can" as untyped, and thus become a noun -- but not ~verb from system view
 
@@ -3113,7 +3112,6 @@ void MarkRoles(int i)
 	// mark its main parser role - not all roles are marked and parsing might not have been done
 	int start = i;
 	int stop = i;
-	int ucase = 0; // placeholder
 	// swallow idioms as single marks
 	while (posValues[start-1] == IDIOM) --start;	
 	if (posValues[i] & NOUN_INFINITIVE && posValues[start-1] & TO_INFINITIVE) --start;
@@ -3123,45 +3121,45 @@ void MarkRoles(int i)
 
 	uint64 role = roles[i];
 
-	if (role & MAINSUBJECT)  MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~mainsubject")),start,stop);
-	if (role & MAINVERB) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~mainverb")),start,stop);
-	if (role & MAININDIRECTOBJECT) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~mainindirectobject")),start,stop);
-	if (role & MAINOBJECT) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~mainobject")),start,stop);
-	if (role & SUBJECT_COMPLEMENT)  MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~subjectcomplement")),start,stop);
-	if (role & OBJECT_COMPLEMENT) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~objectcomplement")),start,stop);
-	if (role & ADJECTIVE_COMPLEMENT) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~adjectivecomplement")),start,stop);
+	if (role & MAINSUBJECT)  MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~mainsubject")),start,stop);
+	if (role & MAINVERB) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~mainverb")),start,stop);
+	if (role & MAININDIRECTOBJECT) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~mainindirectobject")),start,stop);
+	if (role & MAINOBJECT) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~mainobject")),start,stop);
+	if (role & SUBJECT_COMPLEMENT)  MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~subjectcomplement")),start,stop);
+	if (role & OBJECT_COMPLEMENT) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~objectcomplement")),start,stop);
+	if (role & ADJECTIVE_COMPLEMENT) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~adjectivecomplement")),start,stop);
 	
-	if (role & SUBJECT2) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~subject2")),start,stop);
-	if (role & VERB2) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~verb2")),start,stop);
-	if (role & INDIRECTOBJECT2)  MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~indirectobject2")),start,stop);
-	if (role & OBJECT2)  MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~object2")),start,stop);
+	if (role & SUBJECT2) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~subject2")),start,stop);
+	if (role & VERB2) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~verb2")),start,stop);
+	if (role & INDIRECTOBJECT2)  MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~indirectobject2")),start,stop);
+	if (role & OBJECT2)  MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~object2")),start,stop);
 	
-	if (role & ADDRESS) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~address")),start,stop);
-	if (role & APPOSITIVE) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~appositive")),start,stop);
-	if (role & POSTNOMINAL_ADJECTIVE) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~postnominaladjective")),start,stop);
-	if (role & REFLEXIVE) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~reflexive")),start,stop);
-	if (role & ABSOLUTE_PHRASE) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~absolutephrase")),start,stop);
-	if (role & OMITTED_TIME_PREP) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~omittedtimeprep")),start,stop);
-	if (role & DISTANCE_NOUN_MODIFY_ADVERB) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~DISTANCE_NOUN_MODIFY_ADVERB")),start,stop);
-	if (role & DISTANCE_NOUN_MODIFY_ADJECTIVE) MarkFacts(0,ucase,MakeMeaning(StoreWord((char*)"~DISTANCE_NOUN_MODIFY_ADJECTIVE")),start,stop); 
-	if (role & TIME_NOUN_MODIFY_ADVERB) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~TIME_NOUN_MODIFY_ADVERB")),start,stop);
-	if (role & TIME_NOUN_MODIFY_ADJECTIVE) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~TIME_NOUN_MODIFY_ADJECTIVE")),start,stop);
-	if (role & OMITTED_OF_PREP) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~omittedofprep")),start,stop);
+	if (role & ADDRESS) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~address")),start,stop);
+	if (role & APPOSITIVE) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~appositive")),start,stop);
+	if (role & POSTNOMINAL_ADJECTIVE) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~postnominaladjective")),start,stop);
+	if (role & REFLEXIVE) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~reflexive")),start,stop);
+	if (role & ABSOLUTE_PHRASE) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~absolutephrase")),start,stop);
+	if (role & OMITTED_TIME_PREP) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~omittedtimeprep")),start,stop);
+	if (role & DISTANCE_NOUN_MODIFY_ADVERB) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~DISTANCE_NOUN_MODIFY_ADVERB")),start,stop);
+	if (role & DISTANCE_NOUN_MODIFY_ADJECTIVE) MarkFacts(0,0,MakeMeaning(StoreWord((char*)"~DISTANCE_NOUN_MODIFY_ADJECTIVE")),start,stop); 
+	if (role & TIME_NOUN_MODIFY_ADVERB) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~TIME_NOUN_MODIFY_ADVERB")),start,stop);
+	if (role & TIME_NOUN_MODIFY_ADJECTIVE) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~TIME_NOUN_MODIFY_ADJECTIVE")),start,stop);
+	if (role & OMITTED_OF_PREP) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~omittedofprep")),start,stop);
 
 	uint64 crole = role & CONJUNCT_KINDS;
-	if (crole == CONJUNCT_PHRASE) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~CONJUNCT_PHRASE")),start,stop);
-	if (crole ==  CONJUNCT_CLAUSE) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~CONJUNCT_CLAUSE")),start,stop);
-	if (crole ==  CONJUNCT_SENTENCE) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~CONJUNCT_SENTENCE")),start,stop);
-	if (crole ==  CONJUNCT_NOUN) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~CONJUNCT_NOUN")),start,stop);
-	if (crole ==  CONJUNCT_VERB) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~CONJUNCT_VERB")),start,stop);
-	if (crole ==  CONJUNCT_ADJECTIVE) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~CONJUNCT_ADJECTIVE")),start,stop);
-	if (crole == CONJUNCT_ADVERB) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~CONJUNCT_ADVERB")),start,stop);
+	if (crole == CONJUNCT_PHRASE) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~CONJUNCT_PHRASE")),start,stop);
+	if (crole ==  CONJUNCT_CLAUSE) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~CONJUNCT_CLAUSE")),start,stop);
+	if (crole ==  CONJUNCT_SENTENCE) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~CONJUNCT_SENTENCE")),start,stop);
+	if (crole ==  CONJUNCT_NOUN) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~CONJUNCT_NOUN")),start,stop);
+	if (crole ==  CONJUNCT_VERB) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~CONJUNCT_VERB")),start,stop);
+	if (crole ==  CONJUNCT_ADJECTIVE) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~CONJUNCT_ADJECTIVE")),start,stop);
+	if (crole == CONJUNCT_ADVERB) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~CONJUNCT_ADVERB")),start,stop);
 
 	crole = role & ADVERBIALTYPE;
-	if (crole == WHENUNIT) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~whenunit")),start,stop);
-	if (crole ==  WHEREUNIT) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~whereunit")),start,stop);
-	if (crole ==  HOWUNIT) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~howunit")),start,stop);
-	if (crole ==  WHYUNIT) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~whyunit")),start,stop);
+	if (crole == WHENUNIT) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~whenunit")),start,stop);
+	if (crole ==  WHEREUNIT) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~whereunit")),start,stop);
+	if (crole ==  HOWUNIT) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~howunit")),start,stop);
+	if (crole ==  WHYUNIT) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~whyunit")),start,stop);
 
 
 
@@ -3175,9 +3173,9 @@ void MarkRoles(int i)
 		if (i == startSentence && phrase == phrases[endSentence]) {;} // start at end instead
 		else
 		{
-			if (posValues[i] & NOUN_BITS) MarkFacts(0, ucase,MabsolutePhrase,start,stop-1);
-			else if (posValues[i] & (ADVERB|ADJECTIVE_BITS)) MarkFacts(0, ucase,MtimePhrase,start,stop-1);
-			else MarkFacts(0, ucase,Mphrase,start,stop-1);
+			if (posValues[i] & NOUN_BITS) MarkFacts(0, 0,MabsolutePhrase,start,stop-1);
+			else if (posValues[i] & (ADVERB|ADJECTIVE_BITS)) MarkFacts(0, 0,MtimePhrase,start,stop-1);
+			else MarkFacts(0, 0,Mphrase,start,stop-1);
 		}
 	}
 	
@@ -3188,7 +3186,7 @@ void MarkRoles(int i)
 		start = stop = i;
 		int bit = clause;
 		while (clauses[++stop] & bit){;}
-		MarkFacts(0, ucase,MakeMeaning(Dclause),start,stop-1);
+		MarkFacts(0, 0,MakeMeaning(Dclause),start,stop-1);
 	}
 
 	// meanwhile mark start/end of verbals
@@ -3198,10 +3196,9 @@ void MarkRoles(int i)
 		start = stop = i;
 		int bit = verbal;
 		while (verbals[++stop] & bit){;}
-		MarkFacts(0,ucase,MakeMeaning(Dverbal),start,stop-1);
+		MarkFacts(0,0,MakeMeaning(Dverbal),start,stop-1);
 	}
-	if (role & SENTENCE_END) MarkFacts(0, ucase,MakeMeaning(StoreWord((char*)"~sentenceend")),start,stop);
-
+	if (role & SENTENCE_END) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~sentenceend")),start,stop);
 }
 
 static void AddRole( int i, uint64 role)
@@ -6348,7 +6345,7 @@ static unsigned int GuessAmbiguousVerb(int i, bool &changed)
 	bool impliedPeople = false;
 	int at = i;
 	while (--at > startSentence && posValues[at] & ADVERB) --at;	// the wicked very often *can outwit others"
-	if (needRoles[roleIndex] & (MAINSUBJECT|SUBJECT2) && posValues[at] & ADJECTIVE_NORMAL && !stricmp(wordStarts[at-1],(char*)"the")) impliedPeople = true; 
+	if (at > 1 && needRoles[roleIndex] & (MAINSUBJECT|SUBJECT2) && posValues[at] & ADJECTIVE_NORMAL && !stricmp(wordStarts[at-1],(char*)"the")) impliedPeople = true; 
 
 	if (posValues[i] & (VERB_PAST|VERB_PRESENT) && impliedPeople)
 	{
@@ -6885,7 +6882,7 @@ static unsigned int GuessAmbiguousAdjective(int i, bool &changed)
 			if (!stricmp(wordStarts[at],(char*)"and") && !stricmp(wordStarts[i],(char*)"both")) break;
 			if (!stricmp(wordStarts[at],(char*)"or") && (!stricmp(wordStarts[i],(char*)"whether") || !stricmp(wordStarts[i],(char*)"either"))) break;
 			if (!stricmp(wordStarts[at],(char*)"but_also") && (!stricmp(wordStarts[i],(char*)"not_only") || !stricmp(wordStarts[i],(char*)"either"))) break;
-			if (!stricmp(wordStarts[at],(char*)"also") && !stricmp(wordStarts[at-1],(char*)"but") && !stricmp(wordStarts[i-1],(char*)"not") && !stricmp(wordStarts[i],(char*)"only")) break;
+			if (at > 1 && !stricmp(wordStarts[at],(char*)"also") && !stricmp(wordStarts[at-1],(char*)"but") && !stricmp(wordStarts[i-1],(char*)"not") && !stricmp(wordStarts[i],(char*)"only")) break;
 		}
 		if (at < endSentence)
 		{
@@ -7159,7 +7156,7 @@ static unsigned int GuessAmbiguousAdverb(int i, bool &changed)
 			if (!stricmp(wordStarts[at],(char*)"and") && !stricmp(wordStarts[i],(char*)"both")) break;
 			if (!stricmp(wordStarts[at],(char*)"or") && (!stricmp(wordStarts[i],(char*)"whether") || !stricmp(wordStarts[i],(char*)"either"))) break;
 			if (!stricmp(wordStarts[at],(char*)"but_also") && (!stricmp(wordStarts[i],(char*)"not_only") || !stricmp(wordStarts[i],(char*)"either"))) break;
-			if (!stricmp(wordStarts[at],(char*)"also") && !stricmp(wordStarts[at-1],(char*)"but") && !stricmp(wordStarts[i-1],(char*)"not") && !stricmp(wordStarts[i],(char*)"only")) break;
+			if (at > 1 && !stricmp(wordStarts[at],(char*)"also") && !stricmp(wordStarts[at-1],(char*)"but") && !stricmp(wordStarts[i-1],(char*)"not") && !stricmp(wordStarts[i],(char*)"only")) break;
 		}
 		if (at < endSentence)
 		{
@@ -8539,7 +8536,7 @@ restart:
 			{
 				int at = i-1;
 				if (at > startSentence && posValues[at] & ADVERB) --at;	// the wicked often *can outwit others"
-				if (posValues[at] & ADJECTIVE_NORMAL && !stricmp(wordStarts[at-1],(char*)"the"))
+				if (at > 1 && posValues[at] & ADJECTIVE_NORMAL && !stricmp(wordStarts[at-1],(char*)"the"))
 				{
 					LimitValues(at,NOUN_ADJECTIVE,(char*)"adjective acting as noun",changed);
 					SetRole(at, (needRoles[roleIndex] & (MAINSUBJECT|SUBJECT2)));
@@ -8590,7 +8587,7 @@ restart:
 				{
 					int at = i-1;
 					if (at > startSentence && posValues[at] & ADVERB) --at;	// the wicked often *can outwit others"
-					if (posValues[at] & ADJECTIVE_NORMAL && !stricmp(wordStarts[at-1],(char*)"the"))
+					if (at > 1 && posValues[at] & ADJECTIVE_NORMAL && !stricmp(wordStarts[at-1],(char*)"the"))
 					{
 						LimitValues(at,NOUN_ADJECTIVE,(char*)"adjective acting as noun",changed);
 						SetRole(at,(needRoles[roleIndex] & (MAINSUBJECT|SUBJECT2)));

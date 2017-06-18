@@ -51,18 +51,18 @@ debugmongoserver: EXECUTABLE=../BINARIES/ChatScriptMongoDebug
 debugmongoserver: CFLAGS=-c -std=c++11 -Wall  -funsigned-char  -Wno-write-strings -Wno-char-subscripts -Wno-strict-aliasing -g
 
 foreignserver: DEFINES+= -DLOCKUSERFILE=1  -DEVSERVER=1 -DEVSERVER_FORK=1  -DDISCARDPOSTGRES=1 -DDISCARDMONGO=1 -DDISCARDMYSQL=1 -DTREETAGGER=1
-foreignserver: PGLOAD= -pthread -ltreetagger.a -L../BINARIES
+foreignserver: PGLOAD= -pthread -ltreetagger -L../BINARIES
 foreignserver: INCLUDEDIRS=-Ievserver
 foreignserver: all
 foreignserver: EXECUTABLE=../BINARIES/ChatScriptForeign
-foreignserver: CFLAGS=-c -std=c++11 -Wall  -funsigned-char  -Wno-write-strings -Wno-char-subscripts -Wno-strict-aliasing -shared
+foreignserver: CFLAGS=-c -std=c++11 -Wall  -funsigned-char  -Wno-write-strings -Wno-char-subscripts -Wno-strict-aliasing 
 
 mongotreetaggerserver: DEFINES+= -DLOCKUSERFILE=1  -DEVSERVER=1 -DEVSERVER_FORK=1  -DDISCARDPOSTGRES=1  -DDISCARDMYSQL=1 -DTREETAGGER=1
-mongotreetaggerserver: PGLOAD= -pthread -ltreetagger.a -L../BINARIES
+mongotreetaggerserver: PGLOAD= -pthread -ltreetagger -L../BINARIES
 mongotreetaggerserver: INCLUDEDIRS=-Ievserver -I/usr/local/include/libbson-1.0 -I/usr/local/include/libmongoc-1.0
 mongotreetaggerserver: all
 mongotreetaggerserver: EXECUTABLE=../BINARIES/ChatScriptMongoForeign
-mongotreetaggerserver: CFLAGS=-c -std=c++11 -Wall  -funsigned-char  -Wno-write-strings -Wno-char-subscripts -Wno-strict-aliasing -static
+mongotreetaggerserver: CFLAGS=-c -std=c++11 -Wall  -funsigned-char  -Wno-write-strings -Wno-char-subscripts -Wno-strict-aliasing 
 
 UNAME := $(shell uname)
 

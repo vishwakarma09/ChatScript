@@ -30,7 +30,7 @@ it wants.
 ### `^jsonopen`( kind url postdata header )
 this function queries a website and returns a JSON datastructure as facts.
 
-### `^jsonprint`( name )
+### `^jsontree`( name )
 It prints out a tree of elements, one per line, where depth is represented as more deeply indented.
 
 ### `^jsonparse`( string )

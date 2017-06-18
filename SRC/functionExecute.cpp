@@ -2570,8 +2570,7 @@ static FunctionResult MarkCode(char* buffer)
 	NextInferMark();
 	if (showMark || (trace & TRACE_PREPARE)) Log(ECHOSTDTRACELOG,(char*)"Mark %s: \r\n",D->word);
 	if (trace & TRACE_OUTPUT) Log(STDTRACELOG,(char*)"mark all @word %d ",D->word);
-	int ucase = D->internalBits & UPPERCASE_HASH ? 1 : 0;
-	MarkFacts(0, ucase,M,startPosition,endPosition);
+	MarkFacts(0, 0,M,startPosition,endPosition);
 	if (showMark) Log(ECHOSTDTRACELOG,(char*)"------\r\n");
 	*buffer = 0;
 	return NOPROBLEM_BIT;
@@ -2989,9 +2988,13 @@ static FunctionResult ActualInputRangeCode(char* buffer)
 	{
 		// actual word is from this range in original
 		int a = derivationIndex[i] >> 8; // from here
-		int b  = (derivationIndex[i] & 0x00ff);  // to here including here  The end may be beyond wordCount if words have been deducted by now
-		if (a >= start && a <= end && !first) first = i; // starting actual word in range
-		if (b >= start && b <= end) last = i; // maximal  ending actual word in range
+		int b = (derivationIndex[i] & 0x00ff);  // to here including here  The end may be beyond wordCount if words have been deducted by now
+
+		if (a <= end && b >= start) // our desired range (start - end) overlaps the word range (a - b)
+		{
+			if (!first) first = i;  // starting actual word in range
+			last = i;	 // maximal ending actual word in range
+		}
 	}
 	sprintf(buffer,"%d",(first << 8) + last);
 	return NOPROBLEM_BIT;
@@ -3155,7 +3158,6 @@ static FunctionResult ComputeCode(char* buffer)
 		}
         else if (!stricmp(op,(char*)"remainder") || !stricmp(op,(char*)"modulo") || !stricmp(op,(char*)"mod") || *op == '%') 
 		{
-			ReportBug((char*)"illegal mod op in float")
 			return FAILRULE_BIT;
 		}
         else if (!stricmp(op,(char*)"random") )
@@ -3210,6 +3212,11 @@ static FunctionResult ComputeCode(char* buffer)
 		else if (*op == '>' && op[1] == '>') value = value1 >> value2;
 		else if (*op == '/')
 		{
+			if (value2 == 0)
+			{
+				strcpy(buffer, (char*)"infinity");
+				return NOPROBLEM_BIT;
+			}
 			value = value1 / value2;
 			if ((value * value2) != value1) goto FLOAT; // needs float
 		}
@@ -3639,8 +3646,7 @@ static FunctionResult SetPronounCode(char* buffer)
 	if (startPosition < 1) startPosition = 1;
 	if (startPosition > wordCount)  startPosition = wordCount;
 	WORDP D = StoreWord(word);
-	int ucase = D->internalBits & UPPERCASE_HASH ? 1 : 0;
-	MarkFacts(0,ucase,MakeMeaning(D),startPosition,startPosition);
+	MarkFacts(0,0,MakeMeaning(D),startPosition,startPosition);
 
 	WORDP entry;
 	WORDP canonical;

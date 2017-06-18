@@ -8,7 +8,7 @@ static char* dataChunk = NULL;
 static char* outputStart = NULL;
 static char* lineStart = NULL;
 static bool globalBotScope = false;
-static char* newBuffer = NULL;
+char* newBuffer = NULL;
 static char* oldBuffer = NULL;
 static char display[MAX_DISPLAY][100];
 static int displayIndex = 0;
@@ -247,7 +247,7 @@ comes from the old buffer. Meanwhile the newbuffer continues to have content for
 		{
 			currentFileLine = maxFileLine;	 // revert to highest read
 			// he wants reality now...
-			if (*newBuffer) // prior peek was from this buffer, make it real data in real buffer
+			if (newBuffer && *newBuffer) // prior peek was from this buffer, make it real data in real buffer
 			{
 				strcpy(readBuffer,newBuffer);
 				result = (result - newBuffer) + readBuffer; // adjust pointer to current buffer
@@ -271,7 +271,7 @@ comes from the old buffer. Meanwhile the newbuffer continues to have content for
 	bool newline = false;
 	while (!*word) // found no token left in existing buffer - we have to juggle buffers now unless running overwrite 
 	{
-		if (!newline && *newBuffer) // use pre-read buffer per normal, it will have a token
+		if (!newline && newBuffer && *newBuffer) // use pre-read buffer per normal, it will have a token
 		{
 			strcpy(readBuffer,newBuffer);
 			*newBuffer = 0;
@@ -311,7 +311,7 @@ comes from the old buffer. Meanwhile the newbuffer continues to have content for
 		result = (char*)1;	// NO ONE SHOULD KEEP A PEEKed PTR
 		currentFileLine = line; // claim old value
 	}
-	else if (newline) // live token from new buffer, adjust pointers and buffers to be fully up to date
+	else if (newline && newBuffer) // live token from new buffer, adjust pointers and buffers to be fully up to date
 	{
 		strcpy(readBuffer,newBuffer);
 		result = (result - newBuffer) + readBuffer; // ptr into current readBuffer now
@@ -1179,7 +1179,7 @@ static char* FlushToTopLevel(FILE* in,unsigned int depth,char* data)
 	char word[MAX_WORD_SIZE];
 	int oldindex = jumpIndex;
 	jumpIndex = -1; // prevent ReadNextSystemToken from possibly crashing.
-	*newBuffer = 0;
+	if (newBuffer) *newBuffer = 0;
 	ReadNextSystemToken(NULL,NULL,word,false);	// clear out anything ahead
 	char* ptr = readBuffer + strlen(readBuffer) - 1;
 	while (ALWAYS)
@@ -4062,7 +4062,7 @@ static char* ReadKeyword(char* word,char* ptr,bool &notted, bool &quoted, MEANIN
 			if (*word == '~') MakeLowerCase(word); //   sets are always lower case
 			if ((at = strchr(word+1,'~'))) //   wordnet meaning request, confirm definition exists
 			{
-				char level[10];
+				char level[MAX_WORD_SIZE];
 				strcpy(level,at);
 				M = ReadMeaning(word);
 				if (!M) BADSCRIPT((char*)"CONCEPT-7 WordNet word doesn't exist %s",word)
@@ -5152,7 +5152,7 @@ static void WriteExtendedFacts(FILE* factout,FILE* dictout,unsigned int build)
 	char* buffer = AllocateBuffer();
 	bool oldshared = shared;
 	shared = false;
-	char* ptr = WriteUserVariables(buffer,false,true);
+	char* ptr = WriteUserVariables(buffer,false,true,NULL);
 	shared = oldshared;
 	fwrite(buffer,ptr-buffer,1,factout);
 	FreeBuffer();

@@ -853,11 +853,20 @@ char* EatFact(char* ptr,char* buffer,unsigned int flags,bool attribute)
 		sprintf(buffer,(char*)"%d",currentFactIndex() );
 	}
 	else  ptr = GetCommandArg(ptr,buffer,result,OUTPUT_FACTREAD); //verb
-	if (!ptr) return NULL;
+	if (!ptr)
+	{
+		ReleaseStack(word);
+		return NULL;
+	}
 	ptr = SkipWhitespace(ptr); // could be user-formateed, dont trust
-	if (result & ENDCODES) return ptr;
+	if (result & ENDCODES)
+	{
+		ReleaseStack(word);
+		return ptr;
+	}
 	if (!*buffer) 
 	{
+		ReleaseStack(word);
 		if (!ptr) return NULL;
 		if (compiling) BADSCRIPT((char*)"FACT-2 Missing verb for fact create")
 		char* end = strchr(ptr,')');
@@ -875,9 +884,14 @@ char* EatFact(char* ptr,char* buffer,unsigned int flags,bool attribute)
 	}
 	else  ptr = GetCommandArg(ptr,buffer,result,OUTPUT_FACTREAD); 
 	ptr = SkipWhitespace(ptr); // could be user-formateed, dont trust
-	if (result & ENDCODES) return ptr;
+	if (result & ENDCODES)
+	{
+		ReleaseStack(word);
+		return ptr;
+	}
 	if (!*buffer) 
 	{
+		ReleaseStack(word);
 		if (compiling) BADSCRIPT((char*)"FACT-3 Missing object for fact create - %s",readBuffer)
 		if (!ptr) return NULL;
 		char* end = strchr(ptr,')');
@@ -982,7 +996,7 @@ char* EatFact(char* ptr,char* buffer,unsigned int flags,bool attribute)
 	F = CreateFact(subject,verb,object,flags);
 	if (attribute) 	F->flags |= FACTATTRIBUTE;
 
-	ReleaseStack(word1);
+	ReleaseStack(word);
 	return (*ptr) ? (ptr + 2) : ptr; //   returns after the closing ) if there is one
 }
 

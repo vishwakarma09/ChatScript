@@ -66,7 +66,7 @@ bool dictionaryBitsChanged = false;
 unsigned int propertyRedefines = 0;	// property changes on locked dictionary entries
 unsigned int flagsRedefines = 0;		// systemflags changes on locked dictionary entries
 static int freeTriedList = 0;
-bool buildDictionary = false;				// indicate when building a dictionary
+bool xbuildDictionary = false;				// indicate when building a dictionary
 char dictionaryTimeStamp[20];		// indicate when dictionary was built
 char* mini = "";
 unsigned int* hashbuckets = 0;
@@ -227,7 +227,7 @@ void ClearBacktracks()
 	backtracks.clear();
 }
 
-unsigned char* GetWhereInSentence(WORDP D) // [0] is the meanings bits,  the rest are start/end bytes for 8 locations
+unsigned char* GetWhereInSentence(WORDP D) // [0] is the meanings bits,  the rest are start/end/case bytes for 8 locations
 {
 	std::map<WORDP,int>::iterator it;
 	it = triedData.find(D);
@@ -306,7 +306,9 @@ char* GetCanonical(WORDP D)
 	std::map<WORDP,WORDP>::iterator it;
 	it = canonicalWords.find(D);
 	if (it == canonicalWords.end()) return NULL;
-	return it->second->word;
+	WORDP E = it->second;
+
+	return E->word;
 }
 
 WORDP GetTense(WORDP D)
@@ -535,7 +537,7 @@ void ClearDictionaryFiles()
 
 void BuildDictionary(char* label)
 {
-	buildDictionary = true;
+	xbuildDictionary = true;
 	int miniDict = 0;
 	char word[MAX_WORD_SIZE];
 	mini = language;
@@ -593,7 +595,7 @@ void BuildDictionary(char* label)
 	printf((char*)"dictionary dump complete %d\r\n",miniDict);
 
     echo = true;
-	buildDictionary = false;
+	xbuildDictionary = false;
 	CreateSystem();
 }
 
@@ -3215,7 +3217,7 @@ void VerifyEntries(WORDP D,uint64 junk) // prove meanings have synset heads and 
 	}
 
 	// anything with a singular noun meaning should have an uplink
-	if (D->properties & NOUN_SINGULAR && GetMeanings(D) && buildDictionary)
+	if (D->properties & NOUN_SINGULAR && GetMeanings(D) && xbuildDictionary)
 	{
 		count = GetMeaningCount(D);
 		for (unsigned int i = 1; i <= count; ++i)
@@ -3326,7 +3328,7 @@ char* FindCanonical(char* word, int i,bool notNew)
 		WORDP S = FindWord(word,0,SECONDARY_CASE_ALLOWED);
 		if (S && IsLowerCase(*S->word))  D = S;
 	}
-    if (D && !buildDictionary) 
+    if (D && !xbuildDictionary) 
 	{
 		char* answer = GetCanonical(D);
 		if (answer) return answer; //   special canonical form (various pronouns typically)

@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1 id="chatscript-system-variables-and-engine-defined-concepts">ChatScript System Variables and Engine-defined Concepts</h1>
-<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 5/28/2017 cs7.43</p>
+<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 6/18/2017 cs7.5</p>
 <ul>
 <li><a href="ChatScript-System-Variables-and-Engine-defined-Concepts.html#engine-defined-concepts">Engine-defined Concepts</a></li>
 <li><a href="ChatScript-System-Variables-and-Engine-defined-Concepts.html#system-variables">System Variables</a></li>
@@ -1283,7 +1283,7 @@ s: (name is _*)
 <h2 id="numeric-substitutions">Numeric Substitutions</h2>
 <p>A special kind of private substitution (equally applicable in regular substitution files) is the numeric substitution.</p>
 <pre><code>replace: ?_km kilometers</code></pre>
-<p>The ?_ matches a digit number followed immediately by km, like <code>1.2km</code> and will separate the number and replace the units with the given replacement.</p>
+<p>The ?_ matches a digit number followed immediately by km, like <code>1.2km</code> and will separate the number and replace the units with the given replacement. The input can be singular or have an 's' like <code>10.5dollars</code>. And it can be with or without abbreviation periods, like <code>10kps</code> or <code>10k.p.s</code></p>
 <h1 id="interchange-variables">Interchange Variables</h1>
 <p>The following variables can be defined in a script and the engine will react to their contents.</p>
 <table style="width:39%;">
@@ -1450,7 +1450,16 @@ s: (name is _*)
 <td><code>$$topic_retry_limit_exceeded</code></td>
 <td>set if topic retry limit is encountered</td>
 </tr>
+<tr class="odd">
+<td><code>$cs_topicretrylimit</code></td>
+<td>if defined changes how many times you can pass back RETRY_TOPIC before it fails (current limit is 30)</td>
+</tr>
+<tr class="even">
+<td><code>$cs_saveusedJson</code></td>
+<td>if not null, the only JSON facts CS will write into the user's topic files that are referred to (directly or indirectly) from user variables being saved. (see below)</td>
+</tr>
 </tbody>
 </table>
+<p><code>$cs_saveusedJson</code> exists as a kind of garbage collection. Nowadays most facts will come from JSON data either from a website or created in script. But keeping on top of deleting obsolete JSON may be overlooked. When this variable is non-null, ChatScript will automatically destroy any JSON fact that cannot trace a JSON fact path back to some user variable. Variables that have as values the name of a JSON object or array automatically protect all JSON facts underneath. JSON references merely within some text string will not protect anything, nor will references from some other non-JSON fact.</p>
 </body>
 </html>

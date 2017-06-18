@@ -954,7 +954,8 @@ char* Output(char* ptr,char* buffer,FunctionResult &result,int controls)
 			strcat(word, "[]");
 			ptr += 2;
 		}
-		
+		if (*word == '/' && ptr[0] == '(') continue;	// JA PATCH for mistaken /(OS)
+
 		char* startptr = ptr;
 		ptr = SkipWhitespace(ptr);		// find next token to tes for assignment and  the like
 
@@ -1025,7 +1026,7 @@ char* Output(char* ptr,char* buffer,FunctionResult &result,int controls)
 			if (*ptr != '\\') --ptr;
 			word[len-2] = 0;
 		}
-retry:
+	retry:
 		switch (*word)
         {
 		// groupings

@@ -1,6 +1,6 @@
 # ChatScript Command Line Parameters
 Copyright Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com<br>
-Revision 5/28/2017 cs7.43
+Revision 6/18/2017 cs7.5
 
 # Command Line Parameters
 
@@ -38,7 +38,7 @@ allocate less than a 20K buffer size.
 | `text=n`     | limit string space to this many bytes
 | `fact=n`     | limit fact pool to this number of facts
 | `hash=n`     | use this hash size for finding dictionary words (bigger = faster access)
-| `cache=1x50` | allocate a 50K buffer for handling 1 user file at a time. A server might want to cache multiple users at a time.
+| `cache=50x1` | allocate a 50K buffer for handling 1 user file at a time. A server might want to cache multiple users at a time.
 
 A default version of ChatScript will allocate much more than it needs, because it doesn't
 know what you might need. 
@@ -281,6 +281,14 @@ Noserverprelog
 Normally CS writes of a copy of input before server begins work on it to server log.
 Helps see what crashed the server (since if it crashes you get no log entry). This turns it
 off to improve performance.
+
+```
+hidefromlog="label label2 label3"
+```
+If there is data you don't want reflected into either server or user log files, this is the parameter. Maybe you don't
+want an authorization code recorded, or whatever. This presumes the data is part of some JSON object. You name one or more labels
+and when those are found in data outbound to a log file, the label and its value will be omitted.
+
 
 ```
 Serverctrlz

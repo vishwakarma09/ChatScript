@@ -1,6 +1,6 @@
 # ChatScript Debugging Manual
 © Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com<br>
-<br>Revision 4/24/2017 cs7.4
+<br>Revision 6/18/2017 cs7.5
 
 You've written script. It doesn't work. Now what? Now you need to debug it, fix it, and
 recompile it. Debugging is mostly a matter of tracing what the system does testpaand
@@ -80,6 +80,7 @@ the above : statement show the list:
 :overlap   - Direct members of set x that are also in set y somehow
 :up        - Display concept structure above a word
 :word      - Display information about given word
+:dualupper - Display words that have multiple upper-case forms
 
 ---- System Control commands -
 :build   - Compile a script - filename {nospell,outputspell,reset}
@@ -717,6 +718,9 @@ parts-of-speech, role-in-sentence, `~number`, etc
 Given a word, this displays the dictionary entry for it as well some data up it's hierarchy.
 The word is case sensitive and if you want to check out a composite word, you need to
 use underscores instead of blanks. So `:word TV_star`.
+
+### `:dualupper`
+Lists words that have multiple upper-case spellings. Ideally there would be only one such spelling.
 
 ### `:userfacts`
 This prints out the current facts stored with the user.

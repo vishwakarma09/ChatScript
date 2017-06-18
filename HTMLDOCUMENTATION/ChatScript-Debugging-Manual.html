@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1 id="chatscript-debugging-manual">ChatScript Debugging Manual</h1>
-<p>© Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com<br> <br>Revision 4/24/2017 cs7.4</p>
+<p>© Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com<br> <br>Revision 6/18/2017 cs7.5</p>
 <p>You've written script. It doesn't work. Now what? Now you need to debug it, fix it, and recompile it. Debugging is mostly a matter of tracing what the system does testpaand finding out where it doesn't do what you expected. Debugging mostly done by issuing commands to the engine, as opposed to chatting.</p>
 <p>If the system detects bugs during execution, they go into <code>TMP/bugs.txt</code> You can erase the entire contents of the TMP directory any time you want to. But odds are this is not your problem.</p>
 <p>Debugging generally requires use of some :xxxx commands. I don't always remember them all, so at times I might simply say</p>
@@ -78,6 +78,7 @@
 :overlap   - Direct members of set x that are also in set y somehow
 :up        - Display concept structure above a word
 :word      - Display information about given word
+:dualupper - Display words that have multiple upper-case forms
 
 ---- System Control commands -
 :build   - Compile a script - filename {nospell,outputspell,reset}
@@ -496,6 +497,8 @@ RAWDATA/simpletopic.top # things we can chat about
 <p>Given 2 or more words, this displays the concepts they share in common, most close first. This only applies to statically defined concepts, and not to dynamic engine concepts like parts-of-speech, role-in-sentence, <code>~number</code>, etc</p>
 <h3 id="word-apple"><code>:word apple</code></h3>
 <p>Given a word, this displays the dictionary entry for it as well some data up it's hierarchy. The word is case sensitive and if you want to check out a composite word, you need to use underscores instead of blanks. So <code>:word TV_star</code>.</p>
+<h3 id="dualupper"><code>:dualupper</code></h3>
+<p>Lists words that have multiple upper-case spellings. Ideally there would be only one such spelling.</p>
 <h3 id="userfacts"><code>:userfacts</code></h3>
 <p>This prints out the current facts stored with the user.</p>
 <h3 id="allfacts"><code>:allfacts</code></h3>

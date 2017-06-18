@@ -29,6 +29,7 @@ void ResetTokenSystem()
 	wordStarts[0] = AllocateHeap((char*)"");    
     wordCount = 0;
 	memset(wordStarts,0,sizeof(char*)*MAX_SENTENCE_LENGTH); // reinit for new volley - sharing of word space can occur throughout this volley
+	wordStarts[0] = ""; // underflow protection
 	ClearWhereInSentence();
 	memset(concepts, 0, sizeof(concepts));  // concept chains per word
 	memset(topics, 0, sizeof(concepts));  // concept chains per word
@@ -393,11 +394,16 @@ static WORDP UnitSubstitution(char* buffer)
 {
 	char value[MAX_WORD_SIZE];
 	char* at = buffer - 1;
-	while (IsDigit(*++at) || *at == '.'); // skip past number
+	while (IsDigit(*++at) || *at == numberPeriod || *at == numberComma); // skip past number
 	strcpy(value, "?_");
 	strcat(value + 2, at); // presume word after number is not big
-	while ((at = strchr(value, '.'))) memmove(at, at + 1, strlen(at)); // remove periods
+	while ((at = strchr(value, '.'))) memmove(at, at + 1, strlen(at)); // remove abbreviation periods
 	WORDP D = FindWord(value, 0, LOWERCASE_LOOKUP);
+	if (!D)
+	{
+		size_t len = strlen(value);
+		if (value[len-1] == 's')  D = FindWord(value, len-1, LOWERCASE_LOOKUP);
+	}
 	uint64 allowed = tokenControl & (DO_SUBSTITUTE_SYSTEM | DO_PRIVATE);
 	return (D && allowed & D->internalBits) ? D : NULL; // allowed transform
 }
@@ -629,13 +635,8 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 
 	if (comma && IsDigit(*(comma-1)) && !IsDigit(comma[1])) return comma; // $7 99
 	if (comma && IsDigit(comma[1]) && IsDigit(comma[2]) && IsDigit(comma[3]) && IsDigit(comma[4])) return comma; // 25,2019 
-	if (comma && IsDigit(comma[1]) && !IsDigit(comma[2]) ) return comma; // 25,2
-	if (comma && IsDigit(comma[1]) && IsDigit(comma[2]) && !IsDigit(comma[3]))
-	{
-		// comma normally separates 3 digits, except for india where it can do 2's until last three
-		if (comma[3] == numberComma && IsDigit(comma[4]) && IsDigit(comma[5])){}
-		else return comma; // 25,20 
-	}
+	if (comma && !IsCommaNumberSegment(comma+1)) return comma; // 25,2 rest of word is not valid comma segments
+
 	if (kind & BRACKETS && ( (c != '>' && c != '<') || next != '=') ) 
 	{
 		if (c == '<' && next == '/') return ptr + 2; // keep html together  </
@@ -1369,7 +1370,7 @@ void ProcessCompositeDate()
 			int at = start - 1;
 			while (++at <= end)
 			{
-				if (at != i && stricmp(wordStarts[at],(char*)"of"))
+				if (at != i && stricmp(wordStarts[at],(char*)"of") && *wordStarts[at] != ',')
 				{
 					strcat(word,(char*)"_");
 					strcat(word,wordStarts[at]);
@@ -1629,7 +1630,7 @@ static void MergeNumbers(int& start,int& end) //   four score and twenty = four-
         size_t len = strlen(wordStarts[i]);
 		//   one thousand one hundred and twenty three
 		//   OR  one and twenty 
-        if (*item == 'a' || *item == 'A') //   and,  maybe flip order if first, like one and twenty, then ignore
+        if (i > 1 && i < wordCount && (*item == 'a' || *item == 'A')) //   and,  maybe flip order if first, like one and twenty, then ignore
         {
 			int64 power1 = NumberPower(wordStarts[i-1]);
 			int64 power2 = NumberPower(wordStarts[i+1]);
@@ -1653,7 +1654,7 @@ static void MergeNumbers(int& start,int& end) //   four score and twenty = four-
         strcpy(ptr,item);
         ptr += len;
         *ptr = 0;
-        if (i != start) //   prove not mixing types digits and words
+        if (i > 1 && i != start) //   prove not mixing types digits and words
         {
   			int64 power1 = NumberPower(wordStarts[i-1]);
 			int64 power2 = NumberPower(wordStarts[i]);

@@ -128,7 +128,7 @@ void ComputeWordData(char* word, WORDINFO* info);
 char* CopyRemoveEscapes(char* to, char* at,int limit,bool all = false);
 char* AddEscapes(char* to, char* from,bool normal,int limit);
 void AcquireDefines(char* fileName);
-void AcquirePosMeanings();
+void AcquirePosMeanings(bool facts);
 char* FindNameByValue(uint64 val); // properties
 uint64 FindValueByName(char* name);
 void ClearNumbers();
@@ -164,6 +164,7 @@ char GetTemperatureLetter (char* ptr);
 char* IsTextCurrency(char* ptr, char* end);
 bool IsLegalName(char* name);
 unsigned char* GetCurrency(unsigned char* ptr,char* &number);
+bool IsCommaNumberSegment(char* word);
 bool IsRomanNumeral(char* word, uint64& val);
 char* WriteFloat(char* buffer, double value, int useNumberStyle = NOSTYLE_NUMBERS);
 

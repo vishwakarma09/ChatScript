@@ -1,4 +1,12 @@
-# Version 7.42
+# Version 7.5  6/18/2017
+1 :dualupper - list words that have more than one uppercase form
+2. hidefromlog param - list json fields not to save into user or server log
+3. ^jsonparse autoconverts \unnnn into corresponding utf8 characters
+4: :trim 12 - put out rule label then input then output 
+5. $cs_saveusedJson - destory any json not referred to via a user variable when saving user
+6. new spelling-marking manual
+
+# Version 7.42 5/28/2017
 1.  *~8b  for bidirectional search
 2. ^burst($val digitsplit)  splits into two pieces a word part and a digit part (dd12 => dd  12) and
 	(12dd => dd 12) - if it starts with digit, gets all consecutive digits as second value and all the

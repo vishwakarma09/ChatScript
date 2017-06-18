@@ -442,7 +442,7 @@ void DumpSentence(int start,int end)
 	}
 	for (int i = 1; i <= describedClauses; ++i)
 	{
-		sprintf(word,(char*)"Clause %d %s : (char*)",i,wordStarts[describeClause[i]]);
+		sprintf(word,(char*)"Clause %d %s : ",i,wordStarts[describeClause[i]]);
 		strcat(buffer,word);
 		int clause = describeClause[i];
 		int clauseid = clauses[clause] & (-1 ^ clauses[clause-1]);

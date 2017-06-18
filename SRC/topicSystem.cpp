@@ -1289,7 +1289,7 @@ FunctionResult TestRule(int ruleID,char* rule,char* buffer,bool refine)
 	int start = 0;
 	int oldstart = 0;
 	int end = 0;
-	int limit = 100; 
+	int limit = MAX_SENTENCE_LENGTH + 2; 
 	char label[MAX_LABEL_SIZE];
     char* ptr = GetLabel(rule,label); // now at pattern if there is one
 	char id[SMALL_WORD_SIZE];
@@ -2284,11 +2284,11 @@ void UnwindUserLayerProtect()
 	unwindUserLayer = NULL;
 }
 
-static void AddRecursiveProperty(WORDP D,uint64 type,bool buildDictionary,unsigned int build)
+static void AddRecursiveProperty(WORDP D,uint64 type,bool dictionaryBuild,unsigned int build)
 {
 	if (D->internalBits & DELETED_MARK  && !(D->internalBits & TOPIC)) RemoveInternalFlag(D,DELETED_MARK);
 	AddProperty(D,type);
-	if (buildDictionary) AddSystemFlag(D,MARKED_WORD);
+	if (dictionaryBuild) AddSystemFlag(D,MARKED_WORD);
 	if (*D->word != '~')
 	{
 		if (type & NOUN && !(D->properties & (NOUN_PROPER_SINGULAR|NOUN_SINGULAR|NOUN_PLURAL|NOUN_PROPER_PLURAL))) // infer case 
@@ -2303,12 +2303,12 @@ static void AddRecursiveProperty(WORDP D,uint64 type,bool buildDictionary,unsign
 	FACT* F = GetObjectNondeadHead(D);
 	while (F)
 	{
-		AddRecursiveProperty(Meaning2Word(F->subject),type,buildDictionary,build);
+		AddRecursiveProperty(Meaning2Word(F->subject),type,dictionaryBuild,build);
 		F = GetObjectNondeadNext(F);
 	}
 }
 
-static void AddRecursiveRequired(WORDP D,WORDP set,uint64 type,bool buildDictionary,unsigned int build)
+static void AddRecursiveRequired(WORDP D,WORDP set,uint64 type,bool dictionaryBuild,unsigned int build)
 {
 	if (*D->word != '~')  
 	{
@@ -2333,42 +2333,42 @@ static void AddRecursiveRequired(WORDP D,WORDP set,uint64 type,bool buildDiction
 	FACT* F = GetObjectNondeadHead(D);
 	while (F)
 	{
-		AddRecursiveRequired(Meaning2Word(F->subject),D,type,buildDictionary,build);
+		AddRecursiveRequired(Meaning2Word(F->subject),D,type, dictionaryBuild,build);
 		F = GetObjectNondeadNext(F);
 	}
 }
 
-static void AddRecursiveFlag(WORDP D,uint64 type,bool buildDictionary,unsigned int build)
+static void AddRecursiveFlag(WORDP D,uint64 type,bool dictionaryBuild,unsigned int build)
 {
 	AddSystemFlag(D,type);
-	if (buildDictionary) AddSystemFlag(D,MARKED_WORD);
+	if (dictionaryBuild) AddSystemFlag(D,MARKED_WORD);
 	if (*D->word != '~') return;
 	if (D->inferMark == inferMark) return;
 	D->inferMark = inferMark;
 	FACT* F = GetObjectNondeadHead(D);
 	while (F)
 	{
-		AddRecursiveFlag(Meaning2Word(F->subject),type,buildDictionary,build); // but may NOT have been defined yet!!!
+		AddRecursiveFlag(Meaning2Word(F->subject),type, dictionaryBuild,build); // but may NOT have been defined yet!!!
 		F = GetObjectNondeadNext(F);
 	}
 }
 
-static void AddRecursiveInternal(WORDP D,unsigned int intbits,bool buildDictionary,unsigned int build)
+static void AddRecursiveInternal(WORDP D,unsigned int intbits,bool dictionaryBuild,unsigned int build)
 {
 	AddInternalFlag(D,intbits);
-	if (buildDictionary) AddSystemFlag(D,MARKED_WORD);
+	if (dictionaryBuild) AddSystemFlag(D,MARKED_WORD);
 	if (*D->word != '~') return;
 	if (D->inferMark == inferMark) return;
 	D->inferMark = inferMark;
 	FACT* F = GetObjectNondeadHead(D);
 	while (F)
 	{
-		AddRecursiveInternal(Meaning2Word(F->subject),intbits,buildDictionary,build); // but may NOT have been defined yet!!!
+		AddRecursiveInternal(Meaning2Word(F->subject),intbits, dictionaryBuild,build); // but may NOT have been defined yet!!!
 		F = GetObjectNondeadNext(F);
 	}
 }
 
-void InitKeywords(const char* fname,const char* layer,unsigned int build,bool buildDictionary,bool concept)
+void InitKeywords(const char* fname,const char* layer,unsigned int build,bool dictionaryBuild,bool concept)
 { 
 	char word[MAX_WORD_SIZE];
 	sprintf(word,"%s/%s",topic,fname);
@@ -2414,7 +2414,7 @@ void InitKeywords(const char* fname,const char* layer,unsigned int build,bool bu
 			T = ReadMeaning(word,true,true);
 			set = Meaning2Word(T);
 			AddInternalFlag(set,(unsigned int) (CONCEPT|build));// sets and concepts are both sets. Topics get extra labelled on script load
-			if (buildDictionary) AddSystemFlag(set,MARKED_WORD);
+			if (dictionaryBuild) AddSystemFlag(set,MARKED_WORD);
 			if (set->internalBits & DELETED_MARK && !(set->internalBits & TOPIC)) RemoveInternalFlag(set,DELETED_MARK); // restore concepts but not topics
 			
 			// read any properties to mark on the members
@@ -2500,7 +2500,7 @@ void InitKeywords(const char* fname,const char* layer,unsigned int build,bool bu
 				
 			WORDP D = Meaning2Word(U);
 			if (D->internalBits & DELETED_MARK  && !(D->internalBits & TOPIC)) RemoveInternalFlag(D,DELETED_MARK); 
-			if (buildDictionary) AddSystemFlag(D,MARKED_WORD);
+			if (dictionaryBuild) AddSystemFlag(D,MARKED_WORD);
 			if (type && !strchr(p1+1,'~')) // not dictionary entry
 			{
 				AddSystemFlag(D,sys);
@@ -2580,17 +2580,17 @@ void InitKeywords(const char* fname,const char* layer,unsigned int build,bool bu
 		if (type) 
 		{
 			NextInferMark();
-			AddRecursiveProperty(D,type, buildDictionary,build);
+			AddRecursiveProperty(D,type, dictionaryBuild,build);
 		}
 		if (sys) 
 		{
 			NextInferMark();
-			AddRecursiveFlag(D,sys, buildDictionary,build);
+			AddRecursiveFlag(D,sys, dictionaryBuild,build);
 		}
 		if (intbits) 
 		{
 			NextInferMark();
-			AddRecursiveInternal(D,intbits, buildDictionary,build);
+			AddRecursiveInternal(D,intbits, dictionaryBuild,build);
 		}
 		if (parse) 
 		{
@@ -2600,7 +2600,7 @@ void InitKeywords(const char* fname,const char* layer,unsigned int build,bool bu
 		if (required)
 		{
 			NextInferMark();
-			AddRecursiveRequired(D,D,required, buildDictionary,build);
+			AddRecursiveRequired(D,D,required, dictionaryBuild,build);
 		}
 	}
 	FClose(in);

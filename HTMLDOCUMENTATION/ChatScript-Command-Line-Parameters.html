@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1 id="chatscript-command-line-parameters">ChatScript Command Line Parameters</h1>
-<p>Copyright Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com<br> Revision 5/28/2017 cs7.43</p>
+<p>Copyright Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com<br> Revision 6/18/2017 cs7.5</p>
 <h1 id="command-line-parameters">Command Line Parameters</h1>
 <p>You can give parameters on the run command or in a config file. The default config file is <code>cs_init.txt</code> at the top level of CS (if the file exists). Or you can name where the file is on a command line parameter <code>config=xxx</code>. Config file data are command line parameters, 1 per line, like below:</p>
 <pre><code>noboot 
@@ -70,7 +70,7 @@ port=20</code></pre>
 <td>use this hash size for finding dictionary words (bigger = faster access)</td>
 </tr>
 <tr class="odd">
-<td><code>cache=1x50</code></td>
+<td><code>cache=50x1</code></td>
 <td>allocate a 50K buffer for handling 1 user file at a time. A server might want to cache multiple users at a time.</td>
 </tr>
 </tbody>
@@ -353,6 +353,8 @@ cache=20x1</code></pre>
 <p>Write a server log. Server default if unspecified. The server log will be put into the LOGS directory under serverlogxxx.txt where xxx is the port.</p>
 <pre><code>Noserverprelog</code></pre>
 <p>Normally CS writes of a copy of input before server begins work on it to server log. Helps see what crashed the server (since if it crashes you get no log entry). This turns it off to improve performance.</p>
+<pre><code>hidefromlog=&quot;label label2 label3&quot;</code></pre>
+<p>If there is data you don't want reflected into either server or user log files, this is the parameter. Maybe you don't want an authorization code recorded, or whatever. This presumes the data is part of some JSON object. You name one or more labels and when those are found in data outbound to a log file, the label and its value will be omitted.</p>
 <pre><code>Serverctrlz</code></pre>
 <p>Have server terminate its output with 0x00 0xfe 0xff as a verification the client received the entire message, since without sending to server, client cannot be positive the connection wasn't broken somewhere and await more input forever.</p>
 <pre><code>Noserverlog</code></pre>

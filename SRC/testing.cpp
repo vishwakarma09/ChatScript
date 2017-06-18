@@ -3940,6 +3940,7 @@ static void C_Build(char* input)
 	strcpy(oldloginname,loginName);
 	char file[SMALL_WORD_SIZE];
 	char control[MAX_WORD_SIZE];
+	ClearWordMaps();
 	input = ReadCompiledWord(input,file);
 	input = SkipWhitespace(input);
 	int spell = PATTERN_SPELL;
@@ -4013,8 +4014,12 @@ static void C_Build(char* input)
 
 static void C_Quit(char* input)
 {
-	Log(STDTRACELOG,(char*)"Exiting ChatScript via Quit\r\n");
-	quitting = true;
+	// allow local bots to continue if in boot
+	if (server || currentBeforeLayer != LAYER_BOOT)
+	{
+		Log(STDTRACELOG, (char*)"Exiting ChatScript via Quit\r\n");
+		quitting = true;
+	}
 }
 
 static void C_Restart(char* input)
@@ -5602,6 +5607,49 @@ static void C_MixedCase(char* input)
 		}
 	}
 	Log(ECHOSTDTRACELOG,"There are %d entries\r\n",n);
+}
+
+
+static void C_DualUpper(char* input)
+{
+	int n = 0;
+	inferMark = NextInferMark();
+	int index = 0;
+	WORDP list[50];
+	for (WORDP D = dictionaryBase + 1; D < dictionaryFree; ++D)
+	{
+		if (!D->word) continue;
+		if (D->internalBits & HAS_SUBSTITUTE) continue; // not real
+		char* apos = strchr(D->word, '\'');
+		if (apos && !(strchr(D->word, '_') || strchr(D->word, ' ')) && D > dictionaryPreBuild[LAYER_0])
+		{
+			Log(ECHOSTDTRACELOG, " has apostrophe %s\r\n", D->word);
+		}
+		if (D->word && D->internalBits & UPPERCASE_HASH)
+		{
+			index = 0;
+			unsigned int hash = (D->hash % maxHashBuckets) + 1; // mod by the size of the table
+			WORDP E = Index2Word(hashbuckets[hash]);
+			while (E != dictionaryBase)
+			{
+				if (D->hash == E->hash && E->length == D->length && !stricmp(D->word, E->word)) // they match independent of case- 
+				{
+					list[index++] = E;
+				}
+				E = dictionaryBase + GETNEXTNODE(E);
+			}
+			if (index > 1)
+			{
+				for (int i = 0; i < index; ++i)
+				{
+					Log(ECHOSTDTRACELOG, " %s  ", list[i]->word);
+					list[i]->inferMark = inferMark;
+
+				}
+				Log(ECHOSTDTRACELOG, "\r\n");
+			}
+		}
+	}
 }
 
 static void C_Word(char* input)
@@ -9386,6 +9434,7 @@ static void TrimIt(char* name,uint64 flag)
 	//  9 = generate user log files from system log
 	// 10 = generate statistics from logs
 	// 11 = timeline of user->bot
+	// 12 = rule user -> bot
 
 	char prior[MAX_BUFFER_SIZE];
 	FILE* in = FopenReadWritten(name);
@@ -9614,7 +9663,44 @@ static void TrimIt(char* name,uint64 flag)
 			}
 		}
 		else if (flag == 11)  sprintf(display, (char*)"\r\n%s  %s\r\n\t%s\r\n", when, input, output); //  timeline, user first
+		else if (flag == 12 || flag == 13) // 12 skips initial oob reason  13 doesnt
+		{
+			char tag[MAX_WORD_SIZE];
+			char* whyTag = why;
+			bool start = true;
+			char* atOutput = output;
+			if (*whyTag != '~') { ; }
+			whyTag = ReadCompiledWord(whyTag, tag); // get tag  which is topic.x.y=name or topic.x.y<topic.a.b (reuse) and optional label which is whytag
+			if (flag == 13) whyTag = tag;
+			char* separation = strchr(whyTag+1, '~');
+			if (separation) *separation = 0; // block out rest of output for a moment
+			int topicidx = 0;
+			int id;
+			char* rule = GetRuleTag(topicidx, id, whyTag);
+			char label[MAX_WORD_SIZE];
+			*label = 0;
+			GetLabel(rule, label);
 
+			if (*output == '[') // skip OOB data
+			{
+				int count = 1;
+				while (*++output)
+				{
+					if (*output == '[') ++count;
+					else if (*output == ']')
+					{
+						--count;
+						if (!count)
+						{
+							++output;
+							break;
+						}
+					}
+				}
+			}
+
+			sprintf(display, (char*)"%s %s => %s\r\n", label,input, output); //  rule then showing both as pair, user first
+		}
 		if (*display) 
 		{
 			if (!header) 
@@ -9769,6 +9855,7 @@ CommandInfo commandSet[] = // NEW
 	{ (char*)":up",C_Up,(char*)"Display concept structure above a word"}, 
 	{ (char*)":word",C_Word,(char*)"Display information about given word"}, 
 	{ (char*)":mixedcase",C_MixedCase,(char*)"List words occurring in both cases, not part of WordNet"}, 
+	{ (char*)":dualupper",C_DualUpper,(char*)"List words occurring in multiple uppercase forms, not part of WordNet" },
 
 	{ (char*)"\r\n---- System Control commands",0,(char*)""}, 
 	{ (char*)":build",C_Build,(char*)"Compile a script - filename {nospell,outputspell,reset}"}, 
@@ -9977,11 +10064,13 @@ TestMode DoCommand(char* input,char* output,bool authorize)
 	*currentFilename = 0;
 	char* ptr = NULL;
 #ifndef DISCARDSCRIPTCOMPILER
+	char* hold = newBuffer;
 	StartScriptCompiler();
 #endif
 	ReadNextSystemToken(NULL,ptr,NULL,false,false);		// flush any pending data in input cache
 #ifndef DISCARDSCRIPTCOMPILER
 	EndScriptCompiler();
+	newBuffer = hold;
 #endif
 	if (strnicmp(input,(char*)":why",4)) responseIndex = 0;
 	return Command(input,output,!authorize); 

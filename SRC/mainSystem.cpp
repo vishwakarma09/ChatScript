@@ -1,6 +1,6 @@
 #include "common.h" 
 #include "evserver.h"
-char* version = "7.43";
+char* version = "7.5";
 char sourceInput[200];
 FILE* userInitFile;
 int externalTagger = 0;
@@ -488,12 +488,13 @@ void ReloadSystem()
 
 	if (!ReadBinaryFacts(FopenStaticReadOnly(UseDictionaryFile((char*)"facts.bin"))))  // DICT
 	{
-		AcquirePosMeanings();
+		AcquirePosMeanings(true);
 		WORDP safeDict = dictionaryFree;
 		ReadFacts(UseDictionaryFile((char*)"facts.txt"),NULL,0);
 		if ( safeDict != dictionaryFree) myexit((char*)"dict changed on read of facts");
 		WriteBinaryFacts(FopenBinaryWrite(UseDictionaryFile((char*)"facts.bin")),factBase);
 	}
+	else AcquirePosMeanings(false);
 	char name[MAX_WORD_SIZE];
 	sprintf(name,(char*)"%s/%s/systemfacts.txt",livedata,language);
 	ReadFacts(name,NULL,0); // part of wordnet, not level 0 build 
@@ -506,7 +507,10 @@ static void ProcessArgument(char* arg)
 {
 	if (!argumentsSeen)
 	{
-		printf("CommandLine:\r\n");
+		char path[MAX_WORD_SIZE];
+		*path = 0;
+		GetCurrentDir(path, MAX_WORD_SIZE);
+		printf("CommandLine: %s\r\n",path); 
 		argumentsSeen = true;
 	}
 	printf("    %s\r\n",arg);
@@ -630,6 +634,14 @@ static void ProcessArgument(char* arg)
 #endif
 	else if (!stricmp(arg,(char*)"userlog")) userLog = true;
 	else if (!stricmp(arg,(char*)"nouserlog")) userLog = false;
+	else if (!strnicmp(arg, (char*)"hidefromlog=", 12))
+	{
+		char* at = arg + 12;
+		if (*at == '"') ++at;
+		strcpy(hide, at);
+		size_t len = strlen(hide);
+		if (hide[len - 1] == '"') hide[len - 1] = 0;
+	}
 #ifndef DISCARDSERVER
 	else if (!stricmp(arg,(char*)"serverretry")) serverRetryOK = true;
 	else if (!stricmp(arg,(char*)"local")) server = false; // local standalone
@@ -1508,10 +1520,6 @@ int PerformChat(char* user, char* usee, char* incoming,char* ip,char* output) //
 		eraseUser = true;
 		strncpy(x, erasename, strlen(erasename));
 	}
-	if (strstr(incoming, "estranged"))
-	{
-		int xx = 0;
-	}
 	mainInputBuffer = incoming;
 	mainOutputBuffer = output;
 	size_t len = strlen(incoming);
@@ -2150,7 +2158,8 @@ void OnceCode(const char* var,char* function) //   run before doing any of his i
 
 	if (pushed) PopTopic();
 	if (topicIndex) ReportBug((char*)"topics still stacked")
-	if (globalDepth) ReportBug((char*)"Once code %s global depth not 0",name);
+	if (globalDepth) 
+		ReportBug((char*)"Once code %s global depth not 0",name);
 	topicIndex = currentTopicID = 0; // precaution
 }
 		
@@ -2648,7 +2657,7 @@ void PrepareSentence(char* input,bool mark,bool user, bool analyze,bool oobstart
 		Log(ECHOSTDTRACELOG,(char*)"\r\n");
 	}
 
-	wordStarts[wordCount+1] = AllocateHeap((char*)""); // visible end of data in debug display
+	wordStarts[0] = wordStarts[wordCount+1] = AllocateHeap((char*)""); // visible end of data in debug display
 	wordStarts[wordCount+2] = 0;
     if (mark && wordCount) MarkAllImpliedWords();
 
@@ -2681,6 +2690,7 @@ int main(int argc, char * argv[])
 #endif
 		}
 	}
+	*hide = 0;
 
 	FILE* in = FopenStaticReadOnly((char*)"SRC/dictionarySystem.h"); // SRC/dictionarySystem.h
 	if (!in) // if we are not at top level, try going up a level

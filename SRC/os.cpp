@@ -32,6 +32,7 @@ static bool pendingWarning = false;			// log entry we are building is a warning 
 static bool pendingError = false;			// log entry we are building is an error message
 int userLog = LOGGING_NOT_SET;				// do we log user
 int serverLog = LOGGING_NOT_SET;			// do we log server
+char hide[4000];							// dont log this json field 
 bool serverPreLog = true;					// show what server got BEFORE it works on it
 bool serverctrlz = false;					// close communication with \0 and ctrlz
 bool echo = false;							// show log output onto console as well
@@ -1718,6 +1719,55 @@ unsigned int Log(unsigned int channel,const char * fmt, ...)
     }
     *at = 0;
     va_end(ap); 
+
+	// implement unlogged data
+	if (hide)
+	{
+		char* hidden = hide; // multiple hiddens separated by spaces, presumed covered by quotes in real data
+		char* next = hidden; // start of next field name
+		char word[MAX_WORD_SIZE]; // thing we search for
+		*word = '"';
+		while (next)
+		{
+			char* begin = next; 
+			next = strchr(begin, ' '); // example is  "authorized" or authorized or "authorized": or whatever
+			if (next) *next = 0;
+			strcpy(word+1, begin);
+			if (next) *next++ = ' ';
+			size_t len = strlen(word);
+			word[len++] = '"';
+			word[len] = 0; // key now in quotes
+
+			char* found = strstr(logbase, word); // find instance of key (presumed only one)
+			if (found) // is this item in our output to log? assume only 1 occurrence per output
+			{
+				// this will json field name, not requiring quotes but JSON will probably have them.
+				// value will be simple string, not a structure
+				char* after = found + len;	// immediately past item is what?
+				while (*after == ' ') ++after; // skip past space after
+				if (*after == ':') ++after; // skip a separator
+				else break;	 // illegal, not a field name
+				while (*after == ' ') ++after; // skip past space after
+				if (*after == '"') // string value to skip
+				{
+					char* quote = after + 1;
+					while ((quote = strchr(quote, '"'))) // find closing quote - MUST BE FOUND
+					{
+						if (*(quote - 1) == '\\') ++quote;	// escaped quote ignore
+						else // ending quote
+						{
+							++quote;
+							while (*quote == ' ') ++quote;	// skip trailing space
+							if (*quote == ',') ++quote;	// skip comma
+							at -= (quote - found);	// move the end point by the number of characters skipped
+							memmove(found, quote, strlen(found));
+							break;
+						}
+					}
+				}
+			}
+		}
+	}
 
 
 	if (channel == STDDEBUGLOG) // debugger output

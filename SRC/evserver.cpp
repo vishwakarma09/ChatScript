@@ -219,9 +219,7 @@ struct Client_t
 
     int received_request() {
         int nulls = count(this->incomming.begin(), this->incomming.end(), 0);
-
         if (nulls < 3)  return 0;
-
         if (nulls > 3)   return -1;
 
         this->requestValid = true;
@@ -324,6 +322,9 @@ static void evsrv_child_died(EV_P_ ev_child *w, int revents) {
 
 	else if (r == 1)
 	{
+		// socket listener
+		ev_io_init(&ev_accept_r_g, evsrv_accept, srv_socket_g, EV_READ);
+		ev_io_start(l_g, &ev_accept_r_g);
 		Log(SERVERLOG, "  evserver child: re-spawned [pid: %d]\r\n", getpid());
 		printf("  evserver child: re-spawned [pid: %d]\r\n", getpid());
 	}

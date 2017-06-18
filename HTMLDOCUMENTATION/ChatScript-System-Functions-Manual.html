@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1 id="chatscript-system-functions-manual">ChatScript System Functions Manual</h1>
-<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 5/28/2017 cs7.43</p>
+<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 6/18/2017 cs7.5</p>
 <ul>
 <li><a href="ChatScript-System-Functions-Manual.html#topic-functions">Topic Functions</a></li>
 <li><a href="ChatScript-System-Functions-Manual.html#marking-functions">Marking Functions</a></li>
@@ -783,7 +783,7 @@ u: (%document)
 <p>Inserts the key value pair into the object named. The key does not require quoting. Inserting a json string as value requires a quoted string. Duplicate keys are ignored unless the optional 1st argument <code>DUPLICATE</code> is given. <code>SAFE</code> protects any nested JSON data from being deleted. See JSON manual.</p>
 <h3 id="jsonopen-unique-kind-url-postdata-header"><code>^jsonopen ( {UNIQUE} kind url postdata header )</code></h3>
 <p>This function queries a website and returns a JSON datastructure as facts. It uses the standard CURL library, so it's arguments and how to use them are generally defined by CURL documentation and the website you intend to access. See ChatScript JSON manual for details.</p>
-<h3 id="jsonprint-name"><code>^jsonprint ( name )</code></h3>
+<h3 id="jsontree-name"><code>^jsontree ( name )</code></h3>
 <p><code>name</code> is the value returned by <code>^JSONparse</code>, <code>^JSONopen</code>, or some query into such structures. It prints out a tree of elements, one per line, where depth is represented as more deeply indented. Objects are marked with { } as they are in JSON. Arrays are marked with <code>[]</code>.</p>
 <h3 id="jsonwrite-name"><code>^jsonwrite ( name )</code></h3>
 <p><code>name</code> is the name from a json fact set (returned by <code>^JSONparse</code>, <code>^JSONopen</code>, or some query into such structures). Result is the corresponding JSON string (as a website might emit), without any linefeeds.</p>
@@ -791,6 +791,7 @@ u: (%document)
 <p><code>string</code> is a json text string (as might be returned from a website) and this parses into facts exactly as <code>^jsonopen</code> would do, just not retrieving the string from the web. It returns the name of the root node. One use for this is to pass JSON data as a quoted string within out-of-band data, and have the system parse that into facts you can use.</p>
 <p>You can add <code>NOFAIL</code> before the string argument, to tell it to return null but not fail if a dereference path fails cannot be found.</p>
 <pre><code>^jsonparse(transient NOFAIL &quot;{ a: $var, b: _0.e[2] }&quot;)</code></pre>
+<p><code>^jsonparse</code> automatically converts any backslashunnnn into the corresponding utf8 character.</p>
 <h3 id="jsonkind-something"><code>^jsonkind ( something )</code></h3>
 <p>If <em>something</em> is a JSON object, the function returns <code>object</code>. If it is a JSON array it returns <code>array</code>. Otherwise it fails.</p>
 <h3 id="jsonpath-string-id"><code>^jsonpath ( string id )</code></h3>

@@ -37,6 +37,13 @@
     <LocalDebuggerCommandArguments />
     <ShowAllFiles>true</ShowAllFiles>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='releaseTreetagger|Win32'">
+    <LocalDebuggerWorkingDirectory>$(SolutionDir)..\BINARIES</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>$(SolutionDir)..\BINARIES\chatscripttt.exe </LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>port=1024</LocalDebuggerCommandArguments>
+    <ShowAllFiles>true</ShowAllFiles>
+  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LocalDebuggerWorkingDirectory>..\BINARIES</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>

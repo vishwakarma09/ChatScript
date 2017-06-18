@@ -34,6 +34,7 @@ char callerIP[ID_SIZE];
 char timeturn15[100];
 char timeturn0[20];
 char timePrior[20];
+static void SaveJSON(WORDP D);
 
 void PartialLogin(char* caller,char* ip)
 {
@@ -111,7 +112,7 @@ void ResetUserChat()
 	for (unsigned int i = 0; i <= MAX_FIND_SETS; ++i) SET_FACTSET_COUNT(i,0);
 }
 
-static char* WriteUserFacts(char* ptr,bool sharefile,int limit)
+static char* WriteUserFacts(char* ptr,bool sharefile,int limit,char* saveJSON)
 {
 	if (!ptr) return NULL;
 	
@@ -120,7 +121,7 @@ static char* WriteUserFacts(char* ptr,bool sharefile,int limit)
 	ptr += strlen(ptr);
 	unsigned int i;
     unsigned int count;
-	if (!shared || sharefile)  for (i = 0; i <= MAX_FIND_SETS; ++i) 
+	if (!shared || sharefile)  for (i = 0; i <= MAX_FIND_SETS; ++i)
     {
 		if (!(setControl & (uint64) ((uint64)1 << i))) continue; // purely transient stuff
 
@@ -166,6 +167,7 @@ static char* WriteUserFacts(char* ptr,bool sharefile,int limit)
 	while (--F > factLocked && limit) // backwards down to base system facts
 	{
 		if (shared && !sharefile)  continue;
+		if (saveJSON && !(F->flags & MARKED_FACT2) && F->flags & (JSON_OBJECT_FACT | JSON_ARRAY_FACT)) continue; // dont write this out
 		if (!(F->flags & (FACTDEAD|FACTTRANSIENT|MARKED_FACT|FACTBUILD2))) --limit; // we will write this
 	}
 	// ends on factlocked, which is not to be written out
@@ -174,7 +176,9 @@ static char* WriteUserFacts(char* ptr,bool sharefile,int limit)
  	while (++F <= factFree)  // factfree is a valid fact
 	{
 		if (shared && !sharefile)  continue;
-		if (!(F->flags & (FACTDEAD|FACTTRANSIENT|MARKED_FACT|FACTBUILD2))) 
+		if (saveJSON && !(F->flags & MARKED_FACT2) && F->flags & (JSON_OBJECT_FACT | JSON_ARRAY_FACT)) continue; // dont write this out
+		if (F->flags & MARKED_FACT2) F->flags ^= MARKED_FACT2;	// turn off json marking bit
+		if (!(F->flags & (FACTDEAD|FACTTRANSIENT|MARKED_FACT|FACTBUILD2)))
 		{
 			++counter;
 			WriteFact(F,true,ptr,false,true); // facts are escaped safe for JSON
@@ -378,7 +382,30 @@ void RecoverUser() // regain stuff we loaded from user
 	pendingTopicIndex = originalPendingTopicIndex;
 }
 
-char* WriteUserVariables(char* ptr,bool sharefile, bool compiled)
+static void FollowJSON(FACT* F)
+{
+	if (F->flags & FACTTRANSIENT) return;	// not a real future reference
+	F->flags |= MARKED_FACT2;	// we will save this fact
+	if (F->flags & (JSON_ARRAY_VALUE | JSON_OBJECT_VALUE)) // follow forward
+	{
+		WORDP D = Meaning2Word(F->object);
+		SaveJSON(D);  
+	}
+	// presume JSON object never points to a fact itself
+}
+
+static void SaveJSON(WORDP D) // json structure head
+{
+	if (!D) return;
+	FACT* F = GetSubjectNondeadHead(D); // all facts of this object
+	while (F)
+	{
+		if (!(F->flags & MARKED_FACT2) && F > factLocked) FollowJSON(F); // write out all this as well/ not yet marked and user writeable
+		F = GetSubjectNondeadNext(F);
+	}
+}
+
+char* WriteUserVariables(char* ptr,bool sharefile, bool compiled,char* saveJSON)
 {
 	if (!ptr) return NULL;
 
@@ -398,15 +425,7 @@ char* WriteUserVariables(char* ptr,bool sharefile, bool compiled)
 		{
 			char* val = D->w.userValue;
 			// track json structures referred to
-//			if (val[0] == 'j' && (val[1] == 'o' || val[1] == 'a') && val[2] == '-' && val[3] != 't')
-	//		{ 
-	//			char* data = AllocateHeap(0, 2, 4); // word  aligned
-	//			((unsigned int*)data)[0] = jsonptrThreadList;
-	//			WORDP X = FindWord(val);
-	//			((unsigned int*)data)[1] = Word2Index(X);
-	//			jsonptrThreadList = Heap2Index(data);
-	//			X->internalBits |= JSON_REFERENCE;
-	//		}
+			if (val[0] == 'j' && (val[1] == 'o' || val[1] == 'a') && val[2] == '-' && val[3] != 't' && saveJSON) SaveJSON(FindWord(val));
 
 			// if var is actually system var, and value is unchanged (may have edited and restored), dont save it
 			unsigned int varthread1 =  botVariableThreadList;
@@ -555,27 +574,20 @@ static char* GatherUserData(char* ptr,time_t curr,bool sharefile)
 		ReportBug("User file topic data too big %s",loginID)
 		return NULL;
 	}
+	char* saveJSON = GetUserVariable("$cs_saveusedJson");
+	if (!*saveJSON) saveJSON = NULL;
+
 	jsonptrThreadList = 0;
-	ptr = WriteUserVariables(ptr,sharefile,false);  // json safe
+	ptr = WriteUserVariables(ptr,sharefile,false, saveJSON);  // json safe
 	if (!ptr)
 	{
 		ReportBug("User file variable data too big %s",loginID)
 		return NULL;
 	}
 
-	// unmark json structs
-//	int varthread = jsonptrThreadList;
-//	while (varthread)
-//	{
-//		unsigned int* cell = (unsigned int*)Index2Heap(varthread);
-//		varthread = cell[0];
-//		WORDP D = Index2Word(cell[1]);
-//		D->internalBits ^= JSON_REFERENCE;
-//	}
-
 	echo = false;
 	if (verifyUserFacts) CheckUserFacts();	// verify they are good for now
-	ptr = WriteUserFacts(ptr,sharefile,count);  // json safe
+	ptr = WriteUserFacts(ptr,sharefile,count, saveJSON);  // json safe
 	if (!ptr)
 	{
 		ReportBug("User file fact data too big %s",loginID)

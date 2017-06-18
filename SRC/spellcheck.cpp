@@ -402,9 +402,34 @@ bool SpellCheckSentence()
 		// nor fractions
 		if (IsFraction(word))  continue; // fraction?
 
+		// joined number words  like 100dollars
+		char* at = word - 1;
+		while (IsDigit(*++at) || *at == numberPeriod);
+		if (IsDigit(*word) && strlen(at) > 3 && ProbableKnownWord(at))
+		{
+			char first[MAX_WORD_SIZE];
+			strncpy(first, word, (at - word));
+			first[at - word] = 0;
+			char* tokens[3];
+			tokens[1] = first;
+			tokens[2] = at;
+			ReplaceWords("joined number word", i, 1, 2, tokens);
+			continue;
+		}
+
 		// nor model numbers
 		if (IsModelNumber(word))
+		{
+			WORDP X = FindWord(word, 0, UPPERCASE_LOOKUP);
+			if (IsConceptMember(X) && !strcmp(word,X->word))
+			{
+				char* tokens[2];
+				tokens[1] = X->word;
+				ReplaceWords("KnownUpperModelNumber", i, 1, 1, tokens);
+				fixedSpell = true;
+			}
 			continue;
+		}
 
 		char* number;
 		if (GetCurrency((unsigned char*)word, number)) continue; // currency
@@ -580,7 +605,7 @@ bool SpellCheckSentence()
 			StoreWord(word,ADJECTIVE_NORMAL|ADJECTIVE); // accept it as a word
 			continue;
 		}
-		else if (hyphen && (hyphen-word) > 1)
+		else if (hyphen && (hyphen-word) > 1 && !IsPlaceNumber(word)) // dont break up fifty-second
 		{
 			char test[MAX_WORD_SIZE];
 			char first[MAX_WORD_SIZE];

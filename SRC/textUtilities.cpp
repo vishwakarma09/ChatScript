@@ -622,12 +622,12 @@ void AcquireDefines(char* fileName)
             {
                 ptr = ReadCompiledWord(ptr-1,label);
                 value = FindValueByName(label);
-				bool olddict = buildDictionary;
-				buildDictionary = false;
+				bool olddict = xbuildDictionary;
+				xbuildDictionary = false;
                 if (!value)  value = FindSystemValueByName(label);
 	            if (!value)  value = FindMiscValueByName(label);
 	            if (!value)  value = FindParseValueByName(label);
-				buildDictionary = olddict;
+				xbuildDictionary = olddict;
 				if (!value)  ReportBug((char*)"missing modifier value for %s\r\n",label)
                 if (orop) result |= value;
                 else if (shiftop) result <<= value;
@@ -657,111 +657,104 @@ void AcquireDefines(char* fileName)
 	FClose(in);
 }
 
-void AcquirePosMeanings()
+static MEANING ConceptFact(char* word, MEANING M, bool facts)
+{
+	MEANING X = MakeMeaning(BUILDCONCEPT(word));
+	if (facts) CreateFact(X, Mmember, M);
+	return X;
+}
+
+void AcquirePosMeanings(bool facts)
 {
 	// create pos meanings and sets
 	// if (buildDictionary) return;	// dont add these into dictionary
 	uint64 bit = START_BIT;
 	char name[MAX_WORD_SIZE];
 	*name = '~';
-	MEANING pos = MakeMeaning(StoreWord((char*)"~pos"));
-	MEANING sys = MakeMeaning(StoreWord((char*)"~sys"));
+	MEANING pos = ConceptFact((char*)"~pos", 0, false);
+	MEANING sys = ConceptFact((char*)"~sys", 0, false);
 	for (int i = 63; i >= 0; --i) // properties get named concepts
 	{
 		char* word = FindNameByValue(bit);
  		if (word) 
 		{
 			MakeLowerCopy(name+1,word); // all pos names start with `
-			posMeanings[i] = MakeMeaning(BUILDCONCEPT(name));
-			CreateFact(posMeanings[i],Mmember,pos);
+			posMeanings[i] = ConceptFact(name,pos,facts);
 		}
 		
 		word = FindSystemNameByValue(bit);
 		if (word) 
 		{
 			MakeLowerCopy(name+1,word); // all sys names start with ``
-			sysMeanings[i] = MakeMeaning(BUILDCONCEPT(name));
-			CreateFact(sysMeanings[i],Mmember,sys);
+			sysMeanings[i] = ConceptFact(name, sys, facts);
 		}
 		
 		bit >>= 1;
 	}
-	MEANING M = MakeMeaning(BUILDCONCEPT((char*)"~aux_verb"));
-	CreateFact(M,Mmember,pos);
-	CreateFact(MakeMeaning(StoreWord((char*)"~aux_verb_future")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~aux_verb_past")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~aux_verb_present")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~aux_be")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~aux_have")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~aux_do")),Mmember,M);
 
-	M = MakeMeaning(BUILDCONCEPT((char*)"~aux_verb_tenses"));
-	CreateFact(M,Mmember,pos);
-	CreateFact(MakeMeaning(StoreWord((char*)"~aux_verb_future")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~aux_verb_past")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~aux_verb_present")),Mmember,M);
+	MEANING M = ConceptFact((char*)"~aux_verb", pos, facts);
+	ConceptFact((char*)"~aux_verb_future", M, facts);
+	ConceptFact((char*)"~aux_verb_past", M, facts);
+	ConceptFact((char*)"~aux_verb_present", M, facts);
+	ConceptFact((char*)"~aux_be", M, facts);
+	ConceptFact((char*)"~aux_have", M, facts);
+	ConceptFact((char*)"~aux_do", M, facts);
+
+	M = ConceptFact((char*)"~aux_verb_tenses",pos,facts);
+	ConceptFact((char*)"~aux_verb_future",M,facts);
+	ConceptFact((char*)"~aux_verb_past",M, facts);
+	ConceptFact((char*)"~aux_verb_present",M, facts);
 	
-	M = MakeMeaning(BUILDCONCEPT((char*)"~conjunction"));
-	CreateFact(M,Mmember,pos);
-	CreateFact(MakeMeaning(StoreWord((char*)"~conjunction_subordinate")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~conjunction_coordinate")),Mmember,M);
+	M = ConceptFact((char*)"~conjunction",pos,facts);
+	ConceptFact((char*)"~conjunction_subordinate",M,facts);
+	ConceptFact((char*)"~conjunction_coordinate",M,facts);
 
-	M = MakeMeaning(BUILDCONCEPT((char*)"~determiner_bits"));
-	CreateFact(M,Mmember,pos);
-	CreateFact(MakeMeaning(StoreWord((char*)"~determiner")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~predeterminer")),Mmember,M);
+	M = ConceptFact((char*)"~determiner_bits", pos, facts);
+	ConceptFact((char*)"~determiner", M, facts);
+	ConceptFact((char*)"~predeterminer", M, facts);
 		
-	M = MakeMeaning(BUILDCONCEPT((char*)"~possessive_bits"));
-	CreateFact(M,Mmember,pos);
-	CreateFact(MakeMeaning(StoreWord((char*)"~possessive")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~pronoun_possessive")),Mmember,M);
+	M = ConceptFact((char*)"~possessive_bits", pos, facts);
+	ConceptFact((char*)"~possessive", M, facts);
+	ConceptFact((char*)"~pronoun_possessive", M, facts);
 
-	M = MakeMeaning(BUILDCONCEPT((char*)"~noun_bits"));
-	CreateFact(M,Mmember,pos);
-	CreateFact(MakeMeaning(StoreWord((char*)"~noun_singular")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~noun_plural")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~noun_proper_singular")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~noun_proper_plural")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~noun_number")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~noun_adjective")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~noun_gerund")),Mmember,M);
-	// CreateFact(MakeMeaning(FindWord((char*)"~noun_infinitive")),Mmember,M);
+	M = ConceptFact((char*)"~noun_bits", pos, facts);
+	ConceptFact((char*)"~noun_singular", M, facts);
+	ConceptFact((char*)"~noun_plural", M, facts);
+	ConceptFact((char*)"~noun_proper_singular", M, facts);
+	ConceptFact((char*)"~noun_proper_plural", M, facts);
+	ConceptFact((char*)"~noun_number", M, facts);
+	ConceptFact((char*)"~noun_adjective", M, facts);
+	ConceptFact((char*)"~noun_gerund", M, facts);
 	
-	M = MakeMeaning(BUILDCONCEPT((char*)"~normal_noun_bits"));
-	CreateFact(M,Mmember,pos);
-	CreateFact(MakeMeaning(StoreWord((char*)"~noun_singular")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~noun_plural")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~noun_proper_singular")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~noun_proper_plural")),Mmember,M);
+	M = ConceptFact((char*)"~normal_noun_bits", pos, facts);
+	ConceptFact((char*)"~noun_singular", M, facts);
+	ConceptFact((char*)"~noun_plural", M, facts);
+	ConceptFact((char*)"~noun_proper_singular", M, facts);
+	ConceptFact((char*)"~noun_proper_plural", M, facts);
 
-	M = MakeMeaning(BUILDCONCEPT((char*)"~pronoun_bits"));
-	CreateFact(M,Mmember,pos);
-	CreateFact(MakeMeaning(StoreWord((char*)"~pronoun_subject")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~pronoun_object")),Mmember,M);
+	M = ConceptFact((char*)"~pronoun_bits", pos, facts);
+	ConceptFact((char*)"~pronoun_subject", M, facts);
+	ConceptFact((char*)"~pronoun_object", M, facts);
 
-	M = MakeMeaning(BUILDCONCEPT((char*)"~verb_bits"));
-	CreateFact(M,Mmember,pos);
-	CreateFact(MakeMeaning(StoreWord((char*)"~verb_infinitive")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~verb_present")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~verb_present_3ps")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~verb_past")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~verb_past_participle")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~verb_present_participle")),Mmember,M);
+	M = ConceptFact((char*)"~verb_bits", pos, facts);
+	ConceptFact((char*)"~verb_present", M, facts);
+	ConceptFact((char*)"~verb_present_3ps", M, facts);
+	ConceptFact((char*)"~verb_past", M, facts);
+	ConceptFact((char*)"~verb_past_participle", M, facts);
+	ConceptFact((char*)"~verb_present_participle", M, facts);
 
-	M = MakeMeaning(BUILDCONCEPT((char*)"~punctuation"));
-	CreateFact(M,Mmember,pos);
-	CreateFact(MakeMeaning(StoreWord((char*)"~paren")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~comma")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~quote")),Mmember,M);
-	CreateFact(MakeMeaning(StoreWord((char*)"~currency")),Mmember,M);
+	M = ConceptFact((char*)"~punctuation", pos, facts);
+	ConceptFact((char*)"~paren", M, facts);
+	ConceptFact((char*)"~comma", M, facts);
+	ConceptFact((char*)"~quote", M, facts);
+	ConceptFact((char*)"~currency", M, facts);
 
-	MEANING role = MakeMeaning(BUILDCONCEPT((char*)"~grammar_role"));
+	MEANING role = ConceptFact((char*)"~grammar_role", 0, false);
 	unsigned int i = 0;
 	char* ptr;
 	while ((ptr = roleSets[i++]) != 0) 
 	{
-		M = MakeMeaning(BUILDCONCEPT(ptr));
-		CreateFact(M,Mmember,role);
+		ConceptFact(ptr, role, facts);
 	}
 }
 
@@ -813,7 +806,7 @@ uint64 FindSystemValueByName(char* name)
 	WORDP D = FindWord(word);
 	if (!D || !(D->internalBits & DEFINES)) 
 	{
-		if (buildDictionary) 
+		if (xbuildDictionary) 
 			ReportBug((char*)"Failed to find system value %s",name);
 		return 0;
 	}
@@ -862,7 +855,7 @@ uint64 FindParseValueByName(char* name)
 	WORDP D = FindWord(word);
 	if (!D || !(D->internalBits & DEFINES)) 
 	{
-		if (buildDictionary) ReportBug((char*)"Failed to find parse value %s",name);
+		if (xbuildDictionary) ReportBug((char*)"Failed to find parse value %s",name);
 		return 0;
 	}
 	return D->properties;
@@ -880,7 +873,7 @@ uint64 FindMiscValueByName(char* name)
 	WORDP D = FindWord(word);
 	if (!D || !(D->internalBits & DEFINES)) 
 	{
-		if (buildDictionary) ReportBug((char*)"Failed to find misc value %s",name);
+		if (xbuildDictionary) ReportBug((char*)"Failed to find misc value %s",name);
 		return 0;
 	}
 	return D->properties;
@@ -1073,16 +1066,33 @@ bool IsDigitWord(char* ptr,bool comma) // digitized number
     while (*ptr) 
     {
 		if (IsDigit(*ptr)) foundDigit = true; // we found SOME part of a number
-		else if (*ptr == '.') return false; // float will find that
+		else if (*ptr == numberPeriod) return false; // float will find that
 		else if (*ptr == '%' && !ptr[1]) break; // percentage
 		else if (*ptr == ':');	//   TIME delimiter
-		else if (*ptr == ',' && comma); // allow comma
+		else if (*ptr == numberComma && comma && IsCommaNumberSegment(ptr+1)); // allow comma, but rest of word needs to be valid too
 		else if (ptr == currency) break; // dont need to see currency end
 		else return false;		//   1800s is done by substitute, so fail this
 		++ptr;
     }
     return foundDigit;
 }  
+
+bool IsCommaNumberSegment(char* ptr) // number after a comma
+{
+	// next three characters (perhaps only 2 if Indian) should be numbers
+	if (!*ptr || !IsDigit(*ptr) || !IsDigit(ptr[1])) return false; // must have 2 digits
+
+	int i = (numberStyle == INDIAN_NUMBERS) ? 2 : 3;
+	char* comma = ptr + i;
+
+	if (!IsDigit(*(comma-1))) return false; // must be a number in the preceeding position
+
+	if (i == 3 && !*comma) return true; // end of number
+	if (i == 2 && IsDigit(*comma) && !comma[1]) return true; // end of number, final 3 digit segment
+
+	if (*comma && *comma == numberComma && IsCommaNumberSegment(comma+1)) return true; // valid number segments all the way
+	return false;
+}
 
 bool IsRomanNumeral(char* word, uint64& val)
 {
@@ -1109,7 +1119,7 @@ bool IsRomanNumeral(char* word, uint64& val)
 		else val += value;
 		oldvalue = value;
 	}
-	return (!*word); // finished or not
+	return (value && !*word); // finished or not
 }
 
 void ComputeWordData(char* word, WORDINFO* info) // how many characters in word
@@ -1143,6 +1153,8 @@ unsigned int IsNumber(char* num,bool placeAllowed) // simple digit number or wor
 	char word[MAX_WORD_SIZE];
 	MakeLowerCopy(word,num); // accept number words in upper case as well
 	if (word[1] && (word[1] == ':' || word[2] == ':')) return false;	// 05:00 // time not allowed
+	size_t len = strlen(word);
+	if (word[len - 1] == '%') word[len - 1] = 0;	// % after a number is still a number
  	
 	char* number = NULL;
 	char* cur = (char*)GetCurrency((unsigned char*) word,number);
@@ -1231,11 +1243,23 @@ bool IsPlaceNumber(char* word) // place number and fraction numbers
 	if (len < 3) return false; // min is 1st
 	
 	// word place numbers
+	char tok[MAX_WORD_SIZE];
+	strcpy(tok, word);
+	size_t size = 0;
 	if (stricmp(language, "english")) {;}
-	else if (len > 4 && !strcmp(word+len-5,(char*)"first") ) return true;
-	else if (len > 5 && !strcmp(word+len-6,(char*)"second") ) return true;
-	else if (len > 4 && !strcmp(word+len-5,(char*)"third") ) return true;
-	else if (len > 4 && !strcmp(word+len-5,(char*)"fifth") ) return true;
+	else if (len > 4 && !strcmp(word+len-5,(char*)"first") ) size = 5;
+	else if (len > 5 && !strcmp(word+len-6,(char*)"second") ) size = 6;
+	else if (len > 4 && !strcmp(word+len-5,(char*)"third") ) size = 5;
+	else if (len > 4 && !strcmp(word+len-5,(char*)"fifth") ) size = 5;
+	if (size)
+	{
+		if (len == size) return true;
+		size_t l = strlen(tok);
+		tok[l - size] = 0;
+		if (tok[l-size-1] == '-') tok[l - size - 1] = 0; // fifty-second
+		if (IsNumber(tok)) return true;
+		else return false;
+	}
 
 	// does it have proper endings?
 	if (stricmp(language, "english")) { ; }
@@ -1385,13 +1409,20 @@ bool IsNumericDate(char* word,char* end) // 01.02.2009 or 1.02.2009 or 1.2.2009
 }
 
 bool IsUrl(char* word, char* end)
-{ //     if (!strnicmp(t+1,(char*)"co.",3)) //   jump to accepting country
+{
     if (*word == '@') return false;
-    if (!strnicmp((char*)"www.",word,4) || !strnicmp((char*)"http",word,4) || !strnicmp((char*)"ftp:",word,4)) 
+	if (strchr(word, ' ') || !strchr(word, '.')) return false; // cannot have space, must have dot dot
+	if (!strnicmp((char*)"www.",word,4))
 	{
 		char* colon = strchr(word,':');
 		if (colon && (colon[1] != '/' || colon[2] != '/')) return false;
-		return true; // classic urls
+		return true; // classic web url without protocol
+	}
+	if (!strnicmp((char*)"http", word, 4) || !strnicmp((char*)"ftp:", word, 4))
+	{
+		char* colon = strchr(word, ':');
+		if (colon && colon[1] == '/' && colon[2] == '/' && IsAlphaUTF8OrDigit(colon[3]) ) return true; // classic urls, with something beyond just the protocol
+		if (colon) return false; // only protocol is not enough
 	}
 	size_t len = strlen(word);
 	if (len > 200) return false;
@@ -1400,37 +1431,28 @@ bool IsUrl(char* word, char* end)
     if (!end) end = word + len; 
     tmp[end-word] = 0;
     char* ptr = tmp;
-	char* firstPeriod = 0;
-    int n = 0;
-    while (ptr && *ptr) // count periods
-    {
-        if ((ptr = strchr(ptr+1,'.'))) 
-        {
-			if (!firstPeriod) firstPeriod = ptr;
-            ++ptr; 
-            ++n;
-        }
-    }
-	if (n == 0) return false; // not possible
-	if (n > 0) // check for email
+	
+	char* at = strchr(tmp,'@');	// check for email
+	if (at) 
 	{
-		char* at = strchr(tmp,'@');
-		if (at) 
-		{
-			char* dot = strchr(at+2,'.'); // must have character after @ and before .
-			if (dot && IsAlphaUTF8(dot[1])) return true;
-		}
+		char* dot = strchr(at+2,'.'); // must have character after @ and before .
+		if (dot && IsAlphaUTF8(dot[1])) return true;
 	}
-	if (n < 3) return false; // has none or only 1 or 2
-    if (n == 3) return true;  // exactly 3 a std url
 
-	//   check suffix since possible 4 part url:  www.amazon.co.uk OR 1 parter like amazon.com  or other --- also 2 dot urls including amazon.com and fireze.it
-    ptr = strrchr(tmp,'.'); // last period - KNOWN to exist
+	//	check domain suffix is somewhat known as a TLD
+	//	fireze.it OR www.amazon.co.uk OR amazon.com OR kore.ai
+	char* firstPeriod = strchr(tmp, '.');
+	if (!firstPeriod) return false; // not a possible url
+	char* domainEnd = strchr(firstPeriod, '/');
+	if (domainEnd) *domainEnd = 0;
+	ptr = strrchr(tmp, '.'); // last period - KNOWN to exist
 	if (!ptr) return false;	// stops compiler warning
-	if (IsAlphaUTF8(ptr[1]) && IsAlphaUTF8(ptr[2]) && !ptr[3]) return true;	 // country code at end?
-	if ((ptr-word) >= 3 && ptr && *(ptr-3) == 'c' && (*ptr-2) == 'o') return true; // another form of country code
+
+	if (IsAlphaUTF8(ptr[1]) && IsAlphaUTF8(ptr[2]) && !ptr[3]) return true;	 // two character TLD
 	++ptr;
-	return (!strnicmp(ptr,(char*)"com",3) || !strnicmp(ptr,(char*)"net",3) || !strnicmp(ptr,(char*)"org",3) || !strnicmp(ptr,(char*)"edu",3) || !strnicmp(ptr,(char*)"biz",3) || !strnicmp(ptr,(char*)"gov",3) || !strnicmp(ptr,(char*)"mil",3)); // common suffixes
+	// check for common suffices - https://w3techs.com/technologies/overview/top_level_domain/all
+	// most up to date list of all TLDs at http://data.iana.org/TLD/tlds-alpha-by-domain.txt
+	return (!strnicmp(ptr,(char*)"com",3) || !strnicmp(ptr,(char*)"net",3) || !strnicmp(ptr,(char*)"org",3) || !strnicmp(ptr,(char*)"edu",3) || !strnicmp(ptr,(char*)"biz",3) || !strnicmp(ptr,(char*)"gov",3) || !strnicmp(ptr,(char*)"mil",3) || !strnicmp(ptr, (char*)"info", 4));
 }
 
 unsigned int IsMadeOfInitials(char * word,char* end) 
@@ -1620,11 +1642,11 @@ char* ReadInt64(char* ptr, int64 &spot)
 char* ReadHex(char* ptr, uint64 & value)
 {
 	ptr = SkipWhitespace(ptr);
-    value = 0;
     if (!ptr || !*ptr) return ptr;
 	if (ptr[0] == 'x') ++ptr; // skip x
     else if (ptr[1] == 'x' || ptr[1] == 'X') ptr += 2; // skip 0x
     --ptr;
+	value = 0;
 	while (*++ptr)
     {
 		char c = GetLowercaseData(*ptr);

@@ -8,6 +8,7 @@ pandoc ChatScript-Json.md -s -o ../PDFDOCUMENTATION/ChatScript-Json.pdf
 pandoc ChatScript-Debugger.md -s -o ../PDFDOCUMENTATION/ChatScript-Debugger.pdf
 pandoc ChatScript-Memorization.md -s -o ../PDFDOCUMENTATION/ChatScript-Memorization.pdf
 pandoc ChatScript-Overview-of-Input-to-Output.md -s -o ../PDFDOCUMENTATION/ChatScript-Overview-of-Input-to-Output.pdf
+pandoc ChatScript-Spelling-Marking.md -s -o ../PDFDOCUMENTATION/ChatScript-Spelling-Marking.pdf
 pandoc ChatScript-Pattern-Redux.md -s -o ../PDFDOCUMENTATION/ChatScript-Pattern-Redux.pdf
 pandoc ChatScript-System-Functions-Manual.md -s -o ../PDFDOCUMENTATION/ChatScript-System-Functions-Manual.pdf
 pandoc ChatScript-System-Variables-and-Engine-defined-Concepts.md -s -o ../PDFDOCUMENTATION/ChatScript-System-Variables-and-Engine-defined-Concepts.pdf

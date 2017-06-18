@@ -1,6 +1,6 @@
 # ChatScript System Functions Manual
 © Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 5/28/2017 cs7.43
+<br>Revision 6/18/2017 cs7.5
 
 * [Topic Functions](ChatScript-System-Functions-Manual.md#topic-functions)
 * [Marking Functions](ChatScript-System-Functions-Manual.md#marking-functions)
@@ -1450,7 +1450,7 @@ It uses the standard CURL library, so it's arguments and how to use them are gen
 See ChatScript JSON manual for details. 
 
 
-### `^jsonprint ( name )`
+### `^jsontree ( name )`
 
 `name` is the value returned by `^JSONparse`, `^JSONopen`, or some query into such structures. 
 It prints out a tree of elements, one per line, where depth is represented as more deeply indented. 
@@ -1475,6 +1475,7 @@ dereference path fails cannot be found.
 
     ^jsonparse(transient NOFAIL "{ a: $var, b: _0.e[2] }")
 
+`^jsonparse` automatically converts any backslashunnnn into the corresponding utf8 character.
 
 ### `^jsonkind ( something )`
 

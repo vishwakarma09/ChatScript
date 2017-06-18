@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1 id="chatscript-advanced-users-manual">ChatScript Advanced User's Manual</h1>
-<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com<br> <br>Revision 5/28/2017 cs7.43</p>
+<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com<br> <br>Revision 5/7/2017 cs7.42</p>
 <ul>
 <li><a href="ChatScript-Advanced-User-Manual.html#review-overview-of-how-cs-works">Review</a></li>
 <li><a href="ChatScript-Advanced-User-Manual.html#advanced-concepts">Advanced Concepts</a></li>
@@ -550,7 +550,7 @@ u: ( I love you today when )</code></pre>
 <p>If somewhere along the way that rule fails (in this case by the call at the end), the stream is discarded. If the rule completes and this is a top level rule, the stream is converted into a line of output and stored in the responses list.</p>
 <p>When the system is finished processing all rules, it will display the responses list to the user, in the order they were generated (unless you used <code>^preprint</code> or <code>^insertprint</code> to generate responses in a different order). If the output was destined for storing on a variable or becoming the argument to a function or macro, then the output stream is stored in the appropriate place instead.</p>
 <p>I also didn't tell you that the system monitors what it says, and won't repeat itself (even if from a different rule) within the last 20 outputs. So if, when converting the output stream into a response to go in the responses list, the system finds it already had such a response sent to the user in some recently earlier volley, the output is also discarded and the rule &quot;fails&quot;.</p>
-<p>Actually, it's a bit more complicated than that. Let's imagine a stream is being built up. And then suddenly the rule calls another rule (<code>^reuse</code>, <code>^gambit</code>, <code>^repond</code>). What happens? E.g.</p>
+<p>Actually, it's a bit more complicated than that. Let's imagine a stream is being built up. And then suddenly the rule calls another rule (<code>^reuse</code>, <code>^gambit</code>, <code>^respond</code>). What happens? E.g.</p>
 <pre><code>u: ( some test ) I like fruit and vegetables. ^reuse(COMMON) And so do you.</code></pre>
 <p>What happens is this- when the system detects the transfer of control (the <code>^reuse</code> call), if there is output pending it is finished off (committed) and packaged for the user. The current stream is cleared, and the rule is erased (if allowed to be). Then the <code>^reuse()</code> happens. Even if it fails, this rule has produced output and been erased.</p>
 <p>Assuming the reuse doesn't fail, it will have sent whatever it wants into the stream and been packaged up for the user. The rest of the message for this rule now goes into the output stream <em>and so do you</em> and then that too is finished off and packaged for the user. The rule is erased because it has output in the stream when it ends (but it was already erased so it doesn't matter).</p>
@@ -856,13 +856,8 @@ $$f.verb
 $$f.object</code></pre>
 <p>will return those components. You may NOT, however, assign into them.</p>
 <h1 id="out-of-band-communication">Out of band Communication</h1>
-<p>ChatScript can neither see nor act, but it can interact with systems that do. The convention is that out-of-band information occurs at the start of input or output, and is encased in <code>[ ]</code>. OOB data is split off from the input and treated as a separate sentence, so</p>
-<pre><code>[{ state: &quot;ready&quot;}] I am good</code></pre>
-<p>becomes two sentences:</p>
-<pre><code>[{ state: &quot;ready&quot;}] 
-I am good</code></pre>
-<p>This is similar to interjection processing which splits a leading interjection from the remaining input, except you can set controls to prevent that but you cannot prevent OOB data from being split off.</p>
-<p>ChatScript does not attempt to postag and parse any input sentence which begins with OOB. It will automatically not try to spellcheck that part or perform any kind of merge (date, number, propername). You can use normal CS rules to detect and react to incoming oob messaging. E.g, input like this</p>
+<p>ChatScript can neither see nor act, but it can interact with systems that do. The convention is that out-of-band information occurs at the start of input or output, and is encased in <code>[ ]</code>.</p>
+<p>ChatScript does not attempt to postag and parse any input sentence which begins with <code>[</code> and has a closing <code>]</code>. It will automatically not try to spellcheck that part or perform any kind of merge (date, number, propername). In fact, the <code>[...]</code> will be split off into its own sentence. You can use normal CS rules to detect and react to incoming oob messaging. E.g, input like this</p>
 <pre><code>[ speed=10 rate: 50 ] User said this</code></pre>
 <p>could be processed by your script. Although the 2 data oob items are inconsistently shown, the protocol you use is entirely up to you within the <code>[]</code> area.</p>
 <p>Here is a sample pattern to catch oob data.</p>
@@ -1176,10 +1171,10 @@ I like $var1</code></pre>
 <p>First you have to decide the topic it is in and insure the topic has appropriate keywords if needed.</p>
 <p>Second, you need to create a sample sentence the rule is intended to match. You should make a <code>#!</code> comment of it. Then, the best thing is to type <code>:prepare</code> followed by your sentence. This will tell you how the system will tokenize it and what concepts it will trigger. This will help you decide what the structure of the pattern should be and how general you can make important keywords.</p>
 <p><strong><em>What really happens with rule erasure?</em></strong></p>
-<p>The system's default behavior is to erase top-level rules that put output into the output stream, so they won't repeat themselves later. You can explicitly make a rule erase with <code>^erase()</code> and not erase with <code>^keep()</code> and you can make the topic not allow responders to erase with keep as a topic flag.</p>
+<p>The system's default behavior is to erase rules that put output into the output stream, so they won't repeat themselves later. You can explicitly make a rule erase with <code>^erase()</code> and not erase with <code>^keep()</code> and you can make the topic not allow responders to erase with keep as a topic flag.</p>
 <p>So, if a rule generates output, it will try to erase itself. If a rule uses <code>^reuse()</code>, then the rule that actually generated the output will be the called rule. If for some reason it cannot erase itself, then the erasure will rebound to the caller, who will try to erase himself.</p>
-<p>Similarly, if a rule uses <code>^refine()</code>, the actual output will come from a <code>rejoinder()</code>. These can never erase themselves directly, so the erasure will again rebound to the top level gambit.</p>
-<p>Note that a topic declared system NEVER erases its rules, neither gambits nor responders, even if you put ^erase() on a rule. A topic merely declared KEEP will erase responders if they explicitly request it.</p>
+<p>Similarly, if a rule uses <code>^refine()</code>, the actual output will come from a <code>rejoinder()</code>. These can never erase themselves directly, so the erasure will again rebound to the caller.</p>
+<p>Note that a topic declared system NEVER erases its rules, neither gambits nor responders, even if you put ^erase() on a rule.</p>
 <pre><code>u: (~emogoodbye)</code></pre>
 <p><strong><em>How can I get the original input when I have a pattern like <code>u: (~emogoodbye)</code> ?</em></strong></p>
 <p>To get the original input, you need to do the following:</p>

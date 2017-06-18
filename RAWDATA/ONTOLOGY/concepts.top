@@ -1,4 +1,4 @@
-
+ï»¿
 ##<<ENGLISH concept: ~cartoon_character ( ) ##>>
 ##<<ENGLISH concept: ~architect ( ) ##>>
 ##<<ENGLISH concept: ~athlete UPPERCASE_MATCH() ##>>
@@ -248,12 +248,12 @@
           solar_system star sun supergiant supernova white_dwarf world ) ##>>
 ##<<ENGLISH concept: ~celestial_observation (constellation eclipse observatory Perseid planetarium stargazing telescope ) ##>>
 ##<<ENGLISH concept: ~ceo (CEO ) ##>>
-##<<ENGLISH concept: ~chatbotlist (AI AIML Alicebot artificial artificial_intelligence automaton bot chat-program chat_bot chat_box chatbot chatbox chatterbot chatterbox nonhuman NPC program robot 
+##<<ENGLISH concept: ~chatbotlist (AI AIML Alicebot artificial artificial_intelligence automaton bot chat-program chat_bot chat_box chatbot chatbox chatterbot chatterbox nonhuman NPC  robot 
           Smarterchild talk_bot unhuman Verbot ) ##>>
 ##<<ENGLISH concept: ~cheeses   (blue_cheese Boursin Brie Cambozola Camembert cheddar Colby cream_cheese Danish_blue feta Gorgonzola Gouda Gruyere havarti Limburger Monterey_Jack 
-          mozzarella Muenster munster Parmesan pepper_jack provolone quark ricotta Rochefort Roquefort Stilton Swiss_cheese Tilsit blue_cheese Boursin Brie Brie_de_Meaux Cambozola Camembert cheddar Chevre Chèvre Colby cream_cheese Danish_blue Epoisses feta fromage Gorgonzola Gouda Gruyere 
-          havarti Limburger Monterey_Jack mozzarella muenster munster Parmesan pepper_jack Pont_l'Eveque Pont_l'Évêque provolone quark Reblochon ricotta Rochefort Roquefort Stilton 
-          Swiss_cheese Tilsit Tomme_de_Savoie yogurt Époisses) ##>>
+          mozzarella Muenster munster Parmesan pepper_jack provolone quark ricotta Rochefort Roquefort Stilton Swiss_cheese Tilsit blue_cheese Boursin Brie Brie_de_Meaux Cambozola Camembert cheddar Chevre ChÃ¨vre Colby cream_cheese Danish_blue Epoisses feta fromage Gorgonzola Gouda Gruyere 
+          havarti Limburger Monterey_Jack mozzarella muenster munster Parmesan pepper_jack Pont_l'Eveque Pont_l'Ã‰vÃªque provolone quark Reblochon ricotta Rochefort Roquefort Stilton 
+          Swiss_cheese Tilsit Tomme_de_Savoie yogurt Ã‰poisses) ##>>
 ##<<ENGLISH concept: ~chemicals (chemical compound~3 organic_compound~1 ) ##>>
 ##<<ENGLISH concept: ~chinese_cooking_styles (Cantonese Chinese Hunan Mongolian Sichuan Szechuan ) ##>>
 ##<<ENGLISH concept: ~christmas_words (Christmas Christmas_Day Christmas_Eve Xmas ) ##>>
@@ -399,8 +399,8 @@
 ##<<ENGLISH concept: ~diversity_words (amalgam amalgamate assorted diverse heterogeneous homogenous miscellaneous motley unrelated varied varigated various ) ##>>
 ##<<ENGLISH concept: ~division (division out_of per percent quotient_of ratio_of ) ##>>
 ##<<ENGLISH concept: ~do_with_titles (~buy ~hear ~like ~own ~read ~watch ) ##>>
-##<<ENGLISH concept: ~doctor PROBABLE_NOUN (acupuncturist audiologist chiropractor coroner doctor Dr kinesiologist medical_doctor oncologist optometrist pathologist physician podiatrist psychiatrist 
-          psychologist shaman surgeon therapist vet veterinarian veterinary_surgeon ) ##>>
+##<<ENGLISH concept: ~doctor PROBABLE_NOUN (acupuncturist audiologist cardiologist chiropractor coroner dermatologist doctor doc Dr endocrinologist gynecologist ob/gyn kinesiologist medical_doctor naturopath neurologist oncologist opthamologist optometrist pathologist pediatrician physician podiatrist psychiatrist 
+          psychologist shaman surgeon therapist vet veterinarian urologist veterinary_surgeon ) ##>>
 ##<<ENGLISH concept: ~dog_breeds   PROBABLE_NOUN ANIMATE_BEING (basset beagle bulldog collie colly dachshund dalmatian Dalmation Doberman hound poodle spaniel terrier ) ##>>
 ##<<ENGLISH concept: ~dominance_words (assertive dominance dominant independent inferior passive predominant subordinate superior ) ##>>
 ##<<ENGLISH concept: ~draper (clothes draper nightclothes ) ##>>

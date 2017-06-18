@@ -53,7 +53,6 @@
 #define BUILD0					0x00100000		// comes from build0 data (marker on functions, concepts, topics)
 #define BUILD1					0x00200000		// comes from build1 data
 #define HAS_EXCLUDE				0x00400000		// concept/topic has keywords to exclude
-#define JSON_REFERENCE			HAS_EXCLUDE	// json struct is referred to by user variable
 #define BUILD2					0x00800000		// comes from dynamic build layer data
 #define FUNCTION_NAME			0x01000000 	//   name of a ^function  (has non-zero ->x.codeIndex if system, else is user but can be patternmacro,outputmacro, or plan) only applicable to ^ words
 #define CONCEPT					0x02000000	// topic or concept has been read via a definition
@@ -180,7 +179,7 @@ extern uint64 adjectiveFormat;
 extern uint64 adverbFormat;
 extern MEANING posMeanings[64];
 extern MEANING sysMeanings[64];
-extern bool buildDictionary;
+extern bool xbuildDictionary;
 extern unsigned int propertyRedefines;	// property changes on locked dictionary entries
 extern unsigned int flagsRedefines;		// systemflags changes on locked dictionary entries
 
@@ -274,6 +273,7 @@ inline int GetGlossCount(WORDP D)
 char* GetGloss(WORDP D, unsigned int index);
 unsigned int GetGlossIndex(WORDP D,unsigned int index);
 void DictionaryRelease(WORDP until,char* stringUsed);
+WORDP BUILDCONCEPT(char* word);
 
 // startup and shutdown routines
 void InitDictionary();

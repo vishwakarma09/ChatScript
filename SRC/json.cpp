@@ -154,6 +154,57 @@ static char* IsJsonNumber(char* str)
 	return NULL;
 }
 
+static bool ConvertUnicode(char* str) // convert \uxxxx to utf8
+{
+	char* at = str;
+	bool converted = false;
+	while ((at = strchr(at, '\\')))
+	{
+		char* base = at;
+		++at;
+		if (*at != 'u') continue;
+
+		int value = 0;
+		char c = GetLowercaseData(*++at);
+		value = (IsDigit(c)) ? (c - '0') : (10 + c - 'a');
+		c = GetLowercaseData(*++at);
+		value <<= 4; // move over a digit
+		value += (IsDigit(c)) ? (c - '0') : (10 + c - 'a');
+		c = GetLowercaseData(*++at);
+		value <<= 4; // move over a digit
+		value += (IsDigit(c)) ? (c - '0') : (10 + c - 'a');
+		c = GetLowercaseData(*++at);
+		value <<= 4; // move over a digit
+		value += (IsDigit(c)) ? (c - '0') : (10 + c - 'a');
+		++at;
+
+		int len = 0;
+		if (value < 0x80)  *base++ = (char)value;
+		else if (value < 0x800) 
+		{
+			*base++ = (char)((value >> 6) | 0xC0);
+			*base++ = (char)((value & 0x3F) | 0x80);
+		}
+		else if (value < 0x10000) 
+		{
+			*base++ = (char)((value >> 12) | 0xE0);
+			*base++ = (char)(((value >> 6) & 0x3F) | 0x80);
+			*base++ = (char)((value & 0x3F) | 0x80);
+		}
+		else if (value < 0x110000) 
+		{
+			*base++ = (char)((value >> 18) | 0xF0);
+			*base++ = (char)(((value >> 12) & 0x3F) | 0x80);
+			*base++ = (char)(((value >> 6) & 0x3F) | 0x80);
+			*base++ = (char)((value & 0x3F) | 0x80);
+		}
+		memcpy(base, at, strlen(at) + 1);
+		at = base;
+		converted = true;
+	}
+	return converted;
+}
+
 int factsJsonHelper(char *jsontext, jsmntok_t *tokens, int tokenlimit, int sizelimit,int currToken, MEANING *retMeaning, int* flags, bool key, bool nofail) {
 	// Always build with duplicate on. create a fresh copy of whatever
 	jsmntok_t curr = tokens[currToken];
@@ -239,6 +290,8 @@ int factsJsonHelper(char *jsontext, jsmntok_t *tokens, int tokenlimit, int sizel
 		char* str = InfiniteStack(limit,"factsJsonHelper string");
 		strncpy(str,jsontext + curr.start,size);
 		str[size] = 0;
+		if (ConvertUnicode(str)) size = strlen(str);
+		
 		*flags = JSON_STRING_VALUE; // string null
 		CompleteBindStack();
 		if (!PreallocateHeap(size)) return FAILRULE_BIT;
@@ -1869,17 +1922,8 @@ LOOP: // now we look at $x.key or $x[0]
 		}
 	}
 	// now we have retrieved the key/index
-	if (follonOnSeparator)
-	{
-		keyname = FindWord(keyx);// its a key along the way, not a final key
-		if (!keyname)
-		{
-			if (trace &  TRACE_VARIABLESET) Log(STDTRACELOG, (char*)"JsonVar NoKey: %s\r\n", fullpath);
-			return FAILRULE_BIT;	// unable to find key or index
-		}
-	}
-	else if (*keyx == ']') keyname = NULL;
-	else keyname =  StoreWord(keyx,AS_IS); // its a terminal key, create it (not needed for arrays because we dont allow blind assignment)
+	if (*keyx == ']') keyname = NULL;
+	else keyname =  StoreWord(keyx,AS_IS); 
 
 	// keyname is the Word of the key
 

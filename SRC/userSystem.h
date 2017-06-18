@@ -43,7 +43,7 @@ extern bool serverRetryOK;
 void ReadNewUser();
 void ReadUserData();
 void WriteUserData(time_t curr);
-char* WriteUserVariables(char* ptr,bool sharefile, bool compiling);
+char* WriteUserVariables(char* ptr,bool sharefile, bool compiling,char* saveJSON);
 void RecoverUser();
 void CopyUserTopicFile(char* newname);
 // login

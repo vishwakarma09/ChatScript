@@ -619,7 +619,6 @@ void ClearBotVariables()
 
 void NoteBotVariables() // system defined variables
 {
-	botVariableThreadList = 0;
 	unsigned int varthread = userVariableThreadList;
 	while (varthread)
 	{

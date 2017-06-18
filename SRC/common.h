@@ -32,16 +32,12 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
 
 #ifdef LOEBNER
 #define DISCARDSERVER 1
-#define DISCARDSCRIPTCOMPILER 1
-#define DISCARDTESTING 1
 #define DISCARDTCPOPEN 1
 #define DISCARDMYSQL 1
 #define DISCARDPOSTGRES 1
 #define DISCARDMONGO 1
 #define DISCARDCOUNTER 1
 #define DISCARDCLIENT 1
-#define DISCARDJSONOPEN 1
-#define DISCARDJAVASCRIPT 1
 
 #elif WIN32
 //#define USERPATHPREFIX 1
@@ -212,7 +208,7 @@ using namespace std;
 #include "variableSystem.h"
 
 #ifdef PRIVATE_CODE
-#include "privatesrc.h"
+#include "../privatecode/privatesrc.h"
 #endif 
 
 #ifdef WIN32

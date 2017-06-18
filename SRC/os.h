@@ -26,7 +26,7 @@ void ShowMemory(char* label);
 void JumpBack();
 void myexit(char* msg, int code = 4);
 void mystart(char* msg);
-
+extern char hide[4000];
 #define NORMALFILES 0
 #define MONGOFILES 1
 #define POSTGRESFILES 2

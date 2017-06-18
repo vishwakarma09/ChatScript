@@ -137,6 +137,12 @@ Trim will read every file and generate output depending on the integer code give
 | `7` |  display rule responsible for output. Analogous to :why, it shows the rule tag, the sample input comment if there is one, the rule type and pattern, the input from the user and the output from the chatbot. If the rule doing the output was the target of a local `^reuse (same topic)`, then the data about the rule comes from the calling rule, not the output rule.
 | `8` |  puts the user and chatbot on separate lines, indenting the chatbots line and prefixes it with the topic generating the response. Easier to read and debug.
 | `11`| puts the timestamp and user on first line and and chatbot on second line,indenting the chatbots line. 
+| `12`| output per line, 2nd rule label generating output, input, => output. 
+| `13`| output per line, 1st rule label generating output, input, => output. 
+
+'12' and '13' are useful for generating where input went (what rule output came from) and then you can sort the tmp.txt file
+to cluster all inputs that went to the same place. '12' assumes you always output OOB data from postprocessing, so it skips
+that rule label and uses the second label (the actual user output). `13` assumes the only data written is data to the user.
 
 Normally trim displays everything. But with an optional 3rd argument `nooob`, you can omit out-of-bands data from output. E.g.,
 ```

@@ -12,9 +12,7 @@
  <no> ~no 
  <no_- ~no 
  <none ~no 
- <rarely ~no
- <barely ~no
- <continue ~yes
+  <continue ~yes
  <make_it_so> ~yes
  <do_it> ~yes
  <I_guess_so ~yes
@@ -184,7 +182,7 @@
  <good-by ~emogoodbye
  <good-bye ~emogoodbye
  <good_afternoon ~emohello
- <good_day ~emogoodbye
+ <good_day ~emohello
  <good_evening ~emohello
  <good_for_you ~emohappy
  <good_grief ~emosad
@@ -508,6 +506,8 @@
  <oh_yeah_? ~emoskeptic
  <ohayou ~emohello
  <OK ~yes
+ <o.k. ~yes
+ <O.K. ~yes
  <ok ~yes
  <okey_dokey ~yes
  <on_the_contrary> ~no

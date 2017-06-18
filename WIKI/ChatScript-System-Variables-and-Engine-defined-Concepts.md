@@ -1,6 +1,6 @@
 # ChatScript System Variables and Engine-defined Concepts
 © Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 5/28/2017 cs7.43
+<br>Revision 6/18/2017 cs7.5
 
 
 * [Engine-defined Concepts](ChatScript-System-Variables-and-Engine-defined-Concepts.md#engine-defined-concepts)
@@ -533,7 +533,8 @@ A special kind of private substitution (equally applicable in regular substituti
 replace: ?_km kilometers
 ```
 The ?_ matches a digit number followed immediately by km, like `1.2km` and will separate the number and replace the units
-with the given replacement.
+with the given replacement. The input can be singular or have an 's' like `10.5dollars`. And it can be with or without abbreviation periods,
+like `10kps` or `10k.p.s`
 
 # Interchange Variables
 
@@ -580,4 +581,11 @@ contents.
 | `$cs_numbers` | if defined, causes the system to output numbers in a different language style: french, indian. All other values are english. |
 | `$cs_topicretrylimit` | if defined changes how many times you can pass back RETRY_TOPIC before it fails (current limit is 30) |
 | `$$topic_retry_limit_exceeded` | set if topic retry limit is encountered |
- 
+| `$cs_topicretrylimit` | if defined changes how many times you can pass back RETRY_TOPIC before it fails (current limit is 30) |
+| `$cs_saveusedJson` | if not null, the only JSON facts CS will write into the user's topic files that are referred to (directly or indirectly) from user variables being saved. (see below) |
+
+`$cs_saveusedJson` exists as a kind of garbage collection. Nowadays most facts will come from JSON data either from a website or created in script. But keeping
+on top of deleting obsolete JSON may be overlooked. When this variable is non-null, ChatScript will automatically destroy any JSON fact that cannot trace a JSON
+fact path back to some user variable. Variables that have as values the name of a JSON object or array automatically protect 
+all JSON facts underneath. JSON references merely within some text string will not protect anything, nor will references from some
+other non-JSON fact.
