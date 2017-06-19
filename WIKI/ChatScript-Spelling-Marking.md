@@ -9,8 +9,8 @@ One (of many) unusual features of ChatScript is the built-in spell-checker. Most
 
 OK. So it does the best it can with unknown words. It is enabled by default but your scripts can disable it. All you have to do is assign a different value to $cs_token, one which does not include #DO_SPELLCHECK. E.g.
 
-$cs_token = #DO_PRIVATE | #NO_SEMICOLON_END  | #DO_SUBSTITUTE_SYSTEM   | #DO_SPELLCHECK  | #DO_PARSE     	# some default value
-$cs_token -= #DO_SPELLCHECK		# disable spellcheck
+    $cs_token = #DO_PRIVATE | #NO_SEMICOLON_END  | #DO_SUBSTITUTE_SYSTEM   | #DO_SPELLCHECK  | #DO_PARSE     	# some default value
+    $cs_token -= #DO_SPELLCHECK		# disable spellcheck
 
 You can do this dynamically. If you know the user's next input is likely to have issues (you have asked for his name and foreign names will get messed up), you can turn it off, go read in his name unchecked, and then turn it on again.
 
