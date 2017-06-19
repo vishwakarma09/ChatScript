@@ -1,8 +1,8 @@
 # Version 7.5  6/18/2017
-1 :dualupper - list words that have more than one uppercase form
+1. :dualupper - list words that have more than one uppercase form
 2. hidefromlog param - list json fields not to save into user or server log
 3. ^jsonparse autoconverts \unnnn into corresponding utf8 characters
-4: :trim 12 - put out rule label then input then output 
+4. :trim 12 - put out rule label then input then output 
 5. $cs_saveusedJson - destory any json not referred to via a user variable when saving user
 6. new spelling-marking manual
 
