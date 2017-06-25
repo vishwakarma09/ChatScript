@@ -1,4 +1,4 @@
-﻿ 3 ( ) lemma=I.3.2 
+﻿ 3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  3$$ef ( ) 
  3.er ( ) 
  3/S.2 ( ) 
@@ -27,13 +27,3 @@
  3T1.3 ( ) 
  3X ( ) 
  3a ( ) 
- 3/G ( ) lemma=G3/G4 
- 3. ( ) lemma=T3.6 
- 3.1 ( ) lemma=T3.18 
- 3.2 ( ) lemma=T3.25 
- 3.3 ( ) lemma=T3.35 
- 3.5 ( ) lemma=T3.51 
- 3.6 ( ) lemma=T3.64 
- 3.8 ( ) lemma=T3.85 
- 3.9 ( ) lemma=T3.90 
- 30 ( ) lemma=T302 

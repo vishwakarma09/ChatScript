@@ -401,7 +401,7 @@
 ##<<ENGLISH concept: ~do_with_titles (~buy ~hear ~like ~own ~read ~watch ) ##>>
 ##<<ENGLISH concept: ~doctor PROBABLE_NOUN (acupuncturist audiologist cardiologist chiropractor coroner dermatologist doctor doc Dr endocrinologist gynecologist ob/gyn kinesiologist medical_doctor naturopath neurologist oncologist opthamologist optometrist pathologist pediatrician physician podiatrist psychiatrist 
           psychologist shaman surgeon therapist vet veterinarian urologist veterinary_surgeon ) ##>>
-##<<ENGLISH concept: ~dog_breeds   PROBABLE_NOUN ANIMATE_BEING (basset beagle bulldog collie colly dachshund dalmatian Dalmation Doberman hound poodle spaniel terrier ) ##>>
+##<<ENGLISH concept: ~dog_breeds   PROBABLE_NOUN ANIMATE_BEING (basset beagle Bulldog collie colly dachshund dalmatian Dalmation Doberman hound poodle spaniel terrier ) ##>>
 ##<<ENGLISH concept: ~dominance_words (assertive dominance dominant independent inferior passive predominant subordinate superior ) ##>>
 ##<<ENGLISH concept: ~draper (clothes draper nightclothes ) ##>>
 ##<<ENGLISH concept: ~drinkstuff (drinker~2 ) ##>>

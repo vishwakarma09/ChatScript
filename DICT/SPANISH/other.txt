@@ -1,76 +1,800 @@
-﻿ _ACRNM ( ) 
- _ADJ ( ) 
- _ADV ( ) 
+﻿ `NOUN ( ) 
+ `2147483648 ( ) 
+ `VERB ( ) 
+ `1073741824 ( ) 
+ `ESSENTIAL_POS ( ) 
+ `ESSENTIAL ( ) 
+ `3221225472 ( ) 
+ `ADJECTIVE ( ) 
+ `536870912 ( ) 
+ `ADVERB ( ) 
+ `268435456 ( ) 
+ `BASIC_POS ( ) 
+ `BASIC ( ) 
+ `4026531840 ( ) 
+ `PREPOSITION ( ) 
+ `134217728 ( ) 
+ `ESSENTIAL_FLAGS ( ) 
+ `4160749568 ( ) 
+ `CONJUNCTION_COORDINATE ( ) 
+ `CONJUNCTION ( ) 
+ `67108864 ( ) 
+ `CONJUNCTION_SUBORDINATE ( ) 
+ `33554432 ( ) 
+ `100663296 ( ) 
+ `PREDETERMINER ( ) 
+ `16777216 ( ) 
+ `DETERMINER ( ) 
+ `8388608 ( ) 
+ `POSSESSIVE ( ) 
+ `4194304 ( ) 
+ `PRONOUN_POSSESSIVE ( ) 
+ `PRONOUN ( ) 
+ `2097152 ( ) 
+ `POSSESSIVE_BITS ( ) 
+ `6291456 ( ) 
+ `DETERMINER_BITS ( ) 
+ `31457280 ( ) 
+ `COMMA ( ) 
+ `524288 ( ) 
+ `REQUIRE_CONCEPT ( ) 
+ `REQUIRE ( ) 
+ `PAREN ( ) 
+ `262144 ( ) 
+ `PUNCTUATION ( ) 
+ `131072 ( ) 
+ `QUOTE ( ) 
+ `65536 ( ) 
+ `CURRENCY ( ) 
+ `32768 ( ) 
+ `ADJECTIVE_NORMAL ( ) 
+ `16384 ( ) 
+ `ADJECTIVE_NUMBER ( ) 
+ `8192 ( ) 
+ `ADJECTIVE_NOUN ( ) 
+ `4096 ( ) 
+ `ADJECTIVE_PARTICIPLE ( ) 
+ `2048 ( ) 
+ `ADJECTIVE_BITS ( ) 
+ `30720 ( ) 
+ `INTERJECTION ( ) 
+ `1024 ( ) 
+ `THERE_EXISTENTIAL ( ) 
+ `THERE ( ) 
+ `512 ( ) 
+ `FOREIGN_WORD ( ) 
+ `FOREIGN ( ) 
+ `256 ( ) 
+ `TO_INFINITIVE ( ) 
+ `TO ( ) 
+ `128 ( ) 
+ `NOUN_ADJECTIVE ( ) 
+ `64 ( ) 
+ `NOUN_SINGULAR ( ) 
+ `32 ( ) 
+ `NOUN_PLURAL ( ) 
+ `16 ( ) 
+ `NOUN_PROPER_SINGULAR ( ) 
+ `8 ( ) 
+ `NOUN_PROPER_PLURAL ( ) 
+ `4 ( ) 
+ `NOUN_GERUND ( ) 
+ `2 ( ) 
+ `NOUN_NUMBER ( ) 
+ `1 ( ) 
+ `NOUN_INFINITIVE ( ) 
+ `140737488355328 ( ) 
+ `NOUN_PROPER ( ) 
+ `12 ( ) 
+ `NORMAL_NOUN_BITS ( ) 
+ `125 ( ) 
+ `NOUN_BITS ( ) 
+ `140737488355455 ( ) 
+ `VERB_PRESENT ( ) 
+ `70368744177664 ( ) 
+ `VERB_PRESENT_3PS ( ) 
+ `35184372088832 ( ) 
+ `VERB_PRESENT_PARTICIPLE ( ) 
+ `17592186044416 ( ) 
+ `VERB_PAST ( ) 
+ `8796093022208 ( ) 
+ `VERB_PAST_PARTICIPLE ( ) 
+ `4398046511104 ( ) 
+ `VERB_INFINITIVE ( ) 
+ `2199023255552 ( ) 
+ `PARTICLE ( ) 
+ `1099511627776 ( ) 
+ `VERB_BITS ( ) 
+ `138538465099776 ( ) 
+ `PRONOUN_SUBJECT ( ) 
+ `549755813888 ( ) 
+ `PRONOUN_OBJECT ( ) 
+ `274877906944 ( ) 
+ `PRONOUN_BITS ( ) 
+ `824633720832 ( ) 
+ `AUX_DO ( ) 
+ `AUX ( ) 
+ `137438953472 ( ) 
+ `AUX_HAVE ( ) 
+ `68719476736 ( ) 
+ `AUX_BE ( ) 
+ `34359738368 ( ) 
+ `AUX_VERB_PRESENT ( ) 
+ `17179869184 ( ) 
+ `AUX_VERB_FUTURE ( ) 
+ `8589934592 ( ) 
+ `AUX_VERB_PAST ( ) 
+ `4294967296 ( ) 
+ `AUX_VERB_TENSES ( ) 
+ `30064771072 ( ) 
+ `AUX_VERB ( ) 
+ `270582939648 ( ) 
+ `STARTTAGS ( ) 
+ `AS_IS ( ) 
+ `-9223372036854775808 ( ) 
+ `NOUN_HUMAN ( ) 
+ `4611686018427387904 ( ) 
+ `NOUN_FIRSTNAME ( ) 
+ `2305843009213693952 ( ) 
+ `NOUN_SHE ( ) 
+ `1152921504606846976 ( ) 
+ `NOUN_HE ( ) 
+ `576460752303423488 ( ) 
+ `NOUN_THEY ( ) 
+ `288230376151711744 ( ) 
+ `NOUN_TITLE_OF_ADDRESS ( ) 
+ `144115188075855872 ( ) 
+ `NOUN_TITLE_OF_WORK ( ) 
+ `72057594037927936 ( ) 
+ `LOWERCASE_TITLE ( ) 
+ `36028797018963968 ( ) 
+ `NOUN_ABSTRACT ( ) 
+ `18014398509481984 ( ) 
+ `MORE_FORM ( ) 
+ `9007199254740992 ( ) 
+ `MOST_FORM ( ) 
+ `4503599627370496 ( ) 
+ `QWORD ( ) 
+ `2251799813685248 ( ) 
+ `PLACE_NUMBER ( ) 
+ `1125899906842624 ( ) 
+ `SINGULAR_PERSON ( ) 
+ `562949953421312 ( ) 
+ `IDIOM ( ) 
+ `281474976710656 ( ) 
+ `NOUN_TITLE ( ) 
+ `72057596185411592 ( ) 
+ `NOUN_HUMANGROUP ( ) 
+ `4971973990764511232 ( ) 
+ `NOUN_MALEHUMAN ( ) 
+ `5188146772878295048 ( ) 
+ `NOUN_FEMALEHUMAN ( ) 
+ `5764607525181718536 ( ) 
+ `NOUN_HUMANNAME ( ) 
+ `4611686020574871560 ( ) 
+ `TAG_TEST ( ) 
+ `TAG ( ) 
+ `562946194276351 ( ) 
+ `NOUN_DESCRIPTION_BITS ( ) 
+ `140737788278911 ( ) 
+ ``ANIMATE_BEING ( ) 
+ ``1 ( ) 
+ ``HOWWORD ( ) 
+ ``2 ( ) 
+ ``TIMEWORD ( ) 
+ ``4 ( ) 
+ ``LOCATIONWORD ( ) 
+ ``8 ( ) 
+ ``VERB_CONJUGATE3 ( ) 
+ ``16 ( ) 
+ ``VERB_CONJUGATE2 ( ) 
+ ``32 ( ) 
+ ``VERB_CONJUGATE1 ( ) 
+ ``64 ( ) 
+ ``PRESENTATION_VERB ( ) 
+ ``PRESENTATION ( ) 
+ ``128 ( ) 
+ ``COMMON_PARTICIPLE_VERB ( ) 
+ ``COMMON ( ) 
+ ``256 ( ) 
+ ``NOCONCEPTLIST ( ) 
+ ``512 ( ) 
+ ``PRONOUN_RELATIVE ( ) 
+ ``PRONOUN ( ) 
+ ``1024 ( ) 
+ ``INSEPARABLE_PHRASAL_VERB ( ) 
+ ``2048 ( ) 
+ ``MUST_BE_SEPARATE_PHRASAL_VERB ( ) 
+ ``4096 ( ) 
+ ``SEPARABLE_PHRASAL_VERB ( ) 
+ ``8192 ( ) 
+ ``PHRASAL_VERB ( ) 
+ ``16384 ( ) 
+ ``VERB_NOOBJECT ( ) 
+ ``32768 ( ) 
+ ``VERB_INDIRECTOBJECT ( ) 
+ ``VERB ( ) 
+ ``65536 ( ) 
+ ``VERB_DIRECTOBJECT ( ) 
+ ``131072 ( ) 
+ ``VERB_TAKES_GERUND ( ) 
+ ``262144 ( ) 
+ ``VERB_TAKES_ADJECTIVE ( ) 
+ ``524288 ( ) 
+ ``VERB_TAKES_INDIRECT_THEN_TOINFINITIVE ( ) 
+ ``1048576 ( ) 
+ ``VERB_TAKES_INDIRECT_THEN_VERBINFINITIVE ( ) 
+ ``2097152 ( ) 
+ ``VERB_TAKES_TOINFINITIVE ( ) 
+ ``4194304 ( ) 
+ ``VERB_TAKES_VERBINFINITIVE ( ) 
+ ``8388608 ( ) 
+ ``OMITTABLE_TIME_PREPOSITION ( ) 
+ ``OMITTABLE ( ) 
+ ``16777216 ( ) 
+ ``ALWAYS_PROPER_NAME_MERGE ( ) 
+ ``ALWAYS ( ) 
+ ``33554432 ( ) 
+ ``CONJUNCT_SUBORD_NOUN ( ) 
+ ``CONJUNCT ( ) 
+ ``67108864 ( ) 
+ ``PROBABLE_PREPOSITION ( ) 
+ ``PROBABLE ( ) 
+ ``134217728 ( ) 
+ ``ONLY_NONE ( ) 
+ ``ONLY ( ) 
+ ``PROBABLE_ADVERB ( ) 
+ ``268435456 ( ) 
+ ``PROBABLE_ADJECTIVE ( ) 
+ ``536870912 ( ) 
+ ``PROBABLE_VERB ( ) 
+ ``1073741824 ( ) 
+ ``PROBABLE_NOUN ( ) 
+ ``2147483648 ( ) 
+ ``PRONOUN_PLURAL ( ) 
+ ``4294967296 ( ) 
+ ``PRONOUN_SINGULAR ( ) 
+ ``8589934592 ( ) 
+ ``ACTUAL_TIME ( ) 
+ ``ACTUAL ( ) 
+ ``17179869184 ( ) 
+ ``PREDETERMINER_TARGET ( ) 
+ ``PREDETERMINER ( ) 
+ ``34359738368 ( ) 
+ ``ADJECTIVE_POSTPOSITIVE ( ) 
+ ``ADJECTIVE ( ) 
+ ``68719476736 ( ) 
+ ``DETERMINER_SINGULAR ( ) 
+ ``DETERMINER ( ) 
+ ``137438953472 ( ) 
+ ``DETERMINER_PLURAL ( ) 
+ ``274877906944 ( ) 
+ ``TAKES_POSTPOSITIVE_ADJECTIVE ( ) 
+ ``TAKES ( ) 
+ ``549755813888 ( ) 
+ ``GRADE5_6 ( ) 
+ ``GRADE5 ( ) 
+ ``1099511627776 ( ) 
+ ``GRADE3_4 ( ) 
+ ``2199023255552 ( ) 
+ ``GRADE1_2 ( ) 
+ ``4398046511104 ( ) 
+ ``KINDERGARTEN ( ) 
+ ``7696581394432 ( ) 
+ ``AGE_LEARNED ( ) 
+ ``AGE ( ) 
+ ``SUBSTITUTE_RECIPIENT ( ) 
+ ``8796093022208 ( ) 
+ ``NOUN_NODETERMINER ( ) 
+ ``17592186044416 ( ) 
+ ``WEB_URL ( ) 
+ ``35184372088832 ( ) 
+ ``ORDINAL ( ) 
+ ``70368744177664 ( ) 
+ ``PRONOUN_REFLEXIVE ( ) 
+ ``140737488355328 ( ) 
+ ``PRONOUN_INDIRECTOBJECT ( ) 
+ ``281474976710656 ( ) 
+ ``MODEL_NUMBER ( ) 
+ ``562949953421312 ( ) 
+ ``COMMON1 ( ) 
+ ``1125899906842624 ( ) 
+ ``COMMON2 ( ) 
+ ``2251799813685248 ( ) 
+ ``COMMON3 ( ) 
+ ``3377699720527872 ( ) 
+ ``COMMON4 ( ) 
+ ``4503599627370496 ( ) 
+ ``COMMON5 ( ) 
+ ``5629499534213120 ( ) 
+ ``COMMON6 ( ) 
+ ``6755399441055744 ( ) 
+ ``COMMON7 ( ) 
+ ``7881299347898368 ( ) 
+ ``COMMONNESS ( ) 
+ ``MONTH ( ) 
+ ``9007199254740992 ( ) 
+ ``SPELLING_EXCEPTION ( ) 
+ ``18014398509481984 ( ) 
+ ``ADJECTIVE_NOT_PREDICATE ( ) 
+ ``36028797018963968 ( ) 
+ ``ADJECTIVE_ONLY_PREDICATE ( ) 
+ ``72057594037927936 ( ) 
+ ``CONSTANT_IS_NEGATIVE ( ) 
+ ``144115188075855872 ( ) 
+ ``CONDITIONAL_IDIOM ( ) 
+ ``288230376151711744 ( ) 
+ ``NO_PROPER_MERGE ( ) 
+ ``576460752303423488 ( ) 
+ ``MARKED_WORD ( ) 
+ ``1152921504606846976 ( ) 
+ ``PATTERN_WORD ( ) 
+ ``2305843009213693952 ( ) 
+ ``DELAYED_RECURSIVE_DIRECT_MEMBER ( ) 
+ ``4611686018427387904 ( ) 
+ ``EXTENT_ADVERB ( ) 
+ ``-9223372036854775808 ( ) 
+ ```FACTITIVE_ADJECTIVE_VERB ( ) 
+ ```1 ( ) 
+ ```FACTITIVE_NOUN_VERB ( ) 
+ ```2 ( ) 
+ ```ADJECTIVE_GOOD_SUBJECT_COMPLEMENT ( ) 
+ ```4 ( ) 
+ ```QUOTEABLE_VERB ( ) 
+ ```8 ( ) 
+ ```ADJECTIVE_TAKING_NOUN_INFINITIVE ( ) 
+ ```16 ( ) 
+ ```OMITTABLE_THAT_VERB ( ) 
+ ```32 ( ) 
+ ```NEGATIVE_ADVERB_STARTER ( ) 
+ ```64 ( ) 
+ ```NON_COMPLEMENT_ADJECTIVE ( ) 
+ ```NON ( ) 
+ ```128 ( ) 
+ ```PREP_ALLOWS_UNDETERMINED_NOUN ( ) 
+ ```PREP ( ) 
+ ```256 ( ) 
+ ```CONJUNCTIONS_OF_TIME ( ) 
+ ```CONJUNCTIONS ( ) 
+ ```512 ( ) 
+ ```CONJUNCTIONS_OF_SPACE ( ) 
+ ```1024 ( ) 
+ ```CONJUNCTIONS_OF_ADVERB ( ) 
+ ```2048 ( ) 
+ ```NONDESCRIPTIVE_ADJECTIVE ( ) 
+ ```4096 ( ) 
+ ```NEGATIVE_SV_INVERTER ( ) 
+ ```8192 ( ) 
+ ```LOCATIONAL_INVERTER ( ) 
+ ```16384 ( ) 
+ ```ADVERB_POSTADJECTIVE ( ) 
+ ```32768 ( ) 
+ ```QUANTITY_NOUN ( ) 
+ ```QUANTITY ( ) 
+ ```65536 ( ) 
+ ```CONJUNCTIVE_ADVERB ( ) 
+ ```CONJUNCTIVE ( ) 
+ ```131072 ( ) 
+ ```CORRELATIVE_ADVERB ( ) 
+ ```CORRELATIVE ( ) 
+ ```262144 ( ) 
+ ```POTENTIAL_CLAUSE_STARTER ( ) 
+ ```POTENTIAL ( ) 
+ ```524288 ( ) 
+ ```VERB_ALLOWS_OF_AFTER ( ) 
+ ```1048576 ( ) 
+ ```INDEFINITE_PRONOUN ( ) 
+ ```INDEFINITE ( ) 
+ ```2097152 ( ) 
+ ```PERSONAL_PRONOUN ( ) 
+ ```PERSONAL ( ) 
+ ```4194304 ( ) 
+ ```ADJECTIVE_NOT_PRE ( ) 
+ ```ADJECTIVE ( ) 
+ ```8388608 ( ) 
+ ```OBJECT_AS_ADJECTIVE ( ) 
+ ```OBJECT ( ) 
+ ```16777216 ( ) 
+ ```DISTANCE_NOUN ( ) 
+ ```DISTANCE ( ) 
+ ```33554432 ( ) 
+ ```DISTANCE_ADVERB ( ) 
+ ```67108864 ( ) 
+ ```TIME_ADVERB ( ) 
+ ```TIME ( ) 
+ ```134217728 ( ) 
+ ```TIME_NOUN ( ) 
+ ```268435456 ( ) 
+ ```TIME_ADJECTIVE ( ) 
+ ```536870912 ( ) 
+ ```DISTANCE_ADJECTIVE ( ) 
+ ```1073741824 ( ) 
+ ```OF_PROPER ( ) 
+ ```OF ( ) 
+ ```2147483648 ( ) 
+ ````HAS_SUBSTITUTE ( ) 
+ ````FACTATTRIBUTE ( ) 
+ ````MARKED_FACT ( ) 
+ ````MARKED ( ) 
+ ````ITERATOR_FACT ( ) 
+ ````ITERATOR ( ) 
+ ````MARKED_FACT2 ( ) 
+ ````FACTDEAD ( ) 
+ ````FACTTRANSIENT ( ) 
+ ````FACTAUTODELETE ( ) 
+ ````ORIGINAL_ONLY ( ) 
+ ````ORIGINAL ( ) 
+ ````FACTBUILD2 ( ) 
+ ````FACTBUILD1 ( ) 
+ ````USER_FLAG4 ( ) 
+ ````USER ( ) 
+ ````USER_FLAG3 ( ) 
+ ````USER_FLAG2 ( ) 
+ ````USER_FLAG1 ( ) 
+ ````USER_FLAGS ( ) 
+ ````SYSTEM_FLAGS ( ) 
+ ````SYSTEM ( ) 
+ ````JSON_OBJECT_FACT ( ) 
+ ````JSON_ARRAY_FACT ( ) 
+ ````JSON_ARRAY_VALUE ( ) 
+ ````JSON_OBJECT_VALUE ( ) 
+ ````JSON ( ) 
+ ````JSON_STRING_VALUE ( ) 
+ ````JSON_PRIMITIVE_VALUE ( ) 
+ ````JSON_FLAGS ( ) 
+ ````FACTSUBJECT ( ) 
+ ````FACTVERB ( ) 
+ ````FACTOBJECT ( ) 
+ ````FACTDUPLICATE ( ) 
+ ````MAINOBJECT ( ) 
+ ````MAININDIRECTOBJECT ( ) 
+ ````MAINVERB ( ) 
+ ````MAINSUBJECT ( ) 
+ ````SUBJECT2 ( ) 
+ ````VERB2 ( ) 
+ ````INDIRECTOBJECT2 ( ) 
+ ````OBJECT2 ( ) 
+ ````CLAUSE ( ) 
+ ````VERBAL ( ) 
+ ````PHRASE ( ) 
+ ````QUOTATION_UTTERANCE ( ) 
+ ````OBJECT_COMPLEMENT ( ) 
+ ````TO_INFINITIVE_OBJECT ( ) 
+ ````VERB_INFINITIVE_OBJECT ( ) 
+ ````OMITTED_SUBJECT_VERB ( ) 
+ ````CONJUNCT_CLAUSE ( ) 
+ ````CONJUNCT ( ) 
+ ````CONJUNCT_SENTENCE ( ) 
+ ````CONJUNCT_NOUN ( ) 
+ ````CONJUNCT_VERB ( ) 
+ ````CONJUNCT_ADJECTIVE ( ) 
+ ````CONJUNCT_ADVERB ( ) 
+ ````CONJUNCT_PHRASE ( ) 
+ ````CONJUNCT_KINDS ( ) 
+ ````SENTENCE_END ( ) 
+ ````SENTENCE ( ) 
+ ````WHENUNIT ( ) 
+ ````WHEREUNIT ( ) 
+ ````WHYUNIT ( ) 
+ ````HOWUNIT ( ) 
+ ````ADVERBIALTYPE ( ) 
+ ````REFLEXIVE ( ) 
+ ````COMMA_PHRASE ( ) 
+ ````COMMA ( ) 
+ ````BYOBJECT2 ( ) 
+ ````OFOBJECT2 ( ) 
+ ````POSTNOMINAL_ADJECTIVE ( ) 
+ ````POSTNOMINAL ( ) 
+ ````APPOSITIVE ( ) 
+ ````ADJECTIVE_COMPLEMENT ( ) 
+ ````ADJECTIVE ( ) 
+ ````ABSOLUTE_PHRASE ( ) 
+ ````ABSOLUTE ( ) 
+ ````SUBJECT_COMPLEMENT ( ) 
+ ````SUBJECT ( ) 
+ ````OMITTED_OF_PREP ( ) 
+ ````OMITTED ( ) 
+ ````OMITTED_TIME_PREP ( ) 
+ ````ADVERBIAL ( ) 
+ ````ADJECTIVAL ( ) 
+ ````ADDRESS ( ) 
+ ````TAGQUESTION ( ) 
+ ````DISTANCE_NOUN_MODIFY_ADVERB ( ) 
+ ````DISTANCE ( ) 
+ ````TIME_NOUN_MODIFY_ADVERB ( ) 
+ ````TIME ( ) 
+ ````TIME_NOUN_MODIFY_ADJECTIVE ( ) 
+ ````DISTANCE_NOUN_MODIFY_ADJECTIVE ( ) 
+ ````TOPIC_KEEP ( ) 
+ ````TOPIC_REPEAT ( ) 
+ ````TOPIC_RANDOM ( ) 
+ ````TOPIC_SYSTEM ( ) 
+ ````TOPIC_NOSTAY ( ) 
+ ````TOPIC_PRIORITY ( ) 
+ ````TOPIC_LOWPRIORITY ( ) 
+ ````TOPIC_NOBLOCKING ( ) 
+ ````TOPIC ( ) 
+ ````TOPIC_NOKEYS ( ) 
+ ````TOPIC_NOPATTERNS ( ) 
+ ````TOPIC_NOSAMPLES ( ) 
+ ````TOPIC_NOGAMBITS ( ) 
+ ````TOPIC_SAFE ( ) 
+ ````TOPIC_SHARE ( ) 
+ ````TOPIC_RANDOM_GAMBIT ( ) 
+ ````TOPIC_GAMBITTED ( ) 
+ ````TOPIC_RESPONDED ( ) 
+ ````TOPIC_REJOINDERED ( ) 
+ ````ACCESS_FLAGS ( ) 
+ ````ACCESS ( ) 
+ ````TOPIC_BLOCKED ( ) 
+ ````TOPIC_USED ( ) 
+ ````TRANSIENT_FLAGS ( ) 
+ ````TRANSIENT ( ) 
+ ````TRACE_ON ( ) 
+ ````TRACE_MATCH ( ) 
+ ````TRACE_VARIABLE ( ) 
+ ````TRACE_PREPARE ( ) 
+ ````TRACE_OUTPUT ( ) 
+ ````TRACE_PATTERN ( ) 
+ ````TRACE_HIERARCHY ( ) 
+ ````TRACE_INFER ( ) 
+ ````TRACE ( ) 
+ ````TRACE_SUBSTITUTE ( ) 
+ ````TRACE_FACT ( ) 
+ ````TRACE_VARIABLESET ( ) 
+ ````TRACE_USERFN ( ) 
+ ````TRACE_USER ( ) 
+ ````TRACE_POS ( ) 
+ ````TRACE_QUERY ( ) 
+ ````TRACE_TCP ( ) 
+ ````TRACE_USERCACHE ( ) 
+ ````TRACE_SQL ( ) 
+ ````TRACE_LABEL ( ) 
+ ````TRACE_SAMPLE ( ) 
+ ````TRACE_INPUT ( ) 
+ ````TRACE_SPELLING ( ) 
+ ````TRACE_TOPIC ( ) 
+ ````TRACE_SCRIPT ( ) 
+ ````TRACE_JSON ( ) 
+ ````TRACE_NOT_THIS_TOPIC ( ) 
+ ````TRACE_FLOW ( ) 
+ ````TRACE_COVERAGE ( ) 
+ ````TRACE_ALWAYS ( ) 
+ ````TRACE_ECHO ( ) 
+ ````TRACE_USERFACT ( ) 
+ ````TIME_ON ( ) 
+ ````TIME_PREPARE ( ) 
+ ````TIME_PATTERN ( ) 
+ ````TIME_USERFN ( ) 
+ ````TIME_USER ( ) 
+ ````TIME_QUERY ( ) 
+ ````TIME_TCP ( ) 
+ ````TIME_USERCACHE ( ) 
+ ````TIME_SQL ( ) 
+ ````TIME_TOPIC ( ) 
+ ````TIME_JSON ( ) 
+ ````TIME_NOT_THIS_TOPIC ( ) 
+ ````TIME_FLOW ( ) 
+ ````TIME_ALWAYS ( ) 
+ ````DISCARD ( ) 
+ ````KEEP ( ) 
+ ````ONE_REJOINDER ( ) 
+ ````ONE ( ) 
+ ````HAS ( ) 
+ ````IS ( ) 
+ ````INCLUDE ( ) 
+ ````CANONLYBE ( ) 
+ ````HASORIGINAL ( ) 
+ ````PRIORPOS ( ) 
+ ````POSTPOS ( ) 
+ ````PASSIVEVERB ( ) 
+ ````HASPROPERTY ( ) 
+ ````HASALLPROPERTIES ( ) 
+ ````HASCANONICALPROPERTY ( ) 
+ ````NOTPOSSIBLEVERBPARTICLEPAIR ( ) 
+ ````PARSEMARK ( ) 
+ ````ISORIGINAL ( ) 
+ ````ISCANONICAL ( ) 
+ ````PRIORCANONICAL ( ) 
+ ````ISMEMBER ( ) 
+ ````PRIORORIGINAL ( ) 
+ ````POSTORIGINAL ( ) 
+ ````POSITION ( ) 
+ ````START ( ) 
+ ````END ( ) 
+ ````RESETLOCATION ( ) 
+ ````HAS2VERBS ( ) 
+ ````ISQWORD ( ) 
+ ````ISQUESTION ( ) 
+ ````ISABSTRACT ( ) 
+ ````POSSIBLEINFINITIVE ( ) 
+ ````POSSIBLEADJECTIVE ( ) 
+ ````POSSIBLETOLESSVERB ( ) 
+ ````POSSIBLEADJECTIVEPARTICIPLE ( ) 
+ ````HOWSTART ( ) 
+ ````POSSIBLEPHRASAL ( ) 
+ ````POSSIBLEPARTICLE ( ) 
+ ````ISCOMPARATIVE ( ) 
+ ````ISEXCLAIM ( ) 
+ ````ISORIGINALMEMBER ( ) 
+ ````ISSUPERLATIVE ( ) 
+ ````SINGULAR ( ) 
+ ````ISPROBABLE ( ) 
+ ````PLURAL ( ) 
+ ````LASTCONTROL ( ) 
+ ````SKIP ( ) 
+ ````STAY ( ) 
+ ````NOTCONTROL ( ) 
+ ````DO_ESSENTIALS ( ) 
+ ````DO_SUBSTITUTES ( ) 
+ ````DO_CONTRACTIONS ( ) 
+ ````DO_INTERJECTIONS ( ) 
+ ````DO_BRITISH ( ) 
+ ````DO_SPELLING ( ) 
+ ````DO_TEXTING ( ) 
+ ````DO_NOISE ( ) 
+ ````DO ( ) 
+ ````DO_PRIVATE ( ) 
+ ````DO_NUMBER_MERGE ( ) 
+ ````DO_PROPERNAME_MERGE ( ) 
+ ````DO_SPELLCHECK ( ) 
+ ````DO_INTERJECTION_SPLITTING ( ) 
+ ````DO_POSTAG ( ) 
+ ````DO_PARSE ( ) 
+ ````NO_IMPERATIVE ( ) 
+ ````NO_WITHIN ( ) 
+ ````NO ( ) 
+ ````DO_DATE_MERGE ( ) 
+ ````NO_SENTENCE_END ( ) 
+ ````NO_INFER_QUESTION ( ) 
+ ````DO_SUBSTITUTE_SYSTEM ( ) 
+ ````PRESENT ( ) 
+ ````PAST ( ) 
+ ````FUTURE ( ) 
+ ````PRESENT_PERFECT ( ) 
+ ````CONTINUOUS ( ) 
+ ````PERFECT ( ) 
+ ````PASSIVE ( ) 
+ ````NO_HYPHEN_END ( ) 
+ ````NO_COLON_END ( ) 
+ ````NO_SEMICOLON_END ( ) 
+ ````STRICT_CASING ( ) 
+ ````STRICT ( ) 
+ ````ONLY_LOWERCASE ( ) 
+ ````ONLY ( ) 
+ ````TOKEN_AS_IS ( ) 
+ ````TOKEN ( ) 
+ ````SPLIT_QUOTE ( ) 
+ ````SPLIT ( ) 
+ ````LEAVE_QUOTE ( ) 
+ ````LEAVE ( ) 
+ ````UNTOUCHED_INPUT ( ) 
+ ````UNTOUCHED ( ) 
+ ````QUESTIONMARK ( ) 
+ ````EXCLAMATIONMARK ( ) 
+ ````PERIODMARK ( ) 
+ ````USERINPUT ( ) 
+ ````COMMANDMARK ( ) 
+ ````IMPLIED_YOU ( ) 
+ ````IMPLIED ( ) 
+ ````FOREIGN_TOKENS ( ) 
+ ````FOREIGN ( ) 
+ ````FAULTY_PARSE ( ) 
+ ````FAULTY ( ) 
+ ````QUOTATION ( ) 
+ ````NOT_SENTENCE ( ) 
+ ````NOT ( ) 
+ ````NO_PROPER_SPELLCHECK ( ) 
+ ````NO_LOWERCASE_PROPER_MERGE ( ) 
+ ````DO_SPLIT_UNDERSCORE ( ) 
+ ````MARK_LOWER ( ) 
+ ````NO_FIX_UTF ( ) 
+ ````NO_CONDITIONAL_IDIOM ( ) 
+ ````JSON_DIRECT_FROM_OOB ( ) 
+ ````SENTENCE_TOKENFLAGS ( ) 
+ ````OUTPUT_ONCE ( ) 
+ ````OUTPUT_KEEPSET ( ) 
+ ````OUTPUT_KEEPVAR ( ) 
+ ````OUTPUT_KEEPQUERYSET ( ) 
+ ````OUTPUT_SILENT ( ) 
+ ````OUTPUT_NOCOMMANUMBER ( ) 
+ ````OUTPUT_NOTREALBUFFER ( ) 
+ ````OUTPUT_ISOLATED_PERIOD ( ) 
+ ````OUTPUT ( ) 
+ ````OUTPUT_NOQUOTES ( ) 
+ ````OUTPUT_LOOP ( ) 
+ ````OUTPUT_UNTOUCHEDSTRING ( ) 
+ ````OUTPUT_FACTREAD ( ) 
+ ````OUTPUT_EVALCODE ( ) 
+ ````OUTPUT_DQUOTE_FLIP ( ) 
+ ````OUTPUT_ECHO ( ) 
+ ````OUTPUT_STRING_EVALED ( ) 
+ ````OUTPUT_NOUNDERSCORE ( ) 
+ ````OUTPUT_FNDEFINITION ( ) 
+ ````OUTPUT_RAW ( ) 
+ ````OUTPUT_RETURNVALUE_ONLY ( ) 
+ ````OUTPUT_FULLFLOAT ( ) 
+ ````RESPONSE_UPPERSTART ( ) 
+ ````RESPONSE_REMOVESPACEBEFORECOMMA ( ) 
+ ````RESPONSE ( ) 
+ ````RESPONSE_ALTERUNDERSCORES ( ) 
+ ````RESPONSE_REMOVETILDE ( ) 
+ ````RESPONSE_NOCONVERTSPECIAL ( ) 
+ ````ALL_RESPONSES ( ) 
+ ````ALL ( ) 
+ ````ASSIGNMENT ( ) 
+ _ACRNM ( ) 
+ _ADJ ( ADJECTIVE ) 
+ _ADV ( ADVERB ) 
  _ALFS ( ) 
- _ART ( ) 
+ _ART ( DETERMINER ) 
  _BACKSLASH ( ) 
- _CARD ( ) 
- _CC ( ) 
- _CCAD ( ) 
- _CCNEG ( ) 
+ _CARD ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ _CC ( CONJUNCTION_COORDINATE ) 
+ _CCAD ( CONJUNCTION_COORDINATE ) 
+ _CCNEG ( CONJUNCTION_COORDINATE ) 
  _CM ( ) 
  _CODE ( ) 
  _COLON ( ) 
  _CQUE ( ) 
- _CSUBF ( ) 
- _CSUBI ( ) 
- _CSUBX ( ) 
+ _CSUBF ( CONJUNCTION_SUBORDINATE ) 
+ _CSUBI ( CONJUNCTION_SUBORDINATE ) 
+ _CSUBX ( CONJUNCTION_SUBORDINATE ) 
  _DASH ( ) 
- _DM ( ) 
+ _DM ( PRONOUN_SUBJECT PRONOUN_OBJECT ) 
  _DOTS ( ) 
  _FS ( ) 
  _INT ( ) 
  _ITJN ( ) 
  _LP ( ) 
- _NC ( ) 
+ _NC ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  _NEG ( ) 
- _NMEA ( ) 
- _NMON ( ) 
- _NP ( ) 
- _ORD ( ) 
+ _NMEA ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ _NMON ( NOUN NOUN_SINGULAR ) 
+ _NP ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ _ORD ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  _PAL ( ) 
  _PDEL ( ) 
  _PE ( ) 
  _PERCT ( ) 
- _PPC ( ) 
- _PPO ( ) 
- _PPX ( ) 
- _PREP ( ) 
- _PREP/DEL ( ) 
+ _PPC ( PRONOUN_SUBJECT PRONOUN_OBJECT ) 
+ _PPO ( PRONOUN_SUBJECT PRONOUN_OBJECT ) 
+ _PPX ( PRONOUN_SUBJECT PRONOUN_OBJECT ) 
+ _PREP ( PREPOSITION ) 
+ _PREP/DEL ( PREPOSITION ) 
  _QT ( ) 
  _QU ( ) 
- _REL ( ) 
+ _REL ( PRONOUN_SUBJECT PRONOUN_OBJECT ) 
  _RP ( ) 
  _SE ( ) 
  _SEMICOLON ( ) 
  _SLASH ( ) 
  _SYM ( ) 
- _UMMX ( ) 
- _VCLIfin ( ) 
- _VCLIger ( ) 
- _VCLIinf ( ) 
- _VEadj ( ) 
- _VEfin ( ) 
- _VEger ( ) 
- _VEinf ( ) 
- _VHadj ( ) 
- _VHfin ( ) 
- _VHger ( ) 
- _VHinf ( ) 
- _VLadj ( ) 
- _VLfin ( ) 
- _VLger ( ) 
- _VLinf ( ) 
- _VMadj ( ) 
- _VMfin ( ) 
- _VMger ( ) 
- _VMinf ( ) 
- _VSadj ( ) 
- _VSfin ( ) 
- _VSger ( ) 
- _VSinf ( ) 
+ _UMMX ( NOUN NOUN_SINGULAR ) 
+ _VCLIger ( NOUN NOUN_GERUND ) 
+ _VCLIinf ( VERB_INFINITIVE VERB ) 
+ _VEadj ( VERB_PAST_PARTICIPLE VERB ) 
+ _VEfin ( VERB ) 
+ _VEger ( NOUN NOUN_GERUND ) 
+ _VEinf ( VERB_INFINITIVE VERB ) 
+ _VHadj ( VERB_PAST_PARTICIPLE VERB ) 
+ _VHfin ( VERB ) 
+ _VHger ( NOUN NOUN_GERUND ) 
+ _VHinf ( VERB ) 
+ _VLadj ( VERB_PAST_PARTICIPLE VERB ) 
+ _VLfin ( VERB ) 
+ _VLger ( NOUN NOUN_GERUND ) 
+ _VLinf ( VERB ) 
+ _VMadj ( VERB_PAST_PARTICIPLE VERB ) 
+ _VMfin ( VERB ) 
+ _VMger ( NOUN NOUN_GERUND ) 
+ _VMinf ( VERB ) 
+ _VSadj ( VERB_PAST_PARTICIPLE VERB ) 
+ _VSfin ( VERB ) 
+ _VSger ( NOUN NOUN_GERUND ) 
+ _VSinf ( VERB ) 
  ! ( ) 
- " (" ( ) 
+ " ( ) 
  # ( ) 
  $ ( ) 
  % ( ) 
@@ -78,1647 +802,2562 @@
  ' ( ) 
  ( ( ) 
  ) ( ) 
- * ( ) lemma=k*2 
- ** ( ) lemma=**** 
+ * ( ) 
+ ** ( ) 
  **** ( ) 
- + ( ) lemma=c++ 
+ + ( ) 
  +10 ( ) 
  +15 ( ) 
  +2 ( ) 
  +3 ( ) 
  +5 ( ) 
  +8 ( ) 
- , ( ) lemma=A,2 
- - ( ) lemma=y-o 
+ , ( ) 
+ - ( ) 
  -- ( ) 
- . ( ) lemma=v.g 
+ . ( ) 
  .. ( ) lemma=. 
- ... ( ) 
- .... ( ) 
- / ( ) lemma=N/2 
+ ... ( ) lemma=. 
+ .... ( ) lemma=. 
+ / ( ) 
  : ( ) 
  ; ( ) 
  < ( ) 
  = ( ) 
  > ( ) 
  ? ( ) 
- ???? ( ) 
+ ???? ( ) lemma=? 
  @ ( ) 
- [ ( ) 
+ [ ( ) lemma=ZSU 
+ \ ( ) lemma=ZSU 
+ ] ( ) lemma=ZSU 
+ ^` ( ) lemma=^ 
+ ` ( ) lemma=ZSU 
+ { ( ) lemma=zulúes 
+ | ( ) lemma=zulúes 
+ } ( ) lemma=zulúes 
+ ¡ ( ) lemma=! 
+ £ ( ) 
+ § ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=zulúes 
+ « ( ) lemma=zulúes 
+ ­ ( ) lemma=- 
+ ° ( ) lemma=zulúes 
+ ºc ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=zulúes 
+ » ( ) lemma=zulúes 
+ ¿ ( ) lemma=? 
+ Á ( ) lemma=zozobró 
+ África ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=Ámbito 
+ Ámbito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ámbito 
+ Árabe ( ADJECTIVE ) lemma=árabe 
+ Ártico ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=zulúes 
+ Ä ( ) lemma=zulúes 
+ É ( ) lemma=zulúes 
+ Écija ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=zulúes 
+ Él ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=él 
+ Ésta ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ Éstas ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ Éste ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ Éstos ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ Ë ( ) lemma=zulúes 
+ Í ( ) lemma=zulúes 
+ ÍNDICE ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=índice 
+ Ícaro ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=zulúes 
+ Índice ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=índice 
+ Índico ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=zulúes 
+ Ï ( ) lemma=zulúes 
+ Ñ ( ) lemma=ñ 
+ Ó ( CONJUNCTION_COORDINATE ) lemma=o 
+ ÓRGANOS ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=órgano 
+ Órgano ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=órgano 
+ Ö ( ) lemma=Órgano 
+ Ú ( ) lemma=zulúes 
+ Última ( ADJECTIVE ) lemma=último 
+ Únicamente ( ADVERB ) lemma=únicamente 
+ Ü ( ) lemma=zulúes 
+ Ý ( ) lemma=á 
+ á ( ) 
+ ábacos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ábaco 
+ ábrelo ( ) lemma=abrir 
+ ábside ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=á 
+ ácaro ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=á 
+ ácaros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ácaro 
+ ácida ( ADJECTIVE ) lemma=ácido 
+ ácidas ( ADJECTIVE ) lemma=ácido 
+ ácido ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=ácido-base 
+ ácido-base ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ácidos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=ácido 
+ ágape ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ágata ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ágape 
+ ágil ( ADJECTIVE ) lemma=ácido-base 
+ ágiles ( ADJECTIVE ) lemma=ágil 
+ ágilmente ( ADVERB ) lemma=ágil 
+ águila ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ácido-base 
+ águilas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=águila 
+ álamo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=águilas 
+ álamos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=álamo 
+ álbum ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ágape 
+ álbumes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=álbum 
+ álcalis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=álcali 
+ álgebras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=álgebra 
+ álgida ( ADJECTIVE ) lemma=álgido 
+ álgido ( ADJECTIVE ) lemma=ágape 
+ álgidos ( ADJECTIVE ) lemma=álgido 
+ ámbar ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ágape 
+ ámbito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ágape 
+ ámbitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ámbito 
+ ándale ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=ándele 
+ ángel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ángeles 
+ ángeles ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=ángel 
+ ángulo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ángeles 
+ ángulos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ángulo 
+ ánimo ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=ángeles 
+ ánimos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ánimo 
+ ánodo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ángeles 
+ ápice ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ángeles 
+ árabe ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ árabes ( ADJECTIVE ) lemma=árabe 
+ árbitro ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ágape 
+ árbitros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=árbitro 
+ árbol ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ágape 
+ árboles ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=árbol 
+ área ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ágape 
+ áreas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=área 
+ árida ( ADJECTIVE ) lemma=árido 
+ áridas ( ADJECTIVE ) lemma=árido 
+ árido ( ADJECTIVE ) lemma=áridas 
+ áridos ( ADJECTIVE ) lemma=árido 
+ ármate ( ) lemma=armar 
+ áspera ( ADJECTIVE ) lemma=áspero 
+ ásperas ( ADJECTIVE ) lemma=áspero 
+ áspero ( ADJECTIVE ) lemma=áspera 
+ ásperos ( ADJECTIVE ) lemma=áspero 
+ átomo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ágape 
+ átomos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=átomo 
+ ávida ( ADJECTIVE ) lemma=ávido 
+ ávidamente ( ADVERB ) lemma=ágape 
+ ávidas ( ADJECTIVE ) lemma=ávido 
+ ávido ( ADJECTIVE ) lemma=ágape 
+ ávidos ( ADJECTIVE ) lemma=ávido 
+ ä ( ) lemma=ágape 
+ é ( ) lemma=ágape 
+ échale ( ) lemma=echar 
+ échame ( ) lemma=echar 
+ échange ( ) lemma=ágape 
+ échappement ( ) lemma=ágape 
+ échec ( ) lemma=ágape 
+ échennos ( VERB ) lemma=echar 
+ écoute ( ) lemma=áridos 
+ écouteur ( ) lemma=áspera 
+ écriture ( ) lemma=ácido-base 
+ él ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=ácido-base 
+ électrique ( ) lemma=áspera 
+ électroacoustique ( ) lemma=áspera 
+ élite ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ágape 
+ élites ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=élite 
+ élément ( ) 
+ élémentaire ( ) lemma=áspera 
+ éléments ( ) lemma=áspera 
+ émbolos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=émbolo 
+ émetteur ( ) lemma=áspera 
+ émission ( ) lemma=áspera 
+ émulo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=áspera 
+ émulos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=émulo 
+ énfasis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=áspera 
+ épica ( ADJECTIVE ) lemma=épico 
+ épico ( ADJECTIVE ) lemma=áspera 
+ épicos ( ADJECTIVE ) lemma=épico 
+ época ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=áspera 
+ épocas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=época 
+ équilibrage ( ) lemma=áspera 
+ équipement ( ) lemma=áspera 
+ équivalent ( ) lemma=áspera 
+ équivalente ( ) lemma=áspera 
+ équivalents ( ) lemma=áspera 
+ éramos ( VERB ) lemma=ser 
+ ésa ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=ese 
+ ésas ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=ese 
+ ése ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=ese 
+ ésima ( ADJECTIVE_NUMBER NOUN_NUMBER ) lemma=ésimo 
+ ésimo ( ADJECTIVE_NUMBER NOUN_NUMBER ) lemma=áspera 
+ ésos ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=ese 
+ ésta ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ éstas ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ éste ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ éster ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ésteres 
+ ésteres ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=éster 
+ ésto ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ éstos ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ établie ( ) lemma=ésteres 
+ établissement ( ) lemma=ésteres 
+ étage ( ) lemma=ésteres 
+ état ( ) lemma=ésteres 
+ éter ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=éteres 
+ éteres ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=éter 
+ ética ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=ético 
+ éticamente ( ADVERB ) lemma=ético 
+ éticas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=ético 
+ ético ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=éteres 
+ éticos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=ético 
+ étnica ( ADJECTIVE ) lemma=étnico 
+ étnicamente ( ADVERB ) lemma=étnico 
+ étnicas ( ADJECTIVE ) lemma=étnico 
+ étnico ( ADJECTIVE ) lemma=áspera 
+ étnicos ( ADJECTIVE ) lemma=étnico 
+ éxito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=áspera 
+ éxitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=éxito 
+ éxodo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=áspera 
+ éxodos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=éxodo 
+ éxtasis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=áspera 
+ ë ( ) 
+ í ( ) lemma=ágape 
+ ía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=áspera 
+ íbamos ( VERB ) lemma=ir 
+ íctero ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=áspera 
+ ídem ( ADVERB ) lemma=ágape 
+ ídolo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ídolos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ídolo 
+ ígneas ( ADJECTIVE ) lemma=ígneo 
+ íleo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ídolos 
+ íleon ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ídolos 
+ ímpetu ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ídolos 
+ ímpetus ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ímpetu 
+ índice ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=índices 
+ índices ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=índice 
+ índole ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ índoles ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=índole 
+ ínfima ( ADJECTIVE ) lemma=bajo 
+ ínfimas ( ADJECTIVE ) lemma=bajo 
+ ínfimo ( ADJECTIVE ) lemma=bajo 
+ ínfimos ( ADJECTIVE ) lemma=bajo 
+ íntegra ( ADJECTIVE ) lemma=íntegro 
+ íntegramente ( ADVERB ) lemma=íntegro 
+ íntegras ( ADJECTIVE ) lemma=íntegro 
+ íntegro ( ADJECTIVE ) lemma=ínfimos 
+ íntegros ( ADJECTIVE ) lemma=íntegro 
+ íntima ( ADJECTIVE ) lemma=íntimo 
+ íntimamente ( ADVERB ) lemma=íntimo 
+ íntimas ( ADJECTIVE ) lemma=íntimo 
+ íntimo ( ADJECTIVE ) 
+ íntimos ( ADJECTIVE ) lemma=íntimo 
+ írsela ( VERB ) lemma=ir 
+ ítem ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=íntimas 
+ ítems ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ítem 
+ ï ( ) lemma=íntimas 
+ ñ ( ) lemma=íntimas 
+ ñato ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=ó 
+ ó ( CONJUNCTION_COORDINATE ) lemma=o 
+ óbito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ó 
+ óiganme ( VERB ) lemma=oír 
+ óleo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ó 
+ óleos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=óleo 
+ ómnibus ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ó 
+ ópera ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ó 
+ óperas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ópera 
+ óptica ( ADJECTIVE ) lemma=óptico 
+ ópticamente ( ADVERB ) lemma=ó 
+ ópticas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=óptica 
+ óptico ( ADJECTIVE ) lemma=ó 
+ ópticos ( ADJECTIVE ) lemma=óptico 
+ óptima ( ADJECTIVE ) lemma=óptimo 
+ óptimamente ( ADVERB ) lemma=óptimo 
+ óptimas ( ADJECTIVE ) lemma=óptimo 
+ óptimo ( ADJECTIVE ) lemma=ó 
+ óptimos ( ADJECTIVE ) lemma=óptimo 
+ órale ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=ó 
+ órbita ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ó 
+ órbitas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=órbita 
+ órdenes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=orden 
+ órgano ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ó 
+ órganos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=órgano 
+ ósale ( ) lemma=osar 
+ ósea ( ADJECTIVE ) lemma=óseo 
+ óseas ( ADJECTIVE ) lemma=óseo 
+ óseo ( ADJECTIVE ) lemma=ó 
+ óseos ( VERB ADJECTIVE ) lemma=óseo 
+ ósmosis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ó 
+ óvalo ( ) lemma=ovar 
+ óvulo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ó 
+ óvulos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=óvulo 
+ óxido ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ó 
+ óxidos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=óxido 
+ óyeme ( VERB ) lemma=oír 
+ ö ( ) lemma=ó 
+ ú ( ) lemma=ó 
+ újule ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=ó 
+ úlcera ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ó 
+ úlceras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=úlcera 
+ última ( ADJECTIVE ) lemma=último 
+ últimamente ( ADVERB ) lemma=último 
+ últimas ( ADJECTIVE ) lemma=último 
+ último ( ADJECTIVE ) lemma=ó 
+ últimos ( ADJECTIVE ) lemma=último 
+ únanse ( VERB ) lemma=unir 
+ única ( ADJECTIVE ) lemma=único 
+ únicamente ( ADVERB ) lemma=único 
+ únicas ( ADJECTIVE ) lemma=único 
+ único ( ADJECTIVE ) lemma=ó 
+ únicos ( ADJECTIVE ) lemma=único 
+ úrico ( ADJECTIVE ) lemma=ó 
+ útero ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ó 
+ úteros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=útero 
+ útil ( ADJECTIVE ) lemma=ó 
+ útiles ( ADJECTIVE ) lemma=útil 
+ útilmente ( ADVERB ) lemma=útil 
+ úvula ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ínfimos 
+ ü ( ) lemma=ínfimos 
+ ý ( ) lemma=ínfimos 
+ ÿ ( ) lemma=ínfimos 
+ — ( ) lemma=-- 
+ “ ( ) lemma=ínfimos 
+ ” ( ) lemma=" 
+ … ( ) lemma=. 
+ ^ ( ) lemma=tELEIMPRESORA 
+ àulico ( ) lemma=aurinegro 
+ ábaco ( ) lemma=vidrioso 
+ álcali ( ) lemma=vidrioso 
+ álgebra ( ) lemma=vidrioso 
+ ándele ( ) lemma=vidrioso 
+ émbolo ( ) lemma=vidrioso 
+ ígneo ( ) lemma=vidrioso 
+ `NOUN ( ) 
+ `2147483648 ( ) 
+ `VERB ( ) 
+ `1073741824 ( ) 
+ `ESSENTIAL_POS ( ) 
+ `ESSENTIAL ( ) 
+ `3221225472 ( ) 
+ `ADJECTIVE ( ) 
+ `536870912 ( ) 
+ `ADVERB ( ) 
+ `268435456 ( ) 
+ `BASIC_POS ( ) 
+ `BASIC ( ) 
+ `4026531840 ( ) 
+ `PREPOSITION ( ) 
+ `134217728 ( ) 
+ `ESSENTIAL_FLAGS ( ) 
+ `4160749568 ( ) 
+ `CONJUNCTION_COORDINATE ( ) 
+ `CONJUNCTION ( ) 
+ `67108864 ( ) 
+ `CONJUNCTION_SUBORDINATE ( ) 
+ `33554432 ( ) 
+ `100663296 ( ) 
+ `PREDETERMINER ( ) 
+ `16777216 ( ) 
+ `DETERMINER ( ) 
+ `8388608 ( ) 
+ `POSSESSIVE ( ) 
+ `4194304 ( ) 
+ `PRONOUN_POSSESSIVE ( ) 
+ `PRONOUN ( ) 
+ `2097152 ( ) 
+ `POSSESSIVE_BITS ( ) 
+ `6291456 ( ) 
+ `DETERMINER_BITS ( ) 
+ `31457280 ( ) 
+ `COMMA ( ) 
+ `524288 ( ) 
+ `REQUIRE_CONCEPT ( ) 
+ `REQUIRE ( ) 
+ `PAREN ( ) 
+ `262144 ( ) 
+ `PUNCTUATION ( ) 
+ `131072 ( ) 
+ `QUOTE ( ) 
+ `65536 ( ) 
+ `CURRENCY ( ) 
+ `32768 ( ) 
+ `ADJECTIVE_NORMAL ( ) 
+ `16384 ( ) 
+ `ADJECTIVE_NUMBER ( ) 
+ `8192 ( ) 
+ `ADJECTIVE_NOUN ( ) 
+ `4096 ( ) 
+ `ADJECTIVE_PARTICIPLE ( ) 
+ `2048 ( ) 
+ `ADJECTIVE_BITS ( ) 
+ `30720 ( ) 
+ `INTERJECTION ( ) 
+ `1024 ( ) 
+ `THERE_EXISTENTIAL ( ) 
+ `THERE ( ) 
+ `512 ( ) 
+ `FOREIGN_WORD ( ) 
+ `FOREIGN ( ) 
+ `256 ( ) 
+ `TO_INFINITIVE ( ) 
+ `TO ( ) 
+ `128 ( ) 
+ `NOUN_ADJECTIVE ( ) 
+ `64 ( ) 
+ `NOUN_SINGULAR ( ) 
+ `32 ( ) 
+ `NOUN_PLURAL ( ) 
+ `16 ( ) 
+ `NOUN_PROPER_SINGULAR ( ) 
+ `8 ( ) 
+ `NOUN_PROPER_PLURAL ( ) 
+ `4 ( ) 
+ `NOUN_GERUND ( ) 
+ `2 ( ) 
+ `NOUN_NUMBER ( ) 
+ `1 ( ) 
+ `NOUN_INFINITIVE ( ) 
+ `140737488355328 ( ) 
+ `NOUN_PROPER ( ) 
+ `12 ( ) 
+ `NORMAL_NOUN_BITS ( ) 
+ `125 ( ) 
+ `NOUN_BITS ( ) 
+ `140737488355455 ( ) 
+ `VERB_PRESENT ( ) 
+ `70368744177664 ( ) 
+ `VERB_PRESENT_3PS ( ) 
+ `35184372088832 ( ) 
+ `VERB_PRESENT_PARTICIPLE ( ) 
+ `17592186044416 ( ) 
+ `VERB_PAST ( ) 
+ `8796093022208 ( ) 
+ `VERB_PAST_PARTICIPLE ( ) 
+ `4398046511104 ( ) 
+ `VERB_INFINITIVE ( ) 
+ `2199023255552 ( ) 
+ `PARTICLE ( ) 
+ `1099511627776 ( ) 
+ `VERB_BITS ( ) 
+ `138538465099776 ( ) 
+ `PRONOUN_SUBJECT ( ) 
+ `549755813888 ( ) 
+ `PRONOUN_OBJECT ( ) 
+ `274877906944 ( ) 
+ `PRONOUN_BITS ( ) 
+ `824633720832 ( ) 
+ `AUX_DO ( ) 
+ `AUX ( ) 
+ `137438953472 ( ) 
+ `AUX_HAVE ( ) 
+ `68719476736 ( ) 
+ `AUX_BE ( ) 
+ `34359738368 ( ) 
+ `AUX_VERB_PRESENT ( ) 
+ `17179869184 ( ) 
+ `AUX_VERB_FUTURE ( ) 
+ `8589934592 ( ) 
+ `AUX_VERB_PAST ( ) 
+ `4294967296 ( ) 
+ `AUX_VERB_TENSES ( ) 
+ `30064771072 ( ) 
+ `AUX_VERB ( ) 
+ `270582939648 ( ) 
+ `STARTTAGS ( ) 
+ `AS_IS ( ) 
+ `-9223372036854775808 ( ) 
+ `NOUN_HUMAN ( ) 
+ `4611686018427387904 ( ) 
+ `NOUN_FIRSTNAME ( ) 
+ `2305843009213693952 ( ) 
+ `NOUN_SHE ( ) 
+ `1152921504606846976 ( ) 
+ `NOUN_HE ( ) 
+ `576460752303423488 ( ) 
+ `NOUN_THEY ( ) 
+ `288230376151711744 ( ) 
+ `NOUN_TITLE_OF_ADDRESS ( ) 
+ `144115188075855872 ( ) 
+ `NOUN_TITLE_OF_WORK ( ) 
+ `72057594037927936 ( ) 
+ `LOWERCASE_TITLE ( ) 
+ `36028797018963968 ( ) 
+ `NOUN_ABSTRACT ( ) 
+ `18014398509481984 ( ) 
+ `MORE_FORM ( ) 
+ `9007199254740992 ( ) 
+ `MOST_FORM ( ) 
+ `4503599627370496 ( ) 
+ `QWORD ( ) 
+ `2251799813685248 ( ) 
+ `PLACE_NUMBER ( ) 
+ `1125899906842624 ( ) 
+ `SINGULAR_PERSON ( ) 
+ `562949953421312 ( ) 
+ `IDIOM ( ) 
+ `281474976710656 ( ) 
+ `NOUN_TITLE ( ) 
+ `72057596185411592 ( ) 
+ `NOUN_HUMANGROUP ( ) 
+ `4971973990764511232 ( ) 
+ `NOUN_MALEHUMAN ( ) 
+ `5188146772878295048 ( ) 
+ `NOUN_FEMALEHUMAN ( ) 
+ `5764607525181718536 ( ) 
+ `NOUN_HUMANNAME ( ) 
+ `4611686020574871560 ( ) 
+ `TAG_TEST ( ) 
+ `TAG ( ) 
+ `562946194276351 ( ) 
+ `NOUN_DESCRIPTION_BITS ( ) 
+ `140737788278911 ( ) 
+ ``ANIMATE_BEING ( ) 
+ ``1 ( ) 
+ ``HOWWORD ( ) 
+ ``2 ( ) 
+ ``TIMEWORD ( ) 
+ ``4 ( ) 
+ ``LOCATIONWORD ( ) 
+ ``8 ( ) 
+ ``VERB_CONJUGATE3 ( ) 
+ ``16 ( ) 
+ ``VERB_CONJUGATE2 ( ) 
+ ``32 ( ) 
+ ``VERB_CONJUGATE1 ( ) 
+ ``64 ( ) 
+ ``PRESENTATION_VERB ( ) 
+ ``PRESENTATION ( ) 
+ ``128 ( ) 
+ ``COMMON_PARTICIPLE_VERB ( ) 
+ ``COMMON ( ) 
+ ``256 ( ) 
+ ``NOCONCEPTLIST ( ) 
+ ``512 ( ) 
+ ``PRONOUN_RELATIVE ( ) 
+ ``PRONOUN ( ) 
+ ``1024 ( ) 
+ ``INSEPARABLE_PHRASAL_VERB ( ) 
+ ``2048 ( ) 
+ ``MUST_BE_SEPARATE_PHRASAL_VERB ( ) 
+ ``4096 ( ) 
+ ``SEPARABLE_PHRASAL_VERB ( ) 
+ ``8192 ( ) 
+ ``PHRASAL_VERB ( ) 
+ ``16384 ( ) 
+ ``VERB_NOOBJECT ( ) 
+ ``32768 ( ) 
+ ``VERB_INDIRECTOBJECT ( ) 
+ ``VERB ( ) 
+ ``65536 ( ) 
+ ``VERB_DIRECTOBJECT ( ) 
+ ``131072 ( ) 
+ ``VERB_TAKES_GERUND ( ) 
+ ``262144 ( ) 
+ ``VERB_TAKES_ADJECTIVE ( ) 
+ ``524288 ( ) 
+ ``VERB_TAKES_INDIRECT_THEN_TOINFINITIVE ( ) 
+ ``1048576 ( ) 
+ ``VERB_TAKES_INDIRECT_THEN_VERBINFINITIVE ( ) 
+ ``2097152 ( ) 
+ ``VERB_TAKES_TOINFINITIVE ( ) 
+ ``4194304 ( ) 
+ ``VERB_TAKES_VERBINFINITIVE ( ) 
+ ``8388608 ( ) 
+ ``OMITTABLE_TIME_PREPOSITION ( ) 
+ ``OMITTABLE ( ) 
+ ``16777216 ( ) 
+ ``ALWAYS_PROPER_NAME_MERGE ( ) 
+ ``ALWAYS ( ) 
+ ``33554432 ( ) 
+ ``CONJUNCT_SUBORD_NOUN ( ) 
+ ``CONJUNCT ( ) 
+ ``67108864 ( ) 
+ ``PROBABLE_PREPOSITION ( ) 
+ ``PROBABLE ( ) 
+ ``134217728 ( ) 
+ ``ONLY_NONE ( ) 
+ ``ONLY ( ) 
+ ``PROBABLE_ADVERB ( ) 
+ ``268435456 ( ) 
+ ``PROBABLE_ADJECTIVE ( ) 
+ ``536870912 ( ) 
+ ``PROBABLE_VERB ( ) 
+ ``1073741824 ( ) 
+ ``PROBABLE_NOUN ( ) 
+ ``2147483648 ( ) 
+ ``PRONOUN_PLURAL ( ) 
+ ``4294967296 ( ) 
+ ``PRONOUN_SINGULAR ( ) 
+ ``8589934592 ( ) 
+ ``ACTUAL_TIME ( ) 
+ ``ACTUAL ( ) 
+ ``17179869184 ( ) 
+ ``PREDETERMINER_TARGET ( ) 
+ ``PREDETERMINER ( ) 
+ ``34359738368 ( ) 
+ ``ADJECTIVE_POSTPOSITIVE ( ) 
+ ``ADJECTIVE ( ) 
+ ``68719476736 ( ) 
+ ``DETERMINER_SINGULAR ( ) 
+ ``DETERMINER ( ) 
+ ``137438953472 ( ) 
+ ``DETERMINER_PLURAL ( ) 
+ ``274877906944 ( ) 
+ ``TAKES_POSTPOSITIVE_ADJECTIVE ( ) 
+ ``TAKES ( ) 
+ ``549755813888 ( ) 
+ ``GRADE5_6 ( ) 
+ ``GRADE5 ( ) 
+ ``1099511627776 ( ) 
+ ``GRADE3_4 ( ) 
+ ``2199023255552 ( ) 
+ ``GRADE1_2 ( ) 
+ ``4398046511104 ( ) 
+ ``KINDERGARTEN ( ) 
+ ``7696581394432 ( ) 
+ ``AGE_LEARNED ( ) 
+ ``AGE ( ) 
+ ``SUBSTITUTE_RECIPIENT ( ) 
+ ``8796093022208 ( ) 
+ ``NOUN_NODETERMINER ( ) 
+ ``17592186044416 ( ) 
+ ``WEB_URL ( ) 
+ ``35184372088832 ( ) 
+ ``ORDINAL ( ) 
+ ``70368744177664 ( ) 
+ ``PRONOUN_REFLEXIVE ( ) 
+ ``140737488355328 ( ) 
+ ``PRONOUN_INDIRECTOBJECT ( ) 
+ ``281474976710656 ( ) 
+ ``MODEL_NUMBER ( ) 
+ ``562949953421312 ( ) 
+ ``COMMON1 ( ) 
+ ``1125899906842624 ( ) 
+ ``COMMON2 ( ) 
+ ``2251799813685248 ( ) 
+ ``COMMON3 ( ) 
+ ``3377699720527872 ( ) 
+ ``COMMON4 ( ) 
+ ``4503599627370496 ( ) 
+ ``COMMON5 ( ) 
+ ``5629499534213120 ( ) 
+ ``COMMON6 ( ) 
+ ``6755399441055744 ( ) 
+ ``COMMON7 ( ) 
+ ``7881299347898368 ( ) 
+ ``COMMONNESS ( ) 
+ ``MONTH ( ) 
+ ``9007199254740992 ( ) 
+ ``SPELLING_EXCEPTION ( ) 
+ ``18014398509481984 ( ) 
+ ``ADJECTIVE_NOT_PREDICATE ( ) 
+ ``36028797018963968 ( ) 
+ ``ADJECTIVE_ONLY_PREDICATE ( ) 
+ ``72057594037927936 ( ) 
+ ``CONSTANT_IS_NEGATIVE ( ) 
+ ``144115188075855872 ( ) 
+ ``CONDITIONAL_IDIOM ( ) 
+ ``288230376151711744 ( ) 
+ ``NO_PROPER_MERGE ( ) 
+ ``576460752303423488 ( ) 
+ ``MARKED_WORD ( ) 
+ ``1152921504606846976 ( ) 
+ ``PATTERN_WORD ( ) 
+ ``2305843009213693952 ( ) 
+ ``DELAYED_RECURSIVE_DIRECT_MEMBER ( ) 
+ ``4611686018427387904 ( ) 
+ ``EXTENT_ADVERB ( ) 
+ ``-9223372036854775808 ( ) 
+ ```FACTITIVE_ADJECTIVE_VERB ( ) 
+ ```1 ( ) 
+ ```FACTITIVE_NOUN_VERB ( ) 
+ ```2 ( ) 
+ ```ADJECTIVE_GOOD_SUBJECT_COMPLEMENT ( ) 
+ ```4 ( ) 
+ ```QUOTEABLE_VERB ( ) 
+ ```8 ( ) 
+ ```ADJECTIVE_TAKING_NOUN_INFINITIVE ( ) 
+ ```16 ( ) 
+ ```OMITTABLE_THAT_VERB ( ) 
+ ```32 ( ) 
+ ```NEGATIVE_ADVERB_STARTER ( ) 
+ ```64 ( ) 
+ ```NON_COMPLEMENT_ADJECTIVE ( ) 
+ ```NON ( ) 
+ ```128 ( ) 
+ ```PREP_ALLOWS_UNDETERMINED_NOUN ( ) 
+ ```PREP ( ) 
+ ```256 ( ) 
+ ```CONJUNCTIONS_OF_TIME ( ) 
+ ```CONJUNCTIONS ( ) 
+ ```512 ( ) 
+ ```CONJUNCTIONS_OF_SPACE ( ) 
+ ```1024 ( ) 
+ ```CONJUNCTIONS_OF_ADVERB ( ) 
+ ```2048 ( ) 
+ ```NONDESCRIPTIVE_ADJECTIVE ( ) 
+ ```4096 ( ) 
+ ```NEGATIVE_SV_INVERTER ( ) 
+ ```8192 ( ) 
+ ```LOCATIONAL_INVERTER ( ) 
+ ```16384 ( ) 
+ ```ADVERB_POSTADJECTIVE ( ) 
+ ```32768 ( ) 
+ ```QUANTITY_NOUN ( ) 
+ ```QUANTITY ( ) 
+ ```65536 ( ) 
+ ```CONJUNCTIVE_ADVERB ( ) 
+ ```CONJUNCTIVE ( ) 
+ ```131072 ( ) 
+ ```CORRELATIVE_ADVERB ( ) 
+ ```CORRELATIVE ( ) 
+ ```262144 ( ) 
+ ```POTENTIAL_CLAUSE_STARTER ( ) 
+ ```POTENTIAL ( ) 
+ ```524288 ( ) 
+ ```VERB_ALLOWS_OF_AFTER ( ) 
+ ```1048576 ( ) 
+ ```INDEFINITE_PRONOUN ( ) 
+ ```INDEFINITE ( ) 
+ ```2097152 ( ) 
+ ```PERSONAL_PRONOUN ( ) 
+ ```PERSONAL ( ) 
+ ```4194304 ( ) 
+ ```ADJECTIVE_NOT_PRE ( ) 
+ ```ADJECTIVE ( ) 
+ ```8388608 ( ) 
+ ```OBJECT_AS_ADJECTIVE ( ) 
+ ```OBJECT ( ) 
+ ```16777216 ( ) 
+ ```DISTANCE_NOUN ( ) 
+ ```DISTANCE ( ) 
+ ```33554432 ( ) 
+ ```DISTANCE_ADVERB ( ) 
+ ```67108864 ( ) 
+ ```TIME_ADVERB ( ) 
+ ```TIME ( ) 
+ ```134217728 ( ) 
+ ```TIME_NOUN ( ) 
+ ```268435456 ( ) 
+ ```TIME_ADJECTIVE ( ) 
+ ```536870912 ( ) 
+ ```DISTANCE_ADJECTIVE ( ) 
+ ```1073741824 ( ) 
+ ```OF_PROPER ( ) 
+ ```OF ( ) 
+ ```2147483648 ( ) 
+ ````HAS_SUBSTITUTE ( ) 
+ ````FACTATTRIBUTE ( ) 
+ ````MARKED_FACT ( ) 
+ ````MARKED ( ) 
+ ````ITERATOR_FACT ( ) 
+ ````ITERATOR ( ) 
+ ````MARKED_FACT2 ( ) 
+ ````FACTDEAD ( ) 
+ ````FACTTRANSIENT ( ) 
+ ````FACTAUTODELETE ( ) 
+ ````ORIGINAL_ONLY ( ) 
+ ````ORIGINAL ( ) 
+ ````FACTBUILD2 ( ) 
+ ````FACTBUILD1 ( ) 
+ ````USER_FLAG4 ( ) 
+ ````USER ( ) 
+ ````USER_FLAG3 ( ) 
+ ````USER_FLAG2 ( ) 
+ ````USER_FLAG1 ( ) 
+ ````USER_FLAGS ( ) 
+ ````SYSTEM_FLAGS ( ) 
+ ````SYSTEM ( ) 
+ ````JSON_OBJECT_FACT ( ) 
+ ````JSON_ARRAY_FACT ( ) 
+ ````JSON_ARRAY_VALUE ( ) 
+ ````JSON_OBJECT_VALUE ( ) 
+ ````JSON ( ) 
+ ````JSON_STRING_VALUE ( ) 
+ ````JSON_PRIMITIVE_VALUE ( ) 
+ ````JSON_FLAGS ( ) 
+ ````FACTSUBJECT ( ) 
+ ````FACTVERB ( ) 
+ ````FACTOBJECT ( ) 
+ ````FACTDUPLICATE ( ) 
+ ````MAINOBJECT ( ) 
+ ````MAININDIRECTOBJECT ( ) 
+ ````MAINVERB ( ) 
+ ````MAINSUBJECT ( ) 
+ ````SUBJECT2 ( ) 
+ ````VERB2 ( ) 
+ ````INDIRECTOBJECT2 ( ) 
+ ````OBJECT2 ( ) 
+ ````CLAUSE ( ) 
+ ````VERBAL ( ) 
+ ````PHRASE ( ) 
+ ````QUOTATION_UTTERANCE ( ) 
+ ````OBJECT_COMPLEMENT ( ) 
+ ````TO_INFINITIVE_OBJECT ( ) 
+ ````VERB_INFINITIVE_OBJECT ( ) 
+ ````OMITTED_SUBJECT_VERB ( ) 
+ ````CONJUNCT_CLAUSE ( ) 
+ ````CONJUNCT ( ) 
+ ````CONJUNCT_SENTENCE ( ) 
+ ````CONJUNCT_NOUN ( ) 
+ ````CONJUNCT_VERB ( ) 
+ ````CONJUNCT_ADJECTIVE ( ) 
+ ````CONJUNCT_ADVERB ( ) 
+ ````CONJUNCT_PHRASE ( ) 
+ ````CONJUNCT_KINDS ( ) 
+ ````SENTENCE_END ( ) 
+ ````SENTENCE ( ) 
+ ````WHENUNIT ( ) 
+ ````WHEREUNIT ( ) 
+ ````WHYUNIT ( ) 
+ ````HOWUNIT ( ) 
+ ````ADVERBIALTYPE ( ) 
+ ````REFLEXIVE ( ) 
+ ````COMMA_PHRASE ( ) 
+ ````COMMA ( ) 
+ ````BYOBJECT2 ( ) 
+ ````OFOBJECT2 ( ) 
+ ````POSTNOMINAL_ADJECTIVE ( ) 
+ ````POSTNOMINAL ( ) 
+ ````APPOSITIVE ( ) 
+ ````ADJECTIVE_COMPLEMENT ( ) 
+ ````ADJECTIVE ( ) 
+ ````ABSOLUTE_PHRASE ( ) 
+ ````ABSOLUTE ( ) 
+ ````SUBJECT_COMPLEMENT ( ) 
+ ````SUBJECT ( ) 
+ ````OMITTED_OF_PREP ( ) 
+ ````OMITTED ( ) 
+ ````OMITTED_TIME_PREP ( ) 
+ ````ADVERBIAL ( ) 
+ ````ADJECTIVAL ( ) 
+ ````ADDRESS ( ) 
+ ````TAGQUESTION ( ) 
+ ````DISTANCE_NOUN_MODIFY_ADVERB ( ) 
+ ````DISTANCE ( ) 
+ ````TIME_NOUN_MODIFY_ADVERB ( ) 
+ ````TIME ( ) 
+ ````TIME_NOUN_MODIFY_ADJECTIVE ( ) 
+ ````DISTANCE_NOUN_MODIFY_ADJECTIVE ( ) 
+ ````TOPIC_KEEP ( ) 
+ ````TOPIC_REPEAT ( ) 
+ ````TOPIC_RANDOM ( ) 
+ ````TOPIC_SYSTEM ( ) 
+ ````TOPIC_NOSTAY ( ) 
+ ````TOPIC_PRIORITY ( ) 
+ ````TOPIC_LOWPRIORITY ( ) 
+ ````TOPIC_NOBLOCKING ( ) 
+ ````TOPIC ( ) 
+ ````TOPIC_NOKEYS ( ) 
+ ````TOPIC_NOPATTERNS ( ) 
+ ````TOPIC_NOSAMPLES ( ) 
+ ````TOPIC_NOGAMBITS ( ) 
+ ````TOPIC_SAFE ( ) 
+ ````TOPIC_SHARE ( ) 
+ ````TOPIC_RANDOM_GAMBIT ( ) 
+ ````TOPIC_GAMBITTED ( ) 
+ ````TOPIC_RESPONDED ( ) 
+ ````TOPIC_REJOINDERED ( ) 
+ ````ACCESS_FLAGS ( ) 
+ ````ACCESS ( ) 
+ ````TOPIC_BLOCKED ( ) 
+ ````TOPIC_USED ( ) 
+ ````TRANSIENT_FLAGS ( ) 
+ ````TRANSIENT ( ) 
+ ````TRACE_ON ( ) 
+ ````TRACE_MATCH ( ) 
+ ````TRACE_VARIABLE ( ) 
+ ````TRACE_PREPARE ( ) 
+ ````TRACE_OUTPUT ( ) 
+ ````TRACE_PATTERN ( ) 
+ ````TRACE_HIERARCHY ( ) 
+ ````TRACE_INFER ( ) 
+ ````TRACE ( ) 
+ ````TRACE_SUBSTITUTE ( ) 
+ ````TRACE_FACT ( ) 
+ ````TRACE_VARIABLESET ( ) 
+ ````TRACE_USERFN ( ) 
+ ````TRACE_USER ( ) 
+ ````TRACE_POS ( ) 
+ ````TRACE_QUERY ( ) 
+ ````TRACE_TCP ( ) 
+ ````TRACE_USERCACHE ( ) 
+ ````TRACE_SQL ( ) 
+ ````TRACE_LABEL ( ) 
+ ````TRACE_SAMPLE ( ) 
+ ````TRACE_INPUT ( ) 
+ ````TRACE_SPELLING ( ) 
+ ````TRACE_TOPIC ( ) 
+ ````TRACE_SCRIPT ( ) 
+ ````TRACE_JSON ( ) 
+ ````TRACE_NOT_THIS_TOPIC ( ) 
+ ````TRACE_FLOW ( ) 
+ ````TRACE_COVERAGE ( ) 
+ ````TRACE_ALWAYS ( ) 
+ ````TRACE_ECHO ( ) 
+ ````TRACE_USERFACT ( ) 
+ ````TIME_ON ( ) 
+ ````TIME_PREPARE ( ) 
+ ````TIME_PATTERN ( ) 
+ ````TIME_USERFN ( ) 
+ ````TIME_USER ( ) 
+ ````TIME_QUERY ( ) 
+ ````TIME_TCP ( ) 
+ ````TIME_USERCACHE ( ) 
+ ````TIME_SQL ( ) 
+ ````TIME_TOPIC ( ) 
+ ````TIME_JSON ( ) 
+ ````TIME_NOT_THIS_TOPIC ( ) 
+ ````TIME_FLOW ( ) 
+ ````TIME_ALWAYS ( ) 
+ ````DISCARD ( ) 
+ ````KEEP ( ) 
+ ````ONE_REJOINDER ( ) 
+ ````ONE ( ) 
+ ````HAS ( ) 
+ ````IS ( ) 
+ ````INCLUDE ( ) 
+ ````CANONLYBE ( ) 
+ ````HASORIGINAL ( ) 
+ ````PRIORPOS ( ) 
+ ````POSTPOS ( ) 
+ ````PASSIVEVERB ( ) 
+ ````HASPROPERTY ( ) 
+ ````HASALLPROPERTIES ( ) 
+ ````HASCANONICALPROPERTY ( ) 
+ ````NOTPOSSIBLEVERBPARTICLEPAIR ( ) 
+ ````PARSEMARK ( ) 
+ ````ISORIGINAL ( ) 
+ ````ISCANONICAL ( ) 
+ ````PRIORCANONICAL ( ) 
+ ````ISMEMBER ( ) 
+ ````PRIORORIGINAL ( ) 
+ ````POSTORIGINAL ( ) 
+ ````POSITION ( ) 
+ ````START ( ) 
+ ````END ( ) 
+ ````RESETLOCATION ( ) 
+ ````HAS2VERBS ( ) 
+ ````ISQWORD ( ) 
+ ````ISQUESTION ( ) 
+ ````ISABSTRACT ( ) 
+ ````POSSIBLEINFINITIVE ( ) 
+ ````POSSIBLEADJECTIVE ( ) 
+ ````POSSIBLETOLESSVERB ( ) 
+ ````POSSIBLEADJECTIVEPARTICIPLE ( ) 
+ ````HOWSTART ( ) 
+ ````POSSIBLEPHRASAL ( ) 
+ ````POSSIBLEPARTICLE ( ) 
+ ````ISCOMPARATIVE ( ) 
+ ````ISEXCLAIM ( ) 
+ ````ISORIGINALMEMBER ( ) 
+ ````ISSUPERLATIVE ( ) 
+ ````SINGULAR ( ) 
+ ````ISPROBABLE ( ) 
+ ````PLURAL ( ) 
+ ````LASTCONTROL ( ) 
+ ````SKIP ( ) 
+ ````STAY ( ) 
+ ````NOTCONTROL ( ) 
+ ````DO_ESSENTIALS ( ) 
+ ````DO_SUBSTITUTES ( ) 
+ ````DO_CONTRACTIONS ( ) 
+ ````DO_INTERJECTIONS ( ) 
+ ````DO_BRITISH ( ) 
+ ````DO_SPELLING ( ) 
+ ````DO_TEXTING ( ) 
+ ````DO_NOISE ( ) 
+ ````DO ( ) 
+ ````DO_PRIVATE ( ) 
+ ````DO_NUMBER_MERGE ( ) 
+ ````DO_PROPERNAME_MERGE ( ) 
+ ````DO_SPELLCHECK ( ) 
+ ````DO_INTERJECTION_SPLITTING ( ) 
+ ````DO_POSTAG ( ) 
+ ````DO_PARSE ( ) 
+ ````NO_IMPERATIVE ( ) 
+ ````NO_WITHIN ( ) 
+ ````NO ( ) 
+ ````DO_DATE_MERGE ( ) 
+ ````NO_SENTENCE_END ( ) 
+ ````NO_INFER_QUESTION ( ) 
+ ````DO_SUBSTITUTE_SYSTEM ( ) 
+ ````PRESENT ( ) 
+ ````PAST ( ) 
+ ````FUTURE ( ) 
+ ````PRESENT_PERFECT ( ) 
+ ````CONTINUOUS ( ) 
+ ````PERFECT ( ) 
+ ````PASSIVE ( ) 
+ ````NO_HYPHEN_END ( ) 
+ ````NO_COLON_END ( ) 
+ ````NO_SEMICOLON_END ( ) 
+ ````STRICT_CASING ( ) 
+ ````STRICT ( ) 
+ ````ONLY_LOWERCASE ( ) 
+ ````ONLY ( ) 
+ ````TOKEN_AS_IS ( ) 
+ ````TOKEN ( ) 
+ ````SPLIT_QUOTE ( ) 
+ ````SPLIT ( ) 
+ ````LEAVE_QUOTE ( ) 
+ ````LEAVE ( ) 
+ ````UNTOUCHED_INPUT ( ) 
+ ````UNTOUCHED ( ) 
+ ````QUESTIONMARK ( ) 
+ ````EXCLAMATIONMARK ( ) 
+ ````PERIODMARK ( ) 
+ ````USERINPUT ( ) 
+ ````COMMANDMARK ( ) 
+ ````IMPLIED_YOU ( ) 
+ ````IMPLIED ( ) 
+ ````FOREIGN_TOKENS ( ) 
+ ````FOREIGN ( ) 
+ ````FAULTY_PARSE ( ) 
+ ````FAULTY ( ) 
+ ````QUOTATION ( ) 
+ ````NOT_SENTENCE ( ) 
+ ````NOT ( ) 
+ ````NO_PROPER_SPELLCHECK ( ) 
+ ````NO_LOWERCASE_PROPER_MERGE ( ) 
+ ````DO_SPLIT_UNDERSCORE ( ) 
+ ````MARK_LOWER ( ) 
+ ````NO_FIX_UTF ( ) 
+ ````NO_CONDITIONAL_IDIOM ( ) 
+ ````JSON_DIRECT_FROM_OOB ( ) 
+ ````SENTENCE_TOKENFLAGS ( ) 
+ ````OUTPUT_ONCE ( ) 
+ ````OUTPUT_KEEPSET ( ) 
+ ````OUTPUT_KEEPVAR ( ) 
+ ````OUTPUT_KEEPQUERYSET ( ) 
+ ````OUTPUT_SILENT ( ) 
+ ````OUTPUT_NOCOMMANUMBER ( ) 
+ ````OUTPUT_NOTREALBUFFER ( ) 
+ ````OUTPUT_ISOLATED_PERIOD ( ) 
+ ````OUTPUT ( ) 
+ ````OUTPUT_NOQUOTES ( ) 
+ ````OUTPUT_LOOP ( ) 
+ ````OUTPUT_UNTOUCHEDSTRING ( ) 
+ ````OUTPUT_FACTREAD ( ) 
+ ````OUTPUT_EVALCODE ( ) 
+ ````OUTPUT_DQUOTE_FLIP ( ) 
+ ````OUTPUT_ECHO ( ) 
+ ````OUTPUT_STRING_EVALED ( ) 
+ ````OUTPUT_NOUNDERSCORE ( ) 
+ ````OUTPUT_FNDEFINITION ( ) 
+ ````OUTPUT_RAW ( ) 
+ ````OUTPUT_RETURNVALUE_ONLY ( ) 
+ ````OUTPUT_FULLFLOAT ( ) 
+ ````RESPONSE_UPPERSTART ( ) 
+ ````RESPONSE_REMOVESPACEBEFORECOMMA ( ) 
+ ````RESPONSE ( ) 
+ ````RESPONSE_ALTERUNDERSCORES ( ) 
+ ````RESPONSE_REMOVETILDE ( ) 
+ ````RESPONSE_NOCONVERTSPECIAL ( ) 
+ ````ALL_RESPONSES ( ) 
+ ````ALL ( ) 
+ ````ASSIGNMENT ( ) 
+ _ACRNM ( ) 
+ _ADJ ( ADJECTIVE ) 
+ _ADV ( ADVERB ) 
+ _ALFS ( ) 
+ _ART ( DETERMINER ) 
+ _BACKSLASH ( ) 
+ _CARD ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ _CC ( CONJUNCTION_COORDINATE ) 
+ _CCAD ( CONJUNCTION_COORDINATE ) 
+ _CCNEG ( CONJUNCTION_COORDINATE ) 
+ _CM ( ) 
+ _CODE ( ) 
+ _COLON ( ) 
+ _CQUE ( ) 
+ _CSUBF ( CONJUNCTION_SUBORDINATE ) 
+ _CSUBI ( CONJUNCTION_SUBORDINATE ) 
+ _CSUBX ( CONJUNCTION_SUBORDINATE ) 
+ _DASH ( ) 
+ _DM ( PRONOUN_SUBJECT PRONOUN_OBJECT ) 
+ _DOTS ( ) 
+ _FS ( ) 
+ _INT ( ) 
+ _ITJN ( ) 
+ _LP ( ) 
+ _NC ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ _NEG ( ) 
+ _NMEA ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ _NMON ( NOUN NOUN_SINGULAR ) 
+ _NP ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ _ORD ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ _PAL ( ) 
+ _PDEL ( ) 
+ _PE ( ) 
+ _PERCT ( ) 
+ _PPC ( PRONOUN_SUBJECT PRONOUN_OBJECT ) 
+ _PPO ( PRONOUN_SUBJECT PRONOUN_OBJECT ) 
+ _PPX ( PRONOUN_SUBJECT PRONOUN_OBJECT ) 
+ _PREP ( PREPOSITION ) 
+ _PREP/DEL ( PREPOSITION ) 
+ _QT ( ) 
+ _QU ( ) 
+ _REL ( PRONOUN_SUBJECT PRONOUN_OBJECT ) 
+ _RP ( ) 
+ _SE ( ) 
+ _SEMICOLON ( ) 
+ _SLASH ( ) 
+ _SYM ( ) 
+ _UMMX ( NOUN NOUN_SINGULAR ) 
+ _VCLIger ( NOUN NOUN_GERUND ) 
+ _VCLIinf ( VERB_INFINITIVE VERB ) 
+ _VEadj ( VERB_PAST_PARTICIPLE VERB ) 
+ _VEfin ( VERB ) 
+ _VEger ( NOUN NOUN_GERUND ) 
+ _VEinf ( VERB_INFINITIVE VERB ) 
+ _VHadj ( VERB_PAST_PARTICIPLE VERB ) 
+ _VHfin ( VERB ) 
+ _VHger ( NOUN NOUN_GERUND ) 
+ _VHinf ( VERB ) 
+ _VLadj ( VERB_PAST_PARTICIPLE VERB ) 
+ _VLfin ( VERB ) 
+ _VLger ( NOUN NOUN_GERUND ) 
+ _VLinf ( VERB ) 
+ _VMadj ( VERB_PAST_PARTICIPLE VERB ) 
+ _VMfin ( VERB ) 
+ _VMger ( NOUN NOUN_GERUND ) 
+ _VMinf ( VERB ) 
+ _VSadj ( VERB_PAST_PARTICIPLE VERB ) 
+ _VSfin ( VERB ) 
+ _VSger ( NOUN NOUN_GERUND ) 
+ _VSinf ( VERB ) 
+ ! ( ) 
+ " ( ) 
+ # ( ) 
+ $ ( ) 
+ % ( ) 
+ & ( ) 
+ ' ( ) 
+ ( ( ) 
+ ) ( ) 
+ * ( ) 
+ ** ( ) 
+ **** ( ) 
+ + ( ) 
+ +10 ( ) 
+ +15 ( ) 
+ +2 ( ) 
+ +3 ( ) 
+ +5 ( ) 
+ +8 ( ) 
+ , ( ) 
+ - ( ) 
+ -- ( ) 
+ . ( ) 
+ .. ( ) lemma=. 
+ ... ( ) lemma=. 
+ .... ( ) lemma=. 
+ / ( ) 
+ : ( ) 
+ ; ( ) 
+ < ( ) 
+ = ( ) 
+ > ( ) 
+ ? ( ) 
+ ???? ( ) lemma=? 
+ @ ( ) 
+ [ ( ) plural=] 
  \ ( ) 
- ] ( ) 
- ^ ( ) 
- ` (` ( ) 
+ ] ( ) plural=[ 
+ ^` ( ) lemma=^ 
+ ` ( ) 
  { ( ) 
  | ( ) 
  } ( ) 
- ¡ ( ) 
+ ¡ ( ) lemma=! 
  £ ( ) 
- § ( ) 
+ § ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  « ( ) 
- ­ ( ) 
+ ­ ( ) lemma=- 
  ° ( ) 
- ºc ( ) 
+ ºc ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  » ( ) 
- ¿ ( ) 
+ ¿ ( ) lemma=? 
  Á ( ) 
- África ( ) 
- Ámbito ( ) 
- Árabe ( ) 
- Ártico ( ) 
+ África ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Ámbito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ámbito 
+ Árabe ( ADJECTIVE ) lemma=árabe 
+ Ártico ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
  Ä ( ) 
  É ( ) 
- Écija ( ) 
- Él ( ) 
- Ésta ( ) 
- Éstas ( ) 
- Éste ( ) 
- Éstos ( ) 
+ Écija ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Él ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=él 
+ Ésta ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ Éstas ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ Éste ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ Éstos ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
  Ë ( ) 
  Í ( ) 
- ÍNDICE ( ) 
- Ícaro ( ) 
- Índice ( ) 
- Índico ( ) 
+ ÍNDICE ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=índice 
+ Ícaro ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Índice ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=índice 
+ Índico ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
  Ï ( ) 
- Ñ ( ) 
- Ó ( ) 
- ÓRGANOS ( ) 
- Órgano ( ) 
+ Ñ ( ) lemma=ñ 
+ Ó ( CONJUNCTION_COORDINATE ) lemma=o 
+ ÓRGANOS ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=órgano 
+ Órgano ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=órgano 
  Ö ( ) 
  Ú ( ) 
- Última ( ) 
- Únicamente ( ) 
+ Última ( ADJECTIVE ) lemma=último 
+ Únicamente ( ADVERB ) lemma=únicamente 
  Ü ( ) 
  Ý ( ) 
- á ( ) lemma=página 
- ábacos ( ) 
- ábrelo ( ) 
- ábside ( ) 
- ácaro ( ) 
- ácaros ( ) 
- ácida ( ) 
- ácidas ( ) 
- ácido ( ) 
- ácido-base ( ) 
- ácidos ( ) 
- ágape ( ) 
- ágata ( ) 
- ágil ( ) 
- ágiles ( ) 
- ágilmente ( ) 
- águila ( ) 
- águilas ( ) 
- álamo ( ) 
- álamos ( ) 
- álbum ( ) 
- álbumes ( ) 
- álcalis ( ) 
- álgebras ( ) 
- álgida ( ) 
- álgido ( ) 
- álgidos ( ) 
- ámbar ( ) 
- ámbito ( ) 
- ámbitos ( ) 
- ándale ( ) 
- ángel ( ) 
- ángeles ( ) 
- ángulo ( ) 
- ángulos ( ) 
- ánimo ( ) 
- ánimos ( ) 
- ánodo ( ) 
- ápice ( ) lemma=lápiz 
- árabe ( ) 
- árabes ( ) 
- árbitro ( ) 
- árbitros ( ) 
- árbol ( ) 
- árboles ( ) 
- área ( ) 
- áreas ( ) 
- árida ( ) 
- áridas ( ) 
- árido ( ) 
- áridos ( ) 
- ármate ( ) 
- áspera ( ) 
- ásperas ( ) 
- áspero ( ) 
- ásperos ( ) 
- átomo ( ) 
- átomos ( ) 
- ávida ( ) 
- ávidamente ( ) 
- ávidas ( ) 
- ávido ( ) 
- ávidos ( ) 
+ á ( ) 
+ ábacos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ábaco 
+ ábrelo ( ) lemma=abrir 
+ ábside ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ácaro ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ácaros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ácaro 
+ ácida ( ADJECTIVE ) lemma=ácido 
+ ácidas ( ADJECTIVE ) lemma=ácido 
+ ácido ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ ácido-base ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ácidos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=ácido 
+ ágape ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ágata ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ágil ( ADJECTIVE ) 
+ ágiles ( ADJECTIVE ) lemma=ágil 
+ ágilmente ( ADVERB ) lemma=ágil 
+ águila ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ águilas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=águila 
+ álamo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ álamos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=álamo 
+ álbum ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ álbumes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=álbum 
+ álcalis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=álcali 
+ álgebras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=álgebra 
+ álgida ( ADJECTIVE ) lemma=álgido 
+ álgido ( ADJECTIVE ) 
+ álgidos ( ADJECTIVE ) lemma=álgido 
+ ámbar ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ámbito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ámbitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ámbito 
+ ándale ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=ándele 
+ ángel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ángeles ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=ángel 
+ ángulo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ángulos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ángulo 
+ ánimo ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ ánimos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ánimo 
+ ánodo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ápice ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ árabe ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ árabes ( ADJECTIVE ) lemma=árabe 
+ árbitro ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ árbitros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=árbitro 
+ árbol ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ árboles ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=árbol 
+ área ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ áreas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=área 
+ árida ( ADJECTIVE ) lemma=árido 
+ áridas ( ADJECTIVE ) lemma=árido 
+ árido ( ADJECTIVE ) 
+ áridos ( ADJECTIVE ) lemma=árido 
+ ármate ( ) lemma=armar 
+ áspera ( ADJECTIVE ) lemma=áspero 
+ ásperas ( ADJECTIVE ) lemma=áspero 
+ áspero ( ADJECTIVE ) 
+ ásperos ( ADJECTIVE ) lemma=áspero 
+ átomo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ átomos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=átomo 
+ ávida ( ADJECTIVE ) lemma=ávido 
+ ávidamente ( ADVERB ) 
+ ávidas ( ADJECTIVE ) lemma=ávido 
+ ávido ( ADJECTIVE ) 
+ ávidos ( ADJECTIVE ) lemma=ávido 
  ä ( ) 
  é ( ) 
- échale ( ) 
- échame ( ) 
+ échale ( ) lemma=echar 
+ échame ( ) lemma=echar 
  échange ( ) 
  échappement ( ) 
  échec ( ) 
- échennos ( ) 
+ échennos ( VERB ) lemma=echar 
  écoute ( ) 
  écouteur ( ) 
  écriture ( ) 
- él ( ) lemma=dar 
+ él ( PRONOUN_SUBJECT PRONOUN_OBJECT ) 
  électrique ( ) 
  électroacoustique ( ) 
- élite ( ) 
- élites ( ) 
+ élite ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ élites ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=élite 
  élément ( ) 
  élémentaire ( ) 
  éléments ( ) 
- émbolos ( ) 
+ émbolos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=émbolo 
  émetteur ( ) 
  émission ( ) 
- émulo ( ) 
- émulos ( ) 
- énfasis ( ) 
- épica ( ) 
- épico ( ) 
- épicos ( ) 
- época ( ) 
- épocas ( ) 
+ émulo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ émulos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=émulo 
+ énfasis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ épica ( ADJECTIVE ) lemma=épico 
+ épico ( ADJECTIVE ) 
+ épicos ( ADJECTIVE ) lemma=épico 
+ época ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ épocas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=época 
  équilibrage ( ) 
  équipement ( ) 
  équivalent ( ) 
  équivalente ( ) 
  équivalents ( ) 
- éramos ( ) 
- ésa ( ) lemma=César 
- ésas ( ) 
- ése ( ) 
- ésima ( ) lemma=pésimo 
- ésimo ( ) lemma=pésimo 
- ésos ( ) 
- ésta ( ) 
- éstas ( ) 
- éste ( ) 
- éster ( ) 
- ésteres ( ) 
- ésto ( ) 
- éstos ( ) 
+ éramos ( VERB ) lemma=ser 
+ ésa ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=ese 
+ ésas ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=ese 
+ ése ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=ese 
+ ésima ( ADJECTIVE_NUMBER NOUN_NUMBER ) lemma=ésimo 
+ ésimo ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ ésos ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=ese 
+ ésta ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ éstas ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ éste ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ éster ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ésteres ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=éster 
+ ésto ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ éstos ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
  établie ( ) 
  établissement ( ) 
  étage ( ) 
  état ( ) 
- éter ( ) 
- éteres ( ) 
- ética ( ) 
- éticamente ( ) 
- éticas ( ) 
- ético ( ) 
- éticos ( ) 
- étnica ( ) 
- étnicamente ( ) 
- étnicas ( ) 
- étnico ( ) 
- étnicos ( ) 
- éxito ( ) 
- éxitos ( ) 
- éxodo ( ) 
- éxodos ( ) 
- éxtasis ( ) 
+ éter ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ éteres ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=éter 
+ ética ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=ético 
+ éticamente ( ADVERB ) lemma=ético 
+ éticas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=ético 
+ ético ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ éticos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=ético 
+ étnica ( ADJECTIVE ) lemma=étnico 
+ étnicamente ( ADVERB ) lemma=étnico 
+ étnicas ( ADJECTIVE ) lemma=étnico 
+ étnico ( ADJECTIVE ) 
+ étnicos ( ADJECTIVE ) lemma=étnico 
+ éxito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ éxitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=éxito 
+ éxodo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ éxodos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=éxodo 
+ éxtasis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  ë ( ) 
- í ( ) lemma=vía 
- ía ( ) lemma=vía 
- íbamos ( ) 
- íctero ( ) 
- ídem ( ) 
- ídolo ( ) 
- ídolos ( ) 
- ígneas ( ) 
- íleo ( ) 
- íleon ( ) 
- ímpetu ( ) 
- ímpetus ( ) 
- índice ( ) 
- índices ( ) 
- índole ( ) 
- índoles ( ) 
- ínfima ( ) 
- ínfimas ( ) 
- ínfimo ( ) 
- ínfimos ( ) 
- íntegra ( ) 
- íntegramente ( ) 
- íntegras ( ) 
- íntegro ( ) 
- íntegros ( ) 
- íntima ( ) 
- íntimamente ( ) 
- íntimas ( ) 
- íntimo ( ) 
- íntimos ( ) 
- írsela ( ) 
- ítem ( ) 
- ítems ( ) 
+ í ( ) 
+ ía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ íbamos ( VERB ) lemma=ir 
+ íctero ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ídem ( ADVERB ) 
+ ídolo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ídolos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ídolo 
+ ígneas ( ADJECTIVE ) lemma=ígneo 
+ íleo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ íleon ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ímpetu ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ímpetus ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ímpetu 
+ índice ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ índices ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=índice 
+ índole ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ índoles ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=índole 
+ ínfima ( ADJECTIVE ) lemma=bajo 
+ ínfimas ( ADJECTIVE ) lemma=bajo 
+ ínfimo ( ADJECTIVE ) lemma=bajo 
+ ínfimos ( ADJECTIVE ) lemma=bajo 
+ íntegra ( ADJECTIVE ) lemma=íntegro 
+ íntegramente ( ADVERB ) lemma=íntegro 
+ íntegras ( ADJECTIVE ) lemma=íntegro 
+ íntegro ( ADJECTIVE ) 
+ íntegros ( ADJECTIVE ) lemma=íntegro 
+ íntima ( ADJECTIVE ) lemma=íntimo 
+ íntimamente ( ADVERB ) lemma=íntimo 
+ íntimas ( ADJECTIVE ) lemma=íntimo 
+ íntimo ( ADJECTIVE ) 
+ íntimos ( ADJECTIVE ) lemma=íntimo 
+ írsela ( VERB ) lemma=ir 
+ ítem ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ítems ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ítem 
  ï ( ) 
- ñ ( ) lemma=uña 
- ñato ( ) 
- ó ( ) 
- óbito ( ) 
- óiganme ( ) 
- óleo ( ) 
- óleos ( ) 
- ómnibus ( ) 
- ópera ( ) 
- óperas ( ) 
- óptica ( ) 
- ópticamente ( ) 
- ópticas ( ) 
- óptico ( ) 
- ópticos ( ) 
- óptima ( ) 
- óptimamente ( ) 
- óptimas ( ) 
- óptimo ( ) 
- óptimos ( ) 
- órale ( ) 
- órbita ( ) 
- órbitas ( ) 
- órdenes ( ) 
- órgano ( ) 
- órganos ( ) 
- ósale ( ) 
- ósea ( ) 
- óseas ( ) 
- óseo ( ) 
- óseos ( ) 
- ósmosis ( ) 
- óvalo ( ) 
- óvulo ( ) 
- óvulos ( ) 
- óxido ( ) 
- óxidos ( ) 
- óyeme ( ) 
+ ñ ( ) 
+ ñato ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ ó ( CONJUNCTION_COORDINATE ) lemma=o 
+ óbito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ óiganme ( VERB ) lemma=oír 
+ óleo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ óleos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=óleo 
+ ómnibus ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ópera ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ óperas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ópera 
+ óptica ( ADJECTIVE ) lemma=óptico 
+ ópticamente ( ADVERB ) 
+ ópticas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=óptica 
+ óptico ( ADJECTIVE ) 
+ ópticos ( ADJECTIVE ) lemma=óptico 
+ óptima ( ADJECTIVE ) lemma=óptimo 
+ óptimamente ( ADVERB ) lemma=óptimo 
+ óptimas ( ADJECTIVE ) lemma=óptimo 
+ óptimo ( ADJECTIVE ) 
+ óptimos ( ADJECTIVE ) lemma=óptimo 
+ órale ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ órbita ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ órbitas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=órbita 
+ órdenes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=orden 
+ órgano ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ órganos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=órgano 
+ ósale ( ) lemma=osar 
+ ósea ( ADJECTIVE ) lemma=óseo 
+ óseas ( ADJECTIVE ) lemma=óseo 
+ óseo ( ADJECTIVE ) 
+ óseos ( VERB ADJECTIVE ) lemma=óseo 
+ ósmosis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ óvalo ( ) lemma=ovar 
+ óvulo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ óvulos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=óvulo 
+ óxido ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ óxidos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=óxido 
+ óyeme ( VERB ) lemma=oír 
  ö ( ) 
- ú ( ) lemma=dúo 
- újule ( ) 
- úlcera ( ) 
- úlceras ( ) 
- última ( ) 
- últimamente ( ) 
- últimas ( ) 
- último ( ) 
- últimos ( ) 
- únanse ( ) 
- única ( ) lemma=túnica 
- únicamente ( ) 
- únicas ( ) 
- único ( ) 
- únicos ( ) 
- úrico ( ) 
- útero ( ) 
- úteros ( ) 
- útil ( ) 
- útiles ( ) 
- útilmente ( ) 
- úvula ( ) 
+ ú ( ) 
+ újule ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ úlcera ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ úlceras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=úlcera 
+ última ( ADJECTIVE ) lemma=último 
+ últimamente ( ADVERB ) lemma=último 
+ últimas ( ADJECTIVE ) lemma=último 
+ último ( ADJECTIVE ) 
+ últimos ( ADJECTIVE ) lemma=último 
+ únanse ( VERB ) lemma=unir 
+ única ( ADJECTIVE ) lemma=único 
+ únicamente ( ADVERB ) lemma=único 
+ únicas ( ADJECTIVE ) lemma=único 
+ único ( ADJECTIVE ) 
+ únicos ( ADJECTIVE ) lemma=único 
+ úrico ( ADJECTIVE ) 
+ útero ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ úteros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=útero 
+ útil ( ADJECTIVE ) 
+ útiles ( ADJECTIVE ) lemma=útil 
+ útilmente ( ADVERB ) lemma=útil 
+ úvula ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  ü ( ) 
  ý ( ) 
  ÿ ( ) 
- — ( ) 
+ — ( ) lemma=-- 
  “ ( ) 
- ” ( ) 
- … ( ) 
-  ( ( ) lemma= _QT  
-  _QT  ( ) 
- /Q. ( ) lemma=2/Q.9 
- /R2 ( ) lemma=1/R20 
- /S. ( ) lemma=3/S.2 
- /SC ( ) lemma=1/SC2 
- /T. ( ) lemma=9/T.4 
- /U. ( ) lemma=b/U.1 
- ,2 ( ) lemma=7,2I 
- .e ( ) lemma=p.ej 
- ?? ( ) lemma=? 
- -1 ( ) lemma=I-11 
- -2 ( ) lemma=A-22 
- .1 ( ) lemma=p.19 
- .2 ( ) lemma=p.29 
- .T.M.E ( ) lemma=A.T.M.E 
- .U.P ( ) lemma=A.U.P. 
-  Barbuda_(Antigua~y~Barbuda ( ) 
- � ( ) lemma=u£ 
- .3 ( ) lemma=p.39 
- .4 ( ) lemma=p.49 
- .5 ( ) lemma=p.58 
- écque ( ) lemma=Bécquer 
- élgic ( ) lemma=Bélgica 
-  (conforme~a ( ) 
- 'Ivoire_(Cote~d'Ivoire ( ) 
- ácere ( ) lemma=Cáceres 
- ádi ( ) lemma=Cádiz 
- árdena ( ) lemma=Cárdenas 
- órceg ( ) lemma=Córcega 
- órdob ( ) lemma=Córdoba 
- úcut ( ) lemma=Cúcuta 
- .39 ( ) lemma=T.390 
- .6 ( ) lemma=p.63 
-  (debido~a ( ) 
- ámas ( ) lemma=Dámaso 
- ávil ( ) lemma=Dávila 
- .11 ( ) lemma=p.119 
- .12 ( ) lemma=p.120 
- .16 ( ) lemma=Q.164 
- .17 ( ) lemma=E.172 
- .21 ( ) lemma=X.219 
- .26 ( ) lemma=Q.261 
- .52 ( ) lemma=T.523 
- �rabes_Unidos_(Emiratos~Árabes~Unidos ( ) 
- .13 ( ) lemma=Q.139 
- .20 ( ) lemma=X.208 
- .30 ( ) lemma=X.300 
- .40 ( ) lemma=X.408 
- .42 ( ) lemma=X.420 
- .7 ( ) lemma=X.75 
- .73 ( ) lemma=G.733 
- éli ( ) lemma=véliz 
- .10 ( ) lemma=p.109 
- .14 ( ) lemma=U.140 
- .15 ( ) lemma=p.155 
- .22 ( ) lemma=X.227 
- .23 ( ) lemma=Q.232 
- .36 ( ) lemma=G.361 
- .70 ( ) lemma=Q.707 
- .71 ( ) lemma=Q.714 
- .72 ( ) lemma=Q.724 
-  (gracias~a ( ) 
- ÉNTE ( ) lemma=GÉNTEX 
- álib ( ) lemma=Gálibo 
- álve ( ) lemma=Gálvez 
- émini ( ) lemma=Géminis 
- énesi ( ) lemma=génesis 
- énov ( ) lemma=Génova 
- óme ( ) lemma=Gómez 
- écto ( ) lemma=Héctor 
- úngar ( ) lemma=húngaro 
- .24 ( ) lemma=I.241 
- .25 ( ) lemma=Q.258 
- .32 ( ) lemma=Q.324 
- .33 ( ) lemma=T.330 
- .41 ( ) lemma=X.419 
- .43 ( ) lemma=T.433 
- .44 ( ) lemma=U.44 
- .45 ( ) lemma=Q.454 
- írgenes_(Islas~Vírgenes ( ) 
- águe ( ) lemma=Jáguer 
- úpite ( ) lemma=Júpiter 
- égende ( ) lemma=Légendes 
- érid ( ) lemma=Mérida 
- íban ( ) lemma=Líbano 
- ópe ( ) lemma=López 
- -L ( ) lemma=M-L7 
- .80 ( ) lemma=M.800 
- .81 ( ) lemma=M.810 
- ÍNIMA ( ) lemma=pequeño 
- álag ( ) lemma=Málaga 
- árque ( ) lemma=Márquez 
- éjic ( ) lemma=Méjico 
- élid ( ) lemma=gélido 
- énde ( ) lemma=Méndez 
- éxic ( ) lemma=léxico 
- ónac ( ) lemma=Mónaco 
- ónic ( ) lemma=tónico 
- /2- ( ) lemma=N/2-1 
- ápole ( ) lemma=Nápoles 
- íge ( ) lemma=Níger 
- úñe ( ) lemma=Núñez 
- .8 ( ) lemma=X.87 
-  (pese~a ( ) 
- �ltimo_(por~último ( ) 
- ére ( ) lemma=aéreo 
- .18 ( ) lemma=Q.180 
- .27 ( ) lemma=Q.271 
- .29 ( ) lemma=Q.295 
- .31 ( ) lemma=Q.316 
- .38 ( ) lemma=Q.388 
- .421-Q.42 ( ) lemma=Q.421-Q.424 
- .50 ( ) lemma=X.500 
- .76 ( ) lemma=Q.763 
- .77 ( ) lemma=Q.774 
- .92 ( ) lemma=Q.921 
- .93 ( ) lemma=Q.932 
- .94 ( ) lemma=Q.940 
- .9 ( ) lemma=X.96 
- óbe ( ) lemma=Roberto 
- ánche ( ) lemma=Sánchez 
- ócrate ( ) lemma=Sócrates 
- .35 ( ) lemma=T.351 
- .54 ( ) lemma=T.541 
- .56 ( ) lemma=T.564 
- .61 ( ) lemma=T.61 
- úne ( ) lemma=túnel 
- ásque ( ) lemma=Vásquez 
- ázque ( ) lemma=Vázquez 
- éle ( ) lemma=télex 
- ícto ( ) lemma=Víctor 
- írgene ( ) lemma=virgen 
- -fetoproteín ( ) lemma=a-fetoproteína 
- -manosidas ( ) lemma=a-manosidasa 
+ ” ( ) lemma=" 
+ … ( ) lemma=. 
+ ^ ( ) 
  àulico ( ) 
- érea ( ) lemma=aéreo 
- éreo ( ) lemma=céreo 
- ísl ( ) lemma=aislar 
- ísla ( ) lemma=aislar 
- ñad ( ) lemma=añadir 
- ñadamo ( ) lemma=añadir 
- ñada ( ) lemma=añadir 
- ñade ( ) lemma=añadir 
- ñadid ( ) lemma=añadir 
- ñadida ( ) lemma=añadir 
- ñadido ( ) lemma=añadir 
- ñadidur ( ) lemma=añadidura 
- ñadidura ( ) lemma=añadidura 
- ñadiend ( ) lemma=añadir 
- ñadier ( ) lemma=añadir 
- ñadiero ( ) lemma=añadir 
- ñadies ( ) lemma=añadir 
- ñadimo ( ) lemma=añadir 
- ñadi ( ) lemma=añadir 
- ñadiremo ( ) lemma=añadir 
- ñadirs ( ) lemma=añadirse 
- ñadir� ( ) lemma=añadir 
- ñadirá ( ) lemma=añadir 
- ñadirí ( ) lemma=añadir 
- ñadiríamo ( ) lemma=añadir 
- ñadiría ( ) lemma=añadir 
- ñadiéndol ( ) lemma=añadiéndole 
- ñadiéndos ( ) lemma=añadirse 
- ñadi� ( ) lemma=añadir 
- ñad� ( ) lemma=añadir 
- ñadí ( ) lemma=añadir 
- ñadía ( ) lemma=añadir 
- ñej ( ) lemma=añejar 
- ñit ( ) lemma=año 
- ñito ( ) lemma=año 
- ñor ( ) lemma=añorar 
- ñorab ( ) lemma=añorar 
- ñorad ( ) lemma=añorar 
- ñoramo ( ) lemma=añorar 
- ñora ( ) lemma=añorar 
- ñorand ( ) lemma=añorar 
- ño ( ) lemma=año 
- ñádas ( ) lemma=añadir 
- órtic ( ) lemma=aórtico 
- órtica ( ) lemma=aórtico 
- órtico ( ) lemma=aórtico 
- úna ( ) lemma=aunar 
- -galactosidas ( ) lemma=b-galactosidasa 
- ájam ( ) lemma=bajar 
- ájat ( ) lemma=bajar 
- áltic ( ) lemma=báltico 
- áltica ( ) lemma=báltico 
- áltico ( ) lemma=báltico 
- árbar ( ) lemma=bárbaro 
- árbarament ( ) lemma=bárbaro 
- árbara ( ) lemma=bárbaro 
- árbaro ( ) lemma=bárbaro 
- áscul ( ) lemma=báscula 
- áscula ( ) lemma=báscula 
- ásic ( ) lemma=másico 
- ásicament ( ) lemma=básico 
- ásica ( ) lemma=básico 
- ásico ( ) lemma=básico 
- ásquetbo ( ) lemma=basketball 
- ávar ( ) lemma=bávaro 
- ávaro ( ) lemma=bávaro 
- éisbo ( ) lemma=baseball 
- élic ( ) lemma=hélice 
- élica ( ) lemma=bélico 
- élico ( ) lemma=bélico 
- ésens ( ) lemma=besarse 
- íblic ( ) lemma=bíblico 
- íblica ( ) lemma=bíblico 
- íblico ( ) lemma=bíblico 
- ícep ( ) lemma=bíceps 
- ífid ( ) lemma=bífido 
- ípedo ( ) lemma=bípedo 
- óved ( ) lemma=bóveda 
- óveda ( ) lemma=bóveda 
- úfal ( ) lemma=búfalo 
- úfalo ( ) lemma=búfalo 
- úh ( ) lemma=búho 
- úlgar ( ) lemma=búlgaro 
- úlgara ( ) lemma=búlgaro 
- úlgaro ( ) lemma=búlgaro 
- úscal ( ) lemma=buscar 
- úscam ( ) lemma=buscar 
- úscat ( ) lemma=buscar 
- úsqued ( ) lemma=búsqueda 
- úsqueda ( ) lemma=búsqueda 
- úsques ( ) lemma=buscar 
- -ab ( ) lemma=c-abl 
- -cisteín ( ) lemma=c-cisteína 
- -my ( ) lemma=c-myc 
- -on ( ) lemma=c-onc 
- -termina ( ) lemma=n-terminal 
- ínimo_(como~mínimo ( ) 
- � ( ) lemma=ver 
- ábala ( ) lemma=cábala 
- álcic ( ) lemma=cálcico 
- álcica ( ) lemma=cálcico 
- álcico ( ) lemma=cálcico 
- álcul ( ) lemma=cálculo 
- álculo ( ) lemma=cálculo 
- álice ( ) lemma=cáliz 
- álid ( ) lemma=válido 
- álidament ( ) lemma=válido 
- álida ( ) lemma=válido 
- álido ( ) lemma=válido 
- áli ( ) lemma=cáliz 
- állat ( ) lemma=callar 
- álmat ( ) lemma=calmar 
- ámar ( ) lemma=cámara 
- ámara ( ) lemma=cámara 
- ánce ( ) lemma=cáncer 
- áncere ( ) lemma=cáncer 
- ándid ( ) lemma=cándido 
- ándidament ( ) lemma=cándido 
- ándido ( ) lemma=cándido 
- ánone ( ) lemma=canon 
- ántabr ( ) lemma=cántabro 
- ántabra ( ) lemma=cántabro 
- ántara ( ) lemma=cántara 
- ántar ( ) lemma=cántaro 
- ántic ( ) lemma=cántico 
- ántico ( ) lemma=cántico 
- ánul ( ) lemma=cánula 
- ápsid ( ) lemma=cápsida 
- ápsida ( ) lemma=cápsida 
- ápsul ( ) lemma=cápsula 
- ápsula ( ) lemma=cápsula 
- árce ( ) lemma=cárcel 
- árcele ( ) lemma=cárcel 
- árgal ( ) lemma=cargar 
- árgat ( ) lemma=cargar 
- ártere ( ) lemma=cárter 
- áscar ( ) lemma=máscara 
- áscara ( ) lemma=máscara 
- átedr ( ) lemma=cátedra 
- átedra ( ) lemma=cátedra 
- átod ( ) lemma=cátodo 
- átodo ( ) lemma=cátodo 
- áustic ( ) lemma=cáustico 
- édul ( ) lemma=médula 
- édula ( ) lemma=cédula 
- élebr ( ) lemma=célebre 
- élebre ( ) lemma=célebre 
- élul ( ) lemma=célula 
- élula-célul ( ) lemma=célula-célula 
- élula-matri ( ) lemma=célula-matriz 
- élula ( ) lemma=célula 
- éntim ( ) lemma=céntimo 
- éntimo ( ) lemma=céntimo 
- éntric ( ) lemma=céntrico 
- éntrica ( ) lemma=céntrico 
- éntrico ( ) lemma=céntrico 
- éspe ( ) lemma=césped 
- éspede ( ) lemma=césped 
- ícer ( ) lemma=cícero 
- íclic ( ) lemma=cíclico 
- íclicament ( ) lemma=cíclico 
- íclica ( ) lemma=cíclico 
- íclico ( ) lemma=cíclico 
- ínic ( ) lemma=cínico 
- ínicament ( ) lemma=cínico 
- ínica ( ) lemma=cínico 
- ínico ( ) lemma=cínico 
- írcul ( ) lemma=círculo 
- írculo ( ) lemma=círculo 
- ístic ( ) lemma=místico 
- ítric ( ) lemma=nítrico 
- ívic ( ) lemma=cívico 
- ívica ( ) lemma=cívico 
- ívico ( ) lemma=cívico 
- ócte ( ) lemma=cóctel 
- óctele ( ) lemma=cóctel 
- óde ( ) lemma=módem 
- ódig ( ) lemma=código 
- ódigo ( ) lemma=código 
- ógel ( ) lemma=coger 
- óget ( ) lemma=coger 
- óler ( ) lemma=cólera 
- ólic ( ) lemma=eólico 
- ólico ( ) lemma=cólico 
- ómem ( ) lemma=comer 
- ómetel ( ) lemma=comer 
- ómi ( ) lemma=cómic 
- ómic ( ) lemma=cómico 
- ómica ( ) lemma=cómico 
- ómico ( ) lemma=cómico 
- óm ( ) lemma=cómo 
- ómod ( ) lemma=cómodo 
- ómodament ( ) lemma=cómodo 
- ómoda ( ) lemma=cómodo 
- ómodo ( ) lemma=cómodo 
- ómplic ( ) lemma=cómplice 
- ómplice ( ) lemma=cómplice 
- ómpral ( ) lemma=comprar 
- ómpram ( ) lemma=comprar 
- ómprat ( ) lemma=comprar 
- ómprem ( ) lemma=comprar 
- ómpres ( ) lemma=comprarse 
- ómpresel ( ) lemma=comprarse 
- ómput ( ) lemma=cómputo 
- ómputo ( ) lemma=cómputo 
- óncav ( ) lemma=cóncavo 
- ónchal ( ) lemma=cónchali 
- óndo ( ) lemma=cóndor 
- ónsu ( ) lemma=cónsul 
- ónsule ( ) lemma=cónsul 
- óntig ( ) lemma=cóntigo 
- ónyug ( ) lemma=cónyuge 
- ónyuge ( ) lemma=cónyuge 
- ópul ( ) lemma=cópula 
- ópula ( ) lemma=cópula 
- órne ( ) lemma=córneo 
- órnea ( ) lemma=córnea 
- órtal ( ) lemma=cortar 
- órte ( ) lemma=córtex 
- órvid ( ) lemma=córvido 
- ósmic ( ) lemma=cósmico 
- ósmica ( ) lemma=cósmico 
- ósmico ( ) lemma=cósmico 
- ósmid ( ) lemma=cósmido 
- úbic ( ) lemma=púbico 
- úbica ( ) lemma=cúbico 
- úbico ( ) lemma=púbico 
- úbit ( ) lemma=súbito 
- úmul ( ) lemma=cúmulo 
- úmulo ( ) lemma=cúmulo 
- úpul ( ) lemma=cúpula 
- úpula ( ) lemma=cúpula 
- úspid ( ) lemma=cúspide 
- úspide ( ) lemma=cúspide 
- -azúca ( ) lemma=d-azúcar 
-  que_(debido~a~que ( ) 
- ábamo ( ) lemma=dar 
- ádiv ( ) lemma=dádiva 
- ádiva ( ) lemma=dádiva 
- ál ( ) lemma=dar 
- ándol ( ) lemma=dar 
- ándola ( ) lemma=dar 
- ándole ( ) lemma=dar 
- ándom ( ) lemma=dar 
- ándono ( ) lemma=dar 
- ándos ( ) lemma=dar 
- ándosele ( ) lemma=darse 
- ándosel ( ) lemma=darse 
- ármel ( ) lemma=dar 
- ársel ( ) lemma=dar 
- ársele ( ) lemma=darse 
- árselo ( ) lemma=darse 
- ársem ( ) lemma=darse 
- árseno ( ) lemma=darse 
- ébi ( ) lemma=débit 
- ébile ( ) lemma=débil 
- ébilment ( ) lemma=débil 
- ébit ( ) lemma=débito 
- ébito ( ) lemma=débito 
- ébordant ( ) lemma=débordante 
- ébordemen ( ) lemma=débordement 
- écad ( ) lemma=década 
- écada ( ) lemma=década 
- écim ( ) lemma=décimo 
- écima ( ) lemma=décima 
- écimo ( ) lemma=décimo 
- éconseill� ( ) lemma=déconseillé 
- édal ( ) lemma=dédalo 
- éfici ( ) lemma=déficit 
- éficit ( ) lemma=déficit 
- éjal ( ) lemma=dejar 
- éjam ( ) lemma=dejar 
- éjat ( ) lemma=dejar 
- éjel ( ) lemma=dejar 
- éjem ( ) lemma=dejar 
- éjenm ( ) lemma=dejar 
- éjenno ( ) lemma=dejar 
- éjes ( ) lemma=dejarse 
- éjesel ( ) lemma=dejar 
- éla ( ) lemma=délai 
- ém ( ) lemma=dar 
- émodulateu ( ) lemma=démodulateur 
- émono ( ) lemma=dar 
- émosl ( ) lemma=dar 
- émosle ( ) lemma=dar 
- émultiplexag ( ) lemma=démultiplexage 
- émultiplexeu ( ) lemma=démultiplexeur 
- éno ( ) lemma=dar 
- épar ( ) lemma=départ 
- épendant ( ) lemma=dépendante 
- éplacemen ( ) lemma=déplacement 
- éplac� ( ) lemma=déplacé 
- érmica ( ) lemma=térmico 
- és ( ) lemma=darse 
- ésel ( ) lemma=dar 
- ésigne ( ) lemma=désigner 
- éspot ( ) lemma=déspota 
- éspota ( ) lemma=déspota 
- étecteu ( ) lemma=détecteur 
- étectio ( ) lemma=détection 
- étournemen ( ) lemma=détournement 
- étourn� ( ) lemma=détourné 
- ígal ( ) lemma=decir 
- ígam ( ) lemma=decir 
- íganle ( ) lemma=decir 
- íganl ( ) lemma=decir 
- íganno ( ) lemma=decir 
- ígano ( ) lemma=decir 
- ígas ( ) lemma=decir 
- ígit ( ) lemma=dígito 
- ígito ( ) lemma=dígito 
- ígrafo ( ) lemma=dígrafo 
- ímel ( ) lemma=decir 
- ímer ( ) lemma=dímero 
- ímero ( ) lemma=dímero 
- íptero ( ) lemma=díptero 
- íscol ( ) lemma=díscolo 
- íscolo ( ) lemma=díscolo 
- ísel ( ) lemma=decir 
- óci ( ) lemma=dócil 
- ócile ( ) lemma=dócil 
- ócilment ( ) lemma=dócil 
- óla ( ) lemma=dólar 
- ólare ( ) lemma=dólar 
- ónam ( ) lemma=donar 
- ónd ( ) lemma=dónde 
- úcti ( ) lemma=dúctil 
- úo ( ) lemma=dúo 
- úple ( ) lemma=dúplex 
- úplic ( ) lemma=súplica 
-  (frente~a ( ) 
- ábric ( ) lemma=fábrica 
- ábrica ( ) lemma=fábrica 
- ábricas-máquin ( ) lemma=fábricas-máquina 
- ábul ( ) lemma=fábula 
- ábula ( ) lemma=fábula 
- áci ( ) lemma=fácil 
- ácile ( ) lemma=fácil 
- ácilment ( ) lemma=fácil 
- ármac ( ) lemma=fármaco 
- ármaco ( ) lemma=fármaco 
- ému ( ) lemma=fémur 
- éretr ( ) lemma=féretro 
- éretro ( ) lemma=féretro 
- érre ( ) lemma=férreo 
- érreament ( ) lemma=férreo 
- érrea ( ) lemma=férreo 
- érreo ( ) lemma=férreo 
- érric ( ) lemma=férrico 
- érrico ( ) lemma=férrico 
- érti ( ) lemma=fértil 
- értile ( ) lemma=fértil 
- érul ( ) lemma=férula 
- íe ( ) lemma=reír 
- íjat ( ) lemma=fijar 
- íjens ( ) lemma=fijarse 
- íjes ( ) lemma=fijarse 
- írmal ( ) lemma=firmar 
- ísic ( ) lemma=tísico 
- ísicament ( ) lemma=físico 
- ísica ( ) lemma=físico 
- ísico-deportiv ( ) lemma=físico-deportivo 
- ísico-químic ( ) lemma=físico|físico-químico 
- ísico ( ) lemma=físico 
- ístul ( ) lemma=fístula 
- ístula ( ) lemma=fístula 
- óbic ( ) lemma=fóbico 
- óbico-específic ( ) lemma=fóbico-específico 
- órmul ( ) lemma=fórmula 
- órmula ( ) lemma=fórmula 
- ósfor ( ) lemma=fósforo 
- ósi ( ) lemma=fósil 
- ósile ( ) lemma=fósil 
- ótic ( ) lemma=gótico 
- óve ( ) lemma=fóvea 
- úmat ( ) lemma=fumar 
- únebr ( ) lemma=fúnebre 
- únebre ( ) lemma=fúnebre 
- úngic ( ) lemma=fúngico 
- útbo ( ) lemma=futbol 
- ástes ( ) lemma=gastar 
- ástric ( ) lemma=gástrico 
- ástrica ( ) lemma=gástrico 
- ástrico ( ) lemma=gástrico 
- ástrul ( ) lemma=gástrula 
- élida ( ) lemma=gélido 
- éner ( ) lemma=género 
- énero ( ) lemma=género 
- énic ( ) lemma=génico 
- énica ( ) lemma=génica 
- énico ( ) lemma=génico 
- énte ( ) lemma=géntex 
- énéra ( ) lemma=général 
- éographiquemen ( ) lemma=géographiquement 
- érmene ( ) lemma=germen 
- íneco-obstétric ( ) lemma=gíneco-obstétrico 
- ónad ( ) lemma=gónada 
- ónada ( ) lemma=gónada 
- óndol ( ) lemma=góndola 
- ótica ( ) lemma=gótico 
- ótico ( ) lemma=gótico 
- üer ( ) lemma=güero 
- üisqu ( ) lemma=güisqui 
- ía_(hoy~día ( ) 
- ábi ( ) lemma=lábil 
- ábile ( ) lemma=hábil 
- ábilment ( ) lemma=hábil 
- ábita ( ) lemma=hábitat 
- ábitat ( ) lemma=hábitat 
- ábit ( ) lemma=hábito 
- ábito ( ) lemma=hábito 
- áblal ( ) lemma=hablar 
- áblam ( ) lemma=hablar 
- áblano ( ) lemma=hablar 
- áblel ( ) lemma=hablar 
- ábleno ( ) lemma=hablar 
- ábles ( ) lemma=hablarse 
- ácel ( ) lemma=hacer 
- ágal ( ) lemma=pagar 
- ágam ( ) lemma=hacer 
- áganl ( ) lemma=hacer 
- áganno ( ) lemma=hacer 
- ágans ( ) lemma=hacerse 
- ágas ( ) lemma=hacer 
- ámste ( ) lemma=hámster 
- élice-vuelt ( ) lemma=hélice-vuelta 
- élice-vuelta-hélic ( ) lemma=hélice-vuelta-hélice 
- élice ( ) lemma=hélice 
- éro ( ) lemma=héroe 
- éroe ( ) lemma=héroe 
- étérogen ( ) lemma=hétérogene 
- íbrid ( ) lemma=híbrido 
- íbrida ( ) lemma=híbrido 
- íbrido ( ) lemma=híbrido 
- ídric ( ) lemma=hídrico 
- ídrico ( ) lemma=hídrico 
- ígad ( ) lemma=hígado 
- íjol ( ) lemma=híjole 
- ípic ( ) lemma=típico 
- ística ( ) lemma=hístico 
- úmed ( ) lemma=húmedo 
- úmeda ( ) lemma=húmedo 
- úmedo ( ) lemma=húmedo 
- úmer ( ) lemma=número 
- úmico ( ) lemma=húmico 
- úngara ( ) lemma=húngaro 
- úngaro ( ) lemma=húngaro 
- ónicament ( ) lemma=tónicamente 
- ónica ( ) lemma=tónico 
- ónico ( ) lemma=jónico 
- ódalo ( ) lemma=joder 
- óvene ( ) lemma=joven 
- úbil ( ) lemma=júbilo 
- úramel ( ) lemma=jurar 
- árat ( ) lemma=kárate 
- ásr ( ) lemma=kásra 
- 'hospitale ( ) lemma=l'hospitalet 
- ácte ( ) lemma=lácteo 
- áctea ( ) lemma=lácteo 
- ácteo ( ) lemma=lácteo 
- áctic ( ) lemma=táctico 
- ágrim ( ) lemma=lágrima 
- ágrima ( ) lemma=lágrima 
- ámin ( ) lemma=lámina 
- ámina ( ) lemma=lámina 
- ámpar ( ) lemma=lámpara 
- ámpara ( ) lemma=lámpara 
- ánzat ( ) lemma=lanzar 
- ápid ( ) lemma=rápido 
- ápi ( ) lemma=lápiz 
- áse ( ) lemma=láser 
- ásere ( ) lemma=láser 
- ástim ( ) lemma=lástima 
- áte ( ) lemma=látex 
- átig ( ) lemma=látigo 
- átigo ( ) lemma=látigo 
- éa ( ) lemma=leer 
- éas ( ) lemma=verse 
- éem ( ) lemma=leer 
- éxica ( ) lemma=léxico 
- éxico ( ) lemma=léxico 
- ícit ( ) lemma=lícito 
- ícitament ( ) lemma=lícito 
- ícita ( ) lemma=lícito 
- ícito ( ) lemma=lícito 
- íde ( ) lemma=vídeo 
- ídere ( ) lemma=líder 
- ímit ( ) lemma=límite 
- ímite ( ) lemma=límite 
- ímpiat ( ) lemma=limpiar 
- íne ( ) lemma=línea 
- ínea ( ) lemma=línea 
- ío ( ) lemma=tío 
- ípid ( ) lemma=lípido 
- ípido-proteín ( ) lemma=lípido-proteína 
- ípido ( ) lemma=lípido 
- íquene ( ) lemma=liquen 
- íquid ( ) lemma=líquido 
- íquida ( ) lemma=líquido 
- íquido ( ) lemma=líquido 
- íric ( ) lemma=vírico 
- írico ( ) lemma=vírico 
- ístens ( ) lemma=listar 
- ític ( ) lemma=mítico 
- ítica ( ) lemma=mítico 
- ívid ( ) lemma=lívido 
- óbreg ( ) lemma=lóbrego 
- óbul ( ) lemma=lóbulo 
- óbulo ( ) lemma=lóbulo 
- ógic ( ) lemma=lógico 
- ógicament ( ) lemma=lógico 
- ógica ( ) lemma=lógico 
- ógico ( ) lemma=lógico 
- úcid ( ) lemma=lúcido 
- úcido ( ) lemma=lúcido 
- úgubr ( ) lemma=lúgubre 
- úgubrement ( ) lemma=lúgubre 
- úgubre ( ) lemma=lúgubre 
- úmene ( ) lemma=lumen 
- únul ( ) lemma=lúnula 
- úpic ( ) lemma=lúpico 
- -ari ( ) lemma=n-ario 
- Áxim ( ) lemma=grande 
- ácul ( ) lemma=mácula 
- ácula ( ) lemma=mácula 
- ágic ( ) lemma=mágico 
- ágicament ( ) lemma=mágico 
- ágica ( ) lemma=mágico 
- ágico ( ) lemma=mágico 
- ándal ( ) lemma=mandar 
- ándalo ( ) lemma=vándalo 
- ándam ( ) lemma=mandar 
- ándamela ( ) lemma=mandar 
- ándamel ( ) lemma=mandar 
- ándat ( ) lemma=mandar 
- ándenm ( ) lemma=mandar 
- áquin ( ) lemma=máquina 
- áquina ( ) lemma=máquina 
- áquinas-herramient ( ) lemma=máquinas-herramienta 
- árgene ( ) lemma=margen 
- ármo ( ) lemma=mármol 
- ármole ( ) lemma=mármol 
- árquel ( ) lemma=marcar 
- árques ( ) lemma=marcarse 
- árquetin ( ) lemma=márqueting 
- árti ( ) lemma=mártir 
- ártire ( ) lemma=mártir 
- áscarare ( ) lemma=máscarared 
- ásti ( ) lemma=mástil 
- ástile ( ) lemma=mástil 
- áxim ( ) lemma=grande|máximo 
- áximament ( ) lemma=grande 
- áxima ( ) lemma=grande 
- áximo ( ) lemma=grande 
- édiatio ( ) lemma=médiation 
- édic ( ) lemma=médico 
- édicament ( ) lemma=médico 
- édica ( ) lemma=médico 
- édico-consultant ( ) lemma=médico-consultante 
- édico-psicológic ( ) lemma=médico-psicológico 
- édico-quirúrgic ( ) lemma=médico-quirúrgico 
- édico ( ) lemma=médico 
- édicos-sanitari ( ) lemma=médicos-sanitario 
- énétria ( ) lemma=ménétriar 
- érit ( ) lemma=mérito 
- érito ( ) lemma=mérito 
- étas ( ) lemma=meterse 
- étel ( ) lemma=ir|ver|vetar 
- étem ( ) lemma=meter 
- étet ( ) lemma=meter 
- éthod ( ) lemma=méthode 
- étod ( ) lemma=método 
- étodo ( ) lemma=método 
- étric ( ) lemma=métrico 
- étrica ( ) lemma=métrico 
- étrico ( ) lemma=métrico 
- ídas ( ) lemma=pedirse 
- ímic ( ) lemma=mímica 
- ínim ( ) lemma=pequeño 
- ínimament ( ) lemma=pequeño 
- ínima ( ) lemma=pequeño 
- ínimo ( ) lemma=pequeño 
- íral ( ) lemma=tirar 
- íram ( ) lemma=mirar 
- írat ( ) lemma=mirar 
- írem ( ) lemma=mirar 
- íser ( ) lemma=mísero 
- ísera ( ) lemma=mísero 
- ísero ( ) lemma=mísero 
- ístico ( ) lemma=místico 
- íticament ( ) lemma=mítico 
- ítico ( ) lemma=mítico 
- ódem ( ) lemma=módem 
- ódic ( ) lemma=sódico 
- ódica ( ) lemma=módico 
- ódico ( ) lemma=módico 
- ódul ( ) lemma=nódulo 
- ódulo ( ) lemma=nódulo 
- órbid ( ) lemma=mórbido 
- órul ( ) lemma=mórula 
- óvi ( ) lemma=móvil 
- óvile ( ) lemma=móvil 
- úlde ( ) lemma=múldex 
- últipl ( ) lemma=múltiplo 
- últiple ( ) lemma=múltiplex 
- últiplo ( ) lemma=múltiplo 
- úscul ( ) lemma=músculo 
- úsculo-esquelétic ( ) lemma=músculo-esquelético 
- úsculo ( ) lemma=músculo 
- úsic ( ) lemma=músico 
- úsica ( ) lemma=músico 
- úsico ( ) lemma=músico 
- -glicosídic ( ) lemma=n-glicosídico 
- -r ( ) lemma=n-ra 
- .o ( ) lemma=número 
- áca ( ) lemma=nácar 
- áufrago ( ) lemma=náufrago 
- áuse ( ) lemma=náusea 
- áusea ( ) lemma=náusea 
- écta ( ) lemma=néctar 
- éurul ( ) lemma=néurula 
- éurula ( ) lemma=néurula 
- íque ( ) lemma=níquel 
- ítid ( ) lemma=nítido 
- ítidament ( ) lemma=nítido 
- ítida ( ) lemma=nítido 
- ítido ( ) lemma=nítido 
- ómada ( ) lemma=nómada 
- ómin ( ) lemma=nómina 
- ómina ( ) lemma=nómina 
- órdic ( ) lemma=nórdico 
- órdica ( ) lemma=nórdico 
- órdico ( ) lemma=nórdico 
- ótes ( ) lemma=notar 
- úcle ( ) lemma=núcleo 
- úcleo ( ) lemma=núcleo 
- úmeroprotocol ( ) lemma=númeroprotocolo 
- úmeropuert ( ) lemma=númeropuerto 
- úmero ( ) lemma=número 
- íamo ( ) lemma=oír 
- íd ( ) lemma=oído 
- ída ( ) lemma=oír 
- ído ( ) lemma=oído 
- ím ( ) lemma=oír 
- ímo ( ) lemma=oír 
- írl ( ) lemma=oír 
- írlo ( ) lemma=oír 
- írm ( ) lemma=oír 
- írno ( ) lemma=oír 
- íro ( ) lemma=oír 
- írs ( ) lemma=oírse 
- írt ( ) lemma=oír 
- íst ( ) lemma=oír 
- -aminohipurat ( ) lemma=p-aminohipurato 
- -aminohipúric ( ) lemma=p-aminohipúrico 
- -carboxílic ( ) lemma=p-carboxílico 
- -nitrofeno ( ) lemma=p-nitrofenol 
- .49 ( ) lemma=p.497 
- ág ( ) lemma=pág. 
- ágin ( ) lemma=página 
- ágina ( ) lemma=página 
- águes ( ) lemma=pagarse 
- ájar ( ) lemma=pájaro 
- ájaro ( ) lemma=pájaro 
- áncrea ( ) lemma=páncrea 
- ánic ( ) lemma=pánico 
- ápul ( ) lemma=pápula 
- ápula ( ) lemma=pápula 
- áram ( ) lemma=páramo 
- áramo ( ) lemma=páramo 
- árpad ( ) lemma=párpado 
- árpado ( ) lemma=párpado 
- árraf ( ) lemma=párrafo 
- árrafo ( ) lemma=párrafo 
- árroc ( ) lemma=párroco 
- ásal ( ) lemma=pasar 
- ásam ( ) lemma=pasar 
- ásamel ( ) lemma=pasar 
- ásasel ( ) lemma=pasar 
- ásat ( ) lemma=pasar 
- ásel ( ) lemma=pasar 
- ásmat ( ) lemma=pasmar 
- égal ( ) lemma=pegar 
- égam ( ) lemma=pegar 
- éguel ( ) lemma=pegar 
- élvic ( ) lemma=pélvico 
- élvica ( ) lemma=pélvico 
- élvico ( ) lemma=pélvico 
- énalisatio ( ) lemma=pénalisation 
- éndul ( ) lemma=péndulo 
- éptic ( ) lemma=séptico 
- éptico ( ) lemma=séptico 
- éptid ( ) lemma=péptido 
- éptido ( ) lemma=péptido 
- épti ( ) lemma=péptir 
- érdid ( ) lemma=pérdida 
- érdida ( ) lemma=pérdida 
- érsic ( ) lemma=pérsico 
- ésam ( ) lemma=pésame 
- ésim ( ) lemma=pésimo 
- ésimament ( ) lemma=pésimo 
- ídal ( ) lemma=pedir 
- ídam ( ) lemma=pedir 
- ídel ( ) lemma=pedir 
- ídesel ( ) lemma=pedir 
- ídetel ( ) lemma=pedir 
- íldor ( ) lemma=píldora 
- íldora ( ) lemma=píldora 
- íllale ( ) lemma=pillar 
- ítche ( ) lemma=pítcher 
- ívo ( ) lemma=pívot 
- íxe ( ) lemma=píxel 
- óke ( ) lemma=póker 
- ólene ( ) lemma=polen 
- ólip ( ) lemma=pólipo 
- ólipo ( ) lemma=pólipo 
- óliz ( ) lemma=póliza 
- óliza ( ) lemma=póliza 
- ólvor ( ) lemma=pólvora 
- ónem ( ) lemma=poner 
- óngal ( ) lemma=poner 
- óngam ( ) lemma=poner 
- óngans ( ) lemma=ponerse 
- óngas ( ) lemma=ponerse 
- ónsel ( ) lemma=poner 
- óstum ( ) lemma=póstumo 
- úa ( ) lemma=puar 
- úblic ( ) lemma=público 
- úblicament ( ) lemma=público 
- ública ( ) lemma=público 
- úblico ( ) lemma=público 
- úlpit ( ) lemma=púlpito 
- úric ( ) lemma=púrico 
- úrpur ( ) lemma=púrpura 
- ában ( ) lemma=sábana 
- ábano ( ) lemma=rábano 
- áfag ( ) lemma=ráfaga 
- áfaga ( ) lemma=ráfaga 
- ápidament ( ) lemma=rápido 
- ápida ( ) lemma=rápido 
- ápido ( ) lemma=rápido 
- éacheminemen ( ) lemma=réacheminement 
- éajustemen ( ) lemma=réajustement 
- écepteu ( ) lemma=récepteur 
- éceptio ( ) lemma=réception 
- éclam ( ) lemma=réclame 
- écor ( ) lemma=récord 
- écord ( ) lemma=récord 
- écu ( ) lemma=récup 
- écupératio ( ) lemma=récupération 
- édit ( ) lemma=rédito 
- édito ( ) lemma=rédito 
- éell ( ) lemma=réelle 
- éentrant ( ) lemma=réentrante 
- éférenc ( ) lemma=référence 
- égime ( ) lemma=régimen 
- égulier ( ) lemma=réguliere 
- égénérateu ( ) lemma=régénérateur 
- épart ( ) lemma=réparti 
- épartitio ( ) lemma=répartition 
- épertoir ( ) lemma=répertoire 
- épertoire ( ) lemma=répertoires 
- éplic ( ) lemma=réplica 
- éplica ( ) lemma=réplica 
- épons ( ) lemma=réponse 
- épétitio ( ) lemma=répétition 
- équie ( ) lemma=réquiem 
- ésea ( ) lemma=réseau 
- éseau ( ) lemma=réseaux 
- éserv ( ) lemma=réserve 
- ésistanc ( ) lemma=résistance 
- éémetteu ( ) lemma=réémetteur 
- ías ( ) lemma=reírse 
- íet ( ) lemma=reír 
- ígid ( ) lemma=rígido 
- ígidament ( ) lemma=rígido 
- ígida ( ) lemma=rígido 
- ígido ( ) lemma=rígido 
- ítmic ( ) lemma=rítmico 
- ítmica ( ) lemma=rítmico 
- ítmico ( ) lemma=rítmico 
- óbal ( ) lemma=robar 
- ótul ( ) lemma=rótulo 
- ótulo ( ) lemma=rótulo 
- úbric ( ) lemma=rúbrica 
- úbrica ( ) lemma=rúbrica 
- ústic ( ) lemma=rústico 
- ústica ( ) lemma=rústico 
- ústico ( ) lemma=rústico 
- -adenosilmetionin ( ) lemma=s-adenosilmetionina 
-  cuando_(siempre~y~cuando ( ) 
- ábad ( ) lemma=sábado 
- ábado ( ) lemma=sábado 
- ábana ( ) lemma=sábana 
- áculo ( ) lemma=sáculo 
- ádic ( ) lemma=sádico 
- álves ( ) lemma=salvar 
- áquel ( ) lemma=sacar 
- áquenm ( ) lemma=sacar 
- átir ( ) lemma=sátira 
- électio ( ) lemma=sélection 
- électió ( ) lemma=sélectión 
- émaphor ( ) lemma=sémaphore 
- émaphore ( ) lemma=sémaphores 
- ématem ( ) lemma=sémateme 
- émola ( ) lemma=sémola 
- épanl ( ) lemma=saber 
- éptica ( ) lemma=séptico 
- éptim ( ) lemma=séptimo 
- équenc ( ) lemma=séquence 
- équit ( ) lemma=séquito 
- éric ( ) lemma=sérico 
- érica ( ) lemma=sérico 
- érico ( ) lemma=sérico 
- éri ( ) lemma=série 
- ífili ( ) lemma=sífilis 
- íganlo ( ) lemma=seguir 
- íganm ( ) lemma=seguir 
- íguel ( ) lemma=seguir 
- ílab ( ) lemma=sílaba 
- ílaba ( ) lemma=sílaba 
- ílic ( ) lemma=sílice 
- ímbol ( ) lemma=símbolo 
- ímbolo ( ) lemma=símbolo 
- ímple ( ) lemma=símplex 
- íncop ( ) lemma=síncope 
- íncope ( ) lemma=síncope 
- íncron ( ) lemma=síncrono 
- íncrona ( ) lemma=síncrono 
- íncrono ( ) lemma=síncrono 
- índic ( ) lemma=síndico 
- índico ( ) lemma=síndico 
- índrom ( ) lemma=síndrome 
- índrome ( ) lemma=síndrome 
- ínfisi ( ) lemma=sínfisis 
- ínod ( ) lemma=sínodo 
- íntesi ( ) lemma=síntesis 
- íntom ( ) lemma=síntoma 
- íntoma ( ) lemma=síntoma 
- íquic ( ) lemma=psíquico 
- íquicament ( ) lemma=psíquico 
- ísmico ( ) lemma=sísmico 
- ístol ( ) lemma=sístole 
- ólid ( ) lemma=sólido 
- ólidament ( ) lemma=sólido 
- ólida ( ) lemma=sólido 
- ólido ( ) lemma=sólido 
- ól ( ) lemma=sólo 
- órdida ( ) lemma=sórdido 
- órdid ( ) lemma=sórdido 
- órdido ( ) lemma=sórdido 
- ótan ( ) lemma=sótano 
- ótano ( ) lemma=sótano 
- úbdit ( ) lemma=súbdito 
- úbdito ( ) lemma=súbdito 
- úbet ( ) lemma=subir 
- úbitament ( ) lemma=súbito 
- úbita ( ) lemma=súbito 
- úpe ( ) lemma=súper 
- úplica ( ) lemma=súplica 
- -intermedi ( ) lemma=t-intermedio 
- -studen ( ) lemma=t-student 
- ácit ( ) lemma=tácito 
- ácitament ( ) lemma=tácito 
- ácticament ( ) lemma=táctico 
- áctica ( ) lemma=táctica 
- áctico ( ) lemma=táctico 
- ácti ( ) lemma=táctil 
- áde ( ) lemma=tádem 
- álam ( ) lemma=tálamo 
- ánde ( ) lemma=tándem 
- écnic ( ) lemma=técnico 
- écnicament ( ) lemma=técnico 
- écnica ( ) lemma=técnico 
- écnico-docent ( ) lemma=técnico-docente 
- écnico ( ) lemma=técnico 
- élécommand� ( ) lemma=télécommandé 
- élécommunicatio ( ) lemma=télécommunication 
- élécommunication ( ) lemma=télécommunications 
- élégraphi ( ) lemma=télégraphie 
- élégraphiqu ( ) lemma=télégraphique 
- éléimprimeu ( ) lemma=téléimprimeur 
- éléphon ( ) lemma=téléphone 
- éléphoni ( ) lemma=téléphonie 
- éléphoniqu ( ) lemma=téléphonique 
- éléphonique ( ) lemma=téléphoniques 
- éléphonométri ( ) lemma=téléphonométrie 
- éléscripteu ( ) lemma=téléscripteur 
- éléte ( ) lemma=télétex 
- élétyp ( ) lemma=télétype 
- éngal ( ) lemma=tener 
- éngas ( ) lemma=tener 
- éoric ( ) lemma=téorico 
- érmic ( ) lemma=térmico 
- érmicament ( ) lemma=térmico 
- érmico ( ) lemma=térmico 
- érmin ( ) lemma=término 
- érmino ( ) lemma=término 
- étano ( ) lemma=tetar 
- ífic ( ) lemma=tífico 
- ímid ( ) lemma=tímido 
- ímidament ( ) lemma=tímido 
- ímida ( ) lemma=tímido 
- ímido ( ) lemma=tímido 
- ímpan ( ) lemma=tímpano 
- ímpano ( ) lemma=tímpano 
- ípicament ( ) lemma=típico 
- ípica ( ) lemma=típico 
- ípico ( ) lemma=típico 
- íralo ( ) lemma=tirar 
- ítul ( ) lemma=título 
- ítulo ( ) lemma=título 
- ócat ( ) lemma=tocar 
- ómat ( ) lemma=tomar 
- ómatel ( ) lemma=tomar 
- ómbol ( ) lemma=tómbola 
- ópic ( ) lemma=tópico 
- ópico ( ) lemma=tópico 
- óra ( ) lemma=tórax 
- órpid ( ) lemma=tórpido 
- órtola ( ) lemma=tórtola 
- óte ( ) lemma=tótem 
- óxic ( ) lemma=tóxico 
- óxica ( ) lemma=tóxico 
- óxico ( ) lemma=tóxico 
- úbul ( ) lemma=túbulo 
- úbulo ( ) lemma=túbulo 
- únele ( ) lemma=túnel 
- únic ( ) lemma=túnica 
- ña ( ) lemma=uña 
- ñilla ( ) lemma=uña 
- álgam ( ) lemma=valer 
- álgano ( ) lemma=valer 
- álvul ( ) lemma=válvula 
- álvula ( ) lemma=válvula 
- ámono ( ) lemma=ir 
- ástag ( ) lemma=vástago 
- áyans ( ) lemma=irse 
- éans ( ) lemma=verse 
- éndem ( ) lemma=vendar|vender 
- énula ( ) lemma=vénula 
- érificatio ( ) lemma=vérification 
- érsel ( ) lemma=verse 
- érsela ( ) lemma=verse 
- értebr ( ) lemma=vértebra 
- értebra ( ) lemma=vértebra 
- értel ( ) lemma=ver 
- érte ( ) lemma=vértex 
- értic ( ) lemma=vértice 
- értice ( ) lemma=vértice 
- értig ( ) lemma=vértigo 
- íbor ( ) lemma=víbora 
- íbora ( ) lemma=víbora 
- íctim ( ) lemma=víctima 
- íctima ( ) lemma=víctima 
- ídeo ( ) lemma=vídeo 
- íncul ( ) lemma=vínculo 
- ínculo ( ) lemma=vínculo 
- írica ( ) lemma=vírico 
- íscer ( ) lemma=víscera 
- íscera ( ) lemma=víscera 
- ísper ( ) lemma=víspera 
- íspera ( ) lemma=víspera 
- ítre ( ) lemma=vítreo 
- ívere ( ) lemma=víveres 
- ívido ( ) lemma=vívido 
- ómit ( ) lemma=vómito 
- ómito ( ) lemma=vómito 
- úmetr ( ) lemma=vúmetro 
- -carboxilació ( ) lemma=y-carboxilación 
- éndom ( ) lemma=ir 
- éndono ( ) lemma=ir 
- éndos ( ) lemma=ir 
- éndot ( ) lemma=ir 
- ócal ( ) lemma=zócalo 
- ócalo ( ) lemma=zócalo 
- � ( ) lemma=ºc 
- �fric ( ) lemma=África 
- �mbit ( ) lemma=ámbito 
- �rab ( ) lemma=árabe 
- �rtic ( ) lemma=Ártico 
- �cij ( ) lemma=Écija 
- � ( ) lemma=él 
- �st ( ) lemma=este 
- �sta ( ) lemma=este 
- �sto ( ) lemma=este 
- �NDIC ( ) lemma=índice 
- �car ( ) lemma=Ícaro 
- �ndic ( ) lemma=Índico 
- �RGANO ( ) lemma=órgano 
- �rgan ( ) lemma=órgano 
- �ltim ( ) lemma=último 
- �nicament ( ) lemma=únicamente 
- �baco ( ) lemma=ábaco 
  ábaco ( ) 
- �brel ( ) lemma=abrir 
- �bsid ( ) lemma=ábside 
- �car ( ) lemma=ácaro 
- �caro ( ) lemma=ácaro 
- �cid ( ) lemma=ácido 
- �cida ( ) lemma=ácido 
- �cido-bas ( ) lemma=ácido-base 
- �cido ( ) lemma=ácido 
- �gap ( ) lemma=ágape 
- �gat ( ) lemma=ágata 
- �gi ( ) lemma=ágil 
- �gile ( ) lemma=ágil 
- �gilment ( ) lemma=ágil 
- �guil ( ) lemma=águila 
- �guila ( ) lemma=águila 
- �lam ( ) lemma=álamo 
- �lamo ( ) lemma=álamo 
- �lbu ( ) lemma=álbum 
- �lbume ( ) lemma=álbum 
- �lcali ( ) lemma=álcali 
  álcali ( ) 
- �lgebra ( ) lemma=álgebra 
  álgebra ( ) 
- �lgid ( ) lemma=álgido 
- �lgido ( ) lemma=álgido 
- �mba ( ) lemma=ámbar 
- �mbit ( ) lemma=ámbito 
- �mbito ( ) lemma=ámbito 
- �ndal ( ) lemma=ándele 
  ándele ( ) 
- �nge ( ) lemma=ángel 
- �ngele ( ) lemma=ángel 
- �ngul ( ) lemma=ángulo 
- �ngulo ( ) lemma=ángulo 
- �nim ( ) lemma=ánimo 
- �nimo ( ) lemma=ánimo 
- �nod ( ) lemma=ánodo 
- �pic ( ) lemma=ápice 
- �rab ( ) lemma=árabe 
- �rabe ( ) lemma=árabe 
- �rbitr ( ) lemma=árbitro 
- �rbitro ( ) lemma=árbitro 
- �rbo ( ) lemma=árbol 
- �rbole ( ) lemma=árbol 
- �re ( ) lemma=área 
- �rea ( ) lemma=área 
- �rid ( ) lemma=árido 
- �rida ( ) lemma=árido 
- �rido ( ) lemma=árido 
- �rmat ( ) lemma=armar 
- �sper ( ) lemma=áspero 
- �spera ( ) lemma=áspero 
- �spero ( ) lemma=áspero 
- �tom ( ) lemma=átomo 
- �tomo ( ) lemma=átomo 
- �vid ( ) lemma=ávido 
- �vidament ( ) lemma=ávidamente 
- �vida ( ) lemma=ávido 
- �vido ( ) lemma=ávido 
- �chal ( ) lemma=echar 
- �cham ( ) lemma=echar 
- �chang ( ) lemma=échange 
- �chappemen ( ) lemma=échappement 
- �che ( ) lemma=échec 
- �chenno ( ) lemma=echar 
- �cout ( ) lemma=écoute 
- �couteu ( ) lemma=écouteur 
- �critur ( ) lemma=écriture 
- � ( ) lemma=él 
- �lectriqu ( ) lemma=électrique 
- �lectroacoustiqu ( ) lemma=électroacoustique 
- �lit ( ) lemma=élite 
- �lite ( ) lemma=élite 
- �lémen ( ) lemma=élément 
- �lémentair ( ) lemma=élémentaire 
- �lément ( ) lemma=éléments 
- �mbolo ( ) lemma=émbolo 
  émbolo ( ) 
- �metteu ( ) lemma=émetteur 
- �missio ( ) lemma=émission 
- �mul ( ) lemma=émulo 
- �mulo ( ) lemma=émulo 
- �nfasi ( ) lemma=énfasis 
- �pic ( ) lemma=épico 
- �pico ( ) lemma=épico 
- �poc ( ) lemma=época 
- �poca ( ) lemma=época 
- �quilibrag ( ) lemma=équilibrage 
- �quipemen ( ) lemma=équipement 
- �quivalen ( ) lemma=équivalent 
- �quivalent ( ) lemma=équivalents 
- �ramo ( ) lemma=ser 
- �s ( ) lemma=ese 
- �sa ( ) lemma=ese 
- �sim ( ) lemma=ésimo 
- �so ( ) lemma=ese 
- �st ( ) lemma=este 
- �sta ( ) lemma=este 
- �ste ( ) lemma=éster 
- �stere ( ) lemma=éster 
- �sto ( ) lemma=este 
- �tabli ( ) lemma=établie 
- �tablissemen ( ) lemma=établissement 
- �tag ( ) lemma=étage 
- �ta ( ) lemma=état 
- �te ( ) lemma=éter 
- �tere ( ) lemma=éter 
- �tic ( ) lemma=ético 
- �ticament ( ) lemma=ético 
- �tica ( ) lemma=ético 
- �tico ( ) lemma=ético 
- �tnic ( ) lemma=étnico 
- �tnicament ( ) lemma=étnico 
- �tnica ( ) lemma=étnico 
- �tnico ( ) lemma=étnico 
- �xit ( ) lemma=éxito 
- �xito ( ) lemma=éxito 
- �xod ( ) lemma=éxodo 
- �xodo ( ) lemma=éxodo 
- �xtasi ( ) lemma=éxtasis 
- � ( ) lemma=ía 
- �bamo ( ) lemma=ir 
- �cter ( ) lemma=íctero 
- �de ( ) lemma=ídem 
- �dol ( ) lemma=ídolo 
- �dolo ( ) lemma=ídolo 
- �gnea ( ) lemma=ígneo 
  ígneo ( ) 
- �le ( ) lemma=íleo 
- �leo ( ) lemma=íleon 
- �mpet ( ) lemma=ímpetu 
- �mpetu ( ) lemma=ímpetu 
- �ndic ( ) lemma=índice 
- �ndice ( ) lemma=índice 
- �ndol ( ) lemma=índole 
- �ndole ( ) lemma=índole 
- �nfim ( ) lemma=bajo 
- �nfima ( ) lemma=bajo 
- �nfimo ( ) lemma=bajo 
- �ntegr ( ) lemma=íntegro 
- �ntegrament ( ) lemma=íntegro 
- �ntegra ( ) lemma=íntegro 
- �ntegro ( ) lemma=íntegro 
- �ntim ( ) lemma=íntimo 
- �ntimament ( ) lemma=íntimo 
- �ntima ( ) lemma=íntimo 
- �ntimo ( ) lemma=íntimo 
- �rsel ( ) lemma=ir 
- �te ( ) lemma=ítem 
- �tem ( ) lemma=ítem 
- �at ( ) lemma=ñato 
- �bit ( ) lemma=óbito 
- �iganm ( ) lemma=oír 
- �le ( ) lemma=óleo 
- �leo ( ) lemma=óleo 
- �mnibu ( ) lemma=ómnibus 
- �per ( ) lemma=ópera 
- �pera ( ) lemma=ópera 
- �ptic ( ) lemma=óptico 
- �pticament ( ) lemma=ópticamente 
- �ptica ( ) lemma=óptica 
- �ptico ( ) lemma=óptico 
- �ptim ( ) lemma=óptimo 
- �ptimament ( ) lemma=óptimo 
- �ptima ( ) lemma=óptimo 
- �ptimo ( ) lemma=óptimo 
- �ral ( ) lemma=órale 
- �rbit ( ) lemma=órbita 
- �rbita ( ) lemma=órbita 
- �rdene ( ) lemma=orden 
- �rgan ( ) lemma=órgano 
- �rgano ( ) lemma=órgano 
- �sal ( ) lemma=osar 
- �se ( ) lemma=óseo 
- �sea ( ) lemma=óseo 
- �seo ( ) lemma=óseo 
- �smosi ( ) lemma=ósmosis 
- �val ( ) lemma=ovar 
- �vul ( ) lemma=óvulo 
- �vulo ( ) lemma=óvulo 
- �xid ( ) lemma=óxido 
- �xido ( ) lemma=óxido 
- �yem ( ) lemma=oír 
- �jul ( ) lemma=újule 
- �lcer ( ) lemma=úlcera 
- �lcera ( ) lemma=úlcera 
- �ltim ( ) lemma=último 
- �ltimament ( ) lemma=último 
- �ltima ( ) lemma=último 
- �ltimo ( ) lemma=último 
- �nans ( ) lemma=unir 
- �nic ( ) lemma=único 
- �nicament ( ) lemma=único 
- �nica ( ) lemma=único 
- �nico ( ) lemma=único 
- �ric ( ) lemma=úrico 
- �ter ( ) lemma=útero 
- �tero ( ) lemma=útero 
- �ti ( ) lemma=útil 
- �tile ( ) lemma=útil 
- �tilment ( ) lemma=útil 
- �vul ( ) lemma=úvula 
- � ( ) lemma=. 
+ `NOUN ( ) 
+ `2147483648 ( ) 
+ `VERB ( ) 
+ `1073741824 ( ) 
+ `ESSENTIAL_POS ( ) 
+ `ESSENTIAL ( ) 
+ `3221225472 ( ) 
+ `ADJECTIVE ( ) 
+ `536870912 ( ) 
+ `ADVERB ( ) 
+ `268435456 ( ) 
+ `BASIC_POS ( ) 
+ `BASIC ( ) 
+ `4026531840 ( ) 
+ `PREPOSITION ( ) 
+ `134217728 ( ) 
+ `ESSENTIAL_FLAGS ( ) 
+ `4160749568 ( ) 
+ `CONJUNCTION_COORDINATE ( ) 
+ `CONJUNCTION ( ) 
+ `67108864 ( ) 
+ `CONJUNCTION_SUBORDINATE ( ) 
+ `33554432 ( ) 
+ `100663296 ( ) 
+ `PREDETERMINER ( ) 
+ `16777216 ( ) 
+ `DETERMINER ( ) 
+ `8388608 ( ) 
+ `POSSESSIVE ( ) 
+ `4194304 ( ) 
+ `PRONOUN_POSSESSIVE ( ) 
+ `PRONOUN ( ) 
+ `2097152 ( ) 
+ `POSSESSIVE_BITS ( ) 
+ `6291456 ( ) 
+ `DETERMINER_BITS ( ) 
+ `31457280 ( ) 
+ `COMMA ( ) 
+ `524288 ( ) 
+ `REQUIRE_CONCEPT ( ) 
+ `REQUIRE ( ) 
+ `PAREN ( ) 
+ `262144 ( ) 
+ `PUNCTUATION ( ) 
+ `131072 ( ) 
+ `QUOTE ( ) 
+ `65536 ( ) 
+ `CURRENCY ( ) 
+ `32768 ( ) 
+ `ADJECTIVE_NORMAL ( ) 
+ `16384 ( ) 
+ `ADJECTIVE_NUMBER ( ) 
+ `8192 ( ) 
+ `ADJECTIVE_NOUN ( ) 
+ `4096 ( ) 
+ `ADJECTIVE_PARTICIPLE ( ) 
+ `2048 ( ) 
+ `ADJECTIVE_BITS ( ) 
+ `30720 ( ) 
+ `INTERJECTION ( ) 
+ `1024 ( ) 
+ `THERE_EXISTENTIAL ( ) 
+ `THERE ( ) 
+ `512 ( ) 
+ `FOREIGN_WORD ( ) 
+ `FOREIGN ( ) 
+ `256 ( ) 
+ `TO_INFINITIVE ( ) 
+ `TO ( ) 
+ `128 ( ) 
+ `NOUN_ADJECTIVE ( ) 
+ `64 ( ) 
+ `NOUN_SINGULAR ( ) 
+ `32 ( ) 
+ `NOUN_PLURAL ( ) 
+ `16 ( ) 
+ `NOUN_PROPER_SINGULAR ( ) 
+ `8 ( ) 
+ `NOUN_PROPER_PLURAL ( ) 
+ `4 ( ) 
+ `NOUN_GERUND ( ) 
+ `2 ( ) 
+ `NOUN_NUMBER ( ) 
+ `1 ( ) 
+ `NOUN_INFINITIVE ( ) 
+ `140737488355328 ( ) 
+ `NOUN_PROPER ( ) 
+ `12 ( ) 
+ `NORMAL_NOUN_BITS ( ) 
+ `125 ( ) 
+ `NOUN_BITS ( ) 
+ `140737488355455 ( ) 
+ `VERB_PRESENT ( ) 
+ `70368744177664 ( ) 
+ `VERB_PRESENT_3PS ( ) 
+ `35184372088832 ( ) 
+ `VERB_PRESENT_PARTICIPLE ( ) 
+ `17592186044416 ( ) 
+ `VERB_PAST ( ) 
+ `8796093022208 ( ) 
+ `VERB_PAST_PARTICIPLE ( ) 
+ `4398046511104 ( ) 
+ `VERB_INFINITIVE ( ) 
+ `2199023255552 ( ) 
+ `PARTICLE ( ) 
+ `1099511627776 ( ) 
+ `VERB_BITS ( ) 
+ `138538465099776 ( ) 
+ `PRONOUN_SUBJECT ( ) 
+ `549755813888 ( ) 
+ `PRONOUN_OBJECT ( ) 
+ `274877906944 ( ) 
+ `PRONOUN_BITS ( ) 
+ `824633720832 ( ) 
+ `AUX_DO ( ) 
+ `AUX ( ) 
+ `137438953472 ( ) 
+ `AUX_HAVE ( ) 
+ `68719476736 ( ) 
+ `AUX_BE ( ) 
+ `34359738368 ( ) 
+ `AUX_VERB_PRESENT ( ) 
+ `17179869184 ( ) 
+ `AUX_VERB_FUTURE ( ) 
+ `8589934592 ( ) 
+ `AUX_VERB_PAST ( ) 
+ `4294967296 ( ) 
+ `AUX_VERB_TENSES ( ) 
+ `30064771072 ( ) 
+ `AUX_VERB ( ) 
+ `270582939648 ( ) 
+ `STARTTAGS ( ) 
+ `AS_IS ( ) 
+ `-9223372036854775808 ( ) 
+ `NOUN_HUMAN ( ) 
+ `4611686018427387904 ( ) 
+ `NOUN_FIRSTNAME ( ) 
+ `2305843009213693952 ( ) 
+ `NOUN_SHE ( ) 
+ `1152921504606846976 ( ) 
+ `NOUN_HE ( ) 
+ `576460752303423488 ( ) 
+ `NOUN_THEY ( ) 
+ `288230376151711744 ( ) 
+ `NOUN_TITLE_OF_ADDRESS ( ) 
+ `144115188075855872 ( ) 
+ `NOUN_TITLE_OF_WORK ( ) 
+ `72057594037927936 ( ) 
+ `LOWERCASE_TITLE ( ) 
+ `36028797018963968 ( ) 
+ `NOUN_ABSTRACT ( ) 
+ `18014398509481984 ( ) 
+ `MORE_FORM ( ) 
+ `9007199254740992 ( ) 
+ `MOST_FORM ( ) 
+ `4503599627370496 ( ) 
+ `QWORD ( ) 
+ `2251799813685248 ( ) 
+ `PLACE_NUMBER ( ) 
+ `1125899906842624 ( ) 
+ `SINGULAR_PERSON ( ) 
+ `562949953421312 ( ) 
+ `IDIOM ( ) 
+ `281474976710656 ( ) 
+ `NOUN_TITLE ( ) 
+ `72057596185411592 ( ) 
+ `NOUN_HUMANGROUP ( ) 
+ `4971973990764511232 ( ) 
+ `NOUN_MALEHUMAN ( ) 
+ `5188146772878295048 ( ) 
+ `NOUN_FEMALEHUMAN ( ) 
+ `5764607525181718536 ( ) 
+ `NOUN_HUMANNAME ( ) 
+ `4611686020574871560 ( ) 
+ `TAG_TEST ( ) 
+ `TAG ( ) 
+ `562946194276351 ( ) 
+ `NOUN_DESCRIPTION_BITS ( ) 
+ `140737788278911 ( ) 
+ ``ANIMATE_BEING ( ) 
+ ``1 ( ) 
+ ``HOWWORD ( ) 
+ ``2 ( ) 
+ ``TIMEWORD ( ) 
+ ``4 ( ) 
+ ``LOCATIONWORD ( ) 
+ ``8 ( ) 
+ ``VERB_CONJUGATE3 ( ) 
+ ``16 ( ) 
+ ``VERB_CONJUGATE2 ( ) 
+ ``32 ( ) 
+ ``VERB_CONJUGATE1 ( ) 
+ ``64 ( ) 
+ ``PRESENTATION_VERB ( ) 
+ ``PRESENTATION ( ) 
+ ``128 ( ) 
+ ``COMMON_PARTICIPLE_VERB ( ) 
+ ``COMMON ( ) 
+ ``256 ( ) 
+ ``NOCONCEPTLIST ( ) 
+ ``512 ( ) 
+ ``PRONOUN_RELATIVE ( ) 
+ ``PRONOUN ( ) 
+ ``1024 ( ) 
+ ``INSEPARABLE_PHRASAL_VERB ( ) 
+ ``2048 ( ) 
+ ``MUST_BE_SEPARATE_PHRASAL_VERB ( ) 
+ ``4096 ( ) 
+ ``SEPARABLE_PHRASAL_VERB ( ) 
+ ``8192 ( ) 
+ ``PHRASAL_VERB ( ) 
+ ``16384 ( ) 
+ ``VERB_NOOBJECT ( ) 
+ ``32768 ( ) 
+ ``VERB_INDIRECTOBJECT ( ) 
+ ``VERB ( ) 
+ ``65536 ( ) 
+ ``VERB_DIRECTOBJECT ( ) 
+ ``131072 ( ) 
+ ``VERB_TAKES_GERUND ( ) 
+ ``262144 ( ) 
+ ``VERB_TAKES_ADJECTIVE ( ) 
+ ``524288 ( ) 
+ ``VERB_TAKES_INDIRECT_THEN_TOINFINITIVE ( ) 
+ ``1048576 ( ) 
+ ``VERB_TAKES_INDIRECT_THEN_VERBINFINITIVE ( ) 
+ ``2097152 ( ) 
+ ``VERB_TAKES_TOINFINITIVE ( ) 
+ ``4194304 ( ) 
+ ``VERB_TAKES_VERBINFINITIVE ( ) 
+ ``8388608 ( ) 
+ ``OMITTABLE_TIME_PREPOSITION ( ) 
+ ``OMITTABLE ( ) 
+ ``16777216 ( ) 
+ ``ALWAYS_PROPER_NAME_MERGE ( ) 
+ ``ALWAYS ( ) 
+ ``33554432 ( ) 
+ ``CONJUNCT_SUBORD_NOUN ( ) 
+ ``CONJUNCT ( ) 
+ ``67108864 ( ) 
+ ``PROBABLE_PREPOSITION ( ) 
+ ``PROBABLE ( ) 
+ ``134217728 ( ) 
+ ``ONLY_NONE ( ) 
+ ``ONLY ( ) 
+ ``PROBABLE_ADVERB ( ) 
+ ``268435456 ( ) 
+ ``PROBABLE_ADJECTIVE ( ) 
+ ``536870912 ( ) 
+ ``PROBABLE_VERB ( ) 
+ ``1073741824 ( ) 
+ ``PROBABLE_NOUN ( ) 
+ ``2147483648 ( ) 
+ ``PRONOUN_PLURAL ( ) 
+ ``4294967296 ( ) 
+ ``PRONOUN_SINGULAR ( ) 
+ ``8589934592 ( ) 
+ ``ACTUAL_TIME ( ) 
+ ``ACTUAL ( ) 
+ ``17179869184 ( ) 
+ ``PREDETERMINER_TARGET ( ) 
+ ``PREDETERMINER ( ) 
+ ``34359738368 ( ) 
+ ``ADJECTIVE_POSTPOSITIVE ( ) 
+ ``ADJECTIVE ( ) 
+ ``68719476736 ( ) 
+ ``DETERMINER_SINGULAR ( ) 
+ ``DETERMINER ( ) 
+ ``137438953472 ( ) 
+ ``DETERMINER_PLURAL ( ) 
+ ``274877906944 ( ) 
+ ``TAKES_POSTPOSITIVE_ADJECTIVE ( ) 
+ ``TAKES ( ) 
+ ``549755813888 ( ) 
+ ``GRADE5_6 ( ) 
+ ``GRADE5 ( ) 
+ ``1099511627776 ( ) 
+ ``GRADE3_4 ( ) 
+ ``2199023255552 ( ) 
+ ``GRADE1_2 ( ) 
+ ``4398046511104 ( ) 
+ ``KINDERGARTEN ( ) 
+ ``7696581394432 ( ) 
+ ``AGE_LEARNED ( ) 
+ ``AGE ( ) 
+ ``SUBSTITUTE_RECIPIENT ( ) 
+ ``8796093022208 ( ) 
+ ``NOUN_NODETERMINER ( ) 
+ ``17592186044416 ( ) 
+ ``WEB_URL ( ) 
+ ``35184372088832 ( ) 
+ ``ORDINAL ( ) 
+ ``70368744177664 ( ) 
+ ``PRONOUN_REFLEXIVE ( ) 
+ ``140737488355328 ( ) 
+ ``PRONOUN_INDIRECTOBJECT ( ) 
+ ``281474976710656 ( ) 
+ ``MODEL_NUMBER ( ) 
+ ``562949953421312 ( ) 
+ ``COMMON1 ( ) 
+ ``1125899906842624 ( ) 
+ ``COMMON2 ( ) 
+ ``2251799813685248 ( ) 
+ ``COMMON3 ( ) 
+ ``3377699720527872 ( ) 
+ ``COMMON4 ( ) 
+ ``4503599627370496 ( ) 
+ ``COMMON5 ( ) 
+ ``5629499534213120 ( ) 
+ ``COMMON6 ( ) 
+ ``6755399441055744 ( ) 
+ ``COMMON7 ( ) 
+ ``7881299347898368 ( ) 
+ ``COMMONNESS ( ) 
+ ``MONTH ( ) 
+ ``9007199254740992 ( ) 
+ ``SPELLING_EXCEPTION ( ) 
+ ``18014398509481984 ( ) 
+ ``ADJECTIVE_NOT_PREDICATE ( ) 
+ ``36028797018963968 ( ) 
+ ``ADJECTIVE_ONLY_PREDICATE ( ) 
+ ``72057594037927936 ( ) 
+ ``CONSTANT_IS_NEGATIVE ( ) 
+ ``144115188075855872 ( ) 
+ ``CONDITIONAL_IDIOM ( ) 
+ ``288230376151711744 ( ) 
+ ``NO_PROPER_MERGE ( ) 
+ ``576460752303423488 ( ) 
+ ``MARKED_WORD ( ) 
+ ``1152921504606846976 ( ) 
+ ``PATTERN_WORD ( ) 
+ ``2305843009213693952 ( ) 
+ ``DELAYED_RECURSIVE_DIRECT_MEMBER ( ) 
+ ``4611686018427387904 ( ) 
+ ``EXTENT_ADVERB ( ) 
+ ``-9223372036854775808 ( ) 
+ ```FACTITIVE_ADJECTIVE_VERB ( ) 
+ ```1 ( ) 
+ ```FACTITIVE_NOUN_VERB ( ) 
+ ```2 ( ) 
+ ```ADJECTIVE_GOOD_SUBJECT_COMPLEMENT ( ) 
+ ```4 ( ) 
+ ```QUOTEABLE_VERB ( ) 
+ ```8 ( ) 
+ ```ADJECTIVE_TAKING_NOUN_INFINITIVE ( ) 
+ ```16 ( ) 
+ ```OMITTABLE_THAT_VERB ( ) 
+ ```32 ( ) 
+ ```NEGATIVE_ADVERB_STARTER ( ) 
+ ```64 ( ) 
+ ```NON_COMPLEMENT_ADJECTIVE ( ) 
+ ```NON ( ) 
+ ```128 ( ) 
+ ```PREP_ALLOWS_UNDETERMINED_NOUN ( ) 
+ ```PREP ( ) 
+ ```256 ( ) 
+ ```CONJUNCTIONS_OF_TIME ( ) 
+ ```CONJUNCTIONS ( ) 
+ ```512 ( ) 
+ ```CONJUNCTIONS_OF_SPACE ( ) 
+ ```1024 ( ) 
+ ```CONJUNCTIONS_OF_ADVERB ( ) 
+ ```2048 ( ) 
+ ```NONDESCRIPTIVE_ADJECTIVE ( ) 
+ ```4096 ( ) 
+ ```NEGATIVE_SV_INVERTER ( ) 
+ ```8192 ( ) 
+ ```LOCATIONAL_INVERTER ( ) 
+ ```16384 ( ) 
+ ```ADVERB_POSTADJECTIVE ( ) 
+ ```32768 ( ) 
+ ```QUANTITY_NOUN ( ) 
+ ```QUANTITY ( ) 
+ ```65536 ( ) 
+ ```CONJUNCTIVE_ADVERB ( ) 
+ ```CONJUNCTIVE ( ) 
+ ```131072 ( ) 
+ ```CORRELATIVE_ADVERB ( ) 
+ ```CORRELATIVE ( ) 
+ ```262144 ( ) 
+ ```POTENTIAL_CLAUSE_STARTER ( ) 
+ ```POTENTIAL ( ) 
+ ```524288 ( ) 
+ ```VERB_ALLOWS_OF_AFTER ( ) 
+ ```1048576 ( ) 
+ ```INDEFINITE_PRONOUN ( ) 
+ ```INDEFINITE ( ) 
+ ```2097152 ( ) 
+ ```PERSONAL_PRONOUN ( ) 
+ ```PERSONAL ( ) 
+ ```4194304 ( ) 
+ ```ADJECTIVE_NOT_PRE ( ) 
+ ```ADJECTIVE ( ) 
+ ```8388608 ( ) 
+ ```OBJECT_AS_ADJECTIVE ( ) 
+ ```OBJECT ( ) 
+ ```16777216 ( ) 
+ ```DISTANCE_NOUN ( ) 
+ ```DISTANCE ( ) 
+ ```33554432 ( ) 
+ ```DISTANCE_ADVERB ( ) 
+ ```67108864 ( ) 
+ ```TIME_ADVERB ( ) 
+ ```TIME ( ) 
+ ```134217728 ( ) 
+ ```TIME_NOUN ( ) 
+ ```268435456 ( ) 
+ ```TIME_ADJECTIVE ( ) 
+ ```536870912 ( ) 
+ ```DISTANCE_ADJECTIVE ( ) 
+ ```1073741824 ( ) 
+ ```OF_PROPER ( ) 
+ ```OF ( ) 
+ ```2147483648 ( ) 
+ ````HAS_SUBSTITUTE ( ) 
+ ````FACTATTRIBUTE ( ) 
+ ````MARKED_FACT ( ) 
+ ````MARKED ( ) 
+ ````ITERATOR_FACT ( ) 
+ ````ITERATOR ( ) 
+ ````MARKED_FACT2 ( ) 
+ ````FACTDEAD ( ) 
+ ````FACTTRANSIENT ( ) 
+ ````FACTAUTODELETE ( ) 
+ ````ORIGINAL_ONLY ( ) 
+ ````ORIGINAL ( ) 
+ ````FACTBUILD2 ( ) 
+ ````FACTBUILD1 ( ) 
+ ````USER_FLAG4 ( ) 
+ ````USER ( ) 
+ ````USER_FLAG3 ( ) 
+ ````USER_FLAG2 ( ) 
+ ````USER_FLAG1 ( ) 
+ ````USER_FLAGS ( ) 
+ ````SYSTEM_FLAGS ( ) 
+ ````SYSTEM ( ) 
+ ````JSON_OBJECT_FACT ( ) 
+ ````JSON_ARRAY_FACT ( ) 
+ ````JSON_ARRAY_VALUE ( ) 
+ ````JSON_OBJECT_VALUE ( ) 
+ ````JSON ( ) 
+ ````JSON_STRING_VALUE ( ) 
+ ````JSON_PRIMITIVE_VALUE ( ) 
+ ````JSON_FLAGS ( ) 
+ ````FACTSUBJECT ( ) 
+ ````FACTVERB ( ) 
+ ````FACTOBJECT ( ) 
+ ````FACTDUPLICATE ( ) 
+ ````MAINOBJECT ( ) 
+ ````MAININDIRECTOBJECT ( ) 
+ ````MAINVERB ( ) 
+ ````MAINSUBJECT ( ) 
+ ````SUBJECT2 ( ) 
+ ````VERB2 ( ) 
+ ````INDIRECTOBJECT2 ( ) 
+ ````OBJECT2 ( ) 
+ ````CLAUSE ( ) 
+ ````VERBAL ( ) 
+ ````PHRASE ( ) 
+ ````QUOTATION_UTTERANCE ( ) 
+ ````OBJECT_COMPLEMENT ( ) 
+ ````TO_INFINITIVE_OBJECT ( ) 
+ ````VERB_INFINITIVE_OBJECT ( ) 
+ ````OMITTED_SUBJECT_VERB ( ) 
+ ````CONJUNCT_CLAUSE ( ) 
+ ````CONJUNCT ( ) 
+ ````CONJUNCT_SENTENCE ( ) 
+ ````CONJUNCT_NOUN ( ) 
+ ````CONJUNCT_VERB ( ) 
+ ````CONJUNCT_ADJECTIVE ( ) 
+ ````CONJUNCT_ADVERB ( ) 
+ ````CONJUNCT_PHRASE ( ) 
+ ````CONJUNCT_KINDS ( ) 
+ ````SENTENCE_END ( ) 
+ ````SENTENCE ( ) 
+ ````WHENUNIT ( ) 
+ ````WHEREUNIT ( ) 
+ ````WHYUNIT ( ) 
+ ````HOWUNIT ( ) 
+ ````ADVERBIALTYPE ( ) 
+ ````REFLEXIVE ( ) 
+ ````COMMA_PHRASE ( ) 
+ ````COMMA ( ) 
+ ````BYOBJECT2 ( ) 
+ ````OFOBJECT2 ( ) 
+ ````POSTNOMINAL_ADJECTIVE ( ) 
+ ````POSTNOMINAL ( ) 
+ ````APPOSITIVE ( ) 
+ ````ADJECTIVE_COMPLEMENT ( ) 
+ ````ADJECTIVE ( ) 
+ ````ABSOLUTE_PHRASE ( ) 
+ ````ABSOLUTE ( ) 
+ ````SUBJECT_COMPLEMENT ( ) 
+ ````SUBJECT ( ) 
+ ````OMITTED_OF_PREP ( ) 
+ ````OMITTED ( ) 
+ ````OMITTED_TIME_PREP ( ) 
+ ````ADVERBIAL ( ) 
+ ````ADJECTIVAL ( ) 
+ ````ADDRESS ( ) 
+ ````TAGQUESTION ( ) 
+ ````DISTANCE_NOUN_MODIFY_ADVERB ( ) 
+ ````DISTANCE ( ) 
+ ````TIME_NOUN_MODIFY_ADVERB ( ) 
+ ````TIME ( ) 
+ ````TIME_NOUN_MODIFY_ADJECTIVE ( ) 
+ ````DISTANCE_NOUN_MODIFY_ADJECTIVE ( ) 
+ ````TOPIC_KEEP ( ) 
+ ````TOPIC_REPEAT ( ) 
+ ````TOPIC_RANDOM ( ) 
+ ````TOPIC_SYSTEM ( ) 
+ ````TOPIC_NOSTAY ( ) 
+ ````TOPIC_PRIORITY ( ) 
+ ````TOPIC_LOWPRIORITY ( ) 
+ ````TOPIC_NOBLOCKING ( ) 
+ ````TOPIC ( ) 
+ ````TOPIC_NOKEYS ( ) 
+ ````TOPIC_NOPATTERNS ( ) 
+ ````TOPIC_NOSAMPLES ( ) 
+ ````TOPIC_NOGAMBITS ( ) 
+ ````TOPIC_SAFE ( ) 
+ ````TOPIC_SHARE ( ) 
+ ````TOPIC_RANDOM_GAMBIT ( ) 
+ ````TOPIC_GAMBITTED ( ) 
+ ````TOPIC_RESPONDED ( ) 
+ ````TOPIC_REJOINDERED ( ) 
+ ````ACCESS_FLAGS ( ) 
+ ````ACCESS ( ) 
+ ````TOPIC_BLOCKED ( ) 
+ ````TOPIC_USED ( ) 
+ ````TRANSIENT_FLAGS ( ) 
+ ````TRANSIENT ( ) 
+ ````TRACE_ON ( ) 
+ ````TRACE_MATCH ( ) 
+ ````TRACE_VARIABLE ( ) 
+ ````TRACE_PREPARE ( ) 
+ ````TRACE_OUTPUT ( ) 
+ ````TRACE_PATTERN ( ) 
+ ````TRACE_HIERARCHY ( ) 
+ ````TRACE_INFER ( ) 
+ ````TRACE ( ) 
+ ````TRACE_SUBSTITUTE ( ) 
+ ````TRACE_FACT ( ) 
+ ````TRACE_VARIABLESET ( ) 
+ ````TRACE_USERFN ( ) 
+ ````TRACE_USER ( ) 
+ ````TRACE_POS ( ) 
+ ````TRACE_QUERY ( ) 
+ ````TRACE_TCP ( ) 
+ ````TRACE_USERCACHE ( ) 
+ ````TRACE_SQL ( ) 
+ ````TRACE_LABEL ( ) 
+ ````TRACE_SAMPLE ( ) 
+ ````TRACE_INPUT ( ) 
+ ````TRACE_SPELLING ( ) 
+ ````TRACE_TOPIC ( ) 
+ ````TRACE_SCRIPT ( ) 
+ ````TRACE_JSON ( ) 
+ ````TRACE_NOT_THIS_TOPIC ( ) 
+ ````TRACE_FLOW ( ) 
+ ````TRACE_COVERAGE ( ) 
+ ````TRACE_ALWAYS ( ) 
+ ````TRACE_ECHO ( ) 
+ ````TRACE_USERFACT ( ) 
+ ````TIME_ON ( ) 
+ ````TIME_PREPARE ( ) 
+ ````TIME_PATTERN ( ) 
+ ````TIME_USERFN ( ) 
+ ````TIME_USER ( ) 
+ ````TIME_QUERY ( ) 
+ ````TIME_TCP ( ) 
+ ````TIME_USERCACHE ( ) 
+ ````TIME_SQL ( ) 
+ ````TIME_TOPIC ( ) 
+ ````TIME_JSON ( ) 
+ ````TIME_NOT_THIS_TOPIC ( ) 
+ ````TIME_FLOW ( ) 
+ ````TIME_ALWAYS ( ) 
+ ````DISCARD ( ) 
+ ````KEEP ( ) 
+ ````ONE_REJOINDER ( ) 
+ ````ONE ( ) 
+ ````HAS ( ) 
+ ````IS ( ) 
+ ````INCLUDE ( ) 
+ ````CANONLYBE ( ) 
+ ````HASORIGINAL ( ) 
+ ````PRIORPOS ( ) 
+ ````POSTPOS ( ) 
+ ````PASSIVEVERB ( ) 
+ ````HASPROPERTY ( ) 
+ ````HASALLPROPERTIES ( ) 
+ ````HASCANONICALPROPERTY ( ) 
+ ````NOTPOSSIBLEVERBPARTICLEPAIR ( ) 
+ ````PARSEMARK ( ) 
+ ````ISORIGINAL ( ) 
+ ````ISCANONICAL ( ) 
+ ````PRIORCANONICAL ( ) 
+ ````ISMEMBER ( ) 
+ ````PRIORORIGINAL ( ) 
+ ````POSTORIGINAL ( ) 
+ ````POSITION ( ) 
+ ````START ( ) 
+ ````END ( ) 
+ ````RESETLOCATION ( ) 
+ ````HAS2VERBS ( ) 
+ ````ISQWORD ( ) 
+ ````ISQUESTION ( ) 
+ ````ISABSTRACT ( ) 
+ ````POSSIBLEINFINITIVE ( ) 
+ ````POSSIBLEADJECTIVE ( ) 
+ ````POSSIBLETOLESSVERB ( ) 
+ ````POSSIBLEADJECTIVEPARTICIPLE ( ) 
+ ````HOWSTART ( ) 
+ ````POSSIBLEPHRASAL ( ) 
+ ````POSSIBLEPARTICLE ( ) 
+ ````ISCOMPARATIVE ( ) 
+ ````ISEXCLAIM ( ) 
+ ````ISORIGINALMEMBER ( ) 
+ ````ISSUPERLATIVE ( ) 
+ ````SINGULAR ( ) 
+ ````ISPROBABLE ( ) 
+ ````PLURAL ( ) 
+ ````LASTCONTROL ( ) 
+ ````SKIP ( ) 
+ ````STAY ( ) 
+ ````NOTCONTROL ( ) 
+ ````DO_ESSENTIALS ( ) 
+ ````DO_SUBSTITUTES ( ) 
+ ````DO_CONTRACTIONS ( ) 
+ ````DO_INTERJECTIONS ( ) 
+ ````DO_BRITISH ( ) 
+ ````DO_SPELLING ( ) 
+ ````DO_TEXTING ( ) 
+ ````DO_NOISE ( ) 
+ ````DO ( ) 
+ ````DO_PRIVATE ( ) 
+ ````DO_NUMBER_MERGE ( ) 
+ ````DO_PROPERNAME_MERGE ( ) 
+ ````DO_SPELLCHECK ( ) 
+ ````DO_INTERJECTION_SPLITTING ( ) 
+ ````DO_POSTAG ( ) 
+ ````DO_PARSE ( ) 
+ ````NO_IMPERATIVE ( ) 
+ ````NO_WITHIN ( ) 
+ ````NO ( ) 
+ ````DO_DATE_MERGE ( ) 
+ ````NO_SENTENCE_END ( ) 
+ ````NO_INFER_QUESTION ( ) 
+ ````DO_SUBSTITUTE_SYSTEM ( ) 
+ ````PRESENT ( ) 
+ ````PAST ( ) 
+ ````FUTURE ( ) 
+ ````PRESENT_PERFECT ( ) 
+ ````CONTINUOUS ( ) 
+ ````PERFECT ( ) 
+ ````PASSIVE ( ) 
+ ````NO_HYPHEN_END ( ) 
+ ````NO_COLON_END ( ) 
+ ````NO_SEMICOLON_END ( ) 
+ ````STRICT_CASING ( ) 
+ ````STRICT ( ) 
+ ````ONLY_LOWERCASE ( ) 
+ ````ONLY ( ) 
+ ````TOKEN_AS_IS ( ) 
+ ````TOKEN ( ) 
+ ````SPLIT_QUOTE ( ) 
+ ````SPLIT ( ) 
+ ````LEAVE_QUOTE ( ) 
+ ````LEAVE ( ) 
+ ````UNTOUCHED_INPUT ( ) 
+ ````UNTOUCHED ( ) 
+ ````QUESTIONMARK ( ) 
+ ````EXCLAMATIONMARK ( ) 
+ ````PERIODMARK ( ) 
+ ````USERINPUT ( ) 
+ ````COMMANDMARK ( ) 
+ ````IMPLIED_YOU ( ) 
+ ````IMPLIED ( ) 
+ ````FOREIGN_TOKENS ( ) 
+ ````FOREIGN ( ) 
+ ````FAULTY_PARSE ( ) 
+ ````FAULTY ( ) 
+ ````QUOTATION ( ) 
+ ````NOT_SENTENCE ( ) 
+ ````NOT ( ) 
+ ````NO_PROPER_SPELLCHECK ( ) 
+ ````NO_LOWERCASE_PROPER_MERGE ( ) 
+ ````DO_SPLIT_UNDERSCORE ( ) 
+ ````MARK_LOWER ( ) 
+ ````NO_FIX_UTF ( ) 
+ ````NO_CONDITIONAL_IDIOM ( ) 
+ ````JSON_DIRECT_FROM_OOB ( ) 
+ ````SENTENCE_TOKENFLAGS ( ) 
+ ````OUTPUT_ONCE ( ) 
+ ````OUTPUT_KEEPSET ( ) 
+ ````OUTPUT_KEEPVAR ( ) 
+ ````OUTPUT_KEEPQUERYSET ( ) 
+ ````OUTPUT_SILENT ( ) 
+ ````OUTPUT_NOCOMMANUMBER ( ) 
+ ````OUTPUT_NOTREALBUFFER ( ) 
+ ````OUTPUT_ISOLATED_PERIOD ( ) 
+ ````OUTPUT ( ) 
+ ````OUTPUT_NOQUOTES ( ) 
+ ````OUTPUT_LOOP ( ) 
+ ````OUTPUT_UNTOUCHEDSTRING ( ) 
+ ````OUTPUT_FACTREAD ( ) 
+ ````OUTPUT_EVALCODE ( ) 
+ ````OUTPUT_DQUOTE_FLIP ( ) 
+ ````OUTPUT_ECHO ( ) 
+ ````OUTPUT_STRING_EVALED ( ) 
+ ````OUTPUT_NOUNDERSCORE ( ) 
+ ````OUTPUT_FNDEFINITION ( ) 
+ ````OUTPUT_RAW ( ) 
+ ````OUTPUT_RETURNVALUE_ONLY ( ) 
+ ````OUTPUT_FULLFLOAT ( ) 
+ ````RESPONSE_UPPERSTART ( ) 
+ ````RESPONSE_REMOVESPACEBEFORECOMMA ( ) 
+ ````RESPONSE ( ) 
+ ````RESPONSE_ALTERUNDERSCORES ( ) 
+ ````RESPONSE_REMOVETILDE ( ) 
+ ````RESPONSE_NOCONVERTSPECIAL ( ) 
+ ````ALL_RESPONSES ( ) 
+ ````ALL ( ) 
+ ````ASSIGNMENT ( ) 
+ _ACRNM ( ) 
+ _ADJ ( ADJECTIVE ) 
+ _ADV ( ADVERB ) 
+ _ALFS ( ) 
+ _ART ( DETERMINER ) 
+ _BACKSLASH ( ) 
+ _CARD ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ _CC ( CONJUNCTION_COORDINATE ) 
+ _CCAD ( CONJUNCTION_COORDINATE ) 
+ _CCNEG ( CONJUNCTION_COORDINATE ) 
+ _CM ( ) 
+ _CODE ( ) 
+ _COLON ( ) 
+ _CQUE ( ) 
+ _CSUBF ( CONJUNCTION_SUBORDINATE ) 
+ _CSUBI ( CONJUNCTION_SUBORDINATE ) 
+ _CSUBX ( CONJUNCTION_SUBORDINATE ) 
+ _DASH ( ) 
+ _DM ( PRONOUN_SUBJECT PRONOUN_OBJECT ) 
+ _DOTS ( ) 
+ _FS ( ) 
+ _INT ( ) 
+ _ITJN ( ) 
+ _LP ( ) 
+ _NC ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ _NEG ( ) 
+ _NMEA ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ _NMON ( NOUN NOUN_SINGULAR ) 
+ _NP ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ _ORD ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ _PAL ( ) 
+ _PDEL ( ) 
+ _PE ( ) 
+ _PERCT ( ) 
+ _PPC ( PRONOUN_SUBJECT PRONOUN_OBJECT ) 
+ _PPO ( PRONOUN_SUBJECT PRONOUN_OBJECT ) 
+ _PPX ( PRONOUN_SUBJECT PRONOUN_OBJECT ) 
+ _PREP ( PREPOSITION ) 
+ _PREP/DEL ( PREPOSITION ) 
+ _QT ( ) 
+ _QU ( ) 
+ _REL ( PRONOUN_SUBJECT PRONOUN_OBJECT ) 
+ _RP ( ) 
+ _SE ( ) 
+ _SEMICOLON ( ) 
+ _SLASH ( ) 
+ _SYM ( ) 
+ _UMMX ( NOUN NOUN_SINGULAR ) 
+ _VCLIger ( NOUN NOUN_GERUND ) 
+ _VCLIinf ( VERB_INFINITIVE VERB ) 
+ _VEadj ( VERB_PAST_PARTICIPLE VERB ) 
+ _VEfin ( VERB ) 
+ _VEger ( NOUN NOUN_GERUND ) 
+ _VEinf ( VERB_INFINITIVE VERB ) 
+ _VHadj ( VERB_PAST_PARTICIPLE VERB ) 
+ _VHfin ( VERB ) 
+ _VHger ( NOUN NOUN_GERUND ) 
+ _VHinf ( VERB ) 
+ _VLadj ( VERB_PAST_PARTICIPLE VERB ) 
+ _VLfin ( VERB ) 
+ _VLger ( NOUN NOUN_GERUND ) 
+ _VLinf ( VERB ) 
+ _VMadj ( VERB_PAST_PARTICIPLE VERB ) 
+ _VMfin ( VERB ) 
+ _VMger ( NOUN NOUN_GERUND ) 
+ _VMinf ( VERB ) 
+ _VSadj ( VERB_PAST_PARTICIPLE VERB ) 
+ _VSfin ( VERB ) 
+ _VSger ( NOUN NOUN_GERUND ) 
+ _VSinf ( VERB ) 
+ ! ( ) 
  " ( ) 
+ # ( ) 
+ $ ( ) 
+ % ( ) 
+ & ( ) 
+ ' ( ) 
+ ( ( ) 
+ ) ( ) 
+ * ( ) 
+ ** ( ) 
+ **** ( ) 
+ + ( ) 
+ +10 ( ) 
+ +15 ( ) 
+ +2 ( ) 
+ +3 ( ) 
+ +5 ( ) 
+ +8 ( ) 
+ , ( ) 
+ - ( ) 
+ -- ( ) 
+ . ( ) 
+ .. ( ) lemma=. 
+ ... ( ) lemma=. 
+ .... ( ) lemma=. 
+ / ( ) 
+ : ( ) 
+ ; ( ) 
+ < ( ) 
+ = ( ) 
+ > ( ) 
+ ? ( ) 
+ ???? ( ) lemma=? 
+ @ ( ) 
+ [ ( ) 
+ \ ( ) 
+ ] ( ) 
+ ^` ( ) lemma=^ 
+ ` ( ) 
+ { ( ) 
+ | ( ) 
+ } ( ) 
+ ¡ ( ) lemma=! 
+ £ ( ) 
+ § ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ « ( ) 
+ ­ ( ) lemma=- 
+ ° ( ) 
+ ºc ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ » ( ) 
+ ¿ ( ) lemma=? 
+ Á ( ) 
+ África ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Ámbito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ámbito 
+ Árabe ( ADJECTIVE ) lemma=árabe 
+ Ártico ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Ä ( ) 
+ É ( ) 
+ Écija ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Él ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=él 
+ Ésta ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ Éstas ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ Éste ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ Éstos ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ Ë ( ) 
+ Í ( ) 
+ ÍNDICE ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=índice 
+ Ícaro ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Índice ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=índice 
+ Índico ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Ï ( ) 
+ Ñ ( ) lemma=ñ 
+ Ó ( CONJUNCTION_COORDINATE ) lemma=o 
+ ÓRGANOS ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=órgano 
+ Órgano ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=órgano 
+ Ö ( ) 
+ Ú ( ) 
+ Última ( ADJECTIVE ) lemma=último 
+ Únicamente ( ADVERB ) lemma=únicamente 
+ Ü ( ) 
+ Ý ( ) 
+ á ( ) 
+ ábacos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ábaco 
+ ábrelo ( ) lemma=abrir 
+ ábside ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ácaro ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ácaros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ácaro 
+ ácida ( ADJECTIVE ) lemma=ácido 
+ ácidas ( ADJECTIVE ) lemma=ácido 
+ ácido ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ ácido-base ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ácidos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=ácido 
+ ágape ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ágata ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ágil ( ADJECTIVE ) 
+ ágiles ( ADJECTIVE ) lemma=ágil 
+ ágilmente ( ADVERB ) lemma=ágil 
+ águila ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ águilas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=águila 
+ álamo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ álamos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=álamo 
+ álbum ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ álbumes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=álbum 
+ álcalis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=álcali 
+ álgebras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=álgebra 
+ álgida ( ADJECTIVE ) lemma=álgido 
+ álgido ( ADJECTIVE ) 
+ álgidos ( ADJECTIVE ) lemma=álgido 
+ ámbar ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ámbito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ámbitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ámbito 
+ ándale ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=ándele 
+ ángel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ángeles ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=ángel 
+ ángulo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ángulos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ángulo 
+ ánimo ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ ánimos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ánimo 
+ ánodo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ápice ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ árabe ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ árabes ( ADJECTIVE ) lemma=árabe 
+ árbitro ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ árbitros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=árbitro 
+ árbol ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ árboles ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=árbol 
+ área ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ áreas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=área 
+ árida ( ADJECTIVE ) lemma=árido 
+ áridas ( ADJECTIVE ) lemma=árido 
+ árido ( ADJECTIVE ) 
+ áridos ( ADJECTIVE ) lemma=árido 
+ ármate ( ) lemma=armar 
+ áspera ( ADJECTIVE ) lemma=áspero 
+ ásperas ( ADJECTIVE ) lemma=áspero 
+ áspero ( ADJECTIVE ) 
+ ásperos ( ADJECTIVE ) lemma=áspero 
+ átomo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ átomos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=átomo 
+ ávida ( ADJECTIVE ) lemma=ávido 
+ ávidamente ( ADVERB ) 
+ ávidas ( ADJECTIVE ) lemma=ávido 
+ ávido ( ADJECTIVE ) 
+ ávidos ( ADJECTIVE ) lemma=ávido 
+ ä ( ) 
+ é ( ) 
+ échale ( ) lemma=echar 
+ échame ( ) lemma=echar 
+ échange ( ) 
+ échappement ( ) 
+ échec ( ) 
+ échennos ( VERB ) lemma=echar 
+ écoute ( ) 
+ écouteur ( ) 
+ écriture ( ) 
+ él ( PRONOUN_SUBJECT PRONOUN_OBJECT ) 
+ électrique ( ) 
+ électroacoustique ( ) 
+ élite ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ élites ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=élite 
+ élément ( ) 
+ élémentaire ( ) 
+ éléments ( ) 
+ émbolos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=émbolo 
+ émetteur ( ) 
+ émission ( ) 
+ émulo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ émulos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=émulo 
+ énfasis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ épica ( ADJECTIVE ) lemma=épico 
+ épico ( ADJECTIVE ) 
+ épicos ( ADJECTIVE ) lemma=épico 
+ época ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ épocas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=época 
+ équilibrage ( ) 
+ équipement ( ) 
+ équivalent ( ) 
+ équivalente ( ) 
+ équivalents ( ) 
+ éramos ( VERB ) lemma=ser 
+ ésa ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=ese 
+ ésas ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=ese 
+ ése ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=ese 
+ ésima ( ADJECTIVE_NUMBER NOUN_NUMBER ) lemma=ésimo 
+ ésimo ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ ésos ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=ese 
+ ésta ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ éstas ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ éste ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ éster ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ésteres ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=éster 
+ ésto ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ éstos ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=este 
+ établie ( ) 
+ établissement ( ) 
+ étage ( ) 
+ état ( ) 
+ éter ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ éteres ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=éter 
+ ética ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=ético 
+ éticamente ( ADVERB ) lemma=ético 
+ éticas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=ético 
+ ético ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ éticos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=ético 
+ étnica ( ADJECTIVE ) lemma=étnico 
+ étnicamente ( ADVERB ) lemma=étnico 
+ étnicas ( ADJECTIVE ) lemma=étnico 
+ étnico ( ADJECTIVE ) 
+ étnicos ( ADJECTIVE ) lemma=étnico 
+ éxito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ éxitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=éxito 
+ éxodo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ éxodos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=éxodo 
+ éxtasis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ë ( ) 
+ í ( ) 
+ ía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ íbamos ( VERB ) lemma=ir 
+ íctero ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ídem ( ADVERB ) 
+ ídolo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ídolos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ídolo 
+ ígneas ( ADJECTIVE ) lemma=ígneo 
+ íleo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ íleon ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ímpetu ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ímpetus ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ímpetu 
+ índice ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ índices ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=índice 
+ índole ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ índoles ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=índole 
+ ínfima ( ADJECTIVE ) lemma=bajo 
+ ínfimas ( ADJECTIVE ) lemma=bajo 
+ ínfimo ( ADJECTIVE ) lemma=bajo 
+ ínfimos ( ADJECTIVE ) lemma=bajo 
+ íntegra ( ADJECTIVE ) lemma=íntegro 
+ íntegramente ( ADVERB ) lemma=íntegro 
+ íntegras ( ADJECTIVE ) lemma=íntegro 
+ íntegro ( ADJECTIVE ) 
+ íntegros ( ADJECTIVE ) lemma=íntegro 
+ íntima ( ADJECTIVE ) lemma=íntimo 
+ íntimamente ( ADVERB ) lemma=íntimo 
+ íntimas ( ADJECTIVE ) lemma=íntimo 
+ íntimo ( ADJECTIVE ) 
+ íntimos ( ADJECTIVE ) lemma=íntimo 
+ írsela ( VERB ) lemma=ir 
+ ítem ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ítems ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ítem 
+ ï ( ) 
+ ñ ( ) 
+ ñato ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ ó ( CONJUNCTION_COORDINATE ) lemma=o 
+ óbito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ óiganme ( VERB ) lemma=oír 
+ óleo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ óleos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=óleo 
+ ómnibus ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ópera ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ óperas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ópera 
+ óptica ( ADJECTIVE ) lemma=óptico 
+ ópticamente ( ADVERB ) 
+ ópticas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=óptica 
+ óptico ( ADJECTIVE ) 
+ ópticos ( ADJECTIVE ) lemma=óptico 
+ óptima ( ADJECTIVE ) lemma=óptimo 
+ óptimamente ( ADVERB ) lemma=óptimo 
+ óptimas ( ADJECTIVE ) lemma=óptimo 
+ óptimo ( ADJECTIVE ) 
+ óptimos ( ADJECTIVE ) lemma=óptimo 
+ órale ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ órbita ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ órbitas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=órbita 
+ órdenes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=orden 
+ órgano ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ órganos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=órgano 
+ ósale ( ) lemma=osar 
+ ósea ( ADJECTIVE ) lemma=óseo 
+ óseas ( ADJECTIVE ) lemma=óseo 
+ óseo ( ADJECTIVE ) 
+ óseos ( VERB ADJECTIVE ) lemma=óseo 
+ ósmosis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ óvalo ( ) lemma=ovar 
+ óvulo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ óvulos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=óvulo 
+ óxido ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ óxidos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=óxido 
+ óyeme ( VERB ) lemma=oír 
+ ö ( ) 
+ ú ( ) 
+ újule ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ úlcera ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ úlceras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=úlcera 
+ última ( ADJECTIVE ) lemma=último 
+ últimamente ( ADVERB ) lemma=último 
+ últimas ( ADJECTIVE ) lemma=último 
+ último ( ADJECTIVE ) 
+ últimos ( ADJECTIVE ) lemma=último 
+ únanse ( VERB ) lemma=unir 
+ única ( ADJECTIVE ) lemma=único 
+ únicamente ( ADVERB ) lemma=único 
+ únicas ( ADJECTIVE ) lemma=único 
+ único ( ADJECTIVE ) 
+ únicos ( ADJECTIVE ) lemma=único 
+ úrico ( ADJECTIVE ) 
+ útero ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ úteros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=útero 
+ útil ( ADJECTIVE ) 
+ útiles ( ADJECTIVE ) lemma=útil 
+ útilmente ( ADVERB ) lemma=útil 
+ úvula ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ü ( ) 
+ ý ( ) 
+ ÿ ( ) 
+ — ( ) lemma=-- 
+ “ ( ) 
+ ” ( ) lemma=" 
+ … ( ) lemma=. 
+ ^ ( ) 
+ àulico ( ) 
+ ábaco ( ) 
+ álcali ( ) 
+ álgebra ( ) 
+ ándele ( ) 
+ émbolo ( ) 
+ ígneo ( ) 

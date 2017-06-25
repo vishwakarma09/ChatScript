@@ -758,8 +758,11 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 	if (*priorToken != '/' && IsFraction(token)) return after; // fraction?
 
 	// check for date (4 digit after hyphen or before hypen)
-	if (IsDigit(token[0]) &&  IsDigit(token[1]) && IsDigit(token[2]) && IsDigit(token[3]) &&
-		(token[4] == '-' || token[4] == '/')) return ptr + 4; // year separate at front
+	if (IsDigit(token[0]) && IsDigit(token[1]) && IsDigit(token[2]) && IsDigit(token[3]) &&
+		(token[4] == '-' || token[4] == '/'))
+	{
+		if (IsDigit(token[5])) return ptr + strlen(token);
+	}
 	int pre = lsize - 5; // year separate at back
 	if ((token[pre] == '-' || token[pre] == '/') && IsDigit(token[pre+1]) &&  IsDigit(token[pre+2]) && IsDigit(token[pre+3]) && IsDigit(token[pre+4]))
 	{

@@ -1,8 +1,4 @@
-﻿ 0 ( ) lemma=80H 
+﻿ 0 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  00IGP ( ) 
  01IP ( ) 
  0a ( ) 
- 0IG ( ) lemma=00IGP 
- 0I ( ) lemma=10IP 
- 00 ( ) lemma=X000 
- 01 ( ) lemma=X011 

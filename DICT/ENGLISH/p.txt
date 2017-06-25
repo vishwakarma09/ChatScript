@@ -23959,6 +23959,8 @@
     Paleolithic~1n 
  Platonic_year ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
     great_year~1nz (^period~3) time required for one complete cycle of the precession of the equinoxes, about 25,800 years
+ picosecond ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR KINDERGARTEN posdefault:NOUN TIMEWORD ) 
+    picosecond~1nz (^unit_of_time~1) one trillionth of a second
  peak_season ( meanings=1 NOUN NOUN_SINGULAR ) 
     high_season~1n 
  preseason ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 COMMON1 posdefault:NOUN ) 
@@ -24488,7 +24490,6 @@
     pray~2vz address a deity, a prophet, a saint or an object of worship
  pupal ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 posdefault:ADJECTIVE ) 
     pupal~1az of the insects in the chrysalis or post larval stage
- picosecond ( ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER ORDINAL KINDERGARTEN posdefault:NOUN TIMEWORD QUANTITY_NOUN ) 
  parturient ( meanings=2 glosses=2 ADJECTIVE ADJECTIVE_NORMAL COMMON2 posdefault:ADJECTIVE ) 
     parturient~1az giving birth
     parturient~2az of or relating to or giving birth

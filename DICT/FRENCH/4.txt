@@ -1,4 +1,2 @@
-﻿ 4e ( ) 
- 4ème ( ) 
- 4 ( ) lemma=14e 
- 4èm ( ) lemma=14ème 
+﻿ 4e ( NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4ème ( NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER ) 

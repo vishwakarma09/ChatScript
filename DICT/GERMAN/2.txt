@@ -1,1399 +1,1202 @@
-﻿ 2 ( ) lemma=Z23 
+﻿ 2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  2,0%- ( ) 
- 2,1 ( ) 
+ 2,1 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  2,1%- ( ) 
- 2,11-m-Riese ( ) 
- 2,2 ( ) 
- 2,20-Meter-Riese ( ) 
- 2,25 ( ) 
+ 2,11-m-Riese ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2,2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2,20-Meter-Riese ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2,25 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  2,3%- ( ) 
- 2,4 ( ) 
+ 2,4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  2,4- ( ) 
- 2,418/421 ( ) 
- 2,4fache ( ) 
- 2,5 ( ) lemma=12,50 
+ 2,418/421 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2,4fache ( ADJECTIVE ) lemma=2,4fach 
+ 2,5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  2,5- ( ) 
  2,5-Milliarden- ( ) 
- 2,5-Millionen-Loch ( ) 
- 2,5-Minuten-Spots ( ) 
- 2,5-fache ( ) 
- 2,50 ( ) 
- 2,5fache ( ) 
- 2,6 ( ) 
- 2,6fache ( ) 
- 2,7 ( ) 
- 2,8 ( ) 
- 2,8450/60 ( ) 
- 2,9 ( ) 
- 2- ( ) lemma=42-A 
- 2-4-5-T ( ) 
- 2-A ( ) 
- 2-Abgabe ( ) 
- 2-Abgaben ( ) 
- 2-Abgase ( ) 
- 2-Abgasen ( ) 
- 2-Anstieg ( ) 
- 2-Anteil ( ) 
- 2-Auftritt ( ) 
- 2-Ausstoss ( ) 
- 2-Ausstosses ( ) 
- 2-Ausstoß ( ) 
- 2-Ausstoßes ( ) 
- 2-Basisstation ( ) 
- 2-Beitrag ( ) 
- 2-Belastung ( ) 
- 2-Beschluss ( ) 
- 2-Beschluß ( ) 
- 2-Betreiber ( ) 
- 2-Bilanz ( ) 
- 2-Bomber ( ) 
- 2-Chef ( ) 
- 2-Crime-Story ( ) 
- 2-Divisions-Konzept ( ) 
- 2-Einsparung ( ) 
- 2-Einsparungen ( ) 
- 2-Emission ( ) 
- 2-Emissionen ( ) 
- 2-Energiesteuer ( ) 
- 2-Ethoxy-2-methylpropan ( ) 
- 2-Ethylidin-1,5-Dimethyl ( ) 
- 2-Flug ( ) 
- 2-Format ( ) 
- 2-Fracht ( ) 
- 2-Frachten ( ) 
- 2-Gebäude ( ) 
- 2-Gebäudes ( ) 
- 2-Gedenkfeier ( ) 
- 2-Gehalt ( ) 
- 2-Gehalts ( ) 
- 2-Geschäftsführer ( ) 
- 2-Gesellschaft ( ) 
- 2-Gesellschafter ( ) 
- 2-Gespräche ( ) 
- 2-Gesprächen ( ) 
- 2-Gruppe ( ) 
- 2-Halbierung ( ) 
- 2-Hörspiel ( ) 
- 2-Jugend ( ) 
- 2-Jugend-Gruppe ( ) 
- 2-Komponente ( ) 
- 2-Konzentration ( ) 
- 2-Konzentrationen ( ) 
- 2-Kreislauf ( ) 
- 2-Kultur ( ) 
- 2-Kurzzüge ( ) 
- 2-Laser ( ) 
- 2-Lasern ( ) 
- 2-Liter-Auto ( ) 
- 2-Liter-Weinflasche ( ) 
- 2-Lizenz ( ) 
- 2-Loge ( ) 
- 2-Luftschadstoff ( ) 
+ 2,5-Millionen-Loch ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2,5-Minuten-Spots ( NOUN NOUN_PROPER_SINGULAR ) lemma=2,5-Minuten-Spot 
+ 2,5-fache ( ADJECTIVE ) lemma=2,5-fach 
+ 2,50 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2,5fache ( ADJECTIVE ) lemma=2,5fach 
+ 2,6 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2,6fache ( ADJECTIVE ) lemma=2,6fach 
+ 2,7 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2,8 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2,8450/60 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2,9 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2- ( ) 
+ 2-4-5-T ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-A ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Abgabe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Abgaben ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Abgabe 
+ 2-Abgase ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Abgas 
+ 2-Abgasen ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Abgas 
+ 2-Anstieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Anteil ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Auftritt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Ausstoss ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Ausstoß 
+ 2-Ausstosses ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Ausstoß 
+ 2-Ausstoß ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Ausstoßes ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Ausstoß 
+ 2-Basisstation ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Beitrag ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Belastung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Beschluss ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Beschluß ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Beschluss 
+ 2-Betreiber ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Bilanz ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Bomber ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Chef ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Crime-Story ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Divisions-Konzept ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Einsparung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Einsparungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Einsparung 
+ 2-Emission ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Emissionen ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Emission 
+ 2-Energiesteuer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Ethoxy-2-methylpropan ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Ethylidin-1,5-Dimethyl ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Flug ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Format ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Fracht ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Frachten ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Fracht 
+ 2-Gebäude ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Gebäudes ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Gebäude 
+ 2-Gedenkfeier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Gehalt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Gehalts ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Gehalt 
+ 2-Geschäftsführer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Gesellschaft ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Gesellschafter ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Gespräche ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Gespräch 
+ 2-Gesprächen ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Gespräch 
+ 2-Gruppe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Halbierung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Hörspiel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Jugend ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Jugend-Gruppe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Komponente ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Konzentration ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Konzentrationen ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Konzentration 
+ 2-Kreislauf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Kultur ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Kurzzüge ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Kurzzug 
+ 2-Laser ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Lasern ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Laser 
+ 2-Liter-Auto ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Liter-Weinflasche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Lizenz ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Loge ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Luftschadstoff ( NOUN NOUN_PROPER_SINGULAR ) 
  2-MAC- ( ) 
- 2-MAC-Norm ( ) 
- 2-Manager ( ) 
- 2-Mannschaft ( ) 
- 2-Mark-Stück ( ) 
- 2-Menge ( ) 
- 2-Methylbutan ( ) 
- 2-Milliarden-Programm ( ) 
- 2-Millionen-Projekt ( ) 
- 2-Minderung ( ) 
- 2-Minderungsprogramm ( ) 
- 2-Minderungsziel ( ) 
- 2-Mio-Pfahlbau ( ) 
- 2-Mission ( ) 
- 2-Mobilfunknetz ( ) 
- 2-Mrd. ( ) 
- 2-Napalm ( ) 
- 2-Netz ( ) 
- 2-Netzes ( ) 
- 2-Ost ( ) 
- 2-Problem ( ) 
- 2-Problematik ( ) 
- 2-Produktion ( ) 
- 2-Produzent ( ) 
- 2-Produzenten ( ) 
- 2-Professoren ( ) 
- 2-Professorin ( ) 
- 2-Professur ( ) 
- 2-Programm ( ) 
- 2-Programms ( ) 
- 2-Rakete ( ) 
- 2-Raketen ( ) 
- 2-Raketenwaffen ( ) 
- 2-Raum ( ) 
- 2-Redaktion ( ) 
- 2-Reduktion ( ) 
- 2-Reduktionsziel ( ) 
- 2-Reduzierung ( ) 
- 2-Reduzierungen ( ) 
- 2-Reduzierungsprogramm ( ) 
- 2-Reste ( ) 
- 2-Rezeptor ( ) 
- 2-Satz-Sieg ( ) 
- 2-Sendung ( ) 
- 2-Senken ( ) 
- 2-Serie ( ) 
- 2-Stabilisierung ( ) 
- 2-Stelle ( ) 
- 2-Steuer ( ) 
- 2-Steuern ( ) 
- 2-Stunden-Job ( ) 
- 2-Stunden-Taktes ( ) 
- 2-Sänger ( ) 
- 2-Trasse ( ) 
- 2-Verbrauch ( ) 
- 2-Vermeidung ( ) 
- 2-Verminderung ( ) 
- 2-Verringerung ( ) 
- 2-Verschwörer ( ) 
- 2-Vorteil ( ) 
- 2-Wert ( ) 
- 2-Werte ( ) 
- 2-Zi. ( ) 
- 2-Ziel ( ) 
- 2-Zimmer-Wohnung ( ) 
- 2-Zimmer-Wohnungen ( ) 
- 2-Zuschlag ( ) 
- 2-freie ( ) 
- 2-freien ( ) 
- 2-freier ( ) 
- 2-in-1-Duschgelen ( ) 
- 2-jährige ( ) lemma=52-jährig 
- 2-kulturell ( ) 
- 2-plus-4-Gesprächen ( ) 
- 2-Überbauung ( ) 
- 2. ( ) 
+ 2-MAC-Norm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Manager ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Mannschaft ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Mark-Stück ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Menge ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Methylbutan ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Milliarden-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Millionen-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Minderung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Minderungsprogramm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Minderungsziel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Mio-Pfahlbau ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Mission ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Mobilfunknetz ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Mrd. ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Napalm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Netz ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Netzes ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Netz 
+ 2-Ost ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Problem ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Problematik ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Produktion ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Produzent ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Produzenten ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Produzent 
+ 2-Professoren ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Professor 
+ 2-Professorin ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Professur ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Programms ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Programm 
+ 2-Rakete ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Raketen ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Rakete 
+ 2-Raketenwaffen ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Raketenwaffe 
+ 2-Raum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Redaktion ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Reduktion ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Reduktionsziel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Reduzierung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Reduzierungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Reduzierung 
+ 2-Reduzierungsprogramm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Reste ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Rest 
+ 2-Rezeptor ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Satz-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Sendung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Senken ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Serie ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Stabilisierung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Stelle ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Steuer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Steuern ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Steuer 
+ 2-Stunden-Job ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Stunden-Taktes ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Stunden-Takt 
+ 2-Sänger ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Trasse ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Verbrauch ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Vermeidung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Verminderung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Verringerung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Verschwörer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Vorteil ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Wert ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Werte ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Wert 
+ 2-Zi. ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Ziel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Zimmer-Wohnung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-Zimmer-Wohnungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-Zimmer-Wohnung 
+ 2-Zuschlag ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2-freie ( ADJECTIVE ) lemma=2-frei 
+ 2-freien ( ADJECTIVE ) lemma=2-frei 
+ 2-freier ( ADJECTIVE ) lemma=2-frei 
+ 2-in-1-Duschgelen ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-in-1-Duschgel 
+ 2-jährige ( ADJECTIVE ) lemma=2-jährig 
+ 2-kulturell ( ADJECTIVE ) 
+ 2-plus-4-Gesprächen ( NOUN NOUN_PROPER_SINGULAR ) lemma=2-plus-4-Gespräch 
+ 2-Überbauung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2. ( ADJECTIVE ADVERB ) 
  2.000- ( ) 
- 2.000-Mark-Grenze ( ) 
+ 2.000-Mark-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
  2.000-Seelen- ( ) 
- 2.000-Seelen-Dorf ( ) 
- 2.000-Seelen-Gemeinde ( ) 
- 2.000er ( ) 
- 2.000jährige ( ) 
- 2.000jährigen ( ) 
- 2.000jähriger ( ) 
- 2.200-Seelen-Gemeinde ( ) 
- 2.500-Seelen-Gemeinde ( ) 
- 2.500jährige ( ) 
- 2.500köpfige ( ) 
- 2.500köpfigen ( ) 
- 2/0 ( ) 
- 2/1 ( ) lemma=92/12 
- 2/10 ( ) 
- 2/100 ( ) 
- 2/11 ( ) 
- 2/117 ( ) 
- 2/13 ( ) 
- 2/160 ( ) 
- 2/180 ( ) 
- 2/190 ( ) 
- 2/1988 ( ) 
- 2/1989 ( ) 
- 2/1990 ( ) 
- 2/1991 ( ) 
- 2/1992 ( ) 
- 2/2 ( ) lemma=22/28 
- 2/230 ( ) 
- 2/24 ( ) 
- 2/3 ( ) lemma=32/38 
- 2/3-Mehrheit ( ) 
- 2/3-Mehrheiten ( ) 
- 2/3/4 ( ) 
- 2/31 ( ) 
- 2/322 ( ) 
- 2/360 ( ) 
- 2/4 ( ) lemma=42/45 
- 2/435 ( ) 
- 2/5 ( ) lemma=52/55 
- 2/50 ( ) 
- 2/6 ( ) lemma=72/69 
- 2/60 ( ) 
- 2/63 ( ) 
- 2/84 ( ) 
- 2/88 ( ) 
- 2/89 ( ) 
- 2/9 ( ) lemma=92/93 
- 2/90 ( ) 
- 2/91 ( ) 
- 2/92 ( ) 
- 2/93 ( ) 
- 20 ( ) lemma=1200 
+ 2.000-Seelen-Dorf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2.000-Seelen-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2.000er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2.000jährige ( ADJECTIVE ) lemma=2.000jährig 
+ 2.000jährigen ( ADJECTIVE ) lemma=2.000jährig 
+ 2.000jähriger ( ADJECTIVE ) lemma=2.000jährig 
+ 2.200-Seelen-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2.500-Seelen-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2.500jährige ( ADJECTIVE ) lemma=2.500jährig 
+ 2.500köpfige ( ADJECTIVE ) lemma=2.500köpfig 
+ 2.500köpfigen ( ADJECTIVE ) lemma=2.500köpfig 
+ 2/0 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/1 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/10 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/100 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/11 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/117 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/13 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/160 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/180 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/190 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/1988 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/1989 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/1990 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/1991 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/1992 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/230 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/24 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/3-Mehrheit ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2/3-Mehrheiten ( NOUN NOUN_PROPER_SINGULAR ) lemma=2/3-Mehrheit 
+ 2/3/4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/31 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/322 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/360 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/435 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/50 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/6 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/60 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/63 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/84 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/88 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/9 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2/93 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 20 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  20,-- ( ) 
- 20,3 ( ) 
+ 20,3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  20- ( ) 
- 20-Fuss-Container ( ) 
- 20-Fuss-Container-Einheit ( ) 
- 20-Fuß-Container ( ) 
- 20-Fuß-Container-Einheit ( ) 
- 20-Grad-Grenze ( ) 
- 20-Grad-Marke ( ) 
- 20-Jahr-Feier ( ) 
- 20-Jahr-Jubiläum ( ) 
+ 20-Fuss-Container ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Fuss-Container-Einheit ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Fuß-Container ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Fuß-Container-Einheit ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Grad-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Grad-Marke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Jahr-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Jahr-Jubiläum ( NOUN NOUN_PROPER_SINGULAR ) 
  20-Kilometer- ( ) 
- 20-Kilometer-Distanz ( ) 
- 20-Kilometer-Lauf ( ) 
- 20-Kilometer-Radius ( ) 
- 20-Kilometer-Rundkurs ( ) 
- 20-Kilometer-Sperrzone ( ) 
- 20-Kilometer-Stau ( ) 
- 20-Kilometer-Strecke ( ) 
- 20-Kilometer-Wanderungen ( ) 
- 20-Kilometer-Zone ( ) 
- 20-Kilovolt-Kabel ( ) 
- 20-Kilovolt-Schaltanlage ( ) 
- 20-Liter-Benzinkanister ( ) 
- 20-Liter-Beutel ( ) 
- 20-Liter-Blechkanister ( ) 
- 20-Liter-Eimer ( ) 
- 20-Liter-Kanister ( ) 
- 20-Mark-Raten ( ) 
- 20-Mark-Schein ( ) 
- 20-Mark-Scheinen ( ) 
- 20-Mark-Spende ( ) 
- 20-Meter-Freistoss ( ) 
- 20-Meter-Freistoß ( ) 
- 20-Meter-Schuss ( ) 
- 20-Meter-Schuß ( ) 
- 20-Meter-Umzug ( ) 
- 20-Milliarden-DM-Grenze ( ) 
- 20-Milliarden-Programm ( ) 
+ 20-Kilometer-Distanz ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Kilometer-Lauf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Kilometer-Radius ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Kilometer-Rundkurs ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Kilometer-Sperrzone ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Kilometer-Stau ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Kilometer-Strecke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Kilometer-Wanderungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=20-Kilometer-Wanderung 
+ 20-Kilometer-Zone ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Kilovolt-Kabel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Kilovolt-Schaltanlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Liter-Benzinkanister ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Liter-Beutel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Liter-Blechkanister ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Liter-Eimer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Liter-Kanister ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Mark-Raten ( NOUN NOUN_PROPER_SINGULAR ) lemma=20-Mark-Rate 
+ 20-Mark-Schein ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Mark-Scheinen ( NOUN NOUN_PROPER_SINGULAR ) lemma=20-Mark-Schein 
+ 20-Mark-Spende ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Meter-Freistoss ( NOUN NOUN_PROPER_SINGULAR ) lemma=20-Meter-Freistoß 
+ 20-Meter-Freistoß ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Meter-Schuss ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Meter-Schuß ( NOUN NOUN_PROPER_SINGULAR ) lemma=20-Meter-Schuss 
+ 20-Meter-Umzug ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Milliarden-DM-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Milliarden-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
  20-Millionen- ( ) 
- 20-Millionen-Mark-Projekt ( ) 
- 20-Millionen-Mark-Projekts ( ) 
- 20-Millionen-Metropole ( ) 
- 20-Millionen-Programm ( ) 
- 20-Millionen-Projekt ( ) 
+ 20-Millionen-Mark-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Millionen-Mark-Projekts ( NOUN NOUN_PROPER_SINGULAR ) lemma=20-Millionen-Mark-Projekt 
+ 20-Millionen-Metropole ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Millionen-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Millionen-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
  20-Minuten- ( ) 
- 20-Minuten-Abstand ( ) 
- 20-Minuten-Film ( ) 
- 20-Minuten-Gesangsschau ( ) 
- 20-Minuten-Takt ( ) 
- 20-Minuten-Taktes ( ) 
- 20-Prozent ( ) 
+ 20-Minuten-Abstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Minuten-Film ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Minuten-Gesangsschau ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Minuten-Takt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Minuten-Taktes ( NOUN NOUN_PROPER_SINGULAR ) lemma=20-Minuten-Takt 
+ 20-Prozent ( NOUN NOUN_PROPER_SINGULAR ) 
  20-Prozent- ( ) 
- 20-Prozent-Anteil ( ) 
- 20-Prozent-Beteiligung ( ) 
- 20-Prozent-Bonus ( ) 
- 20-Prozent-Grenze ( ) 
- 20-Prozent-Hürde ( ) 
- 20-Prozent-Marke ( ) 
- 20-Prozent-Paket ( ) 
- 20-Prozent-Partei ( ) 
- 20-Prozent-Quote ( ) 
- 20-Prozent-Ziel ( ) 
- 20-Punkte ( ) 
- 20-Punkte-Katalog ( ) 
- 20-Punkte-Programm ( ) 
- 20-Punkte-Vorsprung ( ) 
- 20-Quadratmeter-Raum ( ) 
- 20-Seiten-Papier ( ) 
- 20-Sekunden-Auftritt ( ) 
- 20-Sekunden-Spots ( ) 
- 20-Stimmen-Mehrheit ( ) 
- 20-Stunden-Stellen ( ) 
- 20-Stunden-Tag ( ) 
- 20-Tage-Rhythmus ( ) 
+ 20-Prozent-Anteil ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Prozent-Beteiligung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Prozent-Bonus ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Prozent-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Prozent-Hürde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Prozent-Marke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Prozent-Paket ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Prozent-Partei ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Prozent-Quote ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Prozent-Ziel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Punkte ( NOUN NOUN_PROPER_SINGULAR ) lemma=20-Punkt 
+ 20-Punkte-Katalog ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Punkte-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Punkte-Vorsprung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Quadratmeter-Raum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Seiten-Papier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Sekunden-Auftritt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Sekunden-Spots ( NOUN NOUN_PROPER_SINGULAR ) lemma=20-Sekunden-Spot 
+ 20-Stimmen-Mehrheit ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Stunden-Stellen ( NOUN NOUN_PROPER_SINGULAR ) lemma=20-Stunden-Stelle 
+ 20-Stunden-Tag ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Tage-Rhythmus ( NOUN NOUN_PROPER_SINGULAR ) 
  20-Tonnen- ( ) 
- 20-US-Dollarnoten ( ) 
- 20-Uhr ( ) 
+ 20-US-Dollarnoten ( NOUN NOUN_PROPER_SINGULAR ) lemma=20-US-Dollarnote 
+ 20-Uhr ( NOUN NOUN_PROPER_SINGULAR ) 
  20-Uhr- ( ) 
- 20-Uhr-Grenze ( ) 
- 20-Uhr-Nachrichten ( ) 
- 20-Uhr-Tagesschau ( ) 
- 20-Uhr-Werbegrenze ( ) 
- 20-Zoll-Rädern ( ) 
- 20-g-Butter ( ) 
- 20-jährige ( ) 
- 20-jährigen ( ) 
- 20-kV-Leitung ( ) 
- 20-kV-Stromleitungen ( ) 
- 20-km-Gehen ( ) 
- 20-km-Lauf ( ) 
- 20-km-Strassengehen ( ) 
- 20-km-Straßengehen ( ) 
- 20-km-Wettbewerb ( ) 
- 20-km-Zone ( ) 
- 20-m-Freistoss ( ) 
- 20-m-Freistoß ( ) 
- 20-m-Schuss ( ) 
- 20-m-Schuß ( ) 
- 20-mm-Maschinenkanone ( ) 
- 20. ( ) 
- 20.000-Einwohner-Stadt ( ) 
- 20.000-Mark-Spende ( ) 
- 20.000-Seelen-Gemeinde ( ) 
- 20/1 ( ) 
- 20/21 ( ) 
- 20/22 ( ) 
- 20/25 ( ) 
- 20/2930 ( ) 
- 20/30er ( ) 
- 20/34 ( ) 
- 20/35 ( ) 
- 20/4 ( ) 
- 20/92 ( ) 
- 200 ( ) lemma=42000 
+ 20-Uhr-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Uhr-Nachrichten ( NOUN NOUN_PROPER_SINGULAR ) lemma=20-Uhr-Nachricht 
+ 20-Uhr-Tagesschau ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Uhr-Werbegrenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-Zoll-Rädern ( NOUN NOUN_PROPER_SINGULAR ) lemma=20-Zoll-Rad 
+ 20-g-Butter ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-jährige ( ADJECTIVE ) lemma=20-jährig 
+ 20-jährigen ( ADJECTIVE ) lemma=20-jährig 
+ 20-kV-Leitung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-kV-Stromleitungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=20-kV-Stromleitung 
+ 20-km-Gehen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-km-Lauf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-km-Strassengehen ( NOUN NOUN_PROPER_SINGULAR ) lemma=20-km-Straßengehen 
+ 20-km-Straßengehen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-km-Wettbewerb ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-km-Zone ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-m-Freistoss ( NOUN NOUN_PROPER_SINGULAR ) lemma=20-m-Freistoß 
+ 20-m-Freistoß ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-m-Schuss ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20-m-Schuß ( NOUN NOUN_PROPER_SINGULAR ) lemma=20-m-Schuss 
+ 20-mm-Maschinenkanone ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20. ( ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 20.000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20.000-Mark-Spende ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20.000-Seelen-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20/1 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 20/21 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 20/22 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 20/25 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 20/2930 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 20/30er ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) 
+ 20/34 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 20/35 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 20/4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 20/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 200 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  200- ( ) 
- 200-Baud-Leitung ( ) 
- 200-Betten-Hotel ( ) 
- 200-Jahr-Feier ( ) 
- 200-Jahr-Feiern ( ) 
- 200-Jahr-Jubiläum ( ) 
- 200-Jahrfeier ( ) 
+ 200-Baud-Leitung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Betten-Hotel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Jahr-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Jahr-Feiern ( NOUN NOUN_PROPER_SINGULAR ) lemma=200-Jahr-Feier 
+ 200-Jahr-Jubiläum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Jahrfeier ( NOUN NOUN_PROPER_SINGULAR ) 
  200-Liter- ( ) 
- 200-Liter-Behälter ( ) 
- 200-Liter-Fass ( ) 
- 200-Liter-Faß ( ) 
- 200-Liter-Fässer ( ) 
- 200-Mark-Fälschung ( ) 
- 200-Mark-Noten ( ) 
- 200-Mark-Scheck ( ) 
- 200-Mark-Schein ( ) 
- 200-Mark-Scheine ( ) 
- 200-Mark-Scheinen ( ) 
+ 200-Liter-Behälter ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Liter-Fass ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Liter-Faß ( NOUN NOUN_PROPER_SINGULAR ) lemma=200-Liter-Fass 
+ 200-Liter-Fässer ( NOUN NOUN_PROPER_SINGULAR ) lemma=200-Liter-Fass 
+ 200-Mark-Fälschung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Mark-Noten ( NOUN NOUN_PROPER_SINGULAR ) lemma=200-Mark-Note 
+ 200-Mark-Scheck ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Mark-Schein ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Mark-Scheine ( NOUN NOUN_PROPER_SINGULAR ) lemma=200-Mark-Schein 
+ 200-Mark-Scheinen ( NOUN NOUN_PROPER_SINGULAR ) lemma=200-Mark-Schein 
  200-Meilen- ( ) 
- 200-Meilen-Wirtschaftszone ( ) 
- 200-Meilen-Zone ( ) 
+ 200-Meilen-Wirtschaftszone ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Meilen-Zone ( NOUN NOUN_PROPER_SINGULAR ) 
  200-Meter- ( ) 
- 200-Meter-Freistil ( ) 
- 200-Meter-Lauf ( ) 
- 200-Meter-Laufbahn ( ) 
- 200-Milliliter-Flasche ( ) 
- 200-Millionen-Dollar-Projekt ( ) 
- 200-Millionen-Grenze ( ) 
- 200-Millionen-Loch ( ) 
- 200-Millionen-Mark-Etat ( ) 
- 200-Millionen-Mark-Projekt ( ) 
- 200-Millionen-Programm ( ) 
- 200-Millionen-Projekt ( ) 
- 200-Quadratmeter-Eigentumswohnungen ( ) 
+ 200-Meter-Freistil ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Meter-Lauf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Meter-Laufbahn ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Milliliter-Flasche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Millionen-Dollar-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Millionen-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Millionen-Loch ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Millionen-Mark-Etat ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Millionen-Mark-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Millionen-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Millionen-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Quadratmeter-Eigentumswohnungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=200-Quadratmeter-Eigentumswohnung 
  200-Runden- ( ) 
  200-Seelen- ( ) 
- 200-Seelen-Dorf ( ) 
- 200-Seelen-Gemeinde ( ) 
- 200-Seemeilen-Zone ( ) 
- 200-Seiten-Erhebung ( ) 
- 200-Zimmer-Hotel ( ) 
- 200-jährigen ( ) 
- 200-km-Fahrt ( ) 
- 200-m ( ) 
- 200-m-Brust ( ) 
- 200-m-Freistil ( ) 
- 200-m-Freistil-Distanz ( ) 
- 200-m-Lagen ( ) 
- 200-m-Lauf ( ) 
- 200-m-Mann ( ) 
- 200-m-Rennen ( ) 
- 200-m-Rücken ( ) 
- 200-m-Schmetterling ( ) 
- 200-m-Semifinale ( ) 
- 200-m-Sieg ( ) 
- 200-m-Sieger ( ) 
- 200-m-Staffel ( ) 
- 200-m-Weltmeister ( ) 
- 200-m-Weltrekord ( ) 
- 200-m-Zeitfahren ( ) 
- 200.000-Einwohner-Stadt ( ) 
- 200/100 ( ) 
- 200/88 ( ) 
- 2000 ( ) lemma=120000 
- 2000-Einwohner-Dorf ( ) 
- 2000-Grad-Schmelze ( ) 
- 2000-Höhenmeter-Tiefschnee-Abfahrt ( ) 
- 2000-Jahr-Feier ( ) 
- 2000-Jahres-Rhythmus ( ) 
- 2000-Liter-Gefäss ( ) 
- 2000-Liter-Gefäß ( ) 
- 2000-Liter-Tanks ( ) 
- 2000-Mann-Zelt ( ) 
- 2000-Mark-Zuschuss ( ) 
- 2000-Mark-Zuschuß ( ) 
- 2000-Meter-Strecke ( ) 
- 2000-O ( ) 
- 2000-Scheck ( ) 
- 2000-Seelen-Dorf ( ) 
- 2000-Seelen-Durchgangsdorf ( ) 
- 2000-Seelen-Gemeinde ( ) 
- 2000-X ( ) 
+ 200-Seelen-Dorf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Seelen-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Seemeilen-Zone ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Seiten-Erhebung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-Zimmer-Hotel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-jährigen ( ADJECTIVE ) lemma=200-jährig 
+ 200-km-Fahrt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-m ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-m-Brust ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-m-Freistil ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-m-Freistil-Distanz ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-m-Lagen ( NOUN NOUN_PROPER_SINGULAR ) lemma=200-m-Lage 
+ 200-m-Lauf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-m-Mann ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-m-Rennen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-m-Rücken ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-m-Schmetterling ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-m-Semifinale ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-m-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-m-Sieger ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-m-Staffel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-m-Weltmeister ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-m-Weltrekord ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200-m-Zeitfahren ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200.000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200/100 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 200/88 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2000-Einwohner-Dorf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2000-Grad-Schmelze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2000-Höhenmeter-Tiefschnee-Abfahrt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2000-Jahr-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2000-Jahres-Rhythmus ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2000-Liter-Gefäss ( NOUN NOUN_PROPER_SINGULAR ) lemma=2000-Liter-Gefäß 
+ 2000-Liter-Gefäß ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2000-Liter-Tanks ( NOUN NOUN_PROPER_SINGULAR ) lemma=2000-Liter-Tank 
+ 2000-Mann-Zelt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2000-Mark-Zuschuss ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2000-Mark-Zuschuß ( NOUN NOUN_PROPER_SINGULAR ) lemma=2000-Mark-Zuschuss 
+ 2000-Meter-Strecke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2000-O ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2000-Scheck ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2000-Seelen-Dorf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2000-Seelen-Durchgangsdorf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2000-Seelen-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2000-X ( NOUN NOUN_PROPER_SINGULAR ) 
  2000.- ( ) 
- 2000/2004 ( ) 
- 20000 ( ) 
- 20000-Meilen-Bonus ( ) 
- 20000-Seelen-Stadt ( ) 
- 200000 ( ) 
- 2000er ( ) 
- 2000er-Spiele ( ) 
- 2000fache ( ) 
- 2000jährige ( ) 
- 2000jährigen ( ) 
- 2000köpfige ( ) 
- 2000mal ( ) 
- 2001-Verlag ( ) 
- 2003/4 ( ) 
- 2005 ( ) 
- 2005/2020 ( ) 
- 200er ( ) 
- 200ern ( ) 
- 200fach ( ) lemma=7200fach 
- 200fache ( ) 
- 200fachen ( ) 
- 200facher ( ) 
- 200jährige ( ) lemma=1200jährig 
- 200jährigen ( ) 
- 200jähriger ( ) 
- 200jähriges ( ) 
- 200köpfige ( ) 
- 200köpfigen ( ) 
- 200köpfiges ( ) 
- 200mal ( ) 
- 200prozentig ( ) 
- 200prozentige ( ) 
- 200prozentigen ( ) 
- 201/91 ( ) 
- 2010/2011 ( ) 
- 2012/92 ( ) 
- 202/88 ( ) 
- 2020 ( ) 
- 203-Millimeter-Atomgranaten ( ) 
- 204-Millionen-Etat ( ) 
- 205/62/0 ( ) 
- 205/67/4 ( ) 
- 205/91 ( ) 
- 2077/92 ( ) 
- 209/91 ( ) 
- 2092/91 ( ) 
- 20:10-Sieg ( ) 
- 20:19-Heimsieg ( ) 
- 20:19-Sieg ( ) 
- 20:19-Sieger ( ) 
- 20:2-Punkte ( ) 
- 20:20-Gleichstand ( ) 
- 20:21-Niederlage ( ) 
- 20:22-Niederlage ( ) 
- 20:24-Niederlage ( ) 
- 20Karl-Marx-Str. ( ) 
- 20Uhr-Werbegrenze ( ) 
- 20er ( ) 
+ 2000/2004 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 20000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 20000-Meilen-Bonus ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20000-Seelen-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2000er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2000er-Spiele ( NOUN NOUN_PROPER_SINGULAR ) lemma=2000er-Spiel 
+ 2000fache ( ADJECTIVE ) lemma=2000fach 
+ 2000jährige ( ADJECTIVE ) lemma=2000jährig 
+ 2000jährigen ( ADJECTIVE ) lemma=2000jährig 
+ 2000köpfige ( ADJECTIVE ) lemma=2000köpfig 
+ 2000mal ( ADVERB ) 
+ 2001-Verlag ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2003/4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2005 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2005/2020 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 200er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 200ern ( NOUN NOUN_PROPER_SINGULAR ) lemma=200er 
+ 200fach ( ADJECTIVE ) 
+ 200fache ( ADJECTIVE ) lemma=200fach 
+ 200fachen ( ADJECTIVE ) lemma=200fach 
+ 200facher ( ADJECTIVE ) lemma=200fach 
+ 200jährige ( ADJECTIVE ) lemma=200jährig 
+ 200jährigen ( ADJECTIVE ) lemma=200jährig 
+ 200jähriger ( ADJECTIVE ) lemma=200jährig 
+ 200jähriges ( ADJECTIVE ) lemma=200jährig 
+ 200köpfige ( ADJECTIVE ) lemma=200köpfig 
+ 200köpfigen ( ADJECTIVE ) lemma=200köpfig 
+ 200köpfiges ( ADJECTIVE ) lemma=200köpfig 
+ 200mal ( ADVERB ) 
+ 200prozentig ( ADJECTIVE ) 
+ 200prozentige ( ADJECTIVE ) lemma=200prozentig 
+ 200prozentigen ( ADJECTIVE ) lemma=200prozentig 
+ 201/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2010/2011 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2012/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 202/88 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2020 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 203-Millimeter-Atomgranaten ( NOUN NOUN_PROPER_SINGULAR ) lemma=203-Millimeter-Atomgranate 
+ 204-Millionen-Etat ( NOUN NOUN_PROPER_SINGULAR ) 
+ 205/62/0 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 205/67/4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 205/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2077/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 209/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2092/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 20:10-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20:19-Heimsieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20:19-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20:19-Sieger ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20:2-Punkte ( NOUN NOUN_PROPER_SINGULAR ) lemma=20:2-Punkt 
+ 20:20-Gleichstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20:21-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20:22-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20:24-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20Karl-Marx-Str. ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20Uhr-Werbegrenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20er ( NOUN NOUN_PROPER_SINGULAR ) 
  20er- ( ) 
- 20er-Feld ( ) 
- 20er-Gremium ( ) 
- 20er-Jahre-Ausstellung ( ) 
- 20er-Kader ( ) 
- 20er-Liga ( ) 
- 20ern ( ) 
- 20fach ( ) lemma=120fach 
- 20fache ( ) 
- 20fachem ( ) 
- 20fachen ( ) 
- 20facher ( ) 
- 20faches ( ) 
- 20geschossigen ( ) 
- 20jährig ( ) lemma=120jährig 
- 20jährige ( ) lemma=120jährig 
- 20jährigem ( ) 
- 20jährigen ( ) 
- 20jähriger ( ) 
- 20jähriges ( ) 
- 20köpfige ( ) lemma=120köpfig 
- 20köpfigen ( ) 
- 20köpfiges ( ) 
- 20mal ( ) 
- 20malige ( ) 
- 20monatige ( ) 
- 20monatigen ( ) 
- 20monatiger ( ) 
- 20prozentige ( ) 
- 20prozentigem ( ) 
- 20prozentigen ( ) 
- 20prozentiger ( ) 
- 20prozentiges ( ) 
- 20stöckigen ( ) 
- 20stündige ( ) 
- 20stündigen ( ) 
- 20stündiger ( ) 
- 20teilige ( ) 
- 20tägigen ( ) 
- 21 ( ) 
- 21,7 ( ) 
- 21,8 ( ) 
+ 20er-Feld ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20er-Gremium ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20er-Jahre-Ausstellung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20er-Kader ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20er-Liga ( NOUN NOUN_PROPER_SINGULAR ) 
+ 20ern ( NOUN NOUN_PROPER_SINGULAR ) lemma=20er 
+ 20fach ( ADJECTIVE ) 
+ 20fache ( ADJECTIVE ) lemma=20fach 
+ 20fachem ( ADJECTIVE ) lemma=20fach 
+ 20fachen ( ADJECTIVE ) lemma=20fach 
+ 20facher ( ADJECTIVE ) lemma=20fach 
+ 20faches ( ADJECTIVE ) lemma=20fach 
+ 20geschossigen ( ADJECTIVE ) lemma=20geschossig 
+ 20jährig ( ADJECTIVE ) 
+ 20jährige ( ADJECTIVE ) lemma=20jährig 
+ 20jährigem ( ADJECTIVE ) lemma=20jährig 
+ 20jährigen ( ADJECTIVE ) lemma=20jährig 
+ 20jähriger ( ADJECTIVE ) lemma=20jährig 
+ 20jähriges ( ADJECTIVE ) lemma=20jährig 
+ 20köpfige ( ADJECTIVE ) lemma=20köpfig 
+ 20köpfigen ( ADJECTIVE ) lemma=20köpfig 
+ 20köpfiges ( ADJECTIVE ) lemma=20köpfig 
+ 20mal ( ADVERB ) 
+ 20malige ( ADJECTIVE ) lemma=20malig 
+ 20monatige ( ADJECTIVE ) lemma=20monatig 
+ 20monatigen ( ADJECTIVE ) lemma=20monatig 
+ 20monatiger ( ADJECTIVE ) lemma=20monatig 
+ 20prozentige ( ADJECTIVE ) lemma=20prozentig 
+ 20prozentigem ( ADJECTIVE ) lemma=20prozentig 
+ 20prozentigen ( ADJECTIVE ) lemma=20prozentig 
+ 20prozentiger ( ADJECTIVE ) lemma=20prozentig 
+ 20prozentiges ( ADJECTIVE ) lemma=20prozentig 
+ 20stöckigen ( ADJECTIVE ) lemma=20stöckig 
+ 20stündige ( ADJECTIVE ) lemma=20stündig 
+ 20stündigen ( ADJECTIVE ) lemma=20stündig 
+ 20stündiger ( ADJECTIVE ) lemma=20stündig 
+ 20teilige ( ADJECTIVE ) lemma=20teilig 
+ 20tägigen ( ADJECTIVE ) lemma=20tägig 
+ 21 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 21,7 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 21,8 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  21- ( ) 
- 21-Dollar-Marke ( ) 
- 21-Gang ( ) 
- 21-Milliarden-Sparpaket ( ) 
- 21-Minuten-Takt ( ) 
- 21-Nationalmannschaft ( ) 
- 21-Team ( ) 
- 21-Uhr-Nachrichten ( ) 
- 21-jährige ( ) 
- 21. ( ) 
- 21/1 ( ) 
- 21/1960 ( ) 
- 21/1992 ( ) 
- 21/2 ( ) 
- 21/22 ( ) 
- 21/23 ( ) 
- 21/6 ( ) 
- 21/82 ( ) 
- 21/86 ( ) 
- 21/88 ( ) 
- 21/90 ( ) 
- 2100 ( ) 
- 21000 ( ) 
- 210000-Einwohner-Stadt ( ) 
- 212/85 ( ) 
- 214-Millionen-Etat ( ) 
- 215/91 ( ) 
- 218-Anklage ( ) 
- 218-Beratung ( ) 
- 218-Beratungsgesetz ( ) 
- 218-Beratungsschein ( ) 
- 218-Beratungsstelle ( ) 
- 218-Beschluss ( ) 
- 218-Beschluß ( ) 
- 218-Broschüre ( ) 
- 218-Debatte ( ) 
- 218-Entscheidung ( ) 
- 218-Fragebogen ( ) 
- 218-Frauen ( ) 
- 218-Gegnerinnen ( ) 
- 218-Gruppe ( ) 
- 218-Gruppen ( ) 
- 218-Initiative ( ) 
- 218-Klage ( ) 
- 218-Kompromiss ( ) 
- 218-Kompromiß ( ) 
- 218-Kongress ( ) 
- 218-Kongreß ( ) 
- 218-Koordination ( ) 
- 218-Position ( ) 
- 218-Praxis ( ) 
- 218-Prozess ( ) 
- 218-Prozeß ( ) 
- 218-Reform ( ) 
- 218-Regelung ( ) 
- 218-Urteil ( ) 
- 218-Urteils ( ) 
- 218-Verfahren ( ) 
- 21990 ( ) 
- 21:17-Erfolg ( ) 
- 21:20-Zittersieg ( ) 
- 21:24-Niederlage ( ) 
- 21er ( ) 
- 21fache ( ) 
- 21facher ( ) 
- 21jährig ( ) 
- 21jährige ( ) lemma=121jährig 
- 21jährigem ( ) 
- 21jährigen ( ) 
- 21jähriger ( ) 
- 21jähriges ( ) 
- 21köpfige ( ) 
- 21köpfigen ( ) 
- 21köpfiges ( ) 
- 21mal ( ) 
- 21monatige ( ) 
- 21monatigen ( ) 
- 21monatiger ( ) 
- 21prozentige ( ) 
- 21stöckige ( ) 
- 21stündigem ( ) 
- 21stündigen ( ) 
- 22 ( ) 
- 22,3-Teiler ( ) 
- 22,7 ( ) 
+ 21-Dollar-Marke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 21-Gang ( NOUN NOUN_PROPER_SINGULAR ) 
+ 21-Milliarden-Sparpaket ( NOUN NOUN_PROPER_SINGULAR ) 
+ 21-Minuten-Takt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 21-Nationalmannschaft ( NOUN NOUN_PROPER_SINGULAR ) 
+ 21-Team ( NOUN NOUN_PROPER_SINGULAR ) 
+ 21-Uhr-Nachrichten ( NOUN NOUN_PROPER_SINGULAR ) lemma=21-Uhr-Nachricht 
+ 21-jährige ( ADJECTIVE ) lemma=21-jährig 
+ 21. ( ADJECTIVE ) 
+ 21/1 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 21/1960 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 21/1992 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 21/2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 21/22 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 21/23 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 21/6 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 21/82 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 21/86 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 21/88 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 21/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2100 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 21000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 210000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 212/85 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 214-Millionen-Etat ( NOUN NOUN_PROPER_SINGULAR ) 
+ 215/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 218-Anklage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 218-Beratung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 218-Beratungsgesetz ( NOUN NOUN_PROPER_SINGULAR ) 
+ 218-Beratungsschein ( NOUN NOUN_PROPER_SINGULAR ) 
+ 218-Beratungsstelle ( NOUN NOUN_PROPER_SINGULAR ) 
+ 218-Beschluss ( NOUN NOUN_PROPER_SINGULAR ) 
+ 218-Beschluß ( NOUN NOUN_PROPER_SINGULAR ) lemma=218-Beschluss 
+ 218-Broschüre ( NOUN NOUN_PROPER_SINGULAR ) 
+ 218-Debatte ( NOUN NOUN_PROPER_SINGULAR ) 
+ 218-Entscheidung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 218-Fragebogen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 218-Frauen ( NOUN NOUN_PROPER_SINGULAR ) lemma=218-Frau 
+ 218-Gegnerinnen ( NOUN NOUN_PROPER_SINGULAR ) lemma=218-Gegnerin 
+ 218-Gruppe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 218-Gruppen ( NOUN NOUN_PROPER_SINGULAR ) lemma=218-Gruppe 
+ 218-Initiative ( NOUN NOUN_PROPER_SINGULAR ) 
+ 218-Klage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 218-Kompromiss ( NOUN NOUN_PROPER_SINGULAR ) 
+ 218-Kompromiß ( NOUN NOUN_PROPER_SINGULAR ) lemma=218-Kompromiss 
+ 218-Kongress ( NOUN NOUN_PROPER_SINGULAR ) 
+ 218-Kongreß ( NOUN NOUN_PROPER_SINGULAR ) lemma=218-Kongress 
+ 218-Koordination ( NOUN NOUN_PROPER_SINGULAR ) 
+ 218-Position ( NOUN NOUN_PROPER_SINGULAR ) 
+ 218-Praxis ( NOUN NOUN_PROPER_SINGULAR ) 
+ 218-Prozess ( NOUN NOUN_PROPER_SINGULAR ) 
+ 218-Prozeß ( NOUN NOUN_PROPER_SINGULAR ) lemma=218-Prozess 
+ 218-Reform ( NOUN NOUN_PROPER_SINGULAR ) 
+ 218-Regelung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 218-Urteil ( NOUN NOUN_PROPER_SINGULAR ) 
+ 218-Urteils ( NOUN NOUN_PROPER_SINGULAR ) lemma=218-Urteil 
+ 218-Verfahren ( NOUN NOUN_PROPER_SINGULAR ) 
+ 21990 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 21:17-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 21:20-Zittersieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 21:24-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 21er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 21fache ( ADJECTIVE ) lemma=21fach 
+ 21facher ( ADJECTIVE ) lemma=21fach 
+ 21jährig ( ADJECTIVE ) 
+ 21jährige ( ADJECTIVE ) lemma=21jährig 
+ 21jährigem ( ADJECTIVE ) lemma=21jährig 
+ 21jährigen ( ADJECTIVE ) lemma=21jährig 
+ 21jähriger ( ADJECTIVE ) lemma=21jährig 
+ 21jähriges ( ADJECTIVE ) lemma=21jährig 
+ 21köpfige ( ADJECTIVE ) lemma=21köpfig 
+ 21köpfigen ( ADJECTIVE ) lemma=21köpfig 
+ 21köpfiges ( ADJECTIVE ) lemma=21köpfig 
+ 21mal ( ADVERB ) 
+ 21monatige ( ADJECTIVE ) lemma=21monatig 
+ 21monatigen ( ADJECTIVE ) lemma=21monatig 
+ 21monatiger ( ADJECTIVE ) lemma=21monatig 
+ 21prozentige ( ADJECTIVE ) lemma=21prozentig 
+ 21stöckige ( ADJECTIVE ) lemma=21stöckig 
+ 21stündigem ( ADJECTIVE ) lemma=21stündig 
+ 21stündigen ( ADJECTIVE ) lemma=21stündig 
+ 22 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 22,3-Teiler ( NOUN NOUN_PROPER_SINGULAR ) 
+ 22,7 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  22- ( ) 
- 22-Uhr-Grenze ( ) 
- 22-Uhr-Programm ( ) 
- 22-Uhr-Regelung ( ) 
- 22-Uhr-Vorstellung ( ) 
- 22-Wochen-Frist ( ) 
- 22-jährige ( ) 
- 22-jährigen ( ) 
- 22-köpfige ( ) 
- 22-m-Schuss ( ) 
- 22-m-Schuß ( ) 
- 22. ( ) 
- 22/2 ( ) 
- 22/2/89 ( ) 
- 22/23 ( ) 
- 22/24 ( ) 
- 22/26 ( ) 
- 22/28 ( ) 
- 22/8/89 ( ) 
- 22/89 ( ) 
- 22/90 ( ) 
- 22/92 ( ) 
- 220 ( ) 
- 220-Volt ( ) 
- 220-Volt-Netz ( ) 
- 22000 ( ) 
- 22000-Tonnen-Containerschiff ( ) 
- 2237/91 ( ) 
- 225-Kilo-Bomben ( ) 
- 2254/89 ( ) 
- 225jährigen ( ) 
- 225jähriges ( ) 
- 226/91 ( ) 
- 227-Betten-Hauses ( ) 
- 227/92 ( ) 
- 228-Liter-Fass ( ) 
- 228-Liter-Faß ( ) 
- 229/88 ( ) 
- 22:1-Siege ( ) 
- 22:14-Derbysieg ( ) 
- 22:19-Sieg ( ) 
- 22:28-Niederlage ( ) 
- 22:4-Punkten ( ) 
- 22er ( ) 
- 22fache ( ) 
- 22geschossige ( ) 
- 22jährig ( ) 
- 22jährige ( ) 
- 22jährigem ( ) 
- 22jährigen ( ) 
- 22jähriger ( ) 
- 22jähriges ( ) 
- 22köpfige ( ) 
- 22köpfigen ( ) 
- 22köpfiges ( ) 
- 22monatigen ( ) 
- 22prozentige ( ) 
- 22stöckige ( ) 
- 22stündigen ( ) 
- 22stündiger ( ) 
- 22teilige ( ) 
- 22tägige ( ) 
- 23 ( ) 
+ 22-Uhr-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 22-Uhr-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 22-Uhr-Regelung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 22-Uhr-Vorstellung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 22-Wochen-Frist ( NOUN NOUN_PROPER_SINGULAR ) 
+ 22-jährige ( ADJECTIVE ) lemma=22-jährig 
+ 22-jährigen ( ADJECTIVE ) lemma=22-jährig 
+ 22-köpfige ( ADJECTIVE ) lemma=22-köpfig 
+ 22-m-Schuss ( NOUN NOUN_PROPER_SINGULAR ) 
+ 22-m-Schuß ( NOUN NOUN_PROPER_SINGULAR ) lemma=22-m-Schuss 
+ 22. ( ADJECTIVE ) 
+ 22/2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 22/2/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 22/23 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 22/24 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 22/26 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 22/28 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 22/8/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 22/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 22/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 22/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 220 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 220-Volt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 220-Volt-Netz ( NOUN NOUN_PROPER_SINGULAR ) 
+ 22000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 22000-Tonnen-Containerschiff ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2237/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 225-Kilo-Bomben ( NOUN NOUN_PROPER_SINGULAR ) lemma=225-Kilo-Bombe 
+ 2254/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 225jährigen ( ADJECTIVE ) lemma=225jährig 
+ 225jähriges ( ADJECTIVE ) lemma=225jährig 
+ 226/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 227-Betten-Hauses ( NOUN NOUN_PROPER_SINGULAR ) lemma=227-Betten-Haus 
+ 227/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 228-Liter-Fass ( NOUN NOUN_PROPER_SINGULAR ) 
+ 228-Liter-Faß ( NOUN NOUN_PROPER_SINGULAR ) lemma=228-Liter-Fass 
+ 229/88 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 22:1-Siege ( NOUN NOUN_PROPER_SINGULAR ) lemma=22:1-Sieg 
+ 22:14-Derbysieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 22:19-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 22:28-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 22:4-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=22:4-Punkt 
+ 22er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 22fache ( ADJECTIVE ) lemma=22fach 
+ 22geschossige ( ADJECTIVE ) lemma=22geschossig 
+ 22jährig ( ADJECTIVE ) 
+ 22jährige ( ADJECTIVE ) lemma=22jährig 
+ 22jährigem ( ADJECTIVE ) lemma=22jährig 
+ 22jährigen ( ADJECTIVE ) lemma=22jährig 
+ 22jähriger ( ADJECTIVE ) lemma=22jährig 
+ 22jähriges ( ADJECTIVE ) lemma=22jährig 
+ 22köpfige ( ADJECTIVE ) lemma=22köpfig 
+ 22köpfigen ( ADJECTIVE ) lemma=22köpfig 
+ 22köpfiges ( ADJECTIVE ) lemma=22köpfig 
+ 22monatigen ( ADJECTIVE ) lemma=22monatig 
+ 22prozentige ( ADJECTIVE ) lemma=22prozentig 
+ 22stöckige ( ADJECTIVE ) lemma=22stöckig 
+ 22stündigen ( ADJECTIVE ) lemma=22stündig 
+ 22stündiger ( ADJECTIVE ) lemma=22stündig 
+ 22teilige ( ADJECTIVE ) lemma=22teilig 
+ 22tägige ( ADJECTIVE ) lemma=22tägig 
+ 23 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  23- ( ) 
- 23-Monate-Vertrag ( ) 
+ 23-Monate-Vertrag ( NOUN NOUN_PROPER_SINGULAR ) 
  23-Prozent- ( ) 
- 23-Raketen ( ) 
- 23-Stunden ( ) 
- 23-Stunden-Einschluss ( ) 
- 23-Stunden-Einschluß ( ) 
- 23-jährige ( ) 
- 23-jährigen ( ) 
- 23. ( ) 
- 23./24. ( ) 
- 23/2 ( ) 
- 23/20 ( ) 
- 23/25 ( ) 
- 23/4 ( ) 
- 23/5 ( ) 
- 23/8/89 ( ) 
- 23/89 ( ) 
- 23/91 ( ) 
- 23/93 ( ) 
- 230 ( ) 
- 230-Punkte-Programmes ( ) 
- 230/91 ( ) 
- 2300 ( ) 
- 23000-Einwohner-Kommune ( ) 
- 23000-Einwohner-Ort ( ) 
- 23000-Einwohner-Stadt ( ) 
- 230000 ( ) 
- 2304/92 ( ) 
- 230seitigen ( ) 
- 231/2 ( ) 
- 231/89 ( ) 
- 232-Anschluß ( ) 
- 232-Schnittstelle ( ) 
- 2323.Handwerker-Auskunftsdienst ( ) 
- 2370 ( ) 
- 238 ( ) 
- 239/40 ( ) 
- 23:13-Sieg ( ) 
- 23:18-Sieg ( ) 
- 23:24-Niederlage ( ) 
- 23er ( ) 
- 23fache ( ) 
- 23fachen ( ) 
- 23jährig ( ) 
- 23jährige ( ) lemma=123jährig 
- 23jährigem ( ) 
- 23jährigen ( ) 
- 23jähriger ( ) 
- 23jähriges ( ) 
- 23köpfige ( ) 
- 23köpfigen ( ) 
- 23prozentigen ( ) 
- 23stündige ( ) 
- 23stündigen ( ) 
- 23tägige ( ) 
- 24 ( ) 
- 24,7-Teiler ( ) 
- 24,9prozentigen ( ) 
+ 23-Raketen ( NOUN NOUN_PROPER_SINGULAR ) lemma=23-Rakete 
+ 23-Stunden ( NOUN NOUN_PROPER_SINGULAR ) 
+ 23-Stunden-Einschluss ( NOUN NOUN_PROPER_SINGULAR ) lemma=23-Stunden-Einschluß 
+ 23-Stunden-Einschluß ( NOUN NOUN_PROPER_SINGULAR ) 
+ 23-jährige ( ADJECTIVE ) lemma=23-jährig 
+ 23-jährigen ( ADJECTIVE ) lemma=23-jährig 
+ 23. ( ADJECTIVE ) 
+ 23./24. ( ADJECTIVE ) 
+ 23/2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 23/20 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 23/25 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 23/4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 23/5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 23/8/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 23/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 23/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 23/93 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 230 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 230-Punkte-Programmes ( NOUN NOUN_PROPER_SINGULAR ) lemma=230-Punkte-Programm 
+ 230/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2300 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 23000-Einwohner-Kommune ( NOUN NOUN_PROPER_SINGULAR ) 
+ 23000-Einwohner-Ort ( NOUN NOUN_PROPER_SINGULAR ) 
+ 23000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 230000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2304/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 230seitigen ( ADJECTIVE ) 
+ 231/2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 231/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 232-Anschluß ( NOUN NOUN_PROPER_SINGULAR ) lemma=232-Anschluss 
+ 232-Schnittstelle ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2323.Handwerker-Auskunftsdienst ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2370 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 238 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 239/40 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 23:13-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 23:18-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 23:24-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 23er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 23fache ( ADJECTIVE ) lemma=23fach 
+ 23fachen ( ADJECTIVE ) lemma=23fach 
+ 23jährig ( ADJECTIVE ) 
+ 23jährige ( ADJECTIVE ) lemma=23jährig 
+ 23jährigem ( ADJECTIVE ) lemma=23jährig 
+ 23jährigen ( ADJECTIVE ) lemma=23jährig 
+ 23jähriger ( ADJECTIVE ) lemma=23jährig 
+ 23jähriges ( ADJECTIVE ) lemma=23jährig 
+ 23köpfige ( ADJECTIVE ) lemma=23köpfig 
+ 23köpfigen ( ADJECTIVE ) lemma=23köpfig 
+ 23prozentigen ( ADJECTIVE ) lemma=23prozentig 
+ 23stündige ( ADJECTIVE ) lemma=23stündig 
+ 23stündigen ( ADJECTIVE ) lemma=23stündig 
+ 23tägige ( ADJECTIVE ) lemma=23tägig 
+ 24 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 24,7-Teiler ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24,9prozentigen ( ADJECTIVE ) lemma=24,9prozentig 
  24- ( ) 
  24-Milliarden- ( ) 
  24-Milliarden-Dollar- ( ) 
- 24-Milliarden-Dollar-Hilfspaket ( ) 
- 24-Milliarden-Dollar-Hilfspakets ( ) 
- 24-Milliarden-Dollar-Hilfsprogramm ( ) 
- 24-Milliarden-Dollar-Paket ( ) 
- 24-Minuten-Takt ( ) 
- 24-Prozent-Anteil ( ) 
- 24-Prozent-Beteiligung ( ) 
- 24-Spur-Studio ( ) 
- 24-Stunden ( ) 
+ 24-Milliarden-Dollar-Hilfspaket ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Milliarden-Dollar-Hilfspakets ( NOUN NOUN_PROPER_SINGULAR ) lemma=24-Milliarden-Dollar-Hilfspaket 
+ 24-Milliarden-Dollar-Hilfsprogramm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Milliarden-Dollar-Paket ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Minuten-Takt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Prozent-Anteil ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Prozent-Beteiligung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Spur-Studio ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Stunden ( NOUN NOUN_PROPER_SINGULAR ) 
  24-Stunden- ( ) 
- 24-Stunden-Bereitschaft ( ) 
- 24-Stunden-Betreuung ( ) 
- 24-Stunden-Betrieb ( ) 
- 24-Stunden-Dauerbetrieb ( ) 
- 24-Stunden-Dienst ( ) 
- 24-Stunden-Gehen ( ) 
- 24-Stunden-Jugendprogramm ( ) 
- 24-Stunden-Karte ( ) 
- 24-Stunden-Karten ( ) 
- 24-Stunden-Lauf ( ) 
- 24-Stunden-Laufs ( ) 
- 24-Stunden-Pflege ( ) 
- 24-Stunden-Programm ( ) 
- 24-Stunden-Programms ( ) 
- 24-Stunden-Präsenz ( ) 
- 24-Stunden-Rennen ( ) 
- 24-Stunden-Rennens ( ) 
- 24-Stunden-Rhythmus ( ) 
- 24-Stunden-Schicht ( ) 
- 24-Stunden-Schwimmen ( ) 
- 24-Stunden-Schwimmens ( ) 
- 24-Stunden-Service ( ) 
- 24-Stunden-Sondersendung ( ) 
- 24-Stunden-Tag ( ) 
- 24-Stunden-Vollprogramm ( ) 
- 24-Stunden-Woche ( ) 
- 24-Stundenprogramm ( ) 
- 24-Tonnen-Lastwagen ( ) 
- 24-jährige ( ) 
- 24-jährigen ( ) 
- 24-jähriger ( ) 
- 24-plus-Ticket ( ) 
- 24-stündige ( ) 
- 24. ( ) 
- 24/16 ( ) 
- 24/1990 ( ) 
- 24/20 ( ) 
- 24/25 ( ) 
- 24/26 ( ) 
- 24/88 ( ) 
- 24/90 ( ) 
- 24/91 ( ) 
- 24/93 ( ) 
- 240 ( ) 
+ 24-Stunden-Bereitschaft ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Stunden-Betreuung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Stunden-Betrieb ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Stunden-Dauerbetrieb ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Stunden-Dienst ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Stunden-Gehen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Stunden-Jugendprogramm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Stunden-Karte ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Stunden-Karten ( NOUN NOUN_PROPER_SINGULAR ) lemma=24-Stunden-Karte 
+ 24-Stunden-Lauf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Stunden-Laufs ( NOUN NOUN_PROPER_SINGULAR ) lemma=24-Stunden-Lauf 
+ 24-Stunden-Pflege ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Stunden-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Stunden-Programms ( NOUN NOUN_PROPER_SINGULAR ) lemma=24-Stunden-Programm 
+ 24-Stunden-Präsenz ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Stunden-Rennen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Stunden-Rennens ( NOUN NOUN_PROPER_SINGULAR ) lemma=24-Stunden-Rennen 
+ 24-Stunden-Rhythmus ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Stunden-Schicht ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Stunden-Schwimmen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Stunden-Schwimmens ( NOUN NOUN_PROPER_SINGULAR ) lemma=24-Stunden-Schwimmen 
+ 24-Stunden-Service ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Stunden-Sondersendung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Stunden-Tag ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Stunden-Vollprogramm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Stunden-Woche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Stundenprogramm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-Tonnen-Lastwagen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-jährige ( ADJECTIVE ) lemma=24-jährig 
+ 24-jährigen ( ADJECTIVE ) lemma=24-jährig 
+ 24-jähriger ( ADJECTIVE ) lemma=24-jährig 
+ 24-plus-Ticket ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24-stündige ( ADJECTIVE ) lemma=24-stündig 
+ 24. ( ADJECTIVE ) 
+ 24/16 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 24/1990 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 24/20 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 24/25 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 24/26 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 24/88 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 24/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 24/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 24/93 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 240 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  240- ( ) 
- 240-Betten-Hotel ( ) 
- 240-Liter-Behälter ( ) 
- 240-Liter-Gefässe ( ) 
- 240-Liter-Gefäße ( ) 
- 240-Liter-Tonne ( ) 
- 240-Liter-Tonnen ( ) 
- 2400 ( ) 
- 24000-Einwohner-Kommune ( ) 
- 24000-Einwohner-Stadt ( ) 
- 240000-Einwohner-Stadt ( ) 
- 242/338 ( ) 
- 244/90 ( ) 
- 245/90 ( ) 
- 248 ( ) 
- 248er ( ) 
- 2495/89 ( ) 
- 249h-Kontingente ( ) 
- 24:23-Erfolg ( ) 
- 24bändigen ( ) 
- 24bändiges ( ) 
- 24er ( ) 
- 24fache ( ) 
- 24fachen ( ) 
- 24jährig ( ) 
- 24jährige ( ) 
- 24jährigen ( ) 
- 24jähriger ( ) 
- 24köpfige ( ) 
- 24köpfigen ( ) 
- 24köpfiger ( ) 
- 24köpfiges ( ) 
- 24prozentige ( ) 
- 24prozentigen ( ) 
- 24stündige ( ) 
- 24stündigem ( ) 
- 24stündigen ( ) 
- 24stündiger ( ) 
- 24stündiges ( ) 
- 25 ( ) 
- 25,8 ( ) 
+ 240-Betten-Hotel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 240-Liter-Behälter ( NOUN NOUN_PROPER_SINGULAR ) 
+ 240-Liter-Gefässe ( NOUN NOUN_PROPER_SINGULAR ) lemma=240-Liter-Gefäß 
+ 240-Liter-Gefäße ( NOUN NOUN_PROPER_SINGULAR ) lemma=240-Liter-Gefäß 
+ 240-Liter-Tonne ( NOUN NOUN_PROPER_SINGULAR ) 
+ 240-Liter-Tonnen ( NOUN NOUN_PROPER_SINGULAR ) lemma=240-Liter-Tonne 
+ 2400 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 24000-Einwohner-Kommune ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 240000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 242/338 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 244/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 245/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 248 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 248er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2495/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 249h-Kontingente ( NOUN NOUN_PROPER_SINGULAR ) lemma=249h-Kontingent 
+ 24:23-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24bändigen ( ADJECTIVE ) lemma=24bändig 
+ 24bändiges ( ADJECTIVE ) lemma=24bändig 
+ 24er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 24fache ( ADJECTIVE ) lemma=24fach 
+ 24fachen ( ADJECTIVE ) lemma=24fach 
+ 24jährig ( ADJECTIVE ) 
+ 24jährige ( ADJECTIVE ) lemma=24jährig 
+ 24jährigen ( ADJECTIVE ) lemma=24jährig 
+ 24jähriger ( ADJECTIVE ) lemma=24jährig 
+ 24köpfige ( ADJECTIVE ) lemma=24köpfig 
+ 24köpfigen ( ADJECTIVE ) lemma=24köpfig 
+ 24köpfiger ( ADJECTIVE ) lemma=24köpfig 
+ 24köpfiges ( ADJECTIVE ) lemma=24köpfig 
+ 24prozentige ( ADJECTIVE ) lemma=24prozentig 
+ 24prozentigen ( ADJECTIVE ) lemma=24prozentig 
+ 24stündige ( ADJECTIVE ) lemma=24stündig 
+ 24stündigem ( ADJECTIVE ) lemma=24stündig 
+ 24stündigen ( ADJECTIVE ) lemma=24stündig 
+ 24stündiger ( ADJECTIVE ) lemma=24stündig 
+ 24stündiges ( ADJECTIVE ) lemma=24stündig 
+ 25 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 25,8 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  25- ( ) 
  25-Dinar- ( ) 
- 25-Dinar-Noten ( ) 
- 25-Dinar-Scheine ( ) 
- 25-Grad-Marke ( ) 
- 25-Jahr-Dienstjubiläum ( ) 
- 25-Jahr-Feier ( ) 
- 25-Jahr-Firmenjubiläum ( ) 
- 25-Jahr-Jubiläum ( ) 
- 25-Jahre-Programm ( ) 
- 25-Jahrfeier ( ) 
- 25-Liter ( ) 
- 25-Liter-Eimer ( ) 
- 25-Liter-Eimern ( ) 
+ 25-Dinar-Noten ( NOUN NOUN_PROPER_SINGULAR ) lemma=25-Dinar-Note 
+ 25-Dinar-Scheine ( NOUN NOUN_PROPER_SINGULAR ) lemma=25-Dinar-Schein 
+ 25-Grad-Marke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Jahr-Dienstjubiläum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Jahr-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Jahr-Firmenjubiläum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Jahr-Jubiläum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Jahre-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Jahrfeier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Liter ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Liter-Eimer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Liter-Eimern ( NOUN NOUN_PROPER_SINGULAR ) lemma=25-Liter-Eimer 
  25-Meter- ( ) 
- 25-Meter-Bahn ( ) 
- 25-Meter-Bahnen ( ) 
- 25-Meter-Becken ( ) 
- 25-Meter-Freistoss ( ) 
- 25-Meter-Freistoß ( ) 
- 25-Meter-Schuss ( ) 
- 25-Meter-Schuß ( ) 
- 25-Millionen ( ) 
- 25-Millionen-Auftrag ( ) 
- 25-Millionen-Mark-Programm ( ) 
- 25-Millionen-Programm ( ) 
- 25-Millionen-Programms ( ) 
- 25-Millionen-Projekt ( ) 
- 25-Millionen-Topf ( ) 
- 25-Millionen-Volkes ( ) 
- 25-Minuten-Takt ( ) 
+ 25-Meter-Bahn ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Meter-Bahnen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Meter-Becken ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Meter-Freistoss ( NOUN NOUN_PROPER_SINGULAR ) lemma=25-Meter-Freistoß 
+ 25-Meter-Freistoß ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Meter-Schuss ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Meter-Schuß ( NOUN NOUN_PROPER_SINGULAR ) lemma=25-Meter-Schuss 
+ 25-Millionen ( NOUN NOUN_PROPER_SINGULAR ) lemma=25-Million 
+ 25-Millionen-Auftrag ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Millionen-Mark-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Millionen-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Millionen-Programms ( NOUN NOUN_PROPER_SINGULAR ) lemma=25-Millionen-Programm 
+ 25-Millionen-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Millionen-Topf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Millionen-Volkes ( NOUN NOUN_PROPER_SINGULAR ) lemma=25-Millionen-Volk 
+ 25-Minuten-Takt ( NOUN NOUN_PROPER_SINGULAR ) 
  25-Prozent- ( ) 
- 25-Prozent-Anteil ( ) 
- 25-Prozent-Beteiligung ( ) 
- 25-Prozent-Klausel ( ) 
- 25-Prozent-Marke ( ) 
- 25-Prozent-Paket ( ) 
- 25-Prozent-Regelung ( ) 
- 25-Prozent-Zuschuss ( ) 
- 25-Prozent-Zuschuß ( ) 
- 25-Punkte-Programm ( ) 
- 25-Stunden ( ) 
- 25-Stunden-Woche ( ) 
- 25-jährige ( ) 
- 25-jährigen ( ) 
- 25-köpfige ( ) 
- 25-m-Bahn ( ) 
- 25-m-Schuss ( ) 
- 25-m-Schuß ( ) 
- 25. ( ) 
- 25/13 ( ) 
- 25/134 ( ) 
- 25/26 ( ) 
- 25/27 ( ) 
- 25/30 ( ) 
- 25/88 ( ) 
- 25/90 ( ) 
- 25/92 ( ) 
+ 25-Prozent-Anteil ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Prozent-Beteiligung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Prozent-Klausel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Prozent-Marke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Prozent-Paket ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Prozent-Regelung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Prozent-Zuschuss ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Prozent-Zuschuß ( NOUN NOUN_PROPER_SINGULAR ) lemma=25-Prozent-Zuschuss 
+ 25-Punkte-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Stunden ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-Stunden-Woche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-jährige ( ADJECTIVE ) lemma=25-jährig 
+ 25-jährigen ( ADJECTIVE ) lemma=25-jährig 
+ 25-köpfige ( ADJECTIVE ) lemma=25-köpfig 
+ 25-m-Bahn ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-m-Schuss ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25-m-Schuß ( NOUN NOUN_PROPER_SINGULAR ) lemma=25-m-Schuss 
+ 25. ( ADJECTIVE ) 
+ 25/13 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 25/134 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 25/26 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 25/27 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 25/30 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 25/88 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 25/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 25/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  250- ( ) 
- 250-Jahr-Feier ( ) 
- 250-Liter-Behälter ( ) 
+ 250-Jahr-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 250-Liter-Behälter ( NOUN NOUN_PROPER_SINGULAR ) 
  250-MW- ( ) 
- 250-Millionen-Loch ( ) 
- 250-Millionen-Mark-Katastrophe ( ) 
- 250-Millionen-Mark-Programm ( ) 
- 250-Millionen-Mark-Spende ( ) 
- 250-Millionen-Mark-Vorhaben ( ) 
- 250-ccm-Klasse ( ) 
- 250-kg-Bombe ( ) 
- 2500 ( ) lemma=325000 
- 2500-Quadratmeter-Grundstück ( ) 
- 2500-Seelen-Gemeinde ( ) 
- 2500-Seelen-Städtchen ( ) 
- 2500-Seelen-Städtchens ( ) 
- 25000 ( ) 
- 25000-Einwohner-Kommune ( ) 
- 25000-Einwohner-Stadt ( ) 
- 250000 ( ) 
- 250er ( ) 
- 250er-Klasse ( ) 
- 250ern ( ) 
- 250jährige ( ) lemma=1250jährig 
- 250jährigen ( ) 
- 250jähriges ( ) 
- 250köpfige ( ) 
- 250köpfigen ( ) 
- 251 ( ) 
- 251/01 ( ) 
- 2550/91 ( ) 
- 255000-Tonnen-Tanker ( ) 
- 2552/90 ( ) 
- 2555/1991 ( ) 
- 256-Megabit-Chip ( ) 
- 258/259 ( ) 
- 25:13-Siegen ( ) 
- 25er ( ) 
- 25fache ( ) 
- 25fachen ( ) 
- 25facher ( ) 
- 25geschossiger ( ) 
- 25geschossiges ( ) 
- 25jährig ( ) lemma=725jährig 
- 25jährige ( ) lemma=325jährig 
- 25jährigem ( ) 
- 25jährigen ( ) 
- 25jähriger ( ) 
- 25jähriges ( ) 
- 25köpfige ( ) 
- 25köpfigen ( ) 
- 25köpfiges ( ) 
- 25mal ( ) 
- 25maliges ( ) 
- 25prozentige ( ) 
- 25prozentigen ( ) 
- 25prozentiger ( ) 
- 25prozentiges ( ) 
- 25stündige ( ) 
- 25stündigen ( ) 
- 25teiligen ( ) 
- 26 ( ) 
- 26,6 ( ) 
+ 250-Millionen-Loch ( NOUN NOUN_PROPER_SINGULAR ) 
+ 250-Millionen-Mark-Katastrophe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 250-Millionen-Mark-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 250-Millionen-Mark-Spende ( NOUN NOUN_PROPER_SINGULAR ) 
+ 250-Millionen-Mark-Vorhaben ( NOUN NOUN_PROPER_SINGULAR ) 
+ 250-ccm-Klasse ( NOUN NOUN_PROPER_SINGULAR ) 
+ 250-kg-Bombe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2500 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2500-Quadratmeter-Grundstück ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2500-Seelen-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2500-Seelen-Städtchen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2500-Seelen-Städtchens ( NOUN NOUN_PROPER_SINGULAR ) lemma=2500-Seelen-Städtchen 
+ 25000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 25000-Einwohner-Kommune ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 250000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 250er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 250er-Klasse ( NOUN NOUN_PROPER_SINGULAR ) 
+ 250ern ( NOUN NOUN_PROPER_SINGULAR ) lemma=250er 
+ 250jährige ( ADJECTIVE ) lemma=250jährig 
+ 250jährigen ( ADJECTIVE ) lemma=250jährig 
+ 250jähriges ( ADJECTIVE ) lemma=250jährig 
+ 250köpfige ( ADJECTIVE ) lemma=250köpfig 
+ 250köpfigen ( ADJECTIVE ) lemma=250köpfig 
+ 251 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 251/01 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2550/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 255000-Tonnen-Tanker ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2552/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2555/1991 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 256-Megabit-Chip ( NOUN NOUN_PROPER_SINGULAR ) 
+ 258/259 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 25:13-Siegen ( NOUN NOUN_PROPER_SINGULAR ) lemma=25:13-Sieg 
+ 25er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 25fache ( ADJECTIVE ) lemma=25fach 
+ 25fachen ( ADJECTIVE ) lemma=25fach 
+ 25facher ( ADJECTIVE ) lemma=25fach 
+ 25geschossiger ( ADJECTIVE ) lemma=25geschossig 
+ 25geschossiges ( ADJECTIVE ) lemma=25geschossig 
+ 25jährig ( ADJECTIVE ) 
+ 25jährige ( ADJECTIVE ) lemma=25jährig 
+ 25jährigem ( ADJECTIVE ) lemma=25jährig 
+ 25jährigen ( ADJECTIVE ) lemma=25jährig 
+ 25jähriger ( ADJECTIVE ) lemma=25jährig 
+ 25jähriges ( ADJECTIVE ) lemma=25jährig 
+ 25köpfige ( ADJECTIVE ) lemma=25köpfig 
+ 25köpfigen ( ADJECTIVE ) lemma=25köpfig 
+ 25köpfiges ( ADJECTIVE ) lemma=25köpfig 
+ 25mal ( ADVERB ) 
+ 25maliges ( ADJECTIVE ) lemma=25malig 
+ 25prozentige ( ADJECTIVE ) lemma=25prozentig 
+ 25prozentigen ( ADJECTIVE ) lemma=25prozentig 
+ 25prozentiger ( ADJECTIVE ) lemma=25prozentig 
+ 25prozentiges ( ADJECTIVE ) lemma=25prozentig 
+ 25stündige ( ADJECTIVE ) lemma=25stündig 
+ 25stündigen ( ADJECTIVE ) lemma=25stündig 
+ 25teiligen ( ADJECTIVE ) lemma=25teilig 
+ 26 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 26,6 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  26- ( ) 
- 26-Stunden-Epos ( ) 
- 26-jährige ( ) 
- 26-jähriger ( ) 
- 26. ( ) 
- 26/27 ( ) 
- 26/3 ( ) 
- 26/90 ( ) 
- 26/91 ( ) 
- 26/92 ( ) 
- 260-Mehrheit ( ) 
- 260-Seelen-Gemeinde ( ) 
- 2600 ( ) 
- 2600-Einwohner-Gemeinde ( ) 
- 263/91 ( ) 
- 265/92 ( ) 
- 266/84 ( ) 
- 2684 ( ) 
- 2690/92 ( ) 
- 26er ( ) 
- 26fachen ( ) 
- 26jährig ( ) 
- 26jährige ( ) 
- 26jährigen ( ) 
- 26jähriger ( ) 
- 26köpfige ( ) 
- 26köpfigen ( ) 
- 26monatige ( ) 
- 26monatiger ( ) 
- 26prozentige ( ) 
- 26prozentigen ( ) 
- 26stündige ( ) 
- 26stündigen ( ) 
- 26stündiger ( ) 
- 26teilige ( ) 
- 26teiligen ( ) 
- 27 ( ) 
+ 26-Stunden-Epos ( NOUN NOUN_PROPER_SINGULAR ) 
+ 26-jährige ( ADJECTIVE ) lemma=26-jährig 
+ 26-jähriger ( ADJECTIVE ) lemma=26-jährig 
+ 26. ( ADJECTIVE ) 
+ 26/27 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 26/3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 26/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 26/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 26/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 260-Mehrheit ( NOUN NOUN_PROPER_SINGULAR ) 
+ 260-Seelen-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2600 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2600-Einwohner-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 263/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 265/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 266/84 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2684 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2690/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 26er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 26fachen ( ADJECTIVE ) lemma=26fach 
+ 26jährig ( ADJECTIVE ) 
+ 26jährige ( ADJECTIVE ) lemma=26jährig 
+ 26jährigen ( ADJECTIVE ) lemma=26jährig 
+ 26jähriger ( ADJECTIVE ) lemma=26jährig 
+ 26köpfige ( ADJECTIVE ) lemma=26köpfig 
+ 26köpfigen ( ADJECTIVE ) lemma=26köpfig 
+ 26monatige ( ADJECTIVE ) lemma=26monatig 
+ 26monatiger ( ADJECTIVE ) lemma=26monatig 
+ 26prozentige ( ADJECTIVE ) lemma=26prozentig 
+ 26prozentigen ( ADJECTIVE ) lemma=26prozentig 
+ 26stündige ( ADJECTIVE ) lemma=26stündig 
+ 26stündigen ( ADJECTIVE ) lemma=26stündig 
+ 26stündiger ( ADJECTIVE ) lemma=26stündig 
+ 26teilige ( ADJECTIVE ) lemma=26teilig 
+ 26teiligen ( ADJECTIVE ) lemma=26teilig 
+ 27 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  27- ( ) 
- 27-Anschluss ( ) 
- 27-Anschluß ( ) 
- 27-jährige ( ) 
- 27-jährigen ( ) 
- 27. ( ) 
- 27/14 ( ) 
- 27/28 ( ) 
- 27/28.2. ( ) 
- 27/35 ( ) 
- 27/4/90 ( ) 
- 27/7 ( ) 
- 27/90 ( ) 
- 27/91 ( ) 
- 27/92 ( ) 
- 270 ( ) 
- 2700/84 ( ) 
- 2700/91 ( ) 
- 27000-Einwohner-Stadt ( ) 
- 2709/92 ( ) 
- 272er ( ) 
- 274 ( ) 
- 274/90 ( ) 
- 275/89 ( ) 
- 275/90 ( ) 
- 275jährige ( ) 
- 275mal ( ) 
- 278/90 ( ) 
- 27:5-Sätze ( ) 
- 27er ( ) 
- 27jährig ( ) lemma=127jährig 
- 27jährige ( ) 
- 27jährigem ( ) 
- 27jährigen ( ) 
- 27jähriger ( ) 
- 27köpfige ( ) 
- 27köpfigen ( ) 
- 27mal ( ) 
- 27malige ( ) 
- 27monatige ( ) 
- 27tägige ( ) 
- 28 ( ) 
- 28,8 ( ) 
- 28,8-Stunden-Woche ( ) 
+ 27-Anschluss ( NOUN NOUN_PROPER_SINGULAR ) 
+ 27-Anschluß ( NOUN NOUN_PROPER_SINGULAR ) lemma=27-Anschluss 
+ 27-jährige ( ADJECTIVE ) lemma=27-jährig 
+ 27-jährigen ( ADJECTIVE ) lemma=27-jährig 
+ 27. ( ADJECTIVE ) 
+ 27/14 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 27/28 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 27/28.2. ( ADJECTIVE ) 
+ 27/35 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 27/4/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 27/7 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 27/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 27/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 27/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 270 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2700/84 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 2700/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 27000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2709/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 272er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 274 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 274/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 275/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 275/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 275jährige ( ADJECTIVE ) lemma=275jährig 
+ 275mal ( ADVERB ) 
+ 278/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 27:5-Sätze ( NOUN NOUN_PROPER_SINGULAR ) lemma=27:5-Satz 
+ 27er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 27jährig ( ADJECTIVE ) 
+ 27jährige ( ADJECTIVE ) lemma=27jährig 
+ 27jährigem ( ADJECTIVE ) lemma=27jährig 
+ 27jährigen ( ADJECTIVE ) lemma=27jährig 
+ 27jähriger ( ADJECTIVE ) lemma=27jährig 
+ 27köpfige ( ADJECTIVE ) lemma=27köpfig 
+ 27köpfigen ( ADJECTIVE ) lemma=27köpfig 
+ 27mal ( ADVERB ) 
+ 27malige ( ADJECTIVE ) lemma=27malig 
+ 27monatige ( ADJECTIVE ) lemma=27monatig 
+ 27tägige ( ADJECTIVE ) lemma=27tägig 
+ 28 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 28,8 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 28,8-Stunden-Woche ( NOUN NOUN_PROPER_SINGULAR ) 
  28- ( ) 
- 28-Mann-Kader ( ) 
- 28-Millionen-Mark-Projektes ( ) 
- 28-Mio ( ) 
- 28-Tonnen-Limit ( ) 
- 28-Tonnen-Regelung ( ) 
- 28-jährige ( ) 
- 28-jähriger ( ) 
- 28. ( ) 
- 28./29. ( ) 
- 28/17 ( ) 
- 28/1991 ( ) 
- 28/29 ( ) 
- 28/29/30 ( ) 
- 28/63 ( ) 
- 28/9 ( ) lemma=128/90 
- 28/95 ( ) 
- 280.000-Einwohner-Stadt ( ) 
- 28000-Einwohner-Stadt ( ) 
- 2805/89 ( ) 
- 286er ( ) 
- 287/90 ( ) 
- 287/92 ( ) 
- 28er ( ) 
- 28fache ( ) 
- 28fachen ( ) 
- 28jährig ( ) 
- 28jährige ( ) 
- 28jährigen ( ) 
- 28jähriger ( ) 
- 28köpfige ( ) lemma=128köpfig 
- 28köpfigen ( ) 
- 28prozentige ( ) 
- 28prozentigen ( ) 
- 28stöckigen ( ) 
- 28stündigen ( ) 
- 28stündiger ( ) 
- 28tägiger ( ) 
- 29,25/27 ( ) 
- 29,33/35 ( ) 
- 29,48/52 ( ) 
- 29-Cent-Briefmarke ( ) 
- 29-Umgehung ( ) 
- 29-jährige ( ) 
- 29-jährigen ( ) 
- 29. ( ) 
- 29/1991 ( ) 
- 29/30 ( ) 
- 29/31 ( ) 
- 29/36,5 ( ) 
- 29/5 ( ) 
- 29/91 ( ) 
- 290-Betten-Haus ( ) 
- 290/93 ( ) 
- 293/90 ( ) 
- 295-Tunnel ( ) 
- 299/90 ( ) 
- 29er ( ) 
- 29er-Verbände ( ) 
- 29fache ( ) 
- 29fachen ( ) 
- 29jährig ( ) 
- 29jährige ( ) 
- 29jährigem ( ) 
- 29jährigen ( ) 
- 29jähriger ( ) 
- 29köpfige ( ) 
- 29stündige ( ) 
- 2:0 ( ) 
+ 28-Mann-Kader ( NOUN NOUN_PROPER_SINGULAR ) 
+ 28-Millionen-Mark-Projektes ( NOUN NOUN_PROPER_SINGULAR ) lemma=28-Millionen-Mark-Projekt 
+ 28-Mio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ 28-Tonnen-Limit ( NOUN NOUN_PROPER_SINGULAR ) 
+ 28-Tonnen-Regelung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 28-jährige ( ADJECTIVE ) lemma=28-jährig 
+ 28-jähriger ( ADJECTIVE ) lemma=28-jährig 
+ 28. ( ADJECTIVE ) 
+ 28./29. ( ADJECTIVE ) 
+ 28/17 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 28/1991 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 28/29 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 28/29/30 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 28/63 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 28/9 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 28/95 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 280.000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 28000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2805/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 286er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 287/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 287/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 28er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 28fache ( ADJECTIVE ) lemma=28fach 
+ 28fachen ( ADJECTIVE ) lemma=28fach 
+ 28jährig ( ADJECTIVE ) 
+ 28jährige ( ADJECTIVE ) lemma=28jährig 
+ 28jährigen ( ADJECTIVE ) lemma=28jährig 
+ 28jähriger ( ADJECTIVE ) lemma=28jährig 
+ 28köpfige ( ADJECTIVE ) lemma=28köpfig 
+ 28köpfigen ( ADJECTIVE ) lemma=28köpfig 
+ 28prozentige ( ADJECTIVE ) lemma=28prozentig 
+ 28prozentigen ( ADJECTIVE ) lemma=28prozentig 
+ 28stöckigen ( ADJECTIVE ) lemma=28stöckig 
+ 28stündigen ( ADJECTIVE ) lemma=28stündig 
+ 28stündiger ( ADJECTIVE ) lemma=28stündig 
+ 28tägiger ( ADJECTIVE ) lemma=28tägig 
+ 29,25/27 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 29,33/35 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 29,48/52 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 29-Cent-Briefmarke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 29-Umgehung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 29-jährige ( ADJECTIVE ) lemma=29-jährig 
+ 29-jährigen ( ADJECTIVE ) lemma=29-jährig 
+ 29. ( ADJECTIVE ) 
+ 29/1991 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 29/30 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 29/31 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 29/36,5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 29/5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 29/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 290-Betten-Haus ( NOUN NOUN_PROPER_SINGULAR ) 
+ 290/93 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 293/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 295-Tunnel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 299/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 29er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 29er-Verbände ( NOUN NOUN_PROPER_SINGULAR ) lemma=29er-Verband 
+ 29fache ( ADJECTIVE ) lemma=29fach 
+ 29fachen ( ADJECTIVE ) lemma=29fach 
+ 29jährig ( ADJECTIVE ) 
+ 29jährige ( ADJECTIVE ) lemma=29jährig 
+ 29jährigem ( ADJECTIVE ) lemma=29jährig 
+ 29jährigen ( ADJECTIVE ) lemma=29jährig 
+ 29jähriger ( ADJECTIVE ) lemma=29jährig 
+ 29köpfige ( ADJECTIVE ) lemma=29köpfig 
+ 29stündige ( ADJECTIVE ) lemma=29stündig 
+ 2:0 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  2:0- ( ) 
- 2:0-Auswärtssieg ( ) 
- 2:0-Endstand ( ) 
- 2:0-Erfolg ( ) 
- 2:0-Finalsieg ( ) 
- 2:0-Führung ( ) 
- 2:0-Halbzeitstand ( ) 
- 2:0-Heimsieg ( ) 
- 2:0-Laufsieger ( ) 
- 2:0-Pausenstand ( ) 
- 2:0-Pokalsieg ( ) 
- 2:0-Punkten ( ) 
- 2:0-Satzführung ( ) 
- 2:0-Sieg ( ) 
- 2:0-Sieges ( ) 
- 2:0-Vorsprung ( ) 
- 2:1 ( ) 
+ 2:0-Auswärtssieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:0-Endstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:0-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:0-Finalsieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:0-Führung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:0-Halbzeitstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:0-Heimsieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:0-Laufsieger ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:0-Pausenstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:0-Pokalsieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:0-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=2:0-Punkt 
+ 2:0-Satzführung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:0-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:0-Sieges ( NOUN NOUN_PROPER_SINGULAR ) lemma=2:0-Sieg 
+ 2:0-Vorsprung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  2:1- ( ) 
- 2:1-Anschlusstreffer ( ) 
- 2:1-Anschlußtreffer ( ) 
- 2:1-Arbeitssieg ( ) 
- 2:1-Auswärtssieg ( ) 
- 2:1-Endstand ( ) 
- 2:1-Erfolg ( ) 
- 2:1-Erfolgen ( ) 
- 2:1-Führung ( ) 
- 2:1-Führungstreffer ( ) 
- 2:1-Gesamtführung ( ) 
- 2:1-Halbzeitführung ( ) 
- 2:1-Halbzeitstand ( ) 
- 2:1-Heimsieg ( ) 
- 2:1-Kurs ( ) 
- 2:1-Pausenführung ( ) 
- 2:1-Pausenstand ( ) 
- 2:1-Punktsieg ( ) 
- 2:1-Punktsieger ( ) 
- 2:1-Quote ( ) 
- 2:1-Sieg ( ) lemma=22:1-Sieg 
- 2:1-Siegen ( ) 
- 2:1-Sieger ( ) 
- 2:1-Sieges ( ) 
- 2:1-Siegtreffer ( ) 
- 2:1-Triumph ( ) 
- 2:1-Umstellung ( ) 
- 2:1-Umtausch ( ) 
- 2:1-Umtauschkurs ( ) 
- 2:1-Vorschlag ( ) 
- 2:1-Vorschlages ( ) 
- 2:1-Vorsprung ( ) 
- 2:1-Überlegenheit ( ) 
- 2:15-Niederlage ( ) 
- 2:16-Punkte ( ) 
- 2:2-Ausgleich ( ) 
- 2:2-Ausgleichstreffer ( ) 
- 2:2-Endstand ( ) 
- 2:2-Halbzeitstand ( ) 
- 2:2-Pausenstand ( ) 
- 2:2-Punkten ( ) 
- 2:2-Remis ( ) 
- 2:2-Unentschieden ( ) 
- 2:22-Punkten ( ) 
- 2:3-Anschluss ( ) 
- 2:3-Anschlusstreffer ( ) 
- 2:3-Anschluß ( ) 
- 2:3-Anschlußtreffer ( ) 
- 2:3-Endstand ( ) 
- 2:3-Heimniederlage ( ) 
- 2:3-Niederlage ( ) 
- 2:3-Pleite ( ) 
- 2:3-Pokal-Niederlage ( ) 
- 2:3-Rückstand ( ) 
- 2:3-Schlappe ( ) 
- 2:4-Anschlusstreffer ( ) 
- 2:4-Anschlußtreffer ( ) 
- 2:4-Endstand ( ) 
- 2:4-Heimniederlage ( ) 
- 2:4-Niederlage ( ) 
- 2:4-Punkte ( ) lemma=22:4-Punkt 
- 2:4-Punkten ( ) 
- 2:4-Rückstand ( ) 
- 2:4-Zählern ( ) 
- 2:46-Punkte ( ) 
- 2:5-Anschlusstreffer ( ) 
- 2:5-Anschlußtreffer ( ) 
- 2:5-Heimniederlage ( ) 
- 2:5-Niederlage ( ) 
- 2:5-Rückstand ( ) 
- 2:6-Endstand ( ) 
- 2:6-Niederlage ( ) 
- 2:6-Punkten ( ) 
- 2:6-Rückstand ( ) 
- 2:6-Schlappe ( ) 
- 2:6-Zähler ( ) 
- 2:7-Niederlage ( ) 
- 2:8-Pleite ( ) 
- 2:8-Punkten ( ) 
- 2:9-Niederlage ( ) 
- 2er ( ) lemma=72er 
- 2jährige ( ) lemma=92jährig 
- 2jährigen ( ) 
- 2jähriger ( ) 
- 2mal ( ) 
- 2prozentigen ( ) 
- 218-Tribuna ( ) lemma=-218-Tribunal 
- 218-Urtei ( ) lemma=-218-Urteil 
- 218-Vorschla ( ) lemma=-218-Vorschlag 
- 2-Ausstos ( ) lemma=02-Ausstoß 
- 2-Ausstosse ( ) lemma=02-Ausstoß 
- 2-Aussto� ( ) lemma=02-Ausstoß 
- 2-Ausstoße ( ) lemma=02-Ausstoß 
- 2-Emissione ( ) lemma=02-Emission 
- 2/ ( ) lemma=72/8 
- 20-Nummer ( ) lemma=020-Nummer 
- 203/5328 ( ) lemma=0203/53289 
- 2102/1474 ( ) lemma=02102/14740 
- 211/408967 ( ) lemma=0211/4089676 
- 211/55628 ( ) lemma=0211/556281 
- 2151/61574 ( ) lemma=02151/615749 
- 2151/6533 ( ) lemma=02151/65333 
- 221/24977 ( ) lemma=0221/249779 
- 221/51139 ( ) lemma=0221/511395 
- 228 ( ) lemma=0228- 
- 228/104514/ ( ) lemma=0228/104514/5 
- 228/1 ( ) lemma=0228/16 
- 228/2 ( ) lemma=0228/21 
- 228/21135 ( ) lemma=0228/211355 
- 228/21740 ( ) lemma=0228/217401 
- 228/22282 ( ) lemma=0228/222826 
- 228/36101 ( ) lemma=0228/361013 
- 228/47080 ( ) lemma=0228/470806 
- 228/63287 ( ) lemma=0228/632871 
- 228/65904 ( ) lemma=0228/659044 
- 228/66444 ( ) lemma=0228/664442 
- 228/666752 ( ) lemma=0228/6667521 
- 228/68705 ( ) lemma=0228/687055 
- 228/69290 ( ) lemma=0228/692906 
- 228/69777 ( ) lemma=0228/697778 
- 228/73557 ( ) lemma=0228/735577 
- 241/54112 ( ) lemma=0241/541120 
- 2681/437 ( ) lemma=02681/4377 
- 2962/80042 ( ) lemma=02962/800427 
- 2e ( ) lemma=92er 
- 2er-Sitzun ( ) lemma=02er-Sitzung 
- 2,0/321, ( ) lemma=12,0/321,6 
- 2, ( ) lemma=92,4 
- 2,5-Prozent-Antei ( ) lemma=12,5-Prozent-Anteil 
- 2,5-Prozent-Hürd ( ) lemma=12,5-Prozent-Hürde 
- 2,5prozentige ( ) lemma=12,5prozentig 
- 2-GHz-Bereic ( ) lemma=12-GHz-Bereich 
- 2-Jahr-Feie ( ) lemma=12-Jahr-Feier 
- 2-Millionen-Kredi ( ) lemma=12-Millionen-Kredit 
- 2-Millionen-Program ( ) lemma=12-Millionen-Programm 
- 2-Mi ( ) lemma=12-Mio 
- 2-Punkte-Katalo ( ) lemma=12-Punkte-Katalog 
- 2-Punkte-Program ( ) lemma=12-Punkte-Programm 
- 2-Stunde ( ) lemma=12-Stunde 
- 2-Stunden ( ) lemma=32-Stunden- 
- 2-Stunden-Lauf ( ) lemma=12-Stunden-Lauf 
- 2-Stunden-Schichte ( ) lemma=12-Stunden-Schicht 
- 2-Stunden-Ta ( ) lemma=12-Stunden-Tag 
- 2-Turnie ( ) lemma=12-Turnier 
- 2-Uhr-Läute ( ) lemma=12-Uhr-Läuten 
- 2-V-Anschlu� ( ) lemma=12-V-Anschluss 
- 2-Wochen-Fris ( ) lemma=22-Wochen-Frist 
- 2-Zentimeter-C ( ) lemma=12-Zentimeter-CD 
- 2-Zylinde ( ) lemma=12-Zylinder 
- 2-g-Gebind ( ) lemma=12-g-Gebinde 
- 2-jährig ( ) lemma=52-jährig 
- 2-köpfige ( ) lemma=12-köpfig 
- 2.000-Einwohner-Stad ( ) lemma=12.000-Einwohner-Stadt 
- 2.000-Seelen-Städtche ( ) lemma=12.000-Seelen-Städtchen 
- 2.000/19.00 ( ) lemma=12.000/19.000 
- 2.000fac ( ) lemma=12.000fach 
- 2.1 ( ) lemma=12.15 
- 2.3 ( ) lemma=12.30 
- 2.4 ( ) lemma=12.45 
- 2/13.9.8 ( ) lemma=12/13.9.89 
- 2/197 ( ) lemma=12/1972 
- 2/198 ( ) lemma=12/1989 
- 2/23 ( ) lemma=12/236 
- 2/56,6 ( ) lemma=12/56,69 
- 2/6/8 ( ) lemma=12/6/89 
- 2/8 ( ) lemma=82/84 
- 20-Betten-Hau ( ) lemma=120-Betten-Haus 
- 20-Betten-Hote ( ) lemma=120-Betten-Hotel 
- 20-Jahr-Feie ( ) lemma=120-Jahr-Feier 
- 20-Liter-Behälte ( ) lemma=120-Liter-Behälter 
- 20-Liter-Eime ( ) lemma=120-Liter-Eimer 
- 20-Liter-Gefäs ( ) lemma=120-Liter-Gefäß 
- 20-Liter-Gefässe ( ) lemma=120-Liter-Gefäß 
- 20-Liter-Gefä� ( ) lemma=120-Liter-Gefäß 
- 20-Liter-Gefäße ( ) lemma=120-Liter-Gefäß 
- 20-Liter-Restmülltonn ( ) lemma=120-Liter-Restmülltonne 
- 20-Liter-Tonn ( ) lemma=120-Liter-Tonne 
- 20-Liter-Tonne ( ) lemma=120-Liter-Tonne 
- 20-Meter-Schanz ( ) lemma=120-Meter-Schanze 
- 20-Mikrogramm-Grenz ( ) lemma=120-Mikrogramm-Grenze 
- 20-Millionen ( ) lemma=120-Millionen- 
- 20-Millionen-Eta ( ) lemma=120-Millionen-Etat 
- 20-Millionen-Mark-Projek ( ) lemma=120-Millionen-Mark-Projekt 
- 20-Millionen-Mark-Schiebun ( ) lemma=120-Millionen-Mark-Schiebung 
- 20-Millionen-Program ( ) lemma=120-Millionen-Programm 
- 20-Millionen-Volke ( ) lemma=120-Millionen-Volk 
- 20-Seiten-Dokumentatio ( ) lemma=120-Seiten-Dokumentation 
- 20-m-Schanz ( ) lemma=120-m-Schanze 
- 20.000-Einwohner-Stad ( ) lemma=120.000-Einwohner-Stadt 
- 20/9 ( ) lemma=120/90 
- 200-Jahr-Feie ( ) lemma=1200-Jahr-Feier 
- 200-Jahr-Jubiläu ( ) lemma=1200-Jahr-Jubiläum 
- 200-Jahrfeie ( ) lemma=1200-Jahrfeier 
- 2000-Einwohner-Kommun ( ) lemma=12000-Einwohner-Kommune 
- 2000-Einwohner-Stad ( ) lemma=12000-Einwohner-Stadt 
- 200jährig ( ) lemma=1200jährig 
- 209/4 ( ) lemma=1209/42 
- 20e ( ) lemma=120er 
- 20prozenti ( ) lemma=120prozentig 
- 21/12 ( ) lemma=121/122 
- 213/8 ( ) lemma=1213/85 
- 22-Millimeter ( ) lemma=122-Millimeter- 
- 22-Millimeter-Rakete ( ) lemma=122-Millimeter-Rakete 
- 22-Teile ( ) lemma=122-Teiler 
- 225-Jahr-Feie ( ) lemma=1225-Jahr-Feier 
- 225jährige ( ) lemma=1225jährig 
- 228/9 ( ) lemma=1228/92 
- 23/8 ( ) lemma=123/88 
- 24-Teile ( ) lemma=124-Teiler 
- 25-Jahr-Feie ( ) lemma=825-Jahr-Feier 
- 25-Jahr-Jubiläu ( ) lemma=825-Jahr-Jubiläum 
- 25-Teile ( ) lemma=125-Teiler 
- 25-ccm-Klass ( ) lemma=125-ccm-Klasse 
- 25/12 ( ) lemma=125/127 
- 25/9 ( ) lemma=125/90 
- 250-Jahr-Feie ( ) lemma=1250-Jahr-Feier 
- 252/5 ( ) lemma=1252/50 
- 253/8 ( ) lemma=1253/85 
- 25e ( ) lemma=125er 
- 25er-DKW-Motorrade ( ) lemma=125er-DKW-Motorrad 
- 25fach ( ) lemma=125fach 
- 26-Betten-Klini ( ) lemma=126-Betten-Klinik 
- 26/8 ( ) lemma=126/89 
- 266/3 ( ) lemma=1266/31 
- 268/5 ( ) lemma=1268/50 
- 268/8 ( ) lemma=1268/86 
- 269/2 ( ) lemma=1269/21 
- 26köpfig ( ) lemma=126köpfig 
- 27, ( ) lemma=127,4 
- 277/9 ( ) lemma=1277/91 
- 279/2 ( ) lemma=1279/28 
- 28/12 ( ) lemma=128/129 
- 280/5 ( ) lemma=1280/53 
- 285/3 ( ) lemma=1285/35 
- 285/9 ( ) lemma=1285/92 
- 287/0 ( ) lemma=1287/00 
- 288/9 ( ) lemma=1288/90 
- 29-Prozes ( ) lemma=129-Prozess 
- 29-Proze� ( ) lemma=129-Prozess 
- 292/7 ( ) lemma=1292/71 
- 296/3 ( ) lemma=1296/33 
- 298/7 ( ) lemma=1298/71 
- 29a-Angeklagt ( ) lemma=129a-Angeklagte 
- 29a-Anklag ( ) lemma=129a-Anklage 
- 29a-Ermittlungsverfahre ( ) lemma=129a-Ermittlungsverfahren 
- 29a-Gefangene ( ) lemma=129a-Gefangene 
- 29a-Konstruktio ( ) lemma=129a-Konstruktion 
- 29a-Praxi ( ) lemma=129a-Praxis 
- 29a-Prozes ( ) lemma=129a-Prozess 
- 29a-Prozess ( ) lemma=129a-Prozess 
- 29a-Prozesse ( ) lemma=129a-Prozess 
- 29a-Proze� ( ) lemma=129a-Prozess 
- 29a-Verfahre ( ) lemma=129a-Verfahren 
- 29a-Verfahren ( ) lemma=129a-Verfahren 
- 29a-Verurteilun ( ) lemma=129a-Verurteilung 
- 29a-Vorwur ( ) lemma=129a-Vorwurf 
- 29a-Vorwurf ( ) lemma=129a-Vorwurf 
- 29e ( ) lemma=129er 
- 2:0-Punkt ( ) lemma=12:0-Punkt 
- 2:0-Punkte ( ) lemma=12:0-Punkt 
- 2:10-Vorsprun ( ) lemma=12:10-Vorsprung 
- 2:11-Sie ( ) lemma=12:11-Sieg 
- 2:11-Vorsprun ( ) lemma=12:11-Vorsprung 
- 2:14-Anschlusstreffe ( ) lemma=12:14-Anschlusstreffer 
- 2:14-Anschlußtreffe ( ) lemma=12:14-Anschlusstreffer 
- 2:15-Niederlag ( ) lemma=12:15-Niederlage 
- 2:15-Rückstan ( ) lemma=12:15-Rückstand 
- 2:16-Niederlag ( ) lemma=12:16-Niederlage 
- 2:2-Punkt ( ) lemma=12:2-Punkt 
- 2:4-Führun ( ) lemma=12:4-Führung 
- 2:8-Heimsie ( ) lemma=12:8-Heimsieg 
- 2:9-Derbysie ( ) lemma=12:9-Derbysieg 
- 2bändig ( ) lemma=12bändig 
- 2er-Gemeinschaftskurse ( ) lemma=12er-Gemeinschaftskurs 
- 2jähri ( ) lemma=92jährig 
- 2jährig ( ) lemma=92jährig 
- 2köpfig ( ) lemma=42köpfig 
- 2köpfige ( ) lemma=92köpfig 
- 2monatig ( ) lemma=12monatig 
- 2monatige ( ) lemma=22monatig 
- 2prozentige ( ) lemma=52prozentig 
- 2stündig ( ) lemma=72stündig 
- 2teilig ( ) lemma=52teilig 
+ 2:1-Anschlusstreffer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Anschlußtreffer ( NOUN NOUN_PROPER_SINGULAR ) lemma=2:1-Anschlusstreffer 
+ 2:1-Arbeitssieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Auswärtssieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Endstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Erfolgen ( NOUN NOUN_PROPER_SINGULAR ) lemma=2:1-Erfolg 
+ 2:1-Führung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Führungstreffer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Gesamtführung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Halbzeitführung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Halbzeitstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Heimsieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Kurs ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Pausenführung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Pausenstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Punktsieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Punktsieger ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Quote ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Siegen ( NOUN NOUN_PROPER_SINGULAR ) lemma=2:1-sieg 
+ 2:1-Sieger ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Sieges ( NOUN NOUN_PROPER_SINGULAR ) lemma=2:1-Sieg 
+ 2:1-Siegtreffer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Triumph ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Umstellung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Umtausch ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Umtauschkurs ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Vorschlag ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Vorschlages ( NOUN NOUN_PROPER_SINGULAR ) lemma=2:1-Vorschlag 
+ 2:1-Vorsprung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:1-Überlegenheit ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:15-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:16-Punkte ( NOUN NOUN_PROPER_SINGULAR ) lemma=2:16-Punkt 
+ 2:2-Ausgleich ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:2-Ausgleichstreffer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:2-Endstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:2-Halbzeitstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:2-Pausenstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:2-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=2:2-Punkt 
+ 2:2-Remis ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:2-Unentschieden ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:22-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=2:22-Punkt 
+ 2:3-Anschluss ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:3-Anschlusstreffer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:3-Anschluß ( NOUN NOUN_PROPER_SINGULAR ) lemma=2:3-Anschluss 
+ 2:3-Anschlußtreffer ( NOUN NOUN_PROPER_SINGULAR ) lemma=2:3-Anschlusstreffer 
+ 2:3-Endstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:3-Heimniederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:3-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:3-Pleite ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:3-Pokal-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:3-Rückstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:3-Schlappe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:4-Anschlusstreffer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:4-Anschlußtreffer ( NOUN NOUN_PROPER_SINGULAR ) lemma=2:4-Anschlusstreffer 
+ 2:4-Endstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:4-Heimniederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:4-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:4-Punkte ( NOUN NOUN_PROPER_SINGULAR ) lemma=2:4-Punkt 
+ 2:4-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=2:4-Punkt 
+ 2:4-Rückstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:4-Zählern ( NOUN NOUN_PROPER_SINGULAR ) lemma=2:4-Zähler 
+ 2:46-Punkte ( NOUN NOUN_PROPER_SINGULAR ) lemma=2:46-Punkt 
+ 2:5-Anschlusstreffer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:5-Anschlußtreffer ( NOUN NOUN_PROPER_SINGULAR ) lemma=2:5-Anschlusstreffer 
+ 2:5-Heimniederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:5-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:5-Rückstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:6-Endstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:6-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:6-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=2:6-Punkt 
+ 2:6-Rückstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:6-Schlappe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:6-Zähler ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:7-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:8-Pleite ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2:8-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=2:8-Punkt 
+ 2:9-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 2jährige ( ADJECTIVE ) lemma=2jährig 
+ 2jährigen ( ADJECTIVE ) lemma=2jährig 
+ 2jähriger ( ADJECTIVE ) lemma=2jährig 
+ 2mal ( ADVERB ) 
+ 2prozentigen ( ADJECTIVE ) lemma=2prozentig 
  2,4fach ( ) 
  2,5-Minuten-Spot ( ) 
  2,5-fach ( ) 
@@ -1408,6 +1211,7 @@
  2-Stunden-Takt ( ) 
  2-frei ( ) 
  2-in-1-Duschgel ( ) 
+ 2-jährig ( ) 
  2-plus-4-Gespräch ( ) 
  2.000jährig ( ) 
  2.500jährig ( ) 
@@ -1431,12 +1235,13 @@
  2000fach ( ) 
  2000jährig ( ) 
  2000köpfig ( ) 
+ 200jährig ( ) 
  200köpfig ( ) 
  203-Millimeter-Atomgranate ( ) 
  20:2-Punkt ( ) 
  20geschossig ( ) 
  20köpfig ( ) 
- 20malig ( ) lemma=320malig 
+ 20malig ( ) 
  20monatig ( ) 
  20prozentig ( ) 
  20stöckig ( ) 
@@ -1453,52 +1258,21 @@
  21prozentig ( ) 
  21stöckig ( ) 
  21stündig ( ) 
- 2,3-Teile ( ) lemma=22,3-Teiler 
- 2-Uhr-Grenz ( ) lemma=22-Uhr-Grenze 
- 2-Uhr-Program ( ) lemma=22-Uhr-Programm 
- 2-Uhr-Regelun ( ) lemma=22-Uhr-Regelung 
- 2-Uhr-Vorstellun ( ) lemma=22-Uhr-Vorstellung 
  22-jährig ( ) 
- 2-köpfig ( ) lemma=32-köpfig 
  22-köpfig ( ) 
- 2-m-Schus ( ) lemma=22-m-Schuss 
- 2-m-Schu� ( ) lemma=22-m-Schuss 
- 2/2/8 ( ) lemma=22/2/89 
- 2/8/8 ( ) lemma=22/8/89 
- 20-Vol ( ) lemma=220-Volt 
- 20-Volt-Net ( ) lemma=220-Volt-Netz 
- 2000-Tonnen-Containerschif ( ) lemma=22000-Tonnen-Containerschiff 
- 237/9 ( ) lemma=2237/91 
- 25-Kilo-Bombe ( ) lemma=225-Kilo-Bombe 
  225-Kilo-Bombe ( ) 
- 254/8 ( ) lemma=2254/89 
  225jährig ( ) 
- 26/9 ( ) lemma=226/91 
- 27-Betten-Hause ( ) lemma=227-Betten-Haus 
  227-Betten-Haus ( ) 
- 27/9 ( ) lemma=227/92 
- 28-Liter-Fas ( ) lemma=228-Liter-Fass 
- 28-Liter-Fa� ( ) lemma=228-Liter-Fass 
- 29/8 ( ) lemma=229/88 
  22:1-Sieg ( ) 
- 2:14-Derbysie ( ) lemma=22:14-Derbysieg 
- 2:19-Sie ( ) lemma=22:19-Sieg 
- 2:28-Niederlag ( ) lemma=22:28-Niederlage 
  22:4-Punkt ( ) 
- 2fach ( ) lemma=52fach 
  22fach ( ) 
- 2geschossig ( ) lemma=22geschossig 
  22geschossig ( ) 
  22köpfig ( ) 
  22monatig ( ) 
- 2prozentig ( ) lemma=52prozentig 
  22prozentig ( ) 
- 2stöckig ( ) lemma=22stöckig 
  22stöckig ( ) 
- 2stündige ( ) lemma=72stündig 
  22stündig ( ) 
  22teilig ( ) 
- 2tägig ( ) lemma=22tägig 
  22tägig ( ) 
  23-Rakete ( ) 
  23-jährig ( ) 
@@ -1528,6 +1302,7 @@
  250jährig ( ) 
  250köpfig ( ) 
  25:13-Sieg ( ) 
+ 25fach ( ) 
  25geschossig ( ) 
  25köpfig ( ) 
  25malig ( ) 
@@ -1536,6 +1311,7 @@
  25teilig ( ) 
  26-jährig ( ) 
  26fach ( ) 
+ 26köpfig ( ) 
  26monatig ( ) 
  26prozentig ( ) 
  26stündig ( ) 
@@ -1560,71 +1336,15 @@
  29fach ( ) 
  29köpfig ( ) 
  29stündig ( ) 
+ 2:0-Punkt ( ) 
  2:1-sieg ( ) 
  2:16-Punkt ( ) 
+ 2:2-Punkt ( ) 
  2:22-Punkt ( ) 
  2:4-Punkt ( ) 
  2:4-Zähler ( ) 
  2:46-Punkt ( ) 
  2:6-Punkt ( ) 
  2:8-Punkt ( ) 
- 2-Bit-Mikroprozessor ( ) lemma=32-Bit-Mikroprozessor 
- 2-Seiten-Hef ( ) lemma=32-Seiten-Heft 
- 2-Stunden-Woch ( ) lemma=42-Stunden-Woche 
- 2000-Mark-Schec ( ) lemma=32000-Mark-Scheck 
- 20000-Einwohner-Stad ( ) lemma=320000-Einwohner-Stadt 
- 20er-Hürd ( ) lemma=320er-Hürde 
- 21/9 ( ) lemma=321/91 
- 23245/4 ( ) lemma=323245/46 
- 24-Milliarden-Eta ( ) lemma=324-Milliarden-Etat 
- 29/9 ( ) lemma=429/91 
- 2er-Fel ( ) lemma=32er-Feld 
- 2er-Hauptfel ( ) lemma=32er-Hauptfeld 
- 2fache ( ) lemma=32fach 
- 2seitig ( ) lemma=32seitig 
- 2,195-Kilometer-Streck ( ) lemma=42,195-Kilometer-Strecke 
- 20-Seelen-Gemeind ( ) lemma=420-Seelen-Gemeinde 
- 22/42 ( ) lemma=422/423 
- 22/43 ( ) lemma=422/433 
- 25-Millionen-Mark-Eta ( ) lemma=425-Millionen-Mark-Etat 
- 285 ( ) lemma=42859 
- 2zeilige ( ) lemma=42zeilig 
- 2-Bombe ( ) lemma=52-Bomber 
- 20-Mark-Basi ( ) lemma=520-Mark-Basis 
- 200-Einwohner-Gemeind ( ) lemma=5200-Einwohner-Gemeinde 
- 2:29-Tor ( ) lemma=52:29-Tor 
- 2tägige ( ) lemma=52tägig 
- 2-Millionen-Mark-Komple ( ) lemma=62-Millionen-Mark-Komplex 
- 2-Millionen-Mark-Objek ( ) lemma=62-Millionen-Mark-Objekt 
- 22-Ring ( ) lemma=622-Ring 
- 24/3 ( ) lemma=624/33 
- 24/9 ( ) lemma=624/90 
- 2-stündige ( ) lemma=72-stündig 
- 2/1, ( ) lemma=72/1,2 
- 2/70/72/7 ( ) lemma=72/70/72/73 
- 2/7 ( ) lemma=72/73 
- 2/76/70/7 ( ) lemma=72/76/70/74 
- 2er-Rund ( ) lemma=72er-Runde 
- 2-kg-Klass ( ) lemma=82-kg-Klasse 
- 26e ( ) lemma=826er 
- 2,5-Teile ( ) lemma=92,5-Teiler 
- 23/9 ( ) lemma=923/90 
- 24/94 ( ) lemma=924/944 
- 25/100 ( ) lemma=925/1000 
- 2er-Defizi ( ) lemma=92er-Defizit 
- 2er-Ergebni ( ) lemma=92er-Ergebnis 
- 2-Mac-Nor ( ) lemma=D2-Mac-Norm 
- 2-Mac-Programm ( ) lemma=D2-Mac-Programm 
- 2-Missio ( ) lemma=D2-Mission 
- 2-Net ( ) lemma=D2-Netz 
- 2O2-Lösun ( ) lemma=H2O2-Lösung 
- 2S ( ) lemma=H2S- 
- 2S-Messwert ( ) lemma=H2S-Messwert 
- 2S-Prüfgasampulle ( ) lemma=H2S-Prüfgasampulle 
- 2S-Senso ( ) lemma=H2S-Sensor 
- 2-LS-Senso ( ) lemma=O2-LS-Sensor 
- 2-Messun ( ) lemma=O2-Messung 
- 2-Messwert ( ) lemma=O2-Messwert 
- 2-Sensorkapse ( ) lemma=O2-Sensorkapsel 
- 2-Verdrängun ( ) lemma=O2-Verdrängung 
- 2-Gipfe ( ) lemma=U2-Gipfel 
+ 2jährig ( ) 
+ 2prozentig ( ) 

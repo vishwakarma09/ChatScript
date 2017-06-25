@@ -1,720 +1,490 @@
-﻿ 6 ( ) lemma=Z64 
- 6,2 ( ) lemma=46,20 
- 6,25 ( ) 
- 6,3 ( ) 
- 6,47 ( ) 
- 6,5 ( ) lemma=56,5- 
- 6,5fache ( ) 
- 6,6 ( ) 
- 6,6-Millionen-Umbau ( ) 
- 6,7 ( ) 
- 6,7-Millionen-Projekt ( ) 
- 6,71-m-Weitsprung ( ) 
- 6- ( ) lemma=46-A 
- 6-Chef ( ) 
- 6-Chefredakteur ( ) 
- 6-Monoacetylmorphin ( ) 
- 6-Motor ( ) 
- 6-Stunden-Tag ( ) 
- 6-TV ( ) 
- 6-Tage ( ) 
+﻿ 6 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6,2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6,25 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6,3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6,47 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6,5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6,5fache ( ADJECTIVE ) lemma=6,5fach 
+ 6,6 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6,6-Millionen-Umbau ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6,7 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6,7-Millionen-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6,71-m-Weitsprung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6- ( ) 
+ 6-Chef ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6-Chefredakteur ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6-Monoacetylmorphin ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6-Motor ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6-Stunden-Tag ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6-TV ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ 6-Tage ( NOUN NOUN_PROPER_SINGULAR ) lemma=6-Tag 
  6-Tage- ( ) 
- 6-Tage-Krieg ( ) 
- 6-Tage-Rennen ( ) 
- 6-Tage-Rennens ( ) 
- 6-Tage-Woche ( ) 
- 6-Verlängerung ( ) 
- 6-Zylinder ( ) 
- 6-zu-0-Deckung ( ) 
- 6. ( ) 
+ 6-Tage-Krieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6-Tage-Rennen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6-Tage-Rennens ( NOUN NOUN_PROPER_SINGULAR ) lemma=6-Tage-Rennen 
+ 6-Tage-Woche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6-Verlängerung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6-Zylinder ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6-zu-0-Deckung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6. ( ADJECTIVE ) 
  6.000-Seelen- ( ) 
- 6/1 ( ) lemma=66/12 
- 6/100 ( ) 
- 6/101 ( ) 
- 6/105 ( ) 
- 6/106 ( ) 
- 6/107 ( ) 
- 6/109 ( ) 
- 6/110 ( ) 
- 6/111 ( ) 
- 6/112 ( ) 
- 6/115 ( ) 
- 6/119 ( ) 
- 6/120 ( ) 
- 6/125 ( ) 
- 6/129 ( ) 
- 6/130 ( ) 
- 6/132 ( ) 
- 6/133 ( ) 
- 6/135 ( ) 
- 6/137 ( ) 
- 6/140 ( ) 
- 6/144 ( ) 
- 6/145 ( ) 
- 6/146 ( ) 
- 6/150 ( ) 
- 6/154 ( ) 
- 6/155 ( ) 
- 6/160 ( ) 
- 6/161 ( ) 
- 6/165 ( ) 
- 6/170 ( ) 
- 6/175 ( ) 
- 6/180 ( ) 
- 6/185 ( ) 
- 6/187 ( ) 
- 6/190 ( ) 
- 6/194 ( ) 
- 6/195 ( ) 
- 6/1989 ( ) 
- 6/1990 ( ) 
- 6/1993 ( ) 
- 6/2 ( ) lemma=26/27 
- 6/20 ( ) 
- 6/200 ( ) 
- 6/202 ( ) 
- 6/205 ( ) 
- 6/206 ( ) 
- 6/207 ( ) 
- 6/210 ( ) 
- 6/215 ( ) 
- 6/217 ( ) 
- 6/218 ( ) 
- 6/220 ( ) 
- 6/224 ( ) 
- 6/225 ( ) 
- 6/227 ( ) 
- 6/230 ( ) 
- 6/233 ( ) 
- 6/235 ( ) 
- 6/240 ( ) 
- 6/243 ( ) 
- 6/245 ( ) 
- 6/250 ( ) 
- 6/253 ( ) 
- 6/255 ( ) 
- 6/260 ( ) 
- 6/265 ( ) 
- 6/270 ( ) 
- 6/275 ( ) 
- 6/279 ( ) 
- 6/280 ( ) 
- 6/284 ( ) 
- 6/285 ( ) 
- 6/288 ( ) 
- 6/290 ( ) 
- 6/295 ( ) 
- 6/3 ( ) lemma=36/39 
- 6/300 ( ) 
- 6/305 ( ) 
- 6/309 ( ) 
- 6/310 ( ) 
- 6/315 ( ) 
- 6/320 ( ) 
- 6/325 ( ) 
- 6/327 ( ) 
- 6/330 ( ) 
- 6/335 ( ) 
- 6/340 ( ) 
- 6/345 ( ) 
- 6/350 ( ) 
- 6/355 ( ) 
- 6/360 ( ) 
- 6/4 ( ) lemma=46/48 
- 6/40 ( ) 
- 6/5 ( ) lemma=56/58 
- 6/50 ( ) 
- 6/6 ( ) lemma=66/67 
- 6/60 ( ) 
- 6/65 ( ) 
- 6/7 ( ) lemma=76/78 
- 6/70 ( ) 
- 6/75 ( ) 
- 6/8 ( ) lemma=86/87 
- 6/80 ( ) 
- 6/85 ( ) 
- 6/86 ( ) 
- 6/88 ( ) 
- 6/89 ( ) 
- 6/90 ( ) 
- 6/91 ( ) 
- 6/92 ( ) 
- 6/93 ( ) 
- 6/94 ( ) 
- 6/95 ( ) 
- 6/96 ( ) lemma=36/960 
- 6/97 ( ) 
- 60 ( ) lemma=2600 
+ 6/1 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/100 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/101 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/105 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/106 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/107 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/109 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/110 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/111 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/112 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/115 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/119 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/120 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/125 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/129 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/130 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/132 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/133 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/135 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/137 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/140 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/144 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/145 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/146 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/150 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/154 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/155 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/160 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/161 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/165 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/170 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/175 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/180 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/185 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/187 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/190 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/194 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/195 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/1989 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/1990 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/1993 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/20 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/200 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/202 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/205 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/206 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/207 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/210 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/215 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/217 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/218 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/220 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/224 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/225 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/227 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/230 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/233 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/235 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/240 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/243 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/245 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/250 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/253 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/255 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/260 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/265 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/270 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/275 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/279 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/280 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/284 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/285 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/288 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/290 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/295 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/300 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/305 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/309 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/310 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/315 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/320 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/325 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/327 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/330 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/335 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/340 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/345 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/350 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/355 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/360 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/40 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/50 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/6 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/60 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/65 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/7 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/70 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/75 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/8 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/80 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/85 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/86 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/88 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/93 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/94 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/95 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/96 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6/97 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 60 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  60- ( ) 
- 60-Grad-Regel ( ) 
- 60-Jahr-Feier ( ) 
- 60-Jahr-Feiern ( ) 
- 60-Jahr-Jubiläums ( ) 
- 60-Kilo-Mann ( ) 
- 60-Kilometer-Radius ( ) 
+ 60-Grad-Regel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 60-Jahr-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 60-Jahr-Feiern ( NOUN NOUN_PROPER_SINGULAR ) lemma=60-Jahr-feier 
+ 60-Jahr-Jubiläums ( NOUN NOUN_PROPER_SINGULAR ) lemma=60-Jahr-Jubiläum 
+ 60-Kilo-Mann ( NOUN NOUN_PROPER_SINGULAR ) 
+ 60-Kilometer-Radius ( NOUN NOUN_PROPER_SINGULAR ) 
  60-Liter- ( ) 
- 60-Liter-Tonne ( ) 
- 60-Liter-Variante ( ) 
+ 60-Liter-Tonne ( NOUN NOUN_PROPER_SINGULAR ) 
+ 60-Liter-Variante ( NOUN NOUN_PROPER_SINGULAR ) 
  60-Meter- ( ) 
- 60-Meter-Hürden ( ) 
+ 60-Meter-Hürden ( NOUN NOUN_PROPER_SINGULAR ) lemma=60-Meter-Hürde 
  60-Millionen- ( ) 
- 60-Millionen-Mark-Projekt ( ) 
- 60-Millionen-Mark-Projekts ( ) 
- 60-Millionen-Programm ( ) 
- 60-Millionen-Projekt ( ) 
+ 60-Millionen-Mark-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 60-Millionen-Mark-Projekts ( NOUN NOUN_PROPER_SINGULAR ) lemma=60-Millionen-Mark-Projekt 
+ 60-Millionen-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 60-Millionen-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
  60-Minuten- ( ) 
- 60-Minuten-Sendung ( ) 
- 60-Minuten-Takt ( ) 
- 60-Pfennig-Marke ( ) 
- 60-Pfennig-Sport-Briefmarke ( ) 
- 60-Prozent-Marke ( ) 
- 60-Prozent-Mehrheit ( ) 
- 60-Prozent-Regelung ( ) 
+ 60-Minuten-Sendung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 60-Minuten-Takt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 60-Pfennig-Marke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 60-Pfennig-Sport-Briefmarke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 60-Prozent-Marke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 60-Prozent-Mehrheit ( NOUN NOUN_PROPER_SINGULAR ) 
+ 60-Prozent-Regelung ( NOUN NOUN_PROPER_SINGULAR ) 
  60-Quadratmeter- ( ) 
- 60-Quadratmeter-Bühne ( ) 
- 60-Quadratmeter-Dienstwohnung ( ) 
- 60-Quadratmeter-Wohnung ( ) 
- 60-Sekunden-Takt ( ) 
- 60-Stunden-Woche ( ) 
- 60-Stundenwoche ( ) 
- 60-jährigen ( ) 
- 60-m-Bestmarke ( ) 
- 60-m-Hürden ( ) 
- 60-m-Sieg ( ) 
- 60.000/120.000 ( ) 
- 60.000er ( ) 
- 60/61 ( ) 
- 60/89 ( ) 
- 60/91 ( ) 
- 600 ( ) lemma=16000 
+ 60-Quadratmeter-Bühne ( NOUN NOUN_PROPER_SINGULAR ) 
+ 60-Quadratmeter-Dienstwohnung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 60-Quadratmeter-Wohnung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 60-Sekunden-Takt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 60-Stunden-Woche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 60-Stundenwoche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 60-jährigen ( ADJECTIVE ) lemma=60-jährig 
+ 60-m-Bestmarke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 60-m-Hürden ( NOUN NOUN_PROPER_SINGULAR ) lemma=60-m-Hürde 
+ 60-m-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 60.000/120.000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 60.000er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 60/61 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 60/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 60/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 600 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  600- ( ) 
- 600-Betten-Haus ( ) 
- 600-Betten-Hotel ( ) 
- 600-Jahr-Feier ( ) 
+ 600-Betten-Haus ( NOUN NOUN_PROPER_SINGULAR ) 
+ 600-Betten-Hotel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 600-Jahr-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
  600-Millionen- ( ) 
- 600-Millionen-Investition ( ) 
- 600-SEC-Coupé ( ) 
- 600-SL-Sportwagen ( ) 
- 600-Seelen-Dorf ( ) 
- 600-Seelen-Gemeinde ( ) 
- 600-Seelen-Ort ( ) 
- 600.000-Einwohner-Stadt ( ) 
- 600.000fach ( ) 
- 6000 ( ) 
- 6000-Einwohner-Gemeinde ( ) 
- 6000-Einwohner-Kommune ( ) 
- 6000-Seelen-Gemeinde ( ) 
- 6000/12 ( ) 
- 6000/12000 ( ) 
- 60000 ( ) 
- 60000-Einwohner-Stadt ( ) 
- 60000-Mark-Grenze ( ) 
- 600000 ( ) 
- 600er ( ) 
- 600jährige ( ) 
- 600jährigen ( ) 
- 600jähriger ( ) 
- 600köpfige ( ) 
- 600köpfigen ( ) 
- 604/90 ( ) 
- 60er ( ) 
+ 600-Millionen-Investition ( NOUN NOUN_PROPER_SINGULAR ) 
+ 600-SEC-Coupé ( NOUN NOUN_PROPER_SINGULAR ) 
+ 600-SL-Sportwagen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 600-Seelen-Dorf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 600-Seelen-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 600-Seelen-Ort ( NOUN NOUN_PROPER_SINGULAR ) 
+ 600.000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 600.000fach ( ADJECTIVE ) 
+ 6000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6000-Einwohner-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6000-Einwohner-Kommune ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6000-Seelen-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6000/12 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6000/12000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 60000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 60000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 60000-Mark-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 600000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 600er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 600jährige ( ADJECTIVE ) lemma=600jährig 
+ 600jährigen ( ADJECTIVE ) lemma=600jährig 
+ 600jähriger ( ADJECTIVE ) lemma=600jährig 
+ 600köpfige ( ADJECTIVE ) lemma=600köpfig 
+ 600köpfigen ( ADJECTIVE ) lemma=600köpfig 
+ 604/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 60er ( ADJECTIVE ) 
  60er- ( ) 
- 60er-Jahre ( ) 
+ 60er-Jahre ( NOUN NOUN_PROPER_SINGULAR ) lemma=60er-Jahr 
  60er-Jahre- ( ) 
- 60er-Jahre-Planungssünde ( ) 
- 60ern ( ) 
- 60fache ( ) 
- 60jährig ( ) 
- 60jährige ( ) 
- 60jährigem ( ) 
- 60jährigen ( ) 
- 60jähriger ( ) 
- 60jähriges ( ) 
- 60köpfige ( ) lemma=160köpfig 
- 60köpfigen ( ) 
- 60köpfiger ( ) 
- 60köpfiges ( ) 
- 60prozentige ( ) 
- 60prozentigen ( ) 
- 60prozentiger ( ) 
- 60tägige ( ) 
- 60tägigen ( ) 
- 61-jährige ( ) 
- 61/121 ( ) 
- 61/2 ( ) 
- 61/5 ( ) 
- 61/63 ( ) 
- 61/90 ( ) 
- 6100/12 ( ) 
- 612 ( ) 
- 612/912 ( ) 
- 6146/91 ( ) 
- 61er ( ) 
- 61er-Gruppe ( ) 
- 61jährige ( ) 
- 61jährigen ( ) 
- 61jähriger ( ) 
- 62-Millionen-Mark-Komplex ( ) 
- 62-Millionen-Mark-Objekt ( ) 
- 62/91 ( ) 
- 62/92 ( ) 
- 622-Ringe ( ) 
- 624/33 ( ) 
- 624/90 ( ) 
- 62er ( ) 
- 62jährig ( ) 
- 62jährige ( ) 
- 62jährigen ( ) 
- 62jähriger ( ) 
- 63 ( ) 
- 63-Teiler ( ) 
- 63-jährigen ( ) 
- 63/64 ( ) 
- 63/92 ( ) 
- 63000 ( ) 
- 632 ( ) 
- 63jährig ( ) 
- 63jährige ( ) 
- 63jährigen ( ) 
- 63jähriger ( ) 
- 64 ( ) 
+ 60er-Jahre-Planungssünde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 60ern ( NOUN NOUN_PROPER_SINGULAR ) lemma=60er 
+ 60fache ( ADJECTIVE ) lemma=60fach 
+ 60jährig ( ADJECTIVE ) 
+ 60jährige ( ADJECTIVE ) lemma=60jährig 
+ 60jährigem ( ADJECTIVE ) lemma=60jährig 
+ 60jährigen ( ADJECTIVE ) lemma=60jährig 
+ 60jähriger ( ADJECTIVE ) lemma=60jährig 
+ 60jähriges ( ADJECTIVE ) lemma=60jährig 
+ 60köpfige ( ADJECTIVE ) lemma=60köpfig 
+ 60köpfigen ( ADJECTIVE ) lemma=60köpfig 
+ 60köpfiger ( ADJECTIVE ) lemma=60köpfig 
+ 60köpfiges ( ADJECTIVE ) lemma=60köpfig 
+ 60prozentige ( ADJECTIVE ) lemma=60prozentig 
+ 60prozentigen ( ADJECTIVE ) lemma=60prozentig 
+ 60prozentiger ( ADJECTIVE ) lemma=60prozentig 
+ 60tägige ( ADJECTIVE ) lemma=60tägig 
+ 60tägigen ( ADJECTIVE ) lemma=60tägig 
+ 61-jährige ( ADJECTIVE ) lemma=61-jährig 
+ 61/121 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 61/2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 61/5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 61/63 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 61/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6100/12 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 612 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 612/912 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6146/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 61er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 61er-Gruppe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 61jährige ( ADJECTIVE ) lemma=61jährig 
+ 61jährigen ( ADJECTIVE ) lemma=61jährig 
+ 61jähriger ( ADJECTIVE ) lemma=61jährig 
+ 62-Millionen-Mark-Komplex ( NOUN NOUN_PROPER_SINGULAR ) 
+ 62-Millionen-Mark-Objekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 62/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 62/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 622-Ringe ( NOUN NOUN_PROPER_SINGULAR ) lemma=622-Ring 
+ 624/33 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 624/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 62er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 62jährig ( ADJECTIVE ) 
+ 62jährige ( ADJECTIVE ) lemma=62jährig 
+ 62jährigen ( ADJECTIVE ) lemma=62jährig 
+ 62jähriger ( ADJECTIVE ) lemma=62jährig 
+ 63 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 63-Teiler ( NOUN NOUN_PROPER_SINGULAR ) 
+ 63-jährigen ( ADJECTIVE ) lemma=63-jährig 
+ 63/64 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 63/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 63000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 632 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 63jährig ( ADJECTIVE ) 
+ 63jährige ( ADJECTIVE ) lemma=63jährig 
+ 63jährigen ( ADJECTIVE ) lemma=63jährig 
+ 63jähriger ( ADJECTIVE ) lemma=63jährig 
+ 64 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  64- ( ) 
- 64-Chefredakteur ( ) 
- 64-Fans ( ) 
- 64-Frequenz ( ) 
- 64-Frequenzen ( ) 
- 64-Freunde ( ) 
- 64-Freundeskreis ( ) 
- 64-Hörern ( ) 
- 64-Kilobit-Leitung ( ) 
- 64-Megabit-Chip ( ) 
- 64-Megabit-Chip-Produktion ( ) 
- 64-Megabit-Chips ( ) 
- 64-Megabit-Speicherchips ( ) 
- 64-Redakteurin ( ) 
- 64-Redaktion ( ) 
- 64-Teiler ( ) 
- 64/59 ( ) 
- 64/65 ( ) 
- 64/67 ( ) 
- 64/90 ( ) 
- 64/91 ( ) 
- 644mal ( ) 
- 645 ( ) 
- 645/89 ( ) 
- 64er ( ) 
- 64er-Feld ( ) 
- 64jährige ( ) 
- 64jährigen ( ) 
- 64jähriger ( ) 
- 64köpfigen ( ) 
- 64seitige ( ) 
- 65 ( ) 
+ 64-Chefredakteur ( NOUN NOUN_PROPER_SINGULAR ) 
+ 64-Fans ( NOUN NOUN_PROPER_SINGULAR ) lemma=64-Fan 
+ 64-Frequenz ( NOUN NOUN_PROPER_SINGULAR ) 
+ 64-Frequenzen ( NOUN NOUN_PROPER_SINGULAR ) lemma=64-Frequenz 
+ 64-Freunde ( NOUN NOUN_PROPER_SINGULAR ) lemma=64-Freund 
+ 64-Freundeskreis ( NOUN NOUN_PROPER_SINGULAR ) 
+ 64-Hörern ( NOUN NOUN_PROPER_SINGULAR ) lemma=64-Hörer 
+ 64-Kilobit-Leitung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 64-Megabit-Chip ( NOUN NOUN_PROPER_SINGULAR ) 
+ 64-Megabit-Chip-Produktion ( NOUN NOUN_PROPER_SINGULAR ) 
+ 64-Megabit-Chips ( NOUN NOUN_PROPER_SINGULAR ) lemma=64-Megabit-Chip 
+ 64-Megabit-Speicherchips ( NOUN NOUN_PROPER_SINGULAR ) lemma=64-Megabit-Speicherchip 
+ 64-Redakteurin ( NOUN NOUN_PROPER_SINGULAR ) 
+ 64-Redaktion ( NOUN NOUN_PROPER_SINGULAR ) 
+ 64-Teiler ( NOUN NOUN_PROPER_SINGULAR ) 
+ 64/59 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 64/65 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 64/67 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 64/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 64/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 644mal ( ADVERB ) 
+ 645 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 645/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 64er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 64er-Feld ( NOUN NOUN_PROPER_SINGULAR ) 
+ 64jährige ( ADJECTIVE ) lemma=64jährig 
+ 64jährigen ( ADJECTIVE ) lemma=64jährig 
+ 64jähriger ( ADJECTIVE ) lemma=64jährig 
+ 64köpfigen ( ADJECTIVE ) lemma=64köpfig 
+ 64seitige ( ADJECTIVE ) lemma=64seitig 
+ 65 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  65- ( ) 
- 65-Hektar-Betrieb ( ) 
- 65-Quadratmeter-Wohnungen ( ) 
- 65-Rennen ( ) 
- 65-Wette ( ) 
- 65-kg-Klasse ( ) 
- 65/66 ( ) 
- 65/91 ( ) 
- 65/92 ( ) 
- 650 ( ) 
- 650-Jahr-Feier ( ) 
- 650000 ( ) 
- 6572 ( ) 
- 65er ( ) 
- 65fache ( ) 
- 65jährig ( ) 
- 65jährige ( ) 
- 65jährigen ( ) 
- 65jähriger ( ) 
- 66,1-Teiler ( ) 
- 66-Minuten-Stunde ( ) 
- 66-jährige ( ) 
- 66-jährigen ( ) 
- 66/12 ( ) 
- 66/661-Anschluss ( ) 
- 66/661-Anschluß ( ) 
- 66/67 ( ) 
- 661-Anschluss ( ) 
- 661-Anschluß ( ) 
- 661-Trasse ( ) 
- 666-Jahr-Feier ( ) 
- 666-Jahrfeier ( ) 
- 666jährige ( ) 
- 66:32-Spiele ( ) 
- 66er ( ) 
- 66jährig ( ) lemma=666jährig 
- 66jährige ( ) 
- 66jährigen ( ) 
- 66jähriger ( ) 
- 66köpfigen ( ) 
- 67-Teiler ( ) 
- 67-Tonnen-Abrams-Panzer ( ) 
- 67-jährigen ( ) 
- 67/68 ( ) 
- 67/91 ( ) 
- 670000 ( ) 
- 6717/87 ( ) 
- 672 ( ) 
- 675-Jahr-Feier ( ) 
- 676 ( ) 
- 67er ( ) 
- 67er-Runde ( ) 
- 67jährig ( ) 
- 67jährige ( ) 
- 67jährigen ( ) 
- 67jähriger ( ) 
- 67prozentigen ( ) 
- 67tägiger ( ) 
- 68 ( ) lemma=2684 
- 68-Generation ( ) 
- 68-Millionen-Mark-Projekt ( ) 
- 68-Teiler ( ) 
- 68-jährige ( ) 
- 68. ( ) 
- 68/63 ( ) 
- 68/69 ( ) 
- 68/70 ( ) 
- 68000 ( ) 
- 684/92 ( ) 
- 686 ( ) 
- 687 ( ) 
- 68er ( ) 
+ 65-Hektar-Betrieb ( NOUN NOUN_PROPER_SINGULAR ) 
+ 65-Quadratmeter-Wohnungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=65-Quadratmeter-Wohnung 
+ 65-Rennen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 65-Wette ( NOUN NOUN_PROPER_SINGULAR ) 
+ 65-kg-Klasse ( NOUN NOUN_PROPER_SINGULAR ) 
+ 65/66 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 65/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 65/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 650 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 650-Jahr-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 650000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6572 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 65er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 65fache ( ADJECTIVE ) lemma=65fach 
+ 65jährig ( ADJECTIVE ) 
+ 65jährige ( ADJECTIVE ) lemma=65jährig 
+ 65jährigen ( ADJECTIVE ) lemma=65jährig 
+ 65jähriger ( ADJECTIVE ) lemma=65jährig 
+ 66,1-Teiler ( NOUN NOUN_PROPER_SINGULAR ) 
+ 66-Minuten-Stunde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 66-jährige ( ADJECTIVE ) lemma=66-jährig 
+ 66-jährigen ( ADJECTIVE ) lemma=66-jährig 
+ 66/12 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 66/661-Anschluss ( NOUN NOUN_PROPER_SINGULAR ) 
+ 66/661-Anschluß ( NOUN NOUN_PROPER_SINGULAR ) lemma=66/661-Anschluss 
+ 66/67 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 661-Anschluss ( NOUN NOUN_PROPER_SINGULAR ) 
+ 661-Anschluß ( NOUN NOUN_PROPER_SINGULAR ) lemma=661-Anschluss 
+ 661-Trasse ( NOUN NOUN_PROPER_SINGULAR ) lemma=661-trasse 
+ 666-Jahr-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 666-Jahrfeier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 666jährige ( ADJECTIVE ) lemma=666jährig 
+ 66:32-Spiele ( NOUN NOUN_PROPER_SINGULAR ) lemma=66:32-Spiel 
+ 66er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 66jährig ( ADJECTIVE ) 
+ 66jährige ( ADJECTIVE ) lemma=66jährig 
+ 66jährigen ( ADJECTIVE ) lemma=66jährig 
+ 66jähriger ( ADJECTIVE ) lemma=66jährig 
+ 66köpfigen ( ADJECTIVE ) lemma=66köpfig 
+ 67-Teiler ( NOUN NOUN_PROPER_SINGULAR ) 
+ 67-Tonnen-Abrams-Panzer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 67-jährigen ( ADJECTIVE ) lemma=67-jährig 
+ 67/68 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 67/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 670000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6717/87 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 672 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 675-Jahr-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 676 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 67er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 67er-Runde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 67jährig ( ADJECTIVE ) 
+ 67jährige ( ADJECTIVE ) lemma=67jährig 
+ 67jährigen ( ADJECTIVE ) lemma=67jährig 
+ 67jähriger ( ADJECTIVE ) lemma=67jährig 
+ 67prozentigen ( ADJECTIVE ) lemma=67prozentig 
+ 67tägiger ( ADJECTIVE ) lemma=67tägig 
+ 68 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 68-Generation ( NOUN NOUN_PROPER_SINGULAR ) 
+ 68-Millionen-Mark-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 68-Teiler ( NOUN NOUN_PROPER_SINGULAR ) 
+ 68-jährige ( ADJECTIVE ) lemma=68-jährig 
+ 68. ( ADJECTIVE ) 
+ 68/63 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 68/69 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 68/70 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 68000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 684/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 686 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 687 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 68er ( NOUN NOUN_PROPER_SINGULAR ) 
  68er- ( ) 
- 68er-Aktivist ( ) 
- 68er-Aktivisten ( ) 
- 68er-Aufbruch ( ) 
- 68er-Bewegung ( ) 
- 68er-Generation ( ) 
- 68er-Ideen ( ) 
- 68er-Invasion ( ) 
- 68er-Kollegen ( ) 
- 68er-Lehrer ( ) 
- 68er-Linken ( ) 
- 68er-Proteste ( ) 
- 68er-Pädagogik ( ) 
- 68er-Revolte ( ) 
- 68er-Revolution ( ) 
- 68er-Runde ( ) 
- 68er-Studentenbewegung ( ) 
- 68er-Studentenrevolte ( ) 
- 68er-Themen ( ) 
- 68er-Utopien ( ) 
- 68er-Veteranen ( ) 
- 68er-Zeit ( ) 
- 68ern ( ) 
- 68jährig ( ) 
- 68jährige ( ) 
- 68jährigen ( ) 
- 68jähriger ( ) 
- 69 ( ) 
- 69/5 ( ) lemma=069/51 
- 69/70 ( ) 
- 69/72 ( ) 
- 69/81 ( ) 
- 69/91 ( ) 
- 6900 ( ) 
- 690000 ( ) 
- 69er ( ) 
- 69er-Runde ( ) 
- 69jährig ( ) 
- 69jährige ( ) 
- 69jährigen ( ) 
- 69jähriger ( ) 
+ 68er-Aktivist ( NOUN NOUN_PROPER_SINGULAR ) 
+ 68er-Aktivisten ( NOUN NOUN_PROPER_SINGULAR ) lemma=68er-Aktivist 
+ 68er-Aufbruch ( NOUN NOUN_PROPER_SINGULAR ) 
+ 68er-Bewegung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 68er-Generation ( NOUN NOUN_PROPER_SINGULAR ) 
+ 68er-Ideen ( NOUN NOUN_PROPER_SINGULAR ) lemma=68er-Idee 
+ 68er-Invasion ( NOUN NOUN_PROPER_SINGULAR ) 
+ 68er-Kollegen ( NOUN NOUN_PROPER_SINGULAR ) lemma=68er-Kollege 
+ 68er-Lehrer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 68er-Linken ( NOUN NOUN_PROPER_SINGULAR ) lemma=68er-Linke 
+ 68er-Proteste ( NOUN NOUN_PROPER_SINGULAR ) lemma=68er-Protest 
+ 68er-Pädagogik ( NOUN NOUN_PROPER_SINGULAR ) 
+ 68er-Revolte ( NOUN NOUN_PROPER_SINGULAR ) 
+ 68er-Revolution ( NOUN NOUN_PROPER_SINGULAR ) 
+ 68er-Runde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 68er-Studentenbewegung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 68er-Studentenrevolte ( NOUN NOUN_PROPER_SINGULAR ) 
+ 68er-Themen ( NOUN NOUN_PROPER_SINGULAR ) lemma=68er-Thema 
+ 68er-Utopien ( NOUN NOUN_PROPER_SINGULAR ) lemma=68er-Utopie 
+ 68er-Veteranen ( NOUN NOUN_PROPER_SINGULAR ) lemma=68er-Veteran 
+ 68er-Zeit ( NOUN NOUN_PROPER_SINGULAR ) 
+ 68ern ( NOUN NOUN_PROPER_SINGULAR ) lemma=68er 
+ 68jährig ( ADJECTIVE ) 
+ 68jährige ( ADJECTIVE ) lemma=68jährig 
+ 68jährigen ( ADJECTIVE ) lemma=68jährig 
+ 68jähriger ( ADJECTIVE ) lemma=68jährig 
+ 69 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 69/5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 69/70 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 69/72 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 69/81 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 69/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6900 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 690000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 69er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 69er-Runde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 69jährig ( ADJECTIVE ) 
+ 69jährige ( ADJECTIVE ) lemma=69jährig 
+ 69jährigen ( ADJECTIVE ) lemma=69jährig 
+ 69jähriger ( ADJECTIVE ) lemma=69jährig 
  6:0- ( ) 
- 6:0-Deckung ( ) 
- 6:0-Deckungsvariante ( ) 
- 6:0-Erfolg ( ) 
- 6:0-Formation ( ) 
- 6:0-Führung ( ) 
- 6:0-Punkte ( ) lemma=16:0-Punkt 
- 6:0-Punkten ( ) 
- 6:0-Sieg ( ) 
- 6:0-Siege ( ) 
- 6:0-Toren ( ) 
- 6:0-Zähler ( ) 
- 6:1-Endstand ( ) 
- 6:1-Erfolg ( ) 
- 6:1-Führung ( ) 
- 6:1-Sieg ( ) 
- 6:1-Vorsprung ( ) 
+ 6:0-Deckung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:0-Deckungsvariante ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:0-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:0-Formation ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:0-Führung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:0-Punkte ( NOUN NOUN_PROPER_SINGULAR ) lemma=6:0-Punkt 
+ 6:0-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=6:0-Punkt 
+ 6:0-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:0-Siege ( NOUN NOUN_PROPER_SINGULAR ) lemma=6:0-Sieg 
+ 6:0-Toren ( NOUN NOUN_PROPER_SINGULAR ) lemma=6:0-Tor 
+ 6:0-Zähler ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:1-Endstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:1-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:1-Führung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:1-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:1-Vorsprung ( NOUN NOUN_PROPER_SINGULAR ) 
  6:2- ( ) 
- 6:2-Endstand ( ) 
- 6:2-Erfolg ( ) 
- 6:2-Finalsieg ( ) 
- 6:2-Halbfinalsieg ( ) 
- 6:2-Punkte ( ) 
- 6:2-Punkten ( ) 
- 6:2-Sieg ( ) 
- 6:2-Tore ( ) 
- 6:3,6:3-Sieg ( ) 
+ 6:2-Endstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:2-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:2-Finalsieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:2-Halbfinalsieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:2-Punkte ( NOUN NOUN_PROPER_SINGULAR ) lemma=6:2-Punkt 
+ 6:2-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=6:2-Punkt 
+ 6:2-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:2-Tore ( NOUN NOUN_PROPER_SINGULAR ) lemma=6:2-Tor 
+ 6:3,6:3-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
  6:3- ( ) 
- 6:3-Erfolg ( ) 
- 6:3-Satzgewinn ( ) 
- 6:3-Sieg ( ) 
+ 6:3-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:3-Satzgewinn ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:3-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
  6:4- ( ) 
- 6:4-4:6-0:6-Niederlage ( ) 
- 6:4-Erfolg ( ) 
- 6:4-Finalsieg ( ) 
- 6:4-Führung ( ) 
- 6:4-Punkte ( ) 
- 6:4-Punkten ( ) 
- 6:4-Satzgewinn ( ) 
- 6:4-Sieg ( ) 
- 6:4-Vorsprung ( ) 
- 6:5-Sieg ( ) 
- 6:5-Toren ( ) 
- 6:53,29 ( ) 
- 6:53,75 ( ) 
- 6:56,72 ( ) 
- 6:6-Punkte ( ) 
- 6:6-Punkten ( ) 
- 6:7-Niederlage ( ) 
- 6:8-Niederlage ( ) 
- 6:9-Heimniederlage ( ) 
- 6:9-Niederlage ( ) 
- 6:9-Rückstand ( ) 
- 6er ( ) lemma=96er 
- 6fach-Kombinations-Drogenschnelltest ( ) 
- 6fach-Kombinations-Drogentest ( ) 
- 6jährige ( ) lemma=96jährig 
- 6jährigen ( ) 
- 6jähriger ( ) 
- 6jähriges ( ) 
- 6monatigen ( ) 
- 6prozentige ( ) lemma=46prozentig 
- 6-Anschlüss ( ) lemma=06-Anschluss 
- 6003/164 ( ) lemma=06003/1640 
- 6003/769 ( ) lemma=06003/7698 
- 6021/6972 ( ) lemma=06021/69724 
- 6027/279 ( ) lemma=06027/2790 
- 6031/233 ( ) lemma=06031/2336 
- 6031/251 ( ) lemma=06031/2511 
- 6031/547 ( ) lemma=06031/5477 
- 6031/601 ( ) lemma=06031/6010 
- 6031/8384 ( ) lemma=06031/83841 
- 6031/9197 ( ) lemma=06031/91976 
- 6032/3191 ( ) lemma=06032/31916 
- 6033/615 ( ) lemma=06033/6150 
- 6034/320 ( ) lemma=06034/3200 
- 6034/611 ( ) lemma=06034/6119 
- 6039/4361 ( ) lemma=06039/43616 
- 6039/80024 ( ) lemma=06039/800244 
- 6042/8410 ( ) lemma=06042/84108 
- 6042/88519 ( ) lemma=06042/885192 
- 6042/88519219 ( ) lemma=06042/885192199 
- 6043/447 ( ) lemma=06043/4471 
- 6052/101 ( ) lemma=06052/1015 
- 6068/260 ( ) lemma=06068/2608 
- 6071/3303 ( ) lemma=06071/33033 
- 6101/4113 ( ) lemma=06101/41134 
- 6101/4156 ( ) lemma=06101/41563 
- 6101/704 ( ) lemma=06101/7045 
- 6101/8667 ( ) lemma=06101/86674 
- 6101/8713 ( ) lemma=06101/87134 
- 6102/3854 ( ) lemma=06102/38543 
- 6109/6655 ( ) lemma=06109/66555 
- 6111/8739 ( ) lemma=06111/87392 
- 6126/5466 ( ) lemma=06126/54660 
- 6131/56264 ( ) lemma=06131/562642 
- 6181/1660 ( ) lemma=06181/16605 
- 6181/2231 ( ) lemma=06181/22312 
- 6181/2414 ( ) lemma=06181/24141 
- 6181/25003 ( ) lemma=06181/250039 
- 6181/25442 ( ) lemma=06181/254428 
- 6181/40 ( ) lemma=06181/400 
- 6181/40034 ( ) lemma=06181/400349 
- 6181/40043 ( ) lemma=06181/400431 
- 6181/40071 ( ) lemma=06181/400716 
- 6181/44136 ( ) lemma=06181/441368 
- 6181/49435 ( ) lemma=06181/494355 
- 6181/5313 ( ) lemma=06181/53139 
- 6181/65951 ( ) lemma=06181/659518 
- 6181/8222 ( ) lemma=06181/82228 
- 6181/8578 ( ) lemma=06181/85788 
- 6182/2422 ( ) lemma=06182/24222 
- 6182/2569 ( ) lemma=06182/25691 
- 6182/2862 ( ) lemma=06182/28622 
- 6184/8023 ( ) lemma=06184/80232 
- 6186/770 ( ) lemma=06186/7702 
- 6187/20115 ( ) lemma=06187/201153 
- 6187/684 ( ) lemma=06187/6842 
- 621/293390 ( ) lemma=0621/2933906 
- 621/62141 ( ) lemma=0621/621418 
- 6221/7101 ( ) lemma=06221/71013 
- 6221/80902 ( ) lemma=06221/809028 
- 631/4916 ( ) lemma=0631/49168 
- 64/9 ( ) lemma=064/91 
- 641/77 ( ) lemma=0641/777 
- 69/ ( ) lemma=069/1 
- 69/1 ( ) lemma=069/15 
- 69/21 ( ) lemma=069/212 
- 69/244366 ( ) lemma=069/2443660 
- 69/28793 ( ) lemma=069/287939 
- 69/30300 ( ) lemma=069/303004 
- 69/31560 ( ) lemma=069/315601 
- 69/4 ( ) lemma=069/41 
- 69/43140 ( ) lemma=069/431405 
- 69/43144 ( ) lemma=069/431440 
- 69/49843 ( ) lemma=069/498437 
- 69/6969090 ( ) lemma=069/69690900 
- 69/7 ( ) lemma=069/75 
- 69/70121 ( ) lemma=069/701218 
- 69/70333 ( ) lemma=069/703337 
- 69/74098 ( ) lemma=069/740987 
- 69/756083 ( ) lemma=069/7560830 
- 69/8 ( ) lemma=069/86 
- 69/800142 ( ) lemma=069/8001424 
- 69/83708 ( ) lemma=069/837085 
- 6, ( ) lemma=86,8 
- 6-Bit ( ) lemma=16-Bit- 
- 6-Bit-Konsol ( ) lemma=16-Bit-Konsole 
- 6-Bombe ( ) lemma=16-Bomber 
- 6-Bomber ( ) lemma=16-Bomber 
- 6-Europameiste ( ) lemma=16-Europameister 
- 6-Kilometer-Lau ( ) lemma=16-Kilometer-Lauf 
- 6-Kilometer-Lauf ( ) lemma=16-Kilometer-Lauf 
- 6-Megabit-Chi ( ) lemma=16-Megabit-Chip 
- 6-Megabit-Chip ( ) lemma=16-Megabit-Chip 
- 6-Meter ( ) lemma=16-Meter- 
- 6-Meter-Handzugleite ( ) lemma=16-Meter-Handzugleiter 
- 6-Meter-Mark ( ) lemma=16-Meter-Marke 
- 6-Meter-Rau ( ) lemma=16-Meter-Raum 
- 6-Meter-Schus ( ) lemma=16-Meter-Schuss 
- 6-Meter-Schu� ( ) lemma=16-Meter-Schuss 
- 6-Millimeter-Filmprojektore ( ) lemma=16-Millimeter-Filmprojektor 
- 6-Millimeter-Kamera ( ) lemma=16-Millimeter-Kamera 
- 6-Punkt ( ) lemma=16-Punkt 
- 6-Punkte-Program ( ) lemma=56-Punkte-Programm 
- 6-Punkte-Rückstan ( ) lemma=16-Punkte-Rückstand 
- 6-Quadratmeter-Zimme ( ) lemma=16-Quadratmeter-Zimmer 
- 6-Spur ( ) lemma=16-Spur- 
- 6-Stunden-Arbeitsta ( ) lemma=16-Stunden-Arbeitstag 
- 6-Stunden-Klei ( ) lemma=16-Stunden-Kleid 
- 6-Stunden-Ta ( ) lemma=16-Stunden-Tag 
- 6-Stunden-Tage ( ) lemma=16-Stunden-Tag 
- 6-jährig ( ) lemma=76-jährig 
- 6-jährige ( ) lemma=66-jährig 
- 6-m-Schus ( ) lemma=16-m-Schuss 
- 6-m-Schu� ( ) lemma=16-m-Schuss 
- 6-m ( ) lemma=16-mm 
- 6-mm ( ) lemma=16-mm- 
- 6-mm-Fil ( ) lemma=16-mm-Film 
- 6-mm-Film ( ) lemma=16-mm-Film 
- 6-mm-Kamer ( ) lemma=16-mm-Kamera 
- 6-mm-Materia ( ) lemma=16-mm-Material 
- 6-mm-Streife ( ) lemma=16-mm-Streifen 
- 6-mm-Zelluloi ( ) lemma=16-mm-Zelluloid 
- 6./17 ( ) lemma=16./17. 
- 6.00 ( ) lemma=16.00- 
- 6.000köpfige ( ) lemma=16.000köpfig 
- 6.0 ( ) lemma=16.03 
- 6.5 ( ) lemma=16.56 
- 6/10 ( ) lemma=16/100 
- 6/9 ( ) lemma=36/92 
- 60-Betten-Hotel ( ) lemma=160-Betten-Hotel 
- 60-Betten-Kurhotel ( ) lemma=160-Betten-Kurhotel 
- 60-Millionen-Mark-Projek ( ) lemma=160-Millionen-Mark-Projekt 
- 60-Millionen-Mark-Vorschus ( ) lemma=160-Millionen-Mark-Vorschuss 
- 60-Millionen-Mark-Vorschu� ( ) lemma=160-Millionen-Mark-Vorschuss 
- 60-Millionen-SSB-Defizi ( ) lemma=160-Millionen-SSB-Defizit 
- 6000-Einwohner-Gemeind ( ) lemma=16000-Einwohner-Gemeinde 
- 6000-Einwohner-Kommun ( ) lemma=16000-Einwohner-Kommune 
- 6000-Einwohner-Stad ( ) lemma=16000-Einwohner-Stadt 
- 600e ( ) lemma=1600er 
- 61/8 ( ) lemma=961/86 
- 613/9 ( ) lemma=1613/91 
- 61 ( ) lemma=1616 
- 628/8 ( ) lemma=1628/83 
- 63/9 ( ) lemma=263/91 
- 644ma ( ) lemma=1644mal 
- 66/8 ( ) lemma=266/84 
- 67/8 ( ) lemma=167/89 
- 67fach ( ) lemma=167fach 
- 67fache ( ) lemma=167fach 
- 69/17 ( ) lemma=169/170 
- 696,7 ( ) lemma=1696,76 
- 698/9 ( ) lemma=1698/99 
- 6:10-Heimsie ( ) lemma=16:10-Heimsieg 
- 6:10-Vorsprun ( ) lemma=16:10-Vorsprung 
- 6:13-Heimerfol ( ) lemma=16:13-Heimerfolg 
- 6:13-Heimsie ( ) lemma=16:13-Heimsieg 
- 6:14-Erfol ( ) lemma=16:14-Erfolg 
- 6:14-Vorsprun ( ) lemma=16:14-Vorsprung 
- 6:15-Führun ( ) lemma=16:15-Führung 
- 6:2-Punkt ( ) lemma=16:2-Punkt 
- 6:26-Punkt ( ) lemma=16:26-Punkt 
- 6:4-Punkt ( ) lemma=16:4-Punkt 
- 6:8-Führun ( ) lemma=16:8-Führung 
- 6:9-Forma ( ) lemma=16:9-Format 
- 6:9-Siege ( ) lemma=16:9-Sieger 
- 6E ( ) lemma=16E- 
- 6E-Schich ( ) lemma=16E-Schicht 
- 6e ( ) lemma=96er 
- 6er-Aufgebo ( ) lemma=16er-Aufgebot 
- 6er-Fel ( ) lemma=16er-Feld 
- 6er-Kade ( ) lemma=16er-Kader 
- 6er-Staffe ( ) lemma=16er-Staffel 
- 6fach ( ) lemma=16fach 
- 6fache ( ) lemma=56fach 
- 6geschossig ( ) lemma=16geschossig 
- 6geschossige ( ) lemma=16geschossig 
- 6jähri ( ) lemma=86jährig 
- 6jährig ( ) lemma=96jährig 
- 6köpfig ( ) lemma=36köpfig 
- 6köpfige ( ) lemma=66köpfig 
- 6ma ( ) lemma=96mal 
- 6malig ( ) lemma=46malig 
- 6mm-Fil ( ) lemma=16mm-Film 
- 6mm-Film ( ) lemma=16mm-Film 
- 6mm-Filme ( ) lemma=16mm-Film 
- 6mm-Kamer ( ) lemma=16mm-Kamera 
- 6monatig ( ) lemma=26monatig 
- 6monatige ( ) lemma=26monatig 
- 6prozentig ( ) lemma=26prozentig 
- 6stöckige ( ) lemma=16stöckig 
- 6stündige ( ) lemma=36stündig 
- 6teilig ( ) lemma=26teilig 
- 6tägig ( ) lemma=16tägig 
- 6tägige ( ) lemma=16tägig 
- 6wöchig ( ) lemma=16wöchig 
- 6wöchige ( ) lemma=16wöchig 
- 6-Stunden-Epo ( ) lemma=26-Stunden-Epos 
- 6/ ( ) lemma=96/4 
- 60-Mehrhei ( ) lemma=260-Mehrheit 
- 60-Seelen-Gemeind ( ) lemma=260-Seelen-Gemeinde 
- 600-Einwohner-Gemeind ( ) lemma=2600-Einwohner-Gemeinde 
- 65/9 ( ) lemma=565/93 
- 690/9 ( ) lemma=2690/92 
- 6stündig ( ) lemma=36stündig 
- 6teilige ( ) lemma=26teilig 
- 6,5-Stunden-Woch ( ) lemma=36,5-Stunden-Woche 
- 6-Band ( ) lemma=86-Band 
- 6-Boy ( ) lemma=36-Boy 
- 6-Millionen-Mark-Haushal ( ) lemma=36-Millionen-Mark-Haushalt 
- 6-Millionen-Mark-Projek ( ) lemma=36-Millionen-Mark-Projekt 
- 6-Stunden ( ) lemma=36-Stunden- 
- 6-Stunden-Fahr ( ) lemma=36-Stunden-Fahrt 
- 6-Stunden-Woch ( ) lemma=36-Stunden-Woche 
- 6-Stundenwoch ( ) lemma=36-Stundenwoche 
- 60-Gra ( ) lemma=360-Grad 
- 60-Millionen-Auftra ( ) lemma=360-Millionen-Auftrag 
- 602e ( ) lemma=3602er 
- 62/9 ( ) lemma=362/92 
- 67ma ( ) lemma=367mal 
- 68/9 ( ) lemma=368/91 
- 6er-Spiel ( ) lemma=36er-Spiel 
- 6000ma ( ) lemma=46000mal 
- 677:4624-Siege ( ) lemma=4677:4624-Sieger 
- 6-Kilo-Man ( ) lemma=86-Kilo-Mann 
- 6-Punkte-Pake ( ) lemma=56-Punkte-Paket 
- 60-Mark-Jo ( ) lemma=560-Mark-Job 
- 60-Mark-Job ( ) lemma=560-Mark-Job 
- 60e ( ) lemma=560er 
- 60stündige ( ) lemma=560stündig 
- 69/9 ( ) lemma=569/92 
+ 6:4-4:6-0:6-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:4-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:4-Finalsieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:4-Führung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:4-Punkte ( NOUN NOUN_PROPER_SINGULAR ) lemma=6:4-Punkt 
+ 6:4-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=6:4-Punkt 
+ 6:4-Satzgewinn ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:4-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:4-Vorsprung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:5-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:5-Toren ( NOUN NOUN_PROPER_SINGULAR ) lemma=6:5-Tor 
+ 6:53,29 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6:53,75 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6:56,72 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6:6-Punkte ( NOUN NOUN_PROPER_SINGULAR ) lemma=6:6-Punkt 
+ 6:6-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=6:6-Punkt 
+ 6:7-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:8-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:9-Heimniederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:9-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6:9-Rückstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6fach-Kombinations-Drogenschnelltest ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6fach-Kombinations-Drogentest ( NOUN NOUN_PROPER_SINGULAR ) 
+ 6jährige ( ADJECTIVE ) lemma=6jährig 
+ 6jährigen ( ADJECTIVE ) lemma=6jährig 
+ 6jähriger ( ADJECTIVE ) lemma=6jährig 
+ 6jähriges ( ADJECTIVE ) lemma=6jährig 
+ 6monatigen ( ADJECTIVE ) lemma=6monatig 
+ 6prozentige ( ADJECTIVE ) lemma=6prozentig 
  6,5fach ( ) 
  6-Tag ( ) 
  60-Jahr-feier ( ) 
@@ -742,19 +512,9 @@
  64seitig ( ) 
  65-Quadratmeter-Wohnung ( ) 
  65fach ( ) 
- 6,1-Teile ( ) lemma=66,1-Teiler 
- 6-Minuten-Stund ( ) lemma=66-Minuten-Stunde 
  66-jährig ( ) 
- 6/661-Anschlus ( ) lemma=66/661-Anschluss 
- 6/661-Anschlu� ( ) lemma=66/661-Anschluss 
- 61-Anschlus ( ) lemma=661-Anschluss 
- 61-Anschlu� ( ) lemma=661-Anschluss 
- 61-Trass ( ) lemma=661-trasse 
  661-trasse ( ) 
- 66-Jahr-Feie ( ) lemma=666-Jahr-Feier 
- 66-Jahrfeie ( ) lemma=666-Jahrfeier 
  666jährig ( ) 
- 6:32-Spiel ( ) lemma=66:32-Spiel 
  66:32-Spiel ( ) 
  66köpfig ( ) 
  67-jährig ( ) 
@@ -770,22 +530,11 @@
  68er-Veteran ( ) 
  6:0-Punkt ( ) 
  6:0-Tor ( ) 
+ 6:2-Punkt ( ) 
  6:2-Tor ( ) 
+ 6:4-Punkt ( ) 
  6:5-Tor ( ) 
  6:6-Punkt ( ) 
- 6-Teile ( ) lemma=86-Teiler 
- 6/68/71/7 ( ) lemma=76/68/71/74 
- 6/70/72/6 ( ) lemma=76/70/72/69 
- 61/9 ( ) lemma=761/91 
- 67/30 ( ) lemma=767/300 
- 6er-Denkma ( ) lemma=76er-Denkmal 
- 6er-Rund ( ) lemma=76er-Runde 
- 62 ( ) lemma=8627 
- 6:83-Sie ( ) lemma=86:83-Sieg 
- 6,5/95, ( ) lemma=96,5/95,5 
- 6000-Tonnen-Tanke ( ) lemma=96000-Tonnen-Tanker 
- 63e ( ) lemma=963er 
- 65ma ( ) lemma=965mal 
- 68e ( ) lemma=968er 
- 68er-Baureih ( ) lemma=968er-Baureihe 
- 6-Moto ( ) lemma=V6-Motor 
+ 6jährig ( ) 
+ 6monatig ( ) 
+ 6prozentig ( ) 

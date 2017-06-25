@@ -28500,8 +28500,8 @@
     conductance_unit~1nz (^electromagnetic_unit~1) a measure of a material's ability to conduct an electrical charge
  current_unit ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     current_unit~1nz (^electromagnetic_unit~1) a measure of the amount of electric charge flowing past a circuit point at a specific time
- coulomb ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 posdefault:NOUN ) 
-    coulomb~1nz (^quantity_unit~1) a unit of electrical charge equal to the amount of charge transferred by a current of 1 ampere in 1 second
+ coulomb ( meanings=1 NOUN NOUN_SINGULAR COMMON2 posdefault:NOUN ) 
+    ampere-second~1n 
  candlepower_unit ( meanings=1 NOUN NOUN_SINGULAR ) 
     luminous_intensity_unit~1n 
  candela ( meanings=1 NOUN NOUN_SINGULAR COMMON2 posdefault:NOUN ) 
@@ -30683,8 +30683,12 @@
     crime_rate~1nz (^rate~4) the ratio of crimes in an area to the population of that area
  cardiac_output ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 
     cardiac_output~1nz (^flow~7) the amount of blood pumped out by the ventricles in a given period of time
- cps ( meanings=1 NOUN NOUN_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER ) 
+ cycle_per_second ( meanings=1 NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 
     Hz~1n 
+ cycles/second ( meanings=1 NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 
+    cycle_per_second~1n 
+ cps ( meanings=1 NOUN NOUN_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER ) 
+    cycles/second~1n 
  count_per_minute ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 
     counts/minute~1nz (^frequency~3) frequency per minute
  counts/minute ( meanings=1 NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 

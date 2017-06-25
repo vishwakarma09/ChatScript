@@ -1,3 +1,14 @@
+
+version 7.51  6/25/2017
+1. ^pos(isuppercase xx)  does it begin with uppercase letter
+2. $cs_proxycredentials  // "myname:thesecret"
+   $cs_proxyserver    // "http://local.example.com:1080"
+   $cs_proxymethod   1 is most common value to use- see https://curl.haxx.se/libcurl/c/CURLOPT_HTTPAUTH.html
+3 tmp= command line  -- reassign location of TMP directory
+4. ^jsonopen allows json composite reference to be postdata argument, will write it into text as the data for you
+5. :quotelines file, reads lines and puts doublequotes around them
+6. Spanish concepts (ontology) and Livedata
+
 version 7.5  6/18/2017
 1 :dualupper - list words that have more than one uppercase form
 2. hidefromlog param - list json fields not to save into user or server log

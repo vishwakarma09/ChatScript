@@ -284,6 +284,14 @@ void ClearNumbers()
 	currencies = 0;
 }
 
+char* ReadTokenMass(char* ptr, char* word)
+{
+	ptr = SkipWhitespace(ptr);
+	while (*ptr && *ptr != ' ') *word++ = *ptr++;	// find end of word
+	*word = 0;
+	return ptr;
+}
+
 void InitTextUtilities1()
 {
 	char file[SMALL_WORD_SIZE];

@@ -1,4 +1,4 @@
-﻿ 8 ( ) 
+﻿ 8 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  8/T.4 ( ) 
  80H ( ) 
  81H ( ) 
@@ -7,8 +7,3 @@
  8R ( ) 
  8R0 ( ) 
  8Y ( ) 
- 8.1 ( ) lemma=T8.12 
- 8.3 ( ) lemma=T8.30 
- 8. ( ) lemma=T8.4 
- 8.5 ( ) lemma=T8.51 
- 8.6 ( ) lemma=T8.64 

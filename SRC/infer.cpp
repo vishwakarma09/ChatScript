@@ -642,7 +642,7 @@ nextsearch:  //   can do multiple searches, thought they have the same basemark 
 	int qMark = 0;
 	int mark = 0;
 	int whichset = 0;
-	fact = FindWord((char*)"fact");
+	fact = StoreWord((char*)"fact");// for foreign languages insure word is there
 
 	char maxmark = '0'; // deepest mark user has used
 	if (trace & TRACE_QUERY && CheckTopicTrace()) 

@@ -1,8 +1,6 @@
 # ChatScript Multiple Bots Manual
-
-> © Bruce Wilcox, gowilcox@gmail.com brilligunderstanding.com 
-
-> Revision 5/28/2017 cs7.43
+Â© Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com
+<br>Revision 6/25/2017 cs7.51
 
 
 The system can support multiple bots cohabiting the same engine. You can restrict topics

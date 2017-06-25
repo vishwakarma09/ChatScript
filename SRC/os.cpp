@@ -985,7 +985,7 @@ FILE* FopenUTF8WriteAppend(const char* filename,const char* flags)
 		bom[2] = 0xBF;
 		fwrite(bom,1,3,out);
 	}
-	else if (!out && !inLog) 
+	else if (!out && !inLog)
 		ReportBug((char*)"Error opening utf8writeappend file %s: %s\r\n",path,strerror(errno));
 	return out;
 }

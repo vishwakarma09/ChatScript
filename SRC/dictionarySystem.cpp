@@ -301,14 +301,12 @@ void SetCanonical(WORDP D,MEANING M)
 	canonicalWords[D] = dictionaryBase + M;  // must directly assign since word on load may not exist
 }
 
-char* GetCanonical(WORDP D)
+WORDP GetCanonical(WORDP D)
 {
 	std::map<WORDP,WORDP>::iterator it;
 	it = canonicalWords.find(D);
 	if (it == canonicalWords.end()) return NULL;
-	WORDP E = it->second;
-
-	return E->word;
+	return it->second;
 }
 
 WORDP GetTense(WORDP D)
@@ -521,7 +519,10 @@ static void EraseFile(char* file)
 void ClearDictionaryFiles()
 {
 	char buffer[MAX_WORD_SIZE];
-	EraseFile((char*)"other.txt"); //   create but empty file
+	int ans = remove(UseDictionaryFile((char*)"dict.bin"));
+	remove(UseDictionaryFile((char*)"facts.bin"));
+	EraseFile((char*)"dict.bin"); //   create but empty file
+	EraseFile((char*)"facts.bin"); //   create but empty file
     unsigned int i;
 	for (i = 'a'; i <= 'z'; ++i)
 	{
@@ -1109,7 +1110,7 @@ void ShowStats(bool reset)
 void WriteDictDetailsBeforeLayer(int layer)
 {
 	char word[MAX_WORD_SIZE];
-	sprintf(word,(char*)"%s/prebuild%d.bin",tmp, layer);
+	sprintf(word,(char*)"%s/prebuild%d.bin",tmp,layer);
 	FILE* out = FopenBinaryWrite(word); // binary file, no BOM
 	if (out)
 	{
@@ -1389,7 +1390,8 @@ static void WriteBinaryEntry(WORDP D, FILE* out)
 	if (GetGlossCount(D)) bits |= 1 << 5;
 	if (D->systemFlags || D->properties || D->parseBits) bits |= 1 << 6;
 	if (D->internalBits) bits |= 1 << 7;
-	Write8(bits,0);
+	if (GetCanonical(D)) bits |= 1 << 8;
+	Write16(bits,0);
 
 	if (bits & ( 1 << 6))
 	{
@@ -1415,6 +1417,9 @@ static void WriteBinaryEntry(WORDP D, FILE* out)
 	}
 	if (GetPlural(D)) Write32(MakeMeaning(GetPlural(D)),0);
 	if (GetComparison(D)) Write32(MakeMeaning(GetComparison(D)),0);
+	WORDP canon = GetCanonical(D);
+	if (canon) Write32(MakeMeaning(canon), 0);
+
 	if (GetMeaningCount(D)) 
 	{
 		c = (unsigned char)GetMeaningCount(D);
@@ -1615,7 +1620,7 @@ static WORDP ReadBinaryEntry(FILE* in)
 	D->word = name;
 	D->length = (unsigned short)nameLen;
 	echo = true;
-	unsigned int bits = Read8(0);
+	unsigned int bits = Read16(0);
 
     if (bits & ( 1 << 6)) 
 	{
@@ -1640,7 +1645,12 @@ static WORDP ReadBinaryEntry(FILE* in)
 	if (bits & (1 << 1))  SetTense(D,Read32(0));
 	if (bits & (1 << 2)) SetPlural(D,Read32(0));
 	if (bits & (1 << 3)) SetComparison(D,Read32(0));
-	if (bits & (1 << 4)) 
+	if (bits & 1 << 8)
+	{
+		MEANING M = Read32(0);
+		SetCanonical(D, M);
+	}
+	if (bits & (1 << 4))
 	{
 		unsigned char c = Read8(0);
 		MEANING* meanings = (MEANING*) AllocateHeap(NULL,(c+1),sizeof(MEANING)); 
@@ -1840,7 +1850,7 @@ void WriteDictionary(WORDP D,uint64 data)
 	WriteDictionaryReference((char*)"conjugate",GetTense(D),out);
 	WriteDictionaryReference((char*)"plural",GetPlural(D),out);
 	WriteDictionaryReference((char*)"comparative",GetComparison(D),out);
-	if (GetCanonical(D)) WriteDictionaryReference((char*)"lemma", FindWord(GetCanonical(D)), out);
+	if (GetCanonical(D)) WriteDictionaryReference((char*)"lemma", GetCanonical(D), out);
 
 	//   show the meanings, with illustrative gloss
 		
@@ -2143,7 +2153,7 @@ bool ReadDictionary(char* file)
 	if (!in) return false;
 	while (ReadALine(readBuffer,in) >= 0)
 	{
-		ptr = ReadCompiledWord(readBuffer,word); // word
+		ptr = ReadTokenMass(readBuffer,word); // word
 		if (!*word) continue;
 
 		ptr = ReadCompiledWord(ptr,junk);	//   read open paren
@@ -3161,10 +3171,11 @@ void VerifyEntries(WORDP D,uint64 junk) // prove meanings have synset heads and 
 		if (synsetHeads != 1 || counter > MAX_SYNLOOP) 
 			ReportBug((char*)"Bad synset list %s heads: %d count: %d\r\n",D->word,synsetHeads,counter)
 	}
+	int limit = 1000;
 	if (GetTense(D)) 
 	{
 		WORDP E = GetTense(D);
-		while (E != D)
+		while (E != D && --limit > 0)
 		{
 			if (!E)
 			{
@@ -3182,7 +3193,7 @@ void VerifyEntries(WORDP D,uint64 junk) // prove meanings have synset heads and 
 	if (GetPlural(D)) 
 	{
 		WORDP E = GetPlural(D);
-		while (E != D)
+		while (E != D && --limit > 0)
 		{
 			if (!E)
 			{
@@ -3200,7 +3211,7 @@ void VerifyEntries(WORDP D,uint64 junk) // prove meanings have synset heads and 
 	if (GetComparison(D)) 
 	{
 		WORDP E = GetComparison(D);
-		while (E != D)
+		while (E != D && --limit > 0)
 		{
 			if (!E)
 			{
@@ -3264,7 +3275,6 @@ void LoadDictionary()
 		InitFactWords(); 
 		AcquireDefines((char*)"SRC/dictionarySystem.h"); //   get dictionary defines (must occur before loop that decodes properties into sets (below)
 	}
-
 	ReadAbbreviations((char*)"abbreviations.txt"); // needed for burst/tokenizing
 	*currentFilename = 0;
 	fullDictionary = (!stricmp(language,(char*)"ENGLISH")) || (dictionaryFree-dictionaryBase) > 170000; // a lot of words are defined, must be a full dictionary.
@@ -3330,8 +3340,8 @@ char* FindCanonical(char* word, int i,bool notNew)
 	}
     if (D && !xbuildDictionary) 
 	{
-		char* answer = GetCanonical(D);
-		if (answer) return answer; //   special canonical form (various pronouns typically)
+		WORDP answer = GetCanonical(D);
+		if (answer) return answer->word; //   special canonical form (various pronouns typically)
 	}
 
     //    numbers - use digit form
@@ -6888,10 +6898,11 @@ static void ReviveWords(WORDP D, uint64 junk) // now that dead meaning reference
 		RemoveInternalFlag(D, DELETED_MARK);
 	}
 	if (D->internalBits & DELETED_MARK) return;
+	int limit = 1000;
 	if (GetTense(D))
 	{
 		WORDP E = GetTense(D);
-		while (E && E != D)
+		while (E && E != D && --limit > 0)
 		{
 			if (E->internalBits & DELETED_MARK)
 			{
@@ -6904,7 +6915,7 @@ static void ReviveWords(WORDP D, uint64 junk) // now that dead meaning reference
 	if (GetPlural(D))
 	{
 		WORDP E = GetPlural(D);
-		while (E && E != D)
+		while (E && E != D && --limit > 0)
 		{
 			if (E->internalBits & DELETED_MARK)
 			{
@@ -6917,7 +6928,7 @@ static void ReviveWords(WORDP D, uint64 junk) // now that dead meaning reference
 	if (GetComparison(D))
 	{
 		WORDP E = GetComparison(D);
-		while (E && E != D)
+		while (E && E != D && --limit > 0)
 		{
 			if (E->internalBits & DELETED_MARK)
 			{
@@ -6926,6 +6937,10 @@ static void ReviveWords(WORDP D, uint64 junk) // now that dead meaning reference
 			}
 			E = GetComparison(E);
 		}
+	}
+	if (limit <= 0) // bad
+	{
+		int xx = 0;
 	}
 }
 
@@ -6971,7 +6986,7 @@ void ReadForeign()
 {
 	// first get the mapping between foreign pos and english.
 	char name[MAX_WORD_SIZE];
-	sprintf(name, "treetagger/%s_tags.txt", language);
+	sprintf(name, "DICT/%s_tags.txt", language);
 	if (!ReadForeignPosTags(name)) return; //failed 
 
 	char filename[100];
@@ -6984,11 +6999,12 @@ void ReadForeign()
 	while (ReadALine(readBuffer, in) >= 0)
 	{
 		char word[MAX_WORD_SIZE];
-		char* ptr = ReadCompiledWord(readBuffer, word); // the base word
+		char* ptr = ReadTokenMass(readBuffer,word);
 		if (!*word) continue;
+
 		uint64 flag = 0;
 		char junk[MAX_WORD_SIZE];
-		ptr = ReadCompiledWord(ptr, junk);
+		ptr = strrchr(ptr,'`') + 1;
 		while (*ptr)
 		{
 			ptr = ReadCompiledWord(ptr, pos + 1); // foreign pos
@@ -7470,8 +7486,9 @@ static void WriteShortWords(WORDP D, uint64 junk)
 static void MarkOtherForms(WORDP D)
 {
 	// propogate to all related forms
+	int limit = 1000;
 	WORDP E = GetComparison(D); //  adj/adv
-	while (E && E != D)
+	while (E && E != D && --limit > 0)
 	{
 		E->internalBits &= -1 ^ DELETED_MARK;
 		WORDP X = GetComparison(E);
@@ -7479,7 +7496,7 @@ static void MarkOtherForms(WORDP D)
 		E = X;
 	}
 	E = GetTense(D); // verb
-	while (E && E != D)
+	while (E && E != D  && --limit > 0)
 	{
 		RemoveInternalFlag(E, DELETED_MARK);
 		WORDP X = GetTense(E);
@@ -7487,12 +7504,16 @@ static void MarkOtherForms(WORDP D)
 		E = X;
 	}
 	E = GetPlural(D); // noun
-	while (E && E != D)
+	while (E && E != D  && --limit > 0)
 	{
 		E->systemFlags &= -1 ^ DELETED_MARK;
 		WORDP X = GetPlural(E);
 		if (X == E) break;
 		E = X;
+	}
+	if (limit <= 0) // something is wrong
+	{
+		int xx = 0;
 	}
 }
 

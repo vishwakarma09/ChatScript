@@ -1,4 +1,2 @@
-﻿ 6e ( ) 
- 6ème ( ) 
- 6 ( ) lemma=16e 
- 6èm ( ) lemma=16ème 
+﻿ 6e ( NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 6ème ( NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER ) 

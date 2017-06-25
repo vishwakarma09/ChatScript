@@ -1,833 +1,592 @@
-﻿ 4 ( ) lemma=645 
+﻿ 4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  4*100-m- ( ) 
- 4*100-m-Staffelzeiten ( ) 
- 4,1 ( ) 
- 4,2 ( ) 
- 4,2-Liter-Achtzylindermotor ( ) 
- 4,21 ( ) 
- 4,3 ( ) 
- 4,3-Milliarden-Projekt ( ) 
- 4,4 ( ) 
- 4,5 ( ) 
- 4,50 ( ) 
- 4,5fache ( ) 
- 4,7-Millionen-Mark-Paket ( ) 
+ 4*100-m-Staffelzeiten ( NOUN NOUN_PROPER_SINGULAR ) lemma=4*100-m-Staffelzeit 
+ 4,1 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4,2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4,2-Liter-Achtzylindermotor ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4,21 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4,3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4,3-Milliarden-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4,4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4,5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4,50 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4,5fache ( ADJECTIVE ) lemma=4,5fach 
+ 4,7-Millionen-Mark-Paket ( NOUN NOUN_PROPER_SINGULAR ) 
  4,8- ( ) 
- 4,8prozentige ( ) 
- 4- ( ) lemma=44-L 
- 4-15-Alle ( ) 
- 4-A ( ) 
- 4-Aktion ( ) 
+ 4,8prozentige ( ADJECTIVE ) lemma=4,8prozentig 
+ 4- ( ) 
+ 4-15-Alle ( NOUN NOUN_PROPER_SINGULAR ) lemma=4-15-All 
+ 4-A ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Aktion ( NOUN NOUN_PROPER_SINGULAR ) 
  4-Bett- ( ) 
- 4-Blatt ( ) 
- 4-Block ( ) 
- 4-Blätter ( ) 
- 4-Blättern ( ) 
- 4-CD-Box ( ) 
- 4-Dokumentation ( ) 
- 4-Euro-Funk-Familie ( ) 
- 4-Fahrten-Karten ( ) 
- 4-Format ( ) 
- 4-Gräser ( ) 
- 4-Helferzellen ( ) 
- 4-Komplexes ( ) 
- 4-M ( ) 
- 4-Megabit-Chip ( ) lemma=64-Megabit-Chip 
- 4-Megabit-Chips ( ) 
- 4-Millionen-Stadt ( ) 
- 4-Personen-Haushalt ( ) 
- 4-Pflanzen ( ) 
- 4-Professor ( ) 
- 4-Professoren ( ) 
- 4-Professur ( ) 
- 4-Professuren ( ) 
- 4-Rakete ( ) 
- 4-Seite ( ) 
- 4-Seiten ( ) 
- 4-Sommer ( ) 
- 4-Station ( ) 
- 4-Stelle ( ) 
- 4-Stellen ( ) 
- 4-Sterne-Hotel ( ) 
- 4-Stunden-Spezial-Edition ( ) 
- 4-Stunden-Version ( ) 
+ 4-Blatt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Block ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Blätter ( NOUN NOUN_PROPER_SINGULAR ) lemma=4-Blatt 
+ 4-Blättern ( NOUN NOUN_PROPER_SINGULAR ) lemma=4-Blatt 
+ 4-CD-Box ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Dokumentation ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Euro-Funk-Familie ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Fahrten-Karten ( NOUN NOUN_PROPER_SINGULAR ) lemma=4-Fahrten-Karte 
+ 4-Format ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Gräser ( NOUN NOUN_PROPER_SINGULAR ) lemma=4-Gras 
+ 4-Helferzellen ( NOUN NOUN_PROPER_SINGULAR ) lemma=4-Helferzelle 
+ 4-Komplexes ( NOUN NOUN_PROPER_SINGULAR ) lemma=4-Komplex 
+ 4-M ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Megabit-Chip ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Megabit-Chips ( NOUN NOUN_PROPER_SINGULAR ) lemma=4-Megabit-Chip 
+ 4-Millionen-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Personen-Haushalt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Pflanzen ( NOUN NOUN_PROPER_SINGULAR ) lemma=4-Pflanze 
+ 4-Professor ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Professoren ( NOUN NOUN_PROPER_SINGULAR ) lemma=4-Professor 
+ 4-Professur ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Professuren ( NOUN NOUN_PROPER_SINGULAR ) lemma=4-Professur 
+ 4-Rakete ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Seite ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Seiten ( NOUN NOUN_PROPER_SINGULAR ) lemma=4-Seite 
+ 4-Sommer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Station ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Stelle ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Stellen ( NOUN NOUN_PROPER_SINGULAR ) lemma=4-Stelle 
+ 4-Sterne-Hotel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Stunden-Spezial-Edition ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Stunden-Version ( NOUN NOUN_PROPER_SINGULAR ) 
  4-Tage- ( ) 
- 4-Tage-Fahrt ( ) 
- 4-Tage-Woche ( ) 
- 4-Track-CD ( ) 
- 4-Umschläge ( ) 
- 4-Vorlage ( ) 
- 4-Wochen-Turnus ( ) 
- 4-Zeitplan ( ) 
- 4-Zellen ( ) 
- 4-Zettel ( ) 
- 4-Zimmer ( ) 
- 4-Zimmer-Wohnung ( ) 
- 4-fachen ( ) 
- 4-g ( ) 
- 4-grossen ( ) 
- 4-großen ( ) 
- 4-h ( ) 
- 4-plus-2-Gespräche ( ) 
- 4. ( ) 
+ 4-Tage-Fahrt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Tage-Woche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Track-CD ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ 4-Umschläge ( NOUN NOUN_PROPER_SINGULAR ) lemma=4-Umschlag 
+ 4-Vorlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Wochen-Turnus ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Zeitplan ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Zellen ( NOUN NOUN_PROPER_SINGULAR ) lemma=4-Zelle 
+ 4-Zettel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Zimmer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-Zimmer-Wohnung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-fachen ( ADJECTIVE ) lemma=4-fach 
+ 4-g ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-grossen ( ADJECTIVE ) lemma=4-groß 
+ 4-großen ( ADJECTIVE ) lemma=4-groß 
+ 4-h ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4-plus-2-Gespräche ( NOUN NOUN_PROPER_SINGULAR ) lemma=4-plus-2-Gespräch 
+ 4. ( ADJECTIVE ) 
  4.000-Megawatt- ( ) 
- 4.000-Meter-Einzelverfolgung ( ) 
- 4.000-Seelen-Gemeinde ( ) 
- 4.000-m-Einzelverfolgung ( ) 
- 4.000-m-Verfolgung ( ) 
- 4.000er ( ) 
- 4.000jährigen ( ) 
- 4.000köpfige ( ) 
- 4.000köpfigen ( ) 
- 4/1 ( ) lemma=24/16 
- 4/10 ( ) 
- 4/100 ( ) 
- 4/1988 ( ) 
- 4/1989 ( ) 
- 4/1990 ( ) 
- 4/1991 ( ) 
- 4/1992 ( ) 
- 4/2 ( ) lemma=24/26 
- 4/225 ( ) 
- 4/230 ( ) 
- 4/245 ( ) 
- 4/265 ( ) 
- 4/273 ( ) 
- 4/280 ( ) 
- 4/3 ( ) lemma=34/36 
- 4/326 ( ) 
- 4/34,71 ( ) 
- 4/4 ( ) lemma=44/45 
+ 4.000-Meter-Einzelverfolgung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4.000-Seelen-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4.000-m-Einzelverfolgung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4.000-m-Verfolgung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4.000er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4.000jährigen ( ADJECTIVE ) lemma=4.000jährig 
+ 4.000köpfige ( ADJECTIVE ) lemma=4.000köpfig 
+ 4.000köpfigen ( ADJECTIVE ) lemma=4.000köpfig 
+ 4/1 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/10 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/100 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/1988 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/1989 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/1990 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/1991 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/1992 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/225 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/230 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/245 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/265 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/273 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/280 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/326 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/34,71 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  4/4- ( ) 
- 4/4-Takt ( ) 
- 4/5 ( ) lemma=64/59 
- 4/59,49 ( ) 
- 4/7 ( ) lemma=84/75 
- 4/88 ( ) 
- 4/89 ( ) 
- 4/90 ( ) 
- 4/91 ( ) 
- 4/92 ( ) 
- 4/93 ( ) 
- 40 ( ) lemma=3400 
- 40,5 ( ) 
- 40,5-Teiler ( ) 
+ 4/4-Takt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4/5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/59,49 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/7 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/88 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4/93 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 40 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 40,5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 40,5-Teiler ( NOUN NOUN_PROPER_SINGULAR ) 
  40- ( ) 
- 40-A ( ) 
- 40-Fuss-Container ( ) 
- 40-Fuß-Container ( ) 
- 40-Jahr ( ) 
- 40-Jahr-Arbeitsjubiläum ( ) 
- 40-Jahr-Berufsjubiläum ( ) 
- 40-Jahr-Dienstjubiläum ( ) 
- 40-Jahr-Feier ( ) 
- 40-Jahr-Feiern ( ) 
- 40-Jahr-Frist ( ) 
- 40-Jahr-Jubiläum ( ) 
- 40-Jahr-Landesjubiläum ( ) 
- 40-Jahr-Landesjubiläums ( ) 
- 40-Jahre ( ) 
- 40-Jahre-Jubelfeier ( ) 
- 40-Jahrfeier ( ) 
- 40-Kilogramm-Gewichtsklasse ( ) 
+ 40-A ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Fuss-Container ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Fuß-Container ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Jahr ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Jahr-Arbeitsjubiläum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Jahr-Berufsjubiläum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Jahr-Dienstjubiläum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Jahr-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Jahr-Feiern ( NOUN NOUN_PROPER_SINGULAR ) lemma=40-Jahr-feier 
+ 40-Jahr-Frist ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Jahr-Jubiläum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Jahr-Landesjubiläum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Jahr-Landesjubiläums ( NOUN NOUN_PROPER_SINGULAR ) lemma=40-Jahr-Landesjubiläum 
+ 40-Jahre ( NOUN NOUN_PROPER_SINGULAR ) lemma=40-Jahr 
+ 40-Jahre-Jubelfeier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Jahrfeier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Kilogramm-Gewichtsklasse ( NOUN NOUN_PROPER_SINGULAR ) 
  40-Meter- ( ) 
- 40-Meter-Schuss ( ) 
- 40-Meter-Schuß ( ) 
+ 40-Meter-Schuss ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Meter-Schuß ( NOUN NOUN_PROPER_SINGULAR ) lemma=40-Meter-Schuss 
  40-Millionen- ( ) 
- 40-Millionen-Dollar-Klage ( ) 
- 40-Millionen-Mark-Bauprojekt ( ) 
- 40-Millionen-Mark-Projekt ( ) 
- 40-Millionen-Mark-Zuschuss ( ) 
- 40-Millionen-Mark-Zuschuß ( ) 
- 40-Millionen-Programm ( ) 
- 40-Millionen-Projekt ( ) 
- 40-Minuten-Rhythmus ( ) 
- 40-Minuten-Takt ( ) 
- 40-Pfennig-Briefmarken ( ) 
- 40-Prozent ( ) 
+ 40-Millionen-Dollar-Klage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Millionen-Mark-Bauprojekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Millionen-Mark-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Millionen-Mark-Zuschuss ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Millionen-Mark-Zuschuß ( NOUN NOUN_PROPER_SINGULAR ) lemma=40-Millionen-Mark-Zuschuss 
+ 40-Millionen-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Millionen-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Minuten-Rhythmus ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Minuten-Takt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Pfennig-Briefmarken ( NOUN NOUN_PROPER_SINGULAR ) lemma=40-Pfennig-Briefmarke 
+ 40-Prozent ( NOUN NOUN_PROPER_SINGULAR ) 
  40-Prozent- ( ) 
- 40-Prozent-Anteil ( ) 
- 40-Prozent-Beteiligung ( ) 
- 40-Prozent-Marke ( ) 
- 40-Prozent-Partei ( ) 
- 40-Prozent-Quote ( ) 
- 40-Quadratmeter-Wohnung ( ) 
- 40-Stunden ( ) 
+ 40-Prozent-Anteil ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Prozent-Beteiligung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Prozent-Marke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Prozent-Partei ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Prozent-Quote ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Quadratmeter-Wohnung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Stunden ( NOUN NOUN_PROPER_SINGULAR ) 
  40-Stunden- ( ) 
- 40-Stunden-Woche ( ) 
- 40-Stundenwoche ( ) 
- 40-Tonnen-Korridor ( ) 
- 40-Tonnen-Laster ( ) 
- 40-Tonnen-Lastwagen ( ) 
- 40-Tonnen-Lastzug ( ) 
- 40-Tonnen-Sattelschlepper ( ) 
- 40-Tonnen-Zug ( ) 
- 40-Watt-Birnen ( ) 
- 40-Wochen-Stunden-Schnitt ( ) 
- 40-Zentimeter-Marke ( ) 
- 40-jährige ( ) 
- 40-jährigen ( ) 
+ 40-Stunden-Woche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Stundenwoche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Tonnen-Korridor ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Tonnen-Laster ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Tonnen-Lastwagen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Tonnen-Lastzug ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Tonnen-Sattelschlepper ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Tonnen-Zug ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Watt-Birnen ( NOUN NOUN_PROPER_SINGULAR ) lemma=40-Watt-Birne 
+ 40-Wochen-Stunden-Schnitt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-Zentimeter-Marke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40-jährige ( ADJECTIVE ) lemma=40-jährig 
+ 40-jährigen ( ADJECTIVE ) lemma=40-jährig 
  40.000- ( ) 
- 40/41 ( ) 
- 400 ( ) 
+ 40/41 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 400 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  400- ( ) 
- 400-Betten-Haus ( ) 
- 400-Betten-Hotel ( ) 
- 400-Jahr-Festschrift ( ) 
- 400-Jahr-Jubiläum ( ) 
- 400-Jahrfeier ( ) 
- 400-Mark-Spende ( ) 
- 400-Mark-Vignette ( ) 
- 400-Meter ( ) 
+ 400-Betten-Haus ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-Betten-Hotel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-Jahr-Festschrift ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-Jahr-Jubiläum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-Jahrfeier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-Mark-Spende ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-Mark-Vignette ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-Meter ( NOUN NOUN_PROPER_SINGULAR ) 
  400-Meter- ( ) 
- 400-Meter-Bahn ( ) 
- 400-Meter-Freistil ( ) 
- 400-Meter-Hürden ( ) 
- 400-Meter-Hürdenlauf ( ) 
+ 400-Meter-Bahn ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-Meter-Freistil ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-Meter-Hürden ( NOUN NOUN_PROPER_SINGULAR ) lemma=400-Meter-Hürde 
+ 400-Meter-Hürdenlauf ( NOUN NOUN_PROPER_SINGULAR ) 
  400-Meter-Lagen- ( ) 
- 400-Meter-Lauf ( ) 
- 400-Meter-Läufer ( ) 
- 400-Meter-Läuferin ( ) 
- 400-Meter-Rundbahn ( ) 
- 400-Meter-Staffel ( ) 
- 400-Meter-Strecke ( ) 
- 400-Millionen ( ) 
- 400-Millionen-Dollar-Kredit ( ) 
- 400-Millionen-Projekt ( ) 
- 400-Seelen-Dorf ( ) 
- 400-m-Europameisterin ( ) 
- 400-m-Freistil ( ) 
- 400-m-Hürden ( ) 
- 400-m-Hürdenläufer ( ) 
- 400-m-Hürdenläuferin ( ) 
- 400-m-Lagen ( ) 
- 400-m-Läufer ( ) 
- 400-m-Olympiasiegerin ( ) 
- 400-m-Sieg ( ) 
- 400-m-Staffel ( ) 
- 400-m-Vorlauf ( ) 
- 400-m-Weltmeisterin ( ) 
+ 400-Meter-Lauf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-Meter-Läufer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-Meter-Läuferin ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-Meter-Rundbahn ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-Meter-Staffel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-Meter-Strecke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-Millionen ( NOUN NOUN_PROPER_SINGULAR ) lemma=400-Million 
+ 400-Millionen-Dollar-Kredit ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-Millionen-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-Seelen-Dorf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-m-Europameisterin ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-m-Freistil ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-m-Hürden ( NOUN NOUN_PROPER_SINGULAR ) lemma=400-m-Hürde 
+ 400-m-Hürdenläufer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-m-Hürdenläuferin ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-m-Lagen ( NOUN NOUN_PROPER_SINGULAR ) lemma=400-m-Lage 
+ 400-m-Läufer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-m-Olympiasiegerin ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-m-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-m-Staffel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-m-Vorlauf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400-m-Weltmeisterin ( NOUN NOUN_PROPER_SINGULAR ) 
  400.000- ( ) 
- 400.000-Einwohner-Stadt ( ) 
- 400/87 ( ) 
- 4000 ( ) 
- 4000-Einwohner-Gemeinde ( ) 
- 4000-Kilometer-Trip ( ) 
- 4000-Mann-Behörde ( ) 
- 4000-Seelen-Städtchen ( ) 
- 4000-m-Distanz ( ) 
- 4000-m-Einerverfolgung ( ) 
- 4000-m-Einzelverfolgung ( ) 
- 4000-m-Mannschaftsverfolgung ( ) 
- 4000-m-Verfolgung ( ) 
- 4000/8000 ( ) 
- 40000 ( ) 
- 40000-Mark-Grenze ( ) 
- 40000-Mark-Spende ( ) 
- 4000köpfigen ( ) 
- 400er ( ) 
- 400fach ( ) 
- 400fache ( ) 
- 400jährige ( ) 
- 400jährigen ( ) 
- 400jähriges ( ) 
- 400köpfige ( ) lemma=1400köpfig 
- 400köpfigen ( ) 
- 400prozentige ( ) 
- 401 ( ) 
- 402/403 ( ) 
- 4049/88 ( ) 
- 409/91 ( ) 
- 40er ( ) 
- 40er-Jubiläum ( ) 
- 40ern ( ) 
- 40fach ( ) 
- 40fache ( ) 
- 40fachen ( ) 
- 40jährige ( ) lemma=140jährig 
- 40jährigem ( ) 
- 40jährigen ( ) 
- 40jähriger ( ) 
- 40jähriges ( ) 
- 40köpfige ( ) 
- 40köpfigen ( ) 
- 40köpfiger ( ) 
- 40mal ( ) 
- 40malige ( ) lemma=840malig 
- 40maliges ( ) 
- 40prozentige ( ) 
- 40prozentigen ( ) 
- 40prozentiger ( ) 
- 40stündigen ( ) 
- 40stündiges ( ) 
- 40tägige ( ) 
- 40tägigen ( ) 
- 41 ( ) lemma=8412 
- 41-A ( ) 
- 41/2 ( ) 
- 41/3 ( ) 
- 41/30 ( ) 
- 41/42 ( ) 
- 41/43 ( ) 
- 41/45 ( ) 
- 41/48 ( ) 
- 41/55 ( ) 
- 41/65 ( ) 
- 41/89 ( ) 
- 410-Millionen-Etat ( ) 
- 410/93 ( ) 
- 4100-Meter-Staffel ( ) 
- 41000 ( ) 
- 413/93 ( ) 
- 41397/15/12/86/02 ( ) 
- 418/90 ( ) 
- 41a-Massnahmen ( ) 
- 41a-Maßnahmen ( ) 
- 41fache ( ) 
- 41jährig ( ) 
- 41jährige ( ) 
- 41jährigen ( ) 
- 41jähriger ( ) 
- 42,195-Kilometer-Strecke ( ) 
- 42-A ( ) 
- 42-Stunden-Woche ( ) 
- 42-jährige ( ) 
- 42. ( ) 
- 42/43 ( ) 
- 42/44 ( ) 
- 42/45 ( ) 
- 42/90 ( ) 
- 42/93 ( ) 
- 420-Seelen-Gemeinde ( ) 
- 42000 ( ) 
- 421 ( ) 
- 422/423 ( ) 
- 422/433 ( ) 
- 423 ( ) 
- 425-Millionen-Mark-Etat ( ) 
- 42859 ( ) 
- 429/91 ( ) 
- 42er ( ) 
- 42jährig ( ) 
- 42jährige ( ) 
- 42jährigen ( ) 
- 42jähriger ( ) 
- 42köpfige ( ) 
- 42köpfigen ( ) 
- 42zeiligen ( ) 
- 43 ( ) 
- 43-A ( ) 
- 43-Prozent-Marke ( ) 
- 43-Stunden ( ) 
- 43-jährige ( ) 
+ 400.000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400/87 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4000-Einwohner-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4000-Kilometer-Trip ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4000-Mann-Behörde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4000-Seelen-Städtchen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4000-m-Distanz ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4000-m-Einerverfolgung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4000-m-Einzelverfolgung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4000-m-Mannschaftsverfolgung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4000-m-Verfolgung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4000/8000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 40000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 40000-Mark-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40000-Mark-Spende ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4000köpfigen ( ADJECTIVE ) lemma=4000köpfig 
+ 400er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 400fach ( ADJECTIVE ) 
+ 400fache ( ADJECTIVE ) lemma=400fach 
+ 400jährige ( ADJECTIVE ) lemma=400jährig 
+ 400jährigen ( ADJECTIVE ) lemma=400jährig 
+ 400jähriges ( ADJECTIVE ) lemma=400jährig 
+ 400köpfige ( ADJECTIVE ) lemma=400köpfig 
+ 400köpfigen ( ADJECTIVE ) lemma=400köpfig 
+ 400prozentige ( ADJECTIVE ) lemma=400prozentig 
+ 401 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 402/403 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4049/88 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 409/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 40er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40er-Jubiläum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 40ern ( NOUN NOUN_PROPER_SINGULAR ) lemma=40er 
+ 40fach ( ADJECTIVE ) 
+ 40fache ( ADJECTIVE ) lemma=40fach 
+ 40fachen ( ADJECTIVE ) lemma=40fach 
+ 40jährige ( ADJECTIVE ) lemma=40jährig 
+ 40jährigem ( ADJECTIVE ) lemma=40jährig 
+ 40jährigen ( ADJECTIVE ) lemma=40jährig 
+ 40jähriger ( ADJECTIVE ) lemma=40jährig 
+ 40jähriges ( ADJECTIVE ) lemma=40jährig 
+ 40köpfige ( ADJECTIVE ) lemma=40köpfig 
+ 40köpfigen ( ADJECTIVE ) lemma=40köpfig 
+ 40köpfiger ( ADJECTIVE ) lemma=40köpfig 
+ 40mal ( ADVERB ) 
+ 40malige ( ADJECTIVE ) lemma=40malig 
+ 40maliges ( ADJECTIVE ) lemma=40malig 
+ 40prozentige ( ADJECTIVE ) lemma=40prozentig 
+ 40prozentigen ( ADJECTIVE ) lemma=40prozentig 
+ 40prozentiger ( ADJECTIVE ) lemma=40prozentig 
+ 40stündigen ( ADJECTIVE ) lemma=40stündig 
+ 40stündiges ( ADJECTIVE ) lemma=40stündig 
+ 40tägige ( ADJECTIVE ) lemma=40tägig 
+ 40tägigen ( ADJECTIVE ) lemma=40tägig 
+ 41 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 41-A ( NOUN NOUN_PROPER_SINGULAR ) 
+ 41/2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 41/3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 41/30 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 41/42 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 41/43 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 41/45 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 41/48 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 41/55 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 41/65 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 41/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 410-Millionen-Etat ( NOUN NOUN_PROPER_SINGULAR ) 
+ 410/93 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4100-Meter-Staffel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 41000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 413/93 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 41397/15/12/86/02 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 418/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 41a-Massnahmen ( NOUN NOUN_PROPER_SINGULAR ) lemma=41a-Maßnahme 
+ 41a-Maßnahmen ( NOUN NOUN_PROPER_SINGULAR ) lemma=41a-Maßnahme 
+ 41fache ( ADJECTIVE ) lemma=41fach 
+ 41jährig ( ADJECTIVE ) 
+ 41jährige ( ADJECTIVE ) lemma=41jährig 
+ 41jährigen ( ADJECTIVE ) lemma=41jährig 
+ 41jähriger ( ADJECTIVE ) lemma=41jährig 
+ 42,195-Kilometer-Strecke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 42-A ( NOUN NOUN_PROPER_SINGULAR ) 
+ 42-Stunden-Woche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 42-jährige ( ADJECTIVE ) lemma=42-jährig 
+ 42. ( ADJECTIVE ) 
+ 42/43 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 42/44 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 42/45 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 42/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 42/93 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 420-Seelen-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 42000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 421 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 422/423 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 422/433 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 423 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 425-Millionen-Mark-Etat ( NOUN NOUN_PROPER_SINGULAR ) 
+ 42859 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 429/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 42er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 42jährig ( ADJECTIVE ) 
+ 42jährige ( ADJECTIVE ) lemma=42jährig 
+ 42jährigen ( ADJECTIVE ) lemma=42jährig 
+ 42jähriger ( ADJECTIVE ) lemma=42jährig 
+ 42köpfige ( ADJECTIVE ) lemma=42köpfig 
+ 42köpfigen ( ADJECTIVE ) lemma=42köpfig 
+ 42zeiligen ( ADJECTIVE ) lemma=42zeilig 
+ 43 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 43-A ( NOUN NOUN_PROPER_SINGULAR ) 
+ 43-Prozent-Marke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 43-Stunden ( NOUN NOUN_PROPER_SINGULAR ) 
+ 43-jährige ( ADJECTIVE ) lemma=43-jährig 
  43.- ( ) 
- 43/1989 ( ) 
- 43/44 ( ) 
- 43/90 ( ) 
- 43/91 ( ) 
- 43/92 ( ) 
- 432/90 ( ) 
- 432965-2 ( ) 
- 43er ( ) 
- 43fachen ( ) 
- 43jährige ( ) 
- 43jährigem ( ) 
- 43jährigen ( ) 
- 43jähriger ( ) 
- 43köpfige ( ) 
- 43köpfigen ( ) 
- 43prozentige ( ) 
- 43prozentigen ( ) 
- 43tägigen ( ) 
- 44 ( ) lemma=1446 
+ 43/1989 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 43/44 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 43/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 43/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 43/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 432/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 432965-2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 43er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 43fachen ( ADJECTIVE ) lemma=43fach 
+ 43jährige ( ADJECTIVE ) lemma=43jährig 
+ 43jährigem ( ADJECTIVE ) lemma=43jährig 
+ 43jährigen ( ADJECTIVE ) lemma=43jährig 
+ 43jähriger ( ADJECTIVE ) lemma=43jährig 
+ 43köpfige ( ADJECTIVE ) lemma=43köpfig 
+ 43köpfigen ( ADJECTIVE ) lemma=43köpfig 
+ 43prozentige ( ADJECTIVE ) lemma=43prozentig 
+ 43prozentigen ( ADJECTIVE ) lemma=43prozentig 
+ 43tägigen ( ADJECTIVE ) lemma=43tägig 
+ 44 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  44- ( ) 
- 44-A ( ) 
- 44-L ( ) 
- 44-jährige ( ) 
- 44/45 ( ) 
- 440 ( ) 
- 440-MW-Blöcke ( ) 
- 440-MW-Reaktoren ( ) 
- 440-Mark ( ) 
+ 44-A ( NOUN NOUN_PROPER_SINGULAR ) 
+ 44-L ( NOUN NOUN_PROPER_SINGULAR ) 
+ 44-jährige ( ADJECTIVE ) lemma=44-jährig 
+ 44/45 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 440 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 440-MW-Blöcke ( NOUN NOUN_PROPER_SINGULAR ) lemma=440-MW-Block 
+ 440-MW-Reaktoren ( NOUN NOUN_PROPER_SINGULAR ) lemma=440-MW-Reaktor 
+ 440-Mark ( NOUN NOUN_PROPER_SINGULAR ) 
  440-Megawatt- ( ) 
- 440-Megawatt-Druckwasserreaktoren ( ) 
- 440-Megawatt-Reaktoren ( ) 
- 440/213 ( ) 
- 440/230 ( ) 
- 44000-Einwohner-Stadt ( ) 
- 4421mal ( ) 
- 446/90 ( ) 
- 44er ( ) 
- 44er-Linie ( ) 
- 44jährig ( ) 
- 44jährige ( ) 
- 44jährigen ( ) 
- 44jähriger ( ) 
- 44köpfigen ( ) 
- 44prozentige ( ) 
- 44tägigen ( ) 
- 45 ( ) 
- 45,1 ( ) 
+ 440-Megawatt-Druckwasserreaktoren ( NOUN NOUN_PROPER_SINGULAR ) lemma=440-Megawatt-Druckwasserreaktor 
+ 440-Megawatt-Reaktoren ( NOUN NOUN_PROPER_SINGULAR ) lemma=440-Megawatt-Reaktor 
+ 440/213 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 440/230 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 44000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4421mal ( ADVERB ) 
+ 446/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 44er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 44er-Linie ( NOUN NOUN_PROPER_SINGULAR ) 
+ 44jährig ( ADJECTIVE ) 
+ 44jährige ( ADJECTIVE ) lemma=44jährig 
+ 44jährigen ( ADJECTIVE ) lemma=44jährig 
+ 44jähriger ( ADJECTIVE ) lemma=44jährig 
+ 44köpfigen ( ADJECTIVE ) lemma=44köpfig 
+ 44prozentige ( ADJECTIVE ) lemma=44prozentig 
+ 44tägigen ( ADJECTIVE ) lemma=44tägig 
+ 45 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 45,1 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  45- ( ) 
- 45-A ( ) 
- 45-Grad-Winkel ( ) 
- 45-Jahr-Feier ( ) 
+ 45-A ( NOUN NOUN_PROPER_SINGULAR ) 
+ 45-Grad-Winkel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 45-Jahr-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
  45-Minuten- ( ) 
- 45-Minuten-Beitrag ( ) 
- 45-Minuten-Film ( ) 
- 45-Minuten-Modell ( ) 
- 45-Minuten-Sendung ( ) 
- 45-Minuten-Sendungen ( ) 
- 45-Minuten-Takt ( ) 
- 45-Stunden-Woche ( ) 
- 45-jährige ( ) 
- 45.000-Einwohner-Stadt ( ) 
- 45/3 ( ) 
- 45/46 ( ) 
- 45/47 ( ) 
- 45/91 ( ) 
- 45/92 ( ) 
- 450 ( ) 
- 450-Mark ( ) 
- 450-Mark-Jobs ( ) 
- 450-Seelen-Gemeinde ( ) 
- 450-Seelen-Ort ( ) 
- 4500 ( ) 
- 4500-Einwohner-Gemeinde ( ) 
- 450jährigen ( ) 
- 450jähriges ( ) 
- 450köpfigen ( ) 
- 452/53 ( ) 
- 4538/89 ( ) 
- 456 ( ) 
- 456/88 ( ) 
- 45er ( ) 
- 45er-Raster ( ) 
- 45fachen ( ) 
- 45jährige ( ) 
- 45jährigem ( ) 
- 45jährigen ( ) 
- 45jähriger ( ) 
- 45jähriges ( ) 
- 45köpfige ( ) 
- 45köpfigen ( ) 
- 45prozentige ( ) 
- 45prozentigen ( ) 
- 46 ( ) 
- 46,20 ( ) 
- 46-A ( ) 
- 46-jährige ( ) 
- 46. ( ) 
- 46/47 ( ) 
- 46/48 ( ) 
- 46/89 ( ) 
- 46000mal ( ) 
- 4677:4624-Sieger ( ) 
- 46er ( ) 
- 46jährig ( ) 
- 46jährige ( ) 
- 46jährigen ( ) 
- 46jähriger ( ) 
- 46malige ( ) 
- 46prozentigen ( ) 
- 47 ( ) 
- 47-A ( ) 
- 47-Millionen-Mark-Flop ( ) 
- 47. ( ) 
- 47/2 ( ) 
- 47/48 ( ) 
- 470-Mark-Grenze ( ) 
- 470er ( ) 
+ 45-Minuten-Beitrag ( NOUN NOUN_PROPER_SINGULAR ) 
+ 45-Minuten-Film ( NOUN NOUN_PROPER_SINGULAR ) 
+ 45-Minuten-Modell ( NOUN NOUN_PROPER_SINGULAR ) 
+ 45-Minuten-Sendung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 45-Minuten-Sendungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=45-Minuten-Sendung 
+ 45-Minuten-Takt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 45-Stunden-Woche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 45-jährige ( ADJECTIVE ) lemma=45-jährig 
+ 45.000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 45/3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 45/46 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 45/47 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 45/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 45/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 450 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 450-Mark ( NOUN NOUN_PROPER_SINGULAR ) 
+ 450-Mark-Jobs ( NOUN NOUN_PROPER_SINGULAR ) lemma=450-Mark-Job 
+ 450-Seelen-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 450-Seelen-Ort ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4500 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4500-Einwohner-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 450jährigen ( ADJECTIVE ) lemma=450jährig 
+ 450jähriges ( ADJECTIVE ) lemma=450jährig 
+ 450köpfigen ( ADJECTIVE ) lemma=450köpfig 
+ 452/53 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4538/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 456 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 456/88 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 45er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 45er-Raster ( NOUN NOUN_PROPER_SINGULAR ) 
+ 45fachen ( ADJECTIVE ) lemma=45fach 
+ 45jährige ( ADJECTIVE ) lemma=45jährig 
+ 45jährigem ( ADJECTIVE ) lemma=45jährig 
+ 45jährigen ( ADJECTIVE ) lemma=45jährig 
+ 45jähriger ( ADJECTIVE ) lemma=45jährig 
+ 45jähriges ( ADJECTIVE ) lemma=45jährig 
+ 45köpfige ( ADJECTIVE ) lemma=45köpfig 
+ 45köpfigen ( ADJECTIVE ) lemma=45köpfig 
+ 45prozentige ( ADJECTIVE ) lemma=45prozentig 
+ 45prozentigen ( ADJECTIVE ) lemma=45prozentig 
+ 46 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 46,20 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 46-A ( NOUN NOUN_PROPER_SINGULAR ) 
+ 46-jährige ( ADJECTIVE ) lemma=46-jährig 
+ 46. ( ADJECTIVE ) 
+ 46/47 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 46/48 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 46/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 46000mal ( ADVERB ) 
+ 4677:4624-Sieger ( NOUN NOUN_PROPER_SINGULAR ) 
+ 46er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 46jährig ( ADJECTIVE ) 
+ 46jährige ( ADJECTIVE ) lemma=46jährig 
+ 46jährigen ( ADJECTIVE ) lemma=46jährig 
+ 46jähriger ( ADJECTIVE ) lemma=46jährig 
+ 46malige ( ADJECTIVE ) lemma=46malig 
+ 46prozentigen ( ADJECTIVE ) lemma=46prozentig 
+ 47 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 47-A ( NOUN NOUN_PROPER_SINGULAR ) 
+ 47-Millionen-Mark-Flop ( NOUN NOUN_PROPER_SINGULAR ) 
+ 47. ( ADJECTIVE ) 
+ 47/2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 47/48 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 470-Mark-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 470er ( NOUN NOUN_PROPER_SINGULAR ) 
  470er- ( ) 
- 470er-Frauen ( ) 
- 470er-Klasse ( ) 
- 4716/87 ( ) 
- 474/91 ( ) 
- 4762 ( ) 
- 47er ( ) 
- 47jährige ( ) 
- 47jährigen ( ) 
- 47jähriger ( ) 
- 48 ( ) 
- 48,0-Teiler ( ) 
- 48-A ( ) 
- 48-Kilo-Klasse ( ) 
- 48-Millionen-Kredit ( ) 
- 48-Stunden ( ) 
+ 470er-Frauen ( NOUN NOUN_PROPER_SINGULAR ) lemma=470er-Frau 
+ 470er-Klasse ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4716/87 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 474/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4762 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 47er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 47jährige ( ADJECTIVE ) lemma=47jährig 
+ 47jährigen ( ADJECTIVE ) lemma=47jährig 
+ 47jähriger ( ADJECTIVE ) lemma=47jährig 
+ 48 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 48,0-Teiler ( NOUN NOUN_PROPER_SINGULAR ) 
+ 48-A ( NOUN NOUN_PROPER_SINGULAR ) 
+ 48-Kilo-Klasse ( NOUN NOUN_PROPER_SINGULAR ) 
+ 48-Millionen-Kredit ( NOUN NOUN_PROPER_SINGULAR ) 
+ 48-Stunden ( NOUN NOUN_PROPER_SINGULAR ) 
  48-Stunden- ( ) 
- 48-Stunden-Frist ( ) 
- 48-Stunden-Ultimatum ( ) 
- 48-Stunden-Woche ( ) 
- 48-Teiler ( ) 
- 48-kg-Klasse ( ) 
- 48/1989 ( ) 
- 48/49 ( ) 
- 48/50 ( ) 
- 48/51 ( ) 
- 480-Mark-Basis ( ) 
- 480-Mark-Jobs ( ) 
- 4800-Kilowatt-Kraftpaket ( ) 
- 4800-Tonnen-Frachter ( ) 
- 482 ( ) 
- 486-Betten-Haus ( ) 
- 486er ( ) 
- 486er-Serie ( ) 
- 48er ( ) 
- 48er-Revolution ( ) 
- 48er-Revolutionär ( ) 
- 48jährig ( ) 
- 48jährige ( ) 
- 48jährigen ( ) 
- 48jähriger ( ) 
- 48prozentigen ( ) 
- 48stündige ( ) 
- 48stündigen ( ) 
- 48stündiger ( ) 
- 48stündiges ( ) 
- 49,9-Prozent-Anteil ( ) 
- 49-Meter-Band ( ) 
- 49-Prozent-Anteil ( ) 
- 49-Prozent-Beteiligung ( ) 
- 49-Prozent-Rahmen ( ) 
- 49-Prozentregelung ( ) 
- 49-jährige ( ) 
- 49/50 ( ) 
- 49/51 ( ) 
- 49/53 ( ) 
- 49/89 ( ) 
- 49/91 ( ) 
- 490-Kilo-Leinen ( ) 
- 499/91 ( ) 
- 49er ( ) 
- 49jährig ( ) 
- 49jährige ( ) 
- 49jährigen ( ) 
- 49jähriger ( ) 
- 49m-Band ( ) 
- 49prozentige ( ) 
- 49prozentigen ( ) 
- 49prozentiger ( ) 
- 4:0-Auswärtserfolg ( ) 
- 4:0-Auswärtssieg ( ) 
- 4:0-Derbysieg ( ) 
- 4:0-Endstand ( ) 
- 4:0-Erfolg ( ) 
- 4:0-Führung ( ) 
- 4:0-Pausenstand ( ) 
- 4:0-Punkte ( ) 
- 4:0-Punkten ( ) 
- 4:0-Sieg ( ) 
- 4:0-Siegen ( ) 
- 4:0-Toren ( ) 
- 4:1 ( ) 
- 4:1-Ehrentreffer ( ) 
- 4:1-Endstand ( ) 
- 4:1-Erfolg ( ) 
- 4:1-Führung ( ) 
- 4:1-Niederlage ( ) 
- 4:1-Pausenstand ( ) 
- 4:1-Sieg ( ) 
- 4:1-Siegen ( ) 
- 4:1-Sieger ( ) 
- 4:1-Vorsprung ( ) 
- 4:11-Siegen ( ) 
- 4:2-Deckung ( ) 
- 4:2-Endstand ( ) 
- 4:2-Erfolg ( ) 
- 4:2-Führung ( ) 
- 4:2-Punkte ( ) 
- 4:2-Punkten ( ) 
- 4:2-Sieg ( ) 
- 4:22,81 ( ) 
- 4:24,14 ( ) 
- 4:27,99 ( ) 
- 4:3 ( ) 
- 4:3-Erfolg ( ) 
- 4:3-Format ( ) 
- 4:3-Führung ( ) 
- 4:3-Sieg ( ) 
- 4:3-Siegtreffer ( ) 
- 4:35,85 ( ) 
- 4:4-Ausgleich ( ) 
- 4:4-Endstand ( ) 
- 4:4-Punkte ( ) 
- 4:4-Punkten ( ) 
- 4:4-Remis ( ) 
- 4:4-Unentschieden ( ) 
- 4:46,69 ( ) 
- 4:5-Heimniederlage ( ) 
- 4:5-Niederlage ( ) 
+ 48-Stunden-Frist ( NOUN NOUN_PROPER_SINGULAR ) 
+ 48-Stunden-Ultimatum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 48-Stunden-Woche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 48-Teiler ( NOUN NOUN_PROPER_SINGULAR ) 
+ 48-kg-Klasse ( NOUN NOUN_PROPER_SINGULAR ) 
+ 48/1989 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 48/49 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 48/50 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 48/51 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 480-Mark-Basis ( NOUN NOUN_PROPER_SINGULAR ) 
+ 480-Mark-Jobs ( NOUN NOUN_PROPER_SINGULAR ) lemma=480-Mark-Job 
+ 4800-Kilowatt-Kraftpaket ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4800-Tonnen-Frachter ( NOUN NOUN_PROPER_SINGULAR ) 
+ 482 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 486-Betten-Haus ( NOUN NOUN_PROPER_SINGULAR ) 
+ 486er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 486er-Serie ( NOUN NOUN_PROPER_SINGULAR ) 
+ 48er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 48er-Revolution ( NOUN NOUN_PROPER_SINGULAR ) 
+ 48er-Revolutionär ( NOUN NOUN_PROPER_SINGULAR ) 
+ 48jährig ( ADJECTIVE ) 
+ 48jährige ( ADJECTIVE ) lemma=48jährig 
+ 48jährigen ( ADJECTIVE ) lemma=48jährig 
+ 48jähriger ( ADJECTIVE ) lemma=48jährig 
+ 48prozentigen ( ADJECTIVE ) lemma=48prozentig 
+ 48stündige ( ADJECTIVE ) lemma=48stündig 
+ 48stündigen ( ADJECTIVE ) lemma=48stündig 
+ 48stündiger ( ADJECTIVE ) lemma=48stündig 
+ 48stündiges ( ADJECTIVE ) lemma=48stündig 
+ 49,9-Prozent-Anteil ( NOUN NOUN_PROPER_SINGULAR ) 
+ 49-Meter-Band ( NOUN NOUN_PROPER_SINGULAR ) 
+ 49-Prozent-Anteil ( NOUN NOUN_PROPER_SINGULAR ) 
+ 49-Prozent-Beteiligung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 49-Prozent-Rahmen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 49-Prozentregelung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 49-jährige ( ADJECTIVE ) lemma=49-jährig 
+ 49/50 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 49/51 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 49/53 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 49/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 49/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 490-Kilo-Leinen ( NOUN NOUN_PROPER_SINGULAR ) lemma=490-Kilo-Leine 
+ 499/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 49er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 49jährig ( ADJECTIVE ) 
+ 49jährige ( ADJECTIVE ) lemma=49jährig 
+ 49jährigen ( ADJECTIVE ) lemma=49jährig 
+ 49jähriger ( ADJECTIVE ) lemma=49jährig 
+ 49m-Band ( NOUN NOUN_PROPER_SINGULAR ) 
+ 49prozentige ( ADJECTIVE ) lemma=49prozentig 
+ 49prozentigen ( ADJECTIVE ) lemma=49prozentig 
+ 49prozentiger ( ADJECTIVE ) lemma=49prozentig 
+ 4:0-Auswärtserfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:0-Auswärtssieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:0-Derbysieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:0-Endstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:0-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:0-Führung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:0-Pausenstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:0-Punkte ( NOUN NOUN_PROPER_SINGULAR ) lemma=4:0-Punkt 
+ 4:0-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=4:0-Punkt 
+ 4:0-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:0-Siegen ( NOUN NOUN_PROPER_SINGULAR ) lemma=4:0-sieg 
+ 4:0-Toren ( NOUN NOUN_PROPER_SINGULAR ) lemma=4:0-Tor 
+ 4:1 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4:1-Ehrentreffer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:1-Endstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:1-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:1-Führung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:1-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:1-Pausenstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:1-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:1-Siegen ( NOUN NOUN_PROPER_SINGULAR ) lemma=4:1-sieg 
+ 4:1-Sieger ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:1-Vorsprung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:11-Siegen ( NOUN NOUN_PROPER_SINGULAR ) lemma=4:11-sieg 
+ 4:2-Deckung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:2-Endstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:2-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:2-Führung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:2-Punkte ( NOUN NOUN_PROPER_SINGULAR ) lemma=4:2-Punkt 
+ 4:2-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=4:2-Punkt 
+ 4:2-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:22,81 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4:24,14 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4:27,99 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4:3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4:3-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:3-Format ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:3-Führung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:3-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:3-Siegtreffer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:35,85 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4:4-Ausgleich ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:4-Endstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:4-Punkte ( NOUN NOUN_PROPER_SINGULAR ) lemma=4:4-Punkt 
+ 4:4-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=4:4-Punkt 
+ 4:4-Remis ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:4-Unentschieden ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:46,69 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 4:5-Heimniederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:5-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
  4:6- ( ) 
- 4:6-Niederlage ( ) 
- 4:6-Punkte ( ) 
- 4:8-Niederlage ( ) 
- 4:9-Niederlage ( ) 
- 4Matic-Modelle ( ) 
- 4P-Gruppe ( ) 
- 4P-Verpackungsgruppe ( ) 
- 4U-Fan ( ) 
- 4er ( ) lemma=94er 
- 4fach ( ) lemma=24fach 
- 4jährige ( ) lemma=94jährig 
- 4jährigen ( ) 
- 4jähriger ( ) 
- 4mal-400-Meter-Staffeln ( ) 
- 4prozentigen ( ) 
- 4teilige ( ) 
- 4x10-km-Staffel ( ) 
- 4x100-Meter-Staffel ( ) 
+ 4:6-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:6-Punkte ( NOUN NOUN_PROPER_SINGULAR ) lemma=4:6-Punkt 
+ 4:8-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4:9-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4Matic-Modelle ( NOUN NOUN_PROPER_SINGULAR ) lemma=4Matic-Modell 
+ 4P-Gruppe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4P-Verpackungsgruppe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4U-Fan ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4fach ( ADJECTIVE ) 
+ 4jährige ( ADJECTIVE ) lemma=4jährig 
+ 4jährigen ( ADJECTIVE ) lemma=4jährig 
+ 4jähriger ( ADJECTIVE ) lemma=4jährig 
+ 4mal-400-Meter-Staffeln ( NOUN NOUN_PROPER_SINGULAR ) lemma=4mal-400-Meter-Staffel 
+ 4prozentigen ( ADJECTIVE ) lemma=4prozentig 
+ 4teilige ( ADJECTIVE ) lemma=4teilig 
+ 4x10-km-Staffel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4x100-Meter-Staffel ( NOUN NOUN_PROPER_SINGULAR ) 
  4x100-m- ( ) 
- 4x100-m-Freistil-Staffel ( ) 
- 4x100-m-Quartett ( ) 
- 4x100-m-Staffel ( ) 
- 4x200-Meter-Freistilkonkurrenz ( ) 
- 4x200-m-Freistil-Staffel ( ) 
- 4x200-m-Freistilstaffel ( ) 
- 4x400-Meter-Staffel ( ) 
- 4x400-m-Staffel ( ) 
- 4x5-km-Staffel ( ) 
- 4x7,5-km-Staffel ( ) 
- 40/3 ( ) lemma=040/39 
- 40/39252 ( ) lemma=040/392526 
- 40/4 ( ) lemma=040/45 
- 40/43 ( ) lemma=040/439 
- 40/491164 ( ) lemma=040/4911647 
- 40/691005 ( ) lemma=040/6910055 
- 40/6970891 ( ) lemma=040/69708915 
- 4131/6629 ( ) lemma=04131/66295 
- 421/21333 ( ) lemma=0421/213333 
- 421/3 ( ) lemma=0421/32 
- 421/32162 ( ) lemma=0421/321623 
- 421/32353 ( ) lemma=0421/323530 
- 421/32443 ( ) lemma=0421/324438 
- 421/34 ( ) lemma=0421/346 
- 421/35674 ( ) lemma=0421/356746 
- 421/38161 ( ) lemma=0421/381615 
- 421/396373 ( ) lemma=0421/3963737 
- 421/45540 ( ) lemma=0421/455408 
- 421/49352 ( ) lemma=0421/493521 
- 421/559630 ( ) lemma=0421/5596300 
- 421/59186 ( ) lemma=0421/591865 
- 421/7532 ( ) lemma=0421/75325 
- 4235/215 ( ) lemma=04235/2158 
- 4253/71 ( ) lemma=04253/714 
- 431/67204 ( ) lemma=0431/672041 
- 441/88475 ( ) lemma=0441/884757 
- 4421/48 ( ) lemma=04421/480 
- 451/7 ( ) lemma=0451/79 
- 471/4 ( ) lemma=0471/41 
- 471/41234 ( ) lemma=0471/412340 
- 4743/795 ( ) lemma=04743/7956 
- 4761/7133 ( ) lemma=04761/71330 
- 4791/704 ( ) lemma=04791/7041 
- 491 ( ) lemma=0491- 
- 4, ( ) lemma=14,5 
- 4,7 ( ) lemma=14,75 
- 4-Ausba ( ) lemma=14-Ausbau 
- 4-Millionen-Metropol ( ) lemma=14-Millionen-Metropole 
- 4-Millionen-Stad ( ) lemma=14-Millionen-Stadt 
- 4-Neuba ( ) lemma=14-Neubau 
- 4-Parteien-Koalitio ( ) lemma=14-Parteien-Koalition 
- 4-Prozent-Mark ( ) lemma=14-Prozent-Marke 
- 4-Punkt ( ) lemma=14-Punkt 
- 4-Punkte-Katalo ( ) lemma=14-Punkte-Katalog 
- 4-Punkte-Pla ( ) lemma=14-Punkte-Plan 
- 4-Stunden ( ) lemma=24-Stunden- 
- 4-Stunden-Ta ( ) lemma=24-Stunden-Tag 
- 4-Tage ( ) lemma=14-Tage- 
- 4-Tage-Arrangemen ( ) lemma=14-Tage-Arrangement 
- 4-Tage-Gel ( ) lemma=14-Tage-Geld 
- 4-Tage-Rhythmu ( ) lemma=14-Tage-Rhythmus 
- 4-Tage-Tak ( ) lemma=14-Tage-Takt 
- 4-Tages-Rhythmu ( ) lemma=14-Tages-Rhythmus 
- 4-Tunne ( ) lemma=14-Tunnel 
- 4-Tunnel-Eröffnun ( ) lemma=14-Tunnel-Eröffnung 
- 4-Tunnel ( ) lemma=14-Tunnel 
- 4-Verlegun ( ) lemma=14-Verlegung 
- 4-jährig ( ) lemma=44-jährig 
- 4-jährige ( ) lemma=34-jährig 
- 4-tägi ( ) lemma=14-tägig 
- 4-tägig ( ) lemma=14-tägig 
- 4-tägige ( ) lemma=14-tägig 
- 4.0 ( ) lemma=14.06 
- 4.1 ( ) lemma=14.10 
- 4/ ( ) lemma=84/1 
- 4/278 ( ) lemma=14/2780 
- 4/8 ( ) lemma=84/85 
- 4/9 ( ) lemma=94/95 
- 40-Betten-Hote ( ) lemma=240-Betten-Hotel 
- 40-Doppelzimmer-Hote ( ) lemma=140-Doppelzimmer-Hotel 
- 40-Millionen-Mark ( ) lemma=140-Millionen-Mark- 
- 40-Millionen-Mark-Objekt ( ) lemma=140-Millionen-Mark-Objekt 
- 40-Millionen-Mark-Projek ( ) lemma=140-Millionen-Mark-Projekt 
- 40-Seite ( ) lemma=140-Seite 
- 40-Seiten-Wer ( ) lemma=140-Seiten-Werk 
- 40-Teile ( ) lemma=140-Teiler 
- 400-Ringe-Grenz ( ) lemma=1400-Ringe-Grenze 
- 400-Ringe-Mark ( ) lemma=1400-Ringe-Marke 
- 400-Seelen-Dor ( ) lemma=1400-Seelen-Dorf 
- 400-Seelen-Gemeind ( ) lemma=1400-Seelen-Gemeinde 
- 4000-Einwohner-Gemeind ( ) lemma=14000-Einwohner-Gemeinde 
- 4000-Einwohner-Kommun ( ) lemma=24000-Einwohner-Kommune 
- 4000-Einwohner-Stad ( ) lemma=84000-Einwohner-Stadt 
- 401/4 ( ) lemma=1401/42 
- 402/7 ( ) lemma=1402/78 
- 403/5 ( ) lemma=1403/50 
- 405/3 ( ) lemma=1405/35 
- 408/0 ( ) lemma=1408/07 
- 408/1 ( ) lemma=1408/14 
- 409/5 ( ) lemma=1409/50 
- 409/8 ( ) lemma=1409/89 
- 411/6 ( ) lemma=1411/64 
- 412/1 ( ) lemma=1412/14 
- 413/0 ( ) lemma=1413/08 
- 416/0 ( ) lemma=1416/07 
- 417/7 ( ) lemma=1417/78 
- 418/8 ( ) lemma=1418/85 
- 419/5 ( ) lemma=1419/50 
- 419/9 ( ) lemma=1419/92 
- 42/ ( ) lemma=142/3 
- 42/8 ( ) lemma=142/89 
- 421/0 ( ) lemma=1421/00 
- 423/0 ( ) lemma=1423/00 
- 425/0 ( ) lemma=1425/00 
- 426/1 ( ) lemma=1426/14 
- 426/7 ( ) lemma=1426/78 
- 427/9 ( ) lemma=1427/92 
- 428/4 ( ) lemma=1428/42 
- 428/8 ( ) lemma=1428/88 
- 429/2 ( ) lemma=1429/21 
- 429/5 ( ) lemma=1429/50 
- 430/8 ( ) lemma=1430/88 
- 432/0 ( ) lemma=1432/00 
- 433/0 ( ) lemma=1433/00 
- 44/ ( ) lemma=144/5 
- 442/5 ( ) lemma=1442/50 
- 442/7 ( ) lemma=1442/71 
- 443/4 ( ) lemma=1443/42 
- 443/7 ( ) lemma=1443/71 
- 444/6 ( ) lemma=1444/64 
- 444/8 ( ) lemma=1444/85 
- 446/5 ( ) lemma=1446/50 
- 447/9 ( ) lemma=1447/92 
- 448/1 ( ) lemma=1448/14 
- 449/4 ( ) lemma=1449/42 
- 449/9 ( ) lemma=1449/92 
- 44e ( ) lemma=144er 
- 452/0 ( ) lemma=1452/07 
- 454/1 ( ) lemma=1454/14 
- 460/0 ( ) lemma=1460/00 
- 461/7 ( ) lemma=1461/78 
- 462/7 ( ) lemma=1462/71 
- 462/8 ( ) lemma=1462/87 
- 462/9 ( ) lemma=1462/92 
- 463/0 ( ) lemma=1463/07 
- 463/1 ( ) lemma=1463/14 
- 4661/8 ( ) lemma=14661/88 
- 467/2 ( ) lemma=1467/21 
- 467/8 ( ) lemma=1467/85 
- 46e ( ) lemma=146er 
- 470/3 ( ) lemma=1470/35 
- 472/0 ( ) lemma=1472/00 
- 474:1488-Niederlag ( ) lemma=1474:1488-Niederlage 
- 478/0 ( ) lemma=1478/00 
- 478/7 ( ) lemma=1478/78 
- 489/9 ( ) lemma=1489/90 
- 493/8 ( ) lemma=1493/89 
- 499/9 ( ) lemma=1499/90 
- 4:10-Führun ( ) lemma=14:10-Führung 
- 4:11-Führun ( ) lemma=14:11-Führung 
- 4:11-Sie ( ) lemma=14:11-Sieg 
- 4:12-Sie ( ) lemma=14:12-Sieg 
- 4:13-Siege ( ) lemma=14:13-Sieger 
- 4:17-Niederlag ( ) lemma=14:17-Niederlage 
- 4:19-Niederlag ( ) lemma=14:19-Niederlage 
- 4:2-Zähle ( ) lemma=14:2-Zähler 
- 4:4-Punkt ( ) lemma=14:4-Punkt 
- 4:4-Zähle ( ) lemma=14:4-Zähler 
- 4er-Fel ( ) lemma=64er-Feld 
- 4fache ( ) lemma=34fach 
- 4jähri ( ) lemma=84jährig 
- 4jährig ( ) lemma=94jährig 
- 4köpfig ( ) lemma=54köpfig 
- 4köpfige ( ) lemma=94köpfig 
- 4malige ( ) lemma=14malig 
- 4monatig ( ) lemma=14monatig 
- 4monatige ( ) lemma=14monatig 
- 4prozentig ( ) lemma=94prozentig 
- 4prozentige ( ) lemma=74prozentig 
- 4stöckige ( ) lemma=14stöckig 
- 4stündig ( ) lemma=24stündig 
- 4stündige ( ) lemma=54stündig 
- 4teilig ( ) lemma=14teilig 
- 4tägi ( ) lemma=14tägig 
- 4tägig ( ) lemma=14tägig 
- 4tägige ( ) lemma=44tägig 
- 4,7-Teile ( ) lemma=24,7-Teiler 
- 4,9prozentige ( ) lemma=24,9prozentig 
- 4-Milliarden ( ) lemma=24-Milliarden- 
- 4-Milliarden-Dollar ( ) lemma=24-Milliarden-Dollar- 
- 4-Milliarden-Dollar-Hilfspake ( ) lemma=24-Milliarden-Dollar-Hilfspaket 
- 4-Milliarden-Dollar-Hilfspaket ( ) lemma=24-Milliarden-Dollar-Hilfspaket 
- 4-Milliarden-Dollar-Hilfsprogram ( ) lemma=24-Milliarden-Dollar-Hilfsprogramm 
- 4-Milliarden-Dollar-Pake ( ) lemma=24-Milliarden-Dollar-Paket 
- 4-Minuten-Tak ( ) lemma=24-Minuten-Takt 
- 4-Prozent-Antei ( ) lemma=24-Prozent-Anteil 
- 4-Prozent-Beteiligun ( ) lemma=24-Prozent-Beteiligung 
- 4-Spur-Studi ( ) lemma=24-Spur-Studio 
- 4-Stunde ( ) lemma=24-Stunden 
- 4-Stunden-Bereitschaf ( ) lemma=24-Stunden-Bereitschaft 
- 4-Stunden-Betreuun ( ) lemma=24-Stunden-Betreuung 
- 4-Stunden-Betrie ( ) lemma=24-Stunden-Betrieb 
- 4-Stunden-Dauerbetrie ( ) lemma=24-Stunden-Dauerbetrieb 
- 4-Stunden-Diens ( ) lemma=24-Stunden-Dienst 
- 4-Stunden-Gehe ( ) lemma=24-Stunden-Gehen 
- 4-Stunden-Jugendprogram ( ) lemma=24-Stunden-Jugendprogramm 
- 4-Stunden-Kart ( ) lemma=24-Stunden-Karte 
- 4-Stunden-Karte ( ) lemma=24-Stunden-Karte 
- 4-Stunden-Lau ( ) lemma=24-Stunden-Lauf 
- 4-Stunden-Lauf ( ) lemma=24-Stunden-Lauf 
- 4-Stunden-Pfleg ( ) lemma=24-Stunden-Pflege 
- 4-Stunden-Program ( ) lemma=24-Stunden-Programm 
- 4-Stunden-Programm ( ) lemma=24-Stunden-Programm 
- 4-Stunden-Präsen ( ) lemma=24-Stunden-Präsenz 
- 4-Stunden-Renne ( ) lemma=24-Stunden-Rennen 
- 4-Stunden-Rennen ( ) lemma=24-Stunden-Rennen 
- 4-Stunden-Rhythmu ( ) lemma=24-Stunden-Rhythmus 
- 4-Stunden-Schich ( ) lemma=24-Stunden-Schicht 
- 4-Stunden-Schwimme ( ) lemma=24-Stunden-Schwimmen 
- 4-Stunden-Schwimmen ( ) lemma=24-Stunden-Schwimmen 
- 4-Stunden-Servic ( ) lemma=24-Stunden-Service 
- 4-Stunden-Sondersendun ( ) lemma=24-Stunden-Sondersendung 
- 4-Stunden-Vollprogram ( ) lemma=24-Stunden-Vollprogramm 
- 4-Stunden-Woch ( ) lemma=24-Stunden-Woche 
- 4-Stundenprogram ( ) lemma=24-Stundenprogramm 
- 4-Tonnen-Lastwage ( ) lemma=24-Tonnen-Lastwagen 
- 4-plus-Ticke ( ) lemma=24-plus-Ticket 
- 4-stündig ( ) lemma=24-stündig 
- 4/199 ( ) lemma=24/1990 
- 40-Liter-Behälte ( ) lemma=240-Liter-Behälter 
- 40-Liter-Gefäss ( ) lemma=240-Liter-Gefäß 
- 40-Liter-Gefäß ( ) lemma=240-Liter-Gefäß 
- 40-Liter-Tonn ( ) lemma=240-Liter-Tonne 
- 40-Liter-Tonne ( ) lemma=240-Liter-Tonne 
- 40000-Einwohner-Stad ( ) lemma=240000-Einwohner-Stadt 
- 42/33 ( ) lemma=242/338 
- 44/9 ( ) lemma=844/91 
- 45/9 ( ) lemma=245/90 
- 48e ( ) lemma=248er 
- 495/8 ( ) lemma=2495/89 
- 49h-Kontingent ( ) lemma=249h-Kontingent 
- 4:23-Erfol ( ) lemma=24:23-Erfolg 
- 4bändige ( ) lemma=24bändig 
- 4e ( ) lemma=94er 
- 4,0 ( ) lemma=34,0- 
- 4/15,7 ( ) lemma=34/15,79 
- 4/6 ( ) lemma=74/68 
- 41417-Privile ( ) lemma=341417-Privileg 
- 455/8 ( ) lemma=3455/87 
- 4:10-Punkt ( ) lemma=34:10-Punkt 
- 4er-Haltestell ( ) lemma=34er-Haltestelle 
+ 4x100-m-Freistil-Staffel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4x100-m-Quartett ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4x100-m-Staffel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4x200-Meter-Freistilkonkurrenz ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4x200-m-Freistil-Staffel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4x200-m-Freistilstaffel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4x400-Meter-Staffel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4x400-m-Staffel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4x5-km-Staffel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 4x7,5-km-Staffel ( NOUN NOUN_PROPER_SINGULAR ) 
  4*100-m-Staffelzeit ( ) 
  4,5fach ( ) 
  4,8prozentig ( ) 
@@ -874,21 +633,10 @@
  43prozentig ( ) 
  43tägig ( ) 
  44-jährig ( ) 
- 40-MW-Blöck ( ) lemma=440-MW-Block 
  440-MW-Block ( ) 
- 40-MW-Reaktore ( ) lemma=440-MW-Reaktor 
  440-MW-Reaktor ( ) 
- 40-Mar ( ) lemma=440-Mark 
- 40-Megawatt ( ) lemma=440-Megawatt- 
- 40-Megawatt-Druckwasserreaktore ( ) lemma=440-Megawatt-Druckwasserreaktor 
  440-Megawatt-Druckwasserreaktor ( ) 
- 40-Megawatt-Reaktore ( ) lemma=440-Megawatt-Reaktor 
  440-Megawatt-Reaktor ( ) 
- 40/21 ( ) lemma=440/213 
- 40/23 ( ) lemma=440/230 
- 421ma ( ) lemma=4421mal 
- 46/9 ( ) lemma=446/90 
- 4er-Lini ( ) lemma=44er-Linie 
  44köpfig ( ) 
  44prozentig ( ) 
  44tägig ( ) 
@@ -917,33 +665,10 @@
  4:1-sieg ( ) 
  4:11-sieg ( ) 
  4:2-Punkt ( ) 
+ 4:4-Punkt ( ) 
  4:6-Punkt ( ) 
  4Matic-Modell ( ) 
+ 4jährig ( ) 
  4mal-400-Meter-Staffel ( ) 
- 4-Tonreih ( ) lemma=54-Tonreihe 
- 4ma ( ) lemma=54mal 
- 4-Chefredakteu ( ) lemma=64-Chefredakteur 
- 4-Fan ( ) lemma=64-Fan 
- 4-Frequen ( ) lemma=64-Frequenz 
- 4-Frequenze ( ) lemma=64-Frequenz 
- 4-Freund ( ) lemma=64-Freund 
- 4-Freundeskrei ( ) lemma=64-Freundeskreis 
- 4-Hörer ( ) lemma=64-Hörer 
- 4-Kilobit-Leitun ( ) lemma=64-Kilobit-Leitung 
- 4-Megabit-Chi ( ) lemma=64-Megabit-Chip 
- 4-Megabit-Chip-Produktio ( ) lemma=64-Megabit-Chip-Produktion 
- 4-Megabit-Speicherchip ( ) lemma=64-Megabit-Speicherchip 
- 4-Redakteuri ( ) lemma=64-Redakteurin 
- 4-Redaktio ( ) lemma=64-Redaktion 
- 4-Teile ( ) lemma=74-Teiler 
- 44ma ( ) lemma=644mal 
- 45/8 ( ) lemma=645/89 
- 4seitig ( ) lemma=64seitig 
- 4/83, ( ) lemma=74/83,5 
- 423/9 ( ) lemma=7423/91 
- 47-Frachtmaschin ( ) lemma=747-Frachtmaschine 
- 49-Millionen-Mark-Eta ( ) lemma=849-Millionen-Mark-Etat 
- 4:76-Sie ( ) lemma=84:76-Sieg 
- 4:91-Heimniederlag ( ) lemma=84:91-Heimniederlage 
- 4/89, ( ) lemma=94/89,5 
- 4-Forma ( ) lemma=A4-Format 
+ 4prozentig ( ) 
+ 4teilig ( ) 

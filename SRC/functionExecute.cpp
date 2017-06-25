@@ -2952,18 +2952,27 @@ static FunctionResult OriginalCode(char* buffer)
 {
 	char* arg = ARGUMENT(1);
 	if (*arg == '\'') ++arg;
-
+	int start, end;
 	if (*arg == '^') strcpy(arg,callArgumentList[atoi(arg+1)+fnVarBase]);
 	else if (*arg == USERVAR_PREFIX) strcpy(arg,GetUserVariable(arg));
-	if (*arg != '_') return FAILRULE_BIT;
 
-	int x = GetWildcardID(arg);
-	if (x == ILLEGAL_MATCHVARIABLE) return FAILRULE_BIT;
-	int start = WILDCARD_START(wildcardPosition[x]);
-	int end = WILDCARD_END(wildcardPosition[x]);
+	if (*arg == '_')
+	{
+		int x = GetWildcardID(arg);
+		if (x == ILLEGAL_MATCHVARIABLE) return FAILRULE_BIT;
+		start = WILDCARD_START(wildcardPosition[x]);
+		end = WILDCARD_END(wildcardPosition[x]);
+	}
+	else if (IsDigit(*arg))
+	{
+		start = end = atoi(arg);
+		if (end > wordCount) return FAILRULE_BIT;
+	}
+	else return FAILRULE_BIT;
+
 	start = derivationIndex[start] >> 8; // from here
 	end = derivationIndex[end] & 0x00ff;  // to here but not including here  The end may be beyond wordCount if words have been deducted by now
-	if (start == 0) return NOPROBLEM_BIT;	// there is nothing here
+	if (start <= 0) return NOPROBLEM_BIT;	// there is nothing here
 	*buffer = 0;
 	for (int i = start; i <= end; ++i)
 	{
@@ -4695,13 +4704,14 @@ static FunctionResult BurstCode(char* buffer) //   take value and break into fac
 		char digits[MAX_WORD_SIZE];
 		char* atdigit = digits;
 		char letters[MAX_WORD_SIZE];
-		if (IsDigit(*arg1))
+		if (IsDigit(*arg1) || (*arg1 == '+' || *arg1 == '-') && IsDigit(arg1[1])) // number first
 		{
+			if (*arg1 == '+' || *arg1 == '-') *atdigit++ = *arg1++;
 			while (IsDigit(*arg1) || *arg1 == '.') *atdigit++ = *arg1++;
 			*atdigit = 0;
 			strcpy(letters, arg1);
 		}
-		else
+		else // number last
 		{
 			size_t len = strlen(arg1);
 			while (IsDigit(arg1[--len]) || arg1[len] == '.');
@@ -5158,6 +5168,15 @@ static FunctionResult POSCode(char* buffer)
 	if (!stricmp(arg1, (char*) "isinteger"))
 	{
 		if (IsInteger(arg2, false))
+		{
+			strcpy(buffer, "1");
+			return NOPROBLEM_BIT;
+		}
+		else return FAILRULE_BIT;
+	}
+	if (!stricmp(arg1, (char*) "isuppercase"))
+	{
+		if (IsUpperCase(*arg2))
 		{
 			strcpy(buffer, "1");
 			return NOPROBLEM_BIT;
@@ -6314,6 +6333,11 @@ static void ArgFlags(uint64& properties, uint64& flags,unsigned int & internalbi
 		!stricmp(ARGUMENT(5),(char*)"TOPIC") || !stricmp(ARGUMENT(6),(char*)"TOPIC"))
 	{
 		internalbits |= TOPIC;
+	}
+	if (!stricmp(arg2, (char*)"HAS_SUBSTITUTE") || !stricmp(arg3, (char*)"HAS_SUBSTITUTE") || !stricmp(ARGUMENT(4), (char*)"HAS_SUBSTITUTE") ||
+		!stricmp(ARGUMENT(5), (char*)"HAS_SUBSTITUTE") || !stricmp(ARGUMENT(6), (char*)"HAS_SUBSTITUTE"))
+	{
+		internalbits |= HAS_SUBSTITUTE;
 	}
 }
 
@@ -8640,7 +8664,7 @@ SystemFunctionInfo systemFunctionSet[] =
 	{ "^jsonformat", JSONFormatCode, 1, 0, "given a json text string, makes all field names use doublequotes and proper escaping" },
 	{ "^jsonpath", JSONPathCode, VARIABLE_ARG_COUNT, 0, "retrieves the json value corresponding to a path and a given fact presumed to be array or object" },
 	{ "^jsontree", JSONTreeCode, VARIABLE_ARG_COUNT, 0, "prints the hierarchy represented by the json node to depth if requested" },
-	{ "^jsonwrite", JSONWriteCode, 1, 0, "prints out json string corresponding to the facts of the root name given" },
+	{ "^jsonwrite", JSONWriteCode, VARIABLE_ARG_COUNT, 0, "prints out json string corresponding to the facts of the root name given" },
 	{ "^jsonlabel", JSONLabelCode, 1, 0, "use label when creating json arrays and objects" },
 	{ "^jsonundecodestring", JSONUndecodeStringCode, 1, 0, "remove escapes from json data" },
 #ifndef DISCARDJSONOPEN

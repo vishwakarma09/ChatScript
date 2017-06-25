@@ -1,968 +1,789 @@
-﻿ 3 ( ) lemma=C3- 
- 3,1 ( ) 
- 3,1-Millionen-Mark-Projekt ( ) 
- 3,2-Millionen-Mark-Loch ( ) 
- 3,3 ( ) 
- 3,3%-Angebot ( ) 
- 3,4 ( ) 
- 3,4-Millionen-Stadt ( ) 
- 3,5 ( ) 
- 3,5%-Angebot ( ) 
- 3,5-Millionen-Metropole ( ) 
- 3,5-Millionen-Stadt ( ) 
- 3,5-Prozent-Angebot ( ) 
- 3,5-Prozent-Grenze ( ) 
- 3,5-Prozent-Kostenbegrenzung ( ) 
- 3,5-Prozent-Schranke ( ) 
- 3,5fachen ( ) 
- 3,6 ( ) 
+﻿ 3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3,1 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3,1-Millionen-Mark-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3,2-Millionen-Mark-Loch ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3,3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3,3%-Angebot ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3,4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3,4-Millionen-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3,5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3,5%-Angebot ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3,5-Millionen-Metropole ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3,5-Millionen-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3,5-Prozent-Angebot ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3,5-Prozent-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3,5-Prozent-Kostenbegrenzung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3,5-Prozent-Schranke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3,5fachen ( ADJECTIVE ) lemma=3,5fach 
+ 3,6 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  3,6-Prozent- ( ) 
- 3,62 ( ) 
- 3,7 ( ) 
- 3,7-Prozent-Erhöhungen ( ) 
- 3,8 ( ) 
- 3,8prozentige ( ) 
- 3,9 ( ) 
- 3- ( ) lemma=43-A 
- 3-2-1-Deckung ( ) 
- 3-Anlieger ( ) 
- 3-D ( ) 
- 3-D-Animationen ( ) 
- 3-D-Bilderbücher ( ) 
- 3-D-Brille ( ) 
- 3-D-Buch ( ) 
- 3-D-Designer ( ) 
- 3-D-Effekt ( ) 
- 3-D-Film ( ) 
- 3-D-Filme ( ) 
- 3-D-Helmdisplay ( ) 
- 3-D-Kino ( ) 
- 3-D-Manie ( ) 
- 3-D-Museum ( ) 
- 3-D-Programm ( ) 
- 3-D-Raumbildprojektion ( ) 
- 3-D-Wolkenbuch ( ) 
- 3-Elektroden-Sensor ( ) 
- 3-Elektroden-Sensoren ( ) 
- 3-Elektroden-Sensors ( ) 
- 3-Elektrodensensors ( ) 
- 3-Fabrik ( ) 
- 3-Fernsehen ( ) 
- 3-Firma ( ) 
- 3-Format ( ) 
- 3-Gehalt ( ) 
- 3-Gestirn ( ) 
- 3-Gewehre ( ) 
- 3-Gewehren ( ) 
- 3-Haltestelle ( ) 
- 3-Kanal-Lichtorgel ( ) 
- 3-Kilometer-Schutzzone ( ) 
- 3-Klassik ( ) 
- 3-Kulturtermin ( ) 
- 3-Linie ( ) 
- 3-Lizenzen ( ) 
- 3-Magazin ( ) 
- 3-Maschinen ( ) 
- 3-Meter-Brett ( ) 
+ 3,62 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3,7 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3,7-Prozent-Erhöhungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=3,7-Prozent-Erhöhung 
+ 3,8 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3,8prozentige ( ADJECTIVE ) lemma=3,8prozentig 
+ 3,9 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3- ( ) 
+ 3-2-1-Deckung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Anlieger ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-D ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-D-Animationen ( NOUN NOUN_PROPER_SINGULAR ) lemma=3-D-Animation 
+ 3-D-Bilderbücher ( NOUN NOUN_PROPER_SINGULAR ) lemma=3-D-Bilderbuch 
+ 3-D-Brille ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-D-Buch ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-D-Designer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-D-Effekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-D-Film ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-D-Filme ( NOUN NOUN_PROPER_SINGULAR ) lemma=3-D-Film 
+ 3-D-Helmdisplay ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-D-Kino ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-D-Manie ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-D-Museum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-D-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-D-Raumbildprojektion ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-D-Wolkenbuch ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Elektroden-Sensor ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Elektroden-Sensoren ( NOUN NOUN_PROPER_SINGULAR ) lemma=3-Elektroden-Sensor 
+ 3-Elektroden-Sensors ( NOUN NOUN_PROPER_SINGULAR ) lemma=3-Elektroden-Sensor 
+ 3-Elektrodensensors ( NOUN NOUN_PROPER_SINGULAR ) lemma=3-Elektrodensensor 
+ 3-Fabrik ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Fernsehen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Firma ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Format ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Gehalt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Gestirn ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Gewehre ( NOUN NOUN_PROPER_SINGULAR ) lemma=3-Gewehr 
+ 3-Gewehren ( NOUN NOUN_PROPER_SINGULAR ) lemma=3-Gewehr 
+ 3-Haltestelle ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Kanal-Lichtorgel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Kilometer-Schutzzone ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Klassik ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Kulturtermin ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Linie ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Lizenzen ( NOUN NOUN_PROPER_SINGULAR ) lemma=3-Lizenz 
+ 3-Magazin ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Maschinen ( NOUN NOUN_PROPER_SINGULAR ) lemma=3-Maschine 
+ 3-Meter-Brett ( NOUN NOUN_PROPER_SINGULAR ) 
  3-Millionen- ( ) 
- 3-Millionen-Marke ( ) 
- 3-Moderator ( ) 
- 3-Nord ( ) 
- 3-Phasen-Grenze ( ) 
- 3-Phasenzone ( ) 
- 3-Produktion ( ) 
- 3-Professor ( ) 
- 3-Professur ( ) 
- 3-Professuren ( ) 
- 3-Programm ( ) 
- 3-Prozent-Klausel ( ) 
- 3-Punkte-Würfen ( ) 
- 3-Raum-Wohnungen ( ) 
- 3-Reihe ( ) 
- 3-Rohling ( ) 
- 3-SAT ( ) 
- 3-Sat ( ) 
- 3-Sat-Programm ( ) 
- 3-Schiene ( ) 
- 3-Sendung ( ) 
- 3-Stelle ( ) lemma=13-Stelle 
- 3-Sterne-Hotels ( ) 
- 3-Stufen-Plan ( ) 
- 3-Stunden-Mittel ( ) 
- 3-Sturmgewehre ( ) 
- 3-Tage ( ) 
- 3-Tage-Bart ( ) 
- 3-Talkshow ( ) 
- 3-Wege-Katalysator ( ) 
- 3-Zimmer-Eigentumswohnungen ( ) 
- 3-Zimmer-Wohnung ( ) 
- 3-Zimmer-Wohnungen ( ) 
- 3-Zonen-Konzept ( ) 
- 3-farbig ( ) 
- 3-h ( ) 
- 3-m-Brett ( ) 
- 3. ( ) lemma=43.- 
+ 3-Millionen-Marke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Moderator ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Nord ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Phasen-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Phasenzone ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Produktion ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Professor ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Professur ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Professuren ( NOUN NOUN_PROPER_SINGULAR ) lemma=3-Professur 
+ 3-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Prozent-Klausel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Punkte-Würfen ( NOUN NOUN_PROPER_SINGULAR ) lemma=3-Punkte-Wurf 
+ 3-Raum-Wohnungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=3-Raum-Wohnung 
+ 3-Reihe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Rohling ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-SAT ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ 3-Sat ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ 3-Sat-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Schiene ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Sendung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Stelle ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Sterne-Hotels ( NOUN NOUN_PROPER_SINGULAR ) lemma=3-Sterne-Hotel 
+ 3-Stufen-Plan ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Stunden-Mittel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Sturmgewehre ( NOUN NOUN_PROPER_SINGULAR ) lemma=3-Sturmgewehr 
+ 3-Tage ( NOUN NOUN_PROPER_SINGULAR ) lemma=3-Tag 
+ 3-Tage-Bart ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Talkshow ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Wege-Katalysator ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Zimmer-Eigentumswohnungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=3-Zimmer-Eigentumswohnung 
+ 3-Zimmer-Wohnung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-Zimmer-Wohnungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=3-Zimmer-Wohnung 
+ 3-Zonen-Konzept ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-farbig ( ADJECTIVE ) 
+ 3-h ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3-m-Brett ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3. ( ADJECTIVE ) 
  3.000,-- ( ) 
  3.000- ( ) 
- 3.000-Seelen-Dorf ( ) 
- 3.000-Seelen-Gemeinde ( ) 
- 3.000er ( ) 
- 3.000jährigen ( ) 
- 3.000köpfige ( ) 
- 3.000köpfigen ( ) 
- 3.500-Seelen-Gemeinde ( ) 
- 3/1 ( ) lemma=13/17 
- 3/10 ( ) lemma=13/100 
- 3/100 ( ) 
- 3/140 ( ) 
- 3/145 ( ) 
- 3/178 ( ) 
- 3/180 ( ) 
- 3/185 ( ) 
- 3/190 ( ) 
- 3/191 ( ) 
- 3/192 ( ) 
- 3/195 ( ) 
- 3/1988 ( ) 
- 3/1989 ( ) 
- 3/1990 ( ) 
- 3/1991 ( ) 
- 3/1992 ( ) 
- 3/2 ( ) lemma=23/25 
- 3/205 ( ) 
- 3/210 ( ) 
- 3/215 ( ) 
- 3/220 ( ) 
- 3/225 ( ) 
- 3/230 ( ) 
- 3/3 ( ) lemma=33/34 
- 3/310 ( ) 
- 3/330 ( ) 
- 3/362 ( ) 
- 3/370 ( ) 
- 3/375 ( ) 
- 3/4 ( ) lemma=43/44 
- 3/4-Mehrheit ( ) 
- 3/4-Takt ( ) 
- 3/44,18 ( ) 
- 3/5 ( ) lemma=53/56 
- 3/6 ( ) lemma=83/66 
- 3/77 ( ) 
- 3/8 ( ) lemma=83/89 
- 3/88 ( ) 
- 3/89 ( ) 
- 3/9 ( ) lemma=93/94 
- 3/90 ( ) 
- 3/91 ( ) 
- 3/92 ( ) 
- 3/93 ( ) 
- 30 ( ) lemma=2300 
- 30,77 ( ) 
+ 3.000-Seelen-Dorf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3.000-Seelen-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3.000er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3.000jährigen ( ADJECTIVE ) lemma=3.000jährig 
+ 3.000köpfige ( ADJECTIVE ) lemma=3.000köpfig 
+ 3.000köpfigen ( ADJECTIVE ) lemma=3.000köpfig 
+ 3.500-Seelen-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3/1 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/10 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/100 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/140 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/145 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/178 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/180 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/185 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/190 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/191 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/192 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/195 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/1988 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/1989 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/1990 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/1991 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/1992 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/205 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/210 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/215 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/220 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/225 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/230 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/310 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/330 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/362 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/370 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/375 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/4-Mehrheit ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3/4-Takt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3/44,18 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/6 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/77 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/8 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/88 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/9 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3/93 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 30 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 30,77 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  30- ( ) 
- 30-Arbeitsgruppe ( ) 
- 30-B ( ) 
- 30-C ( ) 
- 30-Dollar-Marke ( ) 
- 30-Dollar-Motels ( ) 
- 30-Forderung ( ) 
- 30-Fuss-Container ( ) 
- 30-Fuß-Container ( ) 
- 30-Grad-Grenze ( ) 
- 30-Grad-Marke ( ) 
- 30-Jahr-Bühnenjubiläum ( ) 
- 30-Jahr-Feier ( ) 
- 30-Jahr-Jubiläum ( ) 
- 30-Kilometer ( ) 
- 30-Kilometer-Langlauf ( ) 
- 30-Kilometer-Sperrzone ( ) 
- 30-Kilometer-Stromschwimmen ( ) 
- 30-Kilometer-Zone ( ) 
- 30-Kilometer-Zonen ( ) 
- 30-Konzept ( ) 
- 30-Liter-Abfalltonne ( ) 
- 30-Liter-Fass ( ) 
- 30-Liter-Faß ( ) 
- 30-Liter-Tonne ( ) 
- 30-Meter-Armbrustschiessen ( ) 
- 30-Meter-Armbrustschießen ( ) 
- 30-Meter-Drehleiter ( ) 
- 30-Meter-Schuss ( ) 
- 30-Meter-Schuß ( ) 
- 30-Meter-Sprint ( ) 
+ 30-Arbeitsgruppe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-B ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-C ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Dollar-Marke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Dollar-Motels ( NOUN NOUN_PROPER_SINGULAR ) lemma=30-Dollar-Motel 
+ 30-Forderung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Fuss-Container ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Fuß-Container ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Grad-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Grad-Marke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Jahr-Bühnenjubiläum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Jahr-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Jahr-Jubiläum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Kilometer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Kilometer-Langlauf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Kilometer-Sperrzone ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Kilometer-Stromschwimmen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Kilometer-Zone ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Kilometer-Zonen ( NOUN NOUN_PROPER_SINGULAR ) lemma=30-Kilometer-Zone 
+ 30-Konzept ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Liter-Abfalltonne ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Liter-Fass ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Liter-Faß ( NOUN NOUN_PROPER_SINGULAR ) lemma=30-Liter-Fass 
+ 30-Liter-Tonne ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Meter-Armbrustschiessen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Meter-Armbrustschießen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Meter-Drehleiter ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Meter-Schuss ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Meter-Schuß ( NOUN NOUN_PROPER_SINGULAR ) lemma=30-Meter-Schuss 
+ 30-Meter-Sprint ( NOUN NOUN_PROPER_SINGULAR ) 
  30-Millionen- ( ) 
- 30-Millionen-Betrug ( ) 
- 30-Millionen-Ding ( ) 
- 30-Millionen-Komplex ( ) 
- 30-Millionen-Mark-Loch ( ) 
- 30-Millionen-Mark-Neubau ( ) 
- 30-Millionen-Mark-Projekt ( ) 
- 30-Millionen-Projekt ( ) 
- 30-Millirem-Konzept ( ) 
- 30-Minuten-Rhythmus ( ) 
- 30-Minuten-Sendung ( ) 
- 30-Minuten-Takt ( ) 
- 30-Mio ( ) 
- 30-Planungen ( ) 
- 30-Pläne ( ) 
- 30-Prozent ( ) 
+ 30-Millionen-Betrug ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Millionen-Ding ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Millionen-Komplex ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Millionen-Mark-Loch ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Millionen-Mark-Neubau ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Millionen-Mark-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Millionen-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Millirem-Konzept ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Minuten-Rhythmus ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Minuten-Sendung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Minuten-Takt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Mio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ 30-Planungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=30-Planung 
+ 30-Pläne ( NOUN NOUN_PROPER_SINGULAR ) lemma=30-Plan 
+ 30-Prozent ( NOUN NOUN_PROPER_SINGULAR ) 
  30-Prozent- ( ) 
- 30-Prozent-Angebot ( ) 
- 30-Prozent-Anteil ( ) 
- 30-Prozent-Anteils ( ) 
- 30-Prozent-Beteiligung ( ) 
- 30-Prozent-Ghetto ( ) 
- 30-Prozent-Grenze ( ) 
- 30-Prozent-Hürde ( ) 
- 30-Prozent-Marke ( ) 
- 30-Prozent-Partei ( ) 
- 30-Prozent-Quote ( ) 
- 30-Prozent-Regelung ( ) 
- 30-Prozent-Ziel ( ) 
- 30-Punkte-Katalog ( ) 
- 30-Quadratmeter-Raum ( ) 
- 30-Regelung ( ) 
- 30-Schildern ( ) 
+ 30-Prozent-Angebot ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Prozent-Anteil ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Prozent-Anteils ( NOUN NOUN_PROPER_SINGULAR ) lemma=30-Prozent-Anteil 
+ 30-Prozent-Beteiligung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Prozent-Ghetto ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Prozent-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Prozent-Hürde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Prozent-Marke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Prozent-Partei ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Prozent-Quote ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Prozent-Regelung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Prozent-Ziel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Punkte-Katalog ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Quadratmeter-Raum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Regelung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Schildern ( NOUN NOUN_PROPER_SINGULAR ) lemma=30-Schild 
  30-Sekunden- ( ) 
- 30-Sekunden-Spot ( ) 
- 30-Sekunden-Spots ( ) 
- 30-Sekunden-Takt ( ) 
- 30-Stunden-Grenze ( ) 
- 30-Stunden-Kraft ( ) 
- 30-Stunden-Stelle ( ) 
- 30-Stunden-Woche ( ) 
- 30-Stundenkilometer ( ) 
- 30-Stundenkilometer-Limits ( ) 
- 30-Tage-Frist ( ) 
- 30-Tage-Krieg ( ) 
- 30-Tage-Ultimatum ( ) 
- 30-Tonnen-LKW ( ) 
- 30-Zone ( ) 
- 30-Zonen ( ) 
- 30-jährige ( ) 
- 30-jährigen ( ) 
- 30-km-Langlauf ( ) 
- 30-km-Lauf ( ) 
- 30-km-Olympiasiegerin ( ) 
- 30-km-Rennen ( ) 
- 30-km-Zone ( ) 
- 30-km/h-Schilder ( ) 
- 30-km/h-Zone ( ) 
- 30-km/h-Zonen ( ) 
- 30-köpfigen ( ) 
- 30-m-Schuss ( ) 
- 30-m-Schuß ( ) 
- 30-prozentige ( ) 
- 30-prozentigen ( ) 
- 30. ( ) 
- 30.000-Einwohner ( ) 
+ 30-Sekunden-Spot ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Sekunden-Spots ( NOUN NOUN_PROPER_SINGULAR ) lemma=30-Sekunden-Spot 
+ 30-Sekunden-Takt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Stunden-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Stunden-Kraft ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Stunden-Stelle ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Stunden-Woche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Stundenkilometer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Stundenkilometer-Limits ( NOUN NOUN_PROPER_SINGULAR ) lemma=30-Stundenkilometer-Limit 
+ 30-Tage-Frist ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Tage-Krieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Tage-Ultimatum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Tonnen-LKW ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ 30-Zone ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-Zonen ( NOUN NOUN_PROPER_SINGULAR ) lemma=30-Zone 
+ 30-jährige ( ADJECTIVE ) lemma=30-jährig 
+ 30-jährigen ( ADJECTIVE ) lemma=30-jährig 
+ 30-km-Langlauf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-km-Lauf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-km-Olympiasiegerin ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-km-Rennen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-km-Zone ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-km/h-Schilder ( NOUN NOUN_PROPER_SINGULAR ) lemma=30-km/h-Schild 
+ 30-km/h-Zone ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-km/h-Zonen ( NOUN NOUN_PROPER_SINGULAR ) lemma=30-km/h-Zone 
+ 30-köpfigen ( ADJECTIVE ) lemma=30-köpfig 
+ 30-m-Schuss ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30-m-Schuß ( NOUN NOUN_PROPER_SINGULAR ) lemma=30-m-Schuss 
+ 30-prozentige ( ADJECTIVE ) lemma=30-prozentig 
+ 30-prozentigen ( ADJECTIVE ) lemma=30-prozentig 
+ 30. ( ADJECTIVE ) 
+ 30.000-Einwohner ( NOUN NOUN_PROPER_SINGULAR ) 
  30.000-Einwohner- ( ) 
- 30.000-Einwohner-Stadt ( ) 
+ 30.000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
  30.000-Mark- ( ) 
- 30.000-Mark-Rate ( ) 
- 30.000-Mark-Spende ( ) 
+ 30.000-Mark-Rate ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30.000-Mark-Spende ( NOUN NOUN_PROPER_SINGULAR ) 
  30.000.- ( ) 
- 30.000er ( ) 
- 30/1 ( ) 
- 30/2 ( ) lemma=030/25 
- 30/31 ( ) 
- 30/32 ( ) 
- 30/35 ( ) 
- 30/40 ( ) 
- 30/40er ( ) 
- 30/90 ( ) 
- 30/92 ( ) 
- 300 ( ) lemma=63000 
+ 30.000er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30/1 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 30/2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 30/31 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 30/32 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 30/35 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 30/40 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 30/40er ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) 
+ 30/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 30/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 300 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  300- ( ) 
- 300-Betten-Baus ( ) 
- 300-Betten-Haus ( ) 
- 300-Betten-Hotel ( ) 
- 300-Betten-Hotelruine ( ) 
- 300-DM-Aktie ( ) 
- 300-Einwohner-Dorf ( ) 
- 300-Grenze ( ) 
- 300-Jahr-Feier ( ) 
- 300-Kilometer-Distanz ( ) 
- 300-Liter ( ) 
- 300-Liter-Tanks ( ) 
- 300-Liter-Tonne ( ) 
- 300-Mann-Behörde ( ) 
- 300-Megawatt-Atomreaktor ( ) 
- 300-Megawatt-Reaktor ( ) lemma=1300-Megawatt-Reaktor 
- 300-Megawatt-Reaktors ( ) 
- 300-Meter-Band ( ) 
- 300-Meter-Grenze ( ) 
+ 300-Betten-Baus ( NOUN NOUN_PROPER_SINGULAR ) lemma=300-Betten-Bau 
+ 300-Betten-Haus ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300-Betten-Hotel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300-Betten-Hotelruine ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300-DM-Aktie ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300-Einwohner-Dorf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300-Jahr-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300-Kilometer-Distanz ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300-Liter ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300-Liter-Tanks ( NOUN NOUN_PROPER_SINGULAR ) lemma=300-Liter-Tank 
+ 300-Liter-Tonne ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300-Mann-Behörde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300-Megawatt-Atomreaktor ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300-Megawatt-Reaktor ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300-Megawatt-Reaktors ( NOUN NOUN_PROPER_SINGULAR ) lemma=300-Megawatt-Reaktor 
+ 300-Meter-Band ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300-Meter-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
  300-Millionen- ( ) 
- 300-Millionen-Kredit ( ) 
- 300-Millionen-Mark ( ) 
+ 300-Millionen-Kredit ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300-Millionen-Mark ( NOUN NOUN_PROPER_SINGULAR ) 
  300-Millionen-Mark- ( ) 
- 300-Millionen-Mark-Projekt ( ) 
- 300-Millionen-Programm ( ) 
- 300-Pin-Spiel ( ) 
- 300-Seelen-Dorf ( ) 
- 300-Seelen-Gemeinde ( ) 
+ 300-Millionen-Mark-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300-Millionen-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300-Pin-Spiel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300-Seelen-Dorf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300-Seelen-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
  300-Seiten- ( ) 
- 300.000-Einwohner-Stadt ( ) 
- 300/1200/2400 ( ) 
- 300/90 ( ) 
- 3000 ( ) lemma=230000 
- 3000-Einwohner-Gemeinde ( ) 
- 3000-Einwohner-Ort ( ) 
- 3000-Europameisterschaft ( ) 
- 3000-Meter-Hindernis ( ) 
- 3000-Meter-Lauf ( ) 
- 3000-Meter-Rennen ( ) 
- 3000-Plätze-Kino ( ) 
- 3000-Punkte-Niveau ( ) 
- 3000-Punkte-Schwelle ( ) 
- 3000-Seelen-Dorf ( ) 
- 3000-Seelen-Gemeinde ( ) 
- 3000-Seelen-Ort ( ) 
- 3000-m-Einerverfolgung ( ) 
- 3000-m-Einzelverfolgung ( ) 
- 3000-m-Gehen ( ) 
- 3000-m-Hindernis ( ) 
- 3000-m-Lauf ( ) 
- 30000 ( ) 
- 30000-Einwohner-Kommune ( ) 
- 30000-Einwohner-Stadt ( ) 
- 300000 ( ) 
- 300000-Einwohner-Stadt ( ) 
- 3000er ( ) 
- 3001-Kino ( ) 
- 3005/89 ( ) 
- 300er ( ) 
- 300er-Fahrgestell ( ) 
- 300er-Limousine ( ) 
- 300er-Mittelklasse-Modellen ( ) 
- 300er-Schnitt ( ) 
- 300fach ( ) 
- 300fache ( ) 
- 300jährige ( ) 
- 300jährigen ( ) 
- 300jähriger ( ) 
- 300köpfige ( ) 
- 300köpfigen ( ) 
- 300köpfiger ( ) 
- 300prozentige ( ) 
- 301-Mitarbeiter ( ) 
- 301/91 ( ) 
- 304-PS-Allradmaschinen ( ) 
- 30500-Einwohner-Kommune ( ) 
- 306/91 ( ) 
- 307/90 ( ) 
- 30:0-Führung ( ) 
- 30:23-Sieg ( ) 
- 30er ( ) 
- 30er-Bus ( ) 
- 30er-Busse ( ) 
- 30er-Zone ( ) 
- 30ern ( ) 
- 30fache ( ) 
- 30fachen ( ) 
- 30facher ( ) 
- 30jährig ( ) lemma=130jährig 
- 30jährige ( ) lemma=130jährig 
- 30jährigem ( ) 
- 30jährigen ( ) 
- 30jähriger ( ) 
- 30jähriges ( ) 
- 30köpfige ( ) lemma=130köpfig 
- 30köpfigen ( ) 
- 30prozentige ( ) 
- 30prozentigem ( ) 
- 30prozentigen ( ) 
- 30prozentiger ( ) 
- 30stündigen ( ) 
- 30tägige ( ) 
- 30tägigen ( ) 
- 30tägiger ( ) 
- 31 ( ) 
- 31,2 ( ) 
- 31-jährige ( ) 
- 31. ( ) 
- 31/1 ( ) 
- 31/2 ( ) 
- 31/23 ( ) 
- 31/33 ( ) 
- 31/49 ( ) 
- 31/53 ( ) 
- 31/56 ( ) 
- 31/60 ( ) 
- 31/9 ( ) 
- 31019.6/92 ( ) 
- 311/88 ( ) 
- 313/85 ( ) 
- 314/90 ( ) 
- 315/92 ( ) 
- 3150 ( ) 
- 317/93 ( ) 
- 318-Teiler ( ) 
- 31er ( ) 
- 31fache ( ) 
- 31jährig ( ) 
- 31jährige ( ) 
- 31jährigen ( ) 
- 31jähriger ( ) 
- 31köpfige ( ) 
- 32 ( ) 
- 32,5 ( ) 
+ 300.000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300/1200/2400 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 300/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3000-Einwohner-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3000-Einwohner-Ort ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3000-Europameisterschaft ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3000-Meter-Hindernis ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3000-Meter-Lauf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3000-Meter-Rennen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3000-Plätze-Kino ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3000-Punkte-Niveau ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3000-Punkte-Schwelle ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3000-Seelen-Dorf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3000-Seelen-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3000-Seelen-Ort ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3000-m-Einerverfolgung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3000-m-Einzelverfolgung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3000-m-Gehen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3000-m-Hindernis ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3000-m-Lauf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 30000-Einwohner-Kommune ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 300000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3000er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3001-Kino ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3005/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 300er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300er-Fahrgestell ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300er-Limousine ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300er-Mittelklasse-Modellen ( NOUN NOUN_PROPER_SINGULAR ) lemma=300er-Mittelklasse-Modell 
+ 300er-Schnitt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 300fach ( ADJECTIVE ) 
+ 300fache ( ADJECTIVE ) lemma=300fach 
+ 300jährige ( ADJECTIVE ) lemma=300jährig 
+ 300jährigen ( ADJECTIVE ) lemma=300jährig 
+ 300jähriger ( ADJECTIVE ) lemma=300jährig 
+ 300köpfige ( ADJECTIVE ) lemma=300köpfig 
+ 300köpfigen ( ADJECTIVE ) lemma=300köpfig 
+ 300köpfiger ( ADJECTIVE ) lemma=300köpfig 
+ 300prozentige ( ADJECTIVE ) lemma=300prozentig 
+ 301-Mitarbeiter ( NOUN NOUN_PROPER_SINGULAR ) 
+ 301/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 304-PS-Allradmaschinen ( NOUN NOUN_PROPER_SINGULAR ) lemma=304-PS-Allradmaschine 
+ 30500-Einwohner-Kommune ( NOUN NOUN_PROPER_SINGULAR ) 
+ 306/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 307/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 30:0-Führung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30:23-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30er ( ADJECTIVE ) 
+ 30er-Bus ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30er-Busse ( NOUN NOUN_PROPER_SINGULAR ) lemma=30er-Bus 
+ 30er-Zone ( NOUN NOUN_PROPER_SINGULAR ) 
+ 30ern ( NOUN NOUN_PROPER_SINGULAR ) lemma=30er 
+ 30fache ( ADJECTIVE ) lemma=30fach 
+ 30fachen ( ADJECTIVE ) lemma=30fach 
+ 30facher ( ADJECTIVE ) lemma=30fach 
+ 30jährig ( ADJECTIVE ) 
+ 30jährige ( ADJECTIVE ) lemma=30jährig 
+ 30jährigem ( ADJECTIVE ) lemma=30jährig 
+ 30jährigen ( ADJECTIVE ) lemma=30jährig 
+ 30jähriger ( ADJECTIVE ) lemma=30jährig 
+ 30jähriges ( ADJECTIVE ) lemma=30jährig 
+ 30köpfige ( ADJECTIVE ) lemma=30köpfig 
+ 30köpfigen ( ADJECTIVE ) lemma=30köpfig 
+ 30prozentige ( ADJECTIVE ) lemma=30prozentig 
+ 30prozentigem ( ADJECTIVE ) lemma=30prozentig 
+ 30prozentigen ( ADJECTIVE ) lemma=30prozentig 
+ 30prozentiger ( ADJECTIVE ) lemma=30prozentig 
+ 30stündigen ( ADJECTIVE ) lemma=30stündig 
+ 30tägige ( ADJECTIVE ) lemma=30tägig 
+ 30tägigen ( ADJECTIVE ) lemma=30tägig 
+ 30tägiger ( ADJECTIVE ) lemma=30tägig 
+ 31 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 31,2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 31-jährige ( ADJECTIVE ) lemma=31-jährig 
+ 31. ( ADJECTIVE ) 
+ 31/1 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 31/2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 31/23 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 31/33 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 31/49 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 31/53 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 31/56 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 31/60 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 31/9 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 31019.6/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 311/88 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 313/85 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 314/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 315/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3150 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 317/93 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 318-Teiler ( NOUN NOUN_PROPER_SINGULAR ) 
+ 31er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 31fache ( ADJECTIVE ) lemma=31fach 
+ 31jährig ( ADJECTIVE ) 
+ 31jährige ( ADJECTIVE ) lemma=31jährig 
+ 31jährigen ( ADJECTIVE ) lemma=31jährig 
+ 31jähriger ( ADJECTIVE ) lemma=31jährig 
+ 31köpfige ( ADJECTIVE ) lemma=31köpfig 
+ 32 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 32,5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  32- ( ) 
- 32-Bit-Mikroprozessors ( ) 
- 32-Seiten-Heft ( ) 
+ 32-Bit-Mikroprozessors ( NOUN NOUN_PROPER_SINGULAR ) lemma=32-Bit-Mikroprozessor 
+ 32-Seiten-Heft ( NOUN NOUN_PROPER_SINGULAR ) 
  32-Stunden- ( ) 
- 32-Stunden-Woche ( ) 
- 32-jährigen ( ) 
- 32-jähriger ( ) 
- 32-köpfige ( ) 
- 32/1 ( ) 
- 32/33 ( ) 
- 32/34 ( ) 
- 32/38 ( ) 
- 32/81 ( ) 
- 32/88 ( ) 
- 320 ( ) 
- 32000-Mark-Scheck ( ) 
- 320000-Einwohner-Stadt ( ) 
- 320er-Hürde ( ) 
- 320malige ( ) 
- 321/91 ( ) 
- 323245/46 ( ) 
- 324-Milliarden-Etat ( ) 
- 325000 ( ) 
- 325jährigen ( ) 
- 329/91 ( ) 
- 32er ( ) 
- 32er-Feld ( ) 
- 32er-Hauptfeld ( ) 
- 32facher ( ) 
- 32jährig ( ) 
- 32jährige ( ) 
- 32jährigem ( ) 
- 32jährigen ( ) 
- 32jähriger ( ) 
- 32jähriges ( ) 
- 32köpfige ( ) 
- 32köpfigen ( ) 
- 32seitige ( ) 
- 33 ( ) 
- 33,8 ( ) 
+ 32-Stunden-Woche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 32-jährigen ( ADJECTIVE ) lemma=32-jährig 
+ 32-jähriger ( ADJECTIVE ) lemma=32-jährig 
+ 32-köpfige ( ADJECTIVE ) lemma=32-köpfig 
+ 32/1 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 32/33 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 32/34 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 32/38 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 32/81 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 32/88 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 320 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 32000-Mark-Scheck ( NOUN NOUN_PROPER_SINGULAR ) 
+ 320000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 320er-Hürde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 320malige ( ADJECTIVE ) lemma=320malig 
+ 321/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 323245/46 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 324-Milliarden-Etat ( NOUN NOUN_PROPER_SINGULAR ) 
+ 325000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 325jährigen ( ADJECTIVE ) lemma=325jährig 
+ 329/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 32er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 32er-Feld ( NOUN NOUN_PROPER_SINGULAR ) 
+ 32er-Hauptfeld ( NOUN NOUN_PROPER_SINGULAR ) 
+ 32facher ( ADJECTIVE ) lemma=32fach 
+ 32jährig ( ADJECTIVE ) 
+ 32jährige ( ADJECTIVE ) lemma=32jährig 
+ 32jährigem ( ADJECTIVE ) lemma=32jährig 
+ 32jährigen ( ADJECTIVE ) lemma=32jährig 
+ 32jähriger ( ADJECTIVE ) lemma=32jährig 
+ 32jähriges ( ADJECTIVE ) lemma=32jährig 
+ 32köpfige ( ADJECTIVE ) lemma=32köpfig 
+ 32köpfigen ( ADJECTIVE ) lemma=32köpfig 
+ 32seitige ( ADJECTIVE ) lemma=32seitig 
+ 33 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 33,8 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  33- ( ) 
  33-Prozent- ( ) 
- 33-Prozent-Turm ( ) 
- 33-jährigen ( ) 
- 33/34 ( ) 
- 33/40 ( ) 
- 33/88 ( ) 
- 33/92 ( ) 
- 330 ( ) 
- 330/340 ( ) 
- 330/88 ( ) 
- 3305,70 ( ) 
- 331/3 ( ) 
- 331/7 ( ) 
- 33247 ( ) 
- 33:11-Punkten ( ) 
- 33er ( ) 
- 33jährig ( ) 
- 33jährige ( ) lemma=133jährig 
- 33jährigen ( ) 
- 33jähriger ( ) 
- 33köpfige ( ) 
- 33köpfigen ( ) 
- 33prozentigen ( ) 
+ 33-Prozent-Turm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 33-jährigen ( ADJECTIVE ) lemma=33-jährig 
+ 33/34 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 33/40 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 33/88 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 33/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 330 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 330/340 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 330/88 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3305,70 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 331/3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 331/7 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 33247 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 33:11-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=33:11-Punkt 
+ 33er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 33jährig ( ADJECTIVE ) 
+ 33jährige ( ADJECTIVE ) lemma=33jährig 
+ 33jährigen ( ADJECTIVE ) lemma=33jährig 
+ 33jähriger ( ADJECTIVE ) lemma=33jährig 
+ 33köpfige ( ADJECTIVE ) lemma=33köpfig 
+ 33köpfigen ( ADJECTIVE ) lemma=33köpfig 
+ 33prozentigen ( ADJECTIVE ) lemma=33prozentig 
  34,0- ( ) 
- 34-jährige ( ) 
- 34-jähriger ( ) 
- 34/15,79 ( ) 
- 34/30 ( ) 
- 34/35 ( ) 
- 34/36 ( ) 
- 34/61 ( ) 
- 34/88 ( ) 
- 34/89 ( ) 
- 34/92 ( ) 
- 3400 ( ) 
- 341417-Privileg ( ) 
- 3455/87 ( ) 
- 34:10-Punkte ( ) 
- 34er ( ) 
- 34er-Haltestelle ( ) 
- 34fachen ( ) 
- 34jährig ( ) 
- 34jährige ( ) 
- 34jährigen ( ) 
- 34jähriger ( ) 
- 34prozentigen ( ) 
- 35 ( ) 
+ 34-jährige ( ADJECTIVE ) lemma=34-jährig 
+ 34-jähriger ( ADJECTIVE ) lemma=34-jährig 
+ 34/15,79 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 34/30 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 34/35 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 34/36 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 34/61 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 34/88 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 34/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 34/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3400 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 341417-Privileg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3455/87 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 34:10-Punkte ( NOUN NOUN_PROPER_SINGULAR ) lemma=34:10-Punkt 
+ 34er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 34er-Haltestelle ( NOUN NOUN_PROPER_SINGULAR ) 
+ 34fachen ( ADJECTIVE ) lemma=34fach 
+ 34jährig ( ADJECTIVE ) 
+ 34jährige ( ADJECTIVE ) lemma=34jährig 
+ 34jährigen ( ADJECTIVE ) lemma=34jährig 
+ 34jähriger ( ADJECTIVE ) lemma=34jährig 
+ 34prozentigen ( ADJECTIVE ) lemma=34prozentig 
+ 35 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  35- ( ) 
- 35-A ( ) 
- 35-Grad-Marke ( ) 
- 35-Liter ( ) 
- 35-Liter-Behälter ( ) 
- 35-Liter-Eimer ( ) 
- 35-Liter-Gefäss ( ) 
- 35-Liter-Gefäß ( ) 
- 35-Liter-Mülleimer ( ) 
- 35-Liter-Tonne ( ) 
- 35-Meter-Abstand ( ) 
- 35-Meter-Lauf ( ) 
+ 35-A ( NOUN NOUN_PROPER_SINGULAR ) 
+ 35-Grad-Marke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 35-Liter ( NOUN NOUN_PROPER_SINGULAR ) 
+ 35-Liter-Behälter ( NOUN NOUN_PROPER_SINGULAR ) 
+ 35-Liter-Eimer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 35-Liter-Gefäss ( NOUN NOUN_PROPER_SINGULAR ) lemma=35-Liter-Gefäß 
+ 35-Liter-Gefäß ( NOUN NOUN_PROPER_SINGULAR ) 
+ 35-Liter-Mülleimer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 35-Liter-Tonne ( NOUN NOUN_PROPER_SINGULAR ) 
+ 35-Meter-Abstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 35-Meter-Lauf ( NOUN NOUN_PROPER_SINGULAR ) 
  35-Millionen- ( ) 
- 35-Millionen-Mark-Projekt ( ) 
- 35-Millionen-Projekt ( ) 
- 35-Millionen-Projektes ( ) 
+ 35-Millionen-Mark-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 35-Millionen-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 35-Millionen-Projektes ( NOUN NOUN_PROPER_SINGULAR ) lemma=35-Millionen-Projekt 
  35-Prozent- ( ) 
- 35-Prozent-Anteil ( ) 
- 35-Prozent-Beteiligung ( ) 
- 35-Stunden ( ) 
+ 35-Prozent-Anteil ( NOUN NOUN_PROPER_SINGULAR ) 
+ 35-Prozent-Beteiligung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 35-Stunden ( NOUN NOUN_PROPER_SINGULAR ) 
  35-Stunden- ( ) 
- 35-Stunden-Beschäftigung ( ) 
- 35-Stunden-Woche ( ) 
- 35-Stundenwoche ( ) 
- 35-jährige ( ) 
- 35-jährigen ( ) 
- 35-jähriger ( ) 
+ 35-Stunden-Beschäftigung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 35-Stunden-Woche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 35-Stundenwoche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 35-jährige ( ADJECTIVE ) lemma=35-jährig 
+ 35-jährigen ( ADJECTIVE ) lemma=35-jährig 
+ 35-jähriger ( ADJECTIVE ) lemma=35-jährig 
  35-mm- ( ) 
- 35-mm-Film ( ) 
- 35-mm-Films ( ) 
- 35-mm-Format ( ) 
- 35-mm-Kamera ( ) 
- 35-mm-Kopie ( ) 
- 35-mm-Projektors ( ) 
- 35/100 ( ) 
- 35/2 ( ) 
- 35/36 ( ) 
- 35/37 ( ) 
- 35/87 ( ) 
- 35/90 ( ) 
- 350 ( ) 
+ 35-mm-Film ( NOUN NOUN_PROPER_SINGULAR ) 
+ 35-mm-Films ( NOUN NOUN_PROPER_SINGULAR ) lemma=35-mm-Film 
+ 35-mm-Format ( NOUN NOUN_PROPER_SINGULAR ) 
+ 35-mm-Kamera ( NOUN NOUN_PROPER_SINGULAR ) 
+ 35-mm-Kopie ( NOUN NOUN_PROPER_SINGULAR ) 
+ 35-mm-Projektors ( NOUN NOUN_PROPER_SINGULAR ) lemma=35-mm-Projektor 
+ 35/100 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 35/2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 35/36 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 35/37 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 35/87 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 35/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 350 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  350- ( ) 
- 350-Kilo-Granate ( ) 
- 350-Seelen-Dorf ( ) 
- 350.000-Einwohner-Stadt ( ) 
- 3500 ( ) 
- 35000 ( ) 
- 350000 ( ) 
- 350jährige ( ) 
- 350jährigen ( ) 
- 350jähriges ( ) 
- 354/70 ( ) 
- 356/92 ( ) 
- 356er ( ) 
- 359/89 ( ) 
- 35fache ( ) 
- 35fachen ( ) 
- 35jährig ( ) 
- 35jährige ( ) lemma=135jährig 
- 35jährigem ( ) 
- 35jährigen ( ) 
- 35jähriger ( ) 
- 35jähriges ( ) 
- 35köpfige ( ) 
- 35köpfigen ( ) 
- 35mal ( ) 
- 35maligen ( ) 
- 35prozentige ( ) 
- 35prozentigen ( ) 
- 36 ( ) 
- 36,5-Stunden-Woche ( ) 
- 36-Bande ( ) 
- 36-Boys ( ) 
- 36-Millionen-Mark-Haushalt ( ) 
- 36-Millionen-Mark-Projekt ( ) 
+ 350-Kilo-Granate ( NOUN NOUN_PROPER_SINGULAR ) lemma=350-Kilo-granate 
+ 350-Seelen-Dorf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 350.000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3500 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 35000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 350000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 350jährige ( ADJECTIVE ) lemma=350jährig 
+ 350jährigen ( ADJECTIVE ) lemma=350jährig 
+ 350jähriges ( ADJECTIVE ) lemma=350jährig 
+ 354/70 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 356/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 356er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 359/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 35fache ( ADJECTIVE ) lemma=35fach 
+ 35fachen ( ADJECTIVE ) lemma=35fach 
+ 35jährig ( ADJECTIVE ) 
+ 35jährige ( ADJECTIVE ) lemma=35jährig 
+ 35jährigem ( ADJECTIVE ) lemma=35jährig 
+ 35jährigen ( ADJECTIVE ) lemma=35jährig 
+ 35jähriger ( ADJECTIVE ) lemma=35jährig 
+ 35jähriges ( ADJECTIVE ) lemma=35jährig 
+ 35köpfige ( ADJECTIVE ) lemma=35köpfig 
+ 35köpfigen ( ADJECTIVE ) lemma=35köpfig 
+ 35mal ( ADVERB ) 
+ 35maligen ( ADJECTIVE ) lemma=35malig 
+ 35prozentige ( ADJECTIVE ) lemma=35prozentig 
+ 35prozentigen ( ADJECTIVE ) lemma=35prozentig 
+ 36 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 36,5-Stunden-Woche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 36-Bande ( NOUN NOUN_PROPER_SINGULAR ) 
+ 36-Boys ( NOUN NOUN_PROPER_SINGULAR ) lemma=36-Boy 
+ 36-Millionen-Mark-Haushalt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 36-Millionen-Mark-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
  36-Stunden- ( ) 
- 36-Stunden-Fahrt ( ) 
- 36-Stunden-Woche ( ) 
- 36-Stundenwoche ( ) 
- 36. ( ) 
- 36/37 ( ) 
- 36/38 ( ) 
- 36/39 ( ) 
- 36/89 ( ) 
- 36/92 ( ) 
- 36/960 ( ) 
- 360-Grad ( ) 
- 360-Millionen-Auftrag ( ) 
- 3602er ( ) 
- 362/92 ( ) 
- 363 ( ) 
- 367mal ( ) 
- 368/91 ( ) 
- 36er ( ) 
- 36er-Spiele ( ) 
- 36fachen ( ) 
- 36jährig ( ) 
- 36jährige ( ) 
- 36jährigen ( ) 
- 36jähriger ( ) 
- 36köpfige ( ) lemma=136köpfig 
- 36köpfigen ( ) 
- 36stündige ( ) 
- 36stündigem ( ) 
- 36stündigen ( ) 
- 36stündiger ( ) 
- 37 ( ) lemma=2370 
- 37,5 ( ) 
- 37,5-Stunden-Woche ( ) 
- 37-A ( ) 
- 37-Millionen-Sonderprogramm ( ) 
- 37-Millionen-Topf ( ) 
- 37-Stunden ( ) 
- 37-Stunden-Woche ( ) 
- 37-Teiler ( ) 
- 37. ( ) 
- 37/39 ( ) 
- 37/89 ( ) 
- 37/90 ( ) 
- 370 ( ) 
- 370-Millionen-Kredit ( ) 
- 370000-Mann-Armee ( ) 
- 375000-DM-Bussgeldbescheid ( ) 
- 375000-DM-Bußgeldbescheid ( ) 
- 376 ( ) 
- 377/88 ( ) 
- 37:0-Sieg ( ) 
- 37er ( ) 
- 37jährige ( ) 
- 37jährigen ( ) 
- 37jähriger ( ) 
- 37jähriges ( ) 
- 37köpfige ( ) lemma=137köpfig 
- 37köpfigen ( ) 
- 38,5-Stunden ( ) 
- 38,5-Stunden-Woche ( ) 
- 38-A ( ) 
- 38-Stunden-Woche ( ) 
- 38-jähriger ( ) 
- 38/39 ( ) 
- 38/40 ( ) 
- 38/42 ( ) 
- 38/87 ( ) 
- 38/89 ( ) 
- 38/90 ( ) 
- 38/92 ( ) 
- 38/93 ( ) 
- 380 ( ) 
- 380-Einwohner-Gemeinde ( ) 
- 380-KV-Leitung ( ) 
- 380-Kilovolt ( ) 
- 380-Kilovolt-Leitung ( ) 
- 380-Kilovolt-Trasse ( ) 
- 380-Ringe-Grenze ( ) 
- 380-Seelen-Gemeinde ( ) 
- 380-kV-Stromtrasse ( ) 
- 3800 ( ) 
- 38000-Einwohner-Kommune ( ) 
- 381/380 ( ) 
- 381959/50 ( ) 
- 385/387 ( ) 
- 386er ( ) 
- 389/386 ( ) 
- 38:2-Punkte ( ) 
- 38er ( ) 
- 38fache ( ) 
- 38jährig ( ) 
- 38jährige ( ) 
- 38jährigen ( ) 
- 38jähriger ( ) 
- 38köpfigen ( ) 
- 38prozentige ( ) 
- 39 ( ) 
- 39-A ( ) 
- 39-Stunden-Woche ( ) 
- 39-jährige ( ) 
- 39/4 ( ) lemma=239/40 
- 39/40 ( ) 
- 39/89 ( ) 
- 390-Ringe-Grenze ( ) 
- 390/89 ( ) 
- 390000 ( ) 
- 3938/92 ( ) 
- 395/91 ( ) 
- 39er ( ) 
- 39jährige ( ) 
- 39jährigen ( ) 
- 39jähriger ( ) 
- 39köpfige ( ) 
- 39köpfigen ( ) 
- 39prozentige ( ) 
- 3:0 ( ) 
- 3:0-Auftaktsieg ( ) 
- 3:0-Auswärtssieg ( ) 
- 3:0-Endstand ( ) 
- 3:0-Erfolg ( ) 
- 3:0-Führung ( ) 
- 3:0-Heimsieg ( ) 
- 3:0-PS ( ) 
- 3:0-Pausenführung ( ) 
- 3:0-Punktsieger ( ) 
- 3:0-Sieg ( ) 
- 3:0-Siege ( ) 
- 3:0-Siegen ( ) 
- 3:0-Sieges ( ) 
- 3:0-Sätzen ( ) 
- 3:0-Vorsprung ( ) 
+ 36-Stunden-Fahrt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 36-Stunden-Woche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 36-Stundenwoche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 36. ( ADJECTIVE ) 
+ 36/37 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 36/38 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 36/39 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 36/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 36/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 36/960 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 360-Grad ( NOUN NOUN_PROPER_SINGULAR ) 
+ 360-Millionen-Auftrag ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3602er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 362/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 363 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 367mal ( ADVERB ) 
+ 368/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 36er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 36er-Spiele ( NOUN NOUN_PROPER_SINGULAR ) lemma=36er-Spiel 
+ 36fachen ( ADJECTIVE ) lemma=36fach 
+ 36jährig ( ADJECTIVE ) 
+ 36jährige ( ADJECTIVE ) lemma=36jährig 
+ 36jährigen ( ADJECTIVE ) lemma=36jährig 
+ 36jähriger ( ADJECTIVE ) lemma=36jährig 
+ 36köpfige ( ADJECTIVE ) lemma=36köpfig 
+ 36köpfigen ( ADJECTIVE ) lemma=36köpfig 
+ 36stündige ( ADJECTIVE ) lemma=36stündig 
+ 36stündigem ( ADJECTIVE ) lemma=36stündig 
+ 36stündigen ( ADJECTIVE ) lemma=36stündig 
+ 36stündiger ( ADJECTIVE ) lemma=36stündig 
+ 37 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 37,5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 37,5-Stunden-Woche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 37-A ( NOUN NOUN_PROPER_SINGULAR ) 
+ 37-Millionen-Sonderprogramm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 37-Millionen-Topf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 37-Stunden ( NOUN NOUN_PROPER_SINGULAR ) 
+ 37-Stunden-Woche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 37-Teiler ( NOUN NOUN_PROPER_SINGULAR ) 
+ 37. ( ADJECTIVE ) 
+ 37/39 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 37/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 37/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 370 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 370-Millionen-Kredit ( NOUN NOUN_PROPER_SINGULAR ) 
+ 370000-Mann-Armee ( NOUN NOUN_PROPER_SINGULAR ) 
+ 375000-DM-Bussgeldbescheid ( NOUN NOUN_PROPER_SINGULAR ) lemma=375000-DM-Bußgeldbescheid 
+ 375000-DM-Bußgeldbescheid ( NOUN NOUN_PROPER_SINGULAR ) 
+ 376 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 377/88 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 37:0-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 37er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 37jährige ( ADJECTIVE ) lemma=37jährig 
+ 37jährigen ( ADJECTIVE ) lemma=37jährig 
+ 37jähriger ( ADJECTIVE ) lemma=37jährig 
+ 37jähriges ( ADJECTIVE ) lemma=37jährig 
+ 37köpfige ( ADJECTIVE ) lemma=37köpfig 
+ 37köpfigen ( ADJECTIVE ) lemma=37köpfig 
+ 38,5-Stunden ( NOUN NOUN_PROPER_SINGULAR ) 
+ 38,5-Stunden-Woche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 38-A ( NOUN NOUN_PROPER_SINGULAR ) 
+ 38-Stunden-Woche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 38-jähriger ( ADJECTIVE ) lemma=38-jährig 
+ 38/39 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 38/40 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 38/42 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 38/87 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 38/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 38/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 38/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 38/93 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 380 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 380-Einwohner-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 380-KV-Leitung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 380-Kilovolt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 380-Kilovolt-Leitung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 380-Kilovolt-Trasse ( NOUN NOUN_PROPER_SINGULAR ) lemma=380-Kilovolt-trasse 
+ 380-Ringe-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 380-Seelen-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 380-kV-Stromtrasse ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3800 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 38000-Einwohner-Kommune ( NOUN NOUN_PROPER_SINGULAR ) 
+ 381/380 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 381959/50 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 385/387 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 386er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 389/386 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 38:2-Punkte ( NOUN NOUN_PROPER_SINGULAR ) lemma=38:2-Punkt 
+ 38er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 38fache ( ADJECTIVE ) lemma=38fach 
+ 38jährig ( ADJECTIVE ) 
+ 38jährige ( ADJECTIVE ) lemma=38jährig 
+ 38jährigen ( ADJECTIVE ) lemma=38jährig 
+ 38jähriger ( ADJECTIVE ) lemma=38jährig 
+ 38köpfigen ( ADJECTIVE ) lemma=38köpfig 
+ 38prozentige ( ADJECTIVE ) lemma=38prozentig 
+ 39 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 39-A ( NOUN NOUN_PROPER_SINGULAR ) 
+ 39-Stunden-Woche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 39-jährige ( ADJECTIVE ) lemma=39-jährig 
+ 39/4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 39/40 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 39/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 390-Ringe-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 390/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 390000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3938/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 395/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 39er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 39jährige ( ADJECTIVE ) lemma=39jährig 
+ 39jährigen ( ADJECTIVE ) lemma=39jährig 
+ 39jähriger ( ADJECTIVE ) lemma=39jährig 
+ 39köpfige ( ADJECTIVE ) lemma=39köpfig 
+ 39köpfigen ( ADJECTIVE ) lemma=39köpfig 
+ 39prozentige ( ADJECTIVE ) lemma=39prozentig 
+ 3:0 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3:0-Auftaktsieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:0-Auswärtssieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:0-Endstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:0-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:0-Führung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:0-Heimsieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:0-PS ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ 3:0-Pausenführung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:0-Punktsieger ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:0-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:0-Siege ( NOUN NOUN_PROPER_SINGULAR ) lemma=3:0-Sieg 
+ 3:0-Siegen ( NOUN NOUN_PROPER_SINGULAR ) lemma=3:0-sieg 
+ 3:0-Sieges ( NOUN NOUN_PROPER_SINGULAR ) lemma=3:0-Sieg 
+ 3:0-Sätzen ( NOUN NOUN_PROPER_SINGULAR ) lemma=3:0-Satz 
+ 3:0-Vorsprung ( NOUN NOUN_PROPER_SINGULAR ) 
  3:1- ( ) 
- 3:1-Endstand ( ) 
- 3:1-Entscheidung ( ) 
- 3:1-Erfolg ( ) 
- 3:1-Finalsieg ( ) 
- 3:1-Führung ( ) 
- 3:1-Niederlage ( ) 
- 3:1-Pausenstand ( ) 
- 3:1-Punkte ( ) lemma=13:1-Punkt 
- 3:1-Punkten ( ) 
- 3:1-Sieg ( ) 
- 3:1-Siegen ( ) 
- 3:1-Sieger ( ) 
- 3:1-Sätzen ( ) 
- 3:1-Vorsprung ( ) 
- 3:2 ( ) 
- 3:2-Anschlusstreffer ( ) 
- 3:2-Anschlußtreffer ( ) 
- 3:2-Endstand ( ) 
- 3:2-Erfolg ( ) 
- 3:2-Finalsieg ( ) 
- 3:2-Führung ( ) 
- 3:2-Führungstreffer ( ) 
- 3:2-Pausenführung ( ) 
- 3:2-Sieg ( ) 
- 3:2-Siegen ( ) 
- 3:2-Sieger ( ) 
- 3:2-Sieges ( ) 
- 3:2-Siegtreffer ( ) 
- 3:2-Sätzen ( ) 
- 3:3-Ausgleich ( ) 
- 3:3-Endstand ( ) 
- 3:3-Erfolg ( ) 
- 3:3-Punkten ( ) 
- 3:3-Unentschieden ( ) 
- 3:4-Anschlusstreffer ( ) 
- 3:4-Anschlußtreffer ( ) 
- 3:4-Heimniederlage ( ) 
- 3:4-Niederlage ( ) 
- 3:4-Pausenrückstand ( ) 
- 3:5-Endstand ( ) 
- 3:5-Heimniederlage ( ) 
- 3:5-Niederlage ( ) 
- 3:5-Rückstand ( ) 
- 3:5-Vorrunden-Niederlage ( ) 
- 3:6-Endstand ( ) 
- 3:6-Niederlage ( ) 
- 3:6-Rückstand ( ) 
- 3:7-Zählern ( ) 
- 3:8-Niederlage ( ) 
- 3:8-Rückstand ( ) 
- 3:9-Niederlage ( ) 
- 3Com ( ) 
- 3D-Laserbeam-Show ( ) 
- 3DDR-Mark ( ) 
- 3SAT-Reihe ( ) 
- 3Sat ( ) 
- 3Sat-Programm ( ) 
- 3Sat-Vertrag ( ) 
- 3a-Regelung ( ) 
- 3a-Verfahren ( ) 
- 3er ( ) 
+ 3:1-Endstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:1-Entscheidung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:1-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:1-Finalsieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:1-Führung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:1-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:1-Pausenstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:1-Punkte ( NOUN NOUN_PROPER_SINGULAR ) lemma=3:1-Punkt 
+ 3:1-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=3:1-Punkt 
+ 3:1-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:1-Siegen ( NOUN NOUN_PROPER_SINGULAR ) lemma=3:1-sieg 
+ 3:1-Sieger ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:1-Sätzen ( NOUN NOUN_PROPER_SINGULAR ) lemma=3:1-Satz 
+ 3:1-Vorsprung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 3:2-Anschlusstreffer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:2-Anschlußtreffer ( NOUN NOUN_PROPER_SINGULAR ) lemma=3:2-Anschlusstreffer 
+ 3:2-Endstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:2-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:2-Finalsieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:2-Führung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:2-Führungstreffer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:2-Pausenführung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:2-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:2-Siegen ( NOUN NOUN_PROPER_SINGULAR ) lemma=3:2-sieg 
+ 3:2-Sieger ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:2-Sieges ( NOUN NOUN_PROPER_SINGULAR ) lemma=3:2-Sieg 
+ 3:2-Siegtreffer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:2-Sätzen ( NOUN NOUN_PROPER_SINGULAR ) lemma=3:2-Satz 
+ 3:3-Ausgleich ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:3-Endstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:3-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:3-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=3:3-Punkt 
+ 3:3-Unentschieden ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:4-Anschlusstreffer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:4-Anschlußtreffer ( NOUN NOUN_PROPER_SINGULAR ) lemma=3:4-Anschlusstreffer 
+ 3:4-Heimniederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:4-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:4-Pausenrückstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:5-Endstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:5-Heimniederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:5-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:5-Rückstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:5-Vorrunden-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:6-Endstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:6-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:6-Rückstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:7-Zählern ( NOUN NOUN_PROPER_SINGULAR ) lemma=3:7-Zähler 
+ 3:8-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:8-Rückstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3:9-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3Com ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ 3D-Laserbeam-Show ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3DDR-Mark ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3SAT-Reihe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3Sat ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ 3Sat-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3Sat-Vertrag ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3a-Regelung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3a-Verfahren ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3er ( NOUN NOUN_PROPER_SINGULAR ) 
  3er- ( ) 
- 3er-Modell ( ) 
- 3er-Reihe ( ) 
- 3er-Serie ( ) 
- 3fache ( ) lemma=93fach 
- 3i-Geschäftsführer ( ) 
- 3jährige ( ) lemma=93jährig 
- 3jährigen ( ) 
- 3jähriger ( ) 
- 3jähriges ( ) 
- 3mal ( ) 
- 3monatige ( ) lemma=13monatig 
- 3prozentige ( ) lemma=93prozentig 
+ 3er-Modell ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3er-Reihe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3er-Serie ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3fache ( ADJECTIVE ) lemma=3fach 
+ 3i-Geschäftsführer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3jährige ( ADJECTIVE ) lemma=3jährig 
+ 3jährigen ( ADJECTIVE ) lemma=3jährig 
+ 3jähriger ( ADJECTIVE ) lemma=3jährig 
+ 3jähriges ( ADJECTIVE ) lemma=3jährig 
+ 3mal ( ADVERB ) 
+ 3monatige ( ADJECTIVE ) lemma=3monatig 
+ 3prozentige ( ADJECTIVE ) lemma=3prozentig 
  3sat- ( ) 
- 3sat-Börse ( ) 
- 3sat-Koordinator ( ) 
- 3sat-Programm ( ) 
- 3sat-Studio ( ) 
- 3sat-Zuschauer ( ) 
- 3stündige ( ) lemma=23stündig 
- 3x10-km-Staffel ( ) 
- 3-Vorsitzend ( ) lemma=03-Vorsitzende 
- 3/ ( ) lemma=73/7 
- 30/ ( ) lemma=030/6 
- 30/21 ( ) lemma=030/213 
- 30/215102 ( ) lemma=030/2151022 
- 30/22 ( ) lemma=030/229 
- 30/25 ( ) lemma=030/251 
- 30/251809 ( ) lemma=030/2518095 
- 30/2590225 ( ) lemma=030/25902254 
- 30/28 ( ) lemma=030/282 
- 30/31088 ( ) lemma=030/310888 
- 30/392614 ( ) lemma=030/3926146 
- 30/61 ( ) lemma=030/611 
- 30/6150053 ( ) lemma=030/61500536 
- 30/681159 ( ) lemma=030/6811591 
- 30/687016 ( ) lemma=030/6870160 
- 30/862133 ( ) lemma=030/8621331 
- 30ma ( ) lemma=030mal 
- 31/6 ( ) lemma=031/60 
- 372/281825 ( ) lemma=0372/2818254 
- 3e ( ) lemma=93er 
- 3, ( ) lemma=33,8 
- 3,5-Teiler-Schus ( ) lemma=13,5-Teiler-Schuss 
- 3,5-Teiler-Schu� ( ) lemma=13,5-Teiler-Schuss 
- 3-Milliarden-Haushal ( ) lemma=13-Milliarden-Haushalt 
- 3-Millionen-Grenz ( ) lemma=13-Millionen-Grenze 
- 3-Millionen-Mark-Defizi ( ) lemma=13-Millionen-Mark-Defizit 
- 3-Millionen-Neuba ( ) lemma=13-Millionen-Neubau 
- 3-Prozent-Stur ( ) lemma=13-Prozent-Sturz 
- 3-Punkte-Papie ( ) lemma=13-Punkte-Papier 
- 3-Stunden-Fil ( ) lemma=13-Stunden-Film 
- 3-jährig ( ) lemma=43-jährig 
- 3-jährige ( ) lemma=83-jährig 
- 3-köpfig ( ) lemma=13-köpfig 
- 3.3 ( ) lemma=13.39 
- 3/4/9 ( ) lemma=13/4/90 
- 30,0/160, ( ) lemma=130,0/160,0 
- 30,0/165, ( ) lemma=130,0/165,0 
- 30-Köpfe-Orcheste ( ) lemma=130-Köpfe-Orchester 
- 30-Millionen-Mark-Eta ( ) lemma=130-Millionen-Mark-Etat 
- 30-Millionen-Mark-Projek ( ) lemma=130-Millionen-Mark-Projekt 
- 30-Seelen-Voror ( ) lemma=130-Seelen-Vorort 
- 30.000-Einwohner-Stad ( ) lemma=130.000-Einwohner-Stadt 
- 30/9 ( ) lemma=230/91 
- 300-Einwohner-Gemeind ( ) lemma=7300-Einwohner-Gemeinde 
- 300-Megawatt-Kraftwer ( ) lemma=1300-Megawatt-Kraftwerk 
- 3000-Einwohner-Stad ( ) lemma=23000-Einwohner-Stadt 
- 301/8 ( ) lemma=1301/86 
- 305/9 ( ) lemma=1305/92 
- 306/8 ( ) lemma=1306/85 
- 30e ( ) lemma=130er 
- 30köpfig ( ) lemma=130köpfig 
- 31/13 ( ) lemma=131/133 
- 313/5 ( ) lemma=1313/57 
- 313/6 ( ) lemma=1313/64 
- 315/6 ( ) lemma=1315/66 
- 317/5 ( ) lemma=1317/50 
- 318/3 ( ) lemma=1318/35 
- 319/1 ( ) lemma=1319/14 
- 319/6 ( ) lemma=1319/64 
- 31e ( ) lemma=131er 
- 32-Teile ( ) lemma=132-Teiler 
- 320/9 ( ) lemma=1320/92 
- 321/5 ( ) lemma=1321/50 
- 323/0 ( ) lemma=1323/08 
- 324/9 ( ) lemma=1324/90 
- 326/2 ( ) lemma=1326/28 
- 327/2 ( ) lemma=1327/21 
- 327/4 ( ) lemma=1327/40 
- 33/8 ( ) lemma=133/88 
- 332/6 ( ) lemma=1332/64 
- 332/8 ( ) lemma=1332/85 
- 334/2 ( ) lemma=1334/20 
- 334/5 ( ) lemma=1334/57 
- 336/0 ( ) lemma=1336/00 
- 337/2 ( ) lemma=1337/25 
- 337/4 ( ) lemma=1337/42 
- 337/6 ( ) lemma=1337/60 
- 338/5 ( ) lemma=1338/50 
- 339/7 ( ) lemma=1339/75 
- 341/4 ( ) lemma=1341/42 
- 341/5 ( ) lemma=1341/57 
- 342/1 ( ) lemma=1342/10 
- 342/5 ( ) lemma=1342/50 
- 343/3 ( ) lemma=1343/35 
- 345/6 ( ) lemma=1345/61 
- 346/1 ( ) lemma=1346/10 
- 34a-Produktio ( ) lemma=134a-Produktion 
- 34a-Produktionsanlag ( ) lemma=134a-Produktionsanlage 
- 34köpfig ( ) lemma=134köpfig 
- 35/8 ( ) lemma=135/89 
- 350/1 ( ) lemma=1350/16 
- 352/0 ( ) lemma=1352/00 
- 352/2 ( ) lemma=1352/28 
- 352/7 ( ) lemma=1352/78 
- 353/2 ( ) lemma=1353/21 
- 355/8 ( ) lemma=1355/83 
- 357/6 ( ) lemma=1357/66 
- 359/4 ( ) lemma=1359/42 
- 360/0 ( ) lemma=1360/00 
- 363/1 ( ) lemma=1363/14 
- 363/9 ( ) lemma=1363/92 
- 364/3 ( ) lemma=1364/33 
- 367/4 ( ) lemma=1367/42 
- 367/5 ( ) lemma=1367/50 
- 368/8 ( ) lemma=1368/83 
- 37,5/167, ( ) lemma=137,5/167,5 
- 37/9 ( ) lemma=137/92 
- 370/8 ( ) lemma=1370/80 
- 373/5 ( ) lemma=1373/57 
- 374/8 ( ) lemma=1374/85 
- 375/0 ( ) lemma=1375/00 
- 375/7 ( ) lemma=1375/71 
- 376/2 ( ) lemma=1376/28 
- 376/4 ( ) lemma=1376/42 
- 377/9 ( ) lemma=1377/91 
- 38-Teile ( ) lemma=138-Teiler 
- 381/3 ( ) lemma=1381/35 
- 383/5 ( ) lemma=1383/57 
- 385/3 ( ) lemma=1385/35 
- 385/7 ( ) lemma=1385/71 
- 386/3 ( ) lemma=1386/35 
- 38 ( ) lemma=1388 
- 388/7 ( ) lemma=1388/78 
- 39/ ( ) lemma=139/4 
- 390/5 ( ) lemma=1390/50 
- 392/1 ( ) lemma=1392/16 
- 394/9 ( ) lemma=1394/92 
- 396/1 ( ) lemma=1396/14 
- 397/1 ( ) lemma=1397/16 
- 398/2 ( ) lemma=1398/28 
- 3:1-Punkt ( ) lemma=13:1-Punkt 
- 3:11-Führun ( ) lemma=13:11-Führung 
- 3:14-Anschlusstreffe ( ) lemma=13:14-Anschlusstreffer 
- 3:14-Anschlußtreffe ( ) lemma=13:14-Anschlusstreffer 
- 3:5-Punkt ( ) lemma=13:5-Punkt 
- 3:6-Sie ( ) lemma=13:6-Sieg 
- 3:6-Siege ( ) lemma=13:6-Sieg 
- 3:7-Erfolge ( ) lemma=13:7-Erfolg 
- 3:7-Punkt ( ) lemma=13:7-Punkt 
- 3:9-Punkt ( ) lemma=13:9-Punkt 
- 3er-Fel ( ) lemma=13er-Feld 
- 3fach ( ) lemma=93fach 
- 3geschossig ( ) lemma=13geschossig 
- 3geschossige ( ) lemma=13geschossig 
- 3jährig ( ) lemma=93jährig 
- 3köpfig ( ) lemma=43köpfig 
- 3köpfige ( ) lemma=43köpfig 
- 3ma ( ) lemma=13mal 
- 3malige ( ) lemma=13malig 
- 3prozentig ( ) lemma=43prozentig 
- 3teili ( ) lemma=13teilig 
- 3teilig ( ) lemma=13teilig 
- 3teilige ( ) lemma=13teilig 
- 3tägige ( ) lemma=53tägig 
- 3-Monate-Vertra ( ) lemma=23-Monate-Vertrag 
- 3-Prozent ( ) lemma=33-Prozent- 
- 3-Rakete ( ) lemma=23-Rakete 
- 3-Stunde ( ) lemma=43-Stunden 
- 3-Stunden-Einschlus ( ) lemma=23-Stunden-Einschluß 
- 3-Stunden-Einschlu� ( ) lemma=23-Stunden-Einschluß 
- 3./24 ( ) lemma=23./24. 
- 3/8/8 ( ) lemma=23/8/89 
- 30-Punkte-Programme ( ) lemma=230-Punkte-Programm 
- 3000-Einwohner-Kommun ( ) lemma=23000-Einwohner-Kommune 
- 3000-Einwohner-Or ( ) lemma=23000-Einwohner-Ort 
- 304/9 ( ) lemma=2304/92 
- 30seitige ( ) lemma=230seitigen 
- 31/ ( ) lemma=331/7 
- 31/8 ( ) lemma=231/89 
- 32-Anschlu� ( ) lemma=232-Anschluss 
- 32-Schnittstell ( ) lemma=232-Schnittstelle 
- 323.Handwerker-Auskunftsdiens ( ) lemma=2323.Handwerker-Auskunftsdienst 
- 3:13-Sie ( ) lemma=23:13-Sieg 
- 3:18-Sie ( ) lemma=23:18-Sieg 
- 3:24-Niederlag ( ) lemma=23:24-Niederlage 
- 3jähri ( ) lemma=93jährig 
- 3stündig ( ) lemma=23stündig 
- 3tägig ( ) lemma=23tägig 
+ 3sat-Börse ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3sat-Koordinator ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3sat-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3sat-Studio ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3sat-Zuschauer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 3stündige ( ADJECTIVE ) lemma=3stündig 
+ 3x10-km-Staffel ( NOUN NOUN_PROPER_SINGULAR ) 
  3,5fach ( ) 
  3,7-Prozent-Erhöhung ( ) 
  3,8prozentig ( ) 
@@ -997,6 +818,7 @@
  300prozentig ( ) 
  304-PS-Allradmaschine ( ) 
  30fach ( ) 
+ 30köpfig ( ) 
  30prozentig ( ) 
  30stündig ( ) 
  30tägig ( ) 
@@ -1011,13 +833,7 @@
  32fach ( ) 
  32köpfig ( ) 
  32seitig ( ) 
- 3-Prozent-Tur ( ) lemma=33-Prozent-Turm 
  33-jährig ( ) 
- 30/34 ( ) lemma=330/340 
- 30/8 ( ) lemma=330/88 
- 305,7 ( ) lemma=3305,70 
- 324 ( ) lemma=33247 
- 3:11-Punkte ( ) lemma=33:11-Punkt 
  33:11-Punkt ( ) 
  33köpfig ( ) 
  33prozentig ( ) 
@@ -1052,29 +868,15 @@
  39prozentig ( ) 
  3:0-sieg ( ) 
  3:0-Satz ( ) 
+ 3:1-Punkt ( ) 
  3:1-sieg ( ) 
  3:1-Satz ( ) 
  3:2-sieg ( ) 
  3:2-Satz ( ) 
  3:3-Punkt ( ) 
  3:7-Zähler ( ) 
+ 3fach ( ) 
+ 3jährig ( ) 
  3monatig ( ) 
- 3-Prozent-Mark ( ) lemma=43-Prozent-Marke 
- 3/198 ( ) lemma=43/1989 
- 32/9 ( ) lemma=432/90 
- 32965- ( ) lemma=432965-2 
- 3-Millionen-Mark-Projek ( ) lemma=53-Millionen-Mark-Projekt 
- 30-Mark-Job ( ) lemma=530-Mark-Job 
- 30-Mark-Kräft ( ) lemma=530-Mark-Kraft 
- 38/ ( ) lemma=538/2 
- 38/9 ( ) lemma=538/90 
- 3900 ( ) lemma=539000 
- 3-Teile ( ) lemma=63-Teiler 
- 3/7 ( ) lemma=73/75 
- 37/40 ( ) lemma=737/400 
- 36-Mark-Geset ( ) lemma=936-Mark-Gesetz 
- 3-Tanke ( ) lemma=E3-Tanker 
- 3-Geweh ( ) lemma=G3-Gewehr 
- 3-Abnahm ( ) lemma=O3-Abnahme 
- 3-Generato ( ) lemma=O3-Generator 
- 3/U6-Sonderzüg ( ) lemma=U3/U6-Sonderzug 
+ 3prozentig ( ) 
+ 3stündig ( ) 

@@ -1,4 +1,4 @@
-﻿ 6 ( ) lemma=B.6.3 
+﻿ 6 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  6/T.4 ( ) 
  6A ( ) 
  6B ( ) 
@@ -16,8 +16,3 @@
  6C3 ( ) 
  6C4 ( ) 
  6T1.3 ( ) 
- 6.1 ( ) lemma=T6.12 
- 6.3 ( ) lemma=T6.30 
- 6. ( ) lemma=T6.4 
- 6.5 ( ) lemma=T6.51 
- 6.6 ( ) lemma=T6.64 

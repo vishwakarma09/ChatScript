@@ -1,4 +1,2 @@
-﻿ 5e ( ) 
- 5ème ( ) 
- 5 ( ) lemma=15e 
- 5èm ( ) lemma=15ème 
+﻿ 5e ( NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 5ème ( NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER ) 

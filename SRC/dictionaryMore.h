@@ -155,7 +155,7 @@ WORDP GetComparison(WORDP D);
 void SetComparison(WORDP D,MEANING M);
 WORDP GetTense(WORDP D);
 void SetTense(WORDP D,MEANING M);
-char* GetCanonical(WORDP D);
+WORDP GetCanonical(WORDP D);
 void SetCanonical(WORDP D,MEANING M);
 uint64 GetTriedMeaning(WORDP D);
 void SetTriedMeaning(WORDP D,uint64 bits);

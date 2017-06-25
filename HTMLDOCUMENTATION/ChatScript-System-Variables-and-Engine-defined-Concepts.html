@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1 id="chatscript-system-variables-and-engine-defined-concepts">ChatScript System Variables and Engine-defined Concepts</h1>
-<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 6/18/2017 cs7.5</p>
+<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 6/25/2017 cs7.51</p>
 <ul>
 <li><a href="ChatScript-System-Variables-and-Engine-defined-Concepts.html#engine-defined-concepts">Engine-defined Concepts</a></li>
 <li><a href="ChatScript-System-Variables-and-Engine-defined-Concepts.html#system-variables">System Variables</a></li>
@@ -1435,7 +1435,7 @@ s: (name is _*)
 <td>if defined, causes the system to generate full float 64-bit precision on outputs, otherwise you get 2 digit precision by default</td>
 </tr>
 <tr class="odd">
-<td><code>cs_botid</code></td>
+<td><code>$cs_botid</code></td>
 <td>when non-zero creates facts and functions restricted by this bitmask so facts and functions created by other masks cannot be seen. allows you to separate facts and functions per bot in a multi-bot environment. During compilation if this is set by a bot: command, then functions created and facts created by tables will be restricted to that owner.</td>
 </tr>
 <tr class="even">
@@ -1457,6 +1457,18 @@ s: (name is _*)
 <tr class="even">
 <td><code>$cs_saveusedJson</code></td>
 <td>if not null, the only JSON facts CS will write into the user's topic files that are referred to (directly or indirectly) from user variables being saved. (see below)</td>
+</tr>
+<tr class="odd">
+<td><code>$cs_proxycredentials</code></td>
+<td>See ^JSONOPEN in JSON manual</td>
+</tr>
+<tr class="even">
+<td><code>$cs_proxyserver</code></td>
+<td>See ^JSONOPEN in JSON manual</td>
+</tr>
+<tr class="odd">
+<td><code>$cs_proxymethod</code></td>
+<td>See ^JSONOPEN in JSON manual</td>
 </tr>
 </tbody>
 </table>

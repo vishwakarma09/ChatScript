@@ -1,526 +1,276 @@
-﻿ 9 ( ) lemma=29. 
- 9,3 ( ) 
- 9,4-Prozent-Kreisergebnis ( ) 
- 9,5 ( ) 
- 9,5prozentigen ( ) 
- 9,7/11,8 ( ) 
- 9,9 ( ) 
- 9- ( ) lemma=39-A 
- 9-Abschuss ( ) 
- 9-Abschuß ( ) 
- 9-Beamten ( ) 
- 9-Fluges ( ) 
- 9-M ( ) 
- 9-Mann ( ) 
- 9-Punkte-Vorschlag ( ) 
- 9-THC-Ergebnisse ( ) 
- 9-THC-Nachweises ( ) 
+﻿ 9 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9,3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9,4-Prozent-Kreisergebnis ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9,5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9,5prozentigen ( ADJECTIVE ) lemma=9,5prozentig 
+ 9,7/11,8 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9,9 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9- ( ) 
+ 9-Abschuss ( NOUN NOUN_PROPER_SINGULAR ) lemma=9-Abschuß 
+ 9-Abschuß ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9-Beamten ( NOUN NOUN_PROPER_SINGULAR ) lemma=9-Beamter 
+ 9-Fluges ( NOUN NOUN_PROPER_SINGULAR ) lemma=9-Flug 
+ 9-M ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9-Mann ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9-Punkte-Vorschlag ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9-THC-Ergebnisse ( NOUN NOUN_PROPER_SINGULAR ) lemma=9-THC-Ergebnis 
+ 9-THC-Nachweises ( NOUN NOUN_PROPER_SINGULAR ) lemma=9-THC-Nachweis 
  9-Uhr- ( ) 
- 9-Uhr-Gottesdienst ( ) 
- 9-Uhr-Nachrichten ( ) 
- 9-mm ( ) 
+ 9-Uhr-Gottesdienst ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9-Uhr-Nachrichten ( NOUN NOUN_PROPER_SINGULAR ) lemma=9-Uhr-Nachricht 
+ 9-mm ( NOUN NOUN_PROPER_SINGULAR ) 
  9-mm- ( ) 
- 9-mm-Autonome ( ) 
- 9-mm-Kugel ( ) 
- 9-mm-Pistole ( ) 
- 9. ( ) 
- 9.30 ( ) 
+ 9-mm-Autonome ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9-mm-Kugel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9-mm-Pistole ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9. ( ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9.30 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  9.30- ( ) 
- 9.30-Uhr-Gottesdienst ( ) 
+ 9.30-Uhr-Gottesdienst ( NOUN NOUN_PROPER_SINGULAR ) 
  9.45- ( ) 
- 9/1 ( ) 
- 9/10 ( ) 
- 9/11 ( ) 
- 9/1990 ( ) 
- 9/1991 ( ) 
- 9/2 ( ) lemma=19/21 
- 9/3 ( ) lemma=29/31 
- 9/4 ( ) lemma=39/40 
- 9/5 ( ) lemma=49/53 
- 9/6 ( ) lemma=59/60 
- 9/7 ( ) lemma=79/78 
- 9/8 ( ) lemma=79/80 
- 9/88 ( ) 
- 9/89 ( ) 
- 9/90 ( ) 
- 9/91 ( ) 
- 9/92 ( ) 
- 9/93 ( ) 
- 90 ( ) lemma=6900 
+ 9/1 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9/10 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9/11 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9/1990 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9/1991 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9/2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9/3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9/4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9/5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9/6 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9/7 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9/8 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9/88 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9/93 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  90- ( ) 
- 90-A ( ) 
- 90-Abgeordnete ( ) 
- 90-Abgeordneter ( ) 
- 90-Bundestagsabgeordnete ( ) 
- 90-Fraktion ( ) 
- 90-Grad-Winkel ( ) 
- 90-Jahr-Feier ( ) 
- 90-Jahr-Jubiläum ( ) 
- 90-Kilometer-Transfer ( ) 
- 90-Landtagsfraktion ( ) 
- 90-Liter-Kunststoffsäcke ( ) 
- 90-Liter-Säcken ( ) 
- 90-Meter-Schanze ( ) 
- 90-Minuten ( ) 
+ 90-A ( NOUN NOUN_PROPER_SINGULAR ) 
+ 90-Abgeordnete ( NOUN NOUN_PROPER_SINGULAR ) 
+ 90-Abgeordneter ( NOUN NOUN_PROPER_SINGULAR ) lemma=90-Abgeordnete 
+ 90-Bundestagsabgeordnete ( NOUN NOUN_PROPER_SINGULAR ) 
+ 90-Fraktion ( NOUN NOUN_PROPER_SINGULAR ) 
+ 90-Grad-Winkel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 90-Jahr-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 90-Jahr-Jubiläum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 90-Kilometer-Transfer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 90-Landtagsfraktion ( NOUN NOUN_PROPER_SINGULAR ) 
+ 90-Liter-Kunststoffsäcke ( NOUN NOUN_PROPER_SINGULAR ) lemma=90-Liter-Kunststoffsack 
+ 90-Liter-Säcken ( NOUN NOUN_PROPER_SINGULAR ) lemma=90-Liter-Sack 
+ 90-Meter-Schanze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 90-Minuten ( NOUN NOUN_PROPER_SINGULAR ) lemma=90-Minute 
  90-Minuten- ( ) 
- 90-Minuten-Film ( ) 
- 90-Minuten-Filme ( ) 
- 90-Minuten-Show ( ) 
- 90-PS-Motor ( ) 
- 90-Produktion ( ) 
- 90-Projekt ( ) 
- 90-Prozent-Finanzierung ( ) 
- 90-Prozent-Marke ( ) 
- 90-Seite ( ) 
- 90-Sekunden-Regel ( ) 
- 90-Sekunden-Regelung ( ) 
- 90-m-Schanze ( ) 
- 90-nah ( ) 
- 90-prozentige ( ) 
- 90.000-Mark-Spende ( ) 
- 90/313 ( ) 
- 90/91 ( ) 
- 900 ( ) 
- 900-Einwohner-Dorf ( ) 
- 900-Jahr ( ) 
- 900-Jahr-Feier ( ) 
- 900-Jahr-Jubiläum ( ) 
- 900-Megawatt ( ) 
- 900-Megawatt-Reaktoren ( ) 
- 900-Millionen-Mark-Etat ( ) 
- 900-Seelen-Gemeinde ( ) 
- 9000-Einwohner-Städtchen ( ) 
- 90000-Einwohner-Stadt ( ) 
- 900000-Einwohner-Stadt ( ) 
- 900er ( ) 
- 900jährigen ( ) 
- 900jähriges ( ) 
- 900tägigen ( ) 
- 901er ( ) 
- 902/85 ( ) 
- 90er ( ) lemma=190er 
+ 90-Minuten-Film ( NOUN NOUN_PROPER_SINGULAR ) 
+ 90-Minuten-Filme ( NOUN NOUN_PROPER_SINGULAR ) lemma=90-Minuten-Film 
+ 90-Minuten-Show ( NOUN NOUN_PROPER_SINGULAR ) 
+ 90-PS-Motor ( NOUN NOUN_PROPER_SINGULAR ) 
+ 90-Produktion ( NOUN NOUN_PROPER_SINGULAR ) 
+ 90-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 90-Prozent-Finanzierung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 90-Prozent-Marke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 90-Seite ( NOUN NOUN_PROPER_SINGULAR ) 
+ 90-Sekunden-Regel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 90-Sekunden-Regelung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 90-m-Schanze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 90-nah ( ADJECTIVE ) 
+ 90-prozentige ( ADJECTIVE ) lemma=90-prozentig 
+ 90.000-Mark-Spende ( NOUN NOUN_PROPER_SINGULAR ) 
+ 90/313 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 90/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 900 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 900-Einwohner-Dorf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 900-Jahr ( NOUN NOUN_PROPER_SINGULAR ) 
+ 900-Jahr-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 900-Jahr-Jubiläum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 900-Megawatt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 900-Megawatt-Reaktoren ( NOUN NOUN_PROPER_SINGULAR ) lemma=900-Megawatt-Reaktor 
+ 900-Millionen-Mark-Etat ( NOUN NOUN_PROPER_SINGULAR ) 
+ 900-Seelen-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9000-Einwohner-Städtchen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 90000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 900000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 900er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 900jährigen ( ADJECTIVE ) lemma=900jährig 
+ 900jähriges ( ADJECTIVE ) lemma=900jährig 
+ 900tägigen ( ADJECTIVE ) lemma=900tägig 
+ 901er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 902/85 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 90er ( ADJECTIVE ) 
  90er- ( ) 
- 90ern ( ) 
- 90fache ( ) 
- 90fachen ( ) 
- 90jährig ( ) 
- 90jährige ( ) 
- 90jährigen ( ) 
- 90jähriger ( ) 
- 90jähriges ( ) 
- 90köpfige ( ) 
- 90mal ( ) 
- 90minütigen ( ) 
- 90prozentig ( ) 
- 90prozentige ( ) 
- 90prozentigen ( ) 
- 90prozentiger ( ) 
- 90prozentiges ( ) 
- 90tägige ( ) 
- 90tägigen ( ) 
- 91 ( ) lemma=9918 
- 91/2 ( ) 
- 91/92 ( ) 
- 91/97 ( ) 
- 911er ( ) 
- 918er ( ) 
- 91er ( ) 
+ 90ern ( NOUN NOUN_PROPER_SINGULAR ) lemma=90er 
+ 90fache ( ADJECTIVE ) lemma=90fach 
+ 90fachen ( ADJECTIVE ) lemma=90fach 
+ 90jährig ( ADJECTIVE ) 
+ 90jährige ( ADJECTIVE ) lemma=90jährig 
+ 90jährigen ( ADJECTIVE ) lemma=90jährig 
+ 90jähriger ( ADJECTIVE ) lemma=90jährig 
+ 90jähriges ( ADJECTIVE ) lemma=90jährig 
+ 90köpfige ( ADJECTIVE ) lemma=90köpfig 
+ 90mal ( ADVERB ) 
+ 90minütigen ( ADJECTIVE ) lemma=90minütig 
+ 90prozentig ( ADJECTIVE ) 
+ 90prozentige ( ADJECTIVE ) lemma=90prozentig 
+ 90prozentigen ( ADJECTIVE ) lemma=90prozentig 
+ 90prozentiger ( ADJECTIVE ) lemma=90prozentig 
+ 90prozentiges ( ADJECTIVE ) lemma=90prozentig 
+ 90tägige ( ADJECTIVE ) lemma=90tägig 
+ 90tägigen ( ADJECTIVE ) lemma=90tägig 
+ 91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 91/2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 91/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 91/97 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 911er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 918er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 91er ( NOUN NOUN_PROPER_SINGULAR ) 
  91er- ( ) 
- 91jährige ( ) 
- 91jährigen ( ) 
- 91jähriger ( ) 
- 91köpfige ( ) 
- 92 ( ) lemma=1929 
- 92,4 ( ) 
- 92,5-Teiler ( ) 
+ 91jährige ( ADJECTIVE ) lemma=91jährig 
+ 91jährigen ( ADJECTIVE ) lemma=91jährig 
+ 91jähriger ( ADJECTIVE ) lemma=91jährig 
+ 91köpfige ( ADJECTIVE ) lemma=91köpfig 
+ 92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 92,4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 92,5-Teiler ( NOUN NOUN_PROPER_SINGULAR ) 
  92- ( ) 
- 92/12 ( ) 
- 92/91 ( ) 
- 92/93 ( ) 
- 923/90 ( ) 
- 924/944 ( ) 
- 925/1000 ( ) 
- 929 ( ) 
- 92er ( ) 
- 92er-Defizit ( ) 
- 92er-Ergebnis ( ) 
- 92jährig ( ) 
- 92jährige ( ) 
- 92jährigen ( ) 
- 92jähriger ( ) 
- 92köpfigen ( ) 
- 93 ( ) lemma=1939 
- 93/94 ( ) 
- 936-Mark-Gesetz ( ) 
- 93er ( ) 
- 93fache ( ) 
- 93fachen ( ) 
- 93jährig ( ) 
- 93jährige ( ) lemma=193jährig 
- 93jährigen ( ) 
- 93jähriger ( ) 
- 93prozentigen ( ) 
- 94/89,5 ( ) 
- 94/91 ( ) 
- 94/95 ( ) 
- 94er ( ) 
- 94ern ( ) 
- 94jährige ( ) 
- 94jährigen ( ) 
- 94jähriger ( ) 
- 94köpfigen ( ) 
- 94prozentige ( ) 
- 95,0/97,0 ( ) 
- 95,5/98,0 ( ) 
- 95,5/99,0 ( ) 
- 95-Prozent-Mehrheit ( ) 
- 95/6 ( ) 
- 95/96 ( ) 
- 950 ( ) 
- 950-Jahr-Feier ( ) 
- 9500 ( ) 
- 9500-Einwohner-Kommune ( ) 
- 954er ( ) 
- 955mal ( ) 
- 95er ( ) 
- 95jährige ( ) 
- 95jährigen ( ) 
- 95jähriger ( ) 
- 95jähriges ( ) 
- 95prozentige ( ) 
- 95prozentigen ( ) 
- 95prozentiger ( ) 
- 96 ( ) lemma=1968 
- 96,5/95,5 ( ) 
- 96/4 ( ) 
- 96000-Tonnen-Tanker ( ) 
- 961/86 ( ) 
- 963er ( ) 
- 965mal ( ) 
- 968er ( ) 
- 968er-Baureihe ( ) 
- 96er ( ) 
- 96ern ( ) 
- 96jährige ( ) 
- 96jährigen ( ) 
- 96mal ( ) 
- 97 ( ) lemma=9971 
- 97,0/86,5 ( ) 
- 97,5/87,0 ( ) 
- 97/88 ( ) 
- 97fache ( ) 
- 97jährige ( ) 
- 97jährigen ( ) 
- 97prozentige ( ) 
- 98 ( ) lemma=1989 
- 98-A ( ) 
- 98/99 ( ) 
- 986/91 ( ) 
- 98er ( ) 
- 98ern ( ) 
- 98prozentige ( ) 
- 98prozentiger ( ) 
- 99 ( ) lemma=1999 
- 99,0/96,0 ( ) 
- 99,5/94,0 ( ) 
- 99,5/97,0 ( ) 
- 99-Records ( ) 
- 99/3 ( ) 
- 9918 ( ) 
- 9971 ( ) 
- 998/1000 ( ) 
- 999er ( ) 
- 99er ( ) 
- 99fachen ( ) 
- 99jährige ( ) 
- 99jährigen ( ) 
- 99jähriges ( ) 
- 99prozentige ( ) 
- 99prozentigen ( ) 
- 99prozentiger ( ) 
- 9:0-Erfolg ( ) 
- 9:0-Sieg ( ) 
- 9:0-Triumph ( ) 
- 9:1-Erfolg ( ) 
- 9:1-Punkte ( ) 
- 9:1-Punkten ( ) 
- 9:1-Sieg ( ) 
- 9:12-Auswärtsniederlage ( ) 
- 9:19-Punkten ( ) 
- 9:2-Erfolg ( ) 
- 9:2-Sieg ( ) 
- 9:3-Erfolg ( ) 
- 9:3-Sieg ( ) 
- 9:4-Arbeitssieg ( ) 
- 9:4-Erfolg ( ) 
- 9:4-Sieg ( ) 
- 9:5-Erfolg ( ) 
- 9:5-Sieg ( ) 
- 9:5-Tore ( ) 
- 9:6-Erfolg ( ) 
- 9:6-Sieg ( ) 
- 9:7-Erfolg ( ) 
- 9:7-Punkten ( ) 
- 9:7-Sieg ( ) 
- 9:7-Vorsprunges ( ) 
- 9:8-Erfolg ( ) 
- 9er ( ) 
- 9er-Ball ( ) 
- 9jährige ( ) lemma=99jährig 
- 9jährigen ( ) 
- 9jähriger ( ) 
- 9jähriges ( ) 
- 9mal ( ) 
- 9-Torwar ( ) lemma=09-Torwart 
- 9/ ( ) lemma=99/3 
- 911/20804 ( ) lemma=0911/208041 
- 911/22659 ( ) lemma=0911/226598 
- 9431/102 ( ) lemma=09431/1029 
- 96/14.3 ( ) lemma=096/14.32 
- 9e ( ) lemma=99er 
- 9,6-Prozent-Beteiligun ( ) lemma=19,6-Prozent-Beteiligung 
- 9, ( ) lemma=19,8 
- 9-Kräft ( ) lemma=19-Kraft 
- 9-Nationalspieleri ( ) lemma=19-Nationalspielerin 
- 9-Punkte-Program ( ) lemma=19-Punkte-Programm 
- 9-Seiten-Tex ( ) lemma=19-Seiten-Text 
- 9-Stelle ( ) lemma=19-Stelle 
- 9-Uhr ( ) lemma=19-Uhr- 
- 9-Verträg ( ) lemma=19-Vertrag 
- 9-jährig ( ) lemma=49-jährig 
- 9-jährige ( ) lemma=29-jährig 
- 9-köpfig ( ) lemma=19-köpfig 
- 9.3 ( ) lemma=19.30 
- 9/9 ( ) lemma=89/92 
- 90/23 ( ) lemma=190/230 
- 900-Jahr-Feie ( ) lemma=1900-Jahr-Feier 
- 901e ( ) lemma=1901er 
- 904/0 ( ) lemma=1904/05 
- 905/0 ( ) lemma=1905/06 
- 907/0 ( ) lemma=1907/08 
- 90e ( ) lemma=190er 
- 90er-Kompaktklass ( ) lemma=190er-Kompaktklasse 
- 90er-Nachfolge ( ) lemma=190er-Nachfolger 
- 90er-Reih ( ) lemma=190er-Reihe 
- 910/1 ( ) lemma=1910/11 
- 910/191 ( ) lemma=1910/1911 
- 911/1 ( ) lemma=1911/12 
- 912/1 ( ) lemma=1912/13 
- 913/1 ( ) lemma=1913/14 
- 914/1 ( ) lemma=1914/18 
- 915/1 ( ) lemma=1915/16 
- 916/1 ( ) lemma=1916/17 
- 917/1 ( ) lemma=1917/18 
- 918/1 ( ) lemma=1918/19 
- 918/198 ( ) lemma=1918/1989 
- 918/8 ( ) lemma=1918/89 
- 918 ( ) lemma=19183 
- 919/2 ( ) lemma=1919/20 
- 92-Seiten-Buc ( ) lemma=192-Seiten-Buch 
- 920/2 ( ) lemma=1920/21 
- 920e ( ) lemma=1920er 
- 921/2 ( ) lemma=1921/22 
- 922/2 ( ) lemma=1922/23 
- 922er-Komite ( ) lemma=1922er-Komitee 
- 923/2 ( ) lemma=1923/24 
- 924/2 ( ) lemma=1924/25 
- 925/2 ( ) lemma=1925/26 
- 926/2 ( ) lemma=1926/27 
- 927/2 ( ) lemma=1927/29 
- 928/2 ( ) lemma=1928/29 
- 928e ( ) lemma=1928er 
- 929/3 ( ) lemma=1929/30 
- 93/9 ( ) lemma=293/90 
- 930/3 ( ) lemma=1930/31 
- 930e ( ) lemma=1930er 
- 931 ( ) lemma=1931- 
- 931/3 ( ) lemma=1931/32 
- 932/193 ( ) lemma=1932/1933 
- 932/3 ( ) lemma=1932/33 
- 933/3 ( ) lemma=1933/34 
- 934/3 ( ) lemma=1934/35 
- 935/3 ( ) lemma=1935/36 
- 9355.3/9 ( ) lemma=19355.3/92 
- 936/3 ( ) lemma=1936/37 
- 937/3 ( ) lemma=1937/38 
- 938 ( ) lemma=1938- 
- 938/3 ( ) lemma=1938/39 
- 939/4 ( ) lemma=1939/40 
- 94/8 ( ) lemma=194/88 
- 940/4 ( ) lemma=1940/41 
- 940/5 ( ) lemma=1940/50 
- 94 ( ) lemma=1948 
- 941/4 ( ) lemma=1941/43 
- 942/4 ( ) lemma=1942/43 
- 943/4 ( ) lemma=1943/44 
- 943/9 ( ) lemma=1943/91 
- 944/4 ( ) lemma=1944/45 
- 945/4 ( ) lemma=1945/46 
- 946/4 ( ) lemma=1946/47 
- 947/4 ( ) lemma=1947/48 
- 948/4 ( ) lemma=1948/49 
- 948/5 ( ) lemma=1948/50 
- 948e ( ) lemma=1948er 
- 949/195 ( ) lemma=1949/1950 
- 949/5 ( ) lemma=1949/50 
- 95-Millionen-Mark-Eta ( ) lemma=195-Millionen-Mark-Etat 
- 950/5 ( ) lemma=1950/51 
- 950/ ( ) lemma=1950/8 
- 951/196 ( ) lemma=1951/1967 
- 951/5 ( ) lemma=1951/52 
- 952/5 ( ) lemma=1952/53 
- 953/5 ( ) lemma=1953/54 
- 954/5 ( ) lemma=1954/55 
- 955/5 ( ) lemma=1955/56 
- 956/5 ( ) lemma=1956/57 
- 957/5 ( ) lemma=1957/58 
- 958/5 ( ) lemma=1958/59 
- 959/6 ( ) lemma=1959/60 
- 960/6 ( ) lemma=1960/61 
- 960/7 ( ) lemma=1960/70 
- 960e ( ) lemma=1960er 
- 961/6 ( ) lemma=1961/62 
- 961e ( ) lemma=1961er 
- 962/6 ( ) lemma=1962/63 
- 963/6 ( ) lemma=1963/64 
- 964/6 ( ) lemma=1964/65 
- 965/ ( ) lemma=1965/1 
- 965/6 ( ) lemma=1965/66 
- 966/6 ( ) lemma=1966/67 
- 967/6 ( ) lemma=1967/69 
- 968/6 ( ) lemma=1968/69 
- 968e ( ) lemma=1968er 
- 969/7 ( ) lemma=1969/71 
- 969e ( ) lemma=1969er 
- 97, ( ) lemma=197,5 
- 970/7 ( ) lemma=1970/71 
- 970e ( ) lemma=1970er 
- 971/7 ( ) lemma=1971/72 
- 971/9 ( ) lemma=1971/90 
- 972/7 ( ) lemma=1972/73 
- 972e ( ) lemma=1972er 
- 973/199 ( ) lemma=1973/1990 
- 973/7 ( ) lemma=1973/74 
- 974/7 ( ) lemma=1974/76 
- 975/7 ( ) lemma=1975/76 
- 975e ( ) lemma=1975er 
- 976/7 ( ) lemma=1976/77 
- 977/7 ( ) lemma=1977/78 
- 977/8 ( ) lemma=1977/80 
- 977e ( ) lemma=1977er 
- 978/7 ( ) lemma=1978/79 
- 978e ( ) lemma=1978er 
- 979/8 ( ) lemma=1979/80 
- 979e ( ) lemma=1979er 
- 980/8 ( ) lemma=1980/88 
- 980e ( ) lemma=1980er 
- 981/8 ( ) lemma=1981/82 
- 982/8 ( ) lemma=1982/83 
- 982e ( ) lemma=1982er 
- 983/198 ( ) lemma=1983/1984 
- 983/8 ( ) lemma=1983/84 
- 983e ( ) lemma=1983er 
- 984/8 ( ) lemma=1984/85 
- 984e ( ) lemma=1984er 
- 985/198 ( ) lemma=1985/1986 
- 985/8 ( ) lemma=1985/86 
- 985e ( ) lemma=1985er 
- 986/ ( ) lemma=1986/7 
- 986/8 ( ) lemma=1986/88 
- 986/88/9 ( ) lemma=1986/88/90 
- 986/9 ( ) lemma=1986/91 
- 986e ( ) lemma=1986er 
- 987/198 ( ) lemma=1987/1988 
- 987/199 ( ) lemma=1987/1994 
- 987/8 ( ) lemma=1987/89 
- 987e ( ) lemma=1987er 
- 988 ( ) lemma=1988- 
- 988/198 ( ) lemma=1988/1989 
- 988/8 ( ) lemma=1988/89 
- 988/89/9 ( ) lemma=1988/89/90 
- 988/ ( ) lemma=1988/9 
- 988/9 ( ) lemma=1988/90 
- 988e ( ) lemma=1988er 
- 989 ( ) lemma=1989- 
- 989/199 ( ) lemma=1989/1990 
- 989/9 ( ) lemma=1989/91 
- 989e ( ) lemma=1989er 
- 990 ( ) lemma=1990- 
- 990/199 ( ) lemma=1990/1991 
- 990/9 ( ) lemma=1990/94 
- 990e ( ) lemma=1990er 
- 991/199 ( ) lemma=1991/1996 
- 991/ ( ) lemma=1991/2 
- 991/9 ( ) lemma=1991/93 
- 991e ( ) lemma=1991er 
- 992/ ( ) lemma=1992/2 
- 992/1 ( ) lemma=1992/13 
- 992/199 ( ) lemma=1992/1997 
- 992/9 ( ) lemma=1992/97 
- 992e ( ) lemma=1992er 
- 993/199 ( ) lemma=1993/1994 
- 993/9 ( ) lemma=1993/95 
- 993e ( ) lemma=1993er 
- 994/199 ( ) lemma=1994/1995 
- 994/9 ( ) lemma=1994/95 
- 994e ( ) lemma=1994er 
- 995/199 ( ) lemma=1995/1996 
- 995/9 ( ) lemma=1995/96 
- 996/9 ( ) lemma=1996/98 
- 997/9 ( ) lemma=1997/98 
- 998/200 ( ) lemma=1998/2000 
- 998/9 ( ) lemma=1998/99 
- 9:1-Punkt ( ) lemma=19:1-Punkt 
- 9:1-Zähle ( ) lemma=19:1-Zähler 
- 9:10-Favori ( ) lemma=19:10-Favorit 
- 9:18-Sie ( ) lemma=19:18-Sieg 
- 9:18-Vorsprun ( ) lemma=19:18-Vorsprung 
- 9:19-Unentschiede ( ) lemma=19:19-Unentschieden 
- 9:20-Blamag ( ) lemma=19:20-Blamage 
- 9:21-Niederlag ( ) lemma=19:21-Niederlage 
- 9er-Fel ( ) lemma=19er-Feld 
- 9fach ( ) lemma=29fach 
- 9fache ( ) lemma=99fach 
- 9jähri ( ) lemma=89jährig 
- 9jährig ( ) lemma=99jährig 
- 9köpfig ( ) lemma=39köpfig 
- 9köpfige ( ) lemma=59köpfig 
- 9malig ( ) lemma=19malig 
- 9monatige ( ) lemma=19monatig 
- 9stündige ( ) lemma=19stündig 
- 9tägige ( ) lemma=19tägig 
- 9,25/2 ( ) lemma=29,25/27 
- 9,33/3 ( ) lemma=29,33/35 
- 9,48/5 ( ) lemma=29,48/52 
- 9-Cent-Briefmark ( ) lemma=29-Cent-Briefmarke 
- 9-Umgehun ( ) lemma=29-Umgehung 
- 9/199 ( ) lemma=29/1991 
- 9/36, ( ) lemma=29/36,5 
- 90-Betten-Hau ( ) lemma=290-Betten-Haus 
- 90/9 ( ) lemma=590/92 
- 95-Tunne ( ) lemma=295-Tunnel 
- 99/9 ( ) lemma=499/91 
- 9er-Verbänd ( ) lemma=29er-Verband 
- 9stündig ( ) lemma=29stündig 
- 9-Stunden-Woch ( ) lemma=39-Stunden-Woche 
- 90-Ringe-Grenz ( ) lemma=390-Ringe-Grenze 
- 90/8 ( ) lemma=390/89 
- 9000 ( ) lemma=690000 
- 938/9 ( ) lemma=3938/92 
- 95/9 ( ) lemma=395/91 
- 9prozentig ( ) lemma=99prozentig 
- 9,9-Prozent-Antei ( ) lemma=49,9-Prozent-Anteil 
- 9-Meter-Ban ( ) lemma=49-Meter-Band 
- 9-Prozent-Antei ( ) lemma=49-Prozent-Anteil 
- 9-Prozent-Beteiligun ( ) lemma=49-Prozent-Beteiligung 
- 9-Prozent-Rahme ( ) lemma=49-Prozent-Rahmen 
- 9-Prozentregelun ( ) lemma=49-Prozentregelung 
- 90-Kilo-Leine ( ) lemma=490-Kilo-Leine 
- 9m-Ban ( ) lemma=49m-Band 
- 9prozentige ( ) lemma=99prozentig 
- 9er-Rund ( ) lemma=69er-Runde 
- 9,6-Teile ( ) lemma=79,6-Teiler 
- 9er-Wend ( ) lemma=89er-Wende 
+ 92/12 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 92/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 92/93 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 923/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 924/944 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 925/1000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 929 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 92er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 92er-Defizit ( NOUN NOUN_PROPER_SINGULAR ) 
+ 92er-Ergebnis ( NOUN NOUN_PROPER_SINGULAR ) 
+ 92jährig ( ADJECTIVE ) 
+ 92jährige ( ADJECTIVE ) lemma=92jährig 
+ 92jährigen ( ADJECTIVE ) lemma=92jährig 
+ 92jähriger ( ADJECTIVE ) lemma=92jährig 
+ 92köpfigen ( ADJECTIVE ) lemma=92köpfig 
+ 93 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 93/94 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 936-Mark-Gesetz ( NOUN NOUN_PROPER_SINGULAR ) 
+ 93er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 93fache ( ADJECTIVE ) lemma=93fach 
+ 93fachen ( ADJECTIVE ) lemma=93fach 
+ 93jährig ( ADJECTIVE ) 
+ 93jährige ( ADJECTIVE ) lemma=93jährig 
+ 93jährigen ( ADJECTIVE ) lemma=93jährig 
+ 93jähriger ( ADJECTIVE ) lemma=93jährig 
+ 93prozentigen ( ADJECTIVE ) lemma=93prozentig 
+ 94/89,5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 94/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 94/95 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 94er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 94ern ( NOUN NOUN_PROPER_SINGULAR ) lemma=94er 
+ 94jährige ( ADJECTIVE ) lemma=94jährig 
+ 94jährigen ( ADJECTIVE ) lemma=94jährig 
+ 94jähriger ( ADJECTIVE ) lemma=94jährig 
+ 94köpfigen ( ADJECTIVE ) lemma=94köpfig 
+ 94prozentige ( ADJECTIVE ) lemma=94prozentig 
+ 95,0/97,0 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 95,5/98,0 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 95,5/99,0 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 95-Prozent-Mehrheit ( NOUN NOUN_PROPER_SINGULAR ) 
+ 95/6 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 95/96 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 950 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 950-Jahr-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9500 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9500-Einwohner-Kommune ( NOUN NOUN_PROPER_SINGULAR ) 
+ 954er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 955mal ( ADVERB ) 
+ 95er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 95jährige ( ADJECTIVE ) lemma=95jährig 
+ 95jährigen ( ADJECTIVE ) lemma=95jährig 
+ 95jähriger ( ADJECTIVE ) lemma=95jährig 
+ 95jähriges ( ADJECTIVE ) lemma=95jährig 
+ 95prozentige ( ADJECTIVE ) lemma=95prozentig 
+ 95prozentigen ( ADJECTIVE ) lemma=95prozentig 
+ 95prozentiger ( ADJECTIVE ) lemma=95prozentig 
+ 96 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 96,5/95,5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 96/4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 96000-Tonnen-Tanker ( NOUN NOUN_PROPER_SINGULAR ) 
+ 961/86 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 963er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 965mal ( ADVERB ) 
+ 968er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 968er-Baureihe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 96er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 96ern ( NOUN NOUN_PROPER_SINGULAR ) lemma=96er 
+ 96jährige ( ADJECTIVE ) lemma=96jährig 
+ 96jährigen ( ADJECTIVE ) lemma=96jährig 
+ 96mal ( ADVERB ) 
+ 97 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 97,0/86,5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 97,5/87,0 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 97/88 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 97fache ( ADJECTIVE ) lemma=97fach 
+ 97jährige ( ADJECTIVE ) lemma=97jährig 
+ 97jährigen ( ADJECTIVE ) lemma=97jährig 
+ 97prozentige ( ADJECTIVE ) lemma=97prozentig 
+ 98 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 98-A ( NOUN NOUN_PROPER_SINGULAR ) 
+ 98/99 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 986/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 98er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 98ern ( NOUN NOUN_PROPER_SINGULAR ) lemma=98er 
+ 98prozentige ( ADJECTIVE ) lemma=98prozentig 
+ 98prozentiger ( ADJECTIVE ) lemma=98prozentig 
+ 99 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 99,0/96,0 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 99,5/94,0 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 99,5/97,0 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 99-Records ( NOUN NOUN_PROPER_SINGULAR ) lemma=99-Record 
+ 99/3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9918 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9971 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 998/1000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 999er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 99er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 99fachen ( ADJECTIVE ) lemma=99fach 
+ 99jährige ( ADJECTIVE ) lemma=99jährig 
+ 99jährigen ( ADJECTIVE ) lemma=99jährig 
+ 99jähriges ( ADJECTIVE ) lemma=99jährig 
+ 99prozentige ( ADJECTIVE ) lemma=99prozentig 
+ 99prozentigen ( ADJECTIVE ) lemma=99prozentig 
+ 99prozentiger ( ADJECTIVE ) lemma=99prozentig 
+ 9:0-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9:0-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9:0-Triumph ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9:1-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9:1-Punkte ( NOUN NOUN_PROPER_SINGULAR ) lemma=9:1-Punkt 
+ 9:1-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=9:1-Punkt 
+ 9:1-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9:12-Auswärtsniederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9:19-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=9:19-Punkt 
+ 9:2-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9:2-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9:3-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9:3-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9:4-Arbeitssieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9:4-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9:4-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9:5-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9:5-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9:5-Tore ( NOUN NOUN_PROPER_SINGULAR ) lemma=9:5-Tor 
+ 9:6-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9:6-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9:7-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9:7-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=9:7-Punkt 
+ 9:7-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9:7-Vorsprunges ( NOUN NOUN_PROPER_SINGULAR ) lemma=9:7-Vorsprung 
+ 9:8-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9er-Ball ( NOUN NOUN_PROPER_SINGULAR ) 
+ 9jährige ( ADJECTIVE ) lemma=9jährig 
+ 9jährigen ( ADJECTIVE ) lemma=9jährig 
+ 9jähriger ( ADJECTIVE ) lemma=9jährig 
+ 9jähriges ( ADJECTIVE ) lemma=9jährig 
+ 9mal ( ADVERB ) 
  9,5prozentig ( ) 
  9-Beamter ( ) 
  9-Flug ( ) 
@@ -553,17 +303,13 @@
  97jährig ( ) 
  97prozentig ( ) 
  98prozentig ( ) 
- 9,0/96, ( ) lemma=99,0/96,0 
- 9,5/94, ( ) lemma=99,5/94,0 
- 9,5/97, ( ) lemma=99,5/97,0 
- 9-Record ( ) lemma=99-Record 
  99-Record ( ) 
- 98/100 ( ) lemma=998/1000 
- 99e ( ) lemma=999er 
  99fach ( ) 
  99jährig ( ) 
  99prozentig ( ) 
+ 9:1-Punkt ( ) 
  9:19-Punkt ( ) 
  9:5-Tor ( ) 
  9:7-Punkt ( ) 
  9:7-Vorsprung ( ) 
+ 9jährig ( ) 

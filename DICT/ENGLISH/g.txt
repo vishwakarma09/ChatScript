@@ -18950,12 +18950,14 @@
     ice_age~1n 
  get-go ( meanings=1 NOUN NOUN_SINGULAR ) 
     outset~1n 
- gigahertz ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 NOUN_NODETERMINER posdefault:NOUN ) 
-    Gc~1nz (^rate~4) 1,000,000,000 periods per second
- GHz ( meanings=1 NOUN NOUN_PROPER_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER ) 
-    gigahertz~1n 
- gigacycle ( meanings=1 NOUN NOUN_SINGULAR COMMON1 NOUN_NODETERMINER ) 
+ gigahertz ( meanings=1 NOUN NOUN_SINGULAR COMMON2 NOUN_NODETERMINER posdefault:NOUN ) 
     GHz~1n 
+ GHz ( meanings=1 NOUN NOUN_PROPER_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER ) 
+    gigacycle_per_second~1n 
+ gigacycle_per_second ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 
+    Gc~1nz (^rate~4) 1,000,000,000 periods per second
+ gigacycle ( meanings=1 NOUN NOUN_SINGULAR COMMON1 NOUN_NODETERMINER ) 
+    gigahertz~1n 
  Gc ( meanings=1 NOUN NOUN_PROPER_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER ) 
     gigacycle~1n 
  growth_rate ( meanings=1 NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 

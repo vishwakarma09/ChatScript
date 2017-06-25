@@ -1,15 +1,12 @@
 # ChatScript PostgreSQL
 
 © Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 4/24/2017 cs7.4
+<br>Revision 6/25/2017 cs7.51
 
 ChatScript ships with code and WINDOWS libraries for accessing PostgreSQL but you need a database
-somewhere. All builds with the postgres client are `ChatScriptpg` in naming as opposed to
-`ChatScript.exe` or `LinuxChatScript32` or `LinuxChatScript64` which are non postgres builds.
+somewhere and you need a postgres build of ChatScript.
 
-On Linux, ChatScript ships with PostgreSQL client built-in, but if you want to rebuild the system for
-some reason, then while standing in /src type either
-
+While standing in the SRC directory, you can do:
 `make server` – build ordinary CS server w/o PostgreSQL client
 <br>`make pgserver` – build CS server w PostgreSQL client (you had to install postgress first)
 
@@ -22,7 +19,6 @@ to build successfully.
 On Mac and IOS `#define DISCARDDATABASE` is on by default.
 If you have access to a PostgreSQL server remotely, that's fine. 
 If you need one installed on your machine, see the end for how to install one.
-
 
 ## Using Postgres as file server
 

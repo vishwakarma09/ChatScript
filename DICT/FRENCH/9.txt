@@ -1,4 +1,2 @@
-﻿ 9e ( ) 
- 9ème ( ) 
- 9 ( ) lemma=19e 
- 9èm ( ) lemma=19ème 
+﻿ 9e ( NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 9ème ( NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER ) 

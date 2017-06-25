@@ -3,10 +3,10 @@
 > © Bruce Wilcox, gowilcox@gmail.com brilligunderstanding.com
 
 
-> Revision 8/27/2016 cs6.8a
+> Revision 6/25/2017 CS7.51
 
 ChatScript ships with code and WINDOWS libraries for accessing Mongo but you need a database
-somewhere. On windows mongo access is the default. On Linux you have to make mongoserver.
+somewhere. On windows mongo access is using ChatScriptMongo.exe . On Linux you have to make `mongoserver`.
 On Mac and IOS #define DISCARDMONGO is on by default.
 
 If you have access to a Mongo server remotely, that's fine. If you need one installed on your
@@ -44,7 +44,7 @@ By the way, if a call to `^mongoinit` fails, the system will both write why to t
 and set it onto the value of `$$mongo_error`. `^mongonit` will fail if the database is already open.
 
 ### `^mongoclose`()
-loses the currently open collection.
+closes the currently open collection.
 
 ### `^mongoinsertdocument`(key string)
 does an up-sert of a json string (which need not have double quotes around it. 
@@ -55,3 +55,14 @@ removes the corresponding data.
 
 ### `^mongofinddocument`(pattern)
 finds documents corresponding to the mongo pattern (see a mongo manual).
+
+```
+^mongoinit(mongodb://localhost:27017 ChatScript InputOutput)
+
+^mongoinsertdocument(dog ^"I have a dog")
+$_var = ^mongofinddocument(dog)
+^mongodeletedocument(dog)
+# $_var  ==  I have a dog
+
+^mongoclose()
+```

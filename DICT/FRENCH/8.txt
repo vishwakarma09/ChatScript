@@ -1,4 +1,2 @@
-﻿ 8e ( ) 
- 8ème ( ) 
- 8 ( ) lemma=18e 
- 8èm ( ) lemma=18ème 
+﻿ 8e ( NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 8ème ( NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER ) 

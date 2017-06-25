@@ -12138,13 +12138,9 @@
  incise ( meanings=1 glosses=1 VERB_PRESENT VERB_INFINITIVE VERB COMMON2 posdefault:VERB VERB_DIRECTOBJECT ) 
     incise~1vz make an incision into by carving or cutting
  install ( meanings=3 glosses=2 VERB_PRESENT VERB_INFINITIVE VERB COMMON4 COMMON1 posdefault:VERB VERB_DIRECTOBJECT ) 
-    instal~1vz set up for use
+    put_in~5vz set up for use
     set_up~8v 
-    instal~3vz put into an office or a position
- instal ( meanings=3 VERB_PRESENT VERB_INFINITIVE VERB COMMON2 COMMON1 VERB_DIRECTOBJECT ) 
-    put_in~5v 
-    install~2v 
-    install~3v 
+    install~3vz put into an office or a position
  invent ( meanings=2 glosses=1 VERB_PRESENT VERB_INFINITIVE VERB COMMON4 GRADE1_2 posdefault:VERB VERB_DIRECTOBJECT ) 
     contrive~1vz come up with after a mental effort
     make_up~4v 

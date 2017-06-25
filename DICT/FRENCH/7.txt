@@ -1,4 +1,2 @@
-﻿ 7e ( ) 
- 7ème ( ) 
- 7 ( ) lemma=17e 
- 7èm ( ) lemma=17ème 
+﻿ 7e ( NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7ème ( NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER ) 

@@ -1,6 +1,6 @@
 # ChatScript System Variables and Engine-defined Concepts
 © Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 6/18/2017 cs7.5
+<br>Revision 6/25/2017 cs7.51
 
 
 * [Engine-defined Concepts](ChatScript-System-Variables-and-Engine-defined-Concepts.md#engine-defined-concepts)
@@ -577,12 +577,15 @@ contents.
 | `$$csmatch_start`  |  start of found words from ^match |
 | `$$csmatch_end` | end of found words from ^match |
 | `$cs_fullfloat` | if defined, causes the system to generate full float 64-bit precision on outputs, otherwise you get 2 digit precision by default |
-| `cs_botid`    |  when non-zero creates facts and functions restricted by this bitmask so facts and functions created by other masks cannot be seen. allows you to separate facts and functions per bot in a multi-bot environment. During compilation if this is set by a bot: command, then functions created and facts created by tables will be restricted to that owner.| 
+| `$cs_botid`    |  when non-zero creates facts and functions restricted by this bitmask so facts and functions created by other masks cannot be seen. allows you to separate facts and functions per bot in a multi-bot environment. During compilation if this is set by a bot: command, then functions created and facts created by tables will be restricted to that owner.| 
 | `$cs_numbers` | if defined, causes the system to output numbers in a different language style: french, indian. All other values are english. |
 | `$cs_topicretrylimit` | if defined changes how many times you can pass back RETRY_TOPIC before it fails (current limit is 30) |
 | `$$topic_retry_limit_exceeded` | set if topic retry limit is encountered |
 | `$cs_topicretrylimit` | if defined changes how many times you can pass back RETRY_TOPIC before it fails (current limit is 30) |
 | `$cs_saveusedJson` | if not null, the only JSON facts CS will write into the user's topic files that are referred to (directly or indirectly) from user variables being saved. (see below) |
+| `$cs_proxycredentials`    | See ^JSONOPEN in JSON manual| 
+| `$cs_proxyserver`    | See ^JSONOPEN in JSON manual| 
+| `$cs_proxymethod`    | See ^JSONOPEN in JSON manual| 
 
 `$cs_saveusedJson` exists as a kind of garbage collection. Nowadays most facts will come from JSON data either from a website or created in script. But keeping
 on top of deleting obsolete JSON may be overlooked. When this variable is non-null, ChatScript will automatically destroy any JSON fact that cannot trace a JSON

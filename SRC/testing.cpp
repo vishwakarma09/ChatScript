@@ -39,7 +39,7 @@ bool VerifyAuthorization(FILE* in) //   is he allowed to use :commands
 	while (ReadALine(buffer,in) >= 0 )
     {
 		ReadCompiledWord(buffer,word);
-		if (!stricmp(word,(char*)"all") || !stricmp(word,callerIP) || (*word == 'L' && word[1] == '_' && !stricmp(word+2,loginID))) //   allowed by IP or L_loginname
+		if (!stricmp(word,(char*)"all") || !stricmp(word,callerIP) || (*word == 'L' && word[1] == '_' && !stricmp(word+2,loginID)) || (*word == 'P' && word[1] == '_' && strstr(loginID, word + 2))) //   allowed by IP or L_loginname or P_loginname
 		{ 
 			result = true;
 			break;
@@ -486,7 +486,9 @@ static void MemorizeRegress(char* input)
 		if (*outputfile) out = FopenUTF8Write(outputfile);
 		if (!out)
 		{
-			strcpy(outputfile,(char*)"TMP/regress.txt");
+			char fname[200];
+			sprintf(fname, "%s/regress.txt", tmp);
+			strcpy(outputfile,fname);
 			out = FopenUTF8Write(outputfile);
 			if (!out)
 			{
@@ -1002,8 +1004,10 @@ static void C_Document(char* input)
 	{
 		ptr = ReadCompiledWord(ptr,attrib);
 		if (!*attrib) break;
+		char fname[200];
+		sprintf(fname, "%s/out.txt",tmp);
 		if (!stricmp(attrib,(char*)"single")) singleSource = true; // one line at a time, regardless of inability to find a complete sentence
-		else if (!stricmp(attrib,(char*)"echo")) docOut = FopenUTF8Write((char*)"TMP/out.txt"); // clear it
+		else if (!stricmp(attrib,(char*)"echo")) docOut = FopenUTF8Write(fname); // clear it
 		else if (!stricmp(attrib,(char*)"stats")) docstats = true;
 		else if (!stricmp(attrib,(char*)"quit")) docquit = true;
 		else if (!stricmp(attrib,(char*)"sample"))
@@ -3961,7 +3965,9 @@ static void C_Build(char* input)
 		else if (!stricmp(control,(char*)"reset")) reset = true;
 		else if (!stricmp(control,(char*)"keys"))
 		{
-			remove((char*)"TMP/keys.txt");
+			char fname[200];
+			sprintf(fname, "%s/keys.txt", tmp);
+			remove(fname);
 			spell = NOTE_KEYWORDS;
 		}
 		else if (*control == '#')  // allowed conditional elements
@@ -6305,7 +6311,9 @@ static void C_TopicStats(char* input)
 
 static void C_TopicDump(char* input)
 {
-	FILE* out = FopenUTF8Write((char*)"TMP/tmp.txt");
+	char fname[200];
+	sprintf(fname, "%s/tmp.txt",tmp);
+	FILE* out = FopenUTF8Write(fname);
 	size_t len = 0;
 	char* x = strchr(input,'*');
 	if (x) len = x - input;
@@ -6937,7 +6945,9 @@ static void C_Where(char* input)
 
 static void C_AllFacts(char* input)
 {
-	WriteFacts(FopenUTF8Write((char*)"TMP/facts.txt"),factBase);
+	char fname[200];
+	sprintf(fname, "%s/facts.txt", tmp);
+	WriteFacts(FopenUTF8Write(fname),factBase);
 }
 
 static void C_Facts(char* input)
@@ -7179,8 +7189,8 @@ static void C_Retry(char* input)
 	
 	if (!*name) // if not overridden, use default backup data
 	{
-		sprintf(name, (char*)"TMP/backup%s-%s_%s.bin", which, loginID, computerID);
-		if (stricmp(language, "english")) sprintf(name, (char*)"TMP/backup%s-%s_%s_%s.bin", which, loginID, computerID, language);
+		sprintf(name, (char*)"%s/backup%s-%s_%s.bin", tmp,which, loginID, computerID);
+		if (stricmp(language, "english")) sprintf(name, (char*)"%s/backup%s-%s_%s_%s.bin", tmp,which, loginID, computerID, language);
 	}
 	CopyFile2File(file, name, false);
 	char* buffer = FindUserCache(file); //  (does not trigger a read, assumes it has it in core)
@@ -7192,8 +7202,8 @@ static void C_Retry(char* input)
 		sprintf(file,(char*)"%s/topic_%s_%s.txt",users,loginID,(char*)"share");
 		if (stricmp(language,"english")) sprintf(file, (char*)"%s/topic_%s_%s_%s.txt", users, loginID, language,(char*)"share");
 		
-		sprintf(name,(char*)"TMP/backup%s-share-%s_%s.bin",which,loginID,computerID);
-		if (stricmp(language, "english")) sprintf(name, (char*)"TMP/backup%s-share-%s_%s_%s.bin", which, loginID, computerID,language);
+		sprintf(name,(char*)"%s/backup%s-share-%s_%s.bin",tmp,which,loginID,computerID);
+		if (stricmp(language, "english")) sprintf(name, (char*)"%s/backup%s-share-%s_%s_%s.bin", tmp,which, loginID, computerID,language);
 		CopyFile2File(file,name,false);
 		buffer = FindUserCache(file); //  (does not trigger a read, assumes it has it in core)
 		if (buffer) FreeUserCache(); // erase cache of user so it reads revised disk file
@@ -8044,10 +8054,12 @@ static void CleanIt(char* word,uint64 junk) // remove cr from source lines for L
 
 static void C_ExtraTopic(char* input) // topicdump will create a file in TMP/tmp.txt
 {
-	FILE* in = fopen((char*)"TMP/tmp.txt",(char*)"rb");
+	char fname[200];
+	sprintf(fname, "%s/tmp.txt", tmp);
+	FILE* in = fopen(fname,(char*)"rb");
 	if (!in) 
 	{
-		printf("%s",(char*)"missing TMP/tmp.txt\r\n");
+		printf((char*)"missing %s/tmp.txt\r\n",tmp);
 		return;
 	}
 	fseek (in, 0, SEEK_END);
@@ -8088,21 +8100,16 @@ static void SortConcept(WORDP D,uint64 junk)
 
 static void Translate(char* msg,char* to, char* apikey)
 {
-	char* url = AllocateBuffer();
-	size_t len = strlen(msg);
-#ifndef DISCARDJSONOPEN
-	char* tranurl = msg; // JSONOpenCode will do the url encoding
-#else
-	char* tranurl = "";
-#endif
-	len = strlen(tranurl);
-	sprintf(url,"https://translation.googleapis.com/language/translate/v2?q=%s&target=%s&format=text&source=en&key=%s",
-		tranurl,to,apikey);
+	char url[MAX_WORD_SIZE];
+	char* trandata = AllocateBuffer();
+	sprintf(url,"https://translation.googleapis.com/language/translate/v2?target=%s&format=html&source=en&key=%s",
+		to,apikey );
+	sprintf(trandata, "{\"q\":\"%s\"}", msg);
 	char* header = "";
 	ARGUMENT(1) = "transient direct";
-	ARGUMENT(2) = "getu";
+	ARGUMENT(2) = "post";
 	ARGUMENT(3) = url;
-	ARGUMENT(4) = "";
+	ARGUMENT(4) = trandata;
 	ARGUMENT(5) = header;
 	ARGUMENT(6) = "";
 	*msg = 0;
@@ -8118,18 +8125,35 @@ static void Translate(char* msg,char* to, char* apikey)
 	at += 4 + 14; // start of answer past the quote
 	char word1[100];
 	char phrase[MAX_WORD_SIZE];
+	int numwords = 0;
+	bool notphrase = false;
 	*phrase = 0;
 	while (at = ReadCompiledWord(at, word1))
 	{
 		if (!*word1) break;
-		char *ptr = strchr(word1,';'); // every word/phrase will have a trailing semi-colon
+		char *ptr = strstr(word1,"\\u003cbr/\\u003e"); // every word/phrase will have a trailing separator, note < and > are in utf-8
 		if (ptr)
 		{
-			*ptr = 0; // found the end of the translation
-			if (*phrase) {
+			*ptr = 0; // found the end of a translation
+			if (notphrase)
+			{
+				strcpy(msg, "!");
+				msg++;
+			}
+			if (*phrase) 
+			{
 				// had previously started a phrase, so copy it over as a quoted string
-				strcat(phrase, word1);
-				strcat(phrase, "\" ");
+				if (strlen(word1) > 0)
+				{
+					strcat(phrase, word1);
+					numwords++;
+				}
+				if (numwords > 1)
+				{
+					strcpy(msg, "\"");
+					msg++;
+					strcat(phrase, "\"");
+				}
 				strcpy(msg, phrase);
 				msg += strlen(phrase);
 				*phrase = 0;
@@ -8139,25 +8163,24 @@ static void Translate(char* msg,char* to, char* apikey)
 				// single word translation
 				strcpy(msg, word1);
 				msg += strlen(word1);
-				*msg++ = ' ';
 			}
+			*msg++ = ' ';
+			numwords = 0;
+			notphrase = false;
 		}
 		else
 		{
 			// not reached the end of the phrase, so just save this word for now
+			numwords++;
 			if (!*phrase && *word1 == '!')
 			{
-				strcat(phrase, "!\"");
-				if (*(word1+1))
-				{
-					strcat(phrase, word1+1);
-					strcat(phrase, " ");
-				}
+				notphrase = true;
+				if (*(word1 + 1)) strcat(phrase, word1 + 1);
 			}
-			else {
-				if (!*phrase) strcat(phrase, "\"");
+			else
+			{
+				if (numwords > 1) strcat(phrase, " ");
 				strcat(phrase, word1);
-				strcat(phrase, " ");
 			}
 		}
 	}
@@ -8311,7 +8334,7 @@ static void C_TranslateConcept(char* input) // give the language & filename to w
 			{
 				strcat(outputforeign, " ");
 			}
-			strcat(outputforeign, "; "); // add our own punctuation character to indicate end of word/phrase
+			strcat(outputforeign, "<br/>");// add our own html break to indicate end of word/phrase
 			if (found) break;
 		}
 
@@ -8332,7 +8355,7 @@ static void C_TranslateConcept(char* input) // give the language & filename to w
 				while (++at)
 				{
 					if ((at-start) > 3500) break; // accept last hole
-					else if (*at == ';') lasthole = at + 1;
+					else if (!strncmp(at,"<br/>",5)) lasthole = at + 1;
 				}
 				strncpy(translation,start,lasthole-start);
 				translation[lasthole-start] = 0;
@@ -9069,7 +9092,9 @@ static void MarkDownHierarchy(MEANING T)
 
 static void C_Coverage(char* input)
 {
-	FILE* out = FopenUTF8Write((char*)"TMP/coverage.txt");
+	char fname[200];
+	sprintf(fname, "%s/coverage.txt", tmp);
+	FILE* out = FopenUTF8Write(fname);
 	if (!out) return;
 	for (int i = 1; i <= numberOfTopics; ++i) 
 	{
@@ -9097,9 +9122,12 @@ static void C_Coverage(char* input)
 
 static void C_ShowCoverage(char* input)
 {
-	FILE* in = FopenReadOnly((char*)"TMP/coverage.txt");
+	char fname[200];
+	sprintf(fname, "%s/coverage.txt", tmp);
+	FILE* in = FopenReadOnly(fname);
 	if (!in) return;
-	FILE* out = FopenUTF8Write((char*)"TMP/coverageresult.txt");
+	sprintf(fname, "%s/coverageresult.txt", tmp);
+	FILE* out = FopenUTF8Write(fname);
 	if (!out) return;
 	maxFileLine = currentFileLine = 0;
 	ReadALine(readBuffer,in); // get a data
@@ -9355,24 +9383,61 @@ static void IndentDisplay(char* one, char* two,char* display)
 	strcat(display,(char*)"\r\n\r\n");
 }
 
+static void C_QuoteLines(char* file)
+{
+	char name[MAX_WORD_SIZE];
+	sprintf(name, "%s/tmp.txt", tmp);
+	FILE* in = fopen(file, "rb");
+	if (!in)
+	{
+		printf("file not found");
+		return;
+	}
+	FILE* out = FopenUTF8Write(name);
+
+	// format is  word  `lemma` POSes
+	char word[MAX_WORD_SIZE];
+	word[0] = '"';
+	while (ReadALine(readBuffer, in) >= 0)
+	{
+		char* ptr = SkipWhitespace(readBuffer);
+		if (!*ptr) continue;
+		strcpy(word+1, ptr);
+		size_t len = strlen(word);
+		if (word[len - 1] == ' ') --len;
+		word[len] = '"';
+		word[len+1] = 0;
+		fprintf(out, "%s\r\n", word);
+	}
+	fclose(in);
+	fclose(out);
+	printf("done\r\n");
+}
+
 static void BuildForeign(char* input)
 {
 	char word[MAX_WORD_SIZE];
-	char language[MAX_WORD_SIZE];
-	input = ReadCompiledWord(input,language);
-	MakeUpperCase(language);
+	char lang[MAX_WORD_SIZE];
+	input = ReadCompiledWord(input,lang);
+	MakeUpperCase(lang);
+	strcpy(language, lang);
 
 	UseDictionaryFile(NULL);
 	InitFacts();
+	setMaxHashBuckets = true;
 	InitDictionary();
+	setMaxHashBuckets = false;
 	InitStackHeap();
 	InitCache();
+
+	InitFactWords();
+	AcquireDefines((char*)"SRC/dictionarySystem.h"); //   get dictionary defines (must occur before loop that decodes properties into sets (below)
 
 	char name[MAX_WORD_SIZE];
 	sprintf(name, "DICT/%s", language);
 	MakeDirectory(name);
 	ClearDictionaryFiles();
-
+	ClearWordMaps();
 	char lemma[MAX_WORD_SIZE];
 	ReadForeign();
 
@@ -9384,21 +9449,26 @@ static void BuildForeign(char* input)
 		return;
 	}
 
+	// format is  word  `lemma` POSes
 	while (ReadALine(readBuffer,in) >= 0)
 	{
-		char* ptr = ReadCompiledWord(readBuffer,word);
+		char* ptr = ReadTokenMass(readBuffer, word);
 		if (!*word) continue;
 		if ((unsigned char) word[0] ==  0xEF && (unsigned char) word[1] == 0xBB && (unsigned char) word[2] == 0xBF) continue; // UTF8 BOM
-		size_t len = strlen(word);
-		word[len - 1] = 0;	// remove "
-		memmove(word, word + 1, len); // remove "
-		if (!*word) continue;
+		// word might be a phrase
+		char* startlemma = strchr(ptr, '`');
+		if (!startlemma) continue;
 
-		char* close = strrchr(ptr, ')'); 
-		if (!close) continue;
+		char* base = SkipWhitespace(readBuffer);
+		*(startlemma - 1) = 0;
+		strcpy(word, base);
+		*(startlemma - 1) = '`';
+
+		char* close = strrchr(startlemma+1, '`');
+		if (!close) continue; // no lemma?
 		*close = 0;
-		strcpy(lemma, ptr + 1);
-		*close = ')';
+		strcpy(lemma, startlemma + 1);
+		*close = '`';
 		if (!strcmp(lemma, word)) *lemma = 0; // cancel same lemma
 
 		char pos[MAX_WORD_SIZE];
@@ -9410,7 +9480,8 @@ static void BuildForeign(char* input)
 			p = ReadCompiledWord(p, pos+1);
 			if (!pos[1]) break;
 			WORDP D = FindWord(pos);
-			if (D) flags |= D->properties;
+			if (D && D->properties) 
+				flags |= D->properties;
 		}
 		WORDP D = StoreWord(word, flags);
 		if (*lemma) SetCanonical(D, MakeMeaning(StoreWord(lemma)));
@@ -9443,7 +9514,9 @@ static void TrimIt(char* name,uint64 flag)
 	if ((++filesSeen % 1000) == 0) printf("%s",format); // mark progress thru files
 
 	bool header = false;
-	FILE* out = FopenUTF8WriteAppend((char*)"TMP/tmp.txt");
+	char fname[200];
+	sprintf(fname, "%s/tmp.txt", tmp);
+	FILE* out = FopenUTF8WriteAppend(fname);
 	if (!out) return;
 	char file[SMALL_WORD_SIZE];
 	*file = 0;
@@ -9782,7 +9855,9 @@ static void C_Trim(char* input) // create simple file of user chat from director
 	if (!stricmp(word, "nooob")) nooob = 2;  // original was output only
 	else nooob = atoi(word);
 
-	FILE* out = FopenUTF8Write((char*)"TMP/tmp.txt");
+	char fname[200];
+	sprintf(fname, "%s/tmp.txt", tmp);
+	FILE* out = FopenUTF8Write(fname);
 	fprintf(out,(char*)"# %s\r\n",original);
 	Log(STDTRACELOG,(char*)"# %s\r\n",input);
 	FClose(out);
@@ -9894,6 +9969,7 @@ CommandInfo commandSet[] = // NEW
 	{ (char*)":builddict",BuildDictionary,(char*)" basic, layer0, layer1, foreign, or wordnet are options instead of default full"}, 
 	{ (char*)":buildforeign",BuildForeign,(char*)"regenerate foreign language dictionary"}, 
 	{ (char*)":clean",C_Clean,(char*)"Convert source files to NL instead of CR/LF for unix"},
+	{ (char*)":quotelines",C_QuoteLines,(char*)"Read lines from file, add quotes around them, write to tmp/tmp.txt" },
 #ifndef DISCARDPOSTGRES
 	{ (char*)":endpguser",C_EndPGUser,(char*)"Switch from postgres user topic to file system"},
 #endif

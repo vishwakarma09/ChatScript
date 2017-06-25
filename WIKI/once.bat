@@ -1,3 +1,3 @@
 
-pandoc ChatScript-Command-Line-Parameters.md -s -o ChatScript-Command-Line_Parameters.html
+pandoc ChatScript-Multiple-Bots.md -s -o ../PDFDOCUMENTATION/ChatScript-Multiple-Bots.pdf
 pause

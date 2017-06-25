@@ -1,6 +1,6 @@
 # ChatScript System Functions Manual
 © Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 6/18/2017 cs7.5
+<br>Revision 6/25/2017 cs7.51
 
 * [Topic Functions](ChatScript-System-Functions-Manual.md#topic-functions)
 * [Marking Functions](ChatScript-System-Functions-Manual.md#marking-functions)
@@ -1660,13 +1660,14 @@ For verbs with irregular pronoun conjugation, supply 4th argument of pronoun to 
 | part-of-speech       | word/verb/number<br>(+ supplement-data argument) | action
 |----------------------|----------------------------------|-------------------------- 
 | `conjugate`          | pos-integer<br>(as returned from `^partofspeech`) | returns the word with that part of speech (eg conjugate go #VERB_PAST_PARTICIPLE)
-|`raw`                 | integer 1 .. `%length` | (returns the original word in sentence)
+| `raw`                | integer 1 .. `%length` | (returns the original word in sentence)
 | `syllable`           | word | tells you how many syllables a word has
 | `hex64`              | integer-word | converts a number to 64bit hex
 | `hex32`              | integer-word | converts a number to 32 bit hex
 | `ismodelnumber`      | word | return 1 if it is (mixed alpha/numeric). Fails otherwise.
 | `isinteger`      | word | return 1 if it is all digits, fails otherwise
 | `isfloat`      | word | return 1 if it is float, fails otherwise
+| `isuppercase`      | word | return 1 if it begins with an uppercase letter, fails otherwise
 | `type`               | word         | returns concept, number, word, or unknown
 | `common`             | word         | returns level of commonness of the word
 | `verb`               | verb         | given verb in any form, return requested form

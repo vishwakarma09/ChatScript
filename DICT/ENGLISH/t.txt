@@ -1846,7 +1846,7 @@
     tread~3nz (^contact~3) the part that makes contact with the ground
     tread~4nz (^surface~2) the grooved surface of a pneumatic tire
     tread~5vz brace by pressing the foot against the center
-    tread~6vz (^copulate~1) mate with
+    tread~6vz mate with
     tread~7vz crush as if by treading on
     trample~4v 
     step~16v 
@@ -2966,7 +2966,7 @@
     take_away~1v 
     take~5vz ascertain or determine by measuring, computing or take a reading from a dial
     assume~2v 
-    take~7vz (^become~1) be seized or affected in a specified way
+    take~7vz be seized or affected in a specified way
     study~11v 
     read~5v 
     submit~1vz accept or undergo, often unwillingly
@@ -2979,7 +2979,7 @@
     aim~11v 
     have~7v 
     get_hold_of~3vz get into one's hands, take physically
-    take~20vz (^have_intercourse~1) travel or go by means of a certain kind of transportation, or a certain route
+    take~20vz travel or go by means of a certain kind of transportation, or a certain route
     drive~26v 
     strike~21v 
     direct~23v 
@@ -9532,6 +9532,9 @@
     troika~3n 
  thirty-second_note ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     demisemiquaver~1nz (^note~5) a musical note having the time value of a thirty-second of a whole note
+ thirty-second ( meanings=2 glosses=1 NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR posdefault:NOUN ) 
+    one-thirty-second~1n 
+    thirty-second~2az the ordinal number of thirty-two in counting order
  tenor_voice ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     tenor~4nz (^singing_voice~1) the adult male singing voice above baritone
  traffic_light ( meanings=1 NOUN NOUN_SINGULAR ) 
@@ -14430,8 +14433,16 @@
     tumefaction~1nz (^biological_process~1) the process of tumefying
  transmittance ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 COMMON1 posdefault:NOUN ) 
     transmission~5nz (^coefficient~1) the fraction of radiant energy that passes through a substance
- teraflop ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 posdefault:NOUN ) 
+ teraflop ( meanings=1 NOUN NOUN_SINGULAR COMMON2 posdefault:NOUN ) 
+    trillion_floating_point_operations_per_second~1n 
+ trillion_floating_point_operations_per_second ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     teraflop~1nz (^unit~5) a unit for measuring the speed of a computer system
+ trillion ( meanings=5 glosses=4 NOUN_ABSTRACT NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER KINDERGARTEN ) 
+    one_million_million~2nz (^large_integer~1) the number that is represented as a one followed by 12 zeros
+    one_million_million_million~1nz (^large_integer~1) the number that is represented as a one followed by 18 zeros
+    gazillion~1n 
+    trillion~4az one million million in the United States
+    trillion~5az one quintillion in Great Britain
  telephone_unit ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     telephone_unit~1nz (^unit~5) a unit of measurement for telephone use
  temperature_unit ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
@@ -14562,7 +14573,7 @@
  three-fourths ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     three-fourths~1nz (^common_fraction~1) three of four equal parts
  twenty_percent ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
-    fifth_part~1nz (^common_fraction~1) one part in five equal parts
+    one-fifth~1nz (^common_fraction~1) one part in five equal parts
  tenth_part ( meanings=1 NOUN NOUN_SINGULAR ) 
     one-tenth~1n 
  ten_percent ( meanings=1 NOUN NOUN_SINGULAR ) 
@@ -14570,7 +14581,7 @@
  twelfth_part ( meanings=1 NOUN NOUN_SINGULAR ) 
     one-twelfth~1n 
  thirty-second_part ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
-    thirty-second_part~1nz (^common_fraction~1) one part in thirty-two equal parts
+    thirty-second~1nz (^common_fraction~1) one part in thirty-two equal parts
  thousandth ( meanings=3 glosses=2 NOUN_ABSTRACT NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR ) 
     one-thousandth~1n 
     thousandth~2nz (^rank~5) position 1,000 in a countable series of things
@@ -14631,12 +14642,6 @@
  ten_thousand ( meanings=2 glosses=2 NOUN_ABSTRACT NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR ) 
     myriad~1nz (^large_integer~1) the cardinal number that is the product of ten and one thousand
     ten_thousand~2az denoting a quantity consisting of 10,000 items or units
- trillion ( meanings=5 glosses=4 NOUN_ABSTRACT NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER KINDERGARTEN ) 
-    one_million_million~2nz (^large_integer~1) the number that is represented as a one followed by 12 zeros
-    one_million_million_million~1nz (^large_integer~1) the number that is represented as a one followed by 18 zeros
-    billion~3n 
-    trillion~4az one million million in the United States
-    trillion~5az one quintillion in Great Britain
  tad ( meanings=1 NOUN NOUN_SINGULAR COMMON2 COMMON1 posdefault:NOUN ) 
     shade~6n 
  top-up ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR posdefault:NOUN ) 
@@ -15800,7 +15805,7 @@
  theatrical_season ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     theatrical_season~1nz (^season~3) the season when new plays are produced
  trice ( meanings=3 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR COMMON2 posdefault:NOUN VERB_DIRECTOBJECT ) 
-    jiffy~1n 
+    split_second~1n 
     trice_up~1v 
     trice_up~2v 
  twinkling ( meanings=2 glosses=1 NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR ADJECTIVE_NOT_PREDICATE COMMON2 COMMON1 posdefault:VERB ) 
@@ -16062,7 +16067,7 @@
     technocide~1nz 
  telefax ( meanings=2 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR COMMON2 NOUN_NODETERMINER posdefault:NOUN VERB_DIRECTOBJECT VERB_INDIRECTOBJECT VERB_NOOBJECT ) 
     telefax~1nz 
-    fax~2v 
+    fax~3v 
  tomtom ( meanings=1 NOUN NOUN_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER posdefault:NOUN ) 
     tomtom~1nz 
  tug-o-war ( meanings=1 NOUN NOUN_SINGULAR NOUN_NODETERMINER GRADE1_2 ) 
@@ -17331,8 +17336,16 @@
     cc~2az 
  three_hundred ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
     ccc~1az 
+ twenty-first ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ADJECTIVE_NUMBER ORDINAL KINDERGARTEN QUANTITY_NOUN ) 
+    twenty-first~1az coming next after the twentieth in position
+ twenty-second ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ADJECTIVE_NUMBER ORDINAL KINDERGARTEN QUANTITY_NOUN ) 
+    twenty-second~1az coming next after the twenty-first in position
+ twenty-third ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ADJECTIVE_NUMBER ORDINAL KINDERGARTEN QUANTITY_NOUN ) 
+    twenty-third~1az coming next after the twenty-second in position
  twenty-fourth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL KINDERGARTEN ) 
     twenty-fourth~1az coming next after the twenty-third in position
+ twenty-fifth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ADJECTIVE_NUMBER ORDINAL KINDERGARTEN QUANTITY_NOUN ) 
+    twenty-fifth~1az coming next after the twenty-fourth in position
  twenty-sixth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL KINDERGARTEN ) 
     twenty-sixth~1az coming next after the twenty-fifth in position
  twenty-seventh ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL KINDERGARTEN ) 
@@ -17341,8 +17354,14 @@
     twenty-eighth~1az coming next after the twenty-seventh in position
  twenty-ninth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL KINDERGARTEN ) 
     twenty-ninth~1az coming next after the twenty-eighth in position
+ thirty-first ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ADJECTIVE_NUMBER ORDINAL KINDERGARTEN QUANTITY_NOUN ) 
+    thirty-first~1az coming next after the thirtieth in position
+ thirty-third ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    thirty-third~1az the ordinal number of thirty-three in counting order
  thirty-fourth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     thirty-fourth~1az the ordinal number of thirty-four in counting order
+ thirty-fifth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    thirty-fifth~1az the ordinal number of thirty-five in counting order
  thirty-sixth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     thirty-sixth~1az the ordinal number of thirty-six in counting order
  thirty-seventh ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 

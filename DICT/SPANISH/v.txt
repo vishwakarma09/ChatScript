@@ -1,4 +1,4 @@
-﻿ V ( ) lemma=SVT 
+﻿ V ( NOUN ADJECTIVE_NUMBER NOUN_SINGULAR NOUN_NUMBER ) 
  V.1 ( ) 
  V.10 ( ) 
  V.11 ( ) 
@@ -15,7 +15,7 @@
  V.3 ( ) 
  V.36 ( ) 
  V.4 ( ) 
- VDA ( ) 
+ VDA ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
  VEI ( ) 
  VERED ( ) 
  VERM ( ) 
@@ -23,2306 +23,1937 @@
  VERX ( ) 
  VF ( ) 
  VFT ( ) 
- VI ( ) lemma=XVII 
+ VI ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  VI-4 ( ) 
  VI.1 ( ) 
  VI.3 ( ) 
  VI.4 ( ) 
  VI.8 ( ) 
- VII ( ) 
+ VII ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  VII.5 ( ) 
- VIII ( ) 
- VIR ( ) 
+ VIII ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ VIR ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
  VLR ( ) 
- VNBC ( ) 
- VP ( ) 
+ VNBC ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ VP ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
  VPLMN ( ) 
- VT ( ) 
- VTH ( ) 
- Vaccinia ( ) 
- Valderrama ( ) 
- Valdez ( ) 
- Valdés ( ) 
- Valencia ( ) 
- Valenzuela ( ) 
- Valladares ( ) 
- Valladolid ( ) 
- Vallarta ( ) 
- Valle ( ) 
- Vallejo ( ) 
- Vallfogona ( ) 
- Vallès ( ) 
- Valparaíso ( ) 
- Valsalva ( ) 
- Valverde ( ) 
- Van ( ) 
- Vanel ( ) 
- Vanuatu ( ) 
- Vargas ( ) 
- Varsovia ( ) 
- Vaticano ( ) 
- Vav ( ) 
- Vc ( ) 
- Velasco ( ) 
- Velia ( ) 
- Velikoski ( ) 
- Velásquez ( ) 
- Velázquez ( ) 
- Venecia ( ) 
- Venezuela ( ) 
- Venus ( ) 
- Veracruz ( ) 
- Veras ( ) 
- Verdiamarillas ( ) 
- Vernadsky ( ) 
- Vero ( ) 
- Verónica ( ) 
- Vesalio ( ) 
- Vevey ( ) 
- Vezindario ( ) 
- Viana ( ) 
- Vicente ( ) 
- Vicepresidente ( ) 
- Vich ( ) 
- Victoria ( ) 
- Victoriano ( ) 
- Victorio ( ) 
- Vidal ( ) 
- Viena ( ) 
- Vietnam ( ) 
- Vigo ( ) 
- Villalba ( ) 
- Villalobos ( ) 
- Villanueva ( ) 
- Villarreal ( ) 
- Villegas ( ) 
- Vin ( ) 
- Virgen ( ) 
- Virgilio ( ) 
- Virginia ( ) 
- Virgo ( ) 
- Visitación ( ) 
- Vitoria ( ) 
- Vitoria-Gasteiz ( ) 
- Viveret ( ) 
- Vivián ( ) 
- Vivín ( ) 
- Vizcaya ( ) 
- Viña ( ) 
- Vladi ( ) 
- Vladimir ( ) 
- Vladimiro ( ) 
- Voigt ( ) 
- Vol ( ) 
- Vol. ( ) 
- Volco ( ) 
- Volk ( ) 
- Volkswagen ( ) 
+ VT ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ VTH ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vaccinia ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Valderrama ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Valdez ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Valdés ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Valencia ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Valenzuela ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Valladares ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Valladolid ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vallarta ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Valle ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vallejo ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vallfogona ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vallès ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Valparaíso ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Valsalva ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Valverde ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Van ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vanel ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vanuatu ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vargas ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Varsovia ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vaticano ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vav ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vc ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Velasco ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Velia ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Velikoski ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Velásquez ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Velázquez ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Venecia ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Venezuela ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Venus ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Veracruz ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Veras ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=Vera 
+ Verdiamarillas ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vernadsky ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vero ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Verónica ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vesalio ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vevey ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vezindario ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Viana ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vicente ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vicepresidente ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vich ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Victoria ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Victoriano ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Victorio ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vidal ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Viena ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vietnam ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vigo ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Villalba ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Villalobos ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Villanueva ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Villarreal ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Villegas ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vin ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Virgen ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Virgilio ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Virginia ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Virgo ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Visitación ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vitoria ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vitoria-Gasteiz ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Viveret ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vivián ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vivín ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vizcaya ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Viña ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vladi ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=Vladimiro 
+ Vladimir ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vladimiro ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Voigt ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vol ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vol. ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Volco ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Volk ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Volkswagen ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
  VoyeZ ( ) 
- Vásquez ( ) 
- Vázquez ( ) 
- Vélez ( ) 
- Víctor ( ) 
- Vírgenes ( ) 
- v ( ) lemma=uva 
+ Vásquez ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vázquez ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vélez ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Víctor ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Vírgenes ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ v ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  v.g ( ) 
- va ( ) lemma=uva 
- vaca ( ) 
- vacacional ( ) 
- vacaciones ( ) 
- vacación ( ) 
- vacante ( ) 
- vacantes ( ) 
- vacas ( ) 
- vaccinia ( ) 
- vaciada ( ) 
- vaciadas ( ) 
- vaciado ( ) 
- vaciando ( ) 
- vaciar ( ) 
- vaciara ( ) 
- vaciaron ( ) 
- vaciarán ( ) 
- vaciaría ( ) 
- vacila ( ) 
- vacilaba ( ) 
- vacilada ( ) 
- vacilado ( ) 
- vacilamos ( ) 
- vacilan ( ) 
- vacilando ( ) 
- vacilar ( ) 
- vacilaremos ( ) 
- vacilaron ( ) 
- vacilará ( ) 
- vacilarán ( ) 
- vacilaré ( ) 
- vacilaría ( ) 
- vacile ( ) 
- vacilemos ( ) 
- vacilen ( ) 
- vacilo ( ) 
- vaciló ( ) 
- vacuas ( ) 
- vacuidad ( ) 
- vacuna ( ) 
- vacunaciones ( ) 
- vacunación ( ) 
- vacunadas ( ) 
- vacunado ( ) 
- vacunados ( ) 
- vacunamos ( ) 
- vacunan ( ) 
- vacunar ( ) 
- vacunaran ( ) 
- vacunarle ( ) 
- vacunaron ( ) 
- vacunas ( ) 
- vacuno ( ) 
- vacunos ( ) 
- vacunoterapia ( ) 
- vacuola ( ) 
- vacuum ( ) 
- vacía ( ) 
- vacían ( ) 
- vacías ( ) 
- vacíes ( ) 
- vacío ( ) 
- vacíos ( ) 
- vaga ( ) 
- vagaban ( ) 
- vagabunda ( ) 
- vagabundear ( ) 
- vagabundeo ( ) 
- vagabundo ( ) 
- vagabundos ( ) 
- vagal ( ) 
- vagamente ( ) 
- vagan ( ) 
- vagando ( ) 
- vagar ( ) 
- vagarán ( ) 
- vagas ( ) 
- vagina ( ) 
- vaginal ( ) 
- vaginismo ( ) 
- vago ( ) 
- vagones ( ) 
- vagos ( ) 
- vaguedad ( ) 
- vaguedades ( ) 
- vaguen ( ) 
- vagón ( ) 
- vahído ( ) 
- vai ( ) 
- vaina ( ) 
- vainas ( ) 
- vainilla ( ) 
- vainitas ( ) 
- vais ( ) 
- vaivenes ( ) 
- vaivén ( ) 
- vajilla ( ) 
- vajillas ( ) 
- valdrá ( ) 
- valdrán ( ) 
- valdría ( ) 
- vale ( ) lemma=aval 
- valedera ( ) 
- valedores ( ) 
- valemos ( ) 
- valen ( ) 
+ va ( VERB ) lemma=ir 
+ vaca ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ vacacional ( ADJECTIVE ) 
+ vacaciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vacación 
+ vacación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vacante ( VERB_PAST_PARTICIPLE VERB ADJECTIVE ) 
+ vacantes ( VERB_PAST_PARTICIPLE VERB ) lemma=vacar 
+ vacas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=vaca 
+ vaccinia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vaciada ( VERB_PAST_PARTICIPLE VERB ) lemma=vaciar 
+ vaciadas ( VERB_PAST_PARTICIPLE VERB ) lemma=vaciar 
+ vaciado ( VERB_PAST_PARTICIPLE VERB ) lemma=vaciar 
+ vaciando ( NOUN NOUN_GERUND ) lemma=vaciar 
+ vaciar ( VERB ) 
+ vaciara ( VERB ) lemma=vaciar 
+ vaciaron ( VERB ) lemma=vaciar 
+ vaciarán ( VERB ) lemma=vaciar 
+ vaciaría ( VERB ) lemma=vaciar 
+ vacila ( VERB ) lemma=vacilar 
+ vacilaba ( VERB ) lemma=vacilar 
+ vacilada ( VERB_PAST_PARTICIPLE VERB ) lemma=vacilar 
+ vacilado ( VERB_PAST_PARTICIPLE VERB ) lemma=vacilar 
+ vacilamos ( VERB ) lemma=vacilar 
+ vacilan ( VERB ) lemma=vacilar 
+ vacilando ( NOUN NOUN_GERUND ) lemma=vacilar 
+ vacilar ( VERB ) 
+ vacilaremos ( VERB ) lemma=vacilar 
+ vacilaron ( VERB ) lemma=vacilar 
+ vacilará ( VERB ) lemma=vacilar 
+ vacilarán ( VERB ) lemma=vacilar 
+ vacilaré ( VERB ) lemma=vacilar 
+ vacilaría ( VERB ) lemma=vacilar 
+ vacile ( VERB ) lemma=vacilar 
+ vacilemos ( VERB ) lemma=vacilar 
+ vacilen ( VERB ) lemma=vacilar 
+ vacilo ( VERB ) lemma=vacilar 
+ vaciló ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=vacilar 
+ vacuas ( ADJECTIVE ) lemma=vacuo 
+ vacuidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vacuna ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ vacunaciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vacunación 
+ vacunación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vacunadas ( VERB_PAST_PARTICIPLE VERB ) lemma=vacunar 
+ vacunado ( VERB_PAST_PARTICIPLE VERB ) lemma=vacunar 
+ vacunados ( VERB_PAST_PARTICIPLE VERB ) lemma=vacunar 
+ vacunamos ( VERB ) lemma=vacunar 
+ vacunan ( VERB ) lemma=vacunar 
+ vacunar ( VERB ) 
+ vacunaran ( VERB ) lemma=vacunar 
+ vacunarle ( VERB_INFINITIVE VERB ) lemma=vacunar 
+ vacunaron ( VERB ) lemma=vacunar 
+ vacunas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=vacuna 
+ vacuno ( VERB ) lemma=vacunar 
+ vacunos ( ADJECTIVE ) lemma=vacuno 
+ vacunoterapia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vacuola ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vacuum ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vacía ( VERB ADJECTIVE ) lemma=vacio 
+ vacían ( VERB ) lemma=vaciar 
+ vacías ( ADJECTIVE ) lemma=vacío 
+ vacíes ( VERB ) lemma=vaciar 
+ vacío ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ vacíos ( ADJECTIVE ) lemma=vacío 
+ vaga ( VERB ADJECTIVE ) lemma=vago 
+ vagaban ( VERB ) lemma=vagar 
+ vagabunda ( ADJECTIVE ) lemma=vagabundo 
+ vagabundear ( VERB ) 
+ vagabundeo ( VERB ) lemma=vagabundear 
+ vagabundo ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ vagabundos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vagabundo 
+ vagal ( ADJECTIVE ) 
+ vagamente ( ADVERB ) lemma=vago 
+ vagan ( VERB ) lemma=vagar 
+ vagando ( NOUN NOUN_GERUND ) lemma=vagar 
+ vagar ( VERB ) 
+ vagarán ( VERB ) lemma=vagar 
+ vagas ( VERB ADJECTIVE ) lemma=vago 
+ vagina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vaginal ( ADJECTIVE ) 
+ vaginismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vago ( VERB ADJECTIVE ) 
+ vagones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vagón 
+ vagos ( ADJECTIVE ) lemma=vago 
+ vaguedad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vaguedades ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vaguedad 
+ vaguen ( VERB ) lemma=vagar 
+ vagón ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vahído ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vai ( VERB ) lemma=ir 
+ vaina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vainas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vaina 
+ vainilla ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vainitas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vainita 
+ vais ( VERB ) lemma=ir 
+ vaivenes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vaivén 
+ vaivén ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vajilla ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vajillas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vajilla 
+ valdrá ( VERB ) lemma=valer 
+ valdrán ( VERB ) lemma=valer 
+ valdría ( VERB ) lemma=valer 
+ vale ( NOUN VERB ADVERB NOUN_SINGULAR NOUN_PLURAL ) 
+ valedera ( ADJECTIVE ) lemma=valedero 
+ valedores ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=valedor 
+ valemos ( VERB ) lemma=valer 
+ valen ( VERB ) lemma=valer 
  valence ( ) 
- valencia ( ) 
- valenciana ( ) 
- valencianas ( ) 
- valenciano ( ) 
- valencianos ( ) 
- valentía ( ) 
- valer ( ) 
- valernos ( ) 
- valerosa ( ) 
- valerosamente ( ) 
- valerosas ( ) 
- valeroso ( ) 
- valerosos ( ) 
- valerse ( ) 
- vales ( ) 
+ valencia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ valenciana ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=valenciano 
+ valencianas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=valenciano 
+ valenciano ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ valencianos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=valenciano 
+ valentía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ valer ( VERB ) 
+ valernos ( VERB_INFINITIVE VERB ) lemma=valer 
+ valerosa ( ADJECTIVE ) lemma=valeroso 
+ valerosamente ( ADVERB ) lemma=valeroso 
+ valerosas ( ADJECTIVE ) lemma=valeroso 
+ valeroso ( ADJECTIVE ) 
+ valerosos ( ADJECTIVE ) lemma=valeroso 
+ valerse ( VERB_INFINITIVE VERB ) 
+ vales ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=vale 
  valeur ( ) 
- valga ( ) 
- valgan ( ) 
- valgo ( ) 
- valida ( ) 
- validaciones ( ) 
- validación ( ) 
- validada ( ) 
- validadas ( ) 
- validado ( ) 
- validados ( ) 
- validando ( ) 
- validar ( ) 
- validaron ( ) 
- validará ( ) 
- validas ( ) 
- validen ( ) 
- validez ( ) 
- valido ( ) 
- validos ( ) 
- validó ( ) 
- valiendo ( ) 
- valiente ( ) 
- valientemente ( ) 
- valientes ( ) 
- valiera ( ) 
- valieran ( ) 
- valieron ( ) 
- valija ( ) 
- valijas ( ) 
- valina ( ) 
- valiosa ( ) 
- valiosas ( ) 
- valioso ( ) 
- valiosos ( ) 
- valiosísima ( ) 
- valiosísimas ( ) 
- valiosísimo ( ) 
- valiosísimos ( ) 
- valiéndose ( ) 
- valió ( ) 
- valla ( ) 
- vallados ( ) 
- vallas ( ) 
- valle ( ) 
- vallecillo ( ) 
- valles ( ) 
- vallisoletana ( ) 
- vallisoletano ( ) 
- valor ( ) 
- valora ( ) 
- valoraba ( ) 
- valoraban ( ) 
- valorable ( ) 
- valoraciones ( ) 
- valoración ( ) 
- valorada ( ) 
- valoradas ( ) 
- valorado ( ) 
- valorados ( ) 
- valoramos ( ) 
- valoran ( ) 
- valorando ( ) 
- valorar ( ) 
- valoraran ( ) 
- valoraremos ( ) 
- valorarla ( ) 
- valorarlo ( ) 
- valorarlos ( ) 
- valoraron ( ) 
- valorarse ( ) 
- valorará ( ) 
- valorarán ( ) 
- valoraría ( ) 
- valoras ( ) 
- valorase ( ) 
- valore ( ) 
- valoremos ( ) 
- valoren ( ) 
- valores ( ) 
- valorice ( ) 
- valoricen ( ) 
- valoriza ( ) 
- valorizables ( ) 
- valorización ( ) 
- valorizada ( ) 
- valorizadas ( ) 
- valorizado ( ) 
- valorizados ( ) 
- valorizamos ( ) 
- valorizan ( ) 
- valorizando ( ) 
- valorizar ( ) 
- valorizará ( ) 
- valorizarán ( ) 
- valoro ( ) 
- valorábamos ( ) 
- valorándose ( ) 
- valoró ( ) 
- valproato ( ) 
- valuada ( ) lemma=evaluar 
- valuadas ( ) 
- valuado ( ) lemma=evaluar 
- valuados ( ) 
+ valga ( VERB ) lemma=valer 
+ valgan ( VERB ) lemma=valer 
+ valgo ( VERB ) lemma=valer 
+ valida ( VERB ) lemma=validar 
+ validaciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=validación 
+ validación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ validada ( VERB_PAST_PARTICIPLE VERB ) lemma=validar 
+ validadas ( VERB_PAST_PARTICIPLE VERB ) lemma=validar 
+ validado ( VERB_PAST_PARTICIPLE VERB ) lemma=validar 
+ validados ( VERB_PAST_PARTICIPLE VERB ) lemma=validar 
+ validando ( NOUN NOUN_GERUND ) lemma=validar 
+ validar ( VERB ) 
+ validaron ( VERB ) lemma=validar 
+ validará ( VERB ) lemma=validar 
+ validas ( VERB_PAST_PARTICIPLE VERB ) lemma=valer 
+ validen ( VERB ) lemma=validar 
+ validez ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ valido ( VERB_PAST_PARTICIPLE VERB ) lemma=valer 
+ validos ( VERB_PAST_PARTICIPLE VERB ) lemma=valer 
+ validó ( VERB ) lemma=validar 
+ valiendo ( NOUN NOUN_GERUND ) lemma=valer 
+ valiente ( ADJECTIVE ) 
+ valientemente ( ADVERB ) lemma=valiente 
+ valientes ( ADJECTIVE ) lemma=valiente 
+ valiera ( VERB ) lemma=valer 
+ valieran ( VERB ) lemma=valer 
+ valieron ( VERB ) lemma=valer 
+ valija ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ valijas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=valija 
+ valina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ valiosa ( ADJECTIVE ) lemma=valioso 
+ valiosas ( ADJECTIVE ) lemma=valioso 
+ valioso ( ADJECTIVE ) 
+ valiosos ( ADJECTIVE ) lemma=valioso 
+ valiosísima ( ADJECTIVE ) lemma=valioso 
+ valiosísimas ( ADJECTIVE ) lemma=valioso 
+ valiosísimo ( ADJECTIVE ) lemma=valioso 
+ valiosísimos ( ADJECTIVE ) lemma=valioso 
+ valiéndose ( NOUN NOUN_GERUND ) 
+ valió ( VERB ) lemma=valer 
+ valla ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ vallados ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vallado 
+ vallas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=valla 
+ valle ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ vallecillo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=valle 
+ valles ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=valle 
+ vallisoletana ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vallisoletano 
+ vallisoletano ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ valor ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ valora ( VERB ) lemma=valorar 
+ valoraba ( VERB ) lemma=valorar 
+ valoraban ( VERB ) lemma=valorar 
+ valorable ( ADJECTIVE ) 
+ valoraciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=valoración 
+ valoración ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ valorada ( VERB_PAST_PARTICIPLE VERB ) lemma=valorar 
+ valoradas ( VERB_PAST_PARTICIPLE VERB ) lemma=valorar 
+ valorado ( VERB_PAST_PARTICIPLE VERB ) lemma=valorar 
+ valorados ( VERB_PAST_PARTICIPLE VERB ) lemma=valorar 
+ valoramos ( VERB ) lemma=valorar 
+ valoran ( VERB ) lemma=valorar 
+ valorando ( NOUN NOUN_GERUND ) lemma=valorar 
+ valorar ( VERB ) 
+ valoraran ( VERB ) lemma=valorar 
+ valoraremos ( VERB ) lemma=valorar 
+ valorarla ( VERB_INFINITIVE VERB ) lemma=valorar 
+ valorarlo ( VERB_INFINITIVE VERB ) lemma=valorar 
+ valorarlos ( VERB ) lemma=valorar 
+ valoraron ( VERB ) lemma=valorar 
+ valorarse ( VERB_INFINITIVE VERB ) 
+ valorará ( VERB ) lemma=valorar 
+ valorarán ( VERB ) lemma=valorar 
+ valoraría ( VERB ) lemma=valorar 
+ valoras ( VERB ) lemma=valorar 
+ valorase ( VERB ) lemma=valorar 
+ valore ( VERB ) lemma=valorar 
+ valoremos ( VERB ) lemma=valorar 
+ valoren ( VERB ) lemma=valorar 
+ valores ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=valor 
+ valorice ( VERB ) lemma=valorizar 
+ valoricen ( VERB ) lemma=valorizar 
+ valoriza ( VERB ) lemma=valorizar 
+ valorizables ( ADJECTIVE ) lemma=valorizable 
+ valorización ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ valorizada ( VERB_PAST_PARTICIPLE VERB ) lemma=valorizar 
+ valorizadas ( VERB_PAST_PARTICIPLE VERB ) lemma=valorizar 
+ valorizado ( VERB_PAST_PARTICIPLE VERB ) lemma=valorizar 
+ valorizados ( VERB_PAST_PARTICIPLE VERB ) lemma=valorizar 
+ valorizamos ( VERB ) lemma=valorizar 
+ valorizan ( VERB ) lemma=valorizar 
+ valorizando ( NOUN NOUN_GERUND ) lemma=valorizar 
+ valorizar ( VERB ) 
+ valorizará ( VERB ) lemma=valorizar 
+ valorizarán ( VERB ) lemma=valorizar 
+ valoro ( VERB ) lemma=valorar 
+ valorábamos ( VERB ) lemma=valorar 
+ valorándose ( NOUN NOUN_GERUND ) lemma=valorarse 
+ valoró ( VERB ) lemma=valorar 
+ valproato ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ valuada ( VERB_PAST_PARTICIPLE VERB ) lemma=valuar 
+ valuadas ( VERB_PAST_PARTICIPLE VERB ) lemma=valuar 
+ valuado ( VERB_PAST_PARTICIPLE VERB ) lemma=valuar 
+ valuados ( VERB_PAST_PARTICIPLE VERB ) lemma=valuar 
  value ( ) 
- valva ( ) 
- valvas ( ) 
- valvular ( ) 
- valvulares ( ) 
- valvulopatía ( ) 
- valvuloplastia ( ) 
- valvulotomía ( ) 
- valía ( ) 
- valíamos ( ) 
- valían ( ) 
- vamos ( ) 
- vampiro ( ) 
- vampiros ( ) 
- van ( ) lemma=avant 
- vana ( ) 
- vanadio ( ) 
- vanas ( ) 
- vancomicina ( ) 
- vandalismo ( ) 
- vandalismos ( ) 
- vanguardia ( ) 
- vanguardias ( ) 
- vanidad ( ) 
- vanidades ( ) 
- vanililmandélico ( ) 
- vano ( ) 
- vanos ( ) 
- vapor ( ) lemma=evaporar 
- vapores ( ) 
- vaporización ( ) 
- vaporizar ( ) 
- vaporosa ( ) 
- vaquero ( ) 
- vaqueros ( ) 
- vaquerías ( ) 
- vaquillas ( ) 
- vaquita ( ) 
- vara ( ) 
- varada ( ) 
- varado ( ) 
- varados ( ) 
- varas ( ) 
- vareaba ( ) 
- vareada ( ) 
- varean ( ) 
- varia ( ) 
- variaba ( ) 
- variaban ( ) 
- variabilidad ( ) 
- variable ( ) 
- variables ( ) 
- variaciones ( ) 
- variación ( ) 
- variada ( ) 
- variadas ( ) 
- variado ( ) 
- variados ( ) 
- variancia ( ) 
- variando ( ) 
- variante ( ) 
- variantes ( ) 
- varianza ( ) 
- varianzas ( ) 
- variar ( ) 
- variara ( ) 
- variaran ( ) 
- variaron ( ) 
- variará ( ) 
- variarán ( ) 
- varias ( ) 
- varicela ( ) 
- varicela-zoster ( ) 
- varices ( ) 
- varicocele ( ) 
- varicosas ( ) 
- varicosidad ( ) 
- variedad ( ) 
- variedades ( ) 
- varilla ( ) 
- varillas ( ) 
- vario ( ) lemma=ovario 
- variolización ( ) 
- variopinta ( ) 
- variopinto ( ) 
- variopintos ( ) 
+ valva ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ valvas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=valva 
+ valvular ( ADJECTIVE ) 
+ valvulares ( ADJECTIVE ) lemma=valvular 
+ valvulopatía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ valvuloplastia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ valvulotomía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ valía ( VERB ) lemma=valer 
+ valíamos ( VERB ) lemma=valer 
+ valían ( VERB ) lemma=valer 
+ vamos ( NOUN VERB NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ vampiro ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vampiros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vampiro 
+ van ( VERB ) lemma=ir 
+ vana ( ADJECTIVE ) lemma=vano 
+ vanadio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vanas ( ADJECTIVE ) lemma=vano 
+ vancomicina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vandalismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vandalismos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vandalismo 
+ vanguardia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vanguardias ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vanguardia 
+ vanidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vanidades ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vanidad 
+ vanililmandélico ( ADJECTIVE ) 
+ vano ( ADJECTIVE ) 
+ vanos ( ADJECTIVE ) lemma=vano 
+ vapor ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vapores ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=vapor 
+ vaporización ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vaporizar ( VERB ) 
+ vaporosa ( ADJECTIVE ) lemma=vaporoso 
+ vaquero ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vaqueros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vaquero 
+ vaquerías ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vaquería 
+ vaquillas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vaca 
+ vaquita ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vaca 
+ vara ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ varada ( VERB_PAST_PARTICIPLE VERB ) lemma=varar 
+ varado ( VERB_PAST_PARTICIPLE VERB ) lemma=varar 
+ varados ( VERB_PAST_PARTICIPLE VERB ) lemma=varar 
+ varas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=vara 
+ vareaba ( VERB ) lemma=varear 
+ vareada ( VERB_PAST_PARTICIPLE VERB ) lemma=varear 
+ varean ( VERB ) lemma=varear 
+ varia ( ADJECTIVE ) lemma=vario 
+ variaba ( VERB ) lemma=variar 
+ variaban ( VERB ) lemma=variar 
+ variabilidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ variable ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ variables ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=variable 
+ variaciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=variación 
+ variación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ variada ( VERB_PAST_PARTICIPLE VERB ) lemma=variar 
+ variadas ( VERB_PAST_PARTICIPLE VERB ) lemma=variar 
+ variado ( VERB_PAST_PARTICIPLE VERB ) lemma=variar 
+ variados ( VERB_PAST_PARTICIPLE VERB ) lemma=variar 
+ variancia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ variando ( NOUN NOUN_GERUND ) lemma=variar 
+ variante ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ variantes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=variante 
+ varianza ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ varianzas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=varianza 
+ variar ( VERB ) 
+ variara ( VERB ) lemma=variar 
+ variaran ( VERB ) lemma=variar 
+ variaron ( VERB ) lemma=variar 
+ variará ( VERB ) lemma=variar 
+ variarán ( VERB ) lemma=variar 
+ varias ( ) lemma=varios 
+ varicela ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ varicela-zoster ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ varices ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=variz 
+ varicocele ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ varicosas ( ADJECTIVE ) lemma=varicoso 
+ varicosidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ variedad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ variedades ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=variedad 
+ varilla ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ varillas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=vara 
+ vario ( ADJECTIVE ) 
+ variolización ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ variopinta ( ADJECTIVE ) lemma=variopinto 
+ variopinto ( ADJECTIVE ) 
+ variopintos ( ADJECTIVE ) lemma=variopinto 
  varios ( ) 
- varita ( ) 
- varió ( ) 
- varones ( ) 
- varonil ( ) 
- varoniles ( ) 
- varía ( ) 
- varían ( ) 
- varías ( ) 
- varíe ( ) 
- varíen ( ) 
- varío ( ) 
- varón ( ) 
- vas ( ) 
- vasca ( ) 
- vascas ( ) 
- vasco ( ) 
- vascos ( ) 
- vascular ( ) 
- vasculares ( ) 
- vascularización ( ) 
- vascularizar ( ) 
- vasculitis ( ) 
- vasculonervioso ( ) 
- vasculopatía ( ) 
- vasitos ( ) 
- vaso ( ) 
- vaso-oclusión ( ) 
- vasoactivo ( ) 
- vasoactivos ( ) 
- vasoconstricción ( ) 
- vasoconstrictor ( ) 
- vasoconstrictora ( ) 
- vasoconstrictores ( ) 
- vasodilatación ( ) 
- vasodilatador ( ) 
- vasodilatadores ( ) 
- vasodilatar ( ) 
- vasomotor ( ) 
- vasomotoras ( ) 
- vasopresina ( ) 
- vasopresinsensible ( ) 
- vasos ( ) 
- vasovagal ( ) 
- vasta ( ) 
- vastas ( ) 
- vasto ( ) 
- vastos ( ) 
- vastísimas ( ) 
- vastísimo ( ) 
- vaticana ( ) 
- vaticano ( ) 
- vaticanos ( ) 
- vaticina ( ) 
- vaticinado ( ) 
- vaticinan ( ) 
- vaticinar ( ) 
- vaticinaron ( ) 
- vaticinio ( ) 
- vaticinios ( ) 
- vaticino ( ) 
- vaticiné ( ) 
- vaticinó ( ) 
- vatio ( ) 
- vatios ( ) 
- vay ( ) 
- vaya ( ) 
- vayamos ( ) 
- vayan ( ) 
- vayas ( ) 
- vayáis ( ) 
- ve ( ) lemma=over 
- vea ( ) 
- veamos ( ) 
- vean ( ) 
- veas ( ) 
- vease ( ) 
- veces ( ) 
- vecina ( ) lemma=avecinar 
- vecinal ( ) 
- vecinales ( ) 
- vecinas ( ) 
- vecindad ( ) 
- vecindades ( ) 
- vecindario ( ) 
- vecino ( ) 
- vecinos ( ) 
- vector ( ) 
- vectores ( ) 
- vectorial ( ) 
- veda ( ) 
- vedada ( ) 
- vedadas ( ) 
- vedado ( ) 
- vedados ( ) 
- vedar ( ) 
- vedas ( ) 
- vega ( ) 
- vegas ( ) 
- vegeta ( ) 
- vegetaba ( ) 
- vegetaciones ( ) 
- vegetación ( ) 
- vegetal ( ) 
- vegetales ( ) 
- vegetan ( ) 
- vegetando ( ) 
- vegetariana ( ) 
- vegetarianos ( ) 
- vegetativa ( ) 
- vegetativas ( ) 
- vegetativo ( ) 
- vegetativos ( ) 
- vehemencia ( ) 
- vehemente ( ) 
- vehementemente ( ) 
- vehementes ( ) 
- vehicula ( ) 
- vehiculada ( ) 
- vehiculado ( ) 
- vehiculados ( ) 
- vehiculan ( ) 
- vehicular ( ) 
- vehículo ( ) 
- vehículos ( ) 
- veian ( ) 
- veinte ( ) 
- veintena ( ) 
- veintenas ( ) 
- veinticinco ( ) 
- veinticuatro ( ) 
- veintidós ( ) 
- veintinueve ( ) 
- veintiocho ( ) 
- veintisiete ( ) 
- veintiséis ( ) 
- veintitrés ( ) 
- veintiuna ( ) 
- veintiuno ( ) 
- veintiún ( ) 
- veis ( ) 
- vejaciones ( ) 
- vejación ( ) 
- vejentud ( ) 
- vejez ( ) 
- vejiga ( ) 
- vela ( ) 
- velada ( ) 
- veladas ( ) 
- velado ( ) 
- velador ( ) 
- veladores ( ) 
- velamos ( ) 
- velan ( ) 
- velando ( ) 
- velar ( ) 
- velara ( ) 
- velaran ( ) 
- velaremos ( ) 
- velarle ( ) 
- velará ( ) 
- velarán ( ) 
- velaré ( ) 
- velaría ( ) 
- velarían ( ) 
- velas ( ) 
- velasen ( ) 
- vele ( ) 
- velemos ( ) 
- velen ( ) 
- velero ( ) 
- veleros ( ) 
- veleta ( ) 
- velitas ( ) 
- velizes ( ) 
- vello ( ) 
- vellosa ( ) 
- vellosidad ( ) 
- vellosidades ( ) 
- velloso ( ) 
- velludos ( ) 
- velo ( ) 
- veloces ( ) 
- velocidad ( ) 
- velocidades ( ) 
- velocista ( ) 
- velocistas ( ) 
- velocímetro ( ) 
- velorio ( ) 
- velos ( ) 
- veloz ( ) 
- velozmente ( ) 
- veló ( ) 
- veme ( ) 
- vemos ( ) 
- ven ( ) lemma=avena 
- vena ( ) 
- venado ( ) 
- venados ( ) 
- venas ( ) 
- vence ( ) 
- vencedor ( ) 
- vencedora ( ) 
- vencedoras ( ) 
- vencedores ( ) 
- vencemos ( ) 
- vencen ( ) 
- vencer ( ) 
- vencerla ( ) 
- vencerlo ( ) 
- vencerse ( ) 
- vencerá ( ) 
- vencerán ( ) 
- vencerás ( ) 
- vencida ( ) 
- vencidas ( ) 
- vencido ( ) 
- vencidos ( ) 
- venciendo ( ) 
- venciera ( ) 
- vencieran ( ) 
- vencieron ( ) 
- vencimiento ( ) 
- vencimientos ( ) 
- venciéndolos ( ) 
- venció ( ) 
- vencía ( ) 
- vencían ( ) 
- venda ( ) 
- vendado ( ) 
- vendados ( ) 
- vendaje ( ) 
- vendajes ( ) 
- vendan ( ) 
- vendar ( ) 
- vendaran ( ) 
- vendaron ( ) 
- vendas ( ) 
- vendaval ( ) 
- vende ( ) 
- vendedor ( ) 
- vendedora ( ) 
- vendedoras ( ) 
- vendedores ( ) 
- vendemos ( ) 
- venden ( ) 
- vender ( ) 
- venderemos ( ) 
- venderla ( ) 
- venderle ( ) 
- venderles ( ) 
- venderlo ( ) 
- vendernos ( ) 
- venderse ( ) 
- venderte ( ) 
- venderá ( ) 
- venderán ( ) 
- vendería ( ) 
- venderían ( ) 
- vendes ( ) 
- vendida ( ) 
- vendidas ( ) 
- vendido ( ) 
- vendidos ( ) 
- vendiendo ( ) 
- vendiera ( ) 
- vendieran ( ) 
- vendieron ( ) 
- vendimia ( ) 
- vendimiar ( ) 
- vendimias ( ) 
- vendimos ( ) 
- vendiéndolas ( ) 
- vendiéndole ( ) 
- vendiéndolos ( ) 
- vendiéndose ( ) 
- vendió ( ) 
- vendo ( ) 
- vendrá ( ) 
- vendrán ( ) 
- vendrás ( ) 
- vendré ( ) 
- vendréis ( ) 
- vendría ( ) 
- vendríamos ( ) 
- vendrían ( ) 
- vendrías ( ) 
- vendámoslos ( ) 
- vendérselas ( ) 
- vendí ( ) 
- vendía ( ) 
- vendíamos ( ) 
- vendían ( ) 
- vendías ( ) 
- veneciana ( ) 
- venecianas ( ) 
- veneciano ( ) 
- venecianos ( ) 
- veneno ( ) 
- venenos ( ) 
- venenosas ( ) 
- venenoso ( ) 
- venenosos ( ) 
- venera ( ) 
- venerable ( ) 
- venerado ( ) 
- venerados ( ) 
- venero ( ) 
- venezolana ( ) 
- venezolanas ( ) 
- venezolano ( ) 
- venezolanos ( ) 
- venga ( ) lemma=avenir 
- vengaba ( ) 
- vengamos ( ) 
- vengan ( ) 
- venganza ( ) 
- venganzas ( ) 
- vengar ( ) 
- vengara ( ) 
- vengarse ( ) 
- vengará ( ) 
- vengaré ( ) 
- vengas ( ) 
- vengo ( ) 
- vengue ( ) 
- vengáis ( ) 
- vengándose ( ) 
- vengás ( ) 
- venid ( ) lemma=avenida 
- venida ( ) lemma=avenida 
- venidas ( ) 
- venidera ( ) 
- venideras ( ) 
- venidero ( ) 
- venideros ( ) 
- venido ( ) lemma=avenir 
- venidos ( ) 
- venimos ( ) 
- venir ( ) 
- venirle ( ) 
- venirme ( ) 
- venirnos ( ) 
- veniros ( ) 
- venirse ( ) 
- venirte ( ) 
- veno-venoso ( ) 
- venomotor ( ) 
- venooclusiva ( ) 
- venosa ( ) 
- venosas ( ) 
- venoso ( ) 
- venosos ( ) 
- venta ( ) lemma=aventar 
- ventaja ( ) lemma=aventajar 
- ventajas ( ) 
- ventajosa ( ) 
- ventajosamente ( ) 
- ventajosas ( ) 
- ventajoso ( ) 
- ventajosos ( ) 
- ventana ( ) 
- ventanas ( ) 
- ventanilla ( ) 
- ventanillas ( ) 
- ventanita ( ) 
- ventas ( ) 
- vente ( ) 
- ventila ( ) 
- ventilación ( ) 
- ventilación-perfusión ( ) 
- ventilado ( ) 
- ventilados ( ) 
- ventilan ( ) 
- ventilando ( ) 
- ventilar ( ) 
- ventilarse ( ) 
- ventilatorio ( ) 
- ventile ( ) 
- ventilen ( ) 
- ventiló ( ) 
- ventosa ( ) 
- ventral ( ) 
- ventrales ( ) 
- ventralmente ( ) 
- ventricular ( ) 
- ventriculares ( ) 
- ventriculografía ( ) 
- ventrobasal ( ) 
- ventrículo ( ) 
- ventrículos ( ) 
- ventura ( ) lemma=aventura 
- venturosa ( ) 
- venturosamente ( ) 
- venturosos ( ) 
- venza ( ) 
- venzan ( ) 
- venéreas ( ) 
- venía ( ) 
- veníamos ( ) 
- venían ( ) 
- venías ( ) 
- venís ( ) 
- veo ( ) 
- ver ( ) lemma=Avery 
- veraces ( ) 
- veracidad ( ) 
- veracruzana ( ) 
- veracruzano ( ) 
- veracruzanos ( ) 
- veranea ( ) 
- veraneaba ( ) 
- veranear ( ) 
- veraneo ( ) 
- veraniega ( ) 
- veraniego ( ) 
- verano ( ) 
- veranos ( ) 
- veras ( ) 
- veraz ( ) 
- verbal ( ) 
- verbales ( ) 
- verbalmente ( ) 
- verbena ( ) 
- verbo ( ) 
- verborrea ( ) 
- verborreas ( ) 
- verbos ( ) 
- verdad ( ) 
- verdadera ( ) 
- verdaderamente ( ) 
- verdaderas ( ) 
- verdadero ( ) 
- verdaderos ( ) 
- verdades ( ) 
- verde ( ) 
- verdecito ( ) 
- verdes ( ) 
- verdiazule ( ) 
- verdugo ( ) 
- verdugos ( ) 
- verdura ( ) 
- verduras ( ) 
- vereda ( ) 
- veredas ( ) 
- veredicto ( ) 
- veredictos ( ) 
- veremos ( ) 
- vergonzante ( ) 
- vergonzosa ( ) 
- vergonzosamente ( ) 
- vergonzosas ( ) 
- vergonzoso ( ) 
- vergonzosos ( ) 
- verguenza ( ) 
- vergüenza ( ) 
- verifica ( ) 
- verificaban ( ) 
- verificaciones ( ) 
- verificación ( ) 
- verificada ( ) 
- verificadas ( ) 
- verificado ( ) 
- verificados ( ) 
- verificamos ( ) 
- verifican ( ) 
- verificando ( ) 
- verificar ( ) 
- verificara ( ) 
- verificaremos ( ) 
- verificarlo ( ) 
- verificaron ( ) 
- verificarse ( ) 
- verificará ( ) 
- verificarán ( ) 
- verificaré ( ) 
- verificaría ( ) 
- verificase ( ) 
- verificasen ( ) 
- verificó ( ) 
- verifique ( ) 
- verifiquen ( ) 
- verifiqué ( ) 
- verifíquese ( ) 
- verja ( ) 
- verjas ( ) 
- verla ( ) lemma=overlap 
- verle ( ) 
- verles ( ) 
- verlo ( ) 
- verlos ( ) 
- verme ( ) 
- vernos ( ) 
- veros ( ) 
- verosimilitud ( ) 
+ varita ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vara 
+ varió ( VERB ) lemma=variar 
+ varones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=varón 
+ varonil ( ADJECTIVE ) 
+ varoniles ( ADJECTIVE ) lemma=varonil 
+ varía ( VERB ) lemma=variar 
+ varían ( VERB ) lemma=variar 
+ varías ( VERB ) lemma=variar 
+ varíe ( VERB ) lemma=variar 
+ varíen ( VERB ) lemma=variar 
+ varío ( VERB ) lemma=variar 
+ varón ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vas ( VERB ) lemma=ir 
+ vasca ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vasco 
+ vascas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vasco 
+ vasco ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ vascos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vasco 
+ vascular ( ADJECTIVE ) 
+ vasculares ( ADJECTIVE ) lemma=vascular 
+ vascularización ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vascularizar ( VERB_PAST_PARTICIPLE VERB ) 
+ vasculitis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vasculonervioso ( ADJECTIVE ) 
+ vasculopatía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vasitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vaso 
+ vaso ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vaso-oclusión ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vasoactivo ( ADJECTIVE ) 
+ vasoactivos ( ADJECTIVE ) lemma=vasoactivo 
+ vasoconstricción ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vasoconstrictor ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ vasoconstrictora ( ADJECTIVE ) lemma=vasoconstrictor 
+ vasoconstrictores ( ADJECTIVE ) lemma=vasoconstrictor 
+ vasodilatación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vasodilatador ( ADJECTIVE ) 
+ vasodilatadores ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vasodilatador 
+ vasodilatar ( VERB ) 
+ vasomotor ( ADJECTIVE ) 
+ vasomotoras ( ADJECTIVE ) lemma=vasomotor 
+ vasopresina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vasopresinsensible ( ADJECTIVE ) 
+ vasos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vaso 
+ vasovagal ( ADJECTIVE ) 
+ vasta ( ADJECTIVE ) lemma=vasto 
+ vastas ( ADJECTIVE ) lemma=vasto 
+ vasto ( ADJECTIVE ) 
+ vastos ( ADJECTIVE ) lemma=vasto 
+ vastísimas ( ADJECTIVE ) lemma=vasto 
+ vastísimo ( ADJECTIVE ) lemma=vasto 
+ vaticana ( ADJECTIVE ) lemma=vaticano 
+ vaticano ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ vaticanos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vaticano 
+ vaticina ( VERB ) lemma=vaticinar 
+ vaticinado ( VERB_PAST_PARTICIPLE VERB ) lemma=vaticinar 
+ vaticinan ( VERB ) lemma=vaticinar 
+ vaticinar ( VERB ) 
+ vaticinaron ( VERB ) lemma=vaticinar 
+ vaticinio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vaticinios ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vaticinio 
+ vaticino ( VERB ) lemma=vaticinar 
+ vaticiné ( VERB ) lemma=vaticinar 
+ vaticinó ( VERB ) lemma=vaticinar 
+ vatio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vatios ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vatio 
+ vay ( VERB ) lemma=ir 
+ vaya ( VERB ) lemma=ir 
+ vayamos ( VERB ) lemma=ir 
+ vayan ( VERB ) lemma=ir 
+ vayas ( VERB ) lemma=ir 
+ vayáis ( VERB ) lemma=ir 
+ ve ( VERB ) lemma=ver 
+ vea ( VERB ) lemma=ver 
+ veamos ( VERB ) lemma=ver 
+ vean ( VERB ) lemma=ver 
+ veas ( VERB ) lemma=ver 
+ vease ( VERB ) lemma=ver 
+ veces ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vez 
+ vecina ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vecino 
+ vecinal ( ADJECTIVE ) 
+ vecinales ( ADJECTIVE ) lemma=vecinal 
+ vecinas ( ADJECTIVE ) lemma=vecino 
+ vecindad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vecindades ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vecindad 
+ vecindario ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vecino ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ vecinos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vecino 
+ vector ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vectores ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vector 
+ vectorial ( ADJECTIVE ) 
+ veda ( VERB ) lemma=vedar 
+ vedada ( VERB_PAST_PARTICIPLE VERB ) lemma=vedar 
+ vedadas ( VERB_PAST_PARTICIPLE VERB ) lemma=vedar 
+ vedado ( VERB_PAST_PARTICIPLE VERB ) lemma=vedar 
+ vedados ( VERB_PAST_PARTICIPLE VERB ) lemma=vedar 
+ vedar ( VERB ) 
+ vedas ( VERB ) lemma=vedar 
+ vega ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vegas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vega 
+ vegeta ( VERB ) lemma=vegetar 
+ vegetaba ( VERB ) lemma=vegetar 
+ vegetaciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vegetación 
+ vegetación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vegetal ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ vegetales ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vegetal 
+ vegetan ( VERB ) lemma=vegetar 
+ vegetando ( NOUN NOUN_GERUND ) lemma=vegetar 
+ vegetariana ( ADJECTIVE ) lemma=vegetariano 
+ vegetarianos ( ADJECTIVE ) lemma=vegetariano 
+ vegetativa ( ADJECTIVE ) lemma=vegetativo 
+ vegetativas ( ADJECTIVE ) lemma=vegetativo 
+ vegetativo ( ADJECTIVE ) 
+ vegetativos ( ADJECTIVE ) lemma=vegetativo 
+ vehemencia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vehemente ( ADJECTIVE ) 
+ vehementemente ( ADVERB ) lemma=vehemente 
+ vehementes ( ADJECTIVE ) lemma=vehemente 
+ vehicula ( VERB ) lemma=vehicular 
+ vehiculada ( VERB_PAST_PARTICIPLE VERB ) lemma=vehicular 
+ vehiculado ( VERB_PAST_PARTICIPLE VERB ) lemma=vehicular 
+ vehiculados ( VERB_PAST_PARTICIPLE VERB ) lemma=vehicular 
+ vehiculan ( VERB ) lemma=vehicular 
+ vehicular ( VERB ) 
+ vehículo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vehículos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vehículo 
+ veian ( VERB ) lemma=ver 
+ veinte ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ veintena ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ veintenas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=veintena 
+ veinticinco ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ veinticuatro ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ veintidós ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ veintinueve ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ veintiocho ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ veintisiete ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ veintiséis ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ veintitrés ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ veintiuna ( ADJECTIVE_NUMBER NOUN_NUMBER ) lemma=veintiuno 
+ veintiuno ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ veintiún ( ADJECTIVE_NUMBER NOUN_NUMBER ) lemma=veintiuno 
+ veis ( VERB ) lemma=ver 
+ vejaciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vejación 
+ vejación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vejentud ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vejez ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vejiga ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vela ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ velada ( VERB_PAST_PARTICIPLE NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ veladas ( VERB_PAST_PARTICIPLE NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=velada 
+ velado ( VERB_PAST_PARTICIPLE VERB ) lemma=velar 
+ velador ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ veladores ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=velador 
+ velamos ( VERB ) lemma=velar 
+ velan ( VERB ) lemma=velar 
+ velando ( NOUN NOUN_GERUND ) lemma=velar 
+ velar ( VERB ) 
+ velara ( VERB ) lemma=velar 
+ velaran ( VERB ) lemma=velar 
+ velaremos ( VERB ) lemma=velar 
+ velarle ( VERB_INFINITIVE VERB ) lemma=velar 
+ velará ( VERB ) lemma=velar 
+ velarán ( VERB ) lemma=velar 
+ velaré ( VERB ) lemma=velar 
+ velaría ( VERB ) lemma=velar 
+ velarían ( VERB ) lemma=velar 
+ velas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=vela 
+ velasen ( VERB ) lemma=velar 
+ vele ( VERB ) lemma=ir|velar|ver 
+ velemos ( VERB ) lemma=velar 
+ velen ( VERB ) lemma=velar 
+ velero ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ veleros ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=velero 
+ veleta ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ velitas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vela 
+ velizes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=véliz 
+ vello ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vellosa ( ADJECTIVE ) lemma=velloso 
+ vellosidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vellosidades ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vellosidad 
+ velloso ( ADJECTIVE ) 
+ velludos ( ADJECTIVE ) lemma=velludo 
+ velo ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ veloces ( ADJECTIVE ) lemma=veloz 
+ velocidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ velocidades ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=velocidad 
+ velocista ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ velocistas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=velocista 
+ velocímetro ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ velorio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ velos ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=velo 
+ veloz ( ADJECTIVE ) 
+ velozmente ( ADVERB ) lemma=veloz 
+ veló ( VERB ) lemma=velar 
+ veme ( ) lemma=ir|ver 
+ vemos ( VERB ) lemma=ver 
+ ven ( VERB ) lemma=ver 
+ vena ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ venado ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ venados ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=venado 
+ venas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vena 
+ vence ( VERB ) lemma=vencer 
+ vencedor ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ vencedora ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vencedor 
+ vencedoras ( ADJECTIVE ) lemma=vencedor 
+ vencedores ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vencedor 
+ vencemos ( VERB ) lemma=vencer 
+ vencen ( VERB ) lemma=vencer 
+ vencer ( VERB ) 
+ vencerla ( VERB_INFINITIVE VERB ) lemma=vencer 
+ vencerlo ( VERB_INFINITIVE VERB ) lemma=vencer 
+ vencerse ( VERB_INFINITIVE VERB ) 
+ vencerá ( VERB ) lemma=vencer 
+ vencerán ( VERB ) lemma=vencer 
+ vencerás ( VERB ) lemma=vencer 
+ vencida ( VERB_PAST_PARTICIPLE VERB ) lemma=vencer 
+ vencidas ( VERB_PAST_PARTICIPLE VERB ) lemma=vencer 
+ vencido ( VERB_PAST_PARTICIPLE VERB ) lemma=vencer 
+ vencidos ( VERB_PAST_PARTICIPLE VERB ) lemma=vencer 
+ venciendo ( NOUN NOUN_GERUND ) lemma=vencer 
+ venciera ( VERB ) lemma=vencer 
+ vencieran ( VERB ) lemma=vencer 
+ vencieron ( VERB ) lemma=vencer 
+ vencimiento ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vencimientos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vencimiento 
+ venciéndolos ( NOUN NOUN_GERUND ) lemma=vencer 
+ venció ( VERB ) lemma=vencer 
+ vencía ( VERB ) lemma=vencer 
+ vencían ( VERB ) lemma=vencer 
+ venda ( VERB ) lemma=vendar|vender 
+ vendado ( VERB_PAST_PARTICIPLE VERB ) lemma=vendar 
+ vendados ( VERB_PAST_PARTICIPLE VERB ) lemma=vendar 
+ vendaje ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vendajes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vendaje 
+ vendan ( VERB ) lemma=vendar|vender 
+ vendar ( VERB ) 
+ vendaran ( VERB ) lemma=vendar 
+ vendaron ( VERB ) lemma=vendar 
+ vendas ( VERB ) lemma=vendar|vender 
+ vendaval ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vende ( VERB ) lemma=vendar|vender 
+ vendedor ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ vendedora ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vendedor 
+ vendedoras ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vendedor 
+ vendedores ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vendedor 
+ vendemos ( VERB ) lemma=vendar|vender 
+ venden ( VERB ) lemma=vendar|vender 
+ vender ( VERB ) 
+ venderemos ( VERB ) lemma=vender 
+ venderla ( VERB_INFINITIVE VERB ) lemma=vender 
+ venderle ( VERB_INFINITIVE VERB ) lemma=vender 
+ venderles ( VERB_INFINITIVE VERB ) lemma=vender 
+ venderlo ( VERB_INFINITIVE VERB ) lemma=vender 
+ vendernos ( VERB_INFINITIVE VERB ) lemma=vender 
+ venderse ( VERB_INFINITIVE VERB ) 
+ venderte ( VERB_INFINITIVE VERB ) lemma=vender 
+ venderá ( VERB ) lemma=vender 
+ venderán ( VERB ) lemma=vender 
+ vendería ( VERB ) lemma=vender 
+ venderían ( VERB ) lemma=vender 
+ vendes ( VERB ) lemma=vendar|vender 
+ vendida ( VERB_PAST_PARTICIPLE VERB ) lemma=vender 
+ vendidas ( VERB_PAST_PARTICIPLE VERB ) lemma=vender 
+ vendido ( VERB_PAST_PARTICIPLE VERB ) lemma=vender 
+ vendidos ( VERB_PAST_PARTICIPLE VERB ) lemma=vender 
+ vendiendo ( NOUN NOUN_GERUND ) lemma=vender 
+ vendiera ( VERB ) lemma=vender 
+ vendieran ( VERB ) lemma=vender 
+ vendieron ( VERB ) lemma=vender 
+ vendimia ( VERB ) lemma=vendimiar 
+ vendimiar ( VERB ) 
+ vendimias ( VERB ) lemma=vendimiar 
+ vendimos ( VERB ) lemma=vender 
+ vendiéndolas ( NOUN NOUN_GERUND ) lemma=vender 
+ vendiéndole ( VERB_PAST_PARTICIPLE VERB ) lemma=vender 
+ vendiéndolos ( NOUN NOUN_GERUND ) lemma=vender 
+ vendiéndose ( NOUN NOUN_GERUND ) lemma=venderse 
+ vendió ( VERB ) lemma=vender 
+ vendo ( VERB ) lemma=vendar|vender 
+ vendrá ( VERB ) lemma=venir 
+ vendrán ( VERB ) lemma=venir 
+ vendrás ( VERB ) lemma=venir 
+ vendré ( VERB ) lemma=venir 
+ vendréis ( VERB ) lemma=venir 
+ vendría ( VERB ) lemma=venir 
+ vendríamos ( VERB ) lemma=venir 
+ vendrían ( VERB ) lemma=venir 
+ vendrías ( VERB ) lemma=venir 
+ vendámoslos ( VERB ) lemma=vender 
+ vendérselas ( VERB_INFINITIVE VERB ) lemma=venderse 
+ vendí ( VERB ) lemma=vender 
+ vendía ( VERB ) lemma=vender 
+ vendíamos ( VERB ) lemma=vender 
+ vendían ( VERB ) lemma=vender 
+ vendías ( VERB ) lemma=vender 
+ veneciana ( ADJECTIVE ) lemma=veneciano 
+ venecianas ( ADJECTIVE ) lemma=veneciano 
+ veneciano ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ venecianos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=veneciano 
+ veneno ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ venenos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=veneno 
+ venenosas ( ADJECTIVE ) lemma=venenoso 
+ venenoso ( ADJECTIVE ) 
+ venenosos ( ADJECTIVE ) lemma=venenoso 
+ venera ( VERB ) lemma=venerar 
+ venerable ( ADJECTIVE ) 
+ venerado ( VERB_PAST_PARTICIPLE VERB ) lemma=venerar 
+ venerados ( VERB_PAST_PARTICIPLE VERB ) lemma=venerar 
+ venero ( VERB ) lemma=venerar 
+ venezolana ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=venezolano 
+ venezolanas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=venezolano 
+ venezolano ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ venezolanos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=venezolano 
+ venga ( VERB ) lemma=vengar|venir 
+ vengaba ( VERB ) lemma=vengar 
+ vengamos ( VERB ) lemma=vengar|venir 
+ vengan ( VERB ) lemma=vengar|venir 
+ venganza ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ venganzas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=venganza 
+ vengar ( VERB ) 
+ vengara ( VERB ) lemma=vengar 
+ vengarse ( VERB_INFINITIVE VERB ) 
+ vengará ( VERB ) lemma=vengar 
+ vengaré ( VERB ) lemma=vengar 
+ vengas ( VERB ) lemma=vengar|venir 
+ vengo ( VERB ) lemma=vengar|venir 
+ vengue ( VERB ) lemma=vengar 
+ vengáis ( VERB ) lemma=vengar|venir 
+ vengándose ( VERB_PAST_PARTICIPLE VERB ) lemma=vengar 
+ vengás ( VERB ) lemma=vengar|venir 
+ venid ( VERB ) lemma=venir 
+ venida ( VERB_PAST_PARTICIPLE VERB ) lemma=venir 
+ venidas ( VERB_PAST_PARTICIPLE VERB ) lemma=venir 
+ venidera ( ADJECTIVE ) lemma=venidero 
+ venideras ( ADJECTIVE ) lemma=venidero 
+ venidero ( ADJECTIVE ) 
+ venideros ( ADJECTIVE ) lemma=venidero 
+ venido ( VERB_PAST_PARTICIPLE VERB ) lemma=venir 
+ venidos ( VERB_PAST_PARTICIPLE VERB ) lemma=venir 
+ venimos ( VERB ) lemma=venir 
+ venir ( VERB ) 
+ venirle ( VERB_INFINITIVE VERB ) lemma=venir 
+ venirme ( VERB_INFINITIVE VERB ) lemma=venir 
+ venirnos ( VERB_INFINITIVE VERB ) lemma=venir 
+ veniros ( VERB ) lemma=venir 
+ venirse ( VERB_INFINITIVE VERB ) 
+ venirte ( VERB_INFINITIVE VERB ) lemma=venir 
+ veno-venoso ( ADJECTIVE ) 
+ venomotor ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ venooclusiva ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ venosa ( ADJECTIVE ) lemma=venoso 
+ venosas ( ADJECTIVE ) lemma=venoso 
+ venoso ( ADJECTIVE ) 
+ venosos ( ADJECTIVE ) lemma=venoso 
+ venta ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ventaja ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ventajas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ventaja 
+ ventajosa ( ADJECTIVE ) lemma=ventajoso 
+ ventajosamente ( ADVERB ) lemma=ventajoso 
+ ventajosas ( ADJECTIVE ) lemma=ventajoso 
+ ventajoso ( ADJECTIVE ) 
+ ventajosos ( ADJECTIVE ) lemma=ventajoso 
+ ventana ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ventanas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ventana 
+ ventanilla ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ventana 
+ ventanillas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ventana 
+ ventanita ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ventana 
+ ventas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=venta 
+ vente ( ) lemma=venir 
+ ventila ( VERB ) lemma=ventilar 
+ ventilación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ventilación-perfusión ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ventilado ( VERB_PAST_PARTICIPLE VERB ) lemma=ventilar 
+ ventilados ( VERB_PAST_PARTICIPLE VERB ) lemma=ventilar 
+ ventilan ( VERB ) lemma=ventilar 
+ ventilando ( NOUN NOUN_GERUND ) lemma=ventilar 
+ ventilar ( VERB ) 
+ ventilarse ( VERB_INFINITIVE VERB ) 
+ ventilatorio ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ ventile ( VERB ) lemma=ventilar 
+ ventilen ( VERB ) lemma=ventilar 
+ ventiló ( VERB ) lemma=ventilar 
+ ventosa ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ventral ( ADJECTIVE ) 
+ ventrales ( ADJECTIVE ) lemma=ventral 
+ ventralmente ( ADVERB ) 
+ ventricular ( ADJECTIVE ) 
+ ventriculares ( ADJECTIVE ) lemma=ventricular 
+ ventriculografía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ventrobasal ( ADJECTIVE ) 
+ ventrículo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ventrículos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ventrículo 
+ ventura ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ venturosa ( ADJECTIVE ) lemma=venturoso 
+ venturosamente ( ADVERB ) lemma=venturoso 
+ venturosos ( ADJECTIVE ) lemma=venturoso 
+ venza ( VERB ) lemma=vencer 
+ venzan ( VERB ) lemma=vencer 
+ venéreas ( ADJECTIVE ) lemma=venéreo 
+ venía ( VERB ) lemma=venir 
+ veníamos ( VERB ) lemma=venir 
+ venían ( VERB ) lemma=venir 
+ venías ( VERB ) lemma=venir 
+ venís ( VERB ) lemma=venir 
+ veo ( VERB ) lemma=ver 
+ ver ( VERB ) 
+ veraces ( ADJECTIVE ) lemma=veraz 
+ veracidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ veracruzana ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=veracruzano 
+ veracruzano ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ veracruzanos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=veracruzano 
+ veranea ( VERB ) lemma=veranear 
+ veraneaba ( VERB ) lemma=veranear 
+ veranear ( VERB ) 
+ veraneo ( VERB ) lemma=veranear 
+ veraniega ( ADJECTIVE ) lemma=veraniego 
+ veraniego ( ADJECTIVE ) 
+ verano ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ veranos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=verano 
+ veras ( NOUN ADVERB NOUN_SINGULAR NOUN_PLURAL ) 
+ veraz ( ADJECTIVE ) 
+ verbal ( ADJECTIVE ) 
+ verbales ( ADJECTIVE ) lemma=verbal 
+ verbalmente ( ADVERB ) lemma=verbal 
+ verbena ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ verbo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ verborrea ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ verborreas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=verborrea 
+ verbos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=verbo 
+ verdad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ verdadera ( ADJECTIVE ) lemma=verdadero 
+ verdaderamente ( ADVERB ) lemma=verdadero 
+ verdaderas ( ADJECTIVE ) lemma=verdadero 
+ verdadero ( ADJECTIVE ) 
+ verdaderos ( ADJECTIVE ) lemma=verdadero 
+ verdades ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=verdad 
+ verde ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ verdecito ( ADJECTIVE ) lemma=verde 
+ verdes ( ADJECTIVE ) lemma=verde 
+ verdiazule ( ADJECTIVE ) 
+ verdugo ( ADJECTIVE ) 
+ verdugos ( ADJECTIVE ) lemma=verdugo 
+ verdura ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ verduras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=verdura 
+ vereda ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ veredas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vereda 
+ veredicto ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ veredictos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=veredicto 
+ veremos ( VERB ) lemma=ver 
+ vergonzante ( ADJECTIVE ) 
+ vergonzosa ( ADJECTIVE ) lemma=vergonzoso 
+ vergonzosamente ( ADVERB ) lemma=vergonzoso 
+ vergonzosas ( ADJECTIVE ) lemma=vergonzoso 
+ vergonzoso ( ADJECTIVE ) 
+ vergonzosos ( ADJECTIVE ) lemma=vergonzoso 
+ verguenza ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vergüenza 
+ vergüenza ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ verifica ( VERB ) lemma=verificar 
+ verificaban ( VERB ) lemma=verificar 
+ verificaciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=verificación 
+ verificación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ verificada ( VERB_PAST_PARTICIPLE VERB ) lemma=verificar 
+ verificadas ( VERB_PAST_PARTICIPLE VERB ) lemma=verificar 
+ verificado ( VERB_PAST_PARTICIPLE VERB ) lemma=verificar 
+ verificados ( VERB_PAST_PARTICIPLE VERB ) lemma=verificar 
+ verificamos ( VERB ) lemma=verificar 
+ verifican ( VERB ) lemma=verificar 
+ verificando ( NOUN NOUN_GERUND ) lemma=verificar 
+ verificar ( VERB ) 
+ verificara ( VERB ) lemma=verificar 
+ verificaremos ( VERB ) lemma=verificar 
+ verificarlo ( VERB_INFINITIVE VERB ) lemma=verificar 
+ verificaron ( VERB ) lemma=verificar 
+ verificarse ( VERB_INFINITIVE VERB ) 
+ verificará ( VERB ) lemma=verificar 
+ verificarán ( VERB ) lemma=verificar 
+ verificaré ( VERB ) lemma=verificar 
+ verificaría ( VERB ) lemma=verificar 
+ verificase ( VERB ) lemma=verificar 
+ verificasen ( VERB ) lemma=verificar 
+ verificó ( VERB ) lemma=verificar 
+ verifique ( VERB ) lemma=verificar 
+ verifiquen ( VERB ) lemma=verificar 
+ verifiqué ( VERB ) lemma=verificar 
+ verifíquese ( ) lemma=verificarse 
+ verja ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ verjas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=verja 
+ verla ( VERB_INFINITIVE VERB ) lemma=ver 
+ verle ( VERB_INFINITIVE VERB ) lemma=ver 
+ verles ( VERB_INFINITIVE VERB ) lemma=ver 
+ verlo ( VERB_INFINITIVE VERB ) lemma=ver 
+ verlos ( VERB ) lemma=ver 
+ verme ( VERB_INFINITIVE VERB ) lemma=ver 
+ vernos ( VERB_INFINITIVE VERB ) lemma=ver 
+ veros ( VERB ) lemma=ver 
+ verosimilitud ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  verrouillage ( ) 
- verrugas ( ) 
+ verrugas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=verruga 
  vers ( ) 
- versa ( ) 
- versaba ( ) 
- versaban ( ) 
- versado ( ) 
- versados ( ) 
- versan ( ) 
- versar ( ) 
- versaran ( ) 
- versaron ( ) 
- versará ( ) 
- versarán ( ) 
- versaría ( ) 
- versas ( ) 
- versatilidad ( ) 
- verse ( ) 
- versen ( ) 
- version ( ) 
- versiones ( ) 
- versito ( ) 
- versión ( ) 
- verso ( ) 
- versos ( ) 
- versus ( ) 
- versátil ( ) 
- versátiles ( ) 
- versó ( ) 
- verte ( ) 
- vertebradas ( ) 
- vertebrado ( ) 
- vertebrados ( ) 
- vertebral ( ) 
- vertebrales ( ) 
- vertebrobasilar ( ) 
- vertedero ( ) 
- vertederos ( ) 
- vertemos ( ) 
- verter ( ) 
- verterse ( ) 
- vertería ( ) 
- vertical ( ) 
- verticales ( ) 
- verticalidad ( ) 
- verticalidades ( ) 
- verticalización ( ) 
- verticalmente ( ) 
- vertida ( ) 
- vertidas ( ) 
- vertido ( ) 
- vertidos ( ) 
- vertiendo ( ) 
- vertiente ( ) 
- vertientes ( ) 
- vertiera ( ) 
- vertieron ( ) 
- vertiginoso ( ) 
- vertió ( ) 
- vertían ( ) 
- verá ( ) 
- verán ( ) 
- verás ( ) 
- veré ( ) 
- veréis ( ) 
- vería ( ) lemma=avería 
- veríais ( ) 
- veríamos ( ) 
- verían ( ) 
- verías ( ) 
- verídica ( ) 
- verónica ( ) 
- verónicas ( ) 
- ves ( ) 
- vesical ( ) 
- vesicales ( ) 
- vesicogenital ( ) 
- vesicoureteral ( ) 
- vesicouterino ( ) 
- vesicovaginal ( ) 
- vesicular ( ) 
- vespertina ( ) 
- vespertinas ( ) 
- vespertino ( ) 
- vestibular ( ) 
- vestida ( ) 
- vestidas ( ) 
- vestidito ( ) 
- vestiditos ( ) 
- vestido ( ) 
- vestidos ( ) 
- vestiduras ( ) 
- vestigio ( ) 
- vestigios ( ) 
- vestimenta ( ) 
- vestimentas ( ) 
- vestimos ( ) 
- vestir ( ) 
- vestirla ( ) 
- vestirme ( ) 
- vestirnos ( ) 
- vestirse ( ) 
- vestirá ( ) 
- vestirán ( ) 
- vestiste ( ) 
- vestuario ( ) 
- vestuarios ( ) 
- vestía ( ) 
- vestían ( ) 
- vestíbulo ( ) 
- vesícula ( ) 
- vesículas ( ) 
- veta ( ) 
- vetada ( ) 
- vetado ( ) 
- vetar ( ) 
- vetara ( ) 
- vetaron ( ) 
- vetará ( ) 
- vetaría ( ) 
- vetas ( ) 
- vete ( ) 
- veterana ( ) 
- veteranas ( ) 
- veterano ( ) 
- veteranos ( ) 
- veterinaria ( ) 
- veterinarias ( ) 
- veterinario ( ) 
- veterinarios ( ) 
- veto ( ) 
- vetó ( ) 
- vez ( ) 
- veáis ( ) 
- veía ( ) 
- veíais ( ) 
- veíamos ( ) 
- veían ( ) 
- veías ( ) 
- vi ( ) 
- via ( ) 
- viabilidad ( ) 
- viable ( ) 
- viables ( ) 
- viaducto ( ) 
- viaductos ( ) 
- viaja ( ) 
- viajaba ( ) 
- viajaban ( ) 
- viajado ( ) 
- viajamos ( ) 
- viajan ( ) 
- viajando ( ) 
- viajar ( ) 
- viajara ( ) 
- viajaran ( ) 
- viajaremos ( ) 
- viajaron ( ) 
- viajará ( ) 
- viajarán ( ) 
- viajaré ( ) 
- viajaría ( ) 
- viajas ( ) 
- viajase ( ) 
- viajasen ( ) 
- viaje ( ) 
- viajecito ( ) 
- viajen ( ) 
- viajera ( ) 
- viajeras ( ) 
- viajero ( ) 
- viajeros ( ) 
- viajes ( ) 
- viajo ( ) 
- viajáis ( ) 
- viajé ( ) 
- viajó ( ) 
- vial ( ) 
- viales ( ) 
- vialidad ( ) 
- vialidades ( ) 
- viaria ( ) 
- vibra ( ) 
- vibraciones ( ) 
- vibración ( ) 
- vibrado ( ) 
- vibradores ( ) 
- vibrante ( ) 
- vibrantes ( ) 
- vibrar ( ) 
- vibraron ( ) 
- vicario ( ) 
- viceconsejería ( ) 
- vicedirector ( ) 
- viceministra ( ) 
- viceministro ( ) 
- viceministros ( ) 
- vicepresidencia ( ) 
- vicepresidencias ( ) 
- vicepresidenta ( ) 
- vicepresidente ( ) 
- vicepresidentes ( ) 
- vicesecretario ( ) 
- viceversa ( ) 
- viché ( ) 
- vicia ( ) 
- viciada ( ) 
- viciadas ( ) 
- viciado ( ) 
- viciados ( ) 
- viciando ( ) 
- viciar ( ) 
- vicio ( ) 
- vicios ( ) 
- viciosas ( ) 
- vicioso ( ) 
- viciosos ( ) 
- vicisitudes ( ) 
- victimas ( ) 
- victoria ( ) 
- victoriana ( ) 
- victorianas ( ) 
- victorias ( ) 
- victoriosa ( ) 
- victoriosas ( ) 
- victorioso ( ) 
- victoriosos ( ) 
- vid ( ) 
- vida ( ) 
- vidas ( ) 
- video ( ) 
- videocasete ( ) 
- videograbadora ( ) 
- videojuegos ( ) 
- videos ( ) 
- videotex ( ) 
- vides ( ) 
- vidriadas ( ) 
- vidrio ( ) 
- vidrios ( ) 
- vidriosos ( ) 
- vieja ( ) 
- viejas ( ) 
- viejecitas ( ) 
- viejecito ( ) 
- viejecitos ( ) 
- viejita ( ) 
- viejito ( ) 
- viejitos ( ) 
- viejo ( ) 
- viejos ( ) 
- viejísima ( ) 
- viendo ( ) 
- viene ( ) lemma=avenir 
- vienen ( ) 
- vienes ( ) 
- viente ( ) 
- viento ( ) 
- vientos ( ) 
- vientre ( ) 
- vientres ( ) 
- viera ( ) 
- vierais ( ) 
- vieran ( ) 
- vieras ( ) 
- viernes ( ) 
- vieron ( ) 
- vierta ( ) 
- viertan ( ) 
- vierte ( ) 
- vierten ( ) 
- viese ( ) 
- vieseis ( ) 
- viesen ( ) 
- vietnamita ( ) 
- vietnamitas ( ) 
- viga ( ) 
- vigas ( ) 
- vigencia ( ) 
- vigente ( ) 
- vigentes ( ) 
- vigila ( ) 
- vigilaba ( ) 
- vigilaban ( ) 
- vigilada ( ) 
- vigiladas ( ) 
- vigilado ( ) 
- vigilados ( ) 
- vigilamos ( ) 
- vigilan ( ) 
- vigilancia ( ) 
- vigilancias ( ) 
- vigilando ( ) 
- vigilante ( ) 
- vigilantes ( ) 
- vigilar ( ) 
- vigilara ( ) 
- vigilaremos ( ) 
- vigilarla ( ) 
- vigilarlo ( ) 
- vigilarnos ( ) 
- vigilaron ( ) 
- vigilarse ( ) 
- vigilará ( ) 
- vigilarán ( ) 
- vigilaré ( ) 
- vigilaría ( ) 
- vigilase ( ) 
- vigile ( ) 
- vigilemos ( ) 
- vigilen ( ) 
- vigilia ( ) 
- vigilias ( ) 
- vigilándola ( ) 
- vigilándose ( ) 
- vigor ( ) 
- vigoriza ( ) 
- vigorizar ( ) 
- vigorosa ( ) 
- vigorosamente ( ) 
- vigorosas ( ) 
- vigoroso ( ) 
- vigorosos ( ) 
- vigésima ( ) 
- vigésimo ( ) 
- vigía ( ) 
- vigías ( ) 
- vih ( ) 
- vii ( ) 
- viii ( ) 
- vikinga ( ) 
- vikingos ( ) 
- vil ( ) 
- viles ( ) 
- villa ( ) 
- villana ( ) 
- villano ( ) 
- villanos ( ) 
- villas ( ) 
- villorrio ( ) 
- vilmente ( ) 
- vimos ( ) 
- vinagre ( ) 
- vinagreras ( ) 
- vinagrito ( ) 
- vinatería ( ) 
- vincula ( ) 
- vinculaba ( ) 
- vinculaban ( ) 
- vinculaciones ( ) 
- vinculación ( ) 
- vinculad ( ) 
- vinculada ( ) 
- vinculadas ( ) 
- vinculado ( ) 
- vinculados ( ) 
- vinculamos ( ) 
- vinculan ( ) 
- vinculando ( ) 
- vinculante ( ) 
- vincular ( ) 
- vinculara ( ) 
- vincularon ( ) 
- vincularse ( ) 
- vinculará ( ) 
- vincularán ( ) 
- vincularía ( ) 
- vincularíamos ( ) 
- vinculase ( ) 
- vincule ( ) 
- vinculemos ( ) 
- vinculen ( ) 
- vinculo ( ) 
- vinculándose ( ) 
- vinculó ( ) 
- vindicatorio ( ) 
- vine ( ) 
- viniendo ( ) 
- viniera ( ) lemma=avenir 
- vinieran ( ) 
- vinieras ( ) 
- viniere ( ) 
- vinieren ( ) 
- vinieron ( ) 
- viniese ( ) 
- vinieseis ( ) 
- viniesen ( ) 
- vinilo ( ) 
- vinimos ( ) 
- viniste ( ) 
- vinito ( ) 
- vino ( ) lemma=ovino 
- vinos ( ) 
- vio ( ) 
- viola ( ) 
- violaba ( ) 
- violaban ( ) 
- violaciones ( ) 
- violación ( ) 
- violada ( ) 
- violadas ( ) 
- violado ( ) 
- violados ( ) 
- violamos ( ) 
- violan ( ) 
- violando ( ) 
- violar ( ) 
- violara ( ) 
- violaran ( ) 
- violaren ( ) 
- violaron ( ) 
- violará ( ) 
- violaría ( ) 
- violaríamos ( ) 
- violarían ( ) 
- viole ( ) 
- violen ( ) 
- violencia ( ) 
- violencias ( ) 
- violenta ( ) 
- violentado ( ) 
- violentamente ( ) 
- violentando ( ) 
- violentar ( ) 
- violentaron ( ) 
- violentaría ( ) 
- violentas ( ) 
- violente ( ) 
- violento ( ) 
- violentos ( ) 
- violentísimamente ( ) 
- violentísimo ( ) 
- violeta ( ) 
- violetas ( ) 
- violines ( ) 
- violinista ( ) 
- violinistas ( ) 
- violé ( ) 
- violín ( ) 
- violó ( ) 
- virado ( ) 
- viral ( ) 
- virales ( ) 
- virar ( ) 
- virarás ( ) 
- vires ( ) 
- virgen ( ) 
- virgencita ( ) 
- viril ( ) 
- virilidad ( ) 
- virión ( ) 
- virosis ( ) 
- virtual ( ) 
- virtuales ( ) 
- virtualidad ( ) 
- virtualmente ( ) 
- virtud ( ) 
- virtudes ( ) 
+ versa ( VERB ) lemma=versar 
+ versaba ( VERB ) lemma=versar 
+ versaban ( VERB ) lemma=versar 
+ versado ( VERB_PAST_PARTICIPLE VERB ) lemma=versar 
+ versados ( VERB_PAST_PARTICIPLE VERB ) lemma=versar 
+ versan ( VERB ) lemma=versar 
+ versar ( VERB ) 
+ versaran ( VERB ) lemma=versar 
+ versaron ( VERB ) lemma=versar 
+ versará ( VERB ) lemma=versar 
+ versarán ( VERB ) lemma=versar 
+ versaría ( VERB ) lemma=versar 
+ versas ( VERB ) lemma=versar 
+ versatilidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ verse ( VERB_INFINITIVE VERB ) 
+ versen ( VERB ) lemma=versar 
+ version ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=versión 
+ versiones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=versión 
+ versito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=verso 
+ versión ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ verso ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ versos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=verso 
+ versus ( PREPOSITION ) 
+ versátil ( ADJECTIVE ) 
+ versátiles ( ADJECTIVE ) lemma=versátil 
+ versó ( VERB ) lemma=versar 
+ verte ( VERB_INFINITIVE VERB ) lemma=ver 
+ vertebradas ( VERB_PAST_PARTICIPLE VERB ) lemma=vertebrar 
+ vertebrado ( VERB_PAST_PARTICIPLE NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ vertebrados ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vertebrado 
+ vertebral ( ADJECTIVE ) 
+ vertebrales ( ADJECTIVE ) lemma=vertebral 
+ vertebrobasilar ( ADJECTIVE ) 
+ vertedero ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vertederos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vertedero 
+ vertemos ( VERB ) lemma=verter 
+ verter ( VERB ) 
+ verterse ( VERB ) lemma=verter 
+ vertería ( VERB ) lemma=verter 
+ vertical ( ADJECTIVE ) 
+ verticales ( ADJECTIVE ) lemma=vertical 
+ verticalidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ verticalidades ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=verticalidad 
+ verticalización ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ verticalmente ( ADVERB ) lemma=vertical 
+ vertida ( VERB_PAST_PARTICIPLE VERB ) lemma=verter 
+ vertidas ( VERB_PAST_PARTICIPLE VERB ) lemma=verter 
+ vertido ( VERB_PAST_PARTICIPLE VERB ) lemma=verter 
+ vertidos ( VERB_PAST_PARTICIPLE VERB ) lemma=verter 
+ vertiendo ( NOUN NOUN_GERUND ) lemma=verter 
+ vertiente ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vertientes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vertiente 
+ vertiera ( VERB ) lemma=verter 
+ vertieron ( VERB ) lemma=verter 
+ vertiginoso ( ADJECTIVE ) 
+ vertió ( VERB ) lemma=verter 
+ vertían ( VERB ) lemma=verter 
+ verá ( VERB ) lemma=ver 
+ verán ( VERB ) lemma=ver 
+ verás ( VERB ) lemma=ver 
+ veré ( VERB ) lemma=ver 
+ veréis ( VERB ) lemma=ver 
+ vería ( VERB ) lemma=ver 
+ veríais ( VERB ) lemma=ver 
+ veríamos ( VERB ) lemma=ver 
+ verían ( VERB ) lemma=ver 
+ verías ( VERB ) lemma=ver 
+ verídica ( ADJECTIVE ) lemma=verídico 
+ verónica ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ verónicas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=verónica 
+ ves ( VERB ) lemma=ver 
+ vesical ( ADJECTIVE ) 
+ vesicales ( ADJECTIVE ) lemma=vesical 
+ vesicogenital ( ADJECTIVE ) 
+ vesicoureteral ( ADJECTIVE ) 
+ vesicouterino ( ADJECTIVE ) 
+ vesicovaginal ( ADJECTIVE ) 
+ vesicular ( ADJECTIVE ) 
+ vespertina ( ADJECTIVE ) lemma=vespertino 
+ vespertinas ( ADJECTIVE ) lemma=vespertino 
+ vespertino ( ADJECTIVE ) 
+ vestibular ( ADJECTIVE ) 
+ vestida ( VERB_PAST_PARTICIPLE VERB ) lemma=vestir 
+ vestidas ( VERB_PAST_PARTICIPLE VERB ) lemma=vestir 
+ vestidito ( VERB_PAST_PARTICIPLE NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=vestido 
+ vestiditos ( VERB_PAST_PARTICIPLE NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=vestido 
+ vestido ( VERB_PAST_PARTICIPLE NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ vestidos ( VERB_PAST_PARTICIPLE NOUN VERB ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vestido 
+ vestiduras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vestidura 
+ vestigio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vestigios ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vestigio 
+ vestimenta ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vestimentas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vestimenta 
+ vestimos ( VERB ) lemma=vestir 
+ vestir ( VERB ) 
+ vestirla ( VERB_INFINITIVE VERB ) lemma=vestir 
+ vestirme ( VERB_INFINITIVE VERB ) lemma=vestir 
+ vestirnos ( VERB_INFINITIVE VERB ) lemma=vestir 
+ vestirse ( VERB_INFINITIVE VERB ) 
+ vestirá ( VERB ) lemma=vestir 
+ vestirán ( VERB ) lemma=vestir 
+ vestiste ( VERB ) lemma=vestir 
+ vestuario ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vestuarios ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vestuario 
+ vestía ( VERB ) lemma=vestir 
+ vestían ( VERB ) lemma=vestir 
+ vestíbulo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vesícula ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vesículas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vesícula 
+ veta ( VERB ) lemma=vetar 
+ vetada ( VERB_PAST_PARTICIPLE VERB ) lemma=vetar 
+ vetado ( VERB_PAST_PARTICIPLE VERB ) lemma=vetar 
+ vetar ( VERB ) 
+ vetara ( VERB ) lemma=vetar 
+ vetaron ( VERB ) lemma=vetar 
+ vetará ( VERB ) lemma=vetar 
+ vetaría ( VERB ) lemma=vetar 
+ vetas ( VERB ) lemma=vetar 
+ vete ( VERB ) lemma=ir|ver 
+ veterana ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=veterano 
+ veteranas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=veterano 
+ veterano ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ veteranos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=veterano 
+ veterinaria ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=veterinario 
+ veterinarias ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=veterinario 
+ veterinario ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ veterinarios ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=veterinario 
+ veto ( VERB ) lemma=vetar 
+ vetó ( VERB ) lemma=vetar 
+ vez ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ veáis ( VERB ) lemma=ver 
+ veía ( VERB ) lemma=ver 
+ veíais ( VERB ) lemma=ver 
+ veíamos ( VERB ) lemma=ver 
+ veían ( VERB ) lemma=ver 
+ veías ( VERB ) lemma=ver 
+ vi ( VERB ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ via ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vía 
+ viabilidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ viable ( ADJECTIVE ) 
+ viables ( ADJECTIVE ) lemma=viable 
+ viaducto ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ viaductos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=viaducto 
+ viaja ( VERB ) lemma=viajar 
+ viajaba ( VERB ) lemma=viajar 
+ viajaban ( VERB ) lemma=viajar 
+ viajado ( VERB_PAST_PARTICIPLE VERB ) lemma=viajar 
+ viajamos ( VERB ) lemma=viajar 
+ viajan ( VERB ) lemma=viajar 
+ viajando ( NOUN NOUN_GERUND ) lemma=viajar 
+ viajar ( VERB ) 
+ viajara ( VERB ) lemma=viajar 
+ viajaran ( VERB ) lemma=viajar 
+ viajaremos ( VERB ) lemma=viajar 
+ viajaron ( VERB ) lemma=viajar 
+ viajará ( VERB ) lemma=viajar 
+ viajarán ( VERB ) lemma=viajar 
+ viajaré ( VERB ) lemma=viajar 
+ viajaría ( VERB ) lemma=viajar 
+ viajas ( VERB ) lemma=viajar 
+ viajase ( VERB ) lemma=viajar 
+ viajasen ( VERB ) lemma=viajar 
+ viaje ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ viajecito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=viaje 
+ viajen ( VERB ) lemma=viajar 
+ viajera ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=viajero 
+ viajeras ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=viajero 
+ viajero ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ viajeros ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=viajero 
+ viajes ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=viaje 
+ viajo ( VERB ) lemma=viajar 
+ viajáis ( VERB ) lemma=viajar 
+ viajé ( VERB ) lemma=viajar 
+ viajó ( VERB ) lemma=viajar 
+ vial ( ADJECTIVE ) 
+ viales ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vial 
+ vialidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vialidades ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vialidad 
+ viaria ( ADJECTIVE ) lemma=viario 
+ vibra ( VERB ) lemma=vibrar 
+ vibraciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vibración 
+ vibración ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vibrado ( VERB_PAST_PARTICIPLE VERB ) lemma=vibrar 
+ vibradores ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vibrador 
+ vibrante ( ADJECTIVE ) 
+ vibrantes ( ADJECTIVE ) lemma=vibrante 
+ vibrar ( VERB ) 
+ vibraron ( VERB ) lemma=vibrar 
+ vicario ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ viceconsejería ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vicedirector ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ viceministra ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=viceministro 
+ viceministro ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ viceministros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=viceministro 
+ vicepresidencia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vicepresidencias ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vicepresidencia 
+ vicepresidenta ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vicepresidente 
+ vicepresidente ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vicepresidentes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vicepresidente 
+ vicesecretario ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ viceversa ( ADVERB ) 
+ viché ( VERB ) lemma=vichar 
+ vicia ( VERB ) lemma=viciar 
+ viciada ( VERB_PAST_PARTICIPLE VERB ) lemma=viciar 
+ viciadas ( VERB_PAST_PARTICIPLE VERB ) lemma=viciar 
+ viciado ( VERB_PAST_PARTICIPLE VERB ) lemma=viciar 
+ viciados ( VERB_PAST_PARTICIPLE VERB ) lemma=viciar 
+ viciando ( NOUN NOUN_GERUND ) lemma=viciar 
+ viciar ( VERB ) 
+ vicio ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ vicios ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vicio 
+ viciosas ( ADJECTIVE ) lemma=vicioso 
+ vicioso ( ADJECTIVE ) 
+ viciosos ( ADJECTIVE ) lemma=vicioso 
+ vicisitudes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vicisitud 
+ victimas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=víctima 
+ victoria ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ victoriana ( ADJECTIVE ) 
+ victorianas ( ADJECTIVE ) lemma=victoriana 
+ victorias ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=victoria 
+ victoriosa ( ADJECTIVE ) lemma=victorioso 
+ victoriosas ( ADJECTIVE ) lemma=victorioso 
+ victorioso ( ADJECTIVE ) 
+ victoriosos ( ADJECTIVE ) lemma=victorioso 
+ vid ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vida ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vidas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vida 
+ video ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ videocasete ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ videograbadora ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ videojuegos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=videojuego 
+ videos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=video 
+ videotex ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vides ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vid 
+ vidriadas ( VERB_PAST_PARTICIPLE VERB ) lemma=vidriar 
+ vidrio ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ vidrios ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vidrio 
+ vidriosos ( ADJECTIVE ) lemma=vidrioso 
+ vieja ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=viejo 
+ viejas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=viejo 
+ viejecitas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=viejo 
+ viejecito ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=viejo 
+ viejecitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=viejo 
+ viejita ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=viejo 
+ viejito ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=viejo 
+ viejitos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=viejo 
+ viejo ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ viejos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=viejo 
+ viejísima ( ADJECTIVE ) lemma=viejo 
+ viendo ( NOUN NOUN_GERUND ) lemma=ver 
+ viene ( VERB ) lemma=venir 
+ vienen ( VERB ) lemma=venir 
+ vienes ( VERB ) lemma=venir 
+ viente ( VERB ) lemma=ventar 
+ viento ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vientos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=viento 
+ vientre ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vientres ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vientre 
+ viera ( VERB ) lemma=ver 
+ vierais ( VERB ) lemma=ver 
+ vieran ( VERB ) lemma=ver 
+ vieras ( VERB ) lemma=ver 
+ viernes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vieron ( VERB ) lemma=ver 
+ vierta ( VERB ) lemma=verter 
+ viertan ( VERB ) lemma=verter 
+ vierte ( VERB ) lemma=verter 
+ vierten ( VERB ) lemma=verter 
+ viese ( VERB ) lemma=ver 
+ vieseis ( VERB ) lemma=ver 
+ viesen ( VERB ) lemma=ver 
+ vietnamita ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ vietnamitas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vietnamita 
+ viga ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vigas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=viga 
+ vigencia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vigente ( ADJECTIVE ) 
+ vigentes ( ADJECTIVE ) lemma=vigente 
+ vigila ( VERB ) lemma=vigilar 
+ vigilaba ( VERB ) lemma=vigilar 
+ vigilaban ( VERB ) lemma=vigilar 
+ vigilada ( VERB_PAST_PARTICIPLE VERB ) lemma=vigilar 
+ vigiladas ( VERB_PAST_PARTICIPLE VERB ) lemma=vigilar 
+ vigilado ( VERB_PAST_PARTICIPLE VERB ) lemma=vigilar 
+ vigilados ( VERB_PAST_PARTICIPLE VERB ) lemma=vigilar 
+ vigilamos ( VERB ) lemma=vigilar 
+ vigilan ( VERB ) lemma=vigilar 
+ vigilancia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vigilancias ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vigilancia 
+ vigilando ( NOUN NOUN_GERUND ) lemma=vigilar 
+ vigilante ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ vigilantes ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vigilante 
+ vigilar ( VERB ) 
+ vigilara ( VERB ) lemma=vigilar 
+ vigilaremos ( VERB ) lemma=vigilar 
+ vigilarla ( VERB_INFINITIVE VERB ) lemma=vigilar 
+ vigilarlo ( VERB_INFINITIVE VERB ) lemma=vigilar 
+ vigilarnos ( VERB_INFINITIVE VERB ) lemma=vigilar 
+ vigilaron ( VERB ) lemma=vigilar 
+ vigilarse ( VERB_INFINITIVE VERB ) 
+ vigilará ( VERB ) lemma=vigilar 
+ vigilarán ( VERB ) lemma=vigilar 
+ vigilaré ( VERB ) lemma=vigilar 
+ vigilaría ( VERB ) lemma=vigilar 
+ vigilase ( VERB ) lemma=vigilar 
+ vigile ( VERB ) lemma=vigilar 
+ vigilemos ( VERB ) lemma=vigilar 
+ vigilen ( VERB ) lemma=vigilar 
+ vigilia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vigilias ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vigilia 
+ vigilándola ( NOUN NOUN_GERUND ) lemma=vigilar 
+ vigilándose ( NOUN NOUN_GERUND ) lemma=vigilarse 
+ vigor ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vigoriza ( VERB ) lemma=vigorizar 
+ vigorizar ( VERB ) 
+ vigorosa ( ADJECTIVE ) lemma=vigoroso 
+ vigorosamente ( ADVERB ) lemma=vigoroso 
+ vigorosas ( ADJECTIVE ) lemma=vigoroso 
+ vigoroso ( ADJECTIVE ) 
+ vigorosos ( ADJECTIVE ) lemma=vigoroso 
+ vigésima ( ADJECTIVE ) 
+ vigésimo ( ADJECTIVE ) 
+ vigía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vigías ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vigía 
+ vih ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vii ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ viii ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ vikinga ( ADJECTIVE ) lemma=vikingo 
+ vikingos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vikingo 
+ vil ( ADJECTIVE ) 
+ viles ( ADJECTIVE ) lemma=vil 
+ villa ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ villana ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=villano 
+ villano ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ villanos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=villano 
+ villas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=villa 
+ villorrio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vilmente ( ADVERB ) lemma=vil 
+ vimos ( VERB ) lemma=ver 
+ vinagre ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vinagreras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vinagrera 
+ vinagrito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vinagre 
+ vinatería ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vincula ( VERB ) lemma=vincular 
+ vinculaba ( VERB ) lemma=vincular 
+ vinculaban ( VERB ) lemma=vincular 
+ vinculaciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vinculación 
+ vinculación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vinculad ( VERB ) lemma=vincular 
+ vinculada ( VERB_PAST_PARTICIPLE VERB ) lemma=vincular 
+ vinculadas ( VERB_PAST_PARTICIPLE VERB ) lemma=vincular 
+ vinculado ( VERB_PAST_PARTICIPLE VERB ) lemma=vincular 
+ vinculados ( VERB_PAST_PARTICIPLE VERB ) lemma=vincular 
+ vinculamos ( VERB ) lemma=vincular 
+ vinculan ( VERB ) lemma=vincular 
+ vinculando ( NOUN NOUN_GERUND ) lemma=vincular 
+ vinculante ( ADJECTIVE ) 
+ vincular ( VERB ) 
+ vinculara ( VERB ) lemma=vincular 
+ vincularon ( VERB ) lemma=vincular 
+ vincularse ( VERB_INFINITIVE VERB ) 
+ vinculará ( VERB ) lemma=vincular 
+ vincularán ( VERB ) lemma=vincular 
+ vincularía ( VERB ) lemma=vincular 
+ vincularíamos ( VERB ) lemma=vincular 
+ vinculase ( VERB ) lemma=vincular 
+ vincule ( VERB ) lemma=vincular 
+ vinculemos ( VERB ) lemma=vincular 
+ vinculen ( VERB ) lemma=vincular 
+ vinculo ( VERB ) lemma=vincular 
+ vinculándose ( NOUN NOUN_GERUND ) lemma=vincularse 
+ vinculó ( VERB ) lemma=vincular 
+ vindicatorio ( ADJECTIVE ) 
+ vine ( VERB ) lemma=venir 
+ viniendo ( NOUN NOUN_GERUND ) lemma=venir 
+ viniera ( VERB ) lemma=venir 
+ vinieran ( VERB ) lemma=venir 
+ vinieras ( VERB ) lemma=venir 
+ viniere ( VERB ) lemma=venir 
+ vinieren ( VERB ) lemma=venir 
+ vinieron ( VERB ) lemma=venir 
+ viniese ( VERB ) lemma=venir 
+ vinieseis ( VERB ) lemma=venir 
+ viniesen ( VERB ) lemma=venir 
+ vinilo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vinimos ( VERB ) lemma=venir 
+ viniste ( VERB ) lemma=venir 
+ vinito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vino 
+ vino ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ vinos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vino 
+ vio ( VERB ) lemma=ver 
+ viola ( VERB ) lemma=violar 
+ violaba ( VERB ) lemma=violar 
+ violaban ( VERB ) lemma=violar 
+ violaciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=violación 
+ violación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ violada ( VERB_PAST_PARTICIPLE VERB ) lemma=violar 
+ violadas ( VERB_PAST_PARTICIPLE VERB ) lemma=violar 
+ violado ( VERB_PAST_PARTICIPLE VERB ) lemma=violar 
+ violados ( VERB_PAST_PARTICIPLE VERB ) lemma=violar 
+ violamos ( VERB ) lemma=violar 
+ violan ( VERB ) lemma=violar 
+ violando ( NOUN NOUN_GERUND ) lemma=violar 
+ violar ( VERB ) 
+ violara ( VERB ) lemma=violar 
+ violaran ( VERB ) lemma=violar 
+ violaren ( VERB ) lemma=violar 
+ violaron ( VERB ) lemma=violar 
+ violará ( VERB ) lemma=violar 
+ violaría ( VERB ) lemma=violar 
+ violaríamos ( VERB ) lemma=violar 
+ violarían ( VERB ) lemma=violar 
+ viole ( VERB ) lemma=violar 
+ violen ( VERB ) lemma=violar 
+ violencia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ violencias ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=violencia 
+ violenta ( VERB ADJECTIVE ) lemma=violento 
+ violentado ( VERB_PAST_PARTICIPLE VERB ) lemma=violentar 
+ violentamente ( ADVERB ) lemma=violento 
+ violentando ( NOUN NOUN_GERUND ) lemma=violentar 
+ violentar ( VERB ) 
+ violentaron ( VERB ) lemma=violentar 
+ violentaría ( VERB ) lemma=violentar 
+ violentas ( VERB ADJECTIVE ) lemma=violento 
+ violente ( VERB ) lemma=violentar 
+ violento ( VERB ADJECTIVE ) 
+ violentos ( ADJECTIVE ) lemma=violento 
+ violentísimamente ( ADJECTIVE ) lemma=violento 
+ violentísimo ( ADJECTIVE ) lemma=violento 
+ violeta ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ violetas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=violeta 
+ violines ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=violín 
+ violinista ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ violinistas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=violinista 
+ violé ( VERB ) lemma=violar 
+ violín ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ violó ( VERB ) lemma=violar 
+ virado ( VERB_PAST_PARTICIPLE VERB ) lemma=virar 
+ viral ( ADJECTIVE ) 
+ virales ( ADJECTIVE ) lemma=viral 
+ virar ( VERB ) 
+ virarás ( VERB ) lemma=virar 
+ vires ( VERB ) lemma=virar 
+ virgen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ virgencita ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=virgen 
+ viril ( ADJECTIVE ) 
+ virilidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ virión ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ virosis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ virtual ( ADJECTIVE ) 
+ virtuales ( ADJECTIVE ) lemma=virtual 
+ virtualidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ virtualmente ( ADVERB ) lemma=virtual 
+ virtud ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ virtudes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=virtud 
  virtuel ( ) 
  virtuelle ( ) 
- virtuosa ( ) 
- virtuosas ( ) 
- virtuosismo ( ) 
- virtuoso ( ) 
- virtuosos ( ) 
- viruela ( ) 
- virulencia ( ) 
- virulenta ( ) 
- virulentas ( ) 
- virulento ( ) 
- virulentos ( ) 
- virus ( ) 
- viró ( ) 
- virósico ( ) 
- visa ( ) lemma=avisar 
- visada ( ) 
- visado ( ) lemma=avisar 
- visados ( ) 
- visaje ( ) 
- visar ( ) 
- visas ( ) 
- visceral ( ) 
- viscerales ( ) 
- viscosa ( ) 
- viscosas ( ) 
- viscosidad ( ) 
- viscoso ( ) 
- viscosos ( ) 
- visibilidad ( ) 
- visible ( ) 
- visiblemente ( ) 
- visibles ( ) 
- visigótica ( ) 
- visiofónico ( ) 
- visionado ( ) 
- visiones ( ) 
- visita ( ) 
- visitaba ( ) 
- visitaban ( ) 
- visitada ( ) 
- visitadas ( ) 
- visitado ( ) 
- visitados ( ) 
- visitamos ( ) 
- visitan ( ) 
- visitando ( ) 
- visitante ( ) 
- visitantes ( ) 
- visitar ( ) 
- visitara ( ) 
- visitaran ( ) 
- visitaremos ( ) 
- visitarla ( ) 
- visitarle ( ) 
- visitarlo ( ) 
- visitarme ( ) 
- visitarnos ( ) 
- visitaron ( ) 
- visitará ( ) 
- visitarán ( ) 
- visitaré ( ) 
- visitaría ( ) 
- visitas ( ) 
- visitase ( ) 
- visite ( ) 
- visiten ( ) 
- visites ( ) 
- visito ( ) 
- visité ( ) 
- visitó ( ) 
- visión ( ) 
- vislumbra ( ) 
- vislumbraba ( ) 
- vislumbrados ( ) 
- vislumbran ( ) 
- vislumbrar ( ) 
- vislumbrarse ( ) 
- vislumbre ( ) 
- vislumbres ( ) 
- vislumbro ( ) 
- visomotora ( ) 
- visones ( ) 
- visos ( ) 
- vista ( ) lemma=avistar 
- vistamos ( ) 
- vistan ( ) 
- vistas ( ) 
- vistazo ( ) 
- viste ( ) 
- visteis ( ) 
- visten ( ) 
- vistes ( ) 
- vistiendo ( ) 
- vistiera ( ) 
- vistieron ( ) 
- vistió ( ) 
- visto ( ) 
- vistos ( ) 
- vistosa ( ) 
- vistosas ( ) 
- vistosidad ( ) 
- vistoso ( ) 
- vistosos ( ) 
- visual ( ) 
- visuales ( ) 
- visualice ( ) 
- visualicen ( ) 
- visualiza ( ) 
- visualizable ( ) 
- visualización ( ) 
- visualizada ( ) 
- visualizado ( ) 
- visualizador ( ) 
- visualizadores ( ) 
- visualizados ( ) 
- visualizan ( ) 
- visualizando ( ) 
- visualizar ( ) 
- visualizarse ( ) 
- visualizará ( ) 
- visualmente ( ) 
- visón ( ) 
- vital ( ) 
- vitales ( ) 
- vitalicia ( ) 
- vitalicias ( ) 
- vitalicio ( ) 
- vitalicios ( ) 
- vitalidad ( ) 
- vitalismo ( ) 
- vitalista ( ) 
- vitalistas ( ) 
- vitalmente ( ) 
- vitamina ( ) 
- vitaminas ( ) 
- vitaminoterapia ( ) 
- vitamínica ( ) 
- vitamínicas ( ) 
- vitamínico ( ) 
- vitamínicos ( ) 
- vite ( ) lemma=evitar 
- vitelina ( ) 
- vitelino ( ) 
- vitelo ( ) 
- vitiligo ( ) 
- vitoreaban ( ) 
- vitorearon ( ) 
- vitorearía ( ) 
- vitoreó ( ) 
- vitrectomizar ( ) 
- vitrifica ( ) 
- vitrificados ( ) 
- vitrina ( ) 
- vitrinas ( ) 
- vitritis ( ) 
- vituallas ( ) 
- viuda ( ) 
- viudas ( ) 
- viudedad ( ) 
- viudo ( ) 
- viudos ( ) 
- viva ( ) lemma=avivar 
- vivamente ( ) 
- vivamos ( ) 
- vivan ( ) 
- vivaracha ( ) 
- vivas ( ) 
- vivaz ( ) 
- vive ( ) 
- viven ( ) 
- vivencia ( ) 
- vivencial ( ) 
- vivenciar ( ) 
- vivencias ( ) 
- vivero ( ) 
- viveros ( ) 
- vives ( ) 
- viveza ( ) 
- vivida ( ) 
- vividas ( ) 
- vivido ( ) 
- vivienda ( ) 
- viviendas ( ) 
- viviendo ( ) 
- viviente ( ) 
- vivientes ( ) 
- viviera ( ) 
- vivierais ( ) 
- vivieran ( ) 
- vivieras ( ) 
- vivieron ( ) 
- vivieseis ( ) 
- viviesen ( ) 
- vivimos ( ) 
- vivir ( ) 
- viviremos ( ) 
- vivirla ( ) 
- vivirlos ( ) 
- vivirse ( ) 
- vivirá ( ) 
- vivirán ( ) 
- viviría ( ) 
- viviríamos ( ) 
- vivirían ( ) 
- vivita ( ) 
- vivito ( ) 
- viviéndolo ( ) 
- viviéndose ( ) 
- viviéramos ( ) 
- vivió ( ) 
- vivo ( ) 
- vivo-agudo ( ) 
- vivos ( ) 
- viví ( ) 
- vivía ( ) 
- vivíamos ( ) 
- vivían ( ) 
- vivías ( ) 
- vivís ( ) 
- vivísima ( ) 
- vizcaína ( ) 
- vizcaíno ( ) 
- vizcaínos ( ) 
- vizconde ( ) 
- viéndola ( ) 
- viéndole ( ) 
- viéndolo ( ) 
- viéndome ( ) 
- viéndonos ( ) 
- viéndoos ( ) 
- viéndose ( ) 
- viéramos ( ) 
- viésemos ( ) 
- viña ( ) 
- viñas ( ) 
- viñedo ( ) 
- viñedos ( ) 
- viñetas ( ) 
- vocablo ( ) 
- vocablos ( ) 
- vocabulario ( ) 
- vocacional ( ) 
- vocaciones ( ) 
- vocación ( ) 
- vocal ( ) 
- vocales ( ) 
- vocalista ( ) 
+ virtuosa ( ADJECTIVE ) lemma=virtuoso 
+ virtuosas ( ADJECTIVE ) lemma=virtuoso 
+ virtuosismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ virtuoso ( ADJECTIVE ) 
+ virtuosos ( ADJECTIVE ) lemma=virtuoso 
+ viruela ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ virulencia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ virulenta ( ADJECTIVE ) lemma=virulento 
+ virulentas ( ADJECTIVE ) lemma=virulento 
+ virulento ( ADJECTIVE ) 
+ virulentos ( ADJECTIVE ) lemma=virulento 
+ virus ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ viró ( VERB ) lemma=virar 
+ virósico ( ADJECTIVE ) 
+ visa ( VERB ) lemma=visar 
+ visada ( VERB_PAST_PARTICIPLE VERB ) lemma=visar 
+ visado ( VERB_PAST_PARTICIPLE VERB ) lemma=visar 
+ visados ( VERB_PAST_PARTICIPLE VERB ) lemma=visar 
+ visaje ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ visar ( VERB ) 
+ visas ( VERB ) lemma=visar 
+ visceral ( ADJECTIVE ) 
+ viscerales ( ADJECTIVE ) lemma=visceral 
+ viscosa ( ADJECTIVE ) lemma=viscoso 
+ viscosas ( ADJECTIVE ) lemma=viscoso 
+ viscosidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ viscoso ( ADJECTIVE ) 
+ viscosos ( ADJECTIVE ) lemma=viscoso 
+ visibilidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ visible ( ADJECTIVE ) 
+ visiblemente ( ADVERB ) lemma=visible 
+ visibles ( ADJECTIVE ) lemma=visible 
+ visigótica ( ADJECTIVE ) lemma=visigótico 
+ visiofónico ( ADJECTIVE ) 
+ visionado ( VERB_PAST_PARTICIPLE VERB ) lemma=visionar 
+ visiones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=visión 
+ visita ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ visitaba ( VERB ) lemma=visitar 
+ visitaban ( VERB ) lemma=visitar 
+ visitada ( VERB_PAST_PARTICIPLE VERB ) lemma=visitar 
+ visitadas ( VERB_PAST_PARTICIPLE VERB ) lemma=visitar 
+ visitado ( VERB_PAST_PARTICIPLE VERB ) lemma=visitar 
+ visitados ( VERB_PAST_PARTICIPLE VERB ) lemma=visitar 
+ visitamos ( VERB ) lemma=visitar 
+ visitan ( VERB ) lemma=visitar 
+ visitando ( NOUN NOUN_GERUND ) lemma=visitar 
+ visitante ( VERB_PAST_PARTICIPLE VERB ) lemma=visitar 
+ visitantes ( VERB_PAST_PARTICIPLE VERB ) lemma=visitar 
+ visitar ( VERB ) 
+ visitara ( VERB ) lemma=visitar 
+ visitaran ( VERB ) lemma=visitar 
+ visitaremos ( VERB ) lemma=visitar 
+ visitarla ( VERB_INFINITIVE VERB ) lemma=visitar 
+ visitarle ( VERB_INFINITIVE VERB ) lemma=visitar 
+ visitarlo ( VERB_INFINITIVE VERB ) lemma=visitar 
+ visitarme ( VERB_INFINITIVE VERB ) lemma=visitar 
+ visitarnos ( VERB_INFINITIVE VERB ) lemma=visitar 
+ visitaron ( VERB ) lemma=visitar 
+ visitará ( VERB ) lemma=visitar 
+ visitarán ( VERB ) lemma=visitar 
+ visitaré ( VERB ) lemma=visitar 
+ visitaría ( VERB ) lemma=visitar 
+ visitas ( VERB ) lemma=visitar 
+ visitase ( VERB ) lemma=visitar 
+ visite ( VERB ) lemma=visitar 
+ visiten ( VERB ) lemma=visitar 
+ visites ( VERB ) lemma=visitar 
+ visito ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=viso 
+ visité ( VERB ) lemma=visitar 
+ visitó ( VERB ) lemma=visitar 
+ visión ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vislumbra ( VERB ) lemma=vislumbrar 
+ vislumbraba ( VERB ) lemma=vislumbrar 
+ vislumbrados ( VERB_PAST_PARTICIPLE VERB ) lemma=vislumbrar 
+ vislumbran ( VERB ) lemma=vislumbrar 
+ vislumbrar ( VERB ) 
+ vislumbrarse ( VERB ) lemma=vislumbrar 
+ vislumbre ( VERB ) lemma=vislumbrar 
+ vislumbres ( VERB ) lemma=vislumbrar 
+ vislumbro ( VERB ) lemma=vislumbrar 
+ visomotora ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ visones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=visón 
+ visos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=viso 
+ vista ( VERB_PAST_PARTICIPLE NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ vistamos ( VERB ) lemma=vestir 
+ vistan ( VERB ) lemma=vestir 
+ vistas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vista 
+ vistazo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ viste ( VERB ) lemma=ver|ver|vestir 
+ visteis ( VERB ) lemma=ver 
+ visten ( VERB ) lemma=vestir 
+ vistes ( VERB ) lemma=ver|vestir 
+ vistiendo ( NOUN NOUN_GERUND ) lemma=vestir 
+ vistiera ( VERB ) lemma=vestir 
+ vistieron ( VERB ) lemma=vestir 
+ vistió ( VERB ) lemma=vestir 
+ visto ( VERB_PAST_PARTICIPLE VERB ) lemma=ver 
+ vistos ( VERB_PAST_PARTICIPLE VERB ) lemma=ver 
+ vistosa ( ADJECTIVE ) lemma=vistoso 
+ vistosas ( ADJECTIVE ) lemma=vistoso 
+ vistosidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vistoso ( ADJECTIVE ) 
+ vistosos ( ADJECTIVE ) lemma=vistoso 
+ visual ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ visuales ( ADJECTIVE ) lemma=visual 
+ visualice ( VERB ) lemma=visualizar 
+ visualicen ( VERB ) lemma=visualizar 
+ visualiza ( VERB ) lemma=visualizar 
+ visualizable ( ADJECTIVE ) 
+ visualización ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ visualizada ( VERB_PAST_PARTICIPLE VERB ) lemma=visualizar 
+ visualizado ( VERB_PAST_PARTICIPLE VERB ) lemma=visualizar 
+ visualizador ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ visualizadores ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=visualizador 
+ visualizados ( VERB_PAST_PARTICIPLE VERB ) lemma=visualizar 
+ visualizan ( VERB ) lemma=visualizar 
+ visualizando ( NOUN NOUN_GERUND ) lemma=visualizar 
+ visualizar ( VERB ) 
+ visualizarse ( VERB_INFINITIVE VERB ) 
+ visualizará ( VERB ) lemma=visualizar 
+ visualmente ( ADVERB ) lemma=visual 
+ visón ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vital ( ADJECTIVE ) 
+ vitales ( ADJECTIVE ) lemma=vital 
+ vitalicia ( ADJECTIVE ) lemma=vitalicio 
+ vitalicias ( ADJECTIVE ) lemma=vitalicio 
+ vitalicio ( ADJECTIVE ) 
+ vitalicios ( ADJECTIVE ) lemma=vitalicio 
+ vitalidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vitalismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vitalista ( ADJECTIVE ) 
+ vitalistas ( ADJECTIVE ) lemma=vitalista 
+ vitalmente ( ADVERB ) lemma=vital 
+ vitamina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vitaminas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vitamina 
+ vitaminoterapia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vitamínica ( ADJECTIVE ) lemma=vitamínico 
+ vitamínicas ( ADJECTIVE ) lemma=vitamínico 
+ vitamínico ( ADJECTIVE ) 
+ vitamínicos ( ADJECTIVE ) lemma=vitamínico 
+ vite ( VERB ) lemma=vitar 
+ vitelina ( ADJECTIVE ) lemma=vitelino 
+ vitelino ( ADJECTIVE ) 
+ vitelo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vitiligo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vitoreaban ( VERB ) lemma=vitorear 
+ vitorearon ( VERB ) lemma=vitorear 
+ vitorearía ( VERB ) lemma=vitorear 
+ vitoreó ( VERB ) lemma=vitorear 
+ vitrectomizar ( VERB_PAST_PARTICIPLE VERB ) 
+ vitrifica ( VERB ) lemma=vitrificar 
+ vitrificados ( VERB_PAST_PARTICIPLE VERB ) lemma=vitrificar 
+ vitrina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vitrinas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vitrina 
+ vitritis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vituallas ( VERB ) lemma=vituallar 
+ viuda ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=viudo 
+ viudas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=viudo 
+ viudedad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ viudo ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ viudos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=viudo 
+ viva ( NOUN VERB ADJECTIVE NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=vivo 
+ vivamente ( ADVERB ) lemma=vivo 
+ vivamos ( VERB ) lemma=vivir 
+ vivan ( VERB ) lemma=vivir 
+ vivaracha ( ADJECTIVE ) lemma=vivaracho 
+ vivas ( NOUN VERB ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vivo 
+ vivaz ( ADJECTIVE ) 
+ vive ( VERB ) lemma=vivir 
+ viven ( VERB ) lemma=vivir 
+ vivencia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vivencial ( ADJECTIVE ) 
+ vivenciar ( VERB ) 
+ vivencias ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vivencia 
+ vivero ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ viveros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vivero 
+ vives ( VERB ) lemma=vivir 
+ viveza ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vivida ( VERB_PAST_PARTICIPLE VERB ) lemma=vivir 
+ vividas ( VERB_PAST_PARTICIPLE VERB ) lemma=vivir 
+ vivido ( VERB_PAST_PARTICIPLE VERB ) lemma=vivir 
+ vivienda ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ viviendas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vivienda 
+ viviendo ( NOUN NOUN_GERUND ) lemma=vivir 
+ viviente ( ADJECTIVE ) 
+ vivientes ( ADJECTIVE ) lemma=viviente 
+ viviera ( VERB ) lemma=vivir 
+ vivierais ( VERB ) lemma=vivir 
+ vivieran ( VERB ) lemma=vivir 
+ vivieras ( VERB ) lemma=vivir 
+ vivieron ( VERB ) lemma=vivir 
+ vivieseis ( VERB ) lemma=vivir 
+ viviesen ( VERB ) lemma=vivir 
+ vivimos ( VERB ) lemma=vivir 
+ vivir ( VERB ) 
+ viviremos ( VERB ) lemma=vivir 
+ vivirla ( VERB_INFINITIVE VERB ) lemma=vivir 
+ vivirlos ( VERB_INFINITIVE VERB ) lemma=vivir 
+ vivirse ( VERB_INFINITIVE VERB ) 
+ vivirá ( VERB ) lemma=vivir 
+ vivirán ( VERB ) lemma=vivir 
+ viviría ( VERB ) lemma=vivir 
+ viviríamos ( VERB ) lemma=vivir 
+ vivirían ( VERB ) lemma=vivir 
+ vivita ( ADJECTIVE ) lemma=vivo 
+ vivito ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vivo 
+ viviéndolo ( NOUN NOUN_GERUND ) lemma=vivir 
+ viviéndose ( VERB_PAST_PARTICIPLE VERB ) lemma=vivir 
+ viviéramos ( VERB ) lemma=vivir 
+ vivió ( VERB ) lemma=vivir 
+ vivo ( NOUN VERB ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ vivo-agudo ( ADJECTIVE ) 
+ vivos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vivo 
+ viví ( VERB ) lemma=vivir 
+ vivía ( VERB ) lemma=vivir 
+ vivíamos ( VERB ) lemma=vivir 
+ vivían ( VERB ) lemma=vivir 
+ vivías ( VERB ) lemma=vivir 
+ vivís ( VERB ) lemma=vivir 
+ vivísima ( ADJECTIVE ) lemma=vivo 
+ vizcaína ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vizcaíno 
+ vizcaíno ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ vizcaínos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vizcaíno 
+ vizconde ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ viéndola ( VERB_PAST_PARTICIPLE VERB ) lemma=ver 
+ viéndole ( NOUN NOUN_GERUND ) lemma=ver 
+ viéndolo ( VERB_PAST_PARTICIPLE VERB ) lemma=ver 
+ viéndome ( VERB_PAST_PARTICIPLE VERB ) lemma=ver 
+ viéndonos ( NOUN NOUN_GERUND ) lemma=ver 
+ viéndoos ( VERB_PAST_PARTICIPLE VERB ) lemma=ver 
+ viéndose ( VERB_PAST_PARTICIPLE VERB ) lemma=ver 
+ viéramos ( VERB ) lemma=ver 
+ viésemos ( VERB ) lemma=ver 
+ viña ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ viñas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=viña 
+ viñedo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ viñedos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=viñedo 
+ viñetas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=viñeta 
+ vocablo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vocablos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vocablo 
+ vocabulario ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vocacional ( ADJECTIVE ) 
+ vocaciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vocación 
+ vocación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vocal ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ vocales ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=vocal 
+ vocalista ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  vocaux ( ) 
- vocero ( ) 
- voceros ( ) 
- voces ( ) 
- vociferaba ( ) 
- vociferaban ( ) 
- vociferando ( ) 
- vociferar ( ) 
- vocifero ( ) 
- vodka ( ) 
+ vocero ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ voceros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vocero 
+ voces ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=voz 
+ vociferaba ( VERB ) lemma=vociferar 
+ vociferaban ( VERB ) lemma=vociferar 
+ vociferando ( NOUN NOUN_GERUND ) lemma=vociferar 
+ vociferar ( VERB ) 
+ vocifero ( VERB ) lemma=vociferar 
+ vodka ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  voice ( ) 
  voie ( ) 
  voies ( ) 
  voix ( ) 
- volaba ( ) 
- volaban ( ) 
- volabas ( ) 
- volada ( ) 
- volado ( ) 
- voladora ( ) 
- voladuras ( ) 
- volamos ( ) 
- volando ( ) 
- volante ( ) 
- volantes ( ) 
- volar ( ) 
- volara ( ) 
- volaron ( ) 
- volará ( ) 
- volarán ( ) 
- volaría ( ) 
- volarían ( ) 
- volatilidad ( ) 
- volcada ( ) 
- volcadas ( ) 
- volcado ( ) 
- volcados ( ) 
- volcamos ( ) 
- volcando ( ) 
- volcanes ( ) 
- volcar ( ) 
- volcaron ( ) 
- volcarse ( ) 
- volcarte ( ) 
- volcará ( ) 
- volcán ( ) 
- volcó ( ) 
- volea ( ) 
- voleas ( ) 
- voleibol ( ) 
- volemia ( ) 
- voleo ( ) 
- volición ( ) 
- volovelismo ( ) 
- volquete ( ) 
- voltaje ( ) 
- voltea ( ) 
- volteado ( ) 
- voltear ( ) 
- volteo ( ) 
- voltereta ( ) 
- volteretas ( ) 
- volteó ( ) 
- voltio ( ) 
- voltios ( ) 
- voltímetro ( ) 
+ volaba ( VERB ) lemma=volar 
+ volaban ( VERB ) lemma=volar 
+ volabas ( VERB ) lemma=volar 
+ volada ( VERB_PAST_PARTICIPLE VERB ) lemma=volar 
+ volado ( VERB_PAST_PARTICIPLE VERB ) lemma=volar 
+ voladora ( ADJECTIVE ) 
+ voladuras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=voladura 
+ volamos ( VERB ) lemma=volar 
+ volando ( NOUN NOUN_GERUND ) lemma=volar 
+ volante ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ volantes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=volante 
+ volar ( VERB ) 
+ volara ( VERB ) lemma=volar 
+ volaron ( VERB ) lemma=volar 
+ volará ( VERB ) lemma=volar 
+ volarán ( VERB ) lemma=volar 
+ volaría ( VERB ) lemma=volar 
+ volarían ( VERB ) lemma=volar 
+ volatilidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ volcada ( VERB_PAST_PARTICIPLE VERB ) lemma=volcar 
+ volcadas ( VERB_PAST_PARTICIPLE VERB ) lemma=volcar 
+ volcado ( VERB_PAST_PARTICIPLE VERB ) lemma=volcar 
+ volcados ( VERB_PAST_PARTICIPLE VERB ) lemma=volcar 
+ volcamos ( VERB ) lemma=volcar 
+ volcando ( NOUN NOUN_GERUND ) lemma=volcar 
+ volcanes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=volcán 
+ volcar ( VERB ) 
+ volcaron ( VERB ) lemma=volcar 
+ volcarse ( VERB_INFINITIVE VERB ) 
+ volcarte ( VERB_INFINITIVE VERB ) lemma=volcar 
+ volcará ( VERB ) lemma=volcar 
+ volcán ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ volcó ( VERB ) lemma=volcar 
+ volea ( VERB ) lemma=volear 
+ voleas ( VERB ) lemma=volear 
+ voleibol ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ volemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ voleo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ volición ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ volovelismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ volquete ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ voltaje ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ voltea ( VERB ) lemma=voltear 
+ volteado ( VERB_PAST_PARTICIPLE VERB ) lemma=voltear 
+ voltear ( VERB ) 
+ volteo ( VERB ) lemma=voltear 
+ voltereta ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ volteretas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=voltereta 
+ volteó ( VERB ) lemma=voltear 
+ voltio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ voltios ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=voltio 
+ voltímetro ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  volume ( ) 
- volumen ( ) 
- volumen-flujo ( ) 
- volumen-superficie ( ) 
- volumenes ( ) 
- voluminosa ( ) 
- voluminosas ( ) 
- voluminoso ( ) 
- voluminosos ( ) 
- volumétrica ( ) 
- volumétricos ( ) 
- voluntad ( ) 
- voluntades ( ) 
- voluntaria ( ) 
- voluntariado ( ) 
- voluntariamente ( ) 
- voluntarias ( ) 
- voluntario ( ) 
- voluntarios ( ) 
- voluntariosa ( ) 
- voluntarioso ( ) 
- voluntariosos ( ) 
- voluntarismo ( ) 
- voluntarismos ( ) 
- volvamos ( ) 
- volvemos ( ) 
- volver ( ) 
- volveremos ( ) 
- volverla ( ) 
- volverlas ( ) 
- volverlo ( ) 
- volverlos ( ) 
- volverme ( ) 
- volvernos ( ) 
- volverse ( ) 
- volverte ( ) 
- volverá ( ) 
- volverán ( ) 
- volveré ( ) 
- volvería ( ) 
- volveríamos ( ) 
- volverían ( ) 
- volviendo ( ) 
- volviera ( ) 
- volvieran ( ) 
- volvieron ( ) 
- volviese ( ) 
- volviesen ( ) 
- volvimos ( ) 
- volvio ( ) 
- volviste ( ) 
- volviéndola ( ) 
- volviéndome ( ) 
- volviéndonos ( ) 
- volviéndose ( ) 
- volviéramos ( ) 
- volviésemos ( ) 
- volvió ( ) 
- volvocal ( ) 
- volváis ( ) 
- volvéis ( ) 
- volví ( ) 
- volvía ( ) 
- volvíamos ( ) 
- volvían ( ) 
- volvías ( ) 
- volátil ( ) 
- volátiles ( ) 
- volé ( ) 
- volémica ( ) 
- voló ( ) 
- volúmenes ( ) 
- volúmetro ( ) 
- vomitando ( ) 
- vomitar ( ) 
- vomitó ( ) 
- vonadio ( ) 
- voraces ( ) 
- voracidad ( ) 
- voraz ( ) 
- vos ( ) 
- vosotros ( ) 
- vota ( ) 
- votaba ( ) 
- votaban ( ) 
- votaciones ( ) 
- votación ( ) 
- votada ( ) 
- votadas ( ) 
- votado ( ) 
- votados ( ) 
- votamos ( ) 
- votan ( ) 
- votando ( ) 
- votante ( ) 
- votantes ( ) 
- votar ( ) 
- votara ( ) 
- votaran ( ) 
- votaremos ( ) 
- votarla ( ) 
- votarlas ( ) 
- votarlo ( ) 
- votarlos ( ) 
- votaron ( ) 
- votará ( ) 
- votarán ( ) 
- votaré ( ) 
- votaría ( ) 
- votaríamos ( ) 
- votarían ( ) 
- votas ( ) 
- votase ( ) 
- votasen ( ) 
- votaste ( ) 
- vote ( ) 
- votemos ( ) 
- voten ( ) 
- voto ( ) 
- votos ( ) 
- votábamos ( ) 
- votándolo ( ) 
- votáramos ( ) 
- votásemos ( ) 
- voté ( ) 
- votéis ( ) 
- votó ( ) 
- voy ( ) 
+ volumen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ volumen-flujo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ volumen-superficie ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ volumenes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=volumen 
+ voluminosa ( ADJECTIVE ) lemma=voluminoso 
+ voluminosas ( ADJECTIVE ) lemma=voluminoso 
+ voluminoso ( ADJECTIVE ) 
+ voluminosos ( ADJECTIVE ) lemma=voluminoso 
+ volumétrica ( ADJECTIVE ) lemma=volumétrico 
+ volumétricos ( ADJECTIVE ) lemma=volumétrico 
+ voluntad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ voluntades ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=voluntad 
+ voluntaria ( ADJECTIVE ) lemma=voluntario 
+ voluntariado ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ voluntariamente ( ADVERB ) lemma=voluntario 
+ voluntarias ( ADJECTIVE ) lemma=voluntario 
+ voluntario ( ADJECTIVE ) 
+ voluntarios ( ADJECTIVE ) lemma=voluntario 
+ voluntariosa ( ADJECTIVE ) lemma=voluntarioso 
+ voluntarioso ( ADJECTIVE ) 
+ voluntariosos ( ADJECTIVE ) lemma=voluntarioso 
+ voluntarismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ voluntarismos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=voluntarismo 
+ volvamos ( VERB ) lemma=volver 
+ volvemos ( VERB ) lemma=volver 
+ volver ( VERB ) 
+ volveremos ( VERB ) lemma=volver 
+ volverla ( VERB_INFINITIVE VERB ) lemma=volver 
+ volverlas ( VERB_INFINITIVE VERB ) lemma=volver 
+ volverlo ( VERB_INFINITIVE VERB ) lemma=volver 
+ volverlos ( VERB_INFINITIVE VERB ) lemma=volver 
+ volverme ( VERB_INFINITIVE VERB ) lemma=volver 
+ volvernos ( VERB_INFINITIVE VERB ) lemma=volver 
+ volverse ( VERB_INFINITIVE VERB ) 
+ volverte ( VERB_INFINITIVE VERB ) lemma=volver 
+ volverá ( VERB ) lemma=volver 
+ volverán ( VERB ) lemma=volver 
+ volveré ( VERB ) lemma=volver|Volveré 
+ volvería ( VERB ) lemma=volver 
+ volveríamos ( VERB ) lemma=volver 
+ volverían ( VERB ) lemma=volver 
+ volviendo ( NOUN NOUN_GERUND ) lemma=volver 
+ volviera ( VERB ) lemma=volver 
+ volvieran ( VERB ) lemma=volver 
+ volvieron ( VERB ) lemma=volver 
+ volviese ( VERB ) lemma=volver 
+ volviesen ( VERB ) lemma=volver 
+ volvimos ( VERB ) lemma=volver 
+ volvio ( VERB ) lemma=volver 
+ volviste ( VERB ) lemma=volver 
+ volviéndola ( NOUN NOUN_GERUND ) lemma=volver 
+ volviéndome ( NOUN NOUN_GERUND ) lemma=volver 
+ volviéndonos ( NOUN NOUN_GERUND ) lemma=volver 
+ volviéndose ( NOUN NOUN_GERUND ) lemma=volverse 
+ volviéramos ( VERB ) lemma=volver 
+ volviésemos ( VERB ) lemma=volver 
+ volvió ( VERB ) lemma=volver 
+ volvocal ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ volváis ( VERB ) lemma=volver 
+ volvéis ( VERB ) lemma=volver 
+ volví ( VERB ) lemma=volver 
+ volvía ( VERB ) lemma=volver 
+ volvíamos ( VERB ) lemma=volver 
+ volvían ( VERB ) lemma=volver 
+ volvías ( VERB ) lemma=volver 
+ volátil ( ADJECTIVE ) 
+ volátiles ( ADJECTIVE ) lemma=volátil 
+ volé ( VERB ) lemma=volar 
+ volémica ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ voló ( VERB ) lemma=volar 
+ volúmenes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=volumen 
+ volúmetro ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vomitando ( NOUN NOUN_GERUND ) lemma=vomitar 
+ vomitar ( VERB ) 
+ vomitó ( VERB ) lemma=vomitar 
+ vonadio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ voraces ( ADJECTIVE ) lemma=voraz 
+ voracidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ voraz ( ADJECTIVE ) 
+ vos ( PRONOUN_SUBJECT PRONOUN_OBJECT ) 
+ vosotros ( PRONOUN_SUBJECT PRONOUN_OBJECT ) 
+ vota ( VERB ) lemma=votar 
+ votaba ( VERB ) lemma=votar 
+ votaban ( VERB ) lemma=votar 
+ votaciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=votación 
+ votación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ votada ( VERB_PAST_PARTICIPLE VERB ) lemma=votar 
+ votadas ( VERB_PAST_PARTICIPLE VERB ) lemma=votar 
+ votado ( VERB_PAST_PARTICIPLE VERB ) lemma=votar 
+ votados ( VERB_PAST_PARTICIPLE VERB ) lemma=votar 
+ votamos ( VERB ) lemma=votar 
+ votan ( VERB ) lemma=votar 
+ votando ( NOUN NOUN_GERUND ) lemma=votar 
+ votante ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ votantes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=votante 
+ votar ( VERB ) 
+ votara ( VERB ) lemma=votar 
+ votaran ( VERB ) lemma=votar 
+ votaremos ( VERB ) lemma=votar 
+ votarla ( VERB_INFINITIVE VERB ) lemma=votar 
+ votarlas ( VERB_INFINITIVE VERB ) lemma=votar 
+ votarlo ( VERB_INFINITIVE VERB ) lemma=votar 
+ votarlos ( VERB_INFINITIVE VERB ) lemma=votar 
+ votaron ( VERB ) lemma=votar 
+ votará ( VERB ) lemma=votar 
+ votarán ( VERB ) lemma=votar 
+ votaré ( VERB ) lemma=votar 
+ votaría ( VERB ) lemma=votar 
+ votaríamos ( VERB ) lemma=votar 
+ votarían ( VERB ) lemma=votar 
+ votas ( VERB ) lemma=votar 
+ votase ( VERB ) lemma=votar 
+ votasen ( VERB ) lemma=votar 
+ votaste ( VERB ) lemma=votar 
+ vote ( VERB ) lemma=votar 
+ votemos ( VERB ) lemma=votar 
+ voten ( VERB ) lemma=votar 
+ voto ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ votos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=voto 
+ votábamos ( VERB ) lemma=votar 
+ votándolo ( NOUN NOUN_GERUND ) lemma=votar 
+ votáramos ( VERB ) lemma=votar 
+ votásemos ( VERB ) lemma=votar 
+ voté ( VERB ) lemma=votar 
+ votéis ( VERB ) lemma=votar 
+ votó ( VERB ) lemma=votar 
+ voy ( VERB ) lemma=ir 
  voyez ( ) 
- voz ( ) 
+ voz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  vraisemblance ( ) 
- vs ( ) 
- vuela ( ) 
- vuelan ( ) 
- vuelas ( ) 
- vuelca ( ) 
- vuelcas ( ) 
- vuelco ( ) 
- vuele ( ) 
- vuelecito ( ) 
- vuelen ( ) 
- vueles ( ) 
- vuelo ( ) 
- vuelos ( ) 
- vuelque ( ) 
- vuelquen ( ) 
- vuelta ( ) 
- vueltas ( ) 
- vueltecitas ( ) 
- vuelteo ( ) 
- vuelto ( ) 
- vueltos ( ) 
- vuelva ( ) 
- vuelvan ( ) 
- vuelvas ( ) 
- vuelve ( ) 
- vuelven ( ) 
- vuelves ( ) 
- vuelvo ( ) 
- vuestra ( ) 
- vuestras ( ) 
- vuestro ( ) 
- vuestros ( ) 
- vulcanismo ( ) 
- vulgar ( ) 
- vulgares ( ) 
- vulgaridad ( ) 
- vulgaridades ( ) 
- vulgarismo ( ) 
- vulgarmente ( ) 
- vulnera ( ) 
- vulneraba ( ) 
- vulnerabilidad ( ) 
- vulnerable ( ) 
- vulnerables ( ) 
- vulneración ( ) 
- vulnerada ( ) 
- vulnerado ( ) 
- vulnerados ( ) 
- vulneran ( ) 
- vulnerando ( ) 
- vulnerar ( ) 
- vulnerara ( ) 
- vulneraron ( ) 
- vulneraría ( ) 
- vulnerarían ( ) 
- vulnere ( ) 
- vulneren ( ) 
- vulvar ( ) 
- válgame ( ) 
- válganos ( ) 
- válida ( ) 
- válidamente ( ) 
- válidas ( ) 
- válido ( ) 
- válidos ( ) 
- válvula ( ) 
- válvulas ( ) 
- vámonos ( ) 
- vándalos ( ) 
- vástago ( ) 
- váyanse ( ) 
- véanse ( ) 
- véase ( ) 
- véliz ( ) 
- véndeme ( ) 
- vénulas ( ) 
+ vs ( PREPOSITION ) 
+ vuela ( VERB ) lemma=volar 
+ vuelan ( VERB ) lemma=volar 
+ vuelas ( VERB ) lemma=volar 
+ vuelca ( VERB ) lemma=volcar 
+ vuelcas ( VERB ) lemma=volcar 
+ vuelco ( VERB ) lemma=volcar 
+ vuele ( VERB ) lemma=volar 
+ vuelecito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vuelo 
+ vuelen ( VERB ) lemma=volar 
+ vueles ( VERB ) lemma=volar 
+ vuelo ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ vuelos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vuelo 
+ vuelque ( VERB ) lemma=volcar 
+ vuelquen ( VERB ) lemma=volcar 
+ vuelta ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vueltas ( VERB_PAST_PARTICIPLE NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=vuelta 
+ vueltecitas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vuelta 
+ vuelteo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vuelto ( VERB_PAST_PARTICIPLE VERB ) lemma=volver 
+ vueltos ( VERB_PAST_PARTICIPLE VERB ) lemma=volver 
+ vuelva ( VERB ) lemma=volver 
+ vuelvan ( VERB ) lemma=volver 
+ vuelvas ( VERB ) lemma=volver 
+ vuelve ( VERB ) lemma=volver 
+ vuelven ( VERB ) lemma=volver 
+ vuelves ( VERB ) lemma=volver 
+ vuelvo ( VERB ) lemma=volver 
+ vuestra ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=vuestro 
+ vuestras ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=vuestro 
+ vuestro ( PRONOUN_SUBJECT PRONOUN_OBJECT ) 
+ vuestros ( PRONOUN_SUBJECT PRONOUN_OBJECT ) lemma=vuestro 
+ vulcanismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vulgar ( ADJECTIVE ) 
+ vulgares ( ADJECTIVE ) lemma=vulgar 
+ vulgaridad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vulgaridades ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vulgaridad 
+ vulgarismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vulgarmente ( ADVERB ) lemma=vulgar 
+ vulnera ( VERB ) lemma=vulnerar 
+ vulneraba ( VERB ) lemma=vulnerar 
+ vulnerabilidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vulnerable ( ADJECTIVE ) 
+ vulnerables ( ADJECTIVE ) lemma=vulnerable 
+ vulneración ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vulnerada ( VERB_PAST_PARTICIPLE VERB ) lemma=vulnerar 
+ vulnerado ( VERB_PAST_PARTICIPLE VERB ) lemma=vulnerar 
+ vulnerados ( VERB_PAST_PARTICIPLE VERB ) lemma=vulnerar 
+ vulneran ( VERB ) lemma=vulnerar 
+ vulnerando ( NOUN NOUN_GERUND ) lemma=vulnerar 
+ vulnerar ( VERB ) 
+ vulnerara ( VERB ) lemma=vulnerar 
+ vulneraron ( VERB ) lemma=vulnerar 
+ vulneraría ( VERB ) lemma=vulnerar 
+ vulnerarían ( VERB ) lemma=vulnerar 
+ vulnere ( VERB ) lemma=vulnerar 
+ vulneren ( VERB ) lemma=vulnerar 
+ vulvar ( ADJECTIVE ) 
+ válgame ( ) lemma=valer 
+ válganos ( VERB ) lemma=valer 
+ válida ( ADJECTIVE ) lemma=válido 
+ válidamente ( ADVERB ) lemma=válido 
+ válidas ( ADJECTIVE ) lemma=válido 
+ válido ( ADJECTIVE ) 
+ válidos ( ADJECTIVE ) lemma=válido 
+ válvula ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ válvulas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=válvula 
+ vámonos ( VERB ) lemma=ir 
+ vándalos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vándalo 
+ vástago ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ váyanse ( ) lemma=irse 
+ véanse ( ) lemma=verse 
+ véase ( ) lemma=verse 
+ véliz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ véndeme ( ) lemma=vendar|vender 
+ vénulas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vénula 
  vérification ( ) 
- vérsela ( ) 
- vérselas ( ) 
- vértebra ( ) 
- vértebras ( ) 
- vértelo ( ) 
- vértex ( ) 
- vértice ( ) 
- vértices ( ) 
- vértigo ( ) 
- vételo ( ) 
- ví ( ) lemma=avío 
- vía ( ) 
- vías ( ) 
- víbora ( ) 
- víboras ( ) 
- víctima ( ) 
- víctimas ( ) 
- vídeo ( ) 
- vídeos ( ) 
- vínculo ( ) 
- vínculos ( ) 
- vírgenes ( ) 
- vírica ( ) 
- víricas ( ) 
- vírico ( ) 
- víricos ( ) 
- víscera ( ) 
- vísceras ( ) 
- víspera ( ) 
- vísperas ( ) 
- vítrea ( ) 
- vítreo ( ) 
- víveres ( ) 
- vívidos ( ) 
- vómito ( ) 
- vómitos ( ) 
- vúmetro ( ) 
- vendañ ( ) lemma=Avendaño 
- vianc ( ) lemma=Avianca 
- vilé ( ) lemma=Avilés 
- veli ( ) lemma=Evelia 
- vely ( ) lemma=Evelyn 
- verto ( ) lemma=Everton 
- vitació ( ) lemma=evitación 
- V. ( ) lemma=IV.4 
- vanch ( ) lemma=Yvancho 
- vá ( ) lemma=Iván 
- V0 ( ) lemma=LV02 
- vied ( ) lemma=Oviedo 
+ vérsela ( VERB_INFINITIVE VERB ) lemma=verse 
+ vérselas ( VERB_INFINITIVE VERB ) lemma=verse 
+ vértebra ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vértebras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vértebra 
+ vértelo ( VERB_INFINITIVE VERB ) lemma=ver 
+ vértex ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vértice ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vértices ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vértice 
+ vértigo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vételo ( ) lemma=ir|ver|vetar 
+ ví ( VERB ) lemma=ver 
+ vía ( NOUN PREPOSITION NOUN_SINGULAR NOUN_PLURAL ) 
+ vías ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vía 
+ víbora ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ víboras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=víbora 
+ víctima ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ víctimas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=víctima 
+ vídeo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vídeos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vídeo 
+ vínculo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vínculos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vínculo 
+ vírgenes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=virgen 
+ vírica ( ADJECTIVE ) lemma=vírico 
+ víricas ( ADJECTIVE ) lemma=vírico 
+ vírico ( ADJECTIVE ) 
+ víricos ( ADJECTIVE ) lemma=vírico 
+ víscera ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vísceras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=víscera 
+ víspera ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vísperas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=víspera 
+ vítrea ( ADJECTIVE ) lemma=vítreo 
+ vítreo ( ADJECTIVE ) 
+ víveres ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vívidos ( ADJECTIVE ) lemma=vívido 
+ vómito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ vómitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=vómito 
+ vúmetro ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Vera ( ) 
- val ( ) lemma=avalar 
- valab ( ) lemma=avalar 
- valaba ( ) lemma=avalar 
- valad ( ) lemma=ovalar 
- valada ( ) lemma=avalar 
- valado ( ) lemma=avalar 
- vala ( ) lemma=avalar 
- valanch ( ) lemma=avalancha 
- valancha ( ) lemma=avalancha 
- valand ( ) lemma=avalar 
- valar ( ) lemma=avalar 
- valara ( ) lemma=avalar 
- valaro ( ) lemma=avalar 
- valar� ( ) lemma=avalar 
- valaría ( ) lemma=avalar 
- val� ( ) lemma=avalar 
- valú ( ) lemma=evaluar 
- vanc ( ) lemma=avance 
- vancemo ( ) lemma=avanzar 
- vance ( ) lemma=avance 
- vanc� ( ) lemma=avanzar 
- vanz ( ) lemma=avanzar 
- vanzab ( ) lemma=avanzar 
- vanzaba ( ) lemma=avanzar 
- vanzad ( ) lemma=avanzar 
- vanzada ( ) lemma=avanzar 
- vanzado ( ) lemma=avanzar 
- vanzamo ( ) lemma=avanzar 
- vanza ( ) lemma=avanzar 
- vanzand ( ) lemma=avanzar 
- vanzar ( ) lemma=avanzar 
- vanzara ( ) lemma=avanzar 
- vanzaremo ( ) lemma=avanzar 
- vanzaro ( ) lemma=avanzar 
- vanzar� ( ) lemma=avanzar 
- vanzará ( ) lemma=avanzar 
- vanzarí ( ) lemma=avanzar 
- vanzaríamo ( ) lemma=avanzar 
- vanzaría ( ) lemma=avanzar 
- vanzase ( ) lemma=avanzar 
- vanzáramo ( ) lemma=avanzar 
- vanzásemo ( ) lemma=avanzar 
- vanz� ( ) lemma=avanzar 
- var ( ) lemma=avaro 
- vasallad ( ) lemma=avasallar 
- vasallada ( ) lemma=avasallar 
- vasalland ( ) lemma=avasallar 
- vasalla ( ) lemma=avasallar 
- vascula ( ) lemma=avascular 
- vata ( ) lemma=avatar 
- vatare ( ) lemma=avatar 
- vecilla ( ) lemma=ave 
- vecin ( ) lemma=avecinar 
- vecinab ( ) lemma=avecinar 
- vellan ( ) lemma=avellana 
- vellana ( ) lemma=avellana 
- venenci ( ) lemma=avenencia 
- venencia ( ) lemma=avenencia 
- veng ( ) lemma=avenir 
- veni ( ) lemma=avenir 
- ventaj ( ) lemma=aventajar 
- ventajab ( ) lemma=aventajar 
- ventajaba ( ) lemma=aventajar 
- ventajad ( ) lemma=aventajar 
- ventajand ( ) lemma=aventajar 
- ventajaro ( ) lemma=aventajar 
- ventajar� ( ) lemma=aventajar 
- ventaj� ( ) lemma=aventajar 
- ventaro ( ) lemma=aventar 
- ventars ( ) lemma=aventarse 
- ventur ( ) lemma=aventurar 
- venturab ( ) lemma=aventurar 
- venturad ( ) lemma=aventurar 
- venturar� ( ) lemma=aventurar 
- venturarí ( ) lemma=aventurar 
- venturer ( ) lemma=aventurero 
- venturerament ( ) lemma=aventurero 
- venturera ( ) lemma=aventurero 
- venturero ( ) lemma=aventurero 
- venturábamo ( ) lemma=aventurar 
- ventur� ( ) lemma=aventurar 
- vent� ( ) lemma=aventar 
- vergonzad ( ) lemma=avergonzar 
- vergonzada ( ) lemma=avergonzar 
- vergonzado ( ) lemma=avergonzar 
- vergonzamo ( ) lemma=avergonzar 
- vergonza ( ) lemma=avergonzar 
- vergonzaremo ( ) lemma=avergonzar 
- vergonzarno ( ) lemma=avergonzar 
- vergonzaro ( ) lemma=avergonzar 
- vergonzars ( ) lemma=avergonzarse 
- vergonzar� ( ) lemma=avergonzar 
- vergonzarí ( ) lemma=avergonzar 
- vergüenz ( ) lemma=avergonzar 
- veriad ( ) lemma=averiado 
- veriada ( ) lemma=averiar 
- veriado ( ) lemma=averiar 
- veriaro ( ) lemma=averiar 
- veriars ( ) lemma=averiarse 
- verigu ( ) lemma=averiguar 
- veriguacione ( ) lemma=averiguación 
- veriguació ( ) lemma=averiguación 
- veriguad ( ) lemma=averiguar 
- veriguado ( ) lemma=averiguar 
- veriguamo ( ) lemma=averiguar 
- veriguand ( ) lemma=averiguar 
- verigua ( ) lemma=averiguar 
- veriguara ( ) lemma=averiguar 
- veriguarl ( ) lemma=averiguar 
- veriguarm ( ) lemma=averiguar 
- veriguaro ( ) lemma=averiguar 
- veriguars ( ) lemma=averiguar 
- veriguá ( ) lemma=averiguar 
- verigu� ( ) lemma=averiguar 
- verigüe ( ) lemma=averiguar 
- verigü� ( ) lemma=averiguar 
- veri� ( ) lemma=averiar 
- versió ( ) lemma=aversión 
- vertisseu ( ) lemma=avertisseur 
- verí ( ) lemma=avería 
- vestruce ( ) lemma=avestruz 
- vestru ( ) lemma=avestruz 
- vezad ( ) lemma=avezar 
- vezado ( ) lemma=avezar 
- viacione ( ) lemma=aviación 
- viació ( ) lemma=aviación 
- viad ( ) lemma=aviar 
- viado ( ) lemma=aviador 
- viadore ( ) lemma=aviador 
- vide ( ) lemma=avidez 
- vien ( ) lemma=avenir 
- vienta ( ) lemma=aventar 
- vient ( ) lemma=aventar 
- vies ( ) lemma=avieso 
- viesa ( ) lemma=avieso 
- vin ( ) lemma=ovino 
- vione ( ) lemma=avión 
- vionet ( ) lemma=avioneta 
- vioneta ( ) lemma=avioneta 
- vis ( ) lemma=aviso 
- visab ( ) lemma=avisar 
- visad ( ) lemma=avisar 
- visamo ( ) lemma=avisar 
- visand ( ) lemma=avisar 
- visara ( ) lemma=avisar 
- visaremo ( ) lemma=avisar 
- visarl ( ) lemma=avisar 
- visarle ( ) lemma=avisar 
- visaro ( ) lemma=avisar 
- visar� ( ) lemma=avisar 
- visará ( ) lemma=avisar 
- vise ( ) lemma=avisar 
- viso ( ) lemma=aviso 
- visp ( ) lemma=avispa 
- vispado ( ) lemma=avispar 
- visper ( ) lemma=avispero 
- vispone ( ) lemma=avispón 
- vist ( ) lemma=avistar 
- vistad ( ) lemma=avistar 
- vistado ( ) lemma=avistar 
- vistaro ( ) lemma=avistar 
- vist� ( ) lemma=avistar 
- visándol ( ) lemma=avisar 
- visándot ( ) lemma=avisar 
- vis� ( ) lemma=avisar 
- viv ( ) lemma=avivar 
- vivad ( ) lemma=avivar 
- vivand ( ) lemma=avivar 
- vivemo ( ) lemma=avivar 
- viv� ( ) lemma=avivar 
- vizor ( ) lemma=avizorar 
- vió ( ) lemma=avión 
- vutard ( ) lemma=avutarda 
- vutarda ( ) lemma=avutarda 
- vacu ( ) lemma=evacuar 
- vacuacione ( ) lemma=evacuación 
- vacuació ( ) lemma=evacuación 
- vacuad ( ) lemma=evacuar 
- vacuada ( ) lemma=evacuar 
- vacuado ( ) lemma=evacuar 
- vacua ( ) lemma=evacuar 
- vacuand ( ) lemma=evacuar 
- vacuaro ( ) lemma=evacuar 
- vacuásemo ( ) lemma=evacuar 
- vacu� ( ) lemma=evacuar 
- vacú ( ) lemma=evacuar 
- vacúa ( ) lemma=evacuar 
- vad ( ) lemma=evadir 
- vade ( ) lemma=evadir 
- vadid ( ) lemma=evadir 
- vadido ( ) lemma=evadir 
- vadiend ( ) lemma=evadir 
- vadi ( ) lemma=evadir 
- vadirs ( ) lemma=evadirse 
- vadi� ( ) lemma=evadir 
- vaginació ( ) lemma=evaginación 
- valuab ( ) lemma=evaluar 
- valuaba ( ) lemma=evaluar 
- valuacione ( ) lemma=evaluación 
- valuació ( ) lemma=evaluación 
- valuad ( ) lemma=evaluar 
- valuamo ( ) lemma=evaluar 
- valuand ( ) lemma=evaluar 
- valua ( ) lemma=evaluar 
- valuar ( ) lemma=evaluar 
- valuaremo ( ) lemma=evaluar 
- valuaro ( ) lemma=evaluar 
- valuars ( ) lemma=evaluarse 
- valuar� ( ) lemma=evaluar 
- valuará ( ) lemma=evaluar 
- valuarí ( ) lemma=evaluar 
- valuaría ( ) lemma=evaluar 
- valuas ( ) lemma=evaluar 
- valuase ( ) lemma=evaluar 
- valuemo ( ) lemma=evaluar 
- valu� ( ) lemma=evaluar 
- valúa ( ) lemma=evaluar 
- valúe ( ) lemma=evaluar 
- vangeli ( ) lemma=evangelio 
- vangelio ( ) lemma=evangelio 
- vangelist ( ) lemma=evangelista 
- vangelista ( ) lemma=evangelista 
- vangelizació ( ) lemma=evangelización 
- vangeliza ( ) lemma=evangelizar 
- vangeliz� ( ) lemma=evangelizar 
- vangélic ( ) lemma=evangélico 
- vangélica ( ) lemma=evangélico 
- vangélico ( ) lemma=evangélico 
- vaporaba ( ) lemma=evaporar 
- vaporacione ( ) lemma=evaporación 
- vaporació ( ) lemma=evaporación 
- vaporad ( ) lemma=evaporar 
- vaporado ( ) lemma=evaporador 
- vapora ( ) lemma=evaporar 
- vaporand ( ) lemma=evaporar 
- vaporars ( ) lemma=evaporarse 
- vaporándos ( ) lemma=evaporar 
- vapor� ( ) lemma=evaporar 
- vapotranspiració ( ) lemma=evapotranspiración 
- vasione ( ) lemma=evasión 
- vasiv ( ) lemma=evasivo 
- vasiva ( ) lemma=evasivo 
- vasivo ( ) lemma=evasivo 
- vasió ( ) lemma=evasión 
- vent ( ) lemma=evento 
- vento ( ) lemma=evento 
- ventua ( ) lemma=eventual 
- ventuale ( ) lemma=eventual 
- ventualida ( ) lemma=eventualidad 
- ventualidade ( ) lemma=eventualidad 
- ventualment ( ) lemma=eventual|eventualmente 
- verti ( ) lemma=evertir 
- videnci ( ) lemma=evidenciar 
- videnciab ( ) lemma=evidenciar 
- videnciaba ( ) lemma=evidenciar 
- videnciad ( ) lemma=evidenciar 
- videnciada ( ) lemma=evidenciar 
- videnciado ( ) lemma=evidenciar 
- videncia ( ) lemma=evidenciar 
- videnciand ( ) lemma=evidenciar 
- videnciaro ( ) lemma=evidenciar 
- videnciar� ( ) lemma=evidenciar 
- videncie ( ) lemma=evidenciar 
- videnci� ( ) lemma=evidenciar 
- vident ( ) lemma=evidente 
- videntement ( ) lemma=evidente 
- vidente ( ) lemma=evidente 
- videntísim ( ) lemma=evidente 
- vit ( ) lemma=evitar 
- vitab ( ) lemma=evitar 
- vitable ( ) lemma=evitable 
- vitad ( ) lemma=evitar 
- vitado ( ) lemma=evitar 
- vitamo ( ) lemma=evitar 
- vita ( ) lemma=evitar 
- vitand ( ) lemma=evitar 
- vitar ( ) lemma=evitar 
- vitara ( ) lemma=evitar 
- vitaremo ( ) lemma=evitar 
- vitarl ( ) lemma=evitar 
- vitarle ( ) lemma=evitar 
- vitarlo ( ) lemma=evitar 
- vitarm ( ) lemma=evitar 
- vitarno ( ) lemma=evitar 
- vitaro ( ) lemma=evitar 
- vitars ( ) lemma=evitarse 
- vitar� ( ) lemma=evitar 
- vitará ( ) lemma=evitar 
- vitarí ( ) lemma=evitar 
- vitaríamo ( ) lemma=evitar 
- vitaría ( ) lemma=evitar 
- vitas ( ) lemma=evitar 
- vitase ( ) lemma=evitar 
- vitemo ( ) lemma=evitar 
- vitándole ( ) lemma=evitar 
- vitándos ( ) lemma=evitarse 
- vitáramo ( ) lemma=evitar 
- vit� ( ) lemma=evitar 
- voc ( ) lemma=evocar 
- vocab ( ) lemma=evocar 
- vocaba ( ) lemma=evocar 
- vocació ( ) lemma=evocación 
- vocad ( ) lemma=evocar 
- vocada ( ) lemma=evocar 
- vocado ( ) lemma=evocar 
- voca ( ) lemma=evocar 
- vocand ( ) lemma=evocar 
- vocaro ( ) lemma=evocar 
- vocar� ( ) lemma=evocar 
- vocábamo ( ) lemma=evocar 
- voc� ( ) lemma=evocar 
- volucion ( ) lemma=evolucionar 
- volucionab ( ) lemma=evolucionar 
- volucionaba ( ) lemma=evolucionar 
- volucionad ( ) lemma=evolucionar 
- volucionado ( ) lemma=evolucionar 
- volucionamo ( ) lemma=evolucionar 
- voluciona ( ) lemma=evolucionar 
- volucionand ( ) lemma=evolucionar 
- volucionaro ( ) lemma=evolucionar 
- volucionar� ( ) lemma=evolucionar 
- volucionará ( ) lemma=evolucionar 
- volucionarí ( ) lemma=evolucionar 
- volucionas ( ) lemma=evolucionar 
- volucione ( ) lemma=evolución 
- volucion� ( ) lemma=evolucionar 
- volució ( ) lemma=evolución 
- volutiv ( ) lemma=evolutivo 
- volutivament ( ) lemma=evolutivo 
- volutiva ( ) lemma=evolutivo 
- volutivida ( ) lemma=evolutividad 
- volutivo ( ) lemma=evolutivo 
- voqu ( ) lemma=evocar 
- voquemo ( ) lemma=evocar 
- voque ( ) lemma=evocar 
- voqu� ( ) lemma=evocar 
- vacionad ( ) lemma=ovacionar 
- vacionado ( ) lemma=ovacionar 
- vacionaro ( ) lemma=ovacionar 
- vacione ( ) lemma=ovación 
- vacion� ( ) lemma=ovacionar 
- vació ( ) lemma=ovación 
- vari ( ) lemma=ovario 
- vej ( ) lemma=oveja 
- veja ( ) lemma=oveja 
- verflo ( ) lemma=overflow 
- verlin ( ) lemma=overline 
- verloa ( ) lemma=overload 
- verole ( ) lemma=overol 
- viduct ( ) lemma=oviducto 
- vina ( ) lemma=ovino 
- voalbúmin ( ) lemma=ovoalbúmina 
- vocit ( ) lemma=ovocito 
- vocito ( ) lemma=ovocito 
- vulació ( ) lemma=ovulación 
- vula ( ) lemma=ovular 
- váric ( ) lemma=ovárico 
- várico ( ) lemma=ovárico 
- veíti ( ) lemma=uveítis 
+ Vírgenes_Británicas ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=Vírgenes~Británicas 
+ Vírgenes~Británicas ( ) 
  vacar ( ) 
  vacuo ( ) 
  vacio ( ) 
@@ -2331,6 +1962,7 @@
  valedor ( ) 
  vallado ( ) 
  valorizable ( ) 
+ valuar ( ) 
  vaporoso ( ) 
  vaquería ( ) 
  varar ( ) 
@@ -2361,8 +1993,10 @@
  vinagrera ( ) 
  visigótico ( ) 
  visionar ( ) 
+ viso ( ) 
  ver|ver|vestir ( ) 
  ver|vestir ( ) 
+ vitar ( ) 
  vitorear ( ) 
  vitrificar ( ) 
  vituallar ( ) 

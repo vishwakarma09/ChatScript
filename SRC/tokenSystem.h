@@ -29,7 +29,7 @@ char* JoinWords(unsigned int n,bool output = false);
 void ProcessSplitUnderscores();
 char* Tokenize(char* input,int& count,char** words,bool all = false, bool nomodify = false,bool oobstart = false);
 int ValidPeriodToken(char* start, char* end, char next,char next2);
-
+char* ReadTokenMass(char* ptr, char* word);
 void ProcessSubstitutes();
 void ProcessCompositeNumber();
 void ProcessCompositeDate();

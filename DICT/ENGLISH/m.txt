@@ -8331,7 +8331,7 @@
     must~1n 
  must ( meanings=3 glosses=3 NOUN_ABSTRACT AUX_VERB_FUTURE NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR ADJECTIVE_NOT_PREDICATE COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:NOUN ) comparative=muster 
     moldiness~1nz (^staleness~1) the quality of smelling or tasting old or stale or mouldy
-    must~2nz (^grape_juice~1) a necessary or essential thing
+    must~2nz (^essential~1) a necessary or essential thing
     must~3az highly recommended
  moldiness ( meanings=1 NOUN NOUN_SINGULAR COMMON1 NOUN_NODETERMINER ) 
     mustiness~1n 
@@ -16901,11 +16901,19 @@
     miles_per_gallon~1nz (^unit~5) the distance traveled in a vehicle powered by one gallon of gasoline or diesel fuel
  monetary_unit ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     monetary_unit~1nz (^unit~5) a unit of money
- megaflop ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON1 posdefault:NOUN ) 
-    MFLOP~1nz (^unit~5) a unit for measuring the speed of a computer system
+ megaflop ( meanings=1 NOUN NOUN_SINGULAR COMMON1 posdefault:NOUN ) 
+    MFLOP~1n 
  MFLOP ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
-    megaflop~1n 
- MIPS ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    million_floating_point_operations_per_second~1n 
+ million_floating_point_operations_per_second ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    megaflop~1nz (^unit~5) a unit for measuring the speed of a computer system
+ million ( meanings=3 glosses=2 NOUN_ABSTRACT NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER KINDERGARTEN ) 
+    meg~1nz (^large_integer~1) the number that is represented as a one followed by 6 zeros
+    jillion~1n 
+    million~3az denoting a quantity consisting of 1,000,000 items or units
+ MIPS ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    million_instructions_per_second~1n 
+ million_instructions_per_second ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     MIPS~1nz (^unit~5) a unit for measuring the execution speed of a computer's CPU (but not the whole system)
  mass_unit ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     mass_unit~1nz (^unit~5) a unit of measurement for mass
@@ -17131,10 +17139,6 @@
     ten_thousand~1n 
     myriad~2nz (^large_indefinite_quantity~1) a large indefinite number
     innumerable~1a 
- million ( meanings=3 glosses=2 NOUN_ABSTRACT NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER KINDERGARTEN ) 
-    meg~1nz (^large_integer~1) the number that is represented as a one followed by 6 zeros
-    jillion~1n 
-    million~3az denoting a quantity consisting of 1,000,000 items or units
  meg ( meanings=1 NOUN NOUN_SINGULAR COMMON2 COMMON1 posdefault:NOUN ) 
     one_thousand_thousand~1n 
  milliard ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 posdefault:NOUN ) 
@@ -18462,8 +18466,12 @@
     Mesolithic_Age~1n 
  min ( meanings=1 NOUN NOUN_SINGULAR COMMON4 COMMON1 posdefault:NOUN ) 
     minute~4n 
- msec ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 COMMON1 posdefault:NOUN ) 
+ microsecond ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR KINDERGARTEN posdefault:NOUN TIMEWORD ) 
+    microsecond~1nz (^unit_of_time~1) one millionth of a second
+ millisecond ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR KINDERGARTEN posdefault:NOUN TIMEWORD ) 
     msec~1nz (^unit_of_time~1) one thousandth of a second
+ msec ( meanings=1 NOUN NOUN_SINGULAR COMMON2 COMMON1 posdefault:NOUN ) 
+    millisecond~1n 
  midwinter ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 posdefault:NOUN ) 
     midwinter~1nz (^period~3) the middle of winter
  month_of_Sundays ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
@@ -18491,12 +18499,14 @@
     meanwhile~2bz at the same time but in another place
  mortality_rate ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 
     fatality_rate~1nz (^rate~4) the ratio of deaths in an area to the population of that area
- megahertz ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER posdefault:NOUN ) 
-    Mc~1nz (^rate~4) one million periods per second
- MHz ( meanings=1 NOUN NOUN_PROPER_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER ) 
-    megahertz~1n 
- megacycle ( meanings=1 NOUN NOUN_SINGULAR COMMON1 NOUN_NODETERMINER ) 
+ megahertz ( meanings=1 NOUN NOUN_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER posdefault:NOUN ) 
     MHz~1n 
+ MHz ( meanings=1 NOUN NOUN_PROPER_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER ) 
+    megacycle_per_second~1n 
+ megacycle_per_second ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 
+    Mc~1nz (^rate~4) one million periods per second
+ megacycle ( meanings=1 NOUN NOUN_SINGULAR COMMON1 NOUN_NODETERMINER ) 
+    megahertz~1n 
  Mc ( meanings=1 NOUN NOUN_PROPER_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER ) 
     megacycle~1n 
  metabolic_rate ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 
@@ -18903,8 +18913,6 @@
  mowed ( VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE ADJECTIVE_PARTICIPLE COMMON2 COMMON1 GRADE1_2 posdefault:VERB ) conjugate=mow 
  Monseigneur ( NOUN_TITLE_OF_ADDRESS NOUN NOUN_PROPER_SINGULAR KINDERGARTEN ) 
  Mademoiselle ( NOUN_TITLE_OF_ADDRESS NOUN NOUN_PROPER_SINGULAR KINDERGARTEN ) 
- millisecond ( ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER ORDINAL KINDERGARTEN posdefault:NOUN TIMEWORD QUANTITY_NOUN ) 
- microsecond ( ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER ORDINAL KINDERGARTEN posdefault:NOUN TIMEWORD QUANTITY_NOUN ) 
  moribund ( meanings=2 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 ) 
     moribund~1az being on the point of death
     stagnant~1a 

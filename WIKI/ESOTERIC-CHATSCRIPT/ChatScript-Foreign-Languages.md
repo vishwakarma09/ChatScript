@@ -1,6 +1,6 @@
 # Foreign Language Support
 © Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 4/8/2017 cs7.31
+<br>Revision 6/25/2017 cs7.51
 
 # Foreign Language Overview
 
@@ -14,7 +14,7 @@ ChatScript comes natively with full English support. If you want to use a differ
 
 ChatScript has a command line parameter `language=` that tells CS the language you intend. It defaults to `ENGLISH`.
 The effects of this parameter are several.
-* If not ENGLISH, internal pos-tagging and parsing are disabled.
+* If not ENGLISH, internal pos-tagging (other than marking possible english tags) and parsing are disabled.
 * If treetagger is licensed and has that language, it will pos tag.
 * The system will use DICT/`language`. 
 * The system will use LIVEDATA/`language`
@@ -45,6 +45,10 @@ The dictionary file can be just a list of words of the language, one per line. Y
 of a word because there is no in-built support to figure that out. You may also add english equivalent pos tags (see examples in existing foreign language dictionaries) if you want to use existing keywords tied to pos-tags.
 
 In addition to normal words, there is a file  LIVEDATA/.../numbers.txt that for a language describes a number word and what it's implied number meaning is.
+
+`:buildforeign language` can be used to rebuild a foreign dictionary given the rawwords data in TreeTagger
+directory (which you dont have) and 
+
 
 # POS-TAGS AND LEMMAS
 

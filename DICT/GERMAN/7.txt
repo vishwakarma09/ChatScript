@@ -1,491 +1,359 @@
-﻿ 7 ( ) lemma=87. 
- 7,2 ( ) 
- 7,4 ( ) 
- 7,5 ( ) lemma=17,50 
- 7,5-Minuten-Takt ( ) 
- 7,5-km-Sprint ( ) 
- 7,5-km-Staffel ( ) 
- 7,5-prozentigen ( ) 
- 7,5prozentige ( ) 
- 7,5prozentigen ( ) 
- 7,6 ( ) 
- 7,8 ( ) 
- 7,82-Meter-Behälter ( ) 
- 7,84 ( ) 
- 7,9-Milliarden-Etat ( ) 
- 7- ( ) lemma=47-A 
- 7-Bildschirm ( ) 
- 7-Chef ( ) 
- 7-Eleven-Team ( ) 
- 7-Entscheidung ( ) 
- 7-Erweiterung ( ) 
- 7-Fax ( ) 
- 7-Geschäftsführer ( ) 
- 7-Gipfel ( ) 
- 7-Gruppe ( ) 
- 7-Haltestelle ( ) 
- 7-Jugend ( ) 
- 7-Jugend-Gruppe ( ) 
- 7-Konferenz ( ) 
- 7-Lizenz ( ) 
- 7-Länder ( ) 
- 7-Ländern ( ) 
- 7-M ( ) 
- 7-Nachrichten ( ) 
- 7-Punkte-Plan ( ) 
- 7-Staaten ( ) 
- 7-Station ( ) 
- 7-Tage-Fahrt ( ) 
- 7-Tage-Woche ( ) 
- 7-Teiler ( ) 
- 7-Treffen ( ) 
- 7-Treffens ( ) 
- 7-Variante ( ) 
- 7-Verlängerung ( ) 
- 7-m-Schiessen ( ) 
- 7-m-Schießen ( ) 
- 7. ( ) 
- 7.000-Seelen-Gemeinde ( ) 
- 7.000köpfigen ( ) 
- 7.65er ( ) 
- 7/1 ( ) lemma=27/14 
- 7/10/89 ( ) 
- 7/100 ( ) 
- 7/1990 ( ) 
- 7/2 ( ) lemma=27/28 
- 7/3 ( ) lemma=37/39 
- 7/4 ( ) lemma=47/48 
- 7/5 ( ) lemma=57/59 
- 7/6 ( ) lemma=67/68 
- 7/7 ( ) lemma=77/78 
- 7/8 ( ) lemma=97/88 
- 7/8-Takte ( ) 
- 7/84 ( ) 
- 7/88 ( ) 
- 7/89 ( ) 
- 7/90 ( ) 
- 7/91 ( ) 
- 7/92 ( ) 
- 7/93 ( ) 
- 70 ( ) lemma=8705 
+﻿ 7 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7,2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7,4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7,5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7,5-Minuten-Takt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7,5-km-Sprint ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7,5-km-Staffel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7,5-prozentigen ( ADJECTIVE ) lemma=7,5-prozentig 
+ 7,5prozentige ( ADJECTIVE ) lemma=7,5prozentig 
+ 7,5prozentigen ( ADJECTIVE ) lemma=7,5prozentig 
+ 7,6 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7,8 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7,82-Meter-Behälter ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7,84 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7,9-Milliarden-Etat ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7- ( ) 
+ 7-Bildschirm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-Chef ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-Eleven-Team ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-Entscheidung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-Erweiterung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-Fax ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-Geschäftsführer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-Gipfel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-Gruppe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-Haltestelle ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-Jugend ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-Jugend-Gruppe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-Konferenz ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-Lizenz ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-Länder ( NOUN NOUN_PROPER_SINGULAR ) lemma=7-Land 
+ 7-Ländern ( NOUN NOUN_PROPER_SINGULAR ) lemma=7-Land 
+ 7-M ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-Nachrichten ( NOUN NOUN_PROPER_SINGULAR ) lemma=7-Nachricht 
+ 7-Punkte-Plan ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-Staaten ( NOUN NOUN_PROPER_SINGULAR ) lemma=7-Staat 
+ 7-Station ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-Tage-Fahrt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-Tage-Woche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-Teiler ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-Treffen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-Treffens ( NOUN NOUN_PROPER_SINGULAR ) lemma=7-Treffen 
+ 7-Variante ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-Verlängerung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-m-Schiessen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7-m-Schießen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7. ( ADJECTIVE ) 
+ 7.000-Seelen-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7.000köpfigen ( ADJECTIVE ) lemma=7.000köpfig 
+ 7.65er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7/1 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7/10/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7/100 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7/1990 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7/2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7/3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7/4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7/5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7/6 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7/7 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7/8 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7/8-Takte ( NOUN NOUN_PROPER_SINGULAR ) lemma=7/8-Takt 
+ 7/84 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7/88 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7/92 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7/93 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 70 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  70- ( ) 
- 70-Betten-Klinik ( ) 
- 70-Hektar-Hof ( ) 
- 70-Jahr-Feier ( ) 
- 70-Jahre-Theorie ( ) 
- 70-Kilometer-Strecke ( ) 
- 70-Liter-Müllsack ( ) 
+ 70-Betten-Klinik ( NOUN NOUN_PROPER_SINGULAR ) 
+ 70-Hektar-Hof ( NOUN NOUN_PROPER_SINGULAR ) 
+ 70-Jahr-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 70-Jahre-Theorie ( NOUN NOUN_PROPER_SINGULAR ) 
+ 70-Kilometer-Strecke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 70-Liter-Müllsack ( NOUN NOUN_PROPER_SINGULAR ) 
  70-Megawatt- ( ) 
- 70-Megawatt-Reaktor ( ) 
+ 70-Megawatt-Reaktor ( NOUN NOUN_PROPER_SINGULAR ) 
  70-Millionen- ( ) 
- 70-Millionen-DM-Auftrages ( ) 
- 70-Prozent-Marke ( ) 
- 70-Prozent-Mehrheit ( ) 
- 70-Prozent-Quote ( ) 
- 70-Quadratmeter-Wohnung ( ) 
- 70-Seiten-Papier ( ) 
+ 70-Millionen-DM-Auftrages ( NOUN NOUN_PROPER_SINGULAR ) lemma=70-Millionen-DM-Auftrag 
+ 70-Prozent-Marke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 70-Prozent-Mehrheit ( NOUN NOUN_PROPER_SINGULAR ) 
+ 70-Prozent-Quote ( NOUN NOUN_PROPER_SINGULAR ) 
+ 70-Quadratmeter-Wohnung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 70-Seiten-Papier ( NOUN NOUN_PROPER_SINGULAR ) 
  70-Stunden- ( ) 
- 70-Stunden-Woche ( ) 
- 70-Stunden-Wochen ( ) 
- 70-Teiler ( ) 
- 70-jährige ( ) 
- 70-jährigen ( ) 
- 70.000-Einwohner-Stadt ( ) 
- 70/71 ( ) 
- 70/87 ( ) 
- 70/90 ( ) 
- 700 ( ) lemma=17000 
- 700-Einwohner-Gemeinde ( ) 
+ 70-Stunden-Woche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 70-Stunden-Wochen ( NOUN NOUN_PROPER_SINGULAR ) lemma=70-Stunden-Woche 
+ 70-Teiler ( NOUN NOUN_PROPER_SINGULAR ) 
+ 70-jährige ( ADJECTIVE ) lemma=70-jährig 
+ 70-jährigen ( ADJECTIVE ) lemma=70-jährig 
+ 70.000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 70/71 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 70/87 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 70/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 700 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 700-Einwohner-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
  700-Jahr- ( ) 
- 700-Jahr-Feier ( ) 
- 700-Jahr-Feierlichkeiten ( ) 
- 700-Jahr-Feiern ( ) 
- 700-Jahr-Jubiläum ( ) 
- 700-Jahrfeier ( ) 
+ 700-Jahr-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 700-Jahr-Feierlichkeiten ( NOUN NOUN_PROPER_SINGULAR ) lemma=700-Jahr-Feierlichkeit 
+ 700-Jahr-Feiern ( NOUN NOUN_PROPER_SINGULAR ) lemma=700-Jahr-feier 
+ 700-Jahr-Jubiläum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 700-Jahrfeier ( NOUN NOUN_PROPER_SINGULAR ) 
  700-Millionen- ( ) 
- 700-Millionen-Dollar-Sofortprogramm ( ) 
- 700-Seelen-Dorf ( ) 
+ 700-Millionen-Dollar-Sofortprogramm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 700-Seelen-Dorf ( NOUN NOUN_PROPER_SINGULAR ) 
  700-Seiten- ( ) 
- 700-Seiten-Schwarte ( ) 
+ 700-Seiten-Schwarte ( NOUN NOUN_PROPER_SINGULAR ) 
  700.000- ( ) 
- 700.000-Mark-Kredits ( ) 
- 7000 ( ) lemma=670000 
- 70000-Einwohner-Stadt ( ) 
- 700000 ( ) 
- 700000-Einwohner-Stadt ( ) 
- 700er ( ) 
- 700jährige ( ) 
- 700jährigen ( ) 
- 700jähriges ( ) 
- 700köpfigen ( ) 
- 702/703 ( ) 
- 704mal ( ) 
- 70er ( ) lemma=470er- 
+ 700.000-Mark-Kredits ( NOUN NOUN_PROPER_SINGULAR ) lemma=700.000-Mark-Kredit 
+ 7000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 70000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 700000 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 700000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 700er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 700jährige ( ADJECTIVE ) lemma=700jährig 
+ 700jährigen ( ADJECTIVE ) lemma=700jährig 
+ 700jähriges ( ADJECTIVE ) lemma=700jährig 
+ 700köpfigen ( ADJECTIVE ) lemma=700köpfig 
+ 702/703 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 704mal ( ADVERB ) 
+ 70er ( ADJECTIVE ) 
  70er- ( ) 
  70er-Jahre- ( ) 
- 70er-Jahre-Band ( ) 
- 70er-Reifen ( ) 
- 70er-Runde ( ) 
- 70ern ( ) 
- 70fache ( ) 
- 70fachem ( ) 
- 70fachen ( ) 
- 70jährig ( ) 
- 70jährige ( ) 
- 70jährigen ( ) 
- 70jähriger ( ) 
- 70jähriges ( ) 
- 70köpfige ( ) 
- 70köpfigen ( ) 
- 70prozentige ( ) 
- 70prozentigen ( ) 
- 70prozentiger ( ) 
- 70stündige ( ) 
- 71-R ( ) 
- 71-Teiler ( ) 
- 71/2 ( ) 
- 71/2prozentige ( ) 
- 71/3 ( ) 
- 71/5 ( ) 
- 71/7 ( ) 
- 717/718 ( ) 
- 71er ( ) 
- 71jährig ( ) 
- 71jährige ( ) 
- 71jährigen ( ) 
- 71jähriger ( ) 
- 71köpfigen ( ) 
- 72 ( ) 
- 72-stündigen ( ) 
- 72/1,2 ( ) 
- 72/12 ( ) 
- 72/2 ( ) 
- 72/69 ( ) 
- 72/70/72/73 ( ) 
- 72/73 ( ) 
- 72/76/70/74 ( ) 
- 72/8 ( ) lemma=172/86 
- 72/88 ( ) 
- 720 ( ) 
- 7200fache ( ) 
- 725 ( ) 
- 725jährige ( ) 
- 72er ( ) 
- 72er-Runde ( ) 
- 72ern ( ) 
- 72jährig ( ) 
- 72jährige ( ) 
- 72jährigen ( ) 
- 72jähriger ( ) 
- 72stündige ( ) 
- 72stündigen ( ) 
- 73 ( ) 
- 73/6 ( ) 
- 73/7 ( ) 
- 73/74 ( ) 
- 73/75 ( ) 
- 7300-Einwohner-Gemeinde ( ) 
- 737/400 ( ) 
- 73er ( ) 
- 73jährig ( ) 
- 73jährige ( ) 
- 73jährigen ( ) 
- 73jähriger ( ) 
- 74 ( ) lemma=1744 
- 74-Teiler ( ) 
- 74/2 ( ) 
- 74/68 ( ) 
- 74/75 ( ) 
- 74/83,5 ( ) 
- 74/91 ( ) 
- 7423/91 ( ) 
- 747-Frachtmaschine ( ) 
- 74er ( ) 
- 74jährig ( ) 
- 74jährige ( ) 
- 74jährigem ( ) 
- 74jährigen ( ) 
- 74jähriger ( ) 
- 74prozentigen ( ) 
- 75 ( ) 
+ 70er-Jahre-Band ( NOUN NOUN_PROPER_SINGULAR ) 
+ 70er-Reifen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 70er-Runde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 70ern ( NOUN NOUN_PROPER_SINGULAR ) lemma=70er 
+ 70fache ( ADJECTIVE ) lemma=70fach 
+ 70fachem ( ADJECTIVE ) lemma=70fach 
+ 70fachen ( ADJECTIVE ) lemma=70fach 
+ 70jährig ( ADJECTIVE ) 
+ 70jährige ( ADJECTIVE ) lemma=70jährig 
+ 70jährigen ( ADJECTIVE ) lemma=70jährig 
+ 70jähriger ( ADJECTIVE ) lemma=70jährig 
+ 70jähriges ( ADJECTIVE ) lemma=70jährig 
+ 70köpfige ( ADJECTIVE ) lemma=70köpfig 
+ 70köpfigen ( ADJECTIVE ) lemma=70köpfig 
+ 70prozentige ( ADJECTIVE ) lemma=70prozentig 
+ 70prozentigen ( ADJECTIVE ) lemma=70prozentig 
+ 70prozentiger ( ADJECTIVE ) lemma=70prozentig 
+ 70stündige ( ADJECTIVE ) lemma=70stündig 
+ 71-R ( NOUN NOUN_PROPER_SINGULAR ) 
+ 71-Teiler ( NOUN NOUN_PROPER_SINGULAR ) 
+ 71/2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 71/2prozentige ( ADJECTIVE ) lemma=71/2prozentig 
+ 71/3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 71/5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 71/7 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 717/718 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 71er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 71jährig ( ADJECTIVE ) 
+ 71jährige ( ADJECTIVE ) lemma=71jährig 
+ 71jährigen ( ADJECTIVE ) lemma=71jährig 
+ 71jähriger ( ADJECTIVE ) lemma=71jährig 
+ 71köpfigen ( ADJECTIVE ) lemma=71köpfig 
+ 72 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 72-stündigen ( ADJECTIVE ) lemma=72-stündig 
+ 72/1,2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 72/12 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 72/2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 72/69 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 72/70/72/73 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 72/73 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 72/76/70/74 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 72/8 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 72/88 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 720 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7200fache ( ADJECTIVE ) lemma=7200fach 
+ 725 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 725jährige ( ADJECTIVE ) lemma=725jährig 
+ 72er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 72er-Runde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 72ern ( NOUN NOUN_PROPER_SINGULAR ) lemma=72er 
+ 72jährig ( ADJECTIVE ) 
+ 72jährige ( ADJECTIVE ) lemma=72jährig 
+ 72jährigen ( ADJECTIVE ) lemma=72jährig 
+ 72jähriger ( ADJECTIVE ) lemma=72jährig 
+ 72stündige ( ADJECTIVE ) lemma=72stündig 
+ 72stündigen ( ADJECTIVE ) lemma=72stündig 
+ 73 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 73/6 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 73/7 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 73/74 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 73/75 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7300-Einwohner-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 737/400 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 73er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 73jährig ( ADJECTIVE ) 
+ 73jährige ( ADJECTIVE ) lemma=73jährig 
+ 73jährigen ( ADJECTIVE ) lemma=73jährig 
+ 73jähriger ( ADJECTIVE ) lemma=73jährig 
+ 74 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 74-Teiler ( NOUN NOUN_PROPER_SINGULAR ) 
+ 74/2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 74/68 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 74/75 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 74/83,5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 74/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7423/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 747-Frachtmaschine ( NOUN NOUN_PROPER_SINGULAR ) 
+ 74er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 74jährig ( ADJECTIVE ) 
+ 74jährige ( ADJECTIVE ) lemma=74jährig 
+ 74jährigem ( ADJECTIVE ) lemma=74jährig 
+ 74jährigen ( ADJECTIVE ) lemma=74jährig 
+ 74jähriger ( ADJECTIVE ) lemma=74jährig 
+ 74prozentigen ( ADJECTIVE ) lemma=74prozentig 
+ 75 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  75- ( ) 
- 75-Jahr-Feier ( ) 
- 75-Jahr-Jubiläum ( ) lemma=175-Jahr-Jubiläum 
- 75-Jahrfeierlichkeiten ( ) 
- 75-Meter-Lauf ( ) 
- 75-Meter-Zonen ( ) 
- 75-Minuten-Programm ( ) 
- 75-Prozent-Beteiligung ( ) 
- 75-Prozent-Hürde ( ) 
- 75-Prozent-Marke ( ) 
- 75-Punkte-Sofortprogramm ( ) 
- 75/76 ( ) 
- 75/79 ( ) 
- 75/86 ( ) 
- 75/87 ( ) 
- 750 ( ) 
+ 75-Jahr-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 75-Jahr-Jubiläum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 75-Jahrfeierlichkeiten ( NOUN NOUN_PROPER_SINGULAR ) lemma=75-Jahrfeierlichkeit 
+ 75-Meter-Lauf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 75-Meter-Zonen ( NOUN NOUN_PROPER_SINGULAR ) lemma=75-Meter-Zone 
+ 75-Minuten-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 75-Prozent-Beteiligung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 75-Prozent-Hürde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 75-Prozent-Marke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 75-Punkte-Sofortprogramm ( NOUN NOUN_PROPER_SINGULAR ) 
+ 75/76 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 75/79 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 75/86 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 75/87 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 750 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  750- ( ) 
- 750-Feier ( ) 
- 750-Gramm-Brot ( ) 
- 750-Jahr ( ) 
+ 750-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 750-Gramm-Brot ( NOUN NOUN_PROPER_SINGULAR ) 
+ 750-Jahr ( NOUN NOUN_PROPER_SINGULAR ) 
  750-Jahr- ( ) 
- 750-Jahr-Feier ( ) 
- 750-Jahr-Feiern ( ) 
- 750-Jahr-Jubiläum ( ) 
- 750-Jahre-Feier ( ) 
- 750-Jahrfeier ( ) 
- 750-Seelen-Gemeinde ( ) 
- 750-jährigen ( ) 
- 7500-Einwohner-Gemeinde ( ) 
- 750er ( ) 
- 750jährige ( ) 
- 750jährigen ( ) 
- 755/91 ( ) 
- 75er ( ) 
- 75fache ( ) 
- 75jährig ( ) lemma=275jährig 
- 75jährige ( ) lemma=175jährig 
- 75jährigen ( ) 
- 75jähriger ( ) 
- 75jähriges ( ) 
- 75köpfige ( ) 
- 75maliges ( ) 
- 75prozentige ( ) 
- 75prozentigen ( ) 
- 75prozentiger ( ) 
- 76-Teiler ( ) 
- 76-jährige ( ) 
- 76. ( ) 
- 76/1 ( ) 
- 76/68/71/74 ( ) 
- 76/70/72/69 ( ) 
- 76/78 ( ) 
- 761/91 ( ) 
- 767/300 ( ) 
- 76er ( ) 
- 76er-Denkmal ( ) 
- 76er-Runde ( ) 
- 76jährig ( ) 
- 76jährige ( ) 
- 76jährigen ( ) 
- 76jähriger ( ) 
- 77-Gruppe ( ) 
- 77-Millionen-Mark-Projektes ( ) 
- 77-Staaten ( ) 
- 77/1 ( ) 
- 77/78 ( ) 
- 775-Jahr-Feier ( ) 
- 776er ( ) 
- 77er ( ) 
- 77er-Runde ( ) 
- 77jährig ( ) 
- 77jährige ( ) 
- 77jährigem ( ) 
- 77jährigen ( ) 
- 77jähriger ( ) 
- 78 ( ) 
- 78-Kilogramm-Kämpfer ( ) 
- 78-Quadratmeter-Wohnung ( ) 
- 78/79 ( ) 
- 78/80 ( ) 
- 78/89 ( ) 
- 78/91 ( ) 
- 78er ( ) 
+ 750-Jahr-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 750-Jahr-Feiern ( NOUN NOUN_PROPER_SINGULAR ) lemma=750-Jahr-feier 
+ 750-Jahr-Jubiläum ( NOUN NOUN_PROPER_SINGULAR ) 
+ 750-Jahre-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 750-Jahrfeier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 750-Seelen-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 750-jährigen ( ADJECTIVE ) lemma=750-jährig 
+ 7500-Einwohner-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 750er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 750jährige ( ADJECTIVE ) lemma=750jährig 
+ 750jährigen ( ADJECTIVE ) lemma=750jährig 
+ 755/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 75er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 75fache ( ADJECTIVE ) lemma=75fach 
+ 75jährig ( ADJECTIVE ) 
+ 75jährige ( ADJECTIVE ) lemma=75jährig 
+ 75jährigen ( ADJECTIVE ) lemma=75jährig 
+ 75jähriger ( ADJECTIVE ) lemma=75jährig 
+ 75jähriges ( ADJECTIVE ) lemma=75jährig 
+ 75köpfige ( ADJECTIVE ) lemma=75köpfig 
+ 75maliges ( ADJECTIVE ) lemma=75malig 
+ 75prozentige ( ADJECTIVE ) lemma=75prozentig 
+ 75prozentigen ( ADJECTIVE ) lemma=75prozentig 
+ 75prozentiger ( ADJECTIVE ) lemma=75prozentig 
+ 76-Teiler ( NOUN NOUN_PROPER_SINGULAR ) 
+ 76-jährige ( ADJECTIVE ) lemma=76-jährig 
+ 76. ( ADJECTIVE ) 
+ 76/1 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 76/68/71/74 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 76/70/72/69 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 76/78 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 761/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 767/300 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 76er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 76er-Denkmal ( NOUN NOUN_PROPER_SINGULAR ) 
+ 76er-Runde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 76jährig ( ADJECTIVE ) 
+ 76jährige ( ADJECTIVE ) lemma=76jährig 
+ 76jährigen ( ADJECTIVE ) lemma=76jährig 
+ 76jähriger ( ADJECTIVE ) lemma=76jährig 
+ 77-Gruppe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 77-Millionen-Mark-Projektes ( NOUN NOUN_PROPER_SINGULAR ) lemma=77-Millionen-Mark-Projekt 
+ 77-Staaten ( NOUN NOUN_PROPER_SINGULAR ) lemma=77-Staat 
+ 77/1 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 77/78 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 775-Jahr-Feier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 776er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 77er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 77er-Runde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 77jährig ( ADJECTIVE ) 
+ 77jährige ( ADJECTIVE ) lemma=77jährig 
+ 77jährigem ( ADJECTIVE ) lemma=77jährig 
+ 77jährigen ( ADJECTIVE ) lemma=77jährig 
+ 77jähriger ( ADJECTIVE ) lemma=77jährig 
+ 78 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 78-Kilogramm-Kämpfer ( NOUN NOUN_PROPER_SINGULAR ) 
+ 78-Quadratmeter-Wohnung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 78/79 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 78/80 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 78/89 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 78/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 78er ( NOUN NOUN_PROPER_SINGULAR ) 
  78er- ( ) 
- 78er-Runde ( ) 
- 78ern ( ) 
- 78jährig ( ) 
- 78jährige ( ) 
- 78jährigen ( ) 
- 78jähriger ( ) 
- 79,6-Teiler ( ) 
- 79/78 ( ) 
- 79/80 ( ) 
- 79/90 ( ) 
- 79/91 ( ) 
- 79er ( ) 
- 79jährig ( ) 
- 79jährige ( ) 
- 79jährigen ( ) 
- 79jähriger ( ) 
- 7:0-Erfolg ( ) 
- 7:0-Sieg ( ) 
- 7:04,48 ( ) 
- 7:06,21 ( ) 
- 7:1-Erfolg ( ) 
- 7:1-Punkte ( ) 
- 7:1-Punkten ( ) 
- 7:1-Sieg ( ) 
- 7:12-Rückstand ( ) 
- 7:17-Packung ( ) 
- 7:18,04 ( ) 
- 7:18,47 ( ) 
- 7:2-Erfolg ( ) 
- 7:2-Halbzeitvorsprung ( ) 
- 7:2-Sieg ( ) 
- 7:20-Pleite ( ) 
- 7:3-Erfolg ( ) 
- 7:3-Führung ( ) 
- 7:4-Erfolg ( ) 
+ 78er-Runde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 78ern ( NOUN NOUN_PROPER_SINGULAR ) lemma=78er 
+ 78jährig ( ADJECTIVE ) 
+ 78jährige ( ADJECTIVE ) lemma=78jährig 
+ 78jährigen ( ADJECTIVE ) lemma=78jährig 
+ 78jähriger ( ADJECTIVE ) lemma=78jährig 
+ 79,6-Teiler ( NOUN NOUN_PROPER_SINGULAR ) 
+ 79/78 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 79/80 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 79/90 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 79/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 79er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 79jährig ( ADJECTIVE ) 
+ 79jährige ( ADJECTIVE ) lemma=79jährig 
+ 79jährigen ( ADJECTIVE ) lemma=79jährig 
+ 79jähriger ( ADJECTIVE ) lemma=79jährig 
+ 7:0-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7:0-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7:04,48 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7:06,21 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7:1-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7:1-Punkte ( NOUN NOUN_PROPER_SINGULAR ) lemma=7:1-Punkt 
+ 7:1-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=7:1-Punkt 
+ 7:1-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7:12-Rückstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7:17-Packung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7:18,04 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7:18,47 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 7:2-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7:2-Halbzeitvorsprung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7:2-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7:20-Pleite ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7:3-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7:3-Führung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7:4-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
  7:5- ( ) 
- 7:5-Erfolg ( ) 
- 7:5-Sieg ( ) 
- 7:6-Erfolg ( ) 
- 7:6-Führung ( ) 
- 7:6-Halbfinalsieg ( ) 
- 7:6-Sieg ( ) 
- 7:6-Vorsprung ( ) 
- 7:8-Niederlage ( ) 
- 7:9-Heimniederlage ( ) 
- 7:9-Niederlage ( ) 
- 7:9-Rückstand ( ) 
- 7er ( ) 
+ 7:5-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7:5-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7:6-Erfolg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7:6-Führung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7:6-Halbfinalsieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7:6-Sieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7:6-Vorsprung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7:8-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7:9-Heimniederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7:9-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7:9-Rückstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7er ( NOUN NOUN_PROPER_SINGULAR ) 
  7er- ( ) 
- 7er-Ausschuss ( ) 
- 7er-Ausschusses ( ) 
- 7er-Ausschuß ( ) 
- 7er-Reihe ( ) 
- 7jährige ( ) lemma=97jährig 
- 7jährigem ( ) 
- 7jährigen ( ) 
- 7m-Schiessen ( ) 
- 7m-Schießen ( ) 
- 7mal ( ) 
- 7prozentige ( ) lemma=67prozentig 
- 7prozentigen ( ) 
- 7tägigen ( ) 
- 7031/8374 ( ) lemma=07031/83747 
- 7071/5220 ( ) lemma=07071/52200 
- 711/3 ( ) lemma=0711/34 
- 7141/1 ( ) lemma=07141/18 
- 7151/56036 ( ) lemma=07151/560364 
- 7156/95101 ( ) lemma=07156/951010 
- 7157/3490 ( ) lemma=07157/3490. 
- 7191/155 ( ) lemma=07191/1551 
- 721/2561 ( ) lemma=0721/25612 
- 731/3365 ( ) lemma=0731/33659 
- 761/3040 ( ) lemma=0761/30407 
- 761/515611 ( ) lemma=0761/5156111 
- 7945/239 ( ) lemma=07945/2391 
- 7e ( ) lemma=87er 
- 7-1 ( ) lemma=17-19 
- 7-Meter-Schus ( ) lemma=17-Meter-Schuss 
- 7-Meter-Schu� ( ) lemma=17-Meter-Schuss 
- 7-Milliarden ( ) lemma=17-Milliarden- 
- 7-Millionen-Stad ( ) lemma=17-Millionen-Stadt 
- 7-Minuten-Tak ( ) lemma=17-Minuten-Takt 
- 7-Nationalmannschaf ( ) lemma=17-Nationalmannschaft 
- 7-Nationen-Fes ( ) lemma=17-Nationen-Fest 
- 7-Program ( ) lemma=17-Programm 
- 7-Punkte-Abkomme ( ) lemma=17-Punkte-Abkommen 
- 7-Punkte-Katalo ( ) lemma=17-Punkte-Katalog 
- 7-Seiten-Papie ( ) lemma=17-Seiten-Papier 
- 7-Stimmen-Vorsprun ( ) lemma=17-Stimmen-Vorsprung 
- 7-jährig ( ) lemma=57-jährig 
- 7-m-Schus ( ) lemma=17-m-Schuss 
- 7-m-Schu� ( ) lemma=17-m-Schuss 
- 7/ ( ) lemma=87/2 
- 7/9 ( ) lemma=67/91 
- 70-Hektar-Geländ ( ) lemma=170-Hektar-Gelände 
- 70/9 ( ) lemma=170/90 
- 700-Seelen-Gemeind ( ) lemma=1700-Seelen-Gemeinde 
- 70e ( ) lemma=470er 
- 75-Jahr-Feie ( ) lemma=775-Jahr-Feier 
- 75-Jahr-Jubiläu ( ) lemma=175-Jahr-Jubiläum 
- 75/212, ( ) lemma=175/212,5 
- 750/6 ( ) lemma=1750/60 
- 7500-Einwohner-Kommun ( ) lemma=17500-Einwohner-Kommune 
- 758/5 ( ) lemma=1758/59 
- 75e ( ) lemma=175er 
- 75ma ( ) lemma=275mal 
- 761/6 ( ) lemma=1761/62 
- 770,6 ( ) lemma=1770,64 
- 777/7 ( ) lemma=1777/78 
- 779/8 ( ) lemma=1779/82 
- 787e ( ) lemma=1787er 
- 789/198 ( ) lemma=1789/1989 
- 789/8 ( ) lemma=1789/89 
- 789e ( ) lemma=1789er 
- 79/18 ( ) lemma=179/180 
- 791/9 ( ) lemma=1791/92 
- 792/9 ( ) lemma=1792/93 
- 793/9 ( ) lemma=1793/94 
- 795/9 ( ) lemma=1795/90 
- 7:10-Auswärtssie ( ) lemma=17:10-Auswärtssieg 
- 7:10-Heimsie ( ) lemma=17:10-Heimsieg 
- 7:12-Vorsprun ( ) lemma=17:12-Vorsprung 
- 7:15-Heimsie ( ) lemma=17:15-Heimsieg 
- 7:15-Sie ( ) lemma=17:15-Sieg 
- 7:16-Endstan ( ) lemma=17:16-Endstand 
- 7:16-Sie ( ) lemma=17:16-Sieg 
- 7:16-Zittersie ( ) lemma=17:16-Zittersieg 
- 7:17-Endstan ( ) lemma=17:17-Endstand 
- 7:17-Punkt ( ) lemma=17:17-Punkt 
- 7:19-Rückstan ( ) lemma=17:19-Rückstand 
- 7:8-Auswärtserfol ( ) lemma=17:8-Auswärtserfolg 
- 7:9-Punkte ( ) lemma=17:9-Punkt 
- 7er-Fel ( ) lemma=17er-Feld 
- 7er-Felde ( ) lemma=17er-Feld 
- 7er-Grupp ( ) lemma=17er-Gruppe 
- 7fac ( ) lemma=17fach 
- 7fach ( ) lemma=97fach 
- 7fache ( ) lemma=17fach 
- 7jähri ( ) lemma=87jährig 
- 7jährig ( ) lemma=97jährig 
- 7köpfig ( ) lemma=37köpfig 
- 7köpfige ( ) lemma=57köpfig 
- 7monatig ( ) lemma=27monatig 
- 7monatige ( ) lemma=17monatig 
- 7prozentig ( ) lemma=97prozentig 
- 7stündig ( ) lemma=17stündig 
- 7stündige ( ) lemma=17stündig 
- 7tägige ( ) lemma=67tägig 
- 7-Anschlus ( ) lemma=27-Anschluss 
- 7-Anschlu� ( ) lemma=27-Anschluss 
- 7-jährige ( ) lemma=67-jährig 
- 7/28.2 ( ) lemma=27/28.2. 
- 7/4/9 ( ) lemma=27/4/90 
- 700/8 ( ) lemma=2700/84 
- 700/9 ( ) lemma=2700/91 
- 7000-Einwohner-Stad ( ) lemma=27000-Einwohner-Stadt 
- 709/9 ( ) lemma=2709/92 
- 72e ( ) lemma=272er 
- 74/9 ( ) lemma=474/91 
- 75/8 ( ) lemma=275/89 
- 75/9 ( ) lemma=275/90 
- 78/9 ( ) lemma=278/90 
- 7:5-Sätz ( ) lemma=27:5-Satz 
- 7ma ( ) lemma=27mal 
- 7malig ( ) lemma=27malig 
- 7tägig ( ) lemma=27tägig 
- 7, ( ) lemma=37,5 
- 7,5-Stunden-Woch ( ) lemma=37,5-Stunden-Woche 
- 7-Millionen-Sonderprogram ( ) lemma=37-Millionen-Sonderprogramm 
- 7-Millionen-Top ( ) lemma=37-Millionen-Topf 
- 7-Stunde ( ) lemma=37-Stunden 
- 7-Stunden-Woch ( ) lemma=37-Stunden-Woche 
- 7-Teile ( ) lemma=67-Teiler 
- 70-Millionen-Kredi ( ) lemma=370-Millionen-Kredit 
- 70000-Mann-Arme ( ) lemma=370000-Mann-Armee 
- 75000-DM-Bussgeldbeschei ( ) lemma=375000-DM-Bußgeldbescheid 
- 75000-DM-Bußgeldbeschei ( ) lemma=375000-DM-Bußgeldbescheid 
- 77/8 ( ) lemma=377/88 
- 7:0-Sie ( ) lemma=37:0-Sieg 
- 7-Millionen-Mark-Flo ( ) lemma=47-Millionen-Mark-Flop 
- 70-Mark-Grenz ( ) lemma=470-Mark-Grenze 
- 70er-Fraue ( ) lemma=470er-Frau 
- 70er-Klass ( ) lemma=470er-Klasse 
- 716/8 ( ) lemma=4716/87 
- 76 ( ) lemma=4762 
- 7,5-Millionen-Mark-Komplexe ( ) lemma=57,5-Millionen-Mark-Komplex 
- 7-Kilo-Klass ( ) lemma=57-Kilo-Klasse 
- 7-kg-Klass ( ) lemma=57-kg-Klasse 
- 76/9 ( ) lemma=576/92 
- 7er-Bu ( ) lemma=57er-Bus 
- 7er-Busse ( ) lemma=57er-Bus 
- 7-Tonnen-Abrams-Panze ( ) lemma=67-Tonnen-Abrams-Panzer 
- 717/8 ( ) lemma=6717/87 
- 7er-Rund ( ) lemma=77er-Runde 
+ 7er-Ausschuss ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7er-Ausschusses ( NOUN NOUN_PROPER_SINGULAR ) lemma=7er-Ausschuss 
+ 7er-Ausschuß ( NOUN NOUN_PROPER_SINGULAR ) lemma=7er-Ausschuss 
+ 7er-Reihe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7jährige ( ADJECTIVE ) lemma=7jährig 
+ 7jährigem ( ADJECTIVE ) lemma=7jährig 
+ 7jährigen ( ADJECTIVE ) lemma=7jährig 
+ 7m-Schiessen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7m-Schießen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 7mal ( ADVERB ) 
+ 7prozentige ( ADJECTIVE ) lemma=7prozentig 
+ 7prozentigen ( ADJECTIVE ) lemma=7prozentig 
+ 7tägigen ( ADJECTIVE ) lemma=7tägig 
  7,5-prozentig ( ) 
  7,5prozentig ( ) 
  7-Land ( ) 
@@ -521,16 +389,9 @@
  75malig ( ) 
  75prozentig ( ) 
  76-jährig ( ) 
- 7-Grupp ( ) lemma=G7-Gruppe 
- 7-Millionen-Mark-Projekte ( ) lemma=77-Millionen-Mark-Projekt 
  77-Millionen-Mark-Projekt ( ) 
- 7-Staate ( ) lemma=G7-Staat 
  77-Staat ( ) 
- 76e ( ) lemma=776er 
  7:1-Punkt ( ) 
- 73/9 ( ) lemma=873/90 
- 77/199 ( ) lemma=877/1991 
- 7991 ( ) lemma=879910 
- 7:90-Niederlag ( ) lemma=87:90-Niederlage 
- 7,0/86, ( ) lemma=97,0/86,5 
- 7,5/87, ( ) lemma=97,5/87,0 
+ 7jährig ( ) 
+ 7prozentig ( ) 
+ 7tägig ( ) 

@@ -9,10 +9,9 @@
 </head>
 <body>
 <h1 id="chatscript-postgresql">ChatScript PostgreSQL</h1>
-<p>© Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 4/24/2017 cs7.4</p>
-<p>ChatScript ships with code and WINDOWS libraries for accessing PostgreSQL but you need a database somewhere. All builds with the postgres client are <code>ChatScriptpg</code> in naming as opposed to <code>ChatScript.exe</code> or <code>LinuxChatScript32</code> or <code>LinuxChatScript64</code> which are non postgres builds.</p>
-<p>On Linux, ChatScript ships with PostgreSQL client built-in, but if you want to rebuild the system for some reason, then while standing in /src type either</p>
-<p><code>make server</code> – build ordinary CS server w/o PostgreSQL client <br><code>make pgserver</code> – build CS server w PostgreSQL client (you had to install postgress first)</p>
+<p>© Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 6/25/2017 cs7.51</p>
+<p>ChatScript ships with code and WINDOWS libraries for accessing PostgreSQL but you need a database somewhere and you need a postgres build of ChatScript.</p>
+<p>While standing in the SRC directory, you can do: <code>make server</code> – build ordinary CS server w/o PostgreSQL client <br><code>make pgserver</code> – build CS server w PostgreSQL client (you had to install postgress first)</p>
 <p>Usually postgres somes with amazon servers, but if not you may have to do something like</p>
 <pre><code>sudo apt-get install libpq-dev</code></pre>
 <p>to build successfully.</p>

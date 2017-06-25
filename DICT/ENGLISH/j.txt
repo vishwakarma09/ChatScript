@@ -4587,8 +4587,8 @@
     Japanese_monetary_unit~1nz (^monetary_unit~1) monetary unit in Japan
  jiao ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 posdefault:NOUN ) 
     jiao~1nz (^Chinese_monetary_unit~1) 10 jiao equal 1 yuan in China
- joule ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 posdefault:NOUN ) 
-    J~2nz (^energy_unit~1) a unit of electrical energy equal to the work done when a current of one ampere passes through a resistance of one ohm for one second
+ joule ( meanings=1 NOUN NOUN_SINGULAR COMMON2 posdefault:NOUN ) 
+    watt_second~1n 
  jarful ( meanings=1 NOUN NOUN_SINGULAR COMMON1 posdefault:NOUN ) 
     jar~3n 
  jugful ( meanings=1 NOUN NOUN_SINGULAR COMMON1 posdefault:NOUN ) 

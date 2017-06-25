@@ -1,6 +1,6 @@
 # ChatScript Spelling Marking Manual
 © Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 6/18/2017 cs7.5
+<br>Revision 6/25/2017 cs7.51
 
 
 # Spelling

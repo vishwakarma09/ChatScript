@@ -1,2018 +1,462 @@
-﻿ Y ( ) lemma=XYZ 
+﻿ Y ( NOUN NOUN_PROPER_SINGULAR ) 
  Y- ( ) 
- Y-Betreuung ( ) 
- Y-Burg ( ) 
- Y-Chromosom ( ) 
- Y-Chromosoms ( ) 
- Y-Frauen ( ) 
- Y-MP ( ) 
- Y-Stück ( ) 
- Y-Weg ( ) 
- Y-Zeit ( ) 
- Y. ( ) 
- Y.H. ( ) 
- Y.S. ( ) 
- YATAMA-Führer ( ) 
- YORK ( ) 
- YPF-Aktien ( ) 
- YVONNE ( ) 
- Yabaolu-Markt ( ) 
- Yacht ( ) 
+ Y-Betreuung ( NOUN NOUN_PROPER_SINGULAR ) 
+ Y-Burg ( NOUN NOUN_PROPER_SINGULAR ) 
+ Y-Chromosom ( NOUN NOUN_PROPER_SINGULAR ) 
+ Y-Chromosoms ( NOUN NOUN_PROPER_SINGULAR ) lemma=Y-Chromosom 
+ Y-Frauen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Y-Frau 
+ Y-MP ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Y-Stück ( NOUN NOUN_PROPER_SINGULAR ) 
+ Y-Weg ( NOUN NOUN_PROPER_SINGULAR ) 
+ Y-Zeit ( NOUN NOUN_PROPER_SINGULAR ) 
+ Y. ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Y.H. ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Y.S. ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ YATAMA-Führer ( NOUN NOUN_PROPER_SINGULAR ) 
+ YORK ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=York 
+ YPF-Aktien ( NOUN NOUN_PROPER_SINGULAR ) lemma=YPF-Aktie 
+ YVONNE ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yabaolu-Markt ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yacht ( NOUN NOUN_PROPER_SINGULAR ) 
  Yacht- ( ) 
- Yacht-Club ( ) 
- Yacht-Werft ( ) 
- Yachtagentur ( ) 
- Yachtbau ( ) 
- Yachtbesitzer ( ) 
- Yachtcharter ( ) 
- Yachtclub ( ) 
- Yachtclubrebellen ( ) 
- Yachtclubs ( ) 
- Yachten ( ) 
- Yachtgeschäft ( ) 
- Yachthafen ( ) 
- Yachthafens ( ) 
- Yachthäfen ( ) 
- Yachtschule ( ) 
- Yachtwerft ( ) 
- Yad-Vashem-Medaille ( ) 
- Yadegar ( ) 
- Yadigar ( ) 
- Yadin ( ) 
- Yadollah ( ) 
- Yadullah ( ) 
- Yae ( ) 
- Yafer ( ) 
- Yagci ( ) 
- Yaghoub ( ) 
- Yaghoube ( ) 
- Yaghoubi ( ) 
- Yagmur ( ) 
- Yahia ( ) 
- Yahya ( ) 
- Yak ( ) 
+ Yacht-Club ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yacht-Werft ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yachtagentur ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yachtbau ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yachtbesitzer ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yachtcharter ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yachtclub ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yachtclubrebellen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yachtclubrebell 
+ Yachtclubs ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yachtclub 
+ Yachten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yacht 
+ Yachtgeschäft ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yachthafen ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yachthafens ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yachthafen 
+ Yachthäfen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yachthafen 
+ Yachtschule ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yachtwerft ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yad-Vashem-Medaille ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yadegar ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yadigar ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yadin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yadollah ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yadullah ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yae ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yafer ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yagci ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yaghoub ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yaghoube ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yaghoubi ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yagmur ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yahia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yahya ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yak ( NOUN NOUN_PROPER_SINGULAR ) 
  Yak- ( ) 
- Yaks ( ) 
- Yakup ( ) 
- Yakut ( ) 
+ Yaks ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yak 
+ Yakup ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yakut ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Yakuza- ( ) 
- Yakuza-Chefs ( ) 
- Yakuza-Gangster ( ) 
- Yakuza-Gangstern ( ) 
- Yakuza-Gruppen ( ) 
- Yakuza-Mafia ( ) 
- Yalap ( ) 
- Yalcin ( ) 
- Yale-Professor ( ) 
- Yale-Universität ( ) 
- Yamada ( ) 
- Yamaha-Flügel ( ) 
- Yamaha-Motorräder ( ) 
+ Yakuza-Chefs ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yakuza-Chef 
+ Yakuza-Gangster ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yakuza-Gangstern ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yakuza-Gangster 
+ Yakuza-Gruppen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yakuza-Gruppe 
+ Yakuza-Mafia ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yalap ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yalcin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yale-Professor ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yale-Universität ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yamada ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yamaha-Flügel ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yamaha-Motorräder ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yamaha-Motorrad 
  Yamaichi- ( ) 
- Yaman ( ) 
- Yamar ( ) 
- Yamashita ( ) 
- Yami ( ) 
- Yamina ( ) 
- Yamswurzeln ( ) 
- Yan ( ) 
- Yan-Lio ( ) 
- Yana ( ) 
- Yanaki ( ) 
- Yaneza ( ) 
- Yang ( ) 
- Yang-Clique ( ) 
- Yang-Ohrstecker ( ) 
- Yangling ( ) 
- Yangtse-Fluss ( ) 
- Yangtse-Fluß ( ) 
+ Yaman ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yamar ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yamashita ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yami ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yamina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yamswurzeln ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yamswurzel 
+ Yan ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yan-Lio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yana ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yanaki ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yaneza ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yang ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yang-Clique ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yang-Ohrstecker ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yangling ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yangtse-Fluss ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yangtse-Fluß ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yangtse-Fluss 
  Yangzi- ( ) 
- Yangzi-Region ( ) 
- Yangzi-Schluchten ( ) 
- Yani ( ) 
- Yanik ( ) 
- Yankee ( ) 
+ Yangzi-Region ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yangzi-Schluchten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yangzi-Schlucht 
+ Yani ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yanik ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yankee ( NOUN NOUN_PROPER_SINGULAR ) 
  Yankee- ( ) 
- Yankee-Land ( ) 
- Yankee-Lösung ( ) 
- Yankee-Stadion ( ) 
- Yankee-Zensur ( ) 
- Yankees ( ) 
- Yankeetum ( ) 
- Yann ( ) 
- Yann-Christophe ( ) 
- Yannick ( ) 
- Yannoula ( ) 
+ Yankee-Land ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yankee-Lösung ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yankee-Stadion ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yankee-Zensur ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yankees ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yankee 
+ Yankeetum ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yann ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yann-Christophe ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yannick ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yannoula ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Yanomami- ( ) 
- Yanomami-Gebiet ( ) 
- Yanomami-Gebiete ( ) 
- Yanomami-Häuptling ( ) 
- Yanomami-Indianer ( ) 
- Yanomami-Indianern ( ) 
- Yanomami-Morde ( ) 
- Yanomami-Reservat ( ) 
- Yanomami-Reservats ( ) 
- Yanomani-Reservat ( ) 
- Yanonami-Indianer ( ) 
- Yanping ( ) 
- Yansa ( ) 
- Yanzhi ( ) 
- Yao ( ) 
- Yaprak-Imbiss ( ) 
- Yaprak-Imbiß ( ) 
- Yaqub-Khan ( ) 
- Yard ( ) 
- Yard-Party ( ) 
- Yards ( ) 
- Yarmouk-Universität ( ) 
- Yarmuk-Anrainer ( ) 
- Yarmuk-Klinik ( ) 
- Yaruz ( ) 
- Yarves ( ) 
- Yasar ( ) 
- Yasar-Halim ( ) 
- Yasder ( ) 
- Yasemin ( ) 
- Yaser ( ) 
- Yashar ( ) 
- Yashi ( ) 
- Yasin ( ) 
- Yasmin ( ) 
- Yasmine ( ) 
- Yassaman ( ) 
- Yassar ( ) 
- Yassein ( ) 
- Yasser ( ) 
- Yassin ( ) 
- Yasuaki ( ) 
- Yasukuni-Schrein ( ) 
- Yasuni-Nationalpark ( ) 
- Yasuyoshi ( ) 
- Yatama-Führer ( ) 
- Yau ( ) 
- Yausry ( ) 
- Yavaz ( ) 
- Yaver ( ) 
- Yavuz ( ) 
- Yaw ( ) 
- Yazede ( ) 
- Yazgan ( ) 
- Yazici ( ) 
- Yazigi ( ) 
- Yazirlioglu ( ) 
- Year-Show ( ) 
- Yeboah-Berater ( ) 
- Yee ( ) 
- Yee-Man ( ) 
- Yehia ( ) 
- Yehl ( ) 
- Yehuda ( ) 
- Yelka ( ) 
- Yella ( ) 
+ Yanomami-Gebiet ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yanomami-Gebiete ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yanomami-Gebiet 
+ Yanomami-Häuptling ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yanomami-Indianer ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yanomami-Indianern ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yanomami-Indianer 
+ Yanomami-Morde ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yanomami-Mord 
+ Yanomami-Reservat ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yanomami-Reservats ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yanomami-Reservat 
+ Yanomani-Reservat ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yanonami-Indianer ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yanping ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yansa ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yanzhi ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yao ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yaprak-Imbiss ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yaprak-Imbiß ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yaprak-Imbiss 
+ Yaqub-Khan ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yard ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yard-Party ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yards ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yard 
+ Yarmouk-Universität ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yarmuk-Anrainer ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yarmuk-Klinik ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yaruz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yarves ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yasar ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yasar-Halim ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yasder ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yasemin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yaser ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yashar ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yashi ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yasin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yasmin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yasmine ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yassaman ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yassar ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yassein ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yasser ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yassin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yasuaki ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yasukuni-Schrein ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yasuni-Nationalpark ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yasuyoshi ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yatama-Führer ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yau ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yausry ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yavaz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yaver ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yavuz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yaw ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yazede ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yazgan ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yazici ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yazigi ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yazirlioglu ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Year-Show ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yeboah-Berater ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yee ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yee-Man ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yehia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yehl ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yehuda ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yelka ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yella ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Yellow- ( ) 
- Yellow-Press-Blatt ( ) 
- Yellowstone-Park ( ) 
- Yemane ( ) 
- Yen ( ) 
+ Yellow-Press-Blatt ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yellowstone-Park ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yemane ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yen ( NOUN NOUN_PROPER_SINGULAR ) 
  Yen- ( ) 
- Yen-Aufwertung ( ) 
- Yen-Block ( ) 
- Yen-Ching ( ) 
- Yen-Chu ( ) 
- Yen-Diktatur ( ) 
- Yen-Hoch ( ) 
- Yen-Kao ( ) 
- Yen-Kurs ( ) 
- Yen-Kurses ( ) 
- Yen-Milliarden ( ) 
- Yen-Schock ( ) 
- Yen-Schwäche ( ) 
- Yen-Zone ( ) 
- Yener ( ) 
- Yeni ( ) 
- Yenkurs ( ) 
- Yenny ( ) 
- Yens ( ) 
- Yervant ( ) 
- Yes-Album ( ) 
- Yes-Musiker ( ) 
- Yes-Songs ( ) 
- Yeschiva-Studenten ( ) 
- Yesil ( ) 
- Yesim ( ) 
- Yesra ( ) 
- Yester ( ) 
- Yeter ( ) 
- Yeun ( ) 
- Yevonne ( ) 
- Yeznik ( ) 
- Yi ( ) 
- Yiannakis ( ) 
- Yidoray ( ) 
- Yigeddöl ( ) 
- Yigin ( ) 
- Yigit ( ) 
- Yigitdol ( ) 
- Yigitdöl ( ) 
- Yigiter ( ) 
+ Yen-Aufwertung ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yen-Block ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yen-Ching ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yen-Chu ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yen-Diktatur ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yen-Hoch ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yen-Kao ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yen-Kurs ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yen-Kurses ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yen-Kurs 
+ Yen-Milliarden ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yen-Milliarde 
+ Yen-Schock ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yen-Schwäche ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yen-Zone ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yener ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yeni ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yenkurs ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yenny ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yens ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yen 
+ Yervant ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yes-Album ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yes-Musiker ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yes-Songs ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yes-Song 
+ Yeschiva-Studenten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yeschiva-Student 
+ Yesil ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yesim ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yesra ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yester ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yeter ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yeun ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yevonne ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yeznik ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yi ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yiannakis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yidoray ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yigeddöl ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yigin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yigit ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yigitdol ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yigitdöl ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yigiter ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Yijing- ( ) 
- Yildiray ( ) 
- Yildirim ( ) 
- Yildirim-Firat ( ) 
- Yildirim-Mehmet ( ) 
- Yildirin ( ) 
- Yildis ( ) 
- Yildiz ( ) 
- Yildiz-Park ( ) 
- Yildizgörer ( ) 
- Yildizi ( ) 
- Yildizoglu ( ) 
- Yildrim ( ) 
- Yilmar ( ) 
- Yilmaz ( ) 
- Yima ( ) 
- Yimou-Filme ( ) 
- Yin ( ) 
- Yin-Yang-Zeichen ( ) 
- Ying ( ) 
+ Yildiray ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yildirim ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yildirim-Firat ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yildirim-Mehmet ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yildirin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yildis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yildiz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yildiz-Park ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yildizgörer ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yildizi ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yildizoglu ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yildrim ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yilmar ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yilmaz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yima ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yimou-Filme ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yimou-Film 
+ Yin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yin-Yang-Zeichen ( NOUN NOUN_PROPER_SINGULAR ) 
+ Ying ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Ying- ( ) 
- Ying-Jun ( ) 
- Ying-Sing ( ) 
- Yip ( ) 
- Yippie-Bewegung ( ) 
- Yisa ( ) 
- Ylmaz ( ) 
- Ylva ( ) 
- Ymos-Aktien ( ) 
- Ymos-Betriebsrates ( ) 
- Ymos-Chef ( ) 
- Yodollah ( ) 
- Yoeng ( ) 
- Yoeng-Soon ( ) 
- Yoga ( ) 
+ Ying-Jun ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Ying-Sing ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yip ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yippie-Bewegung ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yisa ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Ylmaz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Ylva ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Ymos-Aktien ( NOUN NOUN_PROPER_SINGULAR ) lemma=Ymos-Aktie 
+ Ymos-Betriebsrates ( NOUN NOUN_PROPER_SINGULAR ) lemma=Ymos-Betriebsrat 
+ Ymos-Chef ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yodollah ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yoeng ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yoeng-Soon ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yoga ( NOUN NOUN_PROPER_SINGULAR ) 
  Yoga- ( ) 
- Yoga-Kurs ( ) 
- Yoga-Kurse ( ) 
- Yoga-Kursus ( ) 
- Yoga-Meister ( ) 
- Yoga-Übungsreihe ( ) 
- Yoga-Übungsstunden ( ) 
- Yogakurs ( ) 
- Yogakurse ( ) 
- Yogakursen ( ) 
- Yogakurses ( ) 
- Yogakursus ( ) 
- Yoganathan ( ) 
- Yogaübungen ( ) 
- Yoghurt ( ) 
- Yoghurtbecher ( ) 
- Yogi ( ) 
- Yogis ( ) 
- Yohannes ( ) 
- Yohko ( ) 
- Yoka ( ) 
- Yoko ( ) 
- Yokohama ( ) 
- Yokohama-Arena ( ) 
+ Yoga-Kurs ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yoga-Kurse ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yoga-Kurs 
+ Yoga-Kursus ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yoga-Meister ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yoga-Übungsreihe ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yoga-Übungsstunden ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yoga-Übungsstunde 
+ Yogakurs ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yogakurse ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yogakurs 
+ Yogakursen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yogakurs 
+ Yogakurses ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yogakurs 
+ Yogakursus ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yoganathan ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yogaübungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yogaübung 
+ Yoghurt ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yoghurtbecher ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yogi ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yogis ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yogi 
+ Yohannes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yohko ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yoka ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yoko ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yokohama ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yokohama-Arena ( NOUN NOUN_PROPER_SINGULAR ) 
  Yokozuna- ( ) 
- Yokozuna-Komitee ( ) 
- Yokozuna-Titel ( ) 
- Yol-Prozess ( ) 
- Yol-Prozeß ( ) 
- Yolanda ( ) 
- Yolande ( ) 
- Yolari ( ) 
- Yolin ( ) 
- Yom-Kippur-Feiertag ( ) 
- Yom-Kippur-Krieg ( ) 
- Yon ( ) 
- Yon-Wha ( ) 
- Yoney ( ) 
- Yong ( ) 
+ Yokozuna-Komitee ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yokozuna-Titel ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yol-Prozess ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yol-Prozeß ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yol-Prozess 
+ Yolanda ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yolande ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yolari ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yolin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yom-Kippur-Feiertag ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yom-Kippur-Krieg ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yon ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yon-Wha ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yoney ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yong ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Yong- ( ) 
- Yong-Ho ( ) 
- Yong-Ok ( ) 
- Yonka ( ) 
- Yonsei-Universität ( ) 
- Yoo ( ) 
- Yoo-Tai ( ) 
- Yoon ( ) 
- Yorck ( ) 
+ Yong-Ho ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yong-Ok ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yonka ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yonsei-Universität ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yoo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yoo-Tai ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yoon ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yorck ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Yorck- ( ) 
  Yorck-Kino- ( ) 
- Yorgi ( ) 
- Yorgo ( ) 
- York ( ) 
+ Yorgi ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yorgo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ York ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  York- ( ) 
- York-Berlin ( ) 
- York-Besuch ( ) 
- York-Fr. ( ) 
- York-Hannover ( ) 
- York-Marathon ( ) 
- York-Trilogie ( ) 
- York-Ulrich ( ) 
- York-Werner ( ) 
- York/Mexiko-Stadt ( ) 
- Yorkbrücken ( ) 
- Yorker ( ) 
- Yorkerin ( ) 
- Yorkern ( ) 
- Yorkers ( ) 
- Yorks ( ) 
+ York-Berlin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ York-Besuch ( NOUN NOUN_PROPER_SINGULAR ) 
+ York-Fr. ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ York-Hannover ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ York-Marathon ( NOUN NOUN_PROPER_SINGULAR ) 
+ York-Trilogie ( NOUN NOUN_PROPER_SINGULAR ) 
+ York-Ulrich ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ York-Werner ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ York/Mexiko-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yorkbrücken ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yorkbrücke 
+ Yorker ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) 
+ Yorkerin ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yorkern ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yorker 
+ Yorkers ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yorker 
+ Yorks ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=York 
  Yorkshire- ( ) 
- Yorkshire-Terrier ( ) 
- Yorkstrasse ( ) 
- Yorkstraße ( ) 
+ Yorkshire-Terrier ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yorkstrasse ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yorkstraße 
+ Yorkstraße ( NOUN NOUN_PROPER_SINGULAR ) 
  Yoruba- ( ) 
- Yoruba-Sprache ( ) 
- Yoschi ( ) 
- Yosef ( ) 
- Yosemite-Nationalpark ( ) 
- Yoshi ( ) 
- Yoshiharu ( ) 
- Yoshiko ( ) 
- Yoshio ( ) 
- Yoshiyuki ( ) 
- Yossef ( ) 
- Yosuke ( ) 
- Youcef ( ) 
- Youkhana ( ) 
- Youn-He ( ) 
- Younan ( ) 
- Younes ( ) 
- Youness ( ) 
- Young ( ) 
+ Yoruba-Sprache ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yoschi ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yosef ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yosemite-Nationalpark ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yoshi ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yoshiharu ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yoshiko ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yoshio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yoshiyuki ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yossef ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yosuke ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Youcef ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Youkhana ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Youn-He ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Younan ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Younes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Youness ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Young ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Young- ( ) 
- Young-Lea ( ) 
- Young-Sik ( ) 
- Young-Sook ( ) 
+ Young-Lea ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Young-Sik ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Young-Sook ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Youngster- ( ) 
- Youngster-Szene ( ) 
- Younis ( ) 
- Yousaf ( ) 
- Yousef ( ) 
- Youseph ( ) 
- Yousif ( ) 
- Youssef ( ) 
- Yousuf ( ) 
- Youth-Lock-In-Program ( ) 
- Ypern-Kaserne ( ) 
- Ypsilon ( ) 
- Ysaye-Quartett ( ) 
- Ysaye-Quartetts ( ) 
- Ysop ( ) 
- Ytong-Gruppe ( ) 
- Ytong-Holding ( ) 
- Yu ( ) 
- Yu-Hsi ( ) 
- Yuan ( ) 
- Yuan-Millionär ( ) 
- Yubo ( ) 
- Yucatan-Halbinsel ( ) 
- Yucatán-Halbinsel ( ) 
- Yucca-Bar ( ) 
- Yucca-Palme ( ) 
- Yucca-Palmen ( ) 
- Yucel ( ) 
- Yud ( ) 
- Yue ( ) 
- Yueksel ( ) 
- Yuen-Fong ( ) 
- Yuhua ( ) 
- Yuji ( ) 
- Yuk ( ) 
- Yukatan ( ) 
- Yukatan-Halbinsel ( ) 
- Yuki ( ) 
- Yukiko ( ) 
- Yukio ( ) 
- Yuko ( ) 
- Yukon ( ) 
- Yuksel ( ) 
- Yun ( ) 
- Yun-Oak ( ) 
- Yunes ( ) 
- Yunita ( ) 
- Yunru ( ) 
- Yunus ( ) 
- Yuppi-Mädchen ( ) 
+ Youngster-Szene ( NOUN NOUN_PROPER_SINGULAR ) 
+ Younis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yousaf ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yousef ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Youseph ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yousif ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Youssef ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yousuf ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Youth-Lock-In-Program ( NOUN NOUN_PROPER_SINGULAR ) 
+ Ypern-Kaserne ( NOUN NOUN_PROPER_SINGULAR ) 
+ Ypsilon ( NOUN NOUN_PROPER_SINGULAR ) 
+ Ysaye-Quartett ( NOUN NOUN_PROPER_SINGULAR ) 
+ Ysaye-Quartetts ( NOUN NOUN_PROPER_SINGULAR ) lemma=Ysaye-Quartett 
+ Ysop ( NOUN NOUN_PROPER_SINGULAR ) 
+ Ytong-Gruppe ( NOUN NOUN_PROPER_SINGULAR ) 
+ Ytong-Holding ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yu ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yu-Hsi ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yuan ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yuan-Millionär ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yubo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yucatan-Halbinsel ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yucatán-Halbinsel ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yucca-Bar ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yucca-Palme ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yucca-Palmen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yucca-Palme 
+ Yucel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yud ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yue ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yueksel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yuen-Fong ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yuhua ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yuji ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yuk ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yukatan ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yukatan-Halbinsel ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yuki ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yukiko ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yukio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yuko ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yukon ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yuksel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yun ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yun-Oak ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yunes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yunita ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yunru ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yunus ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yuppi-Mädchen ( NOUN NOUN_PROPER_SINGULAR ) 
  Yuppie- ( ) 
- Yuppie-Agenturen ( ) 
- Yuppie-Bastards ( ) 
- Yuppie-Bier ( ) 
- Yuppie-City ( ) 
- Yuppie-Design ( ) 
- Yuppie-Ehepaar ( ) 
- Yuppie-Faschist ( ) 
- Yuppie-Generation ( ) 
- Yuppie-Invasion ( ) 
- Yuppie-Kultur ( ) 
- Yuppie-Manager ( ) 
- Yuppie-Mentalität ( ) 
- Yuppie-Milieu ( ) 
- Yuppie-Nazi ( ) 
- Yuppie-Neonazi ( ) 
- Yuppie-Projekt ( ) 
- Yuppie-Pärchen ( ) 
- Yuppie-Restaurant ( ) 
- Yuppie-Stadt ( ) 
- Yuppie-Streik ( ) 
- Yuppie-Trip ( ) 
- Yuppie-Welt ( ) 
- Yuppie-Wohnungen ( ) 
- Yurdagül ( ) 
- Yurdakul ( ) 
- Yurdal ( ) 
- Yurdanur ( ) 
- Yurduman ( ) 
- Yurga ( ) 
- Yusef ( ) 
- Yusuf ( ) 
- Yuthika-Cornelia ( ) 
- Yuuko ( ) 
- Yvan ( ) 
- Yve ( ) 
- Yvelise ( ) 
- Yven ( ) 
- Yves ( ) 
- Yves-Klein-Blau ( ) 
- Yves-Klein-Haus ( ) 
- Yvett ( ) 
- Yvetta ( ) 
- Yvette ( ) 
- Yvo ( ) 
- Yvon ( ) 
- Yvona ( ) 
- Yvonn ( ) 
- Yvonna ( ) 
- Yvonne ( ) 
- Yvonne-E. ( ) 
- Yvonne-Eva ( ) 
- Yvonnes ( ) 
- Yvonnet ( ) 
- Yörn ( ) 
- Yü ( ) 
- Yücel ( ) 
- Yüksel ( ) 
- Yüsüf ( ) 
- yayla-System ( ) 
- yogaähnlicher ( ) 
- YPA-T ( ) lemma=AYPA-TV 
- y- ( ) lemma=Ay-O 
- y ( ) lemma=Wyk 
- ya ( ) lemma=Ryan 
- yamb ( ) lemma=Ayamba 
- yas ( ) lemma=Ayash 
- yatollah-Regim ( ) lemma=Ayatollah-Regime 
- yca ( ) lemma=Aycan 
- yckbourn-Komödie ( ) lemma=Ayckbourn-Komödie 
- ydagu ( ) lemma=Aydagul 
- yda ( ) lemma=Aydan 
- ydane ( ) lemma=Aydaner 
- ydemi ( ) lemma=Aydemir 
- yde ( ) lemma=Ayden 
- ydi ( ) lemma=Lydie 
- ydina ( ) lemma=Aydinar 
- ydin ( ) lemma=Aydine 
- yd ( ) lemma=Gyde 
- ydoga ( ) lemma=Aydogan 
- ydogd ( ) lemma=Aydogdu 
- ydu ( ) lemma=Aydun 
- yel ( ) lemma=Ayelt 
- yfe ( ) lemma=Ayfer 
- ygü ( ) lemma=Aygün 
- yha ( ) lemma=Ayhan 
- yka ( ) lemma=Aykar 
- yku ( ) lemma=Aykut 
- yl ( ) lemma=Tylo 
- yla-Suza ( ) lemma=Ayla-Suzan 
- yli ( ) lemma=Kylix 
- ylwin-Regierun ( ) lemma=Aylwin-Regierung 
- yma ( ) lemma=Ayman 
- ymon ( ) lemma=Symone 
- yno ( ) lemma=Synod 
- ynu ( ) lemma=Aynur 
- ynur ( ) lemma=Aynure 
- yodhya ( ) lemma=Ayodhya- 
- yodhya-Mosche ( ) lemma=Ayodhya-Moschee 
- you ( ) lemma=Ayoub 
- ype ( ) lemma=Typ 
- yra ( ) lemma=Ayran 
- ysa ( ) lemma=Uysal 
- ys ( ) lemma=Lysa 
- yse-Bettin ( ) lemma=Ayse-Bettina 
- yse-Necmiy ( ) lemma=Ayse-Necmiye 
- ysean ( ) lemma=Ayseana 
- yse ( ) lemma=Eysel 
- ysh ( ) lemma=Aysha 
- ysi ( ) lemma=Gysi 
- ysu ( ) lemma=Aysun 
- yta ( ) lemma=Aytar 
- yteki ( ) lemma=Aytekin 
- yte ( ) lemma=Ayten 
- ytü ( ) lemma=Aytül 
- yur-Ve ( ) lemma=Ayur-Ved 
- yva ( ) lemma=Ayvaz 
- yy ( ) lemma=Ayyo 
- yblos-Verla ( ) lemma=Byblos-Verlag 
- ychow-Kinde ( ) lemma=Bychow-Kind 
- ye ( ) lemma=Syed 
- ypass ( ) lemma=Bypass- 
- ypass-Lösun ( ) lemma=Bypass-Lösung 
- ypass-Operatio ( ) lemma=Bypass-Operation 
- ypass-Operatione ( ) lemma=Bypass-Operation 
- yro ( ) lemma=Vyron 
- yr ( ) lemma=Myra 
- yrt ( ) lemma=Syrty 
- yt ( ) lemma=Syta 
- yun ( ) lemma=Myung 
- yung-D ( ) lemma=Byung-Do 
- yung-Soo ( ) lemma=Hyung-Sook 
- yzantine ( ) lemma=Byzantiner 
- yzantinisch ( ) lemma=byzantinisch 
- yzantinische ( ) lemma=byzantinisch 
- yzantinismu ( ) lemma=Byzantinismus 
- yzan ( ) lemma=Byzanz 
- yanid-Verbindunge ( ) lemma=Cyanid-Verbindung 
- yber ( ) lemma=Cyber- 
- yber-Medium ( ) lemma=Cyber-Medium 
- yber-Pun ( ) lemma=Cyber-Punk 
- yber-Se ( ) lemma=Cyber-Sex 
- yber-Är ( ) lemma=Cyber-Ära 
- yberspace ( ) lemma=Cyberspace- 
- yberspace-Caf� ( ) lemma=Cyberspace-Café 
- yberspace-Part ( ) lemma=Cyberspace-Party 
- ycle-Cit ( ) lemma=Cycle-City 
- yclotest- ( ) lemma=Cyclotest-D 
- ynthi ( ) lemma=Synthi- 
- ypria ( ) lemma=Zyprian 
- yrenn ( ) lemma=Cyrenne 
- yria ( ) lemma=Myriam 
- yriakus-Gemeind ( ) lemma=Cyriakus-Gemeinde 
- yriakus-Kirch ( ) lemma=Cyriakus-Kirche 
- yriel-Walthe ( ) lemma=Cyriel-Walther 
- yri ( ) lemma=Pyrit 
- yril ( ) lemma=Cyril 
- yrillo ( ) lemma=Kyrillos 
- yrillu ( ) lemma=Cyrillus 
- yru ( ) lemma=Cyrus 
- ytochrom-P-450-Famili ( ) lemma=Cytochrom-P-450-Familie 
- yad ( ) lemma=Dyade 
- yba-Buc ( ) lemma=Dyba-Buch 
- ybowsky-Hirsch ( ) lemma=Dybowsky-Hirsch 
- yc ( ) lemma=Eyck 
- yck ( ) lemma=Eycke 
- yckerhoff-Akte ( ) lemma=Dyckerhoff-Akte 
- ylan ( ) lemma=Dylan- 
- ylan-Konzer ( ) lemma=Dylan-Konzert 
- ylan-Son ( ) lemma=Dylan-Song 
- ylan-Song ( ) lemma=Dylan-Song 
- ymaschewsk ( ) lemma=Dymaschewski 
- yn ( ) lemma=Lynn 
- ynami ( ) lemma=Dynamit 
- ynamike ( ) lemma=Dynamik 
- ynamiksprünge ( ) lemma=Dynamiksprung 
- ynamisch-Psychiatrische ( ) lemma=Dynamisch-Psychiatrische 
- ynamisch ( ) lemma=dynamisch 
- ynamische ( ) lemma=dynamisch 
- ynamisierun ( ) lemma=Dynamisierung 
- ynamisierungsprozes ( ) lemma=Dynamisierungsprozess 
- ynamisierungsproze� ( ) lemma=Dynamisierungsprozess 
- ynamit-Nobe ( ) lemma=Dynamit-Nobel 
- ynamit-Verstärke ( ) lemma=Dynamit-Verstärker 
- ynamitanschla ( ) lemma=Dynamitanschlag 
- ynamitfische ( ) lemma=Dynamitfischer 
- ynamitladun ( ) lemma=Dynamitladung 
- ynamitladunge ( ) lemma=Dynamitladung 
- ynamitpatrone ( ) lemma=Dynamitpatrone 
- ynamitsprengun ( ) lemma=Dynamitsprengung 
- ynamitstange ( ) lemma=Dynamitstange 
- ynam ( ) lemma=Dynamo 
- ynamo ( ) lemma=Dynamo 
- ynamo-Club ( ) lemma=Dynamo-Club 
- ynamo-Dresden-Fa ( ) lemma=Dynamo-Dresden-Fan 
- ynamo-Einrichtunge ( ) lemma=Dynamo-Einrichtung 
- ynamo-Fan ( ) lemma=Dynamo-Fan 
- ynamo-Keepe ( ) lemma=Dynamo-Keeper 
- ynamo-Kicke ( ) lemma=Dynamo-Kicker 
- ynamo-Klu ( ) lemma=Dynamo-Klub 
- ynamo-Klub ( ) lemma=Dynamo-Klub 
- ynamo-Manage ( ) lemma=Dynamo-Manager 
- ynamo-Mannschaf ( ) lemma=Dynamo-Mannschaft 
- ynamo-Präsiden ( ) lemma=Dynamo-Präsident 
- ynamo-Präsidente ( ) lemma=Dynamo-Präsident 
- ynamo-Präsidiu ( ) lemma=Dynamo-Präsidium 
- ynamo-Spiele ( ) lemma=Dynamo-Spieler 
- ynamo-Sportforu ( ) lemma=Dynamo-Sportforum 
- ynamo-Sportforum ( ) lemma=Dynamo-Sportforum 
- ynamo-Sporthall ( ) lemma=Dynamo-Sporthalle 
- ynamo-Stadio ( ) lemma=Dynamo-Stadion 
- ynamo-Stürme ( ) lemma=Dynamo-Stürmer 
- ynamo-Team ( ) lemma=Dynamo-Team 
- ynamo-Torjäge ( ) lemma=Dynamo-Torjäger 
- ynamo-Torwar ( ) lemma=Dynamo-Torwart 
- ynamo-Traine ( ) lemma=Dynamo-Trainer 
- ynamomaschin ( ) lemma=Dynamomaschine 
- ynamotion-Jüngling ( ) lemma=Dynamotion-Jüngling 
- ynasti ( ) lemma=Dynastie 
- ynastie-Begründer ( ) lemma=Dynastie-Begründer 
- ynastie ( ) lemma=Dynastie 
- yner-Geset ( ) lemma=Dyner-Gesetz 
- yrc ( ) lemma=Dyrck 
- yslexi ( ) lemma=Dyslexia 
- ystoni ( ) lemma=Dystonie 
- ystrophi ( ) lemma=Dystrophie 
- ywidag-Anteil ( ) lemma=Dywidag-Anteil 
- ywidag-Konzer ( ) lemma=Dywidag-Konzern 
- ywidag-Vorstan ( ) lemma=Dywidag-Vorstand 
- ywidag-Vorstande ( ) lemma=Dywidag-Vorstand 
- yadema ( ) lemma=Eyadema- 
- yadema-Diktatu ( ) lemma=Eyadema-Diktatur 
- yadema-treue ( ) lemma=Eyadema-treu 
- yb ( ) lemma=Sybe 
- yewear-Vernissag ( ) lemma=Eyewear-Vernissage 
- yk ( ) lemma=Myke 
- yke-Friedric ( ) lemma=Eyke-Friedrich 
- ynd ( ) lemma=Lynda 
- ysoldt-Rin ( ) lemma=Eysoldt-Ring 
- ytelwei ( ) lemma=Eytelwein 
- ytelwein-Tou ( ) lemma=Eytelwein-Tour 
- ythymio ( ) lemma=Eythymios 
- yu ( ) lemma=Eyup 
- yü ( ) lemma=Eyüp 
- y-Klass ( ) lemma=Gy-Klasse 
- y-Klasse ( ) lemma=Gy-Klasse 
- y-Zwei ( ) lemma=Gy-Zweig 
- yeong-Ra ( ) lemma=Gyeong-Ran 
- yldendal-Verlag ( ) lemma=Gyldendal-Verlag 
- ymnasial ( ) lemma=gymnasial 
- ymnasial-Lehreri ( ) lemma=Gymnasial-Lehrerin 
- ymnasial-Rektore ( ) lemma=Gymnasial-Rektor 
- ymnasial-Schüle ( ) lemma=Gymnasial-Schüler 
- ymnasial-Teeni ( ) lemma=Gymnasial-Teenie 
- ymnasial-Zweig ( ) lemma=Gymnasial-Zweig 
- ymnasialabteilun ( ) lemma=Gymnasialabteilung 
- ymnasialarbei ( ) lemma=Gymnasialarbeit 
- ymnasialausbildun ( ) lemma=Gymnasialausbildung 
- ymnasialbereic ( ) lemma=Gymnasialbereich 
- ymnasialbildun ( ) lemma=Gymnasialbildung 
- ymnasialempfehlun ( ) lemma=Gymnasialempfehlung 
- ymnasiale ( ) lemma=gymnasial 
- ymnasialjahr ( ) lemma=Gymnasialjahr 
- ymnasialklass ( ) lemma=Gymnasialklasse 
- ymnasialklasse ( ) lemma=Gymnasialklasse 
- ymnasiallehre ( ) lemma=Gymnasiallehrer 
- ymnasiallehreri ( ) lemma=Gymnasiallehrerin 
- ymnasiallehrer ( ) lemma=Gymnasiallehrer 
- ymnasialprofesso ( ) lemma=Gymnasialprofessor 
- ymnasialprofessor ( ) lemma=Gymnasialprofessor 
- ymnasialschulleite ( ) lemma=Gymnasialschulleiter 
- ymnasialschüle ( ) lemma=Gymnasialschüler 
- ymnasialstuf ( ) lemma=Gymnasialstufe 
- ymnasialtype ( ) lemma=Gymnasialtyp 
- ymnasialzei ( ) lemma=Gymnasialzeit 
- ymnasialzwei ( ) lemma=Gymnasialzweig 
- ymnasialzweig ( ) lemma=Gymnasialzweig 
- ymnasialzweige ( ) lemma=Gymnasialzweig 
- ymnasialzüg ( ) lemma=Gymnasialzug 
- ymnasialzüge ( ) lemma=Gymnasialzug 
- ymnasias ( ) lemma=Gymnasiast 
- ymnasiaste ( ) lemma=Gymnasiast 
- ymnasiasten ( ) lemma=Gymnasiasten- 
- ymnasiastenalte ( ) lemma=Gymnasiastenalter 
- ymnasiastenzei ( ) lemma=Gymnasiastenzeit 
- ymnasie ( ) lemma=Gymnasium 
- ymnasion-Spielerinne ( ) lemma=Gymnasion-Spielerin 
- ymnasiu ( ) lemma=Gymnasium 
- ymnasium-Parkplat ( ) lemma=Gymnasium-Parkplatz 
- ymnasium-Turnhall ( ) lemma=Gymnasium-Turnhalle 
- ymnasiumabsolvente ( ) lemma=Gymnasiumabsolvent 
- ymnasiumhall ( ) lemma=Gymnasiumhalle 
- ymnasium ( ) lemma=Gymnasium 
- ymnasiums-Aul ( ) lemma=Gymnasiums-Aula 
- ymnasiums-Aussenstell ( ) lemma=Gymnasiums-Außenstelle 
- ymnasiums-Außenstell ( ) lemma=Gymnasiums-Außenstelle 
- ymnasiums-Bürgerinitiativ ( ) lemma=Gymnasiums-Bürgerinitiative 
- ymnasiums-Turnhall ( ) lemma=Gymnasiums-Turnhalle 
- ymnasiums-Übertrit ( ) lemma=Gymnasiums-Übertritt 
- ymnasiumsbegin ( ) lemma=Gymnasiumsbeginn 
- ymnasiumsbetrie ( ) lemma=Gymnasiumsbetrieb 
- ymnasiumshall ( ) lemma=Gymnasiumshalle 
- ymnasiumsneuba ( ) lemma=Gymnasiumsneubau 
- ymnasiumsparkplat ( ) lemma=Gymnasiumsparkplatz 
- ymnasiumsplän ( ) lemma=Gymnasiumsplan 
- ymnasiumstandor ( ) lemma=Gymnasiumstandort 
- ymnasiumstandort ( ) lemma=Gymnasiumstandort 
- ymnasiumstrass ( ) lemma=Gymnasiumstrasse 
- ymnasiumstraß ( ) lemma=Gymnasiumstraße 
- ymnasti ( ) lemma=Gymnastin 
- ymnastik ( ) lemma=Gymnastik- 
- ymnastik-E ( ) lemma=Gymnastik-EM 
- ymnastik-Europameisterschaf ( ) lemma=Gymnastik-Europameisterschaft 
- ymnastik-Europameisterschafte ( ) lemma=Gymnastik-Europameisterschaft 
- ymnastik-Grupp ( ) lemma=Gymnastik-Gruppe 
- ymnastik-Kur ( ) lemma=Gymnastik-Kurs 
- ymnastik-Weltmeisterschafte ( ) lemma=Gymnastik-Weltmeisterschaft 
- ymnastik-Übungsstunde ( ) lemma=Gymnastik-Übungsstunde 
- ymnastikaben ( ) lemma=Gymnastikabend 
- ymnastikabend ( ) lemma=Gymnastikabend 
- ymnastikabteilun ( ) lemma=Gymnastikabteilung 
- ymnastikangebot ( ) lemma=Gymnastikangebot 
- ymnastikanzu ( ) lemma=Gymnastikanzug 
- ymnastikanzüg ( ) lemma=Gymnastikanzug 
- ymnastikdame ( ) lemma=Gymnastikdame 
- ymnastikfraue ( ) lemma=Gymnastikfrau 
- ymnastikgrupp ( ) lemma=Gymnastikgruppe 
- ymnastikgruppe ( ) lemma=Gymnastikgruppe 
- ymnastikhall ( ) lemma=Gymnastikhalle 
- ymnastikhos ( ) lemma=Gymnastikhose 
- ymnastikhose ( ) lemma=Gymnastikhose 
- ymnastikkur ( ) lemma=Gymnastikkurs 
- ymnastikkurs ( ) lemma=Gymnastikkurs 
- ymnastikkurse ( ) lemma=Gymnastikkurs 
- ymnastikkursu ( ) lemma=Gymnastikkursus 
- ymnastiklehreri ( ) lemma=Gymnastiklehrerin 
- ymnastikprogram ( ) lemma=Gymnastikprogramm 
- ymnastikrase ( ) lemma=Gymnastikrasen 
- ymnastikrau ( ) lemma=Gymnastikraum 
- ymnastikraume ( ) lemma=Gymnastikraum 
- ymnastikräum ( ) lemma=Gymnastikraum 
- ymnastiksaa ( ) lemma=Gymnastiksaal 
- ymnastikscha ( ) lemma=Gymnastikschau 
- ymnastikschul ( ) lemma=Gymnastikschule 
- ymnastikstund ( ) lemma=Gymnastikstunde 
- ymnastikstunde ( ) lemma=Gymnastikstunde 
- ymnastiktermin ( ) lemma=Gymnastiktermin 
- ymnastiktrainin ( ) lemma=Gymnastiktraining 
- ymnastiktref ( ) lemma=Gymnastiktreff 
- ymnastikunterrich ( ) lemma=Gymnastikunterricht 
- ymnastikverei ( ) lemma=Gymnastikverein 
- ymnastikwies ( ) lemma=Gymnastikwiese 
- ymnastikübunge ( ) lemma=Gymnastikübung 
- ymnastinne ( ) lemma=Gymnastin 
- ymnastisch ( ) lemma=gymnastisch 
- ynte ( ) lemma=Gynter 
- ynäkolog ( ) lemma=Gynäkologe 
- ynäkologe ( ) lemma=Gynäkologe 
- ynäkologen ( ) lemma=Gynäkologen- 
- ynäkologen-Kongres ( ) lemma=Gynäkologen-Kongress 
- ynäkologen-Kongre� ( ) lemma=Gynäkologen-Kongress 
- ynäkologen-Prozes ( ) lemma=Gynäkologen-Prozess 
- ynäkologen-Proze� ( ) lemma=Gynäkologen-Prozess 
- ynäkologi ( ) lemma=Gynäkologin 
- ynäkologie-Professo ( ) lemma=Gynäkologie-Professor 
- ynäkologisch ( ) lemma=gynäkologisch 
- yoerg ( ) lemma=Gyoergy 
- ypsy-Sho ( ) lemma=Gypsy-Show 
- yros ( ) lemma=Gyros- 
- yros-Stan ( ) lemma=Gyros-Stand 
- yroskope ( ) lemma=Gyroskop 
- ysber ( ) lemma=Gysbert 
- ysbert ( ) lemma=Gysberta 
- ysberth ( ) lemma=Gysbertha 
- ysell ( ) lemma=Gyselle 
- ysi-Berate ( ) lemma=Gysi-Berater 
- ysi-Parte ( ) lemma=Gysi-Partei 
- ysi-Trupp ( ) lemma=Gysi-Truppe 
- ysin-Morgenster ( ) lemma=Gysin-Morgenstern 
- ystel-Komite ( ) lemma=Gystel-Komitee 
- ystel-Projek ( ) lemma=Gystel-Projekt 
- ystel-Sammelbewegun ( ) lemma=Gystel-Sammelbewegung 
- yti ( ) lemma=Gytis 
- ytt ( ) lemma=Jytte 
- yul ( ) lemma=Gyula 
- yöngy ( ) lemma=Gyöngyi 
- yörd ( ) lemma=Györdy 
- yörg ( ) lemma=György 
- YWEM ( ) lemma=HYWEMA 
- y-Lan ( ) lemma=Hy-Land 
- yacint ( ) lemma=Hyacinth 
- yaciuth ( ) lemma=Hyaciuthe 
- yade ( ) lemma=Hyade 
- yatt-Hotel ( ) lemma=Hyatt-Hotel 
- yazint ( ) lemma=Hyazinth 
- yazinth-Ara ( ) lemma=Hyazinth-Ara 
- yazinthar ( ) lemma=Hyazinthara 
- yazinth ( ) lemma=Hyazinthe 
- yazinthe ( ) lemma=Hyazinthe 
- ybrid-Antrie ( ) lemma=Hybrid-Antrieb 
- ybrid-Aut ( ) lemma=Hybrid-Auto 
- ybrid-Kraftwer ( ) lemma=Hybrid-Kraftwerk 
- ybrid-Kühltur ( ) lemma=Hybrid-Kühlturm 
- ybrid-Pappel ( ) lemma=Hybrid-Pappel 
- ybrid-Saa ( ) lemma=Hybrid-Saat 
- ybridantrie ( ) lemma=Hybridantrieb 
- ybrid ( ) lemma=hybrid 
- ybride ( ) lemma=hybrid 
- ybridkühltur ( ) lemma=Hybridkühlturm 
- ybridmateria ( ) lemma=hybridmaterial 
- ybridpappel ( ) lemma=Hybridpappel 
- ybridsorte ( ) lemma=Hybridsorte 
- ybri ( ) lemma=hybrid 
- yde-Par ( ) lemma=Hyde-Park 
- ydra-Fraue ( ) lemma=Hydra-Frau 
- ydra-Mitarbeiteri ( ) lemma=Hydra-Mitarbeiterin 
- ydra-Mitarbeiterinne ( ) lemma=Hydra-Mitarbeiterin 
- ydran ( ) lemma=Hydrant 
- ydrante ( ) lemma=Hydrant 
- ydranten-Hinweisschilde ( ) lemma=Hydranten-Hinweisschild 
- ydrantenaufsat ( ) lemma=Hydrantenaufsatz 
- ydrauli ( ) lemma=Hydraulik 
- ydraulik ( ) lemma=Hydraulik- 
- ydraulik-Arbeitsbühne ( ) lemma=Hydraulik-Arbeitsbühne 
- ydraulik-Flüssigkei ( ) lemma=Hydraulik-Flüssigkeit 
- ydraulik-Schläuch ( ) lemma=Hydraulik-Schlauch 
- ydraulik-Ö ( ) lemma=Hydraulik-Öl 
- ydraulikar ( ) lemma=Hydraulikarm 
- ydraulikbagge ( ) lemma=Hydraulikbagger 
- ydraulikbremse ( ) lemma=Hydraulikbremse 
- ydraulikflüssigkei ( ) lemma=Hydraulikflüssigkeit 
- ydraulikhebe ( ) lemma=Hydraulikhebel 
- ydraulikpump ( ) lemma=Hydraulikpumpe 
- ydraulikpumpe ( ) lemma=Hydraulikpumpe 
- ydraulikscher ( ) lemma=Hydraulikschere 
- ydraulikschlauc ( ) lemma=Hydraulikschlauch 
- ydraulikzylinder ( ) lemma=Hydraulikzylinder 
- ydraulikö ( ) lemma=Hydrauliköl 
- ydrauliköl ( ) lemma=Hydrauliköl 
- ydraulische ( ) lemma=hydraulisch 
- ydrazin(N2H4) ( ) lemma=Hydrazin(N2H4)- 
- ydride-Senso ( ) lemma=Hydride-Sensor 
- ydrierun ( ) lemma=Hydrierung 
- ydro ( ) lemma=Hydro- 
- ydro-Schmit ( ) lemma=Hydro-Schmitt 
- ydrobiologi ( ) lemma=Hydrobiologie 
- ydrodynami ( ) lemma=Hydrodynamik 
- ydroge ( ) lemma=Hydrogen 
- ydrogenas ( ) lemma=Hydrogenase 
- ydrographe ( ) lemma=Hydrograph 
- ydrokultur-Anlage ( ) lemma=Hydrokultur-Anlage 
- ydrologi ( ) lemma=Hydrologie 
- ydrolys ( ) lemma=Hydrolyse 
- ydrolyseempfindlichkei ( ) lemma=Hydrolyseempfindlichkeit 
- ydrolyseproduk ( ) lemma=Hydrolyseprodukt 
- ydrostatische ( ) lemma=hydrostatisch 
- ydroxymethylfurfurol-Gehal ( ) lemma=Hydroxymethylfurfurol-Gehalt 
- yesoo ( ) lemma=Hyesook 
- ygen ( ) lemma=Hygens 
- ygien ( ) lemma=Hygiene 
- ygiene ( ) lemma=Hygiene- 
- ygiene-Bedenke ( ) lemma=Hygiene-Bedenken 
- ygiene-Inspektio ( ) lemma=Hygiene-Inspektion 
- ygiene-Institu ( ) lemma=Hygiene-Institut 
- ygiene-Institut ( ) lemma=Hygiene-Institut 
- ygiene-Kommissio ( ) lemma=Hygiene-Kommission 
- ygiene-Konzep ( ) lemma=Hygiene-Konzept 
- ygiene-Museu ( ) lemma=Hygiene-Museum 
- ygiene-Museum ( ) lemma=Hygiene-Museum 
- ygiene-Proble ( ) lemma=Hygiene-Problem 
- ygiene-Standard ( ) lemma=Hygiene-Standard 
- ygieneaktio ( ) lemma=Hygieneaktion 
- ygieneam ( ) lemma=Hygieneamt 
- ygieneamt ( ) lemma=Hygieneamt 
- ygieneanforderunge ( ) lemma=Hygieneanforderung 
- ygieneartike ( ) lemma=Hygieneartikel 
- ygieneartikel ( ) lemma=Hygieneartikel 
- ygienearz ( ) lemma=Hygienearzt 
- ygienebedingunge ( ) lemma=Hygienebedingung 
- ygienebereic ( ) lemma=Hygienebereich 
- ygienebestimmunge ( ) lemma=Hygienebestimmung 
- ygienebewusstsei ( ) lemma=Hygienebewusstsein 
- ygienebewußtsei ( ) lemma=Hygienebewusstsein 
- ygienediens ( ) lemma=Hygienedienst 
- ygieneerziehun ( ) lemma=Hygieneerziehung 
- ygieneexperte ( ) lemma=Hygieneexperte 
- ygienefachkraf ( ) lemma=Hygienefachkraft 
- ygienefachkräft ( ) lemma=Hygienefachkraft 
- ygienefanatike ( ) lemma=Hygienefanatiker 
- ygienefrage ( ) lemma=Hygienefrage 
- ygienegründe ( ) lemma=Hygienegrund 
- ygienegutachte ( ) lemma=Hygienegutachten 
- ygienegutachten ( ) lemma=Hygienegutachten 
- ygieneinspektio ( ) lemma=Hygieneinspektion 
- ygieneinstitu ( ) lemma=Hygieneinstitut 
- ygieneinstitute ( ) lemma=Hygieneinstitut 
- ygieneinstitut ( ) lemma=Hygieneinstitut 
- ygienekampagne ( ) lemma=Hygienekampagne 
- ygienekontrolleur ( ) lemma=Hygienekontrolleur 
- ygienemassnahm ( ) lemma=Hygienemaßnahme 
- ygienemassnahme ( ) lemma=Hygienemaßnahme 
- ygienemaßnahm ( ) lemma=Hygienemaßnahme 
- ygienemaßnahme ( ) lemma=Hygienemaßnahme 
- ygienemuseu ( ) lemma=Hygienemuseum 
- ygienemuseum ( ) lemma=Hygienemuseum 
- ygienemänge ( ) lemma=Hygienemangel 
- ygienemängel ( ) lemma=Hygienemangel 
- ygienemöglichkeite ( ) lemma=Hygienemöglichkeit 
- ygienepapier ( ) lemma=Hygienepapier 
- ygieneproble ( ) lemma=Hygieneproblem 
- ygieneproblem ( ) lemma=Hygieneproblem 
- ygieneprobleme ( ) lemma=Hygieneproblem 
- ygieneprodukt ( ) lemma=Hygieneprodukt 
- ygieneprodukte ( ) lemma=Hygieneprodukt 
- ygieneprogram ( ) lemma=Hygieneprogramm 
- ygieneregel ( ) lemma=Hygieneregel 
- ygieneräum ( ) lemma=Hygieneraum 
- ygieneräume ( ) lemma=Hygieneraum 
- ygienesin ( ) lemma=Hygienesinn 
- ygienestandar ( ) lemma=Hygienestandard 
- ygienestandard ( ) lemma=Hygienestandard 
- ygienetea ( ) lemma=Hygieneteam 
- ygieneverarbeitungs-Standor ( ) lemma=Hygieneverarbeitungs-Standort 
- ygieneverhältniss ( ) lemma=Hygieneverhältnis 
- ygieneverordnun ( ) lemma=Hygieneverordnung 
- ygienevorschrifte ( ) lemma=Hygienevorschrift 
- ygienevorstellunge ( ) lemma=Hygienevorstellung 
- ygienewah ( ) lemma=Hygienewahn 
- ygienewärte ( ) lemma=Hygienewärter 
- ygieneüberwachun ( ) lemma=Hygieneüberwachung 
- ygienisc ( ) lemma=hygienisch 
- ygienisch ( ) lemma=hygienisch 
- ygienische ( ) lemma=hygienisch 
- ygienisierun ( ) lemma=Hygienisierung 
- ygi ( ) lemma=Hygin 
- ygromete ( ) lemma=Hygrometer 
- ying-Kälbe ( ) lemma=Hying-Kalb 
- yme ( ) lemma=Lyme- 
- ymen ( ) lemma=Hymen 
- ymer-Che ( ) lemma=Hymer-Chef 
- ymer-Leichtmetallba ( ) lemma=Hymer-Leichtmetallbau 
- ymn ( ) lemma=Hymne 
- ymne ( ) lemma=Hymne 
- ymnensinge ( ) lemma=Hymnensingen 
- ymnensänge ( ) lemma=Hymnensänger 
- ymnentex ( ) lemma=Hymnentext 
- ymnus-Cho ( ) lemma=Hymnus-Chor 
- ymnus-Chore ( ) lemma=Hymnus-Chor 
- ymnus-Chorknabe ( ) lemma=Hymnus-Chorknabe 
- ymnus-Chorleite ( ) lemma=Hymnus-Chorleiter 
- ymnus-Chor ( ) lemma=Hymnus-Chor 
- ymnus-Elter ( ) lemma=Hymnus-Eltern 
- ymnus-Sekretäri ( ) lemma=Hymnus-Sekretärin 
- ymnus-Sänge ( ) lemma=Hymnus-Sänger 
- yo-Soo ( ) lemma=Hyo-Sook 
- yon-S ( ) lemma=Hyon-Su 
- yon ( ) lemma=Lyon 
- yp ( ) lemma=Typ 
- yper ( ) lemma=hyper- 
- yper-Inflatio ( ) lemma=Hyper-Inflation 
- yper-Modernitä ( ) lemma=Hyper-Modernität 
- yperakkumulatore ( ) lemma=Hyperakkumulator 
- yperaktivitä ( ) lemma=Hyperaktivität 
- yperbandbereic ( ) lemma=Hyperbandbereich 
- yperboree ( ) lemma=Hyperboreer 
- ypercolor-Klamotte ( ) lemma=Hypercolor-Klamotte 
- yperdefizi ( ) lemma=Hyperdefizit 
- yperengagemen ( ) lemma=Hyperengagement 
- yperimmunglobuli ( ) lemma=Hyperimmunglobulin 
- yperinflatio ( ) lemma=Hyperinflation 
- yperkinetisch ( ) lemma=hyperkinetisch 
- yperkommunikatio ( ) lemma=Hyperkommunikation 
- yperkomplexitä ( ) lemma=Hyperkomplexität 
- ypermark ( ) lemma=Hypermarkt 
- ypermarkte ( ) lemma=Hypermarkt 
- yperperipheri ( ) lemma=Hyperperipherie 
- yperpoliti ( ) lemma=Hyperpolitik 
- yperrau ( ) lemma=Hyperraum 
- yperrealismu ( ) lemma=Hyperrealismen 
- yperrealiste ( ) lemma=Hyperrealist 
- yperrealitä ( ) lemma=Hyperrealität 
- yperrezessio ( ) lemma=Hyperrezession 
- yperschallflugzeu ( ) lemma=Hyperschallflugzeug 
- yperschallflugzeug ( ) lemma=Hyperschallflugzeug 
- yperschalltransporte ( ) lemma=Hyperschalltransporter 
- ypersensitive ( ) lemma=Hypersensitive 
- ypersta ( ) lemma=Hyperstar 
- yperstimulatio ( ) lemma=Hyperstimulation 
- ypertensio ( ) lemma=Hypertension 
- ypertex ( ) lemma=Hypertext 
- ypertexte ( ) lemma=Hypertext 
- yperthermi ( ) lemma=Hyperthermie 
- ypertoniker ( ) lemma=Hypertonikern 
- ypertrichos ( ) lemma=Hypertrichose 
- ypertrophi ( ) lemma=Hypertrophie 
- yperventilatio ( ) lemma=Hyperventilation 
- yperventilierend ( ) lemma=hyperventilierend 
- yperwirtschaftsrau ( ) lemma=Hyperwirtschaftsraum 
- yperästheti ( ) lemma=Hyperästhetik 
- ypnos ( ) lemma=Hypnose 
- ypnoseexpert ( ) lemma=Hypnoseexperte 
- ypnosesho ( ) lemma=Hypnoseshow 
- ypnosespezialiste ( ) lemma=Hypnosespezialist 
- ypnotisch ( ) lemma=hypnotisch 
- ypnotische ( ) lemma=hypnotisch 
- ypnotiseu ( ) lemma=Hypnotiseur 
- ypo ( ) lemma=Typo- 
- ypo-Ban ( ) lemma=Hypo-Bank 
- ypo-Bank-Che ( ) lemma=Hypo-Bank-Chef 
- ypo-Banke ( ) lemma=Hypo-Bank 
- ypo-Bankie ( ) lemma=Hypo-Bankier 
- ypo-Che ( ) lemma=Hypo-Chef 
- ypo-Finan ( ) lemma=Hypo-Finanz 
- ypo-Geldtasch ( ) lemma=Hypo-Geldtasche 
- ypo-Konzer ( ) lemma=Hypo-Konzern 
- ypo-Kredit ( ) lemma=Hypo-Kredit 
- ypo-Kulturstiftun ( ) lemma=Hypo-Kulturstiftung 
- ypo-Kunsthall ( ) lemma=Hypo-Kunsthalle 
- ypo-Mitarbeite ( ) lemma=Hypo-Mitarbeiter 
- ypo-Neugeschäf ( ) lemma=Hypo-Neugeschäft 
- ypo-Service-Ban ( ) lemma=Hypo-Service-Bank 
- ypo-Sondervorstellun ( ) lemma=Hypo-Sondervorstellung 
- ypo-Tochte ( ) lemma=Hypo-Tochter 
- ypo-Wettbewer ( ) lemma=Hypo-Wettbewerb 
- ypo-Zinse ( ) lemma=Hypo-Zins 
- ypoban ( ) lemma=Hypobank 
- ypobank-Filial ( ) lemma=Hypobank-Filiale 
- ypokrisi ( ) lemma=Hypokrisie 
- ypophys ( ) lemma=Hypophyse 
- ypophyse ( ) lemma=Hypophyse 
- ypothe ( ) lemma=Hypothek 
- ypothekarkredi ( ) lemma=Hypothekarkredit 
- ypothekarzin ( ) lemma=Hypothekarzins 
- ypothekarzinse ( ) lemma=Hypothekarzins 
- ypotheke ( ) lemma=Hypothek 
- ypotheken ( ) lemma=Hypotheken- 
- ypotheken-Neugeschäf ( ) lemma=Hypotheken-Neugeschäft 
- ypotheken-Poke ( ) lemma=Hypotheken-Poker 
- ypothekenban ( ) lemma=Hypothekenbank 
- ypothekenbanke ( ) lemma=Hypothekenbank 
- ypothekenbankgeschäf ( ) lemma=Hypothekenbankgeschäft 
- ypothekenbelastunge ( ) lemma=Hypothekenbelastung 
- ypothekendarlehe ( ) lemma=Hypothekendarlehen 
- ypothekendarlehen ( ) lemma=Hypothekendarlehen 
- ypothekengeschäf ( ) lemma=Hypothekengeschäft 
- ypothekengeschäft ( ) lemma=Hypothekengeschäft 
- ypothekenkonditione ( ) lemma=Hypothekenkondition 
- ypothekenkredi ( ) lemma=Hypothekenkredit 
- ypothekenkredit ( ) lemma=Hypothekenkredit 
- ypothekenkredite ( ) lemma=Hypothekenkredit 
- ypothekenlas ( ) lemma=Hypothekenlast 
- ypothekenmark ( ) lemma=Hypothekenmarkt 
- ypothekennachfrag ( ) lemma=Hypothekennachfrage 
- ypothekenneugeschäf ( ) lemma=Hypothekenneugeschäft 
- ypothekenneugeschäft ( ) lemma=Hypothekenneugeschäft 
- ypothekenschulde ( ) lemma=Hypothekenschuld 
- ypothekensumm ( ) lemma=Hypothekensumme 
- ypothekensätz ( ) lemma=Hypothekensatz 
- ypothekenwesen ( ) lemma=Hypothekenwesen 
- ypothekenzin ( ) lemma=Hypothekenzins 
- ypothekenzinse ( ) lemma=Hypothekenzins 
- ypothekenzusage ( ) lemma=Hypothekenzusage 
- ypothermi ( ) lemma=Hypothermie 
- ypothes ( ) lemma=Hypothese 
- ypothese ( ) lemma=Hypothese 
- ypothetisch ( ) lemma=hypothetisch 
- ypothetische ( ) lemma=hypothetisch 
- ypotoni ( ) lemma=Hypotonie 
- ypoventilatio ( ) lemma=Hypoventilation 
- yppolite-Mark ( ) lemma=Hyppolite-Markt 
- yseyi ( ) lemma=Hyseyin 
- ysolar-Institu ( ) lemma=Hysolar-Institut 
- ysteresi ( ) lemma=Hysteresis 
- ysteri ( ) lemma=Hysterie 
- ysterie ( ) lemma=Mysterium 
- ysterikeri ( ) lemma=Hysterikerin 
- ysterisch ( ) lemma=hysterisch 
- ysterische ( ) lemma=hysterisch 
- yun-Bo ( ) lemma=Hyun-Bok 
- yun-S ( ) lemma=Hyun-Su 
- yundai ( ) lemma=Hyundai- 
- yundai-Automobil ( ) lemma=Hyundai-Automobil 
- yundai-Che ( ) lemma=Hyundai-Chef 
- yundai-Grupp ( ) lemma=Hyundai-Gruppe 
- yundai-Konzer ( ) lemma=Hyundai-Konzern 
- yundai-Konzern ( ) lemma=Hyundai-Konzern 
- yundai-Schiffswerf ( ) lemma=Hyundai-Schiffswerft 
- yundai-Werf ( ) lemma=Hyundai-Werft 
- yän ( ) lemma=Hyäne 
- yäne ( ) lemma=Hyäne 
- yänengesellschaf ( ) lemma=Hyänengesellschaft 
- yotsn ( ) lemma=Jyotsna 
- ya-Chu ( ) lemma=Kya-Chul 
- yberneti ( ) lemma=Kybernetik 
- ybernetike ( ) lemma=Kybernetiker 
- ybernetisch ( ) lemma=kybernetisch 
- yell-Eve ( ) lemma=Kyell-Even 
- yetosla ( ) lemma=Kyetoslav 
- ykladen-Inse ( ) lemma=Kykladen-Insel 
- yklo ( ) lemma=Zyklop 
- yklope ( ) lemma=Zyklop 
- ylie-Minogue ( ) lemma=Kylie-Minogue- 
- yllikk ( ) lemma=Kyllikki 
- yoich ( ) lemma=Kyoichi 
- yok ( ) lemma=Kyoko 
- yondo-Kamba-Körb ( ) lemma=Kyondo-Kamba-Korb 
- yondo-Mamba-Körb ( ) lemma=Kyondo-Mamba-Korb 
- ypriano ( ) lemma=Kyprianou 
- yreinstraß ( ) lemma=Kyreinstraße 
- yriak ( ) lemma=Kyriaki 
- yriako ( ) lemma=Kyriakos 
- yriano ( ) lemma=Kyrianos 
- yrios-Zentru ( ) lemma=Kyrios-Zentrum 
- yu-Einzelmeisterschafte ( ) lemma=Kyu-Einzelmeisterschaft 
- yu-Su ( ) lemma=Kyu-Suk 
- yung ( ) lemma=Kyung- 
- YDI ( ) lemma=LYDIA 
- yan ( ) lemma=Lyane 
- yann ( ) lemma=Lyanne 
- ychakovsk-Friedho ( ) lemma=Lychakovsk-Friedhof 
- ychener ( ) lemma=Lychener- 
- ydia ( ) lemma=Lydia 
- yding ( ) lemma=Lyding- 
- ykk ( ) lemma=Lykke 
- ylia ( ) lemma=Lylian 
- yme-Krankhei ( ) lemma=Lyme-Krankheit 
- ymperi ( ) lemma=Lymperis 
- ymphbahne ( ) lemma=Lymphbahn 
- ymphdrainag ( ) lemma=Lymphdrainage 
- ymphdrüse ( ) lemma=Lymphdrüse 
- ymphdrüsen-Kreb ( ) lemma=Lymphdrüsen-Krebs 
- ymphdrüsenkreb ( ) lemma=Lymphdrüsenkrebs 
- ymph ( ) lemma=Nymphe 
- ymphgeweb ( ) lemma=Lymphgewebe 
- ymphknote ( ) lemma=Lymphknoten 
- ymphknotenkreb ( ) lemma=Lymphknotenkrebs 
- ymphome ( ) lemma=Lymphomen 
- ymphozyte ( ) lemma=Lymphozyt 
- ymphsyste ( ) lemma=Lymphsystem 
- ymphsystem ( ) lemma=Lymphsystem 
- ynar ( ) lemma=Lynar- 
- ync ( ) lemma=Lynch 
- ynch ( ) lemma=lynchen 
- ynch-Atmosphär ( ) lemma=Lynch-Atmosphäre 
- ynch-Film ( ) lemma=Lynch-Film 
- ynch-Justi ( ) lemma=Lynch-Justiz 
- ynche ( ) lemma=lynchen 
- ynchjusti ( ) lemma=Lynchjustiz 
- ynchmor ( ) lemma=Lynchmord 
- ynchmord ( ) lemma=Lynchmord 
- ynchmorde ( ) lemma=Lynchmord 
- ynett ( ) lemma=Lynette 
- ynn ( ) lemma=Lynne 
- yob ( ) lemma=Lyoba 
- yo ( ) lemma=Lyon 
- yon-Sussmann-Strass ( ) lemma=Lyon-Sussmann-Straße 
- yon-Sussmann-Straß ( ) lemma=Lyon-Sussmann-Straße 
- yone ( ) lemma=Lyoner 
- yonnai ( ) lemma=Lyonnais 
- yre ( ) lemma=Syrer 
- yrett ( ) lemma=Lyrette 
- yrik ( ) lemma=Lyrik- 
- yrik-Aben ( ) lemma=Lyrik-Abend 
- yrik-Kabinet ( ) lemma=Lyrik-Kabinett 
- yrik-Lesun ( ) lemma=Lyrik-Lesung 
- yrik-Prei ( ) lemma=Lyrik-Preis 
- yrik-Seit ( ) lemma=Lyrik-Seite 
- yrik-Szen ( ) lemma=Lyrik-Szene 
- yrik-Werkstat ( ) lemma=Lyrik-Werkstatt 
- yrik-Wettbewer ( ) lemma=Lyrik-Wettbewerb 
- yrik-Wettbewerb ( ) lemma=Lyrik-Wettbewerb 
- yrikaben ( ) lemma=Lyrikabend 
- yrikanthologi ( ) lemma=Lyrikanthologie 
- yrikanthologie ( ) lemma=Lyrikanthologie 
- yrikauto ( ) lemma=Lyrikautor 
- yrikban ( ) lemma=Lyrikband 
- yrikbuc ( ) lemma=Lyrikbuch 
- yrikbändche ( ) lemma=Lyrikbändchen 
- yrikbänd ( ) lemma=Lyrikband 
- yrikbände ( ) lemma=Lyrikband 
- yrike ( ) lemma=Lyriker 
- yrikeri ( ) lemma=Lyrikerin 
- yrikerinne ( ) lemma=Lyrikerin 
- yriker ( ) lemma=Lyriker 
- yrikerprei ( ) lemma=Lyrikerpreis 
- yrikerschule ( ) lemma=Lyrikerschule 
- yrikertreffe ( ) lemma=Lyrikertreffen 
- yrikgeschicht ( ) lemma=Lyrikgeschichte 
- yrikkabinet ( ) lemma=Lyrikkabinett 
- yriklesun ( ) lemma=Lyriklesung 
- yriklesunge ( ) lemma=Lyriklesung 
- yrikprei ( ) lemma=Lyrikpreis 
- yrikproduktio ( ) lemma=Lyrikproduktion 
- yriksammlun ( ) lemma=Lyriksammlung 
- yrikseit ( ) lemma=Lyrikseite 
- yriksemina ( ) lemma=Lyrikseminar 
- yriktag ( ) lemma=Lyriktag 
- yriktage ( ) lemma=Lyriktag 
- yriktheme ( ) lemma=Lyrikthema 
- yrikwerkstat ( ) lemma=Lyrikwerkstatt 
- yrikwettbewer ( ) lemma=Lyrikwettbewerb 
- yrisch ( ) lemma=syrisch 
- yrische ( ) lemma=syrisch 
- ysamm ( ) lemma=Lysamma 
- ysande ( ) lemma=Lysander 
- yse-Therapi ( ) lemma=Lyse-Therapie 
- ysett ( ) lemma=Lysette 
- yubomi ( ) lemma=Lyubomir 
- y-Lai-Massake ( ) lemma=My-Lai-Massaker 
- yhun ( ) lemma=Myhung 
- yin ( ) lemma=Myint 
- ykerinos-Pyramid ( ) lemma=Mykerinos-Pyramide 
- ykol ( ) lemma=Mykola 
- ykolog ( ) lemma=Mykologe 
- ykologe ( ) lemma=Mykologe 
- ykologi ( ) lemma=Mykologie 
- ykonos ( ) lemma=Mykonos- 
- ykonos-Affär ( ) lemma=Mykonos-Affäre 
- ykonos-Attenta ( ) lemma=Mykonos-Attentat 
- ykonos-Attentate ( ) lemma=Mykonos-Attentat 
- ykonos-Attentat ( ) lemma=Mykonos-Attentat 
- ykonos-Attentäte ( ) lemma=Mykonos-Attentäter 
- ykonos-Ausschus ( ) lemma=Mykonos-Ausschuss 
- ykonos-Ausschu� ( ) lemma=Mykonos-Ausschuss 
- ykonos-Mord ( ) lemma=Mykonos-Mord 
- ykonos-Prozes ( ) lemma=Mykonos-Prozess 
- ykonos-Prozesse ( ) lemma=Mykonos-Prozess 
- ykonos-Proze� ( ) lemma=Mykonos-Prozess 
- ykonos-Untersuchungsausschus ( ) lemma=Mykonos-Untersuchungsausschuss 
- ykonos-Untersuchungsausschusse ( ) lemma=Mykonos-Untersuchungsausschuss 
- ykonos-Untersuchungsausschu� ( ) lemma=Mykonos-Untersuchungsausschuss 
- ylee ( ) lemma=Myleen 
- ylen ( ) lemma=Mylene 
- yle ( ) lemma=Myles 
- yliu ( ) lemma=Mylius 
- ylius ( ) lemma=Mylius- 
- ym ( ) lemma=Sym- 
- yong-He ( ) lemma=Myong-Hee 
- young-Soo ( ) lemma=Myoung-Soon 
- yrell ( ) lemma=Myrella 
- yren ( ) lemma=Syrena 
- yriade ( ) lemma=Myriade 
- yrn ( ) lemma=Myrna 
- yrrh ( ) lemma=Myrrhe 
- yrrhenstrass ( ) lemma=Myrrhenstraße 
- yrrhenstraß ( ) lemma=Myrrhenstraße 
- yrth ( ) lemma=Myrtha 
- yrtl ( ) lemma=Myrtle 
- yslewicki-Palas ( ) lemma=Myslewicki-Palast 
- ysterienreligione ( ) lemma=Mysterienreligion 
- ysterienschule ( ) lemma=Mysterienschule 
- ysterienspie ( ) lemma=Mysterienspiel 
- ysterienspiel ( ) lemma=Mysterienspiel 
- ysterienspiele ( ) lemma=Mysterienspiel 
- ysteriu ( ) lemma=Mysterium 
- ysterium ( ) lemma=Mysterium 
- ysteriös ( ) lemma=mysteriös 
- ysteriöse ( ) lemma=mysteriös 
- ystifikatio ( ) lemma=Mystifikation 
- ystifikatione ( ) lemma=Mystifikation 
- ysti ( ) lemma=Mystik 
- ystike ( ) lemma=Mystiker 
- ystikeri ( ) lemma=Mystikerin 
- ystiker ( ) lemma=Mystiker 
- ystisch ( ) lemma=zystisch 
- ystische ( ) lemma=mystisch 
- ystizisme ( ) lemma=Mystizismus 
- ystizismu ( ) lemma=Mystizismus 
- yth ( ) lemma=Mythe 
- ythe ( ) lemma=Mythos 
- ythen ( ) lemma=Mythen- 
- ythen-Kreatio ( ) lemma=Mythen-Kreation 
- ythenberg ( ) lemma=Mythenberg 
- ythenbildun ( ) lemma=Mythenbildung 
- ythenfabri ( ) lemma=Mythenfabrik 
- ythenforsche ( ) lemma=Mythenforscher 
- ythenforschun ( ) lemma=Mythenforschung 
- ythenjäge ( ) lemma=Mythenjäger 
- ythenkist ( ) lemma=Mythenkiste 
- ythenlan ( ) lemma=Mythenland 
- ythenmalere ( ) lemma=Mythenmalerei 
- ythenmateria ( ) lemma=Mythenmaterial 
- ythenrecyclin ( ) lemma=Mythenrecycling 
- ythenreige ( ) lemma=Mythenreigen 
- ythensammle ( ) lemma=Mythensammler 
- ythenschat ( ) lemma=Mythenschatz 
- ythenschöpfunge ( ) lemma=Mythenschöpfung 
- ythenstof ( ) lemma=Mythenstoff 
- ythenwel ( ) lemma=Mythenwelt 
- ythisch ( ) lemma=mythisch 
- ythische ( ) lemma=mythisch 
- ythologi ( ) lemma=Mythologie 
- ythologie ( ) lemma=Mythologie 
- ythologisch ( ) lemma=mythologisch 
- ythologische ( ) lemma=mythologisch 
- ytho ( ) lemma=Mythos 
- ythos-Berli ( ) lemma=Mythos-Berlin 
- ythos-Masch ( ) lemma=Mythos-Masche 
- ythosbildun ( ) lemma=Mythosbildung 
- ythosbogen ( ) lemma=Mythosbogen 
- ytr ( ) lemma=Mytra 
- yxomatose-Viru ( ) lemma=Myxomatose-Virus 
- YS ( ) lemma=NYSE 
- ygaar ( ) lemma=Nygaard 
- ylo ( ) lemma=Syloy 
- ylon ( ) lemma=Nylon 
- ylonbeute ( ) lemma=Nylonbeutel 
- ylonfade ( ) lemma=Nylonfaden 
- ylonfasermark ( ) lemma=Nylonfasermarkt 
- ylonfilte ( ) lemma=Nylonfilter 
- ylonfäde ( ) lemma=Nylonfäden 
- ylongeweb ( ) lemma=Nylongewebe 
- ylonjack ( ) lemma=Nylonjacke 
- ylonnet ( ) lemma=Nylonnetz 
- ylonnetz ( ) lemma=Nylonnetz 
- ylonrucksac ( ) lemma=Nylonrucksack 
- ylonschnu ( ) lemma=Nylonschnur 
- ylonschnüre ( ) lemma=Nylonschnur 
- ylonschürz ( ) lemma=Nylonschürze 
- ylonsei ( ) lemma=Nylonseil 
- ylonstrump ( ) lemma=Nylonstrumpf 
- ylonstrumpfhose ( ) lemma=Nylonstrumpfhose 
- ylonstrümpf ( ) lemma=Nylonstrumpf 
- ylonstrümpfe ( ) lemma=Nylonstrumpf 
- ylontasch ( ) lemma=Nylontasche 
- yltest-Hemde ( ) lemma=Nyltest-Hemd 
- ymphe ( ) lemma=Nymphe 
- ymphenbrunne ( ) lemma=Nymphenbrunnen 
- ymphenbur ( ) lemma=Nymphenburg 
- ymphenburg-Woch ( ) lemma=Nymphenburg-Woche 
- ymphenburge ( ) lemma=Nymphenburger 
- ymphenburgerstrass ( ) lemma=Nymphenburgerstrasse 
- ymphenburgerstraß ( ) lemma=Nymphenburgerstraße 
- ymphengrupp ( ) lemma=Nymphengruppe 
- ymphensittic ( ) lemma=Nymphensittich 
- ymphensittich ( ) lemma=Nymphensittich 
- ymphomani ( ) lemma=Nymphomanie 
- yse-Inde ( ) lemma=Nyse-Index 
- y-Mittelber ( ) lemma=Oy-Mittelberg 
- yapok-Flus ( ) lemma=Oyapok-Fluss 
- yapok-Flu� ( ) lemma=Oyapok-Fluss 
- yla ( ) lemma=Oylar 
- yster-Ban ( ) lemma=Oyster-Band 
- yvin ( ) lemma=Oyvind 
- ygmäe ( ) lemma=Pygmäe 
- ygmäenlan ( ) lemma=Pygmäenland 
- yjam ( ) lemma=Pyjama 
- yjama ( ) lemma=Pyjama 
- yjama-Bal ( ) lemma=Pyjama-Ball 
- yjama-Protagoniste ( ) lemma=Pyjama-Protagonist 
- yjamabal ( ) lemma=Pyjamaball 
- yladi ( ) lemma=Pyladis 
- yoon ( ) lemma=Pyoong 
- yramid ( ) lemma=Pyramide 
- yramide ( ) lemma=Pyramide 
- yramiden-Bastel ( ) lemma=Pyramiden-Basteln 
- yramidenba ( ) lemma=Pyramidenbau 
- yramidenbil ( ) lemma=Pyramidenbild 
- yramidendac ( ) lemma=Pyramidendach 
- yramidendächer ( ) lemma=Pyramidendach 
- yramideneich ( ) lemma=Pyramideneiche 
- yramidenfor ( ) lemma=Pyramidenform 
- yramidengesteck ( ) lemma=Pyramidengesteck 
- yramidennumme ( ) lemma=Pyramidennummer 
- yramidenpappel ( ) lemma=Pyramidenpappel 
- yramidenspie ( ) lemma=Pyramidenspiel 
- yrenäen-Etapp ( ) lemma=Pyrenäen-Etappe 
- yrenäen-Tunne ( ) lemma=Pyrenäen-Tunnel 
- yrenäen-Zwergstaa ( ) lemma=Pyrenäen-Zwergstaat 
- yrolyse ( ) lemma=Pyrolyse- 
- yrolyse-Anlag ( ) lemma=Pyrolyse-Anlage 
- yroman ( ) lemma=Pyromane 
- yromane ( ) lemma=Pyromane 
- yromanenpoliti ( ) lemma=Pyromanenpolitik 
- yromani ( ) lemma=Pyromanie 
- yrrhus-Sie ( ) lemma=Pyrrhus-Sieg 
- ython-Manie ( ) lemma=Python-Manier 
- yder-Cup-Modu ( ) lemma=Ryder-Cup-Modus 
- yke ( ) lemma=Ryke- 
- yosuk ( ) lemma=Ryosuke 
- yschkow ( ) lemma=Ryschkow- 
- yschkow-Pla ( ) lemma=Ryschkow-Plan 
- yschkow-Program ( ) lemma=Ryschkow-Programm 
- yszar ( ) lemma=Ryszard 
- yszard ( ) lemma=Ryszarda 
- ythm-Lover-Ban ( ) lemma=Rythm-Lover-Band 
- yutar ( ) lemma=Ryutaro 
- YLVI ( ) lemma=Sylvia 
- YMBOL ( ) lemma=Symbol 
- YMBOLERLÄUTERUNGE ( ) lemma=Symbolerläuterung 
- YSTE ( ) lemma=System 
- YSTEMLÖSUNGE ( ) lemma=Systemlösung 
- yass ( ) lemma=Syasse 
- ybex-Verla ( ) lemma=Sybex-Verlag 
- ybie ( ) lemma=Sybiel 
- ybi ( ) lemma=Sybil 
- ybil ( ) lemma=Sybill 
- ybill ( ) lemma=Sybille 
- ybilla-Maurer-Alle ( ) lemma=Sybilla-Maurer-Allee 
- ybille ( ) lemma=Sybille 
- ybrandu ( ) lemma=Sybrandus 
- ybre ( ) lemma=Sybren 
- ybyll ( ) lemma=Sybylle 
- ydkraf ( ) lemma=Sydkraft 
- ydne ( ) lemma=Sydney 
- ydney-2000-Bewerbungskomite ( ) lemma=Sydney-2000-Bewerbungskomitee 
- ydney-2000-Komitee ( ) lemma=Sydney-2000-Komitee 
- ydney-Lobbyiste ( ) lemma=Sydney-Lobbyist 
- ydney ( ) lemma=Sydney 
- yed ( ) lemma=Syed. 
- yeni ( ) lemma=Syenit 
- ykes-Picot-Abkomme ( ) lemma=Sykes-Picot-Abkommen 
- ylci ( ) lemma=Sylcia 
- ylejma ( ) lemma=Sylejman 
- yliv ( ) lemma=Syliva 
- ylivi ( ) lemma=Sylivia 
- ylk ( ) lemma=Zylka 
- yllogismu ( ) lemma=Syllogismus 
- ylphid ( ) lemma=Sylphide 
- ylt-Freizei ( ) lemma=Sylt-Freizeit 
- ylt-Urlau ( ) lemma=Sylt-Urlaub 
- ylt ( ) lemma=Sylta 
- ylv ( ) lemma=Sylvi 
- ylvai ( ) lemma=Sylvain 
- ylvain ( ) lemma=Sylvaine 
- ylva ( ) lemma=Sylvan 
- ylvan ( ) lemma=Sylvano 
- ylvel ( ) lemma=Sylveli 
- ylveli ( ) lemma=Sylvelin 
- ylvelin ( ) lemma=Sylveline 
- ylve ( ) lemma=Sylven 
- ylveri ( ) lemma=Sylverio 
- ylves ( ) lemma=Sylvest 
- ylveste ( ) lemma=Sylvester 
- ylvesteraben ( ) lemma=Sylvesterabend 
- ylvesterfeie ( ) lemma=Sylvesterfeier 
- ylvesterfet ( ) lemma=Sylvesterfete 
- ylvesterfeuerwer ( ) lemma=Sylvesterfeuerwerk 
- ylvesterglocke ( ) lemma=Sylvesterglocke 
- ylvesterkapell ( ) lemma=Sylvesterkapelle 
- ylvesterkonzer ( ) lemma=Sylvesterkonzert 
- ylvesternachmitta ( ) lemma=Sylvesternachmittag 
- ylvesternach ( ) lemma=Sylvesternacht 
- ylvesterpart ( ) lemma=Sylvesterparty 
- ylvesterstimmun ( ) lemma=Sylvesterstimmung 
- ylvesterta ( ) lemma=Sylvestertag 
- ylvesterwürfel ( ) lemma=Sylvesterwürfeln 
- ylvi ( ) lemma=Sylvio 
- ylvia-Angel ( ) lemma=Sylvia-Angela 
- ylvia-Carme ( ) lemma=Sylvia-Carmen 
- ylvia-Iri ( ) lemma=Sylvia-Iris 
- ylvia-Mayon ( ) lemma=Sylvia-Mayoni 
- ylvia-Yvonn ( ) lemma=Sylvia-Yvonne 
- ylvian ( ) lemma=Sylviane 
- ylvia ( ) lemma=Sylvia 
- ylvili ( ) lemma=Sylvilin 
- ylvin ( ) lemma=Sylvine 
- ylviu ( ) lemma=Sylvius 
- ylweste ( ) lemma=Sylwester 
- ylwi ( ) lemma=Sylwia 
- ymbios ( ) lemma=Symbiose 
- ymbiose ( ) lemma=Symbiose 
- ymbiosephantasie ( ) lemma=Symbiosephantasie 
- ymbo ( ) lemma=Symbol 
- ymbol ( ) lemma=Symbol 
- ymbol-AK ( ) lemma=Symbol-AKW 
- ymbolba ( ) lemma=Symbolbau 
- ymbolbaute ( ) lemma=Symbolbau 
- ymbolbedeutunge ( ) lemma=Symbolbedeutung 
- ymbolbil ( ) lemma=Symbolbild 
- ymbolcharakte ( ) lemma=Symbolcharakter 
- ymbole ( ) lemma=Symbol 
- ymbolerklärun ( ) lemma=Symbolerklärung 
- ymbolfal ( ) lemma=Symbolfall 
- ymbolfarb ( ) lemma=Symbolfarbe 
- ymbolfigu ( ) lemma=Symbolfigur 
- ymbolfigure ( ) lemma=Symbolfigur 
- ymbolfolg ( ) lemma=Symbolfolge 
- ymbolfor ( ) lemma=Symbolform 
- ymbolfoto ( ) lemma=Symbolfoto 
- ymbolfunktio ( ) lemma=Symbolfunktion 
- ymbolgebäud ( ) lemma=Symbolgebäude 
- ymbolgehal ( ) lemma=Symbolgehalt 
- ymbolgehalte ( ) lemma=Symbolgehalt 
- ymbolgesetzgebun ( ) lemma=Symbolgesetzgebung 
- ymbolgestal ( ) lemma=Symbolgestalt 
- ymbolhaf ( ) lemma=symbolhaft 
- ymbolhaft ( ) lemma=symbolhaft 
- ymbolhandlunge ( ) lemma=Symbolhandlung 
- ymboli ( ) lemma=Symbolik 
- ymbolike ( ) lemma=Symbolik 
- ymbolikpädagog ( ) lemma=Symbolikpädagog- 
- ymbolisch ( ) lemma=symbolisch 
- ymbolische ( ) lemma=symbolisch 
- ymbolisierte ( ) lemma=symbolisiert 
- ymbolisierun ( ) lemma=Symbolisierung 
- ymbolisierunge ( ) lemma=Symbolisierung 
- ymbolismu ( ) lemma=Symbolismus 
- ymbolis ( ) lemma=Symbolist 
- ymboliste ( ) lemma=Symbolist 
- ymboljah ( ) lemma=Symboljahr 
- ymbolkraf ( ) lemma=Symbolkraft 
- ymbolor ( ) lemma=Symbolort 
- ymbolprei ( ) lemma=Symbolpreis 
- ymbolprojek ( ) lemma=Symbolprojekt 
- ymbolrau ( ) lemma=Symbolraum 
- ymbolschlüssel ( ) lemma=Symbolschlüssel 
- ymbolschmuc ( ) lemma=Symbolschmuck 
- ymbolsprach ( ) lemma=Symbolsprache 
- ymbolsuf ( ) lemma=Symbolsuff 
- ymbolsyste ( ) lemma=Symbolsystem 
- ymbolszene ( ) lemma=Symbolszene 
- ymboltheori ( ) lemma=Symboltheorie 
- ymboltie ( ) lemma=Symboltier 
- ymbolträchtig ( ) lemma=symbolträchtig 
- ymbolträchtige ( ) lemma=symbolträchtig 
- ymbolträchtigkei ( ) lemma=Symbolträchtigkeit 
- ymbolträge ( ) lemma=Symbolträger 
- ymbolverarbeitun ( ) lemma=Symbolverarbeitung 
- ymbolverarbeitungsmodel ( ) lemma=Symbolverarbeitungsmodell 
- ymbolvoge ( ) lemma=Symbolvogel 
- ymbolwel ( ) lemma=Symbolwelt 
- ymbolwelte ( ) lemma=Symbolwelt 
- ymbolwer ( ) lemma=Symbolwert 
- ymbolwert ( ) lemma=Symbolwert 
- ymbolwirkun ( ) lemma=Symbolwirkung 
- ymbolzah ( ) lemma=Symbolzahl 
- ymeo ( ) lemma=Symeon 
- ymmetri ( ) lemma=Symmetrie 
- ymmetrie-Symposio ( ) lemma=Symmetrie-Symposion 
- ymmetriebrechun ( ) lemma=Symmetriebrechung 
- ymmetriegründe ( ) lemma=Symmetriegrund 
- ymmetrie ( ) lemma=Symmetrie 
- ymmetrietheori ( ) lemma=Symmetrietheorie 
- ymmetrisch ( ) lemma=symmetrisch 
- ympatex-Hösche ( ) lemma=Sympatex-Höschen 
- ympathi ( ) lemma=Sympathie 
- ympathie ( ) lemma=Sympathie 
- ympathie-Bonu ( ) lemma=Sympathie-Bonus 
- ympathie-Erklärun ( ) lemma=Sympathie-Erklärung 
- ympathie-Magazi ( ) lemma=Sympathie-Magazin 
- ympathie-Magazin ( ) lemma=Sympathie-Magazin 
- ympathie-Punkt ( ) lemma=Sympathie-Punkt 
- ympathie-Skal ( ) lemma=Sympathie-Skala 
- ympathie-Tier ( ) lemma=Sympathie-Tier 
- ympathiebekundun ( ) lemma=Sympathiebekundung 
- ympathiebekundunge ( ) lemma=Sympathiebekundung 
- ympathiebewei ( ) lemma=Sympathiebeweis 
- ympathiebezeugunge ( ) lemma=Sympathiebezeugung 
- ympathiebil ( ) lemma=Sympathiebild 
- ympathiebonu ( ) lemma=Sympathiebonus 
- ympathieeffek ( ) lemma=Sympathieeffekt 
- ympathieerklärun ( ) lemma=Sympathieerklärung 
- ympathieerklärunge ( ) lemma=Sympathieerklärung 
- ympathiefigu ( ) lemma=Sympathiefigur 
- ympathiegefühl ( ) lemma=Sympathiegefühl 
- ympathiegewin ( ) lemma=Sympathiegewinn 
- ympathiegewinn ( ) lemma=Sympathiegewinn 
- ympathiekampagn ( ) lemma=Sympathiekampagne 
- ympathiekundgebun ( ) lemma=Sympathiekundgebung 
- ympathiekundgebunge ( ) lemma=Sympathiekundgebung 
- ympathiekurv ( ) lemma=Sympathiekurve 
- ympathiemarsc ( ) lemma=Sympathiemarsch 
- ympathieprei ( ) lemma=Sympathiepreis 
- ympathieprämi ( ) lemma=Sympathieprämie 
- ympathiepunkt ( ) lemma=Sympathiepunkt 
- ympathieschu ( ) lemma=Sympathieschub 
- ympathieskal ( ) lemma=Sympathieskala 
- ympathiestreik ( ) lemma=Sympathiestreik 
- ympathieträge ( ) lemma=Sympathieträger 
- ympathieträgeri ( ) lemma=Sympathieträgerin 
- ympathieträger ( ) lemma=Sympathieträger 
- ympathieveranstaltun ( ) lemma=Sympathieveranstaltung 
- ympathieverlus ( ) lemma=Sympathieverlust 
- ympathieverlust ( ) lemma=Sympathieverlust 
- ympathievorschus ( ) lemma=Sympathievorschuss 
- ympathievorschu� ( ) lemma=Sympathievorschuss 
- ympathiewell ( ) lemma=Sympathiewelle 
- ympathiewerbun ( ) lemma=Sympathiewerbung 
- ympathiewer ( ) lemma=Sympathiewert 
- ympathiewert ( ) lemma=Sympathiewert 
- ympathiewerte ( ) lemma=Sympathiewert 
- ympathiewoge ( ) lemma=Sympathiewoge 
- ympathiewunde ( ) lemma=Sympathiewunder 
- ympathisan ( ) lemma=Sympathisant 
- ympathisante ( ) lemma=Sympathisant 
- ympathisantenfel ( ) lemma=Sympathisantenfeld 
- ympathisantenkrei ( ) lemma=Sympathisantenkreis 
- ympathisantenkreise ( ) lemma=Sympathisantenkreis 
- ympathisantenspektru ( ) lemma=Sympathisantenspektrum 
- ympathisantensump ( ) lemma=Sympathisantensumpf 
- ympathisantenszen ( ) lemma=Sympathisantenszene 
- ympathisantenumfel ( ) lemma=Sympathisantenumfeld 
- ympathisanti ( ) lemma=Sympathisantin 
- ympathisantinne ( ) lemma=Sympathisantin 
- ympathisch ( ) lemma=sympathisch 
- ympathische ( ) lemma=sympathisch 
- ympathischer ( ) lemma=sympathisch 
- ympathisiere ( ) lemma=sympathisieren 
- ympathisierend ( ) lemma=sympathisierend 
- ympathisierende ( ) lemma=sympathisierend 
- ymphoni ( ) lemma=Symphonie 
- ymphonie-Orcheste ( ) lemma=Symphonie-Orchester 
- ymphonie-Orchester ( ) lemma=Symphonie-Orchester 
- ymphonie-Transkriptione ( ) lemma=Symphonie-Transkription 
- ymphoniekonzer ( ) lemma=Symphoniekonzert 
- ymphoniekonzert ( ) lemma=Symphoniekonzert 
- ymphonie ( ) lemma=Symphonie 
- ymphonieorcheste ( ) lemma=Symphonieorchester 
- ymphonieorchester ( ) lemma=Symphonieorchester 
- ymphoniesaa ( ) lemma=Symphoniesaal 
- ymphonike ( ) lemma=Symphoniker 
- ymphoniker ( ) lemma=Symphoniker 
- ymphonisch ( ) lemma=symphonisch 
- ymphoria ( ) lemma=Symphorian 
- ymposie ( ) lemma=Symposium 
- ymposienreih ( ) lemma=Symposienreihe 
- ymposio ( ) lemma=Symposion 
- ymposion ( ) lemma=Symposion 
- ymposiu ( ) lemma=Symposium 
- ymposium ( ) lemma=Symposium 
- ymposiumsteilnehme ( ) lemma=Symposiumsteilnehmer 
- ympto ( ) lemma=Symptom 
- ymptomabweh ( ) lemma=Symptomabwehr 
- ymptomati ( ) lemma=Symptomatik 
- ymptomatische ( ) lemma=symptomatisch 
- ymptombehandlun ( ) lemma=Symptombehandlung 
- ymptombekämpfun ( ) lemma=Symptombekämpfung 
- ymptombildun ( ) lemma=Symptombildung 
- ymptom ( ) lemma=Symptom 
- ymptome ( ) lemma=Symptom 
- ymptomkure ( ) lemma=Symptomkur 
- ymptomträge ( ) lemma=Symptomträger 
- ymptomunterdrückun ( ) lemma=Symptomunterdrückung 
- ymptomverschiebun ( ) lemma=Symptomverschiebung 
- ynagog ( ) lemma=Synagoge 
- ynagoge ( ) lemma=Synagoge 
- ynagogen ( ) lemma=Synagogen- 
- ynagogen-Gedenkbuc ( ) lemma=Synagogen-Gedenkbuch 
- ynagogen-Gedenkstei ( ) lemma=Synagogen-Gedenkstein 
- ynagogen-Gedenkstätt ( ) lemma=Synagogen-Gedenkstätte 
- ynagogen-Gemeind ( ) lemma=Synagogen-Gemeinde 
- ynagogen-Gesäng ( ) lemma=Synagogen-Gesang 
- ynagogen-Grundstüc ( ) lemma=Synagogen-Grundstück 
- ynagogenbran ( ) lemma=Synagogenbrand 
- ynagogenbränd ( ) lemma=Synagogenbrand 
- ynagogenchore ( ) lemma=Synagogenchor 
- ynagogenführun ( ) lemma=Synagogenführung 
- ynagogengemeind ( ) lemma=Synagogengemeinde 
- ynagogengemeinschaf ( ) lemma=Synagogengemeinschaft 
- ynagogengottesdiens ( ) lemma=Synagogengottesdienst 
- ynagogengottesdienste ( ) lemma=Synagogengottesdienst 
- ynagogenmauer ( ) lemma=Synagogenmauer 
- ynagogenplat ( ) lemma=Synagogenplatz 
- ynagogenruin ( ) lemma=Synagogenruine 
- ynagogenstei ( ) lemma=Synagogenstein 
- ynagogenzerstörun ( ) lemma=Synagogenzerstörung 
- ynanon ( ) lemma=Synanon- 
- ynanon-Vertrete ( ) lemma=Synanon-Vertreter 
- ynanon-eigene ( ) lemma=Synanon-eigen 
- ynchron ( ) lemma=synchron 
- ynchronatelier ( ) lemma=Synchronatelier 
- ynchronfahrte ( ) lemma=Synchronfahrt 
- ynchronfassun ( ) lemma=Synchronfassung 
- ynchrongetrieb ( ) lemma=Synchrongetriebe 
- ynchronicity-Disc ( ) lemma=Synchronicity-Disco 
- ynchronisatio ( ) lemma=Synchronisation 
- ynchronisatione ( ) lemma=Synchronisation 
- ynchronisiere ( ) lemma=synchronisieren 
- ynchronisierun ( ) lemma=Synchronisierung 
- ynchronismu ( ) lemma=Synchronismus 
- ynchronkamer ( ) lemma=Synchronkamera 
- ynchronlaufe ( ) lemma=Synchronlaufen 
- ynchronregisseu ( ) lemma=Synchronregisseur 
- ynchronschwimme ( ) lemma=Synchronschwimmen 
- ynchronschwimmen ( ) lemma=Synchronschwimmen 
- ynchronschwimmeri ( ) lemma=Synchronschwimmerin 
- ynchronschwimmerinne ( ) lemma=Synchronschwimmerin 
- ynchronspielpassage ( ) lemma=Synchronspielpassage 
- ynchronspreche ( ) lemma=Synchronsprecher 
- ynchronspringe ( ) lemma=Synchronspringen 
- ynchronstimm ( ) lemma=Synchronstimme 
- ynchronstudi ( ) lemma=Synchronstudio 
- ynchronstudio ( ) lemma=Synchronstudio 
- ynchronto ( ) lemma=Synchronton 
- ynchronübersetzun ( ) lemma=Synchronübersetzung 
- ynchroton-Einrichtunge ( ) lemma=Synchroton-Einrichtung 
- ynchrotron-Strahlungsquell ( ) lemma=Synchrotron-Strahlungsquelle 
- yndikalismu ( ) lemma=Syndikalismus 
- yndikalis ( ) lemma=Syndikalist 
- yndikaliste ( ) lemma=Syndikalist 
- yndika ( ) lemma=Syndikat 
- yndikat ( ) lemma=Syndikat 
- yndikate ( ) lemma=Syndikat 
- yndikatsbos ( ) lemma=Syndikatsboss 
- yndikatsbo� ( ) lemma=Syndikatsboss 
- yndro ( ) lemma=Syndrom 
- yndrom ( ) lemma=Syndrom 
- yndrome ( ) lemma=Syndrom 
- ynekdoch ( ) lemma=Synekdoche 
- ynergi ( ) lemma=Synergie 
- ynergie-Effekt ( ) lemma=Synergie-Effekt 
- ynergie-Effekte ( ) lemma=Synergie-Effekt 
- ynergieeffek ( ) lemma=Synergieeffekt 
- ynergieeffekt ( ) lemma=Synergieeffekt 
- ynergieeffekte ( ) lemma=Synergieeffekt 
- ynergie ( ) lemma=Synergie 
- ynik ( ) lemma=Synika 
- ynk ( ) lemma=Synke 
- ynkop ( ) lemma=Synkope 
- ynkope ( ) lemma=Synkope 
- ynkretismu ( ) lemma=Synkretismus 
- ynnöv ( ) lemma=Synnöve 
- ynodal-Tagun ( ) lemma=Synodal-Tagung 
- ynodalantra ( ) lemma=Synodalantrag 
- ynodalausschusse ( ) lemma=Synodalausschuss 
- ynodal ( ) lemma=synodal 
- ynodale ( ) lemma=synodal 
- ynodalentscheidun ( ) lemma=Synodalentscheidung 
- ynodalkonferen ( ) lemma=Synodalkonferenz 
- ynodalordnun ( ) lemma=Synodalordnung 
- ynodalra ( ) lemma=Synodalrat 
- ynodaltagun ( ) lemma=Synodaltagung 
- ynodalversammlun ( ) lemma=Synodalversammlung 
- ynod ( ) lemma=Synode 
- ynode ( ) lemma=Synode 
- ynoden-Beschlus ( ) lemma=Synoden-Beschluss 
- ynoden-Beschlu� ( ) lemma=Synoden-Beschluss 
- ynoden-Finanzausschusse ( ) lemma=Synoden-Finanzausschuss 
- ynodenaul ( ) lemma=Synodenaula 
- ynodenbeschlus ( ) lemma=Synodenbeschluss 
- ynodenbeschlu� ( ) lemma=Synodenbeschluss 
- ynodenpräsiden ( ) lemma=Synodenpräsident 
- ynodensekretä ( ) lemma=Synodensekretär 
- ynodentagun ( ) lemma=Synodentagung 
- ynodenvorsitzend ( ) lemma=Synodenvorsitzende 
- ynony ( ) lemma=synonym 
- ynonym ( ) lemma=synonym 
- ynonyme ( ) lemma=synonym 
- ynonymwörterbuc ( ) lemma=Synonymwörterbuch 
- ynops ( ) lemma=Synopse 
- ynopsi ( ) lemma=Synopsis 
- ynoptisch ( ) lemma=synoptisch 
- yntagm ( ) lemma=Syntagma 
- yntagma-Plat ( ) lemma=Syntagma-Platz 
- yntagmaplat ( ) lemma=Syntagmaplatz 
- yntagme ( ) lemma=Syntagma 
- ynta ( ) lemma=Syntax 
- ynthema-Tagun ( ) lemma=Synthema-Tagung 
- ynthes ( ) lemma=Synthese 
- ynthesefaser ( ) lemma=Synthesefaser 
- ynthesega ( ) lemma=Synthesegas 
- ynthesekautschu ( ) lemma=Synthesekautschuk 
- ynthese ( ) lemma=Synthese 
- ynthesewer ( ) lemma=Synthesewerk 
- ynthesize ( ) lemma=Synthesizer 
- ynthesizer-Kläng ( ) lemma=Synthesizer-Klang 
- ynthesizer-Klänge ( ) lemma=Synthesizer-Klang 
- ynthetisch ( ) lemma=synthetisch 
- ynthetische ( ) lemma=synthetisch 
- ynthetisierte ( ) lemma=synthetisiert 
- ynthi-Klänge ( ) lemma=Synthi-Klang 
- ynthie-Musi ( ) lemma=Synthie-Musik 
- ynthie-Po ( ) lemma=Synthie-Pop 
- ynthy-Po ( ) lemma=Synthy-Pop 
- ynästhesi ( ) lemma=Synästhesie 
- yphili ( ) lemma=Syphilis 
- yphilitike ( ) lemma=Syphilitiker 
- yreri ( ) lemma=Syrerin 
- yrer ( ) lemma=Syrer 
- yriell ( ) lemma=Syrielle 
- yrie ( ) lemma=Syrien 
- yrien ( ) lemma=Syrien 
- yrin ( ) lemma=Syrinx 
- yrisch-Kurdista ( ) lemma=Syrisch-Kurdistan 
- yrisch-israelisch ( ) lemma=syrisch-israelisch 
- yrk ( ) lemma=Syrka 
- yrlin-Kunstpreise ( ) lemma=Syrlin-Kunstpreis 
- yrlin-Kunstverei ( ) lemma=Syrlin-Kunstverein 
- ysiphu ( ) lemma=Sysiphus 
- ysiphusarbei ( ) lemma=Sysiphusarbeit 
- yste ( ) lemma=Zyste 
- ystem ( ) lemma=system- 
- ystem-Entscheidun ( ) lemma=System-Entscheidung 
- ystem-Entsorgungsgesellschaf ( ) lemma=System-Entsorgungsgesellschaft 
- ystem-Kontak ( ) lemma=System-Kontakt 
- ystem-Programmiere ( ) lemma=System-Programmierer 
- ystem-Servic ( ) lemma=System-Service 
- ystem-Techni ( ) lemma=System-Technik 
- ystem-Technologi ( ) lemma=System-Technologie 
- ystem-Zuliefere ( ) lemma=System-Zulieferer 
- ystem-Übergangs-Fazilitä ( ) lemma=System-Übergangs-Fazilität 
- ystemalternativ ( ) lemma=Systemalternative 
- ystemanalys ( ) lemma=Systemanalyse 
- ystemanalytike ( ) lemma=Systemanalytiker 
- ystemanalytiker ( ) lemma=Systemanalytiker 
- ystemanbiete ( ) lemma=Systemanbieter 
- ystemanbieter ( ) lemma=Systemanbieter 
- ystemangebo ( ) lemma=Systemangebot 
- ystemanwendunge ( ) lemma=Systemanwendung 
- ystemati ( ) lemma=Systematik 
- ystematisch ( ) lemma=systematisch 
- ystematische ( ) lemma=systematisch 
- ystematisierun ( ) lemma=Systematisierung 
- ystematisierungspla ( ) lemma=Systematisierungsplan 
- ystematisierungsprogram ( ) lemma=Systematisierungsprogramm 
- ystematisierungswah ( ) lemma=Systematisierungswahn 
- ystemauseinandersetzun ( ) lemma=Systemauseinandersetzung 
- ystemauseinandersetzunge ( ) lemma=Systemauseinandersetzung 
- ystemausfal ( ) lemma=Systemausfall 
- ystembeauftragt ( ) lemma=Systembeauftragte 
- ystembejahend ( ) lemma=Systembejahende 
- ystemberate ( ) lemma=Systemberater 
- ystembetreibe ( ) lemma=Systembetreiber 
- ystemblockierunge ( ) lemma=Systemblockierung 
- ystembruc ( ) lemma=Systembruch 
- ystemdatu ( ) lemma=Systemdatum 
- ystemdebatt ( ) lemma=Systemdebatte 
- ystemdenke ( ) lemma=Systemdenker 
- ystemdifferen ( ) lemma=Systemdifferenz 
- ystemdynami ( ) lemma=Systemdynamik 
- ystemeben ( ) lemma=Systemebene 
- ystemeinheite ( ) lemma=Systemeinheit 
- ystemelemen ( ) lemma=Systemelement 
- ysteme ( ) lemma=System 
- ystementscheidun ( ) lemma=Systementscheidung 
- ystementsorgungs-Gesellschaf ( ) lemma=Systementsorgungs-Gesellschaft 
- ystemerhaltun ( ) lemma=Systemerhaltung 
- ystemfehle ( ) lemma=Systemfehler 
- ystemfeind ( ) lemma=Systemfeind 
- ystemfertigun ( ) lemma=Systemfertigung 
- ystemfestun ( ) lemma=Systemfestung 
- ystemfetischismu ( ) lemma=Systemfetischismus 
- ystemforsche ( ) lemma=Systemforscher 
- ystemforschun ( ) lemma=Systemforschung 
- ystemfrag ( ) lemma=Systemfrage 
- ystemfrage ( ) lemma=Systemfrage 
- ystemfreihei ( ) lemma=Systemfreiheit 
- ystemfähigkei ( ) lemma=Systemfähigkeit 
- ystemführe ( ) lemma=Systemführer 
- ystemführereben ( ) lemma=Systemführerebene 
- ystemführer ( ) lemma=Systemführer 
- ystemführerschaf ( ) lemma=Systemführerschaft 
- ystemführun ( ) lemma=Systemführung 
- ystemgastronomi ( ) lemma=Systemgastronomie 
- ystemgegensat ( ) lemma=Systemgegensatz 
- ystemgegensatze ( ) lemma=Systemgegensatz 
- ystemgegensätz ( ) lemma=Systemgegensatz 
- ystemgegne ( ) lemma=Systemgegner 
- ystemgeschäf ( ) lemma=Systemgeschäft 
- ystemgrenz ( ) lemma=Systemgrenze 
- ystemgrenze ( ) lemma=Systemgrenze 
- ystemhalt ( ) lemma=Systemhalt 
- ystemhau ( ) lemma=Systemhaus 
- ystemhause ( ) lemma=Systemhaus 
- ystemhäuse ( ) lemma=Systemhaus 
- ystemhäuser ( ) lemma=Systemhaus 
- ystemimperativ ( ) lemma=Systemimperative 
- ystemintegratio ( ) lemma=Systemintegration 
- ystemkamp ( ) lemma=Systemkampf 
- ystemkampfe ( ) lemma=Systemkampf 
- ystemkoffe ( ) lemma=Systemkoffer 
- ystemkomponente ( ) lemma=Systemkomponente 
- ystemkonflik ( ) lemma=Systemkonflikt 
- ystemkonflikt ( ) lemma=Systemkonflikt 
- ystemkonformitä ( ) lemma=Systemkonformität 
- ystemkonfrontatio ( ) lemma=Systemkonfrontation 
- ystemkonkurren ( ) lemma=Systemkonkurrenz 
- ystemkris ( ) lemma=Systemkrise 
- ystemkriti ( ) lemma=Systemkritik 
- ystemkritike ( ) lemma=Systemkritiker 
- ystemkritiker ( ) lemma=Systemkritiker 
- ystemkunde ( ) lemma=Systemkunde 
- ystemlieferan ( ) lemma=Systemlieferant 
- ystemlieferante ( ) lemma=Systemlieferant 
- ystemlogi ( ) lemma=Systemlogik 
- ystemlösunge ( ) lemma=Systemlösung 
- ystemmanagement-Agentu ( ) lemma=Systemmanagement-Agentur 
- ystemmitteilunge ( ) lemma=Systemmitteilung 
- ystemmänge ( ) lemma=Systemmangel 
- ystemmöbe ( ) lemma=Systemmöbel 
- ystemnäh ( ) lemma=Systemnähe 
- ystemoppositio ( ) lemma=Systemopposition 
- ystemparteie ( ) lemma=Systempartei 
- ystemperspektiv ( ) lemma=Systemperspektive 
- ystemprei ( ) lemma=Systempreis 
- ystemprogrammiere ( ) lemma=Systemprogrammierer 
- ystemrefor ( ) lemma=Systemreform 
- ystemreforme ( ) lemma=Systemreform 
- ystemreinigun ( ) lemma=Systemreinigung 
- ystemschwäch ( ) lemma=Systemschwäche 
- ystemsicherhei ( ) lemma=Systemsicherheit 
- ystemsoftwar ( ) lemma=Systemsoftware 
- ystemspie ( ) lemma=Systemspiel 
- ystemstabilisierun ( ) lemma=Systemstabilisierung 
- ystemtechni ( ) lemma=Systemtechnik 
- ystemtechnik-Nor ( ) lemma=Systemtechnik-Nord 
- ystemtechnologie ( ) lemma=Systemtechnologie 
- ystemtheoretike ( ) lemma=Systemtheoretiker 
- ystemtheori ( ) lemma=Systemtheorie 
- ystemtransformatio ( ) lemma=Systemtransformation 
- ystemtreu ( ) lemma=systemtreu 
- ystemträge ( ) lemma=Systemträger 
- ystemuh ( ) lemma=Systemuhr 
- ystemumba ( ) lemma=Systemumbau 
- ystemverbun ( ) lemma=Systemverbund 
- ystemvergleic ( ) lemma=Systemvergleich 
- ystemvergleich ( ) lemma=Systemvergleich 
- ystemverwalte ( ) lemma=Systemverwalter 
- ystemverwalteri ( ) lemma=Systemverwalterin 
- ystemveränderun ( ) lemma=Systemveränderung 
- ystemveränderunge ( ) lemma=Systemveränderung 
- ystemwah ( ) lemma=Systemwahl 
- ystemwande ( ) lemma=Systemwandel 
- ystemwandel ( ) lemma=Systemwandel 
- ystemwechse ( ) lemma=Systemwechsel 
- ystemwechsel ( ) lemma=Systemwechsel 
- ystemwel ( ) lemma=Systemwelt 
- ystemwettstrei ( ) lemma=Systemwettstreit 
- ystemwissenschaf ( ) lemma=Systemwissenschaft 
- ystemzei ( ) lemma=Systemzeit 
- ystemzerfal ( ) lemma=Systemzerfall 
- ystemzusammenhan ( ) lemma=Systemzusammenhang 
- ystemzwäng ( ) lemma=Systemzwang 
- ystemübergan ( ) lemma=Systemübergang 
- ystemübergreifend ( ) lemma=systemübergreifend 
- ystemüberwindun ( ) lemma=Systemüberwindung 
- ych ( ) lemma=Tycho 
- ycoon-Bür ( ) lemma=Tycoon-Büro 
- yedme ( ) lemma=Tyedmer 
- yll-D ( ) lemma=Tyll-D. 
- ymm ( ) lemma=Tymmo 
- yp-B-Behälte ( ) lemma=Typ-B-Behälter 
- ypberatun ( ) lemma=Typberatung 
- ypbesprechun ( ) lemma=Typbesprechung 
- ypen ( ) lemma=Typen- 
- ypenberateri ( ) lemma=Typenberaterin 
- ypenbezeichnun ( ) lemma=Typenbezeichnung 
- ypenbezeichnunge ( ) lemma=Typenbezeichnung 
- ypenbil ( ) lemma=Typenbild 
- ypendarstellun ( ) lemma=Typendarstellung 
- ypengaleri ( ) lemma=Typengalerie 
- ypengenehmigun ( ) lemma=Typengenehmigung 
- ypengenehmigunge ( ) lemma=Typengenehmigung 
- ypenhau ( ) lemma=Typenhaus 
- ypenhause ( ) lemma=Typenhaus 
- ypenhäusche ( ) lemma=Typenhäuschen 
- ypenkabinet ( ) lemma=Typenkabinett 
- ypenkomödi ( ) lemma=Typenkomödie 
- ypenpoliti ( ) lemma=Typenpolitik 
- ypenprüfun ( ) lemma=Typenprüfung 
- ypenra ( ) lemma=Typenrad 
- ypenreih ( ) lemma=Typenreihe 
- ypenscha ( ) lemma=Typenschau 
- ypenschil ( ) lemma=Typenschild 
- ypenschilde ( ) lemma=Typenschild 
- ypenvielfal ( ) lemma=Typenvielfalt 
- ypenzulassun ( ) lemma=Typenzulassung 
- ypgenehmigungsnumme ( ) lemma=Typgenehmigungsnummer 
- yphu ( ) lemma=Typhus 
- yphus ( ) lemma=Typhus- 
- yphus-Erkrankunge ( ) lemma=Typhus-Erkrankung 
- yphus-Fäll ( ) lemma=Typhus-Fall 
- yphus-Impfunge ( ) lemma=Typhus-Impfung 
- yphusepidemi ( ) lemma=Typhusepidemie 
- yphusepidemie ( ) lemma=Typhusepidemie 
- yphuserkrankunge ( ) lemma=Typhuserkrankung 
- yphuserrege ( ) lemma=Typhuserreger 
- yphusfäll ( ) lemma=Typhusfall 
- yphusfälle ( ) lemma=Typhusfall 
- ypidentisch ( ) lemma=typidentisch 
- ypi ( ) lemma=Typik 
- ypisc ( ) lemma=typisch 
- ypisch ( ) lemma=typisch 
- ypische ( ) lemma=typisch 
- ypisierun ( ) lemma=Typisierung 
- ypisierunge ( ) lemma=Typisierung 
- ypo-Gra ( ) lemma=Typo-Graf 
- ypographi ( ) lemma=Typographie 
- ypographie ( ) lemma=Typographie 
- ypologi ( ) lemma=Typologie 
- ypologie ( ) lemma=Typologie 
- ypprüfpflich ( ) lemma=Typprüfpflicht 
- ypprüfzentru ( ) lemma=Typprüfzentrum 
- ypu ( ) lemma=Typus 
- yran ( ) lemma=Tyrann 
- yranne ( ) lemma=Tyrann 
- yranneie ( ) lemma=Tyrannei 
- yrannenherrschaf ( ) lemma=Tyrannenherrschaft 
- yrannenmor ( ) lemma=Tyrannenmord 
- yranni ( ) lemma=Tyrannis 
- yrolia-Kurie ( ) lemma=Tyrolia-Kurier 
- yron ( ) lemma=Tyrone 
- yronn ( ) lemma=Tyronne 
- yso ( ) lemma=Tyson 
- yani ( ) lemma=Zyanid 
- yganda ( ) lemma=Vygandas 
- ytau ( ) lemma=Vytaut 
- ytauta ( ) lemma=Vytautas 
- yandotte-Zwerghuh ( ) lemma=Wyandotte-Zwerghuhn 
- ybk ( ) lemma=Wybke 
- ybran ( ) lemma=Wybrand 
- ydoks-Clu ( ) lemma=Wydoks-Club 
- yhl-Urtei ( ) lemma=Wyhl-Urteil 
- yldbor ( ) lemma=Wyldbore 
- yll ( ) lemma=Wylli 
- ynan ( ) lemma=Wynand 
- ynfrie ( ) lemma=Wynfried 
- ynfrit ( ) lemma=Wynfrith 
- Y-Chromosomen-Ausstattun ( ) lemma=XY-Chromosomen-Ausstattung 
- Y-Sendun ( ) lemma=XY-Sendung 
- Y-Zimmerman ( ) lemma=XY-Zimmermann 
- ylopho ( ) lemma=Xylophon 
- ylophon ( ) lemma=Xylophon 
- ylophone ( ) lemma=Xylophon 
- ylophonspiele ( ) lemma=Xylophonspieler 
- ylophonspieleri ( ) lemma=Xylophonspielerin 
+ Yuppie-Agenturen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yuppie-Agentur 
+ Yuppie-Bastards ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yuppie-Bastard 
+ Yuppie-Bier ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yuppie-City ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR ) 
+ Yuppie-Design ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yuppie-Ehepaar ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yuppie-Faschist ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yuppie-Generation ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yuppie-Invasion ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yuppie-Kultur ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yuppie-Manager ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yuppie-Mentalität ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yuppie-Milieu ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yuppie-Nazi ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yuppie-Neonazi ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yuppie-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yuppie-Pärchen ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yuppie-Restaurant ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yuppie-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yuppie-Streik ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yuppie-Trip ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yuppie-Welt ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yuppie-Wohnungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Yuppie-Wohnung 
+ Yurdagül ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yurdakul ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yurdal ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yurdanur ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yurduman ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yurga ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yusef ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yusuf ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yuthika-Cornelia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yuuko ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yvan ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yve ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yvelise ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yven ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yves ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yves-Klein-Blau ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yves-Klein-Haus ( NOUN NOUN_PROPER_SINGULAR ) 
+ Yvett ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yvetta ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yvette ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yvo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yvon ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yvona ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yvonn ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yvonna ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yvonne ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yvonne-E. ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yvonne-Eva ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yvonnes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Yvonne 
+ Yvonnet ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yörn ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yü ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yücel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yüksel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Yüsüf ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ yayla-System ( NOUN NOUN_PROPER_SINGULAR ) 
+ yogaähnlicher ( ADJECTIVE ) 
  Y-Frau ( ) 
  YPF-Aktie ( ) 
  Yachtclubrebell ( ) 
@@ -2034,437 +478,3 @@
  Yuppie-Agentur ( ) 
  Yuppie-Bastard ( ) 
  Yuppie-Wohnung ( ) 
- yanid-Granate ( ) lemma=Zyanid-Granate 
- yanid ( ) lemma=Zyanid 
- yanide ( ) lemma=Zyanid 
- yanidlaug ( ) lemma=Zyanidlauge 
- yankal ( ) lemma=Zyankali 
- yankali-Kapse ( ) lemma=Zyankali-Kapsel 
- yankali-Kapsel ( ) lemma=Zyankali-Kapsel 
- yankali-To ( ) lemma=Zyankali-Tod 
- yankalihande ( ) lemma=Zyankalihandel 
- yankalikapse ( ) lemma=Zyankalikapsel 
- yankalikapsel ( ) lemma=Zyankalikapsel 
- yankaliprozes ( ) lemma=Zyankaliprozess 
- yankaliproze� ( ) lemma=Zyankaliprozess 
- ydeco-Musi ( ) lemma=Zydeco-Musik 
- ygfry ( ) lemma=Zygfryd 
- ygmun ( ) lemma=Zygmunt 
- ygot ( ) lemma=Zygote 
- ygote ( ) lemma=Zygote 
- yklam-Stic ( ) lemma=Zyklam-Stich 
- ykle ( ) lemma=Zyklus 
- yklentheori ( ) lemma=Zyklentheorie 
- yklisch ( ) lemma=zyklisch 
- yklisierun ( ) lemma=Zyklisierung 
- yklizitä ( ) lemma=Zyklizität 
- yklon- ( ) lemma=Zyklon-B 
- yklon-B-Büchse ( ) lemma=Zyklon-B-Büchse 
- yklon-B-Ga ( ) lemma=Zyklon-B-Gas 
- yklopenaug ( ) lemma=Zyklopenauge 
- yklu ( ) lemma=Zyklus 
- yklus-Uh ( ) lemma=Zyklus-Uhr 
- yklusgeschehe ( ) lemma=Zyklusgeschehen 
- ykluskonzer ( ) lemma=Zykluskonzert 
- ykluspartne ( ) lemma=Zykluspartner 
- yklusphase ( ) lemma=Zyklusphase 
- yklusstörunge ( ) lemma=Zyklusstörung 
- ylinde ( ) lemma=Zylinder 
- ylinderbloc ( ) lemma=Zylinderblock 
- ylinderhu ( ) lemma=Zylinderhut 
- ylinderhüt ( ) lemma=Zylinderhut 
- ylinderkop ( ) lemma=Zylinderkopf 
- ylinderköpf ( ) lemma=Zylinderkopf 
- ylinderköpfe ( ) lemma=Zylinderkopf 
- ylindermache ( ) lemma=Zylindermacher 
- ylindermotore ( ) lemma=Zylindermotor 
- ylinder ( ) lemma=Zylinder 
- ylinderschlos ( ) lemma=Zylinderschloss 
- ylinderschlo� ( ) lemma=Zylinderschloss 
- ylinderschlösse ( ) lemma=Zylinderschloss 
- ylindervase ( ) lemma=Zylindervase 
- ylinderwinke ( ) lemma=Zylinderwinkel 
- ymalsky-Seide ( ) lemma=Zymalsky-Seidel 
- ynike ( ) lemma=Zyniker 
- ynikeri ( ) lemma=Zynikerin 
- yniker ( ) lemma=Zyniker 
- ynisch-aggressi ( ) lemma=Zynisch-aggressiv 
- ynisch ( ) lemma=zynisch 
- ynische ( ) lemma=zynisch 
- ynismu ( ) lemma=Zynismus 
- ypern ( ) lemma=Zypern 
- ypern-Beauftragt ( ) lemma=Zypern-Beauftragte 
- ypern-Frag ( ) lemma=Zypern-Frage 
- ypern-Gespräch ( ) lemma=Zypern-Gespräch 
- ypern-Invasio ( ) lemma=Zypern-Invasion 
- ypern-Konferen ( ) lemma=Zypern-Konferenz 
- ypern-Konflik ( ) lemma=Zypern-Konflikt 
- ypern-Konflikt ( ) lemma=Zypern-Konflikt 
- ypern-Koordinato ( ) lemma=Zypern-Koordinator 
- ypern-Lösun ( ) lemma=Zypern-Lösung 
- ypern-Parte ( ) lemma=Zypern-Partei 
- ypern-Pfun ( ) lemma=Zypern-Pfund 
- ypern-Proble ( ) lemma=Zypern-Problem 
- ypern-Problem ( ) lemma=Zypern-Problem 
- ypern-Verhandlunge ( ) lemma=Zypern-Verhandlung 
- ypernfrag ( ) lemma=Zypernfrage 
- yperngespräch ( ) lemma=Zyperngespräch 
- yperngriech ( ) lemma=Zyperngrieche 
- yperngrieche ( ) lemma=Zyperngrieche 
- yperninvasio ( ) lemma=Zyperninvasion 
- ypernkompromis ( ) lemma=Zypernkompromiss 
- ypernkompromi� ( ) lemma=Zypernkompromiss 
- ypernkonferen ( ) lemma=Zypernkonferenz 
- ypernkonflik ( ) lemma=Zypernkonflikt 
- ypernkonflikt ( ) lemma=Zypernkonflikt 
- ypernkrie ( ) lemma=Zypernkrieg 
- ypernkris ( ) lemma=Zypernkrise 
- ypernlösun ( ) lemma=Zypernlösung 
- ypernproble ( ) lemma=Zypernproblem 
- ypernproblem ( ) lemma=Zypernproblem 
- ypernreis ( ) lemma=Zypernreise 
- ypernstrei ( ) lemma=Zypernstreit 
- yperntürk ( ) lemma=Zyperntürke 
- yperntürke ( ) lemma=Zyperntürke 
- ypernverhandlunge ( ) lemma=Zypernverhandlung 
- ypre ( ) lemma=Zyprer 
- ypress ( ) lemma=Zypresse 
- ypresse ( ) lemma=Zypresse 
- ypressenlandschafte ( ) lemma=Zypressenlandschaft 
- ypressenstrass ( ) lemma=Zypressenstraße 
- ypressenstraß ( ) lemma=Zypressenstraße 
- ypressenwurze ( ) lemma=Zypressenwurzel 
- ypriot ( ) lemma=Zypriote 
- ypriote ( ) lemma=Zypriote 
- yprioti ( ) lemma=Zypriotin 
- ypriotisch ( ) lemma=zypriotisch 
- ysk ( ) lemma=Zysko 
- yst ( ) lemma=Zyste 
- ytologieassistente ( ) lemma=Zytologieassistent 
- yzantinisc ( ) lemma=byzantinisch 
- yzantinisch-orthodox ( ) lemma=byzantinisch-orthodox 
- yzantinisch-ukrainische ( ) lemma=byzantinisch-ukrainisch 
- yadische ( ) lemma=dyadisch 
- ynamisc ( ) lemma=dynamisch 
- ynamisch-aggressi ( ) lemma=dynamisch-aggressiv 
- ynamisch-expressive ( ) lemma=dynamisch-expressiv 
- ynamisch-rhythmische ( ) lemma=dynamisch-rhythmisch 
- ynamischer ( ) lemma=dynamisch 
- ynamischere ( ) lemma=dynamisch 
- ynamischst ( ) lemma=dynamisch 
- ynamischste ( ) lemma=dynamisch 
- ynamisiere ( ) lemma=dynamisieren 
- ynamisierend ( ) lemma=dynamisierend 
- ynamisierende ( ) lemma=dynamisierend 
- ynamisier ( ) lemma=dynamisieren 
- ynamisiert ( ) lemma=dynamisiert 
- ynamisierte ( ) lemma=dynamisiert 
- ymnasia ( ) lemma=gymnasial 
- ymnastisc ( ) lemma=gymnastisch 
- ymnastische ( ) lemma=gymnastisch 
- ynäkologische ( ) lemma=gynäkologisch 
- ydraulisc ( ) lemma=hydraulisch 
- ydraulisch ( ) lemma=hydraulisch 
- ydrologisc ( ) lemma=hydrologisch 
- ydrologisch ( ) lemma=hydrologisch 
- ydrologische ( ) lemma=hydrologisch 
- ydrophi ( ) lemma=hydrophil 
- ydrophile ( ) lemma=hydrophil 
- ydrophob ( ) lemma=hydrophob 
- ygieni ( ) lemma=hygieni- 
- ygienischer ( ) lemma=hygienisch 
- yperakti ( ) lemma=hyperaktiv 
- yperaktiv ( ) lemma=hyperaktiv 
- yperaktive ( ) lemma=hyperaktiv 
- yperbolische ( ) lemma=hyperbolisch 
- yperbunte ( ) lemma=hyperbunt 
- yperinflationäre ( ) lemma=hyperinflationär 
- yperkomplexe ( ) lemma=hyperkomplex 
- ypermoder ( ) lemma=hypermodern 
- ypermodern ( ) lemma=hypermodern 
- ypermoderne ( ) lemma=hypermodern 
- ypermotorisch ( ) lemma=hypermotorisch 
- ypermotorische ( ) lemma=hypermotorisch 
- ypernaturalistische ( ) lemma=hypernaturalistisch 
- ypernervö ( ) lemma=hypernervös 
- ypernervöse ( ) lemma=hypernervös 
- yperorchestra ( ) lemma=hyperorchestral 
- yperproduktive ( ) lemma=hyperproduktiv 
- yperrationale ( ) lemma=hyperrational 
- yperrea ( ) lemma=hyperreal 
- yperreal ( ) lemma=hyperreal 
- yperreale ( ) lemma=hyperreal 
- yperrealistisc ( ) lemma=hyperrealistisch 
- yperrealistisch ( ) lemma=hyperrealistisch 
- yperrealistische ( ) lemma=hyperrealistisch 
- yperschnelle ( ) lemma=hyperschnell 
- ypersensibe ( ) lemma=hypersensible 
- ypersensibl ( ) lemma=hypersensible 
- ypersensible ( ) lemma=hypersensible 
- ypersexuelle ( ) lemma=hypersexuell 
- ypertonische ( ) lemma=hypertonisch 
- yperventilierende ( ) lemma=hyperventilierend 
- yperventilier ( ) lemma=hyperventiliert 
- yperventiliert ( ) lemma=hyperventiliert 
- yperästhetisch ( ) lemma=hyperästhetisch 
- ypnotisc ( ) lemma=hypnotisch 
- ypnotisiere ( ) lemma=hypnotisieren 
- ypnotisieren ( ) lemma=hypnotisierend 
- ypnotisierend ( ) lemma=hypnotisierend 
- ypnotisierende ( ) lemma=hypnotisierend 
- ypnotisier ( ) lemma=hypnotisieren 
- ypnotisiert ( ) lemma=hypnotisiert 
- ypnotisierte ( ) lemma=hypnotisiert 
- ypothekarisch ( ) lemma=hypothekarisch 
- ypothetisc ( ) lemma=hypothetisch 
- ysteriegetriebene ( ) lemma=hysteriegetrieben 
- ysterisc ( ) lemma=hysterisch 
- ysterischst ( ) lemma=hysterisch 
- ybernetisc ( ) lemma=kybernetisch 
- ybernetische ( ) lemma=kybernetisch 
- ymphatisch ( ) lemma=lymphatisch 
- ymphatische ( ) lemma=lymphatisch 
- yncht ( ) lemma=lynchen 
- ynchte ( ) lemma=lynchen 
- yrisc ( ) lemma=syrisch 
- yrisch-dramatische ( ) lemma=lyrisch-dramatisch 
- yrisch-melancholische ( ) lemma=lyrisch-melancholisch 
- yrisch-poetisch ( ) lemma=lyrisch-poetisch 
- yrisch-realistische ( ) lemma=lyrisch-realistisch 
- yrischst ( ) lemma=lyrisch 
- ysteriö ( ) lemma=mysteriös 
- ysteriöser ( ) lemma=mysteriös 
- ysteriöserweis ( ) lemma=mysteriöserweise 
- ysteriöseste ( ) lemma=mysteriös 
- ystifiziere ( ) lemma=mystifizieren 
- ystifizierend ( ) lemma=mystifizierend 
- ystifizierende ( ) lemma=mystifizierend 
- ystifizier ( ) lemma=mystifizieren 
- ystifiziert ( ) lemma=mystifiziert 
- ystifizierte ( ) lemma=mystifiziert 
- ystisc ( ) lemma=mystisch 
- ythenbildende ( ) lemma=mythenbildend 
- ythenumrankte ( ) lemma=mythenumrankt 
- ythenumwoben ( ) lemma=mythenumwoben 
- ythenumwobene ( ) lemma=mythenumwoben 
- ythisc ( ) lemma=mythisch 
- ythisch-mystisch ( ) lemma=mythisch-mystisch 
- ythologisc ( ) lemma=mythologisch 
- ythologisch-phantastisch ( ) lemma=mythologisch-phantastisch 
- ythologisiere ( ) lemma=mythologisieren 
- ythologisierend ( ) lemma=mythologisierend 
- ythologisierende ( ) lemma=mythologisierend 
- ythologisier ( ) lemma=mythologisieren 
- ythologisiert ( ) lemma=mythologisiert 
- ymphoma ( ) lemma=nymphoman 
- yramida ( ) lemma=pyramidal 
- yramidale ( ) lemma=pyramidal 
- yramidenarti ( ) lemma=pyramidenartig 
- yramidenförmi ( ) lemma=pyramidenförmig 
- yramidenförmig ( ) lemma=pyramidenförmig 
- yramidenförmige ( ) lemma=pyramidenförmig 
- yrotechnische ( ) lemma=pyrotechnisch 
- ymbiotisc ( ) lemma=symbiotisch 
- ymbiotisch ( ) lemma=symbiotisch 
- ymbiotische ( ) lemma=symbiotisch 
- ymbolbefrachte ( ) lemma=symbolbefrachtet 
- ymbolbefrachtet ( ) lemma=symbolbefrachtet 
- ymbolbehaftete ( ) lemma=symbolbehaftet 
- ymbolbelade ( ) lemma=symbolbeladen 
- ymbolbeladene ( ) lemma=symbolbeladen 
- ymbolgelade ( ) lemma=symbolgeladen 
- ymbolhafte ( ) lemma=symbolhaft 
- ymbolisc ( ) lemma=symbolisch 
- ymbolisch-repräsentative ( ) lemma=symbolisch-repräsentativ 
- ymbolisier ( ) lemma=symbolisiert 
- ymbolisiere ( ) lemma=symbolisieren 
- ymbolisieren ( ) lemma=symbolisierend 
- ymbolisierend ( ) lemma=symbolisierend 
- ymbolisierende ( ) lemma=symbolisierend 
- ymbolisiert ( ) lemma=symbolisiert 
- ymbolkräftig ( ) lemma=symbolkräftig 
- ymbolreich ( ) lemma=symbolreich 
- ymbolreiche ( ) lemma=symbolreich 
- ymbolschwangere ( ) lemma=symbolschwangre 
- ymbolschwe ( ) lemma=symbolschwer 
- ymbolschwer ( ) lemma=symbolschwer 
- ymbolsüchtige ( ) lemma=symbolsüchtig 
- ymbolträchti ( ) lemma=symbolträchtig 
- ymbolträchtiger ( ) lemma=symbolträchtig 
- ymbolträchtigst ( ) lemma=symbolträchtig 
- ymbolträchtigste ( ) lemma=symbolträchtig 
- ymbolüberfrachtet ( ) lemma=symbolüberfrachtet 
- ymmetrisc ( ) lemma=symmetrisch 
- ymmetrische ( ) lemma=symmetrisch 
- ympatetisch-kritische ( ) lemma=sympatetisch-kritisch 
- ympathetisc ( ) lemma=sympathetisch 
- ympathetisch ( ) lemma=sympathetisch 
- ympathetische ( ) lemma=sympathetisch 
- ympathisc ( ) lemma=sympathisch 
- ympathischere ( ) lemma=sympathisch 
- ympathischerweis ( ) lemma=sympathischerweise 
- ympathischst ( ) lemma=sympathisch 
- ympathischste ( ) lemma=sympathisch 
- ympathisier ( ) lemma=sympathisieren 
- ympathisieren ( ) lemma=sympathisierend 
- ympathisiert ( ) lemma=sympathisiert 
- ympathisierte ( ) lemma=sympathisiert 
- ympathomimetisc ( ) lemma=sympathomimetisch 
- ympathomimetische ( ) lemma=sympathomimetisch 
- ymphonische ( ) lemma=symphonisch 
- ympto-thermal ( ) lemma=sympto-thermal 
- ymptomatisc ( ) lemma=symptomatisch 
- ymptomatisch ( ) lemma=symptomatisch 
- ymptomfre ( ) lemma=symptomfrei 
- ymptomlo ( ) lemma=symptomlos 
- ymptomlos ( ) lemma=symptomlos 
- ymptomlose ( ) lemma=symptomlos 
- ynagogal ( ) lemma=synagogal 
- ynagogale ( ) lemma=synagogal 
- ynchro ( ) lemma=synchron 
- ynchrone ( ) lemma=synchron 
- ynchronisc ( ) lemma=synchronisch 
- ynchronisier ( ) lemma=synchronisieren 
- ynchronisiert ( ) lemma=synchronisiert 
- ynchronisierte ( ) lemma=synchronisiert 
- yncro-Modell ( ) lemma=syncro-Modell 
- ynergetisc ( ) lemma=synergetisch 
- ynergetisch ( ) lemma=synergetisch 
- ynergetische ( ) lemma=synergetisch 
- ynkopier ( ) lemma=synkopieren 
- ynkopiert ( ) lemma=synkopiert 
- ynkopierte ( ) lemma=synkopiert 
- ynkopisc ( ) lemma=synkopisch 
- ynkopisch ( ) lemma=synkopisch 
- ynkopische ( ) lemma=synkopisch 
- ynkretistisc ( ) lemma=synkretistisch 
- ynkretistisch ( ) lemma=synkretistisch 
- ynkretistische ( ) lemma=synkretistisch 
- ynoptisc ( ) lemma=synoptisch 
- yntaktisc ( ) lemma=syntaktisch 
- yntaktisch ( ) lemma=syntaktisch 
- yntaktische ( ) lemma=syntaktisch 
- ynthetisc ( ) lemma=synthetisch 
- ynthetisiere ( ) lemma=synthetisieren 
- ynthetisieren ( ) lemma=synthetisierend 
- ynthetisierend ( ) lemma=synthetisierend 
- ynthetisier ( ) lemma=synthetisiert 
- ynthetisiert ( ) lemma=synthetisiert 
- yphilitisc ( ) lemma=syphilitisch 
- yphilitisch ( ) lemma=syphilitisch 
- yphilitische ( ) lemma=syphilitisch 
- yrisch-amerikanische ( ) lemma=syrisch-amerikanisch 
- yrisch-irakisch ( ) lemma=syrisch-irakisch 
- yrisch-irakische ( ) lemma=syrisch-irakisch 
- yrisch-iranische ( ) lemma=syrisch-iranisch 
- yrisch-israelische ( ) lemma=syrisch-israelisch 
- yrisch-libanesisch ( ) lemma=syrisch-libanesisch 
- yrisch-libanesische ( ) lemma=syrisch-libanesisch 
- yrisch-orthodox ( ) lemma=syrisch-orthodox 
- yrisch-orthodoxe ( ) lemma=syrisch-orthodox 
- yrisch-palästinensische ( ) lemma=syrisch-palästinensisch 
- yrisch-türkische ( ) lemma=syrisch-türkisch 
- ystematisc ( ) lemma=systematisch 
- ystematisch-theoretisch ( ) lemma=systematisch-theoretisch 
- ystematisch-toxikologische ( ) lemma=systematisch-toxikologisch 
- ystematischere ( ) lemma=systematisch 
- ystematisiere ( ) lemma=systematisieren 
- ystematisier ( ) lemma=systematisieren 
- ystematisiert ( ) lemma=systematisiert 
- ystematisierte ( ) lemma=systematisiert 
- ystembeding ( ) lemma=systembedingt 
- ystembedingt ( ) lemma=systembedingt 
- ystembedingte ( ) lemma=systembedingt 
- ystemerhalten ( ) lemma=systemerhaltend 
- ystemerhaltende ( ) lemma=systemerhaltend 
- ystemfremd ( ) lemma=systemfremd 
- ystemfremde ( ) lemma=systemfremd 
- ystemfunktiona ( ) lemma=systemfunktional 
- ystemgefährden ( ) lemma=systemgefährdend 
- ystemimmanen ( ) lemma=systemimmanent 
- ystemimmanent ( ) lemma=systemimmanent 
- ystemimmanente ( ) lemma=systemimmanent 
- ystemintegrative ( ) lemma=systemintegrativ 
- ystemkonfor ( ) lemma=systemkonform 
- ystemkonform ( ) lemma=systemkonform 
- ystemkonforme ( ) lemma=systemkonform 
- ystemkritisc ( ) lemma=systemkritisch 
- ystemkritisch ( ) lemma=systemkritisch 
- ystemkritische ( ) lemma=systemkritisch 
- ystemoppositionel ( ) lemma=systemoppositionell 
- ystemoppositionell ( ) lemma=systemoppositionell 
- ystemoppositionelle ( ) lemma=systemoppositionell 
- ystemspezifisc ( ) lemma=systemspezifisch 
- ystemsprengen ( ) lemma=systemsprengend 
- ystemsprengend ( ) lemma=systemsprengend 
- ystemsprengende ( ) lemma=systemsprengend 
- ystemstabilisieren ( ) lemma=systemstabilisierend 
- ystemstabilisierende ( ) lemma=systemstabilisierend 
- ystemtechnische ( ) lemma=systemtechnisch 
- ystemtheoretisc ( ) lemma=systemtheoretisch 
- ystemtheoretisch ( ) lemma=systemtheoretisch 
- ystemtheoretische ( ) lemma=systemtheoretisch 
- ystemtragend ( ) lemma=systemtragend 
- ystemtre ( ) lemma=systemtreu 
- ystemunabhängi ( ) lemma=systemunabhängig 
- ystemverändernd ( ) lemma=systemverändernd 
- ystemverändernde ( ) lemma=systemverändernd 
- ystemwidri ( ) lemma=systemwidrig 
- ystemzerstörende ( ) lemma=systemzerstörend 
- ystemübergreifen ( ) lemma=systemübergreifend 
- ystemübergreifende ( ) lemma=systemübergreifend 
- ystemüberwindend ( ) lemma=systemüberwindend 
- ystemüberwindende ( ) lemma=systemüberwindend 
- ypengleich ( ) lemma=typengleich 
- ypgerech ( ) lemma=typgerecht 
- ypgerechte ( ) lemma=typgerecht 
- ypgleich ( ) lemma=typgleich 
- ypgleiche ( ) lemma=typgleich 
- ypidentische ( ) lemma=typidentisch 
- ypischer ( ) lemma=typisch 
- ypischerweis ( ) lemma=typischerweise 
- ypischst ( ) lemma=typisch 
- ypischste ( ) lemma=typisch 
- ypisiere ( ) lemma=typisieren 
- ypisieren ( ) lemma=typisierend 
- ypisierend ( ) lemma=typisierend 
- ypisierende ( ) lemma=typisierend 
- ypisier ( ) lemma=typisieren 
- ypisiert ( ) lemma=typisiert 
- ypisierte ( ) lemma=typisiert 
- ypographisc ( ) lemma=typographisch 
- ypographisch ( ) lemma=typographisch 
- ypographische ( ) lemma=typographisch 
- ypologisc ( ) lemma=typologisch 
- ypologisch ( ) lemma=typologisch 
- ypologische ( ) lemma=typologisch 
- yrannisc ( ) lemma=tyrannisch 
- yrannisch ( ) lemma=tyrannisch 
- yrannische ( ) lemma=tyrannisch 
- yrannischste ( ) lemma=tyrannisch 
- yrannisiere ( ) lemma=tyrannisieren 
- yrannisier ( ) lemma=tyrannisieren 
- yrannisiert ( ) lemma=tyrannisiert 
- yrannisierte ( ) lemma=tyrannisiert 
- yklisc ( ) lemma=zyklisch 
- yklische ( ) lemma=zyklisch 
- ylinderartige ( ) lemma=zylinderartig 
- ylinderförmige ( ) lemma=zylinderförmig 
- ylindrisc ( ) lemma=zylindrisch 
- ylindrisch ( ) lemma=zylindrisch 
- ylindrische ( ) lemma=zylindrisch 
- ynisc ( ) lemma=zynisch 
- ynisch-grotesk ( ) lemma=zynisch-grotesk 
- ynisch-idyllisch ( ) lemma=zynisch-idyllisch 
- ynischer ( ) lemma=zynisch 
- ynischerweis ( ) lemma=zynischerweise 
- ynischst ( ) lemma=zynisch 
- ynischste ( ) lemma=zynisch 
- yperngriechisc ( ) lemma=zyperngriechisch 
- yperngriechisch ( ) lemma=zyperngriechisch 
- yperngriechische ( ) lemma=zyperngriechischer 
- yperntürkisch ( ) lemma=zyperntürkisch 
- yperntürkische ( ) lemma=zyperntürkisch 
- ypriotische ( ) lemma=zypriotisch 
- yprisch ( ) lemma=zyprisch 
- yprische ( ) lemma=zyprisch 

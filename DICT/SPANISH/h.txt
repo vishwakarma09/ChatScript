@@ -1,4 +1,4 @@
-﻿ H ( ) lemma=kHz 
+﻿ H ( ) 
  H.14 ( ) 
  H.15 ( ) 
  H.22 ( ) 
@@ -7,2214 +7,1795 @@
  H.34 ( ) 
  H.41 ( ) 
  HATS ( ) 
- HDLC ( ) 
- HH ( ) lemma=HHHH 
+ HDLC ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ HH ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
  HHHH ( ) 
- HIC ( ) 
- HLO ( ) 
+ HIC ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ HLO ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
  HLR ( ) 
- HOC ( ) 
+ HOC ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
  HPLMN ( ) 
- HT ( ) 
- HTC ( ) 
- Habana ( ) 
- Hacienda ( ) 
- Haití ( ) 
- Halloween ( ) 
- Hamburgo ( ) 
- Hamer ( ) 
- Hamilton ( ) 
- Hamiltoniano ( ) 
- Hammacks ( ) 
- Hammurabi ( ) 
- Hanna ( ) 
- Hans ( ) 
- Hansa ( ) 
- Hardy-Weinberg ( ) 
- Harley ( ) 
- Harman ( ) 
- Harriet ( ) 
- Harrison ( ) 
- Harrod ( ) 
- Harsey ( ) 
- Harvey ( ) 
- Hassan ( ) 
- Hasta ( ) 
- Hawai ( ) 
- Haworth ( ) 
- Haydée ( ) 
- Hayward ( ) 
- He+ ( ) 
- Heal ( ) 
- Hearst ( ) 
- Hebb ( ) 
- Heberbiovac-HB ( ) 
- Hecht ( ) 
- Heidi ( ) 
- Heliodoro ( ) 
- Helix ( ) 
- Hello ( ) 
- Helmut ( ) 
- Helsinki ( ) 
+ HT ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ HTC ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Habana ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hacienda ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Haití ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Halloween ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hamburgo ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hamer ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hamilton ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hamiltoniano ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hammacks ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hammurabi ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hanna ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hans ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hansa ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hardy-Weinberg ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Harley ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Harman ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Harriet ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Harrison ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Harrod ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Harsey ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Harvey ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hassan ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hasta ( ADVERB ) 
+ Hawai ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Haworth ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Haydée ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hayward ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ He+ ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Heal ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hearst ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hebb ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Heberbiovac-HB ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hecht ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Heidi ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Heliodoro ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Helix ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hello ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Helmut ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Helsinki ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
  Helveticen ( ) 
- Hemocromatosis ( ) 
- Hemofiltración ( ) 
- Henderson-Hasselbalch ( ) 
- Henle ( ) 
- Henri ( ) 
- Henry ( ) 
- Hepanostika ( ) 
- Hepatotoxicidad ( ) 
- Hering-Breuer ( ) 
- Hermosillo ( ) 
- Hernando ( ) 
- Hernán ( ) 
- Hernández ( ) 
- Herramientas ( ) 
- Herrera ( ) 
- Herri ( ) 
- Hewlett-Packard ( ) 
- Hicks ( ) 
- Hilario ( ) 
- Hilbert ( ) 
- Hill ( ) 
- Hillary ( ) 
- Hincha ( ) 
- Hinckley ( ) 
- Hinojosa ( ) 
- Hiperfiltración ( ) 
- Hiperglicemia ( ) 
- Hiperlipoproteinemia ( ) 
- Hipernatremia ( ) 
- Hiperreactividad ( ) 
- Hipersomnia ( ) 
- Hipocolesterolemia ( ) 
- Hipocrecimiento ( ) 
- Hipoglicemias ( ) 
- Hiposecreción ( ) 
- Hipoventilación ( ) 
- Hipócrates ( ) 
- Hiroshima ( ) 
- Hirschprung ( ) 
- Hirschsprung ( ) 
- His ( ) 
- Hispavox ( ) 
- Historia ( ) 
- Hitachi ( ) 
- Hitler ( ) 
- Hitschmann ( ) 
- Holanda ( ) 
- Holland ( ) 
- Hollander ( ) 
- Hollerith ( ) 
- Holliday ( ) 
- Hollywood ( ) 
- Holter ( ) 
+ Hemocromatosis ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hemofiltración ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Henderson-Hasselbalch ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Henle ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Henri ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Henry ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hepanostika ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hepatotoxicidad ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hering-Breuer ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hermosillo ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hernando ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hernán ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hernández ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Herramientas ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Herrera ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Herri ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hewlett-Packard ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hicks ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hilario ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hilbert ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hill ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hillary ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hincha ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hinckley ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hinojosa ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hiperfiltración ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hiperglicemia ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hiperlipoproteinemia ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hipernatremia ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hiperreactividad ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hipersomnia ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hipocolesterolemia ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hipocrecimiento ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hipoglicemias ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hiposecreción ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hipoventilación ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hipócrates ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hiroshima ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hirschprung ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hirschsprung ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ His ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hispavox ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Historia ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hitachi ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hitler ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hitschmann ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Holanda ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Holland ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hollander ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hollerith ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Holliday ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hollywood ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Holter ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
  Home ( ) 
- Homero ( ) 
- Hominoidea ( ) 
- Homopolipéptidos ( ) 
- Honduras ( ) 
- Hongkong ( ) 
- Honorio ( ) 
- Horacio ( ) 
- Hospital ( ) 
- Host ( ) 
- Houston ( ) 
- Howard ( ) 
- Hox ( ) 
- Huancayo ( ) 
- Huang ( ) 
- Huanta ( ) 
- Huarás ( ) 
- Huaylas ( ) 
- Huberty ( ) 
- Huelva ( ) 
- Huenatenango ( ) 
- Huesca ( ) 
- Huffman ( ) 
- Hughes ( ) 
- Hugo ( ) 
- Huguito ( ) 
- Humana ( ) 
- Humberto ( ) 
- Humphrey ( ) 
- Hungría ( ) 
- Hunter ( ) 
- Huntington ( ) 
- Huppler ( ) 
- Huracan ( ) 
- Hurler ( ) 
- Hurwicz ( ) 
- Hussein ( ) 
- Hutchinson ( ) 
- Huygens ( ) 
- Hz ( ) 
- Héctor ( ) 
- Húngara ( ) 
- h ( ) lemma=the 
- ha ( ) lemma=chau 
- hab ( ) 
- haba ( ) 
- habanera ( ) 
- habanero ( ) 
- habaneros ( ) 
- habas ( ) 
- haber ( ) 
- haberes ( ) 
- haberla ( ) 
- haberlas ( ) 
- haberle ( ) 
- haberles ( ) 
- haberlo ( ) 
- haberlos ( ) 
- haberme ( ) 
- habernos ( ) 
- haberos ( ) 
- haberse ( ) 
- haberte ( ) 
- habia ( ) 
- habian ( ) 
- habichuelas ( ) 
- habida ( ) 
- habidas ( ) 
- habido ( ) 
- habidos ( ) 
- habiendo ( ) 
- habilidad ( ) 
- habilidades ( ) 
- habilita ( ) 
- habilitación ( ) 
- habilitada ( ) 
- habilitadas ( ) 
- habilitado ( ) 
- habilitados ( ) 
- habilitan ( ) 
- habilitando ( ) 
- habilitar ( ) 
- habilitara ( ) 
- habilitaran ( ) 
- habilitarlo ( ) 
- habilitaron ( ) 
- habilitarse ( ) 
- habilitará ( ) 
- habilitarán ( ) 
- habilite ( ) 
- habiliten ( ) 
- habilitásemos ( ) 
- habilitó ( ) 
- habita ( ) 
- habitaba ( ) 
- habitaban ( ) 
- habitabilidad ( ) 
- habitacion ( ) 
- habitaciones ( ) 
- habitación ( ) 
- habitada ( ) 
- habitadas ( ) 
- habitado ( ) 
- habitados ( ) 
- habitan ( ) 
- habitante ( ) 
- habitantes ( ) 
- habitar ( ) 
- habitas ( ) 
- habite ( ) 
- habiten ( ) 
- habituada ( ) 
- habituadas ( ) 
- habituado ( ) 
- habituados ( ) 
- habitual ( ) 
- habituales ( ) 
- habitualmente ( ) 
- habituando ( ) 
- habitábamos ( ) 
- habiéndola ( ) 
- habiéndolas ( ) 
- habiéndole ( ) 
- habiéndoles ( ) 
- habiéndolo ( ) 
- habiéndonos ( ) 
- habiéndose ( ) 
- habiéndoseles ( ) 
- habla ( ) 
- hablaba ( ) 
- hablabais ( ) 
- hablaban ( ) 
- hablabas ( ) 
- hablada ( ) 
- habladas ( ) 
- hablado ( ) 
- hablador ( ) 
- habladora ( ) 
- habladores ( ) 
- hablados ( ) 
- hablai ( ) 
- hablale ( ) 
- hablamos ( ) 
- hablan ( ) 
- hablando ( ) 
- hablante ( ) 
- hablantes ( ) 
- hablar ( ) 
- hablara ( ) 
- hablaran ( ) 
- hablaras ( ) 
- hablaremos ( ) 
- hablarla ( ) 
- hablarle ( ) 
- hablarles ( ) 
- hablarlo ( ) 
- hablarme ( ) 
- hablarnos ( ) 
- hablaron ( ) 
- hablaros ( ) 
- hablarse ( ) 
- hablarte ( ) 
- hablará ( ) 
- hablarán ( ) 
- hablaré ( ) 
- hablaría ( ) 
- hablaríamos ( ) 
- hablarían ( ) 
- hablas ( ) 
- hablase ( ) 
- hablaste ( ) 
- hable ( ) 
- hablemos ( ) 
- hablen ( ) 
- hables ( ) 
- hablo ( ) 
- hablábamos ( ) 
- habláis ( ) 
- hablándole ( ) 
- hablándoles ( ) 
- hablándolo ( ) 
- hablándome ( ) 
- hablándonos ( ) 
- habláramos ( ) 
- hablásemos ( ) 
- hablé ( ) 
- habléis ( ) 
- habló ( ) 
- habremos ( ) 
- habrian ( ) 
- habrá ( ) 
- habrán ( ) 
- habrás ( ) 
- habré ( ) 
- habréis ( ) 
- habría ( ) 
- habríais ( ) 
- habríamos ( ) 
- habrían ( ) 
- habéis ( ) 
- habérsela ( ) 
- habérselas ( ) 
- habérsele ( ) 
- habérseles ( ) 
- habérseme ( ) 
- habérsenos ( ) 
- había ( ) 
- habíais ( ) 
- habíamos ( ) 
- habían ( ) 
- habías ( ) 
- hace ( ) 
- haced ( ) 
- hacemos ( ) 
- hacen ( ) 
- hacendada ( ) 
- hacendado ( ) 
- hacendados ( ) 
- hacer ( ) 
- hacerla ( ) 
- hacerlas ( ) 
- hacerle ( ) 
- hacerles ( ) 
- hacerlo ( ) 
- hacerme ( ) 
- hacernos ( ) 
- haceros ( ) 
- hacerse ( ) 
- hacerte ( ) 
- haces ( ) 
- hacete ( ) 
- hacha ( ) 
- hachas ( ) 
- hache ( ) 
- hachemita ( ) 
- hachís ( ) 
- hacia ( ) 
- hacienda ( ) 
- haciendas ( ) 
- haciendo ( ) 
- hacinadas ( ) 
- hacinado ( ) 
- hacinados ( ) 
- hacinamiento ( ) 
- hacinan ( ) 
- hacinar ( ) 
- haciéndola ( ) 
- haciéndolas ( ) 
- haciéndole ( ) 
- haciéndoles ( ) 
- haciéndolo ( ) 
- haciéndolos ( ) 
- haciéndome ( ) 
- haciéndonos ( ) 
- haciéndose ( ) 
- haciéndoselo ( ) 
- hacéis ( ) 
- hacérmelo ( ) 
- hacérsela ( ) 
- hacérselas ( ) 
- hacérsele ( ) 
- hacérseles ( ) 
- hacérselo ( ) 
- hacérselos ( ) 
- hacés ( ) 
- hacía ( ) 
- hacíais ( ) 
- hacíamos ( ) 
- hacían ( ) 
- hacías ( ) 
- hada ( ) 
- hadas ( ) 
- hado ( ) 
- hados ( ) 
- haemoglukotest ( ) 
- haga ( ) lemma=Chagas 
- hagamos ( ) 
- hagan ( ) 
- hagas ( ) 
- hago ( ) 
- hagáis ( ) 
- hagámoslas ( ) 
- hagámosles ( ) 
- hagámoslo ( ) 
- hagás ( ) 
- haitiana ( ) 
- haitianas ( ) 
- haitiano ( ) 
- haitianos ( ) 
- hala ( ) 
- halaga ( ) 
- halagado ( ) 
- halagará ( ) 
- halago ( ) 
- halagos ( ) 
- halagüeñas ( ) 
- halcones ( ) 
- halcón ( ) 
- hale ( ) lemma=chalet 
+ Homero ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hominoidea ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Homopolipéptidos ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Honduras ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hongkong ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Honorio ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Horacio ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hospital ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Host ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Houston ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Howard ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hox ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Huancayo ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Huang ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Huanta ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Huarás ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Huaylas ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Huberty ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Huelva ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Huenatenango ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Huesca ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Huffman ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hughes ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hugo ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Huguito ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=Hugo 
+ Humana ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Humberto ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Humphrey ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hungría ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hunter ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Huntington ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Huppler ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Huracan ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=Huracán 
+ Hurler ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hurwicz ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hussein ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hutchinson ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Huygens ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Hz ( NOUN NOUN_SINGULAR ) 
+ Héctor ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Húngara ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ h ( ) 
+ ha ( VERB ) lemma=haber 
+ hab ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ haba ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ habanera ( ADJECTIVE ) lemma=habanero 
+ habanero ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ habaneros ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=habanero 
+ habas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=haba 
+ haber ( VERB ) 
+ haberes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=haber 
+ haberla ( VERB_INFINITIVE VERB ) lemma=haber 
+ haberlas ( VERB_INFINITIVE VERB ) lemma=haber 
+ haberle ( VERB_INFINITIVE VERB ) lemma=haber 
+ haberles ( VERB_INFINITIVE VERB ) lemma=haber 
+ haberlo ( VERB_INFINITIVE VERB ) lemma=haber 
+ haberlos ( VERB_INFINITIVE VERB ) lemma=haber 
+ haberme ( VERB_INFINITIVE VERB ) lemma=haber 
+ habernos ( VERB_INFINITIVE VERB ) lemma=haber 
+ haberos ( VERB ) lemma=haber 
+ haberse ( VERB_INFINITIVE VERB ) 
+ haberte ( VERB_INFINITIVE VERB ) lemma=haber 
+ habia ( VERB ) lemma=haber 
+ habian ( VERB ) lemma=haber 
+ habichuelas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=habichuela 
+ habida ( VERB_PAST_PARTICIPLE VERB ) lemma=haber 
+ habidas ( VERB_PAST_PARTICIPLE VERB ) lemma=haber 
+ habido ( VERB_PAST_PARTICIPLE VERB ) lemma=haber 
+ habidos ( VERB_PAST_PARTICIPLE VERB ) lemma=haber 
+ habiendo ( NOUN NOUN_GERUND ) lemma=haber 
+ habilidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ habilidades ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=habilidad 
+ habilita ( VERB ) lemma=habilitar 
+ habilitación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ habilitada ( VERB_PAST_PARTICIPLE VERB ) lemma=habilitar 
+ habilitadas ( VERB_PAST_PARTICIPLE VERB ) lemma=habilitar 
+ habilitado ( VERB_PAST_PARTICIPLE VERB ) lemma=habilitar 
+ habilitados ( VERB_PAST_PARTICIPLE VERB ) lemma=habilitar 
+ habilitan ( VERB ) lemma=habilitar 
+ habilitando ( NOUN NOUN_GERUND ) lemma=habilitar 
+ habilitar ( VERB ) 
+ habilitara ( VERB ) lemma=habilitar 
+ habilitaran ( VERB ) lemma=habilitar 
+ habilitarlo ( VERB_INFINITIVE VERB ) lemma=habilitar 
+ habilitaron ( VERB ) lemma=habilitar 
+ habilitarse ( VERB_INFINITIVE VERB ) 
+ habilitará ( VERB ) lemma=habilitar 
+ habilitarán ( VERB ) lemma=habilitar 
+ habilite ( VERB ) lemma=habilitar 
+ habiliten ( VERB ) lemma=habilitar 
+ habilitásemos ( VERB ) lemma=habilitar 
+ habilitó ( VERB ) lemma=habilitar 
+ habita ( VERB ) lemma=habitar 
+ habitaba ( VERB ) lemma=habitar 
+ habitaban ( VERB ) lemma=habitar 
+ habitabilidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ habitacion ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=habitación 
+ habitaciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=habitación 
+ habitación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ habitada ( VERB_PAST_PARTICIPLE VERB ) lemma=habitar 
+ habitadas ( VERB_PAST_PARTICIPLE VERB ) lemma=habitar 
+ habitado ( VERB_PAST_PARTICIPLE VERB ) lemma=habitar 
+ habitados ( VERB_PAST_PARTICIPLE VERB ) lemma=habitar 
+ habitan ( VERB ) lemma=habitar 
+ habitante ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ habitantes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=habitante 
+ habitar ( VERB ) 
+ habitas ( VERB ) lemma=habitar 
+ habite ( VERB ) lemma=habitar 
+ habiten ( VERB ) lemma=habitar 
+ habituada ( VERB_PAST_PARTICIPLE VERB ) lemma=habituar 
+ habituadas ( VERB_PAST_PARTICIPLE VERB ) lemma=habituar 
+ habituado ( VERB_PAST_PARTICIPLE VERB ) lemma=habituar 
+ habituados ( VERB_PAST_PARTICIPLE VERB ) lemma=habituar 
+ habitual ( ADJECTIVE ) 
+ habituales ( ADJECTIVE ) lemma=habitual 
+ habitualmente ( ADVERB ) lemma=habitual 
+ habituando ( NOUN NOUN_GERUND ) lemma=habituar 
+ habitábamos ( VERB ) lemma=habitar 
+ habiéndola ( NOUN NOUN_GERUND ) lemma=haber 
+ habiéndolas ( NOUN NOUN_GERUND ) lemma=haber 
+ habiéndole ( NOUN NOUN_GERUND ) lemma=haber 
+ habiéndoles ( NOUN NOUN_GERUND ) lemma=haber 
+ habiéndolo ( NOUN NOUN_GERUND ) lemma=haber 
+ habiéndonos ( VERB_PAST_PARTICIPLE VERB ) lemma=haber 
+ habiéndose ( NOUN NOUN_GERUND ) lemma=haberse 
+ habiéndoseles ( NOUN NOUN_GERUND ) lemma=haberse 
+ habla ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ hablaba ( VERB ) lemma=hablar 
+ hablabais ( VERB ) lemma=hablar 
+ hablaban ( VERB ) lemma=hablar 
+ hablabas ( VERB ) lemma=hablar 
+ hablada ( VERB_PAST_PARTICIPLE VERB ) lemma=hablar 
+ habladas ( VERB_PAST_PARTICIPLE VERB ) lemma=hablar 
+ hablado ( VERB_PAST_PARTICIPLE VERB ) lemma=hablar 
+ hablador ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ habladora ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hablador 
+ habladores ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hablador 
+ hablados ( VERB_PAST_PARTICIPLE VERB ) lemma=hablar 
+ hablai ( VERB ) lemma=hablar 
+ hablale ( ) lemma=hablar 
+ hablamos ( VERB ) lemma=hablar 
+ hablan ( VERB ) lemma=hablar 
+ hablando ( NOUN NOUN_GERUND ) lemma=hablar 
+ hablante ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hablantes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hablante 
+ hablar ( VERB ) 
+ hablara ( VERB ) lemma=hablar 
+ hablaran ( VERB ) lemma=hablar 
+ hablaras ( VERB ) lemma=hablar 
+ hablaremos ( VERB ) lemma=hablar 
+ hablarla ( VERB_INFINITIVE VERB ) lemma=hablar 
+ hablarle ( VERB_INFINITIVE VERB ) lemma=hablar 
+ hablarles ( VERB_INFINITIVE VERB ) lemma=hablar 
+ hablarlo ( VERB_INFINITIVE VERB ) lemma=hablar 
+ hablarme ( VERB_INFINITIVE VERB ) lemma=hablar 
+ hablarnos ( VERB_INFINITIVE VERB ) lemma=hablar 
+ hablaron ( VERB ) lemma=hablar 
+ hablaros ( VERB ) lemma=hablar 
+ hablarse ( VERB_INFINITIVE VERB ) 
+ hablarte ( VERB_INFINITIVE VERB ) lemma=hablar 
+ hablará ( VERB ) lemma=hablar 
+ hablarán ( VERB ) lemma=hablar 
+ hablaré ( VERB ) lemma=hablar 
+ hablaría ( VERB ) lemma=hablar 
+ hablaríamos ( VERB ) lemma=hablar 
+ hablarían ( VERB ) lemma=hablar 
+ hablas ( VERB ) lemma=hablar 
+ hablase ( VERB ) lemma=hablar 
+ hablaste ( VERB ) lemma=hablar 
+ hable ( VERB ) lemma=hablar 
+ hablemos ( VERB ) lemma=hablar 
+ hablen ( VERB ) lemma=hablar 
+ hables ( VERB ) lemma=hablar 
+ hablo ( VERB ) lemma=hablar 
+ hablábamos ( VERB ) lemma=hablar 
+ habláis ( VERB ) lemma=hablar 
+ hablándole ( VERB_PAST_PARTICIPLE VERB ) lemma=hablar 
+ hablándoles ( NOUN NOUN_GERUND ) lemma=hablar 
+ hablándolo ( NOUN NOUN_GERUND ) lemma=hablar 
+ hablándome ( VERB_PAST_PARTICIPLE VERB ) lemma=hablar 
+ hablándonos ( VERB_PAST_PARTICIPLE VERB ) lemma=hablar 
+ habláramos ( VERB ) lemma=hablar 
+ hablásemos ( VERB ) lemma=hablar 
+ hablé ( VERB ) lemma=hablar 
+ habléis ( VERB ) lemma=hablar 
+ habló ( VERB ) lemma=hablar 
+ habremos ( VERB ) lemma=haber 
+ habrian ( VERB ) lemma=haber 
+ habrá ( VERB ) lemma=haber 
+ habrán ( VERB ) lemma=haber 
+ habrás ( VERB ) lemma=haber 
+ habré ( VERB ) lemma=haber 
+ habréis ( VERB ) lemma=haber 
+ habría ( VERB ) lemma=haber 
+ habríais ( VERB ) lemma=haber 
+ habríamos ( VERB ) lemma=haber 
+ habrían ( VERB ) lemma=haber 
+ habéis ( VERB ) lemma=haber 
+ habérsela ( VERB_INFINITIVE VERB ) lemma=haberse 
+ habérselas ( VERB_INFINITIVE VERB ) lemma=haberse 
+ habérsele ( VERB_INFINITIVE VERB ) lemma=haberse 
+ habérseles ( VERB_INFINITIVE VERB ) lemma=haberse 
+ habérseme ( VERB_INFINITIVE VERB ) lemma=haberse 
+ habérsenos ( VERB_INFINITIVE VERB ) lemma=haberse 
+ había ( VERB ) lemma=haber 
+ habíais ( VERB ) lemma=haber 
+ habíamos ( VERB ) lemma=haber 
+ habían ( VERB ) lemma=haber 
+ habías ( VERB ) lemma=haber 
+ hace ( VERB ) lemma=hacer 
+ haced ( VERB ) lemma=hacer 
+ hacemos ( VERB ) lemma=hacer 
+ hacen ( VERB ) lemma=hacer 
+ hacendada ( VERB_PAST_PARTICIPLE VERB ) lemma=hacendar 
+ hacendado ( VERB_PAST_PARTICIPLE VERB ) lemma=hacendar 
+ hacendados ( VERB_PAST_PARTICIPLE VERB ) lemma=hacendar 
+ hacer ( VERB ) 
+ hacerla ( VERB_INFINITIVE VERB ) lemma=hacer 
+ hacerlas ( VERB_INFINITIVE VERB ) lemma=hacer 
+ hacerle ( VERB_INFINITIVE VERB ) lemma=hacer 
+ hacerles ( VERB_INFINITIVE VERB ) lemma=hacer 
+ hacerlo ( VERB_INFINITIVE VERB ) lemma=hacer 
+ hacerme ( VERB_INFINITIVE VERB ) lemma=hacer 
+ hacernos ( VERB_INFINITIVE VERB ) lemma=hacer 
+ haceros ( VERB ) lemma=hacer 
+ hacerse ( VERB_INFINITIVE VERB ) 
+ hacerte ( VERB_INFINITIVE VERB ) lemma=hacer 
+ haces ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=haz 
+ hacete ( VERB ) lemma=hacer 
+ hacha ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ hachas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=hacha 
+ hache ( VERB ) lemma=hachar 
+ hachemita ( ADJECTIVE ) lemma=hachemito 
+ hachís ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hacia ( VERB PREPOSITION ) 
+ hacienda ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ haciendas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=hacienda 
+ haciendo ( NOUN NOUN_GERUND ) lemma=hacer 
+ hacinadas ( VERB_PAST_PARTICIPLE VERB ) lemma=hacinar 
+ hacinado ( VERB_PAST_PARTICIPLE VERB ) lemma=hacinar 
+ hacinados ( VERB_PAST_PARTICIPLE VERB ) lemma=hacinar 
+ hacinamiento ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hacinan ( VERB ) lemma=hacinar 
+ hacinar ( VERB ) 
+ haciéndola ( NOUN NOUN_GERUND ) lemma=hacer 
+ haciéndolas ( NOUN NOUN_GERUND ) lemma=hacer 
+ haciéndole ( VERB_PAST_PARTICIPLE VERB ) lemma=hacer 
+ haciéndoles ( VERB_PAST_PARTICIPLE VERB ) lemma=hacer 
+ haciéndolo ( VERB_PAST_PARTICIPLE VERB ) lemma=hacer 
+ haciéndolos ( NOUN NOUN_GERUND ) lemma=hacer 
+ haciéndome ( VERB_PAST_PARTICIPLE VERB ) lemma=hacer 
+ haciéndonos ( VERB_PAST_PARTICIPLE VERB ) lemma=hacer 
+ haciéndose ( NOUN NOUN_GERUND ) 
+ haciéndoselo ( NOUN NOUN_GERUND ) lemma=hacerse 
+ hacéis ( VERB ) lemma=hacer 
+ hacérmelo ( VERB_INFINITIVE VERB ) lemma=hacer 
+ hacérsela ( VERB ) lemma=hacer 
+ hacérselas ( VERB_INFINITIVE VERB ) lemma=hacerse 
+ hacérsele ( VERB_INFINITIVE VERB ) lemma=hacerse 
+ hacérseles ( VERB_INFINITIVE VERB ) lemma=hacerse 
+ hacérselo ( VERB_INFINITIVE VERB ) lemma=hacer 
+ hacérselos ( VERB_INFINITIVE VERB ) lemma=hacerse 
+ hacés ( VERB ) lemma=hacer 
+ hacía ( VERB ) lemma=hacer 
+ hacíais ( VERB ) lemma=hacer 
+ hacíamos ( VERB ) lemma=hacer 
+ hacían ( VERB ) lemma=hacer 
+ hacías ( VERB ) lemma=hacer 
+ hada ( VERB ) lemma=hadar 
+ hadas ( VERB ) lemma=hadar 
+ hado ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ hados ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hado 
+ haemoglukotest ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ haga ( VERB ) lemma=hacer 
+ hagamos ( VERB ) lemma=hacer 
+ hagan ( VERB ) lemma=hacer 
+ hagas ( VERB ) lemma=hacer 
+ hago ( VERB ) lemma=hacer 
+ hagáis ( VERB ) lemma=hacer 
+ hagámoslas ( VERB ) lemma=hacer 
+ hagámosles ( VERB ) lemma=hacer 
+ hagámoslo ( ) lemma=hacer 
+ hagás ( VERB ) lemma=hacer 
+ haitiana ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=haitiano 
+ haitianas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=haitiano 
+ haitiano ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ haitianos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=haitiano 
+ hala ( VERB ) lemma=halar 
+ halaga ( VERB ) lemma=halagar 
+ halagado ( VERB_PAST_PARTICIPLE VERB ) lemma=halagar 
+ halagará ( VERB ) lemma=halagar 
+ halago ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ halagos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=halago 
+ halagüeñas ( ADJECTIVE ) lemma=halagüeño 
+ halcones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=halcón 
+ halcón ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hale ( VERB ) lemma=halar 
  half ( ) 
- halitosis ( ) 
- hall ( ) 
- halla ( ) 
- hallaba ( ) 
- hallaban ( ) 
- hallada ( ) 
- halladas ( ) 
- hallado ( ) 
- hallados ( ) 
- hallamos ( ) 
- hallan ( ) 
- hallando ( ) 
- hallar ( ) 
- hallara ( ) 
- hallaran ( ) 
- hallare ( ) 
- hallaremos ( ) 
- hallarla ( ) 
- hallaron ( ) 
- hallarse ( ) 
- hallará ( ) 
- hallarán ( ) 
- hallaría ( ) 
- hallaríamos ( ) 
- hallarían ( ) 
- hallase ( ) 
- hallaseis ( ) 
- hallasen ( ) 
- hallazgo ( ) 
- hallazgos ( ) 
- halle ( ) 
- hallemos ( ) 
- hallen ( ) 
- hallo ( ) 
- hallábamos ( ) 
- hallándose ( ) 
- halláramos ( ) 
- halló ( ) 
- halo ( ) 
- halofantrina ( ) 
- halofitismo ( ) 
- halogenados ( ) 
- halones ( ) 
- halógenos ( ) 
- hamaca ( ) 
- hambre ( ) 
- hambres ( ) 
- hambrienta ( ) 
- hambrientas ( ) 
- hambriento ( ) 
- hambrientos ( ) 
- hambruna ( ) 
- hambrunas ( ) 
- hamburguesa ( ) 
- hamburguesas ( ) 
- hamiltoniano ( ) 
- hampa ( ) 
- han ( ) lemma=Ghana 
- hand ( ) 
+ halitosis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hall ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ halla ( VERB ) lemma=hallar 
+ hallaba ( VERB ) lemma=hallar 
+ hallaban ( VERB ) lemma=hallar 
+ hallada ( VERB_PAST_PARTICIPLE VERB ) lemma=hallar 
+ halladas ( VERB_PAST_PARTICIPLE VERB ) lemma=hallar 
+ hallado ( VERB_PAST_PARTICIPLE VERB ) lemma=hallar 
+ hallados ( VERB_PAST_PARTICIPLE VERB ) lemma=hallar 
+ hallamos ( VERB ) lemma=hallar 
+ hallan ( VERB ) lemma=hallar 
+ hallando ( NOUN NOUN_GERUND ) lemma=hallar 
+ hallar ( VERB ) 
+ hallara ( VERB ) lemma=hallar 
+ hallaran ( VERB ) lemma=hallar 
+ hallare ( VERB ) lemma=hallar 
+ hallaremos ( VERB ) lemma=hallar 
+ hallarla ( VERB ) lemma=hallar 
+ hallaron ( VERB ) lemma=hallar 
+ hallarse ( VERB_INFINITIVE VERB ) 
+ hallará ( VERB ) lemma=hallar 
+ hallarán ( VERB ) lemma=hallar 
+ hallaría ( VERB ) lemma=hallar 
+ hallaríamos ( VERB ) lemma=hallar 
+ hallarían ( VERB ) lemma=hallar 
+ hallase ( VERB ) lemma=hallar 
+ hallaseis ( VERB ) lemma=hallar 
+ hallasen ( VERB ) lemma=hallar 
+ hallazgo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hallazgos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hallazgo 
+ halle ( VERB ) lemma=hallar 
+ hallemos ( VERB ) lemma=hallar 
+ hallen ( VERB ) lemma=hallar 
+ hallo ( VERB ) lemma=hallar 
+ hallábamos ( VERB ) lemma=hallar 
+ hallándose ( VERB_PAST_PARTICIPLE VERB ) lemma=hallar 
+ halláramos ( VERB ) lemma=hallar 
+ halló ( VERB ) lemma=hallar 
+ halo ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ halofantrina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ halofitismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ halogenados ( VERB_PAST_PARTICIPLE VERB ) lemma=halogenar 
+ halones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=halón 
+ halógenos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=halógeno 
+ hamaca ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ hambre ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hambres ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hambre 
+ hambrienta ( ADJECTIVE ) lemma=hambriento 
+ hambrientas ( ADJECTIVE ) lemma=hambriento 
+ hambriento ( ADJECTIVE ) 
+ hambrientos ( ADJECTIVE ) lemma=hambriento 
+ hambruna ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hambrunas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hambruna 
+ hamburguesa ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hamburgués 
+ hamburguesas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hamburgués 
+ hamiltoniano ( ADJECTIVE ) 
+ hampa ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ han ( VERB ) lemma=haber 
+ hand ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  handling ( ) 
  hands ( ) 
- haplogrupo ( ) 
- haploide ( ) 
- haploides ( ) 
- haplotipo ( ) 
- haplotipos ( ) 
- hapteno ( ) 
- hapteno-proteína ( ) 
- haptenos ( ) 
- haptoglobina ( ) 
- hapténico ( ) 
- hardware ( ) 
- hardwarea ( ) 
- haremos ( ) 
- haria ( ) 
- harina ( ) 
- harinas ( ) 
+ haplogrupo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ haploide ( ADJECTIVE ) 
+ haploides ( ADJECTIVE ) lemma=haploide 
+ haplotipo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ haplotipos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=haplotipo 
+ hapteno ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hapteno-proteína ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ haptenos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hapteno 
+ haptoglobina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hapténico ( ADJECTIVE ) 
+ hardware ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hardwarea ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ haremos ( VERB ) lemma=hacer 
+ haria ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hacer 
+ harina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ harinas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=harina 
  harmonique ( ) 
- harta ( ) 
- hartado ( ) 
- hartan ( ) 
- hartando ( ) 
- hartar ( ) 
- hartaron ( ) 
- hartas ( ) 
- harten ( ) 
- hartita ( ) 
- harto ( ) 
- hartos ( ) 
- hartó ( ) 
- hará ( ) 
- harán ( ) 
- harás ( ) 
- haré ( ) 
- harén ( ) 
- haría ( ) 
- haríamos ( ) 
- harían ( ) 
- harías ( ) 
- has ( ) lemma=phase 
- hash ( ) 
- hasta ( ) 
- hato ( ) 
- hatos ( ) 
+ harta ( VERB ADJECTIVE ) lemma=harto 
+ hartado ( VERB_PAST_PARTICIPLE VERB ) lemma=hartar 
+ hartan ( VERB ) lemma=hartar 
+ hartando ( NOUN NOUN_GERUND ) lemma=hartar 
+ hartar ( VERB ) 
+ hartaron ( VERB ) lemma=hartar 
+ hartas ( VERB ADJECTIVE ) lemma=harto 
+ harten ( VERB ) lemma=hartar 
+ hartita ( ADJECTIVE ) lemma=harto 
+ harto ( VERB ADJECTIVE ADVERB ) 
+ hartos ( ADJECTIVE ) lemma=harto 
+ hartó ( VERB ) lemma=hartar 
+ hará ( VERB ) lemma=hacer 
+ harán ( VERB ) lemma=hacer 
+ harás ( VERB ) lemma=hacer 
+ haré ( VERB ) lemma=hacer 
+ harén ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ haría ( VERB ) lemma=hacer 
+ haríamos ( VERB ) lemma=hacer 
+ harían ( VERB ) lemma=hacer 
+ harías ( VERB ) lemma=hacer 
+ has ( VERB ) lemma=haber 
+ hash ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hasta ( PREPOSITION ) 
+ hato ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hatos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hato 
  haut ( ) 
- hawaianos ( ) 
- hay ( ) 
- haya ( ) 
- hayamos ( ) 
- hayan ( ) 
- hayas ( ) 
- hayedo-abetal ( ) 
- hayerror ( ) 
- hayáis ( ) 
- haz ( ) 
- hazaña ( ) 
- hazañas ( ) 
- hazhoja ( ) 
- hazle ( ) 
- hazlo ( ) 
- hazme ( ) 
- hazmerreir ( ) 
- hazte ( ) 
- he ( ) lemma=Ches 
+ hawaianos ( ADJECTIVE ) lemma=hawaiano 
+ hay ( VERB ) lemma=haber 
+ haya ( VERB ) lemma=haber 
+ hayamos ( VERB ) lemma=haber 
+ hayan ( VERB ) lemma=haber 
+ hayas ( VERB ) lemma=haber 
+ hayedo-abetal ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hayerror ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hayáis ( VERB ) lemma=haber 
+ haz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hazaña ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hazañas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hazaña 
+ hazhoja ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hazle ( ) lemma=hacer 
+ hazlo ( ) lemma=hacer 
+ hazme ( ) lemma=hacer 
+ hazmerreir ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hazte ( ) lemma=hacer 
+ he ( VERB ) lemma=haber 
  head ( ) 
- header ( ) 
- headhunter ( ) 
- headhunting ( ) 
- hebbiano ( ) 
- hebillas ( ) 
- hebra ( ) 
- hebras ( ) 
- hebrea ( ) 
- hebreas ( ) 
- hebreo ( ) 
- hebreos ( ) 
- heces ( ) 
- hecha ( ) 
- hechas ( ) 
- hechizados ( ) 
- hechizo ( ) 
- hecho ( ) 
- hechos ( ) 
- hechuras ( ) 
- hectárea ( ) 
- hectáreas ( ) 
- hediendo ( ) 
- hedionda ( ) 
- hedor ( ) 
- hegemonía ( ) 
- hegemonías ( ) 
- hegemónica ( ) 
- hegemónicas ( ) 
- hegemónico ( ) 
- hegemónicos ( ) 
- helada ( ) 
- heladas ( ) 
- heladera ( ) 
- heladitos ( ) 
- helado ( ) 
- helados ( ) 
- helecho ( ) 
- helechos ( ) 
- helena ( ) 
- heleno ( ) 
- helenística ( ) 
- helenístico ( ) 
- helicaso ( ) 
- helicoidal ( ) 
- helicoidales ( ) 
- helicoide ( ) 
- helicóptero ( ) 
- helicópteros ( ) 
- helio ( ) 
- helióstato ( ) 
- helióstatos ( ) 
- helminto ( ) 
- heló ( ) 
- hemaglutinante ( ) 
- hemaglutinina ( ) 
- hematimetría ( ) 
- hematoencefálico ( ) 
- hematoidina ( ) 
- hematología ( ) 
- hematológicas ( ) 
- hematológico ( ) 
- hematológicos ( ) 
- hematomas ( ) 
- hematopoyesis ( ) 
- hematopoyéticos ( ) 
- hematuria ( ) 
- hematurias ( ) 
- hematíes ( ) 
- hematócrito ( ) 
- hematógena ( ) 
- hematólogo ( ) 
- hembra ( ) 
- hembras ( ) 
- hemiacetal ( ) 
- hemibloqueo ( ) 
- hemicetal ( ) 
- hemicigoto ( ) 
- hemidesmosomas ( ) 
- hemimembranas ( ) 
- hemisferio ( ) 
- hemisferios ( ) 
- hemisférica ( ) 
- hemitórax ( ) 
- hemo ( ) 
- hemocromatosis ( ) 
- hemocultivo ( ) 
- hemoderivados ( ) 
- hemodializar ( ) 
- hemodilución ( ) 
- hemodinamisto ( ) 
- hemodinámico ( ) 
- hemodiálisis ( ) 
- hemofilia ( ) 
- hemofilias ( ) 
- hemofílicos ( ) 
- hemoglobina ( ) 
- hemoglobinas ( ) 
- hemoglobinuria ( ) 
- hemograma ( ) 
- hemohistioblasto ( ) 
- hemolinfático ( ) 
- hemolisina ( ) 
- hemolisinas ( ) 
- hemolítica ( ) 
- hemolíticas ( ) 
- hemolítico ( ) 
- hemopoyéticas ( ) 
- hemoptisis ( ) 
- hemorragia ( ) 
- hemorragias ( ) 
- hemorrágica ( ) 
- hemorrágicas ( ) 
- hemorrágico ( ) 
- hemorrágicos ( ) 
- hemos ( ) 
- hemosiderina ( ) 
- hemosiderosis ( ) 
- hemostasia ( ) 
- hemostáticas ( ) 
- hemostáticos ( ) 
- hemotórax ( ) 
- hemáticos ( ) 
- hemínico ( ) 
- hemólisis ( ) 
- hendidas ( ) 
- hendidura ( ) 
- hendiduras ( ) 
- heno ( ) 
- henos ( ) 
- heparina ( ) 
- heparinasa ( ) 
- hepatectomía ( ) 
- hepatitis ( ) 
- hepatoauricular ( ) 
- hepatobiliar ( ) 
- hepatobronquiale ( ) 
- hepatocarcinoma ( ) 
- hepatocarcinomo ( ) 
- hepatocelular ( ) 
- hepatocelulare ( ) 
- hepatocitos ( ) 
- hepatoma ( ) 
- hepatomegalia ( ) 
- hepatonecrosis ( ) 
- hepatopancreática ( ) 
- hepatopatía ( ) 
- hepatosplenomegalia ( ) 
- hepatotomía ( ) 
- hepatotoxicidad ( ) 
- hepatotóxico ( ) 
- hepática ( ) 
- hepáticas ( ) 
- hepático ( ) 
- hepáticos ( ) 
- herbácea ( ) 
- herbívoros ( ) 
+ header ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ headhunter ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ headhunting ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hebbiano ( ADJECTIVE ) 
+ hebillas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hebilla 
+ hebra ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hebras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hebra 
+ hebrea ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hebreo 
+ hebreas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hebreo 
+ hebreo ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ hebreos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hebreo 
+ heces ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hecha ( VERB_PAST_PARTICIPLE VERB ADJECTIVE ) lemma=hecho 
+ hechas ( VERB_PAST_PARTICIPLE VERB ) lemma=hacer 
+ hechizados ( VERB_PAST_PARTICIPLE VERB ) lemma=hechizar 
+ hechizo ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ hecho ( VERB_PAST_PARTICIPLE NOUN VERB ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ hechos ( VERB_PAST_PARTICIPLE NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=hecho 
+ hechuras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hechura 
+ hectárea ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hectáreas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hectárea 
+ hediendo ( NOUN NOUN_GERUND ) lemma=heder 
+ hedionda ( ADJECTIVE ) lemma=hediondo 
+ hedor ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hegemonía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hegemonías ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hegemonía 
+ hegemónica ( ADJECTIVE ) lemma=hegemónico 
+ hegemónicas ( ADJECTIVE ) lemma=hegemónico 
+ hegemónico ( ADJECTIVE ) 
+ hegemónicos ( ADJECTIVE ) lemma=hegemónico 
+ helada ( VERB_PAST_PARTICIPLE VERB ADJECTIVE ) lemma=helado 
+ heladas ( VERB_PAST_PARTICIPLE VERB ADJECTIVE ) lemma=helado 
+ heladera ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ heladitos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=helado 
+ helado ( VERB_PAST_PARTICIPLE NOUN VERB ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ helados ( VERB_PAST_PARTICIPLE NOUN VERB ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=helado 
+ helecho ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ helechos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=helecho 
+ helena ( ADJECTIVE ) lemma=heleno 
+ heleno ( ADJECTIVE ) 
+ helenística ( ADJECTIVE ) lemma=helenístico 
+ helenístico ( ADJECTIVE ) 
+ helicaso ( ADJECTIVE ) 
+ helicoidal ( ADJECTIVE ) 
+ helicoidales ( ADJECTIVE ) lemma=helicoidal 
+ helicoide ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ helicóptero ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ helicópteros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=helicóptero 
+ helio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ helióstato ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ helióstatos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=helióstato 
+ helminto ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ heló ( VERB ) lemma=helar 
+ hemaglutinante ( ADJECTIVE ) 
+ hemaglutinina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hematimetría ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hematoencefálico ( ADJECTIVE ) 
+ hematoidina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hematología ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hematológicas ( ADJECTIVE ) lemma=hematológico 
+ hematológico ( ADJECTIVE ) 
+ hematológicos ( ADJECTIVE ) lemma=hematológico 
+ hematomas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hematoma 
+ hematopoyesis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hematopoyéticos ( ADJECTIVE ) lemma=hematopoyético 
+ hematuria ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hematurias ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hematuria 
+ hematíes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hematíe 
+ hematócrito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hematógena ( ADJECTIVE ) lemma=hematógeno 
+ hematólogo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hembra ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hembras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hembra 
+ hemiacetal ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hemibloqueo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hemicetal ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hemicigoto ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hemidesmosomas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hemidesmosoma 
+ hemimembranas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hemimembrana 
+ hemisferio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hemisferios ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hemisferio 
+ hemisférica ( ADJECTIVE ) lemma=hemisférico 
+ hemitórax ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hemo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hemocromatosis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hemocultivo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hemoderivados ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hemoderivado 
+ hemodializar ( VERB_PAST_PARTICIPLE VERB ) 
+ hemodilución ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hemodinamisto ( ADJECTIVE ) 
+ hemodinámico ( ADJECTIVE ) 
+ hemodiálisis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hemofilia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hemofilias ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hemofilia 
+ hemofílicos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hemofílico 
+ hemoglobina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hemoglobinas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hemoglobina 
+ hemoglobinuria ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hemograma ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hemohistioblasto ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hemolinfático ( ADJECTIVE ) 
+ hemolisina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hemolisinas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hemolisina 
+ hemolítica ( ADJECTIVE ) lemma=hemolítico 
+ hemolíticas ( ADJECTIVE ) lemma=hemolítico 
+ hemolítico ( ADJECTIVE ) 
+ hemopoyéticas ( ADJECTIVE ) lemma=hemopoyético 
+ hemoptisis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hemorragia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hemorragias ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hemorragia 
+ hemorrágica ( ADJECTIVE ) lemma=hemorrágico 
+ hemorrágicas ( ADJECTIVE ) lemma=hemorrágico 
+ hemorrágico ( ADJECTIVE ) 
+ hemorrágicos ( ADJECTIVE ) lemma=hemorrágico 
+ hemos ( VERB ) lemma=haber 
+ hemosiderina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hemosiderosis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hemostasia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hemostáticas ( ADJECTIVE ) lemma=hemostático 
+ hemostáticos ( ADJECTIVE ) lemma=hemostático 
+ hemotórax ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hemáticos ( ADJECTIVE ) lemma=hemático 
+ hemínico ( ADJECTIVE ) 
+ hemólisis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hendidas ( VERB_PAST_PARTICIPLE VERB ) lemma=hendir 
+ hendidura ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hendiduras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hendidura 
+ heno ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ henos ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=heno 
+ heparina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ heparinasa ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hepatectomía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hepatitis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hepatoauricular ( ADJECTIVE ) 
+ hepatobiliar ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ hepatobronquiale ( ADJECTIVE ) 
+ hepatocarcinoma ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hepatocarcinomo ( ADJECTIVE ) 
+ hepatocelular ( ADJECTIVE ) 
+ hepatocelulare ( ADJECTIVE ) 
+ hepatocitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hepatocito 
+ hepatoma ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hepatomegalia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hepatonecrosis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hepatopancreática ( ADJECTIVE ) lemma=hepatopancreático 
+ hepatopatía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hepatosplenomegalia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hepatotomía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hepatotoxicidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hepatotóxico ( ADJECTIVE ) 
+ hepática ( ADJECTIVE ) lemma=hepático 
+ hepáticas ( ADJECTIVE ) lemma=hepático 
+ hepático ( ADJECTIVE ) 
+ hepáticos ( ADJECTIVE ) lemma=hepático 
+ herbácea ( ADJECTIVE ) lemma=herbáceo 
+ herbívoros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=herbívoro 
  here ( ) 
- hereda ( ) 
- heredaba ( ) 
- heredabilidad ( ) 
- heredable ( ) 
- heredables ( ) 
- heredada ( ) 
- heredadas ( ) 
- heredado ( ) 
- heredados ( ) 
- heredamiento ( ) 
- heredamientos ( ) 
- heredamos ( ) 
- heredan ( ) 
- heredando ( ) 
- heredante ( ) 
- heredar ( ) 
- heredara ( ) 
- heredaron ( ) 
- heredarse ( ) 
- heredarán ( ) 
- heredaría ( ) 
- herede ( ) 
- heredera ( ) 
- herederas ( ) 
- heredero ( ) 
- herederos ( ) 
- heredes ( ) 
- hereditaria ( ) 
- hereditarias ( ) 
- hereditario ( ) 
- hereditarios ( ) 
- heredocomplejo ( ) 
- heredé ( ) 
- heredó ( ) 
- hereje ( ) 
- herejes ( ) 
- herejía ( ) 
- herejías ( ) 
- herencia ( ) 
- herencias ( ) 
- herida ( ) 
- heridas ( ) 
- herido ( ) 
- heridos ( ) 
- herir ( ) 
- herirlo ( ) 
- herirnos ( ) 
- hermafrodita ( ) 
- hermana ( ) 
- hermanadas ( ) 
- hermanado ( ) 
- hermanan ( ) 
- hermanas ( ) 
- hermandad ( ) 
- hermandades ( ) 
- hermanita ( ) 
- hermanito ( ) 
- hermanitos ( ) 
- hermano ( ) 
- hermanos ( ) 
- hermetismo ( ) 
- hermosa ( ) 
- hermosamente ( ) 
- hermosas ( ) 
- hermoso ( ) 
- hermosos ( ) 
- hermosotes ( ) 
- hermosura ( ) 
- hermosísima ( ) 
- hermosísimo ( ) 
- hermosísimos ( ) 
- hermética ( ) 
- herméticamente ( ) 
- herméticas ( ) 
- hermético ( ) 
- herméticos ( ) 
- hernia ( ) 
- herniación ( ) 
- hernias ( ) 
- herniorrafia ( ) 
- heroica ( ) 
- heroicamente ( ) 
- heroicas ( ) 
- heroico ( ) 
- heroicos ( ) 
- heroinómanos ( ) 
- heroína ( ) 
- heroísmo ( ) 
- herpes ( ) 
- herpesvirus ( ) 
- herradura ( ) 
- herramienta ( ) 
- herramientas ( ) 
- herrero ( ) 
- hershey-chase ( ) 
- hervida ( ) 
- hervidero ( ) 
- hervido ( ) 
- hervidor ( ) 
- hervir ( ) 
- heráldica ( ) 
- herético ( ) 
- heterocigosis ( ) 
- heterocigota ( ) 
- heterocigoto ( ) 
- heterocigotos ( ) 
- heterocigótico ( ) 
- heterocromatina ( ) 
- heterocromáticas ( ) 
- heterocíclico ( ) 
- heterocíclicos ( ) 
- heterodimérico ( ) 
- heterodoxia ( ) 
- heterodímero ( ) 
- heterogeneidad ( ) 
- heterogeneidades ( ) 
+ hereda ( VERB ) lemma=heredar 
+ heredaba ( VERB ) lemma=heredar 
+ heredabilidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ heredable ( ADJECTIVE ) 
+ heredables ( ADJECTIVE ) lemma=heredable 
+ heredada ( VERB_PAST_PARTICIPLE VERB ) lemma=heredar 
+ heredadas ( VERB_PAST_PARTICIPLE VERB ) lemma=heredar 
+ heredado ( VERB_PAST_PARTICIPLE VERB ) lemma=heredar 
+ heredados ( VERB_PAST_PARTICIPLE VERB ) lemma=heredar 
+ heredamiento ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ heredamientos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=heredamiento 
+ heredamos ( VERB ) lemma=heredar 
+ heredan ( VERB ) lemma=heredar 
+ heredando ( NOUN NOUN_GERUND ) lemma=heredar 
+ heredante ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ heredar ( VERB ) 
+ heredara ( VERB ) lemma=heredar 
+ heredaron ( VERB ) lemma=heredar 
+ heredarse ( VERB ) lemma=heredar 
+ heredarán ( VERB ) lemma=heredar 
+ heredaría ( VERB ) lemma=heredar 
+ herede ( VERB ) lemma=heredar 
+ heredera ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=heredero 
+ herederas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=heredero 
+ heredero ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ herederos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=heredero 
+ heredes ( VERB ) lemma=heredar 
+ hereditaria ( ADJECTIVE ) lemma=hereditario 
+ hereditarias ( ADJECTIVE ) lemma=hereditario 
+ hereditario ( ADJECTIVE ) 
+ hereditarios ( ADJECTIVE ) lemma=hereditario 
+ heredocomplejo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ heredé ( VERB ) lemma=heredar 
+ heredó ( VERB ) lemma=heredar 
+ hereje ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ herejes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hereje 
+ herejía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ herejías ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=herejía 
+ herencia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ herencias ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=herencia 
+ herida ( VERB_PAST_PARTICIPLE NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ heridas ( VERB_PAST_PARTICIPLE NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=herida 
+ herido ( VERB_PAST_PARTICIPLE VERB ) lemma=herir 
+ heridos ( VERB_PAST_PARTICIPLE VERB ) lemma=herir 
+ herir ( VERB ) 
+ herirlo ( VERB_INFINITIVE VERB ) lemma=herir 
+ herirnos ( VERB_INFINITIVE VERB ) lemma=herir 
+ hermafrodita ( ADJECTIVE ) 
+ hermana ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=hermano 
+ hermanadas ( VERB_PAST_PARTICIPLE VERB ) lemma=hermanar 
+ hermanado ( VERB_PAST_PARTICIPLE VERB ) lemma=hermanar 
+ hermanan ( VERB ) lemma=hermanar 
+ hermanas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=hermano 
+ hermandad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hermandades ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hermandad 
+ hermanita ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hermano 
+ hermanito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hermano 
+ hermanitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hermano 
+ hermano ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ hermanos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hermano 
+ hermetismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hermosa ( ADJECTIVE ) lemma=hermoso 
+ hermosamente ( ADVERB ) lemma=hermoso 
+ hermosas ( ADJECTIVE ) lemma=hermoso 
+ hermoso ( ADJECTIVE ) 
+ hermosos ( ADJECTIVE ) lemma=hermoso 
+ hermosotes ( ADJECTIVE ) lemma=hermoso 
+ hermosura ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hermosísima ( ADJECTIVE ) lemma=hermoso 
+ hermosísimo ( ADJECTIVE ) lemma=hermoso 
+ hermosísimos ( ADJECTIVE ) lemma=hermoso 
+ hermética ( ADJECTIVE ) lemma=hermético 
+ herméticamente ( ADVERB ) lemma=hermético 
+ herméticas ( ADJECTIVE ) lemma=hermético 
+ hermético ( ADJECTIVE ) 
+ herméticos ( ADJECTIVE ) lemma=hermético 
+ hernia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ herniación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hernias ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hernia 
+ herniorrafia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ heroica ( ADJECTIVE ) lemma=heroico 
+ heroicamente ( ADVERB ) lemma=heroico 
+ heroicas ( ADJECTIVE ) lemma=heroico 
+ heroico ( ADJECTIVE ) 
+ heroicos ( ADJECTIVE ) lemma=heroico 
+ heroinómanos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=heroinómano 
+ heroína ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=héroe 
+ heroísmo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ herpes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ herpesvirus ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ herradura ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ herramienta ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ herramientas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=herramienta 
+ herrero ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hershey-chase ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hervida ( VERB_PAST_PARTICIPLE VERB ADJECTIVE ) lemma=hervido 
+ hervidero ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hervido ( VERB_PAST_PARTICIPLE VERB ADJECTIVE ) 
+ hervidor ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hervir ( VERB ) 
+ heráldica ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ herético ( ADJECTIVE ) 
+ heterocigosis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ heterocigota ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ heterocigoto ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ heterocigotos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=heterocigoto 
+ heterocigótico ( ADJECTIVE ) 
+ heterocromatina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ heterocromáticas ( ADJECTIVE ) lemma=heterocromático 
+ heterocíclico ( ADJECTIVE ) 
+ heterocíclicos ( ADJECTIVE ) lemma=heterocíclico 
+ heterodimérico ( ADJECTIVE ) 
+ heterodoxia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ heterodímero ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ heterogeneidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ heterogeneidades ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=heterogeneidad 
  heterogeneous ( ) 
- heterogénea ( ) 
- heterogéneamente ( ) 
- heterogéneas ( ) 
- heterogéneo ( ) 
- heterogéneos ( ) 
- heterosexual ( ) 
- heterosexuales ( ) 
- heterotópicamente ( ) 
- heterozigotas ( ) 
- heterozigoto ( ) 
- heterozigótico ( ) 
- heteróclito ( ) 
- heterófilos ( ) 
- heterólogas ( ) 
- heterótrofas ( ) 
- heterótrofo ( ) 
- heterótrofos ( ) 
- heurísticas ( ) 
- hexadecimal ( ) 
- hexadecimales ( ) 
- hexagonales ( ) 
- hexoquinasa ( ) 
- hexosaminidasa ( ) 
- hey ( ) 
- hfe ( ) 
- hialino ( ) 
- hialinosis ( ) 
- hialurónico ( ) 
- hiato ( ) 
- hibridación ( ) 
- hibridadas ( ) 
- hibridan ( ) 
- hibridaron ( ) 
- hibridomas ( ) 
- hice ( ) 
- hiciera ( ) 
- hicieran ( ) 
- hicieras ( ) 
- hiciere ( ) 
- hicieren ( ) 
- hicieron ( ) 
- hiciese ( ) 
- hicieseis ( ) 
- hiciesen ( ) 
- hicieses ( ) 
- hicimos ( ) 
- hiciste ( ) 
- hicisteis ( ) 
- hiciéramos ( ) 
- hiciésemos ( ) 
- hidalgo ( ) 
- hidalguense ( ) 
- hidalguenses ( ) 
- hidantoína ( ) 
- hidatídico ( ) 
- hidralacina ( ) 
- hidramnio ( ) 
- hidratación ( ) 
- hidratada ( ) 
- hidratan ( ) 
- hidrato ( ) 
- hidratos ( ) 
- hidriboma ( ) 
- hidroaéreo ( ) 
- hidrocarbonada ( ) 
- hidrocarbonar ( ) 
- hidrocarbono ( ) 
- hidrocarburo ( ) 
- hidrocarburos ( ) 
- hidrocefalia ( ) 
- hidrocele ( ) 
- hidroclorídrico ( ) 
- hidrocálido ( ) 
- hidrocálidos ( ) 
- hidrodinámicas ( ) 
- hidrodinámicos ( ) 
- hidroelectrolítico ( ) 
- hidroeléctrica ( ) 
- hidroeléctricas ( ) 
- hidroeléctrico ( ) 
- hidroeléctricos ( ) 
- hidrofílica ( ) 
- hidrofílico ( ) 
- hidrofílicos ( ) 
- hidrofítico ( ) 
- hidrofóbica ( ) 
- hidrofóbicas ( ) 
- hidrofóbico ( ) 
- hidrofóbicos ( ) 
- hidrogenado ( ) 
- hidrogenión ( ) 
- hidrogeológicas ( ) 
- hidrogeológicos ( ) 
- hidrogeoquímicas ( ) 
- hidrograma ( ) 
- hidrográfica ( ) 
- hidrolización ( ) 
- hidrolizar ( ) 
- hidrolítica ( ) 
- hidrolíticas ( ) 
- hidrolítico ( ) 
- hidrológico ( ) 
- hidronio ( ) 
- hidropesía ( ) 
- hidrosalino ( ) 
- hidrosfera ( ) 
- hidrosoluble ( ) 
- hidrostática ( ) 
- hidrostático ( ) 
- hidroxiapatita ( ) 
- hidroxietilo ( ) 
- hidroxilación ( ) 
- hidroxilasa ( ) 
- hidroxilo ( ) 
- hidroxílico ( ) 
- hidrozoid ( ) 
- hidráulica ( ) 
- hidráulicas ( ) 
- hidráulico ( ) 
- hidráulicos ( ) 
- hidrófobas ( ) 
- hidrófobos ( ) 
- hidrógeno ( ) 
- hidrógenos ( ) 
- hidrólisis ( ) 
- hidrópico ( ) 
- hiela ( ) 
- hielas ( ) 
- hielo ( ) 
- hielos ( ) 
- hieran ( ) 
+ heterogénea ( ADJECTIVE ) lemma=heterogéneo 
+ heterogéneamente ( ADVERB ) lemma=heterogéneo 
+ heterogéneas ( ADJECTIVE ) lemma=heterogéneo 
+ heterogéneo ( ADJECTIVE ) 
+ heterogéneos ( ADJECTIVE ) lemma=heterogéneo 
+ heterosexual ( ADJECTIVE ) 
+ heterosexuales ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=heterosexual 
+ heterotópicamente ( ADVERB ) 
+ heterozigotas ( ADJECTIVE ) lemma=heterozigoto 
+ heterozigoto ( ADJECTIVE ) 
+ heterozigótico ( ADJECTIVE ) 
+ heteróclito ( ADJECTIVE ) 
+ heterófilos ( ADJECTIVE ) lemma=heterófilo 
+ heterólogas ( ADJECTIVE ) lemma=heterólogo 
+ heterótrofas ( ADJECTIVE ) lemma=heterótrofo 
+ heterótrofo ( ADJECTIVE ) 
+ heterótrofos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=heterótrofo 
+ heurísticas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=heurístico 
+ hexadecimal ( ADJECTIVE ) 
+ hexadecimales ( ADJECTIVE ) lemma=hexadecimal 
+ hexagonales ( ADJECTIVE ) lemma=hexagonal 
+ hexoquinasa ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hexosaminidasa ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hey ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ hfe ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hialino ( ADJECTIVE ) 
+ hialinosis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hialurónico ( ADJECTIVE ) 
+ hiato ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hibridación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hibridadas ( VERB_PAST_PARTICIPLE VERB ) lemma=hibridar 
+ hibridan ( VERB ) lemma=hibridar 
+ hibridaron ( VERB ) lemma=hibridar 
+ hibridomas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hibridoma 
+ hice ( VERB ) lemma=hacer 
+ hiciera ( VERB ) lemma=hacer 
+ hicieran ( VERB ) lemma=hacer 
+ hicieras ( VERB ) lemma=hacer 
+ hiciere ( VERB ) lemma=hacer 
+ hicieren ( VERB ) lemma=hacer 
+ hicieron ( VERB ) lemma=hacer 
+ hiciese ( VERB ) lemma=hacer 
+ hicieseis ( VERB ) lemma=hacer 
+ hiciesen ( VERB ) lemma=hacer 
+ hicieses ( VERB ) lemma=hacer 
+ hicimos ( VERB ) lemma=hacer 
+ hiciste ( VERB ) lemma=hacer 
+ hicisteis ( VERB ) lemma=hacer 
+ hiciéramos ( VERB ) lemma=hacer 
+ hiciésemos ( VERB ) lemma=hacer 
+ hidalgo ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ hidalguense ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ hidalguenses ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hidalguense 
+ hidantoína ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidatídico ( ADJECTIVE ) 
+ hidralacina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidramnio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidratación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidratada ( VERB_PAST_PARTICIPLE VERB ) lemma=hidratar 
+ hidratan ( VERB ) lemma=hidratar 
+ hidrato ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidratos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hidrato 
+ hidriboma ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidroaéreo ( ADJECTIVE ) 
+ hidrocarbonada ( VERB_PAST_PARTICIPLE VERB ) lemma=hidrocarbonar 
+ hidrocarbonar ( VERB_PAST_PARTICIPLE VERB ) 
+ hidrocarbono ( VERB ) lemma=hidrocarbonar 
+ hidrocarburo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidrocarburos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hidrocarburo 
+ hidrocefalia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidrocele ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidroclorídrico ( ADJECTIVE ) 
+ hidrocálido ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ hidrocálidos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hidrocálido 
+ hidrodinámicas ( ADJECTIVE ) lemma=hidrodinámico 
+ hidrodinámicos ( ADJECTIVE ) lemma=hidrodinámico 
+ hidroelectrolítico ( ADJECTIVE ) 
+ hidroeléctrica ( ADJECTIVE ) lemma=hidroeléctrico 
+ hidroeléctricas ( ADJECTIVE ) lemma=hidroeléctrico 
+ hidroeléctrico ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidroeléctricos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hidroeléctrico 
+ hidrofílica ( ADJECTIVE ) lemma=hidrófilo 
+ hidrofílico ( ADJECTIVE ) lemma=hidrófilo 
+ hidrofílicos ( ADJECTIVE ) lemma=hidrófilo 
+ hidrofítico ( ADJECTIVE ) 
+ hidrofóbica ( ADJECTIVE ) lemma=hidrofóbico 
+ hidrofóbicas ( ADJECTIVE ) lemma=hidrofóbico 
+ hidrofóbico ( ADJECTIVE ) 
+ hidrofóbicos ( ADJECTIVE ) lemma=hidrofóbico 
+ hidrogenado ( VERB_PAST_PARTICIPLE VERB ) lemma=hidrogenar 
+ hidrogenión ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidrogeológicas ( ADJECTIVE ) lemma=hidrogeológico 
+ hidrogeológicos ( ADJECTIVE ) lemma=hidrogeológico 
+ hidrogeoquímicas ( ADJECTIVE ) lemma=hidrogeoquímico 
+ hidrograma ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidrográfica ( ADJECTIVE ) lemma=hidrográfico 
+ hidrolización ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidrolizar ( VERB_PAST_PARTICIPLE VERB ) 
+ hidrolítica ( ADJECTIVE ) lemma=hidrolítico 
+ hidrolíticas ( ADJECTIVE ) lemma=hidrolítico 
+ hidrolítico ( ADJECTIVE ) 
+ hidrológico ( ADJECTIVE ) 
+ hidronio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidropesía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidrosalino ( ADJECTIVE ) 
+ hidrosfera ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidrosoluble ( ADJECTIVE ) 
+ hidrostática ( ADJECTIVE ) lemma=hidrostático 
+ hidrostático ( ADJECTIVE ) 
+ hidroxiapatita ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidroxietilo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidroxilación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidroxilasa ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidroxilo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidroxílico ( ADJECTIVE ) 
+ hidrozoid ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidráulica ( ADJECTIVE ) lemma=hidráulico 
+ hidráulicas ( ADJECTIVE ) lemma=hidráulico 
+ hidráulico ( ADJECTIVE ) 
+ hidráulicos ( ADJECTIVE ) lemma=hidráulico 
+ hidrófobas ( ADJECTIVE ) lemma=hidrófobo 
+ hidrófobos ( ADJECTIVE ) lemma=hidrófobo 
+ hidrógeno ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidrógenos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hidrógeno 
+ hidrólisis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hidrópico ( ADJECTIVE ) 
+ hiela ( VERB ) lemma=helar 
+ hielas ( VERB ) lemma=helar 
+ hielo ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ hielos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hielo 
+ hieran ( VERB ) lemma=herir 
  hierarchic ( ) 
  hierarchy ( ) 
- hieras ( ) 
- hierba ( ) 
- hierbas ( ) 
- hiere ( ) 
- hieren ( ) 
- hierro ( ) 
- hierro-azufre ( ) 
- hierro-oxígeno ( ) 
- hierros ( ) 
- hierva ( ) 
- hierve ( ) 
- hierven ( ) 
+ hieras ( VERB ) lemma=herir 
+ hierba ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ hierbas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=hierba 
+ hiere ( VERB ) lemma=herir 
+ hieren ( VERB ) lemma=herir 
+ hierro ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ hierro-azufre ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hierro-oxígeno ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hierros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hierro 
+ hierva ( VERB ) lemma=herver|hervir 
+ hierve ( VERB ) lemma=herver|hervir 
+ hierven ( VERB ) lemma=herver|hervir 
  high ( ) 
  highway ( ) 
- higiene ( ) 
- higienes ( ) 
- higiénica ( ) 
- higiénicas ( ) 
- higiénico ( ) 
- higiénico-dietético ( ) 
- higiénicos ( ) 
- higiénicos-sanitario ( ) 
- higo ( ) 
- higos ( ) 
- higuera ( ) 
- higueras ( ) 
- hija ( ) 
- hijas ( ) 
- hijastra ( ) 
- hijita ( ) 
- hijito ( ) 
- hijitos ( ) 
- hijo ( ) 
- hijos ( ) 
- hila ( ) 
- hilaba ( ) 
- hilados ( ) 
- hilando ( ) 
- hilar ( ) 
- hilaran ( ) 
- hilaridad ( ) 
- hilarlo ( ) 
- hilera ( ) 
- hileras ( ) 
- hiliar ( ) 
- hilio ( ) 
- hilios ( ) 
- hilito ( ) 
- hilitos ( ) 
- hilo ( ) 
- hilos ( ) 
- hilvanaba ( ) 
- hilvanada ( ) 
- hilvanado ( ) 
- hilvanando ( ) 
- hilvanar ( ) 
- hilvanaron ( ) 
- himen ( ) 
- himno ( ) 
- himnos ( ) 
- hincapié ( ) 
- hincha ( ) lemma=chinchar 
- hinchable ( ) 
- hinchada ( ) 
- hinchadas ( ) 
- hinchado ( ) 
- hinchados ( ) 
- hinchan ( ) 
- hinchar ( ) 
- hincharse ( ) 
- hinchas ( ) 
- hinchazón ( ) 
- hinche ( ) lemma=chinchar 
- hinchen ( ) 
- hindú ( ) 
- hindúes ( ) 
- hinojo ( ) 
- hipalergizante ( ) 
- hiperactiva ( ) 
- hiperactividad ( ) 
- hiperagregabilidad ( ) 
- hiperaguda ( ) 
- hiperandrogenemia ( ) 
- hiperandrogenismo ( ) 
- hiperazoemia ( ) 
- hiperbilirrubinemia ( ) 
- hiperbárico ( ) 
- hipercalcemia ( ) 
- hipercalciuria ( ) 
- hipercapnia ( ) 
- hipercinético ( ) 
- hipercolesterolemia ( ) 
- hipercortisolismo ( ) 
- hipercubo ( ) 
- hipereflexia ( ) 
- hiperemia ( ) 
- hiperenlace ( ) 
- hipereosinofílico ( ) 
- hiperestrogénico ( ) 
- hiperextensión ( ) 
- hiperfagia ( ) 
- hiperfibrinólisis ( ) 
- hiperglicemia ( ) 
- hiperglucemia ( ) 
- hiperglucémica ( ) 
- hiperinflación ( ) 
- hiperinsulinismo ( ) 
- hiperirritabilidad ( ) 
- hiperkalemia ( ) 
- hiperlipidemia ( ) 
- hiperlipoproteinemia ( ) 
- hipermedia ( ) 
- hipermedio ( ) 
- hipermutador ( ) 
- hipermétropes ( ) 
- hiperparatiroidismo ( ) 
- hiperplasia ( ) 
- hiperpolarización ( ) 
- hiperpolarizante ( ) 
- hiperpotasemia ( ) 
- hiperproinsulinemia ( ) 
- hiperprolactinemia ( ) 
- hiperprolactinémico ( ) 
- hiperreactividad ( ) 
- hipersecreción ( ) 
- hipersensibilidad ( ) 
- hipersensibles ( ) 
- hipertensiones ( ) 
- hipertensiva ( ) 
- hipertensión ( ) 
- hipertenso ( ) 
- hipertermia ( ) 
- hipertexto ( ) 
- hipertextos ( ) 
- hipertextuale ( ) 
- hipertiroidismo ( ) 
- hipertonía ( ) 
- hipertrigliceridemia ( ) 
- hipertrofia ( ) 
- hipertrofiar ( ) 
- hipertrófica ( ) 
- hipertrófico ( ) 
- hipertónica ( ) 
- hiperuricemia ( ) 
- hipervascularizar ( ) 
- hiperventilación ( ) 
- hiperémico ( ) 
- hipnopedia ( ) 
- hipnosis ( ) 
- hipnotizada ( ) 
- hipnotizados ( ) 
- hipnotizaron ( ) 
- hipnozoito ( ) 
- hipnozoíto ( ) 
- hipnóticos ( ) 
- hipo ( ) 
- hipoacusia ( ) 
- hipoacusias ( ) 
- hipoacúsico ( ) 
- hipoaldosteronismo ( ) 
- hipoalgesia ( ) 
- hipobranquial ( ) 
- hipocalcemia ( ) 
- hipocampo ( ) 
- hipoclorhidria ( ) 
- hipocondrio ( ) 
- hipocratismo ( ) 
- hipocresía ( ) 
- hipocresías ( ) 
- hipocrática ( ) 
- hipocrático ( ) 
- hipocráticos ( ) 
- hipofisaria ( ) 
- hipofisarias ( ) 
- hipofisario ( ) 
- hipofisarios ( ) 
- hipofisariotiroideo ( ) 
- hipofosfatemia ( ) 
- hipofunción ( ) 
- hipoglicemia ( ) 
- hipoglicemiante ( ) 
- hipoglucemia ( ) 
- hipoglucemiantes ( ) 
- hipoglucémico ( ) 
- hipogonadismo ( ) 
- hipogástrico ( ) 
- hiponatremia ( ) 
- hipoparatiroidismo ( ) 
- hipopituitarismo ( ) 
- hipopión ( ) 
- hipoplasia ( ) 
- hipoproteinemia ( ) 
- hiporreninemia ( ) 
- hiporreninémico ( ) 
- hipotalamohipofisario ( ) 
- hipotalámica ( ) 
- hipotalámico ( ) 
- hipoteca ( ) 
- hipotecada ( ) 
- hipotecadas ( ) 
- hipotecado ( ) 
- hipotecan ( ) 
- hipotecando ( ) 
- hipotecar ( ) 
- hipotecaria ( ) 
- hipotecarias ( ) 
- hipotecario ( ) 
- hipotecarios ( ) 
- hipotecará ( ) 
- hipotecas ( ) 
- hipotensión ( ) 
- hipotensor ( ) 
- hipotenusa ( ) 
- hipoteque ( ) 
- hipotermia ( ) 
- hipotiroideo ( ) 
- hipotiroidismo ( ) 
- hipotálamo ( ) 
- hipotálamo-hipófisis ( ) 
- hipotética ( ) 
- hipotéticamente ( ) 
- hipotéticas ( ) 
- hipotético ( ) 
- hipotéticos ( ) 
- hipotónico ( ) 
- hipoventilación ( ) 
- hipovolemia ( ) 
- hipovolémico ( ) 
- hipoxemia ( ) 
- hipoxia ( ) 
- hipsograma ( ) 
- hipsogramas ( ) 
- hipérbolas ( ) 
- hipó ( ) 
- hipócrita ( ) 
- hipócritamente ( ) 
- hipócritas ( ) 
- hipódromo ( ) 
- hipódromos ( ) 
- hipófisis ( ) 
- hipótesis ( ) 
- hipóxico ( ) 
- hiriendo ( ) 
- hiriente ( ) 
- hiriera ( ) 
- hirieran ( ) 
- hirieron ( ) 
- hiriese ( ) 
- hirió ( ) 
- hirviendo ( ) 
- his-purkinje ( ) 
- hispana ( ) 
- hispanas ( ) 
- hispanista ( ) 
- hispano ( ) 
- hispanoamericana ( ) 
- hispanoamericano ( ) 
- hispanoamericanos ( ) 
- hispanos ( ) 
- hispánicos ( ) 
- histamina ( ) 
- histerectomizar ( ) 
- histerectomía ( ) 
- histeria ( ) 
- histidina ( ) 
- histiocitos ( ) 
- histiocitosis ( ) 
- histocompatibilidad ( ) 
- histograma ( ) 
- histología ( ) 
- histolytico ( ) 
- histológica ( ) 
- histológicamente ( ) 
- histológicas ( ) 
- histológico ( ) 
- histológicos ( ) 
- histona ( ) 
- histonas ( ) 
- histopatología ( ) 
- histopatológico ( ) 
- histopatológlco ( ) 
- histoquímicas ( ) 
- historia ( ) 
- historiador ( ) 
- historiadora ( ) 
- historiadoras ( ) 
- historiadores ( ) 
- historial ( ) 
- historiales ( ) 
- historias ( ) 
- historica ( ) 
- historicogeográfico ( ) 
- historieta ( ) 
- historietas ( ) 
- historiografía ( ) 
- histriónicos ( ) 
- histérica ( ) 
- histéricas ( ) 
- histérico ( ) 
- histéricos ( ) 
- histónico ( ) 
- histórica ( ) 
- históricamente ( ) 
- históricas ( ) 
- histórico ( ) 
- históricos ( ) 
- hito ( ) lemma=ahíto 
- hitos ( ) 
- hizo ( ) 
+ higiene ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ higienes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=higiene 
+ higiénica ( ADJECTIVE ) lemma=higiénico 
+ higiénicas ( ADJECTIVE ) lemma=higiénico 
+ higiénico ( ADJECTIVE ) 
+ higiénico-dietético ( ADJECTIVE ) 
+ higiénicos ( ADJECTIVE ) lemma=higiénico 
+ higiénicos-sanitario ( ADJECTIVE ) 
+ higo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ higos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=higo 
+ higuera ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ higueras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=higuera 
+ hija ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hijo 
+ hijas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hijo 
+ hijastra ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hijastro 
+ hijita ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hijo 
+ hijito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hijo 
+ hijitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hijo 
+ hijo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hijos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hijo 
+ hila ( VERB ) lemma=hilar 
+ hilaba ( VERB ) lemma=hilar 
+ hilados ( VERB_PAST_PARTICIPLE VERB ) lemma=hilar 
+ hilando ( NOUN NOUN_GERUND ) lemma=hilar 
+ hilar ( VERB ) 
+ hilaran ( VERB ) lemma=hilar 
+ hilaridad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hilarlo ( VERB_INFINITIVE VERB ) lemma=hilar 
+ hilera ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hileras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hilera 
+ hiliar ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hilio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hilios ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hilio 
+ hilito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hilo 
+ hilitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hilo 
+ hilo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hilos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hilo 
+ hilvanaba ( VERB ) lemma=hilvanar 
+ hilvanada ( VERB_PAST_PARTICIPLE VERB ) lemma=hilvanar 
+ hilvanado ( VERB_PAST_PARTICIPLE VERB ) lemma=hilvanar 
+ hilvanando ( NOUN NOUN_GERUND ) lemma=hilvanar 
+ hilvanar ( VERB ) 
+ hilvanaron ( VERB ) lemma=hilvanar 
+ himen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ himno ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ himnos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=himno 
+ hincapié ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hincha ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ hinchable ( ADJECTIVE ) 
+ hinchada ( VERB_PAST_PARTICIPLE VERB ) lemma=hinchar 
+ hinchadas ( VERB_PAST_PARTICIPLE VERB ) lemma=hinchar 
+ hinchado ( VERB_PAST_PARTICIPLE VERB ) lemma=hinchar 
+ hinchados ( VERB_PAST_PARTICIPLE VERB ) lemma=hinchar 
+ hinchan ( VERB ) lemma=henchir|hinchar 
+ hinchar ( VERB ) 
+ hincharse ( VERB ) lemma=hinchar 
+ hinchas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=hincha 
+ hinchazón ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hinche ( VERB ) lemma=henchir|hinchar 
+ hinchen ( VERB ) lemma=henchir|hinchar 
+ hindú ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ hindúes ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hindú 
+ hinojo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipalergizante ( ADJECTIVE ) 
+ hiperactiva ( ADJECTIVE ) lemma=hiperactivo 
+ hiperactividad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperagregabilidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperaguda ( ADJECTIVE ) lemma=hiperagudo 
+ hiperandrogenemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperandrogenismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperazoemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperbilirrubinemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperbárico ( ADJECTIVE ) 
+ hipercalcemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipercalciuria ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipercapnia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipercinético ( ADJECTIVE ) 
+ hipercolesterolemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipercortisolismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipercubo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipereflexia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperenlace ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipereosinofílico ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperestrogénico ( ADJECTIVE ) 
+ hiperextensión ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperfagia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperfibrinólisis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperglicemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperglucemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperglucémica ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperinflación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperinsulinismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperirritabilidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperkalemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperlipidemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperlipoproteinemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipermedia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipermedio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipermutador ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipermétropes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hipermétrope 
+ hiperparatiroidismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperplasia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperpolarización ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperpolarizante ( ADJECTIVE ) 
+ hiperpotasemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperproinsulinemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperprolactinemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperprolactinémico ( ADJECTIVE ) 
+ hiperreactividad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipersecreción ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipersensibilidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipersensibles ( ADJECTIVE ) lemma=hipersensible 
+ hipertensiones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hipertensión 
+ hipertensiva ( ADJECTIVE ) lemma=hipertensivo 
+ hipertensión ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipertenso ( ADJECTIVE ) 
+ hipertermia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipertexto ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipertextos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hipertexto 
+ hipertextuale ( ADJECTIVE ) 
+ hipertiroidismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipertonía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipertrigliceridemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipertrofia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipertrofiar ( VERB ) 
+ hipertrófica ( ADJECTIVE ) lemma=hipertrófico 
+ hipertrófico ( ADJECTIVE ) 
+ hipertónica ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperuricemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipervascularizar ( VERB_PAST_PARTICIPLE VERB ) 
+ hiperventilación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiperémico ( ADJECTIVE ) 
+ hipnopedia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipnosis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipnotizada ( VERB_PAST_PARTICIPLE VERB ) lemma=hipnotizar 
+ hipnotizados ( VERB_PAST_PARTICIPLE VERB ) lemma=hipnotizar 
+ hipnotizaron ( VERB ) lemma=hipnotizar 
+ hipnozoito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipnozoíto ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipnóticos ( ADJECTIVE ) lemma=hipnótico 
+ hipo ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ hipoacusia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipoacusias ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hipoacusia 
+ hipoacúsico ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipoaldosteronismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipoalgesia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipobranquial ( ADJECTIVE ) 
+ hipocalcemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipocampo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipoclorhidria ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipocondrio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipocratismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipocresía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipocresías ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hipocresía 
+ hipocrática ( ADJECTIVE ) lemma=hipocrático 
+ hipocrático ( ADJECTIVE ) 
+ hipocráticos ( ADJECTIVE ) lemma=hipocrático 
+ hipofisaria ( ADJECTIVE ) lemma=hipofisario 
+ hipofisarias ( ADJECTIVE ) lemma=hipofisario 
+ hipofisario ( ADJECTIVE ) 
+ hipofisarios ( ADJECTIVE ) lemma=hipofisario 
+ hipofisariotiroideo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipofosfatemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipofunción ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipoglicemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipoglicemiante ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ hipoglucemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipoglucemiantes ( ADJECTIVE ) lemma=hipoglucemiante 
+ hipoglucémico ( ADJECTIVE ) 
+ hipogonadismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipogástrico ( ADJECTIVE ) 
+ hiponatremia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipoparatiroidismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipopituitarismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipopión ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipoplasia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipoproteinemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiporreninemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hiporreninémico ( ADJECTIVE ) 
+ hipotalamohipofisario ( ADJECTIVE ) 
+ hipotalámica ( ADJECTIVE ) lemma=hipotalámico 
+ hipotalámico ( ADJECTIVE ) 
+ hipoteca ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ hipotecada ( VERB_PAST_PARTICIPLE VERB ) lemma=hipotecar 
+ hipotecadas ( VERB_PAST_PARTICIPLE VERB ) lemma=hipotecar 
+ hipotecado ( VERB_PAST_PARTICIPLE VERB ) lemma=hipotecar 
+ hipotecan ( VERB ) lemma=hipotecar 
+ hipotecando ( NOUN NOUN_GERUND ) lemma=hipotecar 
+ hipotecar ( VERB ) 
+ hipotecaria ( ADJECTIVE ) lemma=hipotecario 
+ hipotecarias ( ADJECTIVE ) lemma=hipotecario 
+ hipotecario ( ADJECTIVE ) 
+ hipotecarios ( ADJECTIVE ) lemma=hipotecario 
+ hipotecará ( VERB ) lemma=hipotecar 
+ hipotecas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=hipoteca 
+ hipotensión ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipotensor ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipotenusa ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipoteque ( VERB ) lemma=hipotecar 
+ hipotermia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipotiroideo ( ADJECTIVE ) 
+ hipotiroidismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipotálamo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipotálamo-hipófisis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipotética ( ADJECTIVE ) lemma=hipotético 
+ hipotéticamente ( ADVERB ) 
+ hipotéticas ( ADJECTIVE ) lemma=hipotético 
+ hipotético ( ADJECTIVE ) 
+ hipotéticos ( ADJECTIVE ) lemma=hipotético 
+ hipotónico ( ADJECTIVE ) 
+ hipoventilación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipovolemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipovolémico ( ADJECTIVE ) 
+ hipoxemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipoxia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipsograma ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipsogramas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hipsograma 
+ hipérbolas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hipérbola 
+ hipó ( VERB ) lemma=hipar 
+ hipócrita ( ADJECTIVE ) 
+ hipócritamente ( ADVERB ) lemma=hipócrita 
+ hipócritas ( ADJECTIVE ) lemma=hipócrita 
+ hipódromo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipódromos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hipódromo 
+ hipófisis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipótesis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hipóxico ( ADJECTIVE ) 
+ hiriendo ( NOUN NOUN_GERUND ) lemma=herir 
+ hiriente ( ADJECTIVE ) 
+ hiriera ( VERB ) lemma=herir 
+ hirieran ( VERB ) lemma=herir 
+ hirieron ( VERB ) lemma=herir 
+ hiriese ( VERB ) lemma=herir 
+ hirió ( VERB ) lemma=herir 
+ hirviendo ( NOUN NOUN_GERUND ) lemma=hervir 
+ his-purkinje ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hispana ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hispano 
+ hispanas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hispano 
+ hispanista ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hispano ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ hispanoamericana ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hispanoamericano 
+ hispanoamericano ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ hispanoamericanos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hispanoamericano 
+ hispanos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hispano 
+ hispánicos ( ADJECTIVE ) lemma=hispánico 
+ histamina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ histerectomizar ( VERB_PAST_PARTICIPLE VERB ) 
+ histerectomía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ histeria ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ histidina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ histiocitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=histiocito 
+ histiocitosis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ histocompatibilidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ histograma ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ histología ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ histolytico ( ADJECTIVE ) 
+ histológica ( ADJECTIVE ) lemma=histológico 
+ histológicamente ( ADVERB ) 
+ histológicas ( ADJECTIVE ) lemma=histológico 
+ histológico ( ADJECTIVE ) 
+ histológicos ( ADJECTIVE ) lemma=histológico 
+ histona ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ histonas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=histona 
+ histopatología ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ histopatológico ( ADJECTIVE ) 
+ histopatológlco ( ADJECTIVE ) 
+ histoquímicas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=histoquímica 
+ historia ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ historiador ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ historiadora ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=historiador 
+ historiadoras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=historiador 
+ historiadores ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=historiador 
+ historial ( ADJECTIVE ) 
+ historiales ( ADJECTIVE ) lemma=historial 
+ historias ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=historia 
+ historica ( ADJECTIVE ) lemma=histórica 
+ historicogeográfico ( ADJECTIVE ) 
+ historieta ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ historietas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=historieta 
+ historiografía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ histriónicos ( ADJECTIVE ) lemma=histriónico 
+ histérica ( ADJECTIVE ) lemma=histérico 
+ histéricas ( ADJECTIVE ) lemma=histérico 
+ histérico ( ADJECTIVE ) 
+ histéricos ( ADJECTIVE ) lemma=histérico 
+ histónico ( ADJECTIVE ) 
+ histórica ( ADJECTIVE ) lemma=histórico 
+ históricamente ( ADVERB ) lemma=histórico 
+ históricas ( ADJECTIVE ) lemma=histórico 
+ histórico ( ADJECTIVE ) 
+ históricos ( ADJECTIVE ) lemma=histórico 
+ hito ( VERB ) lemma=hitar 
+ hitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hito 
+ hizo ( VERB ) lemma=hacer 
  hiérarchie ( ) 
  hiérarchisé ( ) 
- hobby ( ) 
- hoces ( ) 
- hocico ( ) 
- hogar ( ) 
- hogares ( ) 
- hogaza ( ) 
- hogaño ( ) 
- hoguera ( ) 
- hogueras ( ) 
- hoja ( ) 
- hojalata ( ) 
- hojaldre ( ) 
- hojas ( ) 
- hojeador ( ) 
- hojearse ( ) 
- hojita ( ) 
- hojitas ( ) 
- hola ( ) lemma=cholo 
- holandesa ( ) 
- holandesas ( ) 
- holandeses ( ) 
- holandés ( ) 
- holding ( ) 
- holgada ( ) 
- holgadamente ( ) 
- holgado ( ) 
- holgados ( ) 
- holgura ( ) 
- hollada ( ) 
- hollan ( ) 
- hollar ( ) 
- hollywoodiense ( ) 
- holocausto ( ) 
- holocaustos ( ) 
- holoenzima ( ) 
- holoenzimas ( ) 
- hombre ( ) 
- hombre-máquina ( ) 
- hombrecillos ( ) 
- hombrecitos ( ) 
- hombres ( ) 
- hombria ( ) 
- hombro ( ) 
- hombros ( ) 
- home ( ) lemma=Thomen 
- homenaje ( ) 
- homenajeadas ( ) 
- homenajeado ( ) 
- homenajeados ( ) 
- homenajear ( ) 
- homenajes ( ) 
- homeodominio ( ) 
- homeopática ( ) 
- homeopáticas ( ) 
- homeopático ( ) 
- homeopáticos ( ) 
- homeostasia ( ) 
- homeostasis ( ) 
- homeostático ( ) 
- homeópata ( ) 
- homeótica ( ) 
- homeótico ( ) 
- homeóticos ( ) 
- homicida ( ) 
- homicidas ( ) 
- homicidio ( ) 
- homicidios ( ) 
- homilía ( ) 
- homocigosis ( ) 
- homocigoto ( ) 
- homocigotos ( ) 
- homocisteína ( ) 
- homodímero ( ) 
- homogamia ( ) 
- homogaméticas ( ) 
+ hobby ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hoces ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=hoz 
+ hocico ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hogar ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hogares ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hogar 
+ hogaza ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hogaño ( ADVERB ) 
+ hoguera ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hogueras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hoguera 
+ hoja ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hojalata ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hojaldre ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ hojas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hoja 
+ hojeador ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hojearse ( VERB ) lemma=hojear 
+ hojita ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hoja 
+ hojitas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hoja 
+ hola ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ holandesa ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=holandés 
+ holandesas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=holandés 
+ holandeses ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=holandés 
+ holandés ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ holding ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ holgada ( VERB_PAST_PARTICIPLE VERB ADJECTIVE ) lemma=holgado 
+ holgadamente ( ADVERB ) lemma=holgado 
+ holgado ( VERB_PAST_PARTICIPLE VERB ADJECTIVE ) 
+ holgados ( VERB_PAST_PARTICIPLE VERB ADJECTIVE ) lemma=holgado 
+ holgura ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hollada ( VERB_PAST_PARTICIPLE VERB ) lemma=hollar 
+ hollan ( VERB ) lemma=hollar 
+ hollar ( VERB ) 
+ hollywoodiense ( ADJECTIVE ) 
+ holocausto ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ holocaustos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=holocausto 
+ holoenzima ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ holoenzimas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=holoenzima 
+ hombre ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hombre-máquina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hombrecillos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hombre 
+ hombrecitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hombre 
+ hombres ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hombre 
+ hombria ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hombría 
+ hombro ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hombros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hombro 
+ home ( ) 
+ homenaje ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ homenajeadas ( VERB_PAST_PARTICIPLE VERB ) lemma=homenajear 
+ homenajeado ( VERB_PAST_PARTICIPLE VERB ) lemma=homenajear 
+ homenajeados ( VERB_PAST_PARTICIPLE VERB ) lemma=homenajear 
+ homenajear ( VERB ) 
+ homenajes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=homenaje 
+ homeodominio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ homeopática ( ADJECTIVE ) lemma=homeopático 
+ homeopáticas ( ADJECTIVE ) lemma=homeopático 
+ homeopático ( ADJECTIVE ) 
+ homeopáticos ( ADJECTIVE ) lemma=homeopático 
+ homeostasia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ homeostasis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ homeostático ( ADJECTIVE ) 
+ homeópata ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ homeótica ( ADJECTIVE ) lemma=homeótico 
+ homeótico ( ADJECTIVE ) 
+ homeóticos ( ADJECTIVE ) lemma=homeótico 
+ homicida ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ homicidas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=homicida 
+ homicidio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ homicidios ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=homicidio 
+ homilía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ homocigosis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ homocigoto ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ homocigotos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=homocigoto 
+ homocisteína ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ homodímero ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ homogamia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ homogaméticas ( ADJECTIVE ) lemma=homogamético 
  homogene ( ) 
- homogeneidad ( ) 
- homogeneización ( ) 
- homogeneizado ( ) 
- homogeneizar ( ) 
+ homogeneidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ homogeneización ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ homogeneizado ( VERB_PAST_PARTICIPLE VERB ) lemma=homogeneizar 
+ homogeneizar ( VERB ) 
  homogeneous ( ) 
- homogentísico ( ) 
- homogénea ( ) 
- homogéneamente ( ) 
- homogéneas ( ) 
- homogéneo ( ) 
- homogéneos ( ) 
- homologaciones ( ) 
- homologación ( ) 
- homologada ( ) 
- homologadas ( ) 
- homologado ( ) 
- homologados ( ) 
- homologar ( ) 
- homologarnos ( ) 
- homología ( ) 
- homologías ( ) 
- homopolipéptido ( ) 
- homopolímeros ( ) 
- homosexual ( ) 
- homosexuales ( ) 
- homosexualidad ( ) 
- homozigosis ( ) 
- homozigoto ( ) 
- homozigotos ( ) 
- homócronos ( ) 
- homóloga ( ) 
- homólogas ( ) 
- homólogo ( ) 
- homólogos ( ) 
- homónima ( ) 
- honda ( ) lemma=ahondar 
- hondamente ( ) 
- hondas ( ) 
- hondo ( ) 
- hondos ( ) 
- hondureña ( ) 
- hondureñas ( ) 
- hondureño ( ) 
- hondureños ( ) 
- honesta ( ) 
- honestamente ( ) 
- honestas ( ) 
- honestidad ( ) 
- honesto ( ) 
- honestos ( ) 
- hongo ( ) 
- hongos ( ) 
- honor ( ) 
- honorabilísimos ( ) 
- honorable ( ) 
- honorablemente ( ) 
- honorables ( ) 
- honorario ( ) 
- honorarios ( ) 
- honores ( ) 
- honorífica ( ) 
- honoríficas ( ) 
- honorífico ( ) 
- honoríficos ( ) 
- honra ( ) 
- honraba ( ) 
- honrada ( ) 
- honradamente ( ) 
- honradas ( ) 
- honradez ( ) 
- honrado ( ) 
- honrados ( ) 
- honramos ( ) 
- honran ( ) 
- honrando ( ) 
- honrar ( ) 
- honraremos ( ) 
- honraron ( ) 
- honrará ( ) 
- honraría ( ) 
- honras ( ) 
- honre ( ) 
- honremos ( ) 
- honren ( ) 
- honrilla ( ) 
- honro ( ) 
+ homogentísico ( ADJECTIVE ) 
+ homogénea ( ADJECTIVE ) lemma=homogéneo 
+ homogéneamente ( ADVERB ) lemma=homogéneo 
+ homogéneas ( ADJECTIVE ) lemma=homogéneo 
+ homogéneo ( ADJECTIVE ) 
+ homogéneos ( ADJECTIVE ) lemma=homogéneo 
+ homologaciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=homologación 
+ homologación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ homologada ( VERB_PAST_PARTICIPLE VERB ) lemma=homologar 
+ homologadas ( VERB_PAST_PARTICIPLE VERB ) lemma=homologar 
+ homologado ( VERB_PAST_PARTICIPLE VERB ) lemma=homologar 
+ homologados ( VERB_PAST_PARTICIPLE VERB ) lemma=homologar 
+ homologar ( VERB ) 
+ homologarnos ( VERB_INFINITIVE VERB ) lemma=homologar 
+ homología ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ homologías ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=homología 
+ homopolipéptido ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ homopolímeros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=homopolímero 
+ homosexual ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ homosexuales ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=homosexual 
+ homosexualidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ homozigosis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ homozigoto ( ADJECTIVE ) 
+ homozigotos ( ADJECTIVE ) lemma=homozigoto 
+ homócronos ( ADJECTIVE ) lemma=homócrono 
+ homóloga ( ADJECTIVE ) lemma=homólogo 
+ homólogas ( ADJECTIVE ) lemma=homólogo 
+ homólogo ( ADJECTIVE ) 
+ homólogos ( ADJECTIVE ) lemma=homólogo 
+ homónima ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=homónimo 
+ honda ( NOUN VERB ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hondo 
+ hondamente ( ADVERB ) lemma=hondo 
+ hondas ( NOUN VERB ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hondo 
+ hondo ( VERB ADJECTIVE ) 
+ hondos ( ADJECTIVE ) lemma=hondo 
+ hondureña ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hondureño 
+ hondureñas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hondureño 
+ hondureño ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ hondureños ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hondureño 
+ honesta ( VERB ADJECTIVE ) lemma=honesto 
+ honestamente ( ADVERB ) lemma=honesto 
+ honestas ( VERB ADJECTIVE ) lemma=honesto 
+ honestidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ honesto ( VERB ADJECTIVE ) 
+ honestos ( ADJECTIVE ) lemma=honesto 
+ hongo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hongos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hongo 
+ honor ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ honorabilísimos ( ADJECTIVE ) lemma=honorable 
+ honorable ( ADJECTIVE ) 
+ honorablemente ( ADVERB ) lemma=honorable 
+ honorables ( ADJECTIVE ) lemma=honorable 
+ honorario ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ honorarios ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=honorario 
+ honores ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=honor 
+ honorífica ( ADJECTIVE ) lemma=honorífico 
+ honoríficas ( ADJECTIVE ) lemma=honorífico 
+ honorífico ( ADJECTIVE ) 
+ honoríficos ( ADJECTIVE ) lemma=honorífico 
+ honra ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ honraba ( VERB ) lemma=honrar 
+ honrada ( VERB_PAST_PARTICIPLE VERB ADJECTIVE ) lemma=honrado 
+ honradamente ( ADVERB ) lemma=honrado 
+ honradas ( VERB_PAST_PARTICIPLE VERB ADJECTIVE ) lemma=honrado 
+ honradez ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ honrado ( VERB_PAST_PARTICIPLE VERB ADJECTIVE ) 
+ honrados ( VERB_PAST_PARTICIPLE VERB ADJECTIVE ) lemma=honrado 
+ honramos ( VERB ) lemma=honrar 
+ honran ( VERB ) lemma=honrar 
+ honrando ( NOUN NOUN_GERUND ) lemma=honrar 
+ honrar ( VERB ) 
+ honraremos ( VERB ) lemma=honrar 
+ honraron ( VERB ) lemma=honrar 
+ honrará ( VERB ) lemma=honrar 
+ honraría ( VERB ) lemma=honrar 
+ honras ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=honra 
+ honre ( VERB ) lemma=honrar 
+ honremos ( VERB ) lemma=honrar 
+ honren ( VERB ) lemma=honrar 
+ honrilla ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=honra 
+ honro ( VERB ) lemma=honrar 
  hood ( ) 
- hora ( ) 
- horaria ( ) 
- horarias ( ) 
- horario ( ) 
- horarios ( ) 
- horas ( ) 
- horca ( ) lemma=ahorcar 
- horcas ( ) 
- horitas ( ) 
- horizontal ( ) 
- horizontales ( ) 
- horizontalidad ( ) 
- horizontalmente ( ) 
- horizonte ( ) 
- horizontes ( ) 
- hormiga ( ) 
- hormigas ( ) 
- hormigueo ( ) 
- hormiguero ( ) 
- hormiguitas ( ) 
- hormigón ( ) 
- hormogonale ( ) 
- hormona ( ) 
- hormona-receptor ( ) 
- hormonal ( ) 
- hormonales ( ) 
- hormonas ( ) 
- horneado ( ) 
- hornear ( ) 
- hornee ( ) 
- hornillos ( ) 
- horno ( ) 
- hornos ( ) 
- horquilla ( ) 
- horquillado ( ) 
- horquillados ( ) 
- horquillas ( ) 
- horrenda ( ) 
- horrendas ( ) 
- horrendo ( ) 
- horrendos ( ) 
- horrible ( ) 
- horriblemente ( ) 
- horribles ( ) 
- horror ( ) 
- horrores ( ) 
- horroriza ( ) 
- horrorizaba ( ) 
- horrorizada ( ) 
- horrorizado ( ) 
- horrorizados ( ) 
- horrorizamos ( ) 
- horrorizan ( ) 
- horrorizó ( ) 
- horrorosa ( ) 
- horrorosamente ( ) 
- horrorosas ( ) 
- horroroso ( ) 
- horrorosos ( ) 
+ hora ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ horaria ( ADJECTIVE ) lemma=horario 
+ horarias ( ADJECTIVE ) lemma=horario 
+ horario ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ horarios ( ADJECTIVE ) lemma=horario 
+ horas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hora 
+ horca ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ horcas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=horca 
+ horitas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hora 
+ horizontal ( ADJECTIVE ) 
+ horizontales ( ADJECTIVE ) lemma=horizontal 
+ horizontalidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ horizontalmente ( ADVERB ) lemma=horizontal 
+ horizonte ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ horizontes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=horizonte 
+ hormiga ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hormigas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hormiga 
+ hormigueo ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ hormiguero ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hormiguitas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hormiga 
+ hormigón ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hormogonale ( ADJECTIVE ) 
+ hormona ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hormona-receptor ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hormonal ( ADJECTIVE ) 
+ hormonales ( ADJECTIVE ) lemma=hormonal 
+ hormonas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hormona 
+ horneado ( VERB_PAST_PARTICIPLE VERB ) lemma=hornear 
+ hornear ( VERB ) 
+ hornee ( VERB ) lemma=hornear 
+ hornillos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=horno 
+ horno ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hornos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=horno 
+ horquilla ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ horquillado ( VERB_PAST_PARTICIPLE VERB ) lemma=horquillar 
+ horquillados ( VERB_PAST_PARTICIPLE VERB ) lemma=horquillar 
+ horquillas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=horquilla 
+ horrenda ( ADJECTIVE ) lemma=horrendo 
+ horrendas ( ADJECTIVE ) lemma=horrendo 
+ horrendo ( ADJECTIVE ) 
+ horrendos ( ADJECTIVE ) lemma=horrendo 
+ horrible ( ADJECTIVE ) 
+ horriblemente ( ADVERB ) lemma=horrible 
+ horribles ( ADJECTIVE ) lemma=horrible 
+ horror ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ horrores ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=horror 
+ horroriza ( VERB ) lemma=horrorizar 
+ horrorizaba ( VERB ) lemma=horrorizar 
+ horrorizada ( VERB_PAST_PARTICIPLE VERB ) lemma=horrorizar 
+ horrorizado ( VERB_PAST_PARTICIPLE VERB ) lemma=horrorizar 
+ horrorizados ( VERB_PAST_PARTICIPLE VERB ) lemma=horrorizar 
+ horrorizamos ( VERB ) lemma=horrorizar 
+ horrorizan ( VERB ) lemma=horrorizar 
+ horrorizó ( VERB ) lemma=horrorizar 
+ horrorosa ( ADJECTIVE ) lemma=horroroso 
+ horrorosamente ( ADVERB ) lemma=horroroso 
+ horrorosas ( ADJECTIVE ) lemma=horroroso 
+ horroroso ( ADJECTIVE ) 
+ horrorosos ( ADJECTIVE ) lemma=horroroso 
  hors ( ) 
- hortaliza ( ) 
- hortalizas ( ) 
- hortensia ( ) 
- hortensias ( ) 
- hortícolas ( ) 
- hosca ( ) 
- hosco ( ) 
- hospeda ( ) 
- hospedaba ( ) 
- hospedador ( ) 
- hospedadoro ( ) 
- hospedados ( ) 
- hospedan ( ) 
- hospedar ( ) 
- hospedarse ( ) 
- hospedarán ( ) 
- hospeden ( ) 
- hospedera ( ) 
- hospedero ( ) 
- hospedó ( ) 
- hospicio ( ) 
- hospicios ( ) 
- hospital ( ) 
- hospitalaria ( ) 
- hospitalarias ( ) 
- hospitalario ( ) 
- hospitalarios ( ) 
- hospitales ( ) 
- hospitalidad ( ) 
- hospitalismo ( ) 
- hospitalizaciones ( ) 
- hospitalización ( ) 
- hospitalizada ( ) 
- hospitalizadas ( ) 
- hospitalizado ( ) 
- hospitalizados ( ) 
- hospitalizarse ( ) 
- host ( ) 
- hostal ( ) 
- hostales ( ) 
- hostelería ( ) 
- hostia ( ) 
- hostias ( ) 
- hostigaban ( ) 
- hostigadas ( ) 
- hostigado ( ) 
- hostigados ( ) 
- hostigamiento ( ) 
- hostigamientos ( ) 
- hostigan ( ) 
- hostigando ( ) 
- hostigar ( ) 
- hostil ( ) 
- hostiles ( ) 
- hostilidad ( ) 
- hostilidades ( ) 
- hosts ( ) 
- hotel ( ) 
- hotelera ( ) 
- hoteleras ( ) 
- hotelero ( ) 
- hoteleros ( ) 
- hotelería ( ) 
- hoteles ( ) 
- hoy ( ) 
- hoya ( ) 
- hoyo ( ) 
- hoyos ( ) 
- hoz ( ) lemma=choza 
- html ( ) 
- http ( ) 
- hu ( ) lemma=chus 
- huasteca ( ) 
- hube ( ) 
- hubiera ( ) 
- hubieran ( ) 
- hubieras ( ) 
- hubiere ( ) 
- hubieren ( ) 
- hubieron ( ) 
- hubiese ( ) 
- hubieseis ( ) 
- hubiesen ( ) 
- hubieses ( ) 
- hubimos ( ) 
- hubiéramos ( ) 
- hubiésemos ( ) 
- hubo ( ) 
- hueca ( ) lemma=chueco 
- huecas ( ) 
- hueco ( ) 
- huecos ( ) 
- huela ( ) 
- huelan ( ) 
- huele ( ) 
- huelen ( ) 
- hueles ( ) 
- huelga ( ) 
- huelgas ( ) 
- huelguistas ( ) 
- huella ( ) 
- huellas ( ) 
- huequito ( ) 
- huerta ( ) 
- huertas ( ) 
- huerto ( ) 
- huertos ( ) 
- hueso ( ) 
- huesos ( ) 
- huestes ( ) 
- huesudas ( ) 
- huevada ( ) 
- huevas ( ) 
- huevecitos ( ) 
- huevito ( ) 
- huevo ( ) 
- huevos ( ) 
- huevón ( ) 
- huida ( ) 
- huidas ( ) 
- huido ( ) 
- huidos ( ) 
- huimos ( ) 
- huir ( ) 
- huirá ( ) 
- huiría ( ) 
- hule ( ) 
- hulla ( ) 
- human ( ) 
- humana ( ) 
- humanamente ( ) 
- humanas ( ) 
- humanidad ( ) 
- humanidades ( ) 
- humanismo ( ) 
- humanitaria ( ) 
- humanitariamente ( ) 
- humanitarias ( ) 
- humanitario ( ) 
- humanitarios ( ) 
- humanitos ( ) 
- humaniza ( ) 
- humanización ( ) 
- humanizada ( ) 
- humanizados ( ) 
- humanizando ( ) 
- humanizar ( ) 
- humanizarse ( ) 
- humano ( ) 
- humanos ( ) 
- humanísimas ( ) 
- humareda ( ) 
- humectación ( ) 
- humectar ( ) 
- humedad ( ) 
- humedades ( ) 
- humedal ( ) 
- humedecidas ( ) 
- humedecido ( ) 
- humedito ( ) 
- humeral ( ) 
- humidificación ( ) 
- humildad ( ) 
- humilde ( ) 
- humildemente ( ) 
- humildes ( ) 
- humilla ( ) 
- humillaciones ( ) 
- humillación ( ) 
- humilladas ( ) 
- humillado ( ) 
- humillados ( ) 
- humillamos ( ) 
- humillan ( ) 
- humillando ( ) 
- humillante ( ) 
- humillantes ( ) 
- humillar ( ) 
- humillarme ( ) 
- humillaron ( ) 
- humillaseis ( ) 
- humille ( ) 
- humilló ( ) 
- humo ( ) 
- humor ( ) 
- humoral ( ) 
- humorales ( ) 
- humores ( ) 
- humorismo ( ) 
- humorista ( ) 
- humoristas ( ) 
- humorística ( ) 
- humorísticas ( ) 
- humorístico ( ) 
- humorísticos ( ) 
- humos ( ) 
- hunda ( ) 
- hundamos ( ) 
- hundan ( ) 
- hunde ( ) 
- hunden ( ) 
- hundida ( ) 
- hundido ( ) 
- hundidos ( ) 
- hundiendo ( ) 
- hundiera ( ) 
- hundieran ( ) 
- hundieron ( ) 
- hundimiento ( ) 
- hundimientos ( ) 
- hundimos ( ) 
- hundir ( ) 
- hundiremos ( ) 
- hundirme ( ) 
- hundirnos ( ) 
- hundirse ( ) 
- hundirá ( ) 
- hundiría ( ) 
- hundiéndonos ( ) 
- hundiéndose ( ) 
- hundió ( ) 
- hundo ( ) 
- hundían ( ) 
- huracanados ( ) 
- huracanes ( ) 
- huracán ( ) 
- huraño ( ) 
- hurones ( ) 
- hurta ( ) 
- hurtado ( ) 
- hurtar ( ) 
- hurto ( ) 
- hurtos ( ) 
- huso ( ) 
- husos ( ) 
- huy ( ) 
- huya ( ) 
- huyamos ( ) 
- huyan ( ) 
- huye ( ) 
- huyen ( ) 
- huyendo ( ) 
- huyera ( ) 
- huyeran ( ) 
- huyeron ( ) 
- huyese ( ) 
- huyesen ( ) 
- huyó ( ) 
- huérfana ( ) 
- huérfano ( ) 
- huérfanos ( ) 
- huésped ( ) 
- huéspedes ( ) 
- huía ( ) 
- huían ( ) 
+ hortaliza ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hortalizas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hortaliza 
+ hortensia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hortensias ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hortensia 
+ hortícolas ( ADJECTIVE ) lemma=hortícola 
+ hosca ( ADJECTIVE ) lemma=hosco 
+ hosco ( ADJECTIVE ) 
+ hospeda ( VERB ) lemma=hospedar 
+ hospedaba ( VERB ) lemma=hospedar 
+ hospedador ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hospedadoro ( ADJECTIVE ) 
+ hospedados ( VERB_PAST_PARTICIPLE VERB ) lemma=hospedar 
+ hospedan ( VERB ) lemma=hospedar 
+ hospedar ( VERB ) 
+ hospedarse ( VERB_INFINITIVE VERB ) 
+ hospedarán ( VERB ) lemma=hospedar 
+ hospeden ( VERB ) lemma=hospedar 
+ hospedera ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hospedero ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hospedó ( VERB ) lemma=hospedar 
+ hospicio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hospicios ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hospicio 
+ hospital ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hospitalaria ( ADJECTIVE ) lemma=hospitalario 
+ hospitalarias ( ADJECTIVE ) lemma=hospitalario 
+ hospitalario ( ADJECTIVE ) 
+ hospitalarios ( ADJECTIVE ) lemma=hospitalario 
+ hospitales ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hospital 
+ hospitalidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hospitalismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hospitalizaciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hospitalización 
+ hospitalización ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hospitalizada ( VERB_PAST_PARTICIPLE VERB ) lemma=hospitalizar 
+ hospitalizadas ( VERB_PAST_PARTICIPLE VERB ) lemma=hospitalizar 
+ hospitalizado ( VERB_PAST_PARTICIPLE VERB ) lemma=hospitalizar 
+ hospitalizados ( VERB_PAST_PARTICIPLE VERB ) lemma=hospitalizar 
+ hospitalizarse ( VERB ) lemma=hospitalizar 
+ host ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hostal ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hostales ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hostal 
+ hostelería ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hostia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hostias ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hostia 
+ hostigaban ( VERB ) lemma=hostigar 
+ hostigadas ( VERB_PAST_PARTICIPLE VERB ) lemma=hostigar 
+ hostigado ( VERB_PAST_PARTICIPLE VERB ) lemma=hostigar 
+ hostigados ( VERB_PAST_PARTICIPLE VERB ) lemma=hostigar 
+ hostigamiento ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hostigamientos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hostigamiento 
+ hostigan ( VERB ) lemma=hostigar 
+ hostigando ( NOUN NOUN_GERUND ) lemma=hostigar 
+ hostigar ( VERB ) 
+ hostil ( ADJECTIVE ) 
+ hostiles ( ADJECTIVE ) lemma=hostil 
+ hostilidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hostilidades ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hostilidad 
+ hosts ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=host 
+ hotel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hotelera ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hotelero 
+ hoteleras ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hotelero 
+ hotelero ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ hoteleros ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hotelero 
+ hotelería ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hoteles ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hotel 
+ hoy ( ADVERB ) 
+ hoya ( VERB ) lemma=hoyar 
+ hoyo ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ hoyos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hoyo 
+ hoz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ html ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ http ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hu ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ huasteca ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hube ( VERB ) lemma=haber 
+ hubiera ( VERB ) lemma=haber 
+ hubieran ( VERB ) lemma=haber 
+ hubieras ( VERB ) lemma=haber 
+ hubiere ( VERB ) lemma=haber 
+ hubieren ( VERB ) lemma=haber 
+ hubieron ( VERB ) lemma=haber 
+ hubiese ( VERB ) lemma=haber 
+ hubieseis ( VERB ) lemma=haber 
+ hubiesen ( VERB ) lemma=haber 
+ hubieses ( VERB ) lemma=haber 
+ hubimos ( VERB ) lemma=haber 
+ hubiéramos ( VERB ) lemma=haber 
+ hubiésemos ( VERB ) lemma=haber 
+ hubo ( VERB ) lemma=haber 
+ hueca ( ADJECTIVE ) lemma=hueco 
+ huecas ( ADJECTIVE ) lemma=hueco 
+ hueco ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ huecos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=hueco 
+ huela ( VERB ) lemma=oler 
+ huelan ( VERB ) lemma=oler 
+ huele ( VERB ) lemma=oler 
+ huelen ( VERB ) lemma=oler 
+ hueles ( VERB ) lemma=oler 
+ huelga ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ huelgas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=huelga 
+ huelguistas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=huelguista 
+ huella ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ huellas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=huella 
+ huequito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hueco 
+ huerta ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ huertas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=huerta 
+ huerto ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ huertos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=huerto 
+ hueso ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ huesos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hueso 
+ huestes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hueste 
+ huesudas ( ADJECTIVE ) lemma=huesudo 
+ huevada ( VERB_PAST_PARTICIPLE VERB ) lemma=huevar 
+ huevas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=hueva 
+ huevecitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=huevo 
+ huevito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=huevo 
+ huevo ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ huevos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=huevo 
+ huevón ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ huida ( VERB_PAST_PARTICIPLE VERB ) lemma=huir 
+ huidas ( VERB_PAST_PARTICIPLE VERB ) lemma=huir 
+ huido ( VERB_PAST_PARTICIPLE VERB ) lemma=huir 
+ huidos ( VERB_PAST_PARTICIPLE VERB ) lemma=huir 
+ huimos ( VERB ) lemma=huir 
+ huir ( VERB ) 
+ huirá ( VERB ) lemma=huir 
+ huiría ( VERB ) lemma=huir 
+ hule ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hulla ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ human ( VERB ) lemma=humar 
+ humana ( ADJECTIVE ) lemma=humano 
+ humanamente ( ADVERB ) lemma=humano 
+ humanas ( ADJECTIVE ) lemma=humano 
+ humanidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ humanidades ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=humanidad 
+ humanismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ humanitaria ( ADJECTIVE ) lemma=humanitario 
+ humanitariamente ( ADVERB ) lemma=humanitario 
+ humanitarias ( ADJECTIVE ) lemma=humanitario 
+ humanitario ( ADJECTIVE ) 
+ humanitarios ( ADJECTIVE ) lemma=humanitario 
+ humanitos ( ADJECTIVE ) lemma=humano 
+ humaniza ( VERB ) lemma=humanizar 
+ humanización ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ humanizada ( VERB_PAST_PARTICIPLE VERB ) lemma=humanizar 
+ humanizados ( VERB_PAST_PARTICIPLE VERB ) lemma=humanizar 
+ humanizando ( NOUN NOUN_GERUND ) lemma=humanizar 
+ humanizar ( VERB ) 
+ humanizarse ( VERB ) lemma=humanizar 
+ humano ( ADJECTIVE ) 
+ humanos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=humano 
+ humanísimas ( ADJECTIVE ) lemma=humano 
+ humareda ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ humectación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ humectar ( VERB ) 
+ humedad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ humedades ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=humedad 
+ humedal ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ humedecidas ( VERB_PAST_PARTICIPLE VERB ) lemma=humedecer 
+ humedecido ( VERB_PAST_PARTICIPLE VERB ) lemma=humedecer 
+ humedito ( ADJECTIVE ) lemma=húmedo 
+ humeral ( ADJECTIVE ) 
+ humidificación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ humildad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ humilde ( ADJECTIVE ) 
+ humildemente ( ADVERB ) lemma=humilde 
+ humildes ( ADJECTIVE ) lemma=humilde 
+ humilla ( VERB ) lemma=humillar 
+ humillaciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=humillación 
+ humillación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ humilladas ( VERB_PAST_PARTICIPLE VERB ) lemma=humillar 
+ humillado ( VERB_PAST_PARTICIPLE VERB ) lemma=humillar 
+ humillados ( VERB_PAST_PARTICIPLE VERB ) lemma=humillar 
+ humillamos ( VERB ) lemma=humillar 
+ humillan ( VERB ) lemma=humillar 
+ humillando ( NOUN NOUN_GERUND ) lemma=humillar 
+ humillante ( ADJECTIVE ) 
+ humillantes ( ADJECTIVE ) lemma=humillante 
+ humillar ( VERB ) 
+ humillarme ( VERB_INFINITIVE VERB ) lemma=humillar 
+ humillaron ( VERB ) lemma=humillar 
+ humillaseis ( VERB ) lemma=humillar 
+ humille ( VERB ) lemma=humillar 
+ humilló ( VERB ) lemma=humillar 
+ humo ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ humor ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ humoral ( ADJECTIVE ) 
+ humorales ( ADJECTIVE ) lemma=humoral 
+ humores ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=humor 
+ humorismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ humorista ( ADJECTIVE ) 
+ humoristas ( ADJECTIVE ) lemma=humorista 
+ humorística ( ADJECTIVE ) lemma=humorístico 
+ humorísticas ( ADJECTIVE ) lemma=humorístico 
+ humorístico ( ADJECTIVE ) 
+ humorísticos ( ADJECTIVE ) lemma=humorístico 
+ humos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=humo 
+ hunda ( VERB ) lemma=hundir 
+ hundamos ( VERB ) lemma=hundir 
+ hundan ( VERB ) lemma=hundir 
+ hunde ( VERB ) lemma=hundir 
+ hunden ( VERB ) lemma=hundir 
+ hundida ( VERB_PAST_PARTICIPLE VERB ) lemma=hundir 
+ hundido ( VERB_PAST_PARTICIPLE VERB ) lemma=hundir 
+ hundidos ( VERB_PAST_PARTICIPLE VERB ) lemma=hundir 
+ hundiendo ( NOUN NOUN_GERUND ) lemma=hundir 
+ hundiera ( VERB ) lemma=hundir 
+ hundieran ( VERB ) lemma=hundir 
+ hundieron ( VERB ) lemma=hundir 
+ hundimiento ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hundimientos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hundimiento 
+ hundimos ( VERB ) lemma=hundir 
+ hundir ( VERB ) 
+ hundiremos ( VERB ) lemma=hundir 
+ hundirme ( VERB_INFINITIVE VERB ) lemma=hundir 
+ hundirnos ( VERB_INFINITIVE VERB ) lemma=hundir 
+ hundirse ( VERB_INFINITIVE VERB ) 
+ hundirá ( VERB ) lemma=hundir 
+ hundiría ( VERB ) lemma=hundir 
+ hundiéndonos ( NOUN NOUN_GERUND ) lemma=hundir 
+ hundiéndose ( VERB_PAST_PARTICIPLE VERB ) lemma=hundir 
+ hundió ( VERB ) lemma=hundir 
+ hundo ( VERB ) lemma=hundir 
+ hundían ( VERB ) lemma=hundir 
+ huracanados ( ADJECTIVE ) 
+ huracanes ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=huracán 
+ huracán ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ huraño ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hurones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hurón 
+ hurta ( VERB ) lemma=hurtar 
+ hurtado ( VERB_PAST_PARTICIPLE VERB ) lemma=hurtar 
+ hurtar ( VERB ) 
+ hurto ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ hurtos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hurto 
+ huso ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ husos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=huso 
+ huy ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ huya ( VERB ) lemma=huir 
+ huyamos ( VERB ) lemma=huir 
+ huyan ( VERB ) lemma=huir 
+ huye ( VERB ) lemma=huir 
+ huyen ( VERB ) lemma=huir 
+ huyendo ( VERB_PAST_PARTICIPLE VERB ) lemma=huir 
+ huyera ( VERB ) lemma=huir 
+ huyeran ( VERB ) lemma=huir 
+ huyeron ( VERB ) lemma=huir 
+ huyese ( VERB ) lemma=huir 
+ huyesen ( VERB ) lemma=huir 
+ huyó ( VERB ) lemma=huir 
+ huérfana ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=huérfano 
+ huérfano ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ huérfanos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=huérfano 
+ huésped ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ huéspedes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=huésped 
+ huía ( VERB ) lemma=huir 
+ huían ( VERB ) lemma=huir 
  hypothetical ( ) 
- hábil ( ) 
- hábiles ( ) 
- hábilmente ( ) 
- hábitat ( ) 
- hábitats ( ) 
- hábito ( ) 
- hábitos ( ) 
- háblale ( ) 
- háblame ( ) 
- háblanos ( ) 
- háblele ( ) 
- háblenos ( ) 
- háblese ( ) 
- hácele ( ) 
- hágala ( ) 
- hágalo ( ) 
- hágame ( ) 
- háganla ( ) 
- háganlo ( ) 
- hágannos ( ) 
- háganse ( ) 
- hágase ( ) 
- hámster ( ) 
- hélice ( ) 
- hélice-vuelta ( ) 
- hélice-vuelta-hélice ( ) 
- hélices ( ) 
- héroe ( ) 
- héroes ( ) 
+ hábil ( ADJECTIVE ) 
+ hábiles ( ADJECTIVE ) lemma=hábil 
+ hábilmente ( ADVERB ) lemma=hábil 
+ hábitat ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hábitats ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hábitat 
+ hábito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hábitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hábito 
+ háblale ( ) lemma=hablar 
+ háblame ( ) lemma=hablar 
+ háblanos ( ) lemma=hablar 
+ háblele ( ) lemma=hablar 
+ háblenos ( ) lemma=hablar 
+ háblese ( ) lemma=hablarse 
+ hácele ( ) lemma=hacer 
+ hágala ( ) lemma=hacer 
+ hágalo ( ) lemma=hacer 
+ hágame ( ) lemma=hacer 
+ háganla ( ) lemma=hacer 
+ háganlo ( VERB ) lemma=hacer 
+ hágannos ( VERB ) lemma=hacer 
+ háganse ( ) lemma=hacerse 
+ hágase ( VERB ) lemma=hacer 
+ hámster ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hélice ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hélice-vuelta ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hélice-vuelta-hélice ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ hélices ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=hélice 
+ héroe ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ héroes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=héroe 
  hétérogene ( ) 
- híbrida ( ) 
- híbridas ( ) 
- híbrido ( ) 
- híbridos ( ) 
- hídrica ( ) 
- hídrico ( ) 
- hídricos ( ) 
- hígado ( ) 
- híjole ( ) 
- hípico ( ) 
- hísticas ( ) 
- hístico ( ) 
- húmeda ( ) 
- húmedas ( ) 
- húmedo ( ) 
- húmedos ( ) 
- húmero ( ) 
- húmicos ( ) 
- húngara ( ) 
- húngaras ( ) 
- húngaro ( ) 
- húngaros ( ) 
- habi_(Abu~Dhabi ( ) 
- hme ( ) lemma=Ahmed 
- hor ( ) lemma=thorn 
- hutá ( ) lemma=Bhután 
- habel ( ) lemma=Chabela 
- hacarit ( ) lemma=Chacarita 
- hac ( ) lemma=Chaco 
- hadwic ( ) lemma=Chadwick 
- ham ( ) lemma=champ 
- hamberli ( ) lemma=Chamberlin 
- hamorr ( ) lemma=Chamorro 
- hangeSubscriptionProfil ( ) lemma=ChangeSubscriptionProfile 
- hapultepe ( ) lemma=Chapultepec 
- harle ( ) lemma=charlar 
- harli ( ) lemma=Charlie 
- harlott ( ) lemma=Charlotte 
- hat ( ) lemma=Chato 
- havaran ( ) lemma=Chavarano 
- hav ( ) lemma=chavo 
- haít ( ) lemma=Chaíto 
- hech ( ) lemma=cheche 
- hecoslovac ( ) lemma=checoslovaco 
- hecoslovaqui ( ) lemma=Checoslovaquia 
- hel ( ) lemma=shell 
- hemica ( ) lemma=Chemical 
- herl ( ) lemma=Cherla 
- hesn ( ) lemma=Chesno 
- hetzel ( ) lemma=Chetzels 
- hevrole ( ) lemma=Chevrolet 
- hi-cuadrad ( ) lemma=Chi-cuadrado 
- hiapa ( ) lemma=Chiapas 
- hicag ( ) lemma=Chicago 
- hich ( ) lemma=chicho 
- hiclan ( ) lemma=Chiclana 
- hihuahu ( ) lemma=Chihuahua 
- hilco ( ) lemma=Chilcoa 
- hil ( ) lemma=chile 
- hiluc ( ) lemma=Chiluca 
- hin ( ) lemma=chino 
- hinch ( ) lemma=Chincha 
- hinglepu ( ) lemma=Chingleput 
- hiot ( ) lemma=Chiote 
- hiotit ( ) lemma=Chiote 
- hipinqu ( ) lemma=Chipinque 
- hipr ( ) lemma=Chipre 
- hiquilin ( ) lemma=Chiquilina 
- hiquit ( ) lemma=chico 
- hlamydi ( ) lemma=Chlamydia 
- hlorell ( ) lemma=Chlorella 
- hoose ( ) lemma=Chooser 
- hop ( ) lemma=chopo 
- hot ( ) lemma=choto 
- hove ( ) lemma=Chovet 
- hri ( ) lemma=Chris 
- hristia ( ) lemma=Christian 
- hristophe ( ) lemma=Christopher 
- hrysle ( ) lemma=Chrysler 
- hrysophit ( ) lemma=Chrysophita 
- hubu ( ) lemma=Chubut 
- hum ( ) lemma=Chumi 
- hup ( ) lemma=chupar 
- hurc ( ) lemma=Church 
- háve ( ) lemma=Chávez 
- hrlichi ( ) lemma=Ehrlichia 
- hora_(hasta~ahora ( ) 
+ híbrida ( ADJECTIVE ) lemma=híbrido 
+ híbridas ( ADJECTIVE ) lemma=híbrido 
+ híbrido ( ADJECTIVE ) 
+ híbridos ( ADJECTIVE ) lemma=híbrido 
+ hídrica ( ADJECTIVE ) lemma=hídrico 
+ hídrico ( ADJECTIVE ) 
+ hídricos ( ADJECTIVE ) lemma=hídrico 
+ hígado ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ híjole ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ hípico ( ADJECTIVE ) 
+ hísticas ( ADJECTIVE ) lemma=hístico 
+ hístico ( ADJECTIVE ) 
+ húmeda ( ADJECTIVE ) lemma=húmedo 
+ húmedas ( ADJECTIVE ) lemma=húmedo 
+ húmedo ( ADJECTIVE ) 
+ húmedos ( ADJECTIVE ) lemma=húmedo 
+ húmero ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ húmicos ( ADJECTIVE ) lemma=húmico 
+ húngara ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=húngaro 
+ húngaras ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=húngaro 
+ húngaro ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ húngaros ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=húngaro 
+ Hasta_ahora ( ADVERB ) lemma=hasta~ahora 
+ hasta~ahora ( ) 
  Huracán ( ) 
- H0 ( ) lemma=LH02 
- H1 ( ) lemma=LH16 
- H6 ( ) lemma=LH62 
- hbayash ( ) lemma=Ohbayashi 
- hi ( ) lemma=chis 
- hiladelphi ( ) lemma=Philadelphia 
- hoeni ( ) lemma=Phoenix 
- hycomycete ( ) lemma=Phycomycetes 
- h-negativ ( ) lemma=Rh-negativa 
- h-positiv ( ) lemma=Rh-positivo 
- hipicephalu ( ) lemma=Rhipicephalus 
- hizobiu ( ) lemma=Rhizobium 
- hone-Poulen ( ) lemma=Rhone-Poulenc 
- hakespear ( ) lemma=Shakespeare 
- hanno ( ) lemma=Shannon 
- harja ( ) lemma=Sharjah 
- harpshoote ( ) lemma=Sharpshooter 
- hearso ( ) lemma=Shearson 
- helbourn ( ) lemma=Shelbourne 
- hell ( ) lemma=Shells 
- herma ( ) lemma=Sherman 
- hine-Dalgarn ( ) lemma=Shine-Dalgarno 
- hubi ( ) lemma=Shubik 
- hatche ( ) lemma=Thatcher 
- hibau ( ) lemma=Thibaut 
- homa ( ) lemma=Thomas 
- hom ( ) lemma=Thoms 
- homso ( ) lemma=Thomson 
- hune ( ) lemma=Thunen 
- hy- ( ) lemma=Thy-1 
- hémi ( ) lemma=Thémis 
- har ( ) lemma=wharf 
- hittl ( ) lemma=Whittle 
- hea ( ) lemma=ahead 
- hijad ( ) lemma=ahijado 
- hinc ( ) lemma=ahincar 
- hog ( ) lemma=ahogo 
- hogaba ( ) lemma=ahogar 
- hogad ( ) lemma=ahogar 
- hogada ( ) lemma=ahogar 
- hogado ( ) lemma=ahogar 
- hoga ( ) lemma=ahogar 
- hogand ( ) lemma=ahogar 
- hogarla ( ) lemma=ahogar 
- hogarl ( ) lemma=ahogar 
- hogarno ( ) lemma=ahogar 
- hogaro ( ) lemma=ahogar 
- hogars ( ) lemma=ahogarse 
- hogaríamo ( ) lemma=ahogar 
- hogo ( ) lemma=ahogo 
- hoguemo ( ) lemma=ahogar 
- hogándos ( ) lemma=ahogarse 
- hog� ( ) lemma=ahogar 
- hond ( ) lemma=ahondar 
- hondad ( ) lemma=ahondar 
- hondand ( ) lemma=ahondar 
- hondar ( ) lemma=ahondar 
- hondar� ( ) lemma=ahondar 
- hondará ( ) lemma=ahondar 
- hondarí ( ) lemma=ahondar 
- hondemo ( ) lemma=ahondar 
- hond� ( ) lemma=ahondar 
- horcad ( ) lemma=ahorcar 
- horcado ( ) lemma=ahorcar 
- horc� ( ) lemma=ahorcar 
- horit ( ) lemma=ahora 
- horr ( ) lemma=chorro 
- horrab ( ) lemma=ahorrar 
- horrad ( ) lemma=chorrada 
- horrada ( ) lemma=chorrada 
- horradora ( ) lemma=ahorrador 
- horrado ( ) lemma=ahorrar 
- horramo ( ) lemma=ahorrar 
- horra ( ) lemma=ahorrar 
- horrand ( ) lemma=ahorrar 
- horraremo ( ) lemma=ahorrar 
- horraro ( ) lemma=ahorrar 
- horrars ( ) lemma=ahorrarse 
- horrar� ( ) lemma=ahorrar 
- horrarí ( ) lemma=ahorrar 
- horraríamo ( ) lemma=ahorrar 
- horraría ( ) lemma=ahorrar 
- horremo ( ) lemma=ahorrar 
- horre ( ) lemma=ahorrar 
- horrist ( ) lemma=ahorrista 
- horrista ( ) lemma=ahorrista 
- horro ( ) lemma=chorro 
- horr� ( ) lemma=ahorrar 
- huecamient ( ) lemma=ahuecamiento 
- humad ( ) lemma=ahumar 
- humado ( ) lemma=ahumar 
- humars ( ) lemma=ahumarse 
- husa ( ) lemma=ahusar 
- huyent ( ) lemma=ahuyentar 
- huyentada ( ) lemma=ahuyentar 
- huyenta ( ) lemma=ahuyentar 
- huyentaro ( ) lemma=ahuyentar 
- h� ( ) lemma=ché 
- hínc ( ) lemma=ahínco 
- hít ( ) lemma=ahíto 
- hóguenno ( ) lemma=ahogar 
- habacan ( ) lemma=chabacano 
- habol ( ) lemma=chabola 
- habola ( ) lemma=chabola 
- haca ( ) lemma=chacal 
- hach ( ) lemma=chachi 
- hadd ( ) lemma=chadda 
- haf ( ) lemma=chafar 
- hafad ( ) lemma=chafar 
- hafa ( ) lemma=chafar 
- hag ( ) lemma=chaga 
- hagásic ( ) lemma=chagásico 
- hain ( ) lemma=chaine 
- halad ( ) lemma=chalar 
- halado ( ) lemma=chalar 
- halchaz ( ) lemma=chalchazo 
- halecit ( ) lemma=chalecito 
- halec ( ) lemma=chaleco 
- haleco ( ) lemma=chaleco 
- hal� ( ) lemma=chalet 
- halé ( ) lemma=chalet 
- hamaco ( ) lemma=chamaco 
- hamaquito ( ) lemma=chamaco 
- hamarr ( ) lemma=chamarra 
- hamb ( ) lemma=chamba 
- hambea ( ) lemma=chambear 
- hampagn ( ) lemma=champagne 
- hampañ ( ) lemma=champagne 
- hampá ( ) lemma=champagne 
- hamp� ( ) lemma=shampoo 
- hanc ( ) lemma=chance 
- hance ( ) lemma=chance 
- hancill ( ) lemma=chance 
- hangarro ( ) lemma=changarro 
- hang ( ) lemma=change 
- hanne ( ) lemma=channel 
- hanquete ( ) lemma=chanquete 
- hantaj ( ) lemma=chantaje 
- hantajead ( ) lemma=chantajear 
- hantajeado ( ) lemma=chantajear 
- hantajeand ( ) lemma=chantajear 
- hantajea ( ) lemma=chantajear 
- hantaje ( ) lemma=chantaje 
- hanz ( ) lemma=chanza 
- hap ( ) lemma=chapo 
- haparrit ( ) lemma=chaparro 
- haparró ( ) lemma=chaparrón 
- hapa ( ) lemma=chapa 
- hapit ( ) lemma=chapa 
- hapucer ( ) lemma=chapucero 
- hapucerament ( ) lemma=chapucero 
- hapuz ( ) lemma=chapuzar 
- hapuza ( ) lemma=chapuzar 
- haquet ( ) lemma=chaqueta 
- haqueta ( ) lemma=chaqueta 
- haquetit ( ) lemma=chaqueta 
- haqu� ( ) lemma=chaqué 
- haracte ( ) lemma=character 
- haracteristi ( ) lemma=characteristic 
- haracter ( ) lemma=characters 
- harc ( ) lemma=charco 
- harca ( ) lemma=charca 
- harco ( ) lemma=charco 
- hario ( ) lemma=chariot 
- harl ( ) lemma=charla 
- harlad ( ) lemma=charlar 
- harlamo ( ) lemma=charlar 
- harla ( ) lemma=charla 
- harland ( ) lemma=charlar 
- harlatá ( ) lemma=charlatán 
- harl� ( ) lemma=charlar 
- haro ( ) lemma=charol 
- harol ( ) lemma=charolar 
- harola ( ) lemma=charolar 
- harrit ( ) lemma=charro 
- harr ( ) lemma=charro 
- harro ( ) lemma=charro 
- harru ( ) lemma=charrúa 
- hasc ( ) lemma=chasco 
- hasca ( ) lemma=chascar 
- hasco ( ) lemma=chasco 
- hasi ( ) lemma=chasis 
- hatarr ( ) lemma=chatarra 
- hauch ( ) lemma=chaucha 
- hava ( ) lemma=chaval 
- haval ( ) lemma=chaval 
- havala ( ) lemma=chaval 
- havale ( ) lemma=chaval 
- havalit ( ) lemma=chaval 
- havo ( ) lemma=chavo 
- hec ( ) lemma=checo 
- heca ( ) lemma=checo 
- heco ( ) lemma=checo 
- hecoslovaca ( ) lemma=checoslovaco 
- helí ( ) lemma=chelín 
- hemi ( ) lemma=chemin 
- hequ ( ) lemma=cheque 
- hequead ( ) lemma=chequear 
- hequeand ( ) lemma=chequear 
- hequea ( ) lemma=chequear 
- hequearl ( ) lemma=chequear 
- hequearm ( ) lemma=chequear 
- heque ( ) lemma=cheque 
- hequé ( ) lemma=cheqear 
- hequée ( ) lemma=chequear 
- herit ( ) lemma=chero 
- her ( ) lemma=chero 
- heverísim ( ) lemma=chévere 
- hiapanec ( ) lemma=chiapaneco 
- hiapaneco ( ) lemma=chiapaneco 
- hic ( ) lemma=chico 
- hicano ( ) lemma=chicano 
- hica ( ) lemma=chico 
- hicharr ( ) lemma=chicharro 
- hicharro ( ) lemma=chicharro 
- hiche ( ) lemma=chiche 
- hichó ( ) lemma=chichón 
- hicl ( ) lemma=chicle 
- hicle ( ) lemma=chicle 
- hico ( ) lemma=chico 
- hiffre ( ) lemma=chiffres 
- hifl ( ) lemma=chiflar 
- hiflad ( ) lemma=chiflar 
- hihuahuens ( ) lemma=chihuahuense 
- hihuahuense ( ) lemma=chihuahuense 
- hilang ( ) lemma=chilango 
- hilango ( ) lemma=chilango 
- hilen ( ) lemma=chileno 
- hilena ( ) lemma=chileno 
- hileno ( ) lemma=chileno 
- hile ( ) lemma=chile 
- hill ( ) lemma=chillar 
- hillad ( ) lemma=chillar 
- hilla ( ) lemma=chillar 
- hilland ( ) lemma=chillar 
- hille ( ) lemma=chillar 
- hillon ( ) lemma=chillón 
- himb ( ) lemma=chimba 
- himene ( ) lemma=chimenea 
- himenea ( ) lemma=chimenea 
- himpancé ( ) lemma=chimpancé 
- hina ( ) lemma=chino 
- hineand ( ) lemma=chinear 
- hingad ( ) lemma=chingar 
- hingarr ( ) lemma=chingarro 
- hinit ( ) lemma=chinito 
- hino ( ) lemma=chino 
- hipriot ( ) lemma=chipriota 
- hipriota ( ) lemma=chipriota 
- hip ( ) lemma=chip 
- hiquillad ( ) lemma=chiquillada 
- hiquilla ( ) lemma=chico 
- hiquillita ( ) lemma=chiquillo 
- hiquill ( ) lemma=chico 
- hiquillo ( ) lemma=chico 
- hiquita ( ) lemma=chico 
- hiquitic ( ) lemma=chiquita 
- hiquitit ( ) lemma=chiquitito 
- hiquito ( ) lemma=chico 
- hirla ( ) lemma=chirlar 
- hism ( ) lemma=chisme 
- hisme ( ) lemma=chisme 
- hismoséam ( ) lemma=chismosear 
- hisp ( ) lemma=chispa 
- hispa ( ) lemma=chispa 
- hispaz ( ) lemma=chispazo 
- hista ( ) lemma=chistar 
- hist ( ) lemma=chistar 
- hister ( ) lemma=chistera 
- histe ( ) lemma=chistar 
- histid ( ) lemma=chistido 
- histos ( ) lemma=chistoso 
- hita ( ) lemma=chitas 
- hiv ( ) lemma=chivo 
- hiva ( ) lemma=chivo 
- hivet ( ) lemma=chiveto 
- hivo ( ) lemma=chivo 
- hiít ( ) lemma=chiíta 
- hiíta ( ) lemma=chiíta 
- ho ( ) lemma=show 
- hoc ( ) lemma=shock 
- hocad ( ) lemma=chocar 
- hocado ( ) lemma=chocar 
- hocamo ( ) lemma=chocar 
- hoca ( ) lemma=chocar 
- hocand ( ) lemma=chocar 
- hocant ( ) lemma=chocante 
- hocante ( ) lemma=chocante 
- hocarl ( ) lemma=chocar 
- hocaro ( ) lemma=chocar 
- hocart ( ) lemma=chocar 
- hocar� ( ) lemma=chocar 
- hocará ( ) lemma=chocar 
- hocarí ( ) lemma=chocar 
- hocas ( ) lemma=chocar 
- hocheand ( ) lemma=chochear 
- hochea ( ) lemma=chochear 
- hoche ( ) lemma=chochear 
- hoch ( ) lemma=chocho 
- hocolat ( ) lemma=chocolate 
- hocolate ( ) lemma=chocolate 
- hoc� ( ) lemma=chocar 
- hofe ( ) lemma=chofer 
- hofere ( ) lemma=chofer 
- hoic ( ) lemma=choice 
- hoi ( ) lemma=choix 
- holit ( ) lemma=cholo 
- homb ( ) lemma=chomba 
- hopit ( ) lemma=chopo 
- hopito ( ) lemma=chopo 
- hopo ( ) lemma=chopo 
- hoqu ( ) lemma=choque 
- hoque ( ) lemma=choque 
- horiz ( ) lemma=chorizo 
- horizo ( ) lemma=chorizo 
- horradill ( ) lemma=chorrada 
- horradilla ( ) lemma=chorrada 
- horrit ( ) lemma=chorro 
- hoto ( ) lemma=choto 
- hoza ( ) lemma=choza 
- hubasc ( ) lemma=chubasco 
- hubasco ( ) lemma=chubasco 
- huch ( ) lemma=chucha 
- huec ( ) lemma=chueca 
- hul ( ) lemma=chulo 
- hulea ( ) lemma=chulear 
- hulee ( ) lemma=chulear 
- hulerí ( ) lemma=chulería 
- hulería ( ) lemma=chulería 
- hulet ( ) lemma=chuleta 
- huleta ( ) lemma=chuleta 
- huletill ( ) lemma=chuleta 
- huletit ( ) lemma=chuleta 
- hulo ( ) lemma=chulo 
- hulísim ( ) lemma=chulo 
- hump ( ) lemma=chumpa 
- hunkin ( ) lemma=chunking 
- hupad ( ) lemma=chupar 
- hupado ( ) lemma=chupar 
- hupall ( ) lemma=chupalla 
- hupamo ( ) lemma=chupar 
- hupand ( ) lemma=chupar 
- hupao ( ) lemma=chupar 
- hupa ( ) lemma=chupar 
- huparía ( ) lemma=chupar 
- hupe ( ) lemma=chupar 
- hurr ( ) lemma=churro 
- hurro ( ) lemma=churro 
- hurruscad ( ) lemma=churruscar 
- husm ( ) lemma=chusma 
- hut ( ) lemma=chuta 
- hutand ( ) lemma=chutar 
- hut� ( ) lemma=chutar 
- hámel ( ) lemma=chámela 
- hánda ( ) lemma=chándal 
- héver ( ) lemma=chévere 
- hícharo ( ) lemma=chícharo 
- hócal ( ) lemma=chocar 
- hófe ( ) lemma=chófer 
- hófere ( ) lemma=chófer 
- hh ( ) lemma=eh 
- hhh ( ) lemma=shhht 
- hrlichiosi ( ) lemma=ehrlichiosis 
+ ha_de ( VERB ) lemma=haber~de 
+ haber~de ( ) 
  habichuela ( ) 
  habituar ( ) 
+ habrá_de ( VERB ) lemma=haber~de 
+ habrá_que ( VERB ) lemma=haber~que 
+ haber~que ( ) 
+ habrán_de ( VERB ) lemma=haber~de 
+ habría_que ( VERB ) lemma=haber~que 
  hacendar ( ) 
  hachar ( ) 
  hachemito ( ) 
@@ -2226,7 +1807,12 @@
  halón ( ) 
  halógeno ( ) 
  hamburgués ( ) 
+ han_de ( VERB ) lemma=haber~de 
  hawaiano ( ) 
+ hay_que ( VERB ) lemma=haber~que 
+ haya_de ( VERB ) lemma=haber~de 
+ haya_que ( VERB ) lemma=haber~que 
+ hayan_de ( VERB ) lemma=haber~de 
  hebilla ( ) 
  hechizar ( ) 
  hechura ( ) 
@@ -2295,6 +1881,8 @@
  horrorizar ( ) 
  hortícola ( ) 
  hospitalizar ( ) 
+ hoy_día ( ADVERB ) lemma=hoy~día 
+ hoy~día ( ) 
  hoyar ( ) 
  huelguista ( ) 
  hueste ( ) 
@@ -2305,29 +1893,4 @@
  humedecer ( ) 
  hurón ( ) 
  húmico ( ) 
- hmi ( ) lemma=ohmio 
- hmio ( ) lemma=ohmio 
  hondonada ( ) 
- hanto ( ) lemma=phantom 
- hysiologí ( ) lemma=physiología 
- hysi ( ) lemma=physis 
- hýsi ( ) lemma=phýsis 
- hýsis-dik ( ) lemma=phýsis-dike 
- hora_(por~ahora ( ) 
- hodesiens ( ) lemma=rhodesiense 
- herif ( ) lemma=sheriff 
- hif ( ) lemma=shift 
- hock ( ) lemma=shock 
- hun ( ) lemma=shunt 
- heil ( ) lemma=theile 
- heoretica ( ) lemma=theoretical 
- hesauru ( ) lemma=thesaurus 
- het ( ) lemma=theta 
- hrea ( ) lemma=thread 
- hre ( ) lemma=three 
- hroug ( ) lemma=through 
- hyroxin ( ) lemma=thyroxine 
- héoriqu ( ) lemma=théorique 
- hiskie ( ) lemma=whisky 
- hisk ( ) lemma=whisky 
- hit ( ) lemma=white 

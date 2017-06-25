@@ -497,7 +497,12 @@ static void SetSequenceStamp() //   mark words in sequence, original and canonic
 	for (int i = startSentence; i <= (int)endSentence; ++i)
 	{
 		if (!IsAlphaUTF8OrDigit(*wordStarts[i]) ) continue; // we only composite words, not punctuation or quoted stuff
-
+		if (IsDate(wordStarts[i])) // 1 word date
+		{
+			NextInferMark();
+			MarkFacts(0, true, MakeMeaning(FindWord((char*)"~dateinfo")), i, i, false, true);
+			continue;
+		}
 		// check for dates
 		int start,end;
 		if (DateZone(i,start,end) && i != wordCount)
@@ -516,7 +521,7 @@ static void SetSequenceStamp() //   mark words in sequence, original and canonic
 			i = end;
 			continue;
 		}
-        else if ((i + 4) <= wordCount && IsDigitWord(wordStarts[i]) &&
+        else if ((i + 4) <= wordCount && IsDigitWord(wordStarts[i]) && // multiword date
             IsDigitWord(wordStarts[i + 2]) &&
             IsDigitWord(wordStarts[i + 4]))
         {

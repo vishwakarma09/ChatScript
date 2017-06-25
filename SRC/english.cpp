@@ -270,7 +270,7 @@ EndingInfo adjective2[] =
 		{ (char*)"al",ADJECTIVE|ADJECTIVE_NORMAL,0},  // pertaining to
 		{ (char*)"en",ADJECTIVE|ADJECTIVE_NORMAL,0}, 
 		{ (char*)"an",ADJECTIVE|ADJECTIVE_NORMAL,0}, // relating to
-	{0},
+	{0}
 };
 EndingInfo adjective1[] = 
 {
@@ -278,10 +278,47 @@ EndingInfo adjective1[] =
 	{0},
 };
 
+bool IsDate(char* original)
+{
+	char* slash = strchr(original, '/');
+	if (!slash) slash = strchr(original, '-');
+
+	// 1/1/1990 year
+	if (IsDigit(*original) && slash && IsDigit(slash[1])) // 1/1/1970 time word?
+	{
+		if (IsDigit(slash[1]) && slash[2] && slash[3] && slash[4] && !slash[5] && atoi(slash + 1) > 1100) // finding 4 digit year
+		{
+			return true;
+		}
+	}
+
+	// 1990/1/1 
+	if (IsDigit(*original) && (slash - original) == 4 && IsDigit(slash[1])) // 1970/1/1 time word?
+	{
+		if (IsDigit(slash[1]) && atoi(original) > 1100) return true;// finding 4 digit year
+	}
+	return false;
+}
+
 static int64 ProcessNumber(int at, char* original, WORDP& revise, WORDP &entry, WORDP &canonical, uint64& sysflags, uint64 &cansysflags, bool firstTry, bool nogenerate, int start, int kind) // case sensitive, may add word to dictionary, will not augment flags of existing words
 {
 	size_t len = strlen(original);
+
+	char* slash = strchr(original, '/');
+	if (!slash) slash = strchr(original, '-');
+
+	if (IsDate(original))
+	{
+		uint64 properties = NOUN | NOUN_NUMBER | ADJECTIVE | ADJECTIVE_NUMBER;
+		canonical = entry = StoreWord(original, properties, TIMEWORD);
+		cansysflags = sysflags = entry->systemFlags | TIMEWORD;
+		return properties;
+	}
+	if (!kind) return 0; // not a date after all
+
+	// hyphenated word which is number on one side:   Cray-3  3-second
 	char* hyphen = strchr(original, '-');
+	if (hyphen && !hyphen[1]) hyphen = NULL; // not real
 	int64 properties = 0;
 	if ((IsDigit(*original) || IsDigit(original[1]) || *original == '\'') && (kind || hyphen))
 	{
@@ -607,16 +644,19 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 
 	// number processing has happened
 	unsigned int kind = IsNumber(original);
-	if (firstTry && kind) 
+	if (firstTry && (kind | IsDigit(*original))) 
 		properties = ProcessNumber(at, original, revise, entry, canonical, sysflags, cansysflags, firstTry, nogenerate, start,kind); // case sensitive, may add word to dictionary, will not augment flags of existing wordskind);
 	if (canonical && IsDigit(*canonical->word)) return properties;
+	entry = FindWord(original, 0, PRIMARY_CASE_ALLOWED);
 
 	if (externalTagger || stricmp(language, "english"))
 	{
-		entry  = StoreWord(original);
-		canonical = FindWord(GetCanonical(entry));
+		if (!entry) entry  = StoreWord(original);
+		canonical = GetCanonical(entry);
+		properties = entry->properties;
+		sysflags = entry->systemFlags;
 		if (!canonical) canonical = entry;
-		return 0; // remote pos tagging or none
+		return properties; // remote pos tagging or none
 	}
 
 	if (*original == '~' || (*original == USERVAR_PREFIX && !IsDigit(original[1])) || *original == '^' || (*original == SYSVAR_PREFIX && original[1]))
@@ -641,7 +681,6 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 
 	if (tokenControl & ONLY_LOWERCASE && IsUpperCase(*original) && (*original != 'I' || original[1])) MakeLowerCase(original);
 
-	entry = FindWord(original,0,PRIMARY_CASE_ALLOWED);
 	if (entry && entry->systemFlags & CONDITIONAL_IDIOM) 
 	{
 		char* script = entry->w.conditionalIdiom;
@@ -773,26 +812,12 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 	// hyphenated word which is number on one side:   Cray-3  3-second
 	char* hyphen = strchr(original,'-');
 	if (hyphen && !hyphen[1]) hyphen = NULL; // not real
-	char* slash = strchr(original,'/');
-
-	// 1/1/1990 year
-	if (IsDigit(*original) && slash && IsDigit(slash[1])) // 1/1/21 time word?
-	{
-		char* slash1 = strrchr(original,'/');
-		if (IsDigit(slash1[1]) && slash1[2] && slash1[3] && slash1[4] && !slash1[5] && atoi(slash1+1) > 1100) // finding 4 digit year
-		{
-			properties = NOUN|NOUN_NUMBER|ADJECTIVE|ADJECTIVE_NUMBER;
-			canonical = entry = StoreWord(original,properties,TIMEWORD);
-			cansysflags = sysflags = entry->systemFlags | TIMEWORD;
-			return properties;
-		}
-	}
 
 	// use forced canonical?
 	if (!canonical && entry)
 	{
-		char* canon = GetCanonical(entry);
-		if (canon) canonical = StoreWord(canon);
+		WORDP canon = GetCanonical(entry);
+		if (canon) canonical = canon;
 	}
 	
 	if (entry && entry->properties & (PART_OF_SPEECH|TAG_TEST|PUNCTUATION)) // we know this usefully already
@@ -809,8 +834,8 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 			char* participle = GetPastParticiple(GetInfinitive(original,true));
 			if (participle && !strcmp(participle,original)) properties |= NOUN_ADJECTIVE;
 		}
-		char* canon = GetCanonical(entry);
-		canonical = (canon) ? FindWord(canon,0,PRIMARY_CASE_ALLOWED) : NULL;
+		WORDP canon = GetCanonical(entry);
+		canonical = canon;
 		if (canonical) cansysflags = canonical->systemFlags;
 
 		// possessive pronoun-determiner like my is always a determiner, not a pronoun. 
@@ -2067,8 +2092,7 @@ char* GetInfinitive(char* word, bool nonew)
 		verbFormat = VERB_INFINITIVE;  // fall  (fell) conflict
 		return D->word; //    infinitive value
 	}
-	char* canon =  (D) ? GetCanonical(D) : NULL; // "were" has direct canonical
-	WORDP E = (canon) ? FindWord(canon) : NULL;
+	WORDP E =  (D) ? GetCanonical(D) : NULL; // "were" has direct canonical
 	if (E && E->properties & VERB) 
 	{
 		if (D->properties & (VERB_PRESENT|VERB_PRESENT_3PS)) verbFormat |= VERB_PRESENT;
@@ -2082,7 +2106,7 @@ char* GetInfinitive(char* word, bool nonew)
 			if (word[len-1] == 'g') verbFormat |= VERB_PRESENT_PARTICIPLE;	// even if not stored on word because word like "eats" is a known noun instead
 			if (word[len-2] == 'e' && word[len-1] == 'd') verbFormat |= VERB_PAST_PARTICIPLE;	// even if not stored on word because word like "eats" is a known noun instead
 		}
-		return canon;
+		return E->word;
 	}
 		
     if (D && D->properties & VERB && GetTense(D) ) 

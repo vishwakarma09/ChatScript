@@ -4244,9 +4244,9 @@
  blue_wall_of_silence ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     wall_of_silence~1nz (^cover-up~1) the secrecy of police officers who lie or look the other way to protect other police officers
  blue ( meanings=11 glosses=8 NOUN_ABSTRACT VERB_PRESENT VERB_INFINITIVE NOUN VERB ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR ADJECTIVE_NOT_PREDICATE COMMON4 COMMON1 NOUN_NODETERMINER KINDERGARTEN posdefault:ADJECTIVE VERB_NOOBJECT ADJECTIVE_GOOD_SUBJECT_COMPLEMENT ) comparative=bluest 
-    blueness~1nz (^lycaenid_butterfly~1) blue color or pigment
+    blueness~1nz (^chromatic_colour~1) blue color or pigment
     blue~2nz (^organization~6) any organization or party whose uniforms or badges are blue
-    wild_blue_yonder~1nz (^article_of_clothing~1) the sky as viewed during daylight
+    wild_blue_yonder~1nz (^sky~1) the sky as viewed during daylight
     blueing~2nz (^dye~1) used to whiten laundry or hair or give it a bluish tinge
     profane~1az characterized by profanity or cursing
     low~4a 
@@ -18197,7 +18197,7 @@
  billion ( meanings=5 glosses=4 NOUN_ABSTRACT NOUN ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER KINDERGARTEN ) 
     one_thousand_million~1nz (^large_integer~1) the number that is represented as a one followed by 9 zeros
     one_million_million~1nz (^large_integer~1) the number that is represented as a one followed by 12 zeros
-    gazillion~1n 
+    trillion~3n 
     billion~4az denoting a quantity consisting of one thousand million items or units in the United States
     billion~5az denoting a quantity consisting of one million million items or units in Great Britain
  bagful ( meanings=1 NOUN NOUN_SINGULAR COMMON2 ) 
@@ -19223,8 +19223,10 @@
     fertility_rate~1n 
  birth_rate ( meanings=1 NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 
     birthrate~1n 
- bps ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER ) 
+ bits_per_second ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 
     bps~1nz (^rate~4) the rate at which data is transferred (as by a modem)
+ bps ( meanings=1 NOUN NOUN_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER ) 
+    bits_per_second~1n 
  beats_per_minute ( meanings=1 NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 
     bpm~1n 
  bpm ( meanings=1 NOUN NOUN_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER posdefault:NOUN ) 

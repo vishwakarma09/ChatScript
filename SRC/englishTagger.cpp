@@ -230,7 +230,8 @@ static void SetCanonicalValue(int start,int end)
 		uint64 pos = posValues[i] & (TAG_TEST|PART_OF_SPEECH);
 		if (!pos && !(*original == '~')) posValues[i] = pos = NOUN;		// default it back to something
 		WORDP D = FindWord(original);
-		char* canon =  (D) ? GetCanonical(D) : NULL;
+		WORDP canon1 = (D) ? GetCanonical(D) : NULL;
+		char* canon =  (canon1) ? canon1->word : NULL;
 		if (posValues[i] & (DETERMINER| IDIOM) && original[1] == 0)  // treat "a" as not a letter A
 		{
 			canon = NULL;
@@ -519,7 +520,6 @@ static void PerformPosTag(int start, int end)
 	// DO NOT FORCE STRICT CASING WHEN uppercase given
 
 	if (oobExists) noPosTagging = true; // no out-of-band parsetagging
-	else if (stricmp(language,"english")) noPosTagging = true;
 	else if (prepareMode == POS_MODE || tmpPrepareMode == POS_MODE || prepareMode == POSVERIFY_MODE){;} // told to try regardless
 	else if (tokenControl & DO_PARSE ) {;} // pos tag at a minimum
 	else noPosTagging = true; 
@@ -658,7 +658,7 @@ static void PerformPosTag(int start, int end)
 		else posValues[i] &= -1 ^ (VERB_BITS|VERB);	// no command sentence starts
 	}
 	tokenControl = oldTokenControl;
-	if (noPosTagging) return;
+	if (noPosTagging || stricmp(language, "english")) return;
 
 	unsigned int startTime = 0;
 	if (prepareMode == POSTIME_MODE) startTime = ElapsedMilliseconds();
@@ -9548,7 +9548,7 @@ void ParseSentence(bool &resolved,bool &changed)
 // Buying a license will get the the library you need to load with this code
 // http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/
 
-#pragma comment(lib, "c:/ChatScript/treetagger/treetagger.lib") // where windows library is
+#pragma comment(lib, "../treetagger/treetagger.lib") // where windows library is
 
 typedef struct {
   int  number_of_words;  /* number of words to be tagged */
@@ -9632,7 +9632,7 @@ void InitTreeTagger(char* params) // tags=xxxx - just triggers this thing
 	char name[MAX_WORD_SIZE];
 	char lang[MAX_WORD_SIZE];
 	MakeLowerCopy(lang, language);
-	sprintf(name,"treetagger/%s_tags.txt", lang);
+	sprintf(name,"DICT/%s_tags.txt", lang);
 	if (!ReadForeignPosTags(name)) return; //failed 
 
 	externalTagger = 2;	// using external tagging

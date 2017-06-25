@@ -2652,7 +2652,7 @@
     service~13nz (^company~1) a company or agency that performs a public service
     armed_service~1nz (^force~8) a force that is a branch of the armed forces
     service~15vz make fit for use
-    serve~6vz (^copulate~1) mate with
+    serve~6vz mate with
     serve~10vz be used by
  self-service ( meanings=2 glosses=2 NOUN_ABSTRACT NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR posdefault:ADJECTIVE ) 
     self-service~1nz (^service~1) the practice of serving yourself
@@ -7192,7 +7192,7 @@
     peg~5nz (^leg~6) informal terms for the leg
     stick~6nz (^limb~6) a small thin branch of a tree
     pose~4v 
-    sting~5vz (^butter~1) saddle with something disagreeable or disadvantageous
+    sting~5vz saddle with something disagreeable or disadvantageous
     cohere~1vz come or be in close contact with
     hold_fast~1vz stick to firmly
     stick~11vz pierce or penetrate or puncture with something pointed
@@ -16088,7 +16088,9 @@
     workout_suit~1n 
  sweep_oar ( meanings=1 NOUN NOUN_SINGULAR ) 
     sweep~3n 
- sweep_hand ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
+ sweep_hand ( meanings=1 NOUN NOUN_SINGULAR ) 
+    sweep-second~1n 
+ sweep-second ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
     sweep_hand~1nz (^second_hand~1) a second hand that is mounted on the same center as the hour and minute hand and is read on the minutes
  swimming_pool ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
     natatorium~1nz (^athletic_facility~1) pool that provides a facility for swimming
@@ -34580,6 +34582,8 @@
     Shrovetide~1nz (^season~2) immediately preceding Lent
  Shrove_Tuesday ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
     pancake_day~1nz (^Christian_holy_day~1) the last day before Lent
+ split_second ( meanings=1 NOUN NOUN_SINGULAR ) 
+    jiffy~1n 
  silver_jubilee ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     silver_jubilee~1nz (^jubilee~1) an anniversary celebrating the passage of 25 years
  silver_wedding_anniversary ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
@@ -38481,6 +38485,10 @@
     lxxvii~1az being seven more than seventy
  seventy-nine ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     ilxxx~1az being nine more than seventy
+ sixty-fifth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    sixty-fifth~1az the ordinal number of sixty-five in counting order
+ seventy-fifth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    seventy-fifth~1az the ordinal number of seventy-five in counting order
  scripted ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:VERB ) 
     scripted~1az written as for a film or play or broadcast
  sinkable ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 

@@ -38,7 +38,7 @@ static char* curlBufferBase = NULL;
 static int objectcnt = 0;
 static FunctionResult JSONpath(char* buffer, char* path, char* jsonstructure,bool raw,bool nofail);
 static MEANING jcopy(WORDP D);
-
+static char* jwrite(char* buffer, WORDP D, int subject);
 static int JSONArgs() 
 {
 	int index = 1;
@@ -638,6 +638,23 @@ FunctionResult JSONOpenCode(char* buffer)
 	len = strlen(arg);
 	if (arg[len - 1] == '"') arg[len - 1] = 0;
 	if (!stricmp(arg, (char*)"null")) *arg = 0; // empty string replaces null
+
+	// convert json ref to text
+	if (!strnicmp(arg, "jo-", 3) || !strnicmp(arg, "ja-", 3))
+	{
+		WORDP D = FindWord(arg);
+		if (!D) return FAILRULE_BIT;
+		NextInferMark();
+		unsigned int oldlimit = currentOutputLimit;
+		char* oldOutputBase = currentOutputBase;
+		currentOutputLimit = 500000;
+		currentOutputBase = AllocateStack(NULL, currentOutputLimit);
+		jwrite(currentOutputBase, D, true);
+		arg = currentOutputBase;
+		currentOutputLimit = oldlimit;
+		currentOutputBase = oldOutputBase;
+	}
+
 	bool bIsExtraHeaders = false;
 
 	extraRequestHeadersRaw = ARGUMENT(index++);
@@ -822,20 +839,28 @@ FunctionResult JSONOpenCode(char* buffer)
 #endif
 
 	// Set up the CURL request.
-	CURLcode val;
+	res = CURLE_OK;
 
-	val = curl_easy_setopt(curl, CURLOPT_HTTPHEADER, header);
-	val = curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, CurlWriteMemoryCallback); // callback for memory
-	val = curl_easy_setopt(curl, CURLOPT_WRITEDATA, (void *)&output); // store output here
-	val = curl_easy_setopt(curl, CURLOPT_URL, fixedUrl);
-	curl_easy_setopt(curl, CURLOPT_DEBUGFUNCTION, my_trace);
-	curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, timelimit); // 300 second timeout to connect (once connected no effect)
-	curl_easy_setopt(curl, CURLOPT_TIMEOUT, timelimit);
-	curl_easy_setopt(curl, CURLOPT_NOSIGNAL, 1); // dont generate signals in unix
+	// proxy ability
+	char* proxyuser = GetUserVariable("$cs_proxycredentials"); // "myname:thesecret"
+	if (res == CURLE_OK && proxyuser && *proxyuser) res = curl_easy_setopt(curl, CURLOPT_PROXYUSERPWD, proxyuser);
+	char* proxyserver= GetUserVariable("$cs_proxyserver"); // "http://local.example.com:1080"
+	if (res == CURLE_OK && proxyserver && *proxyserver) res = curl_easy_setopt(curl, CURLOPT_PROXY, proxyserver);
+	char* proxymethod = GetUserVariable("$cs_proxymethod"); // "CURLAUTH_ANY"
+	if (res == CURLE_OK && proxymethod && *proxymethod) res = curl_easy_setopt(curl, CURLOPT_PROXYAUTH, atol(proxymethod));
+
+	if (res == CURLE_OK ) res = curl_easy_setopt(curl, CURLOPT_HTTPHEADER, header);
+	if (res == CURLE_OK) res = curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, CurlWriteMemoryCallback); // callback for memory
+	if (res == CURLE_OK) res = curl_easy_setopt(curl, CURLOPT_WRITEDATA, (void *)&output); // store output here
+	if (res == CURLE_OK) res = curl_easy_setopt(curl, CURLOPT_URL, fixedUrl);
+	if (res == CURLE_OK) curl_easy_setopt(curl, CURLOPT_DEBUGFUNCTION, my_trace);
+	if (res == CURLE_OK) curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, timelimit); // 300 second timeout to connect (once connected no effect)
+	if (res == CURLE_OK) curl_easy_setopt(curl, CURLOPT_TIMEOUT, timelimit);
+	if (res == CURLE_OK) curl_easy_setopt(curl, CURLOPT_NOSIGNAL, 1); // dont generate signals in unix
 
 	/* the DEBUGFUNCTION has no effect until we enable VERBOSE */
 	if (trace & TRACE_JSON && deeptrace) curl_easy_setopt(curl, CURLOPT_VERBOSE, (long)1);
-	res = curl_easy_perform(curl);
+	if (res == CURLE_OK) res = curl_easy_perform(curl);
 	
 	curl_easy_getinfo (curl, CURLINFO_RESPONSE_CODE, &http_response);
 	char code[MAX_WORD_SIZE];
@@ -1435,6 +1460,7 @@ FunctionResult JSONWriteCode(char* buffer) // FACT to text
 	clock_t start_time = ElapsedMilliseconds();
 	NextInferMark();
 	jwrite(buffer,D,true);
+
 	if (timing & TIME_JSON) {
 		int diff = ElapsedMilliseconds() - start_time;
 		if (timing & TIME_ALWAYS || diff > 0) Log(STDTIMETABLOG, (char*)"Json write time: %d ms\r\n", diff);
@@ -2092,7 +2118,7 @@ LOOP: // now we look at $x.key or $x[0]
 	
 	if (base->internalBits & MACRO_TRACE) 
 	{
-		char pattern[110];
+		char pattern[MAX_WORD_SIZE];
 		char label[MAX_LABEL_SIZE];
 		GetPattern(currentRule,label,pattern,100);  // go to output
 		Log(ECHOSTDTRACELOG,"%s -> %s at %s.%d.%d %s %s\r\n",word,value, GetTopicName(currentTopicID),TOPLEVELID(currentRuleID),REJOINDERID(currentRuleID),label,pattern);

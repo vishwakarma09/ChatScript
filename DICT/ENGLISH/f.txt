@@ -4159,8 +4159,9 @@
     telefax~2vz send something via a facsimile machine
  facsimile_machine ( meanings=1 NOUN NOUN_SINGULAR ) 
     facsimile~1n 
- fax ( meanings=2 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR COMMON4 COMMON1 posdefault:NOUN VERB_DIRECTOBJECT VERB_INDIRECTOBJECT VERB_NOOBJECT QUOTEABLE_VERB ) 
+ fax ( meanings=3 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR COMMON4 COMMON1 NOUN_NODETERMINER posdefault:NOUN VERB_DIRECTOBJECT VERB_INDIRECTOBJECT VERB_NOOBJECT QUOTEABLE_VERB ) 
     facsimile_machine~1n 
+    fax~2nz 
     facsimile~3v 
  factory_ship ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
     factory_ship~1nz (^whaling_ship~1) a whaling ship equipped to process whale products at sea
@@ -12547,6 +12548,8 @@
     term~7n 
  first_trimester ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     first_trimester~1nz (^trimester~2) time period extending from the first day of the last menstrual period through 12 weeks of gestation
+ femtosecond ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR KINDERGARTEN posdefault:NOUN TIMEWORD ) 
+    femtosecond~1nz (^unit_of_time~1) one quadrillionth of a second
  fishing_season ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     fishing_season~1nz (^season~3) the season during which it is legal to catch fish
  football_season ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
@@ -12665,8 +12668,18 @@
  furculae ( NOUN NOUN_PLURAL COMMON1 ) plural=furcula 
  furfur ( NOUN NOUN_SINGULAR COMMON1 ) plural=furfures 
  furfures ( NOUN NOUN_PLURAL ) plural=furfur 
+ Facebook ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) plural=NOUN 
+    Facebook~1nz 
+ flashdrive ( meanings=1 NOUN NOUN_SINGULAR ) plural=NOUN 
+    flashdrive~1nz 
  filmmaking ( meanings=1 NOUN NOUN_SINGULAR ) 
     filmmaking~1nz 
+ FireWire ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) plural=NOUN 
+    FireWire~1nz 
+ FitBit ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) plural=NOUN 
+    FitBit~1nz 
+ flatscreen ( meanings=1 NOUN NOUN_SINGULAR ) plural=NOUN 
+    flatscreen~1nz 
  forest-product ( meanings=1 NOUN NOUN_SINGULAR ) 
     forest-product~1nz 
  feature-film ( meanings=1 NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 
@@ -12831,7 +12844,6 @@
  for ( meanings=2 PARTICLE PREPOSITION CONJUNCTION_COORDINATE COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:PREPOSITION ) 
     for~1z 
     for~2z 
- femtosecond ( ADJECTIVE ADJECTIVE_NUMBER NOUN_NUMBER ORDINAL KINDERGARTEN posdefault:NOUN TIMEWORD QUANTITY_NOUN ) 
  finally ( meanings=3 glosses=2 ADVERB COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB TIMEWORD ) 
     at_long_last~1bz as the end result of a succession or process
     eventually~1b 
@@ -14131,8 +14143,16 @@
     ilx~1az being nine more than fifty
  four_hundred ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
     four_hundred~1az 
+ forty-first ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    forty-first~1az the ordinal number of forty-one in counting order
+ forty-second ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    forty-second~1az the ordinal number of forty-two in counting order
+ forty-third ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    forty-third~1az the ordinal number of forty-three in counting order
  forty-fourth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     forty-fourth~1az the ordinal number of forty-four in counting order
+ forty-fifth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    forty-fifth~1az the ordinal number of forty-five in counting order
  forty-sixth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     forty-sixth~1az the ordinal number of forty-six in counting order
  forty-seventh ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
@@ -14141,6 +14161,8 @@
     forty-eighth~1az the ordinal number of forty-eight in counting order
  forty-ninth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     forty-ninth~1az the ordinal number of forty-nine in counting order
+ fifty-fifth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    fifty-fifth~1az the ordinal number of fifty-five in counting order
  four-hundredth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     four-hundredth~1az the ordinal number of four hundred in counting order
  five-hundredth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 

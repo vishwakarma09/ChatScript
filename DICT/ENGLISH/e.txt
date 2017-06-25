@@ -12234,6 +12234,8 @@
     lxxxviii~1az being eight more than eighty
  eighty-nine ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     ixc~1az being nine more than eighty
+ eighty-fifth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    eighty-fifth~1az the ordinal number of eighty-five in counting order
  eightfold ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 posdefault:ADJECTIVE ) 
     eight-fold~1a 
  eight-fold ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
@@ -14081,7 +14083,7 @@
     found~2v 
     prove~1v 
     make~13v 
-    instal~2vz place
+    install~2vz place
     found~3v 
     give~23v 
     build~9v 

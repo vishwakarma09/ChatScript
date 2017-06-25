@@ -1,549 +1,484 @@
-﻿ 0,0-Promille ( ) 
- 0,0-Promille-Grenze ( ) 
- 0,0-Promille-Regelung ( ) 
- 0,1 ( ) 
- 0,2 ( ) 
- 0,2-Liter-Glas ( ) 
+﻿ 0,0-Promille ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0,0-Promille-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0,0-Promille-Regelung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0,1 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0,2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0,2-Liter-Glas ( NOUN NOUN_PROPER_SINGULAR ) 
  0,3- ( ) 
- 0,3-Liter-Glas ( ) 
- 0,33-Liter-Dosen ( ) 
- 0,375-Liter-Flasche ( ) 
- 0,4 ( ) 
- 0,5 ( ) 
+ 0,3-Liter-Glas ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0,33-Liter-Dosen ( NOUN NOUN_PROPER_SINGULAR ) lemma=0,33-Liter-Dose 
+ 0,375-Liter-Flasche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0,4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0,5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  0,5-Liter- ( ) 
- 0,5-Liter-Bierdosen ( ) 
- 0,5-Liter-Flaschen ( ) 
- 0,5-Promille-Grenze ( ) 
- 0,5-Promille-Grenzwert ( ) 
- 0,5-Promille-Limit ( ) 
- 0,5-Promille-Regelung ( ) 
- 0,5-Promille-Wert ( ) 
- 0,5-Promillegrenze ( ) 
- 0,5-Prozent-Partei ( ) 
- 0,54 ( ) 
- 0,6 ( ) 
- 0,6-Promille-Grenze ( ) 
- 0,7 ( ) lemma=30,77 
+ 0,5-Liter-Bierdosen ( NOUN NOUN_PROPER_SINGULAR ) lemma=0,5-Liter-Bierdose 
+ 0,5-Liter-Flaschen ( NOUN NOUN_PROPER_SINGULAR ) lemma=0,5-Liter-Flasche 
+ 0,5-Promille-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0,5-Promille-Grenzwert ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0,5-Promille-Limit ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0,5-Promille-Regelung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0,5-Promille-Wert ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0,5-Promillegrenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0,5-Prozent-Partei ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0,54 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0,6 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0,6-Promille-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0,7 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  0,7%- ( ) 
- 0,7-Liter-Flasche ( ) 
- 0,7-Liter-Flaschen ( ) 
- 0,7-Liter-Taillenflasche ( ) 
- 0,7-Prozent-Ziel ( ) 
- 0,7-Prozent-Zieles ( ) 
- 0,75/67,44 ( ) 
+ 0,7-Liter-Flasche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0,7-Liter-Flaschen ( NOUN NOUN_PROPER_SINGULAR ) lemma=0,7-Liter-Flasche 
+ 0,7-Liter-Taillenflasche ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0,7-Prozent-Ziel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0,7-Prozent-Zieles ( NOUN NOUN_PROPER_SINGULAR ) lemma=0,7-Prozent-Ziel 
+ 0,75/67,44 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  0,8-Promille- ( ) 
- 0,8-Promille-Grenze ( ) 
- 0,8-Promille-Grenzwert ( ) 
- 0,8-Promille-Regelung ( ) 
- 0,8-Promillegrenze ( ) 
+ 0,8-Promille-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0,8-Promille-Grenzwert ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0,8-Promille-Regelung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0,8-Promillegrenze ( NOUN NOUN_PROPER_SINGULAR ) 
  0,9%- ( ) 
- 0- ( ) lemma=90-A 
- 0-Deckung ( ) 
- 0-Ebene ( ) 
- 0-Risiko ( ) 
- 0-Tarif ( ) 
- 0-Variante ( ) 
- 0/1 ( ) lemma=10/16 
- 0/30,25 ( ) 
- 0/30,64 ( ) 
- 0/34,13 ( ) 
- 0/37,00 ( ) 
- 0/37,74 ( ) 
- 0/38,1 ( ) 
- 0/38,30 ( ) 
- 0/38,5 ( ) 
- 0/39,88 ( ) 
- 0/41,25 ( ) 
- 0/41,3 ( ) 
- 0/46,2 ( ) 
- 0/54,07 ( ) 
- 0/56,19 ( ) 
- 0/57,08 ( ) 
- 0/57,21 ( ) 
- 0/58,87 ( ) 
- 0/59,14 ( ) 
- 0/60,12 ( ) 
- 0/64,0 ( ) 
- 0/72,3 ( ) 
- 000- ( ) lemma=2000-X 
- 000-Dollar-Konkurrenz ( ) 
- 000-Dollar-Kredit ( ) 
- 000-Dollar-Tennis-Turnier ( ) 
- 000-Dollar-Tennisturnier ( ) 
- 000-Dollar-Turnier ( ) 
- 000-Einwohner-Gemeinde ( ) 
- 000-Einwohner-Grenze ( ) 
- 000-Einwohner-Kommune ( ) 
- 000-Einwohner-Marke ( ) 
- 000-Einwohner-Ortes ( ) 
- 000-Einwohner-Stadt ( ) 
- 000-Einwohner-Stadtteil ( ) 
- 000-Einwohner-Städtchen ( ) 
- 000-Einwohnerstadt ( ) 
- 000-Liter-Aussentank ( ) 
- 000-Liter-Außentank ( ) 
+ 0- ( ) 
+ 0-Deckung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0-Ebene ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0-Risiko ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0-Tarif ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0-Variante ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0/1 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0/30,25 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0/30,64 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0/34,13 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0/37,00 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0/37,74 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0/38,1 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0/38,30 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0/38,5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0/39,88 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0/41,25 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0/41,3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0/46,2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0/54,07 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0/56,19 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0/57,08 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0/57,21 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0/58,87 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0/59,14 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0/60,12 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0/64,0 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0/72,3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 000- ( ) 
+ 000-Dollar-Konkurrenz ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Dollar-Kredit ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Dollar-Tennis-Turnier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Dollar-Tennisturnier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Dollar-Turnier ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Einwohner-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Einwohner-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Einwohner-Kommune ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Einwohner-Marke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Einwohner-Ortes ( NOUN NOUN_PROPER_SINGULAR ) lemma=000-Einwohner-Ort 
+ 000-Einwohner-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Einwohner-Stadtteil ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Einwohner-Städtchen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Einwohnerstadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Liter-Aussentank ( NOUN NOUN_PROPER_SINGULAR ) lemma=000-Liter-Außentank 
+ 000-Liter-Außentank ( NOUN NOUN_PROPER_SINGULAR ) 
  000-Mann- ( ) 
- 000-Mann-Armee ( ) 
- 000-Mark-Autos ( ) 
- 000-Mark-Darlehen ( ) 
- 000-Mark-Defizit ( ) 
- 000-Mark-Etat ( ) 
- 000-Mark-Etats ( ) 
- 000-Mark-Grenze ( ) 
- 000-Mark-Investition ( ) 
- 000-Mark-Panne ( ) 
- 000-Mark-Posten ( ) 
- 000-Mark-Projekt ( ) 
- 000-Mark-Renovierung ( ) 
- 000-Mark-Schaden ( ) 
- 000-Mark-Scheck ( ) 
- 000-Mark-Siegprämie ( ) 
- 000-Mark-Spektakel ( ) 
- 000-Mark-Spende ( ) 
- 000-Mark-Zuschuss ( ) 
- 000-Mark-Zuschuß ( ) 
- 000-Meter-Endlauf ( ) 
- 000-Meter-Lauf ( ) 
- 000-Quadratmeter-Areals ( ) 
- 000-Quadratmeter-Grundstück ( ) 
- 000-Seelen-Gemeinde ( ) 
- 000-Seelen-Kommune ( ) 
- 000-Seelen-Stadt ( ) 
- 000-Tonnen-Ladung ( ) 
- 000-Tonnen-Supertanker ( ) 
- 000-Tonnen-Tanker ( ) 
- 000-Volt-Kabel ( ) 
- 000-Volt-Leitung ( ) 
- 000-m-Lauf ( ) 
- 000/100 ( ) 
- 000/120 ( ) 
- 000er ( ) 
- 000er-Grenze ( ) 
- 000er-Klasse ( ) 
- 000er-Marke ( ) 
- 000facher ( ) 
- 000mal ( ) 
+ 000-Mann-Armee ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Mark-Autos ( NOUN NOUN_PROPER_SINGULAR ) lemma=000-Mark-Auto 
+ 000-Mark-Darlehen ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Mark-Defizit ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Mark-Etat ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Mark-Etats ( NOUN NOUN_PROPER_SINGULAR ) lemma=000-Mark-Etat 
+ 000-Mark-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Mark-Investition ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Mark-Panne ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Mark-Posten ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Mark-Projekt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Mark-Renovierung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Mark-Schaden ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Mark-Scheck ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Mark-Siegprämie ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Mark-Spektakel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Mark-Spende ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Mark-Zuschuss ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Mark-Zuschuß ( NOUN NOUN_PROPER_SINGULAR ) lemma=000-Mark-Zuschuss 
+ 000-Meter-Endlauf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Meter-Lauf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Quadratmeter-Areals ( NOUN NOUN_PROPER_SINGULAR ) lemma=000-Quadratmeter-Areal 
+ 000-Quadratmeter-Grundstück ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Seelen-Gemeinde ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Seelen-Kommune ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Seelen-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Tonnen-Ladung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Tonnen-Supertanker ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Tonnen-Tanker ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Volt-Kabel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-Volt-Leitung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000-m-Lauf ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000/100 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 000/120 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 000er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000er-Grenze ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000er-Klasse ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000er-Marke ( NOUN NOUN_PROPER_SINGULAR ) 
+ 000facher ( ADJECTIVE ) lemma=000fach 
+ 000mal ( ADVERB ) 
  0031- ( ) 
- 0037/33/23813 ( ) 
- 004/005 ( ) 
- 0043/4710/2477 ( ) 
- 007-Regisseur ( ) 
- 007-Saga ( ) 
+ 0037/33/23813 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 004/005 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0043/4710/2477 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 007-Regisseur ( NOUN NOUN_PROPER_SINGULAR ) 
+ 007-Saga ( NOUN NOUN_PROPER_SINGULAR ) 
  01- ( ) 
- 01-Keeper ( ) 
- 01-Schlussmann ( ) 
- 01-Schlußmann ( ) 
- 01/4 ( ) 
- 01/8 ( ) 
- 01/86 ( ) 
- 0130-Nummern ( ) 
- 0130/851199 ( ) 
- 01er ( ) 
+ 01-Keeper ( NOUN NOUN_PROPER_SINGULAR ) 
+ 01-Schlussmann ( NOUN NOUN_PROPER_SINGULAR ) 
+ 01-Schlußmann ( NOUN NOUN_PROPER_SINGULAR ) lemma=01-Schlussmann 
+ 01/4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 01/8 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 01/86 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0130-Nummern ( NOUN NOUN_PROPER_SINGULAR ) lemma=0130-Nummer 
+ 0130/851199 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 01er ( NOUN NOUN_PROPER_SINGULAR ) 
  02- ( ) 
- 02-Ausstoss ( ) 
- 02-Ausstosses ( ) 
- 02-Ausstoß ( ) 
- 02-Ausstoßes ( ) 
- 02-Emissionen ( ) 
- 02/2 ( ) 
- 02/3 ( ) 
- 02/38 ( ) 
- 020-Nummern ( ) 
- 0203/53289 ( ) 
- 02102/14740 ( ) 
- 0211/4089676 ( ) 
- 0211/556281 ( ) 
- 02151/615749 ( ) 
- 02151/65333 ( ) 
- 0221/249779 ( ) 
- 0221/511395 ( ) 
+ 02-Ausstoss ( NOUN NOUN_PROPER_SINGULAR ) lemma=02-Ausstoß 
+ 02-Ausstosses ( NOUN NOUN_PROPER_SINGULAR ) lemma=02-Ausstoß 
+ 02-Ausstoß ( NOUN NOUN_PROPER_SINGULAR ) 
+ 02-Ausstoßes ( NOUN NOUN_PROPER_SINGULAR ) lemma=02-Ausstoß 
+ 02-Emissionen ( NOUN NOUN_PROPER_SINGULAR ) lemma=02-Emission 
+ 02/2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 02/3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 02/38 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 020-Nummern ( NOUN NOUN_PROPER_SINGULAR ) lemma=020-Nummer 
+ 0203/53289 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 02102/14740 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0211/4089676 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0211/556281 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 02151/615749 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 02151/65333 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0221/249779 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0221/511395 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  0228- ( ) 
- 0228/104514/5 ( ) 
- 0228/16 ( ) 
- 0228/21 ( ) 
- 0228/211355 ( ) 
- 0228/217401 ( ) 
- 0228/222826 ( ) 
- 0228/361013 ( ) 
- 0228/470806 ( ) 
- 0228/632871 ( ) 
- 0228/659044 ( ) 
- 0228/664442 ( ) 
- 0228/6667521 ( ) 
- 0228/687055 ( ) 
- 0228/692904 ( ) 
- 0228/692906 ( ) 
- 0228/697778 ( ) 
- 0228/735577 ( ) 
- 0241/541120 ( ) 
- 02681/4377 ( ) 
- 02962/800427 ( ) 
- 02er ( ) 
- 02er-Sitzung ( ) 
- 02ern ( ) 
- 03-Vorsitzende ( ) 
- 03/4 ( ) 
- 03/5 ( ) 
- 03/93 ( ) 
+ 0228/104514/5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0228/16 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0228/21 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0228/211355 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0228/217401 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0228/222826 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0228/361013 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0228/470806 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0228/632871 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0228/659044 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0228/664442 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0228/6667521 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0228/687055 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0228/692904 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0228/692906 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0228/697778 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0228/735577 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0241/541120 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 02681/4377 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 02962/800427 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 02er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 02er-Sitzung ( NOUN NOUN_PROPER_SINGULAR ) 
+ 02ern ( NOUN NOUN_PROPER_SINGULAR ) lemma=02er 
+ 03-Vorsitzende ( NOUN NOUN_PROPER_SINGULAR ) 
+ 03/4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 03/5 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 03/93 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  030- ( ) 
- 030/2 ( ) 
- 030/213 ( ) 
- 030/2151022 ( ) 
- 030/229 ( ) 
- 030/25 ( ) 
- 030/251 ( ) 
- 030/2518095 ( ) 
- 030/25902254 ( ) 
- 030/282 ( ) 
- 030/310888 ( ) 
- 030/3926146 ( ) 
- 030/6 ( ) 
- 030/611 ( ) 
- 030/61500536 ( ) 
- 030/6811591 ( ) 
- 030/6870160 ( ) 
- 030/8621331 ( ) 
- 030mal ( ) 
- 031/60 ( ) 
- 0372/2818254 ( ) 
- 03er ( ) 
- 040/39 ( ) 
- 040/392526 ( ) 
- 040/41 ( ) 
- 040/439 ( ) 
- 040/45 ( ) 
- 040/4911647 ( ) 
- 040/6910055 ( ) 
- 040/69708915 ( ) 
- 04131/66295 ( ) 
- 0421/213333 ( ) 
- 0421/32 ( ) 
- 0421/321623 ( ) 
- 0421/323530 ( ) 
- 0421/324434 ( ) 
- 0421/324438 ( ) 
- 0421/346 ( ) 
- 0421/356746 ( ) 
- 0421/381615 ( ) 
- 0421/3963737 ( ) 
- 0421/455408 ( ) 
- 0421/493521 ( ) 
- 0421/5596300 ( ) 
- 0421/591865 ( ) 
- 0421/75325 ( ) 
- 04235/2158 ( ) 
- 04253/714 ( ) 
- 0431/672041 ( ) 
- 0441/884757 ( ) 
- 04421/480 ( ) 
- 0451/79 ( ) 
- 0471/41 ( ) 
- 0471/412340 ( ) 
- 04743/7956 ( ) 
- 04761/71330 ( ) 
- 04791/7041 ( ) 
+ 030/2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 030/213 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 030/2151022 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 030/229 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 030/25 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 030/251 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 030/2518095 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 030/25902254 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 030/282 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 030/310888 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 030/3926146 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 030/6 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 030/611 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 030/61500536 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 030/6811591 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 030/6870160 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 030/8621331 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 030mal ( ADVERB ) 
+ 031/60 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0372/2818254 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 03er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 040/39 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 040/392526 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 040/41 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 040/439 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 040/45 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 040/4911647 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 040/6910055 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 040/69708915 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 04131/66295 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0421/213333 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0421/32 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0421/321623 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0421/323530 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0421/324434 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0421/324438 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0421/346 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0421/356746 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0421/381615 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0421/3963737 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0421/455408 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0421/493521 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0421/5596300 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0421/591865 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0421/75325 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 04235/2158 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 04253/714 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0431/672041 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0441/884757 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 04421/480 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0451/79 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0471/41 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0471/412340 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 04743/7956 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 04761/71330 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 04791/7041 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  0491- ( ) 
- 05/07 ( ) 
- 05/2 ( ) 
- 0511/28 ( ) 
- 0511/3481917 ( ) 
- 0511/7000153 ( ) 
- 0511/883232 ( ) 
- 0541/20 ( ) 
- 0561/770034 ( ) 
- 0561/779847 ( ) 
- 0571/29456 ( ) 
- 05er ( ) 
- 05ern ( ) 
- 06-Anschlüsse ( ) 
- 06/24 ( ) 
- 06003/1640 ( ) 
- 06003/7698 ( ) 
- 06021/69724 ( ) 
- 06027/2790 ( ) 
- 06031/2336 ( ) 
- 06031/2511 ( ) 
- 06031/5477 ( ) 
- 06031/6010 ( ) 
- 06031/83841 ( ) 
- 06031/91976 ( ) 
- 06032/31916 ( ) 
- 06033/6150 ( ) 
- 06034/3200 ( ) 
- 06034/6119 ( ) 
- 06039/43616 ( ) 
- 06039/800244 ( ) 
- 06042/84107 ( ) 
- 06042/84108 ( ) 
- 06042/885192 ( ) 
- 06042/885192199 ( ) 
- 06043/4471 ( ) 
- 06052/1015 ( ) 
- 06068/2608 ( ) 
- 06071/33033 ( ) 
- 06101/41134 ( ) 
- 06101/41563 ( ) 
- 06101/7045 ( ) 
- 06101/86674 ( ) 
- 06101/87134 ( ) 
- 06102/38543 ( ) 
- 06109/66555 ( ) 
- 06111/87392 ( ) 
- 06126/54660 ( ) 
- 06131/562642 ( ) 
- 06181/16605 ( ) 
- 06181/22312 ( ) 
- 06181/24141 ( ) 
- 06181/250039 ( ) 
- 06181/254428 ( ) 
- 06181/400 ( ) 
- 06181/400349 ( ) 
- 06181/400431 ( ) 
- 06181/400716 ( ) 
- 06181/441368 ( ) 
- 06181/494355 ( ) 
- 06181/53139 ( ) 
- 06181/659518 ( ) 
- 06181/82228 ( ) 
- 06181/85788 ( ) 
- 06182/24222 ( ) 
- 06182/25691 ( ) 
- 06182/28622 ( ) 
- 06184/80232 ( ) 
- 06186/7702 ( ) 
- 06187/201153 ( ) 
- 06187/6842 ( ) 
- 0621/2933906 ( ) 
- 0621/621418 ( ) 
- 06221/71013 ( ) 
- 06221/809028 ( ) 
- 0631/49168 ( ) 
- 064/91 ( ) 
- 0641/777 ( ) 
- 069/1 ( ) 
- 069/15 ( ) 
- 069/212 ( ) 
- 069/2443660 ( ) 
- 069/287939 ( ) 
- 069/303004 ( ) 
- 069/315601 ( ) 
- 069/41 ( ) 
- 069/431405 ( ) 
- 069/431440 ( ) 
- 069/498437 ( ) 
- 069/51 ( ) 
- 069/69690900 ( ) 
- 069/70 ( ) 
- 069/701218 ( ) 
- 069/703337 ( ) 
- 069/740987 ( ) 
- 069/75 ( ) 
- 069/7560830 ( ) 
- 069/80 ( ) 
- 069/8001424 ( ) 
- 069/81 ( ) 
- 069/82 ( ) 
- 069/837085 ( ) 
- 069/85 ( ) 
- 069/86 ( ) 
- 07031/83747 ( ) 
- 07071/52200 ( ) 
- 0711/34 ( ) 
- 07141/18 ( ) 
- 07151/560364 ( ) 
- 07156/951010 ( ) 
- 07157/3490. ( ) 
- 07191/1551 ( ) 
- 0721/25612 ( ) 
- 0731/33659 ( ) 
- 0761/30407 ( ) 
- 0761/5156111 ( ) 
- 07945/2391 ( ) 
- 07er ( ) 
- 08-15-Bau ( ) 
- 08/15 ( ) 
+ 05/07 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 05/2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0511/28 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0511/3481917 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0511/7000153 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0511/883232 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0541/20 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0561/770034 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0561/779847 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0571/29456 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 05er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 05ern ( NOUN NOUN_PROPER_SINGULAR ) lemma=05er 
+ 06-Anschlüsse ( NOUN NOUN_PROPER_SINGULAR ) lemma=06-Anschluss 
+ 06/24 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06003/1640 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06003/7698 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06021/69724 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06027/2790 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06031/2336 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06031/2511 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06031/5477 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06031/6010 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06031/83841 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06031/91976 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06032/31916 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06033/6150 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06034/3200 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06034/6119 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06039/43616 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06039/800244 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06042/84107 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06042/84108 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06042/885192 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06042/885192199 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06043/4471 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06052/1015 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06068/2608 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06071/33033 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06101/41134 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06101/41563 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06101/7045 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06101/86674 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06101/87134 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06102/38543 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06109/66555 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06111/87392 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06126/54660 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06131/562642 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06181/16605 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06181/22312 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06181/24141 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06181/250039 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06181/254428 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06181/400 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06181/400349 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06181/400431 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06181/400716 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06181/441368 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06181/494355 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06181/53139 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06181/659518 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06181/82228 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06181/85788 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06182/24222 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06182/25691 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06182/28622 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06184/80232 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06186/7702 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06187/201153 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06187/6842 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0621/2933906 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0621/621418 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06221/71013 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 06221/809028 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0631/49168 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 064/91 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0641/777 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/1 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/15 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/212 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/2443660 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/287939 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/303004 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/315601 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/41 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/431405 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/431440 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/498437 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/51 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/69690900 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/70 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/701218 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/703337 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/740987 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/75 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/7560830 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/80 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/8001424 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/81 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/82 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/837085 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/85 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 069/86 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 07031/83747 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 07071/52200 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0711/34 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 07141/18 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 07151/560364 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 07156/951010 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 07157/3490. ( ADJECTIVE ) 
+ 07191/1551 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0721/25612 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0731/33659 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0761/30407 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0761/5156111 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 07945/2391 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 07er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 08-15-Bau ( NOUN NOUN_PROPER_SINGULAR ) 
+ 08/15 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  08/15- ( ) 
- 08/15-Analyse ( ) 
- 08137/661 ( ) 
- 08168/1802 ( ) 
- 08285/418 ( ) 
- 08402/1538 ( ) 
- 0841/19222 ( ) 
- 0841/309114 ( ) 
- 0841/62284 ( ) 
- 0841/93430 ( ) 
- 08441/19709 ( ) 
- 08441/27142 ( ) 
- 08441/3021 ( ) 
- 08441/3733 ( ) 
- 08441/5500 ( ) 
- 08441/6016 ( ) 
- 08441/6815 ( ) 
- 08441/71233 ( ) 
- 08442/2044 ( ) 
- 08442/2194 ( ) 
- 08442/2555 ( ) 
- 08442/2937 ( ) 
- 08442/3058 ( ) 
- 08442/3199 ( ) 
- 08442/3488 ( ) 
- 08442/3587 ( ) 
- 08442/4345 ( ) 
- 08442/4538 ( ) 
- 08442/6530 ( ) 
- 08444/612 ( ) 
- 08444/7271 ( ) 
- 08452/110 ( ) 
- 08452/112 ( ) 
- 08452/19222 ( ) 
- 08452/2031 ( ) 
- 08452/2558 ( ) 
- 08452/394 ( ) 
- 08452/494 ( ) 
- 08452/7200 ( ) 
- 08452/8080 ( ) 
- 08452/8181 ( ) 
- 08452/8545 ( ) 
- 08459/964 ( ) 
- 089/185858 ( ) 
- 089/4301616 ( ) 
- 089/777744 ( ) 
- 089/784096 ( ) 
- 089/851043 ( ) 
- 089/95 ( ) 
- 08er ( ) 
- 09-Torwart ( ) 
- 09/22 ( ) 
- 09/3 ( ) 
- 09/4 ( ) 
- 09/72 ( ) 
- 0911/208041 ( ) 
- 0911/226598 ( ) 
- 09431/1029 ( ) 
- 096/14.32 ( ) 
- 09er ( ) 
- 0:0 ( ) 
- 0:0-Spiel ( ) 
- 0:0-Toren ( ) 
- 0:0-Unentschieden ( ) 
- 0:1-Heimniederlage ( ) 
- 0:1-Heimpleite ( ) 
- 0:1-Heimschlappe ( ) 
- 0:1-Niederlage ( ) 
- 0:1-Pausenrückstand ( ) 
- 0:1-Pleite ( ) 
- 0:1-Pokalniederlage ( ) 
- 0:1-Rückstand ( ) 
- 0:1-Rückstandes ( ) 
- 0:1-Satzrückstand ( ) 
- 0:1-Schlappe ( ) 
- 0:10-Punkte ( ) lemma=10:10-Punkt 
- 0:10-Zähler ( ) lemma=10:10-Zähler 
- 0:10-Zählern ( ) 
- 0:12-Punkte ( ) 
- 0:12-Punkten ( ) 
- 0:2 ( ) 
- 0:2-Endstand ( ) 
- 0:2-Heimniederlage ( ) 
- 0:2-Niederlage ( ) 
- 0:2-Rückstand ( ) 
- 0:2-Satzrückstand ( ) 
- 0:3-Debakel ( ) 
- 0:3-Endstand ( ) 
- 0:3-Niederlage ( ) 
- 0:3-Niederlagen ( ) 
- 0:3-Rückstand ( ) 
- 0:3-Schlappe ( ) 
- 0:4-Niederlage ( ) 
- 0:4-Punkte ( ) 
- 0:4-Rückstand ( ) 
- 0:4-Schlappe ( ) 
- 0:4-Startschlappe ( ) 
- 0:5-Debakel ( ) 
- 0:5-Niederlage ( ) 
- 0:5-Rückstand ( ) 
- 0:5-Schlappe ( ) 
- 0:6-Debakel ( ) 
- 0:6-Niederlage ( ) 
- 0:6-Pleite ( ) 
- 0:6-Punkten ( ) 
- 0:6-Schlappe ( ) 
- 0:7-Niederlage ( ) 
- 0:8-Punkte ( ) 
- 0:8-Punkten ( ) 
- 0:9-Niederlage ( ) 
- 08/15-Spielgerät ( ) lemma='08/15-Spielgerät 
+ 08/15-Analyse ( NOUN NOUN_PROPER_SINGULAR ) 
+ 08137/661 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08168/1802 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08285/418 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08402/1538 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0841/19222 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0841/309114 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0841/62284 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0841/93430 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08441/19709 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08441/27142 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08441/3021 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08441/3733 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08441/5500 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08441/6016 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08441/6815 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08441/71233 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08442/2044 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08442/2194 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08442/2555 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08442/2937 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08442/3058 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08442/3199 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08442/3488 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08442/3587 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08442/4345 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08442/4538 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08442/6530 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08444/612 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08444/7271 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08452/110 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08452/112 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08452/19222 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08452/2031 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08452/2558 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08452/394 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08452/494 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08452/7200 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08452/8080 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08452/8181 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08452/8545 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08459/964 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 089/185858 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 089/4301616 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 089/777744 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 089/784096 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 089/851043 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 089/95 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 08er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 09-Torwart ( NOUN NOUN_PROPER_SINGULAR ) 
+ 09/22 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 09/3 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 09/4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 09/72 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0911/208041 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0911/226598 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 09431/1029 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 096/14.32 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 09er ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:0 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0:0-Spiel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:0-Toren ( NOUN NOUN_PROPER_SINGULAR ) lemma=0:0-Tor 
+ 0:0-Unentschieden ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:1-Heimniederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:1-Heimpleite ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:1-Heimschlappe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:1-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:1-Pausenrückstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:1-Pleite ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:1-Pokalniederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:1-Rückstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:1-Rückstandes ( NOUN NOUN_PROPER_SINGULAR ) lemma=0:1-Rückstand 
+ 0:1-Satzrückstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:1-Schlappe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:10-Punkte ( NOUN NOUN_PROPER_SINGULAR ) lemma=0:10-Punkt 
+ 0:10-Zähler ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:10-Zählern ( NOUN NOUN_PROPER_SINGULAR ) lemma=0:10-Zähler 
+ 0:12-Punkte ( NOUN NOUN_PROPER_SINGULAR ) lemma=0:12-Punkt 
+ 0:12-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=0:12-Punkt 
+ 0:2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
+ 0:2-Endstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:2-Heimniederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:2-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:2-Rückstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:2-Satzrückstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:3-Debakel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:3-Endstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:3-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:3-Niederlagen ( NOUN NOUN_PROPER_SINGULAR ) lemma=0:3-Niederlage 
+ 0:3-Rückstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:3-Schlappe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:4-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:4-Punkte ( NOUN NOUN_PROPER_SINGULAR ) lemma=0:4-Punkt 
+ 0:4-Rückstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:4-Schlappe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:4-Startschlappe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:5-Debakel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:5-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:5-Rückstand ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:5-Schlappe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:6-Debakel ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:6-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:6-Pleite ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:6-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=0:6-Punkt 
+ 0:6-Schlappe ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:7-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
+ 0:8-Punkte ( NOUN NOUN_PROPER_SINGULAR ) lemma=0:8-Punkt 
+ 0:8-Punkten ( NOUN NOUN_PROPER_SINGULAR ) lemma=0:8-Punkt 
+ 0:9-Niederlage ( NOUN NOUN_PROPER_SINGULAR ) 
  0,33-Liter-Dose ( ) 
  0,5-Liter-Bierdose ( ) 
  0,5-Liter-Flasche ( ) 
- 00 ( ) lemma=8000 
- 00-Dollar-Konkurren ( ) lemma=000-Dollar-Konkurrenz 
- 00-Dollar-Kredi ( ) lemma=000-Dollar-Kredit 
- 00-Dollar-Tennis-Turnie ( ) lemma=000-Dollar-Tennis-Turnier 
- 00-Dollar-Tennisturnie ( ) lemma=000-Dollar-Tennisturnier 
- 00-Dollar-Turnie ( ) lemma=000-Dollar-Turnier 
- 00-Einwohner-Gemeind ( ) lemma=700-Einwohner-Gemeinde 
- 00-Einwohner-Grenz ( ) lemma=000-Einwohner-Grenze 
- 00-Einwohner-Kommun ( ) lemma=000-Einwohner-Kommune 
- 00-Einwohner-Mark ( ) lemma=000-Einwohner-Marke 
- 00-Einwohner-Orte ( ) lemma=000-Einwohner-Ort 
  000-Einwohner-Ort ( ) 
- 00-Einwohner-Stad ( ) lemma=000-Einwohner-Stadt 
- 00-Einwohner-Stadttei ( ) lemma=000-Einwohner-Stadtteil 
- 00-Einwohner-Städtche ( ) lemma=000-Einwohner-Städtchen 
- 00-Einwohnerstad ( ) lemma=000-Einwohnerstadt 
- 00-Liter-Aussentan ( ) lemma=000-Liter-Außentank 
- 00-Liter-Außentan ( ) lemma=000-Liter-Außentank 
- 00-Mann ( ) lemma=000-Mann- 
- 00-Mann-Arme ( ) lemma=000-Mann-Armee 
- 00-Mark-Auto ( ) lemma=000-Mark-Auto 
  000-Mark-Auto ( ) 
- 00-Mark-Darlehe ( ) lemma=000-Mark-Darlehen 
- 00-Mark-Defizi ( ) lemma=000-Mark-Defizit 
- 00-Mark-Eta ( ) lemma=000-Mark-Etat 
- 00-Mark-Etat ( ) lemma=000-Mark-Etat 
- 00-Mark-Grenz ( ) lemma=000-Mark-Grenze 
- 00-Mark-Investitio ( ) lemma=000-Mark-Investition 
- 00-Mark-Pann ( ) lemma=000-Mark-Panne 
- 00-Mark-Poste ( ) lemma=000-Mark-Posten 
- 00-Mark-Projek ( ) lemma=000-Mark-Projekt 
- 00-Mark-Renovierun ( ) lemma=000-Mark-Renovierung 
- 00-Mark-Schade ( ) lemma=000-Mark-Schaden 
- 00-Mark-Schec ( ) lemma=200-Mark-Scheck 
- 00-Mark-Siegprämi ( ) lemma=000-Mark-Siegprämie 
- 00-Mark-Spektake ( ) lemma=000-Mark-Spektakel 
- 00-Mark-Spend ( ) lemma=800-Mark-Spende 
- 00-Mark-Zuschus ( ) lemma=000-Mark-Zuschuss 
- 00-Mark-Zuschu� ( ) lemma=000-Mark-Zuschuss 
- 00-Meter-Endlau ( ) lemma=100-Meter-Endlauf 
- 00-Meter-Lau ( ) lemma=800-Meter-Lauf 
- 00-Quadratmeter-Areal ( ) lemma=000-Quadratmeter-Areal 
  000-Quadratmeter-Areal ( ) 
- 00-Quadratmeter-Grundstüc ( ) lemma=000-Quadratmeter-Grundstück 
- 00-Seelen-Gemeind ( ) lemma=900-Seelen-Gemeinde 
- 00-Seelen-Kommun ( ) lemma=000-Seelen-Kommune 
- 00-Seelen-Stad ( ) lemma=000-Seelen-Stadt 
- 00-Tonnen-Ladun ( ) lemma=000-Tonnen-Ladung 
- 00-Tonnen-Supertanke ( ) lemma=000-Tonnen-Supertanker 
- 00-Tonnen-Tanke ( ) lemma=000-Tonnen-Tanker 
- 00-Volt-Kabe ( ) lemma=000-Volt-Kabel 
- 00-Volt-Leitun ( ) lemma=000-Volt-Leitung 
- 00-m-Lau ( ) lemma=800-m-Lauf 
- 00/10 ( ) lemma=200/100 
- 00/12 ( ) lemma=000/120 
- 00e ( ) lemma=900er 
- 00er-Grenz ( ) lemma=000er-Grenze 
- 00er-Klass ( ) lemma=000er-Klasse 
- 00er-Mark ( ) lemma=000er-Marke 
- 00fache ( ) lemma=500fach 
- 000fach ( ) lemma=2000fach 
- 00ma ( ) lemma=500mal 
- 031 ( ) lemma=0031- 
- 037/33/2381 ( ) lemma=0037/33/23813 
- 04/00 ( ) lemma=004/005 
- 043/4710/247 ( ) lemma=0043/4710/2477 
- 07-Regisseu ( ) lemma=007-Regisseur 
- 07-Sag ( ) lemma=007-Saga 
+ 000fach ( ) 
  0130-Nummer ( ) 
  02-Emission ( ) 
  020-Nummer ( ) 
@@ -554,925 +489,3 @@
  0:4-Punkt ( ) 
  0:6-Punkt ( ) 
  0:8-Punkt ( ) 
- 0*50 ( ) lemma=10*50- 
- 0*50-m ( ) lemma=10*50-m- 
- 0, ( ) lemma=40,5 
- 0,5/316, ( ) lemma=10,5/316,5 
- 0,5/318, ( ) lemma=10,5/318,0 
- 0 ( ) lemma=900 
- 0-Ausschus ( ) lemma=10-Ausschuss 
- 0-Ausschu� ( ) lemma=10-Ausschuss 
- 0-Darlehe ( ) lemma=10-Darlehen 
- 0-Geset ( ) lemma=10-Gesetz 
- 0-Gremium ( ) lemma=10-Gremium 
- 0-Jahr-Feie ( ) lemma=90-Jahr-Feier 
- 0-Jahres-Feie ( ) lemma=10-Jahres-Feier 
- 0-Jahres-Vertra ( ) lemma=10-Jahres-Vertrag 
- 0-Kilometer-Marsc ( ) lemma=10-Kilometer-Marsch 
- 0-Kilometer-Streck ( ) lemma=70-Kilometer-Strecke 
- 0-Kommissio ( ) lemma=10-Kommission 
- 0-Kommissione ( ) lemma=10-Kommission 
- 0-Lite ( ) lemma=10-Liter 
- 0-Mark ( ) lemma=50-Mark- 
- 0-Mark-Schei ( ) lemma=50-Mark-Schein 
- 0-Massnahm ( ) lemma=10-Maßnahme 
- 0-Maßnahm ( ) lemma=10-Maßnahme 
- 0-Meter-Schanz ( ) lemma=90-Meter-Schanze 
- 0-Milliarden ( ) lemma=10-Milliarden- 
- 0-Milliarden-Dollar-Bürgschaf ( ) lemma=10-Milliarden-Dollar-Bürgschaft 
- 0-Milliarden-Dollar-Kredi ( ) lemma=10-Milliarden-Dollar-Kredit 
- 0-Millionen ( ) lemma=80-Millionen- 
- 0-Millionen-Kredi ( ) lemma=10-Millionen-Kredit 
- 0-Millionen-Mark ( ) lemma=10-Millionen-Marke 
- 0-Millionen-Metropol ( ) lemma=20-Millionen-Metropole 
- 0-Millionen-Stad ( ) lemma=10-Millionen-Stadt 
- 0-Minuten ( ) lemma=90-Minuten- 
- 0-Minuten-Abstan ( ) lemma=20-Minuten-Abstand 
- 0-Minuten-Gespräc ( ) lemma=10-Minuten-Gespräch 
- 0-Minuten-Tak ( ) lemma=60-Minuten-Takt 
- 0-Mi ( ) lemma=30-Mio 
- 0-Mord-Schein ( ) lemma=10-Mord-Schein 
- 0-Prozent ( ) lemma=80-Prozent- 
- 0-Prozent-Kappungsgrenz ( ) lemma=10-Prozent-Kappungsgrenze 
- 0-Prozent-Mark ( ) lemma=90-Prozent-Marke 
- 0-Punkt ( ) lemma=20-Punkt 
- 0-Punkte ( ) lemma=10-Punkte- 
- 0-Punkte-Forderungskatalo ( ) lemma=10-Punkte-Forderungskatalog 
- 0-Punkte-Katalo ( ) lemma=30-Punkte-Katalog 
- 0-Punkte-Papie ( ) lemma=10-Punkte-Papier 
- 0-Punkte-Pla ( ) lemma=10-Punkte-Plan 
- 0-Punkte-Program ( ) lemma=20-Punkte-Programm 
- 0-Stunden-Ta ( ) lemma=20-Stunden-Tag 
- 0-Uhr-Gottesdiens ( ) lemma=10-Uhr-Gottesdienst 
- 0-Uhr-Zu ( ) lemma=10-Uhr-Zug 
- 0-fac ( ) lemma=10-fach 
- 0-jährig ( ) lemma=80-jährig 
- 0-jährige ( ) lemma=80-jährig 
- 0-km ( ) lemma=50-km- 
- 0-km-Gehe ( ) lemma=50-km-Gehen 
- 0-km-Konkurren ( ) lemma=10-km-Konkurrenz 
- 0-km-Lau ( ) lemma=30-km-Lauf 
- 0-km-Olympiasiege ( ) lemma=10-km-Olympiasieger 
- 0-km-Renne ( ) lemma=30-km-Rennen 
- 0-km-Sprin ( ) lemma=10-km-Sprint 
- 0-km-Staffe ( ) lemma=10-km-Staffel 
- 0-km-Streck ( ) lemma=10-km-Strecke 
- 0-km-Weltmeiste ( ) lemma=10-km-Weltmeister 
- 0-monatige ( ) lemma=10-monatig 
- 0-prozentige ( ) lemma=30-prozentig 
- 0-tägige ( ) lemma=10-tägig 
- 0.000 ( ) lemma=40.000- 
- 0.000-Einwohner-Gemeind ( ) lemma=10.000-Einwohner-Gemeinde 
- 0.000-Einwohner-Stad ( ) lemma=80.000-Einwohner-Stadt 
- 0.000-Mark-Spend ( ) lemma=90.000-Mark-Spende 
- 0.000-Meter ( ) lemma=10.000-Meter- 
- 0.000-Meter-Lau ( ) lemma=10.000-Meter-Lauf 
- 0.000-Seelen-Gemeind ( ) lemma=20.000-Seelen-Gemeinde 
- 0.000-m-Lau ( ) lemma=10.000-m-Lauf 
- 0.000-m-Weltmeiste ( ) lemma=10.000-m-Weltmeister 
- 0.000-m-Weltrekor ( ) lemma=10.000-m-Weltrekord 
- 0.000e ( ) lemma=60.000er 
- 0.000fac ( ) lemma=10.000fach 
- 0.000fach ( ) lemma=50.000fach 
- 0.30-Uhr-Gottesdiens ( ) lemma=10.30-Uhr-Gottesdienst 
- 0.30-Uhr-Mess ( ) lemma=10.30-Uhr-Messe 
- 0/ ( ) lemma=30/2 
- 0/198 ( ) lemma=10/1989 
- 0/199 ( ) lemma=10/1993 
- 0/2 ( ) lemma=20/25 
- 0/27-Querspang ( ) lemma=10/27-Querspange 
- 0/4 ( ) lemma=40/41 
- 0/8 ( ) lemma=80/81 
- 0/9 ( ) lemma=90/91 
- 00,- ( ) lemma=100,-- 
- 00,0/98, ( ) lemma=100,0/98,5 
- 00,5/101, ( ) lemma=100,5/101,0 
- 00,5/90, ( ) lemma=100,5/90,5 
- 00-Betten-Hote ( ) lemma=600-Betten-Hotel 
- 00-Betten-Klini ( ) lemma=800-Betten-Klinik 
- 00-DM-Akti ( ) lemma=300-DM-Aktie 
- 00-DM-Schei ( ) lemma=100-DM-Schein 
- 00-Dollar-Note ( ) lemma=100-Dollar-Note 
- 00-Dollar-Schei ( ) lemma=100-Dollar-Schein 
- 00-Dollar-Scheine ( ) lemma=100-Dollar-Schein 
- 00-Geschäftsführe ( ) lemma=100-Geschäftsführer 
- 00-Gramm-Fläschche ( ) lemma=100-Gramm-Fläschchen 
- 00-Gramm-Portio ( ) lemma=100-Gramm-Portion 
- 00-Han ( ) lemma=100-Hand 
- 00-Jahr-Feie ( ) lemma=900-Jahr-Feier 
- 00-Jahr-Jubiläu ( ) lemma=900-Jahr-Jubiläum 
- 00-Jahr-Jubiläum ( ) lemma=100-Jahr-Jubiläum 
- 00-Kilomete ( ) lemma=100-Kilometer 
- 00-Kilometer ( ) lemma=100-Kilometer- 
- 00-Kilometer-Bahnlau ( ) lemma=100-Kilometer-Bahnlauf 
- 00-Kilometer-Lau ( ) lemma=100-Kilometer-Lauf 
- 00-Kilometer-Net ( ) lemma=100-Kilometer-Netz 
- 00-Kilometer-Staffellau ( ) lemma=100-Kilometer-Staffellauf 
- 00-Liter-Behälte ( ) lemma=200-Liter-Behälter 
- 00-Liter-Sac ( ) lemma=100-Liter-Sack 
- 00-MW-Förderprogram ( ) lemma=100-MW-Förderprogramm 
- 00-Mache ( ) lemma=100-Macher 
- 00-Mark ( ) lemma=100-Mark- 
- 00-Mark-Akti ( ) lemma=100-Mark-Aktie 
- 00-Mark-Anteil ( ) lemma=100-Mark-Anteil 
- 00-Mark-Dinner-Sho ( ) lemma=100-Mark-Dinner-Show 
- 00-Mark-Schei ( ) lemma=500-Mark-Schein 
- 00-Mark-Schein ( ) lemma=500-Mark-Schein 
- 00-Mark-Scheine ( ) lemma=500-Mark-Schein 
- 00-Mark-Stückelun ( ) lemma=100-Mark-Stückelung 
- 00-Mark-Vignett ( ) lemma=400-Mark-Vignette 
- 00-Megawat ( ) lemma=900-Megawatt 
- 00-Megawatt-Program ( ) lemma=100-Megawatt-Programm 
- 00-Mete ( ) lemma=800-Meter 
- 00-Meter ( ) lemma=800-Meter- 
- 00-Meter-Bah ( ) lemma=400-Meter-Bahn 
- 00-Meter-Distan ( ) lemma=500-Meter-Distanz 
- 00-Meter-Final ( ) lemma=100-Meter-Finale 
- 00-Meter-Grenz ( ) lemma=300-Meter-Grenze 
- 00-Meter-Hürde ( ) lemma=400-Meter-Hürde 
- 00-Meter-Laufbah ( ) lemma=200-Meter-Laufbahn 
- 00-Meter-Olympiasiege ( ) lemma=100-Meter-Olympiasieger 
- 00-Meter-Olympiasiegeri ( ) lemma=100-Meter-Olympiasiegerin 
- 00-Meter-Renne ( ) lemma=100-Meter-Rennen 
- 00-Meter-Rückenstreck ( ) lemma=100-Meter-Rückenstrecke 
- 00-Meter-Schmetterlin ( ) lemma=100-Meter-Schmetterling 
- 00-Meter-Sprin ( ) lemma=100-Meter-Sprint 
- 00-Meter-Sprint ( ) lemma=100-Meter-Sprint 
- 00-Meter-Staffe ( ) lemma=400-Meter-Staffel 
- 00-Meter-Tur ( ) lemma=100-Meter-Turm 
- 00-Milliarde ( ) lemma=100-Milliarde 
- 00-Milliliter-Flasch ( ) lemma=200-Milliliter-Flasche 
- 00-Millione ( ) lemma=500-Million 
- 00-Millionen ( ) lemma=700-Millionen- 
- 00-Millionen-Ba ( ) lemma=100-Millionen-Bau 
- 00-Millionen-Dollar-Kredi ( ) lemma=500-Millionen-Dollar-Kredit 
- 00-Millionen-Förderprogram ( ) lemma=100-Millionen-Förderprogramm 
- 00-Millionen-Grenz ( ) lemma=200-Millionen-Grenze 
- 00-Millionen-Kredi ( ) lemma=300-Millionen-Kredit 
- 00-Millionen-Mar ( ) lemma=300-Millionen-Mark 
- 00-Millionen-Mark-Grenz ( ) lemma=100-Millionen-Mark-Grenze 
- 00-Millionen-Mark-Program ( ) lemma=100-Millionen-Mark-Programm 
- 00-Millionen-Mark-Projek ( ) lemma=500-Millionen-Mark-Projekt 
- 00-Millionen-Mark-Projekte ( ) lemma=100-Millionen-Mark-Projekt 
- 00-Millionen-Mark-Projekt ( ) lemma=500-Millionen-Mark-Projekt 
- 00-Millionen-Program ( ) lemma=300-Millionen-Programm 
- 00-Millionen-Projek ( ) lemma=800-Millionen-Projekt 
- 00-Mi ( ) lemma=100-Mio 
- 00-Prozent ( ) lemma=100-Prozent- 
- 00-Prozent-Ausstie ( ) lemma=100-Prozent-Ausstieg 
- 00-Prozent-Kurzarbeite ( ) lemma=100-Prozent-Kurzarbeiter 
- 00-Prozent-Mark ( ) lemma=100-Prozent-Marke 
- 00-Prozent-Regelun ( ) lemma=100-Prozent-Regelung 
- 00-Prozent-Tochte ( ) lemma=100-Prozent-Tochter 
- 00-Quadratmeter-Wohnun ( ) lemma=100-Quadratmeter-Wohnung 
- 00-Rubel ( ) lemma=100-Rubel- 
- 00-Rubel-Scheine ( ) lemma=100-Rubel-Schein 
- 00-Rubelschein ( ) lemma=100-Rubelschein 
- 00-Seiten-Konzept ( ) lemma=100-Seiten-Konzept 
- 00-Tage-Aktionsprogram ( ) lemma=100-Tage-Aktionsprogramm 
- 00-Tage-Bilan ( ) lemma=100-Tage-Bilanz 
- 00-Tage-Program ( ) lemma=500-Tage-Programm 
- 00-Tage-Sofortprogram ( ) lemma=100-Tage-Sofortprogramm 
- 00-Watt-Glühbirn ( ) lemma=100-Watt-Glühbirne 
- 00-Watt-Glühbirne ( ) lemma=100-Watt-Glühbirne 
- 00-Yuan-Schein ( ) lemma=100-Yuan-Schein 
- 00-jährig ( ) lemma=100-jährig 
- 00-jährige ( ) lemma=500-jährig 
- 00-kg-Man ( ) lemma=100-kg-Mann 
- 00-km ( ) lemma=100-km- 
- 00-km-Lau ( ) lemma=100-km-Lauf 
- 00-km-Mannschaftsrenne ( ) lemma=100-km-Mannschaftsrennen 
- 00-m ( ) lemma=100-m- 
- 00-m-Brus ( ) lemma=200-m-Brust 
- 00-m-Europarekor ( ) lemma=100-m-Europarekord 
- 00-m-Final ( ) lemma=100-m-Finale 
- 00-m-Freisti ( ) lemma=800-m-Freistil 
- 00-m-Halbfinal ( ) lemma=100-m-Halbfinale 
- 00-m-Hürde ( ) lemma=400-m-Hürde 
- 00-m-Lage ( ) lemma=400-m-Lage 
- 00-m-Lagenstaffe ( ) lemma=100-m-Lagenstaffel 
- 00-m-Olympiasiege ( ) lemma=800-m-Olympiasieger 
- 00-m-Olympiasiegeri ( ) lemma=400-m-Olympiasiegerin 
- 00-m-Rücke ( ) lemma=200-m-Rücken 
- 00-m-Schmetterlin ( ) lemma=200-m-Schmetterling 
- 00-m-Sie ( ) lemma=800-m-Sieg 
- 00-m-Siege ( ) lemma=200-m-Sieger 
- 00-m-Sprin ( ) lemma=100-m-Sprint 
- 00-m-Sprinte ( ) lemma=100-m-Sprinter 
- 00-m-Staffe ( ) lemma=400-m-Staffel 
- 00-m-Weltrekord ( ) lemma=100-m-Weltrekord 
- 00-m-Zei ( ) lemma=100-m-Zeit 
- 00-prozentig ( ) lemma=100-prozentig 
- 00-prozentige ( ) lemma=100-prozentig 
- 00-tägige ( ) lemma=100-tägig 
- 00.- ( ) lemma=100.-- 
- 00.000 ( ) lemma=700.000- 
- 00.000-Dächer-Program ( ) lemma=100.000-Dächer-Programm 
- 00.000-Einwohner-Stad ( ) lemma=600.000-Einwohner-Stadt 
- 00.000-Mann-Arme ( ) lemma=100.000-Mann-Armee 
- 00.000e ( ) lemma=100.000er 
- 00.000er-Auflag ( ) lemma=100.000er-Auflage 
- 00.000fach ( ) lemma=100.000fach 
- 00.000fache ( ) lemma=100.000fach 
- 00/20 ( ) lemma=100/200 
- 00/8 ( ) lemma=400/87 
- 000 ( ) lemma=80000 
- 000-Betten-Klini ( ) lemma=1000-Betten-Klinik 
- 000-Dächer-Program ( ) lemma=1000-Dächer-Programm 
- 000-Jahr-Feie ( ) lemma=2000-Jahr-Feier 
- 000-Jahrfeie ( ) lemma=1000-Jahrfeier 
- 000-Kronen-Investitio ( ) lemma=1000-Kronen-Investition 
- 000-Lire-Scheine ( ) lemma=1000-Lire-Schein 
- 000-Liter-Behälte ( ) lemma=1000-Liter-Behälter 
- 000-Mark-Gewinn ( ) lemma=1000-Mark-Gewinn 
- 000-Mark-Grenz ( ) lemma=1000-Mark-Grenze 
- 000-Mark-Schei ( ) lemma=1000-Mark-Schein 
- 000-Mark-Schein ( ) lemma=1000-Mark-Schein 
- 000-Mark-Scheine ( ) lemma=1000-Mark-Schein 
- 000-Mark-Spend ( ) lemma=5000-Mark-Spende 
- 000-Mark-Zuschus ( ) lemma=2000-Mark-Zuschuss 
- 000-Mark-Zuschu� ( ) lemma=2000-Mark-Zuschuss 
- 000-Megawatt-Druckwasserreakto ( ) lemma=1000-Megawatt-Druckwasserreaktor 
- 000-Megawatt-Reaktore ( ) lemma=1000-Megawatt-Reaktor 
- 000-Meter-Distan ( ) lemma=5000-Meter-Distanz 
- 000-Meter-Lau ( ) lemma=5000-Meter-Lauf 
- 000-Meter-Mark ( ) lemma=1000-Meter-Marke 
- 000-Meter-Zeitfahre ( ) lemma=1000-Meter-Zeitfahren 
- 000-Punkte-Grenz ( ) lemma=1000-Punkte-Grenze 
- 000-Punkte-Wertun ( ) lemma=1000-Punkte-Wertung 
- 000-Quadratmeter-Geländ ( ) lemma=1000-Quadratmeter-Gelände 
- 000-Seelen-Gemeind ( ) lemma=8000-Seelen-Gemeinde 
- 000-Seen-Rally ( ) lemma=1000-Seen-Rallye 
- 000-Seiten-Wälze ( ) lemma=1000-Seiten-Wälzer 
- 000-m-Bestzei ( ) lemma=1000-m-Bestzeit 
- 000-m-Erfol ( ) lemma=1000-m-Erfolg 
- 000-m-Rekor ( ) lemma=1000-m-Rekord 
- 000-m-Streck ( ) lemma=5000-m-Strecke 
- 000-m-Zeitfahre ( ) lemma=1000-m-Zeitfahren 
- 000. ( ) lemma=2000.- 
- 0000-Einwohner-Gemeind ( ) lemma=10000-Einwohner-Gemeinde 
- 0000-Einwohner-Grenz ( ) lemma=10000-Einwohner-Grenze 
- 0000-Einwohner-Kommun ( ) lemma=30000-Einwohner-Kommune 
- 0000-Einwohner-Stad ( ) lemma=90000-Einwohner-Stadt 
- 0000-Einwohner-Städtche ( ) lemma=10000-Einwohner-Städtchen 
- 0000-Volt-Kabe ( ) lemma=10000-Volt-Kabel 
- 0000-Volt-Mittelspannungskabe ( ) lemma=10000-Volt-Mittelspannungskabel 
- 0000 ( ) lemma=700000 
- 00000-Einwohner-Stad ( ) lemma=900000-Einwohner-Stadt 
- 00000-Lire-Note ( ) lemma=100000-Lire-Note 
- 00000-Mann-Heere ( ) lemma=100000-Mann-Heer 
- 00000-Mark-Spend ( ) lemma=100000-Mark-Spende 
- 00000-Mark-Zuschus ( ) lemma=800000-Mark-Zuschuss 
- 00000-Mark-Zuschu� ( ) lemma=800000-Mark-Zuschuss 
- 00000e ( ) lemma=100000er 
- 000e ( ) lemma=8000er 
- 000jährig ( ) lemma=2000jährig 
- 000jährige ( ) lemma=5000jährig 
- 000köpfige ( ) lemma=4000köpfig 
- 000prozentige ( ) lemma=1000prozentig 
- 001-Grupp ( ) lemma=1001-Gruppe 
- 0028/9 ( ) lemma=10028/90 
- 00fac ( ) lemma=500fach 
- 00fach ( ) lemma=500fach 
- 00jährig ( ) lemma=800jährig 
- 00jährige ( ) lemma=900jährig 
- 00köpfig ( ) lemma=600köpfig 
- 00köpfige ( ) lemma=700köpfig 
- 00m-Lau ( ) lemma=100m-Lauf 
- 00prozenti ( ) lemma=200prozentig 
- 00prozentig ( ) lemma=400prozentig 
- 00prozentige ( ) lemma=500prozentig 
- 00tägige ( ) lemma=900tägig 
- 01,5/76, ( ) lemma=101,5/76,0 
- 01/10 ( ) lemma=101/105 
- 01/199 ( ) lemma=101/1992 
- 01/ ( ) lemma=101/2 
- 01/9 ( ) lemma=301/91 
- 013/21 ( ) lemma=1013/216 
- 01jährig ( ) lemma=101jährig 
- 01köpfige ( ) lemma=101köpfig 
- 02,0/89, ( ) lemma=102,0/89,5 
- 02/ ( ) lemma=102/3 
- 025-Teile ( ) lemma=1025-Teiler 
- 02jährig ( ) lemma=102jährig 
- 03:113-Niederlag ( ) lemma=103:113-Niederlage 
- 03jährig ( ) lemma=103jährig 
- 03jährige ( ) lemma=103jährig 
- 04,0/94, ( ) lemma=104,0/94,5 
- 04,0/98, ( ) lemma=104,0/98,5 
- 04jährige ( ) lemma=104jährig 
- 05,0/95, ( ) lemma=105,0/95,5 
- 05-Hubschraube ( ) lemma=105-Hubschrauber 
- 05prozentig ( ) lemma=105prozentig 
- 06,6-Millionen-Eta ( ) lemma=106,6-Millionen-Etat 
- 06/12 ( ) lemma=106/122 
- 07/9 ( ) lemma=507/92 
- 074/9 ( ) lemma=1074/92 
- 07jährig ( ) lemma=107jährig 
- 07jährige ( ) lemma=107jährig 
- 08,5/97, ( ) lemma=108,5/97,5 
- 08/11 ( ) lemma=108/114 
- 08000-Einwohner-Stad ( ) lemma=108000-Einwohner-Stadt 
- 08 ( ) lemma=1089 
- 09-Teile ( ) lemma=109-Teiler 
- 099:1061-Sie ( ) lemma=1099:1061-Sieg 
- 09e ( ) lemma=109er 
- 0:0-Endstan ( ) lemma=10:0-Endstand 
- 0:0-Punkt ( ) lemma=10:0-Punkt 
- 0:1-Sie ( ) lemma=10:1-Sieg 
- 0:10-Ausgleic ( ) lemma=10:10-Ausgleich 
- 0:13-Rückstan ( ) lemma=10:13-Rückstand 
- 0:2-Punkt ( ) lemma=20:2-Punkt 
- 0:2-Punkte ( ) lemma=10:2-Punkt 
- 0:2-Tor ( ) lemma=10:2-Tor 
- 0:2-Zähler ( ) lemma=10:2-Zähler 
- 0:5-Sie ( ) lemma=10:5-Sieg 
- 0:6-Punkte ( ) lemma=10:6-Punkt 
- 0:8-Führun ( ) lemma=10:8-Führung 
- 0e-Abschreibun ( ) lemma=10e-Abschreibung 
- 0e-Förderun ( ) lemma=10e-Förderung 
- 0e ( ) lemma=90er 
- 0er-Kanu ( ) lemma=10er-Kanu 
- 0er-Pac ( ) lemma=10er-Pack 
- 0fach-Bestimmun ( ) lemma=10fach-Bestimmung 
- 0fach ( ) lemma=90fach 
- 0fache ( ) lemma=90fach 
- 0jährig ( ) lemma=90jährig 
- 0jährige ( ) lemma=90jährig 
- 0köpfig ( ) lemma=90köpfig 
- 0köpfige ( ) lemma=80köpfig 
- 0monatige ( ) lemma=20monatig 
- 0prozentig ( ) lemma=90prozentig 
- 0prozentige ( ) lemma=90prozentig 
- 0teilig ( ) lemma=20teilig 
- 0teilige ( ) lemma=10teilig 
- 0tägig ( ) lemma=90tägig 
- 0tägige ( ) lemma=90tägig 
- 0,- ( ) lemma=20,-- 
- 0-Fuss-Containe ( ) lemma=40-Fuss-Container 
- 0-Fuss-Container-Einhei ( ) lemma=20-Fuss-Container-Einheit 
- 0-Fuß-Containe ( ) lemma=40-Fuß-Container 
- 0-Fuß-Container-Einhei ( ) lemma=20-Fuß-Container-Einheit 
- 0-Grad-Grenz ( ) lemma=30-Grad-Grenze 
- 0-Grad-Mark ( ) lemma=30-Grad-Marke 
- 0-Jahr-Jubiläu ( ) lemma=90-Jahr-Jubiläum 
- 0-Kilometer ( ) lemma=20-Kilometer- 
- 0-Kilometer-Distan ( ) lemma=20-Kilometer-Distanz 
- 0-Kilometer-Lau ( ) lemma=20-Kilometer-Lauf 
- 0-Kilometer-Radiu ( ) lemma=80-Kilometer-Radius 
- 0-Kilometer-Rundkur ( ) lemma=20-Kilometer-Rundkurs 
- 0-Kilometer-Sperrzon ( ) lemma=30-Kilometer-Sperrzone 
- 0-Kilometer-Sta ( ) lemma=20-Kilometer-Stau 
- 0-Kilometer-Wanderunge ( ) lemma=20-Kilometer-Wanderung 
- 0-Kilometer-Zon ( ) lemma=30-Kilometer-Zone 
- 0-Kilovolt-Kabe ( ) lemma=20-Kilovolt-Kabel 
- 0-Kilovolt-Schaltanlag ( ) lemma=20-Kilovolt-Schaltanlage 
- 0-Liter-Benzinkaniste ( ) lemma=20-Liter-Benzinkanister 
- 0-Liter-Beute ( ) lemma=20-Liter-Beutel 
- 0-Liter-Blechkaniste ( ) lemma=20-Liter-Blechkanister 
- 0-Liter-Eime ( ) lemma=50-Liter-Eimer 
- 0-Liter-Kaniste ( ) lemma=20-Liter-Kanister 
- 0-Mark-Rate ( ) lemma=20-Mark-Rate 
- 0-Mark-Scheine ( ) lemma=20-Mark-Schein 
- 0-Mark-Spend ( ) lemma=20-Mark-Spende 
- 0-Meter-Freistos ( ) lemma=20-Meter-Freistoß 
- 0-Meter-Freisto� ( ) lemma=20-Meter-Freistoß 
- 0-Meter-Schus ( ) lemma=40-Meter-Schuss 
- 0-Meter-Schu� ( ) lemma=40-Meter-Schuss 
- 0-Meter-Umzu ( ) lemma=20-Meter-Umzug 
- 0-Milliarden-DM-Grenz ( ) lemma=20-Milliarden-DM-Grenze 
- 0-Milliarden-Program ( ) lemma=20-Milliarden-Programm 
- 0-Millionen-Mark-Projek ( ) lemma=80-Millionen-Mark-Projekt 
- 0-Millionen-Mark-Projekt ( ) lemma=60-Millionen-Mark-Projekt 
- 0-Millionen-Program ( ) lemma=60-Millionen-Programm 
- 0-Millionen-Projek ( ) lemma=80-Millionen-Projekt 
- 0-Minuten-Fil ( ) lemma=90-Minuten-Film 
- 0-Minuten-Gesangsscha ( ) lemma=20-Minuten-Gesangsschau 
- 0-Minuten-Takte ( ) lemma=20-Minuten-Takt 
- 0-Prozen ( ) lemma=50-Prozent 
- 0-Prozent-Antei ( ) lemma=80-Prozent-Anteil 
- 0-Prozent-Beteiligun ( ) lemma=80-Prozent-Beteiligung 
- 0-Prozent-Bonu ( ) lemma=20-Prozent-Bonus 
- 0-Prozent-Grenz ( ) lemma=50-Prozent-Grenze 
- 0-Prozent-Hürd ( ) lemma=50-Prozent-Hürde 
- 0-Prozent-Pake ( ) lemma=50-Prozent-Paket 
- 0-Prozent-Parte ( ) lemma=40-Prozent-Partei 
- 0-Prozent-Quot ( ) lemma=70-Prozent-Quote 
- 0-Prozent-Zie ( ) lemma=30-Prozent-Ziel 
- 0-Punkte-Vorsprun ( ) lemma=20-Punkte-Vorsprung 
- 0-Quadratmeter-Rau ( ) lemma=30-Quadratmeter-Raum 
- 0-Seiten-Papie ( ) lemma=80-Seiten-Papier 
- 0-Sekunden-Auftrit ( ) lemma=20-Sekunden-Auftritt 
- 0-Sekunden-Spot ( ) lemma=30-Sekunden-Spot 
- 0-Stimmen-Mehrhei ( ) lemma=20-Stimmen-Mehrheit 
- 0-Stunden-Stelle ( ) lemma=20-Stunden-Stelle 
- 0-Tage-Rhythmu ( ) lemma=20-Tage-Rhythmus 
- 0-Tonnen ( ) lemma=20-Tonnen- 
- 0-US-Dollarnote ( ) lemma=20-US-Dollarnote 
- 0-Uh ( ) lemma=20-Uhr 
- 0-Uhr ( ) lemma=20-Uhr- 
- 0-Uhr-Grenz ( ) lemma=20-Uhr-Grenze 
- 0-Uhr-Nachrichte ( ) lemma=20-Uhr-Nachricht 
- 0-Uhr-Tagesscha ( ) lemma=20-Uhr-Tagesschau 
- 0-Uhr-Werbegrenz ( ) lemma=20-Uhr-Werbegrenze 
- 0-Zoll-Räder ( ) lemma=20-Zoll-Rad 
- 0-g-Butte ( ) lemma=20-g-Butter 
- 0-kV-Leitun ( ) lemma=20-kV-Leitung 
- 0-kV-Stromleitunge ( ) lemma=20-kV-Stromleitung 
- 0-km-Strassengehe ( ) lemma=20-km-Straßengehen 
- 0-km-Straßengehe ( ) lemma=20-km-Straßengehen 
- 0-km-Wettbewer ( ) lemma=20-km-Wettbewerb 
- 0-km-Zon ( ) lemma=30-km-Zone 
- 0-m-Freistos ( ) lemma=20-m-Freistoß 
- 0-m-Freisto� ( ) lemma=20-m-Freistoß 
- 0-m-Schus ( ) lemma=30-m-Schuss 
- 0-m-Schu� ( ) lemma=30-m-Schuss 
- 0-mm-Maschinenkanon ( ) lemma=20-mm-Maschinenkanone 
- 0/293 ( ) lemma=20/2930 
- 0/30e ( ) lemma=20/30er 
- 0/3 ( ) lemma=30/35 
- 00-Baud-Leitun ( ) lemma=200-Baud-Leitung 
- 00-Jahr-Feier ( ) lemma=700-Jahr-feier 
- 00-Jahrfeie ( ) lemma=800-Jahrfeier 
- 00-Liter ( ) lemma=200-Liter- 
- 00-Liter-Fas ( ) lemma=200-Liter-Fass 
- 00-Liter-Fa� ( ) lemma=200-Liter-Fass 
- 00-Liter-Fässe ( ) lemma=200-Liter-Fass 
- 00-Mark-Fälschun ( ) lemma=200-Mark-Fälschung 
- 00-Mark-Note ( ) lemma=200-Mark-Note 
- 00-Meilen ( ) lemma=200-Meilen- 
- 00-Meilen-Wirtschaftszon ( ) lemma=200-Meilen-Wirtschaftszone 
- 00-Meilen-Zon ( ) lemma=200-Meilen-Zone 
- 00-Meter-Freisti ( ) lemma=400-Meter-Freistil 
- 00-Millionen-Dollar-Projek ( ) lemma=200-Millionen-Dollar-Projekt 
- 00-Millionen-Loc ( ) lemma=200-Millionen-Loch 
- 00-Millionen-Mark-Eta ( ) lemma=900-Millionen-Mark-Etat 
- 00-Quadratmeter-Eigentumswohnunge ( ) lemma=200-Quadratmeter-Eigentumswohnung 
- 00-Runden ( ) lemma=200-Runden- 
- 00-Seelen ( ) lemma=500-Seelen- 
- 00-Seelen-Dor ( ) lemma=800-Seelen-Dorf 
- 00-Seemeilen-Zon ( ) lemma=200-Seemeilen-Zone 
- 00-Seiten-Erhebun ( ) lemma=200-Seiten-Erhebung 
- 00-Zimmer-Hote ( ) lemma=200-Zimmer-Hotel 
- 00-km-Fahr ( ) lemma=200-km-Fahrt 
- 00- ( ) lemma=200-m 
- 00-m-Freistil-Distan ( ) lemma=200-m-Freistil-Distanz 
- 00-m-Man ( ) lemma=200-m-Mann 
- 00-m-Renne ( ) lemma=200-m-Rennen 
- 00-m-Semifinal ( ) lemma=200-m-Semifinale 
- 00-m-Weltmeiste ( ) lemma=200-m-Weltmeister 
- 00-m-Weltrekor ( ) lemma=200-m-Weltrekord 
- 00-m-Zeitfahre ( ) lemma=200-m-Zeitfahren 
- 000-Einwohner-Dor ( ) lemma=2000-Einwohner-Dorf 
- 000-Grad-Schmelz ( ) lemma=2000-Grad-Schmelze 
- 000-Höhenmeter-Tiefschnee-Abfahr ( ) lemma=2000-Höhenmeter-Tiefschnee-Abfahrt 
- 000-Jahres-Rhythmu ( ) lemma=2000-Jahres-Rhythmus 
- 000-Liter-Gefäs ( ) lemma=2000-Liter-Gefäß 
- 000-Liter-Gefä� ( ) lemma=2000-Liter-Gefäß 
- 000-Liter-Tank ( ) lemma=2000-Liter-Tank 
- 000-Mann-Zel ( ) lemma=2000-Mann-Zelt 
- 000-Meter-Streck ( ) lemma=2000-Meter-Strecke 
- 000-Schec ( ) lemma=2000-Scheck 
- 000-Seelen-Dor ( ) lemma=3000-Seelen-Dorf 
- 000-Seelen-Durchgangsdor ( ) lemma=2000-Seelen-Durchgangsdorf 
- 000/200 ( ) lemma=2000/2004 
- 0000-Meilen-Bonu ( ) lemma=20000-Meilen-Bonus 
- 0000-Seelen-Stad ( ) lemma=20000-Seelen-Stadt 
- 000er-Spiel ( ) lemma=2000er-Spiel 
- 000köpfig ( ) lemma=2000köpfig 
- 000ma ( ) lemma=2000mal 
- 001-Verla ( ) lemma=2001-Verlag 
- 003/ ( ) lemma=2003/4 
- 005/202 ( ) lemma=2005/2020 
- 00er ( ) lemma=500er 
- 010/201 ( ) lemma=2010/2011 
- 012/9 ( ) lemma=2012/92 
- 02/8 ( ) lemma=902/85 
- 02 ( ) lemma=2020 
- 03-Millimeter-Atomgranate ( ) lemma=203-Millimeter-Atomgranate 
- 04-Millionen-Eta ( ) lemma=204-Millionen-Etat 
- 05/62/ ( ) lemma=205/62/0 
- 05/67/ ( ) lemma=205/67/4 
- 05/9 ( ) lemma=805/91 
- 077/9 ( ) lemma=2077/92 
- 09/9 ( ) lemma=809/92 
- 092/9 ( ) lemma=2092/91 
- 0:10-Sie ( ) lemma=20:10-Sieg 
- 0:19-Heimsie ( ) lemma=20:19-Heimsieg 
- 0:19-Sie ( ) lemma=20:19-Sieg 
- 0:19-Siege ( ) lemma=20:19-Sieger 
- 0:20-Gleichstan ( ) lemma=20:20-Gleichstand 
- 0:21-Niederlag ( ) lemma=20:21-Niederlage 
- 0:22-Niederlag ( ) lemma=20:22-Niederlage 
- 0:24-Niederlag ( ) lemma=20:24-Niederlage 
- 0Karl-Marx-Str ( ) lemma=20Karl-Marx-Str. 
- 0Uhr-Werbegrenz ( ) lemma=20Uhr-Werbegrenze 
- 0er ( ) lemma=90er 
- 0er-Fel ( ) lemma=20er-Feld 
- 0er-Gremiu ( ) lemma=20er-Gremium 
- 0er-Jahre-Ausstellun ( ) lemma=20er-Jahre-Ausstellung 
- 0er-Kade ( ) lemma=20er-Kader 
- 0er-Lig ( ) lemma=20er-Liga 
- 0fac ( ) lemma=50fach 
- 0geschossige ( ) lemma=20geschossig 
- 0jähri ( ) lemma=90jährig 
- 0ma ( ) lemma=90mal 
- 0malig ( ) lemma=40malig 
- 0monatig ( ) lemma=20monatig 
- 0stöckige ( ) lemma=20stöckig 
- 0stündig ( ) lemma=70stündig 
- 0stündige ( ) lemma=80stündig 
- 0-Arbeitsgrupp ( ) lemma=30-Arbeitsgruppe 
- 0-Dollar-Mark ( ) lemma=30-Dollar-Marke 
- 0-Dollar-Motel ( ) lemma=30-Dollar-Motel 
- 0-Forderun ( ) lemma=30-Forderung 
- 0-Jahr-Bühnenjubiläu ( ) lemma=30-Jahr-Bühnenjubiläum 
- 0-Kilomete ( ) lemma=30-Kilometer 
- 0-Kilometer-Langlau ( ) lemma=30-Kilometer-Langlauf 
- 0-Kilometer-Stromschwimme ( ) lemma=30-Kilometer-Stromschwimmen 
- 0-Kilometer-Zone ( ) lemma=30-Kilometer-Zone 
- 0-Konzep ( ) lemma=30-Konzept 
- 0-Liter-Abfalltonn ( ) lemma=30-Liter-Abfalltonne 
- 0-Liter-Fas ( ) lemma=30-Liter-Fass 
- 0-Liter-Fa� ( ) lemma=30-Liter-Fass 
- 0-Liter-Tonn ( ) lemma=80-Liter-Tonne 
- 0-Meter-Armbrustschiesse ( ) lemma=30-Meter-Armbrustschiessen 
- 0-Meter-Armbrustschieße ( ) lemma=30-Meter-Armbrustschießen 
- 0-Meter-Drehleite ( ) lemma=30-Meter-Drehleiter 
- 0-Meter-Sprin ( ) lemma=30-Meter-Sprint 
- 0-Millionen-Betru ( ) lemma=30-Millionen-Betrug 
- 0-Millionen-Din ( ) lemma=30-Millionen-Ding 
- 0-Millionen-Komple ( ) lemma=30-Millionen-Komplex 
- 0-Millionen-Mark-Loc ( ) lemma=30-Millionen-Mark-Loch 
- 0-Millionen-Mark-Neuba ( ) lemma=30-Millionen-Mark-Neubau 
- 0-Millirem-Konzep ( ) lemma=30-Millirem-Konzept 
- 0-Minuten-Rhythmu ( ) lemma=40-Minuten-Rhythmus 
- 0-Minuten-Sendun ( ) lemma=60-Minuten-Sendung 
- 0-Planunge ( ) lemma=30-Planung 
- 0-Plän ( ) lemma=30-Plan 
- 0-Prozent-Angebo ( ) lemma=30-Prozent-Angebot 
- 0-Prozent-Anteil ( ) lemma=30-Prozent-Anteil 
- 0-Prozent-Ghett ( ) lemma=30-Prozent-Ghetto 
- 0-Prozent-Regelun ( ) lemma=60-Prozent-Regelung 
- 0-Regelun ( ) lemma=30-Regelung 
- 0-Schilder ( ) lemma=30-Schild 
- 0-Sekunden ( ) lemma=30-Sekunden- 
- 0-Sekunden-Spo ( ) lemma=30-Sekunden-Spot 
- 0-Sekunden-Tak ( ) lemma=60-Sekunden-Takt 
- 0-Stunden-Grenz ( ) lemma=30-Stunden-Grenze 
- 0-Stunden-Kraf ( ) lemma=30-Stunden-Kraft 
- 0-Stunden-Stell ( ) lemma=30-Stunden-Stelle 
- 0-Stunden-Woch ( ) lemma=80-Stunden-Woche 
- 0-Stundenkilomete ( ) lemma=30-Stundenkilometer 
- 0-Stundenkilometer-Limit ( ) lemma=30-Stundenkilometer-Limit 
- 0-Tage-Fris ( ) lemma=30-Tage-Frist 
- 0-Tage-Krie ( ) lemma=30-Tage-Krieg 
- 0-Tage-Ultimatu ( ) lemma=30-Tage-Ultimatum 
- 0-Tonnen-LK ( ) lemma=30-Tonnen-LKW 
- 0-Zon ( ) lemma=30-Zone 
- 0-Zone ( ) lemma=30-Zone 
- 0-km-Langlau ( ) lemma=30-km-Langlauf 
- 0-km-Olympiasiegeri ( ) lemma=30-km-Olympiasiegerin 
- 0-km/h-Schilde ( ) lemma=30-km/h-Schild 
- 0-km/h-Zon ( ) lemma=30-km/h-Zone 
- 0-km/h-Zone ( ) lemma=30-km/h-Zone 
- 0-köpfige ( ) lemma=30-köpfig 
- 0-prozentig ( ) lemma=90-prozentig 
- 0.000-Einwohne ( ) lemma=30.000-Einwohner 
- 0.000-Einwohner ( ) lemma=30.000-Einwohner- 
- 0.000-Mark ( ) lemma=30.000-Mark- 
- 0.000-Mark-Rat ( ) lemma=30.000-Mark-Rate 
- 0.000. ( ) lemma=30.000.- 
- 0/40e ( ) lemma=30/40er 
- 00-Betten-Bau ( ) lemma=300-Betten-Bau 
- 00-Betten-Hau ( ) lemma=600-Betten-Haus 
- 00-Betten-Hotelruin ( ) lemma=300-Betten-Hotelruine 
- 00-Einwohner-Dor ( ) lemma=900-Einwohner-Dorf 
- 00-Grenz ( ) lemma=300-Grenze 
- 00-Kilometer-Distan ( ) lemma=300-Kilometer-Distanz 
- 00-Lite ( ) lemma=300-Liter 
- 00-Liter-Tank ( ) lemma=300-Liter-Tank 
- 00-Liter-Tonn ( ) lemma=500-Liter-Tonne 
- 00-Mann-Behörd ( ) lemma=300-Mann-Behörde 
- 00-Megawatt-Atomreakto ( ) lemma=300-Megawatt-Atomreaktor 
- 00-Megawatt-Reakto ( ) lemma=300-Megawatt-Reaktor 
- 00-Megawatt-Reaktor ( ) lemma=300-Megawatt-Reaktor 
- 00-Meter-Ban ( ) lemma=300-Meter-Band 
- 00-Millionen-Mark ( ) lemma=300-Millionen-Mark- 
- 00-Pin-Spie ( ) lemma=300-Pin-Spiel 
- 00-Seiten ( ) lemma=700-Seiten- 
- 00/1200/240 ( ) lemma=300/1200/2400 
- 00/9 ( ) lemma=300/90 
- 000-Einwohner-Gemeind ( ) lemma=8000-Einwohner-Gemeinde 
- 000-Einwohner-Or ( ) lemma=3000-Einwohner-Ort 
- 000-Europameisterschaf ( ) lemma=3000-Europameisterschaft 
- 000-Meter-Hinderni ( ) lemma=3000-Meter-Hindernis 
- 000-Meter-Renne ( ) lemma=3000-Meter-Rennen 
- 000-Plätze-Kin ( ) lemma=3000-Plätze-Kino 
- 000-Punkte-Nivea ( ) lemma=3000-Punkte-Niveau 
- 000-Punkte-Schwell ( ) lemma=3000-Punkte-Schwelle 
- 000-Seelen-Or ( ) lemma=3000-Seelen-Ort 
- 000-m-Einerverfolgun ( ) lemma=4000-m-Einerverfolgung 
- 000-m-Einzelverfolgun ( ) lemma=5000-m-Einzelverfolgung 
- 000-m-Gehe ( ) lemma=5000-m-Gehen 
- 000-m-Hinderni ( ) lemma=3000-m-Hindernis 
- 000-m-Lau ( ) lemma=3000-m-Lauf 
- 001-Kin ( ) lemma=3001-Kino 
- 005/8 ( ) lemma=3005/89 
- 00er-Fahrgestel ( ) lemma=300er-Fahrgestell 
- 00er-Limousin ( ) lemma=300er-Limousine 
- 00er-Mittelklasse-Modelle ( ) lemma=300er-Mittelklasse-Modell 
- 00er-Schnit ( ) lemma=300er-Schnitt 
- 01-Mitarbeite ( ) lemma=301-Mitarbeiter 
- 04-PS-Allradmaschine ( ) lemma=304-PS-Allradmaschine 
- 0500-Einwohner-Kommun ( ) lemma=30500-Einwohner-Kommune 
- 06/9 ( ) lemma=306/91 
- 0:0-Führun ( ) lemma=30:0-Führung 
- 0:23-Sie ( ) lemma=30:23-Sieg 
- 0er-Bu ( ) lemma=30er-Bus 
- 0er-Buss ( ) lemma=30er-Bus 
- 0er-Zon ( ) lemma=30er-Zone 
- 0,5-Teile ( ) lemma=40,5-Teiler 
- 0-Jah ( ) lemma=40-Jahr 
- 0-Jahr-Arbeitsjubiläu ( ) lemma=40-Jahr-Arbeitsjubiläum 
- 0-Jahr-Berufsjubiläu ( ) lemma=40-Jahr-Berufsjubiläum 
- 0-Jahr-Dienstjubiläu ( ) lemma=40-Jahr-Dienstjubiläum 
- 0-Jahr-Feier ( ) lemma=60-Jahr-feier 
- 0-Jahr-Fris ( ) lemma=40-Jahr-Frist 
- 0-Jahr-Landesjubiläu ( ) lemma=40-Jahr-Landesjubiläum 
- 0-Jahr-Landesjubiläum ( ) lemma=40-Jahr-Landesjubiläum 
- 0-Jahr ( ) lemma=40-Jahr 
- 0-Jahre-Jubelfeie ( ) lemma=40-Jahre-Jubelfeier 
- 0-Jahrfeie ( ) lemma=40-Jahrfeier 
- 0-Kilogramm-Gewichtsklass ( ) lemma=40-Kilogramm-Gewichtsklasse 
- 0-Meter ( ) lemma=60-Meter- 
- 0-Millionen-Dollar-Klag ( ) lemma=40-Millionen-Dollar-Klage 
- 0-Millionen-Mark-Bauprojek ( ) lemma=40-Millionen-Mark-Bauprojekt 
- 0-Millionen-Mark-Zuschus ( ) lemma=40-Millionen-Mark-Zuschuss 
- 0-Millionen-Mark-Zuschu� ( ) lemma=40-Millionen-Mark-Zuschuss 
- 0-Pfennig-Briefmarke ( ) lemma=40-Pfennig-Briefmarke 
- 0-Quadratmeter-Wohnun ( ) lemma=70-Quadratmeter-Wohnung 
- 0-Stunde ( ) lemma=40-Stunden 
- 0-Stunden ( ) lemma=70-Stunden- 
- 0-Stundenwoch ( ) lemma=80-Stundenwoche 
- 0-Tonnen-Korrido ( ) lemma=40-Tonnen-Korridor 
- 0-Tonnen-Laste ( ) lemma=40-Tonnen-Laster 
- 0-Tonnen-Lastwage ( ) lemma=40-Tonnen-Lastwagen 
- 0-Tonnen-Lastzu ( ) lemma=40-Tonnen-Lastzug 
- 0-Tonnen-Sattelschleppe ( ) lemma=40-Tonnen-Sattelschlepper 
- 0-Tonnen-Zu ( ) lemma=40-Tonnen-Zug 
- 0-Watt-Birne ( ) lemma=40-Watt-Birne 
- 0-Wochen-Stunden-Schnit ( ) lemma=40-Wochen-Stunden-Schnitt 
- 0-Zentimeter-Mark ( ) lemma=40-Zentimeter-Marke 
- 00-Jahr-Festschrif ( ) lemma=400-Jahr-Festschrift 
- 00-Meter-Hürdenlau ( ) lemma=400-Meter-Hürdenlauf 
- 00-Meter-Lagen ( ) lemma=400-Meter-Lagen- 
- 00-Meter-Läufe ( ) lemma=800-Meter-Läufer 
- 00-Meter-Läuferi ( ) lemma=800-Meter-Läuferin 
- 00-Meter-Rundbah ( ) lemma=400-Meter-Rundbahn 
- 00-Meter-Streck ( ) lemma=500-Meter-Strecke 
- 00-m-Europameisteri ( ) lemma=400-m-Europameisterin 
- 00-m-Hürdenläufe ( ) lemma=400-m-Hürdenläufer 
- 00-m-Hürdenläuferi ( ) lemma=400-m-Hürdenläuferin 
- 00-m-Läufe ( ) lemma=800-m-Läufer 
- 00-m-Vorlau ( ) lemma=400-m-Vorlauf 
- 00-m-Weltmeisteri ( ) lemma=400-m-Weltmeisterin 
- 000-Kilometer-Tri ( ) lemma=4000-Kilometer-Trip 
- 000-Mann-Behörd ( ) lemma=4000-Mann-Behörde 
- 000-Seelen-Städtche ( ) lemma=4000-Seelen-Städtchen 
- 000-m-Distan ( ) lemma=4000-m-Distanz 
- 000-m-Mannschaftsverfolgun ( ) lemma=4000-m-Mannschaftsverfolgung 
- 000-m-Verfolgun ( ) lemma=4000-m-Verfolgung 
- 000/800 ( ) lemma=4000/8000 
- 0000-Mark-Grenz ( ) lemma=60000-Mark-Grenze 
- 0000-Mark-Spend ( ) lemma=40000-Mark-Spende 
- 02/40 ( ) lemma=402/403 
- 049/8 ( ) lemma=4049/88 
- 0er-Jubiläu ( ) lemma=40er-Jubiläum 
- 0malige ( ) lemma=50malig 
- 0-D ( ) lemma=50-DM 
- 0-DM ( ) lemma=50-DM- 
- 0-DM-Akti ( ) lemma=50-DM-Aktie 
- 0-DM-Aktie ( ) lemma=50-DM-Aktie 
- 0-DM-Papie ( ) lemma=50-DM-Papier 
- 0-DM-Stamm ( ) lemma=50-DM-Stamm- 
- 0-DM-Stammakti ( ) lemma=50-DM-Stammaktie 
- 0-DM-Stammaktie ( ) lemma=50-DM-Stammaktie 
- 0-DM-Vorzugsakti ( ) lemma=50-DM-Vorzugsaktie 
- 0-Dollar-Blüte ( ) lemma=50-Dollar-Blüte 
- 0-Dollar-Note ( ) lemma=50-Dollar-Note 
- 0-Dollar-Schein ( ) lemma=50-Dollar-Schein 
- 0-Hektar-Betrie ( ) lemma=50-Hektar-Betrieb 
- 0-Kilo-Bomb ( ) lemma=50-Kilo-Bombe 
- 0-Kilo-Fliegerbomb ( ) lemma=50-Kilo-Fliegerbombe 
- 0-Kilo-Sac ( ) lemma=50-Kilo-Sack 
- 0-Kilometer-Projek ( ) lemma=50-Kilometer-Projekt 
- 0-Kronen-Note ( ) lemma=50-Kronen-Note 
- 0-Liter ( ) lemma=60-Liter- 
- 0-Liter-Behälte ( ) lemma=50-Liter-Behälter 
- 0-Liter-Eimer ( ) lemma=50-Liter-Eimer 
- 0-Liter-Sac ( ) lemma=50-Liter-Sack 
- 0-Liter-Tonne ( ) lemma=80-Liter-Tonne 
- 0-Mann-Betrie ( ) lemma=50-Mann-Betrieb 
- 0-Mann-Betrieb ( ) lemma=50-Mann-Betrieb 
- 0-Mar ( ) lemma=50-Mark 
- 0-Mark-Akti ( ) lemma=50-Mark-Aktie 
- 0-Mark-Miet ( ) lemma=50-Mark-Miete 
- 0-Mark-Schein ( ) lemma=50-Mark-Schein 
- 0-Mark-Schritte ( ) lemma=50-Mark-Schritt 
- 0-Megawatt-Reakto ( ) lemma=70-Megawatt-Reaktor 
- 0-Mete ( ) lemma=50-Meter 
- 0-Meter-Bah ( ) lemma=50-Meter-Bahn 
- 0-Meter-Bahne ( ) lemma=50-Meter-Bahn 
- 0-Meter-Becke ( ) lemma=50-Meter-Becken 
- 0-Meter-Kran ( ) lemma=50-Meter-Kran 
- 0-Meter-Lau ( ) lemma=50-Meter-Lauf 
- 0-Meter-Pas ( ) lemma=50-Meter-Pass 
- 0-Meter-Pa� ( ) lemma=50-Meter-Pass 
- 0-Meter-Rutsch ( ) lemma=50-Meter-Rutsch 
- 0-Meter-Rückenschwimme ( ) lemma=50-Meter-Rückenschwimmen 
- 0-Meter-Sportbecke ( ) lemma=50-Meter-Sportbecken 
- 0-Meter-Sprun ( ) lemma=50-Meter-Sprung 
- 0-Milliarden-Projek ( ) lemma=50-Milliarden-Projekt 
- 0-Millione ( ) lemma=50-Million 
- 0-Millionen-Angebo ( ) lemma=50-Millionen-Angebot 
- 0-Millionen-Dinar-Schei ( ) lemma=50-Millionen-Dinar-Schein 
- 0-Millionen-Umsat ( ) lemma=50-Millionen-Umsatz 
- 0-Minuten-Filme ( ) lemma=50-Minuten-Film 
- 0-Pfennig-Comic ( ) lemma=50-Pfennig-Comic 
- 0-Pfennig-Stüc ( ) lemma=50-Pfennig-Stück 
- 0-Pfennig-Stück ( ) lemma=50-Pfennig-Stück 
- 0-Prozent-Mehrhei ( ) lemma=70-Prozent-Mehrheit 
- 0-Prozent-Quote ( ) lemma=50-Prozent-Quote 
- 0-Prozent-Schwell ( ) lemma=50-Prozent-Schwelle 
- 0-Prozent-Zuschus ( ) lemma=50-Prozent-Zuschuss 
- 0-Prozent-Zuschu� ( ) lemma=50-Prozent-Zuschuss 
- 0-Quadratmeter ( ) lemma=60-Quadratmeter- 
- 0-Teile ( ) lemma=80-Teiler 
- 0-Tore-Grenz ( ) lemma=50-Tore-Grenze 
- 0-kg-Schlaghamme ( ) lemma=50-kg-Schlaghammer 
- 0-km-Einzelzeitfahre ( ) lemma=50-km-Einzelzeitfahren 
- 0-km-Mannschaftszeitfahre ( ) lemma=50-km-Mannschaftszeitfahren 
- 0-km-Maratho ( ) lemma=50-km-Marathon 
- 0-m-Freisti ( ) lemma=50-m-Freistil 
- 0-m-Hürden-Endlau ( ) lemma=50-m-Hürden-Endlauf 
- 0-m-Lau ( ) lemma=50-m-Lauf 
- 0.000-Einwohner-Grenz ( ) lemma=50.000-Einwohner-Grenze 
- 0.000-Einwohner-Städtchen ( ) lemma=50.000-Einwohner-Städtchen 
- 0.000-Mark-Goldschat ( ) lemma=50.000-Mark-Goldschatz 
- 0/5 ( ) lemma=50/51 
- 0/50-Regelun ( ) lemma=50/50-Regelung 
- 0/6 ( ) lemma=60/61 
- 00-Gramm-Pfandgla ( ) lemma=500-Gramm-Pfandglas 
- 00-Jahr ( ) lemma=800-Jahr 
- 00-Jahr-Feierlichkeite ( ) lemma=700-Jahr-Feierlichkeit 
- 00-Jahre ( ) lemma=500-Jahr 
- 00-Jahres-Feier ( ) lemma=500-Jahres-feier 
- 00-Jahres-Stiftun ( ) lemma=500-Jahres-Stiftung 
- 00-Kilo-Bombe ( ) lemma=500-Kilo-Bombe 
- 00-Kilowatt-Anlag ( ) lemma=500-Kilowatt-Anlage 
- 00-Mark-Basi ( ) lemma=500-Mark-Basis 
- 00-Mark-Rate ( ) lemma=500-Mark-Rate 
- 00-Megawatt-Blöck ( ) lemma=800-Megawatt-Block 
- 00-Megawatt-Steinkohlekraftwerk ( ) lemma=500-Megawatt-Steinkohlekraftwerk 
- 00-Meter-Korridor ( ) lemma=500-Meter-Korridor 
- 00-Milliarden-Sparprogram ( ) lemma=500-Milliarden-Sparprogramm 
- 00-Millionen-Projekte ( ) lemma=500-Millionen-Projekt 
- 00-Millionen-Sozialpla ( ) lemma=500-Millionen-Sozialplan 
- 00-Pfund-Bomb ( ) lemma=500-Pfund-Bombe 
- 00-Seelen-Vol ( ) lemma=500-Seelen-Volk 
- 00-Seiten-Wälze ( ) lemma=500-Seiten-Wälzer 
- 00-Tage ( ) lemma=500-Tage- 
- 00-Tage-Pla ( ) lemma=500-Tage-Plan 
- 00-Tage-Plane ( ) lemma=500-Tage-Plan 
- 00-Tage-Plan ( ) lemma=500-Tage-Plan 
- 00-Tage-Programm ( ) lemma=500-Tage-Programm 
- 00-Watt-Sende ( ) lemma=500-Watt-Sender 
- 00-ccm-Klass ( ) lemma=500-ccm-Klasse 
- 00-g-Joghur ( ) lemma=500-g-Joghurt 
- 00-m-Distan ( ) lemma=500-m-Distanz 
- 00.000-Dollar ( ) lemma=500.000-Dollar- 
- 00.000-Einwohne ( ) lemma=500.000-Einwohner 
- 000-Analyse ( ) lemma=5000-Analyse 
- 000-Einwohner-Stad ( ) lemma=8000-Einwohner-Stadt 
- 000-Gefä� ( ) lemma=5000-Gefäß 
- 000-Gefäßöffnun ( ) lemma=5000-Gefäßöffnung 
- 000-Grenzwert-Konzentratione ( ) lemma=5000-Grenzwert-Konzentration 
- 000-Kubikmeter-Hochbehälte ( ) lemma=5000-Kubikmeter-Hochbehälter 
- 000-Mark-Prei ( ) lemma=5000-Mark-Preis 
- 000-Meter-Olympiasiege ( ) lemma=5000-Meter-Olympiasieger 
- 000-Personen-Kontingen ( ) lemma=5000-Personen-Kontingent 
- 000-Syste ( ) lemma=5000-System 
- 000-Testsyste ( ) lemma=5000-Testsystem 
- 000-m-Olympiasiege ( ) lemma=5000-m-Olympiasieger 
- 000-m-Renne ( ) lemma=5000-m-Rennen 
- 000/1000 ( ) lemma=5000/10000 
- 000fac ( ) lemma=5000fach 
- 00er-Kontingen ( ) lemma=500er-Kontingent 
- 01-Jean ( ) lemma=501-Jeans 
- 01-Programme ( ) lemma=501-Programm 
- 019/9 ( ) lemma=5019/91 
- 07/1 ( ) lemma=507/11 
- 0:50-Beteiligun ( ) lemma=50:50-Beteiligung 
- 0:50-Tochte ( ) lemma=50:50-Tochter 
- 0er-Jahr ( ) lemma=80er-Jahr 
- 0er-Jahre ( ) lemma=80er-Jahr 
- 0er-Jahre-Ba ( ) lemma=50er-Jahre-Bau 
- 0er-Jahre-Baute ( ) lemma=50er-Jahre-Bau 
- 0er-Jahre-Desig ( ) lemma=50er-Jahre-Design 
- 0er-Jahre-Design ( ) lemma=50er-Jahre-Design 
- 0er-Jahre-Flai ( ) lemma=50er-Jahre-Flair 
- 0er-Jahre-Nostalgi ( ) lemma=50er-Jahre-Nostalgie 
- 0er-Jahre-Schnulze ( ) lemma=50er-Jahre-Schnulze 
- 0er-Jahre-Sti ( ) lemma=50er-Jahre-Stil 
- 0sitzige ( ) lemma=50sitzig 
- 0-Grad-Rege ( ) lemma=60-Grad-Regel 
- 0-Jahr-Jubiläum ( ) lemma=60-Jahr-Jubiläum 
- 0-Kilo-Man ( ) lemma=60-Kilo-Mann 
- 0-Liter-Variant ( ) lemma=60-Liter-Variante 
- 0-Meter-Hürde ( ) lemma=60-Meter-Hürde 
- 0-Pfennig-Mark ( ) lemma=60-Pfennig-Marke 
- 0-Pfennig-Sport-Briefmark ( ) lemma=60-Pfennig-Sport-Briefmarke 
- 0-Quadratmeter-Bühn ( ) lemma=60-Quadratmeter-Bühne 
- 0-Quadratmeter-Dienstwohnun ( ) lemma=60-Quadratmeter-Dienstwohnung 
- 0-m-Bestmark ( ) lemma=60-m-Bestmarke 
- 0-m-Hürde ( ) lemma=60-m-Hürde 
- 0-m-Sie ( ) lemma=60-m-Sieg 
- 0.000/120.00 ( ) lemma=60.000/120.000 
- 00-Millionen-Investitio ( ) lemma=600-Millionen-Investition 
- 00-SEC-Coup� ( ) lemma=600-SEC-Coupé 
- 00-SL-Sportwage ( ) lemma=600-SL-Sportwagen 
- 00-Seelen-Or ( ) lemma=600-Seelen-Ort 
- 00.000fac ( ) lemma=600.000fach 
- 000-Einwohner-Kommun ( ) lemma=6000-Einwohner-Kommune 
- 000/1 ( ) lemma=6000/12 
- 000/1200 ( ) lemma=6000/12000 
- 04/9 ( ) lemma=604/90 
- 0er-Jahre-Planungssünd ( ) lemma=60er-Jahre-Planungssünde 
- 0-Betten-Klini ( ) lemma=70-Betten-Klinik 
- 0-Hektar-Ho ( ) lemma=70-Hektar-Hof 
- 0-Jahre-Theori ( ) lemma=70-Jahre-Theorie 
- 0-Liter-Müllsac ( ) lemma=70-Liter-Müllsack 
- 0-Megawatt ( ) lemma=70-Megawatt- 
- 0-Millionen-DM-Auftrage ( ) lemma=70-Millionen-DM-Auftrag 
- 0-Stunden-Woche ( ) lemma=70-Stunden-Woche 
- 0/7 ( ) lemma=70/71 
- 00-Millionen-Dollar-Sofortprogram ( ) lemma=700-Millionen-Dollar-Sofortprogramm 
- 00-Seiten-Schwart ( ) lemma=700-Seiten-Schwarte 
- 00.000-Mark-Kredit ( ) lemma=700.000-Mark-Kredit 
- 02/70 ( ) lemma=702/703 
- 04ma ( ) lemma=704mal 
- 0er-Jahre-Ban ( ) lemma=70er-Jahre-Band 
- 0er-Reife ( ) lemma=70er-Reifen 
- 0er-Rund ( ) lemma=70er-Runde 
- 0-Anlag ( ) lemma=80-Anlage 
- 0-Liter-Gefäss ( ) lemma=80-Liter-Gefäß 
- 0-Liter-Gefäß ( ) lemma=80-Liter-Gefäß 
- 0-Millionen-Staa ( ) lemma=80-Millionen-Staat 
- 0-Millionen-Vol ( ) lemma=80-Millionen-Volk 
- 0-PS-Moto ( ) lemma=90-PS-Motor 
- 0-Pfennig ( ) lemma=80-Pfennig- 
- 0-Prozent-Klause ( ) lemma=80-Prozent-Klausel 
- 0-Prozent-Nor ( ) lemma=80-Prozent-Norm 
- 0-Seelen-Gemeind ( ) lemma=80-Seelen-Gemeinde 
- 0-Traine ( ) lemma=80-Trainer 
- 0-Zentimeter-Becke ( ) lemma=80-Zentimeter-Becken 
- 0-kg-Man ( ) lemma=80-kg-Mann 
- 0/10 ( ) lemma=80/100 
- 00-Mark-Program ( ) lemma=800-Mark-Programm 
- 00-Schilling-Überweisun ( ) lemma=800-Schilling-Überweisung 
- 00-Seiten-Buc ( ) lemma=800-Seiten-Buch 
- 00-Seiten-Wer ( ) lemma=800-Seiten-Werk 
- 00-m-Glanzzei ( ) lemma=800-m-Glanzzeit 
- 00-m-Jahres-Weltbestzei ( ) lemma=800-m-Jahres-Weltbestzeit 
- 00-m-Läuferi ( ) lemma=800-m-Läuferin 
- 000-Einwohner-Städtche ( ) lemma=9000-Einwohner-Städtchen 
- 000-Mitbürger-Mark ( ) lemma=8000-Mitbürger-Marke 
- 000er-Grenz ( ) lemma=8000er-Grenze 
- 0-Abgeordnet ( ) lemma=90-Abgeordnete 
- 0-Abgeordnete ( ) lemma=90-Abgeordnete 
- 0-Bundestagsabgeordnet ( ) lemma=90-Bundestagsabgeordnete 
- 0-Fraktio ( ) lemma=90-Fraktion 
- 0-Grad-Winke ( ) lemma=90-Grad-Winkel 
- 0-Kilometer-Transfe ( ) lemma=90-Kilometer-Transfer 
- 0-Landtagsfraktio ( ) lemma=90-Landtagsfraktion 
- 0-Liter-Kunststoffsäck ( ) lemma=90-Liter-Kunststoffsack 
- 0-Liter-Säcke ( ) lemma=90-Liter-Sack 
- 0-Minute ( ) lemma=90-Minute 
- 0-Minuten-Film ( ) lemma=90-Minuten-Film 
- 0-Minuten-Sho ( ) lemma=90-Minuten-Show 
- 0-Produktio ( ) lemma=90-Produktion 
- 0-Projek ( ) lemma=90-Projekt 
- 0-Prozent-Finanzierun ( ) lemma=90-Prozent-Finanzierung 
- 0-Seit ( ) lemma=90-Seite 
- 0-Sekunden-Rege ( ) lemma=90-Sekunden-Regel 
- 0-Sekunden-Regelun ( ) lemma=90-Sekunden-Regelung 
- 0-m-Schanz ( ) lemma=90-m-Schanze 
- 0-na ( ) lemma=90-nah 
- 0/31 ( ) lemma=90/313 
- 00-Jah ( ) lemma=900-Jahr 
- 00-Megawatt-Reaktore ( ) lemma=900-Megawatt-Reaktor 
- 01e ( ) lemma=901er 
- 0minütige ( ) lemma=90minütig 
- 0prozenti ( ) lemma=90prozentig 
- 02-Senso ( ) lemma=N02-Sensor 

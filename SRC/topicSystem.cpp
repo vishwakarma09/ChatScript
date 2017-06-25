@@ -696,8 +696,10 @@ char* GetPattern(char* ptr,char* label,char* pattern,int limit)
 	// acquire the pattern data of this rule
 	if (*patternStart == '(') ptr = BalanceParen(patternStart+1,true,false); // go past pattern to new token
 	int patternlen = ptr - patternStart;
+	char* to = pattern;
 	if (pattern)
 	{
+		*pattern = 0;
 		if (patternlen > limit) patternlen = limit-1;
 		strncpy(pattern,patternStart,patternlen);
 		pattern[patternlen] = 0;
@@ -705,6 +707,7 @@ char* GetPattern(char* ptr,char* label,char* pattern,int limit)
 
 		char word[MAX_WORD_SIZE];
 		strcpy(word,pattern);
+		size_t len = strlen(word) - 1;
 		char* from = word-1;
 		char* to = pattern;
 		bool blank = true;
@@ -712,7 +715,10 @@ char* GetPattern(char* ptr,char* label,char* pattern,int limit)
 		{
 			if (*from == '=' && blank) // this is a relational test
 			{
+				if (!from[1]) break;	// end of data before accelerator
 				char* compare = from + Decode(from+1,1); // use accelerator to point to op in the middle
+				if (compare > (word + len)) 
+					break; // passes limited area
 				char c = *compare;
 				if (c == '=' || c == '<' || c == '>' || c == '!' || c == '?' || c == '&')
 				{
@@ -739,6 +745,7 @@ char* GetPattern(char* ptr,char* label,char* pattern,int limit)
 		}
 		*to = 0;
 	}
+	if (to) *to = 0;
 	return ptr; // start of output ptr
 }
 
@@ -1133,7 +1140,7 @@ FunctionResult ProcessRuleOutput(char* rule, unsigned int id,char* buffer,bool r
 	clock_t start_time = ElapsedMilliseconds();
 
 	char label[MAX_LABEL_SIZE];
-	char pattern[110];
+	char pattern[MAX_WORD_SIZE];
 	char* ptr = GetPattern(rule,label,pattern,100);  // go to output
 
 	// coverage counter

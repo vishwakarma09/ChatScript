@@ -1,206 +1,103 @@
-﻿ Y ( ) lemma=ZYP 
- YY ( ) 
- Yamagué ( ) 
- Yeltsin ( ) 
- Yemen ( ) 
- Yens ( ) 
- Yique ( ) 
- Yiña ( ) 
- Ymodem ( ) 
- Yolanda ( ) 
- Yompe ( ) 
- Yonatán ( ) 
- York ( ) 
- Yosemite ( ) 
- Young ( ) 
- Yucatán ( ) 
- Yugoslavia ( ) 
- Yugov ( ) 
- Yuri ( ) 
- Yuvia ( ) 
- Yvancho ( ) 
- y ( ) lemma=oír 
- y-carboxilación ( ) 
- y-o ( ) 
- ya ( ) lemma=ayay 
- yace ( ) 
- yacen ( ) 
- yacimiento ( ) 
- yacimientos ( ) 
- yacía ( ) 
- yacían ( ) 
- yanqui ( ) 
- yanquilandia ( ) 
- yanquis ( ) 
- yapa ( ) 
- yarda ( ) 
- yardas ( ) 
- yate ( ) 
- yates ( ) 
- yatrogénico ( ) 
- yatrógenos ( ) 
- yay ( ) 
- yayay ( ) 
- yeah ( ) 
- yema ( ) 
- yemas ( ) 
- yemenita ( ) 
- yemenitas ( ) 
- yemení ( ) 
- yemeníes ( ) 
- yen ( ) 
- yendo ( ) 
- yenes ( ) 
- yerba ( ) 
- yerbas ( ) 
- yerma ( ) 
- yermas ( ) 
- yermo ( ) 
- yermos ( ) 
- yerno ( ) 
- yernos ( ) 
- yerro ( ) 
- yeso ( ) 
- yesos ( ) 
- yeyunal ( ) 
- yeyuno ( ) 
- yiak ( ) 
- yo ( ) lemma=Lyon 
- yodado ( ) 
- yodados ( ) 
- yodo ( ) 
- yodurada ( ) 
- yogur ( ) 
- yogures ( ) 
- yola ( ) 
- yorkvml ( ) 
+﻿ Y ( ) 
+ YY ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Yamagué ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Yeltsin ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Yemen ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Yens ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Yique ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Yiña ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Ymodem ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Yolanda ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Yompe ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Yonatán ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ York ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Yosemite ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Young ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Yucatán ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Yugoslavia ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Yugov ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Yuri ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Yuvia ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Yvancho ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ y ( CONJUNCTION_COORDINATE ) 
+ y-carboxilación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ y-o ( CONJUNCTION_COORDINATE ) 
+ ya ( ADVERB CONJUNCTION_SUBORDINATE ) 
+ yace ( VERB ) lemma=yacer 
+ yacen ( VERB ) lemma=yacer 
+ yacimiento ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ yacimientos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=yacimiento 
+ yacía ( VERB ) lemma=yacer 
+ yacían ( VERB ) lemma=yacer 
+ yanqui ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ yanquilandia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ yanquis ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=yanqui 
+ yapa ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ yarda ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ yardas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=yarda 
+ yate ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ yates ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=yate 
+ yatrogénico ( ADJECTIVE ) 
+ yatrógenos ( ADJECTIVE ) lemma=yatrógeno 
+ yay ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ yayay ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ yeah ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ yema ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ yemas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=yema 
+ yemenita ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ yemenitas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=yemenita 
+ yemení ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ yemeníes ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=yemení 
+ yen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ yendo ( VERB_PAST_PARTICIPLE VERB ) lemma=ir 
+ yenes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=yen 
+ yerba ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ yerbas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=yerba 
+ yerma ( VERB ) lemma=yermar 
+ yermas ( VERB ) lemma=yermar 
+ yermo ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ yermos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=yermo 
+ yerno ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ yernos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=yerno 
+ yerro ( VERB ) lemma=errar 
+ yeso ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ yesos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=yeso 
+ yeyunal ( ADJECTIVE ) 
+ yeyuno ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ yiak ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ yo ( PRONOUN_SUBJECT PRONOUN_OBJECT ) 
+ yodado ( VERB_PAST_PARTICIPLE VERB ) lemma=yodar 
+ yodados ( VERB_PAST_PARTICIPLE VERB ) lemma=yodar 
+ yodo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ yodurada ( VERB_PAST_PARTICIPLE VERB ) lemma=yodurar 
+ yogur ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ yogures ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=yogur 
+ yola ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ yorkvml ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  you ( ) 
- young ( ) 
- yubarta ( ) 
- yucateca ( ) 
- yucateco ( ) 
- yucatecos ( ) 
- yugo ( ) 
- yugoslava ( ) 
- yugoslavas ( ) 
- yugoslavo ( ) 
- yugoslavos ( ) 
- yugular ( ) 
- yugulares ( ) 
- yunque ( ) 
- yunyún ( ) 
- yuxtacapilare ( ) 
- yuxtaglomerular ( ) 
- yuyo ( ) 
- yéndome ( ) 
- yéndonos ( ) 
- yéndose ( ) 
- yéndote ( ) 
- yacuch ( ) lemma=Ayacucho 
- yal ( ) lemma=Ayala 
- yllap ( ) lemma=Ayllapu 
- yuntamient ( ) lemma=ayuntamiento 
- yberjac ( ) lemma=Cyberjack 
- ynthi ( ) lemma=Cynthia 
- yri ( ) lemma=Cyrix 
- yot ( ) lemma=Kyoto 
- Y0 ( ) lemma=LY02 
- Y1 ( ) lemma=LY18 
- yn ( ) lemma=Lynx 
- yphome ( ) lemma=Lyphomed 
- ys-15 ( ) lemma=Lys-156 
- ycoplasm ( ) lemma=Mycoplasma 
- ycoplasmatacea ( ) lemma=Mycoplasmataceae 
- yria ( ) lemma=Myriam 
- yongyan ( ) lemma=Pyongyang 
- ybas ( ) lemma=Sybase 
- ylvi ( ) lemma=Sylvia 
- ymante ( ) lemma=Symantec 
- yrr ( ) lemma=Syrrx 
- ysta ( ) lemma=Systat 
- yaya ( ) lemma=ayayay 
- ye ( ) lemma=oír 
- yud ( ) lemma=ayudar 
- yudab ( ) lemma=ayudar 
- yudaba ( ) lemma=ayudar 
- yudad ( ) lemma=ayudar 
- yudada ( ) lemma=ayudar 
- yudado ( ) lemma=ayudar 
- yudamo ( ) lemma=ayudar 
- yuda ( ) lemma=ayudar 
- yudand ( ) lemma=ayudar 
- yudant ( ) lemma=ayudante 
- yudante ( ) lemma=ayudante 
- yudar ( ) lemma=ayudar 
- yudara ( ) lemma=ayudar 
- yudaremo ( ) lemma=ayudar 
- yudarl ( ) lemma=ayudar 
- yudarla ( ) lemma=ayudar 
- yudarle ( ) lemma=ayudar 
- yudarm ( ) lemma=ayudar 
- yudarno ( ) lemma=ayudar 
- yudaro ( ) lemma=ayudar 
- yudars ( ) lemma=ayudarse 
- yudart ( ) lemma=ayudar 
- yudar� ( ) lemma=ayudar 
- yudará ( ) lemma=ayudar 
- yudarí ( ) lemma=ayudar 
- yudaría ( ) lemma=ayudar 
- yudas ( ) lemma=ayudar 
- yudase ( ) lemma=ayudar 
- yudemo ( ) lemma=ayudar 
- yude ( ) lemma=ayudar 
- yudit ( ) lemma=ayuda 
- yudándol ( ) lemma=ayudar 
- yudándola ( ) lemma=ayudar 
- yudándole ( ) lemma=ayudar 
- yudándom ( ) lemma=ayudar 
- yudándono ( ) lemma=ayudar 
- yudándos ( ) lemma=ayudar 
- yudá ( ) lemma=ayudar 
- yud� ( ) lemma=ayudar 
- yun ( ) lemma=ayunar 
- yuno ( ) lemma=ayuno 
- yuntamiento ( ) lemma=ayuntamiento 
- yúdat ( ) lemma=ayudar 
- yúdenm ( ) lemma=ayudar 
- yt ( ) lemma=byte 
- ytecod ( ) lemma=bytecode 
- yte ( ) lemma=byte 
- ycl ( ) lemma=cycle 
- ycli ( ) lemma=cyclic 
- ycliqu ( ) lemma=cyclique 
- ynamicize ( ) lemma=dynamicizer 
- yecció ( ) lemma=eyección 
- yttj ( ) lemma=gyttja 
- ypothetica ( ) lemma=hypothetical 
- ylo ( ) lemma=nylon 
- yend ( ) lemma=oír 
- yent ( ) lemma=oyente 
- yente ( ) lemma=oyente 
- yer ( ) lemma=oír 
- yera ( ) lemma=oír 
- yero ( ) lemma=oír 
- yes ( ) lemma=oír 
- yéndos ( ) lemma=oír 
- y� ( ) lemma=oír 
- ythm ( ) lemma=rythme 
- ymmetrica ( ) lemma=symmetrical 
- ymétriqu ( ) lemma=symétrique 
- ynchron ( ) lemma=synchrone 
- ynchronisatio ( ) lemma=synchronisation 
- ynchronis ( ) lemma=synchronism 
- ynchronism ( ) lemma=synchronisme 
- ynchronis� ( ) lemma=synchronisé 
- ynchronizatio ( ) lemma=synchronization 
- ynchronize ( ) lemma=synchronized 
- ynchronou ( ) lemma=synchronous 
- yso ( ) lemma=sysop 
- yste ( ) lemma=system 
- ystem ( ) lemma=systeme 
- yp ( ) lemma=type 
- ype ( ) lemma=typed 
- yuyu ( ) lemma=uyuyuy 
+ young ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ yubarta ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ yucateca ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=yucateco 
+ yucateco ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ yucatecos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=yucateco 
+ yugo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ yugoslava ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=yugoslavo 
+ yugoslavas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=yugoslavo 
+ yugoslavo ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ yugoslavos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=yugoslavo 
+ yugular ( ADJECTIVE ) 
+ yugulares ( ADJECTIVE ) lemma=yugular 
+ yunque ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ yunyún ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ yuxtacapilare ( ADJECTIVE ) 
+ yuxtaglomerular ( ADJECTIVE ) 
+ yuyo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ yéndome ( VERB_PAST_PARTICIPLE VERB ) lemma=ir 
+ yéndonos ( VERB_PAST_PARTICIPLE VERB ) lemma=ir 
+ yéndose ( VERB_PAST_PARTICIPLE VERB ) lemma=ir 
+ yéndote ( VERB_PAST_PARTICIPLE VERB ) lemma=ir 
+ ya_que ( CONJUNCTION_SUBORDINATE ) lemma=ya~que 
+ ya~que ( ) 
  yacer ( ) 
  yatrógeno ( ) 
  yermar ( ) 

@@ -6629,6 +6629,8 @@
     ounce~1n 
  one-fourth ( meanings=1 NOUN NOUN_SINGULAR ) 
     fourth~2n 
+ one-fifth ( meanings=1 NOUN NOUN_SINGULAR ) 
+    fifth_part~1n 
  one-sixth ( meanings=1 NOUN NOUN_SINGULAR ) 
     sixth~2n 
  one-seventh ( meanings=1 NOUN NOUN_SINGULAR ) 
@@ -6643,6 +6645,8 @@
     duodecimal~1n 
  one-sixteenth ( meanings=1 NOUN NOUN_SINGULAR ) 
     sixteenth~1n 
+ one-thirty-second ( meanings=1 NOUN NOUN_SINGULAR ) 
+    thirty-second_part~1n 
  one-sixtieth ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     sixtieth~1nz (^common_fraction~1) one part in sixty equal parts
  one-sixty-fourth ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 

@@ -4439,12 +4439,14 @@
     Karttika~1n 
  Karttika ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
     Kartik~1nz (^Hindu_calendar_month~1) the eighth month of the Hindu calendar
- kilohertz ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 NOUN_NODETERMINER posdefault:NOUN ) 
-    kc~1nz (^rate~4) one thousand periods per second
- kHz ( meanings=1 NOUN NOUN_PROPER_SINGULAR COMMON4 COMMON1 NOUN_NODETERMINER ) 
-    kilohertz~1n 
- kilocycle ( meanings=1 NOUN NOUN_SINGULAR COMMON1 NOUN_NODETERMINER ) 
+ kilohertz ( meanings=1 NOUN NOUN_SINGULAR COMMON2 NOUN_NODETERMINER posdefault:NOUN ) 
     kHz~1n 
+ kHz ( meanings=1 NOUN NOUN_PROPER_SINGULAR COMMON4 COMMON1 NOUN_NODETERMINER ) 
+    kilocycle_per_second~1n 
+ kilocycle_per_second ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 
+    kc~1nz (^rate~4) one thousand periods per second
+ kilocycle ( meanings=1 NOUN NOUN_SINGULAR COMMON1 NOUN_NODETERMINER ) 
+    kilohertz~1n 
  kc ( meanings=1 NOUN NOUN_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER posdefault:NOUN ) 
     kilocycle~1n 
  kilometers_per_hour ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 

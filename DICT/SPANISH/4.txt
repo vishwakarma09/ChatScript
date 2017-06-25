@@ -1,4 +1,4 @@
-﻿ 4 ( ) lemma=I.4.3 
+﻿ 4 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  4$$1o ( ) 
  4$$ve ( ) 
  4.o ( ) 
@@ -25,11 +25,3 @@
  4T1.3 ( ) 
  4X ( ) 
  4a ( ) 
- 4.Z ( ) lemma=34.ZZ 
- 4/G ( ) lemma=G4/G3 
- 4. ( ) lemma=T4.6 
- 4.1 ( ) lemma=T4.12 
- 4.3 ( ) lemma=T4.30 
- 4.5 ( ) lemma=T4.51 
- 4.6 ( ) lemma=T4.64 
- 4.9 ( ) lemma=T4.90 

@@ -1,0 +1,119 @@
+﻿^callback o 0 0 A( ) $$callback = implicitOk `
+^popcurrenttopic o 0 0 B( ^topic ) ^if 00s( $$currenttopic == ^0 ) 00x{ $$currenttopic = null } 004 ^if 00r( $currentstory == ^0 ) 00w{ $currentstory = null } 004 ^poptopic ( ^0 ) `
+^emptytext o 0 0 A( ) $$emptytext = 1 `
+^convertgesture o 0 0 A( ) ^if 00O( ^query ( direct_sv $$gesture gesture ? 1 ) ) 01f{ ^if 00p( $$gesture == sing ) 00t{ $sangmainsong = 1 } 004 $$gesture = @0object } 004 `
+^forceapioutput o 0 0 A( ) ^convertgesture ( ) \[ $$mood $$gesture \] $$nomood = 1 $$emptytext = 1 `
+^notgestureinput p 0 0 A( ) !$$inputgesture `
+^gestureinput p 0 0 A( ) $$inputgesture `
+^opennotes o 0 0 A( ) $$gesture = showVideoFallingInLove `
+^singygm o 0 0 A( ) $$gesture = showVideoYouGetMe `
+^servecookie o 0 0 A( ) $$gesture = angelaFortuneCookieH `
+^beep o 0 0 B( ^x ) $$beep = ^join ( beep= ^0 ) `
+^buygold o 0 0 A( ) $$gesture = openPurchaseScreen `
+^purchasegift o 0 0 B( ^gift ) $$gesture = ^join ( purchase= ^0 ) `
+^flashlight o 0 0 B( ^state ) $$gesture = ^join ( flashlight_ ^0 ) `
+^devicevibrate o 0 0 A( ) $$gesture = device_vibrate `
+^notestarttopic o 0 0 B( ^topic ) ^nofail ( RULE $$alreadyopen = ^lastused ( ^0 gambit ) ) `
+^invoketopic o 0 0 B( ^what ) ^if 00k( ^0 == %topic ) 00r{ ^fail ( TOPIC ) } 004 ^nofail ( TOPIC $$x = ^substitute ( character $$tmp ~ "" ) ) $$x = ^join ( $ no $$x ) ^$$x = nil $$xc = %response ^cleartopics ( ) ^if 00Q( ^substitute ( character ^0 "story" "" FAIL ) ) 00x{ callstory ( $topic1 ) } 00S else ( 1 ) 00C { calltopicfromwithin ( ^0 ) } 004 $trydecline = null ^if 00p( %response != $$xc ) 00L{ $$invokedtopic = 1 $$foundtopic = 1 } 004 `
+^becomeangry o 0 0 A( ) ^reset ( TOPIC ~i_am_angry ) $startanger = %input ^nofail ( TOPIC ^gambit ( ~i_am_angry ) ) `
+^reactangry o 0 0 A( ) ^if 00l( ! $startanger ) 014{ ^reset ( TOPIC ~i_am_angry ) $$beangry = 1 ^respond ( ~i_am_angry ) } 004 `
+^continueintopic o 0 0 B( ^where ) $$topicrequested = 1 ^reuse ( ^0 ) `
+^gathertopics o 0 0 B( ^where ) @15 = ^query ( direct_v ? '~topic ? ) ^0 = NULL ^loop ( -1 ) 02S { $$tmp = ^first ( @15fact ) $$topic = ^field ( $$tmp object ) ^if 00x( $$topic == $$currenttopic ) 00A{ ^0 = null ^fail ( RULE ) } 004 ^if 00z( ^hasgambit ( $$topic LAST ) ) 00n{ ^0 += $$tmp } 004 } `
+^facebook o 0 0 B( ^msg ) $$facebook = ^0 `
+^not_male o 0 0 A( ) $gender != male AND $genderguess != male `
+^not_female o 0 0 A( ) $gender != female AND $genderguess != female `
+^clearemotion o 0 0 A( ) $angry = %input - 10 $happy = %input - 10 $startanger = null ^nofail ( TOPIC ^popcurrenttopic ( ~i_am_angry ) ) `
+^happy o 0 0 B( ^msg ) ^if 00j( ! $$setmood ) 02b{ $$setmood = 1 $$x = %rand % 3 $happy = %input + $$x + 1 $angry -= 5 $whyhappy = ^0 ^if 00j( $startanger ) 00t{ ^clearemotion ( ) } 004 $$mood = happy } 004 `
+^angry o 0 0 B( ^msg ) ^if 00j( ! $$setmood ) 01y{ $$setmood = 1 $$x = %rand % 3 $angry = %input + $$x + 1 $happy -= 5 $whyangry = ^0 $$mood = angry } 004 `
+^gesture o 0 0 B( ^gesture ) ^if 00q( $$gesture == angry ) 00b{ } 00G else ( 1 ) 00q { $$gesture = ^0 } 004 `
+^calltopic o 0 0 B( ^topic ) $$cnt = %response ^notestarttopic ( ^0 ) ^gambit ( ^0 ) ^if 00q( $$cnt != %response ) 00N{ $$topicrequested = 1 $$gambitted = ^0 } 004 `
+^stdend o 0 0 A( ) $$endoftopic = 1 ^if 00i( ! $contest ) 00T{ ^nofail ( TOPIC ^respond ( ~xad_control ) ) } 004 `
+^stdstoryend o 0 0 A( ) $$endoftopic = 1 `
+^commaname o 0 0 A( ) ^if 00i( $firstname ) 00o{ , $firstname } 004 `
+^namecomma o 0 0 A( ) ^if 00i( $firstname ) 00o{ $firstname , } 004 `
+^overlapcalltopic o 0 0 B( ^topic ) $$tmp = ^join ( ^0 . OVERLAP ) $$cnt = %response ^nofail ( RULE ^disable ( RULE $$tmp ) ) ^notestarttopic ( ^0 ) ^gambit ( ^0 ) ^if 00q( $$cnt != %response ) 00N{ $$topicrequested = 1 $$gambitted = ^0 } 004 `
+^calltopicfromwithin o 0 0 B( ^topic ) $$cnt = %response ^addtopic ( ^0 ) ^notestarttopic ( ^0 ) ^gambit ( ^0 ) ^if 00q( $$cnt != %response ) 00N{ $$topicrequested = 1 $$gambitted = ^0 } 004 `
+^facebookname t 0 0 C( ^topic ^name ) ^createfact ( ^0 bettername ^1 ) `
+^secondkeys t 0 0 C( ^topic ^key ) $$tmp = ^join ( ^0 . 1 ) ^createfact ( ^1 member $$tmp ) `
+^prioritytopic t 0 0 B( ^topic ) ^createfact ( ^0 priorityTopic ^0 ) `
+^determiner t 0 0 C( ^topic ^key ) ^createfact ( ^0 determiner ^1 ) `
+^adtopic t 0 0 B( ^topic ) ^createfact ( ^0 adtopic ^0 ) `
+^story t 0 0 C( ^topic ^junk ) ^createfact ( ^0 story ^0 ) `
+^return_if_from o 0 0 B( ^topic ) ^pendingtopics ( @0 ) ^if 00N( ^query ( direct_sv ^0 pending ? 1 @0 @1 ) ) 00X{ ^poptopic ( %topic ) AddInterestingTopic ( ^0 ) } 004 `
+^fresh p 0 0 B( ^topic ) !^lastused ( ^0 gambit ) `
+^stdblock p 0 0 B( ^notopic ) =4^0>%input `
+^ageblock p 0 0 A( ) =6$age<16 `
+^ageok p 0 0 A( ) =6$age>15 `
+^stdexit o 0 0 A( ) ^keep ( ) ^poptopic ( ) `
+^ageexit o 0 0 A( ) ^keep ( ) ^if 00h( $age != 0 ) 00K{ $currentstory = null ^poptopic ( ) } 004 $agetopic = %topic ^respond ( ~xagetopic ) `
+^stddrop o 0 0 B( ^msg ) ^keep ( ) $currentstory = null $$currenttopic = null ^preprint ( OUTPUT_NOQUOTES ^0 ) ^reuse ( ~xchange_topic.droptopic ) `
+^stdstoryblock p 0 0 A( ) !~ `
+^stdstoryexit o 0 0 A( ) ^keep ( ) ^poptopic ( ) `
+^fulltopicreset o 0 0 B( ^topic ) ^if 00r( ^Reset ( TOPIC ^0 ) ) 01S{ $$tmp = ^join ( ^0 . RESETTOPIC ) ^nofail ( TOPIC ^reuse ( $$tmp ) ) $$tmp = ^join ( $ no ^0 ) ^$$tmp = nil $$did = 1 } 004 `
+^forceaccess o 0 0 B( ^what ) ^reset ( TOPIC ^0 ) ^addtopic ( ^0 ) ^gambit ( ^0 ) `
+^storyrespond o 0 0 A( ) ^keep ( ) ^if 00i( ! $contest ) 00D{ ^respond ( ~xstorycontrol ) } 004 `
+^callstory o 0 0 B( ^what ) ^if 00i( ! $contest ) 03C{ $$topicrequested = ^0 $$cnt = %response $currentstory = ^0 ^reset ( TOPIC $$topicrequested ) ^gambit ( $$topicrequested ) ^if 00q( $$cnt != %response ) 00w{ $$topicrequested = 1 } 00- else ( 1 ) 00U { $$topicrequested = null $currentstory = null } 004 } 004 `
+^callstoryonce o 0 0 B( ^what ) ^if 00i( ! $contest ) 02z{ $$cnt = %response $$topicrequested = ^0 $currentstory = ^0 ^gambit ( $$topicrequested ) ^if 00q( $$cnt == %response ) 00U{ $$topicrequested = null $currentstory = null } 004 } 004 `
+^teststory p 0 0 B( ^which ) $$topicrequested [ =i$$topicrequested=^0 ^0 ] `
+^accessstory p 0 0 B( ^which ) ![ before already ] [ ( << [ again more continue resume else talk_about tell_me happen back return story incident tale ] ^0 >> ^eval ( $currentstory = ^0 ) ) ( ~ [ next happen occur then proceed story tell go_on keep continue more ~yesanswer ( < what > ) ] ) ] `
+^stdstorynext o 0 0 A( ) ^keep ( ) ^if 00E( ^match ( "^([before already])" ) ) 00U{ ^stddrop ( "OK. I won't repeat it to you." ) } 04W else 00J( ^match ( "^( you [said told] that)" ) ) 00U{ ^stddrop ( "OK. I won't repeat it to you." ) } 03r else ( 1 ) 03b { $$cnt = %response $$currenttopic = $currentstory ^gambit ( $currentstory ) ^if 00q( %response == $$cnt ) 011{ $$tmpx = $currentstory $currentstory = null ^poptopic ( $$tmpx ) } 00M else ( 1 ) 00w { $$topicrequested = 1 } 004 } 004 `
+^dostory o 0 0 A( ) ^keep ( ) $$topicrequested = null ^gambit ( ~ ) `
+^compute_day o 0 0 C( ^day ^amount ) $$amount = ^1 ^query ( direct_vo ? dayvalue ^0 1 ) _8 = ^compute ( @0subject add ^1 ) ^loop ( -1 ) 028 { ^if 00e( _8 > 7 ) 00C{ _8 = ^compute ( _8 sub 7 ) } 01n else 00e( _8 > 0 ) 00p{ ^end ( RULE ) } 00S else ( 1 ) 00C { _8 = ^compute ( _8 add 7 ) } 004 } ^query ( direct_sv _8 dayvalue ? 1 ) $$day = @0object `
+^compute_month o 0 0 C( ^month ^amount ) $$amount = ^1 ^query ( direct_vo ? value ^0 1 ) _8 = ^compute ( @0subject add ^1 ) ^loop ( -1 ) 02b { ^if 00f( _8 > 12 ) 00D{ _8 = ^compute ( _8 sub 12 ) } 01o else 00e( _8 > 0 ) 00p{ ^end ( RULE ) } 00T else ( 1 ) 00D { _8 = ^compute ( _8 add 12 ) } 004 } ^query ( direct_sv _8 value ? 1 ) $$month = @0object `
+^favoritetable o 0 0 E( ^topic ^modifier ^main ^what ) $$lastfact = ^createfact ( ( ^1 ^0 ^3 ) favorite ^2 ) ^addproperty ( ^1 PATTERN_WORD ) ^addproperty ( ^2 PATTERN_WORD ) `
+^hatetable o 0 0 E( ^topic ^modifier ^main ^what ) $$lastfact = ^createfact ( ( ^1 ^0 ^3 ) hate ^2 ) ^addproperty ( ^1 PATTERN_WORD ) ^addproperty ( ^2 PATTERN_WORD ) `
+^howoftentable o 0 0 E( ^topic ^verb ^object ^what ) $$lastfact = ^createfact ( ( ^2 ^0 ^3 ) howoften ^1 ) ^addproperty ( ^1 PATTERN_WORD ) ^addproperty ( ^2 PATTERN_WORD ) `
+^doyoutable o 0 0 E( ^topic ^verb ^object ^what ) $$lastfact = ^createfact ( ( ^2 ^0 ^3 ) doyou ^1 ) ^addproperty ( ^1 PATTERN_WORD ) ^addproperty ( ^2 PATTERN_WORD ) `
+^url_for p 0 0 B( ^thing ) << [ where what give show provide tell have ] [ website URL site page webpage link weblink homepage ] ^0 >> `
+^abstract_facts o 0 0 B( ^topic ) ^log ( \n *** HOW OFTEN TABLE \n ) ^nofail ( RULE ^query ( direct_vo ? ^0 abstract-howoften -1 ) ) ^loop ( -1 ) 03e { _4 = ^last ( @0a ) ^if 00g( _5 == ^0 ) 02G{ @1 = _4 _6 = ^last ( @1a ) @1 = _6 _4 = ^last ( @1a ) _4 = ^substitute ( character _4 . " " ) _6 = ^substitute ( character _6 _ " " ) ^log ( \" How often do you _4 _8 \" => _6 \n ) } 004 } ^log ( \n *** CAN-YOU and DO-YOU TABLES \n ) ^nofail ( RULE ^query ( direct_vo ? ^0 abstract-cando -1 ) ) ^loop ( -1 ) 034 { _4 = ^last ( @0a ) ^if 00g( _5 == ^0 ) 02w{ @1 = _4 _6 = ^last ( @1a ) @1 = _6 _4 = ^last ( @1a ) _4 = ^substitute ( character _4 . " " ) _6 = ^substitute ( character _6 _ " " ) ^log ( \" Do you _8 _4 \" => _6 \n ) } 004 } ^log ( \n *** FAVORITES and HATES TABLES \n ) ^query ( direct_vo ? ^0 abstract-fave -1 ) ^loop ( -1 ) 03j { _4 = ^last ( @0a ) ^if 00g( _5 == ^0 ) 02L{ @1 = _4 _6 = ^last ( @1a ) @1 = _6 _4 = ^last ( @1a ) _4 = ^substitute ( character _4 . " " ) _6 = ^substitute ( character _6 _ " " ) ^log ( \" What is your favorite _4 _8 \" => _6 \n ) } 004 } `
+^compute_letter o 0 0 D( ^letter ^how ^amount ) ^query ( direct_vo ? lettervalue ^0 1 ) _8 = ^compute ( @0subject ^1 ^2 ) ^query ( direct_sv _8 lettervalue ? 1 ) @0object . `
+^equalvoquery o 0 0 C( ^verb ^object ) ^if 00A( ^query ( direct_vo ? ^0 ^1 ) ) 00w{ $$answer = @0subject } 05q else 00D( ^query ( direct_sv ^1 equal ? ) ) 01Y{ _9 = @0object ^if 00A( ^query ( direct_vo ? ^0 _9 ) ) 00w{ $$answer = @0subject } 00G else ( 1 ) 00q { ^fail ( rule ) } 004 } 02- else 00D( ^query ( direct_vo ? equal ^1 ) ) 01Z{ _9 = @0subject ^if 00A( ^query ( direct_vo ? ^0 _9 ) ) 00w{ $$answer = @0subject } 00G else ( 1 ) 00q { ^fail ( rule ) } 004 } 00G else ( 1 ) 00q { ^fail ( rule ) } 004 `
+^usename o 0 0 B( ^relationship ) ^if 00K( ^query ( direct_vo ? equal ^0 ? user ) ) 00l{ @0subject } 00u else ( 1 ) 00e { ^0 } 004 `
+^equalsvquery o 0 0 C( ^subject ^verb ) ^if 00A( ^query ( direct_sv ^0 ^1 ? ) ) 00v{ $$answer = @0object } 04P else 00K( ^query ( direct_sv ^0 equal ? ? user ) ) 01s{ _9 = @0object ^if 00H( ^query ( direct_sv _9 ^1 ? ? user ) ) 00v{ $$answer = @0object } 004 } 02L else 00K( ^query ( direct_vo ? equal ^0 ? user ) ) 01t{ _9 = @0subject ^if 00H( ^query ( direct_sv _9 ^1 ? ? user ) ) 00v{ $$answer = @0object } 004 } 00G else ( 1 ) 00q { ^fail ( rule ) } 004 `
+^equalsoquery o 0 0 C( ^subject ^object ) ^if 00H( ^query ( direct_so ^0 ? ^1 ? user ) ) 00t{ $$answer = @0verb } 08R else 00K( ^query ( direct_sv ^0 equal ? ? user ) ) 01q{ _9 = @0object ^if 00H( ^query ( direct_so _9 ? ^1 ? user ) ) 00t{ $$answer = @0verb } 004 } 06P else 00K( ^query ( direct_vo ? equal ^0 ? user ) ) 01r{ _9 = @0subject ^if 00H( ^query ( direct_so _9 ? ^1 ? user ) ) 00t{ $$answer = @0verb } 004 } 04M else 00K( ^query ( direct_sv ^1 equal ? ? user ) ) 01q{ _9 = @0object ^if 00H( ^query ( direct_so ^0 ? _9 ? user ) ) 00t{ $$answer = @0verb } 004 } 02K else 00K( ^query ( direct_vo ? equal ^0 ? user ) ) 01s{ _9 = @0subject ^if 00I( ^query ( direct_soa ^0 ? _9 ? user ) ) 00t{ $$answer = @0verb } 004 } 00G else ( 1 ) 00q { ^fail ( rule ) } 004 `
+^processnoun o 0 0 C( ^item ^data ) _0 = ^burst ( ^1 : ) _1 = ^burst ( _1 + ) ^createfact ( ^0 _0 _1 ) ^if 00a( _2 ) 05B{ _2 = ^burst ( _2 + ) ^createfact ( ^0 _0 _2 ) ^if 00a( _3 ) 04F{ _3 = ^burst ( _3 + ) ^createfact ( ^0 _0 _3 ) ^if 00a( _4 ) 03J{ _4 = ^burst ( _4 + ) ^createfact ( ^0 _0 _4 ) ^if 00a( _5 ) 02N{ _5 = ^burst ( _5 + ) ^createfact ( ^0 _0 _5 ) ^if 00a( _6 ) 01R{ _6 = ^burst ( _6 + ) ^createfact ( ^0 _0 _6 ) ^if 00a( _7 ) 00V{ _7 = ^burst ( _7 + ) ^createfact ( ^0 _0 _7 ) } 004 } 004 } 004 } 004 } 004 } 004 `
+^travel o 0 0 D( ^x ^y ^z ) ^fail ( RULE ) `
+^showfavorite o 0 0 C( ^which ^what ) _0 = ^0 _1 = ^1 $$nofavequestion = 1 ^reuse ( ~xfave.fave ) `
+^randomchoice o 0 0 B( ^which ) ^pick ( ^0 ) `
+^youdothis p 0 0 B( ^which ) !~qwords ( ~aux_verb { ~adverb } you !~preposition * ^0 > ) `
+^referto p 0 0 B( ^what ) [ ( [ name what which ] *~2 _~possessive * ^0 ) ] `
+^showfact o 0 0 A( ) ^repeat ( ) _1 = ^first ( @1+ ) _7 = ^burst ( _1 _|_ ) _7 _4 _8 _2 _3 . `
+^showfacts o 0 0 A( ) ^loop ( 10 ) 00p { ^showfact ( ) \n } `
+^like p 0 0 B( ^what ) [ ( not not ) ] `
+^use p 0 0 C( ^what ^how ) << ^0 ^1 >> `
+^isit p 0 0 B( ^what ) [ ( not not ) ] `
+^haspet p 0 0 B( ^who ) [ ( ^0 *~2 ~own * _pet < ![ not never ] ) ] `
+^ishaircolor p 0 0 B( ^who ) [ ( ^0 * have * [ fur hair ] < ![ not never ] ) ( be < * ^0 < * [ blonde brunette redhead blond silver ] < ![ not never ] ) ( ![ not never ] << what ^0 hair color >> ) ( ^0 [ fur hair ] < ![ not never ] ) ( ^0 [ fur hair ] *~2 color < ![ not never ] ) ] `
+^isweight p 0 0 B( ^who ) [ ( ^0 < * [ weigh weight ] < ![ not never ] ) ( how *~2 [ fat big skinny heavy chubby thin massive ] * ^0 !~noun < ![ not never ] ) ] `
+^isheight p 0 0 B( ^who ) [ ( ^0 < * [ tall height short ] < ![ not never ] ) ] `
+^iseyecolor p 0 0 B( ^who ) [ ( what be < * ^0 < * eye < * color < ![ not never ] ) ( be < * ^0 eye < ![ not never ] ) ] `
+^phonenumber p 0 0 B( ^who ) [ ( ^0 [ phone_number cell_number telephone_number ] < ![ not never ] ) ( ^0 [ phone_number cell_number telephone_number ] *~2 be < ![ not never ] ) ( phone_number < * ^0 < ![ not never ] ) ] `
+^queryforsubject p 0 0 D( ^object ^verb ^store ) ^query ( direct_vo ? ^1 ^0 -1 ? ^2 ) `
+^where_be p 0 0 B( ^what ) [ ( < * where * be * ^0 < ![ not never ] ) ( < * where * ^0 *~2 be < ![ not never ] ) ( < * what * [ place location state country city planet ] * be < ![ not never ] ) ] `
+^list_limit p 0 0 A( ) << [ =31==2 ] >> `
+^generate_first_instance o 0 0 C( ^what ^unknown ) ^query ( direct_vo ? ^0 ~country -1 ? @1 ) ^sort ( @1 ) ^loop ( $count ) 00? { _7 = ^first ( @1- ) ^if 00m( $place == null ) 00h{ ^1 \n } 004 } ^if 00e( $place ) 00e{ _8 } 004 $country = _7 $area = _9 `
+^generate_last_instance o 0 0 C( ^what ^unknown ) ^query ( direct_vo ? ^0 ~country -1 ? @1 ) ^sort ( @1 ) ^loop ( $count ) 00* { _7 = ^last ( @1- ) ^if 00m( $place == null ) 00h{ ^1 \n } 004 } ^if 00e( $place ) 00e{ _8 } 004 $country = _7 $area = _9 `
+^know_about p 0 0 A( ) =8%tense=present ![ who where why ] [ ( < *~2 [ do_you_know what_do_you_know what_is_there_to_know what_you_know what_do_you_make be_you_take ] { of about on the } { a } ) ( you * ~opinionset { about on of } { a } ) ( like > < * what be ) ( your take on ) ( ~tell me about ) ] `
+^relationshipto p 0 0 B( ^who ) [ ( what be ^0 ) ( << what you relationship ^0 >> ) ( how do you know ^0 ) ( what is ^0 to you ) ] `
+^howmeet p 0 0 B( ^who ) [ ( << you [ acquaint acquaintance meet introduced ] ^0 >> ) ] `
+^whereborn p 0 0 B( ^who ) [ ( << what [ nation country nationality citizen ] ^0 >> ) ( << where ^0 [ from born hometown home_town birthplace ] >> ) ( << ^0 [ birthplace hometown home_town ] >> ) ( << ^0 native [ city town village nation country ] >> ) ] `
+^whatwork p 0 0 B( ^who ) ![ ideal perfect dream sport ] [ ( << ^0 [ work study job career interest profession for_a_living earn_money ] >> ) ( what * ^0 * do > ) ( what be * ^0 ) ( do ^0 work ) ( what * do * ^0 * do * ~job ) ( what * be * ^0 ~job ) ( what * ^0 work as > ) ( what * do * ^0 * do * earn * ~salary ) ( how * do * ^0 * ~job ) ( how * do * ^0 * earn * ~salary ) ( where * do * ^0 * earn * ~salary ) ( what * do * ^0 * do *~2 > ) ( ^0 < * have < * ~job ) ( << are ^0 working >> ) ] `
+^workfor p 0 0 B( ^who ) [ ( !ideal << what [ store company place agency ] ^0 work >> ) ( who * ^0 * work for > ) ( where * do * ^0 * ~job ) ] `
+^howold p 0 0 B( ^who ) [ ( ! =8%tense=past ![ year where 's ] << how [ young old ] be ^0 >> ) ( ! =8%tense=past ![ year where 's ] << age ^0 >> ) ( !live how many years * ^0 > ) ( << how long ^0 be [ alive live ] >> ) ] `
+^whatgender p 0 0 B( ^who ) [ ( !~like be ^0 * [ ~gendermale ~genderfemale ~gender_odd ] ) ( << [ which what ] ^0 be [ gender sex ] >> ) ] `
+^name_arbitrary_xxx p 0 0 C( ^what ^class ) [ you_know be_you_aware provide give tell_you who_be name list example instance specify suggest sample illustration my_idea_of ] * !~adjective * [ a any some one 1 ] * ^0 > ^query ( direct_vo ? member ^1 ) `
+^name_arbitrary_xxx_answer o 0 0 A( ) ^keep ( ) ^pick ( @0subject ) `
+^what_is_name p 0 0 B( ^who ) [ ( have ^0 !\'s *~2 name ) ( !~verb ^0 !\'s *~2 name > ) ( what < * ^0 < * [ handle name call given_name ] < !middle < ![ them they ] ) ( who * be * ^0 > ) ( [ what how ] * [ name call refer address ] { to } ^0 ) ( !~family_members ^0 *~2 [ name given_name forename personal_name christian_name ] ) ( tell you * ^0 !\'s *~2 name ) ( < ^0 name > ) ( identify ^0 ) ] `
+^have_a_job_xxx p 0 0 A( ) [ ( I be ) ( I have a job ) ( I be employed ) ( I job be ) ( I work be ) $$word ] `
+^want_you_go_xxx p 0 0 B( ^where ) ( [ ( you be go * ^0 ) ( let_us_go * ^0 ) ( < want to go * ^0 ) ( you * want * go * ^0 ) ] ) `
+^do_you_like p 0 0 B( ^what ) ![ or ~qwords ] do * you * ~like * ^0 `
+^queryforobject p 0 0 D( ^subject ^verb ^store ) ^query ( direct_sv ^0 ^1 ? -1 ? ^2 ) `
+^map o 0 0 J( ^value ^oldvalue ^resultx ^change ^bad2 ^bad1 ^neutral ^good1 ^good2 ) $oldresult = ^2 ^if 00a( ^1 ) 01c{ ^if 00f( ^0 > ^1 ) 00i{ ^3 = 1 } 00H else 00f( ^0 < ^1 ) 00j{ ^3 = -1 } 004 } 004 ^if 00g( ^0 >= 11 ) 00j{ ^2 = ^8 } 024 else 00f( ^0 >= 8 ) 00j{ ^2 = ^7 } 01E else 00g( ^0 >= -3 ) 00j{ ^2 = ^6 } 010 else 00g( ^0 >= -8 ) 00j{ ^2 = ^5 } 00z else ( 1 ) 00j { ^2 = ^4 } 004 ^if 00o( ^2 != $oldresult ) 00o{ ^0 += 2 * ^3 } 00B else ( 1 ) 00l { ^3 = null } 004 ^1 = ^0 `
+^what_is_your_favorite p 0 0 B( ^what ) [ ( [ which who what ] * ^0 do you [ think ~like ] *~2 best ) ( ~favorite { ~category } { of } ^0 ) ( [ which who what ] be my ~favorite > ) ( [ which what who ] * you < * [ ~like ~favorite ] < * ^0 ) ( [ who what which ] * be * ~favorite * ^0 ) ( < ~favorite * ^0 ) ( < you ~favorite * ^0 ) ( you have * ~favorite * ^0 ) ( ^0 you ~favorite ) ( name *~2 you *~2 ~favorite * ^0 ) ( particular *~2 ^0 *~2 you enjoy ) ( [ which what who ] * [ you you ] < * [ ~like ~favorite ] < * ^0 ) ( [ who what which ] * be * ~favorite * ^0 ) ( ^0 * be * ~favorite ) ( any *~2 ^0 you * [ ~like ~favorite ] ) ( what ~category { of } * ^0 do you ~like ) ( ~favorite *~2 ~category { of } ^0 ) ( what *~2 ^0 *~2 do you follow ) ] `
+^timecheck p 0 0 A( ) [ ( =9%length<8 [ ( << what be 'time >> ) be_the_time ( [ tell know aware ] * 'time ) ] ) ( !~qwords you < * [ know have aware ] !good * { what the } [ time hour ] !to { be } > ) ( !~qwords 'you *~2 the time ) ( !~qwords the time to I ) ] `
+^howmuch p 0 0 D( ^count ^newunit ^oldunit ) [ ( what [ do be ] ~number ^1 ^eval ( $tmp = ^2 ) ) ( what be [ 'a an ] ^2 ^eval ( $tmp = ^join ( ^0 _ ^1 s ) ) ) ( [ how_much what ] be _{ a ~number } ^2 * ^1 ) ( how [ much many ] *~2 ^1 * _{ a ~number } ^2 ) ] `
+^stdconvert o 0 0 C( ^units ^rate ) ^if 00c( $tmp ) 00u{ $tmp ^end ( RULE ) } 004 ^if 00t( _0 == null or _0 == a ) 00i{ _0 = 1 } 004 There are ^compute ( _0 * ^1 ) ^0 . `
+^randgenerate o 0 0 A( ) $tmp0 = ^compute ( 0 random 8 ) $tmp = ^join ( d $tmp0 ) ^query ( direct_vo ? die $tmp 1 ) $die1 = ^join ( @0subject $die1 ) `
+^angela o 0 0 A( ) $botnamemessage = ^"My name is Angela." ^addtopic ( ~introductions ) $cs_prepass = ~xfixsentence $cs_control_pre = ~xpre_control $cs_control_main = ~xmain_control $cs_control_post = ~xpost_control $forget = 2800 $boyfriend = Tom $holidaytest = -1 $age = 0 $here_pronoun = at_Couture_Cafe $there_pronoun = at_Couture_Cafe $pokeinput = -5 $userprompt = ^">" $botprompt = ^"Angela:" $cs_token = 4096 | 255 | 512 | 1024 | 24576 | 2048 $stdtoken = $cs_token `
+^fixnamewithmore o 0 0 A( ) $firstname = null $fullname = null $nameclear = 1 $$changedtoken = 1 $cs_token = 4096 | 255 | 512 | 24576 ^next ( INPUT ) ^refine ( ) `
+^updateangerlevel o 0 0 A( ) $$tmp = %input - $lastangerlevel ^if 00i( $$tmp > 10 ) 01m{ $$tmp /= 2 $angerlevel -= $$tmp ^if 00n( $angerlevel < 0 ) 00r{ $angerlevel = 0 } 004 } 004 $angerlevel += 1 $lastangerlevel = %input `

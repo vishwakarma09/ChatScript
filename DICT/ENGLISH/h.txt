@@ -13190,10 +13190,14 @@
     hardback~2a 
  high-backed ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
     high-backed~1az having a high back
- headlong ( meanings=5 glosses=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON2 COMMON1 posdefault:ADJECTIVE posdefault:ADVERB ) 
+ headfirst ( meanings=3 glosses=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL posdefault:ADVERB ) 
     headlong~1az with the head foremost
+    headlong~3bz with the head foremost
+    headfirst~3bz 
+ headlong ( meanings=5 glosses=1 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON2 COMMON1 posdefault:ADJECTIVE posdefault:ADVERB ) 
+    headfirst~1a 
     hasty~1a 
-    headfirst~1b 
+    headfirst~2b 
     rashly~1bz in a hasty and foolhardy manner
     precipitately~1b 
  hairless ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:ADJECTIVE ) 
@@ -14085,22 +14089,38 @@
     half_dozen~1a 
  hundred_and_one ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
     ci~1az 
+ hundred-and-first ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    hundred-and-first~1az the ordinal number of one hundred one in counting order
+ hundred-and-fifth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    hundred-and-fifth~1az the ordinal number of one hundred five in counting order
  hundred-and-tenth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     hundred-and-tenth~1az the ordinal number of one hundred ten in counting order
  hundred-and-fifteenth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     hundred-and-fifteenth~1az the ordinal number of one hundred fifteen in counting order
  hundred-and-twentieth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     hundred-and-twentieth~1az the ordinal number of one hundred twenty in counting order
+ hundred-and-twenty-fifth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    hundred-and-twenty-fifth~1az the ordinal number of one hundred twenty-five in counting order
  hundred-and-thirtieth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     hundred-and-thirtieth~1az the ordinal number of one hundred thirty in counting order
+ hundred-and-thirty-fifth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    hundred-and-thirty-fifth~1az the ordinal number of one hundred thirty-five in counting order
  hundred-and-fortieth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     hundred-and-fortieth~1az the ordinal number of one hundred forty in counting order
+ hundred-and-forty-fifth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    hundred-and-forty-fifth~1az the ordinal number of one hundred forty-five in counting order
  hundred-and-fiftieth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     hundred-and-fiftieth~1az the ordinal number of one hundred fifty in counting order
+ hundred-and-fifty-fifth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    hundred-and-fifty-fifth~1az the ordinal number of one hundred fifty-five in counting order
  hundred-and-sixtieth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     hundred-and-sixtieth~1az the ordinal number of one hundred sixty in counting order
+ hundred-and-sixty-fifth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    hundred-and-sixty-fifth~1az the ordinal number of one hundred sixty-five in counting order
  hundred-and-seventieth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     hundred-and-seventieth~1az the ordinal number of one hundred seventy in counting order
+ hundred-and-seventy-fifth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    hundred-and-seventy-fifth~1az the ordinal number of one hundred seventy-five in counting order
  hundred-and-eightieth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     hundred-and-eightieth~1az the ordinal number of one hundred eighty in counting order
  hundred-and-ninetieth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
@@ -15060,9 +15080,6 @@
  hazily ( meanings=2 glosses=2 ADVERB COMMON2 posdefault:ADVERB ) 
     hazily~1bz in an indistinct way
     hazily~2bz through a haze
- headfirst ( meanings=2 glosses=1 ADVERB posdefault:ADVERB ) 
-    headlong~3bz with the head foremost
-    headfirst~2bz 
  heartlessly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     heartlessly~1bz in a heartless manner
  heatedly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 

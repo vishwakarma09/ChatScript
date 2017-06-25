@@ -1,6 +1,6 @@
 # ChatScript JSON Manual
 © Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 6/18/2017 cs7.5
+<br>Revision 6/25/2017 cs7.51
 
 # Real World JSON
 
@@ -461,6 +461,9 @@ See writeup earlier about optional json flag.
 | `header`     | is any needed extra request headers or "". Multiple header entries must be separated by a tilde |
 | `timeout`     | optional seconds limitation for connection and then for transfer. else $cs_jsontimeout rules |
 
+Note: 'postdata' can be a simple JSON structure name, in which case the system will automatically perform a ^jsonwrite on it
+and send that text data as the data. Currently limited to 500K in size of the internal buffer.
+
 A sample call might be:
 ```
 $$url = "https://api.github.com/users/test/repos"
@@ -545,7 +548,17 @@ back as the answer. Be wary of doing this if the result will be large (>30K?) si
 buffer without being checked.
 
 
-^JSONopen automatically url-encodes headers and urls
+^JSONopen automatically url-encodes headers and urls 
+
+#### `JSONOpen and proxy servers`
+
+If you need JSONOpen to run thru a proxy server, these are the CS variables you need to set up:
+`$cs_proxycredentials` should be your login data, e.g. `myname:thesecret`.
+`$cs_proxyserver'  is the server address, e.g., `http://local.example.com:1080`.
+'$cs_proxymethod' are bits listing the authorization method to use. They come from the LIBCURL so you should OR together
+the bits you want.  Bit 1 is the most basic choice of name and password.
+Read-    https://curl.haxx.se/libcurl/c/CURLOPT_HTTPAUTH.html
+
 
 ## JSON & Out-of-band output data
 

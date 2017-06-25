@@ -1,4 +1,4 @@
-﻿ G ( ) lemma=TGX 
+﻿ G ( ) 
  G.101 ( ) 
  G.111 ( ) 
  G.114 ( ) 
@@ -23,2034 +23,1632 @@
  G.711 ( ) 
  G.712 ( ) 
  G.722 ( ) 
- G.732 ( ) 
+ G.732 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  G.733 ( ) 
- G0 ( ) lemma=LG02 
- G1 ( ) lemma=LG16 
- G2 ( ) lemma=LG29 
- G3 ( ) lemma=LG30 
+ G0 ( ) 
+ G1 ( ) 
+ G2 ( ) 
+ G3 ( ) 
  G3/G4 ( ) 
- G4 ( ) lemma=LG42 
+ G4 ( ) 
  G4/G3 ( ) 
- GA ( ) 
- GCU ( ) 
+ GA ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ GCU ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
  GED ( ) 
  GFI ( ) 
  GMSC ( ) 
- GS ( ) 
- GSM ( ) 
- GT ( ) 
- Gabino ( ) 
- Gabri ( ) 
- Gabriel ( ) 
- Gabriela ( ) 
- Gaby ( ) 
- Gaithersburg ( ) 
- Galanes ( ) 
- Galeno ( ) 
- Gales ( ) 
- Galicia ( ) 
- Galileo ( ) 
- Galindo ( ) 
- Gallego ( ) 
- Gallo ( ) 
- Galton ( ) 
- Galván ( ) 
- Gambeta ( ) 
- Gambia ( ) 
- Gamboa ( ) 
- Gandhi ( ) 
- Ganges ( ) 
- Ganviracio ( ) 
- Garantías ( ) 
- García ( ) 
- Gardner ( ) 
- Garrod ( ) 
- Garros ( ) 
- Gary ( ) 
- Gaspar ( ) 
- Gasset ( ) 
- Gastos ( ) 
- Gastón ( ) 
- Gatia ( ) 
- Gatí ( ) 
- Gavino ( ) 
- Gayta ( ) 
- Gbytes ( ) 
+ GS ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ GSM ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ GT ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gabino ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gabri ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gabriel ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gabriela ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gaby ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gaithersburg ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Galanes ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Galeno ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gales ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Galicia ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Galileo ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Galindo ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gallego ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gallo ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Galton ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Galván ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gambeta ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gambia ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gamboa ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gandhi ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Ganges ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Ganviracio ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Garantías ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ García ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gardner ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Garrod ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Garros ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gary ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gaspar ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gasset ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gastos ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gastón ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gatia ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gatí ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=Gatita 
+ Gavino ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gayta ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gbytes ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
  GeanT ( ) 
- Gen-Probe ( ) 
- Genaro ( ) 
- Generalitat ( ) 
- Genie ( ) 
+ Gen-Probe ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Genaro ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Generalitat ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Genie ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
  Gentex ( ) 
- Genética ( ) 
- George ( ) 
- Georgia ( ) 
- Georgia-Pacific ( ) 
- Georgina ( ) 
- Geraldina ( ) 
- Geraldine ( ) 
- Gerardo ( ) 
- Gerd ( ) 
- Gerente ( ) 
- Germino ( ) 
- Germán ( ) 
- Gerona ( ) 
- Gfrörer ( ) 
- Ghana ( ) 
- Gibraltar ( ) 
- Giemsa ( ) 
- Gifford ( ) 
- Gigante ( ) 
- Gijón ( ) 
- Gil ( ) 
- Gilberto ( ) 
- Gillette ( ) 
- Giménez ( ) 
- Gina ( ) 
- Ginebra ( ) 
- Gini ( ) 
- Giorgio ( ) 
- Girard ( ) 
- Girón ( ) 
- Gitano ( ) 
- Giuseppe ( ) 
- Gladys ( ) 
- Glasgow ( ) 
- Glenn ( ) 
- Gliclazida ( ) 
- Glicosilaciones ( ) 
- Gloria ( ) 
- Glu ( ) 
- Glu-Leu-Arg ( ) 
- Glu-Val ( ) 
+ Genética ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ George ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Georgia ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Georgia-Pacific ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Georgina ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Geraldina ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Geraldine ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gerardo ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gerd ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gerente ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Germino ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Germán ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gerona ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gfrörer ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=Gfröer 
+ Ghana ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gibraltar ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Giemsa ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gifford ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gigante ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gijón ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gil ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gilberto ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gillette ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Giménez ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gina ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Ginebra ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gini ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Giorgio ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Girard ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Girón ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gitano ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Giuseppe ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gladys ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Glasgow ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Glenn ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gliclazida ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Glicosilaciones ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gloria ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Glu ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Glu-Leu-Arg ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Glu-Val ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
  Go ( ) 
- Gobernador ( ) 
- Gobierno ( ) 
- Gobiernos ( ) 
- Goldberger ( ) 
- Golenbock ( ) 
- Golgi ( ) 
- Gonzalitos ( ) 
- Gonzalo ( ) 
- González ( ) 
- Goodpasture ( ) 
- Gopher ( ) 
- Gorbachov ( ) 
- Gorostiaga ( ) 
- Gorski ( ) 
- Goyín ( ) 
- Graaf ( ) 
- Gracias ( ) 
- Graciela ( ) 
- Gramm-Rudman ( ) 
- Granada ( ) 
- Granadinas ( ) 
- Granollers ( ) 
- Grecia ( ) 
- Greenpeace ( ) 
- Greenspan ( ) 
- Greg ( ) 
- Gregor ( ) 
- Gregorio ( ) 
- Greider ( ) 
- Griffith ( ) 
- Groenlandia ( ) 
- Groupware ( ) 
- Grove ( ) 
- Grulla ( ) 
- Grundner ( ) 
- Guadalajara ( ) 
- Guadalupe ( ) 
- Guadiaro-Majaceite ( ) 
- Gual ( ) 
- Guam ( ) 
- Guanajuato ( ) 
- Guantánamo ( ) 
- Guaraná ( ) 
- Guate ( ) 
- Guatemala ( ) 
- Guayana ( ) 
- Guayaquil ( ) 
- Guega ( ) 
- Guerrero ( ) 
- Guido ( ) 
- Guillemin ( ) 
- Guillermo ( ) 
- Guinea ( ) 
- Guiot ( ) 
- Gunilla ( ) 
- Gustavo ( ) 
- Gutheil ( ) 
- Gutiérrez ( ) 
- Guttman ( ) 
- Guy ( ) 
- Guyana ( ) 
- Guzmán ( ) 
- Guía ( ) 
- GÉNTEX ( ) 
- Gálibo ( ) 
- Gálvez ( ) 
- Géminis ( ) 
- Génesis ( ) 
- Génova ( ) 
- Gómez ( ) 
- g ( ) lemma=igm 
- gabardina ( ) 
- gabaérgico ( ) 
- gabinete ( ) 
- gabinetes ( ) 
- gabonesa ( ) 
- gabán ( ) 
- gaceta ( ) 
- gacetilla ( ) 
- gacha ( ) lemma=agachar 
- gachas ( ) 
- gacho ( ) 
- gaditana ( ) 
- gaditano ( ) 
- gafados ( ) 
- gafas ( ) 
- gag ( ) 
+ Gobernador ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gobierno ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gobiernos ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Goldberger ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Golenbock ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Golgi ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gonzalitos ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=Gonzalo 
+ Gonzalo ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ González ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Goodpasture ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gopher ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gorbachov ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gorostiaga ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gorski ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Goyín ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Graaf ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gracias ( PREPOSITION ) 
+ Graciela ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gramm-Rudman ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Granada ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Granadinas ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Granollers ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Grecia ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Greenpeace ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Greenspan ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Greg ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gregor ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gregorio ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Greider ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Griffith ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Groenlandia ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Groupware ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Grove ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Grulla ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Grundner ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Guadalajara ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Guadalupe ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Guadiaro-Majaceite ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gual ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Guam ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Guanajuato ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Guantánamo ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Guaraná ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Guate ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=Guatemala 
+ Guatemala ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Guayana ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Guayaquil ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Guega ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Guerrero ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Guido ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Guillemin ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Guillermo ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Guinea ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Guiot ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gunilla ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gustavo ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gutheil ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gutiérrez ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Guttman ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Guy ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Guyana ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Guzmán ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Guía ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ GÉNTEX ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gálibo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Gálvez ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Géminis ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Génesis ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Génova ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ Gómez ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ g ( ) 
+ gabardina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gabaérgico ( ADJECTIVE ) 
+ gabinete ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gabinetes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gabinete 
+ gabonesa ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) lemma=gabonés 
+ gabán ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gaceta ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gacetilla ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gaceta 
+ gacha ( ADJECTIVE ) lemma=gacho 
+ gachas ( ADJECTIVE ) lemma=gacho 
+ gacho ( ADJECTIVE ) 
+ gaditana ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=gaditano 
+ gaditano ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ gafados ( VERB_PAST_PARTICIPLE VERB ) lemma=gafar 
+ gafas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ gag ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  gain ( ) 
- gaitas ( ) 
- gala ( ) 
- galactocerebrósido ( ) 
- galactorrea ( ) 
- galactosa ( ) 
- galactosa-ácido ( ) 
- galactosamina ( ) 
- galactosas ( ) 
- galactosemia ( ) 
- galanes ( ) 
- galante ( ) 
- galantear ( ) 
- galardonada ( ) 
- galardonado ( ) 
- galardonados ( ) 
- galardonar ( ) 
- galardones ( ) 
- galardón ( ) 
- galas ( ) 
- galaxia ( ) 
- galaxias ( ) 
- galenista ( ) 
- galera ( ) 
- galeras ( ) 
- galería ( ) 
- galerías ( ) 
- galesa ( ) 
- galeses ( ) 
- galeón ( ) 
- galgo ( ) 
- galgos ( ) 
- galio ( ) 
- gallardo ( ) 
- gallega ( ) 
- gallegas ( ) 
- gallego ( ) 
- gallegos ( ) 
- galleta ( ) 
- galletas ( ) 
- gallina ( ) 
- gallinas ( ) 
- gallinero ( ) 
- gallineros ( ) 
- gallo ( ) 
- gallos ( ) 
- galo ( ) 
- galones ( ) 
- galope ( ) 
- galos ( ) 
- galvanizada ( ) 
- galvanizado ( ) 
- galvanizar ( ) 
- galvanómetro ( ) 
- galvánicamente ( ) 
- galvánicos ( ) 
- galán ( ) 
- galénica ( ) 
- galés ( ) 
- galón ( ) 
- gama ( ) 
- gamas ( ) 
- gamba ( ) 
- gambas ( ) 
- gambiense ( ) 
- gameto ( ) 
- gametocitos ( ) 
- gametofito ( ) 
- gametogénesis ( ) 
- gametos ( ) 
- gamma ( ) 
- gamma-amino ( ) 
- gamma-tubulina ( ) 
- gammacámara ( ) 
- gammaglobulinas ( ) 
- gammagrafía ( ) 
- gammagrafías ( ) 
- gammagráfico ( ) 
- gammapatías ( ) 
- gammágrafo ( ) 
- gana ( ) 
- ganaba ( ) 
- ganaban ( ) 
- ganada ( ) 
- ganadas ( ) 
- ganadera ( ) 
- ganaderas ( ) 
- ganadero ( ) 
- ganaderos ( ) 
- ganadería ( ) 
- ganaderías ( ) 
- ganado ( ) 
- ganador ( ) 
- ganadora ( ) 
- ganadoras ( ) 
- ganadores ( ) 
- ganados ( ) 
- ganamos ( ) 
- ganan ( ) 
- ganancia ( ) 
- ganancial ( ) 
- gananciales ( ) 
- ganancias ( ) 
- ganando ( ) 
- ganar ( ) 
- ganara ( ) 
- ganaran ( ) 
- ganaremos ( ) 
- ganarla ( ) 
- ganarle ( ) 
- ganarles ( ) 
- ganarlo ( ) 
- ganarme ( ) 
- ganarnos ( ) 
- ganaron ( ) 
- ganarse ( ) 
- ganarte ( ) 
- ganará ( ) 
- ganarán ( ) 
- ganarás ( ) 
- ganaría ( ) 
- ganaríamos ( ) 
- ganarían ( ) 
- ganarías ( ) 
- ganas ( ) 
- ganase ( ) 
- ganasen ( ) 
- ganaste ( ) 
- ganasteis ( ) 
- gancho ( ) 
- ganchos ( ) 
- gane ( ) 
- ganemos ( ) 
- ganen ( ) 
- ganes ( ) 
- ganga ( ) 
- gangas ( ) 
- ganglio ( ) 
- ganglionar ( ) 
- ganglionares ( ) 
- ganglios ( ) 
- gangliósido ( ) 
- gangliósidos ( ) 
- gangrena ( ) 
- gangrenan ( ) 
- gangrenando ( ) 
- gangrenosa ( ) 
- gano ( ) 
- gansito ( ) 
- ganso ( ) 
- ganáis ( ) 
- ganándolo ( ) 
- ganársela ( ) 
- gané ( ) 
- ganéis ( ) 
- ganó ( ) 
- garabatos ( ) 
- garage ( ) 
- garaje ( ) 
- garajes ( ) 
- garante ( ) 
- garantes ( ) 
- garantice ( ) 
- garanticemos ( ) 
- garanticen ( ) 
- garanticémosle ( ) 
- garantidos ( ) 
- garantiza ( ) 
- garantizaba ( ) 
- garantizaban ( ) 
- garantizada ( ) 
- garantizadas ( ) 
- garantizado ( ) 
- garantizados ( ) 
- garantizamos ( ) 
- garantizan ( ) 
- garantizando ( ) 
- garantizar ( ) 
- garantizara ( ) 
- garantizaran ( ) 
- garantizaremos ( ) 
- garantizaren ( ) 
- garantizarla ( ) 
- garantizarle ( ) 
- garantizarles ( ) 
- garantizarlo ( ) 
- garantizarlos ( ) 
- garantizarme ( ) 
- garantizarnos ( ) 
- garantizaron ( ) 
- garantizarse ( ) 
- garantizará ( ) 
- garantizarán ( ) 
- garantizaría ( ) 
- garantizarían ( ) 
- garantizase ( ) 
- garantizasen ( ) 
- garantizo ( ) 
- garantizábamos ( ) 
- garantizándolas ( ) 
- garantizándoles ( ) 
- garantizándolo ( ) 
- garantizándose ( ) 
- garantizándosele ( ) 
- garantizáramos ( ) 
- garantizárnoslo ( ) 
- garantizársele ( ) 
- garantizó ( ) 
- garantía ( ) 
- garantíar ( ) 
- garantías ( ) 
- garbancito ( ) 
- garbanzo ( ) 
- garbanzos ( ) 
- garbo ( ) 
+ gaitas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gaita 
+ gala ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=galo 
+ galactocerebrósido ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ galactorrea ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ galactosa ( ADJECTIVE ) lemma=galactoso 
+ galactosa-ácido ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ galactosamina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ galactosas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=galactosa 
+ galactosemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ galanes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=galán 
+ galante ( ADJECTIVE ) 
+ galantear ( VERB ) 
+ galardonada ( VERB_PAST_PARTICIPLE VERB ) lemma=galardonar 
+ galardonado ( VERB_PAST_PARTICIPLE VERB ) lemma=galardonar 
+ galardonados ( VERB_PAST_PARTICIPLE VERB ) lemma=galardonar 
+ galardonar ( VERB ) 
+ galardones ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=galardón 
+ galardón ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ galas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=galo 
+ galaxia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ galaxias ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=galaxia 
+ galenista ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ galera ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ galeras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=galera 
+ galería ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ galerías ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=galería 
+ galesa ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=galés 
+ galeses ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=galés 
+ galeón ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ galgo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ galgos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=galgo 
+ galio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gallardo ( ADJECTIVE ) 
+ gallega ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=gallego 
+ gallegas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=gallego 
+ gallego ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ gallegos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=gallego 
+ galleta ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ galletas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=galleta 
+ gallina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gallinas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gallina 
+ gallinero ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gallineros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gallinero 
+ gallo ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ gallos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gallo 
+ galo ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ galones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=galón 
+ galope ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ galos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=galo 
+ galvanizada ( VERB_PAST_PARTICIPLE VERB ) lemma=galvanizar 
+ galvanizado ( VERB_PAST_PARTICIPLE VERB ) lemma=galvanizar 
+ galvanizar ( VERB ) 
+ galvanómetro ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ galvánicamente ( ADVERB ) lemma=galvánico 
+ galvánicos ( ADJECTIVE ) lemma=galvánico 
+ galán ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ galénica ( ADJECTIVE ) lemma=galénico 
+ galés ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ galón ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gama ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gamas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gama 
+ gamba ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gambas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gamba 
+ gambiense ( ADJECTIVE ) 
+ gameto ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gametocitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gametocito 
+ gametofito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gametogénesis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gametos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gameto 
+ gamma ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gamma-amino ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gamma-tubulina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gammacámara ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gammaglobulinas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gammaglobulina 
+ gammagrafía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gammagrafías ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gammagrafía 
+ gammagráfico ( ADJECTIVE ) 
+ gammapatías ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gammapatía 
+ gammágrafo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gana ( VERB ) lemma=ganar 
+ ganaba ( VERB ) lemma=ganar 
+ ganaban ( VERB ) lemma=ganar 
+ ganada ( VERB_PAST_PARTICIPLE VERB ) lemma=ganar 
+ ganadas ( VERB_PAST_PARTICIPLE VERB ) lemma=ganar 
+ ganadera ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=ganadero 
+ ganaderas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=ganadero 
+ ganadero ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ ganaderos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=ganadero 
+ ganadería ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ganaderías ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ganadería 
+ ganado ( VERB_PAST_PARTICIPLE NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ ganador ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ganadora ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ganador 
+ ganadoras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ganador 
+ ganadores ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ganador 
+ ganados ( VERB_PAST_PARTICIPLE NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=ganado 
+ ganamos ( VERB ) lemma=ganar 
+ ganan ( VERB ) lemma=ganar 
+ ganancia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ganancial ( ADJECTIVE ) 
+ gananciales ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ganancial 
+ ganancias ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ganancia 
+ ganando ( NOUN NOUN_GERUND ) lemma=ganar 
+ ganar ( VERB ) 
+ ganara ( VERB ) lemma=ganar 
+ ganaran ( VERB ) lemma=ganar 
+ ganaremos ( VERB ) lemma=ganar 
+ ganarla ( VERB_INFINITIVE VERB ) lemma=ganar 
+ ganarle ( VERB_INFINITIVE VERB ) lemma=ganar 
+ ganarles ( VERB_INFINITIVE VERB ) lemma=ganar 
+ ganarlo ( VERB_INFINITIVE VERB ) lemma=ganar 
+ ganarme ( VERB_INFINITIVE VERB ) lemma=ganar 
+ ganarnos ( VERB_INFINITIVE VERB ) lemma=ganar 
+ ganaron ( VERB ) lemma=ganar 
+ ganarse ( VERB_INFINITIVE VERB ) 
+ ganarte ( VERB_INFINITIVE VERB ) lemma=ganar 
+ ganará ( VERB ) lemma=ganar 
+ ganarán ( VERB ) lemma=ganar 
+ ganarás ( VERB ) lemma=ganar 
+ ganaría ( VERB ) lemma=ganar 
+ ganaríamos ( VERB ) lemma=ganar 
+ ganarían ( VERB ) lemma=ganar 
+ ganarías ( VERB ) lemma=ganar 
+ ganas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=gana 
+ ganase ( VERB ) lemma=ganar 
+ ganasen ( VERB ) lemma=ganar 
+ ganaste ( VERB ) lemma=ganar 
+ ganasteis ( VERB ) lemma=ganar 
+ gancho ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ganchos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gancho 
+ gane ( VERB ) lemma=ganar 
+ ganemos ( VERB ) lemma=ganar 
+ ganen ( VERB ) lemma=ganar 
+ ganes ( VERB ) lemma=ganar 
+ ganga ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gangas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ganga 
+ ganglio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ganglionar ( ADJECTIVE ) 
+ ganglionares ( ADJECTIVE ) lemma=ganglionar 
+ ganglios ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ganglio 
+ gangliósido ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gangliósidos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gangliósido 
+ gangrena ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ gangrenan ( VERB ) lemma=gangrenar 
+ gangrenando ( NOUN NOUN_GERUND ) lemma=gangrenar 
+ gangrenosa ( ADJECTIVE ) lemma=gangrenoso 
+ gano ( VERB ) lemma=ganar 
+ gansito ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=ganso 
+ ganso ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ganáis ( VERB ) lemma=ganar 
+ ganándolo ( VERB_PAST_PARTICIPLE VERB ) lemma=ganar 
+ ganársela ( VERB_INFINITIVE VERB ) lemma=ganarse 
+ gané ( VERB ) lemma=ganar 
+ ganéis ( VERB ) lemma=ganar 
+ ganó ( VERB ) lemma=ganar 
+ garabatos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=garabato 
+ garage ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ garaje ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ garajes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=garaje 
+ garante ( VERB ) lemma=garantir 
+ garantes ( VERB ) lemma=garantir 
+ garantice ( VERB ) lemma=garantizar 
+ garanticemos ( VERB ) lemma=garantizar 
+ garanticen ( VERB ) lemma=garantizar 
+ garanticémosle ( VERB ) lemma=garantizar 
+ garantidos ( VERB_PAST_PARTICIPLE VERB ) lemma=garantir 
+ garantiza ( VERB ) lemma=garantizar 
+ garantizaba ( VERB ) lemma=garantizar 
+ garantizaban ( VERB ) lemma=garantizar 
+ garantizada ( VERB_PAST_PARTICIPLE VERB ) lemma=garantizar 
+ garantizadas ( VERB_PAST_PARTICIPLE VERB ) lemma=garantizar 
+ garantizado ( VERB_PAST_PARTICIPLE VERB ) lemma=garantizar 
+ garantizados ( VERB_PAST_PARTICIPLE VERB ) lemma=garantizar 
+ garantizamos ( VERB ) lemma=garantizar 
+ garantizan ( VERB ) lemma=garantizar 
+ garantizando ( NOUN NOUN_GERUND ) lemma=garantizar 
+ garantizar ( VERB ) 
+ garantizara ( VERB ) lemma=garantizar 
+ garantizaran ( VERB ) lemma=garantizar 
+ garantizaremos ( VERB ) lemma=garantizar 
+ garantizaren ( VERB ) lemma=garantizar 
+ garantizarla ( VERB_INFINITIVE VERB ) lemma=garantizar 
+ garantizarle ( VERB_INFINITIVE VERB ) lemma=garantizar 
+ garantizarles ( VERB_INFINITIVE VERB ) lemma=garantizar 
+ garantizarlo ( VERB_INFINITIVE VERB ) lemma=garantizar 
+ garantizarlos ( VERB_INFINITIVE VERB ) lemma=garantizar 
+ garantizarme ( VERB_INFINITIVE VERB ) lemma=garantizar 
+ garantizarnos ( VERB_INFINITIVE VERB ) lemma=garantizar 
+ garantizaron ( VERB ) lemma=garantizar 
+ garantizarse ( VERB_INFINITIVE VERB ) 
+ garantizará ( VERB ) lemma=garantizar 
+ garantizarán ( VERB ) lemma=garantizar 
+ garantizaría ( VERB ) lemma=garantizar 
+ garantizarían ( VERB ) lemma=garantizar 
+ garantizase ( VERB ) lemma=garantizar 
+ garantizasen ( VERB ) lemma=garantizar 
+ garantizo ( VERB ) lemma=garantizar 
+ garantizábamos ( VERB ) lemma=garantizar 
+ garantizándolas ( NOUN NOUN_GERUND ) lemma=garantizar 
+ garantizándoles ( NOUN NOUN_GERUND ) lemma=garantizar 
+ garantizándolo ( NOUN NOUN_GERUND ) lemma=garantizar 
+ garantizándose ( NOUN NOUN_GERUND ) lemma=garantizarse 
+ garantizándosele ( NOUN NOUN_GERUND ) lemma=garantizarse 
+ garantizáramos ( VERB ) lemma=garantizar 
+ garantizárnoslo ( VERB ) lemma=garantizar 
+ garantizársele ( VERB_INFINITIVE VERB ) lemma=garantizarse 
+ garantizó ( VERB ) lemma=garantizar 
+ garantía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ garantíar ( VERB ) 
+ garantías ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=garantía 
+ garbancito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=garbanzo 
+ garbanzo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ garbanzos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=garbanzo 
+ garbo ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
  garde ( ) 
- gardenia ( ) 
- garganta ( ) 
- gargantas ( ) 
- garra ( ) lemma=agarrar 
- garrafa ( ) 
- garrafas ( ) 
- garrapata ( ) 
- garrapatas ( ) 
- garras ( ) 
- garrido ( ) 
- garrocha ( ) 
- garrote ( ) 
- garrotes ( ) 
- garza ( ) 
- garzas ( ) 
- gas ( ) 
- gasa ( ) 
- gasas ( ) 
- gaseados ( ) 
- gaseosa ( ) 
- gaseosas ( ) 
- gaseoso ( ) 
- gaseosos ( ) 
- gases ( ) 
- gasificadores ( ) 
- gasoducto ( ) 
- gasoductos ( ) 
- gasolina ( ) 
- gasolinas ( ) 
- gasolinera ( ) 
- gasolineras ( ) 
- gasta ( ) 
- gastaba ( ) 
- gastaban ( ) 
- gastad ( ) 
- gastada ( ) 
- gastadas ( ) 
- gastado ( ) 
- gastados ( ) 
- gastamos ( ) 
- gastan ( ) 
- gastando ( ) 
- gastar ( ) 
- gastara ( ) 
- gastaran ( ) 
- gastaremos ( ) 
- gastarla ( ) 
- gastarle ( ) 
- gastarlo ( ) 
- gastarlos ( ) 
- gastarme ( ) 
- gastaron ( ) 
- gastarse ( ) 
- gastarte ( ) 
- gastará ( ) 
- gastarán ( ) 
- gastaría ( ) 
- gastaríamos ( ) 
- gastarían ( ) 
- gastas ( ) 
- gastase ( ) 
- gastaste ( ) 
- gaste ( ) 
- gastemos ( ) 
- gasten ( ) 
- gastes ( ) 
- gasto ( ) 
- gastos ( ) 
- gastritis ( ) 
- gastroduodenal ( ) 
- gastroenteritis ( ) 
- gastroenterología ( ) 
- gastroenterólogo ( ) 
- gastroesofágico ( ) 
- gastroesplénico ( ) 
- gastrointestinal ( ) 
- gastrointestinales ( ) 
- gastronomía ( ) 
- gastronómica ( ) 
- gastronómico ( ) 
- gastronómicos ( ) 
- gastropatía ( ) 
- gastrulación ( ) 
- gastándose ( ) 
- gastás ( ) 
- gasté ( ) 
- gastéis ( ) 
- gastó ( ) 
- gasóleo ( ) 
- gasóleos ( ) 
- gata ( ) 
- gatas ( ) 
+ gardenia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ garganta ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gargantas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=garganta 
+ garra ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ garrafa ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ garrafas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=garrafa 
+ garrapata ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ garrapatas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=garrapata 
+ garras ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=garra 
+ garrido ( ADJECTIVE ) 
+ garrocha ( VERB ) lemma=garrochar 
+ garrote ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ garrotes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=garrote 
+ garza ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ garzas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=garza 
+ gas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gasa ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gasas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gasa 
+ gaseados ( VERB_PAST_PARTICIPLE VERB ) lemma=gasear 
+ gaseosa ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=gaseoso 
+ gaseosas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gaseosa 
+ gaseoso ( ADJECTIVE ) 
+ gaseosos ( ADJECTIVE ) lemma=gaseoso 
+ gases ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gas 
+ gasificadores ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gasificador 
+ gasoducto ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gasoductos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gasoducto 
+ gasolina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gasolinas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gasolina 
+ gasolinera ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gasolineras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gasolinera 
+ gasta ( VERB ) lemma=gastar 
+ gastaba ( VERB ) lemma=gastar 
+ gastaban ( VERB ) lemma=gastar 
+ gastad ( VERB ) lemma=gastar 
+ gastada ( VERB_PAST_PARTICIPLE VERB ) lemma=gastar 
+ gastadas ( VERB_PAST_PARTICIPLE VERB ) lemma=gastar 
+ gastado ( VERB_PAST_PARTICIPLE VERB ) lemma=gastar 
+ gastados ( VERB_PAST_PARTICIPLE VERB ) lemma=gastar 
+ gastamos ( VERB ) lemma=gastar 
+ gastan ( VERB ) lemma=gastar 
+ gastando ( NOUN NOUN_GERUND ) lemma=gastar 
+ gastar ( VERB ) 
+ gastara ( VERB ) lemma=gastar 
+ gastaran ( VERB ) lemma=gastar 
+ gastaremos ( VERB ) lemma=gastar 
+ gastarla ( VERB_INFINITIVE VERB ) lemma=gastar 
+ gastarle ( VERB_INFINITIVE VERB ) lemma=gastar 
+ gastarlo ( VERB_INFINITIVE VERB ) lemma=gastar 
+ gastarlos ( VERB_INFINITIVE VERB ) lemma=gastar 
+ gastarme ( VERB_INFINITIVE VERB ) lemma=gastar 
+ gastaron ( VERB ) lemma=gastar 
+ gastarse ( VERB_INFINITIVE VERB ) 
+ gastarte ( VERB_INFINITIVE VERB ) lemma=gastar 
+ gastará ( VERB ) lemma=gastar 
+ gastarán ( VERB ) lemma=gastar 
+ gastaría ( VERB ) lemma=gastar 
+ gastaríamos ( VERB ) lemma=gastar 
+ gastarían ( VERB ) lemma=gastar 
+ gastas ( VERB ) lemma=gastar 
+ gastase ( VERB ) lemma=gastar 
+ gastaste ( VERB ) lemma=gastar 
+ gaste ( VERB ) lemma=gastar 
+ gastemos ( VERB ) lemma=gastar 
+ gasten ( VERB ) lemma=gastar 
+ gastes ( VERB ) lemma=gastar 
+ gasto ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ gastos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gasto 
+ gastritis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gastroduodenal ( ADJECTIVE ) 
+ gastroenteritis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gastroenterología ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gastroenterólogo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gastroesofágico ( ADJECTIVE ) 
+ gastroesplénico ( ADJECTIVE ) 
+ gastrointestinal ( ADJECTIVE ) 
+ gastrointestinales ( ADJECTIVE ) lemma=gastrointestinal 
+ gastronomía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gastronómica ( ADJECTIVE ) lemma=gastronómico 
+ gastronómico ( ADJECTIVE ) 
+ gastronómicos ( ADJECTIVE ) lemma=gastronómico 
+ gastropatía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gastrulación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gastándose ( VERB_PAST_PARTICIPLE VERB ) lemma=gastar 
+ gastás ( VERB ) lemma=gastar 
+ gasté ( VERB ) lemma=gastar 
+ gastéis ( VERB ) lemma=gastar 
+ gastó ( VERB ) lemma=gastar 
+ gasóleo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gasóleos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gasóleo 
+ gata ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gato 
+ gatas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gato 
  gate ( ) 
  gated ( ) 
- gateway ( ) 
- gatillo ( ) 
- gatito ( ) 
- gatitos ( ) 
- gato ( ) 
- gatos ( ) 
- gatt ( ) 
- gauchada ( ) 
+ gateway ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gatillo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gato 
+ gatito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gato 
+ gatitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gato 
+ gato ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gatos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gato 
+ gatt ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gauchada ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  gauge ( ) 
- gaussiana ( ) 
- gaussiano ( ) 
- gavetero ( ) 
- gaviotas ( ) 
- gay ( ) 
- gazpacho ( ) 
+ gaussiana ( ADJECTIVE ) lemma=gaussiano 
+ gaussiano ( ADJECTIVE ) 
+ gavetero ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gaviotas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gaviota 
+ gay ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ gazpacho ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  geant ( ) 
- gel ( ) 
- gelatina ( ) 
- gelatinas ( ) 
- gelatinosa ( ) 
- gelatinosas ( ) 
- geles ( ) 
- gemación ( ) 
- gemela ( ) 
- gemelas ( ) 
- gemelo ( ) 
- gemelos ( ) 
- gen ( ) 
- gendarme ( ) 
- gendarmes ( ) 
- genealogía ( ) 
- genealogías ( ) 
- genealógico ( ) 
- genealógicos ( ) 
- genera ( ) 
- generaba ( ) 
- generaban ( ) 
- generacional ( ) 
- generaciones ( ) 
- generación ( ) 
- generada ( ) 
- generadas ( ) 
- generado ( ) 
- generador ( ) 
- generadora ( ) 
- generadoras ( ) 
- generadores ( ) 
- generados ( ) 
- general ( ) 
- generales ( ) 
- generalice ( ) 
- generalidad ( ) 
- generalidades ( ) 
- generalista ( ) 
- generalistas ( ) 
- generaliza ( ) 
- generalizaciones ( ) 
- generalización ( ) 
- generalizada ( ) 
- generalizadas ( ) 
- generalizado ( ) 
- generalizados ( ) 
- generalizan ( ) 
- generalizando ( ) 
- generalizar ( ) 
- generalizara ( ) 
- generalizaran ( ) 
- generalizarse ( ) 
- generalizará ( ) 
- generalizase ( ) 
- generalizó ( ) 
- generalmente ( ) 
- generalísimo ( ) 
- generamos ( ) 
- generan ( ) 
- generando ( ) 
- generar ( ) 
- generara ( ) 
- generaran ( ) 
- generaremos ( ) 
- generaron ( ) 
- generarse ( ) 
- generará ( ) 
- generarán ( ) 
- generaría ( ) 
- generarían ( ) 
- generase ( ) 
- generativos ( ) 
- generatriz ( ) 
- genere ( ) 
- generemos ( ) 
- generen ( ) 
- genero ( ) 
- generosa ( ) 
- generosamente ( ) 
- generosas ( ) 
- generosidad ( ) 
- generosidades ( ) 
- generoso ( ) 
- generosos ( ) 
- generosísima ( ) 
- generosísimas ( ) 
- generó ( ) 
- genes ( ) 
- geneterplus ( ) 
- genetista ( ) 
- genetistas ( ) 
- genial ( ) 
- geniales ( ) 
- genialmente ( ) 
- genio ( ) 
- genios ( ) 
- genital ( ) 
- genitales ( ) 
- genitorrectal ( ) 
- genitourinario ( ) 
- genocidio ( ) 
- genocidios ( ) 
- genoma ( ) 
- genomas ( ) 
- genoteca ( ) 
- genotecas ( ) 
- genotipo ( ) 
- genotipos ( ) 
- genotípico ( ) 
- genovesa ( ) 
- genovés ( ) 
- gente ( ) lemma=agente 
- gentes ( ) 
- gentil ( ) 
- gentileza ( ) 
- gentilmente ( ) 
- genuina ( ) 
- genuinamente ( ) 
- genuinas ( ) 
- genuino ( ) 
- genuinos ( ) 
- genérica ( ) 
- genéricamente ( ) 
- genéricas ( ) 
- genérico ( ) 
- genéricos ( ) 
- genética ( ) 
- genéticamente ( ) 
- genéticas ( ) 
- genético ( ) 
- genético-poblacional ( ) 
- genéticos ( ) 
- genómico ( ) 
- geocronología ( ) 
- geoestacionaria ( ) 
- geoestacionario ( ) 
- geoestacionarios ( ) 
- geografía ( ) 
- geografías ( ) 
+ gel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gelatina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gelatinas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gelatina 
+ gelatinosa ( ADJECTIVE ) lemma=gelatinoso 
+ gelatinosas ( ADJECTIVE ) lemma=gelatinoso 
+ geles ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gel 
+ gemación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gemela ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gemelo 
+ gemelas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gemelo 
+ gemelo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gemelos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gemelo 
+ gen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gendarme ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gendarmes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gendarme 
+ genealogía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ genealogías ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=genealogía 
+ genealógico ( ADJECTIVE ) 
+ genealógicos ( ADJECTIVE ) lemma=genealógico 
+ genera ( VERB ) lemma=generar 
+ generaba ( VERB ) lemma=generar 
+ generaban ( VERB ) lemma=generar 
+ generacional ( ADJECTIVE ) 
+ generaciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=generación 
+ generación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ generada ( VERB_PAST_PARTICIPLE VERB ) lemma=generar 
+ generadas ( VERB_PAST_PARTICIPLE VERB ) lemma=generar 
+ generado ( VERB_PAST_PARTICIPLE VERB ) lemma=generar 
+ generador ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ generadora ( ADJECTIVE ) lemma=generador 
+ generadoras ( ADJECTIVE ) lemma=generador 
+ generadores ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=generador 
+ generados ( VERB_PAST_PARTICIPLE VERB ) lemma=generar 
+ general ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ generales ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=general 
+ generalice ( VERB ) lemma=generalizar 
+ generalidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ generalidades ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=generalidad 
+ generalista ( ADJECTIVE ) 
+ generalistas ( ADJECTIVE ) lemma=generalista 
+ generaliza ( VERB ) lemma=generalizar 
+ generalizaciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=generalización 
+ generalización ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ generalizada ( VERB_PAST_PARTICIPLE VERB ADJECTIVE ) lemma=generalizado 
+ generalizadas ( VERB_PAST_PARTICIPLE VERB ) lemma=generalizar 
+ generalizado ( VERB_PAST_PARTICIPLE VERB ) lemma=generalizar 
+ generalizados ( VERB_PAST_PARTICIPLE VERB ) lemma=generalizar 
+ generalizan ( VERB ) lemma=generalizar 
+ generalizando ( NOUN NOUN_GERUND ) lemma=generalizar 
+ generalizar ( VERB ) 
+ generalizara ( VERB ) lemma=generalizar 
+ generalizaran ( VERB ) lemma=generalizar 
+ generalizarse ( VERB_INFINITIVE VERB ) 
+ generalizará ( VERB ) lemma=generalizar 
+ generalizase ( VERB ) lemma=generalizar 
+ generalizó ( VERB ) lemma=generalizar 
+ generalmente ( ADVERB ) lemma=general|generalmente 
+ generalísimo ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=general 
+ generamos ( VERB ) lemma=generar 
+ generan ( VERB ) lemma=generar 
+ generando ( NOUN NOUN_GERUND ) lemma=generar 
+ generar ( VERB ) 
+ generara ( VERB ) lemma=generar 
+ generaran ( VERB ) lemma=generar 
+ generaremos ( VERB ) lemma=generar 
+ generaron ( VERB ) lemma=generar 
+ generarse ( VERB_INFINITIVE VERB ) 
+ generará ( VERB ) lemma=generar 
+ generarán ( VERB ) lemma=generar 
+ generaría ( VERB ) lemma=generar 
+ generarían ( VERB ) lemma=generar 
+ generase ( VERB ) lemma=generar 
+ generativos ( ADJECTIVE ) lemma=generativo 
+ generatriz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ genere ( VERB ) lemma=generar 
+ generemos ( VERB ) lemma=generar 
+ generen ( VERB ) lemma=generar 
+ genero ( VERB ) lemma=generar 
+ generosa ( ADJECTIVE ) lemma=generoso 
+ generosamente ( ADVERB ) lemma=generoso 
+ generosas ( ADJECTIVE ) lemma=generoso 
+ generosidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ generosidades ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=generosidad 
+ generoso ( ADJECTIVE ) 
+ generosos ( ADJECTIVE ) lemma=generoso 
+ generosísima ( ADJECTIVE ) lemma=generoso 
+ generosísimas ( ADJECTIVE ) lemma=generoso 
+ generó ( VERB ) lemma=generar 
+ genes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gen|genes 
+ geneterplus ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ genetista ( ADJECTIVE ) 
+ genetistas ( ADJECTIVE ) lemma=genetista 
+ genial ( ADJECTIVE ) 
+ geniales ( ADJECTIVE ) lemma=genial 
+ genialmente ( ADVERB ) lemma=genial 
+ genio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ genios ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=genio 
+ genital ( ADJECTIVE ) 
+ genitales ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=genital 
+ genitorrectal ( ADJECTIVE ) 
+ genitourinario ( ADJECTIVE ) 
+ genocidio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ genocidios ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=genocidio 
+ genoma ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ genomas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=genoma 
+ genoteca ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ genotecas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=genoteca 
+ genotipo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ genotipos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=genotipo 
+ genotípico ( ADJECTIVE ) 
+ genovesa ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=genovés 
+ genovés ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ gente ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gentes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gente 
+ gentil ( ADJECTIVE ) 
+ gentileza ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gentilmente ( ADVERB ) lemma=gentil 
+ genuina ( ADJECTIVE ) lemma=genuino 
+ genuinamente ( ADVERB ) lemma=genuino 
+ genuinas ( ADJECTIVE ) lemma=genuino 
+ genuino ( ADJECTIVE ) 
+ genuinos ( ADJECTIVE ) lemma=genuino 
+ genérica ( ADJECTIVE ) lemma=genérico 
+ genéricamente ( ADVERB ) lemma=genérico 
+ genéricas ( ADJECTIVE ) lemma=genérico 
+ genérico ( ADJECTIVE ) 
+ genéricos ( ADJECTIVE ) lemma=genérico 
+ genética ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=genético 
+ genéticamente ( ADVERB ) lemma=genético 
+ genéticas ( ADJECTIVE ) lemma=genético 
+ genético ( ADJECTIVE ) 
+ genético-poblacional ( ADJECTIVE ) 
+ genéticos ( ADJECTIVE ) lemma=genético 
+ genómico ( ADJECTIVE ) 
+ geocronología ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ geoestacionaria ( ADJECTIVE ) lemma=geoestacionario 
+ geoestacionario ( ADJECTIVE ) 
+ geoestacionarios ( ADJECTIVE ) lemma=geoestacionario 
+ geografía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ geografías ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=geografía 
  geographically ( ) 
- geográfica ( ) 
- geográficamente ( ) 
- geográficas ( ) 
- geográfico ( ) 
- geográficos ( ) 
- geología ( ) 
- geológica ( ) 
- geológicas ( ) 
- geológico ( ) 
- geológicos ( ) 
- geometría ( ) 
- geomorfología ( ) 
- geométrica ( ) 
- geométricamente ( ) 
- geométricas ( ) 
- geométrico ( ) 
- geométricos ( ) 
- geopolítica ( ) 
- geopolíticamente ( ) 
- geopolíticas ( ) 
- geopolítico ( ) 
- geopolíticos ( ) 
- geopotencial ( ) 
- geopresurizar ( ) 
- georgiana ( ) 
- georgianas ( ) 
- georgiano ( ) 
- georgianos ( ) 
- geotermico ( ) 
- geotérmica ( ) 
- geotérmicas ( ) 
- geotérmicos ( ) 
- geranio ( ) 
- geranios ( ) 
- gerencia ( ) 
- gerencias ( ) 
- gerente ( ) 
- gerentes ( ) 
- geriatra ( ) 
- geriatría ( ) 
- geriátrica ( ) 
- geriátrico ( ) 
- germana ( ) 
- germanas ( ) 
- germano ( ) 
- germanos ( ) 
- germen ( ) 
- germinación ( ) 
- germinado ( ) 
- germinal ( ) 
- germinales ( ) 
- germánica ( ) 
- germánicas ( ) 
- germánico ( ) 
- gerontogeriátrico ( ) 
- gerundense ( ) 
- gerundio ( ) 
- gerundios ( ) 
- gesta ( ) 
- gestacional ( ) 
- gestaciones ( ) 
- gestación ( ) 
- gestada ( ) 
- gestado ( ) 
- gestando ( ) 
- gestante ( ) 
- gestantes ( ) 
- gestar ( ) 
- gestara ( ) 
- gestaron ( ) 
- gestas ( ) 
- gesten ( ) 
- gestiona ( ) 
- gestionaba ( ) 
- gestionada ( ) 
- gestionadas ( ) 
- gestionado ( ) 
- gestionados ( ) 
- gestionamos ( ) 
- gestionan ( ) 
- gestionando ( ) 
- gestionar ( ) 
- gestionarla ( ) 
- gestionarlas ( ) 
- gestionarlo ( ) 
- gestionarlos ( ) 
- gestionarse ( ) 
- gestionará ( ) 
- gestionase ( ) 
- gestione ( ) 
- gestionemos ( ) 
- gestionen ( ) 
- gestiones ( ) 
- gestionó ( ) 
- gestión ( ) 
- gesto ( ) 
- gestor ( ) 
- gestora ( ) 
- gestoras ( ) 
- gestores ( ) 
- gestos ( ) 
- gestó ( ) 
- get ( ) 
- gibas ( ) 
- gigante ( ) 
- gigantes ( ) 
- gigantesca ( ) 
- gigantescas ( ) 
- gigantesco ( ) 
- gigantescos ( ) 
- gil ( ) 
- gilipollas ( ) 
- gimnasia ( ) 
- gimnasio ( ) 
- gimnasios ( ) 
- gimnasta ( ) 
- gimnastas ( ) 
- gimnástica ( ) 
- ginebra ( ) 
- ginebras ( ) 
- ginebrina ( ) 
- ginecobstetricia ( ) 
- ginecología ( ) 
- ginecológica ( ) 
- ginecológico ( ) 
- ginecomastia ( ) 
- ginecóloga ( ) 
- ginecólogo ( ) 
- ginecólogos ( ) 
- gira ( ) 
- giraba ( ) 
- giraban ( ) 
- girada ( ) 
- giradas ( ) 
- girado ( ) 
- giramos ( ) 
- giran ( ) 
- girando ( ) 
- girar ( ) 
- giraron ( ) 
- girará ( ) 
- giras ( ) 
- girasa ( ) 
- girasar ( ) 
- girasol ( ) 
- girasoles ( ) 
- giratoria ( ) 
- giratorio ( ) 
- gire ( ) 
- giren ( ) 
- giro ( ) 
- girona ( ) 
- giros ( ) 
- girás ( ) 
- giró ( ) 
- gitana ( ) 
- gitanas ( ) 
- gitano ( ) 
- gitanos ( ) 
+ geográfica ( ADJECTIVE ) lemma=geográfico 
+ geográficamente ( ADVERB ) lemma=geográfico 
+ geográficas ( ADJECTIVE ) lemma=geográfico 
+ geográfico ( ADJECTIVE ) 
+ geográficos ( ADJECTIVE ) lemma=geográfico 
+ geología ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ geológica ( ADJECTIVE ) lemma=geológico 
+ geológicas ( ADJECTIVE ) lemma=geológico 
+ geológico ( ADJECTIVE ) 
+ geológicos ( ADJECTIVE ) lemma=geológico 
+ geometría ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ geomorfología ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ geométrica ( ADJECTIVE ) lemma=geométrico 
+ geométricamente ( ADVERB ) 
+ geométricas ( ADJECTIVE ) lemma=geométrico 
+ geométrico ( ADJECTIVE ) 
+ geométricos ( ADJECTIVE ) lemma=geométrico 
+ geopolítica ( ADJECTIVE ) lemma=geopolítico 
+ geopolíticamente ( ADVERB ) lemma=geopolítico 
+ geopolíticas ( ADJECTIVE ) lemma=geopolítico 
+ geopolítico ( ADJECTIVE ) 
+ geopolíticos ( ADJECTIVE ) lemma=geopolítico 
+ geopotencial ( ADJECTIVE ) 
+ geopresurizar ( VERB_PAST_PARTICIPLE VERB ) 
+ georgiana ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=georgiano 
+ georgianas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=georgiano 
+ georgiano ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ georgianos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=georgiano 
+ geotermico ( ADJECTIVE ) 
+ geotérmica ( ADJECTIVE ) lemma=geotérmico 
+ geotérmicas ( ADJECTIVE ) lemma=geotérmico 
+ geotérmicos ( ADJECTIVE ) lemma=geotérmico 
+ geranio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ geranios ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=geranio 
+ gerencia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gerencias ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gerencia 
+ gerente ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gerentes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gerente 
+ geriatra ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ geriatría ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ geriátrica ( ADJECTIVE ) lemma=geriátrico 
+ geriátrico ( ADJECTIVE ) 
+ germana ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=germano 
+ germanas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=germano 
+ germano ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ germanos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=germano 
+ germen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ germinación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ germinado ( VERB_PAST_PARTICIPLE VERB ) lemma=germinar 
+ germinal ( ADJECTIVE ) 
+ germinales ( ADJECTIVE ) lemma=germinal 
+ germánica ( ADJECTIVE ) lemma=germánico 
+ germánicas ( ADJECTIVE ) lemma=germánico 
+ germánico ( ADJECTIVE ) 
+ gerontogeriátrico ( ADJECTIVE ) 
+ gerundense ( ADJECTIVE ) 
+ gerundio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gerundios ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gerundio 
+ gesta ( VERB ) lemma=gestar 
+ gestacional ( ADJECTIVE ) 
+ gestaciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gestación 
+ gestación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gestada ( VERB_PAST_PARTICIPLE VERB ) lemma=gestar 
+ gestado ( VERB_PAST_PARTICIPLE VERB ) lemma=gestar 
+ gestando ( NOUN NOUN_GERUND ) lemma=gestar 
+ gestante ( ADJECTIVE ) 
+ gestantes ( ADJECTIVE ) lemma=gestante 
+ gestar ( VERB ) 
+ gestara ( VERB ) lemma=gestar 
+ gestaron ( VERB ) lemma=gestar 
+ gestas ( VERB ) lemma=gestar 
+ gesten ( VERB ) lemma=gestar 
+ gestiona ( VERB ) lemma=gestionar 
+ gestionaba ( VERB ) lemma=gestionar 
+ gestionada ( VERB_PAST_PARTICIPLE VERB ) lemma=gestionar 
+ gestionadas ( VERB_PAST_PARTICIPLE VERB ) lemma=gestionar 
+ gestionado ( VERB_PAST_PARTICIPLE VERB ) lemma=gestionar 
+ gestionados ( VERB_PAST_PARTICIPLE VERB ) lemma=gestionar 
+ gestionamos ( VERB ) lemma=gestionar 
+ gestionan ( VERB ) lemma=gestionar 
+ gestionando ( NOUN NOUN_GERUND ) lemma=gestionar 
+ gestionar ( VERB ) 
+ gestionarla ( VERB_INFINITIVE VERB ) lemma=gestionar 
+ gestionarlas ( VERB_INFINITIVE VERB ) lemma=gestionar 
+ gestionarlo ( VERB_INFINITIVE VERB ) lemma=gestionar 
+ gestionarlos ( VERB_INFINITIVE VERB ) lemma=gestionar 
+ gestionarse ( VERB ) lemma=gestionar 
+ gestionará ( VERB ) lemma=gestionar 
+ gestionase ( VERB ) lemma=gestionar 
+ gestione ( VERB ) lemma=gestionar 
+ gestionemos ( VERB ) lemma=gestionar 
+ gestionen ( VERB ) lemma=gestionar 
+ gestiones ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=gestión 
+ gestionó ( VERB ) lemma=gestionar 
+ gestión ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gesto ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ gestor ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gestora ( ADJECTIVE ) lemma=gestor 
+ gestoras ( ADJECTIVE ) lemma=gestor 
+ gestores ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gestor 
+ gestos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gesto 
+ gestó ( VERB ) lemma=gestar 
+ get ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gibas ( VERB ) lemma=gibar 
+ gigante ( ADJECTIVE ) 
+ gigantes ( ADJECTIVE ) lemma=gigante 
+ gigantesca ( ADJECTIVE ) lemma=gigantesco 
+ gigantescas ( ADJECTIVE ) lemma=gigantesco 
+ gigantesco ( ADJECTIVE ) 
+ gigantescos ( ADJECTIVE ) lemma=gigantesco 
+ gil ( ADJECTIVE ) 
+ gilipollas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gimnasia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gimnasio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gimnasios ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gimnasio 
+ gimnasta ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gimnastas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gimnasta 
+ gimnástica ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ginebra ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ginebras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ginebra 
+ ginebrina ( ADJECTIVE ) lemma=ginebrino 
+ ginecobstetricia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ginecología ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ginecológica ( ADJECTIVE ) lemma=ginecológico 
+ ginecológico ( ADJECTIVE ) 
+ ginecomastia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ginecóloga ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ginecólogo 
+ ginecólogo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ ginecólogos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=ginecólogo 
+ gira ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ giraba ( VERB ) lemma=girar 
+ giraban ( VERB ) lemma=girar 
+ girada ( VERB_PAST_PARTICIPLE VERB ) lemma=girar 
+ giradas ( VERB_PAST_PARTICIPLE VERB ) lemma=girar 
+ girado ( VERB_PAST_PARTICIPLE VERB ) lemma=girar 
+ giramos ( VERB ) lemma=girar 
+ giran ( VERB ) lemma=girar 
+ girando ( NOUN NOUN_GERUND ) lemma=girar 
+ girar ( VERB ) 
+ giraron ( VERB ) lemma=girar 
+ girará ( VERB ) lemma=girar 
+ giras ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=gira 
+ girasa ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ girasar ( VERB ) 
+ girasol ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ girasoles ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=girasol 
+ giratoria ( ADJECTIVE ) lemma=giratorio 
+ giratorio ( ADJECTIVE ) 
+ gire ( VERB ) lemma=girar 
+ giren ( VERB ) lemma=girar 
+ giro ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ girona ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gira 
+ giros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=giro 
+ girás ( VERB ) lemma=girar 
+ giró ( VERB ) lemma=girar 
+ gitana ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=gitano 
+ gitanas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=gitano 
+ gitano ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ gitanos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=gitano 
  given ( ) 
  giving ( ) 
- glacial ( ) 
- glaciar ( ) 
- glaciares ( ) 
- glande ( ) 
- glandular ( ) 
- glandulares ( ) 
- glaucoma ( ) 
- glenoidea ( ) 
- gliales ( ) 
- glibenclamir ( ) 
- glicar ( ) 
- glicasar ( ) 
- glicemia ( ) 
- glicemias ( ) 
- gliceraldehído ( ) 
- glicerina ( ) 
- glicerofosfolípido ( ) 
- glicerol ( ) 
- glicerolfosfato ( ) 
- glicilalanina ( ) 
- glicina ( ) 
- glicinamir ( ) 
- gliclazida ( ) 
- glicofítico ( ) 
- glicolisis ( ) 
- glicoproteínas ( ) 
- glicosaminoglicano ( ) 
- glicosilación ( ) 
- glicosilada ( ) 
- glicosilar ( ) 
- glicosídicos ( ) 
- glicémico ( ) 
- glicógeno ( ) 
- glioxilato ( ) 
- global ( ) 
- globales ( ) 
- globalización ( ) 
- globalizador ( ) 
- globalizadora ( ) 
- globalmente ( ) 
- globina ( ) 
- globinas ( ) 
- globitos ( ) 
- globo ( ) 
- globos ( ) 
- globular ( ) 
- globulina ( ) 
- glomerular ( ) 
- glomerulares ( ) 
- glomerulopatía ( ) 
- glomérulo ( ) 
- gloria ( ) 
- glorias ( ) 
- glorieta ( ) 
- glorificara ( ) 
- glorio ( ) 
- gloriosa ( ) 
- glorioso ( ) 
- gloriosos ( ) 
- glosa ( ) 
- glosaban ( ) 
- glosado ( ) 
- glosar ( ) 
- glositis ( ) 
- glosó ( ) 
- glotones ( ) 
- glotón ( ) 
- glucagon ( ) 
- glucagón ( ) 
- glucano ( ) 
- glucar ( ) 
- glucemia ( ) 
- glucemias ( ) 
- glucocorticoides ( ) 
- glucocálix ( ) 
- glucoesfingolípido ( ) 
- glucogenina ( ) 
- glucogenosintetasa ( ) 
- glucogenólisis ( ) 
- glucolisis ( ) 
- glucolípidos ( ) 
- glucolítico ( ) 
- gluconeogenético ( ) 
- gluconeogénesis ( ) 
- glucopiranoso ( ) 
- glucoproteína ( ) 
- glucoproteínas ( ) 
- glucosa ( ) 
- glucosado ( ) 
- glucosaoxidasa ( ) 
- glucosas ( ) 
- glucosil ( ) 
- glucosilar ( ) 
- glucosuria ( ) 
- glucosídico ( ) 
- glucémica ( ) 
- glucémico ( ) 
- glucídico ( ) 
- glucógeno ( ) 
- glucógeno-fosforilasa ( ) 
- glucólisis ( ) 
- glutamato ( ) 
- glutamina ( ) 
- glutatión ( ) 
- gluteogonocóccico ( ) 
- glutámico ( ) 
- glutámico-pirúvico ( ) 
- glándula ( ) 
- glándulas ( ) 
- glóbulo ( ) 
- glóbulos ( ) 
- glúcido ( ) 
- glúcidos ( ) 
- glúteo ( ) 
- gobernaba ( ) 
- gobernaban ( ) 
- gobernabilidad ( ) 
- gobernaciones ( ) 
- gobernación ( ) 
- gobernada ( ) 
- gobernadas ( ) 
- gobernado ( ) 
- gobernador ( ) 
- gobernadora ( ) 
- gobernadores ( ) 
- gobernados ( ) 
- gobernando ( ) 
- gobernante ( ) 
- gobernantes ( ) 
- gobernar ( ) 
- gobernara ( ) 
- gobernaran ( ) 
- gobernaron ( ) 
- gobernará ( ) 
- gobernarán ( ) 
- gobernaría ( ) 
- gobernase ( ) 
- gobernó ( ) 
- gobierna ( ) 
- gobiernan ( ) 
- gobierne ( ) 
- gobierno ( ) 
- gobiernos ( ) 
- goce ( ) 
- gocemos ( ) 
- gocen ( ) 
- gol ( ) 
- golazo ( ) 
- golazos ( ) 
- golea ( ) 
- goleada ( ) 
- goleado ( ) 
- goleador ( ) 
- goleadores ( ) 
- goleados ( ) 
- golean ( ) 
- golear ( ) 
- golearon ( ) 
- goleo ( ) 
- goles ( ) 
- goleó ( ) 
- golf ( ) 
- golfillo ( ) 
- golfista ( ) 
- golfistas ( ) 
- golfo ( ) 
- golfos ( ) 
- golgi ( ) 
- golondrinas ( ) 
- golosa ( ) 
- golosinas ( ) 
- goloso ( ) 
- golosos ( ) 
- golpe ( ) 
- golpea ( ) 
- golpeaba ( ) 
- golpeaban ( ) 
- golpeada ( ) 
- golpeadas ( ) 
- golpeado ( ) 
- golpeados ( ) 
- golpean ( ) 
- golpeando ( ) 
- golpear ( ) 
- golpearlo ( ) 
- golpearnos ( ) 
- golpearon ( ) 
- golpeará ( ) 
- golpearé ( ) 
- golpeas ( ) 
- golpeemos ( ) 
- golpes ( ) 
- golpeteaba ( ) 
- golpeándoles ( ) 
- golpeándonos ( ) 
- golpeándote ( ) 
- golpeó ( ) 
- golpista ( ) 
- golpistas ( ) 
- goma ( ) 
- gomas ( ) 
- gomera ( ) 
- gonadal ( ) 
- gonadotrofo ( ) 
- gonadotropa ( ) 
- gonadotropina ( ) 
- gonioscopia ( ) 
- goniómetros ( ) 
- gonocito ( ) 
- gonocóccico ( ) 
- gonodoblastoma ( ) 
- gonosómico ( ) 
- gopher ( ) 
- gorda ( ) 
- gordas ( ) 
- gordiano ( ) 
- gordita ( ) 
- gordito ( ) 
- gorditos ( ) 
- gordo ( ) 
- gordos ( ) 
- gordote ( ) 
- gordura ( ) 
- gordísima ( ) 
- gordísimo ( ) 
- gordísimos ( ) 
- gorgojos ( ) 
- gorra ( ) 
- gorras ( ) 
- gorriones ( ) 
- gorritos ( ) 
- gorrión ( ) 
- gorro ( ) 
- gota ( ) lemma=agotar 
- gotas ( ) 
- gotea ( ) 
- goteo ( ) 
- gotera ( ) 
- goteras ( ) 
- goticas ( ) 
- gotita ( ) 
- gotitas ( ) 
+ glacial ( ADJECTIVE ) 
+ glaciar ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glaciares ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=glaciar 
+ glande ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glandular ( ADJECTIVE ) 
+ glandulares ( ADJECTIVE ) lemma=glandular 
+ glaucoma ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glenoidea ( ADJECTIVE ) lemma=glenoideo 
+ gliales ( ADJECTIVE ) lemma=glial 
+ glibenclamir ( VERB_PAST_PARTICIPLE VERB ) 
+ glicar ( VERB_PAST_PARTICIPLE VERB ) 
+ glicasar ( VERB_PAST_PARTICIPLE VERB ) 
+ glicemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glicemias ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=glicemia 
+ gliceraldehído ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glicerina ( VERB ) lemma=glicerinar 
+ glicerofosfolípido ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glicerol ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glicerolfosfato ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glicilalanina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glicina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glicinamir ( VERB_PAST_PARTICIPLE VERB ) 
+ gliclazida ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glicofítico ( ADJECTIVE ) 
+ glicolisis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glicoproteínas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=glicoproteína 
+ glicosaminoglicano ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ glicosilación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glicosilada ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glicosilar ( VERB_PAST_PARTICIPLE VERB ) 
+ glicosídicos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=glicósido 
+ glicémico ( ADJECTIVE ) 
+ glicógeno ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glioxilato ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ global ( ADJECTIVE ) 
+ globales ( ADJECTIVE ) lemma=global 
+ globalización ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ globalizador ( ADJECTIVE ) 
+ globalizadora ( ADJECTIVE ) lemma=globalizador 
+ globalmente ( ADVERB ) lemma=global 
+ globina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ globinas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=globina 
+ globitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=globo 
+ globo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ globos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=globo 
+ globular ( ADJECTIVE ) 
+ globulina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glomerular ( ADJECTIVE ) 
+ glomerulares ( ADJECTIVE ) lemma=glomerular 
+ glomerulopatía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glomérulo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gloria ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ glorias ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=gloria 
+ glorieta ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glorificara ( VERB ) lemma=glorificar 
+ glorio ( VERB ) lemma=gloriar 
+ gloriosa ( ADJECTIVE ) lemma=glorioso 
+ glorioso ( ADJECTIVE ) 
+ gloriosos ( ADJECTIVE ) lemma=glorioso 
+ glosa ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ glosaban ( VERB ) lemma=glosar 
+ glosado ( VERB_PAST_PARTICIPLE VERB ) lemma=glosar 
+ glosar ( VERB ) 
+ glositis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glosó ( VERB ) lemma=glosar 
+ glotones ( ADJECTIVE ) lemma=glotón 
+ glotón ( ADJECTIVE ) 
+ glucagon ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glucagón ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glucano ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glucar ( VERB_PAST_PARTICIPLE VERB ) 
+ glucemia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glucemias ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=glucemia 
+ glucocorticoides ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=glucocorticoide 
+ glucocálix ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glucoesfingolípido ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ glucogenina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glucogenosintetasa ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glucogenólisis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glucolisis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glucolípidos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=glucolípido 
+ glucolítico ( ADJECTIVE ) 
+ gluconeogenético ( ADJECTIVE ) 
+ gluconeogénesis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glucopiranoso ( ADJECTIVE ) 
+ glucoproteína ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glucoproteínas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=glucoproteína 
+ glucosa ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glucosado ( ADJECTIVE ) 
+ glucosaoxidasa ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glucosas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=glucosa 
+ glucosil ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glucosilar ( VERB_PAST_PARTICIPLE VERB ) 
+ glucosuria ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glucosídico ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ glucémica ( ADJECTIVE ) lemma=glucémico 
+ glucémico ( ADJECTIVE ) 
+ glucídico ( ADJECTIVE ) 
+ glucógeno ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glucógeno-fosforilasa ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glucólisis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glutamato ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glutamina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glutatión ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gluteogonocóccico ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glutámico ( ADJECTIVE ) 
+ glutámico-pirúvico ( ADJECTIVE ) 
+ glándula ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glándulas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=glándula 
+ glóbulo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glóbulos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=glóbulo 
+ glúcido ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ glúcidos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=glúcido 
+ glúteo ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ gobernaba ( VERB ) lemma=gobernar 
+ gobernaban ( VERB ) lemma=gobernar 
+ gobernabilidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gobernaciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gobernación 
+ gobernación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gobernada ( VERB_PAST_PARTICIPLE VERB ) lemma=gobernar 
+ gobernadas ( VERB_PAST_PARTICIPLE VERB ) lemma=gobernar 
+ gobernado ( VERB_PAST_PARTICIPLE VERB ) lemma=gobernar 
+ gobernador ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gobernadora ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gobernador 
+ gobernadores ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gobernador 
+ gobernados ( VERB_PAST_PARTICIPLE VERB ) lemma=gobernar 
+ gobernando ( NOUN NOUN_GERUND ) lemma=gobernar 
+ gobernante ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ gobernantes ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=gobernante 
+ gobernar ( VERB ) 
+ gobernara ( VERB ) lemma=gobernar 
+ gobernaran ( VERB ) lemma=gobernar 
+ gobernaron ( VERB ) lemma=gobernar 
+ gobernará ( VERB ) lemma=gobernar 
+ gobernarán ( VERB ) lemma=gobernar 
+ gobernaría ( VERB ) lemma=gobernar 
+ gobernase ( VERB ) lemma=gobernar 
+ gobernó ( VERB ) lemma=gobernar 
+ gobierna ( VERB ) lemma=gobernar 
+ gobiernan ( VERB ) lemma=gobernar 
+ gobierne ( VERB ) lemma=gobernar 
+ gobierno ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ gobiernos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gobierno 
+ goce ( VERB ) lemma=gozar 
+ gocemos ( VERB ) lemma=gozar 
+ gocen ( VERB ) lemma=gozar 
+ gol ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ golazo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ golazos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=golazo 
+ golea ( VERB ) lemma=golear 
+ goleada ( VERB_PAST_PARTICIPLE VERB ) lemma=golear 
+ goleado ( VERB_PAST_PARTICIPLE VERB ) lemma=golear 
+ goleador ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ goleadores ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=goleador 
+ goleados ( VERB_PAST_PARTICIPLE VERB ) lemma=golear 
+ golean ( VERB ) lemma=golear 
+ golear ( VERB ) 
+ golearon ( VERB ) lemma=golear 
+ goleo ( VERB ) lemma=golear 
+ goles ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gol 
+ goleó ( VERB ) lemma=golear 
+ golf ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ golfillo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ golfista ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ golfistas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=golfista 
+ golfo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ golfos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=golfo 
+ golgi ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ golondrinas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=golondrina 
+ golosa ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=goloso 
+ golosinas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=golosina 
+ goloso ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ golosos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=goloso 
+ golpe ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ golpea ( VERB ) lemma=golpear 
+ golpeaba ( VERB ) lemma=golpear 
+ golpeaban ( VERB ) lemma=golpear 
+ golpeada ( VERB_PAST_PARTICIPLE VERB ) lemma=golpear 
+ golpeadas ( VERB_PAST_PARTICIPLE VERB ) lemma=golpear 
+ golpeado ( VERB_PAST_PARTICIPLE VERB ) lemma=golpear 
+ golpeados ( VERB_PAST_PARTICIPLE VERB ) lemma=golpear 
+ golpean ( VERB ) lemma=golpear 
+ golpeando ( NOUN NOUN_GERUND ) lemma=golpear 
+ golpear ( VERB ) 
+ golpearlo ( VERB_INFINITIVE VERB ) lemma=golpear 
+ golpearnos ( VERB_INFINITIVE VERB ) lemma=golpear 
+ golpearon ( VERB ) lemma=golpear 
+ golpeará ( VERB ) lemma=golpear 
+ golpearé ( VERB ) lemma=golpear 
+ golpeas ( VERB ) lemma=golpear 
+ golpeemos ( VERB ) lemma=golpear 
+ golpes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=golpe 
+ golpeteaba ( VERB ) lemma=golpetear 
+ golpeándoles ( NOUN NOUN_GERUND ) lemma=golpear 
+ golpeándonos ( NOUN NOUN_GERUND ) lemma=golpear 
+ golpeándote ( NOUN NOUN_GERUND ) lemma=golpear 
+ golpeó ( VERB ) lemma=golpear 
+ golpista ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ golpistas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=golpista 
+ goma ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gomas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=goma 
+ gomera ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gonadal ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gonadotrofo ( ADJECTIVE ) 
+ gonadotropa ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gonadotropina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gonioscopia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ goniómetros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=goniómetro 
+ gonocito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gonocóccico ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gonodoblastoma ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gonosómico ( ADJECTIVE ) 
+ gopher ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gorda ( ADJECTIVE ) lemma=gordo 
+ gordas ( ADJECTIVE ) lemma=gordo 
+ gordiano ( ADJECTIVE ) 
+ gordita ( ADJECTIVE ) lemma=gordo 
+ gordito ( ADJECTIVE ) lemma=gordo 
+ gorditos ( ADJECTIVE ) lemma=gordo 
+ gordo ( ADJECTIVE ) 
+ gordos ( ADJECTIVE ) lemma=gordo 
+ gordote ( ADJECTIVE ) lemma=gordo 
+ gordura ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gordísima ( ADJECTIVE ) lemma=gordo 
+ gordísimo ( ADJECTIVE ) lemma=gordo 
+ gordísimos ( ADJECTIVE ) lemma=gordo 
+ gorgojos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gorgojo 
+ gorra ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gorras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gorra 
+ gorriones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gorrión 
+ gorritos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gorro 
+ gorrión ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gorro ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gota ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gotas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gota 
+ gotea ( VERB ) lemma=gotear 
+ goteo ( VERB ) lemma=gotear 
+ gotera ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ goteras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gotera 
+ goticas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gota 
+ gotita ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gota 
+ gotitas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gota 
  governing ( ) 
- goza ( ) 
- gozaba ( ) 
- gozaban ( ) 
- gozada ( ) 
- gozado ( ) 
- gozamos ( ) 
- gozan ( ) 
- gozando ( ) 
- gozar ( ) 
- gozara ( ) 
- gozaran ( ) 
- gozaremos ( ) 
- gozaron ( ) 
- gozará ( ) 
- gozarán ( ) 
- gozaría ( ) 
- gozo ( ) 
- gozosa ( ) 
- gozábamos ( ) 
- gozó ( ) 
- graba ( ) 
- grabaciones ( ) 
- grabación ( ) 
- grabada ( ) 
- grabadas ( ) 
- grabado ( ) 
- grabadora ( ) 
- grabadoras ( ) 
- grabadores ( ) 
- grabados ( ) 
- grabamos ( ) 
- graban ( ) 
- grabando ( ) 
- grabar ( ) 
- grabara ( ) 
- grabarles ( ) 
- grabarlo ( ) 
- grabaron ( ) 
- grabarse ( ) 
- grabará ( ) 
- grabas ( ) 
- grabase ( ) 
- grabaste ( ) 
- grabe ( ) 
- graben ( ) 
- grabo ( ) 
- grabé ( ) 
- grabó ( ) 
- gracia ( ) 
- gracias ( ) 
- graciosa ( ) 
- graciosamente ( ) 
- graciosas ( ) 
- graciosillos ( ) 
- gracioso ( ) 
- graciosos ( ) 
- graciosísimo ( ) 
- grada ( ) lemma=agradar 
- gradación ( ) 
- gradas ( ) 
- graderia ( ) 
- grades ( ) 
- gradiente ( ) 
- gradientes ( ) 
- graditos ( ) 
- grado ( ) 
- grados ( ) 
- graduaban ( ) 
- graduación ( ) 
- graduada ( ) 
- graduado ( ) 
- graduados ( ) 
- graduai ( ) 
- gradual ( ) 
- graduales ( ) 
- gradualmente ( ) 
- graduando ( ) 
- graduar ( ) 
- graduarlo ( ) 
- graduarse ( ) 
- graduasen ( ) 
- gradué ( ) 
- graduó ( ) 
- gradúas ( ) 
- gradúe ( ) 
- gradúo ( ) 
- grafismo ( ) 
- grafismos ( ) 
- grafito ( ) 
- grafitos ( ) 
- grafo ( ) 
- grafológicas ( ) 
- gram ( ) 
- grama ( ) 
- gramatical ( ) 
- gramaticales ( ) 
- gramaticalmente ( ) 
- gramilla ( ) 
- gramnegativo ( ) 
- gramo ( ) 
- gramos ( ) 
- grampositivo ( ) 
- gramática ( ) 
- gramáticas ( ) 
- gramático ( ) 
- gramínea ( ) 
- gran ( ) 
- grana ( ) 
- granada ( ) 
- granadas ( ) 
- granado ( ) 
- granados ( ) 
- grande ( ) lemma=agrandar 
- grandecita ( ) 
- grandecitas ( ) 
- grandecito ( ) 
- grandecitos ( ) 
- grandemente ( ) 
- grandes ( ) 
- grandeza ( ) 
- grandezas ( ) 
- grandilocuentes ( ) 
- grandiosa ( ) 
- grandiosas ( ) 
- grandioso ( ) 
- grandiosos ( ) 
- grandota ( ) 
- grandote ( ) 
- grandotota ( ) 
- grandísima ( ) 
- grandísimas ( ) 
- grandísimo ( ) 
- grane ( ) 
- granero ( ) 
- graneros ( ) 
- granitico ( ) 
- granito ( ) 
- granitos ( ) 
- granizo ( ) 
- granja ( ) 
- granjas ( ) 
- granjeado ( ) 
- granjear ( ) 
- granjearon ( ) 
- granjearse ( ) 
- granjeará ( ) 
- granjearía ( ) 
- granjee ( ) 
- granjero ( ) 
- granjeros ( ) 
- granjeándose ( ) 
- granjeó ( ) 
- grano ( ) 
- granos ( ) 
- granulado ( ) 
- granular ( ) 
- granulares ( ) 
- granularidad ( ) 
- granules ( ) 
- granulocito-macrófago ( ) 
- granulocitos ( ) 
- granulocitosis ( ) 
- granuloma ( ) 
- granulomas ( ) 
- granulomatosa ( ) 
- granulomatosis ( ) 
- granulosa ( ) 
- granuloso ( ) 
- granulosos ( ) 
+ goza ( VERB ) lemma=gozar 
+ gozaba ( VERB ) lemma=gozar 
+ gozaban ( VERB ) lemma=gozar 
+ gozada ( VERB_PAST_PARTICIPLE VERB ) lemma=gozar 
+ gozado ( VERB_PAST_PARTICIPLE VERB ) lemma=gozar 
+ gozamos ( VERB ) lemma=gozar 
+ gozan ( VERB ) lemma=gozar 
+ gozando ( NOUN NOUN_GERUND ) lemma=gozar 
+ gozar ( VERB ) 
+ gozara ( VERB ) lemma=gozar 
+ gozaran ( VERB ) lemma=gozar 
+ gozaremos ( VERB ) lemma=gozar 
+ gozaron ( VERB ) lemma=gozar 
+ gozará ( VERB ) lemma=gozar 
+ gozarán ( VERB ) lemma=gozar 
+ gozaría ( VERB ) lemma=gozar 
+ gozo ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ gozosa ( ADJECTIVE ) lemma=gozoso 
+ gozábamos ( VERB ) lemma=gozar 
+ gozó ( VERB ) lemma=gozar 
+ graba ( VERB ) lemma=grabar 
+ grabaciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=grabación 
+ grabación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ grabada ( VERB_PAST_PARTICIPLE VERB ) lemma=grabar 
+ grabadas ( VERB_PAST_PARTICIPLE VERB ) lemma=grabar 
+ grabado ( VERB_PAST_PARTICIPLE NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ grabadora ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ grabadoras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=grabadora 
+ grabadores ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=grabador 
+ grabados ( VERB_PAST_PARTICIPLE VERB ) lemma=grabar 
+ grabamos ( VERB ) lemma=grabar 
+ graban ( VERB ) lemma=grabar 
+ grabando ( NOUN NOUN_GERUND ) lemma=grabar 
+ grabar ( VERB ) 
+ grabara ( VERB ) lemma=grabar 
+ grabarles ( VERB_INFINITIVE VERB ) lemma=grabar 
+ grabarlo ( VERB_INFINITIVE VERB ) lemma=grabar 
+ grabaron ( VERB ) lemma=grabar 
+ grabarse ( VERB_INFINITIVE VERB ) 
+ grabará ( VERB ) lemma=grabar 
+ grabas ( VERB ) lemma=grabar 
+ grabase ( VERB ) lemma=grabar 
+ grabaste ( VERB ) lemma=grabar 
+ grabe ( VERB ) lemma=grabar 
+ graben ( VERB ) lemma=grabar 
+ grabo ( VERB ) lemma=grabar 
+ grabé ( VERB ) lemma=grabar 
+ grabó ( VERB ) lemma=grabar 
+ gracia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gracias ( NOUN PREPOSITION NOUN_SINGULAR NOUN_PLURAL ) lemma=gracia 
+ graciosa ( ADJECTIVE ) lemma=gracioso 
+ graciosamente ( ADVERB ) lemma=gracioso 
+ graciosas ( ADJECTIVE ) lemma=gracioso 
+ graciosillos ( ADJECTIVE ) lemma=gracioso 
+ gracioso ( ADJECTIVE ) 
+ graciosos ( ADJECTIVE ) lemma=gracioso 
+ graciosísimo ( ADJECTIVE ) lemma=gracioso 
+ grada ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ gradación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gradas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=grada 
+ graderia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gradería 
+ grades ( VERB ) lemma=gradar 
+ gradiente ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gradientes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gradiente 
+ graditos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=grado 
+ grado ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ grados ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=grado 
+ graduaban ( VERB ) lemma=graduar 
+ graduación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ graduada ( VERB_PAST_PARTICIPLE VERB ) lemma=graduar 
+ graduado ( VERB_PAST_PARTICIPLE VERB ) lemma=graduar 
+ graduados ( VERB_PAST_PARTICIPLE VERB ) lemma=graduar 
+ graduai ( VERB ) lemma=graduar 
+ gradual ( ADJECTIVE ) 
+ graduales ( ADJECTIVE ) lemma=gradual 
+ gradualmente ( ADVERB ) lemma=gradual 
+ graduando ( NOUN NOUN_GERUND ) lemma=graduar 
+ graduar ( VERB ) 
+ graduarlo ( VERB_INFINITIVE VERB ) lemma=graduar 
+ graduarse ( VERB_INFINITIVE VERB ) 
+ graduasen ( VERB ) lemma=graduar 
+ gradué ( VERB ) lemma=graduar 
+ graduó ( VERB ) lemma=graduar 
+ gradúas ( VERB ) lemma=graduar 
+ gradúe ( VERB ) lemma=graduar 
+ gradúo ( VERB ) lemma=graduar 
+ grafismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ grafismos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=grafismo 
+ grafito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ grafitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=grafito 
+ grafo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ grafológicas ( ADJECTIVE ) lemma=grafológica 
+ gram ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ grama ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ gramatical ( ADJECTIVE ) 
+ gramaticales ( ADJECTIVE ) lemma=gramatical 
+ gramaticalmente ( ADVERB ) lemma=gramatical 
+ gramilla ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gramnegativo ( ADJECTIVE ) 
+ gramo ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ gramos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gramo 
+ grampositivo ( ADJECTIVE ) 
+ gramática ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gramáticas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gramática|gramático 
+ gramático ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ gramínea ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gran ( ADJECTIVE ) lemma=gran|grande 
+ grana ( VERB ) lemma=granar 
+ granada ( VERB_PAST_PARTICIPLE NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ granadas ( VERB_PAST_PARTICIPLE NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=granada 
+ granado ( VERB_PAST_PARTICIPLE NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ granados ( VERB_PAST_PARTICIPLE NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=granado 
+ grande ( ADJECTIVE ) 
+ grandecita ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=grande 
+ grandecitas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=grande 
+ grandecito ( ADJECTIVE ) lemma=grande 
+ grandecitos ( ADJECTIVE ) lemma=grande 
+ grandemente ( ADVERB ) lemma=grande 
+ grandes ( ADJECTIVE ) lemma=grande 
+ grandeza ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ grandezas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=grandeza 
+ grandilocuentes ( ADJECTIVE ) lemma=grandilocuente 
+ grandiosa ( ADJECTIVE ) lemma=grandioso 
+ grandiosas ( ADJECTIVE ) lemma=grandioso 
+ grandioso ( ADJECTIVE ) 
+ grandiosos ( ADJECTIVE ) lemma=grandioso 
+ grandota ( ADJECTIVE ) lemma=grandote 
+ grandote ( ADJECTIVE ) 
+ grandotota ( ADJECTIVE ) lemma=grande 
+ grandísima ( ADJECTIVE ) lemma=grande 
+ grandísimas ( ADJECTIVE ) lemma=grande 
+ grandísimo ( ADJECTIVE ) lemma=grande 
+ grane ( VERB ) lemma=granar 
+ granero ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ graneros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=granero 
+ granitico ( ADJECTIVE ) lemma=granítico 
+ granito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ granitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=granito 
+ granizo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ granja ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ granjas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=granja 
+ granjeado ( VERB_PAST_PARTICIPLE VERB ) lemma=granjear 
+ granjear ( VERB ) 
+ granjearon ( VERB ) lemma=granjear 
+ granjearse ( VERB_INFINITIVE VERB ) 
+ granjeará ( VERB ) lemma=granjear 
+ granjearía ( VERB ) lemma=granjear 
+ granjee ( VERB ) lemma=granjear 
+ granjero ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ granjeros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=granjero 
+ granjeándose ( NOUN NOUN_GERUND ) lemma=granjearse 
+ granjeó ( VERB ) lemma=granjear 
+ grano ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ granos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=grano 
+ granulado ( VERB_PAST_PARTICIPLE VERB ) lemma=granular 
+ granular ( ADJECTIVE ) 
+ granulares ( ADJECTIVE ) lemma=granular 
+ granularidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ granules ( VERB ) lemma=granular 
+ granulocito-macrófago ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ granulocitos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=granulocito 
+ granulocitosis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ granuloma ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ granulomas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=granuloma 
+ granulomatosa ( ADJECTIVE ) lemma=granulomatoso 
+ granulomatosis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ granulosa ( ADJECTIVE ) lemma=granuloso 
+ granuloso ( ADJECTIVE ) 
+ granulosos ( ADJECTIVE ) lemma=granuloso 
  graphic ( ) 
  graphique ( ) 
  graphiques ( ) 
- grasa ( ) 
- grasas ( ) 
- graso ( ) 
- grasos ( ) 
- grata ( ) 
- gratamente ( ) 
- gratas ( ) 
- gratifica ( ) 
- gratificaciones ( ) 
- gratificación ( ) 
- gratificada ( ) 
- gratificante ( ) 
- gratificantes ( ) 
- gratis ( ) 
- gratitud ( ) 
- grato ( ) 
- gratos ( ) 
- gratuita ( ) 
- gratuitamente ( ) 
- gratuitas ( ) 
- gratuito ( ) 
- gratuitos ( ) 
- gratísima ( ) 
- gratísimo ( ) 
- grava ( ) lemma=agravar 
- gravada ( ) lemma=agravar 
- gravadas ( ) 
- gravado ( ) lemma=agravar 
- gravados ( ) 
- gravamen ( ) 
- gravamos ( ) 
- gravan ( ) 
- gravando ( ) 
- gravar ( ) 
- gravara ( ) lemma=agravar 
- gravará ( ) lemma=agravar 
- gravase ( ) 
- gravasen ( ) 
- grave ( ) lemma=agravar 
- gravedad ( ) 
- gravemente ( ) 
- gravemos ( ) 
- graven ( ) 
- graves ( ) 
- gravimétrico ( ) 
- gravita ( ) 
- gravitación ( ) 
- gravitatoria ( ) 
- gravitatorio ( ) 
- gravosidad ( ) 
- gravámenes ( ) 
- gravídica ( ) 
- gravísima ( ) 
- gravísimamente ( ) 
- gravísimas ( ) 
- gravísimo ( ) 
- gravísimos ( ) 
- grecas ( ) 
- green ( ) 
- gregario ( ) 
- greinar ( ) 
- gremial ( ) 
- gremiales ( ) 
- gremio ( ) 
- gremios ( ) 
- griega ( ) 
- griegas ( ) 
- griego ( ) 
- griegos ( ) 
- grieta ( ) 
- grietas ( ) 
- grifo ( ) 
- grifos ( ) 
- grilla ( ) 
- grima ( ) 
- gringa ( ) 
- gringo ( ) 
- gringos ( ) 
- gripa ( ) 
- gripal ( ) 
- gripales ( ) 
- gripe ( ) 
- gripes ( ) 
- gris ( ) 
- griseofulvina ( ) 
- grises ( ) 
- grita ( ) 
- gritaba ( ) 
- gritabai ( ) 
- gritaban ( ) 
- gritado ( ) 
- gritamos ( ) 
- gritan ( ) 
- gritando ( ) 
- gritar ( ) 
- gritara ( ) 
- gritarle ( ) 
- gritaron ( ) 
- gritará ( ) 
- grite ( ) 
- gritemos ( ) 
- griten ( ) 
- gritería ( ) 
- gritito ( ) 
- grito ( ) 
- gritos ( ) 
- grité ( ) 
- gritó ( ) 
- groenlandesa ( ) 
- grosera ( ) 
- groseramente ( ) 
- groseras ( ) 
- grosero ( ) 
- groseros ( ) 
- grosería ( ) 
- grosor ( ) 
- grosores ( ) 
+ grasa ( NOUN VERB ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=graso 
+ grasas ( NOUN VERB ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=graso 
+ graso ( VERB ADJECTIVE ) 
+ grasos ( ADJECTIVE ) lemma=graso 
+ grata ( VERB ADJECTIVE ) lemma=grato 
+ gratamente ( ADVERB ) lemma=grato 
+ gratas ( VERB ADJECTIVE ) lemma=grato 
+ gratifica ( VERB ) lemma=gratificar 
+ gratificaciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gratificación 
+ gratificación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gratificada ( VERB_PAST_PARTICIPLE VERB ) lemma=gratificar 
+ gratificante ( ADJECTIVE ) 
+ gratificantes ( ADJECTIVE ) lemma=gratificante 
+ gratis ( ADVERB ) 
+ gratitud ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ grato ( VERB ADJECTIVE ) 
+ gratos ( ADJECTIVE ) lemma=grato 
+ gratuita ( ADJECTIVE ) lemma=gratuito 
+ gratuitamente ( ADVERB ) lemma=gratuito 
+ gratuitas ( ADJECTIVE ) lemma=gratuito 
+ gratuito ( ADJECTIVE ) 
+ gratuitos ( ADJECTIVE ) lemma=gratuito 
+ gratísima ( ADJECTIVE ) lemma=grato 
+ gratísimo ( ADJECTIVE ) lemma=grato 
+ grava ( VERB ) lemma=gravar 
+ gravada ( VERB_PAST_PARTICIPLE VERB ) lemma=gravar 
+ gravadas ( VERB_PAST_PARTICIPLE VERB ) lemma=gravar 
+ gravado ( VERB_PAST_PARTICIPLE VERB ) lemma=gravar 
+ gravados ( VERB_PAST_PARTICIPLE VERB ) lemma=gravar 
+ gravamen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gravamos ( VERB ) lemma=gravar 
+ gravan ( VERB ) lemma=gravar 
+ gravando ( NOUN NOUN_GERUND ) lemma=gravar 
+ gravar ( VERB ) 
+ gravara ( VERB ) lemma=gravar 
+ gravará ( VERB ) lemma=gravar 
+ gravase ( VERB ) lemma=gravar 
+ gravasen ( VERB ) lemma=gravar 
+ grave ( ADJECTIVE ) 
+ gravedad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gravemente ( ADVERB ) lemma=grave 
+ gravemos ( VERB ) lemma=gravar 
+ graven ( VERB ) lemma=gravar 
+ graves ( ADJECTIVE ) lemma=grave 
+ gravimétrico ( ADJECTIVE ) 
+ gravita ( VERB ) lemma=gravitar 
+ gravitación ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gravitatoria ( ADJECTIVE ) lemma=gravitatorio 
+ gravitatorio ( ADJECTIVE ) 
+ gravosidad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gravámenes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gravamen 
+ gravídica ( ADJECTIVE ) lemma=gravídico 
+ gravísima ( ADJECTIVE ) lemma=grave 
+ gravísimamente ( ADJECTIVE ) lemma=grave 
+ gravísimas ( ADJECTIVE ) lemma=grave 
+ gravísimo ( ADJECTIVE ) lemma=grave 
+ gravísimos ( ADJECTIVE ) lemma=grave 
+ grecas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=greca 
+ green ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gregario ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ greinar ( VERB ) 
+ gremial ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ gremiales ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=gremial 
+ gremio ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gremios ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gremio 
+ griega ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=griego 
+ griegas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=griego 
+ griego ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ griegos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=griego 
+ grieta ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ grietas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=grieta 
+ grifo ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ grifos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=grifo 
+ grilla ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ grima ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gringa ( ADJECTIVE ) lemma=gringo 
+ gringo ( ADJECTIVE ) 
+ gringos ( ADJECTIVE ) 
+ gripa ( VERB ) lemma=gripar 
+ gripal ( ADJECTIVE ) 
+ gripales ( ADJECTIVE ) lemma=gripal 
+ gripe ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ gripes ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=gripe 
+ gris ( ADJECTIVE ) 
+ griseofulvina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ grises ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=gris 
+ grita ( VERB ) lemma=gritar 
+ gritaba ( VERB ) lemma=gritar 
+ gritabai ( VERB ) lemma=gritar 
+ gritaban ( VERB ) lemma=gritar 
+ gritado ( VERB_PAST_PARTICIPLE VERB ) lemma=gritar 
+ gritamos ( VERB ) lemma=gritar 
+ gritan ( VERB ) lemma=gritar 
+ gritando ( NOUN NOUN_GERUND ) lemma=gritar 
+ gritar ( VERB ) 
+ gritara ( VERB ) lemma=gritar 
+ gritarle ( VERB_INFINITIVE VERB ) lemma=gritar 
+ gritaron ( VERB ) lemma=gritar 
+ gritará ( VERB ) lemma=gritar 
+ grite ( VERB ) lemma=gritar 
+ gritemos ( VERB ) lemma=gritar 
+ griten ( VERB ) lemma=gritar 
+ gritería ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gritito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=grito 
+ grito ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ gritos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=grito 
+ grité ( VERB ) lemma=gritar 
+ gritó ( VERB ) lemma=gritar 
+ groenlandesa ( ADJECTIVE ) lemma=groenlandés 
+ grosera ( ADJECTIVE ) lemma=grosero 
+ groseramente ( ADVERB ) lemma=grosero 
+ groseras ( ADJECTIVE ) lemma=grosero 
+ grosero ( ADJECTIVE ) 
+ groseros ( ADJECTIVE ) lemma=grosero 
+ grosería ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ grosor ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ grosores ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=grosor 
  gross ( ) 
- grotesca ( ) 
- grotescas ( ) 
- grotesco ( ) 
- grotescos ( ) 
+ grotesca ( ADJECTIVE ) lemma=grotesco 
+ grotescas ( ADJECTIVE ) lemma=grotesco 
+ grotesco ( ADJECTIVE ) 
+ grotescos ( ADJECTIVE ) lemma=grotesco 
  group ( ) 
  groupe ( ) 
  groupement ( ) 
- gruesa ( ) 
- gruesas ( ) 
- grueso ( ) 
- gruesos ( ) 
- grumos ( ) 
- grupal ( ) 
- grupales ( ) 
- grupito ( ) 
- grupo ( ) 
- grupos ( ) 
- gruta ( ) 
- grutas ( ) 
- gruñe ( ) 
- gruñes ( ) 
- gruñido ( ) 
- grynfeltt ( ) 
- gráafica ( ) 
- grácil ( ) 
- gráciles ( ) 
- gráfica ( ) 
- gráficamente ( ) 
- gráficas ( ) 
- gráfico ( ) 
- gráficos ( ) 
- gránulo ( ) 
- gránulos ( ) 
- grúa ( ) 
- grúas ( ) 
- guachipifiar ( ) 
- guachos ( ) 
- guadalajareños ( ) 
- guadalupana ( ) 
- guadalupense ( ) 
- guadiano ( ) 
- guagua ( ) 
- guaguas ( ) 
- guagüita ( ) 
- guajira ( ) 
- guajiras ( ) 
- guajiros ( ) 
- guanajuatense ( ) 
- guanajuatenses ( ) 
- guanidinas ( ) 
- guanilato ( ) 
- guanina ( ) 
- guano ( ) 
- guanosina ( ) 
- guante ( ) lemma=aguantar 
- guantes ( ) 
- guapa ( ) 
- guapas ( ) 
- guapeza ( ) 
- guapo ( ) 
- guapos ( ) 
- guapísima ( ) 
- guapísimo ( ) 
- guaraní ( ) 
- guaraníes ( ) 
- guard ( ) lemma=aguardar 
- guarda ( ) lemma=aguardar 
- guardaba ( ) lemma=aguardar 
- guardaban ( ) 
- guardabosques ( ) 
- guardacostas ( ) 
- guardada ( ) 
- guardadas ( ) 
- guardado ( ) 
- guardador ( ) 
- guardados ( ) 
- guardaespaldas ( ) 
- guardameta ( ) 
- guardametas ( ) 
- guardamos ( ) 
- guardan ( ) 
- guardando ( ) 
- guardar ( ) lemma=aguardar 
- guardara ( ) 
- guardaran ( ) 
- guardarlo ( ) 
- guardarnos ( ) 
- guardaron ( ) 
- guardarropa ( ) 
- guardarse ( ) 
- guardará ( ) 
- guardarán ( ) 
- guardaré ( ) 
- guardaría ( ) lemma=aguardar 
- guardas ( ) 
- guardase ( ) 
- guardaseis ( ) 
- guarde ( ) lemma=aguardar 
- guardemos ( ) 
- guarden ( ) 
- guardería ( ) 
- guarderías ( ) 
- guardes ( ) 
- guardia ( ) 
- guardianas ( ) 
- guardianes ( ) 
- guardias ( ) 
+ gruesa ( ADJECTIVE ) lemma=grueso 
+ gruesas ( ADJECTIVE ) lemma=grueso 
+ grueso ( ADJECTIVE ) 
+ gruesos ( ADJECTIVE ) lemma=grueso 
+ grumos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=grumo 
+ grupal ( ADJECTIVE ) 
+ grupales ( ADJECTIVE ) lemma=grupal 
+ grupito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=grupo 
+ grupo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ grupos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=grupo 
+ gruta ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ grutas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gruta 
+ gruñe ( VERB ) lemma=gruñir 
+ gruñes ( VERB ) lemma=gruñir 
+ gruñido ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ grynfeltt ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gráafica ( ADJECTIVE ) lemma=gráafico 
+ grácil ( ADJECTIVE ) 
+ gráciles ( ADJECTIVE ) lemma=grácil 
+ gráfica ( ADJECTIVE ) lemma=gráfico 
+ gráficamente ( ADVERB ) lemma=gráfico 
+ gráficas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=gráfico 
+ gráfico ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ gráficos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=gráfico 
+ gránulo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gránulos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gránulo 
+ grúa ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ grúas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=grúa 
+ guachipifiar ( VERB ) 
+ guachos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guacho 
+ guadalajareños ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=guadalajareño 
+ guadalupana ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=guadalupano 
+ guadalupense ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ guadiano ( ADJECTIVE ) 
+ guagua ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ guaguas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=guagua 
+ guagüita ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guajira ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=guajiro 
+ guajiras ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=guajiro 
+ guajiros ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=guajiro 
+ guanajuatense ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ guanajuatenses ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=guanajuatense 
+ guanidinas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guanidina 
+ guanilato ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guanina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guano ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guanosina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guante ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guantes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guante 
+ guapa ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=guapo 
+ guapas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=guapo 
+ guapeza ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guapo ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ guapos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=guapo 
+ guapísima ( ADJECTIVE ) lemma=guapo 
+ guapísimo ( ADJECTIVE ) lemma=guapo 
+ guaraní ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guaraníes ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=guaraní 
+ guard ( ) 
+ guarda ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ guardaba ( VERB ) lemma=guardar 
+ guardaban ( VERB ) lemma=guardar 
+ guardabosques ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guardacostas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guardacosta 
+ guardada ( VERB_PAST_PARTICIPLE VERB ) lemma=guardar 
+ guardadas ( VERB_PAST_PARTICIPLE VERB ) lemma=guardar 
+ guardado ( VERB_PAST_PARTICIPLE VERB ) lemma=guardar 
+ guardador ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guardados ( VERB_PAST_PARTICIPLE VERB ) lemma=guardar 
+ guardaespaldas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guardameta ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guardametas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guardameta 
+ guardamos ( VERB ) lemma=guardar 
+ guardan ( VERB ) lemma=guardar 
+ guardando ( NOUN NOUN_GERUND ) lemma=guardar 
+ guardar ( VERB ) 
+ guardara ( VERB ) lemma=guardar 
+ guardaran ( VERB ) lemma=guardar 
+ guardarlo ( VERB_INFINITIVE VERB ) lemma=guardar 
+ guardarnos ( VERB_INFINITIVE VERB ) lemma=guardar 
+ guardaron ( VERB ) lemma=guardar 
+ guardarropa ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guardarse ( VERB_INFINITIVE VERB ) 
+ guardará ( VERB ) lemma=guardar 
+ guardarán ( VERB ) lemma=guardar 
+ guardaré ( VERB ) lemma=guardar 
+ guardaría ( VERB ) lemma=guardar 
+ guardas ( VERB ) lemma=guardar 
+ guardase ( VERB ) lemma=guardar 
+ guardaseis ( VERB ) lemma=guardar 
+ guarde ( VERB ) lemma=guardar 
+ guardemos ( VERB ) lemma=guardar 
+ guarden ( VERB ) lemma=guardar 
+ guardería ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guarderías ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guardería 
+ guardes ( VERB ) lemma=guardar 
+ guardia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guardianas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guardián 
+ guardianes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guardián 
+ guardias ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guardia 
  guarding ( ) 
- guardián ( ) 
- guardo ( ) 
- guardábamos ( ) 
- guardáis ( ) 
- guardándose ( ) 
- guardé ( ) 
- guardémonos ( ) 
- guardó ( ) 
- guarida ( ) 
- guarismo ( ) 
- guarismos ( ) 
- guarniciones ( ) 
- guarnición ( ) 
- guata ( ) 
- guatas ( ) 
- guatemalteca ( ) 
- guatemaltecas ( ) 
- guatemalteco ( ) 
- guatemaltecos ( ) 
- guateques ( ) 
- guatita ( ) 
- guatón ( ) 
- guau ( ) 
- guay ( ) 
- guayaba ( ) 
- guayabas ( ) 
- guayabo ( ) 
- gubernamental ( ) 
- gubernamentales ( ) 
- gubernativa ( ) 
- gubernativas ( ) 
- gubernativo ( ) 
- gubernáculum ( ) 
- guerra ( ) lemma=aguerrir 
- guerras ( ) 
- guerrera ( ) 
- guerreras ( ) 
- guerrerense ( ) 
- guerrerenses ( ) 
- guerrero ( ) 
- guerreros ( ) 
- guerrilla ( ) 
- guerrillas ( ) 
- guerrillera ( ) 
- guerrilleras ( ) 
- guerrillero ( ) 
- guerrilleros ( ) 
- gueto ( ) 
- guetos ( ) 
- guia ( ) 
- guiaba ( ) 
- guiada ( ) 
- guiadas ( ) 
- guiado ( ) 
- guiados ( ) 
- guiamos ( ) 
- guiando ( ) 
- guiar ( ) 
- guiara ( ) 
- guiaremos ( ) 
- guiará ( ) 
- guiarán ( ) 
- guiaré ( ) 
- guijarros ( ) 
- guillotina ( ) 
- guinda ( ) 
- guindas ( ) 
- guinea ( ) 
- guiones ( ) 
- guionista ( ) 
- guionistas ( ) 
- guipuzcoana ( ) 
- guisa ( ) 
- guisada ( ) 
- guisado ( ) 
- guisan ( ) 
- guisante ( ) 
- guisantes ( ) 
- guisar ( ) 
- guisen ( ) 
- guiso ( ) 
- guita ( ) 
- guitarra ( ) 
- guitarras ( ) 
- guitarrista ( ) 
- guitarristas ( ) 
- guito ( ) 
- guiños ( ) 
- guió ( ) 
- guión ( ) 
- gusanillo ( ) 
- gusano ( ) 
- gusanos ( ) 
- gusta ( ) 
- gustaba ( ) 
- gustaban ( ) 
- gustado ( ) 
- gustamos ( ) 
- gustan ( ) 
- gustando ( ) 
- gustar ( ) 
- gustara ( ) 
- gustarle ( ) 
- gustarnos ( ) 
- gustaron ( ) 
- gustará ( ) 
- gustaría ( ) 
- gustarían ( ) 
- gustas ( ) 
- gustase ( ) 
- gustativa ( ) 
- gustativas ( ) 
- gustativo ( ) 
- gustativos ( ) 
- guste ( ) 
- gusten ( ) 
- gustito ( ) 
- gusto ( ) 
- gustos ( ) 
- gustosamente ( ) 
- gustoso ( ) 
- gustosos ( ) 
- gustó ( ) 
- gutural ( ) 
- guá ( ) 
- guárdalas ( ) 
- guárdalo ( ) 
- guárdelo ( ) 
- guía ( ) 
- guían ( ) 
- guías ( ) 
- guíe ( ) 
- guíen ( ) 
- gyttja ( ) 
- gástese ( ) 
- gástrica ( ) 
- gástricas ( ) 
- gástrico ( ) 
- gástricos ( ) 
- gástrula ( ) 
- gélida ( ) 
- gélidas ( ) 
- gélido ( ) 
- género ( ) 
- géneros ( ) 
- génesis ( ) 
- génica ( ) 
- génicas ( ) 
- génico ( ) 
- génicos ( ) 
- géntex ( ) 
+ guardián ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guardo ( VERB ) lemma=guardar 
+ guardábamos ( VERB ) lemma=guardar 
+ guardáis ( VERB ) lemma=guardar 
+ guardándose ( NOUN NOUN_GERUND ) lemma=guardarse 
+ guardé ( VERB ) lemma=guardar 
+ guardémonos ( VERB ) lemma=guardar 
+ guardó ( VERB ) lemma=guardar 
+ guarida ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guarismo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guarismos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guarismo 
+ guarniciones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guarnición 
+ guarnición ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guata ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guatas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guata 
+ guatemalteca ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=guatemalteco 
+ guatemaltecas ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=guatemalteco 
+ guatemalteco ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ guatemaltecos ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=guatemalteco 
+ guateques ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guateque 
+ guatita ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guata 
+ guatón ( ADJECTIVE ) 
+ guau ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ guay ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ guayaba ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ guayabas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=guayaba 
+ guayabo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gubernamental ( ADJECTIVE ) 
+ gubernamentales ( ADJECTIVE ) lemma=gubernamental 
+ gubernativa ( ADJECTIVE ) lemma=gubernativo 
+ gubernativas ( ADJECTIVE ) lemma=gubernativo 
+ gubernativo ( ADJECTIVE ) 
+ gubernáculum ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guerra ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guerras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guerra 
+ guerrera ( ADJECTIVE ) lemma=guerrero 
+ guerreras ( ADJECTIVE ) lemma=guerrero 
+ guerrerense ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ guerrerenses ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=guerrerense 
+ guerrero ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) 
+ guerreros ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=guerrero 
+ guerrilla ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guerrillas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guerrilla 
+ guerrillera ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guerrillero 
+ guerrilleras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guerrillero 
+ guerrillero ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guerrilleros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guerrillero 
+ gueto ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guetos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gueto 
+ guia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guiaba ( VERB ) lemma=guiar 
+ guiada ( VERB_PAST_PARTICIPLE VERB ) lemma=guiar 
+ guiadas ( VERB_PAST_PARTICIPLE VERB ) lemma=guiar 
+ guiado ( VERB_PAST_PARTICIPLE VERB ) lemma=guiar 
+ guiados ( VERB_PAST_PARTICIPLE VERB ) lemma=guiar 
+ guiamos ( VERB ) lemma=guiar 
+ guiando ( NOUN NOUN_GERUND ) lemma=guiar 
+ guiar ( VERB ) 
+ guiara ( VERB ) lemma=guiar 
+ guiaremos ( VERB ) lemma=guiar 
+ guiará ( VERB ) lemma=guiar 
+ guiarán ( VERB ) lemma=guiar 
+ guiaré ( VERB ) lemma=guiar 
+ guijarros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guijarro 
+ guillotina ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guinda ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ guindas ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) lemma=guinda 
+ guinea ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guiones ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guión 
+ guionista ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guionistas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guionista 
+ guipuzcoana ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=guipuzcoano 
+ guisa ( VERB ) lemma=guisar 
+ guisada ( VERB_PAST_PARTICIPLE VERB ) lemma=guisar 
+ guisado ( VERB_PAST_PARTICIPLE NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ guisan ( VERB ) lemma=guisar 
+ guisante ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guisantes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guisante 
+ guisar ( VERB ) 
+ guisen ( VERB ) lemma=guisar 
+ guiso ( VERB ) lemma=guisar 
+ guita ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ guitarra ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guitarras ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guitarra 
+ guitarrista ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guitarristas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guitarrista 
+ guito ( VERB ) lemma=guitar 
+ guiños ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guiño 
+ guió ( VERB ) lemma=guiar 
+ guión ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gusanillo ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gusano 
+ gusano ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gusanos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gusano 
+ gusta ( VERB ) lemma=gustar 
+ gustaba ( VERB ) lemma=gustar 
+ gustaban ( VERB ) lemma=gustar 
+ gustado ( VERB_PAST_PARTICIPLE VERB ) lemma=gustar 
+ gustamos ( VERB ) lemma=gustar 
+ gustan ( VERB ) lemma=gustar 
+ gustando ( NOUN NOUN_GERUND ) lemma=gustar 
+ gustar ( VERB ) 
+ gustara ( VERB ) lemma=gustar 
+ gustarle ( VERB_INFINITIVE VERB ) lemma=gustar 
+ gustarnos ( VERB_INFINITIVE VERB ) lemma=gustar 
+ gustaron ( VERB ) lemma=gustar 
+ gustará ( VERB ) lemma=gustar 
+ gustaría ( VERB ) lemma=gustar 
+ gustarían ( VERB ) lemma=gustar 
+ gustas ( VERB ) lemma=gustar 
+ gustase ( VERB ) lemma=gustar 
+ gustativa ( ADJECTIVE ) lemma=gustativo 
+ gustativas ( ADJECTIVE ) lemma=gustativo 
+ gustativo ( ADJECTIVE ) 
+ gustativos ( ADJECTIVE ) lemma=gustativo 
+ guste ( VERB ) lemma=gustar 
+ gusten ( VERB ) lemma=gustar 
+ gustito ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gusto 
+ gusto ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
+ gustos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gusto 
+ gustosamente ( ADVERB ) lemma=gustoso 
+ gustoso ( ADJECTIVE ) 
+ gustosos ( ADJECTIVE ) lemma=gustoso 
+ gustó ( VERB ) lemma=gustar 
+ gutural ( ADJECTIVE ) 
+ guá ( NOUN NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL ) 
+ guárdalas ( ) lemma=guardar 
+ guárdalo ( ) lemma=guardar 
+ guárdelo ( ) lemma=guardar 
+ guía ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ guían ( VERB ) lemma=guiar 
+ guías ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=guía 
+ guíe ( VERB ) lemma=guiar 
+ guíen ( VERB ) lemma=guiar 
+ gyttja ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gástese ( VERB ) lemma=gastar 
+ gástrica ( ADJECTIVE ) lemma=gástrico 
+ gástricas ( ADJECTIVE ) lemma=gástrico 
+ gástrico ( ADJECTIVE ) 
+ gástricos ( ADJECTIVE ) lemma=gástrico 
+ gástrula ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gélida ( ADJECTIVE ) lemma=gélido 
+ gélidas ( ADJECTIVE ) lemma=gélido 
+ gélido ( ADJECTIVE ) 
+ género ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ géneros ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=género 
+ génesis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ génica ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=génico 
+ génicas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=génica 
+ génico ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ génicos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=génico 
+ géntex ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  général ( ) 
  géographiquement ( ) 
- gérmenes ( ) 
- gíneco-obstétrico ( ) 
- gónada ( ) 
- gónadas ( ) 
- góndola ( ) 
- gótica ( ) 
- góticas ( ) 
- gótico ( ) 
- góticos ( ) 
- güera ( ) 
- güero ( ) lemma=agüero 
- güisqui ( ) 
- ganglionosi ( ) lemma=Aganglionosis 
- garrap ( ) lemma=Agarrapo 
- garrapí ( ) lemma=Agarrapín 
- gat ( ) lemma=Agata 
- genci ( ) lemma=agenciar 
- go ( ) lemma=ego 
- gualegua ( ) lemma=Agualeguas 
- guará ( ) lemma=Aguarás 
- guascaliente ( ) lemma=Aguascalientes 
- guila ( ) lemma=Aguilar 
- guiler ( ) lemma=Aguilera 
- guirr ( ) lemma=Aguirre 
- guj ( ) lemma=aguja 
- gustí ( ) lemma=Agustín 
- gipt ( ) lemma=Egipto 
+ gérmenes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=germen 
+ gíneco-obstétrico ( ADJECTIVE ) 
+ gónada ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gónadas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=gónada 
+ góndola ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ gótica ( ADJECTIVE ) lemma=gótico 
+ góticas ( ADJECTIVE ) lemma=gótico 
+ gótico ( ADJECTIVE ) 
+ góticos ( ADJECTIVE ) lemma=gótico 
+ güera ( ADJECTIVE ) lemma=güero 
+ güero ( ADJECTIVE ) 
+ güisqui ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Gatita ( ) 
  Gfröer ( ) 
- glesi ( ) lemma=iglesia 
- glesia ( ) lemma=iglesia 
- gnaci ( ) lemma=Ignacio 
- guaz� ( ) lemma=Iguazú 
- güe ( ) lemma=Igüey 
- GR ( ) lemma=LGRC 
- gand ( ) lemma=Uganda 
- gachab ( ) lemma=agachar 
- gachad ( ) lemma=agachar 
- gachand ( ) lemma=agachar 
- gacharm ( ) lemma=agachar 
- gachars ( ) lemma=agacharse 
- gach ( ) lemma=agachar 
- gach� ( ) lemma=agachar 
- galacti ( ) lemma=agalactia 
- galla ( ) lemma=agalla 
- ga ( ) lemma=agar 
- garos ( ) lemma=agarosa 
- garr ( ) lemma=agarre 
- garrab ( ) lemma=agarrar 
- garraba ( ) lemma=agarrar 
- garrad ( ) lemma=agarrar 
- garrader ( ) lemma=agarradera 
- garrado ( ) lemma=agarrar 
- garramo ( ) lemma=agarrar 
- garrand ( ) lemma=agarrar 
- garrarm ( ) lemma=agarrar 
- garrarno ( ) lemma=agarrar 
- garraro ( ) lemma=agarrar 
- garrars ( ) lemma=agarrar 
- garrará ( ) lemma=agarrar 
- garrast ( ) lemma=agarrar 
- garre ( ) lemma=agarre 
- garrone ( ) lemma=agarrón 
- garrotad ( ) lemma=agarrotar 
- garrotado ( ) lemma=agarrotar 
- garrota ( ) lemma=agarrotar 
- garrá ( ) lemma=agarrar 
- garr� ( ) lemma=agarrar 
- garró ( ) lemma=agarrón 
- gasajad ( ) lemma=agasajar 
- gasajo ( ) lemma=agasajo 
- genciad ( ) lemma=agenciar 
- genciaro ( ) lemma=agenciar 
- genciars ( ) lemma=agenciarse 
- gencia ( ) lemma=agencia 
- genci� ( ) lemma=agenciar 
- gend ( ) lemma=agenda 
- genda ( ) lemma=agenda 
- gent ( ) lemma=agente 
- ggregat ( ) lemma=aggregate 
- gilic ( ) lemma=agilizar 
- gilicemo ( ) lemma=agilizar 
- gilice ( ) lemma=agilizar 
- gilida ( ) lemma=agilidad 
- giliz ( ) lemma=agilizar 
- gilizació ( ) lemma=agilización 
- gilizad ( ) lemma=agilizar 
- giliza ( ) lemma=agilizar 
- gilizand ( ) lemma=agilizar 
- gilizar ( ) lemma=agilizar 
- gilizar� ( ) lemma=agilizar 
- gilizarí ( ) lemma=agilizar 
- gi ( ) lemma=agip 
- git ( ) lemma=agitar 
- gitaba ( ) lemma=agitar 
- gitacione ( ) lemma=agitación 
- gitació ( ) lemma=agitación 
- gitad ( ) lemma=agitar 
- gitada ( ) lemma=agitar 
- gitado ( ) lemma=agitar 
- gitadore ( ) lemma=agitador 
- gita ( ) lemma=agitar 
- gitand ( ) lemma=agitar 
- gitaro ( ) lemma=agitar 
- gitemo ( ) lemma=agitar 
- git� ( ) lemma=agitar 
- glomer ( ) lemma=aglomerar 
- glomeracione ( ) lemma=aglomeración 
- glomeració ( ) lemma=aglomeración 
- glomerad ( ) lemma=aglomerar 
- glomeraro ( ) lemma=aglomerar 
- glutin ( ) lemma=aglutinar 
- glutinació ( ) lemma=aglutinación 
- glutinado ( ) lemma=aglutinar 
- glutina ( ) lemma=aglutinar 
- glutinar ( ) lemma=aglutinar 
- glutinará ( ) lemma=aglutinar 
- glutinaría ( ) lemma=aglutinar 
- glutinina ( ) lemma=aglutinina 
- glutin� ( ) lemma=aglutinar 
- glutinógeno ( ) lemma=aglutinógeno 
- gobi ( ) lemma=agobio 
- gobiad ( ) lemma=agobiar 
- gobiada ( ) lemma=agobiar 
- gobiado ( ) lemma=agobiar 
- gobia ( ) lemma=agobiar 
- gobie ( ) lemma=agobiar 
- gobio ( ) lemma=agobio 
- golparo ( ) lemma=agolpar 
- gonic ( ) lemma=agónico 
- gonist ( ) lemma=agonista 
- goniz ( ) lemma=agonizar 
- gonizand ( ) lemma=agonizar 
- goní ( ) lemma=agonía 
- gonía ( ) lemma=agonía 
- gorafobi ( ) lemma=agorafobia 
- gorafóbic ( ) lemma=agorafóbico 
- gorer ( ) lemma=agorero 
- gorero ( ) lemma=agorero 
- gost ( ) lemma=agosto 
- got ( ) lemma=agotar 
- gotab ( ) lemma=agotar 
- gotaba ( ) lemma=agotar 
- gotad ( ) lemma=agotado 
- gotada ( ) lemma=agotado 
- gotado ( ) lemma=agotar 
- gotador ( ) lemma=agotador 
- gotadora ( ) lemma=agotador 
- gotadore ( ) lemma=agotador 
- gotamient ( ) lemma=agotamiento 
- gotamo ( ) lemma=agotar 
- gotand ( ) lemma=agotar 
- gotar ( ) lemma=agotar 
- gotaro ( ) lemma=agotar 
- gotars ( ) lemma=agotarse 
- gotar� ( ) lemma=agotar 
- gotará ( ) lemma=agotar 
- gotarí ( ) lemma=agotar 
- gotaríamo ( ) lemma=agotar 
- gote ( ) lemma=agotar 
- got� ( ) lemma=agotar 
- graciad ( ) lemma=agraciar 
- graciado ( ) lemma=agraciar 
- grad ( ) lemma=agrado 
- gradabilísim ( ) lemma=agradable 
- gradabilísimo ( ) lemma=agradable 
- gradabl ( ) lemma=agradable 
- gradablement ( ) lemma=agradable 
- gradable ( ) lemma=agradable 
- gradad ( ) lemma=agradar 
- gradand ( ) lemma=agradar 
- gradar� ( ) lemma=agradar 
- gradarí ( ) lemma=agradar 
- gradec ( ) lemma=agradecer 
- gradecel ( ) lemma=agradecer 
- gradecemo ( ) lemma=agradecer 
- gradece ( ) lemma=agradecer 
- gradeceremo ( ) lemma=agradecer 
- gradecerl ( ) lemma=agradecer 
- gradecerle ( ) lemma=agradecer 
- gradecers ( ) lemma=agradecerse 
- gradecer� ( ) lemma=agradecer 
- gradecerá ( ) lemma=agradecer 
- gradecerí ( ) lemma=agradecer 
- gradeceríamo ( ) lemma=agradecer 
- gradecería ( ) lemma=agradecer 
- gradecid ( ) lemma=agradecer 
- gradecida ( ) lemma=agradecer 
- gradecido ( ) lemma=agradecer 
- gradeciend ( ) lemma=agradecer 
- gradeciero ( ) lemma=agradecer 
- gradecimient ( ) lemma=agradecimiento 
- gradecimiento ( ) lemma=agradecimiento 
- gradecimo ( ) lemma=agradecer 
- gradeciéndol ( ) lemma=agradecer 
- gradeciéndole ( ) lemma=agradecer 
- gradeci� ( ) lemma=agradecer 
- gradecérsel ( ) lemma=agradecerse 
- gradecértel ( ) lemma=agradecer 
- gradecí ( ) lemma=agradecer 
- gradezc ( ) lemma=agradecer 
- gradezcamo ( ) lemma=agradecer 
- grad� ( ) lemma=agradar 
- gramaticale ( ) lemma=agramatical 
- gramaticalida ( ) lemma=agramaticalidad 
- grandad ( ) lemma=agrandar 
- grandado ( ) lemma=agrandado 
- grandamient ( ) lemma=agrandamiento 
- grandamo ( ) lemma=agrandar 
- granda ( ) lemma=agrandar 
- grandand ( ) lemma=agrandar 
- grandar ( ) lemma=agrandar 
- grand ( ) lemma=agrandar 
- grand� ( ) lemma=agrandar 
- grari ( ) lemma=agrario 
- grariament ( ) lemma=agrario 
- graria ( ) lemma=agrario 
- grario ( ) lemma=agrario 
- grav ( ) lemma=agravar 
- gravació ( ) lemma=agravación 
- gravad ( ) lemma=agravar 
- gravamient ( ) lemma=agravamiento 
- gravamiento ( ) lemma=agravamiento 
- gravamo ( ) lemma=agravar 
- gravand ( ) lemma=agravar 
- gravant ( ) lemma=agravante 
- gravante ( ) lemma=agravante 
- gravaro ( ) lemma=agravar 
- gravars ( ) lemma=agravarse 
- gravar� ( ) lemma=agravar 
- gravarí ( ) lemma=agravar 
- gravaría ( ) lemma=agravar 
- gravas ( ) lemma=agravar 
- graviad ( ) lemma=agraviar 
- graviada ( ) lemma=agraviar 
- graviado ( ) lemma=agraviar 
- gravia ( ) lemma=agraviar 
- gravi ( ) lemma=agravio 
- gravio ( ) lemma=agravio 
- gravándos ( ) lemma=agravarse 
- grav� ( ) lemma=agravar 
- gred ( ) lemma=agredir 
- grede ( ) lemma=agredir 
- gredid ( ) lemma=agredir 
- gredida ( ) lemma=agredir 
- gredido ( ) lemma=agredir 
- grediero ( ) lemma=agredir 
- gredimo ( ) lemma=agredir 
- gredi ( ) lemma=agredir 
- gredirl ( ) lemma=agredir 
- gredirno ( ) lemma=agredir 
- grediéndol ( ) lemma=agredir 
- gredi� ( ) lemma=agredir 
- greg ( ) lemma=agregar 
- gregab ( ) lemma=agregar 
- gregació ( ) lemma=agregación 
- gregad ( ) lemma=agregado 
- gregada ( ) lemma=agregar 
- gregado ( ) lemma=agregado 
- gregamo ( ) lemma=agregar 
- grega ( ) lemma=agregar 
- gregand ( ) lemma=agregar 
- gregarl ( ) lemma=agregar 
- gregaro ( ) lemma=agregar 
- gregars ( ) lemma=agregarse 
- gregar� ( ) lemma=agregar 
- gregará ( ) lemma=agregar 
- gregarí ( ) lemma=agregar 
- gregaría ( ) lemma=agregar 
- gregativ ( ) lemma=agregativo 
- gregu ( ) lemma=agregar 
- gregue ( ) lemma=agregar 
- gregándola ( ) lemma=agregar 
- gregándol ( ) lemma=agregar 
- greg� ( ) lemma=agregar 
- gremiacione ( ) lemma=agremiación 
- gremiació ( ) lemma=agremiación 
- gremiado ( ) lemma=agremiar 
- gresio ( ) lemma=agresión 
- gresione ( ) lemma=agresión 
- gresiv ( ) lemma=agresivo 
- gresivament ( ) lemma=agresivo 
- gresiva ( ) lemma=agresivo 
- gresivida ( ) lemma=agresividad 
- gresivo ( ) lemma=agresivo 
- gresió ( ) lemma=agresión 
- greso ( ) lemma=egreso 
- gresor ( ) lemma=agresor 
- gresore ( ) lemma=agresor 
- grest ( ) lemma=agreste 
- gri ( ) lemma=agrio 
- griament ( ) lemma=agrio 
- griand ( ) lemma=agriar 
- gria ( ) lemma=agrio 
- griculto ( ) lemma=agricultor 
- gricultore ( ) lemma=agricultor 
- gricultur ( ) lemma=agricultura 
- gricultura ( ) lemma=agricultura 
- gridulc ( ) lemma=agridulce 
- grio ( ) lemma=agrio 
- gr ( ) lemma=agro 
- groalimentario ( ) lemma=agroalimentario 
- groenergétic ( ) lemma=agroenergético 
- gronomí ( ) lemma=agronomía 
- gropecuari ( ) lemma=agropecuario 
- gropecuaria ( ) lemma=agropecuario 
- gropecuario ( ) lemma=agropecuario 
- groturism ( ) lemma=agroturismo 
- grup ( ) lemma=agrupar 
- grupab ( ) lemma=agrupar 
- grupaba ( ) lemma=agrupar 
- grupacione ( ) lemma=agrupación 
- grupació ( ) lemma=agrupación 
- grupad ( ) lemma=agrupar 
- grupada ( ) lemma=agrupar 
- grupado ( ) lemma=agrupar 
- grupamient ( ) lemma=agrupamiento 
- grupamiento ( ) lemma=agrupamiento 
- grupamo ( ) lemma=agrupar 
- grupa ( ) lemma=agrupar 
- grupand ( ) lemma=agrupar 
- gruparemo ( ) lemma=agrupar 
- gruparo ( ) lemma=agrupar 
- grupars ( ) lemma=agrupar 
- grupar� ( ) lemma=agrupar 
- grupará ( ) lemma=agrupar 
- gruparí ( ) lemma=agrupar 
- grupase ( ) lemma=agrupar 
- grupe ( ) lemma=agrupar 
- grup� ( ) lemma=agrupar 
- gréguel ( ) lemma=agregar 
- grícol ( ) lemma=agrícola 
- grícola ( ) lemma=agrícola 
- grónom ( ) lemma=agrónomo 
- grónomo ( ) lemma=agrónomo 
- gu ( ) lemma=agur 
- guacat ( ) lemma=aguacate 
- guacate ( ) lemma=aguacate 
- guacer ( ) lemma=aguacero 
- guacero ( ) lemma=aguacero 
- guad ( ) lemma=aguar 
- guada ( ) lemma=aguar 
- guant ( ) lemma=aguantar 
- guantab ( ) lemma=aguantar 
- guantaba ( ) lemma=aguantar 
- guantad ( ) lemma=aguantar 
- guantamo ( ) lemma=aguantar 
- guanta ( ) lemma=aguantar 
- guantand ( ) lemma=aguantar 
- guantarl ( ) lemma=aguantar 
- guantaro ( ) lemma=aguantar 
- guantars ( ) lemma=aguantarse 
- guant� ( ) lemma=aguantar 
- gua ( ) lemma=igual 
- guara ( ) lemma=aguar 
- guardab ( ) lemma=aguardar 
- guardad ( ) lemma=aguardar 
- guardamo ( ) lemma=aguardar 
- guardand ( ) lemma=aguardar 
- guardaro ( ) lemma=aguardar 
- guardar� ( ) lemma=aguardar 
- guardient ( ) lemma=aguardiente 
- guardiente ( ) lemma=aguardiente 
- guardábamo ( ) lemma=aguardar 
- guardáramo ( ) lemma=aguardar 
- guard� ( ) lemma=aguardar 
- gud ( ) lemma=agudo 
- guda ( ) lemma=agudo 
- gudez ( ) lemma=agudeza 
- gudic ( ) lemma=agudizar 
- gudice ( ) lemma=agudizar 
- gudiz ( ) lemma=agudizar 
- gudizació ( ) lemma=agudización 
- gudizad ( ) lemma=agudizar 
- gudiza ( ) lemma=agudizar 
- gudizand ( ) lemma=agudizar 
- gudizar ( ) lemma=agudizar 
- gudizaro ( ) lemma=agudizar 
- gudizar� ( ) lemma=agudizar 
- gudizará ( ) lemma=agudizar 
- gudizaría ( ) lemma=agudizar 
- gudiz� ( ) lemma=agudizar 
- gudo ( ) lemma=agudo 
- guerrid ( ) lemma=aguerrir 
- guerrido ( ) lemma=aguerrir 
- guijone ( ) lemma=aguijonear 
- guijonead ( ) lemma=aguijonear 
- guijonea ( ) lemma=aguijonear 
- guijó ( ) lemma=aguijón 
- guilucho ( ) lemma=aguilucho 
- guinald ( ) lemma=aguinaldo 
- guinaldo ( ) lemma=aguinaldo 
- guja ( ) lemma=aguja 
- gujereada ( ) lemma=agujerear 
- gujeread ( ) lemma=agujerear 
- gujereado ( ) lemma=agujerear 
- gujerit ( ) lemma=agujero 
- gujerito ( ) lemma=agujero 
- gujer ( ) lemma=agujero 
- gujero ( ) lemma=agujero 
- gujeta ( ) lemma=agujeta 
- gustin ( ) lemma=agustino 
- guza ( ) lemma=aguzar 
- guántam ( ) lemma=aguantar 
- güer ( ) lemma=agüero 
- güit ( ) lemma=agua 
- gipci ( ) lemma=egipcio 
- gipcia ( ) lemma=egipcio 
- gipcio ( ) lemma=egipcio 
- goísm ( ) lemma=egoísmo 
- goísmo ( ) lemma=egoísmo 
- goíst ( ) lemma=egoísta 
- goístament ( ) lemma=egoísta 
- goísta ( ) lemma=egoísta 
- gresad ( ) lemma=egresar 
- gresado ( ) lemma=egresar 
- gresa ( ) lemma=egresar 
- gres ( ) lemma=egreso 
+ Gracias_a ( PREPOSITION ) lemma=gracias~a 
+ gracias~a ( ) 
  gabonés ( ) 
  gafar ( ) 
  gaita ( ) 
@@ -2093,6 +1691,7 @@
  gotear ( ) 
  gozoso ( ) 
  grabador ( ) 
+ gracias_a ( PREPOSITION ) lemma=gracias~a 
  gradería ( ) 
  gradar ( ) 
  grafológica ( ) 
@@ -2123,58 +1722,4 @@
  guipuzcoano ( ) 
  guitar ( ) 
  guiño ( ) 
- gnomini ( ) lemma=ignominia 
- gnor ( ) lemma=ignorar 
- gnorab ( ) lemma=ignorar 
- gnoraba ( ) lemma=ignorar 
- gnorad ( ) lemma=ignorar 
- gnorada ( ) lemma=ignorar 
- gnorado ( ) lemma=ignorar 
- gnoramo ( ) lemma=ignorar 
- gnora ( ) lemma=ignorar 
- gnoranci ( ) lemma=ignorancia 
- gnorancia ( ) lemma=ignorancia 
- gnorand ( ) lemma=ignorar 
- gnorant ( ) lemma=ignorante 
- gnorante ( ) lemma=ignorante 
- gnorarl ( ) lemma=ignorar 
- gnorarla ( ) lemma=ignorar 
- gnorarlo ( ) lemma=ignorar 
- gnoraro ( ) lemma=ignorar 
- gnorars ( ) lemma=ignorarse 
- gnorar� ( ) lemma=ignorar 
- gnorará ( ) lemma=ignorar 
- gnorarí ( ) lemma=ignorar 
- gnoras ( ) lemma=ignorar 
- gnorase ( ) lemma=ignorar 
- gnoremo ( ) lemma=ignorar 
- gnore ( ) lemma=ignorar 
- gnorábamo ( ) lemma=ignorar 
- gnorándol ( ) lemma=ignorar 
- gnorándos ( ) lemma=ignorarse 
- gnoráramo ( ) lemma=ignorar 
- gnorásemo ( ) lemma=ignorar 
- gnor� ( ) lemma=ignorar 
- gnórenl ( ) lemma=ignorar 
- gual ( ) lemma=igualar 
- gualaba ( ) lemma=igualar 
- gualació ( ) lemma=igualación 
- gualad ( ) lemma=igualar 
- gualada ( ) lemma=igualar 
- gualado ( ) lemma=igualar 
- guala ( ) lemma=igualar 
- gualand ( ) lemma=igualar 
- gualaro ( ) lemma=igualar 
- gualar� ( ) lemma=igualar 
- gualará ( ) lemma=igualar 
- gualaría ( ) lemma=igualar 
- gualda ( ) lemma=igualdad 
- gualdade ( ) lemma=igualdad 
- guale ( ) lemma=igual 
- gualit ( ) lemma=igual 
- gualment ( ) lemma=igual|igualmente 
- gual� ( ) lemma=igualar 
- guan ( ) lemma=iguana 
  grande|máximo ( ) 
- gone ( ) lemma=ogonek 
- g-scou ( ) lemma=sg-scout 

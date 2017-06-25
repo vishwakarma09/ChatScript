@@ -8216,6 +8216,8 @@
     W~2nz (^power_unit~1) a unit of power equal to 1 joule per second
  Western_Samoan_monetary_unit ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
     Western_Samoan_monetary_unit~1nz (^monetary_unit~1) monetary unit in Western Samoa
+ watt_second ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    J~2nz (^energy_unit~1) a unit of electrical energy equal to the work done when a current of one ampere passes through a resistance of one ohm for one second
  watt-hour ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     watt-hour~1nz (^energy_unit~1) a unit of energy equal to the power of one watt operating for one hour
  whole_number ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 

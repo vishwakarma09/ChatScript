@@ -1,6 +1,6 @@
 # ChatScript Debugging Manual
 © Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com<br>
-<br>Revision 6/18/2017 cs7.5
+<br>Revision 6/25/2017 cs7.51
 
 You've written script. It doesn't work. Now what? Now you need to debug it, fix it, and
 recompile it. Debugging is mostly a matter of tracing what the system does testpaand
@@ -119,7 +119,7 @@ the above : statement show the list:
 :topicdump         - Dump topic data suitable for inclusion as extra topics into TMP/tmp.txt 
                      (:extratopic or PerformChatGivenTopic)
 :builddict         -  basic, layer0, layer1, or wordnet are options instead of default full
-:buildforeign      - TODO
+:buildforeign      - rebuild a foreign dictionary (requires treetagger data)
 :clean             - Convert source files to NL instead of CR/LF for unix
 :extratopic        - given topic name and file as output from :topicdump, 
                      build in core topic and use it thereafter
@@ -724,6 +724,10 @@ Lists words that have multiple upper-case spellings. Ideally there would be only
 
 ### `:userfacts`
 This prints out the current facts stored with the user.
+
+### `:quotelines`
+This takes a filename as argument, reads the lines and rewrites them to TMP/tmp.txt with double quotes around them.
+Useful for converting multiple word values into quoted ones for concepts.
 
 ### `:allfacts`
 This dumps a list of all the facts (including system facts) into the file `TMP/facts.txt`.

@@ -802,8 +802,6 @@
  Ahana ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
  Ahane ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
  Ahanu ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
- Ahava ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
- Ahave ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
  Aheawan ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
  Ahebban ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
  Ahelia ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_SHE NOUN NOUN_PROPER_SINGULAR ) 
@@ -18082,6 +18080,8 @@
     square_measure~1n 
  arcdegree ( meanings=1 NOUN NOUN_SINGULAR COMMON1 ) 
     degree~5n 
+ arcsecond ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    arcsecond~1nz (^angular_unit~1) a 60th part of a minute of arc
  arcminute ( meanings=1 NOUN NOUN_SINGULAR COMMON2 posdefault:NOUN ) 
     minute~3n 
  acre ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON4 posdefault:NOUN ) 
@@ -18105,6 +18105,8 @@
     allocation_unit~1nz (^computer_memory_unit~1) a group of sectors on a magnetic disk that can be reserved for the use of a particular file
  abfarad ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON1 ) 
     abfarad~1nz (^capacitance_unit~1) a capacitance unit equal to one billion farads
+ ampere-second ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    coulomb~1nz (^quantity_unit~1) a unit of electrical charge equal to the amount of charge transferred by a current of 1 ampere in 1 second
  abcoulomb ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON1 ) 
     abcoulomb~1nz (^quantity_unit~1) a unit of electrical charge equal to 10 coulombs
  ampere-minute ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
@@ -20204,6 +20206,8 @@
     school_term~1n 
  academic_session ( meanings=1 NOUN NOUN_SINGULAR ) 
     academic_term~1n 
+ attosecond ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    attosecond~1nz (^unit_of_time~1) one quintillionth of a second
  Advent_Sunday ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
     Advent_Sunday~1nz (^Christian_holy_day~1) the first of the four Sundays during Advent
  anniversary ( meanings=1 NOUN NOUN_SINGULAR COMMON4 posdefault:NOUN ) 
@@ -20360,6 +20364,8 @@
  aurar ( NOUN NOUN_PLURAL COMMON1 ) plural=eyir 
  artal ( NOUN NOUN_PLURAL COMMON1 posdefault:NOUN ) plural=rotl 
  artel ( NOUN NOUN_PLURAL COMMON1 ) 
+ airbag ( meanings=1 NOUN NOUN_SINGULAR ) plural=NOUN 
+    airbag~1nz 
  a.m. ( meanings=2 glosses=1 NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR COMMON2 COMMON1 KINDERGARTEN posdefault:ADVERB TIMEWORD ) 
     a.m.~1nz 
     ante_meridiem~1az before noon

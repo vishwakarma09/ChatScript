@@ -1,4 +1,4 @@
-﻿ 2 ( ) lemma=c.2.2 
+﻿ 2 ( ADJECTIVE_NUMBER NOUN_NUMBER ) 
  2$$ed ( ) 
  2,2Q ( ) 
  2.o ( ) 
@@ -33,15 +33,3 @@
  2W ( ) 
  2X ( ) 
  2a ( ) 
- 2e ( ) lemma=L2es 
- 20 ( ) lemma=T204 
- 2. ( ) lemma=T2.6 
- 2.1 ( ) lemma=T2.18 
- 2.2 ( ) lemma=T2.25 
- 2.3 ( ) lemma=T2.39 
- 2.5 ( ) lemma=T2.59 
- 2.6 ( ) lemma=T2.64 
- 2.7 ( ) lemma=T2.71 
- 2.8 ( ) lemma=T2.85 
- 2.9 ( ) lemma=T2.90 
- 21 ( ) lemma=T211 

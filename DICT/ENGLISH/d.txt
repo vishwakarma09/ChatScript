@@ -8767,6 +8767,8 @@
     lesson~4n 
  degree_program ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     degree_program~1nz (^program~7) a course of study leading to an academic degree
+ double_first ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
+    double_first~1nz (^first-class_honours_degree~1) a first-class honours degree in two subjects
  doctor_'s_degree ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     doctorate~1nz (^degree~4) one of the highest earned academic degrees conferred by a university
  doctorate ( meanings=1 NOUN NOUN_SINGULAR COMMON4 posdefault:NOUN ) 

@@ -703,6 +703,29 @@ bool SpellCheckSentence()
 			continue; 
 		}
 
+		// see if smooshed word pair
+		size_t len1 = strlen(word);
+		int j;
+		if (!IsDigit(*word))
+		{
+			for (j = 1; j <= len1 - 1; ++j)
+			{
+				WORDP X1 = FindWord(word, j);  // any case
+				WORDP X2 = FindWord(word + j, len1 - i); // any case
+
+				if (X1 && X2 && (X1->word[1] || X1->word[0] == 'i' || X1->word[0] == 'I' || X1->word[0] == 'a'))
+				{
+					char* tokens[3];
+					tokens[1] = X1->word;
+					tokens[2] = X2->word;
+					ReplaceWords("Split", i, 1, 2, tokens);
+					fixedSpell = true;
+					break;
+				}
+			}
+			if (j != len1) continue;
+		}
+
 		if (*word != '\'' && (!FindCanonical(word, i,true) || IsUpperCase(word[0]))) // dont check quoted or findable words unless they are capitalized
 		{
 			word = SpellCheck(i);
