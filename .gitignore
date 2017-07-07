@@ -1,7 +1,4 @@
 # folders
-VS2010/Debug/
-VS2010/ipch
-VS2015/
 mackore/KoreNLPXC/KoreNLPXC.xcodeproj/xcuserdata/
 mackore/KoreNLPXC/KoreNLPXC.xcodeproj/project.xcworkspace/xcuserdata/
 
@@ -31,6 +28,12 @@ BINARIES/chatscript_Debug_v140.exe
 *.tlog
 *.user
 *.suo
+
+# ignore local user settings for Visual Studio 2015/2017
+VS2015/.vs/
+VS2015/Debug/
+VS2017/.vs/
+VS2017/Debug/
 
 # specific files
 private/KORA/TESTS/regress-qabots-result*.txt
