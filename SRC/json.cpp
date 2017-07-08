@@ -1948,8 +1948,8 @@ LOOP: // now we look at $x.key or $x[0]
 		}
 	}
 	// now we have retrieved the key/index
-	if (*keyx == ']') keyname = NULL;
-	else keyname =  StoreWord(keyx,AS_IS); 
+	if (*keyx == ']') keyname = NULL;  // [] use
+	else keyname =  StoreWord(keyx,AS_IS);  // key indexing
 
 	// keyname is the Word of the key
 
@@ -1969,10 +1969,11 @@ LOOP: // now we look at $x.key or $x[0]
 		// we must find this and keep going if there is something later
 		FACT* F = GetSubjectNondeadHead(leftside);
 		WORDP priorLeftside = leftside;
+		FACT* arrayfact = NULL;
 		while (F)
 		{
 			if (F->verb == MakeMeaning(keyname)) break;
-			if (F->flags & JSON_ARRAY_FACT) break; // it has array values
+			if (F->flags & JSON_ARRAY_FACT) arrayfact = F;
 			F = GetSubjectNondeadNext(F);
 		}
 	    if (!F) // key (array values) is not found so no value exists either
@@ -2001,7 +2002,7 @@ LOOP: // now we look at $x.key or $x[0]
 				MEANING valx = jsonValue(leftside->word, flags);
 				F = CreateFact(MakeMeaning(priorLeftside), MakeMeaning(keyname), valx, flags);
 			}
-			else
+			else if (!arrayfact)
 			{
 				char loc[100];
 
@@ -2025,6 +2026,8 @@ LOOP: // now we look at $x.key or $x[0]
 				callArgumentIndex = oldArgumentIndex;
 				callArgumentBase = oldArgumentBase;
 			}
+			// array index not found when looked up
+			else return FAILRULE_BIT;
         }
 		else leftside = Meaning2Word(F->object);
 

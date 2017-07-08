@@ -15,7 +15,7 @@ However ChatScript builds and runs just fine on any version of OSX ( now called 
 
 After unzipping into a folder or cloing from github directly, you need to compile the src in SRC. 
 
-The example/default command line compile is located in NON-WINDOWS NON-C/MAC/MacCompile.sh.  Read the compile-on-osx.md in that directory for more instructions. 
+The example/default command line compile is located in NON-WINDOWS NON-C/MAC/MacCompile.sh.  Read the compile-on-osx.html in that directory for more instructions. 
 
 ### Method 2 - use outdated binary in the BINARIES folder
 Alternatively you can use the binary in BINARIES/MacChatScript, but it is at least one version behind unless you are grabbing chatscript directly from github.   

@@ -4001,11 +4001,15 @@ static void C_Build(char* input)
 		else if (buildId == BUILD2) MakeDirectory((char*)"TOPIC/BUILD2");
 		userVariableThreadList = 0;
 		ReadTopicFiles(word, buildId, spell);
+
 		if (!stricmp(computerID,(char*)"anonymous")) *computerID = 0;	// use default
 		ClearPendingTopics(); // flush in case topic ids change or go away
 		ClearVolleyWordMaps();
 		PartiallyCloseSystem();
 		CreateSystem();
+#ifdef PRIVATE_CODE
+		PrivateRestart(); // must come AFTER any mongo/postgress init (to allow encrypt/decrypt override)
+#endif
 		systemReset = (reset) ? 2 : 1;
 	}
 	// refresh current user data lost when we rebooted the system
@@ -9917,7 +9921,7 @@ CommandInfo commandSet[] = // NEW
 	{ (char*)":timedtopics",C_TimedTopics,(char*)"List all topics currently being timed" },
 	{ (char*)":tracedfunctions",C_TracedFunctions,(char*)"List all user defined macros currently being traced"},
 	{ (char*)":tracedtopics",C_TracedTopics,(char*)"List all topics currently being traced"},
-	{ (char*)":variables",C_Variables,(char*)"Display current user/sysytem/match/all variables"}, 
+	{ (char*)":variables",C_Variables,(char*)"Display current bot/user/sysytem/match/all variables"}, 
 	{ (char*)":who",C_Who,(char*)"show current login/computer pair"}, 
 		
 	{ (char*)"\r\n---- Word information",0,(char*)""}, 

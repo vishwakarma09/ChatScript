@@ -79,10 +79,10 @@ static char* Sdate(char* value)
 	static char hold[50] = ".";
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
+	if (regression) return "1";
 	struct tm ptm;
  	char* x = GetTimeInfo(&ptm) + 8;
     ReadCompiledWord(x,systemValue);
-    if (regression) return "1";
     return systemValue; //   1 or 2 digit date
 }
 
@@ -111,6 +111,7 @@ static char* SdayNumberOfWeek(char* value)
 	static char hold[50] = ".";
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
+	if (regression) return "2";
 	struct tm ptm;
 	ReadCompiledWord(GetTimeInfo(&ptm),systemValue);
 	int n;
@@ -149,6 +150,7 @@ static char* Shour(char* value)
 	static char hold[50] = ".";
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
+	if (regression) return "11";
 	struct tm ptm;
 	strncpy(systemValue,GetTimeInfo(&ptm)+11,2);
 	systemValue[2] = 0;
@@ -160,6 +162,7 @@ static char* SleapYear(char* value)
 	static char hold[50] = ".";
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
+	if (regression) return "";
 	time_t rawtime;
 	time (&rawtime );
 	struct tm timeinfo;
@@ -176,6 +179,7 @@ static char* Sdaylightsavings(char* value)
 	static char hold[50] = ".";
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
+	if (regression) return "1";
 	time_t rawtime;
 	time (&rawtime );
  	struct tm timeinfo;
@@ -189,6 +193,7 @@ static char* Sminute(char* value)
 	static char hold[50] = ".";
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
+	if (regression) return "12";
 	struct tm ptm;
 	ReadCompiledWord(GetTimeInfo(&ptm)+14,systemValue);
 	systemValue[2] = 0;
@@ -252,6 +257,7 @@ static char* Ssecond(char* value)
 	static char hold[50] = ".";
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
+	if (regression) return "12";
 	struct tm ptm;
     ReadCompiledWord(GetTimeInfo(&ptm)+17,systemValue);
     systemValue[2] = 0;
@@ -263,6 +269,7 @@ static char* Svolleytime(char* value)
 	static char hold[50] = ".";
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
+	if (regression) return "12";
 	clock_t diff = ElapsedMilliseconds() - startTimeInfo;
     sprintf(systemValue,(char*)"%u",(unsigned int)diff);
     return systemValue;
@@ -273,6 +280,7 @@ static char* Stime(char* value)
 	static char hold[50] = ".";
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
+	if (regression) return "01:40";
 	struct tm ptm;
     strncpy(systemValue,GetTimeInfo(&ptm)+11,5);
     systemValue[5] = 0;
@@ -322,6 +330,7 @@ static char* Syear(char* value)
 	static char hold[50] = ".";
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
+	if (regression) return "2017";
 	struct tm ptm;
     ReadCompiledWord(GetTimeInfo(&ptm)+20,systemValue);
     return (regression) ? (char*)"1951" : systemValue;
@@ -332,6 +341,7 @@ static char* Srand(char* value) // 1 .. 100
 	static char hold[50] = ".";
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
+	if (regression) return "0";
 	sprintf(systemValue,(char*)"%d",random(100)+1);
 	return systemValue;
 }

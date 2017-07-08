@@ -1,3 +1,7 @@
+Version 7.52 7/8/2017
+1. ^respond(~xxx TEST) conditional execution of a topic to see if a match would occur (no output)
+2. revision of german noun pos tags in dictionary
+
 
 version 7.51  6/25/2017
 1. ^pos(isuppercase xx)  does it begin with uppercase letter

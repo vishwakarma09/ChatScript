@@ -101,7 +101,7 @@ so that the system can do complete logs. You are welcome to set log size lots sm
 |`param=xxxxx`     | data to be passed to your private code
 |`bootcmd=xxx`     | runs this command string before CSBOOT is run; use it to trace the boot process
 |`trace`           | turn on all tracing.
-|`redo`            | see documentation for :redo in [ChatScript Debugging Manual](ChatScript-Debugging-Manual.md) manual
+|`redo`            | see documentation for :redo in [ChatScript Debugging Manual](ChatScript-Debugging-Manual.html) manual
 |`noboot`          | Do not run any boot script on engine startup
 |`logsize=n`          | When server log file exceeds n megabytes, rename it and start with a new file.
 

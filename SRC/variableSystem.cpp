@@ -77,7 +77,7 @@ void JoinMatch(int start, int end,int index,bool inpattern)
 		if (wordCanonical[i]) strcat(wildcardCanonicalText[index], wordCanonical[i]);
 		else strcat(wildcardCanonicalText[index], word);
 	}
-
+	if (strstr(wildcardCanonicalText[index], "unknown-word")) strcpy(wildcardCanonicalText[index], "unknown-word"); // if any are unknown, the composite is unknown
 	// force a particular case? do we know the word?
 	int lookup = STANDARD_LOOKUP;
 	if (uppercaseFind > 0) 
@@ -625,7 +625,7 @@ void NoteBotVariables() // system defined variables
 		unsigned int* cell = (unsigned int*)Index2Heap(varthread);
 		varthread = cell[0];
 		WORDP D = Index2Word(cell[1]);
-		if (D->word[1] != LOCALVAR_PREFIX) // not a transient var
+		if (D->word[1] != LOCALVAR_PREFIX && D->word[1] != TRANSIENTVAR_PREFIX) // not a transient var
 		{
 			if (!strnicmp(D->word,"$cs_",4)) continue; // dont force these, they are for user
 			int* data = (int*)AllocateHeap(NULL, 3, 4);

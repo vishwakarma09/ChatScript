@@ -1926,6 +1926,7 @@ static FunctionResult RespondCode(char* buffer)
 	char arguments[MAX_ARG_LIMIT+1][SIZELIM];
 	if (planning) return FAILRULE_BIT;	// cannot call from planner
 	bool fail = false;
+	bool testing = false;
 	// if a last argument exists (FAIL) then return failure code if doesnt generate output to user
 	unsigned int  i;
 	for (i = 1; i < MAX_ARG_LIMIT; ++i)
@@ -1944,6 +1945,12 @@ static FunctionResult RespondCode(char* buffer)
 			fail = true;
 			*arguments[i] = 0;
 		}
+		if (!stricmp(a, (char*)"TEST") && !*ARGUMENT(i + 1)) // last argument
+		{
+			testing = true;
+			*arguments[i] = 0;
+		}
+
 	}
 	*arguments[i] = 0;
 	int oldIndex = responseIndex;
@@ -2028,7 +2035,9 @@ static FunctionResult RespondCode(char* buffer)
 				ChangeDepth(-1,name);
 				return FAILRULE_BIT;
 			}
+			if (testing) hypotheticalMatch = true;
 			result = PerformTopic(0,buffer,rule,id);
+			hypotheticalMatch = false;
 			ChangeDepth(-1,name);
 			if (pushed) PopTopic();
 

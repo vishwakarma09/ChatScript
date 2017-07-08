@@ -438,7 +438,7 @@ FunctionResult HandleRelation(char* word1,char* op, char* word2,bool output,int&
 					++arg1;
 				}
 			}
-			if (*arg2 == '"' && arg1[1])
+			if (*arg2 == '"' && arg2[1])
 			{
 				size_t len = strlen(arg2);
 				if (arg2[len-1] == '"') // remove STRING markers
@@ -448,7 +448,10 @@ FunctionResult HandleRelation(char* word1,char* op, char* word2,bool output,int&
 				}
 			}			
 			if (*op == '!') result = (stricmp(arg1,arg2)) ? NOPROBLEM_BIT : FAILRULE_BIT;
-			else if (*op == '=') result = (!stricmp(arg1,arg2)) ? NOPROBLEM_BIT: FAILRULE_BIT;
+			else if (*op == '=')
+			{
+				result = (!stricmp(arg1, arg2)) ? NOPROBLEM_BIT : FAILRULE_BIT;
+			}
 			else if (*op == '>' && op[1] == '=') result = (stricmp(arg1, arg2) >= 0) ? NOPROBLEM_BIT : FAILRULE_BIT;
 			else if (*op == '<' && op[1] == '=') result = (stricmp(arg1, arg2) <= 0) ? NOPROBLEM_BIT : FAILRULE_BIT;
 			else if (*op == '>') result = (stricmp(arg1, arg2) > 0) ? NOPROBLEM_BIT : FAILRULE_BIT;

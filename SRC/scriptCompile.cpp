@@ -5034,13 +5034,13 @@ static void WriteDictionaryChange(FILE* dictout, unsigned int build)
 	int layer = 0;
 	if ( build == BUILD0) 
 	{
-    sprintf(file,(char*)"%s/prebuild0.bin",tmp);
+		sprintf(file,(char*)"%s/prebuild0.bin",tmp);
 		in = FopenReadWritten(file);
 		layer = 0;
 	}
 	else if ( build == BUILD1) 
 	{
-    sprintf(file,(char*)"%s/prebuild1.bin",tmp);
+		sprintf(file,(char*)"%s/prebuild1.bin",tmp);
 		in = FopenReadWritten(file);
 		layer = 1;
 	}
@@ -5076,9 +5076,10 @@ static void WriteDictionaryChange(FILE* dictout, unsigned int build)
 				printf((char*)"%s",(char*)"out of dictionary change data2?\r\n"); // multiword header 
 		}
 		else notPrior = true;
-		if (!D->word ||  *D->word == USERVAR_PREFIX) continue;		// dont write topic names or concept names, let keywords do that and  no variables
-		if (*D->word == '~' && !( D->systemFlags & NOCONCEPTLIST) ) 
-			continue;		// dont write topic names or concept names, let keywords do that and  no variables
+
+		if (!D->word || *D->word == USERVAR_PREFIX) continue;		// dont variables
+		if (!strnicmp(D->word, "jo-", 3) || !strnicmp(D->word, "ja-", 3)) continue; // no need to note json composites
+		if (*D->word == '~' && !( D->systemFlags & NOCONCEPTLIST) ) continue;		// dont write topic names or concept names, let keywords do that and  no variables
 		if (D->internalBits & FUNCTION_BITS) continue;	 // functions written out in macros file.
 
 		if (D->internalBits & QUERY_KIND && D->internalBits & build && *D->word != '@' && *D->word != '#' && *D->word != '_') 

@@ -1,1197 +1,1197 @@
-﻿ Q ( NOUN NOUN_PROPER_SINGULAR ) 
- Q-Damm ( NOUN NOUN_PROPER_SINGULAR ) 
- Q-Fieber ( NOUN NOUN_PROPER_SINGULAR ) 
- Q-Fieber-Epidemie ( NOUN NOUN_PROPER_SINGULAR ) 
- Q-Fragment ( NOUN NOUN_PROPER_SINGULAR ) 
- Q-Fragmente ( NOUN NOUN_PROPER_SINGULAR ) lemma=Q-Fragment 
- Q-KOM ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Q-Magazin ( NOUN NOUN_PROPER_SINGULAR ) 
- Q-Tip ( NOUN NOUN_PROPER_SINGULAR ) 
- Q-Tips ( NOUN NOUN_PROPER_SINGULAR ) lemma=Q-Tip 
- Q. ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Q.-Viet ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- QC-Pools ( NOUN NOUN_PROPER_SINGULAR ) lemma=QC-Pool 
- QC-Probe ( NOUN NOUN_PROPER_SINGULAR ) 
- QC-Proben ( NOUN NOUN_PROPER_SINGULAR ) lemma=QC-Probe 
- QC-Proben-Messung ( NOUN NOUN_PROPER_SINGULAR ) 
- QC-Probenpool ( NOUN NOUN_PROPER_SINGULAR ) 
- QC-Standards ( NOUN NOUN_PROPER_SINGULAR ) lemma=QC-Standard 
- QE&U ( NOUN NOUN_PROPER_SINGULAR ) 
- QNSD-Galerie ( NOUN NOUN_PROPER_SINGULAR ) 
- QS-Systems ( NOUN NOUN_PROPER_SINGULAR ) lemma=QS-System 
- QSL-Karte ( NOUN NOUN_PROPER_SINGULAR ) 
- QSL-Karten ( NOUN NOUN_PROPER_SINGULAR ) lemma=QSL-Karte 
- QUALITÄTSKONTROLLE ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätskontrolle 
- QUALITÄTSSICHERUNG ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätssicherung 
- QUEREMPFINDLICHKEITEN ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querempfindlichkeit 
- Qadir ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Qamaruddin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+﻿ Q ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Q-Damm ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Q-Fieber ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Q-Fieber-Epidemie ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Q-Fragment ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Q-Fragmente ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Q-Fragment 
+ Q-KOM ( NOUN NOUN_PROPER_SINGULAR ) 
+ Q-Magazin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Q-Tip ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Q-Tips ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Q-Tip 
+ Q. ( NOUN NOUN_PROPER_SINGULAR ) 
+ Q.-Viet ( NOUN NOUN_PROPER_SINGULAR ) 
+ QC-Pools ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=QC-Pool 
+ QC-Probe ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ QC-Proben ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=QC-Probe 
+ QC-Proben-Messung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ QC-Probenpool ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ QC-Standards ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=QC-Standard 
+ QE&U ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ QNSD-Galerie ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ QS-Systems ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=QS-System 
+ QSL-Karte ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ QSL-Karten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=QSL-Karte 
+ QUALITÄTSKONTROLLE ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätskontrolle 
+ QUALITÄTSSICHERUNG ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätssicherung 
+ QUEREMPFINDLICHKEITEN ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querempfindlichkeit 
+ Qadir ( NOUN NOUN_PROPER_SINGULAR ) 
+ Qamaruddin ( NOUN NOUN_PROPER_SINGULAR ) 
  Qarun- ( ) 
- Qat-Runden ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qat-Runde 
- Qat-Sitzungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qat-Sitzung 
- Qat-Strauches ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qat-Strauch 
- Qazim ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Qbasic ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Qdos ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Qiam. ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Qianjin-Kolleg ( NOUN NOUN_PROPER_SINGULAR ) 
- Qianlong-Zeit ( NOUN NOUN_PROPER_SINGULAR ) 
- Qincheng-Gefängnis ( NOUN NOUN_PROPER_SINGULAR ) 
- Qing-Dynastie ( NOUN NOUN_PROPER_SINGULAR ) 
- Qing-Hua-Universität ( NOUN NOUN_PROPER_SINGULAR ) 
+ Qat-Runden ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qat-Runde 
+ Qat-Sitzungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qat-Sitzung 
+ Qat-Strauches ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qat-Strauch 
+ Qazim ( NOUN NOUN_PROPER_SINGULAR ) 
+ Qbasic ( NOUN NOUN_PROPER_SINGULAR ) 
+ Qdos ( NOUN NOUN_PROPER_SINGULAR ) 
+ Qiam. ( NOUN NOUN_PROPER_SINGULAR ) 
+ Qianjin-Kolleg ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qianlong-Zeit ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qincheng-Gefängnis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qing-Dynastie ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qing-Hua-Universität ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Qinghua- ( ) 
- Qinghua-Universität ( NOUN NOUN_PROPER_SINGULAR ) 
- Qlympia-Qualifikation ( NOUN NOUN_PROPER_SINGULAR ) 
- Qu ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quabi-Inhaber ( NOUN NOUN_PROPER_SINGULAR ) 
- Quacksalber ( NOUN NOUN_PROPER_SINGULAR ) 
- Quacksalber-Ökonomie ( NOUN NOUN_PROPER_SINGULAR ) 
- Quacksalberei ( NOUN NOUN_PROPER_SINGULAR ) 
- Quacksalbern ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quacksalber|Quacksalbern 
- Quade ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quader ( NOUN NOUN_PROPER_SINGULAR ) 
+ Qinghua-Universität ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qlympia-Qualifikation ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qu ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quabi-Inhaber ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quacksalber ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quacksalber-Ökonomie ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quacksalberei ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quacksalbern ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quacksalber|Quacksalbern 
+ Quade ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quader ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quader- ( ) 
- Quaderbau ( NOUN NOUN_PROPER_SINGULAR ) 
- Quadern ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quader 
+ Quaderbau ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quadern ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quader 
  Quaderstein ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR ) 
- Quadersäulen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quadersäule 
- Quadir ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quadrant ( NOUN NOUN_PROPER_SINGULAR ) 
- Quadranten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quadrant 
- Quadrat ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quadersäulen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quadersäule 
+ Quadir ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quadrant ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quadranten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quadrant 
+ Quadrat ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quadrat- ( ) 
- Quadrate ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quadrat 
- Quadraten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quadrat 
- Quadrates ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quadrat 
- Quadratfuss ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quadratfuß 
- Quadratfuß ( NOUN NOUN_PROPER_SINGULAR ) 
- Quadratische ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=quadratisch 
- Quadratkilometer ( NOUN NOUN_PROPER_SINGULAR ) 
- Quadratkilometern ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quadratkilometer 
- Quadratlatschen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quadratlatsche 
- Quadratmeile ( NOUN NOUN_PROPER_SINGULAR ) 
- Quadratmeilen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quadratmeile 
- Quadratmeter ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quadrate ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quadrat 
+ Quadraten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quadrat 
+ Quadrates ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quadrat 
+ Quadratfuss ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quadratfuß 
+ Quadratfuß ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quadratische ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=quadratisch 
+ Quadratkilometer ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quadratkilometern ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quadratkilometer 
+ Quadratlatschen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quadratlatsche 
+ Quadratmeile ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quadratmeilen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quadratmeile 
+ Quadratmeter ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quadratmeter- ( ) 
- Quadratmeter-Halle ( NOUN NOUN_PROPER_SINGULAR ) 
- Quadratmeter-Mietpreis ( NOUN NOUN_PROPER_SINGULAR ) 
- Quadratmeter-Preis ( NOUN NOUN_PROPER_SINGULAR ) 
- Quadratmeter-Preisen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quadratmeter-Preis 
- Quadratmeter-Raum ( NOUN NOUN_PROPER_SINGULAR ) 
- Quadratmeter-Refugiums ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quadratmeter-Refugium 
- Quadratmeter-Wohnung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quadratmeter-Zelle ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quadratmeter-Halle ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quadratmeter-Mietpreis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quadratmeter-Preis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quadratmeter-Preisen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quadratmeter-Preis 
+ Quadratmeter-Raum ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quadratmeter-Refugiums ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quadratmeter-Refugium 
+ Quadratmeter-Wohnung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quadratmeter-Zelle ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quadratmeter-Zimmer ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR ) 
- Quadratmetermiete ( NOUN NOUN_PROPER_SINGULAR ) 
- Quadratmetermieten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quadratmetermiete 
- Quadratmetermietpreise ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quadratmetermietpreis 
- Quadratmetern ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quadratmeter 
- Quadratmeterpreis ( NOUN NOUN_PROPER_SINGULAR ) 
- Quadratmeterpreise ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quadratmeterpreis 
- Quadratmeterpreisen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quadratmeterpreis 
- Quadratmeterpreises ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quadratmeterpreis 
- Quadratmeters ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quadratmeter 
- Quadratmeterzahl ( NOUN NOUN_PROPER_SINGULAR ) 
- Quadratmeterzahlen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quadratmeterzahl 
- Quadratmillimeter ( NOUN NOUN_PROPER_SINGULAR ) 
- Quadratmillimetern ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quadratmillimeter 
- Quadratraster ( NOUN NOUN_PROPER_SINGULAR ) 
- Quadrats ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quadrat 
- Quadratschädel ( NOUN NOUN_PROPER_SINGULAR ) 
- Quadratur ( NOUN NOUN_PROPER_SINGULAR ) 
- Quadratwurzel ( NOUN NOUN_PROPER_SINGULAR ) 
- Quadratwurzelmeter ( NOUN NOUN_PROPER_SINGULAR ) 
- Quadratzentimeter ( NOUN NOUN_PROPER_SINGULAR ) 
- Quadratzentimetern ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quadratzentimeter 
- Quadratzoll ( NOUN NOUN_PROPER_SINGULAR ) 
- Quadratzolls ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quadratzoll 
- Quadriga-Verlag ( NOUN NOUN_PROPER_SINGULAR ) 
- Quadrillen-Wettbewerb ( NOUN NOUN_PROPER_SINGULAR ) 
- Quadt ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quadtratmeter ( NOUN NOUN_PROPER_SINGULAR ) 
- Quagga ( NOUN NOUN_PROPER_SINGULAR ) 
- Quai ( NOUN NOUN_PROPER_SINGULAR ) 
- Quais ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quai 
- Quaken ( NOUN NOUN_PROPER_SINGULAR ) 
- Qual ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quadratmetermiete ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quadratmetermieten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quadratmetermiete 
+ Quadratmetermietpreise ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quadratmetermietpreis 
+ Quadratmetern ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quadratmeter 
+ Quadratmeterpreis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quadratmeterpreise ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quadratmeterpreis 
+ Quadratmeterpreisen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quadratmeterpreis 
+ Quadratmeterpreises ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quadratmeterpreis 
+ Quadratmeters ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quadratmeter 
+ Quadratmeterzahl ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quadratmeterzahlen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quadratmeterzahl 
+ Quadratmillimeter ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quadratmillimetern ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quadratmillimeter 
+ Quadratraster ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quadrats ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quadrat 
+ Quadratschädel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quadratur ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quadratwurzel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quadratwurzelmeter ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quadratzentimeter ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quadratzentimetern ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quadratzentimeter 
+ Quadratzoll ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quadratzolls ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quadratzoll 
+ Quadriga-Verlag ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quadrillen-Wettbewerb ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quadtratmeter ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quagga ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quai ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quais ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quai 
+ Quaken ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qual ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Qual- ( ) 
- Qualen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qual 
- Quali-Abschluss ( NOUN NOUN_PROPER_SINGULAR ) 
- Quali-Abschluß ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quali-Abschluss 
- Quali-Absolventen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quali-Absolvent 
- Quali-Prüfung ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualid ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Qualifierionen-Verhältnisse ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifierionen-Verhältnis 
- Qualifikation ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikation 
+ Qualen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qual 
+ Quali-Abschluss ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quali-Abschluß ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quali-Abschluss 
+ Quali-Absolventen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quali-Absolvent 
+ Quali-Prüfung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualid ( NOUN NOUN_PROPER_SINGULAR ) 
+ Qualifierionen-Verhältnisse ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifierionen-Verhältnis 
+ Qualifikation ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikation 
  Qualifikations- ( ) 
- Qualifikations-Endrunde ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikations-Gruppe ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikations-Modus ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikations-Offensive ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikations-Tretmühle ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikations-Turnier ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikations-Turniere ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikations-Turnier 
- Qualifikations-Turnieren ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikations-Turnier 
- Qualifikations-Wettkampf ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsanforderung ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsanforderungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsanforderung 
- Qualifikationsansprüche ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsanspruch 
- Qualifikationsargument ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsaustausch ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsbedarf ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsbedingungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsbedingung 
- Qualifikationsbegriff ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationschance ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsfonds ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsgefüge ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsgesellschaften ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsgesellschaft 
- Qualifikationsgruppe ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsgruppen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsgruppe 
- Qualifikationshürde ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationskriterien ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationskriterium 
- Qualifikationskriterium ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationskurse ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationskurs 
- Qualifikationslauf ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationslehrgang ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsleistung ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationslücken ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationslücke 
- Qualifikationsmarke ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsmassnahmen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsmaßnahme 
- Qualifikationsmaßnahmen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsmaßnahme 
- Qualifikationsmerkmal ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsmerkmale ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsmerkmal 
- Qualifikationsmerkmalen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsmerkmal 
- Qualifikationsmodus ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsmängel ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsmangel 
- Qualifikationsmöglichkeiten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsmöglichkeit 
- Qualifikationsnachweis ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsnachweisen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsnachweis 
- Qualifikationsniveau ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsniveaus ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsniveau 
- Qualifikationsnorm ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsnormen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsnorm 
- Qualifikationsphasen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsphase 
- Qualifikationspiel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Qualifikationspotential ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsprofil ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsprofile ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsprofil 
- Qualifikationspunkte ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationspunkt 
- Qualifikationsrennen ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsrunde ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsrunden ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsrunde 
- Qualifikationsschub ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsspiel ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsspiele ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsspiel 
- Qualifikationsspielen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsspiel 
- Qualifikationsstand ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsstellen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsstelle 
- Qualifikationsstruktur ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsstufe ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsstufen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsstufe 
- Qualifikationssystem ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationstabelle ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsturnier ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationsturniere ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsturnier 
- Qualifikationsturnieren ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsturnier 
- Qualifikationsturniers ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsturnier 
- Qualifikationsvoraussetzungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifikationsvoraussetzung 
- Qualifikationswettbewerb ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifikationszeit ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizieren ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierenden ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=qualifizierend 
- Qualifizierte ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=qualifiziert 
- Qualifizierten ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=qualifiziert 
- Qualifiziertere ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=qualifiziert 
- Qualifiziertes ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=qualifiziert 
- Qualifizierung ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifizierung 
+ Qualifikations-Endrunde ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikations-Gruppe ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikations-Modus ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikations-Offensive ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikations-Tretmühle ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikations-Turnier ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikations-Turniere ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikations-Turnier 
+ Qualifikations-Turnieren ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikations-Turnier 
+ Qualifikations-Wettkampf ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsanforderung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsanforderungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsanforderung 
+ Qualifikationsansprüche ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsanspruch 
+ Qualifikationsargument ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsaustausch ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsbedarf ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsbedingungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsbedingung 
+ Qualifikationsbegriff ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationschance ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsfonds ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsgefüge ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsgesellschaften ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsgesellschaft 
+ Qualifikationsgruppe ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsgruppen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsgruppe 
+ Qualifikationshürde ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationskriterien ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationskriterium 
+ Qualifikationskriterium ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationskurse ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationskurs 
+ Qualifikationslauf ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationslehrgang ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsleistung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationslücken ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationslücke 
+ Qualifikationsmarke ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsmassnahmen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsmaßnahme 
+ Qualifikationsmaßnahmen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsmaßnahme 
+ Qualifikationsmerkmal ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsmerkmale ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsmerkmal 
+ Qualifikationsmerkmalen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsmerkmal 
+ Qualifikationsmodus ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsmängel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsmangel 
+ Qualifikationsmöglichkeiten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsmöglichkeit 
+ Qualifikationsnachweis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsnachweisen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsnachweis 
+ Qualifikationsniveau ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsniveaus ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsniveau 
+ Qualifikationsnorm ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsnormen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsnorm 
+ Qualifikationsphasen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsphase 
+ Qualifikationspiel ( NOUN NOUN_PROPER_SINGULAR ) 
+ Qualifikationspotential ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsprofil ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsprofile ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsprofil 
+ Qualifikationspunkte ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationspunkt 
+ Qualifikationsrennen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsrunde ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsrunden ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsrunde 
+ Qualifikationsschub ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsspiel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsspiele ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsspiel 
+ Qualifikationsspielen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsspiel 
+ Qualifikationsstand ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsstellen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsstelle 
+ Qualifikationsstruktur ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsstufe ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsstufen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsstufe 
+ Qualifikationssystem ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationstabelle ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsturnier ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationsturniere ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsturnier 
+ Qualifikationsturnieren ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsturnier 
+ Qualifikationsturniers ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsturnier 
+ Qualifikationsvoraussetzungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifikationsvoraussetzung 
+ Qualifikationswettbewerb ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifikationszeit ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizieren ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierenden ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=qualifizierend 
+ Qualifizierte ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=qualifiziert 
+ Qualifizierten ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=qualifiziert 
+ Qualifiziertere ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=qualifiziert 
+ Qualifiziertes ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=qualifiziert 
+ Qualifizierung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifizierung 
  Qualifizierungs- ( ) 
- Qualifizierungsangebot ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierungsangebote ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifizierungsangebot 
- Qualifizierungsangeboten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifizierungsangebot 
- Qualifizierungsbedarf ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierungsbeihilfe ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierungschance ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierungschancen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifizierungschance 
- Qualifizierungsdefensive ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierungsfonds ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierungsgesellschaft ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierungsgesellschaften ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifizierungsgesellschaft 
- Qualifizierungsinitiative ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierungskurs ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierungskurse ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifizierungskurs 
- Qualifizierungskursen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifizierungskurs 
- Qualifizierungskursus ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierungslehrgang ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierungslehrgänge ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifizierungslehrgang 
- Qualifizierungsmassnahme ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifizierungsmaßnahme 
- Qualifizierungsmassnahmen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifizierungsmaßnahme 
- Qualifizierungsmaßnahme ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierungsmaßnahmen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifizierungsmaßnahme 
- Qualifizierungsmöglichkeit ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierungsmöglichkeiten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifizierungsmöglichkeit 
- Qualifizierungsoffensive ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierungspolitik ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierungsprogramm ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierungsprogramme ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifizierungsprogramm 
- Qualifizierungsprogrammen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifizierungsprogramm 
- Qualifizierungsprogramms ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifizierungsprogramm 
- Qualifizierungsprojekt ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierungsprojekte ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifizierungsprojekt 
- Qualifizierungsprojekten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifizierungsprojekt 
- Qualifizierungsprojekts ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifizierungsprojekt 
- Qualifizierungsprozesse ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifizierungsprozess 
- Qualifizierungsregelung ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierungsstand ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierungsstelle ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierungsstopp ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierungsstränge ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifizierungsstrang 
- Qualifizierungswerk ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualifizierungszentrum ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifizierungszentren 
- Qualifizierungszentrums ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualifizierungszentren 
- Qualitative ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=qualitativ 
- Qualitativen ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=qualitativ 
- Qualitatives ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=qualitativ 
- Quality-TV ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Qualität ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualität-der-Lehre-Diskussion ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitäten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualität 
+ Qualifizierungsangebot ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierungsangebote ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifizierungsangebot 
+ Qualifizierungsangeboten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifizierungsangebot 
+ Qualifizierungsbedarf ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierungsbeihilfe ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierungschance ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierungschancen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifizierungschance 
+ Qualifizierungsdefensive ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierungsfonds ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierungsgesellschaft ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierungsgesellschaften ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifizierungsgesellschaft 
+ Qualifizierungsinitiative ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierungskurs ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierungskurse ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifizierungskurs 
+ Qualifizierungskursen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifizierungskurs 
+ Qualifizierungskursus ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierungslehrgang ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierungslehrgänge ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifizierungslehrgang 
+ Qualifizierungsmassnahme ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifizierungsmaßnahme 
+ Qualifizierungsmassnahmen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifizierungsmaßnahme 
+ Qualifizierungsmaßnahme ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierungsmaßnahmen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifizierungsmaßnahme 
+ Qualifizierungsmöglichkeit ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierungsmöglichkeiten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifizierungsmöglichkeit 
+ Qualifizierungsoffensive ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierungspolitik ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierungsprogramm ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierungsprogramme ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifizierungsprogramm 
+ Qualifizierungsprogrammen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifizierungsprogramm 
+ Qualifizierungsprogramms ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifizierungsprogramm 
+ Qualifizierungsprojekt ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierungsprojekte ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifizierungsprojekt 
+ Qualifizierungsprojekten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifizierungsprojekt 
+ Qualifizierungsprojekts ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifizierungsprojekt 
+ Qualifizierungsprozesse ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifizierungsprozess 
+ Qualifizierungsregelung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierungsstand ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierungsstelle ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierungsstopp ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierungsstränge ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifizierungsstrang 
+ Qualifizierungswerk ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualifizierungszentrum ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifizierungszentren 
+ Qualifizierungszentrums ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualifizierungszentren 
+ Qualitative ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=qualitativ 
+ Qualitativen ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=qualitativ 
+ Qualitatives ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=qualitativ 
+ Quality-TV ( NOUN NOUN_PROPER_SINGULAR ) 
+ Qualität ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualität-der-Lehre-Diskussion ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitäten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualität 
  Qualitäts- ( ) 
- Qualitäts-Jux ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitäts-Münzen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitäts-Münze 
- Qualitäts-Umzüge-weltweit ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Qualitätsanbau ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsanforderungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsanforderung 
- Qualitätsangebot ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsanspruch ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsanspruchs ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsanspruch 
- Qualitätsansprüche ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsanspruch 
- Qualitätsansprüchen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsanspruch 
- Qualitätsarbeit ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsarbeiter ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsauszeichnungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsauszeichnung 
- Qualitätsbegriff ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsbegriffs ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsbegriff 
- Qualitätsbestimmung ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsbestimmungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsbestimmung 
- Qualitätsbeweis ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsbewusstsein ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsbewußtsein ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsbewusstsein 
- Qualitätsbezeichnung ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsbezeichnungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsbezeichnung 
- Qualitätsblatt ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsbraugerste ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsbäume ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsbaum 
- Qualitätsdebatte ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsdenken ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsdiskussion ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätseinbruch ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätseinbussen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätseinbuße 
- Qualitätseinbußen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätseinbuße 
- Qualitätsentwicklung ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätserzeugnisse ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätserzeugnis 
- Qualitätsfernsehen ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsfernsehens ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsfernsehen 
- Qualitätsfleisch ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsfrage ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsfragen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsfrage 
- Qualitätsgarantie ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsgefälle ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsgemeinschaft ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsgetreide ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsgewinn ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsgrad ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsgründen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsgrund 
- Qualitätshinwendung ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätshonig ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätshopfen ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsjournalismus ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätskartoffeln ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätskartoffel 
- Qualitätskindern ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätskind 
- Qualitätskontrolle ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätskontrollen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätskontrolle 
- Qualitätskontrollmaterials ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätskontrollmaterial 
- Qualitätskontrollproben ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätskontrollprobe 
- Qualitätskosten ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätskriterien ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätskriterium 
- Qualitätskriterium ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätskriterien 
- Qualitätsliteratur ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsmanagement ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsmanagementbeauftragte ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=qualitätsmanagementbeauftragt 
- Qualitätsmanagementhandbuch ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsmanagementhandbuchs ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsmanagementhandbuch 
- Qualitätsmanagementsystem ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsmanagementsysteme ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsmanagementsystem 
- Qualitätsmanagementsystems ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsmanagementsystem 
- Qualitätsmassstab ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsmaßstab 
- Qualitätsmassstäbe ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsmaßstab 
- Qualitätsmassstäben ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsmaßstab 
- Qualitätsmaßstab ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsmaßstäbe ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsmaßstab 
- Qualitätsmaßstäben ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsmaßstab 
- Qualitätsmedien ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsmedium 
- Qualitätsmerkmal ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsmerkmale ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsmerkmal 
- Qualitätsmilcherzeugung ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsminderung ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsminderungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsminderung 
- Qualitätsmängel ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsmangel 
- Qualitätsmängeln ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsmangel 
- Qualitätsnachweis ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsniveau ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsniveaus ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsniveau 
- Qualitätsnormen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsnorm 
- Qualitätsoffensive ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsorientierung ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätspolitik ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätspresse ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsproblem ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsprobleme ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsproblem 
- Qualitätsproblemen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsproblem 
- Qualitätsprodukt ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsprodukte ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsprodukt 
- Qualitätsprodukten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsprodukt 
- Qualitätsproduktion ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsprofil ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsprogramm ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsprogramme ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsprogramm 
- Qualitätsprädikat ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsprämien ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsprämie 
- Qualitätsprüfung ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsprüfungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsprüfung 
- Qualitätsregeln ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsregel 
- Qualitätsrisiken ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsrisiko 
- Qualitätsrückgang ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsschub ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsschwankungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsschwankung 
- Qualitätssicherheit ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätssicherung ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätssicherungsaspekte ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätssicherungsaspekt 
- Qualitätssicherungsbedingungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätssicherungsbedingung 
- Qualitätssicherungsforderungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätssicherungsforderung 
- Qualitätssicherungskonzept ( NOUN NOUN_PROPER_SINGULAR ) 
+ Qualitäts-Jux ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitäts-Münzen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitäts-Münze 
+ Qualitäts-Umzüge-weltweit ( NOUN NOUN_PROPER_SINGULAR ) 
+ Qualitätsanbau ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsanforderungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsanforderung 
+ Qualitätsangebot ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsanspruch ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsanspruchs ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsanspruch 
+ Qualitätsansprüche ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsanspruch 
+ Qualitätsansprüchen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsanspruch 
+ Qualitätsarbeit ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsarbeiter ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsauszeichnungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsauszeichnung 
+ Qualitätsbegriff ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsbegriffs ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsbegriff 
+ Qualitätsbestimmung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsbestimmungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsbestimmung 
+ Qualitätsbeweis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsbewusstsein ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsbewußtsein ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsbewusstsein 
+ Qualitätsbezeichnung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsbezeichnungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsbezeichnung 
+ Qualitätsblatt ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsbraugerste ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsbäume ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsbaum 
+ Qualitätsdebatte ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsdenken ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsdiskussion ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätseinbruch ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätseinbussen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätseinbuße 
+ Qualitätseinbußen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätseinbuße 
+ Qualitätsentwicklung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätserzeugnisse ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätserzeugnis 
+ Qualitätsfernsehen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsfernsehens ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsfernsehen 
+ Qualitätsfleisch ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsfrage ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsfragen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsfrage 
+ Qualitätsgarantie ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsgefälle ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsgemeinschaft ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsgetreide ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsgewinn ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsgrad ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsgründen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsgrund 
+ Qualitätshinwendung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätshonig ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätshopfen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsjournalismus ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätskartoffeln ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätskartoffel 
+ Qualitätskindern ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätskind 
+ Qualitätskontrolle ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätskontrollen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätskontrolle 
+ Qualitätskontrollmaterials ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätskontrollmaterial 
+ Qualitätskontrollproben ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätskontrollprobe 
+ Qualitätskosten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätskriterien ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätskriterium 
+ Qualitätskriterium ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätskriterien 
+ Qualitätsliteratur ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsmanagement ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsmanagementbeauftragte ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=qualitätsmanagementbeauftragt 
+ Qualitätsmanagementhandbuch ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsmanagementhandbuchs ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsmanagementhandbuch 
+ Qualitätsmanagementsystem ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsmanagementsysteme ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsmanagementsystem 
+ Qualitätsmanagementsystems ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsmanagementsystem 
+ Qualitätsmassstab ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsmaßstab 
+ Qualitätsmassstäbe ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsmaßstab 
+ Qualitätsmassstäben ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsmaßstab 
+ Qualitätsmaßstab ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsmaßstäbe ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsmaßstab 
+ Qualitätsmaßstäben ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsmaßstab 
+ Qualitätsmedien ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsmedium 
+ Qualitätsmerkmal ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsmerkmale ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsmerkmal 
+ Qualitätsmilcherzeugung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsminderung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsminderungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsminderung 
+ Qualitätsmängel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsmangel 
+ Qualitätsmängeln ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsmangel 
+ Qualitätsnachweis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsniveau ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsniveaus ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsniveau 
+ Qualitätsnormen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsnorm 
+ Qualitätsoffensive ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsorientierung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätspolitik ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätspresse ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsproblem ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsprobleme ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsproblem 
+ Qualitätsproblemen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsproblem 
+ Qualitätsprodukt ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsprodukte ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsprodukt 
+ Qualitätsprodukten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsprodukt 
+ Qualitätsproduktion ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsprofil ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsprogramm ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsprogramme ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsprogramm 
+ Qualitätsprädikat ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsprämien ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsprämie 
+ Qualitätsprüfung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsprüfungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsprüfung 
+ Qualitätsregeln ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsregel 
+ Qualitätsrisiken ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsrisiko 
+ Qualitätsrückgang ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsschub ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsschwankungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsschwankung 
+ Qualitätssicherheit ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätssicherung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätssicherungsaspekte ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätssicherungsaspekt 
+ Qualitätssicherungsbedingungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätssicherungsbedingung 
+ Qualitätssicherungsforderungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätssicherungsforderung 
+ Qualitätssicherungskonzept ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Qualitätssicherungsmaß- ( ) 
- Qualitätssicherungsmaßnahmen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätssicherungsmaßnahme 
- Qualitätssicherungsprogramm ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätssicherungssystem ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätssicherungssysteme ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätssicherungssystem 
- Qualitätssicherungssystemen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätssicherungssystem 
- Qualitätssiegel ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätssprung ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätssprünge ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätssprung 
+ Qualitätssicherungsmaßnahmen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätssicherungsmaßnahme 
+ Qualitätssicherungsprogramm ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätssicherungssystem ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätssicherungssysteme ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätssicherungssystem 
+ Qualitätssicherungssystemen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätssicherungssystem 
+ Qualitätssiegel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätssprung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätssprünge ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätssprung 
  Qualitätsstahl ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR ) 
- Qualitätsstand ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsstandard ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsstandards ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsstandard 
- Qualitätssteigerung ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätssteigerungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätssteigerung 
- Qualitätsstufe ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsstufen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsstufe 
- Qualitätssystems ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätssystem 
- Qualitätstourismus ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsunterschied ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsunterschiede ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsunterschied 
- Qualitätsurlaub ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsurteil ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsurteile ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsurteil 
- Qualitätsverbesserung ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsverbesserungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsverbesserung 
- Qualitätsverfall ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsverlust ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsverluste ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsverlust 
- Qualitätsverschlechterung ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsveränderung ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsvorsprung ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsvorteile ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsvorteil 
- Qualitätsware ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätswein ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätsweine ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätswein 
- Qualitätsweinen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätswein 
- Qualitätsweingüter ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsweingut 
- Qualitätsweinprüfung ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätswettbewerb ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätszeichen ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätszeichens ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätszeichen 
- Qualitätszeitung ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualitätszeitungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätszeitung 
- Qualitätsziele ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualitätsziel 
- Qualitätszirkel ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualle ( NOUN NOUN_PROPER_SINGULAR ) 
- Quallen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualle 
+ Qualitätsstand ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsstandard ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsstandards ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsstandard 
+ Qualitätssteigerung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätssteigerungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätssteigerung 
+ Qualitätsstufe ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsstufen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsstufe 
+ Qualitätssystems ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätssystem 
+ Qualitätstourismus ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsunterschied ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsunterschiede ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsunterschied 
+ Qualitätsurlaub ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsurteil ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsurteile ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsurteil 
+ Qualitätsverbesserung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsverbesserungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsverbesserung 
+ Qualitätsverfall ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsverlust ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsverluste ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsverlust 
+ Qualitätsverschlechterung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsveränderung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsvorsprung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsvorteile ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsvorteil 
+ Qualitätsware ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätswein ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätsweine ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätswein 
+ Qualitätsweinen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätswein 
+ Qualitätsweingüter ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsweingut 
+ Qualitätsweinprüfung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätswettbewerb ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätszeichen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätszeichens ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätszeichen 
+ Qualitätszeitung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualitätszeitungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätszeitung 
+ Qualitätsziele ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualitätsziel 
+ Qualitätszirkel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualle ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quallen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualle 
  Quallen- ( ) 
- Quallen-Plage ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualm ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quallen-Plage ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualm ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Qualmann ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR ) 
- Qualmen ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualmende ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=qualmend 
- Qualmentwicklung ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualmfahne ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualms ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualm 
- Qualmschwaden ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualmvulkane ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualmvulkan 
- Qualmwolke ( NOUN NOUN_PROPER_SINGULAR ) 
- Qualmwolken ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qualmwolke 
+ Qualmen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualmende ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=qualmend 
+ Qualmentwicklung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualmfahne ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualms ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualm 
+ Qualmschwaden ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualmvulkane ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualmvulkan 
+ Qualmwolke ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qualmwolken ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qualmwolke 
  Qualtinger- ( ) 
- Qualvolle ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=qualvoll 
- Qualvolles ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=qualvoll 
- Quan ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quandt-Familie ( NOUN NOUN_PROPER_SINGULAR ) 
- Quandt-Gruppe ( NOUN NOUN_PROPER_SINGULAR ) 
- Quang ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quanjai ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quant ( NOUN NOUN_PROPER_SINGULAR ) 
- Quante ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quant 
- Quante-Brandt ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quanten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quant|Quantum 
+ Qualvolle ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=qualvoll 
+ Qualvolles ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=qualvoll 
+ Quan ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quandt-Familie ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quandt-Gruppe ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quang ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quanjai ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quant ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quante ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quant 
+ Quante-Brandt ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quanten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quant|Quantum 
  Quanten- ( ) 
- Quanten-Kommunikation ( NOUN NOUN_PROPER_SINGULAR ) 
- Quantenkosmologie ( NOUN NOUN_PROPER_SINGULAR ) 
- Quantenlogik ( NOUN NOUN_PROPER_SINGULAR ) 
- Quantenmechanik ( NOUN NOUN_PROPER_SINGULAR ) 
- Quantenoptik ( NOUN NOUN_PROPER_SINGULAR ) 
- Quantenphysik ( NOUN NOUN_PROPER_SINGULAR ) 
- Quantenphysiker ( NOUN NOUN_PROPER_SINGULAR ) 
- Quantensprung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quantensprünge ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quantensprung 
- Quantensystem ( NOUN NOUN_PROPER_SINGULAR ) 
- Quantentheorie ( NOUN NOUN_PROPER_SINGULAR ) 
- Quantenzittern ( NOUN NOUN_PROPER_SINGULAR ) 
- Quantifikation ( NOUN NOUN_PROPER_SINGULAR ) 
- Quantifizierung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quantitative ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=quantitativ 
- Quantitatives ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=quantitativ 
- Quantität ( NOUN NOUN_PROPER_SINGULAR ) 
- Quantitäten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quantität 
- Quantitätsmagazinen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quantitätsmagazin 
- Quantmeyer ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quantum ( NOUN NOUN_PROPER_SINGULAR ) 
- Quantums ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quantum 
- Quarantäne ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quanten-Kommunikation ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quantenkosmologie ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quantenlogik ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quantenmechanik ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quantenoptik ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quantenphysik ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quantenphysiker ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quantensprung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quantensprünge ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quantensprung 
+ Quantensystem ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quantentheorie ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quantenzittern ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quantifikation ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quantifizierung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quantitative ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=quantitativ 
+ Quantitatives ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=quantitativ 
+ Quantität ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quantitäten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quantität 
+ Quantitätsmagazinen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quantitätsmagazin 
+ Quantmeyer ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quantum ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quantums ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quantum 
+ Quarantäne ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quarantäne- ( ) 
- Quarantäne-Haft ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarantäne-Massnahmen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quarantäne-Maßnahme 
- Quarantäne-Maßnahmen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quarantäne-Maßnahme 
- Quarantäne-Station ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarantäne-Untersuchung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarantänebestimmungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quarantänebestimmung 
- Quarantänefahne ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarantänelagerung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarantäneraum ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarantäneregelung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarantänestation ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarantänestationen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quarantänestation 
- Quarantänetest ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarantäneuntersuchung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarantänezeit ( NOUN NOUN_PROPER_SINGULAR ) 
- Quark ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quarantäne-Haft ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarantäne-Massnahmen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quarantäne-Maßnahme 
+ Quarantäne-Maßnahmen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quarantäne-Maßnahme 
+ Quarantäne-Station ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarantäne-Untersuchung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarantänebestimmungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quarantänebestimmung 
+ Quarantänefahne ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarantänelagerung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarantäneraum ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarantäneregelung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarantänestation ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarantänestationen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quarantänestation 
+ Quarantänetest ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarantäneuntersuchung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarantänezeit ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quark ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quark- ( ) 
- Quark-Seele ( NOUN NOUN_PROPER_SINGULAR ) 
- Quark-Öl-Teig ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarkfüllung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarkkartoffeln ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quarkkartoffel 
- Quarkkuchen ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarkmaske ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarkmaterie ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarks ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quark 
- Quarkspeise ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarkspeisen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quarkspeise 
- Quarkstollen ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarktopf ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarkwort ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarre ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarree-Bau ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarta ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartal ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartale ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quartal 
- Quartalen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quartal 
- Quartals ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quartal 
- Quartalsabrechnungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quartalsabrechnung 
- Quartalsamt ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartalsbeginn ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartalsbericht ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartalsberichte ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quartalsbericht 
- Quartalsbilanz ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartalsbilanzen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quartalsbilanz 
- Quartalsdividende ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartalsdurchschnitt ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartalsende ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartalsergebnis ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartalsergebnisse ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quartalsergebnis 
- Quartalsgewinn ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartalsheft ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartalskündigungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quartalskündigung 
- Quartalskündigungstermin ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartalsrhythmus ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartalssäufer ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartalsumsatz ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartalsvergleich ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartalszahlen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quartalszahl 
- Quartalszeitschrift ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quarte 
- Quarter ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarterback ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarterbacks ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quarterback 
- Quarters ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quarter 
- Quartet ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartett ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartettbesetzung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartette ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quartett 
- Quartetten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quartett 
- Quartettformat ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartettkunst ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartetts ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quartett 
- Quartettsatz ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quark-Seele ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quark-Öl-Teig ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarkfüllung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarkkartoffeln ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quarkkartoffel 
+ Quarkkuchen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarkmaske ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarkmaterie ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarks ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quark 
+ Quarkspeise ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarkspeisen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quarkspeise 
+ Quarkstollen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarktopf ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarkwort ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarre ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarree-Bau ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarta ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartal ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartale ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quartal 
+ Quartalen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quartal 
+ Quartals ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quartal 
+ Quartalsabrechnungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quartalsabrechnung 
+ Quartalsamt ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartalsbeginn ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartalsbericht ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartalsberichte ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quartalsbericht 
+ Quartalsbilanz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartalsbilanzen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quartalsbilanz 
+ Quartalsdividende ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartalsdurchschnitt ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartalsende ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartalsergebnis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartalsergebnisse ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quartalsergebnis 
+ Quartalsgewinn ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartalsheft ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartalskündigungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quartalskündigung 
+ Quartalskündigungstermin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartalsrhythmus ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartalssäufer ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartalsumsatz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartalsvergleich ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartalszahlen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quartalszahl 
+ Quartalszeitschrift ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quarte 
+ Quarter ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarterback ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarterbacks ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quarterback 
+ Quarters ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quarter 
+ Quartet ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartett ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartettbesetzung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartette ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quartett 
+ Quartetten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quartett 
+ Quartettformat ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartettkunst ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartetts ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quartett 
+ Quartettsatz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quartettspiel ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR ) 
- Quartettspielen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quartettspiel|Quartettspielen 
- Quartformat ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartier ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartier-Geschäftsführer ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartier-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartierangebote ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quartierangebot 
- Quartierbebauung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartierbeschaffung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartierbüro ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartierdenken ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartiere ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quartier 
- Quartiereltern ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartieren ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quartier 
- Quartierfest ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartierfremde ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartiergeber ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartiermacher ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartiermeister ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartiermoscheen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quartiermoschee 
- Quartierpark ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartierprobleme ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quartierproblem 
- Quartiers ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quartier 
+ Quartettspielen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quartettspiel|Quartettspielen 
+ Quartformat ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartier ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartier-Geschäftsführer ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartier-Programm ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartierangebote ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quartierangebot 
+ Quartierbebauung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartierbeschaffung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartierbüro ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartierdenken ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartiere ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quartier 
+ Quartiereltern ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartieren ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quartier 
+ Quartierfest ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartierfremde ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartiergeber ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartiermacher ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartiermeister ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartiermoscheen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quartiermoschee 
+ Quartierpark ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartierprobleme ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quartierproblem 
+ Quartiers ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quartier 
  Quartiers- ( ) 
- Quartiersbewohner ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartiersleute ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartiersleuten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quartiersleute 
+ Quartiersbewohner ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartiersleute ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartiersleuten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quartiersleute 
  Quartiersmann ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR ) 
- Quartiersmeister ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartiersnot ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartiersplatz ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartiersplätze ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quartiersplatz 
- Quartiersuche ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartiersuchende ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartierszentrum ( NOUN NOUN_PROPER_SINGULAR ) 
- Quartierverzeichnis ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarz ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quartiersmeister ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartiersnot ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartiersplatz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartiersplätze ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quartiersplatz 
+ Quartiersuche ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartiersuchende ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartierszentrum ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quartierverzeichnis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quarz- ( ) 
- Quarzadern ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quarzader 
- Quarze ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quarz 
- Quarzes ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quarz 
- Quarzglas ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarzit ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarzitmesser ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarzkiessplitt ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarzrohstoff-Aufbereitung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarzrohstoffs ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quarzrohstoff 
- Quarzsand ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarzsandes ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quarzsand 
- Quarzsandhalde ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarzschmelze ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quarzadern ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quarzader 
+ Quarze ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quarz 
+ Quarzes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quarz 
+ Quarzglas ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarzit ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarzitmesser ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarzkiessplitt ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarzrohstoff-Aufbereitung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarzrohstoffs ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quarzrohstoff 
+ Quarzsand ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarzsandes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quarzsand 
+ Quarzsandhalde ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarzschmelze ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quarzstein ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR ) 
- Quarzsäule ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarzuhr ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarzuhren ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quarzuhr 
- Quarzwecker ( NOUN NOUN_PROPER_SINGULAR ) 
- Quarzwerk ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quarzsäule ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarzuhr ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarzuhren ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quarzuhr 
+ Quarzwecker ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quarzwerk ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quasi- ( ) 
- Quasi-60-Liter-Tonne ( NOUN NOUN_PROPER_SINGULAR ) 
- Quasi-Beamten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quasi-Beamter 
- Quasi-Behörde ( NOUN NOUN_PROPER_SINGULAR ) 
- Quasi-Botschafter ( NOUN NOUN_PROPER_SINGULAR ) 
- Quasi-Enteignung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quasi-Konsens ( NOUN NOUN_PROPER_SINGULAR ) 
- Quasi-Legalisierung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quasi-Leibeigenschaft ( NOUN NOUN_PROPER_SINGULAR ) 
- Quasi-Monopol ( NOUN NOUN_PROPER_SINGULAR ) 
- Quasi-Monopolstellung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quasi-Objekt ( NOUN NOUN_PROPER_SINGULAR ) 
- Quasi-Objekte ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quasi-Objekt 
- Quasi-Parlaments ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quasi-Parlament 
- Quasi-Reliquie ( NOUN NOUN_PROPER_SINGULAR ) 
- Quasi-Sozialarbeit ( NOUN NOUN_PROPER_SINGULAR ) 
- Quasi-Spezies ( NOUN NOUN_PROPER_SINGULAR ) 
- Quasi-Weltrekord ( NOUN NOUN_PROPER_SINGULAR ) 
- Quasim ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quasseln ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quasi-60-Liter-Tonne ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quasi-Beamten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quasi-Beamter 
+ Quasi-Behörde ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quasi-Botschafter ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quasi-Enteignung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quasi-Konsens ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quasi-Legalisierung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quasi-Leibeigenschaft ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quasi-Monopol ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quasi-Monopolstellung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quasi-Objekt ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quasi-Objekte ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quasi-Objekt 
+ Quasi-Parlaments ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quasi-Parlament 
+ Quasi-Reliquie ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quasi-Sozialarbeit ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quasi-Spezies ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quasi-Weltrekord ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quasim ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quasseln ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quast ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR ) 
- Quaste ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quast 
- Quasten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quast 
- Quasthoff ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quasts ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quast 
- Quatsch ( NOUN NOUN_PROPER_SINGULAR ) 
- Quatsch-Idee ( NOUN NOUN_PROPER_SINGULAR ) 
- Quatsch-Olympiade ( NOUN NOUN_PROPER_SINGULAR ) 
- Quatschbude ( NOUN NOUN_PROPER_SINGULAR ) 
- Quatschen ( NOUN NOUN_PROPER_SINGULAR ) 
- Quatschfresser ( NOUN NOUN_PROPER_SINGULAR ) 
- Quatschkopf ( NOUN NOUN_PROPER_SINGULAR ) 
- Quattrocento ( NOUN NOUN_PROPER_SINGULAR ) 
- Qudratullah ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Qudsia ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quebec ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quebecer ( NOUN NOUN_PROPER_SINGULAR ) 
- Quebecern ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quebecer 
- Quebecs ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quebec 
- Quecke ( NOUN NOUN_PROPER_SINGULAR ) 
- Quecken ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quecke 
- Quecksilber ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quaste ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quast 
+ Quasten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quast 
+ Quasthoff ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quasts ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quast 
+ Quatsch ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quatsch-Idee ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quatsch-Olympiade ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quatschbude ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quatschen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quatschfresser ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quatschkopf ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quattrocento ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Qudratullah ( NOUN NOUN_PROPER_SINGULAR ) 
+ Qudsia ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quebec ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quebecer ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quebecern ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quebecer 
+ Quebecs ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quebec 
+ Quecke ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quecken ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quecke 
+ Quecksilber ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quecksilber- ( ) 
- Quecksilber-Aufbereitung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quecksilber-Eiweiss-Verbindungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quecksilber-Eiweiss-Verbindung 
- Quecksilber-Eiweiß-Verbindungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quecksilber-Eiweiß-Verbindung 
- Quecksilber-Funde ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quecksilber-Fund 
- Quecksilberabfälle ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quecksilberabfall 
- Quecksilberallergie ( NOUN NOUN_PROPER_SINGULAR ) 
- Quecksilberanteil ( NOUN NOUN_PROPER_SINGULAR ) 
- Quecksilberaufnahme ( NOUN NOUN_PROPER_SINGULAR ) 
- Quecksilberausscheidungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quecksilberausscheidung 
- Quecksilberbelastung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quecksilberbelastungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quecksilberbelastung 
- Quecksilberdampf ( NOUN NOUN_PROPER_SINGULAR ) 
- Quecksilberdämpfe ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quecksilberdampf 
- Quecksilberdämpfen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quecksilberdampf 
- Quecksilberemissionen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quecksilberemission 
- Quecksilberfaden ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=quecksilberfade 
- Quecksilberfadens ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quecksilberfaden 
- Quecksilbergehalt ( NOUN NOUN_PROPER_SINGULAR ) 
- Quecksilbergehaltes ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quecksilbergehalt 
- Quecksilbergrenzwerte ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quecksilbergrenzwert 
- Quecksilberkonzentration ( NOUN NOUN_PROPER_SINGULAR ) 
- Quecksilberlicht ( NOUN NOUN_PROPER_SINGULAR ) 
- Quecksilbermenge ( NOUN NOUN_PROPER_SINGULAR ) 
- Quecksilbermine ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quecksilber-Aufbereitung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quecksilber-Eiweiss-Verbindungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quecksilber-Eiweiss-Verbindung 
+ Quecksilber-Eiweiß-Verbindungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quecksilber-Eiweiß-Verbindung 
+ Quecksilber-Funde ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quecksilber-Fund 
+ Quecksilberabfälle ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quecksilberabfall 
+ Quecksilberallergie ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quecksilberanteil ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quecksilberaufnahme ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quecksilberausscheidungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quecksilberausscheidung 
+ Quecksilberbelastung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quecksilberbelastungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quecksilberbelastung 
+ Quecksilberdampf ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quecksilberdämpfe ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quecksilberdampf 
+ Quecksilberdämpfen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quecksilberdampf 
+ Quecksilberemissionen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quecksilberemission 
+ Quecksilberfaden ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=quecksilberfade 
+ Quecksilberfadens ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quecksilberfaden 
+ Quecksilbergehalt ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quecksilbergehaltes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quecksilbergehalt 
+ Quecksilbergrenzwerte ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quecksilbergrenzwert 
+ Quecksilberkonzentration ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quecksilberlicht ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quecksilbermenge ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quecksilbermine ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quecksilberprinz ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR ) 
- Quecksilberrückstände ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quecksilberrückstand 
- Quecksilbers ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quecksilber 
- Quecksilbersalz ( NOUN NOUN_PROPER_SINGULAR ) 
- Quecksilbersalze ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quecksilbersalz 
- Quecksilbersanierung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quecksilberskandal ( NOUN NOUN_PROPER_SINGULAR ) 
- Quecksilbersäule ( NOUN NOUN_PROPER_SINGULAR ) 
- Quecksilbersäulen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quecksilbersäule 
- Quecksilberthermometer ( NOUN NOUN_PROPER_SINGULAR ) 
- Quecksilberverbindungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quecksilberverbindung 
- Quecksilbervergifteter ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quecksilbervergiftete 
- Quecksilbervergiftung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quecksilbervergiftungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quecksilbervergiftung 
- Quecksilberverseuchung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quecksilberverseuchungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quecksilberverseuchung 
- Quecksilberverwertungsfirma ( NOUN NOUN_PROPER_SINGULAR ) 
- Quecksilberwerte ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quecksilberwert 
- Quecksilberwerten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quecksilberwert 
- Quedlinburg ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quecksilberrückstände ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quecksilberrückstand 
+ Quecksilbers ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quecksilber 
+ Quecksilbersalz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quecksilbersalze ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quecksilbersalz 
+ Quecksilbersanierung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quecksilberskandal ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quecksilbersäule ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quecksilbersäulen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quecksilbersäule 
+ Quecksilberthermometer ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quecksilberverbindungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quecksilberverbindung 
+ Quecksilbervergifteter ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quecksilbervergiftete 
+ Quecksilbervergiftung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quecksilbervergiftungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quecksilbervergiftung 
+ Quecksilberverseuchung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quecksilberverseuchungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quecksilberverseuchung 
+ Quecksilberverwertungsfirma ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quecksilberwerte ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quecksilberwert 
+ Quecksilberwerten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quecksilberwert 
+ Quedlinburg ( NOUN NOUN_PROPER_SINGULAR ) 
  Quedlinburg/Sachsen-Anhalt ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR ) 
- Quedlinburger ( NOUN NOUN_PROPER_SINGULAR ) 
- Quedlinburgerin ( NOUN NOUN_PROPER_SINGULAR ) 
- Quedlinburgern ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quedlinburger 
- Queen ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quedlinburger ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quedlinburgerin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quedlinburgern ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quedlinburger 
+ Queen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Queen- ( ) 
- Queen-Besuch ( NOUN NOUN_PROPER_SINGULAR ) 
- Queen-Gitarrist ( NOUN NOUN_PROPER_SINGULAR ) 
- Queen-LP ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Queen-Sohn ( NOUN NOUN_PROPER_SINGULAR ) 
- Queen-Victoria-Land ( NOUN NOUN_PROPER_SINGULAR ) 
+ Queen-Besuch ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Queen-Gitarrist ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Queen-LP ( NOUN NOUN_PROPER_SINGULAR ) 
+ Queen-Sohn ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Queen-Victoria-Land ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Queen-Zimmer ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR ) 
- Queens ( NOUN NOUN_PROPER_SINGULAR ) lemma=Queen 
- Queens-Hotel ( NOUN NOUN_PROPER_SINGULAR ) 
- Queenstown-Gefängnis ( NOUN NOUN_PROPER_SINGULAR ) 
- Queisser-Luft ( NOUN NOUN_PROPER_SINGULAR ) 
- Queißer-Luft ( NOUN NOUN_PROPER_SINGULAR ) 
+ Queens ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Queen 
+ Queens-Hotel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Queenstown-Gefängnis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Queisser-Luft ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Queißer-Luft ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quell- ( ) 
- Quell-Verlag ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellbauch ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellbereich ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellbewölkung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellbäder ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellbad 
- Quellcode ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellcodes ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellcode 
- Quelle ( VERB_INFINITIVE NOUN VERB NOUN_PROPER_SINGULAR ) 
+ Quell-Verlag ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellbauch ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellbereich ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellbewölkung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellbäder ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellbad 
+ Quellcode ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellcodes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellcode 
+ Quelle ( NOUN VERB NOUN_SINGULAR NOUN_PLURAL ) 
  Quelle- ( ) 
- Quelle-Agentur ( NOUN NOUN_PROPER_SINGULAR ) 
- Quelle-Chef ( NOUN NOUN_PROPER_SINGULAR ) 
- Quelle-Chefin ( NOUN NOUN_PROPER_SINGULAR ) 
- Quelle-Fachgeschäft ( NOUN NOUN_PROPER_SINGULAR ) 
- Quelle-Gruppe ( NOUN NOUN_PROPER_SINGULAR ) 
- Quelle-Handelsgruppe ( NOUN NOUN_PROPER_SINGULAR ) 
- Quelle-Katalog ( NOUN NOUN_PROPER_SINGULAR ) 
- Quelle-Katalogs ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quelle-Katalog 
- Quelle-Kaufhaus ( NOUN NOUN_PROPER_SINGULAR ) 
- Quelle-Kaufhäuser ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quelle-Kaufhaus 
- Quelle-Konzern ( NOUN NOUN_PROPER_SINGULAR ) 
- Quelle-Reisen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quelle-Tochter ( NOUN NOUN_PROPER_SINGULAR ) 
- Quelle-Verkaufsagentur ( NOUN NOUN_PROPER_SINGULAR ) 
- Quelle-Warenhaus ( NOUN NOUN_PROPER_SINGULAR ) 
- Quelle-Warenhäuser ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quelle-Warenhaus 
- Quelle-Warenhäusern ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quelle-Warenhaus 
- Quelle-Ziel-Verkehr ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellekatalog ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellekatalogs ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellekatalog 
- Quellen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quelle 
+ Quelle-Agentur ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quelle-Chef ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quelle-Chefin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quelle-Fachgeschäft ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quelle-Gruppe ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quelle-Handelsgruppe ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quelle-Katalog ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quelle-Katalogs ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quelle-Katalog 
+ Quelle-Kaufhaus ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quelle-Kaufhäuser ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quelle-Kaufhaus 
+ Quelle-Konzern ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quelle-Reisen ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quelle-Tochter ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quelle-Verkaufsagentur ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quelle-Warenhaus ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quelle-Warenhäuser ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quelle-Warenhaus 
+ Quelle-Warenhäusern ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quelle-Warenhaus 
+ Quelle-Ziel-Verkehr ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellekatalog ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellekatalogs ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellekatalog 
+ Quellen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quelle 
  Quellen- ( ) 
- Quellen-Apotheke ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellen-Club ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenakten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellenakte 
- Quellenangabe ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenangaben ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellenangabe 
- Quellenbasis ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quellen-Apotheke ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellen-Club ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenakten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellenakte 
+ Quellenangabe ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenangaben ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellenangabe 
+ Quellenbasis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quellenberg ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR ) 
- Quellenbestandes ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellenbestand 
- Quellenclub ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellendankfeier ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenedition ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenerschliessung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenerschließung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenfest ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenfiktion ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenforschung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellengasse ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenhinweis ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenhinweise ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellenhinweis 
- Quellenhinweisen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellenhinweis 
- Quellenhof ( NOUN NOUN_PROPER_SINGULAR ) 
- Quelleninformation ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenkompendium ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellenkompendien 
- Quellenkritik ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenkunde ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenlage ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenmaterial ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenmaterials ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellenmaterial 
- Quellenmeldung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellennachweis ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenpark ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenpart ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenrain ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenring ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellensammlung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellensammlungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellensammlung 
- Quellenschriften ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellenschrift 
- Quellenschutz ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenschutzes ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellenschutz 
- Quellenschutzgebiet ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenstadt ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quellenbestandes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellenbestand 
+ Quellenclub ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellendankfeier ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenedition ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenerschliessung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenerschließung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenfest ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenfiktion ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenforschung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellengasse ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenhinweis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenhinweise ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellenhinweis 
+ Quellenhinweisen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellenhinweis 
+ Quellenhof ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quelleninformation ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenkompendium ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellenkompendien 
+ Quellenkritik ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenkunde ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenlage ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenmaterial ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenmaterials ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellenmaterial 
+ Quellenmeldung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellennachweis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenpark ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenpart ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenrain ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenring ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellensammlung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellensammlungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellensammlung 
+ Quellenschriften ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellenschrift 
+ Quellenschutz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenschutzes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellenschutz 
+ Quellenschutzgebiet ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenstadt ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quellenstein ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR ) 
- Quellensteuer ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellensteueramt ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenstrasse ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenstraße ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenstudien ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellenstudium 
- Quellenstudium ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellensuche ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellental ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellentalpark ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellentexte ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellentext 
- Quellentexten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellentext 
- Quellenwasser ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenweg ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenwerk ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenwert ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellenzitate ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellenzitat 
- Quellenzitaten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellenzitat 
- Quellfassung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellfassungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellfassung 
- Quellfluss ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellfluß ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellfluss 
- Quellflüsse ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellfluss 
- Quellgebiet ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellgebiete ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellgebiet 
- Quellgewässer ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellkartoffeln ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellkartoffel 
- Quellmalz ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellschutz ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellsteine ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellstein 
- Quellverkehr ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellverkehrs ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellverkehr 
- Quellwasser ( NOUN NOUN_PROPER_SINGULAR ) 
- Quellwassers ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellwasser 
- Quellwolken ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quellwolke 
- Quendel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quengelei ( NOUN NOUN_PROPER_SINGULAR ) 
- Quengelmann ( NOUN NOUN_PROPER_SINGULAR ) 
- Quengeln ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quellensteuer ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellensteueramt ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenstrasse ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenstraße ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenstudien ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellenstudium 
+ Quellenstudium ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellensuche ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellental ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellentalpark ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellentexte ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellentext 
+ Quellentexten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellentext 
+ Quellenwasser ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenweg ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenwerk ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenwert ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellenzitate ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellenzitat 
+ Quellenzitaten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellenzitat 
+ Quellfassung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellfassungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellfassung 
+ Quellfluss ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellfluß ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellfluss 
+ Quellflüsse ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellfluss 
+ Quellgebiet ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellgebiete ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellgebiet 
+ Quellgewässer ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellkartoffeln ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellkartoffel 
+ Quellmalz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellschutz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellsteine ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellstein 
+ Quellverkehr ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellverkehrs ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellverkehr 
+ Quellwasser ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quellwassers ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellwasser 
+ Quellwolken ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quellwolke 
+ Quendel ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quengelei ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quengelmann ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quengeln ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quer ( PRONOUN_SUBJECT PRONOUN_OBJECT ADJECTIVE ADVERB ) lemma=quer 
  Quer- ( ) 
- Quer-Beet ( NOUN NOUN_PROPER_SINGULAR ) 
- Querablage ( NOUN NOUN_PROPER_SINGULAR ) 
- Querachse ( NOUN NOUN_PROPER_SINGULAR ) 
- Querachsen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querachse 
- Querbahnsteig ( NOUN NOUN_PROPER_SINGULAR ) 
- Querbahnsteighalle ( NOUN NOUN_PROPER_SINGULAR ) 
- Querbalken ( NOUN NOUN_PROPER_SINGULAR ) 
- Querbau ( NOUN NOUN_PROPER_SINGULAR ) 
- Querbeet ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quer-Beet ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querablage ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querachse ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querachsen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querachse 
+ Querbahnsteig ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querbahnsteighalle ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querbalken ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querbau ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querbeet ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Querbeet- ( ) 
- Querbeet-Allianzen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querbeet-Allianz 
- Querbeetaktionen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querbeetaktion 
- Querbeteiligungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querbeteiligung 
- Querbezügen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querbezug 
- Querdamm ( NOUN NOUN_PROPER_SINGULAR ) 
- Querdenken ( NOUN NOUN_PROPER_SINGULAR ) 
- Querdenker ( NOUN NOUN_PROPER_SINGULAR ) 
- Querdenker-Programm ( NOUN NOUN_PROPER_SINGULAR ) 
- Querdenkerin ( NOUN NOUN_PROPER_SINGULAR ) 
- Querdenkerinnen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querdenkerin 
- Querdenkern ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querdenker 
- Querdenkers ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querdenker 
- Quere ( NOUN NOUN_PROPER_SINGULAR ) 
- Quereinsteiger ( NOUN NOUN_PROPER_SINGULAR ) 
- Quereinsteigerin ( NOUN NOUN_PROPER_SINGULAR ) 
- Quereinsteigerinnen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quereinsteigerin 
- Quereinsteigern ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quereinsteiger 
- Quereinstieg ( NOUN NOUN_PROPER_SINGULAR ) 
- Quereinstiege ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quereinstieg 
- Querele ( NOUN NOUN_PROPER_SINGULAR ) 
- Querelen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querele 
- Querelle ( NOUN NOUN_PROPER_SINGULAR ) 
+ Querbeet-Allianzen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querbeet-Allianz 
+ Querbeetaktionen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querbeetaktion 
+ Querbeteiligungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querbeteiligung 
+ Querbezügen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querbezug 
+ Querdamm ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querdenken ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querdenker ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querdenker-Programm ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querdenkerin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querdenkerinnen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querdenkerin 
+ Querdenkern ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querdenker 
+ Querdenkers ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querdenker 
+ Quere ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quereinsteiger ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quereinsteigerin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quereinsteigerinnen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quereinsteigerin 
+ Quereinsteigern ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quereinsteiger 
+ Quereinstieg ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quereinstiege ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quereinstieg 
+ Querele ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querelen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querele 
+ Querelle ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Querellen ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR ) 
  Querempfindlich ( ADJECTIVE ) lemma=querempfindlich 
- Querempfindlichkeit ( NOUN NOUN_PROPER_SINGULAR ) 
- Querempfindlichkeiten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querempfindlichkeit 
- Querempfindlichkeitsdaten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querempfindlichkeitsdatum 
- Querempfindlichkeitsgrößen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querempfindlichkeitsgröße 
- Querempfindlichkeitsliste ( NOUN NOUN_PROPER_SINGULAR ) 
- Querempfindlichkeitstabelle ( NOUN NOUN_PROPER_SINGULAR ) 
- Querfahrt ( NOUN NOUN_PROPER_SINGULAR ) 
- Querfeld ( NOUN NOUN_PROPER_SINGULAR ) 
+ Querempfindlichkeit ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querempfindlichkeiten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querempfindlichkeit 
+ Querempfindlichkeitsdaten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querempfindlichkeitsdatum 
+ Querempfindlichkeitsgrößen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querempfindlichkeitsgröße 
+ Querempfindlichkeitsliste ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querempfindlichkeitstabelle ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querfahrt ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querfeld ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Querfeldein- ( ) 
- Querfeldein-Meisterschaften ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querfeldein-Meisterschaft 
- Querfeldein-Radfahren ( NOUN NOUN_PROPER_SINGULAR ) 
- Querfeldein-Radler ( NOUN NOUN_PROPER_SINGULAR ) 
- Querfeldein-Rennen ( NOUN NOUN_PROPER_SINGULAR ) 
- Querfeldein-Weltmeisterschaft ( NOUN NOUN_PROPER_SINGULAR ) 
- Querfeldeinfahren ( NOUN NOUN_PROPER_SINGULAR ) 
- Querfeldeinfahrer ( NOUN NOUN_PROPER_SINGULAR ) 
- Querfeldeinmeister ( NOUN NOUN_PROPER_SINGULAR ) 
- Querfeldeinradfahren ( NOUN NOUN_PROPER_SINGULAR ) 
- Querfeldeinrennen ( NOUN NOUN_PROPER_SINGULAR ) 
- Querfeldeinsport ( NOUN NOUN_PROPER_SINGULAR ) 
- Querfeldeinspringen ( NOUN NOUN_PROPER_SINGULAR ) 
- Querfeldeinstrecke ( NOUN NOUN_PROPER_SINGULAR ) 
- Querfinanzierung ( NOUN NOUN_PROPER_SINGULAR ) 
- Querflöte ( NOUN NOUN_PROPER_SINGULAR ) 
- Querflöten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querflöte 
- Querflötenklasse ( NOUN NOUN_PROPER_SINGULAR ) 
- Querflötenmusik ( NOUN NOUN_PROPER_SINGULAR ) 
- Querflötenquartett ( NOUN NOUN_PROPER_SINGULAR ) 
- Querflötenspieler ( NOUN NOUN_PROPER_SINGULAR ) 
- Querflötist ( NOUN NOUN_PROPER_SINGULAR ) 
- Querflötistin ( NOUN NOUN_PROPER_SINGULAR ) 
- Querflügel ( NOUN NOUN_PROPER_SINGULAR ) 
- Querformat ( NOUN NOUN_PROPER_SINGULAR ) 
- Querformate ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querformat 
- Querfunk-Initiativen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querfunk-Initiative 
- Querfunker ( NOUN NOUN_PROPER_SINGULAR ) 
- Querfunkern ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querfunker 
- Querfurt ( NOUN NOUN_PROPER_SINGULAR ) 
- Quergang ( NOUN NOUN_PROPER_SINGULAR ) 
- Quergebäude ( NOUN NOUN_PROPER_SINGULAR ) 
- Quergebäuden ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quergebäude 
- Quergebäudes ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quergebäude 
- Quergeist ( NOUN NOUN_PROPER_SINGULAR ) 
- Quergiebel ( NOUN NOUN_PROPER_SINGULAR ) 
- Querhalle ( NOUN NOUN_PROPER_SINGULAR ) 
- Querhaus ( NOUN NOUN_PROPER_SINGULAR ) 
- Querhauses ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querhaus 
- Querholz ( NOUN NOUN_PROPER_SINGULAR ) 
- Querido-Verlag ( NOUN NOUN_PROPER_SINGULAR ) 
- Querkirche ( NOUN NOUN_PROPER_SINGULAR ) 
- Querkopf ( NOUN NOUN_PROPER_SINGULAR ) 
- Querkopfs ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querkopf 
- Querkopp ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Querköpfe ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querkopf 
- Querköpfen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querkopf 
- Querlatte ( NOUN NOUN_PROPER_SINGULAR ) 
- Querlenker ( NOUN NOUN_PROPER_SINGULAR ) 
- Querleser ( NOUN NOUN_PROPER_SINGULAR ) 
- Querlüftung ( NOUN NOUN_PROPER_SINGULAR ) 
+ Querfeldein-Meisterschaften ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querfeldein-Meisterschaft 
+ Querfeldein-Radfahren ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querfeldein-Radler ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querfeldein-Rennen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querfeldein-Weltmeisterschaft ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querfeldeinfahren ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querfeldeinfahrer ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querfeldeinmeister ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querfeldeinradfahren ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querfeldeinrennen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querfeldeinsport ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querfeldeinspringen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querfeldeinstrecke ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querfinanzierung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querflöte ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querflöten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querflöte 
+ Querflötenklasse ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querflötenmusik ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querflötenquartett ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querflötenspieler ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querflötist ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querflötistin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querflügel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querformat ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querformate ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querformat 
+ Querfunk-Initiativen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querfunk-Initiative 
+ Querfunker ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querfunkern ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querfunker 
+ Querfurt ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quergang ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quergebäude ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quergebäuden ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quergebäude 
+ Quergebäudes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quergebäude 
+ Quergeist ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quergiebel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querhalle ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querhaus ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querhauses ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querhaus 
+ Querholz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querido-Verlag ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querkirche ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querkopf ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querkopfs ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querkopf 
+ Querkopp ( NOUN NOUN_PROPER_SINGULAR ) 
+ Querköpfe ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querkopf 
+ Querköpfen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querkopf 
+ Querlatte ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querlenker ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querleser ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querlüftung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quermann ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR ) 
- Quernaht ( NOUN NOUN_PROPER_SINGULAR ) 
- Quernheim ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Querpass ( NOUN NOUN_PROPER_SINGULAR ) 
- Querpassspiel ( NOUN NOUN_PROPER_SINGULAR ) 
- Querpaß ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querpass 
- Querpaßspiel ( NOUN NOUN_PROPER_SINGULAR ) 
- Querpflasterungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querpflasterung 
- Querpässe ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querpass 
- Querrichtung ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quernaht ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quernheim ( NOUN NOUN_PROPER_SINGULAR ) 
+ Querpass ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querpassspiel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querpaß ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querpass 
+ Querpaßspiel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querpflasterungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querpflasterung 
+ Querpässe ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querpass 
+ Querrichtung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Querriegel ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR ) 
- Querrillen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querrille 
- Querrotation ( NOUN NOUN_PROPER_SINGULAR ) 
- Querschiff ( NOUN NOUN_PROPER_SINGULAR ) 
- Querschiffes ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querschiff 
- Querschlag ( NOUN NOUN_PROPER_SINGULAR ) 
- Querschläge ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querschlag 
- Querschlägen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querschlag 
- Querschläger ( NOUN NOUN_PROPER_SINGULAR ) 
- Querschlägern ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querschläger 
- Querschlägers ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querschläger 
- Querschnitt ( NOUN NOUN_PROPER_SINGULAR ) 
- Querschnittaufgabe ( NOUN NOUN_PROPER_SINGULAR ) 
- Querschnitte ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querschnitt 
- Querschnittgelähmte ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=querschnittgelähmt 
- Querschnittgelähmten ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=querschnittgelähmt 
- Querschnittlähmung ( NOUN NOUN_PROPER_SINGULAR ) 
- Querschnittressort ( NOUN NOUN_PROPER_SINGULAR ) 
- Querschnitts ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querschnitt 
- Querschnittsaufgabe ( NOUN NOUN_PROPER_SINGULAR ) 
- Querschnittsaufgaben ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querschnittsaufgabe 
- Querschnittsdenken ( NOUN NOUN_PROPER_SINGULAR ) 
- Querschnittsfrau ( NOUN NOUN_PROPER_SINGULAR ) 
- Querschnittsfunktion ( NOUN NOUN_PROPER_SINGULAR ) 
- Querschnittsfunktionen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querschnittsfunktion 
- Querschnittsgelähmte ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=querschnittsgelähmt 
- Querschnittsgelähmten ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=querschnittsgelähmt 
- Querschnittsgelähmter ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=querschnittsgelähmt 
- Querschnittsgruppe ( NOUN NOUN_PROPER_SINGULAR ) 
- Querschnittslähmung ( NOUN NOUN_PROPER_SINGULAR ) 
- Querschnittsministerium ( NOUN NOUN_PROPER_SINGULAR ) 
- Querschnittsmodell ( NOUN NOUN_PROPER_SINGULAR ) 
- Querschnittspolitik ( NOUN NOUN_PROPER_SINGULAR ) 
- Querschnittsressort ( NOUN NOUN_PROPER_SINGULAR ) 
- Querschnittsressorts ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querschnittsressort 
- Querschnittsthema ( NOUN NOUN_PROPER_SINGULAR ) 
- Querschnittsverletzte ( NOUN NOUN_PROPER_SINGULAR ) 
- Querschuss ( NOUN NOUN_PROPER_SINGULAR ) 
- Querschuß ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querschuss 
- Querschüsse ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querschuss 
- Querschüssen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querschuss 
- Querseite ( NOUN NOUN_PROPER_SINGULAR ) 
- Querspalte ( NOUN NOUN_PROPER_SINGULAR ) 
- Querspalten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querspalte 
+ Querrillen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querrille 
+ Querrotation ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querschiff ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querschiffes ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querschiff 
+ Querschlag ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querschläge ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querschlag 
+ Querschlägen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querschlag 
+ Querschläger ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querschlägern ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querschläger 
+ Querschlägers ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querschläger 
+ Querschnitt ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querschnittaufgabe ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querschnitte ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querschnitt 
+ Querschnittgelähmte ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=querschnittgelähmt 
+ Querschnittgelähmten ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=querschnittgelähmt 
+ Querschnittlähmung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querschnittressort ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querschnitts ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querschnitt 
+ Querschnittsaufgabe ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querschnittsaufgaben ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querschnittsaufgabe 
+ Querschnittsdenken ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querschnittsfrau ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querschnittsfunktion ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querschnittsfunktionen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querschnittsfunktion 
+ Querschnittsgelähmte ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=querschnittsgelähmt 
+ Querschnittsgelähmten ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=querschnittsgelähmt 
+ Querschnittsgelähmter ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=querschnittsgelähmt 
+ Querschnittsgruppe ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querschnittslähmung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querschnittsministerium ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querschnittsmodell ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querschnittspolitik ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querschnittsressort ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querschnittsressorts ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querschnittsressort 
+ Querschnittsthema ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querschnittsverletzte ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querschuss ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querschuß ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querschuss 
+ Querschüsse ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querschuss 
+ Querschüssen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querschuss 
+ Querseite ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querspalte ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querspalten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querspalte 
  Querspan- ( ) 
- Querspange ( NOUN NOUN_PROPER_SINGULAR ) 
- Querspannung ( NOUN NOUN_PROPER_SINGULAR ) 
- Querstab ( NOUN NOUN_PROPER_SINGULAR ) 
- Querstange ( NOUN NOUN_PROPER_SINGULAR ) 
- Querstellen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querstelle 
- Querstollen ( NOUN NOUN_PROPER_SINGULAR ) 
- Querstrasse ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querstraße 
- Querstrassen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querstraße 
- Querstraße ( NOUN NOUN_PROPER_SINGULAR ) 
- Querstraßen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querstraße 
- Querstreben ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querstrebe 
- Querstreifen ( NOUN NOUN_PROPER_SINGULAR ) 
- Querstrich ( NOUN NOUN_PROPER_SINGULAR ) 
- Querstriche ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querstrich 
- Querstrichtechnik ( NOUN NOUN_PROPER_SINGULAR ) 
- Querstrom-Mikrofilter ( NOUN NOUN_PROPER_SINGULAR ) 
- Quersubventionen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quersubvention 
- Quersubventionierung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quersumme ( NOUN NOUN_PROPER_SINGULAR ) 
- Quersummen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quersumme 
- Quertreiber ( NOUN NOUN_PROPER_SINGULAR ) 
- Quertreiberei ( NOUN NOUN_PROPER_SINGULAR ) 
- Quertreibereien ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quertreiberei 
- Quertreibern ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quertreiber 
- Quertrommel ( NOUN NOUN_PROPER_SINGULAR ) 
- Querträger ( NOUN NOUN_PROPER_SINGULAR ) 
- Querulant ( NOUN NOUN_PROPER_SINGULAR ) 
- Querulanten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querulant 
- Querulantin ( NOUN NOUN_PROPER_SINGULAR ) 
- Querverbindung ( NOUN NOUN_PROPER_SINGULAR ) 
- Querverbindungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querverbindung 
- Querverbund ( NOUN NOUN_PROPER_SINGULAR ) 
- Querverbunds ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querverbund 
- Querverbundunternehmen ( NOUN NOUN_PROPER_SINGULAR ) 
- Querverbünde ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querverbund 
- Quervergleich ( NOUN NOUN_PROPER_SINGULAR ) 
- Querverhör ( NOUN NOUN_PROPER_SINGULAR ) 
- Querverkehr ( NOUN NOUN_PROPER_SINGULAR ) 
- Querverweis ( NOUN NOUN_PROPER_SINGULAR ) 
- Querverweise ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querverweis 
- Querverweisen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querverweis 
- Querweg ( NOUN NOUN_PROPER_SINGULAR ) 
- Querwege ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querweg 
- Querwindbahn ( NOUN NOUN_PROPER_SINGULAR ) 
- Querwänden ( NOUN NOUN_PROPER_SINGULAR ) lemma=Querwand 
+ Querspange ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querspannung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querstab ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querstange ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querstellen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querstelle 
+ Querstollen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querstrasse ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querstraße 
+ Querstrassen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querstraße 
+ Querstraße ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querstraßen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querstraße 
+ Querstreben ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querstrebe 
+ Querstreifen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querstrich ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querstriche ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querstrich 
+ Querstrichtechnik ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querstrom-Mikrofilter ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quersubventionen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quersubvention 
+ Quersubventionierung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quersumme ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quersummen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quersumme 
+ Quertreiber ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quertreiberei ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quertreibereien ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quertreiberei 
+ Quertreibern ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quertreiber 
+ Quertrommel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querträger ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querulant ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querulanten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querulant 
+ Querulantin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querverbindung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querverbindungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querverbindung 
+ Querverbund ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querverbunds ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querverbund 
+ Querverbundunternehmen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querverbünde ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querverbund 
+ Quervergleich ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querverhör ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querverkehr ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querverweis ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querverweise ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querverweis 
+ Querverweisen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querverweis 
+ Querweg ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querwege ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querweg 
+ Querwindbahn ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Querwänden ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Querwand 
  Quetsch- ( ) 
- Quetsche ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quetsche ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quetsche- ( ) 
- Quetschefest ( NOUN NOUN_PROPER_SINGULAR ) 
- Quetschekuche-Tour ( NOUN NOUN_PROPER_SINGULAR ) 
- Quetschekuchen ( NOUN NOUN_PROPER_SINGULAR ) 
- Quetschekuchenzeit ( NOUN NOUN_PROPER_SINGULAR ) 
- Quetschen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quetsche|Quetschen 
- Quetscher ( NOUN NOUN_PROPER_SINGULAR ) 
- Quetschkommode ( NOUN NOUN_PROPER_SINGULAR ) 
- Quetschkommoden ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quetschkommode 
- Quetschschelle ( NOUN NOUN_PROPER_SINGULAR ) 
- Quetschung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quetschungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quetschung 
- Quetschverbindung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quetschwunden ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quetschwunde 
- Quetzales ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quetzal 
- Queue ( NOUN NOUN_PROPER_SINGULAR ) 
- Queues ( NOUN NOUN_PROPER_SINGULAR ) lemma=Queue 
- Quianmen-Tor ( NOUN NOUN_PROPER_SINGULAR ) 
- Quiche-Indianerin ( NOUN NOUN_PROPER_SINGULAR ) 
- Quiché-Indianerin ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quetschefest ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quetschekuche-Tour ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quetschekuchen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quetschekuchenzeit ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quetschen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quetsche|Quetschen 
+ Quetscher ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quetschkommode ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quetschkommoden ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quetschkommode 
+ Quetschschelle ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quetschung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quetschungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quetschung 
+ Quetschverbindung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quetschwunden ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quetschwunde 
+ Quetzales ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quetzal 
+ Queue ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Queues ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Queue 
+ Quianmen-Tor ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quiche-Indianerin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quiché-Indianerin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quick ( ADJECTIVE ) lemma=quick 
  Quick- ( ) 
- Quick-Chefredakteur ( NOUN NOUN_PROPER_SINGULAR ) 
- Quick-Leser ( NOUN NOUN_PROPER_SINGULAR ) 
- Quick-Reporter ( NOUN NOUN_PROPER_SINGULAR ) 
- Quick-Schuh ( NOUN NOUN_PROPER_SINGULAR ) 
- Quick-Stop ( NOUN NOUN_PROPER_SINGULAR ) 
- Quick-out-Halterung ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quick-Chefredakteur ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quick-Leser ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quick-Reporter ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quick-Schuh ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quick-Stop ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quick-out-Halterung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quickborn-Heide ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR ) 
- Quicklebendige ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=quicklebendig 
- Quickmenü ( NOUN NOUN_PROPER_SINGULAR ) 
- Quico ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quidam ( NOUN NOUN_PROPER_SINGULAR ) 
- Quiddestraße ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quido ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quieken ( NOUN NOUN_PROPER_SINGULAR ) 
- Quietismus ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quicklebendige ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=quicklebendig 
+ Quickmenü ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quico ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quidam ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quiddestraße ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quido ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quieken ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quietismus ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quietsch- ( ) 
- Quietsch-Boys ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quietsch-Boy 
+ Quietsch-Boys ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quietsch-Boy 
  Quietsche- ( ) 
- Quietschen ( NOUN NOUN_PROPER_SINGULAR ) 
- Quietschende ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=quietschend 
- Quilla ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quietschen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quietschende ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=quietschend 
+ Quilla ( NOUN NOUN_PROPER_SINGULAR ) 
  Quilt- ( ) 
- Quilt-Aktionen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quilt-Aktion 
- Quilts-Objekte ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quilts-Objekt 
- Quinchayacu-Fluss ( NOUN NOUN_PROPER_SINGULAR ) 
- Quinchayacu-Fluß ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quinchayacu-Fluss 
- Quing-Dynastie ( NOUN NOUN_PROPER_SINGULAR ) 
- Quint ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quinta ( NOUN NOUN_PROPER_SINGULAR ) 
- Quinte ( NOUN NOUN_PROPER_SINGULAR ) 
- Quinten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quinte 
- Quintenzirkel ( NOUN NOUN_PROPER_SINGULAR ) 
- Quintenzirkels ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quintenzirkel 
- Quintessenz ( NOUN NOUN_PROPER_SINGULAR ) 
- Quintessenz-Verlag ( NOUN NOUN_PROPER_SINGULAR ) 
- Quintessenzen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quintessenz 
- Quintett ( NOUN NOUN_PROPER_SINGULAR ) 
- Quintette ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quintett 
- Quintetten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quintett 
- Quintetts ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quintett 
- Quintin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quirin ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quirinus ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quirl ( NOUN NOUN_PROPER_SINGULAR ) 
- Quirl-Frauen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quirl-Frau 
- Quirl-Moden ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quirl-Mode 
- Quirlen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quirl 
- Quisling ( NOUN NOUN_PROPER_SINGULAR ) 
- Quislinge ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quisling 
- Quitte ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=quitt 
- Quitten ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=quitt 
- Quittengelb ( NOUN NOUN_PROPER_SINGULAR ) 
- Quittengelee ( NOUN NOUN_PROPER_SINGULAR ) 
- Quittierung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quittung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quittungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quittung 
- Quittungsblock ( NOUN NOUN_PROPER_SINGULAR ) 
- Quittungskette ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quilt-Aktionen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quilt-Aktion 
+ Quilts-Objekte ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quilts-Objekt 
+ Quinchayacu-Fluss ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quinchayacu-Fluß ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quinchayacu-Fluss 
+ Quing-Dynastie ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quint ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quinta ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quinte ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quinten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quinte 
+ Quintenzirkel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quintenzirkels ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quintenzirkel 
+ Quintessenz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quintessenz-Verlag ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quintessenzen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quintessenz 
+ Quintett ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quintette ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quintett 
+ Quintetten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quintett 
+ Quintetts ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quintett 
+ Quintin ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quirin ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quirinus ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quirl ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quirl-Frauen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quirl-Frau 
+ Quirl-Moden ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quirl-Mode 
+ Quirlen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quirl 
+ Quisling ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quislinge ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quisling 
+ Quitte ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=quitt 
+ Quitten ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=quitt 
+ Quittengelb ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quittengelee ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quittierung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quittung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quittungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quittung 
+ Quittungsblock ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quittungskette ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quitzow- ( ) 
- Quiz ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quiz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quiz- ( ) 
- Quiz-Rallye ( NOUN NOUN_PROPER_SINGULAR ) 
- Quiz-Sendung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quiz-Sendungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quiz-Sendung 
- Quizabend ( NOUN NOUN_PROPER_SINGULAR ) 
- Quizfrage ( NOUN NOUN_PROPER_SINGULAR ) 
- Quizfragen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quizfrage 
- Quizfreunde ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quizfreund 
- Quizgewinner ( NOUN NOUN_PROPER_SINGULAR ) 
- Quizsendung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quizsendungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quizsendung 
- Quizshows ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quizshow 
- Quizspiel ( NOUN NOUN_PROPER_SINGULAR ) 
- Quizspiele ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quizspiel 
- Quizwettbewerbe ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quizwettbewerb 
- Qumar ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Qumarth ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Qumran-Funde ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qumran-Fund 
- Qumran-Rollen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Qumran-Rolle 
- Qumran-Verlag ( NOUN NOUN_PROPER_SINGULAR ) 
- Quoc ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quodlibet ( NOUN NOUN_PROPER_SINGULAR ) 
- Quote ( NOUN NOUN_PROPER_SINGULAR ) 
- Quoten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quote 
+ Quiz-Rallye ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quiz-Sendung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quiz-Sendungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quiz-Sendung 
+ Quizabend ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quizfrage ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quizfragen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quizfrage 
+ Quizfreunde ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quizfreund 
+ Quizgewinner ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quizsendung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quizsendungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quizsendung 
+ Quizshows ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quizshow 
+ Quizspiel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quizspiele ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quizspiel 
+ Quizwettbewerbe ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quizwettbewerb 
+ Qumar ( NOUN NOUN_PROPER_SINGULAR ) 
+ Qumarth ( NOUN NOUN_PROPER_SINGULAR ) 
+ Qumran-Funde ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qumran-Fund 
+ Qumran-Rollen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Qumran-Rolle 
+ Qumran-Verlag ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quoc ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quodlibet ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quote ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quoten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quote 
  Quoten- ( ) 
- Quoten-Gegner ( NOUN NOUN_PROPER_SINGULAR ) 
- Quoten-Modell ( NOUN NOUN_PROPER_SINGULAR ) 
- Quoten-Streits ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quoten-Streit 
- Quotenabsprachen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quotenabsprache 
- Quotenaufstockung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenbeschluss ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenbeschluß ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quotenbeschluss 
- Quotenbeschlüsse ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quotenbeschluss 
- Quotendebatte ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotendesaster ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotendiskussion ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenerfolg ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenerhöhung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenerhöhungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quotenerhöhung 
- Quotenerweiterung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenfetischisten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quotenfetischist 
- Quotenflop ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenflüchtlinge ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quotenflüchtling 
- Quotenforderung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenforderungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quotenforderung 
- Quotenfrage ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenfrau ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenfrauen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quotenfrau 
- Quotengegner ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotengerüst ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotengesetz ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotengesetze ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quotengesetz 
- Quotenjagd ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenjäger ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenkampf ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenkiller ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenkillers ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quotenkiller 
- Quotenkino ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenkäufer ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenlösung ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quoten-Gegner ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quoten-Modell ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quoten-Streits ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quoten-Streit 
+ Quotenabsprachen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quotenabsprache 
+ Quotenaufstockung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenbeschluss ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenbeschluß ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quotenbeschluss 
+ Quotenbeschlüsse ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quotenbeschluss 
+ Quotendebatte ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotendesaster ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotendiskussion ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenerfolg ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenerhöhung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenerhöhungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quotenerhöhung 
+ Quotenerweiterung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenfetischisten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quotenfetischist 
+ Quotenflop ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenflüchtlinge ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quotenflüchtling 
+ Quotenforderung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenforderungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quotenforderung 
+ Quotenfrage ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenfrau ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenfrauen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quotenfrau 
+ Quotengegner ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotengerüst ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotengesetz ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotengesetze ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quotengesetz 
+ Quotenjagd ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenjäger ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenkampf ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenkiller ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenkillers ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quotenkiller 
+ Quotenkino ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenkäufer ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenlösung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quotenmann ( NOUN NOUN_SINGULAR NOUN_PLURAL NOUN_PROPER_SINGULAR ) 
- Quotenmodell ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenopfer ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenopfern ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quotenopfer 
- Quotenpolitik ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenprinzip ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenregelung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenregelungen ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quotenregelung 
- Quotenschlüssel ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenstreit ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotensystem ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotensystems ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quotensystem 
- Quotentausch ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenverluste ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quotenverlust 
- Quotenverteilung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotenüberschreitung ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotient ( NOUN NOUN_PROPER_SINGULAR ) 
- Quotienten ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quotient 
- Quotierung ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quotenmodell ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenopfer ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenopfern ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quotenopfer 
+ Quotenpolitik ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenprinzip ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenregelung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenregelungen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quotenregelung 
+ Quotenschlüssel ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenstreit ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotensystem ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotensystems ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quotensystem 
+ Quotentausch ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenverluste ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quotenverlust 
+ Quotenverteilung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotenüberschreitung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotient ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quotienten ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quotient 
+ Quotierung ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  Quotierungs- ( ) 
- Quy ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quyen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
- Quäken ( NOUN NOUN_PROPER_SINGULAR ) 
- Quäker ( NOUN NOUN_PROPER_SINGULAR ) 
- Quäker-Familie ( NOUN NOUN_PROPER_SINGULAR ) 
- Quäker-Stadt ( NOUN NOUN_PROPER_SINGULAR ) 
- Quäkern ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quäker 
- Quälen ( NOUN NOUN_PROPER_SINGULAR ) 
- Quälende ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=quälend 
- Quälender ( NOUN ADJECTIVE NOUN_PROPER_SINGULAR ) lemma=quälender 
- Quälens ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quälen 
- Quäler ( NOUN NOUN_PROPER_SINGULAR ) 
- Quälerei ( NOUN NOUN_PROPER_SINGULAR ) 
- Quälereien ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quälerei 
- Quälgeist ( NOUN NOUN_PROPER_SINGULAR ) 
- Quälgeister ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quälgeist 
- Quälgeistern ( NOUN NOUN_PROPER_SINGULAR ) lemma=Quälgeist 
- qm ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quy ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quyen ( NOUN NOUN_PROPER_SINGULAR ) 
+ Quäken ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quäker ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quäker-Familie ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quäker-Stadt ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quäkern ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quäker 
+ Quälen ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quälende ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=quälend 
+ Quälender ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=quälender 
+ Quälens ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quälen 
+ Quäler ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quälerei ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quälereien ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quälerei 
+ Quälgeist ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
+ Quälgeister ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quälgeist 
+ Quälgeistern ( NOUN NOUN_SINGULAR NOUN_PLURAL ) lemma=Quälgeist 
+ qm ( NOUN NOUN_SINGULAR NOUN_PLURAL ) 
  quaderförmige ( ADJECTIVE ) lemma=quaderförmig 
  quaderförmigen ( ADJECTIVE ) lemma=quaderförmig 
  quaderförmiger ( ADJECTIVE ) lemma=quaderförmig 
@@ -1213,27 +1213,27 @@
  quadrophonen ( ADJECTIVE ) lemma=quadrophon 
  quadrophoner ( ADJECTIVE ) lemma=quadrophon 
  quadrophonische ( ADJECTIVE ) lemma=quadrophonisch 
- quak ( VERB_INFINITIVE VERB ) lemma=quaken 
- quake ( VERB_INFINITIVE VERB ) lemma=quaken 
- quaken ( VERB_INFINITIVE VERB ) 
+ quak ( VERB ) lemma=quaken 
+ quake ( VERB ) lemma=quaken 
+ quaken ( VERB ) 
  quakend ( ADJECTIVE ) 
  quakende ( ADJECTIVE ) lemma=quakend 
  quakenden ( ADJECTIVE ) lemma=quakend 
  quakender ( ADJECTIVE ) lemma=quakend 
- quakt ( VERB_INFINITIVE VERB ) lemma=quaken 
- quakte ( VERB_INFINITIVE VERB ) lemma=quaken 
- quakten ( VERB_INFINITIVE VERB ) lemma=quaken 
+ quakt ( VERB ) lemma=quaken 
+ quakte ( VERB ) lemma=quaken 
+ quakten ( VERB ) lemma=quaken 
  qualifikationsgerechte ( ADJECTIVE ) lemma=qualifikationsgerecht 
- qualifiziere ( VERB_INFINITIVE VERB ) lemma=qualifizieren 
- qualifizieren ( VERB_INFINITIVE VERB ) 
+ qualifiziere ( VERB ) lemma=qualifizieren 
+ qualifizieren ( VERB ) 
  qualifizierende ( ADJECTIVE ) lemma=qualifizierend 
  qualifizierenden ( ADJECTIVE ) lemma=qualifizierend 
  qualifizierender ( ADJECTIVE ) 
  qualifizierendes ( ADJECTIVE ) lemma=qualifizierend 
- qualifiziert ( VERB_PAST_PARTICIPLE VERB_INFINITIVE VERB ) lemma=qualifizieren 
- qualifizierte ( VERB_INFINITIVE VERB ADJECTIVE ) lemma=qualifiziert 
+ qualifiziert ( VERB ) lemma=qualifizieren 
+ qualifizierte ( VERB ADJECTIVE ) lemma=qualifiziert 
  qualifiziertem ( ADJECTIVE ) lemma=qualifiziert 
- qualifizierten ( VERB_INFINITIVE VERB ADJECTIVE ) lemma=qualifiziert 
+ qualifizierten ( VERB ADJECTIVE ) lemma=qualifiziert 
  qualifizierter ( ADJECTIVE ) lemma=qualifiziert 
  qualifiziertere ( ADJECTIVE ) lemma=qualifiziert 
  qualifizierteren ( ADJECTIVE ) lemma=qualifiziert 
@@ -1270,8 +1270,8 @@
  qualitätsvoller ( ADJECTIVE ) lemma=qualitätsvoll 
  qualitätsvolles ( ADJECTIVE ) lemma=qualitätsvoll 
  qualitätsvollsten ( ADJECTIVE ) lemma=qualitätsvoll 
- qualme ( VERB_INFINITIVE VERB ) lemma=qualmen 
- qualmen ( VERB_INFINITIVE VERB ) 
+ qualme ( VERB ) lemma=qualmen 
+ qualmen ( VERB ) 
  qualmend ( ADJECTIVE ) 
  qualmende ( ADJECTIVE ) lemma=qualmend 
  qualmendem ( ADJECTIVE ) lemma=qualmend 
@@ -1280,10 +1280,10 @@
  qualmendes ( ADJECTIVE ) lemma=qualmend 
  qualmfrei ( ADJECTIVE ) 
  qualmfreie ( ADJECTIVE ) lemma=qualmfrei 
- qualmt ( VERB_INFINITIVE VERB ) lemma=qualmen 
- qualmt's ( VERB_INFINITIVE VERB ) lemma=qualmen 
- qualmte ( VERB_INFINITIVE VERB ) lemma=qualmen 
- qualmten ( VERB_INFINITIVE VERB ) lemma=qualmen 
+ qualmt ( VERB ) lemma=qualmen 
+ qualmt's ( VERB ) lemma=qualmen 
+ qualmte ( VERB ) lemma=qualmen 
+ qualmten ( VERB ) lemma=qualmen 
  qualvoll ( ADJECTIVE ) 
  qualvoll-ekstatische ( ADJECTIVE ) lemma=qualvoll-ekstatisch 
  qualvolle ( ADJECTIVE ) lemma=qualvoll 
@@ -1294,11 +1294,11 @@
  qualvollsten ( ADJECTIVE ) lemma=qualvoll 
  quantenmechanische ( ADJECTIVE ) lemma=quantenmechanisch 
  quantenmechanischen ( ADJECTIVE ) lemma=quantenmechanisch 
- quantifizieren ( VERB_INFINITIVE VERB ) 
+ quantifizieren ( VERB ) 
  quantifizierende ( ADJECTIVE ) lemma=quantifizierend 
  quantifizierenden ( ADJECTIVE ) lemma=quantifizierend 
- quantifiziert ( VERB_PAST_PARTICIPLE VERB_INFINITIVE VERB ) lemma=quantifizieren 
- quantifizierte ( VERB_INFINITIVE VERB ADJECTIVE ) lemma=quantifiziert 
+ quantifiziert ( VERB ) lemma=quantifizieren 
+ quantifizierte ( VERB ADJECTIVE ) lemma=quantifiziert 
  quantitativ ( ADJECTIVE ) 
  quantitative ( ADJECTIVE ) lemma=quantitativ 
  quantitativem ( ADJECTIVE ) lemma=quantitativ 
@@ -1308,13 +1308,13 @@
  quartalsmässig ( ADJECTIVE ) 
  quartalsmäßig ( ADJECTIVE ) 
  quartalsweise ( ADJECTIVE ) 
- quartier ( VERB_INFINITIVE VERB ) lemma=quartieren 
+ quartier ( VERB ) lemma=quartieren 
  quartier- ( ) 
- quartiere ( VERB_INFINITIVE VERB ) lemma=quartieren 
- quartieren ( VERB_INFINITIVE VERB ) 
- quartiert ( VERB_PAST_PARTICIPLE VERB_INFINITIVE VERB ) lemma=quartieren 
- quartierte ( VERB_INFINITIVE VERB ADJECTIVE ) lemma=quartiert 
- quartierten ( VERB_INFINITIVE VERB ADJECTIVE ) lemma=quartiert 
+ quartiere ( VERB ) lemma=quartieren 
+ quartieren ( VERB ) 
+ quartiert ( VERB ) lemma=quartieren 
+ quartierte ( VERB ADJECTIVE ) lemma=quartiert 
+ quartierten ( VERB ADJECTIVE ) lemma=quartiert 
  quartierweise ( ADVERB ) 
  quasi ( ADVERB ) 
  quasi- ( ) 
@@ -1332,20 +1332,20 @@
  quasi-religiöse ( ADJECTIVE ) lemma=quasi-religiös 
  quasi-religiösen ( ADJECTIVE ) lemma=quasi-religiös 
  quasi-religiöser ( ADJECTIVE ) lemma=quasi-religiös 
- quassel ( VERB_INFINITIVE VERB ) lemma=quasseln 
- quasseln ( VERB_INFINITIVE VERB ) 
+ quassel ( VERB ) lemma=quasseln 
+ quasseln ( VERB ) 
  quasselnd ( ADJECTIVE ) 
  quasselnde ( ADJECTIVE ) lemma=quasselnd 
  quasselnden ( ADJECTIVE ) lemma=quasselnd 
- quasselt ( VERB_INFINITIVE VERB ) lemma=quasseln 
- quasselte ( VERB_INFINITIVE VERB ) lemma=quasseln 
- quasselten ( VERB_INFINITIVE VERB ) lemma=quasseln 
- quatsch ( VERB_INFINITIVE VERB ) lemma=quatschen 
- quatschen ( VERB_INFINITIVE VERB ) 
+ quasselt ( VERB ) lemma=quasseln 
+ quasselte ( VERB ) lemma=quasseln 
+ quasselten ( VERB ) lemma=quasseln 
+ quatsch ( VERB ) lemma=quatschen 
+ quatschen ( VERB ) 
  quatschenden ( ADJECTIVE ) lemma=quatschend 
- quatscht ( VERB_INFINITIVE VERB ) lemma=quatschen 
- quatschte ( VERB_INFINITIVE VERB ) lemma=quatschen 
- quatschten ( VERB_INFINITIVE VERB ) lemma=quatschen 
+ quatscht ( VERB ) lemma=quatschen 
+ quatschte ( VERB ) lemma=quatschen 
+ quatschten ( VERB ) lemma=quatschen 
  quecksilberfreie ( ADJECTIVE ) lemma=quecksilberfrei 
  quecksilberhaltige ( ADJECTIVE ) lemma=quecksilberhaltig 
  quecksilberhaltigem ( ADJECTIVE ) lemma=quecksilberhaltig 
@@ -1354,8 +1354,8 @@
  quecksilberverseuchten ( ADJECTIVE ) lemma=quecksilberverseucht 
  quecksilbrige ( ADJECTIVE ) lemma=quecksilbrig 
  quecksilbrigen ( ADJECTIVE ) lemma=quecksilbrig 
- quelle ( VERB_INFINITIVE VERB ) lemma=quellen 
- quellen ( VERB_INFINITIVE VERB ) 
+ quelle ( VERB ) lemma=quellen 
+ quellen ( VERB ) 
  quellend ( ADJECTIVE ) 
  quellende ( ADJECTIVE ) lemma=quellend 
  quellenden ( ADJECTIVE ) lemma=quellend 
@@ -1370,36 +1370,36 @@
  quellensteuerfreien ( ADJECTIVE ) lemma=quellensteuerfrei 
  quengelig ( ADJECTIVE ) 
  quengeligen ( ADJECTIVE ) lemma=quengelig 
- quengeln ( VERB_INFINITIVE VERB ) 
+ quengeln ( VERB ) 
  quengelnd ( ADJECTIVE ) 
  quengelnde ( ADJECTIVE ) lemma=quengelnd 
  quengelndem ( ADJECTIVE ) lemma=quengelnd 
  quengelnden ( ADJECTIVE ) lemma=quengelnd 
  quengelndes ( ADJECTIVE ) lemma=quengelnd 
- quengelt ( VERB_INFINITIVE VERB ) lemma=quengeln 
- quengelte ( VERB_INFINITIVE VERB ) lemma=quengeln 
- quengelten ( VERB_INFINITIVE VERB ) lemma=quengeln 
+ quengelt ( VERB ) lemma=quengeln 
+ quengelte ( VERB ) lemma=quengeln 
+ quengelten ( VERB ) lemma=quengeln 
  quer ( PRONOUN_SUBJECT PRONOUN_OBJECT ADJECTIVE ) 
  quer- ( ) 
- querdenken ( VERB_INFINITIVE VERB ) 
+ querdenken ( VERB ) 
  querdenkend ( ADJECTIVE ) 
  querdenkenden ( ADJECTIVE ) lemma=querdenkend 
- querdenkt ( VERB_INFINITIVE VERB ) lemma=querdenken 
+ querdenkt ( VERB ) lemma=querdenken 
  querempfindlich ( ADJECTIVE ) 
  querempfindlichen ( ADJECTIVE ) lemma=querempfindlich 
- querende ( VERB_INFINITIVE VERB ) lemma=querenden 
- querenden ( VERB_INFINITIVE VERB ) 
+ querende ( VERB ) lemma=querenden 
+ querenden ( VERB ) 
  querfeldein ( ADVERB ) 
- quergelegt ( VERB_PAST_PARTICIPLE VERB ) lemma=querlegen 
+ quergelegt ( VERB ) lemma=querlegen 
  quergelegte ( ADJECTIVE ) lemma=quergelegt 
  quergelegten ( ADJECTIVE ) lemma=quergelegt 
- quergeschlagen ( VERB_PAST_PARTICIPLE VERB ) lemma=querschlagen 
- quergestellt ( VERB_PAST_PARTICIPLE VERB ) lemma=querstellen 
+ quergeschlagen ( VERB ) lemma=querschlagen 
+ quergestellt ( VERB ) lemma=querstellen 
  quergestellte ( ADJECTIVE ) lemma=quergestellt 
  quergestellten ( ADJECTIVE ) lemma=quergestellt 
  quergestellter ( ADJECTIVE ) lemma=quergestellt 
  quergestelltes ( ADJECTIVE ) lemma=quergestellt 
- quergestreift ( VERB_PAST_PARTICIPLE VERB ) lemma=querstreifen 
+ quergestreift ( VERB ) lemma=querstreifen 
  quergestreifte ( ADJECTIVE ) lemma=quergestreift 
  quergestreiften ( ADJECTIVE ) lemma=quergestreift 
  quergestreiftes ( ADJECTIVE ) lemma=quergestreift 
@@ -1407,17 +1407,17 @@
  querköpfig ( ADJECTIVE ) 
  querköpfige ( ADJECTIVE ) lemma=querköpfig 
  querlaufende ( ADJECTIVE ) lemma=querlaufend 
- querlegen ( VERB_INFINITIVE VERB ) 
- querlegt ( VERB_INFINITIVE VERB ) lemma=querlegen 
- querlegte ( VERB_INFINITIVE VERB ) lemma=querlegen 
+ querlegen ( VERB ) 
+ querlegt ( VERB ) lemma=querlegen 
+ querlegte ( VERB ) lemma=querlegen 
  querliegend ( ADJECTIVE ) 
  querliegende ( ADJECTIVE ) lemma=querliegend 
  querliegenden ( ADJECTIVE ) lemma=querliegend 
  querliegendes ( ADJECTIVE ) lemma=querliegend 
- querschiessen ( VERB_INFINITIVE VERB ) lemma=querschießen 
- querschiesst ( VERB_INFINITIVE VERB ) lemma=querschießen 
- querschießen ( VERB_INFINITIVE VERB ) 
- querschießt ( VERB_INFINITIVE VERB ) lemma=querschießen 
+ querschiessen ( VERB ) lemma=querschießen 
+ querschiesst ( VERB ) lemma=querschießen 
+ querschießen ( VERB ) 
+ querschießt ( VERB ) lemma=querschießen 
  querschnittgelähmt ( ADJECTIVE ) 
  querschnittgelähmte ( ADJECTIVE ) lemma=querschnittgelähmt 
  querschnittgelähmten ( ADJECTIVE ) lemma=querschnittgelähmt 
@@ -1425,30 +1425,30 @@
  querschnittsgelähmte ( ADJECTIVE ) lemma=querschnittsgelähmt 
  querschnittsgelähmten ( ADJECTIVE ) lemma=querschnittsgelähmt 
  querschnittsgelähmter ( ADJECTIVE ) lemma=querschnittsgelähmt 
- querschoss ( VERB_INFINITIVE VERB ) lemma=querschießen 
- querschoß ( VERB_INFINITIVE VERB ) lemma=querschießen 
- querschreiben ( VERB_INFINITIVE VERB ) 
+ querschoss ( VERB ) lemma=querschießen 
+ querschoß ( VERB ) lemma=querschießen 
+ querschreiben ( VERB ) 
  querstehend ( ADJECTIVE ) 
  querstehende ( ADJECTIVE ) lemma=querstehend 
  querstehenden ( ADJECTIVE ) lemma=querstehend 
  querstehender ( ADJECTIVE ) lemma=querstehend 
- quersteht ( VERB_INFINITIVE VERB ) lemma=querstehen 
- querstellen ( VERB_INFINITIVE VERB ) 
- querstellt ( VERB_INFINITIVE VERB ) lemma=querstellen 
- querstellte ( VERB_INFINITIVE VERB ) lemma=querstellen 
- querstellten ( VERB_INFINITIVE VERB ) lemma=querstellen 
+ quersteht ( VERB ) lemma=querstehen 
+ querstellen ( VERB ) 
+ querstellt ( VERB ) lemma=querstellen 
+ querstellte ( VERB ) lemma=querstellen 
+ querstellten ( VERB ) lemma=querstellen 
  quertreibende ( ADJECTIVE ) lemma=quertreibend 
- querulieren ( VERB_INFINITIVE VERB ) 
- querzieht ( VERB_INFINITIVE VERB ) lemma=querziehen 
- querzudenken ( VERB_INFINITIVE VERB ) lemma=querdenken 
- querzustellen ( VERB_INFINITIVE VERB ) lemma=querstellen 
+ querulieren ( VERB ) 
+ querzieht ( VERB ) lemma=querziehen 
+ querzudenken ( VERB ) lemma=querdenken 
+ querzustellen ( VERB ) lemma=querstellen 
  quetschbar ( ADJECTIVE ) 
- quetsche ( VERB_INFINITIVE VERB ) lemma=quetschen 
- quetschen ( VERB_INFINITIVE VERB ) 
+ quetsche ( VERB ) lemma=quetschen 
+ quetschen ( VERB ) 
  quetschend ( ADJECTIVE ) 
- quetscht ( VERB_INFINITIVE VERB ) lemma=quetschen 
- quetschte ( VERB_INFINITIVE VERB ) lemma=quetschen 
- quetschten ( VERB_INFINITIVE VERB ) lemma=quetschen 
+ quetscht ( VERB ) lemma=quetschen 
+ quetschte ( VERB ) lemma=quetschen 
+ quetschten ( VERB ) lemma=quetschen 
  quick ( ADJECTIVE ) 
  quicke ( ADJECTIVE ) lemma=quick 
  quicken ( ADJECTIVE ) lemma=quick 
@@ -1458,27 +1458,27 @@
  quicklebendigen ( ADJECTIVE ) lemma=quicklebendig 
  quicklebendiger ( ADJECTIVE ) lemma=quicklebendig 
  quicklebendiges ( ADJECTIVE ) lemma=quicklebendig 
- quieken ( VERB_INFINITIVE VERB ) 
+ quieken ( VERB ) 
  quiekend ( ADJECTIVE ) 
  quiekende ( ADJECTIVE ) lemma=quiekend 
  quiekenden ( ADJECTIVE ) lemma=quiekend 
  quiekender ( ADJECTIVE ) lemma=quiekend 
- quiekt ( VERB_INFINITIVE VERB ) lemma=quieken 
- quiekte ( VERB_INFINITIVE VERB ) lemma=quieken 
- quiekten ( VERB_INFINITIVE VERB ) lemma=quieken 
- quietsch ( VERB_INFINITIVE VERB ) lemma=quietschen 
- quietschen ( VERB_INFINITIVE VERB ) 
+ quiekt ( VERB ) lemma=quieken 
+ quiekte ( VERB ) lemma=quieken 
+ quiekten ( VERB ) lemma=quieken 
+ quietsch ( VERB ) lemma=quietschen 
+ quietschen ( VERB ) 
  quietschend ( ADJECTIVE ) 
  quietschende ( ADJECTIVE ) lemma=quietschend 
  quietschenden ( ADJECTIVE ) lemma=quietschend 
  quietschender ( ADJECTIVE ) 
  quietschendes ( ADJECTIVE ) lemma=quietschend 
- quietscht ( VERB_INFINITIVE VERB ) lemma=quietschen 
- quietscht's ( VERB_INFINITIVE VERB ) lemma=quietschen 
- quietschte ( VERB_INFINITIVE VERB ) lemma=quietschen 
- quietschten ( VERB_INFINITIVE VERB ) lemma=quietschen 
+ quietscht ( VERB ) lemma=quietschen 
+ quietscht's ( VERB ) lemma=quietschen 
+ quietschte ( VERB ) lemma=quietschen 
+ quietschten ( VERB ) lemma=quietschen 
  quietschvergnügt ( ADJECTIVE ) 
- quillt ( VERB_INFINITIVE VERB ) lemma=quellen 
+ quillt ( VERB ) lemma=quellen 
  quirlige ( ADJECTIVE ) lemma=quirlig 
  quirligen ( ADJECTIVE ) lemma=quirlig 
  quirliges ( ADJECTIVE ) lemma=quirlig 
@@ -1488,14 +1488,14 @@
  quitten ( ADJECTIVE ) lemma=quitt 
  quittengelb ( ADJECTIVE ) 
  quitter ( ADJECTIVE ) lemma=quitt 
- quittiere ( VERB_INFINITIVE VERB ) lemma=quittieren 
- quittieren ( VERB_INFINITIVE VERB ) 
+ quittiere ( VERB ) lemma=quittieren 
+ quittieren ( VERB ) 
  quittierend ( ADJECTIVE ) 
- quittiert ( VERB_PAST_PARTICIPLE VERB_INFINITIVE VERB ) lemma=quittieren 
- quittierte ( VERB_INFINITIVE VERB ADJECTIVE ) lemma=quittiert 
- quittierten ( VERB_INFINITIVE VERB ADJECTIVE ) lemma=quittiert 
- quoll ( VERB_INFINITIVE VERB ) lemma=quellen 
- quollen ( VERB_INFINITIVE VERB ) lemma=quellen 
+ quittiert ( VERB ) lemma=quittieren 
+ quittierte ( VERB ADJECTIVE ) lemma=quittiert 
+ quittierten ( VERB ADJECTIVE ) lemma=quittiert 
+ quoll ( VERB ) lemma=quellen 
+ quollen ( VERB ) lemma=quellen 
  quotenbedingt ( ADJECTIVE ) 
  quotenbestimmten ( ADJECTIVE ) lemma=quotenbestimmt 
  quotenfrei ( ADJECTIVE ) 
@@ -1509,15 +1509,15 @@
  quotentreibenden ( ADJECTIVE ) lemma=quotentreibend 
  quotenträchtige ( ADJECTIVE ) lemma=quotenträchtig 
  quotenträchtigen ( ADJECTIVE ) lemma=quotenträchtig 
- quäken ( VERB_INFINITIVE VERB ) 
+ quäken ( VERB ) 
  quäkend ( ADJECTIVE ) 
  quäkende ( ADJECTIVE ) lemma=quäkend 
  quäkenden ( ADJECTIVE ) lemma=quäkend 
- quäkt ( VERB_INFINITIVE VERB ) lemma=quäken 
- quäkte ( VERB_INFINITIVE VERB ) lemma=quäken 
- quäl ( VERB_INFINITIVE VERB ) lemma=quälen 
- quäle ( VERB_INFINITIVE VERB ) lemma=quälen 
- quälen ( VERB_INFINITIVE VERB ) 
+ quäkt ( VERB ) lemma=quäken 
+ quäkte ( VERB ) lemma=quäken 
+ quäl ( VERB ) lemma=quälen 
+ quäle ( VERB ) lemma=quälen 
+ quälen ( VERB ) 
  quälend ( ADJECTIVE ) 
  quälende ( ADJECTIVE ) lemma=quälend 
  quälendem ( ADJECTIVE ) lemma=quälend 
@@ -1528,9 +1528,9 @@
  quälerisch ( ADJECTIVE ) 
  quälerische ( ADJECTIVE ) lemma=quälerisch 
  quälerischen ( ADJECTIVE ) lemma=quälerisch 
- quält ( VERB_INFINITIVE VERB ) lemma=quälen 
- quälte ( VERB_INFINITIVE VERB ) lemma=quälen 
- quälten ( VERB_INFINITIVE VERB ) lemma=quälen 
+ quält ( VERB ) lemma=quälen 
+ quälte ( VERB ) lemma=quälen 
+ quälten ( VERB ) lemma=quälen 
  QC-Pool ( ) 
  QC-Standard ( ) 
  QS-System ( ) 

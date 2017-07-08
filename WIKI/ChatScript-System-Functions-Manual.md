@@ -1,18 +1,18 @@
 # ChatScript System Functions Manual
 © Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 6/25/2017 cs7.51
+<br>Revision 7/8/2017 cs7.52
 
-* [Topic Functions](ChatScript-System-Functions-Manual.md#topic-functions)
-* [Marking Functions](ChatScript-System-Functions-Manual.md#marking-functions)
-* [Input Functions](ChatScript-System-Functions-Manual.md#input-functions)
-* [Number Functions](ChatScript-System-Functions-Manual.md#number-functions)
-* [Output Functions](ChatScript-System-Functions-Manual.md#output-functions)
-* [Control Flow Functions](ChatScript-System-Functions-Manual.md#control-flow-functions)
-* [External Access Functions](ChatScript-System-Functions-Manual.md#external-access-functions)
-* [JSON Functions](ChatScript-System-Functions-Manual.md#json-functions)
-* [Word Manipulation Functions](ChatScript-System-Functions-Manual.md#word-manipulation-functions)
-* [Multipurpose Functions](ChatScript-System-Functions-Manual.md#multipurpose-functions)
-* [Facts Functions](ChatScript-System-Functions-Manual.md#fact-functions)
+* [Topic Functions](ChatScript-System-Functions-Manual.html#topic-functions)
+* [Marking Functions](ChatScript-System-Functions-Manual.html#marking-functions)
+* [Input Functions](ChatScript-System-Functions-Manual.html#input-functions)
+* [Number Functions](ChatScript-System-Functions-Manual.html#number-functions)
+* [Output Functions](ChatScript-System-Functions-Manual.html#output-functions)
+* [Control Flow Functions](ChatScript-System-Functions-Manual.html#control-flow-functions)
+* [External Access Functions](ChatScript-System-Functions-Manual.html#external-access-functions)
+* [JSON Functions](ChatScript-System-Functions-Manual.html#json-functions)
+* [Word Manipulation Functions](ChatScript-System-Functions-Manual.html#word-manipulation-functions)
+* [Multipurpose Functions](ChatScript-System-Functions-Manual.html#multipurpose-functions)
+* [Facts Functions](ChatScript-System-Functions-Manual.html#fact-functions)
 
 System functions are predefined and can be intermixed with direct output. Generally
 they are used from the output side of a rule, but in many cases nothing prevents you from
@@ -203,6 +203,8 @@ This rule will not erase but the responding rule might.
 If the first value fails to generate an answer, it tries the second, and so on. 
 You can supply an optional last argument `FAIL`, 
 in which case it will return `FAILRULE_BIT` if it didn't fail but it didn't generate any new output either.
+You could instead supply an optiona last argument `TEST`, in which case a topic is executed to see if a rule will 
+match. If so, the tag is returned and no output is made from the topic (and no rule is used up). 
 
 If a value designates a labelled or tagged rule (e.g., `~mytopic.mylabel` or `~mytopic.1.0`) 
 then the system will skip over all rules until it reaches that rule, then begin linear scanning, 

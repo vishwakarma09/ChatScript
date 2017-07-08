@@ -1344,7 +1344,7 @@ DOUBLELEFT:  case '(': case '[':  case '{': // nested condition (required or opt
 				if (*word == '~' && matched) 
 				{
 					if (positionStart <= 0 || positionStart > wordCount || positionEnd <= 0 || positionEnd > wordCount) {;} // still in init startup?
-					else if (positionStart != positionEnd) Log(STDTRACELOG,(char*)"(%s-%s)",wordStarts[positionStart],wordStarts[positionEnd]);
+					else if (positionStart != positionEnd) Log(STDTRACELOG,(char*)"(%s...%s)",wordStarts[positionStart],wordStarts[positionEnd]);
 					else Log(STDTRACELOG,(char*)"(%s)",wordStarts[positionStart]);
 				}
 				else if (*word == USERVAR_PREFIX && matched) 

@@ -5,9 +5,9 @@
 
 > Revision 3/4/2017 cs7.3
 
-* [Reading Documents](ChatScript-Document-Reader.md#reading-documents)
-* [Memory management with documents](ChatScript-Document-Reader.md#memory-management-with-documents)
-* [Debugging Documents](ChatScript-Document-Reader.md#debugging-documents)
+* [Reading Documents](ChatScript-Document-Reader.html#reading-documents)
+* [Memory management with documents](ChatScript-Document-Reader.html#memory-management-with-documents)
+* [Debugging Documents](ChatScript-Document-Reader.html#debugging-documents)
 
 
 

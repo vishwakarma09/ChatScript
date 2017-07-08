@@ -104,10 +104,11 @@
  nev. Nevada
  Nov November
  Nov. November
+ Shangri_La Shangri-la
  Oct October
  Oct. October
  okla. Oklahoma
- oz ounce
+ # oz ounce  NOT global because of the place called Oz
  oz. ounce
  PLC. PLC
  by_what_means how

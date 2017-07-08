@@ -5,6 +5,7 @@
 #define TOPIC_LIMIT 10000			
 #define PATTERN_UNWIND 1
 
+bool hypotheticalMatch = false;
 int currentBeforeLayer = 0;
 
 // functions that manage topic execution (hence displays) are: PerformTopic (gambit, responder), 
@@ -709,7 +710,6 @@ char* GetPattern(char* ptr,char* label,char* pattern,int limit)
 		strcpy(word,pattern);
 		size_t len = strlen(word) - 1;
 		char* from = word-1;
-		char* to = pattern;
 		bool blank = true;
 		while (*++from)
 		{
@@ -745,7 +745,6 @@ char* GetPattern(char* ptr,char* label,char* pattern,int limit)
 		}
 		*to = 0;
 	}
-	if (to) *to = 0;
 	return ptr; // start of output ptr
 }
 
@@ -1339,6 +1338,13 @@ retry:
 
 	if (result == NOPROBLEM_BIT) // generate output
 	{
+		if (hypotheticalMatch)
+		{
+			sprintf(buffer, "%s.%d.%d", GetTopicName(currentTopicID), TOPLEVELID(ruleID), REJOINDERID(ruleID));
+			result = NOPROBLEM_BIT;
+			goto exit;
+		}
+
 		if (sampleTopic && sampleTopic == currentTopicID && sampleRule == ruleID) // sample testing wants to find this rule got hit
 		{
 			result = FAILINPUT_BIT;
@@ -2850,6 +2856,7 @@ FunctionResult LoadLayer(int layer,const char* name,unsigned int build)
 	ReadFacts(filename,name,build);
 	sprintf(filename,(char*)"facts%s.txt",name );
 	ReadFacts(filename,name,build);
+	NoteBotVariables(); 
 	sprintf(filename,(char*)"script%s.txt",name);
 	LoadTopicData(filename,name,build,layer,false);
 	sprintf(filename,(char*)"plans%s.txt",name );

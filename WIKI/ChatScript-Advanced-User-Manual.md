@@ -2,22 +2,22 @@
 © Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com<br>
 <br>Revision 5/7/2017 cs7.42
 
-* [Review](ChatScript-Advanced-User-Manual.md#review-overview-of-how-cs-works)
-* [Advanced Concepts](ChatScript-Advanced-User-Manual.md#advanced-concepts)
-* [Advanced Topics](ChatScript-Advanced-User-Manual.md#advanced-topics)
-* [Advanced Patterns](ChatScript-Advanced-User-Manual.md#advanced-patterns)
-* [Advanced Output](ChatScript-Advanced-User-Manual.md#advanced-output)
-* [Advanced Variables](ChatScript-Advanced-User-Manual.md#advanced-variables)
-* [Out of Band Communication](ChatScript-Advanced-User-Manual.md#out-of-band-communication)
-* [System callback functions](ChatScript-Advanced-User-Manual.md#system-callback-functions)
-* [Advanced :build](ChatScript-Advanced-User-Manual.md#advanced-build)
-* [Editing Non-topic Files](ChatScript-Advanced-User-Manual.md#editing-non-topic-files)
-* [Common Script Idioms](ChatScript-Advanced-User-Manual.md#common-script-idioms)
-* [Esoterica and Fine Detail](ChatScript-Advanced-User-Manual.md#esoterica-and-fine-detail)
-* [Self-Reflection](ChatScript-Advanced-User-Manual.md#self-reflection)
-* [A Fresh build](ChatScript-Advanced-User-Manual.md#a-fresh-build)
-* [Updating CS versions Easily](ChatScript-Advanced-User-Manual.md#updating-cs-versions-easily)
-* [The Dictionary](ChatScript-Advanced-User-Manual.md#the-dictionary)
+* [Review](ChatScript-Advanced-User-Manual.html#review-overview-of-how-cs-works)
+* [Advanced Concepts](ChatScript-Advanced-User-Manual.html#advanced-concepts)
+* [Advanced Topics](ChatScript-Advanced-User-Manual.html#advanced-topics)
+* [Advanced Patterns](ChatScript-Advanced-User-Manual.html#advanced-patterns)
+* [Advanced Output](ChatScript-Advanced-User-Manual.html#advanced-output)
+* [Advanced Variables](ChatScript-Advanced-User-Manual.html#advanced-variables)
+* [Out of Band Communication](ChatScript-Advanced-User-Manual.html#out-of-band-communication)
+* [System callback functions](ChatScript-Advanced-User-Manual.html#system-callback-functions)
+* [Advanced :build](ChatScript-Advanced-User-Manual.html#advanced-build)
+* [Editing Non-topic Files](ChatScript-Advanced-User-Manual.html#editing-non-topic-files)
+* [Common Script Idioms](ChatScript-Advanced-User-Manual.html#common-script-idioms)
+* [Esoterica and Fine Detail](ChatScript-Advanced-User-Manual.html#esoterica-and-fine-detail)
+* [Self-Reflection](ChatScript-Advanced-User-Manual.html#self-reflection)
+* [A Fresh build](ChatScript-Advanced-User-Manual.html#a-fresh-build)
+* [Updating CS versions Easily](ChatScript-Advanced-User-Manual.html#updating-cs-versions-easily)
+* [The Dictionary](ChatScript-Advanced-User-Manual.html#the-dictionary)
 
 
 # Review: Overview of how CS works
@@ -374,7 +374,7 @@ The flags and their meanings are:
 |`nosamples`   |   should not perform any sample tests on this topic in `:verify`
 |`nokeys`      |   should not perform any keyword tests on this topic in `:verify`
 |`more`        |   normally if you try to redeclare a concept, you get an error. `more` tells CS you intend to extend the concept and allows additional keywords.
-|`bot=name`    |   if this is given, only named bots are allowed to use this topic. See [ChatScript Multiple Bots](ChatScript-Multiple-Bots.md) manual.
+|`bot=name`    |   if this is given, only named bots are allowed to use this topic. See [ChatScript Multiple Bots](ChatScript-Multiple-Bots.html) manual.
 
 
 ## Rules that erase and repeat
@@ -1620,7 +1620,7 @@ early termination effects.
 # System Functions
 
 There are many system functions to perform specific tasks. These are enumerated in the
-[ChatScript System Functions Manual](ChatScript-System-Functions-Manual.md) and the [ChatScript Fact Manual](ChatScript-Fact-Manual.md).
+[ChatScript System Functions Manual](ChatScript-System-Functions-Manual.html) and the [ChatScript Fact Manual](ChatScript-Fact-Manual.html).
 
 
 ## Randomized Output Revisited `[ ]`
@@ -1753,7 +1753,7 @@ then you need to evaluate it another time.
 
 Equivalently `^gambit(^$$tmp1)` is legal.
 
-See also Indirect Pattern Elements in [ChatScript Pattern Redux](ChatScript-Pattern-Redux.md) manual.
+See also Indirect Pattern Elements in [ChatScript Pattern Redux](ChatScript-Pattern-Redux.html) manual.
 
 
 ## Bot variables
@@ -2094,7 +2094,7 @@ $tmp = ##first
 
 ## Defining private Queries 
 
-see [ChatScript Fact Manual](ChatScript-Fact-Manual.md).
+see [ChatScript Fact Manual](ChatScript-Fact-Manual.html).
 
 
 ## Documenting variables, functions, factsets, and match variables
@@ -2685,5 +2685,5 @@ them when you run CS.
 
 ---
 
-[[Wiki home](/WIKI/README.md)] - [[Basic User Manual](ChatScript-Basic-User-Manual.md)]
+[[Wiki home](/WIKI/README.html)] - [[Basic User Manual](ChatScript-Basic-User-Manual.html)]
 

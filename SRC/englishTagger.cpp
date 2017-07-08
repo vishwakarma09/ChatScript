@@ -836,7 +836,7 @@ void TagIt() // get the set of all possible tags. Parse if one can to reduce thi
 	if (*GetUserVariable((char*)"$cs_externaltag")) externalTagger = 1;
 	if (externalTagger == 1) OnceCode((char*)"$cs_externaltag");
 #ifdef TREETAGGER
-	else if (externalTagger == 2) TreeTagger();
+	else if (externalTagger == 2) (*externalPostagger)();
 #endif
 
 	// handle regular area
@@ -9560,15 +9560,14 @@ typedef struct {
 } TAGGER_STRUCT;
 typedef char*(*FindIt)(char* word);
 #ifdef WIN32
-void __declspec( dllimport )  init_treetagger(char *param_file_name,AllocatePtr allocator,FindIt getword);
+void __declspec( dllimport )  init_treetagger(char *param_file_name,AllocatePtr allocator,FindIt getwordfn);
 double __declspec( dllimport )  tag_sentence( TAGGER_STRUCT *ts );
 void __declspec(dllimport)  write_treetagger();
 #else
-void init_treetagger(char *param_file_name,AllocatePtr allocator,FindIt getword);
+void init_treetagger(char *param_file_name,AllocatePtr allocator,FindIt getwordfn);
 double  tag_sentence( TAGGER_STRUCT *ts );
 void   write_treetagger();
 #endif
-int Ignore_Prefix=0; /* should be 0 - used by library*/
 
 TAGGER_STRUCT ts;  /* tagger interface data structure */
 
@@ -9582,7 +9581,6 @@ static void TreeTagger()
 		ts.inputtag[i] = NULL;
 	}
     ts.number_of_words = wordCount;
-	TagInit(); // prepare recipient
 	tag_sentence(&ts);
     if (trace & TRACE_PREPARE) Log(STDTRACELOG,"External Tagging: ");
 
@@ -9594,20 +9592,18 @@ static void TreeTagger()
 		originalLower[i] = NULL;
 		canonicalLower[i] = NULL;
 		char* lemma = (char*) ts.lemma[i-1];
-		if (!lemma) lemma= "unknown-word";
+		if (!lemma || !strcmp(lemma, "<unknown>")) lemma= (char*)"unknown-word";
 		char* tag = (char*) ts.resulttag[i-1];
 		if (!tag) tag = (char*)"unknown-tag";
 		if (IsUpperCase(lemma[0]))
 		{
 			originalUpper[i] = FindWord(wordStarts[i]);
-			if (canonicalLower[i] && IsDigit(*canonicalLower[i]->word)) {;} // keep number value
-			else canonicalUpper[i] = StoreWord(lemma, 0);
+			canonicalUpper[i] = StoreWord(lemma, 0);
 		}
 		else
 		{
 			originalLower[i] = FindWord(wordStarts[i]);
-			if (canonicalLower[i] && IsDigit(*canonicalLower[i]->word)) { ; } // keep number value
-			else canonicalLower[i] = StoreWord(lemma,0);
+			canonicalLower[i] = StoreWord(lemma,0);
 		}
 		char newtag[MAX_WORD_SIZE];
 		*newtag = '~';	// concept from the tag
@@ -9640,6 +9636,7 @@ void InitTreeTagger(char* params) // tags=xxxx - just triggers this thing
 	sprintf(langfile, "treetagger/%s.par",language);
 	MakeLowerCase(langfile);
 	int heap = heapBase - heapFree;
+	// write_treetagger();
 	init_treetagger(langfile, NULL, NULL); //  AllocateHeap, GetWord);  /*  Initialization of the tagger with the language parameter file */
 	int heap1 = (heapBase - heapFree) - heap;
 	printf("External Tagging: %s Load took %d\r\n", language,heap1);

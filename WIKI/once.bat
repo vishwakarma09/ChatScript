@@ -1,3 +1,3 @@
 
-pandoc ChatScript-Multiple-Bots.md -s -o ../PDFDOCUMENTATION/ChatScript-Multiple-Bots.pdf
+pandoc ChatScript-Multiple-Bots.html -s -o ../PDFDOCUMENTATION/ChatScript-Multiple-Bots.pdf
 pause

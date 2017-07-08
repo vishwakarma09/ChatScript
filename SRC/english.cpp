@@ -280,24 +280,31 @@ EndingInfo adjective1[] =
 
 bool IsDate(char* original)
 {
-	char* slash = strchr(original, '/');
-	if (!slash) slash = strchr(original, '-');
-
-	// 1/1/1990 year
-	if (IsDigit(*original) && slash && IsDigit(slash[1])) // 1/1/1970 time word?
+	if (!IsDigit(original[0])) return false;
+	char separator = 0;
+	int digitcount = 1;
+	bool digit4 = false;
+	int separatorcount = 0;
+	while (*++original)
 	{
-		if (IsDigit(slash[1]) && slash[2] && slash[3] && slash[4] && !slash[5] && atoi(slash + 1) > 1100) // finding 4 digit year
+		if (IsDigit(*original)) ++digitcount;
+		else if (!separator) separator = *original;
+		else if (*original != separator) return false; // cannot be
+
+		if (*original == separator)
 		{
-			return true;
+			if (digitcount == 4)  // only 1 of these
+			{
+				if (digit4) return false; // only 1 of these
+				digit4 = true;
+				if (separatorcount != 0 && separatorcount != 2) return false;
+			}
+			else if (digitcount > 2) return false; // not legal count, must be 1,2 or 4 digits
+			digitcount = 0;
+			if (++separatorcount > 2) return false;
 		}
 	}
-
-	// 1990/1/1 
-	if (IsDigit(*original) && (slash - original) == 4 && IsDigit(slash[1])) // 1970/1/1 time word?
-	{
-		if (IsDigit(slash[1]) && atoi(original) > 1100) return true;// finding 4 digit year
-	}
-	return false;
+	return (separator == '/' || separator == '-' || separator == '.');
 }
 
 static int64 ProcessNumber(int at, char* original, WORDP& revise, WORDP &entry, WORDP &canonical, uint64& sysflags, uint64 &cansysflags, bool firstTry, bool nogenerate, int start, int kind) // case sensitive, may add word to dictionary, will not augment flags of existing words
@@ -309,7 +316,7 @@ static int64 ProcessNumber(int at, char* original, WORDP& revise, WORDP &entry, 
 
 	if (IsDate(original))
 	{
-		uint64 properties = NOUN | NOUN_NUMBER | ADJECTIVE | ADJECTIVE_NUMBER;
+		uint64 properties = NOUN | NOUN_SINGULAR;
 		canonical = entry = StoreWord(original, properties, TIMEWORD);
 		cansysflags = sysflags = entry->systemFlags | TIMEWORD;
 		return properties;
@@ -610,6 +617,27 @@ static int64 ProcessNumber(int at, char* original, WORDP& revise, WORDP &entry, 
 		return properties;
 }
 
+bool KnownUsefulWord(WORDP entry)
+{
+	bool known = (entry) ? ((entry->properties & PART_OF_SPEECH) != 0) : false;
+	if (!known && entry && entry->systemFlags & PATTERN_WORD) known = true; // script knows it to match
+	if (!known && entry) // do we know it as concept or topic keyword?
+	{
+		FACT* F = GetSubjectNondeadHead(entry);
+		while (F)
+		{
+			if (F->verb == Mmember)
+			{
+				known = true;
+				break;
+			}
+			F = GetSubjectNondeadNext(F);
+		}
+	}
+	return known;
+}
+
+
 uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &canonical,uint64& sysflags,uint64 &cansysflags,bool firstTry,bool nogenerate, int start) // case sensitive, may add word to dictionary, will not augment flags of existing words
 { // this is not allowed to write properties/systemflags/internalbits if the word is preexisting
 	uint64 properties = 0;
@@ -686,7 +714,7 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 		char* script = entry->w.conditionalIdiom;
 		if (script[1] != '=') return entry->properties; // has conditions, is not absolute and may be overruled
 	}
-	if (entry && entry->properties == 0) entry = 0; // not a word we actually know (might be phrase starter like Wait)
+	if (entry && !KnownUsefulWord(entry)) entry = 0; // not a word we actually know (might be phrase starter like Wait)
 
 	///////////// PUNCTUATION
 
@@ -841,7 +869,7 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 		// possessive pronoun-determiner like my is always a determiner, not a pronoun. 
 		if (entry->properties & (COMMA | PUNCTUATION | PAREN | QUOTE | POSSESSIVE | PUNCTUATION)) return properties;
 	}
-	bool known = (entry) ? ((entry->properties & PART_OF_SPEECH)  != 0) : false;
+	bool known = KnownUsefulWord(entry);
 	bool preknown = known;
 
 	/////// WHETHER OR NOT WE KNOW THE WORD, IT MIGHT BE ALSO SOME OTHER WORD IN ALTERED FORM (like plural noun or comparative adjective)
@@ -1241,7 +1269,7 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 		else properties |= NOUN_SINGULAR;
 	}
 	if (canonical && entry) entry->systemFlags |= canonical->systemFlags & AGE_LEARNED; // copy age data across
-	else if (IS_NEW_WORD(entry) && !canonical) canonical = DunknownWord;
+	else if (entry && IS_NEW_WORD(entry) && !canonical) canonical = DunknownWord;
 
 	if (properties){;}
 	else if (tokenControl & ONLY_LOWERCASE) {;}
@@ -2734,7 +2762,7 @@ uint64 ProbableAdverb(char* original, unsigned int len,uint64& expectedBase) // 
 	//est
 	if (len > 4 && !strcmp(word+len-3,(char*)"est")) 
 	{
-		WORDP X = FindWord(word,len-2);
+		WORDP X = FindWord(word,len-3);
 		if (X && X->properties & ADVERB) expectedBase = ADVERB;
 		return ADVERB;
 	}
@@ -2811,6 +2839,16 @@ char* GetAdverbBase(char* word, bool nonew)
 			return D->word;
 		}
     }
+	if (len >= 5 && priorc == 'e' && lastc == 'r')
+	{
+		D = FindWord(word, len - 1, controls);
+		if (D && D->properties & ADVERB)
+		{
+			adverbFormat = MORE_FORM;
+			return D->word;
+		}
+	}
+
 	if (len > 5 && prior2c == 'e' && priorc == 's' && lastc == 't')
     {
         D = FindWord(word,len-3,controls);
@@ -2820,6 +2858,16 @@ char* GetAdverbBase(char* word, bool nonew)
 			return D->word;
 		}
     }
+	if (len > 5 && prior2c == 'e' && priorc == 's' && lastc == 't')
+	{
+		D = FindWord(word, len - 2, controls);
+		if (D && D->properties & ADVERB)
+		{
+			adverbFormat = MOST_FORM;
+			return D->word;
+		}
+	}
+
 	if ( nonew || xbuildDictionary) return NULL;
 	
 	return InferAdverb(word,len);
@@ -3006,20 +3054,34 @@ uint64 ProbableAdjective(char* original, unsigned int len,uint64 &expectedBase) 
 		}
 	}
 
-	// est -  comparative
+	// est -  comparative -- hard est
 	if (len >= 4 &&  !strcmp(word+len-3,(char*)"est")  ) 
 	{
-		WORDP X = FindWord(word,len-1);
+		WORDP X = FindWord(word,len-3);
 		if (X && X->properties & ADJECTIVE_NORMAL) expectedBase = PROBABLE_ADJECTIVE;
 		return ADJECTIVE|ADJECTIVE_NORMAL|MOST_FORM;
 	}
+	// est -  comparative -- strange st
+	if (len >= 4 && !strcmp(word + len - 3, (char*)"est"))
+	{
+		WORDP X = FindWord(word, len - 2); // starnge
+		if (X && X->properties & ADJECTIVE_NORMAL) expectedBase = PROBABLE_ADJECTIVE;
+		return ADJECTIVE | ADJECTIVE_NORMAL | MOST_FORM;
+	}
 
-	// er -  comparative
+	// er -  comparative -- harder
 	if (len >= 4 &&  !strcmp(word+len-2,(char*)"er")  ) 
 	{
-		WORDP X = FindWord(word,len-1);
+		WORDP X = FindWord(word,len-2);
 		if (X && X->properties & ADJECTIVE_NORMAL) expectedBase = ADJECTIVE;
 		return ADJECTIVE|ADJECTIVE_NORMAL|MORE_FORM;
+	}
+	// er -  comparative -- stranger
+	if (len >= 4 && !strcmp(word + len - 2, (char*)"er"))
+	{
+		WORDP X = FindWord(word, len - 1);
+		if (X && X->properties & ADJECTIVE_NORMAL) expectedBase = ADJECTIVE;
+		return ADJECTIVE | ADJECTIVE_NORMAL | MORE_FORM;
 	}
 
 	return 0;

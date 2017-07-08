@@ -421,7 +421,7 @@ char* WriteUserVariables(char* ptr,bool sharefile, bool compiled,char* saveJSON)
 		varthread = cell[0];
 		if (shared && !sharefile && !strnicmp(D->word,(char*)"$share_",7)) continue;
   		else if (shared && sharefile && strnicmp(D->word,(char*)"$share_",7)) continue;
-		else if ( D->word[1] !=  TRANSIENTVAR_PREFIX && (D->w.userValue || (D->internalBits & MACRO_TRACE))) // transients not dumped, nor are NULL values
+		else if ( D->word[1] !=  TRANSIENTVAR_PREFIX && D->word[1] != LOCALVAR_PREFIX && (D->w.userValue || (D->internalBits & MACRO_TRACE))) // transients not dumped, nor are NULL values
 		{
 			char* val = D->w.userValue;
 			// track json structures referred to

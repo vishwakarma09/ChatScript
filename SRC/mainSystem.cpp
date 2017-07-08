@@ -1,6 +1,6 @@
 #include "common.h" 
 #include "evserver.h"
-char* version = "7.51";
+char* version = "7.52";
 char sourceInput[200];
 FILE* userInitFile;
 int externalTagger = 0;
@@ -903,10 +903,7 @@ void PartiallyCloseSystem() // server data (queues etc) remain available
 	PostgresShutDown();
 #endif
 #ifndef DISCARDMONGO
-	MongoSystemRestart();
-#endif
-#ifdef PRIVATE_CODE
-	PrivateRestart(); // must come AFTER any mongo/postgress init (to allow encrypt/decrypt override)
+	MongoSystemRestart(); // actually just closes files
 #endif
 }
 
@@ -1763,6 +1760,10 @@ void Restart()
 	PartiallyCloseSystem();
 	CreateSystem();
 	InitStandalone();
+#ifdef PRIVATE_CODE
+	PrivateRestart(); // must come AFTER any mongo/postgress init (to allow encrypt/decrypt override)
+#endif
+
 	ProcessArguments(argc,argv);
 	strcpy(us,loginID);
 

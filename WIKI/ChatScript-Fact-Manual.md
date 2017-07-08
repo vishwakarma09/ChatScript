@@ -2,9 +2,9 @@
 © Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com
 <br>Revision 12/7/2016 cs6.91
 
-* [Simple Facts](ChatScript-Fact-Manual.md#simple-facts)
-* [Advanced Facts](ChatScript-Fact-Manual.md#advanced-facts)
-* [Esoteric Facts](ChatScript-Fact-Manual.md#esoteric-facts)
+* [Simple Facts](ChatScript-Fact-Manual.html#simple-facts)
+* [Advanced Facts](ChatScript-Fact-Manual.html#advanced-facts)
+* [Esoteric Facts](ChatScript-Fact-Manual.html#esoteric-facts)
 
 
 # SIMPLE FACTS
@@ -762,7 +762,7 @@ Facts created by JSON code have user markings also, renamed as
 ## JSON
 
 Json is a great representation for creating and accessing complex fact structures. 
-See the [ChatScript JSON manual](ChatScript-Json.md) for more details.
+See the [ChatScript JSON manual](ChatScript-Json.html) for more details.
 
 
 # ESOTERIC FACTS
