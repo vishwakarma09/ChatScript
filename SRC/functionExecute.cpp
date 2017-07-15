@@ -2796,6 +2796,15 @@ static FunctionResult KeepHistoryCode(char* buffer)
 	return NOPROBLEM_BIT;
 }
 
+static FunctionResult GetTagCode(char* buffer)
+{
+	char* arg1 = ARGUMENT(1);
+	int n = atoi(arg1);
+	if (n < 1 || n > wordCount) return FAILRULE_BIT;
+	strcpy(buffer, wordTag[n]->word);
+	return NOPROBLEM_BIT;
+}
+
 static FunctionResult SetTagCode(char* buffer)
 {
 	char* arg1 = ARGUMENT(1);
@@ -2803,7 +2812,22 @@ static FunctionResult SetTagCode(char* buffer)
 	if (n < 1 || n > wordCount) return FAILRULE_BIT;
 	char* arg2 = ARGUMENT(2);
 	if (*arg2 != '~') return FAILRULE_BIT;
+#ifdef TREETAGGER
+	if (wordTag[n])
+	{
+		char oldtag[MAX_WORD_SIZE];
+		strcpy(oldtag, wordTag[n]->word);
+		*oldtag = '_';
+		WORDP Y = FindWord(oldtag);
+		if (Y) posValues[n] ^= Y->properties;  // remove old pos tag values
+	}
+#endif	
 	wordTag[n] = StoreWord(arg2);
+#ifdef TREETAGGER
+	*arg2 = '_';
+	WORDP X = FindWord(arg2);
+	if (X) posValues[n] |= X->properties; // new english pos tag references
+#endif
 	return NOPROBLEM_BIT;
 }
 
@@ -2837,8 +2861,15 @@ static FunctionResult SetCanonCode(char* buffer)
 	WORDP D = StoreWord(arg2);
 	wordCanonical[n] = D->word;
 	if (!IsUpperCase(*wordCanonical[n]))
+	{
 		canonicalLower[n] = D;
-    else canonicalUpper[n] = D; 
+		canonicalUpper[n] = NULL;
+	}
+	else
+	{
+		canonicalLower[n] = NULL;
+		canonicalUpper[n] = D;
+	}
 		
 	return NOPROBLEM_BIT;
 }
@@ -8477,6 +8508,7 @@ SystemFunctionInfo systemFunctionSet[] =
 	{ (char*)"^querytopics",QueryTopicsCode,1,0,(char*)"get topics of which 1st arg is a keyword?"}, 
 
 	{ (char*)"\r\n---- Marking & Parser Info",0,0,0,(char*)""},
+	{ (char*)"^gettag",GetTagCode,1,SAMELINE,(char*)"for word n, return its postag concept" },
 	{ (char*)"^mark",MarkCode,STREAM_ARG,SAMELINE,(char*)"mark word/concept in sentence"},
 	{ (char*)"^marked",MarkedCode,1,SAMELINE,(char*)"BOOLEAN - is word/concept marked in sentence"}, 
 	{ (char*)"^position",PositionCode,STREAM_ARG,SAMELINE,(char*)"get FIRST or LAST position of an _ var"}, 

@@ -466,6 +466,25 @@ MEANING FindChild(MEANING who,int n)
     return 0;
 } 
 
+void ReadForeignTagConcepts()
+{
+	char name[MAX_WORD_SIZE];
+	char lang[MAX_WORD_SIZE];
+	MakeLowerCopy(lang, language);
+	sprintf(name, "DICT/%s_tags.txt", lang);
+	FILE* in = FopenReadOnly(name);
+	if (!in) return;
+
+	char concept[MAX_WORD_SIZE];
+	*concept = '~';
+	while (ReadALine(readBuffer, in) >= 0)  // foreign name followed by bits of english pos
+	{
+		char* ptr = ReadCompiledWord(readBuffer, concept + 1);
+		if (concept[1]) BUILDCONCEPT(concept);
+	}
+	fclose(in);
+}
+
 bool ReadForeignPosTags(char* fname)
 {
 	FILE* in = FopenReadOnly(fname);

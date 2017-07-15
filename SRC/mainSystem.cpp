@@ -1,6 +1,6 @@
 #include "common.h" 
 #include "evserver.h"
-char* version = "7.52";
+char* version = "7.51";
 char sourceInput[200];
 FILE* userInitFile;
 int externalTagger = 0;
@@ -335,6 +335,14 @@ void CreateSystem()
 	if (!assignedLogin) loginName[0] = loginID[0] = 0;
 	*botPrefix = *userPrefix = 0;
 
+#ifdef TREETAGGER
+	// We will be reserving some working space for treetagger on the heap
+	// so make sure it is tucked away on layer 1 where it cannot be touched
+	UnlockLayer(LAYER_1);
+	InitTreeTagger(treetaggerParams);
+	LockLayer(LAYER_1);
+#endif
+
 	char word[MAX_WORD_SIZE];
     char buffer[MAX_WORD_SIZE];
     FILE* in = FopenReadOnly(configFile);
@@ -450,10 +458,14 @@ void CreateSystem()
 	}
 #endif
 #ifdef DISCARDJSONOPEN
-	printf((char*)"%s",(char*)"    JSONOpen access disabled.\r\n");
+	sprintf(route, (char*)"%s", (char*)"    JSONOpen access disabled.\r\n");
+	if (server) Log(SERVERLOG, route);
+	else printf(route);
 #endif
 #ifdef TREETAGGER
-	printf((char*)"    TreeTagger access enabled: %s\r\n",language);
+	sprintf(route, (char*)"    TreeTagger access enabled: %s\r\n",language);
+	if (server) Log(SERVERLOG, route);
+	else printf(route);
 #endif
 #ifndef DISCARDMONGO
 	if (*mongodbparams) sprintf(route,"    Mongo enabled. FileSystem routed to %s\r\n",mongodbparams);
@@ -500,6 +512,9 @@ void ReloadSystem()
 	sprintf(name,(char*)"%s/%s/systemfacts.txt",livedata,language);
 	ReadFacts(name,NULL,0); // part of wordnet, not level 0 build 
 	ReadLiveData();  // considered part of basic system before a build
+#ifdef TREETAGGER
+	ReadForeignTagConcepts(); // language is set, so include Treetagger tags as base concepts
+#endif
 	InitTextUtilities1(); // also part of basic system before a build
 	WordnetLockDictionary();
 }
@@ -679,7 +694,7 @@ static void ReadConfig()
 	char buffer[MAX_WORD_SIZE];
 	FILE* in = FopenReadOnly(configFile);
 	if (!in) return;
-	while (ReadALine(buffer,in,MAX_WORD_SIZE) >= 0) ProcessArgument(SkipWhitespace(buffer));
+	while (ReadALine(buffer,in,MAX_WORD_SIZE) >= 0) ProcessArgument(TrimSpaces(buffer,true));
 	fclose(in);
 }
 
@@ -872,10 +887,6 @@ unsigned int InitSystem(int argcx, char * argvx[],char* unchangedPath, char* rea
 #endif
 #ifndef DISCARDMONGO
 	if (*mongodbparams)  MongoSystemInit(mongodbparams);
-#endif
-	
-#ifdef TREETAGGER
-	InitTreeTagger(treetaggerParams);
 #endif
 
 #ifdef PRIVATE_CODE
@@ -2484,7 +2495,7 @@ void PrepareSentence(char* input,bool mark,bool user, bool analyze,bool oobstart
 	char* ptr = input;
 	tokenFlags |= (user) ? USERINPUT : 0; // remove any question mark
     ptr = Tokenize(ptr,wordCount,wordStarts,false,false,oobstart); 
- 	upperCount = 0;
+	upperCount = 0;
 	lowerCount = 0;
 	for (int i = 1; i <= wordCount; ++i)   // see about SHOUTing
 	{
