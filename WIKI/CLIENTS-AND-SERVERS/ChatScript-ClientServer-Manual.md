@@ -5,22 +5,22 @@
 
 > Revision 1/07/2016 cs7.1
 
-* [Running the server](ChatScript-ClientServer-Manual.html#running-the-server)
-* [Unique User Names](ChatScript-ClientServer-Manual.html#unique-user-names)
-* [ChatScript protocol](ChatScript-ClientServer-Manual.html#chatscript-protocol)
-* [Communicating with the Server](ChatScript-ClientServer-Manual.html#communicating-with-the-server)
-* [Testing the server](ChatScript-ClientServer-Manual.html#testing-the-server)
-* [Revising a live server](ChatScript-ClientServer-Manual.html#revising-a-live-server)
-* [Revising a topic](ChatScript-ClientServer-Manual.html#revising-a-topic)
-* [Preparing for compiling on a server](ChatScript-ClientServer-Manual.html#preparing-for-compiling-on-a-server)
-* [Testing for server presence](ChatScript-ClientServer-Manual.html#testing-for-server-presence)
-* [Server crashes and cron](ChatScript-ClientServer-Manual.html#server-crashes--cron)
-* [CPU vs IO bound](ChatScript-ClientServer-Manual.html#cpu-vs-io-bound)
-* [Memory issues with multiple servers on a machine](ChatScript-ClientServer-Manual.html#memory-issues-with-multiple-servers-on-a-machine)
-* [Commands affecting the server](ChatScript-ClientServer-Manual.html#commands-affecting-the-server)
-* [Command Authorization](ChatScript-ClientServer-Manual.html#command-authorization)
-* [RESTful server](ChatScript-ClientServer-Manual.html#restful-server)
-* [Encryption](ChatScript-ClientServer-Manual.html#encrption)
+* [Running the server](ChatScript-ClientServer-Manual.md#running-the-server)
+* [Unique User Names](ChatScript-ClientServer-Manual.md#unique-user-names)
+* [ChatScript protocol](ChatScript-ClientServer-Manual.md#chatscript-protocol)
+* [Communicating with the Server](ChatScript-ClientServer-Manual.md#communicating-with-the-server)
+* [Testing the server](ChatScript-ClientServer-Manual.md#testing-the-server)
+* [Revising a live server](ChatScript-ClientServer-Manual.md#revising-a-live-server)
+* [Revising a topic](ChatScript-ClientServer-Manual.md#revising-a-topic)
+* [Preparing for compiling on a server](ChatScript-ClientServer-Manual.md#preparing-for-compiling-on-a-server)
+* [Testing for server presence](ChatScript-ClientServer-Manual.md#testing-for-server-presence)
+* [Server crashes and cron](ChatScript-ClientServer-Manual.md#server-crashes--cron)
+* [CPU vs IO bound](ChatScript-ClientServer-Manual.md#cpu-vs-io-bound)
+* [Memory issues with multiple servers on a machine](ChatScript-ClientServer-Manual.md#memory-issues-with-multiple-servers-on-a-machine)
+* [Commands affecting the server](ChatScript-ClientServer-Manual.md#commands-affecting-the-server)
+* [Command Authorization](ChatScript-ClientServer-Manual.md#command-authorization)
+* [RESTful server](ChatScript-ClientServer-Manual.md#restful-server)
+* [Encryption](ChatScript-ClientServer-Manual.md#encrption)
 
 While the system defaults to running as a stand-alone chatbot under Windows, when run
 under LINUX it defaults to being a server.
