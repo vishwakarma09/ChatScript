@@ -2,17 +2,17 @@
 © Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com
 <br>Revision 7/8/2017 cs7.52
 
-* [Topic Functions](ChatScript-System-Functions-Manual.html#topic-functions)
-* [Marking Functions](ChatScript-System-Functions-Manual.html#marking-functions)
-* [Input Functions](ChatScript-System-Functions-Manual.html#input-functions)
-* [Number Functions](ChatScript-System-Functions-Manual.html#number-functions)
-* [Output Functions](ChatScript-System-Functions-Manual.html#output-functions)
-* [Control Flow Functions](ChatScript-System-Functions-Manual.html#control-flow-functions)
-* [External Access Functions](ChatScript-System-Functions-Manual.html#external-access-functions)
-* [JSON Functions](ChatScript-System-Functions-Manual.html#json-functions)
-* [Word Manipulation Functions](ChatScript-System-Functions-Manual.html#word-manipulation-functions)
-* [Multipurpose Functions](ChatScript-System-Functions-Manual.html#multipurpose-functions)
-* [Facts Functions](ChatScript-System-Functions-Manual.html#fact-functions)
+* [Topic Functions](ChatScript-System-Functions-Manual.md#topic-functions)
+* [Marking Functions](ChatScript-System-Functions-Manual.md#marking-functions)
+* [Input Functions](ChatScript-System-Functions-Manual.md#input-functions)
+* [Number Functions](ChatScript-System-Functions-Manual.md#number-functions)
+* [Output Functions](ChatScript-System-Functions-Manual.md#output-functions)
+* [Control Flow Functions](ChatScript-System-Functions-Manual.md#control-flow-functions)
+* [External Access Functions](ChatScript-System-Functions-Manual.md#external-access-functions)
+* [JSON Functions](ChatScript-System-Functions-Manual.md#json-functions)
+* [Word Manipulation Functions](ChatScript-System-Functions-Manual.md#word-manipulation-functions)
+* [Multipurpose Functions](ChatScript-System-Functions-Manual.md#multipurpose-functions)
+* [Facts Functions](ChatScript-System-Functions-Manual.md#fact-functions)
 
 System functions are predefined and can be intermixed with direct output. Generally
 they are used from the output side of a rule, but in many cases nothing prevents you from
