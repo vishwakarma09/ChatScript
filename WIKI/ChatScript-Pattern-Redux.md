@@ -3,7 +3,7 @@
 <br>Revision 5/7/2017 cs7.42
 
 Pattern matching information was introduced in the Beginner manual and expanded in the 
-[Advanced User Manual](ChatScript-Advanced-User-Manual.html).
+[Advanced User Manual](ChatScript-Advanced-User-Manual.md).
 Since pattern matching is of such importance, 
 this concise manual lists everything about patterns in one place.
 
