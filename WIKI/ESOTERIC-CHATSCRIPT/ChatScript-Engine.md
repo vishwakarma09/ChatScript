@@ -2,15 +2,15 @@
 © Bruce Wilcox, gowilcox@gmail.com brilligunderstanding.com<br>
 Revision 1/28/2017 cs7.12
 
-* [Data](ChatScript-Engine.html#data)
-* [Memory Management](ChatScript-Engine.html#memory-management)
-* [Function Run-time Model](ChatScript-Engine.html#function-run-time-model)
-* [Script Execution](ChatScript-Engine.html#script-execution)
-* [Evaluation Contexts](ChatScript-Engine.html#evaluation-contexts)
-* [Natural Language Pipeline](ChatScript-Engine.html#natural-language-pipeline)
-* [Private Code](ChatScript-Engine.html#private-code)
-* [Code Zones](ChatScript-Engine.html#code-zones)
-* [Documentation](ChatScript-Engine.html#documentation)
+* [Data](ChatScript-Engine-md#data)
+* [Memory Management](ChatScript-Engine-md#memory-management)
+* [Function Run-time Model](ChatScript-Engine-md#function-run-time-model)
+* [Script Execution](ChatScript-Engine-md#script-execution)
+* [Evaluation Contexts](ChatScript-Engine-md#evaluation-contexts)
+* [Natural Language Pipeline](ChatScript-Engine-md#natural-language-pipeline)
+* [Private Code](ChatScript-Engine-md#private-code)
+* [Code Zones](ChatScript-Engine-md#code-zones)
+* [Documentation](ChatScript-Engine-md#documentation)
 
 
 This does not cover ChatScript the scripting language. 
