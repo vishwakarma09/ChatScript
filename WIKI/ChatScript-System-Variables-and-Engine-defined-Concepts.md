@@ -3,10 +3,10 @@
 <br>Revision 6/25/2017 cs7.51
 
 
-* [Engine-defined Concepts](ChatScript-System-Variables-and-Engine-defined-Concepts.html#engine-defined-concepts)
-* [System Variables](ChatScript-System-Variables-and-Engine-defined-Concepts.html#system-variables)
-* [Control over Input](ChatScript-System-Variables-and-Engine-defined-Concepts.html#control-over-input)
-* [Interchange Variables](ChatScript-System-Variables-and-Engine-defined-Concepts.html#interchange-variables)
+* [Engine-defined Concepts](ChatScript-System-Variables-and-Engine-defined-Concepts.md#engine-defined-concepts)
+* [System Variables](ChatScript-System-Variables-and-Engine-defined-Concepts.md#system-variables)
+* [Control over Input](ChatScript-System-Variables-and-Engine-defined-Concepts.md#control-over-input)
+* [Interchange Variables](ChatScript-System-Variables-and-Engine-defined-Concepts.md#interchange-variables)
 
 
 # Engine-defined concepts

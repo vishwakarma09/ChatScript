@@ -2,12 +2,12 @@
 © Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com
 <br>Revision 8/12/2017 cs7.53
 
-* [Overview](ChatScript-Basic-User-Manual.html#overview)
-* [Simple Topics](ChatScript-Basic-User-Manual.html#simple-topics)
-* [Simple Patterns](ChatScript-Basic-User-Manual.html#simple-patterns)
-* [Simple Output](ChatScript-Basic-User-Manual.html#simple-output)
-* [Variables](ChatScript-Basic-User-Manual.html#variables)
-* [Summary](ChatScript-Basic-User-Manual.html#summary)
+* [Overview](ChatScript-Basic-User-Manual.md#overview)
+* [Simple Topics](ChatScript-Basic-User-Manual.md#simple-topics)
+* [Simple Patterns](ChatScript-Basic-User-Manual.md#simple-patterns)
+* [Simple Output](ChatScript-Basic-User-Manual.md#simple-output)
+* [Variables](ChatScript-Basic-User-Manual.md#variables)
+* [Summary](ChatScript-Basic-User-Manual.md#summary)
 
 
 # OVERVIEW
@@ -32,7 +32,7 @@ So, more broadly,
 **ChatScript is a system for manipulating natural language, not just for building a chatbot**.
 
 This document is about how to write script. There is a more general discussion about how
-to think about authoring a bot in the paper [Writing a Chatbot](PAPERS/Writing-a-Chatbot.html) 
+to think about authoring a bot in the paper [Writing a Chatbot](PAPERS/Writing-a-Chatbot.md) 
 in the documentation. 
 
 

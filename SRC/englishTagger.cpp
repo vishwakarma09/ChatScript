@@ -9601,7 +9601,7 @@ static void TreeTagger()
 		if (!lemma || !strcmp(lemma, "<unknown>")) lemma= (char*)"unknown-word";
 		WORDP canonical0 = StoreWord(lemma, 0);
 
-		char* tag = (char*)ts.resulttag[i - 1];
+		char* tag = (char*) ts.resulttag[i-1];
 		if (!tag) tag = (char*)"unknown-tag";
 		char newtag[MAX_WORD_SIZE];
 		*newtag = '~';	// concept from the tag
