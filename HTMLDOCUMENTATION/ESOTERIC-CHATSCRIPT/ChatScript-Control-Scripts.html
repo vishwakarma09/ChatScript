@@ -100,7 +100,7 @@ u: () # whatever normal processing you do for user sentences</code></pre>
 
 But that gets messy and if you output multiple messages, you cannot easily combine distinct OOB messages into a single composite OOB. Therefore the usual technique is to
 define a macro that holds OOB data and use a postprocessing topic to output it at the end.</code></pre>
-<p>outputmacro: <sup>OOB(</sup>value) <span class="math inline">$$oob = ^join($</span>oob &quot; &quot; ^value)</p>
+<p>outputmacro: <sup>OOB(</sup>value) <br /><span class="math display"><em>o</em><em>o</em><em>b</em>=<sup><em>j</em></sup><em>o</em><em>i</em><em>n</em>(</span><br />oob &quot; &quot; ^value)</p>
 <p>topic: ~introductions keep repeat () # normal tppic u: () ^OOB(action=wave ) How are you? # request oob</p>
 <p>topic: ~postprocess system repeat() t: (<br /><span class="math display">$$oob) ^postprintbefore( \[ $$</span><br />oob ] ) # put all oob in front</p>
 <pre><code>
