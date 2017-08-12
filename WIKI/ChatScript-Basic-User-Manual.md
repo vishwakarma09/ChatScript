@@ -1,6 +1,6 @@
 # ChatScript Basic User Manual
 © Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 4/30/2017 cs7.41
+<br>Revision 8/12/2017 cs7.53
 
 * [Overview](ChatScript-Basic-User-Manual.html#overview)
 * [Simple Topics](ChatScript-Basic-User-Manual.html#simple-topics)
@@ -175,9 +175,13 @@ Download and extract on a windows system into a directory (mine is called ChatSc
 
 **Linux** 
 <br>
-To run on a Linux system is not really much different. Download and extract into a directory in Linux, keeping the files in their folders. The executable that ships with the product is `LinuxChatScript64` (64-bit version) in BINARIES folder. You need to alter permissions to make it executable. Also, the Linux version defaults to server mode, so you should run it as:
+To run on a Linux system is not really much different. Download and extract into a directory in Linux, keeping the files in their folders. 
+The executable that ships with the product is `LinuxChatScript64` (64-bit version) in BINARIES folder. 
+You need to alter permissions to make it executable. Also, the Linux version defaults to server mode, so you should run it as:
 
     BINARIES/LinuxChatScript64 local 
+
+This will NOT work if you have a 32-bit Linux and you will need to recompile on your machine. See `Installing and updating ChatScript` manual.
 
 **MacOs**
 <br>
@@ -517,6 +521,10 @@ u: GLASSES ([glasses contacts]) I don't wear glasses, but I do have contacts.
 ?: BLIND (you * blind) I am not blind.
 ?: COLORBLIND (you * [color-blind "color blind"]) I am not color blind. 
 ```
+
+Note, ChatScript is a token-oriented language (tokens generally being a collection of characters without spaces).
+You need to put one or more spaces after the `:` and before the label.  OTHERWISE `?:EYECOLOR` is a single token and
+not a declaration of a rule and a label. 
 
 The `simpletopic.top` file has an example topic called `~Childhood` of normal complexity
 (which can be understood after reading through advanced output).

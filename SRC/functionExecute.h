@@ -89,7 +89,6 @@ extern int globalDepth;
 FunctionResult InitWinsock();
 #endif
 
-
 FunctionResult RunJavaScript(char* definition, char* buffer,unsigned int args);
 void DeletePermanentJavaScript();
 void DeleteTransientJavaScript();

@@ -1781,13 +1781,13 @@ file: C:/ChatScript/RAWDATA/WORLDDATA/movies_tv.tbl 0
           line: 12 125
           line: 14 158
           line: 25118 0
-          line: 25141 0
-          line: 25143 48
-          line: 25144 83
-          line: 36127 0
-          line: 36128 35
-          line: 36739 0
-          line: 36740 33
+          line: 25144 0
+          line: 25146 48
+          line: 25147 83
+          line: 36130 0
+          line: 36131 35
+          line: 36742 0
+          line: 36743 33
 file: C:/ChatScript/RAWDATA/WORLDDATA/music.tbl 0
     concept: ~song 1
     concept: ~celebrity 3

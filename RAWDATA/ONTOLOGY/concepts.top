@@ -109,7 +109,7 @@
           violence violent wasteful ) ##>>
 ##<<ENGLISH concept: ~animal_kingdoms   ANIMATE_BEING (~animals ~microlife ~plants ) ##>>
 ##<<ENGLISH concept: ~animal_product (animal_product~1 cowhide rawhide ) ##>>
-##<<ENGLISH concept: ~animals   PROBABLE_NOUN ANIMATE_BEING (~bird ~fishes ~insects ~mammals ~pet_animals ~reptiles bitch boy girl hack human man woman ) ##>>
+##<<ENGLISH concept: ~animals   PROBABLE_NOUN ANIMATE_BEING (~bird ~fishes ~insects ~mammals ~pet_animals ~reptiles   ) ##>>
 ##<<ENGLISH concept: ~animals_generic (~animals beast bird creature fish mammal reptile ) ##>>
 ##<<ENGLISH concept: ~animate_thing (~beings ~bodyparts ~microlife ~plants ) ##>>
 ##<<ENGLISH concept: ~appliance_store (appliance dryer freezer refrigerator TV washer ) ##>>
@@ -1224,7 +1224,7 @@
           white-tailed_jackrabbit white_elephant white_fox white_rhinoceros white_sheep white_tail white_whale white_wolf whiteface whitetail whitetail_antelope_squirrel whitetail_deer 
           whitetail_jackrabbit whitetail_prairie_dog wild_ass wild_boar wild_cavy wild_dog wild_goat wild_horse wild_ox wild_sheep wildcat wildebeest wire-haired_fox_terrier wire-haired_pointing_griffon 
           wire-haired_terrier wirehair wirehaired_terrier wisent wolf wolf_cub wolf_pup wolfhound wolverine wombat wood-rat wood_mouse wood_pussy wood_rabbit wood_rat woodchuck woodland_caribou 
-          woolly_indris woolly_mammoth woolly_monkey woolly_rhinoceros workhorse working_dog world yak yearling yellow-throated_marten yellowbelly_marmot Yorkshire_Terrier young_carnivore 
+          woolly_indris woolly_mammoth woolly_monkey woolly_rhinoceros workhorse working_dog  yak yearling yellow-throated_marten yellowbelly_marmot Yorkshire_Terrier young_carnivore 
           young_mammal young_mammal~1 Zalophus_californianus Zalophus_californicus Zalophus_lobatus Zapodidae Zapus_hudsonius zebra zebu Zinjanthropus Ziphiidae zoril ) ##>>
 ##<<ENGLISH concept: ~marital_state (available divorced marital_state marital_status~1 married separated single spinster unattached unmarried ) ##>>
 ##<<ENGLISH concept: ~markers (~region beacon buoy chalk_line landmark lighthouse marker memorial monument tombstone ) ##>>
@@ -1780,7 +1780,7 @@
 ##<<ENGLISH concept: ~shootable (~projectile_weapon ) ##>>
 ##<<ENGLISH concept: ~shopping_stores (Bloomingdales Costco eBay Harrods IKEA JC_Penny Kmart Kohl Macy Marks_and_Spencer Marshalls Neiman_Marcus Nordstrom Nordstrom_Rack Ross Saks Saks_5th_Avenue 
           Sears Target Walmart Zappos Zara ) ##>>
-##<<ENGLISH concept: ~sicknesses (~birth_defect ~diseaselist ~mental_illnesses ~symptom ailment allergy amnesia blind deaf deafness death disease epidemic Fibromyalgia ill illness infection malfunction 
+##<<ENGLISH concept: ~sicknesses (~birth_defect ~diseaselist ~mental_illnesses ~symptom ailment allergy amnesia blind deaf ulcer deafness death disease epidemic Fibromyalgia ill illness infection malfunction 
           mute parasite plague sick symptom toothache ) ##>>
 ##<<ENGLISH concept: ~similar (akin alike analogous comparable compare congruent congruous identical in_common like much_the_same relate resemble same similar similarity the_same ) ##>>
 ##<<ENGLISH concept: ~singinglist (choral_group kibuki musical musical_theater~1 opera ) ##>>

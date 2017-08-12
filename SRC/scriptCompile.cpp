@@ -2631,7 +2631,7 @@ static char* ReadChoice(char* word, char* ptr, FILE* in, char* &data,char* rejoi
 		*data++ = ' ';
 		ptr = ReadNextSystemToken(in,ptr,word,false);
 	}
-	ptr = ReadOutput(true,ptr,in,data,rejoinders,NULL,NULL,true);
+	ptr = ReadOutput(false,true,ptr,in,data,rejoinders,NULL,NULL,true);
 	*data = 0;
 	return ptr;
 }
@@ -2797,7 +2797,7 @@ static char* ReadIfTest(char* ptr, FILE* in, char* &data)
 static char* ReadBody(char* word, char* ptr, FILE* in, char* &data,char* rejoinders)
 {	//    stored data starts with the {
 	char* start = data;
-	ptr = ReadOutput(true,ptr,in,data,rejoinders,NULL,NULL); 
+	ptr = ReadOutput(false,true,ptr,in,data,rejoinders,NULL,NULL); 
 	size_t len = strlen(start);
 	if ((len + 3) >= maxBufferSize) BADSCRIPT((char*)"BODY-4 Body exceeding limit of %d bytes",maxBufferSize)
 	return ptr;
@@ -2969,7 +2969,10 @@ static char* ReadLoop(char* word, char* ptr, FILE* in, char* &data,char* rejoind
 		ReadNextSystemToken(in,ptr,word,false,true); 
 		if (*word != '{') BADSCRIPT((char*)"LOOP-4 body must start with { -%s",hold)
 	}
+	char* bodystart = data;
 	ptr = ReadBody(word,ptr,in,data,rejoinders);
+	if (bodystart[0] == '{' && bodystart[1] == ' ' && bodystart[2] == '}') 
+		BADSCRIPT((char*)"LOOP-4 body makes no sense being empty")
 	Encode((unsigned int)(data - loopstart),loopstart);	// offset to body end from body start (accelerator)
 	*data = 0;
 	return ptr; // caller adds extra space after
@@ -2999,8 +3002,9 @@ static char* ReadJavaScript(FILE* in, char* &data,char* ptr)
 	return readBuffer;
 }
 
-char* ReadOutput(bool nested,char* ptr, FILE* in,char* &mydata,char* rejoinders,char* supplement,WORDP call, bool choice)
+char* ReadOutput(bool optionalBrace,bool nested,char* ptr, FILE* in,char* &mydata,char* rejoinders,char* supplement,WORDP call, bool choice)
 {
+	char* originalptr = ptr;
 	char* oldOutputStart = outputStart; // does not matter if script error grabs control
 	dataChunk = mydata; // global visible for use when changing lines for mapping
 	if (!nested)
@@ -3102,8 +3106,8 @@ char* ReadOutput(bool nested,char* ptr, FILE* in,char* &mydata,char* rejoinders,
 			}
 			else if (level >= 1)
 			{
-				if (startkind == '[') BADSCRIPT((char*)"CHOICE-2 Fail to close code started with %s upon seeing %s",start,word)
-				else BADSCRIPT((char*)"BODY-1 Fail to close code started with %s upon seeing %s",start,word)
+				if (startkind == '[') BADSCRIPT((char*)"CHOICE-2 Fail to close code started with %s upon seeing %s", originalptr,word)
+				else BADSCRIPT((char*)"BODY-1 Fail to close code started with %s upon seeing %s", originalptr,word)
 			}
 		}
 
@@ -3468,7 +3472,7 @@ Then one of 3 kinds of character:
 		} //   END OF WHILE
 		if (patternDone) 
 		{
-			ptr = ReadOutput(false,ptr,in,data,rejoinders,word,NULL);
+			ptr = ReadOutput(false,false,ptr,in,data,rejoinders,word,NULL);
 			char complex[MAX_WORD_SIZE];
 			sprintf(complex,"          Complexity of rule %s.%d.%d-%s %s %d", currentTopicName,TOPLEVELID(currentRuleID),REJOINDERID(currentRuleID),labelName,kind,complexity);
 			AddMap(NULL, complex);
@@ -3679,9 +3683,10 @@ static char* ReadMacro(char* ptr,FILE* in,char* kind,unsigned int build)
 
 		// now read body of macro
 		char* at = d;
-		ptr = ReadOutput(false,ptr,in,at,NULL,NULL,NULL);
+		ptr = ReadOutput(optionalBrace,false,ptr,in,at,NULL,NULL,NULL);
 		ReadNextSystemToken(in,ptr,word,true);
 		if (optionalBrace && *word == '}') ptr = ReadNextSystemToken(in,ptr,word,false);
+		else if (optionalBrace) BADSCRIPT("Missing closing optional brace in reading macro %s", macroName)
 
 		*at = 0;
 		// insert display and add body back
@@ -4084,6 +4089,7 @@ static char* ReadKeyword(char* word,char* ptr,bool &notted, bool &quoted, MEANIN
 				{
 					if (end != '.' || strlen(word) > 6) WARNSCRIPT((char*)"last character of keyword %s is punctuation. Is this intended?\r\n",word)
 				}
+				else if (end == '"' && word[(strlen(word)-2)] == ' ') BADSCRIPT((char*) "CONCEPT-? Keyword %s ends in illegal space",word)
 				M = ReadMeaning(word);
 				D = Meaning2Word(M);
 					
@@ -5142,7 +5148,12 @@ static void WriteDictionaryChange(FILE* dictout, unsigned int build)
 				fprintf(dictout,(char*)"%lld",x); 
 #endif
 			}
-			else WriteDictionaryFlags(D,dictout); // write the new
+			else
+			{
+				char flags[MAX_WORD_SIZE];
+				WriteDictionaryFlags(D, flags); // write the new
+				fprintf(dictout, "%s", flags);
+			}
 			fprintf(dictout,(char*)"%s",(char*)"\r\n");
 		}
 		D->properties = prop;
@@ -5459,7 +5470,7 @@ char* CompileString(char* ptr) // incoming is:  ^"xxx" or ^'xxxx'
 	*pack++ = ':'; // a internal marker that is has in fact been compiled - otherwise it is a format string whose spaces count but cant fully execute
 
 	if (tmp[2] == '(')  ReadPattern(tmp+2,NULL,pack,false,false); // incoming is:  ^"(xxx"
-	else ReadOutput(false,tmp+2,NULL,pack,NULL,NULL,NULL);
+	else ReadOutput(false,false,tmp+2,NULL,pack,NULL,NULL,NULL);
 
 	TrimSpaces(data,false);
 	len = strlen(data);

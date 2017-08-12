@@ -833,11 +833,16 @@ void TagIt() // get the set of all possible tags. Parse if one can to reduce thi
 	startSentence = 1;
 	endSentence = wordCount;
 
-	if (*GetUserVariable((char*)"$cs_externaltag")) externalTagger = 1;
-	if (externalTagger == 1) OnceCode((char*)"$cs_externaltag");
 #ifdef TREETAGGER
-	else if (externalTagger == 2) (*externalPostagger)();
+	if (externalPostagger) (*externalPostagger)();
 #endif
+	if (*GetUserVariable((char*)"$cs_externaltag"))
+	{
+		if (!externalTagger) externalTagger = 1;
+		OnceCode((char*)"$cs_externaltag");
+	}
+
+	if (externalPostagger) return; // Nothing left to pos tag if done externally (by Treetagger)
 
 	// handle regular area
 	for (i = 1; i <= wordCount; ++i)
@@ -9591,31 +9596,66 @@ static void TreeTagger()
 		canonicalUpper[i] = NULL;
 		originalLower[i] = NULL;
 		canonicalLower[i] = NULL;
+
 		char* lemma = (char*) ts.lemma[i-1];
 		if (!lemma || !strcmp(lemma, "<unknown>")) lemma= (char*)"unknown-word";
-		char* tag = (char*) ts.resulttag[i-1];
+		WORDP canonical0 = StoreWord(lemma, 0);
+
+		char* tag = (char*)ts.resulttag[i - 1];
 		if (!tag) tag = (char*)"unknown-tag";
-		if (IsUpperCase(lemma[0]))
-		{
-			originalUpper[i] = FindWord(wordStarts[i]);
-			canonicalUpper[i] = StoreWord(lemma, 0);
-		}
-		else
-		{
-			originalLower[i] = FindWord(wordStarts[i]);
-			canonicalLower[i] = StoreWord(lemma,0);
-		}
 		char newtag[MAX_WORD_SIZE];
 		*newtag = '~';	// concept from the tag
-		strcpy(newtag+1,tag);
+		strcpy(newtag + 1, tag);
 		WORDP X = StoreWord(newtag);
 		wordTag[i] = X;
 		*newtag = '_';
 		X = FindWord(newtag);
+
+		int start = 1;
+		WORDP entry = NULL;
+		WORDP canonical = 0;
+		uint64 sysflags = 0;
+		uint64 cansysflags = 0;
+		WORDP revise;
+		uint64 flags = GetPosData(i, wordStarts[i], revise, entry, canonical, sysflags, cansysflags, true, false, start); // flags will be potentially beyond what is stored on the word itself (like noun_gerund) but not adjective_noun
+		if (revise != NULL) wordStarts[i] = revise->word;
+
+		// Reuse the lemma word unless
+		// - the word is a concept, 
+		// - we have found a better version of the canonical
+		// - this is a number and TT thinks so too, the CS canonical will be digits
+		if (*wordStarts[i] == '~') {;}
+		else if (canonical0->properties == 0 && canonical->properties > 0) {;}
+		else if (flags & NUMBER_BITS && X->properties & NUMBER_BITS) {;}
+		else
+		{
+			canonical = canonical0; 
+			flags = 0;
+		}
+		if (!canonical) canonical = entry;
+
+		if (IsUpperCase(canonical->word[0]))
+		{
+			originalUpper[i] = entry;
+			canonicalUpper[i] = canonical;
+		}
+		else
+		{
+			originalLower[i] = entry;
+			canonicalLower[i] = canonical;
+		}
+
+		parseFlags[i] = canonical->parseBits;
+		posValues[i] = flags;
+		if (originalLower[i]) lcSysFlags[i] = sysflags; // from lower case
+		canSysFlags[i] = cansysflags;
+		if (entry->properties & PART_OF_SPEECH) ++knownWords; // known as lower or upper
+		if (*wordStarts[i] == '~') posValues[i] = 0;	// interjection
+		wordCanonical[i] = canonical->word;
+
 		if (X) posValues[i] |= X->properties; // english pos tag references
 
-		if (IsDigit(wordStarts[i][0])) posValues[i] |= NOUN_NUMBER; // regardless of language, recognize ~number
-		if (trace & TRACE_PREPARE) Log(STDTRACELOG,"%s/%s/%s ",wordStarts[i], tag, lemma);
+		if (trace & TRACE_PREPARE) Log(STDTRACELOG,"%s/%s/%s ",wordStarts[i], tag, wordCanonical[i]);
     }
     if (trace & TRACE_PREPARE) Log(STDTRACELOG,"\r\n");
 }
@@ -9635,11 +9675,8 @@ void InitTreeTagger(char* params) // tags=xxxx - just triggers this thing
 	char langfile[MAX_WORD_SIZE];
 	sprintf(langfile, "treetagger/%s.par",language);
 	MakeLowerCase(langfile);
-	int heap = heapBase - heapFree;
-	// write_treetagger();
-	init_treetagger(langfile, NULL, NULL); //  AllocateHeap, GetWord);  /*  Initialization of the tagger with the language parameter file */
-	int heap1 = (heapBase - heapFree) - heap;
-	printf("External Tagging: %s Load took %d\r\n", language,heap1);
+	//write_treetagger();
+	init_treetagger(langfile, AllocateHeap, GetWord); //  AllocateHeap, GetWord);  /*  Initialization of the tagger with the language parameter file */
 	externalPostagger = TreeTagger;
 
 	/* Memory allocation (the maximal input sentence length is here 1000) */

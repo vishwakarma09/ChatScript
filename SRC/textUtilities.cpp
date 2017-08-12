@@ -48,6 +48,7 @@ typedef struct CURRENCYDECODE
 } CURRENCYDECODE;
 
 static CURRENCYDECODE* currencies;
+static int* monthnames;
 
 char toHex[16] = {
 	'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
@@ -336,7 +337,7 @@ void InitTextUtilities1()
 	fclose(in);
 
 	sprintf(file, (char*)"%s/%s/currencies.txt", livedata, language);
-	in = FopenStaticReadOnly(file); // LIVEDATA substitutes or from script TOPIC world
+	in = FopenStaticReadOnly(file); 
 	if (!in) return;
 	stack = InfiniteStack64(limit, "initcurrency");
 	data = (int*)stack;
@@ -362,6 +363,99 @@ void InitTextUtilities1()
 	currencies = (CURRENCYDECODE*)AllocateHeap(stack, size + 1, 8);
 	ReleaseInfiniteStack();
 	fclose(in);
+
+	sprintf(file, (char*)"%s/%s/months.txt", livedata, language);
+	in = FopenStaticReadOnly(file); 
+	if (!in) return;
+	stack = InfiniteStack64(limit, "initmonths");
+	data = (int*)stack;
+	while (ReadALine(readBuffer, in) >= 0) // month name or abbrev
+	{
+		if (*readBuffer == '#' || *readBuffer == 0) continue;
+		char* ptr = ReadCompiledWord(readBuffer, word);
+		char* w = StoreWord(word, AS_IS)->word; // month name
+		int index = Heap2Index(w);
+		*data++ = index;
+	}
+	*data++ = 0;	 // terminal value for end detection
+	size = (char*)data - stack;
+	size /= 8;	 // 64bit chunks
+	monthnames = (int*)AllocateHeap(stack, size + 1, 8);
+	ReleaseInfiniteStack();
+	fclose(in);
+}
+
+bool IsDate(char* original)
+{
+	// Jan-26-2017 or 2017/MAY/26   also jan-02  or jan-2017  or 2017-jan or 02-jan BUT NOT 02-2017
+	// 24/15/2007 etc
+	size_t len = strlen(original);
+	if (!IsDigit(original[0]) && !IsDigit(original[len - 1])) return false;
+	// date must either start or end with a digit. 
+
+	char separator = 0;
+	int digitcount = 0;
+	bool digit4 = false;
+	int separatorcount = 0;
+	char* alpha = NULL;
+	int alphacount = 0;
+	bool acceptalpha = true;
+	--original;
+	while (*++original)
+	{
+		if (IsDigit(*original))
+		{
+			if (acceptalpha == false) return false; // cannot mix alpha and digit
+			++digitcount; // count digit block size
+		}
+		else if (IsAlphaUTF8(*original) && *original != '-' && *original != '.' && *original != '/')
+		{
+			if (acceptalpha)
+			{
+				alpha = original; // 1st one seen
+				acceptalpha = false;
+			}
+		}
+		else if (!separator) separator = *original;
+		else if (*original != separator) return false; // cannot be
+
+		if (*original == separator) // start a new block
+		{
+			if (digitcount == 4)  // only 1 year is allowed
+			{
+				if (digit4) return false; // only 1 of these
+				digit4 = true;
+			}
+			else if (digitcount > 2) return false; // not legal count, must be 1,2 or 4 digits
+
+			if (acceptalpha == false && ++alphacount  > 1) return false;	// only one text month is allowed
+			acceptalpha = true;
+
+			digitcount = 0;
+			if (++separatorcount > 2) return false; // only 2 separators (3 components) allowed
+		}
+	}
+	if (separator != '/'  && separator != '-' && separator != '.') return false;
+	if (!alpha)
+	{
+		return (separatorcount == 2);
+	}
+
+	if (separatorcount < 1) return false; // 2 or 3 allowed
+
+										  // confirm its a month
+	int* name = monthnames;
+	for (int i = 0; i < 1000; ++i)
+	{
+		if (!*name) return false;
+		char* w = Index2Heap(*name);
+		name++;
+		if (*w != toUppercaseData[*alpha]) continue;
+		size_t n = strlen(w);
+		if (strnicmp(w, alpha, n)) continue;
+		if (alpha[n] == 0 || alpha[n] == separator) return true;
+	}
+	return false;
 }
 
 void CloseTextUtilities()
@@ -524,23 +618,27 @@ char* AddEscapes(char* to, char* from, bool normal,int limit) // normal true mea
 double Convert2Float(char* original)
 {
 	char num[MAX_WORD_SIZE];
+	char* numloc = num;
 	strcpy(num, original);
 	char* comma;
 	while ((comma = strchr(num, numberComma))) memmove(comma, comma + 1, strlen(comma));
 	char* period = strchr(num, numberPeriod);
 	if (period) *period = '.'; // force us period
-	double val = atof(num);
-	if (IsDigitWithNumberSuffix(num)) // 10K  10M 10B
+
+	char* currency1;
+	char* cur1 = (char*)GetCurrency((unsigned char*)numloc, currency1); // alpha part
+	if (cur1 && cur1 == numloc) numloc = currency1; // point to number part
+	double val = atof(numloc);
+	if (IsDigitWithNumberSuffix(numloc)) // 10K  10M 10B
 	{
-		size_t len = strlen(num);
-		char d = num[len - 1];
+		size_t len = strlen(numloc);
+		char d = numloc[len - 1];
 		if (d == 'k' || d == 'K') val *= 1000;
 		else if (d == 'm' || d == 'M') val *= 1000000;
 		else if (d == 'B' || d == 'b' || d == 'G' || d == 'g') val *= 1000000000;
 	}
 	return val;
 }
-
 
 void AcquireDefines(char* fileName)
 { // dictionary entries:  `xxxx (property names)  ``xxxx  (systemflag names)  ``` (parse flags values)  -- and flipped:  `nxxxx and ``nnxxxx and ```nnnxxx with infermrak being ptr to original name
@@ -795,13 +893,14 @@ char* FindNameByValue(uint64 val) // works for invertable pos bits only
 bool IsModelNumber(char* word)
 {
 	int alphanumeric = 0;
+	char* start = word;
 	--word;
 	while (*++word)
 	{
 		if (IsAlphaUTF8(*word)) alphanumeric |= 1;
 		else if (IsDigit(*word)) alphanumeric |= 2;
 	}
-	return (alphanumeric == 3);
+	return (alphanumeric == 3 && !IsDate(start));
 }
 
 uint64 FindSystemValueByName(char* name)
@@ -1175,7 +1274,7 @@ unsigned int IsNumber(char* num,bool placeAllowed) // simple digit number or wor
 		int64 val = Convert2Integer(number);
 		if (at) *at = '.';
 		*cur = c;
-		return (val != NOT_A_NUMBER) ? CURRENCY_NUMBER : 0 ;
+		return (val != NOT_A_NUMBER) ? CURRENCY_NUMBER : NOT_A_NUMBER ;
 	}
 	if (IsDigitWord(word,true)) return DIGIT_NUMBER; // a numeric number
 
@@ -1198,6 +1297,7 @@ unsigned int IsNumber(char* num,bool placeAllowed) // simple digit number or wor
 
 	char* hyphen = strchr(word+1,'-');
 	if (!hyphen) hyphen = strchr(word+1,'_'); // two_thirds
+	if (hyphen && hyphen[1] && (IsDigit(*word) || IsDigit(hyphen[1]))) return NOT_A_NUMBER; // not multihypened words
 	if (hyphen && hyphen[1])
 	{
 		char c = *hyphen;
@@ -1242,7 +1342,7 @@ unsigned int IsNumber(char* num,bool placeAllowed) // simple digit number or wor
 		}
 	}
 
-    return (Convert2Integer(word) != NOT_A_NUMBER) ? WORD_NUMBER : 0;		//   try to read the number
+    return (Convert2Integer(word) != NOT_A_NUMBER) ? WORD_NUMBER : NOT_A_NUMBER;		//   try to read the number
 }
 
 bool IsPlaceNumber(char* word) // place number and fraction numbers
@@ -1265,7 +1365,7 @@ bool IsPlaceNumber(char* word) // place number and fraction numbers
 		size_t l = strlen(tok);
 		tok[l - size] = 0;
 		if (tok[l-size-1] == '-') tok[l - size - 1] = 0; // fifty-second
-		if (IsNumber(tok)) return true;
+		if (IsNumber(tok) != NOT_A_NUMBER) return true;
 		else return false;
 	}
 
@@ -1629,12 +1729,17 @@ char* ReadInt64(char* ptr, int64 &spot)
          sign = -1;
          ++ptr;
      }
+	 char* currency1;
+	 char* cur1 = (char*) GetCurrency((unsigned char*)ptr, currency1); // alpha part
+	 if (cur1 && cur1 == ptr) ptr = currency1; // point to number part
+
 	 --ptr;
 	 while (!IsWhiteSpace(*++ptr) && *ptr) 
      {  
          if (*ptr == ',') continue;    // swallow this
          spot *= 10;
          if (IsDigit(*ptr)) spot += *ptr - '0';
+		 else if (cur1 && ptr == cur1) break;	 // end of number part of like 65$
          else 
          {
 			 Bug(); // ReportBug((char*)"bad number1 %s\r\n", original)
@@ -1647,6 +1752,7 @@ char* ReadInt64(char* ptr, int64 &spot)
 	 if (*ptr) ++ptr;	// skip trailing blank
      return ptr;  
 }
+
 char* ReadHex(char* ptr, uint64 & value)
 {
 	ptr = SkipWhitespace(ptr);
@@ -2887,8 +2993,11 @@ void MakeLowerCase(char* ptr)
 		if (utfcharacter[1] && *ptr == 0xc3 && (unsigned char)ptr[1] >= 0x80 && (unsigned char)ptr[1] <= 0x9e)
 		{
 			unsigned char c = (unsigned char)*++ptr; // get the cap form
-			c -= 0x80;
-			c += 0x9f; // get lower case form
+			if (c != 0x97) // multiplication sign doesn't change
+			{
+				c -= 0x80;
+				c += 0xa0; // get lower case form
+			}
 			*ptr = (char)c;
 		}
 		else if (utfcharacter[1] && *ptr >= 0xc4 && *ptr <= 0xc9)
@@ -2911,8 +3020,11 @@ void MakeUpperCase(char* ptr)
 		if (utfcharacter[1] && *ptr == 0xc3 && ptr[1] >= 0x9f && ptr[1] <= 0xbf)
 		{
 			unsigned char c = (unsigned char)*++ptr; // get the cap form
-			c -= 0x9f;
-			c += 0x80; // get upper case form
+			if (c != 0x9f && c != 0xb7) // sharp s and division sign don't change
+			{
+				c -= 0xa0;
+				c += 0x80; // get upper case form
+			}
 			*ptr = (char)c;
 		}
 		else if (utfcharacter[1] && *ptr >= 0xc4 && *ptr <= 0xc9)
@@ -2936,8 +3048,11 @@ char*  MakeLowerCopy(char* to, char* from)
 		{
 			*to++ = *from;
 			unsigned char c = from[1]; // get the cap form
-			c -= 0x80;
-			c += 0x9f; // get lower case form
+			if (c != 0x97) // multiplication sign doesn't change
+			{
+				c -= 0x80;
+				c += 0xa0; // get lower case form
+			}
 			*to++ = c;
 			from = x;
 		}
@@ -2970,8 +3085,11 @@ char* MakeUpperCopy(char* to, char* from)
 		{
 			*to++ = *from;
 			unsigned char c = from[1]; // get the cap form
-			c -= 0x9f;
-			c += 0x80; // get upper case form
+			if (c != 0x9f && c != 0xb7) // sharp s and division sign don't change
+			{
+				c -= 0xa0;
+				c += 0x80; // get upper case form
+			}
 			*to++ = c;
 			from = x;
 		}

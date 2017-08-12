@@ -683,17 +683,24 @@ void RecoverUserVariables()
 void ClearUserVariables(char* above) 
 {
 	unsigned int varthread = userVariableThreadList;
+	unsigned int* prevcell = 0;
 	while (varthread)
 	{
 		unsigned int* cell = (unsigned int*)Index2Heap(varthread);
 		varthread = cell[0];
 		WORDP D = Index2Word(cell[1]);
-		if (!above || D->w.userValue < above) // heap spaces runs DOWN, so this passes more recent entries into here
+		if (!above) // removing ALL variables
 		{	
 			D->w.userValue = NULL;
 			RemoveInternalFlag(D,VAR_CHANGED);
 		}
- 	}
+		else  if (D->w.userValue < above) // heap spaces runs DOWN, so this passes more recent entries into here
+		{
+			if (prevcell) prevcell[0] = varthread;  // previous needs to point to next
+			else userVariableThreadList = varthread;  // potential new start of list
+		}
+		else prevcell = cell;  // keeping this one, so remember it
+	}
 	if (!above) userVariableThreadList = 0;
 }
 

@@ -36,6 +36,7 @@ typedef struct RESPONSE
 typedef void (*DEBUGAPI)(char* buffer);
 extern DEBUGAPI debugInput;
 extern DEBUGAPI debugOutput;
+extern int forkcount;
 
 #define START_BIT 0x8000000000000000ULL	// used looping thru bit masks
 #define INPUTMARKER '`'	// used to start and end ^input data
@@ -93,6 +94,7 @@ extern bool servertrace;
 extern char apikey[100];
 extern unsigned int volleyCount;
 extern FILE* sourceFile;
+extern bool multiuser;
 extern bool oobExists;
 extern char hostname[100];
 extern int argc;

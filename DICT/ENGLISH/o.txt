@@ -8231,8 +8231,6 @@
     non_compos_mentis~1a 
  o.k. ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
     all_right~1a 
- ok ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON4 COMMON1 GRADE1_2 posdefault:ADJECTIVE posdefault:ADVERB ) 
-    o.k.~1a 
  oecumenic ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
     ecumenic~1a 
  overanxious ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 posdefault:ADJECTIVE ) 

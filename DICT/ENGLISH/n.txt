@@ -902,7 +902,7 @@
     notch~1n 
     nick~2nz (^prison~1) a prison
     gouge~3n 
-    nick~4vz mate successfully
+    nick~4vz (^copulate~1) mate successfully
     nick~5vz divide or reset the tail muscles of
     chip~10v 
     snick~3v 

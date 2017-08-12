@@ -11,17 +11,17 @@
 <h1 id="chatscript-system-functions-manual">ChatScript System Functions Manual</h1>
 <p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 7/8/2017 cs7.52</p>
 <ul>
-<li><a href="ChatScript-System-Functions-Manual.md#topic-functions">Topic Functions</a></li>
-<li><a href="ChatScript-System-Functions-Manual.md#marking-functions">Marking Functions</a></li>
-<li><a href="ChatScript-System-Functions-Manual.md#input-functions">Input Functions</a></li>
-<li><a href="ChatScript-System-Functions-Manual.md#number-functions">Number Functions</a></li>
-<li><a href="ChatScript-System-Functions-Manual.md#output-functions">Output Functions</a></li>
-<li><a href="ChatScript-System-Functions-Manual.md#control-flow-functions">Control Flow Functions</a></li>
-<li><a href="ChatScript-System-Functions-Manual.md#external-access-functions">External Access Functions</a></li>
-<li><a href="ChatScript-System-Functions-Manual.md#json-functions">JSON Functions</a></li>
-<li><a href="ChatScript-System-Functions-Manual.md#word-manipulation-functions">Word Manipulation Functions</a></li>
-<li><a href="ChatScript-System-Functions-Manual.md#multipurpose-functions">Multipurpose Functions</a></li>
-<li><a href="ChatScript-System-Functions-Manual.md#fact-functions">Facts Functions</a></li>
+<li><a href="ChatScript-System-Functions-Manual.html#topic-functions">Topic Functions</a></li>
+<li><a href="ChatScript-System-Functions-Manual.html#marking-functions">Marking Functions</a></li>
+<li><a href="ChatScript-System-Functions-Manual.html#input-functions">Input Functions</a></li>
+<li><a href="ChatScript-System-Functions-Manual.html#number-functions">Number Functions</a></li>
+<li><a href="ChatScript-System-Functions-Manual.html#output-functions">Output Functions</a></li>
+<li><a href="ChatScript-System-Functions-Manual.html#control-flow-functions">Control Flow Functions</a></li>
+<li><a href="ChatScript-System-Functions-Manual.html#external-access-functions">External Access Functions</a></li>
+<li><a href="ChatScript-System-Functions-Manual.html#json-functions">JSON Functions</a></li>
+<li><a href="ChatScript-System-Functions-Manual.html#word-manipulation-functions">Word Manipulation Functions</a></li>
+<li><a href="ChatScript-System-Functions-Manual.html#multipurpose-functions">Multipurpose Functions</a></li>
+<li><a href="ChatScript-System-Functions-Manual.html#fact-functions">Facts Functions</a></li>
 </ul>
 <p>System functions are predefined and can be intermixed with direct output. Generally they are used from the output side of a rule, but in many cases nothing prevents you from invoking them from inside a pattern. When used in a pattern, they do not write out any text output to the user. But their output will be tested the same as it would from an <code>if</code> statement, meaning 0 and false are failures.</p>
 <p>You can write them with or without a <code>^</code> in front of their name. With is clearer, but you don’t have to. The only time you must is if the first thing you want to do in a gambit is call a function (unlikely).</p>
@@ -295,7 +295,7 @@ u: what&#39;s your first name?
 <pre><code>_3 = ^timeinfofromseconds(%fulltime)</code></pre>
 <p>it will start at <code>_3</code>. The items you get are: seconds, minutes, hours, date in month, month name, year, day name of week.</p>
 <h3 id="timetoseconds-seconds-minutes-hours-date-of-month-month-year"><code>^timetoseconds ( seconds minutes hours date-of-month month year )</code></h3>
-<p>This converts time data since 1970 (Unix epoch time). Analogous to <code>%fulltime</code>, which returns the current time in seconds. Month can be number 1-12 or name of month or abbreviation of month.</p>
+<p>This converts time data since 1970 (Unix epoch time). Analogous to <code>%fulltime</code>, which returns the current time in seconds. Month can be number 1-12 or name of month or abbreviation of month. Date-of-month must be 1 or more. Year must be on or 1970 and less than 2100. Optional 7th argument indicates whether time is within daylight savings or not , values can be 1 or 0, t or f, T or F. Default is false.</p>
 <h3 id="isnumber-value"><code>^isnumber ( value )</code></h3>
 <p>Fails if value is not an integer, float, or currency,</p>
 <h1 id="output-functions">Output Functions</h1>

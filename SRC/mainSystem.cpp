@@ -1,6 +1,6 @@
 #include "common.h" 
 #include "evserver.h"
-char* version = "7.52";
+char* version = "7.53";
 char sourceInput[200];
 FILE* userInitFile;
 int externalTagger = 0;
@@ -19,6 +19,7 @@ bool pendingRestart = false;
 bool pendingUserReset = false;
 bool rebooting = false;
 bool assignedLogin = false;
+int forkcount = 1;
 char apikey[100];
 DEBUGAPI debugInput = NULL;
 DEBUGAPI debugOutput = NULL;
@@ -33,6 +34,7 @@ bool callback = false;						// when input is callback,alarm,loopback, dont want 
 int timerLimit = 0;						// limit time per volley
 int timerCheckRate = 0;					// how often to check calls for time
 clock_t volleyStartTime = 0;
+char forkCount[10];
 int timerCheckInstance = 0;
 static char* privateParams = NULL;
 static char treetaggerParams[200];
@@ -103,6 +105,7 @@ bool noReact = false;
 // :source:document data
 bool documentMode = false;						// read input as a document not as chat
 FILE* sourceFile = NULL;						// file to use for :source
+bool multiuser = false;
 EchoSource echoSource = NO_SOURCE_ECHO;			// for :source, echo that input to nowhere, user, or log
 unsigned long sourceStart = 0;					// beginning time of source file
 unsigned int sourceTokens = 0;
@@ -450,10 +453,14 @@ void CreateSystem()
 	}
 #endif
 #ifdef DISCARDJSONOPEN
-	printf((char*)"%s",(char*)"    JSONOpen access disabled.\r\n");
+	sprintf(route, (char*)"%s", (char*)"    JSONOpen access disabled.\r\n");
+	if (server) Log(SERVERLOG, route);
+	else printf(route);
 #endif
 #ifdef TREETAGGER
-	printf((char*)"    TreeTagger access enabled: %s\r\n",language);
+	sprintf(route, (char*)"    TreeTagger access enabled: %s\r\n",language);
+	if (server) Log(SERVERLOG, route);
+	else printf(route);
 #endif
 #ifndef DISCARDMONGO
 	if (*mongodbparams) sprintf(route,"    Mongo enabled. FileSystem routed to %s\r\n",mongodbparams);
@@ -501,6 +508,13 @@ void ReloadSystem()
 	ReadFacts(name,NULL,0); // part of wordnet, not level 0 build 
 	ReadLiveData();  // considered part of basic system before a build
 	InitTextUtilities1(); // also part of basic system before a build
+
+#ifdef TREETAGGER
+	 // We will be reserving some working space for treetagger on the heap
+	 // so make sure it is tucked away where it cannot be touched
+		InitTreeTagger(treetaggerParams);
+#endif
+
 	WordnetLockDictionary();
 }
 
@@ -653,16 +667,27 @@ static void ProcessArgument(char* arg)
 	else if (!stricmp(arg,(char*)"serverctrlz")) serverctrlz = 1;
 	else if (!strnicmp(arg,(char*)"port=",5))  // be a server
 	{
-           port = atoi(arg+5); // accept a port=
-		sprintf(serverLogfileName,(char*)"%s/serverlog%d.txt",logs,port);
+        port = atoi(arg+5); // accept a port=
 		server = true;
+#ifdef LINUX
+		if (forkcount > 1) sprintf(serverLogfileName, (char*)"%s/serverlog%d-%d.txt", logs, port,getpid());
+		else sprintf(serverLogfileName, (char*)"%s/serverlog%d.txt", logs, port); 
+#else
+		sprintf(serverLogfileName,(char*)"%s/serverlog%d.txt",logs,port); // DEFAULT LOG
+#endif
 	}
 #ifdef EVSERVER
 	else if (!strnicmp(arg, "fork=", 5)) 
 	{
-		static char forkCount[10];
-		sprintf(forkCount,(char*)"evsrv:fork=%d",atoi(arg+5));
+		forkcount = atoi(arg + 5);
+		sprintf(forkCount,(char*)"evsrv:fork=%d", forkcount);
 		evsrv_arg = forkCount;
+#ifdef LINUX
+		if (forkcount > 1) sprintf(serverLogfileName, (char*)"%s/serverlog%d-%d.txt", logs, port, getpid());
+		else sprintf(serverLogfileName, (char*)"%s/serverlog%d.txt", logs, port);
+#else
+		sprintf(serverLogfileName, (char*)"%s/serverlog%d.txt", logs, port); // DEFAULT LOG
+#endif
 	}
 #endif
 	else if (!strnicmp(arg,(char*)"interface=",10)) interfaceKind = string(arg+10); // specify interface
@@ -679,7 +704,7 @@ static void ReadConfig()
 	char buffer[MAX_WORD_SIZE];
 	FILE* in = FopenReadOnly(configFile);
 	if (!in) return;
-	while (ReadALine(buffer,in,MAX_WORD_SIZE) >= 0) ProcessArgument(SkipWhitespace(buffer));
+	while (ReadALine(buffer,in,MAX_WORD_SIZE) >= 0) ProcessArgument(TrimSpaces(buffer,true));
 	fclose(in);
 }
 
@@ -764,7 +789,12 @@ unsigned int InitSystem(int argcx, char * argvx[],char* unchangedPath, char* rea
 
 	InitTextUtilities();
     sprintf(logFilename,(char*)"%s/log%d.txt",logs,port); // DEFAULT LOG
+#ifdef LINUX
+	if (forkcount > 1) sprintf(serverLogfileName, (char*)"%s/serverlog%d-%d.txt", logs, port,getpid());
+	else sprintf(serverLogfileName, (char*)"%s/serverlog%d.txt", logs, port); 
+#else
     sprintf(serverLogfileName,(char*)"%s/serverlog%d.txt",logs,port); // DEFAULT LOG
+#endif
 	
 	strcpy(livedata,(char*)"LIVEDATA"); // default directory for dynamic stuff
 	strcpy(systemFolder,(char*)"LIVEDATA/SYSTEM"); // default directory for dynamic stuff
@@ -872,10 +902,6 @@ unsigned int InitSystem(int argcx, char * argvx[],char* unchangedPath, char* rea
 #endif
 #ifndef DISCARDMONGO
 	if (*mongodbparams)  MongoSystemInit(mongodbparams);
-#endif
-	
-#ifdef TREETAGGER
-	InitTreeTagger(treetaggerParams);
 #endif
 
 #ifdef PRIVATE_CODE
@@ -1159,6 +1185,17 @@ inputRetry:
 			if (sourceFile != stdin)
 			{
 				char word[MAX_WORD_SIZE];
+				if (multiuser)
+				{
+					char user[MAX_WORD_SIZE];
+					char bot[MAX_WORD_SIZE];
+					char* ptr = ReadCompiledWord(ourMainInputBuffer, user);
+					ptr = ReadCompiledWord(ptr, bot);
+					memmove(ourMainInputBuffer, ptr, strlen(ptr) + 1);
+
+				}
+
+
 				ReadCompiledWord(ourMainInputBuffer,word);
 				if (!stricmp(word,(char*)":quit") || !stricmp(word,(char*)":exit")) break;
 				if (!stricmp(word,(char*)":debug")) 
@@ -1429,7 +1466,7 @@ void FinishVolley(char* incoming,char* output,char* postvalue,int limit)
 		if (regression) curr = 44444444; 
 		char* when = GetMyTime(curr); // now
 		if (*incoming) strcpy(timePrior,GetMyTime(curr)); // when we did the last volley
-		if (!stopUserWrite) WriteUserData(curr); 
+		if (!stopUserWrite) WriteUserData(curr,false); 
 		else stopUserWrite = false;
 		// Log the results
 		GetActiveTopicName(activeTopic); // will show currently the most interesting topic
@@ -1472,14 +1509,21 @@ void FinishVolley(char* incoming,char* output,char* postvalue,int limit)
 				else *sep = ' ';
 			}
 		}
-	}
-	else *output = 0;
-	size_t x = strlen(output);
-	ClearVolleyWordMaps(); 
-	if (!documentMode) 
-	{
+
+		ClearVolleyWordMaps();
 		ShowStats(false);
 		ResetToPreUser(); // back to empty state before any user
+	}
+	else
+	{
+		// Don't do anything after a single line of a document
+		if (postProcessing)
+		{
+			++outputNest;
+			OnceCode((char*)" ", postvalue);
+			--outputNest;
+		}
+		*output = 0;
 	}
 }
 
@@ -1504,12 +1548,14 @@ int PerformChat(char* user, char* usee, char* incoming,char* ip,char* output) //
 	modifiedTrace = false;
 	if (server && servertrace) trace = -1;
 	myBot = 0;
-	if (!documentMode) tokenCount = 0;
-	InitJSONNames(); // reset indices for this volley
-	ClearVolleyWordMaps();
-	ResetEncryptTags();
+	if (!documentMode) {
+		tokenCount = 0;
+		InitJSONNames(); // reset indices for this volley
+		ClearVolleyWordMaps();
+		ResetEncryptTags();
 
-	HandleBoot(FindWord("^cs_reboot"),true);
+		HandleBoot(FindWord("^cs_reboot"), true);
+	}
 
 	bool eraseUser = false;
 
@@ -1835,6 +1881,7 @@ int ProcessInput(char* input)
  		outputRejoinderTopic = inputRejoinderTopic;
 		if (!strnicmp(at,(char*)":retry",6) || !strnicmp(at,(char*)":redo",5))
 		{
+			outputRejoinderTopic = outputRejoinderRuleID = NO_REJOINDER; // but a redo must ignore pending
 			strcpy(input,mainInputBuffer);
 			strcpy(inputCopy,mainInputBuffer);
 			buffer = inputCopy;
@@ -1874,7 +1921,7 @@ int ProcessInput(char* input)
 		else if (commanded == OUTPUTASGIVEN) return true; 
 		else if (commanded == TRACECMD) 
 		{
-			WriteUserData(time(0)); // writes out data in case of tracing variables
+			WriteUserData(time(0),true); // writes out data in case of tracing variables
 			ResetToPreUser(); // back to empty state before any user
 			return false; 
 		}
@@ -1925,7 +1972,7 @@ loopback:
 			{
 				ResetToPreUser(); // back to empty state before any user
 				ReadNewUser();
-				WriteUserData(time(0)); 
+				WriteUserData(time(0),false); 
 				ResetToPreUser(); // back to empty state before any user
 			}
 			return PENDING_RESTART;	// nothing more can be done here.
@@ -2484,7 +2531,7 @@ void PrepareSentence(char* input,bool mark,bool user, bool analyze,bool oobstart
 	char* ptr = input;
 	tokenFlags |= (user) ? USERINPUT : 0; // remove any question mark
     ptr = Tokenize(ptr,wordCount,wordStarts,false,false,oobstart); 
- 	upperCount = 0;
+	upperCount = 0;
 	lowerCount = 0;
 	for (int i = 1; i <= wordCount; ++i)   // see about SHOUTing
 	{

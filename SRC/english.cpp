@@ -278,35 +278,6 @@ EndingInfo adjective1[] =
 	{0},
 };
 
-bool IsDate(char* original)
-{
-	if (!IsDigit(original[0])) return false;
-	char separator = 0;
-	int digitcount = 1;
-	bool digit4 = false;
-	int separatorcount = 0;
-	while (*++original)
-	{
-		if (IsDigit(*original)) ++digitcount;
-		else if (!separator) separator = *original;
-		else if (*original != separator) return false; // cannot be
-
-		if (*original == separator)
-		{
-			if (digitcount == 4)  // only 1 of these
-			{
-				if (digit4) return false; // only 1 of these
-				digit4 = true;
-				if (separatorcount != 0 && separatorcount != 2) return false;
-			}
-			else if (digitcount > 2) return false; // not legal count, must be 1,2 or 4 digits
-			digitcount = 0;
-			if (++separatorcount > 2) return false;
-		}
-	}
-	return (separator == '/' || separator == '-' || separator == '.');
-}
-
 static int64 ProcessNumber(int at, char* original, WORDP& revise, WORDP &entry, WORDP &canonical, uint64& sysflags, uint64 &cansysflags, bool firstTry, bool nogenerate, int start, int kind) // case sensitive, may add word to dictionary, will not augment flags of existing words
 {
 	size_t len = strlen(original);
@@ -321,7 +292,7 @@ static int64 ProcessNumber(int at, char* original, WORDP& revise, WORDP &entry, 
 		cansysflags = sysflags = entry->systemFlags | TIMEWORD;
 		return properties;
 	}
-	if (!kind) return 0; // not a date after all
+	if (kind == NOT_A_NUMBER) return 0; // not a date after all
 
 	// hyphenated word which is number on one side:   Cray-3  3-second
 	char* hyphen = strchr(original, '-');
@@ -410,7 +381,7 @@ static int64 ProcessNumber(int at, char* original, WORDP& revise, WORDP &entry, 
 			}
 			char number[MAX_WORD_SIZE];
 			strcpy(number, original); // the number before the -
-			if (IsNumber(number) && IsNumber(fraction + 1))
+			if (IsNumber(number) != NOT_A_NUMBER  && IsNumber(fraction + 1))
 			{
 				int x = atoi(number);
 				int y = atoi(fraction + 1);
@@ -443,7 +414,7 @@ static int64 ProcessNumber(int at, char* original, WORDP& revise, WORDP &entry, 
 		if (kind == PLACETYPE_NUMBER)
 		{
 			entry = StoreWord(original, properties);
-			if (at > 1 && start != at && IsNumber(wordStarts[at - 1]) && !strstr(original, (char*)"second")) // fraction not place
+			if (at > 1 && start != at && IsNumber(wordStarts[at - 1]) != NOT_A_NUMBER && !strstr(original, (char*)"second")) // fraction not place
 			{
 				double val = 1.0 / Convert2Integer(original);
 				WriteFloat(number,val);
@@ -671,19 +642,21 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 	}
 
 	// number processing has happened
-	unsigned int kind = IsNumber(original);
-	if (firstTry && (kind | IsDigit(*original))) 
+	int kind = IsNumber(original); 
+	if (firstTry && (kind != NOT_A_NUMBER || IsDate(original )))
 		properties = ProcessNumber(at, original, revise, entry, canonical, sysflags, cansysflags, firstTry, nogenerate, start,kind); // case sensitive, may add word to dictionary, will not augment flags of existing wordskind);
 	if (canonical && IsDigit(*canonical->word)) return properties;
 	entry = FindWord(original, 0, PRIMARY_CASE_ALLOWED);
 
 	if (externalTagger || stricmp(language, "english"))
 	{
-		if (!entry) entry  = StoreWord(original);
+		if (!entry) entry = FindWord(original, 0, SECONDARY_CASE_ALLOWED); // Try harder to find the foreign word, e.g. German wochentag -> Wochentag
+		bool foundWord = entry ? true : false;
+		if (!entry)	entry = StoreWord(original);
 		canonical = GetCanonical(entry);
 		properties = entry->properties;
 		sysflags = entry->systemFlags;
-		if (!canonical) canonical = entry;
+		if (!canonical) canonical = foundWord ? entry : DunknownWord;
 		return properties; // remote pos tagging or none
 	}
 
@@ -763,7 +736,7 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 		if (revise) revise = entry;
 	}
 	else if (start != at && tokenControl & STRICT_CASING) {;} // believe all upper case items not at sentence start when using strict casing
-	else if (ZZ->properties & (DETERMINER|PREPOSITION|PRONOUN_POSSESSIVE|PRONOUN_BITS|AUX_VERB) && !IsNumber(original)) // prep and determiner are ALWAYS considered lowercase for parsing (which happens later than proper name extraction)
+	else if (ZZ->properties & (DETERMINER|PREPOSITION|PRONOUN_POSSESSIVE|PRONOUN_BITS|AUX_VERB) && IsNumber(original) == NOT_A_NUMBER ) // prep and determiner are ALWAYS considered lowercase for parsing (which happens later than proper name extraction)
 	{
 		entry =  canonical = ZZ;
 		original = AllocateHeap(entry->word);
@@ -918,7 +891,7 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 				// can it be a number?
 				unsigned int kind =  IsNumber(noun);
 				char number[MAX_WORD_SIZE];
-				if (kind && kind != PLACETYPE_NUMBER) // do not decode seconds to second Place, but tenths can go to tenth
+				if (kind != NOT_A_NUMBER && kind != PLACETYPE_NUMBER) // do not decode seconds to second Place, but tenths can go to tenth
 				{
 					int64 val = Convert2Integer(noun);
 					if (val < 1000000000 && val >  -1000000000)
@@ -1094,7 +1067,7 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 		WORDP Y = FindWord(hyphen+1,0,LOWERCASE_LOOKUP);
 		*hyphen = '-';
 		// adjective made from counted singular noun:  6-month
-		if (X && Y && IsNumber(X->word,false))
+		if (X && Y && IsNumber(X->word,false) != NOT_A_NUMBER)
 		{
 			if (Y->properties & NOUN && !stricmp(Y->word,GetSingularNoun(Y->word, false, true))) // number with singular noun cant be anything but adjective
 			{
@@ -1240,10 +1213,10 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 			if (!properties) // since we recognize no component of the hypen, try as number stuff
 			{
 				*hyphen = 0;
-				if (IsDigit(*original) || IsDigit(hyphen[1]) ||  IsNumber(original) || IsNumber(hyphen+1))
+				if (IsNumber(original) != NOT_A_NUMBER )
 				{
 					int64 n;
-					n = Convert2Integer((IsNumber(original) || IsDigit(*original)) ? original : (hyphen+1));
+					n = Convert2Integer((IsNumber(original) != NOT_A_NUMBER || IsDigit(*original)) ? original : (hyphen+1));
 					#ifdef WIN32
 					sprintf(tmpword,(char*)"%I64d",n); 
 #else
@@ -2579,7 +2552,7 @@ char* GetSingularNoun(char* word, bool initial, bool nonew)
 	}
 
 	if (D && D->properties & NOUN && !(D->properties & NOUN_PLURAL) && !(D->properties & (NOUN_PROPER_SINGULAR|NOUN_PROPER_PLURAL))) return D->word; //   unmarked as plural, it must be singular unless its a name
-    if (!D && IsNumber(word))  return word;
+    if (!D && IsNumber(word) != NOT_A_NUMBER)  return word;
 	if (D && D->properties & AUX_VERB) return NULL; // avoid "is" or "was" as plural noun
 
 	// check known from plural s or es

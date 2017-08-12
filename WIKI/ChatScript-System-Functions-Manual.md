@@ -673,7 +673,10 @@ The items you get are: seconds, minutes, hours, date in month, month name, year,
 
 This converts time data since 1970 (Unix epoch time). Analogous to `%fulltime`, which returns the
 current time in seconds. Month can be number 1-12 or name of month or abbreviation of
-month.
+month. Date-of-month must be 1 or more. Year must be on or  1970 and less than 2100.
+Optional 7th argument indicates whether time is within daylight savings or not , values can 
+be 1 or 0, t or f, T or F. Default is false.
+	
 
 
 ### `^isnumber ( value )`

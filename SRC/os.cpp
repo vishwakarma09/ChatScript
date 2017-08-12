@@ -66,6 +66,7 @@ static unsigned int heapDepth[MAX_GLOBAL];				// string at start of depth
 char* nameDepth[MAX_GLOBAL];				// who are we?
 char* ruleDepth[MAX_GLOBAL];				// current rule
 char* tagDepth[MAX_GLOBAL][25];			// topicid.toplevelid.rejoinderid (5.5.5)
+static unsigned int argumentDepth[MAX_GLOBAL];		// references to call argument index
 
 static unsigned int overflowLimit = 0;
 unsigned int overflowIndex = 0;
@@ -182,16 +183,19 @@ void myexit(char* msg, int code)
 }
 
 void mystart(char* msg)
-{	
+{
 	char name[MAX_WORD_SIZE];
-	sprintf(name,(char*)"%s/startlog.txt",logs);
+	sprintf(name, (char*)"%s/startlog.txt", logs);
 	FILE* in = FopenUTF8WriteAppend(name);
-	if (in) 
+	char word[MAX_WORD_SIZE];
+	struct tm ptm;
+	sprintf(word, (char*)"System startup %s %s\r\n", msg, GetTimeInfo(&ptm, true));
+	if (in)
 	{
-		struct tm ptm;
-		fprintf(in,(char*)"System startup %s %s\r\n",msg,GetTimeInfo(&ptm,true));
+		fprintf(in, (char*)"%s", word);
 		FClose(in);
 	}
+	if (server) Log(SERVERLOG, word);
 }
 
 /////////////////////////////////////////////////////////
@@ -1450,7 +1454,7 @@ uint64 Hashit(unsigned char * data, int len,bool & hasUpperCharacters, bool & ha
 				//crc = X64_Table[(crc >> 56) ^ c] ^ (crc << 8);
 				c = *data++; // get the cap form
 				c -= 0x80;
-				c += 0x9f; // get lower case form
+				c += 0xa0; // get lower case form
 				--len;
 			}
 			else if (c >= 0xc4 && c <= 0xc9 && !(c & 1))
@@ -1493,23 +1497,50 @@ unsigned int random(unsigned int range)
 /////////////////////////////////////////////////////////
 uint64 logCount = 0;
 
+bool TraceFunctionArgs(FILE* out, char* name, int start, int end)
+{
+	if (name[0] == '~') return false;
+	WORDP D = FindWord(name);
+	if (!D) return false;		// like fake ^ruleoutput
+
+	unsigned int args = end - start;
+	char arg[MAX_WORD_SIZE];
+
+	fprintf(out, "( ");
+	for (int i = 0; i < args; ++i)
+	{
+		strncpy(arg, callArgumentList[start + i], 50);
+		arg[50] = 0;
+		fprintf(out, "%s ", arg);
+	}
+	fprintf(out, ")");
+	return true;
+}
+
 void BugBacktrace(FILE* out)
 {
-	int i = globalDepth +1;
+	int i = globalDepth;
 	char rule[MAX_WORD_SIZE];
 	if (nameDepth[i]) 
 	{
-		strncpy(rule,ruleDepth[i],50);
-		rule[50] = 0;
-		fprintf(out,"Finished %d: heapusedOnEntry: %d heapUsedNow: %d buffers:%d stackused: %d stackusedNow:%d %s - %s\r\n",
-			i,heapDepth[i],(int)(heapBase-heapFree),memDepth[i],(int)(heapFree - releaseStackDepth[i]), (int)(stackFree-stackStart),nameDepth[i],rule);
+		rule[0] = 0;
+		if (currentRule) {
+			strncpy(rule, currentRule, 50);
+			rule[50] = 0;
+		}
+		fprintf(out,"Finished %d: heapusedOnEntry: %d heapUsedNow: %d buffers:%d stackused: %d stackusedNow:%d %s ",
+			i,heapDepth[i],(int)(heapBase-heapFree),memDepth[i],(int)(heapFree - releaseStackDepth[i]), (int)(stackFree-stackStart),nameDepth[i]);
+		if (!TraceFunctionArgs(out, nameDepth[i], (i > 0) ? argumentDepth[i-1] : 0, argumentDepth[i])) fprintf(out, " - %s", rule);
+		fprintf(out, "\r\n");
 	}
 	while (--i > 0) 
 	{
 		strncpy(rule,ruleDepth[i],50);
 		rule[50] = 0;
-		fprintf(out,"BugDepth %d: heapusedOnEntry: %d buffers:%d stackused: %d %s - %s\r\n",
-			i,heapDepth[i],memDepth[i],(int)(heapFree - releaseStackDepth[i]), nameDepth[i],rule);
+		fprintf(out,"BugDepth %d: heapusedOnEntry: %d buffers:%d stackused: %d %s ",
+			i,heapDepth[i],memDepth[i],(int)(heapFree - releaseStackDepth[i]), nameDepth[i]);
+		if (!TraceFunctionArgs(out, nameDepth[i], argumentDepth[i-1], argumentDepth[i])) fprintf(out, " - %s", rule);
+		fprintf(out, "\r\n");
 	}
 }
 
@@ -1541,6 +1572,7 @@ void ChangeDepth(int value,char* name,bool nostackCutback,char* code,FunctionRes
 		sprintf((char*)tagDepth[globalDepth],"%d.%d.%d",currentTopicID,TOPLEVELID(currentRuleID),REJOINDERID(currentRuleID));
 		releaseStackDepth[globalDepth] = stackFree; // define argument start space - release back to here on exit
 		heapDepth[globalDepth] =  heapBase - heapFree;	 // used on entry
+		argumentDepth[globalDepth] = callArgumentIndex;
 
 #ifndef DISCARDTESTING
 		CheckBreak(name,true,code); // debugger hook
@@ -1832,6 +1864,7 @@ unsigned int Log(unsigned int channel,const char * fmt, ...)
 				FreeBuffer();
 			}
 			fwrite(logbase,1,bufLen,bug);
+			fprintf(bug,(char*)"\r\n");
 			if (!compiling && !loading && !strstr(logbase, "No such bot"))
 			{
 				fprintf(bug,(char*)"MinReleaseStackGap %dMB MinHeapAvailable %dMB\r\n",maxReleaseStackGap/1000000,(int)(minHeapAvailable/1000000));
@@ -1893,7 +1926,7 @@ unsigned int Log(unsigned int channel,const char * fmt, ...)
 	}
     else // do server log 
 	{
-		strcpy(fname, serverLogfileName);
+		strcpy(fname, serverLogfileName); // one might speed up forked servers by having mutex per pid instead of one common one
 		out = FopenUTF8WriteAppend(fname);
  		if (!out) // see if we can create the directory (assuming its missing)
 		{

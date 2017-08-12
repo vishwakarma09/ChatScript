@@ -1,3 +1,8 @@
+# Version 7.53 8/12/2017
+1. :tsv  convert tsv to table form (putting quotes around things without it)
+2. %externaltagging
+3. improved control script manual
+
 # Version 7.52 7/8/2017
 1. ^respond(~xxx TEST) conditional execution of a topic to see if a match would occur (no output)
 2. revision of german noun pos tags in dictionary

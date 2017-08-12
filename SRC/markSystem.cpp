@@ -496,6 +496,14 @@ static void SetSequenceStamp() //   mark words in sequence, original and canonic
 	//   consider all sets of up to 5-in-a-row 
 	for (int i = startSentence; i <= (int)endSentence; ++i)
 	{
+		while (wordlist)
+		{
+			int* chunk = (int*)Index2Stack(wordlist);
+			wordlist = chunk[0];
+			WORDP D = Index2Word(chunk[1]);
+			D->internalBits ^= BEEN_HERE;
+		}
+
 		if (!IsAlphaUTF8OrDigit(*wordStarts[i]) ) continue; // we only composite words, not punctuation or quoted stuff
 		if (IsDate(wordStarts[i])) continue;// 1 word date, caught later
 		// check for dates
@@ -770,10 +778,11 @@ void MarkAllImpliedWords()
 		{
 			NextInferMark();
 			MarkFacts(0, true, MakeMeaning(FindWord((char*)"~dateinfo")), i, i, false, false);
+			MarkFacts(0, true, MakeMeaning(FindWord((char*)"~formatteddate")), i, i, false, false);
 		}
 
 		int number = IsNumber(wordStarts[i]);
-		if (number)
+		if (number && number != NOT_A_NUMBER)
 		{
 			if (!wordCanonical[i][1] || !wordCanonical[i][2]) // 2 digit or 1 digit
 			{
