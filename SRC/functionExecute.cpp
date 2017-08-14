@@ -1926,6 +1926,7 @@ static FunctionResult RespondCode(char* buffer)
 	char arguments[MAX_ARG_LIMIT+1][SIZELIM];
 	if (planning) return FAILRULE_BIT;	// cannot call from planner
 	bool fail = false;
+	bool testing = false;
 	// if a last argument exists (FAIL) then return failure code if doesnt generate output to user
 	unsigned int  i;
 	for (i = 1; i < MAX_ARG_LIMIT; ++i)
@@ -1944,6 +1945,12 @@ static FunctionResult RespondCode(char* buffer)
 			fail = true;
 			*arguments[i] = 0;
 		}
+		if (!stricmp(a, (char*)"TEST") && !*ARGUMENT(i + 1)) // last argument
+		{
+			testing = true;
+			*arguments[i] = 0;
+		}
+
 	}
 	*arguments[i] = 0;
 	int oldIndex = responseIndex;
@@ -2028,7 +2035,9 @@ static FunctionResult RespondCode(char* buffer)
 				ChangeDepth(-1,name);
 				return FAILRULE_BIT;
 			}
+			if (testing) hypotheticalMatch = true;
 			result = PerformTopic(0,buffer,rule,id);
+			hypotheticalMatch = false;
 			ChangeDepth(-1,name);
 			if (pushed) PopTopic();
 
@@ -2787,6 +2796,15 @@ static FunctionResult KeepHistoryCode(char* buffer)
 	return NOPROBLEM_BIT;
 }
 
+static FunctionResult GetTagCode(char* buffer)
+{
+	char* arg1 = ARGUMENT(1);
+	int n = atoi(arg1);
+	if (n < 1 || n > wordCount) return FAILRULE_BIT;
+	strcpy(buffer, wordTag[n]->word);
+	return NOPROBLEM_BIT;
+}
+
 static FunctionResult SetTagCode(char* buffer)
 {
 	char* arg1 = ARGUMENT(1);
@@ -2794,7 +2812,22 @@ static FunctionResult SetTagCode(char* buffer)
 	if (n < 1 || n > wordCount) return FAILRULE_BIT;
 	char* arg2 = ARGUMENT(2);
 	if (*arg2 != '~') return FAILRULE_BIT;
+#ifdef TREETAGGER
+	if (wordTag[n])
+	{
+		char oldtag[MAX_WORD_SIZE];
+		strcpy(oldtag, wordTag[n]->word);
+		*oldtag = '_';
+		WORDP Y = FindWord(oldtag);
+		if (Y) posValues[n] ^= Y->properties;  // remove old pos tag values
+	}
+#endif	
 	wordTag[n] = StoreWord(arg2);
+#ifdef TREETAGGER
+	*arg2 = '_';
+	WORDP X = FindWord(arg2);
+	if (X) posValues[n] |= X->properties; // new english pos tag references
+#endif
 	return NOPROBLEM_BIT;
 }
 
@@ -2828,8 +2861,15 @@ static FunctionResult SetCanonCode(char* buffer)
 	WORDP D = StoreWord(arg2);
 	wordCanonical[n] = D->word;
 	if (!IsUpperCase(*wordCanonical[n]))
+	{
 		canonicalLower[n] = D;
-    else canonicalUpper[n] = D; 
+		canonicalUpper[n] = NULL;
+	}
+	else
+	{
+		canonicalLower[n] = NULL;
+		canonicalUpper[n] = D;
+	}
 		
 	return NOPROBLEM_BIT;
 }
@@ -3047,7 +3087,7 @@ static FunctionResult InputCode(char* buffer)
 		++at;
 	}
 
-	if (!strcmp(lastInputSubstitution,buffer)) return FAILRULE_BIT; // same result as before, apparently looping
+	if (!strcmp(lastInputSubstitution,buffer) && *buffer) return FAILRULE_BIT; // same result as before, apparently looping
 
 	if (showInput) Log(ECHOSTDTRACELOG,(char*)"^input: %s\r\n",buffer);
 	else if (trace & TRACE_FLOW) Log(STDTRACELOG,(char*)"^input given: %s\r\n",buffer);
@@ -4385,6 +4425,7 @@ FunctionResult MemoryFreeCode(char* buffer)
 		if (wordStarts[i] && wordStarts[i] < memoryText)
 			wordStarts[i] = 0;	// do not point to released space
 	}
+	ClearTriedData();
 	ClearUserVariables(memoryText); // reset any above and delete from list but leave alone ones below
 	ResetFactSystem(memoryFact);// empties all fact sets and releases facts above marker
 	DictionaryRelease(memoryDict,memoryText); // word & text
@@ -5661,19 +5702,58 @@ static FunctionResult POSCode(char* buffer)
 		MakeLowerCopy(buffer,arg2);
 		return NOPROBLEM_BIT;
 	}
-	else if (!stricmp(arg1,(char*)"canonical"))
+	else if (!stricmp(arg1, (char*)"canonical"))
 	{
-		WORDP entry = NULL,canonical = NULL;
+		WORDP entry = NULL, canonical = NULL;
 		uint64 sysflags = 0;
 		uint64 cansysflags = 0;
 		WORDP revise;
-		if (*arg2) GetPosData(-1,arg2,revise,entry,canonical,sysflags,cansysflags);
-		if (canonical) strcpy(buffer,canonical->word);
-		else if (entry) strcpy(buffer,entry->word);
-		else strcpy(buffer,arg2);
+		if (*arg2) {
+			if (*arg3) {
+				if (*arg3 != '~') return FAILRULE_BIT;
+
+				WORDP D = FindWord(arg2);
+				if (D) {
+					WORDP E = RawCanonical(D);
+					if (E && *E->word == '`') {
+						char canons[MAX_WORD_SIZE]; // canonicals separated by `
+						char postags[MAX_WORD_SIZE]; // Postags separated by spaces, no ~
+
+						strcpy(canons, E->word);
+						char* end = strrchr(canons, '`');
+						*++end = 0;
+						strcpy(postags, end + 1);
+						char *ptr = postags;
+
+						char tag[MAX_WORD_SIZE];
+						int p = -1;
+						while (*ptr) {
+							p++;
+							ptr = ReadCompiledWord(ptr, tag);
+							if (!stricmp(tag, arg3 + 1)) {
+								// found the postag we are seeking
+								ptr = canons;
+								for (int i = 0; i < p; ++i) {
+									ptr = strchr(++ptr, '`');
+								}
+								char *canon = ++ptr;
+								ptr = strchr(ptr, '`');
+								*ptr = 0;
+
+								canonical = FindWord(canon);
+								break;
+							}
+						}
+					}
+				}
+			}
+			if (!canonical) GetPosData(-1, arg2, revise, entry, canonical, sysflags, cansysflags);
+		}
+		if (canonical) strcpy(buffer, canonical->word);
+		else if (entry) strcpy(buffer, entry->word);
+		else strcpy(buffer, arg2);
 		return NOPROBLEM_BIT;
 	}
-
 	else if (!stricmp(arg1,(char*)"integer"))
 	{
 		strcpy(buffer,arg2);
@@ -5720,7 +5800,7 @@ static void RhymeWord(WORDP D, uint64 flag)
 
 	if (FACTSET_COUNT(rhymeSet) >= 500) return; //   limit
 	WORDP E = StoreWord((char*)"1");
-	AddFact(spellSet,CreateFact(MakeMeaning(E,0),MakeMeaning(FindWord((char*)"word")),MakeMeaning(D,0),FACTTRANSIENT|FACTDUPLICATE));
+	AddFact(spellSet,CreateFact(MakeMeaning(E,0),MakeMeaning(StoreWord((char*)"word")),MakeMeaning(D,0),FACTTRANSIENT|FACTDUPLICATE));
 }
 
 static FunctionResult RhymeCode(char* buffer) 
@@ -5928,7 +6008,7 @@ static void SpellOne(WORDP D, uint64 data)
 	if (MatchesPattern(D->word,match))
 	{
 		WORDP E = StoreWord((char*)"1");
-		AddFact(spellSet,CreateFact(MakeMeaning(E,0),MakeMeaning(FindWord((char*)"word")),MakeMeaning(D,0),FACTTRANSIENT|FACTDUPLICATE));
+		AddFact(spellSet,CreateFact(MakeMeaning(E,0),MakeMeaning(StoreWord((char*)"word")),MakeMeaning(D,0),FACTTRANSIENT|FACTDUPLICATE));
 	}
 }
 
@@ -6479,7 +6559,7 @@ static FunctionResult DisableCode(char* buffer)
 		bool crosstopic;
 		char* rule;
 		char* dot = strchr(arg2,'.');
-		if (*arg2 == '~') 
+		if (*arg2 == '~' && !arg2[1])  // current rule
 		{
 			rule = currentRule;
 			id = currentRuleID;
@@ -7313,15 +7393,12 @@ FACT* AddToList(FACT* newlist,FACT* oldfact,GetNextFact getnext,SetNextFact setn
 	FACT* prior = newlist;
 	while (newlist)
 	{
-		if (newlist < oldfact) // add fact into list by insert
-		{
-			(*setnext)(oldfact, newlist);
-			(*setnext)(prior, oldfact);
-			break;
-		}
+		if (newlist < oldfact) break; // add fact into list by insert
 		prior = newlist;
 		newlist = (*getnext)(newlist);
 	}
+	(*setnext)(oldfact, newlist);
+	if (prior) (*setnext)(prior, oldfact);
 	return start;
 }
 
@@ -8468,6 +8545,7 @@ SystemFunctionInfo systemFunctionSet[] =
 	{ (char*)"^querytopics",QueryTopicsCode,1,0,(char*)"get topics of which 1st arg is a keyword?"}, 
 
 	{ (char*)"\r\n---- Marking & Parser Info",0,0,0,(char*)""},
+	{ (char*)"^gettag",GetTagCode,1,SAMELINE,(char*)"for word n, return its postag concept" },
 	{ (char*)"^mark",MarkCode,STREAM_ARG,SAMELINE,(char*)"mark word/concept in sentence"},
 	{ (char*)"^marked",MarkedCode,1,SAMELINE,(char*)"BOOLEAN - is word/concept marked in sentence"}, 
 	{ (char*)"^position",PositionCode,STREAM_ARG,SAMELINE,(char*)"get FIRST or LAST position of an _ var"}, 
@@ -8501,7 +8579,7 @@ SystemFunctionInfo systemFunctionSet[] =
 	{ (char*)"^compute",ComputeCode,3,SAMELINE,(char*)"perform a numerical computation"}, 
 	{ (char*)"^isnumber",IsNumberCode,1,SAMELINE,(char*)"is this an integer or double number or currency"}, 
 	{ (char*)"^timefromseconds",TimeFromSecondsCode,VARIABLE_ARG_COUNT,SAMELINE,(char*)"given time/date in seconds, return the timeinfo string corresponding to it"}, 
-	{ (char*)"^timeinfofromseconds",TimeInfoFromSecondsCode,1,SAMELINE,(char*)"given time/date in seconds, returning a sequence of 6 matchvariables (sec min hr date mo yr)"}, 
+	{ (char*)"^timeinfofromseconds",TimeInfoFromSecondsCode,VARIABLE_ARG_COUNT,SAMELINE,(char*)"given time/date in seconds and indicator of daylight savings or not, returning a sequence of 6 matchvariables (sec min hr date mo yr)"},
 	{ (char*)"^timetoseconds",TimeToSecondsCode,VARIABLE_ARG_COUNT,SAMELINE,(char*)"given time/date a series of 6 values (sec min hr date mo yr), return the timeinfo string corresponding to it"}, 
 
 	{ (char*)"\r\n---- Debugging",0,0,0,(char*)""},

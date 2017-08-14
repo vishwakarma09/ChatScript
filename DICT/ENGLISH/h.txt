@@ -14036,7 +14036,7 @@
     crazed~1az driven insane
     half-crazed~2az 
  hunky-dory ( meanings=2 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
-    ok~1a 
+    o.k.~1a 
     hunky-dory~2az 
  higher-ranking ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
     ranking~2a 

@@ -1,7 +1,6 @@
-# ChatScript Wiki (user guides, tutorials, papers)
-**ChatScript Guide To Documentation**
-© Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 4/8/2017 cs7.31
+# ChatScript Guide To Documentation (user guides, tutorials, papers)
+<br>© Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com
+<br>Revision CS7.52
 
 ChatScript has a lot of documentation in various manuals, so knowing what to read may seem daunting.
 Here is an overview.

@@ -371,6 +371,8 @@ bool SpellCheckSentence()
 			if (altered) word = wordStarts[i] = StoreWord(newword, AS_IS)->word;
 		}
 
+		if (IsDate(word)) continue; // allow 1970/10/5 or similar
+
 		if (*word == '\'' && !word[1] && i != startWord && IsDigit(*wordStarts[i - 1]) && !stricmp(language, "english")) // fails if not digit bug
 		{
 			tokens[1] = (char*)"foot";
@@ -582,7 +584,9 @@ bool SpellCheckSentence()
 			newword[slash - word] = 0;
 			word = wordStarts[i] = StoreWord(newword, AS_IS)->word;
 		}
-		if (slash && slash != word && slash[1]) //   break apart word/word
+		char* slash1 = NULL;
+		if (slash) slash1 = strchr(slash + 1, '/');
+		if (slash && slash != word && slash[1] && !slash1) //   break apart word/word unless date
 		{
 			if ((wordCount + 2 ) >= REAL_SENTENCE_LIMIT) continue;	// no room
 			*slash = 0;

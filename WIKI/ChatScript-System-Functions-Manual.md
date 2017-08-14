@@ -1,6 +1,6 @@
 # ChatScript System Functions Manual
 © Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 6/25/2017 cs7.51
+<br>Revision 7/8/2017 cs7.52
 
 * [Topic Functions](ChatScript-System-Functions-Manual.md#topic-functions)
 * [Marking Functions](ChatScript-System-Functions-Manual.md#marking-functions)
@@ -203,6 +203,8 @@ This rule will not erase but the responding rule might.
 If the first value fails to generate an answer, it tries the second, and so on. 
 You can supply an optional last argument `FAIL`, 
 in which case it will return `FAILRULE_BIT` if it didn't fail but it didn't generate any new output either.
+You could instead supply an optiona last argument `TEST`, in which case a topic is executed to see if a rule will 
+match. If so, the tag is returned and no output is made from the topic (and no rule is used up). 
 
 If a value designates a labelled or tagged rule (e.g., `~mytopic.mylabel` or `~mytopic.1.0`) 
 then the system will skip over all rules until it reaches that rule, then begin linear scanning, 
@@ -671,7 +673,10 @@ The items you get are: seconds, minutes, hours, date in month, month name, year,
 
 This converts time data since 1970 (Unix epoch time). Analogous to `%fulltime`, which returns the
 current time in seconds. Month can be number 1-12 or name of month or abbreviation of
-month.
+month. Date-of-month must be 1 or more. Year must be on or  1970 and less than 2100.
+Optional 7th argument indicates whether time is within daylight savings or not , values can 
+be 1 or 0, t or f, T or F. Default is false.
+	
 
 
 ### `^isnumber ( value )`

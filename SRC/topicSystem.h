@@ -74,7 +74,8 @@ extern char compileVersion[NUMBER_OF_LAYERS][20];
 extern char buildStamp[NUMBER_OF_LAYERS][150];
 extern char* howTopic;
 extern bool ruleErased;
-	
+extern bool hypotheticalMatch;
+
 extern unsigned int duplicateCount;
 extern unsigned int xrefCount;
 extern bool norejoinder;

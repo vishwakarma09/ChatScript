@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1 id="chatscript-system-functions-manual">ChatScript System Functions Manual</h1>
-<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 6/25/2017 cs7.51</p>
+<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 7/8/2017 cs7.52</p>
 <ul>
 <li><a href="ChatScript-System-Functions-Manual.html#topic-functions">Topic Functions</a></li>
 <li><a href="ChatScript-System-Functions-Manual.html#marking-functions">Marking Functions</a></li>
@@ -88,7 +88,7 @@ t: () name(xxx) # explicitly add an empty pattern</code></pre>
 <p>You can give an optional tag or label to pretend the named rule had been the one to set a rejoinder and so therefore execute its rejoinders explicitly.</p>
 <h3 id="respond-value-value-..."><code>^respond ( value value ... )</code></h3>
 <p>Tests the sentence against the named value topic in responder mode to see if any rule matches (executes the rule when matched). It does not fail (though it may not generate any output), unless a rule forces it to fail or the topic requested does not exist or is disabled.</p>
-<p>This rule will not erase but the responding rule might. If the first value fails to generate an answer, it tries the second, and so on. You can supply an optional last argument <code>FAIL</code>, in which case it will return <code>FAILRULE_BIT</code> if it didn't fail but it didn't generate any new output either.</p>
+<p>This rule will not erase but the responding rule might. If the first value fails to generate an answer, it tries the second, and so on. You can supply an optional last argument <code>FAIL</code>, in which case it will return <code>FAILRULE_BIT</code> if it didn't fail but it didn't generate any new output either. You could instead supply an optiona last argument <code>TEST</code>, in which case a topic is executed to see if a rule will match. If so, the tag is returned and no output is made from the topic (and no rule is used up).</p>
 <p>If a value designates a labelled or tagged rule (e.g., <code>~mytopic.mylabel</code> or <code>~mytopic.1.0</code>) then the system will skip over all rules until it reaches that rule, then begin linear scanning, even if the topic is designated random.</p>
 <p>The <em>value</em> may be <code>~</code>, which means use the current topic you are within.</p>
 <p>It can also be <code>PENDING</code>, which means pick a topic from the pending topics stack (they are all pending being returned to but not including the current topic). Or it can be any other word, which will be a keyword of some topic to pick.</p>
@@ -295,7 +295,7 @@ u: what&#39;s your first name?
 <pre><code>_3 = ^timeinfofromseconds(%fulltime)</code></pre>
 <p>it will start at <code>_3</code>. The items you get are: seconds, minutes, hours, date in month, month name, year, day name of week.</p>
 <h3 id="timetoseconds-seconds-minutes-hours-date-of-month-month-year"><code>^timetoseconds ( seconds minutes hours date-of-month month year )</code></h3>
-<p>This converts time data since 1970 (Unix epoch time). Analogous to <code>%fulltime</code>, which returns the current time in seconds. Month can be number 1-12 or name of month or abbreviation of month.</p>
+<p>This converts time data since 1970 (Unix epoch time). Analogous to <code>%fulltime</code>, which returns the current time in seconds. Month can be number 1-12 or name of month or abbreviation of month. Date-of-month must be 1 or more. Year must be on or 1970 and less than 2100. Optional 7th argument indicates whether time is within daylight savings or not , values can be 1 or 0, t or f, T or F. Default is false.</p>
 <h3 id="isnumber-value"><code>^isnumber ( value )</code></h3>
 <p>Fails if value is not an integer, float, or currency,</p>
 <h1 id="output-functions">Output Functions</h1>

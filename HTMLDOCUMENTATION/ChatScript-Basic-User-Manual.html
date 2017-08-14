@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1 id="chatscript-basic-user-manual">ChatScript Basic User Manual</h1>
-<p>© Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 4/30/2017 cs7.41</p>
+<p>© Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 8/12/2017 cs7.53</p>
 <ul>
 <li><a href="ChatScript-Basic-User-Manual.html#overview">Overview</a></li>
 <li><a href="ChatScript-Basic-User-Manual.html#simple-topics">Simple Topics</a></li>
@@ -101,6 +101,7 @@ s: (I hate meat) really? </code></pre>
 <p><strong>Windows</strong> <br> Download and extract on a windows system into a directory (mine is called ChatScript), keeping files in their respective folders. Double click on the <code>chatscript.exe</code> file in BINARIES folder.</p>
 <p><strong>Linux</strong> <br> To run on a Linux system is not really much different. Download and extract into a directory in Linux, keeping the files in their folders. The executable that ships with the product is <code>LinuxChatScript64</code> (64-bit version) in BINARIES folder. You need to alter permissions to make it executable. Also, the Linux version defaults to server mode, so you should run it as:</p>
 <pre><code>BINARIES/LinuxChatScript64 local </code></pre>
+<p>This will NOT work if you have a 32-bit Linux and you will need to recompile on your machine. See <code>Installing and updating ChatScript</code> manual.</p>
 <p><strong>MacOs</strong> <br> With MacOS the executable file changes:</p>
 <pre><code>BINARIES/MacChatScript local </code></pre>
 <p>The system prints out a bunch of statistics as it loads data. After which is says:</p>
@@ -328,6 +329,7 @@ You can have responders intermixed with gambits.</p>
 u: GLASSES ([glasses contacts]) I don&#39;t wear glasses, but I do have contacts.
 ?: BLIND (you * blind) I am not blind.
 ?: COLORBLIND (you * [color-blind &quot;color blind&quot;]) I am not color blind. </code></pre>
+<p>Note, ChatScript is a token-oriented language (tokens generally being a collection of characters without spaces). You need to put one or more spaces after the <code>:</code> and before the label. OTHERWISE <code>?:EYECOLOR</code> is a single token and not a declaration of a rule and a label.</p>
 <p>The <code>simpletopic.top</code> file has an example topic called <code>~Childhood</code> of normal complexity (which can be understood after reading through advanced output).</p>
 <h1 id="simple-patterns">SIMPLE PATTERNS</h1>
 <p>As stated previously, a rule cannot fire unless its pattern matches, and a pattern in a rule is encased in parens (which means find the items within it in sequence).</p>

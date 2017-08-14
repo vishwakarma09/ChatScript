@@ -40,7 +40,7 @@ char* ReadDisplayOutput(char* ptr,char* buffer);
 
 int ReadTopicFiles(char* name,unsigned int build, int spell);
 char* ReadPattern(char* ptr, FILE* in, char* &data,bool macro,bool ifstatement, bool livecall = false);
-char* ReadOutput(bool nested,char* ptr, FILE* in,char* &data,char* rejoinders,char* existingRead = NULL,WORDP call = NULL, bool choice = false);
+char* ReadOutput(bool optionalBrace,bool nested,char* ptr, FILE* in,char* &data,char* rejoinders,char* existingRead = NULL,WORDP call = NULL, bool choice = false);
 char* CompileString(char* ptr);
 void ScriptWarn();
 void EndScriptCompiler();

@@ -421,7 +421,7 @@ char* WriteUserVariables(char* ptr,bool sharefile, bool compiled,char* saveJSON)
 		varthread = cell[0];
 		if (shared && !sharefile && !strnicmp(D->word,(char*)"$share_",7)) continue;
   		else if (shared && sharefile && strnicmp(D->word,(char*)"$share_",7)) continue;
-		else if ( D->word[1] !=  TRANSIENTVAR_PREFIX && (D->w.userValue || (D->internalBits & MACRO_TRACE))) // transients not dumped, nor are NULL values
+		else if ( D->word[1] !=  TRANSIENTVAR_PREFIX && D->word[1] != LOCALVAR_PREFIX && (D->w.userValue || (D->internalBits & MACRO_TRACE))) // transients not dumped, nor are NULL values
 		{
 			char* val = D->w.userValue;
 			// track json structures referred to
@@ -608,7 +608,7 @@ static char* GatherUserData(char* ptr,time_t curr,bool sharefile)
 	return ptr;
 }
 
-void WriteUserData(time_t curr)
+void WriteUserData(time_t curr, bool nobackup)
 { 
 	if (!numberOfTopics)  return; //   no topics ever loaded or we are not responding
 	if (!userCacheCount) return;	// never save users - no history
@@ -636,12 +636,12 @@ void WriteUserData(time_t curr)
 	if (filesystemOverride == NORMALFILES && (!server || serverRetryOK) && !documentMode && !callback)  
 	{
 		char fname[MAX_WORD_SIZE];
-		sprintf(fname,(char*)"%s/backup-%s_%s.bin",tmp,loginID,computerID);
-		CopyFile2File(fname, name,false);	// backup for debugging BUT NOT if callback of some kind...
+		sprintf(fname,(char*)"%s/backup-%s_%s.txt",tmp,loginID,computerID);
+		if (!nobackup) CopyFile2File(fname, name,false);	// backup for debugging BUT NOT if callback of some kind...
 		if (redo) // multilevel backup enabled
 		{
-			sprintf(fname,(char*)"%s/backup%d-%s_%s.bin",tmp,volleyCount,loginID,computerID);
-			CopyFile2File(fname,userDataBase,false);	// backup for debugging BUT NOT if callback of some kind...
+			sprintf(fname,(char*)"%s/backup%d-%s_%s.txt",tmp,volleyCount,loginID,computerID);
+			if (!nobackup) CopyFile2File(fname,userDataBase,false);	// backup for debugging BUT NOT if callback of some kind...
 		}
 	}
 #endif
@@ -664,12 +664,12 @@ void WriteUserData(time_t curr)
 #ifndef DISCARDTESTING
 		if (filesystemOverride == NORMALFILES &&  (!server || serverRetryOK)  && !documentMode  && !callback)  
 		{
-			sprintf(name,(char*)"%s/backup-share-%s_%s.bin",tmp,loginID,computerID);
-			CopyFile2File(name,userDataBase,false);	// backup for debugging
+			sprintf(name,(char*)"%s/backup-share-%s_%s.txt",tmp,loginID,computerID);
+			if (!nobackup) CopyFile2File(name,userDataBase,false);	// backup for debugging
 			if (redo)
 			{
-				sprintf(name,(char*)"%s/backup%d-share-%s_%s.bin",tmp,volleyCount,loginID,computerID);
-				CopyFile2File(name,userDataBase,false);	// backup for debugging BUT NOT if callback of some kind...
+				sprintf(name,(char*)"%s/backup%d-share-%s_%s.txt",tmp,volleyCount,loginID,computerID);
+				if (!nobackup) CopyFile2File(name,userDataBase,false);	// backup for debugging BUT NOT if callback of some kind...
 			}
 		}
 #endif

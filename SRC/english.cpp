@@ -278,28 +278,6 @@ EndingInfo adjective1[] =
 	{0},
 };
 
-bool IsDate(char* original)
-{
-	char* slash = strchr(original, '/');
-	if (!slash) slash = strchr(original, '-');
-
-	// 1/1/1990 year
-	if (IsDigit(*original) && slash && IsDigit(slash[1])) // 1/1/1970 time word?
-	{
-		if (IsDigit(slash[1]) && slash[2] && slash[3] && slash[4] && !slash[5] && atoi(slash + 1) > 1100) // finding 4 digit year
-		{
-			return true;
-		}
-	}
-
-	// 1990/1/1 
-	if (IsDigit(*original) && (slash - original) == 4 && IsDigit(slash[1])) // 1970/1/1 time word?
-	{
-		if (IsDigit(slash[1]) && atoi(original) > 1100) return true;// finding 4 digit year
-	}
-	return false;
-}
-
 static int64 ProcessNumber(int at, char* original, WORDP& revise, WORDP &entry, WORDP &canonical, uint64& sysflags, uint64 &cansysflags, bool firstTry, bool nogenerate, int start, int kind) // case sensitive, may add word to dictionary, will not augment flags of existing words
 {
 	size_t len = strlen(original);
@@ -309,12 +287,12 @@ static int64 ProcessNumber(int at, char* original, WORDP& revise, WORDP &entry, 
 
 	if (IsDate(original))
 	{
-		uint64 properties = NOUN | NOUN_NUMBER | ADJECTIVE | ADJECTIVE_NUMBER;
+		uint64 properties = NOUN | NOUN_SINGULAR;
 		canonical = entry = StoreWord(original, properties, TIMEWORD);
 		cansysflags = sysflags = entry->systemFlags | TIMEWORD;
 		return properties;
 	}
-	if (!kind) return 0; // not a date after all
+	if (kind == NOT_A_NUMBER) return 0; // not a date after all
 
 	// hyphenated word which is number on one side:   Cray-3  3-second
 	char* hyphen = strchr(original, '-');
@@ -403,7 +381,7 @@ static int64 ProcessNumber(int at, char* original, WORDP& revise, WORDP &entry, 
 			}
 			char number[MAX_WORD_SIZE];
 			strcpy(number, original); // the number before the -
-			if (IsNumber(number) && IsNumber(fraction + 1))
+			if (IsNumber(number) != NOT_A_NUMBER  && IsNumber(fraction + 1))
 			{
 				int x = atoi(number);
 				int y = atoi(fraction + 1);
@@ -436,7 +414,7 @@ static int64 ProcessNumber(int at, char* original, WORDP& revise, WORDP &entry, 
 		if (kind == PLACETYPE_NUMBER)
 		{
 			entry = StoreWord(original, properties);
-			if (at > 1 && start != at && IsNumber(wordStarts[at - 1]) && !strstr(original, (char*)"second")) // fraction not place
+			if (at > 1 && start != at && IsNumber(wordStarts[at - 1]) != NOT_A_NUMBER && !strstr(original, (char*)"second")) // fraction not place
 			{
 				double val = 1.0 / Convert2Integer(original);
 				WriteFloat(number,val);
@@ -610,6 +588,27 @@ static int64 ProcessNumber(int at, char* original, WORDP& revise, WORDP &entry, 
 		return properties;
 }
 
+bool KnownUsefulWord(WORDP entry)
+{
+	bool known = (entry) ? ((entry->properties & PART_OF_SPEECH) != 0) : false;
+	if (!known && entry && entry->systemFlags & PATTERN_WORD) known = true; // script knows it to match
+	if (!known && entry) // do we know it as concept or topic keyword?
+	{
+		FACT* F = GetSubjectNondeadHead(entry);
+		while (F)
+		{
+			if (F->verb == Mmember)
+			{
+				known = true;
+				break;
+			}
+			F = GetSubjectNondeadNext(F);
+		}
+	}
+	return known;
+}
+
+
 uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &canonical,uint64& sysflags,uint64 &cansysflags,bool firstTry,bool nogenerate, int start) // case sensitive, may add word to dictionary, will not augment flags of existing words
 { // this is not allowed to write properties/systemflags/internalbits if the word is preexisting
 	uint64 properties = 0;
@@ -643,19 +642,21 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 	}
 
 	// number processing has happened
-	unsigned int kind = IsNumber(original);
-	if (firstTry && (kind | IsDigit(*original))) 
+	int kind = IsNumber(original); 
+	if (firstTry && (kind != NOT_A_NUMBER || IsDate(original )))
 		properties = ProcessNumber(at, original, revise, entry, canonical, sysflags, cansysflags, firstTry, nogenerate, start,kind); // case sensitive, may add word to dictionary, will not augment flags of existing wordskind);
 	if (canonical && IsDigit(*canonical->word)) return properties;
 	entry = FindWord(original, 0, PRIMARY_CASE_ALLOWED);
 
 	if (externalTagger || stricmp(language, "english"))
 	{
-		if (!entry) entry  = StoreWord(original);
+		if (!entry) entry = FindWord(original, 0, SECONDARY_CASE_ALLOWED); // Try harder to find the foreign word, e.g. German wochentag -> Wochentag
+		bool foundWord = entry ? true : false;
+		if (!entry)	entry = StoreWord(original);
 		canonical = GetCanonical(entry);
 		properties = entry->properties;
 		sysflags = entry->systemFlags;
-		if (!canonical) canonical = entry;
+		if (!canonical) canonical = foundWord ? entry : DunknownWord;
 		return properties; // remote pos tagging or none
 	}
 
@@ -686,7 +687,7 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 		char* script = entry->w.conditionalIdiom;
 		if (script[1] != '=') return entry->properties; // has conditions, is not absolute and may be overruled
 	}
-	if (entry && entry->properties == 0) entry = 0; // not a word we actually know (might be phrase starter like Wait)
+	if (entry && !KnownUsefulWord(entry)) entry = 0; // not a word we actually know (might be phrase starter like Wait)
 
 	///////////// PUNCTUATION
 
@@ -735,7 +736,7 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 		if (revise) revise = entry;
 	}
 	else if (start != at && tokenControl & STRICT_CASING) {;} // believe all upper case items not at sentence start when using strict casing
-	else if (ZZ->properties & (DETERMINER|PREPOSITION|PRONOUN_POSSESSIVE|PRONOUN_BITS|AUX_VERB) && !IsNumber(original)) // prep and determiner are ALWAYS considered lowercase for parsing (which happens later than proper name extraction)
+	else if (ZZ->properties & (DETERMINER|PREPOSITION|PRONOUN_POSSESSIVE|PRONOUN_BITS|AUX_VERB) && IsNumber(original) == NOT_A_NUMBER ) // prep and determiner are ALWAYS considered lowercase for parsing (which happens later than proper name extraction)
 	{
 		entry =  canonical = ZZ;
 		original = AllocateHeap(entry->word);
@@ -841,7 +842,7 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 		// possessive pronoun-determiner like my is always a determiner, not a pronoun. 
 		if (entry->properties & (COMMA | PUNCTUATION | PAREN | QUOTE | POSSESSIVE | PUNCTUATION)) return properties;
 	}
-	bool known = (entry) ? ((entry->properties & PART_OF_SPEECH)  != 0) : false;
+	bool known = KnownUsefulWord(entry);
 	bool preknown = known;
 
 	/////// WHETHER OR NOT WE KNOW THE WORD, IT MIGHT BE ALSO SOME OTHER WORD IN ALTERED FORM (like plural noun or comparative adjective)
@@ -890,7 +891,7 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 				// can it be a number?
 				unsigned int kind =  IsNumber(noun);
 				char number[MAX_WORD_SIZE];
-				if (kind && kind != PLACETYPE_NUMBER) // do not decode seconds to second Place, but tenths can go to tenth
+				if (kind != NOT_A_NUMBER && kind != PLACETYPE_NUMBER) // do not decode seconds to second Place, but tenths can go to tenth
 				{
 					int64 val = Convert2Integer(noun);
 					if (val < 1000000000 && val >  -1000000000)
@@ -1066,7 +1067,7 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 		WORDP Y = FindWord(hyphen+1,0,LOWERCASE_LOOKUP);
 		*hyphen = '-';
 		// adjective made from counted singular noun:  6-month
-		if (X && Y && IsNumber(X->word,false))
+		if (X && Y && IsNumber(X->word,false) != NOT_A_NUMBER)
 		{
 			if (Y->properties & NOUN && !stricmp(Y->word,GetSingularNoun(Y->word, false, true))) // number with singular noun cant be anything but adjective
 			{
@@ -1212,10 +1213,10 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 			if (!properties) // since we recognize no component of the hypen, try as number stuff
 			{
 				*hyphen = 0;
-				if (IsDigit(*original) || IsDigit(hyphen[1]) ||  IsNumber(original) || IsNumber(hyphen+1))
+				if (IsNumber(original) != NOT_A_NUMBER )
 				{
 					int64 n;
-					n = Convert2Integer((IsNumber(original) || IsDigit(*original)) ? original : (hyphen+1));
+					n = Convert2Integer((IsNumber(original) != NOT_A_NUMBER || IsDigit(*original)) ? original : (hyphen+1));
 					#ifdef WIN32
 					sprintf(tmpword,(char*)"%I64d",n); 
 #else
@@ -1241,7 +1242,7 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 		else properties |= NOUN_SINGULAR;
 	}
 	if (canonical && entry) entry->systemFlags |= canonical->systemFlags & AGE_LEARNED; // copy age data across
-	else if (IS_NEW_WORD(entry) && !canonical) canonical = DunknownWord;
+	else if (entry && IS_NEW_WORD(entry) && !canonical) canonical = DunknownWord;
 
 	if (properties){;}
 	else if (tokenControl & ONLY_LOWERCASE) {;}
@@ -2551,7 +2552,7 @@ char* GetSingularNoun(char* word, bool initial, bool nonew)
 	}
 
 	if (D && D->properties & NOUN && !(D->properties & NOUN_PLURAL) && !(D->properties & (NOUN_PROPER_SINGULAR|NOUN_PROPER_PLURAL))) return D->word; //   unmarked as plural, it must be singular unless its a name
-    if (!D && IsNumber(word))  return word;
+    if (!D && IsNumber(word) != NOT_A_NUMBER)  return word;
 	if (D && D->properties & AUX_VERB) return NULL; // avoid "is" or "was" as plural noun
 
 	// check known from plural s or es
@@ -2734,7 +2735,7 @@ uint64 ProbableAdverb(char* original, unsigned int len,uint64& expectedBase) // 
 	//est
 	if (len > 4 && !strcmp(word+len-3,(char*)"est")) 
 	{
-		WORDP X = FindWord(word,len-2);
+		WORDP X = FindWord(word,len-3);
 		if (X && X->properties & ADVERB) expectedBase = ADVERB;
 		return ADVERB;
 	}
@@ -2811,6 +2812,16 @@ char* GetAdverbBase(char* word, bool nonew)
 			return D->word;
 		}
     }
+	if (len >= 5 && priorc == 'e' && lastc == 'r')
+	{
+		D = FindWord(word, len - 1, controls);
+		if (D && D->properties & ADVERB)
+		{
+			adverbFormat = MORE_FORM;
+			return D->word;
+		}
+	}
+
 	if (len > 5 && prior2c == 'e' && priorc == 's' && lastc == 't')
     {
         D = FindWord(word,len-3,controls);
@@ -2820,6 +2831,16 @@ char* GetAdverbBase(char* word, bool nonew)
 			return D->word;
 		}
     }
+	if (len > 5 && prior2c == 'e' && priorc == 's' && lastc == 't')
+	{
+		D = FindWord(word, len - 2, controls);
+		if (D && D->properties & ADVERB)
+		{
+			adverbFormat = MOST_FORM;
+			return D->word;
+		}
+	}
+
 	if ( nonew || xbuildDictionary) return NULL;
 	
 	return InferAdverb(word,len);
@@ -3006,20 +3027,34 @@ uint64 ProbableAdjective(char* original, unsigned int len,uint64 &expectedBase) 
 		}
 	}
 
-	// est -  comparative
+	// est -  comparative -- hard est
 	if (len >= 4 &&  !strcmp(word+len-3,(char*)"est")  ) 
 	{
-		WORDP X = FindWord(word,len-1);
+		WORDP X = FindWord(word,len-3);
 		if (X && X->properties & ADJECTIVE_NORMAL) expectedBase = PROBABLE_ADJECTIVE;
 		return ADJECTIVE|ADJECTIVE_NORMAL|MOST_FORM;
 	}
+	// est -  comparative -- strange st
+	if (len >= 4 && !strcmp(word + len - 3, (char*)"est"))
+	{
+		WORDP X = FindWord(word, len - 2); // starnge
+		if (X && X->properties & ADJECTIVE_NORMAL) expectedBase = PROBABLE_ADJECTIVE;
+		return ADJECTIVE | ADJECTIVE_NORMAL | MOST_FORM;
+	}
 
-	// er -  comparative
+	// er -  comparative -- harder
 	if (len >= 4 &&  !strcmp(word+len-2,(char*)"er")  ) 
 	{
-		WORDP X = FindWord(word,len-1);
+		WORDP X = FindWord(word,len-2);
 		if (X && X->properties & ADJECTIVE_NORMAL) expectedBase = ADJECTIVE;
 		return ADJECTIVE|ADJECTIVE_NORMAL|MORE_FORM;
+	}
+	// er -  comparative -- stranger
+	if (len >= 4 && !strcmp(word + len - 2, (char*)"er"))
+	{
+		WORDP X = FindWord(word, len - 1);
+		if (X && X->properties & ADJECTIVE_NORMAL) expectedBase = ADJECTIVE;
+		return ADJECTIVE | ADJECTIVE_NORMAL | MORE_FORM;
 	}
 
 	return 0;

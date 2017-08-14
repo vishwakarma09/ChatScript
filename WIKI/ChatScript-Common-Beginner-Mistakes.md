@@ -3,12 +3,21 @@
 > © Bruce Wilcox, gowilcox@gmail.com brilligunderstanding.com
 
 
-> Revision 1/17/2016 cs6.1
+> Revision 8/12/2017 cs7.53
 
 
 Here are a collection of common beginner mistakes I have seen. Many will work, they are just
 unnecessary and inefficient and potentially more obscure to read.
 
+## Failing to separate tokens with a space 
+```
+u:MYLABEL()
+```
+is not the same as
+```u: MYLABEL()
+```
+While ChatScript will automatically space around balanced things like parens or brackets, it will not do so around ordinary text,
+so `u:MYLABEL` is a single token, an ordinary word for printout, and not a rule header.
 
 ## Leading and trailing `*` in a pattern
 

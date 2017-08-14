@@ -42,7 +42,9 @@ char* SystemVariable(char* word,char* value)
 		ReportBug((char*)"No system variable %s  ",word)
 		return "";
 	}
-	return (*sysvars[index].address)(value);
+	char* var = (*sysvars[index].address)(value);
+	if (!var) return "";
+	return var;
 }
 
 void DumpSystemVariables()
@@ -79,10 +81,10 @@ static char* Sdate(char* value)
 	static char hold[50] = ".";
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
+	if (regression) return "1";
 	struct tm ptm;
  	char* x = GetTimeInfo(&ptm) + 8;
     ReadCompiledWord(x,systemValue);
-    if (regression) return "1";
     return systemValue; //   1 or 2 digit date
 }
 
@@ -111,6 +113,7 @@ static char* SdayNumberOfWeek(char* value)
 	static char hold[50] = ".";
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
+	if (regression) return "2";
 	struct tm ptm;
 	ReadCompiledWord(GetTimeInfo(&ptm),systemValue);
 	int n;
@@ -149,6 +152,7 @@ static char* Shour(char* value)
 	static char hold[50] = ".";
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
+	if (regression) return "11";
 	struct tm ptm;
 	strncpy(systemValue,GetTimeInfo(&ptm)+11,2);
 	systemValue[2] = 0;
@@ -160,6 +164,7 @@ static char* SleapYear(char* value)
 	static char hold[50] = ".";
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
+	if (regression) return "";
 	time_t rawtime;
 	time (&rawtime );
 	struct tm timeinfo;
@@ -176,6 +181,7 @@ static char* Sdaylightsavings(char* value)
 	static char hold[50] = ".";
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
+	if (regression) return "1";
 	time_t rawtime;
 	time (&rawtime );
  	struct tm timeinfo;
@@ -189,6 +195,7 @@ static char* Sminute(char* value)
 	static char hold[50] = ".";
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
+	if (regression) return "12";
 	struct tm ptm;
 	ReadCompiledWord(GetTimeInfo(&ptm)+14,systemValue);
 	systemValue[2] = 0;
@@ -252,6 +259,7 @@ static char* Ssecond(char* value)
 	static char hold[50] = ".";
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
+	if (regression) return "12";
 	struct tm ptm;
     ReadCompiledWord(GetTimeInfo(&ptm)+17,systemValue);
     systemValue[2] = 0;
@@ -263,6 +271,7 @@ static char* Svolleytime(char* value)
 	static char hold[50] = ".";
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
+	if (regression) return "12";
 	clock_t diff = ElapsedMilliseconds() - startTimeInfo;
     sprintf(systemValue,(char*)"%u",(unsigned int)diff);
     return systemValue;
@@ -273,6 +282,7 @@ static char* Stime(char* value)
 	static char hold[50] = ".";
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
+	if (regression) return "01:40";
 	struct tm ptm;
     strncpy(systemValue,GetTimeInfo(&ptm)+11,5);
     systemValue[5] = 0;
@@ -322,6 +332,7 @@ static char* Syear(char* value)
 	static char hold[50] = ".";
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
+	if (regression) return "2017";
 	struct tm ptm;
     ReadCompiledWord(GetTimeInfo(&ptm)+20,systemValue);
     return (regression) ? (char*)"1951" : systemValue;
@@ -332,6 +343,7 @@ static char* Srand(char* value) // 1 .. 100
 	static char hold[50] = ".";
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
+	if (regression) return "0";
 	sprintf(systemValue,(char*)"%d",random(100)+1);
 	return systemValue;
 }
@@ -710,7 +722,7 @@ static char* SoriginalInput(char* value)
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
 	char* at = SkipWhitespace(mainInputBuffer); 
-	if (*at == '[') // skip oob data
+	if (at && *at == '[') // skip oob data
 	{
 		int depth = 1;
 		bool quote = false;
@@ -821,6 +833,18 @@ static char* Stense(char* value)
 	else return "present";
 }
 
+static char* SexternalTagging(char* value)
+{
+	static char hold[50] = ".";
+	if (value) return AssignValue(hold, value);
+	if (*hold != '.') return hold;
+#ifdef TREETAGGER
+	return externalPostagger ? (char*)"1" : (char*)"";
+#else
+	return "";
+#endif
+}
+
 static char* StokenFlags(char* value) 
 {
 	static char hold[50] = ".";
@@ -923,7 +947,7 @@ static char* SlastQuestion(char* value)
 	char* sentence = responseData[responseOrder[responseIndex-1]].response;
 	size_t len = strlen(sentence);
 	return (sentence[len-1] == '?') ? (char*)"1" : (char*)"";
-}
+}  
 
 static char* SoutputRejoinder(char* value)
 {
@@ -1029,7 +1053,8 @@ SYSTEMVARIABLE sysvars[] =
 	{ (char*)"%quotation",Squotation,(char*)"Boolean - is the current input a quotation"},
 	{ (char*)"%sentence",Ssentence,(char*)"Boolean - does it seem like a sentence - has subject and verb or is command"}, 
 	{ (char*)"%tense",Stense,(char*)"Tense of current input (present, past, future)"}, 
-	{ (char*)"%tokenflags",StokenFlags,(char*)"Numeric value of all tokenflags"}, 
+	{ (char*)"%externalTagging",SexternalTagging,(char*)"Boolean - is external pos-tagging enabled" },
+	{ (char*)"%tokenflags",StokenFlags,(char*)"Numeric value of all tokenflags"},
 	{ (char*)"%user",Suser,(char*)"String - user login name suppled"}, 
 	{ (char*)"%userfirstline",SuserFirstLine,(char*)"Numeric volley count at start of session"}, 
 	{ (char*)"%userinput",SuserInput,(char*)"Boolean - is input coming from user"}, 

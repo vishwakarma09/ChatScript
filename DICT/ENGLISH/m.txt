@@ -8331,7 +8331,7 @@
     must~1n 
  must ( meanings=3 glosses=3 NOUN_ABSTRACT AUX_VERB_FUTURE NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR ADJECTIVE_NOT_PREDICATE COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:NOUN ) comparative=muster 
     moldiness~1nz (^staleness~1) the quality of smelling or tasting old or stale or mouldy
-    must~2nz (^essential~1) a necessary or essential thing
+    must~2nz (^grape_juice~1) a necessary or essential thing
     must~3az highly recommended
  moldiness ( meanings=1 NOUN NOUN_SINGULAR COMMON1 NOUN_NODETERMINER ) 
     mustiness~1n 

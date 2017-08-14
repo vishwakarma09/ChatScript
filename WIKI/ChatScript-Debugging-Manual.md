@@ -1,6 +1,6 @@
 # ChatScript Debugging Manual
 © Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com<br>
-<br>Revision 6/25/2017 cs7.51
+<br>Revision 8/12/2017 cs7.53
 
 You've written script. It doesn't work. Now what? Now you need to debug it, fix it, and
 recompile it. Debugging is mostly a matter of tracing what the system does testpaand
@@ -107,6 +107,7 @@ the above : statement show the list:
 ---- Document Processing -
 :document - Switch input to named file/directory as a document {single, echo}
 :wikitext - read wiki xml and write plaintext
+:tsv	- convert a tab-delimited spreadsheet into CS table format, with double quotes around any string needing it
 
 ---- Analytics -
 :abstract     - Display overview of ChatScript topics

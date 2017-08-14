@@ -773,7 +773,7 @@ nextsearch:  //   can do multiple searches, thought they have the same basemark 
 				}
 				else choice = wildcardCanonicalText[wild];
 			}
-			else if (choice[0] == USERVAR_PREFIX) choice = GetUserVariable(choice);
+			else if (choice[0] == USERVAR_PREFIX && choice[1]) choice = GetUserVariable(choice);
 			else if (choice[0] == SYSVAR_PREFIX && choice[1]) choice = SystemVariable(choice,NULL);
 			else if (choice[0] == '@' )
 			{

@@ -376,6 +376,7 @@ static char* HandleQuoter(char* ptr,char** words, int& count)
 				++end; // subsume the closing marker
 				strncpy(buf,ptr,end-ptr);
 				buf[end-ptr] = 0;
+				buf[MAX_WORD_SIZE - 25] = 0; // force safe limit
 				++count;
 				words[count] = AllocateHeap(buf); 
 				ReleaseInfiniteStack();
@@ -479,9 +480,10 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 				return ptr + 1; // split up quote marks
 			else // see if merely highlighting a word
 			{
-				char word[MAX_WORD_SIZE];
+				char* word = AllocateStack(NULL,INPUT_BUFFER_SIZE,false,false);
 				char* tail = ReadCompiledWord(ptr, word);
 				char* close = strchr(word + 1, '"');
+				ReleaseStack(word);
 				if (close && !strchr(word, ' ')) // we dont need quotes
 				{
 					if (tokenControl & LEAVE_QUOTE) return tail;
@@ -572,6 +574,35 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 
 	// check for ordinary integers whose commas may be confusing
 	if ((IsDigit(token[0])|| IsDigit(token[1])) && IsDigitWord(token, true)) return ptr + strlen(token);
+
+	// check for date
+	if (IsDate(token)) return ptr + strlen(token);
+
+	// check for two numbers separated by a hyphen
+	char* hyp = strchr(token, '-');
+	if (hyp && IsDigit(*token)) 
+	{
+		char* at = hyp;
+		while (*++at && IsDigit(*at)) { ; }
+		char* at1 = hyp;
+		while (--at1 != token && IsDigit(*--at1)) { ; }
+		if (at1 == token && *at == 0) return ptr + (hyp - token);
+	}
+	if (hyp && !strchr(hyp+1,'-')) // - used as measure separator 
+	{
+		if ((hyp[1] == 'x' || hyp[1] == 'X') && hyp[1] == '-') // measure like 2ft-x-5ft
+		{
+			ptr[hyp - token] = ' ';
+			if (hyp[2] == '-') ptr[hyp + 2 - token] = ' ';
+			return ptr + (hyp - token);
+		}
+		else if ((IsDigit(*token) || (*token == '.' && IsDigit(token[1]))) && IsAlphaUTF8(hyp[1]) && !(tokenControl & TOKEN_AS_IS)) // break apart measures like 4-ft except when penntag strict casing
+		{
+			ptr[hyp - token] = ' ';
+			return ptr + (hyp - token);	//   treat as space
+		}
+		else if (hyp[1] == '-') return ptr + (hyp - token); // the anyways-- break 
+	}
 
 	// find current token which has comma after it and separate it, like myba,atat,joha
 	char* comma = strchr(token + 1, ',');
@@ -757,27 +788,7 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 	if (!strnicmp(token,"https://",8) || !strnicmp(token,"http://",7)) return after;
 	if (*priorToken != '/' && IsFraction(token)) return after; // fraction?
 
-	// check for date (4 digit after hyphen or before hypen)
-	if (IsDigit(token[0]) && IsDigit(token[1]) && IsDigit(token[2]) && IsDigit(token[3]) &&
-		(token[4] == '-' || token[4] == '/'))
-	{
-		if (IsDigit(token[5])) return ptr + strlen(token);
-	}
-	int pre = lsize - 5; // year separate at back
-	if ((token[pre] == '-' || token[pre] == '/') && IsDigit(token[pre+1]) &&  IsDigit(token[pre+2]) && IsDigit(token[pre+3]) && IsDigit(token[pre+4]))
-	{
-		char* at = token-1;
-		while (*++at && (IsDigit(*at) || *at == '-' || *at == '/')) {;}
-		if (!*at) // is pure number of some kind so can be date
-		{
-			char* hyphen = strchr(token,'-');
-			if (!hyphen) hyphen = strchr(token,'/');
-			if (hyphen == token) return ptr+1;
-			if (hyphen)	return ptr + (hyphen - token);	// break off regardless
-		}
-	}
-	
-	// check for place number
+															   // check for place number
 	char* place = ptr;
 	while (IsDigit(*place)) ++place;
 	if (!stricmp(language, "english") && (!stricmp(place,"st") || !stricmp(place,"nd") || !stricmp(place,"rd"))) return end;
@@ -842,23 +853,7 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 				else if (ptr[2] == ' ' || !ptr[2]) return ptr+2;
 				else if ((ptr[3] == ' ' || !ptr[3]) && IsDigit(ptr[2])) return ptr+3;
 			} 
-			else if (c == '-') // - used as measure separator or arithmetic
-			{
-				if (IsDigit(*start) && IsDigit(next)) break; // minus
-				if ((next == 'x' || next == 'X') && ptr[2] == '-') // measure like 2ft-x-5ft
-				{
-					ptr[2] = ' ';
-					*ptr = ' ';
-					break;
-				}
-				else if ((IsDigit(*start) || (*start == '.' && IsDigit(start[1]))) && IsAlphaUTF8(next) && !(tokenControl & TOKEN_AS_IS)) // break apart measures like 4-ft except when penntag strict casing
-				{
-					*ptr = ' ';
-					break;	//   treat as space
-				}
-				else if (next == '-' ) 
-					break; // the anyways-- break 
-			}
+			
 			// number before things? 8months but not 24%  And dont split 1.23 or time words 10:30 and 30:20:20. dont break 6E
 			if (IsDigit(*start) && IsDigit(*(ptr-1)) && !IsDigit(c) && c != '%' && c != '.' && c != ':' && ptr[1] && ptr[2] && ptr[1] != ' ' && ptr[2] != ' ')
 			{
@@ -876,7 +871,7 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 			if ( c == ']' || c == ')') break; //closers
 			if ((c == 'x' || c== 'X') && IsDigit(*start) && IsDigit(next)) break; // break  4x4
 			// allow 24%
-			if (kind & ARITHMETICS && IsDigit(next) && IsDigit(*(ptr-2))  && c != '/' && c != '.' && IsDigit(*start) && !(tokenControl & TOKEN_AS_IS)) 
+			if (c != '-' && kind & ARITHMETICS && IsDigit(next) && IsDigit(*(ptr-2))  && c != '/' && c != '.' && IsDigit(*start) && !(tokenControl & TOKEN_AS_IS)) 
 				break;  // split numeric operator like  60*2 => 60 * 2  but 60 1/2 stays // 1+1=  dont BREAK APART word-number like Ja-1
 		}
 
@@ -990,19 +985,19 @@ char* Tokenize(char* input,int &mycount,char** words,bool all,bool nomodify,bool
 		int oldCount = count;
 		if (!*ptr) break; 
 		char* end = FindWordEnd(ptr,priorToken,words,count,nomodify,oobStart,oobJson);
-		if (count != oldCount)	// FindWordEnd performed allocation already 
-		{
-			if (count > 0) strcpy(priorToken,words[count]);
-			ptr = SkipWhitespace(end);
-			continue;
-		}
-		if ((end-ptr) > (MAX_WORD_SIZE-3)) 
+		if ((end - ptr) > (MAX_WORD_SIZE - 3)) // too big to handle, suppress it.
 		{
 			char word[MAX_WORD_SIZE];
-			strncpy(word,ptr,MAX_WORD_SIZE - 25);
-			word[MAX_WORD_SIZE-25] = 0;
-			ReportBug("Token too big: %s size %d limited to %d\r\n",word, (end-ptr), MAX_WORD_SIZE-25);
+			strncpy(word, ptr, MAX_WORD_SIZE - 25);
+			word[MAX_WORD_SIZE - 25] = 0;
+			ReportBug("Token too big: %s size %d limited to %d\r\n", word, (end - ptr), MAX_WORD_SIZE - 25);
 			end = ptr + MAX_WORD_SIZE - 25; // abort, too much jammed together. no token to reach MAX_WORD_SIZE
+		}
+		if (count != oldCount)	// FindWordEnd performed allocation already 
+		{
+			if (count > 0) strcpy(priorToken, words[count]);
+			ptr = SkipWhitespace(end);
+			continue;
 		}
 		if (*ptr == ' ')	// FindWordEnd removed stage direction start
 		{
@@ -1700,6 +1695,9 @@ void ProcessSplitUnderscores()
 		char* under = strchr(original,'_');
 		if (!under) continue;
 
+		// dont split if email or url
+		if (strchr(original, '@') || strchr(original, '.')) continue;
+
 		int index = 1;
 		while (under)
 		{
@@ -1727,7 +1725,7 @@ void ProcessCompositeNumber()
     for (int i = FindOOBEnd(1); i <= wordCount; ++i) 
     {
 		char* word = wordStarts[i];
-        bool isNumber = IsNumber(word) && !IsPlaceNumber(word) && !GetCurrency((unsigned char*) word,number);
+        bool isNumber = IsNumber(word) != NOT_A_NUMBER && !IsPlaceNumber(word) && !GetCurrency((unsigned char*) word,number);
 		size_t len = strlen(word);
         if (isNumber || (start == UNINIT && *word == '-' && i < wordCount && IsDigit(*wordStarts[i+1]))) // is this a number or part of one
         {

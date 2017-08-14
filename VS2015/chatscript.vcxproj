@@ -73,7 +73,7 @@
     <ClCompile Include="..\SRC\dictionarySystem.cpp" />
     <ClCompile Include="..\SRC\duktape\duktape.c" />
     <ClCompile Include="..\SRC\english.cpp" />
-    <ClCompile Include="..\SRC\englishtagger.cpp" />
+    <ClCompile Include="..\SRC\englishTagger.cpp" />
     <ClCompile Include="..\SRC\evserver.cpp" />
     <ClCompile Include="..\SRC\factSystem.cpp" />
     <ClCompile Include="..\SRC\javascript.cpp" />

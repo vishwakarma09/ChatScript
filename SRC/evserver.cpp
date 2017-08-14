@@ -54,6 +54,7 @@ Handling client:
 
 #include <vector>
 #include <algorithm>
+extern char serverLogfileName[200];
 extern bool serverctrlz;
 #define CLIENT_CHUNK_LENGTH 4*1024
 #define HIDDEN_OVERLAP 103	// possible concealed data
@@ -471,6 +472,7 @@ int evsrv_init(const string &interfaceKind, int port, char* arg) {
     ev_io_start(l_g, &ev_accept_r_g);
 	Log(SERVERLOG, "  evserver: running pid: %d\r\n",getpid());
 	printf( "  evserver: running pid: %d\r\n", getpid());
+	if (forkcount > 1) sprintf(serverLogfileName, (char*)"%s/serverlog%d-%d.txt", logs, port, getpid());
 
     return 1;
 }

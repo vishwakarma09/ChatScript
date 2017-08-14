@@ -3,8 +3,6 @@
 # FRACTION_NUMBER is a word that implies a faction value like half
 Zero 0 REAL_NUMBER
 Null 0 REAL_NUMBER
-ein 1 REAL_NUMBER
-eine 1 REAL_NUMBER
 eins 1 REAL_NUMBER
 erste 1 WORD_NUMBER
 einst 1  WORD_NUMBER 

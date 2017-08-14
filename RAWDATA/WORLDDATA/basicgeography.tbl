@@ -203,6 +203,7 @@ table: ~capital (^base ^city)
 ^addproperty(^city  NOUN_PROPER_SINGULAR NOUN LOCATIONWORD NO_PROPER_MERGE)
 
 DATA:
+Oz  "Emerald City"
 
 # state Capitals
 Utah Salt_Lake_City
@@ -557,6 +558,11 @@ DATA:
  part Micronesia ~country ["Republic of Nauru" ( Nauru ) Kiribati]
  part Earth ~gulf "Gulf of Guinea" 
  part "Gulf of Guinea" ~country "Democratic Republic of Sao Tome and Principe" ( "Sao Tome and Principe" )
+
+ # fictional countries
+part Pacific_Ocean ~country [Oz Atlantis "Country of the Blind" Erewhon Lilliput Utopia ]
+
+part Tibet ~mountain Shangri-La
 
  part Mediterranean_Sea ~country Aruba
 # COUNTRY components (states or countries)

@@ -1846,7 +1846,7 @@
     tread~3nz (^contact~3) the part that makes contact with the ground
     tread~4nz (^surface~2) the grooved surface of a pneumatic tire
     tread~5vz brace by pressing the foot against the center
-    tread~6vz mate with
+    tread~6vz (^copulate~1) mate with
     tread~7vz crush as if by treading on
     trample~4v 
     step~16v 
@@ -2966,7 +2966,7 @@
     take_away~1v 
     take~5vz ascertain or determine by measuring, computing or take a reading from a dial
     assume~2v 
-    take~7vz be seized or affected in a specified way
+    take~7vz (^become~1) be seized or affected in a specified way
     study~11v 
     read~5v 
     submit~1vz accept or undergo, often unwillingly
@@ -2979,7 +2979,7 @@
     aim~11v 
     have~7v 
     get_hold_of~3vz get into one's hands, take physically
-    take~20vz travel or go by means of a certain kind of transportation, or a certain route
+    take~20vz (^have_intercourse~1) travel or go by means of a certain kind of transportation, or a certain route
     drive~26v 
     strike~21v 
     direct~23v 
@@ -10691,16 +10691,14 @@
     Tribes_of_Israel~1nz (^tribe~1) twelve kin groups of ancient Israel each traditionally descended from one of the twelve sons of Jacob
  third_house ( meanings=1 NOUN NOUN_SINGULAR ) 
     pressure_group~1n 
- territorial ( meanings=7 glosses=4 NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR COMMON4 posdefault:ADJECTIVE ) 
-    territorial_reserve~1n 
-    territorial~2nz (^soldier~2) nonprofessional soldier member of a territorial military unit
-    territorial~3az belonging to the territory of any state or ruler
-    territorial~4az displaying territoriality
-    territorial~5az of or relating to a territory
-    territorial~6az 
-    territorial~7az 
+ territorial ( meanings=5 glosses=3 ADJECTIVE ADJECTIVE_NORMAL COMMON4 posdefault:ADJECTIVE ) 
+    territorial~1az belonging to the territory of any state or ruler
+    territorial~2az displaying territoriality
+    territorial~3az of or relating to a territory
+    territorial~4az 
+    territorial~5az 
  territorial_reserve ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
-    territorial~1nz (^guard~7) a territorial military unit
+    territorial_reserve~1nz (^guard~7) a territorial military unit
  Territorial_Army ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
     Territorial_Army~1nz (^territorial_reserve~1) British unit of nonprofessional soldiers organized for the defense of Great Britain
  terrorist_organization ( meanings=1 NOUN NOUN_SINGULAR ) 

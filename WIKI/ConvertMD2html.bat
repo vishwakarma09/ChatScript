@@ -15,6 +15,8 @@ pandoc ChatScript-System-Variables-and-Engine-defined-Concepts.md -s -o ../HTMLD
 pandoc ChatScript-Command-Line-Parameters.md -s -o ../HTMLDOCUMENTATION/ChatScript-Command-Line-Parameters.html
 pandoc Installing-and-Updating-ChatScript.md -s -o ../HTMLDOCUMENTATION/Installing-and-Updating-ChatScript.html
 pandoc ChatScript-Multiple-Bots.md -s -o ../HTMLDOCUMENTATION/ChatScript-Multiple-Bots.html
+pandoc ChatScript-Common-Beginner-Mistakes.md -s -o ../HTMLDOCUMENTATION/ChatScript-Common-Beginner-Mistakes.html
+
 
 pandoc README.md -s -o ../HTMLDOCUMENTATION/README.html
 
