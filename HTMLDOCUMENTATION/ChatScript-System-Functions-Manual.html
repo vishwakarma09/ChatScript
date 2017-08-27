@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1 id="chatscript-system-functions-manual">ChatScript System Functions Manual</h1>
-<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 7/8/2017 cs7.52</p>
+<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 8/12/2017 cs7.54</p>
 <ul>
 <li><a href="ChatScript-System-Functions-Manual.html#topic-functions">Topic Functions</a></li>
 <li><a href="ChatScript-System-Functions-Manual.html#marking-functions">Marking Functions</a></li>
@@ -1049,7 +1049,7 @@ u: (%document)
 <tr class="odd">
 <td><code>canonical</code></td>
 <td>word</td>
-<td></td>
+<td>see notes</td>
 </tr>
 <tr class="even">
 <td><code>integer</code></td>
@@ -1066,6 +1066,9 @@ u: what&#39;s your first name?
    $_name = ^original(_0)
    Nice to meet you, ^pos(capitalize $_name)
    # if user enter giuditta, the rejoinder output: Nice to meet you, Giuditta </code></pre>
+<p>For ^pos(canonical), there is an optional third argument which is the concept name of the pos-tag. Foreign words may have multiple lemma forms based on part of speech. E.g., in the German dictionary you can find this entry:</p>
+<pre><code>    Informationstechnische ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=`informationstechnisch`Informationstechnische` ADJA  NN  </code></pre>
+<p>which says there are two forms of canonical, one for ADJA (adjective) and one for NN (noun). If you don't specify a 3rd argument, you get the first one (ADJA). If you specify <code>~ADJA</code> you get the first and if you specify <code>~NN</code> you get the second.</p>
 <h3 id="decodeinputtoken-number"><code>^decodeInputtoken ( number )</code></h3>
 <p>Display the text values of tokenflag bits. You can pass it <code>%token</code> to see the meanings of the current sentence analysis or <code>$cs_token</code> to see what you have current set as token controls.</p>
 <h3 id="decodepos-pos-location"><code>^decodepos ( pos location )</code></h3>

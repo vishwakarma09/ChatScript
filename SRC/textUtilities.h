@@ -122,6 +122,7 @@ WORDP BUILDCONCEPT(char* word) ;
 void RemoveTilde(char* output);
 double Convert2Float(char* original);
 char* RemoveEscapesWeAdded(char* at);
+bool IsComparator(char* word);
 void ConvertNL(char* ptr);
 char* IsSymbolCurrency(char* ptr);
 void ComputeWordData(char* word, WORDINFO* info);
@@ -167,6 +168,9 @@ unsigned char* GetCurrency(unsigned char* ptr,char* &number);
 bool IsCommaNumberSegment(char* word);
 bool IsRomanNumeral(char* word, uint64& val);
 char* WriteFloat(char* buffer, double value, int useNumberStyle = NOSTYLE_NUMBERS);
+unsigned int UTFStrlen(char* ptr);
+unsigned int UTFPosition(char* ptr, unsigned int pos);
+unsigned int UTFOffset(char* ptr, char* c);
 
 // conversion reoutines
 void MakeLowerCase(char* ptr);

@@ -1738,7 +1738,7 @@ void ProcessCompositeNumber()
             if (i != wordCount && i != 1) // middle words AND and , 
 			{
 				// AND between words 
-				if (!strnicmp((char*)"and",word,len)) 
+				if (!strnicmp((char*)"and",word,len) || !strnicmp((char*)"&", word, len))
 				{
 					end = i;
 					if (!IsDigit(*wordStarts[i-1]) && !IsDigit(*wordStarts[i+1])) // potential word number 

@@ -205,14 +205,15 @@ u: () \[ action=wave \] How are you?
 But that gets messy and if you output multiple messages, you cannot easily combine distinct OOB messages into a single composite OOB. Therefore the usual technique is to
 define a macro that holds OOB data and use a postprocessing topic to output it at the end.
 ```
-outputmacro: ^OOB(^value) $$oob = ^join($$oob " " ^value)
+outputmacro: ^OOB(^value) $oob = ^join($oob " " ^value)
 
-topic: ~introductions keep repeat ()  # normal tppic 
-u: () ^OOB(action=wave ) How are you?  # request oob
+topic: ~introductions keep repeat () 
+u: () ^OOB(action=wave ) How are you? 
 
 topic: ~postprocess system repeat()
-t: ($$oob) ^postprintbefore( \[ $$oob \] ) # put all oob in front
+t: ( $oob ) ^postprintbefore( \[ $oob \] ) 
 ```
+In the above code use $$oob instead of $oob (pdf converter didnt like it)
 
 # Changing input token processing
 
@@ -221,17 +222,20 @@ happening which could make a mess of foreign names (or even normal English ones 
 ```
 # in your bot definition make a copy of your normal $cs_token
 outputmacro: yourbot() 
-	$cs_token =  #DO_INTERJECTION_SPLITTING | #DO_SUBSTITUTE_SYSTEM | #DO_SPELLCHECK | #DO_PARSE
+	$cs_token =  hashDO_INTERJECTION_SPLITTING 
+	$cs_token |=   hashDO_SUBSTITUTE_SYSTEM 
+	$cs_token |=   hashDO_SPELLCHECK 
+	$cs_token |=  hashDO_PARSE
 	$std_cstoken = $cs_token
 
 # in your script set a variable for what you want to happen next input
-t: What is your name?  $$newtoken = $cs_token - #DO_SPELLCHECK
+t: What is your name?  $$newtoken = $cs_token - hashDO_SPELLCHECK
 
 # in postprocessing make the change over
 topic: ~postprocess system repeat()
 
-t: ($cs_token!=$std_token) $cs_token = $std_token #  fix cs_token back to standard
-t: ($$newtoken) $cs_token = $newtoken	 # if want to change cs_token, do so now for next volley
+t: ($cs_token!=$std_token) $cs_token = $std_token 
+t: ($$newtoken) $cs_token = $newtoken	
 
 
 ```

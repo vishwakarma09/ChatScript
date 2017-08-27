@@ -275,9 +275,11 @@ restart: // start with user
 	// message to server is 3 strings-   username, botname, null (start conversation) or message
 	char* ptr = data;
 	strcpy(ptr,from); // username
-	ptr += strlen(ptr) + 1;
+	ptr += strlen(ptr);
+	*ptr++ = 1; // testing 1 terminator
 	strcpy(ptr,bot);
-	ptr += strlen(ptr) + 1; // botname
+	ptr += strlen(ptr); // botname
+	*ptr++ = 1; // testing 1 terminator
 	strcpy(ptr,input);  // null message - start conversation or given message, user starts first
 	try 
 	{
@@ -901,6 +903,7 @@ static void* HandleTCPClient(void *sock1)  // individual client, data on STACK..
 		{
 			int len1 = sock->recv(p, SERVERTRANSERSIZE-50); // leave ip address in front alone
 			len += len1; // total read in so far
+
 			if (len1 <= 0 || len >= (SERVERTRANSERSIZE - 100))  // error or too big a transfer. we dont want it
 			{
 				if (len1 < 0) 
@@ -922,10 +925,12 @@ static void* HandleTCPClient(void *sock1)  // individual client, data on STACK..
 				free(memory);
 				return NULL;
 			} 
+			p[len1] = 0;  // force extra string end at end of buffer
+			char* ascii1 = p;
+			while ((ascii1 = strchr(ascii1, 1))) *ascii1 = 0; // allow ascii 1 instead of 0 as separator for JavaScript conventions.
 
 			// break apart the data into its 3 strings
 			p += len1; // actual end of read buffer
-			*p = 0; // force extra string end at end of buffer
 			char* nul = p; // just a loop starter
 			while (nul && strs < 3) // find nulls in data
 			{

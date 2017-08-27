@@ -1645,7 +1645,7 @@
 ~xmeasurers ( watch timer thermometer tape_measure straight_edge square spectroscope scientific_instrument~1 ruler rule plumb_bob level gauge egg_timer clock caliper )
 ~artist ( ~sculptor ~painter ~glassblower )
 ~arts ( sing sculpt play~40 paint )
-~assassin PROBABLE_NOUN ( murderer mercenary killer kill hitman hit_man gunman assassin )
+~assassin PROBABLE_NOUN ( murderer mercenary killer hitman hit_man gunman assassin )
 ~astrology_signs ( Virgo Taurus Scorpio Sagittarius Pisces Libra Leo Gemini Capricorn Cancer Aries Aquarius )
 ~astronautics ( spacesuit space_station space_shuttle space_probe NASA launchpad astronautics )
 ~attaches ( ~fasteners )
@@ -1809,7 +1809,7 @@
     Bloomingdale_'s Costco Nordstrom Target Wal-Mart KMart Sears_Roebuck Avatar_Reality Nintendo Sony Priceline Orbitz Expedia at&t AT&T TMobile Quest Verizon SBC_Communications Sprint United_States_Automobile_Association Metropolitan_Life AllState New_York_Life_Insurance Safeway Kroger Whole_Foods Albertsons Albertson_'s Foodland Federal_Express United_Parcel_Service United_States_Postal_Service Yahoo Google AOL_Time_Warner Cisco_Systems Lucent_Technologies Motorola Boeing Lockheed_Martin SAP SAP_Labs 
     Apple International_Business_Machines Hewlett-Packard Dell_Computer Phillip_Morris Victoria_'s_Secret General_Nutrition_Center Borders Barnes_and_Noble The_Body_Shop Origins Sephora Mac_Cosmetics Lush Bayer Pfizer Merck Honda_Motors Hyundai Kia Mazda Nissan_Motors Toyota General_Motors Ford_Motor_Company Oceanit Caterpillar Electronic_Data_Systems Lowes Lowe_'s CVS Walmart Viacom Outfit7 Disney Walt_Disney International_Paper Johnson_and_Johnson Associated_Press Berkshire_Hathaway General_Electric 
     CNN Apple_Computer AOL Oracle Amazon.com Microsoft Intel company )
-~company_groups PROBABLE_NOUN ( partnership guild corporation company association )
+~company_groups PROBABLE_NOUN ( business partnership guild corporation company association )
 ~comparisons ( worst worse various unlike than similarity similar same opposite most more lower like less least higher further different difference compare better best )
 ~compass_directions ( west southwest southeast south northwest northeast north east )
 ~compassdirection ( W SW SE S NW NE N E CNTR )
@@ -2353,7 +2353,7 @@
 ~occupation_insurance PROBABLE_NOUN ( statistician insurance_broker actuary )
 ~occupation_inventor PROBABLE_NOUN ( tinkerer inventor )
 ~occupation_jobless PROBABLE_NOUN ( vagrant unemployed jobless hobo bum )
-~occupation_law PROBABLE_NOUN ( traffic_officer sheriff security_officer policewoman policeman police_officer police patrolman magistrate law judge investigator guard detective correctional_services cop civil_investigator beat_cop bail_agent ~occupation_lawyer )
+~occupation_law PROBABLE_NOUN ( traffic_officer sheriff security_officer policewoman policeman police_officer police patrolman magistrate judge investigator guard detective correctional_services cop civil_investigator beat_cop bail_agent ~occupation_lawyer )
 ~occupation_magic PROBABLE_NOUN ( wizard witch warlock thaumaturgist soothsayer psychic astrologer )
 ~occupation_manager PROBABLE_NOUN ( VP vice_president supervisor project_manager president managing_director manager executive_director director CTO chief_technology_officer chief_financial_officer chief_finance_officer chief_executive_officer Chief_Executive chief CFO CEO boss )
 ~occupation_medical PROBABLE_NOUN ( social_worker social_psychologist shaman medical_doctor funeral_director veterinary_nurse veterinarian surgeon stretcher-bearer speech_therapist radiographer psychometrist psychologist psychiatrist podiatrist plastic_surgeon physiotherapist physiologist physician physical_therapist pharmacist_assistant pharmacist oral_hygienist optometrist optical_technician occupational_therapist nutritionist nurse neuroscientist medical_orthotist_prosthetist masseur language_therapist hospital_porter homoeopath 
@@ -2461,13 +2461,13 @@
 ~role_family PROBABLE_NOUN ( relative grown-up child baby adolescent ~family_members )
 ~role_heroic PROBABLE_NOUN ( underdog heroine hero coward champion ~defender )
 ~role_knowledge PROBABLE_NOUN ( virtuoso teacher student specialist sophomore sensei senior savant pupil professor professional principal master lecturer layman junior journeyman instructor idiot graduate genius freshman faculty expert counsellor beginner amateur advisor adept )
-~role_medical PROBABLE_NOUN ( patient )
+~role_medical PROBABLE_NOUN ( deceased corpse guinea_pig patient )
 ~role_member PROBABLE_NOUN ( traveler tourist stranger settler resident refugee pilgrim passenger native member local immigrant foreigner civilian citizen ~role_religious_member ~role_political_member ~role_nationality_member )
-~role_misc PROBABLE_NOUN ( weirdo tomboy toastmaster thrower throwback thrill-seeker third-rater temptress tempter telepathist teetotaller teetotalist technophobe technophile techie taxpayer tattletale sympathizer swinger survivor survivalist surfboarder supplicant straggler stoolpigeon stoolie stooge stakeholder sponsor spokeswoman spokespersonstick-in-the-mud servant scout scavenger predecessor player peer mutant individual human hobo hippie fool fellow disciplinarian character bum audience altar_boy adult )
+~role_misc PROBABLE_NOUN ( weirdo tomboy toastmaster thrower throwback thrill-seeker third-rater temptress tempter telepathist teetotaller teetotalist technophobe technophile techie taxpayer tattletale sympathizer swinger survivor survivalist surfboarder supplicant straggler stoolpigeon stoolie stooge stakeholder sponsor spokeswoman spokespersonstick-in-the-mud servant scout zombie scavenger predecessor player peer mutant individual human hobo hippie fool fellow disciplinarian character bum audience altar_boy adult )
 ~role_politics PROBABLE_NOUN ( vice-president senator revolutionary reactionary protester minister mayor liberator leader emancipator demonstrator councilor councilman congresswoman congressman candidate aristocrat ~ruler )
 ~role_romantic PROBABLE_NOUN ( Mrs. Mr. confidant bridegroom bride bachelor ~spouse ~sexual_preference_nouns ~dating_friend )
 ~role_worship PROBABLE_NOUN ( spectator idol groupie follower fan deity )
-~role_legalgoodguy PROBABLE_NOUN ( witness victim plaintiff juror hostage defendant barrister )
+~role_legalgoodguy PROBABLE_NOUN ( conservator magistrate beneficiary executor witness victim plaintiff juror hostage defendant barrister )
 ~role_nationality_member PROBABLE_NOUN ( Welshman Vietnamese Venusian Ukranian Turk Tongan Tibetan Thai Syrian Swede Spartan Spaniard South_American Somalian Slovenian Slovakian Serbian Scotsman Scot Salvadorian Russian Romanian Portuguese Pole Peruvian Parisienne Palestinian Norwegian North_American New_Zealander New_Yorker Mongolian Moldovian Middle_Easterner Mexican Martian Malasian Macedonian Lithuanian Liberian Lebanese Latvian Laotian Korean Jordanian Japanese Italian Israeli Irishman Iranian Indonesian Indian Icelander Hungarian 
     Honduran Guatemalan Greek German Georgian Frenchman Finn extraterrestrial European Estonian Earthling Dutchman Dane Czech Cuban Costa_Rican Columbian Chinese Chilean Canadian Cambodian Bulgarian Brit Brazilian Bosnian Bolivian Austrian Australian Athenian Asian Armenian Argentinian Arab Andorrian American alien Algerian African )
 ~role_political_member PROBABLE_NOUN ( Whig Tory Republican Libertarian Democrat )

@@ -648,7 +648,7 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 	if (canonical && IsDigit(*canonical->word)) return properties;
 	entry = FindWord(original, 0, PRIMARY_CASE_ALLOWED);
 
-	if (externalTagger || stricmp(language, "english"))
+	if (externalTagger && stricmp(language, "english"))
 	{
 		if (!entry) entry = FindWord(original, 0, SECONDARY_CASE_ALLOWED); // Try harder to find the foreign word, e.g. German wochentag -> Wochentag
 		bool foundWord = entry ? true : false;

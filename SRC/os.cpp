@@ -495,7 +495,7 @@ Allocations happen during volley processing as
 
 	//   always allocate in word units
 	unsigned int allocate = ((allocationSize + 3) / 4) * 4;
-	heapFree -= allocate;
+	heapFree -= allocate; // heap grows lower, stack grows higher til they collide
  	if (bytes > 4) // force 64bit alignment alignment
 	{
 		uint64 base = (uint64) heapFree;
@@ -536,12 +536,12 @@ Allocations happen during volley processing as
 	
 	int nominalLeft = maxHeapBytes - (heapBase - heapFree);
 	if ((unsigned long) nominalLeft < minHeapAvailable) minHeapAvailable = nominalLeft;
-	if ((heapBase-heapFree) > 50000000)
+	if ((heapBase-heapFree) > 50000000) // when heap has used up 50Mb
 	{
 		int xx = 0;
 	}
 	char* used = heapFree - len;
-	if (used <= ((char*)stackFree + 2000)) 
+	if (used <= ((char*)stackFree + 2000) || nominalLeft < 0) 
 		ReportBug((char*)"FATAL: Out of transient heap space\r\n")
     if (word) 
 	{

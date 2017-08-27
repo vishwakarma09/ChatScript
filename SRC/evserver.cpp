@@ -220,21 +220,32 @@ struct Client_t
 
     int received_request() {
         int nulls = count(this->incomming.begin(), this->incomming.end(), 0);
-        if (nulls < 3)  return 0;
-        if (nulls > 3)   return -1;
+		int ones = count(this->incomming.begin(), this->incomming.end(), 1);
+		if ((nulls+ones) < 3)  return 0;
+        if ((nulls+ones) > 3)   return -1;
 
         this->requestValid = true;
         user = &this->incomming[0];
 
         if (strlen(user) == 0)  return -1;
 
-        Buffer_t::iterator next_null;
-        next_null = find(this->incomming.begin(), this->incomming.end(), 0);
-
-        bot = ITER_TO_OFFSET(this->incomming, next_null + 1);
-
-        next_null = find(next_null + 1, this->incomming.end(), 0);
-        message = ITER_TO_OFFSET(this->incomming, next_null + 1);
+		Buffer_t::iterator next_one = find(this->incomming.begin(), this->incomming.end(), 1); // alternate protocol uses ascii 1 to separate 1st two params
+		if (next_one != this->incomming.end())
+		{
+			bot = ITER_TO_OFFSET(this->incomming, next_one + 1);
+			*(bot - 1) = 0;  // change to null terminated string
+			next_one= find(next_one + 1, this->incomming.end(), 1);
+			message = ITER_TO_OFFSET(this->incomming, next_one + 1);
+			*(message - 1) = 0; // change to null terminated string
+		}
+		else
+		{
+			Buffer_t::iterator next_null;
+			next_null = find(this->incomming.begin(), this->incomming.end(), 0);
+			bot = ITER_TO_OFFSET(this->incomming, next_null + 1);
+			next_null = find(next_null + 1, this->incomming.end(), 0);
+			message = ITER_TO_OFFSET(this->incomming, next_null + 1);
+		}
 
         // since we received complete request, we will stop reading from client socket until we process it
         ev_io_stop(this->l, &this->ev_r);

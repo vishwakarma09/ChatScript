@@ -2127,7 +2127,7 @@ reloop:
 	unsigned int parseBad = 0;
 	unsigned int ambigSentences = 0;
 
-	ReturnToAfterLayer(LAYER_1,true);
+	ReturnToAfterLayer(LAYER_BOOT, false);
 	StoreWord((char*)"NN");
 	StoreWord((char*)"NNS");
 	StoreWord((char*)"NNP");
@@ -2273,8 +2273,8 @@ reloop:
 		char* answer1;
 		tokenControl = STRICT_CASING | DO_ESSENTIALS | DO_POSTAG | DO_CONTRACTIONS | NO_HYPHEN_END | NO_COLON_END | NO_SEMICOLON_END | TOKEN_AS_IS;
 		if (!raw && !ambig && !showUsed) tokenControl |= DO_PARSE;
-		ReturnToAfterLayer(LAYER_1,false);
-		PrepareSentence(buffer,true,true);	
+		ReturnToAfterLayer(LAYER_BOOT, false);
+		PrepareSentence(buffer,true,true);
 		if (sentenceLengthLimit && (int)wordCount != sentenceLengthLimit) continue; // looking for easy sentences to fix
 		int actualLen = len;
 		if (*tags[len] == '.' || *tags[len] == '?' || *tags[len] == '!') 
@@ -2755,6 +2755,7 @@ retry:
 		trace = 0; 
 		echo = false;
 	}
+	ReturnToAfterLayer(LAYER_BOOT, false);
 }
 
 static void C_PennNoun(char* file)
@@ -7723,7 +7724,7 @@ static void C_Trace(char* input)
 			else if (!stricmp(word,(char*)"deep")) flags &= -1 ^ (TRACE_JSON|TRACE_TOPIC|TRACE_FLOW|TRACE_INPUT|TRACE_USERFN|TRACE_SAMPLE|TRACE_INFER|TRACE_SUBSTITUTE|TRACE_HIERARCHY| TRACE_FACT| TRACE_VARIABLESET| TRACE_QUERY| TRACE_USER|TRACE_USERFACT|TRACE_POS|TRACE_TCP|TRACE_USERCACHE|TRACE_SQL|TRACE_LABEL); 
 			else if (!stricmp(word,(char*)"always")) flags &= -1 ^  TRACE_ALWAYS;
 		}
-		else if (IsNumberStarter(*word) != NOT_A_NUMBER && !IsAlphaUTF8(word[1]))
+		else if (IsNumberStarter(*word)  && !IsAlphaUTF8(word[1]))
 		{
 			ReadInt(word,*(int*)&flags);
 			break; // there wont be morez flags -- want :trace -1 in a table to be safe from reading the rest
@@ -7912,7 +7913,7 @@ static void C_Time(char* input)
 			else if (!stricmp(word, (char*)"deep")) flags &= -1 ^ (TIME_JSON | TIME_TOPIC | TIME_USERFN | TIME_QUERY | TIME_USER | TIME_TCP | TIME_USERCACHE | TIME_SQL);
 			else if (!stricmp(word, (char*)"always")) flags &= -1 ^ TIME_ALWAYS;
 		}
-		else if (IsNumberStarter(*word) != NOT_A_NUMBER && !IsAlphaUTF8(word[1]))
+		else if (IsNumberStarter(*word)  && !IsAlphaUTF8(word[1]))
 		{
 			ReadInt(word, *(int*)&flags);
 			break; // there wont be morez flags -- want :time -1 in a table to be safe from reading the rest
@@ -8870,7 +8871,17 @@ static void DisplayTopic(char* name,int spelling)
 				}
 				break;
 			case USERVAR_PREFIX:
+			{
 				if (IsDigit(word[1])) break; // money $
+				char next[MAX_WORD_SIZE];
+				ReadCompiledWord(output, next);
+				if (!IsComparator(next))
+				{
+					sprintf(outputPtr, (char*)"%s ", word);
+					outputPtr += strlen(outputPtr);
+					continue;
+				}
+			}
 				// flow into these other variables
 			case SYSVAR_PREFIX: case '_': case '@': // match variable or set variable
 				if (*output == '=' || output[1] == '=') // assignment
@@ -8912,6 +8923,11 @@ static void DisplayTopic(char* name,int spelling)
 					bodyKind[hasBody] = word[2]; // i or l
 					output = strchr(output,'{') + 2;
 					continue;
+				}
+				else if (word[1] == '\'' || word[1] == '"')
+				{
+					sprintf(outputPtr, (char*)"%s ", word);
+					outputPtr += strlen(outputPtr);
 				}
 				else if (*output == '(') output = BalanceParen(output+1,true,false); //  end call
 				break;

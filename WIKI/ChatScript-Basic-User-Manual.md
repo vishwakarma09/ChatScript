@@ -1,6 +1,6 @@
 # ChatScript Basic User Manual
 © Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 8/12/2017 cs7.53
+<br>Revision 8/27/2017 cs7.54
 
 * [Overview](ChatScript-Basic-User-Manual.md#overview)
 * [Simple Topics](ChatScript-Basic-User-Manual.md#simple-topics)
@@ -235,7 +235,7 @@ Rules are thus classified as:
 |:-------------:|:------:|----------------------------------------
 |**responders** |`s:`<br>`?:`<br>`u:` | which are rules that try to react to unprovoked input from the user. That is, he might out of the blue ask you something or say something, and these attempt to cope with that.
 |**rejoinders** |`a:`<br>`b:`<br>`c:`<br>`d:`<br>`e:`<br>`f:`<br>`g:`<br>`h:`<br>`i:`<br>`j:`<br>`k:`<br>`l:`<br>`m:`<br>`n:`<br>`o:`<br>`p:`<br>`q:`| are attempts to predict a user’s immediate response to something the chatbot says. They cannot be triggered except on input immediately after the rule they follow has issued output. 
-|**gambits**    |`r:`<br>`t:` | are the story the chatbot wants to tell on a subject or the conversation the chatbot is trying to steer the user into. `r:` are random gambits (later [explained](ChatScript-Advanced-User-Manual.html#random-gambit)).
+|**gambits**    |`r:`<br>`t:` | are the story the chatbot wants to tell on a subject or the conversation the chatbot is trying to steer the user into. `r:` are random gambits (later [explained](ChatScript-Advanced-User-Manual.md#random-gambit)).
 
 Rules usually have pattern requirements in parens (except gambit `t:` rules for which a pattern is optional). 
 These typically try to find specific words or sequences of words in the user’s input. In the rule: 
@@ -319,7 +319,7 @@ It has no impact whatsoever on a user in chat.
 
 # What Files are Where
 
-The ChatScript engine can run multiple bots at once [ChatScript Multiple Bots manual](ChatScript-Multiple-Bots.html), 
+The ChatScript engine can run multiple bots at once [ChatScript Multiple Bots manual](ChatScript-Multiple-Bots.md), 
 each with a unique _persona_. 
 So one user can connect and talk with a specific personality while another user connects 
 and talks with a different one (or the same one). 
@@ -754,7 +754,7 @@ In addition to fixed sets (over 1600 of them), the system automatically defines 
 dictionary-based sets. These include parts-of-speech like `~noun` as well as general open
 concepts like `~number`. 
 
-For a full list, see the [ChatScript System Variables and Engine-defined Concepts](ChatScript-System-Variables-and-Engine-defined-Concepts.html) manual.
+For a full list, see the [ChatScript System Variables and Engine-defined Concepts](ChatScript-System-Variables-and-Engine-defined-Concepts.md) manual.
 
 
 ## Capitalization
@@ -804,7 +804,7 @@ The interjections file will remap that to the sentence `~yes`, breaking off that
 sentence, followed by I will go as a new sentence. 
 
 These generic interjections (which are open to author control via `interjections.txt`) listed
-in the [ChatScript System Variables and Engine-defined Concepts](ChatScript-System-Variables-and-Engine-defined-Concepts.html) manual. 
+in the [ChatScript System Variables and Engine-defined Concepts](ChatScript-System-Variables-and-Engine-defined-Concepts.md) manual. 
 
 Because all interjections at the start of a sentence are broken off into their own sentence,
 this kind of pattern does not work:
@@ -915,7 +915,7 @@ and their relationship to themselves and concepts. All commands are invisible to
 chat in that they do no affect the user’s state of processing chat. 
 A list of all commands can be gotten by typing `:commands`. 
 
-Documention on most of them is in the [ChatScript Debugging Manual](ChatScript-Debugging-Manual.html).
+Documention on most of them is in the [ChatScript Debugging Manual](ChatScript-Debugging-Manual.md).
 
     :word word
 
@@ -1017,7 +1017,7 @@ or tabs there are between words. The system reformats it automatically.
 _I like you?_ and _I like you ?_ print the same on output
 
 If you actually need to control spacing, consult "formatted double quotes" in the
-[ChatScript Advanced User Manual](ChatScript-Advanced-User-Manual.html#formatted-double-quotes-activeformat-stringd). 
+[ChatScript Advanced User Manual](ChatScript-Advanced-User-Manual.md#formatted-double-quotes-activeformat-stringd). 
 
 
 ## Literal Output `\`
@@ -1050,7 +1050,7 @@ _hey Are you going to eat anytime soon?_.
 
 A chatbot with no ability to remember, even in the brief moment of attending to user
 input, would be an impoverished being indeed. ChatScript supports several levels of memorization. 
-The ultimate variable is the fact, but that has its own [ChatScript Fact Manual](ChatScript-Fact-Manual.html) manual.
+The ultimate variable is the fact, but that has its own [ChatScript Fact Manual](ChatScript-Fact-Manual.md) manual.
 
 
 ## `_` Match Variables
@@ -1153,7 +1153,7 @@ to control operator precedence. E.g.,
     $myvalue = $foo + 20 * 5 / 59  This is normal output after the assignment.
 
 
-You can even assign sets of facts in various ways (see [ChatScript Fact Manual](ChatScript-Fact-Manual.html) for understanding facts) like:
+You can even assign sets of facts in various ways (see [ChatScript Fact Manual](ChatScript-Fact-Manual.md) for understanding facts) like:
 ```
 @2 = @3 # put all facts in 3 into 2
 @2 += @3 # augment 2 with facts of 3 (allows duplicates)
@@ -1246,7 +1246,7 @@ the login function of a bot. If you have facts you want to be global across all 
 part of the base system, you can put those assignments into a table and read it in under
 a `:build` command. 
 
-Go read the [ChatScript Fact Manual](ChatScript-Fact-Manual.html) for more about facts. 
+Go read the [ChatScript Fact Manual](ChatScript-Fact-Manual.md) for more about facts. 
 
 
 ## `%` System Variables
@@ -1254,7 +1254,7 @@ Go read the [ChatScript Fact Manual](ChatScript-Fact-Manual.html) for more about
 The system has some predefined variables which you can generally test and use but not
 normally assign to. These all begin with `%`. These include `%hour`, `%bot`, and others. 
 
-See [ChatScript System Variables and Engine-defined Concepts](ChatScript-System-Variables-and-Engine-defined-Concepts.html).
+See [ChatScript System Variables and Engine-defined Concepts](ChatScript-System-Variables-and-Engine-defined-Concepts.md).
 
 
 # Summary
@@ -1267,4 +1267,4 @@ with simple patterns, and output that is simply exactly what you want the bot to
 
 ---
 
-[[Wiki home](/WIKI/README.html)] - [[Advanced User Manual](ChatScript-Advanced-User-Manual.html)]
+[[Wiki home](/WIKI/README.html)] - [[Advanced User Manual](ChatScript-Advanced-User-Manual.md)]

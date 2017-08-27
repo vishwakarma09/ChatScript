@@ -127,12 +127,13 @@ unsigned char* GetDefinition(WORDP D)
 	return defn + 4;	 // skip link field, leaves botid, flags , count
 }
 
-unsigned int MACRO_ARGUMENT_COUNT(unsigned char* defn)
+unsigned int MACRO_ARGUMENT_COUNT(unsigned char* defn) // 0e(
 {// botid flags count ( ...
 	if (!defn || !*defn) return 0;
 	while (IsDigit(*++defn)) {;} // skip space then botid 
 	while (IsDigit(*++defn)) {;} // skip macro arguments descriptor
-	return (unsigned char)(*++defn - 'A');
+	unsigned char c = (unsigned char) *++defn;
+	return (c >= 'a') ? (c - 'a' + 15) : (c - 'A');
 }
 
 char* InitDisplay(char* list)
@@ -758,7 +759,8 @@ char* UserCall(char* buffer,char* ptr, WORDP D,FunctionResult &result,unsigned i
 			int flags;
 			definition = (unsigned char*) ReadInt((char*)definition, flags);
 			argflags = flags;
-			args = *definition++ - 'A'; // expected args, leaving us at ( args ...
+			unsigned char c = (unsigned char) *definition++;
+			args = (c >= 'a') ? (c - 'a' + 15) : (c - 'A'); // expected args, leaving us at ( args ...
 		}
 		else result = FAILRULE_BIT;
 	}
@@ -3725,6 +3727,21 @@ static FunctionResult LastSaidCode(char* buffer)
 	return NOPROBLEM_BIT;
 }
 
+static FunctionResult SetResponseCode(char* buffer)
+{
+	int index = atoi(ARGUMENT(1)) - 1;
+	if (index >= responseIndex || index < 0) return FAILRULE_BIT;
+	char* data = ARGUMENT(2);
+	if (*data == '"')
+	{
+		++data;
+		size_t len = strlen(data);
+		if (data[len - 1] == '"') data[len - 1] = 0;
+	}
+	responseData[responseOrder[index]].response = AllocateHeap(data, 0);
+	return NOPROBLEM_BIT;
+}
+
 static FunctionResult ResponseCode(char* buffer)
 {
 	int index = atoi(ARGUMENT(1)) -1 ;
@@ -4794,7 +4811,10 @@ static FunctionResult BurstCode(char* buffer) //   take value and break into fac
 			SET_FACTSET_COUNT(impliedSet,0);
 			while (*++ptr && ptr[1]) // leave rest for end
 			{
-				*word = *ptr;
+				unsigned int charLen = UTFCharSize(ptr);
+				strncpy(word,ptr,charLen);
+				word[charLen] = 0;
+				ptr += charLen - 1;
 				if (tracing) Log(STDTRACELOG,(char*)"[%d]: %s ",counter,word);
 				++counter;
 				//   store piece before scan marker
@@ -5170,9 +5190,9 @@ static FunctionResult PhraseCode(char* buffer)
 		int x = verbals[n];
 		if (!x) return FAILRULE_BIT;
 		while (i && verbals[++i] & x){;}
-		int tmp = i-1;
+		int tmpx = i-1;
 		i = n;
-		n = tmp;
+		n = tmpx;
 	}
 	else if (!stricmp(type,(char*)"adjective")) // complement phrase
 	{
@@ -5829,7 +5849,7 @@ static FunctionResult FindTextCode(char* buffer)
   	if (!*find) return FAILRULE_BIT;
 
 	unsigned int start = atoi(ARGUMENT(3));
-	if (start >= strlen(target)) return FAILRULE_BIT;
+	if (start >= UTFStrlen(target)) return FAILRULE_BIT;
 
 	char* buf = AllocateStack(target,0); // so we dont lose real blanks status
 	if (*target != '_') Convert2Blanks(target); // if we explicitly request _, use it
@@ -5842,11 +5862,12 @@ static FunctionResult FindTextCode(char* buffer)
 	}
 
     char* found;
-	size_t len = strlen(find);
-	found = strstr(target+start,find); // case sensitive
+	size_t len = UTFStrlen(find);
+	unsigned int startPos = UTFPosition(target, start);
+	found = strstr(target+startPos,find); // case sensitive
     if (found)
 	{
-		unsigned int offset = found - target;
+		unsigned int offset = UTFOffset(target, found);
 		char word[MAX_WORD_SIZE];
 		sprintf(buffer,(char*)"%d",(int)(offset + len)); // where it ended (not part of it)
 		sprintf(word,(char*)"%d",(int)offset);
@@ -5882,7 +5903,7 @@ static FunctionResult ExtractCode(char* buffer)
 	// what to search in
 	char* target = ARGUMENT(1);
 	if (!*target) return FAILRULE_BIT;
-	size_t len = strlen(target);
+	size_t len = UTFStrlen(target);
 	bool startFromEnd = false;
 	int offset = 0;
 	char* arg2 = ARGUMENT(2);
@@ -5906,9 +5927,12 @@ static FunctionResult ExtractCode(char* buffer)
 	}
 	if (start >= len) return FAILRULE_BIT;
 	if (end > ( len +1)) end = len + 1;
-	if (end < start) return FAILRULE_BIT; 
-	strncpy(buffer,target+start,(end-start));
-	buffer[(end-start)] = 0;
+	if (end < start) return FAILRULE_BIT;
+	unsigned int startPos = UTFPosition(target, start);
+	unsigned int endPos = UTFPosition(target, end);
+	unsigned int numChars = endPos - startPos;
+	strncpy(buffer,target+startPos,numChars);
+	buffer[numChars] = 0;
 	return NOPROBLEM_BIT;
 }
 
@@ -6697,7 +6721,7 @@ FunctionResult LengthCode(char* buffer)
 		sprintf(buffer,(char*)"%d",count);
 	}
 	else if (!*word) strcpy(buffer,(char*)"0"); // NULL has 0 length (like a null value array)
-	else sprintf(buffer,(char*)"%d",(int)strlen(word)); // characters in word
+	else sprintf(buffer, (char*)"%d", UTFStrlen(word)); // characters in word
 	return NOPROBLEM_BIT;
 }
 
@@ -8600,7 +8624,8 @@ SystemFunctionInfo systemFunctionSet[] =
 	{ (char*)"\r\n---- Output Access",0,0,0,(char*)""},
 	{ (char*)"^lastsaid",LastSaidCode,0,0,(char*)"get what chatbot said just before"},
 	{ (char*)"^response",ResponseCode,1,0,(char*)"raw text for this response, including punctuation"},
-	{ (char*)"^responsequestion",ResponseQuestionCode,1,SAMELINE,(char*)"BOOLEAN - 1 if response ends in ?  0 otherwise"}, 
+	{ (char*)"^setresponse",SetResponseCode,2,0,(char*)"response id and raw text to replace with" },
+	{ (char*)"^responsequestion",ResponseQuestionCode,1,SAMELINE,(char*)"BOOLEAN - 1 if response ends in ?  0 otherwise"},
 	{ (char*)"^responseruleid",ResponseRuleIDCode,1,SAMELINE,(char*)"rule tag generating this response"},
 	
 	{ (char*)"\r\n---- Postprocessing functions - only available in postprocessing",0,0,0,(char*)""},

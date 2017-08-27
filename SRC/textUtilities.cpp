@@ -279,6 +279,11 @@ void InitTextUtilities()
 	}
 }
 
+bool IsComparator(char* word)
+{
+	return (!stricmp(word, (char*)"&=") || !stricmp(word, (char*)"|=") || !stricmp(word, (char*)"^=") || !stricmp(word, (char*)"=") || !stricmp(word, (char*)"+=") || !stricmp(word, (char*)"-=") || !stricmp(word, (char*)"/=") || !stricmp(word, (char*)"*="));
+}
+
 void ClearNumbers()
 {
 	numberValues = 0; // heap is discarded, need to discard this
@@ -1077,6 +1082,7 @@ char* IsTextCurrency(char* ptr,char* end)
 
 char* IsSymbolCurrency(char* ptr)
 {
+	if (!*ptr) return NULL;
 	char* end = ptr;
 	while (*++end && !IsDigit(*end)); // locate nominal end of text
 
@@ -1160,6 +1166,7 @@ bool IsInteger(char* ptr, bool comma)
 
 bool IsDigitWord(char* ptr,bool comma) // digitized number
 {
+	if (!*ptr) return false;
 	char* end = ptr + strlen(ptr);
 	if (IsFloat(ptr, end)) return true; // sentence end if . at end, not a float
     //   signing, # marker or currency markers are still numbers
@@ -2532,6 +2539,42 @@ size_t OutputLimit(unsigned char* data) // insert eols where limitations exist
 	}
 	strncpy(((char*)data) + strlen((char*)data), extra, HIDDEN_OVERLAP);
 	return data - original;
+}
+
+unsigned int UTFStrlen(char* ptr)
+{
+	unsigned int len = 0;
+	while (*ptr)
+	{
+		len++;
+		ptr += UTFCharSize(ptr);
+	}
+	return len;
+}
+
+unsigned int UTFPosition(char* ptr, unsigned int pos)
+{
+	unsigned int index = 0;
+	unsigned int posChar = 0;
+	while (*ptr && index++ < pos)
+	{
+		unsigned int charLen = UTFCharSize(ptr);
+		posChar += charLen;
+		ptr += charLen;
+	}
+	return posChar;
+}
+
+unsigned int UTFOffset(char* ptr, char* c)
+{
+	unsigned int index = 0;
+	unsigned int posChar = 0;
+	while (*ptr && ptr < c)
+	{
+		ptr += UTFCharSize(ptr);
+		index++;
+	}
+	return index;
 }
 
 char* UTF2ExtendedAscii(char* bufferfrom) 

@@ -1,3 +1,4 @@
 
-pandoc ChatScript-Multiple-Bots.html -s -o ../PDFDOCUMENTATION/ChatScript-Multiple-Bots.pdf
+pandoc ESOTERIC-CHATSCRIPT/ChatScript-Control-Scripts.md -s -o ../PDFDOCUMENTATION/ESOTERIC-CHATSCRIPT/ChatScript-Control-Scripts.pdf
+
 pause
