@@ -201,9 +201,11 @@ u: () # whatever normal processing you do for user sentences
 The primary rule for output OOB is that it is within [ ] and is the first thing in the output. You can write rules that directly embed OOB with the user message like this:
 ```
 u: () \[ action=wave \] How are you?
+```
 
 But that gets messy and if you output multiple messages, you cannot easily combine distinct OOB messages into a single composite OOB. Therefore the usual technique is to
 define a macro that holds OOB data and use a postprocessing topic to output it at the end.
+
 ```
 outputmacro: ^OOB(^value) $oob = ^join($oob " " ^value)
 
@@ -213,12 +215,14 @@ u: () ^OOB(action=wave ) How are you?
 topic: ~postprocess system repeat()
 t: ( $oob ) ^postprintbefore( \[ $oob \] ) 
 ```
+
 In the above code use $$oob instead of $oob (pdf converter didnt like it)
 
 # Changing input token processing
 
 There are times you may want to alter input processing by changing $cs_token. For example if you ask the user their name, on the next user input you probably don't want spell checking
 happening which could make a mess of foreign names (or even normal English ones CS is not aware of). So you want a convenient way to temporarily change $cs_token.  Here is how:
+
 ```
 # in your bot definition make a copy of your normal $cs_token
 outputmacro: yourbot() 
@@ -236,6 +240,4 @@ topic: ~postprocess system repeat()
 
 t: ($cs_token!=$std_token) $cs_token = $std_token 
 t: ($$newtoken) $cs_token = $newtoken	
-
-
 ```
