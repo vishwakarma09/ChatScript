@@ -1,6 +1,6 @@
 #include "common.h" 
 #include "evserver.h"
-char* version = "7.53";
+char* version = "7.54";
 char sourceInput[200];
 FILE* userInitFile;
 int externalTagger = 0;
@@ -37,7 +37,7 @@ clock_t volleyStartTime = 0;
 char forkCount[10];
 int timerCheckInstance = 0;
 static char* privateParams = NULL;
-static char treetaggerParams[200];
+char treetaggerParams[200];
 static char encryptParams[300];
 static char decryptParams[300];
 char hostname[100];
@@ -601,7 +601,11 @@ static void ProcessArgument(char* arg)
 	else if (!strnicmp(arg,(char*)"tmp=",4 )) strcpy(tmp,arg+4);
     else if (!strnicmp(arg, (char*)"buildfiles=", 11)) strcpy(buildfiles, arg + 11);
     else if (!strnicmp(arg,(char*)"private=",8)) privateParams = arg+8;
-	else if (!stricmp(arg,(char*)"treetagger")) strcpy(treetaggerParams,"1");
+	else if (!strnicmp(arg, (char*)"treetagger", 10))
+	{
+		if (arg[10] == '=') strcpy(treetaggerParams, arg + 11);
+		else strcpy(treetaggerParams, "1");
+	}
 	else if (!strnicmp(arg,(char*)"encrypt=",8)) strcpy(encryptParams,arg+8);
 	else if (!strnicmp(arg,(char*)"decrypt=",8)) strcpy(decryptParams,arg+8);
 	else if (!strnicmp(arg,(char*)"livedata=",9) ) 
@@ -2552,7 +2556,7 @@ void PrepareSentence(char* input,bool mark,bool user, bool analyze,bool oobstart
 	derivationLength = wordCount;
 	derivationSentence[wordCount+1] = NULL;
 
-	if (oobPossible && *wordStarts[1] == '[' && !wordStarts[1][1] && *wordStarts[wordCount] == ']'  && !wordStarts[wordCount][1]) 
+	if (oobPossible && wordCount && *wordStarts[1] == '[' && !wordStarts[1][1] && *wordStarts[wordCount] == ']'  && !wordStarts[wordCount][1]) 
 	{
 		oobPossible = false; // no more for now
 		oobExists = true;

@@ -174,6 +174,7 @@ void EraseTopicFiles(unsigned int build,char* name)
 	}
 }
 
+
 static char* FindComparison(char* word)
 {
 	if (!*word || !word[1] || !word[2]) return NULL; //   if token is short, we cannot do the below word+1 scans 
@@ -2764,7 +2765,7 @@ static char* ReadIfTest(char* ptr, FILE* in, char* &data)
 		strcpy(data,word);
 		data += strlen(word);
 	}
-	else if (*nextToken == ')' || !stricmp(nextToken,(char*)"and") || !stricmp(nextToken,(char*)"or")) //   existence test
+	else if (*nextToken == ')' || !stricmp(nextToken,(char*)"and") || !stricmp(nextToken, (char*)"&") ||  !stricmp(nextToken,(char*)"or")) //   existence test
 	{
 		if (*word != USERVAR_PREFIX && *word != '_' && *word != '@' && *word != '^'  && *word != SYSVAR_PREFIX && *word != '?' ) 
 			BADSCRIPT((char*)"IF-10 existence test - %s. Must be uservar or systemvar or _#  or ? or @# or ~concept or ^^var ",word)
@@ -2782,7 +2783,7 @@ static char* ReadIfTest(char* ptr, FILE* in, char* &data)
 		*data++ = ')';
 		*data++ = ' ';
 	}
-	else if (!stricmp(word,(char*)"or") || !stricmp(word,(char*)"and"))
+	else if (!stricmp(word,(char*)"or") || !stricmp(word,(char*)"and") || !stricmp(word, (char*)"&"))
 	{
 		MakeLowerCopy(data,word);
 		data += strlen(word);
@@ -3220,7 +3221,7 @@ char* ReadOutput(bool optionalBrace,bool nested,char* ptr, FILE* in,char* &mydat
 		}
 
 		// note left hand of assignment
-		if (!stricmp(nextToken,(char*)"&=") || !stricmp(nextToken,(char*)"|=") || !stricmp(nextToken,(char*)"^=") || !stricmp(nextToken,(char*)"=") || !stricmp(nextToken,(char*)"+=") || !stricmp(nextToken,(char*)"-=") || !stricmp(nextToken,(char*)"/=") || !stricmp(nextToken,(char*)"*="))  strcpy(assignlhs,word);
+		if (IsComparator(nextToken))  strcpy(assignlhs,word);
 		if (*nextToken == '=' && !nextToken[1]) // simple assignment
 		{
 			*assignKind = 0;
@@ -3547,7 +3548,7 @@ static char* ReadMacro(char* ptr,FILE* in,char* kind,unsigned int build)
 	char data[MAX_BUFFER_SIZE];
 	*data = 0;
 	char* pack = data;
-	int macroFlags = 0;
+	int64 macroFlags = 0;
 	int parenLevel = 0;
 	WORDP D = NULL;
 	bool gettingArguments = true;
@@ -3616,7 +3617,8 @@ static char* ReadMacro(char* ptr,FILE* in,char* kind,unsigned int build)
 				if (functionArgumentCount > MAX_ARG_LIMIT)  BADSCRIPT((char*)"MACRO-7 Too many callArgumentList to %s - max is %d",macroName,MAX_ARG_LIMIT)
 				continue;
 			case '^':  //   declaring a new argument
-				if (IsDigit(word[1])) BADSCRIPT((char*)"MACRO-6 Function arguments must be alpha names, not digits like %s ",word)
+				if (IsDigit(word[1])) 
+					BADSCRIPT((char*)"MACRO-6 Function arguments must be alpha names, not digits like %s ",word)
 				restrict = strchr(word,'.');
 				if (restrict)
 				{
@@ -3624,9 +3626,25 @@ static char* ReadMacro(char* ptr,FILE* in,char* kind,unsigned int build)
 					else if (!stricmp(restrict+1,(char*)"HANDLE_QUOTES"))	
 					{
 						if (typeFlags != IS_OUTPUT_MACRO) BADSCRIPT((char*)"MACRO-? HANDLE_QUOTES only valid with OUTPUTMACRO or DUALMACRO - %s ",word)
-						macroFlags |= 1 << functionArgumentCount; // outputmacros
+						if (functionArgumentCount > 15) 
+						{
+							int64 flag = 1 << (functionArgumentCount - 16); // outputmacros
+							flag <<= 32;
+							macroFlags |= flag;
+						}
+						else macroFlags |= 1 << functionArgumentCount; // outputmacros
 					}
-					else if (!stricmp(restrict+1,(char*)"COMPILE") && typeFlags == IS_TABLE_MACRO) macroFlags |= (1 << 16) << functionArgumentCount; // a compile string " " becomes "^:"
+					else if (!stricmp(restrict+1,(char*)"COMPILE") && typeFlags == IS_TABLE_MACRO) 
+					{
+						if (functionArgumentCount > 15)
+						{
+							int64 flag = (1 << 16) << (functionArgumentCount - 16); // outputmacros
+							flag <<= 32;
+							macroFlags |= flag;
+
+						}
+						else macroFlags |= (1 << 16) << functionArgumentCount; // a compile string " " becomes "^:"
+					}
 					else if (!stricmp(restrict+1,(char*)"UNDERSCORE") && typeFlags == IS_TABLE_MACRO) {;} // default for quoted strings is _ 
 					else if (typeFlags != IS_TABLE_MACRO && typeFlags != IS_OUTPUT_MACRO) BADSCRIPT((char*)"Argument restrictions only available on Table Macros or OutputMacros  - %s ",word)
 					else  BADSCRIPT((char*)"MACRO-? Table/Tablemacro argument restriction must be KEEP_QUOTES OR COMPILE or UNDERSCORE - %s ",word)
@@ -3650,7 +3668,8 @@ static char* ReadMacro(char* ptr,FILE* in,char* kind,unsigned int build)
 	if (!D) return ptr; //   nothing defined
 	if (functionArgumentCount > ARGSETLIMIT) BADSCRIPT((char*)"MACRO-7 Argument count to macro definition %s limited to %d",macroName,ARGSETLIMIT)
 	AddInternalFlag(D,(unsigned int)(FUNCTION_NAME|build|typeFlags));
-	*pack++ = (unsigned char)(functionArgumentCount + 'A'); // some 10 can be had ^0..^9
+	if (functionArgumentCount > 15) *pack++ = (unsigned char)(functionArgumentCount - 15 + 'a');
+	else *pack++ = (unsigned char)(functionArgumentCount + 'A'); // some 10 can be had ^0..^9
 	
 	bool optionalBrace = false;
 	currentFunctionDefinition = D;
@@ -3707,7 +3726,11 @@ static char* ReadMacro(char* ptr,FILE* in,char* kind,unsigned int build)
 	char* revised = AllocateBuffer();
 	revised[0] = revised[1] = revised[2] = revised[3] = 0;
 	revised += 4;
-	sprintf(revised, "%s %d ", botid, macroFlags);
+#ifdef WIN32
+	sprintf(revised, (char*)"%s %I64d ", botid, macroFlags);
+#else
+	sprintf(revised, (char*)"%s %lld ", botid, macroFlags);
+#endif
 	strcat(revised, data);
 	size_t len = strlen(revised) + 4;
 
@@ -3792,6 +3815,7 @@ static char* ReadTable(char* ptr, FILE* in,unsigned int build,bool fromtopic)
 		}
 		sharedArgs = indexArg;
 	}
+	
 	unsigned char* defn = GetDefinition(currentFunctionDefinition);
 	unsigned int wantedArgs = MACRO_ARGUMENT_COUNT(defn);
 
@@ -4085,11 +4109,12 @@ static char* ReadKeyword(char* word,char* ptr,bool &notted, bool &quoted, MEANIN
 			else // ordinary word or concept-- see if it makes sense
 			{
 				char end = word[strlen(word)-1];
-				if (!IsAlphaUTF8OrDigit(end) && end != '"' && strlen(word) != 1)  
+				if (!IsAlphaUTF8OrDigit(end) && end != '"' && strlen(word) != 1)
 				{
-					if (end != '.' || strlen(word) > 6) WARNSCRIPT((char*)"last character of keyword %s is punctuation. Is this intended?\r\n",word)
+					if (end != '.' || strlen(word) > 6) WARNSCRIPT((char*)"last character of keyword %s is punctuation. Is this intended?\r\n", word)
 				}
-				else if (end == '"' && word[(strlen(word)-2)] == ' ') BADSCRIPT((char*) "CONCEPT-? Keyword %s ends in illegal space",word)
+				else if (end == '"' && word[(strlen(word) - 2)] == ' ') BADSCRIPT((char*) "CONCEPT-? Keyword %s ends in illegal space", word)
+				if (*word == '\\') memcpy(word,word+1,strlen(word)); // how to allow $e as a keyword
 				M = ReadMeaning(word);
 				D = Meaning2Word(M);
 					

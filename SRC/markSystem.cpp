@@ -441,7 +441,7 @@ void MarkFacts(int depth, int ucase,MEANING M,int start, int end,bool canonical,
 	}
 }
 
-static void HuntMatch(char* word,bool strict,int start, int end, unsigned int& usetrace)
+static void HuntMatch(bool canonical, char* word,bool strict,int start, int end, unsigned int& usetrace)
 {
 	WORDP set[20];
 	WORDP D;
@@ -471,7 +471,7 @@ static void HuntMatch(char* word,bool strict,int start, int end, unsigned int& u
 		}
 		trace = (D->subjectHead || D->systemFlags & PATTERN_WORD || D->properties & PART_OF_SPEECH)  ? usetrace : 0; // being a subject head means belongs to some set. being a marked word means used as a keyword
 		if ((*D->word == 'I' || *D->word == 'i'  ) && !D->word[1]){;} // dont follow out this I or i word
-		else  MarkFacts(0, 0,MakeMeaning(D),start,end,false,true);
+		else  MarkFacts(0, 0,MakeMeaning(D),start,end, canonical,true);
 	}
 	trace = (modifiedTrace) ? modifiedTraceVal : oldtrace;
 }
@@ -560,9 +560,9 @@ static void SetSequenceStamp() //   mark words in sequence, original and canonic
 		
 		// scan interesting initial words (spaced, underscored, capitalized) but we need to recognize bots in lower case, so try all cases here as well
 		NextInferMark();
-		HuntMatch(rawbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i,usetrace);
-		HuntMatch(canonbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i,usetrace);
-		HuntMatch(originalbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i,usetrace);
+		HuntMatch(true,rawbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i,usetrace);
+		HuntMatch(false,canonbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i,usetrace);
+		HuntMatch(true,originalbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i,usetrace);
 
 		//   fan out for addon pieces
 		int k = 0;
@@ -587,9 +587,9 @@ static void SetSequenceStamp() //   mark words in sequence, original and canonic
 
 			// we  composite anything, not just words, in case they made a typo
 			NextInferMark();
-			HuntMatch(rawbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i+k,usetrace);
-			HuntMatch(canonbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i+k,usetrace);
-			HuntMatch(originalbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i+k,usetrace);
+			HuntMatch(true,rawbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i+k,usetrace);
+			HuntMatch(false,canonbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i+k,usetrace);
+			HuntMatch(true,originalbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i+k,usetrace);
 			if (logCount != logbasecount && usetrace)  Log(STDTRACELOG,(char*)"\r\n"); // if we logged something, separate
 			if (++index >= SEQUENCE_LIMIT) break; //   up thru 5 words in a phrase
 			logbasecount = logCount;
@@ -656,6 +656,10 @@ static void SetSequenceStamp() //   mark words in sequence, original and canonic
 		WORDP D = Index2Word(chunk[1]);
 		D->internalBits ^= BEEN_HERE;
 	}
+
+#ifdef TREETAGGER
+	MarkChunk();
+#endif
 
 	trace = (modifiedTrace) ? modifiedTraceVal : oldtrace;
 	ReleaseStack(rawbuffer); // short term

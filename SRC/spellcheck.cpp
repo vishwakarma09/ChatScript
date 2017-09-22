@@ -373,6 +373,9 @@ bool SpellCheckSentence()
 
 		if (IsDate(word)) continue; // allow 1970/10/5 or similar
 
+		// degrees
+		if (*word == 0xc2 && word[1] == 0xb0 && !word[3]) continue; // leave degreeC,F,K, etc alone
+		
 		if (*word == '\'' && !word[1] && i != startWord && IsDigit(*wordStarts[i - 1]) && !stricmp(language, "english")) // fails if not digit bug
 		{
 			tokens[1] = (char*)"foot";

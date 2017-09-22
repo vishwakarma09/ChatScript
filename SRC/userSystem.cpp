@@ -476,7 +476,6 @@ char* WriteUserVariables(char* ptr,bool sharefile, bool compiled,char* saveJSON)
 		sprintf(ptr,(char*)"$cs_trace=%d\r\n",trace);
 		ptr += strlen(ptr);
 	}
-	userVariableThreadList = 0;
 
 	// now put out the function tracing bits
 	unsigned int index = tracedFunctionsIndex;

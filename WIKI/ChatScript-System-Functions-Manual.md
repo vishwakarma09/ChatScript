@@ -1,6 +1,6 @@
 # ChatScript System Functions Manual
 © Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 7/8/2017 cs7.52
+<br>Revision 8/12/2017 cs7.54
 
 * [Topic Functions](ChatScript-System-Functions-Manual.md#topic-functions)
 * [Marking Functions](ChatScript-System-Functions-Manual.md#marking-functions)
@@ -1700,7 +1700,7 @@ For verbs with irregular pronoun conjugation, supply 4th argument of pronoun to 
 | `uppercase`          | word         |
 | `lowercase`          | word         |
 | `allupper`           | word         |
-| `canonical`          | word         |
+| `canonical`          | word         | see notes
 | `integer`            | floatnumber  | generate integer if float is exact integer
 
 Example:
@@ -1712,6 +1712,14 @@ Example:
 	   $_name = ^original(_0)
 	   Nice to meet you, ^pos(capitalize $_name)
 	   # if user enter giuditta, the rejoinder output: Nice to meet you, Giuditta 
+
+For ^pos(canonical), there is an optional third argument which is the concept name of the pos-tag.  Foreign words may have multiple
+lemma forms based on part of speech. E.g., in the German dictionary you can find this entry:
+```	    
+	Informationstechnische ( NOUN ADJECTIVE NOUN_SINGULAR NOUN_PLURAL ) lemma=`informationstechnisch`Informationstechnische` ADJA  NN  
+```
+which says there are two forms of canonical, one for ADJA (adjective) and one for NN (noun).  If you don't specify a 3rd argument,
+you get the first one (ADJA). If you specify `~ADJA` you get the first and if you specify `~NN`  you get the second.
 
 
 ### `^decodeInputtoken ( number )`

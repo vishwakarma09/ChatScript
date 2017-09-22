@@ -65,7 +65,7 @@ extern int forkcount;
 	SOURCE_ECHO_LOG = 2,
 };
 #define MAX_TRACED_FUNCTIONS 50
- 
+extern char treetaggerParams[200];
 extern unsigned short int derivationIndex[256];
 extern int derivationLength;
 extern char* derivationSentence[MAX_SENTENCE_LENGTH];

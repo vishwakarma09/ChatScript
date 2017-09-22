@@ -853,7 +853,12 @@ char* PerformAssignment(char* word,char* ptr,char* buffer,FunctionResult &result
 
 	// get the from value
 	assignFromWild =  (*ptr == '_' && IsDigit(ptr[1])) ? GetWildcardID(ptr)  : -1;
-	if (assignFromWild >= 0 && *word == '_') ptr = ReadCompiledWord(ptr,buffer); // assigning from wild to wild. Just copy across
+	if (*word == '_' && *ptr == '\'' && ptr[1] == '_' && IsDigit(ptr[2]))
+	{
+		assignFromWild = GetWildcardID(ptr + 1); // allow quoted assign across
+		ptr = ReadCompiledWord(ptr + 1, buffer);
+	}
+	else if (assignFromWild >= 0 && *word == '_') ptr = ReadCompiledWord(ptr,buffer); // assigning from wild to wild. Just copy across
 	else
 	{
 		ptr = GetCommandArg(ptr,buffer,result,OUTPUT_NOCOMMANUMBER|ASSIGNMENT); // need to see null assigned -- store raw numbers, not with commas, lest relations break

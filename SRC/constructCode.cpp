@@ -395,8 +395,8 @@ FunctionResult HandleRelation(char* word1,char* op, char* word2,bool output,int&
 			WORDP D2 = NULL;
 			if (index && D)
 			{
-				int junk;
-				if (GetNextSpot(D,index-1,junk,junk) == index) result = NOPROBLEM_BIT; // otherwise failed and we would have known
+				int start, end;
+				if (GetNextSpot(D,index-1,start,end) == index) result = NOPROBLEM_BIT; // otherwise failed and we would have known
 			}
 			char* was = wildcardOriginalText[GetWildcardID(word1)];
 			if (result == FAILRULE_BIT && (!index || strchr(was, '_') || strchr(was, ' '))) // laborious match try now
