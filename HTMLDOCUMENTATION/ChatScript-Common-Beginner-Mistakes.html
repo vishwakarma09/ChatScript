@@ -12,9 +12,7 @@
 <blockquote>
 <p>© Bruce Wilcox, gowilcox@gmail.com brilligunderstanding.com</p>
 </blockquote>
-<blockquote>
-<p>Revision 8/12/2017 cs7.53</p>
-</blockquote>
+<p><br>Revision 9/24/2017 cs7.55</p>
 <p>Here are a collection of common beginner mistakes I have seen. Many will work, they are just unnecessary and inefficient and potentially more obscure to read.</p>
 <h2 id="failing-to-separate-tokens-with-a-space">Failing to separate tokens with a space</h2>
 <pre><code>u:MYLABEL()</code></pre>
@@ -113,5 +111,7 @@ if (^time_value == weeks)</code></pre>
 <pre><code>$tmp = $tmp + %hour</code></pre>
 <h2 id="thinking-in-a-pattern-will-find-the-earliest-match">Thinking <code>[]</code> in a pattern will find the earliest match</h2>
 <p>A pattern like <code>u: ( the * [bear raccoon] ate )</code> contains a list of words in <code>[]</code>, that a human thinks of as equivalent, and thus imagines CS will simply find the next occurrence of any of them in the input. For efficiency, that's not how CS works. It will try each in turn, and if a match is found, it will stop trying words in the <code>[]</code> immediately. So input like: <em>the raccoon ate the bear</em> will fail because bear will be found first, and <em>ate</em> does not happen immediately after that. If you convert <code>[]</code> into a concept set, then a pattern of <code>u: (the * ~myanimals ate)</code> will match, because all members of a concept set are considered simultaneously.</p>
+<h2 id="querying-with-the-same-value-in-2-positions">Querying with the same value in 2 positions</h2>
+<p>A query like <code>^query(svo $_tmp $_tmp value)</code> will likely fail when 2 of the values being checked are the same. This is because the query marks its arguments with index flags for efficiency and marking the second use of a word overwrites the mark set on the first. Then query testing fails. Usually there is no need to create a fact repeating the same word twice. It's just laziness of not using a different arbitrary fixed value.</p>
 </body>
 </html>

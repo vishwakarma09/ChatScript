@@ -415,8 +415,8 @@
     ninety-seven~1a 
  xcviii ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
     ninety-eight~1a 
- xcl ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
-    one_hundred_ninety~1a 
+ xcl ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
+    xcl~1az being ten more than one hundred eighty
  xeric ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 posdefault:ADJECTIVE ) 
     xeric~1az being deficient in moisture
  xenogeneic ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 posdefault:ADJECTIVE ) 

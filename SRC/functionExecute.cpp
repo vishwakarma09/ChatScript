@@ -571,6 +571,36 @@ static char* SystemCall(char* buffer,char* ptr, WORDP D,FunctionResult &result,b
 	return ptr;
 }
 
+char* GetArgOfMacro(int i,char* buffer,int limit)
+{
+	char* x = callArgumentList[i];
+	if (*x == USERVAR_PREFIX)
+	{
+		strncpy(buffer, GetUserVariable(x, false, true), limit);
+		x = buffer;
+	}
+	else if (*x == '_' && IsDigit(x[1]))
+	{
+		int id = GetWildcardID(x);
+		if (id >= 0)
+		{
+			strncpy(buffer, wildcardOriginalText[id], limit);
+			x = buffer;
+		}
+	}
+	else if (*x == '\'' && x[1] == '_' && IsDigit(x[2]))
+	{
+		int id = GetWildcardID(x + 1);
+		if (id >= 0)
+		{
+			strncpy(buffer, wildcardCanonicalText[id], limit);
+			x = buffer;
+		}
+	}
+	else if (*x == LCLVARDATA_PREFIX) x += 2; // skip ``
+	return x;
+}
+
 char* InvokeUser(char* &buffer,char* ptr, FunctionResult& result,WORDP D,unsigned char* &definition,unsigned int &oldArgumentIndex,
 	unsigned int &args,unsigned int &firstArgument,char* &startRawArg)
 {
@@ -638,31 +668,7 @@ char* InvokeUser(char* &buffer,char* ptr, FunctionResult& result,WORDP D,unsigne
 		Log(STDTRACETABLOG,(char*) "User call %s(%s):(",D->word,startRawArg);
 		for (unsigned int i = firstArgument; i < callArgumentIndex; ++i)
 		{	
-			char* x = callArgumentList[i];
-			if (*x == USERVAR_PREFIX) 
-			{
-				strncpy(buffer,GetUserVariable(x,false,true),40);
-				x = buffer;
-			}
-			else if (*x == '_' && IsDigit(x[1])) 
-			{
-				int id = GetWildcardID(x);
-				if (id >= 0) 
-				{
-					strncpy(buffer,wildcardOriginalText[id],40);
-					x = buffer;
-				}
-			}
-			else if (*x == '\'' && x[1] == '_' && IsDigit(x[2])) 
-			{
-				int id = GetWildcardID(x+1);
-				if (id >= 0) 
-				{
-					strncpy(buffer,wildcardCanonicalText[id],40);
-					x = buffer;
-				}
-			}
-			else if (*x == LCLVARDATA_PREFIX) x += 2; // skip ``
+			char* x = GetArgOfMacro(i, buffer,40);
 
 			// limited to 40, provide ... and restore
 			char d[4];
@@ -890,7 +896,6 @@ char* DoFunction(char* name,char* ptr,char* buffer,FunctionResult &result) // Do
 	unsigned int oldArgumentIndex = callArgumentIndex;
 	unsigned int oldFnVarBase = fnVarBase;
 	int oldtrace = trace;
-
 	if (stricmp(name,"^substitute")) impliedIf = ALREADY_HANDLED;	// we all allow immediate if context to pass thru here safely
 	result = NOPROBLEM_BIT;
 
@@ -1051,7 +1056,7 @@ char* ResultCode(FunctionResult result)
 	strcpy(nextInput,(char*)" `` "); // system separator marks start of internal input
 	char* ptr = nextInput + 4;
 	unsigned int n = BurstWord(buffer);
-	for (unsigned int i = 0; i < n; ++i)
+	for (unsigned int i = 0; i < n; ++i) // add buffer to input
 	{
         strcpy(ptr,GetBurstWord(i));
 		ptr += strlen(ptr);
@@ -1062,6 +1067,7 @@ char* ResultCode(FunctionResult result)
 	strcpy(ptr,copy);
 	ReleaseStack(copy);
 	if (strlen(nextInput) > 1000) nextInput[1000] = 0;	// overflow
+	MoreToCome();
 }
 
 static unsigned int ComputeSyllables(char* word)
@@ -3261,7 +3267,7 @@ static FunctionResult ComputeCode(char* buffer)
 		else if (!stricmp(op,(char*)"random")) value = random((unsigned int)(value2 - value1)) + value1; 
  		else if (*op == '<' && op[1] == '<')  value = value1 << value2;  // BUT FLAWED if shift >= 32
 		else if (*op == '>' && op[1] == '>') value = value1 >> value2;
-		else if (*op == '/')
+		else if (*op == '/' || !stricmp(op, (char*)"divide"))
 		{
 			if (value2 == 0)
 			{
@@ -4636,6 +4642,7 @@ FunctionResult ArgumentCode(char* buffer)
 	char* arg1 = ARGUMENT(1);
 	char* arg2 = ARGUMENT(2);
 	if (!IsDigit(*arg1) || !callIndex) return FAILRULE_BIT;	// must be number index within some call
+	if (*arg2 == '\'') ++arg2;
 	int d = callIndex - 1;// start of real
 	while (*arg2 && d >=0)
 	{
@@ -4647,7 +4654,10 @@ FunctionResult ArgumentCode(char* buffer)
 	unsigned int requestedArg = atoi(arg1);
 	if (requestedArg == 0) return NOPROBLEM_BIT;  // just checking to see if caller exists
 	if (requestedArg > arg) return FAILRULE_BIT;	// not a legal arg value, too high
-	strcpy(buffer,callArgumentList[callArgumentBases[d]+requestedArg]);
+	char* limited;
+	char* x = InfiniteStack(limited, "ArgumentCode");
+	strcpy(buffer, GetArgOfMacro(callArgumentBases[d] + requestedArg, x, MAX_BUFFER_SIZE));
+	ReleaseInfiniteStack();
 	return NOPROBLEM_BIT;
 }
 
@@ -4664,6 +4674,7 @@ FunctionResult CallstackCode(char* buffer)
 		if (*nameDepth[i]) { // not everything is named on the depth chart
 			char* topicname = GetTopicName(atoi((char*)tagDepth[i]));
 			sprintf(tag, "%s%s", topicname, strchr((char*)tagDepth[i], '.'));
+			if (frame >= MAX_FIND) return FAILRULE_BIT;
 			factSet[n][++frame] = CreateFact(MakeMeaning(StoreWord(nameDepth[i])), MakeMeaning(StoreWord("callstack")), MakeMeaning(StoreWord(tag)), FACTTRANSIENT);
 		}
 	}
@@ -5963,7 +5974,7 @@ static FunctionResult SubstituteCode(char* buffer)
 	}
 	// if (*substituteValue != '_') Convert2Blanks(substituteValue); // if we explicitly request _, use it  but Task_Test will be ruined
 
-	// what to search in
+	// what to search in, held in local copy because may be made all lowercase
 	char copy[MAX_WORD_SIZE * 4];
 	*copy = ' '; // protective leading blank for -1 test
 	char* arg2 = ARGUMENT(2);
@@ -5986,32 +5997,34 @@ static FunctionResult SubstituteCode(char* buffer)
 
     char* found;
 	bool changed = false;
-	strcpy(buffer,target);
-	target = buffer;
+	strcpy(buffer,arg2);
+	char* target2 = buffer;
 	size_t subslen = strlen(substituteValue);
 	if (insensitive)
 	{
 		MakeLowerCase(find);
-		MakeLowerCase(target);
+		MakeLowerCase(target);  // only changes local searching copy, not output
 	}
 	while ((found = strstr(target,find))) // case sensitive
     {
+		char* found2 = target2 + (found - target);  // corresponding position in output buffer
+		target = found + findLen;  // next place to search from
 		// no partial matches
 		if (wordMode)
 		{
 			char c = found[findLen];	
 			if (IsAlphaUTF8OrDigit(c) || IsAlphaUTF8OrDigit(*(found-1))) // skip nonword match
 			{
-				target = found + findLen;
+				target2 = found2 + findLen;
 				continue;
 			}
 		}
 		changed = true;
-		char buf[8000];
-		strcpy(buf,found+findLen); // preserve what comes after the match
-		strcpy(found,substituteValue);
-		strcat(found,buf);
-		target = found+subslen;
+		char buf[MAX_WORD_SIZE * 4];
+		strcpy(buf,found2+findLen); // preserve what comes after the match
+		strcpy(found2,substituteValue);
+		strcat(found2,buf);
+		target2 = found2 + subslen;
 	}
 
 	// check for FAIL request
@@ -6756,6 +6769,7 @@ static FunctionResult NextCode(char* buffer)
 			nextInput = SkipWhitespace(nextInput);
 			if (!*nextInput) return FAILRULE_BIT;
 			PrepareSentence(nextInput,true,true);
+			MoreToCome();
 			if (!wordCount && (*nextInput | (responseIndex != 0))) // ignore this input
 			{
 				RESTOREOLDCONTEXT()

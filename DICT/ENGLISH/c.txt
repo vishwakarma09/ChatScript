@@ -28475,9 +28475,9 @@
     cl~1nz (^metric_capacity_unit~1) a metric unit of volume equal to one hundredth of a liter
  centilitre ( meanings=1 NOUN NOUN_SINGULAR COMMON1 posdefault:NOUN ) 
     centiliter~1n 
- cl ( meanings=2 NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR COMMON4 posdefault:NOUN ) 
+ cl ( meanings=2 glosses=1 NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR COMMON4 posdefault:NOUN ) 
     centilitre~1n 
-    one_hundred_fifty~1a 
+    cl~2az being ten more than one hundred forty
  cubic_decimeter ( meanings=1 NOUN NOUN_SINGULAR ) 
     litre~1n 
  cubic_decimetre ( meanings=1 NOUN NOUN_SINGULAR ) 
@@ -33547,40 +33547,6 @@
  complicated ( meanings=2 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON4 COMMON1 posdefault:VERB ) 
     complicated~1az difficult to analyze or understand
     complicated~2az 
- ci ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON4 ) 
-    one_hundred_one~1a 
- cv ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON4 ) 
-    one_hundred_five~1a 
- cx ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 ) 
-    one_hundred_ten~1a 
- cxv ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
-    one_hundred_fifteen~1a 
- cxx ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 ) 
-    one_hundred_twenty~1a 
- cxxv ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
-    one_hundred_twenty-five~1a 
- cxxx ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
-    one_hundred_thirty~1a 
- cxxxv ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
-    one_hundred_thirty-five~1a 
- cxl ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
-    one_hundred_forty~1a 
- cxlv ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
-    one_hundred_forty-five~1a 
- clv ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
-    one_hundred_fifty-five~1a 
- clx ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 ) 
-    one_hundred_sixty~1a 
- clxv ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
-    one_hundred_sixty-five~1a 
- clxx ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
-    one_hundred_seventy~1a 
- clxxv ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
-    one_hundred_seventy-five~1a 
- clxxx ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
-    one_hundred_eighty~1a 
- ccc ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 ) 
-    three_hundred~1a 
  centesimal ( meanings=2 glosses=2 ADJECTIVE ADJECTIVE_NORMAL COMMON1 posdefault:ADJECTIVE ) 
     hundredth~3az the ordinal number of one hundred in counting order
     centesimal~2az relating to or divided into hundredths

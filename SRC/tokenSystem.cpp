@@ -870,9 +870,6 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 			}
 			if ( c == ']' || c == ')') break; //closers
 			if ((c == 'x' || c== 'X') && IsDigit(*start) && IsDigit(next)) break; // break  4x4
-			// allow 24%
-			if (c != '-' && kind & ARITHMETICS && IsDigit(next) && IsDigit(*(ptr-2))  && c != '/' && c != '.' && IsDigit(*start) && !(tokenControl & TOKEN_AS_IS)) 
-				break;  // split numeric operator like  60*2 => 60 * 2  but 60 1/2 stays // 1+1=  dont BREAK APART word-number like Ja-1
 		}
 
 		if (kind & BRACKETS) break; // separate brackets
@@ -1062,7 +1059,7 @@ char* Tokenize(char* input,int &mycount,char** words,bool all,bool nomodify,bool
 		if (*ptr == ')' && nest == 1){;}
 		else if (*ptr == ']' && nest == 1){;}
 		else if (tokenControl & TOKEN_AS_IS) {;} // penn bank input already broken up as sentences
-		else if (all || tokenControl & NO_SENTENCE_END || startc == ',' || token[1]){;}	// keep going - ) for closing whatever
+		else if (all || tokenControl & NO_SENTENCE_END || startc == ',' || token[1]){continue;}	// keep going - ) for closing whatever
 		else if ( (count > 1 && *token == '\'' && ( (*words[count-1] == '.' && !words[count-1][1]) || *words[count-1] == '!' || *words[count-1] == '?'))) break; // end here
 		else if (IsPunctuation(startc) & ENDERS || (startc == ']' && *words[1] == '[' && !nest)) //   done a sentence or oob fragment
 		{
@@ -2039,7 +2036,8 @@ static WORDP Viability(WORDP word, int i, unsigned int n)
     if (!n) return 0;
 
     // how to handle proper nouns for merging here
-    if (!IsUpperCase(*word->word)) { ; }
+	if (word->systemFlags & NO_PROPER_MERGE) return 0;
+	if (!IsUpperCase(*word->word)) { ; }
     else if (!(tokenControl & DO_PROPERNAME_MERGE)) return 0; // do not merge any proper name
     else if (n && IsUpperCase(*word->word) && word->properties & PART_OF_SPEECH && !IS_NEW_WORD(word))
         return word;// Merge dictionary names.  We  merge other proper names later.  words declared ONLY as interjections wont convert in other slots

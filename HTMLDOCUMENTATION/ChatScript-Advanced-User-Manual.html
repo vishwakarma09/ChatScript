@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1 id="chatscript-advanced-users-manual">ChatScript Advanced User's Manual</h1>
-<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com<br> <br>Revision 5/7/2017 cs7.42</p>
+<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com<br> <br>Revision 9/24/2017 cs7.55</p>
 <ul>
 <li><a href="ChatScript-Advanced-User-Manual.html#review-overview-of-how-cs-works">Review</a></li>
 <li><a href="ChatScript-Advanced-User-Manual.html#advanced-concepts">Advanced Concepts</a></li>
@@ -421,7 +421,7 @@ t: I&#39;ve seen pictures of some really grand sand castles.</code></pre>
 <p>You can use the logical and bit-relation to test numbers. Any non-zero value passes.</p>
 <pre><code>s: ( _~number _0&amp;1 ) Your number is odd.</code></pre>
 <p><code>?</code> can be used in two ways. As a comparison operator, it allows you to see if the item on the left side is a member of a set (or JSON array) on the right. E.g.</p>
-<pre><code>u: ( _~propername?~bands )</code></pre>
+<pre><code>u: ( _~propername &#39;_0?~bands )</code></pre>
 <p>As a standalone, it allows you to ask if a wildcard or variable is in the sentence. E.g.</p>
 <pre><code>u: ( _1? )
 u: ( $bot? )</code></pre>

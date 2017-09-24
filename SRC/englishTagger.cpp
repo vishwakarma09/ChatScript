@@ -209,6 +209,15 @@ void   write_treetagger();
 TAGGER_STRUCT ts;  /* tagger interface data structure */
 TAGGER_STRUCT tschunk;  /* tagger interface data structure */
 
+bool MatchTag(char* tag,int i)
+{
+	if (!stricmp(tag, ts.resulttag[i - 1])) return true;
+	if (!stricmp(tag, "NNP") && !stricmp("NP", ts.resulttag[i - 1])) return true;
+	if (!stricmp(tag, "NNPS") && !stricmp("NPS", ts.resulttag[i - 1])) return true;
+
+	return false;
+}
+
 void MarkChunk()
 {
 	if (tschunk.number_of_words == 0) return;
@@ -275,7 +284,7 @@ static void TreeTagger()
 	}
 	ts.number_of_words = wordCount;
 	tag_sentence(0, &ts);
-	if (trace & TRACE_PREPARE) Log(STDTRACELOG, "External Tagging: ");
+	if (trace & (TRACE_PREPARE|TRACE_POS)) Log(STDTRACELOG, "External Tagging: ");
 
 	bool chunk = strstr(treetaggerParams, "chunk");
 	if (chunk) // do chunking here but marking later
@@ -354,7 +363,7 @@ static void TreeTagger()
 		wordCanonical[i] = canonical->word;
 		posValues[i] |= X->properties; // english pos tag references added
 	}
-	if (trace & TRACE_PREPARE)
+	if (trace & (TRACE_PREPARE|TRACE_POS))
 	{
 		for (i = 1; i <= wordCount; i++)
 		{
@@ -385,15 +394,17 @@ static void BlendWithTreetagger(bool &changed)
 		if (!D) continue;	// didnt find it?
 		uint64 bits = D->properties & TAG_TEST; // dont want general headers like NOUN or VERB
 		uint64 possiblebits = posValues[i] & TAG_TEST; // bits we are trying to resolve
-		uint64 allowable = bits & possiblebits;
+		if (bits & VERB_INFINITIVE && possiblebits & VERB_PRESENT) possiblebits |= VERB_INFINITIVE; // when we launch, we want to be right
+		uint64 allowable = bits & possiblebits; // bits for this tagtype
 		if (allowable && allowable != possiblebits) // we can update choices
 		{
 			posValues[i] ^= possiblebits;
 			posValues[i] |= allowable;
+			bitCounts[i] = BitCount(posValues[i]); 
 			changed = true;
 			if (trace)
 			{
-				Log(STDTRACELOG, (char*)"Treetagger removed %s(%d) : ",wordStarts[i],i);
+				Log(STDTRACELOG, (char*)"Treetagger adjusted %d: %s given %s, removing: ",i,wordStarts[i], ts.resulttag[i - 1]);
 				uint64 lost = possiblebits ^ allowable; // these bits disappeared
 				uint64 bit = START_BIT;
 				while (bit)
@@ -403,10 +414,11 @@ static void BlendWithTreetagger(bool &changed)
 				}
 				Log(STDTRACELOG, (char*)"\r\n");
 			}
+			return;	// as soon as changed. return
 		}
-		else if (false && bits != possiblebits && trace & TRACE_PREPARE)
+		else if (!allowable && trace & TRACE_PREPARE)
 		{
-			Log(STDTRACELOG, (char*)"Original rules had this for %s(%d) : ", wordStarts[i], i);
+			Log(STDTRACELOG, (char*)"Treetagger could not adjust %d: %s given %s, leaves: ",i, wordStarts[i], ts.resulttag[i - 1]);
 			uint64 bit = START_BIT;
 			while (bit)
 			{
@@ -2139,7 +2151,7 @@ unsigned int ProcessIdiom(char* word, int i, unsigned int words,bool &changed)
 			LimitValues(verb,NOUN_BITS|VERB_BITS|NOUN_INFINITIVE|NOUN_GERUND|ADJECTIVE_PARTICIPLE,(char*)"designated sequential phrasal verb or noun still possible",changed);
 			for (int x = verb + 1; x <= i; ++x) 
 			{
-				posValues[x] |= PARTICLE; // we'd have to see if noun infinitive was after // can be particle whatever it is, part of verb
+				posValues[x] = PARTICLE; // we'd have to see if noun infinitive was after // can be particle whatever it is, part of verb
 				bitCounts[x] = 1;
 				phrasalVerb[x-1] = (unsigned char)x; // forward pointer
 			}
@@ -2573,9 +2585,6 @@ retry:
 			if (trace & TRACE_POS) Log(STDTRACELOG,(char*)"ApplyRules overran\r\n");
 			return false;
 		}
-#ifdef TREETAGGER
-		if (ts.number_of_words) BlendWithTreetagger(changed);
-#endif
 		if (trace & TRACE_POS) 
 			Log(STDTRACELOG,(char*)"\r\n------------- POS rules pass %d: \r\n",pass);
 
@@ -2583,13 +2592,16 @@ retry:
 		for (int wordIndex =  startSentence; wordIndex <= endSentence; ++wordIndex)
 		{
 			if (ignoreWord[wordIndex]) continue;
-			 int j = (reverseWords) ? (endSentence + 1 - wordIndex) : wordIndex; // test from rear of sentence forwards to prove rules are independent
+			int j = (reverseWords) ? (endSentence + 1 - wordIndex) : wordIndex; // test from rear of sentence forwards to prove rules are independent
 			if (bitCounts[j] != 1)  
 				ApplyRulesToWord(j,changed);
 		} // end loop on words
 		
 		if (ambiguous && trace & TRACE_POS && changed) Log(STDTRACELOG,(char*)"\r\n%s",DumpAnalysis(startSentence,endSentence,posValues,(char*)"POS",false,false));
-		
+#ifdef TREETAGGER
+		if (!changed && ts.number_of_words) BlendWithTreetagger(changed); // can override us even when we know
+		if (changed) continue;
+#endif	
 		if (!changed && ambiguous) // no more rules changed anything and we still need help
 		{
 			if (!(tokenControl & (DO_PARSE-DO_POSTAG))) // guess based on probability
@@ -2613,6 +2625,9 @@ retry:
 #endif
 		}
 	}
+#ifdef TREETAGGER
+	if (ts.number_of_words) BlendWithTreetagger(changed); // can override us even when we know
+#endif	
 #ifndef DISCARDPARSER
 	bool modified = false;
 	if (!parsed)  ParseSentence(resolved,modified); 
@@ -4102,6 +4117,9 @@ static bool FinishSentenceAdjust(bool resolved,bool & changed,int start,int end)
 	
 		// update after things, because VERB2 can be used as object of earlier VERB2 before becoming verb2 in its own right "let us stop and hear him *play the guitar"
 		if (roles[i] & VERB2) currentVerb2 = i;
+
+		if (clauses[i] && posValues[i] == VERB_PRESENT)
+			LimitValues(i, VERB_INFINITIVE, (char*)"change present tense in clause to infinitive", changed);
 	}
 
 	// was aux assigned as main verb, now we have actual verb?
@@ -5276,7 +5294,11 @@ static void CloseLevel(int  i)
 		{
 			if (needRoles[roleIndex] & OBJECT2) break;	 // need vital stuff
 			if (posValues[at] & COMMA) --at; // stop before here
-			if (!phrases[at]) ExtendChunk(lastPhrase,at,phrases);
+			if (!phrases[at])
+			{
+				ExtendChunk(lastPhrase, at, phrases); 
+				if (at > 1 && clauses[at-1]) ExtendChunk(lastPhrase-1, at, clauses);
+			}
 			lastPhrase = 0;
 		}
 		else if (needRoles[roleIndex] & CLAUSE) // closes out a clause, drag clause over it
@@ -5772,6 +5794,9 @@ retry:
 				crossReference[i] = (unsigned char) lastPhrase; // objects point back to prep that spawned them
 				ExtendChunk(lastPhrase,i,phrases);
 				DropLevel(); 
+				// though I walk thru the valley *"of the shadow" merge to clause
+				if (lastPhrase != 1 && clauses[lastPhrase - 1])
+					ExtendChunk(lastPhrase - 1, i, clauses);
 				lastPhrase = 0;
 			}
 		}
@@ -8504,7 +8529,8 @@ static void StartImpliedClause( int i,bool & changed)
 		}
 		// we are at main level and have subject   object, "I like the pictures children draw"
 		// we are after closing object of a phrase, "I like the songs of pictures children draw"
-		if (roles[i-1] & (MAINOBJECT|OBJECT2|MAINSUBJECT) && roleIndex == MAINLEVEL)
+		// but if we just closed a clause "though I walk through the valley I fear no evil" dont worry.
+		if (roles[i-1] & (MAINOBJECT|OBJECT2|MAINSUBJECT) && roleIndex == MAINLEVEL && !clauses[i-1])
 		{
 			//  possible verb ahead?
 			int at = i;
@@ -8926,7 +8952,7 @@ restart:
 							SetRole(objectStack[MAINLEVEL],MAINSUBJECT,true,0);
 							needRoles[MAINLEVEL] =  MAINVERB; // we will still need this as our verb
 						}
-						else
+						else if (false)
 						{
 							needRoles[roleIndex] |= roles[i-1];
 							SetRole(i-1,0);

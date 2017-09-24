@@ -1,6 +1,6 @@
 # ChatScript Debugging Manual
 © Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com<br>
-<br>Revision 8/12/2017 cs7.53
+<br>Revision 9/24/2017 cs7.55
 
 You've written script. It doesn't work. Now what? Now you need to debug it, fix it, and
 recompile it. Debugging is mostly a matter of tracing what the system does testpaand
@@ -417,6 +417,8 @@ for that topic. This means you can do multiple topics and global limits in one c
 
 `~mytopic` gets the pattern limit, `~yourtopic` gets the pos limit, and globally you do varassign.
 
+Note: the correct way to turn on/off normal tracing from script is 
+by changing the tracing variable, e.g.,  $cs_trace = -1. 
 
 ### Understanding a pattern trace
 

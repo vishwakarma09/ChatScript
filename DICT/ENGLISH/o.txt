@@ -8245,42 +8245,24 @@
     oven-shaped~1az shaped like an oven
  one_hundred ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
     c~1a 
- one_hundred_one ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
-    hundred_and_one~1a 
- one_hundred_five ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
-    cv~1az 
- one_hundred_ten ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
-    cx~1az 
- one_hundred_fifteen ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
-    cxv~1az 
- one_hundred_twenty ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
-    cxx~1az 
- one_hundred_twenty-five ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
-    cxxv~1az 
- one_hundred_thirty ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
-    cxxx~1az 
- one_hundred_thirty-five ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
-    cxxxv~1az 
- one_hundred_forty ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
-    cxl~1az 
- one_hundred_forty-five ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
-    cxlv~1az 
- one_hundred_fifty ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
-    cl~2az 
- one_hundred_fifty-five ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
-    clv~1az 
- one_hundred_sixty ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
-    clx~1az 
- one_hundred_sixty-five ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
-    clxv~1az 
- one_hundred_seventy ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
-    clxx~1az 
- one_hundred_seventy-five ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
-    clxxv~1az 
- one_hundred_eighty ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
-    clxxx~1az 
- one_hundred_ninety ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
-    xcl~1az 
+ one_hundred_one ( CONDITIONAL_IDIOM  poscondition=(null) ) 
+ one_hundred_five ( CONDITIONAL_IDIOM  poscondition=(null) ) 
+ one_hundred_ten ( CONDITIONAL_IDIOM  poscondition=(null) ) 
+ one_hundred_fifteen ( CONDITIONAL_IDIOM  poscondition=(null) ) 
+ one_hundred_twenty ( CONDITIONAL_IDIOM  poscondition=(null) ) 
+ one_hundred_twenty-five ( CONDITIONAL_IDIOM  poscondition=(null) ) 
+ one_hundred_thirty ( CONDITIONAL_IDIOM  poscondition=(null) ) 
+ one_hundred_thirty-five ( CONDITIONAL_IDIOM  poscondition=(null) ) 
+ one_hundred_forty ( CONDITIONAL_IDIOM  poscondition=(null) ) 
+ one_hundred_forty-five ( CONDITIONAL_IDIOM  poscondition=(null) ) 
+ one_hundred_fifty ( CONDITIONAL_IDIOM  poscondition=(null) ) 
+ one_hundred_fifty-five ( CONDITIONAL_IDIOM  poscondition=(null) ) 
+ one_hundred_sixty ( CONDITIONAL_IDIOM  poscondition=(null) ) 
+ one_hundred_sixty-five ( CONDITIONAL_IDIOM  poscondition=(null) ) 
+ one_hundred_seventy ( CONDITIONAL_IDIOM  poscondition=(null) ) 
+ one_hundred_seventy-five ( CONDITIONAL_IDIOM  poscondition=(null) ) 
+ one_hundred_eighty ( CONDITIONAL_IDIOM  poscondition=(null) ) 
+ one_hundred_ninety ( CONDITIONAL_IDIOM  poscondition=(null) ) 
  one-person ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE posdefault:ADJECTIVE ) 
     one-woman~1az designed for or restricted to a single person
  one-woman ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE posdefault:ADJECTIVE ) 

@@ -1,6 +1,6 @@
 # ChatScript Basic User Manual
 © Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 8/27/2017 cs7.54
+<br>Revision 9/24/2017 cs7.55
 
 * [Overview](ChatScript-Basic-User-Manual.md#overview)
 * [Simple Topics](ChatScript-Basic-User-Manual.md#simple-topics)
@@ -525,6 +525,10 @@ u: GLASSES ([glasses contacts]) I don't wear glasses, but I do have contacts.
 Note, ChatScript is a token-oriented language (tokens generally being a collection of characters without spaces).
 You need to put one or more spaces after the `:` and before the label.  OTHERWISE `?:EYECOLOR` is a single token and
 not a declaration of a rule and a label. 
+
+Also, while you can use any case you want in the rule label, internally ChatScript will convert
+it to full uppercase. Routines that deal with rule labels know this so you don't have to care.
+All uppercase rule labels stand out more easily in traces and in script source.
 
 The `simpletopic.top` file has an example topic called `~Childhood` of normal complexity
 (which can be understood after reading through advanced output).

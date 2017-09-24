@@ -39,8 +39,7 @@
  Jaimes ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
  Jalbert ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
  Jamerson ( NOUN_HUMAN NOUN NOUN_PROPER_SINGULAR ) 
- James ( meanings=10 glosses=10 NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR COMMON4 COMMON1 KINDERGARTEN ) 
-    Epistle_of_James~1nz (^Epistle~1) a New Testament book attributed to Saint James the Apostle
+ James ( meanings=9 glosses=9 NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR COMMON4 COMMON1 KINDERGARTEN ) 
     James_River~1nz (^river~1) a river that rises in North Dakota and flows southward across South Dakota to the Missouri
     James_River~2nz (^river~1) a river in Virginia that flows east into Chesapeake Bay at Hampton Roads
     St_._James_the_Apostle~1nz (^Apostle~1) disciple of Jesus
@@ -2696,8 +2695,8 @@
  Jamestown ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
     Jamestown~1nz (^village~2) a former village on the James River in Virginia to the north of Norfolk
  James_River ( meanings=2 NOUN NOUN_PROPER_SINGULAR ) 
+    James~1n 
     James~2n 
-    James~3n 
  James_Bay ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
     James_Bay~1nz (^bay~6) the southern extension of Hudson Bay in Canada between western Quebec and northeastern Ontario
  Japan_Trench ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
@@ -3465,13 +3464,13 @@
  Jakobson ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
     Roman_Jakobson~1n 
  Jesse_James ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
-    James~7n 
+    James~6n 
  James_I ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
-    James~8n 
+    James~7n 
  James_II ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
-    James~9n 
+    James~8n 
  James_IV ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
-    James~10n 
+    James~9n 
  Judith_Jamison ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
     Jamison~1nz (^dancer~1) United States dancer and choreographer
  Jaspers ( meanings=1 NOUN NOUN_PROPER_SINGULAR COMMON1 ) 

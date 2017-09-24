@@ -1192,6 +1192,13 @@ file: C:/ChatScript/RAWDATA/ONTOLOGY/concepts.top 0
     concept: ~yellow_other 2070
     concept: ~yesanswer 2071
     concept: ~noanswer 2072
+file: C:/ChatScript/RAWDATA/ONTOLOGY/french_adjectivehierarchy.top 0
+file: C:/ChatScript/RAWDATA/ONTOLOGY/french_adverbhierarchy.top 0
+file: C:/ChatScript/RAWDATA/ONTOLOGY/french_affect.top 0
+file: C:/ChatScript/RAWDATA/ONTOLOGY/french_concepts.top 0
+file: C:/ChatScript/RAWDATA/ONTOLOGY/french_opposite.tbl 0
+file: C:/ChatScript/RAWDATA/ONTOLOGY/french_prepositionhierarchy.top 0
+file: C:/ChatScript/RAWDATA/ONTOLOGY/french_verbhierarchy.top 0
 file: C:/ChatScript/RAWDATA/ONTOLOGY/german_adjectives.top 0
 file: C:/ChatScript/RAWDATA/ONTOLOGY/german_adverbs.top 0
 file: C:/ChatScript/RAWDATA/ONTOLOGY/german_affect.top 0
@@ -1597,6 +1604,8 @@ file: C:/ChatScript/RAWDATA/ONTOLOGY/verbhierarchy.top 0
     concept: ~comment 489
     concept: ~ask 490
     concept: ~post 491
+file: C:/ChatScript/RAWDATA/ONTOLOGY/PARSER/french_parsedata.top 0
+file: C:/ChatScript/RAWDATA/ONTOLOGY/PARSER/french_timewords.top 0
 file: C:/ChatScript/RAWDATA/ONTOLOGY/PARSER/german_parsedata.top 0
 file: C:/ChatScript/RAWDATA/ONTOLOGY/PARSER/german_timewords.top 0
 file: C:/ChatScript/RAWDATA/ONTOLOGY/PARSER/parsedata.top 0

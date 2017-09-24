@@ -23,7 +23,6 @@ it_be
 be_it
 do_you_understand
 what_be
-allowed
 too_many
 not_enough
 too_few
@@ -81,8 +80,6 @@ be_you
 you_be
 what_do_you_think_about
 what_be_you_thought_on
-humans
-computers
 when_did_you
 when_did_I
 when_will_it

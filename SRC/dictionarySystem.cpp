@@ -498,15 +498,19 @@ bool ReadForeignPosTags(char* fname)
 	while (ReadALine(readBuffer,in)>= 0)  // foreign name followed by bits of english pos
 	{
 		char* ptr = ReadCompiledWord(readBuffer,word+1);
-		if (!word[1])
+		if (!word[1] || word[1] == '#')
 			continue;
 		uint64 flags = 0;
 		char flag[MAX_WORD_SIZE];
 		while (*ptr) // get english pos values of this tag
 		{
 			ptr = ReadCompiledWord(ptr,flag);
-			if (!*flag) break;
+			if (!*flag || *flag == '#') break;
 			uint64 val = FindValueByName(flag);
+			if (!val)
+			{
+				printf("Unable to find flag %s\r\n", flag);
+			}
 			flags |= val;
 		}
 		StoreWord(word,flags); // _foreignpos gets bits
@@ -986,7 +990,13 @@ WORDP StoreWord(char* word, uint64 properties)
 	bool lowercase = false;
 	//   make all words normalized with no blanks in them.
 	if (*word == '"' || *word == '_' || *word == '`') {;} // dont change any quoted things or things beginning with _ (we use them in facts for a "missing" value) or user var names
-	else if (*word == SYSVAR_PREFIX || *word == USERVAR_PREFIX || *word == '~'  || *word == '^') lowercase = true; // these are always lower case
+	else if (*word == SYSVAR_PREFIX || *word == USERVAR_PREFIX || *word == '~' || *word == '^')
+	{
+		lowercase = true; // these are always lower case
+		char wordx[MAX_WORD_SIZE];
+		MakeLowerCopy(wordx,word); // JUST IN CASE HE SYNTHESIZED it with upper case
+		word = wordx;
+	}
 	else if (!(properties & (AS_IS|PUNCTUATION_BITS))) 
 	{
 		n = BurstWord(word,0);
@@ -7208,9 +7218,10 @@ static void ReadEnglish(int mini)
 	SetHelper("used_to", AUX_VERB_PAST | VERB | VERB_PAST | VERB_PAST_PARTICIPLE); //BUT cannot handle "are you used to it?"
 	SetHelper("will", AUX_VERB_FUTURE); // modal
 	SetHelper("would", AUX_VERB_FUTURE); // modal
-
 										 // need "going" to be in dictionary so wont spell check into "going to"
 	WORDP X = StoreWord("going", VERB | VERB_PRESENT_PARTICIPLE);
+	X = StoreWord("''",QUOTE);
+	X = StoreWord(".", PUNCTUATION); // closest we have 
 	ReadSystemFlaggedWords("RAWDICT/existentialbe.txt", PRESENTATION_VERB);
 	ReadSystemFlaggedWords("RAWDICT/adverbs_extent.txt", EXTENT_ADVERB);
 	ReadSystemFlaggedWords("RAWDICT/verb_linking.txt", VERB_TAKES_ADJECTIVE); // copular verb (adjective as object)

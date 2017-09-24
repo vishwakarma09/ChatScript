@@ -12,9 +12,7 @@
 <blockquote>
 <p>© Bruce Wilcox, gowilcox@gmail.com</p>
 </blockquote>
-<blockquote>
-<p>Revision 8-12-2015 cs7.53</p>
-</blockquote>
+<p><br>Revision 9/24/2017 cs7.55</p>
 <p>Control scripts are an advanced topic you should read about ONLY after you have read the Advanced User Manual. In fact, may you never have any need to read this manual at all. What comes shipped with by default with ChatScript may well be all you ever need.</p>
 <p>But actually, a control script is nothing more than a topic written in ChatScript, much like any other topic. It is the topic that controls how the ChatScript engine works, which means you can write bots to operate any way you choose. Want to have your bot simulate ingesting alcohol, getting drunk, and recovering over time? You can write control scripts to do that. My Suzette bot had a control script that would analyze your interactions with her. If you were friendly, agreeable, interested in the conversation, she got friendlier.</p>
 <p>Until she reached a point where she went neurotic and felt she wasn't deserving of your attention. This became clear in her conversations. Likewise if you were hostile, disagreeable, and bored with her, she drifted into paranoid. She wondered who might be listening in on the conversation, why you asked the questions you did. She even began to speculate how she might kill you. It's all in the control script she had (and topics she had that got invoked to simulate paranoia or neurotic affection).</p>
@@ -96,26 +94,33 @@ u: (&lt; \[ )
 u: () # whatever normal processing you do for user sentences</code></pre>
 <h1 id="output-oob">Output OOB</h1>
 <p>The primary rule for output OOB is that it is within [ ] and is the first thing in the output. You can write rules that directly embed OOB with the user message like this:</p>
-<pre><code>u: () \[ action=wave \] How are you?
+<pre><code>u: () \[ action=wave \] How are you?</code></pre>
+<p>But that gets messy and if you output multiple messages, you cannot easily combine distinct OOB messages into a single composite OOB. Therefore the usual technique is to define a macro that holds OOB data and use a postprocessing topic to output it at the end.</p>
+<pre><code>outputmacro: ^OOB(^value) $oob = ^join($oob &quot; &quot; ^value)
 
-But that gets messy and if you output multiple messages, you cannot easily combine distinct OOB messages into a single composite OOB. Therefore the usual technique is to
-define a macro that holds OOB data and use a postprocessing topic to output it at the end.</code></pre>
-<p>outputmacro: <sup>OOB(</sup>value) <span class="math inline"><em>o</em><em>o</em><em>b</em>=<sup><em>j</em></sup><em>o</em><em>i</em><em>n</em>(</span>oob &quot; &quot; ^value)</p>
-<p>topic: ~introductions keep repeat () u: () ^OOB(action=wave ) How are you?</p>
-<p>topic: ~postprocess system repeat() t: ( $oob ) ^postprintbefore( [ $oob ] )</p>
-<pre><code>In the above code use $$oob instead of $oob (pdf converter didnt like it)
+topic: ~introductions keep repeat () 
+u: () ^OOB(action=wave ) How are you? 
 
-# Changing input token processing
+topic: ~postprocess system repeat()
+t: ( $oob ) ^postprintbefore( \[ $oob \] ) </code></pre>
+<p>In the above code use $$oob instead of $oob (pdf converter didnt like it)</p>
+<h1 id="changing-input-token-processing">Changing input token processing</h1>
+<p>There are times you may want to alter input processing by changing $cs_token. For example if you ask the user their name, on the next user input you probably don't want spell checking happening which could make a mess of foreign names (or even normal English ones CS is not aware of). So you want a convenient way to temporarily change $cs_token. Here is how:</p>
+<pre><code># in your bot definition make a copy of your normal $cs_token
+outputmacro: yourbot() 
+    $cs_token =  hashDO_INTERJECTION_SPLITTING 
+    $cs_token |=   hashDO_SUBSTITUTE_SYSTEM 
+    $cs_token |=   hashDO_SPELLCHECK 
+    $cs_token |=  hashDO_PARSE
+    $std_cstoken = $cs_token
 
-There are times you may want to alter input processing by changing $cs_token. For example if you ask the user their name, on the next user input you probably don&#39;t want spell checking
-happening which could make a mess of foreign names (or even normal English ones CS is not aware of). So you want a convenient way to temporarily change $cs_token.  Here is how:</code></pre>
-<h1 id="in-your-bot-definition-make-a-copy-of-your-normal-cs_token">in your bot definition make a copy of your normal $cs_token</h1>
-<p>outputmacro: yourbot() $cs_token = hashDO_INTERJECTION_SPLITTING $cs_token |= hashDO_SUBSTITUTE_SYSTEM $cs_token |= hashDO_SPELLCHECK $cs_token |= hashDO_PARSE $std_cstoken = $cs_token</p>
-<h1 id="in-your-script-set-a-variable-for-what-you-want-to-happen-next-input">in your script set a variable for what you want to happen next input</h1>
-<p>t: What is your name? $$newtoken = $cs_token - hashDO_SPELLCHECK</p>
-<h1 id="in-postprocessing-make-the-change-over">in postprocessing make the change over</h1>
-<p>topic: ~postprocess system repeat()</p>
-<p>t: (<span class="math inline"><em>c</em><em>s</em><sub><em>t</em></sub><em>o</em><em>k</em><em>e</em><em>n</em>!=</span>std_token) $cs_token = <span class="math inline"><em>s</em><em>t</em><em>d</em><sub><em>t</em></sub><em>o</em><em>k</em><em>e</em><em>n</em><em>t</em> : (</span>$newtoken) $cs_token = $newtoken</p>
-<p>```</p>
+# in your script set a variable for what you want to happen next input
+t: What is your name?  $$newtoken = $cs_token - hashDO_SPELLCHECK
+
+# in postprocessing make the change over
+topic: ~postprocess system repeat()
+
+t: ($cs_token!=$std_token) $cs_token = $std_token 
+t: ($$newtoken) $cs_token = $newtoken   </code></pre>
 </body>
 </html>

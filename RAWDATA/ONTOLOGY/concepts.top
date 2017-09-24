@@ -239,7 +239,7 @@
 ##<<ENGLISH concept: ~carnivore (alligator badger cat cheetah crocodile dog dolphin eagle falcon foxhawk hyena lion orca owl polar-bear puma salmon scorpion shark spider tiger whale wolf ) ##>>
 ##<<ENGLISH concept: ~carryable (~nutrient ) ##>>
 ##<<ENGLISH concept: ~cashable_item (cash coin money treasure ) ##>>
-##<<ENGLISH concept: ~cat_breeds   PROBABLE_NOUN ANIMATE_BEING (Abysinnian Aegean Americal_Curl American_Bobtail American_Shorthair American_Wirehair Arabian_Mau Asian Asian_Semi-longhair 
+##<<ENGLISH concept: ~cat_breeds   PROBABLE_NOUN ANIMATE_BEING (Abysinnian Aegean Americal_Curl American_Bobtail American_Shorthair American_Wirehair Arabian_Mau  Asian_Semi-longhair 
           Australian_Mist Balinese Bambino Bengal Birman Bombay Brazilian_Shorthair British_Longhair British_Semi-longhair British_Shorthair coon kitten kitty maine Mau Persian siamese 
           tabby Toybob ) ##>>
 ##<<ENGLISH concept: ~category (brand breed breed_of category class class_of division flavor_of genre grouping kind kind_of kind_of_stuff kinds_of make_of model sort_of species style_of subdivision 
@@ -1839,7 +1839,7 @@ executor beneficiary magistrate conservator ) ##>>
 ##<<ENGLISH concept: ~startreklist NOUN NOUN_PROPER_SINGULAR (7_of_9 Bajor Brent_Spiner Captain_Janeway Captain_Kirk Data Deep_Space_9 Doohan DS9 Ensign_Ohura Enterprise Federation Ferengi Janeway 
           Jonathan_Frakes Kate_Mulgrew Kirk Klingon Koenig McCoy Michael_Dorn Nichols Nimoy Patrick_Stewart Picard Riker Roddenberry Romulan Scotty Shatner Sisko Spock Star_Trek Sulu 
           Takei trekkie tribble United_Federation_of_Planets Voyager Worf ) ##>>
-##<<ENGLISH concept: ~state (Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware Florida Georgia Hawaii Idaho Illinois Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts 
+##<<ENGLISH concept: ~state (Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware Florida Georgia Hawaii Idaho Illinois Iowa Indiana Kansas Kentucky Louisiana Maine Maryland Massachusetts 
           Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New_Hampshire New_Jersey New_Mexico New_York North_Carolina North_Dakota Ohio Oklahoma Oregon Pennsylvania 
           Rhode_Island South_Carolina South_Dakota Tennessee Texas Utah Vermont Virginia Washington West_Virginia Wisconsin Wyoming ) ##>>
 ##<<ENGLISH concept: ~state_abbreviations NOUN NOUN_PROPER_SINGULAR ( AL AK AZ AR CA CO CT DE  FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY ) ##>>

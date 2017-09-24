@@ -1505,13 +1505,13 @@ bool TraceFunctionArgs(FILE* out, char* name, int start, int end)
 
 	unsigned int args = end - start;
 	char arg[MAX_WORD_SIZE];
-
+	char* limited;
 	fprintf(out, "( ");
 	for (int i = 0; i < args; ++i)
 	{
-		strncpy(arg, callArgumentList[start + i], 50);
+		strncpy(arg, callArgumentList[start + i], 50); // may be name and not value?
 		arg[50] = 0;
-		fprintf(out, "%s ", arg);
+		fprintf(out, "%s  ", arg);
 	}
 	fprintf(out, ")");
 	return true;

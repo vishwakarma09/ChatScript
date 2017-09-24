@@ -359,7 +359,8 @@ bool SpellCheckSentence()
 		// change any \ to /
 		char newword[MAX_WORD_SIZE];
 		bool altered = false;
-		if (strlen(word) < MAX_WORD_SIZE)
+		int size = strlen(word);
+		if (size < MAX_WORD_SIZE)
 		{
 			strcpy(newword, word);
 			char* at = newword;
@@ -391,7 +392,7 @@ bool SpellCheckSentence()
 			continue;
 		}
 		if (!word || !word[1] || *word == '"' ) continue; // illegal or single char or quoted thingy 
-		size_t len = strlen(word);
+		size_t len = size;
 
 		// dont spell check uppercase not at start or joined word
 		if (IsUpperCase(word[0]) && (i != startWord || strchr(word,'_')) && tokenControl & NO_PROPER_SPELLCHECK) continue; 
@@ -447,6 +448,32 @@ bool SpellCheckSentence()
 			ReplaceWords("am as time", i, 1, 1, tokens);
 			fixedSpell = true;
 			continue;
+		}
+
+		// split arithmetic  1+2
+		if (IsDigit(*word) && IsDigit(word[size - 1]))
+		{
+			char* at = word;
+			while (IsDigit(*++at) || *at == '.') { ; }
+			char* op = at;
+			if (*at == '+' || *at == '-' || *at == '*' || *at == '/')
+			{
+				while (IsDigit(*++at) || *at == '.') { ; }
+				if (!*at  && (size != 9 || *op != '-'))  // 445+455 but not zip code
+				{
+					char* tokens[4];
+					char oper[10];
+					tokens[2] = oper;
+					*oper = *op;
+					oper[1] = 0;
+					*op = 0;
+					tokens[1] = word;
+					tokens[3] = op + 1;
+					ReplaceWords("smooshed 1+2", i, 1, 3, tokens);
+					fixedSpell = true;
+					continue;
+				}
+			}
 		}
 
 		char* known = ProbableKnownWord(word);
@@ -520,7 +547,7 @@ bool SpellCheckSentence()
 			if (E && E->properties & (PART_OF_SPEECH|FOREIGN_WORD))
 			{
 				// if the word we find is UPPER case, and this might be a lower case noun plural, don't change case.
-				size_t len = strlen(word);
+				size_t len = size;
 				if (word[len-1] == 's' ) 
 				{
 					WORDP F = FindWord(word,len-1);

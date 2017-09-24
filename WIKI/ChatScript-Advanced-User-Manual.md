@@ -1,6 +1,6 @@
 # ChatScript Advanced User's Manual
 © Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com<br>
-<br>Revision 5/7/2017 cs7.42
+<br>Revision 9/24/2017 cs7.55
 
 * [Review](ChatScript-Advanced-User-Manual.md#review-overview-of-how-cs-works)
 * [Advanced Concepts](ChatScript-Advanced-User-Manual.md#advanced-concepts)
@@ -757,7 +757,7 @@ You can use the logical and bit-relation to test numbers. Any non-zero value pas
 `?` can be used in two ways. As a comparison operator, it allows you to see if the item on
 the left side is a member of a set (or JSON array) on the right. E.g.
 
-    u: ( _~propername?~bands )
+    u: ( _~propername '_0?~bands )
 
 As a standalone, it allows you to ask if a wildcard or variable is in the sentence. E.g.
 
