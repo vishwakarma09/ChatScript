@@ -7,11 +7,11 @@ Contents:
 
 * [Indentation of rules](ChatScript-Coding-Standards.md#indentation-of-rules)
 * [Rule Labels](ChatScript-Coding-Standards.md#rule-labels)
-* [Sample inputs](ChatScript-Coding-Standards.md#sample-inputs)
+* [Give Sample inputs](ChatScript-Coding-Standards.md#give-sample-inputs)
 * [Easy to read patterns](ChatScript-Coding-Standards.md#easy-to-read-patterns)
 * [Easy to read output](ChatScript-Coding-Standards.md#easy-to-read-output)
-* [Related rules bundles](ChatScript-Coding-Standards.md#related-rules-bundles)
-* [Localized Concepts and functions](ChatScript-Coding-Standards.md#localized-Ccncepts-and-functions)
+* [Bundle related rules](ChatScript-Coding-Standards.md#bundle-related-rules)
+* [Concept and Function localization](ChatScript-Coding-Standards.md#concept-and-function-localization)
 * [Keyword casing and Misspellings](ChatScript-Coding-Standards.md#keyword-casing-and-misspellings)
 
 *Rationale*:<br>
@@ -78,6 +78,34 @@ have such a label, which will appear in an abstract.
 This allows others to refer to your rule and maybe find it in log files of customers.
 
 
+## Give sample inputs
+
+* Give sample inputs for responders and rejoinders.
+* Give multiple samples for wildly different sentence constructions when you have multiple patterns in a rule.
+
+Examples:
+```
+t: What year is it?
+    #! 1993
+    a: (~year) Great.
+
+#! What is your name
+#! Who are you?
+?: ([
+    (‘you [name called])
+    (who be ‘you)
+    ])
+    My name is Rose.
+```
+
+*Rationale*:<br>
+Sample inputs explain your patterns. Instead of having to interpret the
+pattern, you know immediately what the rule is intending to do. 
+
+Sample inputs allow you to use `:abstract` to give non-programmers an overview of your code.
+Sample inputs also allow CS to unit-test your code for you using `:verify`.
+
+
 ## Easy-to-read patterns
 
 * Avoid superfluous parentheses.
@@ -106,34 +134,6 @@ enough to matter.
 
 When you are using multiple patterns in a rule, putting each
 on its own line allows you (or code reviewers) to comprehend each one separately.
-
-
-## Give sample inputs
-
-* Give sample inputs for responders and rejoinders.
-* Give multiple samples for wildly different sentence constructions when you have multiple patterns in a rule.
-
-Examples:
-```
-t: What year is it?
-    #! 1993
-    a: (~year) Great.
-
-#! What is your name
-#! Who are you?
-?: ([
-    (‘you [name called])
-    (who be ‘you)
-    ])
-    My name is Rose.
-```
-
-*Rationale*:<br>
-Sample inputs explain your patterns. Instead of having to interpret the
-pattern, you know immediately what the rule is intending to do. 
-
-Sample inputs allow you to use `:abstract` to give non-programmers an overview of your code.
-Sample inputs also allow CS to unit-test your code for you using `:verify`.
 
 
 ## Easy to read rule output
@@ -169,7 +169,6 @@ Code is certainly harder to understand when multiple actions are on the same lin
 On the other hand if the output is tiny, you might put it on a single line like this:
 
     u: (test) OK. $status += 1
-
 
 
 ## Bundle related rules
