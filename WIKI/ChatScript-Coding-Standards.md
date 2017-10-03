@@ -5,15 +5,14 @@
 
 Contents:
 
-* [Proper indentation](ChatScript-Coding-Standards.md#Proper-indentation)
-* [Rule Labels](ChatScript-Coding-Standards.md#Rule-Labels)
-* [Sample inputs](ChatScript-Coding-Standards.md#Sample-inputs)
-* [Easy to read patterns](ChatScript-Coding-Standards.md#Easy-to-read-patterns)
-* [Easy to read output](ChatScript-Coding-Standards.md#Easy-to-read-output)
-* [Related rules bundles](ChatScript-Coding-Standards.md#Related-rules-bundles)
-* [Localized Concepts and functions](ChatScript-Coding-Standards.md#Localized-Concepts-and-functions)
-* [Keyword casing and Misspellings](ChatScript-Coding-Standards.md#Keyword-casing-and-Misspellings)
-
+* [Indentation of rules](ChatScript-Coding-Standards.md#indentation-of-rules)
+* [Rule Labels](ChatScript-Coding-Standards.md#rule-labels)
+* [Sample inputs](ChatScript-Coding-Standards.md#sample-inputs)
+* [Easy to read patterns](ChatScript-Coding-Standards.md#easy-to-read-patterns)
+* [Easy to read output](ChatScript-Coding-Standards.md#easy-to-read-output)
+* [Related rules bundles](ChatScript-Coding-Standards.md#related-rules-bundles)
+* [Localized Concepts and functions](ChatScript-Coding-Standards.md#localized-Ccncepts-and-functions)
+* [Keyword casing and Misspellings](ChatScript-Coding-Standards.md#keyword-casing-and-misspellings)
 
 *Rationale*:<br>
 Coding Standards allow you and others to understand your code.
