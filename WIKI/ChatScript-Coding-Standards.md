@@ -9,7 +9,7 @@ Contents:
 * [Rule Labels](ChatScript-Coding-Standards.md#rule-labels)
 * [Give Sample inputs](ChatScript-Coding-Standards.md#give-sample-inputs)
 * [Easy to read patterns](ChatScript-Coding-Standards.md#easy-to-read-patterns)
-* [Easy to read output](ChatScript-Coding-Standards.md#easy-to-read-output)
+* [Easy to read rule output](ChatScript-Coding-Standards.md#easy-to-read-rule-output)
 * [Bundle related rules](ChatScript-Coding-Standards.md#bundle-related-rules)
 * [Concept and Function localization](ChatScript-Coding-Standards.md#concept-and-function-localization)
 * [Keyword casing and Misspellings](ChatScript-Coding-Standards.md#keyword-casing-and-misspellings)
