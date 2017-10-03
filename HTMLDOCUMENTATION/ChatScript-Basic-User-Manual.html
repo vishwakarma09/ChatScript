@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1 id="chatscript-basic-user-manual">ChatScript Basic User Manual</h1>
-<p>© Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 8/27/2017 cs7.54</p>
+<p>© Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 9/24/2017 cs7.55</p>
 <ul>
 <li><a href="ChatScript-Basic-User-Manual.html#overview">Overview</a></li>
 <li><a href="ChatScript-Basic-User-Manual.html#simple-topics">Simple Topics</a></li>
@@ -330,6 +330,7 @@ u: GLASSES ([glasses contacts]) I don&#39;t wear glasses, but I do have contacts
 ?: BLIND (you * blind) I am not blind.
 ?: COLORBLIND (you * [color-blind &quot;color blind&quot;]) I am not color blind. </code></pre>
 <p>Note, ChatScript is a token-oriented language (tokens generally being a collection of characters without spaces). You need to put one or more spaces after the <code>:</code> and before the label. OTHERWISE <code>?:EYECOLOR</code> is a single token and not a declaration of a rule and a label.</p>
+<p>Also, while you can use any case you want in the rule label, internally ChatScript will convert it to full uppercase. Routines that deal with rule labels know this so you don't have to care. All uppercase rule labels stand out more easily in traces and in script source.</p>
 <p>The <code>simpletopic.top</code> file has an example topic called <code>~Childhood</code> of normal complexity (which can be understood after reading through advanced output).</p>
 <h1 id="simple-patterns">SIMPLE PATTERNS</h1>
 <p>As stated previously, a rule cannot fire unless its pattern matches, and a pattern in a rule is encased in parens (which means find the items within it in sequence).</p>

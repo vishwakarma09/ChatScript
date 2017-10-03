@@ -272,6 +272,7 @@
 + Bermuda ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
 + Big_Ben ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
 + Brooklyn_Bridge NOUN_TITLE_OF_WORK 
++ bits NOUN NOUN_PLURAL KINDERGARTEN 
 + Niels_Bohr NOUN_HUMAN NOUN_HE 
 + Genesis NOUN_THEY NOUN_TITLE_OF_WORK 
 + Jeremiah NOUN_TITLE_OF_WORK 
@@ -460,6 +461,7 @@
 + cable_car NOUN_PROPER_SINGULAR ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
 + kid NOUN_HUMAN 
 + rooster NOUN_HE 
++ communications NOUN NOUN_PLURAL KINDERGARTEN 
 + Concord NO_PROPER_MERGE ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
 + cow NOUN_SHE 
 + Canada ALWAYS_PROPER_NAME_MERGE LOCATIONWORD OF_PROPER 
@@ -480,6 +482,7 @@
 + Medal_of_Honor NOUN_TITLE_OF_WORK 
 + Caribbean_Sea ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
 + Kate_Chopin NOUN_HUMAN NOUN_SHE 
++ cows VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
 + clan NOUN_HUMAN 
 + Corsican NOUN_HUMAN NOUN_THEY NOUN_TITLE_OF_WORK NOUN NOUN_PROPER_SINGULAR 
 + Central_America ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
@@ -601,7 +604,7 @@
 + Doug NOUN_TITLE_OF_WORK 
 + Lawrence_Durrell NOUN_HUMAN NOUN_HE 
 + Deimos ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
-+ drugs PATTERN_WORD 
++ drugs VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL GRADE1_2 
 + Dien_Bien_Phu NOUN_TITLE_OF_WORK 
 + Dunkirk NOUN_TITLE_OF_WORK 
 + Donald_Duck NOUN_HUMAN NOUN_HE 
@@ -1619,12 +1622,13 @@
 + Pacific_Ocean ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
 + Plymouth ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
 + Panama ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
-+ pants PATTERN_WORD 
++ pants VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL 
 + University_of_Paris ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
 + Parthenon ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
 + Pyramids NOUN NOUN_PROPER_SINGULAR 
 + Palace_of_Versailles ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
 + Versailles ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
++ pins VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
 + Passion_of_Christ NOUN_TITLE_OF_WORK 
 + Plato NOUN_HUMAN NOUN_HE 
 + Panama_City NO_PROPER_MERGE ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
@@ -1682,6 +1686,7 @@
 + Quentin_Tarantino NOUN_HUMAN NOUN_HE 
 + Queen_Victoria NOUN_HUMAN NOUN_SHE 
 + Victoria NO_PROPER_MERGE ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
++ quaking VERB_PRESENT_PARTICIPLE VERB 
 + Rio_de_Janeiro ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
 + Riyadh NO_PROPER_MERGE ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
 + Raleigh NO_PROPER_MERGE ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
@@ -1795,9 +1800,11 @@
 + Sylvia NOUN_TITLE_OF_WORK 
 + Saipan NO_PROPER_MERGE ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
 + Seattle ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
++ sports VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
 + Santa_Fe_Trail NOUN_TITLE_OF_WORK 
 + Saturday NOUN_TITLE_OF_WORK 
 + Space_Needle ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
++ stamping VERB_PRESENT_PARTICIPLE VERB KINDERGARTEN 
 + Statue_of_Liberty ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
 + SAM NOUN_HUMAN NOUN_FIRSTNAME 
 + Song_of_Solomon NOUN_TITLE_OF_WORK 
@@ -1867,6 +1874,7 @@
 + Tagore NOUN_TITLE_OF_WORK 
 + Stefan_Zweig NOUN_HUMAN NOUN_HE 
 + Slovakian NOUN_HUMAN NOUN_THEY NOUN_TITLE_OF_WORK NOUN NOUN_PROPER_SINGULAR 
++ spirits VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL GRADE1_2 
 + Saints NOUN NOUN_PROPER_SINGULAR 
 + step-child NOUN_HUMAN 
 + Toronto ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
@@ -1958,6 +1966,7 @@
 + Viviana NOUN_TITLE_OF_WORK 
 + Vishnu NOUN_TITLE_OF_WORK 
 + Vietnam ALWAYS_PROPER_NAME_MERGE LOCATIONWORD OF_PROPER 
++ vibrating VERB_PRESENT_PARTICIPLE VERB KINDERGARTEN 
 + Vaduz NO_PROPER_MERGE ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
 + Valletta NO_PROPER_MERGE ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
 + Vilnius NO_PROPER_MERGE ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
@@ -2007,6 +2016,8 @@
 + Zagreb NO_PROPER_MERGE ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
 + * NOUN_TITLE_OF_WORK NOUN NOUN_PROPER_SINGULAR 
 + russian ADJECTIVE ADJECTIVE_NORMAL 
++ killed VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE KINDERGARTEN 
++ snorkelling VERB_PRESENT_PARTICIPLE VERB 
 + ancistroid ADJECTIVE ADJECTIVE_NORMAL 
 + ancoral ADJECTIVE ADJECTIVE_NORMAL 
 + ankyroid ADJECTIVE ADJECTIVE_NORMAL 
@@ -2046,7 +2057,12 @@
 + ooidal ADJECTIVE ADJECTIVE_NORMAL 
 + ophiomorphic ADJECTIVE ADJECTIVE_NORMAL 
 + palaceous ADJECTIVE ADJECTIVE_NORMAL 
++ mildewed VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE 
++ squirming VERB_PRESENT_PARTICIPLE VERB GRADE1_2 
++ shimmering VERB_PRESENT_PARTICIPLE VERB 
 + power_adjectives 
++ muscled VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE KINDERGARTEN 
++ enabled VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE3_4 
 + scarcely_any 
 + attractive_looking 
 + good_looking 
@@ -2066,36 +2082,59 @@
 + in_order_to 
 + and_therefore 
 + not_until 
++ clinging VERB_PRESENT_PARTICIPLE VERB 
++ contraindicated VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE 
++ fuming VERB_PRESENT_PARTICIPLE VERB 
++ grieved VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE 
 + in_debt 
 + mentally_challenged 
++ moping VERB_PRESENT_PARTICIPLE VERB 
 + narrow_minded 
++ overwhelmed VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE5_6 
 + petered_out 
 + picked_apart 
 + picked_on 
++ piqued VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE5_6 
++ screwed VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE1_2 
 + witches'_brew 
 + witch's_brew 
 + at_ease 
++ grounded VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE KINDERGARTEN 
 + home_cooked 
 + hunky_dory 
++ jazzed VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE 
++ keenest MOST_FORM ADJECTIVE ADJECTIVE_NORMAL GRADE3_4 
++ manners NOUN NOUN_PLURAL KINDERGARTEN 
++ pioneering VERB_PRESENT_PARTICIPLE VERB GRADE3_4 
++ psyched VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE 
++ reinvented VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE 
++ reposed VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE 
++ riveted VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE 
++ scores VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL NOUN_NUMBER 
 + stout_hearted 
 + tender_hearted 
 + the_yoke_of 
++ caged VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE KINDERGARTEN 
++ locked VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE KINDERGARTEN 
 + stage_production 
 + added_to 
 + increased_by 
 + total_of 
 + base_jump 
++ babys VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
++ kids VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
 + old_fogie 
 + old_enough 
 + auto_immune 
 + immune_deficiency 
 + bomb_suit 
-+ contacts PATTERN_WORD 
++ binoculars NOUN NOUN_PLURAL 
++ contacts VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
 + desk_lamp 
 + fluorescent_light 
 + night_vision_goggle 
 + pole_lamp 
-+ wings PATTERN_WORD 
++ wings VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
 + betrayed_me 
 + cheated_me 
 + cheated_on 
@@ -2187,6 +2226,9 @@
 + moving_truck 
 + rally_car 
 + tank_truck 
++ clubs VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
++ diamonds NOUN NOUN_PLURAL GRADE3_4 
++ spades VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL GRADE5_6 
 + breed_of 
 + class_of 
 + flavor_of 
@@ -2207,33 +2249,38 @@
 + trailer_park_trash 
 + trailer_trash 
 + tree_jumper 
-+ bobbysocks PATTERN_WORD 
-+ briefs PATTERN_WORD 
++ bobbysocks NOUN NOUN_PLURAL 
++ briefs VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
 + halter_top 
 + high_heel 
-+ jeans PATTERN_WORD 
-+ panties PATTERN_WORD 
-+ shorts PATTERN_WORD 
-+ slacks PATTERN_WORD 
-+ trousers PATTERN_WORD 
-+ trunks PATTERN_WORD 
++ jeans NOUN NOUN_PLURAL KINDERGARTEN 
++ panties NOUN NOUN_PLURAL 
++ shorts VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
++ slacks VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL 
++ trousers NOUN NOUN_PLURAL GRADE5_6 
++ trunks NOUN NOUN_PLURAL KINDERGARTEN 
 + ski_pants 
++ cutoffs NOUN NOUN_PLURAL 
 + swim_trunks 
 + high_heels 
++ rubbers VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL GRADE1_2 
 + boxer_shorts 
 + panty_hose 
 + faux_fur 
 + vegan_leather 
 + full_length 
++ pleated VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE5_6 
 + straight_fit 
 + Cosmopolitan NOUN NOUN_PROPER_SINGULAR 
 + Tequila_Sunrise NOUN_TITLE_OF_WORK NOUN NOUN_PROPER_SINGULAR 
 + cup_of_jo 
 + cup_of_joe 
 + coin_shop 
++ bachelors VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
 + electrical_plug 
 + wall_outlet 
-+ braces PATTERN_WORD 
++ sweets NOUN NOUN_PLURAL KINDERGARTEN 
++ braces VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
 + hair_brush 
 + straight_edge 
 + stove_top 
@@ -2294,15 +2341,21 @@
 + ratio_of 
 + medical_doctor 
 + magic_mushrooms 
++ downers NOUN NOUN_PLURAL KINDERGARTEN 
++ uppers NOUN NOUN_PLURAL KINDERGARTEN 
 + diet_pill 
 + cold_remedy 
-+ cosmetics PATTERN_WORD 
++ cosmetics NOUN NOUN_PLURAL 
 + cough_syrup 
++ diapers NOUN NOUN_PLURAL GRADE1_2 
++ tissues VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
++ vitamins NOUN NOUN_PLURAL 
 + not_know 
 + heavy_duty 
 + light_duty 
 + above_ground 
 + wireless_set 
++ headphones NOUN NOUN_PLURAL 
 + ass_hole 
 + eat_shit 
 + f_u_c_k 
@@ -2323,12 +2376,16 @@
 + screw_yourself 
 + be_sad 
 + broke_up 
++ died VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE KINDERGARTEN 
 + feel_bad 
 + left_me 
 + loss_of_my 
 + lost_my 
++ equals VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
++ gives VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
 + sold_for 
 + will_be 
++ yields VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL GRADE5_6 
 + border_hopper 
 + border_jumper 
 + border_nigger 
@@ -2386,8 +2443,21 @@
 + uncircumcised_baboon 
 + wagon_burner 
 + camel_jockies 
++ faggits NOUN NOUN_PLURAL 
++ fags VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL 
++ honkies NOUN NOUN_PLURAL 
++ kikes NOUN NOUN_PLURAL 
++ nazis NOUN NOUN_PLURAL 
++ niggas NOUN NOUN_PLURAL 
++ niggers NOUN NOUN_PLURAL 
++ nigguhs NOUN NOUN_PLURAL 
++ polacks NOUN NOUN_PLURAL 
 + sand_nigger 
++ spics NOUN NOUN_PLURAL 
 + towel_heads 
++ wetbacks NOUN NOUN_PLURAL 
++ wops NOUN NOUN_PLURAL 
++ yids NOUN NOUN_PLURAL 
 + an_example 
 + an_instance 
 + like_what 
@@ -2401,13 +2471,17 @@
 + shiz NOUN 
 + shiznit NOUN 
 + smeg NOUN 
++ abs NOUN NOUN_PLURAL 
 + rowing_machine 
 + to_jog 
 + antipersonnel_mine 
 + fragmentation_grenade 
 + grenade_launcher 
 + fabric_store 
++ elders NOUN_HUMAN NOUN NOUN_PLURAL KINDERGARTEN 
++ folks NOUN_HUMAN NOUN NOUN_PLURAL GRADE3_4 
 + fried_chicken 
++ coolest MOST_FORM ADJECTIVE ADJECTIVE_NORMAL KINDERGARTEN 
 + like_most 
 + like_the_most 
 + love_the_most 
@@ -2417,43 +2491,82 @@
 + most_love 
 + most_loved 
 + in_control 
++ excluded VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE5_6 
 + left_out 
 + in_a_huff 
 + in_a_stew 
 + up_in_arms 
 + wrought_up 
 + full_of_ennui 
++ attracted VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE1_2 
 + full_of_anticipation 
++ intrigued VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE5_6 
++ discounted VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE3_4 
++ disrespected VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE3_4 
++ underestimated VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE5_6 
 + bore_me 
 + not_interested 
++ pressured VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE1_2 
 + put_upon 
++ betrayed VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE5_6 
++ cheated VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE KINDERGARTEN 
++ coerced VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE 
++ conned VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE 
++ duped VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE 
 + lied_to 
++ manipulated VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE 
++ tricked VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE KINDERGARTEN 
++ derailed VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE 
++ revolted VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE5_6 
++ worshiped VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE 
++ attacked VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE KINDERGARTEN 
 + full_of_misgiving 
 + in_fear 
++ menaced VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE5_6 
 + in_the_zone 
++ enthused VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE 
 + free_and_easy 
++ transported VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE5_6 
++ chastised VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE 
++ replaced VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE KINDERGARTEN 
 + unapproved_of 
++ appeased VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE5_6 
 + approved_of 
++ entrusted VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE 
++ welcomed VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE KINDERGARTEN 
++ compelled VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE3_4 
++ consumed VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE5_6 
 + out_of_control 
 + beaten_down 
 + worn_down 
++ calumniating VERB_PRESENT_PARTICIPLE VERB 
++ castigating VERB_PRESENT_PARTICIPLE VERB 
++ maligning VERB_PRESENT_PARTICIPLE VERB GRADE5_6 
++ reviling VERB_PRESENT_PARTICIPLE VERB 
 + feel_blue 
 + in_despair 
 + in_pain 
 + in_the_dumps 
 + out_of_sorts 
++ affronted VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE5_6 
++ interrogated VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE 
++ judged VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE KINDERGARTEN 
++ rated VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE3_4 
 + singled_out 
++ wronged VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE KINDERGARTEN 
 + javalin_throwing 
 + fine_arts 
 + wood_carving 
 + asbestos_suit 
 + fire_fighter_suit 
 + fire_suit 
++ silversides NOUN NOUN_PLURAL 
 + flame_cartridge_weapon 
 + incendiary_grenade 
 + incendiary_rocket 
 + napalm_missle 
 + chocolate_chip 
++ roses NOUN NOUN_PLURAL KINDERGARTEN 
 + acai_berry 
 + acorn_jelly 
 + amazon_tree_grape 
@@ -2464,6 +2577,7 @@
 + asparagus_lettuce 
 + azuki_bean 
 + green_beans 
++ grits VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
 + moo_goo_guy_pan 
 + pie_ala_mode 
 + spotted_duck 
@@ -2483,6 +2597,7 @@
 + voulez FOREIGN_WORD 
 + vous FOREIGN_WORD 
 + close_friend 
++ onions NOUN NOUN_PLURAL KINDERGARTEN 
 + furniture_store 
 + blind_man_'s_bluff 
 + capture_the_flag 
@@ -2520,13 +2635,14 @@
 + hair_cut 
 + hair_salon 
 + hair_styling 
++ curtains VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL GRADE3_4 
 + a_raise 
 + you_succeeed 
 + you_won 
 + electrical_tape 
 + glue_gun 
 + paint_can 
-+ pliers PATTERN_WORD 
++ pliers NOUN NOUN_PLURAL 
 + tool_box 
 + less_favorite 
 + less_like 
@@ -2559,6 +2675,7 @@
 + low_fat_food 
 + sugar_free_food 
 + african_buffalo 
++ earthworms NOUN NOUN_PLURAL 
 + aniseed_myrtle 
 + avocado_leaf 
 + black_cardamom 
@@ -2567,13 +2684,16 @@
 + brow_mustard 
 + camphor_laurel 
 + candle_nut 
++ chives NOUN NOUN_PLURAL 
 + curry_leaf 
 + elephant_garlic 
++ hops VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
 + kaffir_lime 
 + lemo_verbena 
 + lemon_ironbark 
 + lemon_myrtle 
 + orris_root 
++ knuckles VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL 
 + nun_chuck 
 + sledge_hammer 
 + war_hammer 
@@ -2593,6 +2713,8 @@
 + book_making 
 + cake_decorating 
 + candle_making 
++ candles VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
++ crafts VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL GRADE1_2 
 + doll_making 
 + face_painting 
 + figure_painting 
@@ -2606,6 +2728,7 @@
 + jewellery_making 
 + jewelry_making 
 + jigsaw_puzzles 
++ knotting VERB_PRESENT_PARTICIPLE VERB GRADE3_4 
 + leather_craft 
 + leather_crafting 
 + matchstick_modeling 
@@ -2617,6 +2740,7 @@
 + restoring_antiques 
 + sand_craft 
 + sand_sculpting 
++ sculpting VERB_PRESENT_PARTICIPLE VERB 
 + shadow_boxes 
 + soap_making 
 + splatter_painting 
@@ -2685,7 +2809,7 @@
 + tarot_card_reading 
 + aircraft_spotting 
 + amateur_astronomy 
-+ birding PATTERN_WORD 
++ birding VERB_PRESENT_PARTICIPLE VERB KINDERGARTEN 
 + bus_spotting 
 + butterfly_watching 
 + cloud_watching 
@@ -2700,6 +2824,7 @@
 + amateur_theater 
 + ballet_dancing 
 + bhangra_dancing 
++ breakdancing VERB_PRESENT_PARTICIPLE VERB 
 + hip_hop_dancing 
 + latin_dances 
 + line_dancing 
@@ -2715,6 +2840,7 @@
 + photo_rating 
 + portraiture_photos 
 + crossword_puzzles 
++ riddles VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL GRADE1_2 
 + sudoku_puzzles 
 + backyard_railroads 
 + live_steam_models 
@@ -2739,12 +2865,16 @@
 + kitchen_chemistry 
 + model_airplane 
 + model_rocketry 
++ robots NOUN NOUN_PLURAL KINDERGARTEN 
 + rock_collecting 
 + star_astronomy 
 + telescope_making 
 + church_activities 
++ radios VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
 + volunteer_work 
++ blogging VERB_PRESENT_PARTICIPLE VERB 
 + butterfly_collecting 
++ caving VERB_PRESENT_PARTICIPLE VERB KINDERGARTEN 
 + flying_kites 
 + ghost_hunting 
 + hacky_sack 
@@ -2797,6 +2927,7 @@
 + this_instant 
 + this_minute 
 + information_center 
++ thrips NOUN NOUN_PLURAL 
 + auto_insurance 
 + home_insurance 
 + homeowner_'s_insurance 
@@ -2805,13 +2936,14 @@
 + renter_'s_insurance 
 + term_life 
 + arigato FOREIGN_WORD 
++ charms VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
 + a_career 
 + a_job 
 + dream_job 
 + ideal_job 
 + make_a_buck 
 + perfect_job 
-+ computers PATTERN_WORD 
++ computers NOUN NOUN_PLURAL KINDERGARTEN 
 + trash_compactor 
 + coffee_pot 
 + tea_kettle 
@@ -2822,7 +2954,9 @@
 + warm_water 
 + wash_cycle 
 + white_wash 
++ gloves NOUN NOUN_PLURAL KINDERGARTEN 
 + leather_goods_shop 
++ allowed VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE3_4 
 + lingerie_shop 
 + wash_basin 
 + furniture_polish 
@@ -2860,12 +2994,14 @@
 + Redbook NOUN NOUN_PROPER_SINGULAR 
 + Teen_Vogue NOUN NOUN_PROPER_SINGULAR 
 + Town_and_Country NOUN NOUN_PROPER_SINGULAR 
++ hexing VERB_PRESENT_PARTICIPLE VERB 
 + magic_orb 
 + magic_wand 
 + spell_book 
 + David_Copperfield NOUN_TITLE_OF_WORK NOUN NOUN_PROPER_SINGULAR 
 + great_dane 
 + human_beings 
++ indris NOUN NOUN_PLURAL 
 + keyboard_cat 
 + long_cat 
 + scottish_fold 
@@ -2885,6 +3021,8 @@
 + Ticketmaster NOUN_PROPER_SINGULAR 
 + Weather.com NOUN_PROPER_SINGULAR 
 + Wikipedia NOUN_HUMAN NOUN_THEY NOUN_TITLE_OF_WORK NOUN NOUN_PROPER_SINGULAR 
++ anchored VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE 
++ desicated VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE 
 + do_it_again 
 + what_else 
 + go_to_the_office 
@@ -2918,6 +3056,7 @@
 + cheese_eating_surrender_monkey 
 + cow_kisser 
 + dyke_jumper 
++ lowlander MORE_FORM ADJECTIVE ADJECTIVE_NORMAL 
 + plastic_paddy 
 + pommie_grant 
 + sideways_cooter 
@@ -2925,6 +3064,7 @@
 + sideways_vagina 
 + soup_taker 
 + white_nigger 
++ networked VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE 
 + virtual_world 
 + bed_time 
 + grass_seed 
@@ -3085,6 +3225,7 @@
 + land_surveyor 
 + mine_surveyor 
 + religion_scholar 
++ theologians NOUN NOUN_PLURAL 
 + fashion_buyer 
 + marketing_manager 
 + merchandise_planner 
@@ -3173,6 +3314,7 @@
 + pet_supplies 
 + graduation_photo 
 + wedding_photo 
++ acoustics NOUN NOUN_PLURAL 
 + dessert_fork 
 + dinner_fork 
 + dinner_knife 
@@ -3213,6 +3355,7 @@
 + just_published 
 + most_recent 
 + like_to_do 
++ steppes NOUN NOUN_PLURAL 
 + descended_from 
 + proddy_dog 
 + rock_shop 
@@ -3266,6 +3409,7 @@
 + ice_berg 
 + mineral_spring 
 + polar_cap 
++ rapids NOUN NOUN_PLURAL KINDERGARTEN 
 + river_bed 
 + warm_spring 
 + water_spout 
@@ -3276,6 +3420,7 @@
 + tide_pool 
 + vernal_pool 
 + scent_free 
++ classics NOUN NOUN_PLURAL GRADE5_6 
 + phys_ed 
 + jr_high 
 + magnet_school 
@@ -3310,21 +3455,29 @@
 + finger_in_you 
 + finger_you 
 + fist_you 
++ fucked VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE 
++ fucks VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL 
 + get_dirty_with 
++ humping VERB_PRESENT_PARTICIPLE VERB GRADE1_2 
 + rim_job 
++ rimming VERB_PRESENT_PARTICIPLE VERB GRADE1_2 
 + to_cyber 
 + touching_yourself 
 + tug_job 
++ chains VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
 + gang_bang 
 + golden_shower 
 + lick_my 
++ roped VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE KINDERGARTEN 
 + s_and_m 
++ jugs VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL GRADE1_2 
 + love_muscle 
 + my_dick 
 + my_willie 
 + private_bits 
 + private_member 
 + private_part 
++ privates NOUN NOUN_PLURAL KINDERGARTEN 
 + your_balls 
 + your_nuts 
 + anal_penetration 
@@ -3372,6 +3525,7 @@
 + much_the_same 
 + the_same 
 + choral_group 
++ sis NOUN NOUN_PLURAL 
 + in-line_skating 
 + smoke_shop 
 + Manchester_United NOUN NOUN_PROPER_SINGULAR 
@@ -3382,6 +3536,7 @@
 + drunk_driving 
 + environmental_protection 
 + flag_burning 
++ gangs VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
 + gender_issues 
 + human_rights 
 + nuclear_proliferation 
@@ -3401,6 +3556,9 @@
 + Classmates NOUN_PROPER_SINGULAR 
 + Classmates.com NOUN_PROPER_SINGULAR 
 + Cyworld NOUN_PROPER_SINGULAR 
++ deviantArt NOUN NOUN_PROPER_SINGULAR 
++ douban NOUN NOUN_PROPER_SINGULAR 
++ eGenki NOUN NOUN_PROPER_SINGULAR 
 + Flixster NOUN_PROPER_SINGULAR 
 + Formspring NOUN_PROPER_SINGULAR 
 + Fotolog NOUN_PROPER_SINGULAR 
@@ -3451,11 +3609,14 @@
 + Yelp NOUN_PROPER_SINGULAR 
 + comparative_religion 
 + social_studies 
++ memberships NOUN NOUN_PLURAL 
 + ice_cream_soda 
 + sand_box 
 + body_building 
 + bungee_jumping 
++ canoeing VERB_PRESENT_PARTICIPLE VERB 
 + cave_diving 
++ cheerleading VERB_PRESENT_PARTICIPLE VERB 
 + fly_fishing 
 + fly_tying 
 + four_wheeling 
@@ -3465,28 +3626,38 @@
 + go_kart_racing 
 + gold_panning 
 + hot_air_ballooning 
++ kayaking VERB_PRESENT_PARTICIPLE VERB 
 + kite_boarding 
 + kite_flying 
 + martial_arts 
++ motorcycles VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
 + playing_team_sports 
++ rafting VERB_PRESENT_PARTICIPLE VERB 
 + river_rafting 
 + saltwater_fishing 
 + sight_seeing 
 + sky_diving 
 + snow_skiing 
++ spelunking VERB_PRESENT_PARTICIPLE VERB 
 + stone_skipping 
 + sumo_wrestling 
 + survival_camping 
 + team_sports 
++ trekking VERB_PRESENT_PARTICIPLE VERB 
++ unicycling VERB_PRESENT_PARTICIPLE VERB 
 + urban_climbing 
 + weight_lifting 
 + whitewater_rafting 
 + basket_ball 
++ cleats VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL 
 + fishing_reel 
++ skates VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
 + ski_boots 
 + ski_poles 
++ skis VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL KINDERGARTEN 
 + soccer_shoes 
 + sporting_goods_store 
++ boules NOUN NOUN_PLURAL 
 + paddle_ball 
 + stamp_shop 
 + 7_of_9 NOUN NOUN_PROPER_SINGULAR 
@@ -3526,8 +3697,13 @@
 + a_rash 
 + a_temperature 
 + feel_sick 
++ hives VERB_PRESENT_3PS NOUN VERB NOUN_PLURAL GRADE1_2 
 + runny_nose 
 + tummy_ache 
++ sciences NOUN NOUN_PLURAL KINDERGARTEN 
++ superheated VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE 
++ beings NOUN NOUN_PLURAL KINDERGARTEN 
++ humans NOUN NOUN_PLURAL KINDERGARTEN 
 + thrift_shop 
 + lunch_time 
 + noon_time 
@@ -3694,6 +3870,7 @@
 + freestyle_skiing 
 + ice_hocket 
 + speed_skiing 
++ mechanics NOUN NOUN_PLURAL 
 + body_care 
 + its_ok 
 + it_is_ok 
@@ -3758,6 +3935,7 @@
 + under_the_heel_of 
 + with_the_exception_of 
 + looks_like 
++ becomes VERB_PRESENT_3PS VERB KINDERGARTEN 
 + go_to 
 + be_you_aware_of 
 + be_you_familiar_with 
@@ -3806,6 +3984,7 @@
 + bang_you 
 + bone_you 
 + butt_fuck 
++ fisting VERB_PRESENT_PARTICIPLE VERB KINDERGARTEN 
 + get_into_your_pants 
 + give_head 
 + had_sex 

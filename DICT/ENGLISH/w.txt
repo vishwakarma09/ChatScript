@@ -6714,7 +6714,7 @@
  William_Wymark_Jacobs ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
     Jacobs~3nz (^writer~1) English writer of macabre short stories
  William_James ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
-    James~6n 
+    James~5n 
  William_Le_Baron_Jenny ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
     Jenny~1n 
  William_Stanley_Jevons ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 

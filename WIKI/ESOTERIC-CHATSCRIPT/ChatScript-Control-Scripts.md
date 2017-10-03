@@ -3,7 +3,7 @@
 > © Bruce Wilcox, gowilcox@gmail.com
 
 
-> Revision 8-12-2015 cs7.53
+<br>Revision 9/24/2017 cs7.55
 
 
 Control scripts are an advanced topic you should read about ONLY after you have read

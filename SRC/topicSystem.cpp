@@ -537,7 +537,7 @@ unsigned int FindTopicIDByName(char* name,bool exact)
 	}
 	else MakeLowerCopy((*name == '~') ? word : (word+1),name);
 
-	WORDP D = FindWord(word);
+	WORDP D = FindWord(word,0,LOWERCASE_LOOKUP);
 	duplicateCount = 0;
 	while (D && D->internalBits & TOPIC) 
 	{

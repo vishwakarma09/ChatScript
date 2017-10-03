@@ -169,7 +169,7 @@
  <fortune_does_not_smile_on_that ~no
  <fortune_smiles_on_that ~yes
  <fully ~yes
- <funny ~emolaugh
+ <funny> ~emolaugh
  <gee> ~emosurprise
  <geez ~emosurprise
  <generally ~yes

@@ -77,7 +77,6 @@ void Login(char* caller,char* usee,char* ip) //   select the participants
 	*computerIDwSpace = ' ';
 	MakeLowerCopy(computerIDwSpace+1,computerID);
 	strcat(computerIDwSpace,(char*)" ");
-
 	if (*ipAddress) // maybe use ip in generating unique login
 	{
 		if (!stricmp(caller,(char*)"guest")) sprintf(caller,(char*)"guest%s", ipAddress);

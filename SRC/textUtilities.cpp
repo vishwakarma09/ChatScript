@@ -476,10 +476,10 @@ bool IsFraction(char* token)
 		{
 			at = token;
 			while (IsDigit(*++at)) {;}
-			if (*at == '/')
+			if (*at == '/' && (at[1] != '0' || at[2]))
 			{
 				while (IsDigit(*++at)) {;}
-				if (!*at) return true;
+				if (!*at ) return true;
 			}
 		}
 	}
@@ -1905,6 +1905,18 @@ bool AdjustUTF8(char* start,char* buffer)
 					memmove(buffer + 1, x, strlen(x) + 1);
 					if (compiling) WARNSCRIPT("UTF8 opening double quote revised to Ascii %s | %s", start, buffer);
 				}
+				else if (buffer[0] == 0xef && buffer[1] == 0xbc &&  buffer[2] == 0x88)  // open curly paren 
+				{
+					*buffer = '(';
+					memmove(buffer + 1, x, strlen(x) + 1);
+					if (compiling) WARNSCRIPT("UTF8 opening curly paren quote revised to Ascii %s | %s", start, buffer);
+				}
+				else if (buffer[0] == 0xef && buffer[1] == 0xbc && buffer[2] == 0x89)  // closing curly paren 
+				{
+					*buffer = ')';
+					memmove(buffer + 1, x, strlen(x) + 1);
+					if (compiling) WARNSCRIPT("UTF8 closing curly paren quote revised to Ascii %s | %s", start, buffer);
+				}
 				else if (buffer[0] == 0xe2 && buffer[1] == 0x80 && buffer[2] == 0x9d)  // closing double quote
 				{
 					*buffer = '"';
@@ -1993,7 +2005,6 @@ RESUME:
 		if (c == '\t' && convertTabs) c = ' ';
 		if (c & 0x80 ) // high order utf?
 		{
-			hasHighChar = true;
 			unsigned char convert = 0;
 			if (!BOM && !hasutf && !server) // local mode might get extended ansi so transcribe to utf8 (but dont touch BOM)
 			{
@@ -2012,6 +2023,7 @@ RESUME:
 				}
 			}
 			if (!convert) hasutf = true;
+			else hasHighChar = true; // we change extended ansi to normal (not utf8)
 		}
 		
 		// format string stuff
@@ -2232,7 +2244,7 @@ RESUME:
     return (buffer - start);
 }
 
-char* ReadQuote(char* ptr, char* buffer,bool backslash,bool noblank)
+char* ReadQuote(char* ptr, char* buffer,bool backslash,bool noblank,int limit)
 { //   ptr is at the opening quote or a \quote... internal	" must have \ preceeding the start of a quoted expression
 	//  kinds of quoted strings:
 	//  a) simple  "this is stuff"  -- same as \"xxxxx" - runs to first non-backslashed quote so cant have freestanding quotes in it but \" is converted at script compile
@@ -2241,7 +2253,7 @@ char* ReadQuote(char* ptr, char* buffer,bool backslash,bool noblank)
 	//  d) literal quote \" - system outputs the quote only (script has nothing or blank or tab or ` after it
 	//  e) internal "`xxxxx`"  - argument to tcpopen pass back untouched stripping the markers on both ends - allows us to pay no attention to OTHER quotes within
     char c;
-    int n = MAX_WORD_SIZE-10;		// quote must close within this limit
+    int n = limit;		// quote must close within this limit
 	char* start = ptr;
 	char* original = buffer;
 	// "` is an internal marker of argument passed from TCPOPEN   "'arguments'" ) , return the section untouched as one lump 
@@ -2608,6 +2620,22 @@ void ForceUnderscores(char* ptr)
 {
 	--ptr;
 	while (*++ptr) if (*ptr == ' ') *ptr = '_';
+}
+
+void ConvertQuotes(char* ptr)
+{
+	--ptr;
+	bool start = false;
+	while (*++ptr)
+	{
+		if (*ptr == '"' && *(ptr - 1) != '\\')
+		{
+			memmove(ptr + 2, ptr + 1, strlen(ptr + 1) + 1); // make room for utf8 replacement
+			if (!start) *ptr = '"';
+			if (start) *ptr = '"';
+			start = !start;
+		}
+	}
 }
 
 void Convert2Blanks(char* ptr)

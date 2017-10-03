@@ -17333,7 +17333,7 @@
  two_hundred ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
     cc~2az 
  three_hundred ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
-    ccc~1az 
+    three_hundred~1az 
  twenty-first ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ADJECTIVE_NUMBER ORDINAL KINDERGARTEN QUANTITY_NOUN ) 
     twenty-first~1az coming next after the twentieth in position
  twenty-second ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ADJECTIVE_NUMBER ORDINAL KINDERGARTEN QUANTITY_NOUN ) 

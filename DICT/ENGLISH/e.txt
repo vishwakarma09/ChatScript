@@ -5887,8 +5887,8 @@
     Epistle_of_Paul_the_Apostle_to_Philemon~1n 
  Epistle_to_the_Hebrews ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
     Hebrews~1nz (^Epistle~1) a New Testament book traditionally included among the epistle of Saint Paul but now generally considered not to have been written by him
- Epistle_of_James ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
-    James~1n 
+ Epistle_of_James ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
+    Epistle_of_James~1nz (^Epistle~1) a New Testament book attributed to Saint James the Apostle
  Epistle_of_Jude ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
     Jude~1nz (^Epistle~1) a New Testament book attributed to Saint Jude
  evangel ( meanings=1 NOUN NOUN_SINGULAR COMMON2 posdefault:NOUN ) 

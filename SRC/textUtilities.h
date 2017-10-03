@@ -146,6 +146,7 @@ char* Purify(char* msg);
 void WriteInteger(char* word, char* buffer, int useNumberStyle = NOSTYLE_NUMBERS);
 void BOMAccess(int &BOMvalue, char &oldc, int &oldCurrentLine);
 size_t OutputLimit(unsigned char* data);
+void ConvertQuotes(char* ptr);
 extern int startSentence;
 extern int endSentence;
 extern bool hasHighChar;
@@ -198,7 +199,7 @@ char* ReadHex(char* ptr, uint64 & value);
 char* ReadInt(char* ptr, int & value);
 char* ReadInt64(char* ptr, int64 & w);
 int64 atoi64(char* ptr );
-char* ReadQuote(char* ptr, char* buffer,bool backslash = false, bool noblank = true);
+char* ReadQuote(char* ptr, char* buffer,bool backslash = false, bool noblank = true,int limit = MAX_WORD_SIZE - 10);
 char* ReadArgument(char* ptr, char* buffer, FunctionResult &result);
 
 int ReadALine(char* buf,FILE* file,unsigned int limit = maxBufferSize,bool returnEmptyLines = false,bool convertTabs = true);

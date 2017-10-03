@@ -1,6 +1,6 @@
 #include "common.h" 
 #include "evserver.h"
-char* version = "7.54";
+char* version = "7.55";
 char sourceInput[200];
 FILE* userInitFile;
 int externalTagger = 0;
@@ -13,6 +13,7 @@ char systemFolder[500];		// where is the livedata system folder
 bool noboot = false;
 static char* erasename = "csuser_erase";
 bool build0Requested = false;
+char websocketParam[1000];
 bool build1Requested = false;
 bool servertrace = false;
 bool pendingRestart = false;
@@ -244,9 +245,9 @@ int CountWordsInBuckets(int& unused, unsigned int* depthcount,int limit)
 	memset(depthcount, 0, sizeof(int)*1000);
 	unused = 0;
 	int words = 0;
-	for (int i = 0; i <= maxHashBuckets; ++i)
+	for (unsigned long i = 0; i <= maxHashBuckets; ++i)
 	{
-		unsigned int n = 0;
+		int n = 0;
 		if (!hashbuckets[i]) ++unused;
 		else
 		{
@@ -669,6 +670,7 @@ static void ProcessArgument(char* arg)
 	else if (!stricmp(arg,(char*)"serverlog")) serverLog = true;
 	else if (!stricmp(arg,(char*)"noserverprelog")) serverPreLog = false;
 	else if (!stricmp(arg,(char*)"serverctrlz")) serverctrlz = 1;
+	else if (!strnicmp(arg, (char*)"websocket=",10)) strcpy(websocketParam,arg + 10);
 	else if (!strnicmp(arg,(char*)"port=",5))  // be a server
 	{
         port = atoi(arg+5); // accept a port=
@@ -714,10 +716,23 @@ static void ReadConfig()
 
 unsigned int InitSystem(int argcx, char * argvx[],char* unchangedPath, char* readablePath, char* writeablePath, USERFILESYSTEM* userfiles, DEBUGAPI infn, DEBUGAPI outfn)
 { // this work mostly only happens on first startup, not on a restart
+	FILE* in = FopenStaticReadOnly((char*)"SRC/dictionarySystem.h"); // SRC/dictionarySystem.h
+	if (!in) // if we are not at top level, try going up a level
+	{
+#ifdef WIN32
+		if (!SetCurrentDirectory((char*)"..")) // move from BINARIES to top level
+			myexit((char*)"unable to change up\r\n");
+#else
+		chdir((char*)"..");
+#endif
+	}
+	else FClose(in);
+
 	strcpy(hostname,(char*)"local");
 	*sourceInput = 0;
     *buildfiles = 0;
 	*apikey = 0;
+	*websocketParam = 0;
 	*bootcmd = 0;
 #ifndef DISCARDMONGO
 	*mongodbparams = 0;
@@ -1102,9 +1117,8 @@ bool ProcessInputDelays(char* buffer,bool hitkey)
 	return false;
 }
 
-char* ReviseOutput(char* out)
+char* ReviseOutput(char* out,char* prefix)
 {
-	char prefix[MAX_WORD_SIZE];
 	strcpy(prefix, out);
 	char* at = prefix;
 	while ((at = strchr(at, '\\')))
@@ -1150,7 +1164,8 @@ void ProcessInputFile()
 			if ((!documentMode || *ourMainOutputBuffer)  && !silent) // if not in doc mode OR we had some output to say - silent when no response
 			{
 				// output bot response
-				if (*botPrefix) printf((char*)"%s ",ReviseOutput(botPrefix));
+				char prefix[MAX_WORD_SIZE];
+				if (*botPrefix) printf((char*)"%s ",ReviseOutput(botPrefix,prefix));
 			}
 			if (showTopic)
 			{
@@ -1169,8 +1184,13 @@ void ProcessInputFile()
 
 			//output user prompt
 			if (documentMode || silent) {;} // no prompt in document mode
-			else if (*userPrefix) printf((char*)"%s ", ReviseOutput(userPrefix));
-			else printf((char*)"%s",(char*)"   >");
+			else if (*userPrefix)
+			{
+				char prefix[MAX_WORD_SIZE];
+				printf((char*)"%s ", ReviseOutput(userPrefix,prefix));
+			}
+
+			else printf((char*)"%s", (char*)"   >");
 			
 			*ourMainInputBuffer = ' '; // leave space at start to confirm NOT a null init message, even if user does only a cr
 			ourMainInputBuffer[1] = 0;
@@ -2051,6 +2071,20 @@ bool PrepassSentence(char* prepassTopic)
 	return false;
 }
 
+void MoreToCome()
+{
+	// set %more and %morequestion
+	moreToCome = moreToComeQuestion = false;
+	char* at = nextInput - 1;
+	while (*++at)
+	{
+		if (IsWhiteSpace(*at) || *at == INPUTMARKER) continue;	// ignore this junk
+		moreToCome = true;	// there is more input coming
+		break;
+	}
+	moreToComeQuestion = (strchr(nextInput, '?') != 0);
+}
+
 FunctionResult DoSentence(char* prepassTopic, bool atlimit)
 {
 	char input[INPUT_BUFFER_SIZE];  // complete input we received
@@ -2078,19 +2112,7 @@ retry:
 	PrepareSentence(nextInput,true,true,false,true); // user input.. sets nextinput up to continue
 	nextInput = SkipWhitespace(nextInput);
 
-	// set %more and %morequestion
-	moreToCome = moreToComeQuestion = false;	
-	if (!atlimit)
-	{
-		char* at = nextInput-1;
-		while (*++at)
-		{
-			if (*at == ' ' || *at == INPUTMARKER || *at == '\n' || *at == '\r') continue;	// ignore this junk
-			moreToCome = true;	// there is more input coming
-			break;
-		}
-		moreToComeQuestion = (strchr(nextInput,'?') != 0);
-	}
+	if (!atlimit) MoreToCome();
 
 	char nextWord[MAX_WORD_SIZE];
 	ReadCompiledWord(nextInput,nextWord);
@@ -2356,6 +2378,7 @@ bool AddResponse(char* msg, unsigned int responseControl)
 		Convert2Underscores(at); 
 		Convert2Blanks(at);
 	}
+	if (responseControl & RESPONSE_CURLYQUOTES) ConvertQuotes(at);
 	if (responseControl & RESPONSE_UPPERSTART) 	*at = GetUppercaseData(*at); 
 
 	//   remove spaces before commas (geofacts often have them in city_,_state)
@@ -2747,17 +2770,6 @@ int main(int argc, char * argv[])
 	}
 	*hide = 0;
 
-	FILE* in = FopenStaticReadOnly((char*)"SRC/dictionarySystem.h"); // SRC/dictionarySystem.h
-	if (!in) // if we are not at top level, try going up a level
-	{
-#ifdef WIN32
-		if (!SetCurrentDirectory((char*)"..")) // move from BINARIES to top level
-			myexit((char*)"unable to change up\r\n");
-#else
-		chdir((char*)"..");
-#endif
-	}
-	else FClose(in); 
 	if (InitSystem(argc,argv)) myexit((char*)"failed to load memory\r\n");
     if (!server) 
 	{

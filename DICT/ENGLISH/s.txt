@@ -27553,7 +27553,7 @@
  Stonewall_Jackson ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
     Jackson~6n 
  Saint_James ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
-    James~4n 
+    James~3n 
  St_._James ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
     Saint_James~1n 
  Saint_James_the_Apostle ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 

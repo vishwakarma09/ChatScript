@@ -13784,10 +13784,6 @@
     mother_'s_boy~1n 
  mama_'s_boy ( meanings=1 NOUN NOUN_SINGULAR ) 
     mamma_'s_boy~1n 
- mother_'s_daughter ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
-    mother_'s_daughter~1nz (^daughter~1) a daughter who is favored by and similar to her mother
- mother_'s_son ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
-    mother_'s_son~1nz (^male~2) a male person
  motorcycle_cop ( meanings=1 NOUN NOUN_SINGULAR ) 
     motorcycle_policeman~1n 
  motorcycle_policeman ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 

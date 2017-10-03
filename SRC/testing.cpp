@@ -1612,11 +1612,11 @@ static void VerifyAccess(char* topic,char kind,char* prepassTopic) // prove patt
 			char* data;
 			char* output = NULL;
 			int id = 0;
+			char pattern[MAX_WORD_SIZE];
 			if (TopLevelRule(rule)) // test all top level rules in topic BEFORE this one
 			{
 				data = GetTopicData(topicID);
 				char label[MAX_WORD_SIZE];
-				char pattern[MAX_WORD_SIZE];
 				while (data && data < rule)
 				{
 					if (*data == GAMBIT || *data == RANDOM_GAMBIT); // no data gambits
@@ -1659,7 +1659,7 @@ static void VerifyAccess(char* topic,char kind,char* prepassTopic) // prove patt
 				}
 			}
 
-			if (data && data < rule && !strstr(data,(char*)"^incontext")) // earlier rule matches same pattern and is not context sensitive
+			if (data && data < rule && !strstr(pattern,(char*)"^incontext")) // earlier rule matches same pattern and is not context sensitive
 			{
 				// prove not a simple () (*) (!?)  (?) etc
 				char* t = pattern+2; // start AFTER the ( 
@@ -2048,6 +2048,55 @@ static void ShowFailCount(WORDP D,uint64 junk)
 	D->w.planArgCount = 0;
 }
 
+static void C_PennDecode(char* file)
+{
+	char word[MAX_WORD_SIZE];
+	FILE* in = FopenReadOnly(file); 
+	if (!in)
+	{
+		Log(STDTRACELOG, (char*)"No such file %s\r\n", file);
+		return;
+	}
+	char token[MAX_WORD_SIZE];
+	bool start = false;
+	while (ReadALine(readBuffer, in) >= 0)
+	{
+		if (!*readBuffer) continue;
+		char* ptr = SkipWhitespace(readBuffer);
+		while (*ptr)
+		{
+			ptr = SkipWhitespace(ptr);
+			if (!*ptr) continue;
+			char word[MAX_WORD_SIZE];
+			if (*ptr == '(')
+			{
+				start = true;
+				++ptr;
+			}
+			else if (*ptr == ')')
+			{
+				++ptr;
+			}
+			else
+			{
+				ptr = ReadCompiledWord(ptr, word);
+				char* end = word + strlen(word);
+				while (*--end == ')');
+				*++end = 0;
+				if (start) strcpy(token, word); // pos tag
+				else
+				{
+					Log(STDUSERLOG, "%s/%s ", word,token);
+					if (*token == '.') 
+						Log(STDUSERLOG, "\r\n");
+				}
+				start = false;
+			}
+		}
+	}
+	fclose(in);
+}
+
 static void C_PennMatch(char* file)
 {
 	char word[MAX_WORD_SIZE];
@@ -2056,7 +2105,7 @@ static void C_PennMatch(char* file)
 	bool showUsed = false;
 	unsigned int ambigLocation = 0;
 	char filename[SMALL_WORD_SIZE];
-	strcpy(filename,(char*)"REGRESS/PENNTAGS/penn.txt");
+	strcpy(filename,(char*)"REGRESS/PENNTAGS/tedtalks.txt");
 	clock_t startTime = ElapsedMilliseconds(); 
 	int sentenceLengthLimit = 0;
 	usedTrace = AllocateBuffer();
@@ -2126,8 +2175,7 @@ reloop:
 	unsigned int parseOK = 0;
 	unsigned int parseBad = 0;
 	unsigned int ambigSentences = 0;
-
-	ReturnToAfterLayer(LAYER_BOOT, false);
+	UnlockLayer(LAYER_BOOT); // unlock it to add stuff
 	StoreWord((char*)"NN");
 	StoreWord((char*)"NNS");
 	StoreWord((char*)"NNP");
@@ -2160,7 +2208,8 @@ reloop:
 	StoreWord((char*)"CD");
 	StoreWord((char*)"EX");
 	StoreWord((char*)"FW");
-	LockLayer(false);
+	StoreWord((char*)"SYM"); // includes $
+	LockLayer(true);
 	ambiguousWords = 0;
 
 	FILE* oldin = NULL;
@@ -2183,7 +2232,7 @@ reloop:
 		char word[MAX_WORD_SIZE];
 		char* ptr = SkipWhitespace(readBuffer);
 		if (!*ptr || *ptr == '#') continue;
-		if (!strnicmp(ptr,(char*)":exit ",6)) break;
+		if (!strnicmp(ptr,(char*)":exit",5)) break;
 		if (!strnicmp(ptr,(char*)":include ",9))
 		{
 			if (oldin) 
@@ -2291,13 +2340,17 @@ reloop:
 			int loc = i;
 			if (i == 1 && *wordStarts[i] == '"') ++loc; // ignore quote
 			bad = false;
-			if (bitCounts[i] != 1) 
+#ifdef TREETAGGER
+			// match treetagger tag?
+			if (MatchTag(tags[i], i)) continue;
+#endif
+			if (bitCounts[i] != 1)
 			{
 				bad = true;
 				totalAmbigs += bitCounts[i]; // total ambiguity choices
 				++ambigItems;
 			}
-			if (ambig && bad && (!ambigLocation || loc == (int)ambigLocation) ) 
+			if (ambig && bad && (!ambigLocation || loc == (int)ambigLocation) )
 				Log(STDTRACELOG,(char*)"** AMBIG %d: line: %d %s\r\n",++ambigSentences,currentFileLine,answer1);
 		}
 
@@ -2335,11 +2388,14 @@ retry:
 			char* xxoriginalWord = wordStarts[i];
 			if (sep) *sep = 0;
 			
+		
 			if (bitCounts[i] != 1 && (tokenControl & DO_PARSE) == DO_PARSE  ) // did not solve even when parsed
 			{
 				Log(STDTRACELOG,(char*)"Parse result- Ambiguous %s word %d(%s) line %d:  %s\r\n",mytags[i],i,wordStarts[i],currentFileLine,buffer);
 			} 
-			
+#ifdef TREETAGGER
+			else if (MatchTag(tags[i], i)) ++right; // match treetagger tag?
+#endif
 			else if (ignoreRule != -1 && !stricmp(wordStarts[i],(char*)"than")) ++right; // special against rule mode
 			else if (posValues[i-1] & IDIOM) ++right; // we will PRESUME we are right - he did a lot of harm -- they say of is prep. we say the phrase is adjective
 			else if (!stricmp(tags[i],(char*)"-LRB-"))
@@ -2537,7 +2593,8 @@ retry:
 			{
 				if (posValues[i] & (NOUN_INFINITIVE|VERB_INFINITIVE)) ++right;  
 				else if (posValues[i] & AUX_VERB && allOriginalWordBits[i] &  VERB_INFINITIVE) ++right;  // includes our modals 
-				else if (!showUsed ||  (usedWordIndex == i && usedType & (NOUN_INFINITIVE|VERB_INFINITIVE)))  Log(STDTRACELOG,(char*)"** Bad VB (infinitive) %s word %d(%s) line %d:  %s\r\n",mytags[i],i,wordStarts[i],currentFileLine,buffer);
+				else if (!showUsed ||  (usedWordIndex == i && usedType & (NOUN_INFINITIVE|VERB_INFINITIVE)))  
+					Log(STDTRACELOG,(char*)"** Bad VB (infinitive) %s word %d(%s) line %d:  %s\r\n",mytags[i],i,wordStarts[i],currentFileLine,buffer);
 			}
 			else if (!stricmp(tags[i],(char*)"VBD")) // past
 			{
@@ -2731,10 +2788,8 @@ retry:
 		++ignoreRule;
 		goto reloop;
 	}
-
-	double percent = ((double)right * 100) /total;
-	int val = (int)percent;
-	percent = ((double)parseBad * 100) /sentences;
+	double percentRight = ((double)right * 100) /total;
+	double percent = ((double)parseBad * 100) /sentences;
 	int val1 = (int)percent;
 	percent = ((double)ambigItems * 100) /ambiguousWords;
 	int val2 = (int) percent;
@@ -2745,7 +2800,10 @@ retry:
 	unsigned int tokensec = (timediff) ? ((total * 1000) / timediff) : 0; 
 	FreeBuffer();
 
-	Log(STDTRACELOG,(char*)"\r\nambigWords:%d  wrong:%d  notWrong:%d total:%d percent:%d sentences:%d parsed:%d parseBad:%d badSentencePercent:%d initialAmbiguousWords:%d percentambigLeft:%d initialAmbigpercent:%d\r\n\r\n",ambigItems,total-right,right,total,val,sentences,parseOK,parseBad,val1,ambiguousWords,val2,val3);
+	Log(STDTRACELOG, (char*)"\r\nambigWords:%d  wrong:%d  notWrong:%d total:%d",
+		ambigItems, total - right, right, total);
+	Log(STDTRACELOG, (char*)" percent:%f sentences:%d parsed:%d parseBad:%d badSentencePercent:%d initialAmbiguousWords:%d percentambigLeft:%d initialAmbigpercent:%d\r\n\r\n",
+		(float)percentRight, sentences, parseOK, parseBad, val1, ambiguousWords, val2, val3);
 	if (!raw && !ambig) Log(STDTRACELOG,(char*)"parsed:%d parseBad:%d badSentenceRate:%d initialAmbiguousWords:%d percentambigLeft:%d initialAmbigpercent:%d\r\n\r\n",parseOK,parseBad,val1,ambiguousWords,val2,val3);
 	WalkDictionary(ShowFailCount,0);
 	Log(STDTRACELOG,(char*)"\r\n");
@@ -2835,7 +2893,6 @@ static void C_PennNoun(char* file)
 						break;
 					Log(STDTRACELOG,(char*)"%s: %s %s  %s\r\n",tokens[i],tags[x],tokens[x], buffer); // unxpected
 					break;
-	
 				}
 			}
 		}
@@ -9833,6 +9890,7 @@ static void TrimIt(char* name,uint64 flag)
 			char* atOutput = output;
 			if (*whyTag != '~') { ; }
 			whyTag = ReadCompiledWord(whyTag, tag); // get tag  which is topic.x.y=name or topic.x.y<topic.a.b (reuse) and optional label which is whytag
+			
 			if (flag == 13) whyTag = tag;
 			char* separation = strchr(whyTag+1, '~');
 			if (separation) *separation = 0; // block out rest of output for a moment
@@ -10065,7 +10123,8 @@ CommandInfo commandSet[] = // NEW
 #endif
 	{ (char*)":extratopic",C_ExtraTopic,(char*)"given topic name and file as output from :topicdump, build in core topic and use it thereafter"},
 	{ (char*)":pennformat",C_PennFormat,(char*)"rewrite penn tagfile (eg as output from stanford) as one liners"}, 
-	{ (char*)":pennmatch",C_PennMatch,(char*)"FILE {raw ambig} compare penn file against internal result"}, 
+	{ (char*)":penndecode",C_PennDecode,(char*)"FILE convert penn parse to simple tag format" },
+	{ (char*)":pennmatch",C_PennMatch,(char*)"FILE {raw ambig} compare penn file against internal result"},
 	{ (char*)":pennnoun",C_PennNoun,(char*)"locate mass nouns in pennbank"}, 
 	{ (char*)":pos",C_POS,(char*)"Show results of tokenization and tagging"},  
 	{ (char*)":sortconcept",C_SortConcept,(char*)"Prepare concept file alphabetically"}, 

@@ -1125,7 +1125,7 @@ static char currentTopicName[MAX_WORD_SIZE];	// current topic being read
 static char lowercaseForm[MAX_WORD_SIZE];		// a place to put a lower case copy of a token
 static WORDP currentFunctionDefinition;			// current macro defining or executing
 static FILE* patternFile = NULL; // where to store pattern words
-static char nextToken[MAX_WORD_SIZE];			// current lookahead token
+static char* nextToken;			// current lookahead token
 
 static char verifyLines[100][MAX_WORD_SIZE];	// verification lines for a rule to dump after seeing a rule
 static unsigned int verifyIndex = 0;			// index of how many verify lines seen
@@ -1358,7 +1358,9 @@ static void WritePatternWord(char* word)
 	MakeLowerCopy(tmp,word);
 	WORDP lower = FindWord(word,0,LOWERCASE_LOOKUP);
 	WORDP upper = FindWord(word,0,UPPERCASE_LOOKUP);
-	if (!strcmp(tmp,word))  {;} // came in as lower case
+	char utfcharacter[10];
+	char* x = IsUTF8(word, utfcharacter); 
+	if (!strcmp(tmp,word) || utfcharacter[1])  {;} // came in as lower case or as UTF8 character, including ones that don't have an uppercase version?
 	else if (upper && (GetMeaningCount(upper) > 0 || upper->properties & NORMAL_WORD )){;} // clearly known as upper case
 	else if (lower && lower->properties & NORMAL_WORD && !(lower->properties & (DETERMINER|AUX_VERB))) 
 		WARNSCRIPT((char*)"Keyword %s should not be uppercase - did prior rule fail to close\r\n",word)
@@ -1460,13 +1462,13 @@ static void ValidateCallArgs(WORDP D,char* arg1, char* arg2,char* argset[ARGSETL
 		if (!*arg2 && (!stricmp(arg1,(char*)"input") || !stricmp(arg1,(char*)"output") || !stricmp(arg1,(char*)"copy")) )
 			BADSCRIPT((char*)"CALL- 63 call to ^setrejoinder requires 2nd argument naming what rule to use as rejoinder")
 	}
-	else if (!stricmp(D->word,(char*)"^pos"))
+	else if (!stricmp(D->word, (char*)"^pos"))
 	{
-		if (stricmp(arg1,(char*)"conjugate") && stricmp(arg1,(char*)"raw")&& stricmp(arg1,(char*)"allupper")  && stricmp(arg1,(char*)"syllable") && stricmp(arg1,(char*)"ADJECTIVE") && stricmp(arg1,(char*)"ADVERB")   && stricmp(arg1,(char*)"VERB") && stricmp(arg1,(char*)"AUX") && stricmp(arg1,(char*)"PRONOUN") && stricmp(arg1,(char*)"TYPE") && stricmp(arg1,(char*)"HEX32")&& stricmp(arg1,(char*)"HEX64")
-			 && stricmp(arg1,(char*)"NOUN") && stricmp(arg1,(char*)"DETERMINER") && stricmp(arg1,(char*)"PLACE")
- 			 && stricmp(arg1,(char*)"capitalize") && stricmp(arg1,(char*)"uppercase") && stricmp(arg1,(char*)"lowercase") 
-			 && stricmp(arg1,(char*)"canonical") && stricmp(arg1,(char*)"integer") && stricmp(arg1, (char*)"IsModelNumber") && stricmp(arg1, (char*)"IsInteger") && stricmp(arg1, (char*)"IsFloat"))
- 			BADSCRIPT((char*)"CALL- 12 1st argument to ^pos must be SYLLABLE or ALLUPPER or  VERB or AUX or PRONOUN or NOUN or ADJECTIVE or ADVERB or DETERMINER or PLACE or CAPITALIZE or UPPERCASE or LOWERCASE or CANONICAL or INTEGER or HEX32 or HEX64 or ISMODELNUMBER or ISINTEGER or ISFLOAT - %s",arg1)
+		if (stricmp(arg1, (char*)"conjugate") && stricmp(arg1, (char*)"raw") && stricmp(arg1, (char*)"allupper") && stricmp(arg1, (char*)"syllable") && stricmp(arg1, (char*)"ADJECTIVE") && stricmp(arg1, (char*)"ADVERB") && stricmp(arg1, (char*)"VERB") && stricmp(arg1, (char*)"AUX") && stricmp(arg1, (char*)"PRONOUN") && stricmp(arg1, (char*)"TYPE") && stricmp(arg1, (char*)"HEX32") && stricmp(arg1, (char*)"HEX64")
+			&& stricmp(arg1, (char*)"NOUN") && stricmp(arg1, (char*)"DETERMINER") && stricmp(arg1, (char*)"PLACE") && stricmp(arg1, (char*)"common")
+			&& stricmp(arg1, (char*)"capitalize") && stricmp(arg1, (char*)"uppercase") && stricmp(arg1, (char*)"lowercase")
+			&& stricmp(arg1, (char*)"canonical") && stricmp(arg1, (char*)"integer") && stricmp(arg1, (char*)"IsModelNumber") && stricmp(arg1, (char*)"IsInteger") && stricmp(arg1, (char*)"IsUppercase") && stricmp(arg1, (char*)"IsFloat"))
+			BADSCRIPT((char*)"CALL- 12 1st argument to ^pos must be SYLLABLE or ALLUPPER or VERB or AUX or PRONOUN or NOUN or ADJECTIVE or ADVERB or DETERMINER or PLACE or COMMON or CAPITALIZE or UPPERCASE or LOWERCASE or CANONICAL or INTEGER or HEX32 or HEX64 or ISMODELNUMBER or ISINTEGER or ISUPPERCASE or ISFLOAT - %s", arg1)
 	}
 	else if (!stricmp(D->word,(char*)"^getrule"))
 	{
@@ -2026,10 +2028,13 @@ void StartScriptCompiler()
 {
 	oldBuffer = newBuffer;
 	newBuffer = AllocateStack(NULL,MAX_BUFFER_SIZE);
+	nextToken = AllocateStack(NULL, MAX_BUFFER_SIZE); // able to swallow big
 }
 
 void EndScriptCompiler()
 {
+	ReleaseStack(nextToken);
+	nextToken = NULL;
 	if (newBuffer)
 	{
 		ReleaseStack(newBuffer);
@@ -2076,9 +2081,10 @@ $			user variable
 @			debug ahd factset references
 labels on responders
 responder types s: u: t: r: 
-name of topic  or concept
+name of topic or concept
 
 #endif
+
 	char word[MAX_WORD_SIZE];
 	char nestKind[100];
 	int nestIndex = 0;
@@ -3233,8 +3239,6 @@ char* ReadOutput(bool optionalBrace,bool nested,char* ptr, FILE* in,char* &mydat
 			++dataChunk;
 			*dataChunk++ = ' ';
 			ReadNextSystemToken(in,ptr,nextToken,false,true); //   aim lookahead at followup
-			if (!stricmp(nextToken,(char*)"^respond") || !stricmp(nextToken,(char*)"^gambit") ||  !stricmp(nextToken,(char*)"^reuse") ||  !stricmp(nextToken,(char*)"^refine"))
-					BADSCRIPT((char*)"%s always returns null, so assignment is pointless",nextToken)
 			if (!stricmp(nakedNext,(char*)"first") || !stricmp(nakedNext,(char*)"last") || !stricmp(nakedNext,(char*)"random") || !stricmp(nakedNext,(char*)"nth") ) 
 				strcpy(assignKind,word); // verify usage fact retrieved from set
 			if (*nextToken == '=' || *nextToken == '<' || *nextToken == '>')
@@ -4878,7 +4882,7 @@ static void ReadTopicFile(char* name,uint64 buildid) //   read contents of a top
 	}
 	FClose(in); // this should be the only such, not fclose.
 	--jumpIndex;
-	if (!BOM && hasHighChar) WARNSCRIPT((char*)"File %s has no utf8 BOM but has character>127\r\n", name) // should have been utf 8 or have no high data.
+	if (hasHighChar) WARNSCRIPT((char*)"File %s has no utf8 BOM but has character>127 - extended Ansi changed to normal Ascii\r\n", name) // should have been utf 8 or have no high data.
 	if (!globalBotScope) // restore any local change from this file
 	{
 		myBot = 0;
@@ -5243,6 +5247,7 @@ static void EmptyVerify(char* name, uint64 junk)
 int ReadTopicFiles(char* name,unsigned int build,int spell)
 {
 	int resultcode = 0;
+
 	undefinedCallThreadList = 0;
 	isDescribe = false;
 	*botheader = 0;
@@ -5452,7 +5457,6 @@ int ReadTopicFiles(char* name,unsigned int build,int spell)
 	FreeOutputBuffer();
 	compiling = false;
 	jumpIndex = 0;
-
 	testOutput = output; // allow summary to go out the server
 	if (hasErrors) 
 	{

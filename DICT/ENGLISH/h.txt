@@ -9691,7 +9691,7 @@
  Helen_Maria_Fiske_Hunt_Jackson ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
     Jackson~7nz (^writer~1) United States writer of romantic novels about the unjust treatment of Native Americans
  Henry_James ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
-    James~5n 
+    James~4n 
  Hugo_Junkers ( meanings=1 glosses=1 NOUN NOUN_PROPER_SINGULAR ) 
     Junkers~1nz (^engineer~1) German aircraft engineer who designed the first all-metal airplane
  Helen_Keller ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
@@ -14088,7 +14088,7 @@
  half-dozen ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     half_dozen~1a 
  hundred_and_one ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
-    ci~1az 
+    hundred_and_one~1az 
  hundred-and-first ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     hundred-and-first~1az the ordinal number of one hundred one in counting order
  hundred-and-fifth ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 

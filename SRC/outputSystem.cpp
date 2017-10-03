@@ -318,7 +318,7 @@ void ReformatString(char starter, char* input,char*& output, FunctionResult& res
 		{
 			char* at = var;
 			*at++ = *input++;
-			while (IsAlphaUTF8(*input) ) *at++ = *input++;
+			while (IsLegalNameCharacter(*input) ) *at++ = *input++;
 			*at = 0;
 			if (output != start && *(output-1) == ' ') --output; // no space before
 			input = Output_Function(var, input, NULL, output, controls,result,false);

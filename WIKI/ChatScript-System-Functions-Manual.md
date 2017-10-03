@@ -1,6 +1,6 @@
 # ChatScript System Functions Manual
 © Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 8/12/2017 cs7.54
+<br>Revision 9/24/2017 cs7.55
 
 * [Topic Functions](ChatScript-System-Functions-Manual.md#topic-functions)
 * [Marking Functions](ChatScript-System-Functions-Manual.md#marking-functions)
@@ -743,6 +743,7 @@ These flags apply to output as it is sent to the user:
 | `RESPONSE_ALTERUNDERSCORES`       | convert underscores to spaces                 |
 | `RESPONSE_REMOVETILDE`            | remove leading ~ on class names               |
 | `RESPONSE_NOCONVERTSPECIAL`    | don't convert ecaped n, r, and t into ascii direct characters  |
+| `RESPONSE_CURLYQUOTES`    | change simple quotes to curly quotes (starting and ending)  |
 
 
 ### `^preprint ( stream )`
@@ -843,6 +844,10 @@ Execute this stream of arguments through the `:` command processor.
 You can execute debugging commands through here. E.g.,
 
     ^command(:execute ^print("Hello") )
+
+Note that it is hard to turn on :trace this way, because the system resets It
+internally at various points. The correct way to manipulate trace is 
+to do  $cs_trace = -1 in regular script, outside of ^command.
 
 
 ### `^end ( code )`

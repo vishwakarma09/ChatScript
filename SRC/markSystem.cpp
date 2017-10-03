@@ -459,7 +459,7 @@ static void HuntMatch(bool canonical, char* word,bool strict,int start, int end,
 		chunk[1] = Word2Index(D);
 		wordlist = Stack2Index((char*)chunk);
 
-		if (!(D->systemFlags & PATTERN_WORD) && !(D->properties & ESSENTIAL_POS)) // given no flag reason to use, see if concept member
+		if (!(D->systemFlags & PATTERN_WORD) && !(D->properties & PART_OF_SPEECH)) // given no flag reason to use, see if concept member
 		{
 			FACT* F = GetSubjectHead(D); // is it a part of some concept? Or a direct wor
 			while (F)
@@ -560,9 +560,9 @@ static void SetSequenceStamp() //   mark words in sequence, original and canonic
 		
 		// scan interesting initial words (spaced, underscored, capitalized) but we need to recognize bots in lower case, so try all cases here as well
 		NextInferMark();
-		HuntMatch(true,rawbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i,usetrace);
-		HuntMatch(false,canonbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i,usetrace);
-		HuntMatch(true,originalbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i,usetrace);
+		HuntMatch(false,rawbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i,usetrace);
+		HuntMatch(true,canonbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i,usetrace);
+		HuntMatch(false,originalbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i,usetrace);
 
 		//   fan out for addon pieces
 		int k = 0;
@@ -587,9 +587,9 @@ static void SetSequenceStamp() //   mark words in sequence, original and canonic
 
 			// we  composite anything, not just words, in case they made a typo
 			NextInferMark();
-			HuntMatch(true,rawbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i+k,usetrace);
-			HuntMatch(false,canonbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i+k,usetrace);
-			HuntMatch(true,originalbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i+k,usetrace);
+			HuntMatch(false,rawbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i+k,usetrace);
+			HuntMatch(true,canonbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i+k,usetrace);
+			HuntMatch(false,originalbuffer,(tokenControl & STRICT_CASING) ? true : false,i,i+k,usetrace);
 			if (logCount != logbasecount && usetrace)  Log(STDTRACELOG,(char*)"\r\n"); // if we logged something, separate
 			if (++index >= SEQUENCE_LIMIT) break; //   up thru 5 words in a phrase
 			logbasecount = logCount;

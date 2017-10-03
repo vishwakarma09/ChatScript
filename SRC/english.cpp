@@ -659,8 +659,8 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 		if (!canonical) canonical = foundWord ? entry : DunknownWord;
 		return properties; // remote pos tagging or none
 	}
-
-	if (*original == '~' || (*original == USERVAR_PREFIX && !IsDigit(original[1])) || *original == '^' || (*original == SYSVAR_PREFIX && original[1]))
+	if (*original == '$' && !original[1]) { ; } // $
+	else if (*original == '~' || (*original == USERVAR_PREFIX && !IsDigit(original[1])) || *original == '^' || (*original == SYSVAR_PREFIX && original[1]))
 	{
 		char copy[MAX_WORD_SIZE];
 		MakeLowerCopy(copy,original);
@@ -846,10 +846,10 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 	bool preknown = known;
 
 	/////// WHETHER OR NOT WE KNOW THE WORD, IT MIGHT BE ALSO SOME OTHER WORD IN ALTERED FORM (like plural noun or comparative adjective)
+	char lower[MAX_WORD_SIZE];
 
 	if (!(properties & VERB_BITS) && (at == start || !IsUpperCase(*original))) // could it be a verb we dont know directly (even if we know the word)
 	{
-		char lower[MAX_WORD_SIZE];
 		MakeLowerCopy(lower,original);
 		char* verb =  GetInfinitive(lower,true); 
 		if (verb)  // inifinitive will be different from original or we would already have found the word
@@ -868,7 +868,6 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 	
 	if (!(properties & (NOUN_BITS|PRONOUN_BITS))) // could it be plural noun we dont know directly -- eg dogs or the plural of a singular we know differently-- "arms is both singular and plural" - avoid pronouns like "his" or "hers"
 	{
-		char lower[MAX_WORD_SIZE];
 		MakeLowerCopy(lower,original);
 		WORDP X = FindWord(original,0,LOWERCASE_LOOKUP);
 		if (X && strcmp(original,X->word)) // upper case noun we know in lower case -- "Proceeds"
@@ -916,7 +915,6 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 
 	if (!(properties & ADJECTIVE_BITS) && (at == start || !IsUpperCase(*original)) && len > 3) // could it be comparative adjective we werent recognizing even if we know the word
 	{
-		char lower[MAX_WORD_SIZE];
 		MakeLowerCopy(lower,original);
 		if (lower[len-1] == 'r' && lower[len-2] == 'e' && !canonical) // if canonical its like "slaver" and should never be reduced
 		{
@@ -946,7 +944,6 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 
 	if (!(properties & ADVERB) && !(properties & (NOUN|VERB)) && (at == start || !IsUpperCase(*original)) && len > 3) // could it be comparative adverb even if we know the word
 	{
-		char lower[MAX_WORD_SIZE];
 		MakeLowerCopy(lower,original);
 		if (lower[len-1] == 'r' && lower[len-2] == 'e'  && !canonical)
 		{
@@ -1410,7 +1407,7 @@ void SetSentenceTense(int start, int end)
 	bool subjectFound = false;
 	if ((trace & TRACE_POS || prepareMode == POS_MODE) && CheckTopicTrace()) 
 	{
-		if (  tmpPrepareMode == POS_MODE || prepareMode == PENN_MODE || prepareMode == POSVERIFY_MODE  || prepareMode == POSTIME_MODE ) Log(STDTRACELOG,(char*)"Not doing a parse.\r\n");
+		if (  tmpPrepareMode == POS_MODE || prepareMode == POSVERIFY_MODE  || prepareMode == POSTIME_MODE ) Log(STDTRACELOG,(char*)"Not doing a parse.\r\n");
 	}
 
 	// assign sentence type

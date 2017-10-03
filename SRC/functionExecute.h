@@ -103,6 +103,7 @@ extern char* currentFunctionDisplay;
 extern bool planning;
 extern bool nobacktrack;
 FunctionResult MemoryMarkCode(char* buffer);
+char* GetArgOfMacro(int i, char* buffer, int limit);
 FunctionResult MemoryFreeCode(char* buffer);
 unsigned char* FindAppropriateDefinition(WORDP D, FunctionResult& result);
 void ResetReuseSafety();
