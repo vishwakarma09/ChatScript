@@ -77,6 +77,8 @@ really advanced users wanting the appropriate mental model.
 * [Installing and Updating ChatScript](Installing-and-Updating-ChatScript.md)
 <br>Installing on Windows, Mac, Linux. Updating ChatScript (advanced).
 
+* [ChatScript Coding Standards](ChatScript-Coding-Standards.md)
+
 
 ## Test and Debug
 
