@@ -72,6 +72,7 @@ ev_io ev_accept_r_g;
 ev_timer tt_g;
 
 bool postgresInited = false;
+bool mysqlInited = false;
 	   
 #ifdef EVSERVER_FORK
 // child monitors
@@ -622,6 +623,14 @@ int evsrv_do_chat(Client_t *client)
 		postgresInited = true;
 	}
 #endif
+#ifndef DISCARDMYSQL
+	if (mysqlconf && !mysqlInited)
+	{
+		MySQLUserFilesCode(); //Forked must hook uniquely AFTER forking
+		mysqlInited = true;
+	}
+#endif
+
 	if (!client->data) 	client->data = (char*) malloc(outputsize);
 	if (!client->data) printf("Malloc failed for child data\r\n");
 

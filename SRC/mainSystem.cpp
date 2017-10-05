@@ -624,6 +624,66 @@ static void ProcessArgument(char* arg)
 	else if (!strnicmp(arg,(char*)"english=",8) )  strcpy(languageFolder,arg+8);
 #ifndef DISCARDPOSTGRES
 	else if (!strnicmp(arg,(char*)"pguser=",7) )  strcpy(postgresparams, arg+7);
+	// Postgres Override SQL
+	else if (!strnicmp(arg,(char*)"pguserread=",11) )
+	{
+		strcpy(postgresuserread, arg+11);
+		pguserread = postgresuserread;
+	}
+	else if (!strnicmp(arg,(char*)"pguserinsert=",13) )
+	{
+		strcpy(postgresuserinsert, arg+13);
+		pguserinsert = postgresuserinsert;
+	}
+	else if (!strnicmp(arg,(char*)"pguserupdate=",13) )
+	{
+		strcpy(postgresuserupdate, arg+13);
+		pguserupdate = postgresuserupdate;
+	}
+#endif
+#ifndef DISCARDMYSQL
+	else if (!strnicmp(arg,(char*)"mysqlhost=",10) )
+	{
+		mysqlconf = true;
+		strcpy(mysqlhost, arg+10);
+	}
+	else if (!strnicmp(arg,(char*)"mysqlport=",10) )
+	{
+		mysqlconf = true;
+		unsigned int port = atoi(arg+10);
+		mysqlport = port;
+	}
+	else if (!strnicmp(arg,(char*)"mysqldb=",8) )
+	{
+		mysqlconf = true;
+		strcpy(mysqldb, arg+8);
+	}
+	else if (!strnicmp(arg,(char*)"mysqluser=",10) )
+	{
+		mysqlconf = true;
+		strcpy(mysqluser, arg+10);
+	}
+	else if (!strnicmp(arg,(char*)"mysqlpasswd=",12) )
+	{
+		mysqlconf = true;
+		strcpy(mysqlpasswd, arg+12);
+	}
+	// MySQL Query Override SQL
+	else if (!strnicmp(arg,(char*)"mysqluserread=",14) )
+	{
+		strcpy(my_userread_sql, arg+14);
+		mysql_userread = my_userread_sql;
+	}
+	else if (!strnicmp(arg,(char*)"mysqluserinsert=",16) )
+	{
+		strcpy(my_userinsert_sql, arg+16);
+		mysql_userinsert = my_userinsert_sql;
+	}
+	else if (!strnicmp(arg,(char*)"mysqluserupdate=",16) )
+	{
+		strcpy(my_userupdate_sql, arg+16);
+		mysql_userupdate = my_userupdate_sql;
+	}
 #endif
 #ifndef DISCARDMONGO
 	else if (!strnicmp(arg,(char*)"mongo=",6) )  strcpy(mongodbparams,arg+6);
