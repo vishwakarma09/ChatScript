@@ -519,6 +519,11 @@ bool ReadForeignPosTags(char* fname)
 		*word = '_'; 
 	}
 	fclose(in);
+	// Also store the unknown tag, just in case the pos tagger fails to attach anything
+	strcpy(word + 1, (char*)"unknown-tag");
+	StoreWord(word, 0);
+	*word = '~'; // corresponding concept
+	BUILDCONCEPT(word);
 	return true;
 }
 
@@ -888,6 +893,7 @@ WORDP FindWord(const char* word, int len,uint64 caseAllowed)
 {
 	if (word == NULL || *word == 0) return NULL;
 	if (len == 0) len = strlen(word);
+	if (len == 0) return NULL;
 	bool hasUpperCharacters;
 	bool hasUTF8Characters;
 	uint64 fullhash = Hashit((unsigned char*) word,len,hasUpperCharacters,hasUTF8Characters); //   sets hasUpperCharacters and hasUTF8Characters 
@@ -2055,7 +2061,6 @@ MEANING AddMeaning(WORDP D,MEANING M)
 	for (unsigned int i = 1; i <= oldCount; ++i) 
 	{
 		if (meanings[i] == M) return M;
-		if (GETTYPERESTRICTION(M) & PREPOSITION && GETTYPERESTRICTION(meanings[i]) & PREPOSITION) return meanings[i]; // ignore any duplicate prep entries
 	}
 
 	unsigned int count = oldCount + 1;  
@@ -2152,7 +2157,7 @@ MEANING ReadMeaning(char* word,bool create,bool precreated)
 			if (*p == 'n') flags = NOUN;
 			else if (*p == 'v') flags = VERB;
 			else if (*p == 'a') flags = ADJECTIVE;
-			else if (*p == 'b') flags = ADVERB;
+			else if (*p == 'b') flags = ADJECTIVE; // all modifiers now treated equally
 			else if (*p == 'z') flags |= SYNSET_MARKER;
 			if (flags) 
 			{
@@ -2313,7 +2318,7 @@ unsigned int GetMeaningType(MEANING T)
 	WORDP D = Meaning2Word(T);
     unsigned int index = Meaning2Index(T);
 	if (index) T = GetMeaning(D,index); //   change to synset head for specific meaning
-	else if (GETTYPERESTRICTION(T)) return GETTYPERESTRICTION(T); //   generic word type it must be
+	else if (GETTYPERESTRICTION(T)) return (int)GETTYPERESTRICTION(T); //   generic word type it must be
 	D = Meaning2Word(T);
 	return (unsigned int) (D->properties & PART_OF_SPEECH);
 }
@@ -2393,10 +2398,16 @@ void SuffixMeaning(MEANING T,char* at, bool withPos)
 		if (GETTYPERESTRICTION(T) & NOUN) *at++ = 'n'; 
 		else if (GETTYPERESTRICTION(T) & VERB) *at++ = 'v'; 
 		else if (GETTYPERESTRICTION(T) & ADJECTIVE) *at++ = 'a';
-		else if (GETTYPERESTRICTION(T) & ADVERB) *at++ = 'b';
 	}
 	if (T & SYNSET_MARKER) *at++ = 'z';
 	*at = 0;
+}
+
+unsigned int GETTYPERESTRICTION(MEANING x)
+{
+	unsigned int type = ((x) >> TYPE_RESTRICTION_SHIFT) & TYPE_RESTRICTION;
+	if (type & ADJECTIVE) type |= ADVERB;
+	return type;
 }
 
 char* WriteMeaning(MEANING T,bool withPos,char* buf)
@@ -2517,7 +2528,7 @@ void ReadSubstitutes(const char* name,unsigned int build,const char* layer, unsi
 		if (replacement[0] != 0 && replacement[0] != '#') 	//   with no substitute, it will just erase itself
 		{
 			if (strchr(replacement,'_'))
-				printf((char*)"Warning-- substitution replacement %s of %s in %s at line %d has _ in it\r\n",replacement,original,name,currentFileLine);
+				printf((char*)"Warning-- substitution replacement %s of %s in %s at line %d has _ in it. Is it intended?\r\n",replacement,original,name,currentFileLine);
 			D->w.substitutes = S = StoreWord(replacement,AS_IS);  //   the valid word
 			AddSystemFlag(S,SUBSTITUTE_RECIPIENT);
 			// for the emotions (like ~emoyes) we want to be able to reverse access, so make them a member of the set
@@ -3717,8 +3728,7 @@ void DumpDictionaryEntry(char* word,unsigned int limit)
 			kind = k1;
 			if (GETTYPERESTRICTION(M) & NOUN) Log(STDTRACELOG,(char*)"\r\n    noun\r\n");
 			else if (GETTYPERESTRICTION(M) & VERB) Log(STDTRACELOG,(char*)"\r\n    verb\r\n");
-			else if (GETTYPERESTRICTION(M) & ADJECTIVE) Log(STDTRACELOG,(char*)"\r\n    adjective\r\n");
-			else if (GETTYPERESTRICTION(M) & ADVERB) Log(STDTRACELOG,(char*)"\r\n    adverb\r\n");
+			else if (GETTYPERESTRICTION(M) & ADJECTIVE) Log(STDTRACELOG,(char*)"\r\n    adjective/adverb\r\n");
 			else Log(STDTRACELOG,(char*)"\r\n    misc\r\n");
 		}
 		char* gloss;

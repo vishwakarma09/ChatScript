@@ -33,6 +33,7 @@ pandoc ESOTERIC-CHATSCRIPT/ChatScript-MongoDB.md -s -o ../HTMLDOCUMENTATION/ESOT
 pandoc ESOTERIC-CHATSCRIPT/ChatScript-Planning.md -s -o ../HTMLDOCUMENTATION/ESOTERIC-CHATSCRIPT/ChatScript-Planning.html
 pandoc ESOTERIC-CHATSCRIPT/ChatScript-PosParser.md -s -o ../HTMLDOCUMENTATION/ESOTERIC-CHATSCRIPT/ChatScript-PosParser.html
 pandoc ESOTERIC-CHATSCRIPT/ChatScript-PostgreSQL.md -s -o ../HTMLDOCUMENTATION/ESOTERIC-CHATSCRIPT/ChatScript-PostgreSQL.html
+pandoc ESOTERIC-CHATSCRIPT/ChatScript-MySQL.md -s -o ../HTMLDOCUMENTATION/ESOTERIC-CHATSCRIPT/ChatScript-MySQL.html
 pandoc ESOTERIC-CHATSCRIPT/ChatScript-Engine.md -s -o ../HTMLDOCUMENTATION/ESOTERIC-CHATSCRIPT/ChatScript-Engine.html
 pandoc ESOTERIC-CHATSCRIPT/ChatScript-Foreign-Languages.md -s -o ../HTMLDOCUMENTATION/ESOTERIC-CHATSCRIPT/ChatScript-Foreign-Languages.html
 

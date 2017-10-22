@@ -156,8 +156,8 @@ int ValidPeriodToken(char* start, char* end, char next,char next2) // token with
 	if (FindWord(start,len-1)) return TOKEN_EXCLUSIVE; // word exists independent of it
 
 	// is part of a word but word not yet done
-    if (IsFloat(start,end) && IsDigit(next)) return TOKEN_INCOMPLETE; //   decimal number9
-	if (*start == '$' && IsFloat(start+1,end) && IsDigit(next)) return TOKEN_INCOMPLETE; //   decimal number9 or money
+    if (IsFloat(start,end,numberStyle) && IsDigit(next)) return TOKEN_INCOMPLETE; //   decimal number9
+	if (*start == '$' && IsFloat(start+1,end,numberStyle) && IsDigit(next)) return TOKEN_INCOMPLETE; //   decimal number9 or money
 	if (IsNumericDate(start,end)) return TOKEN_INCOMPLETE;	//   swallow period date as a whole - bug . after it?
 	if ( next == '-') return TOKEN_INCOMPLETE;	// like N.J.-based
 	if (IsAlphaUTF8(next)) return TOKEN_INCOMPLETE;  // "file.txt" 
@@ -190,7 +190,8 @@ int BurstWord(char* word, int contractionStyle)
 	}
 
 	//   make it safe to write on the data while separating things
-	char* copy = AllocateStack(word,0);
+	char* copy = AllocateBuffer();
+	strcpy(copy, word);
 	word = copy;
 	unsigned int base = 0;
 
@@ -289,7 +290,7 @@ int BurstWord(char* word, int contractionStyle)
     if (start && *start && *start != ' ' && *start != '_') strcpy(burstWords[base++],start); // a trailing 's or '  won't have any followup word left
 	if (!base && underscoreSeen) strcpy(burstWords[base++],(char*)"_");
 	else if (!base) strcpy(burstWords[base++],start);
-	ReleaseStack(copy);
+	FreeBuffer();
 	burstLimit = base;	// note legality of burst word accessor GetBurstWord
     return base;
 }
@@ -340,8 +341,14 @@ char* JoinWords(unsigned int n,bool output) //
 static char* HandleQuoter(char* ptr,char** words, int& count)
 {
 	char c = *ptr; // kind of quoter
-	char* end = strchr(ptr+1,c); // find matching end?
-	if (!end) return NULL; 
+	char* end = ptr;
+	while (1)
+	{
+		end = strchr(end + 1, c); // find matching end?
+		if (!end) return NULL;
+		if (end[1] == '"') end++;	// skip over "" in quote
+		else break;
+	}
 	if (tokenControl & LEAVE_QUOTE) return end+1;
 
 	char pastEnd = IsPunctuation(end[1]); // what comes AFTER quote
@@ -395,7 +402,7 @@ static WORDP UnitSubstitution(char* buffer)
 {
 	char value[MAX_WORD_SIZE];
 	char* at = buffer - 1;
-	while (IsDigit(*++at) || *at == numberPeriod || *at == numberComma); // skip past number
+	while (IsDigit(*++at) || *at == '.' || *at == ','); // skip past number
 	strcpy(value, "?_");
 	strcat(value + 2, at); // presume word after number is not big
 	while ((at = strchr(value, '.'))) memmove(at, at + 1, strlen(at)); // remove abbreviation periods
@@ -507,6 +514,7 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 			char* end = HandleQuoter(ptr, words, count);
 			if (end)  return end;
 		}
+		return ptr + 1; // just return isolated quote
 	}
 
 	if (*ptr == '?') return ptr + 1; // we dont have anything that should join after ?    but  ) might start emoticon
@@ -526,7 +534,7 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 	ReadCompiledWord(ptr, token);
 
 	// if this was 93302-42345 then we need to keep - separate, not as minus
-	if (*token == '-' && IsInteger(token + 1, false) && IsInteger(priorToken, false))
+	if (*token == '-' && IsInteger(token + 1, false, numberStyle) && IsInteger(priorToken, false, numberStyle))
 	{
 		return ptr + 1;
 	}
@@ -542,15 +550,22 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 	if (strchr(token, numberPeriod) || strchr(token, 'e') || strchr(token, 'E'))
 	{
 		char* at = token;
+
+		// check for a currency symbol
+		char* number = token;
+		char* currency = 0;
+		if ((currency = (char*)GetCurrency((unsigned char*)at, number))) at = number; // if currency, find number start of it
+
 		bool seenExponent = false;
-		while (*++at && (IsDigit(*at) || *at == numberComma || *at == numberPeriod || (!seenExponent && (*at == 'e' || *at == 'E')) || *at == '-' || *at == '+'))
+		while (*++at && (IsDigit(*at) || *at == ',' || *at == '.' || (!seenExponent && (*at == 'e' || *at == 'E')) || *at == '-' || *at == '+'))
 		{
 			if (*at == 'e' || *at == 'E') seenExponent = true; // exponent can only appear once, 10e4euros
 		}
 
-		// may be units attached, so dont split that apart
-		if (IsFloat(token, at) && !UnitSubstitution(at)) // $50. is not a float, its end of sentene
+		// may be units or currency attached, so dont split that apart
+		if (IsFloat(number, at, numberStyle) && !UnitSubstitution(at)) // $50. is not a float, its end of sentene
 		{
+			if (currency && at == currency) at += strlen(currency);
 			if (*at == '%') ++at;
 			if (*at == 'k' || *at == 'K' || *at == 'm' || *at == 'M' || *at == 'B' || *at == 'b')
 			{
@@ -573,7 +588,7 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 	}
 
 	// check for ordinary integers whose commas may be confusing
-	if ((IsDigit(token[0])|| IsDigit(token[1])) && IsDigitWord(token, true)) return ptr + strlen(token);
+	if ((IsDigit(token[0])|| IsDigit(token[1])) && IsDigitWord(token, numberStyle, true)) return ptr + strlen(token);
 
 	// check for date
 	if (IsDate(token)) return ptr + strlen(token);
@@ -666,7 +681,7 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 
 	if (comma && IsDigit(*(comma-1)) && !IsDigit(comma[1])) return comma; // $7 99
 	if (comma && IsDigit(comma[1]) && IsDigit(comma[2]) && IsDigit(comma[3]) && IsDigit(comma[4])) return comma; // 25,2019 
-	if (comma && !IsCommaNumberSegment(comma+1)) return comma; // 25,2 rest of word is not valid comma segments
+	if (comma && !IsCommaNumberSegment(comma+1,NULL)) return comma; // 25,2 rest of word is not valid comma segments
 
 	if (kind & BRACKETS && ( (c != '>' && c != '<') || next != '=') ) 
 	{
@@ -874,7 +889,7 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 
 		if (kind & BRACKETS) break; // separate brackets
 
-		if (kind & (PUNCTUATIONS|ENDERS) && IsWordTerminator(next)) 
+		if (kind & (PUNCTUATIONS|ENDERS|QUOTERS) && IsWordTerminator(next)) 
 		{
 			if (c == '-' && *ptr == '-' && next == ' ') return ptr + 1;
 			if (tokenControl & TOKEN_AS_IS && next == ' ' && ptr[1] && !IsWhiteSpace(ptr[2])) return ptr + 1; // our token ends and there is more text to come
@@ -1609,7 +1624,7 @@ static void MergeNumbers(int& start,int& end) //   four score and twenty = four-
     for (int i = start; i < end; ++i)
     {
 		char* item = wordStarts[i];
-        if (*item == ',') continue; //   ignore commas
+        if (*item == numberComma) continue; //   ignore commas
 		if (i > start && *item == '-') ++item; // skip leading -
 		if (i > start && IsDigit(*wordStarts[i-1]) && !IsDigit(*item)) // digit followed by word
 		{
@@ -1627,8 +1642,8 @@ static void MergeNumbers(int& start,int& end) //   four score and twenty = four-
 		//   OR  one and twenty 
         if (i > 1 && i < wordCount && (*item == 'a' || *item == 'A')) //   and,  maybe flip order if first, like one and twenty, then ignore
         {
-			int64 power1 = NumberPower(wordStarts[i-1]);
-			int64 power2 = NumberPower(wordStarts[i+1]);
+			int64 power1 = NumberPower(wordStarts[i-1], numberStyle);
+			int64 power2 = NumberPower(wordStarts[i+1], numberStyle);
 			if (power1 < power2) //   latter is bigger than former --- assume nothing before and just overwrite
 			{
 				strcpy(word,wordStarts[i+1]);
@@ -1651,8 +1666,8 @@ static void MergeNumbers(int& start,int& end) //   four score and twenty = four-
         *ptr = 0;
         if (i > 1 && i != start) //   prove not mixing types digits and words
         {
-  			int64 power1 = NumberPower(wordStarts[i-1]);
-			int64 power2 = NumberPower(wordStarts[i]);
+  			int64 power1 = NumberPower(wordStarts[i-1], numberStyle);
+			int64 power2 = NumberPower(wordStarts[i], numberStyle);
 			if (power1 == power2 && power1 != 1) // allow one two three
 			{
 				end = start = (unsigned int)UNINIT; 
@@ -1722,7 +1737,7 @@ void ProcessCompositeNumber()
     for (int i = FindOOBEnd(1); i <= wordCount; ++i) 
     {
 		char* word = wordStarts[i];
-        bool isNumber = IsNumber(word) != NOT_A_NUMBER && !IsPlaceNumber(word) && !GetCurrency((unsigned char*) word,number);
+        bool isNumber = IsNumber(word,numberStyle) != NOT_A_NUMBER && !IsPlaceNumber(word,numberStyle) && !GetCurrency((unsigned char*) word,number);
 		size_t len = strlen(word);
         if (isNumber || (start == UNINIT && *word == '-' && i < wordCount && IsDigit(*wordStarts[i+1]))) // is this a number or part of one
         {
@@ -1740,14 +1755,14 @@ void ProcessCompositeNumber()
 					end = i;
 					if (!IsDigit(*wordStarts[i-1]) && !IsDigit(*wordStarts[i+1])) // potential word number 
 					{
-						int64 before = Convert2Integer(wordStarts[i-1]);  //  non numbers return NOT_A_NUMBER   
-						int64 after = Convert2Integer(wordStarts[i+1]);
+						int64 before = Convert2Integer(wordStarts[i-1],numberStyle);  //  non numbers return NOT_A_NUMBER   
+						int64 after = Convert2Integer(wordStarts[i+1],numberStyle);
 						if (after > before){;} // want them ordered--- ignore four score and twenty
 						else if (before == 100 || before == 1000 || before == 1000000) continue; // one thousand and five - ten thousand and fifty
 					}
 				}
 				// comma between digit tokens
-				else if (*wordStarts[i] == ',' ) 
+				else if (*wordStarts[i] == numberComma ) 
 				{
 					if (IsDigit(*wordStarts[i-1]) && IsDigit(*wordStarts[i+1])) // a numeric comma
 					{
@@ -2000,7 +2015,8 @@ static bool Substitute(WORDP found,char* sub, int i,int erasing)
 static WORDP Viability(WORDP word, int i, unsigned int n)
 {
 	if (!word) return NULL;
-    if (word->systemFlags & CONDITIONAL_IDIOM) //  dare not unless there are no conditions
+	if (word->systemFlags & ALWAYS_PROPER_NAME_MERGE) return word;
+	if (word->systemFlags & CONDITIONAL_IDIOM) //  dare not unless there are no conditions
     {
         char* script = word->w.conditionalIdiom;
         if (script[1] != '=') return 0; // no conditions listed
@@ -2008,7 +2024,7 @@ static WORDP Viability(WORDP word, int i, unsigned int n)
 	}
     if (word->internalBits & HAS_SUBSTITUTE)
     {
-        WORDP X = GetSubstitute(word);
+        WORDP X = GetSubstitute(word); //uh - but we would, uh, , buy, .. lollipops
         if (X && !strcmp(X->word, word->word)) return NULL; // avoid infinite substitute
         uint64 allowed = tokenControl & (DO_SUBSTITUTE_SYSTEM | DO_PRIVATE);
         return (allowed & word->internalBits) ? word : 0; // allowed transform

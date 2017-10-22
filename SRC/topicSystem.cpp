@@ -1796,7 +1796,7 @@ bool ReadUserTopics()
 	if (trace & TRACE_USER)
 	{
 		if (inputRejoinderTopic == NO_REJOINDER) Log(STDTRACELOG, (char*)"No rejoinder pending\r\n");
-		else Log(STDTRACELOG, (char*)"\r\Pending Rejoinder %s.%d.%d\r\n", word, TOPLEVELID(inputRejoinderRuleID), REJOINDERID(inputRejoinderRuleID));
+		else Log(STDTRACELOG, (char*)"\r\nPending Rejoinder %s.%d.%d\r\n", word, TOPLEVELID(inputRejoinderRuleID), REJOINDERID(inputRejoinderRuleID));
 	}
 
 	bool badLayer1 = false;

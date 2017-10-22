@@ -2,6 +2,7 @@
 //------------------------
 // ALWAYS AVAILABLE
 //------------------------
+static int autocon = 0;
 static unsigned int undefinedCallThreadList = 0;
 static int complexity = 0;
 static char* dataChunk = NULL;
@@ -2024,11 +2025,54 @@ static char* ReadDescribe(char* ptr, FILE* in,unsigned int build)
 	return ptr;
 }
 
-void StartScriptCompiler()
+bool StartScriptCompiler()
 {
+	if (nextToken) return false;
 	oldBuffer = newBuffer;
 	newBuffer = AllocateStack(NULL,MAX_BUFFER_SIZE);
 	nextToken = AllocateStack(NULL, MAX_BUFFER_SIZE); // able to swallow big
+	return true;
+
+}
+
+char* Autoconcept(char* start, char* end)
+{
+	start += 2; // skip opening
+	char word[MAX_WORD_SIZE];
+	*end = 0;
+	int count = 0;
+	char* ptr = SkipWhitespace(start);
+	while (ptr = ReadCompiledWord(ptr,word))
+	{
+		if (!*word) break; // we completed it
+
+		// must be simple list
+		if (!IsAlphaUTF8(*word) && *word != '~') return end; // cannot touch
+		++count;
+	}
+	if (count < 2) return end; // no need when singleton
+	autocon++;
+
+	// write out keywords as fake concept
+	FILE* out = NULL;
+	char filename[SMALL_WORD_SIZE];
+	sprintf(filename, (char*)"%s/BUILD%s/keywords%s.txt", topic, baseName, baseName);
+	out = FopenUTF8WriteAppend(filename);
+	if (out)
+	{
+		fprintf(out, (char*)"~-%s-%d ( ", baseName,  autocon);
+		ptr = SkipWhitespace(start);
+		while (ptr = ReadCompiledWord(ptr, word))
+		{
+			if (!*word) break;
+			fprintf(out, "%s ", word);
+		}
+		fprintf(out, ")\r\n");
+		fclose(out);
+	}
+
+	sprintf(start, "~-%s-%d ", baseName,autocon);
+	return start + strlen(start);
 }
 
 void EndScriptCompiler()
@@ -2103,11 +2147,15 @@ name of topic or concept
 	bool quoteSeen = false;	// saw '
 	bool notSeen = false;	 // saw !
 	bool doubleNotSeen = false; // saw !!
+	char* autoconceptStart[100]; 
 	size_t len;
 	bool startSeen = false; // starting token or not
 	char* startPattern = data;
+	char* startOrig = ptr;
+	char* backup;
 	while (ALWAYS) //   read as many tokens as needed to complete the definition
 	{
+		backup = ptr;
 		ptr = ReadNextSystemToken(in,ptr,word);
 		if (!*word) break; //   end of file
 
@@ -2237,14 +2285,17 @@ name of topic or concept
 				break;
 			case '[':	//   list of pattern choices begin
 				if (quoteSeen) BADSCRIPT((char*)"PATTERN-30 Quoting [ is meaningless.");
+				autoconceptStart[nestIndex] = data;
 				nestKind[nestIndex++] = '[';
 				break;
 			case ']':	//   list of pattern choices end
 				if (quoteSeen) BADSCRIPT((char*)"PATTERN-31 Quoting ] is meaningless.");
 				if (memorizeSeen) BADSCRIPT((char*)"PATTERN-32 Cannot use _ before  ]")
 				if (variableGapSeen) BADSCRIPT((char*)"PATTERN-33 Cannot have wildcard followed by ]")
-				if (nestKind[--nestIndex] != '[') 
+				if (nestKind[--nestIndex] != '[')
 					BADSCRIPT((char*)"PATTERN-34 ] is not closing corresponding [")
+
+				if (compiling) data = Autoconcept(autoconceptStart[nestIndex],data);
 				break;
 			case '{':	//   list of optional choices begins
 				if (variableGapSeen)
@@ -2260,6 +2311,7 @@ name of topic or concept
 				if (quoteSeen) BADSCRIPT((char*)"PATTERN-35 Quoting { is meaningless.");
 				if (notSeen)  BADSCRIPT((char*)"PATTERN-36 !{ is pointless since { can fail or not anyway")
 				if (nestIndex && nestKind[nestIndex-1] == '{') BADSCRIPT((char*)"PATTERN-37 {{ is illegal")
+				autoconceptStart[nestIndex] = data;
 				nestKind[nestIndex++] = '{';
 				break;
 			case '}':	//   list of optional choices ends
@@ -2267,6 +2319,7 @@ name of topic or concept
 				if (memorizeSeen) BADSCRIPT((char*)"PATTERN-39 Cannot use _ before  }")
 				if (variableGapSeen) BADSCRIPT((char*)"PATTERN-40 Cannot have wildcard followed by }")
 				if (nestKind[--nestIndex] != '{') BADSCRIPT((char*)"PATTERN-41 } is not closing corresponding {")
+				if (compiling) data = Autoconcept(autoconceptStart[nestIndex], data);
 				break;
 			case '\\': //   literal next character
 				if (quoteSeen) BADSCRIPT((char*)"PATTERN-42 Quoting an escape is meaningless.");
@@ -3613,7 +3666,7 @@ static char* ReadMacro(char* ptr,FILE* in,char* kind,unsigned int build)
 				gettingArguments = false;
 				break;
 			case '$': // declaring local
-				if (typeFlags & IS_PATTERN_MACRO) BADSCRIPT((char*)"MACRO-? May not use locals in a pattern/dual macro %s",word)
+				if (typeFlags & IS_PATTERN_MACRO) BADSCRIPT((char*)"MACRO-? May not use locals in a pattern/dual macro - %s",word)
 				if (word[1] != '_') BADSCRIPT((char*)"MACRO-? Variable name as argument must be local %s",word)
 				if (strchr(word,'.') || strchr(word,'[')) BADSCRIPT((char*)"MACRO-? Variable name as argument must be simple, not json reference %s",word)
 				AddDisplay(word);
@@ -3626,17 +3679,17 @@ static char* ReadMacro(char* ptr,FILE* in,char* kind,unsigned int build)
 				restrict = strchr(word,'.');
 				if (restrict)
 				{
-					if (!stricmp(restrict+1,(char*)"KEEP_QUOTES") && (typeFlags == IS_TABLE_MACRO || typeFlags == IS_OUTPUT_MACRO))	macroFlags |= 1 << functionArgumentCount; // a normal string where spaces are kept instead of _ (format string)
+					if (!stricmp(restrict+1,(char*)"KEEP_QUOTES") && (typeFlags == IS_TABLE_MACRO || typeFlags == IS_OUTPUT_MACRO))	macroFlags |= 1ull << functionArgumentCount; // a normal string where spaces are kept instead of _ (format string)
 					else if (!stricmp(restrict+1,(char*)"HANDLE_QUOTES"))	
 					{
 						if (typeFlags != IS_OUTPUT_MACRO) BADSCRIPT((char*)"MACRO-? HANDLE_QUOTES only valid with OUTPUTMACRO or DUALMACRO - %s ",word)
 						if (functionArgumentCount > 15) 
 						{
-							int64 flag = 1 << (functionArgumentCount - 16); // outputmacros
+							int64 flag = 1ull << (functionArgumentCount - 16); // outputmacros
 							flag <<= 32;
 							macroFlags |= flag;
 						}
-						else macroFlags |= 1 << functionArgumentCount; // outputmacros
+						else macroFlags |= 1ull << functionArgumentCount; // outputmacros
 					}
 					else if (!stricmp(restrict+1,(char*)"COMPILE") && typeFlags == IS_TABLE_MACRO) 
 					{
@@ -5311,6 +5364,7 @@ int ReadTopicFiles(char* name,unsigned int build,int spell)
 	}
 	lastDeprecation = 0;
 	hasPlans = 0;
+	autocon = 0;
 	char word[MAX_WORD_SIZE];
 	buildID = build;				// build 0 or build 1
 	*duplicateTopicName = 0;	// an example of a repeated topic name found

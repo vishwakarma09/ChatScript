@@ -79,6 +79,7 @@ static char* textUsedG;
 static int trials;
 static int nextRule = 0;
 static bool stepMatch = false;
+static bool keepname = false;
 
 static short int stepOver[MAX_GLOBAL];
 static char stepOut[MAX_GLOBAL];
@@ -1231,10 +1232,10 @@ static void C_TestPattern(char* input)
 			--jumpIndex;
 			return;
 		}
-		StartScriptCompiler();
+		bool inited = StartScriptCompiler();
 		ReadNextSystemToken(NULL,NULL,data,false,false); // flush cache
 		ptr = ReadPattern(readBuffer, NULL, pack,false,false); // swallows the pattern
-		EndScriptCompiler();
+		if (inited) EndScriptCompiler();
 	}
 
 	//   var assign?
@@ -2048,9 +2049,38 @@ static void ShowFailCount(WORDP D,uint64 junk)
 	D->w.planArgCount = 0;
 }
 
+static void C_TrimField(char* file)
+{
+	FILE* out = FopenUTF8Write("tmp/tmp.txt");
+	FILE* in = FopenReadOnly(file);
+	if (!in)
+	{
+		Log(STDTRACELOG, (char*)"No such file %s\r\n", file);
+		return;
+	}
+	while (fgets(readBuffer, 10000000, in) >= 0)
+	{
+		if (!*readBuffer) break;
+		//VA-51382515	legal	family		I have a friend who has a half brother. His father won't let him see his brother. Does my friend have any rights in this matter?
+		char* at = strchr(readBuffer, '\t'); // to cat
+		if (!at)
+		{
+			printf("not found delimiter %s\r\n", readBuffer);
+			return;
+		}
+		at = strchr(at+1, '\t'); // to spec
+		at = strchr(at + 1, '\t'); // to loc
+		at = strchr(at + 1, '\t'); // to input
+		if (strlen(at+1) < 50) continue;  // nominal 5 words
+		fprintf(out, "%s", readBuffer);
+		*readBuffer = 0;
+	}
+	fclose(out);
+	fclose(in);
+}
+
 static void C_PennDecode(char* file)
 {
-	char word[MAX_WORD_SIZE];
 	FILE* in = FopenReadOnly(file); 
 	if (!in)
 	{
@@ -2105,7 +2135,7 @@ static void C_PennMatch(char* file)
 	bool showUsed = false;
 	unsigned int ambigLocation = 0;
 	char filename[SMALL_WORD_SIZE];
-	strcpy(filename,(char*)"REGRESS/PENNTAGS/tedtalks.txt");
+	strcpy(filename,(char*)"REGRESS/PENNTAGS/penn.txt"); // tedtalks
 	clock_t startTime = ElapsedMilliseconds(); 
 	int sentenceLengthLimit = 0;
 	usedTrace = AllocateBuffer();
@@ -6387,6 +6417,43 @@ static void C_TopicStats(char* input)
 	Log(STDTRACELOG,(char*)"Concepts %d Topics %d rules %d empties %d\r\n  gambits %d  responders %d (?: %d s: %d  u: %d) rejoinders %d  \r\n",conceptCount,topicCount,totalrules,totalempties,totalgambits,totalresponders,totalquestions,totalstatements,totaldual,totalrejoinders);
 }
 
+static void C_Dedupe(char* input)
+{
+	FILE* in = FopenReadOnly(input);
+	char fname[200];
+	char* charx = strrchr(input, '/');
+	if (charx) *charx = 0; 
+	sprintf(fname, "%s/%s", tmp,input);
+	if (!in)
+	{
+		printf("no such file");
+		return;
+	}
+	FILE* out = FopenUTF8Write(fname);
+	while (ReadALine(readBuffer, in) >= 0)
+	{
+		if (!*readBuffer) continue;
+		char* comment = readBuffer;
+		while ((comment = strchr(comment, '#')))
+		{
+			if (comment[1] == ' ' && *(comment - 1) == ' ')
+			{
+				*(comment - 1) = 0;
+				break;
+			}
+			comment += 1;
+		}
+		WORDP D = StoreWord(readBuffer,AS_IS);
+		if (D->internalBits & FAKE_NOCONCEPTLIST) continue;
+		D->internalBits |= FAKE_NOCONCEPTLIST;
+		fprintf(out, "%s\r\n", readBuffer);
+	}
+	printf("done\r\n");
+	fclose(out);
+	fclose(in);
+}
+
+
 static void C_TopicDump(char* input)
 {
 	char fname[200];
@@ -7191,9 +7258,9 @@ static void C_DoInternal(char* input,bool internal)
 	FunctionResult result = NOPROBLEM_BIT;
 #ifndef DISCARDSCRIPTCOMPILER
 	hasErrors = 0;
-	StartScriptCompiler();
+	bool inited = StartScriptCompiler();
 	ReadOutput(false,false,input, NULL,out,NULL,NULL,NULL);
-	EndScriptCompiler();
+	if (inited) EndScriptCompiler();
 	if (hasErrors) Log(STDTRACELOG,(char*)"\r\nScript errors prevent execution.");
 	else 
 	{
@@ -9490,7 +9557,7 @@ static void C_StripLog(char* file)
 {
 	char name[MAX_WORD_SIZE];
 	bool all = true;
-	if (!strnicmp(file, "oneuser",7));
+	if (!strnicmp(file, "oneuser",7))
 	{
 		all = false;
 		file = ReadCompiledWord(file, name);
@@ -9584,7 +9651,6 @@ static void BuildForeign(char* input)
 	MakeDirectory(name);
 	ClearDictionaryFiles();
 	ClearWordMaps();
-	char lemma[MAX_WORD_SIZE];
 	ReadForeign();
 
 	sprintf(name,"treetagger/%s_rawwords.txt",language);
@@ -9617,7 +9683,7 @@ static void BuildForeign(char* input)
 		*close = '`';
 
 		char pos[MAX_WORD_SIZE];
-		unsigned int flags = AS_IS;
+		uint64 flags = AS_IS;
 		pos[0] = '_';
 		char* p = close + 1;
 		while (1)
@@ -9661,7 +9727,13 @@ static void TrimIt(char* name,uint64 flag)
 
 	bool header = false;
 	char fname[200];
-	sprintf(fname, "%s/tmp.txt", tmp);
+	if (keepname)
+	{
+		char* end = strrchr(name, '/');
+		if (end) name = end + 1;
+		sprintf(fname, "%s/%s.txt", tmp,name);
+	}
+	else sprintf(fname, "%s/tmp.txt", tmp);
 	FILE* out = FopenUTF8WriteAppend(fname);
 	if (!out) return;
 	char file[SMALL_WORD_SIZE];
@@ -9955,9 +10027,15 @@ static void C_Trim(char* input) // create simple file of user chat from director
 {   
  	char word[MAX_WORD_SIZE];
 	char file[SMALL_WORD_SIZE];
+	keepname = false;
 	char* original = input;
 	*file = 0;
 	input = ReadCompiledWord(input,word);
+	if (*word == '"') // multiparam
+	{
+		if (strstr(word, "keepname")) keepname = true;
+		input = ReadCompiledWord(input, word);
+	}
 	filesSeen = 0;
 	if (!strnicmp((char*)"log-",word,4)) // is just a user file name
 	{
@@ -9984,7 +10062,6 @@ static void C_Trim(char* input) // create simple file of user chat from director
 			*file = 0;
 		}
 		input = ReadCompiledWord(input,word);
-
 	}
 	else strcpy(directory,logs);
 
@@ -10110,8 +10187,10 @@ CommandInfo commandSet[] = // NEW
 	{ (char*)":showcoverage",C_ShowCoverage,(char*)"Display execution coverage of ChatScript rules"}, 
 	{ (char*)":diff",C_Diff,(char*)"match 2 files and report lines that differ"}, 
 	{ (char*)":trim",C_Trim,(char*)"Strip excess off chatlog file to make simple file TMP/tmp.txt"}, 
+	{ (char*)":trimfield",C_TrimField,(char*)"echo file to TMP/tmp.txt minus short line in column" },
 	
 	{ (char*)"\r\n---- internal support",0,(char*)""}, 
+	{ (char*)":dedupe",C_Dedupe,(char*)"echo input file to TMP/tmp.txt without duplicate lines)" },
 	{ (char*)":topicdump",C_TopicDump,(char*)"Dump topic data suitable for inclusion as extra topics into TMP/tmp.txt (:extratopic or PerformChatGivenTopic)"},
 	{ (char*)":builddict",BuildDictionary,(char*)" basic, layer0, layer1, foreign, or wordnet are options instead of default full"}, 
 	{ (char*)":buildforeign",BuildForeign,(char*)"regenerate foreign language dictionary"}, 
@@ -10290,11 +10369,11 @@ TestMode DoCommand(char* input,char* output,bool authorize)
 	char* ptr = NULL;
 #ifndef DISCARDSCRIPTCOMPILER
 	char* hold = newBuffer;
-	StartScriptCompiler();
+	bool inited = StartScriptCompiler();
 #endif
 	ReadNextSystemToken(NULL,ptr,NULL,false,false);		// flush any pending data in input cache
 #ifndef DISCARDSCRIPTCOMPILER
-	EndScriptCompiler();
+	if (inited) EndScriptCompiler();
 	newBuffer = hold;
 #endif
 	if (strnicmp(input,(char*)":why",4)) responseIndex = 0;

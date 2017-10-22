@@ -226,7 +226,7 @@ char* GetUserVariable(const char* word,bool nojson,bool fortrace)
 		strcpy(path,item);
 LOOPDEEPER:
 		FACT* factvalue = NULL;
-		if (IsDigitWord(item) && (!strnicmp(separator,".subject",8) || !strnicmp(separator,".verb",5) ||!strnicmp(separator,".object",7)) ) // fact id?
+		if (IsDigitWord(item, AMERICAN_NUMBERS) && (!strnicmp(separator,".subject",8) || !strnicmp(separator,".verb",5) ||!strnicmp(separator,".object",7)) ) // fact id?
 		{
 			int val = atoi(item);
 			factvalue = Index2Fact(val);
@@ -457,6 +457,17 @@ void SetUserVariable(const char* var, char* word, bool assignment)
 		else if (!stricmp(word, "indian")) numberStyle = INDIAN_NUMBERS;
 		else if (!stricmp(word, "french")) numberStyle = FRENCH_NUMBERS;
 		else numberStyle = AMERICAN_NUMBERS;
+
+		if (numberStyle == FRENCH_NUMBERS)
+		{
+			numberComma = '.';
+			numberPeriod = ',';
+		}
+		else
+		{
+			numberComma = ',';
+			numberPeriod = '.';
+		}
 	}
 	// trace
 	else if (!stricmp(var,(char*)"$cs_trace")) 
@@ -988,6 +999,7 @@ char* PerformAssignment(char* word,char* ptr,char* buffer,FunctionResult &result
 			{
 				SetWildCard(wildcardOriginalText[assignFromWild],wildcardCanonicalText[assignFromWild],word,0); 
 				wildcardPosition[GetWildcardID(word)] =  wildcardPosition[assignFromWild];
+				strcpy(buffer, wildcardOriginalText[assignFromWild]); // for tracing
 			}
 			else SetWildCard(buffer,buffer,word,0); 
 		}

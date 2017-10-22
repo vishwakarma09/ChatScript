@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1 id="chatscript-advanced-users-manual">ChatScript Advanced User's Manual</h1>
-<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com<br> <br>Revision 9/24/2017 cs7.55</p>
+<p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com<br> <br>Revision 10/22/2017 cs7.6</p>
 <ul>
 <li><a href="ChatScript-Advanced-User-Manual.html#review-overview-of-how-cs-works">Review</a></li>
 <li><a href="ChatScript-Advanced-User-Manual.html#advanced-concepts">Advanced Concepts</a></li>
@@ -118,15 +118,21 @@
 <p>Topics are not functions and do not take arguments. CS provides system functions and you can write user functions in ChatScript.</p>
 <p>Function names always start with <code>^</code>, like <code>^match(argument1 argument2)</code> and <strong>no commas are used to separate the arguments</strong> (since commas themselves might be legal arguments).</p>
 <p>These are classic functions in that they have arguments and a collection of code to execute. Their code can generate output and/or make calls to other functions, including invoking topics and rules. Functions are a convenient way to abstract and share code.</p>
-<h3 id="function-variables">Function variables</h3>
-<p>ChatScript also has function argument variables, whose names always start with <code>^</code> and have local (lexical) visibility.</p>
+<h4 id="call-by-value">Call by value</h4>
+<pre><code>outputmacro: ^myfunction($_argument1 $_argument2)
+    $_argument1 += 1</code></pre>
+<p>Use of <code>$_</code> variables in the function definition is a call by value.</p>
+<p>All <code>$_</code> variables are purely local and cannot be seen outside of the function (or topic) they are used in. This is the preferred way to call, unless you need to write back to your caller.</p>
 <h4 id="call-by-reference">Call by reference</h4>
-<p>Here is a sample user function header:</p>
-<pre><code>patternmacro: ^myfunction(^argument1 ^argument2)</code></pre>
+<p>ChatScript also has function argument variables, whose names always start with <code>^</code> and have local (lexical) visibility but implement call by reference. You can assign back to the caller and write onto the variable he passed you.</p>
 <p>For outputmacros:</p>
-<pre><code>outputmacro: ^myfunction(^argument1 ^argument2)
-    ^argument1 += 1</code></pre>
-<p>An alternate format allows you to put the output code within {}, which is more nicely visualized by some editors.</p>
+<pre><code>   outputmacro: ^myfunction(^argument1 ^argument2)
+        ^argument1 += 1</code></pre>
+<p>However, unless you need call by reference (being able to assign to the variable and have it affect the caller) you should use call by value so that nothing outside your routine can impact it.</p>
+<p>Patternmacros, however, do not normally ever write onto their arguments, so it is not only safe to use function arguments <code>^argument1</code>, but necessary since patternmacros are not really functions at all. They merely temporarily paste their code into the pattern stream and so do not save and restore variable values or have locals per se.</p>
+<pre><code>patternmacro: ^myfunction(^argument1 ^argument2)</code></pre>
+<p>You can mix call by reference and call by value arguments.</p>
+<p>An alternate function format allows you to put the output code within {}, which is more nicely visualized by some editors.</p>
 <pre><code>outputmacro: ^myfunction(^argument1 ^argument2)
 {
 ^argument1 += 1
@@ -135,11 +141,6 @@
 <pre><code>^myfunction($myvar 1)</code></pre>
 <p>then the effect of <code>^argument1 += 1</code> is as though <code>$myvar += 1</code> were done and <code>$myvar</code> would now be one higher.</p>
 <p>Of course, had you tried to do <code>^argument2 += 1</code> then that would be the illegal <code>1 += 1</code> and the assignment would fail.</p>
-<h4 id="call-by-value">Call by value</h4>
-<pre><code>outputmacro: ^myfunction($_argument1 $_argument2)
-    $_argument1 += 1</code></pre>
-<p>Use of <code>$_</code> variables in the function definition is a call by value.</p>
-<p>All <code>$_</code> variables are purely local and cannot be seen outside of the function (or topic) they are used in. You can also mix call by reference and call by value arguments.</p>
 <h1 id="advanced-concepts">ADVANCED CONCEPTS</h1>
 <p>Concepts can have part of speech information attached to them (using <code>dictionarysystem.h</code> values). Eg.</p>
 <pre><code>concept: ~mynouns NOUN NOUN_SINGULAR (boxdead foxtrot)
@@ -341,6 +342,8 @@ t: I&#39;ve seen pictures of some really grand sand castles.</code></pre>
 <p>Likewise when you write</p>
 <pre><code>concept: ~viewing (&quot;TV show&quot;)` </code></pre>
 <p>the system can match that concept readily also. In fact, whenever you write the quoted keyword phrase, if all its words are canonical, you can match canonical and noncanonincal forms. <em>&quot;TV show&quot;</em> matchs <em>TV shows</em> as well as <em>TV show</em>.</p>
+<h2 id="implied-concept-sets">Implied concept Sets</h2>
+<p>When you make a pattern using [] or {} and it only contains words, phrases, And concept sets, the system will make an anonymous concept set out of them. This allows the system to find the soonest match of any of them. otherwise [] and {} take each element in turn and try to find a match, which may be later in the sentence than a later element in the set would match.</p>
 <h2 id="dictionary-keyword-sets">Dictionary Keyword sets</h2>
 <p>In ChatScript, WordNet ontologies are invoked by naming the word, a <code>~</code>, and the index of the meaning you want.</p>
 <pre><code>concept: ~buildings [ shelter~1 living_accomodations~1 building~3 ]</code></pre>
@@ -529,6 +532,10 @@ u: ( I love you today when )</code></pre>
 <p>This might be handy in a server context and is definitely handy in <code>:document</code> mode where user memory can be very transient. Of course remembering what <code>_10</code> means as a holding variable is harder, unlike the ones bound to matches from input. So you can use</p>
 <pre><code>rename: _bettername _12</code></pre>
 <p>in a script before any uses of <code>_bettername</code>, which now mean <code>_12</code>.</p>
+<p>Also, although whenever you start to execute a rule's pattern the match variables start memorizing at _0, you can change that. All you have to do is something like this:</p>
+<pre><code>u: (^eval(_9 = null)  I love _~meat)</code></pre>
+<p>The act of setting _9 to a value automatically makes the system set the next variable, so future memorizations start at _10. Equivalently, there is <code>^setwildcardindex</code></p>
+<pre><code>u: (^setwildcardindex(_10 )  I love _~meat)</code></pre>
 <h2 id="precautionary-note-about-and-pattern-matching-retries">Precautionary note about <code>[</code> <code>]</code> and pattern matching retries</h2>
 <p>When you list a collection of words or concepts within a <code>[ ]</code> in a pattern, the system does not try each in turn to find the earliest match. Instead it tries each in turn until it finds a match. Then <code>[ ]</code> quits. So if you have a pattern like:</p>
 <pre><code>u: ( the * [bear raccoon] ate )</code></pre>

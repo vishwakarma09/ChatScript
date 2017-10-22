@@ -298,27 +298,76 @@ static void TreeTagger()
 		tag_sentence(1, &tschunk);
 	}
 
+	// TreeTagger results may need a bit of tweaking, so gambit a topic
+	char* taggingTopic = GetUserVariable((char*)"$cs_externaltag");
+	if (*taggingTopic)
+	{ 
+		char* oldhow = howTopic;
+		howTopic = "gambit";
+
+		int oldreuseid = currentReuseID;
+		int oldreusetopic = currentReuseTopic;
+		int oldCurrentTopic = currentTopicID;
+
+		int topicid = FindTopicIDByName(taggingTopic);
+		if (topic && !(GetTopicFlags(topicid) & TOPIC_BLOCKED))
+		{
+			ChangeDepth(1, (char*)"$cs_externaltag");
+			int pushed = PushTopic(topicid);
+			if (pushed >= 0)
+			{
+				PerformTopic(GAMBIT, currentOutputBase);
+				if (pushed) PopTopic();
+			}
+			ChangeDepth(-1, (char*)"$cs_externaltag");
+
+			currentTopicID = oldCurrentTopic; // this is where we were
+			currentReuseID = oldreuseid;
+			currentReuseTopic = oldreusetopic;
+			howTopic = oldhow;
+		}
+	}
+
 	/* mix a bit of ours and theirs */
 	if (stricmp(language, "english")) for (i = 1; i <= wordCount; i++)
 	{
 		originalUpper[i] = NULL;
-		canonicalUpper[i] = NULL;
 		originalLower[i] = NULL;
-		canonicalLower[i] = NULL;
 
-		char* lemma = (char*)ts.lemma[i - 1];
-		if (!lemma || !strcmp(lemma, "<unknown>")) lemma = (char*)"unknown-word";
-		WORDP canonical0 = StoreWord(lemma, 0);
+		WORDP canonical0 = NULL;
+		// Canonicals are initialized to word starts
+		// but might have adjusted lemma explicitily via SetCanon() in the $cs_externaltag topic
+		if (strcmp(wordStarts[i], wordCanonical[i]))
+		{
+			canonical0 = FindWord(wordCanonical[i]);
+		}
+		if (!canonical0)
+		{
+			canonicalUpper[i] = NULL;
+			canonicalLower[i] = NULL;
 
-		char* tag = (char*)ts.resulttag[i - 1];
-		if (!tag) tag = (char*)"unknown-tag";
+			char* lemma = (char*)ts.lemma[i - 1];
+			if (!lemma || !strcmp(lemma, "<unknown>")) lemma = (char*)"unknown-word";
+
+			canonical0 = StoreWord(lemma, 0);
+		}
+
+		// Might have adjusted TT's initial tag via SetTag() in the $cs_externaltag topic
 		char newtag[MAX_WORD_SIZE];
-		*newtag = '~';	// concept from the tag
-		strcpy(newtag + 1, tag);
-		WORDP X = StoreWord(newtag);
-		wordTag[i] = X;
+		if (wordTag[i])
+		{
+			strcpy(newtag, wordTag[i]->word);
+		}
+		else
+		{
+			char* tag = (char*)ts.resulttag[i-1];
+			if (!tag) tag = (char*)"unknown-tag";
+			*newtag = '~';	// concept from the tag
+			strcpy(newtag + 1, tag);
+			wordTag[i] = FindWord(newtag);
+		}
 		*newtag = '_';
-		X = FindWord(newtag);
+		WORDP X = FindWord(newtag);
 
 		int start = 1;
 		WORDP entry = NULL;
@@ -335,7 +384,7 @@ static void TreeTagger()
 		// - this is a number and TT thinks so too, the CS canonical will be digits
 		if (*wordStarts[i] == '~') { ; }
 		else if (canonical0->properties == 0 && canonical->properties > 0) { ; }
-		else if (flags & NUMBER_BITS && X->properties & NUMBER_BITS) { ; }
+		else if (flags & NUMBER_BITS && X && X->properties & NUMBER_BITS) { ; }
 		else
 		{
 			canonical = canonical0;
@@ -361,7 +410,7 @@ static void TreeTagger()
 		if (entry->properties & PART_OF_SPEECH) ++knownWords; // known as lower or upper
 		if (*wordStarts[i] == '~') posValues[i] = 0;	// interjection
 		wordCanonical[i] = canonical->word;
-		posValues[i] |= X->properties; // english pos tag references added
+		if (X) posValues[i] |= X->properties; // english pos tag references added
 	}
 	if (trace & (TRACE_PREPARE|TRACE_POS))
 	{
@@ -1137,9 +1186,10 @@ void TagIt() // get the set of all possible tags. Parse if one can to reduce thi
 	ts.number_of_words = 0; // declare no data in english known to merge into our postagging code
 	if (externalPostagger) (*externalPostagger)();
 #endif
-	if (*GetUserVariable((char*)"$cs_externaltag"))
+	if (!externalTagger && *GetUserVariable((char*)"$cs_externaltag"))
 	{
-		if (!externalTagger) externalTagger = 1;
+		// not treetagger, just a named topic
+		externalTagger = 1;
 		OnceCode((char*)"$cs_externaltag");
 	}
 
@@ -8952,7 +9002,7 @@ restart:
 							SetRole(objectStack[MAINLEVEL],MAINSUBJECT,true,0);
 							needRoles[MAINLEVEL] =  MAINVERB; // we will still need this as our verb
 						}
-						else if (false)
+						else 
 						{
 							needRoles[roleIndex] |= roles[i-1];
 							SetRole(i-1,0);

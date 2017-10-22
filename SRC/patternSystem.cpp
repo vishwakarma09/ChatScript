@@ -782,8 +782,7 @@ bool Match(char* buffer,char* ptr, unsigned int depth, int startposition, char* 
 					}
 					FreeOutputBuffer();
                 }
-				// else if (!(D->internalBits & IS_PATTERN_MACRO)) matched = false; // not allowed by compiler
-				else // user function - execute it in pattern context as continuation of current code
+				else // user patternmacro function - execute it in pattern context as continuation of current code
 				{ 
 					if (functionNest >= MAX_PAREN_NEST) // fail, too deep nesting
 					{
@@ -820,7 +819,7 @@ bool Match(char* buffer,char* ptr, unsigned int depth, int startposition, char* 
 					{
 						char* word = AllocateStack(NULL,MAX_WORD_SIZE);
 						ptr = ReadCompiledWord(ptr, word) + 2; // eat flags and count and (
-						while (*ptr) // skip over locals list
+						while (*ptr) // skip over locals list (which should be null)
 						{
 							ptr = ReadCompiledWord(ptr, word);
 							if (*word == ')') break;

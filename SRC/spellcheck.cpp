@@ -109,7 +109,7 @@ static int SplitWord(char* word)
 	int breakAt = 0;
 	if (IsDigit(*word))
     {
-		while (IsDigit(word[++breakAt]) || word[breakAt] == '.'){;} //   find end of number
+		while (IsDigit(word[++breakAt]) || word[breakAt] == '.' || word[breakAt] == ','){;} //   find end of number
         if (word[breakAt]) // found end of number
 		{
 			D2 = FindWord(word+breakAt,0,PRIMARY_CASE_ALLOWED);
@@ -396,14 +396,48 @@ bool SpellCheckSentence()
 
 		// dont spell check uppercase not at start or joined word
 		if (IsUpperCase(word[0]) && (i != startWord || strchr(word,'_')) && tokenControl & NO_PROPER_SPELLCHECK) continue; 
-		//  dont  spell check email or other things with @ or . in them
-		if (strchr(word,'@') || strchr(word, '&')  || strchr(word,'.') || strchr(word,'$')) continue;
+
+		//  dont spell check email or other things with @ or . in them
+		if (strchr(word, '@') || strchr(word, '&') || strchr(word, '$')) continue;
 
 		// dont spell check names of json objects or arrays
-		if (!strnicmp(word,"ja-",3) || !strnicmp(word,"jo-",3)) continue;
+		if (!strnicmp(word, "ja-", 3) || !strnicmp(word, "jo-", 3)) continue;
 
 		// dont spell check web addresses
-		if (!strnicmp(word,"http",4) || !strnicmp(word,"www",3)) continue;
+		if (!strnicmp(word, "http", 4) || !strnicmp(word, "www", 3)) continue;
+
+		// dont spell check floats
+		char* end = word + strlen(word);
+		if (IsFloat(word, end, numberStyle)) continue;
+
+		// split conjoined sentetence Missouri.Fix
+		char* dot = strchr(word, '.');
+		if (dot && dot != word && dot[1])
+		{
+			*dot = 0;
+			WORDP X = FindWord(word, 0);
+			WORDP Y = FindWord(dot + 1, 0);
+			if (X && Y) // we recognize the words
+			{
+				char* tokens[4];
+				char oper[10];
+				tokens[1] = word;
+				tokens[2] = oper;
+				*oper = '.';
+				oper[1] = 0;
+				tokens[3] = dot + 1;
+				ReplaceWords("dotsentence", i, 1, 3, tokens);
+				fixedSpell = true;
+				continue;
+			}
+			else 
+			{
+				*dot = '.';  // restore the dot
+			}
+		}
+
+		//  dont spell check things with . in them
+		if (dot) continue;
 
 		// nor fractions
 		if (IsFraction(word))  continue; // fraction?
@@ -441,7 +475,7 @@ bool SpellCheckSentence()
 		if (GetCurrency((unsigned char*)word, number)) continue; // currency
 
 		if (!stricmp(word, (char*)"am") && i != startWord && 
-			(IsDigit(*wordStarts[i-1]) || IsNumber(wordStarts[i-1]) ==REAL_NUMBER) && !stricmp(language,"english")) // fails if not digit bug
+			(IsDigit(*wordStarts[i-1]) || IsNumber(wordStarts[i-1], numberStyle) ==REAL_NUMBER) && !stricmp(language,"english")) // fails if not digit bug
 		{
 			char* tokens[2];
 			tokens[1] = (char*)"a.m.";
@@ -454,11 +488,11 @@ bool SpellCheckSentence()
 		if (IsDigit(*word) && IsDigit(word[size - 1]))
 		{
 			char* at = word;
-			while (IsDigit(*++at) || *at == '.') { ; }
+			while (IsDigit(*++at) || *at == '.' || *at == ',') { ; }
 			char* op = at;
 			if (*at == '+' || *at == '-' || *at == '*' || *at == '/')
 			{
-				while (IsDigit(*++at) || *at == '.') { ; }
+				while (IsDigit(*++at) || *at == '.' || *at == ',') { ; }
 				if (!*at  && (size != 9 || *op != '-'))  // 445+455 but not zip code
 				{
 					char* tokens[4];
@@ -639,7 +673,7 @@ bool SpellCheckSentence()
 			StoreWord(word,ADJECTIVE_NORMAL|ADJECTIVE); // accept it as a word
 			continue;
 		}
-		else if (hyphen && (hyphen-word) > 1 && !IsPlaceNumber(word)) // dont break up fifty-second
+		else if (hyphen && (hyphen-word) > 1 && !IsPlaceNumber(word,numberStyle)) // dont break up fifty-second
 		{
 			char test[MAX_WORD_SIZE];
 			char first[MAX_WORD_SIZE];
@@ -742,7 +776,17 @@ bool SpellCheckSentence()
 		int j;
 		if (!IsDigit(*word))
 		{
-			for (j = 1; j <= len1 - 1; ++j)
+			// Do not split acronyms (all uppercase) unless word before or after is lowercase
+			for (j = 0; j < len1; ++j)
+			{
+				if (!IsUpperCase(word[j])) break;
+			}
+			if (j == len1) // looks like acrynum but is any neighbor non caps
+			{
+				if (wordStarts[i - 1] && IsUpperCase(wordStarts[i - 1][0])) j = 0;
+				if (wordStarts[i + 1] && IsUpperCase(wordStarts[i + 1][0])) j = 0;
+			}
+			if (j != len1) for (j = 1; j <= len1 - 1; ++j)
 			{
 				WORDP X1 = FindWord(word, j);  // any case
 				WORDP X2 = FindWord(word + j, len1 - i); // any case

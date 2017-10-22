@@ -1,7 +1,7 @@
 #ifndef DISCARDMYSQL
 #include "common.h"
 extern "C" {
-#include <mysql/mysql.h>
+#include "mysql/include/mysql.h"
 }
 #include "my_sql.h"
 

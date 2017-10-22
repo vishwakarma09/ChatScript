@@ -310,7 +310,7 @@ char* HandleLoop(char* ptr, char* buffer, FunctionResult &result)
 	}
 	ChangeDepth(-1,"^Loop",true); // allows step out to cover a loop 
 	if (trace & TRACE_OUTPUT && CheckTopicTrace()) Log(STDTRACETABLOG,(char*)"end of loop\r\n");
-	if (counter < 0 && infinite) ReportBug("Loop ran to limit %d",limit);
+	if (counter < 0 && infinite) ReportBug("Loop ran to limit %d\r\n",limit);
 	--withinLoop;
 	currentIterator = oldIterator;
 	return endofloop;
@@ -438,32 +438,6 @@ FunctionResult HandleRelation(char* word1,char* op, char* word2,bool output,int&
 				if (SetContains(MakeMeaning(D2),MakeMeaning(D1))) result = NOPROBLEM_BIT;
 			}
 			if (result != NOPROBLEM_BIT) result = MemberRelation(D2, val1);
-			if (result != NOPROBLEM_BIT)
-			{
-				char* verb = GetInfinitive(val1,true);
-				if (verb && stricmp(verb,val1))
-				{
-					D1 = FindWord(verb);
-					if (D1 && D2)
-					{
-						NextInferMark();
-						if (SetContains(MakeMeaning(D2),MakeMeaning(D1))) result = NOPROBLEM_BIT;
-					}
-				}
-			}
-			if (result != NOPROBLEM_BIT)
-			{
-				char* noun = GetSingularNoun(val1,true,true);
-				if (noun && stricmp(noun,val1))
-				{
-					D1 = FindWord(noun);
-					if (D1 && D2)
-					{
-						NextInferMark();
-						if (SetContains(MakeMeaning(D2),MakeMeaning(D1))) result = NOPROBLEM_BIT;
-					}
-				}
-			}
 			if (*op == '!') result = (result != NOPROBLEM_BIT) ? NOPROBLEM_BIT : FAILRULE_BIT;
 		}
 	}
@@ -479,7 +453,7 @@ FunctionResult HandleRelation(char* word1,char* op, char* word2,bool output,int&
 		unsigned char* cur1 = GetCurrency((unsigned char*) val1, currency1);
 		unsigned char* cur2 = GetCurrency((unsigned char*) val2, currency2); // use text string comparison though isdigitword calls it a number
 
-		if (*val1 == '#' || !IsDigitWord(val1,true) || *val2 == '#' ||  !IsDigitWord(val2,true) || cur1 || cur2) //   non-numeric string compare - bug, can be confused if digit starts text string
+		if (*val1 == '#' || !IsDigitWord(val1,numberStyle,true) || *val2 == '#' ||  !IsDigitWord(val2,numberStyle,true) || cur1 || cur2) //   non-numeric string compare - bug, can be confused if digit starts text string
 		{
 			char* arg1 = val1;
 			char* arg2 = val2;

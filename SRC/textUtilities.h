@@ -120,7 +120,7 @@ extern int docVolleyStartTime;
 #define IsComparison(c) (isComparatorData[(unsigned char)c])
 WORDP BUILDCONCEPT(char* word) ;
 void RemoveTilde(char* output);
-double Convert2Float(char* original);
+double Convert2Float(char* original,int useNumberStyle = AMERICAN_NUMBERS);
 char* RemoveEscapesWeAdded(char* at);
 bool IsComparator(char* word);
 void ConvertNL(char* ptr);
@@ -140,7 +140,7 @@ uint64 FindParseValueByName(char* name); // parse flags
 uint64 FindMiscValueByName(char* name); // misc data
 void CloseTextUtilities();
 bool IsModelNumber(char* word);
-bool IsInteger(char* ptr, bool comma);
+bool IsInteger(char* ptr, bool comma, int useNumberStyle = AMERICAN_NUMBERS);
 char* IsUTF8(char* buffer,char* character);
 char* Purify(char* msg);
 void WriteInteger(char* word, char* buffer, int useNumberStyle = NOSTYLE_NUMBERS);
@@ -154,19 +154,19 @@ bool IsFraction(char* token);
 // boolean style tests
 bool AdjustUTF8(char* start, char* buffer);
 bool IsArithmeticOperator(char* word);
-unsigned IsNumber(char* word,bool placeAllowed = true); // returns kind of number
-bool IsPlaceNumber(char* word);
-bool IsDigitWord(char* word,bool comma = false);
-bool IsDigitWithNumberSuffix(char* number);
+unsigned IsNumber(char* word,int useNumberStyle = AMERICAN_NUMBERS,bool placeAllowed = true); // returns kind of number
+bool IsPlaceNumber(char* word, int useNumberStyle = AMERICAN_NUMBERS);
+bool IsDigitWord(char* word,int useNumberStyle = AMERICAN_NUMBERS,bool comma = false);
+bool IsDigitWithNumberSuffix(char* number,int useNumberStyle = AMERICAN_NUMBERS);
 bool IsUrl(char* word, char* end);
 unsigned int IsMadeOfInitials(char * word,char* end);
 bool IsNumericDate(char* word,char* end);
-bool IsFloat(char* word, char* end);
+bool IsFloat(char* word, char* end, int useNumberStyle = AMERICAN_NUMBERS);
 char GetTemperatureLetter (char* ptr);
 char* IsTextCurrency(char* ptr, char* end);
 bool IsLegalName(char* name);
 unsigned char* GetCurrency(unsigned char* ptr,char* &number);
-bool IsCommaNumberSegment(char* word);
+bool IsCommaNumberSegment(char* start,char* end);
 bool IsRomanNumeral(char* word, uint64& val);
 char* WriteFloat(char* buffer, double value, int useNumberStyle = NOSTYLE_NUMBERS);
 unsigned int UTFStrlen(char* ptr);
@@ -205,7 +205,7 @@ char* ReadArgument(char* ptr, char* buffer, FunctionResult &result);
 int ReadALine(char* buf,FILE* file,unsigned int limit = maxBufferSize,bool returnEmptyLines = false,bool convertTabs = true);
 char* SkipWhitespace(char* ptr);
 char* BalanceParen(char* ptr,bool within=true,bool wildcards=false);
-int64 NumberPower(char* number);
-int64 Convert2Integer(char* word);
+int64 NumberPower(char* number,int useNumberStyle = AMERICAN_NUMBERS);
+int64 Convert2Integer(char* word,int useNumberStyle = AMERICAN_NUMBERS);
 
 #endif

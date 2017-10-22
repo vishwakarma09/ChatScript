@@ -30,7 +30,11 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
 // these can add components
 //#define  TREETAGGER 1
 
-#ifdef LOEBNER
+#ifdef DLL
+#define NOMAIN 1
+#endif
+
+#ifdef  LOEBNER
 #define DISCARDSERVER 1
 #define DISCARDTCPOPEN 1
 #define DISCARDMYSQL 1

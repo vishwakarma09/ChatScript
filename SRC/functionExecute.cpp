@@ -50,11 +50,11 @@ Regular heap space is used to hold permanent data (e.g. variable assignment for 
 #define PLANMARK -1
 #define RULEMARK -2
 
-#define MAX_LOG_NAMES 4
+#define MAX_LOG_NAMES 16
 char* currentFunctionDisplay;
 char* fnOutput = NULL;
 char lognames[MAX_LOG_NAMES][200];	
-FILE* logfiles[4];
+FILE* logfiles[MAX_LOG_NAMES];
 char* codeStart = NULL;
 char* realCode = NULL;
 
@@ -244,6 +244,7 @@ unsigned char* FindAppropriateDefinition(WORDP D, FunctionResult& result)
 	else if (compiling) {;} // during compilation most recent always matches
 	else if (!(myBot & botid)) defn = allaccess;
 	result = (!defn) ? FAILRULE_BIT : NOPROBLEM_BIT;
+	if (!defn) ReportBug((char*) "Function %s not found for bot",D->word)
 	return defn; // point at (
 }
 
@@ -2718,7 +2719,7 @@ static char* tokenValues[] = {
 	(char*)"ONLY_LOWERCASE",(char*)"TOKEN_AS_IS",(char*)"SPLIT_QUOTE",(char*)"LEAVE_QUOTE",(char*)"UNTOUCHED_INPUT",(char*)"QUESTIONMARK",(char*)"EXCLAMATIONMARK",(char*)"PERIODMARK",
 	(char*)"USERINPUT",(char*)"COMMANDMARK",(char*)"IMPLIED_YOU",(char*)"FOREIGN_TOKENS",(char*)"FAULTY_PARSE",(char*)"QUOTATION",(char*)"NOT_SENTENCE",
 	(char*)"NO_PROPER_SPELLCHECK",(char*)"NO_LOWERCASE_PROPER_MERGE",(char*)"DO_SPLIT_UNDERSCORE",(char*)"MARK_LOWER",(char*)"NO_FIX_UTF",(char*)"NO_CONDITIONAL_IDIOM",
-	(char*)"JSON_DIRECT_FROM_OOB"
+	(char*)"",(char*)"JSON_DIRECT_FROM_OOB"
 };
 
 static FunctionResult DecodeInputTokenCode(char* buffer)
@@ -2728,16 +2729,18 @@ static FunctionResult DecodeInputTokenCode(char* buffer)
 	ReadInt64(arg1,n);
 	uint64 bit = 1;
 	int index = 0;
+	int numTokens = sizeof(tokenValues) / sizeof(tokenValues[0]); // bit of crash protection
 	while (n) 
 	{
 		if (bit & n) 
 		{
 			strcat(buffer,tokenValues[index]);
-			strcat(buffer,(char*)", ");
 			n ^= bit;
+			if (n > 0) strcat(buffer,(char*)", ");
 		}
 		bit <<= 1;
 		++index;
+		if (index >= numTokens) break;
 	}
 	return NOPROBLEM_BIT;
 }
@@ -3013,8 +3016,14 @@ static FunctionResult OriginalCode(char* buffer)
 	}
 	else if (IsDigit(*arg))
 	{
-		start = end = atoi(arg);
-		if (end > wordCount) return FAILRULE_BIT;
+		start = atoi(arg);
+		end = WILDCARD_END(start);
+		start = WILDCARD_START(start);
+		
+		if (start >= (wordCount + 1)) start = wordCount + 1;
+		if (start <= 0) start = 0;
+		if (end <= 0) end = 0;
+		if (end >= (wordCount + 1)) end = wordCount;
 	}
 	else return FAILRULE_BIT;
 
@@ -3196,7 +3205,7 @@ static FunctionResult ComputeCode(char* buffer)
 	if (strchr(arg1,'.') || strchr(arg2,'.') || !stricmp(op, (char*)"root") || !stricmp(op, (char*)"square_root"))
 
 	{
-	FLOAT:
+	FLOAT_X:
 		double fvalue = (double) NOT_A_NUMBER;
 		double number1 = (strchr(arg1,'.')) ? Convert2Float(arg1) : (double)Convert2Integer(arg1);
 		double number2 = (strchr(arg2,'.')) ? Convert2Float(arg2) :  (double)Convert2Integer(arg2);
@@ -3275,7 +3284,7 @@ static FunctionResult ComputeCode(char* buffer)
 				return NOPROBLEM_BIT;
 			}
 			value = value1 / value2;
-			if ((value * value2) != value1) goto FLOAT; // needs float
+			if ((value * value2) != value1) goto FLOAT_X; // needs float
 		}
 		else if (*op == '^' || !stricmp(op,(char*)"exponent") || !stricmp(op,(char*)"power"))
 		{
@@ -3302,7 +3311,7 @@ static FunctionResult ComputeCode(char* buffer)
 
 static FunctionResult IsNumberCode(char* buffer)
 {
-	return IsDigitWord(ARGUMENT(1),true) ? NOPROBLEM_BIT : FAILRULE_BIT;
+	return IsDigitWord(ARGUMENT(1),AMERICAN_NUMBERS,true) ? NOPROBLEM_BIT : FAILRULE_BIT;
 }
 
 static FunctionResult TimeFromSecondsCode(char* buffer)
@@ -3360,6 +3369,10 @@ static FunctionResult TimeInfoFromSecondsCode(char* buffer)
 	SetWildCard(value,value,0,0);
 	sprintf(value,(char*)"%s",days[time.tm_wday]); // sunday = 0
 	SetWildCard(value,value,0,0);
+	sprintf(value, (char*)"%d", time.tm_mon); // january = 0
+	SetWildCard(value, value, 0, 0);
+	sprintf(value, (char*)"%d", time.tm_wday); // sunday = 0
+	SetWildCard(value, value, 0, 0);
 
 	return NOPROBLEM_BIT;
 }
@@ -4053,6 +4066,7 @@ FunctionResult MatchCode(char* buffer)
 	char word[MAX_WORD_SIZE];
 	char word1[MAX_WORD_SIZE];
 	char* at = ReadCompiledWord(ARGUMENT(1),word1);
+	if (!*word1) return FAILRULE_BIT;
 	char pack[MAX_WORD_SIZE];
 	char* base = pack;
 
@@ -4117,18 +4131,20 @@ FunctionResult MatchCode(char* buffer)
 	#ifdef DISCARDSCRIPTCOMPILER 
 		base = ptr;	// do the best you can, may not be laid out properly
 	#else
+		bool inited;
 		int oldDepth = globalDepth;
 		if (setjmp(scriptJump[++jumpIndex])) // return on script compiler error
 		{
+			if (inited) EndScriptCompiler();
 			--jumpIndex;
 			globalDepth = oldDepth;
 			return FAILRULE_BIT;
 		}
 		char junk[MAX_WORD_SIZE];
-		StartScriptCompiler();
+		inited = StartScriptCompiler();
 		ReadNextSystemToken(NULL,NULL,junk,false,false); // flush cache
 		ReadPattern(ptr, NULL, at,false,false,true); // compile the pattern
-		EndScriptCompiler();
+		if (inited) EndScriptCompiler();
 		strcat(at,(char*)" )");
 		at = pack; // for debug retry
 		base = pack; // the compiled pattern
@@ -4776,14 +4792,15 @@ static FunctionResult BurstCode(char* buffer) //   take value and break into fac
 		if (IsDigit(*arg1) || (*arg1 == '+' || *arg1 == '-') && IsDigit(arg1[1])) // number first
 		{
 			if (*arg1 == '+' || *arg1 == '-') *atdigit++ = *arg1++;
-			while (IsDigit(*arg1) || *arg1 == '.') *atdigit++ = *arg1++;
+			while (IsDigit(*arg1) || *arg1 == '.' || *arg1 == ',') *atdigit++ = *arg1++;
 			*atdigit = 0;
 			strcpy(letters, arg1);
 		}
 		else // number last
 		{
 			size_t len = strlen(arg1);
-			while (IsDigit(arg1[--len]) || arg1[len] == '.');
+			while (IsDigit(arg1[--len]) || arg1[len] == '.' || arg1[len] == ',');
+			if (arg1[len] == '+' || arg1[len] == '-') --len;
 			strcpy(digits, arg1 + len + 1);
 			arg1[len + 1] = 0;
 			strcpy(letters, arg1);
@@ -5249,6 +5266,20 @@ static FunctionResult POSCode(char* buffer)
 	if (!stricmp(arg1, (char*) "isuppercase"))
 	{
 		if (IsUpperCase(*arg2))
+		{
+			strcpy(buffer, "1");
+			return NOPROBLEM_BIT;
+		}
+		else return FAILRULE_BIT;
+	}
+	if (!stricmp(arg1, (char*) "isalluppercase"))
+	{
+		char* ptr = arg2;
+		while (*++ptr)
+		{
+			if (!IsUpperCase(*ptr) && *ptr != '&' && *ptr != '-' && *ptr != '_') break;
+		}
+		if (!*ptr && IsUpperCase(*arg2))
 		{
 			strcpy(buffer, "1");
 			return NOPROBLEM_BIT;

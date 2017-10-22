@@ -95,6 +95,11 @@ void Login(char* caller,char* usee,char* ip) //   select the participants
 
 void ReadComputerID()
 {
+	if (*defaultbot)
+	{
+		strcpy(computerID, defaultbot); // command line parameter
+		return;
+	}
 	strcpy(computerID,(char*)"anonymous");
 	WORDP D = FindWord((char*)"defaultbot",0); // do we have a FACT with the default bot in it as verb
 	if (D)
@@ -777,13 +782,7 @@ void ReadUserData() // passed  buffer with file content (where feasible)
 		int diff = ElapsedMilliseconds() - start_time;
 		if (timing & TIME_ALWAYS || diff > 0) Log(STDTIMELOG, (char*)"Read user data time: %d ms\r\n", diff);
 	}
-	if (server && servertrace) trace = -1; // complete server trace
-
-	if (numberStyle ==  FRENCH_NUMBERS)
-	{
-		numberComma = '.';
-		numberPeriod = ',';
-	}
+	if (server && servertrace) trace = (unsigned int)-1; // complete server trace
 }
 
 void KillShare()

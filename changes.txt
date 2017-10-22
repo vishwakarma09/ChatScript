@@ -1,3 +1,15 @@
+version 7.6 10/22/2017
+1. ~capacronym -  acronyms that are  all caps, all letters
+2. :trim now supports optional quoted first param :trim "keepname"
+	which instead of dumping all files it sees into a single tmp/tmp.txt file
+	keeps the names of the files it sees separated into tmp/*.txt
+3. you can now specify db name to postgres
+4, ^pos(isalluppercase xxx)
+5. implicit concept set for [] and {} in patterns when simple words/phrases/concepts
+6. :dedupe  filepath, outputs into tmp/filename just unique lines from the input
+7. command line parameter defaultbot=name gives the name of the default bot to use, overriding the defaultbot table value.
+8. ^timeinfofromseconds now returns 2 more values, the months index and the dayofweek index
+
 Version 7.55 9/24/2017
 1. new PDF document: ChatScript Coding Standards
 2. RESPONSE_CURLYQUOTES converts on output plain quotes to curly ones

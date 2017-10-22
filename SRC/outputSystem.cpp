@@ -369,7 +369,7 @@ void StdNumber(char* word,char*& buffer,int controls) // text numbers may have s
 {
 	size_t len = strlen(word);
 	char* ptr = word;
-    if ( IsAlphaUTF8(*ptr) ||  !IsDigitWord(word) || strchr(word,':')) // either its not a number or its a time - leave unchanged
+    if ( IsAlphaUTF8(*ptr) || !IsDigitWord(word, AMERICAN_NUMBERS) || strchr(word,':')) // either its not a number or its a time - leave unchanged
     {
         strcpy(buffer,word);  
 		if (controls & OUTPUT_NOUNDERSCORE)

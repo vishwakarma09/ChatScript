@@ -1,7 +1,7 @@
 
 # ChatScript Coding Standards
 © Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 9/24/2017 cs7.55
+<br>Revision 10/22/2017 cs7.6
 
 Contents:
 

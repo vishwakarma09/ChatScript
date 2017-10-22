@@ -1,6 +1,6 @@
 # ChatScript System Functions Manual
 © Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 9/24/2017 cs7.55
+<br>Revision 10/26/2017 cs7.6
 
 * [Topic Functions](ChatScript-System-Functions-Manual.md#topic-functions)
 * [Marking Functions](ChatScript-System-Functions-Manual.md#marking-functions)
@@ -609,7 +609,7 @@ Tells the system to start at `value` for future allocations of wildcard slots.
 This is only useful inside some pattern where you are trying to protect data from some previous match. Eg.
 
     u: (_~animals) refine()
-        a: ( ^setwildcardindex(1) _~color)
+        a: ( ^setwildcardindex(_1) _~color)
 
 `_0` is set to an animal. Normally the rejoinder would set a color onto `_0` and clobber it, but
 the call to `^setwildcardindex` forces it to use `_1` instead, so both `_0` and `_1` have values.
@@ -666,7 +666,7 @@ Starting by default at `_0`, if you assign it like this:
     _3 = ^timeinfofromseconds(%fulltime)
     
 it will start at `_3`. 
-The items you get are: seconds, minutes, hours, date in month, month name, year, day name of week.
+The items you get are: seconds, minutes, hours, date in month, month name, year, day name of week, month index (jan==0), dayofweek index (sun==0).
 
 
 ### `^timetoseconds ( seconds minutes hours date-of-month month year )`
@@ -1678,6 +1678,7 @@ For verbs with irregular pronoun conjugation, supply 4th argument of pronoun to 
 | `isinteger`      | word | return 1 if it is all digits, fails otherwise
 | `isfloat`      | word | return 1 if it is float, fails otherwise
 | `isuppercase`      | word | return 1 if it begins with an uppercase letter, fails otherwise
+| `isalluppercase`      | word | return 1 if it starts uppercase, and consists of entirely uppercase letters, hyphen, underscore and ampersand, fails otherwise
 | `type`               | word         | returns concept, number, word, or unknown
 | `common`             | word         | returns level of commonness of the word
 | `verb`               | verb         | given verb in any form, return requested form
@@ -2426,7 +2427,7 @@ You can also retrieve a field via `$$f.subject` or `$$f.verb` or `$$f.object`.
 ### `^find ( setname itemname )`
 
 given a concept set, find the ordered position of the 2nd
-argument within it. ^Output that index. Used, for example, to compare two poker hands.
+argument within it. ^Output that index (0-based). Used, for example, to compare two poker hands.
 
 
 ### `^findmarkedfact ( subject verb mark )`

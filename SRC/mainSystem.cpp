@@ -1,9 +1,10 @@
 #include "common.h" 
 #include "evserver.h"
-char* version = "7.55";
+char* version = "7.6";
 char sourceInput[200];
 FILE* userInitFile;
 int externalTagger = 0;
+char defaultbot[100];
 static bool argumentsSeen = false;
 char* configFile = "cs_init.txt";	// can set config params
 char language[40];							// indicate current language used
@@ -539,6 +540,7 @@ static void ProcessArgument(char* arg)
 	else if (!strnicmp(arg, "erasename=", 10)) erasename = arg + 10;
 	else if (!stricmp(arg,"userencrypt")) userEncrypt = true;
 	else if (!stricmp(arg,"ltmencrypt")) ltmEncrypt = true;
+	else if (!strnicmp(arg, "defaultbot=", 11)) strcpy(defaultbot, arg + 11);
 	else if (!stricmp(arg,"noboot")) noboot = true;
 	else if (!stricmp(arg, "servertrace")) servertrace = true;
 	else if (!strnicmp(arg,(char*)"apikey=",7)) strcpy(apikey,arg+7);
@@ -776,6 +778,7 @@ static void ReadConfig()
 
 unsigned int InitSystem(int argcx, char * argvx[],char* unchangedPath, char* readablePath, char* writeablePath, USERFILESYSTEM* userfiles, DEBUGAPI infn, DEBUGAPI outfn)
 { // this work mostly only happens on first startup, not on a restart
+	*hide = 0;
 	FILE* in = FopenStaticReadOnly((char*)"SRC/dictionarySystem.h"); // SRC/dictionarySystem.h
 	if (!in) // if we are not at top level, try going up a level
 	{
@@ -787,7 +790,7 @@ unsigned int InitSystem(int argcx, char * argvx[],char* unchangedPath, char* rea
 #endif
 	}
 	else FClose(in);
-
+	*defaultbot = 0;
 	strcpy(hostname,(char*)"local");
 	*sourceInput = 0;
     *buildfiles = 0;
@@ -2828,7 +2831,6 @@ int main(int argc, char * argv[])
 #endif
 		}
 	}
-	*hide = 0;
 
 	if (InitSystem(argc,argv)) myexit((char*)"failed to load memory\r\n");
     if (!server) 

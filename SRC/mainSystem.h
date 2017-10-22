@@ -92,6 +92,7 @@ extern bool documentMode;
 extern bool assignedLogin;
 extern bool servertrace;
 extern char apikey[100];
+extern char defaultbot[100];
 extern unsigned int volleyCount;
 extern FILE* sourceFile;
 extern bool multiuser;

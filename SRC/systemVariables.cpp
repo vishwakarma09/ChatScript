@@ -739,7 +739,7 @@ static char* SoriginalInput(char* value)
 			}
 		}
 	}
-    return at;
+    return SkipWhitespace(at);
 }   
 
 static char* SoriginalSentence(char* value)

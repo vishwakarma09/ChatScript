@@ -280,10 +280,10 @@ restart: // start with user
 	char* ptr = data;
 	strcpy(ptr,from); // username
 	ptr += strlen(ptr);
-	*ptr++ = 1; // testing 1 terminator
+	*ptr++ = 0; 
 	strcpy(ptr,bot);
 	ptr += strlen(ptr); // botname
-	*ptr++ = 1; // testing 1 terminator
+	*ptr++ = 0; 
 	strcpy(ptr,input);  // null message - start conversation or given message, user starts first
 	try 
 	{
@@ -963,8 +963,6 @@ static void* HandleTCPClient(void *sock1)  // individual client, data on STACK..
 				return NULL;
 			} 
 			p[len1] = 0;  // force extra string end at end of buffer
-			char* ascii1 = p;
-			while ((ascii1 = strchr(ascii1, 1))) *ascii1 = 0; // allow ascii 1 instead of 0 as separator for JavaScript conventions.
 
 			// break apart the data into its 3 strings
 			p += len1; // actual end of read buffer

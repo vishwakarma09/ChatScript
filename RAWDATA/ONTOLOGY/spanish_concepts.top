@@ -341,7 +341,7 @@
 #SPANISH concept: ~FAMILY_CHILDREN PROBABLE_NOUN ANIMATE_BEING ( ~family_children_female ~family_children_generic ~family_children_male       )
 #SPANISH concept: ~FAMILY_CHILDREN_FEMALE PROBABLE_NOUN ANIMATE_BEING ( ~sister      hija nieta Nieto sobrina hermana cuñada hijastra hermanastra hijastra hermanastra  )
 #SPANISH concept: ~FAMILY_CHILDREN_GENERIC NOUN_HUMAN PROBABLE_NOUN ANIMATE_BEING (      bebé niño prima nieto Nieto infantil niño descendencia progenie hermano hijastro hijastro adolescente adolescente niñito nene gemelo sala juventud Nephling  )
-#SPANISH concept: ~FAMILY_CHILDREN_MALE PROBABLE_NOUN ANIMATE_BEING ( ~brother      hermano Sobrino nieto sobrino vástago hijo Sstep-son hermanastro hijastro  )
+#SPANISH concept: ~FAMILY_CHILDREN_MALE PROBABLE_NOUN ANIMATE_BEING ( ~brother      hermano Sobrino nieto sobrino vástago hijo  hermanastro hijastro  )
 #SPANISH concept: ~FAMILY_GRANDFATHER PROBABLE_NOUN ANIMATE_BEING (      abuelo Abuelo abuelo abuelo Abuelo Abuelo  )
 #SPANISH concept: ~FAMILY_MEMBERS PROBABLE_NOUN ANIMATE_BEING ( ~family_adult ~family_children      relativo gemelo  )
 #SPANISH concept: ~FARM_ANIMALS PROBABLE_NOUN ANIMATE_BEING (      Jabali toro becerro polluelo vaca pato anadón oveja potro ganso ansarino gallina yegua cerdo cerdito RAM gallo semental  )

@@ -198,16 +198,9 @@ size_t pguserRead(void* buf,size_t size, size_t count, FILE* file)
 
 	// has read sql been overridden?
 	const char * readsql = 0;
-	if (pguserread != 0)
-	{
-		readsql = pguserread;
-	}
-	else
-	{
-		// use default sql
-		readsql = pgdefault_userread; // one table per user
-	}
-	Log(STDTRACELOG,buffer);
+	if (pguserread != 0) readsql = pguserread;
+	else readsql = pgdefault_userread; // // use default sql one table per user
+	if (trace) Log(STDTRACELOG,buffer);
 
 	const char* paramValues[1] = {(char*)pguserFilename};
 	PGresult   *res = PQexecParams(usersconn,
@@ -237,29 +230,6 @@ size_t pguserRead(void* buf,size_t size, size_t count, FILE* file)
 	return size;
 }
 
-/*
-static void convert2Hex(unsigned char* ptr, size_t len, unsigned char* buffer,unsigned int& before,  unsigned int& after)
-{
-	unsigned char* start = buffer;
-	sprintf((char*)buffer,(char*)"INSERT into userfiles VALUES ('%s', ",pguserFilename); 
-	buffer += strlen((char*) buffer);
-	before = buffer-start;
-	strcpy((char*)buffer,(char*)"E'\\\\x");
-	buffer += strlen((char*) buffer);
-	while (len--)
-	{
-		unsigned char first = (*ptr) >> 4;
-		unsigned char second = *ptr++ & 0x0f;
-		*buffer++ = hexbytes[first];
-		*buffer++ = hexbytes[second];
-	}
-	*buffer++ = '\'';
-	*buffer++ = ' ';
-	after = buffer-start;
-	sprintf((char*)buffer,(char*)" );");
- }
-*/
-
 static void convert2Hex(unsigned char* ptr, size_t len, unsigned char* buffer)
 {
 	strcpy((char*)buffer,(char*)"E'\\\\x");
@@ -287,10 +257,7 @@ size_t pguserWrite(const void* buf,size_t size, size_t count, FILE* file)
 		// e.g. if the insertsql is a stored proc that does an upsert
 		updatesql = 0;	// can be null
 	}
-	if (pguserupdate)
-	{
-		updatesql = pguserupdate;
-	}
+	if (pguserupdate) updatesql = pguserupdate;
 
 	// convert user data to hex
 	unsigned char* buffer = (unsigned char*)buf;

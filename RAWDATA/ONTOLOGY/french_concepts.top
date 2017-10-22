@@ -341,7 +341,7 @@
 #FRENCH concept: ~FAMILY_CHILDREN PROBABLE_NOUN ANIMATE_BEING ( ~family_children_female ~family_children_generic ~family_children_male       )
 #FRENCH concept: ~FAMILY_CHILDREN_FEMALE PROBABLE_NOUN ANIMATE_BEING ( ~sister      fille "petite fille" Grand-mère nièce sœur belle-soeur "belle fille" demi-soeur "belle fille" demi-soeur  )
 #FRENCH concept: ~FAMILY_CHILDREN_GENERIC NOUN_HUMAN PROBABLE_NOUN ANIMATE_BEING (      bébé enfant cousin "petit enfant" Grandkid bébé enfant progéniture progéniture "enfant de mêmes parents" Step-child Beau-fils Adolescent adolescent bambin Tot double quartier jeunesse Néphling  )
-#FRENCH concept: ~FAMILY_CHILDREN_MALE PROBABLE_NOUN ANIMATE_BEING ( ~brother      frère Grand-neveu "petit fils" neveu scion fils Sstep-son beau-frère Beau-fils  )
+#FRENCH concept: ~FAMILY_CHILDREN_MALE PROBABLE_NOUN ANIMATE_BEING ( ~brother      frère Grand-neveu "petit fils" neveu scion fils  beau-frère Beau-fils  )
 #FRENCH concept: ~FAMILY_GRANDFATHER PROBABLE_NOUN ANIMATE_BEING (      pépé Grand-père grand-père Grand-père Grand-père Grandpop  )
 #FRENCH concept: ~FAMILY_MEMBERS PROBABLE_NOUN ANIMATE_BEING ( ~family_adult ~family_children      relatif double  )
 #FRENCH concept: ~FARM_ANIMALS PROBABLE_NOUN ANIMATE_BEING (      sanglier taureau veau poussin vache canard caneton "Brebis poulain" oie oison poule jument porc porcelet RAM coq étalon  )
