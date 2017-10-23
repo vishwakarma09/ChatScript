@@ -2058,7 +2058,7 @@ static void C_TrimField(char* file)
 		Log(STDTRACELOG, (char*)"No such file %s\r\n", file);
 		return;
 	}
-	while (fgets(readBuffer, 10000000, in) >= 0)
+	while (fgets(readBuffer, 10000000, in) >= (void *)0)
 	{
 		if (!*readBuffer) break;
 		//VA-51382515	legal	family		I have a friend who has a half brother. His father won't let him see his brother. Does my friend have any rights in this matter?
