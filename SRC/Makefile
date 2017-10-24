@@ -58,7 +58,7 @@ mysqlserver: PGLOAD= -lmysqlclient -pthread
 mysqlserver: binary
 mysqlserver: EXECUTABLE=$(executable.mysqlserver)
 mysqlserver: INCLUDEDIRS=-Ievserver 
-mysqlserver: CFLAGS=-c -std=c++11 -Wall  -funsigned-char  -Wno-write-strings -Wno-char-subscripts -Wno-strict-aliasing 
+mysqlserver: CFLAGS=-c -std=c++11 -Wall  -funsigned-char  -Wno-write-strings -Wno-char-subscripts -Wno-strict-aliasing -g
 
 executable.debugmysqlserver=../BINARIES/ChatScriptMysqlDebug
 debugmysqlserver: DEFINES+= -DLOCKUSERFILE=1  -DDEBUG -DEVSERVER=1 -DEVSERVER_FORK=1 -DDISCARDPOSTGRES=1 -DDISCARDMONGO=1  
@@ -129,7 +129,7 @@ debugmongoserver: LDFLAGS+= -lgcrypt -lsasl2 -lmongoc-1.0 -lbson-1.0
 mongotreetaggerserver: LDFLAGS+= -lgcrypt -lsasl2 -lmongoc-1.0 -lbson-1.0 
 endif
 
-SOURCES=constructCode.cpp duktape/duktape.c evserver.cpp csocket.cpp cs_ev.c dictionarySystem.cpp englishTagger.cpp factSystem.cpp json.cpp functionExecute.cpp english.cpp infer.cpp javascript.cpp jsmn.cpp markSystem.cpp mysql.cpp mongodb.cpp os.cpp outputSystem.cpp patternSystem.cpp postgres.cpp privatesrc.cpp scriptCompile.cpp spellcheck.cpp secure.cpp systemVariables.cpp tagger.cpp testing.cpp textUtilities.cpp tokenSystem.cpp topicSystem.cpp userCache.cpp userSystem.cpp variableSystem.cpp mainSystem.cpp 
+SOURCES=constructCode.cpp duktape/duktape.cpp evserver.cpp csocket.cpp cs_ev.c dictionarySystem.cpp englishTagger.cpp factSystem.cpp json.cpp functionExecute.cpp english.cpp infer.cpp javascript.cpp jsmn.cpp markSystem.cpp mysql.cpp mongodb.cpp os.cpp outputSystem.cpp patternSystem.cpp postgres.cpp privatesrc.cpp scriptCompile.cpp spellcheck.cpp secure.cpp systemVariables.cpp tagger.cpp testing.cpp textUtilities.cpp tokenSystem.cpp topicSystem.cpp userCache.cpp userSystem.cpp variableSystem.cpp mainSystem.cpp 
 OBJECTS=$(SOURCES:.cpp=.o)
 
 default: server
