@@ -58,7 +58,7 @@ mysqlserver: PGLOAD= -lmysqlclient -pthread
 mysqlserver: binary
 mysqlserver: EXECUTABLE=$(executable.mysqlserver)
 mysqlserver: INCLUDEDIRS=-Ievserver 
-mysqlserver: CFLAGS=-c -std=c++11 -Wall  -funsigned-char  -Wno-write-strings -Wno-char-subscripts -Wno-strict-aliasing 
+mysqlserver: CFLAGS=-c -std=c++11 -Wall  -funsigned-char  -Wno-write-strings -Wno-char-subscripts -Wno-strict-aliasing -g
 
 executable.debugmysqlserver=../BINARIES/ChatScriptMysqlDebug
 debugmysqlserver: DEFINES+= -DLOCKUSERFILE=1  -DDEBUG -DEVSERVER=1 -DEVSERVER_FORK=1 -DDISCARDPOSTGRES=1 -DDISCARDMONGO=1  
