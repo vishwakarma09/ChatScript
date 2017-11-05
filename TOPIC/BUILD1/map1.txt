@@ -123,100 +123,101 @@ file: C:/ChatScript/RAWDATA/HARRY/keywordless.top 0
 file: C:/ChatScript/RAWDATA/HARRY/simplecontrol.top 0
     macro: ^harry 2
           line: 3 0
-          line: 5 54
-          line: 6 89
-          line: 8 108
-          line: 9 131
-          line: 10 156
+          line: 4 54
+          line: 6 84
+          line: 7 119
+          line: 9 138
+          line: 10 161
+          line: 11 186
           Complexity of ^harry: 1
-          line: 14 0
-    topic: ~control 18
-        rule: ~control.0.0 u:  21
-          line: 22 0
+          line: 15 0
+    topic: ~control 19
+        rule: ~control.0.0 u:  22
+          line: 23 0
           Complexity of rule ~control.0.0- u: 1
-        rule: ~control.1.0 u:  24
-          line: 24 0
-          Complexity of rule ~control.1.0- u: 1
-        rule: ~control.2.0 u:  25
+        rule: ~control.1.0 u:  25
           line: 25 0
+          Complexity of rule ~control.1.0- u: 1
+        rule: ~control.2.0 u:  26
+          line: 26 0
           Complexity of rule ~control.2.0- u: 1
-        rule: ~control.3.0 u:  27
-          line: 27 0
-          Complexity of rule ~control.3.0- u: 1
-        rule: ~control.4.0 u:  28
+        rule: ~control.3.0 u:  28
           line: 28 0
-          Complexity of rule ~control.4.0- u: 1
-        rule: ~control.5.0 u:  29
+          Complexity of rule ~control.3.0- u: 1
+        rule: ~control.4.0 u:  29
           line: 29 0
-          Complexity of rule ~control.5.0- u: 1
-        rule: ~control.6.0 u:  30
+          Complexity of rule ~control.4.0- u: 1
+        rule: ~control.5.0 u:  30
           line: 30 0
-          Complexity of rule ~control.6.0- u: 1
-        rule: ~control.7.0 u:  31
+          Complexity of rule ~control.5.0- u: 1
+        rule: ~control.6.0 u:  31
           line: 31 0
-          Complexity of rule ~control.7.0- u: 1
-        rule: ~control.8.0 u:  32
+          Complexity of rule ~control.6.0- u: 1
+        rule: ~control.7.0 u:  32
           line: 32 0
+          Complexity of rule ~control.7.0- u: 1
+        rule: ~control.8.0 u:  33
+          line: 33 0
           Complexity of rule ~control.8.0- u: 1
-        rule: ~control.9.0 u:  34
-          line: 35 0
-          line: 36 18
-          line: 38 80
-          line: 40 103
-          line: 42 188
-          line: 44 254
-          line: 47 301
-          line: 49 398
-          line: 51 447
-          line: 52 473
-          line: 54 490
-          line: 55 523
-          line: 56 562
-          line: 58 605
-          line: 60 621
-          line: 61 627
-          line: 64 629
-          line: 66 678
-          line: 72 724
-          line: 74 788
-          line: 78 834
-          line: 80 888
-          line: 84 905
-          line: 86 1032
-          line: 88 1081
-          line: 89 1107
-          line: 91 1124
-          line: 92 1157
-          line: 93 1195
-          line: 95 1238
-          line: 97 1254
-          line: 98 1260
-          line: 99 1262
-          line: 101 1358
-          line: 103 1407
-          line: 104 1432
-          line: 106 1449
-          line: 107 1481
-          line: 108 1519
-          line: 110 1562
-          line: 112 1578
-          line: 113 1584
-          line: 115 1586
-          line: 117 1635
-          line: 118 1649
-          line: 119 1670
+        rule: ~control.9.0 u:  35
+          line: 36 0
+          line: 37 18
+          line: 39 80
+          line: 41 103
+          line: 43 188
+          line: 45 254
+          line: 48 301
+          line: 50 398
+          line: 52 447
+          line: 53 473
+          line: 55 490
+          line: 56 523
+          line: 57 562
+          line: 59 605
+          line: 61 621
+          line: 62 627
+          line: 65 629
+          line: 67 678
+          line: 73 724
+          line: 75 788
+          line: 79 834
+          line: 81 888
+          line: 85 905
+          line: 87 1032
+          line: 89 1081
+          line: 90 1107
+          line: 92 1124
+          line: 93 1157
+          line: 94 1195
+          line: 96 1238
+          line: 98 1254
+          line: 99 1260
+          line: 100 1262
+          line: 102 1358
+          line: 104 1407
+          line: 105 1432
+          line: 107 1449
+          line: 108 1481
+          line: 109 1519
+          line: 111 1562
+          line: 113 1578
+          line: 114 1584
+          line: 116 1586
+          line: 118 1635
+          line: 119 1649
+          line: 120 1670
           Complexity of rule ~control.9.0- u: 17
-    topic: ~xpostprocess 122
-        rule: ~xpostprocess.0.0 t:  124
-          line: 125 0
-          line: 127 17
-          line: 128 47
-          line: 130 104
-          line: 131 114
-          line: 133 155
-          line: 135 214
-          line: 137 261
-          line: 138 267
+    topic: ~xpostprocess 123
+        rule: ~xpostprocess.0.0 t:  125
+          line: 126 0
+          line: 128 17
+          line: 129 47
+          line: 131 104
+          line: 132 114
+          line: 134 155
+          line: 136 214
+          line: 138 261
+          line: 139 267
           Complexity of rule ~xpostprocess.0.0- t: 3
 file: C:/ChatScript/RAWDATA/QUIBBLE/eliza_because.top 0
     topic: ~quibble_because 1

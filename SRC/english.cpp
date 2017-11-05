@@ -428,7 +428,7 @@ static int64 ProcessNumber(int at, char* original, WORDP& revise, WORDP &entry, 
 		}
 		else sprintf(number, (char*)"%d", (int)Convert2Integer(original, numberStyle));
 		sysflags |= ORDINAL;
-		properties = ADVERB | ADJECTIVE | ADJECTIVE_NUMBER | NOUN | NOUN_NUMBER | (baseflags & TAG_TEST); // place numbers all all potential adverbs:  "*first, he wept"  but not in front of an adjective or noun, only as verb effect
+		properties |= ADVERB | ADJECTIVE | ADJECTIVE_NORMAL | ADJECTIVE_NUMBER | NOUN | NOUN_NUMBER | (baseflags & TAG_TEST); // place numbers all all potential adverbs:  "*first, he wept"  but not in front of an adjective or noun, only as verb effect
 	}
 	else if (kind == FRACTION_NUMBER && strchr(original, '%'))
 	{

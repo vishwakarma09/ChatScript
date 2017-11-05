@@ -22464,7 +22464,7 @@
     Swiss_steak~1nz (^dish~4) steak braised in tomato and onion mixture
  schnitzel ( meanings=1 NOUN NOUN_SINGULAR COMMON2 NOUN_NODETERMINER posdefault:NOUN ) 
     Wiener_schnitzel~1n 
- suds ( meanings=4 glosses=2 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR COMMON2 NOUN_NODETERMINER VERB_DIRECTOBJECT VERB_NOOBJECT ) 
+ suds ( meanings=4 glosses=2 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_PLURAL COMMON2 NOUN_NODETERMINER VERB_DIRECTOBJECT VERB_NOOBJECT ) 
     suds~1nz (^beer~1) a dysphemism for beer
     lather~2n 
     froth~3v 
@@ -23317,7 +23317,7 @@
  shipper ( meanings=2 glosses=2 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 COMMON1 posdefault:NOUN ) 
     shipper~1nz (^company~1) a company in the business of shipping freight
     shipper~2nz (^businessperson~1) someone who ships goods
- smithereens ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 ) 
+ smithereens ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PLURAL COMMON2 ) 
     smithereens~1nz (^collection~4) a collection of small fragments considered as a whole
  Soviet_KGB ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
     KGB~1n 

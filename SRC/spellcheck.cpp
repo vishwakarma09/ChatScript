@@ -410,8 +410,11 @@ bool SpellCheckSentence()
 		char* end = word + strlen(word);
 		if (IsFloat(word, end, numberStyle)) continue;
 
-		// split conjoined sentetence Missouri.Fix
+		// dont spell check abbreviations with dots, e.g. p.m.
 		char* dot = strchr(word, '.');
+		if (dot && FindWord(word, 0)) continue;
+
+		// split conjoined sentetence Missouri.Fix
 		if (dot && dot != word && dot[1])
 		{
 			*dot = 0;

@@ -637,7 +637,7 @@ santo_cielo ~emosurprise
 <esperas_que_yo_sepa> ~emoignorance
 <te_has_equivocado ~no
 <tienes_que_estar_bromeando ~no
-<puedes ~yes
+<puedes> ~yes
 <puede_que_tengas_razón ~yes
 <usted_puede_tener_un_punto ~yes
 <usted_debe_estar_bromeando ~no

@@ -429,7 +429,7 @@ char* WriteUserVariables(char* ptr,bool sharefile, bool compiled,char* saveJSON)
 		{
 			char* val = D->w.userValue;
 			// track json structures referred to
-			if (val[0] == 'j' && (val[1] == 'o' || val[1] == 'a') && val[2] == '-' && val[3] != 't' && saveJSON) SaveJSON(FindWord(val));
+			if (val && val[0] == 'j' && (val[1] == 'o' || val[1] == 'a') && val[2] == '-' && val[3] != 't' && saveJSON) SaveJSON(FindWord(val));
 
 			// if var is actually system var, and value is unchanged (may have edited and restored), dont save it
 			unsigned int varthread1 =  botVariableThreadList;
@@ -455,7 +455,7 @@ char* WriteUserVariables(char* ptr,bool sharefile, bool compiled,char* saveJSON)
 			if (!stricmp(D->word,"$cs_trace")) 
 			{
 				traceseen = true;
-				sprintf(word,(char*)"%d",trace);
+				sprintf(word,(char*)"%u",(unsigned int)trace);
 				val = word;
 			}
 			if (!val) val = ""; // for null variables being marked as traced

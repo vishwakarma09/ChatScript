@@ -257,7 +257,7 @@ unsigned int* AllocateWhereInSentence(WORDP D)
 	*data = 0; // clears the tried meanings list
 	data[1] = 0;
 	// store where in the temps data
-	int index = Heap2Index((char*) data);
+	int index = Heap2Index((char*) data); // original index!
 	triedData[D] = index;
 	return data + 2; // analogous to GetWhereInSentence
 }
@@ -270,8 +270,9 @@ void SetTriedMeaning(WORDP D,uint64 bits)
 		data = AllocateWhereInSentence(D);
 		if (!data) return; // failed to allocate
 	}
-	data[-2] = (unsigned int) (bits >> 32);
-	*(data - 1) = (unsigned int) (bits & 0x0000ffff);	// back up to the tried meaning area
+	*(data - 2) = (unsigned int) (bits >> 32);
+	*(data - 1) = (unsigned int) (bits & 0xffffffff);	// back up to the tried meaning area
+	int xx = 0;
 }
 
 uint64 GetTriedMeaning(WORDP D) // which meanings have been used (up to 64)
@@ -279,10 +280,10 @@ uint64 GetTriedMeaning(WORDP D) // which meanings have been used (up to 64)
 	std::map<WORDP,int>::iterator it;
 	it = triedData.find(D);
 	if (it == triedData.end())	return 0;
-	unsigned int* data = (unsigned int*)Index2Heap(it->second);
-	if (!data) return 0; // shouldnt happen
-	uint64 value = ((uint64)(data[-2])) << 32;
-	value |= (uint64)data[-1];
+	unsigned int* data = (unsigned int*)Index2Heap(it->second); // original location
+	if (!data) return 0; 
+	uint64 value = ((uint64)(data[0])) << 32;
+	value |= (uint64)data[1];
 	return value; // back up to the correct meaning zone
 }
 
@@ -2301,7 +2302,7 @@ MEANING MakeMeaning(WORDP x, unsigned int y) //   compose a meaning
 
 WORDP Meaning2Word(MEANING x) //   convert meaning to its dictionary entry
 {
-    WORDP D = (!x) ? NULL : Index2Word((((uint64)x) & MAX_DICTIONARY)); 
+	WORDP D = (!x) ? NULL : Index2Word((((uint64)x) & MAX_DICTIONARY));
 	return D;
 }
 
@@ -2527,8 +2528,6 @@ void ReadSubstitutes(const char* name,unsigned int build,const char* layer, unsi
 		WORDP S = NULL;
 		if (replacement[0] != 0 && replacement[0] != '#') 	//   with no substitute, it will just erase itself
 		{
-			if (strchr(replacement,'_'))
-				printf((char*)"Warning-- substitution replacement %s of %s in %s at line %d has _ in it. Is it intended?\r\n",replacement,original,name,currentFileLine);
 			D->w.substitutes = S = StoreWord(replacement,AS_IS);  //   the valid word
 			AddSystemFlag(S,SUBSTITUTE_RECIPIENT);
 			// for the emotions (like ~emoyes) we want to be able to reverse access, so make them a member of the set
@@ -3375,9 +3374,10 @@ void ExtendDictionary()
 	Mconceptlist = MakeMeaning(StoreWord((char*)"^conceptlist"));
  	Mmoney = MakeMeaning(BUILDCONCEPT((char*)"~moneynumber"));
 	Mnumber = MakeMeaning(BUILDCONCEPT((char*)"~number"));
-	MakeMeaning(BUILDCONCEPT((char*)"~float"));
-	MakeMeaning(BUILDCONCEPT((char*)"~positiveinteger"));
-	MakeMeaning(BUILDCONCEPT((char*)"~negativeinteger"));
+	BUILDCONCEPT((char*)"~float");
+	BUILDCONCEPT((char*)"~integer");
+	BUILDCONCEPT((char*)"~positiveinteger");
+	BUILDCONCEPT((char*)"~negativeinteger");
 	MadjectiveNoun  = MakeMeaning(BUILDCONCEPT((char*)"~adjective_noun"));
 	Mpending = MakeMeaning(StoreWord((char*)"^pending"));
 	DunknownWord  = StoreWord((char*)"unknown-word");
@@ -7321,6 +7321,33 @@ static void AddFlagDownHierarchy(MEANING T, unsigned int depth, uint64 flag)
 	}
 }
 
+static void readPluralNouns(char* file) // have no singular form
+{
+	FILE* in = FopenReadWritten(file);
+	if (!in)
+	{
+		Log(STDUSERLOG, "** Missing file %s\r\n", file);
+		return;
+	}
+	StartFile(file);
+	char word[MAX_WORD_SIZE];
+	while (fget_input_string(false, false, input_string, in) != 0)
+	{
+		if (input_string[0] == '#' || input_string[0] == 0) continue;
+		char* ptr = input_string;
+		ptr = ReadWord(ptr, word);    //   the noun
+		if (*word == 0) break;
+
+		WORDP D = FindWord(word);
+		if (D && D->properties & NOUN_SINGULAR)
+		{
+			D->properties |= NOUN_PLURAL;
+			D->properties ^= NOUN_SINGULAR;
+		}
+	}
+	fclose(in);
+}
+
 static void readMassNouns(char* file)
 {
 	FILE* in = FopenReadWritten(file);
@@ -7355,6 +7382,7 @@ static void readMassNouns(char* file)
 		if (!(D->properties & (NOUN_SINGULAR | NOUN_PROPER_SINGULAR))) AddProperty(D, NOUN | NOUN_SINGULAR); // defining
 		AddSystemFlag(D, NOUN_NODETERMINER);
 	}
+	fclose(in);
 }
 
 void LoadRawDictionary(int mini) // 6 == foreign
@@ -7385,9 +7413,10 @@ void LoadRawDictionary(int mini) // 6 == foreign
 		WalkDictionary(ExtractSynsets); // switch wordnet id nodes back to real words
 		readMassNouns("RAWDICT/nounmass.txt");   // ENGLISH ONLY
 		ReadDeadFacts("RAWDICT/deadfacts.txt"); // kill off some problematic dictionary facts
-
+		readPluralNouns("RAWDICT/nounplural.txt");
 												// mark mass nouns
 		WalkDictionary(MarkAbstract);
+
 	}
 	// dictionary is full and normal right now
 

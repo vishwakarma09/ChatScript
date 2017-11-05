@@ -12,3 +12,5 @@ them for 64-bit and 32-bit machines.
 
 The libpq, ssleay32, libintl, libeay32 dlls are used if you run a postgres build  ChatScriptpg.exe.
 The libcurl(release) or libcurld(debug) dlls are used in either build when #define JSON is on (default).
+
+For mysql, to rebuild the mysqlclient.lib see https://github.com/PyMySQL/mysqlclient-python/wiki/Building-mysqlclient.lib-on-Windows-with-VS2015

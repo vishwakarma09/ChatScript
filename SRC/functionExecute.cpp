@@ -2500,6 +2500,7 @@ static FunctionResult QueryTopicsCode(char* buffer)
 
 static FunctionResult MarkCode(char* buffer) 
 {  
+	// argument3 might be a text string "SINGLE". Past that,
 	// argument1 is a word or ~set or missing entirely
 	// mark()  flip off generic unmarks 
 	// argument 2 is a location designator or * or missing entirely
@@ -2511,6 +2512,7 @@ static FunctionResult MarkCode(char* buffer)
 	
 	FunctionResult result;
 	char word[MAX_WORD_SIZE];
+	bool single = false;
 	ptr = ReadShortCommandArg(ptr,word,result); // what is being marked
 	if (result & ENDCODES) return result;
 
@@ -2569,17 +2571,18 @@ static FunctionResult MarkCode(char* buffer)
 
 	if (*word == '*') // enable all - mark (* _0)
 	{
-		if (trace & TRACE_OUTPUT) Log(STDTRACELOG,(char*)"mark * %d...%d words: (char*)",startPosition,endPosition);
+		if (trace & TRACE_OUTPUT) Log(STDTRACELOG,(char*)"mark * ");
 		for (int i = startPosition; i <= endPosition; ++i) 
 		{
-			if (showMark) Log(ECHOSTDTRACELOG,(char*)"Mark * $d(%s_: \r\n",i,wordStarts[i]);
-			if (trace & TRACE_FLOW) Log(STDTRACELOG,(char*)"%s ",wordStarts[i]);
+			if (showMark) Log(ECHOSTDTRACELOG,(char*)"Mark * %d(%s)\r\n",i,wordStarts[i]);
+			if (trace & TRACE_FLOW) Log(STDTRACELOG,(char*)"%d(%s) ",i,wordStarts[i]);
 			unmarked[i] = 0;
 		}
 		*buffer = 0;
 		if (trace & TRACE_FLOW) Log(STDTRACELOG,(char*)"\r\n");
 		return NOPROBLEM_BIT;
 	}
+	if ((strstr(ptr, "SINGLE") || strstr(ptr, "single"))) single = true;
 
 	// Mark specific thing 
 	WORDP D = StoreWord(word);
@@ -2587,8 +2590,8 @@ static FunctionResult MarkCode(char* buffer)
 	if (*D->word != '~') Add2ConceptTopicList(concepts, D,startPosition,endPosition,true); // add ordinary word to concept list directly as WordHit will not store anything but concepts
 	NextInferMark();
 	if (showMark || (trace & TRACE_PREPARE)) Log(ECHOSTDTRACELOG,(char*)"Mark %s: \r\n",D->word);
-	if (trace & TRACE_OUTPUT) Log(STDTRACELOG,(char*)"mark all @word %d ",D->word);
-	MarkFacts(0, 0,M,startPosition,endPosition);
+	if (trace & TRACE_OUTPUT) Log(STDTRACELOG,(char*)"mark all @word %s %d-%d ",D->word, startPosition,endPosition);
+	MarkMeaningAndImplications(0, 0,M,startPosition,endPosition,false,false,single);
 	if (showMark) Log(ECHOSTDTRACELOG,(char*)"------\r\n");
 	*buffer = 0;
 	return NOPROBLEM_BIT;
@@ -2973,10 +2976,10 @@ static FunctionResult UnmarkCode(char* buffer)
 
 	if (*word == '*') // set unmark EVERYTHING in range 
 	{
-		if (trace & TRACE_OUTPUT) Log(STDTRACELOG,(char*)"unmark * %d...%d words: ",startPosition,endPosition);
+		if (trace & TRACE_OUTPUT) Log(STDTRACELOG,(char*)"unmark * words: ");
 		for (int i = startPosition; i <= endPosition; ++i) 
 		{
-			if (trace & TRACE_OUTPUT) Log(STDTRACELOG,(char*)"%s ",wordStarts[i]);
+			if (trace & TRACE_OUTPUT) Log(STDTRACELOG,(char*)"%d(%s) ",i,wordStarts[i]);
 			unmarked[i] = 1;
 		}
 		if (trace & TRACE_OUTPUT) Log(STDTRACELOG,(char*)"\r\n");
@@ -2986,6 +2989,7 @@ static FunctionResult UnmarkCode(char* buffer)
 		WORDP D = FindWord(word); //   set or word to unmark at specific location
 		if (D) 
 		{
+			if (trace & TRACE_OUTPUT) Log(STDTRACELOG, (char*)"unmark %s %d(%s)\r\n", D->word,startPosition, wordStarts[startPosition]);
 			RemoveMatchValue(D,startPosition);
 			RemoveConceptTopic(concepts,D,startPosition);
 			RemoveConceptTopic(topics,D,startPosition);		
@@ -3716,7 +3720,7 @@ static FunctionResult SetPronounCode(char* buffer)
 	if (startPosition < 1) startPosition = 1;
 	if (startPosition > wordCount)  startPosition = wordCount;
 	WORDP D = StoreWord(word);
-	MarkFacts(0,0,MakeMeaning(D),startPosition,startPosition);
+	MarkMeaningAndImplications(0,0,MakeMeaning(D),startPosition,startPosition);
 
 	WORDP entry;
 	WORDP canonical;
@@ -4087,6 +4091,7 @@ FunctionResult MatchCode(char* buffer)
 		char* rule;
 		bool fulllabel = false;
 		int id = 0;
+		int oldTopic = currentTopicID; // finding a labelled rule can change the current topic
 		bool crosstopic = false;
 		char* dot = strchr(word,'.');
 		if (!dot)  return FAILRULE_BIT;
@@ -4095,6 +4100,7 @@ FunctionResult MatchCode(char* buffer)
 		if (!rule) return FAILRULE_BIT;
 		GetPattern(rule,NULL,pack);
 		++base; // ignore starting paren
+		currentTopicID = oldTopic;
 	}
 	else
 	{
@@ -5770,20 +5776,37 @@ static FunctionResult POSCode(char* buffer)
 		uint64 sysflags = 0;
 		uint64 cansysflags = 0;
 		WORDP revise;
-		if (*arg2) {
-			if (*arg3) {
-				if (*arg3 != '~') return FAILRULE_BIT;
+		if (*arg2) 
+		{
+			if (*arg3) 
+			{
+				if (*arg3 != '~' && stricmp(arg3, (char*)"all")) return FAILRULE_BIT;
 
 				WORDP D = FindWord(arg2);
-				if (D) {
+				if (D)
+				{
 					WORDP E = RawCanonical(D);
-					if (E && *E->word == '`') {
+					if (E && *E->word == '`') 
+					{
 						char canons[MAX_WORD_SIZE]; // canonicals separated by `
 						char postags[MAX_WORD_SIZE]; // Postags separated by spaces, no ~
 
 						strcpy(canons, E->word);
 						char* end = strrchr(canons, '`');
 						*++end = 0;
+
+						if (!stricmp(arg3, (char*)"all"))
+						{
+							*--end = 0;
+							char *ptr = canons;
+							while ((ptr = strchr(ptr+1, '`'))) 
+							{
+								*ptr = '|';
+							}
+							strcpy(buffer, canons+1);
+							return NOPROBLEM_BIT;
+						}
+
 						strcpy(postags, end + 1);
 						char *ptr = postags;
 

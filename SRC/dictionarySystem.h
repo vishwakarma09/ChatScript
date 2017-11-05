@@ -481,6 +481,7 @@ typedef unsigned int DICTINDEX;	//   indexed ref to a dictionary entry
 
 #define TRACE_ECHO			0x20000000	// echo trace
 #define TRACE_USERFACT		0x40000000
+#define TRACE_TREETAGGER	0x80000000
 
 // TIME FLAGS
 // simple

@@ -3835,7 +3835,7 @@
     neap_tide~1n 
  nuclear_explosion ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     atomic_explosion~1nz (^bomb_blast~1) the explosion of an atomic bomb
- nuptials ( meanings=1 NOUN NOUN_SINGULAR COMMON2 ) 
+ nuptials ( meanings=1 NOUN NOUN_PLURAL COMMON2 ) 
     wedding_ceremony~1n 
  nostalgia ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER posdefault:NOUN ) 
     nostalgia~1nz (^hungriness~2) longing for something past

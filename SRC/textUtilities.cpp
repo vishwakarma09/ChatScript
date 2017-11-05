@@ -2211,6 +2211,11 @@ RESUME:
 					// this is either junk or a language marker...
 					if (!ConditionalReadRejected(lang,buffer,false)) blockComment = false; // this is legal
 				}
+				if (c == '\n')  // reached line end
+				{
+					++currentFileLine;	// for debugging error messages
+					maxFileLine = currentFileLine;
+				}
 			}
 			else if (c == '>') 
 			{

@@ -70,8 +70,8 @@ KEEP
    IS AUX_VERB VERB_BITS
 KEEP
 
-# keep bunch of things following be
-REVERSE 0 INCLUDE *  VERB_PRESENT_PARTICIPLE  NOUN_GERUND ADJECTIVE_PARTICIPLE VERB_PAST_PARTICIPLE
+# keep bunch of things following be "My former roommate who was also my landlord physically *attacked me"
+REVERSE 0 INCLUDE *  VERB_PRESENT_PARTICIPLE  NOUN_GERUND ADJECTIVE_PARTICIPLE VERB_PAST_PARTICIPLE VERB_PAST
 	STAY !HAS AUX_VERB  
 	SKIP IS ADVERB NOUN_BITS PRONOUN_BITS DETERMINER_BITS
 	HAS AUX_VERB			 # are you most closely attached to this

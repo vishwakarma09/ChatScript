@@ -1,8 +1,9 @@
 # ChatScript Advanced User's Manual
 © Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com<br>
-<br>Revision 10/22/2017 cs7.6
+<br>Revision 11/04/2017 cs7.61
 
 * [Review](ChatScript-Advanced-User-Manual.md#review-overview-of-how-cs-works)
+* [Advanced Tokenization](ChatScript-Advanced-User-Manual.md#advanced-tokenization)
 * [Advanced Concepts](ChatScript-Advanced-User-Manual.md#advanced-concepts)
 * [Advanced Topics](ChatScript-Advanced-User-Manual.md#advanced-topics)
 * [Advanced Patterns](ChatScript-Advanced-User-Manual.md#advanced-patterns)
@@ -271,6 +272,19 @@ then the effect of `^argument1 += 1` is as though `$myvar += 1` were done and `$
 
 Of course, had you tried to do `^argument2 += 1` then that would be the illegal `1 += 1` and the assignment would fail.
 
+# ADVANCED TOKENIZATION
+
+The CS natural language workflow consists of taking the user's input text, splitting it into tokens
+and stopping each time at a perceived sentence boundary. It continues with the input after processing that
+"sentence". That leaves two tricky bits: what is a token and what is a sentence boundary.
+The $cs_token variable gives you some control over how these work.  The naive definition of a token is a 
+sequence of letters terminating in a space or end of input. But there are
+exceptions to that like some kind of sentence punctuation (comma, period, colon, exclamation) is not part of a bigger token.
+The sentence punctuation notion has exceptions, like the period within a floating point number or as part of an abbrviation or webaddress.
+And hyphens with more letters on the other side are generally not punctuation either. And normally we consider bracketing things
+like parens not part of a word (except in emoticons). So CS will normally break things apart as it believes they should be done.
+If you need to actually allow a token to have embedded punctuation in it, you can list the token in the LIVEDATA/SUBSTITUTES/abbreviations.txt
+file and the tokenizer will respect it.
 
 # ADVANCED CONCEPTS
 

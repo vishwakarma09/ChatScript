@@ -7838,7 +7838,7 @@
     gauffer~2n 
  gauffering_iron ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
     goffer~2nz (^iron~1) an iron used to press pleats and ridges
- goggles ( meanings=1 glosses=1 NOUN NOUN_SINGULAR COMMON4 posdefault:VERB ) 
+ goggles ( meanings=1 glosses=1 NOUN NOUN_PLURAL COMMON4 posdefault:VERB ) 
     goggles~1nz (^glasses~1) tight-fitting spectacles worn to protect the eyes
  go-kart ( meanings=1 glosses=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
     go-kart~1nz (^automotive_vehicle~1) a small low motor vehicle with four wheels and an open framework

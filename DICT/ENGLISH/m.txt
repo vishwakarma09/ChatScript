@@ -9906,7 +9906,7 @@
     manifest~5vz record in a ship's manifest
  memorabilia ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON4 posdefault:NOUN ) 
     memorabilia~1nz (^record~6) a record of things worth remembering
- marginalia ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 posdefault:NOUN ) 
+ marginalia ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PLURAL COMMON2 posdefault:NOUN ) 
     marginalia~1nz (^note~2) notes written in the margin
  memo ( meanings=1 NOUN NOUN_SINGULAR COMMON4 posdefault:NOUN ) 
     memorandum~1n 

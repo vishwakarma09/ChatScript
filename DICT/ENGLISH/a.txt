@@ -3926,7 +3926,7 @@
     conformity~5n 
  accordance_of_rights ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     accordance~1nz (^giving~2) the act of granting rights
- alms ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 COMMON1 ) 
+ alms ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PLURAL COMMON2 COMMON1 ) 
     alms~1nz (^contribution~2) money or goods contributed to the poor
  alms-giving ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR posdefault:NOUN ) 
     almsgiving~1nz (^giving~2) making voluntary contributions to aid the poor
@@ -17881,7 +17881,7 @@
     creature_comforts~1n 
  allowance_account ( meanings=1 NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 
     valuation_account~1n 
- arrears ( meanings=2 glosses=2 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER ) 
+ arrears ( meanings=2 glosses=2 NOUN_ABSTRACT NOUN NOUN_PLURAL COMMON2 COMMON1 NOUN_NODETERMINER ) 
     arrears~1nz (^debt~2) an unpaid overdue debt
     arrears~2nz (^financial_obligation~1) the state of being behind in payments
  automobile_loan ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 

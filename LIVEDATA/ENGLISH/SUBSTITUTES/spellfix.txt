@@ -568,7 +568,6 @@ aquisition acquisition
 aquisitions acquisitions
 aquit acquit
 aquitted acquitted
-ar are
 aracnid arachnid 
 aranged arranged 
 arangement arrangement
@@ -2447,7 +2446,6 @@ native_american Native+American
 nawshus nauseous
 naybor neighbor
 Nazereth Nazareth
-nd and
 necasarilly necessarily
 necasarily necessarily
 necaserilly necessarily

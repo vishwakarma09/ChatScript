@@ -3,7 +3,7 @@
 > © Bruce Wilcox, gowilcox@gmail.com brilligunderstanding.com
 
 
-<br>Revision 9/24/2017 cs7.55
+<br>Revision 11/31/2017 cs7.61
 
 
 Here are a collection of common beginner mistakes I have seen. Many will work, they are just

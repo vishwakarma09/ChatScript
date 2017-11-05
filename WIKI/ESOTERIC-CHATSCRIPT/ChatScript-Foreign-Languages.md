@@ -1,6 +1,6 @@
 # Foreign Language Support
 © Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 6/25/2017 cs7.51
+<br>Revision 11/04/2017 cs7.61
 
 # Foreign Language Overview
 
@@ -11,10 +11,11 @@ ChatScript comes natively with full English support. If you want to use a differ
 * LIVEDATA substitutions appropriate to the language
 * Patterns in the language
 * Output in the language
+* Lemmas (comes with foreign pos-taggers or available from ^pos(canonical))
 
 ChatScript has a command line parameter `language=` that tells CS the language you intend. It defaults to `ENGLISH`.
 The effects of this parameter are several.
-* If not ENGLISH, internal pos-tagging (other than marking possible english tags) and parsing are disabled.
+* If not ENGLISH, internal pos-tagging (other than marking possible english tags and numbers and dates and such) and parsing are disabled.
 * If treetagger is licensed and has that language, it will pos tag.
 * The system will use DICT/`language`. 
 * The system will use LIVEDATA/`language`
@@ -52,7 +53,7 @@ directory (which you dont have) and
 
 # POS-TAGS AND LEMMAS
 
-If you want actual POS values and lemmas (canonical form of a word), you will need a POS-tagger of some sort.
+If you want actual POS values and lemmas (canonical form of a word), you will need a POS-tagger of some sort or use ^pos(canonical) ona word.
 While it is possible to hook in an external tagger via a web call, that will be noticably slower than an
 in-built system. 
 
