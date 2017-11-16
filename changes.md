@@ -1,3 +1,9 @@
+# version 7.61
+1. ^pos(canonical xx all)  get all canonical forms (for foreign use)
+2. ^mark(_0 value  single)  dont mark the entire implication chain, just the argument given
+3. Advanced manual now has a section on advanced tokenization
+
+
 # version 7.6 10/22/2017
 1. ~capacronym -  acronyms that are  all caps, all letters
 2. :trim now supports optional quoted first param :trim "keepname"

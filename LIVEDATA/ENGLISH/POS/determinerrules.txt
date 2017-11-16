@@ -23,10 +23,10 @@ DISCARD
 	IS DETERMINER
 KEEP
 
-# in determiner/predeterminer conflict, if not followed by determiner, will be determiner - this/a (Predeterminer Determiner)  cute (Adjective_normal)
+# in determiner/predeterminer conflict, if not followed by determiner or possessive, will be determiner - this/a (Predeterminer Determiner)  cute (Adjective_normal)
  0	INCLUDE * PREDETERMINER
 	STAY HAS DETERMINER
-	!HAS DETERMINER
+	!HAS DETERMINER PRONOUN_POSSESSIVE
 DISCARD
 
 # NOT predeterminer before verbness what (Pronoun_object Pronoun_subject Predeterminer)  is/be (Aux_be_present_3ps +Verb_present_3ps)

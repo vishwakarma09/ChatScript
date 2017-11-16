@@ -3,7 +3,7 @@
 > © Bruce Wilcox, gowilcox@gmail.com brilligunderstanding.com
 
 
-<br>Revision 9/24/2017 cs7.55
+<br>Revision 11/31/2017 cs7.61
 
 
 Here are a collection of common beginner mistakes I have seen. Many will work, they are just
@@ -14,7 +14,8 @@ unnecessary and inefficient and potentially more obscure to read.
 u:MYLABEL()
 ```
 is not the same as
-```u: MYLABEL()
+```
+u: MYLABEL()
 ```
 While ChatScript will automatically space around balanced things like parens or brackets, it will not do so around ordinary text,
 so `u:MYLABEL` is a single token, an ordinary word for printout, and not a rule header.
@@ -267,7 +268,8 @@ So input like: _the raccoon ate the bear_ will fail because bear will be found f
 ## Querying with the same value in 2 positions
 
 A query like
-```^query(svo $_tmp $_tmp value)
+```
+^query(svo $_tmp $_tmp value)
 ```
 will likely fail when 2 of the values being checked are the same. This
 is because the query marks its arguments with index flags for efficiency

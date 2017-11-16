@@ -2776,7 +2776,7 @@
     private_practice~1nz (^practice~3) the practice of a profession independently and not as an employee
  police_work ( meanings=1 NOUN NOUN_SINGULAR ) 
     police_investigation~1n 
- police ( meanings=2 glosses=2 NOUN_ABSTRACT VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR COMMON4 COMMON1 NOUN_NODETERMINER KINDERGARTEN posdefault:NOUN VERB_DIRECTOBJECT ) 
+ police ( meanings=2 glosses=2 NOUN_ABSTRACT VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_PLURAL COMMON4 COMMON1 NOUN_NODETERMINER KINDERGARTEN posdefault:NOUN VERB_DIRECTOBJECT ) 
     constabulary~1nz (^force~8) the force of policemen and officers
     patrol~4vz maintain the security of by carrying out a patrol
  police_investigation ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 

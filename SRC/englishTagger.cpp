@@ -4,7 +4,7 @@ extern unsigned int tagRuleCount;
 unsigned int ambiguousWords;
 bool reverseWords = false;
 int ignoreRule = -1;
-
+static int ttLastChanged = 0;
 static WORDP firstAux = NULL;
 static bool ApplyRules();
 static void Tags(char* buffer, int i);
@@ -250,7 +250,7 @@ CD/B-NC
 		{
 			if (type) // end prior chunk
 			{
-				MarkFacts(0, 0, MakeMeaning(type), start, i,false, true);
+				MarkMeaningAndImplications(0, 0, MakeMeaning(type), start, i,false, true);
 			}
 			type = StoreWord(word);
 			type->internalBits |= CONCEPT;
@@ -260,7 +260,7 @@ CD/B-NC
 		{
 			if (type) // end prior chunk
 			{
-				MarkFacts(0, 0, MakeMeaning(type), start, i,false, true);
+				MarkMeaningAndImplications(0, 0, MakeMeaning(type), start, i,false, true);
 				type = NULL;
 			}
 		}
@@ -271,7 +271,7 @@ CD/B-NC
 		{
 		}
 	}
-	if (type) MarkFacts(0, 0, MakeMeaning(type), start, wordCount,false,true);
+	if (type) MarkMeaningAndImplications(0, 0, MakeMeaning(type), start, wordCount,false,true);
 }
 
 static void TreeTagger()
@@ -284,7 +284,7 @@ static void TreeTagger()
 	}
 	ts.number_of_words = wordCount;
 	tag_sentence(0, &ts);
-	if (trace & (TRACE_PREPARE|TRACE_POS)) Log(STDTRACELOG, "External Tagging: ");
+	if (trace & (TRACE_PREPARE|TRACE_POS|TRACE_TREETAGGER)) Log(STDTRACELOG, "External Tagging:\r\n");
 
 	bool chunk = strstr(treetaggerParams, "chunk");
 	if (chunk) // do chunking here but marking later
@@ -431,29 +431,37 @@ static void TreeTagger()
 static void BlendWithTreetagger(bool &changed)
 {
 	if (!ts.number_of_words) return;
+	static int modified = 0;
 
-	ts.number_of_words = 0;	// do only once
+	// ts.number_of_words = 0;	// do only once
 	char word[MAX_WORD_SIZE];
 	*word = '_';	// marker to keep any collision away from foreign pos
-
-	for (int i = 1; i <= wordCount; ++i)
+	int i;
+	int blocked = 0;
+	for (i = 1; i <= wordCount; ++i)
 	{
-		strcpy(word+1,ts.resulttag[i-1]);
+		strcpy(word + 1, ts.resulttag[i - 1]);
 		WORDP D = FindWord(word, 0, PRIMARY_CASE_ALLOWED);
 		if (!D) continue;	// didnt find it?
 		uint64 bits = D->properties & TAG_TEST; // dont want general headers like NOUN or VERB
 		uint64 possiblebits = posValues[i] & TAG_TEST; // bits we are trying to resolve
 		if (bits & VERB_INFINITIVE && possiblebits & VERB_PRESENT) possiblebits |= VERB_INFINITIVE; // when we launch, we want to be right
+		if (bits & ADJECTIVE_NORMAL && possiblebits & DETERMINER)
+		{
+			bits ^= ADJECTIVE_NORMAL;
+			bits |= DETERMINER; // I could make *other arrangements
+		}
 		uint64 allowable = bits & possiblebits; // bits for this tagtype
 		if (allowable && allowable != possiblebits) // we can update choices
 		{
 			posValues[i] ^= possiblebits;
 			posValues[i] |= allowable;
-			bitCounts[i] = BitCount(posValues[i]); 
+			bitCounts[i] = BitCount(posValues[i]);
 			changed = true;
-			if (trace)
+			if (trace & TRACE_TREETAGGER)
 			{
-				Log(STDTRACELOG, (char*)"Treetagger adjusted %d: %s given %s, removing: ",i,wordStarts[i], ts.resulttag[i - 1]);
+				++modified;
+				Log(STDTRACELOG, (char*)"Treetagger adjusted %d: \"%s\" given %s, removing: ", i, wordStarts[i], ts.resulttag[i - 1]);
 				uint64 lost = possiblebits ^ allowable; // these bits disappeared
 				uint64 bit = START_BIT;
 				while (bit)
@@ -461,22 +469,30 @@ static void BlendWithTreetagger(bool &changed)
 					if (lost & bit) Log(STDTRACELOG, (char*)"%s ", FindNameByValue(bit));
 					bit >>= 1;
 				}
+				Log(STDTRACELOG, (char*)" CS Remain: ");
+				bit = START_BIT;
+				while (bit)
+				{
+					if (allowable & bit)
+						Log(STDTRACELOG, (char*)"%s ", FindNameByValue(bit));
+					bit >>= 1;
+				}
 				Log(STDTRACELOG, (char*)"\r\n");
 			}
-			return;	// as soon as changed. return
+			break;	// as soon as changed. return
 		}
-		else if (!allowable && trace & TRACE_PREPARE)
+		else if (!allowable && trace & (TRACE_PREPARE | TRACE_TREETAGGER))
 		{
-			Log(STDTRACELOG, (char*)"Treetagger could not adjust %d: %s given %s, leaves: ",i, wordStarts[i], ts.resulttag[i - 1]);
+			Log(STDTRACELOG, (char*)"Treetagger could not adjust %d: \"%s\" given %s, leaves CS as: ", i, wordStarts[i], ts.resulttag[i - 1]);
 			uint64 bit = START_BIT;
+			++blocked;
 			while (bit)
 			{
 				if (possiblebits & bit) Log(STDTRACELOG, (char*)"%s ", FindNameByValue(bit));
 				bit >>= 1;
 			}
-			Log(STDTRACELOG, (char*)"\r\n");
-			 
-			Log(STDTRACELOG, (char*)"    Treetagger had extra choices for tag %s(%s): ",ts.resulttag[i - 1],ts.lemma[i-1]);
+
+			Log(STDTRACELOG, (char*)"instead of changing to:");
 			uint64 lost = bits & (-1 ^ possiblebits); // these bits disappeared from treetagger
 			bit = START_BIT;
 			while (bit)
@@ -486,6 +502,25 @@ static void BlendWithTreetagger(bool &changed)
 			}
 			Log(STDTRACELOG, (char*)"\r\n");
 		}
+		else if (trace & (TRACE_PREPARE | TRACE_TREETAGGER))
+		{
+			Log(STDTRACELOG, (char*)"Treetagger matches %d: \"%s\" TT: %s CS: ", i, wordStarts[i], ts.resulttag[i - 1]);
+			uint64 bit = START_BIT;
+			while (bit)
+			{
+				if (allowable & bit)
+					Log(STDTRACELOG, (char*)"%s ", FindNameByValue(bit));
+				bit >>= 1;
+			}
+			Log(STDTRACELOG, (char*)"\r\n");
+		}
+	}
+	if (trace & (TRACE_PREPARE | TRACE_TREETAGGER)) Log(STDTRACELOG, (char*)"\r\n");
+	ttLastChanged = i;  // or it ran out
+	if (i > wordCount)
+	{
+		Log(STDTRACELOG, (char*)"TT Adjustments: %d  Refusals: %d  Words %d\r\n\r\n", modified, blocked,wordCount);
+		modified = 0;
 	}
 }
 
@@ -1010,6 +1045,7 @@ static void PerformPosTag(int start, int end)
 	if (noPosTagging || stricmp(language, "english")) return;
 
 	unsigned int startTime = 0;
+	ttLastChanged = 0;
 	if (prepareMode == POSTIME_MODE) startTime = ElapsedMilliseconds();
 
 	// process sentence zones
@@ -2645,11 +2681,17 @@ retry:
 			int j = (reverseWords) ? (endSentence + 1 - wordIndex) : wordIndex; // test from rear of sentence forwards to prove rules are independent
 			if (bitCounts[j] != 1)  
 				ApplyRulesToWord(j,changed);
+			else if (trace & TRACE_TREETAGGER && wordIndex == endSentence) // purely for display on trace
+			{
+#ifdef TREETAGGER
+				if (ts.number_of_words && ttLastChanged <= endSentence) BlendWithTreetagger(changed); // can override us even when we know
+#endif
+			}
 		} // end loop on words
 		
 		if (ambiguous && trace & TRACE_POS && changed) Log(STDTRACELOG,(char*)"\r\n%s",DumpAnalysis(startSentence,endSentence,posValues,(char*)"POS",false,false));
 #ifdef TREETAGGER
-		if (!changed && ts.number_of_words) BlendWithTreetagger(changed); // can override us even when we know
+		if (!changed && ts.number_of_words  && ttLastChanged <= endSentence) BlendWithTreetagger(changed); // can override us even when we know
 		if (changed) continue;
 #endif	
 		if (!changed && ambiguous) // no more rules changed anything and we still need help
@@ -2676,7 +2718,7 @@ retry:
 		}
 	}
 #ifdef TREETAGGER
-	if (ts.number_of_words) BlendWithTreetagger(changed); // can override us even when we know
+	if (ts.number_of_words && ttLastChanged <= endSentence) BlendWithTreetagger(changed); // can override us even when we know
 #endif	
 #ifndef DISCARDPARSER
 	bool modified = false;
@@ -3022,22 +3064,22 @@ void MarkTags(unsigned int i)
 	{
 		if (bits & bit) 
 		{
-			if (bit & PRONOUN_BITS)  MarkFacts(0,0,MakeMeaning(Dpronoun),start,stop); // general as opposed to specific
-			else if (bit & AUX_VERB)  MarkFacts(0, 0,MakeMeaning(Dauxverb),start,stop); // general as opposed to specific
+			if (bit & PRONOUN_BITS)  MarkMeaningAndImplications(0,0,MakeMeaning(Dpronoun),start,stop); // general as opposed to specific
+			else if (bit & AUX_VERB)  MarkMeaningAndImplications(0, 0,MakeMeaning(Dauxverb),start,stop); // general as opposed to specific
 
 			// determiners are a kind of adjective- "how *much time do you like" but we dont want them marked
-			//	if (bit & DETERMINER_BITS) MarkFacts(0,0,MakeMeaning(Dadjective),start,stop);
+			//	if (bit & DETERMINER_BITS) MarkMeaningAndImplications(0,0,MakeMeaning(Dadjective),start,stop);
 			
-			MarkFacts(0, 0,posMeanings[j],start,stop); // NOUNS which have singular like "well" but could be infinitive, are listed as nouns but not infintive
+			MarkMeaningAndImplications(0, 0,posMeanings[j],start,stop); // NOUNS which have singular like "well" but could be infinitive, are listed as nouns but not infintive
 			if (bit & NOUN_HUMAN) // impute additional meanings
 			{
 				if (bits & (NOUN_PROPER_SINGULAR|NOUN_PROPER_PLURAL)) 
 				{
-					MarkFacts(0, 0,MakeMeaning(Dhumanname),start,stop);
-					MarkFacts(0, 0,MakeMeaning(Dpropername),start,stop);
+					MarkMeaningAndImplications(0, 0,MakeMeaning(Dhumanname),start,stop);
+					MarkMeaningAndImplications(0, 0,MakeMeaning(Dpropername),start,stop);
 				}
-				if (bits & NOUN_HE) MarkFacts(0, 0,MakeMeaning(Dmalename),start,stop);
-				if (bits & NOUN_SHE) MarkFacts(0, 0,MakeMeaning(Dfemalename),start,stop);
+				if (bits & NOUN_HE) MarkMeaningAndImplications(0, 0,MakeMeaning(Dmalename),start,stop);
+				if (bits & NOUN_SHE) MarkMeaningAndImplications(0, 0,MakeMeaning(Dfemalename),start,stop);
 			}
 		}
 
@@ -3054,17 +3096,17 @@ void MarkTags(unsigned int i)
 			else if (bit & WEB_URL && strchr(originalLower[i]->word+1,'@'))
 			{
 				char* x = strchr(originalLower[i]->word+1,'@');
-				if (x && IsAlphaUTF8(x[1])) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~email_url")),start,stop);
+				if (x && IsAlphaUTF8(x[1])) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~email_url")),start,stop);
 			}
-			else if (bit & MARK_FLAGS)  MarkFacts(0, 0,sysMeanings[j],start,stop);
+			else if (bit & MARK_FLAGS)  MarkMeaningAndImplications(0, 0,sysMeanings[j],start,stop);
 			bit >>= 1;
 		}
 		uint64 age = originalLower[i]->systemFlags & AGE_LEARNED;
 		if (!age){;}
-		else if (age == KINDERGARTEN)  MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~kindergarten")),start,stop);
-		else if (age == GRADE1_2)  MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~grade1_2")),start,stop);
-		else if (age == GRADE3_4)  MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~grade3_4")),start,stop);
-		else if (age == GRADE5_6)  MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~grade5_6")),start,stop);
+		else if (age == KINDERGARTEN)  MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~kindergarten")),start,stop);
+		else if (age == GRADE1_2)  MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~grade1_2")),start,stop);
+		else if (age == GRADE3_4)  MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~grade3_4")),start,stop);
+		else if (age == GRADE5_6)  MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~grade5_6")),start,stop);
 	}
 	if (bits & AUX_VERB ) finalPosValues[i] |= VERB;	// lest it report "can" as untyped, and thus become a noun -- but not ~verb from system view
 
@@ -3482,45 +3524,45 @@ void MarkRoles(int i)
 
 	uint64 role = roles[i];
 
-	if (role & MAINSUBJECT)  MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~mainsubject")),start,stop);
-	if (role & MAINVERB) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~mainverb")),start,stop);
-	if (role & MAININDIRECTOBJECT) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~mainindirectobject")),start,stop);
-	if (role & MAINOBJECT) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~mainobject")),start,stop);
-	if (role & SUBJECT_COMPLEMENT)  MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~subjectcomplement")),start,stop);
-	if (role & OBJECT_COMPLEMENT) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~objectcomplement")),start,stop);
-	if (role & ADJECTIVE_COMPLEMENT) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~adjectivecomplement")),start,stop);
+	if (role & MAINSUBJECT)  MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~mainsubject")),start,stop);
+	if (role & MAINVERB) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~mainverb")),start,stop);
+	if (role & MAININDIRECTOBJECT) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~mainindirectobject")),start,stop);
+	if (role & MAINOBJECT) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~mainobject")),start,stop);
+	if (role & SUBJECT_COMPLEMENT)  MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~subjectcomplement")),start,stop);
+	if (role & OBJECT_COMPLEMENT) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~objectcomplement")),start,stop);
+	if (role & ADJECTIVE_COMPLEMENT) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~adjectivecomplement")),start,stop);
 	
-	if (role & SUBJECT2) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~subject2")),start,stop);
-	if (role & VERB2) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~verb2")),start,stop);
-	if (role & INDIRECTOBJECT2)  MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~indirectobject2")),start,stop);
-	if (role & OBJECT2)  MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~object2")),start,stop);
+	if (role & SUBJECT2) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~subject2")),start,stop);
+	if (role & VERB2) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~verb2")),start,stop);
+	if (role & INDIRECTOBJECT2)  MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~indirectobject2")),start,stop);
+	if (role & OBJECT2)  MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~object2")),start,stop);
 	
-	if (role & ADDRESS) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~address")),start,stop);
-	if (role & APPOSITIVE) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~appositive")),start,stop);
-	if (role & POSTNOMINAL_ADJECTIVE) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~postnominaladjective")),start,stop);
-	if (role & REFLEXIVE) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~reflexive")),start,stop);
-	if (role & ABSOLUTE_PHRASE) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~absolutephrase")),start,stop);
-	if (role & OMITTED_TIME_PREP) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~omittedtimeprep")),start,stop);
-	if (role & DISTANCE_NOUN_MODIFY_ADVERB) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~DISTANCE_NOUN_MODIFY_ADVERB")),start,stop);
-	if (role & DISTANCE_NOUN_MODIFY_ADJECTIVE) MarkFacts(0,0,MakeMeaning(StoreWord((char*)"~DISTANCE_NOUN_MODIFY_ADJECTIVE")),start,stop); 
-	if (role & TIME_NOUN_MODIFY_ADVERB) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~TIME_NOUN_MODIFY_ADVERB")),start,stop);
-	if (role & TIME_NOUN_MODIFY_ADJECTIVE) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~TIME_NOUN_MODIFY_ADJECTIVE")),start,stop);
-	if (role & OMITTED_OF_PREP) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~omittedofprep")),start,stop);
+	if (role & ADDRESS) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~address")),start,stop);
+	if (role & APPOSITIVE) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~appositive")),start,stop);
+	if (role & POSTNOMINAL_ADJECTIVE) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~postnominaladjective")),start,stop);
+	if (role & REFLEXIVE) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~reflexive")),start,stop);
+	if (role & ABSOLUTE_PHRASE) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~absolutephrase")),start,stop);
+	if (role & OMITTED_TIME_PREP) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~omittedtimeprep")),start,stop);
+	if (role & DISTANCE_NOUN_MODIFY_ADVERB) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~DISTANCE_NOUN_MODIFY_ADVERB")),start,stop);
+	if (role & DISTANCE_NOUN_MODIFY_ADJECTIVE) MarkMeaningAndImplications(0,0,MakeMeaning(StoreWord((char*)"~DISTANCE_NOUN_MODIFY_ADJECTIVE")),start,stop); 
+	if (role & TIME_NOUN_MODIFY_ADVERB) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~TIME_NOUN_MODIFY_ADVERB")),start,stop);
+	if (role & TIME_NOUN_MODIFY_ADJECTIVE) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~TIME_NOUN_MODIFY_ADJECTIVE")),start,stop);
+	if (role & OMITTED_OF_PREP) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~omittedofprep")),start,stop);
 
 	uint64 crole = role & CONJUNCT_KINDS;
-	if (crole == CONJUNCT_PHRASE) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~CONJUNCT_PHRASE")),start,stop);
-	if (crole ==  CONJUNCT_CLAUSE) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~CONJUNCT_CLAUSE")),start,stop);
-	if (crole ==  CONJUNCT_SENTENCE) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~CONJUNCT_SENTENCE")),start,stop);
-	if (crole ==  CONJUNCT_NOUN) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~CONJUNCT_NOUN")),start,stop);
-	if (crole ==  CONJUNCT_VERB) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~CONJUNCT_VERB")),start,stop);
-	if (crole ==  CONJUNCT_ADJECTIVE) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~CONJUNCT_ADJECTIVE")),start,stop);
-	if (crole == CONJUNCT_ADVERB) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~CONJUNCT_ADVERB")),start,stop);
+	if (crole == CONJUNCT_PHRASE) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~CONJUNCT_PHRASE")),start,stop);
+	if (crole ==  CONJUNCT_CLAUSE) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~CONJUNCT_CLAUSE")),start,stop);
+	if (crole ==  CONJUNCT_SENTENCE) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~CONJUNCT_SENTENCE")),start,stop);
+	if (crole ==  CONJUNCT_NOUN) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~CONJUNCT_NOUN")),start,stop);
+	if (crole ==  CONJUNCT_VERB) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~CONJUNCT_VERB")),start,stop);
+	if (crole ==  CONJUNCT_ADJECTIVE) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~CONJUNCT_ADJECTIVE")),start,stop);
+	if (crole == CONJUNCT_ADVERB) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~CONJUNCT_ADVERB")),start,stop);
 
 	crole = role & ADVERBIALTYPE;
-	if (crole == WHENUNIT) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~whenunit")),start,stop);
-	if (crole ==  WHEREUNIT) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~whereunit")),start,stop);
-	if (crole ==  HOWUNIT) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~howunit")),start,stop);
-	if (crole ==  WHYUNIT) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~whyunit")),start,stop);
+	if (crole == WHENUNIT) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~whenunit")),start,stop);
+	if (crole ==  WHEREUNIT) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~whereunit")),start,stop);
+	if (crole ==  HOWUNIT) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~howunit")),start,stop);
+	if (crole ==  WHYUNIT) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~whyunit")),start,stop);
 
 
 
@@ -3534,9 +3576,9 @@ void MarkRoles(int i)
 		if (i == startSentence && phrase == phrases[endSentence]) {;} // start at end instead
 		else
 		{
-			if (posValues[i] & NOUN_BITS) MarkFacts(0, 0,MabsolutePhrase,start,stop-1);
-			else if (posValues[i] & (ADVERB|ADJECTIVE_BITS)) MarkFacts(0, 0,MtimePhrase,start,stop-1);
-			else MarkFacts(0, 0,Mphrase,start,stop-1);
+			if (posValues[i] & NOUN_BITS) MarkMeaningAndImplications(0, 0,MabsolutePhrase,start,stop-1);
+			else if (posValues[i] & (ADVERB|ADJECTIVE_BITS)) MarkMeaningAndImplications(0, 0,MtimePhrase,start,stop-1);
+			else MarkMeaningAndImplications(0, 0,Mphrase,start,stop-1);
 		}
 	}
 	
@@ -3547,7 +3589,7 @@ void MarkRoles(int i)
 		start = stop = i;
 		int bit = clause;
 		while (clauses[++stop] & bit){;}
-		MarkFacts(0, 0,MakeMeaning(Dclause),start,stop-1);
+		MarkMeaningAndImplications(0, 0,MakeMeaning(Dclause),start,stop-1);
 	}
 
 	// meanwhile mark start/end of verbals
@@ -3557,9 +3599,9 @@ void MarkRoles(int i)
 		start = stop = i;
 		int bit = verbal;
 		while (verbals[++stop] & bit){;}
-		MarkFacts(0,0,MakeMeaning(Dverbal),start,stop-1);
+		MarkMeaningAndImplications(0,0,MakeMeaning(Dverbal),start,stop-1);
 	}
-	if (role & SENTENCE_END) MarkFacts(0, 0,MakeMeaning(StoreWord((char*)"~sentenceend")),start,stop);
+	if (role & SENTENCE_END) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~sentenceend")),start,stop);
 }
 
 static void AddRole( int i, uint64 role)

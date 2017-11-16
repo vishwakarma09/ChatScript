@@ -1081,8 +1081,8 @@ static void* MainChatbotServer()
 	clock_t lastTime = ElapsedMilliseconds(); 
 	if (setjmp(scriptJump[SERVER_RECOVERY])) // crashes come back to here
 	{
-		printf((char*)"%s",(char*)"***Server exception\r\n");
-		ReportBug((char*)"***Server exception\r\n")
+		printf((char*)"%s",(char*)"***Server exception0\r\n");
+		ReportBug((char*)"***Server exception0\r\n")
 #ifdef WIN32
 		char* bad = GetUserVariable((char*)"$cs_crashmsg");
 		if (*bad) strcpy(ourMainOutputBuffer,bad);
@@ -1102,7 +1102,7 @@ static void* MainChatbotServer()
 	while (1)
 	{
 #ifdef WIN32
-	_try { // catch crashes in windows
+	_try  { // catch crashes in windows
 #else
 	try {
 #endif

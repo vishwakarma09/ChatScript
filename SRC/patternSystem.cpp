@@ -423,12 +423,12 @@ bool Match(char* buffer,char* ptr, unsigned int depth, int startposition, char* 
 				
 				uppercasematch = false;
 
-				//  aba or ~dat
-				if (ptr[0] != '*' ) 
+				//  aba or ~dat or **ar*
+				if (ptr[0] != '*' || ptr[1] == '*') // wildcard word
 				{
 					wildcardSelector |= (WILDMEMORIZESPECIFIC + (wildcardIndex << SPECIFIC_SHIFT)); 
 				}
-				// *1 or *-2 or *elle (why allow that?)
+				// *1 or *-2 or *elle (single wild token pattern match)
 				else if (IsDigit(ptr[1]) ||  ptr[1] == '-' || IsAlphaUTF8(ptr[1])) 
 				{
 					wildcardSelector |= (WILDMEMORIZESPECIFIC + (wildcardIndex << SPECIFIC_SHIFT)); 

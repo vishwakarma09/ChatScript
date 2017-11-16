@@ -1,4 +1,4 @@
-
+ï»¿
 
 table: ~languages (^languagename ^language ) 
 
@@ -176,7 +176,7 @@ DATA:
 Abkhazia 	[Abkhaz  Abkhazian]
 Afghanistan	Afghan	
 Africa African
-"Åland Islands"	"Åland Island"
+"Ã…land Islands"	"Ã…land Island"
 Albania	Albanian	
 Algeria	Algerian	
 "American Samoa"	"American Samoan"	
@@ -210,7 +210,7 @@ Brazil	Brazilian
 "British Indian Ocean Territory"	BIOT	
 Brunei	Bruneian	
 Bulgaria	Bulgarian	
-"Burkina Faso"	Burkinabé	
+"Burkina Faso"	BurkinabÃ©	
 Burma	Burmese	
 Burundi	Burundian
 "Cabo Verde"	"Cabo Verdean"	
@@ -234,10 +234,10 @@ Colombia	Colombian
 Congo Congolese
 "Cook Islands"	"Cook Island"
 "Costa Rica"	"Costa Rican"
-"Côte d'Ivoire"	Ivorian	
+"CÃ´te d'Ivoire"	Ivorian	
 Croatia	Croatian	
 Cuba	Cuban	
-Curaçao	Curaçaoan	
+CuraÃ§ao	CuraÃ§aoan	
 Cyprus	Cypriot	
 "Czech Republic"	Czech	
 Denmark	Danish	
@@ -315,7 +315,7 @@ Liechtenstein	Liechtensteiner
 Lithuania	Lithuanian	
 Luxembourg	[Luxembourg  Luxembourgish]
 Macau	Macanese
- 	Macedonian	
+Macedonia 	Macedonian	
 Madagascar	Malagasy	
 Malawi	Malawian	
 Malaysia	Malaysian	
@@ -330,7 +330,7 @@ Mayotte	Mahoran
 Mexico	Mexican	
 Micronesia Micronesian	
 Moldova	Moldovan	
-Monaco	[Monégasque  Monacan]
+Monaco	[MonÃ©gasque  Monacan]
 Mongolia	Mongolian	
 Montenegro	Montenegrin	
 Montserrat	Montserratian	
@@ -365,12 +365,12 @@ Poland	Polish
 Portugal	Portuguese	
 "Puerto Rico"	"Puerto Rican"	
 Qatar	Qatari	
-Réunion	[Réunionese  Réunionnais]
+RÃ©union	[RÃ©unionese  RÃ©unionnais]
 Romania	Romanian	
 Russia	Russian	
 Rwanda	Rwandan	
 Saba	Saba	
-"Saint Barthélemy"	Barthélemois	
+"Saint BarthÃ©lemy"	BarthÃ©lemois	
 "Saint Helena, Ascension and Tristan da Cunha"	"Saint Helenian"
 "Saint Kitts and Nevis"	"Kittitian or Nevisian"	
 "Saint Lucia"	"Saint Lucian"
@@ -379,7 +379,7 @@ Saba	Saba
 "Saint Vincent and the Grenadines"	["Saint Vincentian" Vincentian]
 Samoa	Samoan	
 "San Marino"	Sammarinese	
-"São Tomé and Príncipe"	"São Toméan"
+"SÃ£o TomÃ© and PrÃ­ncipe"	"SÃ£o TomÃ©an"
 "Saudi Arabia"	[Saudi  "Saudi Arabian"]
 Scotland	Scottish
 Senegal	Senegalese	

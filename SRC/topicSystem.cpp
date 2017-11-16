@@ -464,7 +464,7 @@ void RemoveTopicFlag(int topicid,unsigned int flag)
 char* GetTopicName(int topicid,bool actual)
 {
 	topicBlock* block = TI(topicid);
-	if (!topicid || !block->topicName) return "";
+	if (!topicid || !block || !block->topicName) return "";
 	if (actual) return block->topicName; // full topic name (if duplicate use number)
 
 	static char name[MAX_WORD_SIZE];

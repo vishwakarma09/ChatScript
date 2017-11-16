@@ -387,7 +387,7 @@ FunctionResult HandleRelation(char* word1,char* op, char* word2,bool output,int&
 	else if (*op == '?' || op[1] == '?') // ? and !? 
 	{
 		if (*word1 == '\'') ++word1; // ignore the quote since we are doing positional
-		if (*word1 == '_') // try for precomputed match from memorization
+		if (*word1 == '_') // use only precomputed match from memorization
 		{
 			unsigned int index = GetWildcardID(word1);
 			index = WILDCARD_START(wildcardPosition[index]);
@@ -397,17 +397,6 @@ FunctionResult HandleRelation(char* word1,char* op, char* word2,bool output,int&
 			{
 				int start, end;
 				if (GetNextSpot(D,index-1,start,end) == index) result = NOPROBLEM_BIT; // otherwise failed and we would have known
-			}
-			char* was = wildcardOriginalText[GetWildcardID(word1)];
-			if (result == FAILRULE_BIT && (!index || strchr(was, '_') || strchr(was, ' '))) // laborious match try now
-			{
-				D1 = FindWord(val1); // original word
-				if (D1 && D)
-				{
-					NextInferMark();
-					if (SetContains(MakeMeaning(D), MakeMeaning(D1))) result = NOPROBLEM_BIT;
-				}
-				if (result != NOPROBLEM_BIT && index) result = MemberRelation(D, val1); // try alternate form with no _
 			}
 			if (*op == '!') result = (result != NOPROBLEM_BIT) ? NOPROBLEM_BIT : FAILRULE_BIT;
 		}
@@ -453,7 +442,7 @@ FunctionResult HandleRelation(char* word1,char* op, char* word2,bool output,int&
 		unsigned char* cur1 = GetCurrency((unsigned char*) val1, currency1);
 		unsigned char* cur2 = GetCurrency((unsigned char*) val2, currency2); // use text string comparison though isdigitword calls it a number
 
-		if (*val1 == '#' || !IsDigitWord(val1,numberStyle,true) || *val2 == '#' ||  !IsDigitWord(val2,numberStyle,true) || cur1 || cur2) //   non-numeric string compare - bug, can be confused if digit starts text string
+		if (*val1 == '#' || !IsDigitWord(val1,AMERICAN_NUMBERS,true) || *val2 == '#' ||  !IsDigitWord(val2,AMERICAN_NUMBERS,true) || cur1 || cur2) //   non-numeric string compare - bug, can be confused if digit starts text string
 		{
 			char* arg1 = val1;
 			char* arg2 = val2;

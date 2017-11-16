@@ -1667,28 +1667,28 @@ file: C:/ChatScript/RAWDATA/WORLDDATA/basicgeography.tbl 0
           line: 171 91
           line: 172 137
           line: 173 169
-    concept: ~capital 195
-          line: 199 0
-          line: 200 59
-          line: 201 86
-          line: 202 121
-          line: 203 153
-    concept: ~state_region 466
-          line: 469 0
-          line: 470 71
-          line: 471 100
-          line: 472 122
-          line: 473 208
-          line: 474 233
-    concept: ~currency 1005
-          line: 1009 0
-          line: 1010 36
-          line: 1011 67
-          line: 1012 98
-          line: 1013 134
-          line: 1226 0
-          line: 1227 84
-          line: 1228 168
+    concept: ~capital 442
+          line: 446 0
+          line: 447 59
+          line: 448 86
+          line: 449 121
+          line: 450 153
+    concept: ~state_region 714
+          line: 717 0
+          line: 718 71
+          line: 719 100
+          line: 720 122
+          line: 721 208
+          line: 722 233
+    concept: ~currency 1253
+          line: 1257 0
+          line: 1258 36
+          line: 1259 67
+          line: 1260 98
+          line: 1261 134
+          line: 1474 0
+          line: 1475 84
+          line: 1476 168
 file: C:/ChatScript/RAWDATA/WORLDDATA/basicmovies_tv.tbl 0
           line: 2 0
           line: 3 35

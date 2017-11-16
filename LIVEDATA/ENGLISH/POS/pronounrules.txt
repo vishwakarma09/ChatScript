@@ -297,10 +297,17 @@ DISCARD
 	IS PRONOUN_BITS POSSESSIVE_BITS 
 DISCARD
 
-# pronoun sub/obj cannot be after possessive  cannot be adjacent to each other "I gave her *her right"
+# pronoun sub/obj cannot be after possessive  cannot be adjacent to each other "I gave her *her right"  - but "i have given *my all"
+# -1 IS  POSSESSIVE_BITS 
+# 	INCLUDE *  PRONOUN_SUBJECT  PRONOUN_OBJECT 
+# DISCARD
+
+# pronoun sub/obj after possessive must be if no other choice after that  "i have given *my all"
 -1 IS  POSSESSIVE_BITS 
-	INCLUDE *  PRONOUN_SUBJECT  PRONOUN_OBJECT 
-DISCARD
+ 	INCLUDE *  PRONOUN_SUBJECT PRONOUN_OBJECT 
+	HAS PREPOSITION CONJUNCTION_SUBORDINATE CONJUNCTION_COORDINATE 
+KEEP
+
 
 #  be possessive "*his home was" but not "I saw *her light the light"
 

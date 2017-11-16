@@ -1,6 +1,6 @@
 # ChatScript System Functions Manual
 © Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 10/26/2017 cs7.6
+<br>Revision 11/04/2017 cs7.61
 
 * [Topic Functions](ChatScript-System-Functions-Manual.md#topic-functions)
 * [Marking Functions](ChatScript-System-Functions-Manual.md#marking-functions)
@@ -342,7 +342,7 @@ hitting the same API at once may be bad for the API and forcing a randomized sle
 
 # Marking Functions
 
-### `^mark ( word location )`
+### `^mark ({"SINGLE" word location )`
 
 Marking and unmarking words and concepts is fundamental to
 the pattern matching mechanism, so the system provides both an automatic marking
@@ -403,7 +403,8 @@ the global unmark.
 The inverse of specific `^mark`, this takes a matchvariable that was
 filled at the position in the sentence you want erased and removes the mark on the word
 or concept set or topic name given. Pattern matching for it in that position will now fail.
-
+But it is not symmetric to `^mark` because it does not remove all implied marks that mark
+may have set.
 
 ### `^unmark ( * n )`
 
@@ -1727,6 +1728,7 @@ lemma forms based on part of speech. E.g., in the German dictionary you can find
 which says there are two forms of canonical, one for ADJA (adjective) and one for NN (noun).  If you don't specify a 3rd argument,
 you get the first one (ADJA). If you specify `~ADJA` you get the first and if you specify `~NN`  you get the second.
 
+If your third argumernt is `all` then the list of all canonical forms is returned with | separating the entries.
 
 ### `^decodeInputtoken ( number )`
 

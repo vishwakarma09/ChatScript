@@ -1,7 +1,7 @@
 #include "common.h"
 
 extern int ignoreRule;
-
+static bool down_is = true;
 
 bool VerifyAuthorization(FILE* in) //   is he allowed to use :commands
 {
@@ -2049,6 +2049,59 @@ static void ShowFailCount(WORDP D,uint64 junk)
 	D->w.planArgCount = 0;
 }
 
+static void C_TrimDown(char* file)
+{
+	FILE* out = FopenUTF8Write("tmp/tmp.txt");
+	FILE* in = FopenReadOnly(file);
+	if (!in)
+	{
+		Log(STDTRACELOG, (char*)"No such file %s\r\n", file);
+		return;
+	}
+	char word[MAX_WORD_SIZE];
+	while (ReadALine(readBuffer, in) >= 0)
+	{
+		char* at = readBuffer;
+		while (*at)
+		{
+			at = ReadCompiledWord(at, word);
+			if (!*word || *word == '~') continue;
+			char* tilde = strchr(word+1, '~');
+			if (tilde) *tilde = 0;
+			fprintf(out, "%s\r\n",word);
+		}
+	}
+	fclose(out);
+	fclose(in);
+	printf("done\r\n");
+}
+
+static void C_CheckList(char* file)
+{
+	FILE* out = FopenUTF8Write("tmp/tmp.txt");
+	FILE* in = FopenReadOnly(file);
+	if (!in)
+	{
+		Log(STDTRACELOG, (char*)"No such file %s\r\n", file);
+		return;
+	}
+	char word[MAX_WORD_SIZE];
+	while (ReadALine(readBuffer, in) >= 0)
+	{
+		char* at = readBuffer;
+		while (*at)
+		{
+			at = ReadCompiledWord(at, word);
+			WORDP D = FindWord(word);
+			if (D && D->properties & VERB) 
+				fprintf(out, "%s\r\n", word);
+		}
+	}
+	fclose(out);
+	fclose(in);
+	printf("done\r\n");
+}
+
 static void C_TrimField(char* file)
 {
 	FILE* out = FopenUTF8Write("tmp/tmp.txt");
@@ -2058,7 +2111,7 @@ static void C_TrimField(char* file)
 		Log(STDTRACELOG, (char*)"No such file %s\r\n", file);
 		return;
 	}
-	while (fgets(readBuffer, 10000000, in) >= (void *)0)
+	while (fgets(readBuffer, 10000000, in) != NULL)
 	{
 		if (!*readBuffer) break;
 		//VA-51382515	legal	family		I have a friend who has a half brother. His father won't let him see his brother. Does my friend have any rights in this matter?
@@ -5092,10 +5145,11 @@ static void DrawSynsets(MEANING M)
 	unsigned int index = Meaning2Index(M);
 	WORDP D = Meaning2Word(M);
 	unsigned int limit =  GetMeaningCount(D);
+	if (!down_is) limit = 0;
 	if (!limit)
 	{
 		MEANING T = MakeMeaning(D,0);
-		Log(STDTRACELOG,(char*)" %s",WriteMeaning(T,true)); // simple member
+		Log(STDTRACELOG,(char*)" %s ",WriteMeaning(T,true)); // simple member
 	}
 	for (unsigned int i = 1; i <= limit; ++i)
 	{
@@ -5113,7 +5167,7 @@ static void DrawSynsets(MEANING M)
 			if (++n >= 20) break; // force an end arbitrarily
 		}
 	}
-	Log(STDTRACELOG,(char*)"\r\n "); 
+//	if (down_is) Log(STDTRACELOG, (char*)"\r\n");
 }
 
 static void DrawDownHierarchy(MEANING T,unsigned int depth,unsigned int limit,bool sets)
@@ -5152,10 +5206,11 @@ static void DrawDownHierarchy(MEANING T,unsigned int depth,unsigned int limit,bo
 						for (unsigned int j = 0; j < (depth*2); ++j) Log(STDTRACELOG,(char*)" ");
 					}
 					else DrawSynsets(M);
-					if ( ++i >= 10)
+					if ( ++i >= 5)
 					{
 						Log(STDTRACELOG,(char*)"\r\n");
 						for (unsigned int j = 0; j < (depth*2); ++j) Log(STDTRACELOG,(char*)" ");
+						Log(STDTRACELOG, (char*)" ");
 						i = 0;
 					}
 				}
@@ -5165,7 +5220,7 @@ static void DrawDownHierarchy(MEANING T,unsigned int depth,unsigned int limit,bo
 		return;
 	}
 
-    for (unsigned int k = 1; k <= size; ++k) //   for each meaning of this dictionary word
+    if (down_is || index) for (unsigned int k = 1; k <= size; ++k) //   for each meaning of this dictionary word
     {
         if (index)
 		{
@@ -5181,7 +5236,7 @@ static void DrawDownHierarchy(MEANING T,unsigned int depth,unsigned int limit,bo
         //   for the current T meaning
 		char* gloss = GetGloss(Meaning2Word(T),Meaning2Index(T));
 		if (!gloss) gloss = "";
-        if (depth++ == 0 && size)  Log(STDTRACELOG,(char*)"\r\n<%s.%d => %s %s\r\n",D->word,k,WriteMeaning(T),gloss); //   header for this top level meaning is OUR entry and MASTER
+        if (depth++ == 0 && size)  Log(STDTRACELOG,(char*)"\r\n<%s.%d => %s (%s)\r\n",D->word,k,WriteMeaning(T),gloss); //   header for this top level meaning is OUR entry and MASTER
         int l = 0;
         while (++l) //   find the children of the meaning of T
         {
@@ -5197,8 +5252,9 @@ static void DrawDownHierarchy(MEANING T,unsigned int depth,unsigned int limit,bo
             for (unsigned int j = 0; j <= (depth*2); ++j) Log(STDTRACELOG,(char*)" "); 
    			gloss = GetGloss(Meaning2Word(child),Meaning2Index(child));
 			if (!gloss) gloss = "";
-			Log(STDTRACELOG,(char*)"%d. (%s) ",depth,gloss);
+			Log(STDTRACELOG,(char*)"%d. ",depth);
 			DrawSynsets(child);
+			Log(STDTRACELOG, (char*)"(%s)\r\n", gloss);
 
 			// below child master
 			DrawDownHierarchy(child,depth,limit,sets);
@@ -5345,6 +5401,7 @@ static void C_Down(char* input)
 {
 	char word[MAX_WORD_SIZE];
 	input = ReadCompiledWord(input,word);
+	if (*word == '~') down_is = false; // concept set not wordnet
 	input = SkipWhitespace(input);
     int limit = atoi(input);
     if (!limit) limit = 1; //   top 2 level only (so we can see if it has a hierarchy)
@@ -5352,8 +5409,10 @@ static void C_Down(char* input)
 	NextInferMark();
 	MEANING M = ReadMeaning(word,false);
 	M = GetMaster(M);
+	Log(STDTRACELOG, (char*)"   1. %s\r\n",word);
     DrawDownHierarchy(M,1,limit+1,!stricmp(input,(char*)"sets"));
 	Log(STDTRACELOG,(char*)"\r\n");
+	down_is = true;
 }
 
 static void FindXWord(WORDP D, uint64 pattern)
@@ -5632,7 +5691,7 @@ static bool DumpUpHierarchy(MEANING T,int depth)
 			else if (restrict & ADVERB) Log(STDTRACELOG,(char*)"Adv ");
 			else if (restrict & PREPOSITION) Log(STDTRACELOG,(char*)"Prep ");
 			char* gloss = GetGloss(D1,Meaning2Index(T));
-			if (gloss) Log(STDTRACELOG,(char*)" %s ",gloss);
+			if (gloss) Log(STDTRACELOG,(char*)" (%s) ",gloss);
 			Log(STDTRACELOG,(char*)"\r\n"); 
 		
 			if (!DumpSetPath(T,depth)) return false;
@@ -5645,7 +5704,7 @@ static bool DumpUpHierarchy(MEANING T,int depth)
 				Log(STDTRACELOG,(char*)"   ");
 				Log(STDTRACELOG,(char*)" is %s ",WriteMeaning(parent)); //   we show the immediate parent
 				char* gloss = GetGloss(P,Meaning2Index(parent));
-				if (gloss) Log(STDTRACELOG,(char*)" %s ",gloss);
+				if (gloss) Log(STDTRACELOG,(char*)" (%s) ",gloss);
 				Log(STDTRACELOG,(char*)"\r\n"); 
 				if (!DumpSetPath(parent,depth)) return false;
 				if (!DumpUpHierarchy(parent,depth+1)) return false; //   we find out what sets PARENT is in (will be none- bug)
@@ -5665,7 +5724,7 @@ static bool DumpUpHierarchy(MEANING T,int depth)
 			for (int j = 0; j < depth; ++j) Log(STDTRACELOG,(char*)"   "); 
 			Log(STDTRACELOG,(char*)" is %s",WriteMeaning(parent)); //   we show the immediate parent
 			char* gloss = GetGloss(P,index);
-			if (gloss) Log(STDTRACELOG,(char*)" %s ",gloss);
+			if (gloss) Log(STDTRACELOG,(char*)" (%s) ",gloss);
 			Log(STDTRACELOG,(char*)"\r\n");
 			if (!DumpSetPath(parent,depth)) return false;
 			if (!DumpUpHierarchy(parent,depth+1)) return false; //   we find out what sets PARENT is in (will be none- bug)
@@ -7533,7 +7592,7 @@ static void ShowTrace(unsigned int bits, bool original)
 {
 	unsigned int general = (TRACE_VARIABLE|TRACE_MATCH|TRACE_FLOW|TRACE_ECHO);
 	unsigned int mild = (TRACE_OUTPUT|TRACE_PREPARE|TRACE_PATTERN);
-	unsigned int deep = (TRACE_ALWAYS|TRACE_JSON|TRACE_TOPIC|TRACE_FACT|TRACE_SAMPLE|TRACE_INFER|TRACE_HIERARCHY|TRACE_SUBSTITUTE|TRACE_VARIABLESET|TRACE_QUERY|TRACE_USER|TRACE_USERFACT|TRACE_POS| TRACE_TCP|TRACE_USERFN|TRACE_USERCACHE|TRACE_SQL|TRACE_LABEL);
+	unsigned int deep = (TRACE_ALWAYS|TRACE_JSON|TRACE_TOPIC|TRACE_FACT|TRACE_SAMPLE|TRACE_INFER|TRACE_HIERARCHY|TRACE_SUBSTITUTE|TRACE_VARIABLESET|TRACE_QUERY|TRACE_USER|TRACE_USERFACT| TRACE_TREETAGGER | TRACE_POS| TRACE_TCP|TRACE_USERFN|TRACE_USERCACHE|TRACE_SQL|TRACE_LABEL);
 
 	// general
 	if (bits & general) 
@@ -7578,6 +7637,7 @@ static void ShowTrace(unsigned int bits, bool original)
 		if (bits & TRACE_TOPIC) Log(ECHOSTDTRACELOG,(char*)"topic ");
 		if (bits & TRACE_USER) Log(ECHOSTDTRACELOG,(char*)"user ");
 		if (bits & TRACE_USERFACT) Log(ECHOSTDTRACELOG,(char*)"userfact ");
+		if (bits & TRACE_TREETAGGER) Log(ECHOSTDTRACELOG, (char*)"treetagger ");
 		if (bits & TRACE_USERCACHE) Log(ECHOSTDTRACELOG,(char*)"usercache ");
 		if (bits & TRACE_VARIABLESET) Log(ECHOSTDTRACELOG,(char*)"varassign ");
 		Log(ECHOSTDTRACELOG,(char*)"\r\n");
@@ -7627,6 +7687,7 @@ static void ShowTrace(unsigned int bits, bool original)
 		if (!(bits & TRACE_TOPIC)) Log(ECHOSTDTRACELOG,(char*)"topic ");
 		if (!(bits & TRACE_USER)) Log(ECHOSTDTRACELOG,(char*)"user ");
 		if (!(bits & TRACE_USERFACT)) Log(ECHOSTDTRACELOG,(char*)"userfact ");
+		if (!(bits & TRACE_TREETAGGER)) Log(ECHOSTDTRACELOG, (char*)"treetagger ");
 		if (!(bits & TRACE_USERCACHE)) Log(ECHOSTDTRACELOG,(char*)"usercache ");
 		if (!(bits & TRACE_VARIABLESET)) Log(ECHOSTDTRACELOG,(char*)"varassign ");
 		Log(ECHOSTDTRACELOG,(char*)"\r\n");
@@ -7638,7 +7699,7 @@ static void ShowTiming(unsigned int bits, bool original)
 {
 	unsigned int general = TRACE_FLOW;
 	unsigned int mild = (TRACE_PREPARE | TRACE_PATTERN);
-	unsigned int deep = (TRACE_ALWAYS | TRACE_JSON | TRACE_TOPIC | TRACE_QUERY | TRACE_USER | TRACE_USERFACT| TRACE_TCP | TRACE_USERFN | TRACE_USERCACHE | TRACE_SQL);
+	unsigned int deep = (TRACE_ALWAYS | TRACE_JSON | TRACE_TOPIC | TRACE_QUERY | TRACE_USER | TRACE_USERFACT| TRACE_TREETAGGER | TRACE_TCP | TRACE_USERFN | TRACE_USERCACHE | TRACE_SQL);
 
 	// general
 	if (bits & general)
@@ -7672,6 +7733,7 @@ static void ShowTiming(unsigned int bits, bool original)
 		if (bits & TRACE_TOPIC) Log(ECHOSTDTRACELOG, (char*)"topic ");
 		if (bits & TRACE_USER) Log(ECHOSTDTRACELOG, (char*)"user ");
 		if (bits & TRACE_USERFACT) Log(ECHOSTDTRACELOG, (char*)"userfact ");
+		if (bits & TRACE_TREETAGGER) Log(ECHOSTDTRACELOG, (char*)"treetagger ");
 		if (bits & TRACE_USERCACHE) Log(ECHOSTDTRACELOG, (char*)"usercache ");
 		Log(ECHOSTDTRACELOG, (char*)"\r\n");
 	}
@@ -7709,6 +7771,7 @@ static void ShowTiming(unsigned int bits, bool original)
 		if (!(bits & TRACE_TOPIC)) Log(ECHOSTDTRACELOG, (char*)"topic ");
 		if (!(bits & TRACE_USER)) Log(ECHOSTDTRACELOG, (char*)"user ");
 		if (!(bits & TRACE_USERFACT)) Log(ECHOSTDTRACELOG, (char*)"userfact ");
+		if (!(bits & TRACE_TREETAGGER)) Log(ECHOSTDTRACELOG, (char*)"treetagger ");
 		if (!(bits & TRACE_USERCACHE)) Log(ECHOSTDTRACELOG, (char*)"usercache ");
 		Log(ECHOSTDTRACELOG, (char*)"\r\n");
 	}
@@ -7798,7 +7861,7 @@ static void C_Trace(char* input)
 	while (input) 
 	{
 		input = ReadCompiledWord(input,word); // if using trace in a table, use closer "end" if you are using named flags
-		if (!*word) break;
+		if (!*word || *word == '`') break; // ran out of rule or user input
 		input = SkipWhitespace(input);
 		if (*word == '+') // add this flag is the default
 		{
@@ -7837,6 +7900,7 @@ static void C_Trace(char* input)
 			else if (!stricmp(word,(char*)"query")) flags &= -1 ^  TRACE_QUERY;
 			else if (!stricmp(word,(char*)"user")) flags &= -1 ^  TRACE_USER;
 			else if (!stricmp(word,(char*)"userfact")) flags &= -1 ^  TRACE_USERFACT;
+			else if (!stricmp(word, (char*)"treetagger")) flags &= -1 ^ TRACE_TREETAGGER;
 			else if (!stricmp(word,(char*)"pos")) flags &= -1 ^  TRACE_POS;
 			else if (!stricmp(word,(char*)"tcp")) flags &= -1 ^  TRACE_TCP;
 			else if (!stricmp(word,(char*)"json")) flags &= -1 ^  TRACE_JSON;
@@ -7845,7 +7909,7 @@ static void C_Trace(char* input)
 			else if (!stricmp(word,(char*)"sql")) flags &= -1 ^  TRACE_SQL;
 			else if (!stricmp(word,(char*)"label")) flags &= -1 ^  TRACE_LABEL;
 			else if (!stricmp(word,(char*)"topic")) flags &= -1 ^  TRACE_TOPIC;
-			else if (!stricmp(word,(char*)"deep")) flags &= -1 ^ (TRACE_JSON|TRACE_TOPIC|TRACE_FLOW|TRACE_INPUT|TRACE_USERFN|TRACE_SAMPLE|TRACE_INFER|TRACE_SUBSTITUTE|TRACE_HIERARCHY| TRACE_FACT| TRACE_VARIABLESET| TRACE_QUERY| TRACE_USER|TRACE_USERFACT|TRACE_POS|TRACE_TCP|TRACE_USERCACHE|TRACE_SQL|TRACE_LABEL); 
+			else if (!stricmp(word,(char*)"deep")) flags &= -1 ^ (TRACE_JSON|TRACE_TOPIC|TRACE_FLOW|TRACE_INPUT|TRACE_USERFN|TRACE_SAMPLE|TRACE_INFER|TRACE_SUBSTITUTE|TRACE_HIERARCHY| TRACE_FACT| TRACE_VARIABLESET| TRACE_QUERY| TRACE_USER|TRACE_USERFACT|TRACE_TREETAGGER|TRACE_POS|TRACE_TCP|TRACE_USERCACHE|TRACE_SQL|TRACE_LABEL); 
 			else if (!stricmp(word,(char*)"always")) flags &= -1 ^  TRACE_ALWAYS;
 		}
 		else if (IsNumberStarter(*word)  && !IsAlphaUTF8(word[1]))
@@ -7875,6 +7939,7 @@ static void C_Trace(char* input)
 		else if (!stricmp(word,(char*)"query")) flags |= TRACE_QUERY;
 		else if (!stricmp(word,(char*)"user")) flags |= TRACE_USER;
 		else if (!stricmp(word,(char*)"userfact")) flags |= TRACE_USERFACT;
+		else if (!stricmp(word, (char*)"treetagger")) flags |= TRACE_TREETAGGER;
 		else if (!stricmp(word,(char*)"pos")) flags |= TRACE_POS;
 		else if (!stricmp(word,(char*)"tcp")) flags |= TRACE_TCP;
 		else if (!stricmp(word,(char*)"json")) flags |= TRACE_JSON;
@@ -7883,7 +7948,7 @@ static void C_Trace(char* input)
 		else if (!stricmp(word,(char*)"sql")) flags |= TRACE_SQL;
 		else if (!stricmp(word,(char*)"label")) flags |= TRACE_LABEL;
 		else if (!stricmp(word,(char*)"topic")) flags |= TRACE_TOPIC;
-		else if (!stricmp(word,(char*)"deep")) flags |= (TRACE_JSON|TRACE_TOPIC|TRACE_FLOW|TRACE_INPUT|TRACE_USERFN|TRACE_SAMPLE|TRACE_INFER|TRACE_SUBSTITUTE|TRACE_HIERARCHY| TRACE_FACT| TRACE_VARIABLESET| TRACE_QUERY| TRACE_USER|TRACE_USERFACT|TRACE_POS|TRACE_TCP|TRACE_USERCACHE|TRACE_SQL|TRACE_LABEL); 
+		else if (!stricmp(word,(char*)"deep")) flags |= (TRACE_JSON|TRACE_TOPIC|TRACE_FLOW|TRACE_INPUT|TRACE_USERFN|TRACE_SAMPLE|TRACE_INFER|TRACE_SUBSTITUTE|TRACE_HIERARCHY| TRACE_FACT| TRACE_VARIABLESET| TRACE_QUERY| TRACE_USER|TRACE_USERFACT|TRACE_TREETAGGER|TRACE_POS|TRACE_TCP|TRACE_USERCACHE|TRACE_SQL|TRACE_LABEL); 
 		else if (!stricmp(word,(char*)"notthis")) flags |=  TRACE_NOT_THIS_TOPIC;
 		else if (!stricmp(word,(char*)"always")) flags |= TRACE_ALWAYS;
 
@@ -10188,7 +10253,9 @@ CommandInfo commandSet[] = // NEW
 	{ (char*)":diff",C_Diff,(char*)"match 2 files and report lines that differ"}, 
 	{ (char*)":trim",C_Trim,(char*)"Strip excess off chatlog file to make simple file TMP/tmp.txt"}, 
 	{ (char*)":trimfield",C_TrimField,(char*)"echo file to TMP/tmp.txt minus short line in column" },
-	
+	{ (char*)":trimdown",C_TrimDown,(char*)"echo  to TMP/tmp.txt single word entries from a :down list" },
+	{ (char*)":checklist",C_CheckList,(char*)"echo  to TMP/tmp.txt words in file list that can be verbs" },
+
 	{ (char*)"\r\n---- internal support",0,(char*)""}, 
 	{ (char*)":dedupe",C_Dedupe,(char*)"echo input file to TMP/tmp.txt without duplicate lines)" },
 	{ (char*)":topicdump",C_TopicDump,(char*)"Dump topic data suitable for inclusion as extra topics into TMP/tmp.txt (:extratopic or PerformChatGivenTopic)"},

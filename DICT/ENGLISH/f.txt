@@ -2226,7 +2226,7 @@
     foxtrot~2vz dance the foxtrot
  folk_dancing ( meanings=1 glosses=1 NOUN_ABSTRACT VERB_PRESENT_PARTICIPLE NOUN VERB ADJECTIVE ADJECTIVE_PARTICIPLE NOUN_SINGULAR VERB_CONJUGATE1 ) conjugate=fold_danced 
     folk_dance~1nz (^social_dancing~1) a style of dancing that originated among ordinary people
- folk ( meanings=4 glosses=2 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON4 GRADE3_4 posdefault:NOUN ) 
+ folk ( meanings=4 glosses=2 NOUN_ABSTRACT NOUN NOUN_PLURAL COMMON4 GRADE3_4 posdefault:NOUN ) 
     folk~1nz (^popular_music_genre~1) the traditional and typically anonymous music that is an expression of the life of people in a community
     common_people~1nz (^people~1) people in general 
     family~2n 

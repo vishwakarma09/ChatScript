@@ -508,8 +508,8 @@ DISCARD
 
 # after determiner and before insured noun, wont be noun - the/a (Determiner)  monthly (Noun_singular +Adjective_normal Adverb)  sales (+Noun_plural +Noun_singular) 
 -1 IS DETERMINER
-	INCLUDE * ADJECTIVE_BITS
-	STAY HAS NOUN_BITS
+	INCLUDE * NOUN_BITS 
+	STAY HAS ADJECTIVE_BITS
 	CANONLYBE NOUN_BITS
 DISCARD
 

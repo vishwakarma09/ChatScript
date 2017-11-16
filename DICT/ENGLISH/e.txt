@@ -5012,7 +5012,7 @@
     effecter~1nz (^individual~1) one who brings about a result or event
  external_organ ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
     external_organ~1nz (^organ~4) an organ that is situated on or near the surface of the body
- entrails ( meanings=1 glosses=1 NOUN NOUN_SINGULAR COMMON2 COMMON1 ) 
+ entrails ( meanings=1 glosses=1 NOUN NOUN_PLURAL COMMON2 COMMON1 ) 
     innards~1nz (^internal_organ~1) internal organs collectively 
  enteroceptor ( meanings=1 NOUN NOUN_SINGULAR ) 
     interoceptor~1n 
