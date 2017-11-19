@@ -1326,7 +1326,7 @@ retry:
 	if (*ptr == '(') // pattern requirement
 	{
 		wildcardIndex = 0;
-		bool uppercasem = false;
+		int uppercasem = 0;
 		whenmatched = 0;
  		if (start > wordCount || !Match(buffer,ptr+2,0,start,(char*)"(",1,0,start,end,uppercasem,whenmatched,0,0)) result = FAILMATCH_BIT;  // skip paren and blank, returns start as the location for retry if appropriate
 		if (clearUnmarks) // remove transient global disables.
@@ -2311,7 +2311,7 @@ static void AddRecursiveProperty(WORDP D,uint64 type,bool dictionaryBuild,unsign
 	{
 		if (type & NOUN && !(D->properties & (NOUN_PROPER_SINGULAR|NOUN_SINGULAR|NOUN_PLURAL|NOUN_PROPER_PLURAL))) // infer case 
 		{
-			if (IsUpperCase(*D->word) || IsUpperCase(D->word[1]) || IsUpperCase(D->word[2])) AddProperty(D,NOUN_PROPER_SINGULAR);
+			if (D->internalBits & UPPERCASE_HASH) AddProperty(D,NOUN_PROPER_SINGULAR);
 			else AddProperty(D,NOUN_SINGULAR);
 		}
 		return;
@@ -2444,6 +2444,11 @@ void InitKeywords(const char* fname,const char* layer,unsigned int build,bool di
 					intbits |= UPPERCASE_MATCH;
 					continue;
 				}
+				if (!stricmp(word, (char*)"PREFER_THIS_UPPERCASE"))
+				{
+					intbits |= PREFER_THIS_UPPERCASE;
+					continue;
+				}
 				uint64 val = FindValueByName(word);
 				if ( val) type |= val;
 				else 
@@ -2548,7 +2553,7 @@ void InitKeywords(const char* fname,const char* layer,unsigned int build,bool di
 				U |= (type | required)  & (NOUN|VERB|ADJECTIVE|ADVERB); // add any pos restriction as well
 
 				// if word is proper name, allow it to be substituted
-				if (IsUpperCase(*D->word))
+				if (D->internalBits & UPPERCASE_HASH)
 				{
 					AddProperty(D,NOUN|NOUN_PROPER_SINGULAR); // could have been plural for all we know
 					char* underscore = strchr(D->word,'_');
@@ -2562,7 +2567,7 @@ void InitKeywords(const char* fname,const char* layer,unsigned int build,bool di
 							*underscore = 0;
 							WORDP E = StoreWord(D->word);
 							*underscore = '_';
-							SETMULTIWORDHEADER(E,n);
+							if (n > GETMULTIWORDHEADER(E)) SETMULTIWORDHEADER(E, n);	//   mark it can go this far for an idiom
 						}
 					}
 				}

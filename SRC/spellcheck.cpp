@@ -102,8 +102,22 @@ static bool SameUTF(char* word, char* utfstring)
 	return (!strncmp(word, utfstring, len));
 }
 
-static int SplitWord(char* word)
+static int SplitWord(char* word,int i)
 {
+	size_t len1 = strlen(word);
+	// Do not split acronyms (all uppercase) unless word before or after is lowercase
+	int j;
+	for (j = 0; j < len1; ++j)
+	{
+		if (!IsUpperCase(word[j])) break;
+	}
+	if (j == len1) // looks like acrynum but is any neighbor non caps
+	{
+		if (wordStarts[i - 1] && IsUpperCase(wordStarts[i - 1][0])) j = 0;
+		if (wordStarts[i + 1] && IsUpperCase(wordStarts[i + 1][0])) j = 0;
+	}
+	if (j == len1) return 0;
+
 	WORDP D2;
 	bool good;
 	int breakAt = 0;
@@ -127,6 +141,8 @@ static int SplitWord(char* word)
 			}
 		}
     }
+
+	// dont split acronyms
 
 	//  try all combinations of breaking the word into two known words
 	breakAt = 0;
@@ -167,7 +183,7 @@ static char* SpellCheck( int i)
 	if (len > 2 && word[len-2] == '\'') return word;	// dont do anything with ' words
 
     //   test for run togetherness like "talkabout fingers"
-    int breakAt = SplitWord(word);
+    int breakAt = SplitWord(word,i);
     if (breakAt > 0)//   we found a split, insert 2nd word into word stream
     {
 		char* tokens[3];
@@ -185,7 +201,7 @@ static char* SpellCheck( int i)
 		char tmp[MAX_WORD_SIZE*2];
 		strcpy(tmp,word);
 		strcat(tmp,wordStarts[i+1]);
-		breakAt = SplitWord(tmp);
+		breakAt = SplitWord(tmp,i);
 		if (breakAt > 0) // replace words with the dual pair
 		{
 			char* tokens[3];
@@ -232,25 +248,11 @@ char* ProbableKnownWord(char* word)
 {
 	if (strchr(word,' ') || strchr(word,'_')) return word; // not user input, is synthesized
 	size_t len = strlen(word);
-
-	// do we know the word as is?
-	WORDP D = FindWord(word,0,PRIMARY_CASE_ALLOWED);
-	if (D) 
-	{
-		if (D->properties & FOREIGN_WORD || *D->word == '~' || D->systemFlags & PATTERN_WORD) return D->word;	// we know this word clearly or its a concept set ref emotion
-		if (D->properties & PART_OF_SPEECH && !IS_NEW_WORD(D)) return D->word; // old word we know
-		if (D <= dictionaryPreBuild[LAYER_0]) return D->word; // in dictionary
-		if (stricmp(language,"English") && !IS_NEW_WORD(D)) return D->word; // foreign word we know
-		if (IsConceptMember(D)) return D->word;
-		// are there facts using this word? -- issue with facts because on seeing input second time, having made facts of original, we see original
-//		if (GetSubjectNondeadHead(D) || GetObjectNondeadHead(D) || GetVerbNondeadHead(D)) return D->word;
-	}
-	
 	char lower[MAX_WORD_SIZE];
 	MakeLowerCopy(lower,word);
 
 	// do we know the word in lower case?
-	D = FindWord(word,0,LOWERCASE_LOOKUP);
+	WORDP D = FindWord(word,0,LOWERCASE_LOOKUP);
 	if (D) // direct recognition
 	{
 		if (D->properties & FOREIGN_WORD || *D->word == '~' || D->systemFlags & PATTERN_WORD) return D->word;	// we know this word clearly or its a concept set ref emotion
@@ -372,6 +374,16 @@ bool SpellCheckSentence()
 			if (altered) word = wordStarts[i] = StoreWord(newword, AS_IS)->word;
 		}
 
+		// do we know the word meaningfully as is?
+		WORDP D = FindWord(word, 0, PRIMARY_CASE_ALLOWED);
+		if (D && !IS_NEW_WORD(D))
+		{
+			if (D->properties & (FOREIGN_WORD| PART_OF_SPEECH) || *D->word == '~' || D->systemFlags & PATTERN_WORD) continue;	// we know this word clearly or its a concept set ref emotion
+			if (D <= dictionaryPreBuild[LAYER_0]) continue; // in dictionary - if a substitute would have happend by now
+			if (stricmp(language, "English")) continue; // foreign word we know
+			if (IsConceptMember(D)) continue;
+		}
+
 		if (IsDate(word)) continue; // allow 1970/10/5 or similar
 
 		// degrees
@@ -487,6 +499,62 @@ bool SpellCheckSentence()
 			continue;
 		}
 
+		// words with excess repeated characters >2 => 2
+		char excess[MAX_WORD_SIZE];
+		len = strlen(word);
+		if (len < MAX_WORD_SIZE && !IsDigit(word[1]) && word[1] != '.' && word[1] != ',')
+		{
+			strcpy(excess, word);
+			bool change = false;
+			// refuse to believe any 3 or more repeats
+			for (int j = 0;  j < len; ++j)
+			{
+				if (excess[j] == excess[j + 1] && excess[j + 2] == excess[j])
+				{
+					memmove(excess + j + 1, excess + j + 2, strlen(excess + j + 1));
+					j -= 1;
+					--len;
+					change = true;
+					continue;
+				}
+			}
+			if (change)
+			{
+				char* tokens[2];
+				tokens[1] = excess;
+				ReplaceWords("multiple repeat letters", i, 1, 1, tokens);
+				fixedSpell = true;
+				word = wordStarts[i];
+				WORDP D = FindWord(excess);
+				if (D && !IS_NEW_WORD(D)) continue;
+			}
+		}
+		
+		// words with excess repeated characters 2=>1
+		len = strlen(word);
+		if (len < MAX_WORD_SIZE && !FindWord(word) && !IsDigit(word[1]) && word[1] != '.' && word[1] != ',')
+		{
+			strcpy(excess, word);
+			bool change = false;
+			for (int j = 0; j < len; ++j)
+			{
+				if (excess[j] == excess[j + 1])
+				{
+					memmove(excess + j + 1, excess + j + 2, strlen(excess + j + 1));
+					if (FindWord(excess))
+					{
+						char* tokens[2];
+						tokens[1] = excess;
+						ReplaceWords("2 repeat letters", i, 1, 1, tokens);
+						fixedSpell = true;
+						break;
+					}
+					else strcpy(excess, word);
+				}
+			}
+			if (change) continue;
+		}
+
 		// split arithmetic  1+2
 		if (IsDigit(*word) && IsDigit(word[size - 1]))
 		{
@@ -510,6 +578,59 @@ bool SpellCheckSentence()
 					fixedSpell = true;
 					continue;
 				}
+			}
+		}
+
+		// merge with next token?
+		if (i != wordCount && *wordStarts[i + 1] != '"')
+		{
+			char join[MAX_WORD_SIZE * 3];
+			// direct merge as a single word
+			strcpy(join, word);
+			strcat(join, wordStarts[i + 1]);
+			WORDP D = FindWord(join, 0, (tokenControl & ONLY_LOWERCASE) ? PRIMARY_CASE_ALLOWED : STANDARD_LOOKUP);
+			if (D && D->properties & PART_OF_SPEECH && !(D->properties & AUX_VERB)) {} // merge these two, except "going to" or wordnet composites of normal words
+			else // merge with underscore?  shia tsu
+			{
+				strcpy(join, word);
+				strcat(join, "_");
+				strcat(join, wordStarts[i + 1]);
+				D = FindWord(join, 0, (tokenControl & ONLY_LOWERCASE) ? PRIMARY_CASE_ALLOWED : STANDARD_LOOKUP);
+				if (D && D->properties & PART_OF_SPEECH && !(D->properties & AUX_VERB)) // allow these two, except "going to" or wordnet composites of normal words
+				{
+					++i;
+					continue;
+				}
+			}
+			if (D && D->properties & PART_OF_SPEECH && !(D->properties & AUX_VERB)) // merge these two, except "going to" or wordnet composites of normal words
+			{
+				WORDP P1 = FindWord(word, 0, LOWERCASE_LOOKUP);
+				WORDP P2 = FindWord(wordStarts[i + 1], 0, LOWERCASE_LOOKUP);
+				if (!P1 || !P2 || !(P1->properties & PART_OF_SPEECH) || !(P2->properties & PART_OF_SPEECH))
+				{
+					char* tokens[2];
+					tokens[1] = D->word;
+					ReplaceWords("merge", i, 2, 1, tokens);
+					fixedSpell = true;
+					continue;
+				}
+			}
+		}
+
+		// sloppy omitted g in lookin
+		if (word[len - 1] == 'n' && word[len - 2] == 'i')
+		{
+			WORDP D = FindWord(word, len - 2);
+			if (D && D->properties & BASIC_POS)
+			{
+				char test[MAX_WORD_SIZE];
+				strcpy(test, word);
+				strcat(test, "g");
+				char* tokens[2];
+				tokens[1] = test;
+				ReplaceWords("omitg", i, 1, 1, tokens);
+				fixedSpell = true;
+				continue;
 			}
 		}
 
@@ -611,38 +732,6 @@ bool SpellCheckSentence()
 			}
 		}
 		
-		// merge with next token?
-		char join[MAX_WORD_SIZE * 3];
-		if (i != wordCount && *wordStarts[i+1] != '"' )
-		{
-			// direct merge as a single word
-			strcpy(join,word);
-			strcat(join,wordStarts[i+1]);
-			WORDP D = FindWord(join,0,(tokenControl & ONLY_LOWERCASE) ?  PRIMARY_CASE_ALLOWED : STANDARD_LOOKUP);
-
-			strcpy(join,word);
-//			if (!D || !(D->properties & PART_OF_SPEECH) ) // merge these two, except "going to" or wordnet composites of normal words  // merge as a compound word
-//			{
-//				strcat(join,(char*)"_");
-//				strcat(join,wordStarts[i+1]);
-//				D = FindWord(join,0,(tokenControl & ONLY_LOWERCASE) ?  PRIMARY_CASE_ALLOWED : STANDARD_LOOKUP);
-//			}    DONT CREATE _ words, let sequence handle it
-
-			if (D && D->properties & PART_OF_SPEECH && !(D->properties & AUX_VERB)) // merge these two, except "going to" or wordnet composites of normal words
-			{
-				WORDP P1 = FindWord(word,0,LOWERCASE_LOOKUP);
-				WORDP P2 = FindWord(wordStarts[i+1],0,LOWERCASE_LOOKUP);
-				if (!P1 || !P2 || !(P1->properties & PART_OF_SPEECH) || !(P2->properties & PART_OF_SPEECH)) 
-				{
-					char* tokens[2];
-					tokens[1] = D->word;
-					ReplaceWords("merge",i,2,1,tokens);
-					fixedSpell = true;
-					continue;
-				}
-			}
-		}   
-
 		// break apart slashed pair like eat/feed
 		char* slash = strchr(word,'/');
 		if (slash && !slash[1] && len < MAX_WORD_SIZE) // remove trailing slash
@@ -775,38 +864,6 @@ bool SpellCheckSentence()
 		}
 
 		// see if smooshed word pair
-		size_t len1 = strlen(word);
-		int j;
-		if (!IsDigit(*word))
-		{
-			// Do not split acronyms (all uppercase) unless word before or after is lowercase
-			for (j = 0; j < len1; ++j)
-			{
-				if (!IsUpperCase(word[j])) break;
-			}
-			if (j == len1) // looks like acrynum but is any neighbor non caps
-			{
-				if (wordStarts[i - 1] && IsUpperCase(wordStarts[i - 1][0])) j = 0;
-				if (wordStarts[i + 1] && IsUpperCase(wordStarts[i + 1][0])) j = 0;
-			}
-			if (j != len1) for (j = 1; j <= len1 - 1; ++j)
-			{
-				WORDP X1 = FindWord(word, j);  // any case
-				WORDP X2 = FindWord(word + j, len1 - i); // any case
-
-				if (X1 && X2 && (X1->word[1] || X1->word[0] == 'i' || X1->word[0] == 'I' || X1->word[0] == 'a'))
-				{
-					char* tokens[3];
-					tokens[1] = X1->word;
-					tokens[2] = X2->word;
-					ReplaceWords("Split", i, 1, 2, tokens);
-					fixedSpell = true;
-					break;
-				}
-			}
-			if (j != len1) continue;
-		}
-
 		if (*word != '\'' && (!FindCanonical(word, i,true) || IsUpperCase(word[0]))) // dont check quoted or findable words unless they are capitalized
 		{
 			word = SpellCheck(i);
@@ -828,7 +885,7 @@ bool SpellCheckSentence()
 			{
 				char* tokens[2];
 				tokens[1] = word;
-				ReplaceWords("Spell",i,1,1,tokens);
+				ReplaceWords("SpellFix",i,1,1,tokens);
 				fixedSpell = true;
 				continue;
 			}

@@ -15,7 +15,7 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
 #endif
 typedef void (*ExternalTaggerFunction)();
 #define SEQUENCE_LIMIT 5		// max number of words in a row to hit on as an entry
-#define MAX_XREF_SENTENCE 32	// number of places a word can hit to in sentence * 2 (start+end offset byte) = 
+#define MAX_XREF_SENTENCE 50	// number of places a word can hit to in sentence
 extern int maxRefSentence;
 extern ExternalTaggerFunction externalPostagger;
 extern char respondLevel;
@@ -30,7 +30,6 @@ unsigned int GetIthSpot(WORDP D,int i,int& start,int& end);
 bool MarkWordHit(int depth,int ucase,WORDP D, int index, int start,int end);
 void MarkMeaningAndImplications(int depth,int ucase,MEANING M,int start,int end,bool canonical = false, bool sequence = false, bool once = false);
 void RemoveMatchValue(WORDP D, int position);
-bool IsMarked(WORDP D, int start, int end);
 unsigned int IsMarkedItem(WORDP D, int start, int end);
 void MarkAllImpliedWords();
 char* DumpAnalysis(int start, int end, uint64 posValues[MAX_SENTENCE_LENGTH],const char* label,bool original,bool roles);

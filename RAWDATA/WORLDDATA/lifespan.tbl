@@ -2,7 +2,7 @@
  
 table: ~xlifespan (^what  ^years )
 ^createfact(^years lifespan ^what)
-
+^addproperty(^what #NOUN)
 DATA:
 [worker_ant ant]  0.5 
 [ant_queen queen_ant] 3 
@@ -137,7 +137,7 @@ rottweiler  10
 salamander           11 
 sheep 15 
 sheepdog 13.5 
-shih_tzu 13 
+Shih_Tzu 13 
 [siberian_husky husky]  12 
 snake               18 
 snake 10 

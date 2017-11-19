@@ -13364,7 +13364,7 @@
 ( 11 lifespan salamander )
 ( 15 lifespan sheep )
 ( 13.50 lifespan sheepdog )
-( 13 lifespan shih_tzu )
+( 13 lifespan Shih_Tzu )
 ( 12 lifespan siberian_husky )
 ( 12 lifespan husky )
 ( 18 lifespan snake )

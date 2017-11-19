@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1 id="chatscript-debugging-manual">ChatScript Debugging Manual</h1>
-<p>© Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com<br> <br>Revision 9/24/2017 cs7.55</p>
+<p>© Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com<br> <br>Revision 11/19/2017 cs7.7</p>
 <p>You've written script. It doesn't work. Now what? Now you need to debug it, fix it, and recompile it. Debugging is mostly a matter of tracing what the system does testpaand finding out where it doesn't do what you expected. Debugging mostly done by issuing commands to the engine, as opposed to chatting.</p>
 <p>If the system detects bugs during execution, they go into <code>TMP/bugs.txt</code> You can erase the entire contents of the TMP directory any time you want to. But odds are this is not your problem.</p>
 <p>Debugging generally requires use of some :xxxx commands. I don't always remember them all, so at times I might simply say</p>
@@ -198,6 +198,7 @@
 <p>which says to trace just the 4th top level rule in <code>~education</code>, rejoinder # 5. The above defaults to tracing everything while in that topic. You can specify what you want to trace by naming trace values and then the topic.</p>
 <h3 id="trace-prepare-basic-facts-education"><code>:trace prepare basic facts ~education</code></h3>
 <p>The above will turn on a bunch of trace values and then assign them to the topic, clearing the trace values.</p>
+<h3 id="trace-input-trace-prepare-can-generate-a-lot-of-data-about-concept-marking.-if-you-just-want-a-simple-check-on-what-the-adjusted-input-looks-like-you-can-dotrace-input"><code>:trace input :trace prepare can generate a lot of data about concept marking. If you  just want a simple check on what the adjusted input looks like, you can do</code>:trace input`</h3>
 <h3 id="trace-prepare-basic-facts-myfunc"><code>:trace prepare basic facts ^myfunc</code></h3>
 <p>The above will turn on a bunch of trace values and then assign them to the function, clearing the trace values.</p>
 <p>Note: If you want to set a regular trace value and a topic and/or function, the regular trace values must occur last, after all topic and function traces.</p>
@@ -346,10 +347,14 @@ RAWDATA/simpletopic.top # things we can chat about
 <td>trace match results on rules with labels</td>
 </tr>
 <tr class="even">
+<td>treetagger</td>
+<td>show tt behavior</td>
+</tr>
+<tr class="odd">
 <td>topic</td>
 <td>erasing rules, issues in pushing a topic, rejoinder setting</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>deep</td>
 <td>input macro sample infer substitute fact varassign query user pos tcp usercache sql label topic</td>
 </tr>
@@ -363,6 +368,8 @@ RAWDATA/simpletopic.top # things we can chat about
 <pre><code>:trace pattern ~mytopic pos ~yourtopic varassign</code></pre>
 <p><code>~mytopic</code> gets the pattern limit, <code>~yourtopic</code> gets the pos limit, and globally you do varassign.</p>
 <p>Note: the correct way to turn on/off normal tracing from script is by changing the tracing variable, e.g., $cs_trace = -1.</p>
+<h3 id="tracing-a-server">Tracing a server</h3>
+<p>Sometimes you do not control the user account, so you cannot do :trace from it. You can do <code>:trace universal</code> from any account to force the server to trace all users. Turn it off with <code>:trace none</code>. Obviously not a good thing to do on a highly active server as it slows everyone and generates large logs potentially.</p>
 <h3 id="understanding-a-pattern-trace">Understanding a pattern trace</h3>
 <pre><code>    try 3.0: ( ! %response=0 !%lastquestion !%outputrejoinder )   
             ( !%response(0)=0- Remaining pattern: !%lastquestion ! %outputrejoinder )
@@ -548,6 +555,8 @@ RAWDATA/ONTOLOGY/prepositionhierarchy.top</code></pre>
 <p>An input sentence that is merely <code>:quit</code> will stop source reading before the file ends, and return to normal source input.</p>
 <h3 id="pos"><code>:pos</code></h3>
 <p>This is a subset of :prepare that just runs the POS-tagger parser on the input you supply. I use it to debug the system. It either is given a sentence or toggles a mode if not (just like <code>:prepare</code>). It also displays pronoun data gathered from the input.</p>
+<h3 id="tokenize"><code>:tokenize</code></h3>
+<p>This is a subset of :prepare that just runs tokenization and adjusts the input, but does not show POS-tagging and concept marking.</p>
 <h3 id="testpos"><code>:testpos</code></h3>
 <p>This switches input to the named file (if not named defaults to <code>REGRESS/posttest.txt</code>) and running regression POS testing. If the result of processing an input deviates from that listed in the test file, the system presents this as an error.</p>
 <h3 id="verifysubstitutes"><code>:verifysubstitutes</code></h3>

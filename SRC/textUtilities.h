@@ -164,7 +164,7 @@ bool IsNumericDate(char* word,char* end);
 bool IsFloat(char* word, char* end, int useNumberStyle = AMERICAN_NUMBERS);
 char GetTemperatureLetter (char* ptr);
 char* IsTextCurrency(char* ptr, char* end);
-bool IsLegalName(char* name);
+bool IsLegalName(char* name,bool label = false);
 unsigned char* GetCurrency(unsigned char* ptr,char* &number);
 bool IsCommaNumberSegment(char* start,char* end);
 bool IsRomanNumeral(char* word, uint64& val);

@@ -545,7 +545,7 @@ static int64 ProcessNumber(int at, char* original, WORDP& revise, WORDP &entry, 
 		uint64 val = entry->properties; // numbers we "know" in some form should be as we know them. like "once" is adverb and adjective, not cardinal noun
 		if (entry->properties & NOUN && !(entry->properties & NOUN_BITS)) // we dont know its typing other than as noun... figure it out
 		{
-			if (IsUpperCase(*entry->word)) val |= NOUN_PROPER_SINGULAR;
+			if (entry->internalBits & UPPERCASE_HASH) val |= NOUN_PROPER_SINGULAR;
 			else val |= NOUN_SINGULAR;
 		}
 		if (val & ADJECTIVE_NORMAL) // change over to known number
@@ -2368,7 +2368,7 @@ char* GetPluralNoun(WORDP noun)
 		else if ( end == 'o' && !IsVowel(before)) sprintf(word,(char*)"%ses",noun->word); // hero -> heroes>
 		else if ( end == 'y' && !IsVowel(before)) // cherry -> cherries
 		{
-			if (IsUpperCase(*noun->word)) sprintf(word,(char*)"%ss",noun->word); // Germany->Germanys
+			if (noun->internalBits & UPPERCASE_HASH) sprintf(word,(char*)"%ss",noun->word); // Germany->Germanys
 			else
 			{
 				strncpy(word,noun->word,len-1);

@@ -1348,7 +1348,7 @@ bool RuleTest(char* data) // see if pattern matches
 	GetPattern(data,NULL,pattern);
 	wildcardIndex = 0;
 	int junk;
-	bool uppercasem = false;
+	int uppercasem = 0;
 	int matched = 0;
 	char* buffer = AllocateStack(NULL,MAX_BUFFER_SIZE); // not expecting big data from function call in match
 	bool answer =  Match(buffer,pattern+2,0,0,(char*)"(",1,0,junk,junk,uppercasem,matched,0,0); // start past the opening paren
@@ -4158,7 +4158,7 @@ FunctionResult MatchCode(char* buffer)
 	#endif
 	}
  	if (!*base) return FAILRULE_BIT;	// NO DATA?
-	bool uppercasem = false;
+	int uppercasem = 0;
 	int matched = 0;
 	wildcardIndex = 0;  //   reset wildcard allocation on top-level pattern match
 	int first = 0;
@@ -4248,6 +4248,7 @@ static FunctionResult SaveSentenceCode(char* buffer)
 		D = StoreWord(wordStarts[i],AS_IS);
 		M = MakeMeaning(D);
 		memory[n++] = M;
+
 		D = StoreWord(wordCanonical[i],AS_IS);
 		M = MakeMeaning(D);
 		memory[n++] = M;
@@ -4265,7 +4266,7 @@ static FunctionResult SaveSentenceCode(char* buffer)
 	memory[n++] = derivationLength;
 	for (int i = 1; i <= derivationLength; ++i)
 	{
-		D = StoreWord(derivationSentence[i],AS_IS);
+		D = StoreWord(derivationSentence[i], AS_IS);
 		M = MakeMeaning(D);
 		memory[n++] = M;
 	}

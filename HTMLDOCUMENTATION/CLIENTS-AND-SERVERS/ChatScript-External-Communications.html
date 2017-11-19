@@ -13,7 +13,7 @@
 <p>© Bruce Wilcox, gowilcox@gmail.com brilligunderstanding.com</p>
 </blockquote>
 <blockquote>
-<p>Revision 1/1/2017 cs7.0</p>
+<p>Revision 11/19/2017 cs7.7</p>
 </blockquote>
 <p>ChatScript is fine for a chatbot that does not depend on the outer world. But if you need to control an avatar or grab information from sensors or the Internet, you need a way to communicate externally from ChatScript. There are three mechanisms: embedding ChatScript inside another main program which will do the machine-specific actions, calling programs on the OS from ChatScript where ChatScript remains in control, and getting services via the Interet from ChatScript.</p>
 <h2 id="calling-outside-routines-from-chatscript">Calling Outside Routines from ChatScript</h2>
@@ -47,14 +47,14 @@
 <p>Log files are generated locally in the device and must somehow migrate to a server if you want analytics. Typically this is done when the user launches the app and if an internet connection exists and it has been long enough since the last upload, the log files are uploaded to a server and cleared from the client.</p>
 <p>Upgrade issues involve the desire to fix or augment ChatScript content without requiring the user download a new edition of the app. That is, on startup the app would check with the server and if specific files (eg the entire TOPIC folder) have changed, it downloads those changed files. It either then initializes ChatScript (the changes take place immediately) or if it has already initialized ChatScript the changes will take place starting with the next user startup of the app.</p>
 <h3 id="embedding-step-1">Embedding Step #1</h3>
-<p>First, you will need to modify common.h and compile the system. You need to add all the CS .cpp files to your build list.</p>
-<p>Find the // #define NOMAIN 1 and uncomment it. This will allow you to compile your program as the main program and ChatScript merely as a collection of routines to accompany it. Since this is an embedded program, you can also disable a bunch of code you won't need by uncommenting:</p>
+<p>First, you will need to modify common.h and compile the system. You need to add all the CS .cpp files to your build list. Or if you are running Windows, you can just use the ChatScriptDLL in the BINARIES folder.</p>
+<p>Otherwise, find the // #define NOMAIN 1 and uncomment it. This will allow you to compile your program as the main program and ChatScript merely as a collection of routines to accompany it. Since this is an embedded program, you can also disable a bunch of code you won't need by uncommenting:</p>
 <pre><code>// #define DISCARDSERVER 1
 // #define DISCARDCLIENT 1
 // #define DISCARDSCRIPTCOMPILER 1
 // #define DISCARDTESTING 1 – if your script will execute test functions then you must keep</code></pre>
 <h3 id="embedding-step-2">Embedding Step #2</h3>
-<p>To embed CS within a client, you need to perform two calls. To call these routines, your code will need a predeclaration of these routines. The first is</p>
+<p>To embed CS within a client, you need to perform three calls. To call these routines, your code will need a predeclaration of these routines. The first is</p>
 <pre><code>InitSystem(int argc, char * argv[],char* unchangedPath, char* readablePath, char* writeablePath, USERFILESYSTEM* userfiles)</code></pre>
 <p>where you pass in various command line parameters to control things like logging or memory usage. Only the first two parameters are required, the remainder being optional and defaulted to NULL.</p>
 <p>The three paths will normally be NULL, unless you are under iOS where their devices access files from different areas. All paths refer to being in the ChatScript directory, but different folders are stored under different paths based on expected use. The unchangedPath would be the read-only folders DICT/ and src/ and LIVEDATA, which never get changed. The readablePath would be the folder TOPIC and VERIFY and <code>authorizedIP.txt</code>, where the app doesn't change it but you might download replacement data. The writeablepath would be for USERS and TMP, which CS changes with every volley (if TMP exists).</p>
@@ -77,6 +77,8 @@
 </ol>
 <p>The system adds this one topic into the topic system as though it were part of the system, which it is, but only for the duration of the call. This is useful if you want to synthesize a topic out of rules you have lying around. You get rules in proper format by using :topicdump topicname to generate rules one per line. You will then be responsible for concatenating some number of these rules int this memory block later. If a topic of this name already exists, the resident topic will be disabled during the call and restored at completion of the call.</p>
 <p>And you can, as always, pass in and out variable values using out-of-band [] communication. Furthermore, the actual tag of the rule that matched is actually available to you at the end of the out buffer, just after the null terminated output.</p>
+<p>The third call is when you want to release CS and shutdown...</p>
+<pre><code>void CloseSystem();</code></pre>
 <h2 id="oob-communication">OOB Communication</h2>
 <p>While not required, many applications that embed ChatScript are well served by implementing the standard out-of-band communication mechanisms that CS supports on its webpage interface. Whenever CS sends back a message for the user, it has the option of prefixing that output with oob data contained in <code>[ ]</code>. What messages you send your app are entirely your own choice, describing animations and sounds to play or whatever. The standard UI ones are:</p>
 <pre><code>[callback=1000]

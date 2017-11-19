@@ -1,6 +1,6 @@
 # ChatScript System Functions Manual
 © Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 11/04/2017 cs7.61
+<br>Revision 11/19/2017 cs7.7
 
 * [Topic Functions](ChatScript-System-Functions-Manual.md#topic-functions)
 * [Marking Functions](ChatScript-System-Functions-Manual.md#marking-functions)
@@ -2245,6 +2245,8 @@ Likewise how many top level members of a concept (not recursive).
 Or how many fields in a json object or elements in a json array.
 Or how many characters in a word. A Null value for the argument is legal, and is of length 0.
 
+Note: if you do length of a name that starts with `~` and is not a defined
+concept set, the function fails rather than return 0.
 
 ### `^nth ( factset count )`
 

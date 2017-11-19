@@ -1,7 +1,7 @@
 // variableSystem.cpp - manage user variables ($variables)
 
 #include "common.h"
-
+int bbb = 0;
 #ifdef INFORMATION
 There are 5 kinds of variables.
 1. User variables beginning wih $(regular and transient which begin with $$)
@@ -78,16 +78,16 @@ void JoinMatch(int start, int end,int index,bool inpattern)
 		else strcat(wildcardCanonicalText[index], word);
 	}
 	if (strstr(wildcardCanonicalText[index], "unknown-word")) strcpy(wildcardCanonicalText[index], "unknown-word"); // if any are unknown, the composite is unknown
-	// force a particular case? do we know the word?
-	int lookup = STANDARD_LOOKUP;
-	if (uppercaseFind > 0) 
-		lookup = UPPERCASE_LOOKUP;
-	else if (uppercaseFind == 0) lookup = LOWERCASE_LOOKUP;
-	WORDP D = FindWord(wildcardCanonicalText[index], 0, lookup);
+	bbb = 1;
+	WORDP D;
+	if (uppercaseFind > 0 && uppercaseFind != 0x01000000) D = Index2Word((uppercaseFind & 0x00ffffff));
+	else D = FindWord(wildcardCanonicalText[index], 0, STANDARD_LOOKUP);
 	if (D) strcpy(wildcardCanonicalText[index], D->word); // but may not be found if original has plural or such or if uses _
-	D = FindWord(wildcardOriginalText[index], 0, lookup);
+	if (uppercaseFind > 0 && uppercaseFind != 0x01000000) D = Index2Word((uppercaseFind & 0x00ffffff));
+	else D = FindWord(wildcardOriginalText[index], 0, STANDARD_LOOKUP);
 	if (D) strcpy(wildcardOriginalText[index], D->word); // but may not be found if original has plural or such or if uses _
-
+	bbb = 0;
+	uppercaseFind = -1; // use it up
 	if (trace & TRACE_OUTPUT && !inpattern && CheckTopicTrace()) Log(STDTRACELOG, (char*)"_%d=%s/%s ", index, wildcardOriginalText[index], wildcardCanonicalText[index]);
 }
 
@@ -409,7 +409,6 @@ void SetUserVariable(const char* var, char* word, bool assignment)
 	MakeLowerCopy(varname,(char*)var);
     WORDP D = StoreWord(varname);				// find or create the var.
 	if (!D) return; // ran out of memory
-
 #ifndef DISCARDTESTING
 	CheckAssignment(varname,word);
 #endif
@@ -481,6 +480,13 @@ void SetUserVariable(const char* var, char* word, bool assignment)
 			modifiedTrace = true;
 		}
 	}	
+	// output random choice selection
+	else if (!stricmp(var, (char*)"$cs_outputchoice"))
+	{
+		int64 val = -1;
+		if (word && *word) ReadInt64(word, val);
+		outputchoice = (unsigned int)val;
+	}
 	// responsecontrol changes are noticed by the engine
 	else if (!stricmp(var,(char*)"$cs_response")) 
 	{

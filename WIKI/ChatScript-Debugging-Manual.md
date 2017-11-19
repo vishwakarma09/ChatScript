@@ -1,6 +1,6 @@
 # ChatScript Debugging Manual
 © Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com<br>
-<br>Revision 9/24/2017 cs7.55
+<br>Revision 11/19/2017 cs7.7
 
 You've written script. It doesn't work. Now what? Now you need to debug it, fix it, and
 recompile it. Debugging is mostly a matter of tracing what the system does testpaand
@@ -303,7 +303,12 @@ want to trace by naming trace values and then the topic.
 
 ### `:trace prepare basic facts ~education`
 The above will turn on a bunch of trace values and then assign them to the topic, 
-clearing the trace values.
+clearing the trace values. 
+
+### `:trace input
+:trace prepare can generate a lot of data about concept marking. If you 
+just want a simple check on what the adjusted input looks like, you can do
+`:trace input`
 
 ### `:trace prepare basic facts ^myfunc`
 The above will turn on a bunch of trace values and then assign them to the function, 
@@ -399,6 +404,7 @@ you can name some and add more in another call. Here are things you can trace:
 | usercache    | internal showing of user topic file caching |
 | sql          | traces postgres calls |
 | label        | trace match results on rules with labels |
+| treetagger   | show tt behavior|
 | topic        | erasing rules, issues in pushing a topic, rejoinder setting |
 | deep         | input macro sample infer substitute fact varassign query user pos tcp usercache sql label topic |
 
@@ -419,6 +425,12 @@ for that topic. This means you can do multiple topics and global limits in one c
 
 Note: the correct way to turn on/off normal tracing from script is 
 by changing the tracing variable, e.g.,  $cs_trace = -1. 
+
+### Tracing a server
+Sometimes you do not control the user account, so you cannot do :trace from it.
+You can do `:trace universal` from any account to force the server to trace all users.
+Turn it off with `:trace none`. Obviously not a good thing to do on a highly active server
+as it slows everyone and generates large logs potentially.
 
 ### Understanding a pattern trace
 
@@ -822,6 +834,10 @@ before the file ends, and return to normal source input.
 This is a subset of :prepare that just runs the POS-tagger parser on the input you supply. I
 use it to debug the system. It either is given a sentence or toggles a mode if not (just
 like `:prepare`). It also displays pronoun data gathered from the input.
+
+### `:tokenize`
+This is a subset of :prepare that just runs tokenization and adjusts the input, but does not
+show POS-tagging and concept marking.
 
 ### `:testpos`
 This switches input to the named file (if not named defaults to `REGRESS/posttest.txt`)

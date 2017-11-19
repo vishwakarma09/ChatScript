@@ -3,7 +3,7 @@
 > © Bruce Wilcox, gowilcox@gmail.com brilligunderstanding.com
 
 
-> Revision 1/1/2017 cs7.0
+> Revision 11/19/2017 cs7.7
 
 ChatScript is fine for a chatbot that does not depend on the outer world. But if you need to control an
 avatar or grab information from sensors or the Internet, you need a way to communicate externally
@@ -96,10 +96,9 @@ starting with the next user startup of the app.
 
 
 ### Embedding Step #1
-First, you will need to modify common.h and compile the system. You need to add all the CS .cpp files
-to your build list.
+First, you will need to modify common.h and compile the system. You need to add all the CS .cpp files to your build list. Or if you are running Windows, you can just use the ChatScriptDLL in the BINARIES folder.
 
-Find the // #define NOMAIN 1 and uncomment it. 
+Otherwise, find the // #define NOMAIN 1 and uncomment it. 
 This will allow you to compile your program as the main program and ChatScript
 merely as a collection of routines to accompany it. Since this is an embedded program, you can also
 disable a bunch of code you won't need by uncommenting:
@@ -111,7 +110,7 @@ disable a bunch of code you won't need by uncommenting:
 ```
 
 ### Embedding Step #2
-To embed CS within a client, you need to perform two calls. To call these routines, your code will need
+To embed CS within a client, you need to perform three calls. To call these routines, your code will need
 a predeclaration of these routines. 
 The first is
 ```
@@ -190,6 +189,12 @@ during the call and restored at completion of the call.
 And you can, as always, pass in and out variable values using out-of-band [] communication.
 Furthermore, the actual tag of the rule that matched is actually available to you at the end of the out
 buffer, just after the null terminated output.
+
+The third call is when you want to release CS and shutdown...
+```
+void CloseSystem();
+```
+
 
 
 ## OOB Communication

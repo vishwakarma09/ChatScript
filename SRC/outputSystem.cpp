@@ -94,7 +94,7 @@ char* GetCommandArg(char* ptr, char* buffer,FunctionResult& result,unsigned int 
 	if (!(control & ASSIGNMENT)) impliedSet = ALREADY_HANDLED;
 	if (control == 0) control |= OUTPUT_KEEPSET | OUTPUT_ONCE | OUTPUT_NOCOMMANUMBER;
 	else control |= OUTPUT_ONCE | OUTPUT_NOCOMMANUMBER;
-	ptr = Output(ptr,buffer,result,control); // no additional buffering needed
+	ptr = FreshOutput(ptr, buffer, result, control, MAX_WORD_SIZE);
 	if (!(control & ASSIGNMENT))  impliedSet = oldImpliedSet; // assignment of @0 = ^querytopics needs to be allowed to change to alreadyhandled
 	return ptr;
 }
@@ -391,7 +391,7 @@ void StdNumber(char* word,char*& buffer,int controls) // text numbers may have s
 	}
 
 	int useNumberStyle = numberStyle;
-	if (controls & OUTPUT_NOCOMMANUMBER) useNumberStyle = NOSTYLE_NUMBERS;
+	if (controls & OUTPUT_NOCOMMANUMBER || len < 5) useNumberStyle = NOSTYLE_NUMBERS;
 
 	if (IsFloat(word,end))
 	{
@@ -482,6 +482,7 @@ static char* ProcessChoice(char* ptr,char* buffer,FunctionResult &result,int con
 	while (count > 0)
 	{
 		int r = random(count);
+		if (outputchoice >= 0 && outputchoice < count) r = outputchoice; // forced by user
 		char* ptr = SkipWhitespace(choiceset[r]);
 		if (*ptr == ']') break; // choice does nothing by intention
 		char level = 0;
@@ -1004,8 +1005,9 @@ char* Output(char* ptr,char* buffer,FunctionResult &result,int controls)
             }
             else if (!stricmp(language, "french") &&  (*word == ':' || *word == ';' || *word == '!' || *word == '?')) {; }
 			else if (quoted && *word == '\\' && word[1] == '"') allow = false; // ending quoted
-			// dont space after $  or # or [ or ( or " or / e   USERVAR_PREFIX
-			else if (c == '(' || c == '[' || c == '{'  || c == '$' || c == '#' || c == '/' || c == '`' || c == '\n') allow = false; //erased text is `
+			// dont space after $   or [ or ( or " or / e   USERVAR_PREFIX
+			else if (c == '(' || c == '[' || c == '{'  || c == '$'  || c == '/' || c == '`' || c == '\n') allow = false; //erased text is `
+			else if (c == '#') { ; } // expecting a number but c# is not
 			else if (c == 'n' && *(buffer-2) == '\\') allow = false; // slow form of \n
 			else if (*word == '"' && word[1] == '^') allow = false; // format string handles its own spacing so
 			else if (*word == '\\' && word[1] == ')') allow = false; // dont space before )

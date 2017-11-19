@@ -1169,7 +1169,7 @@ static void ClearBeenHere(WORDP D, uint64 junk)
 
 bool TopLevelUnit(char* word) // major headers (not kinds of rules)
 {
-	return (!stricmp(word,(char*)":quit") || !stricmp(word,(char*)"canon:")  || !stricmp(word,(char*)"replace:")  || !stricmp(word,(char*)"query:")  || !stricmp(word,(char*)"concept:") || !stricmp(word,(char*)"data:") || !stricmp(word,(char*)"plan:") 
+	return (!stricmp(word,(char*)":quit") || !stricmp(word,(char*)"canon:")  || !stricmp(word,(char*)"replace:") || !stricmp(word, (char*)"prefer:") || !stricmp(word,(char*)"query:")  || !stricmp(word,(char*)"concept:") || !stricmp(word,(char*)"data:") || !stricmp(word,(char*)"plan:")
 		|| !stricmp(word,(char*)"outputMacro:") || !stricmp(word,(char*)"patternMacro:") || !stricmp(word,(char*)"dualMacro:")  || !stricmp(word,(char*)"table:") || !stricmp(word,(char*)"tableMacro:") || !stricmp(word,(char*)"rename:") || 
 		!stricmp(word,(char*)"describe:") ||  !stricmp(word,(char*)"bot:") || !stricmp(word,(char*)"topic:") || (*word == ':' && IsAlphaUTF8(word[1])) );	// :xxx is a debug command
 }
@@ -3433,6 +3433,7 @@ Then one of 3 kinds of character:
 
 				if (*nextToken == '(' && (IsAlphaUTF8(*word)  ||IsDigit(*word))) //  label exists
 				{
+					if (!IsLegalName(word,true)) BADSCRIPT((char*)"? Illegal characters in rule label %s", word)
 					char name[MAX_WORD_SIZE];
 					*name = '^';
 					strcpy(name+1,word);
@@ -3449,7 +3450,7 @@ Then one of 3 kinds of character:
 					strcat(label,word);
 					strcpy(labelName,word);
 					MakeUpperCase(label); // full label to test if exists.
-					WORDP E = StoreWord(label,0);
+					WORDP E = StoreWord(label,AS_IS);
 					AddInternalFlag(E,LABEL);
 					if (strchr(word,'.')) BADSCRIPT((char*)"RULE-2 Label %s must not contain a period",word)
 					if (len > 160) BADSCRIPT((char*)"RULE-2 Label %s must be less than 160 characters",word)
@@ -3506,15 +3507,6 @@ Then one of 3 kinds of character:
 			if (!*word || TopLevelUnit(word) || TopLevelRule(lowercaseForm) || !stricmp(word,(char*)"datum:"))  
 			{
 				ptr -= strlen(word);  // safe
-				if (trace & TRACE_SCRIPT) 
-				{
-					char c = original[40];
-					original[40] = 0;
-					while (level-- > 0) 
-						Log(STDTRACELOG,(char*)"  ");
-					Log(STDTRACELOG,(char*)"rule: %s\r\n",original);
-					original[40] = c;
-				}
 				break;//   responder definition ends when another major unit or top level responder starts
 			}
 
@@ -3522,15 +3514,6 @@ Then one of 3 kinds of character:
 			strcpy(kind,lowercaseForm);
 		}
 		else ReportBug((char*)"unexpected word in ReadTopLevelRule - %s",word)
-		if (trace & TRACE_SCRIPT) 
-		{
-			char c = original[40];
-			original[40] = 0;
-			while (level-- > 0) 
-				Log(STDTRACELOG,(char*)"  ");
-			Log(STDTRACELOG,(char*)"rule: %s\r\n",original);
-			original[40] = c;
-		}
 	}
 
 	//   did he forget to fill in any [] jumps
@@ -4137,7 +4120,7 @@ static char* ReadKeyword(char* word,char* ptr,bool &notted, bool &quoted, MEANIN
 						BADSCRIPT((char*)"CONCEPT-8 Cannot include topic into self - %s",D->word);
 					CheckSetOrTopic(D->word);
 				}
-				else if ( ignoreSpell || !spellCheck || strchr(D->word,'_') || !D->word[1] || IsUpperCase(*D->word)) {;}	// ignore spelling issues, phrases, short words &&  proper names
+				else if ( ignoreSpell || !spellCheck || strchr(D->word,'_') || !D->word[1] || D->internalBits & UPPERCASE_HASH) {;}	// ignore spelling issues, phrases, short words &&  proper names
 				else if (!(D->properties & PART_OF_SPEECH) && !(D->systemFlags & PATTERN_WORD))
 				{
 					if (!(spellCheck & NO_SPELL)) SpellCheckScriptWord(D->word,-1,false);
@@ -4650,6 +4633,24 @@ static char* ReadReplace(char* ptr, FILE* in, unsigned int build)
 	return ptr;
 }
 
+static char* ReadPrefer(char* ptr, FILE* in, unsigned int build)
+{
+	while (ALWAYS) //   read as many tokens as needed to complete the definition (must be within same file)
+	{
+		char word[MAX_WORD_SIZE];
+		ptr = ReadNextSystemToken(in, ptr, word, false);
+		if (!*word) break;	//   file ran dry
+		if (TopLevelUnit(word)) //   definition ends when another major unit starts
+		{
+			ptr -= strlen(word); //   let someone else see this starter 
+			break;
+		}
+		WORDP D = StoreWord(word);
+		D->internalBits |= PREFER_THIS_UPPERCASE;
+	}
+	return ptr;
+}
+
 void SaveCanon(char* word, char* canon)
 {
 	char filename[SMALL_WORD_SIZE];
@@ -4873,6 +4874,7 @@ static void ReadTopicFile(char* name,uint64 buildid) //   read contents of a top
 		else if (!stricmp(word,(char*)"concept:")) ptr = ReadConcept(ptr,in,build);
 		else if (!stricmp(word,(char*)"query:")) ptr = ReadQuery(ptr,in,build);
 		else if (!stricmp(word,(char*)"replace:")) ptr = ReadReplace(ptr,in,build);
+		else if (!stricmp(word, (char*)"prefer:")) ptr = ReadPrefer(ptr, in, build);
 		else if (!stricmp(word,(char*)"canon:")) ptr = ReadCanon(ptr,in,build);
 		else if (!stricmp(word,(char*)"topic:"))  ptr = ReadTopic(ptr,in,build);
 		else if (!stricmp(word,(char*)"plan:"))  ptr = ReadPlan(ptr,in,build);

@@ -1,8 +1,23 @@
-version 7.61
+
+version 7.7 11/19/2017
+1. DLL version of ChatScript now part of std release (untested)
+2. $cs_outputchoice to force random output choice
+3. :trace treetagger
+4. Spellcheck will fix words with excessive repeated letters will be adjust.  3 or more in a row truncated to 2. If not recognized, each single pair of 
+   2 will be tested as one. so hellllloooooo becomes helloo becomes hello
+5. ~noun_phrase added to allow you to grab noun phrases in input
+6. treetagger chunks (if available) get marked
+7. :trace INPUT to see input w/o all the concept bindings
+8. :tokenize - subset of :prepare that just shows resulting transformations on input, no pos and concept marking.
+9. :trace all universal - sets engine to trace everything listed (even in server mode)
+10. System now handles multiple upper case forms of a word, so it can
+	memorize the particular ones you do differently in concepts and return
+	the correct one.
+
+version 7.61 11/04/2017
 1. ^pos(canonical xx all)  get all canonical forms (for foreign use)
 2. ^mark(_0 value  single)  dont mark the entire implication chain, just the argument given
 3. Advanced manual now has a section on advanced tokenization
-
 
 version 7.6 10/22/2017
 1. ~capacronym -  acronyms that are  all caps, all letters

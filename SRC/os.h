@@ -51,7 +51,7 @@ extern unsigned int baseBufferIndex;
 extern unsigned int overflowIndex;
 extern char* buffers;
 extern bool showmem;
-extern unsigned long maxHeapBytes;
+extern size_t maxHeapBytes;
 extern char* heapBase;
 extern char* heapFree;
 extern char* stackFree;

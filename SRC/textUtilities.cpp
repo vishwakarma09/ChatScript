@@ -1143,11 +1143,12 @@ unsigned char* GetCurrency(unsigned char* ptr,char* &number) // does this point 
 	return 0;
 }
 
-bool IsLegalName(char* name) // start alpha (or ~) and be alpha _ digit (concepts and topics can use . or - also)
+bool IsLegalName(char* name, bool label) // start alpha (or ~) and be alpha _ digit (concepts and topics can use . or - also)
 {
 	char start = *name;
 	if (*name == '~' || *name == SYSVAR_PREFIX) ++name;
-	if (!IsAlphaUTF8(*name) ) return false;
+	if (label && IsDigit(*name)) {}
+	else if (!IsAlphaUTF8(*name) ) return false;
 	while (*++name)
 	{
 		if (*name == '.' && start != '~') return false;	// may not use . in a variable name
@@ -2922,7 +2923,7 @@ int64 Convert2Integer(char* number, int useNumberStyle)  //  non numbers return 
 		int index = numberValues[i].word;
 		if (!index) break;
 		char* w = Index2Heap(index);
-		if (len == numberValues[i].length && !strnicmp(word, Index2Heap(index), len))
+		if (len == numberValues[i].length && !strnicmp(word, w, len))
 		{
 			return numberValues[i].value;  // a match (but may be a fraction number)
 		}
@@ -2943,7 +2944,7 @@ int64 Convert2Integer(char* number, int useNumberStyle)  //  non numbers return 
 
 	// val is now the lead number
 	
-	// check if whole thing is a series of digits
+	// check if whole thing is a series of digits in any language
 	int64 num = val;
 	int64 val1;
 	char* oldhyphen = hyphen + 1;
@@ -2962,6 +2963,15 @@ int64 Convert2Integer(char* number, int useNumberStyle)  //  non numbers return 
 		num += val1;
 		oldhyphen = xpiece + 1;
 	}
+	if (hyphen && num != -1) // do last piece
+	{
+		num *= 10;
+		val1 = Convert2Integer(oldhyphen, useNumberStyle);
+		if (val1 > 9) num = -1;
+		else num += val1;
+		return num;
+	}
+
 	if (num >= 0 && num < 10) // simple digit
 	{
 		num *= 10;

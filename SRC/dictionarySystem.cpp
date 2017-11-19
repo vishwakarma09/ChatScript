@@ -250,7 +250,7 @@ unsigned int* AllocateWhereInSentence(WORDP D)
 		freeTriedList = *d;
 	}
 	size_t len =  (sizeof(uint64) + maxRefSentence + 3)/4;
-	//  64bit tried by meaning field (aligned) + sentencerefs (2 bytes each + a byte for uppercase or not)
+	//  64bit tried by meaning field (aligned) + sentencerefs (2 bytes each + a byte for uppercase index)
 	unsigned int* data = (unsigned int*) AllocateHeap(NULL,len,4,false); // 64 bits (2 words) + 48 bytes (12 words)  = 14 words  
 	if (!data) return NULL;
 	memset((char*)data,0xff,len*4); // clears sentence xref start/end bits and casing byte
@@ -779,7 +779,7 @@ void RemoveProperty(WORDP D, uint64 flags)
 	}
 }
 
-static bool StricmpUTF(char* w1, char* w2, int len)
+bool StricmpUTF(char* w1, char* w2, int len)
 {
 	unsigned char c1, c2;
 	unsigned char* word1 = (unsigned char*)w1;
@@ -845,7 +845,7 @@ int GetWords(char* word, WORDP* set, bool strictcase)
 	uint64 fullhash = Hashit((unsigned char*)word, len, hasUpperCharacters, hasUTF8Characters); //   sets hasUpperCharacters and hasUTF8Characters 
 	unsigned int hash = (fullhash % maxHashBuckets); // mod by the size of the table
 
-													 //   lowercase bucket
+	 //   lowercase bucket
 	WORDP D = dictionaryBase + hashbuckets[hash];
 	char word1[MAX_WORD_SIZE];
 	if (strictcase && hasUpperCharacters) D = dictionaryBase; // lower case not allowed to match uppercase input
@@ -900,7 +900,8 @@ WORDP FindWord(const char* word, int len,uint64 caseAllowed)
 	uint64 fullhash = Hashit((unsigned char*) word,len,hasUpperCharacters,hasUTF8Characters); //   sets hasUpperCharacters and hasUTF8Characters 
 	unsigned int hash  = (fullhash % maxHashBuckets); // mod by the size of the table
 	if (caseAllowed & LOWERCASE_LOOKUP){;} // stay in lower bucket regardless
-	else if (*word == SYSVAR_PREFIX || *word == USERVAR_PREFIX || *word == '~'  || *word == '^') 
+	// rule label (topic.name) uses uppercase lookup
+	else if (*word == SYSVAR_PREFIX || *word == USERVAR_PREFIX || (*word == '~' && !strchr(word, '.')) || *word == '^')
 	{
 		if (caseAllowed == UPPERCASE_LOOKUP) return NULL; // not allowed to find
 		caseAllowed = LOWERCASE_LOOKUP; // these are always lower case
@@ -911,12 +912,14 @@ WORDP FindWord(const char* word, int len,uint64 caseAllowed)
 
 	//   normal or fixed case bucket
 	WORDP D;
-	WORDP almost;
+	
     primaryLookupSucceeded = true;
 	if (caseAllowed & (PRIMARY_CASE_ALLOWED|LOWERCASE_LOOKUP|UPPERCASE_LOOKUP))
 	{
-		almost = NULL;
 		D = Index2Word(hashbuckets[hash]);
+		WORDP almost = NULL;
+		WORDP preferred = NULL;
+		WORDP exact = NULL;
 		while (D != dictionaryBase)
 		{
 			if (fullhash == D->hash && D->length == len && !StricmpUTF(D->word,(char*)word,len)) // they match independent of case- 
@@ -924,7 +927,8 @@ WORDP FindWord(const char* word, int len,uint64 caseAllowed)
 				if (caseAllowed == LOWERCASE_LOOKUP) return D; // incoming word MIGHT have uppercase letters but we will be in lower bucket
 				else if (hasUpperCharacters) // we are looking for uppercase or primary case and are in uppercase bucket
 				{
-					if (!strncmp(D->word,word,len)) return D; // exactly  what we want in upper case
+					if (D->internalBits & PREFER_THIS_UPPERCASE) preferred = D;
+					else if (!strncmp(D->word,word,len)) exact =  D; // exactly  what we want in upper case
 					else almost = D; // remember semi-match in upper case
 				}
 				else // if uppercase lookup, we are in uppercase bucket (input was lower case) else we are in lowercase bucket
@@ -934,20 +938,32 @@ WORDP FindWord(const char* word, int len,uint64 caseAllowed)
 			}
 			D = dictionaryBase + GETNEXTNODE(D);
 		}
-		if (almost) return almost;	// uppercase request we found in a different form only
+		if (preferred) return preferred;
+		else if (exact) return exact;
+		else if (almost) return almost;	// uppercase request we found in a different form only
 	}
 
     //    alternate case bucket (checking opposite case)
     primaryLookupSucceeded = false;
     if (caseAllowed & SECONDARY_CASE_ALLOWED)
 	{
-		almost = NULL;
+		WORDP almost = NULL;
+		WORDP preferred = NULL;
+		WORDP exact = NULL;
 		D = dictionaryBase + hashbuckets[hash + ((hasUpperCharacters) ? -1 : 1)];
 		while (D != dictionaryBase)
 		{
-			if (fullhash == D->hash && D->length == len && !strnicmp(D->word,word,len)) return D; // they appear to match from opposite buckets
+			if (fullhash == D->hash && D->length == len && !StricmpUTF(D->word, (char*)word, len))
+			{
+				if (hasUpperCharacters) return D; // lowercase form
+				if (D->internalBits & PREFER_THIS_UPPERCASE) preferred = D;
+				else almost = D; // remember a match in upper case
+			}
 			D = dictionaryBase + GETNEXTNODE(D);
 		}
+		if (preferred) return preferred;
+		else if (exact) return exact;
+		else if (almost) return almost;	// uppercase request we found in a different form only
 	}
 
     return NULL;
@@ -997,14 +1013,16 @@ WORDP StoreWord(char* word, uint64 properties)
 	bool lowercase = false;
 	//   make all words normalized with no blanks in them.
 	if (*word == '"' || *word == '_' || *word == '`') {;} // dont change any quoted things or things beginning with _ (we use them in facts for a "missing" value) or user var names
-	else if (*word == SYSVAR_PREFIX || *word == USERVAR_PREFIX || *word == '~' || *word == '^')
+	else if (properties & (PUNCTUATION_BITS|AS_IS)) {}
+	else if ((*word == SYSVAR_PREFIX || *word == USERVAR_PREFIX || *word == '~' || *word == '^') &&
+		IsLegalName(word+1))  // dont change something that looks like json reference off of variable
 	{
 		lowercase = true; // these are always lower case
 		char wordx[MAX_WORD_SIZE];
 		MakeLowerCopy(wordx,word); // JUST IN CASE HE SYNTHESIZED it with upper case
 		word = wordx;
 	}
-	else if (!(properties & (AS_IS|PUNCTUATION_BITS))) 
+	else 
 	{
 		n = BurstWord(word,0);
 		word = JoinWords(n); //   when reading in the dictionary, BurstWord depends on it already being in, so just use the literal text here
@@ -1023,17 +1041,30 @@ WORDP StoreWord(char* word, uint64 properties)
 
 	//   locate spot existing entry goes - we use different buckets for lower case and upper case forms
 	WORDP D = dictionaryBase + hashbuckets[hash];
+	WORDP preferred = NULL;
+	WORDP exact = NULL;
 	while (D != dictionaryBase)
     {
- 		if (fullhash == D->hash && D->length == len && !strcmp(D->word,word)) // find EXACT match
+ 		if (fullhash == D->hash && D->length == len && !StricmpUTF(D->word, (char*)word, len)) // find EXACT match
 		{
-			AddProperty(D,properties);
-			return D;
+			if (!hasUpperCharacters)
+			{
+				AddProperty(D, properties);
+				return D;
+			}
+			if (D->internalBits & PREFER_THIS_UPPERCASE) preferred = D;
+			else if (!strcmp(D->word, word)) exact = D;
 		}
 		D = dictionaryBase + GETNEXTNODE(D);
     }  
+	if (!preferred && exact) preferred = exact;
+	if (preferred)
+	{
+		AddProperty(preferred, properties);
+		return preferred;
+	}
 
-    //   not found, add entry 
+	//   not found, add entry 
 	char* wordx = AllocateHeap(word,len); // storeword
     if (!wordx) return StoreWord((char*)"x.x",properties|AS_IS); // fake it
 	
@@ -1841,6 +1872,11 @@ char* WriteDictionaryFlags(WORDP D, char* outbuf)
 		}
 		bit >>= 1;
 	}
+	if (D->internalBits & PREFER_THIS_UPPERCASE)
+	{
+		sprintf(outbuf, (char*)"%s ", "PREFER_THIS_UPPERCASE");
+		outbuf += strlen(outbuf);
+	}
 	return outbuf;
 }
 
@@ -1979,7 +2015,8 @@ char* ReadDictionaryFlags(WORDP D, char* ptr,unsigned int* meaningcount, unsigne
 		else if (!strcmp(junk,(char*)"posdefault:PREPOSITION")) flags |= PREPOSITION;
 		else if (!strcmp(junk,(char*)"CONCEPT")) AddInternalFlag(D,CONCEPT); // only from a fact dictionary entry
 		else if (!strcmp(junk,(char*)"TOPIC")) AddInternalFlag(D,TOPIC); // only from a fact dictionary entry
-		else 
+		else if (!strcmp(junk, (char*)"PREFER_THIS_UPPERCASE")) AddInternalFlag(D, PREFER_THIS_UPPERCASE); // only from a fact dictionary entry
+		else
 		{
 			uint64 val = FindValueByName(junk);
 			if (val) properties |= val;
@@ -2041,7 +2078,7 @@ MEANING AddTypedMeaning(WORDP D,unsigned int type)
 }
 
 MEANING AddMeaning(WORDP D,MEANING M)
-{ //   worst case wordnet meaning count = 75 (break)
+{ //   worst case wordnet meaning count = 75 (break). We limit 62
 	//   meaning is 1-based (0 means generic)
 	//   cannot add meaning to entries before the freeze (space will free up when transient space chopped back but pointers will be bad).
 	//   If some dictionary words cannot add after the fact, none should
@@ -3525,7 +3562,7 @@ void DumpDictionaryEntry(char* word,unsigned int limit)
 	if (D && IS_NEW_WORD(D) && (*D->word == '~' || *D->word == USERVAR_PREFIX   || *D->word == '^')) D = 0;	// debugging may have forced this to store, its not in base system
 	if (limit == 0) limit = 5; // default
 	char* old = (D <= dictionaryPreBuild[LAYER_0]) ? (char*) "old" : (char*) "";
-	if (D) 	Log(STDTRACELOG,(char*)"\r\n%s (%d): %s\r\n  Properties: ",name,Word2Index(D),old);
+	if (D) 	Log(STDTRACELOG,(char*)"\r\n%s (%d): %s\r\n  Properties: ",D->word,Word2Index(D),old);
 	else Log(STDTRACELOG,(char*)"\r\n%s (unknown word):\r\n  Properties: ",name);
 	uint64 properties = (D) ? D->properties : 0;
 	uint64 sysflags = (D) ? D->systemFlags : 0;
@@ -3553,7 +3590,6 @@ void DumpDictionaryEntry(char* word,unsigned int limit)
 	WORDP revise;
 	uint64 inferredProperties = (name[0] != '~' && name[0] != '^') ? GetPosData(-1,name,revise,entry,canonical,xflags,cansysflags) : 0; 
 	sysflags |= xflags;
-	if (entry) D = entry;
 	bit = START_BIT;
 	bool extended = false;
 	while (bit)
@@ -3611,7 +3647,7 @@ void DumpDictionaryEntry(char* word,unsigned int limit)
 		bit >>= 1;
 	}
 
-	Log(STDTRACELOG,(char*)"  \r\n  InternalBits: %x ",D->internalBits);
+	Log(STDTRACELOG,(char*)"  \r\n  InternalBits: 0x%x ",D->internalBits);
 #ifndef DISCARDTESTING
 	unsigned int basestamp = inferMark;
 #endif
@@ -3677,7 +3713,7 @@ void DumpDictionaryEntry(char* word,unsigned int limit)
 		char* val = GetUserVariable(D->word);
 		Log(STDTRACELOG,(char*)"VariableValue= \"%s\" ",val);
 	}
-	if (canonical) Log(STDTRACELOG,(char*)"  canonical: %s ",canonical->word);
+	if (canonical && D) Log(STDTRACELOG,(char*)"  canonical: %s ",canonical->word);
 	Log(STDTRACELOG,(char*)"\r\n");
 	tokenControl = oldtoken;
 	if (GetTense(D)) 
@@ -4833,7 +4869,7 @@ static void readWordKind(char* file, unsigned int flags)
 						RemoveProperty(D, NOUN_SINGULAR | NOUN_PLURAL);
 						AddProperty(D, NOUN_NUMBER);
 					}
-					else if (IsUpperCase(*D->word)) AddProperty(D, NOUN_PROPER_SINGULAR);
+					else if (D->internalBits & UPPERCASE_HASH) AddProperty(D, NOUN_PROPER_SINGULAR);
 					else if (IsNumber(D->word, false) != NOT_A_NUMBER) AddProperty(D, NOUN_NUMBER);
 					else AddProperty(D, NOUN_SINGULAR);
 				}
@@ -6669,7 +6705,7 @@ static void DeleteAllWords(WORDP D, uint64 junk)
 
 	if (D->word[0] == '~' && !(D->internalBits & (BUILD1 | BUILD0))) return;//  system concepts alone
 
-	if (IsUpperCase(*D->word)) { ; } // no proper names
+	if (D->internalBits & UPPERCASE_HASH) { ; } // no proper names
 	else if (!(D->systemFlags & (KINDERGARTEN | GRADE1_2 | GRADE3_4 | GRADE5_6))) // delete advanced words unless its irregular and base is vital
 	{
 		char* noun = GetSingularNoun(D->word, false, true);
@@ -7656,7 +7692,7 @@ static void ReadWordFrequency(char* name, unsigned int count, bool until)
 		ptr = ReadWord(ptr, word);	// the word
 		WORDP D = FindWord(word, 0, PRIMARY_CASE_ALLOWED);
 		if (!D) continue;	// ignore it
-		if (IsUpperCase(D->word[0] || !IsAlphaUTF8(D->word[0]))) continue; // dont need these
+		if (D->internalBits & UPPERCASE_HASH || !IsAlphaUTF8(D->word[0])) continue; // dont need these
 		if ((D->properties & PART_OF_SPEECH) == 0) continue; // not a really useful word
 		if (D->internalBits & DELETED_MARK) D->internalBits ^= DELETED_MARK; // allow the word
 		MarkOtherForms(D);

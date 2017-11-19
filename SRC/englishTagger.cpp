@@ -296,8 +296,31 @@ static void TreeTagger()
 		}
 		tschunk.number_of_words = wordCount;
 		tag_sentence(1, &tschunk);
+		int starter = -1;
+		char type[20];
+		for (i = 0; i < wordCount; ++i)
+		{
+			char status = *(strrchr((char*)tschunk.resulttag[i], '/') + 1);
+			char* kind = strrchr((char*)tschunk.resulttag[i], '-')+1;
+			if (status == 'I') continue; // continue a chunk
+			if (starter >= 0) // just ended a chunk
+			{
+				if (trace & (TRACE_PREPARE | TRACE_TREETAGGER)) Log(STDTRACELOG, (char*)"(%s) %s..%s \r\n",type, wordStarts[starter+1],wordStarts[i]);
+				MarkMeaningAndImplications(0,0, MakeMeaning(StoreWord(type)), starter + 1, i);
+				starter = 0;
+			}
+			if (status == 'B') // begin a chunk
+			{
+				starter = i;
+				strcpy(type, kind);
+			}
+		}
+		if (starter >= 0) // just ended a chunk
+		{
+			if (trace & (TRACE_PREPARE | TRACE_TREETAGGER)) Log(STDTRACELOG, (char*)"(%s) %s..%s\r\n", type,wordStarts[starter+1], wordStarts[wordCount]);
+			MarkMeaningAndImplications(0,0, MakeMeaning(StoreWord(type)), starter + 1, wordCount); 
+		}
 	}
-
 	// TreeTagger results may need a bit of tweaking, so gambit a topic
 	char* taggingTopic = GetUserVariable((char*)"$cs_externaltag");
 	if (*taggingTopic)
@@ -392,7 +415,7 @@ static void TreeTagger()
 		}
 		if (!canonical) canonical = entry;
 
-		if (IsUpperCase(canonical->word[0]))
+		if (IsUpperCase(canonical->internalBits & UPPERCASE_HASH))
 		{
 			originalUpper[i] = entry;
 			canonicalUpper[i] = canonical;
@@ -446,10 +469,18 @@ static void BlendWithTreetagger(bool &changed)
 		uint64 bits = D->properties & TAG_TEST; // dont want general headers like NOUN or VERB
 		uint64 possiblebits = posValues[i] & TAG_TEST; // bits we are trying to resolve
 		if (bits & VERB_INFINITIVE && possiblebits & VERB_PRESENT) possiblebits |= VERB_INFINITIVE; // when we launch, we want to be right
+		if (bits & PREPOSITION && possiblebits & PARTICLE) bits |= PARTICLE; 
+		if (bits & PARTICLE && possiblebits & PREPOSITION) bits |= PREPOSITION;
+		if (bits & NOUN_SINGULAR && possiblebits & (PRONOUN_SUBJECT | PRONOUN_OBJECT)) bits |= PRONOUN_SUBJECT | PRONOUN_OBJECT;
+		if (!stricmp(D->word+1,"CD") && possiblebits & (PRONOUN_SUBJECT | PRONOUN_OBJECT))  bits |= PRONOUN_SUBJECT | PRONOUN_OBJECT; // "one" as pronoun
 		if (bits & ADJECTIVE_NORMAL && possiblebits & DETERMINER)
 		{
 			bits ^= ADJECTIVE_NORMAL;
 			bits |= DETERMINER; // I could make *other arrangements
+		}
+		if (bits & PUNCTUATION)
+		{
+			int xx = 0;
 		}
 		uint64 allowable = bits & possiblebits; // bits for this tagtype
 		if (allowable && allowable != possiblebits) // we can update choices
@@ -519,7 +550,7 @@ static void BlendWithTreetagger(bool &changed)
 	ttLastChanged = i;  // or it ran out
 	if (i > wordCount)
 	{
-		Log(STDTRACELOG, (char*)"TT Adjustments: %d  Refusals: %d  Words %d\r\n\r\n", modified, blocked,wordCount);
+		if (trace & (TRACE_PREPARE | TRACE_TREETAGGER))	Log(STDTRACELOG, (char*)"TT Adjustments: %d  Refusals: %d  Words %d\r\n\r\n", modified, blocked,wordCount);
 		modified = 0;
 	}
 }
@@ -2377,7 +2408,7 @@ unsigned int ProcessIdiom(char* word, int i, unsigned int words,bool &changed)
 						originalUpper[i] = X;
 						originalLower[i] = NULL;
 						wordStarts[i] = X->word;
-						if (IsUpperCase(*X->word)) 
+						if (X->internalBits & UPPERCASE_HASH)
 						{
 							allOriginalWordBits[i] = posValues[i] = NOUN_PROPER_SINGULAR;
 							bitCounts[i] = 1;
@@ -3564,8 +3595,6 @@ void MarkRoles(int i)
 	if (crole ==  HOWUNIT) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~howunit")),start,stop);
 	if (crole ==  WHYUNIT) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~whyunit")),start,stop);
 
-
-
 	// meanwhile mark start/end of phrases
 	int phrase = phrases[i];
 	if (phrase && phrase != phrases[i-1])
@@ -3602,6 +3631,20 @@ void MarkRoles(int i)
 		MarkMeaningAndImplications(0,0,MakeMeaning(Dverbal),start,stop-1);
 	}
 	if (role & SENTENCE_END) MarkMeaningAndImplications(0, 0,MakeMeaning(StoreWord((char*)"~sentenceend")),start,stop);
+
+	//mark noun-phrases
+	if (posValues[i] & (NOUN_BITS  | PRONOUN_SUBJECT | PRONOUN_OBJECT)
+		&& !(posValues[i + 1] & (NOUN_BITS| PRONOUN_SUBJECT | PRONOUN_OBJECT)))
+	{
+		int j;
+		for (j = i - 1; j >= 0; --j)
+		{
+			if (!(posValues[j] & (ADJECTIVE_BITS | NOUN_BITS | ADVERB | DETERMINER | PREDETERMINER | POSSESSIVE_BITS))) break;
+			if (posValues[j] & ADVERB && !(posValues[j + 1] & (ADVERB | ADJECTIVE_BITS))) break;
+		}
+		MarkMeaningAndImplications(0, 0, MakeMeaning(StoreWord("~noun_phrase")), j+1,i);
+
+	}
 }
 
 static void AddRole( int i, uint64 role)

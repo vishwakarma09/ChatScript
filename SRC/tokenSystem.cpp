@@ -544,6 +544,7 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 	// return prior
 	
 	if (token[l - 1] == '.' && FindWord(token, l - 1)) return ptr + l - 1;
+	if (token[l - 1] == '"' && tokenControl & SPLIT_QUOTE) return ptr + l - 1; // not perfect if need to split sooner
 
 	// if this was 93302-42345 then we need to keep - separate, not as minus
 	if (*token == '-' && IsInteger(token + 1, false, numberStyle) && IsInteger(priorToken, false, numberStyle))
@@ -569,9 +570,16 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 		if ((currency = (char*)GetCurrency((unsigned char*)at, number))) at = number; // if currency, find number start of it
 
 		bool seenExponent = false;
+		bool seenPeriod = false;
 		while (*++at && (IsDigit(*at) || *at == ',' || *at == '.' || (!seenExponent && (*at == 'e' || *at == 'E')) || *at == '-' || *at == '+'))
 		{
 			if (*at == 'e' || *at == 'E') seenExponent = true; // exponent can only appear once, 10e4euros
+			// period AFTER float like 1.0. w space or end
+			if (*at == '.' && IsDigit(*(at-1)) && seenPeriod && !at[1])
+			{
+				return ptr + (at - token);
+			}
+			if (*at == '.') seenPeriod = true;
 		}
 
 		// may be units or currency attached, so dont split that apart
@@ -977,6 +985,12 @@ char* Tokenize(char* input,int &mycount,char** words,bool all,bool nomodify,bool
 		*html = '"';
 		memmove(html+1,html+6,strlen(html+5));
 	}
+	html = input;
+	while ((html = strchr(html,'\\')) != 0) // \"  remove this
+	{
+		if (html[1] == '"')	memmove(html, html + 1, strlen(html));
+		++html;
+	}
     *priorToken = 0;
     while (ptr) // find tokens til end of sentence or end of tokens
 	{
@@ -1003,7 +1017,7 @@ char* Tokenize(char* input,int &mycount,char** words,bool all,bool nomodify,bool
 			}
 		}
 		else if (oobStart && *ptr == ']') oobJson = false; // end of oob
-		if (*ptr == '"' && !strchr(ptr+1,'"') && !(tokenControl & TOKEN_AS_IS) && ptr[1])  ptr = SkipWhitespace(++ptr); // ignore single starting quote?  "hi   -- but if it next sentence line was part like POS tagging, would be a problem  and beware of 5' 11"
+		if (*ptr == '"' && !strchr(ptr+1,'"') && !(tokenControl & TOKEN_AS_IS) && ptr[1] && !quoteCount && !(tokenControl & SPLIT_QUOTE))  ptr = SkipWhitespace(++ptr); // ignore single starting quote?  "hi   -- but if it next sentence line was part like POS tagging, would be a problem  and beware of 5' 11"
 
 		// find end of word 
 		int oldCount = count;
@@ -1067,8 +1081,8 @@ char* Tokenize(char* input,int &mycount,char** words,bool all,bool nomodify,bool
 		//   set up for next token or ending tokenization
 		ptr = SkipWhitespace(end);
 
-		if (*token == '"' && (count == 1 || !IsDigit(*words[count-1] ))) ++quoteCount;
-		if (*token == '"' && count > 1 && quoteCount && !(quoteCount & 1)) // does end of this quote end the sentence?
+		if (*token == '"' && !(tokenControl & SPLIT_QUOTE) && (count == 1 || !IsDigit(*words[count-1] ))) ++quoteCount;
+		if (*token == '"' && !(tokenControl & SPLIT_QUOTE) && count > 1 && quoteCount && !(quoteCount & 1)) // does end of this quote end the sentence?
 		{
 			char c = words[count-1][0];
 			if (*ptr == ',' || c == ',') {;} // comma after or inside means not at end
@@ -1870,7 +1884,7 @@ void ReplaceWords(char* why,int i, int oldlength,int newlength,char** tokens)
 
 	wordCount += newlength - oldlength;
 	wordStarts[wordCount+1] = NULL;
-	if (trace & TRACE_PREPARE)
+	if (trace & TRACE_INPUT)
 	{
 		char* limit;
 		char* buffer = InfiniteStack(limit,"ReplaceWords");
@@ -2067,12 +2081,13 @@ static WORDP Viability(WORDP word, int i, unsigned int n)
 
     // how to handle proper nouns for merging here
 	if (word->systemFlags & NO_PROPER_MERGE) return 0;
-	if (!IsUpperCase(*word->word)) { ; }
+	if (n && word->systemFlags & ALWAYS_PROPER_NAME_MERGE) return word;
+	if (!(word->internalBits & UPPERCASE_HASH)) { ; }
     else if (!(tokenControl & DO_PROPERNAME_MERGE)) return 0; // do not merge any proper name
-    else if (n && IsUpperCase(*word->word) && word->properties & PART_OF_SPEECH && !IS_NEW_WORD(word))
+    else if (n  && word->properties & PART_OF_SPEECH && !IS_NEW_WORD(word))
         return word;// Merge dictionary names.  We  merge other proper names later.  words declared ONLY as interjections wont convert in other slots
     else if (n  && word->properties & word->systemFlags & PATTERN_WORD) return word;//  Merge any proper name which is a keyword. 
-    
+	
     char* part = strchr(word->word, '_');
     if (word->properties & (NOUN | ADJECTIVE | ADVERB | VERB) && part && !(word->systemFlags & PATTERN_WORD))
     {

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -11,23 +11,23 @@
 <h1 id="chatscript-advanced-users-manual">ChatScript Advanced User's Manual</h1>
 <p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com<br> <br>Revision 11/04/2017 cs7.61</p>
 <ul>
-<li><a href="ChatScript-Advanced-User-Manual.html#review-overview-of-how-cs-works">Review</a></li>
-<li><a href="ChatScript-Advanced-User-Manual.html#advanced-tokenization">Advanced Tokenization</a></li>
-<li><a href="ChatScript-Advanced-User-Manual.html#advanced-concepts">Advanced Concepts</a></li>
-<li><a href="ChatScript-Advanced-User-Manual.html#advanced-topics">Advanced Topics</a></li>
-<li><a href="ChatScript-Advanced-User-Manual.html#advanced-patterns">Advanced Patterns</a></li>
-<li><a href="ChatScript-Advanced-User-Manual.html#advanced-output">Advanced Output</a></li>
-<li><a href="ChatScript-Advanced-User-Manual.html#advanced-variables">Advanced Variables</a></li>
-<li><a href="ChatScript-Advanced-User-Manual.html#out-of-band-communication">Out of Band Communication</a></li>
-<li><a href="ChatScript-Advanced-User-Manual.html#system-callback-functions">System callback functions</a></li>
-<li><a href="ChatScript-Advanced-User-Manual.html#advanced-build">Advanced :build</a></li>
-<li><a href="ChatScript-Advanced-User-Manual.html#editing-non-topic-files">Editing Non-topic Files</a></li>
-<li><a href="ChatScript-Advanced-User-Manual.html#common-script-idioms">Common Script Idioms</a></li>
-<li><a href="ChatScript-Advanced-User-Manual.html#esoterica-and-fine-detail">Esoterica and Fine Detail</a></li>
-<li><a href="ChatScript-Advanced-User-Manual.html#self-reflection">Self-Reflection</a></li>
-<li><a href="ChatScript-Advanced-User-Manual.html#a-fresh-build">A Fresh build</a></li>
-<li><a href="ChatScript-Advanced-User-Manual.html#updating-cs-versions-easily">Updating CS versions Easily</a></li>
-<li><a href="ChatScript-Advanced-User-Manual.html#the-dictionary">The Dictionary</a></li>
+<li><a href="ChatScript-Advanced-User-Manual.md#review-overview-of-how-cs-works">Review</a></li>
+<li><a href="ChatScript-Advanced-User-Manual.md#advanced-tokenization">Advanced Tokenization</a></li>
+<li><a href="ChatScript-Advanced-User-Manual.md#advanced-concepts">Advanced Concepts</a></li>
+<li><a href="ChatScript-Advanced-User-Manual.md#advanced-topics">Advanced Topics</a></li>
+<li><a href="ChatScript-Advanced-User-Manual.md#advanced-patterns">Advanced Patterns</a></li>
+<li><a href="ChatScript-Advanced-User-Manual.md#advanced-output">Advanced Output</a></li>
+<li><a href="ChatScript-Advanced-User-Manual.md#advanced-variables">Advanced Variables</a></li>
+<li><a href="ChatScript-Advanced-User-Manual.md#out-of-band-communication">Out of Band Communication</a></li>
+<li><a href="ChatScript-Advanced-User-Manual.md#system-callback-functions">System callback functions</a></li>
+<li><a href="ChatScript-Advanced-User-Manual.md#advanced-build">Advanced :build</a></li>
+<li><a href="ChatScript-Advanced-User-Manual.md#editing-non-topic-files">Editing Non-topic Files</a></li>
+<li><a href="ChatScript-Advanced-User-Manual.md#common-script-idioms">Common Script Idioms</a></li>
+<li><a href="ChatScript-Advanced-User-Manual.md#esoterica-and-fine-detail">Esoterica and Fine Detail</a></li>
+<li><a href="ChatScript-Advanced-User-Manual.md#self-reflection">Self-Reflection</a></li>
+<li><a href="ChatScript-Advanced-User-Manual.md#a-fresh-build">A Fresh build</a></li>
+<li><a href="ChatScript-Advanced-User-Manual.md#updating-cs-versions-easily">Updating CS versions Easily</a></li>
+<li><a href="ChatScript-Advanced-User-Manual.md#the-dictionary">The Dictionary</a></li>
 </ul>
 <h1 id="review-overview-of-how-cs-works">Review: Overview of how CS works</h1>
 <p>CS is a scripting language for interactivity. Each time CS communicates with the user, this is called a <em>volley</em>.</p>
@@ -277,7 +277,7 @@ u: ( dog ) I hate dogs</code></pre>
 </tr>
 <tr class="odd">
 <td><code>bot=name</code></td>
-<td>if this is given, only named bots are allowed to use this topic. See <a href="ChatScript-Multiple-Bots.html">ChatScript Multiple Bots</a> manual.</td>
+<td>if this is given, only named bots are allowed to use this topic. See <a href="ChatScript-Multiple-Bots.md">ChatScript Multiple Bots</a> manual.</td>
 </tr>
 </tbody>
 </table>
@@ -778,7 +778,7 @@ $$tmp(34)</code></pre>
 <p>An advantage for outputmacros is that you can pass them arguments, making them more easily tailorable. To do the same with a rule, you have to store values on globals, which is more inconvenient, harder to understand, and subject to the risk that you accidentally reuse the same variable in something the rule calls. Similarly outputmacros can return a value, while you have to use globals to return a value from a rule.</p>
 <p>An advantage for rules is that they can have rejoinders. So if the rule generates output, it may also have rejoinders to react to it. Another advantage for rules is that you can terminate their execution early <code>^end(RULE)</code> without impacting the calling rule. There is no such ability in an outputmacro, so you'd have to organize if statements to manage early termination effects.</p>
 <h1 id="system-functions-1">System Functions</h1>
-<p>There are many system functions to perform specific tasks. These are enumerated in the <a href="ChatScript-System-Functions-Manual.html">ChatScript System Functions Manual</a> and the <a href="ChatScript-Fact-Manual.html">ChatScript Fact Manual</a>.</p>
+<p>There are many system functions to perform specific tasks. These are enumerated in the <a href="ChatScript-System-Functions-Manual.md">ChatScript System Functions Manual</a> and the <a href="ChatScript-Fact-Manual.md">ChatScript Fact Manual</a>.</p>
 <h2 id="randomized-output-revisited">Randomized Output Revisited <code>[ ]</code></h2>
 <p>Remember this construct:</p>
 <pre><code>?: ( hi ) [How are you feeling?][Why are you here?]</code></pre>
@@ -833,7 +833,7 @@ In that case, you don't have a variable but you need to create one dynamically.<
 <pre><code>$$tmp1 = ^$$tmp
 ^gambit($$tmp1)</code></pre>
 <p>Equivalently <code>^gambit(^$$tmp1)</code> is legal.</p>
-<p>See also Indirect Pattern Elements in <a href="ChatScript-Pattern-Redux.html">ChatScript Pattern Redux</a> manual.</p>
+<p>See also Indirect Pattern Elements in <a href="ChatScript-Pattern-Redux.md">ChatScript Pattern Redux</a> manual.</p>
 <h2 id="bot-variables">Bot variables</h2>
 <p>You can also define variables that are &quot;owned&quot; by the bot. Any variables you create as part of layer 0 or layer 1 are always resident. As are any variables you define on the command line starting ChatScript. You can see them and even change them during a volley, but they will always refresh back to their original values at the start of the next volley.</p>
 <h2 id="assigning-match-variables-to-user-variables">Assigning match variables to user variables</h2>
@@ -990,7 +990,7 @@ $$tmp = first(@mysetsubject)</code></pre>
 <pre><code>rename: ##first 1
 $tmp = ##first</code></pre>
 <h2 id="defining-private-queries">Defining private Queries</h2>
-<p>see <a href="ChatScript-Fact-Manual.html">ChatScript Fact Manual</a>.</p>
+<p>see <a href="ChatScript-Fact-Manual.md">ChatScript Fact Manual</a>.</p>
 <h2 id="documenting-variables-functions-factsets-and-match-variables">Documenting variables, functions, factsets, and match variables</h2>
 <p>You can use <code>:define</code> to add a documentation string to many things. E.g.,</p>
 <pre><code>describe: $myvar &quot;used to store data&quot;
@@ -1272,6 +1272,6 @@ loop()
 concept: ~verbaugment VERB VERB_INFINITIVE (swalk smeazle)</code></pre>
 <p>One can also directly edit the dictionary txt files in DICT/ENGLISH observing how they seem to be formatted, doing nothing crazy, and being careful with consistency of meaning values (if needed) and then just delete dict.bin. If you want to edit the wordnet ontology hierarchy, you need to edit facts.txt and delete facts.bin The system will rebuild them when you run CS.</p>
 <hr />
-<p>[<a href="/WIKI/README.html">Wiki home</a>] - [<a href="ChatScript-Basic-User-Manual.html">Basic User Manual</a>]</p>
+<p>[<a href="/WIKI/README.md">Wiki home</a>] - [<a href="ChatScript-Basic-User-Manual.md">Basic User Manual</a>]</p>
 </body>
 </html>

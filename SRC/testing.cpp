@@ -465,6 +465,53 @@ static void C_Prepare(char* input)
 	tokenControl = oldToken;
 }
 
+static void C_Tokenize(char* input)
+{
+	uint64 oldToken = tokenControl;
+	input = SkipWhitespace(input);
+	static bool prepass = true;
+	char word[MAX_WORD_SIZE];
+	if (*input == USERVAR_PREFIX) // set token control to this
+	{
+		char* ptr = ReadCompiledWord(input, word);
+		char* value = GetUserVariable(word);
+		if (value && *value)
+		{
+			input = ptr;
+			int64 val64 = 0;
+			ReadInt64(value, val64);
+			tokenControl = val64;
+		}
+	}
+	input = SkipWhitespace(input);
+	if (!strnicmp(input, (char*)"NOPREPASS", 9) || !strnicmp(input, (char*)"PREPASS", 7))
+	{
+		prepass = strnicmp(input, (char*)"NOPREPASS", 9) ? true : false;
+		input = ReadCompiledWord(input, word);
+	}
+
+	if (!*input) prepareMode = (prepareMode == TOKENIZE_MODE) ? NO_MODE : TOKENIZE_MODE;
+	else
+	{
+		char prepassTopic[MAX_WORD_SIZE];
+		strcpy(prepassTopic, GetUserVariable((char*)"$cs_prepass"));
+		unsigned int oldtrace = trace;
+		nextInput = input;
+		bool oobstart = (*nextInput == '[');
+		while (*nextInput)
+		{
+			prepareMode = TOKENIZE_MODE;
+			if (*prepassTopic) Log(STDTRACELOG, (char*)"Prepass: %s\r\n", prepass ? (char*)"ON" : (char*)"OFF");
+			PrepareSentence(nextInput, true, true, false, oobstart);
+			oobstart = false;
+			prepareMode = NO_MODE;
+			if (prepass && PrepassSentence(prepassTopic)) continue;
+		}
+		trace = (modifiedTrace) ? modifiedTraceVal : oldtrace;
+	}
+	tokenControl = oldToken;
+}
+
 static void MemorizeRegress(char* input)
 {
 	char word[MAX_WORD_SIZE];
@@ -945,7 +992,7 @@ static void ReadNextDocument(char* name,uint64 value) // ReadDocument(inBuffer,s
 	ClearVolleyWordMaps();
 	ResetEncryptTags();
 	ResetToPreUser(); // back to empty state before any user
-	ReadUserData();	// read user info back in so we can continue (a form of garbage collection)
+	ReadNewUser();	// read user info back in so we can continue (a form of garbage collection)
 	ShowStats(true);
 
 	SetUserVariable((char*)"$$document",name);
@@ -1251,7 +1298,7 @@ static void C_TestPattern(char* input)
 	int junk1;
 	int oldtrace = trace;
 	trace |= TRACE_PATTERN;
-	bool uppercasem = false;
+	int uppercasem = 0;
 	int whenmatched = 0;
 	SetContext(true);
 	char* buffer = AllocateBuffer();
@@ -1439,6 +1486,7 @@ static void VerifyAccess(char* topic,char kind,char* prepassTopic) // prove patt
 	trace = 0;
 	Log(STDTRACELOG,(char*)"VERIFYING %s ......\r\n",topic);
 	char* copyBuffer = AllocateBuffer();
+	char* primaryBuffer = AllocateBuffer();
 	char junk[MAX_WORD_SIZE];
 	// process verification data
 	while (ReadALine(readBuffer,in) >= 0)
@@ -1452,10 +1500,11 @@ static void VerifyAccess(char* topic,char kind,char* prepassTopic) // prove patt
 		}
 		if (!strnicmp(readBuffer,(char*)":exit",5)) myexit((char*)":exit requested");
 		bool failTest = false;
+		strcpy(primaryBuffer, readBuffer);
 	
 		// read tag of rule to apply input to
 		int verifyRuleID;
-		char* dot = GetRuleIDFromText(readBuffer,verifyRuleID);
+		char* dot = GetRuleIDFromText(primaryBuffer,verifyRuleID);
 		if (!dot) return;
 		char* rule = GetRule(topicID,verifyRuleID);					// the rule we want to test
 		char* topLevelRule = GetRule(topicID,TOPLEVELID(verifyRuleID));	// the top level rule (if a rejoinder)
@@ -1483,7 +1532,7 @@ static void VerifyAccess(char* topic,char kind,char* prepassTopic) // prove patt
 		// #!!K - dont test keywords
 		// #!!S - dont run sample
 		*junk = junk[1] = junk[2] = 0;
-		char* test = strchr(readBuffer,'!')+1;	// the input sentence (skipping offset and #! marker)
+		char* test = strchr(primaryBuffer,'!')+1;	// the input sentence (skipping offset and #! marker)
 		if (*test != ' ') test = ReadCompiledWord(test,junk); // things to not test
 		MakeLowerCase(junk);
 		if (*junk == 'x') continue;  // only used for :abstract
@@ -1506,7 +1555,7 @@ static void VerifyAccess(char* topic,char kind,char* prepassTopic) // prove patt
 		//  perform varible setup, do assigns, and prepare matching context
 		ResetToPreUser();
 		KillShare();
-		ReadNewUser();   
+		ReadUserData();
 		if (verifyToken != 0) tokenControl = verifyToken;
 		volleyCount = 1;
 		if (testSample) OnceCode((char*)"$cs_control_pre");
@@ -1829,6 +1878,7 @@ static void VerifyAccess(char* topic,char kind,char* prepassTopic) // prove patt
 	FClose(in);
 	RemovePendingTopic(topicID);
 	FreeBuffer(); // copyBuffer
+	FreeBuffer(); // primaryBuffer
 	trace = (modifiedTrace) ? modifiedTraceVal : oldtrace;
 }
 
@@ -2189,6 +2239,7 @@ static void C_PennMatch(char* file)
 	unsigned int ambigLocation = 0;
 	char filename[SMALL_WORD_SIZE];
 	strcpy(filename,(char*)"REGRESS/PENNTAGS/penn.txt"); // tedtalks
+	strcpy(filename, file);
 	clock_t startTime = ElapsedMilliseconds(); 
 	int sentenceLengthLimit = 0;
 	usedTrace = AllocateBuffer();
@@ -4112,7 +4163,6 @@ static void C_Build(char* input)
 	{
 		input = ReadCompiledWord(input,control);
 		if (!stricmp(control,(char*)"nospell")) spell = NO_SPELL;
-		else if (!stricmp(control,(char*)"trace")) trace = TRACE_SCRIPT;
 		else if (!stricmp(control,(char*)"nosubstitution")) spell = NO_SUBSTITUTE_WARNING;
 		else if (!stricmp(control,(char*)"outputspell")) spell = OUTPUT_SPELL;
 		else if (!stricmp(control,(char*)"gradek")) { grade = KINDERGARTEN; spell = OUTPUT_SPELL;}
@@ -4605,7 +4655,7 @@ static bool DisplayRuleAt(char* name,char* code)
 		int end = 0;
 		int limit = 100; 
 		wildcardIndex = 0;
-		bool uppercasem = false;
+		int uppercasem = 0;
 		int whenmatched = 0;
 		char* buffer = AllocateBuffer();
  		if (start > wordCount || !Match(buffer,pattern+2,0,start,(char*)"(",1,0,start,end,uppercasem,whenmatched,0,0)) result = FAILMATCH_BIT;  // skip paren and blank, returns start as the location for retry if appropriate
@@ -5815,9 +5865,9 @@ static void C_DualUpper(char* input)
 			{
 				for (int i = 0; i < index; ++i)
 				{
+					if (i == 2) Log(ECHOSTDTRACELOG, "  ***  ");
 					Log(ECHOSTDTRACELOG, " %s  ", list[i]->word);
 					list[i]->inferMark = inferMark;
-
 				}
 				Log(ECHOSTDTRACELOG, "\r\n");
 			}
@@ -6326,7 +6376,7 @@ TestMode Command(char* input,char* output,bool scripted)
 		(*info->fn)(data);
 		testOutput = NULL;
 		FreeBuffer();
-		if (strcmp(info->word,(char*)":echo") && prepareMode == NO_MODE) echo = oldecho;
+		if (strcmp(info->word,(char*)":echo") && prepareMode == NO_MODE && !(trace & TRACE_TREETAGGER)) echo = oldecho;
 		if (scripted && strcmp(info->word,(char*)":echo")) echo = oldecho;
 		return wasCommand;
 	}
@@ -7591,7 +7641,7 @@ static void TimingTopicFunction(WORDP D, uint64 data)
 static void ShowTrace(unsigned int bits, bool original)
 {
 	unsigned int general = (TRACE_VARIABLE|TRACE_MATCH|TRACE_FLOW|TRACE_ECHO);
-	unsigned int mild = (TRACE_OUTPUT|TRACE_PREPARE|TRACE_PATTERN);
+	unsigned int mild = (TRACE_OUTPUT| TRACE_INPUT | TRACE_PREPARE|TRACE_PATTERN);
 	unsigned int deep = (TRACE_ALWAYS|TRACE_JSON|TRACE_TOPIC|TRACE_FACT|TRACE_SAMPLE|TRACE_INFER|TRACE_HIERARCHY|TRACE_SUBSTITUTE|TRACE_VARIABLESET|TRACE_QUERY|TRACE_USER|TRACE_USERFACT| TRACE_TREETAGGER | TRACE_POS| TRACE_TCP|TRACE_USERFN|TRACE_USERCACHE|TRACE_SQL|TRACE_LABEL);
 
 	// general
@@ -7613,6 +7663,7 @@ static void ShowTrace(unsigned int bits, bool original)
 		Log(ECHOSTDTRACELOG,(char*)"Enabled mild detail: ");
 		if (bits & TRACE_OUTPUT) Log(ECHOSTDTRACELOG,(char*)"output ");
 		if (bits & TRACE_PATTERN) Log(ECHOSTDTRACELOG,(char*)"pattern ");
+		if (bits & TRACE_INPUT) Log(ECHOSTDTRACELOG, (char*)"input ");
 		if (bits & TRACE_PREPARE) Log(ECHOSTDTRACELOG,(char*)"prepare ");
 		Log(ECHOSTDTRACELOG,(char*)"\r\n");
 	}
@@ -7662,7 +7713,8 @@ static void ShowTrace(unsigned int bits, bool original)
 		Log(ECHOSTDTRACELOG,(char*)"Disabled mild detail: ");
 		if (!(bits & TRACE_OUTPUT)) Log(ECHOSTDTRACELOG,(char*)"output ");
 		if (!(bits & TRACE_PATTERN)) Log(ECHOSTDTRACELOG,(char*)"pattern ");
-		if (!(bits & TRACE_PREPARE)) Log(ECHOSTDTRACELOG,(char*)"prepare ");
+		if (!(bits & TRACE_INPUT)) Log(ECHOSTDTRACELOG,(char*)"input ");
+		if (!(bits & TRACE_PREPARE)) Log(ECHOSTDTRACELOG, (char*)"prepare ");
 		Log(ECHOSTDTRACELOG,(char*)"\r\n");
 	}
 
@@ -7698,7 +7750,7 @@ static void ShowTrace(unsigned int bits, bool original)
 static void ShowTiming(unsigned int bits, bool original)
 {
 	unsigned int general = TRACE_FLOW;
-	unsigned int mild = (TRACE_PREPARE | TRACE_PATTERN);
+	unsigned int mild = (TRACE_INPUT|TRACE_PREPARE | TRACE_PATTERN);
 	unsigned int deep = (TRACE_ALWAYS | TRACE_JSON | TRACE_TOPIC | TRACE_QUERY | TRACE_USER | TRACE_USERFACT| TRACE_TREETAGGER | TRACE_TCP | TRACE_USERFN | TRACE_USERCACHE | TRACE_SQL);
 
 	// general
@@ -7716,6 +7768,7 @@ static void ShowTiming(unsigned int bits, bool original)
 		if (!original) Log(ECHOSTDTRACELOG, (char*)"  ");
 		Log(ECHOSTDTRACELOG, (char*)"Enabled mild detail: ");
 		if (bits & TRACE_PATTERN) Log(ECHOSTDTRACELOG, (char*)"pattern ");
+		if (bits & TRACE_INPUT) Log(ECHOSTDTRACELOG, (char*)"input ");
 		if (bits & TRACE_PREPARE) Log(ECHOSTDTRACELOG, (char*)"prepare ");
 		Log(ECHOSTDTRACELOG, (char*)"\r\n");
 	}
@@ -7753,6 +7806,7 @@ static void ShowTiming(unsigned int bits, bool original)
 		if (!original) Log(ECHOSTDTRACELOG, (char*)"  ");
 		Log(ECHOSTDTRACELOG, (char*)"Disabled mild detail: ");
 		if (!(bits & TRACE_PATTERN)) Log(ECHOSTDTRACELOG, (char*)"pattern ");
+		if (!(bits & TRACE_INPUT)) Log(ECHOSTDTRACELOG, (char*)"input ");
 		if (!(bits & TRACE_PREPARE)) Log(ECHOSTDTRACELOG, (char*)"prepare ");
 		Log(ECHOSTDTRACELOG, (char*)"\r\n");
 	}
@@ -7843,6 +7897,7 @@ static void C_Trace(char* input)
 	{
 		WalkDictionary(ClearTracedFunction,0);
 		WalkDictionary(ClearTracedTopic,0);
+		traceUniversal = 0;
 	}
 	
 	if (!strnicmp(input,"factcreate",10)) // tracing on 
@@ -7886,10 +7941,11 @@ static void C_Trace(char* input)
 				flags &= -1 ^ TRACE_ECHO;
 				noecho = true;
 			}
-			else if (!stricmp(word,(char*)"prepare")) flags &= -1 ^ TRACE_PREPARE; 
+			else if (!stricmp(word, (char*)"input")) flags &= -1 ^ TRACE_INPUT;
+			else if (!stricmp(word,(char*)"prepare")) flags &= -1 ^ (TRACE_PREPARE|TRACE_INPUT);
 			else if (!stricmp(word,(char*)"output")) flags &= -1 ^ TRACE_OUTPUT;
 			else if (!stricmp(word,(char*)"pattern")) flags &= -1 ^ TRACE_PATTERN;
-			else if (!stricmp(word,(char*)"mild")) flags &= -1 ^ (TRACE_PREPARE|TRACE_OUTPUT|TRACE_PATTERN); 
+			else if (!stricmp(word,(char*)"mild")) flags &= -1 ^ (TRACE_INPUT|TRACE_PREPARE|TRACE_OUTPUT|TRACE_PATTERN); 
 
 			else if (!stricmp(word,(char*)"infer")) flags &= -1 ^ TRACE_INFER;
 			else if (!stricmp(word,(char*)"sample")) flags &= -1 ^ TRACE_SAMPLE;
@@ -7925,10 +7981,11 @@ static void C_Trace(char* input)
 		else if (!stricmp(word,(char*)"ruleflow")) flags |= TRACE_FLOW;
 		else if (!stricmp(word,(char*)"echo")) flags |= TRACE_ECHO;
 
-		else if (!stricmp(word,(char*)"prepare")) flags |= TRACE_PREPARE; 
+		else if (!stricmp(word, (char*)"input")) flags |= TRACE_INPUT;
+		else if (!stricmp(word,(char*)"prepare")) flags |= TRACE_INPUT|TRACE_PREPARE;
 		else if (!stricmp(word,(char*)"output")) flags |= TRACE_OUTPUT;
 		else if (!stricmp(word,(char*)"pattern")) flags |= TRACE_PATTERN;
-		else if (!stricmp(word,(char*)"mild")) flags |= (TRACE_PREPARE|TRACE_OUTPUT|TRACE_PATTERN); 
+		else if (!stricmp(word,(char*)"mild")) flags |= (TRACE_INPUT|TRACE_PREPARE|TRACE_OUTPUT|TRACE_PATTERN); 
 
 		else if (!stricmp(word,(char*)"infer")) flags |= TRACE_INFER;
 		else if (!stricmp(word,(char*)"sample")) flags |= TRACE_SAMPLE;
@@ -7977,6 +8034,11 @@ static void C_Trace(char* input)
 				flags = priorTrace; // restore what came before
 			}
 			else Log(ECHOSTDTRACELOG,(char*)"No such function %s\r\n",word);
+		}
+		else if (!stricmp(word, "universal"))
+		{
+			traceUniversal = flags & (-1 ^ TRACE_ECHO);
+			flags = priorTrace;
 		}
 		else if (*word == USERVAR_PREFIX)
 		{
@@ -8045,6 +8107,7 @@ static void C_Trace(char* input)
 			if (noecho) trace ^= TRACE_ECHO;	// requested to be off
 		}
 		Log(ECHOSTDTRACELOG,(char*)" trace = %d (0x%x)\r\n",trace,trace);
+		if (traceUniversal) Log(ECHOSTDTRACELOG, (char*)" universal =  0x%x\r\n", traceUniversal);
 	}	
 	wasCommand = TRACECMD; // save results to user file
 }
@@ -8906,7 +8969,7 @@ static void DisplayTopic(char* name,int spelling)
 					if (canonical)
 					{
 						// if canonical is upper and entry is lower, dont show canonical
-						if (entry && IsUpperCase(*canonical->word) && !IsUpperCase(*entry->word)) {;}
+						if (entry && canonical->internalBits & UPPERCASE_HASH && !(entry->internalBits & UPPERCASE_HASH)) {;}
 						else if (!stricmp(canonical->word,(char*)"unknown-word")) {;}
 						else strcpy(word,canonical->word);
 					}
@@ -9672,7 +9735,6 @@ static void C_QuoteLines(char* file)
 		return;
 	}
 	FILE* out = FopenUTF8Write(name);
-
 	// format is  word  `lemma` POSes
 	char word[MAX_WORD_SIZE];
 	word[0] = '"';
@@ -10235,7 +10297,8 @@ CommandInfo commandSet[] = // NEW
 	{ (char*)"\r\n---- Script Testing",0,(char*)""},  
 	{ (char*)":autoreply",C_AutoReply,(char*)"[OK,Why] use one of those as all input."}, 
 	{ (char*)":common",C_Common,(char*)"What concepts have the two words in common."},
-	{ (char*)":prepare",C_Prepare,(char*)"Show results of tokenization, tagging, and marking on a sentence"},  
+	{ (char*)":tokenize",C_Tokenize,(char*)"Show results of tokenization" },
+	{ (char*)":prepare",C_Prepare,(char*)"Show results of tokenization, tagging, and marking on a sentence"},
 	{ (char*)":regress",C_Regress,(char*)"create or test a regression file"}, 
 	{ (char*)":source",C_Source,(char*)"Switch input to named file"}, 
 	{ (char*)":testpattern",C_TestPattern,(char*)"See if a pattern works with an input."}, 

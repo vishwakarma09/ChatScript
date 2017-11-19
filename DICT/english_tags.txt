@@ -45,7 +45,7 @@
  RBR ADVERB
  RBS  ADVERB
  RP PARTICLE PREPOSITION	
- SENT	# sentence end punctuation, never visible
+ SENT PUNCTUATION	# sentence end punctuation
  SYM PUNCTUATION # symbol  	@  +  *  ^  |  = (also \ )
  TO TO_INFINITIVE PREPOSITION
  UH INTERJECTION 

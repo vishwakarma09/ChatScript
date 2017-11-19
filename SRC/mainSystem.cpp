@@ -1,10 +1,12 @@
 #include "common.h" 
 #include "evserver.h"
-char* version = "7.61";
+char* version = "7.7";
 char sourceInput[200];
 FILE* userInitFile;
 int externalTagger = 0;
 char defaultbot[100];
+int traceUniversal;
+
 static bool argumentsSeen = false;
 char* configFile = "cs_init.txt";	// can set config params
 char language[40];							// indicate current language used
@@ -22,6 +24,7 @@ bool pendingUserReset = false;
 bool rebooting = false;
 bool assignedLogin = false;
 int forkcount = 1;
+int outputchoice = -1;
 char apikey[100];
 DEBUGAPI debugInput = NULL;
 DEBUGAPI debugOutput = NULL;
@@ -495,7 +498,7 @@ void ReloadSystem()
 	ExtendDictionary(); // store labels of concepts onto variables.
 	DefineSystemVariables();
 	ClearUserVariables();
-
+	AcquirePosMeanings(false); // do not build pos facts (will be in binary) but make vocab available
 	if (!ReadBinaryFacts(FopenStaticReadOnly(UseDictionaryFile((char*)"facts.bin"))))  // DICT
 	{
 		AcquirePosMeanings(true);
@@ -504,7 +507,6 @@ void ReloadSystem()
 		if ( safeDict != dictionaryFree) myexit((char*)"dict changed on read of facts");
 		WriteBinaryFacts(FopenBinaryWrite(UseDictionaryFile((char*)"facts.bin")),factBase);
 	}
-	else AcquirePosMeanings(false);
 	char name[MAX_WORD_SIZE];
 	sprintf(name,(char*)"%s/%s/systemfacts.txt",livedata,language);
 	ReadFacts(name,NULL,0); // part of wordnet, not level 0 build 
@@ -976,7 +978,9 @@ unsigned int InitSystem(int argcx, char * argvx[],char* unchangedPath, char* rea
 	echo = false;
 
 	InitStandalone();
-
+#ifndef DISCARDMYSQL
+	if (mysqlconf) MySQLUserFilesCode(); //Forked must hook uniquely AFTER forking
+#endif
 #ifndef DISCARDPOSTGRES
 #ifndef EVSERVER
 	if (*postgresparams)  PGUserFilesCode(); // unforked process can hook directly. Forked must hook AFTER forking
@@ -1009,6 +1013,9 @@ void PartiallyCloseSystem() // server data (queues etc) remain available
 	CloseBuffers();		// memory system
 #ifndef DISCARDPOSTGRES
 	PostgresShutDown();
+#endif
+#ifndef DISCARDMYSQL
+	MySQLserFilesCloseCode();
 #endif
 #ifndef DISCARDMONGO
 	MongoSystemRestart(); // actually just closes files
@@ -1558,7 +1565,7 @@ void FinishVolley(char* incoming,char* output,char* postvalue,int limit)
 		else stopUserWrite = false;
 		// Log the results
 		GetActiveTopicName(activeTopic); // will show currently the most interesting topic
-		if (userLog && prepareMode != POS_MODE && prepareMode != PREPARE_MODE)
+		if (userLog && prepareMode != POS_MODE && prepareMode != PREPARE_MODE  && prepareMode != TOKENIZE_MODE)
 		{
 			char buff[20000];
 			char time15[MAX_WORD_SIZE];
@@ -2126,7 +2133,7 @@ bool PrepassSentence(char* prepassTopic)
 				--inputSentenceCount; // abort this input
 				return true; 
 			}
-			if (prepareMode == PREPARE_MODE || trace & (TRACE_PREPARE|TRACE_POS) || prepareMode == POS_MODE || (prepareMode == PENN_MODE && trace & TRACE_POS)) 
+			if (prepareMode == PREPARE_MODE || prepareMode == TOKENIZE_MODE || trace & (TRACE_INPUT |TRACE_POS) || prepareMode == POS_MODE || (prepareMode == PENN_MODE && trace & TRACE_POS))
 			{
 				if (tokenFlags != oldflags) DumpTokenFlags((char*)"After prepass"); // show revised from prepass
 			}
@@ -2160,7 +2167,7 @@ FunctionResult DoSentence(char* prepassTopic, bool atlimit)
 	if (all) Log(STDTRACELOG,(char*)"\r\n\r\nInput: %s\r\n",input);
 	bool oldecho = echo;
 	bool changedEcho = true;
-	if (prepareMode == PREPARE_MODE)  changedEcho = echo = true;
+	if (prepareMode == PREPARE_MODE || prepareMode == TOKENIZE_MODE)  changedEcho = echo = true;
 
     //    generate reply by lookup first
 	unsigned int retried = 0;
@@ -2482,7 +2489,7 @@ bool AddResponse(char* msg, unsigned int responseControl)
 void NLPipeline(int mytrace)
 {
 	char* original[MAX_SENTENCE_LENGTH];
-	if (mytrace & TRACE_PREPARE || prepareMode) memcpy(original + 1, wordStarts + 1, wordCount * sizeof(char*));	// replicate for test
+	if (mytrace & TRACE_INPUT  || prepareMode) memcpy(original + 1, wordStarts + 1, wordCount * sizeof(char*));	// replicate for test
 	int originalCount = wordCount;
 	if (tokenControl & (DO_SUBSTITUTE_SYSTEM | DO_PRIVATE) && !oobExists)
 	{
@@ -2497,7 +2504,7 @@ void NLPipeline(int mytrace)
 
 		// test for punctuation badly done at end (eg "?\")
 		ProcessSubstitutes();
-		if (mytrace & TRACE_PREPARE || prepareMode == PREPARE_MODE)
+		if (mytrace & TRACE_INPUT  || prepareMode == PREPARE_MODE || prepareMode == TOKENIZE_MODE)
 		{
 			int changed = 0;
 			if (wordCount != originalCount) changed = true;
@@ -2548,7 +2555,7 @@ void NLPipeline(int mytrace)
 
 	int i, j;
 	for (i = 1; i <= wordCount; ++i)  originalCapState[i] = IsUpperCase(*wordStarts[i]); // note cap state
-	if (mytrace & TRACE_PREPARE || prepareMode == PREPARE_MODE)
+	if (mytrace & TRACE_INPUT  || prepareMode == PREPARE_MODE || prepareMode == TOKENIZE_MODE)
 	{
 		int changed = 0;
 		if (wordCount != originalCount) changed = true;
@@ -2570,7 +2577,7 @@ void NLPipeline(int mytrace)
 	if (tokenControl & DO_SPELLCHECK && wordCount && *wordStarts[1] != '~' && !oobExists)
 	{
 		if (SpellCheckSentence()) tokenFlags |= DO_SPELLCHECK;
-		if (mytrace & TRACE_PREPARE || prepareMode == PREPARE_MODE)
+		if (mytrace & TRACE_INPUT  || prepareMode == PREPARE_MODE || prepareMode == TOKENIZE_MODE)
 		{
 			int changed = 0;
 			if (wordCount != originalCount) changed = true;
@@ -2592,7 +2599,7 @@ void NLPipeline(int mytrace)
 		}
 
 		if (tokenControl & (DO_SUBSTITUTE_SYSTEM | DO_PRIVATE))  ProcessSubstitutes();
-		if (mytrace & TRACE_PREPARE || prepareMode == PREPARE_MODE)
+		if (mytrace & TRACE_INPUT  || prepareMode == PREPARE_MODE || prepareMode == TOKENIZE_MODE)
 		{
 			int changed = 0;
 			if (wordCount != originalCount) changed = true;
@@ -2615,7 +2622,7 @@ void PrepareSentence(char* input,bool mark,bool user, bool analyze,bool oobstart
 {
 	unsigned int mytrace = trace;
 	clock_t start_time = ElapsedMilliseconds();
-	if (prepareMode == PREPARE_MODE) mytrace = 0;
+	if (prepareMode == PREPARE_MODE || prepareMode == TOKENIZE_MODE) mytrace = 0;
 	ResetSentence();
 	ResetTokenSystem();
 
@@ -2695,7 +2702,7 @@ void PrepareSentence(char* input,bool mark,bool user, bool analyze,bool oobstart
 			}
 		}
 	}
- 	if (mytrace & TRACE_PREPARE|| prepareMode == PREPARE_MODE)
+ 	if (mytrace & TRACE_INPUT || prepareMode == PREPARE_MODE || prepareMode == TOKENIZE_MODE)
 	{
 		Log(STDTRACELOG,(char*)"TokenControl: ");
 		DumpTokenControls(tokenControl);
@@ -2766,7 +2773,7 @@ void PrepareSentence(char* input,bool mark,bool user, bool analyze,bool oobstart
 		}
 	}
 	
-	if (mytrace & TRACE_PREPARE || prepareMode == PREPARE_MODE)
+	if (mytrace & TRACE_INPUT  || prepareMode == PREPARE_MODE || prepareMode == TOKENIZE_MODE)
 	{
 		Log(STDTRACELOG,(char*)"Actual used input: ");
 		for (i = 1; i <= wordCount; ++i) 
@@ -2803,7 +2810,7 @@ void PrepareSentence(char* input,bool mark,bool user, bool analyze,bool oobstart
 	wordStarts[wordCount+2] = 0;
     if (mark && wordCount) MarkAllImpliedWords();
 
-	if (prepareMode == PREPARE_MODE || trace & TRACE_POS || prepareMode == POS_MODE || (prepareMode == PENN_MODE && trace & TRACE_POS)) DumpTokenFlags((char*)"After parse");
+	if (prepareMode == PREPARE_MODE || prepareMode == TOKENIZE_MODE || trace & TRACE_POS || prepareMode == POS_MODE || (prepareMode == PENN_MODE && trace & TRACE_POS)) DumpTokenFlags((char*)"After parse");
 	if (timing & TIME_PREPARE) {
 		int diff = ElapsedMilliseconds() - start_time;
 		if (timing & TIME_ALWAYS || diff > 0) Log(STDTIMELOG, (char*)"Prepare %s time: %d ms\r\n", input, diff);

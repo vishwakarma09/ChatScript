@@ -10,7 +10,7 @@ static char encryptUser[200];
 static char encryptLTM[200];
 static char logLastCharacter = 0;
 #define MAX_STRING_SPACE 100000000  // transient+heap space 100MB
-unsigned long maxHeapBytes = MAX_STRING_SPACE;
+size_t maxHeapBytes = MAX_STRING_SPACE;
 char* heapBase;					// start of heap space (runs backward)
 char* heapFree;					// current free string ptr
 char* stackFree;
@@ -270,7 +270,7 @@ void FreeBuffer(char* name)
 
 void InitStackHeap()
 {
-	int size = maxHeapBytes / 64;
+	size_t size = maxHeapBytes / 64;
 	size = (size * 64) + 64; // 64 bit align both ends
 	heapEnd = ((char*) malloc(size));	// point to end
 	if (!heapEnd)
@@ -347,7 +347,7 @@ void ReleaseStack(char* word)
 
 bool AllocateStackSlot(char* variable)
 {
-	WORDP D = StoreWord(variable);
+	WORDP D = StoreWord(variable,AS_IS);
 
 	unsigned int len = sizeof(char*);
     if ((stackFree + len + 1) >= (heapFree - 5000)) // dont get close

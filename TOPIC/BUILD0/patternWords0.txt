@@ -48,7 +48,6 @@ munster
 provolone
 fromage
 muenster
-Époisses
 bitter-clinger
 hoosier
 hoser
@@ -78,7 +77,6 @@ th
 tue
 tues
 tu
-tRex
 mong
 sperg
 ob/gyn

@@ -17,6 +17,7 @@ unsigned int mysqlport;
 char mysqldb[300];
 char mysqluser[300];
 char mysqlpasswd[300];
+static bool mysqlInited = false;
 
 // user data is stored in this buffer
 static char * mysqlfilesbuffer;
@@ -314,6 +315,7 @@ size_t mysqlUserWrite(const void* buf,size_t size, size_t count, FILE* file)
 // initialize the user system
 void MySQLUserFilesCode()
 {
+	if (mysqlInited) return;
 #ifdef WIN32
 	if (InitWinsock() == FAILRULE_BIT) ReportBug((char*)"FATAL: WSAStartup failed\r\n");
 #endif
@@ -341,18 +343,11 @@ void MySQLUserFilesCode()
 	userFileSystem.userDelete = NULL;
 	filesystemOverride = MYSQLFILES;
 
-	// create userfiles table ???
-    /*
-	PGresult   *res  = PQexec(usersconn, "CREATE TABLE userfiles (userid varchar(400) PRIMARY KEY, file bytea);");
-	int status = (int) PQresultStatus(res);
-	char* msg;
-	if (status == PGRES_BAD_RESPONSE ||  status == PGRES_FATAL_ERROR || status == PGRES_NONFATAL_ERROR)  msg = PQerrorMessage(usersconn);
-	msg = NULL;
-	*/
+	mysqlInited = true;
 }
 
 
-void MySQLserFilesCloseCode(){}
+void MySQLserFilesCloseCode(){ /* mysqlInited = false; */}
 
 extern char* mySQLparams;
 
@@ -362,13 +357,13 @@ FunctionResult MySQLInitCode(char* buffer)
    MYSQL *conn;
    MYSQL_RES *res;
    MYSQL_ROW row;
-   char *server = "localhost";
+   char *myserver = "localhost";
    char *user = "root";
    char *password = "mysql"; 
    char *database = "mysql";
    conn = mysql_init(NULL);
 
-   if (!mysql_real_connect(conn, server, user, password, database, 0, NULL, 0)) {
+   if (!mysql_real_connect(conn, myserver, user, password, database, 0, NULL, 0)) {
       fprintf(stderr, "%s\r\n", mysql_error(conn));
       exit(1);
    }

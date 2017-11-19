@@ -2295,7 +2295,7 @@ FunctionResult JSONArrayInsertCode(char* buffer) //  objectfact objectvalue  BEF
 	if (lastF && lastF->flags & FACTTRANSIENT)  flags |=  FACTTRANSIENT;	
 
 	sprintf(arrayIndex,(char*)"%d",count); // add at end
-	WORDP Idex = StoreWord(arrayIndex);
+	WORDP Idex = StoreWord(arrayIndex,AS_IS);
 
 	// create fact
 	CreateFact(MakeMeaning(O), MakeMeaning(Idex),value, flags);

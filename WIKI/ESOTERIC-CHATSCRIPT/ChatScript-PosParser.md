@@ -3,7 +3,7 @@
 > © Bruce Wilcox, gowilcox@gmail.com
 
 
-> Revision 7/24/2016 cs6.7
+> Revision 11/19/2016 cs7.7
 
 How to support non-English languages at end of manual.
 
@@ -32,13 +32,30 @@ On the more side, pos-taggers typically separate verbs into their various tenses
 On the less side, the standard Penn Treebank system lumps prepositions and subordinate
 conjunctions into the single label IN.
 
-Pos-tagging by itself is relatively useless. It exists to support parsing. Nowadays most people treat
+Pos-tagging by itself is often useless. It exists to support parsing. Nowadays most people treat
 postaggers and parsers as a done deal. A long time ago a guy named Brill was discovered that you can
 get 90% of words correctly tagged merely by tagging it with its most common tag. Nowadays statistical
 pos taggers like the Stanford parser are the gold standard and on Wall Street Journal type articles it is
 said to be about 97.3% accurate in tagging. 
 
-Statistical parsers look at tuples of words to predict what part-of-speech a word will be. 
+Training probability pos-taggers means it generalizes what it has seen to build a relatively simple model of how probable a 
+tag is given surrounding words. You can then test it on the same 
+original data (something you don't normally do with machine learning models) and see how they do.
+TreeTagger trained on a large sample of Wall Street Journal sentences, achieves 97.5% accuracy on the replay.
+Trained on the switchboard corpus of telephone conversations yielded 89.7% against those.
+Pos-tagging degrades rapidly on data it was not trained for. One review said that on bug
+reports the Stanford Pos-Tagger was between 83.6% and 90.5% accurate using Wall Street Journal trained models. 
+
+Another study showed that trained on WSJ data (lots of clean data) 
+and applied to the same kind of data,  atis: Recordings of Air Travel Information System dialogue, i.e. natural speech.
+2. brown: The original Brown Corpus, containing various topics.
+3. swbd: Switchboard Corpus of telephone conversations.
+4. wsj/00-05: Wall Street Journal articles (collection 0 to 5).
+5. wsj/00-22,24: Wall Street Journal articles (collection 0 to 22, and 24).
+6. wsj/23: Wall Street Journal articles (collection 23).
+wsj/23: Percent Correct: 97.454%
+
+Statistical parsers look at tuples (typically 3) of words to predict what part-of-speech a word will be. 
 And because they do so well, pos-tagging is now separated into a separate phase from parsing. 
 These "good" results are for kinds of material the tagger is trained for and
 degrades on other works until trained there. 
@@ -287,6 +304,13 @@ and currently is 94% right in pos-tagging.
 ```
 displays what it is doing as it pos/parses.
 
+## Augmented English language support
+
+TreeTagger has a pos-tagger for English (see Foreign language support about TreeTagger) and
+if you have a license for it, it works in conjunction with ChatScript's own
+tagger to yield a better result than either separately. In the bug reports study,  TreeTagger performs the best in assigning tags to
+nouns and verbs, while the Stanford tagger performs the best in assigning tags to adjectives and adverbs.
+In general I care more about nouns and verbs.
 
 ## Foreign Language support
 
@@ -331,4 +355,6 @@ SetTag and SetRole are for the pos value and Role value (mainsubject, mainverb, 
 will come back in whatever notation your external system uses. All of this happens BEFORE
 Chatscript starts marking things and therefore if you use `:trace` prepare, you can see the results of the
 annotations in the concepts triggered.
+
+
 

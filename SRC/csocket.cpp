@@ -41,9 +41,11 @@ char serverIP[100];
 #include "evserver.h"
 #endif
 
-#define WEBSOCKET 1
+#ifdef WIN32
+//#define WEBSOCKET 1
 #include "easywclient/easywsclient.hpp"
 #include "easywclient/easywsclient.cpp" 
+#endif
 
 #define DOSOCKETS 1
 #endif

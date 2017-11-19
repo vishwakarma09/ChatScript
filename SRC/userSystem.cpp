@@ -454,6 +454,7 @@ char* WriteUserVariables(char* ptr,bool sharefile, bool compiled,char* saveJSON)
 
 			if (!stricmp(D->word,"$cs_trace")) 
 			{
+				if (traceUniversal) continue; // dont touch this
 				traceseen = true;
 				sprintf(word,(char*)"%u",(unsigned int)trace);
 				val = word;
@@ -475,7 +476,7 @@ char* WriteUserVariables(char* ptr,bool sharefile, bool compiled,char* saveJSON)
         D->w.userValue = NULL;
 		RemoveInternalFlag(D,VAR_CHANGED);
     }
-	if (!traceseen)
+	if (!traceseen && !traceUniversal)
 	{
 		sprintf(ptr,(char*)"$cs_trace=%d\r\n",trace);
 		ptr += strlen(ptr);
@@ -751,6 +752,7 @@ static  bool ReadFileData(char* bot) // passed  buffer with file content (where 
 		oldRandIndex = randIndex = atoi(GetUserVariable((char*)"$cs_randindex")) + (volleyCount % MAXRAND);	// rand base assigned to user
 	}
 	userRecordSourceBuffer = NULL;
+	if (traceUniversal) trace = traceUniversal;
 	return true;
 }
 
@@ -842,4 +844,6 @@ void ReadNewUser()
 	char file[SMALL_WORD_SIZE];
 	sprintf(file,"%s-init.txt",loginName);
 	userInitFile = fopen(file,(char*)"rb"); 
+
+	if (traceUniversal) trace = traceUniversal;
 }

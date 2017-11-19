@@ -50,7 +50,8 @@ extern int forkcount;
 	POSTIME_MODE = 8,
 	PENN_MODE = 16,
 	REGRESS_MODE = 32,			// inputs are from a regression test
-};
+	TOKENIZE_MODE = 64,			// just prepare the inputs
+ };
 
  enum RegressionMode { 
 	NO_REGRESSION = 0,
@@ -91,6 +92,8 @@ extern int responseIndex;
 extern bool documentMode;
 extern bool assignedLogin;
 extern bool servertrace;
+extern int outputchoice;
+extern int traceUniversal;
 extern char apikey[100];
 extern char defaultbot[100];
 extern unsigned int volleyCount;
@@ -197,7 +200,11 @@ int FindOOBEnd(int start);
 void InitStandalone();
 void CreateSystem();
 void ReloadSystem();
+#ifdef DLL
+extern "C" __declspec(dllexport) void CloseSystem();
+#else
 void CloseSystem();
+#endif
 void NLPipeline(int trace);
 void PartiallyCloseSystem();
 int main(int argc, char * argv[]);

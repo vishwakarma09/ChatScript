@@ -719,18 +719,16 @@ typedef struct WORDENTRY //   a dictionary entry  - starred items are written to
 	FACTOID objectHead;			//  start threads for facts run thru here 
   	
 	MEANING  meanings;			//  list of meanings (synsets) of this word - Will be wordnet synset id OR self ptr -- 1-based since 0th meaning means all meanings
-
-    union {
-          unsigned short topicIndex;	//   for a ~topic or %systemVariable or plan, this is its id
-		  unsigned short codeIndex;		//   for a system function, its the table index for it
-		  unsigned short debugIndex;	//   for a :test function, its the table index for it
-    }x;
-    unsigned short length;		//  length of the word
-	
+    unsigned int length;		//  length of the word
   	unsigned int inferMark;		// (functions use as trace control bits) no need to erase been here marker during marking facts, inferencing (for propogation) and during scriptcompile 
- 
     MEANING spellNode;			// next word of same length as this - not used for function names (time tracing bits go here) and concept names
   	unsigned int nextNode;		// bucket-link for dictionary hash + top bye GETMULTIWORDHEADER // can this word lead a phrase to be joined - can vary based on :build state -- really only needs 4 bits
+	
+	union {
+		unsigned int topicIndex;	//   for a ~topic or %systemVariable or plan, this is its id
+		unsigned int codeIndex;		//   for a system function, its the table index for it
+		unsigned int debugIndex;	//   for a :test function, its the table index for it
+	}x;
 
 #ifndef DISCARDCOUNTER
 	unsigned int counter;			// general storage slot

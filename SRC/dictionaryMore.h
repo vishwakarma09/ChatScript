@@ -33,13 +33,13 @@
 #define QUERY_KIND				0x00000200		// is a query item (from LIVEDATA or query:)
 #define LABEL					QUERY_KIND		// transient scriptcompiler use
 #define RENAMED					QUERY_KIND		// _alpha name renames _number or @name renames @n
-//		0x00000400		
+#define PREFER_THIS_UPPERCASE	0x00000400		// given choice of uppercases, retrieve this
 #define NOTIME_TOPIC			0x00000800		// dont time this topic (topic names)
 #define NOTIME_FN				NOTIME_TOPIC	// dont time this function (on functions only)
 
 #define UTF8					0x00001000		// word has utf8 char in it (all normal words)
 #define UPPERCASE_HASH			0x00002000		// word has upper case English character in it
-#define VAR_CHANGED				0x00004000		// $variable has changed value this volley
+#define VAR_CHANGED				0x00004000		// $variable has changed value this volley 
 #define NOTRACE_TOPIC			VAR_CHANGED		// dont trace this topic (topic names)
 #define NOTRACE_FN				VAR_CHANGED		// dont trace this function (on functions only)
 #define WORDNET_ID				0x00008000		// a wordnet synset header node (MASTER w gloss ) only used when building a dictionary -- or transient flag for unduplicate
@@ -237,6 +237,7 @@ MEANING GetFactBack(WORDP D);
 void SetFactBack(WORDP D, MEANING M);
 bool ReadForeignPosTags(char* fname);
 int GetWords(char* word, WORDP* set,bool strict);
+bool StricmpUTF(char* w1, char* w2, int len);
 void ReadQueryLabels(char* file);
 void ClearWordWhere(WORDP D,int at);
 void RemoveConceptTopic(int list[256],WORDP D, int at);
