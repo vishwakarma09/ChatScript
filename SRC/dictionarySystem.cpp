@@ -1012,13 +1012,14 @@ WORDP StoreWord(char* word, uint64 properties)
 	unsigned int n = 0;
 	bool lowercase = false;
 	//   make all words normalized with no blanks in them.
+	char wordx[MAX_WORD_SIZE];
 	if (*word == '"' || *word == '_' || *word == '`') {;} // dont change any quoted things or things beginning with _ (we use them in facts for a "missing" value) or user var names
 	else if (properties & (PUNCTUATION_BITS|AS_IS)) {}
+	else if (*word == USERVAR_PREFIX && word[1] == '_' && word[2] == '_' && IsDigit(word[3])) {} // internal parameter names for jsonreadcsv are not legal names
 	else if ((*word == SYSVAR_PREFIX || *word == USERVAR_PREFIX || *word == '~' || *word == '^') &&
 		IsLegalName(word+1))  // dont change something that looks like json reference off of variable
 	{
 		lowercase = true; // these are always lower case
-		char wordx[MAX_WORD_SIZE];
 		MakeLowerCopy(wordx,word); // JUST IN CASE HE SYNTHESIZED it with upper case
 		word = wordx;
 	}
@@ -1065,15 +1066,15 @@ WORDP StoreWord(char* word, uint64 properties)
 	}
 
 	//   not found, add entry 
-	char* wordx = AllocateHeap(word,len); // storeword
-    if (!wordx) return StoreWord((char*)"x.x",properties|AS_IS); // fake it
+	char* wordy = AllocateHeap(word,len); // storeword
+    if (!wordy) return StoreWord((char*)"x.x",properties|AS_IS); // fake it
 	
 	D = AllocateEntry();
 	D->nextNode = hashbuckets[hash];
 	hashbuckets[hash] = Word2Index(D);
 
 	// fill in data on word
-    D->word = wordx; 
+    D->word = wordy; 
 	if (hasUTF8Characters) AddInternalFlag(D,UTF8);
 	if (hasUpperCharacters) AddInternalFlag(D,UPPERCASE_HASH); // dont label it NOUN or NOUN_UPPERCASE
 	D->hash = fullhash;
@@ -2531,7 +2532,8 @@ void ReadSubstitutes(const char* name,unsigned int build,const char* layer, unsi
 			char* at = replacement;
 			while ((at = strchr(at, ' '))) *at = '+';	// change spaces to plus
 		}
-
+		char* at = original;
+		while ((at = strchr(at, '_'))) *at++ = '`';// make safe form so we can have _ in output
 		WORDP D = FindWord(original,0, LOWERCASE_LOOKUP);	//   do we know original already?
 		if (D && D->internalBits & HAS_SUBSTITUTE) // user allowed to override base but will get warning on load
 		{
@@ -3383,10 +3385,12 @@ void LoadDictionary()
 			WriteBinaryDictionary(); //   store the faster read form of dictionary
 		}
 	}
-	else
+	else  // will not create new dict entries unless dictinoarysystem.h changed. need to erase dict.bin and rebuild
 	{
+		WORDP hold = dictionaryFree;
 		InitFactWords(); 
-		AcquireDefines((char*)"SRC/dictionarySystem.h"); //   get dictionary defines (must occur before loop that decodes properties into sets (below)
+		AcquireDefines((char*)"SRC/dictionarySystem.h"); 
+		if (dictionaryFree != hold) ReportBug((char*)"FATAL: dict changed after binary read+supplement\r\n")
 	}
 	ReadAbbreviations((char*)"abbreviations.txt"); // needed for burst/tokenizing
 	*currentFilename = 0;
@@ -3589,6 +3593,7 @@ void DumpDictionaryEntry(char* word,unsigned int limit)
 	uint64 xflags = 0;
 	WORDP revise;
 	uint64 inferredProperties = (name[0] != '~' && name[0] != '^') ? GetPosData(-1,name,revise,entry,canonical,xflags,cansysflags) : 0; 
+	if (D != entry) Log(STDTRACELOG, (char*)"\r\n  Changed to %s\r\n",entry->word);
 	sysflags |= xflags;
 	bit = START_BIT;
 	bool extended = false;

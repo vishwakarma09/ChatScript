@@ -1,6 +1,6 @@
 # ChatScript Debugging Manual
 © Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com<br>
-<br>Revision 11/19/2017 cs7.7
+<br>Revision 11/29/2017 cs7.71
 
 You've written script. It doesn't work. Now what? Now you need to debug it, fix it, and
 recompile it. Debugging is mostly a matter of tracing what the system does testpaand
@@ -117,6 +117,7 @@ the above : statement show the list:
 :trim         - Strip excess off chatlog file to make simple file TMP/tmp.txt
 
 ---- internal support -
+:spellit		  - given sentence provide explanation for spelling corrections
 :topicdump         - Dump topic data suitable for inclusion as extra topics into TMP/tmp.txt 
                      (:extratopic or PerformChatGivenTopic)
 :builddict         -  basic, layer0, layer1, or wordnet are options instead of default full

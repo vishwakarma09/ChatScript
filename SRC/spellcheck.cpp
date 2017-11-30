@@ -2,6 +2,8 @@
 
 static MEANING lengthLists[100];		// lists of valid words by length
 bool fixedSpell = false;
+bool spellTrace = false;
+char spellCheckWord[MAX_WORD_SIZE];
 
 typedef struct SUFFIX
 {
@@ -316,47 +318,16 @@ bool SpellCheckSentence()
 {
 	WORDP D,E;
 	fixedSpell = false;
-	bool lowercase = false;
-	
-	// check for all uppercase (capslock)
-	for (int i = FindOOBEnd(1); i <= wordCount; ++i) // skip start of sentence
-	{
-		char* word = wordStarts[i];
-		if (!word[1]) continue; // autoconversion of letters to lower case should be ignored (eg A)
-		if (!stricmp(word, "the")) continue;
-		size_t len = strlen(word);
-		for (int j = 0; j < (int)len; ++j) 
-		{
-			if (IsLowerCase(word[j])) 
-			{
-				lowercase = true;
-				i = j = len+1000; // len might be BIG (oob data) so make sure beyond it)
-			}
-		}
-	}
-
-	if (!lowercase && wordCount > 2) // must have multiple words all in uppercase
-	{
-		for (int i = FindOOBEnd(1); i <= wordCount; ++i)
-		{
-			char* word = wordStarts[i];
-			char myword[MAX_WORD_SIZE];
-			MakeLowerCopy(myword,word);
-			if (strcmp(word, myword))
-			{
-				char* tokens[2];
-				tokens[1] = myword;
-				ReplaceWords("caplocWord", i, 1, 1, tokens);
-				originalCapState[i] = false;
-			}
-		}
-	}
-
 	int startWord = FindOOBEnd(1);
 	for (int i = startWord; i <= wordCount; ++i)
 	{
 		char* word = wordStarts[i];
 		char* tokens[2];
+		if (spellTrace)
+		{
+			strcpy(spellCheckWord, word);
+			echo = true;
+		}
 
 		// change any \ to /
 		char newword[MAX_WORD_SIZE];
@@ -869,9 +840,12 @@ bool SpellCheckSentence()
 			word = SpellCheck(i);
 
 			// dont spell check proper names to improper, if word before or after is lower case originally
+			// unless a substitute like g-mail-> Gmail
 			if (word && i != 1 && originalCapState[i] && !IsUpperCase(*word))
 			{
-				if (!originalCapState[i-1]) continue;
+				WORDP X = FindWord(word);
+				if (X && X->internalBits & HAS_SUBSTITUTE) {}
+				else if (!originalCapState[i-1]) continue;
 				else if (i != wordCount && !originalCapState[i+1]) continue;
 			}
 
@@ -885,7 +859,7 @@ bool SpellCheckSentence()
 			{
 				char* tokens[2];
 				tokens[1] = word;
-				ReplaceWords("SpellFix",i,1,1,tokens);
+				ReplaceWords("Nearest real word",i,1,1,tokens);
 				fixedSpell = true;
 				continue;
 			}
@@ -1005,7 +979,7 @@ static int EditDistance(WORDINFO& dictWordData, WORDINFO& realWordData,int min)
         if (!*currentCharReal || !*currentCharDict) // one ending, other has to catch up by adding a letter
         {
             val += 16; // add a letter
-            if (*priorCharReal == *currentCharDict) val -= 10; // doubling letter at end
+            if (*priorCharReal == *currentCharDict) val -= 5; // doubling letter at end
             dictinfo = resumeDict;
             realinfo = resumeReal;
             continue;
@@ -1241,9 +1215,9 @@ static int EditDistance(WORDINFO& dictWordData, WORDINFO& realWordData,int min)
         // probable transposition since swapping syncs up
         if (!strcmp(currentCharReal, nextCharDict) && !strcmp(nextCharReal, currentCharDict))
         {
-            val += 16; // more expensive if next is not correct after transposition
-            dictinfo = resumeDict2; // skip ahead 2
-            realinfo = resumeReal2;
+            val += 10; // should be more expensive if next is not correct after transposition
+			dictinfo = resumeDict1; 
+            realinfo = resumeReal1;
             continue;
         }
 
@@ -1402,7 +1376,8 @@ static char* StemSpell(char* word,unsigned int i,uint64& base)
 
 char* SpellFix(char* originalWord,int start,uint64 posflags)
 {
-    multichoice = false;
+	if (spellTrace) Log(STDTRACELOG,"Correcting: %s:\r\n", originalWord);
+	multichoice = false;
     char word[MAX_WORD_SIZE];
     MakeLowerCopy(word, originalWord);
 	char word1[MAX_WORD_SIZE];
@@ -1460,12 +1435,12 @@ char* SpellFix(char* originalWord,int start,uint64 posflags)
 			// SPELLING lists have no underscore or space words in them
 			if (hasUnderscore && !under) continue;	 // require keep any underscore
 			if (!hasUnderscore && under) continue;	 // require not have any underscore
-			if (isUpper && !(D->internalBits & UPPERCASE_HASH) && start != 1) continue;	// dont spell check to lower a word in upper
             WORDINFO dictWordData;
             ComputeWordData(D->word, &dictWordData);
             int val = EditDistance(dictWordData, realWordData, min);
 			if (val <= min) // as good or better
 			{
+				if (spellTrace) Log(STDTRACELOG,"    found: %s %d\r\n", D->word, val);
 				if (val < min)
 				{
 					if (trace == TRACE_SPELLING) Log(STDTRACELOG,(char*)"    Better: %s against %s value: %d\r\n",D->word,originalWord,val);
@@ -1498,7 +1473,7 @@ char* SpellFix(char* originalWord,int start,uint64 posflags)
     if (!index)  return NULL; 
     if (index > 1) multichoice = true;
 
-	// take our guesses, and pick the most common (earliest learned or most frequently used) word
+	// take our guesses, and pick the most common or substitute (earliest learned or most frequently used) word
     uint64 commonmin = 0;
     bestGuess[0] = NULL;
 	for (unsigned int j = 0; j < index; ++j) RemoveInternalFlag(choices[j],BEEN_HERE);
@@ -1510,8 +1485,18 @@ char* SpellFix(char* originalWord,int start,uint64 posflags)
     for (unsigned int j = 0; j < index; ++j) 
     {
         uint64 common = choices[j]->systemFlags & COMMONNESS;
-        if (common < commonmin) continue;
+		// if we had upper case and we are spell checking to lower case,
+		// DONT unless a detected substitution is allowed. dont want to lose unknown proper names
+		if (isUpper && !(choices[j]->internalBits & UPPERCASE_HASH) && !(choices[j]->internalBits & HAS_SUBSTITUTE) && start != 1)
+		{
+			continue;
+		}
 		if (choices[j]->internalBits & UPPERCASE_HASH && index > 1) continue;	// ignore proper names for spell better when some other choice exists
+
+		if (choices[j]->internalBits & HAS_SUBSTITUTE)
+			common = 0xff10000000000000ULL;
+		common |= choices[j]->systemFlags & AGE_LEARNED;
+        if (common < commonmin) continue;
         if (common > commonmin) // this one is more common
         {
             commonmin = common;

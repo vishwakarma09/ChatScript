@@ -103,7 +103,7 @@ DATA:
  hemispheric [bowl teacup cup ]
 
  cuboid [bed refrigerator TV television DVD_player laptop modem Tivo box carton ottoman bed lumber speaker DVD_player stereo record_player power_strip cushion brick step bookcase eraser door window  ]
- cuboid [chair sofa couch computer iphone tablet iPad smartphone cellphone monitor keyboard aquarium car automobile train taxi truck van ]
+ cuboid [chair sofa couch computer iPhone tablet iPad smartphone cellphone monitor keyboard aquarium car automobile train taxi truck van ]
  cuboid [cabinet bookcase desk bed mattress air_conditioner ]
 
  

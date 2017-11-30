@@ -1,6 +1,6 @@
 #include "common.h" 
 #include "evserver.h"
-char* version = "7.7";
+char* version = "7.71";
 char sourceInput[200];
 FILE* userInitFile;
 int externalTagger = 0;
@@ -781,6 +781,7 @@ static void ReadConfig()
 unsigned int InitSystem(int argcx, char * argvx[],char* unchangedPath, char* readablePath, char* writeablePath, USERFILESYSTEM* userfiles, DEBUGAPI infn, DEBUGAPI outfn)
 { // this work mostly only happens on first startup, not on a restart
 	*hide = 0;
+	*botheader = 0;
 	FILE* in = FopenStaticReadOnly((char*)"SRC/dictionarySystem.h"); // SRC/dictionarySystem.h
 	if (!in) // if we are not at top level, try going up a level
 	{
@@ -2554,7 +2555,6 @@ void NLPipeline(int mytrace)
 	}
 
 	int i, j;
-	for (i = 1; i <= wordCount; ++i)  originalCapState[i] = IsUpperCase(*wordStarts[i]); // note cap state
 	if (mytrace & TRACE_INPUT  || prepareMode == PREPARE_MODE || prepareMode == TOKENIZE_MODE)
 	{
 		int changed = 0;
@@ -2577,7 +2577,8 @@ void NLPipeline(int mytrace)
 	if (tokenControl & DO_SPELLCHECK && wordCount && *wordStarts[1] != '~' && !oobExists)
 	{
 		if (SpellCheckSentence()) tokenFlags |= DO_SPELLCHECK;
-		if (mytrace & TRACE_INPUT  || prepareMode == PREPARE_MODE || prepareMode == TOKENIZE_MODE)
+		if (spellTrace) {}
+		else if (mytrace & TRACE_INPUT  || prepareMode == PREPARE_MODE || prepareMode == TOKENIZE_MODE)
 		{
 			int changed = 0;
 			if (wordCount != originalCount) changed = true;
@@ -2599,7 +2600,8 @@ void NLPipeline(int mytrace)
 		}
 
 		if (tokenControl & (DO_SUBSTITUTE_SYSTEM | DO_PRIVATE))  ProcessSubstitutes();
-		if (mytrace & TRACE_INPUT  || prepareMode == PREPARE_MODE || prepareMode == TOKENIZE_MODE)
+		if (spellTrace) {}
+		else if (mytrace & TRACE_INPUT  || prepareMode == PREPARE_MODE || prepareMode == TOKENIZE_MODE)
 		{
 			int changed = 0;
 			if (wordCount != originalCount) changed = true;
@@ -2675,6 +2677,36 @@ void PrepareSentence(char* input,bool mark,bool user, bool analyze,bool oobstart
 		*at++ = ' ';
 	}
 	*at = 0;
+
+	// check for all uppercase (capslock)
+	for (int i = 1; i <= wordCount; ++i)  originalCapState[i] = IsUpperCase(*wordStarts[i]); // note cap state
+	bool lowercase = false;
+	for (int i = 1; i <= wordCount; ++i) 
+	{
+		char* word = wordStarts[i];
+		size_t len = strlen(word);
+		for (int j = 0; j < (int)len; ++j)
+		{
+			if (IsLowerCase(word[j])) // lower case letter detected?
+			{
+				lowercase = true;
+				i = j = len + 1000; // len might be BIG (oob data) so make sure beyond it)
+			}
+		}
+	}
+
+	if (!lowercase && wordCount > 2) // must have multiple words all in uppercase
+	{
+		for (int i = 1; i <= wordCount; ++i)
+		{
+			char* word = wordStarts[i];
+			char myword[MAX_WORD_SIZE];
+			MakeLowerCopy(myword, word);
+			WORDP D = StoreWord(myword);
+			wordStarts[i] = D->word;
+			originalCapState[i] = false;
+		}
+	}
 
 	// force Lower case on plural start word which has singular meaning (but for substitutes
 	if (wordCount  && !oobExists)

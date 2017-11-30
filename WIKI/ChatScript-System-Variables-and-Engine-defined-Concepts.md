@@ -1,6 +1,6 @@
 # ChatScript System Variables and Engine-defined Concepts
 © Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 11/19/2017 cs7.7
+<br>Revision 11/29/2017 cs7.71
 
 
 * [Engine-defined Concepts](ChatScript-System-Variables-and-Engine-defined-Concepts.md#engine-defined-concepts)
@@ -439,7 +439,7 @@ correct punctuation or casing or spelling. These block that:
 | `ONLY_LOWERCASE`    |  force all input (except "I") to be lower case, refuse to recognize uppercase forms of anything 
 | `NO_IMPERATIVE`     | 
 | `NO_WITHIN`         |  
-| `NO_SENTENCE_END`   | 
+| `NO_SENTENCE_END`   | do not break input into sentences
 
 Normally the tokenizer breaks apart some kinds of sentences into two. These
 prevent that:

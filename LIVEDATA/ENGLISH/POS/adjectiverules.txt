@@ -42,6 +42,22 @@ DISCARD
 	CANONLYBE VERB_BITS ADJECTIVE_PARTICIPLE
 DISCARD
 
+# adjective participle cannot preceed preposition "my *briefing on whales"
+0	INCLUDE * ADJECTIVE_PARTICIPLE 
+	HAS PREPOSITION  # on and off are confusing preps, so we do has
+DISCARD
+
+# adjective normal cannot preceed preposition "my *briefing on whales"
+0	INCLUDE * ADJECTIVE_NORMAL 
+	IS PREPOSITION
+DISCARD
+
+# adj normal/prep conflict after noun "my book *on whales"
+-1  IS NOUN_SINGULAR NOUN_PLURAL
+	INCLUDE * ADJECTIVE_NORMAL
+	STAY HAS PREPOSITION
+DISCARD
+
 # adjective participle must follow or preceed nouniness when it could be gerund - using/use (+Noun_gerund +Adjective_participle) 
 -1	!HAS NOUN_BITS
 	INCLUDE * ADJECTIVE_PARTICIPLE
@@ -53,6 +69,12 @@ DISCARD
 0	INCLUDE * ADJECTIVE_NUMBER
 	STAY ISORIGINAL one
 	HAS NOUN_PLURAL
+DISCARD
+
+# wont be adj part sandwiched between 2 preps  "tests of *briefing on"
+-1  IS PREPOSITION PARTICLE
+	INCLUDE * ADJECTIVE_PARTICIPLE
+	IS PREPOSITION PARTICLE
 DISCARD
 
 # wont be adj part at start if followed by possible prep - spending/spend (+Noun_gerund +Adjective_participle)  on (Adjective_normal +Preposition)

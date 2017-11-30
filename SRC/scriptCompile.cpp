@@ -40,7 +40,7 @@ static char errors[MAX_ERRORS][MAX_WORD_SIZE];
 static unsigned int errorIndex = 0;
 static char functionArguments[MAX_ARGUMENT_COUNT+1][500];
 static int functionArgumentCount = 0;
-static char botheader[MAX_WORD_SIZE];
+char botheader[MAX_WORD_SIZE];
 static bool renameInProgress = false;
 static bool endtopicSeen = false; // needed when ending a plan
 
@@ -88,8 +88,12 @@ void ScriptWarn()
 	if (compiling)
 	{
 		++hasWarnings; 
-		if (*currentFilename) Log(STDTRACELOG,(char*)"*** Warning- line %d of %s: ",currentFileLine,currentFilename);
-		else Log(STDTRACELOG,(char*)"*** Warning-  ");
+		if (*currentFilename)
+		{
+			if (*botheader) Log(STDTRACELOG, (char*)"*** Warning- line %d of %s bot:%s : ", currentFileLine, currentFilename, botheader);
+			else Log(STDTRACELOG, (char*)"*** Warning- line %d of %s: ", currentFileLine, currentFilename);
+		}
+		else Log(STDTRACELOG, (char*)"*** Warning-  ");
 	}
 }
 
@@ -4111,8 +4115,13 @@ static char* ReadKeyword(char* word,char* ptr,bool &notted, bool &quoted, MEANIN
 				if (*word == '\\') memcpy(word,word+1,strlen(word)); // how to allow $e as a keyword
 				M = ReadMeaning(word);
 				D = Meaning2Word(M);
-					
-				if (type) AddProperty(D,type); // augment its type
+				uint64 type1 = type;
+				if (type & NOUN_SINGULAR && D->internalBits & UPPERCASE_HASH)
+				{
+					type1 ^= NOUN_SINGULAR;
+					type1 |= NOUN_PROPER_SINGULAR;
+				}
+				if (type) AddProperty(D,type1); // augment its type
 
 				if (*D->word == '~') // concept
 				{

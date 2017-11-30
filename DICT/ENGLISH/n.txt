@@ -6418,8 +6418,6 @@
     survival_of_the_fittest~1n 
  numerical_value ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     absolute_value~1nz (^definite_quantity~1) a real number regardless of its sign
- no. ( meanings=1 NOUN NOUN_SINGULAR COMMON2 COMMON1 posdefault:NOUN ) 
-    ordinal~1n 
  number_1 ( meanings=1 NOUN NOUN_SINGULAR ) 
     number_one~2n 
  nybble ( meanings=1 NOUN NOUN_SINGULAR COMMON2 ) 

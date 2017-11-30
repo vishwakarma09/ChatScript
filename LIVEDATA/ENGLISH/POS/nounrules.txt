@@ -696,6 +696,12 @@ DISCARD
 	INCLUDE * NOUN_GERUND
 KEEP
 
+# to have gerund over noun, need object after it, so not with prep  "my *briefing on war"
+0 INCLUDE * NOUN_GERUND
+  STAY HAS NOUN_SINGULAR
+  IS PREPOSITION DETERMINER
+DISCARD
+
 # cant have a past tense gerund after a verb
 -1	IS VERB_BITS
 	INCLUDE * NOUN_GERUND		# the product I hated *sold in Japan, but present tense is ok, the product I hated *selling in Japan was good

@@ -71,7 +71,7 @@
 #SPANISH concept: ~ADVANCED_DEGREES (      HACER DDM DDS DMD "Doctor en Filosofía" Doctorado Ed.D JD JD LLB Maryland MBA Maryland "Doctor en Filosofía" "Doctor en Filosofía" Psyd Scd Thd VS  )
 #SPANISH concept: ~AERIAL_SPORTS (      Globo "salto BASE" planeador "Ala delta" "ala delta" "ala delta" Parapente "Buceo en el cielo" "Skydive traducción" paracaidismo  )
 #SPANISH concept: ~AGE_GENDER ( ~age_words ~family_adult_female ~family_adult_male ~family_members ~father ~he ~mother ~occupation_female ~occupation_male ~religious_leaders ~ruler ~she      adolescente adulto bebé Babys niño niños "para niños" mayor femenino infantil niño Niños masculino "recién nacido" Preadolescente mayor adolescente joven adolescente niñito Tween juventud  )
-#SPANISH concept: ~AGE_NOUNS PROBABLE_PREPOSITION (      adulto niño infantil "Viejo fogie" jubilado adolescente  )
+#SPANISH concept: ~AGE_NOUNS  (      adulto niño infantil "Viejo fogie" jubilado adolescente  )
 #SPANISH concept: ~AGE_REFERENCE ( ~age_adjectives ~age_words ~agenoun       )
 #SPANISH concept: ~AGE_WORDS (      años día milenio mes antiguo semana año joven  )
 #SPANISH concept: ~AGED_ADULTS ( ~adult      adulto centenario "Ocho o algo" "Algo bueno" "Por algo" abuela abuelo creciendo legal maduro "Hay algo" "edad suficiente" cuadragenario mayor jubilado septuagenario "Algo de setenta" sexagenario "Seis o algo" "treinta y tantos" "veinti algo"  )

@@ -38,7 +38,7 @@ typedef unsigned int DICTINDEX;	//   indexed ref to a dictionary entry
 #define BASIC_POS				( ESSENTIAL_POS | ADJECTIVE | ADVERB )
 //   the above four should be first, reflecting the Wordnet files (leaving room for wordnet offset)
 
-#define PREPOSITION				0x0000000008000000ULL	// Pennbank: IN (see also CONJUNCTION_SUBORDINATE)
+#define PREPOSITION			0x0000000008000000ULL	// Pennbank: IN (see also CONJUNCTION_SUBORDINATE)
 #define ESSENTIAL_FLAGS			( BASIC_POS | PREPOSITION ) //  these are type restrictions on MEANINGs and are shared onto systemflags for most likely pos-tag candidate type
 
 // kinds of conjunctions
@@ -195,8 +195,7 @@ typedef unsigned int DICTINDEX;	//   indexed ref to a dictionary entry
 #define CONJUNCT_SUBORD_NOUN 		0x0000000004000000ULL // can be used to simultaneously start a subordinate clause and be its subject
 
 // these match the values in properties above
-#define PROBABLE_PREPOSITION		0x0000000008000000ULL
-#define ONLY_NONE PROBABLE_PREPOSITION // turn off ONLY stuff
+#define ONLY_NONE					0x0000000008000000ULL
 #define PROBABLE_ADVERB 			0x0000000010000000ULL
 #define PROBABLE_ADJECTIVE 			0x0000000020000000ULL
 #define PROBABLE_VERB 				0x0000000040000000ULL

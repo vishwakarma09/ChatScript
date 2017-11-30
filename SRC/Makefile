@@ -76,6 +76,14 @@ mongoserver: EXECUTABLE=$(executable.mongoserver)
 mongoserver: INCLUDEDIRS=-Iinclude -I/usr/local/include/libbson-1.0 -I/usr/local/include/libmongoc-1.0
 mongoserver: CFLAGS=-c -std=c++11  -Wall  -funsigned-char  -Wno-write-strings -Wno-char-subscripts -Wno-strict-aliasing -g
 
+executable.treetaggerserver=../BINARIES/ChatScriptTT
+treetaggerserver: DEFINES+= -DLOCKUSERFILE=1 -DEVSERVER=1 -DEVSERVER_FORK=1 -DDISCARDPOSTGRES=1 -DDISCARDMYSQL=1  -DDISCARDMONGO=1
+treetaggerserver: PGLOAD= -pthread -L../BINARIES -ltreetagger
+treetaggerserver: binary
+treetaggerserver: EXECUTABLE=$(executable.treetaggerserver)
+treetaggerserver: INCLUDEDIRS=-Iinclude 
+treetaggerserver: CFLAGS=-c -std=c++11  -Wall  -funsigned-char  -Wno-write-strings -Wno-char-subscripts -Wno-strict-aliasing -g
+
 executable.debugmongoserver=../BINARIES/ChatScriptMongoDebug
 debugmongoserver: DEFINES+= -DLOCKUSERFILE=1  -DDEBUG -DEVSERVER=1 -DEVSERVER_FORK=1  -DDISCARDPOSTGRES=1  -DDISCARDMYSQL=1
 debugmongoserver: PGLOAD= -lpq -pthread
@@ -94,7 +102,7 @@ foreignserver: CFLAGS=-c -std=c++11 -Wall  -funsigned-char  -Wno-write-strings -
 
 executable.mongotreetaggerserver=../BINARIES/ChatScriptMongoForeign
 mongotreetaggerserver: DEFINES+= -DLOCKUSERFILE=1  -DEVSERVER=1 -DEVSERVER_FORK=1  -DDISCARDPOSTGRES=1  -DDISCARDMYSQL=1 -DTREETAGGER=1
-mongotreetaggerserver: PGLOAD= -pthread -L../treetagger -L../BINARIES -ltreetagger
+mongotreetaggerserver: PGLOAD= -pthread  -L../BINARIES -ltreetagger
 mongotreetaggerserver: INCLUDEDIRS=-Iinclude -I/usr/local/include/libbson-1.0 -I/usr/local/include/libmongoc-1.0
 mongotreetaggerserver: binary
 mongotreetaggerserver: EXECUTABLE=$(executable.mongotreetaggerserver)
@@ -149,6 +157,7 @@ cleanall: clean
 	-rm -f $(executable.debugmongoserver)
 	-rm -f $(executable.foreignserver)
 	-rm -f $(executable.mongotreetaggerserver)
+	-rm -f $(executable.treetaggerserver)
 
 binary: $(OBJECTS)
 	$(CC) $(OBJECTS) $(LDFLAGS) $(DEFINES) $(INCLUDEDIRS) -o $(EXECUTABLE)

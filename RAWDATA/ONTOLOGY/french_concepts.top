@@ -71,7 +71,7 @@
 #FRENCH concept: ~ADVANCED_DEGREES (      DDM DDS DMD "Docteur en philosophie" Doctorat Ed.D J.D JD LLB MARYLAND MBA MARYLAND Doctorat Doctorat Psy.D ScD Th.D CONTRE  )
 #FRENCH concept: ~AERIAL_SPORTS (      Ballonnement "Saut de base" planeur Accrocher "Plancher accroché" deltaplane "Le parapente" "Plongée dans le ciel" Skydive parachutisme  )
 #FRENCH concept: ~AGE_GENDER ( ~age_words ~family_adult_female ~family_adult_male ~family_members ~father ~he ~mother ~occupation_female ~occupation_male ~religious_leaders ~ruler ~she      adolescent adulte bébé Babys enfant Enfants Enfants "Personnes âgées" féminin bébé enfant "des gamins" masculin "nouveau née" Préadoles Sénior Adolescent adolescent adolescent bambin Interpolation jeunesse  )
-#FRENCH concept: ~AGE_NOUNS PROBABLE_PREPOSITION (      adulte enfant bébé "Vieux fogie" "Personne âgée" adolescent  )
+#FRENCH concept: ~AGE_NOUNS  (      adulte enfant bébé "Vieux fogie" "Personne âgée" adolescent  )
 #FRENCH concept: ~AGE_REFERENCE ( ~age_adjectives ~age_words ~agenoun       )
 #FRENCH concept: ~AGE_WORDS (      âge journée millénaire mois vieux "la semaine" an Jeune  )
 #FRENCH concept: ~AGED_ADULTS ( ~adult      adulte centenaire "Huitème chose" Fiftysomething "Quelque chose comme ça" grand-mère Grand-parent adulte légal mature Ninetysomething "assez vieux" Quadragénaire Sénior "Personne âgée" Septuagenaire "Soixante ans" Sexagénaire "Six fois" "trente et quelques" "Deux vingts ans"  )

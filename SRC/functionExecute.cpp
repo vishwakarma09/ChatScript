@@ -670,19 +670,24 @@ char* InvokeUser(char* &buffer,char* ptr, FunctionResult& result,WORDP D,unsigne
 		for (unsigned int i = firstArgument; i < callArgumentIndex; ++i)
 		{	
 			char* x = GetArgOfMacro(i, buffer,40);
+			int xlen = strlen(x);
 
 			// limited to 40, provide ... and restore
 			char d[4];
-			d[0] = x[40];
-			d[1] = x[41];
-			d[2] = x[42];
-			d[3] = x[43];
-			strcpy(x+40,"...");
+			if (xlen > 40) {
+				d[0] = x[40];
+				d[1] = x[41];
+				d[2] = x[42];
+				d[3] = x[43];
+				strcpy(x + 40, "...");
+			}
 			Log(STDTRACELOG, (char*) "`%s`",x);
-			x[40] = d[0];
-			x[41] = d[1];
-			x[42] = d[2];
-			x[43] = d[3];
+			if (xlen > 40) {
+				x[40] = d[0];
+				x[41] = d[1];
+				x[42] = d[2];
+				x[43] = d[3];
+			}
 			if (i < (callArgumentIndex - 1)) Log(STDTRACELOG, (char*)", ");
 		}
 		Log(STDTRACELOG, ")\r\n");
@@ -2588,7 +2593,6 @@ static FunctionResult MarkCode(char* buffer)
 	WORDP D = StoreWord(word);
 	MEANING M = MakeMeaning(D);
 	if (*D->word != '~') Add2ConceptTopicList(concepts, D,startPosition,endPosition,true); // add ordinary word to concept list directly as WordHit will not store anything but concepts
-	NextInferMark();
 	if (showMark || (trace & TRACE_PREPARE)) Log(ECHOSTDTRACELOG,(char*)"Mark %s: \r\n",D->word);
 	if (trace & TRACE_OUTPUT) Log(STDTRACELOG,(char*)"mark all @word %s %d-%d ",D->word, startPosition,endPosition);
 	MarkMeaningAndImplications(0, 0,M,startPosition,endPosition,false,false,single);

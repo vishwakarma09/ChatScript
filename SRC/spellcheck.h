@@ -15,6 +15,8 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.IN NO EVENT SHALL THE AUTHO
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #endif
 extern bool multichoice;
+extern bool spellTrace;
+extern int spellTraceIndex;
 bool SpellCheckSentence();
 char* SpellFix(char* word,int position,uint64 posflags);
 void InitSpellCheck();

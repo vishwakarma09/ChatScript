@@ -2037,7 +2037,6 @@
 + Uzbekistan ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
 + Uruguay ALWAYS_PROPER_NAME_MERGE 
 + United_States ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
-+ United_Kingdom ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
 + United_Kingdom_of_Great_Britain_and_Northern_Ireland ALWAYS_PROPER_NAME_MERGE 
 + Ulan_Bator NO_PROPER_MERGE ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
 + United_Arab_Emirates ALWAYS_PROPER_NAME_MERGE LOCATIONWORD 
@@ -2155,6 +2154,7 @@
 + power_adjectives 
 + muscled VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE KINDERGARTEN 
 + enabled VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE_PARTICIPLE NOUN_ADJECTIVE GRADE3_4 
++ not_many 
 + scarcely_any 
 + attractive_looking 
 + good_looking 
@@ -3951,7 +3951,9 @@
 + Richard_Stallman NOUN_HUMAN NOUN_HE NOUN NOUN_PROPER_SINGULAR 
 + Steve_Wozniak NOUN_HUMAN NOUN_HE NOUN NOUN_PROPER_SINGULAR 
 + Tim_Berners-Lee NOUN_HUMAN NOUN_HE NOUN NOUN_PROPER_SINGULAR 
++ how_come 
 + how_do_you_mean 
++ how_so 
 + what_do_you_mean 
 + pinot_grigio 
 + alpine_skiing 
@@ -5238,6 +5240,7 @@
 + white_corn 
 + raincloud 
 + expected_contain 
++ tea_cup 
 + muffin_pan 
 + muffin_tin 
 + biscuit_tin 
@@ -37280,6 +37283,7 @@
 + The_Brothers_Rico NOUN_TITLE_OF_WORK NOUN NOUN_PROPER_SINGULAR 
 + The_Adventures_Of_Robinson_Crusoe NOUN_TITLE_OF_WORK NOUN NOUN_PROPER_SINGULAR 
 + The_Baby_Maker NOUN_TITLE_OF_WORK NOUN NOUN_PROPER_SINGULAR 
++ Yo_Momma NOUN_TITLE_OF_WORK NOUN NOUN_PROPER_SINGULAR 
 + The_Tick NOUN_TITLE_OF_WORK NOUN NOUN_PROPER_SINGULAR 
 + Lake_Placid2 NOUN_TITLE_OF_WORK NOUN NOUN_PROPER_SINGULAR 
 + The_Voice_On_The_Wire NOUN_TITLE_OF_WORK NOUN NOUN_PROPER_SINGULAR 
@@ -44808,7 +44812,6 @@
 + cd_case 
 + chaulk 
 + hemi-sphere 
-+ iphone 
 + realtor 
 + crow~n 
 + goose~n 

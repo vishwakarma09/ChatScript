@@ -1,3 +1,5 @@
+# version 7.71 11/29/2017
+1. :spellit some sentence, tells you what spellcheck found to modify it
 
 # version 7.7 11/19/2017
 1. DLL version of ChatScript now part of std release (untested)

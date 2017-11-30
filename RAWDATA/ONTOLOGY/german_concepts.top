@@ -71,7 +71,7 @@
 #GERMAN concept: ~ADVANCED_DEGREES (      MACHEN DDM DDS DMD "Doktor der Philosophie" Promotion Ed.D J.D JD LLB M.D MBA MD Ph.D PhD Psy.D ScD Th.D V.S   )
 #GERMAN concept: ~AERIAL_SPORTS (      Ballon "base jump" Segelflugzeug "hängen gleiten" Hängegleiter Drachenfliegen Gleitschirmfliegen Fallschirmsprung skydive Fallschirmspringen   )
 #GERMAN concept: ~AGE_GENDER ( ~age_words ~family_adult_female ~family_adult_male ~family_members ~father ~he ~mother ~occupation_female ~occupation_male ~religious_leaders ~ruler ~she      Jugendlicher Erwachsene Baby babys Kind Kinder Kinder "ältere Menschen" feminin Säugling Kind Kinder männlich Neugeborenen preteen Senior jugendlich Teenager Teenager Kleinkind Tween Jugend   )
-#GERMAN concept: ~AGE_NOUNS PROBABLE_PREPOSITION (      Erwachsene Kind Säugling "alt fogie" Senior Teenager   )
+#GERMAN concept: ~AGE_NOUNS  (      Erwachsene Kind Säugling "alt fogie" Senior Teenager   )
 #GERMAN concept: ~AGE_REFERENCE ( ~age_adjectives ~age_words ~agenoun        )
 #GERMAN concept: ~AGE_WORDS (      Alter Tag Millennium Monat alt Woche Jahr jung   )
 #GERMAN concept: ~AGED_ADULTS ( ~adult      Erwachsene Centenarian eightysomething fiftysomething Fortysomething Oma Großeltern aufgewachsen legal reifen ninetysomething "alt genug" quadragenarian Senior Senior septuagenarian seventysomething sexagenarian sixtysomething thirtysomething "Zwanzig etwas"   )

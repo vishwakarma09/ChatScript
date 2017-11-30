@@ -6606,7 +6606,7 @@
  oxidation_state ( meanings=1 NOUN NOUN_SINGULAR ) 
     oxidation_number~1n 
  ordinal_number ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
-    no.~1nz (^number~11) the number designating place in an ordered sequence
+    ordinal~1nz (^number~11) the number designating place in an ordered sequence
  ordinal ( meanings=3 glosses=2 NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR COMMON2 COMMON1 posdefault:ADJECTIVE ) 
     ordinal_number~1n 
     ordinal~2az being or denoting a numerical order in a series

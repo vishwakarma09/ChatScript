@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -11,17 +11,17 @@
 <h1 id="chatscript-system-functions-manual">ChatScript System Functions Manual</h1>
 <p>© Bruce Wilcox, gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 11/19/2017 cs7.7</p>
 <ul>
-<li><a href="ChatScript-System-Functions-Manual.md#topic-functions">Topic Functions</a></li>
-<li><a href="ChatScript-System-Functions-Manual.md#marking-functions">Marking Functions</a></li>
-<li><a href="ChatScript-System-Functions-Manual.md#input-functions">Input Functions</a></li>
-<li><a href="ChatScript-System-Functions-Manual.md#number-functions">Number Functions</a></li>
-<li><a href="ChatScript-System-Functions-Manual.md#output-functions">Output Functions</a></li>
-<li><a href="ChatScript-System-Functions-Manual.md#control-flow-functions">Control Flow Functions</a></li>
-<li><a href="ChatScript-System-Functions-Manual.md#external-access-functions">External Access Functions</a></li>
-<li><a href="ChatScript-System-Functions-Manual.md#json-functions">JSON Functions</a></li>
-<li><a href="ChatScript-System-Functions-Manual.md#word-manipulation-functions">Word Manipulation Functions</a></li>
-<li><a href="ChatScript-System-Functions-Manual.md#multipurpose-functions">Multipurpose Functions</a></li>
-<li><a href="ChatScript-System-Functions-Manual.md#fact-functions">Facts Functions</a></li>
+<li><a href="ChatScript-System-Functions-Manual.html#topic-functions">Topic Functions</a></li>
+<li><a href="ChatScript-System-Functions-Manual.html#marking-functions">Marking Functions</a></li>
+<li><a href="ChatScript-System-Functions-Manual.html#input-functions">Input Functions</a></li>
+<li><a href="ChatScript-System-Functions-Manual.html#number-functions">Number Functions</a></li>
+<li><a href="ChatScript-System-Functions-Manual.html#output-functions">Output Functions</a></li>
+<li><a href="ChatScript-System-Functions-Manual.html#control-flow-functions">Control Flow Functions</a></li>
+<li><a href="ChatScript-System-Functions-Manual.html#external-access-functions">External Access Functions</a></li>
+<li><a href="ChatScript-System-Functions-Manual.html#json-functions">JSON Functions</a></li>
+<li><a href="ChatScript-System-Functions-Manual.html#word-manipulation-functions">Word Manipulation Functions</a></li>
+<li><a href="ChatScript-System-Functions-Manual.html#multipurpose-functions">Multipurpose Functions</a></li>
+<li><a href="ChatScript-System-Functions-Manual.html#fact-functions">Facts Functions</a></li>
 </ul>
 <p>System functions are predefined and can be intermixed with direct output. Generally they are used from the output side of a rule, but in many cases nothing prevents you from invoking them from inside a pattern. When used in a pattern, they do not write out any text output to the user. But their output will be tested the same as it would from an <code>if</code> statement, meaning 0 and false are failures.</p>
 <p>You can write them with or without a <code>^</code> in front of their name. With is clearer, but you don’t have to. The only time you must is if the first thing you want to do in a gambit is call a function (unlikely).</p>

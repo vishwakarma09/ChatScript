@@ -28,7 +28,7 @@
  FW FOREIGN_WORD
  IN PREPOSITION  CONJUNCTION_SUBORDINATE
  IN/that CONJUNCTION_SUBORDINATE  PRONOUN_SUBJECT # complementizer turns a clause into the subject or object of a sentence. For example,  Mary believes that it is raining. complementizer is specific to certain modern grammatical theories; in traditional grammar, such words are normally considered either conjunctions or relative pronouns.
- JJ		 ADJECTIVE_NORMAL NOUN_ADJECTIVE
+ JJ		 ADJECTIVE_NORMAL NOUN_ADJECTIVE ADJECTIVE_NUMBER
  JJR ADJECTIVE_NORMAL NOUN_ADJECTIVE
  JJS ADJECTIVE_NORMAL NOUN_ADJECTIVE
  LS  # list item marker
@@ -67,7 +67,7 @@
  VHN AUX_HAVE AUX_VERB_PAST VERB_PAST_PARTICIPLE # past participle
  VHP AUX_HAVE AUX_VERB_PRESENT VERB_PRESENT # non-3rd person present
  VHZ AUX_HAVE AUX_VERB_PRESENT VERB_PRESENT_3PS # 3rd person present
- VV  NOUN_INFINITIVE VERB VERB_INFINITIVE
+ VV  NOUN_INFINITIVE VERB VERB_INFINITIVE  # base form  Pennbank
  VVD  VERB_PAST
  VVG  VERB_PRESENT_PARTICIPLE NOUN NOUN_GERUND ADJECTIVE_PARTICIPLE
  VVN  VERB_PAST_PARTICIPLE ADJECTIVE_PARTICIPLE

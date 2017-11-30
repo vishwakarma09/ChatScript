@@ -19304,6 +19304,8 @@
  buses ( NOUN NOUN_PLURAL COMMON4 ) 
  butterfishes ( NOUN NOUN_PLURAL COMMON1 ) plural=butterfish 
  byssi ( NOUN NOUN_PLURAL COMMON1 ) plural=byssus 
+ bariatrics ( meanings=1 NOUN NOUN_SINGULAR ) 
+    bariatrics~1nz 
  bluetooth ( meanings=1 NOUN NOUN_SINGULAR ) 
     bluetooth~1nz 
  biograph ( meanings=1 NOUN NOUN_SINGULAR ) 
@@ -21594,6 +21596,8 @@
     bulbaceous~1az producing or growing from bulbs
  bulbed ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 posdefault:ADJECTIVE ) 
     bulbed~1az having a bulb
+ bariatric ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
+    bariatric~1az 
  big-headed ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     big-headed~1az 
  boat-neck ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 

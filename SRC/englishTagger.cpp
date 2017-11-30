@@ -185,7 +185,7 @@ unsigned char quotationInProgress = 0;
 // Buying a license will get the the library you need to load with this code
 // http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/
 
-#pragma comment(lib, "../treetagger/treetagger.lib") // where windows library is
+#pragma comment(lib, "../BINARIES/treetagger.lib") // where windows library is
 
 typedef struct {
 	int  number_of_words;  /* number of words to be tagged */
@@ -208,13 +208,104 @@ void   write_treetagger();
 
 TAGGER_STRUCT ts;  /* tagger interface data structure */
 TAGGER_STRUCT tschunk;  /* tagger interface data structure */
+char* GetTag(int i)
+{
+	return (char*) ts.resulttag[i - 1];
+}
 
 bool MatchTag(char* tag,int i)
 {
-	if (!stricmp(tag, ts.resulttag[i - 1])) return true;
-	if (!stricmp(tag, "NNP") && !stricmp("NP", ts.resulttag[i - 1])) return true;
-	if (!stricmp(tag, "NNPS") && !stricmp("NPS", ts.resulttag[i - 1])) return true;
-
+	char* tttag = (char*)ts.resulttag[i - 1];
+	if (!stricmp(tag, "NNP") && !stricmp("NP", tttag)) return true;
+	else if (!stricmp(tag, "NNPS") && !stricmp("NPS", tttag)) return true;
+	else if (!stricmp(tag, "PRP") && !stricmp("PP", tttag)) return true;
+	else if (!stricmp(tag, "PRP$") && !stricmp("PP$", tttag)) return true;
+	else if (!stricmp(tag, "-LRB-") && !stricmp("(", tttag)) return true;
+	else if (!stricmp(tag, "-RRB-") && !stricmp(")", tttag)) return true;
+	// quotes: '/`` self-medicating/VBG ' / ''   - same for both
+	else if (!stricmp(tag, "``") || !stricmp(tag, "''"))
+	{ // OVERLY GENEROUS- REDACT LATER
+		if (!stricmp(tttag, "``") || !stricmp(tttag, "''")) return true;
+	}
+	else if (!stricmp(tag, "MD")) // modal pennbank
+	{
+		if (!stricmp("MD", tttag)) return true; //   modals (could would)
+		if (!stricmp("VH", tttag)) return true; //   be
+		// infinitive
+		if (!stricmp("VH", tttag)) return true; //   be
+		if (!stricmp("VHD", tttag)) return true; //   have
+		if (!stricmp("VDD", tttag)) return true; //   do
+		// past
+		if (!stricmp("VBD", tttag)) return true; //   be
+		if (!stricmp("VHD", tttag)) return true; //   have
+		if (!stricmp("VDD", tttag)) return true; //   do
+		// gerund
+		if (!stricmp("VBG", tttag)) return true; //   be
+		if (!stricmp("VHG", tttag)) return true; //   have
+		if (!stricmp("VDG", tttag)) return true; //   do
+		// past participle
+		if (!stricmp("VBN", tttag)) return true; //   be
+		if (!stricmp("VHN", tttag)) return true; //   have
+		if (!stricmp("VDN", tttag)) return true; //   do
+		// 3rd present
+		if (!stricmp("VBP", tttag)) return true; //   be
+		if (!stricmp("VHP", tttag)) return true; //   have
+		if (!stricmp("VDP", tttag)) return true; //   do
+		// non-3rd present
+		if (!stricmp("VBZ", tttag)) return true; //   be
+		if (!stricmp("VHZ", tttag)) return true; //   have
+		if (!stricmp("VDZ", tttag)) return true; //   do
+	}
+	else if (!stricmp(tag, "VB")) // infinitive
+	{
+		if (!stricmp("VB", tttag)) return true; //   be
+		if (!stricmp("VH", tttag)) return true; //   have
+		if (!stricmp("VD", tttag)) return true; //   do
+		if (!stricmp("VV", tttag)) return true; //   normal
+	}
+	else if (!stricmp(tag, "VBD")) // past
+	{
+		if (!stricmp("VBD", tttag)) return true; //   be
+		if (!stricmp("VHD", tttag)) return true; //   have
+		if (!stricmp("VDD", tttag)) return true; //   do
+		if (!stricmp("VVD", tttag)) return true; //   normal
+	}
+	else if (!stricmp(tag, "VBG")) // gerund/pres participle
+	{
+		if (!stricmp("VBG", tttag)) return true; //   be
+		if (!stricmp("VHG", tttag)) return true; //   have
+		if (!stricmp("VDG", tttag)) return true; //   do
+		if (!stricmp("VVG", tttag)) return true; //   normal
+	}
+	else if (!stricmp(tag, "VBN")) // past participle
+	{
+		if (!stricmp("VBN", tttag)) return true; //   be
+		if (!stricmp("VHN", tttag)) return true; //   have
+		if (!stricmp("VDN", tttag)) return true; //   do
+		if (!stricmp("VVN", tttag)) return true; //   normal
+	}
+	else if (!stricmp(tag, "VBP")) // non 3rd person present
+	{
+		if (!stricmp("VBP", tttag)) return true; //   be
+		if (!stricmp("VHP", tttag)) return true; //   have
+		if (!stricmp("VDP", tttag)) return true; //   do
+		if (!stricmp("VVP", tttag)) return true; //   normal
+	}
+	else if (!stricmp(tag, "VBZ")) //  3rd person present
+	{
+		if (!stricmp("VBZ", tttag)) return true; //   be
+		if (!stricmp("VHZ", tttag)) return true; //   have
+		if (!stricmp("VDZ", tttag)) return true; //   do
+		if (!stricmp("VVZ", tttag)) return true; //   normal
+	}
+	else if (!stricmp(tag, "IN") && !stricmp("IN/that", tttag)) return true; //  that
+	else if (!stricmp(tag, "HYPH")) // joiner ; - --
+	{
+		if (!stricmp(":", tttag)) return true;
+	}
+	// Distinguishes be(VB) and have(VH) from other(non - modal) verbs(VV)
+	// SENT for end - of - sentence punctuation(other punctuation tags may also differ)
+	else if (!stricmp(tag, tttag)) return true;
 	return false;
 }
 
@@ -253,7 +344,7 @@ CD/B-NC
 				MarkMeaningAndImplications(0, 0, MakeMeaning(type), start, i,false, true);
 			}
 			type = StoreWord(word);
-			type->internalBits |= CONCEPT;
+			AddInternalFlag(type,CONCEPT);
 			start = i+1;
 		}
 		else if (*(complex - 1) == 'O') // complex output of chunk (like punctuation)

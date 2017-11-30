@@ -19,6 +19,8 @@
  a.i. artificial+intelligence
  touring_test Turing+test
  meds medications
+ real_estate real_estate
+ board_of_directors board_of_directors
  im I+am
  1am 1+am
  2am 2+am
@@ -61,8 +63,8 @@
  ufos UFOs
  Apr. April
  ariz. Arizona
- Great_Britain United+Kingdom
- Britain United+Kingdom
+ Great_Britain United_Kingdom
+ Britain United_Kingdom
  Aug August
  México Mexico
  Aug. August

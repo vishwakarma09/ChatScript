@@ -465,6 +465,19 @@ static void C_Prepare(char* input)
 	tokenControl = oldToken;
 }
 
+static void C_Spellit(char* input)
+{
+	echo = true;
+	spellTrace = true;
+	input = SkipWhitespace(input);
+	nextInput = input;
+	prepareMode = TOKENIZE_MODE;
+	while (*nextInput) PrepareSentence(nextInput, true, true, false, false);
+	prepareMode = NO_MODE;
+	echo = false;
+	spellTrace = false;
+}
+
 static void C_Tokenize(char* input)
 {
 	uint64 oldToken = tokenControl;
@@ -2416,11 +2429,11 @@ reloop:
 			strcpy(tokens[len],word1);
 			if (!stricmp(word1,(char*)"'s") && !stricmp((char*)"POS",sep+1) && *(at-1) == ' ') *--at = 0;// possessive vs 's as "is"
 			
-			if (!stricmp(word1,(char*)"-LRB-")) strcat(at,(char*)"((char*)");
+			if (!stricmp(word1,(char*)"-LRB-")) strcat(at,(char*)"(");
 			else if (!stricmp(word1,(char*)"-RRB-")) strcat(at,(char*)")");
 			else if (!stricmp(word1,(char*)"-LSB-")) strcat(at,(char*)"[");
 			else if (!stricmp(word1,(char*)"-RSB-")) strcat(at,(char*)"]");
-			else if (!stricmp(word1,(char*)"-LCB-")) strcat(at,(char*)"{ (char*)");
+			else if (!stricmp(word1,(char*)"-LCB-")) strcat(at,(char*)"{");
 			else if (!stricmp(word1,(char*)"-RCB-")) strcat(at,(char*)"}");
 			else if (*word1 == '`' && word1[1] == '`') 
 			{
@@ -2474,10 +2487,6 @@ reloop:
 			int loc = i;
 			if (i == 1 && *wordStarts[i] == '"') ++loc; // ignore quote
 			bad = false;
-#ifdef TREETAGGER
-			// match treetagger tag?
-			if (MatchTag(tags[i], i)) continue;
-#endif
 			if (bitCounts[i] != 1)
 			{
 				bad = true;
@@ -2521,7 +2530,6 @@ retry:
 			char* sep = strchr(tags[i],'|');
 			char* xxoriginalWord = wordStarts[i];
 			if (sep) *sep = 0;
-			
 		
 			if (bitCounts[i] != 1 && (tokenControl & DO_PARSE) == DO_PARSE  ) // did not solve even when parsed
 			{
@@ -2529,6 +2537,11 @@ retry:
 			} 
 #ifdef TREETAGGER
 			else if (MatchTag(tags[i], i)) ++right; // match treetagger tag?
+			else if (!showUsed || usedWordIndex == i)
+			{
+				Log(STDTRACELOG, (char*)"** Bad TTtag %s (%s) word %d(%s) line %d:  %s\r\n", GetTag(i), tags[i], i, wordStarts[i], currentFileLine, buffer);
+				int xx = 0;
+			}
 #endif
 			else if (ignoreRule != -1 && !stricmp(wordStarts[i],(char*)"than")) ++right; // special against rule mode
 			else if (posValues[i-1] & IDIOM) ++right; // we will PRESUME we are right - he did a lot of harm -- they say of is prep. we say the phrase is adjective
@@ -4207,6 +4220,7 @@ static void C_Build(char* input)
 		else if (buildId == BUILD1) MakeDirectory((char*)"TOPIC/BUILD1");
 		else if (buildId == BUILD2) MakeDirectory((char*)"TOPIC/BUILD2");
 		userVariableThreadList = 0;
+		*botheader = 0; 
 		ReadTopicFiles(word, buildId, spell);
 
 		if (!stricmp(computerID,(char*)"anonymous")) *computerID = 0;	// use default
@@ -10297,6 +10311,7 @@ CommandInfo commandSet[] = // NEW
 	{ (char*)"\r\n---- Script Testing",0,(char*)""},  
 	{ (char*)":autoreply",C_AutoReply,(char*)"[OK,Why] use one of those as all input."}, 
 	{ (char*)":common",C_Common,(char*)"What concepts have the two words in common."},
+	{ (char*)":spellit",C_Spellit,(char*)"Show spelling correction traces" },
 	{ (char*)":tokenize",C_Tokenize,(char*)"Show results of tokenization" },
 	{ (char*)":prepare",C_Prepare,(char*)"Show results of tokenization, tagging, and marking on a sentence"},
 	{ (char*)":regress",C_Regress,(char*)"create or test a regression file"}, 

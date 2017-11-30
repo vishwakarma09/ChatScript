@@ -538,7 +538,7 @@ static bool ReadUserVariables()
 		{ 
 			WORDP D = StoreWord(readBuffer);
 			PrepareVariableChange(D,"",false); // keep it alive as long as it is traced
-			D->internalBits |= MACRO_TRACE;
+			AddInternalFlag(D,MACRO_TRACE);
 		}
 		if (trace & TRACE_VARIABLE) Log(STDTRACELOG,(char*)"uservar: %s=%s\r\n",readBuffer,ptr+1);
     }

@@ -6,6 +6,9 @@
  have_to_stop> ~emogoodbye
  have_to_leave> ~emogoodbye
  wtf ~emomisunderstand
+ bla_bla_bla ~emobored
+ <no. ~no # some people use no. for number in keywords
+ bla ~emobored
  <oh? why?
  <never ~no 
  <no_, ~no 

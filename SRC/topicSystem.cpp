@@ -2528,7 +2528,14 @@ void InitKeywords(const char* fname,const char* layer,unsigned int build,bool di
 			{
 				AddSystemFlag(D,sys);
 				AddParseBits(D,parse); 
-				AddProperty(D,type); // require type doesnt set the type, merely requires it be that
+				uint64 type1 = type;
+				if (D->internalBits & UPPERCASE_HASH && type & NOUN_SINGULAR)
+				{
+					type1 ^= NOUN_SINGULAR;
+					type1 = NOUN_PROPER_SINGULAR;
+				}
+
+				AddProperty(D, type1); // require type doesnt set the type, merely requires it be that
 				AddInternalFlag(D,intbits);
 				if (type & NOUN && *p1 != '~' && !(D->properties & (NOUN_SINGULAR|NOUN_PLURAL|NOUN_PROPER_SINGULAR|NOUN_PROPER_PLURAL|NOUN_NUMBER)))
 				{
@@ -2546,7 +2553,13 @@ void InitKeywords(const char* fname,const char* layer,unsigned int build,bool di
 			// if we are DEFINING it now, we scan and mark. Eventually it will propogate
 			if (*D->word != '~') // do simple word properties
 			{
-				AddProperty(D,type);
+				uint64 type1 = type;
+				if (type & NOUN_SINGULAR && D->internalBits & UPPERCASE_HASH)
+				{
+					type1 ^= NOUN_SINGULAR;
+					type1 |= NOUN_PROPER_SINGULAR;
+				}
+				AddProperty(D, type1);
 				AddSystemFlag(D,sys);
 				AddParseBits(D,parse); 
 				AddInternalFlag(D,intbits);
@@ -2555,7 +2568,8 @@ void InitKeywords(const char* fname,const char* layer,unsigned int build,bool di
 				// if word is proper name, allow it to be substituted
 				if (D->internalBits & UPPERCASE_HASH)
 				{
-					AddProperty(D,NOUN|NOUN_PROPER_SINGULAR); // could have been plural for all we know
+					size_t len = strlen(D->word);
+					if (D->word[len-1] != 's') AddProperty(D,NOUN|NOUN_PROPER_SINGULAR); // could have been plural for all we know
 					char* underscore = strchr(D->word,'_');
 					if (underscore) 
 					{

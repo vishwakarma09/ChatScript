@@ -45,3 +45,8 @@ Lifecycle of a bot on a ChatScript server: scripts to automate the deployment of
   https://github.com/addventa/ChatScriptRasa: 
 
 Integration of ChatScript with rasa.ai for intent classification and entity recognition. Comes with a sample bot that calls rasa.ai.
+
+# Open Source CS ChatBots
+
+Mathieu Rigard is developing an open-source bot in English here:
+https://github.com/MathieuRigard/Altai

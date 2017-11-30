@@ -662,7 +662,7 @@ void AcquireDefines(char* fileName)
 	FILE* in = FopenStaticReadOnly(fileName); // SRC/dictionarySystem.h
 	if (!in) 
 	{
-		printf((char*)"%s",(char*)"Unable to read dictionarySystem.h\r\n");
+		if ( !server) printf((char*)"%s", (char*)"Unable to read dictionarySystem.h\r\n");
 		return;
 	}
 	char label[MAX_WORD_SIZE];
@@ -762,6 +762,7 @@ void AcquireDefines(char* fileName)
                 excludeop = plusop = minusop = orop = shiftop = timesop = false;
             }
         }
+		if (!stricmp(word,"`AS_IS"))  continue; // dont need to store AS_IS
 		WORDP D = StoreWord(word,AS_IS | result);
 		AddInternalFlag(D,DEFINES);
 
@@ -782,7 +783,8 @@ void AcquireDefines(char* fileName)
 
 static MEANING ConceptFact(char* word, MEANING M, bool facts)
 {
-	MEANING X = MakeMeaning(BUILDCONCEPT(word));
+	WORDP D = BUILDCONCEPT(word);
+	MEANING X = MakeMeaning(D);
 	if (facts) CreateFact(X, Mmember, M);
 	return X;
 }
@@ -888,8 +890,7 @@ uint64 FindValueByName(char* name)
 	word[0] = ENDUNIT;
 	MakeUpperCopy(word+1,name);
 	WORDP D = FindWord(word);
-	if (!D|| !(D->internalBits & DEFINES)) return 0;
-	return D->properties;
+	return (!D|| !(D->internalBits & DEFINES)) ? 0 : D->properties;
 }
 
 char* FindNameByValue(uint64 val) // works for invertable pos bits only
@@ -1301,10 +1302,11 @@ unsigned int IsNumber(char* num, int useNumberStyle, bool placeAllowed) // simpl
 	{
 		char c = *cur;
 		*cur = 0;
-		char* at = strchr(number, '.');
+		char decimalMark = decimalMarkData[useNumberStyle];
+		char* at = strchr(number, decimalMark);
 		if (at) *at = 0;
 		int64 val = Convert2Integer(number, useNumberStyle);
-		if (at) *at = '.';
+		if (at) *at = decimalMark;
 		*cur = c;
 		return (val != NOT_A_NUMBER) ? CURRENCY_NUMBER : NOT_A_NUMBER;
 	}

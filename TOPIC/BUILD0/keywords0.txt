@@ -4,7 +4,7 @@
     Bruneian_dollar leva ngultrum real Belarusian_ruble Communaute_Financiere_Africaine_franc kyat boliviano Konvertibilna_maraka Belizean_dollar taka Bahamian_dollar Bermudian_dollar pula Barbadian_dollar Bahraini_dinar Australian_dollar Argentine_peso kwanza dram leke Azerbaijani_manat Algerian_dinar afghani Emirati_dirham East_Caribbean_dollar Aruban_florin Serbian_dinar euro pence shilling pound kroner ruble centime franc peso dollar dinar lira )
 ~timeadjmodifier ( young old )
 ~pretimeadjmodifier ( prior last this next )
-~color_adjectives PROBABLE_PREPOSITION ( transparent ~colors )
+~color_adjectives ONLY_NONE ( transparent ~colors )
 ~colors ( transparent reflective ~yellow ~white ~red ~purple ~orange ~metallic ~green ~gray ~brown ~blue ~black )
 ~shape_adjectives ADJECTIVE ADJECTIVE_NORMAL ( wiry winged wavy tufted tubular triangular top-heavy swollen square scalloped ruffled round rotund rectangular pyramidal proportional portly pendulous palaceous padded oviform oval ophiomorphic ooidal omegoid olivary nephroid navicular mitrate lunulate lunate lumpy lobular ligulate lambdoid irregular ichthyomorphic hypsiloid hyoid hollow hexagonal helminthoid helicoid globular galeated furcular fucoid flat fat domed deltoid cylindrical curved cupulate cuneiform cuneate cubiform cubic crinkled cricoid 
     coronoid corniculate cordiform cordate coracoid conical conglobate cochlear clypeate clustered clithridiate clavate clathrate circular circinate cingular chubby choanoid ceratoid cassideous carinated cardioid cannular buccinal broken branching belonoid beloid belemnoid balanoid baculiform auriform aspidate arietinous arcuate arcate arborescent apsidal ansate annodated ankyroid angular ancoral ancistroid amygdaloid allantoid acicular )
@@ -30,7 +30,7 @@
 ~weather_adjectives ( windy sunny snowy rainy )
 ~living_properties_adjectives ( ~intelligence_adjectives ~social_adjectives ~body_sensation_adjectives ~psychology_adjectives ~perception_adjectives ~health_adjectives ~gender_adjectives ~constitution_adjectives ~character_trait_adjectives )
 ~age_adjectives ( ~age_nouns young second_hand old new fledgling brand-new ancient )
-~age_nouns PROBABLE_PREPOSITION ( teenager senior_citizen old_fogie infant child adult )
+~age_nouns ( teenager senior_citizen old_fogie infant child adult )
 ~appearance ( young wrinkled worn used untidy transparent translucent striped spotted sparkling shiny shimmering sheer shabby rotted patterned opaque old muddy mottled iridescent grimy glowing glossy glazed glassy freckled fluid flowery flashy dull drab dotted dismal dingy dark clear bright blotched )
 ~appearance_adjectives ( plain ~good_appearance ~bad_appearance ~appearance )
 ~bad_appearance ( ugly hideous disfigured )

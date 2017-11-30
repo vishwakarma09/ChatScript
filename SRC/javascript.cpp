@@ -154,7 +154,7 @@ FunctionResult RunJavaScript(char* definition, char* buffer, unsigned int args)
 			}
 			else if (!stricmp(type,"float" )) 
 			{
-				if (!(*buffer >= '0' && *buffer <= '9') && *buffer != '.')
+				if (!(*buffer >= '0' && *buffer <= '9') && *buffer != '-' && *buffer != '+' && *buffer != '.')
 				{
 					result = FAILRULE_BIT;
 					break;
