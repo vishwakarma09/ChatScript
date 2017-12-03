@@ -230,6 +230,35 @@ static char* SpellCheck( int i)
 	if (FindCanonical(word1,0,true) && !IsUpperCase(*word1)) return word1; // this is a different form of a canonical word so its ok
 
 	//   now use word spell checker 
+	size_t lenx = strlen(word); // try for reduced form
+	if (word[lenx - 1] == 's') // noun plural and verb status
+	{
+		word[lenx - 1] = 0;
+		char* d = SpellFix(word, i, VERB|NOUN);
+		word[lenx - 1] = 's';
+		if (d)
+		{
+			char plural[MAX_WORD_SIZE];
+			strcpy(plural, d);
+			strcat(plural, "s");
+			WORDP X = StoreWord(plural);
+			return X->word;
+		}
+	}
+	if (!stricmp(&word[lenx - 3],"ing")) //  verb participle present
+	{
+		word[lenx - 3] = 0;
+		char* d = SpellFix(word, i, VERB);
+		word[lenx - 3] = 'i';
+		if (d)
+		{
+			char plural[MAX_WORD_SIZE];
+			strcpy(plural, d);
+			strcat(plural, "ing");
+			WORDP X = StoreWord(plural);
+			return X->word;
+		}
+	}
     char* d = SpellFix(word,i,PART_OF_SPEECH); 
 	if (d) return d;
 

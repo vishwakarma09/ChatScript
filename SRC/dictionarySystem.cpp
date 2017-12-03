@@ -272,7 +272,6 @@ void SetTriedMeaning(WORDP D,uint64 bits)
 	}
 	*(data - 2) = (unsigned int) (bits >> 32);
 	*(data - 1) = (unsigned int) (bits & 0xffffffff);	// back up to the tried meaning area
-	int xx = 0;
 }
 
 uint64 GetTriedMeaning(WORDP D) // which meanings have been used (up to 64)
@@ -495,17 +494,19 @@ bool ReadForeignPosTags(char* fname)
 	FILE* in = FopenReadOnly(fname);
 	if (!in) return false;
 	char word[MAX_WORD_SIZE];
+	char wordx[MAX_WORD_SIZE];
 	*word = '_';	// marker to keep any collision away from foreign pos
-	while (ReadALine(readBuffer,in)>= 0)  // foreign name followed by bits of english pos
+	*wordx = '~';   // corresponding concept
+	while (ReadALine(readBuffer, in) >= 0)  // foreign name followed by bits of english pos
 	{
-		char* ptr = ReadCompiledWord(readBuffer,word+1);
+		char* ptr = ReadCompiledWord(readBuffer, word + 1);
 		if (!word[1] || word[1] == '#')
 			continue;
 		uint64 flags = 0;
 		char flag[MAX_WORD_SIZE];
 		while (*ptr) // get english pos values of this tag
 		{
-			ptr = ReadCompiledWord(ptr,flag);
+			ptr = ReadCompiledWord(ptr, flag);
 			if (!*flag || *flag == '#') break;
 			uint64 val = FindValueByName(flag);
 			if (!val)
@@ -514,10 +515,9 @@ bool ReadForeignPosTags(char* fname)
 			}
 			flags |= val;
 		}
-		StoreWord(word,flags); // _foreignpos gets bits
-		*word = '~'; // corresponding concept
-		BUILDCONCEPT(word);
-		*word = '_'; 
+		StoreWord(word, flags); // _foreignpos gets bits
+		MakeLowerCopy(wordx + 1, word + 1); // force the name to lowercase because the name might not be valid, e.g. DET:ART
+		BUILDCONCEPT(wordx);
 	}
 	fclose(in);
 	// Also store the unknown tag, just in case the pos tagger fails to attach anything
@@ -1910,7 +1910,6 @@ void WriteDictionary(WORDP D,uint64 data)
 {
 	if (D->internalBits & DELETED_MARK) return;
 	if (*D->word == USERVAR_PREFIX && D->word[1]) return;	// var never and money never, but let $ punctuation through
-
 	RemoveInternalFlag(D,(unsigned int)(-1 ^ (UTF8|UPPERCASE_HASH|DEFINES)));  // keep only these
 	char word[MAX_WORD_SIZE];
 	MakeLowerCopy(word, D->word);
@@ -2111,6 +2110,7 @@ MEANING AddMeaning(WORDP D,MEANING M)
 		D->meanings =  Heap2Index((char*)meanings);
 	}
 	meanings[0] = count;
+
 	return meanings[count] = M;
 }
 
@@ -2196,7 +2196,7 @@ MEANING ReadMeaning(char* word,bool create,bool precreated)
 			if (*p == 'n') flags = NOUN;
 			else if (*p == 'v') flags = VERB;
 			else if (*p == 'a') flags = ADJECTIVE;
-			else if (*p == 'b') flags = ADJECTIVE; // all modifiers now treated equally
+			else if (*p == 'b') flags = ADVERB; 
 			else if (*p == 'z') flags |= SYNSET_MARKER;
 			if (flags) 
 			{
@@ -3932,8 +3932,6 @@ static void FixSynsets(WORDP D, uint64 data)
 	{
 		GetMeanings(D)[best] = GetMeaning(D, 1);
 		GetMeanings(D)[1] = name;
-		WORDP X = Meaning2Word(name);
-		int xx = 0;
 	}
 }
 
@@ -4415,7 +4413,7 @@ static void readData(char* file)
 			02  adv.all  all adverbs
 			44  adj.ppl  participial adjectives
 #endif
-			ptr = ReadWord(ptr, pos); //   get pos type
+		ptr = ReadWord(ptr, pos); //   get pos type
 		uint64 flags = 0;
 		uint64 sysflags = 0;
 		if (pos[0] == 'n')
@@ -6500,7 +6498,8 @@ static void VerifyDictEntry(WORDP D, uint64 junk)
 	uint64 removeFlag = 0;
 	bool removed = false;
 	// NOTE-- if SOMETHING gets removed, then meanings added without a master can also be deleted again 
-	for (int i = 1; i <= GetMeaningCount(D); ++i)
+	int n = GetMeaningCount(D);
+	for (int i = 1; i <= n; ++i)
 	{
 		MEANING master = GetMeaning(D, i);
 		if (!master) removed = true;
@@ -7055,10 +7054,6 @@ static void ReviveWords(WORDP D, uint64 junk) // now that dead meaning reference
 			E = GetComparison(E);
 		}
 	}
-	if (limit <= 0) // bad
-	{
-		int xx = 0;
-	}
 }
 
 static void AddShortDict(char* name)
@@ -7178,6 +7173,7 @@ static void ReadEnglish(int mini)
 	readWordKind("RAWDICT/timewords.txt", TIMEWORD);
 
 	//   adjectives
+	printf("reading adjectives\r\n");
 	readData("RAWDICT/WORDNET/data.adj"); //   
 	readIndex("RAWDICT/WORDNET/index.adj", NOUN | VERB); //   
 	readSupplementalWord("RAWDICT/adj_more.txt", ADJECTIVE | ADJECTIVE_NORMAL, 0);
@@ -7189,6 +7185,7 @@ static void ReadEnglish(int mini)
 	AdjNotPredicate("RAWDICT/adj_notpredicate.txt");
 
 	//   adverbs (before verbs to detect separable phrasal adverbs)
+	printf("reading adverbs\r\n");
 	readData("RAWDICT/WORDNET/data.adv"); //   
 	readIndex("RAWDICT/WORDNET/index.adv", NOUN | VERB | ADJECTIVE); //   
 	readSupplementalWord("RAWDICT/adv_more.txt", ADVERB, 0);
@@ -7658,10 +7655,6 @@ static void MarkOtherForms(WORDP D)
 		WORDP X = GetPlural(E);
 		if (X == E) break;
 		E = X;
-	}
-	if (limit <= 0) // something is wrong
-	{
-		int xx = 0;
 	}
 }
 

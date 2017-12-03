@@ -2041,7 +2041,7 @@
     deep~17az relatively thick from top to bottom
     deep~18az extending relatively far inward
     deep~19az 
-    deeply~2z 
+    deeply~2 
     deep~21z to a great distance
     late~11z to an advanced time
  doweling ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON1 ) 
@@ -2154,7 +2154,7 @@
     verbatim~1az in precisely the same words used by a writer or speaker
     lineal~2az in a straight unbroken line of descent from parent to child
     direct~10az being an immediate result or consequence
-    straight~20z 
+    straight~20 
     mastermind~3v 
     calculate~4vz specifically design a product, event, or activity for a certain public
     direct~14vz command with authority
@@ -3422,7 +3422,7 @@
     beat~11a 
     dead~20az 
     utterly~1z completely and without qualification
-    short~16z 
+    short~16 
  defense ( meanings=11 glosses=11 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON4 COMMON1 NOUN_NODETERMINER GRADE1_2 posdefault:NOUN ) 
     defence~1nz (^protection~2) the act of defending someone or something against attack or injury
     defence~2nz (^protection~2) protection from harm
@@ -7696,7 +7696,7 @@
     darn~2n 
     blame~3a 
     goddamn~2a 
-    bloody~3z 
+    bloody~3 
     maledict~2v 
  differential_cost ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     marginal_cost~1nz (^price~2) the increase or decrease in costs as a result of one more or one less unit of output
@@ -8474,8 +8474,8 @@
  doubly_transitive_verb ( meanings=1 NOUN NOUN_SINGULAR ) 
     doubly_transitive_verb_form~1n 
  doubly ( meanings=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    double~13z 
-    in_two_ways~1z 
+    double~13 
+    in_two_ways~1 
  doubly_transitive_verb_form ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     doubly_transitive_verb~1nz (^transitive_verb_form~1) a transitive verb that takes both a direct and an indirect object
  Doing_Business_As ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR NOUN_NODETERMINER ) 
@@ -9700,7 +9700,7 @@
     damned~1nz (^people~1) people who are condemned to eternal punishment
     blessed~1a 
     doomed~5a 
-    damnably~1z 
+    damnably~1 
  deaf ( meanings=4 glosses=4 NOUN_ABSTRACT VERB_PRESENT VERB_INFINITIVE NOUN VERB ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR ADJECTIVE_ONLY_PREDICATE COMMON4 GRADE3_4 posdefault:ADJECTIVE VERB_DIRECTOBJECT ) 
     deaf~1nz (^people~1) people who have severe hearing impairments
     deaf~2az lacking or deprived of the sense of hearing wholly or in part
@@ -13179,7 +13179,7 @@
  double_time ( meanings=3 glosses=2 NOUN_ABSTRACT NOUN ADVERB NOUN_SINGULAR NOUN_NODETERMINER ) 
     double_time~1nz (^salary~1) a doubled wage
     double_time~2nz (^pace~5) a fast marching pace or slow jog
-    double_quick~1z 
+    double_quick~1 
  double_damages ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 
     double_damages~1nz (^exemplary_damages~1) twice the amount that a court would normally find the injured party entitled to
  death_benefit ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 
@@ -14909,12 +14909,12 @@
     defenceless~1az lacking weapons for self-defense
     naked~4az having no protecting or concealing cover
     defenceless~2az lacking protection or support
-    defenceless~4z 
+    defenceless~4 
  defenceless ( meanings=4 ADJECTIVE ADVERB ADJECTIVE_NORMAL COMMON2 posdefault:ADJECTIVE ) 
     defenseless~1a 
     defenseless~3a 
     defenceless~3az 
-    defenselessly~1z 
+    defenselessly~1 
  dodgy ( meanings=2 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:ADJECTIVE ) comparative=dodgiest 
     crafty~1a 
     chancy~2a 
@@ -15526,7 +15526,7 @@
     nice~5a 
     adequate~3a 
     decent~7az 
-    right~28z 
+    right~28 
  declared ( meanings=3 glosses=2 ADJECTIVE ADJECTIVE_NORMAL COMMON4 COMMON1 posdefault:VERB ) 
     declared~1az made known or openly avowed
     stated~1az declared as fact
@@ -15542,7 +15542,7 @@
     de_facto~2z in reality or fact
  de_jure ( meanings=2 glosses=1 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE posdefault:ADJECTIVE posdefault:ADVERB ) 
     de_jure~1az by right
-    legally~2z 
+    legally~2 
  defeasible ( meanings=2 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 posdefault:ADJECTIVE ) 
     defeasible~1az capable of being annulled or voided or terminated
     defeasible~2az 
@@ -16013,7 +16013,7 @@
  devilish ( meanings=3 glosses=1 ADJECTIVE ADVERB ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:ADJECTIVE ) 
     diabolic~2a 
     roguish~2az playful in an appealingly bold way
-    devilishly~2z 
+    devilishly~2 
  dour ( meanings=4 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:ADJECTIVE ) 
     moody~2a 
     grim~5a 
@@ -16224,7 +16224,7 @@
  downwind ( meanings=3 glosses=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON2 COMMON1 posdefault:ADJECTIVE posdefault:ADVERB ) 
     lee~2az towards the side away from the wind
     downwind~2z with the wind
-    windward~4z 
+    windward~4 
  decipherable ( meanings=2 ADJECTIVE ADJECTIVE_NORMAL COMMON2 posdefault:ADJECTIVE ) 
     clear~13a 
     decipherable~2az 
@@ -16239,7 +16239,7 @@
     discursive~2a 
  daylong ( meanings=2 glosses=1 ADJECTIVE ADVERB ADJECTIVE_NORMAL COMMON2 ) 
     daylong~1az lasting through an entire day
-    all_day_long~1z 
+    all_day_long~1 
  deafening ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 GRADE5_6 posdefault:VERB ) 
     earsplitting~1az loud enough to cause hearing loss
  detestable ( meanings=3 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:ADJECTIVE ) 
@@ -16791,7 +16791,7 @@
  downward ( meanings=3 glosses=1 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON4 ADJECTIVE_POSTPOSITIVE posdefault:ADJECTIVE ) 
     down~11a 
     downward~2az on or toward a surface regarded as a base
-    down~14z 
+    down~14 
  downward-arching ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     downward-arching~1az curving downward
  drizzling ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 posdefault:VERB ) 
@@ -17550,62 +17550,62 @@
     stir_up~2v 
     upset~16v 
  disadvantageously ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    badly~4z 
+    badly~4 
  decidedly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    emphatically~1z 
+    emphatically~1 
  definitely ( meanings=1 glosses=1 ADVERB COMMON4 COMMON1 GRADE1_2 posdefault:ADVERB ) 
     by_all_odds~1z without question and beyond doubt
  drop-dead ( meanings=1 glosses=1 ADVERB ) 
     drop-dead~1z extremely
  deucedly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    insanely~1z 
+    insanely~1 
  devilishly ( meanings=3 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    deucedly~1z 
+    deucedly~1 
     devilish~3z in a playfully devilish manner
-    diabolically~1z 
+    diabolically~1 
  directly ( meanings=4 glosses=1 ADVERB COMMON4 COMMON1 GRADE5_6 posdefault:ADVERB ) 
-    straight_off~1z 
-    direct~11z 
-    flat~24z 
+    straight_off~1 
+    direct~11 
+    flat~24 
     directly~4z without anyone or anything intervening
  diversely ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    multifariously~1z 
+    multifariously~1 
  dreadfully ( meanings=2 glosses=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     horribly~1z of a dreadful kind
     dismally~1z in a dreadful manner
  drastically ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     drastically~1z in a drastic manner
  deliberately ( meanings=2 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    intentionally~1z 
+    intentionally~1 
     measuredly~1z in a deliberate unhurried manner
  designedly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    deliberately~1z 
+    deliberately~1 
  duly ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    punctually~1z 
+    punctually~1 
  desperately ( meanings=2 glosses=2 ADVERB COMMON4 posdefault:ADVERB ) 
     urgently~1z with great urgency
     desperately~2z in intense despair
  dearly ( meanings=3 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    dear~8z 
-    dear~9z 
-    in_a_heartfelt_way~1z 
+    dear~8 
+    dear~9 
+    in_a_heartfelt_way~1 
  decoratively ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     decoratively~1z in a decorative manner
  doubtless ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    undoubtedly~1z 
+    undoubtedly~1 
  doubtlessly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    doubtless~1z 
+    doubtless~1 
  disdainfully ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    contemptuously~1z 
+    contemptuously~1 
     cavalierly~1z in a proud and domineering manner
  dementedly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     madly~2z in an insane manner
  dazzlingly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     dazzlingly~1z in a manner or to a degree that dazzles the beholder
  deceptively ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    deceivingly~1z 
+    deceivingly~1 
  deceivingly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    misleadingly~1z 
+    misleadingly~1 
  deprecatively ( meanings=1 glosses=1 ADVERB ) 
     deprecatively~1z in a deprecative manner
  depressingly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -17618,7 +17618,7 @@
  disruptively ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     disruptively~1z in a disruptive manner
  dizzily ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    giddily~1z 
+    giddily~1 
  dorsally ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     dorsally~1z in a dorsal location or direction
     dorsally~2z 
@@ -17626,7 +17626,7 @@
     dorsoventrally~1z in a dorsoventral direction
     dorsoventrally~2z 
  dangerously ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    perilously~1z 
+    perilously~1 
  dingdong ( meanings=2 glosses=1 VERB_PRESENT VERB_INFINITIVE VERB ADVERB COMMON1 VERB_NOOBJECT ) 
     dingdong~1z heartily or earnestly
     dong~2v 
@@ -17637,30 +17637,30 @@
  divertingly ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     amusingly~1z in an entertaining and amusing manner
  down_the_stairs ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    below~3z 
+    below~3 
  downwards ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    downward~3z 
+    downward~3 
  downwardly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    downwards~1z 
+    downwards~1 
  downriver ( meanings=1 ADVERB COMMON2 ) 
-    downstream~2z 
+    downstream~2 
  delicately ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    finely~1z 
+    finely~1 
  deep_down ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    at_bottom~1z 
+    at_bottom~1 
  demoniacally ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     frenetically~1z in a very agitated manner
  de_novo ( meanings=2 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     de_novo~1z 
     de_novo~2z 
  differently ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    otherwise~3z 
+    otherwise~3 
  distressingly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     painfully~1z unpleasantly
  disregardless ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     disregarding~1z in spite of everything
  disregarding ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:VERB ) 
-    no_matter~1z 
+    no_matter~1 
  democratically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     democratically~1z in a democratic manner
  digitally ( meanings=2 glosses=2 ADVERB COMMON4 posdefault:ADVERB ) 
@@ -17683,13 +17683,13 @@
     distally~1z far from the center
     distally~2z 
  day_by_day ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    daily~5z 
+    daily~5 
  day_in_day_out ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     day_after_day~1z 
  day_after_day ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    day_in_day_out~1z 
+    day_in_day_out~1 
  distinctly ( meanings=3 glosses=2 ADVERB COMMON4 posdefault:ADVERB ) 
-    clearly~2z 
+    clearly~2 
     distinctly~2z to a distinct degree
     distinctly~3z in a distinct and distinguishable manner
  displaying_incompetence ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
@@ -17699,10 +17699,10 @@
  diffusely ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     diffusely~1z in a diffuse manner
  decently ( meanings=2 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    properly~1z 
+    properly~1 
     decently~2z in a decent manner
  defiantly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    rebelliously~1z 
+    rebelliously~1 
  drunkenly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     drunkenly~1z showing effects of much strong drink
  dauntlessly ( meanings=1 glosses=1 ADVERB COMMON1 ) 
@@ -17710,43 +17710,43 @@
  diplomatically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     diplomatically~1z with diplomacy
  darkly ( meanings=2 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    in_darkness~1z 
+    in_darkness~1 
     darkly~2z in a dark glowering menacing manner
  demeaningly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    humiliatingly~1z 
+    humiliatingly~1 
  dimly ( meanings=3 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    indistinctly~1z 
-    murkily~1z 
-    palely~2z 
+    indistinctly~1 
+    murkily~1 
+    palely~2 
  determinedly ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    unfalteringly~1z 
+    unfalteringly~1 
     ambitiously~1z with ambition
  discourteously ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     rudely~1z in an impolite manner
  dependably ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    faithfully~1z 
+    faithfully~1 
  deliciously ( meanings=2 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     pleasurably~1z in a very pleasurable manner
-    lusciously~1z 
+    lusciously~1 
  dryly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    laconically~1z 
+    laconically~1 
  drily ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    dryly~1z 
+    dryly~1 
  doggedly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    tenaciously~1z 
+    tenaciously~1 
  discordantly ( meanings=2 ADVERB COMMON1 posdefault:ADVERB ) 
-    unharmoniously~1z 
+    unharmoniously~1 
     discordantly~2z 
  dully ( meanings=2 glosses=2 ADVERB COMMON2 posdefault:ADVERB ) 
     dully~1z without liveliness
     dully~2z without luster or shine
  dourly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    sullenly~1z 
+    sullenly~1 
  dialectically ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     dialectically~1z in a dialectic manner
     dialectically~2z 
  doggo ( meanings=1 ADVERB COMMON1 ) 
-    out_of_sight~2z 
+    out_of_sight~2 
  disapprovingly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     disapprovingly~1z showing disapproval
  disbelievingly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
@@ -17754,20 +17754,20 @@
  damnably ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     cursedly~1z in a damnable manner
  damply ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    moistly~1z 
+    moistly~1 
  dauntingly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     dauntingly~1z to a degree or in a manner that daunts
  dazedly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    torpidly~1z 
+    torpidly~1 
  decisively ( meanings=3 glosses=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     decisively~1z in an indisputable degree
     decisively~2z with finality
-    resolutely~2z 
+    resolutely~2 
  deftly ( meanings=2 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     deftly~1z in a deft manner
-    dexterously~1z 
+    dexterously~1 
  dejectedly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    in_low_spirits~1z 
+    in_low_spirits~1 
  delightedly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     delightedly~1z with delight
  delightfully ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -17775,12 +17775,12 @@
  demurely ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     demurely~1z in a demure manner
  densely ( meanings=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    thickly~1z 
-    dumbly~2z 
+    thickly~1 
+    dumbly~2 
  derisively ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     mockingly~1z in a disrespectful and mocking manner
  derisorily ( meanings=1 ADVERB COMMON1 ) 
-    scoffingly~1z 
+    scoffingly~1 
  descriptively ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     descriptively~1z by giving a description
  deservedly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -17788,9 +17788,9 @@
  despairingly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     despondently~1z with desperation
  despondently ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    despairingly~1z 
+    despairingly~1 
  daftly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    dottily~1z 
+    dottily~1 
  dottily ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     wackily~1z in a mildly insane manner
  daintily ( meanings=2 glosses=2 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -17806,7 +17806,7 @@
  defenselessly ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     defencelessly~1z without defense
  defencelessly ( meanings=1 ADVERB COMMON1 ) 
-    defenseless~4z 
+    defenseless~4 
  defensively ( meanings=2 glosses=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     defensively~1z in a defensive manner
     defensively~2z in an apologetic and defensive manner
@@ -17821,9 +17821,9 @@
  delusively ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     delusively~1z in a deceptive and unrealistic manner
  demonstrably ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    provably~1z 
+    provably~1 
  desolately ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    disconsolately~1z 
+    disconsolately~1 
  disconsolately ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     desolately~1z in grief-stricken loneliness
  diabolically ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -17838,7 +17838,7 @@
  destructively ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     destructively~1z in a destructive manner
  detestably ( meanings=1 ADVERB COMMON1 ) 
-    repulsively~1z 
+    repulsively~1 
  detrimentally ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     noxiously~1z in a detrimental manner
  deviously ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -17850,7 +17850,7 @@
  dexterously ( meanings=1 glosses=1 ADVERB COMMON2 GRADE5_6 posdefault:ADVERB ) 
     dextrously~1z with dexterity
  dextrously ( meanings=1 ADVERB COMMON1 ) 
-    deftly~2z 
+    deftly~2 
  diagonally ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     diagonally~1z in a diagonal manner
  diagrammatically ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -17858,9 +17858,9 @@
  diametrically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     diametrically~1z as from opposite ends of a diameter
  dictatorially ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    magisterially~2z 
+    magisterially~2 
  didactically ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    pedagogically~1z 
+    pedagogically~1 
  differentially ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     differentially~1z in a differential manner
  diligently ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -17869,7 +17869,7 @@
     direfully~1z in a direful manner
     direfully~2z 
  dirtily ( meanings=2 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    filthily~1z 
+    filthily~1 
     dirtily~2z in a sordid manner
  disagreeably ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     disagreeably~1z in a disagreeable manner
@@ -17886,24 +17886,24 @@
  disgracefully ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     dishonourably~1z in a dishonorable manner or to a dishonorable degree
  discreditably ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    ignominiously~1z 
+    ignominiously~1 
  dishonorably ( meanings=3 glosses=2 ADVERB COMMON2 ) 
-    shamefully~1z 
+    shamefully~1 
     dishonorably~2z with dishonor
     dishonorably~3z in a dishonorable manner
  dishonourably ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    dishonorably~1z 
+    dishonorably~1 
  disgustedly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     disgustedly~1z with disgust
  disgustingly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    distastefully~1z 
+    distastefully~1 
  distastefully ( meanings=2 glosses=2 ADVERB COMMON1 posdefault:ADVERB ) 
     sickeningly~1z in a disgusting manner or to a disgusting degree
     distastefully~2z in an offensively distasteful manner
  dishonestly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     deceitfully~1z in a corrupt and deceitful manner
  deceitfully ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    venally~1z 
+    venally~1 
  disingenuously ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     artfully~3z in a disingenuous manner
  disinterestedly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -17913,10 +17913,10 @@
  disloyally ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     disloyally~1z without loyalty
  dismally ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    dreadfully~2z 
+    dreadfully~2 
     drearily~1z in a cheerless manner
  drearily ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    dismally~2z 
+    dismally~2 
  disobediently ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     disobediently~1z in a disobedient manner
  dispassionately ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -17931,7 +17931,7 @@
     disproportionately~1z to a disproportionate degree
     disproportionately~2z out of proportion
  disputatiously ( meanings=1 ADVERB COMMON1 ) 
-    argumentatively~1z 
+    argumentatively~1 
  disquietingly ( meanings=2 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     disquietingly~1z in a disquieting manner
     disquietingly~2z 
@@ -17955,7 +17955,7 @@
  dogmatically ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     dogmatically~1z in a narrow-minded dogmatic manner
  dolefully ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    sorrowfully~1z 
+    sorrowfully~1 
  domestically ( meanings=2 glosses=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     domestically~1z with respect to home or family
     domestically~2z with respect to the internal affairs of a government
@@ -17966,23 +17966,23 @@
  doubtfully ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     dubiously~1z in a doubtful manner
  dubiously ( meanings=2 ADVERB COMMON2 posdefault:ADVERB ) 
-    doubtfully~1z 
-    questionably~1z 
+    doubtfully~1 
+    questionably~1 
  dowdily ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    frumpily~1z 
+    frumpily~1 
  drably ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     drably~1z in a drab manner
  dreamily ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    moonily~1z 
+    moonily~1 
  dreamfully ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     dreamily~1z in a dreamy manner
  droopingly ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     droopingly~1z in a drooping manner
  drowsily ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    somnolently~1z 
+    somnolently~1 
  dumbly ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     dumbly~1z in an inarticulate manner
-    obtusely~1z 
+    obtusely~1 
  dutifully ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     dutifully~1z out of a sense of duty
  dynamically ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
@@ -17996,15 +17996,15 @@
  discreetly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     discreetly~1z with discretion
  drippily ( meanings=1 ADVERB ) 
-    mawkishly~1z 
+    mawkishly~1 
  defectively ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     defectively~1z in a defective manner
  dingily ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    grubbily~1z 
+    grubbily~1 
  discursively ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     ramblingly~1z in a rambling manner
  dissolutely ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    profligately~1z 
+    profligately~1 
  distinctively ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     distinctively~1z in an identifiably distinctive manner
  demandingly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 

@@ -2595,7 +2595,7 @@
     best~5az 
     best~6z it would be sensible
     best~7z in a most excellent way or manner
-    better~10z 
+    better~10 
     outflank~1vz get the better of
  bunt ( meanings=6 glosses=6 NOUN_ABSTRACT VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER GRADE1_2 posdefault:NOUN VERB_DIRECTOBJECT VERB_NOOBJECT ) 
     bunt~1nz (^hit~3) the act of hitting a baseball lightly without swinging the bat
@@ -2811,8 +2811,8 @@
     bolt~5nz (^bar~2) a sliding bar in a breech-loading firearm that ejects an empty cartridge and replaces it and closes the breech
     bolt~6nz (^roll~5) a roll of cloth or wallpaper of a definite length
     thunderbolt~2n 
-    stiffly~2z 
-    slap~3z 
+    stiffly~2 
+    slap~3 
     bolt~10vz make or roll into bolts
     gobble~3v 
     bolt~12vz swallow hastily
@@ -3746,7 +3746,7 @@
     vainglorious~1az feeling self-importance
     self-aggrandising~1az exhibiting self-importance
     heavy~25a 
-    large~10z 
+    large~10 
     big~15z in a major way
     big~16z on a grand scale
     big~17z extremely well
@@ -9833,8 +9833,8 @@
     bad~14az below average in quality or performance
     uncollectible~1az not capable of being collected
     bad~16az 
-    badly~7z 
-    badly~8z 
+    badly~7 
+    badly~8 
  brusqueness ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON1 ) 
     shortness~1nz (^discourtesy~2) an abrupt discourteous manner
  birthright ( meanings=3 glosses=3 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER posdefault:NOUN ) 
@@ -11144,13 +11144,13 @@
     bimestrial~2az occurring every two months
     semimonthly~2a 
     bimonthly~4z every two months
-    semimonthly~3z 
+    semimonthly~3 
  biweekly ( meanings=5 glosses=1 NOUN ADJECTIVE ADVERB ADJECTIVE_NORMAL NOUN_SINGULAR ADJECTIVE_NOT_PREDICATE COMMON2 COMMON1 KINDERGARTEN posdefault:ADVERB TIMEWORD ) 
     biweekly~1nz (^serial_publication~1) a periodical that is published twice a week or every two weeks
     semiweekly~2a 
     fortnightly~1a 
-    fortnightly~2z 
-    semiweekly~3z 
+    fortnightly~2 
+    semiweekly~3 
  bumf ( meanings=1 NOUN NOUN_SINGULAR COMMON1 posdefault:NOUN ) 
     bumph~1n 
  bumph ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON1 posdefault:NOUN ) 
@@ -12653,7 +12653,7 @@
  bloody ( meanings=4 glosses=2 VERB_PRESENT VERB_INFINITIVE VERB ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON4 posdefault:ADJECTIVE VERB_DIRECTOBJECT ) comparative=bloodiest 
     bloody~1az having or covered with or accompanied by blood
     fucking~2a 
-    all-fired~2z 
+    all-fired~2 
     bloody~4vz cover with blood
  bullshot ( meanings=1 glosses=1 NOUN NOUN_SINGULAR COMMON1 NOUN_NODETERMINER ) 
     bullshot~1nz (^cocktail~2) a cocktail made with vodka and beef bouillon or consomme
@@ -19514,12 +19514,12 @@
  billed ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON4 posdefault:VERB ) 
     billed~1az having a beak or bill as specified
  but ( meanings=3 ADVERB PREPOSITION CONJUNCTION_COORDINATE COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:PREPOSITION ) comparative=butter 
-    merely~1z 
+    merely~1 
     but~2z 
     but~3z 
  by ( meanings=3 PARTICLE ADVERB PREPOSITION COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:PREPOSITION ) 
-    aside~4z 
-    past~6z 
+    aside~4 
+    past~6 
     by~3z 
  biannual ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON2 COMMON1 KINDERGARTEN posdefault:ADJECTIVE TIMEWORD ) 
     semiannual~1a 
@@ -19675,9 +19675,9 @@
     backward~3az having made less than normal progress
     slow-witted~1a 
     backward~5az 
-    back~13z 
-    rearward~4z 
-    backwards~2z 
+    back~13 
+    rearward~4 
+    backwards~2 
  backswept ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
     sweptback~1az used of hair
  bashful ( meanings=3 glosses=2 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:ADJECTIVE ) 
@@ -20172,7 +20172,7 @@
     bottomless~4az having no bottom
  bareback ( meanings=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL COMMON4 posdefault:ADVERB ) 
     barebacked~1a 
-    barebacked~2z 
+    barebacked~2 
  barebacked ( meanings=2 glosses=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON1 ) 
     bareback~1az riding without a saddle
     bareback~2z without a saddle
@@ -20402,7 +20402,7 @@
     burbling~1a 
  beforehand ( meanings=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_ONLY_PREDICATE ADJECTIVE_NOT_PREDICATE COMMON4 posdefault:ADVERB ) 
     advance~8a 
-    ahead~3z 
+    ahead~3 
  backbreaking ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 posdefault:ADJECTIVE ) 
     arduous~2a 
  businesslike ( meanings=2 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 posdefault:ADJECTIVE ) 
@@ -20462,10 +20462,10 @@
     unfairly~1z in an unfair manner
  below ( meanings=6 glosses=2 PARTICLE ADVERB PREPOSITION COMMON4 COMMON2 KINDERGARTEN posdefault:ADVERB ) 
     below~1z at a later place
-    to_a_lower_place~1z 
-    downstairs~2z 
+    to_a_lower_place~1 
+    downstairs~2 
     infra~1z see below
-    under~3z 
+    under~3 
     below~6z 
  beaten ( meanings=3 glosses=2 VERB_PAST_PARTICIPLE VERB ADJECTIVE ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON4 KINDERGARTEN posdefault:VERB ) conjugate=beat 
     beaten~1az much trodden and worn smooth or bare
@@ -20762,7 +20762,7 @@
     boyish~2az 
  boylike ( meanings=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL COMMON1 ) 
     schoolboyish~1a 
-    boyishly~1z 
+    boyishly~1 
  basined ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
     basined~1az enclosed in a basin
  besieged ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 GRADE5_6 posdefault:VERB ) 
@@ -20881,7 +20881,7 @@
     boastful~1a 
  behindhand ( meanings=2 glosses=1 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON1 posdefault:ADVERB ) 
     behindhand~1az behind schedule
-    behind~5z 
+    behind~5 
  belated ( meanings=2 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:ADJECTIVE ) 
     late~7a 
     belated~2az 
@@ -20895,7 +20895,7 @@
     bastardized~1a 
  beyond_doubt ( meanings=2 glosses=1 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_ONLY_PREDICATE ADJECTIVE_NOT_PREDICATE ) 
     indubitable~1az too obvious to be doubted
-    beyond_a_doubt~1z 
+    beyond_a_doubt~1 
  beyond ( meanings=4 glosses=3 ADVERB PREPOSITION EXTENT_ADVERB COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB posdefault:PREPOSITION ) 
     beyond~1z in addition
     beyond~2z farther along in space or time or degree
@@ -20918,8 +20918,8 @@
  biyearly ( meanings=4 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON1 ) 
     biannual~1a 
     biennial~3a 
-    semiannually~1z 
-    biennially~1z 
+    semiannually~1 
+    biennially~1 
  blood-related ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
     akin~1a 
  booked ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON4 posdefault:VERB ) 
@@ -21054,7 +21054,7 @@
     barefooted~2z without shoes on
  barefooted ( meanings=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL COMMON2 posdefault:ADJECTIVE ) 
     barefoot~1a 
-    barefoot~2z 
+    barefoot~2 
  blinded ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:VERB ) 
     blinded~1az deprived of sight
  blindfolded ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:VERB ) 
@@ -21915,22 +21915,22 @@
     amaze~1v 
     throw~18v 
  BC ( meanings=1 ADVERB COMMON2 ) 
-    B.C.~1z 
+    B.C.~1 
  B.C. ( meanings=1 ADVERB ) 
-    before_Christ~1z 
+    before_Christ~1 
  before_Christ ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     BC~1z 
  before ( meanings=4 glosses=1 PARTICLE ADVERB PREPOSITION CONJUNCTION_SUBORDINATE COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:PREPOSITION TIME_ADVERB ) 
-    earlier~2z 
+    earlier~2 
     in_front~1z at or in the front
     before~3z 
     before~4z 
  BCE ( meanings=1 ADVERB COMMON1 ) 
-    B.C.E.~1z 
+    B.C.E.~1 
  B.C.E. ( meanings=1 glosses=1 ADVERB ) 
     BCE~1z of the period before the Common Era
  barely ( meanings=2 glosses=1 ADVERB EXTENT_ADVERB COMMON4 KINDERGARTEN posdefault:ADVERB NEGATIVE_ADVERB_STARTER ) 
-    hardly~1z 
+    hardly~1 
     scantily~1z in a sparse or scanty way
  basically ( meanings=1 glosses=1 ADVERB EXTENT_ADVERB COMMON4 KINDERGARTEN posdefault:ADVERB ) 
     essentially~1z in essence
@@ -21942,35 +21942,35 @@
     ill~9z unfavorably or with disapproval
     disadvantageously~1z in a disadvantageous way
     badly~5z without skill or in a displeasing manner
-    gravely~1z 
+    gravely~1 
     bad~17z very much
     bad~18z with great intensity 
     naughtily~1z in a disobedient or naughty way
     badly~10z evilly or wickedly
  besides ( meanings=3 glosses=1 ADVERB PREPOSITION COMMON4 KINDERGARTEN posdefault:ADVERB ) 
     in_any_case~2z making an additional point
-    likewise~1z 
+    likewise~1 
     besides~3z 
  before_long ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    presently~1z 
+    presently~1 
  by_all_odds ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    in_spades~1z 
+    in_spades~1 
  by_chance ( meanings=3 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    accidentally~1z 
+    accidentally~1 
     by_luck~1z 
     perchance~2z 
  beyond_measure ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     beyond_measure~1z 
  by_far ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    far_and_away~1z 
+    far_and_away~1 
  blithely ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    gayly~1z 
+    gayly~1 
  biradially ( meanings=1 glosses=1 ADVERB ) 
     biradially~1z in a biradial manner
  bitterly ( meanings=3 glosses=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     bitterly~1z with bitterness, in a resentful manner
     bitterly~2z indicating something hard to accept
-    piercingly~2z 
+    piercingly~2 
  by_hand ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     by_hand~1z 
  by_machine ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
@@ -21978,47 +21978,47 @@
  by_all_means ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
     by_all_means~1z 
  by_no_means ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    not_by_a_long_sight~1z 
+    not_by_a_long_sight~1 
  by_choice ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    advisedly~1z 
+    advisedly~1 
  by_design ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    by_choice~1z 
+    by_choice~1 
  blindly ( meanings=2 glosses=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     blindly~1z without preparation or reflection
     blindly~2z without seeing or looking
  backwards ( meanings=2 glosses=1 PARTICLE ADVERB COMMON4 posdefault:ADVERB ) 
-    backward~7z 
+    backward~7 
     backward~8z in a manner or order or direction the reverse of normal
  back_and_forth ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    backward_and_forward~1z 
+    backward_and_forward~1 
  backward_and_forward ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     to_and_fro~1z 
  brazenly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     brazenly~1z in a brazen manner
  brilliantly ( meanings=2 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     brilliantly~1z in an extremely intelligent way
-    bright~12z 
+    bright~12 
  brightly ( meanings=1 ADVERB COMMON4 GRADE5_6 posdefault:ADVERB ) 
-    brilliantly~2z 
+    brilliantly~2 
  beneath ( meanings=2 glosses=1 ADVERB PREPOSITION COMMON4 KINDERGARTEN posdefault:PREPOSITION ) 
     below~2z in or to a place that is lower
     beneath~2z 
  by_trial_and_error ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    empirically~1z 
+    empirically~1 
  by_experimentation ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    through_an_experiment~1z 
+    through_an_experiment~1 
  briefly ( meanings=2 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     briefly~1z for a short time
-    shortly~4z 
+    shortly~4 
  belatedly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    late~9z 
+    late~9 
  betimes ( meanings=1 ADVERB COMMON2 ) 
-    early~8z 
+    early~8 
  bit_by_bit ( meanings=2 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    gradually~1z 
-    little_by_little~2z 
+    gradually~1 
+    little_by_little~2 
  but_then ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    then_again~1z 
+    then_again~1 
  bilingually ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     bilingually~1z in a bilingual manner
  bacterially ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -22029,11 +22029,11 @@
  biochemically ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     biochemically~1z with respect to biochemistry
  belike ( meanings=1 ADVERB COMMON2 ) 
-    in_all_probability~1z 
+    in_all_probability~1 
  bannerlike ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     bannerlike~1z like a banner
  befittingly ( meanings=1 ADVERB COMMON1 ) 
-    fittingly~1z 
+    fittingly~1 
  by_artificial_means ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     unnaturally~2z 
  beyond_control ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
@@ -22041,36 +22041,36 @@
  by_a_long_shot ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     by_a_long_shot~1z 
  by_and_by ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    later~4z 
+    later~4 
  by_and_large ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    generally~2z 
+    generally~2 
  by_hook_or_by_crook ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     by_any_means~1z 
  by_any_means ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    by_hook_or_by_crook~1z 
+    by_hook_or_by_crook~1 
  by_heart ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    by_memory~1z 
+    by_memory~1 
  by_memory ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     by_heart~1z 
  by_inches ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    little_by_little~1z 
+    little_by_little~1 
  by_small_degrees ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    by_inches~1z 
+    by_inches~1 
  by_fits_and_starts ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     by_fits_and_starts~1z 
  by_the_way ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    incidentally~1z 
+    incidentally~1 
  by_the_bye ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    by_the_way~1z 
+    by_the_way~1 
  by_the_piece ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     one_by_one~1z 
  by_word_of_mouth ( meanings=2 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     orally~1z 
     viva_voce~2z 
  body_and_soul ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    heart_and_soul~2z 
+    heart_and_soul~2 
  bravely ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    courageously~1z 
+    courageously~1 
  bleakly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     bleakly~1z without hope
  blandly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -22082,41 +22082,41 @@
  bewilderedly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     bewilderedly~1z in a bewildered manner
  brutally ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    viciously~1z 
+    viciously~1 
  binaurally ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    to_both_ears~1z 
+    to_both_ears~1 
  busily ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     busily~1z in a busy manner
  bewilderingly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     confusingly~1z in a bewildering and confusing manner
  barefacedly ( meanings=1 ADVERB COMMON1 ) 
-    shamelessly~1z 
+    shamelessly~1 
  boringly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    tediously~1z 
+    tediously~1 
  breathlessly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     breathlessly~1z in a breathless manner
  boisterously ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    rollickingly~1z 
+    rollickingly~1 
  broadly ( meanings=2 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    loosely~3z 
+    loosely~3 
     broadly~2z in a wide fashion
  broadly_speaking ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    broadly~1z 
+    broadly~1 
  boundlessly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    immeasurably~1z 
+    immeasurably~1 
  boastfully ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    big~14z 
+    big~14 
  bashfully ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     shyly~1z in a shy or timid or bashful manner
  buxomly ( meanings=1 ADVERB COMMON1 ) 
-    curvaceously~1z 
+    curvaceously~1 
  beautifully ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    attractively~1z 
+    attractively~1 
  belligerently ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     hostilely~1z with hostility
  believably ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     believably~1z in a believable manner
-    probably~2z 
+    probably~2 
  by_the_day ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     per_diem~2z 
  between ( meanings=3 glosses=2 ADVERB PREPOSITION COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:PREPOSITION ) 
@@ -22130,7 +22130,7 @@
  breast-deep ( meanings=1 glosses=1 ADVERB ) 
     breast-high~1z up to the breast
  breast-high ( meanings=1 ADVERB ) 
-    breast-deep~1z 
+    breast-deep~1 
  bloodlessly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     bloodlessly~1z without bloodshed
  bloodily ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -22148,9 +22148,9 @@
     balefully~1z in a baleful manner
     balefully~2z 
  banefully ( meanings=1 ADVERB COMMON1 ) 
-    perniciously~1z 
+    perniciously~1 
  banteringly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    tongue-in-cheek~3z 
+    tongue-in-cheek~3 
  barbarously ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     barbarously~1z in a barbarous manner
  bawdily ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
@@ -22160,13 +22160,13 @@
  beneficially ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     beneficially~1z in a beneficial manner
  benignly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    benignantly~1z 
+    benignantly~1 
  benignantly ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     benignly~1z in a benign manner
  beseechingly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    importunately~1z 
+    importunately~1 
  bewitchingly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    captivatingly~1z 
+    captivatingly~1 
  biennially ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     biyearly~4z every two years
  blankly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -22174,9 +22174,9 @@
  blasphemously ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     blasphemously~1z in a blasphemous manner
  bluffly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    roundly~2z 
+    roundly~2 
  bluntly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    bluffly~1z 
+    bluffly~1 
  brusquely ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     flat_out~2z in a blunt direct manner
  boorishly ( meanings=1 glosses=1 ADVERB COMMON1 ) 
@@ -22184,21 +22184,21 @@
  bountifully ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     plenteously~1z in a bountiful manner
  bounteously ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    bountifully~1z 
+    bountifully~1 
  breadthwise ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     broadwise~1z in the direction of the breadth
  breadthways ( meanings=1 ADVERB COMMON1 ) 
-    breadthwise~1z 
+    breadthwise~1 
  broadwise ( meanings=1 ADVERB COMMON1 ) 
-    breadthways~1z 
+    breadthways~1 
  breezily ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     breezily~1z in a breezy manner
  briskly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 GRADE5_6 posdefault:ADVERB ) 
     briskly~1z in a brisk manner
  bestially ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    brutishly~1z 
+    brutishly~1 
  brutishly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    in_a_beastly_manner~1z 
+    in_a_beastly_manner~1 
  bumptiously ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     bumptiously~1z in a bumptious manner
  buoyantly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
@@ -22207,42 +22207,42 @@
     bureaucratically~1z with respect to bureaucracy
     bureaucratically~2z in a bureaucratic manner
  brashly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    nervily~1z 
+    nervily~1 
  believingly ( meanings=1 ADVERB COMMON1 ) 
-    credulously~1z 
+    credulously~1 
  balmily ( meanings=1 ADVERB COMMON1 ) 
-    daftly~1z 
+    daftly~1 
  by_luck ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    haply~1z 
+    haply~1 
  beyond_a_doubt ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    indubitably~1z 
+    indubitably~1 
  beyond_a_shadow_of_a_doubt ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     beyond_doubt~2z 
  benevolently ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     benevolently~1z in a benevolent manner
  basely ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    meanly~3z 
+    meanly~3 
  broad-mindedly ( meanings=1 glosses=1 ADVERB ) 
     broad-mindedly~1z in a broad-minded manner
  bitingly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    bitterly~3z 
+    bitterly~3 
  between_decks ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     'tween_decks~1z 
  betwixt ( meanings=2 ADVERB PREPOSITION COMMON2 COMMON1 ) 
-    between~2z 
+    between~2 
     betwixt~2z 
  blamelessly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    irreproachably~1z 
+    irreproachably~1 
  bonnily ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     bonnily~1z in a bonny manner
  by_nature ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    naturally~4z 
+    naturally~4 
  by_rights ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     properly~2z 
  baby-wise ( meanings=1 glosses=1 ADVERB ) 
     baby-like~1z like a baby
  baby-like ( meanings=1 ADVERB ) 
-    baby-wise~1z 
+    baby-wise~1 
  bronchoscopically ( meanings=2 ADVERB COMMON1 ) 
     bronchoscopically~1z 
     bronchoscopically~2z 

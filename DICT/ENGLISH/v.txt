@@ -2071,7 +2071,7 @@
  very ( meanings=4 glosses=3 ADJECTIVE ADVERB ADJECTIVE_NORMAL EXTENT_ADVERB ADJECTIVE_NOT_PREDICATE COMMON4 COMMON2 KINDERGARTEN posdefault:ADVERB ) 
     very~1az precisely as stated
     selfsame~1az being the exact same one
-    really~1z 
+    really~1 
     very~4z precisely so
  VLF ( meanings=1 NOUN NOUN_PROPER_SINGULAR COMMON1 NOUN_NODETERMINER ) 
     very_low_frequency~1n 
@@ -3030,7 +3030,7 @@
     verbalism~2n 
  viva_voce ( meanings=2 NOUN ADVERB NOUN_SINGULAR posdefault:NOUN ) 
     oral~1n 
-    by_word_of_mouth~2z 
+    by_word_of_mouth~2 
  viva ( meanings=1 NOUN NOUN_SINGULAR COMMON2 COMMON1 posdefault:NOUN ) 
     viva_voce~1n 
  vow ( meanings=3 glosses=2 NOUN_ABSTRACT VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR COMMON2 COMMON1 posdefault:NOUN VERB_TAKES_TOINFINITIVE VERB_DIRECTOBJECT ) 
@@ -5267,7 +5267,7 @@
     disfranchised~1a 
  verbatim ( meanings=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:ADJECTIVE posdefault:ADVERB ) 
     direct~8a 
-    word_for_word~1z 
+    word_for_word~1 
  vicarious ( meanings=3 glosses=3 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:ADJECTIVE ) 
     vicarious~1az suffered or done by one person as a substitute for another
     vicarious~2az occurring in an abnormal part of the body instead of the usual site involved in that function
@@ -5710,18 +5710,18 @@
  vulcanological ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
     vulcanological~1az 
  vastly ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    immensely~1z 
+    immensely~1 
  vocationally ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     vocationally~1z affecting the pursuit of a vocation or occupation
  variously ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    diversely~1z 
+    diversely~1 
  very_well ( meanings=2 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    fine~9z 
-    first-rate~2z 
+    fine~9 
+    first-rate~2 
  very_much ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    a_great_deal~1z 
+    a_great_deal~1 
  virtually ( meanings=2 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    nearly~1z 
+    nearly~1 
     virtually~2z in essence or effect but not in fact
  ventrally ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     ventrally~1z in a ventral location or direction
@@ -5736,23 +5736,23 @@
     vocally~1z in a vocal manner
  viscerally ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     viscerally~1z in the viscera
-    unreasoningly~1z 
+    unreasoningly~1 
  volcanically ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     volcanically~1z by or like volcanoes
  vociferously ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     vociferously~1z in a vociferous manner
  vainly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    in_vain~1z 
+    in_vain~1 
  vice_versa ( meanings=2 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    the_other_way_around~1z 
+    the_other_way_around~1 
     vice_versa~2z 
  vigorously ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     smartly~2z with vigor
  viz. ( meanings=2 ADVERB COMMON2 posdefault:ADVERB ) 
-    that_is_to_say~1z 
+    that_is_to_say~1 
     viz.~2z 
  videlicet ( meanings=1 ADVERB COMMON2 ) 
-    to_wit~1z 
+    to_wit~1 
  very_much_like ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?[dNP]=<RRp?=R ) 
     much_as~1z 
  visibly ( meanings=2 glosses=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -5765,7 +5765,7 @@
  violently ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     violently~1z in a violent manner
  vauntingly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    boastfully~1z 
+    boastfully~1 
  voluntarily ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     voluntarily~1z out of your own free will
  vaguely ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -5778,12 +5778,12 @@
     chastely~1z in a chaste and virtuous manner
     morally~2z in a moral manner
  volubly ( meanings=2 ADVERB COMMON2 posdefault:ADVERB ) 
-    chattily~1z 
+    chattily~1 
     volubly~2z 
  volitionally ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     willingly~1z in a willing manner
  venally ( meanings=1 ADVERB COMMON1 ) 
-    dishonestly~1z 
+    dishonestly~1 
  very_softly ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     pianissimo~3z 
  very_loudly ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
@@ -5791,25 +5791,25 @@
  vertically ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     vertically~1z in a vertical direction
  venomously ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    poisonously~1z 
+    poisonously~1 
  vengefully ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    revengefully~1z 
+    revengefully~1 
  vindictively ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    vengefully~1z 
+    vengefully~1 
  voluptuously ( meanings=3 glosses=2 ADVERB COMMON1 posdefault:ADVERB ) 
     voluptuously~1z in an indulgently voluptuous manner
     voluptuously~2z in a shapely and voluptuous manner
     voluptuously~3z 
  vulgarly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    smuttily~1z 
+    smuttily~1 
  viscidly ( meanings=1 ADVERB ) 
-    stickily~1z 
+    stickily~1 
  vacantly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     vacantly~1z in a vacant manner
  vacuously ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     vacuously~1z in a vacuous manner
  valiantly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    valorously~1z 
+    valorously~1 
  valorously ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     valiantly~1z with valor
  validly ( meanings=2 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -5823,7 +5823,7 @@
  vehemently ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     vehemently~1z in a vehement manner
  verbosely ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    windily~1z 
+    windily~1 
  verily ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     verily~1z in truth
  vicariously ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 

@@ -2090,6 +2090,7 @@ static void PennWrite(char* name,uint64 flags)
 
 static void C_PennFormat(char* file)
 {
+	bool rough = true;
 	char indir[MAX_WORD_SIZE];
 	file = ReadCompiledWord(file,indir); // where source is
 	char word[MAX_WORD_SIZE];
@@ -2245,6 +2246,8 @@ static void C_PennDecode(char* file)
 
 static void C_PennMatch(char* file)
 {
+	bool rough = true;
+	bool tt = false;
 	char word[MAX_WORD_SIZE];
 	bool raw = false;
 	bool ambig = false;
@@ -2252,7 +2255,7 @@ static void C_PennMatch(char* file)
 	unsigned int ambigLocation = 0;
 	char filename[SMALL_WORD_SIZE];
 	strcpy(filename,(char*)"REGRESS/PENNTAGS/penn.txt"); // tedtalks
-	strcpy(filename, file);
+	sprintf(filename, "REGRESS/PENNTAGS/%s.txt",file);
 	clock_t startTime = ElapsedMilliseconds(); 
 	int sentenceLengthLimit = 0;
 	usedTrace = AllocateBuffer();
@@ -2536,11 +2539,10 @@ retry:
 				Log(STDTRACELOG,(char*)"Parse result- Ambiguous %s word %d(%s) line %d:  %s\r\n",mytags[i],i,wordStarts[i],currentFileLine,buffer);
 			} 
 #ifdef TREETAGGER
-			else if (MatchTag(tags[i], i)) ++right; // match treetagger tag?
-			else if (!showUsed || usedWordIndex == i)
+			else if (tt && MatchTag(tags[i], i)) ++right; // match treetagger tag?
+			else if (tt && (!showUsed || usedWordIndex == i))
 			{
 				Log(STDTRACELOG, (char*)"** Bad TTtag %s (%s) word %d(%s) line %d:  %s\r\n", GetTag(i), tags[i], i, wordStarts[i], currentFileLine, buffer);
-				int xx = 0;
 			}
 #endif
 			else if (ignoreRule != -1 && !stricmp(wordStarts[i],(char*)"than")) ++right; // special against rule mode
@@ -2579,7 +2581,8 @@ retry:
 			else if (!stricmp(tags[i],(char*)"TO")) ++right;	// always correct
 			else if (!stricmp(tags[i],(char*)"NN")) 
 			{
-				if (posValues[i] & (NOUN_SINGULAR | ADJECTIVE_NOUN | NOUN_NUMBER)  && allOriginalWordBits[i] & (NOUN_SINGULAR|NOUN_NUMBER)) ++right;
+				if (rough && posValues[i] & NOUN) ++right;
+				else if (posValues[i] & (NOUN_SINGULAR | ADJECTIVE_NOUN | NOUN_NUMBER)  && allOriginalWordBits[i] & (NOUN_SINGULAR|NOUN_NUMBER)) ++right;
 				else if (posValues[i] & ADJECTIVE_PARTICIPLE && allOriginalWordBits[i] & NOUN_GERUND) ++right; // *drinking straws
 				else if (posValues[i] & NOUN_SINGULAR) ++right; // they doubtless dont know it should be lower case
 				else if (posValues[i] & ADJECTIVE_NORMAL && allOriginalWordBits[i] & NOUN_SINGULAR) ++right;  //"*expert aim"
@@ -2592,7 +2595,8 @@ retry:
 			}
 			else if (!stricmp(tags[i],(char*)"NNS")) 
 			{
-				if (posValues[i] & (NOUN_PLURAL| ADJECTIVE_NOUN)  && allOriginalWordBits[i] & NOUN_PLURAL) ++right;
+				if (rough && posValues[i] & NOUN) ++right; 
+				else if (posValues[i] & (NOUN_PLURAL| ADJECTIVE_NOUN)  && allOriginalWordBits[i] & NOUN_PLURAL) ++right;
 				else if (posValues[i] & NOUN_NUMBER && canSysFlags[i] & MODEL_NUMBER) ++right; // model numbers
 				else if (posValues[i] & NOUN_PROPER_PLURAL) ++right; // they get it wrong
 				else if (posValues[i] & PRONOUN_BITS) ++right; // others
@@ -2603,7 +2607,8 @@ retry:
 			else if (!stricmp(tags[i],(char*)"NNP")) // proper singular
 			{
 				uint64 val;
-				if (posValues[i] & (NOUN_PROPER_SINGULAR | ADJECTIVE_NOUN) && allOriginalWordBits[i] & (NOUN_PROPER_SINGULAR | NOUN_SINGULAR)) ++right;
+				if (rough && posValues[i] & NOUN) ++right;
+				else if (posValues[i] & (NOUN_PROPER_SINGULAR | ADJECTIVE_NOUN) && allOriginalWordBits[i] & (NOUN_PROPER_SINGULAR | NOUN_SINGULAR)) ++right;
 				else if (posValues[i] & NOUN_PROPER_PLURAL && allOriginalWordBits[i] & NOUN_PROPER_SINGULAR) ++right; // we just picked the other side
 				else if (posValues[i] & NOUN_NUMBER && canSysFlags[i] & MODEL_NUMBER) ++right; // model numbers
 				else if (posValues[i] & NOUN_NUMBER && IsRomanNumeral(wordStarts[i],val)) ++right; //  roman numerals
@@ -2615,7 +2620,8 @@ retry:
 			}
 			else if (!stricmp(tags[i],(char*)"NNPS"))  // proper plural
 			{
-				if (posValues[i] & (NOUN_PROPER_PLURAL| ADJECTIVE_NOUN) && allOriginalWordBits[i] & NOUN_PROPER_PLURAL) ++right;
+				if (rough && posValues[i] & NOUN) ++right;
+				else if (posValues[i] & (NOUN_PROPER_PLURAL| ADJECTIVE_NOUN) && allOriginalWordBits[i] & NOUN_PROPER_PLURAL) ++right;
 				else if (posValues[i] & NOUN_PROPER_SINGULAR && allOriginalWordBits[i] & NOUN_PROPER_PLURAL) ++right; // we just picked the other side
 				else if (posValues[i] & NOUN_PROPER_SINGULAR) ++right; // confusion like Mercedes which is singualr
 				else if (posValues[i] & NOUN_PLURAL) ++right;
@@ -2738,36 +2744,42 @@ retry:
 			}
 			else if (!stricmp(tags[i],(char*)"VB")) // infinitive
 			{
-				if (posValues[i] & (NOUN_INFINITIVE|VERB_INFINITIVE)) ++right;  
+				if (rough && posValues[i] & VERB) ++right;
+				else if (posValues[i] & (NOUN_INFINITIVE|VERB_INFINITIVE)) ++right;
 				else if (posValues[i] & AUX_VERB && allOriginalWordBits[i] &  VERB_INFINITIVE) ++right;  // includes our modals 
 				else if (!showUsed ||  (usedWordIndex == i && usedType & (NOUN_INFINITIVE|VERB_INFINITIVE)))  
 					Log(STDTRACELOG,(char*)"** Bad VB (infinitive) %s word %d(%s) line %d:  %s\r\n",mytags[i],i,wordStarts[i],currentFileLine,buffer);
 			}
 			else if (!stricmp(tags[i],(char*)"VBD")) // past
 			{
-				if (posValues[i] & VERB_PAST || (posValues[i] & AUX_VERB &&  allOriginalWordBits[i] &  VERB_PAST) ) ++right;  // includes our modals that can have this tense as verbs
+				if (rough && posValues[i] & VERB) ++right;
+				else if (posValues[i] & VERB_PAST || (posValues[i] & AUX_VERB &&  allOriginalWordBits[i] &  VERB_PAST) ) ++right;  // includes our modals that can have this tense as verbs
 				else if (posValues[i] & VERB_PAST_PARTICIPLE && allOriginalWordBits[i] & VERB_PAST) ++right; 
 				else if (!showUsed || (usedWordIndex == i && usedType & VERB_PAST))  Log(STDTRACELOG,(char*)"** Bad VBD (past) %s word %d(%s) line %d:  %s\r\n",mytags[i],i,wordStarts[i],currentFileLine,buffer);
 			}
 			else if (!stricmp(tags[i],(char*)"VBG"))  // gerund present participle
 			{
-				if (allOriginalWordBits[i] & (VERB_PRESENT_PARTICIPLE|NOUN_GERUND)) ++right;  // includes our modals that can have this tense as verbs
+				if (rough && posValues[i] & VERB) ++right;
+				else if (allOriginalWordBits[i] & (VERB_PRESENT_PARTICIPLE|NOUN_GERUND)) ++right;  // includes our modals that can have this tense as verbs
 				else if (!showUsed || (usedWordIndex == i && usedType & (VERB_PRESENT_PARTICIPLE|NOUN_GERUND)))   Log(STDTRACELOG,(char*)"** Bad VBG (present participle) %s word %d(%s) line %d:  %s\r\n",mytags[i],i,wordStarts[i],currentFileLine,buffer);
 		    }
 			else if (!stricmp(tags[i],(char*)"VBN")) // past particple
 			{
-				if (posValues[i] & VERB_PAST_PARTICIPLE || ( posValues[i] & AUX_VERB && allOriginalWordBits[i] & (VERB_PAST_PARTICIPLE|VERB_PRESENT_PARTICIPLE))) ++right;  // includes our modals that can have this tense as verbs - he has said
+				if (rough && posValues[i] & VERB) ++right;
+				else if (posValues[i] & VERB_PAST_PARTICIPLE || ( posValues[i] & AUX_VERB && allOriginalWordBits[i] & (VERB_PAST_PARTICIPLE|VERB_PRESENT_PARTICIPLE))) ++right;  // includes our modals that can have this tense as verbs - he has said
 				else if (posValues[i] & (ADJECTIVE_PARTICIPLE|ADJECTIVE_NORMAL|NOUN_ADJECTIVE) && allOriginalWordBits[i] & VERB_PAST_PARTICIPLE) ++right;
 				else if (!showUsed || (usedWordIndex == i && usedType & VERB_PAST_PARTICIPLE))   Log(STDTRACELOG,(char*)"** Bad VBN (past participle) %s word %d(%s) line %d:  %s\r\n",mytags[i],i,wordStarts[i],currentFileLine,buffer);
 			}
 			else if (!stricmp(tags[i],(char*)"VBP")) // present
 			{
-				if (posValues[i] & VERB_PRESENT || (posValues[i] & AUX_VERB && allOriginalWordBits[i]  &  VERB_PRESENT)) ++right;  // includes our modals that can have this tense as verbs
+				if (rough && posValues[i] & VERB) ++right;
+				else if (posValues[i] & VERB_PRESENT || (posValues[i] & AUX_VERB && allOriginalWordBits[i]  &  VERB_PRESENT)) ++right;  // includes our modals that can have this tense as verbs
 				else if (!showUsed || (usedWordIndex == i && usedType & VERB_PRESENT))  Log(STDTRACELOG,(char*)"** Bad VBP (present) %s word %d(%s) line %d:  %s\r\n",mytags[i],i,wordStarts[i],currentFileLine,buffer);
 			}
 			else if (!stricmp(tags[i],(char*)"VBZ")) // 3ps
 			{
-				if (posValues[i] & VERB_PRESENT_3PS || (posValues[i] & AUX_VERB && allOriginalWordBits[i]  &  VERB_PRESENT_3PS)) ++right; // includes our modals that can have this tense as verbs
+				if (rough && posValues[i] & VERB) ++right;
+				else if (posValues[i] & VERB_PRESENT_3PS || (posValues[i] & AUX_VERB && allOriginalWordBits[i]  &  VERB_PRESENT_3PS)) ++right; // includes our modals that can have this tense as verbs
 				else if (!showUsed || (usedWordIndex == i && usedType & VERB_PRESENT_3PS))  Log(STDTRACELOG,(char*)"** Bad VBZ (present_3ps) %s word %d(%s) line %d:  %s\r\n",mytags[i],i,wordStarts[i],currentFileLine,buffer);
 			}
 			else if (!stricmp(tags[i],(char*)"WDT")) 
@@ -3453,7 +3465,6 @@ static void C_WikiText(char* ptr)
 	{	
 		if (!strncmp(readBuffer,(char*)"xxmarkxx",8)) // debug marker during testing
 		{
-			int xx = 0;
 			continue;
 		}
 		++lines;
@@ -6035,10 +6046,6 @@ static void FindConceptWord(WORDP D, uint64 pattern)
 	char* prefix = (char*) pattern;
 	if (D->internalBits & CONCEPT && !(D->internalBits & TOPIC))
 	{
-		if (!stricmp(D->word,"~state_abbreviations"))
-		{
-			int xx = 0;
-		}
 		if (!*prefix) Log(STDTRACELOG,(char*)"%s\r\n",D->word);
 		else if ( MatchesPattern(D->word,prefix)) Log(STDTRACELOG,(char*)"%s\r\n",D->word);
 	}
@@ -8566,10 +8573,6 @@ static void C_TranslateConcept(char* input) // give the language & filename to w
 				WORDP D = FindWord(name); // find this 
 				if (D && !(D->internalBits & (BUILD1|BUILD0))) break; // needs to not be from base system
 				strcpy(conceptname,name);
-				if (!stricmp(conceptname,"~fishes"))
-				{
-					int xx = 0;
-				}
 			}
 			MakeUpperCase(name);
 			strcat(output,name);

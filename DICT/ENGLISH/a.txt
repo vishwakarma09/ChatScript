@@ -2893,13 +2893,13 @@
     agitation~5nz (^psychological_condition~1) a mental state of extreme emotional disturbance
  about_turn ( meanings=1 NOUN NOUN_SINGULAR ) 
     about-face~2n 
- about ( meanings=8 PARTICLE PREPOSITION CONDITIONAL_IDIOM ADJECTIVE_ONLY_PREDICATE ADJECTIVE_NOT_PREDICATE COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:ADVERB posdefault:PREPOSITION  poscondition=?1=R ) 
-    some~5z 
-    around~3z 
-    around~7z 
-    around~9z 
-    around~10z 
-    almost~1z 
+ about ( meanings=8 PARTICLE ADVERB PREPOSITION CONDITIONAL_IDIOM ADJECTIVE_ONLY_PREDICATE ADJECTIVE_NOT_PREDICATE COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:ADVERB posdefault:PREPOSITION  poscondition=?1=R ) 
+    some~5 
+    around~3 
+    around~7 
+    around~9 
+    around~10 
+    almost~1 
     about~7z 
     about~8z 
  alleviation ( meanings=2 NOUN NOUN_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER posdefault:NOUN ) 
@@ -3108,7 +3108,7 @@
  all ( meanings=6 glosses=2 PRONOUN_SUBJECT PRONOUN_OBJECT ADJECTIVE ADVERB PREDETERMINER DETERMINER ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON4 COMMON2 COMMON1 PRONOUN_INDIRECTOBJECT KINDERGARTEN DETERMINER_PLURAL PRONOUN_SINGULAR PRONOUN_PLURAL posdefault:ADVERB OMITTABLE_TIME_PREPOSITION ) 
     all~1az completely given to or absorbed by
     all~2az quantifier
-    completely~1z 
+    completely~1 
     all~4z 
     all~5z 
     all~6z 
@@ -8082,8 +8082,8 @@
     stabilizer_bar~1n 
  after_part ( meanings=1 NOUN NOUN_SINGULAR ) 
     stern~1n 
- after ( meanings=4 glosses=1 MORE_FORM PARTICLE PREPOSITION CONJUNCTION_SUBORDINATE ADJECTIVE_NOT_PREDICATE COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:PREPOSITION TIMEWORD OF_PROPER TIME_ADVERB DISTANCE_ADVERB ) comparative=aft 
-    afterwards~1z 
+ after ( meanings=4 glosses=1 MORE_FORM PARTICLE ADVERB PREPOSITION CONJUNCTION_SUBORDINATE ADJECTIVE_NOT_PREDICATE COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:PREPOSITION TIMEWORD OF_PROPER TIME_ADVERB DISTANCE_ADVERB ) comparative=aft 
+    afterwards~1 
     after~2z behind or in the rear
     after~3z 
     after~4z 
@@ -10256,7 +10256,7 @@
     false~3a 
  alias ( meanings=2 NOUN ADVERB NOUN_SINGULAR COMMON4 NOUN_NODETERMINER posdefault:NOUN ) 
     assumed_name~2n 
-    a.k.a.~1z 
+    a.k.a.~1 
  anonym ( meanings=1 NOUN NOUN_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER ) 
     pseudonym~1n 
  author_'s_name ( meanings=1 NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 
@@ -10349,7 +10349,7 @@
     Adonic~1nz (^verse~2) a verse line with a dactyl followed by a spondee or trochee
  antistrophe ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON1 posdefault:NOUN ) 
     antistrophe~1nz (^stanza~1) the section of a choral ode answering a previous strophe in classical Greek drama
- above ( meanings=5 glosses=3 PARTICLE ADJECTIVE PREPOSITION ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
+ above ( meanings=5 glosses=3 PARTICLE ADJECTIVE ADVERB PREPOSITION ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
     above~1az appearing earlier in the same text
     above~2az 
     supra~1z at an earlier place
@@ -10540,12 +10540,12 @@
  aside ( meanings=9 glosses=2 NOUN_ABSTRACT PARTICLE NOUN ADVERB PREPOSITION NOUN_SINGULAR COMMON4 COMMON1 posdefault:ADVERB ) 
     divagation~2n 
     aside~2nz (^speech~3) a line spoken by an actor to the audience but not intended for others on the stage
-    apart~3z 
-    away~6z 
+    apart~3 
+    away~6 
     aside~5z on or to one side
-    away~7z 
-    apart~7z 
-    away~10z 
+    away~7 
+    apart~7 
+    away~10 
     aside~9z 
  antecedent ( meanings=5 glosses=4 NOUN_ABSTRACT NOUN ADJECTIVE ADJECTIVE_NORMAL NOUN_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER posdefault:ADJECTIVE ) 
     antecedent~1nz (^referent~3) the referent of an anaphor
@@ -19167,7 +19167,7 @@
     ascariasis~1nz (^infestation~2) infestation of the human intestine with Ascaris roundworms
  altogether ( meanings=4 glosses=2 NOUN ADVERB NOUN_SINGULAR COMMON4 GRADE3_4 posdefault:ADVERB ) 
     raw~1n 
-    all~3z 
+    all~3 
     in_all~1z with everything included or counted
     on_the_whole~1z with everything considered 
  alopecia ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 COMMON1 posdefault:NOUN ) 
@@ -20572,13 +20572,13 @@
     areal~1az of or relating to or involving an area
  aloud ( meanings=2 glosses=1 ADVERB COMMON4 KINDERGARTEN posdefault:ADVERB ) 
     out_loud~1z using the voice
-    loudly~1z 
+    loudly~1 
  ate ( VERB_PAST VERB COMMON4 KINDERGARTEN posdefault:VERB ) conjugate=eat 
  afterwards ( meanings=1 glosses=1 ADVERB COMMON4 KINDERGARTEN posdefault:ADVERB TIMEWORD ) 
     later_on~1z happening at a time subsequent to a reference time
  already ( meanings=1 glosses=1 ADVERB COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB TIMEWORD ) 
     already~1z prior to a specified or implied time
- ago ( meanings=2 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB TIMEWORD TIME_ADVERB ) 
+ ago ( meanings=2 glosses=1 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB TIMEWORD TIME_ADVERB ) 
     ago~1az 
     ago~2z in the past
  annually ( meanings=2 glosses=2 ADVERB COMMON4 KINDERGARTEN posdefault:ADVERB TIMEWORD ) 
@@ -20991,8 +20991,8 @@
     seize~6v 
  apropos ( meanings=4 glosses=1 ADJECTIVE ADVERB PREPOSITION ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON2 COMMON1 posdefault:ADVERB ) 
     apropos~1az of an appropriate or pertinent nature
-    by_the_bye~1z 
-    timely~4z 
+    by_the_bye~1 
+    timely~4 
     apropos~4z 
  apposite ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 posdefault:ADJECTIVE ) 
     apt~1a 
@@ -21270,7 +21270,7 @@
  amidship ( meanings=3 glosses=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON1 ) 
     amidship~1az located in the middle part of a ship or aircraft
     amidship~2z at or near or toward the middle
-    amidships~1z 
+    amidships~1 
  ambivalent ( meanings=2 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:ADJECTIVE ) 
     ambivalent~1az uncertain or unable to decide about what course to follow
     ambivalent~2az 
@@ -21347,7 +21347,7 @@
     anserine~2az of or resembling a goose
  anticlockwise ( meanings=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON2 posdefault:ADJECTIVE posdefault:ADVERB ) 
     counterclockwise~1a 
-    counterclockwise~2z 
+    counterclockwise~2 
  adjacent ( meanings=4 glosses=2 ADJECTIVE ADJECTIVE_NORMAL COMMON4 GRADE3_4 posdefault:ADJECTIVE ) 
     adjacent~1az near or close to but not necessarily touching
     next~2a 
@@ -21425,7 +21425,7 @@
     only~1az exclusive of anyone or anything else
     alone~3az isolated from others
     lone~3a 
-    only~5z 
+    only~5 
     unaccompanied~4z without anybody else or anything else
  agonistical ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     agonistic~2az striving to overcome in argument
@@ -21814,8 +21814,8 @@
     aftershafted~1az having an aftershaft
  all_over ( meanings=4 ADJECTIVE ADVERB PREPOSITION ADJECTIVE_NORMAL CONDITIONAL_IDIOM ADJECTIVE_NOT_PREDICATE NON_COMPLEMENT_ADJECTIVE  poscondition=?[NPAd]=p?=R ) 
     ended~1a 
-    everywhere~1z 
-    over~1z 
+    everywhere~1 
+    over~1 
     all_over~4z 
  archetypal ( meanings=2 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:ADJECTIVE ) 
     archetypical~1a 
@@ -21869,7 +21869,7 @@
     apple-scented~1az smelling of apples
  at_large ( meanings=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_ONLY_PREDICATE ADJECTIVE_NOT_PREDICATE posdefault:ADVERB ) 
     loose~7a 
-    in_a_broad_way~1z 
+    in_a_broad_way~1 
  aweigh ( meanings=2 glosses=2 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
     atrip~1az just clear of the bottom
     aweigh~2az hanging clear of the bottom
@@ -21903,14 +21903,14 @@
     air-filled~1az full of air
  amiss ( meanings=4 glosses=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_ONLY_PREDICATE ADJECTIVE_NOT_PREDICATE COMMON2 COMMON1 posdefault:NOUN posdefault:ADVERB ) 
     haywire~2a 
-    imperfectly~1z 
+    imperfectly~1 
     amiss~3z in an improper or mistaken or unfortunate manner
     awry~3z away from the correct or expected course
  awry ( meanings=4 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_ONLY_PREDICATE ADJECTIVE_NOT_PREDICATE COMMON2 COMMON1 posdefault:ADVERB ) 
     amiss~1a 
     askew~1a 
-    amiss~4z 
-    askew~2z 
+    amiss~4 
+    askew~2 
  accoutered ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
     accoutred~1az provided with necessary articles of equipment for a specialized purpose 
  accoutred ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 posdefault:VERB ) 
@@ -22012,7 +22012,7 @@
     tipped~1a 
  aslant ( meanings=4 glosses=1 ADJECTIVE ADVERB PREPOSITION ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON2 posdefault:ADVERB ) 
     sloping~2a 
-    obliquely~1z 
+    obliquely~1 
     aslant~3z over or across in a slanting direction
     aslant~4z 
  aslope ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
@@ -22162,7 +22162,7 @@
  alike ( meanings=3 glosses=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_ONLY_PREDICATE ADJECTIVE_NOT_PREDICATE COMMON4 KINDERGARTEN posdefault:ADVERB ) 
     like~4az having the same or similar characteristics
     alike~2z in a like manner
-    likewise~2z 
+    likewise~2 
  analogical ( meanings=2 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 posdefault:ADJECTIVE ) 
     analogical~1az expressing, composed of, or based on an analogy
     analogical~2az 
@@ -22262,10 +22262,10 @@
     touching~3a 
  ahorse ( meanings=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_ONLY_PREDICATE ADJECTIVE_NOT_PREDICATE COMMON1 ) 
     ahorseback~1a 
-    horseback~3z 
+    horseback~3 
  ahorseback ( meanings=2 glosses=1 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_ONLY_PREDICATE ADJECTIVE_NOT_PREDICATE COMMON1 ) 
     ahorse~1az traveling on horseback
-    ahorse~2z 
+    ahorse~2 
  awheel ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
     awheel~1az traveling by wheeled vehicle such as bicycle or automobile e.g.
  arranged ( meanings=3 glosses=3 ADJECTIVE ADJECTIVE_NORMAL COMMON4 posdefault:VERB ) 
@@ -22344,7 +22344,7 @@
     antiheretical~1az opposed to heresy
  alfresco ( meanings=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL COMMON2 ) 
     open-air~1a 
-    outdoors~2z 
+    outdoors~2 
  after-school ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE posdefault:ADJECTIVE ) 
     after-school~1az outside regular school hours
  ariled ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
@@ -22636,12 +22636,12 @@
     another~4z 
  amuck ( meanings=3 glosses=1 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON2 ) 
     possessed~2a 
-    amok~2z 
+    amok~2 
     amok~3z wildly
  amok ( meanings=3 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON2 COMMON1 posdefault:ADVERB ) 
     amuck~1a 
-    murderously~1z 
-    amuck~3z 
+    murderously~1 
+    amuck~3 
  around_the_bend ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
     round_the_bend~1a 
  around ( meanings=11 glosses=10 PARTICLE ADVERB PREPOSITION COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:ADVERB posdefault:PREPOSITION ) 
@@ -22658,9 +22658,9 @@
     around~11z 
  all_right ( meanings=4 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE posdefault:ADVERB ) 
     okay~2a 
-    okay~4z 
-    OK~3z 
-    alright~5z 
+    okay~4 
+    OK~3 
+    alright~5 
  alright ( meanings=5 glosses=4 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON4 KINDERGARTEN posdefault:ADJECTIVE posdefault:ADVERB ) 
     alright~1az nonstandard usage
     alright~2az 
@@ -22679,7 +22679,7 @@
     alluring~2az 
  asunder ( meanings=2 glosses=1 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_ONLY_PREDICATE COMMON2 COMMON1 posdefault:ADVERB ) 
     asunder~1az widely separated especially in space
-    apart~4z 
+    apart~4 
  aseptic ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:ADJECTIVE ) 
     sterile~3a 
  adulterating ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 posdefault:VERB ) 
@@ -22785,7 +22785,7 @@
     bowed~4az forming or resembling an arch
  aboveboard ( meanings=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON2 ) 
     straightforward~4a 
-    honestly~1z 
+    honestly~1 
  accented ( meanings=2 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:VERB ) 
     stressed~1a 
     tonic~6a 
@@ -22889,7 +22889,7 @@
     anticlimactic~3az 
  ahead ( meanings=8 glosses=7 PARTICLE ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_ONLY_PREDICATE ADJECTIVE_NOT_PREDICATE COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB DISTANCE_ADVERB ADJECTIVE_TAKING_NOUN_INFINITIVE ) 
     in_the_lead~1az having the leading position or higher score in a contest
-    before~2z 
+    before~2 
     in_advance~2z ahead of time
     forrader~1z in a forward direction
     out_front~1z leading or ahead in a competition
@@ -23973,7 +23973,7 @@
     asialo~1az 
  abaft ( meanings=3 ADJECTIVE ADVERB PREPOSITION ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON2 ) 
     abaft~1az 
-    aft~2z 
+    aft~2 
     abaft~3z 
  abased ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:VERB ) 
     abased~1az 
@@ -24401,9 +24401,9 @@
     as~2z 
     as~3z 
  AD ( meanings=1 ADVERB COMMON2 COMMON1 ) 
-    A.D.~1z 
+    A.D.~1 
  A.D. ( meanings=1 ADVERB ) 
-    anno_Domini~1z 
+    anno_Domini~1 
  anno_Domini ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     AD~1z 
  anisotropically ( meanings=1 glosses=1 ADVERB COMMON1 ) 
@@ -24422,12 +24422,12 @@
  appreciably ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     appreciably~1z to a noticeable degree
  approximately ( meanings=1 ADVERB COMMON4 COMMON1 posdefault:ADVERB ) 
-    about~1z 
+    about~1 
  absolutely ( meanings=2 glosses=1 ADVERB COMMON4 COMMON1 posdefault:ADVERB ) 
     absolutely~1z totally and definitely
-    dead~21z 
+    dead~21 
  advantageously ( meanings=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    well~17z 
+    well~17 
     advantageously~2z 
  always ( meanings=5 glosses=5 ADVERB COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
     ever~1z at all times
@@ -24436,89 +24436,89 @@
     incessantly~1z without interruption
     invariably~1z without variation or change, in every case
  at_times ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    now_and_again~1z 
+    now_and_again~1 
  anywhere ( meanings=1 glosses=1 ADVERB COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
     anyplace~1z at or in or to any place
  anyplace ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    anywhere~1z 
+    anywhere~1 
  anyhow ( meanings=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    anyway~1z 
-    anyway~2z 
+    anyway~1 
+    anyway~2 
  anyway ( meanings=2 glosses=1 ADVERB COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
-    anyways~1z 
+    anyways~1 
     anyhow~2z in any way whatsoever
  anyways ( meanings=1 glosses=1 ADVERB COMMON4 KINDERGARTEN ) 
     in_any_event~1z used to indicate that a statement explains or supports a previous statement
  at_any_rate ( meanings=2 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    in_any_case~1z 
+    in_any_case~1 
     leastwise~1z 
  as_it_is ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?!V=R ) 
     as_it_is~1z 
  all_the_same ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    withal~1z 
+    withal~1 
  as_yet ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    heretofore~1z 
+    heretofore~1 
  anymore ( meanings=1 glosses=1 ADVERB COMMON4 KINDERGARTEN posdefault:ADVERB ) 
     any_longer~1z at the present or from now on
  any_longer ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    anymore~1z 
+    anymore~1 
  a_bit ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?![TNP]=R ) 
-    a_little~1z 
+    a_little~1 
  a_little ( meanings=2 ADVERB DETERMINER CONDITIONAL_IDIOM KINDERGARTEN posdefault:ADVERB  poscondition=?[AN]=A?![TN]=R ) 
     a_trifle~1z 
     a_little~2z 
  a_trifle ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    a_bit~1z 
+    a_bit~1 
  anon ( meanings=2 glosses=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     anon~1z in a little while
     anon~2z at another time
  ASAP ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     ASAP~1z as soon as possible
  as_such ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    per_se~1z 
+    per_se~1 
  apparently ( meanings=2 ADVERB COMMON4 COMMON1 posdefault:ADVERB ) 
-    patently~1z 
-    ostensibly~1z 
+    patently~1 
+    ostensibly~1 
  again ( meanings=1 glosses=1 ADVERB COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
     over_again~1z anew
  accidentally ( meanings=3 glosses=2 ADVERB COMMON4 GRADE5_6 posdefault:ADVERB ) 
     unexpectedly~1z without advance planning
     unintentionally~1z without intention
-    incidentally~2z 
+    incidentally~2 
  as_luck_would_have_it ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    luckily~1z 
+    luckily~1 
  alas ( meanings=1 ADVERB COMMON2 COMMON1 ) 
-    regrettably~1z 
+    regrettably~1 
  additionally ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     to_boot~1z in addition, by way of addition
  also ( meanings=1 ADVERB COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
-    besides~2z 
+    besides~2 
  as_well ( meanings=2 ADVERB PREPOSITION CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?[NPAd]=p?=R ) 
-    too~2z 
+    too~2 
     as_well~2z 
  at_last ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    in_the_end~1z 
+    in_the_end~1 
  at_long_last ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    at_last~1z 
+    at_last~1 
  at_once ( meanings=2 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    right_away~1z 
-    at_one_time~2z 
+    right_away~1 
+    at_one_time~2 
  at_present ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    now~5z 
+    now~5 
  aggressively ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     sharply~1z in an aggressive manner
  awfully ( meanings=3 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    terribly~1z 
-    atrociously~1z 
-    dreadfully~1z 
+    terribly~1 
+    atrociously~1 
+    dreadfully~1 
  atrociously ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     rottenly~1z in a terrible manner
-    outrageously~1z 
+    outrageously~1 
  abominably ( meanings=2 ADVERB COMMON2 posdefault:ADVERB ) 
-    terribly~2z 
-    detestably~1z 
+    terribly~2 
+    detestably~1 
  abysmally ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    abominably~1z 
+    abominably~1 
  acceptably ( meanings=2 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     tolerably~1z in an acceptable manner
     acceptably~2z 
@@ -24531,45 +24531,45 @@
  adroitly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     adroitly~1z with adroitness
  at_all ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    in_the_least~1z 
+    in_the_least~1 
  a_lot ( meanings=1 ADVERB CONDITIONAL_IDIOM KINDERGARTEN posdefault:ADVERB ADJECTIVE_GOOD_SUBJECT_COMPLEMENT  poscondition=?![TNP]=R ) 
     very_much~1z 
  a_good_deal ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    much~5z 
+    much~5 
  a_great_deal ( meanings=2 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    a_good_deal~1z 
-    much~6z 
+    a_good_deal~1 
+    much~6 
  antecedently ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     previously~1z at an earlier time or formerly
  afterward ( meanings=1 ADVERB COMMON4 GRADE3_4 posdefault:ADVERB ) 
-    subsequently~1z 
+    subsequently~1 
  abruptly ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    dead~22z 
+    dead~22 
  all_of_a_sudden ( meanings=2 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R?=R ) 
-    suddenly~2z 
+    suddenly~2 
     all_at_once~1z 
  advisedly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    purposely~1z 
+    purposely~1 
  accordingly ( meanings=2 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    consequently~1z 
+    consequently~1 
     accordingly~2z in accordance with
  alternatively ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    instead~1z 
+    instead~1 
  a_fortiori ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
     a_fortiori~1z 
  all_told ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    altogether~3z 
+    altogether~3 
  all_together ( meanings=2 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     all_together~1z 
     all_at_once~2z 
  anatomically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     anatomically~1z with respect to anatomy
  at_length ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    lengthily~1z 
+    lengthily~1 
  absently ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    inattentively~1z 
+    inattentively~1 
  abstractedly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    absentmindedly~1z 
+    absentmindedly~1 
  absentmindedly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     absently~1z in an absentminded or preoccupied manner
  accusingly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -24579,7 +24579,7 @@
  affectingly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     touchingly~1z in a poignant or touching manner
  all_along ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    right_along~1z 
+    right_along~1 
  along ( meanings=6 glosses=5 PARTICLE ADVERB PREPOSITION COMMON4 COMMON1 KINDERGARTEN posdefault:PREPOSITION ) 
     along~1z with a forward motion
     along~2z in accompaniment or as a companion
@@ -24590,9 +24590,9 @@
  analogously ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     analogously~1z in an analogous manner
  arbitrarily ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    willy-nilly~1z 
+    willy-nilly~1 
  at_random ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    arbitrarily~1z 
+    arbitrarily~1 
  almost ( meanings=1 glosses=1 ADVERB EXTENT_ADVERB COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
     well-nigh~1z slightly short of or not quite accomplished
  asexually ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -24610,90 +24610,90 @@
  axially ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     axially~1z with respect to an axis
  affectionately ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    dearly~2z 
+    dearly~2 
  actively ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     actively~1z in an active manner
  at_a_lower_place ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    beneath~1z 
+    beneath~1 
  apace ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    chop-chop~1z 
+    chop-chop~1 
  allowably ( meanings=1 ADVERB COMMON1 ) 
-    permissibly~1z 
+    permissibly~1 
  ad_infinitum ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
     ad_infinitum~1z 
  ad_interim ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     ad_interim~1z 
  ad_lib ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    spontaneously~1z 
+    spontaneously~1 
  ad_libitum ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    ad_lib~1z 
+    ad_lib~1 
  amusingly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    divertingly~1z 
+    divertingly~1 
  against_the_wind ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     into_the_wind~1z 
  against ( meanings=1 PARTICLE PREPOSITION COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:PREPOSITION ) 
     against~1z 
  ahead_of_time ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    early~7z 
+    early~7 
  afar ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 GRADE5_6 posdefault:ADVERB ) 
     afar~1z at or from or to a great distance
  ab_initio ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    initially~1z 
+    initially~1 
  at_first_sight ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    at_first_glance~1z 
+    at_first_glance~1 
  at_first_glance ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     at_first_sight~1z 
  at_first_blush ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    when_first_seen~1z 
+    when_first_seen~1 
  and_so_forth ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
     and_so_on~1z 
  and ( meanings=1 CONJUNCTION_COORDINATE COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:PREPOSITION ) 
     and~1z 
  and_so_on ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    etc.~2z 
+    etc.~2 
  at_heart ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    inside~8z 
+    inside~8 
  at_bottom ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    at_heart~1z 
+    at_heart~1 
  at_least ( meanings=3 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?[1]=R?d=R ) 
-    at_the_least~1z 
-    at_any_rate~2z 
+    at_the_least~1 
+    at_any_rate~2 
     at_least~3z 
  at_the_least ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     at_least~1z 
  at_most ( meanings=2 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?[1]=R?d=R ) 
-    at_the_most~1z 
+    at_the_most~1 
     at_most~2z 
  at_the_most ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     at_most~1z 
  at_leisure ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    leisurely~2z 
+    leisurely~2 
  at_best ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    at_the_best~1z 
+    at_the_best~1 
  at_the_best ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     at_best~1z 
  at_worst ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    at_the_worst~1z 
+    at_the_worst~1 
  at_the_worst ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     at_worst~1z 
  as_usual ( meanings=2 glosses=1 ADVERB PREPOSITION posdefault:ADVERB ) 
     as_usual~1z in the usual manner
     as_usual~2z 
  at_that_place ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    in_that_location~1z 
+    in_that_location~1 
  afresh ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     anew~1z again but in a new or different way
  anew ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    afresh~1z 
+    afresh~1 
  and_so ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    so~4z 
+    so~4 
  and_then ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    and_so~1z 
+    and_so~1 
  at_one_time ( meanings=2 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    formerly~1z 
+    formerly~1 
     at_a_time~1z 
  as_far_as_possible ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    as_much_as_possible~1z 
+    as_much_as_possible~1 
  as_much_as_possible ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     as_far_as_possible~1z 
  at_the_same_time ( meanings=2 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
@@ -24702,13 +24702,13 @@
  academically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     academically~1z in regard to academic matters
  appositively ( meanings=1 ADVERB COMMON1 ) 
-    in_apposition~1z 
+    in_apposition~1 
  astronomically ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     astronomically~1z enormously
  axiomatically ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     axiomatically~1z on the basis of axioms
  atypically ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    untypically~1z 
+    untypically~1 
  as_if_by_magic ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     magically~1z 
  algebraically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -24727,24 +24727,24 @@
  appropriately ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     fitly~1z in an appropriate manner
  artificially ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    by_artificial_means~1z 
+    by_artificial_means~1 
  acutely ( meanings=4 glosses=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     acutely~1z having a rapid onset
-    astutely~1z 
+    astutely~1 
     acutely~3z in an acute manner
-    sharply~4z 
+    sharply~4 
  awhile ( meanings=1 glosses=1 ADVERB COMMON4 GRADE3_4 posdefault:ADVERB ) 
     for_a_while~1z for a short time
  as_a_matter_of_fact ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    in_point_of_fact~1z 
+    in_point_of_fact~1 
  actually ( meanings=4 glosses=4 ADVERB COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
     in_reality~1z used to imply that one would expect the fact to be the opposite of that stated
     really~4z in actual fact
     actually~3z as a sentence modifier to add slight emphasis
     actually~4z at the present moment
  above_all ( meanings=2 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    most_importantly~1z 
-    first_and_last~1z 
+    most_importantly~1 
+    first_and_last~1 
  across_the_board ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     across_the_board~1z 
  across ( meanings=3 glosses=2 PARTICLE ADVERB PREPOSITION COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB posdefault:PREPOSITION ) 
@@ -24761,21 +24761,21 @@
  against_the_clock ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     against_time~1z 
  against_time ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    against_the_clock~1z 
+    against_the_clock~1 
  ahead_of_the_game ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     ahead_of_the_game~1z 
  all_in_all ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    tout_ensemble~3z 
+    tout_ensemble~3 
  all_at_once ( meanings=2 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    all_of_a_sudden~2z 
-    all_together~2z 
+    all_of_a_sudden~2 
+    all_together~2 
  all_the_way ( meanings=4 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    the_whole_way~1z 
+    the_whole_way~1 
     all_the_way~2z 
-    clear~21z 
+    clear~21 
     all_the_way~4z 
  and_how ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    you_bet~1z 
+    you_bet~1 
  and_then_some ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     and_then_some~1z 
  around_the_clock ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
@@ -24783,19 +24783,19 @@
  as_follows ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     as_follows~1z 
  as_it_were ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    so_to_speak~1z 
+    so_to_speak~1 
  as_we_say ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    so_to_speak~2z 
+    so_to_speak~2 
  as_the_crow_flies ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     as_the_crow_flies~1z 
  at_all_costs ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    at_any_cost~1z 
+    at_any_cost~1 
  at_any_cost ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    at_any_expense~1z 
+    at_any_expense~1 
  at_any_expense ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     at_all_costs~1z 
  at_a_time ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    at_once~2z 
+    at_once~2 
  at_will ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     at_will~1z 
  advertently ( meanings=1 glosses=1 ADVERB COMMON1 ) 
@@ -24803,11 +24803,11 @@
  allegedly ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     allegedly~1z according to what has been alleged
  all_the_time ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    day_in_and_day_out~1z 
+    day_in_and_day_out~1 
  as_a_group ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     en_masse~1z 
  at_a_low_price ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    for_a_bargain_price~1z 
+    for_a_bargain_price~1 
  at_stake ( meanings=2 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     at_stake~1z 
     at_stake~2z 
@@ -24816,29 +24816,29 @@
  apologetically ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     apologetically~1z in an apologetic manner
  asymmetrically ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    unsymmetrically~1z 
+    unsymmetrically~1 
  again_and_again ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    over_and_over_again~1z 
+    over_and_over_again~1 
  adamantly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     adamantly~1z inflexibly
  amply ( meanings=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    fully~2z 
-    richly~3z 
+    fully~2 
+    richly~3 
  as_needed ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    as_required~1z 
+    as_required~1 
  as_required ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     PRN~1z 
  admittedly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    true~14z 
+    true~14 
  avowedly ( meanings=2 ADVERB COMMON2 posdefault:ADVERB ) 
-    admittedly~1z 
-    professedly~2z 
+    admittedly~1 
+    professedly~2 
  aptly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    competently~1z 
+    competently~1 
  ably ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    aptly~1z 
+    aptly~1 
  anxiously ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    uneasily~1z 
+    uneasily~1 
  apprehensively ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     anxiously~1z with anxiety or apprehension
  agilely ( meanings=1 glosses=1 ADVERB COMMON1 ) 
@@ -24860,7 +24860,7 @@
     autocratically~1z in an autocratic manner
     dictatorially~1z in an overbearingly domineering manner
  aright ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    correctly~1z 
+    correctly~1 
  accurately ( meanings=2 glosses=2 ADVERB COMMON4 posdefault:ADVERB ) 
     accurately~1z with few mistakes
     accurately~2z strictly correctly
@@ -24868,25 +24868,25 @@
     aimlessly~1z without aim
  astray ( meanings=2 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     astray~1z away from the right path or direction
-    wide~11z 
+    wide~11 
  amazingly ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    astonishingly~1z 
+    astonishingly~1 
  astonishingly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     surprisingly~2z in an amazing manner
  amateurishly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     amateurishly~1z in an amateurish manner
  abundantly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    extravagantly~2z 
+    extravagantly~2 
  auspiciously ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     propitiously~1z in an auspicious manner
  admirably ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    praiseworthily~1z 
+    praiseworthily~1 
  agreeably ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    pleasantly~1z 
+    pleasantly~1 
  affably ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    amiably~1z 
+    amiably~1 
  amiably ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    genially~1z 
+    genially~1 
  ambiguously ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     equivocally~1z in an ambiguous manner
  abnormally ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -24902,7 +24902,7 @@
  atonally ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     atonally~1z without tonality
  apiece ( meanings=1 ADVERB COMMON2 COMMON1 GRADE3_4 posdefault:ADVERB ) 
-    from_each_one~1z 
+    from_each_one~1 
  analytically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     analytically~1z by virtue of analysis
  anarchically ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
@@ -24913,8 +24913,8 @@
     beautifully~1z in a beautiful manner
  artfully ( meanings=3 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     artfully~1z in an artful manner
-    craftily~1z 
-    disingenuously~1z 
+    craftily~1 
+    disingenuously~1 
  artistically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     artistically~1z in an artistic manner
  at_arm_'s_length ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
@@ -24926,19 +24926,19 @@
     alongside~1z side by side
     aboard~5z 
  alongside ( meanings=2 ADVERB PREPOSITION COMMON4 posdefault:ADVERB posdefault:PREPOSITION ) 
-    aboard~4z 
+    aboard~4 
     alongside~2z 
  all_too ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    only_too~1z 
+    only_too~1 
  ad_nauseam ( meanings=2 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
     ad_nauseam~1z 
     ad_nauseam~2z 
  ad_val ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    ad_valorem~1z 
+    ad_valorem~1 
  ad_valorem ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     ad_val~1z 
  A.M. ( meanings=1 ADVERB ) 
-    ante_meridiem~2z 
+    ante_meridiem~2 
  at_an_equal_rate ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     pari_passu~1z 
  as_a_formality ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
@@ -24948,7 +24948,7 @@
  aesthetically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     esthetically~1z in a tasteful way
  agonizingly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    excruciatingly~1z 
+    excruciatingly~1 
  appallingly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     appallingly~1z to an appalling extent
  appealingly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -24956,7 +24956,7 @@
  approvingly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     approvingly~1z in an approving manner
  ambitiously ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    determinedly~2z 
+    determinedly~2 
  amicably ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     amicably~1z in an amicable manner
  anonymously ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -24964,11 +24964,11 @@
  afield ( meanings=3 glosses=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     afield~1z off the subject
     afield~2z in or into a field 
-    abroad~4z 
+    abroad~4 
  animatedly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     animatedly~1z in an animated manner
  abjectly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    resignedly~1z 
+    resignedly~1 
  abortively ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     abortively~1z in an unfruitful manner
  abstemiously ( meanings=1 glosses=1 ADVERB COMMON1 ) 
@@ -24978,7 +24978,7 @@
  administratively ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     administratively~1z by or for an administrator
  adorably ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    endearingly~1z 
+    endearingly~1 
  antagonistically ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     antagonistically~1z in an antagonistic manner
     antagonistically~2z 
@@ -25028,7 +25028,7 @@
  alertly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     alertly~1z in mentally perceptive and responsive way
  a.k.a. ( meanings=1 ADVERB COMMON1 posdefault:NOUN ) 
-    also_known_as~1z 
+    also_known_as~1 
  also_known_as ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     alias~2z 
  alliteratively ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
@@ -25057,17 +25057,17 @@
  arduously ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     arduously~1z in an arduous manner
  artlessly ( meanings=2 ADVERB COMMON1 posdefault:ADVERB ) 
-    ingenuously~1z 
-    inexpertly~1z 
+    ingenuously~1 
+    inexpertly~1 
  athwart ( meanings=2 glosses=1 ADVERB COMMON2 ) 
-    aslant~2z 
+    aslant~2 
     athwart~2z at right angles to the center line of a ship
  astern ( meanings=3 glosses=2 ADVERB COMMON2 posdefault:ADVERB ) 
     astern~1z behind
-    abaft~2z 
+    abaft~2 
     astern~3z stern foremost or backward
  astride ( meanings=3 glosses=1 ADVERB PREPOSITION COMMON2 COMMON1 posdefault:ADVERB posdefault:PREPOSITION ) 
-    astraddle~1z 
+    astraddle~1 
     astride~2z with the legs stretched far apart
     astride~3z 
  astraddle ( meanings=2 glosses=1 ADVERB PREPOSITION COMMON1 ) 
@@ -25089,21 +25089,21 @@
  at_first_hand ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     firsthand~2z 
  airily ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    flippantly~1z 
+    flippantly~1 
  amorally ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    immorally~1z 
+    immorally~1 
  adequately ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     adequately~1z in an adequate manner or to an adequate degree
  amidships ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     midships~1z at or near or toward the center of a ship
  across_the_nation ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    nationally~2z 
+    nationally~2 
  across_the_country ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     nationwide~2z 
  at_close_range ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     close_up~1z 
  asea ( meanings=1 ADVERB COMMON1 ) 
-    seaward~5z 
+    seaward~5 
  aloft ( meanings=4 glosses=4 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     aloft~1z in the higher atmosphere above the earth
     aloft~2z at or to great height

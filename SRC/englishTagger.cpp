@@ -375,7 +375,7 @@ static void TreeTagger()
 	}
 	ts.number_of_words = wordCount;
 	tag_sentence(0, &ts);
-	if (trace & (TRACE_PREPARE|TRACE_POS|TRACE_TREETAGGER)) Log(STDTRACELOG, "External Tagging:\r\n");
+	if (trace & (TRACE_PREPARE | TRACE_POS | TRACE_TREETAGGER)) Log(STDTRACELOG, "External Tagging:\r\n");
 
 	bool chunk = strstr(treetaggerParams, "chunk");
 	if (chunk) // do chunking here but marking later
@@ -392,12 +392,12 @@ static void TreeTagger()
 		for (i = 0; i < wordCount; ++i)
 		{
 			char status = *(strrchr((char*)tschunk.resulttag[i], '/') + 1);
-			char* kind = strrchr((char*)tschunk.resulttag[i], '-')+1;
+			char* kind = strrchr((char*)tschunk.resulttag[i], '-') + 1;
 			if (status == 'I') continue; // continue a chunk
 			if (starter >= 0) // just ended a chunk
 			{
-				if (trace & (TRACE_PREPARE | TRACE_TREETAGGER)) Log(STDTRACELOG, (char*)"(%s) %s..%s \r\n",type, wordStarts[starter+1],wordStarts[i]);
-				MarkMeaningAndImplications(0,0, MakeMeaning(StoreWord(type)), starter + 1, i);
+				if (trace & (TRACE_PREPARE | TRACE_TREETAGGER)) Log(STDTRACELOG, (char*)"(%s) %s..%s \r\n", type, wordStarts[starter + 1], wordStarts[i]);
+				MarkMeaningAndImplications(0, 0, MakeMeaning(StoreWord(type)), starter + 1, i);
 				starter = 0;
 			}
 			if (status == 'B') // begin a chunk
@@ -408,14 +408,44 @@ static void TreeTagger()
 		}
 		if (starter >= 0) // just ended a chunk
 		{
-			if (trace & (TRACE_PREPARE | TRACE_TREETAGGER)) Log(STDTRACELOG, (char*)"(%s) %s..%s\r\n", type,wordStarts[starter+1], wordStarts[wordCount]);
-			MarkMeaningAndImplications(0,0, MakeMeaning(StoreWord(type)), starter + 1, wordCount); 
+			if (trace & (TRACE_PREPARE | TRACE_TREETAGGER)) Log(STDTRACELOG, (char*)"(%s) %s..%s\r\n", type, wordStarts[starter + 1], wordStarts[wordCount]);
+			MarkMeaningAndImplications(0, 0, MakeMeaning(StoreWord(type)), starter + 1, wordCount);
 		}
 	}
+
+	// set up arrays with TT results in case they are to be adjusted
+	char newtag[MAX_WORD_SIZE];
+	for (i = 1; i <= wordCount; i++)
+	{
+		WORDP canonical = NULL;
+		char* lemma = (char*)ts.lemma[i - 1];
+		if (!lemma || !strcmp(lemma, "<unknown>")) lemma = (char*)"unknown-word";
+		if (strcmp(lemma, "@card@")) { // leave special card canonical alone, preserving the original number 
+			canonical = StoreWord(lemma, 0);
+			wordCanonical[i] = canonical->word;
+		}
+		else
+		{
+			canonical = StoreWord(wordCanonical[i], 0); // make sure the canonical word exists
+		}
+
+		char* tag = (char*)ts.resulttag[i - 1];
+		if (!tag) tag = (char*)"unknown-tag";
+		*newtag = '~';	// concept from the tag
+		strcpy(newtag + 1, tag);
+		WORDP tagword = FindWord(newtag);
+		if (!tagword)
+		{
+			strcpy(newtag + 1, (char*)"unknown-tag");
+			tagword = FindWord(newtag);
+		}
+		wordTag[i] = tagword;
+	}
+
 	// TreeTagger results may need a bit of tweaking, so gambit a topic
 	char* taggingTopic = GetUserVariable((char*)"$cs_externaltag");
 	if (*taggingTopic)
-	{ 
+	{
 		char* oldhow = howTopic;
 		howTopic = "gambit";
 
@@ -448,38 +478,12 @@ static void TreeTagger()
 		originalUpper[i] = NULL;
 		originalLower[i] = NULL;
 
-		WORDP canonical0 = NULL;
-		// Canonicals are initialized to word starts
-		// but might have adjusted lemma explicitily via SetCanon() in the $cs_externaltag topic
-		if (strcmp(wordStarts[i], wordCanonical[i]))
-		{
-			canonical0 = FindWord(wordCanonical[i]);
-		}
-		if (!canonical0)
-		{
-			canonicalUpper[i] = NULL;
-			canonicalLower[i] = NULL;
-
-			char* lemma = (char*)ts.lemma[i - 1];
-			if (!lemma || !strcmp(lemma, "<unknown>")) lemma = (char*)"unknown-word";
-
-			canonical0 = StoreWord(lemma, 0);
-		}
+		// Canonicals might have adjusted lemma explicitily via SetCanon() in the $cs_externaltag topic
+		WORDP canonical0 = FindWord(wordCanonical[i]);
 
 		// Might have adjusted TT's initial tag via SetTag() in the $cs_externaltag topic
 		char newtag[MAX_WORD_SIZE];
-		if (wordTag[i])
-		{
-			strcpy(newtag, wordTag[i]->word);
-		}
-		else
-		{
-			char* tag = (char*)ts.resulttag[i-1];
-			if (!tag) tag = (char*)"unknown-tag";
-			*newtag = '~';	// concept from the tag
-			strcpy(newtag + 1, tag);
-			wordTag[i] = FindWord(newtag);
-		}
+		strcpy(newtag, wordTag[i]->word);
 		*newtag = '_';
 		WORDP X = FindWord(newtag);
 
@@ -526,7 +530,7 @@ static void TreeTagger()
 		wordCanonical[i] = canonical->word;
 		if (X) posValues[i] |= X->properties; // english pos tag references added
 	}
-	if (trace & (TRACE_PREPARE|TRACE_POS))
+	if (trace & (TRACE_PREPARE | TRACE_POS))
 	{
 		for (i = 1; i <= wordCount; i++)
 		{
@@ -534,9 +538,9 @@ static void TreeTagger()
 			if (chunk)
 			{
 				char* tag1 = (char*)tschunk.resulttag[i - 1];
-				Log(STDTRACELOG, "%s(%s %s) ", wordStarts[i], tag1, ts.lemma[i-1]);
+				Log(STDTRACELOG, "%s(%s %s) ", wordStarts[i], tag1, ts.lemma[i - 1]);
 			}
-			else Log(STDTRACELOG, "%s(%s %s) ", wordStarts[i], tag, ts.lemma[i-1]);
+			else Log(STDTRACELOG, "%s(%s %s) ", wordStarts[i], tag, ts.lemma[i - 1]);
 		}
 		Log(STDTRACELOG, "\r\n");
 	}
@@ -568,10 +572,6 @@ static void BlendWithTreetagger(bool &changed)
 		{
 			bits ^= ADJECTIVE_NORMAL;
 			bits |= DETERMINER; // I could make *other arrangements
-		}
-		if (bits & PUNCTUATION)
-		{
-			int xx = 0;
 		}
 		uint64 allowable = bits & possiblebits; // bits for this tagtype
 		if (allowable && allowable != possiblebits) // we can update choices

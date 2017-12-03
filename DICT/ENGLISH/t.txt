@@ -5020,7 +5020,7 @@
  tandem ( meanings=3 glosses=1 NOUN_ABSTRACT NOUN ADVERB NOUN_SINGULAR COMMON4 NOUN_NODETERMINER posdefault:NOUN ) 
     tandem_bicycle~1n 
     tandem~2nz (^arrangement~2) an arrangement of two or more objects or persons one behind another
-    in_tandem~1z 
+    in_tandem~1 
  trouser_clip ( meanings=1 NOUN NOUN_SINGULAR ) 
     bicycle_clip~1n 
  trouser ( meanings=2 glosses=2 NOUN NOUN_SINGULAR COMMON2 COMMON1 GRADE5_6 posdefault:NOUN ) 
@@ -7810,7 +7810,7 @@
  tout_ensemble ( meanings=3 glosses=2 NOUN_ABSTRACT NOUN ADVERB NOUN_SINGULAR ) 
     tout_ensemble~1nz (^effect~1) a total impression or effect of something made up of individual parts
     ensemble~2nz (^collection~4) an assemblage of parts or details considered as forming a whole
-    altogether~4z 
+    altogether~4 
  tout ( meanings=5 glosses=1 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR COMMON4 COMMON1 posdefault:NOUN VERB_NOOBJECT ) 
     tipster~1n 
     touter~1n 
@@ -10763,7 +10763,7 @@
     think_tank~1nz (^company~1) a company that does research for hire and issues reports on the implications
  typing_pool ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     typing_pool~1nz (^pool~4) a group of typists who can work for different persons
- there ( meanings=3 glosses=3 PARTICLE NOUN THERE_EXISTENTIAL NOUN_SINGULAR COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
+ there ( meanings=3 glosses=3 PARTICLE NOUN ADVERB THERE_EXISTENTIAL NOUN_SINGULAR COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
     there~1nz (^location~1) a location other than here
     thither~1z to or toward that place
     on_that_point~1z in that matter
@@ -12107,7 +12107,7 @@
     taut~1az pulled or drawn tight
     tight~14az set so close together as to be invulnerable to penetration
     fast~14z firmly or closely
-    closely~3z 
+    closely~3 
  tiler ( meanings=1 glosses=1 NOUN NOUN_SINGULAR COMMON2 posdefault:NOUN ) 
     tiler~1nz (^worker~2) a worker who lays tile
  timberman ( meanings=1 glosses=1 NOUN NOUN_SINGULAR COMMON1 ) 
@@ -15364,6 +15364,9 @@
     toxic_waste~1nz (^waste~5) poisonous waste materials
  taconite ( meanings=1 glosses=1 NOUN NOUN_SINGULAR COMMON2 NOUN_NODETERMINER ) 
     taconite~1nz (^chert~1) a variety of chert containing magnetite and hematite
+ thus ( meanings=2 glosses=1 ADVERB COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
+    therefore~1 
+    thusly~1z in the way indicated
  tektite ( meanings=1 glosses=1 NOUN NOUN_SINGULAR COMMON1 ) 
     tektite~1nz (^natural_glass~1) thought to derive from meteorites
  tachylite ( meanings=1 glosses=1 NOUN NOUN_SINGULAR COMMON1 ) 
@@ -15711,7 +15714,7 @@
  today ( meanings=4 glosses=3 NOUN_ABSTRACT NOUN ADVERB NOUN_SINGULAR COMMON4 COMMON2 COMMON1 NOUN_NODETERMINER KINDERGARTEN posdefault:ADVERB TIMEWORD ) 
     today~1nz (^day~4) the day that includes the present moment 
     today~2nz (^nowadays~1) the present time or age
-    now~2z 
+    now~2 
     today~4z on this day as distinct from yesterday or tomorrow
  terrestrial_time ( meanings=1 NOUN NOUN_SINGULAR ) 
     terrestrial_dynamical_time~1n 
@@ -15865,7 +15868,7 @@
     enlistment~2n 
  tour_of_duty ( meanings=1 NOUN NOUN_SINGULAR ) 
     term_of_enlistment~1n 
- then ( meanings=4 glosses=4 NOUN_ABSTRACT NOUN NOUN_SINGULAR ADJECTIVE_NOT_PREDICATE COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:ADVERB TIMEWORD ) 
+ then ( meanings=4 glosses=4 NOUN_ABSTRACT NOUN ADVERB NOUN_SINGULAR ADJECTIVE_NOT_PREDICATE COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:ADVERB TIMEWORD ) 
     then~1nz (^point~26) that time
     and_then~1z subsequently or soon afterward 
     then~3z at that time
@@ -16149,7 +16152,7 @@
     tied~5az bound together by or as if by a strong rope
  too ( meanings=2 glosses=1 ADVERB EXTENT_ADVERB COMMON4 COMMON2 KINDERGARTEN posdefault:ADVERB ) 
     to_a_fault~1z to a degree exceeding normal or proper limits
-    also~1z 
+    also~1 
  toed ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:VERB ) 
     toed~1az having a toe or toes of a specified kind
  told ( VERB_PAST VERB_PAST_PARTICIPLE VERB ADJECTIVE ADJECTIVE_PARTICIPLE COMMON4 COMMON1 KINDERGARTEN posdefault:VERB ) conjugate=tell 
@@ -16910,10 +16913,10 @@
     populous~1az 
  thickly ( meanings=5 glosses=3 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     densely~1z in a concentrated manner
-    thick~13z 
+    thick~13 
     thickly~3z spoken with poor articulation as if with a thick tongue
     thickly~4z with thickness
-    thick~14z 
+    thick~14 
  transmitted ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON4 posdefault:VERB ) 
     genetic~1a 
  torn ( meanings=2 glosses=2 VERB_PAST_PARTICIPLE VERB ADJECTIVE ADJECTIVE_NORMAL ADJECTIVE_PARTICIPLE COMMON4 KINDERGARTEN posdefault:VERB ) conjugate=tore 
@@ -17111,7 +17114,7 @@
     seasonable~2a 
     timely~2az before a time limit expires
     timely~3az 
-    well-timed~2z 
+    well-timed~2 
  threadbare ( meanings=3 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 posdefault:ADJECTIVE ) 
     shopworn~1a 
     threadbare~2az having the nap worn away so that the threads show through
@@ -17533,8 +17536,8 @@
     rumpled~1a 
  topsy-turvy ( meanings=3 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE posdefault:ADJECTIVE ) 
     jumbled~1a 
-    topsy-turvily~1z 
-    higgledy-piggledy~2z 
+    topsy-turvily~1 
+    higgledy-piggledy~2 
  timbered ( meanings=2 glosses=2 ADJECTIVE ADJECTIVE_NORMAL COMMON2 posdefault:VERB ) 
     timbered~1az furnished with or made of wood or timbers
     timbered~2az covered with growing timber
@@ -18156,9 +18159,9 @@
     threaten~2vz to be a menacing indication of something:
     imperil~1vz pose a threat to
  totally ( meanings=1 ADVERB EXTENT_ADVERB COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
-    whole~8z 
+    whole~8 
  to_the_full ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    full~10z 
+    full~10 
  that_much ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     that_much~1z 
  that ( meanings=6 PRONOUN_SUBJECT PRONOUN_OBJECT ADVERB CONJUNCTION_SUBORDINATE DETERMINER COMMON4 COMMON2 COMMON1 KINDERGARTEN DETERMINER_SINGULAR PRONOUN_SINGULAR posdefault:PREPOSITION CONJUNCT_SUBORD_NOUN OMITTABLE_TIME_PREPOSITION PRONOUN_RELATIVE OF_PROPER ) 
@@ -18169,34 +18172,34 @@
     that~5z 
     that~6z 
  thus_far ( meanings=2 ADVERB PREPOSITION ) 
-    so_far~1z 
+    so_far~1 
     thus_far~2z 
  til_now ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    as_yet~1z 
+    as_yet~1 
  til ( meanings=1 PREPOSITION COMMON4 COMMON1 KINDERGARTEN ) 
     til~1z 
  turbulently ( meanings=2 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    passionately~1z 
+    passionately~1 
     turbulently~2z in a turbulent manner
  truly ( meanings=4 glosses=1 ADVERB COMMON4 COMMON1 GRADE3_4 posdefault:ADVERB ) 
-    really~2z 
-    really~3z 
+    really~2 
+    really~3 
     rightfully~1z by right
-    sincerely~2z 
+    sincerely~2 
  therefore ( meanings=2 glosses=1 ADVERB COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
     thence~1z from that fact or reason or as a result
-    consequently~2z 
+    consequently~2 
  thence ( meanings=4 ADVERB COMMON4 posdefault:ADVERB ) 
-    so~3z 
-    therefrom~1z 
-    therefrom~2z 
+    so~3 
+    therefrom~1 
+    therefrom~2 
     thence~4z 
  therefrom ( meanings=3 glosses=2 ADVERB PREPOSITION COMMON2 COMMON1 posdefault:ADVERB ) 
     thence~2z from that place or from there
     thereof~1z from that circumstance or source
     therefrom~3z 
  thereof ( meanings=3 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    thence~3z 
+    thence~3 
     thereof~2z of or concerning this or that
     thereof~3z 
  therefor ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -18204,48 +18207,48 @@
  tete_a_tete ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     tete_a_tete~1z 
  to_boot ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    additionally~1z 
+    additionally~1 
  to_a_fault ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    overly~1z 
+    overly~1 
  tirelessly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    indefatigably~1z 
+    indefatigably~1 
  terribly ( meanings=2 ADVERB COMMON4 posdefault:ADVERB ) 
-    awful~8z 
-    awfully~2z 
+    awful~8 
+    awfully~2 
  tolerably ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    so-so~2z 
+    so-so~2 
  the_least_bit ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     at_all~1z 
  thoroughly ( meanings=2 ADVERB COMMON4 posdefault:ADVERB ) 
-    exhaustively~1z 
-    good~28z 
+    exhaustively~1 
+    good~28 
  through_and_through ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    through~3z 
+    through~3 
  to_all_intents_and_purposes ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    for_all_intents_and_purposes~1z 
+    for_all_intents_and_purposes~1 
  twice ( meanings=3 glosses=1 ADVERB PREDETERMINER COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
     twice~1z two times
-    doubly~1z 
+    doubly~1 
     twice~3z 
  touchingly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    poignantly~1z 
+    poignantly~1 
  to_and_fro ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    back_and_forth~1z 
+    back_and_forth~1 
  thermodynamically ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     thermodynamically~1z with respect to thermodynamics
     thermodynamically~2z 
  this_evening ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    tonight~2z 
+    tonight~2 
  this ( meanings=3 PRONOUN_SUBJECT PRONOUN_OBJECT PREDETERMINER DETERMINER COMMON4 COMMON2 COMMON1 KINDERGARTEN DETERMINER_SINGULAR PRONOUN_SINGULAR OMITTABLE_TIME_PREPOSITION TIME_ADJECTIVE ) 
     this~1z 
     this~2z 
     this~3z 
  this_night ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    this_evening~1z 
+    this_evening~1 
  to_a_lower_place ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    at_a_lower_place~1z 
+    at_a_lower_place~1 
  to_a_higher_place ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    in_a_higher_place~1z 
+    in_a_higher_place~1 
  through_empirical_observation ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     by_trial_and_error~1z 
  through_an_experiment ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
@@ -18257,30 +18260,30 @@
  to_that_extent ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     to_that_degree~1z 
  to_that_degree ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    so_far~3z 
+    so_far~3 
  to_a_greater_extent ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    more~3z 
+    more~3 
  to_a_lesser_extent ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    less~4z 
+    less~4 
  too_soon ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    ahead_of_time~1z 
+    ahead_of_time~1 
  tardily ( meanings=2 ADVERB COMMON2 posdefault:ADVERB ) 
-    belatedly~1z 
-    slow~8z 
+    belatedly~1 
+    slow~8 
  thirdly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    third~1z 
+    third~1 
  throughout ( meanings=3 glosses=2 ADVERB PREPOSITION COMMON4 COMMON1 GRADE1_2 posdefault:PREPOSITION ) 
     end-to-end~2z from first to last
     passim~1z used to refer to cited works
     throughout~3z 
  thither ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    there~2z 
+    there~2 
  to_the_highest_degree ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    most~4z 
+    most~4 
  to_the_lowest_degree ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    least~3z 
+    least~3 
  taciturnly ( meanings=1 ADVERB COMMON1 ) 
-    silently~1z 
+    silently~1 
  toe-to-toe ( meanings=1 glosses=1 ADVERB ) 
     toe-to-toe~1z in close combat or at close quarters
  together_with ( meanings=1 PREPOSITION posdefault:PREPOSITION ) 
@@ -18289,11 +18292,11 @@
     though~1z however
     though~2z 
  then_again ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    on_the_other_hand~1z 
+    on_the_other_hand~1 
  thereby ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     thereby~1z by that means or because of that
  thusly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    so~6z 
+    so~6 
  technically ( meanings=3 glosses=3 ADVERB COMMON4 posdefault:ADVERB ) 
     technically~1z with regard to technical skill and the technology available
     technically~2z with regard to technique
@@ -18320,7 +18323,7 @@
  topically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     locally~2z to a restricted area of the body
  transversely ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    transversally~1z 
+    transversally~1 
  transversally ( meanings=1 glosses=1 ADVERB COMMON2 ) 
     transversely~1z in a transverse manner
  thousand-fold ( meanings=1 glosses=1 ADVERB ) 
@@ -18332,34 +18335,34 @@
  temperamentally ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     temperamentally~1z by temperament
  thereafter ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    thenceforth~1z 
+    thenceforth~1 
  thenceforth ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     thereafter~1z from that time on
  to_be_sure ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    without_doubt~1z 
+    without_doubt~1 
  the_whole_way ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     all_the_way~1z 
  topsy-turvily ( meanings=1 ADVERB ) 
-    heels_over_head~1z 
+    heels_over_head~1 
  to_begin_with ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    in_the_beginning~1z 
+    in_the_beginning~1 
  theoretically ( meanings=2 glosses=2 ADVERB COMMON4 posdefault:ADVERB ) 
     theoretically~1z in theory
     theoretically~2z in a theoretical manner
  to_the_contrary ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    on_the_contrary~1z 
+    on_the_contrary~1 
  to_advantage ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     to_advantage~1z 
  to_a_man ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     to_a_man~1z 
  to_a_T ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    to_the_letter~1z 
+    to_the_letter~1 
  to_the_letter ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     to_perfection~1z 
  to_perfection ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    just_right~1z 
+    just_right~1 
  to_date ( meanings=2 ADVERB PREPOSITION ) 
-    up_to_now~2z 
+    up_to_now~2 
     to_date~2z 
  to_order ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     to_order~1z 
@@ -18368,25 +18371,25 @@
  to_that_effect ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     to_that_effect~1z 
  to_the_hilt ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    to_the_limit~1z 
+    to_the_limit~1 
  to_the_limit ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     to_the_hilt~1z 
  tensely ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     tensely~1z in a tense manner
  to_a_great_extent ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    heavily~1z 
+    heavily~1 
  time_and_again ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    over_and_over~1z 
+    over_and_over~1 
  time_and_time_again ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    time_and_again~1z 
+    time_and_again~1 
  the_other_way_around ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     contrariwise~2z 
  tentatively ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     tentatively~1z in a tentative manner
  toppingly ( meanings=1 ADVERB COMMON1 ) 
-    superbly~1z 
+    superbly~1 
  terrifically ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    wondrous~3z 
+    wondrous~3 
  tranquilly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     tranquilly~1z without emotional agitation
  theatrically ( meanings=2 glosses=2 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -18395,7 +18398,7 @@
  that_is_to_say ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
     videlicet~1z 
  to_wit ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    namely~1z 
+    namely~1 
  thievishly ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     thievishly~1z in a manner characteristic of a thief
  triumphantly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -18403,11 +18406,11 @@
  tantalizingly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     invitingly~1z in a tantalizing manner
  the_right_way ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    in_good_order~1z 
+    in_good_order~1 
  tremendously ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     staggeringly~1z extremely
  tactually ( meanings=1 ADVERB COMMON1 ) 
-    haptically~1z 
+    haptically~1 
  thankfully ( meanings=2 glosses=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     thankfully~1z let us be thankful that
     gratefully~1z in a thankful manner
@@ -18416,17 +18419,17 @@
     thirstily~2z in a thirsty manner
  trustfully ( meanings=2 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     trustfully~1z in a trustful manner
-    trustingly~1z 
+    trustingly~1 
  to_both_ears ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     in_both_ears~1z 
  to_one_ear ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    monaurally~1z 
+    monaurally~1 
  tediously ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    tiresomely~1z 
+    tiresomely~1 
  tiresomely ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     boringly~1z in a tedious manner
  testily ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    petulantly~1z 
+    petulantly~1 
  thoughtfully ( meanings=2 glosses=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     thoughtfully~1z showing consideration and thoughtfulness
     thoughtfully~2z in a thoughtful manner
@@ -18436,64 +18439,64 @@
  twirlingly ( meanings=1 glosses=1 ADVERB ) 
     twirlingly~1z doing twirls
  to_be_precise ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    strictly_speaking~1z 
+    strictly_speaking~1 
  tenuously ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     tenuously~1z in a tenuous manner
  timidly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    bashfully~1z 
+    bashfully~1 
  tenaciously ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     doggedly~1z with obstinate determination
  tragically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     tragically~1z in a tragic manner
  to_each_one ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    each~2z 
+    each~2 
  therein ( meanings=2 glosses=1 ADVERB PREPOSITION COMMON4 posdefault:ADVERB ) 
     therein~1z in or into that thing or place
     therein~2z 
  to_the_south ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    south~5z 
+    south~5 
  thrice ( meanings=3 glosses=1 ADVERB PREDETERMINER COMMON4 KINDERGARTEN posdefault:ADVERB ) 
     thrice~1z three times
     thrice~2z 
     thrice~3z 
  torturously ( meanings=1 ADVERB COMMON2 ) 
-    agonizingly~1z 
+    agonizingly~1 
  temperately ( meanings=3 glosses=2 ADVERB COMMON1 posdefault:ADVERB ) 
-    abstemiously~1z 
+    abstemiously~1 
     temperately~2z without extravagance
     temperately~3z with restraint
  turgidly ( meanings=1 ADVERB COMMON1 ) 
-    bombastically~2z 
+    bombastically~2 
  trickily ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    slyly~1z 
+    slyly~1 
  torpidly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     dazedly~1z in a daze
  trustingly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    confidingly~1z 
+    confidingly~1 
  tattily ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    cheaply~2z 
+    cheaply~2 
  traitorously ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    faithlessly~1z 
+    faithlessly~1 
  treacherously ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    traitorously~1z 
+    traitorously~1 
  treasonably ( meanings=1 ADVERB COMMON1 ) 
-    treacherously~1z 
+    treacherously~1 
  tawdrily ( meanings=1 ADVERB COMMON1 ) 
-    garishly~1z 
+    garishly~1 
  tolerantly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     tolerantly~1z in a tolerant manner
  transitively ( meanings=1 glosses=1 ADVERB COMMON2 ) 
     transitively~1z in a transitive manner
  tepidly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    lukewarmly~1z 
+    lukewarmly~1 
  trippingly ( meanings=1 ADVERB COMMON1 ) 
-    lightsomely~2z 
+    lightsomely~2 
  talkatively ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    garrulously~1z 
+    garrulously~1 
  talkily ( meanings=1 ADVERB ) 
-    talkatively~1z 
+    talkatively~1 
  tunefully ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    melodiously~1z 
+    melodiously~1 
  threateningly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     menacingly~1z in a menacing manner
  truthfully ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -18503,14 +18506,14 @@
  to_no_degree ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     nowise~1z 
  too_much ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    overmuch~3z 
+    overmuch~3 
  temptingly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    seductively~1z 
+    seductively~1 
  trimly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     trimly~1z in a trim manner
  thereabout ( meanings=2 ADVERB COMMON2 ) 
-    thereabouts~1z 
-    thereabouts~2z 
+    thereabouts~1 
+    thereabouts~2 
  thereabouts ( meanings=2 glosses=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     thereabout~1z near that place
     thereabout~2z near that time or date
@@ -18545,14 +18548,14 @@
  tastefully ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     tastily~1z with taste
  tastily ( meanings=2 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    tastefully~1z 
+    tastefully~1 
     tastily~2z in a tasty manner
  tastelessly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     tastelessly~1z without taste or in poor taste
  tauntingly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     teasingly~1z in a playfully teasing manner
  teasingly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    tauntingly~1z 
+    tauntingly~1 
  tautly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     tautly~1z in a taut manner
  tearfully ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -18560,7 +18563,7 @@
  telegraphically ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     tersely~1z in a short and concise manner
  tersely ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    telegraphically~1z 
+    telegraphically~1 
  telescopically ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     telescopically~1z in a telescopic manner
  tellingly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -18584,8 +18587,8 @@
     traditionally~1z according to tradition
  thinly ( meanings=4 glosses=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     thinly~1z in a widely distributed manner
-    lightly~6z 
-    thin~10z 
+    lightly~6 
+    thin~10 
     thinly~4z without force or sincere effort
  thriftily ( meanings=1 glosses=1 ADVERB COMMON1 GRADE5_6 posdefault:ADVERB ) 
     thriftily~1z in a thrifty manner
@@ -18594,7 +18597,7 @@
  timorously ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     trepidly~1z in a timorous and trepid manner
  trepidly ( meanings=1 ADVERB COMMON1 ) 
-    timorously~1z 
+    timorously~1 
  tonelessly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     tonelessly~1z in a monotone
  topographically ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 

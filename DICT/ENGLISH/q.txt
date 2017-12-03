@@ -89,7 +89,7 @@
     flying~2az hurried and brief
     ready~2az apprehending and responding with speed and sensitivity
     quick~8az 
-    quickly~2z 
+    quickly~2 
  quickie ( meanings=1 NOUN NOUN_SINGULAR COMMON2 COMMON1 posdefault:NOUN ) 
     band_aid~1n 
  quicky ( meanings=1 NOUN NOUN_SINGULAR COMMON2 ) 
@@ -442,7 +442,7 @@
     restrained~3az not showy or obtrusive
     quiet~9az free of noise or uproar
     quiet~10az characterized by an absence or near absence of agitation or activity
-    quietly~3z 
+    quietly~3 
     calm~9v 
     pipe_down~1vz become quiet or quieter
  quietness ( meanings=2 NOUN NOUN_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER ) 
@@ -1188,7 +1188,7 @@
     passel~1n 
  quite ( meanings=5 glosses=3 ADVERB PREDETERMINER EXTENT_ADVERB COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
     quite~1z to the greatest extent
-    rather~2z 
+    rather~2 
     quite_an~1z of an unusually noticeable or exceptional or remarkable kind 
     quite~4z actually or truly or to an extreme
     quite~5z 
@@ -1465,9 +1465,9 @@
  queenlier ( MORE_FORM ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) comparative=queenly 
  queenliest ( MOST_FORM ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) comparative=queenlier 
  quite_a ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    quite~3z 
+    quite~3 
  quite_an ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    quite_a~1z 
+    quite_a~1 
  quietly ( meanings=4 glosses=4 ADVERB COMMON4 KINDERGARTEN posdefault:ADVERB ) 
     softly~1z with low volume
     quietly~2z with little or no sound
@@ -1483,7 +1483,7 @@
     wonderingly~1z in a curious and questioning manner
     quizzically~1z in a quizzical and questioning manner
  querulously ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    peevishly~1z 
+    peevishly~1 
  quaintly ( meanings=2 glosses=2 ADVERB COMMON2 posdefault:ADVERB ) 
     quaintly~1z in a quaint old-fashioned manner
     quaintly~2z in a strange but not unpleasant manner
@@ -1493,11 +1493,11 @@
     queasily~1z in a queasy manner
  queerly ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     fishily~1z in a questionably unusual manner
-    strangely~1z 
+    strangely~1 
  questionably ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     dubiously~2z in a questionable and dubious manner
  quizzically ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    questioningly~2z 
+    questioningly~2 
  quixotically ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     quixotically~1z in a quixotic manner
  quaveringly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 

@@ -811,7 +811,7 @@
     novation~1nz (^replacement~1) the replacement of one obligation by another by mutual agreement of both parties
  near_thing ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     near_thing~1nz (^avoidance~1) something that barely avoids failure or disaster
- near ( meanings=10 glosses=4 PARTICLE ADJECTIVE PREPOSITION ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB posdefault:PREPOSITION NON_COMPLEMENT_ADJECTIVE ADJECTIVE_GOOD_SUBJECT_COMPLEMENT ) comparative=nearest 
+ near ( meanings=10 glosses=4 PARTICLE ADJECTIVE ADVERB PREPOSITION ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB posdefault:PREPOSITION NON_COMPLEMENT_ADJECTIVE ADJECTIVE_GOOD_SUBJECT_COMPLEMENT ) comparative=nearest 
     close~6a 
     approximate~2az very close in resemblance
     dear~3az with or in a close or intimate relationship
@@ -819,8 +819,8 @@
     near~5az closely resembling the genuine article
     nigh~2az being on the left side
     near~7az 
-    nigh~3z 
-    close~20z 
+    nigh~3 
+    close~20 
     near~10z 
  nonacceptance ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON1 ) 
     turndown~1nz (^rejection~1) the act of refusing an offer
@@ -980,10 +980,10 @@
     no-hit_game~1n 
  no_ball ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     no_ball~1nz (^bowling~2) unlawfully delivered ball in cricket
- no ( meanings=4 glosses=2 ADJECTIVE DETERMINER ADJECTIVE_NORMAL INTERJECTION ADJECTIVE_NOT_PREDICATE COMMON4 COMMON2 KINDERGARTEN posdefault:ADVERB ) plural=noes 
+ no ( meanings=4 glosses=2 ADJECTIVE ADVERB DETERMINER ADJECTIVE_NORMAL INTERJECTION ADJECTIVE_NOT_PREDICATE COMMON4 COMMON2 KINDERGARTEN posdefault:ADVERB ) plural=noes 
     no~1az quantifier
     no~2z not in any degree or manner
-    no_more~2z 
+    no_more~2 
     no~4z 
  netball ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER posdefault:NOUN ) 
     netball~1nz (^court_game~1) a team game that resembles basketball
@@ -1102,7 +1102,7 @@
  nip_and_tuck ( meanings=3 NOUN ADJECTIVE ADVERB ADJECTIVE_NORMAL NOUN_SINGULAR ADJECTIVE_NOT_PREDICATE ) 
     rhytidoplasty~1n 
     neck_and_neck~1a 
-    neck_and_neck~2z 
+    neck_and_neck~2 
  nip ( meanings=8 glosses=5 NOUN_ABSTRACT VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR COMMON4 GRADE1_2 posdefault:VERB VERB_DIRECTOBJECT ) 
     pinch~3nz (^clip~2) a small sharp bite or snip
     zest~1nz (^spiciness~2) a tart spicy quality
@@ -1283,7 +1283,7 @@
     newfangled~1az gratuitously new
     new~8az other than the former one
     new~9az unaffected by use or exposure
-    fresh~14z 
+    fresh~14 
  national_insurance ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 
     national_insurance~1nz (^social_insurance~1) social insurance program in Britain
  national_assistance ( meanings=1 NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 
@@ -1366,7 +1366,7 @@
  non_prosequitur ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     non_pros~1nz (^judgment~2) a judgment entered in favor of the defendant when the plaintiff has not continued his action
  non ( meanings=1 ADVERB COMMON4 COMMON2 ) 
-    not~1z 
+    not~1 
  non_pros ( meanings=1 NOUN NOUN_SINGULAR ) 
     non_prosequitur~1n 
  nonobservance ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON1 ) 
@@ -4277,14 +4277,14 @@
     northeast~3nz (^direction~9) the direction corresponding to the northeastward compass point
     northeastern~2a 
     northeasterly~2a 
-    nor'-east~2z 
+    nor'-east~2 
  northwest ( meanings=6 glosses=2 NOUN_ABSTRACT NOUN ADJECTIVE ADVERB ADJECTIVE_NORMAL NOUN_SINGULAR ADJECTIVE_NOT_PREDICATE COMMON4 NOUN_NODETERMINER posdefault:NOUN ) comparative=northwester 
     northwest~1nz (^location~1) a location in the northwestern part of a country, region, or city
     nor'-west~1n 
     northwest~3nz (^direction~9) the direction corresponding to the northwestward compass point
     northwestern~2a 
     northwesterly~2a 
-    nor'-west~2z 
+    nor'-west~2 
  northland ( meanings=1 glosses=1 NOUN NOUN_SINGULAR COMMON2 posdefault:NOUN ) 
     northland~1nz (^region~4) any region lying in or toward the north
  Northeast ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
@@ -5772,7 +5772,7 @@
     norther~1n 
     northern~1az coming from the north
     northern~2az situated in or oriented toward the north
-    north~6z 
+    north~6 
  norther ( meanings=1 glosses=1 NOUN NOUN_SINGULAR COMMON2 KINDERGARTEN posdefault:NOUN ) comparative=north 
     boreas~1nz (^wind~8) a wind that blows from the north
  nuclear_propulsion ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
@@ -6510,7 +6510,7 @@
  northward ( meanings=3 NOUN ADJECTIVE ADVERB ADJECTIVE_NORMAL NOUN_SINGULAR ADJECTIVE_NOT_PREDICATE COMMON2 COMMON1 posdefault:ADVERB ) 
     due_north~1n 
     northbound~1a 
-    northerly~4z 
+    northerly~4 
  north_by_east ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     NbE~1nz (^point~22) the compass point that is one point east of due north
  NbE ( meanings=1 NOUN NOUN_PROPER_SINGULAR COMMON1 ) 
@@ -6519,7 +6519,7 @@
     NNE~1nz (^point~22) the compass point that is midway between north and northeast
  nor'-nor'-east ( meanings=2 NOUN ADVERB NOUN_SINGULAR ) 
     north_northeast~1n 
-    north-northeast~1z 
+    north-northeast~1 
  NNE ( meanings=1 NOUN NOUN_PROPER_SINGULAR COMMON1 ) 
     nor'-nor'-east~1n 
  northeast_by_north ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
@@ -6528,11 +6528,11 @@
     northeast_by_north~1n 
  nor'-east ( meanings=2 NOUN ADVERB NOUN_SINGULAR ) 
     NE~2n 
-    north-east~1z 
+    north-east~1 
  northeastward ( meanings=3 glosses=2 NOUN_ABSTRACT NOUN ADJECTIVE ADVERB ADJECTIVE_NORMAL NOUN_SINGULAR ADJECTIVE_NOT_PREDICATE COMMON2 posdefault:ADVERB ) 
     northeast~2nz (^point~22) the compass point midway between north and east
     northeastward~2az toward the northeast
-    northeastwardly~1z 
+    northeastwardly~1 
  northeast_by_east ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     NEbE~1nz (^point~22) the compass point that is one point east of northeast
  NEbE ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
@@ -6543,11 +6543,11 @@
     northwest_by_west~1n 
  nor'-west ( meanings=2 NOUN ADVERB NOUN_SINGULAR ) 
     northwestward~1n 
-    north-west~1z 
+    north-west~1 
  northwestward ( meanings=3 glosses=2 NOUN_ABSTRACT NOUN ADJECTIVE ADVERB ADJECTIVE_NORMAL NOUN_SINGULAR ADJECTIVE_NOT_PREDICATE COMMON2 posdefault:ADJECTIVE posdefault:ADVERB ) 
     NW~1nz (^point~22) the compass point midway between north and west
     northwestward~2az toward the northwest
-    northwestwardly~1z 
+    northwestwardly~1 
  NW ( meanings=1 NOUN NOUN_PROPER_SINGULAR COMMON2 ) 
     northwest~2n 
  northwest_by_north ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
@@ -6558,7 +6558,7 @@
     NNW~1nz (^point~22) the compass point that is midway between north and northwest
  nor'-nor'-west ( meanings=2 NOUN ADVERB NOUN_SINGULAR ) 
     north_northwest~1n 
-    north-northwest~1z 
+    north-northwest~1 
  NNW ( meanings=1 NOUN NOUN_PROPER_SINGULAR COMMON1 ) 
     nor'-nor'-west~1n 
  north_by_west ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
@@ -7091,7 +7091,7 @@
     today~3z in these times
  now ( meanings=9 glosses=7 NOUN_ABSTRACT NOUN ADVERB CONJUNCTION_SUBORDINATE NOUN_SINGULAR COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:ADVERB TIMEWORD ) 
     now~1nz (^nowadays~1) the momentary present
-    nowadays~2z 
+    nowadays~2 
     like_a_shot~1z without delay or hesitation
     now~4z used to preface a command or reproof or request
     at_present~1z at the present moment
@@ -7525,8 +7525,8 @@
  nigh ( meanings=5 ADJECTIVE ADVERB PREPOSITION ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON2 COMMON1 posdefault:ADVERB ) comparative=nigher 
     near~1a 
     near~6a 
-    most~3z 
-    near~9z 
+    most~3 
+    near~9 
     nigh~5z 
  nearby ( meanings=4 glosses=2 ADJECTIVE ADVERB PREPOSITION ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON4 COMMON1 GRADE5_6 posdefault:ADJECTIVE posdefault:ADVERB ) 
     nearby~1az close at hand
@@ -7587,7 +7587,7 @@
     neither~4z 
  nationwide ( meanings=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL COMMON4 posdefault:ADJECTIVE posdefault:ADVERB ) 
     countrywide~1a 
-    across_the_nation~1z 
+    across_the_nation~1 
  noncomprehensive ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
     incomprehensive~1az not comprehensive
  nerveless ( meanings=2 ADJECTIVE ADJECTIVE_NORMAL COMMON2 posdefault:ADJECTIVE ) 
@@ -8126,7 +8126,7 @@
  naturally_occurring ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
     naturally_occurring~1az 
  naturally ( meanings=4 glosses=3 ADVERB COMMON4 posdefault:ADVERB ) 
-    course~10z 
+    course~10 
     naturally~2z according to nature
     naturally~3z in a natural or normal manner
     by_nature~1z through inherent nature
@@ -8174,7 +8174,7 @@
     nonrepetitive~1az marked by the absence of repetition
  nightly ( meanings=2 glosses=1 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON4 posdefault:ADJECTIVE ) 
     nightly~1az happening every night
-    every_night~1z 
+    every_night~1 
  nonperiodic ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 posdefault:ADJECTIVE ) 
     aperiodic~1az not recurring at regular intervals
  nonoscillatory ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
@@ -9012,7 +9012,7 @@
     nyctophobic~1az 
  nineth ( NOUN NOUN_NUMBER KINDERGARTEN ) 
  nearer ( meanings=2 MORE_FORM ADJECTIVE ADVERB PREPOSITION ADJECTIVE_NORMAL COMMON4 KINDERGARTEN posdefault:ADJECTIVE posdefault:ADVERB ) comparative=near 
-    closer~1z 
+    closer~1 
     nearer~2z 
  nearest ( meanings=2 glosses=1 MOST_FORM ADJECTIVE ADVERB PREPOSITION ADJECTIVE_NORMAL COMMON4 COMMON1 KINDERGARTEN posdefault:ADJECTIVE ) comparative=nearer 
     nighest~1z within the shortest distance
@@ -9042,25 +9042,25 @@
  nuttier ( MORE_FORM ADJECTIVE ADJECTIVE_NORMAL COMMON2 ) comparative=nutty 
  nuttiest ( MOST_FORM ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) comparative=nuttier 
  naughtily ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    mischievously~1z 
+    mischievously~1 
  never ( meanings=2 glosses=2 ADVERB COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:ADVERB NEGATIVE_ADVERB_STARTER ) 
     ne'er~1z not ever
     never~2z not at all
  ne'er ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    never~1z 
+    never~1 
  now_and_then ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    once_in_a_while~1z 
+    once_in_a_while~1 
  now_and_again ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    now_and_then~1z 
+    now_and_then~1 
  nevertheless ( meanings=1 glosses=1 ADVERB COMMON4 KINDERGARTEN posdefault:ADVERB ) 
     notwithstanding~1z despite anything to the contrary 
  nonetheless ( meanings=1 ADVERB COMMON4 KINDERGARTEN posdefault:ADVERB ) 
-    even_so~1z 
+    even_so~1 
  notwithstanding ( meanings=2 ADVERB PREPOSITION COMMON4 posdefault:ADVERB ) 
-    nonetheless~1z 
+    nonetheless~1 
     notwithstanding~2z 
  no_longer ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    no_more~1z 
+    no_more~1 
  no_more ( meanings=2 ADVERB CONDITIONAL_IDIOM KINDERGARTEN  poscondition=?![TNP]=R ) 
     no_longer~1z 
     no~3z 
@@ -9069,39 +9069,39 @@
  now_now ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     now_now~1z 
  not_by_a_long_sight ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    not_by_a_blame_sight~1z 
+    not_by_a_blame_sight~1 
  not_by_a_blame_sight ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     by_no_means~1z 
  not_to_mention ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     let_alone~1z 
  nearly ( meanings=2 glosses=1 ADVERB EXTENT_ADVERB COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
-    near~8z 
+    near~8 
     closely~2z in a close manner
  nem_con ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    nemine_contradicente~1z 
+    nemine_contradicente~1 
  nemine_contradicente ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     unanimously~1z 
  normally ( meanings=1 ADVERB COMMON4 COMMON1 posdefault:ADVERB ) 
-    usually~1z 
+    usually~1 
  necessarily ( meanings=3 glosses=3 ADVERB COMMON4 COMMON1 GRADE5_6 posdefault:ADVERB ) 
     needs~1z in such a manner as could not be otherwise
     needfully~1z in an essential manner
     necessarily~3z as a highly likely consequence
  needs ( meanings=1 ADVERB COMMON4 COMMON2 COMMON1 posdefault:NOUN posdefault:VERB ) 
-    of_necessity~1z 
+    of_necessity~1 
  newly ( meanings=1 ADVERB COMMON4 COMMON1 posdefault:ADVERB ) 
-    new~10z 
+    new~10 
  no_matter ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    regardless~2z 
+    regardless~2 
  nominally ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     nominally~1z in name only
  nonverbally ( meanings=1 ADVERB COMMON2 ) 
-    non-verbally~1z 
+    non-verbally~1 
  non-verbally ( meanings=1 glosses=1 ADVERB posdefault:ADVERB ) 
     nonverbally~1z without words
  nationally ( meanings=2 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     nationally~1z with regard to a nation taken as a whole
-    across_the_country~1z 
+    across_the_country~1 
  nonlexically ( meanings=1 glosses=1 ADVERB ) 
     nonlexically~1z without the use of words
  notably ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
@@ -9111,9 +9111,9 @@
  nocturnally ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     nocturnally~1z at night
  no_doubt ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    to_be_sure~1z 
+    to_be_sure~1 
  no_matter_what_happens ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    come_hell_or_high_water~1z 
+    come_hell_or_high_water~1 
  no_end ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     no_end~1z 
  neatly ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
@@ -9121,9 +9121,9 @@
  nicely ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     nicely~1z in a nice way
  namely ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    viz.~1z 
+    viz.~1 
  nimbly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    agilely~1z 
+    agilely~1 
  needlessly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     needlessly~1z without need
  narrowly ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
@@ -9133,7 +9133,7 @@
  noisily ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     noisily~1z with much noise or loud and unpleasant sound
  next_door ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    in_the_adjacent_house~1z 
+    in_the_adjacent_house~1 
  nonchalantly ( meanings=2 glosses=2 ADVERB COMMON2 posdefault:ADVERB ) 
     casually~1z in an unconcerned manner
     nervelessly~1z in a composed and unconcerned manner
@@ -9141,19 +9141,19 @@
     noncompetitively~1z in a noncompetitive manner
     noncompetitively~2z 
  northwards ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    northward~3z 
+    northward~3 
  nervily ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    cheekily~1z 
+    cheekily~1 
  noncomprehensively ( meanings=1 glosses=1 ADVERB ) 
     noncomprehensively~1z in a limited way
  nervelessly ( meanings=1 ADVERB COMMON1 ) 
-    coolly~1z 
+    coolly~1 
  nuttily ( meanings=1 ADVERB COMMON1 ) 
-    balmily~1z 
+    balmily~1 
  noxiously ( meanings=1 ADVERB COMMON1 ) 
-    harmfully~1z 
+    harmfully~1 
  noticeably ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    perceptibly~1z 
+    perceptibly~1 
  naively ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     naively~1z in a naive manner
  nakedly ( meanings=2 glosses=2 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -9166,11 +9166,11 @@
  nattily ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     nattily~1z in a natty manner
  nigher ( meanings=1 MORE_FORM ADVERB COMMON1 ) comparative=nigh 
-    nearer~1z 
+    nearer~1 
  nighest ( meanings=1 ADVERB COMMON1 ) 
-    closest~1z 
+    closest~1 
  needfully ( meanings=1 ADVERB COMMON1 ) 
-    necessarily~2z 
+    necessarily~2 
  nefariously ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     nefariously~1z in a nefarious manner or to a nefarious degree
  neglectfully ( meanings=1 glosses=1 ADVERB COMMON1 ) 
@@ -9183,7 +9183,7 @@
  neurotically ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     neurotically~1z in a neurotic manner
  nevermore ( meanings=1 ADVERB COMMON2 ) 
-    never_again~1z 
+    never_again~1 
  never_again ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     nevermore~1z 
  nobly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -9199,9 +9199,9 @@
  numerically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     numerically~1z in number
  numbly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    insensibly~1z 
+    insensibly~1 
  nowise ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    to_no_degree~1z 
+    to_no_degree~1 
  north-east ( meanings=1 glosses=1 ADVERB ) 
     northeast~6z to, toward, or in the northeast
  north-west ( meanings=1 glosses=1 ADVERB ) 

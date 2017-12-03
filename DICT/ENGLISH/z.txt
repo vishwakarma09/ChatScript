@@ -1036,7 +1036,7 @@
  zestfully ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     zestily~1z with zest
  zestily ( meanings=1 ADVERB COMMON1 ) 
-    zestfully~1z 
+    zestfully~1 
  zymographically ( meanings=2 ADVERB ) 
     zymographically~1z 
     zymographically~2z 

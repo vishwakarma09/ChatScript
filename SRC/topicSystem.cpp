@@ -2721,10 +2721,6 @@ unsigned int InContext(int topicid, char* label)
 		if (topicContext[i] == 0) break;	// has no context
 		int delay = volleyCount - inputContext[i];
 		if (delay >= 5) break; //  not close have 5 volleys since 
-		if (delay < 0)
-		{ 
-			int xx = 0;
-		}
 		if (topicid == topicContext[i] && !stricmp(labelContext[i],label))
 			return delay;
 	}

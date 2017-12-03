@@ -1168,7 +1168,7 @@
  Eusebio ( NOUN_HUMAN NOUN_FIRSTNAME NOUN_HE NOUN NOUN_PROPER_SINGULAR ) 
  etc. ( meanings=2 ADVERB FOREIGN_WORD COMMON4 COMMON1 posdefault:ADVERB ) 
     etc.~1z 
-    etcetera~2z 
+    etcetera~2 
  entity ( meanings=1 glosses=1 NOUN NOUN_SINGULAR COMMON4 COMMON1 posdefault:NOUN ) 
     entity~1nz that which is perceived or known or inferred to have its own distinct existence
  event ( meanings=4 glosses=3 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON4 COMMON1 KINDERGARTEN posdefault:NOUN ) 
@@ -1614,9 +1614,9 @@
     prosperous~3a 
     easy~12az readily exploited or tricked
     easy~13az 
-    easily~3z 
+    easily~3 
     soft~21z in a relaxed manner
-    tardily~2z 
+    tardily~2 
  ecotourism ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 COMMON1 posdefault:NOUN ) 
     ecotourism~1nz (^touristry~1) tourism to exotic or threatened ecosystems to observe wildlife or to help preserve nature
  endurance_riding ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
@@ -4195,7 +4195,7 @@
     etanercept~1n 
  etcetera ( meanings=2 glosses=1 NOUN ADVERB NOUN_SINGULAR COMMON2 COMMON1 posdefault:ADVERB ) 
     etcetera~1nz (^stuff~1) additional unspecified odds and ends
-    and_so_forth~1z 
+    and_so_forth~1 
  ethacrynic_acid ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
     Edecrin~1nz (^diuretic_drug~1) diuretic used to treat edema
  Edecrin ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
@@ -4668,7 +4668,7 @@
     regular~16az symmetrically arranged
     even~8az 
     even~9z used as an intensive especially to indicate something unexpected
-    still~12z 
+    still~12 
     even~11z in spite of
     even~12z to the full extent
     even_out~1vz make even or more even
@@ -9942,9 +9942,9 @@
     succession~5nz (^activity~4) the gradual and orderly process of change in an ecosystem brought about by the progressive replacement of one community by another until a stable climax is established
  English_system ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
     British_Imperial_System~1n 
- enough ( meanings=4 glosses=1 NOUN_ABSTRACT PRONOUN_SUBJECT PRONOUN_OBJECT NOUN DETERMINER NOUN_SINGULAR EXTENT_ADVERB COMMON4 COMMON1 KINDERGARTEN DETERMINER_PLURAL PRONOUN_SINGULAR posdefault:ADVERB ) 
+ enough ( meanings=4 glosses=1 NOUN_ABSTRACT PRONOUN_SUBJECT PRONOUN_OBJECT NOUN ADVERB DETERMINER NOUN_SINGULAR EXTENT_ADVERB COMMON4 COMMON1 KINDERGARTEN DETERMINER_PLURAL PRONOUN_SINGULAR posdefault:ADVERB ) 
     sufficiency~2nz (^relative_quantity~1) an adequate quantity
-    plenty~3z 
+    plenty~3 
     enough~3z 
     enough~4z 
  elastic_modulus ( meanings=1 NOUN NOUN_SINGULAR ) 
@@ -10067,7 +10067,7 @@
  eastward ( meanings=3 NOUN ADJECTIVE ADVERB ADJECTIVE_NORMAL NOUN_SINGULAR ADJECTIVE_NOT_PREDICATE COMMON2 COMMON1 posdefault:ADVERB ) 
     due_east~1n 
     eastbound~1a 
-    eastwards~1z 
+    eastwards~1 
  east_by_south ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     EbS~1nz (^point~22) the compass point that is one point south of due east
  EbS ( meanings=1 NOUN NOUN_PROPER_SINGULAR COMMON1 ) 
@@ -10994,7 +10994,7 @@
     slip~20v 
     drift~15v 
  e'er ( meanings=1 ADVERB COMMON2 ) 
-    always~1z 
+    always~1 
  eventually ( meanings=1 glosses=1 ADVERB COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB TIMEWORD ) 
     finally~2z after an unspecified period of time or an especially long delay
  earlier ( meanings=4 glosses=4 MORE_FORM ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON4 COMMON1 KINDERGARTEN posdefault:ADJECTIVE TIMEWORD ) comparative=early 
@@ -11449,7 +11449,7 @@
     kinetic~1a 
  earliest ( meanings=2 MOST_FORM ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON4 GRADE3_4 posdefault:ADJECTIVE ) comparative=earlier 
     earlier~1a 
-    soonest~1z 
+    soonest~1 
  earlyish ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 posdefault:ADJECTIVE posdefault:ADVERB ) 
     earlyish~1az being somewhat early
  embryotic ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
@@ -11920,7 +11920,7 @@
     enervating~1a 
  ex_vivo ( meanings=3 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE ) 
     in_vitro~1a 
-    in_vitro~2z 
+    in_vitro~2 
     ex_vivo~3z 
  eolotropic ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     aeolotropic~1a 
@@ -11976,7 +11976,7 @@
     eight-day~1az lasting for eight days
  end-to-end ( meanings=2 glosses=1 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE posdefault:ADJECTIVE ) 
     end-to-end~1az with the end of one object in contact lengthwise with the end of another object
-    throughout~1z 
+    throughout~1 
  earsplitting ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 posdefault:ADJECTIVE ) 
     thunderous~2a 
  earthshaking ( meanings=2 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 ) 
@@ -12039,7 +12039,7 @@
     apologetic~1a 
  ex_officio ( meanings=2 glosses=1 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE posdefault:ADJECTIVE posdefault:ADVERB ) 
     ex_officio~1az by virtue of an office or position
-    by_right_of_office~1z 
+    by_right_of_office~1 
  entrenched ( meanings=2 glosses=2 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:VERB ) 
     entrenched~1az established firmly and securely
     entrenched~2az dug in
@@ -12063,7 +12063,7 @@
     expiable~1az capable of being atoned for
  erstwhile ( meanings=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON2 COMMON1 posdefault:ADJECTIVE ) 
     former~4a 
-    once~2z 
+    once~2 
  enduring ( meanings=3 ADJECTIVE ADJECTIVE_NORMAL COMMON4 posdefault:VERB ) 
     long-suffering~2a 
     imperishable~2a 
@@ -12100,7 +12100,7 @@
     ad-lib~2a 
  extempore ( meanings=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON2 posdefault:ADJECTIVE ) 
     extemporary~1a 
-    extemporaneously~1z 
+    extemporaneously~1 
  ever-present ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
     ever-present~1az being always present
  elemental ( meanings=4 glosses=2 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:ADJECTIVE ) 
@@ -12937,31 +12937,31 @@
     excite~7vz arouse or elicit a feeling
     stimulate~7vz stir feelings in
  essentially ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    fundamentally~1z 
+    fundamentally~1 
  enviably ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     enviably~1z in an enviable manner
  entirely ( meanings=2 glosses=1 ADVERB EXTENT_ADVERB COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
-    wholly~1z 
+    wholly~1 
     solely~1z without any others being included or involved
  exclusively ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    alone~5z 
+    alone~5 
  easily ( meanings=3 glosses=3 ADVERB COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
     well~12z indicating high probability
     easily~2z without question
     easy~14z with ease 
  even_as ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    just_as~1z 
+    just_as~1 
  e'en ( meanings=1 glosses=1 ADVERB COMMON2 ) 
     e'en~1z even
  ever ( meanings=3 glosses=2 ADVERB COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
-    e'er~1z 
+    e'er~1 
     of_all_time~1z at any time
     ever_so~1z very
  equally ( meanings=2 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    as~1z 
+    as~1 
     evenly~2z in equal amounts or shares
  every_bit ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    equally~1z 
+    equally~1 
  either ( meanings=4 glosses=1 PRONOUN_SUBJECT PRONOUN_OBJECT ADVERB DETERMINER COMMON4 COMMON1 KINDERGARTEN DETERMINER_SINGULAR PRONOUN_SINGULAR posdefault:ADVERB ) 
     either~1z after a negative statement used as an intensive meaning something like `likewise' or `also'
     either~2z 
@@ -12970,47 +12970,47 @@
  everywhere ( meanings=1 glosses=1 ADVERB COMMON4 KINDERGARTEN posdefault:ADVERB ) 
     everyplace~1z to or in any or all places
  everyplace ( meanings=1 ADVERB COMMON2 ) 
-    all_over~2z 
+    all_over~2 
  even_so ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    all_the_same~1z 
+    all_the_same~1 
  extensively ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     extensively~1z in a widespread way
  emphatically ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    unquestionably~1z 
+    unquestionably~1 
  evidently ( meanings=1 ADVERB COMMON4 GRADE5_6 posdefault:ADVERB ) 
-    obviously~1z 
+    obviously~1 
  ergo ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 ) 
     ergo~1z therefore or consequently
  exceedingly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    passing~12z 
+    passing~12 
  extraordinarily ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     inordinately~1z extremely
  excessively ( meanings=1 ADVERB COMMON2 COMMON1 GRADE5_6 posdefault:ADVERB ) 
-    too~1z 
+    too~1 
  exhaustively ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     thoroughly~1z in an exhaustive manner
  effectively ( meanings=2 glosses=1 ADVERB COMMON4 COMMON1 posdefault:ADVERB ) 
     in_effect~2z in actuality or reality or fact
-    efficaciously~1z 
+    efficaciously~1 
  every_which_way ( meanings=2 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    at_random~1z 
+    at_random~1 
     helter-skelter~3z 
  each_week ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    hebdomadally~1z 
+    hebdomadally~1 
  every_year ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    yearly~3z 
+    yearly~3 
  each_year ( meanings=2 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    every_year~1z 
-    annually~2z 
+    every_year~1 
+    annually~2 
  empirically ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    through_empirical_observation~1z 
+    through_empirical_observation~1 
  especially ( meanings=2 glosses=1 ADVERB EXTENT_ADVERB COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
-    peculiarly~2z 
+    peculiarly~2 
     specially~2z in a special manner
  ex_cathedra ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
     ex_cathedra~1z 
  elaborately ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    intricately~1z 
+    intricately~1 
  elsewhere ( meanings=1 glosses=1 ADVERB COMMON4 COMMON1 GRADE3_4 posdefault:ADVERB ) 
     elsewhere~1z in or to another place
  eschatologically ( meanings=1 glosses=1 ADVERB COMMON1 ) 
@@ -13018,28 +13018,28 @@
  exasperatingly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     exasperatingly~1z in an exasperating manner
  experimentally ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    by_experimentation~1z 
+    by_experimentation~1 
  expressly ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     expressly~1z with specific intentions
  everlastingly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    forever~2z 
+    forever~2 
  eternally ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    everlastingly~1z 
+    everlastingly~1 
  evermore ( meanings=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    eternally~1z 
-    forevermore~1z 
+    eternally~1 
+    forevermore~1 
  energetically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     energetically~1z in an energetic manner
  early_on ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    early~9z 
+    early~9 
  exquisitely ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    delicately~1z 
+    delicately~1 
  evenhandedly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    fair~16z 
+    fair~16 
  erratically ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    unpredictably~1z 
+    unpredictably~1 
  erst ( meanings=1 ADVERB COMMON2 COMMON1 ) 
-    at_one_time~1z 
+    at_one_time~1 
  economically ( meanings=3 glosses=3 ADVERB COMMON4 GRADE5_6 posdefault:ADVERB ) 
     economically~1z with respect to economic science
     economically~2z with respect to the economic system
@@ -13057,18 +13057,18 @@
     episodically~1z in an episodic manner
     episodically~2z 
  evilly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    wickedly~1z 
+    wickedly~1 
  even_a_little ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     in_the_least~2z 
  excitedly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     excitedly~1z with excitement
  en_masse ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    en_bloc~1z 
+    en_bloc~1 
  en_bloc ( meanings=2 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    as_a_group~1z 
+    as_a_group~1 
     en_bloc~2z 
  every_so_often ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    every_now_and_then~1z 
+    every_now_and_then~1 
  every_now_and_then ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     every_so_often~1z 
  every_inch ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
@@ -13078,15 +13078,15 @@
     incisively~1z in a precise manner
     on_the_dot~1z just as it should be
  e.g. ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    for_instance~1z 
+    for_instance~1 
  earnestly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    seriously~2z 
+    seriously~2 
  en_route ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    on_the_way~1z 
+    on_the_way~1 
  exceptionally ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     exceptionally~1z to an exceptional degree
  excellently ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    magnificently~1z 
+    magnificently~1 
  emotionally ( meanings=2 glosses=2 ADVERB COMMON4 posdefault:ADVERB ) 
     emotionally~1z with regard to emotions
     emotionally~2z in an emotional manner
@@ -13098,59 +13098,59 @@
     enthusiastically~1z with enthusiasm
     sky-high~3z in a lavish or enthusiastic manner
  exaggeratedly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    hyperbolically~1z 
+    hyperbolically~1 
  et_al. ( meanings=2 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    et_al~1z 
-    et_alii~1z 
+    et_al~1 
+    et_alii~1 
  et ( meanings=1 CONJUNCTION_COORDINATE COMMON4 COMMON2 COMMON1 KINDERGARTEN ) 
     et~1z 
  et_al ( meanings=2 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    et_alibi~1z 
-    et_aliae~1z 
+    et_alibi~1 
+    et_aliae~1 
  et_alibi ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     et_al.~1z 
  et_alii ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    et_al~2z 
+    et_al~2 
  et_aliae ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     et_alia~1z 
  et_alia ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    et_al.~2z 
+    et_al.~2 
  empathetically ( meanings=2 ADVERB COMMON2 posdefault:ADVERB ) 
-    sympathetically~2z 
+    sympathetically~2 
     empathetically~2z 
  erroneously ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     mistakenly~1z in a mistaken manner
  enormously ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    tremendously~1z 
+    tremendously~1 
  effortlessly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 GRADE5_6 posdefault:ADVERB ) 
     effortlessly~1z without effort or apparent effort
  eagerly ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    thirstily~1z 
+    thirstily~1 
  ever_so ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    ever~3z 
+    ever~3 
  expertly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    like_an_expert~1z 
+    like_an_expert~1 
  enjoyably ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    agreeably~1z 
+    agreeably~1 
  equivocally ( meanings=2 ADVERB COMMON1 posdefault:ADVERB ) 
-    ambiguously~1z 
+    ambiguously~1 
     equivocally~2z 
  endlessly ( meanings=4 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    infinitely~1z 
-    incessantly~2z 
-    interminably~1z 
+    infinitely~1 
+    incessantly~2 
+    interminably~1 
     endlessly~4z without bounds
  editorially ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     editorially~1z by means of an editorial
  exultantly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     exultingly~1z in an exultant manner
  exultingly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    exultantly~1z 
+    exultantly~1 
  externally ( meanings=2 glosses=2 ADVERB COMMON4 posdefault:ADVERB ) 
     outwardly~2z with respect to the outside
     externally~2z on or from the outside
  efficiently ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    expeditiously~1z 
+    expeditiously~1 
  expeditiously ( meanings=2 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     efficiently~1z with efficiency
     expeditiously~2z 
@@ -13167,50 +13167,50 @@
  ex_tempore ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
     off-hand~1z 
  esthetically ( meanings=1 ADVERB COMMON2 ) 
-    aesthetically~1z 
+    aesthetically~1 
  excruciatingly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     torturously~1z in a very painful manner
  endearingly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     adorably~1z in an adorable manner
  eloquently ( meanings=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    articulately~1z 
-    articulately~2z 
+    articulately~1 
+    articulately~2 
  entreatingly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    pleadingly~1z 
+    pleadingly~1 
  enchantingly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    bewitchingly~1z 
+    bewitchingly~1 
  enthrallingly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    enchantingly~1z 
+    enchantingly~1 
  enigmatically ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     mysteriously~1z in a cryptic manner
  enviously ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    covetously~2z 
+    covetously~2 
  eastwards ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     eastward~3z toward the east
  ebulliently ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     expansively~1z in an ebullient manner
  exuberantly ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    ebulliently~1z 
+    ebulliently~1 
     riotously~1z in an exuberant manner
  expansively ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    exuberantly~1z 
+    exuberantly~1 
     expansively~2z in an impressively expansive manner
  ecclesiastically ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     ecclesiastically~1z in an ecclesiastic manner
  ecologically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     ecologically~1z with respect to ecology
  ecstatically ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    rapturously~1z 
+    rapturously~1 
  edgeways ( meanings=2 glosses=2 ADVERB COMMON1 ) 
     edgewise~1z with the edge forward or on, by, or toward the edge
     edgewise~2z as if by an edge
  edgewise ( meanings=2 ADVERB COMMON2 posdefault:ADVERB ) 
-    edgeways~1z 
-    edgeways~2z 
+    edgeways~1 
+    edgeways~2 
  educationally ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     educationally~1z in an educational manner
  eerily ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    spookily~1z 
+    spookily~1 
  effectually ( meanings=2 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     effectually~1z in an effectual manner
     effectually~2z 
@@ -13238,11 +13238,11 @@
     endwise~2z in or toward the direction of the ends
     endwise~3z on end or upright
  endwise ( meanings=3 ADVERB COMMON1 ) 
-    endways~1z 
-    endways~2z 
-    endways~3z 
+    endways~1 
+    endways~2 
+    endways~3 
  end_on ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    endwise~1z 
+    endwise~1 
  enterprisingly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     enterprisingly~1z in an enterprising manner
  entertainingly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -13254,7 +13254,7 @@
  equitably ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     equitably~1z in an equitable manner
  erectly ( meanings=1 ADVERB COMMON1 ) 
-    straight-backed~2z 
+    straight-backed~2 
  eruditely ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     learnedly~1z with erudition
  ethically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -13265,7 +13265,7 @@
     evasively~1z with evasion
  evenly ( meanings=2 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     evenly~1z in a level and regular way
-    equally~2z 
+    equally~2 
  evolutionarily ( meanings=3 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     evolutionarily~1z in an evolutionary way
     evolutionarily~2z 
@@ -13273,9 +13273,9 @@
  excitingly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     excitingly~1z in an exciting manner
  excusably ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    forgivably~1z 
+    forgivably~1 
  exorbitantly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    extortionately~1z 
+    extortionately~1 
  extortionately ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     usuriously~1z to an exorbitant degree
  expediently ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -13293,15 +13293,15 @@
  extemporaneously ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     extemporarily~1z without prior preparation
  extemporarily ( meanings=1 ADVERB COMMON1 ) 
-    extempore~2z 
+    extempore~2 
  explicitly ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     explicitly~1z in an explicit manner
  enquiringly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    inquiringly~1z 
+    inquiringly~1 
  every_night ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     nightly~2z 
  every_quarter ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    quarterly~3z 
+    quarterly~3 
  eccentrically ( meanings=3 glosses=2 ADVERB COMMON2 posdefault:ADVERB ) 
     eccentrically~1z not symmetrically with respect to the center
     eccentrically~2z in an eccentric or bizarre manner

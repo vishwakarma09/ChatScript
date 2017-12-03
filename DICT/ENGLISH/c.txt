@@ -4595,7 +4595,7 @@
     uninfected~1az free from sepsis or infection
     clean~20az 
     plumb~3z completely
-    fairly~3z 
+    fairly~3 
     cleanse~1vz clean one's body or parts thereof, as by washing
     pick~10vz remove unwanted substances from, such as feathers or pits
     clean~25vz remove shells or husks from
@@ -8631,7 +8631,7 @@
     caudal~1az situated in or directed toward the part of the body from which the tail arises
     taillike~1a 
     caudal~3az constituting or relating to a tail
-    caudally~1z 
+    caudally~1 
  class_Insecta ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
     class_Hexapoda~1n 
  class_Hexapoda ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_PROPER_SINGULAR ) 
@@ -11451,7 +11451,7 @@
     Thalidone~1nz (^diuretic_drug~1) a diuretic used to control hypertension and conditions that cause edema
  chock ( meanings=4 glosses=2 VERB_PRESENT VERB_INFINITIVE NOUN VERB ADVERB NOUN_SINGULAR COMMON2 COMMON1 posdefault:NOUN VERB_DIRECTOBJECT ) 
     wedge~1n 
-    chock-a-block~1z 
+    chock-a-block~1 
     chock~3vz support on chocks
     chock~4vz secure with chocks
  choir ( meanings=4 glosses=2 NOUN_ABSTRACT VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR COMMON4 posdefault:NOUN VERB_NOOBJECT ) 
@@ -20151,8 +20151,8 @@
     closely_held_corporation~1nz (^corporation~2) stock is publicly traded but most is held by a few shareholders who have no plans to sell
  closely ( meanings=3 glosses=1 ADVERB COMMON4 COMMON1 posdefault:ADVERB ) 
     closely~1z in a close relation or position in time or space
-    intimately~2z 
-    close~21z 
+    intimately~2 
+    close~21 
  chosen ( meanings=3 glosses=2 NOUN_ABSTRACT VERB_PAST_PARTICIPLE NOUN VERB ADJECTIVE ADJECTIVE_NORMAL ADJECTIVE_PARTICIPLE NOUN_SINGULAR COMMON4 COMMON1 KINDERGARTEN posdefault:VERB ) conjugate=chose 
     elect~1nz (^elite_group~1) an exclusive group of people
     chosen~2nz (^favorite~2) one who is the object of choice
@@ -22102,7 +22102,7 @@
     clockmaker~1nz (^journeyman~1) someone whose occupation is making or repairing clocks and watches
  clockmaker ( meanings=1 NOUN NOUN_SINGULAR COMMON2 posdefault:NOUN ) 
     clocksmith~1n 
- closer ( meanings=1 glosses=1 MORE_FORM ADJECTIVE_NOT_PREDICATE COMMON4 COMMON1 KINDERGARTEN posdefault:ADJECTIVE posdefault:ADVERB ) comparative=close 
+ closer ( meanings=1 glosses=1 MORE_FORM ADVERB ADJECTIVE_NOT_PREDICATE COMMON4 COMMON1 KINDERGARTEN posdefault:ADJECTIVE posdefault:ADVERB ) comparative=close 
     nigher~1z within a shorter distance
  closet_queen ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
     closet_queen~1nz (^shirtlifter~1) a negative term for a homosexual man who chooses not to reveal his sexual orientation
@@ -28371,7 +28371,7 @@
     straight~5a 
     successive~1az in regular succession without gaps
     consecutive~4az 
-    sequentially~1z 
+    sequentially~1 
  cgs ( meanings=1 NOUN NOUN_SINGULAR COMMON2 ) 
     cgs_system~1n 
  cgs_system ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
@@ -31841,7 +31841,7 @@
     cleanable~2az 
  cleanly ( meanings=4 glosses=3 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON2 COMMON1 posdefault:ADVERB ) comparative=cleanliest 
     cleanly~1az habitually clean
-    flawlessly~1z 
+    flawlessly~1 
     cleanly~3z without difficulty or distortion
     cleanly~4z in a manner that minimizes dirt and pollution
  cobwebby ( meanings=3 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 posdefault:ADJECTIVE ) 
@@ -32875,7 +32875,7 @@
  crosswise ( meanings=4 glosses=3 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON2 posdefault:ADVERB ) 
     crosswise~1az in the shape of a cross
     crosswise~2az lying or extending across the length of a thing or in a cross direction
-    across~1z 
+    across~1 
     crosswise~4z not in the intended manner
  canted ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 posdefault:VERB ) 
     atilt~1a 
@@ -33838,7 +33838,7 @@
  commendable ( meanings=3 ADJECTIVE ADVERB ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:ADJECTIVE ) 
     praiseworthy~1a 
     commendable~2az 
-    laudably~1z 
+    laudably~1 
  creditable ( meanings=2 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:ADJECTIVE ) 
     creditable~1az worthy of often limited commendation
     creditable~2az 
@@ -34347,7 +34347,7 @@
     millenarian~2a 
  connubial ( meanings=2 glosses=1 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON2 posdefault:ADJECTIVE ) 
     conjugal~1az of or relating to marriage or to the relationship between a wife and husband
-    conjugally~1z 
+    conjugally~1 
  cross-cultural ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
     cross-cultural~1az dealing with or comparing two or more cultures
  choric ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 posdefault:ADJECTIVE ) 
@@ -35376,7 +35376,7 @@
  cynophobic ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     cynophobic~1az 
  closest ( meanings=1 MOST_FORM ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON4 KINDERGARTEN posdefault:ADJECTIVE ) comparative=closer 
-    nearest~1z 
+    nearest~1 
  cagier ( MORE_FORM ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) comparative=cagey 
  cagiest ( MOST_FORM ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) comparative=cagier 
  cannier ( MORE_FORM ADJECTIVE ADJECTIVE_NORMAL COMMON1 posdefault:ADJECTIVE ) comparative=canny 
@@ -35488,9 +35488,9 @@
  convince ( meanings=1 glosses=1 VERB_PRESENT VERB_INFINITIVE VERB COMMON4 GRADE3_4 posdefault:VERB VERB_TAKES_INDIRECT_THEN_TOINFINITIVE VERB_DIRECTOBJECT COMMON_PARTICIPLE_VERB ) 
     win_over~1vz make agree, understand, or realize the truth or validity of something
  CE ( meanings=1 ADVERB ) 
-    C.E.~1z 
+    C.E.~1 
  C.E. ( meanings=1 ADVERB ) 
-    Common_Era~1z 
+    Common_Era~1 
  Common_Era ( meanings=1 glosses=1 ADVERB ) 
     CE~1z of the period coinciding with the Christian era
  close_to ( meanings=1 PREPOSITION posdefault:ADVERB ) 
@@ -35499,18 +35499,18 @@
     totally~1z to a complete degree or to the full or entire extent 
     completely~2z so as to be complete
  comfortably ( meanings=3 glosses=2 ADVERB COMMON4 posdefault:ADVERB ) 
-    well~16z 
+    well~16 
     comfortably~2z in mental comfort
     comfortably~3z in physical comfort
  considerably ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    well~18z 
+    well~18 
  conjecturally ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     conjecturally~1z in a manner involving or inclined to conjecture and supposition
  consecutively ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     consecutively~1z in a consecutive manner
  constantly ( meanings=2 ADVERB COMMON4 COMMON1 posdefault:ADVERB ) 
-    always~4z 
-    always~5z 
+    always~4 
+    always~5 
  coterminously ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     coterminously~1z in a coterminous manner
  conformably ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -35518,21 +35518,21 @@
  conventionally ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     conventionally~1z in a conventional manner
  curiously ( meanings=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    oddly~1z 
-    inquisitively~1z 
+    oddly~1 
+    inquisitively~1 
  clearly ( meanings=4 glosses=3 ADVERB COMMON4 COMMON1 GRADE5_6 posdefault:ADVERB ) 
     clearly~1z without doubt or question
     distinctly~1z clear to the mind
     understandably~1z in an intelligible manner
-    clear~20z 
+    clear~20 
  circumstantially ( meanings=5 glosses=3 ADVERB COMMON2 posdefault:ADVERB ) 
-    by_chance~1z 
+    by_chance~1 
     minutely~1z in minute detail
     circumstantially~3z insofar as the circumstances are concerned
     circumstantially~4z according to circumstances
     circumstantially~5z 
  currently ( meanings=1 ADVERB COMMON4 COMMON1 posdefault:ADVERB ) 
-    presently~2z 
+    presently~2 
  consequently ( meanings=2 glosses=2 ADVERB COMMON4 KINDERGARTEN posdefault:ADVERB ) 
     accordingly~1z because of the reason given
     therefore~2z as a consequence
@@ -35543,7 +35543,7 @@
  clinically ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     clinically~1z in a clinical manner
  chiefly ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    in_the_main~2z 
+    in_the_main~2 
  catalytically ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     catalytically~1z by catalytic action
     catalytically~2z 
@@ -35561,37 +35561,37 @@
  contemptuously ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     contumeliously~1z without respect
  contumeliously ( meanings=1 ADVERB COMMON1 ) 
-    scornfully~1z 
+    scornfully~1 
  contractually ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     contractually~1z by virtue of a contract
  crazily ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    insanely~2z 
+    insanely~2 
  comically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     comically~1z in a comical manner
  chop-chop ( meanings=1 ADVERB ) 
-    speedily~1z 
+    speedily~1 
  categorically ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    unconditionally~1z 
+    unconditionally~1 
  continually ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     continually~1z seemingly without interruption
  conclusively ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    once_and_for_all~1z 
+    once_and_for_all~1 
  cortically ( meanings=2 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     cortically~1z with respect to the cortex
     cortically~2z 
  commonly ( meanings=1 ADVERB COMMON4 COMMON1 posdefault:ADVERB ) 
-    unremarkably~1z 
+    unremarkably~1 
  centrally ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     centrally~1z in or near or toward a center or according to a central role or function
  collectively ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     conjointly~1z in conjunction with
  conjointly ( meanings=2 ADVERB COMMON2 posdefault:ADVERB ) 
-    jointly~1z 
+    jointly~1 
     conjointly~2z 
  concurrently ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    at_the_same_time~2z 
+    at_the_same_time~2 
  consistently ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    systematically~1z 
+    systematically~1 
  constitutionally ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     constitutionally~1z according to the constitution
  chemically ( meanings=2 glosses=2 ADVERB COMMON4 posdefault:ADVERB ) 
@@ -35614,7 +35614,7 @@
     chromatographically~2z 
  chronically ( meanings=2 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     chronically~1z in a slowly developing and long lasting manner
-    inveterate~2z 
+    inveterate~2 
  contradictorily ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     contradictorily~1z in a contradictory manner
  certainly ( meanings=1 glosses=1 ADVERB COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
@@ -35630,27 +35630,27 @@
     relatively~1z in a relative manner
  crudely ( meanings=2 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     crudely~1z in a crude or unrefined manner
-    artlessly~2z 
+    artlessly~2 
  communally ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     communally~1z by a group of people rather than an individual
  cooperatively ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    hand_in_glove~1z 
+    hand_in_glove~1 
  cheek_by_jowl ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     cheek_by_jowl~1z 
  carelessly ( meanings=3 glosses=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     heedlessly~1z without care or concern
     raffishly~1z in a rakish manner
-    incautiously~1z 
+    incautiously~1 
  coldly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    in_cold_blood~1z 
+    in_cold_blood~1 
  confidentially ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     confidentially~1z in a confidential manner
  contrarily ( meanings=2 ADVERB COMMON2 posdefault:ADVERB ) 
-    contrariwise~1z 
-    contrariwise~3z 
+    contrariwise~1 
+    contrariwise~3 
  contrariwise ( meanings=3 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    to_the_contrary~1z 
-    vice_versa~1z 
+    to_the_contrary~1 
+    vice_versa~1 
     perversely~2z in a contrary disobedient manner
  courageously ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     bravely~1z in a courageous manner
@@ -35661,20 +35661,20 @@
  considerately ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     considerately~1z in a considerate manner
  confessedly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    avowedly~1z 
+    avowedly~1 
  critically ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     critically~1z in a critical manner
  competently ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     capably~1z with competence
  capably ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    ably~1z 
+    ably~1 
  calmly ( meanings=2 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     calmly~1z with self-possession 
-    sedately~1z 
+    sedately~1 
  cozily ( meanings=1 glosses=1 ADVERB COMMON2 ) 
     cosily~1z in a cozy manner
  cosily ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    cozily~1z 
+    cozily~1 
  correspondingly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     correspondingly~1z in a corresponding manner
  cleverly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -35686,7 +35686,7 @@
  cf. ( meanings=1 glosses=1 ADVERB COMMON4 ) 
     cf~1z compare
  cf ( meanings=1 ADVERB COMMON4 ) 
-    cf.~1z 
+    cf.~1 
  continuously ( meanings=2 glosses=2 ADVERB COMMON4 posdefault:ADVERB ) 
     continuously~1z at every point
     unendingly~1z with unflagging resolve
@@ -35705,35 +35705,35 @@
  contumaciously ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     defiantly~1z in a rebellious manner
  cussedly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    obstinately~1z 
+    obstinately~1 
  correctly ( meanings=1 ADVERB COMMON4 COMMON1 posdefault:ADVERB ) 
-    right~29z 
+    right~29 
  charitably ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     charitably~1z in a charitable manner
  conspicuously ( meanings=2 glosses=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     prominently~1z in a prominent way
     conspicuously~2z in a manner tending to attract attention
  confusingly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    bewilderingly~1z 
+    bewilderingly~1 
  customarily ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     customarily~1z by custom
  crisply ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    sharply~2z 
+    sharply~2 
  confidently ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     confidently~1z with confidence
  copiously ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    abundantly~1z 
+    abundantly~1 
  contritely ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    remorsefully~1z 
+    remorsefully~1 
  courteously ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     politely~1z in a polite manner
  cheerily ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    pleasantly~2z 
+    pleasantly~2 
  cordially ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     warmly~1z in a hearty manner
  ceremonially ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     ritually~1z in a ceremonial manner
-    ceremoniously~1z 
+    ceremoniously~1 
  ceremoniously ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     ceremonially~2z in a ceremonious manner
  cheerfully ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -35753,34 +35753,34 @@
  compassionately ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     pityingly~1z in a compassionate manner
  callously ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    unfeelingly~1z 
+    unfeelingly~1 
  crookedly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    lopsidedly~1z 
+    lopsidedly~1 
  consciously ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     consciously~1z with awareness
  casually ( meanings=2 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    nonchalantly~1z 
+    nonchalantly~1 
     casually~2z not methodically or according to plan
  commensally ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     commensally~1z in a commensal manner
  competitively ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     competitively~1z in competition
  compulsively ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    obsessively~1z 
+    obsessively~1 
  classically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     classically~1z in the manner of Greek and Roman culture
  characteristically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     characteristically~1z in characteristic manner
  cap-a-pie ( meanings=1 ADVERB ) 
-    from_head_to_toe~1z 
+    from_head_to_toe~1 
  chock-a-block ( meanings=1 glosses=1 ADVERB ) 
     chock~2z as completely as possible
  cloyingly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     cloyingly~1z in an overly sweet manner
  C.O.D. ( meanings=1 ADVERB ) 
-    COD~1z 
+    COD~1 
  COD ( meanings=1 ADVERB COMMON1 ) 
-    cash_on_delivery~1z 
+    cash_on_delivery~1 
  cash_on_delivery ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     C.O.D.~1z 
  counterintuitively ( meanings=1 glosses=1 ADVERB COMMON1 ) 
@@ -35788,16 +35788,16 @@
  ceteris_paribus ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
     ceteris_paribus~1z 
  crossways ( meanings=1 ADVERB COMMON2 posdefault:NOUN ) 
-    crosswise~3z 
+    crosswise~3 
  covetously ( meanings=2 glosses=1 ADVERB COMMON1 ) 
-    avariciously~1z 
+    avariciously~1 
     jealously~1z with jealousy
  captivatingly ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     enthrallingly~1z in a bewitching manner
  chirpily ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    buoyantly~1z 
+    buoyantly~1 
  cagily ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    circumspectly~1z 
+    circumspectly~1 
  circumspectly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     cagily~1z in a cagey manner
  cantankerously ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
@@ -35808,29 +35808,29 @@
  captiously ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     captiously~1z in a captious, carping manner
  caustically ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    vitriolically~1z 
+    vitriolically~1 
  cautiously ( meanings=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    carefully~2z 
-    conservatively~1z 
+    carefully~2 
+    conservatively~1 
  charily ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     charily~1z with great caution
  cavalierly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    disdainfully~2z 
+    disdainfully~2 
  ceaselessly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    endlessly~2z 
+    endlessly~2 
  centennially ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     centennially~1z every hundred years
  chaotically ( meanings=2 glosses=2 ADVERB COMMON2 posdefault:ADVERB ) 
     chaotically~1z in a manner suggestive of chaos
     chaotically~2z in a wild and confused manner
  chastely ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    virtuously~1z 
+    virtuously~1 
  chattily ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     volubly~1z in a chatty manner
  cheaply ( meanings=3 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    inexpensively~1z 
-    inexpensively~2z 
-    stingily~1z 
+    inexpensively~1 
+    inexpensively~2 
+    stingily~1 
  cheekily ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     brashly~1z in a brash cheeky manner
  chivalrously ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
@@ -35843,23 +35843,23 @@
  clannishly ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     cliquishly~1z in a clannish manner
  cliquishly ( meanings=1 ADVERB COMMON1 ) 
-    clannishly~1z 
+    clannishly~1 
  climatically ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     climatically~1z with respect to climate
  coaxingly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    cajolingly~1z 
+    cajolingly~1 
  cajolingly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     coaxingly~1z in a cajoling manner
  coherently ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     coherently~1z in a coherent manner
  colloquially ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    conversationally~1z 
+    conversationally~1 
  conversationally ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     informally~2z with the use of colloquial expressions
  collectedly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     composedly~1z in a self-collected or self-possessed manner
  composedly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    collectedly~1z 
+    collectedly~1 
  colloidally ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     colloidally~1z in a colloidal manner
  combatively ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
@@ -35867,10 +35867,10 @@
  comfortingly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     consolingly~1z in a comforting or consoling manner
  consolingly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    comfortingly~1z 
+    comfortingly~1 
  compactly ( meanings=4 glosses=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     compactly~1z taking up no more space than necessary
-    succinctly~1z 
+    succinctly~1 
     compactly~3z in a compact manner or state
     compactly~4z 
  compatibly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -35886,13 +35886,13 @@
  computationally ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     computationally~1z with regard to computation
  conceitedly ( meanings=1 ADVERB COMMON1 ) 
-    self-conceitedly~1z 
+    self-conceitedly~1 
  conceptually ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     conceptually~1z in a conceptual manner
  concernedly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     concernedly~1z in a manner showing concern
  concisely ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    briefly~2z 
+    briefly~2 
  conically ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     conically~1z in a conical manner
  cynically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -35904,12 +35904,12 @@
     cytoplasmically~1z by means of cytoplasm
     cytoplasmically~2z 
  cursorily ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    quickly~3z 
+    quickly~3 
  cumulatively ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     cumulatively~1z in a cumulative manner
  criminally ( meanings=2 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     criminally~1z in violation of the law
-    reprehensively~1z 
+    reprehensively~1 
  coyly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     coyly~1z in a coy manner
  condescendingly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -35923,9 +35923,9 @@
  counteractively ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     counteractively~1z in a counteractive manner
  crossly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    grouchily~1z 
+    grouchily~1 
  craftily ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    cunningly~1z 
+    cunningly~1 
  cunningly ( meanings=2 glosses=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     trickily~1z in an artful manner
     cutely~1z in an attractive manner
@@ -35940,21 +35940,21 @@
  contrastingly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     contrastingly~1z in a contrasting manner
  coolly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    nonchalantly~2z 
+    nonchalantly~2 
  credibly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    believably~2z 
+    believably~2 
  credulously ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     believingly~1z in a credulous manner
  cryptically ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    enigmatically~1z 
+    enigmatically~1 
  cryptographically ( meanings=1 glosses=1 ADVERB COMMON2 ) 
     cryptographically~1z in a cryptographic manner
  cutely ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    cunningly~2z 
+    cunningly~2 
  curtly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    shortly~5z 
+    shortly~5 
  cursedly ( meanings=1 ADVERB COMMON1 ) 
-    damned~4z 
+    damned~4 
  congenially ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     congenially~1z in a congenial manner
  contagiously ( meanings=1 glosses=1 ADVERB COMMON1 ) 
@@ -35964,19 +35964,19 @@
  convivially ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     convivially~1z in a convivial manner
  coquettishly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    flirtatiously~1z 
+    flirtatiously~1 
  creakily ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    creakingly~1z 
+    creakingly~1 
  creakingly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     screakily~1z in a creaky manner
  crushingly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     crushingly~1z in a crushing manner
  culpably ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    reprehensibly~1z 
+    reprehensibly~1 
  currishly ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     ignobly~1z in a currish manner
  candidly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    honestly~2z 
+    honestly~2 
  confidingly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     trustfully~2z with trust
  civilly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -35989,25 +35989,25 @@
  comparably ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     comparably~1z in a comparable manner or to a comparable degree
  close_up ( meanings=5 VERB_PRESENT VERB_INFINITIVE VERB ADVERB VERB_DIRECTOBJECT VERB_NOOBJECT PHRASAL_VERB VERB_CONJUGATE1 ) 
-    at_close_range~1z 
+    at_close_range~1 
     button_up~1v 
     close~24v 
     jam~6v 
     fold~12v 
  clamorously ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    obstreperously~1z 
+    obstreperously~1 
  confoundedly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     perplexedly~1z in a perplexed manner
  cannily ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    presciently~1z 
+    presciently~1 
  carnally ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     carnally~1z in a carnal manner
  creditably ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    respectably~2z 
+    respectably~2 
  coastward ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     coastward~1z in the direction of the coast
  calumniously ( meanings=1 ADVERB COMMON1 ) 
-    slanderously~1z 
+    slanderously~1 
  chintzily ( meanings=1 glosses=1 ADVERB ) 
     cheaply~3z in a stingy manner
  clammily ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
@@ -36024,7 +36024,7 @@
     coordinately~1z in a coordinated manner
     coordinately~2z 
  corruptly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    corruptedly~1z 
+    corruptedly~1 
  corruptedly ( meanings=1 glosses=1 ADVERB ) 
     corruptly~1z in a corrupt manner
  caudally ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -36037,7 +36037,7 @@
  coincidentally ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     coincidently~1z happening at the same time
  coincidently ( meanings=2 ADVERB COMMON2 posdefault:ADVERB ) 
-    coincidentally~1z 
+    coincidentally~1 
     coincidently~2z 
  contextually ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     contextually~1z in a manner dependent on context

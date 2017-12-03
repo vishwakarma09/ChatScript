@@ -753,6 +753,8 @@ static  bool ReadFileData(char* bot) // passed  buffer with file content (where 
 	}
 	userRecordSourceBuffer = NULL;
 	if (traceUniversal) trace = traceUniversal;
+
+	if (!stricmp(traceuser, loginID)) trace = -1;
 	return true;
 }
 

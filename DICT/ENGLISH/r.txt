@@ -2299,7 +2299,7 @@
     pear-shaped~1az full and rich
     circular~3az having a circular shape
     round~18az 
-    around~4z 
+    around~4 
     fill_out~1vz become round, plump, or shapely
     round_off~1vz make round
     round_down~1vz express as a round number
@@ -2449,7 +2449,7 @@
     right~21az in conformance with justice or law or morality
     right~22az in or into a satisfactory condition
     right~23az 
-    powerful~7z 
+    powerful~7 
     flop~5z exactly
     right~26z immediately
     right_on~1z an interjection expressing agreement
@@ -2649,7 +2649,7 @@
     real~11az fixed or immovable
     actual~5a 
     real~13az 
-    rattling~4z 
+    rattling~4 
  rouge_et_noir ( meanings=1 NOUN NOUN_SINGULAR ) 
     trente-et-quarante~1n 
  rouge ( meanings=2 glosses=1 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR COMMON2 COMMON1 NOUN_NODETERMINER posdefault:NOUN VERB_DIRECTOBJECT ) 
@@ -8694,7 +8694,7 @@
     rant~2n 
  raving ( meanings=2 glosses=1 NOUN_ABSTRACT NOUN ADVERB NOUN_SINGULAR COMMON2 COMMON1 posdefault:VERB ) 
     raving~1nz (^declamation~1) declaiming wildly
-    ravingly~1z 
+    ravingly~1 
  remonstrance ( meanings=1 NOUN NOUN_SINGULAR COMMON2 NOUN_NODETERMINER posdefault:NOUN ) 
     objection~4n 
  remonstration ( meanings=1 NOUN NOUN_SINGULAR COMMON1 posdefault:NOUN ) 
@@ -8801,7 +8801,7 @@
     rattle~3n 
     alert~6a 
     howling~2a 
-    very~3z 
+    very~3 
  rale ( meanings=1 NOUN NOUN_SINGULAR COMMON2 ) 
     rattling~1n 
  rhonchus ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON1 ) plural=rhonchi 
@@ -9586,7 +9586,7 @@
     rearward~1nz (^backside~2) direction toward the rear
     rear~6az located in or toward the back or rear
     reverse~8az directed or moving toward the rear
-    back~14z 
+    back~14 
  red_line ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     red_line~1nz (^line~24) a line that is colored red and that bisects an ice hockey rink
  rifle_shot ( meanings=1 NOUN NOUN_SINGULAR ) 
@@ -14426,7 +14426,7 @@
     respectable~4az 
  right_smart ( meanings=2 glosses=1 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE ) 
     right_smart~1az considerable
-    way~13z 
+    way~13 
  reincarnate ( meanings=3 glosses=2 VERB_PRESENT VERB_INFINITIVE VERB ADJECTIVE ADJECTIVE_NORMAL COMMON2 posdefault:VERB VERB_DIRECTOBJECT VERB_NOOBJECT ) 
     reincarnate~1az having a new body
     renew~1vz cause to appear in a new form
@@ -14669,7 +14669,7 @@
     rheumy~2az moist, damp, wet 
  regardless ( meanings=3 ADJECTIVE ADVERB ADJECTIVE_NORMAL COMMON4 COMMON1 posdefault:ADVERB ) 
     careless~3a 
-    irrespective~2z 
+    irrespective~2 
     regardless~3z 
  reformative ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 posdefault:ADJECTIVE ) 
     reformatory~2a 
@@ -15839,51 +15839,51 @@
     loosen_up~5vz become less tense, less formal, or less restrained, and assume a friendlier manner
  regardlessbelow_the_belt ( ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM ADJECTIVE_NOT_PREDICATE  poscondition=(null) ) 
  roughly ( meanings=3 ADVERB COMMON4 posdefault:ADVERB ) 
-    just_about~1z 
-    rough~17z 
-    rough~18z 
+    just_about~1 
+    rough~17 
+    rough~18 
  rather ( meanings=5 glosses=3 ADVERB PREDETERMINER COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
     sort_of~1z to some extent
     quite~2z to a degree 
-    instead~2z 
+    instead~2 
     sooner~1z more readily or willingly
     rather~5z 
  really ( meanings=4 glosses=3 ADVERB EXTENT_ADVERB COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
     real~14z used as intensifiers
     genuinely~1z in accordance with truth or fact or reality
     in_truth~1z in fact 
-    actually~2z 
+    actually~2 
  reasonably ( meanings=2 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    pretty~4z 
+    pretty~4 
     sensibly~1z with good sense or in a reasonable or intelligent manner
  regrettably ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    unluckily~1z 
+    unluckily~1 
  right_away ( meanings=2 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    directly~1z 
-    promptly~2z 
+    directly~1 
+    promptly~2 
  rottenly ( meanings=1 ADVERB COMMON1 ) 
-    abysmally~1z 
+    abysmally~1 
  reproducibly ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     reproducibly~1z in a manner that is reproducible
     reproducibly~2z 
  right_along ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     all_along~1z 
  randomly ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    indiscriminately~1z 
+    indiscriminately~1 
  rearwards ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    backwards~1z 
+    backwards~1 
  rapidly ( meanings=1 ADVERB COMMON4 COMMON1 posdefault:ADVERB ) 
-    quickly~1z 
+    quickly~1 
  reluctantly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     reluctantly~1z with reluctance
  readily ( meanings=2 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    promptly~1z 
+    promptly~1 
     readily~2z without much difficulty
  responsibly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     responsibly~1z in a responsible manner
  remarkably ( meanings=2 ADVERB COMMON4 posdefault:ADVERB ) 
-    outstandingly~1z 
-    unmistakably~2z 
+    outstandingly~1 
+    unmistakably~2 
  realistically ( meanings=2 glosses=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     realistically~1z in a realistic manner
     realistically~2z in a realistic manner
@@ -15892,7 +15892,7 @@
  rewardingly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     rewardingly~1z in a rewarding manner
  royally ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    like_kings~1z 
+    like_kings~1 
  relativistically ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     relativistically~1z by the theory of relativity
  racially ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -15904,13 +15904,13 @@
  rurally ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     rurally~1z in a rural manner
  right_on ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    right~27z 
+    right~27 
  round_the_clock ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    for_24_hours~1z 
+    for_24_hours~1 
  relatively ( meanings=1 ADVERB COMMON4 COMMON1 posdefault:ADVERB ) 
-    comparatively~1z 
+    comparatively~1 
  reprovingly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    reproachfully~1z 
+    reproachfully~1 
  reproachfully ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     reprovingly~1z in a reproving or reproachful manner
  reciprocally ( meanings=4 glosses=3 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -15924,30 +15924,30 @@
     radically~1z in a radical manner
  religiously ( meanings=2 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     sacredly~1z by religion
-    scrupulously~1z 
+    scrupulously~1 
  rationally ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     rationally~1z in a rational manner
  richly ( meanings=3 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    extravagantly~1z 
-    high~19z 
+    extravagantly~1 
+    high~19 
     amply~2z to an ample degree or in an ample manner
  reflexly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     reflexly~1z in a reflex manner
  rigidly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    bolt~8z 
+    bolt~8 
  regularly ( meanings=3 glosses=2 ADVERB COMMON4 COMMON1 posdefault:ADVERB ) 
-    on_a_regular_basis~1z 
+    on_a_regular_basis~1 
     regularly~2z in a regular way without variation
     regularly~3z having a regular form
  rebelliously ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    contumaciously~1z 
+    contumaciously~1 
  raucously ( meanings=2 glosses=2 ADVERB COMMON2 posdefault:ADVERB ) 
     raucously~1z with a raucous sound
     rowdily~1z in a rowdy manner
  reportedly ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     reportedly~1z according to reports or other information
  rightly ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    justifiedly~1z 
+    justifiedly~1 
  restlessly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     restlessly~1z in a restless manner
  routinely ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
@@ -15955,31 +15955,31 @@
  retroactively ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     retroactively~1z after the fact
  relentlessly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    unrelentingly~1z 
+    unrelentingly~1 
  ruefully ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    contritely~1z 
+    contritely~1 
  remorsefully ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     ruefully~1z in a rueful manner
  rudely ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    impolitely~1z 
+    impolitely~1 
  ritually ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    ceremonially~1z 
+    ceremonially~1 
  rakishly ( meanings=2 ADVERB COMMON1 posdefault:ADVERB ) 
-    carelessly~2z 
+    carelessly~2 
     rakishly~2z 
  raffishly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    rakishly~1z 
+    rakishly~1 
  rollickingly ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     boisterously~1z in a carefree manner
  rightfully ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    truly~3z 
+    truly~3 
  reliably ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    dependably~1z 
+    dependably~1 
  rigorously ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     strictly~2z in a rigorous manner
  roundly ( meanings=2 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     roundly~1z in a round manner
-    brusquely~1z 
+    brusquely~1 
  restively ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     restively~1z in a restive manner
  resolutely ( meanings=2 glosses=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -15995,34 +15995,34 @@
  repulsively ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     odiously~1z in an offensive and hateful manner
  revoltingly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    disgustingly~1z 
+    disgustingly~1 
  reputably ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     reputably~1z in a reputable manner
  respectfully ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     respectfully~1z in a respectful manner
  rapturously ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    rhapsodically~1z 
+    rhapsodically~1 
  rhapsodically ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     ecstatically~1z in an ecstatic manner
  riotously ( meanings=2 ADVERB COMMON2 posdefault:ADVERB ) 
-    exuberantly~2z 
-    tumultuously~1z 
+    exuberantly~2 
+    tumultuously~1 
  resplendently ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    gorgeously~1z 
+    gorgeously~1 
  raspingly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    gratingly~1z 
+    gratingly~1 
  rashly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    headlong~4z 
+    headlong~4 
  recklessly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     recklessly~1z in a reckless manner
  ravenously ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     hungrily~1z in the manner of someone who is very hungry
  readably ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    legibly~1z 
+    legibly~1 
  repentantly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    penitently~1z 
+    penitently~1 
  ridiculously ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    preposterously~1z 
+    preposterously~1 
  remorselessly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     mercilessly~1z without pity
  rhythmically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -16032,17 +16032,17 @@
  regretfully ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     regretfully~1z with regret 
  restfully ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    quietly~4z 
+    quietly~4 
  racily ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     racily~1z in a racy manner
  radiantly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     radiantly~1z in a radiant manner
  raggedly ( meanings=3 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     jaggedly~1z with a ragged and uneven appearance
-    stragglingly~1z 
-    unevenly~3z 
+    stragglingly~1 
+    unevenly~3 
  rampantly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    wild~18z 
+    wild~18 
  rapaciously ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     rapaciously~1z in a rapacious manner
  ravingly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
@@ -16061,7 +16061,7 @@
     refreshingly~1z in a pleasantly novel manner
     refreshfully~1z in a manner that relieves fatigue and restores vitality
  refreshfully ( meanings=1 ADVERB COMMON1 ) 
-    refreshingly~2z 
+    refreshingly~2 
  regally ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     regally~1z in a regal manner
  relevantly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -16074,7 +16074,7 @@
  repellently ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     repellingly~1z in a repellent manner
  repellingly ( meanings=1 ADVERB COMMON1 ) 
-    repellently~1z 
+    repellently~1 
  repetitively ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     repetitively~1z in a repetitive manner
  reputedly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -16106,7 +16106,7 @@
  reverentially ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     reverently~1z with reverence
  reverently ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    reverentially~1z 
+    reverentially~1 
  reversely ( meanings=2 glosses=1 ADVERB COMMON2 ) 
     reversely~1z in an opposite way
     reversely~2z 
@@ -16125,20 +16125,20 @@
     romantically~1z in a romantic manner
     romantically~2z in a romantic manner
  roomily ( meanings=1 ADVERB COMMON1 ) 
-    spaciously~1z 
+    spaciously~1 
  rotationally ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     rotationally~1z in a rotational manner
     rotationally~2z 
  rotundly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    sonorously~1z 
+    sonorously~1 
  rowdily ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    raucously~2z 
+    raucously~2 
  ruinously ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     ruinously~1z in a ruinous manner or to a ruinous degree
  ruthlessly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     ruthlessly~1z in a ruthless manner
  ramblingly ( meanings=1 ADVERB COMMON1 ) 
-    discursively~1z 
+    discursively~1 
  ruggedly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     ruggedly~1z in a rugged manner
  redly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 

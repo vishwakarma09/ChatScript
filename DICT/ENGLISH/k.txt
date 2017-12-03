@@ -4575,7 +4575,7 @@
  knee-deep ( meanings=3 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE posdefault:ADVERB ) 
     ankle-deep~1a 
     knee-deep~2az 
-    knee-high~3z 
+    knee-high~3 
  kaput ( meanings=2 ADJECTIVE ADJECTIVE_NORMAL ADJECTIVE_ONLY_PREDICATE COMMON2 posdefault:ADJECTIVE ) 
     done_for~1a 
     kaput~2az 
@@ -4743,19 +4743,19 @@
  kookier ( MORE_FORM ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) comparative=kooky 
  kookiest ( MOST_FORM ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) comparative=kookier 
  kinda ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    rather~1z 
+    rather~1 
  kinesthetically ( meanings=1 ADVERB COMMON1 ) 
-    kinaesthetically~1z 
+    kinaesthetically~1 
  kinaesthetically ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     kinesthetically~1z in a kinesthetic manner
  knowingly ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    wittingly~1z 
+    wittingly~1 
  knavishly ( meanings=1 ADVERB COMMON1 ) 
-    foxily~1z 
+    foxily~1 
  keenly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     keenly~1z in a keen and discriminating manner
  killingly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    sidesplittingly~1z 
+    sidesplittingly~1 
  kinetically ( meanings=2 ADVERB COMMON2 posdefault:ADVERB ) 
     kinetically~1z 
     kinetically~2z 

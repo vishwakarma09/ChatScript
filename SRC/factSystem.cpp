@@ -1119,10 +1119,6 @@ FACT* CreateFastFact(FACTOID_OR_MEANING subject, FACTOID_OR_MEANING verb, FACTOI
 	WORDP s = (properties & FACTSUBJECT) ? NULL : Meaning2Word(subject);
 	WORDP v = (properties & FACTVERB) ? NULL : Meaning2Word(verb);
 	WORDP o = (properties & FACTOBJECT) ? NULL : Meaning2Word(object);
-	if (properties & FACTDEAD) // except for special internal system facts, this shouldnt happen - unless user intends it
-	{
-		int xx = 0;
-	}
 	// DICTIONARY should never be build with any but simple meanings and Mis
 	// No fact meaning should ever have a synset marker on it. And member facts may have type restrictions on them
 	if (s && ((subject & (-1 ^ SIMPLEMEANING) && verb == Mis) || subject&SYNSET_MARKER))

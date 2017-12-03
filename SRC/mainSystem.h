@@ -79,6 +79,7 @@ extern int inputRetryRejoinderTopic;
 extern int inputRetryRejoinderRuleID;
 extern bool build0Requested;
 extern bool build1Requested;
+extern char traceuser[500];
 extern bool callback;
 extern char inputCopy[INPUT_BUFFER_SIZE]; 
 extern unsigned char responseOrder[MAX_RESPONSE_SENTENCES+1];

@@ -1169,7 +1169,7 @@
     spare~9az not taken up by scheduled activities
     gratis~1az costing nothing
     free~11az 
-    loose~14z 
+    loose~14 
     unfreeze~1vz make available
     absolve~1vz let off the hook
     disengage~2vz free or remove obstruction from
@@ -1253,8 +1253,8 @@
     fairish~2az not excessive or extreme
     middling~2a 
     fair~15az 
-    fairly~2z 
-    clean~22z 
+    fairly~2 
+    clean~22 
     fair~18vz join so that the external surfaces blend smoothly
  foul_ball ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
     foul_ball~1nz (^foul~1) a ball struck with the bat so that it does not stay between the lines (the foul lines) that define the width of the playing field
@@ -1447,7 +1447,7 @@
     fast~11az conducive to rapid speeds
     fast~12az 
     fast~13z quickly or rapidly 
-    tight~15z 
+    tight~15 
     fast~15vz abstain from eating
     fast~16vz abstain from certain foods, as for religious or medical reasons
  feint ( meanings=2 glosses=2 NOUN_ABSTRACT VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR COMMON2 posdefault:NOUN VERB_DIRECTOBJECT ) 
@@ -1724,9 +1724,9 @@
     forward~4az of the transmission gear causing forward movement in a motor vehicle
     forward~5az used of temperament or behavior
     forward-moving~1az moving forward
-    onward~1z 
+    onward~1 
     forrard~1z at or to or toward the front
-    ahead~8z 
+    ahead~8 
     forth~2z forward in time or order or degree
     fore~3z near or toward the bow of a ship or cockpit of a plane
     send_on~1vz send or ship onward from an intermediate post or station in transit
@@ -1795,7 +1795,7 @@
     bust~4n 
     washout~1nz (^failure~4) someone who is unsuccessful
     floating-point_operation~1nz (^computer_operation~1) an arithmetic operation performed on floating-point numbers
-    right~25z 
+    right~25 
     flop~6z with a flopping sound
     flop~7vz fall suddenly and abruptly
     flop~8vz fall loosely
@@ -2014,7 +2014,7 @@
     floating~7az 
  full_gainer ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 
     gainer~1nz (^dive~2) a dive in which the diver throws the feet forward to complete a full backward somersault and enters the water feet first and facing away from the diving board
- full ( meanings=13 glosses=8 VERB_PRESENT VERB_INFINITIVE VERB ADJECTIVE ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:ADJECTIVE VERB_DIRECTOBJECT VERB_NOOBJECT ) comparative=fuller 
+ full ( meanings=13 glosses=8 VERB_PRESENT VERB_INFINITIVE VERB ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:ADJECTIVE VERB_DIRECTOBJECT VERB_NOOBJECT ) comparative=fuller 
     good~6az having the normally expected amount
     wide-cut~1az having ample fabric
     total~3a 
@@ -2024,7 +2024,7 @@
     full~7az having marked deepness and body
     replete~2az filled to satisfaction with food or drink
     full~9az 
-    fully~1z 
+    fully~1 
     wax~4vz increase in phase
     full~12vz make fuller by pleating or gathering
     full~13vz beat for the purpose of cleaning and thickening
@@ -3577,7 +3577,7 @@
  fore ( meanings=3 glosses=1 NOUN ADJECTIVE ADVERB ADJECTIVE_NORMAL NOUN_SINGULAR ADJECTIVE_NOT_PREDICATE COMMON4 NOUN_NODETERMINER posdefault:NOUN ) 
     stem~2n 
     fore~2az situated at or toward the bow of a vessel
-    forward~11z 
+    forward~11 
  fossorial_foot ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
     fossorial_foot~1nz (^foot~2) foot adapted for digging as in moles
  fossorial ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
@@ -3949,7 +3949,7 @@
     savourless~1az lacking taste or flavor or tang
     compressed~3az flattened laterally along the whole length
     flat~23az 
-    straight~21z 
+    straight~21 
     flat~25z with flat sails
  fish_tank ( meanings=1 NOUN NOUN_SINGULAR ) 
     aquarium~1n 
@@ -3964,7 +3964,7 @@
     fine~6az of textures that are smooth to the touch or substances consisting of relatively small particles
     fine~7az thin in thickness or diameter
     fine~8az 
-    all_right~3z 
+    all_right~3 
     exquisitely~1z in a delicate manner
     ticket~7v 
  flight_indicator ( meanings=1 NOUN NOUN_SINGULAR ) 
@@ -5277,7 +5277,7 @@
     fortissimo~1n 
     metier~2n 
     loud~2a 
-    loudly~2z 
+    loudly~2 
  fortress ( meanings=1 NOUN NOUN_SINGULAR COMMON4 GRADE5_6 ) 
     fort~1n 
  fort ( meanings=5 glosses=5 VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR COMMON4 GRADE1_2 posdefault:NOUN VERB_DIRECTOBJECT VERB_NOOBJECT ) 
@@ -6204,7 +6204,7 @@
  fortissimo ( meanings=3 glosses=2 NOUN_ABSTRACT NOUN ADJECTIVE ADVERB ADJECTIVE_NORMAL NOUN_SINGULAR ADJECTIVE_NOT_PREDICATE COMMON2 posdefault:NOUN ) 
     forte~2nz (^volume~2) loud
     fortissimo~2az chiefly a direction or description in music
-    very_loudly~1z 
+    very_loudly~1 
  flavorsomeness ( meanings=1 NOUN NOUN_SINGULAR ) 
     flavoursomeness~1n 
  flavoursomeness ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR ) 
@@ -11842,7 +11842,7 @@
  foursquare ( meanings=4 glosses=2 NOUN ADJECTIVE ADVERB ADJECTIVE_NORMAL NOUN_SINGULAR ADJECTIVE_NOT_PREDICATE COMMON2 posdefault:NOUN ) 
     square~7n 
     foursquare~2az characterized by firm and unwavering conviction
-    squarely~1z 
+    squarely~1 
     foursquare~4z in a square position
  furcation ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR COMMON2 ) 
     forking~2nz (^angular_shape~1) the place where something divides into branches
@@ -12830,7 +12830,7 @@
  fooey ( INTERJECTION ) 
  fain ( meanings=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON2 COMMON1 posdefault:ADVERB ADJECTIVE_GOOD_SUBJECT_COMPLEMENT ) 
     inclined~3a 
-    gladly~1z 
+    gladly~1 
  feign ( meanings=2 VERB_PRESENT VERB_INFINITIVE VERB COMMON2 COMMON1 GRADE5_6 posdefault:VERB VERB_TAKES_TOINFINITIVE VERB_DIRECTOBJECT QUOTEABLE_VERB ) 
     affect~4v 
     assume~5v 
@@ -12846,7 +12846,7 @@
     for~2z 
  finally ( meanings=3 glosses=2 ADVERB COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB TIMEWORD ) 
     at_long_last~1z as the end result of a succession or process
-    eventually~1z 
+    eventually~1 
     in_conclusion~1z the item at the end
  fortnightly ( meanings=2 glosses=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON2 COMMON1 KINDERGARTEN posdefault:ADJECTIVE posdefault:ADVERB TIMEWORD ) 
     biweekly~3az occurring every two weeks
@@ -12960,8 +12960,8 @@
     frontmost~1a 
     world-class~1a 
     foremost~3az situated closest to the bow
-    first~2z 
-    first~4z 
+    first~2 
+    first~4 
  frontmost ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 ) 
     foremost~1az preceding all others in spatial position
  full-face ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
@@ -13188,12 +13188,12 @@
     utmost~2a 
  furthest ( meanings=3 MOST_FORM ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON2 COMMON1 KINDERGARTEN ) comparative=further 
     furthermost~1a 
-    farthest~2z 
-    farthest~3z 
+    farthest~2 
+    farthest~3 
  further ( meanings=6 glosses=3 MORE_FORM VERB_PRESENT VERB_INFINITIVE VERB ADJECTIVE ADVERB ADJECTIVE_NORMAL EXTENT_ADVERB ADJECTIVE_NOT_PREDICATE COMMON4 COMMON1 KINDERGARTEN posdefault:VERB VERB_DIRECTOBJECT ) comparative=farthest 
     farther~2a 
-    farther~3z 
-    farther~4z 
+    farther~3 
+    farther~4 
     further~4z in addition or furthermore
     foster~4vz promote the growth of
     promote~5vz contribute to the progress or growth of
@@ -13371,7 +13371,7 @@
     neat~2a 
  forthright ( meanings=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON2 COMMON1 posdefault:ADJECTIVE ) 
     point-blank~2a 
-    squarely~4z 
+    squarely~4 
  free-spoken ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     forthright~1a 
  flat-footed ( meanings=4 glosses=4 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
@@ -13930,7 +13930,7 @@
  face-to-face ( meanings=3 glosses=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE posdefault:ADJECTIVE ) 
     face-to-face~1az in each other's presence
     face-to-face~2z within each other's presence
-    opposite~12z 
+    opposite~12 
  four-petaled ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     four-petalled~1a 
  four-petalled ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
@@ -13985,7 +13985,7 @@
     flaunty~2az 
  firsthand ( meanings=2 glosses=1 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON2 COMMON1 posdefault:ADJECTIVE ) 
     firsthand~1az received directly from a source
-    at_first_hand~1z 
+    at_first_hand~1 
  first-string ( meanings=2 glosses=2 ADJECTIVE ADJECTIVE_NORMAL ) 
     first-string~1az being a regular member of a team
     first-string~2az of members of a team
@@ -14022,7 +14022,7 @@
     fishy~3az 
  for_sure ( meanings=2 glosses=1 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE posdefault:ADVERB ) 
     for_sure~1az not open to doubt
-    sure_as_shooting~2z 
+    sure_as_shooting~2 
  factual ( meanings=2 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON4 GRADE5_6 posdefault:ADJECTIVE ) 
     actual~4a 
     factual~2az of or relating to or characterized by facts
@@ -14723,9 +14723,9 @@
     fungiform~1az 
  finest ( MOST_FORM ADJECTIVE ADJECTIVE_NORMAL COMMON4 KINDERGARTEN posdefault:ADJECTIVE ) comparative=finer 
  faster ( meanings=1 MORE_FORM ADJECTIVE ADVERB ADJECTIVE_NORMAL COMMON4 COMMON1 KINDERGARTEN posdefault:ADJECTIVE posdefault:ADVERB ) comparative=fast 
-    quicker~1z 
+    quicker~1 
  fastest ( meanings=1 MOST_FORM ADJECTIVE ADVERB ADJECTIVE_NORMAL COMMON4 KINDERGARTEN posdefault:ADJECTIVE ) comparative=faster 
-    quickest~1z 
+    quickest~1 
  fanciest ( MOST_FORM ADJECTIVE ADJECTIVE_NORMAL COMMON2 KINDERGARTEN posdefault:ADJECTIVE ) comparative=fancier 
  fatter ( MORE_FORM ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 KINDERGARTEN posdefault:ADJECTIVE ) comparative=fat 
  fattest ( MOST_FORM ADJECTIVE ADJECTIVE_NORMAL COMMON2 KINDERGARTEN posdefault:ADJECTIVE ) comparative=fatter 
@@ -14833,15 +14833,15 @@
     action~11v 
     live_up_to~1vz meet the requirements or expectations of
  fundamentally ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    basically~1z 
+    basically~1 
  for_the_most_part ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    largely~1z 
+    largely~1 
  forever ( meanings=3 glosses=2 ADVERB COMMON4 COMMON1 GRADE5_6 posdefault:ADVERB ) 
-    constantly~1z 
+    constantly~1 
     evermore~1z for a limitless time
     forever_and_a_day~1z for a very long or seemingly endless time
  from_time_to_time ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    at_times~1z 
+    at_times~1 
  from ( meanings=1 PARTICLE PREPOSITION COMMON4 COMMON2 COMMON1 KINDERGARTEN posdefault:PREPOSITION ) 
     from~1z 
  fugally ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
@@ -14851,13 +14851,13 @@
  futilely ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     futilely~1z in a futile and unproductive manner
  fabulously ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    fantastically~1z 
+    fantastically~1 
  fantastically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     incredibly~1z exceedingly
  frequently ( meanings=1 ADVERB COMMON4 COMMON1 posdefault:ADVERB ) 
-    often~1z 
+    often~1 
  fairly ( meanings=3 glosses=2 ADVERB EXTENT_ADVERB COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
-    jolly~5z 
+    jolly~5 
     evenhandedly~1z without favoring one party, in a fair evenhanded manner
     fair~17z in conformity with the rules or laws and without fraud or cheating
  forsooth ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 ) 
@@ -14865,57 +14865,57 @@
  fortunately ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
     as_luck_would_have_it~1z by good fortune
  fortuitously ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    fortunately~1z 
+    fortunately~1 
  face_to_face ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     face_to_face~1z 
  far_and_away ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     out_and_away~1z 
  forthwith ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    at_once~1z 
+    at_once~1 
  firmly ( meanings=3 ADVERB COMMON4 posdefault:ADVERB ) 
-    firm~13z 
-    hard~18z 
-    securely~1z 
+    firm~13 
+    hard~18 
+    securely~1 
  forthrightly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     forthright~2z directly and without evasion
  fleetly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    swiftly~1z 
+    swiftly~1 
  for_the_moment ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    for_the_time_being~1z 
+    for_the_time_being~1 
  for_the_time_being ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
     for_the_moment~1z 
  frightfully ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    awfully~1z 
+    awfully~1 
  for_all_practical_purposes ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    to_all_intents_and_purposes~1z 
+    to_all_intents_and_purposes~1 
  for_all_intents_and_purposes ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     for_all_practical_purposes~1z 
  forwards ( meanings=2 ADVERB COMMON4 posdefault:ADVERB ) 
-    onwards~1z 
-    forward~8z 
+    onwards~1 
+    forward~8 
  forrader ( meanings=1 MORE_FORM ADVERB COMMON1 ) comparative=forrad 
-    forwards~1z 
+    forwards~1 
  faintly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     faintly~1z to a faint degree or weakly perceived
  frontward ( meanings=1 ADVERB COMMON1 ) 
-    forwards~2z 
+    forwards~2 
  frontwards ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    frontward~1z 
+    frontward~1 
  forrad ( meanings=1 ADVERB COMMON1 ) comparative=forrader 
-    frontwards~1z 
+    frontwards~1 
  forrard ( meanings=1 ADVERB COMMON1 ) 
-    forrad~1z 
+    forrad~1 
  facetiously ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    tongue-in-cheek~2z 
+    tongue-in-cheek~2 
  flat_out ( meanings=2 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    like_blue_murder~1z 
-    bluntly~1z 
+    like_blue_murder~1 
+    bluntly~1 
  flatly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    categorically~1z 
+    categorically~1 
  for_good ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    permanently~1z 
+    permanently~1 
  forever_and_a_day ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    forever~3z 
+    forever~3 
  focally ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     focally~1z in a focal manner
     focally~2z 
@@ -14924,46 +14924,46 @@
  far_and_wide ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     far_and_near~1z 
  far_and_near ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    far_and_wide~1z 
+    far_and_wide~1 
  fictitiously ( meanings=2 glosses=2 ADVERB COMMON2 ) 
     fictitiously~1z in a fictional manner
     fictitiously~2z in a false manner intended to mislead
  finely ( meanings=3 glosses=2 ADVERB COMMON4 posdefault:ADVERB ) 
-    fine~10z 
+    fine~10 
     finely~2z in an elegant manner
     finely~3z in tiny pieces
  firstly ( meanings=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    foremost~4z 
+    foremost~4 
     firstly~2z 
  first_of_all ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    firstly~1z 
+    firstly~1 
  first_off ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    first_of_all~1z 
+    first_of_all~1 
  for_the_first_time ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    first~3z 
+    first~3 
  forth ( meanings=3 glosses=1 PARTICLE ADVERB COMMON4 COMMON1 GRADE3_4 posdefault:ADVERB ) 
     forth~1z out into view
-    onward~2z 
-    off~7z 
+    onward~2 
+    off~7 
  frenetically ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    demoniacally~1z 
+    demoniacally~1 
  furtively ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    on_the_sly~1z 
+    on_the_sly~1 
  freshly ( meanings=2 ADVERB COMMON4 posdefault:ADVERB ) 
-    newly~1z 
-    impertinently~1z 
+    newly~1 
+    impertinently~1 
  formerly ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    erstwhile~2z 
+    erstwhile~2 
  federally ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     federally~1z by federal government
  fiscally ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    in_fiscal_matters~1z 
+    in_fiscal_matters~1 
  facially ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     facially~1z with respect to the face
  fittingly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    suitably~1z 
+    suitably~1 
  fitly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    befittingly~1z 
+    befittingly~1 
  feverishly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     feverishly~1z in a feverish manner
  feudally ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
@@ -14972,15 +14972,15 @@
     frontally~1z in, at, or toward the front
     frontally~2z 
  for_a_while ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    awhile~1z 
+    awhile~1 
  for_certain ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    sure~11z 
+    sure~11 
  factually ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     factually~1z as a fact or based on fact
  from_start_to_finish ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     from_start_to_finish~1z 
  for_24_hours ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    around_the_clock~1z 
+    around_the_clock~1 
  first_and_last ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     above_all~2z 
  for_a_bargain_price ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
@@ -14990,7 +14990,7 @@
  for_example ( meanings=1 ADVERB CONDITIONAL_IDIOM KINDERGARTEN posdefault:ADVERB  poscondition=?=R ) 
     e.g.~1z 
  for_instance ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    for_example~1z 
+    for_example~1 
  for_good_measure ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     for_good_measure~1z 
  for_keeps ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
@@ -14998,11 +14998,11 @@
  for_love_or_money ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     for_all_the_world~1z 
  for_anything ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    for_love_or_money~1z 
+    for_love_or_money~1 
  for_any_price ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    for_anything~1z 
+    for_anything~1 
  for_all_the_world ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    for_any_price~1z 
+    for_any_price~1 
  for_one ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     for_one~1z 
  for_short ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
@@ -15012,27 +15012,27 @@
  from_scratch ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     from_scratch~1z 
  from_way_back ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    since_a_long_time_ago~1z 
+    since_a_long_time_ago~1 
  fecklessly ( meanings=2 glosses=2 ADVERB COMMON1 posdefault:ADVERB ) 
     fecklessly~1z in a feckless manner
     ineptly~1z with ineptitude
  from_nowhere ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    out_of_nothing~1z 
+    out_of_nothing~1 
  falteringly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     uncertainly~1z in an unsteady manner
  fussily ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     fussily~1z in a fussy manner
  famously ( meanings=2 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    splendidly~1z 
+    splendidly~1 
     famously~2z in a manner or to an extent that is well known
  formally ( meanings=2 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     formally~1z in a formal manner
-    officially~2z 
+    officially~2 
  fearfully ( meanings=2 glosses=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     fearfully~1z in fear,
     fearfully~2z in an alarming manner
  fearlessly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    dauntlessly~1z 
+    dauntlessly~1 
  foolishly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     unwisely~1z without good sense or judgment
  fatuously ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
@@ -15042,9 +15042,9 @@
  freely ( meanings=1 glosses=1 ADVERB COMMON4 KINDERGARTEN posdefault:ADVERB ) 
     freely~1z in a free manner
  fruitfully ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    productively~1z 
+    productively~1 
  fruitlessly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    unproductively~1z 
+    unproductively~1 
  faithfully ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     reliably~1z in a faithful manner
  furiously ( meanings=3 glosses=3 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -15054,9 +15054,9 @@
  finitely ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     finitely~1z with a finite limit
  fondly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    lovingly~1z 
+    lovingly~1 
  favorably ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    favourably~1z 
+    favourably~1 
  favourably ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     favorably~1z showing approval
  flawlessly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -15066,36 +15066,36 @@
  frowningly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     frowningly~1z with a frown
  for_each_one ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    to_each_one~1z 
+    to_each_one~1 
  from_each_one ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    for_each_one~1z 
+    for_each_one~1 
  feetfirst ( meanings=1 glosses=1 ADVERB ) 
     feetfirst~1z with the feet foremost
  ferociously ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     fiercely~1z in a physically fierce manner
  fiercely ( meanings=2 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    ferociously~1z 
+    ferociously~1 
     fiercely~2z in an emotionally fierce manner
  from_head_to_toe ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     cap-a-pie~1z 
  for_free ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    free_of_charge~1z 
+    free_of_charge~1 
  free_of_charge ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     gratis~3z 
  freakishly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    capriciously~2z 
+    capriciously~2 
  foxily ( meanings=1 ADVERB COMMON1 ) 
-    artfully~2z 
+    artfully~2 
  flirtatiously ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     coquettishly~1z in a flirtatious manner
  fiendishly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    devilishly~3z 
+    devilishly~3 
  filthily ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     dirtily~1z in a filthy unclean manner
  frankly ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    candidly~1z 
+    candidly~1 
  frumpily ( meanings=1 ADVERB COMMON1 ) 
-    frumpishly~1z 
+    frumpishly~1 
  frumpishly ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     dowdily~1z in a dowdy unfashionable manner
  forevermore ( meanings=1 glosses=1 ADVERB COMMON2 ) 
@@ -15105,25 +15105,25 @@
  faddishly ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     faddily~1z in a faddish manner
  faddily ( meanings=1 ADVERB ) 
-    faddishly~1z 
+    faddishly~1 
  faithlessly ( meanings=1 ADVERB COMMON1 ) 
-    false~11z 
+    false~11 
  falsely ( meanings=2 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    incorrectly~2z 
+    incorrectly~2 
     falsely~2z in an insincerely false manner
  familiarly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     familiarly~1z in an intimately familiar manner
  fanatically ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     fanatically~1z in a passionately fanatic manner
  fancifully ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    whimsically~1z 
+    whimsically~1 
  farcically ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     farcically~1z in a farcical manner
  fashionably ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     fashionably~1z in a fashionable manner
  fastidiously ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     fastidiously~1z in a fastidious manner
-    painstakingly~1z 
+    painstakingly~1 
  fatefully ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     fatefully~1z in a prophetically fateful manner
  faultily ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
@@ -15141,11 +15141,11 @@
  felicitously ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     felicitously~1z in a felicitous manner
  fierily ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    fervently~1z 
+    fervently~1 
  fervently ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     fervidly~1z with passionate fervor
  fervidly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    fierily~1z 
+    fierily~1 
  fifthly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     fifthly~1z in the fifth place
  figuratively ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -15161,8 +15161,8 @@
  flamboyantly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     flashily~1z in a fancy colorful manner
  flashily ( meanings=2 ADVERB COMMON1 posdefault:ADVERB ) 
-    showily~1z 
-    meretriciously~1z 
+    showily~1 
+    meretriciously~1 
  flexibly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     flexibly~1z with flexibility
  flimsily ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
@@ -15191,9 +15191,9 @@
     formlessly~1z in a formless manner
  foully ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     foully~1z in a wicked and shameful manner
-    insultingly~1z 
+    insultingly~1 
  fourthly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    fourth~5z 
+    fourth~5 
  fractiously ( meanings=2 glosses=2 ADVERB COMMON1 posdefault:ADVERB ) 
     fractiously~1z in a fractious manner
     querulously~1z in a peevish manner
@@ -15210,7 +15210,7 @@
  frostily ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     frigidly~1z without warmth or enthusiasm
  frigidly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    frostily~1z 
+    frostily~1 
  fretfully ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     fretfully~1z in a fretful manner
  friskily ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
@@ -15222,13 +15222,13 @@
  from_the_heart ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     from_the_heart~1z 
  feasibly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    practicably~1z 
+    practicably~1 
  fishily ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    queerly~1z 
+    queerly~1 
  funnily ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    oddly~2z 
+    oddly~2 
  fulsomely ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    smarmily~1z 
+    smarmily~1 
  floridly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     floridly~1z in a florid manner
  for_each_person ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 

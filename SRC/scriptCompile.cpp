@@ -393,10 +393,6 @@ char* ReadSystemToken(char* ptr, char* word, bool separateUnderscore) //   how w
 {
 	*word = 0;
     if (!ptr)  return 0;
-	if (ptr[0] == '<' && ptr[1] == '<' && ptr[2] == '"')
-	{
-		int xx = 0;
-	}
 	char tmp[MAX_WORD_SIZE];
     char* start = word;
     ptr = SkipWhitespace(ptr);

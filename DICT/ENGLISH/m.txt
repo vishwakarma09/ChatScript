@@ -7264,7 +7264,7 @@
  middling ( meanings=3 glosses=1 NOUN ADJECTIVE ADVERB ADJECTIVE_NORMAL NOUN_SINGULAR COMMON2 COMMON1 posdefault:ADVERB ADJECTIVE_GOOD_SUBJECT_COMPLEMENT ) 
     middling~1nz (^good~1) any commodity of intermediate quality or size
     average~9a 
-    somewhat~1z 
+    somewhat~1 
  middy ( meanings=1 NOUN NOUN_SINGULAR COMMON1 posdefault:NOUN ) 
     middy_blouse~1n 
  middy_blouse ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
@@ -11929,7 +11929,7 @@
  midway ( meanings=3 glosses=1 NOUN ADJECTIVE ADVERB ADJECTIVE_NORMAL NOUN_SINGULAR ADJECTIVE_NOT_PREDICATE COMMON2 COMMON1 posdefault:NOUN posdefault:ADVERB ) 
     midway~1nz (^parcel~4) the place at a fair or carnival where sideshows and similar amusements are located
     middle~5a 
-    halfway~4z 
+    halfway~4 
  migration_route ( meanings=1 glosses=1 NOUN NOUN_SINGULAR ) 
     flyway~1nz (^path~3) the geographic route along which birds customarily migrate
  military_position ( meanings=1 NOUN NOUN_SINGULAR ) 
@@ -13767,7 +13767,7 @@
  most ( meanings=7 glosses=4 MOST_FORM PRONOUN_SUBJECT PRONOUN_OBJECT ADJECTIVE ADVERB DETERMINER ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON4 COMMON2 COMMON1 PRONOUN_INDIRECTOBJECT KINDERGARTEN DETERMINER_PLURAL PRONOUN_PLURAL posdefault:ADVERB ) comparative=more 
     most~1az the superlative of `much' that can be used with mass nouns and is usually preceded by `the'
     most~2az quantifier meaning the greatest in number
-    about~6z 
+    about~6 
     to_the_highest_degree~1z used to form the superlative
     most~5z very
     most~6z 
@@ -17147,13 +17147,13 @@
     great_deal~1n 
  muckle ( meanings=1 NOUN NOUN_SINGULAR COMMON2 posdefault:NOUN ) 
     mickle~1n 
- much ( meanings=8 glosses=3 ADJECTIVE DETERMINER ADJECTIVE_NORMAL EXTENT_ADVERB ADJECTIVE_NOT_PREDICATE COMMON4 COMMON2 COMMON1 KINDERGARTEN DETERMINER_SINGULAR posdefault:ADVERB ADJECTIVE_GOOD_SUBJECT_COMPLEMENT ) comparative=most 
+ much ( meanings=8 glosses=3 ADJECTIVE ADVERB DETERMINER ADJECTIVE_NORMAL EXTENT_ADVERB ADJECTIVE_NOT_PREDICATE COMMON4 COMMON2 COMMON1 KINDERGARTEN DETERMINER_SINGULAR posdefault:ADVERB ADJECTIVE_GOOD_SUBJECT_COMPLEMENT ) comparative=most 
     much~1az great in quantity or degree or extent
-    practically~1z 
+    practically~1 
     much~3z very
     much~4z to a great degree or extent
-    lots~2z 
-    often~2z 
+    lots~2 
+    often~2 
     much~7z 
     much~8z 
  male_bonding ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 
@@ -18489,8 +18489,8 @@
     meno_mosso~1nz (^pacing~2) played at reduced speed
  meantime ( meanings=2 NOUN ADVERB NOUN_SINGULAR COMMON4 NOUN_NODETERMINER posdefault:NOUN ) 
     interim~1n 
-    meanwhile~1z 
- meanwhile ( meanings=2 glosses=2 NOUN NOUN_SINGULAR COMMON4 NOUN_NODETERMINER KINDERGARTEN posdefault:ADVERB ) 
+    meanwhile~1 
+ meanwhile ( meanings=2 glosses=2 NOUN ADVERB NOUN_SINGULAR COMMON4 NOUN_NODETERMINER KINDERGARTEN posdefault:ADVERB ) 
     in_the_meantime~1z during the intervening time
     meanwhile~2z at the same time but in another place
  mortality_rate ( meanings=1 glosses=1 NOUN_ABSTRACT NOUN NOUN_SINGULAR NOUN_NODETERMINER ) 
@@ -18954,7 +18954,7 @@
     meagre~2az 
  meagerly ( meanings=2 glosses=1 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON1 ) 
     scrimpy~1az deficient in amount or quality or extent
-    sparingly~1z 
+    sparingly~1 
  measly ( meanings=2 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:ADVERB ) comparative=measliest 
     miserable~1a 
     measly~2az 
@@ -18972,7 +18972,7 @@
     savory~5az pleasing to the sense of taste
  malapropos ( meanings=2 glosses=1 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON1 ) 
     malapropos~1az of an inappropriate or incorrectly applied nature
-    inopportunely~1z 
+    inopportunely~1 
  monopteral ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 ) 
     monopteral~1az having circular columniation
  militarized ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 posdefault:VERB ) 
@@ -19104,7 +19104,7 @@
     midmost~1az being in the exact middle
  midmost ( meanings=2 ADJECTIVE ADVERB ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE COMMON1 ) 
     middlemost~1a 
-    in_the_midst~1z 
+    in_the_midst~1 
  motorial ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON1 posdefault:ADJECTIVE ) 
     efferent~2a 
  modifiable ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:ADJECTIVE ) 
@@ -19220,7 +19220,7 @@
  mutually_exclusive ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL CONDITIONAL_IDIOM  poscondition=?=A ) 
     contradictory~2az 
  mutually ( meanings=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    reciprocally~2z 
+    reciprocally~2 
  miscible ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 posdefault:ADJECTIVE ) 
     mixable~1az capable of being mixed
  mixable ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 ) 
@@ -19737,7 +19737,7 @@
     manlike~2a 
     manlike~3a 
     manly~3az 
-    manfully~1z 
+    manfully~1 
  manful ( meanings=2 ADJECTIVE ADJECTIVE_NORMAL COMMON1 posdefault:ADJECTIVE ) 
     manly~1a 
     manly~2a 
@@ -19957,7 +19957,7 @@
  motherly ( meanings=3 glosses=1 ADJECTIVE ADVERB ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:ADJECTIVE ) 
     motherly~1az befitting a mother
     motherly~2az 
-    maternally~1z 
+    maternally~1 
  matriarchal ( meanings=2 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 posdefault:ADJECTIVE ) 
     matriarchal~1az characteristic of a matriarchy
     matriarchal~2az 
@@ -20020,7 +20020,7 @@
  mighty ( meanings=3 glosses=1 ADJECTIVE ADVERB ADJECTIVE_NORMAL COMMON4 GRADE3_4 posdefault:ADJECTIVE ) comparative=mightiest 
     mighty~1az having or showing great strength or force or intensity
     mighty~2az 
-    right~24z 
+    right~24 
  matter-of-fact ( meanings=2 glosses=2 ADJECTIVE ADJECTIVE_NORMAL posdefault:ADJECTIVE ) 
     pragmatical~1az concerned with practical matters
     prosaic~3az not fanciful or imaginative
@@ -20374,7 +20374,7 @@
     mechanical~3az 
  mechanically ( meanings=2 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     mechanically~1z in a machinelike manner
-    automatically~2z 
+    automatically~2 
  Masonic ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL ) 
     Masonic~1az of or relating to Freemasons or Freemasonry
  masonic ( meanings=2 glosses=1 ADJECTIVE ADJECTIVE_NORMAL COMMON2 COMMON1 posdefault:ADJECTIVE ) 
@@ -20847,14 +20847,14 @@
  modishly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     sprucely~1z in a stylish manner
  more_or_less ( meanings=2 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    roughly~1z 
-    somewhat~2z 
+    roughly~1 
+    somewhat~2 
  mischievously ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    badly~9z 
+    badly~9 
  moreover ( meanings=1 ADVERB COMMON4 KINDERGARTEN posdefault:ADVERB ) 
-    furthermore~1z 
+    furthermore~1 
  mightily ( meanings=2 glosses=1 ADVERB COMMON2 COMMON1 GRADE5_6 posdefault:ADVERB ) 
-    mighty~3z 
+    mighty~3 
     mightily~2z powerfully or vigorously
  mildly ( meanings=2 glosses=2 ADVERB COMMON4 posdefault:ADVERB ) 
     mildly~1z to a moderate degree
@@ -20863,21 +20863,21 @@
     momently~1z at any moment
     momently~2z for an instant or moment
  momently ( meanings=2 ADVERB COMMON1 posdefault:ADVERB ) 
-    momentarily~1z 
-    momentarily~2z 
+    momentarily~1 
+    momentarily~2 
  moderately ( meanings=2 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
-    reasonably~1z 
+    reasonably~1 
     moderately~2z with moderation
  movingly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     movingly~1z in a moving manner
  manifestly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    evidently~1z 
+    evidently~1 
  madly ( meanings=3 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    deadly~8z 
-    crazily~1z 
-    frantically~1z 
+    deadly~8 
+    crazily~1 
+    frantically~1 
  merrily ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    mirthfully~1z 
+    mirthfully~1 
  mirthfully ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     jubilantly~1z in a joyous manner
  multifariously ( meanings=1 glosses=1 ADVERB COMMON1 ) 
@@ -20885,11 +20885,11 @@
  maladroitly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     maladroitly~1z in a maladroit manner
  more_and_more ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    increasingly~1z 
+    increasingly~1 
  mathematically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     mathematically~1z with respect to mathematics
  mainly ( meanings=1 ADVERB COMMON4 COMMON1 posdefault:ADVERB ) 
-    primarily~1z 
+    primarily~1 
  microscopically ( meanings=2 glosses=2 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     microscopically~1z by using a microscope
     microscopically~2z as if by using a microscope
@@ -20911,7 +20911,7 @@
  mordaciously ( meanings=1 glosses=1 ADVERB ) 
     mordaciously~1z in a mordacious manner
  meekly ( meanings=2 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    humbly~1z 
+    humbly~1 
     meekly~2z in a submissive or spiritless manner
  militarily ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     militarily~1z with respect to the military
@@ -20919,7 +20919,7 @@
     macroscopically~1z without using a microscope
     macroscopically~2z 
  mutely ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    wordlessly~1z 
+    wordlessly~1 
  metabolically ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     metabolically~1z involving metabolism
     metabolically~2z 
@@ -20930,7 +20930,7 @@
  medicinally ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     medicinally~1z in a medicinal manner
  magically ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    as_if_by_magic~1z 
+    as_if_by_magic~1 
  municipally ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     municipally~1z by municipality
  mystically ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -20939,7 +20939,7 @@
     musicologically~1z with respect to musicology
  morally ( meanings=2 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     morally~1z with respect to moral principles
-    virtuously~2z 
+    virtuously~2 
  meteorologically ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     meteorologically~1z with respect to the weather
  metaphysically ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -20958,11 +20958,11 @@
  most_importantly ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
     most_especially~1z 
  most_especially ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    above_all~1z 
+    above_all~1 
  mindfully ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    heedfully~1z 
+    heedfully~1 
  more_often_than_not ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    by_and_large~1z 
+    by_and_large~1 
  markedly ( meanings=1 glosses=1 ADVERB COMMON4 posdefault:ADVERB ) 
     markedly~1z in a clearly noticeable manner
  methodically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -20975,19 +20975,19 @@
  marvellously ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     marvelously~1z extremely well
  marvelously ( meanings=1 ADVERB COMMON2 COMMON1 ) 
-    terrifically~1z 
+    terrifically~1 
  much_as ( meanings=1 ADVERB CONDITIONAL_IDIOM posdefault:ADVERB  poscondition=?=R ) 
-    very_much_like~1z 
+    very_much_like~1 
  mercifully ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     mercifully~1z in a compassionate manner
  meticulously ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     meticulously~1z in a meticulous manner
  mistakenly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    erroneously~1z 
+    erroneously~1 
  munificently ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     generously~1z in a generous manner
  mulishly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    obdurately~1z 
+    obdurately~1 
  maliciously ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     maliciously~1z with malice
  monaurally ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
@@ -20998,13 +20998,13 @@
     dimly~2z with a dim light
     murkily~2z unclearly
  mistily ( meanings=2 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    vaguely~1z 
+    vaguely~1 
     mistily~2z in a misty manner
  modestly ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     modestly~1z with modesty
  magisterially ( meanings=2 ADVERB COMMON1 posdefault:ADVERB ) 
-    authoritatively~1z 
-    autocratically~2z 
+    authoritatively~1 
+    autocratically~2 
  multilaterally ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     multilaterally~1z in a multilateral manner
  mutatis_mutandis ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
@@ -21013,26 +21013,26 @@
     amuck~2z in a murderous frenzy
     murderously~2z as if bent on murder
  mandatorily ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    obligatorily~1z 
+    obligatorily~1 
  mysteriously ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    cryptically~1z 
+    cryptically~1 
  moistly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     damply~1z in a damp manner
  maybe ( meanings=1 glosses=1 ADVERB COMMON4 COMMON1 KINDERGARTEN posdefault:ADVERB ) 
     mayhap~1z by chance
  mayhap ( meanings=1 ADVERB COMMON2 ) 
-    peradventure~2z 
+    peradventure~2 
  mockingly ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    derisorily~1z 
+    derisorily~1 
     gibingly~1z in a disrespectful jeering manner
  mistrustfully ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    distrustfully~1z 
+    distrustfully~1 
  moonily ( meanings=1 ADVERB COMMON1 ) 
-    dreamfully~1z 
+    dreamfully~1 
  millionfold ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     millionfold~1z by a factor of a million
  monstrously ( meanings=3 glosses=2 ADVERB COMMON2 posdefault:ADVERB ) 
-    grotesquely~1z 
+    grotesquely~1 
     heinously~1z in a terribly evil manner
     horridly~1z in a hideous manner
  maturely ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -21046,7 +21046,7 @@
  magnanimously ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     magnanimously~1z in a magnanimous manner
  magniloquently ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    grandiloquently~1z 
+    grandiloquently~1 
  majestically ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     majestically~1z in a majestic manner
  malevolently ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -21079,16 +21079,16 @@
  maximally ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     maximally~1z to a maximal degree
  meagrely ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    slenderly~1z 
+    slenderly~1 
  meanderingly ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     meanderingly~1z in a meandering manner
  meaningfully ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     meaningfully~1z in a meaningful manner
  meanly ( meanings=4 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    humbly~2z 
+    humbly~2 
     meanly~2z poorly or in an inferior manner
-    scurvily~1z 
-    nastily~1z 
+    scurvily~1 
+    nastily~1 
  meanspiritedly ( meanings=1 glosses=1 ADVERB ) 
     meanspiritedly~1z in a meanspirited manner
  measurably ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -21100,43 +21100,43 @@
  meditatively ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     meditatively~1z in a meditative manner
  mellowly ( meanings=1 ADVERB COMMON1 posdefault:ADVERB ) 
-    mellow~7z 
+    mellow~7 
  melodiously ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     tunefully~1z in a melodious manner
  melodramatically ( meanings=2 glosses=2 ADVERB COMMON1 posdefault:ADVERB ) 
     melodramatically~1z in an overly emotional manner
     melodramatically~2z as in a melodrama
  memorably ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    unforgettably~1z 
+    unforgettably~1 
  menacingly ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    threateningly~1z 
+    threateningly~1 
  mendaciously ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     untruthfully~1z in a mendacious and untruthful manner
  menially ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     menially~1z in a menial manner
  mercilessly ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    unmercifully~1z 
+    unmercifully~1 
  meretriciously ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     flashily~2z in a meretricious manner
  meritoriously ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     meritoriously~1z in a meritorious manner
  messily ( meanings=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    untidily~1z 
+    untidily~1 
  methodologically ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     methodologically~1z in a methodical manner
  metrically ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
     metrically~1z with regard to meter
  mindlessly ( meanings=2 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
-    senselessly~1z 
+    senselessly~1 
     mindlessly~2z without intellectual involvement
  midships ( meanings=1 ADVERB COMMON2 ) 
-    amidship~3z 
+    amidship~3 
  mincingly ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     mincingly~1z in a mincing manner
  ministerially ( meanings=1 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     ministerially~1z in the manner of a minister or clergyman
  minutely ( meanings=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
-    circumstantially~2z 
+    circumstantially~2 
  miraculously ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     miraculously~1z in a miraculous manner
  miserably ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
@@ -21164,7 +21164,7 @@
     mournfully~1z in a mournful manner
  mundanely ( meanings=2 glosses=1 ADVERB COMMON1 posdefault:ADVERB ) 
     mundanely~1z in a mundane manner
-    terrestrially~2z 
+    terrestrially~2 
  musically ( meanings=1 glosses=1 ADVERB COMMON2 COMMON1 posdefault:ADVERB ) 
     musically~1z in a musical manner
  musingly ( meanings=1 glosses=1 ADVERB COMMON2 posdefault:ADVERB ) 
@@ -21172,7 +21172,7 @@
  martially ( meanings=1 glosses=1 ADVERB COMMON1 ) 
     martially~1z in a martial manner
  measuredly ( meanings=1 ADVERB COMMON1 ) 
-    deliberately~2z 
+    deliberately~2 
  mellowingly ( meanings=1 glosses=1 ADVERB ) 
     mellowingly~1z so as to mellow
  microphotometrically ( meanings=2 ADVERB COMMON1 ) 

@@ -1,10 +1,11 @@
 #include "common.h" 
 #include "evserver.h"
-char* version = "7.71";
+char* version = "7.72";
 char sourceInput[200];
 FILE* userInitFile;
 int externalTagger = 0;
 char defaultbot[100];
+char traceuser[500];
 int traceUniversal;
 
 static bool argumentsSeen = false;
@@ -264,10 +265,6 @@ int CountWordsInBuckets(int& unused, unsigned int* depthcount,int limit)
 		}
 		words += n;
 		if (n < limit) depthcount[n]++;
-		else
-		{
-			int xx = 0;
-		}
 	}
 	return words;
 }
@@ -543,6 +540,7 @@ static void ProcessArgument(char* arg)
 	else if (!stricmp(arg,"userencrypt")) userEncrypt = true;
 	else if (!stricmp(arg,"ltmencrypt")) ltmEncrypt = true;
 	else if (!strnicmp(arg, "defaultbot=", 11)) strcpy(defaultbot, arg + 11);
+	else if (!strnicmp(arg, "traceuser=", 10)) strcpy(traceuser, arg + 10);
 	else if (!stricmp(arg,"noboot")) noboot = true;
 	else if (!stricmp(arg, "servertrace")) servertrace = true;
 	else if (!strnicmp(arg,(char*)"apikey=",7)) strcpy(apikey,arg+7);
@@ -780,6 +778,7 @@ static void ReadConfig()
 
 unsigned int InitSystem(int argcx, char * argvx[],char* unchangedPath, char* readablePath, char* writeablePath, USERFILESYSTEM* userfiles, DEBUGAPI infn, DEBUGAPI outfn)
 { // this work mostly only happens on first startup, not on a restart
+	*traceuser = 0;
 	*hide = 0;
 	*botheader = 0;
 	FILE* in = FopenStaticReadOnly((char*)"SRC/dictionarySystem.h"); // SRC/dictionarySystem.h
@@ -2848,14 +2847,6 @@ void PrepareSentence(char* input,bool mark,bool user, bool analyze,bool oobstart
 		if (timing & TIME_ALWAYS || diff > 0) Log(STDTIMELOG, (char*)"Prepare %s time: %d ms\r\n", input, diff);
 	}
 }
-
-#ifdef WIN32
-    #include <direct.h>
-    #define GetCurrentDir _getcwd
-#else
-    #include <unistd.h>
-    #define GetCurrentDir getcwdeee
-#endif
 
 #ifndef NOMAIN
 int main(int argc, char * argv[]) 

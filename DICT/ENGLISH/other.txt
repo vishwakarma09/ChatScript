@@ -399,9 +399,9 @@
     .45_calibre~1a 
  # ( ADJECTIVE ADJECTIVE_NORMAL ADJECTIVE_NOT_PREDICATE OF_PROPER OBJECT_AS_ADJECTIVE ) 
  'tween ( meanings=1 ADVERB ) 
-    between~1z 
+    between~1 
  'tween_decks ( meanings=1 ADVERB CONDITIONAL_IDIOM  poscondition=?=R ) 
-    between_decks~1z 
+    between_decks~1 
  & ( meanings=1 CONJUNCTION_COORDINATE KINDERGARTEN ) 
     &~1z 
  '' ( QUOTE ) 
