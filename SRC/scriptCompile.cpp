@@ -4783,7 +4783,7 @@ static char* ReadConcept(char* ptr, FILE* in,unsigned int build)
 				else if (!stricmp(word,(char*)"ONLY_ADJECTIVES"))  AddSystemFlag(D,ADJECTIVE);
 				else if (!stricmp(word,(char*)"ONLY_ADVERBS")) AddSystemFlag(D,ADVERB);
 				else if (!stricmp(word,(char*)"ONLY_NONE"))  AddSystemFlag(D,ONLY_NONE); // disable ONLY here and below
-				else BADSCRIPT((char*)"CONCEPT-4 Unknown concept property %s",word) 
+				else BADSCRIPT((char*)"CONCEPT-4 Unknown concept property %s\r\n",word) 
 			}
 			continue;  // read more tokens now that concept has been established
 		}
@@ -4793,7 +4793,7 @@ static char* ReadConcept(char* ptr, FILE* in,unsigned int build)
 			if (!more)
 			{
 				if (!myBot && D->internalBits & CONCEPT && D->internalBits & (BUILD0|BUILD1|BUILD2))
-					WARNSCRIPT((char*)"CONCEPT-3 Concept/topic already defined %s",conceptName)
+					WARNSCRIPT((char*)"CONCEPT-3 Concept/topic already defined %s\r\n",conceptName)
 			}
 			AddInternalFlag(D,(unsigned int)(build|CONCEPT));
 		}
@@ -4802,12 +4802,12 @@ static char* ReadConcept(char* ptr, FILE* in,unsigned int build)
 		switch(*word) //   THE MEAT OF CONCEPT DEFINITIONS
 		{
 			case '(':  case '[':	// start keyword list
-				if (parenLevel) BADSCRIPT((char*)"CONCEPT-5 Cannot use [ or ( within a keyword list for %s",conceptName);
+				if (parenLevel) BADSCRIPT((char*)"CONCEPT-5 Cannot use [ or ( within a keyword list for %s\r\n",conceptName);
 				parenLevel++;
 				break;
 			case ')': case ']':		// end keyword list
 				--parenLevel;
-				if (parenLevel < 0) BADSCRIPT((char*)"CONCEPT-6 Missing ( for concept definition %s",conceptName)
+				if (parenLevel < 0) BADSCRIPT((char*)"CONCEPT-6 Missing ( for concept definition %s\r\n",conceptName)
 				break;
 			default: 
 				 ptr = ReadKeyword(word,ptr,notted,quoted,concept,type,ignoreSpell,build,duplicate);
@@ -4815,7 +4815,7 @@ static char* ReadConcept(char* ptr, FILE* in,unsigned int build)
 		if (parenLevel == 0) break;
 
 	}
-	if (parenLevel) BADSCRIPT((char*)"CONCEPT-7 Failure to give closing ( in concept %s",conceptName)
+	if (parenLevel) BADSCRIPT((char*)"CONCEPT-7 Failure to give closing ( in concept %s\r\n",conceptName)
 
 	return ptr;
 }
