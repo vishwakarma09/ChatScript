@@ -90,8 +90,8 @@ void ScriptWarn()
 		++hasWarnings; 
 		if (*currentFilename)
 		{
-			if (*botheader) Log(STDTRACELOG, (char*)"*** Warning- line %d of %s bot:%s : ", currentFileLine, currentFilename, botheader);
-			else Log(STDTRACELOG, (char*)"*** Warning- line %d of %s: ", currentFileLine, currentFilename);
+			if (*botheader) Log(STDTRACELOG, (char*)"*** Warning- line %d of %s bot:%s : \r\n", currentFileLine, currentFilename, botheader);
+			else Log(STDTRACELOG, (char*)"*** Warning- line %d of %s: \r\n", currentFileLine, currentFilename);
 		}
 		else Log(STDTRACELOG, (char*)"*** Warning-  ");
 	}
@@ -126,7 +126,7 @@ static void AddDisplay(char* word)
 		if (!strcmp(word,display[i])) return;	// no duplicates needed
 	}
 	strcpy(display[displayIndex],word);
-	if (++displayIndex >= MAX_DISPLAY) BADSCRIPT("Display argument limited to %d:  %s",MAX_DISPLAY,word)
+	if (++displayIndex >= MAX_DISPLAY) BADSCRIPT("Display argument limited to %d:  %s\r\n",MAX_DISPLAY,word)
 }
 
 static char* ReadDisplay(FILE* in, char* ptr)
@@ -138,9 +138,9 @@ static char* ReadDisplay(FILE* in, char* ptr)
 		ptr = ReadNextSystemToken(in,ptr,word,false);
 		if (*word == ')') break;
 		if (*word != USERVAR_PREFIX) 
-			BADSCRIPT("Display argument must be uservar of $$ $ or $_: %s",word)
+			BADSCRIPT("Display argument must be uservar of $$ $ or $_: %s\r\n",word)
 		if (strchr(word,'.'))
-			BADSCRIPT("Display argument cannot be dot-selected %s",word)
+			BADSCRIPT("Display argument cannot be dot-selected %s\r\n",word)
 		AddDisplay(word); // explicit display
 	}
 	return ptr;
@@ -645,7 +645,7 @@ char* ReadSystemToken(char* ptr, char* word, bool separateUnderscore) //   how w
 		if (var && c == '[') // ANY variable should be separated by space from a [ if not json array
 		{
 			++brackets; // this MUST then be a json array and brackets will balance
-			if (brackets > 1) BADSCRIPT("$var MUST be separated from [ unless you intend json array reference")
+			if (brackets > 1) BADSCRIPT("$var MUST be separated from [ unless you intend json array reference\r\n")
 		}
 		else if (var && c == ']') 
 		{
@@ -679,7 +679,7 @@ char* ReadSystemToken(char* ptr, char* word, bool separateUnderscore) //   how w
 	if (patternContext && word[len - 1] == '"' && word[len - 2] != '\\')
 	{
 		char* quote = strchr(word, '"');
-		if (quote == word+len-1) BADSCRIPT("Tailing quote without start: %s", word)
+		if (quote == word+len-1) BADSCRIPT("Tailing quote without start: %s\r\n", word)
 	}
 	if (*word == '#' && !strstr(readBuffer,"rename:")) // is this a constant from dictionary.h? or user constant
 	{
@@ -730,7 +730,7 @@ char* ReadSystemToken(char* ptr, char* word, bool separateUnderscore) //   how w
 			else if (!IsDigit(word[1]) && word[1] != '!') //treat rest as a comment line (except if has number after it, which is user text OR internal arg reference for function
 			{
 				if (IsAlphaUTF8(word[1])) 
-					BADSCRIPT((char*)"Bad numeric # constant %s",word)
+					BADSCRIPT((char*)"Bad numeric # constant %s\r\n",word)
 				*ptr = 0;
 				*word = 0;
 			}
@@ -844,7 +844,7 @@ char* ReadSystemToken(char* ptr, char* word, bool separateUnderscore) //   how w
 	char* at = (patternContext) ? FindComparison(word) : 0;
 	if (at && *word == '*' && !IsDigit(word[1])) 
 	{
-		if (compiling) BADSCRIPT((char*)"TOKENS-1 Cannot do comparison on variable gap %s . Memorize and compare against _# instead later. ",word)
+		if (compiling) BADSCRIPT((char*)"TOKENS-1 Cannot do comparison on variable gap %s . Memorize and compare against _# instead later. \r\n",word)
 	}
 	
 	if (at && *at == '!' && at[1] == '$') { ; } // allow !$xxx
@@ -1414,54 +1414,54 @@ static void ValidateCallArgs(WORDP D,char* arg1, char* arg2,char* argset[ARGSETL
 	{
 		MakeLowerCase(arg1);
 		if (!strstr(arg1,(char*)"index") && !strstr(arg1,(char*)"value") )
-			BADSCRIPT((char*)"CALL- ? 1st argument to ^jsonarraydelete must be INDEX or VALUE - %s",arg1)
+			BADSCRIPT((char*)"CALL- ? 1st argument to ^jsonarraydelete must be INDEX or VALUE - %s\r\n",arg1)
 	}
 	else if(!stricmp(D->word,(char*)"^keephistory"))
 	{
 		if (stricmp(arg1,(char*)"USER") && stricmp(arg1,(char*)"BOT") )
-			BADSCRIPT((char*)"CALL- ? 1st argument to ^keephistory must be BOT OR USER - %s",arg1)
+			BADSCRIPT((char*)"CALL- ? 1st argument to ^keephistory must be BOT OR USER - %s\r\n",arg1)
 	}
 	else if (!stricmp(D->word,(char*)"^conceptlist"))
 	{
 		if (stricmp(arg1,(char*)"TOPIC") && stricmp(arg1,(char*)"CONCEPT") && stricmp(arg1,(char*)"BOTH"))
-			BADSCRIPT((char*)"CALL- ? 1st argument to ^conceptlist must be CONCEPT or TOPIC or BOTH - %s",arg1)
+			BADSCRIPT((char*)"CALL- ? 1st argument to ^conceptlist must be CONCEPT or TOPIC or BOTH - %s\r\n",arg1)
 	}
 	else if (!stricmp(D->word,(char*)"^field") && IsAlphaUTF8(*arg2))
 	{	
 		if (*arg2 != '$' && *arg2 != '^' && *arg2 != 's' && *arg2 != 'S' &&  *arg2 != 'v' && *arg2 != 'V' && *arg2 != 'O' && *arg2 != 'o'  && *arg2 != 'F' && *arg2 != 'f' && *arg2 != 'A' && *arg2 != 'a' && *arg2 != 'R' && *arg2 != 'r') 
-			BADSCRIPT((char*)"CALL- 9 2nd argument to ^field must be SUBJECT or VERB or OBJECT or ALL or RAW or FLAG- %s",arg1)
+			BADSCRIPT((char*)"CALL- 9 2nd argument to ^field must be SUBJECT or VERB or OBJECT or ALL or RAW or FLAG- %s\r\n",arg1)
 	}
 	else if (!stricmp(D->word,(char*)"^decodepos") )
 	{
 		if (stricmp(arg1,(char*)"POS") && stricmp(arg1,(char*)"ROLE")) 
-			BADSCRIPT((char*)"CALL- ? 1st argument to ^decodepos must be POS or ROLE - %s",arg1)
+			BADSCRIPT((char*)"CALL- ? 1st argument to ^decodepos must be POS or ROLE - %s\r\n",arg1)
 	}
 	else if (!stricmp(D->word,(char*)"^position") )
 	{
 		if (stricmp(arg1,(char*)"START") && stricmp(arg1,(char*)"END") && stricmp(arg1,(char*)"BOTH")) 
-			BADSCRIPT((char*)"CALL- ? 1st argument to ^position must be START, END, BOTH, - %s",arg1)
+			BADSCRIPT((char*)"CALL- ? 1st argument to ^position must be START, END, BOTH, - %s\r\n",arg1)
 	}
 	else if (!stricmp(D->word,(char*)"^getparse") )
 	{
 		if (stricmp(arg2,(char*)"PHRASE") && stricmp(arg2,(char*)"VERBAL") && stricmp(arg2,(char*)"CLAUSE")&& stricmp(arg2,(char*)"NOUNPHRASE")) 
-			BADSCRIPT((char*)"CALL- ? 2nd argument to ^getparse must be PHRASE, VERBAL, CLAUSE, NOUNPHRASE- %s",arg2)
+			BADSCRIPT((char*)"CALL- ? 2nd argument to ^getparse must be PHRASE, VERBAL, CLAUSE, NOUNPHRASE- %s\r\n",arg2)
 	}
 	else if (!stricmp(D->word,(char*)"^reset"))
 	{
 		if (stricmp(arg1,(char*)"user") && stricmp(arg1,(char*)"topic") && stricmp(arg1,(char*)"output")  && *arg1 != '@') 
-			BADSCRIPT((char*)"CALL- 10 1st argument to ^reset must be USER or TOPIC or OUTPUT or an @set- %s",arg1)
+			BADSCRIPT((char*)"CALL- 10 1st argument to ^reset must be USER or TOPIC or OUTPUT or an @set- %s\r\n",arg1)
 	}
 	else if (!stricmp(D->word,(char*)"^substitute"))
 	{
 		if (stricmp(arg1,(char*)"word") && stricmp(arg1,(char*)"character")  && stricmp(arg1,(char*)"insensitive") && *arg1 != '"' && *arg1 != '^') 
-			BADSCRIPT((char*)"CALL- 11 1st argument to ^substitute must be WORD or CHARACTER or INSENSITIVE- %s",arg1)
+			BADSCRIPT((char*)"CALL- 11 1st argument to ^substitute must be WORD or CHARACTER or INSENSITIVE- %s\r\n",arg1)
 	}
 	else if (!stricmp(D->word,(char*)"^setrejoinder"))
 	{
 		if (*arg2 && stricmp(arg1,(char*)"input") && stricmp(arg1,(char*)"output") && stricmp(arg1,(char*)"copy") ) 
-			BADSCRIPT((char*)"CALL- 63 call to ^setrejoinder requires INPUT or OUTPUT or COPY as the 1st arg.")
+			BADSCRIPT((char*)"CALL- 63 call to ^setrejoinder requires INPUT or OUTPUT or COPY as the 1st arg.\r\n")
 		if (!*arg2 && (!stricmp(arg1,(char*)"input") || !stricmp(arg1,(char*)"output") || !stricmp(arg1,(char*)"copy")) )
-			BADSCRIPT((char*)"CALL- 63 call to ^setrejoinder requires 2nd argument naming what rule to use as rejoinder")
+			BADSCRIPT((char*)"CALL- 63 call to ^setrejoinder requires 2nd argument naming what rule to use as rejoinder\r\n")
 	}
 	else if (!stricmp(D->word, (char*)"^pos"))
 	{
@@ -1469,37 +1469,37 @@ static void ValidateCallArgs(WORDP D,char* arg1, char* arg2,char* argset[ARGSETL
 			&& stricmp(arg1, (char*)"NOUN") && stricmp(arg1, (char*)"DETERMINER") && stricmp(arg1, (char*)"PLACE") && stricmp(arg1, (char*)"common")
 			&& stricmp(arg1, (char*)"capitalize") && stricmp(arg1, (char*)"uppercase") && stricmp(arg1, (char*)"lowercase")
 			&& stricmp(arg1, (char*)"canonical") && stricmp(arg1, (char*)"integer") && stricmp(arg1, (char*)"IsModelNumber") && stricmp(arg1, (char*)"IsInteger") && stricmp(arg1, (char*)"IsUppercase") && stricmp(arg1, (char*)"IsFloat"))
-			BADSCRIPT((char*)"CALL- 12 1st argument to ^pos must be SYLLABLE or ALLUPPER or VERB or AUX or PRONOUN or NOUN or ADJECTIVE or ADVERB or DETERMINER or PLACE or COMMON or CAPITALIZE or UPPERCASE or LOWERCASE or CANONICAL or INTEGER or HEX32 or HEX64 or ISMODELNUMBER or ISINTEGER or ISUPPERCASE or ISFLOAT - %s", arg1)
+			BADSCRIPT((char*)"CALL- 12 1st argument to ^pos must be SYLLABLE or ALLUPPER or VERB or AUX or PRONOUN or NOUN or ADJECTIVE or ADVERB or DETERMINER or PLACE or COMMON or CAPITALIZE or UPPERCASE or LOWERCASE or CANONICAL or INTEGER or HEX32 or HEX64 or ISMODELNUMBER or ISINTEGER or ISUPPERCASE or ISFLOAT - %s\r\n", arg1)
 	}
 	else if (!stricmp(D->word,(char*)"^getrule"))
 	{
 		if (stricmp(arg1,(char*)"TOPIC") &&  stricmp(arg1,(char*)"OUTPUT") && stricmp(arg1,(char*)"PATTERN") && stricmp(arg1,(char*)"LABEL") && stricmp(arg1,(char*)"TYPE")  && stricmp(arg1,(char*)"TAG") && stricmp(arg1,(char*)"USABLE")) 
- 			BADSCRIPT((char*)"CALL- 13 1st argument to ^getrule must be TAG or TYPE or LABEL or PATTERN or OUTPUT or TOPIC or USABLE - %s",arg1)
+ 			BADSCRIPT((char*)"CALL- 13 1st argument to ^getrule must be TAG or TYPE or LABEL or PATTERN or OUTPUT or TOPIC or USABLE - %s\r\n",arg1)
 	}
 	else if (!stricmp(D->word,(char*)"^poptopic"))
 	{
 		if (*arg1 && *arg1 != '~' && *arg1 != USERVAR_PREFIX && *arg1 != '_' && *arg1 != SYSVAR_PREFIX && *arg1 != '^')
- 			BADSCRIPT((char*)"CALL- 61 1st argument to ^poptopic must be omitted or a topic name or variable which will return a topic name - %s",arg1)
+ 			BADSCRIPT((char*)"CALL- 61 1st argument to ^poptopic must be omitted or a topic name or variable which will return a topic name - %s\r\n",arg1)
 	}
 	else if (!stricmp(D->word,(char*)"^nextrule"))
 	{
 		if (stricmp(arg1,(char*)"GAMBIT") && stricmp(arg1,(char*)"RESPONDER") && stricmp(arg1,(char*)"REJOINDER")  && stricmp(arg1,(char*)"RULE")) 
- 			BADSCRIPT((char*)"CALL- 14 1st argument to ^getrule must be TAG or TYPE or LABEL or PATTERN or OUTPUT - %s",arg1)
+ 			BADSCRIPT((char*)"CALL- 14 1st argument to ^getrule must be TAG or TYPE or LABEL or PATTERN or OUTPUT - %s\r\n",arg1)
 	}
 	else if (!stricmp(D->word,(char*)"^end"))
 	{
 		if (stricmp(arg1,(char*)"RULE") && stricmp(arg1,(char*)"CALL") && stricmp(arg1,(char*)"LOOP") && stricmp(arg1,(char*)"TOPIC") && stricmp(arg1,(char*)"SENTENCE") && stricmp(arg1,(char*)"INPUT")  && stricmp(arg1,(char*)"PLAN")) 
- 			BADSCRIPT((char*)"CALL- 15 1st argument to ^end must be RULE or LOOP or TOPIC or SENTENCE or INPUT or PLAN- %s",arg1)
+ 			BADSCRIPT((char*)"CALL- 15 1st argument to ^end must be RULE or LOOP or TOPIC or SENTENCE or INPUT or PLAN- %s\r\n",arg1)
 	}
 	else if (!stricmp(D->word,(char*)"^fail"))
 	{
 		if (stricmp(arg1,(char*)"RULE") && stricmp(arg1,(char*)"CALL") && stricmp(arg1,(char*)"LOOP")  && stricmp(arg1,(char*)"TOPIC") && stricmp(arg1,(char*)"SENTENCE") && stricmp(arg1,(char*)"INPUT")) 
- 			BADSCRIPT((char*)"CALL- 16 1st argument to ^fail must be RULE or LOOP or TOPIC or SENTENCE or INPUT - %s",arg1)
+ 			BADSCRIPT((char*)"CALL- 16 1st argument to ^fail must be RULE or LOOP or TOPIC or SENTENCE or INPUT - %s\r\n",arg1)
 	}
 	else if (!stricmp(D->word,(char*)"^nofail"))
 	{
 		if (stricmp(arg1,(char*)"RULE") &&  stricmp(arg1,(char*)"LOOP") && stricmp(arg1,(char*)"TOPIC") && stricmp(arg1,(char*)"SENTENCE") && stricmp(arg1,(char*)"INPUT")) 
- 			BADSCRIPT((char*)"CALL- 16 1st argument to ^nofail must be RULE or LOOP or TOPIC or SENTENCE or INPUT - %s",arg1)
+ 			BADSCRIPT((char*)"CALL- 16 1st argument to ^nofail must be RULE or LOOP or TOPIC or SENTENCE or INPUT - %s\r\n",arg1)
 	}
 	else if (!stricmp(D->word,(char*)"^compute"))
 	{
@@ -1511,16 +1511,16 @@ static void ValidateCallArgs(WORDP D,char* arg1, char* arg2,char* argset[ARGSETL
 			stricmp(op,(char*)"remainder") && stricmp(op,(char*)"modulo") && stricmp(op,(char*)"mod") && stricmp(op,(char*)"%") && stricmp(op,(char*)"random") &&
 			stricmp(op,(char*)"root") && stricmp(op,(char*)"square_root")   && stricmp(op,(char*)"power") && stricmp(op,(char*)"exponent") && *op != '^' && *op != '_' && *op != '$')  // last covers macro args and exponents
 
-			BADSCRIPT((char*)"CALL- 17 2nd argument to ^compute must be numeric operation - %s",op)
+			BADSCRIPT((char*)"CALL- 17 2nd argument to ^compute must be numeric operation - %s\r\n",op)
 	}
 	else if (!stricmp(D->word,(char*)"^counttopic") && IsAlphaUTF8(*arg1))
 	{
 		if (strnicmp(arg1,(char*)"gambit",6) && stricmp(arg1,(char*)"used") && strnicmp(arg1,(char*)"rule",4) && stricmp(arg1,(char*)"available"))  
-			BADSCRIPT((char*)"CALL-20 CountTopic 1st arg must be GAMBIT or RULE or AVAILABLE or USED - %s",arg1)
+			BADSCRIPT((char*)"CALL-20 CountTopic 1st arg must be GAMBIT or RULE or AVAILABLE or USED - %s\r\n",arg1)
 	}
 	else if (!stricmp(D->word,(char*)"^phrase"))
 	{
-		if (stricmp(arg1,(char*)"adjective") && stricmp(arg1,(char*)"verbal")&& stricmp(arg1,(char*)"noun")  && stricmp(arg1,(char*)"preposition"))  BADSCRIPT((char*)"CALL-21 ^Phrase 1st arg must be adjective or verbal or noun or preposition - %s",arg1)
+		if (stricmp(arg1,(char*)"adjective") && stricmp(arg1,(char*)"verbal")&& stricmp(arg1,(char*)"noun")  && stricmp(arg1,(char*)"preposition"))  BADSCRIPT((char*)"CALL-21 ^Phrase 1st arg must be adjective or verbal or noun or preposition - %s\r\n",arg1)
 	}
 	else if (!stricmp(D->word,(char*)"^hasgambit") && IsAlphaUTF8(*arg2))
 	{
@@ -1528,77 +1528,77 @@ static void ValidateCallArgs(WORDP D,char* arg1, char* arg2,char* argset[ARGSETL
 	}
 	else if (!stricmp(D->word,(char*)"^lastused" ))
 	{
-		if (strnicmp(arg2,(char*)"gambit",6) && strnicmp(arg2,(char*)"rejoinder",9) && strnicmp(arg2,(char*)"responder",9) && stricmp(arg2,(char*)"any"))  BADSCRIPT((char*)"CALL-22 LastUsed 2nd arg must be GAMBIT or REJOINDER or RESPONDER or ANY - %s",arg2)
+		if (strnicmp(arg2,(char*)"gambit",6) && strnicmp(arg2,(char*)"rejoinder",9) && strnicmp(arg2,(char*)"responder",9) && stricmp(arg2,(char*)"any"))  BADSCRIPT((char*)"CALL-22 LastUsed 2nd arg must be GAMBIT or REJOINDER or RESPONDER or ANY - %s\r\n",arg2)
 	}
 	else if ((!stricmp(nextToken,(char*)"^first") || !stricmp(nextToken,(char*)"^last") || !stricmp(nextToken,(char*)"^random")) && *arg2) BADSCRIPT((char*)"CALL-23 Too many arguments to first/last/random - %s",arg2)
-	else if (!stricmp(D->word,(char*)"^respond") && atoi(arg1))  BADSCRIPT((char*)"CALL-? argument to ^respond should be a topic, not a number. Did you intend ^response? - %s",arg1)
+	else if (!stricmp(D->word,(char*)"^respond") && atoi(arg1))  BADSCRIPT((char*)"CALL-? argument to ^respond should be a topic, not a number. Did you intend ^response? - %s\r\n",arg1)
 	else if (!stricmp(D->word,(char*)"^respond") && !stricmp(arg1,currentTopicName)) WARNSCRIPT((char*)"Recursive call to topic - possible infinite recursion danger %s\r\n",arg1)
 	else if (!stricmp(D->word,(char*)"^gambit") && !stricmp(arg1,currentTopicName)) WARNSCRIPT((char*)"Recursive call to topic - possible infinite recursion danger %s\r\n",arg1)
-	else if (!stricmp(D->word,(char*)"^response") && *arg1 == '~')  BADSCRIPT((char*)"CALL-? argument to ^response should be a number, not a topic. Did you intend ^respond? - %s",arg1)
-	else if (!stricmp(D->word,(char*)"^burst") && !stricmp(arg1,(char*)"wordcount")) BADSCRIPT((char*)"CALL-? argument to ^burst renamed. Use 'count' instead of 'wordcount'")
+	else if (!stricmp(D->word,(char*)"^response") && *arg1 == '~')  BADSCRIPT((char*)"CALL-? argument to ^response should be a number, not a topic. Did you intend ^respond? - %s\r\n",arg1)
+	else if (!stricmp(D->word,(char*)"^burst") && !stricmp(arg1,(char*)"wordcount")) BADSCRIPT((char*)"CALL-? argument to ^burst renamed. Use 'count' instead of 'wordcount'\r\n")
 	//   validate inference calls if we can
 	else if (!strcmp(D->word,(char*)"^query"))
 	{
 		unsigned int flags = atoi(argset[9]);
-		if (flags & (USER_FLAG1|USER_FLAG2|USER_FLAG3|USER_FLAG4) && !strstr(arg1,(char*)"flag_")) BADSCRIPT((char*)"CALL-24 ^query involving USER_FLAG1 must be named xxxflag_")
+		if (flags & (USER_FLAG1|USER_FLAG2|USER_FLAG3|USER_FLAG4) && !strstr(arg1,(char*)"flag_")) BADSCRIPT((char*)"CALL-24 ^query involving USER_FLAG1 must be named xxxflag_\r\n")
 		if (!stricmp(arg1,(char*)"direct_s") || !stricmp(arg1,(char*)"exact_s"))
 		{
-			if (!*arg2 || *arg2 == '?') BADSCRIPT((char*)"CALL-24 Must name subject argument to query")
-			if (*argset[3] && *argset[3] != '?') BADSCRIPT((char*)"CALL-25 Cannot name verb argument to query %s - %s",arg1,argset[3])
-			if (*argset[4] && *argset[4] != '?') BADSCRIPT((char*)"CALL-26 Cannot name object argument to query %s - %s",arg1,argset[4])
-			if (*argset[8] && *argset[8] != '?') BADSCRIPT((char*)"CALL-27 Cannot name propgation argument to query %s - %s",arg1,argset[8])
-			if (*argset[9] && *argset[9] != '?') BADSCRIPT((char*)"CALL-28 Cannot name match argument to query %s - %s",arg1,argset[9])
+			if (!*arg2 || *arg2 == '?') BADSCRIPT((char*)"CALL-24 Must name subject argument to query\r\n")
+			if (*argset[3] && *argset[3] != '?') BADSCRIPT((char*)"CALL-25 Cannot name verb argument to query %s - %s\r\n",arg1,argset[3])
+			if (*argset[4] && *argset[4] != '?') BADSCRIPT((char*)"CALL-26 Cannot name object argument to query %s - %s\r\n",arg1,argset[4])
+			if (*argset[8] && *argset[8] != '?') BADSCRIPT((char*)"CALL-27 Cannot name propgation argument to query %s - %s\r\n",arg1,argset[8])
+			if (*argset[9] && *argset[9] != '?') BADSCRIPT((char*)"CALL-28 Cannot name match argument to query %s - %s\r\n",arg1,argset[9])
 		}
 		flags = atoi(argset[5]);
 		if (flags & (USER_FLAG1|USER_FLAG2|USER_FLAG3|USER_FLAG4)  && flags < 0x00ffffff) WARNSCRIPT((char*)"Did you want a xxxflag_ query with USER_FLAG in 9th position for %s\r\n",arg1)
 		if (!stricmp(arg1,(char*)"direct_v") || !stricmp(arg1,(char*)"exact_v"))
 		{
-			if (*arg2 && *arg2 != '?') BADSCRIPT((char*)"CALL-29 Cannot name subject argument to query - %s",arg2)
-				if (!*argset[3] || *argset[3] == '?') BADSCRIPT((char*)"CALL-30 Must name verb argument to query")
-			if (*argset[4] && *argset[4] != '?') BADSCRIPT((char*)"CALL-31 Cannot name object argument to query %s - %s",arg1,argset[4])
-			if (*argset[8] && *argset[8] != '?') BADSCRIPT((char*)"CALL-32 Cannot name propgation argument to query %s - %s",arg1,argset[8])
+			if (*arg2 && *arg2 != '?') BADSCRIPT((char*)"CALL-29 Cannot name subject argument to query - %s\r\n",arg2)
+				if (!*argset[3] || *argset[3] == '?') BADSCRIPT((char*)"CALL-30 Must name verb argument to query\r\n")
+			if (*argset[4] && *argset[4] != '?') BADSCRIPT((char*)"CALL-31 Cannot name object argument to query %s - %s\r\n",arg1,argset[4])
+			if (*argset[8] && *argset[8] != '?') BADSCRIPT((char*)"CALL-32 Cannot name propgation argument to query %s - %s\r\n",arg1,argset[8])
 			if (*argset[9] && *argset[9] != '?') 
-				BADSCRIPT((char*)"CALL-33 Cannot name match argument to query %s - %s",arg1,argset[9])
+				BADSCRIPT((char*)"CALL-33 Cannot name match argument to query %s - %s\r\n",arg1,argset[9])
 		}
 		if (!stricmp(arg1,(char*)"direct_o") || !stricmp(arg1,(char*)"exact_o"))
 		{
-			if (*arg2 && *arg2 != '?') BADSCRIPT((char*)"CALL-34 Cannot name subject argument to query -%s",arg2)
-			if (*argset[3] && *argset[3] != '?') BADSCRIPT((char*)"CALL-35 Cannot name verb argument to query %s - %s",arg1,argset[3])
+			if (*arg2 && *arg2 != '?') BADSCRIPT((char*)"CALL-34 Cannot name subject argument to query -%s\r\n",arg2)
+			if (*argset[3] && *argset[3] != '?') BADSCRIPT((char*)"CALL-35 Cannot name verb argument to query %s - %s\r\n",arg1,argset[3])
 			if (!*argset[4] || *argset[4] == '?') BADSCRIPT((char*)"CALL-36 Must name object argument to query")
-			if (*argset[8] && *argset[8] != '?') BADSCRIPT((char*)"CALL-37 Cannot name propgation argument to query %s - %s",arg1,argset[8])
-			if (*argset[9] && *argset[9] != '?') BADSCRIPT((char*)"CALL-38 Cannot name match argument to query %s - %s",arg1,argset[9])
+			if (*argset[8] && *argset[8] != '?') BADSCRIPT((char*)"CALL-37 Cannot name propgation argument to query %s - %s\r\n",arg1,argset[8])
+			if (*argset[9] && *argset[9] != '?') BADSCRIPT((char*)"CALL-38 Cannot name match argument to query %s - %s\r\n",arg1,argset[9])
 		}
 		if (!stricmp(arg1,(char*)"direct_sv") || !stricmp(arg1,(char*)"exact_sv") )
 		{
-			if (!*arg2 || *arg2 == '?') BADSCRIPT((char*)"CALL-39 Must name subject argument to query")
-			if (!*argset[3] || *argset[3] == '?') BADSCRIPT((char*)"CALL-40 Must name verb argument to query")
-			if (*argset[4] && *argset[4] != '?') BADSCRIPT((char*)"CALL-41 Cannot name object argument to query %s - %s",arg1,argset[4])
-			if (*argset[8] && *argset[8] != '?') BADSCRIPT((char*)"CALL-42 Cannot name propgation argument to query %s - %s",arg1,argset[8])
-			if (*argset[9] && *argset[9] != '?') BADSCRIPT((char*)"CALL-43 Cannot name match argument to query %s - %s",arg1,argset[9])
+			if (!*arg2 || *arg2 == '?') BADSCRIPT((char*)"CALL-39 Must name subject argument to query\r\n")
+			if (!*argset[3] || *argset[3] == '?') BADSCRIPT((char*)"CALL-40 Must name verb argument to query\r\n")
+			if (*argset[4] && *argset[4] != '?') BADSCRIPT((char*)"CALL-41 Cannot name object argument to query %s - %s\r\n",arg1,argset[4])
+			if (*argset[8] && *argset[8] != '?') BADSCRIPT((char*)"CALL-42 Cannot name propgation argument to query %s - %s\r\n",arg1,argset[8])
+			if (*argset[9] && *argset[9] != '?') BADSCRIPT((char*)"CALL-43 Cannot name match argument to query %s - %s\r\n",arg1,argset[9])
 		}
 		if (!stricmp(arg1,(char*)"direct_sv_member"))
 		{
-			if (!*arg2 || *arg2 == '?') BADSCRIPT((char*)"CALL-44 Must name subject argument to query")
-			if (!*argset[3] || *argset[3] == '?') BADSCRIPT((char*)"CALL-45 Must name verb argument to query")
-			if (*argset[4] && *argset[4] != '?') BADSCRIPT((char*)"CALL-46 Cannot name object argument to query %s - %s",arg1,argset[4])
-			if (*argset[8] && *argset[8] != '?') BADSCRIPT((char*)"CALL-47 Cannot name propgation argument to query %s - %s",arg1,argset[8])
-			if (*argset[9] && *argset[9] == '?') BADSCRIPT((char*)"CALL-48 Must name match argument to query %s - %s",arg1,argset[9])
+			if (!*arg2 || *arg2 == '?') BADSCRIPT((char*)"CALL-44 Must name subject argument to query\r\n")
+			if (!*argset[3] || *argset[3] == '?') BADSCRIPT((char*)"CALL-45 Must name verb argument to query\r\n")
+			if (*argset[4] && *argset[4] != '?') BADSCRIPT((char*)"CALL-46 Cannot name object argument to query %s - %s\r\n",arg1,argset[4])
+			if (*argset[8] && *argset[8] != '?') BADSCRIPT((char*)"CALL-47 Cannot name propgation argument to query %s - %s\r\n",arg1,argset[8])
+			if (*argset[9] && *argset[9] == '?') BADSCRIPT((char*)"CALL-48 Must name match argument to query %s - %s\r\n",arg1,argset[9])
 		}
 		if (!stricmp(arg1,(char*)"direct_vo")|| !stricmp(arg1,(char*)"exact_vo"))
 		{
-			if (*arg2 && *arg2 != '?') BADSCRIPT((char*)"CALL-49 Cannot name subject argument to query -%s",arg2)
-			if (!*argset[3] || *argset[3] == '?') BADSCRIPT((char*)"CALL-50 Must name verb argument to query")
-			if (!*argset[4] || *argset[4] == '?') BADSCRIPT((char*)"CALL-51 Must name object argument to query")
-			if (*argset[8] && *argset[8] != '?') BADSCRIPT((char*)"CALL-52 Cannot name propgation argument to query %s - %s",arg1,argset[8])
-			if (*argset[9] && *argset[9] != '?') BADSCRIPT((char*)"CALL-53 Cannot name match argument to query %s - %s",arg1,argset[9])
+			if (*arg2 && *arg2 != '?') BADSCRIPT((char*)"CALL-49 Cannot name subject argument to query -%s\r\n",arg2)
+			if (!*argset[3] || *argset[3] == '?') BADSCRIPT((char*)"CALL-50 Must name verb argument to query\r\n")
+			if (!*argset[4] || *argset[4] == '?') BADSCRIPT((char*)"CALL-51 Must name object argument to query\r\n")
+			if (*argset[8] && *argset[8] != '?') BADSCRIPT((char*)"CALL-52 Cannot name propgation argument to query %s - %s\r\n",arg1,argset[8])
+			if (*argset[9] && *argset[9] != '?') BADSCRIPT((char*)"CALL-53 Cannot name match argument to query %s - %s\r\n",arg1,argset[9])
 		}
 		if (!stricmp(arg1,(char*)"direct_svo") || !stricmp(arg1,(char*)"exact_svo") )
 		{
-			if (!*arg2 || *arg2 == '?') BADSCRIPT((char*)"CALL-54 Must name subject argument to query")
-			if (!*argset[3] || *argset[3] == '?') BADSCRIPT((char*)"CALL-55 Must name verb argument to query")
-			if (!*argset[4] || *argset[4] == '?') BADSCRIPT((char*)"CALL-56 Must name object argument to query")
-			if (*argset[8] && *argset[8] != '?') BADSCRIPT((char*)"CALL-57 Cannot name propgation argument to query %s - %s",arg1,argset[8])
-			if (*argset[9] && *argset[9] != '?') BADSCRIPT((char*)"CALL-58 Cannot name match argument to query %s - %s",arg1,argset[9])
+			if (!*arg2 || *arg2 == '?') BADSCRIPT((char*)"CALL-54 Must name subject argument to query\r\n")
+			if (!*argset[3] || *argset[3] == '?') BADSCRIPT((char*)"CALL-55 Must name verb argument to query\r\n")
+			if (!*argset[4] || *argset[4] == '?') BADSCRIPT((char*)"CALL-56 Must name object argument to query\r\n")
+			if (*argset[8] && *argset[8] != '?') BADSCRIPT((char*)"CALL-57 Cannot name propgation argument to query %s - %s\r\n",arg1,argset[8])
+			if (*argset[9] && *argset[9] != '?') BADSCRIPT((char*)"CALL-58 Cannot name match argument to query %s - %s\r\n",arg1,argset[9])
 		}
 	}
 }
@@ -1639,9 +1639,9 @@ static char* ReadCall(char* name, char* ptr, FILE* in, char* &data,bool call, bo
 		if (!stricmp(name,"^jsonarraysize")) WARNSCRIPT((char*)"^jsonarraysize deprecated in favor of ^length\r\n")
 		if (!stricmp(name,"^jsondelete")) WARNSCRIPT((char*)"^jsondelete deprecated in favor of ^delete\r\n")
 	}
-	else if (patternContext && D && (D->internalBits & IS_PLAN_MACRO) == IS_PLAN_MACRO) BADSCRIPT((char*)"CALL-2 cannot invoke plan from pattern area - %s", name)
-	else if (patternContext && D && !(D->internalBits & (IS_PATTERN_MACRO | IS_OUTPUT_MACRO))) BADSCRIPT((char*)"CALL-2 Can only call patternmacro or dual macro from pattern area - %s",name)
-	else if (!patternContext && D && !(D->internalBits &  (IS_OUTPUT_MACRO | IS_TABLE_MACRO))) BADSCRIPT((char*)"CALL-3 Cannot call pattern or table macro from output area - %s",name)
+	else if (patternContext && D && (D->internalBits & IS_PLAN_MACRO) == IS_PLAN_MACRO) BADSCRIPT((char*)"CALL-2 cannot invoke plan from pattern area - %s\r\n", name)
+	else if (patternContext && D && !(D->internalBits & (IS_PATTERN_MACRO | IS_OUTPUT_MACRO))) BADSCRIPT((char*)"CALL-2 Can only call patternmacro or dual macro from pattern area - %s\r\n",name)
+	else if (!patternContext && D && !(D->internalBits &  (IS_OUTPUT_MACRO | IS_TABLE_MACRO))) BADSCRIPT((char*)"CALL-3 Cannot call pattern or table macro from output area - %s\r\n",name)
 	
 	memset(argset,0,sizeof(argset)); //   default EVERYTHING before we test it later
 	if (D && !stricmp(D->word,(char*)"^debug")) 
@@ -1665,7 +1665,7 @@ static char* ReadCall(char* name, char* ptr, FILE* in, char* &data,bool call, bo
 	{
 		ptr = ReadNextSystemToken(in,ptr,word,false);
 		if (!*word) break;
-		if (*word == '#' && word[1] == '!') BADSCRIPT((char*)"#! sample input seen during a call. Probably missing a closing ) ");
+		if (*word == '#' && word[1] == '!') BADSCRIPT((char*)"#! sample input seen during a call. Probably missing a closing ) \r\n");
 	
 		// closing paren stuck onto token like _) - break it off 
 		size_t len = strlen(word);
@@ -1725,8 +1725,8 @@ static char* ReadCall(char* name, char* ptr, FILE* in, char* &data,bool call, bo
 				{
 					WORDP D = FindWord(word,0,LOWERCASE_LOOKUP);
 					if (!IsDigit(word[1]) && *nextToken == '(' && (!D || !(D->internalBits & FUNCTION_NAME))) 
-						BADSCRIPT((char*)"CALL-1 Default call to function not yet defined %s",word)
-					if (*nextToken != '(' && !IsDigit(word[1])) BADSCRIPT((char*)"CALL-? Unknown function variable %s",word)
+						BADSCRIPT((char*)"CALL-1 Default call to function not yet defined %s\r\n",word)
+					if (*nextToken != '(' && !IsDigit(word[1])) BADSCRIPT((char*)"CALL-? Unknown function variable %s\r\n",word)
 
 					char* arg = data;
 					if (!stricmp(word,"^if")) 
@@ -1752,7 +1752,7 @@ static char* ReadCall(char* name, char* ptr, FILE* in, char* &data,bool call, bo
 				if (*word == '^' && word[1] == '\''){;}
 				else if (*word == '^' && *nextToken != '(' && word[1] != '^' && word[1] != USERVAR_PREFIX && word[1] != '_' && word[1] != '"' && !IsDigit(word[1]))
 				 // ^^ indicated a deref of something
-					BADSCRIPT((char*)"%s is either a function missing arguments or an undefined function variable.",word) //   not function call or function var ref
+					BADSCRIPT((char*)"%s is either a function missing arguments or an undefined function variable.\r\n",word) //   not function call or function var ref
 				// track only initial arguments for verify. can have any number when its a stream
 				if (argumentCount < ARGSETLIMIT) 
 				{
@@ -1763,7 +1763,7 @@ static char* ReadCall(char* name, char* ptr, FILE* in, char* &data,bool call, bo
 			{
 				ReadNextSystemToken(in,ptr,nextToken,false,true);
 				if (*word == '^' && *nextToken != '(' && *nextToken != ')' && word[1] != '"' && !IsDigit(word[1])) 
-					WARNSCRIPT((char*)"Is %s intended as a function call?",word) //   not function call or function var ref
+					WARNSCRIPT((char*)"Is %s intended as a function call?\r\n",word) //   not function call or function var ref
 			}
 		}
 	
@@ -1791,11 +1791,11 @@ static char* ReadCall(char* name, char* ptr, FILE* in, char* &data,bool call, bo
 	{
 		char kind = arg1[2];
 		if (*arg1 == '~') {;} // get nth of a concept
-		else if (!kind) BADSCRIPT((char*)"CALL-5 Assignment must designate how to use factset (s v or o)- %s  in %s %s ",assignKind,name,arguments)
+		else if (!kind) BADSCRIPT((char*)"CALL-5 Assignment must designate how to use factset (s v or o)- %s  in %s %s \r\n",assignKind,name,arguments)
 		else if ((kind == 'a' || kind == '+' || kind == '-') && *assignKind != '_')  
-			BADSCRIPT((char*)"CALL-6 Can only spread a fact onto a match var - %s",assignKind)
-		else if (*assignKind == SYSVAR_PREFIX && (kind == 'f' ||  !kind))  BADSCRIPT((char*)"CALL-7 cannot assign fact into system variable") // into system variable
-		else if (*assignKind == '@' && kind != 'f') BADSCRIPT((char*)"CALL-8 Cannot assign fact field into fact set") // into set, but not a fact
+			BADSCRIPT((char*)"CALL-6 Can only spread a fact onto a match var - %s\r\n",assignKind)
+		else if (*assignKind == SYSVAR_PREFIX && (kind == 'f' ||  !kind))  BADSCRIPT((char*)"CALL-7 cannot assign fact into system variable\r\n") // into system variable
+		else if (*assignKind == '@' && kind != 'f') BADSCRIPT((char*)"CALL-8 Cannot assign fact field into fact set\r\n") // into set, but not a fact
 	}
 	
 	if (D && !stricmp(D->word,(char*)"^reuse") && (IsAlphaUTF8(*arg1) || *arg1 == '~')) 
@@ -1804,7 +1804,7 @@ static char* ReadCall(char* name, char* ptr, FILE* in, char* &data,bool call, bo
 	}
 	else if (D && !stricmp(D->word,(char*)"^enable") && IsAlphaUTF8(*arg1))
 	{
-		if (stricmp(arg1,(char*)"topic") && stricmp(arg1,(char*)"write") && stricmp(arg1,(char*)"rule") && stricmp(arg1,(char*)"usedrules") ) BADSCRIPT((char*)"CALL-18 Enable 1st arg must be TOPIC or RULE or USEDRULES - %s",arg1)
+		if (stricmp(arg1,(char*)"topic") && stricmp(arg1,(char*)"write") && stricmp(arg1,(char*)"rule") && stricmp(arg1,(char*)"usedrules") ) BADSCRIPT((char*)"CALL-18 Enable 1st arg must be TOPIC or RULE or USEDRULES - %s\r\n",arg1)
 		if (*arg2 == '@'){;}
 		else if (*arg2 != '~' || strchr(arg2,'.')) // not a topic or uses ~topic.rulename notation
 		{
@@ -1813,7 +1813,7 @@ static char* ReadCall(char* name, char* ptr, FILE* in, char* &data,bool call, bo
 	}
 	else if (D && !stricmp(D->word,(char*)"^disable") && IsAlphaUTF8(*arg1))
 	{
-		if (stricmp(arg1,(char*)"topic") && stricmp(arg1,(char*)"rule")  && stricmp(arg1,(char*)"write")&& stricmp(arg1,(char*)"rejoinder") && stricmp(arg1,(char*)"inputrejoinder") && stricmp(arg1,(char*)"outputrejoinder")  && stricmp(arg1,(char*)"save")  ) BADSCRIPT((char*)"CALL-19 Disable 1st arg must be TOPIC or RULE or INPUTREJOINDER or OUTPUTREJOINDER or SAVE - %s",arg1)
+		if (stricmp(arg1,(char*)"topic") && stricmp(arg1,(char*)"rule")  && stricmp(arg1,(char*)"write")&& stricmp(arg1,(char*)"rejoinder") && stricmp(arg1,(char*)"inputrejoinder") && stricmp(arg1,(char*)"outputrejoinder")  && stricmp(arg1,(char*)"save")  ) BADSCRIPT((char*)"CALL-19 Disable 1st arg must be TOPIC or RULE or INPUTREJOINDER or OUTPUTREJOINDER or SAVE - %s\r\n",arg1)
 		if (*arg2 == '@'){;}
 		else if (!stricmp(arg1,(char*)"rejoinder")){;}
 		else if (*arg2 != '~' || strchr(arg2,'.'))  MakeUpperCopy(reuseTarget1,arg2); // topic names & labels must be upper case 
@@ -1822,18 +1822,18 @@ static char* ReadCall(char* name, char* ptr, FILE* in, char* &data,bool call, bo
 	if (D) ValidateCallArgs(D,arg1,arg2,argset,needTofield);
 
 	if (parenLevel != 0)
-		BADSCRIPT((char*)"CALL-59 Failed to properly close (or [ in call to %s",D->word)
+		BADSCRIPT((char*)"CALL-59 Failed to properly close (or [ in call to %s\r\n",D->word)
 
 	if (isStream){;}  // no cares
 	else if (info) // system function
 	{
 		if (argumentCount != (info->argumentCount & 255) && info->argumentCount != VARIABLE_ARG_COUNT && info->argumentCount != UNEVALED && info->argumentCount != STREAM_ARG) 
-			BADSCRIPT((char*)"CALL-60 Incorrect argument count to system function %s- given %d instead of required %d",name,argumentCount,info->argumentCount & 255)
+			BADSCRIPT((char*)"CALL-60 Incorrect argument count to system function %s- given %d instead of required %d\r\n",name,argumentCount,info->argumentCount & 255)
 	}
 	else if (D && (D->internalBits & FUNCTION_BITS) == IS_PLAN_MACRO) 
 	{
 		if (argumentCount != (int)D->w.planArgCount)
-			BADSCRIPT((char*)"CALL-60 Incorrect argument count to plan %s- given %d instead of required %d",name,argumentCount,D->w.planArgCount)
+			BADSCRIPT((char*)"CALL-60 Incorrect argument count to plan %s- given %d instead of required %d\r\n",name,argumentCount,D->w.planArgCount)
 	}
 	else if (!D)
 	{
@@ -1853,7 +1853,7 @@ static char* ReadCall(char* name, char* ptr, FILE* in, char* &data,bool call, bo
 	{
 		unsigned char* defn = GetDefinition(D);
 		if (defn && argumentCount != MACRO_ARGUMENT_COUNT(defn) && !(D->internalBits & VARIABLE_ARGS_TABLE)) 
-			BADSCRIPT((char*)"CALL-60 Incorrect argument count to macro %s- given %d instead of required %d",name,argumentCount,MACRO_ARGUMENT_COUNT(GetDefinition(D)))
+			BADSCRIPT((char*)"CALL-60 Incorrect argument count to macro %s- given %d instead of required %d\r\n",name,argumentCount,MACRO_ARGUMENT_COUNT(GetDefinition(D)))
 	}
 
 	// handle crosscheck of labels
@@ -2012,7 +2012,7 @@ static char* ReadDescribe(char* ptr, FILE* in,unsigned int build)
 			break; 
 		}
 		if (*word != USERVAR_PREFIX && *word != '_' && *word != '^' && *word != '~')
-			BADSCRIPT((char*)"Described entity %s is not legal to describe- must be variable or function or concept/topic", word)
+			BADSCRIPT((char*)"Described entity %s is not legal to describe- must be variable or function or concept/topic\r\n", word)
 		isDescribe = true;
 		ptr = ReadNextSystemToken(in,ptr,description,false);
 		isDescribe = false;
@@ -2138,11 +2138,11 @@ name of topic or concept
 		{
 			// token prefixes
 			case '!': //   NOT
-				if (quoteSeen) BADSCRIPT((char*)"PATTERN-1 Cannot have ' and ! in succession")
-				if (memorizeSeen) BADSCRIPT((char*)"PATTERN-2 Cannot use _ before _")
-				if (notSeen) BADSCRIPT((char*)"PATTERN-3 Cannot have two ! in succession")
+				if (quoteSeen) BADSCRIPT((char*)"PATTERN-1 Cannot have ' and ! in succession\r\n")
+				if (memorizeSeen) BADSCRIPT((char*)"PATTERN-2 Cannot use _ before _\r\n")
+				if (notSeen) BADSCRIPT((char*)"PATTERN-3 Cannot have two ! in succession\r\n")
 				if (!word[1]) 
-					BADSCRIPT((char*)"PATTERN-4 Must attach ! to next token. If you mean exclamation match, use escaped ! \r\n %s",ptr)
+					BADSCRIPT((char*)"PATTERN-4 Must attach ! to next token. If you mean exclamation match, use escaped ! \r\n %s\r\n",ptr)
 				notSeen = true;
 				if (word[1] == '!') 
 					doubleNotSeen = true;
@@ -2152,15 +2152,15 @@ name of topic or concept
 				if (*ptr == '!') ++ptr;	// possible !! allowed
 				continue;
 			case '_':	//   memorize OR var reference
-				if (quoteSeen && !IsDigit(word[1])) BADSCRIPT((char*)"PATTERN-1 Cannot have ' and _ in succession except when quoting a match variable. Need to reverse them")
-				if (memorizeSeen) BADSCRIPT((char*)"PATTERN-6 Cannot have two _ in succession")
+				if (quoteSeen && !IsDigit(word[1])) BADSCRIPT((char*)"PATTERN-1 Cannot have ' and _ in succession except when quoting a match variable. Need to reverse them\r\n")
+				if (memorizeSeen) BADSCRIPT((char*)"PATTERN-6 Cannot have two _ in succession\r\n")
 				if (!word[1]) // allow separation which will be implied as needed
 				{
-					if (!ifstatement) BADSCRIPT((char*)"PATTERN-7 Must attach _ to next token. If you mean _ match, use escaped _. \r\n %s",ptr)
+					if (!ifstatement) BADSCRIPT((char*)"PATTERN-7 Must attach _ to next token. If you mean _ match, use escaped _. \r\n %s\r\n",ptr)
 				}
 				if (IsDigit(word[1])) // match variable
 				{
-					if (GetWildcardID(word) < 0) BADSCRIPT((char*)"PATTERN-8 _%d is max match reference - %s",MAX_WILDCARDS-1,word)
+					if (GetWildcardID(word) < 0) BADSCRIPT((char*)"PATTERN-8 _%d is max match reference - %s\r\n",MAX_WILDCARDS-1,word)
 					break;
 				}
 
@@ -2173,8 +2173,8 @@ name of topic or concept
 				strncpy(ptr,word+1, len); // this allows a function parameter (originally ^word but now ^0) to properly reset
 				continue;
 			case '\'': //   original (non-canonical) token - possessive must be \'s or \'
-				if (quoteSeen) BADSCRIPT((char*)"PATTERN-10 Cannot have two ' in succession")
-				if (!word[1]) BADSCRIPT((char*)"PATTERN-11 Must attach ' to next token. If you mean ' match, use \' \r\n %s",ptr)
+				if (quoteSeen) BADSCRIPT((char*)"PATTERN-10 Cannot have two ' in succession\r\n")
+				if (!word[1]) BADSCRIPT((char*)"PATTERN-11 Must attach ' to next token. If you mean ' match, use \' \r\n %s\r\n",ptr)
 				quoteSeen = true;
 				variableGapSeen = false;
 				if (comparison) *comparison = c;
@@ -2184,74 +2184,74 @@ name of topic or concept
 				strncpy(ptr,word+1, len); // this allows a function parameter (originally ^word but now ^0) to properly reset
 				continue;
 			case '<':	//   sentence start <  or  unordered start <<
-				if (quoteSeen) BADSCRIPT((char*)"PATTERN-12 Cannot use ' before < or <<")
-				if (notSeen) BADSCRIPT((char*)"PATTERN-13 Cannot use ! before < or <<")
-				if (memorizeSeen) BADSCRIPT((char*)"PATTERN-13 Cannot use _ before < or <<")
+				if (quoteSeen) BADSCRIPT((char*)"PATTERN-12 Cannot use ' before < or <<\r\n")
+				if (notSeen) BADSCRIPT((char*)"PATTERN-13 Cannot use ! before < or <<\r\n")
+				if (memorizeSeen) BADSCRIPT((char*)"PATTERN-13 Cannot use _ before < or <<\r\n")
 				if (word[1] == '<')  //   <<  unordered start
 				{
-					if (memorizeSeen) BADSCRIPT((char*)"PATTERN-14 Cannot use _ before << ")
-					if (unorderedSeen) BADSCRIPT((char*)"PATTERN-15 << already in progress")
-					if (variableGapSeen) BADSCRIPT((char*)"PATTERN-16 Cannot use * before <<")
+					if (memorizeSeen) BADSCRIPT((char*)"PATTERN-14 Cannot use _ before <<\r\n")
+					if (unorderedSeen) BADSCRIPT((char*)"PATTERN-15 << already in progress\r\n")
+					if (variableGapSeen) BADSCRIPT((char*)"PATTERN-16 Cannot use * before <<\r\n")
 					unorderedSeen = true;
 				}
-				else if (word[1])  BADSCRIPT((char*)"PATTERN-17 %s cannot start with <",word)
+				else if (word[1])  BADSCRIPT((char*)"PATTERN-17 %s cannot start with <\r\n",word)
 				variableGapSeen = false;
 				break; 
 			case '@': 
-				if (quoteSeen) BADSCRIPT((char*)"PATTERN-18 Quoting @ is meaningless.");
-				if (memorizeSeen) BADSCRIPT((char*)"PATTERN-19 Cannot use _ before  @")
+				if (quoteSeen) BADSCRIPT((char*)"PATTERN-18 Quoting @ is meaningless.\r\n");
+				if (memorizeSeen) BADSCRIPT((char*)"PATTERN-19 Cannot use _ before  @\r\n")
 				if (word[1] == '_') // set match position  @_5
 				{
 					if (GetWildcardID(word+1) >= MAX_WILDCARDS) 
-						BADSCRIPT((char*)"PATTERN-? %s is not a valid positional reference - must be < %d",word,MAX_WILDCARDS) 
+						BADSCRIPT((char*)"PATTERN-? %s is not a valid positional reference - must be < %d\r\n",word,MAX_WILDCARDS) 
 					char* end = word + 3; 
 					while (IsDigit(*end)) ++end;
 					if (*end)
 					{
 						if (*end == '+' && (!end[1] || end[1] == 'i')) {;}
 						else if (*end == '-' &&  (!end[1] || end[1] == 'i')) {;}
-						else  BADSCRIPT((char*)"PATTERN-? %s is not a valid positional reference - @_2+ or @_2- or @_2 would be",word)  
+						else  BADSCRIPT((char*)"PATTERN-? %s is not a valid positional reference - @_2+ or @_2- or @_2 would be\r\n",word)  
 					}
 					variableGapSeen = false; // no longer after anything. we are changing direction
 				}
 				else if (GetSetID(word) < 0)
-					BADSCRIPT((char*)"PATTERN-20 %s is not a valid factset reference",word)  // factset reference
+					BADSCRIPT((char*)"PATTERN-20 %s is not a valid factset reference\r\n",word)  // factset reference
 				else if (!GetSetMod(word)) 
-					BADSCRIPT((char*)"PATTERN-20 %s is not a valid factset reference",word)  // factset reference
+					BADSCRIPT((char*)"PATTERN-20 %s is not a valid factset reference\r\n",word)  // factset reference
 				break;
 			case '>':	//   sentence end > or unordered end >>
-				if (quoteSeen) BADSCRIPT((char*)"PATTERN-21 Cannot use ' before > or >>")
+				if (quoteSeen) BADSCRIPT((char*)"PATTERN-21 Cannot use ' before > or >>\r\n")
 				if (word[1] == '>') //   >>
 				{
-					if (memorizeSeen) BADSCRIPT((char*)"PATTERN-22 Cannot use _ before  >> ")
-					if (!unorderedSeen) BADSCRIPT((char*)"PATTERN-23 Have no << in progress");
-					if (variableGapSeen) BADSCRIPT((char*)"PATTERN-24 Cannot use wildcard inside >>")
+					if (memorizeSeen) BADSCRIPT((char*)"PATTERN-22 Cannot use _ before  >>\r\n")
+					if (!unorderedSeen) BADSCRIPT((char*)"PATTERN-23 Have no << in progress\r\n");
+					if (variableGapSeen) BADSCRIPT((char*)"PATTERN-24 Cannot use wildcard inside >>\r\n")
 					unorderedSeen = false;
 				}
 				variableGapSeen = false;
 				break; //   sentence end align
 			case '(':	//   sequential pattern unit begin
-				if (quoteSeen) BADSCRIPT((char*)"PATTERN-25 Quoting ( is meaningless.");
+				if (quoteSeen) BADSCRIPT((char*)"PATTERN-25 Quoting ( is meaningless.\r\n");
 				nestKind[nestIndex++] = '(';
 				break;
 			case ')':	//   sequential pattern unit end
-				if (quoteSeen) BADSCRIPT((char*)"PATTERN-26 Quoting ) is meaningless.");
-				if (memorizeSeen && !ifstatement) BADSCRIPT((char*)"PATTERN-27 Cannot use _ before  )")
+				if (quoteSeen) BADSCRIPT((char*)"PATTERN-26 Quoting ) is meaningless.\r\n");
+				if (memorizeSeen && !ifstatement) BADSCRIPT((char*)"PATTERN-27 Cannot use _ before  )\r\n")
 				if (variableGapSeen && nestIndex > 1) 
-					BADSCRIPT((char*)"PATTERN-26 Cannot have wildcard followed by )")
+					BADSCRIPT((char*)"PATTERN-26 Cannot have wildcard followed by )\r\n")
 				if (nestKind[--nestIndex] != '(') 
-					BADSCRIPT((char*)"PATTERN-9 ) is not closing corresponding (")
+					BADSCRIPT((char*)"PATTERN-9 ) is not closing corresponding (\r\n")
 				break;
 			case '[':	//   list of pattern choices begin
-				if (quoteSeen) BADSCRIPT((char*)"PATTERN-30 Quoting [ is meaningless.");
+				if (quoteSeen) BADSCRIPT((char*)"PATTERN-30 Quoting [ is meaningless.\r\n");
 				nestKind[nestIndex++] = '[';
 				break;
 			case ']':	//   list of pattern choices end
-				if (quoteSeen) BADSCRIPT((char*)"PATTERN-31 Quoting ] is meaningless.");
-				if (memorizeSeen) BADSCRIPT((char*)"PATTERN-32 Cannot use _ before  ]")
-				if (variableGapSeen) BADSCRIPT((char*)"PATTERN-33 Cannot have wildcard followed by ]")
+				if (quoteSeen) BADSCRIPT((char*)"PATTERN-31 Quoting ] is meaningless.\r\n");
+				if (memorizeSeen) BADSCRIPT((char*)"PATTERN-32 Cannot use _ before  ]\r\n")
+				if (variableGapSeen) BADSCRIPT((char*)"PATTERN-33 Cannot have wildcard followed by ]\r\n")
 				if (nestKind[--nestIndex] != '[')
-					BADSCRIPT((char*)"PATTERN-34 ] is not closing corresponding [")
+					BADSCRIPT((char*)"PATTERN-34 ] is not closing corresponding [\r\n")
 				break;
 			case '{':	//   list of optional choices begins
 				if (variableGapSeen)
@@ -2261,74 +2261,74 @@ name of topic or concept
 					if (end)
 					{
 						end = SkipWhitespace(end);
-						if (*end == '*') WARNSCRIPT((char*)"Wildcard before and after optional will probably not work since wildcards wont know where to end if optional fails. Use some other formulation")
+						if (*end == '*') WARNSCRIPT((char*)"Wildcard before and after optional will probably not work since wildcards wont know where to end if optional fails. Use some other formulation\r\n")
 					}
 				}
-				if (quoteSeen) BADSCRIPT((char*)"PATTERN-35 Quoting { is meaningless.");
-				if (notSeen)  BADSCRIPT((char*)"PATTERN-36 !{ is pointless since { can fail or not anyway")
-				if (nestIndex && nestKind[nestIndex-1] == '{') BADSCRIPT((char*)"PATTERN-37 {{ is illegal")
+				if (quoteSeen) BADSCRIPT((char*)"PATTERN-35 Quoting { is meaningless.\r\n");
+				if (notSeen)  BADSCRIPT((char*)"PATTERN-36 !{ is pointless since { can fail or not anyway\r\n")
+				if (nestIndex && nestKind[nestIndex-1] == '{') BADSCRIPT((char*)"PATTERN-37 {{ is illegal\r\n")
 				nestKind[nestIndex++] = '{';
 				break;
 			case '}':	//   list of optional choices ends
-				if (quoteSeen) BADSCRIPT((char*)"PATTERN-38 Quoting } is meaningless.");
-				if (memorizeSeen) BADSCRIPT((char*)"PATTERN-39 Cannot use _ before  }")
-				if (variableGapSeen) BADSCRIPT((char*)"PATTERN-40 Cannot have wildcard followed by }")
-				if (nestKind[--nestIndex] != '{') BADSCRIPT((char*)"PATTERN-41 } is not closing corresponding {")
+				if (quoteSeen) BADSCRIPT((char*)"PATTERN-38 Quoting } is meaningless.\r\n");
+				if (memorizeSeen) BADSCRIPT((char*)"PATTERN-39 Cannot use _ before  }\r\n")
+				if (variableGapSeen) BADSCRIPT((char*)"PATTERN-40 Cannot have wildcard followed by }\r\n")
+				if (nestKind[--nestIndex] != '{') BADSCRIPT((char*)"PATTERN-41 } is not closing corresponding {\r\n")
 				break;
 			case '\\': //   literal next character
-				if (quoteSeen) BADSCRIPT((char*)"PATTERN-42 Quoting an escape is meaningless.");
-				if (!word[1]) BADSCRIPT((char*)"PATTERN-43 Backslash must be joined to something to escape")
+				if (quoteSeen) BADSCRIPT((char*)"PATTERN-42 Quoting an escape is meaningless.\r\n");
+				if (!word[1]) BADSCRIPT((char*)"PATTERN-43 Backslash must be joined to something to escape\r\n")
 				variableGapSeen = false;
 				if (word[1] && IsAlphaUTF8(word[1] )) memmove(word,word+1,strlen(word)); // escaping a real word, just use it
 				break;
 			case '*': //   gap: * *1 *~2 	(infinite, exactly 1 word, 0-2 words, 0-2 words, 1 word before) and *alpha*x* is form match
-				if (quoteSeen) BADSCRIPT((char*)"PATTERN-44 Quoting a wildcard");
-				if (unorderedSeen) BADSCRIPT((char*)"PATTERN-45 Cannot have wildcard %s inside << >>",word)
+				if (quoteSeen) BADSCRIPT((char*)"PATTERN-44 Quoting a wildcard\r\n");
+				if (unorderedSeen) BADSCRIPT((char*)"PATTERN-45 Cannot have wildcard %s inside << >>\r\n",word)
 				if (variableGapSeen) 
-					BADSCRIPT((char*)"PATTERN-46 Cannot have wildcard followed by %s",word)
+					BADSCRIPT((char*)"PATTERN-46 Cannot have wildcard followed by %s\r\n",word)
 				if (IsAlphaUTF8(word[1]) )
 					break; // find this word as fragmented spelling like sch*ding* since it will have * as a prefix
 				
 				// gaps of various flavors
-				if (notSeen)  BADSCRIPT((char*)"PATTERN-47 cannot have ! before gap - %s",word)
+				if (notSeen)  BADSCRIPT((char*)"PATTERN-47 cannot have ! before gap - %s\r\n",word)
 				if (IsDigit(word[1])) //   enumerated gap size
 				{
 					int n = word[1] - '0';
-					if (n == 0) BADSCRIPT((char*)"PATTERN-48 *0 is meaningless")	 
-					if (word[2]) BADSCRIPT((char*)"PATTERN-49 *9 is the largest gap allowed or bad stuff is stuck to your token- %s",word)
+					if (n == 0) BADSCRIPT((char*)"PATTERN-48 *0 is meaningless\r\n")	 
+					if (word[2]) BADSCRIPT((char*)"PATTERN-49 *9 is the largest gap allowed or bad stuff is stuck to your token- %s\r\n",word)
 				}
 				else if (word[1] == '-') // backwards
 				{
 					int n = word[2] - '0';
-					if (n == 0) BADSCRIPT((char*)"PATTERN-50 *-1 is the smallest backward wildcard allowed - %s",word)
-					if (word[3]) BADSCRIPT((char*)"PATTERN-51 *-9 is the largest backward wildcard or bad stuff is stuck to your token- %s",word)
+					if (n == 0) BADSCRIPT((char*)"PATTERN-50 *-1 is the smallest backward wildcard allowed - %s\r\n",word)
+					if (word[3]) BADSCRIPT((char*)"PATTERN-51 *-9 is the largest backward wildcard or bad stuff is stuck to your token- %s\r\n",word)
 				}
 				else if (word[1] == '~') // close-range gap
 				{
 					if (nestKind[nestIndex-1] == '{' || nestKind[nestIndex-1] == '[')
-						BADSCRIPT((char*)"PATTERN-5? cannot stick %s wildcard inside {} or []",word)
+						BADSCRIPT((char*)"PATTERN-5? cannot stick %s wildcard inside {} or []\r\n",word)
 					variableGapSeen = true;
 					int n = word[2] - '0';
-					if (!word[2]) BADSCRIPT((char*)"PATTERN-52 *~ is not legal, you need a digit after it")
-					else if (n == 0) BADSCRIPT((char*)"PATTERN-53 *~1 is the smallest close-range gap - %s",word)
-					else if (word[3] && word[3] != 'b') BADSCRIPT((char*)"PATTERN-54 *~9 is the largest close-range gap or bad stuff is stuck to your token- %s",word)
+					if (!word[2]) BADSCRIPT((char*)"PATTERN-52 *~ is not legal, you need a digit after it\r\n")
+					else if (n == 0) BADSCRIPT((char*)"PATTERN-53 *~1 is the smallest close-range gap - %s\r\n",word)
+					else if (word[3] && word[3] != 'b') BADSCRIPT((char*)"PATTERN-54 *~9 is the largest close-range gap or bad stuff is stuck to your token- %s\r\n",word)
 				}
-				else if (word[1]) BADSCRIPT((char*)"PATTERN-55 * jammed against some other token- %s",word)
+				else if (word[1]) BADSCRIPT((char*)"PATTERN-55 * jammed against some other token- %s\r\n",word)
 				else 
 				{
 					if (nestKind[nestIndex-1] == '{' || nestKind[nestIndex-1] == '[')
-						BADSCRIPT((char*)"PATTERN-5? cannot stick * wildcard inside {} or []")
+						BADSCRIPT((char*)"PATTERN-5? cannot stick * wildcard inside {} or []\r\n")
 					variableGapSeen = true; // std * unlimited wildcard
 				}
 				startSeen = true;
 				break;
 			case '?': //   question input ?   
-				if (quoteSeen) BADSCRIPT((char*)"PATTERN-56 Quoting a ? is meaningless.");
-				if (memorizeSeen && word[1] != '$') BADSCRIPT((char*)"PATTERN-57 Cannot use _ before ?")
-				if (variableGapSeen) BADSCRIPT((char*)"PATTERN-58 Cannot have wildcards before ?")
+				if (quoteSeen) BADSCRIPT((char*)"PATTERN-56 Quoting a ? is meaningless.\r\n");
+				if (memorizeSeen && word[1] != '$') BADSCRIPT((char*)"PATTERN-57 Cannot use _ before ?\r\n")
+				if (variableGapSeen) BADSCRIPT((char*)"PATTERN-58 Cannot have wildcards before ?\r\n")
 				break;
 			case USERVAR_PREFIX:	//   user var
-				if (quoteSeen) BADSCRIPT((char*)"PATTERN-59 Quoting a $ variable is meaningless - %s",word);
+				if (quoteSeen) BADSCRIPT((char*)"PATTERN-59 Quoting a $ variable is meaningless - %s\r\n",word);
 				variableGapSeen = false;
 				break;
 			case '"': //   string
@@ -2348,20 +2348,20 @@ name of topic or concept
 						++n;
 						++ptr;
 					}
-					if (n >= SEQUENCE_LIMIT) BADSCRIPT((char*)"PATTERN-? Too many  words in string %s, will never match",word)
+					if (n >= SEQUENCE_LIMIT) BADSCRIPT((char*)"PATTERN-? Too many  words in string %s, will never match\r\n",word)
 				}
 				break;
 			case SYSVAR_PREFIX: //   system data
 				// you can quote system variables because %topic returns a topic name which can be quoted to query
-				if (memorizeSeen) BADSCRIPT((char*)"PATTERN-60 Cannot use _ before system variable - %s",word)
+				if (memorizeSeen) BADSCRIPT((char*)"PATTERN-60 Cannot use _ before system variable - %s\r\n",word)
 				if (!word[1]); //   simple %
-				else if (!FindWord(word)) BADSCRIPT((char*)"PATTERN-61 %s is not a system variable",word)
+				else if (!FindWord(word)) BADSCRIPT((char*)"PATTERN-61 %s is not a system variable\r\n",word)
 				if (comparison) *comparison = c;
 				variableGapSeen = false;
 				break;
 			case '~':
 				variableGapSeen = false;
-				if (quoteSeen) BADSCRIPT((char*)"PATTERN-61 cannot quote set %s because it can't be determined if set comes from original or canonical form",word)
+				if (quoteSeen) BADSCRIPT((char*)"PATTERN-61 cannot quote set %s because it can't be determined if set comes from original or canonical form\r\n",word)
 				startSeen = true;
 				if (!livecall) 
 				{
@@ -2399,8 +2399,8 @@ name of topic or concept
 		if (comparison) //   is a comparison of some kind
 		{
 			if (memorizeSeen && comparison[1]) 
-				 BADSCRIPT((char*)"PATTERN-57 Cannot use _ before a comparison")
-			if (variableGapSeen) BADSCRIPT((char*)"PATTERN-16 Cannot use * before comparison since memorization will be incomplete")
+				 BADSCRIPT((char*)"PATTERN-57 Cannot use _ before a comparison\r\n")
+			if (variableGapSeen) BADSCRIPT((char*)"PATTERN-16 Cannot use * before comparison since memorization will be incomplete\r\n")
 			if (*word == USERVAR_PREFIX && word[1] == LOCALVAR_PREFIX)
 			{
 				char* dot = strchr(word,'.');
@@ -2427,7 +2427,7 @@ name of topic or concept
 
 			char* rhs = comparison+1;
 			if (*rhs == '=' || *rhs == '?') ++rhs;
-			if (*rhs == '^' && IsAlphaUTF8(rhs[1])) BADSCRIPT((char*)"%s is not a current function variable",rhs);
+			if (*rhs == '^' && IsAlphaUTF8(rhs[1])) BADSCRIPT((char*)"%s is not a current function variable\r\n",rhs);
 			if (!*rhs && *word == USERVAR_PREFIX) {} // allowed member in sentence
 			else if (!*rhs && *word == '_' && IsDigit(word[1])); // allowed member in sentence
 			else if (*rhs == '#') // names a constant #define to replace with number value
@@ -2474,13 +2474,13 @@ name of topic or concept
 			else if (*rhs == '\'' && (rhs[1] == USERVAR_PREFIX || rhs[1]== '_')); //   unevaled user variable or raw match variable
 			else if (!comparison[2] && *word == USERVAR_PREFIX); // find in sentence
 			else if (*rhs == '"' && rhs[strlen(rhs)-1] == '"'){;} // quoted string
-			else BADSCRIPT((char*)"PATTERN-64 Illegal comparison %s or failed to close prior rule starting at %s",word, GetRuleElipsis(start))
+			else BADSCRIPT((char*)"PATTERN-64 Illegal comparison %s or failed to close prior rule starting at %s\r\n",word, GetRuleElipsis(start))
 			int len = (comparison - word) + 2; //   include the = and jump code in length
 
 			//   rebuild token
 			char tmp[MAX_WORD_SIZE];
 			*tmp = '=';		//   comparison header
-			if (len > 70) BADSCRIPT((char*)"PATTERN-65 Left side of comparison must not exceed 70 characters - %s",word)
+			if (len > 70) BADSCRIPT((char*)"PATTERN-65 Left side of comparison must not exceed 70 characters - %s\r\n",word)
 			char* x = tmp+1;
 			Encode(len,x,1);
 			strcpy(tmp+2,word); //   copy left side over
@@ -2503,7 +2503,7 @@ name of topic or concept
 		}
 		if (*word == '^')   //   function call or function var ref or indirect function variable assign ref like ^$$tmp = null
 		{
-			if (quoteSeen) BADSCRIPT((char*)"PATTERN-? Cannot use quote before ^ function call or variable")
+			if (quoteSeen) BADSCRIPT((char*)"PATTERN-? Cannot use quote before ^ function call or variable\r\n")
 			if (notSeen) 
 			{
 				*data++ = '!';
@@ -2512,7 +2512,7 @@ name of topic or concept
 			}
 			if (memorizeSeen) 
 			{
-				if (!IsDigit(word[1]) && word[1] != USERVAR_PREFIX) BADSCRIPT((char*)"PATTERN-66 Cannot use _ before ^ function call")
+				if (!IsDigit(word[1]) && word[1] != USERVAR_PREFIX) BADSCRIPT((char*)"PATTERN-66 Cannot use _ before ^ function call\r\n")
 				*data++ = '_';
 				memorizeSeen = false;
 			}
@@ -2538,7 +2538,7 @@ name of topic or concept
 		//   put out the next token and space 
 		if (notSeen) 
 		{
-			if (memorizeSeen) BADSCRIPT((char*)"PATTERN-67 Cannot have ! and _ together")
+			if (memorizeSeen) BADSCRIPT((char*)"PATTERN-67 Cannot have ! and _ together\r\n")
 			*data++ = '!';
 			if (doubleNotSeen) *data++ = '!';
 			doubleNotSeen = notSeen = false;
@@ -2622,11 +2622,11 @@ name of topic or concept
 
 	//   leftovers?
 	if (macro && nestIndex != 1) 
-		BADSCRIPT((char*)"PATTERN-68 Failed to balance ( or [ or { properly in macro for %s",startPattern)
+		BADSCRIPT((char*)"PATTERN-68 Failed to balance ( or [ or { properly in macro for %s\r\n",startPattern)
 	else if (!macro && nestIndex != 0) 
-		BADSCRIPT((char*)"PATTERN-69 Failed to balance ( or [ or { properly for %s",startPattern);
+		BADSCRIPT((char*)"PATTERN-69 Failed to balance ( or [ or { properly for %s\r\n",startPattern);
 
-	if (unorderedSeen) BADSCRIPT((char*)"PATTERN-70 Failed to close <<")
+	if (unorderedSeen) BADSCRIPT((char*)"PATTERN-70 Failed to close <<\r\n")
 	patternContext = false;
 	return ptr;
 }
@@ -2638,7 +2638,7 @@ static char* ReadChoice(char* word, char* ptr, FILE* in, char* &data,char* rejoi
 	ReadNextSystemToken(in,ptr,word,true); // get possible rejoinder label
 	if (word[1] == ':' && !word[2]) // is rejoinder label
 	{
-		if (*word < 'a' || *word >= 'q') BADSCRIPT((char*)"CHOICE-1 Bad level label %s in [ ]",word)
+		if (*word < 'a' || *word >= 'q') BADSCRIPT((char*)"CHOICE-1 Bad level label %s in [ ]\r\n",word)
 		if (rejoinders) rejoinders[(int)(*word - 'a' + 1)] = 2; //   authorized level
 		*data++ = *word;
 		*data++ = word[1];
@@ -2714,7 +2714,7 @@ static char* ReadIfTest(char* ptr, FILE* in, char* &data)
 	ReadNextSystemToken(in,ptr,nextToken,false,true); 
 	MakeLowerCase(nextToken);
 	
-	if (*nextToken != '(' && *word == '^' && word[1] != '"' && IsAlphaUTF8(word[1])) BADSCRIPT((char*)"%s is not the name of a local function argument",word)
+	if (*nextToken != '(' && *word == '^' && word[1] != '"' && IsAlphaUTF8(word[1])) BADSCRIPT((char*)"%s is not the name of a local function argument\r\n",word)
 	if (*nextToken == '(')  // function call?
 	{
 		if (*word != '^') //     a call w/o its ^
@@ -2744,7 +2744,7 @@ static char* ReadIfTest(char* ptr, FILE* in, char* &data)
 		if (notted) BADSCRIPT((char*)"IF-6 cannot do ! in front of query %s",nextToken)
 		if (*word == '\'' && word[1] == '_') {;}
 		else if (*word != '@' &&*word != USERVAR_PREFIX && *word != '_' && *word != '^' && *word != SYSVAR_PREFIX) 
-			BADSCRIPT((char*)"IF test query must be with $var, _# or '_#, %sysvar, @1subject or ^fnarg -%s",word)
+			BADSCRIPT((char*)"IF test query must be with $var, _# or '_#, %sysvar, @1subject or ^fnarg -%s\r\n",word)
 		strcpy(data,word);
 		data += strlen(word);
 		*data++ = ' ';
@@ -2753,14 +2753,14 @@ static char* ReadIfTest(char* ptr, FILE* in, char* &data)
 		data += strlen(word);
 		*data++ = ' ';
 		ptr =  ReadNextSystemToken(in,ptr,word,false,false); //   swallow value
-		if (*word == '^' && !IsDigit(word[1]))  BADSCRIPT((char*)"IF-7 not allowed 2nd function call in relation - %s",word)
+		if (*word == '^' && !IsDigit(word[1]))  BADSCRIPT((char*)"IF-7 not allowed 2nd function call in relation - %s\r\n",word)
 		if (*word == '~') CheckSetOrTopic(word); 
 		strcpy(data,word);
 		data += strlen(word);
 	}
 	else if (RelationToken(nextToken))
 	{
-		if (notted && *nextToken != '?') BADSCRIPT((char*)"IF-8 cannot do ! in front of comparison %s",nextToken)
+		if (notted && *nextToken != '?') BADSCRIPT((char*)"IF-8 cannot do ! in front of comparison %s\r\n",nextToken)
 		if (*word == '\'' && ((word[1] == '^' && IsDigit(word[2])) || word[1] == USERVAR_PREFIX || word[1] == '_')) {;} // quoted variable
 		else if (*word != '@' && *word != USERVAR_PREFIX && *word != '_' && *word != '^' && *word != SYSVAR_PREFIX && !IsAlphaUTF8(*word)  && !IsDigit(*word) && *word != '+' && *word != '-') 
 			BADSCRIPT((char*)"IF test comparison 1st value must be number, word, $var, _#, sysvar, @1subject or ^fnarg -%s",word)
@@ -2813,7 +2813,7 @@ static char* ReadBody(char* word, char* ptr, FILE* in, char* &data,char* rejoind
 	char* start = data;
 	ptr = ReadOutput(false,true,ptr,in,data,rejoinders,NULL,NULL); 
 	size_t len = strlen(start);
-	if ((len + 3) >= maxBufferSize) BADSCRIPT((char*)"BODY-4 Body exceeding limit of %d bytes",maxBufferSize)
+	if ((len + 3) >= maxBufferSize) BADSCRIPT((char*)"BODY-4 Body exceeding limit of %d bytes\r\n",maxBufferSize)
 	return ptr;
 }
 
@@ -2848,8 +2848,8 @@ static char* ReadIf(char* word, char* ptr, FILE* in, char* &data,char* rejoinder
 		*data++ = 'a';
 		ptr = ReadNextSystemToken(in,ptr,word,false); //   the '('
 		MakeLowerCopy(lowercaseForm,word);
-		if (!*word || TopLevelUnit(word) || TopLevelRule(lowercaseForm) || Rejoinder(lowercaseForm)) BADSCRIPT((char*)"IF-1 Incomplete IF statement - %s",word)
-		if (*word != '(') BADSCRIPT((char*)"IF-2 Missing (for IF test - %s",word)
+		if (!*word || TopLevelUnit(word) || TopLevelRule(lowercaseForm) || Rejoinder(lowercaseForm)) BADSCRIPT((char*)"IF-1 Incomplete IF statement - %s\r\n",word)
+		if (*word != '(') BADSCRIPT((char*)"IF-2 Missing (for IF test - %s\r\n",word)
 		*data++ = '(';
 		*data++ = ' ';
 
@@ -2886,7 +2886,7 @@ static char* ReadIf(char* word, char* ptr, FILE* in, char* &data,char* rejoinder
 			strcpy(hold,word);
 			ptr = ReadNextSystemToken(in,ptr,word,false,false); 
 			ReadNextSystemToken(in,ptr,word,false,true); 
-			if (*word != '{') BADSCRIPT((char*)"IF-13 body must start with { instead of %s  -- saw pattern %s",word,readBuffer,original)
+			if (*word != '{') BADSCRIPT((char*)"IF-13 body must start with { instead of %s  -- saw pattern %s\r\n",word,readBuffer,original)
 		}
 		ptr = ReadBody(word,ptr,in,data,rejoinders); // comes with space after it
 		bodyends[bodyendIndex++] = data; //   jump offset to end of if (backpatched)
@@ -2946,15 +2946,15 @@ static char* ReadLoop(char* word, char* ptr, FILE* in, char* &data,char* rejoind
 	ptr = ReadNextSystemToken(in,ptr,word,false,false); //   (
 	*data++ = '(';
 	*data++ = ' ';
-	if (*word != '(') BADSCRIPT((char*)"LOOP-1 count must be ()  or (count) -%s",word)
+	if (*word != '(') BADSCRIPT((char*)"LOOP-1 count must be ()  or (count) -%s\r\n",word)
 	ptr = ReadNextSystemToken(in,ptr,word,false,false); //   counter - 
-	if (*word == '^'  && IsAlphaUTF8(word[1])) BADSCRIPT((char*)"%s is not the name of a local function argument",word)
+	if (*word == '^'  && IsAlphaUTF8(word[1])) BADSCRIPT((char*)"%s is not the name of a local function argument\r\n",word)
 	if (*word == ')')  strcpy(data,(char*)"-1"); //   omitted, use -1
 	else if (!stricmp(word,(char*)"-1")) // precompiled previously -1
 	{
 		strcpy(data,word);
 		ptr = ReadNextSystemToken(in,ptr,word,false,false); // read closing paren
-		if (*word != ')') BADSCRIPT((char*)"Loop counter %s was not closed by )",word);
+		if (*word != ')') BADSCRIPT((char*)"Loop counter %s was not closed by )\r\n",word);
 	}
 	else if (!IsDigit(*word) && *word != USERVAR_PREFIX && *word != '_' && *word != SYSVAR_PREFIX  && *word != '^'  && *word != '@') 
 		BADSCRIPT((char*)"LOOP-2 counter must be $var, _#, %var, @factset or ^fnarg  -%s",word)
@@ -2965,7 +2965,7 @@ static char* ReadLoop(char* word, char* ptr, FILE* in, char* &data,char* rejoind
 	}
 	data += strlen(data);
 	*data++ = ' ';
-	if (*word != ')') BADSCRIPT((char*)"LOOP-3 counter must end with )  -%s",word)
+	if (*word != ')') BADSCRIPT((char*)"LOOP-3 counter must end with )  -%s\r\n",word)
 	*data++ = ')';
 	*data++ = ' ';
 	char* loopstart = data;
@@ -2981,12 +2981,12 @@ static char* ReadLoop(char* word, char* ptr, FILE* in, char* &data,char* rejoind
 		strcpy(hold,word);
 		ptr = ReadNextSystemToken(in,ptr,word,false,false); 
 		ReadNextSystemToken(in,ptr,word,false,true); 
-		if (*word != '{') BADSCRIPT((char*)"LOOP-4 body must start with { -%s",hold)
+		if (*word != '{') BADSCRIPT((char*)"LOOP-4 body must start with { -%s\r\n",hold)
 	}
 	char* bodystart = data;
 	ptr = ReadBody(word,ptr,in,data,rejoinders);
 	if (bodystart[0] == '{' && bodystart[1] == ' ' && bodystart[2] == '}') 
-		BADSCRIPT((char*)"LOOP-4 body makes no sense being empty")
+		BADSCRIPT((char*)"LOOP-4 body makes no sense being empty\r\n")
 	Encode((unsigned int)(data - loopstart),loopstart);	// offset to body end from body start (accelerator)
 	*data = 0;
 	return ptr; // caller adds extra space after
@@ -3003,7 +3003,7 @@ static char* ReadJavaScript(FILE* in, char* &data,char* ptr)
 	{
 		char* comment = strstr(readBuffer,"//");
 		if (comment) *comment = 0;	// erase comments to end of line
-		if (strstr(readBuffer,"/*")) BADSCRIPT("Cannot use /* ... */ comments in CS JavaScript: %s", readBuffer);
+		if (strstr(readBuffer,"/*")) BADSCRIPT("Cannot use /* ... */ comments in CS JavaScript: %s\r\n", readBuffer);
 		char* ptr = SkipWhitespace(readBuffer);
 		if (!*ptr) continue;
 		ReadCompiledWord(ptr,word);
@@ -3062,7 +3062,7 @@ char* ReadOutput(bool optionalBrace,bool nested,char* ptr, FILE* in,char* &mydat
 	while (ALWAYS) //   read as many tokens as needed to complete the responder definition
 	{
 		if ((dataChunk-original) >= MAX_JUMP_OFFSET) 
-			BADSCRIPT((char*)"OUTPUT-1 code exceeds size limit of %d bytes",MAX_JUMP_OFFSET)
+			BADSCRIPT((char*)"OUTPUT-1 code exceeds size limit of %d bytes\r\n",MAX_JUMP_OFFSET)
 
 		if (*hold) // pending assignment code
 		{
@@ -3121,7 +3121,7 @@ char* ReadOutput(bool optionalBrace,bool nested,char* ptr, FILE* in,char* &mydat
 			else if (level >= 1)
 			{
 				if (startkind == '[') BADSCRIPT((char*)"CHOICE-2 Fail to close code started with %s upon seeing %s", originalptr,word)
-				else BADSCRIPT((char*)"BODY-1 Fail to close code started with %s upon seeing %s", originalptr,word)
+				else BADSCRIPT((char*)"BODY-1 Fail to close code started with %s upon seeing %s\r\n", originalptr,word)
 			}
 		}
 
@@ -3159,9 +3159,9 @@ char* ReadOutput(bool optionalBrace,bool nested,char* ptr, FILE* in,char* &mydat
 					--squiggle;
 					if (!squiggle && startkind == '{') // closing level
 					{
-						if (paren)  BADSCRIPT((char*)"BODY-3 Fail to close ( on line %d - (%s ",startpline,startparen)
+						if (paren)  BADSCRIPT((char*)"BODY-3 Fail to close ( on line %d - (%s \r\n",startpline,startparen)
 						if (bracket) 
-							BADSCRIPT((char*)"BODY-2 Fail to close [ on line %d - [%s ",startbline,startbracket)
+							BADSCRIPT((char*)"BODY-2 Fail to close [ on line %d - [%s \r\n",startbline,startbracket)
 					}
 				}
 				else if (*word == ')')
@@ -3169,8 +3169,8 @@ char* ReadOutput(bool optionalBrace,bool nested,char* ptr, FILE* in,char* &mydat
 					--paren;
 					if (!paren && startkind == '(') // closing level
 					{
-						if (squiggle)  BADSCRIPT((char*)"BODY-3 Fail to close { on line %d - (%s ",startsline,startsquiggle)
-						if (bracket) BADSCRIPT((char*)"BODY-2 Fail to close [ on line %d - [%s ",startbline,startbracket)
+						if (squiggle)  BADSCRIPT((char*)"BODY-3 Fail to close { on line %d - (%s \r\n",startsline,startsquiggle)
+						if (bracket) BADSCRIPT((char*)"BODY-2 Fail to close [ on line %d - [%s \r\n",startbline,startbracket)
 					}
 				}
 				else if (*word == ']')
@@ -3178,14 +3178,14 @@ char* ReadOutput(bool optionalBrace,bool nested,char* ptr, FILE* in,char* &mydat
 					--bracket;
 					if (!bracket && startkind == '[') // closing level
 					{
-						if (squiggle)  BADSCRIPT((char*)"BODY-3 Fail to close { on line %d - (%s ",startsline,startsquiggle)
-						if (paren) BADSCRIPT((char*)"BODY-2 Fail to close ( on line %d - [%s ",startpline,startparen)
+						if (squiggle)  BADSCRIPT((char*)"BODY-3 Fail to close { on line %d - (%s \r\n",startsline,startsquiggle)
+						if (paren) BADSCRIPT((char*)"BODY-2 Fail to close ( on line %d - [%s \r\n",startpline,startparen)
 					}
 				}
 
 				--level;
 				if (level < 0) 
-					BADSCRIPT((char*)"OUTPUT-3 Unbalanced %s",word)
+					BADSCRIPT((char*)"OUTPUT-3 Unbalanced %s\r\n",word)
 				else if (!level && (startkind == '(' || startkind == '{' || startkind == '[')) 
 				{
 					strcpy(dataChunk,word);
@@ -3202,7 +3202,7 @@ char* ReadOutput(bool optionalBrace,bool nested,char* ptr, FILE* in,char* &mydat
 				continue;
 			case '@': //   factset ref
 				if (!IsDigit(word[1])) 
-					BADSCRIPT((char*)"OUTPUT-4 bad factset reference - %s",word)
+					BADSCRIPT((char*)"OUTPUT-4 bad factset reference - %s\r\n",word)
 				if (!stricmp(nextToken,(char*)"+=") || !stricmp(nextToken,(char*)"-=") ) insert = 2;
 				break;
 		}
@@ -3213,7 +3213,7 @@ char* ReadOutput(bool optionalBrace,bool nested,char* ptr, FILE* in,char* &mydat
 			{
 				if (!stricmp(nextToken,assignlhs)) 
 				{
-					WARNSCRIPT((char*)"Possibly faulty assignment. %s has changed value during prior assignment.",assignlhs)
+					WARNSCRIPT((char*)"Possibly faulty assignment. %s has changed value during prior assignment.\r\n",assignlhs)
 					*assignlhs = 0;
 				}
 			}
@@ -3452,8 +3452,8 @@ Then one of 3 kinds of character:
 					MakeUpperCase(label); // full label to test if exists.
 					WORDP E = StoreWord(label,AS_IS);
 					AddInternalFlag(E,LABEL);
-					if (strchr(word,'.')) BADSCRIPT((char*)"RULE-2 Label %s must not contain a period",word)
-					if (len > 160) BADSCRIPT((char*)"RULE-2 Label %s must be less than 160 characters",word)
+					if (strchr(word,'.')) BADSCRIPT((char*)"RULE-2 Label %s must not contain a period\r\n",word)
+					if (len > 160) BADSCRIPT((char*)"RULE-2 Label %s must be less than 160 characters\r\n",word)
 					int fulllen = len;
 					if (len > 40)
 					{
@@ -3475,7 +3475,7 @@ Then one of 3 kinds of character:
 				{
 					sprintf(info,"        rule: %s.%d.%d-%s %s",currentTopicName,TOPLEVELID(currentRuleID),REJOINDERID(currentRuleID),labelName,kind);
 					AddMap(info,NULL);
-					if (*type != GAMBIT && *type != RANDOM_GAMBIT) BADSCRIPT((char*)"RULE-3 Missing pattern for responder")
+					if (*type != GAMBIT && *type != RANDOM_GAMBIT) BADSCRIPT((char*)"RULE-3 Missing pattern for responder\r\n")
 					*data++ = ' ';
 					patternDone = true;
 					// leave word intact to pass to readoutput
@@ -3519,7 +3519,7 @@ Then one of 3 kinds of character:
 	//   did he forget to fill in any [] jumps
 	for (unsigned int i = ('a'-'a'); i <= ('q'-'a'); ++i)
 	{
-		if (rejoinders[i] == 2) BADSCRIPT((char*)"RULE-4 Failed to define rejoinder %c: for responder just ended", i + 'a' - 1)
+		if (rejoinders[i] == 2) BADSCRIPT((char*)"RULE-4 Failed to define rejoinder %c: for responder just ended\r\n", i + 'a' - 1)
 	}
 
 	*data = 0;
@@ -3556,7 +3556,7 @@ static char* ReadMacro(char* ptr,FILE* in,char* kind,unsigned int build)
 		{
 			if (*word == '^' || *word == '~') memmove(word,word+1,strlen(word)); //   remove his ^
 			MakeLowerCase(word);
-			if (!table && !IsAlphaUTF8(*word) ) BADSCRIPT((char*)"MACRO-1 Macro name must start alpha %s",word)
+			if (!table && !IsAlphaUTF8(*word) ) BADSCRIPT((char*)"MACRO-1 Macro name must start alpha %s\r\n",word)
 			if (table)
 			{
 				strcpy(macroName,(char*)"^tbl:");
@@ -3565,7 +3565,7 @@ static char* ReadMacro(char* ptr,FILE* in,char* kind,unsigned int build)
 			}
 			else
 			{
-				if (!IsLegalName(word)) BADSCRIPT((char*)"MACRO-2 Illegal characters in function name %s",word)
+				if (!IsLegalName(word)) BADSCRIPT((char*)"MACRO-2 Illegal characters in function name %s\r\n",word)
 				*macroName = '^';
 				strcpy(macroName+1,word);
 				Log(STDTRACELOG,(char*)"Reading %s %s\r\n",kind,macroName);
@@ -3576,7 +3576,7 @@ static char* ReadMacro(char* ptr,FILE* in,char* kind,unsigned int build)
 			{
 				int64 bid;
 				ReadInt64((char*)GetDefinition(D),bid); 
-				if (bid == (int64)myBot)BADSCRIPT((char*)"MACRO-3 macro %s already defined",macroName)
+				if (bid == (int64)myBot)BADSCRIPT((char*)"MACRO-3 macro %s already defined\r\n",macroName)
 			}
 			continue;
 		}
@@ -3596,23 +3596,23 @@ static char* ReadMacro(char* ptr,FILE* in,char* kind,unsigned int build)
 		switch(*word)
 		{
 			case '(': 
-				if (parenLevel++ != 0) BADSCRIPT((char*)"MACRO-4 bad paren level in macro definition %s",macroName)
+				if (parenLevel++ != 0) BADSCRIPT((char*)"MACRO-4 bad paren level in macro definition %s\r\n",macroName)
 				continue; //   callArgumentList open
 			case ')':
-				if (--parenLevel != 0) BADSCRIPT((char*)"MACRO-5 bad closing paren in macro definition %s",macroName)
+				if (--parenLevel != 0) BADSCRIPT((char*)"MACRO-5 bad closing paren in macro definition %s\r\n",macroName)
 				gettingArguments = false;
 				break;
 			case '$': // declaring local
-				if (typeFlags & IS_PATTERN_MACRO) BADSCRIPT((char*)"MACRO-? May not use locals in a pattern/dual macro - %s",word)
-				if (word[1] != '_') BADSCRIPT((char*)"MACRO-? Variable name as argument must be local %s",word)
-				if (strchr(word,'.') || strchr(word,'[')) BADSCRIPT((char*)"MACRO-? Variable name as argument must be simple, not json reference %s",word)
+				if (typeFlags & IS_PATTERN_MACRO) BADSCRIPT((char*)"MACRO-? May not use locals in a pattern/dual macro - %s\r\n",word)
+				if (word[1] != '_') BADSCRIPT((char*)"MACRO-? Variable name as argument must be local %s\r\n",word)
+				if (strchr(word,'.') || strchr(word,'[')) BADSCRIPT((char*)"MACRO-? Variable name as argument must be simple, not json reference %s\r\n",word)
 				AddDisplay(word);
 				strcpy(functionArguments[functionArgumentCount++],word);
-				if (functionArgumentCount > MAX_ARG_LIMIT)  BADSCRIPT((char*)"MACRO-7 Too many callArgumentList to %s - max is %d",macroName,MAX_ARG_LIMIT)
+				if (functionArgumentCount > MAX_ARG_LIMIT)  BADSCRIPT((char*)"MACRO-7 Too many callArgumentList to %s - max is %d\r\n",macroName,MAX_ARG_LIMIT)
 				continue;
 			case '^':  //   declaring a new argument
 				if (IsDigit(word[1])) 
-					BADSCRIPT((char*)"MACRO-6 Function arguments must be alpha names, not digits like %s ",word)
+					BADSCRIPT((char*)"MACRO-6 Function arguments must be alpha names, not digits like %s\r\n",word)
 				restrict = strchr(word,'.');
 				if (restrict)
 				{
@@ -3649,18 +3649,18 @@ static char* ReadMacro(char* ptr,FILE* in,char* kind,unsigned int build)
 				}
 				{
 					WORDP X = FindWord(word);
-					if (X && X->internalBits & FUNCTION_NAME) BADSCRIPT((char*)"MACRO-8 Function argument %s is also name of a function",word);
+					if (X && X->internalBits & FUNCTION_NAME) BADSCRIPT((char*)"MACRO-8 Function argument %s is also name of a function\r\n",word);
 				}
 				AddDisplay(word);
 				strcpy(functionArguments[functionArgumentCount++],word);
-				if (functionArgumentCount > MAX_ARG_LIMIT)  BADSCRIPT((char*)"MACRO-7 Too many callArgumentList to %s - max is %d",macroName,MAX_ARG_LIMIT)
+				if (functionArgumentCount > MAX_ARG_LIMIT)  BADSCRIPT((char*)"MACRO-7 Too many callArgumentList to %s - max is %d\r\n",macroName,MAX_ARG_LIMIT)
 				continue;
 			default:
-				BADSCRIPT((char*)"MACRO-7 Bad argument to macro definition %s",macroName)
+				BADSCRIPT((char*)"MACRO-7 Bad argument to macro definition %s\r\n",macroName)
 		}
 	}
 	if (!D) return ptr; //   nothing defined
-	if (functionArgumentCount > ARGSETLIMIT) BADSCRIPT((char*)"MACRO-7 Argument count to macro definition %s limited to %d",macroName,ARGSETLIMIT)
+	if (functionArgumentCount > ARGSETLIMIT) BADSCRIPT((char*)"MACRO-7 Argument count to macro definition %s limited to %d\r\n",macroName,ARGSETLIMIT)
 	AddInternalFlag(D,(unsigned int)(FUNCTION_NAME|build|typeFlags));
 	if (functionArgumentCount > 15) *pack++ = (unsigned char)(functionArgumentCount - 15 + 'a');
 	else *pack++ = (unsigned char)(functionArgumentCount + 'A'); // some 10 can be had ^0..^9
@@ -3699,7 +3699,7 @@ static char* ReadMacro(char* ptr,FILE* in,char* kind,unsigned int build)
 		ptr = ReadOutput(optionalBrace,false,ptr,in,at,NULL,NULL,NULL);
 		ReadNextSystemToken(in,ptr,word,true);
 		if (optionalBrace && *word == '}') ptr = ReadNextSystemToken(in,ptr,word,false);
-		else if (optionalBrace) BADSCRIPT("Missing closing optional brace in reading macro %s", macroName)
+		else if (optionalBrace) BADSCRIPT("Missing closing optional brace in reading macro %s\r\n", macroName)
 
 		*at = 0;
 		// insert display and add body back
@@ -3790,7 +3790,7 @@ static char* ReadTable(char* ptr, FILE* in,unsigned int build,bool fromtopic)
 		if (fromtopic) BADSCRIPT((char*)"datum: from topic must use predefined table %s",name)
 		ptr = ReadMacro(ptr,in,(char*)"table:",build); //   defines the name,argumentList, and script
 		ptr = ReadNextSystemToken(in,ptr,word,false,false); //   the DATA: separator
-		if (stricmp(word,(char*)"DATA:")) 	BADSCRIPT((char*)"TABLE-1 missing DATA: separator for table - %s",word)
+		if (stricmp(word,(char*)"DATA:")) 	BADSCRIPT((char*)"TABLE-1 missing DATA: separator for table - %s\r\n",word)
 		sharedArgs = 0;
 	}
 	else // this is an existing table macro being executed
@@ -3899,11 +3899,11 @@ static char* ReadTable(char* ptr, FILE* in,unsigned int build,bool fromtopic)
 
 			if (*word == '[' ) // choice set (one per line allowed)
 			{
-				if (choiceArg) BADSCRIPT((char*)"TABLE-5 Only allowed 1 multiple choice [] arg")
+				if (choiceArg) BADSCRIPT((char*)"TABLE-5 Only allowed 1 multiple choice [] arg\r\n")
 				pre = systemArgumentList;  //   these are the fixed arguments before the multiple choice one
 				choiceArg = ptr; //   multiple choices arg 
 				char* at = strchr(ptr,']'); //  find end of multiple choice
-				if (!at) BADSCRIPT((char*)"TABLE-6 bad [ ] ending %s in table %s",readBuffer,currentFunctionDefinition->word)
+				if (!at) BADSCRIPT((char*)"TABLE-6 bad [ ] ending %s in table %s\r\n",readBuffer,currentFunctionDefinition->word)
 				ptr = at + 1; //   continue fixed argumentList AFTER the multiple choices set (but leave blank if there)
 				++argCount;
 				continue; //   skipping over this arg, move on to next arg now.
@@ -3929,8 +3929,8 @@ static char* ReadTable(char* ptr, FILE* in,unsigned int build,bool fromtopic)
 				if (n > 1)  flag = AS_IS;
 			}
 			if ( *word == '\\') memmove(word,word+1,strlen(word)); // remove escape
-			if (*word == '"' && !word[1]) BADSCRIPT((char*)"TABLE-? isolated doublequote argument- start of string not recognized?");
-			if (flag != AS_IS && *word != '"' && strstr(word,(char*)" ")) BADSCRIPT((char*)"TABLE-7 unexpected space in string %s - need to use doublequotes around string",word);
+			if (*word == '"' && !word[1]) BADSCRIPT((char*)"TABLE-? isolated doublequote argument- start of string not recognized?\r\n");
+			if (flag != AS_IS && *word != '"' && strstr(word,(char*)" ")) BADSCRIPT((char*)"TABLE-7 unexpected space in string %s - need to use doublequotes around string\r\n",word);
 			WORDP baseWord = StoreWord(word,flag);
 			strcpy(word,baseWord->word); 
 	
@@ -3945,7 +3945,7 @@ static char* ReadTable(char* ptr, FILE* in,unsigned int build,bool fromtopic)
 			if (*ptr == '(' && ++ptr) while (ALWAYS) // synonym listed, create a fact for it
 			{
 				ptr = ReadSystemToken(ptr,word);
-				if (!*word || *word == '[' || *word == ']')  BADSCRIPT((char*)"TABLE-8 Synomym in table %s lacks token",currentFunctionDefinition->word)
+				if (!*word || *word == '[' || *word == ']')  BADSCRIPT((char*)"TABLE-8 Synomym in table %s lacks token\r\n",currentFunctionDefinition->word)
 				if (*word == ')') break;	//   end of synonms
 				strcpy(word,JoinWords(BurstWord(word,CONTRACTIONS)));
 				if (IsUpperCase(*word)) CreateFact(MakeMeaning(StoreWord(word,NOUN|NOUN_PROPER_SINGULAR)),Mmember,base); 
@@ -3972,7 +3972,7 @@ static char* ReadTable(char* ptr, FILE* in,unsigned int build,bool fromtopic)
 
 		//   now we have one map of the argumentList row
 		if (argCount && argCount != wantedArgs)
-			BADSCRIPT((char*)"TABLE-9 Bad table %s in table %s, want %d arguments and have %d",original,currentFunctionDefinition->word, wantedArgs,argCount)
+			BADSCRIPT((char*)"TABLE-9 Bad table %s in table %s, want %d arguments and have %d\r\n",original,currentFunctionDefinition->word, wantedArgs,argCount)
 
 		//   table line is read, now execute rules on it, perhaps multiple times, after stuffing in the choice if one
 		if (argCount) //   we swallowed a dataset. Process it
@@ -4005,7 +4005,7 @@ static char* ReadTable(char* ptr, FILE* in,unsigned int build,bool fromtopic)
 						if (*choiceArg == '(' && ++choiceArg) while(choiceArg) //   synonym 
 						{
 							choiceArg = ReadSystemToken(choiceArg,word);
-							if (!*word) BADSCRIPT((char*)"TABLE-10 Failure to close synonym list in table %s",currentFunctionDefinition->word)
+							if (!*word) BADSCRIPT((char*)"TABLE-10 Failure to close synonym list in table %s\r\n",currentFunctionDefinition->word)
 							if (*word == ')') break;	//   end of synonms
 							ForceUnderscores(word);
 							CreateFact(MakeMeaning(StoreWord(word)),Mmember,MakeMeaning(D)); 
@@ -4052,7 +4052,7 @@ static void SetJumpOffsets(char* data) // store jump offset for each rule
         if (*at == ENDUNIT) 
         {
             int diff = (int)(at - end  + 1);
-			if (diff > MAX_JUMP_OFFSET) BADSCRIPT((char*)"TOPIC-9 Jump offset too far - %d but limit %d near %s",diff,MAX_JUMP_OFFSET,readBuffer) //   limit 2 char (12 bit) 
+			if (diff > MAX_JUMP_OFFSET) BADSCRIPT((char*)"TOPIC-9 Jump offset too far - %d but limit %d near %s\r\n",diff,MAX_JUMP_OFFSET,readBuffer) //   limit 2 char (12 bit) 
 			Encode(diff,end);
             end = at + 1;
         }
@@ -4069,28 +4069,28 @@ static char* ReadKeyword(char* word,char* ptr,bool &notted, bool &quoted, MEANIN
 	switch(*word) 
 	{
 		case '!':	// excuded keyword
-			if (len == 1) BADSCRIPT((char*)"CONCEPT-5 Must attach ! to keyword in %s",Meaning2Word(concept)->word);
-			if (notted) BADSCRIPT((char*)"CONCEPT-5 Cannot use ! after ! in %s",Meaning2Word(concept)->word);
+			if (len == 1) BADSCRIPT((char*)"CONCEPT-5 Must attach ! to keyword in %s\r\n",Meaning2Word(concept)->word);
+			if (notted) BADSCRIPT((char*)"CONCEPT-5 Cannot use ! after ! in %s\r\n",Meaning2Word(concept)->word);
 			notted = true;
 			ptr -= len;
 			if (*ptr == '!') ++ptr;
 			break;
 		case '\'': 
-			if (len == 1) BADSCRIPT((char*)"CONCEPT-6 Must attach ' to keyword in %s",Meaning2Word(concept)->word);
-			if (quoted) BADSCRIPT((char*)"CONCEPT-5 Cannot use ' after ' in %s",Meaning2Word(concept)->word);
+			if (len == 1) BADSCRIPT((char*)"CONCEPT-6 Must attach ' to keyword in %s\r\n",Meaning2Word(concept)->word);
+			if (quoted) BADSCRIPT((char*)"CONCEPT-5 Cannot use ' after ' in %s\r\n",Meaning2Word(concept)->word);
 			quoted = true;	//   since we emitted the ', we MUST emit the next token
 			ptr -= len;
 			if (*ptr == '\'') ++ptr;
 			break;
 		default:
-			if (*word == USERVAR_PREFIX || (*word == '_' && IsDigit(word[1])) || *word == SYSVAR_PREFIX) BADSCRIPT((char*)"CONCEPT-? Cannot use $var or _var or %var as a keyword in %s",Meaning2Word(concept)->word);
+			if (*word == USERVAR_PREFIX || (*word == '_' && IsDigit(word[1])) || *word == SYSVAR_PREFIX) BADSCRIPT((char*)"CONCEPT-? Cannot use $var or _var or %var as a keyword in %s\r\n",Meaning2Word(concept)->word);
 			if (*word == '~') MakeLowerCase(word); //   sets are always lower case
 			if ((at = strchr(word+1,'~'))) //   wordnet meaning request, confirm definition exists
 			{
 				char level[MAX_WORD_SIZE];
 				strcpy(level,at);
 				M = ReadMeaning(word);
-				if (!M) BADSCRIPT((char*)"CONCEPT-7 WordNet word doesn't exist %s",word)
+				if (!M) BADSCRIPT((char*)"CONCEPT-7 WordNet word doesn't exist %s\r\n",word)
 				WORDP D = Meaning2Word(M);
 				int index = Meaning2Index(M);
 				if ((GetMeaningCount(D) == 0 && !(GETTYPERESTRICTION(M) & BASIC_POS)) || (index && !strcmp(word,D->word) && index > GetMeaningCount(D)))
@@ -4107,7 +4107,7 @@ static char* ReadKeyword(char* word,char* ptr,bool &notted, bool &quoted, MEANIN
 				{
 					if (end != '.' || strlen(word) > 6) WARNSCRIPT((char*)"last character of keyword %s is punctuation. Is this intended?\r\n", word)
 				}
-				else if (end == '"' && word[(strlen(word) - 2)] == ' ') BADSCRIPT((char*) "CONCEPT-? Keyword %s ends in illegal space", word)
+				else if (end == '"' && word[(strlen(word) - 2)] == ' ') BADSCRIPT((char*) "CONCEPT-? Keyword %s ends in illegal space\r\n", word)
 				if (*word == '\\') memcpy(word,word+1,strlen(word)); // how to allow $e as a keyword
 				M = ReadMeaning(word);
 				D = Meaning2Word(M);
@@ -4122,7 +4122,7 @@ static char* ReadKeyword(char* word,char* ptr,bool &notted, bool &quoted, MEANIN
 				if (*D->word == '~') // concept
 				{
 					if (M == concept) 
-						BADSCRIPT((char*)"CONCEPT-8 Cannot include topic into self - %s",D->word);
+						BADSCRIPT((char*)"CONCEPT-8 Cannot include topic into self - %s\r\n",D->word);
 					CheckSetOrTopic(D->word);
 				}
 				else if ( ignoreSpell || !spellCheck || strchr(D->word,'_') || !D->word[1] || D->internalBits & UPPERCASE_HASH) {;}	// ignore spelling issues, phrases, short words &&  proper names
@@ -4207,15 +4207,15 @@ static char* ReadTopic(char* ptr, FILE* in,unsigned int build)
 
 		if (!*currentTopicName) //   get the topic name
 		{
-			if (*word != '~') BADSCRIPT((char*)"Topic name - %s must start with ~",word)
+			if (*word != '~') BADSCRIPT((char*)"Topic name - %s must start with ~\r\n",word)
 			strcpy(currentTopicName,word);
 			AddMap((char*)"    topic", currentTopicName);
 			Log(STDTRACELOG,(char*)"Reading topic %s\r\n",currentTopicName);
 			topicName = FindWord(currentTopicName);
 			if (!myBot && topicName && topicName->internalBits & CONCEPT && !(topicName->internalBits & TOPIC) && topicName->internalBits & (BUILD0|BUILD1|BUILD2))
-				WARNSCRIPT((char*)"TOPIC-1 Concept already defined with this topic name %s",currentTopicName)
+				WARNSCRIPT((char*)"TOPIC-1 Concept already defined with this topic name %s\r\n",currentTopicName)
 			topicName = StoreWord(currentTopicName);
-			if (!IsLegalName(currentTopicName)) BADSCRIPT((char*)"TOPIC-2 Illegal characters in topic name %s",currentTopicName)
+			if (!IsLegalName(currentTopicName)) BADSCRIPT((char*)"TOPIC-2 Illegal characters in topic name %s\r\n",currentTopicName)
 			topicValue = MakeMeaning(topicName);
 
 			// handle potential multiple topics of same name
@@ -4244,8 +4244,8 @@ static char* ReadTopic(char* ptr, FILE* in,unsigned int build)
 		switch(*word)
 		{
 		case '(': case '[':
-			if (!keywordsDone && topicFlagsDone) BADSCRIPT((char*)"TOPIC-3 Illegal bracking in topic keywords %s",word)
-			if (flags & TOPIC_SHARE && flags & TOPIC_SYSTEM) BADSCRIPT((char*)"TOPIC-? Don't need SHARE on SYSTEM topic %s, it is already shared via system",currentTopicName)
+			if (!keywordsDone && topicFlagsDone) BADSCRIPT((char*)"TOPIC-3 Illegal bracking in topic keywords %s\r\n",word)
+			if (flags & TOPIC_SHARE && flags & TOPIC_SYSTEM) BADSCRIPT((char*)"TOPIC-? Don't need SHARE on SYSTEM topic %s, it is already shared via system\r\n",currentTopicName)
 			topicFlagsDone = true; //   topic flags must occur before list of keywords
 			++parenLevel;
 			break;
@@ -4300,10 +4300,10 @@ static char* ReadTopic(char* ptr, FILE* in,unsigned int build)
 				else if (!stricmp(word,(char*)"system")) 
 				{
 					flags |= TOPIC_SYSTEM | TOPIC_KEEP | TOPIC_NOSTAY;
-					if (stayRequested) BADSCRIPT((char*)"TOPIC-4 Topic %s cannot be both STAY and SYSTEM",currentTopicName)
+					if (stayRequested) BADSCRIPT((char*)"TOPIC-4 Topic %s cannot be both STAY and SYSTEM\r\n",currentTopicName)
 				}
 				else if (!stricmp(word,(char*)"user"));
-                else BADSCRIPT((char*)"Bad topic flag %s for topic %s",word,currentTopicName)
+                else BADSCRIPT((char*)"Bad topic flag %s for topic %s\r\n",word,currentTopicName)
 			}
 			else if (!keywordsDone) ptr = ReadKeyword(word,ptr,notted,quoted,topicValue,0,false,build,false);//   absorb keyword list
 			else if (!stricmp(word,(char*)"datum:")) // absorb a top-level data table line
@@ -4312,7 +4312,7 @@ static char* ReadTopic(char* ptr, FILE* in,unsigned int build)
 			}
 			else if (TopLevelRule(lowercaseForm))//   absorb a responder/gambit and its rejoinders
 			{
-				if (IsUpperCase(*word)) BADSCRIPT((char*)"Rule ID must be lower case: %s",word);
+				if (IsUpperCase(*word)) BADSCRIPT((char*)"Rule ID must be lower case: %s\r\n",word);
 				++toplevelrules;
 				if (TopLevelGambit(word)) ++gambits;
 				if (pack == data)
@@ -4323,17 +4323,17 @@ static char* ReadTopic(char* ptr, FILE* in,unsigned int build)
 				ReadTopLevelRule(lowercaseForm,ptr,in,pack,data);
 				currentRuleID = TOPLEVELID(currentRuleID) + 1;
 				pack += strlen(pack);
-				if ((pack - data) > (MAX_TOPIC_SIZE - 2000)) BADSCRIPT((char*)"TOPIC-4 Topic %s data too big. Split it by calling another topic using u: () respond(~subtopic) and putting the rest of the rules in that subtopic",currentTopicName)
+				if ((pack - data) > (MAX_TOPIC_SIZE - 2000)) BADSCRIPT((char*)"TOPIC-4 Topic %s data too big. Split it by calling another topic using u: () respond(~subtopic) and putting the rest of the rules in that subtopic\r\n",currentTopicName)
 			}
-			else BADSCRIPT((char*)"Expecting responder for topic %s, got %s",currentTopicName,word)
+			else BADSCRIPT((char*)"Expecting responder for topic %s, got %s\r\n",currentTopicName,word)
 		}
 	}
 
 	--jumpIndex;
 
-	if (parenLevel) BADSCRIPT((char*)"TOPIC-5 Failure to balance ( in %s",currentTopicName)
-	if (!topicName) BADSCRIPT((char*)"TOPIC-6 No topic name?")
-	if (toplevelrules > MAX_TOPIC_RULES) BADSCRIPT((char*)"TOPIC-8 %s has too many rules- %d must be limited to %d. Call a subtopic.",currentTopicName,toplevelrules,MAX_TOPIC_RULES)
+	if (parenLevel) BADSCRIPT((char*)"TOPIC-5 Failure to balance ( in %s\r\n",currentTopicName)
+	if (!topicName) BADSCRIPT((char*)"TOPIC-6 No topic name?\r\n")
+	if (toplevelrules > MAX_TOPIC_RULES) BADSCRIPT((char*)"TOPIC-8 %s has too many rules- %d must be limited to %d. Call a subtopic.\r\n",currentTopicName,toplevelrules,MAX_TOPIC_RULES)
 	if (!topicName->w.botNames && *botheader) topicName->w.botNames = AllocateHeap(botheader,strlen(botheader)); //  harry,georgia,roger
 
 	size_t len = pack-data;
@@ -4352,7 +4352,7 @@ static char* ReadTopic(char* ptr, FILE* in,unsigned int build)
 	unsigned int checksum = (unsigned int) (Hashit((unsigned char*) data, len,hasUpperCharacters,hasUTF8Characters) & 0x0ffffffff);
 	
 	//   trailing blank after jump code
-	if (len >= (MAX_TOPIC_SIZE-100)) BADSCRIPT((char*)"TOPIC-7 Too much data in one topic")
+	if (len >= (MAX_TOPIC_SIZE-100)) BADSCRIPT((char*)"TOPIC-7 Too much data in one topic\r\n")
 	char filename[SMALL_WORD_SIZE];
 	sprintf(filename,(char*)"%s/BUILD%s/script%s.txt",topic,baseName,baseName);
 	FILE* out = FopenUTF8WriteAppend(filename);
@@ -4392,11 +4392,11 @@ static char* ReadRename(char* ptr, FILE* in,unsigned int build)
 			break; 
 		}
 		if (*word != '_' && *word != '@' && (*word != '#' || word[1] != '#')) 
-			BADSCRIPT((char*)"Rename  %s must start with _ or @ or ##",word)
+			BADSCRIPT((char*)"Rename  %s must start with _ or @ or ##\r\n",word)
 		ptr = ReadNextSystemToken(in,ptr,basic,false);
-		if (*word != '#' && (*basic != *word || !IsDigit(basic[1]) )) BADSCRIPT((char*)"Rename  %s must start same as %s and have a number after it",basic,word)
+		if (*word != '#' && (*basic != *word || !IsDigit(basic[1]) )) BADSCRIPT((char*)"Rename  %s must start same as %s and have a number after it\r\n",basic,word)
 		if (*word == '#' && !IsDigit(*basic) && *basic != '-' && *basic != '+') 
-			BADSCRIPT((char*)"Rename  %s followed by number or sign as %s",word,basic)
+			BADSCRIPT((char*)"Rename  %s followed by number or sign as %s\r\n",word,basic)
 		MakeLowerCase(word); 
 		int64 n;
 		if (*word == '#') 
@@ -4419,7 +4419,7 @@ static char* ReadRename(char* ptr, FILE* in,unsigned int build)
 
 static char* ReadPlan(char* ptr, FILE* in,unsigned int build)
 {
-	if (build == BUILD2) BADSCRIPT((char*)"Not allowed plans in layer 2 at present")
+	if (build == BUILD2) BADSCRIPT((char*)"Not allowed plans in layer 2 at present\r\n")
 	char planName[MAX_WORD_SIZE];
 	char baseName[MAX_WORD_SIZE];
 	displayIndex = 0;
@@ -4442,8 +4442,8 @@ static char* ReadPlan(char* ptr, FILE* in,unsigned int build)
 		{
 			if (*word == '^') memmove(word,word+1,strlen(word)); //   remove his ^
 			MakeLowerCase(word);
-			if (!IsAlphaUTF8(*word) ) BADSCRIPT((char*)"PLAN-1 Plan name must start alpha %s",word)
-			if (!IsLegalName(word)) BADSCRIPT((char*)"PLAN-2 Illegal characters in plan name %s",word)
+			if (!IsAlphaUTF8(*word) ) BADSCRIPT((char*)"PLAN-1 Plan name must start alpha %s\r\n",word)
+			if (!IsLegalName(word)) BADSCRIPT((char*)"PLAN-2 Illegal characters in plan name %s\r\n",word)
 			*planName = '^';
 			strcpy(planName+1,word);
 			strcpy(baseName,planName);
@@ -4475,25 +4475,25 @@ static char* ReadPlan(char* ptr, FILE* in,unsigned int build)
 		switch(*word)
 		{
 			case '(': 
-				if (parenLevel++ != 0) BADSCRIPT((char*)"PLAN-4 bad paren level in plan definition %s",planName)
+				if (parenLevel++ != 0) BADSCRIPT((char*)"PLAN-4 bad paren level in plan definition %s\r\n",planName)
 				continue; //   callArgumentList open
 			case ')':
-				if (--parenLevel != 0) BADSCRIPT((char*)"PLAN-5 bad closing paren in plan definition %s",planName)
+				if (--parenLevel != 0) BADSCRIPT((char*)"PLAN-5 bad closing paren in plan definition %s\r\n",planName)
 				gettingArguments = false;
 				break;
 			case '^':  //   declaring a new argument
-				if (IsDigit(word[1])) BADSCRIPT((char*)"PLAN-6 Plan arguments must be alpha names, not digits like %s ",word)
+				if (IsDigit(word[1])) BADSCRIPT((char*)"PLAN-6 Plan arguments must be alpha names, not digits like %s\r\n",word)
 				strcpy(functionArguments[functionArgumentCount++],word);
-				if (functionArgumentCount > MAX_ARG_LIMIT)  BADSCRIPT((char*)"PLAN-7 Too many callArgumentList to %s - max is %d",planName,MAX_ARG_LIMIT)
+				if (functionArgumentCount > MAX_ARG_LIMIT)  BADSCRIPT((char*)"PLAN-7 Too many callArgumentList to %s - max is %d\r\n",planName,MAX_ARG_LIMIT)
 				continue;
 			default:
 				BADSCRIPT((char*)"PLAN-7 Bad argument to plan definition %s",planName)
 		}
 	}
 	if (!D) return ptr; //   nothing defined
-	if (parenLevel) BADSCRIPT((char*)"PLAN-5 Failure to balance ( in %s",planName)
+	if (parenLevel) BADSCRIPT((char*)"PLAN-5 Failure to balance ( in %s\r\n",planName)
 	if (duplicateCount && functionArgumentCount != baseArgumentCount) 
-		BADSCRIPT((char*)"PLAN->? Additional copies of %s must have %d arguments",planName,baseArgumentCount)
+		BADSCRIPT((char*)"PLAN->? Additional copies of %s must have %d arguments\r\n",planName,baseArgumentCount)
 	AddInternalFlag(D,(unsigned int)(FUNCTION_NAME|build|IS_PLAN_MACRO));
 	D->w.planArgCount = functionArgumentCount;
 	currentFunctionDefinition = D;
@@ -4524,7 +4524,7 @@ static char* ReadPlan(char* ptr, FILE* in,unsigned int build)
 		switch(*word)
 		{
 		case '#':
-			if (*word == '#' && word[1] == '!')  BADSCRIPT((char*)"PLAN-? Verification not meaningful in a plan")
+			if (*word == '#' && word[1] == '!')  BADSCRIPT((char*)"PLAN-? Verification not meaningful in a plan\r\n")
 			continue;
 		default:
 			MakeLowerCopy(lowercaseForm,word);
@@ -4538,24 +4538,24 @@ static char* ReadPlan(char* ptr, FILE* in,unsigned int build)
 				}
 				ReadTopLevelRule(lowercaseForm,ptr,in,pack,data);
 				pack += strlen(pack);
-				if ((pack - data) > (MAX_TOPIC_SIZE - 2000)) BADSCRIPT((char*)"PLAN-4 Plan %s data too big. Split it by calling another topic using u: () respond(~subtopic) and putting the rest of the rules in that subtopic",planName)
+				if ((pack - data) > (MAX_TOPIC_SIZE - 2000)) BADSCRIPT((char*)"PLAN-4 Plan %s data too big. Split it by calling another topic using u: () respond(~subtopic) and putting the rest of the rules in that subtopic\r\n",planName)
 			}
-			else BADSCRIPT((char*)"Expecting responder for plan %s, got %s",planName,word)
+			else BADSCRIPT((char*)"Expecting responder for plan %s, got %s\r\n",planName,word)
 		}
 	}
 
 	--jumpIndex;
 
-	if (toplevelrules > MAX_TOPIC_RULES) BADSCRIPT((char*)"PLAN-8 %s has too many rules- %d must be limited to %d. Call a plantopic.",planName,toplevelrules,MAX_TOPIC_RULES)
+	if (toplevelrules > MAX_TOPIC_RULES) BADSCRIPT((char*)"PLAN-8 %s has too many rules- %d must be limited to %d. Call a plantopic.\r\n",planName,toplevelrules,MAX_TOPIC_RULES)
 
 	size_t len = pack-data;
 	if (!len)  WARNSCRIPT((char*)"No data in plan %s\r\n",currentTopicName)
 
-	if (!endtopicSeen) BADSCRIPT((char*)"PLAN-8 Plan %s cannot succeed since no ^end(plan) exists\n",planName)
+	if (!endtopicSeen) BADSCRIPT((char*)"PLAN-8 Plan %s cannot succeed since no ^end(plan) exists\r\n",planName)
 
 	//   trailing blank after jump code
     SetJumpOffsets(data); 
-	if (len >= (MAX_TOPIC_SIZE-100)) BADSCRIPT((char*)"PLAN-7 Too much data in one plan")
+	if (len >= (MAX_TOPIC_SIZE-100)) BADSCRIPT((char*)"PLAN-7 Too much data in one plan\r\n")
 	*pack = 0;
 		
 	char file[200];
@@ -4592,14 +4592,14 @@ static char* ReadQuery(char* ptr, FILE* in, unsigned int build) // readquery: na
 		ptr = ReadNextSystemToken(in,ptr,word,false); // name of query
 		if (!*word) break;	
 		size_t len = strlen(word);
-		if (!IsAlphaUTF8(*word)) BADSCRIPT((char*)"query label %s must be alpha",word);
+		if (!IsAlphaUTF8(*word)) BADSCRIPT((char*)"query label %s must be alpha\r\n",word);
 		if (TopLevelUnit(word)) //   definition ends when another major unit starts
 		{
 			ptr -= len; //   let someone else see this starter 
 			break; 
 		}
 		ptr = ReadNextSystemToken(in,ptr,query,false);
-		if (*query != '"') BADSCRIPT((char*)"query body %s must be in quotes",query);
+		if (*query != '"') BADSCRIPT((char*)"query body %s must be in quotes\r\n",query);
 		WORDP D = StoreWord(word);
 		AddInternalFlag(D, (unsigned int)(QUERY_KIND|build));
 		char* at = strchr(query+1,'"'); 
@@ -4720,11 +4720,11 @@ static char* ReadConcept(char* ptr, FILE* in,unsigned int build)
 		// establish name and characteristics of the concept
 		if (!*conceptName) //   get the concept name, will be ~xxx or :xxx 
 		{
-			if (*word != '~' ) BADSCRIPT((char*)"CONCEPT-1 Concept name must begin with ~ or : - %s",word)
+			if (*word != '~' ) BADSCRIPT((char*)"CONCEPT-1 Concept name must begin with ~ or : - %s\r\n",word)
 
 			// Users may not create repeated user topic names. Ones already saved in dictionary are fine to overwrite
 			MakeLowerCopy(conceptName,word);
-			if (!IsLegalName(conceptName)) BADSCRIPT((char*)"CONCEPT-2 Illegal characters in concept name %s",conceptName)
+			if (!IsLegalName(conceptName)) BADSCRIPT((char*)"CONCEPT-2 Illegal characters in concept name %s\r\n",conceptName)
 				// create concept header
 			D = StoreWord(conceptName);
 			concept = MakeMeaning(D);
@@ -4892,7 +4892,7 @@ static void ReadTopicFile(char* name,uint64 buildid) //   read contents of a top
 		else if (!stricmp(word,(char*)"rename:")) ptr = ReadRename(ptr,in,build);
 		else if (!stricmp(word,(char*)"describe:")) ptr = ReadDescribe(ptr,in,build);
 		else if (!stricmp(word,(char*)"patternMacro:") || !stricmp(word,(char*)"outputMacro:") || !stricmp(word,(char*)"dualMacro:") || !stricmp(word,(char*)"tableMacro:")) ptr = ReadMacro(ptr,in,word,build);
-		else BADSCRIPT((char*)"FILE-1 Unknown top-level declaration %s in %s",word,name)
+		else BADSCRIPT((char*)"FILE-1 Unknown top-level declaration %s in %s\r\n",word,name)
 	}
 	FClose(in); // this should be the only such, not fclose.
 	--jumpIndex;
@@ -5502,7 +5502,7 @@ char* CompileString(char* ptr) // incoming is:  ^"xxx" or ^'xxxx'
 	char tmp[MAX_WORD_SIZE * 2];
 	strcpy(tmp,ptr); // protect copy from multiple readcalls
 	size_t len = strlen(tmp);
-	if (tmp[len-1] != '"' && tmp[len-1] != '\'') BADSCRIPT((char*)"STRING-1 String not terminated with doublequote %s",tmp)
+	if (tmp[len-1] != '"' && tmp[len-1] != '\'') BADSCRIPT((char*)"STRING-1 String not terminated with doublequote %s\r\n",tmp)
 	tmp[len-1] = 0;	// remove trailing quote
 
 	// flip the FUNCTION marker inside the string
