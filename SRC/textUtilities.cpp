@@ -2288,7 +2288,7 @@ char* ReadQuote(char* ptr, char* buffer,bool backslash,bool noblank,int limit)
 	//  d) literal quote \" - system outputs the quote only (script has nothing or blank or tab or ` after it
 	//  e) internal "`xxxxx`"  - argument to tcpopen pass back untouched stripping the markers on both ends - allows us to pay no attention to OTHER quotes within
     char c;
-    int n = limit;		// quote must close within this limit
+    int n = limit - 2;		// quote must close within this limit
 	char* start = ptr;
 	char* original = buffer;
 	// "` is an internal marker of argument passed from TCPOPEN   "'arguments'" ) , return the section untouched as one lump 
@@ -2319,6 +2319,11 @@ char* ReadQuote(char* ptr, char* buffer,bool backslash,bool noblank,int limit)
 			*buffer++ = *++ptr;
 		}
         else *buffer++ = c; 
+		if ((buffer - original) > limit)  // overflowing
+		{
+			c = 0;
+			break;
+		}
     }
     if (n == 0 || !c) // ran dry instead of finding the end
 	{	
@@ -2331,7 +2336,8 @@ char* ReadQuote(char* ptr, char* buffer,bool backslash,bool noblank,int limit)
 			*buffer = 0;
 			return ptr;
 		}
- 		if (!n) Log(STDTRACELOG,(char*)"bad double-quoting?  %s %d %s - size is %d but limit is %d\r\n",start,currentFileLine,currentFilename,buffer-start,MAX_WORD_SIZE);
+		*buffer = 0;
+ 		if (!n) Log(STDTRACELOG,(char*)"bad double-quoting?  %s %d %s - string size exceeds limit of %d\r\n",start,currentFileLine,currentFilename,limit);
 		else Log(STDTRACELOG,(char*)"bad double-quoting1?  %s %d %s missing tail doublequote \r\n",start,currentFileLine,currentFilename);
 		return NULL;	// no closing quote... refuse
 	}
@@ -2967,7 +2973,7 @@ int64 Convert2Integer(char* number, int useNumberStyle)  //  non numbers return 
 	}
 	if (hyphen && num != -1) // do last piece
 	{
-		num *= 10;
+		if ((num % 10) > 0) num *= 10; // don't multiply if twenty-three
 		val1 = Convert2Integer(oldhyphen, useNumberStyle);
 		if (val1 > 9) num = -1;
 		else num += val1;

@@ -543,7 +543,7 @@ static char* FindWordEnd(char* ptr, char* priorToken, char** words, int &count, 
 	// if token ends in period and does not start with digit (not float) and word we know,
 	// return prior
 
-	if (*token == '.' && FindWord(token + 1)) return ptr + 1; // sentence end then word we know
+	if (*token == '.' && !IsInteger(token + 1, false, numberStyle) && FindWord(token + 1)) return ptr + 1; // sentence end then word we know
 	
 	if (token[l - 1] == '.' && FindWord(token, l - 1)) return ptr + l - 1;
 	if (token[l - 1] == '"' && tokenControl & SPLIT_QUOTE) return ptr + l - 1; // not perfect if need to split sooner

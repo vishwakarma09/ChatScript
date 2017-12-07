@@ -661,7 +661,7 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 	if (!csEnglish)
 	{
 		if (!entry) entry = FindWord(original, 0, SECONDARY_CASE_ALLOWED); // Try harder to find the foreign word, e.g. German wochentag -> Wochentag
-		if (entry) canonical = GetCanonical(entry);
+		if (entry && !properties) canonical = GetCanonical(entry);
 	}
 	if (*original == '$' && !original[1]) { ; } // $
 	else if (*original == '~' || (*original == USERVAR_PREFIX && !IsDigit(original[1])) || *original == '^' || (*original == SYSVAR_PREFIX && original[1]))
@@ -840,7 +840,7 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 			if (participle && !strcmp(participle,original)) properties |= NOUN_ADJECTIVE;
 		}
 		WORDP canon = GetCanonical(entry);
-		canonical = canon;
+		if (canon) canonical = canon;
 		if (canonical) cansysflags = canonical->systemFlags;
 
 		// possessive pronoun-determiner like my is always a determiner, not a pronoun. 

@@ -304,7 +304,7 @@ typedef unsigned int DICTINDEX;	//   indexed ref to a dictionary entry
 // unused 0x20000000 
 // unused 0x40000000 
 // unused 0x80000000 
-
+// DO NOT MOVE FLAGS AROUND, since user topic files assume them as they are
 // transient flags
 #define MARKED_FACT         0x08000000  //   TRANSIENT : used during inferencing sometimes to see if fact is marked, also in user save to avoid repeated save
 #define ITERATOR_FACT		MARKED_FACT	// used by iterator

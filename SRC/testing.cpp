@@ -8518,12 +8518,29 @@ static void C_TranslateConcept(char* input) // give the language & filename to w
 
 	MakeUpperCase(language);
 	char* into = NULL;
-	if (!stricmp(language,"GERMAN")) into = "de";
+	if (!stricmp(language,"ARABIC")) into = "ar";
+	else if (!stricmp(language,"BENGALI")) into = "bn";
+	else if (!stricmp(language,"CHINESE")) into = "zh";
+	else if (!stricmp(language,"CZECH")) into = "cs";
+	else if (!stricmp(language,"DUTCH")) into = "nl";
+	else if (!stricmp(language,"FINNISH")) into = "fi";
 	else if (!stricmp(language,"FRENCH")) into = "fr";
-	else if (!stricmp(language,"ITALIAN")) into = "it";
-	else if (!stricmp(language,"SPANISH")) into = "es";
-	else if (!stricmp(language,"RUSSIAN")) into = "ru";
+	else if (!stricmp(language,"GERMAN")) into = "de";
+	else if (!stricmp(language,"GREEK")) into = "el";
 	else if (!stricmp(language,"HINDI")) into = "hi";
+	else if (!stricmp(language,"HUNGARIAN")) into = "hu";
+	else if (!stricmp(language,"ITALIAN")) into = "it";
+	else if (!stricmp(language,"JAPANESE")) into = "ja";
+	else if (!stricmp(language,"KOREAN")) into = "ko";
+	else if (!stricmp(language,"MALAY")) into = "ms";
+	else if (!stricmp(language,"NORWEGIAN")) into = "no";
+	else if (!stricmp(language,"PUNJABI")) into = "pa";
+	else if (!stricmp(language,"POLISH")) into = "pl";
+	else if (!stricmp(language,"PORTUGUESE")) into = "pt";
+	else if (!stricmp(language,"RUSSIAN")) into = "ru";
+	else if (!stricmp(language,"SPANISH")) into = "es";
+	else if (!stricmp(language,"SWEDISH")) into = "sv";
+	else if (!stricmp(language,"TELUGU")) into = "te";
 
 	FILE* in = FopenReadOnly(source);
 	if (!in)

@@ -94,7 +94,10 @@ char* GetCommandArg(char* ptr, char* buffer,FunctionResult& result,unsigned int 
 	if (!(control & ASSIGNMENT)) impliedSet = ALREADY_HANDLED;
 	if (control == 0) control |= OUTPUT_KEEPSET | OUTPUT_ONCE | OUTPUT_NOCOMMANUMBER;
 	else control |= OUTPUT_ONCE | OUTPUT_NOCOMMANUMBER;
-	ptr = FreshOutput(ptr, buffer, result, control, MAX_WORD_SIZE);
+
+	unsigned int size = MAX_BUFFER_SIZE - (buffer - currentOutputBase); // how much used
+	if (size > MAX_BUFFER_SIZE) size = MAX_WORD_SIZE * 4; // arbitrary assumption
+	ptr = FreshOutput(ptr, buffer, result, control, size);
 	if (!(control & ASSIGNMENT))  impliedSet = oldImpliedSet; // assignment of @0 = ^querytopics needs to be allowed to change to alreadyhandled
 	return ptr;
 }
