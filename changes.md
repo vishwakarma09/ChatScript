@@ -1,3 +1,7 @@
+
+version 7.73 12/7/2017
+1. several fixes to pattern matcher
+
 # version 7.72  IMPORTANT FIX FOR BUG INTRODUCTION IN 7.6 -- KNOWLEDGE of adverbs in dictionary lost
 1. param traceuser=username to make a server trace that user only
 
