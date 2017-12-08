@@ -5234,7 +5234,7 @@ static void ClearTopicConcept(WORDP D, uint64 build)
 static void DumpErrors()
 {
 	if (errorIndex) Log(ECHOSTDTRACELOG,(char*)"\r\n ERROR SUMMARY: \r\n");
-	for (unsigned int i = 0; i < errorIndex; ++i) Log(ECHOSTDTRACELOG,(char*)"  %s\r\n",errors[i]);
+	for (unsigned int i = 0; i < errorIndex; ++i) Log(ECHOSTDTRACELOG,(char*)"  %s",errors[i]);
 }
 
 static void DumpWarnings()
@@ -5247,7 +5247,7 @@ static void DumpWarnings()
 		else if (strstr(warnings[i],(char*)"is unknown as a word")) {}
 		else if (strstr(warnings[i],(char*)"in opposite case")){}
 		else if (strstr(warnings[i],(char*)"a function call")){}
-		else Log(ECHOSTDTRACELOG,(char*)"  %s\r\n",warnings[i]);
+		else Log(ECHOSTDTRACELOG,(char*)"  %s",warnings[i]);
 	}
 }
 
