@@ -4827,10 +4827,12 @@ static void ReadTopicFile(char* name,uint64 buildid) //   read contents of a top
 	chunking = false;
 	unsigned int build = (unsigned int) buildid;
 	size_t len = strlen(name);
-	if (len > 1 && name[len-1] == '~') return; // unix backup editor file
-	if (len > 4 && !stricmp(name+len-4,(char*)".bak")) return; // windows backup file
 
-	if (name[len-1] == '~') return; // ignore linux edit backup files
+	// Check the filename is at least four characters (the ext plus one letter)
+	// and matches either .top or .tbl
+	char* suffix = name + len - 4;
+	if (len <= 4) return;
+	if (0 != stricmp(suffix, (char*) ".top") && 0 != stricmp(suffix, (char*) ".tbl")) return;
 
 	FILE* in = FopenReadNormal(name);
 	if (!in) 
