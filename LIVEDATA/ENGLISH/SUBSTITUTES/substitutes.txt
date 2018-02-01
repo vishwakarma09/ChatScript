@@ -1,4 +1,4 @@
- # <xxx means sentence start then xxx
+﻿ # <xxx means sentence start then xxx
  # 1. spelling corrections for common spelling errors
  # 2. idiom conversions
  # 3. junk word removal from sentence
@@ -16,7 +16,25 @@
  # we use + because we dont want the resulting phrase recognized by the idiom processor and thus cause the processor to delete the phrase
  # xxx> means sentence then end stop
  # if you want to have the result NOT tokenized, put it in quotes
- a.i. artificial+intelligence
+ replace: ?_" inches
+?_' feet
+?_yr years
+?_mo months
+?_mg milligrams
+?_kg kilograms
+ ?_ml milliliters
+?_km kilometer
+ ?_kph kilometer+per+hour
+ ?_mph miles+per+hour
+ ?_°C degree+Celcius
+ ?_°F degree+Fahrenheit
+ ?_°K degree+Kelvin
+ ?_° degree
+ °C degree+Celcius
+°F degree+Fahrenheit
+ °K degree+Kelvin
+
+a.i. artificial+intelligence
  touring_test Turing+test
  meds medications
  real_estate real_estate
@@ -66,7 +84,7 @@
  Great_Britain United_Kingdom
  Britain United_Kingdom
  Aug August
- M�xico Mexico
+ México Mexico
  Aug. August
  colo. Colorado
  Corp Corporation
@@ -1365,7 +1383,6 @@ prof. professor
  were_are where+are
  werent were+not
  whaddya what+do+you
- what_'s_up what+is+new
  what_brings_you_here why+are+you+here
  what_brings_you_in why+are+you+in
  what_brings_you_into why+are+you+into

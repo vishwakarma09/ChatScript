@@ -1,7 +1,7 @@
 #ifndef MAINSYSTEMH
 #define MAINSYSTEMH
 #ifdef INFORMATION
-Copyright (C) 2011-2017 by Bruce Wilcox
+Copyright (C)2011-2018 by Bruce Wilcox
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
@@ -33,11 +33,21 @@ typedef struct RESPONSE
 
 #define PENDING_RESTART -1	// perform chat returns this flag on turn
 
-typedef void (*DEBUGAPI)(char* buffer);
-extern DEBUGAPI debugInput;
-extern DEBUGAPI debugOutput;
+typedef char* (*DEBUGAPI)(char* buffer);
+typedef char* (*DEBUGLOOPAPI)(char* buffer,bool in);
+typedef char* (*DEBUGVARAPI)(char* var, char* value);
+extern DEBUGAPI debugMessage;
+extern bool loadingUser;
+extern DEBUGAPI debugInput; // user input from windows to CS
+extern DEBUGAPI debugOutput; // CS output to windows
+extern DEBUGAPI debugEndTurn; // about to save user file marker
+extern DEBUGLOOPAPI debugCall;
+extern unsigned int idetrace;
+extern DEBUGVARAPI debugVar;
+extern int outputlevel;
+extern DEBUGAPI debugAction;
 extern int forkcount;
-
+extern char* outputCode[MAX_GLOBAL];
 #define START_BIT 0x8000000000000000ULL	// used looping thru bit masks
 #define INPUTMARKER '`'	// used to start and end ^input data
 
@@ -72,7 +82,7 @@ extern int derivationLength;
 extern char* derivationSentence[MAX_SENTENCE_LENGTH];
 extern bool docstats;
 extern unsigned int docSentenceCount;
-extern clock_t startTimeInfo;
+extern uint64 startTimeInfo;
 extern unsigned int outputLength;
 extern bool readingDocument;
 extern int inputRetryRejoinderTopic;
@@ -106,7 +116,7 @@ extern int argc;
 extern char** argv;
 extern  bool pendingRestart;
 extern  bool pendingUserReset;
-extern unsigned long sourceStart;
+extern uint64 sourceStart;
 extern unsigned int sourceTokens;
 extern unsigned int sourceLines;
 extern char* version;
@@ -129,6 +139,7 @@ extern bool moreToCome,moreToComeQuestion;
 extern unsigned int trace;
 extern unsigned int timing;
 extern int regression;
+extern char debugEntry[1000];
 extern EchoSource echoSource;
 extern bool all;
 extern PrepareMode prepareMode;
@@ -138,7 +149,7 @@ extern char oktest[MAX_WORD_SIZE];
 extern int timerLimit;
 extern int timerCheckRate;
 extern int timerCheckInstance;
-extern clock_t volleyStartTime;
+extern uint64 volleyStartTime;
 extern bool autonumber;
 extern bool showWhy;
 extern bool noboot;
@@ -180,16 +191,20 @@ extern char* nextInput;
 extern char activeTopic[200];
 
 extern int always; 
-extern unsigned long callBackTime;
-extern unsigned long callBackDelay;
-extern unsigned long loopBackTime;
-extern unsigned long loopBackDelay;
-extern unsigned long alarmTime;
-extern unsigned long alarmDelay;
+extern uint64 callBackTime;
+extern uint64 callBackDelay;
+extern uint64 loopBackTime;
+extern uint64 loopBackDelay;
+extern uint64 alarmTime;
+extern uint64 alarmDelay;
+extern  char userPrefix[MAX_WORD_SIZE];			// label prefix for user input
+extern char botPrefix[MAX_WORD_SIZE];			// label prefix for bot output
+
 void Restart();
 void ProcessInputFile();
 bool ProcessInputDelays(char* buffer,bool hitkey);
 char* SkipOOB(char* buffer);
+void EmitOutput();
 
 // startup
 #ifdef DLL
@@ -209,6 +224,7 @@ void CloseSystem();
 void NLPipeline(int trace);
 void PartiallyCloseSystem();
 int main(int argc, char * argv[]);
+char* ReviseOutput(char* out, char* prefix);
 void ProcessOOB(char* buffer);
 void ComputeWhy(char* buffer, int n);
 void FlipResponses();

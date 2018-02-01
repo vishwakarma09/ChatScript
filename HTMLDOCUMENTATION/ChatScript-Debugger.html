@@ -9,90 +9,81 @@
 </head>
 <body>
 <h1 id="chatscript-debugger-manual">ChatScript Debugger Manual</h1>
-<p>© Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 4/8/2017 cs7.31</p>
-<h1 id="debugging-in-and-out">Debugging in and out</h1>
-<p>While it is possible to connect ChatScript to a GUI IDE for debugging (if you create one because CS does not come with one natively), CS also has a text command debugger analogous to GDB in LINUX.</p>
-<p>You enter the debugger via</p>
-<pre><code>:debug</code></pre>
-<p>which begins a local command loop. Resume normal execution via</p>
-<pre><code>go  </code></pre>
-<p>or</p>
-<pre><code>g</code></pre>
-<p>The debug command can also have one of the debug commands after it, e.g.</p>
-<pre><code>:debug break ^fn1 ~topic1 ^fn2</code></pre>
-<h2 id="variable-and-json-displays">Variable and JSON displays</h2>
-<p>While in the debugger, you can display $variables just by typing in their name(s).</p>
-<pre><code>$myvar $_yourvar</code></pre>
-<p>If you know the name of a JSON unit, you can just type that and get a display of the array or object.</p>
-<pre><code>jo-44</code></pre>
-<h2 id="source-locations">Source locations</h2>
-<p>Typing the name of a function or topic will tell you the file and line number of it.</p>
-<h2 id="breakpoints">Breakpoints</h2>
-<p>You can set breakpoints that will trigger the debugger on a variety of conditions. And you can name multiple conditions at once. E.g.,</p>
-<pre><code>break ^myfunction ~mytopic ~mytopic.myrule</code></pre>
-<h2 id="function-breakpoints">Function breakpoints</h2>
-<p>A function breakpoint will, by default, break on entry and break on exit. On entry it shows the function and its arguments. On exit it shows the value being returned and any error status.</p>
-<p>You can restrict a function to only breaking on entry or exit by suffixing the name with <span class="citation">@i</span> or <span class="citation">@o</span>. Like</p>
-<pre><code>break ^myfunc@i</code></pre>
-<p>You can delete a breakpoint by putting <code>!</code> in front of the base name. E.g.</p>
-<pre><code>break ^myfunc !^otherfunc</code></pre>
-<p>Every time you call break, it prints out a summary of the breakpoints still set. So if you call break with no names, it just lists what you have.</p>
-<h2 id="topic-breakpoints">Topic breakpoints</h2>
-<p>A topic breakpoint will break on entry and exit of topic by whatever manner (normal, <code>^gambit</code>, <code>^rejoinder</code>, <code>^reuse</code>, etc).</p>
-<h2 id="rule-breakpoints">Rule breakpoints</h2>
-<p>A rule can broken upon by doing</p>
-<pre><code> break ~mytopic.label
- </code></pre>
-<p>where label is either the label of a rule or its tag (e.g., <code>1.0</code> for the 2nd top level rule of the topic).</p>
-<h2 id="abnormal-breakpoints">Abnormal breakpoints</h2>
-<p>You can name</p>
-<pre><code>abort </code></pre>
-<p>to request a breakpoint if the system is about to exit due to abnormal conditions.</p>
-<h2 id="variable-assigns">Variable Assigns</h2>
-<p>A different kind of breakpoint is a variable assign, that is, when a variable has its value changed. You can list multiple variables in a single request.</p>
-<pre><code>= $myvar  $_hisvar</code></pre>
-<p>The breakpoint will tell you the new value it is taking on. Be aware that if you break on a local variable like <code>$_myvar</code> then you break on the next change to it in whatever topic or function it is within. You may, if you want, create a restricted breakpoint for $_vars like this:</p>
-<pre><code>^myfunc.$_myvar</code></pre>
-<p>or</p>
-<pre><code>~mytopic.$_myvar</code></pre>
-<h2 id="clearing-breakpoints">Clearing Breakpoints</h2>
-<pre><code>clear </code></pre>
-<p>will remove all breakpoints including variable assigns.</p>
-<h2 id="backtrace">Backtrace</h2>
-<pre><code>where </code></pre>
-<p>will print out a backtrace of where you are in terms of topics, rules, and functions.</p>
-<h2 id="controlled-execution">Controlled execution</h2>
-<p>You can step from action to action in your code by typing</p>
-<pre><code>s    </code></pre>
-<p>or</p>
-<pre><code>step
- </code></pre>
-<p>Which is equivalent to <code>step across</code>. This will execute the next thing at the current level (maybe a function call, rule test, assignment or whatever). It will then display what code it executed, what value was returned, and what code would be executed next.</p>
-<p>When you are at a rule, <code>s</code> moves to the next rule. Alternatively, you can ask the system to execute rules in a topic until it comes to one that would match by saying</p>
-<pre><code>step match</code></pre>
-<p>It will stop before entering the output of the rule or until it leaves the topic.</p>
-<p>If you discover that the executed code called a function that did something wrong and you want to watch it, you can type</p>
-<pre><code>redo in</code></pre>
-<p>which will retry that same piece of code, but this time going in instead of stepping over.</p>
-<p>You can step out from a function or topic by typing</p>
-<pre><code>out</code></pre>
-<p>which will execute code until it leaves the current function or topic or rule. topic is confusing when you have rules. If stepping out returns to code which has nothing left to do, that code will also complete and the system will pop out to the next level.</p>
-<p>You can step in from an action in your code by typing</p>
-<pre><code>in</code></pre>
-<p>This will execute one or more bits of code until it calls into some function or exits the current scope entirely.</p>
-<h2 id="executing-script-and-other-debug-commands">Executing script and other debug commands</h2>
-<p>You can type in a</p>
-<pre><code>do</code></pre>
-<p>command, which is analogous to <code>:do</code>, which allows you to set variables, execute script functions, etc.</p>
-<h2 id="sourcing-a-file-of-debug-commands">Sourcing a file of debug commands</h2>
-<p>The command</p>
-<pre><code>source filename</code></pre>
-<p>will take debugger input from the named file (with a .txt suffix added to the name) where the file is in a top level folder called <code>debug</code>. Any command that resumes execution (like <code>go</code>, <code>in</code>, <code>out</code>, <code>s</code>) will terminate reading from the file.</p>
-<p>In addition, you can create a file to automatically execute on a breakpoint. The name of the breakpoint should be the name of the file in the debug directory (with .txt added). When a function named the same as such a file has a breakpoint on entry, it will execute the commands. Similarly whenever a topic has a breakpoint on entry, it will execute its commands.</p>
-<h2 id="hooking-up-to-a-gui-ide">Hooking up to a GUI IDE</h2>
-<p>The debugger can swap out its stdin and stdout interactions with the user with functions supplied on the <code>InitSystem</code> interface. The functions take a single argument <code>char*</code> and either get a line of input or write out a line of outout.</p>
-<h2 id="map-file">MAP file</h2>
-<p>The compiler builds a map file used by the debugger to know what files have what and what lines have what.</p>
-<p>In addition, for every rule and function at the end of their data, the system prints out the <code>cyclomatic complexity</code> of the output code.</p>
+<p>© Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 1/31/2018 cs8.0</p>
+<p>You can run an interactive debugger environment (IDE) if you have Windows. You launch it by going to BINARIES and double clicking on ChatScript IDE. It will load your bot, just as running ChatScript will. And you can type input into the input window and see output in the output window just like normal ChatScript. But you can do so much more...</p>
+<p>You can set breakpoints on lines of code, be they actions in a macro, rules in a topic, or the topic itself. You can break on when CS will output a message to the user (to see where it comes from). You can break on change in value of a variable. You can single step in, over, out. You can display values of user, system, and match variables.</p>
+<h1 id="running-the-ide">Running the IDE</h1>
+<p>Before you can run the IDE you should compile your scripts under CS 8.0 or higher. You can actually do that from the IDE itself.</p>
+<p>The IDE is a wrapper around the CS engine. Instead of launching <code>ChatScript.exe</code> from BINARIES you launch <code>ChatScriptIDE.exe</code>. This will load your project just as the main engine does and then come to rest in the IDE, awaiting your commands.</p>
+<h1 id="the-display">The display</h1>
+<div class="figure">
+<img src="debuggerdisplay.png" alt="Debugger Screen Image" />
+<p class="caption">Debugger Screen Image</p>
+</div>
+<h2 id="script-window">Script window</h2>
+<p>The script window displays your source file, information on the debugger commands, debugging commands (:xxx), IDE commands, and system variables (and imporant CS interchange variables).</p>
+<p>Your script files will also be displayed when you request it (:i filename) or when some breakpoint requires it to show you where you are.</p>
+<p>The script window has your code. To the left of that are line numbers from the file. And to the left of the line numbers are CS tag id's of rules. IF you have a breakpoint set, you will see a B between the line number and your script. The entire area of of tags and line numbers is clickable to enable and disable a breakpoint at that line.</p>
+<p>The window is also sensitive to having parts of your script clicked upon. If you click on a variable, be it $var, _var, %var, ^var, or <span class="citation">@nvar</span>, the current value will get added to the variables window and the value constantly displayed there. An <span class="citation">@n</span> variable shows the count of how many facts it has. You can remove an entry from the variables window by clicking on it.</p>
+<p>Clicking on a function name will change the script window to display that function. The debugger will highlight where it is in blue. When you are executing your code and the debugger enters a breakpoint of some kind, the script window will show you where you currently are, displaying your script and highlighting in blue where you are. It will also put &lt;&lt; to the left of rule tags/line numbers to indicate this is where you actually are. The callstack of where you are will be displayed in the stack window.</p>
+<p>If you click on a rule label (like that in a ^reuse) then the system will take you to that label.</p>
+<p>Clicking on a concept or topic name will change the script window to that's definition.</p>
+<h3 id="file-names-title-bar">File names title bar</h3>
+<p>The first line is a list of &quot;windows&quot; you can see. The first name in the list is always the current windows, and if you left-click on something else in that list, it is moved to first position and displayed.</p>
+<p>If the bar gets too crowded, right-click on a name and the name is removed from the bar.</p>
+<h3 id="who-talking-to-whom">Who talking to whom</h3>
+<p>Above the file names title bar is text that shows you the current username and the current bot name and botid. `bob=&gt;rose(0)</p>
+<h3 id="breakpoints">Breakpoints</h3>
+<p>Left-click before a script line (in the number or tag area) and the system will establish a breakpoint (and put a B after the line number). If your code executes to that point, it will stop and give you control. Click again in the same area and the breakpoint is removed.</p>
+<p>If you Right-click before a script line, the system create a transient breakpoint there and run code. The breakpoint will be removed when execution is stopped by some breakpoint (that one or a different one).</p>
+<h1 id="input-window">Input window</h1>
+<p>Here is where you type input for CS or for the IDE.</p>
+<p>IDE input is prefixed with <code>:i</code>. Naming a function or variable or concept set is just like clicking on it in the script window. It will put the variable in the variables window or display the code in the script window.</p>
+<pre><code>:i ~control</code></pre>
+<p>Above is the classic way to bring up the control script whereby you can then set a breakpoint. And if you type in a rule label as argument, it will take you to that label. Handy when you know where you want to debug in particular.</p>
+<p>If the engine is currently running, you can give IDE commands but the IDE will refuse input for the engine.</p>
+<h1 id="output-window">Output window</h1>
+<p>Messages from the IDE as well as results or tracing from the engine are displayed here. While it is scrollable, if too much information is in the buffer it will truncate the older output.</p>
+<h1 id="callstack-window">Callstack window</h1>
+<p>When you are in the IDE at a breakpoint, this shows you the calling hierarchy of where you are. Each scope is numbered (low is deepest, high is most recent). The possible scopes are a topic, a rule, a function, an if, or a while. Scopes that have output actions (rules, if, while, function), will display that you are at that scope by displaying it with <code>()</code>. You cannot walk in and execute code within a pattern or an if test or a loop count evaluation, so when the scope is within executable output, it will display it with <code>{n}</code>, where <code>n</code> is the internal code offset of where you are, and it will show you the upcoming code it is about to execute. There is also <code>lvl:n</code> data, which is internal data about what recursive level the output interpreter is at (mostly irrelevant to you).</p>
+<p>If you click on one of these scope lines, the system will display the code of that scope in the script window and any local variables ($_xxx and ^xxx) in the variables window. It will have a title of <code>local variables</code>.</p>
+<h1 id="variables-window">Variables window</h1>
+<p>This window shows current values of global variables you have requested (updated whenever you end up in the IDE). If you clicked on a scope line, it shows the values of local variables for that scope. You can flip back to viewing globals by pressing the <code>globals</code> button.</p>
+<p>When variables are displayed, after the variable it tells you how many characters the value has.</p>
+<p>If you click to the left of a global variable, it will set a breakpoint for when the value of that variable changes and will put a B before it. Click again in that area and it removes the breakpoint.</p>
+<h1 id="system-resource-information">System resource information</h1>
+<p>At the bottom of the main window the system prints out useful statistics about resource usage. It shows you how much of a resource is currently in use, and what the least amount available has ever been seen.</p>
+<p>'Memory' is the available space for stack + heap. If this gets down toward 10M, you might want to allocate more text space to the program.</p>
+<p>'Buffer' is how many preallocated large buffers (typically 80K) are in use. If it gets to be &lt;10, you might want to allocate more.</p>
+<p><code>DICT</code> is how many dictionary entries are available. Less than 5K probably indicates you want to allocate more.</p>
+<p><code>FACT</code> is how many facts are available to be created. Less than 5K probably indicates you want to allocate more.</p>
+<h1 id="sentence-window">Sentence window</h1>
+<p>The window above the script window tells you information about the current user input. By default it shows you the <code>adjusted</code> input, what the tokenizer and various NLP corrections have been made to result in the input the system is actually processing at present.</p>
+<p>Click anywhere in the sentence box and it changes to show you the <code>raw</code> input, what the user provided (after tokenization).</p>
+<p>Click again and it shows you the <code>canonical</code> form of the input.</p>
+<h1 id="buttons">Buttons</h1>
+<h2 id="go">Go</h2>
+<p>Resume execution until complete or a new breakpoint is hit.</p>
+<h2 id="in">In</h2>
+<p>Try to go in deeper into the current thing. For a topic that will be its first rule. For a rule, if the pattern matches, it will be the output of it. For a function it will be the code of the function.</p>
+<p>If the system cannot go in, it will stop at the next available opportunity. Ie., the next action, rule, pass out of the function or topic.</p>
+<h2 id="out">Out</h2>
+<p>Leave the current level of behavior and stop as soon thereafter. For a topic, it leaves the topic, for a rule it leaves the topic. If within actions of a rule, it leaves that rule. For a function it leaves that function.</p>
+<h2 id="next">Next</h2>
+<p>Stay at the current level of behavior. If at a topic, move on to the next topic (having executed all its rules). If a rule, move on to the next rule (possibly having executed all its actions). If a function, step over the function (executing all its actions) and return to caller. If withing actions of a function then execute the current action and move to the next one. If inside a rule, do the current action and move to the next.</p>
+<h2 id="stop">Stop</h2>
+<p>If the engine is currently executing script, stop that execution as soon as possible and enter the IDE. Otherwise note that you want to stop, so that on the next user input the IDE takes control immediately.</p>
+<h2 id="msg">Msg</h2>
+<p>Breakpoint when the system wants to print output to the user. This is useful to see why you are getting the output you get.</p>
+<h2 id="fail">Fail</h2>
+<p>Breakpoint if any system function return a failure code. These typically suggest you passed it bad arguments. With this, you can see when this happens.</p>
+<h2 id="clear">Clear</h2>
+<p>Remove all breakpoints currently set (not including variable breaks).</p>
+<h2 id="global">Global</h2>
+<p>Restore variable window to showing global variables if it is currently showing locals of some callframe.</p>
+<h2 id="back">Back</h2>
+<p>As you move from location to location in the stack window, you create a breadcrumb trail, and <code>Back</code> will take you back from where you were. If you need to rapidly return to where you are currently executing code, just click on the last callframe in the stack window.</p>
+<h2 id="font">-Font+</h2>
+<p>Changes the font size. Left click for smaller. Right click for bigger.</p>
 </body>
 </html>

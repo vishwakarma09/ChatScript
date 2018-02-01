@@ -758,7 +758,7 @@ nextsearch:  //   can do multiple searches, thought they have the same basemark 
 			}
 			if (choice[0] == '^') // replace the function arg
 			{
-				strcpy(word,callArgumentList[atoi(choice+1)+fnVarBase]);
+				strcpy(word,FNVAR(choice+1));
 				choice = word;
 			}
 			// dynamic choices

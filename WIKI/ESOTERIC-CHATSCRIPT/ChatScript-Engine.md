@@ -1,6 +1,6 @@
 # ChatScript Engine
 © Bruce Wilcox, gowilcox@gmail.com brilligunderstanding.com<br>
-Revision 1/28/2017 cs7.12
+Revision 1/31/2018 cs8.0
 
 * [Data](ChatScript-Engine-md#data)
 * [Memory Management](ChatScript-Engine-md#memory-management)
@@ -20,10 +20,7 @@ It covers how the internals of the engine work and how to extend it with private
 # Data
 
 First you need to understand the basic data available to the user and CS and how it is allocated.
-
-<p align="center">
- <img src="../alloc.png">
-</p>
+![ChatScript data allocations](alloc.png)
 
 ## Text Strings
 
@@ -40,26 +37,26 @@ The second fundamental datatype is the dictionary entry. A dictionary entry refe
 have other data attached. Function names in the dictionary tell you how many arguments they require,
 where to go to execute their code. User variable names in the dictionary store a pointer to their value
 (in the stack or heap). Ordinary English words have bits describing their part-of-speech information
-and how to use them in parsing.
+and how to use them in parsing. 
 
 In fact, ordinary words have multiple meanings which can vary in their part of speech and their
 ontology, so the list of possible meanings and descriptions is part of the dictionary entry. When
 working directly with a dictionary entry, the code uses `WORDP` as its datatype (pointer to a word).
-Code working indirectly with a dictionary entry uses `MEANING` as its datatype. 
+Code working indirectly with a dictionary entry uses `MEANING` as its datatype, which has an index into it.
 
 A `MEANING` is an index into the dictionary along with description bits that can say which meaning of the word is referred
 to or which part of speech form (like noun vs verb) is being referred to. In a concept definition, for
-example, one can refer to break, which means any meaning or POS-type of the word break. One refers
+example, one can refer generically to `break`, which means any meaning or a specific POS-type of the `break`. One refers
 to the 33rd meaning of break as `break~33`, which implies a specific part of speech and place in the
 ontology of the dictionary. One refers to noun meanings of break as `break~n`.
 
 ## Facts
 
-The third fundamental datatype is the fact, a triple of data. The fields are called subject, verb, and
-object but that is just a naming convention. 
+The third fundamental datatype is the fact, a triple of data. The datatype is FACT. 
+The fields are called subject, verb, and object but that is just a naming convention. 
 
 They can hold any kind of data. Each field of a fact is either a `MEANING` 
-(which in turn references a text string) or a direct index reference to another fact. As a
+(which in turn references a dictionary entry which points to a text string) or a direct index reference to another fact. As a
 direct reference, it is not text. It is literally an offset into fact space. But facts have description bits on
 them, and one such bit can say that a field is not a normal MEANING but is instead a binary number
 fact reference. 
@@ -68,19 +65,21 @@ While fact references in a fact field are binary numbers, when stored in variabl
 reference is a text number string like 250066. When stored in external files (like user long-term
 memory or `^export`) facts are stored as full text describing the fact, e.g., 
 ```
-( bob like (apples and oranges) 0x10000)
+( bob like (apples and oranges) 0x01000000)
 ``` 
 which in this case is a fact with a fact as object. Externally facts are stored this way because
 user facts get relocated every volley and cannot safely be referred to directly by a fact reference
-number.
+number. The binary number at the end is any flags that are describing this fact (in this case FACTTRANSIENT MEANING
+the fact dies at the end of the volley).
 
 ## JSON Facts
 
 CS directly supports JSON and you can manipulate JSON arrays and objects as you might expect.
 Internally, however, JSON is represented merely by facts with special bits that indicate how to use that
-JSON fact. JSON objects and arrays are represented as synthesized text strings like `jo-5` or `ja-1025`.
+JSON fact. JSON objects and arrays are represented as synthesized dictionary entries with names like like `jo-5` or `ja-1025`
+for permanent JSON and `ja-t5` for a transient one.
 
-Each key-value pair of the object is a fact like (jo-5 location Seattle). Each array element pair is a fact
+Each key-value pair of the object is a fact like `(jo-5 location Seattle)`. Each array element pair is a fact
 like `(ja-5 1 dog)`. 
 
 Array facts start with 0 as the verb and are always contigiously sequential (no missing
@@ -89,7 +88,7 @@ return to a contiguous sequence.
 
 ## User Variables
 
-User variables are names that can be found in the dictionary and have entries pointing to text strings. `$`
+User variables are names that can be found in the dictionary and have entries pointing to text string values. `$`
 and `$$` variables point to strings in the heap. `$_` variables point to strings in the stack.
 
 ## Match Variables
@@ -111,7 +110,7 @@ but lose all but one of them when assigned to a user variable or stored as the f
 Words are the fundamental unit of information in CS. The original words came from WordNet, and
 then were either reduced or expanded. Word are reduced when some or all meanings of them are
 removed because they are too difficult to manage. `I`, for example, has a Wordnet meaning of the
-chemical iodine, and because that is so rare in usage and causes major headaches for ChatScript, that
+chemical iodine, and because that is so rare in usage and causes major headaches for ChatScript (noun instead of pronoun), that
 definition has been expunged along with some 500 other meanings of words. 
 
 Additional words have been added, including things that Wordnet doesn't cover like pronouns, prepositions, 
@@ -131,31 +130,38 @@ inefficient in either cpu time or memory to have done so.
 
 Some dictionary items are `permanent`, meaning they are loaded when the system starts up, 
 either from the dictionary or from data in layer 0 and layer 1. Other dictionary items are `transient`. 
-They come into existence as a result of user input and will disappear when that volley is complete. 
-They may live on in text as data stored in the user's topic file and will reappear again during the next volley when the user data is reloaded. Words like dogs are not in the permanent dictionary but will get created as transient entries if they show up in the user's input.
+They come into existence as a result of user input or script execution and will disappear when that volley is complete. 
+They may live on in text as data stored in the user's topic file and will reappear again during the next volley when the user data is reloaded. 
+Words like dogs are not in the permanent dictionary but will get created as transient entries if they show up in the user's input.
 
 The dictionary consists of `WORD` entries, stored in hash buckets when the system starts up. 
 The hash code is the same for lower and upper case words, but upper case adds 1 to the bucket it stores in. 
 This makes it easy to perform lookups where we are uncertain of the proper casing 
 (which is common because casing in user input is unreliable). The system can store multiple ways of upper-casing a word. 
 
-Facts are simply triples of words that represent relationships between words. The ontology structure of CS is represented as facts (which allows them to be queried). Words are hierarchically linked using facts (using the `is` verb). Word are conceptually linked (defined in a `~concept`) using facts with the verb `member`. 
+Facts are simply triples of words that represent relationships between words. 
+The ontology structure of CS is represented as facts (which allows them to be queried). 
+Words are hierarchically linked using facts (using the `is` verb). 
+Words are conceptually linked (defined in a `~concept` or as keywords of a `topic`) using facts with the verb `member`. 
 
 Word entries have lists of facts that use them as either subject or verb or object so that when you do a query like 
 ```
 ^query(direct_ss dog love ?)
 ``` 
-CS will retrieve the list of facts that have dog as a subject and consider those. And all those values of fields of a fact are words in the dictionary so that they will be able to be queried. 
+CS will retrieve the list of facts that have dog as a subject and consider those. 
+And all those values of fields of a fact are words in the dictionary so that they will be able to be queried. 
 
 Queries like 
 ```
 ^query(direct_v ? walk ?)
 ``` 
-function by having a byte code scripting language stored on the query name `direct_v`. This byte code is defined in `LIVEDATA` 
+function by having a byte code scripting language stored on the query name `direct_v`. 
+This byte code is defined in `LIVEDATA` 
 (so you can define new queries) and is executed to perform the query. 
 Effectively facts create graphs and queries are a language for walking the edges of the graph.
 
-ChatScript support user variables, for considerations of efficiency and ease of reference by scripters. Variables could have been represented as facts, but it would have increased processing speed, local memory, and user file sizes, not to mention made scripts harder to read.
+ChatScript support user variables, for considerations of efficiency and ease of reference by scripters. 
+Variables could have been represented as facts, but it would have increased processing speed, local memory, and user file sizes, not to mention made scripts harder to read.
 
 # Memory Management
 
@@ -195,6 +201,8 @@ because the system might revert things back to some earlier state.
 This problem of free memory mostly shows up in document mode, where reading long paragraphs of text 
 are all considered a single volley and therefore one might run out of memory. 
 CS provides `^memorymark` and `^memoryfree` so you can explicitly control this while reading a document.
+And more recently provides `memorygc` which copies data from heap to stack, and then copies back only the
+currently used data.
 
 Buffers are allocated and deallocated via `AllocateBuffer` and `FreeBuffer`. Typically they are used within
 a small block of short-lasting code, when you don't want to waste heap space and cannot make use of
@@ -206,7 +214,10 @@ TCP buffers are dynamically allocated (violating the principle of not using mall
 Output buffers refer to either the main user output buffer or the log buffer. 
 The output buffer needs to be particularly big to hold potentially large amounts of OOB (out-of-band) data being shipped externally. 
 
-Also most temporary computations from functions and rules are dumped into the output buffer temporarily, so the buffer holds both output in progress as well as temporary computation. So if your output were to actually be close to the real size of the buffer, you would probably need to make the buffer bigger to allow room for transient computation. The log buffer typically is the same size so one can record exactly what the server said. Otherwise it can be much smaller if you don't care.
+Also most temporary computations from functions and rules are dumped into the output buffer temporarily, so the buffer holds both output in progress as well as temporary computation. 
+So if your output were to actually be close to the real size of the buffer, you would probably need to make the buffer bigger to allow room for transient computation. 
+The log buffer typically is the same size so one can record exactly what the server said. 
+Otherwise it can be much smaller if you don't care.
 
 Cache space is where the system reads and writes the user's long term memory. There is at least 1, to hold the current user, but you can optimize read/write calls by caching multiple users at a time, subject to the risk that the server crashes and recent transactions are lost. A cache entry needs to be large enough to hold all the data on a user you may want saved.
 
@@ -214,19 +225,23 @@ Cache space is where the system reads and writes the user's long term memory. Th
 
 The fundamental units of computation in ChatScript are functions (system functions and user
 outputmacros) and rules of topics. Rules and outputmacros can be considered somewhat
-interchangeable as both can have code and be invoked (rules by calling `^reuse`).
+interchangeable as both can have code and be invoked (rules by calling `^reuse`). And both can use
+pattern matching on the input.
 
 Function names are stored in the dictionary and either point to script to execute or engine code to call,
 as well as the number of arguments and names of arguments.
 
 System functions are predefined C code to perform some activity most of which take arguments that
-are evaluated in advance (but use `STREAMARG` and wait until they get them to decide whether to
+are evaluated in advance (but use `STREAMARG` and the function waits until it gets them to decide whether to
 evaluate or not). System functions can either designate exactly how many arguments they expect, or
 use `VARIABLE_ARGUMENT_COUNT` to allow unfixed amounts.
 
 Outputmacros are scripter-written stuff that CS dynamically processes at execution time to treat as a
 mixture of script statements and user output words. They can have arguments passed to them as either
 call by value or call by reference.
+
+Patternmacros are scripter-written patterns that allow some existing pattern to transfer over to them
+and back again when used up.
 
 ## Argument Passing
 
@@ -238,20 +253,26 @@ like `^myarg` and the script compiler compiles the names into number references 
 and increasing `^1` ... `^myarg` style allows a routine to assign indirectly to the callers variable.
 
 But outputmacros also support call by value arguments which start with `$_` like `$_myarg`. 
-`$_xxx` style does not allow this because they might be receiving a caller's local `$_` variables, 
-and no one outside the routine is allowed to change them. 
-These are normal albeit transient variables so the corresponding value from the argument stack is also stored as the value of the local variable. That happens after the function call code first saves away the old values of all locals of a routine (or topic) and then initializes all locals to NULL. Once the call is finished, the saved values are restored.
+No one outside the routine is allowed to change these or use these to access the above caller's data. Hence call by value. 
+These are normal albeit transient variables so the corresponding value from the argument stack is also stored as the value of the local variable. 
+That happens after the function call code first saves away the old values of all locals of a routine (or topic) and then initializes all locals to NULL. 
+Once the call is finished, the saved values are restored.
 
 When passing data as call by value, the value stored always has a backtick-backtick prefix in front of it. In fact, all
 assignments onto local variables have that prefix prepended (hidden). 
 This allows the system to detect that the value comes from a local variable or an active string and has already been evaluated.
-Normally, if the output processor sees `$xxx` in the output stream, it would attempt to evaluate it. But if it looks and sees there is a hidden back-tick back-tick before it, it knows that `$xxx` is the final value and is not to be evaluated further.
+Normally, if the output processor sees `$xxx` in the output stream, it would attempt to evaluate it. 
+But if it looks and sees there is a hidden back-tick back-tick before it, it knows that `$xxx` is the final value and is not to be evaluated further.
 
-back-tick (\`) is a strongly reserved character of the engine and is prevented from occurring in normal data from a user. It is used to mark data coming preevaluated. It is used to mark ends of rules in scripts. It is used to quote values of variables and fact fields when writing out to the user's topic file.
+Back-tick (\`) is a strongly reserved character of the engine and is prevented from occurring in normal data from a user. 
+It is used to mark data coming preevaluated. 
+It is used to mark ends of rules in scripts. 
+It is used to quote values of variables and fact fields when writing out to the user's topic file.
+It is used to create specific dictionary entries that cannot collide with normal words.
 
 # Script Execution
 
-The engine is heavily dependent upon the prefix character to tell the system how to process script.
+The engine is heavily dependent upon the prefix character of a script token to tell the system how to process script.
 The script compiler normally forces separate of things into separate tokens to allow fast uniform
 handling. E.g., `^call(bob hello)` becomes `^call ( bob hello )`. 
 
@@ -298,10 +319,7 @@ same thing look the same to scripts, so they don't have to account for variation
 (making script writing and maintenance easier). Other than tokenization, all other pipeline steps 
 are under control the script (`$cs_token`), which can choose to use any combination of them at any time.
 
-<p align="center">
- <img src="../NLPipeline.png">
-</p>
-
+![ChatScript NLP pipeline](NLPipeline.png)
 
 ## Tokenization
 
@@ -310,7 +328,7 @@ consisting of words and punctuation (tokens).
 
 ChatScript can process any number of sentences as a single input, 
 but it will do so one at a time. In addition to the naive tokenization done by other systems, 
-CS also performs some normalizations at this point. For example  _5'6”_ is converted into tokens _“5 feet 6 inch”_.
+CS also performs some normalizations at this point. 
 
 This is also where out-of-band (OOB) data gets split off from user input. 
 ChatScript can send and receive information from the user and the application simultaneously. 
@@ -336,7 +354,6 @@ scripter.
 The process of tokenization is not visible to the script. It cannot easily know what transformations were
 made. This becomes the real sentence the user input, and is visible from the ^original function.
 
-
 ## Substitution
 
 Substitution involves replacing specific tokens or token sequences with different ones. Substitutions
@@ -352,6 +369,19 @@ a standard form. The files include:
 * spellfix: common spelling mistakes that might be hard for spellcheck to fix correctly
 * substitutes: for whatever reason - e.g. Britain into Great Britain
 * texting: revise shorthands into normal words or interjections like _:)_ into `~emohappy`
+
+The format is typically original word  followed by replacement. E.g.
+```
+	switc  switch
+```
+To represent multiple words to handle on input, separate them with underscores. To indicate
+the word must be a sentence start use < and a sentence end use >.  To represent multiple
+words on output, use + between the words.  An underscore in output means issue the data as you see it,
+a composite word with underscore between. This is how Wordnet represents multiple word entries.
+```
+	<real_estate> my+holdings
+```
+The above detects the two word sentence `real estate` and converts it into two different words `my holdings`
 
 ## Spell check
 
@@ -448,9 +478,7 @@ words. This allows you to correct or augment meanings.
 In addition to marking words, the system generates sequences of 5 contiguous words (phrases), and if it
 finds them in the dictionary, they too are marked.
 
-<p align="center">
- <img src="../ontolog.png">
-</p>
+![ChatScript Ontology](ontolog.png)
 
 ## Script Compiler
 
@@ -504,10 +532,7 @@ Debug table entries like this:
 ```
 
 # Code Zones
-
-<p align="center">
- <img src="../arch.png">
-</p>
+![ChatScript architecture](arch.png)
 
 The system is divided into the code zones shown above. All code is in SRC.
 

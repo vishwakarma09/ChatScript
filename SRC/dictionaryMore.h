@@ -5,7 +5,7 @@
 
 #define ALLOCATESTRING_SIZE_PREFIX 3
 #define ALLOCATESTRING_SIZE_SAFEMARKER 2
-#define ALLOCATESTRING_MARKER 0xff
+#define ALLOCATESTRING_MARKER ((unsigned char)0xff)
 
 #define GETNEXTNODE(D) (D->nextNode & NODEBITS)		// top byte is the length of joined phrases of which this is header
 #define GETMULTIWORDHEADER(D)  (D->nextNode >> MULTIWORDHEADER_SHIFT)
@@ -144,6 +144,7 @@ MEANING GetMeaning(WORDP D, int index);
 
 unsigned char* GetWhereInSentence(WORDP D); // always skips the linking field at front
 extern unsigned int* hashbuckets;
+extern int worstDictAvail;
 #define OOB_START '['
 #define OOB_END ']'
 void LockLevel();

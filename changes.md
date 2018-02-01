@@ -1,3 +1,9 @@
+version 8.0  1/31/2018
+1. files to compile by script compiler must now end with suffix .top or .tbl so you can
+   allow other files in same directories (like readme.txt, etc).
+2. :timelog computes avg/min/max of a server log response times
+3. for json arrays can now do:  $_array1 +=  $_array2 and $_array1 += value
+4. Windows GUI debugger for CS.  See ChatScript debugger manual.
 
 version 7.73 12/7/2017
 1. several fixes to pattern matcher

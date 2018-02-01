@@ -41,7 +41,6 @@ static unsigned int functionNest = 0;	// recursive depth of macro calling
 static char* ptrStack[MAX_PAREN_NEST];
 static int argStack[MAX_PAREN_NEST];
 static int baseStack[MAX_PAREN_NEST];
-static int fnVarBaseStack[MAX_PAREN_NEST];
 static uint64 matchedBits[20][4];	 // nesting level zone of bit matches
 
 void ShowMatchResult(FunctionResult result, char* rule,char* label)
@@ -107,7 +106,7 @@ static void DecodeFNRef(char* side)
 {
 	char* at = "";
 	if (side[1] == USERVAR_PREFIX) at = GetUserVariable(side+1); 
-	else if (IsDigit(side[1])) at = callArgumentList[atoi(side+1)+fnVarBase];
+	else if (IsDigit(side[1])) at = FNVAR(side+1);
 	at = SkipWhitespace(at);
 	strcpy(side,at);
 }
@@ -410,7 +409,8 @@ bool Match(char* buffer,char* ptr, unsigned int depth, int startposition, char* 
 				{
 					matched = MatchTest(reverse,FindWord(word),(positionEnd < basicStart && firstMatched < 0) ? basicStart : positionEnd,NULL,NULL,
 						statusBits & QUOTE_BIT,positionStart,positionEnd,false);
-					if (!matched || !(wildcardSelector & WILDMEMORIZESPECIFIC)) uppercaseFind = -1;
+					if (!matched) uppercaseFind = -1;
+					else foundaword = true;
 					if (!(statusBits & NOT_BIT) && matched && firstMatched < 0) firstMatched = positionStart;
 					break;
 				}
@@ -698,11 +698,11 @@ bool Match(char* buffer,char* ptr, unsigned int depth, int startposition, char* 
 						{
 							bidirectional = 1; // now aiming backwards
 							priorPiece = ptr;
-							reverse = !reverse; // run inverted first
+							bidirectionalSelector = wildcardSelector; // where to start forward direction if backward fails
+							reverse = !reverse; // run inverted first (presumably backward)
 							start = (reverse) ? (positionStart - 1) : (positionEnd + 1); 
 							wildcardSelector &= -1 ^ 0x000000ff;
 							wildcardSelector |= start;
-							bidirectionalSelector = wildcardSelector;
 							bidirectionalWildcardIndex = wildcardIndex;
 						}
 					}
@@ -728,7 +728,7 @@ bool Match(char* buffer,char* ptr, unsigned int depth, int startposition, char* 
                 {
                     argumentText = ptr; //   transient substitution of text
 
-					if (IsDigit(word[1]))  ptr = callArgumentList[atoi(word+1)+fnVarBase];  
+					if (IsDigit(word[1]))  ptr = FNVAR(word+1);  
 					else if (word[1] == USERVAR_PREFIX) ptr = GetUserVariable(word+1); // get value of variable and continue in place
 					else ptr = wildcardCanonicalText[GetWildcardID(word+1)]; // ordinary wildcard substituted in place (bug)?
 					if (trace & TRACE_PATTERN  && CheckTopicTrace()) Log(STDTRACELOG,(char*)"%s=>",word);
@@ -776,7 +776,7 @@ bool Match(char* buffer,char* ptr, unsigned int depth, int startposition, char* 
 						{
 							char* at = "";
 							if (rhs[1] == USERVAR_PREFIX) at = GetUserVariable(rhs+1); 
-							else if (IsDigit(rhs[1])) at = callArgumentList[atoi(rhs+1)+fnVarBase];
+							else if (IsDigit(rhs[1])) at = FNVAR(rhs+1);
 							at = SkipWhitespace(at);
 							strcpy(rhs,at);
 						}
@@ -812,7 +812,6 @@ bool Match(char* buffer,char* ptr, unsigned int depth, int startposition, char* 
 					//   save old base data
 					baseStack[functionNest] = callArgumentBase; 
 					argStack[functionNest] = callArgumentIndex; 
-					fnVarBaseStack[functionNest] = fnVarBase;
 
 					if ((trace & TRACE_PATTERN || D->internalBits & MACRO_TRACE)  && CheckTopicTrace()) Log(STDTRACELOG,(char*)"("); 
 					ptr += 2; // skip ( and space
@@ -831,7 +830,7 @@ bool Match(char* buffer,char* ptr, unsigned int depth, int startposition, char* 
 						}
 					}
 					if ((trace & TRACE_PATTERN || D->internalBits & MACRO_TRACE)  && CheckTopicTrace()) Log(STDTRACELOG,(char*)")\r\n"); 
-					fnVarBase = callArgumentBase = argStack[functionNest];
+					callArgumentBase = argStack[functionNest];
 					ptrStack[functionNest++] = ptr+2; // skip closing paren and space
 					ptr = (char*)FindAppropriateDefinition(D, result); 
 					if (ptr)
@@ -870,7 +869,6 @@ bool Match(char* buffer,char* ptr, unsigned int depth, int startposition, char* 
 					--functionNest;
                     callArgumentIndex = argStack[functionNest]; //   end of argument list (for next argument set)
                     callArgumentBase = baseStack[functionNest]; //   base of callArgumentList
-                    fnVarBase = fnVarBaseStack[functionNest];
 					ptr = ptrStack[functionNest]; // continue using prior code
 					trace = (modifiedTrace) ? modifiedTraceVal : oldtrace;
 					continue;
@@ -1070,7 +1068,7 @@ DOUBLELEFT:  case '(': case '[':  case '{': // nested condition (required or opt
 						char* val = "";
 						if (*lhs == USERVAR_PREFIX) val = GetUserVariable(lhs);
 						else if (*lhs == '_') val = (quoted) ? wildcardOriginalText[GetWildcardID(lhs)] : wildcardCanonicalText[GetWildcardID(lhs)];
-						else if (*lhs == '^' && IsDigit(lhs[1])) val = callArgumentList[atoi(lhs+1)+fnVarBase];  
+						else if (*lhs == '^' && IsDigit(lhs[1])) val = FNVAR(lhs+1);  
 						else if (*lhs == SYSVAR_PREFIX) val = SystemVariable(lhs,NULL);
 						else val = lhs; // direct word
 
@@ -1340,8 +1338,7 @@ DOUBLELEFT:  case '(': case '[':  case '{': // nested condition (required or opt
 		if (legalgap || !matched  || positionStart == INFINITE_MATCH || oldStart == INFINITE_MATCH) {;}
 		else if (reverse)
 		{
-			if (*kind == '[' || *kind == '}') {;} // all movement is legal until we return to caller context
-			else if (oldStart < oldEnd && positionEnd >= (oldStart - 1) ){;} // legal move ahead given matched WITHIN last time
+			if (oldStart < oldEnd && positionEnd >= (oldStart - 1) ){;} // legal move ahead given matched WITHIN last time
 			else if (positionEnd < (oldStart - 1 ))  // failed to match position advance
 			{
 				int ignored = oldStart - 1;
@@ -1468,7 +1465,6 @@ DOUBLELEFT:  case '(': case '[':  case '{': // nested condition (required or opt
     {
         callArgumentIndex = argStack[startNest];
         callArgumentBase = baseStack[startNest];
-		fnVarBase = fnVarBaseStack[startNest];
 		functionNest = startNest;
     }
 	

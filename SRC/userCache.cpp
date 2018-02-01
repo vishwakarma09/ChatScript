@@ -23,7 +23,7 @@ void InitCache()
 	cacheBase = (char*) malloc( userTopicStoreSize + userTableSize );
 	if (!cacheBase)
 	{
-		printf((char*)"Out of  memory space for user cache %d %d %d\r\n",userTopicStoreSize,userTableSize,MAX_DICTIONARY);
+		(*printer)((char*)"Out of  memory space for user cache %d %d %d\r\n",userTopicStoreSize,userTableSize,MAX_DICTIONARY);
 		ReportBug((char*)"FATAL: Cannot allocate memory space for user cache %ld\r\n",(long int) userTopicStoreSize)
 	}
 	cacheIndex = (unsigned int*) (cacheBase + userTopicStoreSize); // linked list for caches - each entry is [3] wide 0=prior 1=next 2=TIMESTAMP
@@ -60,7 +60,7 @@ static void WriteCache(unsigned int which,size_t size)
 	char filename[SMALL_WORD_SIZE];
 	strcpy(filename,ptr); // safe separation
 	*at = '\r'; // legal
-	clock_t start_time = ElapsedMilliseconds();
+	uint64 start_time = ElapsedMilliseconds();
 
 	FILE* out = userFileSystem.userCreate(filename); // wb binary file (if external as db write should not fail)
 	if (!out) // see if we can create the directory (assuming its missing)
@@ -106,7 +106,7 @@ static void WriteCache(unsigned int which,size_t size)
 	userFileSystem.userClose(out);
 	if (trace & TRACE_USERCACHE) Log((server) ? SERVERLOG : STDTRACELOG,(char*)"write out cache (%d)\r\n",which);
 	if (timing & TIME_USERCACHE) {
-		int diff = ElapsedMilliseconds() - start_time;
+		int diff = (int)(ElapsedMilliseconds() - start_time);
 		if (timing & TIME_ALWAYS || diff > 0) Log((server) ? SERVERLOG : STDTIMELOG, (char*)"Write user cache %d in file %s time: %d ms\r\n", which, filename, diff);
 	}
 
@@ -225,7 +225,7 @@ char* GetFileRead(char* user,char* computer)
 		buffer = FindUserCache(name); // sets currentCache and makes it first if non-zero return -  will either find but not assign if not found
 		if (buffer) return buffer;
 	}
-	clock_t start_time = ElapsedMilliseconds();
+	uint64 start_time = ElapsedMilliseconds();
 
 	// have to go read it
 	buffer = GetFreeCache(); // get cache buffer 
@@ -267,7 +267,7 @@ char* GetFileRead(char* user,char* computer)
 		userFileSystem.userClose(in);
 		if (trace & TRACE_USERCACHE) Log((server) ? SERVERLOG : STDTRACELOG,(char*)"read in %s cache (%d)\r\n",word,currentCache);
 		if (timing & TIME_USERCACHE) {
-			int diff = ElapsedMilliseconds() - start_time;
+			int diff = (int)(ElapsedMilliseconds() - start_time);
 			if (timing & TIME_ALWAYS || diff > 0) Log((server) ? SERVERLOG : STDTIMELOG, (char*)"Read user cache %d in file %s time: %d ms\r\n", currentCache, word, diff);
 		}
 	}

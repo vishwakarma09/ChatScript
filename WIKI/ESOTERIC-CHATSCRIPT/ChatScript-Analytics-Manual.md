@@ -1,6 +1,6 @@
 # ChatScript Analytics Manual
 © Bruce Wilcox, gowilcox@gmail.com
-<br>Revision 1/17/2015 cs6.1
+<br>Revision 1/31/2018 cs8.0
 <br>
 <br>
 Your bot has been written and debugged and released. You are getting log files from users. What can
@@ -98,6 +98,10 @@ will not display rules that only have code output
 You can do all topics in a file by naming the file name instead of the topicname. Don't use the full
 path, just the actual name of the file. 
 
+# Time View over  Log file - `:timelog`
+
+Given a log file (usually a server log), it will compute the
+average, min, and max response times of the volleys.
 
 # Views over User Logs - `:trim`
 

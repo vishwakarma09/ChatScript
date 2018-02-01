@@ -2,32 +2,32 @@
 
 #ifdef INFORMATION
 
-Facts are added as layers. You remove facts by unpeeling a layer. You can "delete" a fact merely by
+Facts are added as layers.You remove facts by unpeeling a layer.You can "delete" a fact merely by
 marking it dead.
 
-Layer-1:  facts resulting from wordnet dictionary  (wordnetFacts)
-Layer0:	 facts resulting from topic system build0
-Layer1:	 facts resulting from topic system build1
-Layer2:	 facts created by user
+Layer - 1:  facts resulting from wordnet dictionary(wordnetFacts)
+Layer0 : facts resulting from topic system build0
+    Layer1 : facts resulting from topic system build1
+    Layer2 : facts created by user
 
-Layer 2 is always unpeeled after an interchange with the chatbot, in preparation for a new user who may chat with a different persona.
-Layers 0 and 1 are unpeeled if you want to restart the topic system to read in new topic data on the fly or rebuild 0.
-Layer 1 is unpeeled for a new build 1.
+    Layer 2 is always unpeeled after an interchange with the chatbot, in preparation for a new user who may chat with a different persona.
+    Layers 0 and 1 are unpeeled if you want to restart the topic system to read in new topic data on the fly or rebuild 0.
+    Layer 1 is unpeeled for a new build 1.
 
-Layer -1 is never unpeeled. If you want to modify the dictionary, you either restart the chatbot entirely
-or patch in data piggy backing on facts (like from the topic system).
+    Layer - 1 is never unpeeled.If you want to modify the dictionary, you either restart the chatbot entirely
+    or patch in data piggy backing on facts(like from the topic system).
 
-Unpeeling a layer implies you will also reset dictionary/stringspace pointers back to levels at the
-start of the layer since facts may have allocated dictionary and string items. 
-This is ReturnToDictionaryFreeze for unpeeling 3/4 and ReturnDictionaryToWordNet for unpeeling layer 2.
+    Unpeeling a layer implies you will also reset dictionary / stringspace pointers back to levels at the
+    start of the layer since facts may have allocated dictionary and string items.
+    This is ReturnToDictionaryFreeze for unpeeling 3 / 4 and ReturnDictionaryToWordNet for unpeeling layer 2.
 
 #endif
+int worstFactFree = 1000000;
 char traceSubject[100];
 char traceVerb[100];
 char traceObject[100];
 uint64 allowedBots = 0xffffffffffffffffULL; // default fact visibility restriction is all bots
 uint64 myBot = 0;							// default fact creation restriction
-
 size_t maxFacts = MAX_FACT_NODES;	// how many facts we can create at max
 
 FACT* factBase = NULL;			// start of all facts
@@ -273,7 +273,7 @@ void InitFacts()
 		factBase = (FACT*) malloc(maxFacts * sizeof(FACT)); // only on 1st startup, not on reload
 		if ( factBase == 0)
 		{
-			printf((char*)"%s",(char*)"failed to allocate fact space\r\n");
+			(*printer)((char*)"%s",(char*)"failed to allocate fact space\r\n");
 			myexit((char*)"failed to get fact space");
 		}
 	}
@@ -342,7 +342,7 @@ FACT* SpecialFact(FACTOID_OR_MEANING verb, FACTOID_OR_MEANING object,unsigned in
 	{
 		--factFree;
 		ReportBug((char*)"out of fact space at %d",Fact2Index(factFree))
-		printf((char*)"%s",(char*)"out of fact space");
+		(*printer)((char*)"%s",(char*)"out of fact space");
 		return factFree; // dont return null because we dont want to crash anywhere
 	}
 	//   init the basics
@@ -985,7 +985,7 @@ char* EatFact(char* ptr,char* buffer,unsigned int flags,bool attribute)
 					char word[MAX_WORD_SIZE];
 					WriteFact(F,false,word,false,true);
 					Log(STDTRACELOG,(char*)"Fact created is not an attribute. There already exists %s",word); 
-					printf((char*)"Fact created is not an attribute. There already exists %s",word); 
+					(*printer)((char*)"Fact created is not an attribute. There already exists %s",word); 
 					currentFact = F;
 					return (*ptr) ? (ptr + 2) : ptr; 
 				}
@@ -1131,11 +1131,13 @@ FACT* CreateFastFact(FACTOID_OR_MEANING subject, FACTOID_OR_MEANING verb, FACTOI
 	}
 
 	//   allocate a fact
+    int n = factEnd - factFree;
+    if (n < worstFactFree) worstFactFree = n;
 	if (++factFree == factEnd) 
 	{
 		--factFree;
 		ReportBug((char*)"out of fact space at %d",Fact2Index(factFree))
-		printf((char*)"%s",(char*)"out of fact space");
+		(*printer)((char*)"%s",(char*)"out of fact space");
 		return NULL;
 	}
 	currentFact = factFree;
@@ -1315,9 +1317,9 @@ char* WriteFact(FACT* F,bool comments,char* buffer,bool ignoreDead,bool eol) // 
 	if (F->botBits)
 	{
 #ifdef WIN32
-		sprintf(buffer,(char*)"%I64d ",F->botBits); 
+		sprintf(buffer,(char*)"%I64u ",F->botBits); 
 #else
-		sprintf(buffer,(char*)"%lld ",F->botBits); 
+		sprintf(buffer,(char*)"%llu ",F->botBits); 
 #endif
 		buffer += strlen(buffer);
 	}

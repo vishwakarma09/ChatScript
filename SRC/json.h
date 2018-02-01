@@ -1,7 +1,7 @@
 #ifndef _JSONH_
 #define _JSONH_
 #ifdef INFORMATION
-Copyright (C) 2011-2017 by Bruce Wilcox
+Copyright (C)2011-2018 by Bruce Wilcox
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
@@ -29,6 +29,7 @@ FunctionResult JSONParseCode(char* buffer);
 FunctionResult JSONArrayDeleteCode(char* buffer);
 FunctionResult JSONArraySizeCode(char* buffer);
 FunctionResult JSONGatherCode(char* buffer);
+FunctionResult DoJSONArrayInsert(bool nodup, WORDP array, MEANING value, int flags, char* buffer); //  objectfact objectvalue  BEFORE/AFTER 
 FunctionResult ParseJson(char* buffer, char* message, size_t size,bool nofail);
 FunctionResult JSONDeleteCode(char* buffer); 
 FunctionResult JSONCopyCode(char* buffer);
@@ -38,6 +39,7 @@ MEANING jsonValue(char* value, unsigned int& flags);
 void JsonRenumber(FACT* F);
 void jkillfact(WORDP D);
 void InitJSONNames();
+char* jwrite(char* buffer, WORDP D, int subject);
 
 #ifndef DISCARDJSONOPEN
 char* UrlEncodePiece(char* input);

@@ -3,7 +3,7 @@
 
 
 #ifdef INFORMATION
-Copyright (C) 2011-2017 by Bruce Wilcox
+Copyright (C)2011-2018 by Bruce Wilcox
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
@@ -29,6 +29,7 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
 typedef FunctionResult (*EXECUTEPTR)(char* buffer);
 
 #define SAMELINE 2
+
 
 typedef struct SystemFunctionInfo 
 {
@@ -72,7 +73,7 @@ extern char* codeStart;
 extern char* realCode;
 extern unsigned int callIndex;
 extern WORDP callStack[MAX_CALL_DEPTH];
-extern unsigned int callArgumentBases[MAX_CALL_DEPTH];    // arguments to functions
+extern int callArgumentBases[MAX_CALL_DEPTH];    // arguments to functions
 extern unsigned int callArgumentIndex;
 extern int maxGlobalSeen;
 extern long http_response;
@@ -93,15 +94,15 @@ FunctionResult RunJavaScript(char* definition, char* buffer,unsigned int args);
 void DeletePermanentJavaScript();
 void DeleteTransientJavaScript();
 unsigned int MACRO_ARGUMENT_COUNT(unsigned char* defn);
+void DebugConcepts(int list, int wordindex);
 
 //   argument data for user calls
 char* InitDisplay(char* list);
-void RestoreDisplay(char* base, char* list);
-extern unsigned int fnVarBase;
+void RestoreDisplay(char** base, char* list);
 extern SystemFunctionInfo systemFunctionSet[];
-extern char* currentFunctionDisplay;
 extern bool planning;
 extern bool nobacktrack;
+CALLFRAME* GetCallFrame(int depth);
 FunctionResult MemoryMarkCode(char* buffer);
 char* GetArgOfMacro(int i, char* buffer, int limit);
 FunctionResult MemoryFreeCode(char* buffer);

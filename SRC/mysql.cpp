@@ -372,9 +372,9 @@ FunctionResult MySQLInitCode(char* buffer)
       exit(1);
    }
    res = mysql_use_result(conn);
-   printf("MySQL Tables in mysql database:\n");
+   (*printer)("MySQL Tables in mysql database:\n");
    while ((row = mysql_fetch_row(res)) != NULL)
-      printf("%s \n", row[0]);
+      (*printer)("%s \n", row[0]);
    mysql_free_result(res);
    mysql_close(conn);
 

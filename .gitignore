@@ -27,7 +27,6 @@ BINARIES/chatscript_Debug_v140.exe
 *.sdf
 *.tlog
 *.user
-*.suo
 
 # ignore local user settings for Visual Studio 2015/2017
 VS2015/.vs/
@@ -41,3 +40,7 @@ private/KORA/TESTS/*.swp
 
 # force keep
 !DICT/ENGLISH/
+!TMP/
+!LOGS/
+!USERS/
+!LIVEDATA/

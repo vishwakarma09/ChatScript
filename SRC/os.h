@@ -2,7 +2,7 @@
 #define _OSH_
 
 #ifdef INFORMATION
-Copyright (C) 2011-2017 by Bruce Wilcox
+Copyright (C)2011-2018 by Bruce Wilcox
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
@@ -17,6 +17,82 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
 
 #define SAFE_BUFFER_MARGIN 2000
 
+struct FACT;
+
+typedef unsigned int FACTOID; //   a fact index
+typedef unsigned int FACTOID_OR_MEANING;	// a fact or a meaning (same representation)
+
+struct WORDENTRY;
+typedef WORDENTRY* WORDP;
+
+typedef struct WORDENTRY //   a dictionary entry  - starred items are written to the dictionary
+{
+    uint64  properties;				//   main language description of this node 
+    uint64	hash;
+    uint64  systemFlags;			//   additional dictionary and non-dictionary properties
+    char*     word;					//   entry name
+    unsigned int internalBits;
+    unsigned int parseBits;			// only for words, not for function names or concept names
+                                    // functions/topics use this for offset into the map file where it is defined (debugger)
+
+                                    //   if you edit this, you may need to change ReadBinaryEntry and WriteBinaryEntry
+    union {
+        char* botNames;				//   for topic name (start with ~) or planname (start with ^) - bot topic applies to  - only used by script compiler
+        unsigned int planArgCount;	// number of arguments in a plan
+        unsigned char* fndefinition; //   for nonplan macro name (start with ^) - if FUNCTION_NAME is on and not system function, is user script - 1st byte is argument count
+        char* userValue;			//   if a $uservar (start with $) OR if a search label uservar 
+        WORDP substitutes;			//   words (with internalBits HAS_SUBSTITUTE) that should be adjusted to during tokenization
+        MEANING*  glosses;			//   for ordinary words: list of glosses for synset head meanings - is offset to allocstring and id index of meaning involved.
+        char* conditionalIdiom;		//  test code headed by ` for accepting word as an idiom instead of its individual word components
+    }w;
+
+    FACTOID subjectHead;		//  start threads for facts run thru here 
+    FACTOID verbHead;			//  start threads for facts run thru here 
+    FACTOID objectHead;			//  start threads for facts run thru here 
+
+    MEANING  meanings;			//  list of meanings (synsets) of this word - Will be wordnet synset id OR self ptr -- 1-based since 0th meaning means all meanings
+    unsigned int length;		//  length of the word
+    unsigned int inferMark;		// (functions use as trace control bits) no need to erase been here marker during marking facts, inferencing (for propogation) and during scriptcompile 
+    MEANING spellNode;			// next word of same length as this - not used for function names (time tracing bits go here) and concept names
+    unsigned int nextNode;		// bucket-link for dictionary hash + top bye GETMULTIWORDHEADER // can this word lead a phrase to be joined - can vary based on :build state -- really only needs 4 bits
+
+    union {
+        unsigned int topicIndex;	//   for a ~topic or %systemVariable or plan, this is its id
+        unsigned int codeIndex;		//   for a system function, its the table index for it
+        unsigned int debugIndex;	//   for a :test function, its the table index for it
+    }x;
+#ifndef DISCARDCOUNTER
+    unsigned int counter;			// general storage slot
+#endif
+} WORDENTRY;
+
+
+
+typedef struct CALLFRAME
+{
+    char* label;
+    char* rule;
+    char** display; // where display archive is saved
+    char* definition; // actual definition chosen to execute: (locals) + code
+    WORDP name; // basic name
+    char* code; // code after locals
+    int varBaseIndex; // where fnvar base is
+    int arguments; // how many arguments function has
+    int oldbase;
+    int outputlevel;
+    int argumentStartIndex;
+    int oldRuleID;
+    int oldTopic;
+    int oldRuleTopic;
+    int memindex;
+    char* oldRule;
+    int heapDepth;
+    union  {
+        FunctionResult result;
+        int ownvalue;
+    }x;
+
+}CALLFRAME;
 // EXCEPTION/ERROR
 // error recovery
 #define SERVER_RECOVERY 4
@@ -34,14 +110,13 @@ extern char hide[4000];
 extern bool logged;
 extern int filesystemOverride;
 #define MAX_GLOBAL 600
-extern char* ruleDepth[MAX_GLOBAL];
-extern char* nameDepth[MAX_GLOBAL];
-extern char* tagDepth[MAX_GLOBAL][25];
-
+extern int ide;
+extern bool idestop;
+extern bool idekey;
 #define RECORD_SIZE 4000
 
 // MEMORY SYSTEM
-extern char* releaseStackDepth[MAX_GLOBAL];
+extern CALLFRAME* releaseStackDepth[MAX_GLOBAL];
 extern unsigned int maxBufferLimit;
 extern unsigned int maxReleaseStackGap;
 extern unsigned int maxBufferSize;
@@ -59,7 +134,6 @@ extern char* stackStart;
 extern char* heapEnd;
 extern unsigned long minHeapAvailable;
 extern int loglimit;
-
 char* Index2Heap(unsigned int offset);
 inline unsigned int Heap2Index(char* str) {return (!str) ? 0 : (unsigned int)(heapBase - str);}
 inline unsigned int Stack2Index(char* str) { return (!str) ? 0 : (unsigned int)(str - stackStart); }
@@ -78,7 +152,7 @@ char* InfiniteStack64(char*& limit,char* caller);
 void CompleteBindStack64(int n,char* base);
 void CompleteBindStack();
 bool AllocateStackSlot(char* variable);
-char* RestoreStackSlot(char* variable,char* slot);
+char** RestoreStackSlot(char* variable,char** slot);
 char* AllocateHeap(char* word,size_t len = 0,int bytes= 1,bool clear = false,bool purelocal = false);
 bool PreallocateHeap(size_t len);
 void ProtectNL(char* buffer);
@@ -113,6 +187,11 @@ FILE* FopenUTF8WriteAppend(const char* filename, const char* flags = "ab");
 typedef void (*FILEWALK)(char* name, uint64 flag);
 void CopyFile2File(const char* newname,const char* oldname,bool autoNumber);
 bool LogEndedCleanly();
+typedef int (*PRINTER)(const char * format, ...);
+typedef void(*DEBUGINTPUT)(const char * data);
+typedef void(*DEBUGOUTPUT)(const char * data);
+extern PRINTER  printer;
+int myprintf(const char * fmt, ...);
 
 #ifdef INFORMATION
 Normally user topic files are saved on the local filesystem using fopen, fclose, fread, fwrite, fseek, ftell calls.
@@ -150,7 +229,7 @@ typedef struct USERFILESYSTEM //  how to access user topic data
 
 extern USERFILESYSTEM userFileSystem;
 void InitUserFiles();
-void WalkDirectory(char* directory,FILEWALK function, uint64 flags);
+void WalkDirectory(char* directory,FILEWALK function, uint64 flags,bool recursive);
 size_t DecryptableFileRead(void* buffer,size_t size, size_t count, FILE* file,bool decrypt,char* filekind);
 size_t EncryptableFileWrite(void* buffer,size_t size, size_t count, FILE* file,bool encrypt,char* filekind);
 char* GetUserPath(char* name);
@@ -167,7 +246,7 @@ void myctime(time_t * timer,char* buffer);
 #ifdef __MACH__
 void clock_get_mactime(struct timespec &ts);
 #endif
-clock_t ElapsedMilliseconds();
+uint64 ElapsedMilliseconds();
 #ifndef WIN32
 unsigned int GetFutureSeconds(unsigned int seconds);
 #endif
@@ -182,6 +261,7 @@ unsigned int GetFutureSeconds(unsigned int seconds);
 #define ECHOSTDTRACELOG 3
 #define STDTRACELOG 4
 #define STDTIMELOG 5
+#define DBTIMELOG 6
 
 #define BADSCRIPTLOG 9
 #define BUGLOG 10
@@ -206,13 +286,14 @@ extern char* logmainbuffer;
 extern int logsize;
 extern int outputsize;
 extern char serverLogfileName[200];
+extern char dbTimeLogfileName[200];
 extern int userLog;
 extern int serverLog;
 extern bool serverPreLog;
 extern bool serverctrlz;
 
 unsigned int Log(unsigned int spot,const char * fmt, ...);
-void ChangeDepth(int value,char* where,bool nostackCutboack = false,char* code = NULL,FunctionResult result = NOPROBLEM_BIT);
+CALLFRAME* ChangeDepth(int value,char* where,bool nostackCutboack = false,char* code = NULL);
 void BugBacktrace(FILE* out);
 void Bug();
 

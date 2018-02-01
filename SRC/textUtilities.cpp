@@ -11,7 +11,7 @@ bool singleSource = false;			// in ReadDocument treat each line as an independen
 bool newline = false;
 int docSampleRate = 0;
 int docSample = 0;
-int docVolleyStartTime = 0;
+uint64 docVolleyStartTime = 0;
 bool hasHighChar = false;
 char conditionalCompile[MAX_CONDITIONALS+1][50];
 int conditionalCompiledIndex = 0;
@@ -662,7 +662,7 @@ void AcquireDefines(char* fileName)
 	FILE* in = FopenStaticReadOnly(fileName); // SRC/dictionarySystem.h
 	if (!in) 
 	{
-		if ( !server) printf((char*)"%s", (char*)"Unable to read dictionarySystem.h\r\n");
+		if ( !server) (*printer)((char*)"%s", (char*)"Unable to read dictionarySystem.h\r\n");
 		return;
 	}
 	char label[MAX_WORD_SIZE];
@@ -1766,7 +1766,8 @@ char* ReadInt64(char* ptr, int64 &spot)
          sign = -1;
          ++ptr;
      }
-	 char* currency1;
+     else if (*ptr == '+') ++ptr;
+     char* currency1;
 	 char* cur1 = (char*) GetCurrency((unsigned char*)ptr, currency1); // alpha part
 	 if (cur1 && cur1 == ptr) ptr = currency1; // point to number part
 
@@ -2368,7 +2369,7 @@ Used for function calls, to read their callArgumentList. Arguments are not evalu
         ptr = ReadCompiledWord(ptr,buffer); // get name and prepare to peek at next token
 		if (IsDigit(buffer[1]))  
 		{
-			strcpy(buffer,callArgumentList[atoi(buffer+1)+fnVarBase]); // use the value and keep going // NEW
+			strcpy(buffer,FNVAR(buffer+1)); // use the value and keep going // NEW
 			return ptr;
 		}
 		else if (*ptr != '(')  return ptr; // not a function call
@@ -2654,7 +2655,7 @@ char* UTF2ExtendedAscii(char* bufferfrom)
 	*bufferto = 0;
 	if (outputLength) OutputLimit(buffer);
 	ReleaseInfiniteStack();
-	return (char*) buffer; // it is ONLY good for printf immediate, not for anything long term
+	return (char*) buffer; // it is ONLY good for (*printer) immediate, not for anything long term
 }
 
 void ForceUnderscores(char* ptr)
@@ -2907,7 +2908,11 @@ int64 Convert2Integer(char* number, int useNumberStyle)  //  non numbers return 
 			else if (*ptr == '-' || *ptr == '+') return NOT_A_NUMBER;
 			else if (!IsDigit(*ptr)) return NOT_A_NUMBER;	// not good
 		}
-		if (!*ptr && !hyp) return atoi64(word) * ((sign == '-') ? -1 : 1);	// all digits with sign
+		if (!*ptr && !hyp) 
+		{
+			if (strlen(word) > 18) return NOT_A_NUMBER; // very long sequence of digits that cannot be stored in 64bits
+			return atoi64(word) * ((sign == '-') ? -1 : 1);	// all digits with sign
+		}
 	
 		// try for digit sequence 9-1-1 or whatever
 		ptr = word;

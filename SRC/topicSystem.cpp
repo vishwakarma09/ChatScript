@@ -22,7 +22,6 @@ char* unwindUserLayer = NULL;
 // current operating data
 bool shared = false;
 bool loading = false;
-unsigned int currentTopicDisplay = 0;
 
 #define MAX_OVERLAPS 1000
 static WORDP overlaps[MAX_OVERLAPS];
@@ -152,6 +151,18 @@ void DummyEncode(char* &data) // script compiler users to reserve space for enco
 	*data++ = 'a'; 
 	*data++ = 'a';
 	*data++ = 'a';
+}
+
+bool DifferentTopicContext(int depthadjust, int topicid)
+{
+    int depth = globalDepth + depthadjust + 1;
+    while (--depth > 0) // start from prior to us
+    {
+        CALLFRAME* frame = releaseStackDepth[depth];
+        if (*frame->label == '~' ) return topicid != frame->oldTopic;
+        if (*frame->label == '^' && frame->code) return true; // user function breaks chain of access
+    }
+    return true;
 }
 
 void Encode(unsigned int val,char* &ptr,int size)
@@ -1137,7 +1148,7 @@ FunctionResult ProcessRuleOutput(char* rule, unsigned int id,char* buffer,bool r
 		timing = ((unsigned int)-1 ^ TIME_ALWAYS) | (oldtiming & TIME_ALWAYS);
 		traceChanged = true;
 	}
-	clock_t start_time = ElapsedMilliseconds();
+	uint64 start_time = ElapsedMilliseconds();
 
 	char label[MAX_LABEL_SIZE];
 	char pattern[MAX_WORD_SIZE];
@@ -1175,17 +1186,27 @@ FunctionResult ProcessRuleOutput(char* rule, unsigned int id,char* buffer,bool r
 	int startingIndex = responseIndex;
 	bool oldErase = ruleErased; // allow underling gambits to erase themselves. If they do, we dont have to.
 	ruleErased = false;
-#ifndef DISCARDTESTING
-	ChangeDepth(1,"^ruleoutput",false,ptr);
+
+ #ifndef DISCARDTESTING
+    CALLFRAME* frame = GetCallFrame(globalDepth);
+    char rulename[200];
+    *rulename = 0;
+    char* paren = strchr(frame->label, '(');
+    if (paren)
+    {
+        *paren = '{';
+        paren[1] = '}';
+        ChangeDepth(0, NULL, false, ptr);
+    }
+    else
+    {
+        sprintf(rulename,"%s.%d.%d{}", GetTopicName(currentTopicID), TOPLEVELID(id), REJOINDERID(id)); 
+        ChangeDepth(1, rulename, false, ptr);
+    }
 #endif
-	char* oldcode = codeStart;
-	codeStart = ptr;
 	Output(ptr,buffer,result);
-#ifndef DISCARDTESTING
-	ChangeDepth(-1,"^ruleoutput",true);
-#endif
-	codeStart = oldcode;
 	if (*buffer == '`') buffer = strrchr(buffer,'`') + 1; // skip any output already put out
+    if (!paren) ChangeDepth(-1, rulename, false, ptr);
 
 	if (!ruleErased) ruleErased = oldErase;
 
@@ -1250,7 +1271,7 @@ FunctionResult ProcessRuleOutput(char* rule, unsigned int id,char* buffer,bool r
 	respondLevel = 0; 
 
 	if (timing & TIME_FLOW) {
-		int diff = ElapsedMilliseconds() - start_time;
+		int diff = (int)(ElapsedMilliseconds() - start_time);
 		if (*label && (timing & TIME_ALWAYS || diff > 0)) Log(STDTIMETABLOG, "%s rule %c:%d.%d %s %s time: %d ms\r\n", GetTopicName(currentTopicID), *rule, TOPLEVELID(id), REJOINDERID(id), label, pattern, diff);
 		else if (timing & TIME_ALWAYS || diff > 0) Log(STDTIMETABLOG, "%s rule %c:%d.%d %s time: %d ms\r\n", GetTopicName(currentTopicID), *rule, TOPLEVELID(id), REJOINDERID(id), pattern, diff);
 	}
@@ -1279,20 +1300,17 @@ FunctionResult DoOutput(char* buffer,char* rule, unsigned int id,bool refine)
 
 FunctionResult TestRule(int ruleID,char* rule,char* buffer,bool refine)
 {
-	SAVEOLDCONTEXT()
 	unsigned int oldIterator = currentIterator;
 	currentIterator = 0;
-	currentRule = rule;
-	currentRuleID = ruleID;
-	currentRuleTopic = currentTopicID;
 	unsigned int oldtrace = trace;
 	bool traceChanged = false;
-	if (GetDebugRuleMark(currentTopicID,currentRuleID)) 
+	if (GetDebugRuleMark(currentTopicID, ruleID))
 	{
 		trace = (unsigned int) -1 ;
 		traceChanged = true;
 	}
 	++ruleCount;
+    FunctionResult result = NOPROBLEM_BIT;
 	int start = 0;
 	int oldstart = 0;
 	int end = 0;
@@ -1300,11 +1318,15 @@ FunctionResult TestRule(int ruleID,char* rule,char* buffer,bool refine)
 	char label[MAX_LABEL_SIZE];
     char* ptr = GetLabel(rule,label); // now at pattern if there is one
 	char id[SMALL_WORD_SIZE];
-	if (*label) sprintf(id,"%s.%d.%d-%s",GetTopicName(currentTopicID),TOPLEVELID(ruleID),REJOINDERID(ruleID),label);
-	else sprintf(id,"%s.%d.%d",GetTopicName(currentTopicID),TOPLEVELID(ruleID),REJOINDERID(ruleID));
-	ChangeDepth(1,id,false,rule);
+	if (*label) sprintf(id,"%s.%d.%d-%s()",GetTopicName(currentTopicID),TOPLEVELID(ruleID),REJOINDERID(ruleID),label);
+	else sprintf(id,"%s.%d.%d()",GetTopicName(currentTopicID),TOPLEVELID(ruleID),REJOINDERID(ruleID));
+    ChangeDepth(1,id,false, ptr); // rule pattern level
+    currentRule = rule;
+    currentRuleID = ruleID;
+    currentRuleTopic = currentTopicID;
+
 retry:
-	FunctionResult result = NOPROBLEM_BIT;
+	result = NOPROBLEM_BIT;
 
 	if (trace & (TRACE_PATTERN | TRACE_SAMPLE )  && CheckTopicTrace())
 	{
@@ -1371,8 +1393,9 @@ retry:
 				if (end > 0 && end <= wordCount && end > oldstart) oldstart = start = end; // allow system to retry if marked an end before
 			}
 			// else if (end > start) oldstart = start = end;	// continue from last match location
-			else if (start > MAX_SENTENCE_LENGTH) 
+			else if (start > MAX_SENTENCE_LENGTH || start < 0) 
 			{
+                end = NORETRY;
 				start = 0; // never matched internal words - is at infinite start -- WHY allow this?
 			}
 			else  oldstart = start+1;	// continue from last start match location + 1
@@ -1396,13 +1419,28 @@ retry:
 		}
 	}
 exit:
-	ChangeDepth(-1,id,true);
-	RESTOREOLDCONTEXT()
+	ChangeDepth(-1,id,true); // rule
 	currentIterator = oldIterator;
 	
 	if (traceChanged) trace = (modifiedTrace) ? modifiedTraceVal : oldtrace;
 	else if (modifiedTrace) trace = modifiedTraceVal;
 	return result; 
+}
+
+static int RuleID(int type,char* ptr)
+{
+    char* base = GetTopicData(currentTopicID);
+    unsigned int* indices = TI(currentTopicID)->ruleOffset;
+    topicBlock* block = TI(currentTopicID);
+    unsigned int* map = (type == STATEMENT || type == QUESTION || type == STATEMENT_QUESTION) ? block->responderTag : block->gambitTag;
+    int ruleID = (map) ? *map : NOMORERULES;
+    while (ruleID != NOMORERULES) //   find all choices-- layout is like "t: xxx () yyy"  or   "u: () yyy"  or   "t: this is text" -- there is only 1 space before useful label or data
+    {
+        if (indices[ruleID] == 0xffffffff) break; // end of the line
+        if ((base + indices[ruleID]) == ptr) return ruleID;
+        ruleID = *++map;
+    }
+    return NOMORERULES;
 }
 
 static FunctionResult FindLinearRule(char type, char* buffer, unsigned int& id,char* rule)
@@ -1417,11 +1455,13 @@ static FunctionResult FindLinearRule(char type, char* buffer, unsigned int& id,c
     FunctionResult result = NOPROBLEM_BIT;
 	int oldResponseIndex = responseIndex;
 	unsigned int* indices =  TI(currentTopicID)->ruleOffset;
-	while (ruleID != NOMORERULES) //   find all choices-- layout is like "t: xxx () yyy"  or   "u: () yyy"  or   "t: this is text" -- there is only 1 space before useful label or data
+    CALLFRAME* frame = GetCallFrame(globalDepth);
+    while (ruleID != NOMORERULES) //   find all choices-- layout is like "t: xxx () yyy"  or   "u: () yyy"  or   "t: this is text" -- there is only 1 space before useful label or data
 	{
 		if (indices[ruleID] == 0xffffffff) break; // end of the line
 		char* ptr = base + indices[ruleID]; // the gambit or responder
-		if (!UsableRule(currentTopicID,ruleID))
+        frame->code = ptr;  // here is rule we are working on
+        if (!UsableRule(currentTopicID,ruleID))
 		{
 			if (trace & (TRACE_PATTERN|TRACE_SAMPLE) && CheckTopicTrace()) 
 			{
@@ -1437,8 +1477,20 @@ static FunctionResult FindLinearRule(char type, char* buffer, unsigned int& id,c
 			if (result & (FAILRULE_BIT | ENDRULE_BIT)) oldResponseIndex = responseIndex; // update in case he issued answer AND claimed failure
  			else if (result & ENDCODES || responseIndex > oldResponseIndex) break; // wants to end or got answer
 		}
-		ruleID = *++map;
-		result = NOPROBLEM_BIT;
+        result = NOPROBLEM_BIT;
+        if (frame->code != ptr) // debugger changed it
+        {
+            ruleID = 0;
+            while (ruleID != NOMORERULES) //   find all choices-- layout is like "t: xxx () yyy"  or   "u: () yyy"  or   "t: this is text" -- there is only 1 space before useful label or data
+            {
+                if (indices[ruleID] == 0xffffffff) break; // end of the line
+                if ((base + indices[ruleID]) == ptr) break; // we are before here
+                ruleID = *++map;
+            }
+            if (ruleID == NOMORERULES)  break; //failing to find
+            continue; // use this one now
+        }
+		ruleID = *++map; // go to next
 	}
 	if (result & (RESTART_BIT|ENDINPUT_BIT|FAILINPUT_BIT|FAILSENTENCE_BIT|ENDSENTENCE_BIT|RETRYSENTENCE_BIT|RETRYTOPIC_BIT|RETRYINPUT_BIT)) return result; // stop beyond mere topic
 	return (result & (ENDCODES-ENDTOPIC_BIT)) ? FAILTOPIC_BIT : NOPROBLEM_BIT; 
@@ -1617,10 +1669,11 @@ FunctionResult PerformTopic(int active,char* buffer,char* rule, unsigned int id)
 	unsigned int oldtiming = EstablishTopicTiming();
 	char value[100];
 
-	unsigned int oldTopicDisplay = currentTopicDisplay;
-	currentTopicDisplay = currentTopicID;
 	char* locals = GetTopicLocals(currentTopicID);
-	if (locals && currentTopicDisplay != oldTopicDisplay && !InitDisplay(locals)) result = FAILRULE_BIT;
+    CALLFRAME* frame = GetCallFrame(globalDepth);
+    frame->display = (char**)stackFree;
+    bool updateDisplay = locals && DifferentTopicContext(-1, currentTopicID);
+	if (updateDisplay && !InitDisplay(locals)) result = FAILRULE_BIT;
 
 	WORDP D = FindWord((char*)"^cs_topic_enter");
 	if (D && !cstopicsystem)  
@@ -1631,7 +1684,7 @@ FunctionResult PerformTopic(int active,char* buffer,char* rule, unsigned int id)
 		cstopicsystem = false;
 	}
 
-	clock_t start_time = ElapsedMilliseconds();
+	uint64 start_time = ElapsedMilliseconds();
 	if (trace & (TRACE_MATCH|TRACE_PATTERN|TRACE_SAMPLE|TRACE_TOPIC) && CheckTopicTrace()) 
 		Log(STDTRACETABLOG,(char*)"Enter Topic:\r\n",topicName);
 
@@ -1654,10 +1707,9 @@ FunctionResult PerformTopic(int active,char* buffer,char* rule, unsigned int id)
 	if (trace & (TRACE_MATCH|TRACE_PATTERN|TRACE_SAMPLE|TRACE_TOPIC) && CheckTopicTrace()) 
 		id = Log(STDTRACETABLOG,(char*)"Result: %s Topic: %s \r\n",ResultCode(result),topicName);
 
-	if (locals && currentTopicDisplay != oldTopicDisplay) RestoreDisplay(releaseStackDepth[globalDepth],locals);
-	currentTopicDisplay = oldTopicDisplay;
+	if (updateDisplay) RestoreDisplay(frame->display,locals);
 	if (timing & TIME_TOPIC && CheckTopicTime()) {
-		int diff = ElapsedMilliseconds() - start_time;
+		int diff = (int)(ElapsedMilliseconds() - start_time);
 		if (timing & TIME_ALWAYS || diff > 0) Log(STDTIMETABLOG, (char*)"Topic %s time: %d ms\r\n", topicName,diff);
 	}
 
@@ -2165,11 +2217,11 @@ static void LoadTopicData(const char* fname,const char* layerid,unsigned int bui
 			if (build == BUILD0) 
 			{
 				EraseTopicFiles(BUILD0,(char*)"0");
-				printf((char*)"%s",(char*)"\r\n>>>  TOPICS directory bad. Contents erased. :build 0 again.\r\n\r\n");
+				(*printer)((char*)"%s",(char*)"\r\n>>>  TOPICS directory bad. Contents erased. :build 0 again.\r\n\r\n");
 			}
 			else if (build == BUILD1) 
 			{
-				printf((char*)"%s",(char*)"\r\n>>> TOPICS directory bad. Build1 Contents erased. :build 1 again.\r\n\r\n");
+				(*printer)((char*)"%s",(char*)"\r\n>>> TOPICS directory bad. Build1 Contents erased. :build 1 again.\r\n\r\n");
 				EraseTopicFiles(BUILD1,(char*)"1");
 			}
 
@@ -2190,7 +2242,7 @@ static void LoadTopicData(const char* fname,const char* layerid,unsigned int bui
         if (!block)
         {
             fclose(in);
-            printf("FATAL: Incompletely compiled unit %s\r\n", name);
+            (*printer)("FATAL: Incompletely compiled unit %s\r\n", name);
             EraseTopicFiles(build, (build == BUILD1) ? (char*)"1" : (char*) "0");
             Log(ECHOSTDTRACELOG, (char*)"\r\nIncompletely compiled unit - press Enter to quit. Then fix and try again.\r\n");
             if (!server && !commandLineCompile) ReadALine(readBuffer, stdin);
@@ -2502,7 +2554,7 @@ void InitKeywords(const char* fname,const char* layer,unsigned int build,bool di
 			if (botflag)
 			{
 				*botflag = 0;
-				myBot = atoi(botflag+1);
+				myBot = atoi64(botflag+1);
 			}
 			char* p1 = word;
 			bool original = false;
@@ -2674,7 +2726,7 @@ static void InitMacros(const char* name,const char* layer,unsigned int build)
 		else
 		{
 			fclose(in);
-			printf("FATAL: Old style function compile of %s. Recompile your script", name);
+			(*printer)("FATAL: Old style function compile of %s. Recompile your script", name);
 			EraseTopicFiles(build, (build == BUILD1) ? (char*)"1" : (char*) "0");
 			Log(ECHOSTDTRACELOG, (char*)"\r\nOld style function compile of %s. Recompile your script", name);
 			if (!server && !commandLineCompile) ReadALine(readBuffer, stdin);
@@ -2887,8 +2939,9 @@ FunctionResult LoadLayer(int layer,const char* name,unsigned int build)
 	sprintf(filename,(char*)"canon%s.txt",name );
 	ReadCanonicals(filename,name);
 	WalkDictionary(IndirectMembers,build); // having read in all concepts, handled delayed word marks
-	
-	if (layer != LAYER_BOOT)
+    worstDictAvail = maxDictEntries - Word2Index(dictionaryFree);
+    worstFactFree = factEnd - factFree;
+    if (layer != LAYER_BOOT)
 	{
 		char data[MAX_WORD_SIZE];
 		sprintf(data,(char*)"Build%s:  dict=%ld  fact=%ld  heap=%ld Compiled:%s by version %s \"%s\"\r\n",name,
@@ -2897,7 +2950,7 @@ FunctionResult LoadLayer(int layer,const char* name,unsigned int build)
 			(long int)(stringsPreBuild[layer]-heapFree),
 			timeStamp[layer],compileVersion[layer],buildStamp[layer]);
 		if (server)  Log(SERVERLOG, "%s",data);
-		printf((char*)"%s",data);
+		(*printer)((char*)"%s",data);
 	}
 	
 	LockLayer(false);
@@ -2920,7 +2973,7 @@ void LoadTopicSystem() // reload all topic data
 	currentTopicID = 0;
 	ClearBotVariables();
 
-	printf((char*)"WordNet: dict=%ld  fact=%ld  heap=%ld %s\r\n", (long int)(dictionaryFree - dictionaryBase - 1), (long int)(factFree - factBase), (long int)(heapBase - heapFree), dictionaryTimeStamp);
+	(*printer)((char*)"WordNet: dict=%ld  fact=%ld  heap=%ld %s\r\n", (long int)(dictionaryFree - dictionaryBase - 1), (long int)(factFree - factBase), (long int)(heapBase - heapFree), dictionaryTimeStamp);
 
 	if (!build0Requested) LoadLayer(LAYER_0, (char*)"0", BUILD0); // we will rebuild so dont bother loading
 

@@ -3,7 +3,6 @@ unsigned int maxOutputUsed = 0;
 unsigned int currentOutputLimit = MAX_BUFFER_SIZE;	// max size of current output base
 char* currentOutputBase = NULL;		// current base of buffer which must not overflow
 char* currentRuleOutputBase = NULL;	// the partial buffer within outputbase started for current rule, whose output can be canceled.
-
 #define MAX_OUTPUT_NEST 50
 static char* oldOutputBase[MAX_OUTPUT_NEST];
 static char* oldOutputRuleBase[MAX_OUTPUT_NEST];
@@ -175,7 +174,7 @@ void ReformatString(char starter, char* input,char*& output, FunctionResult& res
  		Output(input,output,result,controls); // directly execute the content but no leading space
 		input[len] = c;
 		return;
-	}
+	}	
 	bool str = false;
 	char* start = output;
 	*output = 0;
@@ -264,7 +263,7 @@ void ReformatString(char starter, char* input,char*& output, FunctionResult& res
 		{
 			char* base = input; 
 			while (*++input && IsDigit(*input)){;} // find end of function variable name 
-			char* tmp = callArgumentList[atoi(base+1)+fnVarBase];
+			char* tmp = FNVAR(base+1);
 			// if tmp turns out to be $var or _var %var, need to recurse to get it
 			if (*tmp == LCLVARDATA_PREFIX && tmp[1] == LCLVARDATA_PREFIX)
 			{
@@ -613,7 +612,7 @@ static char* Output_Function(char* word, char* ptr,  char* space,char*& buffer, 
 		if (!once && IsAssignmentOperator(ptr)) ptr = PerformAssignment(word,ptr,buffer,result); 
 		else
 		{
-			char* value = callArgumentList[atoi(word+1)+fnVarBase];
+			char* value = FNVAR(word+1);
 			size_t len = strlen(value);
 			size_t size = (buffer - currentOutputBase);
 			if ((size + len) >= (currentOutputLimit-50) ) 
@@ -815,7 +814,7 @@ static char* Output_Quote(char* word, char* ptr, char* space,char*& buffer, unsi
 	}
 	else if (word[1] == '^' && IsDigit(word[2]))  //   function variable quoted, means dont reeval its content
 	{
-		size_t len = strlen(callArgumentList[atoi(word+2)+fnVarBase]);
+		size_t len = strlen(FNVAR(word+2));
 		size_t size = (buffer - currentOutputBase);
 		if ((size + len) >= (currentOutputLimit-50) ) 
 		{
@@ -823,7 +822,7 @@ static char* Output_Quote(char* word, char* ptr, char* space,char*& buffer, unsi
 			return ptr;
 		}
 
-		strcpy(buffer,callArgumentList[atoi(word+2)+fnVarBase]);
+		strcpy(buffer,FNVAR(word+2));
 	}
 	else StdNumber(word,buffer,controls);
 	return ptr;
@@ -937,7 +936,9 @@ char* Output(char* ptr,char* buffer,FunctionResult &result,int controls)
 		result = FAILRULE_BIT;
 		return ptr;
 	}
-	char* word = AllocateBuffer("output"); // allocation from stack doesnt work for unknown reason
+
+    char* word = AllocateBuffer("output"); // allocation from stack doesnt work for unknown reason
+    ++outputlevel; // where we are
 
     bool quoted = false;
 	char* startQuoted = NULL;
@@ -949,7 +950,18 @@ char* Output(char* ptr,char* buffer,FunctionResult &result,int controls)
 		char* space = NULL;
 		*buffer = 0;
 		ptr = SkipWhitespace(ptr); // functions no longer skip blank after end, in case being used by reformat and preserving the space
-		if (!*ptr || (*ptr == ENDUNIT && ptr[1] != ENDUNIT)) break; // out of data
+		
+        outputCode[outputlevel] = ptr; // where we are
+
+#ifndef DISCARDTESTING
+        if (debugAction)
+        {
+            (*debugAction)(ptr);
+            *buffer = 0;
+            ptr = outputCode[outputlevel]; // can replace where we are
+        }
+#endif
+        if (!*ptr || (*ptr == ENDUNIT && ptr[1] != ENDUNIT)) break; // out of data
 
 		char* priorPtr = ptr;
         ptr = ReadCompiledWord(ptr,word,false,true);  // stop when $var %var _var @nvar end normally- insure no ) ] } lingers on word in case it wasnt compiled
@@ -1117,7 +1129,8 @@ char* Output(char* ptr,char* buffer,FunctionResult &result,int controls)
 			{
 				result = FAILINPUT_BIT;
 				FreeBuffer("output1");
-				return NULL;
+                --outputlevel;
+                return NULL;
 			}
 			if (FAILCOMMAND != answer) 
 			{
@@ -1159,15 +1172,6 @@ char* Output(char* ptr,char* buffer,FunctionResult &result,int controls)
 			}
 		}
 
-#ifndef DISCARDTESTING
-		if (ProcessAction(priorPtr, ptr, buffer,result)) // force eval to redo
-		{
-			*buffer = 0;
-			ptr = priorPtr;
-			continue;
-		}
-#endif
-
 		//   update location and check for overflow
 		buffer += strlen(buffer);
 		if (quoted && !startQuoted) startQuoted = buffer;
@@ -1198,5 +1202,6 @@ char* Output(char* ptr,char* buffer,FunctionResult &result,int controls)
 		if (once) break;    
 	}
 	FreeBuffer("output2");
+    --outputlevel;
     return ptr;
 }

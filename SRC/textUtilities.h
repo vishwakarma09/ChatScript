@@ -2,7 +2,7 @@
 #define _TEXTUTILITIESH_
 
 #ifdef INFORMATION
-Copyright (C) 2011-2017 by Bruce Wilcox
+Copyright (C)2011-2018 by Bruce Wilcox
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
@@ -98,7 +98,7 @@ extern bool echoDocument;
 extern char* documentBuffer;
 extern char toHex[16];
 extern int docSampleRate, docSample;
-extern int docVolleyStartTime;
+extern uint64 docVolleyStartTime;
 #define IsPunctuation(c) (punctuation[(unsigned char)c])
 #define IsRealPunctuation(c) (realPunctuation[(unsigned char)c])
 #define GetLowercaseData(c) (toLowercaseData[(unsigned char)c])

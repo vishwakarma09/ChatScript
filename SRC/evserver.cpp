@@ -55,6 +55,7 @@ Handling client:
 #include <vector>
 #include <algorithm>
 extern char serverLogfileName[200];
+extern char dbTimeLogfileName[200];
 extern bool serverctrlz;
 #define CLIENT_CHUNK_LENGTH 4*1024
 #define HIDDEN_OVERLAP 103	// possible concealed data
@@ -187,7 +188,7 @@ struct Client_t
             }
 
             Log(SERVERLOG, "evserver: send_data() could not send, errno: %s", strerror(errno));
-			printf( "evserver: send_data() could not send, errno: %s", strerror(errno));
+			(*printer)( "evserver: send_data() could not send, errno: %s", strerror(errno));
 			return -1;
         }
 
@@ -211,7 +212,7 @@ struct Client_t
         if (this->ip.length() == 0) 
 		{
             Log(SERVERLOG, "evserver: prepare_for_chat() could not get ip for client: %d\r\n", this->fd);
-			printf("evserver: prepare_for_chat() could not get ip for client: %d\r\n", this->fd);
+			(*printer)("evserver: prepare_for_chat() could not get ip for client: %d\r\n", this->fd);
 			return -1;
         }
 
@@ -257,13 +258,13 @@ static int setnonblocking(int fd)
     int flags = fcntl(fd, F_GETFL, 0);
     if (flags == -1) {
         Log(SERVERLOG, "evserver: setnonblocking() fcntl(F_GETFL) failed, errno: %s\r\n", strerror(errno));
-		printf( "evserver: setnonblocking() fcntl(F_GETFL) failed, errno: %s\r\n", strerror(errno));
+		(*printer)( "evserver: setnonblocking() fcntl(F_GETFL) failed, errno: %s\r\n", strerror(errno));
 		return -1;
     }
     if (fcntl(fd, F_SETFL, flags | O_NONBLOCK) == -1) 
 	{
         Log(SERVERLOG, "evserver: setnonblocking() fcntl(F_SETFL) failed, errno: %s\r\n", strerror(errno));
-		printf( "evserver: setnonblocking() fcntl(F_SETFL) failed, errno: %s\r\n", strerror(errno));
+		(*printer)( "evserver: setnonblocking() fcntl(F_SETFL) failed, errno: %s\r\n", strerror(errno));
 		return -1;
     }
     return 1;
@@ -278,7 +279,7 @@ int fork_child(ev_child *child_watcher = 0)
     pid = fork();
     if (pid < 0) {
 		Log(SERVERLOG, "evserver: fork failed, errno %d\r\n", errno);
-		printf( "evserver: fork failed, errno %d\r\n", errno);
+		(*printer)( "evserver: fork failed, errno %d\r\n", errno);
 		return -1;
     }
  
@@ -308,15 +309,21 @@ int fork_child(ev_child *child_watcher = 0)
     return 1;
 }
 
+char* currentDateTime() {
+    struct tm ptm;
+    return GetTimeInfo(&ptm);
+}
+
 static void evsrv_child_died(EV_P_ ev_child *w, int revents) {
-	Log(SERVERLOG, "evserver: evsrv_child_died [pid: %d]\r\n", w->pid);
-	printf("evserver: evsrv_child_died [pid: %d]\r\n", w->pid);
+    char* timestamp = currentDateTime();
+    Log(SERVERLOG, "%s - evserver: evsrv_child_died [pid: %d]\r\n", timestamp,w->pid);
+	(*printer)("%s - evserver: evsrv_child_died [pid: %d]\r\n", timestamp, w->pid);
 
 	int r = fork_child(w);
 	if (r < 0)
 	{
-		Log(SERVERLOG, "  evserver: could not re-spawn child after it died [pid: %d]\r\n", w->pid);
-		printf("  evserver: could not re-spawn child after it died [pid: %d]\r\n", w->pid);
+		Log(SERVERLOG, "  %s - evserver: could not re-spawn child after it died [pid: %d]\r\n", timestamp, w->pid);
+		(*printer)("  %s - evserver: could not re-spawn child after it died [pid: %d]\r\n", timestamp,w->pid);
 	}
 
 	else if (r == 1)
@@ -324,8 +331,12 @@ static void evsrv_child_died(EV_P_ ev_child *w, int revents) {
 		// socket listener
 		ev_io_init(&ev_accept_r_g, evsrv_accept, srv_socket_g, EV_READ);
 		ev_io_start(l_g, &ev_accept_r_g);
-		Log(SERVERLOG, "  evserver child: re-spawned [pid: %d]\r\n", getpid());
-		printf("  evserver child: re-spawned [pid: %d]\r\n", getpid());
+		Log(SERVERLOG, "  %s - evserver child: re-spawned [pid: %d]\r\n", timestamp, getpid());
+		(*printer)("  %s - evserver child: re-spawned [pid: %d]\r\n", timestamp, getpid());
+		if (forkcount > 1){ 
+            sprintf(serverLogfileName, (char*)"%s/serverlog%d-%d.txt", logs, port_g, getpid());
+            sprintf(dbTimeLogfileName, (char*)"%s/dbtimelog%d-%d.txt", logs, port_g, getpid());
+        }
 	}
 }
 #endif
@@ -469,9 +480,11 @@ int evsrv_init(const string &interfaceKind, int port, char* arg) {
     ev_io_init(&ev_accept_r_g, evsrv_accept, srv_socket_g, EV_READ);
     ev_io_start(l_g, &ev_accept_r_g);
 	Log(SERVERLOG, "  evserver: running pid: %d\r\n",getpid());
-	printf( "  evserver: running pid: %d\r\n", getpid());
-	if (forkcount > 1) sprintf(serverLogfileName, (char*)"%s/serverlog%d-%d.txt", logs, port, getpid());
-
+    (*printer)("  evserver: running pid: %d\r\n", getpid());
+    if (forkcount > 1) {
+        sprintf(serverLogfileName, (char*)"%s/serverlog%d-%d.txt", logs, port, getpid());
+        sprintf(dbTimeLogfileName, (char*)"%s/dbtimelog%d-%d.txt", logs, port_g, getpid());
+    }
     return 1;
 }
 
@@ -481,12 +494,12 @@ int evsrv_run()
     if (!l_g) 
 	{
         ReportBug((char*)"evsrv_run() called with no ev loop initialized\r\n")
-        printf((char*)"no ev loop initialized, nothing to do\r\n");
+        (*printer)((char*)"no ev loop initialized, nothing to do\r\n");
         return -1;
     }
     if (parent_g) Log(SERVERLOG, "evserver: parent ready (pid = %d), fork=%d\r\n", getpid(), no_children_g);
 	else Log(SERVERLOG, "  evserver: child ready (pid = %d)\r\n", getpid());
-	if (!parent_g) printf((char*)"EVServer ready: pid: %d %s\r\n",getpid(),serverLogfileName);
+	if (!parent_g) (*printer)((char*)"EVServer ready: pid: %d %s\r\n",getpid(),serverLogfileName);
     while (true) ev_run(l_g, 0);
     return 1;
 }
@@ -592,11 +605,11 @@ static void client_write(EV_P_ ev_io *w, int revents)
     // if r = 0, it means there is still some data to be sent, which will be done next time this watcher is woken-up by ev_loop
 }
 
-void LogChat(clock_t starttime,char* user,char* bot,char* IP, int turn,char* input,char* output);
+void LogChat(uint64 starttime,char* user,char* bot,char* IP, int turn,char* input,char* output);
 
 int evsrv_do_chat(Client_t *client)
 {
- 	clock_t starttime = ElapsedMilliseconds(); 
+ 	uint64 starttime = ElapsedMilliseconds(); 
     client->prepare_for_chat();
 	size_t len = strlen(client->message);
 	if (len >= INPUT_BUFFER_SIZE - 100) client->message[INPUT_BUFFER_SIZE-1] = 0; // limit user input
@@ -614,7 +627,7 @@ int evsrv_do_chat(Client_t *client)
 #endif
 
 	if (!client->data) 	client->data = (char*) malloc(outputsize);
-	if (!client->data) printf("Malloc failed for child data\r\n");
+	if (!client->data) (*printer)("Malloc failed for child data\r\n");
 
 RESTART_RETRY:
 	strcpy(ourMainInputBuffer,client->message);

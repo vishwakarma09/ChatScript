@@ -451,21 +451,17 @@ static void TreeTagger()
 
 		int oldreuseid = currentReuseID;
 		int oldreusetopic = currentReuseTopic;
-		int oldCurrentTopic = currentTopicID;
-
 		int topicid = FindTopicIDByName(taggingTopic);
 		if (topic && !(GetTopicFlags(topicid) & TOPIC_BLOCKED))
 		{
-			ChangeDepth(1, (char*)"$cs_externaltag");
-			int pushed = PushTopic(topicid);
+            CALLFRAME* frame = ChangeDepth(1, (char*)"$cs_externaltag");
+            int pushed = PushTopic(topicid);
 			if (pushed >= 0)
 			{
 				PerformTopic(GAMBIT, currentOutputBase);
 				if (pushed) PopTopic();
 			}
 			ChangeDepth(-1, (char*)"$cs_externaltag");
-
-			currentTopicID = oldCurrentTopic; // this is where we were
 			currentReuseID = oldreuseid;
 			currentReuseTopic = oldreusetopic;
 			howTopic = oldhow;
@@ -673,7 +669,7 @@ void InitTreeTagger(char* params) // tags=xxxx - just triggers this thing
 	if (result) externalPostagger = TreeTagger;
 	else
 	{
-		printf("Unable to load %s\r\n", langfile);
+		(*printer)("Unable to load %s\r\n", langfile);
 		return;
 	}
 
@@ -1166,7 +1162,7 @@ static void PerformPosTag(int start, int end)
 	tokenControl = oldTokenControl;
 	if (noPosTagging || stricmp(language, "english")) return;
 
-	unsigned int startTime = 0;
+	uint64 startTime = 0;
 	ttLastChanged = 0;
 	if (prepareMode == POSTIME_MODE) startTime = ElapsedMilliseconds();
 
@@ -1246,8 +1242,21 @@ static void InitRoleSentence(int start, int end)
     lastPhrase = lastVerbal = lastClause = 0;
     firstAux = NULL;
     firstnoun = firstNounClause = 0;
+
     verbStack[0] = 0;
-    startStack[roleIndex] = (unsigned char)startSentence;
+    subjectStack[0] = 0;
+    objectStack[0] = 0;
+    auxVerbStack[0] = 0;
+    startStack[0] = 0;
+
+    verbStack[MAINLEVEL] = 0;
+    subjectStack[MAINLEVEL] = 0;
+    objectStack[MAINLEVEL] = 0;
+    auxVerbStack[MAINLEVEL] = 0;
+    needRoles[MAINLEVEL] = 0;
+    startStack[MAINLEVEL] = 0;
+
+    startStack[0] = (unsigned char)startSentence;
     objectRef[0] = objectRef[MAX_SENTENCE_LENGTH - 1] = 0;
     if (*wordStarts[start] == '"' && parseFlags[start + 1] & QUOTEABLE_VERB) // absorb quote reference into sentence
     {
@@ -2031,6 +2040,11 @@ static int TestTag(int &i, int control, uint64 bits,int direction,bool tracex)
 			break;
 		case POSSIBLEINFINITIVE: // ways we could be infinitive - tested for negative to erase... and if it needs object does one exist
 			{
+                if (!stricmp(wordStarts[i], "get") && i == 1)
+                {
+                    answer = true;
+                    break; // command get
+                }
 				int at;
 				if (!(canSysFlags[i] & VERB_NOOBJECT)) // see if it lacks a needed object -- bug for "*carry it off" since idiom
 				{
@@ -4082,25 +4096,73 @@ static bool ImpliedNounObjectPeople(int i, uint64 role,bool & changed) // for ob
 	return changed;
 }
 
-static bool FinishSentenceAdjust(bool resolved,bool & changed,int start,int end)
+static void MigrateObjects(int start, int end)
 {
-	if (verbStack[MAINLEVEL] > end) 
+	// migrate direct objects into clauses and verbals....  (should have been done already) and mark BY-objects
+	for (int i = start; i <= end; ++i)
 	{
-		ReportBug((char*)"mainverb out of range in sentence %d>%d", verbStack[MAINLEVEL],end);
+		if (ignoreWord[i]) continue;
+		if (!objectRef[i]) continue; // nothing interesting
+		int object;
+		int at;
+		if (verbals[i])
+		{
+			int phrase = phrases[i];	// verbal might be object of a phrase
+			at = i;
+
+			// see if it has an object also...spread to cover that...
+			while (at && (object = objectRef[at]) && object > at)
+			{
+				ExtendChunk(at, object, verbals);
+				if (phrase) ExtendChunk(at, object, phrases);
+				at = objectRef[at]; // extend to cover HIS object if he is gerund or infintiive
+			}
+		}
+		if (clauses[i])
+		{
+			at = i;
+			// see if it has an object also...spread to cover that...
+			while (at && (object = objectRef[at]) && object > at)
+			{
+				ExtendChunk(at, object, clauses);
+				at = objectRef[object]; // extend to cover HIS object
+			}
+		}
+		if (phrases[i])
+		{
+			at = i;
+			object = objectRef[at];
+			if (!stricmp(wordStarts[i], (char*)"by") && object && roles[object] & OBJECT2) roles[object] |= BYOBJECT2;
+			if (!stricmp(wordStarts[i], (char*)"of") && object && roles[object] & OBJECT2) roles[object] |= OFOBJECT2;
+			// see if it has an object also...spread to cover that... "after eating *rocks"
+			while (at && (object = objectRef[at]) && object > at)
+			{
+				ExtendChunk(at, object, phrases);
+				at = objectRef[at]; // extend to cover HIS object
+			}
+		}
+	}
+}
+
+static bool FinishSentenceAdjust(bool resolved, bool & changed, int start, int end)
+{
+	if (verbStack[MAINLEVEL] > end)
+	{
+		ReportBug((char*)"mainverb out of range in sentence %d>%d", verbStack[MAINLEVEL], end);
 		return true;
 	}
-	if (subjectStack[MAINLEVEL] > end) 
+	if (subjectStack[MAINLEVEL] > end)
 	{
 		ReportBug((char*)"mainSubject out of range", subjectStack[MAINLEVEL], end);
 		return true;
 	}
-	if (ImpliedNounObjectPeople(end, needRoles[roleIndex] & (MAINOBJECT|OBJECT2),changed)) return false;
+	if (ImpliedNounObjectPeople(end, needRoles[roleIndex] & (MAINOBJECT | OBJECT2), changed)) return false;
 
 	////////////////////////////////////////////////////////////////////////////////
 	///// This part can revise pos tagging and return false (reanalyze sentence)
 	////////////////////////////////////////////////////////////////////////////////
 
-	
+
 	///////////////////////////////////////////////////////////////////////////
 	// CLOSE OUT NEEDS
 	///////////////////////////////////////////////////////////////////////////
@@ -4119,12 +4181,12 @@ static bool FinishSentenceAdjust(bool resolved,bool & changed,int start,int end)
 			while (++noun <= endSentence)
 			{
 				if (ignoreWord[noun]) continue;
-				if (!(posValues[noun] & (DETERMINER|ADJECTIVE_BITS|ADVERB|POSSESSIVE))) break;
+				if (!(posValues[noun] & (DETERMINER | ADJECTIVE_BITS | ADVERB | POSSESSIVE))) break;
 			}
 			if (posValues[noun] & NOUN_BITS)
 			{
 				int det;
-				if (!IsDeterminedNoun(noun,det)) // we CANT change this
+				if (!IsDeterminedNoun(noun, det)) // we CANT change this
 				{
 					resolved = false;
 					return true; // we cant do more
@@ -4134,8 +4196,8 @@ static bool FinishSentenceAdjust(bool resolved,bool & changed,int start,int end)
 
 			if (!missingObject)
 			{
-				LimitValues(at,VERB_INFINITIVE,(char*)"missing main verb, retrofix to command or verb question at start",changed);
-				SetRole(at,MAINVERB);
+				LimitValues(at, VERB_INFINITIVE, (char*)"missing main verb, retrofix to command or verb question at start", changed);
+				SetRole(at, MAINVERB);
 				int v = verbals[at];
 				int i = 0;
 				while (verbals[++i] == v) verbals[i] ^= v; // rip out the verbal
@@ -4148,30 +4210,30 @@ static bool FinishSentenceAdjust(bool resolved,bool & changed,int start,int end)
 		if (subj)
 		{
 			int start = subj;
-			while (posValues[start-1] & ADJECTIVE_NOUN) --start; // back to start of nouns...
-			if (allOriginalWordBits[start] & VERB_BITS && posValues[start-1] & ADJECTIVE_NORMAL && posValues[start-2] & DETERMINER)
+			while (posValues[start - 1] & ADJECTIVE_NOUN) --start; // back to start of nouns...
+			if (allOriginalWordBits[start] & VERB_BITS && posValues[start - 1] & ADJECTIVE_NORMAL && posValues[start - 2] & DETERMINER)
 			{
-				SetRole(subj,0,true);
-				LimitValues(start,VERB_BITS - VERB_INFINITIVE,(char*)"missing verb recovered from bad noun1",changed);
-				if (posValues[start-1] & ADJECTIVE_NOUN) {
-				posValues[start-1] ^= ADJECTIVE_NOUN;
-				posValues[start-1] |= allOriginalWordBits[start-1] & (NOUN_SINGULAR|NOUN_PLURAL|NOUN_PROPER_SINGULAR|NOUN_PROPER_PLURAL);
-			}
-			while (++start <= subj)
+				SetRole(subj, 0, true);
+				LimitValues(start, VERB_BITS - VERB_INFINITIVE, (char*)"missing verb recovered from bad noun1", changed);
+				if (posValues[start - 1] & ADJECTIVE_NOUN) {
+					posValues[start - 1] ^= ADJECTIVE_NOUN;
+					posValues[start - 1] |= allOriginalWordBits[start - 1] & (NOUN_SINGULAR | NOUN_PLURAL | NOUN_PROPER_SINGULAR | NOUN_PROPER_PLURAL);
+				}
+				while (++start <= subj)
 				{
 					if (ignoreWord[start]) continue;
-					LimitValues(start,0,(char*)"retrying all bits after verb flipover",changed);
+					LimitValues(start, 0, (char*)"retrying all bits after verb flipover", changed);
 				}
 				resolved = false;
 				return false;
 			}
-			else if (allOriginalWordBits[subj] & VERB_BITS && allOriginalWordBits[subj-1] & NOUN_BITS) // the six year old *swims
+			else if (allOriginalWordBits[subj] & VERB_BITS && allOriginalWordBits[subj - 1] & NOUN_BITS) // the six year old *swims
 			{
-				SetRole(subj,0,true);
-				LimitValues(subj,VERB_BITS - VERB_INFINITIVE,(char*)"missing verb recovered from bad noun2",changed);
-				if (posValues[subj-1] & ADJECTIVE_NOUN) {
-					posValues[subj-1] ^= ADJECTIVE_NOUN;
-					posValues[subj-1] |= allOriginalWordBits[subj-1] & (NOUN_SINGULAR|NOUN_PLURAL|NOUN_PROPER_SINGULAR|NOUN_PROPER_PLURAL);
+				SetRole(subj, 0, true);
+				LimitValues(subj, VERB_BITS - VERB_INFINITIVE, (char*)"missing verb recovered from bad noun2", changed);
+				if (posValues[subj - 1] & ADJECTIVE_NOUN) {
+					posValues[subj - 1] ^= ADJECTIVE_NOUN;
+					posValues[subj - 1] |= allOriginalWordBits[subj - 1] & (NOUN_SINGULAR | NOUN_PLURAL | NOUN_PROPER_SINGULAR | NOUN_PROPER_PLURAL);
 				}
 				resolved = false;
 				return false;
@@ -4179,25 +4241,25 @@ static bool FinishSentenceAdjust(bool resolved,bool & changed,int start,int end)
 		}
 	}
 	if (needRoles[roleIndex] & PHRASE && posValues[endSentence] & PREPOSITION && roles[startSentence] & OBJECT2) --roleIndex;
-	
+
 
 	// need a subject, can thing before verb be it "the *old swims"
 	int verb = verbStack[roleIndex];
 	if (verb && !subj)
 	{
-		if (ImpliedNounObjectPeople(verb-1, (roleIndex == MAINLEVEL) ?  MAINSUBJECT : SUBJECT2,changed)) return false;
+		if (ImpliedNounObjectPeople(verb - 1, (roleIndex == MAINLEVEL) ? MAINSUBJECT : SUBJECT2, changed)) return false;
 	}
-	
-	while (needRoles[roleIndex] & (OBJECT2|MAINOBJECT|OBJECT_COMPLEMENT) || needRoles[roleIndex] == PHRASE || needRoles[roleIndex] == CLAUSE || needRoles[roleIndex] == VERBAL) // close of sentence proves we get no final object... 
+
+	while (needRoles[roleIndex] & (OBJECT2 | MAINOBJECT | OBJECT_COMPLEMENT) || needRoles[roleIndex] == PHRASE || needRoles[roleIndex] == CLAUSE || needRoles[roleIndex] == VERBAL) // close of sentence proves we get no final object... 
 	{
-		if (needRoles[roleIndex] & (VERB2 | MAINVERB | MAINSUBJECT | SUBJECT2 ) || needRoles[roleIndex] == (PHRASE|OBJECT2)) // we HAVE NOTHING finished here
+		if (needRoles[roleIndex] & (VERB2 | MAINVERB | MAINSUBJECT | SUBJECT2) || needRoles[roleIndex] == (PHRASE | OBJECT2)) // we HAVE NOTHING finished here
 		{
 			resolved = false;
 			break;
 		}
-		if (needRoles[roleIndex] & CLAUSE && lastClause) ExtendChunk(lastClause,end,clauses);
-		if (needRoles[roleIndex] & VERBAL && lastVerbal) ExtendChunk(lastVerbal,end,verbals);
-		if (needRoles[roleIndex] & PHRASE && lastPhrase) ExtendChunk(lastPhrase,end,phrases);
+		if (needRoles[roleIndex] & CLAUSE && lastClause) ExtendChunk(lastClause, end, clauses);
+		if (needRoles[roleIndex] & VERBAL && lastVerbal) ExtendChunk(lastVerbal, end, verbals);
+		if (needRoles[roleIndex] & PHRASE && lastPhrase) ExtendChunk(lastPhrase, end, phrases);
 
 		DropLevel(); // close out level that is complete
 		if (roleIndex == 0) // put back main sentence level
@@ -4208,16 +4270,16 @@ static bool FinishSentenceAdjust(bool resolved,bool & changed,int start,int end)
 	}
 
 	// inverted subject complement "how truly *fine he looks"
-	if (!stricmp(wordStarts[startSentence],(char*)"how") && posValues[startSentence+1] & ADJECTIVE_BITS && !roles[startSentence+1])
+	if (!stricmp(wordStarts[startSentence], (char*)"how") && posValues[startSentence + 1] & ADJECTIVE_BITS && !roles[startSentence + 1])
 	{
-		LimitValues(startSentence+1,ADJECTIVE_BITS,(char*)"inverted subject complement is adjective",changed);
-		SetRole(startSentence+1, SUBJECT_COMPLEMENT);
+		LimitValues(startSentence + 1, ADJECTIVE_BITS, (char*)"inverted subject complement is adjective", changed);
+		SetRole(startSentence + 1, SUBJECT_COMPLEMENT);
 	}
-	if (!stricmp(wordStarts[startSentence],(char*)"how") && posValues[startSentence+1] & ADVERB && posValues[startSentence+2] & ADVERB && !roles[startSentence+2])
+	if (!stricmp(wordStarts[startSentence], (char*)"how") && posValues[startSentence + 1] & ADVERB && posValues[startSentence + 2] & ADVERB && !roles[startSentence + 2])
 	{
-		LimitValues(startSentence+2,ADJECTIVE_BITS,(char*)"inverted subject complement is adjective",changed);
-		SetRole(startSentence+2, SUBJECT_COMPLEMENT);
-	}	
+		LimitValues(startSentence + 2, ADJECTIVE_BITS, (char*)"inverted subject complement is adjective", changed);
+		SetRole(startSentence + 2, SUBJECT_COMPLEMENT);
+	}
 
 	///////////////////////////////////////////////////////////////
 	//  DOWNGRADE ITEMS
@@ -4791,52 +4853,8 @@ static bool FinishSentenceAdjust(bool resolved,bool & changed,int start,int end)
 			}
 		}
 	}
+	MigrateObjects(start, end);
 	
-	// migrate direct objects into clauses and verbals....  (should have been done already) and mark BY-objects
-	for (int i = start; i <= end; ++i)
-	{
-		if (ignoreWord[i]) continue;
-		if (!objectRef[i]) continue; // nothing interesting
-		int object;
-		int at;
-		if (verbals[i])
-		{
-			int phrase = phrases[i];	// verbal might be object of a phrase
-			at = i;
-
-			// see if it has an object also...spread to cover that...
-			while (at && (object = objectRef[at]) && object > at)
-			{
-				ExtendChunk(at,object,verbals);
-				if (phrase) ExtendChunk(at,object,phrases);
-				at = objectRef[at]; // extend to cover HIS object if he is gerund or infintiive
-			}
-		}
-		if (clauses[i])
-		{
-			at = i;
-			// see if it has an object also...spread to cover that...
-			while (at && (object = objectRef[at])  && object > at)
-			{
-				ExtendChunk(at,object,clauses);
-				at = objectRef[object]; // extend to cover HIS object
-			}
-		}
-		if (phrases[i])
-		{
-			at = i;
-			object = objectRef[at];
-			if (!stricmp(wordStarts[i],(char*)"by") && object && roles[object] & OBJECT2) roles[object] |= BYOBJECT2;
-			if (!stricmp(wordStarts[i],(char*)"of") && object && roles[object] & OBJECT2) roles[object] |= OFOBJECT2;
-			// see if it has an object also...spread to cover that... "after eating *rocks"
-			while (at && (object = objectRef[at]) && object > at)
-			{
-				ExtendChunk(at,object,phrases);
-				at = objectRef[at]; // extend to cover HIS object
-			}
-		}
-	}
-
 	// if we have OBJECT2 not in a clause or phrase.... maybe we misfiled it. "Hugging the ground, Nathan peered."
 	if (resolved) for ( int i = start; i <= end; ++i)
 	{
@@ -10063,7 +10081,7 @@ restart:
 		return false;
 	}
 	ValidateSentence(resolved);
-	if (!resolved && !changed && noReact) printf((char*)"input: %s\r\n",currentInput); //for debugging shows what sentences failed to be resolved by parser acceptibly
+	if (!resolved && !changed && noReact) (*printer)((char*)"input: %s\r\n",currentInput); //for debugging shows what sentences failed to be resolved by parser acceptibly
 	startSentence = oldStart; // in case we ran a coordinating conjunction
 	return resolved;
 }

@@ -18,6 +18,7 @@
  <gnstdltbbb ~emogoodbye
  <l8r ~emogoodbye
  <l8r_l8r ~emogoodbye
+ bbl be+back+later
  ic I+see
  idc I+do+not+care
  h4wt sexy
@@ -33,6 +34,7 @@
  doodz dudes
  d0xxes document
  d0x document
+ thx thanks
  <omg ~emosurprise
  <rofl ~emolaugh
  <roflmao ~emolaugh

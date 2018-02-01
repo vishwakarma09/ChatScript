@@ -46,7 +46,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </head>
 <body>
 <h1 id="chatscript-json-manual">ChatScript JSON Manual</h1>
-<p>© Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 9/24/2017 cs7.55</p>
+<p>© Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com <br>Revision 1/31/2018 cs8.0</p>
 <h1 id="real-world-json">Real World JSON</h1>
 <p>JSON (JavaScript Object Notation) is an open standard format using human-readable text to transmit data objects over the web. It is a common standard largely replacing XML which is too wordy and hard to read. JSON has two datatypes that represents collections of values, the array and the object. A JSON array is a list of JSON entities separated by commas and placed within <code>[]</code>, e.g.,</p>
 <pre><code>[ A 2 [ help life] [] ]</code></pre>
@@ -185,6 +185,9 @@ $x = $$array[$_tmp]
 $$obj.name[4] += 3</code></pre>
 <pre><code>$x.foo[] = Bruce</code></pre>
 <p>If foo is currently undefined, the system will create a JSON array for you, with permanency that matches the JSON object of $x. You cannot do $x[] and have this happen because at the top level the system does not know what permanency to use. Once there is a JSON array in $x.foo, assignments with <code>foo[]</code> will add elements to the array. You cannot designate the index, it will be the next index in succession.</p>
+<p>You can also do</p>
+<pre><code>    $_array1 +=  $_array2 -- copies contents of array2 into array1
+    $_array1 += value -- adds value into array1</code></pre>
 <p>The only restriction on arrays is that you cannot add a new array index value without using ^jsonarrayinsert as you are not allowed to create discontiguous indices.</p>
 <p><strong>NOTE</strong> JSON is normally a non-recursive structure with no shared pointers. But ChatScript allows you to store references to JSON structures in multiple places of other JSON structures. This has its hazards. It presents no problem when transcribing to text for a website using <code>^jsonwrite</code> . And when you have something like this:</p>
 <pre><code>$x = ^jsoncreate(object)

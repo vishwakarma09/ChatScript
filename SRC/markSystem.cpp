@@ -343,7 +343,6 @@ static void RiseUp(int depth, int exactWord,MEANING M,unsigned int start, unsign
 	M &= -1 ^ SYNSET_MARKER;
 	unsigned int index = Meaning2Index(M);
 	WORDP D = Meaning2Word(M);
-	WORDP X;
 	char word[MAX_WORD_SIZE];
 	sprintf(word,(char*)"%s~%d",D->word,index); // some meaning is directly referenced?
 	MarkWordHit(depth, exactWord, StoreWord(word),0,start,end); // direct reference in a pattern
@@ -430,7 +429,6 @@ void MarkMeaningAndImplications(int depth, int exactWord,MEANING M,int start, in
 	else if (sequence && result == 1) markit = true; // we found something to relate to, so mark us 
 
 	// check for POS restricted forms of this word
-	WORDP X;
 	char word[MAX_WORD_SIZE];
 	if (*D->word != '~' && !once) // words, not concepts
 	{

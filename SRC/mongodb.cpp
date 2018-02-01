@@ -209,8 +209,20 @@ FunctionResult mongoGetDocument(char* key,char* buffer,int limit,bool user)
         }
         
         BSON_APPEND_UTF8 ( psQuery, "KeyName", key );
+    	uint64 starttime = ElapsedMilliseconds();
         
         psCursor = mongoc_collection_find(collection, MONGOC_QUERY_NONE, 0, 0, 0, psQuery, NULL, NULL);
+        uint64 endtime = ElapsedMilliseconds();
+	    unsigned int diff = (unsigned int)(endtime - starttime);
+	    unsigned int limit = 100;
+		char* val = GetUserVariable("$db_timelimit");
+		if (*val) limit = unsigned(atoi(val));
+	    if (diff <= limit){
+	    	char dbmsg[512];
+	    	struct tm ptm;
+	    	sprintf(dbmsg,"%s Mongo Find took longer than expected for %s, time taken = %ums\r\n", GetTimeInfo(&ptm),key, diff);
+	    	Log(DBTIMELOG, dbmsg);
+	    }
         if( psCursor == NULL )
         {
             eRetVal = eReturnValue_DATABASE_QUERY_FAILED;
@@ -309,11 +321,23 @@ FunctionResult mongoDeleteDocument(char* buffer)
         BSON_APPEND_UTF8 ( pDoc, "KeyName", keyname );
         
         bson_error_t sError;
+    	uint64 starttime = ElapsedMilliseconds();
         
         if (!mongoc_collection_remove(	collection, MONGOC_REMOVE_SINGLE_REMOVE, pDoc, NULL, &sError))
         {
             eRetVal = eReturnValue_DATABASE_DOCUMENT_DELETION_FAILED;
         }
+        uint64 endtime = ElapsedMilliseconds();
+	    unsigned int diff = (unsigned int)endtime - (unsigned int)starttime;
+	    unsigned int limit = 100;
+		char* val = GetUserVariable("$db_timelimit");
+		if (*val) limit = unsigned(atoi(val));
+	    if (diff <= limit){
+	    	char dbmsg[512];
+	    	struct tm ptm;
+	    	sprintf(dbmsg,"%s Mongo Delete took longer than expected for %s, time taken = %ums\r\n", GetTimeInfo(&ptm),keyname, diff);
+	    	Log(DBTIMELOG, dbmsg);
+	    }
     }while(false);
     
     if( pDoc != NULL ) bson_destroy( pDoc );
@@ -353,11 +377,22 @@ static FunctionResult MongoUpsertDoc(mongoc_collection_t* collection,char* keyna
     bson_oid_init (&oid, NULL);
     query = BCON_NEW ("KeyName", BCON_UTF8 (keyname));
     update = BCON_NEW ("$set", "{", "KeyName", BCON_UTF8 (keyname), "KeyValue", BCON_UTF8 (value),"}");
-
+    uint64 starttime = ElapsedMilliseconds();
     if (mongoc_collection_update (collection, MONGOC_UPDATE_UPSERT, query, update, NULL, &error)) result = NOPROBLEM_BIT;
     if (doc) bson_destroy (doc);
     if (query) bson_destroy (query);
     if (update) bson_destroy (update);
+    uint64 endtime = ElapsedMilliseconds();
+    unsigned int diff = (unsigned int)(endtime - starttime);
+    unsigned int limit = 100;
+	char* val = GetUserVariable("$db_timelimit");
+	if (*val) limit = unsigned(atoi(val));
+    if (diff <= limit){
+    	char dbmsg[512];
+    	struct tm ptm;
+    	sprintf(dbmsg,"%s Mongo Upsert took longer than expected for %s, time taken = %ums\r\n", GetTimeInfo(&ptm),keyname, diff);
+    	Log(DBTIMELOG, dbmsg);
+    }
     return result;
 }
 
@@ -448,7 +483,7 @@ void MonogoUserFilesInit() // start mongo as fileserver
 	{
 		ReportBug("Unable to open mongo fileserver");
 		Log(SERVERLOG,"Unable to open mongo fileserver");
-		printf("Unable to open mongo fileserver");
+		(*printer)("Unable to open mongo fileserver");
 	}
 }
 

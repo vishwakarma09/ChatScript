@@ -1,11 +1,15 @@
 # ChatScript Debugging Manual
 © Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com<br>
-<br>Revision 11/29/2017 cs7.71
+<br>Revision 1/31/2018 cs8.0
 
 You've written script. It doesn't work. Now what? Now you need to debug it, fix it, and
 recompile it. Debugging is mostly a matter of tracing what the system does testpaand
-finding out where it doesn't do what you expected. Debugging mostly done by issuing
-commands to the engine, as opposed to chatting.
+finding out where it doesn't do what you expected. 
+
+If you dont have Windows, then debugging mostly done by issuing
+debug commands to the engine, as opposed to chatting. If you have
+windows, you can run your program under ChatScriptIDE to debug 
+it interactively. See the ChatScript-Debugger manual.
 
 If the system detects bugs during execution, they go into `TMP/bugs.txt` 
 You can erase the entire contents of the TMP directory any time you want to. But odds are this is not your problem. 
@@ -109,12 +113,13 @@ the above : statement show the list:
 :wikitext - read wiki xml and write plaintext
 :tsv	- convert a tab-delimited spreadsheet into CS table format, with double quotes around any string needing it
 
----- Analytics -
+---- Analytics (see analytics manual) -
 :abstract     - Display overview of ChatScript topics
 :coverage     - Save execution coverage of ChatScript rules
 :showcoverage - Display execution coverage of ChatScript rules
 :diff         - match 2 files and report lines that differ
 :trim         - Strip excess off chatlog file to make simple file TMP/tmp.txt
+:timelog      - read a log file (like system log) and compute average, min and max times of responses
 
 ---- internal support -
 :spellit		  - given sentence provide explanation for spelling corrections

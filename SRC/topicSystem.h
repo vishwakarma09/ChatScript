@@ -2,7 +2,7 @@
 #define _TOPICSYSTEMH
 
 #ifdef INFORMATION
-Copyright (C) 2011-2017 by Bruce Wilcox
+Copyright (C)2011-2018 by Bruce Wilcox
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
@@ -68,7 +68,6 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
 extern int currentBeforeLayer;
 extern bool stats;
 extern unsigned int ruleCount;
-
 extern char timeStamp[NUMBER_OF_LAYERS][20];
 extern char compileVersion[NUMBER_OF_LAYERS][20];
 extern char buildStamp[NUMBER_OF_LAYERS][150];
@@ -141,6 +140,7 @@ FunctionResult PerformTopic(int active,char* buffer,char* rule = NULL,unsigned i
 bool Repeatable(char* rule);
 char* GetTopicLocals(int topic);
 void CleanOutput(char* word);
+bool DifferentTopicContext(int depthadjust, int topicid);
 FunctionResult LoadLayer(int layer, const char* name,unsigned int build);
 void ResetTopicReply();
 void SetRejoinder(char* rule);
@@ -158,7 +158,6 @@ char* GetRuleIDFromText(char* ptr, int & id);
 char* GetVerify(char* tag,int & topicid, int &id);//  ~topic.#.#=LABEL<~topic.#.#  is a maximally complete why
 void UnwindUserLayerProtect();
 void InitKeywords(const char* name,const char* layer,unsigned int build,bool mark=false,bool concept=true);
-extern unsigned int currentTopicDisplay;
 bool AreDebugMarksSet();
 bool AreTimingMarksSet();
 

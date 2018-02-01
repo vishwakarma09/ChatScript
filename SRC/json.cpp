@@ -38,7 +38,6 @@ static char* curlBufferBase = NULL;
 static int objectcnt = 0;
 static FunctionResult JSONpath(char* buffer, char* path, char* jsonstructure,bool raw,bool nofail);
 static MEANING jcopy(WORDP D);
-static char* jwrite(char* buffer, WORDP D, int subject);
 
 typedef enum {
 	URL_SCHEME = 0,
@@ -374,21 +373,21 @@ static void dump(const char *text, FILE *stream, unsigned char *ptr, size_t size
   size_t i;
   size_t c;
   unsigned int width=0x10;
-  printf((char*)"%s, %10.10ld bytes (0x%8.8lx)\n", text, (long)size, (long)size);
+  (*printer)((char*)"%s, %10.10ld bytes (0x%8.8lx)\n", text, (long)size, (long)size);
   for(i=0; i<size; i+= width) 
   {
-    printf((char*)"%4.4lx: ", (long)i);
+    (*printer)((char*)"%4.4lx: ", (long)i);
  
     /* show hex to the left */
     for(c = 0; c < width; c++) 
 	{
-      if (i+c < size)  printf((char*)"%02x ", ptr[i+c]);
-      else printf((char*)"%s",(char*)"   ");
+      if (i+c < size)  (*printer)((char*)"%02x ", ptr[i+c]);
+      else (*printer)((char*)"%s",(char*)"   ");
     }
  
     /* show data on the right */
-    for(c = 0; (c < width) && (i+c < size); c++) printf( "%c",(ptr[i+c]>=0x20) && (ptr[i+c]<0x80)?ptr[i+c]:'.');
-    printf((char*)"%s",(char*)"\n");
+    for(c = 0; (c < width) && (i+c < size); c++) (*printer)( "%c",(ptr[i+c]>=0x20) && (ptr[i+c]<0x80)?ptr[i+c]:'.');
+    (*printer)((char*)"%s",(char*)"\n");
   }
 }
  
@@ -481,7 +480,7 @@ static int my_trace(CURL *handle, curl_infotype type, char *data, size_t size, v
 
 	switch (type) {
 	case CURLINFO_TEXT:
-		printf("== Info: %s", data);
+		(*printer)("== Info: %s", data);
 	default: /* in case a new one is introduced to shock us */
 		return 0;
 	case CURLINFO_HEADER_OUT:
@@ -746,7 +745,7 @@ FunctionResult JSONOpenCode(char* buffer)
 
 	} // if (strlen(extraRequestHeadersRaw) > 0)
 
-	clock_t start_time = ElapsedMilliseconds();
+	uint64 start_time = ElapsedMilliseconds();
 
 	CURLcode res;
 	struct CurlBufferStruct output;
@@ -956,7 +955,7 @@ FunctionResult JSONOpenCode(char* buffer)
 		}
 	}
 	if (timing & TIME_JSON) {
-		int diff = ElapsedMilliseconds() - start_time;
+		int diff = (int)(ElapsedMilliseconds() - start_time);
 		if (timing & TIME_ALWAYS || diff > 0) Log(STDTIMETABLOG, (char*)"Json open time: %d ms for %s %s\r\n", diff,raw_kind, fixedUrl);
 	}
 
@@ -1023,7 +1022,7 @@ FunctionResult ParseJson(char* buffer, char* message, size_t size, bool nofail)
 	}
 	if (size < 1) return NOPROBLEM_BIT; // nothing to parse
 
-	clock_t start_time = ElapsedMilliseconds();
+	uint64 start_time = ElapsedMilliseconds();
 
 	jsmn_parser parser;
 	// First run it once to count the tokens
@@ -1039,7 +1038,7 @@ FunctionResult ParseJson(char* buffer, char* message, size_t size, bool nofail)
 		jsmn_parse(&parser, message, size, tokens, jtokenCount);
 		MEANING id = factsPreBuildFromJson(message, tokens,jtokenCount,size,nofail);
 		if (timing & TIME_JSON) {
-			int diff = ElapsedMilliseconds() - start_time;
+			int diff = (int)(ElapsedMilliseconds() - start_time);
 			if (timing & TIME_ALWAYS || diff > 0) Log(STDTIMETABLOG, (char*)"Json parse time: %d ms\r\n", diff);
 		}
 		ReleaseStack((char*)tokens); // short term
@@ -1067,17 +1066,20 @@ static char* jtab(int depth, char* buffer)
 static int orderJsonArrayMembers(WORDP D, FACT** store) 
 {
 	int max = -1;
-	int size = -1;
 	FACT* G = GetSubjectNondeadHead(D);	
 	bool show = false;
 
 	// nominally how many elements are there we need to initialize.
 	while (G)
 	{
-		if (G->flags & JSON_ARRAY_FACT) ++size;
+		if (G->flags & JSON_ARRAY_FACT)
+		{
+			int index = atoi(Meaning2Word(G->verb)->word);
+			if (index > max) max = index;
+		}
 		G = GetSubjectNondeadNext(G);
 	}
-	memset(store, 0, sizeof(FACT*) * (size + 20)); // assume no more than 20 have been deleted w/o a fix
+	memset(store, 0, sizeof(FACT*) * (max + 1)); 
 
 	G = GetSubjectNondeadHead(D);
 	while (G) // get facts in order - but if user manually deleted externally, we will have a hole.
@@ -1087,7 +1089,6 @@ static int orderJsonArrayMembers(WORDP D, FACT** store)
 		{
 			int index = atoi(Meaning2Word(G->verb)->word);
 			store[index] = G;
-			if (index > max) max = index;
 		}
 		G = GetSubjectNondeadNext(G);
 	}
@@ -1418,7 +1419,7 @@ void jkillfact(WORDP D)
 	}
 }
 
-static char* jwrite(char* buffer, WORDP D, int subject )
+char* jwrite(char* buffer, WORDP D, int subject )
 {
 	char* xxoriginal = buffer;
 	unsigned int size = (buffer - currentOutputBase + 200); // 200 slop to protect us
@@ -1522,12 +1523,12 @@ FunctionResult JSONWriteCode(char* buffer) // FACT to text
 		}
 		else return FAILRULE_BIT;
 	}
-	clock_t start_time = ElapsedMilliseconds();
+	uint64 start_time = ElapsedMilliseconds();
 	NextInferMark();
 	jwrite(buffer,D,true);
 
 	if (timing & TIME_JSON) {
-		int diff = ElapsedMilliseconds() - start_time;
+		int diff = (int)(ElapsedMilliseconds() - start_time);
 		if (timing & TIME_ALWAYS || diff > 0) Log(STDTIMETABLOG, (char*)"Json write time: %d ms\r\n", diff);
 	}
 	return NOPROBLEM_BIT;
@@ -1944,6 +1945,8 @@ FunctionResult JSONObjectInsertCode(char* buffer) //  objectname objectkey objec
 
 FunctionResult JSONVariableAssign(char* word,char* value)
 {
+    char basicname[MAX_WORD_SIZE];
+    strcpy(basicname, word);
 	char fullpath[MAX_WORD_SIZE];
 	// get the object referred to
 	char* separator = strchr(word+1,'.'); // find first level - we MUST find a dot somewhere because we dont allow direct array ops
@@ -1978,7 +1981,7 @@ FunctionResult JSONVariableAssign(char* word,char* value)
 	// leftside is the left side of a . or [] operator
 	
 #ifndef DISCARDTESTING
-	CheckAssignment(word,value);  // all changes to the base json
+    if (debugVar) (*debugVar)(basicname, value);
 #endif
 
 LOOP: // now we look at $x.key or $x[0]
@@ -2264,29 +2267,19 @@ DOALL:
 	return NOPROBLEM_BIT;
 }
 
-FunctionResult JSONArrayInsertCode(char* buffer) //  objectfact objectvalue  BEFORE/AFTER 
+FunctionResult DoJSONArrayInsert(bool nodup,WORDP array,MEANING value, int flags, char* buffer) //  objectfact objectvalue  BEFORE/AFTER 
 {	
-	int index = JSONArgs();
-	unsigned int flags = JSON_ARRAY_FACT | jsonPermanent |  jsonCreateFlags;
-
-	char* arrayname = ARGUMENT(index++);
-	if (strnicmp(arrayname,(char*)"ja-",3)) return FAILRULE_BIT;
-	WORDP O = FindWord(arrayname);
-	if (!O) return FAILRULE_BIT;
-
 	// get the field values
 	char arrayIndex[20];
-	char* val = ARGUMENT(index);
-	MEANING value = jsonValue(val,flags);
 
 	// how many existing elements
-	FACT* F = GetSubjectNondeadHead(O);
+	FACT* F = GetSubjectNondeadHead(array);
 	int count = 0;
 	FACT* lastF = F;
 	while (F) 
 	{
 		lastF = F;
-		if (jsonNoduplicate && F->object == value)  return NOPROBLEM_BIT;	// already there UNIQUE flag given else defaults DUPLICATE
+		if (nodup && F->object == value)  return NOPROBLEM_BIT;	// already there UNIQUE flag given else defaults DUPLICATE
 		++count;
 		F = GetSubjectNondeadNext(F);
 	}
@@ -2298,10 +2291,23 @@ FunctionResult JSONArrayInsertCode(char* buffer) //  objectfact objectvalue  BEF
 	WORDP Idex = StoreWord(arrayIndex,AS_IS);
 
 	// create fact
-	CreateFact(MakeMeaning(O), MakeMeaning(Idex),value, flags);
+	CreateFact(MakeMeaning(array), MakeMeaning(Idex),value, flags);
 
 	currentFact = NULL;	 // used up by putting into json
 	return NOPROBLEM_BIT;
+}
+
+FunctionResult JSONArrayInsertCode(char* buffer) //  objectfact objectvalue  BEFORE/AFTER 
+{
+    int index = JSONArgs();
+    char* arrayname = ARGUMENT(index++);
+    if (strnicmp(arrayname, (char*)"ja-", 3)) return FAILRULE_BIT;
+    WORDP O = FindWord(arrayname);
+    if (!O) return FAILRULE_BIT;
+    char* val = ARGUMENT(index);
+    unsigned int flags = JSON_ARRAY_FACT | jsonPermanent | jsonCreateFlags;
+    MEANING value = jsonValue(val, flags);
+    return DoJSONArrayInsert(jsonNoduplicate,O, value,flags,buffer);
 }
 
 FunctionResult JSONCopyCode(char* buffer)

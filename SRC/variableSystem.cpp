@@ -405,12 +405,16 @@ void PrepareVariableChange(WORDP D,char* word,bool init)
 
 void SetUserVariable(const char* var, char* word, bool assignment)
 {
+    if (!stricmp(var, "$_specialty"))
+    {
+        int xx = 0;
+    }
 	char varname[MAX_WORD_SIZE];
 	MakeLowerCopy(varname,(char*)var);
     WORDP D = StoreWord(varname);				// find or create the var.
 	if (!D) return; // ran out of memory
 #ifndef DISCARDTESTING
-	CheckAssignment(varname,word);
+    if (debugVar) (*debugVar)(varname, word);
 #endif
 
 	// adjust value
@@ -517,20 +521,61 @@ void SetUserVariable(const char* var, char* word, bool assignment)
 	}
 }
 
-void Add2UserVariable(char* var, char* moreValue,char* op,char* originalArg)
+FunctionResult Add2UserVariable(char* var, char* moreValue,char* op,char* originalArg)
 {
 	// get original value
 	char  minusflag = *op;
 	char* oldValue;
     if (*var == '_') oldValue = GetwildcardText(GetWildcardID(var),true); // onto a wildcard
 	else if (*var == USERVAR_PREFIX) oldValue = GetUserVariable(var); // onto user variable
-	else if (*var == '^') oldValue = callArgumentList[atoi(var+1)+fnVarBase]; // onto function argument
-	else return; // illegal
+	else if (*var == '^') oldValue = FNVAR(var+1); // onto function argument
+	else return FAILRULE_BIT; // illegal
 
 	// get augment value
 	if (*moreValue == '_') moreValue = GetwildcardText(GetWildcardID(moreValue),true); 
 	else if (*moreValue == USERVAR_PREFIX) moreValue = GetUserVariable(moreValue); 
-	else if (*moreValue == '^') moreValue = callArgumentList[atoi(moreValue+1)+fnVarBase];
+	else if (*moreValue == '^') moreValue = FNVAR(moreValue+1);
+
+    // try json array set op?
+    if (!strnicmp(oldValue, "ja-",3))
+    {
+        if (*op != '+') return FAILRULE_BIT;
+        FunctionResult result = NOPROBLEM_BIT;
+        WORDP old = FindWord(oldValue);
+        char junk[10];
+        if (!strnicmp(moreValue, "ja-", 3))
+        {
+            char* limit;
+            FACT* F = GetSubjectNondeadHead(FindWord(moreValue));
+            FACT** stack = (FACT**)InfiniteStack64(limit, "array merge");
+            int index = 0;
+            while (F) // stack object key data
+            {
+               if (F->flags & JSON_ARRAY_FACT)  stack[index++] = F;
+               F = GetSubjectNondeadNext(F);
+            }
+            CompleteBindStack64(index, (char*)stack);
+            for (int i = index-1; i >= 0; --i)
+            {
+                F = stack[i];
+                unsigned int flags = JSON_ARRAY_FACT | (F->flags & JSON_OBJECT_FLAGS);
+                if (oldValue[3] == 't') flags |= FACTTRANSIENT;
+                MEANING value = F->object;
+                result = DoJSONArrayInsert(true,old, value, flags, junk);
+                if (result == FAILRULE_BIT) break;
+            }
+            ReleaseStack((char*)stack);
+
+        }
+        else
+        {
+            unsigned int flags = JSON_ARRAY_FACT;
+            if (oldValue[3] == 't') flags |= FACTTRANSIENT;
+            MEANING value = jsonValue(moreValue, flags);
+            result = DoJSONArrayInsert(true,old, value, flags,junk);
+        }
+        return result;
+    }
 
 	// perform numeric op
 	bool floating = false;
@@ -544,12 +589,12 @@ void Add2UserVariable(char* var, char* moreValue,char* op,char* originalArg)
         if (minusflag == '-') newval -= more;
         else if (minusflag == '*') newval *= more;
         else if (minusflag == '/') {
-			if (more == 0) return; // cannot divide by 0
+			if (more == 0) return FAILRULE_BIT; // cannot divide by 0
         	newval /= more;
         }
 		else if (minusflag == '%') 
 		{
-			if (more == 0) return;
+			if (more == 0) return FAILRULE_BIT;
 			int64 ivalue = (int64) newval;
 			int64 morval = (int64) more;
 			newval = (double) (ivalue % morval);
@@ -568,12 +613,12 @@ void Add2UserVariable(char* var, char* moreValue,char* op,char* originalArg)
         else if (minusflag == '*') newval *= more;
         else if (minusflag == '/') 
 		{
-			if (more == 0)  return; // cannot divide by 0
+			if (more == 0)  return  FAILRULE_BIT; // cannot divide by 0
 			newval /= more;
 		}
         else if (minusflag == '%') 
 		{
-			if (more == 0) return;
+			if (more == 0) return  FAILRULE_BIT;
 			newval %= more;
 		}
         else if (minusflag == '|') 
@@ -608,7 +653,8 @@ void Add2UserVariable(char* var, char* moreValue,char* op,char* originalArg)
 		if (!dot) SetUserVariable(var,result,true);
 		else JSONVariableAssign(var,result);// json object insert
 	}
-	else if (*var == '^') strcpy(callArgumentList[atoi(var+1)+fnVarBase],result); 
+	else if (*var == '^') strcpy(FNVAR(var+1),result); 
+    return NOPROBLEM_BIT;
 }
 
 static void SetBotVars(unsigned int varthread)
@@ -805,7 +851,7 @@ char* PerformAssignment(char* word,char* ptr,char* buffer,FunctionResult &result
 	
 	if (*word == '^' && word[1] == '^' && IsDigit(word[2])) // indirect function variable assign
 	{
-		char* value = callArgumentList[atoi(word+2) + fnVarBase];
+		char* value = FNVAR(word+2);
 		if (*value == LCLVARDATA_PREFIX && value[1] == LCLVARDATA_PREFIX)//  not allowed to write indirect to caller arg
 		{
 			result = FAILRULE_BIT;
@@ -821,7 +867,7 @@ char* PerformAssignment(char* word,char* ptr,char* buffer,FunctionResult &result
 	}
 	else if (*word == '^' && IsDigit(word[1])) // indirect function variable assign
 	{
-		char* value = callArgumentList[atoi(word+1) + fnVarBase];
+		char* value = FNVAR(word+1);
 		if (*value == LCLVARDATA_PREFIX && value[1] == LCLVARDATA_PREFIX)//  not allowed to write indirect to caller arg
 		{
 			result = FAILRULE_BIT;
@@ -995,7 +1041,7 @@ char* PerformAssignment(char* word,char* ptr,char* buffer,FunctionResult &result
 			else Log(STDTRACETABLOG,(char*)"%s(%s) %s %s(%s) => ",word,GetUserVariable(word),op,originalWord1,GetUserVariable(originalWord1));
 		}
 		if (*word == '^') result = FAILRULE_BIT;	// not allowed to increment locally at present OR json array ref...
-		else Add2UserVariable(word,buffer,op,originalWord1);
+		else if (*buffer) result = Add2UserVariable(word,buffer,op,originalWord1);
 	}
 	else if (*word == '_') //   assign to wild card
 	{
@@ -1032,7 +1078,7 @@ char* PerformAssignment(char* word,char* ptr,char* buffer,FunctionResult &result
 	else if (*word == '^') // overwrite function arg
 	{
 		if (trace & TRACE_OUTPUT && CheckTopicTrace()) Log(STDTRACETABLOG,(char*)"%s = %s\r\n",word,buffer);
-		callArgumentList[atoi(word+1)+fnVarBase] = AllocateStack(buffer);
+		FNVAR(word+1) = AllocateStack(buffer);
 	}
 	else // cannot touch a  word, or number
 	{
@@ -1054,7 +1100,7 @@ char* PerformAssignment(char* word,char* ptr,char* buffer,FunctionResult &result
 		}
 		if (result & ENDCODES) goto exit; // failed next value
 		if (trace & TRACE_OUTPUT && CheckTopicTrace()) Log(STDTRACETABLOG,(char*)"    %s(%s) %s %s(%s) =>",word,GetUserVariable(word),op,originalWord1,buffer);
-		Add2UserVariable(word,buffer,op,originalWord1);
+		if (*buffer) result = Add2UserVariable(word,buffer,op,originalWord1);
 		if (trace & TRACE_OUTPUT && CheckTopicTrace()) Log(STDTRACELOG,(char*)"\r\n");
 	}
 

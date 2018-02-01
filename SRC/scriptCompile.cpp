@@ -4,7 +4,11 @@
 //------------------------
 static unsigned int undefinedCallThreadList = 0;
 static int complexity = 0;
+static int priorLine = 0;
 bool autoset = false;
+static char macroName[MAX_WORD_SIZE];
+static uint64 macroid;
+char* dataBase = NULL;
 static char* dataChunk = NULL;
 static char* outputStart = NULL;
 static char* lineStart = NULL;
@@ -208,16 +212,22 @@ static char* FindComparison(char* word)
 	return at;
 }
 
-static void AddMapOutput()
+static void AddMapOutput(int line)
 {
 	// if we are mapping (:build) and have started output and some data storage change has happened
-	if (mapFile && outputStart && lineStart != dataChunk) fprintf(mapFile,(char*)"          line: %d %d\r\n",currentFileLine,(int)(lineStart - outputStart)); // readBuffer
-	lineStart = dataChunk;
+    if (mapFile && dataBase && lineStart != dataChunk  &&  strnicmp(macroName, "^tbl:", 5))
+    {
+        *dataChunk = 0;
+        char src[MAX_WORD_SIZE];
+        strncpy(src, lineStart, 30);
+        src[30] = 0;
+        fprintf(mapFile, (char*)"          line: %d %d  # %s\r\n", line, (int)(lineStart - dataBase),src); // readBuffer
+    }
+    lineStart = dataChunk; // used to detect new line needs tracking
 }
 
 char* ReadNextSystemToken(FILE* in,char* ptr, char* word, bool separateUnderscore, bool peek)
 { 
-
 #ifdef INFORMATION
 The outside can ask for the next real token or merely peek ahead one token. And sometimes the outside
 after peeking, decides it wants to back up a real token (passing it to some other processor).
@@ -286,7 +296,6 @@ comes from the old buffer. Meanwhile the newbuffer continues to have content for
 		}
 		else // read new line into hypothetical buffer, not destroying old actual buffer yet
 		{
-			AddMapOutput(); // show range of data offset covered by line number
 			if (!in || ReadALine(newBuffer,in) < 0) return NULL; //   end of file
 			if (!strnicmp(newBuffer,(char*)"#ignore",7)) // hit an ignore zone
 			{
@@ -1156,10 +1165,26 @@ static void AddMap(char* kind,char* msg)
 	if (!mapFile) return;
 	if (kind)
 	{
-		size_t len = strlen(kind);
-		if (kind[len-1] == ':') kind[len-1] = 0;
-		fprintf(mapFile,(char*)"%s: %s %d\r\n",kind,(msg) ? msg : ((char*)""),currentFileLine);
-	}
+        char value[MAX_WORD_SIZE];
+        strcpy(value, kind);
+        char* at = strchr(value, ':');
+        if (at)
+        {
+            sprintf(at + 1, " %d ", currentFileLine);
+            at = strchr(kind, ':');
+            strcat(value, at + 1);
+        }
+		fprintf(mapFile,(char*)"%s %s",value, (msg) ? msg : ((char*)""));
+        if (myBot  && !strstr(value,"rule:") && !strstr(value, "complexity of"))
+        {
+#ifdef WIN32
+            fprintf(mapFile, (char*)" %I64u", (int64)myBot);
+#else
+            fprintf(mapFile, (char*)" %llu", (int64)myBot);
+#endif
+        }
+        fprintf(mapFile, (char*)"\r\n");
+    }
 	else fprintf(mapFile,(char*)"%s\r\n",msg); // for complexity metric
 }
 
@@ -1657,15 +1682,26 @@ static char* ReadCall(char* name, char* ptr, FILE* in, char* &data,bool call, bo
 	char* strbase = AllocateStack(NULL,1);
 	bool oldContext = patternContext;
 	patternContext = false;
-
+    priorLine = currentFileLine;
 	//   validate argument counts and stuff locally, then swallow data offically as output data
 	int parenLevel = 1;
 	int argumentCount = 0;
 	ptr = ReadNextSystemToken(in,ptr,word,false); // skip (
-	while (ALWAYS) //   read as many tokens as needed to complete the call, storing them locally
+    if (priorLine != currentFileLine)
+    {
+        AddMapOutput(priorLine);
+        priorLine = currentFileLine;
+    }
+        
+    while (ALWAYS) //   read as many tokens as needed to complete the call, storing them locally
 	{
 		ptr = ReadNextSystemToken(in,ptr,word,false);
-		if (!*word) break;
+        if (priorLine != currentFileLine)
+        {
+            AddMapOutput(priorLine);
+            priorLine = currentFileLine;
+        }
+        if (!*word) break;
 		if (*word == '#' && word[1] == '!') BADSCRIPT((char*)"#! sample input seen during a call. Probably missing a closing )\r\n");
 	
 		// closing paren stuck onto token like _) - break it off 
@@ -1711,8 +1747,12 @@ static char* ReadCall(char* name, char* ptr, FILE* in, char* &data,bool call, bo
 					if (word[2] == ':')	 strcpy(word+3,CompileString(word+1)+2);
 				}
 				ReadNextSystemToken(in,ptr,nextToken,false,true);
-
-				// argument is a function without its ^ ?  // but be wary of doing this in createfact, which can have nested facts
+                if (priorLine != currentFileLine)
+                {
+                    AddMapOutput(priorLine);
+                    priorLine = currentFileLine;
+                }
+                // argument is a function without its ^ ?  // but be wary of doing this in createfact, which can have nested facts
 				if (*word != '^' && *nextToken == '(' && stricmp(name,(char*)"^createfact")) //   looks like a call, reformat it if it is
 				{
 					char fnname[SMALL_WORD_SIZE];
@@ -2660,6 +2700,7 @@ static bool ValidIfOperand(char c)
 
 static char* ReadIfTest(char* ptr, FILE* in, char* &data)
 {
+    priorLine = currentFileLine;
 	char word[MAX_WORD_SIZE];
 	int paren = 1;
 	//   test is either a function call OR an equality comparison OR an IN relation OR an existence test
@@ -2669,7 +2710,12 @@ static char* ReadIfTest(char* ptr, FILE* in, char* &data)
 	//   You can have multiple tests, separated by AND and OR.
 	pattern: 
 	ptr = ReadNextSystemToken(in,ptr,word,false,false); 
-	if (*word == '~') CheckSetOrTopic(word); 
+    if (priorLine != currentFileLine)
+    {
+        AddMapOutput(priorLine);
+        priorLine = currentFileLine;
+    }
+    if (*word == '~') CheckSetOrTopic(word);
 	// separate ! from things if not  != and !?
 	if (*word == '!' && word[1] && word[1] != '=' && word[1] != '?') 
 	{
@@ -2703,17 +2749,32 @@ static char* ReadIfTest(char* ptr, FILE* in, char* &data)
 		*data++ = '!';
 		*data++ = ' ';
 		ptr = ReadNextSystemToken(in,ptr,word,false,false); 
-	}
+        if (priorLine != currentFileLine)
+        {
+            AddMapOutput(priorLine);
+            priorLine = currentFileLine;
+        }
+    }
 	if (*word == '\'' && !word[1]) 
 	{
 		*data++ = '\'';
 		ptr = ReadNextSystemToken(in,ptr,word,false,false); 
-		if (*word != '_' && *word != '^') 
+        if (priorLine != currentFileLine)
+        {
+            AddMapOutput(priorLine);
+            priorLine = currentFileLine;
+        }
+        if (*word != '_' && *word != '^')
 			BADSCRIPT((char*)"IF-3 Can only quote _matchvar (or functionvar of one) in IF test\r\n")
 	}
 	if (*word == '!') BADSCRIPT((char*)"IF-4 Cannot do two ! in a row\r\n")
 	ReadNextSystemToken(in,ptr,nextToken,false,true); 
-	MakeLowerCase(nextToken);
+    if (priorLine != currentFileLine)
+    {
+        AddMapOutput(priorLine);
+        priorLine = currentFileLine;
+    }
+    MakeLowerCase(nextToken);
 	
 	if (*nextToken != '(' && *word == '^' && word[1] != '"' && IsAlphaUTF8(word[1])) BADSCRIPT((char*)"%s is not the name of a local function argument\r\n",word)
 	if (*nextToken == '(')  // function call?
@@ -2727,16 +2788,31 @@ static char* ReadIfTest(char* ptr, FILE* in, char* &data)
 		}
 		ptr = ReadCall(word,ptr,in,data,true,false);  //   read call
 		ReadNextSystemToken(in,ptr,nextToken,false,true); 
-		if (RelationToken(nextToken))
+        if (priorLine != currentFileLine)
+        {
+            AddMapOutput(priorLine);
+            priorLine = currentFileLine;
+        }
+        if (RelationToken(nextToken))
 		{
 			if (notted) BADSCRIPT((char*)"IF-5 cannot do ! in front of comparison %s\r\n",nextToken)
 			*data++ = ' ';
 			ptr =  ReadNextSystemToken(in,ptr,word,false,false); //   swallow operator
-			strcpy(data,word);
+            if (priorLine != currentFileLine)
+            {
+                AddMapOutput(priorLine);
+                priorLine = currentFileLine;
+            }
+            strcpy(data,word);
 			data += strlen(word);
 			*data++ = ' ';
 			ptr =  ReadNextSystemToken(in,ptr,word,false,false); //   swallow value
-			strcpy(data,word);
+            if (priorLine != currentFileLine)
+            {
+                AddMapOutput(priorLine);
+                priorLine = currentFileLine;
+            }
+            strcpy(data,word);
 			data += strlen(word);
 		}
 	}
@@ -2839,8 +2915,14 @@ static char* ReadIf(char* word, char* ptr, FILE* in, char* &data,char* rejoinder
 	char* original = data;
 	strcpy(data,(char*)"^if ");
 	data += 4;
+    if (mapFile && dataBase)
+    {
+        fprintf(mapFile, (char*)"          if %d %d  \r\n", currentFileLine, (int)(data - dataBase)); // readBuffer
+    }
+
 	patternContext = false;
 	++complexity;
+    priorLine = currentFileLine;
 	while (ALWAYS)
 	{
 		char* testbase = data;
@@ -2848,7 +2930,12 @@ static char* ReadIf(char* word, char* ptr, FILE* in, char* &data,char* rejoinder
 		*data++ = 'a'; // next will be (
 		*data++ = 'a';
 		ptr = ReadNextSystemToken(in,ptr,word,false); //   the '('
-		MakeLowerCopy(lowercaseForm,word);
+        if (priorLine != currentFileLine)
+        {
+            AddMapOutput(priorLine);
+            priorLine = currentFileLine;
+        }
+        MakeLowerCopy(lowercaseForm,word);
 		if (!*word || TopLevelUnit(word) || TopLevelRule(lowercaseForm) || Rejoinder(lowercaseForm)) BADSCRIPT((char*)"IF-1 Incomplete IF statement - %s\r\n",word)
 		if (*word != '(') BADSCRIPT((char*)"IF-2 Missing (for IF test - %s\r\n",word)
 		*data++ = '(';
@@ -2857,14 +2944,24 @@ static char* ReadIf(char* word, char* ptr, FILE* in, char* &data,char* rejoinder
 		if (!strnicmp(ptr,(char*)"pattern ",7))
 		{
 			ptr = ReadNextSystemToken(in,ptr,word,false); //   pattern
-			strcpy(data,word);
+            if (priorLine != currentFileLine)
+            {
+                AddMapOutput(priorLine);
+                priorLine = currentFileLine;
+            }
+            strcpy(data,word);
 			data += strlen(data);
 			*data++ = ' ';
 			char* original = data;
 			patternContext = true;
 			// swallow pattern
 			ptr = ReadPattern(ptr,in,data,false,true); //   read ( for real in the paren for pattern
-			patternContext = false;
+            if (priorLine != currentFileLine)
+            {
+                AddMapOutput(priorLine);
+                priorLine = currentFileLine;
+            }
+            patternContext = false;
 		}
 		else 
 		{
@@ -2881,13 +2978,23 @@ static char* ReadIf(char* word, char* ptr, FILE* in, char* &data,char* rejoinder
 
 		//   swallow body of IF after test --  must have { surrounding now
 		ReadNextSystemToken(in,ptr,word,false,true); //   {
-		if (*word != '{') 
+        if (priorLine != currentFileLine)
+        {
+            AddMapOutput(priorLine);
+            priorLine = currentFileLine;
+        }
+        if (*word != '{')
 		{
 			char hold[MAX_WORD_SIZE];
 			strcpy(hold,word);
 			ptr = ReadNextSystemToken(in,ptr,word,false,false); 
 			ReadNextSystemToken(in,ptr,word,false,true); 
-			if (*word != '{') BADSCRIPT((char*)"IF-13 body must start with { instead of %s  -- saw pattern %s\r\n",word,readBuffer,original)
+            if (priorLine != currentFileLine)
+            {
+                AddMapOutput(priorLine);
+                priorLine = currentFileLine;
+            }
+            if (*word != '{') BADSCRIPT((char*)"IF-13 body must start with { instead of %s  -- saw pattern %s\r\n",word,readBuffer,original)
 		}
 		ptr = ReadBody(word,ptr,in,data,rejoinders); // comes with space after it
 		bodyends[bodyendIndex++] = data; //   jump offset to end of if (backpatched)
@@ -2897,14 +3004,35 @@ static char* ReadIf(char* word, char* ptr, FILE* in, char* &data,char* rejoinder
 			
 		//   now see if ELSE branch exists
 		ReadNextSystemToken(in,ptr,word,false,true); //   else?
-		if (stricmp(word,(char*)"else"))  break; //   caller will add space after our jump index
+        if (priorLine != currentFileLine)
+        {
+            AddMapOutput(priorLine);
+            priorLine = currentFileLine;
+        }
+        if (stricmp(word,(char*)"else"))  break; //   caller will add space after our jump index
 
 		//   there is either else if or else
 		ptr = ReadNextSystemToken(in,ptr,word,false,false); //   swallow the else
-		strcpy(data,(char*)"else ");
+        if (priorLine != currentFileLine)
+        {
+            AddMapOutput(priorLine);
+            priorLine = currentFileLine;
+        }
+        strcpy(data,(char*)"else ");
 		data += 5;
+
 		ReadNextSystemToken(in,ptr,word,false,true); //   see if or {
-		if (*word == '{') //   swallow the ELSE body now since no IF - add fake successful test
+        if (priorLine != currentFileLine)
+        {
+            AddMapOutput(priorLine);
+            priorLine = currentFileLine;
+        }
+        if (mapFile && dataBase)
+        {
+            if (!stricmp(word,"if")) fprintf(mapFile, (char*)"          elseif %d %d  \r\n", currentFileLine, (int)(data - dataBase)); // readBuffer
+            else fprintf(mapFile, (char*)"          else %d %d  \r\n", currentFileLine, (int)(data - dataBase)); // readBuffer
+        }
+        if (*word == '{') //   swallow the ELSE body now since no IF - add fake successful test
 		{
 			//   successful test condition for else
 			*data++ = '(';
@@ -2925,10 +3053,18 @@ static char* ReadIf(char* word, char* ptr, FILE* in, char* &data,char* rejoinder
 		}
 		else ++complexity;
 		ptr = ReadNextSystemToken(in,ptr,word,false,false); //   eat the IF
-	}
+        if (priorLine != currentFileLine)
+        {
+            AddMapOutput(priorLine);
+            priorLine = currentFileLine;
+        }
+    }
 	if (*(data-1) == ' ') --data;	//   remove excess blank
 	patternContext = false;
-
+    if (mapFile)
+    {
+        fprintf(mapFile, (char*)"          ifend %d %d  \r\n", currentFileLine, (int)(data - dataBase)); // readBuffer
+    }
 	//   store offsets from successful bodies to the end
 	while (bodyendIndex != 0)
 	{
@@ -2942,14 +3078,30 @@ static char* ReadIf(char* word, char* ptr, FILE* in, char* &data,char* rejoinder
 
 static char* ReadLoop(char* word, char* ptr, FILE* in, char* &data,char* rejoinders)
 {
+    priorLine = currentFileLine;
 	strcpy(data,(char*)"^loop ");
 	data += 6;
+    if (mapFile && dataBase)
+    {
+        fprintf(mapFile, (char*)"          loop %d %d  \r\n", currentFileLine, (int)(data - dataBase)); // readBuffer
+    }
+
 	ptr = ReadNextSystemToken(in,ptr,word,false,false); //   (
-	*data++ = '(';
+    if (priorLine != currentFileLine)
+    {
+        AddMapOutput(priorLine);
+        priorLine = currentFileLine;
+    }
+      *data++ = '(';
 	*data++ = ' ';
 	if (*word != '(') BADSCRIPT((char*)"LOOP-1 count must be ()  or (count) -%s\r\n",word)
 	ptr = ReadNextSystemToken(in,ptr,word,false,false); //   counter - 
-	if (*word == '^'  && IsAlphaUTF8(word[1])) BADSCRIPT((char*)"%s is not the name of a local function argument\r\n",word)
+    if (priorLine != currentFileLine)
+    {
+        AddMapOutput(priorLine);
+        priorLine = currentFileLine;
+    }
+    if (*word == '^'  && IsAlphaUTF8(word[1])) BADSCRIPT((char*)"%s is not the name of a local function argument\r\n",word)
 	if (*word == ')')  strcpy(data,(char*)"-1"); //   omitted, use -1
 	else if (!stricmp(word,(char*)"-1")) // precompiled previously -1
 	{
@@ -2963,7 +3115,12 @@ static char* ReadLoop(char* word, char* ptr, FILE* in, char* &data,char* rejoind
 	{
 		strcpy(data,word);
 		ptr = ReadNextSystemToken(in,ptr,word,false,false);
-	}
+        if (priorLine != currentFileLine)
+        {
+            AddMapOutput(priorLine);
+            priorLine = currentFileLine;
+        }
+    }
 	data += strlen(data);
 	*data++ = ' ';
 	if (*word != ')') BADSCRIPT((char*)"LOOP-3 counter must end with )  -%s\r\n",word)
@@ -2976,13 +3133,23 @@ static char* ReadLoop(char* word, char* ptr, FILE* in, char* &data,char* rejoind
 
 	//   now do body
 	ReadNextSystemToken(in,ptr,word,false,true); 
-	if (*word != '{') // does it have precompiled accelerator
+    if (priorLine != currentFileLine)
+    {
+        AddMapOutput(priorLine);
+        priorLine = currentFileLine;
+    }
+    if (*word != '{') // does it have precompiled accelerator
 	{
 		char hold[MAX_WORD_SIZE];
 		strcpy(hold,word);
 		ptr = ReadNextSystemToken(in,ptr,word,false,false); 
 		ReadNextSystemToken(in,ptr,word,false,true); 
-		if (*word != '{') BADSCRIPT((char*)"LOOP-4 body must start with { -%s\r\n",hold)
+        if (priorLine != currentFileLine)
+        {
+            AddMapOutput(priorLine);
+            priorLine = currentFileLine;
+        }
+        if (*word != '{') BADSCRIPT((char*)"LOOP-4 body must start with { -%s\r\n",hold)
 	}
 	char* bodystart = data;
 	ptr = ReadBody(word,ptr,in,data,rejoinders);
@@ -2990,6 +3157,10 @@ static char* ReadLoop(char* word, char* ptr, FILE* in, char* &data,char* rejoind
 		BADSCRIPT((char*)"LOOP-4 body makes no sense being empty\r\n")
 	Encode((unsigned int)(data - loopstart),loopstart);	// offset to body end from body start (accelerator)
 	*data = 0;
+    if (mapFile )
+    {
+        fprintf(mapFile, (char*)"          loopend %d %d  \r\n", currentFileLine, (int)(data - dataBase)); // readBuffer
+    }
 	return ptr; // caller adds extra space after
 }
 static char* ReadJavaScript(FILE* in, char* &data,char* ptr)
@@ -3019,12 +3190,13 @@ static char* ReadJavaScript(FILE* in, char* &data,char* ptr)
 
 char* ReadOutput(bool optionalBrace,bool nested,char* ptr, FILE* in,char* &mydata,char* rejoinders,char* supplement,WORDP call, bool choice)
 {
+    priorLine = currentFileLine;
 	char* originalptr = ptr;
 	char* oldOutputStart = outputStart; // does not matter if script error grabs control
 	dataChunk = mydata; // global visible for use when changing lines for mapping
 	if (!nested)
 	{
-		lineStart = mydata; // where line begins
+		lineStart = dataChunk; // where line begins
 		outputStart = dataChunk;
 	}
 	char* original = dataChunk;
@@ -3086,6 +3258,11 @@ char* ReadOutput(bool optionalBrace,bool nested,char* ptr, FILE* in,char* &mydat
 		else ptr = ReadNextSystemToken(in,ptr,word,false); 
 		if (!*word)  break; //   end of file
 
+        if (currentFileLine != priorLine)
+        {
+            AddMapOutput(priorLine);
+            priorLine = currentFileLine;
+        }
 		if (start && !stricmp(word,"javascript"))
 		{
 			ptr = ReadJavaScript(in,dataChunk,ptr);
@@ -3185,8 +3362,9 @@ char* ReadOutput(bool optionalBrace,bool nested,char* ptr, FILE* in,char* &mydat
 				}
 
 				--level;
-				if (level < 0) 
-					BADSCRIPT((char*)"OUTPUT-3 Unbalanced %s\r\n",word)
+                *dataChunk = 0;
+                if (level < 0)
+                    BADSCRIPT((char*)"OUTPUT-3 Unbalanced %s in %s\r\n", word, outputStart)
 				else if (!level && (startkind == '(' || startkind == '{' || startkind == '[')) 
 				{
 					strcpy(dataChunk,word);
@@ -3208,6 +3386,10 @@ char* ReadOutput(bool optionalBrace,bool nested,char* ptr, FILE* in,char* &mydat
 				break;
 		}
 		if (!*word) break; // end of body
+        if (!stricmp("$cs_botid", assignlhs) && IsDigit(word[0]))
+        { // bot id declaration
+            macroid = atoi64(word);
+        }
 		if (*assignlhs) // during continued assignment?
 		{
 			if (!stricmp(word,(char*)"^") || !stricmp(word,(char*)"|") || !stricmp(word,(char*)"&") || (!stricmp(word,(char*)"+") || !stricmp(word,(char*)"-") || !stricmp(word,(char*)"*") || !stricmp(word,(char*)"/")))
@@ -3296,6 +3478,11 @@ char* ReadOutput(bool optionalBrace,bool nested,char* ptr, FILE* in,char* &mydat
 				else if (*ptr == '(') strcpy(word,rename); // use his spacing to decide
 			}
 		}
+        if (currentFileLine != priorLine)
+        {
+            AddMapOutput(priorLine);
+            priorLine = currentFileLine;
+        }
 		// a function call, 
 		if (*word == '^' && !IsDigit(word[1]) && word[1] != '^'&& word[1] != '=' && word[1] != '"' && word[1] != '\'' && word[1] != USERVAR_PREFIX && word[1] != '_' && word[1] && *nextToken == '(' )
 		{
@@ -3405,6 +3592,7 @@ Then one of 3 kinds of character:
 		char labelName[MAX_WORD_SIZE];
 		*label = 0;
 		*labelName = 0;
+     
 		while (ALWAYS) //   read as many tokens as needed to complete the responder definition
 		{
 			ptr = ReadNextSystemToken(in,ptr,word,false); 
@@ -3421,8 +3609,7 @@ Then one of 3 kinds of character:
 			if (*word == '(') //   found pattern, no label
 			{
 				sprintf(info,"        rule: %s.%d.%d %s",currentTopicName,TOPLEVELID(currentRuleID),REJOINDERID(currentRuleID),kind);
-				AddMap(info,NULL);
-
+				AddMap(info,NULL); // rule
 				ptr = ReadPattern(ptr-1,in,data,false,false); //   back up and pass in the paren for pattern
 				patternDone = true;
 				*word = 0;
@@ -3443,12 +3630,16 @@ Then one of 3 kinds of character:
 						WARNSCRIPT((char*)"label: %s is a potential macro in %s. Add ^ if you want it treated as such.\r\n",word,currentFilename)
 					else if (!stricmp(word,(char*)"if") || !stricmp(word,(char*)"loop")) WARNSCRIPT((char*)"label: %s is a potential flow control (if/loop) in %s. Add ^ if you want it treated as a control word.\r\n",word,currentFilename)
 					sprintf(info,"        rule: %s.%d.%d-%s %s",currentTopicName,TOPLEVELID(currentRuleID),REJOINDERID(currentRuleID),name+1, kind);
-					AddMap(info,NULL);
+					AddMap(info,NULL); // rule
 					//  potential ^reuse label
 					strcpy(label,currentTopicName); 
 					strcat(label,(char*)".");
 					MakeUpperCase(word); // full label to test if exists.
 					strcat(label,word);
+                    if (!stricmp(word, "COUNTER"))
+                    {
+                        int xx = 0;
+                    }
 					strcpy(labelName,word);
 					MakeUpperCase(label); // full label to test if exists.
 					WORDP E = StoreWord(label,AS_IS);
@@ -3475,7 +3666,7 @@ Then one of 3 kinds of character:
 				else //   we were seeing start of output (no label and no pattern) for gambit, proceed to output
 				{
 					sprintf(info,"        rule: %s.%d.%d-%s %s",currentTopicName,TOPLEVELID(currentRuleID),REJOINDERID(currentRuleID),labelName,kind);
-					AddMap(info,NULL);
+					AddMap(info,NULL); // rule
 					if (*type != GAMBIT && *type != RANDOM_GAMBIT) BADSCRIPT((char*)"RULE-3 Missing pattern for responder\r\n")
 					*data++ = ' ';
 					patternDone = true;
@@ -3486,10 +3677,12 @@ Then one of 3 kinds of character:
 		} //   END OF WHILE
 		if (patternDone) 
 		{
-			ptr = ReadOutput(false,false,ptr,in,data,rejoinders,word,NULL);
-			char complex[MAX_WORD_SIZE];
+            dataBase = data;
+            ptr = ReadOutput(false,false,ptr,in,data,rejoinders,word,NULL);
+            dataBase = NULL;
+            char complex[MAX_WORD_SIZE];
 			sprintf(complex,"          Complexity of rule %s.%d.%d-%s %s %d", currentTopicName,TOPLEVELID(currentRuleID),REJOINDERID(currentRuleID),labelName,kind,complexity);
-			AddMap(NULL, complex);
+			AddMap(NULL, complex); // complexity
 
 			//   data points AFTER last char added. Back up to last char, if blank, leave it to be removed. else restore it.
 			while (*--data == ' '); 
@@ -3524,6 +3717,7 @@ Then one of 3 kinds of character:
 	}
 
 	*data = 0;
+    dataBase = NULL;
 }
 
 static char* ReadMacro(char* ptr,FILE* in,char* kind,unsigned int build)
@@ -3537,8 +3731,8 @@ static char* ReadMacro(char* ptr,FILE* in,char* kind,unsigned int build)
 	else if (!stricmp(kind,(char*)"outputMacro:")) typeFlags = IS_OUTPUT_MACRO;
 	else if (!stricmp(kind,(char*)"patternMacro:")) typeFlags = IS_PATTERN_MACRO;
 	else if (!stricmp(kind,(char*)"dualMacro:")) typeFlags = IS_PATTERN_MACRO | IS_OUTPUT_MACRO;
-	char macroName[MAX_WORD_SIZE];
 	*macroName = 0;
+    macroid = 0;
 	functionArgumentCount = 0;
 	char data[MAX_BUFFER_SIZE];
 	*data = 0;
@@ -3570,7 +3764,7 @@ static char* ReadMacro(char* ptr,FILE* in,char* kind,unsigned int build)
 				*macroName = '^';
 				strcpy(macroName+1,word);
 				Log(STDTRACELOG,(char*)"Reading %s %s\r\n",kind,macroName);
-				AddMap((char*)"    macro", macroName);
+				AddMap((char*)"    macro:", macroName);
 			}
 			D = StoreWord(macroName);
 			if (D->w.fndefinition && D->internalBits & FUNCTION_NAME && !table) // must be different BOT ID
@@ -3645,9 +3839,7 @@ static char* ReadMacro(char* ptr,FILE* in,char* kind,unsigned int build)
 					else  BADSCRIPT((char*)"MACRO-? Table/Tablemacro argument restriction must be KEEP_QUOTES OR COMPILE or UNDERSCORE - %s \r\n",word)
 					*restrict = 0;
 				}
-				else  // default for quoted strings on argumet is UNDERSCORE
-				{
-				}
+                else {}// default for quoted strings on argumet is UNDERSCORE
 				{
 					WORDP X = FindWord(word);
 					if (X && X->internalBits & FUNCTION_NAME) BADSCRIPT((char*)"MACRO-8 Function argument %s is also name of a function\r\n",word);
@@ -3660,7 +3852,11 @@ static char* ReadMacro(char* ptr,FILE* in,char* kind,unsigned int build)
 				BADSCRIPT((char*)"MACRO-7 Bad argument to macro definition %s\r\n",macroName)
 		}
 	}
-	if (!D) return ptr; //   nothing defined
+    if (!D)
+    {
+        dataBase = NULL;
+        return ptr; //   nothing defined
+    }
 	if (functionArgumentCount > ARGSETLIMIT) BADSCRIPT((char*)"MACRO-7 Argument count to macro definition %s limited to %d\r\n",macroName,ARGSETLIMIT)
 	AddInternalFlag(D,(unsigned int)(FUNCTION_NAME|build|typeFlags));
 	if (functionArgumentCount > 15) *pack++ = (unsigned char)(functionArgumentCount - 15 + 'a');
@@ -3669,9 +3865,10 @@ static char* ReadMacro(char* ptr,FILE* in,char* kind,unsigned int build)
 	bool optionalBrace = false;
 	currentFunctionDefinition = D;
 	char d[MAX_BUFFER_SIZE];
+    dataBase = NULL;
 	if ( (typeFlags & FUNCTION_BITS) == IS_PATTERN_MACRO)  
 	{
-		char* at = d;
+        char* at = d;
 		ptr = ReadPattern(ptr,in,at,true,false);
 		*at = 0;
 		// insert display and add body back
@@ -3695,8 +3892,12 @@ static char* ReadMacro(char* ptr,FILE* in,char* kind,unsigned int build)
 			optionalBrace = true;
 		}
 
+        dataBase = d;
+        if ((typeFlags & FUNCTION_BITS) == IS_PATTERN_MACRO) dataBase = NULL;
+
 		// now read body of macro
 		char* at = d;
+        // if on same line we have issue?
 		ptr = ReadOutput(optionalBrace,false,ptr,in,at,NULL,NULL,NULL);
 		ReadNextSystemToken(in,ptr,word,true);
 		if (optionalBrace && *word == '}') ptr = ReadNextSystemToken(in,ptr,word,false);
@@ -3714,9 +3915,9 @@ static char* ReadMacro(char* ptr,FILE* in,char* kind,unsigned int build)
 	//   record that it is a macro, with appropriate validation information
 	char botid[MAX_WORD_SIZE];
 #ifdef WIN32
-	sprintf(botid, (char*)"%I64d", (int64)myBot);
+	sprintf(botid, (char*)"%I64u", (int64)myBot);
 #else
-	sprintf(botid, (char*)"%lld", (int64)myBot);
+	sprintf(botid, (char*)"%llu", (int64)myBot);
 #endif
 	char* revised = AllocateBuffer();
 	revised[0] = revised[1] = revised[2] = revised[3] = 0;
@@ -3755,14 +3956,27 @@ static char* ReadMacro(char* ptr,FILE* in,char* kind,unsigned int build)
 
 		char complex[MAX_WORD_SIZE];
 		sprintf(complex, "          Complexity of %s: %d", macroName, complexity);
-		AddMap(NULL, complex);
+		AddMap(NULL, complex); // complexity
+        if (macroid != 0)
+        {
+            char name[MAX_WORD_SIZE];
+#ifdef WIN32
+            sprintf(name, (char*)"          bot: 0 %s %I64u ", macroName,macroid);
+#else
+            sprintf(name, (char*)"          bot: 0 %s %llu ", macroName,macroid);
+#endif
+            AddMap(NULL, name); // bot macro
+        }
 	}
-
+    *macroName = 0;
+    dataBase = NULL;
 	return ptr;
 }
 
 static char* ReadTable(char* ptr, FILE* in,unsigned int build,bool fromtopic)
 {
+    bool oldecho = echo;
+    int oldtrace = trace;
 	char name[MAX_WORD_SIZE];
 	char word[MAX_WORD_SIZE];
 	char post[MAX_WORD_SIZE]; 
@@ -3878,15 +4092,16 @@ static char* ReadTable(char* ptr, FILE* in,unsigned int build,bool fromtopic)
 		// now fill in args of table data from a single line
 		char* choiceArg = NULL; //   the multiple interior
 		bool startup = true;
-		while (ALWAYS) 
+        trace = 0;
+        while (ALWAYS)
 		{
-			if (!startup) ptr = ReadSystemToken(ptr,word);	//   next item to associate
+            if (!startup) ptr = ReadSystemToken(ptr,word);	//   next item to associate
 			if (!stricmp(word,(char*)":debug")) 
 			{
 				DebugCode(word);
 				continue;
 			}
-			startup = false;
+            startup = false;
 			if (!*word) break;					//   end of LINE of items stuff
 
 			if (!stricmp(word,(char*)"...")) break;	// pad to end of arg count
@@ -4041,6 +4256,8 @@ static char* ReadTable(char* ptr, FILE* in,unsigned int build,bool fromtopic)
 	}
 	currentFunctionDefinition = NULL; 
 	--jumpIndex;
+    echo = oldecho;
+    trace = oldtrace;
 	return ptr;
 }
 
@@ -4210,15 +4427,13 @@ static char* ReadTopic(char* ptr, FILE* in,unsigned int build)
 		{
 			if (*word != '~') BADSCRIPT((char*)"Topic name - %s must start with ~\r\n",word)
 			strcpy(currentTopicName,word);
-			AddMap((char*)"    topic", currentTopicName);
-			Log(STDTRACELOG,(char*)"Reading topic %s\r\n",currentTopicName);
+    		Log(STDTRACELOG,(char*)"Reading topic %s\r\n",currentTopicName);
 			topicName = FindWord(currentTopicName);
 			if (!myBot && topicName && topicName->internalBits & CONCEPT && !(topicName->internalBits & TOPIC) && topicName->internalBits & (BUILD0|BUILD1|BUILD2))
 				WARNSCRIPT((char*)"TOPIC-1 Concept already defined with this topic name %s\r\n",currentTopicName)
 			topicName = StoreWord(currentTopicName);
 			if (!IsLegalName(currentTopicName)) BADSCRIPT((char*)"TOPIC-2 Illegal characters in topic name %s\r\n",currentTopicName)
 			topicValue = MakeMeaning(topicName);
-
 			// handle potential multiple topics of same name
 			duplicateCount = 0;
 			while (topicName->internalBits & TOPIC)
@@ -4231,6 +4446,8 @@ static char* ReadTopic(char* ptr, FILE* in,unsigned int build)
 					strcpy(duplicateTopicName,currentTopicName);
 			}
 			strcpy(currentTopicName,topicName->word);
+            AddMap((char*)"    topic:", currentTopicName);
+
 			AddInternalFlag(topicName,(unsigned int)(build|CONCEPT|TOPIC));
 			topicName->w.botNames = NULL;
 			continue;
@@ -4732,7 +4949,7 @@ static char* ReadConcept(char* ptr, FILE* in,unsigned int build)
 			sys = type = 0;
 			parenLevel = 0;
 			Log(STDTRACELOG,(char*)"Reading concept %s\r\n",conceptName);
-			AddMap((char*)"    concept", conceptName);
+			AddMap((char*)"    concept:", conceptName);
 			// read the control flags of the concept
 			ptr = SkipWhitespace(ptr);
 			while (*ptr && *ptr != '(' && *ptr != '[' && *ptr != '"') // not started and no concept comment given (concept comments come after all control flags
@@ -4827,12 +5044,12 @@ static void ReadTopicFile(char* name,uint64 buildid) //   read contents of a top
 	chunking = false;
 	unsigned int build = (unsigned int) buildid;
 	size_t len = strlen(name);
+	if (len <= 4) return;
 
 	// Check the filename is at least four characters (the ext plus one letter)
 	// and matches either .top or .tbl
 	char* suffix = name + len - 4;
-	if (len <= 4) return;
-	if (0 != stricmp(suffix, (char*) ".top") && 0 != stricmp(suffix, (char*) ".tbl")) return;
+	if (stricmp(suffix, (char*) ".top") && stricmp(suffix, (char*) ".tbl")) return;
 
 	FILE* in = FopenReadNormal(name);
 	if (!in) 
@@ -4853,7 +5070,7 @@ static void ReadTopicFile(char* name,uint64 buildid) //   read contents of a top
 	sprintf(map,"%s/%s",file,name);
 	char* find = map;
 	while ((find = strchr(find,'\\'))) *find = '/';
-	AddMap((char*)"file", map);
+	AddMap((char*)"file:", map);
 
 	//   if error occurs lower down, flush to here
 	int holdDepth = globalDepth;
@@ -5027,7 +5244,7 @@ static void WriteConcepts(WORDP D, uint64 build)
 					word[len-1] = ' ';			// remove trailing quote
 					ForceUnderscores(word); 
 				}
-				else if (F->flags & ORIGINAL_ONLY) sprintf(word,(char*)"'%s ",WriteMeaning(F->subject));
+				else if (F->flags & ORIGINAL_ONLY) sprintf(word,(char*)"'%s ",WriteMeaning(F->subject,true));
 				else sprintf(word,(char*)"%s ",WriteMeaning(F->subject,true));
 
 				char* dict = strchr(word+1,'~'); // has a wordnet attribute on it
@@ -5054,9 +5271,9 @@ static void WriteConcepts(WORDP D, uint64 build)
 				if (F->botBits) // add restrictor 
 				{
 #ifdef WIN32
-					sprintf(word+wlen-1,(char*)"`%I64d ",F->botBits); 
+					sprintf(word+wlen-1,(char*)"`%I64u ",F->botBits); 
 #else
-					sprintf(word+wlen-1,(char*)"`%lld ",F->botBits); 
+					sprintf(word+wlen-1,(char*)"`%llu ",F->botBits); 
 #endif
 					wlen = strlen(word);
 				}
@@ -5117,7 +5334,7 @@ static void WriteDictionaryChange(FILE* dictout, unsigned int build)
 				break;
 			}
 			if (xoffset != offset) 
-				printf((char*)"%s",(char*)"Bad dictionary change test\r\n");
+				(*printer)((char*)"%s",(char*)"Bad dictionary change test\r\n");
 			fread(&oldproperties,1,8,in);
 			fread(&oldflags,1,8,in);
 			fread(&xoffset,1,4,in); //old internal
@@ -5125,7 +5342,7 @@ static void WriteDictionaryChange(FILE* dictout, unsigned int build)
 			fread(&junk,1,1,in); // multiword header info
 			fread(&junk,1,1,in); // 0 marker
 			if (junk != 0) 
-				printf((char*)"%s",(char*)"out of dictionary change data2?\r\n"); // multiword header 
+				(*printer)((char*)"%s",(char*)"out of dictionary change data2?\r\n"); // multiword header 
 		}
 		else notPrior = true;
 
@@ -5320,7 +5537,7 @@ int ReadTopicFiles(char* name,unsigned int build,int spell)
 				in = FopenReadNormal(file);
 				if (!in)
 				{
-					printf((char*)"%s not found\r\n",name);
+					(*printer)((char*)"%s not found\r\n",name);
 					return 4;
 				}
 			}
@@ -5347,7 +5564,7 @@ int ReadTopicFiles(char* name,unsigned int build,int spell)
 	sprintf(file,(char*)"%s/missingSets.txt",topic);
 	remove(file);
 
-	WalkDirectory((char*)"VERIFY",EmptyVerify,0); // clear verification of this level
+	WalkDirectory((char*)"VERIFY",EmptyVerify,0,false); // clear verification of this level
 
 	compiling = true;
 	errorIndex = warnIndex = hasWarnings = hasErrors =  0;
@@ -5359,13 +5576,23 @@ int ReadTopicFiles(char* name,unsigned int build,int spell)
 	patternFile = FopenUTF8Write(filename);
 	if (!patternFile)
 	{
-		printf((char*)"Unable to create %s? Make sure this directory exists and is writable.\r\n",filename);
+		(*printer)((char*)"Unable to create %s? Make sure this directory exists and is writable.\r\n",filename);
 		return 4;
 	}
 	sprintf(filename,(char*)"%s/BUILD%s/map%s.txt",topic,baseName,baseName);
 	mapFile = FopenUTF8Write(filename);
-
-	AllocateOutputBuffer();
+    fprintf(mapFile, "\r\n"); // so bytemark not with data
+    fprintf(mapFile, "# file: 0 full_path_to_file optional_botid\r\n"); // so bytemark not with data
+    fprintf(mapFile, "# macro: start_line_in_file name_of_macro optional_botid (definition of user function)\r\n"); // so bytemark not with data
+    fprintf(mapFile, "# line: start_line_in_file offset_byte_in_script (action unit in output) \r\n"); // so bytemark not with data
+    fprintf(mapFile, "# concept: start_line_in_file name_of_concept optional_botid (concept definition) \r\n"); // so bytemark not with data
+    fprintf(mapFile, "# topic: start_line_in_file name_of_topic optional_botid (topic definition) \r\n"); // so bytemark not with data
+    fprintf(mapFile, "# rule: start_line_in_file full_rule_tag_with_possible_label rule_kind (rule definition) \r\n"); // so bytemark not with data
+    fprintf(mapFile, "# Complexity of name_of_macro complexity_metric (complexity metric for function) \r\n"); // so bytemark not with data
+    fprintf(mapFile, "# Complexity of rule full_rule_tag_with_possible_label rule_kind complexity_metric (complexity metric for rule) \r\n"); // so bytemark not with data
+    fprintf(mapFile, "# bot: name_of_macro_it_happens_in botid (possible bot macro) \r\n"); // so bytemark not with data
+    fprintf(mapFile, "\r\n"); // so bytemark not with data
+    AllocateOutputBuffer();
 
 	// init the script output file
 	sprintf(filename,(char*)"%s/BUILD%s/script%s.txt",topic,baseName,baseName);
@@ -5398,10 +5625,12 @@ int ReadTopicFiles(char* name,unsigned int build,int spell)
 
 		size_t len = strlen(word);
 		char output[MAX_WORD_SIZE];
-		if (word[len-1] == '/') 
+		if (word[len-1] == '/') // directory request
 		{
 			Log(STDTRACELOG,(char*)"\r\n>>Reading folder %s\r\n",word);
-			WalkDirectory(word,ReadTopicFile,build); // read all files in folder (top level)
+            bool recurse = word[len - 2] == '/';
+            if (recurse) word[len - 2] = 0;
+            WalkDirectory(word,ReadTopicFile,build,recurse); // read all files in folder (top level)
 			Log(STDTRACELOG,(char*)"\r\n<<end folder %s\r\n",word);
 		}
 		else if (*word == ':' && word[1]) DoCommand(readBuffer,output); // testing command

@@ -2,7 +2,7 @@
 #define _DICTIONARYSYSTEM_H
 
 #ifdef INFORMATION
-Copyright (C) 2011-2017 by Bruce Wilcox
+Copyright (C)2011-2018 by Bruce Wilcox
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
@@ -336,7 +336,7 @@ typedef unsigned int DICTINDEX;	//   indexed ref to a dictionary entry
 #define JSON_STRING_VALUE	0x00000200 // on object side of triple
 #define JSON_PRIMITIVE_VALUE 0x00000100 // on object side of triple
 #define JSON_FLAGS ( JSON_PRIMITIVE_VALUE | JSON_STRING_VALUE | JSON_OBJECT_VALUE | JSON_ARRAY_VALUE | JSON_OBJECT_FACT | JSON_ARRAY_FACT )
-
+#define JSON_OBJECT_FLAGS ( JSON_ARRAY_VALUE |  JSON_OBJECT_VALUE | JSON_STRING_VALUE | JSON_PRIMITIVE_VALUE )
 // permanent flags
 #define FACTSUBJECT         0x00000080  //   index is - relative number to fact 
 #define FACTVERB			0x00000040	//   is 1st in its bucket (transient flag for read/WriteBinary) which MIRRORS DICT BUCKETHEADER flag: 
@@ -682,57 +682,8 @@ typedef unsigned int DICTINDEX;	//   indexed ref to a dictionary entry
 
 #define ASSIGNMENT				0x01000000 //used by performassignment
 
-struct WORDENTRY;
-typedef WORDENTRY* WORDP;
 
 typedef void (*DICTIONARY_FUNCTION)(WORDP D, uint64 data);
-
-struct FACT;
-
-typedef unsigned int FACTOID; //   a fact index
-typedef unsigned int FACTOID_OR_MEANING;	// a fact or a meaning (same representation)
-
-typedef struct WORDENTRY //   a dictionary entry  - starred items are written to the dictionary
-{
-	uint64  properties;				//   main language description of this node 
-	uint64	hash;					
-	uint64  systemFlags;			//   additional dictionary and non-dictionary properties
-	char*     word;					//   entry name
-	unsigned int internalBits;
-	unsigned int parseBits;			// only for words, not for function names or concept names
-									// functions/topics use this for offset into the map file where it is defined (debugger)
-
-	//   if you edit this, you may need to change ReadBinaryEntry and WriteBinaryEntry
-	union {
-		char* botNames;				//   for topic name (start with ~) or planname (start with ^) - bot topic applies to  - only used by script compiler
-		unsigned int planArgCount;	// number of arguments in a plan
-	    unsigned char* fndefinition; //   for nonplan macro name (start with ^) - if FUNCTION_NAME is on and not system function, is user script - 1st byte is argument count
-	    char* userValue;			//   if a $uservar (start with $) OR if a search label uservar 
-		WORDP substitutes;			//   words (with internalBits HAS_SUBSTITUTE) that should be adjusted to during tokenization
-		MEANING*  glosses;			//   for ordinary words: list of glosses for synset head meanings - is offset to allocstring and id index of meaning involved.
-		char* conditionalIdiom;		//  test code headed by ` for accepting word as an idiom instead of its individual word components
-	}w;
-
-	FACTOID subjectHead;		//  start threads for facts run thru here 
-	FACTOID verbHead;			//  start threads for facts run thru here 
-	FACTOID objectHead;			//  start threads for facts run thru here 
-  	
-	MEANING  meanings;			//  list of meanings (synsets) of this word - Will be wordnet synset id OR self ptr -- 1-based since 0th meaning means all meanings
-    unsigned int length;		//  length of the word
-  	unsigned int inferMark;		// (functions use as trace control bits) no need to erase been here marker during marking facts, inferencing (for propogation) and during scriptcompile 
-    MEANING spellNode;			// next word of same length as this - not used for function names (time tracing bits go here) and concept names
-  	unsigned int nextNode;		// bucket-link for dictionary hash + top bye GETMULTIWORDHEADER // can this word lead a phrase to be joined - can vary based on :build state -- really only needs 4 bits
-	
-	union {
-		unsigned int topicIndex;	//   for a ~topic or %systemVariable or plan, this is its id
-		unsigned int codeIndex;		//   for a system function, its the table index for it
-		unsigned int debugIndex;	//   for a :test function, its the table index for it
-	}x;
-
-#ifndef DISCARDCOUNTER
-	unsigned int counter;			// general storage slot
-#endif
-} WORDENTRY;
 
 #include "dictionaryMore.h"
 

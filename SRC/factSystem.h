@@ -1,7 +1,7 @@
 #ifndef _FACTSYSTEMH_
 #define _FACTSYSTEMH_
 #ifdef INFORMATION
-Copyright (C) 2011-2017 by Bruce Wilcox
+Copyright (C)2011-2018 by Bruce Wilcox
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
@@ -34,7 +34,7 @@ typedef struct FACT
 
 	uint64 botBits;		// which bots can access this fact (up to 64)
 } FACT;
-
+extern int worstFactFree;
 extern FACT* factBase;		//   start of fact space
 extern FACT* factEnd;		//   end of fact space
 extern FACT* currentFact;	//   most recent fact found or created
@@ -48,7 +48,6 @@ extern MEANING Mis;
 
 extern size_t maxFacts;		// allocation limit of facts
 extern uint64 myBot;
-
 void SortFacts(char* set, int alpha, int setpass = -1);
 
 // fact index accessing

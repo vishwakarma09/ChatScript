@@ -88,13 +88,6 @@ DISCARD
 	CANONLYBE VERB_BITS
 KEEP
 
-# if conflict like this  can (Aux_verb_present +Verb_present) not do (+Verb_infinitive +Verb_present)  be aux
-0	INCLUDE * AUX_VERB
-	STAY CANONLYBE VERB_BITS AUX_VERB
-	ISORIGINAL not
-	HAS VERB_BITS
-KEEP
-
 # aux must have verb later somewhere
 0	INCLUDE * AUX_VERB
 	STAY !POSTPOS VERB_BITS

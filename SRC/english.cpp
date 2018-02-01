@@ -1,7 +1,7 @@
 
 #include "common.h"
 
-unsigned int posTiming;
+uint64 posTiming;
 
 typedef struct EndingInfo 
 {
@@ -526,11 +526,18 @@ static int64 ProcessNumber(int at, char* original, WORDP& revise, WORDP &entry, 
 		else
 		{
 			int64 val = Convert2Integer(original, numberStyle);
+			if (val == NOT_A_NUMBER && IsNumber(original, numberStyle, false))
+			{
+				strcpy(number, original);
+			}
+			else
+			{
 #ifdef WIN32
-			sprintf(number, (char*)"%I64d", val);
+				sprintf(number, (char*)"%I64d", val);
 #else
-			sprintf(number, (char*)"%lld", val);
+				sprintf(number, (char*)"%lld", val);
 #endif
+			}
 		}
 		properties = ADJECTIVE | NOUN | ADJECTIVE_NUMBER | NOUN_NUMBER | (baseflags & (PREDETERMINER | DETERMINER));
 		if (percent) original[len - 1] = '%';
@@ -735,27 +742,27 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 	if (!ZZ) {;}
 	else if (ZZ->properties & (PRONOUN_SUBJECT|PRONOUN_OBJECT))
 	{
-		entry =  canonical = ZZ;
+		entry =  ZZ;
 		original = AllocateHeap(entry->word);
 		if (revise) revise = entry;
 	}
 	else if (start != at && tokenControl & STRICT_CASING) {;} // believe all upper case items not at sentence start when using strict casing
 	else if (ZZ->properties & (DETERMINER|PREPOSITION|PRONOUN_POSSESSIVE|PRONOUN_BITS|AUX_VERB) && IsNumber(original, numberStyle) == NOT_A_NUMBER ) // prep and determiner are ALWAYS considered lowercase for parsing (which happens later than proper name extraction)
 	{
-		entry =  canonical = ZZ;
+		entry =  ZZ;
 		original = AllocateHeap(entry->word);
 		if (revise) revise = entry;
 		if (ZZ->properties & (MORE_FORM|MOST_FORM)) canonical = NULL;	// we dont know yet
 	}
 	else if (at > 0 && ZZ->properties & (DETERMINER_BITS|PREPOSITION|CONJUNCTION|AUX_VERB) && strcmp(original,(char*)"May") && (*wordStarts[at-1] == '-' || *wordStarts[at-1] == ':' || *wordStarts[at-1] == '"' || at == startSentence || !(STRICT_CASING  & tokenControl))) // not the month
 	{
-		entry =  canonical = ZZ; //force lower case on all determiners and such
+		entry =  ZZ; //force lower case on all determiners and such
 		original = AllocateHeap(entry->word);
 		if (revise) revise = entry;
 	}
 	else if (at == start && ZZ->properties & VERB_INFINITIVE && !entry) // upper case start has no meaning but could be imperative verb, be that
 	{
-		entry = canonical = ZZ;
+		entry = ZZ;
 		original = AllocateHeap(entry->word);
 		if (revise) revise = entry;
 	}
@@ -768,7 +775,7 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 	}
 	else if (csEnglish && at > 0 && !stricmp(original,(char*)"'s") && (!stricmp(wordStarts[at-1],(char*)"there") || !stricmp(wordStarts[at-1],(char*)"it") || !stricmp(wordStarts[at-1],(char*)"who") || !stricmp(wordStarts[at-1],(char*)"what")  || !stricmp(wordStarts[at-1],(char*)"that") )) //there 's and it's  who's what's
 	{
-		entry = canonical = FindWord((char*)"is",0,LOWERCASE_LOOKUP);
+		entry = FindWord((char*)"is",0,LOWERCASE_LOOKUP);
 		original = AllocateHeap(entry->word);
 		if (revise) revise = entry;
 	}
@@ -797,7 +804,7 @@ uint64 GetPosData( int at, char* original,WORDP& revise, WORDP &entry,WORDP &can
 		WORDP check = FindWord(original,0,LOWERCASE_LOOKUP);
 		if (check && check->properties & (PREPOSITION|DETERMINER_BITS|CONJUNCTION|PRONOUN_BITS|POSSESSIVE_BITS)) 
 		{
-			entry =  canonical = FindWord(original,0,LOWERCASE_LOOKUP); //force lower case pronoun, dont want "His" as plural of HI nor thi's
+			entry =  FindWord(original,0,LOWERCASE_LOOKUP); //force lower case pronoun, dont want "His" as plural of HI nor thi's
 			original = AllocateHeap(entry->word);
 			if (revise) revise = entry;
 		}
@@ -2126,7 +2133,8 @@ char* GetInfinitive(char* word, bool nonew)
 		unsigned int n = 10;
         while (--n && D) //   scan all the conjugations 
         {
-            if (D->properties & VERB_INFINITIVE) return D->word; 
+            if (D->properties & VERB_INFINITIVE) 
+                return D->word; 
             D = GetTense(D); //   known irregular
         }
     }

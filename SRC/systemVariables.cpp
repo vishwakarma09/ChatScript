@@ -1,14 +1,5 @@
 #include "common.h"
 
-typedef char* (*SYSTEMVARPTR)(char* value); //   value is strictly overrride for testing
-
-typedef struct SYSTEMVARIABLE
-{
-    const char* name;			// script name
-    SYSTEMVARPTR address;		// function used to access it
-	const char* comment;		// description
-} SYSTEMVARIABLE;
-
 extern SYSTEMVARIABLE sysvars[];
 
 char* compileDate = __DATE__    " "  __TIME__;
@@ -147,6 +138,17 @@ char* SFullTime(char* value)
     return systemValue;
 }
 
+static char* SFullTimeMS(char* value)
+{
+    // full time in milliseconds
+    static char hold[50] = ".";
+    if (value) return AssignValue(hold, value);
+    if (*hold != '.') return hold;
+    uint64 elapsedMS = ElapsedMilliseconds();
+    sprintf(systemValue, (char*)"%u", (unsigned int)elapsedMS);
+    return systemValue;
+}
+
 static char* Shour(char* value)
 {
 	static char hold[50] = ".";
@@ -272,7 +274,7 @@ static char* Svolleytime(char* value)
 	if (value) return AssignValue(hold,value);
 	if (*hold != '.') return hold;
 	if (regression) return "12";
-	clock_t diff = ElapsedMilliseconds() - startTimeInfo;
+	uint64 diff = ElapsedMilliseconds() - startTimeInfo;
     sprintf(systemValue,(char*)"%u",(unsigned int)diff);
     return systemValue;
 }
@@ -991,7 +993,8 @@ SYSTEMVARIABLE sysvars[] =
 	{ (char*)"%day",SdayOfWeek,(char*)"Named day of the week"}, 
 	{ (char*)"%daynumber",SdayNumberOfWeek,(char*)"Numeric day of week (0=sunday)"},  
 	{ (char*)"%fulltime",SFullTime,(char*)"Numeric full time/date in seconds"}, 
-	{ (char*)"%hour",Shour,(char*)"Numeric 2-digit current hour of day (00..23)"}, 
+    { (char*)"%fullmstime",SFullTimeMS,(char*)"Numeric full time/date in milliseconds" },
+    { (char*)"%hour",Shour,(char*)"Numeric 2-digit current hour of day (00..23)"},
 	{ (char*)"%leapyear",SleapYear,(char*)"Boolean - is it a leap year"}, 
 	{ (char*)"%minute",Sminute,(char*)"Numeric 2-digit current minute"}, 
 	{ (char*)"%month",Smonth,(char*)"Numeric month number (1..12)"},

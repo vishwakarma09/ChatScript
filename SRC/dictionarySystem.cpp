@@ -2,66 +2,66 @@
 
 #ifdef INFORMATION
 
-This file covers routines that create and access a "dictionary entry" (WORDP) and the "meaning" of words (MEANING).
+This file covers routines that create and access a "dictionary entry" (WORDP) and the "meaning" of words(MEANING).
 
 The dictionary acts as the central hash mechanism for accessing various kinds of data.
 
-The dictionary consists of data imported from WORDNET 3.0 (copyright notice at end of file) + augmentations + system and script pseudo-words.
+The dictionary consists of data imported from WORDNET 3.0 (copyright notice at end of file) + augmentations + system and script pseudo - words.
 
-A word also gets the WordNet meaning ontology (->meanings & ->meaningCount). The definition of meaning in WordNet 
-is words that are synonyms in some particular context. Such a collection in WordNet is called a synset. 
+A word also gets the WordNet meaning ontology(->meanings &->meaningCount).The definition of meaning in WordNet
+is words that are synonyms in some particular context.Such a collection in WordNet is called a synset.
 
-Since words can have multiple meanings (and be multiple parts of speech), the flags of a word are a summary
-of all of the properties it might have and it has a list of entries called "meanings". Each entry is a MEANING 
-and points to the circular list, one of which marks the word you land at as the synset head. 
- This is referred to as the "master" meaning and has the gloss (definition) of the meaning. The meaning list of a master node points back to 
+Since words can have multiple meanings(and be multiple parts of speech), the flags of a word are a summary
+of all of the properties it might have and it has a list of entries called "meanings".Each entry is a MEANING
+and points to the circular list, one of which marks the word you land at as the synset head.
+This is referred to as the "master" meaning and has the gloss(definition) of the meaning.The meaning list of a master node points back to
 all the real words which comprise it.
 
 Since WordNet has an ontology, its synsets are hooked to other synsets in various relations, particular that
-of parent and child. ChatScript represents these as facts. The hierarchy relation uses the verb "is" and
-has the child as subject and the parent as object. Such a fact runs from the master entries, not any of the actual 
-word entries. So to see if "dog" is an "animal", you could walk every meaning list of the word animal and
-mark the master nodes they point at. Then you would search every meaning of dog, jumping to the master nodes,
-then look at facts with the master node as subject and the verb "is" and walk up to the object. If the object is 
-marked, you are there. Otherwise you take that object node as subject and continue walking up. Eventually you arrive at
+of parent and child.ChatScript represents these as facts.The hierarchy relation uses the verb "is" and
+has the child as subject and the parent as object.Such a fact runs from the master entries, not any of the actual
+word entries.So to see if "dog" is an "animal", you could walk every meaning list of the word animal and
+mark the master nodes they point at.Then you would search every meaning of dog, jumping to the master nodes,
+then look at facts with the master node as subject and the verb "is" and walk up to the object.If the object is
+marked, you are there.Otherwise you take that object node as subject and continue walking up.Eventually you arrive at
 a marked node or run out at the top of the tree.
 
-Some words DO NOT have a master node. Their meaning is defined to be themselves (things like pronouns or determiners), so
+Some words DO NOT have a master node.Their meaning is defined to be themselves(things like pronouns or determiners), so
 their meaning value for a meaning merely points to themselves.
 The meaning system is established by building the dictionary and NEVER changes thereafter by chatbot execution.
 New words can transiently enter the dictionary for various purposes, but they will not have "meanings".
 
-A MEANING is a reference to a specific meaning of a specific word. It is an index into the dictionary 
-(identifying the word) and an index into that words meaning list (identifying the specific meaning).
-An meaning list index of 0 refers to all meanings of the word. A meaning index of 0 can also be type restricted
+A MEANING is a reference to a specific meaning of a specific word.It is an index into the dictionary
+(identifying the word) and an index into that words meaning list(identifying the specific meaning).
+An meaning list index of 0 refers to all meanings of the word.A meaning index of 0 can also be type restricted
 so that it only refers to noun, verb, adjective, or adverb meanings of the word.
 
-Since there are only two words in WordNet with more than 63 meanings (break and cut) we limit all words to having no
-more than 63 meanings by discarding the excess meanings. Since meanings are stored most important first,
-these are no big loss. This leaves room for the 5 essential type flags used for restricting a generic meaning.
+Since there are only two words in WordNet with more than 63 meanings(break and cut) we limit all words to having no
+more than 63 meanings by discarding the excess meanings.Since meanings are stored most important first,
+these are no big loss.This leaves room for the 5 essential type flags used for restricting a generic meaning.
 
-Space for dictionary words comes from a common pool. Dictionary words are
-allocated linearly forward in the pool. Strings have their own pool (the heap).
+Space for dictionary words comes from a common pool.Dictionary words are
+allocated linearly forward in the pool.Strings have their own pool(the heap).
 All dictionary entries are indexable as a giant array.
 
-The dictionary separately stores uppercase and lowercase forms of the same words (since they have different meanings).
-There is only one uppercase form stored, so United and UnItED would be saved as one entry. The system will have
-to decide which case a user intended, since they may not have bothered to capitalize a proper noun, or they 
+The dictionary separately stores uppercase and lowercase forms of the same words(since they have different meanings).
+There is only one uppercase form stored, so United and UnItED would be saved as one entry.The system will have
+to decide which case a user intended, since they may not have bothered to capitalize a proper noun, or they
 may have shouted a lowercase noun, and a noun at the start of the sentence could be either proper or not.
 
 Dictionary words are hashed as lower case, but if the word has an upper case letter it will be stored
-in the adjacent higher bucket. Words of the basic system are stored in their appropriate hash bucket.
-After the basic system is read in, the dictionary is frozen. This means it remembers the spots the allocation
-pointers are at for the dictionary and heap space and is using mark-release memory management.
-The hash buckets are themselves dictionary entries, sharing space. After the basic layers are loaded,
-new dictionary entries are always allocated. Until then, if the word hashs to an empty bucket, that bucket
+in the adjacent higher bucket.Words of the basic system are stored in their appropriate hash bucket.
+After the basic system is read in, the dictionary is frozen.This means it remembers the spots the allocation
+pointers are at for the dictionary and heap space and is using mark - release memory management.
+The hash buckets are themselves dictionary entries, sharing space.After the basic layers are loaded,
+new dictionary entries are always allocated.Until then, if the word hashs to an empty bucket, that bucket
 becomes the dictionary entry being added.
 
-We mark sysnet entries with the word & meaning number & POS of word in the dictionary entry. The POS not used explicitly by lots of the system
-but is needed when seeing the dictionary definitions (:word) and if one wants to use pos-restricted meanings in a match or in keywords.
+We mark sysnet entries with the word & meaning number & POS of word in the dictionary entry.The POS not used explicitly by lots of the system
+but is needed when seeing the dictionary definitions(:word) and if one wants to use pos - restricted meanings in a match or in keywords.
 
 #endif
-
+int worstDictAvail = 1000000;
 bool dictionaryBitsChanged = false;
 unsigned int propertyRedefines = 0;	// property changes on locked dictionary entries
 unsigned int flagsRedefines = 0;		// systemflags changes on locked dictionary entries
@@ -511,7 +511,7 @@ bool ReadForeignPosTags(char* fname)
 			uint64 val = FindValueByName(flag);
 			if (!val)
 			{
-				printf("Unable to find flag %s\r\n", flag);
+				(*printer)("Unable to find flag %s\r\n", flag);
 			}
 			flags |= val;
 		}
@@ -619,7 +619,7 @@ void BuildDictionary(char* label)
 	if (miniDict && miniDict != 6) StoreWord((char*)"minidict"); // mark it as a mini dictionary
 
 	// dictionary has been built now
-	printf((char*)"%s",(char*)"Dumping dictionary\r\n");
+	(*printer)((char*)"%s",(char*)"Dumping dictionary\r\n");
 	ClearDictionaryFiles();
 	WalkDictionary(WriteDictionary);
 	if (makeBaseList) BuildShortDictionaryBase(); // write out the basic dictionary
@@ -629,7 +629,7 @@ void BuildDictionary(char* label)
 	sprintf(logFilename,(char*)"%s/build_log.txt",users); // all data logged here by default
 	FILE* out = FopenUTF8Write(logFilename);
 	FClose(out);
-	printf((char*)"dictionary dump complete %d\r\n",miniDict);
+	(*printer)((char*)"dictionary dump complete %d\r\n",miniDict);
 
     echo = true;
 	xbuildDictionary = false;
@@ -973,10 +973,12 @@ static WORDP AllocateEntry()
 {
 	WORDP  D = dictionaryFree++;
 	int index = Word2Index(D);
-	if (index >= maxDictEntries)
+    int avail = maxDictEntries - index;
+	if (avail <= 0)
 	{
 		ReportBug((char*)"FATAL: used up all dict nodes\r\n")
 	}
+    if (avail < worstDictAvail) worstDictAvail = avail;
     memset(D,0,sizeof(WORDENTRY));
 	return D;
 }
@@ -1108,7 +1110,7 @@ void AddCircularEntry(WORDP base, unsigned int field,WORDP entry)
 	else return;
 	if (D) 
 	{
-		printf((char*)"%s already on circular list of %s\r\n",entry->word, base->word);
+		(*printer)((char*)"%s already on circular list of %s\r\n",entry->word, base->word);
 		return;
 	}
 
@@ -1206,7 +1208,7 @@ void WriteDictDetailsBeforeLayer(int layer)
 	}
 	else 
 	{
-		printf((char*)"%s",(char*)"Unable to open TMP prebuild file\r\n");
+		(*printer)((char*)"%s",(char*)"Unable to open TMP prebuild file\r\n");
 		Log(STDTRACELOG,(char*)"Unable to open TMP prebuild file\r\n");
 	}
 }
@@ -1538,7 +1540,7 @@ void WriteBinaryDictionary()
 
 	int unused = 0;
 	for (int i = 1; i <= maxHashBuckets; ++i) if (!hashbuckets[i]) ++unused;
-	printf((char*)"binary dictionary %d buckets %ld dict written %d unused buckets\r\n", maxHashBuckets, (long int)(dictionaryFree - dictionaryBase - 1),unused);
+	(*printer)((char*)"binary dictionary %d buckets %ld dict written %d unused buckets\r\n", maxHashBuckets, (long int)(dictionaryFree - dictionaryBase - 1),unused);
 }
 
 static unsigned char Read8(FILE* in) 
@@ -1758,7 +1760,7 @@ static WORDP ReadBinaryEntry(FILE* in)
 	}
 	if (Read8(0) != '0')
 	{
-		printf((char*)"Bad Binary Dictionary entry, rebuild the binary dictionary %s\r\n",name);
+		(*printer)((char*)"Bad Binary Dictionary entry, rebuild the binary dictionary %s\r\n",name);
 		myexit((char*)"bad binary entry rebuilding");
 	}
 	return D;
@@ -2548,7 +2550,7 @@ void ReadSubstitutes(const char* name,unsigned int build,const char* layer, unsi
 		AddInternalFlag(D,fileFlag|HAS_SUBSTITUTE|build);
 		D->w.glosses = NULL;
 		if (!(D->systemFlags & CONDITIONAL_IDIOM)) D->w.substitutes = NULL;
-		else printf((char*)"BAD Substitute conflicts with conditional idiom %s\r\n",original);
+		else (*printer)((char*)"BAD Substitute conflicts with conditional idiom %s\r\n",original);
 		if (GetPlural(D))  SetPlural(D,0); // why?
 		if (GetComparison(D))  SetComparison(D,0);
 		if (GetTense(D)) SetTense(D,0);
@@ -2774,14 +2776,14 @@ static void ReadPosPatterns(char* file)
 			c = 0;
 			if (!IsDigit(word[0]) && word[0] != '-')
 			{
-				printf((char*)"Missing reverse offset  %s rule: %d comment: %s\r\n", word, tagRuleCount, comment);
+				(*printer)((char*)"Missing reverse offset  %s rule: %d comment: %s\r\n", word, tagRuleCount, comment);
 				FClose(in);
 				return;
 			}
 			c = atoi(word);
 			if (c < -3 || c > 3) // 3 bits
 			{
-				printf((char*)"Bad offset (+-3 max)  %s rule: %d comment: %s\r\n", word, tagRuleCount, comment);
+				(*printer)((char*)"Bad offset (+-3 max)  %s rule: %d comment: %s\r\n", word, tagRuleCount, comment);
 				FClose(in);
 				return;
 			}
@@ -2792,7 +2794,7 @@ static void ReadPosPatterns(char* file)
 			c = atoi(word);
 			if (c < -3 || c > 3) // 3 bits
 			{
-				printf((char*)"Bad offset (+-3 max)  %s rule: %d comment: %s\r\n", word, tagRuleCount, comment);
+				(*printer)((char*)"Bad offset (+-3 max)  %s rule: %d comment: %s\r\n", word, tagRuleCount, comment);
 				FClose(in);
 				return;
 			}
@@ -2854,8 +2856,8 @@ static void ReadPosPatterns(char* file)
 				skipped = true;
 				if (resultIndex == -1)
 				{
-					if (!reverse) printf((char*)"Cannot do SKIP before the primary field -- offsets are unreliable (need to use REVERSE) Rule: %d comment: %s at line %d in %s\r\n", tagRuleCount, comment, currentFileLine, currentFilename);
-					else printf((char*)"Cannot do SKIP before the primary field -- offsets are unreliable Rule: %d comment: %s at line %d in %s\r\n", tagRuleCount, comment, currentFileLine, currentFilename);
+					if (!reverse) (*printer)((char*)"Cannot do SKIP before the primary field -- offsets are unreliable (need to use REVERSE) Rule: %d comment: %s at line %d in %s\r\n", tagRuleCount, comment, currentFileLine, currentFilename);
+					else (*printer)((char*)"Cannot do SKIP before the primary field -- offsets are unreliable Rule: %d comment: %s at line %d in %s\r\n", tagRuleCount, comment, currentFileLine, currentFilename);
 					FClose(in);
 					return;
 				}
@@ -2871,13 +2873,13 @@ static void ReadPosPatterns(char* file)
 			{
 				if (!stricmp(word + 1, (char*)"ROLE") || !stricmp(word + 1, (char*)"NEED"))
 				{
-					printf((char*)"Cannot do !ROLE or !NEED Rule: %d comment: %s at line %d in %s\r\n", tagRuleCount, comment, currentFileLine, currentFilename);
+					(*printer)((char*)"Cannot do !ROLE or !NEED Rule: %d comment: %s at line %d in %s\r\n", tagRuleCount, comment, currentFileLine, currentFilename);
 					FClose(in);
 					return;
 				}
 				if (!stricmp(word + 1, (char*)"STAY"))
 				{
-					printf((char*)"Cannot do !STAY (move ! after STAY)  Rule: %d comment: %s at line %d in %s\r\n", tagRuleCount, comment, currentFileLine, currentFilename);
+					(*printer)((char*)"Cannot do !STAY (move ! after STAY)  Rule: %d comment: %s at line %d in %s\r\n", tagRuleCount, comment, currentFileLine, currentFilename);
 					FClose(in);
 					return;
 				}
@@ -2887,14 +2889,14 @@ static void ReadPosPatterns(char* file)
 				if (val == 0) val = FindSystemValueByName(word + 1);
 				if (val == 0)
 				{
-					printf((char*)"Bad notted control word %s rule: %d comment: %s at line %d in %s\r\n", word, tagRuleCount, comment, currentFileLine, currentFilename);
+					(*printer)((char*)"Bad notted control word %s rule: %d comment: %s at line %d in %s\r\n", word, tagRuleCount, comment, currentFileLine, currentFilename);
 					FClose(in);
 					return;
 				}
 
 				if (!stricmp(word + 1, (char*)"include"))
 				{
-					printf((char*)"Use !has instead of !include-  %s rule: %d comment: %s at line %d in %s\r\n", word, tagRuleCount, comment, currentFileLine, currentFilename);
+					(*printer)((char*)"Use !has instead of !include-  %s rule: %d comment: %s at line %d in %s\r\n", word, tagRuleCount, comment, currentFileLine, currentFilename);
 					FClose(in);
 					return;
 				}
@@ -2911,7 +2913,7 @@ static void ReadPosPatterns(char* file)
 				if (val == 0) val = FindMiscValueByName(word);
 				if (val == 0 || val > LASTCONTROL)
 				{
-					printf((char*)"Bad control word %s rule: %d comment: %s at line %d in %s\r\n", word, tagRuleCount, comment, currentFileLine, currentFilename);
+					(*printer)((char*)"Bad control word %s rule: %d comment: %s at line %d in %s\r\n", word, tagRuleCount, comment, currentFileLine, currentFilename);
 					FClose(in);
 					return;
 				}
@@ -2937,7 +2939,7 @@ static void ReadPosPatterns(char* file)
 					if (baseval == ISCANONICAL || baseval == ISORIGINAL || baseval == PRIORCANONICAL || baseval == PRIORORIGINAL || baseval == POSTORIGINAL)
 					{
 						if ((!*word || *word == '#') && !foundarg) // missing argument
-							printf((char*)"Missing word argument for %s rule: %d %s at line %d in %s?\r\n", word, tagRuleCount, comment, currentFileLine, currentFilename);
+							(*printer)((char*)"Missing word argument for %s rule: %d %s at line %d in %s?\r\n", word, tagRuleCount, comment, currentFileLine, currentFilename);
 						foundarg = true;
 					}
 					if (!*word || *word == '#') break;	// end of flags
@@ -2945,7 +2947,7 @@ static void ReadPosPatterns(char* file)
 					{
 						if ((FindValueByName(word) || FindParseValueByName(word)) && stricmp(word, (char*)"not") && !once)
 						{
-							printf((char*)"Did you intend to use HASORIGINAL for %s rule: %d %s at line %d in %s?\r\n", word, tagRuleCount, comment, currentFileLine, currentFilename);
+							(*printer)((char*)"Did you intend to use HASORIGINAL for %s rule: %d %s at line %d in %s?\r\n", word, tagRuleCount, comment, currentFileLine, currentFilename);
 							once = true;
 						}
 						v = MakeMeaning(StoreWord(word));
@@ -2962,13 +2964,13 @@ static void ReadPosPatterns(char* file)
 					{
 						if (offset != 0)
 						{
-							printf((char*)"INCLUDE * must be centered at 0 rule: %d comment: %s at line %d in %s\r\n", tagRuleCount, comment, currentFileLine, currentFilename);
+							(*printer)((char*)"INCLUDE * must be centered at 0 rule: %d comment: %s at line %d in %s\r\n", tagRuleCount, comment, currentFileLine, currentFilename);
 							FClose(in);
 							return;
 						}
 						if (resultIndex != -1)
 						{
-							printf((char*)"Already have pattern result bits %s rule: %d comment: %s at line %d in %s\r\n", word, tagRuleCount, comment, currentFileLine, currentFilename);
+							(*printer)((char*)"Already have pattern result bits %s rule: %d comment: %s at line %d in %s\r\n", word, tagRuleCount, comment, currentFileLine, currentFilename);
 							FClose(in);
 							return;
 						}
@@ -2981,14 +2983,14 @@ static void ReadPosPatterns(char* file)
 						v = MakeMeaning(D);
 						if (!v)
 						{
-							printf((char*)"Failed to find set %s - POS tagger incomplete because build 0 not yet done.\r\n", word);
+							(*printer)((char*)"Failed to find set %s - POS tagger incomplete because build 0 not yet done.\r\n", word);
 						}
 					}
 					else if (baseval == ISQUESTION)
 					{
 						if (!stricmp(word, (char*)"aux")) v = AUXQUESTION;
 						else if (!stricmp(word, (char*)"qword")) v = QWORDQUESTION;
-						else printf((char*)"Bad ISQUESTION %s\r\n", word);
+						else (*printer)((char*)"Bad ISQUESTION %s\r\n", word);
 					}
 					else
 					{
@@ -3000,25 +3002,25 @@ static void ReadPosPatterns(char* file)
 							if (v == 0) v = FindMiscValueByName(word);
 							if (!v)
 							{
-								printf((char*)"Bad flag word %s rule: %d %s at line %d in %s\r\n", word, tagRuleCount, comment, currentFileLine, currentFilename);
+								(*printer)((char*)"Bad flag word %s rule: %d %s at line %d in %s\r\n", word, tagRuleCount, comment, currentFileLine, currentFilename);
 								FClose(in);
 								return;
 							}
 						}
 						else if (v & (NOUN | VERB | ADJECTIVE) && baseval != HASALLPROPERTIES && baseval != HASPROPERTY && baseval != ISPROBABLE)
 						{
-							printf((char*)"Bad flag word overlaps BASIC bits %s rule: %d %s at line %d in %s\r\n", word, tagRuleCount, comment, currentFileLine, currentFilename);
+							(*printer)((char*)"Bad flag word overlaps BASIC bits %s rule: %d %s at line %d in %s\r\n", word, tagRuleCount, comment, currentFileLine, currentFilename);
 							FClose(in);
 							return;
 						}
 						if (baseval == PRIORPOS || baseval == POSTPOS)
 						{
-							if (!(kind & STAY)) printf((char*)"PRIORPOS and POSTPOS should use STAY as well - rule: %d %s at line %d in %s\r\n", tagRuleCount, comment, currentFileLine, currentFilename);
+							if (!(kind & STAY)) (*printer)((char*)"PRIORPOS and POSTPOS should use STAY as well - rule: %d %s at line %d in %s\r\n", tagRuleCount, comment, currentFileLine, currentFilename);
 						}
 						if (baseval == IS || baseval == HAS || baseval == HASPROPERTY || baseval == ISPROBABLE || baseval == CANONLYBE || baseval == PARSEMARK || baseval == PRIORPOS || baseval == POSTPOS)
 						{
 							if (v & 0xFFFF000000000000ULL)
-								printf((char*)"Bad  bits overlap control fields %s rule: %d %s at line %d in %s\r\n", word, tagRuleCount, comment, currentFileLine, currentFilename);
+								(*printer)((char*)"Bad  bits overlap control fields %s rule: %d %s at line %d in %s\r\n", word, tagRuleCount, comment, currentFileLine, currentFilename);
 						}
 
 						if (subtract)
@@ -3033,7 +3035,7 @@ static void ReadPosPatterns(char* file)
 			}
 			if (includes > 1)
 			{
-				printf((char*)"INCLUDE should only be on primary field - use HAS Rule: %d %s at line %d in %s\r\n", tagRuleCount, comment, currentFileLine, currentFilename);
+				(*printer)((char*)"INCLUDE should only be on primary field - use HAS Rule: %d %s at line %d in %s\r\n", tagRuleCount, comment, currentFileLine, currentFilename);
 				FClose(in);
 				return;
 			}
@@ -3049,7 +3051,7 @@ static void ReadPosPatterns(char* file)
 		if (!stricmp(word, (char*)"KEEP") || !stricmp(word, (char*)"DISCARD") || !stricmp(word, (char*)"DISABLE")) { ; }
 		else
 		{
-			printf((char*)"Too many fields before result %s: %d %s\r\n", word, tagRuleCount, comment);
+			(*printer)((char*)"Too many fields before result %s: %d %s\r\n", word, tagRuleCount, comment);
 			FClose(in);
 			return;
 		}
@@ -3064,19 +3066,19 @@ static void ReadPosPatterns(char* file)
 		else if (!stricmp(word, (char*)"DISCARD")) { ; }
 		else
 		{
-			printf((char*)"Too many fields before result? %s  rule: %d comment: %s  at line %d in %s\r\n", word, tagRuleCount, comment, currentFileLine, currentFilename);
+			(*printer)((char*)"Too many fields before result? %s  rule: %d comment: %s  at line %d in %s\r\n", word, tagRuleCount, comment, currentFileLine, currentFilename);
 			FClose(in);
 			return;
 		}
 		if (resultIndex == -1)
 		{
-			printf((char*)"Needs * on result bits %s rule: %d comment: %s\r\n", word, tagRuleCount, comment);
+			(*printer)((char*)"Needs * on result bits %s rule: %d comment: %s\r\n", word, tagRuleCount, comment);
 			FClose(in);
 			return;
 		}
 
 		*base |= ((uint64)resultIndex) << RESULT_SHIFT;
-		if (backwards && !skipped) printf((char*)"Running backwards w/o a skip? Use forwards with minus start. %d %s.   at line %d in %s \r\n", tagRuleCount, comment, currentFileLine, currentFilename);
+		if (backwards && !skipped) (*printer)((char*)"Running backwards w/o a skip? Use forwards with minus start. %d %s.   at line %d in %s \r\n", tagRuleCount, comment, currentFileLine, currentFilename);
 
 		commentsData[tagRuleCount] = AllocateHeap(comment);
 		++tagRuleCount;
@@ -3179,8 +3181,8 @@ static bool ReadAsciiDictionary()
 	}
 	if (!ReadDictionary(UseDictionaryFile((char*)"other.txt"))) ++n;
 	else found = true;
-	if (n) printf((char*)"Missing %d word files\r\n",n);
-	printf((char*)"read %d raw words\r\n",rawWords);
+	if (n) (*printer)((char*)"Missing %d word files\r\n",n);
+	(*printer)((char*)"read %d raw words\r\n",rawWords);
 	return found;
 }
 
@@ -3593,7 +3595,7 @@ void DumpDictionaryEntry(char* word,unsigned int limit)
 	uint64 xflags = 0;
 	WORDP revise;
 	uint64 inferredProperties = (name[0] != '~' && name[0] != '^') ? GetPosData(-1,name,revise,entry,canonical,xflags,cansysflags) : 0; 
-	if (D != entry) Log(STDTRACELOG, (char*)"\r\n  Changed to %s\r\n",entry->word);
+	if (entry && D != entry) Log(STDTRACELOG, (char*)"\r\n  Changed to %s\r\n",entry->word);
 	sysflags |= xflags;
 	bit = START_BIT;
 	bool extended = false;
@@ -7116,7 +7118,6 @@ void ReadForeign()
 		ptr = strrchr(readBuffer, '`');
 		if (!ptr) continue; // no lemma
 		uint64 flag = 0;
-		char junk[MAX_WORD_SIZE];
 		++ptr;
 		while (*ptr)
 		{
@@ -7150,7 +7151,7 @@ static void ReadEnglish(int mini)
 	if (mini <= 0) 	readSupplementalWord("RAWDICT/foreign.txt", FOREIGN_WORD, 0); // only on a full dictionary
 
 																				  //   noun data
-	printf("reading noun data\r\n");
+	(*printer)("reading noun data\r\n");
 	readData("RAWDICT/WORDNET/data.noun"); //   
 	readIndex("RAWDICT/WORDNET/index.noun", 0); //   
 	readIrregularNouns("RAWDICT/noun_irregular.txt");
@@ -7173,7 +7174,7 @@ static void ReadEnglish(int mini)
 	readWordKind("RAWDICT/timewords.txt", TIMEWORD);
 
 	//   adjectives
-	printf("reading adjectives\r\n");
+	(*printer)("reading adjectives\r\n");
 	readData("RAWDICT/WORDNET/data.adj"); //   
 	readIndex("RAWDICT/WORDNET/index.adj", NOUN | VERB); //   
 	readSupplementalWord("RAWDICT/adj_more.txt", ADJECTIVE | ADJECTIVE_NORMAL, 0);
@@ -7185,7 +7186,7 @@ static void ReadEnglish(int mini)
 	AdjNotPredicate("RAWDICT/adj_notpredicate.txt");
 
 	//   adverbs (before verbs to detect separable phrasal adverbs)
-	printf("reading adverbs\r\n");
+	(*printer)("reading adverbs\r\n");
 	readData("RAWDICT/WORDNET/data.adv"); //   
 	readIndex("RAWDICT/WORDNET/index.adv", NOUN | VERB | ADJECTIVE); //   
 	readSupplementalWord("RAWDICT/adv_more.txt", ADVERB, 0);
@@ -7206,7 +7207,7 @@ static void ReadEnglish(int mini)
 	ReadSystemFlaggedWords("RAWDICT/omittabletimepreps.txt", OMITTABLE_TIME_PREPOSITION);
 
 	//   verb data
-	printf("reading verb data\r\n");
+	(*printer)("reading verb data\r\n");
 	readData("RAWDICT/WORDNET/data.verb"); //   make this read data last, MUST BE after prepositions, so ONTOLOGY doesnt grow, we put verb forms at end of it
 	readIndex("RAWDICT/WORDNET/index.verb", NOUN); //   
 												   // readFix("RAWDICT/WORDNET/verb.exc",VERB);   file DOES NOT INSURE its inflected forms are correctly ordered or all there
@@ -7248,11 +7249,11 @@ static void ReadEnglish(int mini)
 	SetHelper("doing", VERB_PRESENT_PARTICIPLE | VERB);
 	SetHelper("did", VERB_PAST | VERB | AUX_DO);
 	SetHelper("done", VERB_PAST_PARTICIPLE | VERB);
-	SetHelper("get", VERB_PRESENT | AUX_BE | VERB | AUX_VERB_PRESENT | VERB_INFINITIVE); // get is treated as aux BE
-	SetHelper("got", VERB_PAST_PARTICIPLE | VERB_PAST | AUX_VERB_PAST | AUX_BE | VERB);	/// colloquial for passive past  // the window got closed
-	SetHelper("gotten", VERB_PAST_PARTICIPLE | VERB | AUX_VERB_PAST | AUX_BE);
-	SetHelper("gets", VERB_PRESENT_3PS | AUX_BE | AUX_VERB_PRESENT | VERB);
-	SetHelper("getting", VERB_PRESENT_PARTICIPLE | AUX_VERB_PRESENT | AUX_BE | VERB | NOUN_GERUND | NOUN | VERB | VERB_PRESENT_PARTICIPLE);
+	SetHelper("get", VERB_PRESENT |  VERB   | VERB_INFINITIVE); // get is treated as aux BE
+	SetHelper("got", VERB_PAST_PARTICIPLE | VERB_PAST   | VERB);	/// colloquial for passive past  // the window got closed
+	SetHelper("gotten", VERB_PAST_PARTICIPLE | VERB  );
+	SetHelper("gets", VERB_PRESENT_3PS |   VERB);
+	SetHelper("getting", VERB_PRESENT_PARTICIPLE |   VERB | NOUN_GERUND | NOUN | VERB | VERB_PRESENT_PARTICIPLE);
 	SetHelper("had_better", AUX_VERB_PRESENT);
 	SetHelper("may", AUX_VERB_FUTURE); // modal
 	SetHelper("might", AUX_VERB_FUTURE); // modal

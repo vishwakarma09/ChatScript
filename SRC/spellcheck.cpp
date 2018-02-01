@@ -314,38 +314,41 @@ char* ProbableKnownWord(char* word)
 	}
 
 	// interpolate to lower case words 
-	uint64 expectedBase = 0;
-	if (ProbableAdjective(word,len,expectedBase) && expectedBase) return word;
-	expectedBase = 0;
-	if (ProbableAdverb(word,len,expectedBase) && expectedBase) return word;
-	// is it a verb form
-	char* verb = GetInfinitive(lower,true); // no new verbs
-	if (verb)  return  StoreWord(lower,0)->word; // verb form recognized
-	
-	// is it simple plural of a noun?
-	if (word[len-1] == 's') 
-	{
-		WORDP E = FindWord(lower,len-1,LOWERCASE_LOOKUP);
-		if (E && E->properties & NOUN) 
-		{
-			E = StoreWord(word,NOUN|NOUN_PLURAL);
-			return E->word;	
-		}
-		E = FindWord(lower,len-1,UPPERCASE_LOOKUP);
-		if (E && E->properties & NOUN) 
-		{
-			*word = toUppercaseData[*word];
-			E = StoreWord(word,NOUN|NOUN_PROPER_PLURAL);
-			return E->word;	
-		}
-	}
+    if (!stricmp(language, "english"))
+    {
+        uint64 expectedBase = 0;
+        if (ProbableAdjective(word, len, expectedBase) && expectedBase) return word;
+        expectedBase = 0;
+        if (ProbableAdverb(word, len, expectedBase) && expectedBase) return word;
 
+        // is it a verb form
+        char* verb = GetInfinitive(lower, true); // no new verbs
+        if (verb)  return  StoreWord(lower, 0)->word; // verb form recognized
+
+        // is it simple plural of a noun?
+        if (word[len - 1] == 's')
+        {
+            WORDP E = FindWord(lower, len - 1, LOWERCASE_LOOKUP);
+            if (E && E->properties & NOUN)
+            {
+                E = StoreWord(word, NOUN | NOUN_PLURAL);
+                return E->word;
+            }
+            E = FindWord(lower, len - 1, UPPERCASE_LOOKUP);
+            if (E && E->properties & NOUN)
+            {
+                *word = toUppercaseData[*word];
+                E = StoreWord(word, NOUN | NOUN_PROPER_PLURAL);
+                return E->word;
+            }
+        }
+    }
 	return NULL;
 }
 
 bool SpellCheckSentence()
 {
-	WORDP D,E;
+	WORDP E;
 	fixedSpell = false;
 	int startWord = FindOOBEnd(1);
 	for (int i = startWord; i <= wordCount; ++i)
@@ -530,10 +533,17 @@ bool SpellCheckSentence()
 			}
 		}
 		
-		// words with excess repeated characters 2=>1
+		// words with excess repeated characters 2=>1 unless root noun or verb
 		len = strlen(word);
 		if (len < MAX_WORD_SIZE && !FindWord(word) && !IsDigit(word[1]) && word[1] != '.' && word[1] != ',')
 		{
+            if (!stricmp(language, "english"))
+            { 
+                char* noun = GetSingularNoun(word, false, true);
+                if (noun) continue;
+                char* verb = GetInfinitive(word, true);
+                if (verb) continue;
+            }
 			strcpy(excess, word);
 			bool change = false;
 			for (int j = 0; j < len; ++j)

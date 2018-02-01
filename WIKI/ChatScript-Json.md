@@ -1,6 +1,6 @@
 # ChatScript JSON Manual
 © Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 9/24/2017 cs7.55
+<br>Revision 1/31/2018 cs8.0
 
 # Real World JSON
 
@@ -319,7 +319,11 @@ Once there is a JSON array in $x.foo, assignments with `foo[]` will add
 elements to the array. You cannot designate the index, it will be the next index
 in succession.
 
-
+You can also do
+```
+    $_array1 +=  $_array2 -- copies contents of array2 into array1
+    $_array1 += value -- adds value into array1
+```
 
 The only restriction on arrays is that you cannot add a new array index value without using ^jsonarrayinsert
 as you are not allowed to create discontiguous indices.

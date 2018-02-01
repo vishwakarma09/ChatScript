@@ -253,7 +253,7 @@ void TCPServerSocket::setListen(int queueLen) throw(SocketException) {
 void Client(char* login)// test client for a server
 {
 	char word[MAX_WORD_SIZE];
-	printf((char*)"%s",(char*)"\r\n\r\n** Client launched\r\n");
+	(*printer)((char*)"%s",(char*)"\r\n\r\n** Client launched\r\n");
 	char* data = AllocateBuffer(); // limited size
 	char* input = AllocateBuffer(); // limited size
 	FILE* source = stdin;
@@ -263,7 +263,7 @@ void Client(char* login)// test client for a server
 	if (*from == '*') // let user go first.
 	{
 		++from;
-		printf((char*)"%s",(char*)"\r\ninput:    ");
+		(*printer)((char*)"%s",(char*)"\r\ninput:    ");
 		ReadALine(input,source);
 	}
 
@@ -305,7 +305,7 @@ SOURCE:
 			size_t len = (ptr-data) + 1 + strlen(ptr);
 			TCPSocket *sock = new TCPSocket(serverIP, (unsigned short)port);
 			sock->send(data, len );
-			printf((char*)"Sent %d bytes of data to port %d\r\n",(int)len, port);
+			(*printer)((char*)"Sent %d bytes of data to port %d\r\n",(int)len, port);
 
 			int bytesReceived = 1;              // Bytes read on each recv()
 			int totalBytesReceived = 0;         // Total bytes read
@@ -316,7 +316,7 @@ SOURCE:
 				bytesReceived = sock->recv(base, MAX_WORD_SIZE);
 				totalBytesReceived += bytesReceived;
 				base += bytesReceived;
-				printf((char*)"Received %d bytes\r\n",bytesReceived);
+				(*printer)((char*)"Received %d bytes\r\n",bytesReceived);
 				if (totalBytesReceived > 2 && ptr[totalBytesReceived-3] == 0 && ptr[totalBytesReceived-2] == 0xfe && ptr[totalBytesReceived-1] == 0xff) break; // positive confirmation was enabled
 			}
 			delete(sock);
@@ -326,7 +326,7 @@ SOURCE:
 			Log(STDTRACELOG,(char*)"%s",ptr);
 
 			// we say that  until :exit
-			printf((char*)"%s",(char*)"\r\n>    ");
+			(*printer)((char*)"%s",(char*)"\r\n>    ");
 			ReadALine(ptr,source,100000 - 100);
 			strcat(ptr,(char*)" "); // never send empty line
 			if (!strnicmp(SkipWhitespace(ptr),(char*)":quit",5)) break;
@@ -337,7 +337,7 @@ SOURCE:
 				len = (ptr-data) + 1 + strlen(ptr);
 				sock = new TCPSocket(serverIP, (unsigned short)port);
 				sock->send(data, len );
-				printf((char*)":restart sent data to port %d\r\n",port);
+				(*printer)((char*)":restart sent data to port %d\r\n",port);
 
 				int bytesReceived = 1;              // Bytes read on each recv()
 				int totalBytesRead = 0;         // Total bytes read
@@ -348,16 +348,16 @@ SOURCE:
 					bytesReceived = sock->recv(inbase, MAX_WORD_SIZE);
 					totalBytesRead += bytesReceived;
 					inbase += bytesReceived;
-					printf((char*)"Received %d bytes\r\n",bytesReceived);
+					(*printer)((char*)"Received %d bytes\r\n",bytesReceived);
 					if (totalBytesRead > 2 && ptr[totalBytesRead-3] == 0 && ptr[totalBytesRead-2] == 0xfe && ptr[totalBytesRead-1] == 0xff) break; // positive confirmation was enabled
 				}
 				delete(sock);
 				*inbase = 0;
 				Log(STDTRACELOG,(char*)"%s",ptr); 	// chatbot replies this
 
-				printf((char*)"%s",(char*)"\r\nEnter client user name: ");
+				(*printer)((char*)"%s",(char*)"\r\nEnter client user name: ");
 				ReadALine(word,source);
-				printf((char*)"%s",(char*)"\r\n");
+				(*printer)((char*)"%s",(char*)"\r\n");
 				from = word;
 				goto restart;
 			}
@@ -399,7 +399,7 @@ static unsigned int errorCount = 0;
 static time_t lastCrash = 0;
 static int loadid = 0;
 
-clock_t startServerTime;
+uint64 startServerTime;
 
 #ifndef WIN32 // for LINUX
 #include <pthread.h> 
@@ -414,7 +414,6 @@ static pthread_cond_t  server_done_var   = PTHREAD_COND_INITIALIZER;	// server r
 #else // for WINDOWS
 #include <winsock2.h>    
 HANDLE  hChatLockMutex;    
-int     ThreadNr;     
 CRITICAL_SECTION LogCriticalSection; 
 CRITICAL_SECTION TestCriticalSection; 
 #endif
@@ -432,7 +431,7 @@ void* RegressLoad(void* junk)// test load for a server
 	if (!in) return 0;
 	
 	char buffer[8000];
-	printf((char*)"\r\n\r\n** Load %d launched\r\n",++loadid);
+	(*printer)((char*)"\r\n\r\n** Load %d launched\r\n",++loadid);
 	char data[MAX_WORD_SIZE];
 	char from[100];
 	sprintf(from,(char*)"%d",loadid);
@@ -469,7 +468,7 @@ void* RegressLoad(void* junk)// test load for a server
 		{
 			size_t len = (ptr-data) + 1 + strlen(ptr);
 			++volleys;
-			clock_t start_time = ElapsedMilliseconds();
+			uint64 start_time = ElapsedMilliseconds();
 
 			TCPSocket *sock = new TCPSocket(serverIP, port);
 			sock->send(data, len );
@@ -484,7 +483,7 @@ void* RegressLoad(void* junk)// test load for a server
 				totalBytesReceived += bytesReceived;
 				base += bytesReceived;
 			}
-			clock_t end_time = ElapsedMilliseconds();
+			uint64 end_time = ElapsedMilliseconds();
 	
 			delete(sock);
 			*base = 0;
@@ -494,7 +493,7 @@ void* RegressLoad(void* junk)// test load for a server
 			if (diff > 5000) ++ xlongVolleys;
 			currentCycleTime += diff;
 			// chatbot replies this
-		//	printf((char*)"real:%d avg:%d max:%d volley:%d 2slong:%d 5slong:%d %s => %s\r\n",diff,avgTime,maxTime,volleys,longVolleys,xlongVolleys,ptr,base);
+		//	(*printer)((char*)"real:%d avg:%d max:%d volley:%d 2slong:%d 5slong:%d %s => %s\r\n",diff,avgTime,maxTime,volleys,longVolleys,xlongVolleys,ptr,base);
 		}
 		catch(SocketException e) { myexit((char*)"failed to connect to server\r\n");}
 		if (++counter == 100) 
@@ -503,14 +502,14 @@ void* RegressLoad(void* junk)// test load for a server
 			cycleTime = currentCycleTime;
 			currentCycleTime = 0;
 			avgTime = cycleTime / 100;
-			printf((char*)"From: %s avg:%d max:%d volley:%d 2slong:%d 5slong:%d\r\n",from,avgTime,maxTime,volleys,longVolleys,xlongVolleys);
+			(*printer)((char*)"From: %s avg:%d max:%d volley:%d 2slong:%d 5slong:%d\r\n",from,avgTime,maxTime,volleys,longVolleys,xlongVolleys);
 		}
 		else msg++;
 	}
 	return 0;
 }
 
-void LogChat(clock_t starttime,char* user,char* bot,char* IP, int turn,char* input,char* output)
+void LogChat(uint64 starttime,char* user,char* bot,char* IP, int turn,char* input,char* output)
 {
 	struct tm ptm;
 	char* date = GetTimeInfo(&ptm,true)+SKIPWEEKDAY;
@@ -518,7 +517,7 @@ void LogChat(clock_t starttime,char* user,char* bot,char* IP, int turn,char* inp
 	memmove(date+3,date+4,13); // compress out space
 	char* why = output + strlen(output) + 3; //skip terminator + 2 ctrl z end marker
 	char* activeTopic = why + strlen(why) + 1;
-	clock_t endtime = ElapsedMilliseconds(); 
+	uint64 endtime = ElapsedMilliseconds(); 
 	char* nl = (LogEndedCleanly()) ? (char*) "" : (char*) "\r\n";
 	if (*input) Log(SERVERLOG,(char*)"%sRespond: user:%s bot:%s ip:%s (%s) %d %s  ==> %s  When:%s %dms %s\r\n", nl,user,bot,IP,activeTopic,turn,input,Purify(output),date,(int)(endtime - starttime),why);
 	else Log(SERVERLOG,(char*)"%sStart: user:%s bot:%s ip:%s (%s) %d ==> %s  When:%s %dms Version:%s Build0:%s Build1:%s %s\r\n",nl, user,bot,IP,activeTopic,turn,Purify(output),date,(int)(endtime - starttime),version,timeStamp[0],timeStamp[1],why);
@@ -603,7 +602,7 @@ static bool ClientGetChatLock()  //LINUX
     return true;
 }
 
-static bool ClientWaitForServer(char* data,char* msg,unsigned long& timeout) //LINUX
+static bool ClientWaitForServer(char* data,char* msg,uint64& timeout) //LINUX
 {
 	timeout = GetFutureSeconds(120);
 	serverFinishedBy = timeout - 1;
@@ -634,11 +633,11 @@ static void LaunchClient(void* junk) // accepts incoming connections from users 
 		 {
 			case EAGAIN: 
 			  x = sysconf( _SC_THREAD_THREADS_MAX );
-			  printf((char*)"create thread failed EAGAIN limit: %d \r\n",(int)x);   
+			  (*printer)((char*)"create thread failed EAGAIN limit: %d \r\n",(int)x);   
 			  break;
-			case EPERM:  printf((char*)"create thread failed EPERM \r\n");   break;
-			case EINVAL:  printf((char*)"create thread failed EINVAL \r\n");   break;
-			default:  printf((char*)"create thread failed default \r\n");   break;
+			case EPERM:  (*printer)((char*)"create thread failed EPERM \r\n");   break;
+			case EINVAL:  (*printer)((char*)"create thread failed EINVAL \r\n");   break;
+			default:  (*printer)((char*)"create thread failed default \r\n");   break;
 		 }
 	 }
 }
@@ -743,11 +742,14 @@ static bool ClientGetChatLock()
 {
 	// wait to get attention of chatbot server
 	DWORD dwWaitResult;
-	DWORD time = ElapsedMilliseconds();
-	while ((ElapsedMilliseconds()-time)  < 100000) // loop to get control over chatbot server 
+	uint64 time = ElapsedMilliseconds();
+    uint64 time1;
+    uint64 diff = 0;
+	while (diff < 100000) // loop to get control over chatbot server 
     {
 		dwWaitResult = WaitForSingleObject(hChatLockMutex,100); // try and return after 100 ms
-        // we now know he is ready, he released the lock, unless it is lying around foolishly
+        time1 = ElapsedMilliseconds();
+        diff = time1 - time;
 		if (dwWaitResult == WAIT_TIMEOUT) continue; // we didnt get the lock
         else if (!chatbotExists || chatWanted) ReleaseMutex(hChatLockMutex); // not really ready
         else return true;
@@ -755,10 +757,10 @@ static bool ClientGetChatLock()
 	return false;
 }
 
-static bool ClientWaitForServer(char* data,char* msg,unsigned long& timeout) // windows
+static bool ClientWaitForServer(char* data,char* msg,uint64& timeout) // windows
 {
 	bool result;
-	DWORD startTime = ElapsedMilliseconds();
+	uint64 startTime = ElapsedMilliseconds();
 	timeout = startTime + (120 * 1000);
 	serverFinishedBy = timeout - 1000;
 
@@ -821,7 +823,7 @@ void PrepareServer()
 void handle_message(const std::string & message)
 {
 	char* buffer = (char*)  message.c_str();
-	printf("received %s\r\n", buffer);
+	(*printer)("received %s\r\n", buffer);
 	char* ascii1 = buffer;
 	while ((ascii1 = strchr(ascii1, 1))) *ascii1 = 0; // allow ascii 1 instead of 0 as separator for JavaScript conventions.
 	char* user = buffer;
@@ -853,7 +855,7 @@ void InternetServer()
 		while (true) {
 			ws->poll(-1);
 			ws->dispatch(handle_message);
-			printf("sent %s\r\n", ourMainOutputBuffer);
+			(*printer)("sent %s\r\n", ourMainOutputBuffer);
 			ws->send(ourMainOutputBuffer);
 		}
 		ws->close();
@@ -882,7 +884,7 @@ static void* AcceptSockets(void*) // accepts incoming connections from users
             TCPSocket *sock = serverSocket->accept();
 			LaunchClient((void*)sock);
          }
-	} catch (SocketException &e) {printf((char*)"%s",(char*)"accept busy\r\n"); ReportBug((char*)"***Accept busy\r\n")}
+	} catch (SocketException &e) {(*printer)((char*)"%s",(char*)"accept busy\r\n"); ReportBug((char*)"***Accept busy\r\n")}
     myexit((char*)"end of internet server");
 	return NULL;
 }
@@ -906,7 +908,7 @@ static void* Done(TCPSocket * sock,char* memory)
 
 static void* HandleTCPClient(void *sock1)  // individual client, data on STACK... might overflow... // WINDOWS + LINUX
 {
-	clock_t starttime = ElapsedMilliseconds(); 
+	uint64 starttime = ElapsedMilliseconds(); 
 	char* memory = (char*) malloc(4 + 100 + INPUT_BUFFER_SIZE + outputsize + 8); // our data in 1st chunk, his reply info in 2nd - 80k limit
 	if (!memory) return NULL; // ignore him if we run out of memory
 	char* output = memory+SERVERTRANSERSIZE;
@@ -1020,10 +1022,10 @@ static void* HandleTCPClient(void *sock1)  // individual client, data on STACK..
  			return Done(sock,memory);
 	  }
 
-	 clock_t serverstarttime = ElapsedMilliseconds(); 
+	 uint64 serverstarttime = ElapsedMilliseconds(); 
 
 	 // we currently own the lock,
-	 unsigned long endWait = 0;
+	 uint64 endWait = 0;
      bool success = true;
 	 try{
  		chatWanted = true;	// indicate we want the chatbot server - no other client can get chatLock while this is true
@@ -1044,7 +1046,7 @@ static void* HandleTCPClient(void *sock1)  // individual client, data on STACK..
 
 		sock->send(output, len);
 } catch (...)  {
-		printf((char*)"%s",(char*)"client socket fail\r\n");
+		(*printer)((char*)"%s",(char*)"client socket fail\r\n");
 		}
 
 	delete sock;
@@ -1080,10 +1082,10 @@ static void* MainChatbotServer()
 {
 	ServerStartup(); //   get initial control over the mutex so we can start. - on linux if thread dies, we must reacquire here 
 	// we now own the chatlock
-	clock_t lastTime = ElapsedMilliseconds(); 
+	uint64 lastTime = ElapsedMilliseconds(); 
 	if (setjmp(scriptJump[SERVER_RECOVERY])) // crashes come back to here
 	{
-		printf((char*)"%s",(char*)"***Server exception0\r\n");
+		(*printer)((char*)"%s",(char*)"***Server exception0\r\n");
 		ReportBug((char*)"***Server exception0\r\n")
 #ifdef WIN32
 		char* bad = GetUserVariable((char*)"$cs_crashmsg");
@@ -1097,7 +1099,7 @@ static void* MainChatbotServer()
 	bool oldserverlog = serverLog;
 	serverLog = true;
 	Log(SERVERLOG,(char*)"Server ready - logfile:%s serverLog:%d userLog:%d\r\n\r\n",serverLogfileName,oldserverlog,userLog);
-	printf((char*)"Server ready - logfile:%s serverLog:%d userLog:%d\r\n\r\n",serverLogfileName,oldserverlog,userLog);
+	(*printer)((char*)"Server ready - logfile:%s serverLog:%d userLog:%d\r\n\r\n",serverLogfileName,oldserverlog,userLog);
 	serverLog = oldserverlog;
 	int returnValue = 0;
 
@@ -1148,7 +1150,7 @@ RESTART_RETRY:
 		{
 			Restart();
 			Log(SERVERLOG,(char*)"Server ready - logfile:%s serverLog:%d userLog:%d\r\n\r\n",serverLogfileName,oldserverlog,userLog);
-			printf((char*)"Server restarted - logfile:%s serverLog:%d userLog:%d\r\n\r\n",serverLogfileName,oldserverlog,userLog);
+			(*printer)((char*)"Server restarted - logfile:%s serverLog:%d userLog:%d\r\n\r\n",serverLogfileName,oldserverlog,userLog);
 			char* at = SkipWhitespace(ourMainInputBuffer);
 			if (*at != ':')	goto RESTART_RETRY;
 			strcpy(ourMainOutputBuffer,"Restarted");

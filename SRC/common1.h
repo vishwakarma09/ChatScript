@@ -7,9 +7,11 @@ typedef signed long long  int64;
 
 #define MAX_ARGUMENT_COUNT 400 //  assume 10 args 40 nested calls max. 
 extern char* callArgumentList[MAX_ARGUMENT_COUNT+1];    //   function callArgumentList
-extern unsigned int callArgumentBase;
+extern int callArgumentBase;
+extern int fnVarbase;
 
 #define ARGUMENT(n) callArgumentList[callArgumentBase+n]
+#define FNVAR(n) callArgumentList[fnVarbase+atoi(n)+1] // ^0 is index 1
 char* ReadCompiledWord(char* ptr, char* word,bool noquote = false,bool var = false,bool nolimit = false);
 char* ReadCompiledWordOrCall(char* ptr, char* word,bool noquote = false,bool var = false);
 

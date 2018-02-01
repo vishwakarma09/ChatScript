@@ -484,7 +484,7 @@
  <not_much> ~no
  <not_on_your_life ~no
  <not_particularly ~no
- <not_really ~no
+ <not_really> ~no
  <not_so_much> ~no
  <not_that_I_know_of ~no
  <not_to_my_knowledge> ~no

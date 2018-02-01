@@ -1,200 +1,235 @@
 # ChatScript Debugger Manual
 © Bruce Wilcox, mailto:gowilcox@gmail.com www.brilligunderstanding.com
-<br>Revision 4/8/2017 cs7.31
+<br>Revision 1/31/2018 cs8.0  
 
-# Debugging in and out
+You can run an interactive debugger environment (IDE) if you have Windows.
+You launch it by going to BINARIES and double clicking on ChatScript IDE.
+It will load your bot, just as running ChatScript will. 
+And you can type input into the input window and see output in the output window
+just like normal ChatScript. But you can do so much more...
 
-While it is possible to connect ChatScript to a GUI IDE for debugging (if you create one because CS does not come with one natively),
-CS also has a text command debugger analogous to GDB in LINUX.
+You can set breakpoints on lines of code, be they actions in a macro, rules in a topic,
+or the topic itself. You can break on when CS will output a message to the user
+(to see where it comes from). You can break on change in value of a variable.
+You can single step in, over, out. You can display values of user, system, and match variables.
 
-You enter the debugger via 
+# Running the IDE
 
-    :debug
+Before you can run the IDE you should compile your scripts under
+CS 8.0 or higher. You can actually do that from the IDE itself.
+
+The IDE is a wrapper around the CS engine. Instead of launching
+`ChatScript.exe` from BINARIES you launch `ChatScriptIDE.exe`.
+This will load your project just as the main engine does and then
+come to rest in the IDE, awaiting your commands.
+
+# The display
 
-which begins a local command loop. Resume normal execution via
+![Debugger Screen Image](debuggerdisplay.png)
 
-    go  
-    
-or 
+## Script window
+The script window displays your source file, information on the 
+debugger commands, debugging commands (:xxx), IDE commands, and system
+variables (and imporant CS interchange variables). 
 
-    g
+Your script files will also be displayed when you request it (:i filename) or
+when some breakpoint requires it to show you where you are.
 
-The debug command can also have one of the debug commands after it, e.g.
+The script window has your code. To the left of that are line numbers from the file.
+And to the left of the line numbers are CS tag id's of rules.
+IF you have a breakpoint set, you will see a B between the line
+number and your script. The entire area of of tags and line numbers is clickable
+to enable and disable a breakpoint at that line.
 
-    :debug break ^fn1 ~topic1 ^fn2
+The window is also sensitive to having parts of your script clicked upon.
+If you click on a variable, be it $var, _var, %var, ^var, or @nvar, the
+current value will get added to the variables window and the value constantly
+displayed there. An @n variable shows the count of how many facts it has.
+You can remove an entry from the variables window by clicking on it.
 
-## Variable and JSON displays
+Clicking on a function name will change the script window to display that function.
+The debugger will highlight where it is in blue. When you are executing your code
+and the debugger enters a breakpoint of some kind, the script window will
+show you where you currently are, displaying your script and highlighting in blue
+where you are. It will also put << to the left of rule tags/line numbers to indicate
+this is where you actually are. The callstack of where you are will be displayed in the
+stack window.
 
-While in the debugger, you can display $variables just by typing in their name(s).
+If you click on a rule label (like that in a ^reuse) then the system
+will take you to that label.
 
-    $myvar $_yourvar
+Clicking on a concept or topic name will change the script window to that's definition.
 
-If you know the name of a JSON unit, you can just type that and get a display of the array or object.
+### File names title bar
 
-    jo-44
+The first line is a list of "windows" you can see. The first name
+in the list is always the current windows, and if you left-click on something
+else in that list, it is moved to first position and displayed.
 
+If the bar gets too crowded, right-click on a name and the name is removed from the bar.
 
-## Source locations
+### Who talking to whom
+Above the file names title bar is text that shows you the current
+username and the current bot name and botid.  `bob=>rose(0)
 
-Typing the name of a function or topic will tell you the file and line number of it.
+### Breakpoints
 
-## Breakpoints
+Left-click before a script line (in the number or tag area) and the system will
+establish a breakpoint (and put a B after the line number). If your
+code executes to that point, it will stop and give you control.
+Click again in the same area and the breakpoint is removed.
 
-You can set breakpoints that will trigger the debugger on a variety of conditions. And you can 
-name multiple conditions at once. E.g.,
+If you Right-click before a script line, the system create a transient
+breakpoint there and run code. The breakpoint will be removed when execution is
+stopped by some breakpoint (that one or a different one).
 
-    break ^myfunction ~mytopic ~mytopic.myrule
+# Input window
 
+Here is where you type input for CS or for the IDE.
 
-## Function breakpoints
+IDE input is prefixed with `:i`. Naming a function or variable or 
+concept set is just like clicking on it in the script window. It will put 
+the variable in the variables window or display the code in the script window.
+```
+:i ~control
+```
+Above is the classic way to bring up the control script whereby you
+can then set a breakpoint. And if you type in a rule label as argument,
+it will take you to that label. Handy when you know where you want to debug
+in particular.
 
-A function breakpoint will, by default, break on entry and break on exit. On entry it shows the 
-function and its arguments. On exit it shows the value being returned and any error status.
+If the engine is currently running, you can give IDE commands but the IDE will refuse
+input for the engine.
 
-You can restrict a function to only breaking on entry or exit by suffixing the name with @i or
-@o. Like 
+# Output window
 
-    break ^myfunc@i
+Messages from the IDE as well as results or tracing from the engine are
+displayed here. While it is scrollable, if too much information is in the buffer
+it will truncate the older output.
 
-You can delete a breakpoint by putting `!` in front of the base name. E.g.
+# Callstack window
 
-    break ^myfunc !^otherfunc
+When you are in the IDE at a breakpoint, this shows you the calling
+hierarchy of where you are.  Each scope is numbered (low is deepest, high is most recent).
+The possible scopes are a topic, a rule, a function, an if, or a while.
+Scopes that have output actions (rules, if, while, function), will display that you are
+at that scope by displaying it with `()`. You cannot walk in and execute code
+within a pattern or an if test or a loop count evaluation, so when the scope is
+within executable output, it will display it with `{n}`, where `n` is the internal
+code offset of where you are, and it will show you the upcoming code it is about to
+execute. There is also `lvl:n` data, which is internal data about what recursive level
+the output interpreter is at (mostly irrelevant to you).
 
-Every time you call break, it prints out a summary of the breakpoints still set. So if you
-call break with no names, it just lists what you have.
+If you click on one of these scope lines, the system will display the code of that 
+scope in the script window and any local variables ($_xxx and ^xxx) in the variables
+window. It will have a title of `local variables`. 
 
-## Topic breakpoints
+# Variables window
 
-A topic breakpoint will break on entry and exit of topic by whatever manner (normal, `^gambit`, `^rejoinder`,
-`^reuse`, etc). 
+This window shows current values of global variables you have requested (updated whenever
+you end up in the IDE). If you clicked on a scope line, it shows the values of local variables
+for that scope. You can flip back to viewing globals by pressing the `globals` button.
 
+When variables are displayed, after the variable it tells you how many characters the value 
+has.
 
-## Rule breakpoints
+If you click to the left of a global variable, it will set a breakpoint for when the 
+value of that variable changes and will put a B before it. Click again in that 
+area and it removes the breakpoint.
 
-A rule can broken upon by doing 
+# System resource information
 
-     break ~mytopic.label
-     
-where label is either the label of a rule or its tag (e.g., `1.0` for the 2nd top level rule of the topic).
+At the bottom of the main window the system prints out useful 
+statistics about resource usage. It shows you how much of a resource
+is currently in use, and what the least amount available has ever been seen.
 
+'Memory' is the available space for stack + heap. If this gets down
+toward 10M, you might want to allocate more text space to the program.
 
-## Abnormal breakpoints
+'Buffer' is how many preallocated large buffers (typically 80K) are in use.
+If it gets to be <10, you might want to allocate more.
 
-You can name 
+`DICT` is how many dictionary entries are available. Less than 5K
+probably indicates you want to allocate more.
 
-    abort 
-    
-to request a breakpoint if the system is about to exit due to abnormal conditions.
+`FACT` is how many facts are available to be created. Less than 5K
+probably indicates you want to allocate more.
 
+# Sentence window
 
-## Variable Assigns
+The window above the script window tells you information about the
+current user input. By default it shows you the `adjusted` input, what the
+tokenizer and various NLP corrections have been made to result in the input 
+the system is actually processing at present. 
 
-A different kind of breakpoint is a variable assign, that is, when a variable has its value changed.
-You can list multiple variables in a single request.
+Click anywhere in the sentence box and it changes to show you the 
+`raw` input, what the user provided (after tokenization).
 
-    = $myvar  $_hisvar
+Click again and it shows you the `canonical` form of the input.
 
-The breakpoint will tell you the new value it is taking on. Be aware that if you break on a local variable like 
-`$_myvar` then you break on the next change to it in whatever topic or function it is within. You may, if you want,
-create a restricted breakpoint for $_vars like this: 
+#  Buttons
 
-    ^myfunc.$_myvar
-    
-or 
+## Go
+Resume execution until complete or a new breakpoint is hit.
 
-    ~mytopic.$_myvar
+## In
+Try to go in deeper into the current thing. For a topic that will be its first rule.
+For a rule, if the pattern matches, it will be the output of it.
+For a function it will be the code of the function.
 
+If the system cannot go in, it will stop at the next available
+opportunity. Ie., the next action, rule, pass out of the function or topic.
 
-## Clearing Breakpoints
+## Out 
+Leave the current level of behavior and stop as soon thereafter.
+For a topic, it leaves the topic, for a rule it leaves the topic.
+If within actions of a rule, it leaves that rule. For a function
+it leaves that function.
 
-    clear 
+## Next
+Stay at the current level of behavior. If at a topic, move on to
+the next topic (having executed all its rules). If a rule, move on to the next rule (possibly having executed
+all its actions). If a function, step over the function (executing 
+all its actions) and return to caller. If withing actions of a function
+then execute the current action and move to the next one.
+If inside a rule, do the current action and move to the next.
 
-will remove all breakpoints including variable assigns.
+## Stop
 
-## Backtrace
+If the engine is currently executing script, stop that execution as
+soon as possible and enter the IDE. Otherwise note that you want to stop, so
+that on the next user input the IDE takes control immediately.
 
-    where 
+## Msg
+Breakpoint when the system wants to print output to the user. This is useful
+to see why you are getting the output you get.
 
-will print out a backtrace of where you are in terms of topics, rules, and functions.
+## Fail
+Breakpoint if any system function return a failure code. These typically
+suggest you passed it bad arguments. With this, you can see when this happens.
 
-## Controlled execution
+## Clear
+Remove all breakpoints currently set (not including variable breaks).
 
-You can step from action to action in your code by typing 
+## Global
+Restore variable window to showing global variables if it is currently
+showing locals of some callframe.
 
-    s    
+## Back
+As you move from location to location in the stack window, you create
+a breadcrumb trail, and `Back` will take you back from where you were.
+If you need to rapidly return to where you are currently executing code,
+just click on the last callframe in the stack window.
 
-or 
+## -Font+
+Changes the font size. Left click for smaller. Right click for bigger.
 
-    step
-     
-Which is equivalent to `step across`. This will execute the next thing at the current level 
-(maybe a function call, rule test, assignment or whatever). It will then
-display what code it executed, what value was returned, and what code would be executed next. 
 
-When you are at  a rule, `s` moves to the next rule. Alternatively, you can ask the system to execute rules
-in a topic until it comes to one that would match by saying 
 
-    step match
-    
-It will stop before entering the output of the rule or until it leaves the topic.
 
-If you discover that the executed code called a function that did something wrong and you want to
-watch it, you can type 
 
-    redo in
 
-which will retry that same piece of code, but this time going in instead of stepping over.
 
-You can step out from a function or topic by typing 
 
-    out
-    
-which will execute code until it leaves the current function or topic or rule. 
-topic is confusing when you have rules.
-If stepping out returns to code which has nothing left to do, 
-that code will also complete and the system will pop out to the next level.
 
-You can step in from an action in your code by typing 
 
-    in
-
-This will execute one or more bits of code until it calls into some function or exits the current scope entirely.
-
-## Executing script and other debug commands
-
-You can type in a 
-
-    do
-
-command, which is analogous to `:do`, which allows you to set variables, execute script functions, etc. 
-
-
-## Sourcing a file of debug commands
-
-The command 
-
-    source filename
-
-will take debugger input from the named file (with a .txt suffix added to the name) 
-where the file is in a top level folder called `debug`. Any command that
-resumes execution (like `go`, `in`, `out`, `s`) will terminate reading from the file.
-
-In addition, you can create a file to automatically execute on a breakpoint. The name of the breakpoint
-should be the name of the file in the debug directory (with .txt added). When a function named the same
-as such a file has a breakpoint on entry, it will execute the commands. Similarly whenever a topic
-has a breakpoint on entry, it will execute its commands.
-
-
-## Hooking up to a GUI IDE
-
-The debugger can swap out its stdin and stdout interactions with the user with functions supplied on the
-`InitSystem` interface. The functions take a single argument `char*` and either get a line of input or write
-out a line of outout.
-
-
-## MAP file
-
-The compiler builds a map file used by the debugger to know what files have what and what lines have what.
-
-In addition, for every rule and function at the end of their data, the system prints out
-the `cyclomatic complexity` of the output code.

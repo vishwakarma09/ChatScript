@@ -67,7 +67,7 @@ resume:
 		{
 			char* remap = AllocateStack(NULL, MAX_BUFFER_SIZE);
 			strcpy(remap,word1); // for tracing
-			if (*word1 == '^' && IsDigit(word1[1])) strcpy(word1,callArgumentList[atoi(word1+1)+fnVarBase]);  // simple function var, remap it
+			if (*word1 == '^' && IsDigit(word1[1])) strcpy(word1,FNVAR(word1+1));  // simple function var, remap it
 			char* found;
 			if (word1[0] == LCLVARDATA_PREFIX && word1[1] == LCLVARDATA_PREFIX) 
 				found = word1 + 2;	// preevaled function variable
@@ -161,6 +161,10 @@ char* HandleIf(char* ptr, char* buffer,FunctionResult& result)
 	// after { }  chosen branch is offset to jump to end of if
 	bool executed = false;
 	*buffer = 0;
+    CALLFRAME* oldframe = GetCallFrame(globalDepth);
+    CALLFRAME* frame = ChangeDepth(1, "If()", false);
+    frame->code = ptr;
+
 	while (ALWAYS) //   do test conditions until match
 	{
 		char* endptr;
@@ -213,11 +217,7 @@ char* HandleIf(char* ptr, char* buffer,FunctionResult& result)
 		}
 		else 
 		{
-			ChangeDepth(1,"^if",false,ptr+2);
-			TestIf(ptr+2,result,buffer); 
-			if (!(result & ENDCODES)) strcpy(buffer,"true");
-			else strcpy(buffer,"false");
-			ChangeDepth(-1,"^if",true);
+            TestIf(ptr+2,result,buffer);
 			*buffer = 0;
 		}
 		if (trace & TRACE_OUTPUT  && CheckTopicTrace()) 
@@ -233,7 +233,11 @@ char* HandleIf(char* ptr, char* buffer,FunctionResult& result)
 		if (!(result & ENDCODES)) //   IF test success - we choose this branch
 		{
 			executed = true;
-			ptr = Output(ptr+5,buffer,result); //   skip accelerator-3 and space and { and space - returns on next useful token
+            ptr += 5;
+
+            CALLFRAME* frame = ChangeDepth(0, "If{}", false, ptr);
+            frame->code = ptr;
+            ptr = Output(ptr,buffer,result); //   skip accelerator-3 and space and { and space - returns on next useful token
 			ptr += Decode(ptr);	//   offset to end of if entirely
 			if (*(ptr-1) == 0)  --ptr;// no space after?
 			break;
@@ -252,15 +256,17 @@ char* HandleIf(char* ptr, char* buffer,FunctionResult& result)
 		ptr += 5; //   skip over ELSE space, aiming at the ( of the next condition condition
 	}
 	if (executed && trace & TRACE_OUTPUT  && CheckTopicTrace())  Log(STDTRACETABLOG,"End If\r\n");
-	return ptr;
+    ChangeDepth(-1, "If()", true);
+    
+    return ptr;
 } 
 
 char* HandleLoop(char* ptr, char* buffer, FunctionResult &result)
 {
 	unsigned int oldIterator = currentIterator;
 	currentIterator = 0;
-	ChangeDepth(1,"^Loop",false,ptr+2);
-	ptr = GetCommandArg(ptr+2,buffer,result,0)+2; //   get the loop counter value and skip closing ) space 
+    ChangeDepth(1, "Loop()", false, ptr+2);
+    ptr = GetCommandArg(ptr+2,buffer,result,0)+2; //   get the loop counter value and skip closing ) space 
 
 	char* endofloop = ptr + (size_t) Decode(ptr);
 	int counter;
@@ -269,20 +275,17 @@ char* HandleLoop(char* ptr, char* buffer, FunctionResult &result)
 		int set = GetSetID(buffer);
 		if (set < 0) 
 		{
-			result = FAILRULE_BIT; // illegal id
+            result = FAILRULE_BIT; // illegal id
 			return ptr;
 		}
 		counter = FACTSET_COUNT(set);
 	}
 	else counter = atoi(buffer);
 	*buffer = 0;
-	if (result & ENDCODES) 
-	{
-		return endofloop;
-	}
-	++withinLoop;
+	if (result & ENDCODES) return endofloop;
+    ptr += 5;	//   skip jump + space + { + space
+    ++withinLoop; // used by planner
 
-	ptr += 5;	//   skip jump + space + { + space
 	char* value = GetUserVariable((char*)"$cs_looplimit");
 	int limit = atoi(value);
 	if (limit == 0) limit = 1000;
@@ -293,8 +296,10 @@ char* HandleLoop(char* ptr, char* buffer, FunctionResult &result)
 		counter = limit; //   LIMITED
 		infinite = true; // loop is bounded by defaults
 	}
+    CALLFRAME* frame = ChangeDepth(0, "Loop{}", false, ptr);
 	while (counter-- > 0)
 	{
+        frame->x.ownvalue = counter;
 		if (trace & TRACE_OUTPUT && CheckTopicTrace()) Log(STDTRACETABLOG,(char*)"loop(%d)\r\n",counter+1);
 		FunctionResult result1;
 		Output(ptr,buffer,result1,OUTPUT_LOOP);
@@ -308,7 +313,7 @@ char* HandleLoop(char* ptr, char* buffer, FunctionResult &result)
 			break;//   potential failure if didnt add anything to buffer
 		}
 	}
-	ChangeDepth(-1,"^Loop",true); // allows step out to cover a loop 
+	ChangeDepth(-1,"Loop{}",true); // allows step out to cover a loop 
 	if (trace & TRACE_OUTPUT && CheckTopicTrace()) Log(STDTRACETABLOG,(char*)"end of loop\r\n");
 	if (counter < 0 && infinite) ReportBug("Loop ran to limit %d\r\n",limit);
 	--withinLoop;
@@ -442,7 +447,9 @@ FunctionResult HandleRelation(char* word1,char* op, char* word2,bool output,int&
 		unsigned char* cur1 = GetCurrency((unsigned char*) val1, currency1);
 		unsigned char* cur2 = GetCurrency((unsigned char*) val2, currency2); // use text string comparison though isdigitword calls it a number
 
-		if (*val1 == '#' || !IsDigitWord(val1,AMERICAN_NUMBERS,true) || *val2 == '#' ||  !IsDigitWord(val2,AMERICAN_NUMBERS,true) || cur1 || cur2) //   non-numeric string compare - bug, can be confused if digit starts text string
+		if (*val1 == '#' || !IsDigitWord(val1,AMERICAN_NUMBERS,true) || *val2 == '#' ||  !IsDigitWord(val2,AMERICAN_NUMBERS,true) || 
+            strchr(val1, ':') || strchr(val2, ':') || 
+            strchr(val1,'%') || strchr(val2, '%') || cur1 || cur2) //   non-numeric string compare - bug, can be confused if digit starts text string
 		{
 			char* arg1 = val1;
 			char* arg2 = val2;

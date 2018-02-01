@@ -617,7 +617,7 @@ void WriteUserData(time_t curr, bool nobackup)
 	if (!numberOfTopics)  return; //   no topics ever loaded or we are not responding
 	if (!userCacheCount) return;	// never save users - no history
 	
-	clock_t start_time = ElapsedMilliseconds();
+	uint64 start_time = ElapsedMilliseconds();
 
 	if (globalDepth == 0) currentRule = NULL;
 
@@ -682,16 +682,16 @@ void WriteUserData(time_t curr, bool nobackup)
 	}
 	userVariableThreadList = 0; // flush all modified variables
 	tracedFunctionsIndex = 0;
-	myBot = 0;	// drop ownership of facts
 
 	if (timing & TIME_USER) {
-		int diff = ElapsedMilliseconds() - start_time;
+		int diff = (int)(ElapsedMilliseconds() - start_time);
 		if (timing & TIME_ALWAYS || diff > 0) Log(STDTIMELOG, (char*)"Write user data time: %d ms\r\n", diff);
 	}
 }
 
 static  bool ReadFileData(char* bot) // passed  buffer with file content (where feasible)
 {	
+    loadingUser = true;
 	char* buffer = GetFileRead(loginID,bot);
 	char junk[MAX_WORD_SIZE];
 	*junk = 0;
@@ -726,27 +726,32 @@ static  bool ReadFileData(char* bot) // passed  buffer with file content (where 
 		if (!ReadUserTopics()) 
 		{
 			ReportBug((char*)"User data file TOPICS inconsistent\r\n");
-			return false;
+            loadingUser = false;
+            return false;
 		}
 		if (!ReadUserVariables()) 
 		{
 			ReportBug((char*)"User data file VARIABLES inconsistent\r\n");
-			return false;
+            loadingUser = false;
+            return false;
 		}
 		if (!ReadUserFacts()) 
 		{
 			ReportBug((char*)"User data file FACTS inconsistent\r\n");
-			return false;
+            loadingUser = false;
+            return false;
 		}
 		if (!ReadUserContext()) 
 		{
 			ReportBug((char*)"User data file CONTEXT inconsistent\r\n");
-			return false;
+            loadingUser = false;
+            return false;
 		}
 		if (!ReadRecentMessages()) 
 		{
 			ReportBug((char*)"User data file MESSAGES inconsistent\r\n");
-			return false;
+            loadingUser = false;
+            return false;
 		}
 		if (trace & TRACE_USER) Log(STDTRACELOG,(char*)"user load completed normally\r\n");
 		oldRandIndex = randIndex = atoi(GetUserVariable((char*)"$cs_randindex")) + (volleyCount % MAXRAND);	// rand base assigned to user
@@ -754,15 +759,25 @@ static  bool ReadFileData(char* bot) // passed  buffer with file content (where 
 	userRecordSourceBuffer = NULL;
 	if (traceUniversal) trace = traceUniversal;
 
-	if (!stricmp(traceuser, loginID)) trace = -1;
-	return true;
+	char* at = traceuser;
+	size_t len = strlen(loginID);
+	while (*at && (at = strstr(at, loginID))) // any in list
+	{
+		if (at == traceuser || at[len] == ',' || !at[len]) trace = -1;
+		at += 1;
+	}
+    loadingUser = false;
+    return true;
 }
 
 void ReadUserData() // passed  buffer with file content (where feasible)
 {	
+    myBot = 0;	// drop ownership of facts
+
+	if (server) trace = 0;
 	if (globalDepth == 0) currentRule = NULL;
 
-	clock_t start_time = ElapsedMilliseconds();
+	uint64 start_time = ElapsedMilliseconds();
 
 	// std defaults
 	tokenControl = (DO_SUBSTITUTE_SYSTEM | DO_INTERJECTION_SPLITTING | DO_PROPERNAME_MERGE | DO_NUMBER_MERGE | DO_SPELLCHECK );
@@ -777,13 +792,13 @@ void ReadUserData() // passed  buffer with file content (where feasible)
 	ResetUserChat();
 	if (!ReadFileData(computerID))// read user file, if any, or get it from cache
 	{
-		printf((char*)"%s",(char*)"User data file inconsistent\r\n");
+		(*printer)((char*)"%s",(char*)"User data file inconsistent\r\n");
 		ReportBug((char*)"User data file inconsistent\r\n");
 	}
 	if (shared) ReadFileData((char*)"share");  // read shared file, if any, or get it from cache
 
 	if (timing & TIME_USER) {
-		int diff = ElapsedMilliseconds() - start_time;
+		int diff = (int)(ElapsedMilliseconds() - start_time);
 		if (timing & TIME_ALWAYS || diff > 0) Log(STDTIMELOG, (char*)"Read user data time: %d ms\r\n", diff);
 	}
 	if (server && servertrace) trace = (unsigned int)-1; // complete server trace
@@ -802,6 +817,7 @@ void KillShare()
 
 void ReadNewUser()
 {
+	if (server) trace = 0;
 	if (trace & TRACE_USER) Log(STDTRACELOG,(char*)"New User\r\n");
 	ResetUserChat();
 	ClearUserVariables();
